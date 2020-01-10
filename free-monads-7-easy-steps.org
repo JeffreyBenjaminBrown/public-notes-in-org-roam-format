@@ -1,0 +1,96 @@
+* where I read about this
+https://github.com/graninas/software-design-in-haskell
+* this
+https://joa.sh/posts/2015-09-13-free-monad-steps.html
+* step 1 - define the ops
+** looks like this
+data DcNodeOperator state error next =
+    InitState next
+  | AwaitStateCondition (state -> Bool) (state -> next)
+  | GetState (state -> next)
+  | GetUserInput (String -> next)
+  | ModifyState (state -> state) next
+  | DisplayMessage String next
+  | GetRandomInt Int (Int -> next)
+  | Throw error next
+** "next" might be the same type as "state", or might be "Pure ()"
+see step 3
+* step 2 - make it a functor (automatically)
+** like this
+{-# LANGUAGE DeriveFunctor #-}
+data DcNodeOperator state error next =
+  ...
+  deriving (Functor)
+** GHC is clever enough to derive, e.g.,
+fmap f (GetState g) = GetState (f . g)
+* step 3 - make the "operation functions
+** looks somethign* like this
+  import Control.Monad.Free
+  
+  initState :: Free (DcNodeOperator state error) ()
+  initState = Free (InitServer state error (Pure ()))
+  
+  getState :: Free (DcNodeOperator state error) state
+  getState = Free (GetState state error) id
+** TODO difficulties
+*** I think there's an error in the article
+I believe that when he wrote `getState :: Free (GetState state error) state`,
+he mean `getState :: Free (DcNodeOperator state error) state`. 
+That's how I transcribed it above.
+*** WTF is "id" doing in the definition of `getState`?
+** can be automatic, too
+{-# LANGUAGE TemplateHaskell #-}
+import Control.Monad.Free.TH
+
+makeFree ''DcNodeOperator
+* step 4 - define a monad over a specialization of the type
+  data PeerError = ServerDisconnected
+                 | ServerTimeout
+                 | InvalidPeerState deriving (Show)
+  data PeerState = PeerState { peers :: [Peer]
+                             , listenPort: Port
+                             , peerId :: String  }
+  type DcPeerOperator = DcNodeOperator PeerState PeerError
+  type DcPeer =  -- this define the Monad instance
+    Free DcPeerOperator
+* step 5 - use the new DSL
+initPeer :: DcPeer ()
+initPeer = do
+  initState
+  displayMessage "What port do you want?"
+  enteredPort <- getUserInput
+  modifyState $ port .~ (parse enteredPort)
+  state <- getState
+  displayMessage $ "Using port: " ++ show state ^. port
+
+awaitPeers :: DcPeer [Participant]
+awaitPeers = do
+  state <- awaitStateCondition $ (> 1) . numPeers
+  return $ state ^. peers
+
+peerProgram :: DcPeer ()
+peerProgram = do
+  initPeer
+  peers <- awaitPeers
+  displayMessage $ "Peers: " ++ show peers
+* step 6 - write "interpreters"
+Translate the free monad into something more specific.
+** example code
+type DcPeerIO :: StateT (PeerState) IO
+  -- newtype StateT s m a = StateT { runStateT :: s -> m (a,s) }
+
+peerInterpreter :: DcPeerOperator (DcPeerIO next) -> DcPeerIO next
+peerInterpreter (GetUserInput next) = do
+  userInput <- liftIO getLine
+  next userInput
+peerInterpreter (GetState next) = get >>= next
+peerInterpreter (DisplayMessage m next) = do
+  liftIO $ putStrLn m
+  next
+peerInterpreter (GetRandomInt max next) = do
+  num <- liftIO $ getRandomNumber max
+  next num
+* step 7 - run it
+initialState = PeerState [] 0 ""
+
+runPeer = runStateT (iterM peerInterpreter $ peerProgram) initialState
