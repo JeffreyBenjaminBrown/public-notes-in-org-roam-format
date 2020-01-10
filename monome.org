@@ -1,0 +1,3 @@
+* installing monome
+Search for "from source" here:
+https://monome.org/docs/raspbian/

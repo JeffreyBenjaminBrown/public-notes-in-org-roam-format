@@ -1,0 +1,24 @@
+Optics by Example, by Chris Penner
+* RESUME at
+p. 57 (in the Ctrl-G sense),
+"The universe without lenses"
+* lenses don't fail
+* TODO `lens` seems better than `to` and `sets`
+Can I use it instead of them in Hode?
+* Template Haskell, TH, macros
+makeLenses generates lenses onoly for fields with leading underscores.
+For more control, use makeLensesFor or makeLensesWith.
+* reading the type signatures of optics
+"If you see Functor f it’s probably a lens."
+
+* virtual fields
+are (I guess) isomorphic to fields that actually exist
+** example: treating a Celsius value as if it were Farenheit
+_celsius :: Something -> Float
+celsius :: Lens' Something Float
+
+fahrenheit :: Lens' Something Float
+fahrenheit = lens getter setter
+  where
+    getter = celsiusToFahrenheit . view celsius
+    setter temp f = set celsius (fahrenheitToCelsius f) temp

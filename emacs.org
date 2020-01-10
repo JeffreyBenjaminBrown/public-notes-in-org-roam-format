@@ -1,0 +1,3 @@
+* save, reload desktop
+desktop-save-in-desktop-dir
+desktop-change-dir ;; loads a config

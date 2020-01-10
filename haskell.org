@@ -1,0 +1,22 @@
+* cool GHCI options
+** GHCI config file: run :set by hand less
+https://typeclasses.com/ghci/config
+** +s – Display statistics about time and memory usage after each evaluation.
+** +t – Print an expression’s type after each evaluation.
+** multiline input: :set +m
+** -v – Set higher debug output verbosity
+** -Wall – Enable all compiler warnings
+* Haskell-based environments|tweaks to environment
+** KMonad (keyboard)
+ https://www.reddit.com/r/haskell/comments/dbjrqm/ann_kmonad_an_advanced_keyboard_manager_written/
+ https://github.com/david-janssen/kmonad
+** TerMonad (terminal)
+** XMonad (windowing)
+* GHC 8.8.1 in code/try-version881
+** Problem is recent Nix
+according to something I found when googling this:
+"stack nixos attribute 'ghc881' missing"
+** a configuration change I made (permanently) that didn't help
+In configuration.nix, I added
+  nixpkgs to whatever had pkgs
+  ghc to environment.systemPackages.pkgs
