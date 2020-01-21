@@ -22,3 +22,8 @@ fahrenheit = lens getter setter
   where
     getter = celsiusToFahrenheit . view celsius
     setter temp f = set celsius (fahrenheitToCelsius f) temp
+* "polymorphic" (as opposed to "simple") optics
+ <s>: structure before action
+ <t>: structure after action
+ <a>: focus before action
+ <b>: focus after action
