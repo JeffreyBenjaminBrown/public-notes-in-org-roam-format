@@ -1,0 +1,4 @@
+* messaging apps should make it hard to send to the wrong target
+Optionally, enable any of
+- ask sender to verify the recipient(s) before sending
+- use recipient as background (lightly) to message while writing it
