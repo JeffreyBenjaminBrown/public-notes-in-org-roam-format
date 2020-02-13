@@ -1,0 +1,7 @@
+* haskell, to read
+** finding bottlenecks in big projects
+https://www.tweag.io/posts/2020-01-30-haskell-profiling.html
+** reflection
+https://www.parsonsmatt.org/2020/02/04/mirror_mirror.html
+** kaleidescopes: optics for aggregating
+https://chrispenner.ca/posts/kaleidoscopes
