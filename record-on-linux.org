@@ -1,0 +1,25 @@
+* test the mic
+** find the mic
+Run this
+  arecord -l
+and it will show something like
+  **** List of CAPTURE Hardware Devices ****
+  card 0: PCH [HDA Intel PCH], device 0: ALC3246 Analog [ALC3246 Analog]
+    Subdevices: 1/1
+    Subdevice #0: subdevice #0
+Refer to such devices as "hw:x,y", where x is the card number,
+and y the device number.  
+** record a sample
+arecord -f S16_LE -c 1 -d 4 -r 44100 --device="hw:1,0" /tmp/test-mic.wav
+-f = dunno
+-c = number of channels. 
+  (My current builtin mic has 2; my current USB mic has 1.)
+-d = duration (seconds)
+-r = sample rate
+* capture a screen video (with vocals)
+I'm using SimpleScreenRecorder.
+These settings work: ALSA, MP4, MP3.
+Be sure to choose the input audio device,
+which requires scrolling.
+* strip noise from an audio track
+In Audacity, use "Effects -> Noise Reduction".

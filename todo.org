@@ -1,3 +1,5 @@
+* git diff for org mode
+https://github.com/jessstringham/org-mode-diff
 * haskell, to read
 ** finding bottlenecks in big projects
 https://www.tweag.io/posts/2020-01-30-haskell-profiling.html
