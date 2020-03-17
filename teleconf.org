@@ -1,0 +1,7 @@
+* in general
+Use the external mic.
+It's called AK-something.
+In Alsamixer use F6 to switch between the mic and the default interface,
+the latter being needed for volume control.
+* ms teams
+it worked in Chrome, not Brave
