@@ -1,0 +1,38 @@
+* refs
+https://github.com/synchrony/smsn-mode/wiki/Command-reference
+~/smsn+/smsn-mode/lisp/smsn-commands.el
+* TODO build Docker container with latest .jar
+Try running what does build, and building the rest from within the container.
+Eventually the Dockerfile must get around a permission error.
+Ongoing in Tmux session "smsn", at /home/jeff/smsn+/docker-smsn.
+* document: how to build the Dockerfile
+Run this from the root folder of the smsn/ code:
+  gradle :smsn-server:shadowJar
+Somehwere, that will build a file that matches this regex:
+  smsn-server-*-all.jar
+Copy that to the folder with the Dockerfile.
+* handy files/folders
+~/Encfs/kb-no-encfs/
+~/smsn-mode/lisp/smsn-commands.el
+** ? latest data
+~/_stale/pre-2019-07/smsn,maybe-latest-data/kb-not-encfs/neo4j
+  dec 15, 2018
+/run/media/jeff/shuttle/smsn/kb
+  (encrypted)
+  dec 15, 2018
+~/home/jeff/smsn-resurrect/kb/neo4j
+  dec 10, 2019 -- IMPOSSIBLE
+~/_stale/pre-2019-07/smsn+/kb
+  june 15 2018
+* TODO can't use write-VCS
+https://gist.github.com/JeffreyBenjaminBrown/4324c3d171ffab453af9ba5d61c2b5ec
+* TODO try a git cycle
+* launch script
+docker run --name smsn -it -v /home/jeff/Encfs/kb-no-encfs:/mnt/smsn-data -p 8183:8182 -d -h 127.0.0.1 jeffreybbrown/smsn-develop:2018-02-26
+  # was: smsn-develop:2017-11-24
+* PITFALL: enter the Docker container and run `start`
+* PITFALL: Docker won't mount a folder if encfs is funneling to it
+* ? Do we need to refresh docker-smsn to the latest (dev) branch?
+* fixed set-source was not working
+It started working once I fixed smsn.yaml and updated smsn-mode.
+The move mode command is "s".
