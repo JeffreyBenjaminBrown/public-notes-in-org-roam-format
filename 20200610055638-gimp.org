@@ -1,0 +1,19 @@
+#+title: gimp (software)
+* tools
+** pencil (n)
+5 pixels seems good
+** select rectangle (r)
+** eraser (E)
+** text (t)
+* zoom: ctrl + 2-finger glide
+* delete selection: delete
+* straight line
+via pencil, paintbrush, more:
+click and release, hold shift, move to other end, click and release
+* grids and widths
+easier: just open "empty grid.xcf", under "adam tutoring"
+** overlay grid (as part of image)
+Filters / Render / Pattern / Grid
+spacing 60 x 60, line width 2 x 2
+(there's another grid option that's not part of the image)
+** pencil width: 5

@@ -1,0 +1,7 @@
+#+title: programming languages
+* with properties I like
+** [[file:20200611200823-hamler.org][Hamler (programming language)]]
+** [[file:20200611234116-haskell.org][Haskell]]
+*** lenses in Haskell
+**** Generate lenses for third-party libraries in Haskell
+https://ai-jobs.net/?rdt_cid=3040091042633392170
