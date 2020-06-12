@@ -1,3 +1,5 @@
+#+TITLE: smsn
+#+ROAM_ALIAS: "Semantic Synchrony (software)"
 * refs
 https://github.com/synchrony/smsn-mode/wiki/Command-reference
 ~/smsn+/smsn-mode/lisp/smsn-commands.el

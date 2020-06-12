@@ -1,10 +1,13 @@
 #+title: org-roam
-* TODO Dividing files by repo (the SmSn "source" concept)
-** TODO Write some UI code to ask which source
-** TODO merge tech and music
-and ofiscal? into a single public database.
-Move files only if they're private.
-** The hard way
-Upon making a file, immediately move it to the repo it belongs in, then rebuild the db.
-If the file was created in the course of linking to it from another,
-delete that link, then recreate it, so it links to the new place.
+* [[file:../pers/20200612181439-respond_org_roam_question.org][respond-org-roam-question]]
+* REMEMBER the Discourse group
+* surprise & how it works
+** To use a weird symbol (e.g. '\' or ',') in an alias
+Enclose the whole tag in parens.
+Write '\' as \\.
+* TODO
+** TODO can I make more TODO-like tags for org-mode?
+** TODO how to tab-complete from the middle?
+** TODO how to rename a file?
+ particularly if I can't tab-complete from the middle
+
