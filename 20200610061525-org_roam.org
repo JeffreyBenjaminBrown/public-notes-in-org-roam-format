@@ -1,13 +1,21 @@
 #+title: org-roam
-* [[file:../pers/20200612181439-respond_org_roam_question.org][respond-org-roam-question]]
 * REMEMBER the Discourse group
 * surprise & how it works
+** DONE (learned) linking to headers
+*** only available in version 1.2
+*** create header, then run `org-roam-store-link` (C-c L)
+*** insert it with org-insert-link                (C-c C-l)
+ This is part of org-mode, not org-roam.
+*** this has no link
+** a backlink is not visible until saved
+that is, by saving the file that contains the backlink,
+after creating the backlink
 ** To use a weird symbol (e.g. '\' or ',') in an alias
 Enclose the whole tag in parens.
 Write '\' as \\.
 * TODO
+** TODO update Docker image for org-roam v. 1.2
 ** TODO can I make more TODO-like tags for org-mode?
 ** TODO how to tab-complete from the middle?
 ** TODO how to rename a file?
  particularly if I can't tab-complete from the middle
-
