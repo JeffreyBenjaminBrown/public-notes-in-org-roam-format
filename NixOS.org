@@ -1,0 +1,712 @@
+* PITFALL: Procedurally installed
+** emacs org-roam
+* NixOS overlays
+** I was given advice here
+https://discourse.nixos.org/t/my-first-overlay-for-emacs/7570/2
+but still couldn't figure it out.
+* org-roam for Emacs
+** refs
+*** emacs-overlay
+https://github.com/nix-community/emacs-overlay#latest-master-each-rebuild
+*** threads I started or extended
+**** overlays
+ https://discourse.nixos.org/t/my-first-overlay-for-emacs/7570/1
+**** GitHub/nixpkgs issue on org-roam
+   https://github.com/NixOS/nixpkgs/pull/80280
+**** NixOS Discourse: procedural install
+   https://discourse.nixos.org/t/emacs-can-i-install-a-package-declaratively-after-trying-it-out-procedurally/7559/3
+**** NixOS Discourse: Emacs can't find sqlite3
+  https://discourse.nixos.org/t/emacs-cant-find-sqlite3/7566
+** changes I made
+ < This is a quote from here:
+   https://discourse.nixos.org/t/emacs-can-i-install-a-package-declaratively-after-trying-it-out-procedurally/7559/3
+ >
+ To reach that point I added `sqlite` to the packages in my `environment.systemPackages` variable, and added `use-package` and `emacs-sqlite3` to my emacs packages, rebuilt, installed `org-roam` manually via `package-list-packages`, edited my `.emacs` file per the `org-roam` documentation, then opened a new instance of Emacs.
+** does Emacs know where anything is?
+ From the command line I can run `sqlite3` and it takes me into a SQL REPL. But in Emacs, if I run `(executable-find "sqlite3")` nothing happens, as if it can't find the executable. (Running that is suggested in the org-roam docs, [here](https://org-roam.github.io/org-roam/manual/Post_002dInstallation-Tasks.html#Post_002dInstallation-Tasks).) On the other hand, the same thing (nothing) happens if I evaluate `(executable-find "grep")` (which is also installed) or `(executable-find "dogbreath")` (which is not). So maybe Emacs just doesn't know where anything is?
+* how to upgrade NixOS
+This worked, going from 19.09 to 20.03.
+** Tweak configuration .nix file(s)
+per the release notes for the latest NixOS version.
+** PITFALL: sudo is important for the rest of this
+A lot of it will run without sudo,
+but thereby create stuff that lives in userspace,
+and is for some reason therefore unuseable.
+** update the channel
+*** first check that it's where it should be
+sudo nix-channel --list
+**** which should give something like this
+nixos https://nixos.org/channels/nixos-19.09
+*** sudo nix-channel --add <channel>
+for instance,
+  sudo nix-channel --add https://nixos.org/channels/nixos-20.03 nixos
+*** sudo nix-channel --update
+** rebuild
+sudo nixos-rebuild --upgrade boot
+* user ID problems
+** changing user ID in NixOS is complicated
+*** because it won't let you change the ID of an existing user
+at least not by modifying configuration.nix.
+(It'll compile the changes,
+and announce that it won't apply that change.)
+*** so do this
+Log in as root, not self.
+Remove all users from configuration.nix
+Rebuild and switch.
+Add user again, this time with the ID specified.
+Rebuild and switch.
+** to chmod back to 644 (normal): omit folders
+Otherwise the folder contents cannot be read without sudo.
+sudo find . -type f -print0 | xargs -0 chmod 644
+sudo find . -type d -print0 | xargs -0 chmod 744
+
+find . -type d -print0 | xargs -0 chown 1001
+find . -type f -print0 | xargs -0 chown 1001
+** TODO what is the default group in Kubuntu?
+I have to change not only the id (to jeff=1000),
+but the default group, too.
+*** demo code
+users.groups.students.gid = 1000;  # TODO: Enable.
+                                   # for congruence with KUbuntu system
+** the Ubuntu-NixOS user ID problem
+On my KUbuntu system, "jeff" has default uid 1000;
+on NixOS it's 1001. This creates permissions problems.
+* BLOCKED - awaiting response - my waf issues on StackOverflow
+** TODO With an answer, awaiting response
+https://stackoverflow.com/questions/59805975/nix-building-waf-produces-a-file-but-i-seem-to-need-a-folder/59809635#59809635
+** with only a comment
+https://stackoverflow.com/questions/59806776/nix-write-a-package-that-uses-waf-instead-of-make?noredirect=1#comment105758423_59806776
+* using nix-fetch-git with subumodules
+nix-prefetch-git --fetch-submodules https://github.com/monome/serialosc
+* strings and escape characters
+https://discourse.nixos.org/t/nix-build-fails-because-python-wants-something-thats-unavailable-without-saying-what-it-wants/5675/4
+"you don’t need to escape a single-quote inside a double-quoted string. But this leads to having two single-quotes, which terminates the nix string. You can escape those with another single-quote"
+* TODO file: installing monome
+** BLOCKED asking why serialosc fails to build
+*** refs
+I first posted on stackoverflow, then discourse.nixos. I got my first response on discourse.nixos, but then that same one and another on SO.
+https://stackoverflow.com/questions/59943707/nix-build-fails-because-python-wants-something-thats-unavailable-without-say
+https://discourse.nixos.org/t/nix-build-fails-because-python-wants-something-thats-unavailable-without-saying-what-it-wants/5675/2
+*** notes
+**** nix-shell succeeds silently
+Consider this recorded passage:
+```
+[jeff@jbb-dell:~/nix/jbb-config/custom-packages/serialosc]$ nix-shell https://github.com/JeffreyBenjaminBrown/nixpkgs/archive/2bbd131811991bec9ae6b296b5cd1441640c306c.tar.gz -A serialosc --pure
+
+[nix-shell:~/nix/jbb-config/custom-packages/serialosc]$
+```
+It might look like nothing happened, but notice how the prompt has changed.
+After running the command, I am in the nix-shell.
+*** steps taken by KoviRobi
+**** from bash (alternatives)
+# This pulls from my nixpkgs fork on Github.
+# nix-shell https://github.com/JeffreyBenjaminBrown/nixpkgs/archive/2bbd131811991bec9ae6b296b5cd1441640c306c.tar.gz -A serialosc --pure
+# This uses my local copy.
+nix-shell /home/jeff/nix/nixpkgs-fork -A serialosc --pure
+**** from the nix shell
+# ###################
+mkdir /tmp/delme-serialosc
+cd    /tmp/delme-serialosc
+type genericBuild # prints the genericBuild recipe to screen
+  # KoviRobi somehow read this to know what to do next.
+${unpackPhase:-unpackPhase}
+cd $sourceRoot
+  # sourceRoot = ./serialosc, as stated by the output of the previous step.
+${patchPhase:-patchPhase}
+  # I don't see this doing anything. Did it?
+${configurePhase:-configurePhase}
+  # The error happens here.
+type ${configurePhase:-configurePhase}
+    # The waf script printed from the prior step.
+    # ###########################################
+    # KoviRobi suggests evaluating each of these steps in the nix-shell,
+    # until getting to the python step.
+    # Then run that (described next) in the Python debugger, pdb.
+    runHook preConfigure;
+    if ! [ -f "${wafPath:=./waf}" ]; then
+        echo "copying waf to $wafPath...";
+        cp /nix/store/msja67ann3qlvps7jajnx5zivyl4r715-waf-2.0.18 "$wafPath";
+    fi;
+    if [ -z "${dontAddPrefix:-}" ] && [ -n "$prefix" ]; then
+        wafConfigureFlags="${prefixKey:---prefix=}$prefix $wafConfigureFlags";
+    fi;
+    if true; then
+      local flagsArray=("${flagsArray[@]}" $wafConfigureFlags "${wafConfigureFlagsArray[@]}" ${configureTargets:-configure});
+      echoCmd 'configure flags' "${flagsArray[@]}";
+      python "$wafPath" "${flagsArray[@]}";
+    fi;
+    runHook postConfigure
+
+python -m pdb "$wafPath" "${flagsArray[@]}";
+  # Does this run {configurePhase:-configurePhase} until hitting an error?
+  # Is wafPath the same as {configurePhase:-configurePhase}?
+  # If so, how did you know that?
+
+# from Python debugger
+# ###################
+continue # or cont, or just c
+break /nix/store/lbrpma3528hq7gwn8ffbnwaxvsqah0bb-python-2.7.17/lib/python2.7/subprocess.py:1047
+continue
+up
+# press Return without entering a command to repeat the previous one.
+print(popenargs)
+*** TODO ask in response
+**** how did you find this URL?
+```
+nix-shell https://github.com/JeffreyBenjaminBrown/nixpkgs/archive/2bbd131811991bec9ae6b296b5cd1441640c306c.tar.gz -A serialosc --pure
+```
+**** where are these build phases documented?
+the ones that show up after running `type genericBuild`.
+**** what does this notation mean? why did you skip it?
+When I run `type genericBuild`, I see this list of phases:
+```
+         phases="${prePhases:-} unpackPhase patchPhase ${preConfigurePhases:-}             configurePhase ${preBuildPhases:-} buildPhase checkPhase             ${preInstallPhases:-} installPhase ${preFixupPhases:-} fixupPhase installCheckPhase             ${preDistPhases:-} distPhase ${postPhases:-}";
+```
+In your response you list the phases, but you omit the bracketed expressions. Why? And what do they mean?
+**** I don't see the patchPhase step doing anything. Did it?
+```
+[nix-nshell:/tmp/delme-serialosc/serialosc]$ ${patchPhase:-patchPhase}
+
+[nix-shell:/tmp/delme-serialosc/serialosc]$
+```
+**** How do I replace multiple lines?
+
+** nix-env installations are permanent
+ I installed some things (libuv and libmonome) via `nix-env -f ~/nix/nixpkgs -iA <package name>`. They still work after rebuilding.
+** git submodule update: model code
+~/nix/nixpkgs/pkgs/development/compilers/chez/default.nix
+* TODO audio in NixOS
+** TODO sometimes Qjackctl does not take over
+I can start Qjackctl, and still I can play youtube videos.
+*** when I first launch Qjackctl, I get these messages
+01:06:49.053 Statistics reset.
+01:06:49.064 ALSA connection change.
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+01:06:49.099 ALSA connection graph change.
+*** when I press start in it, I get this
+01:08:22.192 JACK is starting...
+01:08:22.192 /run/current-system/sw/bin/jackd -dalsa -dhw:0 -r48000 -p1024 -n2
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+01:08:22.199 JACK was started with PID=2163.
+no message buffer overruns
+no message buffer overruns
+no message buffer overruns
+jackdmp 1.9.12
+Copyright 2001-2005 Paul Davis and others.
+Copyright 2004-2016 Grame.
+Copyright 2016-2017 Filipe Coelho.
+jackdmp comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see the file COPYING for details
+JACK server starting in realtime mode with priority 10
+self-connect-mode is "Don't restrict self connect requests"
+audio_reservation_init
+Acquire audio card Audio0
+creating alsa driver ... hw:0|hw:0|1024|2|48000|0|0|nomon|swmeter|-|32bit
+configuring for 48000Hz, period = 1024 frames (21.3 ms), buffer = 2 periods
+ALSA: final selected sample format for capture: 32bit integer little-endian
+ALSA: use 2 periods for capture
+ALSA: final selected sample format for playback: 32bit integer little-endian
+ALSA: use 2 periods for playback
+01:08:24.323 JACK connection change.
+01:08:24.323 Server configuration saved to "/home/jeff/.jackdrc".
+01:08:24.323 Statistics reset.
+01:08:24.337 Client activated.
+01:08:24.337 Patchbay deactivated.
+01:08:24.367 JACK connection graph change.
+*** with auto-mute disabled, I futz with the earphone jack, and then I can hear
+** how to add a package
+*** refs
+https://nixos.org/nixos/manual/index.html#sec-custom-packages
+https://nixos.org/nixpkgs/manual/#chap-quick-start
+*** TODO what are these for?
+nixos-rebuild switch -I nixpkgs=/home/jeff/nix/nixpkgs
+/home/jeff/nix/nixpkgs/pkgs/development/libraries/hello-test
+*** 1 - write the package
+**** after manually downloading the source for it
+ In a clone of nixpkgs:
+   Put the package somewhere in pkgs/.
+     Model it after nix pill 8 section 2, at
+     /home/jeff/nix/pills/08/2-generic/
+     NOTE: This requires manually downloading the source code.
+**** with automatic downloading of the source
+ rather than define src = the name of some file that I put there myself,
+ define
+   src = fetchurl {
+     url = ...;
+     sha256 = ...;
+   };
+ To compute sha256, download from the desired URL (but only once)
+ and run sha256sum on it.
+*** 2 - add an appropriate line to pkgs/top-level/all-packages.nix
+e.g. hello-test = callPackage ../development/libraries/hello-test { };
+*** 3 - commands to build it
+At the root of nixpkgs, test whether it builds with
+  nix-build -A <package-name>
+To add it to my user profile, run
+  nix-env -f . -iA <package-name>
+** TODO get RT kernel working
+*** TODO use magnetphon's machine/thinknix files too
+*** discussion here
+https://github.com/musnix/musnix/issues/100
+*** trying because @magnetophon suggests it now, here:
+https://github.com/NixOS/nixpkgs/issues/71283#issuecomment-575458797
+** WORKING ! how to start, use JACK
+*** PITFALL: Test with high frequencies
+A sine wave from SuperCollider at 200 Hz
+is inaudible from my computer's speaker
+(over the sound of central heating).
+
+230 Hz is barely audible.
+*** PITFALL: magic wand effects
+For some reason, when it wasn't working,
+it helped to plug in some headphones halfway.
+That makes me suspect messing with alsamixer could also help.
+*** steps
+Stop audio in ordinary apps (e.g. Spotify, browser).
+  No need to kill the app.
+Start Qjackctl.
+  Use the following settings:
+    * ALSA
+    * hw:0 (or default)
+    * 48 kHz
+    * 256 frames / period
+    * 2 periods / buffer
+  Press start.
+  Once it's available, press play (the right-facing triangle).
+Start SuperCollider.
+  Boot the sound engine.
+  Evaluate this expression:
+    { SinOsc.ar(440, 0, 0.5) }.play;
+** Qjackctl can be used for routing
+Thus spake @magnetophon:
+  https://github.com/NixOS/nixpkgs/issues/71283#issuecomment-574976258
+** TODO file what Bart suggests
+not using musnix
+disabling the jackdbus service and configuring/starting it with qjackctl
+  Get your jackd settings (to be set in the qjackctl GUI) from elsewhere, for example the Arch Pro Audio wiki page
+    https://wiki.archlinux.org/index.php/Professional_audio
+  speaking of which - don't need the packageOverrides unless you want to run 2 qjackctl instances on the same x-server
+https://github.com/NixOS/nixpkgs/issues/71283#issuecomment-574083024
+I think the kernels are actually only broken for unstable.
+The nixos version is what determines the version of everything you configure in configuration.nix, and the nixpkgs version is for everything you install ad-hoc, via nix-env.
+So no need to change both.
+** TODO consider AcouBass's config
+https://gist.github.com/AcouBass/4f5bcb3410f14bd5063a718b1d53bc4c
+** the "Unsupported relocation type" error
+*** It's already known
+https://github.com/musnix/musnix/issues/100
+*** I get it when building
+my configuration, audio branch,
+commit 6a880d983f816db5b4f675c8236df734d09c249e,
+after commenting out the line kernel.packages = pkgs.linuxPackages_4_19_rt;, and build
+*** the error I get
+after building for more than an hour:
+
+make[2]: 'vmlinux' is up to date.
+  CC      arch/x86/boot/a20.o
+  CC      arch/x86/boot/cmdline.o
+  AS      arch/x86/boot/copy.o
+  HOSTCC  arch/x86/boot/mkcpustr
+  CC      arch/x86/boot/cpuflags.o
+  CC      arch/x86/boot/cpucheck.o
+  CC      arch/x86/boot/early_serial_console.o
+  CC      arch/x86/boot/edd.o
+  LDS     arch/x86/boot/compressed/vmlinux.lds
+  AS      arch/x86/boot/compressed/head_64.o
+  VOFFSET arch/x86/boot/compressed/../voffset.h
+  CC      arch/x86/boot/compressed/string.o
+  CC      arch/x86/boot/compressed/cmdline.o
+  CC      arch/x86/boot/compressed/error.o
+  OBJCOPY arch/x86/boot/compressed/vmlinux.bin
+  RELOCS  arch/x86/boot/compressed/vmlinux.relocs
+Unsupported relocation type: R_X86_64_PLT32 (4)
+make[4]: *** [../arch/x86/boot/compressed/Makefile:118: arch/x86/boot/compressed/vml
+inux.relocs] Error 1
+make[3]: *** [../arch/x86/boot/Makefile:111: arch/x86/boot/compressed/vmlinux] Error
+ 2
+make[2]: *** [arch/x86/Makefile:245: bzImage] Error 2
+make[1]: *** [Makefile:150: sub-make] Error 2
+make: *** [Makefile:24: __sub-make] Error 2
+builder for '/nix/store/jnf08s29n2cm0nc2v3dwiglzgykp8n3i-linux-4.9.35-rt25.drv' fail
+ed with exit code 2
+cannot build derivation '/nix/store/nbmvjyrvf2qfa3adwgdbjqx2jaam1fyi-nixos-system-jb
+b-dell-19.09.1850.5dc4d071ffe.drv': 1 dependencies couldn't be built
+error: build of '/nix/store/nbmvjyrvf2qfa3adwgdbjqx2jaam1fyi-nixos-system-jbb-dell-1
+9.09.1850.5dc4d071ffe.drv' failed
+** references
+*** IRC and Discourse ?= the major NixOS communities
+https://nixos.org/nixos/learn.html
+*** resources I've used
+https://github.com/magnetophon/nixosConfig/
+  some top-level .nix files from which I have emulated
+https://github.com/musnix/musnix
+  Not sure what it gets me.
+https://nixos.wiki/wiki/JACK
+  The first part is not obsolete, right?
+https://nixos.wiki/wiki/Audio
+  pretty weak -- ALSA section is out of date, doesn't link to JACK section
+*** TODO promising places I've spoken
+https://github.com/musnix/musnix/issues/100
+  musnix issue on the PREEMPT option error
+https://discourse.nixos.org/t/declarative-audio-config-using-jack/5458
+  Discourse \ NixOS
+https://github.com/NixOS/nixpkgs/issues/71283
+  magnetophon, MDeltaX and others on Github
+https://github.com/magnetophon/nixosConfig/issues/4
+  re. the machines/ folder, in magnetophon's config repo
+https://github.com/magnetophon/nixosConfig/issues/2
+  where I ask about JACK connections in magnetophon's config
+https://github.com/musnix/musnix/issues/103
+  where I ask Musnix how to choose `rtirq.nameList`
+https://github.com/magnetophon/nixosConfig/issues/3
+  asking magnetophon why he uses kernel 4.19, not 5.0 (the default)
+*** other places I've spoken
+https://github.com/JeffreyBenjaminBrown/nixos-experiments
+  My config
+https://www.reddit.com/r/NixOS/comments/enkbus/getting_started_with_audio_programming_in_nixos/
+  Me asking Reddit why I can't use JACK.
+*** these procedures (not declarative) seem to have helped someone
+https://github.com/NixOS/nixpkgs/issues/74742#issuecomment-570745604
+* TODO learn to write Nix expressions
+** stdenv.mkDerivation:
+  https://nixos.org/nixos/nix-pills/fundamentals-of-stdenv.html
+* TODO Nix pills
+** Ch 4: the language
+*** identifiers can include "-"
+So "a-b" reads as a symbol,
+whereas "a - b" reads as a minus b.
+*** inherit
+  inherit x y z;
+  inherit (src-set) a b c;
+is equivalent to
+  x = x; y = y; z = z;
+  a = src-set.a; b = src-set.b; c = src-set.c;
+*** strings can be delimited by 4 ' symbols
+"a" is the same as ''a''.
+Useful if a string includes the " symbol.
+*** lists are space-separated and can mix types
+*** "set" = "attribute set" = a map in Haskell
+**** use . to access attributes
+**** `rec` is a special kind whose elements can refer to each other
+*** "with" brings a set's values into scope
+nix-repl> longName = { a = 3; b = 4; }
+nix-repl> longName.a + (with longName; a + b)
+10
+**** PITFALL: does not shadow
+nix-repl> a = {a = 3; b = 4; }
+
+nix-repl> with longName; a + b
+error: cannot coerce a set to a string, at (string):1:16
+
+That's because it thinks the a in a + b is the set, not the value.
+** Ch 5: functions and imports
+*** functions
+**** pattern matching over a set in a function argument
+These are equivalent:
+  nix-repl> mul = s: s.a*s.b
+  nix-repl> mul = { a, b }: a*b
+
+Both yield this:
+  nix-repl> mul { a = 3; b = 4; }
+  12
+**** allow unmentioned fields with an ellipsis
+  nix-repl> mul = { a, b, ... }: a*b
+Without the ellipsis, you couldn't call this:
+  nix-repl> mul { a = 3; b = 4; c = 2; }
+**** define default fields with "?"
+ nix-repl> mul = { a, b ? 2 }: a*b
+ nix-repl> mul { a = 3; }
+ 6
+*** "import" is just substitution
+If the following files have the following content:
+  a.nix   : 3
+  b.nix   : 4
+  mul.nix : a: b: a*b
+then you can do this:
+  nix-repl> a = import ./a.nix
+  nix-repl> b = import ./b.nix
+  nix-repl> mul = import ./mul.nix
+  nix-repl> mul a b
+  12
+** Ch 6: "our first derivation":
+https://nixos.org/nixos/nix-pills/our-first-derivation.html
+*** `nix repl`
+use it for testing
+**** importing packages
+ It starts empty, but knowing things like builtins.currentTime
+ :l <nixpkgs> loads all those packages.
+*** to build outside the nix repl
+**** to instantiate and realize in one step
+https://nixos.org/nixos/nix-pills/working-derivation.html#idm140737316174000
+bash$ nix-build simple.nix
+**** to instantiate only, or realize only
+nix-instantiate
+nix-store -r
+**** to build from an already-evaluated derivation
+run this from bash:
+  nix-store -r /nix/store/z3hhlxbckx4g3n9sw91nnvlkjvyw754p-myname.drv
+That assumes the .drv file exists
+(and so far I only know how to create it from the nix repl).
+*** PITFALL: instatiate = evaluate /= realize = build
+*** the instantiate|evaluate step
+**** to do it from the repl
+If we enter this:
+  d = derivation { name = "biggles"; system = "mysystem"; builder = "mybuilder"; }
+it now knows what d is.
+**** PITFALL: evaluating a derivation at the repl shows its .drv path,
+not its outPath:
+    nix-repl> coreutils
+    «derivation /nix/store/1zcs1y4n27lqs0gw4v038i303pb89rw6-coreutils-8.21.drv»
+    nix-repl> builtins.toString coreutils
+    "/nix/store/8w4cbiy7wqvaqsnsnb3zvabq1cp2zhyz-coreutils-8.21"
+**** it creates a .drv file in /nix/store
+***** In the Nix repl:
+   nix-repl> d = derivation { name = "x"; builder = "y"; system = builtins.currentSystem; }
+
+   nix-repl> d
+   «derivation /nix/store/7r40h4gj6rsaw6xnsq7vj128dpiawa94-x.drv»
+***** outside of the nix repl:
+   [jeff@jbb-dell:~/nix/temp]$ nix show-derivation /nix/store/7r40h4gj6rs
+   aw6xnsq7vj128dpiawa94-x.drv
+   {
+     "/nix/store/7r40h4gj6rsaw6xnsq7vj128dpiawa94-x.drv": {
+       "outputs": {
+         "out": {
+           "path": "/nix/store/f4z943mkd9zkhcjk2mwy3p9g14qf6wvb-x"
+         }
+       },
+       "inputSrcs": [],
+       "inputDrvs": {},
+       "platform": "x86_64-linux",
+       "builder": "y",
+       "args": [],
+       "env": {
+         "builder": "y",
+         "name": "x",
+         "out": "/nix/store/f4z943mkd9zkhcjk2mwy3p9g14qf6wvb-x",
+         "system": "x86_64-linux"
+       }
+     }
+   }
+*** the realize|build step
+:b d     # where d is some derivation
+*** PITFALL: sometimes, sets are converted to strings
+Namely, if they contain an "outPath" field.
+** Ch 7: (our first) "working derivation"
+https://nixos.org/nixos/nix-pills/working-derivation.html
+*** PITFALL: Relative paths in strings are treated differently
+From a string, Nix will parse the path relative to the temp directory it makes for building.
+Outside of a string, Nix parses it relative to the current directory.
+*** a minimal build
+Make a file called "builder.sh" containing
+  declare -xp
+    # lists exported variables.
+    # declare is a bash function, not a Nix one.
+  echo foo > $out
+Then enter nix repl, and evaluate
+  :l <nixpkgs> # for access to bash
+  d = derivation { name = "foo"; builder = "${bash}/bin/bash"; args = [ ./builder.sh ]; system = builtins.currentSystem; }
+  :b d
+*** passing programs to a derivation
+**** sample code
+https://nixos.org/nixos/nix-pills/working-derivation.html#idm140737316198192
+**** "the trick"
+"every attribute in the set passed to derivation will be converted to a string and passed to the builder as an environment variable. This is how the builder gains access to coreutils and gcc: when converted to strings, the derivations evaluate to their output paths, and appending /bin to these leads us to their binaries.
+** Ch 8: Generic Builders
+https://nixos.org/nixos/nix-pills/generic-builders.html
+* TODO ask: how does sc3-plugins know where the supercollider source is?
+The Nix expression I found for sc3-plugins does not seem to refer to the source that would have been installed first for supercollider. How? Is the fact that supercollider is among sc3-plugins's buildInputs somehow sufficient?
+
+nixos.org publishes a [Nix expression for installing sc3](https://github.com/NixOS/nixpkgs/blob/bd6ba87381ef6274a830253b60e481209d4d7c7d/pkgs/development/interpreters/supercollider/default.nix#L35) (SuperCollider version 3.9.3).
+
+Elsewhere, someone published a GitHub gist titled [Nix package definition for sc3-plugins](https://gist.github.com/gosub/a42e265ec38d9df203d6).
+
+SC3-plugins installation instructions
+https://github.com/supercollider/sc3-plugins
+The latest stable release of that is 3.9.1:
+https://github.com/supercollider/sc3-plugins/releases
+
+How to build SC from source:
+https://github.com/supercollider/supercollider/blob/develop/README_LINUX.md
+* reading the NixOS manual
+** getting started (installing, mostly)
+*** move everything critical to an available USB
+  NixOS.org (this file)
+  installs/how-to-reinstall-linux.org
+  borg-backup*.sh
+*** know the USBs
+**** white one has Kubuntu 18.04, just in case
+**** slate = "Patriot 14.8G" is empty
+**** shuttle
+**** blue one = "PATRIOT" is 128G and empty
+*** downloading it
+**** the white USB (1.8 GB) is big enough
+***** even for the graphical live booter
+**** start with the live booter
+***** use the 128GB stick as a store
+**** will eventually need the unstable OS
+***** because it works with JACK
+*** configuring it post-build
+**** git problems
+  Sometimes repos need to be re-cloned or chmodded.
+    Maybe this is because I borg-extracted as root?
+    But strangely, the hode repo did not need this.
+*** use MusNix
+  https://github.com/musnix/musnix
+  Alas, cannot install from this; must switch to it.
+*** installing stuff (ch 3)
+**** basically
+***** modify /etc/nixos/configuration.nix
+***** then run nixos-rebuild test
+****** this tries it without making it the default
+***** if it works, run nixos-rebuild switch
+**** can add it to Grub menu
+*** ch 4: upgrading Nix
+**** is via channels, but voluntary
+**** PITFALL: needs root to matter?
+**** nixos-rebuild switch --upgrade
+**** PITFALL: can't always rollback Nix channels
+***** "Warning: It is generally safe to switch back and forth between channels. The only exception is that a newer NixOS may also have a newer Nix version, which may involve an upgrade of Nix’s database schema. This cannot be undone easily, so in that case you will not be able to go back to your original channel."
+**** can be automatic, periodic
+** tricky | hard to look up
+*** ch 5: configuration syntax
+**** nix calls maps "sets"
+**** package is a type
+**** values are expressions, but attributes are not
+  Let statements are valid wherever expression are valid.
+**** merge sets with //
+**** let, functions, map
+**** string splice with $
+  For instance, this function splices the string "name" into another:
+  makeVirtualHost = name:
+    { hostName = name;
+      documentRoot = "/sites/${name}";
+      adminAddr = "alice@example.org";
+    };
+**** options can be merged from multiple files
+  when it makes sense -- e.g. lists, not strings
+**** `config` arg: the complete merged configuration
+**** discovering attribute values
+ Helpful for complicated configurations, where options are getting merged from multiple files.
+***** command line: nixos-option <option>
+***** or use the repl: "nix repl <package>"
+**** lambda expressions
+ map (x: x.hostName) config.services.httpd.virtualHosts
+**** select attributes with (.)
+ { x = 1; y = 2; }.x == 1
+***** can include a default
+ ({ x = 1; y = 2; }.z or 3) == 4
+**** add attributes to a scope
+ (with pkgs.lib; head [ 1 2 3 ]) == 1
+**** functions
+***** are called Python-style
+ name(argument)
+***** PITFALL: bind after list construction
+ so, for instance, you'll need to wrap applied functions in parens if they are expressions in lists:
+   environment.systemPackages = [ (pkgs.emacs.override { gtk = pkgs.gtk3; }) ];
+***** are always of one argument (which could be a set)x
+***** can have default values
+ { x, y ? "bar" }: x + y
+***** can accept irrelevant values
+ This function requires x and y, and ignroes anything else:
+ { x, y, ... }: x + y
+***** can bind the entire set argument to a name
+ { x, y } @ args: x + y
+**** import <file>
+ "Load and return Nix expression in given file"
+*** ch 6: package management
+**** packages can have optional settings
+ nixpkgs.config.firefox.enableGoogleTalkPlugin = true;
+ PITFALL: this kind of option is not queriable
+**** customizing packages
+***** package dependencies can be overridden
+  environment.systemPackages = [ (pkgs.emacs.override { gtk = pkgs.gtk3; }) ];
+***** package attributes can be overridden
+ e.g. to change the source code
+ use overrideAttrs
+***** customized packages do not break things that depend on the uncustommized one
+ Nix will instead keep two versions of the package.
+ But that too can be changed, with a "global override".
+* adding custom Nix expressions
+https://nixos.org/nix/manual/#chap-writing-nix-expressions
+** inherit x y ...
+has the same effect as writinng "x = x; y = y; ...".
+It's used for handing an argument unchanged from the Nix expression to the builder.
+** a Nix expression calls a build script
+*** PITFALL: if the builder attribute is omitted
+then it uses mkDerivation, which
+"does a configure; make; make install, in essence".
+** build script syntax
+It starts by "clearing the environment" | "using a standard environment". That corresponds to this line:
+  source $stdenv/setup
+
+It might need to augment PATH with arguments, ala
+  PATH=$perl/bin:$PATH
+
+It uses the automatically generated $out argument to determine where to build, ala
+  ./configure --prefix=$out
+
+Beyond that it's just normal bash.
+** "compose" the the package
+*** why this step is called composition
+It consists of adding a line (or a few) to all-packages.nix.
+The Nix expression has no idea what its arguments are.
+This step is where they get connected.
+*** see Nix manual sec. 14.3: Arguments and Variables
+*** use either rec or callPackage
+**** callPackage is simpler
+If the arguments to use are equal to their names,use it.
+See all-packages.nix (in the nixpkgs repo) for examples.
+**** rec is more flexible
+And interestingly, seldom used in all-packages.nix
+See Nix manual section 14.3 for an example.
+*** PITFALL: import statements do not extend all the way to default.nix
+but rather to its superdirectory
+** build and test
+From the top of the newly-modified nixpkgs repo,
+call
+  nix-build -A pkg
+where `pkg` is the new thing.
+
+This will create a symlink called "result".
+Next test the new command by running, say,
+  ./result/bin/hello
+* configuring Emacs
+** guidance
+https://www.reddit.com/r/NixOS/comments/ad6miw/building_an_emacs_configuration_using_nixpkg/
+https://nixos.org/nixpkgs/manual/#sec-emacs
+** overlays -- better than one config.nix blob?
+https://www.reddit.com/r/NixOS/comments/9swtg3/do_you_put_all_packages_you_install_into/e8s4u9f/
+** some peoples' configs
+https://github.com/tazjin/nixos-config
+https://github.com/telent/config-nixpkgs
+* how to use a device without root privileges
+Suppose some command gives an error like "failed to open /dev/ttyUSB0"
+when run normally, but not when run as root.
+Then check what group that device (in this case, /dev/ttyUSB0) belongs to,
+and add that to `users.users.jeff.extraGroups`
+(where `jeff` is the user who should have the privilege),
+and log out and back in.
+* ambitious
+** TODO put NextCloud on the Rapsberry
+ chapter 15 in NixOS manual.
+ There's also TaskServer, for todo lists,
+   GitLab,
+* for getting help
+** from bash
+nixos-option
+** from the nix repl
+:?
+* TODO my config outside of .nix files
+~/.emacs
+~/.stack/config.yaml
+/etc/tmux.conf
