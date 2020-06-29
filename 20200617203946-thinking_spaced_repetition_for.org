@@ -1,0 +1,8 @@
+#+title: thinking, spaced repetition for
+* leaving Qjackctl on might work
+I left it open, not running, for days and I can play the synth with it today.
+* befuddling: on links
+** link labels vs. link contexts
+ [[id:46b695c5-617e-47a8-b699-ef2b7ec29e81][the context of a link matters]]
+** [[id:95fa4be1-ea1a-480e-9f11-8a6af14aa358][? Note titles should be complete sentences.]]
+** [[id:edca15b1-37f9-46ec-bb32-8a3090242b0d][? Use backlinks to define notes extrinsically]]

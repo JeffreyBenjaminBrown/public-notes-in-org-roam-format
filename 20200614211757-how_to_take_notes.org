@@ -1,0 +1,62 @@
+#+title: taking notes
+* TODO
+** TODO read, if I haven't already, about evergreen note practice
+see the list under "Implementing an evergreen note practice" here:
+https://notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C
+** [[id:bc0e8f6e-3883-4e1c-b945-b7ea3a4d3214][pages from Andy Matuschak's knowledge graph with links I haven't gotten to]]
+* how
+** the para method
+ https://fortelabs.co/blog/para/
+*** stands for "projects, areas (of responsibility), resources, archives"
+ I would just say "responsibilities" instead of "areas (of responsibility)"
+*** archives are inactive things from the other three categories
+*** areas v. projects
+**** to have an area is to (try to) maintain a standard
+ e.g. health, finance, spouse
+**** projects belong to areas, and are supposed to end
+*** seeing projects come and go helps motivation
+** evergreen notes
+*** file by concept > file by {resource, project, event ...}
+** Note titles should be positive.
+*** how
+e.g. "X doesn't work" can often be replaced with "Y requires Z".
+*** why
+Begative titles are less actionable.
+** notes should be surprising
+ https://notes.andymatuschak.org/z4KZ9973AoHhvM9Pj5Qrds48JXNbMEwVJmVRw
+** the context of a link matters
+   :PROPERTIES:
+   :ID:       46b695c5-617e-47a8-b699-ef2b7ec29e81
+   :END:
+ Knowing A is related to X is good. But if X is a long passage, it's more helpful for A to link to a specific part of X, and for that part of X to be visible from A.
+*** source: Andy Matuschak calls this "fine-grained association".
+ https://notes.andymatuschak.org/z68tVM68dEAuH4acs7HY6K76tTVzBdoBGKMZB
+** TODO ? Use backlinks to define notes extrinsically
+   :PROPERTIES:
+   :ID:       edca15b1-37f9-46ec-bb32-8a3090242b0d
+   :END:
+even before they have any intrinsic content.
+*** ref, where I got the idea
+https://notes.andymatuschak.org/z2newCwFfd6iZFyf9bgspkbyt1G8wbQxJVgTK
+* why
+** Use notes to avoid preconceived conclusions.
+ Writing an essay top-down implies the writer decides the conclusion first, and then tries to argue it. That's absurd!
+ https://notes.andymatuschak.org/z6Mx6PrJjGCf2akGM9pvoZ5Nk3EozcZcc9zHx
+** Externalizing ideas frees working memory, enhances focus.
+https://notes.andymatuschak.org/z6C5H4eYH2A4omfNLuUcDiKibQ1hZG2RGNZ97
+** passive reading|listening is (usually?) wasteful
+ Think, ask questions about it, write, investigate other branches;
+ don't feel obligated to keep following someone else's train of thought.
+*** a reference with other refrences
+ https://notes.andymatuschak.org/zX1WtJ4ouE8sjN1NgWHsGVg8ZnVfp5Kz74Vs
+*** 100% reading, 0% processing => nowhere
+ Schopenhauer saw this:
+ "whoever reads very much and almost the whole day, but in between recovers by thoughtless pastime, gradually loses the ability to think on his own ...
+ constant reading immediately taken up again in every free moment is even more mentally paralysing than constant manual labour, since in the latter we can still muse about our own thoughts. But just as a coiled spring finally loses its elasticity through the sustained pressure of a foreign body, so too the mind through the constant force of other people’s thoughts."
+** The returns to well-linked notes compound.
+* "grounded claims"
+** notes sufficient for academic use
+** with references, evidence, maybe motivation, context
+** ref, where I saw the idea
+https://notes.andymatuschak.org/z8D1DJ4663xTUx2P3ztA8hM5FsmtbYmgRfPnC
+
