@@ -14,6 +14,13 @@ after creating the backlink
 Enclose the whole tag in parens.
 Write '\' as \\.
 * TODO
+** TODO use Nix to install org-roam
+*** TODO PITFALL: must first procedurally uninstall org-roam
+and whatever dependencies were installed as a result (e.g. emacssql-sqlite3).
+*** TODO Matthew Piziak uses overrides, which looks easier than overlays
+https://org-roam.discourse.group/t/theres-a-docker-image-available/331/4?u=jeffbrown
+*** tried, failed: using a Nix overlay for Emacs
+I do not understand overlays
 ** TODO update Docker image for org-roam v. 1.2
 ** TODO can I make more TODO-like tags for org-mode?
 ** TODO how to tab-complete from the middle?

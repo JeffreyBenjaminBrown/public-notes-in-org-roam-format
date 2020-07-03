@@ -1,5 +1,8 @@
+#+TITLE: NixOS
 * PITFALL: Procedurally installed
 ** emacs org-roam
+* instead of .bashrc or .profile
+use environment.variables to define variables
 * NixOS overlays
 ** I was given advice here
 https://discourse.nixos.org/t/my-first-overlay-for-emacs/7570/2
@@ -176,6 +179,12 @@ In your response you list the phases, but you omit the bracketed expressions. Wh
 ** git submodule update: model code
 ~/nix/nixpkgs/pkgs/development/compilers/chez/default.nix
 * TODO audio in NixOS
+** TODO ? did Audacity mess up NixOS?
+ I used to be able to generate sound with SuperCollider, delivered via JACK, on my NixOS machine.
+
+When I installed and used Audacity for something, it seemed to screw up some other stuff. For instance, auto-detect stopped working when I plug in an external speaker. Ever since, I have to fiddle with alsamixer manually -- even though I've since removed audacity.
+
+(It also stopped the JACK + Supercollider from producing sound, but somehow I worked around that.)
 ** TODO sometimes Qjackctl does not take over
 I can start Qjackctl, and still I can play youtube videos.
 *** when I first launch Qjackctl, I get these messages

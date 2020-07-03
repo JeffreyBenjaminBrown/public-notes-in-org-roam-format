@@ -25,6 +25,11 @@ the familiar septimal tritone (7:5)
 That is, concurrently
 *** In 46-edo
 (0: 0 27) + (17: 0 17 38)
+** put three equal-spaced notes between 1/1 and 11/8
+and can keep stacking such intervals above the 3/2, for something like a major 7th but denser
+** like 12et (0 7 3' 9pythag' 2''), but pull the root and fifth up 50 cents
+In 46et it's
+0 27 10' 33' 6''
 ** in 31-et
 *** 0 18 5' 14'
 *** 0 25 40
@@ -49,7 +54,7 @@ That is, concurrently
  creates a 25 relationship from 11 to 5'
 * mystery scales
 ** too many: 0 2 6 10 14 18 20 24 27
-How to remember: it includes two stacks of four, 
+How to remember: it includes two stacks of four,
   one starting at 2, the other at 20.
 It's weird because it sounds like a familiar scale with an extra note
   between the root and fifth, and another between the fifth and the octave,
@@ -63,4 +68,3 @@ It's weird because it sounds like a familiar scale with an extra note
 ** two minor chords, descending 4/31 from one to the other
 but holding the fifth degree (18/31) from the first,
 and between them play the dominant (major starting at 18) chord of the first.
-
