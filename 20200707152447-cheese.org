@@ -1,0 +1,30 @@
+#+title: cheese (videoconference softwrae)
+* PITFALL! I use a different NixOS config to use it
+For my regular, non-pulseaudio build, these lines are commented out.
+** to build NixOS this way
+*** the hopefully easiest way
+apply the first diff in the branch called
+  cheese-record-camera-and-mic
+*** if that fails, do this
+**** packages.nix: I added these lines
+    # For feeding the mic into Cheese (for webcam videos)
+    # PITFALL: This borks a lot of my audio.
+    # There's an alsa emulator for pulse wchich might work better.
+    pavucontrol # Pulse Audio Volume Control, needed for audio in Cheese
+	# according to this kid: https://www.youtube.com/watch?v=M0B0-SilJw4
+    pulseaudio # I'm just guessing I need this; nobody said so
+**** audio.nix: I added these lines
+    # For feeding the mic into Cheese (for webcam videos)
+    # Was suggested here: https://nixos.wiki/wiki/PulseAudio
+    # PITFALL: This borks much of my audio setup.
+    hardware.pulseaudio.enable = true;
+* use lsof to check what processes (esp. pulseaudio, alsamixer) are using sound devices
+sudo lsof /dev/snd/*
+* references
+** Kid says pulse audio volume control (pavucontrol) needed
+to connect mic to Cheese
+https://www.youtube.com/watch?v=M0B0-SilJw4
+** Pulse Audio on NixOS wiki
+https://nixos.wiki/wiki/PulseAudio
+** Pulse Audio on Arch wiki
+https://wiki.archlinux.org/index.php/PulseAudio
