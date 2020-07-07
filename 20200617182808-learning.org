@@ -1,0 +1,2 @@
+#+title: learning and thinking
+* [[file:20200617184103-usingsp.org][How to think using spaced repetition.]]

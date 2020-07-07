@@ -1,4 +1,5 @@
 #+title: taking notes
+#+ROAM_ALIAS: "notes, how to take"
 * TODO
 ** TODO read, if I haven't already, about evergreen note practice
 see the list under "Implementing an evergreen note practice" here:
@@ -22,6 +23,11 @@ https://notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C
 e.g. "X doesn't work" can often be replaced with "Y requires Z".
 *** why
 Begative titles are less actionable.
+** Note titles should be complete sentences.
+   :PROPERTIES:
+   :ID:       3305442a-e435-4f84-a403-9509963497b7
+   :END:
+It increases the likelihood that they are atomic.
 ** notes should be surprising
  https://notes.andymatuschak.org/z4KZ9973AoHhvM9Pj5Qrds48JXNbMEwVJmVRw
 ** the context of a link matters

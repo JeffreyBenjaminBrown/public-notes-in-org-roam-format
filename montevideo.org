@@ -7,6 +7,9 @@
 ** capture from the monome
   Capture synth state, chords, melodies.
 ** make a monome window to mess with Zot params
+* TODO JI: compare chords in EDOs
+** playChord :: [JI Fraction] -> EDO -> IO ()
+This way you can edit the last argument repeatedly.
 * TODO ? rename Time -> ATime (for "absolute time")
 * TODO mysteries
 ** Why is "trigger" a parameter for Sampler Museqs?

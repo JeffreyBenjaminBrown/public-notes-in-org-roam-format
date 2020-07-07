@@ -1,4 +1,9 @@
 #+title: org-roam
+* PITFALL: notes with nothing but a title
+  :PROPERTIES:
+  :ID:       a24e17db-7c46-45c7-a4b9-ca053559e65f
+  :END:
+can nonetheless be important, thanks to backlinks
 * REMEMBER the Discourse group
 * surprise & how it works
 ** DONE (learned) linking to headers

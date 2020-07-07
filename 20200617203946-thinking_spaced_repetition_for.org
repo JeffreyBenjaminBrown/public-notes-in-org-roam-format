@@ -1,8 +1,12 @@
 #+title: thinking, spaced repetition for
-* leaving Qjackctl on might work
-I left it open, not running, for days and I can play the synth with it today.
-* befuddling: on links
-** link labels vs. link contexts
- [[id:46b695c5-617e-47a8-b699-ef2b7ec29e81][the context of a link matters]]
-** [[id:95fa4be1-ea1a-480e-9f11-8a6af14aa358][? Note titles should be complete sentences.]]
-** [[id:edca15b1-37f9-46ec-bb32-8a3090242b0d][? Use backlinks to define notes extrinsically]]
+* unreviewed
+** [[id:a24e17db-7c46-45c7-a4b9-ca053559e65f][org-roam: notes with nothing but a title can be important]]
+* reviewed, still no insight
+** befuddling: links in knowledge graphs
+*** link labels vs. link contexts
+  [[id:46b695c5-617e-47a8-b699-ef2b7ec29e81][the context of a link matters]]
+*** [[id:3305442a-e435-4f84-a403-9509963497b7][Note titles should be complete sentences.]]
+*** [[id:edca15b1-37f9-46ec-bb32-8a3090242b0d][? Use backlinks to define notes extrinsically]]
+* likely internalized
+** leaving Qjackctl on seems to work
+ I left it open, not running, for days and I can play the synth with it today.
