@@ -1,0 +1,4 @@
+#+title: retrie (Haskell refactoring tool)
+* Some comments on names, variables, and namespaces
+https://github.com/facebookincubator/retrie/issues/12#issuecomment-656418227
+

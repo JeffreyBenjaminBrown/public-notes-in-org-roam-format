@@ -1,0 +1,29 @@
+#+title: reading|listening to
+* TODO Economist: resume here
+Special report, article "Reform: Grand redesign"
+* TODO pages from Andy Matuschak's knowledge graph with links I haven't gotten to
+  :PROPERTIES:
+  :ID:       bc0e8f6e-3883-4e1c-b945-b7ea3a4d3214
+  :END:
+If all goes according to plan, I've read each of these pages,
+but they've got links that I never got to.
+https://notes.andymatuschak.org/zhmLXArqiCMDr9Q13ViqN3hh3SmrKzjQxWAr
+https://notes.andymatuschak.org/z5aJUJcSbxuQxzHr2YvaY4cX5TuvLQT7r27Dz
+https://notes.andymatuschak.org/z7iCjRziX6V6unNWL81yc2dJicpRw2Cpp9MfQ
+https://notes.andymatuschak.org/z4AX7pHAu5uUfmrq4K4zig9x8jmmF62XgaMXm
+https://notes.andymatuschak.org/z6f6xgGG4NKjkA5NA1kDd46whJh2Gt5rAmfX
+https://notes.andymatuschak.org/zg3fYweZpbHeBTpcYke5mF4ZfrJutYcQEtFo
+https://notes.andymatuschak.org/zVFGpprS64TzmKGNzGxq9FiCDnAnCPwRU5T
+https://notes.andymatuschak.org/z3PBVkZ2SvsAgFXkjHsycBeyS6Cw1QXf7kcD8
+https://notes.andymatuschak.org/z53fk5XwrsnueNDDCq6WNe2VbPhrDGQmmVgNS
+https://notes.andymatuschak.org/z3N113rxPFreW9xUkLkUFomr2LUqfXbdCo3M
+https://notes.andymatuschak.org/z29hLZHiVt7W2uss2uMpSZquAX5T6vaeSF6Cy
+https://notes.andymatuschak.org/z2HUE4ABbQjUNjrNemvkTCsLa1LPDRuwh1tXC
+https://notes.andymatuschak.org/About_these_notes
+https://notes.andymatuschak.org/z6UDDkom8Aifg6mLdjT1sPtbMBweCmpyTwmJT
+https://notes.andymatuschak.org/z3SjnvsB5aR2ddsycyXofbYR7fCxo7RmKW2be
+https://notes.andymatuschak.org/zhmLXArqiCMDr9Q13ViqN3hh3SmrKzjQxWAr
+* news sites I like
+** https://www.reddit.com/r/worldnews
+** https://www.reddit.com/r/news
+** https://www.reddit.com/r/politics/

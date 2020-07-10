@@ -1,0 +1,3 @@
+#+title: write, how to
+* good prompts for any topic
+** What is {exciting, unknown, interesting} about <topic>?

@@ -1,0 +1,7 @@
+#+title: quantum physics
+* to learn it
+** Quantum Country, a free online interative platform
+https://quantum.country/
+*** with, supposedly, good feedback, "metacognitive supports"
+says Andy Matuschak, somewhere in his online knowledgde graph
+https://notes.andymatuschak.org/

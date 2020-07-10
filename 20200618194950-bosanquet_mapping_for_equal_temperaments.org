@@ -1,0 +1,12 @@
+#+title: Bosanquet mapping for equal temperaments
+* definiing it
+** it's regular
+** on a hex grid with six directions, up, down, up-right, down-right, etc.
+** perfect fourth = 2 up-right, 1 down-right
+** perfect fifth = 3 up-right, 1 down-right
+* implies 9/8 is an adjacent step
+* supposedly makes big EDOs playable
+* downside: the smallest intervals in pitch are not smallest on the keyboard
+* source: Cam Taylor on Facebook
+https://www.facebook.com/groups/xenharmonic2/permalink/3265606436792969/?comment_id=3265891660097780&reply_comment_id=3268400469846899
+

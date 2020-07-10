@@ -1,0 +1,7 @@
+#+title: lsof (software)
+* says what proceses are using which devices
+* use lsof to see what (e.g. pulseaudio, alsamixer) is using sound devices
+sudo lsof /dev/snd/*
+Helpful, e.g., when QJackCtl says it can't use hw:0 because something else is.
+(Killing the other process worked for me, at least when it was alsamixer --
+and then I could even start alsamixer back up.)
