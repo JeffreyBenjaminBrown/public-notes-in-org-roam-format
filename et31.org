@@ -1,5 +1,25 @@
 #+TITLE: 31 tone equal temperament
 * TODO misfiled: this is about EDOs more generally
+* stretching octaves
+** ref
+http://x31eq.com/temper/net.html
+** what it means
+"TE is equivalent to root-mean-squared inverse-log-weighted error of the primes, if you include prime 2 and stretch or compress the octave optimally for each ET."
+  --Paul Erlich, https://www.facebook.com/groups/xenharmonicmath/permalink/1819205091553038
+** 22-edo
+  TET-optimal, mistunings (cents)
+    [-1.106, 5.377, -7.059, 9.876, -9.684⟩ -- 11-lim
+    [-1.803, 4.268, -8.674, 7.912⟩         -- 7-limit
+    [-0.861, 5.766, -6.491⟩                -- 5-limit
+  Without octave stretch:
+    [0.000, 7.136, -4.496, 12.992, -5.863⟩
+** 31-edo
+  TET-optimal mistunings (cents)
+    [1.205, -3.276, 3.583, 2.299, -5.222⟩         -- 11-lim
+    [0.502, -4.387, 1.950, 0.326, -7.649, 12.949⟩ -- 13-lim
+  Without octave stretch:
+    [0.000, -5.181, 0.783, -1.084, -9.382, 11.085⟩
+* [[file:20200618194950-bosanquet_mapping_for_equal_temperaments.org][Bosanquet mapping for equal temperaments]]
 * what's great about 37-edo
 ** Composing without perfect fifths seems like a useful exercise
 It's never occurred to me before but I wonder whether I use that interval as a kind of crutch. It's almost always present in my music, and my deviations from it are very 12-et: basically aug, dim and dom7 b5.
