@@ -1,5 +1,7 @@
 #+title: mtv-lang
 * TODO ONGOING - study the code
+** resume at Dispatch.Dispatch
+and then the sketches
 ** count imports
 grep "import *Montevideo" -r . -c | sort -n -t: -k2
 *** TODO ? A dependency graph would be better.
@@ -7,9 +9,31 @@ grep "import *Montevideo" -r . -c | sort -n -t: -k2
 Dispatch/Types.hs
 Dispatch/Msg.hs
 Dispatch/Transform.hs
-* TODO ? rename Time -> ATime (for "absolute time")
+Dispatch/Time.hs
+Dispatch/Museq.hs
+Dispatch/Join/Internal.hs
+Dispatch/Join.hs
+** skipped
+Time.hs: arc and _arcFold
+Museq.hs: the renaming functions
+* TODO learn to use
+** TODO what do those Join functions do?
+** TODO can concatenation screw with event durations?
+Consider a Museq `m` with dur=sup=1 and a single event,
+which starts at 0 and ends on 2.
+That event is supposed to have duration 2.
+If you concatenate another Museq `n` to the end of that one,
+will the event in `m` now have duration 2 + (duration of `n`)?
+* TODO ? rename
 Good time to try out retrie, the Haskell refactoring tool.
+** timeToPlayThrough -> timeToFinish, timeToRepeat -> timeToSoundFinished
+and similar substituting "durs" or "sups" for "time" in the above replacements
+** Time -> ATime (for "absolute time")
+** evStart = evArc . _1, evEnd   = evArc . _2
+retrie would be especially good for this
+** museqsDiff -> museqSynthsDiff
 * TODO mysteries
+** TODO Can it be lazy?
 ** TODO is it smart about `Msg` size? Does it matter?
 *** the idea
 The Msg type can carry a lot of different parameter instructions.
