@@ -6,13 +6,14 @@ and then the sketches
 grep "import *Montevideo" -r . -c | sort -n -t: -k2
 *** TODO ? A dependency graph would be better.
 ** modules I've read
-Dispatch/Types.hs
-Dispatch/Msg.hs
-Dispatch/Transform.hs
-Dispatch/Time.hs
-Dispatch/Museq.hs
-Dispatch/Join/Internal.hs
-Dispatch/Join.hs
+Dispatch.Types
+Dispatch.Msg.Mk
+Dispatch.Transform
+Dispatch.Time
+Dispatch.Museq
+Dispatch.Join.Internal
+Dispatch.Join
+Dispatch.Msg.Act
 ** skipped
 Time.hs: arc and _arcFold
 Museq.hs: the renaming functions
