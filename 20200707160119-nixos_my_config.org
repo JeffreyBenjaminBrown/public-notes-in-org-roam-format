@@ -1,4 +1,6 @@
 #+title: NixOS, my config
+* TODO asked quesitons, unresolved
+** [[https://discourse.nixos.org/t/why-does-stack-haskell-keep-downloading-the-same-stuff/7924][Why does Stack keep downloading the same stuff?]]
 * PITFALL: procedurally installed
 ** emacs org-roam
 * PITFALL: to record video with camera and mic

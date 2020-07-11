@@ -24,15 +24,14 @@ which starts at 0 and ends on 2.
 That event is supposed to have duration 2.
 If you concatenate another Museq `n` to the end of that one,
 will the event in `m` now have duration 2 + (duration of `n`)?
-* TODO ? rename
-Good time to try out retrie, the Haskell refactoring tool.
-** timeToPlayThrough -> timeToFinish, timeToRepeat -> timeToSoundFinished
-and similar substituting "durs" or "sups" for "time" in the above replacements
+* TODO refactor using retrie
+Simple sed with these would be tricky -- worry about prefixes, parentheses.
 ** Time -> ATime (for "absolute time")
+after reading Dispatch I'll probably understand what RTime, ATime are
 ** evStart = evArc . _1, evEnd   = evArc . _2
-retrie would be especially good for this
-** museqsDiff -> museqSynthsDiff
 * TODO mysteries
+** TODO what is a frame?
+frameDuration = 0.1. Is that in seconds?
 ** TODO Can it be lazy?
 ** TODO is it smart about `Msg` size? Does it matter?
 *** the idea
