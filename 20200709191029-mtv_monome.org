@@ -4,8 +4,6 @@ they are in the old monome/ repo.
 * TODO generalize to all EDOs
 ** make Math31 "generators" into user-defined parameter
 maybe defined in Params or Common or whatever, instead of Math31
-* TODO for JI synth
-** print each note as it is played
 * TODO clean
 ** unify the handlers for JI and Keyboard
 * TODO create voices on the fly
@@ -20,6 +18,8 @@ Currently, because each voice is identified with a key,
 if that voice is sustained, that key cannot sound a new note,
 even when it no longer represents the same pitch.
 ** ? or at all
+* TODO for JI synth
+** print each note as it is played
 * TODO features
 ** two keyboards, split keyboard
 ** sustain: two buttons, "add these" and "release all"
@@ -53,17 +53,3 @@ so that usually something can touch it
 **** hold a note, shift, press another note, press sustain, release them
 ** LedBecause: maybe don't distinguish between keys and sustain
  just use VoiceId
-* Montevideo - Monome Tidal Vivid
-esp. for looping
-* separate projects
-** separate Vivid.Jbb from Vivid
-this will make starting the repl faster
-** separate my own Vivid projects
-*** namely these
-Vivid (clone, for reference)
-Vivid.Synths.Jbb
-Vivid.Dispatch
-Monome
-*** use symlinks between them as needed
-e.g. from Monome to Synths
-

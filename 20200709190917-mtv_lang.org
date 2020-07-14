@@ -1,22 +1,25 @@
 #+title: mtv-lang
+* TODO BUG
+** tempo changes whether this plays the snare
+*** This pattern has the bug
+d1 = mmrt1 4 [ ( 0, SampleKd)
+             , ( 2, SampleSm_m) ]
+
+chAll $ mfl [ -- ( "1", d1 )
+            ( "2", early 1 d1 ) ]
+*** The way it depends on tempo
+At a tempo period of 0.2, it plays both.
+At 0.4, it only plays kick.
+Around 0.3, it's *unreliable*.
+*** If I manually speed up the pattern, the bug goes away:
+d1 = mmrt1 2 [ ( 0, SampleKd)
+             , ( 1, SampleSm_m) ]
 * TODO ONGOING - study the code
-** resume at Dispatch.Dispatch
-and then the sketches
+** ugly & to learn
+*** mmrt1 and the rest of Museq.Mk
 ** count imports
 grep "import *Montevideo" -r . -c | sort -n -t: -k2
 *** TODO ? A dependency graph would be better.
-** modules I've read
-Dispatch.Types
-Dispatch.Msg.Mk
-Dispatch.Transform
-Dispatch.Time
-Dispatch.Museq
-Dispatch.Join.Internal
-Dispatch.Join
-Dispatch.Msg.Act
-** skipped
-Time.hs: arc and _arcFold
-Museq.hs: the renaming functions
 * TODO learn to use
 ** TODO what do those Join functions do?
 ** TODO can concatenation screw with event durations?
@@ -25,12 +28,35 @@ which starts at 0 and ends on 2.
 That event is supposed to have duration 2.
 If you concatenate another Museq `n` to the end of that one,
 will the event in `m` now have duration 2 + (duration of `n`)?
+* TODO Times and RTimes
+** Time in a Museq is relative (to the tempoPeriod)
+* TODO generalize hsToHz (halfsteps (in 12-edo) to Hz)
 * TODO refactor using retrie
 Simple sed with these would be tricky -- worry about prefixes, parentheses.
 ** Time -> ATime (for "absolute time")
 after reading Dispatch I'll probably understand what RTime, ATime are
 ** evStart = evArc . _1, evEnd   = evArc . _2
 * TODO mysteries
+** TODO what meaning do the ends of events have?
+For instance, in Dispatch.Dispatch.dispatchLoop,
+they appear not to be used:
+    evs0 :: [(Time, Action)]
+      = concatMap f $ M.elems mqs' where
+      f :: Museq String Action
+        -> [(Time, Action)] -- start times and actions
+      f m = map (\ev -> ((ev^.evStart), (ev^.evData))) evs
+        where evs = arc time0 tempoPeriod startRender
+                    (startRender + frameDuration) m
+** TODO is the sccheduling a frame too conservative?
+In Dispatch.replaceAll, there's this:
+    when = nextPhase0 time0 frameDuration now + frameDuration
+      -- `when` = the end of the first not-yet-rendered frame.
+      -- TODO (speed) ? Is this conservative? Do I not need to
+      -- `(+ frameDuration)`?
+Theere's a similar addition of a `frameDuration` in `chTempoPeriod`.
+** TODO speed: Could this / be a div?
+In chTempoPeriod:
+      whenInCycles = (when - time0) / tempoPeriod
 ** TODO what is a frame?
 frameDuration = 0.1. Is that in seconds?
 ** TODO Can it be lazy?
@@ -46,6 +72,8 @@ See, e.g., this type signature:
 ** TODO Is `frameDuration` in seconds?
 Once I know, it needs a comment.
 * TODO important
+** schedule a replaceAll
+for, say, the next cycle equal to 0 modulo 16
 ** laziness
 Because evaluating a whole sequence before playing any of it can cause a huge dealy.
 *** ugly compromise: keep both instructions and maybe the data
