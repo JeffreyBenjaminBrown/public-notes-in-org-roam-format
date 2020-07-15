@@ -265,8 +265,21 @@ unless maybe it's a long phrase
 PITFALL: But don't delete the empty string.
          Or maybe the need for the empty string is obsolete?
 * TODO big-think
-** soft
-*** who cares?
+** non-technical problems with Hode
+   :PROPERTIES:
+   :ID:       78f08663-9236-486e-8343-2d1798bc5994
+   :END:
+*** Hode is hard
+I got a lot of interest on Reddit Haskell (at least 85 net upvotes),
+but no follow-up. I think the documentation scared them away.
+**** TODO Add a quick-start guide to Hode.
+     :PROPERTIES:
+     :ID:       16331ee3-3b35-4cc0-8a21-5ee56e814c61
+     :END:
+*** Advancing Hode depends on attracting Haskellers.
+*** It's hard to judge without an interesting graph.
+**** would help: smsn
+*** Who cares?
 **** TODO Projects with extremely similar goals
 ***** "Knowledge Representation" research community
 https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning
@@ -289,9 +302,9 @@ https://news.ycombinator.com/item?id=21812786
 **** "navigating digital information"
  https://www.youtube.com/watch?v=M5YKW6fhlss&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU&index=11
 **** distributed search
-*** am I stumped as a user?
- The number of ways to represent something is huge.
- Paralyzingly huge.
+*** Am I stumped as a user?
+ The number of ways to represent something is huge. Paralyzingly huge.
+** soft
 *** if I'm ambivalent about (currently) implementing a fewature
  Use the software, wait for a use case to arise,
  document the use case under the "todo" item.
@@ -304,9 +317,6 @@ where "needed" can be
   needed for readability
 *** name conflicts
 It would be better if distinct things could share a name.
-** problems
-*** it's hard to judge without an interesting graph
-**** would help: smsn
 ** types?
 * TODO user-friendliness
 ** TODO crawling within an Expr

@@ -1,0 +1,4 @@
+#+title: recipes, some
+#+ROAM_ALIAS: cooking
+* [[file:20200714191045-baked_eggplant.org][baked eggplant]]
+* [[file:20200714191306-baked_cauliflower.org][baked-cauliflower]]
