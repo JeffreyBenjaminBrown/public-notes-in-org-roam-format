@@ -1,4 +1,11 @@
 #+title: NixOS, my config
+* TODO ONGOING : switching to unstable
+** ref
+https://stackoverflow.com/questions/41230430/how-do-i-upgrade-my-system-to-nixos-unstable
+** command
+sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
+sudo nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixos
+sudo nixos-rebuild switch --upgrade
 * TODO asked quesitons, unresolved
 ** [[https://discourse.nixos.org/t/why-does-stack-haskell-keep-downloading-the-same-stuff/7924][Why does Stack keep downloading the same stuff?]]
 * PITFALL: procedurally installed

@@ -1,9 +1,10 @@
 #+title: don't reinvent the wheel
-* Even if it seems like a dumb wheel!
-Clearly you don't want to code something that's already been coded.
-But that's rarely the choice you're given.
-Usually, going your own way means being free to do it the way you think it ought to be.
-The surprising thing is that that freedom is so often not worth having.
-Using someone else's solution not only frees your time,
-but also makes it easier for others to join you.
-
+* OBSOLETE
+this has been copied to the SmSn mindmap, where it's easier to connect to stuff.
+** Even if it seems like a dumb wheel!
+ Clearly you don't want to code something that's already been coded.
+ But that's rarely the choice you're given.
+ Usually, going your own way means being free to do it the way you think it ought to be.
+ The surprising thing is that that freedom is so often not worth having.
+ Using someone else's solution not only frees your time,
+ but also makes it easier for others to join you.

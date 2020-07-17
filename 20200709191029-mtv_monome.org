@@ -1,6 +1,33 @@
 #+title: mtv-monome
 * PITFALL: If I need to see the voice_jit or jit_test branches
 they are in the old monome/ repo.
+* TODO delete references to Config parameters
+** instead, make a Config type, and put an instance in Monome.Config
+** that way, functions can take an arbitrary Config, so I can test them without making the tests depend on the hard-coded value in Monome.Config
+* TODO make *_st versions of some EdoMmath functions
+e.g. variations on this appear a lot:
+              (pcToXys (st_01f ^. stApp . etConfig)
+                       (st_01f ^. stApp . etXyShift) pitch1 ) )
+It would be better to have a pcToXys_st function, that just took a single St
+in place of those first two arguments.
+
+Find these with `grep etConfig -C 2`.
+* TODO the bugs that vanish when `edo=31`
+** test_toggleSustain
+x = toggleSustain st_0f
+y = ( st_0f & ( stApp . etLit . at pc0 . _Just
+              %~ S.insert LedBecauseSustain )
+      & stApp . etSustaineded .~ Just (S.singleton v0 ) )
+x ^. stApp . etLit . at pc0 . _Just
+y ^. stApp . etLit . at pc0 . _Just
+** test_sustainHandler
+x = Su.handler st_0f (meh, True) ^. stApp . etLit
+y = M.singleton pc0 $ S.fromList [ LedBecauseSustain
+                                 , LedBecauseSwitch xy0 ]
+** test_keyboardHandler
+x = Kb.handler st_01f (xy1, False) ^. stPending_Monome
+y = ( map (\xy -> (Kb.label, (xy, False)) )
+  (pcToXys (st_01f ^. stApp . etXyShift) pitch1 ) )
 * TODO generalize to all EDOs
 ** make Math31 "generators" into user-defined parameter
 maybe defined in Params or Common or whatever, instead of Math31
