@@ -1,22 +1,14 @@
 #+title: mtv-monome
 * PITFALL: If I need to see the voice_jit or jit_test branches
 they are in the old monome/ repo.
-* TODO make *_st versions of some EdoMmath functions
-e.g. variations on this appear a lot:
-              (pcToXys (st_01f ^. stApp . etConfig)
-                       (st_01f ^. stApp . etXyShift) pitch1 ) )
-It would be better to have a pcToXys_st function, that just took a single St
-in place of those first two arguments.
-
-Find these with `grep etConfig -C 2`.
-* TODO clean
-** unify the handlers for JI and Keyboard
 * TODO create voices on the fly
 ** Vivid: voice creation, use and deletion
 use "synth" to make a synth, "free" to free it:
   s <- synth boop
   set s (toI f :: I "amp")
   free s
+* TODO clean
+** unify the handlers for JI and Keyboard
 * TODO sustained pitches should not disable keys
 ** after spatial drift
 Currently, because each voice is identified with a key,
