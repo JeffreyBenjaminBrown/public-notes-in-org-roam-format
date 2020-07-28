@@ -1,0 +1,8 @@
+#+title: genetics
+* a JHU course
+http://www.langmead-lab.org/teaching-materials/
+https://www.coursera.org/learn/dna-sequencing
+** resume here
+Video 8, how dna is copied:
+https://www.youtube.com/watch?v=vaYxqrKn7Pk&list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA&index=8
+

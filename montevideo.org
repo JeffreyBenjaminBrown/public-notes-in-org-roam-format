@@ -1,7 +1,30 @@
 #+TITLE: montevideo (music software)
+* TODO separate the concerns in Dispatch.Msg.Act, then make it abstract
+** research: their current state
+actNew, actSend, and actFree all look up a synth, which might fail.
+They log errors only if there's a lookup failure.
+Two of them return ways to insert or delete the synth,
+  which could be factored out into a function from New or Free to synthdefs.
+One creates it, one destroys it; both could be a separate super function.
+*** `actNew reg (New _ name)`,
+ if it finds `name`, logs an error and returns the identity.
+ If it doesn't, it creates the synth (immediately -- no scheduling),
+   and returns how to insert it into synth reg.
+   The reg has a separate field for each different kind of synth.
+ In the special case of a sampler, it also looks up the buffer.
+   If founds, it uses the buffer as an argument to the sampler synth created.
+*** `actFree reg when (Free _ name)`
+ if it doesn't find `name` in `reg`, logs an error and returns `id`.
+ If it does, it
+   schedules an amp=0 message for its "when" argument,
+   schedules a free message for shortly thereafter,
+   and returns a way to delete the synth.
+*** `actSend reg when (Send _ name msg)`,
+ it doesn't find `name` in `reg`, logs an error.
+ Otherwise, it schedules an action to send everythingg in `msg` at `when`.
+ In the special case of a sampler receiving an "on" message,
+   it schedules an "off" message for shortly thereafter.
 * TODO path, high-level
-** understand both libraries
-*** re-learn language
 ** permit using both apps at once
   Spin the monome synth into a thread, like the live-coding stuff.
 ** capture from the monome

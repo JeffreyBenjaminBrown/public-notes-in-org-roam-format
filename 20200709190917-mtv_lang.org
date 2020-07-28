@@ -1,19 +1,9 @@
 #+title: mtv-lang
-* TODO BUG
-** tempo changes whether this plays the snare
-*** This pattern has the bug
-d1 = mmrt1 4 [ ( 0, SampleKd)
-             , ( 2, SampleSm_m) ]
-
-chAll $ mfl [ -- ( "1", d1 )
-            ( "2", early 1 d1 ) ]
-*** The way it depends on tempo
-At a tempo period of 0.2, it plays both.
-At 0.4, it only plays kick.
-Around 0.3, it's *unreliable*.
-*** If I manually speed up the pattern, the bug goes away:
-d1 = mmrt1 2 [ ( 0, SampleKd)
-             , ( 1, SampleSm_m) ]
+* TODO BUGS
+** too many events sound simultaneously when it first starts
+* TODO ? maybe problems
+** each sample needs to be called by a separate voice
+** ./Dispatch/Dispatch.hs: -- todo ? awkward : The Ev' label gets repeated within the Action.
 * TODO learn to use
 ** ugly: mmrt1 and the rest of Museq.Mk
 ** TODO what do those Join functions do?
@@ -27,7 +17,6 @@ If you concatenate another Museq `n` to the end of that one,
 will the event in `m` now have duration 2 + (duration of `n`)?
 * TODO Times and RTimes
 ** Time in a Museq is relative (to the tempoPeriod)
-* TODO generalize hsToHz (halfsteps (in 12-edo) to Hz)
 * TODO mysteries
 ** TODO what meaning do the ends of events have?
 For instance, in Dispatch.Dispatch.dispatchLoop,
@@ -47,7 +36,8 @@ In Dispatch.replaceAll, there's this:
       -- `(+ frameDuration)`?
 Theere's a similar addition of a `frameDuration` in `chTempoPeriod`.
 ** TODO what is a frame?
-frameDuration = 0.1. Is that in seconds?
+*** TODO Is `frameDuration` in seconds?
+ Once I know, it needs a comment.
 ** TODO Can it be lazy?
 ** TODO could it be smarter about `Msg` size? Does it matter?
 *** the idea
@@ -57,9 +47,6 @@ If it should, does it? That is, do the Museq-creating helper functions bundle si
 *** why I think it's curretly wasteful
 See, e.g., this type signature:
   boopMsg :: Msg -> [Msg' BoopParams]
-** Why is "trigger" a parameter for Sampler Museqs?
-** TODO Is `frameDuration` in seconds?
-Once I know, it needs a comment.
 * TODO easy
 ** TODO zotOneMsg should not use error
 when it receives an unexpected message
@@ -97,14 +84,6 @@ Because evaluating a whole sequence before playing any of it can cause a huge de
 *** ugly compromise: keep both instructions and maybe the data
 The data would still be evaluated in its entirely rather than as needed.
 But once it is evaluated, it is kept.
-** obvious: move retrigger handling
-*** two motivations
-Including retrigger as a Museq parameter bloats them.
-Changing _sup or _dur can ruin a Sampler sequence.
-*** better solution: manage Sampler trigger values from Dispatch
-Don't include "trigger" as a parameter in a Museq.
-Instead, add trigger=1 to every Museq message,
-and follow it closely by a trigger=0.
 ** unify the many mkMuseq methods
 *** illustration of the problem
 (l,time,time,Msg)
@@ -173,12 +152,7 @@ the result of stacking two things can be a lot smaller if they are not looped al
  but then rewrite the result more concisely if possible.
 *** might be a problem with merge
 although I've only actually noticed it in stack
-* leads
-./Dispatch/Dispatch.hs: -- todo ? awkward : The Ev' label gets repeated within the Action.
 * speed
-** which functions are slow
-merge, meta, and subfunctions
-see prof/ for details
 ** how to profile
 *** run these to build the .prof file
  stack run --profile -- montevideo-exe --ghci-options="-O"
@@ -193,6 +167,9 @@ see prof/ for details
  -prof - Enables profiling
  -caf-all - Constant Applicative form for all top-level items (constant costs, one for each module.)
  -auto-all - Cost-centre analysis for every top-level function
+** which functions are slow
+merge, meta, and subfunctions
+see prof/ for details
 * the best licks
 2/3
 3
@@ -208,8 +185,6 @@ Tom Murphy wrote, May 19, 2020, 4:55 PM:
 **** an early reference
  https://we.lurk.org/hyperkitty/list/haskell-art@we.lurk.org/thread/2BZIBR3DDOF3XPZ5UYBXJPYEPSPKIYFH/
 *** slow changes, e.g. for slide guitar
-** DONE ? bug : melodies get mangled if tempo is near 1 but not 1
-*** the problem was floating point error in `arc`, solved by using only Rationals as times
 ** once it's publishable
 *** add Cabal install notes. Tom made suggestions in the seventh message of the haskell-art thread, "Vivid: Some code that parses instructions to synths polymorphically"
 * refs
