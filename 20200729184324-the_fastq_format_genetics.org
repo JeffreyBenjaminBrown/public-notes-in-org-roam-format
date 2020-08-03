@@ -1,0 +1,16 @@
+#+title: The FASTQ Format (Genetics)
+* what's in it
+** Each group of four lines is a "read".
+** structure of a read
+*** first line = context. We'll ignore.
+  machine used to measure, experiment drawn from, etc.
+*** line 2 = sequence of bases + "N"
+**** "N" is used when it has too little confidence to make a call.
+*** line 3 = just a plus symbol
+*** line 4 = sequence of base qualities
+**** This is encoded via "Phred+33"
+  which converts Q to an 8-bit ASCII character,
+  by rounding Q to the nearest int and adding 33.
+** The reads can vary in length.
+* reading it
+** remember not to treat the newline character as data

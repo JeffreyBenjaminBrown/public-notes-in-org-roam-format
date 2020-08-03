@@ -3,6 +3,11 @@
 http://www.langmead-lab.org/teaching-materials/
 https://www.coursera.org/learn/dna-sequencing
 ** resume here
-Video 8, how dna is copied:
-https://www.youtube.com/watch?v=vaYxqrKn7Pk&list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA&index=8
-
+Video 21, "repetitive elements".
+https://www.youtube.com/watch?v=ZwHCRb_y7vA&list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA&index=21
+* [[file:20200729182550-2nd_gen_dna_sequencing.org][2nd Gen DNA Sequencing]]
+* [[file:20200729184324-the_fastq_format_genetics.org][The FASTQ Format (Genetics)]]
+* GC content
+= the fraction of the genome containing Gs or Cs.
+It varies across species.
+* [[file:20200729191509-putting_dna_reads_together.org][Putting Dna Reads Together]]

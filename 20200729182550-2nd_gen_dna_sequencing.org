@@ -1,0 +1,21 @@
+#+title: 2nd Gen DNA Sequencing
+"It spies on [[file:20200729182439-how_dna_is_copied.org][How DNA Is Copied]]."
+* the process
+** basically
+Chops up the DNA into short single-strand subsets,
+and puts them on a flat surface (billions on a single slide), 
+scattered randomly.
+Then add DNA polymerase, and [[file:20200729181910-terminated.org][terminated bases]].
+Then take a photo.
+Then cleave the terminators (leaving the once-terminated bases in place)
+and repeat.
+** a complication: strand amplification
+Before the process runs, one makes a lot of copies of each strand,
+clustered around that strand.
+This is to ensure enough light to show up in a photo.
+* potential error: adding a non-terminated base somewhere
+** The problem
+causes that strand to get "out of sync" with the others.
+It will one position ahead of schedule if it received only one non-terminated base.
+** The solution: [[file:20200729183356-base_caller_software.org]["Base Caller" Software]]
+* The reads will vary in length.

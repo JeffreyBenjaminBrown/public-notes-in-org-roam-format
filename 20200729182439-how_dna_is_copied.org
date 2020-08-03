@@ -1,0 +1,6 @@
+#+title: How DNA Is Copied
+Separate the two strands.
+DNA polymerase builds the strand complementary to a single strand, 
+starting at one ends and working its way along.
+That happens to both strands, and now there are two copies.
+

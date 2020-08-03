@@ -1,0 +1,3 @@
+#+title: The Exact Matching Problem (Computer Science)
+= Given a "pattern" P :: Eq a => [a], 
+at what positions in the "text" T :: Eq a => [a] does P occur?

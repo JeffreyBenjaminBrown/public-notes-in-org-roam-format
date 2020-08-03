@@ -1,0 +1,10 @@
+#+title: "Base Caller" Software
+It "calls bases", like an umpire calls strikes, etc.
+* confidence varies
+If the split is close to fifty-fifty, it will not be confident.
+* logarithmic "base quality"
+(Base quality = Q) = 10 * log_10 (p = Pr(incorrect))
+
+This way, Q = 10 <=> 1 in 10 chance of wrong.
+          Q = 100 <=> 1 in 100 chance of wrong.
+          etc.

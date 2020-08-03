@@ -1,0 +1,2 @@
+#+title: Assembly Problem (genetics)
+= the problem of assembling without a reference genome.

@@ -1,0 +1,4 @@
+#+title: Read Alignment Problem (genetics)
+= the problem of assembling with a reference genome.
+* [[file:20200729192046-the_exact_matching_problem_computer_science.org][The Exact Matching Problem (Computer Science)]]
+* [[file:20200729211215-boyer_moore_inexact_matching_computer_science.org][Boyer-Moore Inexact Matching (Computer Science)]]

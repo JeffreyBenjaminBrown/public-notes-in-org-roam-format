@@ -1,9 +1,7 @@
 #+title: mtv-monome
 * PITFALL: If I need to see the voice_jit or jit_test branches
 they are in the old monome/ repo.
-* TODO ? use Dispatch.Types.Action in mtv-monome, instead of SoundMsg
-** why
-Creating voices on the fly means using New and Free, not just Set.
+* DONE ? use Dispatch.Types.Action in mtv-monome, instead of SoundMsg
 ** code refs
 *** Montevideo.Dispatch.Msg.Mk.boopOneMsg :: (ParamName, Float) -> Msg' BoopParams
 boopOneMsg ("on",n)    = Msg' (toI n :: I "on")
@@ -22,12 +20,6 @@ actSend reg when (Send Boop name msg) =
       V.doScheduledAt (V.Timestamp $ fromRational when)
       $ mapM_ (set' s) $ boopMsg msg
 
-** TODO add an Actions field to the St type
-and incrementally change the handlers to use those instead of SoundMsgs
-** TODO awkward: Currently this forces VoiceIds to be strings
-so they are `show (x,y)`.
-But this won't need correction, I think,
-because strings will become more natural when the labels stop being pairs and start being arbitrary.
 ** research
 *** how soundMsgPitch propogates
 **** soundMsgPitch is read only in Window.Common.updateVoice
@@ -81,49 +73,6 @@ because strings will become more natural when the labels stop being pairs and st
 **** doSoundMsg looks up the synth from the VoiceId, sends amp or freq
  It assumes no other parameters are used.
 **** doLedMessage produces a relay with relayToWindow, uses it to send the press to the monome
-*** type definitions, some subsets of some
-**** lang type Msg = Map ParamName Float
-**** lang data Action
-   = New  SynthDefEnum SynthName -- ^ create it
-   | Free SynthDefEnum SynthName -- ^ destroy it |
-   | Send SynthDefEnum SynthName Msg             |
-**** lang data Note = Note
-   { _noteSd :: SynthDefEnum
-   , _noteMsg :: Msg } deriving (Show, Eq)
-**** lang data Dispatch = Dispatch {
-     mMuseqs      :: MVar (Map MuseqName (Museq String Note))
-   , mReg         :: MVar SynthRegister
-   , mTime0       :: MVar Time -- ^ a past moment of reference
-   , mTempoPeriod :: MVar Duration
-**** lang data SynthRegister = SynthRegister
-   { _boops    :: Map SynthName (Synth BoopParams)
-   , _vaps     :: Map SynthName (Synth VapParams)
-   , _samplers :: Map SynthName (Synth SamplerParams)
-   , _samples  :: Map Sample BufferId -- ^ the samplers will use these
-   , _sqfms    :: Map SynthName (Synth SqfmParams)
-   , _zots     :: Map SynthName (Synth ZotParams)
-**** monome type LedMsg     = (WindowId, ((X,Y), Led))
-**** monome data SoundMsg app = SoundMsg {
-     _soundMsgVoiceId :: VoiceId
-   , _soundMsgPitch   :: Maybe (Pitch app)
-     -- ^ Messages like "amp=0" don't need a pitch.
-   , _soundMsgVal     :: Float
-   , _soundMsgParam   :: Param }
-**** monome type LitPitches app = Map (PitchClass app) (Set LedBecause)
-**** monome data LedBecause =
-     LedBecauseSwitch (X,Y)
-   | LedBecauseSustain
-   | LedBecauseAnchor
-**** monome data EdoApp = EdoApp
- _edoConfig :: EdoConfig
- _edoXyShift :: (X,Y) -- ^ this is relative -- a vector, not a point
- _edoFingers :: Map (X,Y) VoiceId
- _edoLit :: LitPitches EdoApp
- _edoSustaineded :: Maybe (Set VoiceId)
-**** monome data St app
- , _stVoices :: Map VoiceId (Voice app)
- , _stPending_Monome :: [LedMsg]
- , _stPending_Vivid :: [SoundMsg app]
 *** Where are all pitch- (not freq-)bearing messages made?
  And do they all cause updating of the voice?
  Window.Keyboard relies on Common.etKey_SoundMsg
@@ -133,21 +82,59 @@ because strings will become more natural when the labels stop being pairs and st
 
  In Window.Common, the only thing that sets a non-null soundMsgPitch is
    etKey_SoundMsg :: EdoApp -> ((X,Y), Switch) -> [SoundMsg EdoApp]
-
 **** grep -i soundmsg -r . --color --exclude-dir=Test --exclude-dir=Types
 *** Could voices be updated without any explicit message type?
 * TODO create voices on the fly
-** first commit message
-    NEW BRANCH: voice_jit_2
+** TODO ScAction_New should include an ScMsg
+which can be empty.
+This would make voice creation in Montevideo.Monome more natural --
+it would take just one message, not two,
+and after the first I would already be able to store the voice.
+** TODO restore my saved work (it's a .diff file)
+** TODO create voices on the fly even before the IDs are good
+*** TODO remember
+**** there's already Common.updateVoiceParams
+**** there's only one field in Montevideo.Monome that uses ScAction
+_stPending_Vivid :: [ScAction VoiceId]
+*** TODO the plan?
+**** Wherever ScActions are made, make New and/or Free also
+**** Wherever ScActions are handled, add clauses for New and Free
+**** In Main.hs, set _stVoices = mempty
+***** TODO Once edoMonome works, do the same for jiMonome
+*** Vivid: voice creation, use and deletion
+ use "synth" to make a synth, "free" to free it:
+   s <- synth boop
+   set s (toI f :: I "amp")
+   free s
+** TODO nextVoice: start dumb like this
++nextVoice :: M.Map VoiceId a -> VoiceId
++nextVoice m =
++  case M.lookupMax m of
++    Nothing -> (0,0)
++    Just ((x,_),_) -> (x+1,0)
++    -- Produces something bigger than any key in `m`,
++    -- without looking up the snd in the pair.
++    -- Note that (0,1) < (1,0).
+** TODO update the _stVoices in an St
+*** They'll need updating in the St before updating in SC
+*** how I did it in the old `voice_jit` branch
+  commit 2ab0131f528b51a31e07f6df4ca2031e5c2718da
+  Author: JeffreyBenjaminBrown <jeffbrown.the@gmail.com>
+  Date:   Tue Feb 25 03:47:21 2020 -0500
 
-    (The original and still unfinisehd voice_jit branch
-    is in the old Montevideo monome codebase,
-    at git@github.com:JeffreyBenjaminBrown/monome.git.)
-
-    This branch's purpose is to create voices just in time for the monome,
-    rather than pre-allocate a separate voice to every button,
-    which precludes using a complex synth like Zot.
-** TODO Solve: find every place soundMsgVoiceId is used
+      Window.Common.updateVoice:
+	update the voice map for newly created or destroyed voices,
+	even though they are created or destroyed later, downstream,
+	in Types.Window.doSoundMessage
+*** branch `master` does not currently track voices
+ Although it has the types to do it.
+**** howe to verify
+ st <- edoMonome 15226
+ --press a key, press sustain, press a different key
+ --press q
+ _stVoices st
+ -- That's an empty list. The only voices it could possibly track are fingered and sustained ones, so it's not tracking voices.
+** (old) find every place the voice ids are (read and actually) used
 soundMsgVoiceId is only used in
 *** Common.updateVoiceParams :: SoundMsg app -> St app -> St app
 **** updateVoiceParams is only used
@@ -158,112 +145,20 @@ soundMsgVoiceId is only used in
 doSoundMessage :: St app -> SoundMsg app -> Either String (IO ())
 The soundMsgVoiceId is looked up in the stVoices to find a synth to change.
 **** doSoundMessage is only used in handleSwitch
-** TODO ? the plan
-*** first write a function to find an unused VoiceId
-**** data St = St { ..., _stVoices :: Map VoiceId (Voice app), ...}
-*** in Keyboard.handler, don't use xy as VoiceId; instead generate one
-*** when a key is lifted, find the voice corresponding to it
-for now, through an inefficient backward-lookup of the voice in _stVoices
-** thinking
-*** St
-St { ... skipping some fields ...
-  , _stVoices :: Map VoiceId (Voice app)
-  , _stPending_Vivid :: [SoundMsg app] }
-*** the `SoundMsg`s are no longer just for SC
-Previously they only contained `set` messages (param changes).
-Going forward they will contain `new` and `free` messages, too.
-Those new kinds of messages must be acted on to update _stVoices in the St,
-as well as sent to SC.
-** earlier
-*** SoundMsg must include Create and Free constructors
-**** change to types from the old voice_jit branch
- -data SoundMsg = SoundMsg {
- -    _soundMsgVoiceId :: VoiceId
- -  , _soundMsgPitch   :: Maybe Pitch -- ^ messages like "off" don't need one
- -  , _soundMsgVal     :: Float
- -  , _soundMsgParam   :: Param }
- +data SoundMsg = SoundMsgCreate VoiceId
- +              | SoundMsgFree VoiceId
- +              | SoundMsg ParamMsg
- +  deriving (Show, Eq, Ord)
- +
- +data ParamMsg = ParamMsg
- +  { _paramMsgVoiceId :: VoiceId
- +  , _paramMsgPitch   :: Maybe Pitch -- ^ off-messages don't need one
- +  , _paramMsgVal     :: Float
- +  , _paramMsgParam   :: Param }
+** to silence: change params, then free. createMsg: the reverse.
+** to sound: create voice first, then set
+create voice before setting params (or do both simultaneously)
+* TODO easy
+** TODO move edoKey_ScAction from Common.hs to Keyboard.hs
+** TODO handleSwitch, doScAction and doLedMessage should be in Main.hs
+** TODO handleSwitch should not know about MVar
+ It should instead return an St -> St,
+ and limit its IO to SuperCollider,
+ and be called with mVarModify (or whatever the word is).
 
- -makeLenses ''SoundMsg
- +makePrisms ''SoundMsg
- +makeLenses ''ParamMsg
-**** Vivid: voice creation, use and deletion
-  use "synth" to make a synth, "free" to free it:
-    s <- synth boop
-    set s (toI f :: I "amp")
-    free s
-*** update voiceMaps
-**** They'll need updating in the St before updating in SC
-**** how I did it in the old `voice_jit` branch
-   commit 2ab0131f528b51a31e07f6df4ca2031e5c2718da
-   Author: JeffreyBenjaminBrown <jeffbrown.the@gmail.com>
-   Date:   Tue Feb 25 03:47:21 2020 -0500
-
-       Window.Common.updateVoice:
-	 update the voice map for newly created or destroyed voices,
-	 even though they are created or destroyed later, downstream,
-	 in Types.Window.doSoundMessage
-**** branch `master` does not currently track voices
-  Although it has the types to do it.
-***** howe to verify
-  st <- edoMonome 15226
-  --press a key, press sustain, press a different key
-  --press q
-  _stVoices st
-  -- That's an empty list. The only voices it could possibly track are fingered and sustained ones, so it's not tracking voices.
-*** nextVoice
-**** can maybe start dumb like this
- +nextVoice :: M.Map VoiceId a -> VoiceId
- +nextVoice m =
- +  case M.lookupMax m of
- +    Nothing -> (0,0)
- +    Just ((x,_),_) -> (x+1,0)
- +    -- Produces something bigger than any key in `m`,
- +    -- without looking up the snd in the pair.
- +    -- Note that (0,1) < (1,0).
-*** silenceMsg: change params, then free. createMsg: the reverse.
-**** the change
- +silenceMsg :: (X,Y) -> [SoundMsg]
- +silenceMsg xy =
- +  [ SoundMsg $ ParamMsg { _paramMsgVoiceId = xy
- +                        , _paramMsgPitch = Nothing
- +                        , _paramMsgVal = 0
- +                        , _paramMsgParam = "amp" }
- +  , SoundMsgFree xy ] -- PITFALL: Should come last.
-**** also the reverse
- create voice before setting params (or do both simultaneously)
-** probably ignorable
-*** not todo : commit)reorder the arguments to handlers
-**** why not to do it
- This was done in the old monome base, but I don't see any reason to do it --
- a little grep reveals that the kind of expression mentioned
- in the commit message never appears.
-**** it
- commit 9f829059b73389397a1d5414746a273cd111b1d3
- Author: JeffreyBenjaminBrown <jeffbrown.the@gmail.com>
- Date:   Mon Feb 24 23:04:58 2020 -0500
-
-     reorder the arguments to handlers
-       because       `handler press $ handler press $ handler press st`
-       is nicer than `handler (handler (handler st press) press) press`
-*** todo ? a substantial change I didn't understand
- was made to Windows.Sustain.toggleSustain.
-**** commit b19b9c7f428aeabe2f9fc9e6a838fd8c4edd519b
- Author: JeffreyBenjaminBrown <jeffbrown.the@gmail.com>
- Date:   Tue Feb 25 02:59:06 2020 -0500
-
-     replace a runtime exception (now that it happens) with Either
-       -vid_to_pitch :: St -> VoiceId -> PitchClass
-       +vid_to_pitch :: St -> VoiceId -> Either String PitchClass
+ handleSwitch :: forall app.
+                 MVar (St app) -> ((X,Y), Switch) -> IO (Either String ())
+** TODO find, replace vars named sdMsgs
 * TODO clean
 ** unify the handlers for JI and Keyboard
 * TODO sustained pitches should not disable keys
@@ -298,10 +193,17 @@ Shading on both monomes becomes easier.
 to remove floating point error
 ** sustain to middle of bottom, and duplicate at both top corners
 so that usually something can touch it
-* TODO bug, probably harmless: threadwait error
-** Whenever I quit, I get this error message.
-<interactive>: threadWait: invalid argument (Bad file descriptor)
-** It's extremely old. Probably harmless?
+* TODO bugs
+** A key is useless while sustained
+** LED not released upon releasing sustain
+To recreate:
+Finger a note, shift the keyboard, press sustain, release finger, release sustain.
+The note will still be lit afterward.
+This can be undone within the system by fingering the same note, then pressing sustain, then releasing the finger, then (release sustain and finger, the order doens't matter).
+** probably harmless: threadwait error
+*** Whenever I quit, I get this error message.
+ <interactive>: threadWait: invalid argument (Bad file descriptor)
+*** It's extremely old. Probably harmless?
 * infrastructure
 ** add tests
 *** TODO test multiple handlers
