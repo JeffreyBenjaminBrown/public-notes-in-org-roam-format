@@ -1,0 +1,10 @@
+#+title: Longer Reads Reduce The Problem Of Ambiguous Repetitive Sequences. (Bioinformatics)
+**** Why they help.
+***** Ideally, a read spans all the repeats and some context.
+ Then there is no ambiguity.
+***** Still good: a read spans all the repeats.
+ It does not have to include their totality, just some of all of them.
+ Over-collapse then becomes impossible in the SES algorithm.
+****** TODO I don't understand why this matters, since we don't use the SES algorithm.
+**** Paired end sequencing.
+
