@@ -1,0 +1,3 @@
+#+title: Indexes And Dynamic Programming Work Well Together.
+* Use the index first, to narrow down the text to a small number of "hits" (potential matches).
+* At each hit, use DP to find precisely how well the pattern matches that portion of the text.

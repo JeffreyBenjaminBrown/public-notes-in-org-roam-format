@@ -1,2 +1,33 @@
-#+title: Assembly Problem (genetics)
-= the problem of assembling without a reference genome.
+#+title: Assembly Problem (bioinformatics)
+= the problem of assembling a genome without a reference genome.
+* a.k.a. "de novo assembly", "shotgun assembly"
+* some terms
+** [[file:20200804204437-coverage_bioinformatics.org][Coverage (Bioinformatics)]]
+* some "Laws of Assembly (bioinformatics)"
+** The "First Law of Assembly"
+ If a *prefix* of one read is *similar* to
+    a *suffix* of another
+ then they might come from the same place.
+** The "Second Law of Assembly"
+ = More coverage => more and longer overlaps.
+** The "Third Law of Assembly"
+ Repeats make assembly hard.
+*** [[file:20200809183832-aim_for_longer_reads_bioinformatics.org][Aim For Longer Reads (Bioinformatics).]]
+* [[file:20200809180724-the_overlap_graph.org][The Overlap Graph]]
+* [[file:20200809180839-shortest_common_superstring_ses_problem.org][Shortest Common Superstring (Ses) Problem]]
+* [[file:20200809181029-the_de_bruijn_graph.org][The De Bruijn Graph]]
+* Handling messy graphs.
+This applies to both overlap graph and De Bruijn graph algorithms.
+** Sequencing errors generate dead ends and small disconnected sets.
+Discard them.
+** Some edges are redundant.
+So discard them.
+*** An example.
+In an graph whose nodes are kmers,
+A -6-> B and B -6-> C imply A -5-> C.
+** Polyploidy generates fork-merge pairs.
+The graph looks like a path that forks into two,
+and then those two sides rejoin.
+The two forks correspond to the mother's and father's versions.
+** Repeats generate ambiguity.
+So just make a note that it's not clear how many times they are repeated.

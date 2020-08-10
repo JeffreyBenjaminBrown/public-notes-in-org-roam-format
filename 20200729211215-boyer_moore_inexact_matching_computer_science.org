@@ -1,4 +1,4 @@
-#+title: Boyer-Moore Inexact Matching (Computer Science)
+#+title: Boyer-Moore Exact Matching Algorithm (Computer Science)
 * the algorithm
 ** Reverse the inner order.
  Try alignments left-to-right, but within each alignment,
@@ -9,7 +9,7 @@
  Try the first alignment. The last three characters match (TCG).
  The one before that doesn't -- there's a C in the text and a T in the pattern.
  So move left to the closest C in the pattern.
- Advance the pattern until either 
+ Advance the pattern until either
    the pattern matches at that place where it didn't before, or
    the pattern is just past the place where it didn't before.
 ** Consider the "good suffix rule".
@@ -19,11 +19,12 @@
    (1) again it matches T over (t in T), or
    (2) P is just past (t in T).
 ** Advance by the maximum of what the two rules suggest.
-* Save time by pre-computing skips.
+* Save time by preprocessing.
+** Pre-computing skips in the (short) pattern.
 Build two lookup tables, one for each rule,
 using only the short pattern P (not the long text T).
-** How to build a lookup table for the bad character rule.
-Given a pattern P of length |P|,
-compute a 4x|P| matrix that says how far to skip based on which character in P
-is the bad one (|P| choices) and which character in T it matches 
-(4 choices = |{A,C,G,T}|).
+*** How to build a lookup table for the bad character rule.
+ Given a pattern P of length |P|,
+ compute a 4x|P| matrix that says how far to skip based on which character in P
+ is the bad one (|P| choices) and which character in T it matches
+ (4 choices = |{A,C,G,T}|).

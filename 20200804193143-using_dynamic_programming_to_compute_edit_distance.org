@@ -1,0 +1,29 @@
+#+title: Dynamic Programming to Compute Edit Distance
+* "Dynamic programming" = cached recursion
+(according to this video, around 11:45:
+https://www.youtube.com/watch?v=0KzWq118UNI&list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA&index=34)
+* The basic algorithm
+** The insight: Given distinct sequences a and b and distinct characters x and y, there are three ways to edit (a x) into (b y)
+edist( a x, b y ) = min(
+  edist( a,b ) + 1,
+  edist( a x, b ) + 1,
+  edist( a, b y ) + 1 )
+** That is easily generalized to the case where x and y might be the same.
+edist( a x, b y ) = min(
+  edist( a,b ) + (0 if x==y else 1)
+  edist( a x, b ) + 1,
+  edist( a, b y ) + 1 )
+** Add two base cases.
+If |x| = 0, then edist(x,y) = |y|, and vice versa.
+* That needs caching
+** because otherwise the number of calls is on the order of 3^(|x|+|y|).
+** The cache can be represented as a matrix.
+*** How to interpret the matrix.
+Columns correspond to prefixes of one string,
+rows corespond to prefixes of the other,
+and "" is included as the "first prefix" of both strings.
+*** Each term in the matrix depends on its three upper-left neighbors
+assuming we put ("","") in the upper-left corner.
+*** The first row and first column of the matrix equal the natural numbers
+from 0 to |x| or |y| as appropriate.
+x

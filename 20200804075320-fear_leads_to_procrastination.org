@@ -1,0 +1,5 @@
+#+title: Fear Leads To Procrastination.
+* The BBC wrote about it.
+[[https://www.bbc.com/worklife/article/20200121-why-procrastination-is-about-managing-emotions-not-time][Why procrastination is about managing emotions, not time]].
+* It might be rational.
+If you think the problem cannot be solved, working on it is a waste of time.

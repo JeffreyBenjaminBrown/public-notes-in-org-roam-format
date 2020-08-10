@@ -1,0 +1,12 @@
+#+title: Measuring The Space of Sequences
+* ways sequences can differ
+** mismatch|substitution
+= they differ in a spot
+** insertion|deletion
+= one has an extra base pair inserted somewhere that the other doesn't.
+* distance measures on the space of sequences
+** Hamming distance
+ =  minimum number of substitutions to transform one into the other.
+** edit distance | Levenshtein distance
+ =  minimum number of substitutions to transform one into the other,
+where an edit is either an insertion, a deletion or a substitution.

@@ -1,4 +1,21 @@
 #+title: Read Alignment Problem (genetics)
 = the problem of assembling with a reference genome.
-* [[file:20200729192046-the_exact_matching_problem_computer_science.org][The Exact Matching Problem (Computer Science)]]
-* [[file:20200729211215-boyer_moore_inexact_matching_computer_science.org][Boyer-Moore Inexact Matching (Computer Science)]]
+* [[file:20200804200635-measuring_the_space_of_sequences.org][Mxeasuring The Space Of Sequences]]
+* problems
+** [[file:20200729192046-the_exact_matching_problem_computer_science.org][The Exact Matching Problem (Computer Science)]]
+** The Global Alignment Problem
+*** = finding a short pattern in a long text.
+** The Local Alignment Problem
+*** = finding the most similar pair of substrings from two strings.
+*** Incredibly, the solution is nearly identical to the DP solution to the global alignment problem.
+**** The two differences:
+***** In the penalty matrix, make the diagonal > 0, the penalties < 0.
+***** Start the traceback at any maximal value (not just in the last row), and work backward only until the first 0.
+**** Most of the alignment matrix will be 0.
+* algorithms
+** [[file:20200803214250-offline_matching_algorithms.org][Offline matching algorithms]]
+** [[file:20200729211215-boyer_moore_inexact_matching_computer_science.org][Boyer-Moore Exact Matching (Computer Science)]]
+** [[file:20200803214343-inexact_matching.org][Inexact Matching]]
+** [[file:20200804193143-using_dynamic_programming_to_compute_edit_distance.org][Using Dynamic Programming to Compute Edit Distance]]
+** [[file:20200804195858-using_dynamic_programming_for_approximate_matching.org][Using Dynamic Programming for Approximate Matching]]
+** [[file:20200804203928-indexes_and_dynamic_programming_work_well_together.org][Indexes And Dynamic Programming Work Well Together.]]

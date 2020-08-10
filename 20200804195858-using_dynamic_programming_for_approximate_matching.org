@@ -1,0 +1,26 @@
+#+title: Using Dynamic Programming for Approximate Matching
+I understood how to do it but not why it works.
+* The algorithm
+** Arrange the cache as a |P| by |T| matrix.
+ That is, the rows are long like T, the columns short like P.
+** Initialize the matrix differently.
+ Initialize the first pattern-length column as before, but initialize the first text-length row to all 0s.
+** Read minimal edit distances from the last row.
+** From the|each minimal edit distance, read a "traceback" to the first row.
+*** The offset where the match to P starts in T is
+ where the traceback intersections the second row ("row 1" if 0-indexing).
+*** Each vertical bit of the traceback corresponds to something missing in T
+ or equivalently, something extra in P.
+*** Each horiz bit of the traceback corresponds to something missing in P.
+ or equivalently, something extra in T.
+* It's slow.
+Its speed is O(|P|*|T|).
+** Fortunately, [[file:20200804203928-indexes_and_dynamic_programming_work_well_together.org][Indexes And Dynamic Programming Work Well Together.]]
+* Penalize unusual edits more.
+** [[file:20200804200741-in_dna_some_edits_are_more_likely_than_others.org][In DNA, Some Edits Are More Likely Than Others.]]
+** Use a "penalty matrix" to score every possible edit.
+There's a row for each of {A,C,T,G,absent}, and similarly columns.
+It's 0 down the diagonal.
+** Modifying the DP algorithm to for this is easy.
+Rather than adding 1 for each edit,
+add something pulled from the penalty matrix.

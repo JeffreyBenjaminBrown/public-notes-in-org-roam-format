@@ -1,0 +1,22 @@
+#+title: The De Bruijn Graph (bioinformatics)
+"Bruijn" rhyms with "coin".
+* It's a multigraph,
+i.e. one where multiple edges can start and end in the same place.
+* It's an Eulerian graph
+meaning it can be walked.
+* the algorithm
+** Suppose you've read every kmer from the text.
+** Divide each kmer into two (k-1)mers
+** Each (k-1)mer becomes a node in the graph.
+** Add an edge connecting the first (k-1)mer to the second in each kmer.
+** walk the graph.
+If there's only one walk, that's the answer.
+If there's more than one, it's one of them.
+* It does not overcollapse repeats.
+unlike SES solutions.
+* PITFALL: It depends strongly on an unrealistic assumption
+that we get exactly one kmer starting at every position in T.
+We can always build the De Bruijn graph, but in practice
+it will never be Eulerian.
+
+

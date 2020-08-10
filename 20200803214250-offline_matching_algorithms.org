@@ -1,0 +1,34 @@
+#+title: Offline matching algorithms (bioinformatics)
+* What they are.
+These pre-process the (long) text,
+rather than the (short) pattern(s) matched against it.
+They are appropriate when the text is fixed --
+e.g. the human reference genome --
+and many patterns will be matched against it.
+Such algorithms are called "offline".
+Others are "online".
+* Index every [[file:20200803193911-kmer.org][kmer]],
+mapping it to a list of offsets where it starts.
+** Given a kmer index, can look up any kmer from P in it,
+and then do "verification" to see if the rest of P also matches at any of the "index hits" produced by the initial lookup.
+* hash table indexes
+From each (kmer,offset) pair,
+apply the hash function to the kmer to find a "bucket" (list of such pairs),
+then append (or prepend; doesn't matter) the pair to that bucket.
+** Collisions are possible.
+That is, two different kmers can map to the same bucket.
+If there aren't a lot of collisions, they won't affect speed much.
+** [[file:20200803200021-python_dictionaries_are_hash_tables.org][Python dictionaries are hash tables.]]
+* Variations on kmer indexing
+** Index only every nth kmer of the text.
+This makes the index shorter,
+but it means in each pattern P we have to try kmers starting at every possible position modulo k. For instance, if we index every other kmer in the text,
+then we have to try (any) kmer from P that starts at an even offset, and another that starts at n odd one.
+** Index length-k subsequences that aren't substrings.
+To match a pattern P we just take any subsequence of the same shape in P.
+If k didn't change, this does not change the size of the index,
+but it can increase the specificity of a hit --
+the likelihood that it leads to a match.
+** It's an active area of research.
+Popular, fancier variations include the suffix tree,
+the suffix array, and "FM index".

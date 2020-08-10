@@ -1,0 +1,8 @@
+#+title: Coverage (Bioinformatics)
+* definition
+** For a particular position in the geneome,
+coverage is the number of reads we have that include it.
+** For the genome as a whole,
+coverage is just its average over all positions.
+Unknowable without knowing total genome length.
+* PITFALL: The reads "covering" that position might not agree on what's there.

@@ -1,0 +1,7 @@
+#+title: DNA sequences are very non-random
+e.g. they repeat a lot.
+*** especially because of "transposable elements"
+which "selfishly" replicate themselves within the genome,
+causing massive redundancy (they are about 45% of it in humans)
+and of which some are important to our function.
+

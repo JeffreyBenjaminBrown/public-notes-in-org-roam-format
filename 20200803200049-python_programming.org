@@ -1,0 +1,4 @@
+#+title: Python (programming language)
+* [[file:20200803200021-python_dictionaries_are_hash_tables.org][Python dictionaries are hash tables.]]
+
+

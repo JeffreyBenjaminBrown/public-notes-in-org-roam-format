@@ -1,0 +1,12 @@
+#+title: Shortest Common Superstring Problem (bioinformatics)
+a.k.a. SES problem
+= Given a set S of strings, find SCS(S), the shortest string containing them.
+* The SES problem is NP-complete.
+* The greedy solution 
+is fast but imperfect.
+** Collapse the graph.
+Find the biggest edge (overlap).
+If there are multiple, choose at random.
+Merge those two nodes by concatenating them around their overlap.
+Recompute the new node's edges.
+Repeat until the graph has one node.

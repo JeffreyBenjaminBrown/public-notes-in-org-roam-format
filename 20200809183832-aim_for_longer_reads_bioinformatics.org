@@ -1,0 +1,20 @@
+#+title: Aim For Longer Reads (Bioinformatics).
+This is a tech solution, not a CS solution,
+to the problem that repeated subsequences cause ambiguity in DNA assembly.
+* Why longer reads help.
+** Ideally, a read spans all the repeats and some context.
+Then there is no ambiguity.
+** Still good: a read that spans all the repeats.
+Even if it does not include their totality, just some of all of them,
+then over-collapse becomes impossible in the SES algorithm.
+*** TODO I don't understand why this matters, since we don't use the SES algorithm.
+* Paired end sequencing
+permits sequences to be read from both ends.
+Doubles (roughly?) the lengths of reads.
+Some reads will have a missing chunk in the middle,
+but even then it helps to know the two end sequences are close to each other.
+* Some technologies permit *way* longer sequences but are less accurate.
+That's because they sequence a single molecule at a time,
+rather than a cluster of clones.
+They're wrong around 10-15% of the time.
+

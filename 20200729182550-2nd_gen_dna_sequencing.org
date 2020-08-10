@@ -19,3 +19,7 @@ causes that strand to get "out of sync" with the others.
 It will one position ahead of schedule if it received only one non-terminated base.
 ** The solution: [[file:20200729183356-base_caller_software.org]["Base Caller" Software]]
 * The reads will vary in length.
+* Reads that "should" be identical can differ.
+both due to sequencing error, and because of polyploidy --
+the fact that sexual species contain two not-quite copies of each chromosome,
+one from either parent.

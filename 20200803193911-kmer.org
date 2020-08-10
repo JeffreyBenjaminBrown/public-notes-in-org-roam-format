@@ -1,0 +1,3 @@
+#+title: kmer (bioinformatics)
+= a substring of length k
+

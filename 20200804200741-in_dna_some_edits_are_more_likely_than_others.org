@@ -1,0 +1,10 @@
+#+title: In DNA, Some Edits Are More Likely Than Others.
+* "Transitions" convert A <-> G or C <-> T.
+* Transitions and transversions partition the space of base substitutions.
+That is, "transversions" are everything else.
+* Transitions are about twice as likely in humans as transversions,
+even though there are (exactly) twice as many kinds of transversions.
+* Substitutions are 3 times more likely than other edits in humans.
+"Other edits" includes insertions and deletions.
+The "in-del rate" is about 1/3000.
+The "substitution rate" is about 1/1000.

@@ -1,191 +1,24 @@
 #+title: mtv-monome
 * PITFALL: If I need to see the voice_jit or jit_test branches
 they are in the old monome/ repo.
-* DONE ? use Dispatch.Types.Action in mtv-monome, instead of SoundMsg
-** code refs
-*** Montevideo.Dispatch.Msg.Mk.boopOneMsg :: (ParamName, Float) -> Msg' BoopParams
-boopOneMsg ("on",n)    = Msg' (toI n :: I "on")
-boopOneMsg ("freq",n)  = Msg' (toI n :: I "freq")
-boopOneMsg ("amp",n)   = Msg' (toI n :: I "amp")
-boopOneMsg (param,val) = error $
-  "boopOneMsg: unexpected message: " ++ show param ++ "=" ++ show val
-*** Montevideo.Dispatch.Msg.Mk.boopMsg :: Msg -> [Msg' BoopParams]
-boopMsg = map boopOneMsg . M.toList
-*** Montevideo.Dispatch.Msg.Act.actSend :: SynthRegister -> Time -> Action -> IO ()
-actSend reg when (Send Boop name msg) =
-  case M.lookup name $ _boops reg of
-    Nothing ->
-      writeTimeAndError $ " The name " ++ name ++ " is not in use.\n"
-    Just (s :: V.Synth BoopParams) ->
-      V.doScheduledAt (V.Timestamp $ fromRational when)
-      $ mapM_ (set' s) $ boopMsg msg
-
-** research
-*** how soundMsgPitch propogates
-**** soundMsgPitch is read only in Window.Common.updateVoice
- and only to update voicePitch
-***** purpose
- for each sound message, it updates the _stVoices field of the St
- to reflect the new pitch (if any) and the new param.
-***** TODO wacky: if no _soundMsgPitch, updates neither pitch nor params
- I guess that's because off messages don't require any kind of update.
- But they will, once voices are dynamic -- namely, to remove the voice.
-***** updateVoice :: SoundMsg app -> St app -> St app
- updateVoice sdMsg st = let
-   vid   :: VoiceId = _soundMsgVoiceId sdMsg
-   param :: Param   = _soundMsgParam   sdMsg
-   f     :: Float   = _soundMsgVal     sdMsg
-   in st & case _soundMsgPitch sdMsg of
-             Nothing -> id
-             Just p -> stVoices . at vid . _Just
-		       %~ (voicePitch                     .~ p)
-		       .  (voiceParams . at param . _Just .~ f)
-**** updateVoice is used in 3 of the handlers
- in each case as
-   Right $ foldr updateVoice st2 sdMsgs
-*** how voicePitch propogates
-**** It is read only in vid_to_pitch
- vid_to_pitch :: St EdoApp -> VoiceId ->  Either String (PitchClass EdoApp)
- vid_to_pitch st v =
-   mapLeft ("vid_to_pitch: " ++) $ maybe
-   (Left "vid_to_pitch: voice not found")
-   (Right . flip mod (st ^. stApp . edoConfig . edo) . _voicePitch)
-   $ M.lookup v (_stVoices st)
-**** vid_to_pitch is used only in Window.Sustain
-   to figure out when to off the LEDs and the SC synths
-*** how `Action`s are consumed
- In Montevideo.Dispatch.Dispatch,
- some functions which hand Actions to actSend, actNew and actFree.
- They use the dispatch to look up which Synth to send to,
- based on the name of the Synth in the Action.
-*** how messages are consumed
-**** edoMonome treats an mVar St with handleSwitch.
- The St is in an mVar called mst.
- It mostly calls handleSwitch over and over,
- but there's also a little code to begin and end.
-**** handleSwitch calls doSound, doLed, then empties those message lists
-   mapM_ doOrPrint $
-     (doSoundMessage st1 <$> _stPending_Vivid  st1) ++
-     (doLedMessage   st1 <$> _stPending_Monome st1)
-   putMVar mst st1
-     { _stPending_Monome = []
-     , _stPending_Vivid = [] }
-**** doSoundMsg looks up the synth from the VoiceId, sends amp or freq
- It assumes no other parameters are used.
-**** doLedMessage produces a relay with relayToWindow, uses it to send the press to the monome
-*** Where are all pitch- (not freq-)bearing messages made?
- And do they all cause updating of the voice?
- Window.Keyboard relies on Common.etKey_SoundMsg
-    :: St EdoApp -> ((X,Y), Switch) -> [SoundMsg EdoApp]
- Window.JI defines the very duplicative jiKey_SoundMsg
-    :: JiApp -> ((X,Y), Switch) -> [SoundMsg JiApp]
-
- In Window.Common, the only thing that sets a non-null soundMsgPitch is
-   etKey_SoundMsg :: EdoApp -> ((X,Y), Switch) -> [SoundMsg EdoApp]
-**** grep -i soundmsg -r . --color --exclude-dir=Test --exclude-dir=Types
-*** Could voices be updated without any explicit message type?
-* TODO create voices on the fly
-** TODO ScAction_New should include an ScMsg
-which can be empty.
-This would make voice creation in Montevideo.Monome more natural --
-it would take just one message, not two,
-and after the first I would already be able to store the voice.
-** TODO restore my saved work (it's a .diff file)
-** TODO create voices on the fly even before the IDs are good
-*** TODO remember
-**** there's already Common.updateVoiceParams
-**** there's only one field in Montevideo.Monome that uses ScAction
-_stPending_Vivid :: [ScAction VoiceId]
-*** TODO the plan?
-**** Wherever ScActions are made, make New and/or Free also
-**** Wherever ScActions are handled, add clauses for New and Free
-**** In Main.hs, set _stVoices = mempty
-***** TODO Once edoMonome works, do the same for jiMonome
-*** Vivid: voice creation, use and deletion
- use "synth" to make a synth, "free" to free it:
-   s <- synth boop
-   set s (toI f :: I "amp")
-   free s
-** TODO nextVoice: start dumb like this
-+nextVoice :: M.Map VoiceId a -> VoiceId
-+nextVoice m =
-+  case M.lookupMax m of
-+    Nothing -> (0,0)
-+    Just ((x,_),_) -> (x+1,0)
-+    -- Produces something bigger than any key in `m`,
-+    -- without looking up the snd in the pair.
-+    -- Note that (0,1) < (1,0).
-** TODO update the _stVoices in an St
-*** They'll need updating in the St before updating in SC
-*** how I did it in the old `voice_jit` branch
-  commit 2ab0131f528b51a31e07f6df4ca2031e5c2718da
-  Author: JeffreyBenjaminBrown <jeffbrown.the@gmail.com>
-  Date:   Tue Feb 25 03:47:21 2020 -0500
-
-      Window.Common.updateVoice:
-	update the voice map for newly created or destroyed voices,
-	even though they are created or destroyed later, downstream,
-	in Types.Window.doSoundMessage
-*** branch `master` does not currently track voices
- Although it has the types to do it.
-**** howe to verify
- st <- edoMonome 15226
- --press a key, press sustain, press a different key
- --press q
- _stVoices st
- -- That's an empty list. The only voices it could possibly track are fingered and sustained ones, so it's not tracking voices.
-** (old) find every place the voice ids are (read and actually) used
-soundMsgVoiceId is only used in
-*** Common.updateVoiceParams :: SoundMsg app -> St app -> St app
-**** updateVoiceParams is only used
-  like this
-    Right $ foldr updateVoiceParams st1 soundMsgs
-  at the end of the the Keyboard, Sustain and JI handlers.
-*** Window.Util.doSoundMessage
-doSoundMessage :: St app -> SoundMsg app -> Either String (IO ())
-The soundMsgVoiceId is looked up in the stVoices to find a synth to change.
-**** doSoundMessage is only used in handleSwitch
-** to silence: change params, then free. createMsg: the reverse.
-** to sound: create voice first, then set
-create voice before setting params (or do both simultaneously)
-* TODO easy
-** TODO move edoKey_ScAction from Common.hs to Keyboard.hs
-** TODO handleSwitch, doScAction and doLedMessage should be in Main.hs
-** TODO handleSwitch should not know about MVar
- It should instead return an St -> St,
- and limit its IO to SuperCollider,
- and be called with mVarModify (or whatever the word is).
-
- handleSwitch :: forall app.
-                 MVar (St app) -> ((X,Y), Switch) -> IO (Either String ())
-** TODO find, replace vars named sdMsgs
-* TODO clean
-** unify the handlers for JI and Keyboard
-* TODO sustained pitches should not disable keys
-** after spatial drift
-Currently, because each voice is identified with a key,
-if that voice is sustained, that key cannot sound a new note,
-even when it no longer represents the same pitch.
-** ? or at all
-* TODO for JI synth
-** print each note as it is played
 * TODO features
-** two keyboards, split keyboard
+** timbre the board
+higher tones are harsher
+rightward tones are (warblier?)
 ** sustain: two buttons, "add these" and "release all"
 "add these" has on/off state, stays in effect until it is released.
 "release all" has no state -- it fires as soon as it's touched, and holding it does nothing.
 ** store pitchsets from sustain
+** two keyboards, split keyboard
+** amp=0 before freeing voice
+** monomes, language share pitch LED messages
 ** transpose {pitchsets, ongoing notes, either keyboard}
-** make pitchsets available on a per-degree basis
-** timbre the board
-higher tones are harsher
-rightward tones are (warblier?)
+** volume, timbre control for {sustained notes, either keyboard}
 ** redraw the whole screen often
 *** why
 Dropped messages to LEDs stop being a (hypothetical) problem.
 Shading on both monomes becomes easier.
 ** flash the anchor
-** volume, timbre control for {sustained notes, either keyboard}
 ** reset buttons
 *** silence all voices
 *** redraw entire grid
@@ -193,13 +26,22 @@ Shading on both monomes becomes easier.
 to remove floating point error
 ** sustain to middle of bottom, and duplicate at both top corners
 so that usually something can touch it
+** make pitchsets available on a per-degree basis
+** JI synth: print each note as it is played
+* TODO clean
+** handleSwitch should not know about MVar
+ It should instead return an St -> St,
+ and limit its IO to SuperCollider,
+ and be called with mVarModify (or whatever the word is).
+
+ handleSwitch :: forall app.
+                 MVar (St app) -> ((X,Y), Switch) -> IO (Either String ())
+** unify the handlers for JI and Keyboard
 * TODO bugs
-** A key is useless while sustained
-** LED not released upon releasing sustain
-To recreate:
-Finger a note, shift the keyboard, press sustain, release finger, release sustain.
-The note will still be lit afterward.
-This can be undone within the system by fingering the same note, then pressing sustain, then releasing the finger, then (release sustain and finger, the order doens't matter).
+** crashes when a voice is not found
+*** TODO Why does it crash?
+Even conditional on not finding the note, shouldn't it just print an error and continue?
+*** TODO Why is the voice not found?
 ** probably harmless: threadwait error
 *** Whenever I quit, I get this error message.
  <interactive>: threadWait: invalid argument (Bad file descriptor)

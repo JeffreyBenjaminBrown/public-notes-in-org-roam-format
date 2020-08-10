@@ -1,0 +1,8 @@
+#+title: The Overlap Graph (bioinformatics)
+= a directed graph that represents the overlaps among sequences
+* defining the arrow direction
+Arrows point from the read that matches on its suffix to the one whose prefix it matches.
+* Label the arrows with the length of the overlap.
+* Discard arrows with small labels.
+* We want to walk the graph.
+but maybe not the whole thing, because there can be errors.
