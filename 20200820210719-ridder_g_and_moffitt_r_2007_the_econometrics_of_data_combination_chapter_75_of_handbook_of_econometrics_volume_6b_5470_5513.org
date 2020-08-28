@@ -1,0 +1,5 @@
+#+title: Ridder, G And Moffitt, R. 2007. The Econometrics Of Data Combination. Chapter 75 Of Handbook Of Econometrics, Volume 6b, 5470-5513.
+* their first example
+Y, Z and X are each sets of variables.
+Sample A has variables Y,Z.
+Sample B has variables Z,X.

@@ -1,4 +1,4 @@
-#+TITLE: 31 tone equal temperament
+#+TITLE: microtonality
 * TODO misfiled: this is about EDOs more generally
 * stretching octaves
 ** ref
@@ -88,3 +88,4 @@ It's weird because it sounds like a familiar scale with an extra note
 ** two minor chords, descending 4/31 from one to the other
 but holding the fifth degree (18/31) from the first,
 and between them play the dominant (major starting at 18) chord of the first.
+* [[file:20200827195612-thanos_tunings.org][Thanos (Kite-Ish) Tunings]]

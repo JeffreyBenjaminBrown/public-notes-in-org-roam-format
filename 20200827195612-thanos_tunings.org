@@ -1,0 +1,549 @@
+#+title: Thanos tunings
+#+ROAM_ALIAS: "Kite tunings"
+* what Matthew Autry uses
+For both 72edo and 87edo, I use every third fret-24 and 29 frets to the octave. I don't use isomorphic tunings. I use seven string acoustic guitars, which gives about an octave in one position. Open string tuning, low to high-1/1,10/9,6/5,4/3,40/27,8/5,16/9.
+* notes after *really* automating
+** comparisons
+*** 118 miracle v. 87 miracle
+**** fewer frets in 118
+118 3 23 => only 39+1/3 frets, vs.
+87 2 17 => 43.5 frets
+**** easier to play in 87
+lim7 span of 4 in 87, 6 in 118
+lim13 span of 8 in 87, 10 in 118
+** criteria
+*** above 60-edo, only 104 5 28 gives a good guitar tuning
+minEdo = 60
+maxEdo = 100
+isForGuitar = True
+minSpacingIn12edo = 12/5
+   tReport_spacing12 = 3.2307692
+minFretsPerOctave = 10
+maxFretsPerOctave = 35
+** best among wide string spacings (>= 3\12 between strings)
+*** TODO 104 % 5 rivals Kite's tuning
+But as he points out, there are at most 2 places on the neck where you can play in any given scale.
+20.8 fpo
+5/4 is 5.5 cents flat; everything else is perfect.
+**** 104 5 33: *3.8\12 string gap*, max reach 11 but 4 in the 11-limit.
+104/5 => 20.8 edo, so that 11-fret gap really is harder than Kite's 8.
+Almost exactly the Kite layout,
+except 13/8 is in a weird place -- (1,8) rather than (3,-5).
+**** 104 5 28: 3.2\12 string gap, max reach 9 but 4 in the 11-limit.
+*** TODO 58-edo: beats Kite for guitar if 3.1\12 string gaps are acceptable
+**** TODO 58 2 15: *max reach of 3 ignoring 11/8*, *3.1\12 per gap*
+max reach of 8 including 11/8 -- but 8\29 is shorter than the
+8\29 max reach of Kite's tuning
+**** TODO 58 3 13: max reach of 7 (4 ignoring 11/8), 2.7\12 string gaps
+**** TODO 58 6 13: 9+2/3 fpo, 2.7\12 gaps, *13-lim reach of 5*
+and the layout is nice too!
+**** 58 *7* 13: *max reach of 5*, 8+2/7-edo
+Layout would be nice if pitch rose away from me on the monome.
+**** 58's miracle layout is nearly dominated by 104
+It wins on span -- 7 frets of 19.3-edo vs. 9 frets of 20.8-edo --
+but in the 11-limit 104 totally dominates it.
+**** 58 2 14: max reach of 7, 2.9\12 string gap, but awkward layout
+*** TODO 63 rivals 41
+It wins harmonically: the 3/2 is slightly worse, everything else better.
+**** TODO 63 3 20: best for guitar? *3.8\12 gaps*, layout nearly 41 2 13
+11-limit max reach of 6
+but max reach of 11 in 13-limit, v. Kite's 8
+**** 63 2 13: 2.5\12 gaps, 31.5-fpo, *13-lim span of 7*
+**** 63 *12* 17: 5.25-edo, 3.2\12 gaps, *13-lim reach 5 frets*
+They're five giant frets, but it'll work on the monome!
+**** 63 7 12: best for monome? 9 fpo, 2.29\12 gaps, *13-lim max reach of 5*
+**** 63 2 11: 13-lim reach of 6, close to miracle layout
+very slightly narrower gaps: octave on string 5 fret 4.
+7/4 and 11/8 are a bit less convenient.
+**** 63 3 17: *3.2\12 gaps*, *11-lim max reach of 4*
+and 13-limit max reach of 9 -- equal to 41 2 13
+*** TODO 115 11 26: 10.45 fpo, 2.7\12 gaps, *lim7 range 2*
+lim13 range 12, but drops to 6 if you ignore 11/8, or 8 if you ignore 13/8
+*** TODO 53
+**** 53 *17* 12: 2.7\12 gaps, *lim13 reach 6*, *3.1 fpo*
+**** 53 *5* 12: 2.7\12 string gap, *lim11 reach 2*, *10.6-edo*
+**** 53 3 10: 17+2/3 fpo, *lim13 reach 4*, very nearly miracle
+octave is at (5,1) like normal, but fifths are at (4,-3)
+**** 53 7 10: 7.5 fpo, *lim13 reach 4*
+Perfect octave is at (6,-1), but the frets are big; it's very nearly miracle.
+**** 53 2 11: 2.5\12 gaps, *lim13 max reach of 6\26.5*
+Slightly wider string gaps than miracle; octave at (5,-1).
+*** TODO 133: awesome, but 44+(1/3)-edo frets
+**** 133 3 29: awesome
+2.6\12 between strings
+*13-limit span of 7*
+**** 133 3 26: miracle layout
+dominated by (87 2 miracle)
+*** TODO 104 5 28: rivals 41 2 13
+3.2\12 between strings
+*11-limit span of 4*
+ 13-limit span 9
+*** 128
+128 / 3 => 42.333 fpo
+**** 128 3 25: miracle, very close to 87
+very slightly fewer frets than 87 2 miracle
+slightly worse sound
+**** 128 3 28: 7-span 5, 13-span 7, 2.6\12 gaps
+*** TODO 46
+**** 46 3 11:
+ Good: the 13-limit fret span is 6.
+ Bad: 7/4 and 5/4 both require a reach of 6 frets.
+ Good: 2.9 between strings.
+ Bad: Octaves span 5 strings (base 0).
+**** 46 5 9: 9.2-edo frets, 2.34\12 gaps, *span of 3 excluding 11/8*
+13-lim span of 6
+**** 46 2 11:
+ Good: Same 2.9\12 between strings.
+ Good: span of 8 frets, 6 in the 7-limit, and every prime under 8 requires a reach of 3 or less.
+**** 46 2 13: 3.4 bewteen strings. span of 10, nicer than it seems.
+ 3/2 requires a reach of either 7 frets positive or 6 frets negative,
+   but that actually makes it more flexible.
+ The other intervals are all pretty small.
+*** 118: great but needs really small string gaps
+(4|7) 19: span of 7, 1.9\12 bewteen strings
+118 also offers a miracle alignment very much like 87.
+*** TODO 41
+**** 41 8 11: *13-lim range 5 frets* *octave at (3,1)*
+great for monome
+**** 41 3 11: 3.2\12 gap, *11-lim span 5*
+*** 67-edo
+good but thirds are 7.7c sharp
+**** 67 3 14: 22+1/3 fpo, 2.5\12 gaps, *13-lim span 7*
+**** 67 2 13: miracle, 33.5-edo frets
+*** not 56 -- its 3/2 is > 5 cents sharp
+*** not 68 -- dominated by 104, and 3/2 is a 7-fret reach
+*** not 50 -- bad sound (3/2 is 6 cents flat)
+*** not 68 -- the fifth is too far away
+** narrower tunings
+*** TODO 96
+96 9 20: 10.666 fpo, 2.5\12 gaps, span of 8 (or 5 ignoring 11/8)
+96 3 17: spaced 2.1\12, span of 8 frets, 5-limit span 4 frets
+*** TODO 166 7 30: reach of 4 in 11-limit, 2.1\12 between strings
+reach of 10 in 13-limit
+*** TODO 111 7 18: reach of 6 in 11-limit, 1.9\12 between strings
+almost dominated by 166, except this has
+reach of 9 in the 13-limit
+*** 99 3 16: reach of 3 in 11-limit, 1.94\12 between strings
+*** 130 4 21: reach of 7 in 11-limit, 1.93\12 between strings
+*** 118, 94 close-spaced both give nice narrow ranges
+but they're awkwardly arranged.
+*** 94
+**** 94 7 23: *13.43-edo*, *2.9\12 gaps*, *great sound*
+but harder to play than 41-edo: the max reach is 8\13.5 rather than 8\20.5
+**** 94 7 18: string gap 2.3]12, span of 7 frets, but awkward
+**** 94 4 17 is great for 11-limit
+max fret reach of 4 (but 10 in the 13-limit).
+** individual tunings
+*** not 74: 3/2 is 4.7 cents flat
+*** not 78: 3/2 is 5.7 cents sharp
+*** 103
+*** 130 4 19, span 13, 7-limit span of 3, spaced 1.9\12
+*** 46 is very worthy
+*** 87 is incredible, with various good spacings (2,3,5)
+87 / 3, spaced 17\87 looks best.
+But this one's also good: thanosreport 87 3 14
+*** 94 is great
+**** 94 mod 7, 16\94: span of 7, 5-limit span of 2, 2\12 bewteen strings
+**** 94 4 17: span of 10, 11-limit span of 4, 2.2\12 between strings
+*** 77 3 17 seems best in 77-edo
+2.65\12 between strings
+max reach 9, but 6 if you ignore 11/8
+* To find these quickly,
+run `thanos'' modulus maxFretDistance` for a given modulus.
+(e.g. for Kite tuning the modulus is 2.)
+* after automating the search
+** TODO 104 mod 5! span of 9 frets, or 4 in the 11-limit!
+** TODO 68 is good.
+> myPrint $ bests 68
+(3 % 2,(40,7059,39.273))
+(5 % 4,(22,3882,19.215))
+(7 % 4,(55,9706,17.62328))
+(11 % 8,(31,5471,-42.59))
+(13 % 8,(48,8471,65.3116176010135))
+(17 % 8,(67,11824,-1226.024))
+
+
+    { report_edo = 68
+    , report_modulus = 2
+    , report_spacing = 17
+    , report_spacing12 = 3.0
+    , report_fretSpan = 13
+    , report_fretSpan12 = 4.58
+    , report_intervalReports =
+        [ 22 steps = 5 % 4: string 2 fret -6
+        , 31 steps = 11 % 8: string 1 fret 7
+        , 40 steps = 3 % 2: string 2 fret 3
+        , 48 steps = 13 % 8: string 2 fret 7
+        , 55 steps = 7 % 4: string 3 fret 2
+        , 68 steps = 2 % 1: string 4 fret 0
+** TODO 94 mod 7! span of 8 frets! 4 in the 7-limit!
+** TODO 84 mod 5!
+** 89 mod 5
+estTunings 89
+[ ThanosReport
+    { report_edo = 89
+    , report_modulus = 5
+    , report_spacing = 19
+    , report_fretSpan = 10
+    , report_intervalReports =
+        [ 29 steps = 5 % 4: string 1 fret 2
+        , 41 steps = 11 % 8: string 4 fret -7
+        , 52 steps = 3 % 2: string 3 fret -1
+        , 62 steps = 13 % 8: string 3 fret 1
+        , 72 steps = 7 % 4: string 3 fret 3
+        , 89 steps = 2 % 1: string 6 fret -5
+        ]
+** TODO 90 mod 5! span of 7 frets!
+** TODO 55 mod 4, span of 4 frets!
+** TODO 65 mod 4, span of 5 frets!
+** TODO 50 mod 3, span of 5 frets!
+** 78 is nice
+** 72 edo, modulo 3, 14\72 between strings: max reach of 7 frets
+** 109 edo! modulo 4! 25\109 between frets: max reach of 10 frets
+And those are frets of 109/4 ~ 27 edo.
+* Highlights
+** 87-edo works incredibly as 43.5-edo, and well as 29-edo
+*** 87 2 19: 2.6\12 between strings, max reach 7
+*** 87 2 17: miracle, max reach 8
+*** Using 43.5-edo to play 87-edo gives miraculously small reaches.
+**** Spacing strings by 17\87 gives the 41-edo layout, max stretch 2.2 \12.
+max reach: 8\43.5, or in 12-edo, 2.21
+((28,5 % 4),(2,-3))
+((40,11 % 8),(2,3))
+((51,3 % 2),(3,0))
+((61,13 % 8),(3,5))
+((70,7 % 4),(4,1))
+((87,2 % 1),(5,1))
+**** Spacing strings by 19\87 gives a maximum reach of 1.9\12.
+It'll take a full 6 strings to span one octave,
+but it'll sound great and play easy.
+The max 7-limit stretch is 5 frets; 11-limit, 6 frets; 13-limit, 7 frets.
+
+28\87 = 5 % 4  = 2 strings - 5 frets
+40\87 = 11 % 8 = 2 strings + 1 frets
+51\87 = 3 % 2  = 3 strings - 3 frets
+61\87 = 13 % 8 = 3 strings + 2 frets
+70\87 = 7 % 4  = 4 strings - 3 frets
+87\87 = 2 % 1  = 5 strings - 4 frets
+**** Spacing strings by 21\87 gives a maximum reach of 2.5\12.
+((28,5 % 4),(2,-7))
+((40,11 % 8),(2,-1))
+((51,3 % 2),(3,-6))
+((61,13 % 8),(3,-1))
+((70,7 % 4),(4,-7))
+((87,2 % 1),(5,-9))
+*** Using 29-edo to play 87-edo works okay.
+32 \ 87 spacing => max reach of 17\29 ~ 7   \ 12 and 2/1 ~ 4 open strings.
+
+There are also these, but they seem dominated by the 43.5-edo schemes.
+17 \ 87 spacing => max reach of 10\29 ~ 4.1 \ 12 and 2/1 ~ 6 open strings.
+23 \ 87 spacing => max reach of 14\29 ~ 5.8 \ 12 and 2/1 ~ 5 open strings.
+*** Nothing higher works well.
+** 72-edo works great
+*** mod 2, 25\72 has max reach of 8\72 = 2.7\12
+25, max reach: 8, or in 12-edo, 2.6666666666666665
+((23,5 % 4),(1,-1))
+((33,11 % 8),(1,4))
+((42,3 % 2),(2,-4))
+((50,13 % 8),(2,0))
+((58,7 % 4),(2,4))
+** 80: something dominates it
+*** this is its best
+   { tReport_edo = 80
+   , tReport_modulus = 4
+   , tReport_spacing = 17
+   , tReport_spacing12 = 2.55
+   , tReport_fretSpan = 10
+   , tReport_fretSpan12 = 6.0
+   , tReport_intervalReports =
+       [ 26 steps = 5 % 4: string 2 fret -2
+       , 37 steps = 11 % 8: string 1 fret 5
+       , 47 steps = 3 % 2: string 3 fret -1
+       , 56 steps = 13 % 8: string 4 fret -3
+       , 65 steps = 7 % 4: string 5 fret -5
+       , 80 steps = 2 % 1: string 4 fret 3
+       ]
+   }
+*** mod 2, 15\80, max reach: 6, or in 12-edo, 1.8
+((26,5 % 4),(2,-2))
+((37,11 % 8),(3,-4))
+((47,3 % 2),(3,1))
+((56,13 % 8),(4,-2))
+((65,7 % 4),(5,-5))
+*** mod 3, 28\80, max reach: 13, or in 12-edo, 5.85
+((26,5 % 4),(2,-10))
+((37,11 % 8),(1,3))
+((47,3 % 2),(2,-3))
+((56,13 % 8),(2,0))
+((65,7 % 4),(2,3))
+** 84
+*** 84 8 19: dominated by 115
+it's the same layout
+*** 84 8.4 19: 2.7\12 gaps, *7-lim range 7\8.4 frets*
+but 7 frets of 8.4 edo is a huge range.
+*** 84 5 16: 2.3\12 between strings, reach of 9
+reach of 7 ignoring 11/8
+*** mod 5, spaced 22\84, max reach: 7, or in 12-edo, 5.0
+((27,5 % 4),(1,1))
+((39,11 % 8),(2,-1))
+((49,3 % 2),(2,1))
+((59,13 % 8),(2,3))
+((68,7 % 4),(4,-4))
+*** mod 2, spaced 17\84, max reach: 11, or in 12-edo, 3.142857142857143
+((27,5 % 4),(1,5))
+((39,11 % 8),(3,-6))
+((49,3 % 2),(3,-1))
+((59,13 % 8),(3,4))
+((68,7 % 4),(4,0))
+*** mod 3, spaced 31\84, max reach: 14, or in 12-edo, 6.0
+((27,5 % 4),(0,9))
+((39,11 % 8),(0,13))
+((49,3 % 2),(1,6))
+((59,13 % 8),(2,-1))
+((68,7 % 4),(2,2))
+** 68-edo works great
+*** TODO mod 2, 11\68, max reach: 4, or in 12-edo, 1.4
+((22,5 % 4),(2,0))
+((31,11 % 8),(3,-1))
+((40,3 % 2),(4,-2))
+((48,13 % 8),(4,2))
+((55,7 % 4),(5,0))
+*** TODO mod 2, 13\68, max reach: 6, or in 12-edo, 2.117
+((22,5 % 4),(2,-2))
+((31,11 % 8),(3,-4))
+((40,3 % 2),(4,-6))
+((48,13 % 8),(4,-2))
+((55,7 % 4),(5,-5))
+((68,2 % 1),(6,-5))
+*** mod 4, 13\68, max reach: 7, or in 12-edo, 4.94
+((22,5 % 4),(2,-1))
+((31,11 % 8),(3,-2))
+((40,3 % 2),(4,-3))
+((48,13 % 8),(4,-1))
+((55,7 % 4),(3,4))
+((68,2 % 1),(4,4))
+*** mod 3, 23\68, max reach: 11, or in 12-edo, 5.823529411764706
+((22,5 % 4),(2,-8))
+((31,11 % 8),(2,-5))
+((40,3 % 2),(2,-2))
+((48,13 % 8),(3,-7))
+((55,7 % 4),(2,3))
+((68,2 % 1),(4,-8))
+** 63 is interesting
+sounds good
+*** 63 3 17: nearly identical to (but dominated by) 104
+*** evens, 17\63, max reach: 13, or in 12-edo, 4.9
+((20,5 % 4),(2,-7))
+((29,11 % 8),(1,6))
+((37,3 % 2),(3,-7))
+((44,13 % 8),(2,5))
+((51,7 % 4),(3,0))
+*** mod 3, 20\63, max reach: 11, or in 12-edo, 6.3
+((20,5 % 4),(1,0))
+((29,11 % 8),(1,3))
+((37,3 % 2),(2,-1))
+((44,13 % 8),(1,8))
+((51,7 % 4),(3,-3))
+*** mod 5, 22\63, max reach: 7, or in 12-edo, 6.7
+((20,5 % 4),(0,4))
+((29,11 % 8),(2,-3))
+((37,3 % 2),(1,3))
+((44,13 % 8),(2,0))
+((51,7 % 4),(3,-3))
+** 46-edo works pretty well.
+*** Spaced 11\46, max reach is 4.2\12, or 2.6 in 7-limit.
+The hardest intervals are also the least important -- 11/8 and 13/8.
+11, max reach: 8\23, or in 12-edo, 4.173913043478261
+15\87 = 5 % 4  = 1 strings + 2 frets
+21\87 = 11 % 8 = 1 strings + 5 frets
+27\87 = 3 % 2  = 3 strings - 3 frets
+32\87 = 13 % 8 = 2 strings + 5 frets
+37\87 = 7 % 4  = 3 strings + 2 frets
+46\87 = 2 % 1  = 4 strings + 1 frets
+*** Spaced 13\46 and skipping every other, the max reach is 5.2\12
+13, max reach: 10\23, or in 12-edo, 5.2
+15\87 = 5 % 4  = 1 strings + 1 frets
+27\87 = 3 % 2  = 3 strings - 6 frets
+21\87 = 11 % 8 = 1 strings + 4 frets
+32\87 = 13 % 8 = 2 strings + 3 frets
+37\87 = 7 % 4  = 3 strings - 1 frets
+46\87 = 2 % 1  = 4 strings - 3 frets
+*** Spaced 4/3=19\46, skipping every other: max reach is 6.3\12
+max reach: 12\23, or in 12-edo, 6.260869565217392
+15\87 = 5 % 4  = 1 strings - 2 frets
+27\87 = 3 % 2  = 1 strings + 4 frets
+21\87 = 11 % 8 = 1 strings + 1 frets
+32\87 = 13 % 8 = 2 strings - 3 frets
+37\87 = 7 % 4  = 1 strings + 9 frets
+46\87 = 2 % 1  = 2 strings + 4 frets
+*** Spaced 20\46 and keeping only every third note (!), it works for melody.
+max reach is 10 frets, or in 12-edo, 7.826086956521739
+THis would be a 15.333333-edo guitar.
+But the problem is the third and fifth are both on string 0.
+* DONE ? some work I did
+** for 46-edo on 23-edo guitar
+*** Maximum convenient stretch is probably around 9 frets of 23-edo.
+ 5 frets of 12 edo is like 9.5 frets of 23-edo.
+*** Tuned 15\46 apart
+**** 7 open strings span 2 octaves - 2\46
+ 6*15 = 90
+**** intervals
+***** 27\46
+ 1 string higher, 6 frets up (15 + 6*2 = 27)
+ 3 strings higher, 9 frets down (45 - 9*2 = 27
+***** 37\46
+ 3 strings higher, 4 frets down (45 - 4*2 = 37)
+ 1 string higher, 11 frets up (15 + 11*2 = 37)
+****** octave: 83\46 = 5 strings up + 4 frets up
+ 5*15 + 4*2 = 75 + 8
+***** 12\46
+ same string, 6 frets higher
+****** octave: 58 = 4 strings up, 1 fret down
+***** 15\46: 1 string, 0 frets apart
+****** octave: 61\46
+ 5 strings - 7 frets
+ 3 strings + 8 frets
+***** 21\46
+ 1 string + 3 frets
+*** Tuned 13\46 apart
+**** 8 open strings span 2 octaves - 1\46
+ 7*13 = 91
+**** intervals
+(*13) <$> [0..6] = [0,13,26,39,52,65,78]
+***** 12\46: splits a difference, 0 or 2 strings
+2 strings - 7 frets, or
+          + 6 frets
+***** 15\46 = 1 string  + 1 fret
+***** 19\46 = 1 string  + 3 frets, or
+ 3 strings - 10 frets
+***** 21\46 = 1 string  + 5 frets, or
+ 3 strings - 9 frets
+***** 27\46: splits a difference, 1 or 3 strings
+ 3 strings - 6 frets
+ 1 string + 7 frets
+***** 32\46 = 2 strings + 3 frets
+***** 37\46 = 3 strings - 1 fret
+***** octave = 4 strings - 3 frets, or
+ 2 strings + 10 frets
+** for 87-edo
+*** intervals on a 17\87-isomorphically tuned 43.5-edo guitar
+(\*17) <$> [0..5] = [0,17,34,51,68,85,102]
+
+28\87 = 5 % 4  = 2 strings - 3 frets
+40\87 = 11 % 8 = 2 strings + 3 frets
+51\87 = 3 % 2  = 3 strings
+61\87 = 13 % 8 = 3 strings + 5 frets
+70\87 = 7 % 4  = 4 strings + 1 frets
+87\87 = 2 % 1  = 5 strings + 1 frets
+
+16/15 = 8  \ 87 =             4 frets
+8/7   = 17 \ 87 = 1 string
+7/6   = 19 \ 87 = 1 string  + 1 fret
+6/5   = 23 \ 87 = 1 string  + 3 frets
+*** TODO intervals on a 19\87-isomorphically tuned 43.5-edo guitar
+Max reach: 8 frets
+(\*19) <$> [0..5] = [0,19,38,57,76,95]
+
+28\87 = 5 % 4  = 2 strings - 5 frets
+40\87 = 11 % 8 = 2 strings + 1 frets
+51\87 = 3 % 2  = 3 strings - 3 frets
+61\87 = 13 % 8 = 3 strings + 2 frets
+70\87 = 7 % 4  = 4 strings - 3 frets
+87\87 = 2 % 1  = 5 strings - 4 frets
+
+16/15 = 8  \ 87 =             4 frets
+8/7   = 17 \ 87 = 1 string  - 1 fret
+7/6   = 19 \ 87 = 1 string
+6/5   = 23 \ 87 = 1 string  + 2 frets
+*** 21\87
+max reach: 8
+28\87 = 5 % 4  = 2 strings - 7 frets
+40\87 = 11 % 8 = 2 strings - 1 frets
+51\87 = 3 % 2  = 3 strings - 6 frets
+61\87 = 13 % 8 = 3 strings - 1 frets
+70\87 = 7 % 4  = 4 strings - 7 frets
+87\87 = 2 % 1  = 5 strings - 9 frets
+*** What about using 29-edo?
+The best are
+**** tuned 20\87 apart
+5/4   = 28 \ 87 = 1 mod 3 = 2 strings - 4 frets
+11/8  = 40 \ 87 = 1 mod 3 = 2 strings
+3/2   = 51 \ 87 = 0 mod 3 = 3 strings - 3 frets
+13/8  = 61 \ 87 = 1 mod 3 = 2 strings + 7 frets
+7/4   = 70 \ 87 = 1 mod 3 = 2 strings + 10 frets, 5 strings - 10 frets
+2/1   = 87 \ 87 = 0 mod 3 = 3 strings + 9 frets
+
+16/15 = 8  \ 87 = 2 mod 3 = 1 string - 4 frets
+8/7   = 17 \ 87 = 2 mod 3 = 1 string - 1 fret
+7/6   = 19 \ 87 = 1 mod 3 = 2 strings - 7 frets
+6/5   = 23 \ 87 = 2 mod 3 = 1 string + 1 fret
+**** tuned 19\87 apart
+(*19) <$> [0..6] = [0,19,38,57,76,95,114]
+5/4   = 28 \ 87 = 1 mod 3 = 1 string + 3 frets
+11/8  = 40 \ 87 = 1 mod 3 = 1 string + 7 frets
+3/2   = 51 \ 87 = 0 mod 3 = 3 strings - 2 frets
+13/8  = 61 \ 87 = 1 mod 3 = 4 strings - 5 frets
+7/4   = 70 \ 87 = 1 mod 3 = 4 strings - 2 frets
+2/1   = 87 \ 87 = 0 mod 3 = 3 strings + 10 frets, or 6 strings - 9 frets
+**** TODO tuned 17\87 apart
+10 fret max reach in 13-limit.
+7 fret max reach in 11-limit.
+The 4th string is unused.
+
+(*17) <$> [0..5] = [0, 17,34,51, 68,85,102]
+28\87 = 5 % 4  = 2 strings - 2 frets
+40\87 = 11 % 8 = 2 strings + 2 frets
+51\87 = 3 % 2  = 3 strings + 0 frets
+61\87 = 13 % 8 = 5 strings - 8 frets
+70\87 = 7 % 4  = 5 strings - 5 frets
+87\87 = 2 % 1  = 6 strings - 5 frets
+
+16/15 = 8  \ 87 = 2 mod 3 = 1 string - 3 frets
+8/7   = 17 \ 87 = 2 mod 3 = 1 string
+7/6   = 19 \ 87 = 1 mod 3 = 2 strings - 5 frets
+6/5   = 23 \ 87 = 2 mod 3 = 1 string + 2 frets
+**** tuned 16\87 apart
+(*16) <$> [0..5] = [0,16,32,48,64,80,96]
+5/4   = 28 \ 87 = 1 mod 3 = 1 string + 4 frets
+11/8  = 40 \ 87 = 1 mod 3 = 1 string + 8 frets, or 4 strings - 8 frets
+3/2   = 51 \ 87 = 0 mod 3 = 3 strings + 1 fret
+13/8  = 61 \ 87 = 1 mod 3 = 4 strings - 1 fret
+7/4   = 70 \ 87 = 1 mod 3 = 4 strings + 2 frets
+2/1   = 87 \ 87 = 0 mod 3 = 6 strings - 3 frets
+**** TODO tuned 14\87 apart
+(*14) <$> [0..6] = [0,14,28,42,56,70,84]
+5/4   = 28 \ 87 = 1 mod 3 = 2 strings
+11/8  = 40 \ 87 = 1 mod 3 = 2 strings + 4 frets
+3/2   = 51 \ 87 = 0 mod 3 = 3 strings + 3 frets
+13/8  = 61 \ 87 = 1 mod 3 = 5 strings - 3 frets
+7/4   = 70 \ 87 = 1 mod 3 = 5 strings
+2/1   = 87 \ 87 = 0 mod 3 = 6 strings + 1 fret
+
+16/15 = 8  \ 87 = 2 mod 3 = 1 string - 2 frets
+8/7   = 17 \ 87 = 2 mod 3 = 1 string + 1 fret
+7/6   = 19 \ 87 = 1 mod 3 = 2 strings - 3 frets
+6/5   = 23 \ 87 = 2 mod 3 = 1 string + 3 frets
+*** mod 4?
+8/7   = 17 \ 87 = 1 mod 4
+5/4   = 28 \ 87 = 0 mod 4
+11/8  = 40 \ 87 = 0 mod 4
+3/2   = 51 \ 87 = 3 mod 4
+13/8  = 61 \ 87 = 1 mod 4
+7/4   = 70 \ 87 = 2 mod 4
+2/1   = 87 \ 87 = 3 mod 4
+*** mod 5?
+8/7   = 17 \ 87 = 2 mod 5
+5/4   = 28 \ 87 = 3 mod 5
+11/8  = 40 \ 87 = 0 mod 5
+3/2   = 51 \ 87 = 1 mod 5
+13/8  = 61 \ 87 = 1 mod 5
+7/4   = 70 \ 87 = 0 mod 5
+2/1   = 87 \ 87 = 2 mod 5
+*** mod 7?
+5/4   = 28 \ 87 = 0 mod 4
+11/8  = 40 \ 87 = 0 mod 4
+3/2   = 51 \ 87 = 3 mod 4
+13/8  = 61 \ 87 = 1 mod 4
+7/4   = 70 \ 87 = 2 mod 4
+2/1   = 87 \ 87 = 3 mod 4
+flip mod 7 <$> [28, 40, 51, 61, 70, 87]

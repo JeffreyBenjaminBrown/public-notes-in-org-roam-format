@@ -1,0 +1,18 @@
+#+title: Piketty, Saez And Zucman, Qje 2018, "Distributional National Accounts: Methods And Estimates For The United States".
+* [[file:20200824173656-national_income.org][National Income]]
+* What's special about it
+** "capture 100% of national income'
+** "compute growth rates for each quantile of the income distribution consistent with macroeconomic growth." 
+** "We estimate the distribution of both pretax and posttax income"
+* Results: Since 1980 in the US,
+** Average income rose 60%.
+** Income went nowhere for the bottom 50% since 1980.
+** It rose 40% for the "middle class", percentiles 50% through 90%,
+*** "faster than what tax and survey data suggest"
+*** "due in particular to the rise of tax-exempt fringe benefits"
+** It boomed for the top.
+*** Most of this boom is due to increasing returns to capital.
+** Government has offset little of the rise in inequality.
+** Re. gender
+*** "The reduction of the gender gap in earnings has mitigated the increase in inequality among adults".
+*** The "share of women falls steeply as one moves up the labor income distribution, and is only 11% in the top 0.1% in 2014."

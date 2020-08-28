@@ -1,0 +1,2 @@
+#+title: econometrics
+* [[file:20200825163418-multi_sample_estimation_econometrics.org][Multi-Sample Estimation (econometrics)]]

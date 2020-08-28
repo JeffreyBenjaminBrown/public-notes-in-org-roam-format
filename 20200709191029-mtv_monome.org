@@ -1,34 +1,59 @@
 #+title: mtv-monome
 * PITFALL: If I need to see the voice_jit or jit_test branches
 they are in the old monome/ repo.
+* TODO add a single timbre parameter to moop, controllable from the 128
+** TODO 1: add a new window to the 128
+A row at the top to control lag, the new moop parameter.
+*** TODO move ~/mtv/mtv-lang/Montevideo/Dispatch/Msg/Mk.hs
+That should be in mtv-synth, not mtv-lang.
+*** TODO add conversions for Moop to Msg.Act
+or whatever it ends up being named.
+*** TODO Maintain a global (to edoMonome) "default voice state".
+Amp and freq vary by note.
+Everything else is fixed across voices.
+When a new voice sounds, messages for every default parameter value get sent.
+(Old voices don't yet need to be updated.)
 * TODO features
-** timbre the board
-higher tones are harsher
-rightward tones are (warblier?)
-** sustain: two buttons, "add these" and "release all"
-"add these" has on/off state, stays in effect until it is released.
-"release all" has no state -- it fires as soon as it's touched, and holding it does nothing.
+** Multiple monomes, window arrangement: make flexible.
+*** the general problem
+Currently `renameMonomes` is hard-coded to the values I use,
+as are the window arrangements I use.
+It would be better if those could be easily changed.
+*** TODO un-hardcode the addresses 15226 and 14336
+They appear in at least 2 places.
 ** store pitchsets from sustain
-** two keyboards, split keyboard
-** amp=0 before freeing voice
-** monomes, language share pitch LED messages
+*** into variables in GHCI
+*** onto a window on the monome
+** store timbres
+*** into variables in GHCI
+*** onto a window on the monome
 ** transpose {pitchsets, ongoing notes, either keyboard}
-** volume, timbre control for {sustained notes, either keyboard}
-** redraw the whole screen often
-*** why
-Dropped messages to LEDs stop being a (hypothetical) problem.
-Shading on both monomes becomes easier.
-** flash the anchor
-** reset buttons
-*** silence all voices
-*** redraw entire grid
-*** ? restore shift to identity vector
-to remove floating point error
-** sustain to middle of bottom, and duplicate at both top corners
-so that usually something can touch it
-** make pitchsets available on a per-degree basis
-** JI synth: print each note as it is played
+** two keyboards, split keyboard
+** share pitch LED messages across mtv-lang and mtv-monome
+** MORE
+*** inc. timbre control for stored chords, other keyboard
+*** redraw the whole screen often
+**** why
+ Dropped messages to LEDs stop being a (hypothetical) problem.
+ Shading on both monomes becomes easier.
+*** flash the anchor
+*** reset buttons
+**** silence all voices
+**** redraw entire grid
+**** ? restore shift to identity vector
+ to remove floating point error
+*** sustain to middle of bottom, and duplicate at both top corners
+ so that usually something can touch it
+*** make pitchsets available on a per-degree basis
+*** fixed timbre change across the board
+ higher tones are harsher
+ rightward tones are (warblier?)
+*** for Thanos tuning on the monome
+**** todo ? add a button to shift up a halfstep
+  which shifts the lights 1 column over and 8 rows away
+*** JI synth: print each note as it is played
 * TODO clean
+** The Strings used to identify monomes should perhaps be an enum type.
 ** handleSwitch should not know about MVar
  It should instead return an St -> St,
  and limit its IO to SuperCollider,
@@ -46,6 +71,15 @@ Even conditional on not finding the note, shouldn't it just print an error and c
 *** Whenever I quit, I get this error message.
  <interactive>: threadWait: invalid argument (Bad file descriptor)
 *** It's extremely old. Probably harmless?
+* TODO conceptual problems
+** How to overdub with LED guidance?
+*** "manually": store LED patterns on buttons
+and push the appropriate button whenever that chord plays.
+*** "synchronized": have mtv-lang play the LED pattern in time to the DAW
+Start the DAW, listen, start an mtv-lang LED pattern at the appropriate time.
+*** "bastard": send messages from the DAW, to (Haskell, to) the monome
+Would be awesome but I don't know how,
+and encoding LED patterns in the DAW would surely be ugly.
 * infrastructure
 ** add tests
 *** TODO test multiple handlers

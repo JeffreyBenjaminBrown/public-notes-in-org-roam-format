@@ -1,0 +1,39 @@
+#+title: apostille process
+* players
+[[file:20200827112718-msu_s_office_of_the_registrar.org][MSU's Office of the Registrar]]
+[[file:20200824142405-michigan_office_of_the_great_seal.org][Michigan Office of the Great Seal]]
+* process
+** TODO file this stuff
+*** Things the [[file:../tech/20200824142405-michigan_office_of_the_great_seal.org][Michigan Office of the Great Seal]] said
+ Only option is mail-in service. 
+ Request from msu a certified notarized copy of (?). 
+ Use authentication request form. 
+ They'll certify either form, diploma or certificate of graduation. 
+ International destination is fine. 
+ They prefer check, to state of michigan. 
+ They prefer to receive everything together.
+*** TODO asking Holly at the MSU Registrar about everything.
+**** Is the normal process the following?
+Send the diploma and a stamped self-addressed envelope to MSU.
+Also this: https://www.michigan.gov/documents/sos/OGS_AUTHENTICATION_REQUEST_FORM_654334_7.pdf
+and a check to the SOS for a dollar.
+Have them certify and send it on to the SOS.
+Have the SOS apostille it, put it in the envelope and drop it in the mail.
+**** Apostilles be had for certificates of graduation.
+The SOS will certify anything.
+**** Sending to an international destination will take forever.
+Better to send to someone in the US, who sends me a PDF.
+Better yet would be to have the SOS create and email the PDF.
+***** TODO Ask the SOS if they'll do that.
+*** Rhonda Miller said she can make a certified copy of the diploma.
+*** Apostille (by SOS) first requires certification (by MSU)
+That is, apostille by Michigan SOS Office of the Great Seal
+requires certification by MSU's Registrar.
+** Getting a "certified copy" (from MSU) and the "apostille" (from Michigan SOS) are separate processes.
+** MSU can forward envelopes and checks to SOS
+ thus spake [[file:20200827112301-rhonda_miller.org][Rhonda Miller]]:
+   https://mail.google.com/mail/u/0/#search/rhonda/KtbxLxGPmJVVZcFThcTRqbrfHvvjBJrVrL
+** a PDF copy of the signed form to replace the diploma is okay with MSU
+ thus spake [[file:20200827112301-rhonda_miller.org][Rhonda Miller]]:
+   https://mail.google.com/mail/u/0/#search/rhonda/KtbxLxGPmJVVZcFThcTRqbrfHvvjBJrVrL
+** There's nothing to sign for the SOS.

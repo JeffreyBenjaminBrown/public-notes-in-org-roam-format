@@ -1,0 +1,9 @@
+#+title: mtv-ji
+* TODO collect intervals automatically
+* TODO search over all moduli
+up to, say, 16
+* TODO filter by max-12-edo distance
+** TODO make including the octave optional for computing maximum stretch.
+ For instance, 22\84 mod 5 works astoundingly well if one ignores that.
+* TODO filter by fret size
+* TODO filter by MSE of the EDO
