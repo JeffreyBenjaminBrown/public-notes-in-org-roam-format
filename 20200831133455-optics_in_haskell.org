@@ -1,0 +1,695 @@
+#+title: optics in Haskell
+* TODO RESUME
+** skipped some
+see "TODO SKIPPED" items below
+** TODO RESUME p. 234: Isos, first exercises
+* orphans
+** getters
+*** can change their output
+ >>> import Data.Char (toUpper)
+ >>> Name "Two-faced Tony" ^. to getName . to (fmap toUpper)
+ "TWO-FACED TONY"
+*** the first type argument of Getting is sometimes ignorable
+ when I see a `Getting (Some Crazy Type) s a` I know I can substitute nearly any optic into that slot, including a `Fold s a` or a `Lens' s a`.
+** for lists, each behaves just like traversed or folded
+* the hierarchy
+All lenses are traversals.
+All lenses and traversals are folds.
+** table: get, set and modify
+|          optic | Lens   | Fold | Traversal | Prism      | Iso
+| Get            | Single | Many | Many      | 0 or 1     | 1
+| Set/Modify     | Single | No   | Many      | 0 or 1     | 1
+| Traverse       | Single | No   | Many      | 0 or 1     | 1
+| Embed          | No     | No   | No        | Yes        | Yes
+** table: use
+       uses lens fold trav
+optics
+lens        x    x    x
+fold             x
+trav             x    x
+* operator patterns
+** ^ Usually denotes that the action views/gets something
+** . Typically used to represent the absence of any other modifiers
+** % Means “modify” using a function
+** ~ Denotes that this action updates or sets something
+* folds (ch 6)
+** principles
+*** folds v. lenses
+ Lenses must focus ONE thing, Folds can focus MANY things
+ Lenses can get and set, Folds can only get.
+*** folds have no laws
+*** folds are not polymorphic
+ aFold :: Fold s a
+ It focuses from an `s` to any number of `a`s.
+** utilities, some critical
+*** folded :: Foldable f => Fold (f a) a
+*** toListOf (flip (^..))
+ is like view (flip (^.)) but returns a list of focii
+*** example
+ toListOf folded (S.fromList [1..4])
+*** both
+*** `each` is like `both` but gets more than two things if needed
+ each :: Each s t a b => Traversal s t a b
+ -- Simplified:
+ each :: Each s s a a => Fold s a
+** subclasses
+*** Lenses are Foldss
+ (1,2) ^.. _2
+ toListOf (folded . _2) (S.fromList [(1,2), (3,4)])
+*** Traversals are Folds
+ `both`, for instance, in fact has this type:
+   both :: Bitraversable r => Traversal (r a a) (r b b) a b
+ but we can think of it as this:
+   both :: Bitraversable r => Fold (r a a) a
+*** Getters are (1-to-1) Folds
+** user-defined folds
+*** folding :: Foldable f => (s -> f a) -> Fold s a
+**** The first argument does not need to (cannot be?) polymorphic:
+   collectCrewMembers :: ShipCrew -> [Name]
+   collectCrewMembers crew =
+     [_captain crew, _firstMate crew] ++ _conscripts crew
+   crewMembers :: Fold ShipCrew Name
+   crewMembers = folding collectCrewMembers
+*** kind of: to :: (s -> a) -> Getter s a
+in truth,
+  to :: (Profunctor p, Contravariant f) => (s -> a) -> Optic' p f s a
+** actions
+toListOf (a.k.a. ^..) is one action. There are others.
+*** examples
+**** elemOf :: Eq a => Fold s a -> a -> s -> Bool
+>>> elemOf folded 3 [1, 2, 3, 4]
+True
+**** anyOf :: Fold s a -> (a -> Bool) -> s -> Bool
+**** allOf :: ditto
+**** findOf :: Fold s a -> (a -> Bool) -> s -> Maybe a
+Gets the first one.
+**** has, hasn't
+has :: Fold s a -> s -> Bool
+hasn't :: Fold s a -> s -> Bool
+Whether the result is empty.x
+**** lengthOf :: Fold s a -> s -> Int
+**** sumOf, productOf
+sumOf :: Num n => Fold s n -> s -> n
+productOf :: Num n => Fold s n -> s -> n
+**** first and last
+***** combinators
+Three ways to get the first one:
+  firstOf :: Fold s a -> s -> Maybe a
+  preview :: Fold s a -> s -> Maybe a
+  (^?)    :: s -> Fold s a -> Maybe a
+One way for last:
+  lastOf  :: Fold s a -> s -> Maybe a
+***** PITFALL: use traversed, not id, to get the last one
+> lastOf id [1,2,3]
+Just [1,2,3]
+> lastOf traversed [1,2,3]
+Just 3
+**** min, max
+maximum   :: (Foldable t, Ord a) => t a -> a
+minimumOf :: Ord a => Fold s a -> s -> Maybe a
+
+maximumBy :: Foldable t => (a -> a -> Ordering) -> t a -> a
+maximumByOf :: Fold s a -> (a -> a -> Ordering) -> s -> Maybe a
+
+and similar for minimum.
+***** example
+"We find the maximum show by comparing them on their critic scores, then fmap into the Maybe result to get just the title since that’s all we care about."
+
+>>> import Data.Ord (comparing)
+>>> _title <$> maximumByOf folded (comparing _criticScore) tvShows
+Just "How I Met Your Mother"
+*** they can be faster than the obvious equivalent
+This is why, e.g., one would write
+  has f s
+rather than
+  not null $ s ^.. f
+*** IO
+**** varieties
+mapM_ has a monad constraint, so Penner prefers these
+traverse_ :: (Foldable t, Applicative f) => (a -> f b) -> t a -> f ()
+for_      :: (Foldable t, Applicative f) => t a -> (a -> f b) -> f ()
+
+The Fold equivalents are these:
+traverseOf_ :: Functor f => Fold s a -> (a -> f r) -> s -> f ()
+forOf_ :: Functor f => Fold s a -> s -> (a -> f r) -> f ()
+
+There are also traverseOf and foldOf, which don't discard their result.
+*** combining the results of a fold
+**** foldOf and FoldMapOf
+I don't really know why to use them.
+The section about them (begins on p. 103, "Combining results")
+doesn't really give a good reason.
+***** fake signatures
+foldOf
+ :: Monoid a => Fold s a -> s -> a
+foldMapOf :: Monoid r => Fold s a -> (a -> r) -> s -> r
+***** true signatures
+foldOf
+ :: Getting a s a -> s -> a
+foldMapOf :: Getting r s a -> (a -> r) -> s -> r
+**** a tuple of Monoids is a Monoid
+>>> import Data.Monoid
+>>> (Sum 1, Sum 32) <> (Sum 1, Sum 20)
+( Sum { getSum = 2 }
+, Sum { getSum = 52 }
+)
+** TODO SKIPPED some of section 6.3
+around p. 103, section "combining fold results"
+** higher-order folds (sec. 6.4)
+*** taking, dropping
+true type is complex but one simplification is
+  taking :: Int -> Traversal' s a -> Traversal' s a
+**** simple example
+  > [1, 2, 3, 4] ^.. taking 2 folded
+  [1,2]
+"folded is modified so to only focus its first two elements"
+**** complex example
+>>> [[1, 2, 3], [10, 20, 30], [100, 200, 300]] ^.. folded . taking 2 folded
+[1, 2, 10, 20, 100, 200]
+*** backwards -- PITFALL: different from reversed and reversing
+*** takingWhile, droppingWhile
+They keep taking or dropping until the result of a predicate flips.
+  [1, 5, 15, 5, 1] ^.. droppingWhile (<10) folded
+** ^?
+*** ts    ^? id     == Just ts
+*** (a:_) ^? folded == Just a
+** filtering
+Works with most optics.
+filtered :: (s -> Bool) -> Fold s s                                    -- fake
+filtered :: (Choice p, Applicative f) => (a -> Bool) -> Optic' p f a a -- real
+*** examples
+**** Drop elements unless they're even
+>>> [1, 2, 3, 4] ^.. folded . filtered even
+[2,4]
+**** How many Spark Cards do I have?
+lengthOf
+( folded -- Fold over each card
+. aura
+ -- Select the 'aura'
+. filtered (== Spark) ) -- Filter for only Spark auras
+deck
+**** List all cards which have ANY move with an attack power greater than 40
+deck
+^.. folded -- Fold over each card
+-- filter on whether the current card has any strong moves
+. filtered (anyOf (moves . folded . movePower) (>40))
+-- Select the card's name
+. name
+*** filteredBy: like filtered, but takes a lens
+**** List all my Spark Moves with a power greater than 30
+deck
+^.. folded
+. filteredBy (aura . only Spark) -- `only Spark` is like `(== Spark)`
+. moves
+. folded
+. filteredBy (movePower . filtered (>30))
+. moveName
+* traversals (ch 7)
+** traversals can fail, so use ^? or ^.., but not ^.
+** the signature is just like lens
+in `Traversal s t a b`,
+s and t are the pre and post action structures,
+and a and b are the pre and post action focii.
+** set, modify
+("Bubbles", "Buttercup") & both .~ "Blossom"
+[1.1, 2.2, 3.3]          & each %~ floor
+** `filtered` changes which things are modified
+> [1..6] & traversed . filtered (> 3) %~ (*2)
+[1,2,3,8,10,12]
+
+> (1,3) & both . filtered (> 2) %~ (*2) -- both is a traversal
+(1,6)
+** traversed
+*** type
+-- Slightly simplified
+traversed :: Traversable f => Traversal (f a) (f b) a b
+-- Real type
+traversed :: Traversable f => IndexedTraversal Int (f a) (f b) a b
+*** traversed v. folded
+"traversed can focus on the values inside any Traversable data structure. Requiring Traversable as opposed to only Foldable gives us a bit more power, but also reduces the number of containers we can operate on. For instance, Sets are Foldable but not Traversable ... folded can be used on more container types (like Set), but traversed has strictly more power (it can set and update)"
+
+But they're similar:
+ > [1..5] & traversed %~ id
+ [1,2,3,4,5]
+ > [1..5] ^.. folded
+ [1,2,3,4,5]
+** some handy combinators
+*** worded and lines
+ PITFALL: These are not lawful. They can do weird stuff on unlucky strings,
+ e.g. strings with blank lines or consecutive newlines.
+
+ -- simplified
+ worded :: Traversal' String String
+ lined :: Traversal' String String
+ -- real types
+ worded :: Applicative f => IndexedLensLike' Int f String String
+ lined :: Applicative f => IndexedLensLike' Int f String String
+*** beside
+**** some simplified types for it
+ beside :: Traversal s t a b
+        -> Traversal s' t' a b
+        -> Traversal (s,s') (t,t') a b
+ beside :: Lens s t a b
+        -> Lens s' t' a b
+        -> Traversal (s,s') (t,t') a b
+ beside :: Fold s a
+        -> Fold s' a
+	-> Fold (s,s') a
+**** beside generalizes both
+***** it takes two path-to-the-focus arguments
+ >>> let numbers = ([(1, 2), (3, 4)], [5, 6, 7])
+ >>> :t numbers
+ numbers :: ( [(Int, Int)]
+            , [Int] )
+ >>> numbers ^.. beside (traversed . both) traversed
+ [1, 2, 3, 4, 5, 6, 7]
+***** beside = both id id, I think
+*** element (like nth)
+**** simplified type
+ element :: Traversable f => Int -> Traversal' (f a) a
+**** PITFALL: monomorphic
+ since it can only modify one thing in the collection,
+ it can't change the collection's type
+*** elementOf
+**** simplified types
+ elementOf :: Traversal' s a -> Int -> Traversal' s a
+ elementOf :: Fold s a       -> Int -> Fold s a
+**** generalizes element
+ -- `element` is basically `elementOf traversed`
+ >>> [0, 1, 2, 3, 4] ^? elementOf traversed 2
+ Just 2
+**** usage example
+ -- Modify the 6th integer from within nested lists:
+ >>> [[0, 1, 2], [3, 4], [5, 6, 7, 8]]
+ & elementOf (traversed . traversed) 6 *~ 100
+ [[0, 1, 2], [3, 4], [5, 600, 7, 8]]
+
+** composing traversals
+>>> import Data.Char (toUpper)
+-- Capitalize the first char of every word
+>>> "blue suede shoes" & worded . taking 1 traversed %~ toUpper
+"Blue Suede Shoes"
+** sequenceA
+*** :i sequenceA
+class (Functor t, Foldable t) => Traversable (t :: * -> *) where
+  ...
+  sequenceA :: Applicative f => t (f a) -> f (t a)
+  ...
+        -- Defined in ‘Data.Traversable’
+*** examples
+**** Maybe and Either
+> sequenceA [Just 1, Just 2, Just 3]
+Just [1,2,3]
+> sequenceA [Just 1, Nothing, Just 3]
+Nothing
+>  sequenceA $ Just (Left "Whoops!")
+Left "Whoops!"
+> sequenceA $ Just (Right "Ahh.")
+Right (Just "Ahh.")
+**** IO
+>  sequenceA ([pure 1, pure 2, pure 3] :: [IO Int]) >>= print
+[1,2,3]
+
+> x <- sequenceA $ [putStrLn "1" >> return 1, return 2]
+1
+> x
+[1,2]
+**** the Applicative instance for [] is "non-deterministic", so
+> sequenceA [[1,2],[3,4]]
+[[1,3],[1,4],[2,3],[2,4]]
+** traverse generalizes sequenceA
+traverse :: (Traversable t, Applicative f)
+  => (a -> f b) -> t a -> f (t b)
+traverse f t = sequenceA (fmap f t)
+** traverseOf (infix is %%~)
+-- Specialized signature
+traverseOf :: Traversal s t a b -> (a -> f b) -> s -> f t
+-- Real signature
+traverseOf :: LensLike f s t a b -> (a -> f b) -> s -> f t
+** traversal optics generalize Traversable
+"Traversals give us a way to sequence effects from ANY possible focus of a structure, not just those values focused by the Traversable instance!"
+*** traverseOf traversed = traverse
+"Since the traversed traversal focuses every element of a traversable container, if we run traverseOf with traversed we end up with identical behaviour to the traverse function"
+
+>>> :t traverse
+traverse :: (Traversable t, Applicative f)
+         => (a -> f b) -> t a -> f (t b)
+>>> :t traverseOf traversed
+traverseOf traversed :: (Traversable t, Applicative f)
+         => (a -> f b) -> t a -> f (t b)
+** use traverseOf both to process both, not just snd, in a pair
+>>> import Text.Read (readMaybe)
+-- 'readMaybe' is polymorphic so we need to specify a concrete type
+>>> traverseOf both readMaybe ("1", "2") :: Maybe (Int, Int)
+Just (1, 2)
+*** TODO more nondeterministic magic
+>>> import Data.Char (toUpper, toLower)
+>>> traverseOf both (\c -> [toLower c, toUpper c]) ('a', 'b')
+[('a','b'),('a','B'),('A','b'),('A','B')]
+** the "traversal tree"
+> :{
+| traverseOf
+| (both . traversed)
+| (\c -> [toLower c, toUpper c])
+| ("ab", "cd")
+| :}
+[("ab","cd"),("ab","cD"),("ab","Cd"),("ab","CD"),("aB","cd"),("aB","cD"),("aB","Cd"),("aB","CD"),("Ab","cd"),("Ab","cD"),("Ab","Cd"),("Ab","CD"),("AB","cd"),("AB","cD"),("AB","Cd"),("AB","CD")]x
+** using Either for validation
+> f = traverseOf (traversed . _2) g where
+|   g x = if x > 0
+|     then Right x
+|     else Left $ "rejected: " ++ show x ++ " is not positive"
+|
+> f [("a",1),("b",2)]
+Right [("a",1),("b",2)]
+> f [("a",1),("b",0)]
+Left "rejected: 0 is not positive"
+*** If we want to collect all the errors
+we can use the Validation type from Data.Either.Validation in the either package
+** using sequenceAOf to pull effects from deep to outside
+sequenceAOf :: Traversal s t (f a) a -> s -> f t
+
+>>> sequenceAOf (both . traversed) ([Just "apples"], [Just "oranges"])
+Just (["apples"],["oranges"])
+>>> sequenceAOf (both . traversed) ([Just "apples"], [Nothing])
+Nothing
+** "sequencing" a list means trying each elt
+> sequenceAOf (traversed . _1) [("ab", 1), ("cd", 2)]
+[[('a',1),('c',2)]
+,[('a',1),('d',2)]
+,[('b',1),('c',2)]
+,[('b',1),('d',2)]]
+** sequencing a ZipList
+is deterministic
+***           > sequenceAOf id        [ZipList [1, 2], ZipList [3, 4]]
+[ZipList {getZipList = [1,2]},ZipList {getZipList = [3,4]}]
+*** TODO huh? > sequenceAOf traversed [ZipList [1, 2], ZipList [3, 4]]
+ZipList {getZipList = [[1,3],[2,4]]}
+*** sequenceAOf (traversed . _2) [('a', ZipList [1,2]), ('b', ZipList [3,4])]
+ZipList {getZipList = [[('a',1),('b',3)]
+                      ,[('a',2),('b',4)]]}
+** "optics look like traverse"
+*** traversals are a generalization of travverse:
+traverse   :: (Traversable g, Applicative f) => (a -> f b) -> (g a -> f (g b))
+aTraversal ::                (Applicative f) => (a -> f b) -> (s -> f t)
+with s = g a and t = g b
+*** all the optics covered so far are LensLike
+PITFALL: Use RankNTypes enabled to write quantified type synonyms like this.
+
+aLensLike :: (a -> f b) -> (s -> f t) -- LensLike f s t a b
+type Lens s t a b = forall f. Functor f			 => LensLike f s t a b
+type Traversal s t a b = forall f. Applicative f	 => LensLike f s t a b
+type Fold s a=forall f. (Contravariant f, Applicative f) => LensLike f s t a b
+
+"Most optics are really just traverse wearing different pants."
+– Chris Penner on optics
+** traversal laws
+*** respect purity
+traverseOf aLawfulTraversal pure x == pure x
+*** focii should be independent of handlers
+  a "traversal should never change which elements it focuses due to alterations on those elements."
+  "running a traversal twice in a row with different handlers should be equivalent to running it once with the composition of those handlers."
+**** filtered is unlawful
+>>> 2 & filtered even %~ (+1) & filtered even %~ (*10)
+3
+>>> 2 & filtered even %~ (*10) . (+1)
+30
+** partsOf :: Traversal' s a -> Lens' s [a]
+Converts a traversal into a lens over a list of its elements.
+*** Not polymorphic, because
+a setting list does not have to be the same length as the original:
+if it's shorter, the other elements are kept.
+(If it's longer, the extra elements are ignored.)
+*** examples
+> [('a', 1), ('b', 2), ('c', 3)]
+    & partsOf (traversed . _1) %~ reverse
+[('c',1),('b',2),('a',3)]
+
+> [('a', 1), ('b', 2), ('c', 3)]
+& partsOf (traversed . _2)
+%~ \xs -> (/ sum xs) <$> xs
+[('a',0.16666), ('b',0.33333), ('c',0.5)]
+*** TODO mysteries
+> ("abc", "def") ^.. each
+["abc","def"]
+> ("abc", "def") ^.. partsOf each
+[ ["abc","def"] ]
+> ("abc", "def") ^..         each . traversed
+"abcdef"
+> ("abc", "def") ^.. partsOf each . traversed
+["abc","def"]
+> ("abc", "def") ^.. partsOf (each . traversed)
+["abcdef"]
+*** unsafePartsOf :: Traversal s t a b -> Lens s t [a] [b]
+crashes if given too few elements in the [b]
+* indexable structures (ch 8)
+** examples
+> [10,11] ^? ix 1
+Just 11
+> M.fromList [(1,2),(3,4)] ^? ix 1
+Just 2
+** the Ixed class
+  class Ixed m where
+    ix :: Index m -> Traversal' m (IxValue m)
+*** the type families it relies on
+type instance Index [a] = Int
+-- The index for Maps is the key type
+type instance Index (Map k a) = k
+type instance IxValue [a] = a
+type instance IxValue (Map k a) = a
+*** must be a traversal because it might fail
+*** must be a Traversal' (monomorphic) because it doesn't focus all slots
+*** since it's a traversal, `ix` cannot add a nonexistent focus
+ > M.fromList [(1,2),(3,4)] & ix 5 .~ 5
+ fromList [(1,2),(3,4)]
+** functions are Ixed
+PITFALL: Possibly bad practice, but neat.
+It overwrites the output associated with a given input.
+  >>> let specialReverse = reverse & ix "password" .~ "You found the secret!"
+  >>> specialReverse "art"
+  "tra"
+  >>> specialReverse "password"
+  "You found the secret!"
+** At is like Ixed but allows insertion, deletion
+class At where
+  at :: Index m -> Lens' m (Maybe (IxValue m))
+"To insert or replace an element we can set a value wrapped in Just; to delete we can set the focus to Nothing."
+*** shorthand
+**** (?~) can simplify insertions
+ It wraps the `b` in a `Just`.
+ (?~) :: Traversal s t a (Maybe b) -> b -> s -> t
+**** sans simplifies deletions
+sans k = at k .~ Nothing
+PITFALL: It's not an optic, so it doesn't compose with other optics.
+** Sets are indexable!
+They are like maps with () as the value type.
+*** instances
+instance Ord k => At (Set k)
+instance Ord a => Contains (Set a)
+instance Ord k => Ixed (Set k)
+type instance Index (Set a) = a
+type instance IxValue (Set k) = ()
+** `failover`: to know if an update failed
+*** signatures
+-- Actual signature
+failover :: Alternative m
+         => LensLike ((,) Any) s t a b -> (a -> b) -> s -> m t
+-- Specialized
+failover :: Traversal s t a b          -> (a -> b) -> s -> Maybe t
+*** example
+>>> "abcd" & failover (ix 6) toUpper :: Maybe String
+Nothing
+** `failing`: for choices based on success|failure within an optics path
+*** type
+failing :: (Conjoined p, Applicative f)
+        => Traversing  p f s t a b
+        -> Over p f s t a b
+        -> Over p f s t a b
+-- Specialized signatures
+failing :: Fold s t a b -> Fold s t a b -> Fold s t a b
+failing :: Traversal s t a b -> Traversal s t a b -> Traversal s t a b
+*** if the first arg fails, it uses the second
+>>> M.fromList [('a', 1), ('b', 2)] ^? (ix 'z' `failing` ix 'b')
+Just 2
+*** used infix, can be conveniently chained
+>>> M.fromList [("Bieber" :: String, "Believe"), ("Beyoncé", "Lemonade")]
+    ^? (ix "Swift" `failing` ix "Bieber" `failing` ix "Beyoncé")
+Just "Believe"
+** default values: `non` is like `fromMaybe` for optics
+*** signature
+-- truth
+non :: Eq a => a -> Iso' (Maybe a) a
+-- For all intents and purposes we'll pretend it has this signature:
+non :: Eq a => a -> Traversal' (Maybe a) a
+*** it focuses the value in a Just, or the default value
+>>> Nothing ^. non "default"
+"default"
+>>> Just "value" ^. non "default"
+"value"
+*** composing it
+>>> favouriteFoods =
+    M.fromList [("Garfield", "Lasagna"), ("Leslie", "Waffles")]
+>>> favouriteFoods ^. at "Leslie" . non "Pizza"
+"Waffles"
+-- If we don't know someone's favourite food, the default is "Pizza"
+>>> favouriteFoods ^. at "Leo" . non "Pizza"
+"Pizza"
+*** setting with it: doesn't bother recording the default value
+"it maps the default value back to Nothing, which ‘at’ will be exclude from the map"
+
+> favouriteFoods & at "Popeye" . non "Pizza" .~ "Spinach"
+fromList [("Garfield","Lasagna"),("Leslie","Waffles"),("Popeye","Spinach")]
+> favouriteFoods & at "Popeye" . non "Pizza" .~ "Pizza"
+fromList [("Garfield","Lasagna"),("Leslie","Waffles")]
+*** modifications: assume the default if nothing found
+>>> M.fromList [("Jim", 32), ("Dwight", 39)]
+    & at "Erin" . non 0 +~ 10
+M.fromList [("Dwight",39),("Erin",10),("Jim",32)]
+** checking fold success/failure
+*** often `fromMaybe` and `preview` is enough
+>>> fromMaybe 'z' ("abc" ^? ix 10)
+'z'
+*** the Getter `pre`
+**** signature
+-- Real signature
+pre :: Getting (First a) s a -> IndexPreservingGetter s (Maybe a)
+-- Specialized
+pre :: Fold s a -> Getter s (Maybe a)
+**** it tries to get a value from the fold, and otherwise returns Nothing
+**** example
+"abc" ^. pre (ix 10) . non 'z'
+  == fromMaybe 'z' ("abc" ^? ix 10)
+  == 'z'
+**** TODO why ? if the fold returns multiple, it takes the first
+>>> [1, 2, 3, 4] ^. pre (traversed . filtered even)
+Just 2
+**** nothing fails with pre; it instead becomes Nothing
+> [1, 2, 3, 4] ^.. traversed . (filtered even)
+[2,4]
+> [1, 2, 3, 4] ^.. traversed . pre (filtered even)
+[Nothing,Just 2,Nothing,Just 4]
+** TODO : exercises are broken
+answers missing to questions 1 and 2
+* prisms (ch 9)
+** they focus on one thing that might not be there
+>  Right "howdy" & _Right %~ reverse
+Right "ydwoh"
+> Left "howdy" & _Right %~ reverse
+Left "howdy"
+
+>>> Nothing ^? _Nothing
+Just ()
+>>> Nothing ^? _Just
+Nothing
+** has and isn't (and is)
+has   :: Fold s a      -> s -> Bool
+isn't :: Prism s t a b -> s -> Bool
+"is" is obscure to avoid naming conflicts
+
+>>> has _Right (Left "message")
+False
+>>> isn't _Right (Left "message")
+True
+** review, the reverse of view, embeds a focus into a structure
+review (or (#)) :: Prism s t a b -> b -> t
+*** example
+> _Left # ["posts"]
+Left ["posts"]
+*** Constructors with multiple fields accept a tuple of the fields
+>>> _Post # (["posts"], "My blog post")
+Post ["posts"] "My blog post"
+** Prisms compose
+>>> _Just . _Left # 1337
+Just (Left 1337)
+** list-ish traversals: _Cons (prism), _head, _tail
+They work on Vector, Bytestring, more stuff.
+The Cons class is user-extensible.
+** _Empty is user-extensible
+class AsEmpty a where
+  _Empty :: Prism' a ()
+** _Show
+can read or show.
+>>> "It's True that I ate 3 apples and 5 oranges"
+    ^.. worded . _Show :: [Int]
+[3 , 5]
+** matching :: Prism s t a b -> s -> Either t a
+If a prism was built using `prism`, this is the second argument to that.
+The equivalent you might expect, "embed", is called "review" (or (#)).
+** custom prisms
+*** helpers
+-- polymorphic:
+  prism  :: (b -> t) -> (s -> Either t a) -> Prism s t a b
+-- not so:
+  prism' :: (b -> s) -> (s -> Maybe  a)   -> Prism s s a b
+The first argument embeds; the second matches.
+The match must return a t (which could be distinct from s) if it finds no matching focus.
+*** TRICKY: The conversion from s to t
+The reason we can get a Maybe b from a Maybe a when _Just fails is that we know the Maybe a was Nothing, so the Maybe b must be (a different-typed) Nothing also.
+  matching _Just  :: Maybe a -> Either    (Maybe b) a
+
+Similar for _Right:
+  matching _Right :: Either c a -> Either (Either c b) a
+*** TRICKY: a prism to find if something is a factor
+**** lesson: the prism seems to need to change something
+because `embed` can't fail,
+it's not an option for the prism to simply
+return the number if it's divisible and otherwise return nothing.
+**** the code
+`_factor n m` returns `m / n` if it makes sense.
+Embed has to do the reverse.
+  _Factor :: Int -> Prism' Int Int
+  _Factor n = prism' embed match
+   where
+    embed :: Int -> Int
+    embed i = i * n
+    match :: Int -> Maybe Int
+    match i
+      | i `mod` n == 0 = Just (i `div` n)
+      | otherwise = Nothing
+** laws
+*** preview p (review p value) == Just value
+*** the reverse of that
+if
+  Just a = preview myPrism s
+then
+  s = review myPrism a
+*** Law Three: Pass-through Reversion
+This says that when a match fails,
+we can do another failing match with the same lens to revert:
+if
+  Left t = matching l s
+  Left s' = matching l t
+then
+  s == s'
+** TODO SKIPPED: rest of chapter, starting at exercises, p. 214
+* isos (ch 10)
+** laws: to . from = from . to = id
+** writing them
+iso :: (s -> a) -> (b -> t) -> Iso s t a b
+anIso = iso to0 from0
+   where ...
+Once that's defined:
+** reversing an iso
+from :: Iso s t a b -> Iso b a t s
+*** why that's better than using `review`
+`review` returns a function, thus can’t be composed in an optics path.
+** a useful example
+import Data.Text as T
+let packed = iso T.pack T.unpack :: Iso' String T.Text
+"running a Text function on this String" & packed %~ T.toTitle 
+** the two types can be equal
+reversed :: Iso' [a] [a]
+reversed = iso reverse reverse
+** some cool isos
+*** swapped is an iso between bifunctors:
+wap the sides of a tuple
+swap the labels on an Either
+etc.
+*** flipped :: Iso' (a -> b -> c) (b -> a -> c)
+*** curried  :: Iso' ((a, b) -> c)  (a -> b -> c)
+*** uncurried :: Iso' (a -> b -> c)  ((a, b) -> c)
+*** negated
+*** adding, dividing, multiplying
+>>> 100 ^. adding 50
+150
+** TODO RESUME p. 234: Isos, first exercises

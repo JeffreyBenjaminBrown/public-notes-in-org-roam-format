@@ -1,26 +1,49 @@
 #+title: mtv-monome
 * PITFALL: If I need to see the voice_jit or jit_test branches
 they are in the old monome/ repo.
-* TODO add a single timbre parameter to moop, controllable from the 128
-** TODO 1: add a new window to the 128
-A row at the top to control lag, the new moop parameter.
-*** TODO move ~/mtv/mtv-lang/Montevideo/Dispatch/Msg/Mk.hs
-That should be in mtv-synth, not mtv-lang.
-*** TODO add conversions for Moop to Msg.Act
-or whatever it ends up being named.
-*** TODO Maintain a global (to edoMonome) "default voice state".
-Amp and freq vary by note.
-Everything else is fixed across voices.
-When a new voice sounds, messages for every default parameter value get sent.
-(Old voices don't yet need to be updated.)
+* TODO controlling timbre
+** TODO many-parameter interface
+*** PITFALL Don't worry about changing Zot until experiments are easy.
+That is, until I can change parameters with the monome and save settings.
+*** TODO BEWARE: Am I incurring tehnical debt?
+Ponder continuously: Are there any refactorings I intend to make eventually,
+which would be easier earlier?
+*** TODO change parameters
+**** TODO print stuff
+***** TODO print param with each change
+***** TODO print all params, ranges in group when selecting group
+**** TODO keep ranges as Rationals
+**** TODO change timbre of sustained pitches
+**** TODO save LED arrangements for each group
+*** TODO set the upper and lower bounds of a parameter
+*** TODO ? zoom in on a parameter
+using multiple rows to set it precisely
+*** TODO ? Special keyboard-ish interface for frequency-ish parameters.
+*** TODO save timbres
+*** TODO store, for each parameter, whether it is linear or logarithmic
+*** TODO use tmux or Brick to show multiple GHCIs at once
+each for a different kind of display
+*** TODO randomize
+**** a subset of all parameters
+*** TODO ? meta-parameters
+*** TODO ? more Zot params
+Envelopes.
+Vibrato.
+Mono effects for poly voices.
+** TODO cleanup
+*** test the new handlers (ParamGroup and ParamVal)
+*** delete Zot_Monome
+*** reify magic numbers in Lag.hs
+ see comment:
+   -- TODO : magic numbers; reify
+*** there's something ad-hoc about these passages
+**** the "case param of" passages in Monome.Main
+**** the ScAction_New passage in Montevideo.Monome.Window.Keyboard
+**** the handler in Window.Lag
+*** What's up with "on", "amp", "trigger" and "lag"?
+ See the header comment here for what they mean:
+   ~/mtv/mtv-synth/Montevideo/Synth.hs
 * TODO features
-** Multiple monomes, window arrangement: make flexible.
-*** the general problem
-Currently `renameMonomes` is hard-coded to the values I use,
-as are the window arrangements I use.
-It would be better if those could be easily changed.
-*** TODO un-hardcode the addresses 15226 and 14336
-They appear in at least 2 places.
 ** store pitchsets from sustain
 *** into variables in GHCI
 *** onto a window on the monome
@@ -32,10 +55,6 @@ They appear in at least 2 places.
 ** share pitch LED messages across mtv-lang and mtv-monome
 ** MORE
 *** inc. timbre control for stored chords, other keyboard
-*** redraw the whole screen often
-**** why
- Dropped messages to LEDs stop being a (hypothetical) problem.
- Shading on both monomes becomes easier.
 *** flash the anchor
 *** reset buttons
 **** silence all voices
@@ -48,12 +67,15 @@ They appear in at least 2 places.
 *** fixed timbre change across the board
  higher tones are harsher
  rightward tones are (warblier?)
-*** for Thanos tuning on the monome
-**** todo ? add a button to shift up a halfstep
-  which shifts the lights 1 column over and 8 rows away
-*** JI synth: print each note as it is played
+* TODO conceptual major changes to existing code
+** record monome state, redraw the whole monome periodically
+*** why
+Dropped messages to LEDs stop being a (hypothetical) problem.
+Shading on both monomes becomes easier.
+** don't compute diffs (for SC or monomes) manually
+Would require recording both states.
+This would be more CPU work, although no more work for SC or the monome.
 * TODO clean
-** The Strings used to identify monomes should perhaps be an enum type.
 ** handleSwitch should not know about MVar
  It should instead return an St -> St,
  and limit its IO to SuperCollider,
