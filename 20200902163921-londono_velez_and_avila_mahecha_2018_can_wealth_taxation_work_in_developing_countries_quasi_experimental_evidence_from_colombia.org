@@ -1,0 +1,46 @@
+#+title: Londoño-Vélez And Ávila-Mahecha 2018: "Can Wealth Taxation Work In Developing Countries? Quasi-Experimental Evidence From Colombia"
+* some terms
+** tax avoidance is legal
+** tax evasion is illegal
+* How did they get this data?
+"Our panel data covers
+all income and wealth tax filers between 1993 and 2016, that is, over 20.5 million observations
+(taxpayer-years)."
+* Colombian data is unique
+** wealth data is available even when not taxed
+"Colombian
+taxpayers annually report their taxable and non-taxable wealth in their income tax statements."
+** 5 wealth tax reforms from 2002 to the writing of the paper
+** tax notches
+because average rather than marginal rates are specified and they vary across wealth brackets.
+** they observe reported wealth before and after a notch comes into play
+** bunching to duck the tax notches reflects sheltering
+"bunching in the distribution of reported wealth predominantly reflects sheltering. It is
+difficult for individuals to immediately bunch below the notch points using real responses (e.g.,
+investment) because wealth partly depends on asset prices"
+* main results
+** ducking the notches
+"the marginal buncher would have reported 21 percent more wealth in the ab-
+sence of the wealth tax notch."
+** elasticiy of wealth wr/t (1-tax rate)
+"Our estimated elasticity suggests that a one percent increase in (one
+minus) the wealth tax rate raises reported wealth by 2 percent."
+** lost revenue
+"Applying this elasticity through-
+out the wealth distribution implies bunching responses generate revenue losses of up to one-fifth
+of the mechanically projected revenue."
+** offshoring
+*** is triggered by wealth taxes
+"the reintroduction of annual wealth taxes in Colombia coincides with a period
+marked by a tenfold increase in Colombian offshore entities."
+*** immediately reduces reported wealth
+We find taxpayers reduce the assets they report to the tax authority by 10.9
+percent immediately after incorporating an offshore entity.
+* some history
+** The Colombian disclosure program.
+Around 2016, for a few years, you could disclose previously unreported assets and not be fined back-taxes.
+** in December 2016, Colombia criminalized tax evasion for the first time.
+** Halfway through the disclosure program, the Panama Papers leak happened.
+This increased the perceived risk to tax evaders.
+* Colombian innstitutions are unique
+** There is a *presumptive* income tax based on wealth.

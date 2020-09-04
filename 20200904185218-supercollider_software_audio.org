@@ -1,0 +1,14 @@
+#+title: Supercollider (Software, Audio)
+* scsynth is the command-line version; scide is the IDE version
+* To get help for scsynth
+scsynth -h` lists the options available
+* How to give it more memory
+** from within the IDE
+o=Server.local.options;
+o.memSize;                // shows the actual memSize
+o.memSize = o.memSize * 2 // doubles the memSize // hit the line above to see the result.
+** from the command line, via `scsynth`
+Use -m to specify memory in kilobytes. Default is 8192.
+I'm setting it to a million -- a GB, exactly or less -- this way:
+  scsynth -m 1000000
+** https://mail.google.com/mail/u/0/#search/to%3Asc-users/QgrcJHsTlmZqmjMNKhFRfgRcTJtmfKpVnLQ
