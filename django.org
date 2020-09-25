@@ -1,0 +1,245 @@
+#+title: Django (Python web framework)
+* refs
+** All Django documentation
+ https://docs.djangoproject.com/en/3.0/
+** my project
+ ~/code/aws/python-web-app
+* Tutorial: Writing your first Django app
+https://docs.djangoproject.com/en/3.0/intro/
+** TODO resume at
+ part 5, The Django test client
+** part 1
+*** filetree structure
+  Projects contain apps.
+  Apps "can live anywhere on your [Python path](https://docs.python.org/3/tutorial/modules.html#tut-searchpath)".
+*** create a new project
+  django-admin startproject <desired name of new project>
+*** PITFALL: avoid some module names
+  e.g. "django" or "test"
+*** PITFALL: Django is for building a site, not serving it
+  The "Django development server" is useful for testing,
+  but they suggest using something like Apache in production.
+
+*** run the devel server
+**** They suggest this
+    python manage.py runserver
+**** but from inside a Docker container, do this instead:
+    python manage.py runserver 0.0.0.0:8000
+  That broadcasts to the 8000 port on all addresses,
+  at least if the container was started (`docker run`) with the options
+      -p 8000:8000 -d -h 127.0.0.1
+*** PITFALL: The devl server *usually* doesn't need restarting
+  but certain changes, like adding a file,
+  require a manual restart
+*** create an app
+  from the folder containing manage.py:
+    python manage.py startapp <desired app name>
+*** PITFALL: my filetree does't quite match the tutorial's
+  (I *think* this is right.)
+  They suggest a "mysite" folder,
+  and next to it, the "polls" (app) folder.
+  I'm doing that, but "mysite" is called "ebdjango".
+*** create a view
+  see `index()`,
+  defined in `python-web-app/polls/views.py`
+*** connect the view to the website
+**** model
+  see the "index" viewpattern in `polls/urls.py`,
+  and the "polls" urlpattern in `ebdjango/urls.py`.
+**** idea
+  Given a path, Django first searhes mysite/urls.py for a matching prefix.
+  If the second argument is an include() expression, as in
+      path('polls/', include('polls.urls'))
+  then Django will look in the indicated file, and *I'm guessing* recurse.
+  Eventually it should bottom out at an expression like
+      path('', views.index, name='index'),
+  at which point it visits the "name" function in the file that's the second arg.
+*** "Patterns don’t search GET and POST parameters, or the domain name."
+  For example, in a request to https://www.example.com/myapp/, the URLconf will look for myapp/. In a request to https://www.example.com/myapp/?page=3, the URLconf will also look for myapp/.
+** part 2
+*** mysite/settings.py
+ uses SQLite by default.
+**** PITFALL: for production, switch to something heavier-duty
+ like Postgresql
+**** choose TIME_ZONE from this list
+ https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+**** it contains (among other things) a list of installed Django apps
+**** if any apps require a database, run "migrate" to (make the db?)
+ python manage.py migrate
+*** mysite/models.py
+**** idea
+ Describes the structure of the database.
+ Each "model" (e.g. Choice and Question in the example code)
+ is, I guess, a table.
+**** a field's arguments depend on the subtype of Field chosen
+ Some Field classes have required arguments.
+ Each Field can be given an optional human-readable name as its first arg.
+**** ForeignKey associates items in one model with another
+ e.g. this code
+   class Choice(models.Model):
+       question = models.ForeignKey(Question, on_delete=models.CASCADE)
+       ...
+ says each Choice is associated with some Question
+*** add the new app
+**** modify mysite/settings.py
+    INSTALLED_APPS = [
+ +    'polls.apps.PollsConfig', # the new app
+      'django.contrib.admin',
+      'django.contrib.auth',
+     ...
+*** migrate the database
+**** run `python manage.py makemigrations polls`
+ THis writes a "migration",
+ a human-readable file that describes how the DB changed,
+ to `polls/migrations/0001_initial.py`.
+**** if desired, check the migration
+ View the SQL it translates into:
+   python manage.py sqlmigrate polls 0001
+ Check for problems automatically:
+   python manage.py check
+**** execute the migration
+ python manage.py migrate
+ (the same command as before)
+*** PITFALL: lots of magic: play with the API
+**** open a "Django shell"
+   python manage.py migrate
+ It's a normal Python REPL, except
+ "manage.py sets the DJANGO_SETTINGS_MODULE environment variable,
+ which gives Django the Python import path to your mysite/settings.py file."
+**** from polls.models import Choice, Question
+**** Question.objects.all()    # It's empty.
+**** create a question
+ from django.utils import timezone
+ q = Question(question_text="What's new?", pub_date=timezone.now())
+ q.save() # write `q` to the database
+**** modify the question
+ q.question_text = "What's up?"
+ q.save # This does not create a new question; it modifies the extant one.
+**** filter objects
+ Question.objects.filter(question_text__startswith='What')
+ Question.objects.filter(id=1)
+ from django.utils import timezone
+ current_year = timezone.now().year
+ Question.objects.get(pub_date__year=current_year)
+   # PITFALL: __ here is used like it was (.)
+ Question.objects.get(pk=1)
+   # works regardless what the primary key is called
+ q = Question.objects.get(pk=1)
+**** test a user-defined method
+ q . was_published_recently()
+**** PITFALL magic: sets of associated rows
+***** given a row, view associated rows from another table
+ q.choice_set.create(choice_text='The usual', votes=0)
+ q.choice_set.create(choice_text='Conquering the world', votes=0)
+ q.choice_set.create(choice_text='So much winning', votes=0)
+***** fold such a set
+ q.choice_set.count()
+**** PITFALL: magic: "field lookups"
+ lots of automatically created names
+ https://docs.djangoproject.com/en/3.0/topics/db/queries/#field-lookups-intro
+***** example
+ Choice.objects.filter(question__pub_date__year=current_year)
+***** observation: double underscores really are like dot
+***** observation: class names can be used to query members of other classes
+**** delete everything in a set
+ c = q.choice_set.filter(choice_text__startswith='Conquering')
+ c.delete()
+*** superuser
+**** create
+ python manage.py createsuperuser
+**** visit admin site
+ 127.0.0.1:8000/admin
+**** make an app admin-modifiable
+ use django.contrib.admin.site.register
+ see sample code at polls/admin.py
+** part 3
+*** when Django matches a `urlpattern`, it calls `detail()`
+ example: In polls/urls.py, there is this urlpattern:
+   path('<int:question_id>/', views.detail, name='detail')
+ So if you visit `polls/34/`, it will call
+   detail(request=<HttpRequest object>, question_id=34)
+*** using templates
+ To separate the design (HTML) from the code (Python) for views.
+**** PITFALL: folders are confusing
+ By default, DjangoTemplates looks for a `templates` folder in each installed app.
+ Put the index template at `polls/templates/polls/index.html`.
+ "You can refer to this template within Django as polls/index.html."
+**** rendering
+ One can fetch the template explicitly or implicitly:
+
+   def index(request):
+     latest_question_list = Question.objects.order_by('-pub_date')[:5]
+     context = { 'latest_question_list': latest_question_list }
+
+     # fetch the template implicitly
+     return render(request, 'polls/index.html', context)
+
+     # equivalent: fetch and render from the template explicitly
+     template = loader.get_template('polls/index.html')
+     return HttpResponse(
+       template.render(context, request))
+**** get-or-404
+***** explicitdef detail(request, question_id):
+   try:
+     question = Question.objects.get( pk=question_id )
+   except Question.DoesNotExist:
+     raise Http404( "Question does not exist" )
+   return render( request,
+                  'polls/detail.html',
+                  {'question': question} )
+***** shorthand
+ def detail(request, question_id):
+   question = get_object_or_404( Question, pk=question_id )
+   return render( request,
+                  'polls/detail.html',
+                  {'question': question} )
+**** relative links
+ polls/index.html has a passage like this (minus the comment)
+     <ul>
+     {% for question in latest_question_list %}
+       <!--
+       This would work too, but absolute links are hard to refactor.
+       <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
+       The next line is better. It relies on the "detail" line in polls/urls.py.
+       -->
+       <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
+     {% endfor %}
+     </ul>
+** part 4
+ My only notes for this section are in the code.
+** part 5: testing
+ My only notes for this section are in the code.
+*** integration tests
+ PITFALL: They don't use the terms "integration test" or "unit test".
+ Resume tutorial, part 5, at
+   The Django test client
+ (Before that it's all about unit tests.)
+** part 6: stylesheets and images
+ (unread)
+** part 7: customize the admin form
+ (unread)
+* The "topic guides"
+https://docs.djangoproject.com/en/3.0/topics/
+** TODO Resume at
+The page called "Models":
+  https://docs.djangoproject.com/en/3.0/topics/db/models/
+The section called "Relationships"
+** inter-file connections
+*** SUPPOSE throughout these notes that at the root of the project
+ there's manage.py,
+ there's a folder called "site"
+   (in my sample code, this corresponds to ebdjango/)
+ and there's a folder call "app"
+   (in my sample code, this corresponds to polls/)
+*** models must be defined at app/models.py
+*** models must be registered at site/settings.py
+ by changing the INSTALLED_APPS variable
+
+*** each time a new model is added
+ When you add new apps to INSTALLED_APPS,
+ be sure to run manage.py migrate,
+ optionally making migrations for them first with manage.py makemigrations.
+** PITFALLS
+*** changing the PK creates a new object
+ https://docs.djangoproject.com/en/3.0/topics/db/models/
+ "The primary key field is read-only. If you change the value of the primary key on an existing object and then save it, a new object will be created alongside the old one. For example..."
