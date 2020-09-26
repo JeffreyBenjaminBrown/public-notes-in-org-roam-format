@@ -6,6 +6,10 @@
 can nonetheless be important, thanks to backlinks
 * REMEMBER the Discourse group
 * surprise & how it works
+** link descriptions are automatically refactored
+*** maybe only in a newer version than the one I use?
+*** this can be disabled:
+https://org-roam.discourse.group/t/links-descriptions-auto-refactoring/710/3?u=jeffbrown
 ** DONE (learned) linking to headers
 *** only available in version 1.2
 *** create header, then run `org-roam-store-link` (C-c L)

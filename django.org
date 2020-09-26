@@ -8,54 +8,97 @@
 https://docs.djangoproject.com/en/3.0/intro/
 ** TODO resume at
  part 5, The Django test client
+** PITFALL: my filetree does't quite match the tutorial's
+ (I *think* this is right.)
+ They suggest a "mysite" folder,
+ and next to it, the "polls" (app) folder.
+ I'm doing that, but "mysite" is called "ebdjango".
 ** part 1
-*** filetree structure
-  Projects contain apps.
-  Apps "can live anywhere on your [Python path](https://docs.python.org/3/tutorial/modules.html#tut-searchpath)".
-*** create a new project
-  django-admin startproject <desired name of new project>
-*** PITFALL: avoid some module names
-  e.g. "django" or "test"
 *** PITFALL: Django is for building a site, not serving it
   The "Django development server" is useful for testing,
   but they suggest using something like Apache in production.
-
-*** run the devel server
-**** They suggest this
-    python manage.py runserver
-**** but from inside a Docker container, do this instead:
+*** filetree and URL structure
+**** A Django project is a folder that includes
+***** a folder for each app located in the project
+  Initially there are no such folders.
+****** Nuance: The project can also use apps defined outside of the project
+Apps "can live anywhere on your [Python path](https://docs.python.org/3/tutorial/modules.html#tut-searchpath)".
+***** the following top-level files or folders:
+  db.sqlite3
+  ebdjango/
+  manage.py
+**** The ebdjango/ folder needs to "know" about an app,
+  as described in [[id:ad943b01-c966-44f1-b5c9-74ef6eafb0f2][connect the view to the website]].
+  Once it does, the app becomes available as a top-level
+  subdomain of the project.
+**** Each app corresponds to a top-level subdomain of the project URL.
+  For instance, when I host my django project from
+  localhost:8000, since 'polls' is an app in it, the URL
+  localhost:8000/polls/ takes me to that app.
+  (The trailing / is optional, but I believe preferred.)
+*** create a new project
+  django-admin startproject <desired name of new project>
+**** PITFALL: avoid certain module names
+   e.g. "django" or "test"
+*** (run) the devel server
+**** PITFALL: The devl server *usually* doesn't need restarting
+   but certain changes, like adding a file,
+   require a manual restart
+**** how to run it
+***** From inside a Docker container, do this:
     python manage.py runserver 0.0.0.0:8000
   That broadcasts to the 8000 port on all addresses,
   at least if the container was started (`docker run`) with the options
       -p 8000:8000 -d -h 127.0.0.1
-*** PITFALL: The devl server *usually* doesn't need restarting
-  but certain changes, like adding a file,
-  require a manual restart
-*** create an app
-  from the folder containing manage.py:
+***** From the host system (not using Docker) this is sufficient:
+     python manage.py runserver
+*** add a new app
+**** How: from the folder containing manage.py, run
     python manage.py startapp <desired app name>
-*** PITFALL: my filetree does't quite match the tutorial's
-  (I *think* this is right.)
-  They suggest a "mysite" folder,
-  and next to it, the "polls" (app) folder.
-  I'm doing that, but "mysite" is called "ebdjango".
+**** What that does
+  is create a new folder there, with that name,
+  populating it with some Django boilerplate
+  that can then be customized.
 *** create a view
-  see `index()`,
-  defined in `python-web-app/polls/views.py`
+  Add some code to the app's views.py file.
+  Example: my file `python-web-app/polls/views.py`
+**** the laborious way
+  from django.http import HttpResponse
+
+  def index(request):
+      return HttpResponse("Hello, world. You're at the polls index.")
+**** easier: subclass any of Django's *View classes
+  (Described in a later section of the tutorial.)
+  Example: see the `index()` function for my "polls" app
 *** connect the view to the website
-**** model
-  see the "index" viewpattern in `polls/urls.py`,
-  and the "polls" urlpattern in `ebdjango/urls.py`.
-**** idea
-  Given a path, Django first searhes mysite/urls.py for a matching prefix.
+    :PROPERTIES:
+    :ID:       ad943b01-c966-44f1-b5c9-74ef6eafb0f2
+    :END:
+**** the idea
+  When Django receives a request for URL,
+  it crawls
+    ebdjango/urls.py
+  and then (probably)
+    <some app folder>/urls.py
+  to figure out what to do.
+***** a little more detail
+   Given a path, Django first searhes ebdjango/urls.py for a matching prefix.
   If the second argument is an include() expression, as in
       path('polls/', include('polls.urls'))
-  then Django will look in the indicated file, and *I'm guessing* recurse.
+   then Django will look in the indicated file.
   Eventually it should bottom out at an expression like
       path('', views.index, name='index'),
   at which point it visits the "name" function in the file that's the second arg.
-*** "Patterns don’t search GET and POST parameters, or the domain name."
+**** sample code
+  see the "index" viewpattern in `polls/urls.py`,
+  and the "polls" urlpattern in `ebdjango/urls.py`.
+**** PITFALL: "Patterns don’t search GET and POST parameters, or the domain name."
   For example, in a request to https://www.example.com/myapp/, the URLconf will look for myapp/. In a request to https://www.example.com/myapp/?page=3, the URLconf will also look for myapp/.
+  My guess: The stuff after the '?' becomes arguments to the function called by the function found after looking up the part before the '?'.
+*** visit the view
+  e.g. visit http://127.0.0.1:8000/polls/
+    or equivalently, http://localhost:8000/polls/
+  ("polls" is one of my pages.)
 ** part 2
 *** mysite/settings.py
  uses SQLite by default.

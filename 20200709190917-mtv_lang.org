@@ -1,6 +1,8 @@
 #+title: mtv-lang
 * TODO BUGS
 ** too many events sound simultaneously when it first starts
+* TODO replace `V.Timestamp . fromRational . _unTime`,
+which is common, with a function
 * TODO ? maybe problems
 ** each sample needs to be called by a separate voice
 ** ./Dispatch/Dispatch.hs: -- todo ? awkward : The Ev' label gets repeated within the Action.

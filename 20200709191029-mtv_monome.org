@@ -1,73 +1,177 @@
 #+title: mtv-monome
-* PITFALL: If I need to see the voice_jit or jit_test branches
-they are in the old monome/ repo.
-* TODO controlling timbre
-** TODO many-parameter interface
-*** PITFALL Don't worry about changing Zot until experiments are easy.
-That is, until I can change parameters with the monome and save settings.
-*** TODO BEWARE: Am I incurring tehnical debt?
+* TODO BEWARE: Am I incurring tehnical debt?
 Ponder continuously: Are there any refactorings I intend to make eventually,
 which would be easier earlier?
-*** TODO change parameters
-**** TODO print stuff
-***** TODO print param with each change
-***** TODO print all params, ranges in group when selecting group
-**** TODO keep ranges as Rationals
-**** TODO change timbre of sustained pitches
-**** TODO save LED arrangements for each group
-*** TODO set the upper and lower bounds of a parameter
-*** TODO ? zoom in on a parameter
-using multiple rows to set it precisely
-*** TODO ? Special keyboard-ish interface for frequency-ish parameters.
-*** TODO save timbres
-*** TODO store, for each parameter, whether it is linear or logarithmic
-*** TODO use tmux or Brick to show multiple GHCIs at once
-each for a different kind of display
-*** TODO randomize
-**** a subset of all parameters
-*** TODO ? meta-parameters
-*** TODO ? more Zot params
-Envelopes.
-Vibrato.
-Mono effects for poly voices.
-** TODO cleanup
-*** test the new handlers (ParamGroup and ParamVal)
-*** delete Zot_Monome
-*** reify magic numbers in Lag.hs
- see comment:
-   -- TODO : magic numbers; reify
-*** there's something ad-hoc about these passages
-**** the "case param of" passages in Monome.Main
-**** the ScAction_New passage in Montevideo.Monome.Window.Keyboard
-**** the handler in Window.Lag
-*** What's up with "on", "amp", "trigger" and "lag"?
- See the header comment here for what they mean:
-   ~/mtv/mtv-synth/Montevideo/Synth.hs
+* TODO clean
+** in Window.Keyboard
+*** the solution
+windowInitLeds should return an Either
+*** the problem
+  , windowInitLeds = \st mi -> let
+      errMsg = "Keyboard.keyboardWindow: todo: handle this gracefully" in
+      map ( ( (mi, label) ,)
+            . (,True) ) $
+      concatMap ( either (error errMsg) id . pcToXys_st st mi ) $
+      M.keys $ st ^. stApp . edoLit
+* TODO two keyboards
+** Move more fields from St or EdoApp to Keyboard
+See the comments in the Keyboard type definition for which.
+** why
+*** separate shifts
+*** separate sustains
+*** separate timbre controls
+* optimal sustain button placement
+** 2 positions
+one up near the pinky, the other down near the thumb
+** different for the two hands
+* _stKeyboards: populate automatically
+It's inferrable from _stWindowLayers:
+Every MonomeId for which one of the windows is a Keyboard.
+* TODO rename stToMonome -> stToMonomes
 * TODO features
-** store pitchsets from sustain
-*** into variables in GHCI
-*** onto a window on the monome
-** store timbres
-*** into variables in GHCI
-*** onto a window on the monome
-** transpose {pitchsets, ongoing notes, either keyboard}
-** two keyboards, split keyboard
-** share pitch LED messages across mtv-lang and mtv-monome
-** MORE
-*** inc. timbre control for stored chords, other keyboard
+** chord: store & transpose
+*** U
+Chord bank window.
+A button to select whether keyboard transposes or not.
+A button to select whether transposition modifies the chord
+  for the next time it is selected.
+A button to select whether chords are held without the finger.
+The root is by default the first note in the chord played,
+  but the user can change that.
+*** store into variables in GHCI
+*** store onto a window on the monome
+*** transpose {sustained, fingered, either keyboard}
+** timbre+
+*** specific timbres
+**** mono distortion
+   Esp. good with two keyboards.
+   It's one of the FAQ items at https://vivid-synth.com/
+**** bughunt: pops
+ https://mail.google.com/mail/u/0/#inbox/KtbxLxgBwGbhSsLmhwLJDvkBLTDgkKdpvq
+***** slowly eliminate pieces of your synth until you no longer hear the pop
+***** Scott wrote a problem detector in SC
+https://mail.google.com/mail/u/0/#inbox/KtbxLxgBwGbhSsLmhwLJDvkBLTDgkKdpvq
+***** AM and RM can create low sidebands that manifest as DC
+***** Try LeakDC at the end of the signal chain
+I tried it before and after each filter (that's four leakDCs at once)
+and it didn't make any perceptible change.
+**** vibrato
+**** parameter ranges
+***** TODO expand kinds of ranges
+****** Log + 0
+  e.g. for amplitude
+****** Log + 0 and symmetric across zero
+  e.g. for pitch shift
+***** TODO save LED arrangements for each group
+***** TODO randomize
+****** a subset of all parameters
+**** Zot
+***** PITFALL Don't worry about changing Zot until experiments are easy.
+   That is, until I can change parameters with the monome and save settings.
+***** fm
+****** All filters cause pops, the HPF less so.
+  I've only heard them at the start of a note.
+****** fm-f ~ 1/4 => craziness
+****** Log is good for fm-f
+  negative is meaningless, and 0 is unnecessary if fm-m can be 0
+****** fm-m needs multiple ranges
+******* tiny fm-m values are good for vibrato
+  and they should indeed be scaled to frequency
+****** slight changes in the phase of wm relative to aPulse matter
+****** pm-f harmonicity is important
+  Factors in the denominator appear to create subharmonics.
+  Near-harmonicity creates phasing.
+  Inharmonicity in pm-f leads to strong perceived inharmonicity.
+****** pm-m is smooth (harmonics don't matter)
+****** harmonicity in wm-f matters
+****** big (e.g. > 0.01) fm-m sounds silly when fm-f is sub-audio
+****** DONE wm-m does not need to be negative or bigger than 0.5
+  assuming I'm not interested in clipping effects,
+  since w is bound to [0,1].
+****** DONE pm-m can be bigger than 1 usefully
+****** DONE w can be in [0.5,1]
+  The other half sounds the same,
+  at least barring interactions with other sections of the synth.
+****** DONE audio-rate fm for the pulse wave kinda sucks
+  It's almost always very inharmonic, and noisy to boot.
+***** change the filters
+  The default lpf, hpf, bpf only seem to do harm.
+***** fm-b seems to do nothing
+***** more parameters
+****** an elasticity for the frequency-scaled parameters
+******* the idea
+  Suppose to multiply by frequency = "log".
+  Suppose to ignore frequency = "const".
+  Then there's a spectrum in between those, and beyond "log".
+******* math
+  exp $ (log $ f/400) * n
+
+  Input = f (in Hz).
+  "Middle pitch" = 400 (Hz).
+  "Elasticity" = n.
+
+  n = 0 => Ignoring f (elasticity 0)
+  n = 1 => Scaling by the change in f (elasticity 1)
+  n = 1/2 => Elasticity 1/2
+****** Vibrato, separate from FM.
+  Not or barely tied to frequency.
+****** Tap the signal chain at multiple places.
+  So far, the end is very different from the beginning,
+  and tapping right after the filters before the limiter can cause shrieks.
+****** Envelopes.
+****** Mono effects for poly voices.
+**** precision
+***** zoom in on a parameter
+   using multiple rows to set it precisely
+***** add a factor to the numerator or denominator of a parameter
+***** numeric keypad-ish interface
+*** tone bank
+*** momentary parameter changes
+ operative only while a button is held
+*** meta-parameters
+** mtv-lang inntegration
+*** record, export monome actions as mtv-lang
+**** SMART If many voices overload, add a tiny delay to them
+2 ms between voices should be more than enough
+*** export chords from monome to a text file
+just like exporting parameters
+*** share pitch LED messages
+** smoothed piano-style glissando
+*** algorithm
+**** Press n pitches. Store them.
+ Store them by pressing one end of the gliss row.
+ Then take your finger off the gliss row.
+ The next time you touch that button you'll be starting the gliss.
+**** Press n more. The first group continues to sound.
+**** Gliss piano-style across the row of buttons.
+ The direction of gliss doesn't have to coincide with the pitch change.
+**** Smooth all pitch transitions
+ e.g. with an LPF
+**** Compute a velocity, and then update it with each new button.
+**** KEY: Project the velocity forward in time.
+ Use SC's "lag" filter.
+ When button 2 (of say 16) in the gliss row is triggered,
+ compute the difference between the time that one was triggered
+ and the time the first one was.
+ Double that time and add it to the time the first was triggered.
+ That's the time the third should be reached if speed is constant.
+ Send that instruction.
+ Keep doing that for each new button.
+*** Complication: The last button need not actually be touched.
+It will be reached via projection anyway.
+When it is touched, should the pitch abruptly jump to the goal?
+** MORE, less important
+*** "retrigger" button
+Press that to trigger (another of) the most recent pitch.
 *** flash the anchor
 *** reset buttons
-**** silence all voices
-**** redraw entire grid
-**** ? restore shift to identity vector
- to remove floating point error
-*** sustain to middle of bottom, and duplicate at both top corners
- so that usually something can touch it
 *** make pitchsets available on a per-degree basis
 *** fixed timbre change across the board
  higher tones are harsher
  rightward tones are (warblier?)
-* TODO conceptual major changes to existing code
+*** use tmux or Brick to show multiple GHCIs at once
+ each for a different kind of display
+* TODO major conceptual changes to existing code
 ** record monome state, redraw the whole monome periodically
 *** why
 Dropped messages to LEDs stop being a (hypothetical) problem.
@@ -76,19 +180,13 @@ Shading on both monomes becomes easier.
 Would require recording both states.
 This would be more CPU work, although no more work for SC or the monome.
 * TODO clean
-** handleSwitch should not know about MVar
- It should instead return an St -> St,
- and limit its IO to SuperCollider,
- and be called with mVarModify (or whatever the word is).
-
- handleSwitch :: forall app.
-                 MVar (St app) -> ((X,Y), Switch) -> IO (Either String ())
+** LedBecause: don't distinguish between keys and sustain
+ just use VoiceId
 ** unify the handlers for JI and Keyboard
+** add tests
 * TODO bugs
-** crashes when a voice is not found
-*** TODO Why does it crash?
-Even conditional on not finding the note, shouldn't it just print an error and continue?
-*** TODO Why is the voice not found?
+** TODO sometimes an off instruction is not delivered
+When this happens, check to see if the voice id is still in the St.
 ** probably harmless: threadwait error
 *** Whenever I quit, I get this error message.
  <interactive>: threadWait: invalid argument (Bad file descriptor)
@@ -102,12 +200,18 @@ Start the DAW, listen, start an mtv-lang LED pattern at the appropriate time.
 *** "bastard": send messages from the DAW, to (Haskell, to) the monome
 Would be awesome but I don't know how,
 and encoding LED patterns in the DAW would surely be ugly.
-* infrastructure
-** add tests
-*** TODO test multiple handlers
-**** hold 2 notes, press sustain, shift, release one of them
-**** hold 2 notes, press sustain, shift, release one of them, release sustain
-**** hold a note, shift, press another note, press sustain
-**** hold a note, shift, press another note, press sustain, release them
-** LedBecause: maybe don't distinguish between keys and sustain
- just use VoiceId
+* add tests
+** the new handlers (ParamGroup and ParamVal)
+** lots of things in Monome.Main
+** test multiple handlers
+*** hold 2 notes, press sustain, shift, release one of them
+*** hold 2 notes, press sustain, shift, release one of them, release sustain
+*** hold a note, shift, press another note, press sustain
+*** hold a note, shift, press another note, press sustain, release them
+* speed, if it becomes an issue
+** What if I just send a 31-tuple every time?
+If messaging between Vivid and SC is a bottleneck, this might speed that up.
+* handy references
+** [[file:20200904185218-supercollider_software_audio.org][Supercollider (software, audio)]]
+** the voice_jit or jit_test branches
+ are in the old monome/ repo.

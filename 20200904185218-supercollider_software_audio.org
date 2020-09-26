@@ -1,4 +1,4 @@
-#+title: Supercollider (Software, Audio)
+#+title: Supercollider (software, audio)
 * scsynth is the command-line version; scide is the IDE version
 * To get help for scsynth
 scsynth -h` lists the options available
