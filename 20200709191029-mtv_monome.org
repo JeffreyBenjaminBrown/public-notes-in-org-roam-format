@@ -2,45 +2,28 @@
 * TODO BEWARE: Am I incurring tehnical debt?
 Ponder continuously: Are there any refactorings I intend to make eventually,
 which would be easier earlier?
-* TODO clean
-** in Window.Keyboard
-*** the solution
-windowInitLeds should return an Either
-*** the problem
-  , windowInitLeds = \st mi -> let
-      errMsg = "Keyboard.keyboardWindow: todo: handle this gracefully" in
-      map ( ( (mi, label) ,)
-            . (,True) ) $
-      concatMap ( either (error errMsg) id . pcToXys_st st mi ) $
-      M.keys $ st ^. stApp . edoLit
-* TODO two keyboards
-** Move more fields from St or EdoApp to Keyboard
-See the comments in the Keyboard type definition for which.
-** why
-*** separate shifts
-*** separate sustains
-*** separate timbre controls
-* optimal sustain button placement
-** 2 positions
-one up near the pinky, the other down near the thumb
-** different for the two hands
-* _stKeyboards: populate automatically
-It's inferrable from _stWindowLayers:
-Every MonomeId for which one of the windows is a Keyboard.
-* TODO rename stToMonome -> stToMonomes
+* TODO bugfix: can erase notes
+fingered on the other monome.
+* TODO NEXT: store chords
+** guiding visions
+*** left jumps between playing bass line & triggering chords
+*** Store chords in the same row that sound good together.
+and eventually loops, too.
+** store onto a window on the monome
+** choice (button): "mono|poly": one chord at a time, or multiple
+*** mono => interruption
+ In mono mode (whether inert or persistent),
+ when a new chord is pressed, the old one is released.
+** choice (button): "persistent|inert"
+In "inert" mode, the chord only sounds while the button is held.
+IOn "persistent" mode, the chord keeps playing until a second button press,
+  or (if in mono mode) until a different chord is pressed.
+** store into variables in GHCI
 * TODO features
-** chord: store & transpose
-*** U
-Chord bank window.
+** transpose {sustained, fingered, either keyboard}
 A button to select whether keyboard transposes or not.
 A button to select whether transposition modifies the chord
   for the next time it is selected.
-A button to select whether chords are held without the finger.
-The root is by default the first note in the chord played,
-  but the user can change that.
-*** store into variables in GHCI
-*** store onto a window on the monome
-*** transpose {sustained, fingered, either keyboard}
 ** timbre+
 *** specific timbres
 **** mono distortion
@@ -125,42 +108,52 @@ and it didn't make any perceptible change.
    using multiple rows to set it precisely
 ***** add a factor to the numerator or denominator of a parameter
 ***** numeric keypad-ish interface
-*** tone bank
+*** tone bank on Monome_128
 *** momentary parameter changes
  operative only while a button is held
 *** meta-parameters
 ** mtv-lang inntegration
+*** ? chord roots
+The root is by default the first note in the chord played,
+  but the user can change that.
 *** record, export monome actions as mtv-lang
 **** SMART If many voices overload, add a tiny delay to them
 2 ms between voices should be more than enough
 *** export chords from monome to a text file
 just like exporting parameters
 *** share pitch LED messages
-** smoothed piano-style glissando
-*** algorithm
-**** Press n pitches. Store them.
- Store them by pressing one end of the gliss row.
- Then take your finger off the gliss row.
- The next time you touch that button you'll be starting the gliss.
-**** Press n more. The first group continues to sound.
-**** Gliss piano-style across the row of buttons.
- The direction of gliss doesn't have to coincide with the pitch change.
-**** Smooth all pitch transitions
- e.g. with an LPF
-**** Compute a velocity, and then update it with each new button.
-**** KEY: Project the velocity forward in time.
- Use SC's "lag" filter.
- When button 2 (of say 16) in the gliss row is triggered,
- compute the difference between the time that one was triggered
- and the time the first one was.
- Double that time and add it to the time the first was triggered.
- That's the time the third should be reached if speed is constant.
- Send that instruction.
- Keep doing that for each new button.
-*** Complication: The last button need not actually be touched.
-It will be reached via projection anyway.
-When it is touched, should the pitch abruptly jump to the goal?
-** MORE, less important
+** separate "ensemble" (group of voices) controls
+*** For the two monomes, for the sustained pitches.
+*** Separate timbre, transpose, maybe sustain.
+** *MORE*, less important
+*** smoothed piano-style glissando
+**** algorithm
+***** Press n pitches. Store them.
+  Store them by pressing one end of the gliss row.
+  Then take your finger off the gliss row.
+  The next time you touch that button you'll be starting the gliss.
+***** Press n more. The first group continues to sound.
+***** Gliss piano-style across the row of buttons.
+  The direction of gliss doesn't have to coincide with the pitch change.
+***** Smooth all pitch transitions
+  e.g. with an LPF
+***** Compute a velocity, and then update it with each new button.
+***** KEY: Project the velocity forward in time.
+  Use SC's "lag" filter.
+  When button 2 (of say 16) in the gliss row is triggered,
+  compute the difference between the time that one was triggered
+  and the time the first one was.
+  Double that time and add it to the time the first was triggered.
+  That's the time the third should be reached if speed is constant.
+  Send that instruction.
+  Keep doing that for each new button.
+**** Complication: The last button need not actually be touched.
+ It will be reached via projection anyway.
+ When it is touched, should the pitch abruptly jump to the goal?
+*** optimal sustain button placement
+**** 2 positions
+  one up near the pinky, the other down near the thumb
+**** different for the two hands
 *** "retrigger" button
 Press that to trigger (another of) the most recent pitch.
 *** flash the anchor
@@ -180,6 +173,9 @@ Shading on both monomes becomes easier.
 Would require recording both states.
 This would be more CPU work, although no more work for SC or the monome.
 * TODO clean
+** _stKeyboards: populate automatically
+ It's inferrable from _stWindowLayers:
+ Every MonomeId for which one of the windows is a Keyboard.
 ** LedBecause: don't distinguish between keys and sustain
  just use VoiceId
 ** unify the handlers for JI and Keyboard

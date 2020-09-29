@@ -1,0 +1,15 @@
+#+title: Django Database
+* models are classes *and* databases
+Every "model" (e.g. Choice and Question in the polls/ example) is
+  as a class in Python
+  *and* as a table in the database.
+* a field's arguments depend on the subtype of Field chosen
+Some Field classes have required arguments.
+Each Field can be given an optional human-readable name as its first arg.
+* ForeignKey associates items in one model with another
+e.g. this code
+  class Choice(models.Model):
+      question = models.ForeignKey( Question, 
+                                    on_delete = models.CASCADE)
+      ...
+says each Choice is associated with some Question.

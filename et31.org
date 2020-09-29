@@ -89,3 +89,7 @@ It's weird because it sounds like a familiar scale with an extra note
 but holding the fifth degree (18/31) from the first,
 and between them play the dominant (major starting at 18) chord of the first.
 * [[file:20200827195612-thanos_tunings.org][Thanos (Kite-Ish) Tunings]]
+* Just chords
+** 9 11 13 = diminished
+A little wider than 5 6 7.
+In both cases the first "minor third" is wider than the second.
