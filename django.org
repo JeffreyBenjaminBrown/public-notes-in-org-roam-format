@@ -4,14 +4,17 @@
  https://docs.djangoproject.com/en/3.0/
 ** my project
  ~/code/aws/python-web-app
+** further reading
+*** Request and response objects \ Django documentation \ Django
+   https://docs.djangoproject.com/en/3.0/ref/request-response/
+*** avoiding race conditions
+   https://docs.djangoproject.com/en/3.0/ref/models/expressions/#avoiding-race-conditions-using-f                      
 * Tutorial: Writing your first Django app
 https://docs.djangoproject.com/en/3.0/intro/
 ** TODO resume at
-  https://docs.djangoproject.com/en/3.0/intro/tutorial03/
-  Writing your first Django app, part 3
-
-69% of the way through, at the section called
-  Use the template system
+https://docs.djangoproject.com/en/3.0/intro/tutorial04/
+  53% of the way through, at the section called
+  Use generic views: Less code is better
 ** PITFALL: my filetree does't quite match the tutorial's
  (I *think* this is right.)
  They suggest a "mysite" folder,
@@ -189,6 +192,12 @@ In [9]: q.save()
 **** execute a user-defined method
  q . was_published_recently()
 **** sets of associated rows
+***** PITFALL: The definition of the host object does not (necessarily? ever?) know about its contents from other tables.
+ For instance, in the tutorial's example "polls" app,
+ there are Question and Choice types.
+ Every Choice includes a field that is a Question.
+ Thus every Question has (potentially) multiple Choices associated with it,
+ but the definition of the Question type refers nowhere to Choice.
 ***** given a row, view associated rows from another table
  q.choice_set.create(choice_text='The usual', votes=0)
  q.choice_set.create(choice_text='Conquering the world', votes=0)
@@ -278,7 +287,21 @@ in polls.views. And the string "pk" appears nowhere in that class def!
 which contains  the content for the requested page
 **** raise an Http404 exception
 *** templates
- To separate the design (HTML) from the code (Python) for views.
+  Templates \ Django documentation \ Django:
+    https://docs.djangoproject.com/en/3.0/topics/templates/
+  To separate the design (HTML) from the code (Python) for views.
+**** Calling Python code from HTML code
+***** dot-lookup syntax is overloaded
+ The (.) operator first tries one kind of lookup, then another ...
+
+ "The template system uses dot-lookup syntax to access variable attributes. In the example of {{ question.question_text }}, first Django does a dictionary lookup on the object question. Failing that, it tries an attribute lookup – which works, in this case. If attribute lookup had failed, it would’ve tried a list-index lookup."
+***** (at least some) Python functions are called from HTML without parens
+ Example:
+
+ `question.choice_set.all` in the template (HTML)
+ is interpreted as the Python code `question.choice_set.all()`,
+ which returns an iterable of (Python) Choice objects
+  and is suitable for use in the {% for %} (HTML) tag.
 **** the purpose: separate format from content
 The functions in views.py ideally only describe content,
 and leave the formatting to the templates.
@@ -329,7 +352,24 @@ That way the format of many views can be changed in one place.
      {% endfor %}
      </ul>
 ** part 4
- My only notes for this section are in the code.
+*** see code
+esp. templates/polls/detail_2.html
+*** csrf_token
+  Use these around to prevent "cross site request forgery" attacks.
+
+  "all POST forms that are targeted at
+   internal URLs should use the {% csrf_token %} template tag"
+
+  e.g.
+    <form action="..."
+          method="post">
+      {% csrf_token %}
+      ... do stuff ...
+    </form>
+*** Follow every POST with a redirect.
+  Always return an HttpResponseRedirect after successfully dealing
+  with POST data. This prevents data from being posted twice if a
+  user hits the Back button. (This advice is not Django-specific.)
 ** part 5: testing
  My only notes for this section are in the code.
 *** integration tests
