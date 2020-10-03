@@ -9,6 +9,8 @@
    https://docs.djangoproject.com/en/3.0/ref/request-response/
 *** avoiding race conditions
    https://docs.djangoproject.com/en/3.0/ref/models/expressions/#avoiding-race-conditions-using-f                      
+*** generic views in Django
+https://docs.djangoproject.com/en/3.0/topics/class-based-views/
 * Tutorial: Writing your first Django app
 https://docs.djangoproject.com/en/3.0/intro/
 ** TODO resume at
@@ -351,7 +353,12 @@ That way the format of many views can be changed in one place.
        <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
      {% endfor %}
      </ul>
-** part 4
+** part 4: views, forms, gets, posts and more
+*** Most of my notes are in the code, esp. these files:
+(in descending order of importance | volume of edits)
+polls/views.py
+polls/templates/polls/*.html
+polls/urls.py
 *** see code
 esp. templates/polls/detail_2.html
 *** csrf_token
@@ -371,16 +378,66 @@ esp. templates/polls/detail_2.html
   with POST data. This prevents data from being posted twice if a
   user hits the Back button. (This advice is not Django-specific.)
 ** part 5: testing
- My only notes for this section are in the code.
-*** integration tests
- PITFALL: They don't use the terms "integration test" or "unit test".
- Resume tutorial, part 5, at
-   The Django test client
- (Before that it's all about unit tests.)
-** part 6: stylesheets and images
- (unread)
+see polls.tests
+*** automatically-run tests
+**** they use a fresh database
+Each time a test method (smaller than a test class) runs,
+it uses a fresh "test database" that starts empty.
+**** PITFALL: names matter
+   Test files and test methods must start with "test".
+   Not so, though, the classes which the tests are methods of.
+**** run the tests from the shell
+ python manage.py test polls
+*** interactive tests
+These use the existing database.
+**** enter a testing environment
+***** enter the repl:
+  python manage.py shell
+***** do this in the repl
+  from django.test.utils import setup_test_environment
+  setup_test_environment()
+  from django.test import Client
+  client = Client()
+**** test some URLs
+# This should fail, because there's nothing at '/'
+response = client.get('/')
+response.status_code
+
+# This should succeed
+from django.urls import reverse
+response = client.get(reverse('polls:index'))
+response.status_code
+response.content
+response.context['latest_question_list']
+*** assertions: at least three kinds
+**** assertEqual
+**** assertContains
+For the content of a response.
+**** assertQuerysetEqual
+Can treat the set as ordered or not.
+TODO: Is this better than assertEqual?
+** part 6: using static files for stylesheets and images
+*** code to reference
+Appearances of the word "static" in polls/templates.
+The entire static/ subfolder of the polls app.
+*** Static file discovery is weird.
+**** Where it is governed
+"""
+Django’s STATICFILES_FINDERS setting contains a list of finders that know how
+to discover static files from various sources. One of the defaults is
+AppDirectoriesFinder which looks for a “static” subdirectory in each of the
+INSTALLED_APPS, like the one in polls we just created. The admin site uses the
+same directory structure for its static files.
+"""
+**** The folder structure resembles that for templates
+ e.g. create the file <app name>/static/<app name>/style.css,
+ and then refer to it as <app name>/style.css.
 ** part 7: customize the admin form
  (unread)
+* questions
+** How to share text across templates?
+For instance, what if I wanted to change the text "No polls are available."
+in all templates at once?
 * The "topic guides"
 https://docs.djangoproject.com/en/3.0/topics/
 ** TODO Resume at
