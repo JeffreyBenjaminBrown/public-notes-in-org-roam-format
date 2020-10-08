@@ -2,18 +2,25 @@
 https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
 * some definitions
 ** Apache is a web server
-** mod_wsgi is an Apache module 
+** mod_wsgi is an Apache module
  which can host any Python WSGI application, including Django.
+* starting it
+** run `service apache2 start`
+or, in a tax.co Docker container, from /etc/apache2, run
+  ./start-apache.sh
+*** Otherwise I get the error that `DefaultRuntimeDir` is not set.
+ In the default apache2.conf file, there's this line:
+   DefaultRuntimeDir ${APACHE_RUN_DIR}
+ but APACHE_RUN_DIR is not set,
+ and it's nowhere in code for the official Apache docker `httpd` image.
 * Apache config files
+** PITFALL: Comments in Apache config files
+ cannot trail code on the same line,
+ although they can trail whitespace.
+ (This is at least true for `ports.conf`.)
 ** are located at /etc/apache2
 at least in my docker container
 ** what to customize
 *** ports
 The default `ports.conf` listens to port 80 and not 8000.
 I'm adding a "Listen 8000" line to it.
-** PITFALL: *start* apache, and do some stuff before that
-*** first: `source /etc/apache2/envvars`
-This sets APACHE_RUN_DIR.
-*** then start it: `apache2`
-Most of the introductions don't talk about this, as if it runs automatically,
-but I think I have to manually start it. The command is just "apache2".
