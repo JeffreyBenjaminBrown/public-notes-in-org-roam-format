@@ -3,7 +3,7 @@
 Ponder continuously: Are there any refactorings I intend to make eventually,
 which would be easier earlier?
 * TODO bugfix: can erase notes
-fingered on the other monome.
+fingered (not sustained) on the other monome.
 * TODO NEXT: store chords
 ** guiding visions
 *** left jumps between playing bass line & triggering chords
@@ -19,6 +19,18 @@ In "inert" mode, the chord only sounds while the button is held.
 IOn "persistent" mode, the chord keeps playing until a second button press,
   or (if in mono mode) until a different chord is pressed.
 ** store into variables in GHCI
+* TODO nested windows
+** solution!
+https://www.reddit.com/r/haskell/comments/j4kfye/adding_windows_to_my_app_makes_my_data_not_a_tree/g7kjlnq/?utm_source=reddit&utm_medium=web2x&context=3
+*** asking Reddit
+ https://www.reddit.com/r/haskell/comments/j4kfye/adding_windows_to_my_app_makes_my_data_not_a_tree/
+** Non-tree data?
+*** solution ? give each window the name of its corresponding object (e.g. 'Keyboard 1')
+** a Keyboard's windows can be on more than one monome
+e.g. its timbre window is probably on the 128
+** each Keyboard should have its own timbre, shift
+* TODO drum pads
+with timbre saveable on a per-pad basis
 * TODO features
 ** transpose {sustained, fingered, either keyboard}
 A button to select whether keyboard transposes or not.

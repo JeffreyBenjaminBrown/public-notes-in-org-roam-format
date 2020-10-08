@@ -2,6 +2,13 @@
 #+ROAM_ALIAS: "Kite tunings"
 * what Matthew Autry uses
 For both 72edo and 87edo, I use every third fret-24 and 29 frets to the octave. I don't use isomorphic tunings. I use seven string acoustic guitars, which gives about an octave in one position. Open string tuning, low to high-1/1,10/9,6/5,4/3,40/27,8/5,16/9.
+* What beats 87?
+** In terms of harmonic series approximation
+130, 140, 161, 171, 181, 183, 193, 202, 217, 224
+maybe 137, 196, 198, 203, 207
+** Among those, in terms of layout: nothing so far
+** TODO: See (automatically) if there's *any* high edo with a nice layout
+Could go up to 400-edo, because who cares.
 * notes after *really* automating
 ** comparisons
 *** 118 miracle v. 87 miracle
