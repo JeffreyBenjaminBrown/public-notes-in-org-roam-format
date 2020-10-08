@@ -1,0 +1,19 @@
+#+title: Apache and mod_wsgi: using them with Django
+https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
+* some definitions
+** Apache is a web server
+** mod_wsgi is an Apache module 
+ which can host any Python WSGI application, including Django.
+* Apache config files
+** are located at /etc/apache2
+at least in my docker container
+** what to customize
+*** ports
+The default `ports.conf` listens to port 80 and not 8000.
+I'm adding a "Listen 8000" line to it.
+** PITFALL: *start* apache, and do some stuff before that
+*** first: `source /etc/apache2/envvars`
+This sets APACHE_RUN_DIR.
+*** then start it: `apache2`
+Most of the introductions don't talk about this, as if it runs automatically,
+but I think I have to manually start it. The command is just "apache2".

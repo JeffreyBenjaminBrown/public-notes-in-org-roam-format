@@ -1,22 +1,29 @@
 #+title: Django (Python web framework)
+* TODO if Apache works in tax.co:new
+then rename it and push it to Docker hub
 * refs
 ** All Django documentation
- https://docs.djangoproject.com/en/3.0/
-** my project
+ https://docs.djangoproject.com/en/3.1/
+*** TODO [[file:20201006192557-using_apache_and_mod_wsgi_with_django.org][Using Apache and mod_wsgi with Django]]
+*** TODO : [[file:20201006172441-static_files_management_in_django.org][Static File Management In Django]]
+ allow user to download things
+*** TODO "File uploads"
+*** TODO "Sending emails"
+*** TODO "Integrating media"
+*** TODO ? "Caching"
+** my/ project
  ~/code/aws/python-web-app
 ** further reading
 *** Request and response objects \ Django documentation \ Django
    https://docs.djangoproject.com/en/3.0/ref/request-response/
 *** avoiding race conditions
-   https://docs.djangoproject.com/en/3.0/ref/models/expressions/#avoiding-race-conditions-using-f                      
+   https://docs.djangoproject.com/en/3.0/ref/models/expressions/#avoiding-race-conditions-using-f
 *** generic views in Django
 https://docs.djangoproject.com/en/3.0/topics/class-based-views/
 * Tutorial: Writing your first Django app
 https://docs.djangoproject.com/en/3.0/intro/
 ** TODO resume at
-https://docs.djangoproject.com/en/3.0/intro/tutorial04/
-  53% of the way through, at the section called
-  Use generic views: Less code is better
+part 7, top
 ** PITFALL: my filetree does't quite match the tutorial's
  (I *think* this is right.)
  They suggest a "mysite" folder,
@@ -56,7 +63,7 @@ about the Python path:
   django-admin startproject <desired name of new project>
 **** PITFALL: avoid certain module names
    e.g. "django" or "test"
-*** (run) the devel server
+*** run the devel server
 **** PITFALL: The devl server *usually* doesn't need restarting
    but certain changes, like adding a file,
    require a manual restart
@@ -159,7 +166,7 @@ by running this:
 (Running the same code in a shell opened with python3 shows only 61.)
 **** shell commands like `ls` are available in it
 **** tab completion after a dot is not available in it
-*** to use the Django shell to restructure the database
+*** populate and modify the database, using the Django shell
 **** from polls.models import Choice, Question
 ***** PITFALL: Every appearance of the word "question" and "choice" below,
 including in longer field names, was automatically generated
@@ -288,7 +295,7 @@ in polls.views. And the string "pk" appears nowhere in that class def!
 **** return an HttpResponse
 which contains  the content for the requested page
 **** raise an Http404 exception
-*** templates
+*** (HTML) templates
   Templates \ Django documentation \ Django:
     https://docs.djangoproject.com/en/3.0/topics/templates/
   To separate the design (HTML) from the code (Python) for views.
@@ -433,11 +440,10 @@ same directory structure for its static files.
  e.g. create the file <app name>/static/<app name>/style.css,
  and then refer to it as <app name>/style.css.
 ** part 7: customize the admin form
- (unread)
-* questions
-** How to share text across templates?
-For instance, what if I wanted to change the text "No polls are available."
-in all templates at once?
+See admin.py for most of my notes.
+*** Weird: admin page is top, but each app can have an admin.py file
+I guess that's because you administer all apps from the same page.
+*** unread: Customize the admin page look and feel w/ templates
 * The "topic guides"
 https://docs.djangoproject.com/en/3.0/topics/
 ** TODO Resume at
@@ -463,3 +469,11 @@ The section called "Relationships"
 *** changing the PK creates a new object
  https://docs.djangoproject.com/en/3.0/topics/db/models/
  "The primary key field is read-only. If you change the value of the primary key on an existing object and then save it, a new object will be created alongside the old one. For example..."
+* TODO before production run
+** see these warnings from <app name>/settings.py
+*** # SECURITY WARNING: keep the secret key used in production secret!
+ SECRET_KEY = ...
+
+*** # SECURITY WARNING: don't run with debug turned on in production!
+ DEBUG = True
+** add the domain name to ALLOWED_HOSTS in settings.py
