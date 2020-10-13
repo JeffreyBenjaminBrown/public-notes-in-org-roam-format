@@ -2,8 +2,17 @@
 * TODO BEWARE: Am I incurring tehnical debt?
 Ponder continuously: Are there any refactorings I intend to make eventually,
 which would be easier earlier?
-* TODO bugfix: can erase notes
+* TODO annoying
+** bug: can erase notes
 fingered (not sustained) on the other monome.
+** separate octave buttons, but otherwise shift together
+** sustain together
+** things that cause attack errors (alone)
+none of the first thre ms (pm, wm, fm)
+rm (but not am)
+hpf + hpf-m
+lpf + lpf-m
+bpf + bpf-m
 * TODO NEXT: store chords
 ** guiding visions
 *** left jumps between playing bass line & triggering chords
