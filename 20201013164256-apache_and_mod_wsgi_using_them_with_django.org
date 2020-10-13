@@ -1,0 +1,4 @@
+#+title: Apache and mod_wsgi: Using Them with Django
+https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
+* mod_wsgi is an Apache module
+which can host any Python WSGI application, including Django.

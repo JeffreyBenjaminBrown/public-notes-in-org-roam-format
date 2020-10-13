@@ -1,12 +1,14 @@
 #+title: Static File Management In Django
-* TODO to do this, it looks like I need to [[file:20201006192557-using_apache_and_mod_wsgi_with_django.org][set up Apache for Django]]
+* TODO first
+** [[file:20201006192557-apache-web-server.org][set up Apache]]
+** [[file:20201013164256-apache_and_mod_wsgi_using_them_with_django.org][Configure Apache For Django]]
 * TODO How to use Django with Apache and mod_wsgi | Django documentation | Django
 https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/#serving-files
 ** they don't recommend serving (code?) and static files from the same server
 """
   We recommend using a separate Web server – i.e., one that’s not also running
   Django – for serving media. Here are some good choices:
-    
+
     * Nginx
     * A stripped-down version of Apache
 """
