@@ -1,0 +1,10 @@
+#+title: monome
+* TODO fix it
+** wash pads
+  pads can be cleaned easily by disassembling the unit and washing only the pads with soap and water. let them dry completely prior to reassembly
+** dust with talc
+  light dusting a talc powder removes friction if the pads get stuck
+** stack buttons-to-buttons
+  because the oil that went into the wood can damage the keypads.
+** clean board with baking soda water
+  very mostly water
