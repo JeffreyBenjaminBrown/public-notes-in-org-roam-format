@@ -1,6 +1,6 @@
 #+title: Django (Python web framework)
-* TODO if Apache works in tax.co:new
-then rename it and push it to Docker hub
+* TODO
+** In Docker image, [[id:dcc41642-ba24-45b8-bf55-daf08d7f701e][append this to /etc/apache2/envvars]]
 * refs
 ** All Django documentation
  https://docs.djangoproject.com/en/3.1/
@@ -477,3 +477,9 @@ The section called "Relationships"
 *** # SECURITY WARNING: don't run with debug turned on in production!
  DEBUG = True
 ** add the domain name to ALLOWED_HOSTS in settings.py
+* TODO ? authentication for Apache via Django
+https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/apache-auth/
+"""
+Django provides a handler to allow Apache to authenticate users directly
+against Django’s authentication backends.
+"""

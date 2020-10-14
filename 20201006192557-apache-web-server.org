@@ -1,16 +1,5 @@
 #+title: Apache (web server)
 * Apache is a web server
-* Apache config files
-** PITFALL: Comments in Apache config files
- cannot trail code on the same line,
- although they can trail whitespace.
- (This is at least true for `ports.conf`.)
-** are located at /etc/apache2
-at least in my docker container
-** what to customize
-*** ports
-The default `ports.conf` listens to port 80 and not 8000.
-I'm adding a "Listen 8000" line to it.
 * to start Apache
 ** run `service apache2 start`
 or, in a tax.co Docker container, from /etc/apache2, run
@@ -20,4 +9,25 @@ or, in a tax.co Docker container, from /etc/apache2, run
    DefaultRuntimeDir ${APACHE_RUN_DIR}
  but APACHE_RUN_DIR is not set,
  and it's nowhere in code for the official Apache docker `httpd` image.
+* Apache config
+** are mostly located at /etc/apache2
+at least in my docker container
+** PITFALL: Comments in Apache config files
+ cannot trail code on the same line,
+ although they can trail whitespace.
+ (This is at least true for `ports.conf`.)
+** PITFALL: Apache configuration for Debian is nonstandard
+*** where it's documented
+**** offline (in the Docker container), see this
+  /usr/share/doc/apache2/README.Debian
+**** online, search for "Debian" here:
+ https://cwiki.apache.org/confluence/display/httpd/DistrosDefaultLayout
+*** rather than `httpd.conf,` it uses `apache2.conf` *and* `ports.conf`
+** what I customized
+*** ports
+The default `ports.conf` listens to port 80 and not 8000.
+I'm adding a "Listen 8000" line to it.
+* TODO configure Docker more
+** make /usr/local/apache2
 * [[file:20201013164256-apache_and_mod_wsgi_using_them_with_django.org][Apache and Mod_Wsgi: Using Them with Django]]
+* to show version: `apache2 -v`
