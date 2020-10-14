@@ -19,14 +19,17 @@ os.environ["DJANGO_SETTINGS_MODULE"] = "{{ project_name }}.settings"
 or by using mod_wsgi daemon mode and ensuring that each site runs in its
 own daemon process.
 """
-* TODO in Docker container, append this to /etc/apache2/envvars
+* TODO add language prefs in Docker container
   :PROPERTIES:
   :ID:       dcc41642-ba24-45b8-bf55-daf08d7f701e
   :END:
-# jbb-added, to ensure Unicode compatibility, per docs here:
-#   https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
-export LANG='en_US.UTF-8'
-export LC_ALL='en_US.UTF-8'
+
+by appending this to /etc/apache2/envvars:
+
+  # jbb-added, to ensure Unicode compatibility, per docs here:
+  #   https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
+  export LANG='en_US.UTF-8'
+  export LC_ALL='en_US.UTF-8'
 * TODO BLOCKED: asking
 https://forum.djangoproject.com/t/do-i-need-apache-if-so-im-lost-configuring-it/4791
 ** TODO ? Does it assume a VirtualHost?
