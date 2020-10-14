@@ -1,0 +1,5 @@
+#+title: wsgi
+* Configuring wsgi
+https://modwsgi.readthedocs.io/en/develop/user-guides/quick-configuration-guide.html#delegation-to-daemon-process
+* TODO docker: install libapache2-mod-wsgi
+apt-get install libapache2-mod-wsgi

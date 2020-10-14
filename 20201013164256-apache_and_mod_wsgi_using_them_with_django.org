@@ -19,7 +19,7 @@ os.environ["DJANGO_SETTINGS_MODULE"] = "{{ project_name }}.settings"
 or by using mod_wsgi daemon mode and ensuring that each site runs in its
 own daemon process.
 """
-* TODO append this to /etc/apache2/envvars
+* TODO in Docker container, append this to /etc/apache2/envvars
   :PROPERTIES:
   :ID:       dcc41642-ba24-45b8-bf55-daf08d7f701e
   :END:
@@ -27,23 +27,29 @@ own daemon process.
 #   https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
 export LANG='en_US.UTF-8'
 export LC_ALL='en_US.UTF-8'
-* TODO ? add this to apache2.conf?
-Here:
-  https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
+* TODO BLOCKED: asking
+https://forum.djangoproject.com/t/do-i-need-apache-if-so-im-lost-configuring-it/4791
+** TODO ? Does it assume a VirtualHost?
+ """
+ If, however, you have no option but to serve media files on the same Apache
+ VirtualHost as Django, you can set up Apache to serve some URLs as static
+ media, and others using the mod_wsgi interface to Django.
+ """
+** TODO ? wsgi config
+*** The confusing passage.
+ Here:
+   https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
 
-I am told to "add the following options":
-  WSGIDaemonProcess example.com python-home=/path/to/venv python-path=/path/to/mysite.com
-  WSGIProcessGroup example.com
+ I am told to "add the following options":
+   WSGIDaemonProcess example.com python-home=/path/to/venv python-path=/path/to/mysite.com
+   WSGIProcessGroup example.com
 
-but not told *where* to add them.
-
-It looks like apache2.conf code, so that's where I'm trying it first.
-* TODO ? Does it assume a VirtualHost?
-"""
-If, however, you have no option but to serve media files on the same Apache
-VirtualHost as Django, you can set up Apache to serve some URLs as static
-media, and others using the mod_wsgi interface to Django.
-"""
+ but not told *where* to add them.
+*** Where to insert the passage's code?
+ It looks like apache2.conf code, so that's where I'm trying it first.
+*** How to replace example.com?
+*** Should I just ignore the `python-home=/path/to/venv` part?
+  since I don't use a virtual environment.
 * TODO configure Apache to serve some of the site
 See "Serving files" here:
   https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/

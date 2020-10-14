@@ -1,6 +1,11 @@
 #+title: Django (Python web framework)
 * TODO
+** try serving fake-dynamic* images without Django
+Start the server, then copy a new picture into static/,
+then build a page that incorporates it.
+If that doesn't work I probably have to repopulate the static files index after each new file is created or added.
 ** In Docker image, [[id:dcc41642-ba24-45b8-bf55-daf08d7f701e][append this to /etc/apache2/envvars]]
+** Try [[file:20201014163254-wsgi.org][wsgi]] alone.
 * refs
 ** All Django documentation
  https://docs.djangoproject.com/en/3.1/
