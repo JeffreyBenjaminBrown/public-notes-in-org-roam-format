@@ -1,10 +1,44 @@
 #+title: monome
-* TODO fix it
-** wash pads
-  pads can be cleaned easily by disassembling the unit and washing only the pads with soap and water. let them dry completely prior to reassembly
-** dust with talc
+* (dis)assembly
+** PITFALL: Don't make the screws too tight
+A very slight dimpling of the board appears to be okay.
+Twist the screws only until they start to show increased resistance.
+** PITFALL: The orientation of the cable in the power unit matters.
+The easiest way is probably to make a note of it before disconnecting.
+The surest way is to notice that there are teeth on one side of the port,
+and compare their orientation to those of the teeth of the
+many ports on the board.
+* TODO fixing | care
+https://monome.org/docs/grid/care/
+** Wash pads.
+  "pads can be cleaned easily by disassembling the unit and washing only the pads with soap and water. let them dry completely prior to reassembly"
+** Dust with talc.
   light dusting a talc powder removes friction if the pads get stuck
-** stack buttons-to-buttons
-  because the oil that went into the wood can damage the keypads.
-** clean board with baking soda water
-  very mostly water
+*** PITFALL: Don't get talc on the circuit board or the wood.
+  (monome.org actually only say to keep it off the wood,
+  but once you're doing that,
+  keeping it off the circuits is almost no more work.)
+*** steps
+**** PITFALL: This is easier if done on a big plate that I can flip.
+**** Remove the buttons and the grate they poke through.
+**** PITFALL: Remove the screws from the grate.
+  This way it can lay flat, which it needs to do.
+**** Arrange the buttons as they would be in the grid.
+**** Talc the top surfaces of the buttons.
+**** Lay the grate over them.
+**** Mash the buttons.
+  This gets talc onto the sides of the channels.
+**** Wipe off any excess from the top.
+**** Flip the grate and buttons over.
+This is where the plate is handy;
+otherwise the buttons will fall out when it's flipped.
+**** Clean the bottom and sides of the grate and buttons.
+This prevents getting talc on the circuit board or the wood.
+** The wood oil can damage the buttons.
+This is a reason not to stack wood-to-buttons,
+but that doesn't apply to mine,
+because they have pads on the bottom.
+** Clean board with "water with a little baking soda".
+*** PITFALL: I used very mostly water,
+    but I think enough BS to make it cloudy when stirred.
+*** PITFALL:  I used a damp but *not* wet cloth.
