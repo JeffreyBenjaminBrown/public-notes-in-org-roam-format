@@ -1,7 +1,5 @@
 #+title: Apache and mod_wsgi: Using Them with Django
 https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
-* mod_wsgi is an Apache module
-which can host any Python WSGI application, including Django.
 * PITFALL: sites can clobber each other
 """
 Warning
@@ -19,40 +17,21 @@ os.environ["DJANGO_SETTINGS_MODULE"] = "{{ project_name }}.settings"
 or by using mod_wsgi daemon mode and ensuring that each site runs in its
 own daemon process.
 """
-* TODO add language prefs in Docker container
-  :PROPERTIES:
-  :ID:       dcc41642-ba24-45b8-bf55-daf08d7f701e
-  :END:
-
-by appending this to /etc/apache2/envvars:
-
-  # jbb-added, to ensure Unicode compatibility, per docs here:
-  #   https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
-  export LANG='en_US.UTF-8'
-  export LC_ALL='en_US.UTF-8'
+* PITFALL: Django recommend separate Apache instances
+for Django and other work, if I need Apache outside of the Django context too
+(because I'm hosting multiple sites in the same domain).
+** quote from the docs
+"""
+  If, however, you have no option but to serve media files on the same Apache
+  VirtualHost as Django, you can set up Apache to serve some URLs as static
+  media, and others using the mod_wsgi interface to Django.
+"""
+** I can for some reason ignore the VirtualHost mentioned in that passage.
+according to
+https://forum.djangoproject.com/t/do-i-need-apache-if-so-im-lost-configuring-it/4791/2
+* TODO first [[file:20201014163254-wsgi.org][configure wsgi]]
 * TODO BLOCKED: asking
 https://forum.djangoproject.com/t/do-i-need-apache-if-so-im-lost-configuring-it/4791
-** TODO ? Does it assume a VirtualHost?
- """
- If, however, you have no option but to serve media files on the same Apache
- VirtualHost as Django, you can set up Apache to serve some URLs as static
- media, and others using the mod_wsgi interface to Django.
- """
-** TODO ? wsgi config
-*** The confusing passage.
- Here:
-   https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
-
- I am told to "add the following options":
-   WSGIDaemonProcess example.com python-home=/path/to/venv python-path=/path/to/mysite.com
-   WSGIProcessGroup example.com
-
- but not told *where* to add them.
-*** Where to insert the passage's code?
- It looks like apache2.conf code, so that's where I'm trying it first.
-*** How to replace example.com?
-*** Should I just ignore the `python-home=/path/to/venv` part?
-  since I don't use a virtual environment.
 * TODO configure Apache to serve some of the site
 See "Serving files" here:
   https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/

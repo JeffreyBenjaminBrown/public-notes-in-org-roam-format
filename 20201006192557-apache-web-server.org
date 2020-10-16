@@ -1,17 +1,18 @@
 #+title: Apache (web server)
 * Apache is a web server
-* to start Apache
-** run `service apache2 start`
-or, in a tax.co Docker container, from /etc/apache2, run
+* some commands
+** to start Apache
+*** run `service apache2 start`
+ or, in a tax.co Docker container, from /etc/apache2, run
   ./start-apache.sh
-*** Otherwise I get the error that `DefaultRuntimeDir` is not set.
+**** Otherwise I get the error that `DefaultRuntimeDir` is not set.
  In the default apache2.conf file, there's this line:
    DefaultRuntimeDir ${APACHE_RUN_DIR}
  but APACHE_RUN_DIR is not set,
  and it's nowhere in code for the official Apache docker `httpd` image.
+** to show version: `apache2 -v`
+* logs are at /var/log/apache2
 * Apache config
-** are mostly located at /etc/apache2
-at least in my docker container
 ** PITFALL: Comments in Apache config files
  cannot trail code on the same line,
  although they can trail whitespace.
@@ -23,11 +24,23 @@ at least in my docker container
 **** online, search for "Debian" here:
  https://cwiki.apache.org/confluence/display/httpd/DistrosDefaultLayout
 *** rather than `httpd.conf,` it uses `apache2.conf` *and* `ports.conf`
+** are mostly located at /etc/apache2
+at least in my docker container
 ** what I customized
 *** ports
 The default `ports.conf` listens to port 80 and not 8000.
 I'm adding a "Listen 8000" line to it.
-* TODO configure Docker more
-** make /usr/local/apache2
+*** TODO configure Docker image further
+**** add Apache language prefs in Docker container
+     :PROPERTIES:
+     :ID:       dcc41642-ba24-45b8-bf55-daf08d7f701e
+     :END:
+
+   by appending this to /etc/apache2/envvars:
+
+     # jbb-added, to ensure Unicode compatibility, per docs here:
+     #   https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
+     export LANG='en_US.UTF-8'
+     export LC_ALL='en_US.UTF-8'
+**** create /usr/local/apache2
 * [[file:20201013164256-apache_and_mod_wsgi_using_them_with_django.org][Apache and Mod_Wsgi: Using Them with Django]]
-* to show version: `apache2 -v`

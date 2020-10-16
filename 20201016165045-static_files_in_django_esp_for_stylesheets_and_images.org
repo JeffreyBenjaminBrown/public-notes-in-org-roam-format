@@ -14,3 +14,75 @@ same directory structure for its static files.
 ** The folder structure resembles that for templates
 e.g. create the file <app name>/static/<app name>/style.css,
 and then refer to it as <app name>/style.css.
+* serving static files alone requires an external server
+** why: Django is unwilling to do much serving of static files
+Static files can be part of a Django page (e.g. a stylesheet or image)
+but e.g. to allow someone to download a file,
+one seems to need another app.
+Ngnix and Apache are the two major alternatives.
+** TODO [[file:20201014163254-wsgi.org][set up Wsgi]]
+** TODO [[file:20201006192557-apache-web-server.org][set up Apache]]
+** TODO [[file:20201013164256-apache_and_mod_wsgi_using_them_with_django.org][Configure Apache For Django]]
+** ref: How to use Django with Apache and mod_wsgi | Django documentation | Django
+ https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/#serving-files
+*** they don't recommend serving (code?) and static files from the same server
+ """
+   We recommend using a separate Web server – i.e., one that’s not also running
+   Django – for serving media. Here are some good choices:
+
+     * Nginx
+     * A stripped-down version of Apache
+ """
+* The staticfiles app | Django documentation | Django
+https://docs.djangoproject.com/en/3.1/ref/contrib/staticfiles/
+** PITFALL: I don't understand most of this, and doubt I need to.
+** duplicate file names
+*** The first one found is used.
+*** Namespace the files to avoid duplicate name problems.
+e.g. by putting them in
+  <app name>/static/<app name>/
+rather than in
+  <app name>/static/
+and then referring to them using the namespace, as in
+  href = "{% static 'polls/style.css' %}"
+**** TODO how to refer to a static file from .py code?
+*** the 'findstatic' command shows you which file will be found
+for a given name
+** upload permissions
+???
+
+"""
+By default, collected files receive permissions from
+FILE_UPLOAD_PERMISSIONS and collected directories receive permissions from
+FILE_UPLOAD_DIRECTORY_PERMISSIONS. If you would like different
+permissions for these files and/or directories, you can subclass either of the
+static files storage classes and specify the file_permissions_mode and/or
+directory_permissions_mode parameters, respectively. For example:
+"""
+* Managing static files (e.g. images, JavaScript, CSS)
+https://docs.djangoproject.com/en/3.1/howto/static-files/
+** configure <project name>.settings.INSTALLED_APPS
+*** INSTALLED_APPS should include django.contrib.staticfiles
+*** STATIC_URL should be set
+e.g. to '/static/'
+** the files seem to live at the URL static/<app name>/
+e.g. I can reach the image I stored in polls/static/polss/images from
+  http://127.0.0.1:8000/static/polls/images/Lake_mapourika_NZ.jpeg
+(and from no other URL I tried).
+** "Serving files uploaded by a user during development"
+"""
+During development, you can serve user-uploaded media files from
+MEDIA_ROOT using the django.views.static.serve() view.
+
+This is not suitable for production use! For some common deployment
+strategies, see Deploying static files.
+...
+"""
+* Deploying static files | Django documentation | Django
+https://docs.djangoproject.com/en/3.1/howto/static-files/deployment/
+** the basic recipe
+"""
+On the server, run collectstatic to copy all the static files into STATIC_ROOT.
+Configure your web server to serve the files in STATIC_ROOT under the URL
+ STATIC_URL. For example, here’s how to do this with Apache and mod_wsgi.
+"""
