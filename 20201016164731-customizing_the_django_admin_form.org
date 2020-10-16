@@ -1,0 +1,9 @@
+#+title: Customizing The Django Admin Form
+* refs
+** For most of my notes:
+in the repo
+  https://github.com/JeffreyBenjaminBrown/learning-aws.git
+see python-web-app/polls/admin.py
+* Weird: admin page is top, but each app can have an admin.py file
+I guess that's because you administer all apps from the same page.
+* unread: Customize the admin page look and feel w/ templates

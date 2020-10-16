@@ -1,0 +1,16 @@
+#+title: Static Files in Django, esp. for Stylesheets and Images
+* code to reference
+Appearances of the word "static" in polls/templates.
+The entire static/ subfolder of the polls app.
+* Static file discovery is weird.
+** Where it is governed
+"""
+Django’s STATICFILES_FINDERS setting contains a list of finders that know how
+to discover static files from various sources. One of the defaults is
+AppDirectoriesFinder which looks for a “static” subdirectory in each of the
+INSTALLED_APPS, like the one in polls we just created. The admin site uses the
+same directory structure for its static files.
+"""
+** The folder structure resembles that for templates
+e.g. create the file <app name>/static/<app name>/style.css,
+and then refer to it as <app name>/style.css.

@@ -1,10 +1,6 @@
 #+title: Django (Python web framework)
 * TODO
 ** Try [[file:20201014163254-wsgi.org][wsgi]] alone.
-** try serving fake-dynamic* images without Django
-Start the server, then copy a new picture into static/,
-then build a page that incorporates it.
-If that doesn't work I probably have to repopulate the static files index after each new file is created or added.
 ** In Docker image, [[id:dcc41642-ba24-45b8-bf55-daf08d7f701e][add language prefs]]
 ** before production run
 *** see these warnings from <app name>/settings.py
@@ -24,8 +20,6 @@ If that doesn't work I probably have to repopulate the static files index after 
 *** TODO "Sending emails"
 *** TODO "Integrating media"
 *** TODO ? "Caching"
-** my/ project
- ~/code/aws/python-web-app
 ** further reading
 *** Request and response objects \ Django documentation \ Django
    https://docs.djangoproject.com/en/3.0/ref/request-response/
@@ -33,10 +27,10 @@ If that doesn't work I probably have to repopulate the static files index after 
    https://docs.djangoproject.com/en/3.0/ref/models/expressions/#avoiding-race-conditions-using-f
 *** generic views in Django
 https://docs.djangoproject.com/en/3.0/topics/class-based-views/
+** my project
+ ~/code/aws/python-web-app
 * Tutorial: Writing your first Django app
 https://docs.djangoproject.com/en/3.0/intro/
-** TODO resume at
-part 7, top
 ** PITFALL: my filetree does't quite match the tutorial's
  (I *think* this is right.)
  They suggest a "mysite" folder,
@@ -397,66 +391,9 @@ esp. templates/polls/detail_2.html
   Always return an HttpResponseRedirect after successfully dealing
   with POST data. This prevents data from being posted twice if a
   user hits the Back button. (This advice is not Django-specific.)
-** part 5: testing
-see polls.tests
-*** automatically-run tests
-**** they use a fresh database
-Each time a test method (smaller than a test class) runs,
-it uses a fresh "test database" that starts empty.
-**** PITFALL: names matter
-   Test files and test methods must start with "test".
-   Not so, though, the classes which the tests are methods of.
-**** run the tests from the shell
- python manage.py test polls
-*** interactive tests
-These use the existing database.
-**** enter a testing environment
-***** enter the repl:
-  python manage.py shell
-***** do this in the repl
-  from django.test.utils import setup_test_environment
-  setup_test_environment()
-  from django.test import Client
-  client = Client()
-**** test some URLs
-# This should fail, because there's nothing at '/'
-response = client.get('/')
-response.status_code
-
-# This should succeed
-from django.urls import reverse
-response = client.get(reverse('polls:index'))
-response.status_code
-response.content
-response.context['latest_question_list']
-*** assertions: at least three kinds
-**** assertEqual
-**** assertContains
-For the content of a response.
-**** assertQuerysetEqual
-Can treat the set as ordered or not.
-TODO: Is this better than assertEqual?
-** part 6: using static files for stylesheets and images
-*** code to reference
-Appearances of the word "static" in polls/templates.
-The entire static/ subfolder of the polls app.
-*** Static file discovery is weird.
-**** Where it is governed
-"""
-Django’s STATICFILES_FINDERS setting contains a list of finders that know how
-to discover static files from various sources. One of the defaults is
-AppDirectoriesFinder which looks for a “static” subdirectory in each of the
-INSTALLED_APPS, like the one in polls we just created. The admin site uses the
-same directory structure for its static files.
-"""
-**** The folder structure resembles that for templates
- e.g. create the file <app name>/static/<app name>/style.css,
- and then refer to it as <app name>/style.css.
-** part 7: customize the admin form
-See admin.py for most of my notes.
-*** Weird: admin page is top, but each app can have an admin.py file
-I guess that's because you administer all apps from the same page.
-*** unread: Customize the admin page look and feel w/ templates
+** part 5: [[file:20201016160317-testing_in_django.org][Testing in Django]]
+** part 6: [[file:20201016165045-static_files_in_django_esp_for_stylesheets_and_images.org][Static Files in Django, esp. for Stylesheets and Images]]
+** part 7: [[file:20201016164731-customizing_the_django_admin_form.org][Customizing The Django Admin Form]]
 * The "topic guides"
 https://docs.djangoproject.com/en/3.0/topics/
 ** TODO Resume at
