@@ -60,7 +60,7 @@ Rebuild and switch.
 ** to chmod back to 644 (normal): omit folders
 Otherwise the folder contents cannot be read without sudo.
 sudo find . -type f -print0 | xargs -0 chmod 644
-sudo find . -type d -print0 | xargs -0 chmod 744
+sudo find . -type d -print0 | xargs -0 chmod 755
 
 find . -type d -print0 | xargs -0 chown 1001
 find . -type f -print0 | xargs -0 chown 1001

@@ -8,19 +8,13 @@
 https://modwsgi.readthedocs.io/en/develop/user-guides/quick-configuration-guide.html#delegation-to-daemon-process
 ** asking here
  https://forum.djangoproject.com/t/do-i-need-apache-if-so-im-lost-configuring-it/4791
-* TODO ? configure apache from /etc/apache2/mods-*/
+* TODO | PITFALL ? configure apache from /etc/apache2/mods-*/
   rather than its parent folder
-* TODO ? HACK: set all relevant permissions to 777
-This is overkill but it's the only thing I've gotten to work.
-** adduser www-data www-data
-This creates a user called "www-data",
-and adds them to a similarly named group.
-** chown -R www-data:www-data /var/www
-** chmod -R g+rw /var/www
-** cd <all my code & data> && chmod 777 -R .
-In my case this was my learning-git repo.
+* permissions are tricky
+The Docker image deals with them, as of version
+    ofiscal/tax.co:2020-10-16.apache-access
 * TODO ? configure WSGIDaemonProcess and WSGIProcessGroup
-** I got wsgi to serve files without setting them.
+** wsgi is working without them.
 ** But a pssage that says to do so.
 Here:
   https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
