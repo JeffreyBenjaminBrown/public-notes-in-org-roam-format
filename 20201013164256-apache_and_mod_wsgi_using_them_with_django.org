@@ -1,4 +1,4 @@
-#+title: Apache and mod_wsgi: Using Them with Django
+#+title: Apache & mod_wsgi for Django
 https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
 * PITFALL: sites can clobber each other
 """
@@ -29,9 +29,30 @@ for Django and other work, if I need Apache outside of the Django context too
 ** I can for some reason ignore the VirtualHost mentioned in that passage.
 according to
 https://forum.djangoproject.com/t/do-i-need-apache-if-so-im-lost-configuring-it/4791/2
-* TODO first [[file:20201014163254-wsgi.org][configure wsgi]]
-* TODO BLOCKED: asking
+* PITFALL: Don't use the toy Django server
+the one started with manage.py.
+Instead start Apache and let it call Django.
+* DONE first [[file:20201014163254-wsgi.org][configure wsgi]]
+* TODO Each time I start the docker contianer
+rm /etc/apache2/apache2.conf
+ln -s /mnt/apache/apache2.conf /etc/apache2/
+* TODO ? asking
 https://forum.djangoproject.com/t/do-i-need-apache-if-so-im-lost-configuring-it/4791
+* TODO ? confusing options
+The main "Apache & mod_wsgi for Django" page gives this sample code:
+** TODO WSGIScriptAlias / /path/to/mysite.com/mysite/wsgi.py
+*** TODO In the Dockerfile,
+change this from the wsgi test code to the Django code.
+*** I don't see what the first argument does.
+  It certainly doesn't change the URL I need to visit.
+** oWSGIPythonHome /path/to/venv
+  Only needed if using a virtual env (I'm not).
+** TODO WSGIPythonPath /path/to/mysite.com
+  This ensures I can import my code. I haven't set it yet.
+** TODO change the <Directory> directives
+  from the test-wsgi folders to the Django ones.
 * TODO configure Apache to serve some of the site
 See "Serving files" here:
   https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
+* TODO not finding polls
+

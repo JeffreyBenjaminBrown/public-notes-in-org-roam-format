@@ -1,6 +1,6 @@
 #+title: Django (Python web framework)
 * TODO
-** Try [[file:20201014163254-wsgi.org][wsgi]] alone.
+** DONE Get [[file:20201014163254-wsgi.org][wsgi]] working alone (without Django).
 ** In Docker image, [[id:dcc41642-ba24-45b8-bf55-daf08d7f701e][add language prefs]]
 ** before production run
 *** see these warnings from <app name>/settings.py

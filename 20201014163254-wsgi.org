@@ -1,13 +1,13 @@
 #+title: wsgi and mod_wsgi
-* some terms defined
-** wsgi is a Python web interface
-** mod_wsgi is an Apache module
- which can host any Python WSGI application, including Django.
 * refs
 ** Configuring wsgi
 https://modwsgi.readthedocs.io/en/develop/user-guides/quick-configuration-guide.html#delegation-to-daemon-process
 ** asking here
  https://forum.djangoproject.com/t/do-i-need-apache-if-so-im-lost-configuring-it/4791
+* some terms defined
+** wsgi is a Python web interface
+** mod_wsgi is an Apache module
+ which can host any Python WSGI application, including Django.
 * TODO | PITFALL ? configure apache from /etc/apache2/mods-*/
   rather than its parent folder
 * permissions are tricky
@@ -15,7 +15,7 @@ The Docker image deals with them, as of version
     ofiscal/tax.co:2020-10-16.apache-access
 * TODO ? configure WSGIDaemonProcess and WSGIProcessGroup
 ** wsgi is working without them.
-** But a pssage that says to do so.
+** But this pssagee says to do so.
 Here:
   https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
 
@@ -23,7 +23,8 @@ I am told to "add the following options":
   WSGIDaemonProcess example.com python-home=/path/to/venv python-path=/path/to/mysite.com
   WSGIProcessGroup example.com
 
-but not told *where* to add them.
+but not told *where* to add them. I imagine apache2.conf would work;
+something buried under mods-*/ might be more stylistically correct.
 ** TODO remaining quesitons
 *** Where to insert the passage's code?
  It looks like apache2.conf code, so that's where I'm trying it first.

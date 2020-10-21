@@ -4,12 +4,12 @@
 ** to start Apache
 *** run `service apache2 start`
  or, in a tax.co Docker container, from /etc/apache2, run
-  ./start-apache.sh
+   ./start-apache.sh
 **** Otherwise I get the error that `DefaultRuntimeDir` is not set.
- In the default apache2.conf file, there's this line:
-   DefaultRuntimeDir ${APACHE_RUN_DIR}
- but APACHE_RUN_DIR is not set,
- and it's nowhere in code for the official Apache docker `httpd` image.
+  In the default apache2.conf file, there's this line:
+    DefaultRuntimeDir ${APACHE_RUN_DIR}
+  but APACHE_RUN_DIR is not set,
+  and it's nowhere in code for the official Apache docker `httpd` image.
 ** to show version: `apache2 -v`
 * logs are at /var/log/apache2
 * Apache config
