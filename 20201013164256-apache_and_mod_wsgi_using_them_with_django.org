@@ -1,5 +1,14 @@
 #+title: Apache & mod_wsgi for Django
+* refs
+** the docs on this
 https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
+** my working code
+is in the tax.co docker container
+  (as of tag 2020-10-22.apache-conf-builtin)
+and maybe also in my learning-aws repo
+  (as of commit 5e7acafc661fb3396af47d97510b0690eb26465a).
+** DONE my questions to the Django forum
+https://forum.djangoproject.com/t/do-i-need-apache-if-so-im-lost-configuring-it/4791
 * PITFALL: sites can clobber each other
 """
 Warning
@@ -33,26 +42,31 @@ https://forum.djangoproject.com/t/do-i-need-apache-if-so-im-lost-configuring-it/
 the one started with manage.py.
 Instead start Apache and let it call Django.
 * DONE first [[file:20201014163254-wsgi.org][configure wsgi]]
-* TODO Each time I start the docker contianer
-rm /etc/apache2/apache2.conf
-ln -s /mnt/apache/apache2.conf /etc/apache2/
-* TODO ? asking
-https://forum.djangoproject.com/t/do-i-need-apache-if-so-im-lost-configuring-it/4791
-* TODO ? confusing options
-The main "Apache & mod_wsgi for Django" page gives this sample code:
-** TODO WSGIScriptAlias / /path/to/mysite.com/mysite/wsgi.py
-*** TODO In the Dockerfile,
-change this from the wsgi test code to the Django code.
-*** I don't see what the first argument does.
-  It certainly doesn't change the URL I need to visit.
-** oWSGIPythonHome /path/to/venv
-  Only needed if using a virtual env (I'm not).
-** TODO WSGIPythonPath /path/to/mysite.com
-  This ensures I can import my code. I haven't set it yet.
-** TODO change the <Directory> directives
-  from the test-wsgi folders to the Django ones.
-* TODO configure Apache to serve some of the site
-See "Serving files" here:
-  https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
-* TODO not finding polls
+* HANDY: to customize apache2.conf
+  rm /etc/apache2/apache2.conf
+  ln -s /mnt/apache/apache2.conf /etc/apache2/
+Then edit that file,
+which is now shared between host and container.
+* PITFALL: Apache does two jobs.
+It serves static pages *and* Django pages.
+** See this part of my apache2.conf:
+```
+WSGIPythonPath /mnt
+<Directory /mnt>
+  # Gives Apache access to `wsgi.py` and the rest of my code,
+  # for serving the Django pages.
+  # In particular, ensures that "import mysite" works.
+  Require all granted
+</Directory>
 
+# The wsgi script (above) should not be a filetree descendent of DocumentRoot (below),
+# because if it were, a visitor could download the code for the site.
+DocumentRoot /mnt/polls/static
+<Directory /mnt/polls/static>
+  # Gives Apache access to the `content` mentioned above,
+  # for serving static (non-Django) pages.
+  Require all granted
+</Directory>
+```
+** See "Serving files" here:
+  https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/

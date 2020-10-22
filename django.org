@@ -1,7 +1,7 @@
 #+title: Django (Python web framework)
 * TODO
 ** DONE Get [[file:20201014163254-wsgi.org][wsgi]] working alone (without Django).
-** In Docker image, [[id:dcc41642-ba24-45b8-bf55-daf08d7f701e][add language prefs]]
+** TODO ? In Docker image, maybe customize further [[id:dcc41642-ba24-45b8-bf55-daf08d7f701e][for Apache]] and [[file:20201014163254-wsgi.org][for Wsgi]]
 ** before production run
 *** see these warnings from <app name>/settings.py
 **** # SECURITY WARNING: keep the secret key used in production secret!
@@ -15,6 +15,7 @@
  https://docs.djangoproject.com/en/3.1/
 *** TODO [[file:20201013164256-apache_and_mod_wsgi_using_them_with_django.org][Apache and mod_wsgi: Using Them with Django]]
 *** TODO "File uploads"
+And see also [[id:0a8fff64-4147-4514-af3c-724f4e6c8250][how the staticfiles app handles uploads]].
 *** TODO "Sending emails"
 *** TODO "Integrating media"
 *** TODO ? "Caching"
@@ -68,10 +69,13 @@ about the Python path:
   django-admin startproject <desired name of new project>
 **** PITFALL: avoid certain module names
    e.g. "django" or "test"
-*** run the devel server
+*** run the (toy) devel server
 **** PITFALL: The devl server *usually* doesn't need restarting
    but certain changes, like adding a file,
    require a manual restart
+**** PITFALL: Don't do this in production.
+I've already got the Docker image and my code set up to use Apache instead.
+Under those conditions, I just start Apache, which will call Django for me.
 **** how to run it
 ***** From inside a Docker container, do this:
      python manage.py runserver 0.0.0.0:8000

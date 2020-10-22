@@ -27,20 +27,20 @@
 ** are mostly located at /etc/apache2
 at least in my docker container
 ** what I customized
-*** ports
-The default `ports.conf` listens to port 80 and not 8000.
-I'm adding a "Listen 8000" line to it.
-*** TODO configure Docker image further
-**** add Apache language prefs in Docker container
+Everything below "jbb" in apache2.conf
+** TODO ? PITFALL: might need more customization
      :PROPERTIES:
      :ID:       dcc41642-ba24-45b8-bf55-daf08d7f701e
      :END:
-
-   by appending this to /etc/apache2/envvars:
+*** add Apache language prefs in Docker container
+**** Some of the docs recommend including this
+in /etc/apache2/envvars:
 
      # jbb-added, to ensure Unicode compatibility, per docs here:
      #   https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/modwsgi/
      export LANG='en_US.UTF-8'
      export LC_ALL='en_US.UTF-8'
-**** create /usr/local/apache2
+**** But I already have something similar
+in the Docker container. It specifies "UTF-8" for both options;
+it just leaves out the "US" part.
 * [[file:20201013164256-apache_and_mod_wsgi_using_them_with_django.org][Apache and Mod_Wsgi: Using Them with Django]]
