@@ -1,6 +1,6 @@
 #+title: Django (Python web framework)
 * TODO
-** DONE Get [[file:20201014163254-wsgi.org][wsgi]] working alone (without Django).
+** TODO [[file:20201023135031-file_uploads_in_django.org][File Uploads In Django]]
 ** TODO ? In Docker image, maybe customize further [[id:dcc41642-ba24-45b8-bf55-daf08d7f701e][for Apache]] and [[file:20201014163254-wsgi.org][for Wsgi]]
 ** before production run
 *** see these warnings from <app name>/settings.py
@@ -14,8 +14,6 @@
 ** All Django documentation
  https://docs.djangoproject.com/en/3.1/
 *** TODO [[file:20201013164256-apache_and_mod_wsgi_using_them_with_django.org][Apache and mod_wsgi: Using Them with Django]]
-*** TODO "File uploads"
-And see also [[id:0a8fff64-4147-4514-af3c-724f4e6c8250][how the staticfiles app handles uploads]].
 *** TODO "Sending emails"
 *** TODO "Integrating media"
 *** TODO ? "Caching"
