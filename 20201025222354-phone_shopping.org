@@ -1,0 +1,37 @@
+#+title: phone (shopping)
+This is from 2020 Oct 25-ish. I chose the Samsung M31.
+* specs needed for Colombia
+If your unlocked cell phone has GSM 850 and 1900 bands it should work in Colombia. A CDMA phone will not work in Colombia. In the US, both Verizon and Sprint use CDMA.
+
+An unlocked GGSM quad band phone is a good choice for Colombia and other countries.
+* only Android One phones will keep getting OS updates
+but even then only for a couple years.
+* search terms
+https://celulares.mercadolibre.com.co/celular-128gb_PriceRange_200000-900000
+* models
+** probably good enough
+*** TODO Samsung M31
+*** Samsung A71
+*** Samsung A31
+** cheap, none obvious winners
+*** Samsung A30
+$750K
+128 GB
+Great display
+Plastic
+Two SIMS plus a MicroSD
+*** LG K61
+I like it. Military polycarbonate case. NFC. Missing nothing.
+Android 9.
+Someone said it was buggy, required restarts.
+*** LG Q60
+seems nice but Android 9
+*** Motorola is Chinese-owned
+**** Motorola One Fusion
+ Android 10 (no updates; not on Android One plan), 
+ no NFC, 
+**** Motorala One Action
+ Android 10 + updates
+ weak camera, delicate
+** seem bad
+*** Samsung A51: "no water resistance, processor drags" (says CNet)

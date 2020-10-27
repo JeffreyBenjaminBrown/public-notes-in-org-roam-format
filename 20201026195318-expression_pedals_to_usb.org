@@ -1,0 +1,22 @@
+#+title: Expression Pedals to USB
+* Haskell for midi
+** Alsa or JACK is probably the better ways to go
+*** how to get them
+I already have them, at ~/tempd
+They're all in Darcs but also downloadable from Hackage.
+*** how to learn them
+**** they both come with examples
+PITFALL: That's not evident from Hackage.
+**** Both might be better learned from their C implementations
+I tried looking through their Hackage docs and was quite confused.
+This might be the foundational C implementation for ALSA:
+  https://www.alsa-project.org/alsa-doc/alsa-lib/seq.html
+** Haskell's portMIDI looks simple to use but with a bad IO paradigm
+* "MIDI Expression Quattro": $125, converts 4 pedals to MIDI
+including 14-bit (4096 values) resolution pitchbend.
+https://www.kvraudio.com/product/midi-expression-quattro-by-audiofront
+* asking monome
+https://llllllll.co/t/expression-pedal-through-crow-to-computer/37323
+* 1/4" TRS output expression pedals are cheap
+https://www.amazon.com/On-Stage-KEP100-Keyboard-Expression-Pedal/dp/B073XCYGSY/ref=sr_1_3?dchild=1&keywords=expression+pedal&qid=1602932818&sr=8-3
+* How would TRS to USB work?

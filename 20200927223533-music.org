@@ -1,2 +1,9 @@
 #+title: music
 * [[file:et31.org][microtonality]]
+* [[file:../tech/20201025222249-22_edo_guitar_shopping.org][22-edo guitar (shopping)]]
+* TODO Apply rhythm to pitch set. Capture pitch set. Capture rhythm. Transpose part of pitch set.
+* TODO [[file:20201026195318-expression_pedals_to_usb.org][Expression Pedals to USB]]
+* TODO [[file:../tech/20201013204704-monome.org][monome]]
+* TODO an EQ for PulseAudio
+https://github.com/keur/prettyeq
+https://news.ycombinator.com/item?id=24586239
