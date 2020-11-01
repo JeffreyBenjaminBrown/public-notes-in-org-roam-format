@@ -1,0 +1,19 @@
+#+title: HTTP method
+* "get" methods encode the submission as plain text
+"""
+GET is suitable for things like a web search form, because
+the URLs that represent a GET request can easily be bookmarked, shared, or
+resubmitted.
+"""
+* PITFALL: "get" actions are insecure
+"""
+GET would also be unsuitable for a password form, because the password
+would appear in the URL, and thus, also in browser history and server logs, all
+in plain text. Neither would it be suitable for large quantities of data, or for
+binary data, such as an image. A Web application that uses GET requests for
+admin forms is a security risk: it can be easy for an attacker to mimic a form’s
+request to gain access to sensitive parts of the system. POST, coupled with
+other protections like Django’s CSRF protection offers more control over
+access.
+"""
+* If a submission modifies the data on the server side it should be post.

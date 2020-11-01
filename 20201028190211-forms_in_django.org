@@ -1,0 +1,82 @@
+#+title: forms in Django
+* ref
+** https://docs.djangoproject.com/en/3.1/topics/forms/
+** that page includes links to more detailed pages at the top
+* PITFALL: the word "form" is a minefield
+"""
+In the context of a Web application, ‘form’ might refer to that HTML <form>, or
+to the Django Form that produces it, or to the structured data returned when
+it is submitted, or to the end-to-end working collection of these parts.
+"""
+* HTML <form> tags
+** are for user input.
+** must specify
+*** where to send (a url)
+*** how to send (an [[file:20201028203232-http_method.org][Http Method]])
+Methods used by forms are always get or post.
+* the Django Form class
+** A form class’s fields map to HTML form <input> elements.
+Similar to how a model class’s fields map to database fields.
+** A Form's fields are themselves classes.
+"""
+they manage form data and perform
+validation when a form is submitted. A DateField and a FileField handle very
+different kinds of data and have to do different things with it.
+"""
+** Each Form field corresponds to an overrideable default HTML widget class
+example: The last field in this form is overridden.
+class CommentForm(forms.Form):
+    name = forms.CharField()
+    url = forms.URLField()
+    comment = forms.CharField(widget=forms.Textarea)
+* the Django Widget class
+** is Django’s representation of an HTML input element.
+** handles 2 things
+*** rendering the HTML
+*** extracting data from a GET/POST dictionary that corresponds to the widget.
+* some widgets
+** widgets inheriting from the Select widget
+*** some of them
+**** the Select widget itself uses a <select> HTML list
+**** RadioSelect uses radio buttons
+*** A ChoiceField's choices are defined in its `choices` field.
+>>> from django import forms
+>>> CHOICES = [('1', 'First'), ('2', 'Second')]
+>>> choice_field = forms.ChoiceField(
+        widget=forms.RadioSelect, choices=CHOICES)
+>>> choice_field.choices
+[('1', 'First'), ('2', 'Second')]
+>>> choice_field.widget.choices
+[('1', 'First'), ('2', 'Second')]
+>>> choice_field.widget.choices = []
+>>> choice_field.choices = [('1', 'First and only')]
+>>> choice_field.widget.choices
+[('1', 'First and only')]
+* PITFALL: Widgets are confusible with Form fields
+** quoting https://docs.djangoproject.com/en/3.1/topics/forms/
+"""
+Widgets should not be confused with the form fields. Form fields deal with the
+logic of input validation and are used directly in templates. Widgets deal with
+rendering of HTML form input elements on the web page and extraction of raw
+submitted data. However, widgets do need to be assigned to form fields.
+"""
+* Models are usually drawn from the db (to the template). Not so forms.
+"""
+when we handle a model instance in a view, we typically retrieve it from the
+database. When we’re dealing with a form we typically instantiate it in the
+view.
+"""
+* the Django ModelForm class
+maps a model class’s fields to HTML form <input> elements via a Form class.
+* TODO ? ModelForm reduces boilerplate
+https://docs.djangoproject.com/en/3.1/topics/forms/modelforms/
+** Builds a Form from a Model.
+** Can be thought of as inheriting from Model.
+In fact they both inherit from a hidden base type.
+* PITFALL: Some field types need special treatment.
+"""
+Some field types need some extra handling. For example, files that are
+uploaded using a form need to be handled differently (they can be retrieved
+from request.FILES, rather than request.POST). For details of how to handle file
+uploads with your form, see Binding uploaded files to a form.
+"""

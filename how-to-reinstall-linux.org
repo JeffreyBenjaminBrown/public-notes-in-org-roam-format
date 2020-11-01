@@ -4,6 +4,9 @@
 These notes were taken 2019-07-01. They could go stale.
 The basic ideas are probably stable for a long time,
 but specific commands might not be.
+* TODO where are my dot files?
+* TODO add org-roam to config
+emacs26Packages.org-roam
 * burn a distro onto USB
 https://www.linux.com/tutorials/how-burn-iso-usb-drive/
 ** use “fdisk -l”  to find the USB device
@@ -16,48 +19,9 @@ For instance, I most recently ran this (from ~/Downloads):
 sudo dd bs=4M                                                  \
   if=nixos-graphical-19.03.173549.ebdc4419310-x86_64-linux.iso \
   of=/dev/sdb
-* apt upgrade
-sudo apt update && sudo apt upgrade -y
-* Settings
-** search for "virtual (desktops)"
-*** choose 16 desktops in 4 rows
-*** in the "switchiing" panel, set shortcuts
-** search for "(desktop) grid", set shortcuts
-** Search for "zoom", set shortcuts
-** turn off the hot "corner"
-** under Input Devices, swap Caps and Esc
-* Emacs
-** sudo add-apt-repository ppa:ubuntu-elisp/ppa
-** sudo apt-get update
-** sudo apt-get install emacs-snapshot
-** maybe the customizations work already
-See "emacs customizations" below.
-If they can't be installed yet, then until customized,
-run "M-x load-theme m-dark"
-for readability.
-** install packages
-*** `M-x package-install` these packages
-haskell-mode
-elpy
-exec-path-from-shell
-* restore
-** Borg
-apt install borgbackup
+* restore data
 borg list /path/to/repo             # lists snapshots
 borg extract/path/to/repo::snapshot
-** Encfs
-*** sudo apt install encfs
-*** "install" Mortiz Encfs Manager
-Just copy the binary and make it executable
-(chmod +x filename).
-https://moritzmolch.com/apps/mencfsm/index.html
-* Brave > Chrome
-sudo apt install -y curl
-curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
-source /etc/os-release
-echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ $UBUNTU_CODENAME main" | sudo tee /etc/apt/sources.list.d/brave-browser-release-${UBUNTU_CODENAME}.list
-sudo apt update
-sudo apt install -y brave-keyring brave-browser
 * for coding
 ** Docker
 *** install, ala https://docs.docker.com/install/linux/docker-ce/ubuntu/
@@ -91,43 +55,86 @@ git config --global credential.helper cache
 It griped that "/home/jeff/.local/bin" is not in my PATH.
 .profile says it is, when it exists (it doesn't yet).
 But maybe .bashrc is what matters.
-* sound | music
-** KXStudio
-*** install kxstudio
-sudo apt-get install -y apt-transport-https software-properties-common wget
-wget https://launchpad.net/~kxstudio-debian/+archive/kxstudio/+files/kxstudio-repos_9.5.1~kxstudio3_all.deb
-sudo dpkg -i kxstudio-repos_9.5.1~kxstudio3_all.deb
-*** enable GCC5 packages
-sudo apt-get install -y libglibmm-2.4-1v5
-wget https://launchpad.net/~kxstudio-debian/+archive/kxstudio/+files/kxstudio-repos-gcc5_9.5.1~kxstudio3_all.deb
-sudo dpkg -i kxstudio-repos-gcc5_9.5.1~kxstudio3_all.deb
-*** sudo apt install -y kxstudio-default-settings
-*** then install the meta packages
-PITFALL: Play guitar or something while watching the screen,
-because Microsoft will pause the process at some point to ask for consent.
-sudo apt install -y \
-  kxstudio-meta-audio \
-  kxstudio-meta-graphics \
-  kxstudio-meta-video \
-  kxstudio-meta-restricted-extras \
-  kxstudio-meta-wine
-*** PITFALL: sudo apt install -y pulseaudio-module-jack
-That's not part of the KX instructions, but I needed to.
-Found it here:
-https://www.linuxmusicians.com/viewtopic.php?t=11535
-** configure, test sound
-*** apt upgrade again
-sudo apt update && sudo apt upgrade -y
-*** in Cadence
-configure sound card
-tell it to start Jack and itself on startup
-*** reboot
-*** play something
-e.g. visit Youtube
-** Pianoteq
-copy the .so file to /usr/lib/vst
-copy the sedded lv2 folder to /usr/lib/lv2
-** SuperCollider
-** Bitwig
-** SKIPPING -- Native Instruments
-see "installs/native instruments komplete/README_jbb.org"
+* The rest of these might be irrelevant under NixOS
+** restore data
+*** Borg
+ apt install borgbackup
+ borg list /path/to/repo             # lists snapshots
+ borg extract/path/to/repo::snapshot
+*** Encfs
+**** sudo apt install encfs
+**** "install" Mortiz Encfs Manager
+ Just copy the binary and make it executable
+ (chmod +x filename).
+ https://moritzmolch.com/apps/mencfsm/index.html
+** apt upgrade
+ sudo apt update && sudo apt upgrade -y
+** Settings
+*** search for "virtual (desktops)"
+**** choose 16 desktops in 4 rows
+**** in the "switchiing" panel, set shortcuts
+*** search for "(desktop) grid", set shortcuts
+*** Search for "zoom", set shortcuts
+*** turn off the hot "corner"
+*** under Input Devices, swap Caps and Esc
+** Emacs
+*** sudo add-apt-repository ppa:ubuntu-elisp/ppa
+*** sudo apt-get update
+*** sudo apt-get install emacs-snapshot
+*** maybe the customizations work already
+ See "emacs customizations" below.
+ If they can't be installed yet, then until customized,
+ run "M-x load-theme m-dark"
+ for readability.
+*** install packages
+**** `M-x package-install` these packages
+ haskell-mode
+ elpy
+ exec-path-from-shell
+** Brave > Chrome
+ sudo apt install -y curl
+ curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+ source /etc/os-release
+ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ $UBUNTU_CODENAME main" | sudo tee /etc/apt/sources.list.d/brave-browser-release-${UBUNTU_CODENAME}.list
+ sudo apt update
+ sudo apt install -y brave-keyring brave-browser
+** sound | music
+*** KXStudio
+**** install kxstudio
+ sudo apt-get install -y apt-transport-https software-properties-common wget
+ wget https://launchpad.net/~kxstudio-debian/+archive/kxstudio/+files/kxstudio-repos_9.5.1~kxstudio3_all.deb
+ sudo dpkg -i kxstudio-repos_9.5.1~kxstudio3_all.deb
+**** enable GCC5 packages
+ sudo apt-get install -y libglibmm-2.4-1v5
+ wget https://launchpad.net/~kxstudio-debian/+archive/kxstudio/+files/kxstudio-repos-gcc5_9.5.1~kxstudio3_all.deb
+ sudo dpkg -i kxstudio-repos-gcc5_9.5.1~kxstudio3_all.deb
+**** sudo apt install -y kxstudio-default-settings
+**** then install the meta packages
+ PITFALL: Play guitar or something while watching the screen,
+ because Microsoft will pause the process at some point to ask for consent.
+ sudo apt install -y \
+   kxstudio-meta-audio \
+   kxstudio-meta-graphics \
+   kxstudio-meta-video \
+   kxstudio-meta-restricted-extras \
+   kxstudio-meta-wine
+**** PITFALL: sudo apt install -y pulseaudio-module-jack
+ That's not part of the KX instructions, but I needed to.
+ Found it here:
+ https://www.linuxmusicians.com/viewtopic.php?t=11535
+*** configure, test sound
+**** apt upgrade again
+ sudo apt update && sudo apt upgrade -y
+**** in Cadence
+ configure sound card
+ tell it to start Jack and itself on startup
+**** reboot
+**** play something
+ e.g. visit Youtube
+*** Pianoteq
+ copy the .so file to /usr/lib/vst
+ copy the sedded lv2 folder to /usr/lib/lv2
+*** SuperCollider
+*** Bitwig
+*** SKIPPING -- Native Instruments
+ see "installs/native instruments komplete/README_jbb.org"

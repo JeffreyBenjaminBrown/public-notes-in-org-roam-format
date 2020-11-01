@@ -1,22 +1,24 @@
 #+title: 22-edo guitar (shopping)
-* who can do it
-** Skervesen: can, but skeptical
-https://mail.google.com/mail/u/0/#inbox/FMfcgxwKjBPvFVnQMCRPbttssqgZXWxH
-can do "the lefty issue"; did not mention 22-edo
-** Overload guitars (see Facebook Messenger)
-Can do everything -- even 22-edo.
-At least 2K Euro.
+* builders
+pullsed from exactly the first page of Google search results
+** can do it backward
+*** Skervesen: can, but skeptical
+ https://mail.google.com/mail/u/0/#inbox/FMfcgxwKjBPvFVnQMCRPbttssqgZXWxH
+ can do "the lefty issue"; did not mention 22-edo
+*** Overload guitars (see Facebook Messenger)
+ Can do everything -- even 22-edo.
+ At least 2K Euro.
 
-What would the price be for all that -- reversed fan, 22-edo, 25"-29" -- for a 7-string Raijin? 8-string Raijin? 7-string headless? 8-string headless?
-* Who I asked
-(These happen to be exactly the first page of Google search results.)
-Kiesel
-Ormsby
-Overload
-Balaguer
-Lichty
-VanderMeij
-** Mayones: can't
+ What would the price be for all that -- reversed fan, 22-edo, 25"-29" -- for a 7-string Raijin? 8-string Raijin? 7-string headless? 8-string headless?
+** incomplete response
+*** Kiesel
+Can they backward? 22? Didn't say.
+*** Mayones: can't, but didn't say which aspect (22 or backward)
+*** Balaguer: can't, but didn't say which aspect (22 or backward)
+*** Ormsby: won't reverse, but maybe 22 (still awaiting response)
+** asked, no answer yet
+*** Lichty
+*** VanderMeij
 * HANDY: What I'm asking
 Multiscale guitar with long side of neck farther from face
 ----

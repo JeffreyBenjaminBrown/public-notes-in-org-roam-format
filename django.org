@@ -1,5 +1,9 @@
 #+title: Django (Python web framework)
 * TODO
+** TODO if I can't handle the section on forms yet
+Read things that come earlier in the master documentation list --
+esp. templates, views.
+** TODO [[file:20201028190211-forms_in_django.org][forms in Django]]
 ** TODO [[file:20201023135031-file_uploads_in_django.org][File Uploads In Django]]
 ** TODO ? In Docker image, maybe customize further [[id:dcc41642-ba24-45b8-bf55-daf08d7f701e][for Apache]] and [[file:20201014163254-wsgi.org][for Wsgi]]
 ** before production run
