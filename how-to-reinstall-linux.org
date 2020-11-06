@@ -1,10 +1,20 @@
 #+TITLE: linux, how to reinstall
 #+ROAM_ALIAS: "install linux"
+* TODO PITFALL: Don't keep more than one USB drive plugged in at once
+when doing big write ops.
+November 2020 I did that, tried to write NixOS 20.09 onto one of them,
+and ended up overwriting the other two.
+* TODO PITFALL: Don't inspect a drive being written to.
+November 2020 I did that: while writing NixOS 20.09 onto a USB drive,
+I tried running ls or du or something on it.
+`dd` got confused and ended up overwriting two other USB drives instead.
 * TODO PITFALL: Treat shell commands sketpically
 These notes were taken 2019-07-01. They could go stale.
 The basic ideas are probably stable for a long time,
 but specific commands might not be.
 * TODO where are my dot files?
+Whatever, they'll be in the backup.
+* TODO backup the HD
 * TODO add org-roam to config
 emacs26Packages.org-roam
 * burn a distro onto USB
@@ -12,7 +22,7 @@ https://www.linux.com/tutorials/how-burn-iso-usb-drive/
 ** use “fdisk -l”  to find the USB device
 It will be /dev/something
 ** Make sure the USB device is unmounted
-e.g. umount /dev/sdb1
+   e.g. umount /dev/sdb1
 ** copy
 dd bs=4M if=<input file> of=<output file>
 For instance, I most recently ran this (from ~/Downloads):

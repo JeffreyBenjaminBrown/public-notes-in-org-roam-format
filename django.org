@@ -414,10 +414,10 @@ The section called "Relationships"
 *** models must be defined at app/models.py
 *** models must be registered at site/settings.py
  by changing the INSTALLED_APPS variable
-
 *** each time a new model is added
  When you add new apps to INSTALLED_APPS,
- be sure to run manage.py migrate,
+ be sure to run
+   manage.py migrate,
  optionally making migrations for them first with manage.py makemigrations.
 ** PITFALLS
 *** changing the PK creates a new object
