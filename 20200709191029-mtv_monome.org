@@ -1,4 +1,9 @@
 #+title: mtv-monome
+* TODO just one kind of capture
+Press record. Play stuff. Press stop.
+That gets stored to "latest loop".
+Then I can enter functions to do stuff with it --
+e.g. collect all pitches, map that to a key, etc.
 * TODO BEWARE: Am I incurring tehnical debt?
 Ponder continuously: Are there any refactorings I intend to make eventually,
 which would be easier earlier?

@@ -1,0 +1,45 @@
+#+title: NixOS, installing
+* CONTEXT
+This regards installing from scratch, not upgrading.
+Learned during the install process for NixOS 20.09.
+Before I had it working I asked some questions here:
+  https://discourse.nixos.org/t/nixos-20-09-fresh-vanilla-install-this-gpt-partition-label-contains-no-bios-boot-partition/9903/6
+* gotchas
+** prepare data on old system
+*** some dot files will not be part of my backup
+    For instance, my ~/.stack/config.yaml file, because .stack/ is excluded from my backups.
+[[id:ff81a54a-4488-4ce2-b5b2-e372482e6631][PITFALL: my config outside of .nix files]]
+*** export Brave passwords
+ I won't be able to reover them from my old data without doing this.
+ Remember also to delete the file after.
+** eventually, don't use `hardware.pulseaudio.enable = true;`
+It's good for a simple sound setup,
+but the complex options I use for live-coding are not compatible with it.
+** use GRUB and grub.device="/dev/sda"
+UEFI is preferred but my 2017 Dell didn't like it (November 2020).
+Maybe I overwrote UEFI with GRUB earlier.
+** after installing and rebooting, sign in as root
+That's the password I set during installation.
+Once in, run `passwd jeff`.
+After that, I can login as a normal user.
+** do NOT replace home with what I saved
+That will delete, among maybe other hidden files,
+the .lcoal folder, which breaks the system.
+** download Docker images early
+because it takes a long time
+** Brave bookmarks can be transferred ex-post
+e.g. from this file:
+  ~/.config/BraveSoftware/Brave-Browser/Default/Bookmarks
+PITFALL: After that, bookmarks still won't be visible,
+   until I ask for them to be.
+* handy commands, roughly ordered
+** wifi password
+** nix-env -i emacs
+** git config
+git config --global user.email "jeffbrown.the@gmail.com"
+git config --global user.name "JeffreyBenjaminBrown"
+** cp config
+sudo cp ~/install/configs/configuration.7.weird-details /etc/nixos/configuration.nix
+sudo cp ~/install/configs/packages.9.audio.transfer-complete /etc/nixos/packages.nix
+sudo cp ~/install/configs/emacs.nix /etc/nixos/
+** sudo nixos-rebuild switch

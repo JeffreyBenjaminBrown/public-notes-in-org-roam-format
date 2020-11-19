@@ -1,12 +1,31 @@
 #+title: Django (Python web framework)
 * TODO
-** TODO if I can't handle the section on forms yet
-Read things that come earlier in the master documentation list --
-esp. templates, views.
-** TODO [[file:20201028190211-forms_in_django.org][forms in Django]]
-** TODO [[file:20201023135031-file_uploads_in_django.org][File Uploads In Django]]
-** TODO ? In Docker image, maybe customize further [[id:dcc41642-ba24-45b8-bf55-daf08d7f701e][for Apache]] and [[file:20201014163254-wsgi.org][for Wsgi]]
-** before production run
+  :PROPERTIES:
+  :ID:       3979ab42-2ac6-4c40-800b-ee5189aae26b
+  :END:
+** find, display pictures
+*** Substitute folder path into image name.
+See, e.g., how "name_augmented" is passed from polls.views to the silly-form templates.   
+*** how I embedded pictures into a Django page
+**** first set up the environment
+***** The image file is at /mnt/tax/to-serve/test.png.
+***** I added modified apache2.conf:
+ ```
+ DocumentRoot /mnt/tax/to-serve
+ <Directory /mnt/tax/to-serve>
+   Require all granted
+ </Directory>
+ ```
+***** After that I could visit it at http://localhost:8000/test.png
+***** Surprisingly, I did NOT have to modify my django settings.py
+      I thought I'd need to, e.g., define`STATICFILES_DIRS`.
+**** then, .html files should then refer to the image just like a post-domain URL
+     e.g. for this example, I could visit the file at localhost/test.png,
+     so I should refer to the file as simply "/test.png".
+     PITFALL: The leading slash is important.
+** TODO downloads from Django
+** TODO [[file:20201023135031-file_uploads_in_django.org][File Uploadhes In Django]]
+** TODO before production run
 *** see these warnings from <app name>/settings.py
 **** # SECURITY WARNING: keep the secret key used in production secret!
   SECRET_KEY = ...
@@ -14,6 +33,13 @@ esp. templates, views.
 **** # SECURITY WARNING: don't run with debug turned on in production!
   DEBUG = True
 *** add the domain name to ALLOWED_HOSTS in settings.py
+*** configure to email errors to me, rather than show them to user
+** TODO deploy to a server
+** if I can't handle the section on forms yet
+Read things that come earlier in the master documentation list --
+esp. templates, views.
+** [[file:20201028190211-forms_in_django.org][forms in Django]]
+** ? In Docker image, maybe customize further [[id:dcc41642-ba24-45b8-bf55-daf08d7f701e][for Apache]] and [[file:20201014163254-wsgi.org][for Wsgi]]
 * refs
 ** All Django documentation
  https://docs.djangoproject.com/en/3.1/
@@ -30,6 +56,11 @@ esp. templates, views.
 https://docs.djangoproject.com/en/3.0/topics/class-based-views/
 ** my project
  ~/code/aws/python-web-app
+* models
+** get a list of all models
+from django.db import connection
+tables = connection.introspection.table_names()
+seen_models = connection.introspection.installed_models(tables)
 * Tutorial: Writing your first Django app
 https://docs.djangoproject.com/en/3.0/intro/
 ** PITFALL: my filetree does't quite match the tutorial's
@@ -165,7 +196,6 @@ see [[file:20200928141458-django_database_migrations.org][Django Database Migrat
 *** the "Django shell"
 with
   python manage.py shell
-It's a normal Python REPL, except
 **** *LIES*: according to part 2 of the tutorial it's nearly an ordinary python REPL
  https://docs.djangoproject.com/en/3.0/intro/
 "manage.py sets the DJANGO_SETTINGS_MODULE environment variable,
@@ -184,12 +214,12 @@ including in longer field names, was automatically generated
 based on our class names Question and Choice.
 **** Question.objects.all()
 **** instantiate a Question
-that is, make a member of the already-defined Question class
+ that is, make a member of the already-defined Question class
 
- from django.utils import timezone
- q = Question( question_text="What's new?",
-               pub_date=timezone.now() )
- q.save() # write `q` to the database
+from django.utils import timezone
+q = Question( question_text="What's new?",
+              pub_date=timezone.now() )
+q.save() # write `q` to the database
 **** modify a question
 In [4]: Question.objects.all()[0]
 Out[4]: <Question: What's up?>
@@ -403,7 +433,7 @@ https://docs.djangoproject.com/en/3.0/topics/
 ** TODO Resume at
 The page called "Models":
   https://docs.djangoproject.com/en/3.0/topics/db/models/
-The section called "Relationships"
+  The section called "Relationships"
 ** inter-file connections
 *** SUPPOSE throughout these notes that at the root of the project
  there's manage.py,

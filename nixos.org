@@ -1,5 +1,7 @@
 #+TITLE: NixOS
+* [[file:20200707160119-emacs_nix_is_broken.org][NixOS, my config]]
 * [[file:20200707160119-nixos_my_config.org][NixOS, my config]]
+* [[file:20201110140636-nixos_reinstalling.org][NixOS, installing]]
 * instead of .bashrc or .profile
 use environment.variables to define variables
 * NixOS overlays
