@@ -17,13 +17,14 @@ See, e.g., how "name_augmented" is passed from polls.views to the silly-form tem
  </Directory>
  ```
 ***** After that I could visit it at http://localhost:8000/test.png
-***** Surprisingly, I did NOT have to modify my django settings.py
+***** Surprisingly, I did not have to modify my django settings.py
       I thought I'd need to, e.g., define`STATICFILES_DIRS`.
 **** then, .html files should then refer to the image just like a post-domain URL
      e.g. for this example, I could visit the file at localhost/test.png,
      so I should refer to the file as simply "/test.png".
      PITFALL: The leading slash is important.
 ** TODO downloads from Django
+   See the "download" function in run_make/views.py
 ** TODO [[file:20201023135031-file_uploads_in_django.org][File Uploadhes In Django]]
 ** TODO before production run
 *** see these warnings from <app name>/settings.py

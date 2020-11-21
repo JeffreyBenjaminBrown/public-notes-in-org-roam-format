@@ -1,4 +1,9 @@
 #+title: NixOS, my config
+* TODO ? m31 will not connect
+  I tried adding "samsung-unified-linux-driver" to packages.nix; it would not build. Also it might not be relevant; the description says it's for printers, and does not mention phones.
+  This page
+    https://forum.kde.org/viewtopic.php?f=224&t=143115
+  suggests modifying the "69-libmtp.rules" file. I have five such files. The first I checked already had the change the page describes.
 * TODO ? I lost my .stack/config.yaml file
   I had configured it for something ... maybe this, which also appears in my local stack.yaml files?
 ```

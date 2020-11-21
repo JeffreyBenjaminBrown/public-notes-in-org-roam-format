@@ -4,6 +4,9 @@ Press record. Play stuff. Press stop.
 That gets stored to "latest loop".
 Then I can enter functions to do stuff with it --
 e.g. collect all pitches, map that to a key, etc.
+* TODO It's really fun when the synth controls are useful.
+  They don't have to cover the whole space, just a "useful" chunk --
+  one that's diverse and consistently good.
 * TODO BEWARE: Am I incurring tehnical debt?
 Ponder continuously: Are there any refactorings I intend to make eventually,
 which would be easier earlier?
