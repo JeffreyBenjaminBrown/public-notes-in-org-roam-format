@@ -7,6 +7,31 @@ e.g. collect all pitches, map that to a key, etc.
 * TODO It's really fun when the synth controls are useful.
   They don't have to cover the whole space, just a "useful" chunk --
   one that's diverse and consistently good.
+** monkey wrench: slow also sounds great!
+  at least for FM and PM so far
+** growl? <= filter freq modulation at a nearly-audio frequency (e.g. 10Hz)
+** guesses
+*** fm-m: 1/4 to 8, logarithmic
+*** fm-f:
+    factors of 2: from 1/32 to 8
+    num and denom: both from 1 to 8 is enough
+      but scale the result to be in [1,2)
+    tiny scale: from *1 to *1.05 or *1.1, but (very?) logarithmic
+      1.001 sounds pleasantly distinct from 1;
+      1.0001 is indistinguishable;
+      1.1 is totally messed up
+*** pm-m: 1/16 to 4, logarithmic
+    although beyond 4 -- up to 64 -- sounds cool too.
+*** pm-f: screw it, same range as fm-f probably works
+*** wm-f: reliably good for sub-audio values
+    but see BUG below
+*** wm-m: reliably good for small values
+    but see BUG below
+* TODO ? BUG ? wm (and maybe others) create special notes
+  where there is almost no adudible modulation happening.
+  Adjacent pitches sound very chaotic by comparison.
+  It doesn't depend on wm-m, just wm-f.
+  I suspect it happens when the frequency of modulation is near the frequency of the pitch itself.
 * TODO BEWARE: Am I incurring tehnical debt?
 Ponder continuously: Are there any refactorings I intend to make eventually,
 which would be easier earlier?
