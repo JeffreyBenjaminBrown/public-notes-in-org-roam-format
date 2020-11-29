@@ -1,5 +1,8 @@
 #+title: mtv-lang
 * TODO big ideas
+** TODO Need data. Try making sequences.
+   I won't know which of these problems matters, or which matters more,
+   until I've frustrated over sequences for a while.
 ** background states for voices
 *** motivation: can't adjust a parameter that's not in a Museq
 *** motivation: restore a Zot to reasonable parameter values
@@ -46,6 +49,12 @@ for, say, the next cycle equal to 0 modulo 16
 ** delete duplicate drums
    That is, if two instances of the same sample are scheduled simultaneously, delete one of them. (Or maybe do something else -- maybe de-pitch one of them slightly? But playing the sample twice as loud is jarring.)
 ** amplitude group for all drums, all pitched tracks
+** speed
+*** see [[file:20201128220609-how_to_profile_in_haskell.org][how to profile in Haskell]]
+*** which functions were slow when I profiled
+    (certainly before GHC 8.10, and I think before I had 8.8)
+    merge, meta, and subfunctions
+    see prof/ for details
 * TODO BUG: initial splash
 ** too many events sound simultaneously when it first starts
 * TODO misc
@@ -167,12 +176,6 @@ the result of stacking two things can be a lot smaller if they are not looped al
  but then rewrite the result more concisely if possible.
 *** might be a problem with merge
 although I've only actually noticed it in stack
-* speed
-** see [[file:20201128220609-how_to_profile_in_haskell.org][how to profile in Haskell]]
-** which functions were slow when I profiled
-   (certainly before GHC 8.10, and I think before I had 8.8)
-   merge, meta, and subfunctions
-   see prof/ for details
 * the best licks
 2/3
 3
