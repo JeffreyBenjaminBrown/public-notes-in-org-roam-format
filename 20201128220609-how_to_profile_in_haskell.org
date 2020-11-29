@@ -1,0 +1,14 @@
+#+title: how to profile in Haskell
+* run these to build the .prof file
+  stack run --profile -- montevideo-exe --ghci-options="-O"
+  stack exec -- montevideo-exe +RTS -p
+* then run something like this to make it readable
+  This assumes that I've moved the last two columns (inherited percentages) to be first.
+
+  egrep -v "^ *[0-9]\." montevideo-exe.prof > double-digits.prof
+  egrep -v "^ *[0-2]\." montevideo-exe.prof > more-than-2-percent.prof
+* more supposedly-good options
+  (according to http://www.fatvat.co.uk/2010/08/speeding-up-ants-program.html)
+  -prof - Enables profiling
+  -caf-all - Constant Applicative form for all top-level items (constant costs, one for each module.)
+  -auto-all - Cost-centre analysis for every top-level function

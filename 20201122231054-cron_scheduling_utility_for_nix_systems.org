@@ -25,3 +25,6 @@
     /etc/cron.d/<any file>
   appears to be the preferred way.
   I can ignore /etc/crontab. (Maybe editing it would be effective, but it seems unidiomatic.)
+* PITFALL: req's for files in cron.d
+  "must be owned by root, and must conform to run-parts’ naming conventions (no dots, only letters, digits, underscores, and hyphens)."
+  https://unix.stackexchange.com/a/417327

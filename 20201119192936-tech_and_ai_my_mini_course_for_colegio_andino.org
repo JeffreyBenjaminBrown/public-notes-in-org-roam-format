@@ -1,0 +1,185 @@
+#+title: tech and AI (my mini-course for Colegio Andino)
+tech = technology
+* day 1
+** profits
+*** profit = revenue - costs
+*** top companies by proit
+    https://asian-links.com/gdp/most-profitable-companies
+*** Uber's profit/loss history
+    https://1z1euk35x7oy36s8we4dr6lo-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/Uber-revenue-profit.png
+** the growth-first strategy.
+*** Pets.com
+     http://www.uky.edu/~dsianita/695ec/failure.html
+     "During its lifetime Pets.com spent more than $70 million on marketing and an average of $400 to acquire each new customer (Bucholtz, 2000)."
+*** medley of Pets.com commercials
+    https://www.youtube.com/watch?v=sICSyC9u5iI
+*** So, was Pets.com they stupid?
+*** Amazon.com
+**** Profits stayed pretty flat two decades.
+     https://www.statista.com/chart/14887/amazon-quarterly-profit/
+**** but revenue, hence scale, have grown exponentially the whole time.
+     https://www.statista.com/statistics/266282/annual-net-revenue-of-amazoncom/#:~:text=The%20time%20series%20shows%20the,billion%20US%20dollars%20in%202017.
+**** They got big first, made money later.
+*** "Growth first" is going out of style.
+    https://www.theguardian.com/media-network/media-network-blog/2013/aug/06/growth-profits-social-media-platforms
+** barrier to entry
+   => Nobody can compete.
+*** material monopoly
+    Being the only one with access to raw materials -- e.g. diamonds.
+*** information monopoly: methods for products (or services) that nobody else has.
+    chemical formulas (Pfizer)
+    data (Google)
+    software (can be a weak barrier)
+*** laws and regulations.
+**** Licenses
+***** Doctors
+      Helps doctors & consumers.
+***** Hair dressers?
+      Helps already-licensed hair dressers.
+      Hurts people who want to be hair dressers.
+      Hurts some consumers, who would face lower prices if there were more hair dressers.
+**** Section 230 of the 1996 US Communications Decency Act
+     Platforms mostly cannot be held accountable (i.e. get in trouble) for their users' posts.
+***** Freedom of speech does not apply.
+      You have the right to speak, but not to speak on my website.
+***** Craigslist shut down its personal ads.
+      The " Allow States and Victims to Fight Online Sex Trafficking Act" (FOSTA)
+      states that websites can now be punished for "facilitating" prostitution and sex trafficking.
+      https://www.bbc.com/news/technology-43514645
+***** Size & cost of filtering bad posts.
+      Facebook, Youtube	: can afford it.
+	(They use machines and humans to do that.)
+      Startups		: can't.
+****** startup = a small new company
+*** scale (size) & network effects
+**** network effects
+     more people use it => it becomes more useful => more people use it => ...
+***** amazon, uber, facebook, ebay, instagram
+***** Why Google offers so many free services.
+      Information => better ads.
+***** Why Facebook bought Instagram and Whatsapp.
+      Monopoly: Facebook can charge advertisers more if nobody else is like Facebook.
+**** Google, Amazon, Facebook, Walmart : scale (size) protects them.
+     Amazon ~ Mercado Libre.
+     Walmart ~ Exito.
+**** Uber (Didi, InDriver)             : not very protected by scale..
+**** Facebook moderators and PTSD (post traumatic stress disorder)
+     The term "PTSD" was first used in the vietnam war.
+     Moderator = someone who vets posts, takes some of them down.
+     52 million USD, 11,250 moderators
+     https://www.theverge.com/2020/5/12/21255870/facebook-content-moderator-settlement-scola-ptsd-mental-health
+** tech is weird
+*** AI does not exist.
+    https://lacker.io/ai/2020/07/06/giving-gpt-3-a-turing-test.html
+**** machines are better at
+     Arithmetic, memory, simple games.
+       Chess. Memory. Poker (but only very recently).
+     Anything you can program a perfect solution to.
+**** humans are better at
+     Recognizing pictures.
+     Talking.
+     Science.
+     Cooking.
+     Sports.
+     Picking strawberries.
+     Navigation (e.g. driving).
+*** open-source software ("even freer" than free software)
+    Free: you can use it, "have" it, but you don't get to see how it works.
+    Open-source: you can see the source code, see how it works, modify it, share those modifications, etc.
+**** example: Go (programming language) by Google
+***** can't sell it
+      There are too many other free languages already available.
+***** want people to use it
+      Google will hire some of them.
+***** want to be famous, respected for helping others
+***** want people to develop it
+      Free labor!
+*** If it's free, you are the product
+    Users are the product.
+    The customer is the advertiser.
+    https://www.forbes.com/sites/marketshare/2012/03/05/if-youre-not-paying-for-it-you-become-the-product/?sh=15967bea5d6e
+**** Facebook, Google receive most of their money from advertisers.
+**** Lots of small websites used to, but much less now.
+     Since Facebook and Google can target users more precisely,
+     it's cheaper for advertisers to use them.
+     Smaller websites are less attractive to advertisers,
+     because it costs more money to reach interested people,
+     because they have to spam lots of uninterested people,
+     because the website does not know very much about its users.
+*** squishy assets
+    Hard to quantify. Impossible to touch.
+    Some easy to copy, some very much not.
+**** Standard Oil: company in the US
+     "antitrust law" : breaks monopolies and oligopolies
+**** data
+**** algorithms
+**** popularity
+     Facebook has it, and is protected by it.
+     Uber has it, but is not very protected by it.
+* day 2
+** reading
+*** technological unemployment is not new
+**** the Luddite rebellion
+     https://www.history.com/news/who-were-the-luddites
+**** optional: if you enjoyed that story, here are many more:
+     https://www.blog.askwonder.com/blog/technological-unemployment
+*** the 2017 Equifax hack
+    https://en.wikipedia.org/wiki/2017_Equifax_data_breach#Criticism
+    Read the introduction and the "criticisms" section. (And anything else you want, of course :)
+*** Venezuelan money and art
+    https://www.aljazeera.com/economy/2019/12/24/venezuelas-currency-worth-more-as-craft-paper-than-as-money
+*** the dangers of unexplainable machine learning
+    https://www.vox.com/future-perfect/2020/8/22/21374872/uk-united-kingdom-formula-predict-student-test-scores-exams
+*** optional: how cryptocurrency works
+    https://blog.revolut.com/how-cryptocurrency-works/
+** Does tech destroy jobs?
+** money
+*** purpose
+**** facilitate exchange
+     Barter is inefficient -- see, e.g., Venezuela.
+**** a measure of value
+     Quantify anythinig -- chicken feathers, movies, injuries ...
+**** store value
+     Doesn't always work -- see, e.g., Venezuela.
+*** once it was all metals and gems
+    Useless and heavy! Who cares?
+*** now it is printed on paper by central authorities
+**** Still useless, but more convenient.
+**** First: China, 770 BC.
+**** In most countries it is illegal to use other money for most transactions.
+     => central bank (government) can print more money, knowing it will be valued
+*** cryptocurrency
+**** decentralization
+**** "private" and "public"
+**** transaction speed
+**** transaction costs
+** Bargaining power, EULAs, GDPR, etc.
+*** GDPR
+https://gdpr.eu/what-is-gdpr/?cn-reloaded=1
+**** reachest beyond the EU
+     "if you process the personal data of EU citizens or residents, or you offer goods or services to such people, then the GDPR applies to you even if you’re not in the EU."
+*** fines as a cost of doing business
+** Privacy
+*** pseudonimity
+*** the Equifax hack
+**** around half a billion dollars in fines
+**** they set up a website to check whether your info was stolen
+***** that tried to remove your right to participate in a class action lawsuit
+      "The Trusted ID Premier website contained terms of use, dated September 6, 2017 (the day before Equifax announced the security breach) which included an arbitration clause with a class action waiver"
+**** insider trading
+     three Equifax executives sold almost $1.8 million of their personal holdings of company shares days after Equifax discovered the breach but more than a month before the breach was made public.[59] The company said the executives, including the chief financial officer John Gamble,[60][34] "had no knowledge that an intrusion had occurred at the time they sold their shares".
+**** was Equifax hurt?
+***** Equifax stock price
+      https://www.google.com/search?q=equifax+stock+price&oq=equifax+stock+price&aqs=chrome..69i57.5111j0j1&sourceid=chrome&ie=UTF-8
+***** Experian stock price
+      https://www.google.com/search?q=experian+stock+price&oq=experian+stock+price&aqs=chrome..69i57.5559j0j1&sourceid=chrome&ie=UTF-8
+***** 3.5 billion dollars in profit last year
+      https://investor.equifax.com/news-and-events/press-releases/2020/02-12-2020-221344372#:~:text=For%20the%20full%20year%202019,for%20the%20full%20year%202018.
+*** the holy grail of electronic elections
+** ML and predictability
+** Addendum: why Facebook bought Whatsapp, Instagram
+   maintaining monopoly on social network data
+   => can charge advertisers more, and
+      can give users a worse experience, esp. less data protection
+** encryption?
+** blockchain?

@@ -112,3 +112,8 @@ and between them play the dominant (major starting at 18) chord of the first.
 ** 9 11 13 = diminished
 A little wider than 5 6 7.
 In both cases the first "minor third" is wider than the second.
+* somme surprising linear relationships between edos
+  Matrix tunings and the permutation lattice
+  John S. Allen
+  http://www.bikexprt.com/tunings/tunings3.htm
+  (see esp. the picture)

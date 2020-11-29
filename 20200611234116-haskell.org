@@ -1,2 +1,2 @@
 #+title: Haskell
-
+* [[file:20201128220609-how_to_profile_in_haskell.org][how to profile in Haskell]]

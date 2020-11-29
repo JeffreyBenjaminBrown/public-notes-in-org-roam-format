@@ -4,10 +4,10 @@ THis writes a "migration",
 a human-readable file that describes how the DB changed,
 to `<app-name>/migrations/0001_initial.py`.
 * if desired, check the migration
-View the SQL it translates into:
-  python manage.py sqlmigrate <app-name> 0001
-Check for problems automatically:
-  python manage.py check
+  View the SQL it translates into:
+    python manage.py sqlmigrate <app-name> 0001
+  Check for problems automatically:
+    python manage.py check
 * execute (all pending?) migration(s)
-python manage.py migrate
-(the same command as before)
+  (the same command as before)
+    python manage.py migrate

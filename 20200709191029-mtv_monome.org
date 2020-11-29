@@ -80,8 +80,9 @@ A button to select whether transposition modifies the chord
   for the next time it is selected.
 ** timbre+
 *** specific timbres
-**** mono distortion
+**** effects bus, esp. mono distortion
    Esp. good with two keyboards.
+   See Montevideo.Synth.Distortion for a demo.
    It's one of the FAQ items at https://vivid-synth.com/
 **** bughunt: pops
  https://mail.google.com/mail/u/0/#inbox/KtbxLxgBwGbhSsLmhwLJDvkBLTDgkKdpvq

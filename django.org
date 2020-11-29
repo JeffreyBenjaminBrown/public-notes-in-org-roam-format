@@ -5,8 +5,9 @@
   :END:
 ** find, display pictures
 *** Substitute folder path into image name.
-See, e.g., how "name_augmented" is passed from polls.views to the silly-form templates.   
+    See, e.g., how "name_augmented" is passed from polls.views to the silly-form templates.
 *** how I embedded pictures into a Django page
+    See polls.embed_pictures
 **** first set up the environment
 ***** The image file is at /mnt/tax/to-serve/test.png.
 ***** I added modified apache2.conf:
@@ -23,9 +24,9 @@ See, e.g., how "name_augmented" is passed from polls.views to the silly-form tem
      e.g. for this example, I could visit the file at localhost/test.png,
      so I should refer to the file as simply "/test.png".
      PITFALL: The leading slash is important.
-** TODO downloads from Django
+** downloads from Django
    See the "download" function in run_make/views.py
-** TODO [[file:20201023135031-file_uploads_in_django.org][File Uploadhes In Django]]
+** TODO [[file:20201023135031-file_uploads_in_django.org][File Uploades In Django]]
 ** TODO before production run
 *** see these warnings from <app name>/settings.py
 **** # SECURITY WARNING: keep the secret key used in production secret!
@@ -172,7 +173,7 @@ it will complain that I haven't installed the app in anything.
   ("polls" is one of my pages.)
 ** part 2
 *** <project-root>/<site-name>/settings.py
- uses SQLite by default.
+    uses SQLite by default.
 **** PITFALL: for production, switch to something heavier-duty
  like Postgresql
 **** choose TIME_ZONE from this list
@@ -181,7 +182,7 @@ it will complain that I haven't installed the app in anything.
 **** if any apps must use the database, run "migrate" to (make the db?)
  python manage.py migrate
 *** mysite/app/models.py
-explains the structure of a [[file:20200928140620-the_django_database.org][Django Database]]
+    explains the structure of a [[file:20200928140620-the_django_database.org][Django Database]]
 *** to (install?) an app in a project
     :PROPERTIES:
     :ID:       d7718be6-7488-4a0e-8592-61b0a69a98f8
@@ -193,7 +194,7 @@ explains the structure of a [[file:20200928140620-the_django_database.org][Djang
       'django.contrib.auth',
      ...
 **** then make migrations for the app, and execute them
-see [[file:20200928141458-django_database_migrations.org][Django Database Migrations]]
+     see [[file:20200928141458-django_database_migrations.org][Django Database Migrations]]
 *** the "Django shell"
 with
   python manage.py shell
