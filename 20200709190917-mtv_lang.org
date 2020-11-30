@@ -1,60 +1,94 @@
 #+title: mtv-lang
-* TODO big ideas
-** TODO Need data. Try making sequences.
-   I won't know which of these problems matters, or which matters more,
-   until I've frustrated over sequences for a while.
-** background states for voices
-*** motivation: can't adjust a parameter that's not in a Museq
-*** motivation: restore a Zot to reasonable parameter values
-**** Idea: a map from voices to all params that have been modified in it.
-**** Idea: a way to change the synth without using a Museq.
-** Synth param homogenization: off? on? both?
-   "off" in Zot is used to trigger the terminating envelope.
-   "on" in the others is, I think, just a multiplier, just like "amp".
-   But "on" could also be used to trigger a starting envelope.
-   Difficult: Dispatch has the functions to insert "on" defined in Museq.Mk.
-** events longer than the host Museq's sup0 make no sense
-*** Events correspond to named monophonic voices,
-    so an event from this cycle cannot audibly overlap with itself from the next cycle.
-*** can concatenation (append & cat) screw with event durations?
-**** problem statement
-     Consider a Museq `m` with dur=sup=1 and a single event,
-     which starts at 0 and ends on 2.
-     That event is supposed to have duration 2.
-     If you concatenate another Museq `n` to the end of that one,
-     will the event in `m` now have duration 2 + (duration of `n`)?
-**** exploratory code
-     p1 = mm 1 $ pre3 "a" [ (0, 1.5, m1 "freq" 300),
-                            (0.5, 1, m1 "on" 0 ) ]
-     p2 = mm 1 $ pre3 "b" [ (0, 1.5, m1 "freq" 350) ]
-     p3 = mm 2 $ pre3 "c" [ (0, 1, m1 "freq" 450),
-                            (1, 2, m1 "on" 0) ]
+* TODO top priorities
+** TODO easy-ish
+*** Synth param homogenization: off? on? both?
+    Better words: "start" and "stop".
+      Where "stop" means "begin the stop sequence".
+    "off" in Zot is used to trigger the terminating envelope.
+    "on" in the others is, I think, just a multiplier, just like "amp".
+    But "on" could also be used to trigger a starting envelope.
+    Difficult: Dispatch has the functions to insert "on" defined in Museq.Mk.
+** TODO hard
+*** TODO pitch smarts
+**** Distinguish (by, say, gravity): root, chord, scale.
+**** Inversions?
+**** Voice coordination.
+     Order the voices; corrections are applied as needed in order starting from the last voice.
+***** "Among these 3 voices, at least 2 should play from the chord."
+***** "Any time voices start at the same time ..."
+      alternatives
+****** Find the next start time and stagger them across the intervening time, per this unit-time rhythm.
+****** Pitch one of them up, quiet it, and delay its onset a little.
+*** TODO rhythm smarts
+**** ? global grid, beat weight map
+**** transform rhythm
+***** why it's hard
+****** globalism
+       It's a global property of the start times -- they can't be individually modified, but rather must be modified in a manner aware of neighboring notes.
+****** quantisation
+       One can't stretch start times arbitrarily and expect it to sound good. They need to be stretched in a grid-aware way.
+***** apply rhtyhm from one sequence to another
+      esp. if the rhythm is shorter.
+**** ordinal ops
+***** = manipulate sequences by order disregarding timing
+     (ordinal but not cardinal).
+***** describe ordinal subsets of sequences:
+****** slices
+****** modular arithmetic expressions (e.g. "everything 2 or 3 mod 4")
+***** swap two ordinal subsets of a museq
+      They need to not overlap.
+*** TODO Need data. Try making sequences.
+    I won't know which of these problems matters, or which matters more,
+    until I've frustrated over sequences for a while.
+*** TODO Trace dispatchLoop and friends.
+    Because I don't really know what's happening.
+*** background states for voices
+**** motivation: can't adjust a parameter that's not in a Museq
+**** motivation: restore a Zot to reasonable parameter values
+***** Idea: a map from voices to all params that have been modified in it.
+***** Idea: a way to change the synth without using a Museq.
+*** events longer than the host Museq's sup0 make no sense
+**** Events correspond to named monophonic voices,
+     so an event from this cycle cannot audibly overlap with itself from the next cycle.
+**** can concatenation (append & cat) screw with event durations?
+***** problem statement
+      Consider a Museq `m` with dur=sup=1 and a single event,
+      which starts at 0 and ends on 2.
+      That event is supposed to have duration 2.
+      If you concatenate another Museq `n` to the end of that one,
+      will the event in `m` now have duration 2 + (duration of `n`)?
+***** exploratory code
+      p1 = mm 1 $ pre3 "a" [ (0, 1.5, m1 "freq" 300),
+                             (0.5, 1, m1 "on" 0 ) ]
+      p2 = mm 1 $ pre3 "b" [ (0, 1.5, m1 "freq" 350) ]
+      p3 = mm 2 $ pre3 "c" [ (0, 1, m1 "freq" 450),
+                             (1, 2, m1 "on" 0) ]
      
-     chAll $ mfl [
-       ("1", nVap $ insertOns $ cat [p1, p2] ),
-       ("2", nVap $ insertOns p3) ]
-** Are the ends of events meaningful?
-   For instance, in Dispatch.Dispatch.dispatchLoop,
-   they appear not to be used:
-       evs0 :: [(Time, Action)]
-         = concatMap f $ M.elems mqs' where
-         f :: Museq String Action
-           -> [(Time, Action)] -- start times and actions
-         f m = map (\ev -> ((ev^.evStart), (ev^.evData))) evs
-           where evs = arc time0 tempoPeriod startRender
-                       (startRender + frameDuration) m
-** schedule a replaceAll
-for, say, the next cycle equal to 0 modulo 16
-*** TODO better: schedule for after when `seq` evaluates the `Museq` completely
-** delete duplicate drums
-   That is, if two instances of the same sample are scheduled simultaneously, delete one of them. (Or maybe do something else -- maybe de-pitch one of them slightly? But playing the sample twice as loud is jarring.)
-** amplitude group for all drums, all pitched tracks
-** speed
-*** see [[file:20201128220609-how_to_profile_in_haskell.org][how to profile in Haskell]]
-*** which functions were slow when I profiled
-    (certainly before GHC 8.10, and I think before I had 8.8)
-    merge, meta, and subfunctions
-    see prof/ for details
+      chAll $ mfl [
+	("1", nVap $ insertOns $ cat [p1, p2] ),
+	("2", nVap $ insertOns p3) ]
+*** Are the ends of events meaningful?
+    For instance, in Dispatch.Dispatch.dispatchLoop,
+    they appear not to be used:
+	evs0 :: [(Time, Action)]
+          = concatMap f $ M.elems mqs' where
+          f :: Museq String Action
+            -> [(Time, Action)] -- start times and actions
+          f m = map (\ev -> ((ev^.evStart), (ev^.evData))) evs
+            where evs = arc time0 tempoPeriod startRender
+			(startRender + frameDuration) m
+*** schedule a replaceAll
+    for, say, the next cycle equal to 0 modulo 16
+**** TODO better: schedule for after when `seq` evaluates the `Museq` completely
+*** delete duplicate drums
+    That is, if two instances of the same sample are scheduled simultaneously, delete one of them. (Or maybe do something else -- maybe de-pitch one of them slightly? But playing the sample twice as loud is jarring.)
+*** amplitude group for all drums, all pitched tracks
+*** speed
+**** see [[file:20201128220609-how_to_profile_in_haskell.org][how to profile in Haskell]]
+**** which functions were slow when I profiled
+     (certainly before GHC 8.10, and I think before I had 8.8)
+     merge, meta, and subfunctions
+     see prof/ for details
 * TODO BUG: initial splash
 ** too many events sound simultaneously when it first starts
 * TODO misc
@@ -94,6 +128,11 @@ But once it is evaluated, it is kept.
     Instead use Museq Note',
     where Note' is like Note but the synthdef is wrapped in a Maybe.
 * TODO mysteries
+** TODO Vap doesn't work
+   :PROPERTIES:
+   :ID:       5b22c523-a6a3-486c-a622-483f0b453e50
+   :END:
+   at least not for the data sent to Boop in sketches/1.hs.
 ** TODO is the sccheduling a frame too conservative?
    In Dispatch.replaceAll, there's this:
        when = nextPhase0 time0 frameDuration now + frameDuration
@@ -111,6 +150,7 @@ But once it is evaluated, it is kept.
     The ScAction type can carry a lot of different parameter instructions, but currently I only send singletons. Does that matter, or is the cost of sending a different ScAction for each parameter negligible?
     Do the Museq-creating helper functions bundle simultaneous parameters into the same ScAction?
 * TODO easy
+** [[id:5b22c523-a6a3-486c-a622-483f0b453e50][Vap doesn't work]]
 ** TODO zotOneMsg should not use error
    when it receives an unexpected message
 ** redundant: ev4 ~ mkEv
@@ -151,7 +191,7 @@ after reading Dispatch I'll probably understand what RTime, ATime are
    and join them if needed with (<>).
 * study the code
 ** to count imports
-grep "import *Montevideo" -r . -c | sort -n -t: -k2
+   grep "import *Montevideo" -r . -c | sort -n -t: -k2
 *** TODO ? A dependency graph would be better.
 * PITFALLS
 ** timeForBoth_toFinish v. timeForBoth_toAppearToFinish
