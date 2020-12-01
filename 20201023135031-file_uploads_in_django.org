@@ -1,5 +1,8 @@
 #+title: File Uploads in Django
 Search for the word "upload" in polls/views.py and polls/forms.
+* I got it working!
+  See run_make.views.upload in my repo
+    https://github.com/JeffreyBenjaminBrown/learning-aws
 * TODO first understand forms in Django
 * [[id:0a8fff64-4147-4514-af3c-724f4e6c8250][how the staticfiles app handles uploads and permissions]].
 * ref

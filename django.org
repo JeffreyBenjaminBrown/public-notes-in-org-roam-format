@@ -26,7 +26,7 @@
      PITFALL: The leading slash is important.
 ** downloads from Django
    See the "download" function in run_make/views.py
-** TODO [[file:20201023135031-file_uploads_in_django.org][File Uploades In Django]]
+** [[file:20201023135031-file_uploads_in_django.org][File Uploades In Django]]
 ** TODO before production run
 *** see these warnings from <app name>/settings.py
 **** # SECURITY WARNING: keep the secret key used in production secret!
@@ -38,8 +38,8 @@
 *** configure to email errors to me, rather than show them to user
 ** TODO deploy to a server
 ** if I can't handle the section on forms yet
-Read things that come earlier in the master documentation list --
-esp. templates, views.
+   Read things that come earlier in the master documentation list --
+   esp. templates, views.
 ** [[file:20201028190211-forms_in_django.org][forms in Django]]
 ** ? In Docker image, maybe customize further [[id:dcc41642-ba24-45b8-bf55-daf08d7f701e][for Apache]] and [[file:20201014163254-wsgi.org][for Wsgi]]
 * refs

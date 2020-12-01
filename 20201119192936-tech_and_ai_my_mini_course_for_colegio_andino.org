@@ -133,53 +133,187 @@ tech = technology
 *** optional: how cryptocurrency works
     https://blog.revolut.com/how-cryptocurrency-works/
 ** Does tech destroy jobs?
-** money
+*** Jobs that disappeared
+**** The printing press (1440) replaced scribes.
+**** Powered looms (1784) replaced weavers.
+**** Tractors (1892) replaced farmers.
+     Most humans lived on farms before 1900.
+**** Trains (1804) replaced log operators
+     Beyond rivers.
+**** Ice-making machines (1854) replaced Ice cutters.
+**** Email (1972) replaced copy boys.
+     Beyond the office.
+*** long-term, "unemployment" does not rise.
+**** German unemployment since 1900
+     Only obvious change is that it's more stable now.
+     https://www.researchgate.net/figure/Unemployment-Rate-1900-1998_fig1_5051954
+**** Colombian unemployment since 1980
+     https://www.researchgate.net/figure/Behavior-of-unemployment-in-Colombia-Source-DANE_fig1_228559730
+     https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.ceicdata.com%2Fdatapage%2Fcharts%2Fipc_colombia_unemployment-rate.svg&imgrefurl=https%3A%2F%2Fwww.ceicdata.com%2Fen%2Findicator%2Fcolombia%2Funemployment-rate&tbnid=3YYje6iBcZMm7M&vet=12ahUKEwjYi6nD5a3tAhVU21kKHbTNCCgQMygEegUIARCaAQ..i&docid=BjBBuj1SrjXV7M&w=1200&h=500&q=colombia%20unemployment%20since%201980&ved=2ahUKEwjYi6nD5a3tAhVU21kKHbTNCCgQMygEegUIARCaAQ
+*** New tech => more wealth, new "distribution".
+*** Humane approach: Train the displaced workers.
+** the Equifax hack
+*** Equifax is a "credit bureau".
+*** the information revealed
+    on more than 150 million people
+    first and last names, Social Security numbers, birth dates, addresses and, in some instances, driver's license numbers for an estimated 143 million Americans,
+    Credit card numbers for approximately 209,000 U.S. consumers, and certain dispute documents with personal identifying information for approximately 182,000 U.S. consumers were also accessed.[20][10]
+*** the problem: sloppy security
+    Basically they were cheap.
+**** Slow to download and use security patches.
+**** Bad data segmentation.
+*** the personal information "externality"
+    lost personal information ~ pollution
+*** around half a billion dollars in fines
+**** Net income (profit) in 2017 was about the same, half a billion dollars.
+     https://investor.equifax.com/news-and-events/press-releases/2018/03-01-2018-213648628#:~:text=For%20the%20full%20year%202017,to%20the%20full%20year%202016.
+*** was Equifax hurt?
+**** Equifax stock price
+     https://www.google.com/search?q=equifax+stock+price&oq=equifax+stock+price&aqs=chrome..69i57.5111j0j1&sourceid=chrome&ie=UTF-8
+**** Experian stock price
+     https://www.google.com/search?q=experian+stock+price&oq=experian+stock+price&aqs=chrome..69i57.5559j0j1&sourceid=chrome&ie=UTF-8
+**** fines as a cost of business
+*** "insider trading"
+**** at Equifax
+     three Equifax executives sold almost $1.8 million of their personal holdings of company shares days after Equifax discovered the breach but more than a month before the breach was made public.[59] The company said the executives, including the chief financial officer John Gamble,[60][34] "had no knowledge that an intrusion had occurred at the time they sold their shares".
+**** what it is
+     Trading of a firm's stock, or derivatives based on it, based on nonpublic information about it.
+**** why that's illegal
+*** they set up a website to check whether your info was stolen
+**** that tried to remove visitors' right to participate in any "class action" lawsuit
+     "The Trusted ID Premier website contained terms of use, dated September 6, 2017 (the day before Equifax announced the security breach) which included an arbitration clause with a class action waiver"
+** privacy
+*** Some kinds of private info online.
+**** Income
+**** Health problems
+**** Sexual orientation, habits
+*** Who has your information?
+    The two biggest examples:
+**** Facebook knows
+***** who you know
+***** what you like and dislike
+**** Google knows
+***** your search history
+*** What is privacy?
+**** a "negative freedom"
+**** a "human right"
+     Why?
+****** The freedom to make mistakes.
+       Without that, we stay stupid.
+****** Just because we like it.
+*** bargaining power and the GDPR
+**** "bargaining power"
+     = A negotiation in which one party is somehow special, and can therefore dictate the terms.
+***** monopoly vs. consumers
+***** firm vs. employees
+***** many similar buyers and sellers
+***** Putin and Trump
+***** Facebook buying Whatsapp and Instagram
+      maintain monopoly on social network data
+****** can charge advertisers more
+****** can give users a worse experience
+       e.g. less data protection
+**** some common bargaining power correctives
+     laws and regulations
+***** "antitrust law"
+      to prevent monopoly
+***** "class action lawsuits"
+***** "labor union"
+**** the "GDPR"
+     The EU's "General Data Protection Regulation"
+     https://gdpr.eu/what-is-gdpr/?cn-reloaded=1
+***** principles
+****** transparent
+****** purpose-limitated
+       Only collected for the purposes initially specified.
+****** minimal
+****** accurate, up to date
+****** security
+***** reaches beyond the EU
+      "if you process the personal data of EU citizens or residents, or you offer goods or services to such people, then the GDPR applies to you even if you’re not in the EU."
+** money and crypto
 *** purpose
 **** facilitate exchange
      Barter is inefficient -- see, e.g., Venezuela.
-**** a measure of value
-     Quantify anythinig -- chicken feathers, movies, injuries ...
 **** store value
      Doesn't always work -- see, e.g., Venezuela.
-*** once it was all metals and gems
-    Useless and heavy! Who cares?
-*** now it is printed on paper by central authorities
+***** "inflation"
+**** measure value
+     Quantify anythinig -- chicken feathers, movies, injuries ...
+*** Once, it was all metals and gems
+    Useless and heavy! Who wants that?
+*** Now, it is printed on paper by central authorities
 **** Still useless, but more convenient.
 **** First: China, 770 BC.
-**** In most countries it is illegal to use other money for most transactions.
+**** Countries make it difficult (and sometimes illegal) to use foreign currencies for domestic transactions.
      => central bank (government) can print more money, knowing it will be valued
-*** cryptocurrency
-**** decentralization
+*** "cryptocurrency"
+**** decentralized
+     No central authority prints money.
+     Every miner has the ledger, processes transactions.
+**** "volatility"
 **** "private" and "public"
+***** Address, amount, history: public.
+***** Identity: private, kind of.
 **** transaction speed
+     Takes minutes.
+     Consider Visa: takes seconds.
 **** transaction costs
-** Bargaining power, EULAs, GDPR, etc.
-*** GDPR
-https://gdpr.eu/what-is-gdpr/?cn-reloaded=1
-**** reachest beyond the EU
-     "if you process the personal data of EU citizens or residents, or you offer goods or services to such people, then the GDPR applies to you even if you’re not in the EU."
-*** fines as a cost of doing business
-** Privacy
-*** pseudonimity
-*** the Equifax hack
-**** around half a billion dollars in fines
-**** they set up a website to check whether your info was stolen
-***** that tried to remove your right to participate in a class action lawsuit
-      "The Trusted ID Premier website contained terms of use, dated September 6, 2017 (the day before Equifax announced the security breach) which included an arbitration clause with a class action waiver"
-**** insider trading
-     three Equifax executives sold almost $1.8 million of their personal holdings of company shares days after Equifax discovered the breach but more than a month before the breach was made public.[59] The company said the executives, including the chief financial officer John Gamble,[60][34] "had no knowledge that an intrusion had occurred at the time they sold their shares".
-**** was Equifax hurt?
-***** Equifax stock price
-      https://www.google.com/search?q=equifax+stock+price&oq=equifax+stock+price&aqs=chrome..69i57.5111j0j1&sourceid=chrome&ie=UTF-8
-***** Experian stock price
-      https://www.google.com/search?q=experian+stock+price&oq=experian+stock+price&aqs=chrome..69i57.5559j0j1&sourceid=chrome&ie=UTF-8
-***** 3.5 billion dollars in profit last year
-      https://investor.equifax.com/news-and-events/press-releases/2020/02-12-2020-221344372#:~:text=For%20the%20full%20year%202019,for%20the%20full%20year%202018.
+     Fluctuates, from 300 to 30,000 pesos, usually 3,000-ish.
+     Compare: credit cards cost at least 1%.
+***** "Fixed cost" v. "variable cost".
+** "machine learning" (ML) and "explainability"
+*** "neural networks"
+**** are the most popular ML tool
+***** powerful: can fit very complex data
+***** flexible: can solve a wide variety of problems
+**** are "trained" on data
+**** guesses without explanation
+*** ways they are used
+**** predicting exam results during a pandemic
+     https://www.vox.com/future-perfect/2020/8/22/21374872/uk-united-kingdom-formula-predict-student-test-scores-exams
+**** "credit scores", loans
+**** recidivism scores, "parole"
+*** "garbage in, garbage out"
+**** Why correlate on race, neighborhood, income, etc?
+     Tables are easy to process automatically.
+     Stories are not.
+** some cool privacy technology research
+*** "pseudonimity"
+    Pseudonymous data => can't identify individuals.
+**** examples
+     "This neighborhood is rich."
+     "People who listen to Bob Marley are less likely to vote."
 *** the holy grail of electronic elections
-** ML and predictability
-** Addendum: why Facebook bought Whatsapp, Instagram
-   maintaining monopoly on social network data
-   => can charge advertisers more, and
-      can give users a worse experience, esp. less data protection
-** encryption?
-** blockchain?
+    Private yet verifiable.
+* quiz
+** What is the purpose of money?
+   Money is a store of value.
+   Money facilitates exchange.
+   Money is a unit of measure.
+   Money is all of these things.
+** What does a credit bureau like Equifax do?
+   It lends money.
+   It issues credit cards.
+   It judges peoples' credit-worthiness.
+   It measures the economy.
+** Which of the following is an example of bargaining power?
+   I have a nice truck, so I can sell it for a lot of money.
+   Nuclear scientists can only work for the government, so the government does not need to pay them well.
+   Voters control what a Senator does, because they can threaten to take away the Senator's job.
+   I'm in a boat on a river, so I have no choice -- I must follow the river.
+** Which of the following statements about technological advancement is FALSE?
+   New technologies make some jobs disappear.
+   New technologies make new jobs possible.
+   New technologies do not change the total amount of wealth.
+   New technologies change how wealth is distributed.
+** In which of the following ways is Bitcoin better than cash?
+   Bitcoin is easier to use.
+   Bitcoin's value is more stable.
+   Bitcoin is anonymous.
+   Bitcoin cannot be inflated.
+** Insider trading is unfair to
+   the company whose stocks or derivatives are being traded
+   other companies
+   the insider doing the trading
+   other traders

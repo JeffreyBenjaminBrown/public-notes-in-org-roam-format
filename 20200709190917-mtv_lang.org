@@ -37,6 +37,10 @@
 ****** modular arithmetic expressions (e.g. "everything 2 or 3 mod 4")
 ***** swap two ordinal subsets of a museq
       They need to not overlap.
+**** mix ordinal and cardinal
+     "For the first 50% of notes, for those falling on an odd beat ..."
+**** ? mix slices and modular arithmetic expressions
+     "In the first 50% of notes, take the even ones."
 *** TODO Need data. Try making sequences.
     I won't know which of these problems matters, or which matters more,
     until I've frustrated over sequences for a while.
