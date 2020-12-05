@@ -1,7 +1,53 @@
 #+title: Thanos tunings
 #+ROAM_ALIAS: "Kite tunings"
+* NICE: 58 edo and 80 edo are similar
+  Arrange them both single-spaced so that the octave is around (7,edo / 28).
+  That is, 58 1 8 => octave at (7,2) and 80 1 11 => octave at (7,3).
+  They play very similarly, shockingly easily.
+    Though it takes two hands to play a chord, generally.
+  And they're both "sharp systems".
+* code to see how harmonics fall across equally spaced strings
+  This shows what happens if, after skipping 7 strings, you land back at the octave. (So you could play the octave on open strings of an 8-string guitar.)
+> myPrint $ map ((*7) . (/ log 2) . log) [3/2,5/4,7/4,11/8,13/8 :: Float] -- ,17/16,19/16]
+  I believe I could do the above for non-integer values of 7.
 * TODO futzing with error formulae
 99, 94, 89, 87, 84, 77, 72, 65, 63, 58, 53, 46, 41
+* TODO 58-edo
+** looks bad but the errors cancel
+** TODO 58 mod 2 space 13: octave (4,3), fret span 10, but much easier for primes under 14.
+*** just low (through 13) or easy primes
+19 steps = 5 % 4   : str 1 fret 3
+27 steps = 11 % 8  : str 3 fret -6 | str 1 fret 7
+30 steps = 23 % 16 : str 2 fret 2
+34 steps = 3 % 2   : str 2 fret 4
+41 steps = 13 % 8  : str 3 fret 1
+47 steps = 7 % 4   : str 3 fret 4
+50 steps = 29 % 16 : str 4 fret -1
+58 steps = 2 % 1   : str 4 fret 3
+*** all the primes
+ 5 steps = 17 % 16 : str 1 fret -4 | str -1 fret 9
+14 steps = 19 % 16 : str 2 fret -6 | str 0 fret 7
+19 steps = 5 % 4   : str 1 fret 3
+27 steps = 11 % 8  : str 3 fret -6 | str 1 fret 7
+30 steps = 23 % 16 : str 2 fret 2
+34 steps = 3 % 2   : str 2 fret 4
+41 steps = 13 % 8  : str 3 fret 1
+47 steps = 7 % 4   : str 3 fret 4
+50 steps = 29 % 16 : str 4 fret -1
+55 steps = 31 % 16 : str 5 fret -5 | str 3 fret 8
+58 steps = 2 % 1   : str 4 fret 3
+** 58 mod 2 space 11: horrible major chords
+ 5 steps = 17 % 16 : str 1 fret -3 | str -1 fret 8
+14 steps = 19 % 16 : str 2 fret -4 | str 0 fret 7
+19 steps = 5 % 4   : str 3 fret  4 | str 3 fret -7
+27 steps = 11 % 8  : str 3 fret -3
+30 steps = 23 % 16 : str 2 fret 4
+34 steps = 3 % 2   : str 4 fret -5
+41 steps = 13 % 8  : str 3 fret 4 | str 5 fret -7
+47 steps = 7 % 4   : str 5 fret -4
+50 steps = 29 % 16 : str 4 fret 3
+55 steps = 31 % 16 : str 5 fret 0
+58 steps = 2 % 1   : str 6 fret -4
 * TODO 63-edo
 ** harmonic justice
   Worst harmonics are 17 (+9c), 19 (+7c), and 5 (-5c);
@@ -374,7 +420,8 @@ maybe 137, 196, 198, 203, 207
   (10,17): super-nice layout, max reach of 6, meantone
 *** 135 -- max reach of 7!
 *** 118 -- max reach of 7, or 4 in the 11-limit!
-    tReport_modulus = 4
+**** and there's two ways to get that!
+    tReport_modulus = 4 or 15
     tReport_spacing = 19
 *** 112 -- max reach of 5!
   but harmonically it's worse than 46-edo

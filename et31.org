@@ -21,6 +21,8 @@ http://x31eq.com/temper/net.html
     [0.000, -5.181, 0.783, -1.084, -9.382, 11.085⟩
 * [[file:20200618194950-bosanquet_mapping_for_equal_temperaments.org][Bosanquet mapping for equal temperaments]]
 * some edos
+** maybe I should not have written off
+   56
 ** where to resume search
 I've stared at all 5 of the first prime harmonics for everything through 74-edo.
 ** what's great about 37-edo

@@ -147,13 +147,15 @@ tech = technology
 **** German unemployment since 1900
      Only obvious change is that it's more stable now.
      https://www.researchgate.net/figure/Unemployment-Rate-1900-1998_fig1_5051954
-**** Colombian unemployment since 1980
+**** Colombian "unemployment" since 1980
      https://www.researchgate.net/figure/Behavior-of-unemployment-in-Colombia-Source-DANE_fig1_228559730
      https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.ceicdata.com%2Fdatapage%2Fcharts%2Fipc_colombia_unemployment-rate.svg&imgrefurl=https%3A%2F%2Fwww.ceicdata.com%2Fen%2Findicator%2Fcolombia%2Funemployment-rate&tbnid=3YYje6iBcZMm7M&vet=12ahUKEwjYi6nD5a3tAhVU21kKHbTNCCgQMygEegUIARCaAQ..i&docid=BjBBuj1SrjXV7M&w=1200&h=500&q=colombia%20unemployment%20since%201980&ved=2ahUKEwjYi6nD5a3tAhVU21kKHbTNCCgQMygEegUIARCaAQ
-*** New tech => more wealth, new "distribution".
+*** New tech => more wealth, new "distribution" of wealth.
 *** Humane approach: Train the displaced workers.
 ** the Equifax hack
 *** Equifax is a "credit bureau".
+    Credit bureau: collect financial information on people.
+    "Credit-worthiness" = whether you deseerve a loan
 *** the information revealed
     on more than 150 million people
     first and last names, Social Security numbers, birth dates, addresses and, in some instances, driver's license numbers for an estimated 143 million Americans,
@@ -163,6 +165,9 @@ tech = technology
 **** Slow to download and use security patches.
 **** Bad data segmentation.
 *** the personal information "externality"
+    seller = equifax (selling credit information)
+    buyer = banks, credit card companies, etc.
+    individuals ? not buyers or sellers, but hurtx
     lost personal information ~ pollution
 *** around half a billion dollars in fines
 **** Net income (profit) in 2017 was about the same, half a billion dollars.
@@ -170,17 +175,29 @@ tech = technology
 *** was Equifax hurt?
 **** Equifax stock price
      https://www.google.com/search?q=equifax+stock+price&oq=equifax+stock+price&aqs=chrome..69i57.5111j0j1&sourceid=chrome&ie=UTF-8
+***** stock price
+      stocks pay dividends.
+      stocks share profits.
+      stock is valuable <=> dividends are expected to be big
 **** Experian stock price
      https://www.google.com/search?q=experian+stock+price&oq=experian+stock+price&aqs=chrome..69i57.5559j0j1&sourceid=chrome&ie=UTF-8
-**** fines as a cost of business
+**** what are fines for?
+     Make a company suffer for a bad thing.
+     Teaches the company not to do that bad thing.
+     Teaches *other* companies not to do that.
+**** fines that don't work ~ as a cost of business
 *** "insider trading"
 **** at Equifax
      three Equifax executives sold almost $1.8 million of their personal holdings of company shares days after Equifax discovered the breach but more than a month before the breach was made public.[59] The company said the executives, including the chief financial officer John Gamble,[60][34] "had no knowledge that an intrusion had occurred at the time they sold their shares".
 **** what it is
      Trading of a firm's stock, or derivatives based on it, based on nonpublic information about it.
 **** why that's illegal
+     stock market's purpose = raise funds from anyone
+     If a few insiders make better deals, nobody wants to buy stock.
+     we want everyone to be willing to participiate
 *** they set up a website to check whether your info was stolen
 **** that tried to remove visitors' right to participate in any "class action" lawsuit
+     class action = people pool together to sue
      "The Trusted ID Premier website contained terms of use, dated September 6, 2017 (the day before Equifax announced the security breach) which included an arbitration clause with a class action waiver"
 ** privacy
 *** Some kinds of private info online.
@@ -196,8 +213,11 @@ tech = technology
 ***** your search history
 *** What is privacy?
 **** a "negative freedom"
+     like freedom from violence
+     not like freedom of speech (a "positive freedom")
 **** a "human right"
      Why?
+     Economists ask why a lot about justice.
 ****** The freedom to make mistakes.
        Without that, we stay stupid.
 ****** Just because we like it.
@@ -208,8 +228,9 @@ tech = technology
 ***** firm vs. employees
 ***** many similar buyers and sellers
 ***** Putin and Trump
+      Maybe Putin has a naughty video.
 ***** Facebook buying Whatsapp and Instagram
-      maintain monopoly on social network data
+      maybe ? maintain monopoly on social network data
 ****** can charge advertisers more
 ****** can give users a worse experience
        e.g. less data protection
@@ -218,12 +239,12 @@ tech = technology
 ***** "antitrust law"
       to prevent monopoly
 ***** "class action lawsuits"
-***** "labor union"
+***** "labor union" = a monopoly
 **** the "GDPR"
      The EU's "General Data Protection Regulation"
      https://gdpr.eu/what-is-gdpr/?cn-reloaded=1
 ***** principles
-****** transparent
+****** transparent = not secret
 ****** purpose-limitated
        Only collected for the purposes initially specified.
 ****** minimal
@@ -231,30 +252,44 @@ tech = technology
 ****** security
 ***** reaches beyond the EU
       "if you process the personal data of EU citizens or residents, or you offer goods or services to such people, then the GDPR applies to you even if you’re not in the EU."
-** money and crypto
+** money and "crypto"currency
+   Bitcoin
 *** purpose
 **** facilitate exchange
-     Barter is inefficient -- see, e.g., Venezuela.
+     "Barter" is inefficient -- see, e.g., Venezuela.
+     "coincidence of wants"
 **** store value
      Doesn't always work -- see, e.g., Venezuela.
 ***** "inflation"
+      inflation = money loses its value
+      inflation = prices rising
 **** measure value
      Quantify anythinig -- chicken feathers, movies, injuries ...
-*** Once, it was all metals and gems
+*** Once, it was all metals or gems
     Useless and heavy! Who wants that?
+    valuable because it's hard to find
 *** Now, it is printed on paper by central authorities
-**** Still useless, but more convenient.
 **** First: China, 770 BC.
+**** Still useless, but more convenient.
 **** Countries make it difficult (and sometimes illegal) to use foreign currencies for domestic transactions.
      => central bank (government) can print more money, knowing it will be valued
+**** number of COP rises by around 3% every year
+     that's inflation
+     which is why prices rise by about 3% every year
 *** "cryptocurrency"
 **** decentralized
      No central authority prints money.
-     Every miner has the ledger, processes transactions.
-**** "volatility"
+     Every "miner" has the "ledger", processes transactions.
+     "ledger" = history of transactions: money went from one address to another
 **** "private" and "public"
 ***** Address, amount, history: public.
+      "sahguiawnjklsbh2800" might be an address.
+      That address might have 1000 Bitcoin at it.
+      money in, money out: all public, for all addresses
 ***** Identity: private, kind of.
+***** Is cash private? yes, prett much.
+***** credit card: not private at all
+**** "volatility"
 **** transaction speed
      Takes minutes.
      Consider Visa: takes seconds.
@@ -286,34 +321,42 @@ tech = technology
      "People who listen to Bob Marley are less likely to vote."
 *** the holy grail of electronic elections
     Private yet verifiable.
-* quiz
-** What is the purpose of money?
-   Money is a store of value.
-   Money facilitates exchange.
-   Money is a unit of measure.
-   Money is all of these things.
-** What does a credit bureau like Equifax do?
-   It lends money.
-   It issues credit cards.
-   It judges peoples' credit-worthiness.
-   It measures the economy.
-** Which of the following is an example of bargaining power?
-   I have a nice truck, so I can sell it for a lot of money.
-   Nuclear scientists can only work for the government, so the government does not need to pay them well.
-   Voters control what a Senator does, because they can threaten to take away the Senator's job.
-   I'm in a boat on a river, so I have no choice -- I must follow the river.
-** Which of the following statements about technological advancement is FALSE?
-   New technologies make some jobs disappear.
-   New technologies make new jobs possible.
-   New technologies do not change the total amount of wealth.
-   New technologies change how wealth is distributed.
-** In which of the following ways is Bitcoin better than cash?
-   Bitcoin is easier to use.
-   Bitcoin's value is more stable.
-   Bitcoin is anonymous.
-   Bitcoin cannot be inflated.
-** Insider trading is unfair to
-   the company whose stocks or derivatives are being traded
-   other companies
-   the insider doing the trading
-   other traders
+* more
+** quiz
+*** What is the purpose of money?
+    Money facilitates exchange.
+    Money is a store of value.
+    Money is a unit of measure.
+    Money is all of these things.
+*** What does a credit bureau like Equifax do?
+    It issues credit cards.
+    It collects financial information about people.
+    It measures the economy.
+    It makes loans.
+*** Which of the following is an example of bargaining power?
+    Voters control what a Senator does, because they can threaten to take away the Senator's job.
+    I'm in a boat on a river, so I have no choice -- I must follow the river.
+    I have a nice truck, so I can sell it for a lot of money.
+    Nuclear scientists can only work for the government, so the government does not need to pay them well.
+*** Which of the following statements about technological advancement is FALSE?
+    New technologies make some jobs disappear.
+    New technologies make new jobs possible.
+    New technologies change how wealth is distributed.
+    New technologies do not change the total amount of wealth.
+*** In which of the following ways is Bitcoin better than cash?
+    Bitcoin is easier to use than cash.
+    Bitcoin cannot be inflated like cash.
+    Bitcoin is anonymous, unlike cash.
+    Bitcoin's value is more stable than cash's value.
+*** Insider trading is unfair to
+    the insider doing the trading
+    other traders
+    the company whose stocks or derivatives are being traded
+    other companies
+** answers
+   Money: all of the above.
+   Credit bureau: judges credit-worthiness.
+   Bargaining power: Nuclear scientists.
+   Technological advancement (false): do not change the total amount of wealth.
+   Bitcoin: no inflation
+   Insider trading: unfair to other traders
