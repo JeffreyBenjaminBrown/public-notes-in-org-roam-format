@@ -1,6 +1,66 @@
 #+title: tech and AI (my mini-course for Colegio Andino)
 tech = technology
+* course history
+  The course consisted of 2 80-minute lectures I gave in November 2020.
+  Julian Gomez, the TA, handled setting up Zoom and administering and grading the quizzes.
+  The class, about 20 students at Colegio Andino, did pretty well on the first quiz, and not on the second.
+* administrative details = what I had to do
+** class from 1:30 to 3:00 pm
+** two ways to connect -- an "invitation" and a link
+   Will arrive by email from Julian.
+** worry about Teams -- didn't receive call on laptop
+** what I was assigned to do
+The school is Andino.
+Covid relates everything.
+Let them participate, give an activity.
+Send the students material at least a week ahead of time.
+Quiz at start or end of class. Can be on what I sent them.
+Ask Julian the TA to remember who participates, allocate points.
+    Julian Francisco Gomez Villamil
+    julian.gomezv@javeriana.edu.co
+    +573013210188
+** 1 quiz at end of each class, last 10 or 15 minutes
+   Should be easy if they paid attention.
+   Five to ten questions.
+   Send Julian the questions the day before.
+     He said he could write the quiz if needed.
+** what the class has already seen
+*** externalities
+*** behavioral economics
+*** experimental economics
+*** cities
+*** political economy
+    unemployment, gdp (pib), covid policies
+*** gender & economics
+*** game theory
+    prisoner's dilemma
 * day 1
+** pre-class reading
+*** The Internet's 2nd act (from the magazine The Economist)
+    === The Second Half of Humanity Is Joining the Internet. ===
+    --- They will change it, and it will change them. ---
+
+    In 2007 more humans lived in cities than outside them for the first time. It was a transition 5,000 years in the making. The internet has been quicker to reach the halfway mark. Over 50% of the planet’s population is now online, a mere quarter of a century after the web first took off among tech-savvy types in the West. The second half of the internet revolution has begun. As our briefing describes, it is changing how society works—and also creating a new business puzzle.
+
+    Most new users are in the emerging world; some 726m people came online in the past three years alone. China is still growing fast. But much of the rise is coming from poorer places, notably India and Africa. Having seen what fake news and trolling has done to public discourse in rich countries, many observers worry about politics being debased, from the polarisation of India’s electorate to the persecution of Myanmar’s Rohingya minority. On the positive side, charities and aid workers talk endlessly and earnestly about how smartphones will allow farmers to check crop prices, let villagers sign up for online education and help doctors boost vaccination rates.
+
+    Less well appreciated is that the main attractions of being online are the same for the second half as they were for the first. Socialising and play, not work and self-improvement, are the draw. Porn is popular. Messaging apps help friends stay in touch, and let migrant workers say goodnight to their children back home. People entertain their friends—and strangers—on social media with goofy home-made videos on YouTube or TikTok, an app focused on short, humorous clips. Cheap data plans and thumb drives bring pirated films to millions who may never have been to a cinema. Dating apps are more popular than farming advice; video games are more popular than either. Such boons are unlikely to make their way into many un development reports. But they are a boost to the stock of human happiness.
+
+    For businesses, the second half of the internet offers a vast pool of customers. It also brings a headache—most of these new users are too poor to spend very much. Tens of billions of dollars in venture-capital money have flowed into internet startups in emerging markets, excluding China. The Silicon Valley giants have built up big user bases—over 1.5bn Facebook users are in developing countries. YouTube, a video site owned by Google, is increasingly dominated by non-Western users. Last year Walmart spent $16bn buying Flipkart, an Indian e-commerce giant. Jumia, an e-commerce firm with 4m customers in Nigeria and 13 other African countries, floated in New York in April.
+
+    Despite these firms’ punchy valuations, they are still looking for sustainable business models. Reliance Jio, an Indian firm, has sunk $37bn into building a high-speed mobile network and acquiring a big base of mostly poor users. Each Facebook user in Asia generates only $11 of advertising revenue a year, compared with $112 for a North American one. The combined revenue of all the internet firms in emerging markets (excluding China) is perhaps $100bn a year. That is about the same size as Comcast, America’s 31st-biggest listed firm by sales.
+
+    Nonetheless, the impact of these firms on business will get bigger in two ways. First, they will grow fast—although whether fast enough to justify their valuations remains to be seen. To maximise their chances, many are offering not just a single service (such as search or video), as Western firms tended to in their early years, but a bundle of services in one app instead, in the hope of making more money per user. This approach was pioneered in China by Alibaba and Tencent. Go-Jek in Indonesia offers ride-hailing, payments, drug prescriptions and massages. Facebook is pushing a digital payments system in India through its chat service, WhatsApp (see article).
+
+    The second is that in the emerging world, established firms are likely to be disrupted more quickly than incumbents were in the rich world. They have less infrastructure, such as warehouses and retail sites, to act as a barrier to entry. Many people, especially outside the big cities, lack access to their services entirely. Beer, shampoo and other consumer-goods firms could find that as marketing goes digital, new insurgent brands gain traction faster. Banks will be forced to adapt quickly to digital payments or die. Viewed this way, there is a huge amount of money at stake—the total market value of incumbent firms in the emerging world, outside China, is $8trn. If you thought the first half of the internet revolution was disruptive, just wait until you see the second act.
+*** If it's free, you are the product.
+    https://www.forbes.com/sites/marketshare/2012/03/05/if-youre-not-paying-for-it-you-become-the-product/?sh=15967bea5d6e
+*** Giving GPT-3 a Turing test
+    https://lacker.io/ai/2020/07/06/giving-gpt-3-a-turing-test.html
+*** Craigslist drops dating ads after new law
+    https://www.bbc.com/news/technology-43514645
+*** The rise and fall of Pets.com
+    http://www.uky.edu/~dsianita/695ec/failure.html
 ** profits
 *** profit = revenue - costs
 *** top companies by proit
@@ -116,8 +176,40 @@ tech = technology
 **** popularity
      Facebook has it, and is protected by it.
      Uber has it, but is not very protected by it.
+** quiz
+*** Which of the following tasks are computers better than humans at?
+**** Cooking.
+**** Identifying animals in pictures.
+**** Playing chess.
+**** Picking strawberries.
+*** Which of the following is not a barrier to entry?
+**** Secret recipes
+**** Network effects
+**** Open-source software
+**** Licensing regulations
+*** Most of Google's profit comes from
+**** research into algorithms
+**** advertising
+**** the government
+**** Google is not profitable.
+*** What is the argument for not making platforms responsible for their users' posts?
+**** User posts are not harmful, so accountability is not necessary.
+**** If platforms were held accountable, some would not let their users post anything.
+**** Smaller platforms can more easily filter posts, so this would give them an unfair advantage.
+**** The right to freedom of speech means anybody should be able to write anything on anybody's website.
+*** More than 80% of the money spent by Pets.com went to
+**** developing software and running servers
+**** buying products for resale
+**** shipping products
+**** advertising
+** quiz answers
+   playing chess
+   open-source software
+   advertising
+   If platforms were held accountable, some would not let their users post anything.
+   advertising
 * day 2
-** reading
+** pre-class reading
 *** technological unemployment is not new
 **** the Luddite rebellion
      https://www.history.com/news/who-were-the-luddites
@@ -321,7 +413,6 @@ tech = technology
      "People who listen to Bob Marley are less likely to vote."
 *** the holy grail of electronic elections
     Private yet verifiable.
-* more
 ** quiz
 *** What is the purpose of money?
     Money facilitates exchange.
@@ -353,7 +444,7 @@ tech = technology
     other traders
     the company whose stocks or derivatives are being traded
     other companies
-** answers
+** quiz answers
    Money: all of the above.
    Credit bureau: judges credit-worthiness.
    Bargaining power: Nuclear scientists.

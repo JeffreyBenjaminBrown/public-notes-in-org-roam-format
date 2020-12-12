@@ -419,7 +419,7 @@ maybe 137, 196, 198, 203, 207
 *** TODO 105!
   (10,17): super-nice layout, max reach of 6, meantone
 *** 135 -- max reach of 7!
-*** 118 -- max reach of 7, or 4 in the 11-limit!
+*** 118 -- max reach of 7, or 4 in the 11-limit, but the 9/8 sucks
 **** and there's two ways to get that!
     tReport_modulus = 4 or 15
     tReport_spacing = 19
