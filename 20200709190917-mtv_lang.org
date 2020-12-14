@@ -1,19 +1,18 @@
 #+title: mtv-lang
 * TODO top priorities
+** TODO study
+*** TODO Trace dispatchLoop and friends.
+    Because I don't really know what's happening.
+*** TODO Need data. Try making sequences.
+    I won't know which of these problems matters, or which matters more,
+    until I've frustrated over sequences for a while.
 ** TODO change data structures
-*** EASY: Synth param homogenization: off? on? both?
-    Better words: "start" and "stop".
-      Where "stop" means "begin the stop sequence".
-    "off" in Zot is used to trigger the terminating envelope.
-    "on" in the others is, I think, just a multiplier, just like "amp".
-    But "on" could also be used to trigger a starting envelope.
-    Difficult: Dispatch has the functions to insert "on" defined in Museq.Mk.
-*** background states for voices
+*** Background states for voices.
 **** motivation: can't adjust a parameter that's not in a Museq
 **** motivation: restore a Zot to reasonable parameter values
 ***** Idea: a map from voices to all params that have been modified in it.
 ***** Idea: a way to change the synth without using a Museq.
-*** Events longer than the host Museq's sup0 make no sense
+*** Events longer than the host Museq's sup0 make no sense.
 **** Events correspond to named monophonic voices,
      so an event from this cycle cannot audibly overlap with itself from the next cycle.
 **** can concatenation (append & cat) screw with event durations?
@@ -33,7 +32,8 @@
       chAll $ mfl [
 	("1", nVap $ insertOns $ cat [p1, p2] ),
 	("2", nVap $ insertOns p3) ]
-*** Are the ends of events meaningful?
+*** The ends of events aren't always meaningful.
+**** for Notes, certainly not
     For instance, in Dispatch.Dispatch.dispatchLoop,
     they appear not to be used:
 	evs0 :: [(Time, Action)]
@@ -43,12 +43,8 @@
           f m = map (\ev -> ((ev^.evStart), (ev^.evData))) evs
             where evs = arc time0 tempoPeriod startRender
 			(startRender + frameDuration) m
-** TODO study
-*** TODO Trace dispatchLoop and friends.
-    Because I don't really know what's happening.
-*** TODO Need data. Try making sequences.
-    I won't know which of these problems matters, or which matters more,
-    until I've frustrated over sequences for a while.
+**** but for other things, they are needed.
+     For instance, a sequence of transformations.
 ** TODO add
 *** TODO rhythm smarts
 **** ordinal ops
