@@ -25,14 +25,11 @@ One creates it, one destroys it; both could be a separate super function.
  In the special case of a sampler receiving an "on" message,
    it schedules an "off" message for shortly thereafter.
 * TODO path, high-level
-** permit using both apps at once
-  Spin the monome synth into a thread, like the live-coding stuff.
 ** capture from the monome
   Capture synth state, chords, melodies.
-** make a monome window to mess with Zot params
 * TODO JI: compare chords in EDOs
 ** playChord :: [JI Fraction] -> EDO -> IO ()
-This way you can edit the last argument repeatedly.
+   This way you can edit the last argument repeatedly.
 * TODO [[file:20200709190917-mtv_lang.org][mtv-lang]]
 * TODO [[file:20200709191029-mtv_monome.org][mtv-monome]]
 * TODO [[file:20200812014948-mtv_ji.org][mtv-ji]]
