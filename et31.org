@@ -1,5 +1,6 @@
 #+TITLE: microtonality
 * TODO misfiled: this is about EDOs more generally
+* [[file:20201220182532-microtonal_guitar.org][microtonal guitar]]
 * stretching octaves
 ** ref
 http://x31eq.com/temper/net.html
@@ -20,41 +21,7 @@ http://x31eq.com/temper/net.html
   Without octave stretch:
     [0.000, -5.181, 0.783, -1.084, -9.382, 11.085⟩
 * [[file:20200618194950-bosanquet_mapping_for_equal_temperaments.org][Bosanquet mapping for equal temperaments]]
-* some edos
-** maybe I should not have written off
-   56
-** where to resume search
-I've stared at all 5 of the first prime harmonics for everything through 74-edo.
-** what's great about 37-edo
-*** Composing without perfect fifths seems like a useful exercise
- It's never occurred to me before but I wonder whether I use that interval as a kind of crutch. It's almost always present in my music, and my deviations from it are very 12-et: basically aug, dim and dom7 b5.
-*** Leaving out factors of 3, 37-edo will give me all the intervals I want, in exactly one form
- wide min 2nd (14:13)
- neutral 2nd (11:10)
- wide maj 2nd (8:7)
- min 3rd (13:11)
- neutral 3rd (16:13)
- the familiar major third (5:4)
- wide major third (14:11)
- super-narrow fourth (13:10, 454 cents)
- super-wide fourth (11:8)
- the familiar septimal tritone (7:5)
-** 58 edo
-great 3/2, and all positive errors, none greater than 7c
-> myPrint $ bests 58
-(3 % 2,(34,7034,14.932749966815209))
-(5 % 4,(19,3931,67.89734411027212))
-(7 % 4,(47,9724,35.87886634323331))
-(11 % 8,(27,5586,73.02747290415664))
-(13 % 8,(41,8483,77.48200299654854))
-** 74: super-tight meantone
-Its worst harmonic is 3/2, at -4.7c error.
-> myPrint $ bests 74
-(3 % 2,(43,6973,-46.577035680901645))
-(5 % 4,(24,3892,28.754753243543746))
-(7 % 4,(60,9730,41.47066503848146))
-(11 % 8,(34,5514,0.33408986594713497))
-(13 % 8,(52,8432,27.15581473932798))
+* [[file:20201225205029-some_edos_equal_divisions_of_the_octave.org][some edos (equal divisions of the octave)]]
 * scale concepts
 ** two stacks of fifths
 * nice chords
@@ -109,11 +76,16 @@ It's weird because it sounds like a familiar scale with an extra note
 ** two minor chords, descending 4/31 from one to the other
 but holding the fifth degree (18/31) from the first,
 and between them play the dominant (major starting at 18) chord of the first.
+** in 22-edo, start from septimal min maj 7, then raise 3rd and lower 7th by a microtone many times
+   That is, start with 0 5 13 20
 * [[file:20200827195612-thanos_tunings.org][Thanos (Kite-Ish) Tunings]]
 * Just chords
 ** 9 11 13 = diminished
-A little wider than 5 6 7.
-In both cases the first "minor third" is wider than the second.
+   A little wider than 5 6 7 = 10 12 14
+   For both, the first interval is wider than the second.
+** Septimal dom b9 = dom 7 + very flat 9
+   Start with septimal dom7.
+   Stack another septimal m3 on the top.
 * somme surprising linear relationships between edos
   Matrix tunings and the permutation lattice
   John S. Allen

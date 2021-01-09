@@ -1,6 +1,4 @@
 #+title: reading|listening to
-* TODO Economist: resume here
-Special report, article "Reform: Grand redesign"
 * TODO pages from Andy Matuschak's knowledge graph with links I haven't gotten to
   :PROPERTIES:
   :ID:       bc0e8f6e-3883-4e1c-b945-b7ea3a4d3214
@@ -27,3 +25,11 @@ https://notes.andymatuschak.org/zhmLXArqiCMDr9Q13ViqN3hh3SmrKzjQxWAr
 ** https://www.reddit.com/r/worldnews
 ** https://www.reddit.com/r/news
 ** https://www.reddit.com/r/politics/
+* by John le Carre, on his dad, a scammer
+  In Ronnie’s Court | The New Yorker
+  https://www.newyorker.com/magazine/2002/02/18/in-ronnies-court
+* history books my friends recommend
+  :PROPERTIES:
+  :ID:       45699da3-3bea-4daf-ae7e-cc3aa2eca272
+  :END:
+  https://www.facebook.com/mejeff.younotjeff/posts/10160816277279546?comment_id=10160838250559546&notif_id=1610157174946028&notif_t=feed_comment&ref=notif

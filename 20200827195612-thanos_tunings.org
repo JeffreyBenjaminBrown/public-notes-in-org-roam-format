@@ -1,416 +1,93 @@
 #+title: Thanos tunings
 #+ROAM_ALIAS: "Kite tunings"
-* NICE: 58 edo and 80 edo are similar
-  Arrange them both single-spaced so that the octave is around (7,edo / 28).
-  That is, 58 1 8 => octave at (7,2) and 80 1 11 => octave at (7,3).
-  They play very similarly, shockingly easily.
-    Though it takes two hands to play a chord, generally.
-  And they're both "sharp systems".
+* [[file:20201225205029-some_edos_equal_divisions_of_the_octave.org][some edos (equal divisions of the octave)]]
+* TODO put this in SmSn
+  It's very graph -- the relationships between scales, the different ways to categorize tunings (by EDO, by layout) ...
 * code to see how harmonics fall across equally spaced strings
   This shows what happens if, after skipping 7 strings, you land back at the octave. (So you could play the octave on open strings of an 8-string guitar.)
 > myPrint $ map ((*7) . (/ log 2) . log) [3/2,5/4,7/4,11/8,13/8 :: Float] -- ,17/16,19/16]
   I believe I could do the above for non-integer values of 7.
-* TODO futzing with error formulae
-99, 94, 89, 87, 84, 77, 72, 65, 63, 58, 53, 46, 41
-* TODO 58-edo
-** looks bad but the errors cancel
-** TODO 58 mod 2 space 13: octave (4,3), fret span 10, but much easier for primes under 14.
-*** just low (through 13) or easy primes
-19 steps = 5 % 4   : str 1 fret 3
-27 steps = 11 % 8  : str 3 fret -6 | str 1 fret 7
-30 steps = 23 % 16 : str 2 fret 2
-34 steps = 3 % 2   : str 2 fret 4
-41 steps = 13 % 8  : str 3 fret 1
-47 steps = 7 % 4   : str 3 fret 4
-50 steps = 29 % 16 : str 4 fret -1
-58 steps = 2 % 1   : str 4 fret 3
-*** all the primes
- 5 steps = 17 % 16 : str 1 fret -4 | str -1 fret 9
-14 steps = 19 % 16 : str 2 fret -6 | str 0 fret 7
-19 steps = 5 % 4   : str 1 fret 3
-27 steps = 11 % 8  : str 3 fret -6 | str 1 fret 7
-30 steps = 23 % 16 : str 2 fret 2
-34 steps = 3 % 2   : str 2 fret 4
-41 steps = 13 % 8  : str 3 fret 1
-47 steps = 7 % 4   : str 3 fret 4
-50 steps = 29 % 16 : str 4 fret -1
-55 steps = 31 % 16 : str 5 fret -5 | str 3 fret 8
-58 steps = 2 % 1   : str 4 fret 3
-** 58 mod 2 space 11: horrible major chords
- 5 steps = 17 % 16 : str 1 fret -3 | str -1 fret 8
-14 steps = 19 % 16 : str 2 fret -4 | str 0 fret 7
-19 steps = 5 % 4   : str 3 fret  4 | str 3 fret -7
-27 steps = 11 % 8  : str 3 fret -3
-30 steps = 23 % 16 : str 2 fret 4
-34 steps = 3 % 2   : str 4 fret -5
-41 steps = 13 % 8  : str 3 fret 4 | str 5 fret -7
-47 steps = 7 % 4   : str 5 fret -4
-50 steps = 29 % 16 : str 4 fret 3
-55 steps = 31 % 16 : str 5 fret 0
-58 steps = 2 % 1   : str 6 fret -4
-* TODO 63-edo
-** harmonic justice
-  Worst harmonics are 17 (+9c), 19 (+7c), and 5 (-5c);
-  others are all off by less than three cents.
-** TODO mod 1 space 9: max reach 5, octave (7,0)
- 6 steps = 17 % 16: string 1 fret -3  | string 0 fret 6
-16 steps = 19 % 16: string 2 fret -2
-20 steps = 5 % 4:   string 2 fret 2
-29 steps = 11 % 8:  string 3 fret 2
-33 steps = 23 % 16: string 4 fret -3 | string 3 fret 6
-37 steps = 3 % 2:   string 4 fret 1
-44 steps = 13 % 8:  string 5 fret -1
-51 steps = 7 % 4:   string 6 fret -3
-54 steps = 29 % 16: string 6 fret 0
-60 steps = 31 % 16: string 7 fret -3 | string 6 fret 6
-63 steps = 2 % 1:   string 7 fret 0
-** mod 1 space 8 : worse than space 9
-   Octaves are wider *and* the max fret reach is bigger.
-6 steps = 17 % 16:  string 1 fret -2
-16 steps = 19 % 16: string 2 fret  0
-20 steps = 5 % 4:   string 3 fret -4
-29 steps = 11 % 8:  string 4 fret -3
-33 steps = 23 % 16: string 4 fret  1
-37 steps = 3 % 2:   string 5 fret -3
-44 steps = 13 % 8:  string 6 fret -4
-51 steps = 7 % 4:   string 7 fret -5
-54 steps = 29 % 16: string 7 fret -2
-60 steps = 31 % 16: string 8 fret -4
-63 steps = 2 % 1:   string 8 fret -1
-** TODO mod 2 space 13: max reach 9, octave (5,-1), nice 4:5:6:8, bad 7:4
- 6 steps = 17 % 16  string 0 fret  3
-16 steps = 19 % 16  string 2 fret -5  | string 0 fret 8
-20 steps = 5 % 4    string 2 fret -3
-29 steps = 11 % 8   string 3 fret -5
-33 steps = 23 % 16  string 3 fret -3
-37 steps = 3 % 2    string 3 fret -1
-44 steps = 13 % 8   string 4 fret -4
-51 steps = 7 % 4    string 3 fret  6 | string 5 fret -7
-54 steps = 29 % 16  string 4 fret  1
-60 steps = 31 % 16  string 4 fret  4
-63 steps = 2 % 1    string 5 fret -1
-** mod 2 space 11
- 6 steps = 17 % 16:	string 0 fret 3
-16 steps = 19 % 16:	string 2 fret -3 | string 0 fret 8
-20 steps = 5 % 4:	string 2 fret -1
-29 steps = 11 % 8:	string 3 fret -2
-33 steps = 23 % 16:	string 3 fret 0
-37 steps = 3 % 2:	string 3 fret 2
-44 steps = 13 % 8:	string 4 fret 0
-51 steps = 7 % 4:	string 5 fret -2
-54 steps = 29 % 16:	string 4 fret 5
-60 steps = 31 % 16:	string 6 fret -3 | string 4 fret 8
-63 steps = 2 % 1:	string 5 fret 4
-* TODO 65-edo
-** Except for these harmonics, the others are basically perfect:
-   (7 % 4,(52,9600,-88.25906469124857))
-   (13 % 8,(46,8492,87.03107461458785))
-   (17 % 16,(6,1108,58.138212688234944))
-   (29 % 16,(56,10338,42.68959693067336))
-* TODO 77-edo
-** mod 4, space 11
-        [ 7 steps = 17 % 16: string 1 fret -1
-        , 19 steps = 19 % 16: string 1 fret 2
-        , 25 steps = 5 % 4: string 3 fret -2
-        , 35 steps = 11 % 8: string 5 fret -5
-        , 40 steps = 23 % 16: string 4 fret -1
-        , 45 steps = 3 % 2: string 3 fret 3
-        , 54 steps = 13 % 8: string 6 fret -3
-        , 62 steps = 7 % 4: string 6 fret -1
-        , 66 steps = 29 % 16: string 6 fret 0
-        , 73 steps = 31 % 16: string 7 fret -1
-        , 77 steps = 2 % 1: string 7 fret 0
-** mod 2, space 13
-        [ 7 steps = 17 % 16: string 1 fret -3
-        , 19 steps = 19 % 16: string 1 fret 3
-        , 25 steps = 5 % 4: string 1 fret 6
-        , 35 steps = 11 % 8: string 3 fret -2
-        , 40 steps = 23 % 16: string 2 fret 7
-        , 45 steps = 3 % 2: string 3 fret 3
-        , 54 steps = 13 % 8: string 4 fret 1
-        , 62 steps = 7 % 4: string 4 fret 5
-        , 66 steps = 29 % 16: string 4 fret 7
-        , 73 steps = 31 % 16: string 5 fret 4
-        , 77 steps = 2 % 1: string 5 fret 6
-** mod 10, space 11
-        [ 7 steps = 17 % 16: string -3 fret 4
-        , 19 steps = 19 % 16: string -1 fret 3
-        , 25 steps = 5 % 4: string 5 fret -3
-        , 35 steps = 11 % 8: string 5 fret -2
-        , 40 steps = 23 % 16: string 0 fret 4
-        , 45 steps = 3 % 2: string 5 fret -1
-        , 54 steps = 13 % 8: string 4 fret 1
-        , 62 steps = 7 % 4: string 2 fret 4
-        , 66 steps = 29 % 16: string 6 fret 0
-        , 73 steps = 31 % 16: string 3 fret 4
-        , 77 steps = 2 % 1: string 7 fret 0
-** TODO mod 1 space 11: span of 7, octave (7,0), decent 4:5:6:8
- 7 steps = 17 % 16: string 1 fret -4 | string 0 fret 7 ( 3,  468,-65.19)
-19 steps = 19 % 16: string 2 fret -3 | string 1 fret 8 ( 7, 1091, 41.35)
-25 steps = 5 % 4:   string 2 fret  3                   (19, 2961,-14.09)
-35 steps = 11 % 8:  string 3 fret  2                   (25, 3896, 32.96)
-40 steps = 23 % 16: string 4 fret -4 | string 3 fret 7 (35, 5455,-58.63)
-45 steps = 3 % 2:   string 4 fret  1                   (40, 6234,-48.97)
-54 steps = 13 % 8:  string 5 fret -1                   (45, 7013, -6.56)
-62 steps = 7 % 4:   string 6 fret -4                   (54, 8416, 10.30)
-66 steps = 29 % 16: string 6 fret  0                   (62, 9662,-25.92)
-73 steps = 31 % 16: string 7 fret -4 | string 6 fret 7 (66,10286,-10.05)
-77 steps = 2 % 1:   string 7 fret  0                   (73,11377,-73.73)
-** TODO mod 2 space 11: span 8, awkward 4:5 and 4:6
-7 steps = 17 % 16:  string 1 fret -2
-19 steps = 19 % 16: string 3 fret -7 | string 1 fret  4
-25 steps = 5 % 4:   string 3 fret -4
-35 steps = 11 % 8:  string 3 fret  1
-40 steps = 23 % 16: string 4 fret -2
-45 steps = 3 % 2:   string 5 fret -5
-54 steps = 13 % 8:  string 6 fret -6
-62 steps = 7 % 4:   string 6 fret -2
-66 steps = 29 % 16: string 6 fret  0
-73 steps = 31 % 16: string 7 fret -2
-77 steps = 2 % 1:   string 7 fret  0
-** TODO mod 3 space 13: span 11, good 4:5:6:8
- 7 steps = 17 % 16: string 1 fret -2
-19 steps = 19 % 16: string 1 fret 2
-25 steps = 5 % 4:   string 1 fret 4
-35 steps = 11 % 8:  string 2 fret 3
-40 steps = 23 % 16: string 1 fret 9 | string 4 fret -4
-45 steps = 3 % 2:   string 3 fret 2
-54 steps = 13 % 8:  string 3 fret 5
-62 steps = 7 % 4:   string 5 fret -1
-66 steps = 29 % 16: string 3 fret 9 | string 6 fret -4
-73 steps = 31 % 16: string 4 fret 7 | string 7 fret -6
-77 steps = 2 % 1:   string 5 fret 4
-* TODO 80-edo
-** TODO mod 2 skip 13: max reach 9 (or better*), awkward 3/2, great 4:5:7:8
-(*) better by 2 if you ignore 23/16, or by 4 also ignoring 17 and 19
- 7 steps = 17 % 16: string 1 fret -3
-20 steps = 19 % 16: string 2 fret -3
-26 steps = 5 % 4:   string 2 fret 0
-37 steps = 11 % 8:  string 3 fret -1
-42 steps = 23 % 16: string 4 fret -5 | string 2 fret 8
-47 steps = 3 % 2:   string 3 fret 4
-56 steps = 13 % 8:  string 4 fret 2
-65 steps = 7 % 4:   string 5 fret 0
-69 steps = 29 % 16: string 5 fret 2
-76 steps = 31 % 16: string 6 fret -1
-80 steps = 2 % 1:   string 6 fret 1
-** TODO mod 1 skip 10: max reach 7 frets, octave at (8,0), decent 4:5:6:8
- 7 steps = 17 % 16: string 1 fret -3 | string 0 fret 7
-20 steps = 19 % 16: string 2 fret 0
-26 steps = 5 % 4:   string 3 fret -4
-37 steps = 11 % 8:  string 4 fret -3
-42 steps = 23 % 16: string 4 fret 2
-47 steps = 3 % 2:   string 5 fret -3
-56 steps = 13 % 8:  string 6 fret -4
-65 steps = 7 % 4:   string 7 fret -5
-69 steps = 29 % 16: string 7 fret -1
-76 steps = 31 % 16: string 8 fret -5 | string 7 fret 6
-80 steps = 2 % 1:   string 8 fret 0
-** TODO mod 1 skip 11: max reach 8, octave (7,3), decent 4:5:6:8
- 7 steps = 17 % 16: str 1 fret -4 | str 0 fret 7
-20 steps = 19 % 16: str 2 fret -2
-26 steps = 5 % 4:   str 2 fret  4
-37 steps = 11 % 8:  str 3 fret  4
-42 steps = 23 % 16: str 4 fret -2
-47 steps = 3 % 2:   str 4 fret  3
-56 steps = 13 % 8:  str 5 fret  1
-65 steps = 7 % 4:   str 6 fret -1
-69 steps = 29 % 16: str 6 fret  3
-76 steps = 31 % 16: str 7 fret -1
-80 steps = 2 % 1:   str 7 fret  3
-** TODO mod 1 skip 9: span 7, octave (9,-1), great 4::8
- 7 steps = 17 % 16: str 1 fret -2
-20 steps = 19 % 16: str 2 fret  2
-26 steps = 5 % 4:   str 3 fret -1
-37 steps = 11 % 8:  str 4 fret  1
-42 steps = 23 % 16: str 5 fret -3 | str 4 fret 6
-47 steps = 3 % 2:   str 5 fret  2
-56 steps = 13 % 8:  str 6 fret  2
-65 steps = 7 % 4:   str 7 fret  2
-69 steps = 29 % 16: str 8 fret -3 | str 7 fret 6
-76 steps = 31 % 16: str 8 fret  4
-80 steps = 2 % 1:   str 9 fret -1
-* TODO 87-edo, higher-limit
-8 steps = 17 % 16:	string 0 fret 4
-22 steps = 19 % 16:	string 2 fret -6 | string 0 fret 11
-28 steps = 5 % 4:	string 2 fret -3
-40 steps = 11 % 8:	string 2 fret 3
-46 steps = 23 % 16:	string 2 fret 6
-51 steps = 3 % 2:	string 3 fret 0
-61 steps = 13 % 8:	string 3 fret 5
-70 steps = 7 % 4:	string 4 fret 1
-75 steps = 29 % 16:	string 5 fret -5 | string 3 fret 12
-83 steps = 31 % 16:	string 5 fret -1
-87 steps = 2 % 1:	string 5 fret 1
-* TODO 84-edo
-** mod 1 space 14: max reach 10, octave (6,0), terrible 2:3
- 7 steps = 17 % 16: string 1 fret -7 | string 0 fret 7 | string -1 fret 21
-21 steps = 19 % 16: string 2 fret -7 | string 1 fret 7 | string 0 fret 21
-27 steps = 5 % 4:   string 2 fret -1
-39 steps = 11 % 8:  string 3 fret -3
-44 steps = 23 % 16: string 3 fret 2
-49 steps = 3 % 2:   string 4 fret -7 | string 3 fret 7
-59 steps = 13 % 8:  string 4 fret 3
-68 steps = 7 % 4:   string 5 fret -2
-72 steps = 29 % 16: string 5 fret 2
-80 steps = 31 % 16: string 6 fret -4 | string 5 fret 10
-84 steps = 2 % 1:   string 6 fret 0
-** TODO mod 1 space 12: max reach 8, octave (7,0), nice 4:5:6:8
- 7 steps = 17 % 16: string 1 fret -5 | string 0 fret 7
-21 steps = 19 % 16: string 2 fret -3 | string 1 fret 9
-27 steps = 5 % 4:   string 2 fret 3
-39 steps = 11 % 8:  string 3 fret 3
-44 steps = 23 % 16: string 4 fret -4 | string 3 fret 8
-49 steps = 3 % 2:   string 4 fret 1
-59 steps = 13 % 8:  string 5 fret -1
-68 steps = 7 % 4:   string 6 fret -4
-72 steps = 29 % 16: string 6 fret 0
-80 steps = 31 % 16: string 7 fret -4 | string 6 fret 8
-84 steps = 2 % 1:   string 7 fret 0
-* TODO 89-edo
-** mod 1 space 10: range 7, octave (9,-1), good 4:..:8:11:13
-8 steps = 17 % 16:  string 1 fret -2
-22 steps = 19 % 16: string 2 fret  2
-29 steps = 5 % 4:   string 3 fret -1
-41 steps = 11 % 8:  string 4 fret  1
-47 steps = 23 % 16: string 5 fret -3 | string 4 fret 7
-52 steps = 3 % 2:   string 5 fret  2
-62 steps = 13 % 8:  string 6 fret  2
-72 steps = 7 % 4:   string 7 fret  2
-76 steps = 29 % 16: string 8 fret -4 | string 7 fret 6
-85 steps = 31 % 16: string 9 fret -5 | string 8 fret 5 | string 7 fret 15
-89 steps = 2 % 1:   string 9 fret -1
-** mod 2 space 9: span 6, mostly nice intervals but bad octave
-8 steps = 17 % 16:  string 0 fret 4
-22 steps = 19 % 16: string 2 fret 2
-29 steps = 5 % 4:   string 3 fret 1
-41 steps = 11 % 8:  string 5 fret -2
-47 steps = 23 % 16: string 5 fret 1
-52 steps = 3 % 2:   string 6 fret -1
-62 steps = 13 % 8:  string 6 fret 4
-72 steps = 7 % 4:   string 8 fret 0
-76 steps = 29 % 16: string 8 fret 2
-85 steps = 31 % 16: string 9 fret 2
-89 steps = 2 % 1:   string 9 fret 4
-* TODO 94-edo
-** TODO mod 1 space 13: max span 9 frets, octave at (7,3), nice 4:5:6:8
- 8 steps = 17 % 16: string 1 fret -5 | string 0 fret 8
-23 steps = 19 % 16: string 2 fret -3
-30 steps = 5 % 4:   string 2 fret 4
-43 steps = 11 % 8:  string 3 fret 4
-49 steps = 23 % 16: string 4 fret -3
-55 steps = 3 % 2:   string 4 fret 3
-66 steps = 13 % 8:  string 5 fret 1
-76 steps = 7 % 4:   string 6 fret -2
-81 steps = 29 % 16: string 6 fret 3
-90 steps = 31 % 16: string 7 fret -1
-94 steps = 2 % 1:   string 7 fret 3
-** mod 1 space 12: max span 9 frets, octave at (8,-2)
-8 steps = 17 % 16:  string 1 fret -4 | string 0 fret 8
-23 steps = 19 % 16: string 2 fret -1
-30 steps = 5 % 4:   string 3 fret -6
-43 steps = 11 % 8:  string 4 fret -5
-49 steps = 23 % 16: string 4 fret  1
-55 steps = 3 % 2:   string 5 fret -5
-66 steps = 13 % 8:  string 6 fret -6
-76 steps = 7 % 4:   string 7 fret -8
-81 steps = 29 % 16: string 7 fret -3 | string 6 fret  9
-90 steps = 31 % 16: string 8 fret -6 | string 7 fret 6
-94 steps = 2 % 1:   string 8 fret -2
-** TODO mod 2 space 17: max reach 10, octave at (6,-4)
- 8 steps = 17 % 16: string 0 fret 4
-23 steps = 19 % 16: string 1 fret 3
-30 steps = 5 % 4:   string 2 fret -2
-43 steps = 11 % 8:  string 3 fret -4
-49 steps = 23 % 16: string 3 fret -1
-55 steps = 3 % 2:   string 3 fret 2
-66 steps = 13 % 8:  string 4 fret -1
-76 steps = 7 % 4:   string 4 fret 4
-81 steps = 29 % 16: string 5 fret -2
-90 steps = 31 % 16: string 6 fret -6
-94 steps = 2 % 1:   string 6 fret -4
-* TODO 118-edo
-** mod 1 space 16: span of 12, ugly
-10 steps = 17 % 16:  string 1 fret -6 | string 0 fret 10
-29 steps = 19 % 16:  string 2 fret -3
-38 steps = 5 % 4:    string 2 fret 6
-54 steps = 11 % 8:   string 3 fret 6
-62 steps = 23 % 16:  string 4 fret -2
-69 steps = 3 % 2:    string 4 fret 5
-83 steps = 13 % 8:   string 5 fret 3
-95 steps = 7 % 4:    string 6 fret -1
-101 steps = 29 % 16: string 6 fret 5
-113 steps = 31 % 16: string 7 fret 1
-118 steps = 2 % 1:   string 7 fret 6
-** mod 1 space 18: reach 14, horrible octave
-10 steps = 17 % 16  : string 0 fret 10
-29 steps = 19 % 16  : string 1 fret 11
-38 steps = 5 % 4    : string 2 fret 2
-54 steps = 11 % 8   : string 3 fret 0
-62 steps = 23 % 16  : string 3 fret 8
-69 steps = 3 % 2    : string 4 fret -3
-83 steps = 13 % 8   : string 4 fret 11 | string 5 fret -7
-95 steps = 7 % 4    : string 5 fret 5
-101 steps = 29 % 16 : string 5 fret 11
-113 steps = 31 % 16 : string 6 fret 5
-118 steps = 2 % 1   : string 8 fret 10 | string 7 fret -8
-** mod 1 space 17: reach 14, decent 4:5:6
-10 steps = 17 % 16  : string 0 fret 10
-29 steps = 19 % 16  : string 1 fret 12
-38 steps = 5 % 4    : string 2 fret 4
-54 steps = 11 % 8   : string 3 fret 3
-62 steps = 23 % 16  : string 3 fret 11
-69 steps = 3 % 2    : string 4 fret 1
-83 steps = 13 % 8   : string 5 fret -2
-95 steps = 7 % 4    : string 5 fret 10 | string 6 fret -7
-101 steps = 29 % 16 : string 6 fret -1
-113 steps = 31 % 16 : string 6 fret 11
-118 steps = 2 % 1   : string 7 fret -1
-** mod 1 space 15 : reach 9, not great 4:5:6
-10 steps = 17 % 16  : string 1 fret -5 | string 0 fret 10
-29 steps = 19 % 16  : string 2 fret -1
-38 steps = 5 % 4    : string 3 fret -7
-54 steps = 11 % 8   : string 4 fret -6
-62 steps = 23 % 16  : string 4 fret 2
-69 steps = 3 % 2    : string 5 fret -6
-83 steps = 13 % 8   : string 6 fret -7
-95 steps = 7 % 4    : string 7 fret -10
-101 steps = 29 % 16 : string 7 fret -4 | string 6 fret 11
-113 steps = 31 % 16 : string 8 fret -7 | string 7 fret 8
-118 steps = 2 % 1   : string 8 fret -2
-** mod 1 space 13: span 9, ugly 3/2
-10 steps = 17 % 16:  string 1 fret -3
-29 steps = 19 % 16:  string 2 fret 3
-38 steps = 5 % 4:    string 3 fret -1
-54 steps = 11 % 8:   string 4 fret 2
-62 steps = 23 % 16:  string 5 fret -3
-69 steps = 3 % 2:    string 5 fret 4
-83 steps = 13 % 8:   string 6 fret 5
-95 steps = 7 % 4:    string 7 fret 4
-101 steps = 29 % 16: string 8 fret -3
-113 steps = 31 % 16: string 9 fret -4 | string 8 fret 9
-118 steps = 2 % 1:   string 9 fret 1
-** mod 1 space 10: span 7, octave (12,-2), great 4:5:6:7:8
---  5 steps = 33 % 32:  string  0 fret  5 (  5,  508,-24.25)
--- 10 steps = 17 % 16:  string  1 fret  0 ( 10, 1017,-32.60)
--- 29 steps = 19 % 16:  string  3 fret -1 ( 29, 2949,-25.97)
--- 38 steps = 5 % 4:    string  4 fret -2 ( 38, 3864,  1.26)
--- 54 steps = 11 % 8:   string  5 fret  4 ( 54, 5492,-21.65)
--- 62 steps = 23 % 16:  string  6 fret  2 ( 62, 6305, 22.34)
--- 69 steps = 3 % 2:    string  7 fret -1 ( 69, 7017, -2.60)
--- 83 steps = 13 % 8:   string  8 fret  3 ( 83, 8441, 35.40)
--- 95 steps = 7 % 4:    string  9 fret  5 ( 95, 9661,-27.24)
--- 101 steps = 29 % 16: string 10 fret  1 (101,10271,-24.58)
--- 113 steps = 31 % 16: string 11 fret  3 (113,11492, 41.16)
--- 118 steps = 2 % 1:   string 12 fret -2
-* u
-** Septimal dom b9 = dom 7 + very flat 9
-Start with septimal dom7.
-Stack another septimal m3 on the top.
+* TODO good-looking edos per my weighted absolute errors code
+  PITFALL: does not take into account interactions between the errors,
+    which depend on sign
+  99, 94, 89, 87, 84, 77, 72, 65, 63, 58, 53, 46, 41
 * what Matthew Autry uses
-For both 72edo and 87edo, I use every third fret-24 and 29 frets to the octave. I don't use isomorphic tunings. I use seven string acoustic guitars, which gives about an octave in one position. Open string tuning, low to high-1/1,10/9,6/5,4/3,40/27,8/5,16/9.
+  For both 72edo and 87edo, I use every third fret-24 and 29 frets to the octave. I don't use isomorphic tunings. I use seven string acoustic guitars, which gives about an octave in one position. Open string tuning, low to high-1/1,10/9,6/5,4/3,40/27,8/5,16/9.
 * my favorite tunings
+** What I tried
+   Here I'm trying by hand: everything starting from 46, for every modululs m such that edo / m >= 12, for spacing from too small to get a full octave on a guitar until I'm at least into the 20s and looking at jumps of greater than 400 cents. Only trying edos with good-looking harmonics.
 ** [[file:20201009194051-105_edo.org][105-Edo]]
+** 58 2 15: 2 at 4:-1, great for 11-free 13-limit, but tiny frets
+** 63 3 17: great for 2.3.5.7.17.29, and 31 and 11 aren't too far either
+** 43 3 8: very little hard to reach, octave at (5,1)
+** 50 3 10: octave (5,0), only 13, 19 and 31 hard to reach
+** TODO 60 3 16: *awesome*
+*** PITFALL: 60e works better harmonically but worse mechanically
+    The patent 11, 28\60, at (1,4) is 9c sharp.
+    The second-best, 27\60, is 11c flat and lies at (3,-7).
+*** fret span of 4 in the 31-limit -13 -23 -17 -19, or 8 for full 31-limit
+    add 13 for 2 more frets (total 6)
+    add 23 and 19 for one more (total 7)
+    add 17 for one more yet (total 8)
+*** octave at (4,3)
+*** great 4:5:6:7
+** TODO 65 4 13: *awesome*
+*** octave at (5,0)
+*** *fantastic* sound in 11-limit plus 23 and 29
+*** *incredible* fret map
+    Span of 5 in the 31-limit -31 -17.
+    Beautiful major chord alignment.
+*** PITFALL: 65d plays better with other harmonics, but is hard to fret
+    The patent 7 is 52\65, error of -9c, lies at (4,0).
+    The second-best 7 is 53\63, error 9.5c, but at (5,-6) or (3,7).
+      (3,7) actually plays well with the other fret positions.
+** 67 2 13: 2 at (5,1), great for 7-limit, plus more goodies
+** TODO 67 3 11: 2 at (5,4), *fantastic* for 19-limit +31 -7
+   67d is much more playable, putting 7 at 4,1 instead of at 3,7,
+     with an error of 16c instead of -2c.
+   Unfortunately the flat 3:1 plays badly with the sharp everything else.
+** TODO 67 3 13: 2 at (4,5), span of 7 for everything in 31-limit -19
+   The fret for every prime except 19 is in [0,7],
+   so like prime approximation errors, they cancel in fractions.
+** 67 3 15: 2 at (5,-1), span of 8 in 31-limit -23
+** 68 4 13: 2 at (4,4), span of 3 in the 13-limit -2 -7 +19 +31
+   Omitting the octave from that set of primes is a deal-killer though.
+** 72 3 13: 2 at (6,-2), span of 5 in the 31-limit -19 -23 -13
+** 72 3 14: 2 at (6,-4), span of 7 in the 29-limit -19 -23
+** 72 3 19: 2 at (4,-1), great for 3.5.13.23.31
+** 72 4 23: 2 at (4,-5), span of 6 for 3.5.7.13.23.31
+   Prime 2 extends it by 3 frets.
+   Prime 29 extends it by 1 more.
+** 74 2 13: 2 at 6:-2, span of 6 in the 31-limit -19
+** 74 5 14: 2 at 6:-2, span of 6 in the 31-limit -29 -23, nice 1st-pos triads
+   They don't play great with the octave, though -- can lead to a reach of 5 frets, which is about 4 frets of 12-edo.
+** TODO 77 3 13: 2 at 5:4, fret span of 7 in the 19-limit, easy 5-limit
+** TODO 77 3 17: 2 at 4:3, fret span 10 in 31-limit -17 -19, great triads if it weren't for the octave
+   Skip primes 11 and 29 to save 3 more frets.
+** 77 3 20: okay triads, 2 at 4:-1, span of 6 for 13-limit -11 +23
+   and for another 2 frets, include prime 29
+** TODO 80 4 17: 2 at 4:3, great range, perfect triads, confusing
+fret span of 5 over 2:3:5
+80 steps = 2 % 1:   str  4 fret 3
+47 steps = 3 % 2:   str  3 fret -1
+26 steps = 5 % 4:   str  2 fret -2
+
+add 23 and 31 for free:
+42 steps = 23 % 16: str  2 fret 2
+76 steps = 31 % 16: str  4 fret 2
+
+add 13 for one more fret:
+56 steps = 13 % 8:  str  4 fret -3
+
+add these to bump fret span to 11
+65 steps = 7 % 4:   str  5 fret -5 (and "bad" error of 6c)
+37 steps = 11 % 8:  str  1 fret 5
+ 7 steps = 17 % 16: str -1 fret 6
+20 steps = 19 % 16: str  0 fret 5
+69 steps = 29 % 16: str  5 fret -4
+** 80 5 11: fret range of 7 in 31-limit -17, okay triads
+** 80 5 13: *great* for 11-limit, 2 at 5:3
+** 80 5 14: great for lots of stuff, but 5 is hard
 * What beats 87?
 ** In terms of harmonic series approximation
 130, 140, 161, 171, 181, 183, 193, 202, 217, 224
@@ -582,6 +259,11 @@ slightly worse sound
 (4|7) 19: span of 7, 1.9\12 bewteen strings
 118 also offers a miracle alignment very much like 87.
 *** TODO 41
+**** TODO 41 2 11: seems better than Kite's
+     Octave at 3,4.
+     Primes span 7 frets in the 31-limit,
+       or 5 frets excluding 13,
+       or 4 frets excluding also 19 and 23.
 **** 41 8 11: *13-lim range 5 frets* *octave at (3,1)*
 great for monome
 **** 41 3 11: 3.2\12 gap, *11-lim span 5*

@@ -15,23 +15,23 @@ https://celulares.mercadolibre.com.co/celular-128gb_PriceRange_200000-900000
 *** Samsung A31
 ** cheap, none obvious winners
 *** Samsung A30
-$750K
-128 GB
-Great display
-Plastic
-Two SIMS plus a MicroSD
+    $750K
+    128 GB
+    Great display
+    Plastic
+    Two SIMS plus a MicroSD
 *** LG K61
-I like it. Military polycarbonate case. NFC. Missing nothing.
-Android 9.
-Someone said it was buggy, required restarts.
+    I like it. Military polycarbonate case. NFC. Missing nothing.
+    Android 9.
+    Someone said it was buggy, required restarts.
 *** LG Q60
-seems nice but Android 9
+    seems nice but Android 9
 *** Motorola is Chinese-owned
 **** Motorola One Fusion
- Android 10 (no updates; not on Android One plan), 
- no NFC, 
+     Android 10 (no updates; not on Android One plan),
+     no NFC,
 **** Motorala One Action
- Android 10 + updates
- weak camera, delicate
+     Android 10 + updates
+     weak camera, delicate
 ** seem bad
 *** Samsung A51: "no water resistance, processor drags" (says CNet)

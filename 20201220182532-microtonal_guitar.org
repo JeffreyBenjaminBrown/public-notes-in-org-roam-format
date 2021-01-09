@@ -1,0 +1,13 @@
+#+title: microtonal guitar
+* things that can work as movable fretwire
+** violin marking tape
+   Supposedly easier than zipties.
+   https://www.ebay.co.uk/itm/Desktop-Positioning-Tape-Whiteboard-Violin-Fingering-Marking-Tape-Pinstripe-Arts-/363175705221?_trksid=p2349624.m46890.l49292
+** zipties 
+*** advice from others
+   Use needlenose pliers to crimp the tie at the corners where it bends around the fretboard.
+   Use them also to tighten.
+   Trimming the fret-like portion of the ziptie on the bridge side with scissors can help. (Don't trim the side that you fret because that would change the intonation.)
+*** TODO How to make them grip better?
+    Score the back of the neck?
+    Put grip liner under them?

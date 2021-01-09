@@ -1,5 +1,75 @@
 #+title: mtv-lang
 * TODO top priorities
+** TODO How are overlapping notes in a monophonic voice rendered?
+   See comments in this code.
+*** exploratory code
+ (low,high) = (333,444)
+p1 name = mm 1 $ pre3 name [ (0, 1.5, m1 "freq" low) ]
+p2 name = mm 1 $ pre3 name [ (0, 1.5, m1 "freq" high) ]
+
+-- cat [p1,p2] should equal this
+cat_p1_p2 = mm 2 $ pre3 "double" [ (0, 1, m1 "freq" low)
+                                 , (1, 2, m1 "freq" high)
+                                 ]
+
+metronome = mm 2 $ pre3 "m" [ (0, 1, m1 "freq" 555)
+                            , (1, 2, m1 "on" 0) ]
+
+chAll $ mfl [ ( -- Just to know what a unit of time is.
+                "2", nBoop $ insertOns metronome
+              ) ]
+
+chAll $ mfl [ ( -- As expected, plays two continuous notes.
+                "1",
+                nBoop $ insertOns $ cat [p1 "a", p2 "b"]
+              ) ]
+
+chAll $ mfl [
+  -- Surprisingly, these are in phase: Voice 2 octave-doubles voice 1.
+  ( "1", nBoop $ insertOns $
+         cat [p1 "a", p2 "a"]
+  )
+  ,
+  ( "2", nBoop $ insertOns $
+         ops [("freq",(*2))] $ insertOns $ cat_p1_p2
+  )
+  ]
+
+chAll $ mfl [
+  ( -- As expected, plays only one voice.
+    -- But in this:
+    --   Pr.pPrint $ insertOns $ cat [p1 "a", p2 "a"]
+    -- each note appears to last 5/2 units of time.
+    -- So how does Dispatch know to cut one off when the other starts?
+    -- And should that instead be the responsibility of `cat`,
+    -- not `dispatchLoop`?
+    "1",
+    nBoop $ insertOns $ cat [p1 "a", p2 "a"]
+  ) ]
+
+x = nBoop $ insertOns $ cat [p1 "a", p2 "a"]
+Pr.pPrint $ arc 0 1 0 2 x
+
+Pr.pPrint $ arc 0 1 0 1 x
+Pr.pPrint $ arc 0 1 0 1 $ nBoop $ insertOns cat_p1_p2
+Pr.pPrint $ museqFrame 0 1 0 $ museq_NotesToScSends x
+*** `arc` keeps everything it possibly reasonably could.
+    running this:
+      x = nBoop $ insertOns $ cat [p1 "a", p2 "a"]
+      y = arc 0 1 0 2 x
+      Pr.pPrint y
+    we see that x includes 3 "a" events in [0,2].
+    The first is a holdover from the previous cycle.
+    The last is cut off at time 2.
+    The middle one overlaps both of the others,
+    despite the fact all of them have the same label.
+*** The order of events seems to matter.
+    In these:
+      Pr.pPrint $ arc 0 1 0 1 x
+      Pr.pPrint $ arc 0 1 1 2 x
+    the notes present are the same, but their order is different.
+    Either the first or the last is the one that actually sounds.
+** TODO grep for pitfall | todo
 ** TODO brainstorm types
    Just write some types, see if they're fun.
 ** TODO study
@@ -14,26 +84,10 @@
 **** motivation: restore a Zot to reasonable parameter values
 ***** Idea: a map from voices to all params that have been modified in it.
 ***** Idea: a way to change the synth without using a Museq.
+**** motivation: re-sendinng values that don't change is inefficient
 *** Events longer than the host Museq's sup0 make no sense.
-**** Events correspond to named monophonic voices,
-     so an event from this cycle cannot audibly overlap with itself from the next cycle.
-**** can concatenation (append & cat) screw with event durations?
-***** problem statement
-      Consider a Museq `m` with dur=sup=1 and a single event,
-      which starts at 0 and ends on 2.
-      That event is supposed to have duration 2.
-      If you concatenate another Museq `n` to the end of that one,
-      will the event in `m` now have duration 2 + (duration of `n`)?
-***** exploratory code
-      p1 = mm 1 $ pre3 "a" [ (0, 1.5, m1 "freq" 300),
-                             (0.5, 1, m1 "on" 0 ) ]
-      p2 = mm 1 $ pre3 "b" [ (0, 1.5, m1 "freq" 350) ]
-      p3 = mm 2 $ pre3 "c" [ (0, 1, m1 "freq" 450),
-                             (1, 2, m1 "on" 0) ]
-     
-      chAll $ mfl [
-	("1", nVap $ insertOns $ cat [p1, p2] ),
-	("2", nVap $ insertOns p3) ]
+    Events correspond to named monophonic voices,
+    so an event from this cycle cannot audibly overlap with itself from the next cycle.
 *** The ends of events aren't always meaningful.
 **** for Notes, certainly not
     For instance, in Dispatch.Dispatch.dispatchLoop,
@@ -80,8 +134,24 @@
       alternatives
 ****** Find the next start time and stagger them across the intervening time, per this unit-time rhythm.
 ****** Pitch one of them up, quiet it, and delay its onset a little.
-** TODO BUG: initial splash
-*** too many events sound simultaneously when it first starts
+** TODO BUGs
+*** initial splash
+**** too many events sound simultaneously when it first starts
+*** calling chAll many times in quick succession screws it up
+**** example
+***** this code screws up
+p1 = mm 1 $ pre3 "a" [ (0, 1.5, m1 "freq" 300),
+                       (0.5, 1, m1 "on" 0 ) ]
+p2 = mm 1 $ pre3 "b" [ (0, 1.5, m1 "freq" 360) ]
+p3 = mm 2 $ pre3 "c" [ (0, 1, m1 "freq" 450),
+                       (1, 2, m1 "on" 0) ]
+
+chAll $ mfl [ ("1", nBoop $ insertOns p2) ]
+chAll $ mfl [ ("1", nBoop $ insertOns p3) ]
+chAll $ mfl [
+  ("1", nBoop $ insertOns $ cat [p1, p2] ),
+  ("2", nBoop $ insertOns p3) ]
+***** and yet if I comment out any one call to chAll, it doesn't
 * tier-2 priorities
 *** schedule a replaceAll
     for, say, the next cycle equal to 0 modulo 16
