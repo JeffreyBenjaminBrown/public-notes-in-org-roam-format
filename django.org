@@ -27,22 +27,15 @@
 ** downloads from Django
    See the "download" function in run_make/views.py
 ** [[file:20201023135031-file_uploads_in_django.org][File Uploads In Django]]
-** TODO showo Makefile errors if build fails
-** TODO before production run
+** TODO before production run, do web security stuff
 *** see these warnings from <app name>/settings.py
 **** # SECURITY WARNING: keep the secret key used in production secret!
   SECRET_KEY = ...
-
 **** # SECURITY WARNING: don't run with debug turned on in production!
   DEBUG = True
 *** add the domain name to ALLOWED_HOSTS in settings.py
 *** configure to email errors to me, rather than show them to user
-** TODO deploy to a server
-** if I can't handle the section on forms yet
-   Read things that come earlier in the master documentation list --
-   esp. templates, views.
 ** [[file:20201028190211-forms_in_django.org][forms in Django]]
-** ? In Docker image, maybe customize further [[id:dcc41642-ba24-45b8-bf55-daf08d7f701e][for Apache]] and [[file:20201014163254-wsgi.org][for Wsgi]]
 * refs
 ** All Django documentation
  https://docs.djangoproject.com/en/3.1/

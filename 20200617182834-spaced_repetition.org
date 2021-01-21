@@ -1,1 +1,6 @@
 #+title: spaced repetition
+#+ROAM_ALIAS: memory remember
+* TODO remember
+** Killing SC before the GHCI process makes Jack err.
+** Git push just before and just after any big move of text
+   Otherwise, checking the diff is a nightmare.

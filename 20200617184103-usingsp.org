@@ -2,4 +2,4 @@
 * tags :: [[file:20200617182834-spaced_repetition.org][spaced repetition]]
 * Let it provide prompts for writing and thinking.
 * After processing a prompt, mark it "fruitful" or not.
-If fruitful, it comes up again more quickly.
+  If fruitful, it comes up again more quickly.

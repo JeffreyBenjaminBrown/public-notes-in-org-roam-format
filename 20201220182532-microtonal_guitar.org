@@ -1,9 +1,19 @@
 #+title: microtonal guitar
+* TODO ask about Metatonal and neck standards
+** first check the website
+** almost sent Facebook group
+I read about replacing necks on guitars. It often requires reducing the size of the joint on the neck so it fits in the socket on the guitar. I don't have equipment for that, and I don't know any competent luthiers around here.
+
+Are there brands of guitars that reliably use "standard" sockets for the neck? Are replacement necks from Metatonal Music that size?
+
+If I buy a replacement neck from Metatonal Music, is there a
+
+[Related: https://www.facebook.com/groups/497105067092502/permalink/2086475328155460]
 * things that can work as movable fretwire
 ** violin marking tape
    Supposedly easier than zipties.
    https://www.ebay.co.uk/itm/Desktop-Positioning-Tape-Whiteboard-Violin-Fingering-Marking-Tape-Pinstripe-Arts-/363175705221?_trksid=p2349624.m46890.l49292
-** zipties 
+** zipties
 *** advice from others
    Use needlenose pliers to crimp the tie at the corners where it bends around the fretboard.
    Use them also to tighten.

@@ -1,5 +1,9 @@
 #+title: forms in Django
 * ref
+** TODO ? preliminary reading
+   If I can't handle the section on forms yet,
+   read things that come earlier in the master documentation list --
+   esp. templates, views.
 ** https://docs.djangoproject.com/en/3.1/topics/forms/
 ** that page includes links to more detailed pages at the top
 * PITFALL: the word "form" is a minefield
