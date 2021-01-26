@@ -1,6 +1,9 @@
 #+title: spaced repetition
 #+ROAM_ALIAS: memory remember
 * TODO remember
-** Killing SC before the GHCI process makes Jack err.
+** keeping JACK happy
+*** Killing SC before the GHCI process makes Jack err.
+*** don't leave Spotify open (even if not playing) when turning Qjackctl
+    not sure but maybe bad
 ** Git push just before and just after any big move of text
    Otherwise, checking the diff is a nightmare.

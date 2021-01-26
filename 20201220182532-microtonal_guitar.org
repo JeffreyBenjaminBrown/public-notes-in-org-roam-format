@@ -1,4 +1,9 @@
 #+title: microtonal guitar
+* some many-stringed guitars
+** the Jackson SLAT8
+   https://www.jacksonguitars.com/gear/shape/soloist/x-series-soloist-archtop-slat8-ms/2916767503
+** the Schecter Reaper-7
+   https://www.schecterguitars.com/guitars/reaper-7-multiscale-satin-inferno-burst-detail
 * TODO ask about Metatonal and neck standards
 ** first check the website
 ** almost sent Facebook group
@@ -21,3 +26,9 @@ If I buy a replacement neck from Metatonal Music, is there a
 *** TODO How to make them grip better?
     Score the back of the neck?
     Put grip liner under them?
+* TODO how to remove frets
+** with a razor, score around where the fret joins the fretboard
+   both on the face and on the sides of the neck
+** use masking tape to protect the neck around the fret
+   when heating with soldering iron
+** clean the fret slots once the frets are out
