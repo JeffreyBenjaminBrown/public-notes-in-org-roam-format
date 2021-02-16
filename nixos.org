@@ -1,7 +1,32 @@
 #+TITLE: NixOS
-* [[file:20200707160119-emacs_nix_is_broken.org][NixOS, my config]]
 * [[file:20200707160119-nixos_my_config.org][NixOS, my config]]
 * [[file:20201110140636-nixos_reinstalling.org][NixOS, installing]]
+* How to figure out (from within NixOS) which boot config got me here.
+  :PROPERTIES:
+  :ID:       7c599846-4081-416d-8c8a-878516dda8d8
+  :END:
+https://www.reddit.com/r/NixOS/comments/lknn4k/how_to_know_which_boot_config_i_am_on_why_is_all/
+** find the derivation folder
+Running
+  `stat /run/current-system`
+
+printed (among others) this line:
+```
+  File: /run/current-system -> /nix/store/fyx0xdx1kakl2vd5jgc3rk8a7a0yq9qz-nixos-system-jbb-dell-20.09.3124.2118cf551b9
+```
+
+There exists at least one file in (a subfolder of) `/nix/var/nix/profiles` that links to a folder with the same hash:
+
+```
+[jeff@jbb-dell:/nix/var/nix/profiles]$ ls system-profiles/ -l
+total 12
+lrwxrwxrwx 1 root root 36 feb 15 16:57 no_intero_and_musnix_06eaf399 -> no_intero_and_musnix_06eaf399-1-link
+lrwxrwxrwx 1 root root 88 feb 15 16:57 no_intero_and_musnix_06eaf399-1-link -> /nix/store/fyx0xdx1kakl2vd5jgc3rk8a7a0yq9qz-nixos-system-jbb-dell-20.09.3124.2118cf551b9
+...
+```
+** maybe, print the derivation itself
+   Go to the folder, then run
+     nix show-derivation $(pwd)
 * instead of .bashrc or .profile
 use environment.variables to define variables
 * NixOS overlays

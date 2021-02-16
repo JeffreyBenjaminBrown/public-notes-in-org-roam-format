@@ -1,4 +1,21 @@
 #+title: amazing music
+* *STAFFcirc*: a collaborative album group, some of whom I found
+  Stands for "sexy toads and frogs friends circle".
+** awesome artists not on Spotify
+   Jaq (on Spotify)
+   Petet (on Spotify)
+     also on Soundcloud: https://soundcloud.com/symphonynth
+   Emelia K (on Spotify)
+   0x70457465 (nowhere)
+   STC_100n (nowhere)
+     for n in [1..4]
+   Abd al-Mahdi (nowhere)
+** awesome on the record but mostly not awesome on spotify
+   vince kaichan
+   hunter van brocklin
+   tancla
+   themnotyou
+* Ordinate
 * Gaia Complex (Aidan Lochran)
 Xen, electronic, beats.
 https://gaiacomplex.bandcamp.com/album/how-to-spread-fractals-on-toast/

@@ -1,9 +1,28 @@
 #+title: mtv-monome
 * TODO just one kind of capture
-  Press record. Play stuff. Press stop.
-  That gets stored to "latest loop".
-  Then I can enter functions to do stuff with it --
-  e.g. collect all pitches, map that to a key, etc.
+** idea
+   Press record. Play stuff. Press stop.
+   That gets stored to "latest loop".
+   Then I can enter functions to do stuff with it --
+   e.g. collect all pitches, map that to a key, etc.
+** types
+   newtype EdoPitch = EdoPitch {_unEdoPitch :: Int}
+   type LedMsg = ( (MonomeId, WindowId)
+                 , ((X,Y), Led) )
+  data Voice app = Voice {
+      _voiceSynth  :: Maybe (Synth ZotParams)
+    , _voicePitch  :: Pitch app
+    , _voiceParams :: Map String Float }
+  data St app = St {
+    , _stVoices :: Map VoiceId (Voice app)
+    , _stPending_Monome :: [LedMsg]
+    , _stPending_Vivid :: [ScAction VoiceId]
+  data EdoApp = EdoApp
+    { _edoConfig :: EdoConfig
+    , _edoSustaineded :: Set VoiceId
+    } deriving (Show, Eq)
+  data EdoConfig = EdoConfig
+    { _edo :: Int
 * TODO It's really fun when the synth controls are useful.
   They don't have to cover the whole space, just a "useful" chunk --
   one that's diverse and consistently good.

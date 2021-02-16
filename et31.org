@@ -22,9 +22,13 @@ http://x31eq.com/temper/net.html
     [0.000, -5.181, 0.783, -1.084, -9.382, 11.085⟩
 * [[file:20200618194950-bosanquet_mapping_for_equal_temperaments.org][Bosanquet mapping for equal temperaments]]
 * [[file:20201225205029-some_edos_equal_divisions_of_the_octave.org][some edos (equal divisions of the octave)]]
+* microtonal notation
+** [[file:20210131171849-46_edo_notation.org][46-edo notation]]
 * scale concepts
 ** two stacks of fifths
 * nice chords
+** 1, 7/4, 11/4, 11/4 * 6/5, 11/4 * 5/3
+** 5/6, 1, 5/4, 11/8 : the (?) 11-limit min 6 chord.
 ** dim 7 using 7/6 and 11/8 at 1/1, then just dom 7 at 4/3
 *** In 46-edo
 0: 0 10 21 37

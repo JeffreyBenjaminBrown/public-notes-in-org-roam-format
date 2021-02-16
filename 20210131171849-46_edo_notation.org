@@ -1,0 +1,82 @@
+#+title: 46-edo notation
+* refs
+** Cam Taylor first explained this to me
+   https://www.facebook.com/groups/497105067092502/permalink/2106208506182142/?comment_id=2106280346174958
+* A map.
+  The first element of each pair counts fifths, from D.
+  The second counts degrees of 46-edo, from D.
+** code to generate the parenthetical portion of the map, and more
+   import Data.List as L
+   (edo,fifth) = (46,18)
+   fifths = take edo [0..]
+   edoSteps = map (flip mod edo . (*fifth)) fifths
+   paired = zip fifths edoSteps
+   mapM_ putStrLn $ map show $ L.sortOn snd paired
+   -- see where 7 fifths arrives
+   filter ((== 7) . fst) paired
+   -- see what notes are available within 7 fifths of the origin
+   L.sortOn snd $ ( filter ((<= 7) . fst) paired ++ filter ((>= (46-7)) . fst) paired )
+** the map
+   (0,0)     D
+   (29,1)    /D
+   (12,2)    //D=\Eb -- (12,2)
+   (41,3)    Eb
+   (24,4)    \D#=/Eb
+   (7,5)     D#=//Eb -- (7,5)
+   (36,6)    \\E=Fb
+   (19,7)    \E
+   (2,8)     E
+   (31,9)    /E
+   (14,10)   \F
+   (43,11)   F
+   (26,12)   /F
+   (9,13)    E#=//F -- (9,13)
+   (38,14)   \\F#=Gb
+   (21,15)   \F#=/Gb
+   (4,16)    F#
+   (33,17)   /F#
+   (16,18)   \G
+   (45,19)   G
+   (28,20)   /G
+   (11,21)   //G=\Ab
+   (40,22)   \\G#=Ab
+   (23,23)   \G#=/Ab
+   (6,24)    G# -- (6,24)
+   (35,25)   /G#=\\A
+   (18,26)   \A
+   (1,27)    A
+   (30,28)   /A
+   (13,29)   \Bb
+   (42,30)   Bb
+   (25,31)   \A#=/Bb
+   (8,32)    A#=//Bb -- (8,32)
+   (37,33)   \\B=Cb
+   (20,34)   \B
+   (3,35)    B
+   (32,36)   /B
+   (15,37)   \C
+   (44,38)   C
+   (27,39)   /C
+   (10,40)   //C -- B#, (10,40)
+   (39,41)   \\C#=Db
+   (22,42)   \C#=/Db
+   (5,43)    C# -- (5,43)
+   (34,44)   /C#=\\D
+   (17,45)   \D
+   (46,46)   D
+* noteworthy
+** # and b correspond to 5 degrees of 46-edo
+** pythagorean intervals are notated most easily
+*** without accidentals, major thirds are too big
+    For instance, C E G is a Pythagorean C major third.
+    A just-ish C major third would be C \E G ("C, down E, G").
+**** and the inverse: without accidentals, minor sixths are a degree too small
+*** without accidentals, minor thirds are too small
+**** and the inverse: without accidentals, major sixths are a degree too big
+*** without accidentals, major sevenths are a degree too big
+    and minor seconds a degree too small
+*** without accidentals, minor sevenths are 16/9-ish
+    and "natural" major seconds 9/8-ish.
+    9/5-ish, which is the one in just-ish minor seventh chords,
+    is a degree bigger.
+    10/9, the smaller minor second, is a degree smaller.

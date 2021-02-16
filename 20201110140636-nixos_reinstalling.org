@@ -32,6 +32,8 @@ e.g. from this file:
   ~/.config/BraveSoftware/Brave-Browser/Default/Bookmarks
 PITFALL: After that, bookmarks still won't be visible,
    until I ask for them to be.
+** configure git to use diff-so-fancy
+   git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 * handy commands, roughly ordered
 ** wifi password
 ** nix-env -i emacs

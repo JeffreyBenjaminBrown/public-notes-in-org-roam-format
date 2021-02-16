@@ -5,5 +5,13 @@
 *** Killing SC before the GHCI process makes Jack err.
 *** don't leave Spotify open (even if not playing) when turning Qjackctl
     not sure but maybe bad
-** Git push just before and just after any big move of text
-   Otherwise, checking the diff is a nightmare.
+** git and big text moves
+*** before moving a complicated thing in a git repo
+    consider whether I can move its definition to its own file.
+    If so, do that, and then just move the reference to the new file.
+    That way the diff is more readable.
+*** if I can't, push my changes just before and just after any such move
+    Otherwise, checking the diff is a nightmare.
+    I'll have forgotten what I was doing,
+    *and* once I realize I'm looking at a move,
+    I have to search for each moved line.
