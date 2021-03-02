@@ -1,0 +1,33 @@
+#+title: How I used zipties to turn a 12-edo guitar into a 24-edo one
+* posted to Facebook
+  https://www.facebook.com/groups/110164742335730/permalink/4109792902372874/
+* PITFALLS
+** ? put the eyes on the top side
+   Otherwise they can poke the left hand unless cut short,
+   but cutting them short might make it hard to tighten them.
+   The capo works great on either side, and I suspect a little better
+   if it opens toward the top (like my hand does) rather than the bottom.
+* the story
+  I converted the first five frets of my 12-edo steel-string acoustic guitar to 24-edo with zipties and velcro. Given the little work it took, the results are surprisingly good.
+
+  The velcro is the kind that comes in two rolls, male and female, with adhesive tape on one side. I taped the male (scratchy) kind onto the back of the guitar to make it harder for the zipties to slide around. Did not quite cover the whole neck, though, because I want to be able to get as sharp an angle as possible where the ziptie bends around the corner.
+
+  For each ziptie I slid it through, aligned it to get the eye about where I wanted it, and crimped one of the two corners. That doesn't have to be done accurately; what's important is that the distance between the two crimps be accurate. So I just bent the ziptie by hugging the corner, then pulled it out and folded it in half with my fingers. No pliers needed.
+
+  The second crimp is tricker. I slid the ziptie back under the strings, lined up the first crimp with the corner, held it down against the fretboard with my fingers so that it's lying flat, and crimped the second corner by again pulling it tight around the edge of the fretboard. Then I pulled it out again and folded it in half with my fingers. The tricky part here is to make sure you're folding it right at the center of where it was bent around the corner. There might be more precise ways to do it -- say, by marking the ziptie with something while it's bent -- but for me it was an exercise in eyeballing symmetry.
+
+  Once the two crimps are nice and sharp, thread the thing back through the strings (make sure it's actually under all of them!), put the eyeless end through the eye, pull tight with fingers. It won't be tight enough yet. Now align it some more -- again, an exercise in eyeballing symmetry, getting it halfway* between the two frets -- and making sure that it's not slanted behind the neck. (That is, the ziptie should define a plane that cuts orthogonally through the fretboard. Otherwise it could be tighter.)
+
+  The other hard part is, once it's aligned well, holding the ziptie in place and flat against the neck everywhere with 1.5 hands, pushing the eye against the neck with 0.5 hands, and using a pair of pliers (or your molars if you don't have a third hand) to yank like hell.
+
+  It might be a good idea to tighten the ziptie a little closer to the nut than you eventually want it, to get it especially tight, and then shimmy it down to where you really want it. But that might run the danger of getting it so tight that you can't actually do the shimmying. (I did that for two of the five frets, where the zipties weren't tight enough. In one case it seemed to work; in the other it didn't seem to get any tighter.)
+
+  The result sounds great on the lowest five strings. There's no fret buzz. (On the second string there was fret buzz until I tuned up a bit -- more tension means the string swings in a tighter circle, lessening the probability that it hits anything.) The action on my first string is lower than the others, and it doesn't quite clear the zipties at frets 3.5 and 4.5 when I fret at frets 3 or 4 -- unless I use another finger on my left hand to hold down the offending ziptie. I might be able to tighten them enough to avoid that problem; not sure.
+
+  Also, the angle at which you hold the guitar, and the angle at which you pluck a string, both affect the probability of fret buzz. In both cases, vertical is better. That's because the strings don't actually travel in a circle (usually) but in an oval. Particularly bad is to pluck the strings out from the body of the guitar.
+
+---
+
+(*) Halfway between the two frets would be effectively ideal if the shape of the ziptie was the same as the shape of the built-in frets. There's a slight deviation, which I calculated once, but if I recall correctly it's on the order of half a cent.
+
+However, the zipties are not in fact the same shape as the frets. In my case they're about the same height, but flatter and wider. This suggests to me that they should be a little closer to the bridge, because the hinge point is probably the edge of the ziptie that's closer to the nut. If I'm right about that, and if the hinge point of each built-in fret is dead center, then the nut-side edge of each ziptie should be halfway between the frets on either side of it.

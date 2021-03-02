@@ -1,8 +1,5 @@
 #+title: Django (Python web framework)
 * TODO
-  :PROPERTIES:
-  :ID:       3979ab42-2ac6-4c40-800b-ee5189aae26b
-  :END:
 ** find, display pictures
 *** Substitute folder path into image name.
     See, e.g., how "name_augmented" is passed from polls.views to the silly-form templates.
@@ -39,6 +36,11 @@
 *** add the domain name to ALLOWED_HOSTS in settings.py
 *** email errors to me, rather than show them to user
 ** [[file:20201028190211-forms_in_django.org][forms in Django]]
+* PITFALL: Reusing templates across form-submitting views is dangerous!
+** the problem
+   Where the form data gets sent is encoded in the `action=` argument to the <form> element in the template. Trying to use the same template at two different URLs will mean the data from both URLs is sent to only one of them -- whichever one is encoded in the action= argument.
+** a solution
+   The template could take the receiving URL as an argument from Django.
 * refs
 ** All Django documentation
  https://docs.djangoproject.com/en/3.1/

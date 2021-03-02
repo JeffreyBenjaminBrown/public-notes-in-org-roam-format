@@ -1,0 +1,13 @@
+#+title: Fundacion CardioInfantil
+* calling them
+  667 2727 - the number on my cardiology order.
+    It redirects to other numbers.
+      746 1616 normal cita
+        After the one I should use failed,
+        I called this and chose 1, waited 20 min,
+        then got disconnected.
+      749 0404 prefencial cita
+        doesn't work, redirects to
+        667 2720
+          1 - citas cardio adulto
+          doesn't recognize the number

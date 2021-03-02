@@ -32,3 +32,5 @@ If I buy a replacement neck from Metatonal Music, is there a
 ** use masking tape to protect the neck around the fret
    when heating with soldering iron
 ** clean the fret slots once the frets are out
+* [[file:20210223093816-how_i_used_zipties_to_turn_a_12_edo_guitar_into_a_24_edo_one.org][How I used zipties to turn a 12-edo guitar into a 24-edo one]]
+* [[file:20210223205954-removing_frets_contacting_luthiers_in_bogota_about.org][removing frets: contacting luthiers in Bogota about]]

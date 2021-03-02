@@ -64,7 +64,12 @@ In 46et it's
    (0 18 28)  (7 18 25)'
 *** (0 11 18 5')
  creates a 25 relationship from 11 to 5'
-* mystery scales
+* scales
+** in 46 edo: 0 27 8' + (32: 0 10 27 37)
+   = a stack of two fifths from 0 +
+     a septimal min 7 from the 13th harmonic
+   It has way more chords with a P5 than one might expect,
+   and a 5-limit maj7 from 27.
 ** too many: 0 2 6 10 14 18 20 24 27
 How to remember: it includes two stacks of four,
   one starting at 2, the other at 20.
