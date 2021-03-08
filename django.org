@@ -28,13 +28,21 @@
    :PROPERTIES:
    :ID:       8949db07-95ac-44c8-9b7b-78d565c1943d
    :END:
-*** see these warnings from <app name>/settings.py
+*** see these warnings from <project name>/settings.py
 **** # SECURITY WARNING: keep the secret key used in production secret!
   SECRET_KEY = ...
 **** # SECURITY WARNING: don't run with debug turned on in production!
   DEBUG = True
 *** add the domain name to ALLOWED_HOSTS in settings.py
 *** email errors to me, rather than show them to user
+*** maybe change MEDIA_ROOT in ~/of/webapp/django/ebdjango/settings.py
+*** be sure nothing secret is available in public subfolders of mnt/
+*** ? change size limit for downloads, uploads
+**** TODO test that I can in fact upload all six files if needed
+**** I'm not sure either of these sources are good
+     They're just the first SO results from Google.
+     https://stackoverflow.com/questions/12232078/how-to-configure-server-to-allow-large-file-downloads
+     https://stackoverflow.com/questions/9691057/php-apache-ajax-post-limit
 ** [[file:20201028190211-forms_in_django.org][forms in Django]]
 * PITFALL: Reusing templates across form-submitting views is dangerous!
 ** the problem
