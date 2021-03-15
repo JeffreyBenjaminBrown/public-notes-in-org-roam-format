@@ -1,4 +1,6 @@
 #+title: reading|listening to
+* TODO How facebook got hooked on AI
+  https://www.technologyreview.com/2021/03/11/1020600/facebook-responsible-ai-misinformation/
 * TODO pages from Andy Matuschak's knowledge graph with links I haven't gotten to
   :PROPERTIES:
   :ID:       bc0e8f6e-3883-4e1c-b945-b7ea3a4d3214

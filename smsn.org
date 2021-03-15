@@ -65,3 +65,4 @@ That is, a folder that Encfs is funneling data into.
 *** visit note by id
     C-c o
     smsn-open-note-prompt
+*** Write vCs: C-c C-w c

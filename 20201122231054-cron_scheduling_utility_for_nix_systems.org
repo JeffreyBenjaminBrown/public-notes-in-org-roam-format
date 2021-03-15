@@ -1,30 +1,32 @@
 #+title: cron (scheduling utility for *nix systems)
-* by default, nobody but root can use cron
+* PITFALLS
+** req's for files in cron.d
+   "must be owned by root, and must conform to run-parts’ naming conventions (no dots, only letters, digits, underscores, and hyphens)."
+   https://unix.stackexchange.com/a/417327
+** by default, nobody but root can use cron
   But create an empty /etc/cron.deny file, and then every user can use cron.
-* for Docker, must disable some kind of pam security policy
+** for Docker, must disable some kind of pam security policy
   specifically the `pam_loginuid` line in
     /etc/pam.d/crond
   per this advice:
     https://stackoverflow.com/a/21928878/916142
-* start cron with `service cron start`
-* to check if the cron daemon is running
+* how to
+** how to start cron : `service cron start`
+** how to check if the cron daemon is running
   Look for `cron` in the output of
     ps -ef
-* how to write/edit a cron job
-** It does not use the global PATH.
+** how write/edit a cron job
+*** It does not use the global PATH.
   Either modify the PATH variable defined in that file, or use the full path to the desired command, or both.
   That's because the PATH defined in the file does not necessarily match the PATH defined in the shell.
-** The primary crontab files* require user names.
+*** The primary crontab files* require user names.
    * that is, /etc/crontab and /etc/cron.d/*
    So, e.g., this doesn't work
      * * * * *      /opt/conda/bin/python /mnt/write-time.py
    Instead do something like this:
      * * * * * root /opt/conda/bin/python /mnt/write-time.py
-* where to add cron jobs
+** where to add cron jobs
   Adding files to
     /etc/cron.d/<any file>
   appears to be the preferred way.
   I can ignore /etc/crontab. (Maybe editing it would be effective, but it seems unidiomatic.)
-* PITFALL: req's for files in cron.d
-  "must be owned by root, and must conform to run-parts’ naming conventions (no dots, only letters, digits, underscores, and hyphens)."
-  https://unix.stackexchange.com/a/417327

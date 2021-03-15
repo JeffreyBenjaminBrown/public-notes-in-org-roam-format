@@ -1,0 +1,26 @@
+#+title: community-building online
+esp. for the particular case of new software
+* STALE -- This content was migrated to SmSn
+** sources
+ https://news.ycombinator.com/item?id=26413955
+ https://orbit.love/blog/a-tactical-guide-to-kickstarting-your-community/
+** reduce surface area to increase density
+   If there are a lot of tiny groups they won't have momentum;
+   better to consolidate.
+** be (as a founder, lead coder, etc.) active in the community
+   and respond with product changes asap,
+   b/c people participate if doing so is useful for them.
+** a show-and-tell channel
+** "creating a sense of psychological safety [and connection] is key to facilitating many-to-many conversations"
+** host events
+   This creates the sense of safety and connection.
+   Even "small" ones (~12 members) build community.
+** create rituals
+   "our team got in the habit of sharing new things shipped in #general on Fridays"
+   "people bond over their shared identity ... by creating language unique to their community"
+   They made their own emojis (apparently easy to add to Slack).
+** create content
+   at least to attract initial attention for the people who will become the community
+** "are there milestones community members can achieve that signify their progress or tenure?"
+   e.g. the medals Discord awards.
+** "are you regularly acknowledging and celebrating folks who are contributing and adding a lot of value?"
