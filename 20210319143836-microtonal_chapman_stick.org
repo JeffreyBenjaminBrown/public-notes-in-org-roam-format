@@ -1,0 +1,59 @@
+#+title: microtonal Chapman Stick
+* TODO ? send to Stick Enterprises
+** TODO rewrite to ask why the numbers are weird
+   e.g. why 0.012 and 0.018 are neighbors on both sides.
+** some potential email body text
+Hello!
+
+I'm going to do radical surgery to my Stick, a basic Grand that I bought in maybe 2003. I want to refret it for the Kite tuning, which uses 20.5 instead of 12 frets per octave, and tunes the strings such that each string has half of the notes available in 41 tone equal temperament.
+
+I realize this probably voids any warranty I might have had. I'm not worried about that.
+
+I'm writing to find out what the usual Stick string gauges are. The Kite tuning puts major thirds, rather than fourths or fifths, between every pair of adjacent strings, so I can't use a standard set of Stick strings. I'll have to do some math to figure out what gauges are appropriate.
+
+I found this list of gauges online:
+
+treble: 8  9  12 18 26 38
+bass:   12 18 22 40 65 95
+
+
+Also I realize that your string gauges have changed somewhat over the years -- at least, you used to offer only one tension, then you started offering heavier strings too. If the above list is out of date, please let me know what would sound better (for a Stick tuned in the recommended matched-reciprocal way).
+
+I hope you're well. I haven't visited in years but I remember you guys being really cool.
+
+Thank you!
+Jeff
+* standard Stick string gauges, I think
+  This is cobbled together -- I found the numbers on a Google image search, and Brian told me which strings are wound.
+  It seems kind of absurd -- if the treble strings are 5\12 apart and the bass 7\12, why are 12 and 18 neighbors in both systems?
+  treble:  8   9  12  18  26u 38u
+  bass:   12  18  22u 40u 65u 95u
+* range
+  Normally a Chapman Stick has a range of 3 octaves and a whole tone across the open strings, with lots of overlap.
+* 20.5 edo, 11\41 between strings
+** range
+  Puts 55\41 (an octave and a down maj 3rd) across six strings.
+  Normal Stick range across open strings is (41*3 + 7 = 130)\41. Doing this instead, since 55*2 = 110 < 130, the open strings would not overlap; there would be a gap of 20\41 (the flatter tritone) betwteen the highest bass and the lowest treble string.
+** playability is *awesome*
+*** GHCI> Pr.pPrint $ thanosReport 41 2 11
+    ...
+    4  steps = 17 % 16	: st 0 fr 2
+    10 steps = 19 % 16	: st 0 fr 5
+    13 steps = 5 % 4	: st 1 fr 1
+    19 steps = 11 % 8	: st 1 fr 4
+    21 steps = 23 % 16	: st 1 fr 5
+    24 steps = 3 % 2	: st 2 fr 1
+    29 steps = 13 % 8	: st 3 fr -2
+    33 steps = 7 % 4	: st 3 fr 0
+    35 steps = 29 % 16	: st 3 fr 1
+    39 steps = 31 % 16	: st 3 fr 3
+    41 steps = 2 % 1	: st 3 fr 4
+*** Of the hardest intervals, only the octave is especially important.
+    The octave is (3,4).
+    The neutral 3rd is (0,5) or (2,-5).
+    19%16 and 23%16 also lie on fret 5.
+*** In the 31-limit without 13 or 23, the range is 4 frets.
+    That's for *every* interval, not just the prime ones --
+    e.g. including 6/5, 11/5, etc.
+    (No range in any limit is less than 4 frets,
+    as that's the width of the octave.)

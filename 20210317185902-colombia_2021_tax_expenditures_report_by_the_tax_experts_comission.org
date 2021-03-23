@@ -1,0 +1,342 @@
+#+title: Colombia 2021 Tax Expenditures Report, by the Tax Experts Comission
+* section 4, the corpoprate income tax
+  alternatives
+** notes, roughly chronological
+*** terms
+**** CIT = corporate income tax
+**** TE = "tax expenditure" = loophole, roughly
+     If I understand right, an artefact of the tax code that (usually distorts incentives, and) leaves money on the table in a manner unequal across taxpayers.
+**** ETR = effective tax rate
+**** FTZ = free trade zone
+*** goals
+**** broaden base
+**** simplify
+**** balance across sectors
+*** methods
+**** eliminate "distortive non-profit based taxes including the equity or wealth tax"
+**** "turn the financial transaction tax into a tax on cash withdrawals only (or abolish it entirely)"
+**** "eradicate the CIT recapture tax"
+     "The CIT recapture tax (i.e. the dividend withholding tax levied on untaxed corporate profits) is a rather uncommon approach to protect the tax base. In order to prevent firms from distributing dividends that have not been taxed at the CIT rate – facilitated by the wide range of tax incentives that are in place – the government has introduced the CIT recapture tax. This tax offsets a wide range of tax incentives that are in place, in particular with respect to non-taxable income, exempt income and deductions that exceed actual costs (such as accelerated tax depreciation allowances), as well as tax credits. While the tax protects tax revenues and corrects for the large opportunities businesses face to limit their tax liability, it is a blunt instrument as it also offsets the impact of tax expenditures and tax incentives that have good efficiency characteristics, such as accelerated tax depreciation allowances and the CIT credits for the VAT on investment and the municipal business turnover tax. The CIT recapture tax is therefore highly distortive in itself." (p 112, second full paragraph)
+**** "lower the standard CIT rate significantly for all businesses"
+**** Change profit-based to cost-based ones (or abolish them)
+     For examples see p. 103,
+     particularly the discussion of renewable energy.
+***** One examaple: the municipal business turnover tax (ICA)
+      is a tax on revenue, not profit.
+****** why that's bad
+       "forces businesses with a high turnover (jbb: I think this means revenue) but low profit margin to face a very high effective tax rate levied on their profits." (p. 113, second paragraph)
+****** it's partially compensated
+       "Only profitable businesses can benefit from the tax credit, so the distortion of the ICA is not entirely corrected for with the CIT credit." (p 113 par 2)
+****** can't move fast
+       "Therefore, until local governments are funded through less distortive taxes, such as recurrent taxes on immovable property, and/or larger grants from central government, the tax credit within the CIT for the local turnover tax ICA should be maintained" (p. 113, second paragraph)
+*** history
+**** it so complex
+***** Congress responds to distortions with more distortions.
+***** p. 111, four bullet points:
+      "Special tax rules ... have been introduced to offset the effects of the various non-profit based taxes that businesses have to pay, which appear to change with each reform"
+      "Tax incentives introduced to mitigate the distortive impact of the standard tax regime"
+      "Complex procedure in determining the CIT taxable"
+      "The preferential tax treatment that is provided to some sectors or types of investment."
+***** why that's bad
+****** "increased tax complexity, tax enforcement costs, and tax avoidance opportunities."
+****** reduced revenues, leading to calls for yet higher rates, which triggers yet more exemptions"
+**** Widespread exemptions have forced weird distortionary taxes.
+     "The municipal business turnover tax, financial transaction tax and VAT burden on investments in fixed assets are but a few examples of how the Colombian tax system itself distorts the functioning of the economy."
+**** an example of tax system abuse
+     "Unfortunately, the 2020 reform, which included preferential tax treatment for the tourism sector and businesses that hire young workers, demonstrates the tendency of these policymakers and legislators to favour new tax incentives over genuine reform that reduces distortions and reinstalls fairness"
+*** current inequities
+**** "Some sectors ... have special provisions for the determination of their taxable income, such as the financial sector, the oil, gas and mining sector, the international transport sector, gas stations, leasing companies, insurance companies, bookshops and construction services. Concessions also receive a special tax treatment."
+     Punishes capital-intensive endeavors.
+**** "VAT on fixed assets: VAT has to be paid on investment in fixed assets, but businesses cannot obtain a refund against output VAT for the input VAT paid on the investment. As from 2019 onwards, the unrecoverable VAT can be recovered in the form of a CIT credit."
+***** This raises the cost of capital.
+***** Businesses in the SIMPLE regime aren't even eligible for the CIT credit (because they don't pay ordinary CIT).
+      "Businesses that file a SIMPLE tax return and have turnover above the VAT threshold may not be able to recover the input VAT paid on investment in fixed assets as they cannot enjoy the CIT credit in relation to the VAT paid on investment (as they are liable for SIMPLE instead of the CIT). Rather than introducing another credit within SIMPLE, the government should restore the functioning of the VAT and provide a timely refund for input VAT that can be credited against VAT levied on sales." (p. 111, first paragraph)
+**** The debit tax (4/mil)
+     jbb: Inhibits transactions; punishes high-traffic sectors disproportionately.
+     Some transactions are exempt.
+**** The business property tax is levied based on self-assessed value!
+**** CIT rates range from 0 to 27%!
+     Table, p. 86.
+**** jbb: The exemptions (I'm using the term broadly) cover most of what Colombia is know for. They must enormously reduce both (1) government revenue and (2) the incentive to try something new.
+     Why tie the country to masts like agriculture, mining and tourism?
+**** "Members of the CIT Working Party also signalled significant tax evasion within family and closely-held corporations that claim private household expenses as business expenses."
+     and that they should be countered with better enforcement and bigger penalties.
+**** "Non-wage expenditure for workers and their families: expenditure for workers such as additional health insurance, contributions for private pension savings, and other fringe benefits are deductible from taxable corporate income."
+     jbb: this looks like a straight-up regressive transfer. The US does similarly with health care, which contributes to health care price inflation (bad for everyone) and makes things particularly bad for the jobless.
+**** the CIT recapture tax
+***** Described starting at bottom of p. 90.
+***** I do *not* understand it, but it seems to be a taxation stage that follows the ordinary dividend tax, raising the dividend tax from 0 to nonzero for certain kinds of dividends that would otherwise have been untaxed.
+***** "Perhaps most importantly, the CIT recapture tax strongly disincentivises firms to distribute profits, which negatively affects the dynamics of the capital market in Colombia, and induces companies to apply tax planning strategies so that profits can be distributed in ways that avoid the recapture tax."
+**** "FTZ companies use a wide range of TEs to lower their taxable income to such an extent that the actual level of the tax rate does not matter much, as their tax base is very narrow in any case."
+**** "The sectors that benefit the most from exempt income among CIT taxpayers are the financial and insurance activities, construction activities, and the electricity and gas supply sector"
+     Table 4.5, page 96 gives much more detail about which industries benefit how much.
+**** The exemptions are critical to the current tax code.
+     p. 97: "if the average large tax payer were to have paid the statutory tax rates applicable on these taxes without the right to claim the main TEs, over 50% of their revenues earned would been paid in taxes."
+     But that's based on arguably a small sample (under 3,000 firms) and might be biased for reasons I didn't understand (p. 98, first complete paragraph).
+**** "Excluding goods and services from VAT results in a significant increase in the average tax burden for businesses."
+**** "it is those who cannot afford the resources to employ these avoidance strategies that end up paying the bill for Colombia’s burdensome business tax rates and narrow base"
+**** effective tax rates by industry: p. 100, table at top
+*** benefits of a simpler code
+**** jbb: easier to enforce
+**** jbb: easier to comply
+*** suggested changes
+**** They wouldn't change everything.
+     See the list entitled Category 1 that begins on p. 101 and continues on p. 102.
+**** They see some obvious changes to make.
+     The list entitled Category 2 at the bottom of p. 102.
+***** Two are particularly obvious:
+****** "Reduced tax rate for non-profit organisations: the surpluses that are not invested or allocated to reach the entity’s “worthy purpose” are taxed at a reduced CIT rate of 20% rather than the standard CIT rate. The rationale for this preferential tax treatment is weak."
+****** "The 9% reduced CIT rate: The very low 9% CIT rate installs an unfairness in the Colombian tax system. Providing a selection of sectors and businesses with a very low tax rate while other firms face the high 31% CIT rate undermines tax morale and creates a tax-induced incentive to avoid or evade taxes. The introduction of the 9% CIT rate has not been accompanied by a cost-benefit analysis, nor has the impact of the reduced rate ever been evaluated."
+**** THey see more changes that would be good if they were possible, which would depend on yet other changes.
+     This is "Category 3", beginning on p. 103.
+***** particularly clear
+****** "Profits of Orange economy: these tax incentives have been introduced in 2019. A competitive business tax regime would not need sector-specific tax provisions."
+       "it might be difficult to abolish these tax incentives in the short run. Instead, these tax incentives could be abolished when the general business tax regime has become more competitive (i.e. when the non-profit based business taxes have been abolished, and the standard CIT rate is further reduced)."a
+****** "it might be difficult to abolish these tax incentives in the short run. Instead, these tax incentives could be abolished when the general business tax regime has become more competitive (i.e. when the non-profit based business taxes have been abolished, and the standard CIT rate is further reduced)."
+****** "Profits from the renewable energy sector: profit-based incentives to stimulate renewable energy production is cost-ineffective; Colombia should stimulate renewable energy through direct subsidies or through cost-based tax incentives. The current profit-based incentives can be abolished once a better system is put in place."
+****** "Financial transaction tax: The “debit tax” is a distortive tax, disincentivising informal businesses from entering the formal economy and discouraging foreign and domestic investment. It should therefore be abolished, in-turn allowing the tax deduction to be removed."
+**** Category 4 (p. 104): It's not clear whether these are bad, but the foregone revenue should at least be evaluated.
+***** pension fund income
+      Either tax it going into the pension, or upon distribution to pensioners.
+***** double tax treaties
+***** business immovable property tax
+***** financial sector surtax
+***** SIMPLE
+***** a lot of more obscure TEs
+**** more
+***** Tax credits that were put in place to offset bad taxes elsewhere in the system can only be claimed by profitable companies
+      p. 106, paragraph 3:
+      "The CIT credit for VAT on investment is sub-optimal as it is only partially recoverable. Indeed, the CIT credit for the VAT paid on fixed assets and the CIT credit for 50% of the municipal business turnover tax (100% as from 2022 onwards) can only be claimed by businesses that are profitable and have sufficiently high CIT liabilities. This fear is assuaged to some degree as the un-utilised tax credits can be carried forward to offset CIT liabilities in subsequent taxable years. However, if the CIT credit for the VAT and ICA cannot be claimed in the year when these tax liabilities have been incurred, they will continue to increase the cost of capital and discourage investment."
+***** The CIT credit to offset fixed asset expenses that ought to be VAT-reimbursable instead
+      p. 106, paragraph 4:
+      "According to DIAN, while in 2019 COP 6 000 thousand million was paid in VAT on investment, only COP 1 500 thousand million was returned through the CIT credit. Ideally, the best strategy would be for Colombia to tackle the VAT design flaws at source by having VAT on investment credited within the VAT, rather than addressing them indirectly through the CIT. In addition, the sale of fixed assets should be also subject to VAT."
+****** and that's procyclical!
+       "In fact, these credits make the tax system in Colombia pro-cyclical. During booms when profits are high, businesses face a tax-induced incentive to invest as they will be able to benefit from the CIT credits, which will lower the cost of capital. During downturns when profits are low, and in particular if the downturns"
+****** and it tilts the field toward larger players
+       "Moreover, the tax credits create a tax-induced advantage for larger firms that are profitable and a bias against start-ups that do not earn large profits yet. "
+****** "As long as the VAT design is not changed, however, it is important that the CIT credit remains in place."
+****** making the transition fair will require some care
+       "The VAT reform that will provide businesses with a VAT credit for the input VAT paid on investment in fixed assets will need to be accompanied with transitionary rules. Businesses that have un-utilised CIT credits for VAT paid on investment in fixed assets that took place prior to the VAT reform should maintain the right to use these credits to reduce their CIT liability. VAT paid on new investment should be credited against output VAT levied on sales."
+**** *COOL* The GMT could be changed to encourage formality.
+     "Another option that the government could consider is using the financial transaction tax as an instrument to strengthen the formal economy. The financial transaction tax could be turned into a tax on cash withdrawals, but no longer a tax on financial transactions through a bank or via digital means. This would in"
+**** SIMPLE should be simpler (Title of section, p. 108)
+***** what it is
+      A "presumptive tax regime", which assumes a tax base other than income.
+***** motivations
+****** get businesses to formalize, and "ensure that their workers have access to health and pension entitlements"
+****** equity across firms
+       Tax compliance is a bigger budget share for smaller firms.
+****** cheaper compliance
+****** cheaper enforcement
+****** greater certainty (for both taxer and taxee)
+****** limit tax avoidance & evasionn
+       because "the proxy of income on which the presumption is based is more difficult to hide than those forming the basis for accounting records"
+****** motivates the self-employed to incorporate (i.e. formalize)
+        "because the owners of an unincorporated business are not able to deduct their own pension contributions from their tax liability."
+***** pitfalls
+****** can lead big companies to subdivide
+****** Businesses can avoid paying any tax by paying sufficient salaries.
+       In some cases, less than 20% of revenue (p. 109, last (incomplete) paragraph.
+******* one reasonable response
+        "the tax credit could be capped at a given share of the tax liability"
+        (p. 110, first complete paragraph)
+******* but better would be to lower the turnover threshold
+        This way the tax only applies to very small businesses.
+        It encourages them to formalize, and the foregone revenue is small.
+***** recommendations
+****** should only apply to smaller businesses
+       which is achieved by lowering the turnover threshold
+****** Some numbers need study and (after that) better calibration.
+******* The proper "turnover threshold".
+        = the revenue threshold at which a firm transitions from SIMPLE to the standard regime.
+******* The level (by sector) of the SIMPLE tax.
+        to avoid sharp changes from SIMPLE to the standard regime.
+****** Businesses should have to commit to the regime for years.
+       "businesses should be taxed under the regime for a minimum number of years, once they have chosen for the regime in order to prevent tax planning" (p. 113, first sentence)
+**** things need study
+***** TEs should be analyzed yearly by sector.
+      Currently it's mysterious how much money they give away to who.
+** a radical rearrangement of those notes, with commentary
+   emailed to [[file:../pers/20200728171459-luis.org][Luis Carlos Reyes Hernandez]] on 2021 03 18
+*** some acronyms
+**** CIT = corporate income tax
+**** TE = "tax expenditure" = loophole, roughly
+     If I understand right, an artefact of the tax code that (usually distorts incentives, and) leaves money on the table in a manner unequal across taxpayers.
+**** ETR = effective tax rate
+**** FTZ = free trade zone
+*** my overall impression
+**** A lot of good ideas.
+**** They claim the wealth tax is bad, with zero analysis.
+     They claim that the wealth tax(es) are distorting and should be removed, but don't actually back that up with any kind of analysis. Besides, the question isn't whether it's distorting -- all taxes are -- but whether it's worth it.
+**** I worry about simple levels.
+     If they get the levels wrong the reform could tilt taxes away from companies and toward individuals. As an extreme example (this not what they're proposing), if you replace a Gordian forest of regulations with a simple flat tax, it's really important for the level of that flat tax to be right.
+**** I can't keep it all in my head.
+     I've focused on aspects that seem most important -- but the set of laws is so complex that I have to imagine some important things are slipping by me.
+*** some context
+**** historical
+***** the legislative complexity cycle
+****** Congress responds to distortions with more distortions.
+****** p. 111, four bullet points:
+       "Special tax rules ... have been introduced to offset the effects of the various non-profit based taxes that businesses have to pay, which appear to change with each reform"
+       "Tax incentives introduced to mitigate the distortive impact of the standard tax regime"
+       "Complex procedure in determining the CIT taxable"
+       "The preferential tax treatment that is provided to some sectors or types of investment."
+***** The exemptions are critical to the current tax code.
+      p. 97: "if the average large tax payer were to have paid the statutory tax rates applicable on these taxes without the right to claim the main TEs, over 50% of their revenues earned would been paid in taxes."
+      CAVEAT: that's based on arguably a small sample (under 3,000 firms) and might be biased for reasons I didn't understand (p. 98, first complete paragraph).
+**** current inequities
+***** special treatment for particular groups
+****** the biggest beneficiaries
+       "The sectors that benefit the most from exempt income among CIT taxpayers are the financial and insurance activities, construction activities, and the electricity and gas supply sector"
+****** more beneficiaries
+      "Some sectors ... have special provisions for the determination of their taxable income, such as the financial sector, the oil, gas and mining sector, the international transport sector, gas stations, leasing companies, insurance companies, bookshops and construction services. Concessions also receive a special tax treatment."
+       "the 2020 reform ... included preferential tax treatment for the tourism sector and businesses that hire young workers"
+****** two great tables
+       Table 4.5, page 96 gives much more detail about which industries benefit how much.
+       Effective tax rates by industry: p. 100, table at top
+****** jbb: the scope of special treatment is *enormous*
+       The exemptions and special treatment cover most of what Colombia is know for. They must enormously reduce both (1) government revenue and (2) the incentive to try something new.
+       Why tie the country to masts like agriculture, mining and tourism? This is the classic "picking winners" mistake.
+***** complexity => avoidance opportunities
+      Such avoidance activity, in addition to costinig the government money, substantially raises the accounting/legal costs of firms.
+***** "significant tax evasion within family and closely-held corporations that claim private household expenses as business expenses."
+      Report says this should be countered with better enforcement and bigger penalties.
+      Better enforcement is more feasible with a simpler tax code.
+***** "Non-wage expenditure for workers and their families: expenditure for workers such as additional health insurance, contributions for private pension savings, and other fringe benefits are deductible from taxable corporate income."
+      jbb: This looks like a regressive transfer. (The US does similarly with health care. It contributes to health sector inflation (bad for everyone) and makes things particularly bad for the jobless.)
+***** "FTZ companies use a wide range of TEs to lower their taxable income to such an extent that the actual level of the tax rate does not matter much, as their tax base is very narrow in any case."
+***** "Excluding goods and services from VAT results in a significant increase in the average tax burden for businesses."
+      jbb: Yes, but the (best) motivation of many of those exclusions is to reduce the VAT burden on the poor. Like I said in my "overall impression" at the top, simplification, homogenization and base-broadening are good, but I hope the impact on the poor is properly accounted for.
+***** "it is those who cannot afford the resources to employ these avoidance strategies that end up paying the bill for Colombia’s burdensome business tax rates and narrow base"
+***** Tax credits that were put in place to offset bad taxes elsewhere in the system can only be claimed by profitable companies
+      p. 106, paragraph 3:
+      "The CIT credit for VAT on investment is sub-optimal as it is only partially recoverable. Indeed, the CIT credit for the VAT paid on fixed assets and the CIT credit for 50% of the municipal business turnover tax (100% as from 2022 onwards) can only be claimed by businesses that are profitable and have sufficiently high CIT liabilities. This fear is assuaged to some degree as the un-utilised tax credits can be carried forward to offset CIT liabilities in subsequent taxable years. However, if the CIT credit for the VAT and ICA cannot be claimed in the year when these tax liabilities have been incurred, they will continue to increase the cost of capital and discourage investment."
+*** their recommendations
+**** at the most abstract
+***** broaden base
+***** simplify
+***** balance burden across sectors
+***** some good effects of those things
+      Makes compliance and enforcement cheaper.
+      Leads to greater equitability.
+      Leads to greater faith in the tax system, which reduces avoidance and evasion.
+**** a bit more specifically
+***** eliminate "distortive non-profit based taxes including the equity or wealth tax"
+      The clearest example is the ICA (discussed elsewhere in this summary).
+      There are more examples -- c.f. p. 103,, bullet #4, renewable energy.
+***** change profit-based incentives to cost-based ones (or abolish them)
+      This was confusing but I think I understand it now: *Taxes* should be profit-based, but *tax incentives* should be cost-based -- i.e. "we'll reimburse you for buying wind turbines". This seems plausible to me but I don't really have a mental model to justify it precisely.
+      Renewable energy is in fact an example -- see p. 103, bullet 4.
+***** "lower the standard CIT rate significantly for all businesses"
+      jbb: yes, *if* the base has in fact been broadened.
+****** CIT rates range from 0 to 27%!
+       Table, p. 86.
+**** by specific tax
+***** "debit tax" a.k.a. GMT a.k.a. 4/mil
+      (Some transactions are exempt.)
+****** bad effects
+       Inhibits transactions.
+       Punishes high-traffic sectors disproportionately.
+       Discourages formality.
+       Discourages foreign and domestic investment.
+****** two alternatives
+******* suggestion: "turn the financial transaction tax (GMT) into a tax on cash withdrawals only"
+        jbb: This is cool.
+        "The financial transaction tax could be turned into a tax on cash withdrawals, but no longer a tax on financial transactions through a bank or via digital means. This would in"
+******* "It should therefore be abolished, in-turn allowing the tax deduction to be removed."
+***** the municipal business turnover tax (ICA)
+      is a tax on revenue, not profit.
+****** why it's bad
+       "forces businesses with a high turnover (jbb: I think this means revenue) but low profit margin to face a very high effective tax rate levied on their profits." (p. 113, second paragraph)
+****** it's partially compensated
+       "Only profitable businesses can benefit from the tax credit, so the distortion of the ICA is not entirely corrected for with the CIT credit." (p 113 par 2)
+****** correcting it will be a slow, delicate process
+       "until local governments are funded through less distortive taxes, such as recurrent taxes on immovable property, and/or larger grants from central government, the tax credit within the CIT for the local turnover tax ICA should be maintained" (p. 113, second paragraph)
+***** "VAT on fixed assets"
+****** the situation
+       "VAT has to be paid on investment in fixed assets, but businesses cannot obtain a refund against output VAT for the input VAT paid on the investment. As from 2019 onwards, the unrecoverable VAT can be recovered in the form of a CIT credit."
+****** why that's bad
+******* raises the cost of capital, punishes capital-intensive businesses
+        Particularly bad if you think Colombia needs to mechanize and automate.
+******* Businesses in the SIMPLE regime aren't even eligible for the CIT credit (because they don't pay ordinary CIT).
+        "Businesses that file a SIMPLE tax return and have turnover above the VAT threshold may not be able to recover the input VAT paid on investment in fixed assets as they cannot enjoy the CIT credit in relation to the VAT paid on investment (as they are liable for SIMPLE instead of the CIT). Rather than introducing another credit within SIMPLE, the government should restore the functioning of the VAT and provide a timely refund for input VAT that can be credited against VAT levied on sales." (p. 111, first paragraph)
+***** "eradicate the CIT recapture tax"
+****** the situation
+******* jbb summary (could be wrong)
+        Seems to be a taxation stage that follows the ordinary dividend tax, raising the dividend tax from 0 to nonzero for certain kinds of dividends that would otherwise have been untaxed.
+******* a quote
+       "The CIT recapture tax (i.e. the dividend withholding tax levied on untaxed corporate profits) is a rather uncommon approach to protect the tax base. In order to prevent firms from distributing dividends that have not been taxed at the CIT rate – facilitated by the wide range of tax incentives that are in place – the government has introduced the CIT recapture tax. This tax offsets a wide range of tax incentives that are in place, in particular with respect to non-taxable income, exempt income and deductions that exceed actual costs (such as accelerated tax depreciation allowances), as well as tax credits. While the tax protects tax revenues and corrects for the large opportunities businesses face to limit their tax liability, it is a blunt instrument as it also offsets the impact of tax expenditures and tax incentives that have good efficiency characteristics, such as accelerated tax depreciation allowances and the CIT credits for the VAT on investment and the municipal business turnover tax." (p 112, second full paragraph)
+****** a distortion
+       "Perhaps most importantly, the CIT recapture tax strongly disincentivises firms to distribute profits, which negatively affects the dynamics of the capital market in Colombia, and induces companies to apply tax planning strategies so that profits can be distributed in ways that avoid the recapture tax."
+***** The business property tax is levied based on self-assessed value!
+      jbb: They state this fact (without an exclamation point, and) without proposing any changes. It seems incredible to me.
+***** abolish the "Reduced tax rate for non-profit organisations"
+      "the surpluses that are not invested or allocated to reach the entity’s “worthy purpose” are taxed at a reduced CIT rate of 20% rather than the standard CIT rate. The rationale for this preferential tax treatment is weak."
+***** abolish the "9% reduced CIT rate"
+      "The very low 9% CIT rate installs an unfairness in the Colombian tax system. Providing a selection of sectors and businesses with a very low tax rate while other firms face the high 31% CIT rate undermines tax morale and creates a tax-induced incentive to avoid or evade taxes. The introduction of the 9% CIT rate has not been accompanied by a cost-benefit analysis"
+***** abolish if/when possible The CIT credit to offset fixed asset expenses that ought to be VAT-reimbursable instead
+****** the situation
+       p. 106, paragraph 4:
+       "According to DIAN, while in 2019 COP 6 000 thousand million was paid in VAT on investment, only COP 1 500 thousand million was returned through the CIT credit. Ideally, the best strategy would be for Colombia to tackle the VAT design flaws at source by having VAT on investment credited within the VAT, rather than addressing them indirectly through the CIT. In addition, the sale of fixed assets should be also subject to VAT."
+****** why it's bad
+******* It's procyclical!
+        "In fact, these credits make the tax system in Colombia pro-cyclical. During booms when profits are high, businesses face a tax-induced incentive to invest as they will be able to benefit from the CIT credits, which will lower the cost of capital. During downturns when profits are low, and in particular if the downturns"
+******* It tilts the field toward larger players
+        "Moreover, the tax credits create a tax-induced advantage for larger firms that are profitable and a bias against start-ups that do not earn large profits yet. "
+****** making the transition fair will require some care
+       "As long as the VAT design is not changed, however, it is important that the CIT credit remains in place."
+       "The VAT reform that will provide businesses with a VAT credit for the input VAT paid on investment in fixed assets will need to be accompanied with transitionary rules. Businesses that have un-utilised CIT credits for VAT paid on investment in fixed assets that took place prior to the VAT reform should maintain the right to use these credits to reduce their CIT liability. VAT paid on new investment should be credited against output VAT levied on sales."
+***** abolish if possible the special treatment for "profits of Orange economy" (p. 103)
+      This is another profit-based incentive (bad).
+      "these tax incentives have been introduced in 2019. A competitive business tax regime would not need sector-specific tax provisions."
+      "it might be difficult to abolish these tax incentives in the short run. Instead, these tax incentives could be abolished when the general business tax regime has become more competitive (i.e. when the non-profit based business taxes have been abolished, and the standard CIT rate is further reduced)."
+***** abolish if/when possible the special treatment for "Profits from the renewable energy sector"
+      "profit-based incentives to stimulate renewable energy production is cost-ineffective; Colombia should stimulate renewable energy through direct subsidies or through cost-based tax incentives. The current profit-based incentives can be abolished once a better system is put in place."
+***** more complete lists
+****** The complete list of changes that should clearly be made is entitled Category 2, at the bottom of p. 102.
+****** "Category 3", beginning on p. 103, is changes that would be good if possible, but will take time and care.
+**** SIMPLE should be simpler (Title of section, p. 108)
+***** what it is
+      A "presumptive tax regime", which assumes a tax base other than income.
+***** it has many good effects
+****** get businesses to formalize, and "ensure that their workers have access to health and pension entitlements"
+****** equity across firms
+       b/c tax compliance is otherwise a bigger budget share for smaller firms.
+****** cheaper compliance
+****** cheaper enforcement
+****** greater certainty (for both taxer and taxee)
+****** limit tax avoidance & evasionn
+       This works as long as "the proxy of income on which the presumption is based is more difficult to hide than those forming the basis for accounting records".
+****** motivates the self-employed to incorporate (i.e. formalize)
+        "because the owners of an unincorporated business are not able to deduct their own pension contributions from their tax liability."
+***** problems
+****** can lead big companies to subdivide
+****** Businesses can avoid paying any tax by paying sufficient salaries.
+       In some cases, less than 20% of revenue (p. 109, last (incomplete) paragraph.
+******* one reasonable response
+        "the tax credit could be capped at a given share of the tax liability"
+        (p. 110, first complete paragraph)
+******* but better would be to lower the turnover threshold
+        This way the tax only applies to very small businesses.
+        It encourages them to formalize, and the foregone revenue is small.
+***** recommendations
+****** should only apply to smaller businesses
+       which can be achieved by lowering the turnover threshold
+****** Some numbers need study and (after that) better calibration.
+******* The proper "turnover threshold".
+        = the revenue threshold at which a firm transitions from SIMPLE to the standard regime.
+******* The level (by sector) of the SIMPLE tax.
+        to avoid sharp changes from SIMPLE to the standard regime.
+****** Businesses should have to commit to the regime for years.
+       "businesses should be taxed under the regime for a minimum number of years, once they have chosen for the regime in order to prevent tax planning" (p. 113, first sentence)
+**** Study some things.
+***** TEs should be analyzed yearly by sector.
+      Currently it's mysterious how much money they give away to who.
+***** "Category 4" (p. 104): It's not clear whether these are bad, but the foregone revenue should at least be evaluated.
+****** pension fund income
+       Either tax it going into the pension, or upon distribution to pensioners.
+****** double tax treaties
+****** business immovable property tax
+****** financial sector surtax
+****** SIMPLE
+****** a lot of more obscure TEs

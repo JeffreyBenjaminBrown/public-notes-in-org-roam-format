@@ -1,0 +1,39 @@
+#+title: Emacs packages
+* TODO ask about | look for
+** Is there something like windmove for switching between buffers without opening the Buffer View?
+** something to show brackets, parens, etc. in another color?
+* TODO read through these package lists
+** resume reading package list (searching "tree") at Kill Ring (section)
+** resume reading awesome-emacs at ztree
+   https://github.com/emacs-tw/awesome-emacs
+* packages of interest
+** treefactor
+** highlight-escape-sequences
+** highlight-parentheses
+** multiple cursors
+** (smart-)hungry-delete
+** expand-region
+** multifiles
+** lentic -  Create views of the same content in two Emacs buffers.
+** artist-mode
+   draw boxes etc. with mouse, keyboard
+** move-text - move current line or region up or down.
+** cruz - "a collection of ridiculously useful Emacs [functions]"
+** treemacs
+** visual-regexp
+** imenu-anywhere : imenu over all buffers, using helm
+** linum-relative (elpa)
+* remember, is great (and installed)
+** imenu : provides a menu of spots in a document to jump to
+** undo-tree
+   undo-tree-visualize			-- first enable undo-tree-mode
+   undo-tree-diff			-- or 'd' from in it)
+   undo-tree-visualizer-timestamps	-- or 't' from in it)
+** block-nav
+** vertigo
+** block-nav
+   Or if I don't like that, try emacs-spatial-navigate:
+   https://gitlab.com/ideasman42/emacs-spatial-navigate
+** mwim
+   (global-set-key (kbd "C-a") 'mwim-beginning)
+   (global-set-key (kbd "C-e") 'mwim-end)
