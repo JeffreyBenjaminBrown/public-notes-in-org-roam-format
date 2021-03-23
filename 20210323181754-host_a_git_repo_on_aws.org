@@ -1,0 +1,26 @@
+#+title: host a git repo on AWS
+#+ROAM_ALIAS: "AWS Git"
+* This document explains how to
+  Put a git repo on AWS, using their CodeCommit protocol.
+  https://aws.amazon.com/getting-started/projects/migrate-git-repository/?trk=gs_card
+* PITFALL: I aborted these notes when
+  I discovered that GitHub now lets you keep private repos for free.
+  (If you want to share it with more than a couple people,
+you've got to pay.)
+* Completed notes
+** Step 0: configure
+*** grant access to a computer|user using IAM
+    CodeCommitFullAccess is a predefined permission (PITFALL: for *full* access).
+    Add it to make a superuser.
+*** configure AWS CLI
+  Just like "file://cli.org", section "install, configure the AWS CLI".
+  Don't be confused by the git tutorial --
+  the keys used by CodeCommit are the same keys used by the CLI in other contexts.
+*** configure credentials for the repo
+ THese can be Git credentials, SSH credentials, or something else.
+**** The Git credentials way
+ https://docs.aws.amazon.com/codecommit/latest/userguide/setting-up-gc.html?shortFooter=true#setting-up-gc-iam
+**** TODO ? use the Git credential helper
+ Might conflict with how I already use said helper.
+* TODO Resume at
+** Step 1: create a repo

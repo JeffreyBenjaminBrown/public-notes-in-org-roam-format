@@ -1,0 +1,2 @@
+#+title: AWS vocabulary
+* EB = elastic beanstalk
