@@ -34,16 +34,17 @@ There are even more tutorials on the same theme.
  https://aws.amazon.com/getting-started/tutorials/send-fanout-event-notifications/?trk=gs_card
 * for saving money
 ** "requester pays" is an S3 option
-* AWS lingo
 * TODO AWS services I might want to learn
 ** AWS storage gateway
    Someone describes it as a dropbox client but for S3.
    AWS seems to suggest it does lots of other stuff.
 * web endpoint formatting depends on region
-A website's endpoing takes one of two almost identical forms,
-depending on the region:
-  bucket-name.s3-website-region.amazonaws.com
-  bucket-name.s3-website.region.amazonaws.com
-In my case it's these:
-      jefbrown.net.s3-website-us-east-1.amazonaws.com
-under.jefbrown.net.s3-website-us-east-1.amazonaws.com
+  A website's endpoint takes one of two almost identical forms,
+  depending on the region:
+    bucket-name.s3-website-region.amazonaws.com
+    bucket-name.s3-website.region.amazonaws.com
+                          ^
+the difference
+  In my case it's these:
+        jefbrown.net.s3-website-us-east-1.amazonaws.com
+  under.jefbrown.net.s3-website-us-east-1.amazonaws.com
