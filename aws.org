@@ -1,14 +1,15 @@
+:PROPERTIES:
+:ID:       d1f98779-8418-48dc-a795-f622412124e2
+:END:
 #+title: Amazon Web Services
 #+ROAM_ALIAS: AWS
-* RESUME AT (?)
-  Deploy Your Site with the EB CLI
-* related docs
-** [[file:20210323182302-aws_vocabulary.org][AWS vocabulary]]
-** [[file:20210323181107-aws_cli.org][AWS CLI]]
-** [[file:20210323181754-host_a_git_repo_on_aws.org][AWS Git]]
-** [[file:20210323183402-django_in_aws_esp_aws_eb.org][Django in AWS (esp. AWS EB)]]
-** [[file:20210323184055-internet.org][internet]]
 * TODO refs | URLs
+** related docs
+*** [[file:20210323182302-aws_vocabulary.org][AWS vocabulary]]
+*** [[file:20210323181107-aws_cli.org][AWS CLI]]
+*** [[file:20210323181754-host_a_git_repo_on_aws.org][AWS Git]]
+*** [[file:20210323183402-django_in_aws_esp_aws_eb.org][Django in AWS (esp. AWS EB)]]
+*** [[file:20210323184055-internet.org][internet]]
 ** all lessons
 https://aws.amazon.com/getting-started/use-cases
 ** PITFALL: don't visit
@@ -16,6 +17,8 @@ https://aws.amazon.com/getting-started/use-cases
 https://www.aws.training/Details/Video?id=16206&trk=gs_card
 It's a slow video lecture series.
 ** TODO ? next
+*** RESUME AT (?)
+    Deploy Your Site with the EB CLI
 *** Deploy a Python web app
 https://aws.amazon.com/getting-started/projects/deploy-python-application/?trk=gs_card
 *** Build a LAMP (linux, apache http, mysql, and a language) web app
@@ -29,25 +32,9 @@ There are even more tutorials on the same theme.
  https://aws.amazon.com/getting-started/tutorials/send-messages-distributed-applications/?trk=gs_card
 **** Fanout event notifications
  https://aws.amazon.com/getting-started/tutorials/send-fanout-event-notifications/?trk=gs_card
-* TODO use Emacs from an instance
 * for saving money
 ** "requester pays" is an S3 option
 * AWS lingo
-** "Route 53" is a ("domain router"?)
-** Simple Storage Service = S3 = buckets
-*** data can be "queried in place"
-*** data can be "selectively retrieved"
-with "S3 Select"
-*** bucket <=> url
-  Each (sub)domain needs its own bucket,
-  of the same name.
-*** buckets can do versioning
-  https://docs.aws.amazon.com/AmazonS3/latest/user-guide/enable-versioning.html
-*** use tags to track the cost of a bucket
-  thttps://docs.aws.amazon.com/AmazonS3/latest/dev//CostAllocTagging.html
-** S3 "Access Points"
-Have URLs.
-Are to control who can access what.
 * TODO AWS services I might want to learn
 ** AWS storage gateway
    Someone describes it as a dropbox client but for S3.

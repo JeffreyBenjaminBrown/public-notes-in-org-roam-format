@@ -1,2 +1,3 @@
 #+title: AWS vocabulary
 * EB = elastic beanstalk
+* "Route 53" is a domain router
