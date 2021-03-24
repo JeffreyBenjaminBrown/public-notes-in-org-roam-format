@@ -2,33 +2,33 @@
 To launch a linux virtual machine, and use it via SSH.
 * EC2 -> Launch Instance
 * Select an OS
-Ranked highest is "Amazon Linux 2".
-There's also Ubuntu 18.04.
+  Ranked highest is "Amazon Linux 2".
+  There's also Ubuntu 18.04.
 * choose a bundle of specs
-One of them is "free tier eligible".
+  One of them is "free tier eligible".
 * prepare to SSH
-The first time, will have to make and download a key pair,
-ending in .pem.
+  The first time, will have to make and download a key pair,
+  ending in .pem.
 * start it. wait for it to start.
-Click on the instance to see it.
-The "instance state" column will soon show "running".
+  Click on the instance to see it.
+  The "instance state" column will soon show "running".
 * connect via SSH
-ssh -i <path to key> ec2-user@<public IP address>
+  ssh -i <path to key> ec2-user@<public IP address>
 ** PITFALL: Might need to chmod 400 the ssh key first.
 ** PITFALL: They suggest keeping the key in ~/.ssh/
 * end it from the browser
-specifically from the EC2 console at aws.org
+  specifically from the EC2 console at aws.org
 ** "stopping" the instance
 *** Deletes RAM, leaves disc content in place.
 *** Ceases charges for compute, but storage costs
-continue to be charged,
-unless the storage is on S3
-(because that's already charged separately, I guess).
+    continue to be charged,
+    unless the storage is on S3
+    (because that's already charged separately, I guess).
 ** PITFALL: restarting costs a full hour of compute
-Even if it's done multiple times in an hour.
+   Even if it's done multiple times in an hour.
 ** "terminating" the instance
-Deletes all contents.
-Stops all charges.
-Is not instantaneous.
+   Deletes all contents.
+   Stops all charges.
+   Is not instantaneous.
 ** PITFALL: the SSH key becomes garbage
-once the instance is terminated
+   once the instance is terminated
