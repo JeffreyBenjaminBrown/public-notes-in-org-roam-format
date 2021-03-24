@@ -1,0 +1,3 @@
+#+title: internet
+* internet
+** www.example.com is a subdomain of example.com

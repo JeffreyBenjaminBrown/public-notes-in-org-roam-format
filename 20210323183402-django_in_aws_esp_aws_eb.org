@@ -1,0 +1,58 @@
+#+title: Django in AWS (esp. AWS EB)
+* TODO BLOCKED: first learn some Django
+** Make a demo that
+*** lets a user enter data
+filename
+file content (a string)
+*** logs the user's access (json)
+their address
+the date, time
+their request
+*** creates the desired file
+** Use that to see what EB does with the S3 storage.
+* Source: Deploy a Python web app
+https://aws.amazon.com/getting-started/projects/deploy-python-application/?trk=gs_card
+* WART: sidestepping the Python, virtualenv, NixOS headache
+AWS suggests using a virtualenv to install Django from pip.
+Python and virtualenv are confusing on NixOS:
+  https://nixos.wiki/wiki/Python
+So I'm just using Docker -- specifically tax.co.
+* once, run `django-admin startproject ebdjango`
+  Like `stack new`, this writes a new project (filetree)
+  called ebdjango to the current folder.
+* from within the project, start the server, on *every* address
+  python manage.py runserver 0.0.0.0:8000
+** PITFALL: This differs slightly from what AWS suggest
+   AWS suggest
+     `python manage.py runserver`
+   but that uses the default address of 127.0.0.1.
+   That makes sense outside of a docker container,
+   but inside, the relevant address can change.
+   If we instead use 0.0.0.0, we broadcast on every address at once.
+** ref
+   PITFALL: Take this with a grain of salt --
+   `runserver`'s syntax appears to have drifted since this was written,
+   or else I'm misinterpreting.
+   https://stackoverflow.com/questions/49476217/docker-cant-access-django-server/49476339
+* if so warned by `runserver`, run `python manage.py migrate`
+* configure for Elastic Beanstalk
+** PITFALL: I changed directory names
+   AWS wants, confusingly, a folder called ebdjango/ebdjango.
+   Instead, I named the top one python-web-app.
+** TODO PITFALL: AWS-Docker compatibility
+   The AWS server will need to be set up just like the tax.co Docker image.
+   In particular it'll need Python 3.7.3
+   (this tutorial suggests the AWS default is 3.6).
+** EB will look for these files in ebdjango
+*** requirements.txt
+    Generate it by running this:
+    pip freeze > requirements.txt
+*** .ebextensions/django.config, containing this
+```
+    option_settings:
+      aws:elasticbeanstalk:container:python:
+        WSGIPath: ebdjango/wsgi.py
+```
+*** NOT application.py
+    By default, EB would look for that.
+    We've overridden that default in .ebextensions/django.config

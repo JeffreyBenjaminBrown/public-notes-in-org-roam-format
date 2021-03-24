@@ -1,62 +1,62 @@
 #+title: Amazon Web Services
 #+ROAM_ALIAS: AWS
-* TODO BLOCKED: first learn some Django
-** Make a demo that
-*** lets a user enter data
-filename
-file content (a string)
-*** logs the user's access (json)
-their address
-the date, time
-their request
-*** creates the desired file
-** Use that to see what EB does with the S3 storage.
-* URLS | bearings
-** Source: Deploy a Python web app
+* RESUME AT (?)
+  Deploy Your Site with the EB CLI
+* related docs
+** [[file:20210323182302-aws_vocabulary.org][AWS vocabulary]]
+** [[file:20210323181107-aws_cli.org][AWS CLI]]
+** [[file:20210323181754-host_a_git_repo_on_aws.org][AWS Git]]
+** [[file:20210323183402-django_in_aws_esp_aws_eb.org][Django in AWS (esp. AWS EB)]]
+** [[file:20210323184055-internet.org][internet]]
+* TODO refs | URLs
+** all lessons
+https://aws.amazon.com/getting-started/use-cases
+** PITFALL: don't visit
+*** AWS services overview
+https://www.aws.training/Details/Video?id=16206&trk=gs_card
+It's a slow video lecture series.
+** TODO ? next
+*** Deploy a Python web app
 https://aws.amazon.com/getting-started/projects/deploy-python-application/?trk=gs_card
-** RESUME AT
-Deploy Your Site with the EB CLI
-* WART: sidestepping the Python, virtualenv, NixOS headache
-AWS suggests using a virtualenv to install Django from pip.
-Python and virtualenv are confusing on NixOS:
-  https://nixos.wiki/wiki/Python
-So I'm just using Docker -- specifically tax.co.
-* once, run `django-admin startproject ebdjango`
-  Like `stack new`, this writes a new project (filetree)
-  called ebdjango to the current folder.
-* from within the project, start the server, on *every* address
-  python manage.py runserver 0.0.0.0:8000
-** PITFALL: This differs slightly from what AWS suggest
-   AWS suggest
-     `python manage.py runserver`
-   but that uses the default address of 127.0.0.1.
-   That makes sense outside of a docker container,
-   but inside, the relevant address can change.
-   If we instead use 0.0.0.0, we broadcast on every address at once.
-** ref
-   PITFALL: Take this with a grain of salt --
-   `runserver`'s syntax appears to have drifted since this was written,
-   or else I'm misinterpreting.
-   https://stackoverflow.com/questions/49476217/docker-cant-access-django-server/49476339
-* if so warned by `runserver`, run `python manage.py migrate`
-* configure for Elastic Beanstalk
-** PITFALL: I changed directory names
-   AWS wants, confusingly, a folder called ebdjango/ebdjango.
-   Instead, I named the top one python-web-app.
-** TODO PITFALL: AWS-Docker compatibility
-   The AWS server will need to be set up just like the tax.co Docker image.
-   In particular it'll need Python 3.7.3
-   (this tutorial suggests the AWS default is 3.6).
-** EB will look for these files in ebdjango
-*** requirements.txt
-    Generate it by running this:
-    pip freeze > requirements.txt
-*** .ebextensions/django.config, containing this
-```
-    option_settings:
-      aws:elasticbeanstalk:container:python:
-        WSGIPath: ebdjango/wsgi.py
-```
-*** NOT application.py
-    By default, EB would look for that.
-    We've overridden that default in .ebextensions/django.config
+*** Build a LAMP (linux, apache http, mysql, and a language) web app
+https://aws.amazon.com/getting-started/projects/launch-lamp-web-app/
+https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-tutorial-launching-and-configuring-lamp
+*** Build a serverless app
+https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/?trk=gs_card
+*** messaging
+There are even more tutorials on the same theme.
+**** Send messages between distributed apps
+ https://aws.amazon.com/getting-started/tutorials/send-messages-distributed-applications/?trk=gs_card
+**** Fanout event notifications
+ https://aws.amazon.com/getting-started/tutorials/send-fanout-event-notifications/?trk=gs_card
+* TODO use Emacs from an instance
+* for saving money
+** "requester pays" is an S3 option
+* AWS lingo
+** "Route 53" is a ("domain router"?)
+** Simple Storage Service = S3 = buckets
+*** data can be "queried in place"
+*** data can be "selectively retrieved"
+with "S3 Select"
+*** bucket <=> url
+  Each (sub)domain needs its own bucket,
+  of the same name.
+*** buckets can do versioning
+  https://docs.aws.amazon.com/AmazonS3/latest/user-guide/enable-versioning.html
+*** use tags to track the cost of a bucket
+  thttps://docs.aws.amazon.com/AmazonS3/latest/dev//CostAllocTagging.html
+** S3 "Access Points"
+Have URLs.
+Are to control who can access what.
+* TODO AWS services I might want to learn
+** AWS storage gateway
+   Someone describes it as a dropbox client but for S3.
+   AWS seems to suggest it does lots of other stuff.
+* web endpoint formatting depends on region
+A website's endpoing takes one of two almost identical forms,
+depending on the region:
+  bucket-name.s3-website-region.amazonaws.com
+  bucket-name.s3-website.region.amazonaws.com
+In my case it's these:
+      jefbrown.net.s3-website-us-east-1.amazonaws.com
+under.jefbrown.net.s3-website-us-east-1.amazonaws.com

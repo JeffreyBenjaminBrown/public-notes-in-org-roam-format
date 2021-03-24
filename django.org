@@ -1,5 +1,6 @@
 #+title: Django (Python web framework)
 * TODO
+** [[file:20210323183402-django_in_aws_esp_aws_eb.org][Django in AWS (esp. AWS EB)]]
 ** find, display pictures
 *** Substitute folder path into image name.
     See, e.g., how "name_augmented" is passed from polls.views to the silly-form templates.
