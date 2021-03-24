@@ -11,6 +11,7 @@
 *** [[file:20210323183402-django_in_aws_esp_aws_eb.org][Django in AWS (esp. AWS EB)]]
 *** [[file:20210323184055-internet.org][internet]]
 *** [[file:20210323203004-aws_virtual_machine_via_ec2.org][EC2]], esp. how to launch a virtual machine
+*** [[file:20210323204357-aws_static_website_hosting.org][AWS static website hosting]]
 ** all lessons
 https://aws.amazon.com/getting-started/use-cases
 ** PITFALL: don't visit

@@ -1,0 +1,64 @@
+#+title: AWS static website hosting
+* These notes are based on this Amazon tutorial
+https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html?refid=gs_card
+* PITFALL: S3 can contain websites, but not publish them
+S3 lets you make whatever buckets you want,
+with any kind of URL-looking name.
+And it lets you configure those buckets, if you like,
+to serve as websites.
+
+Until publishing the bucket with Route 53,
+those URLs *will not resolve* in a web browser.
+
+However,
+each bucket *is* associated with an internal "endpoint" like
+```
+http://www.jefbrown.net.s3-website-us-east-1.amazonaws.com
+```
+which is available at least to the owner of the account.
+Such an internal endpoint can be used to test the content.
+If it works,
+Route 53 can then be used to make the content available to the rest of the world,
+from a domain you registered (e.g. "jefbrown.net").
+* PITFALL: S3 can make buckets for inaccessible URLs
+If I register the domain `jbb-1.net`,
+I can make a bucket called `jbb1.net`.
+I'll get errors, though,
+when I try to publish it as a website,
+because `jbb1.net` is not the domain I own.
+* step 1: register a domain
+Amazon lets you do that via "Route 53".
+It might be possible to use someone else's (cheaper) service.
+* step 2: make data buckets in S3
+** HANDY: To find an S3 bucket's web endpoint
+under the bucket, visit properties -> static web hosting
+** for a bucket that hosts content
+*** under Properties -> Static Website Hosting
+Choose "use as a website".
+Type the name of the index document, probably "index.html".
+*** under Overview, upload the index
+Probably "index.html".
+Has to match what was entered under Static Website Hosting.
+*** under Permissions
+Disable "block public access".
+Add a bucket policy allowing (at least) read access.
+  See "bucket policy, read only.json"
+  in this repo for an example.
+  PITFALL: This document must re-state the domain name.
+** TODO for a bucket that redirects to another
+*** Name it a subdomain of the registered domain.
+*** Configure the redirect
+Go to Properties -> Static Website Hosting.
+Choose Redirect. Enter the name of the target.
+Choose HTTP.
+*** TODO under Permissions
+Can "block all public access" be on?
+Does it need a Bucket Policy?
+* step 3: route URLs to the buckets
+This is step 3 in the tutorial.
+* step 4: test
+Links like this should now work:
+```
+http://jefbrown.net
+http://www.jefbrown.net
+```
