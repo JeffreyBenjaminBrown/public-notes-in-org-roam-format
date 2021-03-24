@@ -2,6 +2,7 @@
 * TODO ask about | look for
 ** Is there something like windmove for switching between buffers without opening the Buffer View?
 ** something to show brackets, parens, etc. in another color?
+** I would like the highlight to remain after changing the indentation of a lot of adjacent bullets, so that I can do it again.
 * TODO read through these package lists
 ** resume reading package list (searching "tree") at Kill Ring (section)
 ** resume reading awesome-emacs at ztree

@@ -1,0 +1,25 @@
+#+title: AWS EC2 WUI
+* This document explains
+How to remotely run commands on an EC2 instance, via SSM.
+From the tutorial here:
+https://aws.amazon.com/getting-started/tutorials/remotely-run-commands-ec2-instance-systems-manager/
+* PITFALL It's about a WUI tool
+for controlling the EC2 instance.
+Once I learned that, I stopped taking notes.
+* PITFALL This document was aborted
+* complete notes
+** PITFALL: no key pair is needed
+ To SSH into an instance, you need a key pair.
+ But to control it from SSM, you don't.
+** create an IAM Role
+ This role will permit an EC2 instance to access SSM (the S? Systems Manager),
+ so that the instance can be controlled by SSM.
+ IAM = Identity and access management
+*** distinct from an IAM user
+*** aws.amazon.org -> IAM service -> choose Roles from left panel
+*** Create Role -> EC2 -> next
+*** permissions: find and choose "AmazonEC2RoleforSSM" -> next
+ for speed, type that into the search bar
+*** role name: EnablesEC2ToAccessSystemsManager
+*** description: Lets an EC2 instance access Systems Manager
+* TODO resume at "create an EC2 instance"
