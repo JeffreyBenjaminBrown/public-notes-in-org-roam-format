@@ -1,4 +1,5 @@
 #+title: reading|listening to
+* [[file:20210323190946-podcasts.org][podcasts]]
 * TODO How facebook got hooked on AI
   https://www.technologyreview.com/2021/03/11/1020600/facebook-responsible-ai-misinformation/
 * TODO pages from Andy Matuschak's knowledge graph with links I haven't gotten to

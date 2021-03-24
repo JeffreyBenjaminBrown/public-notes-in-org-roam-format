@@ -13,3 +13,4 @@
 * S3 "Access Points"
   Have URLs.
   Are to control who can access what.
+* [[file:20210323204357-aws_static_website_hosting.org][AWS static website hosting]] uses S3 (and Route53)
