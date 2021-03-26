@@ -1,0 +1,17 @@
+#+title: vertigo (Emacs package)
+I think I prefer avy.
+* what it does
+  vertigo lets you jump to lines marked by the sidebar.
+  It uses relative line numbering.
+* pros
+  Sidebar numbers are easier to read than the highlights avy makes.
+* cons
+  Chews up some space at the right side.
+  Plays badly with org-mode.
+  Jumps always to the start of the line.
+* the .emacs code I was using for it
+  ;; vertigo: jump many lines from home keys
+  (global-linum-mode)		;; always show line numbers
+  (linum-relative-global-mode)	;; make them relative
+  (global-set-key (kbd "M-p") 'vertigo-jump-up)
+  (global-set-key (kbd "M-n") 'vertigo-jump-down)

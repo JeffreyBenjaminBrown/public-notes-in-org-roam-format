@@ -7,7 +7,7 @@
 ** related docs
 *** [[file:20210323182302-aws_vocabulary.org][AWS vocabulary]]
 *** [[file:20210323201158-aws_s3.org][AWS S3]]
-*** [[file:20210323181107-aws_cli.org][AWS CLI]]
+*** [[file:20210323181107-aws_s3_cli.org][AWS S3 CLI]]
 *** [[file:20210323181754-host_a_git_repo_on_aws.org][AfWS Git]]
 *** [[file:20210323183402-django_in_aws_esp_aws_eb.org][Django in AWS (esp. AWS EB)]]
 *** [[file:20210323184055-internet.org][internet]]

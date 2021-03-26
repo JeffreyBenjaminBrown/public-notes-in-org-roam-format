@@ -1,16 +1,12 @@
 #+title: Emacs packages
 * TODO ask about | look for
-** Is there something like windmove for switching between buffers without opening the Buffer View?
 ** something to show brackets, parens, etc. in another color?
 ** I would like the highlight to remain after changing the indentation of a lot of adjacent bullets, so that I can do it again.
 * TODO read through these package lists
 ** resume reading package list (searching "tree") at Kill Ring (section)
-** resume reading awesome-emacs at ztree
+** resume reading awesome-emacs at ace-window
    https://github.com/emacs-tw/awesome-emacs
 * packages of interest
-** treefactor
-** highlight-escape-sequences
-** highlight-parentheses
 ** multiple cursors
 ** (smart-)hungry-delete
 ** expand-region
@@ -20,21 +16,48 @@
    draw boxes etc. with mouse, keyboard
 ** move-text - move current line or region up or down.
 ** cruz - "a collection of ridiculously useful Emacs [functions]"
-** treemacs
 ** visual-regexp
 ** imenu-anywhere : imenu over all buffers, using helm
-** linum-relative (elpa)
+* DONE ? gave up on
+** were of interest but look complex
+*** icicles -- cycle buffers with arrows and tab completion
+    but not part of Melpa
+*** treefactor
+*** treemacs (like neotree)
+** couldn't get working
+*** highlight-escape-sequences
+    Installed from MELPA; seemed to do nothing.
+    Maybe I need to customize it
+      /(e.g. maybe `M-x customize-group hes-mode`).
+    Apparently also available from GNU itself (per package-list-packages) but I don't know how to use such packages in my emacs.nix file.
+* DONE ? I probably prefer something else
+** [[file:20210325221736-vertigo_emacs_package.org][vertigo]]
+** helm-swoop
+   Split-pane text search.
+   Turns out I don't look at the pane of search results.
+*** emacs code I was using for it
+    ;; helm-swoop: two-panel string matching
+    (global-set-key (kbd "C-c C-j s") 'helm-swoop)
+** avy : nah, I prefer simple C-s and C-r
+*** code I was using for it
+;; avy : jump around
+(global-set-key (kbd "C-;") 'avy-goto-char-2)
 * remember, is great (and installed)
 ** imenu : provides a menu of spots in a document to jump to
 ** undo-tree
    undo-tree-visualize			-- first enable undo-tree-mode
-   undo-tree-diff			-- or 'd' from in it)
-   undo-tree-visualizer-timestamps	-- or 't' from in it)
+   undo-tree-diff			-- or 'd' from in it
+   undo-tree-visualizer-timestamps	-- or 't' from in it
+** ace-window
 ** block-nav
-** vertigo
-** block-nav
-   Or if I don't like that, try emacs-spatial-navigate:
+   If I decide I don't like that, try emacs-spatial-navigate:
    https://gitlab.com/ideasman42/emacs-spatial-navigate
-** mwim
-   (global-set-key (kbd "C-a") 'mwim-beginning)
-   (global-set-key (kbd "C-e") 'mwim-end)
+** iflipb: change buffers fast
+** goto-last-change
+** [[file:20210326092035-ctrlf_emacs_package.org][ctrlf]] : text search
+** DONE internalized
+*** mwim
+*** rainbow-delimiters
+    Installed via Melpa\Nix.
+    The only thing it defined is rainbow-delimiters-mode -- it didn't define rainbow-delimiters-faces or
+*** linum-relative (elpa)

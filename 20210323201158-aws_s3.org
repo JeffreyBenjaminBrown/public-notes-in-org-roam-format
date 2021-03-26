@@ -1,5 +1,6 @@
 #+title: AWS S3
 = Amazon Simple Storage Service = S3 = buckets
+* [[file:20210323181107-aws_s3_cli.org][S3 has a CLI]]
 * data can be "queried in place"
 * data can be "selectively retrieved"
   with "S3 Select"

@@ -1,21 +1,30 @@
 #+title: AWS virtual machine via EC2
 #+ROAM_ALIAS: "EC2"
+* TODO try scp to move files via SSH
+  https://stackoverflow.com/questions/9427553/how-to-download-a-file-from-server-using-ssh/9427762#9427762
+  or the comment above it.
+* TODO ? terminate that instance that I stopped
+  Not sure that would save me any money. It used 1.5 GB or so for the OS.
 * How to launch a linux virtual machine, and use it via SSH.
   serial
-** EC2 -> Launch Instance
-** Select an OS
-   Ranked highest is "Amazon Linux 2".
-   There's also Ubuntu 18.04.
-** choose a bundle of specs
-   One of them is "free tier eligible".
-** prepare to SSH
-   The first time, will have to make and download a key pair,
-   ending in .pem.
-** start it. wait for it to start.
-   Click on the instance to see it.
-   The "instance state" column will soon show "running".
+** start it from the browser
+*** EC2 -> Launch Instance
+*** Select an OS
+    Ranked highest is "Amazon Linux 2".
+    There's also Ubuntu 18.04.
+*** choose a bundle of specs
+    One of them is "free tier eligible".
+*** prepare to SSH
+    The first time, will have to make and download a key pair,
+    ending in .pem.
+    I think it needs 400 permissions (rather than 644, the default).
+*** start it. wait for it to start.
+    Click on the instance to see it.
+    The "instance state" column will soon show "running".
 ** connect via SSH
    ssh -i <path to key> ec2-user@<public IP address>
+   currently:
+     ssh -i 2021-03-24.pem ec2-user@34.203.29.4
 *** PITFALL: Might need to chmod 400 the ssh key first.
 *** PITFALL: They suggest keeping the key in ~/.ssh/
 ** end it from the browser
@@ -35,3 +44,4 @@
 *** PITFALL: the SSH key becomes garbage
     once the instance is terminated
 * [[file:20210323203856-aws_ec2_wui.org][the EC2 WUI]]
+* [[file:../../.local/share/Trash/files/20210324225227-my_aws_phanaeros_routine.org][My AWS Phanaeros routine]]

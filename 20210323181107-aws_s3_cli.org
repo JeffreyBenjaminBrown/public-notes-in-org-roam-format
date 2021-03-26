@@ -1,5 +1,5 @@
-#+title: AWS CLI
-= The Command Line Interface for AWS.
+#+title: AWS S3 CLI
+= The Command Line Interface for AWS S3
 * setup the AWS CLI
 ** there's also the (slower) web UI
    Individual files can be uploaded and downloaded (by mouse)
