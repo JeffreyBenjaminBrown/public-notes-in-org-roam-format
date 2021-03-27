@@ -1,23 +1,64 @@
 #+title: Emacs packages
+* PIFALL: might need (require '<package name>) initially
+  Evaluating that may have allowed me to get some things installed that otherwise weren't. But later I was able to run them without having that expression in my .emacs file.
 * TODO ask about | look for
+** next/previous non-whitespace
 ** something to show brackets, parens, etc. in another color?
 ** I would like the highlight to remain after changing the indentation of a lot of adjacent bullets, so that I can do it again.
 * TODO read through these package lists
 ** resume reading package list (searching "tree") at Kill Ring (section)
-** resume reading awesome-emacs at ace-window
+** resume reading awesome-emacs at section Project Management
    https://github.com/emacs-tw/awesome-emacs
 * packages of interest
-** multiple cursors
-** (smart-)hungry-delete
-** expand-region
-** multifiles
-** lentic -  Create views of the same content in two Emacs buffers.
-** artist-mode
-   draw boxes etc. with mouse, keyboard
-** move-text - move current line or region up or down.
-** cruz - "a collection of ridiculously useful Emacs [functions]"
-** visual-regexp
-** imenu-anywhere : imenu over all buffers, using helm
+** important (and maybe easy)
+*** docker
+*** evil-mode
+*** wgrep - Writable grep/ack/ag/pt buffer and apply the changes to files.
+*** grip-mode - Instant Github-flavored Markdown/Org preview using Grip
+*** ace-link
+*** back-button
+    "Visual navigation through mark rings in Emacs"
+    Through global and (buffer-)local mark rings.
+    Leaves visible marks at each spot.
+*** cruz - "a collection of ridiculously useful Emacs [functions]"
+*** git-timemachine: step through old versions of a file
+*** multi-term - Multiple terminals, and more useable.
+    In particular, will kill a process when you exit the terminal.
+*** Project management : whole section of awesome-emacs
+*** git-link - get the GitHub/Bitbucket/GitLab/... URL for a buffer location
+*** markdown-toc
+** easy
+*** Keys Cheat Sheet: a whole section of awesome-emacs
+*** google-translate
+*** expand-region
+*** artist-mode
+    draw boxes etc. with mouse, keyboard
+*** diff-hl - Highlights uncommitted changes.
+*** SyMon - tiny graphical system monitor
+*** org-download: Drag and drop images to Emacs org-mode
+*** twittering-mode
+*** key-quiz - test your Emacs knowledge
+*** bm - visual bookmarks
+    Unlike the mark ring, the user chooses where the bookmarks are,
+    can delete them when needed, etc.
+*** move-text - move current line or region up or down.
+*** pdf-view-restore - remember your place
+    addition to PDF Tools. saves the current position in a PDF to resume reading at that place even after the buffer has been closed.
+** maybe neither
+*** pdf-tools
+    read, search, follow links, edit annotations, kill text (!), jump to LaTeX source, adjust colors for lighting
+*** multifiles - View and edit parts of multiple files in one buffer.
+*** lentic - Create views of the same content in two Emacs buffers.
+*** org-web: edit org files on mobile, synced to GDrive or Dropbox
+*** imenu-anywhere : imenu over all buffers, using helm
+*** ialign: interactive regexes, like align-columns but stronger
+*** org-noter: annotate PDF, EPUB, Microsoft Office, DVI, PS, and OpenDocument
+    Annotations are in a separate file.
+*** Mail, IRC, Chat, RSS : whole sections of awesome-emacs
+*** theme-magic - Apply your Emacs theme to the rest of Linux.
+*** HaRe - Haskell refactoring
+*** visual-regexp
+*** ov - change text appearance (temporarily, I think)
 * DONE ? gave up on
 ** were of interest but look complex
 *** icicles -- cycle buffers with arrows and tab completion
@@ -43,21 +84,29 @@
 ;; avy : jump around
 (global-set-key (kbd "C-;") 'avy-goto-char-2)
 * remember, is great (and installed)
+** (smart-)hungry-delete
+   Delete lots of whitespace.
+** restart-emacs
 ** imenu : provides a menu of spots in a document to jump to
 ** undo-tree
    undo-tree-visualize			-- first enable undo-tree-mode
    undo-tree-diff			-- or 'd' from in it
    undo-tree-visualizer-timestamps	-- or 't' from in it
-** ace-window
+** [[file:20210326150807-ace_window_emacs_package.org][ace-window (Emacs package)]]
 ** block-nav
    If I decide I don't like that, try emacs-spatial-navigate:
    https://gitlab.com/ideasman42/emacs-spatial-navigate
 ** iflipb: change buffers fast
 ** goto-last-change
 ** [[file:20210326092035-ctrlf_emacs_package.org][ctrlf]] : text search
+** restart-emacs
 ** DONE internalized
 *** mwim
 *** rainbow-delimiters
     Installed via Melpa\Nix.
     The only thing it defined is rainbow-delimiters-mode -- it didn't define rainbow-delimiters-faces or
 *** linum-relative (elpa)
+*** multiple cursors
+* remember, commands
+** M-m: first non-whitespace char in line
+** C-c C-(f/b): org next/previous same level

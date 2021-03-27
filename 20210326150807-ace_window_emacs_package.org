@@ -1,0 +1,10 @@
+#+title: ace-window (Emacs package)
+* one in ace-window mode
+** type a number to jump to that window
+** before typing the number, type a letter to change the mode
+   For more see https://github.com/abo-abo/ace-window
+*** o - maximize
+*** x - delete window
+*** m - swap windows
+*** v - split window vertically
+*** b - split window horizontally
