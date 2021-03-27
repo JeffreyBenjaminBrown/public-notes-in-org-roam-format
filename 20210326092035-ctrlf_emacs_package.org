@@ -8,6 +8,13 @@
 *** M-s _: ctrlf-forward-symbol
     Does not match if the search string is part of a bigger symbol.
 *** M-s .: ctrlf-forward-symbol-at-point
+** change search method
+*** M-c and M-s c: Toggle case sensitivity.
+    By default, search is case-sensitive only if your search contains uppercase letters, like in Isearch (following the logic in isearch-no-upper-case-p).
+*** M-s s: Cycle search style among
+    literal, regexp, symbol, fuzzy, fuzzy-regexp
+*** M-r and M-s r: Toggle between regexp and literal search style.
+*** M-s _: Toggle between symbol and literal search style.
 ** change input
 *** M-s .: Change the search input to the symbol at point, and change the search style to symbol.
 *** M-n at start of session: search for symbol at point.
@@ -31,12 +38,6 @@
 *** RET: Finish search, leaving point at the currently selected match.
 *** C-g: Abort search, returning point to its original location.
 ** misc
-*** M-c and M-s c: Toggle case sensitivity.
-    By default, search is case-sensitive only if your search contains uppercase letters, like in Isearch (following the logic in isearch-no-upper-case-p).
-*** M-s s: Cycle search style among
-    literal, regexp, symbol, fuzzy, fuzzy-regexp
-*** M-r and M-s r: Toggle between regexp and literal search style.
-*** M-s _: Toggle between symbol and literal search style.
 *** M-s o: Open an Occur buffer with the existing search input.
 *** C-l: Bounce center (as usual)
 * faces can be customized

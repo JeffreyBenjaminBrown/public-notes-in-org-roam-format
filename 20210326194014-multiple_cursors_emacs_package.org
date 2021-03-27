@@ -1,0 +1,12 @@
+#+title: multiple cursors (Emacs package)
+* commands
+** mc/edit-(ends-of)-lines
+   Add a cursor at the start (end) of each line of selection.
+** mc/mark-(next/previous/all)-like-this
+   Depends on what's selected.
+   Type, then delete a character to escape the highlight.
+** mc/unmark-(next/previous)-like-this
+   Remove the cursor furthest (down/up) in the buffer.
+** mc/skip-to-(next/previous)-like-this:
+   Remove the cursor furthest (down/up),
+   marking the next occurrence (down/up).

@@ -106,7 +106,8 @@
     Installed via Melpa\Nix.
     The only thing it defined is rainbow-delimiters-mode -- it didn't define rainbow-delimiters-faces or
 *** linum-relative (elpa)
-*** multiple cursors
+*** [[file:20210326194014-multiple_cursors_emacs_package.org][multiple cursors (Emacs package)]]
 * remember, commands
 ** M-m: first non-whitespace char in line
 ** C-c C-(f/b): org next/previous same level
+** Up, down and search work in the minibuffer after M-x.
