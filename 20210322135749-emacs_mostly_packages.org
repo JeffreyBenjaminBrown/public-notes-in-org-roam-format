@@ -1,6 +1,6 @@
-#+title: Emacs packages
-* PIFALL: might need (require '<package name>) initially
-  Evaluating that may have allowed me to get some things installed that otherwise weren't. But later I was able to run them without having that expression in my .emacs file.
+#+title: Emacs, mostly packages
+* PIFALL: might need (require '<package name>) when first installinga
+  Evaluating that may have allowed me to get some packages working that otherwise weren't. But later I was able to run them without having that expression in my .emacs file.
 * TODO ask about | look for
 ** next/previous non-whitespace
 ** something to show brackets, parens, etc. in another color?
