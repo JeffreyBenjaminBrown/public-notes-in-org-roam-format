@@ -1,0 +1,8 @@
+#+title: Listing It (todo app for mobile)
+* how to convert org notes to Listing It notes
+** format the org file under a single top heading
+   Otherwise the result will be to import a forest, not a tree.
+** run `~/bash/org-to-listing-it.sh` on the org file
+** Download that file onto my phone.
+   Google Drive works best for this.
+** From the Files app, choose "Open With" and select Listing It.

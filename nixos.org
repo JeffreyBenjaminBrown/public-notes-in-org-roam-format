@@ -2,10 +2,7 @@
 * [[file:20200707160119-nixos_my_config.org][NixOS, my config]]
 * [[file:20201110140636-nixos_reinstalling.org][NixOS, installing]]
 * How to figure out (from within NixOS) which boot config got me here.
-  :PROPERTIES:
-  :ID:       7c599846-4081-416d-8c8a-878516dda8d8
-  :END:
-https://www.reddit.com/r/NixOS/comments/lknn4k/how_to_know_which_boot_config_i_am_on_why_is_all/
+  https://www.reddit.com/r/NixOS/comments/lknn4k/how_to_know_which_boot_config_i_am_on_why_is_all/
 ** find the derivation folder
 Running
   `stat /run/current-system`

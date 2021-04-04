@@ -23,37 +23,78 @@ I hope you're well. I haven't visited in years but I remember you guys being rea
 
 Thank you!
 Jeff
-* standard Stick string gauges, I think
+* range and gauge
+** my chosen range, gauges
+*** bass tuned in m3s, treble in M3s
+*** lowest bass still C (so .095), highest treble still D (so 8)
+*** to John Starrett
+    I settled on a tuning. This puts all the strings on the treble side 13\41 apart (a major third), and all strings on the bass side 11\41 apart (a minor third). I've included precise Hz values, and also the nearest 12-tone pitch values. The 12-tone values could of course be off by as much as 50 cents. If you'd like precise 12-tone values (e.g. "E# plus 40 cents") please me know.
+
+     I'm using "string 1" to mean the string that would be farthest from a player's face if they held the Stick like a right-handed guitar, and "string 12" to to mean the one closest to their face. The "treble side" includes strings 1-6, and the "bass side" 7-12. The two heaviest strings are, per Stick tradition, in the center of the instrument.
+
+     1 : 293.3 Hz, D
+     2 : 235.4 Hz, A#
+     3 : 188.9 Hz, F#
+     4 : 151.7 Hz, D#
+     5 : 121.7 Hz, B
+     6 : 97.7  Hz, G
+     7 : 65.1  Hz, C
+     8 : 78.4  Hz, Eb
+     9 : 94.5  Hz, Gb
+     10: 113.8 Hz, Bb
+     11: 137   Hz, Db
+     12: 165   Hz, E
+
+     The highest note, the D on string 1, is a whole step below a guitar's usual high E. Stick Enterprise's default gauge for that string was .008 for decades. (Today they offer multiple choices, and I don't know what the other options are.)
+
+     The lowest note, the C at string 7, is a third below a bass guitar's usual low E. Stick Enterprise's traditional gauge for that string is 0.095.
+
+     If I recall correctly, they believe lighter gauge at high tension are the best way to avoid fret buzz. As a result the instrument has a weak, nasal tone, at least in some registers. I'll defer to your judgment on the matter. If you have to go through a few string sets to find the right ones, I will of course cover materials and labor for all your experiments.
+*** code
+    high_d = 440 / 2 ** (24/41)
+    mid_e = 220 / 2 ** (17/41)
+
+    :{
+    f start interval =
+      myPrint $
+      [  (/10) $ fi $ round $ (*10) $
+	start / 2**(k * interval / 41)
+      | k <- [0..5] ]
+    :}
+
+    highs = f high_d 13
+    lows = f mid_e 11
+** 20.5 edo, 11\41 between strings
+*** range
+   Puts 55\41 (an octave and a down maj 3rd) across six strings.
+   Normal Stick range across open strings is (41*3 + 7 = 130)\41. Doing this instead, since 55*2 = 110 < 130, the open strings would not overlap; there would be a gap of 20\41 (the flatter tritone) betwteen the highest bass and the lowest treble string.
+*** playability is *awesome*
+**** GHCI> Pr.pPrint $ thanosReport 41 2 11
+     ...
+     4  steps = 17 % 16	: st 0 fr 2
+     10 steps = 19 % 16	: st 0 fr 5
+     13 steps = 5 % 4	: st 1 fr 1
+     19 steps = 11 % 8	: st 1 fr 4
+     21 steps = 23 % 16	: st 1 fr 5
+     24 steps = 3 % 2	: st 2 fr 1
+     29 steps = 13 % 8	: st 3 fr -2
+     33 steps = 7 % 4	: st 3 fr 0
+     35 steps = 29 % 16	: st 3 fr 1
+     39 steps = 31 % 16	: st 3 fr 3
+     41 steps = 2 % 1	: st 3 fr 4
+**** Of the hardest intervals, only the octave is especially important.
+     The octave is (3,4).
+     The neutral 3rd is (0,5) or (2,-5).
+     19%16 and 23%16 also lie on fret 5.
+**** In the 31-limit without 13 or 23, the range is 4 frets.
+     That's for *every* interval, not just the prime ones --
+     e.g. including 6/5, 11/5, etc.
+     (No range in any limit is less than 4 frets,
+     as that's the width of the octave.)
+** standard Stick range
+   Normally a Chapman Stick has a range of 3 octaves and a whole tone across the open strings, with lots of overlap.
+** standard Stick string gauges
   This is cobbled together -- I found the numbers on a Google image search, and Brian told me which strings are wound.
   It seems kind of absurd -- if the treble strings are 5\12 apart and the bass 7\12, why are 12 and 18 neighbors in both systems?
   treble:  8   9  12  18  26u 38u
   bass:   12  18  22u 40u 65u 95u
-* range
-  Normally a Chapman Stick has a range of 3 octaves and a whole tone across the open strings, with lots of overlap.
-* 20.5 edo, 11\41 between strings
-** range
-  Puts 55\41 (an octave and a down maj 3rd) across six strings.
-  Normal Stick range across open strings is (41*3 + 7 = 130)\41. Doing this instead, since 55*2 = 110 < 130, the open strings would not overlap; there would be a gap of 20\41 (the flatter tritone) betwteen the highest bass and the lowest treble string.
-** playability is *awesome*
-*** GHCI> Pr.pPrint $ thanosReport 41 2 11
-    ...
-    4  steps = 17 % 16	: st 0 fr 2
-    10 steps = 19 % 16	: st 0 fr 5
-    13 steps = 5 % 4	: st 1 fr 1
-    19 steps = 11 % 8	: st 1 fr 4
-    21 steps = 23 % 16	: st 1 fr 5
-    24 steps = 3 % 2	: st 2 fr 1
-    29 steps = 13 % 8	: st 3 fr -2
-    33 steps = 7 % 4	: st 3 fr 0
-    35 steps = 29 % 16	: st 3 fr 1
-    39 steps = 31 % 16	: st 3 fr 3
-    41 steps = 2 % 1	: st 3 fr 4
-*** Of the hardest intervals, only the octave is especially important.
-    The octave is (3,4).
-    The neutral 3rd is (0,5) or (2,-5).
-    19%16 and 23%16 also lie on fret 5.
-*** In the 31-limit without 13 or 23, the range is 4 frets.
-    That's for *every* interval, not just the prime ones --
-    e.g. including 6/5, 11/5, etc.
-    (No range in any limit is less than 4 frets,
-    as that's the width of the octave.)
