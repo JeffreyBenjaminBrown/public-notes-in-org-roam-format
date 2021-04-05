@@ -1,10 +1,16 @@
 #+title: AWS virtual machine via EC2
 #+ROAM_ALIAS: "EC2"
-* TODO try scp to move files via SSH
+* DONE scp to move files via SSH
+** zip them first
+   There's big per-file overhead.
+** some help on SO
   https://stackoverflow.com/questions/9427553/how-to-download-a-file-from-server-using-ssh/9427762#9427762
   or the comment above it.
-* TODO ? terminate that instance that I stopped
-  Not sure that would save me any money. It used 1.5 GB or so for the OS.
+** command to run
+   scp user@host:/remote-path /local-path
+   scp  -i  ~/code/aws/secret/2021-03-24.pem  ec2-user@34.204.60.103://home/ec2-user/many_tiny.zip .
+   scp  -i  ~/code/aws/secret/2021-03-24.pem  ../data/many_tiny ec2-user@34.204.60.103://home/ec2-user
+* [[file:../pers/20210327204705-phanaeros_on_aws.org][Phanaeros on AWS]]
 * How to launch a linux virtual machine, and use it via SSH.
   serial
 ** start it from the browser
@@ -22,9 +28,7 @@
     Click on the instance to see it.
     The "instance state" column will soon show "running".
 ** connect via SSH
-   ssh -i <path to key> ec2-user@<public IP address>
-   currently:
-     ssh -i 2021-03-24.pem ec2-user@34.203.29.4
+   ssh  -i  ~/code/aws/secret/2021-03-24.pem  ubuntu@34.204.60.103
 *** PITFALL: Might need to chmod 400 the ssh key first.
 *** PITFALL: They suggest keeping the key in ~/.ssh/
 ** end it from the browser
