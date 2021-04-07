@@ -1,6 +1,7 @@
 #+title: mtv-ji
 * TODO make a table of many thanos reports
 ** TODO implement a "correction" phase to the fret calculations
+   It should remap fret numbers, not notes -- so, e.g., if it finds that some things are on fret 6, and remaps to fret -4, it remaps everything on fret 6 to fret -4 at once.
    Once the program has chosen fret positions for all harmonics,
    revise them such that if any can be adjusted to be closer on average to the others, it is.
    Keep revising until that can't be done to anything. (Hopefully there are no cycles.)

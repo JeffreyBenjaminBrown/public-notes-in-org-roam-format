@@ -24,10 +24,79 @@ I hope you're well. I haven't visited in years but I remember you guys being rea
 Thank you!
 Jeff
 * range and gauge
-** my chosen range, gauges
-*** bass tuned in m3s, treble in M3s
+** common code
+-- put this in a temp file, and load it with :s
+high_d = 440 / 2 ** (24/41)
+mid_e = 220 / 2 ** (17/41)
+low_c = 55 * 2 ** (10/41)
+up_low_c = 55 * 2 ** (11/41)
+
+:{
+f start interval =
+  myPrint $
+  [  (/10) $ fi $ round $ (*10) $
+	start * 2**(k * interval / 41)
+  | k <- [0..5] ]
+:}
+** bass tuned in M3s, treble in m3s
+   I included two options for the bass strings, one 1\41 above the other. Should probably do the same for the treble strings.
+*** code
+    highs = f high_d (-11)
+    lows = f low_c 13
+    lows = f up_low_c 13
+*** result
+    string  1, 293.3 Hz,  2 cents flat	of D
+    string  2, 243.5 Hz, 24 cents flat	of B
+    string  3, 202.2 Hz, 46 cents flat	of G#
+    string  4, 167.9 Hz, 32 cents sharp of E
+    string  5, 139.4 Hz, 10 cents sharp of C#
+    string  6, 115.7 Hz, 13 cents flat	of A#
+
+    string  7, 66.2  Hz, 21 cents sharp of C
+    string  8, 82.5  Hz, 2  cents sharp of E
+    string  9, 102.8 Hz, 17 cents flat  of G#
+    string 10, 128.1 Hz, 36 cents flat  of C
+    string 11, 159.6 Hz, 44 cents sharp of Eb
+    string 12, 198.8 Hz, 25 cents sharp of G
+
+    string  7, 65.1  Hz,  8 cents flat	of C
+    string  8, 81.1  Hz, 28 cents flat	of E
+    string  9, 101.1 Hz, 46 cents flat	of G#
+    string 10, 125.9 Hz, 34 cents sharp of B
+    string 11, 156.9 Hz, 15 cents sharp of D#
+    string 12, 195.4 Hz,  5 cents flat	of G
+*** explanation, sent to John Starrett
+I think Kite is right -- it makes more sense to use the wide spacing in the bass strings and the narrow one in the treble strings. So here's my new tuning scheme:
+
+    string  1, 293.3 Hz,  2 cents flat	of D
+    string  2, 243.5 Hz, 24 cents flat	of B
+    string  3, 202.2 Hz, 46 cents flat	of G#
+    string  4, 167.9 Hz, 32 cents sharp of E
+    string  5, 139.4 Hz, 10 cents sharp of C#
+    string  6, 115.7 Hz, 13 cents flat	of A#
+
+    string  7, 66.2  Hz, 21 cents sharp of C
+    string  8, 82.5  Hz, 2  cents sharp of E
+    string  9, 102.8 Hz, 17 cents flat  of G#
+    string 10, 128.1 Hz, 36 cents flat  of C
+    string 11, 159.6 Hz, 44 cents sharp of Eb
+    string 12, 198.8 Hz, 25 cents sharp of G
+
+These assume concert pitch A=440. Due to the quantization of string gauges, I don't know whether it will work better to tune that low C on string 7 a little sharp or a little flat. If tuning it sharp turns out to be bad for some reason, here's an alternate tuning for the bass strings:
+
+    string  7, 65.1  Hz,  8 cents flat	of C
+    string  8, 81.1  Hz, 28 cents flat	of E
+    string  9, 101.1 Hz, 46 cents flat	of G#
+    string 10, 125.9 Hz, 34 cents sharp of B
+    string 11, 156.9 Hz, 15 cents sharp of D#
+    string 12, 195.4 Hz,  5 cents flat	of G
+
+The high D on string 1 is almost exactly what it would be in a standard 12-edo Stick tuning, so I haven't provided an alternate tuning for those strings. If you think it sounds or plays better at a lower pitch, please let me know and I'll compute an alternate tuning for those treble strings too.
+
+If I recall correctly I got the impression that tuning string 1 to a high D was too ambitious, and the treble strings would have sounded fuller if it was pitched lower. I'm open to the idea of tuning string 1 at C or B instead of D, and adjusting everything else accordingly.
+** bass tuned in m3s, treble in M3s
 *** lowest bass still C (so .095), highest treble still D (so 8)
-*** to John Starrett
+*** explanation, sent to John Starrett
     I settled on a tuning. This puts all the strings on the treble side 13\41 apart (a major third), and all strings on the bass side 11\41 apart (a minor third). I've included precise Hz values, and also the nearest 12-tone pitch values. The 12-tone values could of course be off by as much as 50 cents. If you'd like precise 12-tone values (e.g. "E# plus 40 cents") please me know.
 
      I'm using "string 1" to mean the string that would be farthest from a player's face if they held the Stick like a right-handed guitar, and "string 12" to to mean the one closest to their face. The "treble side" includes strings 1-6, and the "bass side" 7-12. The two heaviest strings are, per Stick tradition, in the center of the instrument.
@@ -51,19 +120,8 @@ Jeff
 
      If I recall correctly, they believe lighter gauge at high tension are the best way to avoid fret buzz. As a result the instrument has a weak, nasal tone, at least in some registers. I'll defer to your judgment on the matter. If you have to go through a few string sets to find the right ones, I will of course cover materials and labor for all your experiments.
 *** code
-    high_d = 440 / 2 ** (24/41)
-    mid_e = 220 / 2 ** (17/41)
-
-    :{
-    f start interval =
-      myPrint $
-      [  (/10) $ fi $ round $ (*10) $
-	start / 2**(k * interval / 41)
-      | k <- [0..5] ]
-    :}
-
-    highs = f high_d 13
-    lows = f mid_e 11
+    highs = f high_d (-13)
+    lows = f mid_e (-11)
 ** 20.5 edo, 11\41 between strings
 *** range
    Puts 55\41 (an octave and a down maj 3rd) across six strings.
