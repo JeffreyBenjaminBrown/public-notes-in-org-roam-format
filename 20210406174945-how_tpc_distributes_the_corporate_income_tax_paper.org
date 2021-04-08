@@ -1,32 +1,137 @@
 #+title: How TPC Distributes the Corporate Income Tax (paper)
 ~/of/papers/How-TPC-...
-* TODO RESUME p. 2 (really the third page) last paragraph
-* stakeholders
-  shareholders, other capital income recipients, workers, consumers
-* return to capital is largely from supernormal returns
-  "a substantial share of the return to corporate capital is from “supernormal” returns, the returns to successful risk taking, inframarginal returns, and economic rents in excess of the “normal” return (the riskless return to waiting)"
-* international capital mobility shifts some of ("the"?) corporate tax burden to labor
-  "international capital mobility shifts some of the corporate income tax burden on the normal return from corporate capital to labor"
-** TODO The "normal" in that sentence confuses me.
-* share breakdown
-** 20 labor, 20 normal returns, 60 supernormal returns
-   "TPC now treats 20 percent of the corporate income tax burden as falling on labor, 20 percent on the normal return to all capital, and 60 percent on the supernormal returns to corporate equity (shareholders)."
-** they split the "normal return" 50/50
-*** restated in detail
-   "We now also distinguish the incidence of changes in the corporate income tax that affect only the normal return, such as changes in cost recovery rules, which we distribute 50 percent to labor and 50 percent to the normal return to all capital."
+* vocab
+** CIT = corporate income tax
+** LR, SR = short run, long run
+** TPC = Tax Policy Center
+* TODO RESUME section starting at top of p. 11
+  "Implementing TPC’s Updated Incidence Assumptions"
+* theory
+** stakeholders
+   shareholders, other capital income recipients, workers, consumers
+** return to capital is largely from supernormal returns
+   "a substantial share of the return to corporate capital is from “supernormal” returns, the returns to successful risk taking, inframarginal returns, and economic rents in excess of the “normal” return (the riskless return to waiting)"
+** international capital mobility shifts some of ("the"?) corporate tax burden to labor
+   "international capital mobility shifts some of the corporate income tax burden on the normal return from corporate capital to labor"
+*** TODO The "normal" in that sentence confuses me.
+** share breakdown
+*** 20 labor, 20 normal returns, 60 supernormal returns
+    "TPC now treats 20 percent of the corporate income tax burden as falling on labor, 20 percent on the normal return to all capital, and 60 percent on the supernormal returns to corporate equity (shareholders)."
+*** they split the "normal return" 50/50
+**** restated in detail
+    "We now also distinguish the incidence of changes in the corporate income tax that affect only the normal return, such as changes in cost recovery rules, which we distribute 50 percent to labor and 50 percent to the normal return to all capital."
+**** examples
+     Changes in cost recovery provisions
+***** TODO understand this
+      "As a result, an increase in corporate revenues due, for example, to scaling back accelerated depreciation would be less progressive than the baseline corporate tax, for which the burden on labor is only 20 percent."
+*** 60% is a lowball estimate
+    "We use the low end of the range of recent estimates for this “supernormal” share, 60 percent, and assign it only to shareholders."
+*** distinguishing normal and supernormal returns
+** short-run changes fall only on shareholders
+   "In addition, for short-run analyses of changes in the corporate income tax we now treat all of the burden as falling on shareholders"
+   "the long-run distribution [unlike the short-term one] ... takes account of shifting of capital to the non-corporate sector and overseas to avoid the tax."
+   "the short-run distribution of a corporate tax change is [therefore] more progressive than the long-run distribution"
+** tax incidence can come through price hikes as well as drops in income
+** TODO understand
+   "The [corporate income] tax applies to corporate equity returns, because workers’ earnings, interest paid to bondholders and other lenders, and other business costs are deductible in computing taxable profits."
+** the Harberger model
+*** some root causes: shifting capital from corporate and noncorporate
+    The corporate income tax motivates owners to shift capital to the noncorporate sector, which raises corporate returns, mitigating the tax somewhat.
+    "Shifting investment (capital) from corporate to noncorporate businesses could reduce returns to noncorporate investors, for example, and shifting investment abroad could reduce wages for domestic workers."
+    "Capital continues to move until the after-tax return in the corporate sector equals the now lower (but untaxed) return in the noncorporate sector."
+*** theoretical effects
+**** can affect labor productivity & wages
+     "This movement of capital could also affect the productivity of labor, and therefore wages, by changing the capital to labor ratio in each sector."
+**** TODO Why would price effects cancel for most households?
+     The corporate tax raises the price of corporate-produced goods and services. Households that rely more on those relative to noncorporate ones bear a heavier burden.
+     "For a typical household, however, these price effects are offsetting, so the corporate income tax does not impose a net 6 burden on consumption."
+     what is the offsetting effect? The corp tax raises corp prices, but why would it lower noncorp prices? Are they just lowered in the sense that all prices are relative, and the only prices to compare to rose?
+     Why would they cancel for most households?
+*** estimated effects
+**** TODO "With no net burden on consumption, the entire burden of the corporate income tax must fall on capital, labor, or both."
+     This idea of a burden falling on an activity and not a people is weird to me.
+**** he calibrates and finds 100% falls on capital
+** opening up int'l trade
+*** the Randolph model
+**** why to open it
+     "the relative size of the U.S. economy and its capital stock have fallen and international capital mobility has greatly increased,"
+**** the basic mechanism
+***** capital leaves the country
+***** capital productivity at home rises
+      as does its pre-tax return
+***** capital productivity abroad falls
+***** labor productivity falls at home, rises abroad
+**** Randolph's "base case"
+***** assumptions
+****** capital is perfectly mobile
+****** labor is internationally immobile
+****** domestic and foreign products are perfect substitutes
+****** other countries' laws don't change in response
+***** results
+****** domestically, incidence falls 70% on labor, 30% on capital
+****** the international results seem to be summarized badly
+******* TODO this sentence contradicts itself
+        "Randolph finds that worldwide, capital bears 100 percent of the U. S. corporate income tax burden, with gains to foreign labor offsetting the losses to domestic labor and the entire net burden of the tax falling on domestic capital and labor."
+******* maybe they mean to say that internationally, it falls on net entirely on capital
+        because labor's loss at home is offset by labor's gain abroad
+****** less mobile capital => less burden on home labor, more on home capital
+*** TODO I don't see why the net foreign burden would be zero.
+    "10 The burden on foreign capital is offset by the gains to foreign labor, so there is no net foreign burden."
+    They got more capital, and they lost no labor. Shouldn't the exterior be better off? Are they worse off now because prices rose at home?
+*** other estimates vary wildly
+    "The recent empirical studies reach sharply different estimates of labor’s share of the corporate income tax burden. Some find shares that fall in the same range as the results from recent Harberger-type models, but others find far higher shares, ranging between 200 to 400 percent."
+** incorporating supernormal returns
+*** what those are
+    "profits also include the returns to successful risk taking,11 inframarginal returns, and economic rents."
+*** the tax burden on pure rents is not shifted away
+    "If these “supernormal” returns are pure rents, they bear the full burden of the corporate income tax and 13this portion of the burden is not shifted from shareholders, even in the long run"
+*** but otherwise, it might affect labor productivity
+    If a corp income tax discourages "entrepreneurial labor", firms might end up less able to use labor, i.e. wages could fall.
+*** what fraction of equity returns are supernormal
+    "Gentry and Hubbard (1997) estimate that supernormal returns represent 60 percent of the total returns to equity."
+    Others get 68, 63, 62
+*** the CIT motivates corps to move supernormal returns abroad
+** income mismeasurement (e.g. investment tax credits)
 *** examples
-    Changes in cost recovery provisions
-**** TODO understand this
-     "As a result, an increase in corporate revenues due, for example, to scaling back accelerated depreciation would be less progressive than the baseline corporate tax, for which the burden on labor is only 20 percent."
-** 60% is a lowball estimate
-   "We use the low end of the range of recent estimates for this “supernormal” share, 60 percent, and assign it only to shareholders."
-** distinguishing normal and supernormal returns
-* short-run changes fall only on shareholders
-  "In addition, for short-run analyses of changes in the corporate income tax we now treat all of the burden as falling on shareholders"
-  "the long-run distribution [unlike the short-term one] ... takes account of shifting of capital to the non-corporate sector and overseas to avoid the tax."
-  "the short-run distribution of a corporate tax change is [therefore] more progressive than the long-run distribution"
-* tax incidence can come through price hikes as well as drops in income
-* TODO understand
-  "The [corporate income] tax applies to corporate equity returns, because workers’ earnings, interest paid to bondholders and other lenders, and other business costs are deductible in computing taxable profits."
-* tax inncentives
-  "Shifting investment (capital) from corporate to noncorporate businesses could reduce returns to noncorporate investors, for example, and shifting investment abroad could reduce wages for domestic workers."
+    "Income tax depreciation schedules for plant and equipment are generally accelerated relative to economic depreciation"
+    "The cost of producing intangibles, such as research and advertising, is generally expensed for income tax purposes, rather than capitalized and recovered as the value of these assets declines."
+    "the corporate income tax provides credits for a percentage of the cost of certain capital goods"
+*** the two kinds of return are affected differently by cost recovery rules
+    "Cost recovery and related income measurement rules affect the normal return to corporate equity but they generally do not affect supernormal returns."
+** short run v. long run
+*** the short run burden of the CIT is entirely on capital
+    because shifting is slow
+*** in the LR, capital can shift to
+    noncorporate sector
+    overseas
+*** LR effects of capital flight
+**** raise pretax return on corp capital
+**** lower returns on capital elsewhere
+**** lowering labor productivity
+*** time structure matters
+    If a law that takes time to phase in, capital dodges it better.
+    If a law only applies to new capital, which is replaced slowly, capital dodges it better.
+* plausible parameters (p. 8)
+** for CIT incidence, TPC trusts the models more than the empirical work
+   (First paragraph, p. 8)
+   b/c the latter is all over the map.
+** TPC's assumptions
+*** CIT incidence: 40 to 70% on labor
+    from Harberger-ish models
+*** share of CI due to supernormal returns: 60 to 70%
+*** CIT cannot be shifted away from supernormal returns
+** TPC's plausible ranges, and implications (Table 1, p. 8)
+   labor’s share: 12 to 28 percent
+   all (corporate and noncorporate) capital: 9 percent to 24 percent
+   corporate equity’s share: 60 to 70 percent
+** TODO the extent to which where in that range one chooses one's parameters depends on three things
+   the three bullets at the top of p. 9
+** TODO STUMPER - Is "corporate equity income" the same as income from capital in the corporate sector?
+   p. 9, second paragraph: "corporate equity income is generally more concentrated at higher income levels than the normal return to all capital income"
+   If, as the next sentence suggests, corporate equity income equals supernormal returns, where are the normal returns to capital?
+** TODO our goal should be something like table 2 p. 9
+* TPC's chosen parameters
+** they assume 60 supernormal, 20 labor (midpoint), 20 normal (remainder)
+   and thus "the corporate income tax burden on the normal return is split evenly between labor and capital."
+** TODO Why did they lowball the supernormal share?
+   "We assume the burden on supernormal returns falls only on shareholders (corporate equity only) and therefore selected the bottom of the plausible range to reflect the possibility that a portion may be shifted to other factors"
