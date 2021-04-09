@@ -127,11 +127,45 @@
 ** TODO the extent to which where in that range one chooses one's parameters depends on three things
    the three bullets at the top of p. 9
 ** TODO STUMPER - Is "corporate equity income" the same as income from capital in the corporate sector?
+*** my question
    p. 9, second paragraph: "corporate equity income is generally more concentrated at higher income levels than the normal return to all capital income"
    If, as the next sentence suggests, corporate equity income equals supernormal returns, where are the normal returns to capital?
+*** LRC responds
+    [7:43 PM, 4/7/2021, Whatsapp]
+    Sales of appreciated stock would be capital gains
+    You can also get capital income from interest on loans you make (or interest the bank pays you) or if you are paid rent by a tenant
+    I think normal returns would be more like safe returns on an asset like govt bonds or a bank account
 ** TODO our goal should be something like table 2 p. 9
 * TPC's chosen parameters
 ** they assume 60 supernormal, 20 labor (midpoint), 20 normal (remainder)
    and thus "the corporate income tax burden on the normal return is split evenly between labor and capital."
 ** TODO Why did they lowball the supernormal share?
    "We assume the burden on supernormal returns falls only on shareholders (corporate equity only) and therefore selected the bottom of the plausible range to reflect the possibility that a portion may be shifted to other factors"
+* "implementation": acting on the new assumptions
+** measuring burden
+*** easiest would be tax revenue
+    but that overlooks the burden of inefficiency
+*** CIT up => dividends and stock prices down => tax liability down
+    Not enough to compensate for the CIT up,
+    but enough to be worth incorporating.
+*** cost recovery rules have uneven effects over time
+*** The CIT changes relative prices to consumers, but meh.
+    Even in the US, there's insufficient data to measure that effect.
+    Fortunately there's (say TPC) little reason to think the share of corporate v. noncorporate spending varies across income groups.
+** distributing the burden on corporate shareholders
+*** they get
+    "60 percent of the total [CIT burden] due to the burden on supernormal returns plus much of the 20 percent of the total due to the capital income share of the burden on the normal return."
+*** Individual US shareholders are easy to ID, but not all shareholders are individuals
+    "a large share of individual holdings is held indirectly through 22defined contribution plans like 401(k)s and IRAs".
+    They breakdown which groups have how much (p 12, second complete paragraph and (better) table 4).
+*** Nobody knows how to divide the burden that way.
+    "Instead, the entire corporate income tax burden has been attributed to the factor incomes of (domestic) households according to the incidence assumptions made for the analysis."
+**** TODO "attributed to the factor incomes"?
+** labor and capital
+*** the basic idea
+    "TPC distributes shares of the corporate income tax burden to sources of income by applying its updated incidence assumptions to the relevant labor and capital components of TPC’s cash income measure"
+*** Labor income includes lots of stuff, e.g. FICA contributions (p. 13 last sentence, and rest of that paragraph).
+*** Different kinds of capital income divide differently into supernormal and normal returns
+    Table 5, p. 14
+** progressivity of the tax code as a whole is little changed
+   "the corporate income tax remains a very progressive component of the federal tax system, and because the corporate income tax represents a relatively small share of total federal taxes, the reduced estimate of the progressivity of the corporate income tax has only a modest effect on the estimated progressivity of the total federal tax system."
