@@ -11,40 +11,38 @@
 *** [[file:20210323203004-aws_virtual_machine_via_ec2.org][EC2]], esp. how to launch a virtual machine
 *** [[file:20210323204357-aws_static_website_hosting.org][AWS static website hosting]]
 ** all lessons
-https://aws.amazon.com/getting-started/use-cases
+   https://aws.amazon.com/getting-started/use-cases
 ** PITFALL: don't visit
 *** AWS services overview
-https://www.aws.training/Details/Video?id=16206&trk=gs_card
-It's a slow video lecture series.
+    https://www.aws.training/Details/Video?id=16206&trk=gs_card
+    It's a slow video lecture series.
 ** TODO ? next
 *** RESUME AT (?)
     Deploy Your Site with the EB CLI
-*** Deploy a Python web app
-https://aws.amazon.com/getting-started/projects/deploy-python-application/?trk=gs_card
-*** Build a LAMP (linux, apache http, mysql, and a language) web app
-https://aws.amazon.com/getting-started/projects/launch-lamp-web-app/
-https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-tutorial-launching-and-configuring-lamp
-*** Build a serverless app
-https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/?trk=gs_card
 *** messaging
-There are even more tutorials on the same theme.
+    There are even more tutorials on the same theme.
 **** Send messages between distributed apps
- https://aws.amazon.com/getting-started/tutorials/send-messages-distributed-applications/?trk=gs_card
+     https://aws.amazon.com/getting-started/tutorials/send-messages-distributed-applications/?trk=gs_card
 **** Fanout event notifications
- https://aws.amazon.com/getting-started/tutorials/send-fanout-event-notifications/?trk=gs_card
+     https://aws.amazon.com/getting-started/tutorials/send-fanout-event-notifications/?trk=gs_card
+*** Build a LAMP (linux, apache http, mysql, and a language) web app
+    https://aws.amazon.com/getting-started/projects/launch-lamp-web-app/
+    https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-tutorial-launching-and-configuring-lamp
+*** Build a serverless app
+    https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/?trk=gs_card
 * for saving money
 ** "requester pays" is an S3 option
 * TODO AWS services I might want to learn
 ** AWS storage gateway
    Someone describes it as a dropbox client but for S3.
    AWS seems to suggest it does lots of other stuff.
-* web endpoint formatting depends on region
+* PITFALL web endpoint formatting depends on region
   A website's endpoint takes one of two almost identical forms,
   depending on the region:
     bucket-name.s3-website-region.amazonaws.com
     bucket-name.s3-website.region.amazonaws.com
                           ^
-the difference
+                    the difference
   In my case it's these:
         jefbrown.net.s3-website-us-east-1.amazonaws.com
   under.jefbrown.net.s3-website-us-east-1.amazonaws.com

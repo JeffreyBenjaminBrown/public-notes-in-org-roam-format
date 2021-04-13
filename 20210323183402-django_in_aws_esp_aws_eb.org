@@ -1,6 +1,6 @@
 #+title: Django in AWS (esp. AWS EB)
 * Source: Deploy a Python web app
-  https://aws.amazon.com/getting-started/projects/deploy-python-application/?trk=gs_card
+  https://aws.amazon.com/getting-started/projects/deploy-python-application
 * WART: sidestepping the Python, virtualenv, NixOS headache
   AWS suggests using a virtualenv to install Django from pip.
   Python and virtualenv are confusing on NixOS:
