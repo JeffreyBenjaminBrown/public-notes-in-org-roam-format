@@ -1,6 +1,3 @@
-:PROPERTIES:
-:ID:       d1f98779-8418-48dc-a795-f622412124e2
-:END:
 #+title: Amazon Web Services
 #+ROAM_ALIAS: AWS
 * TODO refs | URLs

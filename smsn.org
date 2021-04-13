@@ -56,6 +56,16 @@ docker run -it --name smsn \
     :ID:       8ed67ee7-e7ec-453d-a40e-283105c7fe8f
     :END:
 That is, a folder that Encfs is funneling data into.
+*** the Git cycle
+**** Edits:
+     File this somewhere:
+       * :JNakrwxcuXNnQ7HS:
+**** PITFALL: DON'T PULL until committing.
+**** Write to VCS.
+**** Run "lost-nodes.sh"
+**** Delete things.
+     cd /home/jeff/Encfs/kb-no-encfs/vcs
+     grep "^@title \[delete" -r .
 ** inside smsn
 *** set-source
 **** The move mode command is "s".

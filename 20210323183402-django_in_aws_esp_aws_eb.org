@@ -1,22 +1,11 @@
 #+title: Django in AWS (esp. AWS EB)
-* TODO BLOCKED: first learn some Django
-** Make a demo that
-*** lets a user enter data
-filename
-file content (a string)
-*** logs the user's access (json)
-their address
-the date, time
-their request
-*** creates the desired file
-** Use that to see what EB does with the S3 storage.
 * Source: Deploy a Python web app
-https://aws.amazon.com/getting-started/projects/deploy-python-application/?trk=gs_card
+  https://aws.amazon.com/getting-started/projects/deploy-python-application/?trk=gs_card
 * WART: sidestepping the Python, virtualenv, NixOS headache
-AWS suggests using a virtualenv to install Django from pip.
-Python and virtualenv are confusing on NixOS:
-  https://nixos.wiki/wiki/Python
-So I'm just using Docker -- specifically tax.co.
+  AWS suggests using a virtualenv to install Django from pip.
+  Python and virtualenv are confusing on NixOS:
+    https://nixos.wiki/wiki/Python
+  So I'm just using Docker -- specifically tax.co.
 * once, run `django-admin startproject ebdjango`
   Like `stack new`, this writes a new project (filetree)
   called ebdjango to the current folder.
