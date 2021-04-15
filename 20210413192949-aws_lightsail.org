@@ -1,0 +1,4 @@
+#+title: AWS Lightsail
+A higher-level interface to [[file:20210323203004-aws_virtual_machine_via_ec2.org][AWS EC2]].
+Hides many configuration details, e.g. security.
+Has been accused of burying errors in logs and being harder to manipulate outside of its default parameters.

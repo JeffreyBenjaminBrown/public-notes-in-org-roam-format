@@ -1,4 +1,6 @@
 #+title: Django in AWS (esp. AWS EB)
+* PITFALL: These notes might be obsolete.
+  The website was updated; now it talks about Lightsail, and never mentions Elastic Beanstalk.
 * Source: Deploy a Python web app
   https://aws.amazon.com/getting-started/projects/deploy-python-application
 * WART: sidestepping the Python, virtualenv, NixOS headache
@@ -21,9 +23,9 @@
 ** ref
    PITFALL: Take this with a grain of salt --
    `runserver`'s syntax appears to have drifted since this was written,
-   or else I'm misinterpreting.
+   unless I'm misinterpreting.
    https://stackoverflow.com/questions/49476217/docker-cant-access-django-server/49476339
-* if so warned by `runserver`, run `python manage.py migrate`
+* if so prompted by `runserver`, run `python manage.py migrate`
 * configure for Elastic Beanstalk
 ** PITFALL: I changed directory names
    AWS wants, confusingly, a folder called ebdjango/ebdjango.

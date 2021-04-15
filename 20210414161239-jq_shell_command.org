@@ -1,0 +1,13 @@
+#+title: jq (shell command)
+* jq's purpose
+  It lets you read a json file in which "paths" equals a JSON sub-dictionary of terms,
+ and turn each term into a shell variable.
+* usage example
+  this shell code:
+    eval "$(jq -r '.paths | to_entries | .[] | .key + "=\"" + .value + "\""' < paths.json)"
+  expects an input file called paths.json like this:
+    { "paths":
+      { "tax_co"     : "/mnt/tax_co/",
+        "tax_django" : "/mnt/web/",
+        "apache"     : "/mnt/apache2"
+      }

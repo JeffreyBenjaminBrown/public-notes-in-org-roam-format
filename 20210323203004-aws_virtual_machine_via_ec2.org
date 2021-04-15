@@ -1,5 +1,6 @@
 #+title: AWS virtual machine via EC2
 #+ROAM_ALIAS: "EC2"
+EC2 is the raw virtual machine system. One can use it alone, or via one of the higher-level systems it underpins, like Lightsail.
 * PITFALL: username and home directory depends on OS
   so far home dir is always /home/<username>
 ** for Amazon Linux, username = ec2-user
@@ -11,8 +12,7 @@
   https://stackoverflow.com/questions/9427553/how-to-download-a-file-from-server-using-ssh/9427762#9427762
   or the comment above it.
 ** command to run
-   scp <-i keyfile> user@host:/remote-path /local-path
-     That's to pull. To push, reverse the last two args.
+   [[file:../pers/20210414195930-aws_frequently_used_commands.org][AWS, frequently used commands]]
    scp  -i  ~/code/aws/secret/2021-03-24.pem  ubuntu@34.204.60.103://home/ubuntu/amazon.zip .
    scp  -i  ~/code/aws/secret/2021-03-24.pem  ../data/many_tiny ec2-user@34.204.60.103://home/ec2-user
 * [[file:../pers/20210327204705-phanaeros_on_aws.org][Phanaeros on AWS]]
@@ -33,7 +33,8 @@
     Click on the instance to see it.
     The "instance state" column will soon show "running".
 ** connect via SSH
-   ssh  -i  ~/code/aws/secret/2021-03-24.pem  ubuntu@34.204.60.103
+   [[file:../pers/20210414195930-aws_frequently_used_commands.org][AWS, frequently used commands]]
+   ssh  -i  ~/code/aws/secret/2021-04-14.1.pem  ubuntu@34.204.60.103
 *** PITFALL: Might need to chmod 400 the ssh key first.
 *** PITFALL: They suggest keeping the key in ~/.ssh/
 ** end it from the browser
