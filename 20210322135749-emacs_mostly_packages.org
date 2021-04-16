@@ -28,6 +28,9 @@
 *** git-link - get the GitHub/Bitbucket/GitLab/... URL for a buffer location
 *** markdown-toc
 ** easy
+*** helm-file-preview
+*** helm-taskswitch
+*** helm-org
 *** Keys Cheat Sheet: a whole section of awesome-emacs
 *** google-translate
 *** expand-region
@@ -45,6 +48,8 @@
 *** pdf-view-restore - remember your place
     addition to PDF Tools. saves the current position in a PDF to resume reading at that place even after the buffer has been closed.
 ** maybe neither
+*** helm-ext
+    Seems cool.
 *** pdf-tools
     read, search, follow links, edit annotations, kill text (!), jump to LaTeX source, adjust colors for lighting
 *** multifiles - View and edit parts of multiple files in one buffer.
