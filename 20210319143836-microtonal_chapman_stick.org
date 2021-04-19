@@ -1,4 +1,6 @@
 #+title: microtonal Chapman Stick
+* having [[file:../pers/20210419103120-john_starrett.org][John Starrett]] modify it
+** send $70 to [[file:../pers/20210419103510-brian_florian.org][Brian Florian]] via Paypal
 * TODO ? send to Stick Enterprises
 ** TODO rewrite to ask why the numbers are weird
    e.g. why 0.012 and 0.018 are neighbors on both sides.

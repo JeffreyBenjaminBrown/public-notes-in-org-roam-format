@@ -1,3 +1,4 @@
+#+TITLE: Hode
 * DISCLAIMER: This document is
 not really intended to be understood by anybody but myself.
 For documentation, please see the README.md file.
@@ -74,11 +75,10 @@ without bringinng the history of everything else with it.
  If not, could instead indicate, e.g., "Item 3 of 5" near menus.
 ** modes and keymap
 *** help mode: make the submode menu optional
-If there's only one choice in that layer, hide it.
+    If there's only one choice in that layer, hide it.
 *** implement new commands
 M-w e - <new> Show error "buffer". (Why is this not a proper buffer?)
 M-w r - <new> Toggle reassurance window.
-???   - Toggle the "press Alt-? for help" window.
 ** TODO the obstructive subexpression problem
 *** EASY: the "don't show X in maybe X" problem
 Just add some more indicators to _columnHExprs:
@@ -102,6 +102,7 @@ Or at least, upon inserting contents, unfold.
 *** TODO learn how lexing works
  The problem is that I've absorbed the detection of parens and quotation marks
  (and space?) into the parsers for individual terms.
+** TODO interactive help: scrolling in the main window doesn't work
 ** TODO restore: there used to be a way to switch to the error buffer
 It was `M-e` or `M-E`.
 ** TODO ? use BiMap to associate Addrs and Exprs

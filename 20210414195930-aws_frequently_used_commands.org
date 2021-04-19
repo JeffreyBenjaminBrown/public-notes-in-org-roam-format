@@ -1,0 +1,52 @@
+#+title: AWS, frequently used commands
+* TODO for speed, use the AWS EC2 CLI
+* some variables I'll need
+** username depends on the AMI used
+   Amazon Linux => my name is "ec2-user"
+   Ubuntu => my name is "ubuntu"
+** my keyfile lately
+   ~/code/aws/secret/2021-04-14.1.pem
+** my latest IPv4 address
+   18.231.152.118
+* the commands
+** visit a file over ssh from native Emacs
+   C-x C-f (the usual "open file" shortcut)
+   /ssh:ec2-user@18.231.152.118:/home/ec2-user/webapp/commands.sh
+** add space to a volume
+*** first get the space from Amazon
+    https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/requesting-ebs-volume-modifications.html
+**** in the EC2 concsole, select Volumes
+     The EC2 console is a menu up from my usual view of Instances.
+**** from Actions choose Modify Volume
+*** then "extend the filesystem" to use it
+    https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html
+**** these commands worked for me
+     But they depend on the names I found using df and lsblk.
+     sudo growpart /dev/xvda 1
+       # grow partition 1 of xvda
+     sudo xfs_growfs -d /
+       # grow the / folder, because that's where xvda is mounted to
+** restart a stopped instance
+*** in the EC2 console
+    reboot. wait a bit.
+    start. might have to try a few times, or maybe the browser needs a refresh.
+    note the new IPv4 address.
+*** change the IPv4 address in Route53
+    Choose "Edit record", then see the sidebar.
+*** update the IPv4 address in my .ssh/config
+*** via ssh
+**** restart dockerd
+     sudo dockerd &
+** ssh (secure shell)
+   ssh  -i  <keyfile>  ubuntu@34.204.60.103
+*** lately
+    ssh -i ~/code/aws/secret/2021-04-14.1.pem ec2-user@18.231.152.118
+** scp (secure copy)
+*** pull
+    scp -i <keyfile> user@host:/remote-path /local/path
+*** push
+    scp -i <keyfile> /local/path user@host:/remote-path
+*** lately
+     scp -i ~/code/aws/secret/2021-04-14.1.pem \
+       /home/jeff/.ssh/id_rsa ec2-user@18.231.152.118:~
+** [[file:../ofiscal/20210419112845-tax_co_web_setting_up_an_ec2_instance_to_serve.org][deploy tax.co.web over EC2]]

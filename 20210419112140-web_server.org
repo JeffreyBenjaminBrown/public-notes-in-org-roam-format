@@ -1,0 +1,6 @@
+#+title: web server
+* DONE find a server
+** chosen: [[file:../tech/aws.org][AWS]]
+** a cheap-looking bare-metal server rental
+   https://gthost.com/bare-metal-server/
+** [[file:../ofiscal/20210414144055-javeriana_dti_getting_them_to_serve_the_tax_co_microsimulation_website.org][Javeriana DTI: getting them to serve the tax.co microsimulation website]]

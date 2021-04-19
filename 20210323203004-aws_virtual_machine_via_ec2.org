@@ -33,7 +33,7 @@ EC2 is the raw virtual machine system. One can use it alone, or via one of the h
     Click on the instance to see it.
     The "instance state" column will soon show "running".
 ** connect via SSH
-   [[file:../pers/20210414195930-aws_frequently_used_commands.org][AWS, frequently used commands]]
+   [[file:../tech/20210414195930-aws_frequently_used_commands.org][AWS, frequently used commands]]
    ssh  -i  ~/code/aws/secret/2021-04-14.1.pem  ubuntu@34.204.60.103
 *** PITFALL: Might need to chmod 400 the ssh key first.
 *** PITFALL: They suggest keeping the key in ~/.ssh/
