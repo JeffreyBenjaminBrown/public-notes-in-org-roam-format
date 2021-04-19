@@ -1,0 +1,4 @@
+#+title: minor life optimizations
+* TODO better shoelace knots
+** stabler: https://www.fieggen.com/shoelace/surgeonknot.htm
+** faster: https://www.fieggen.com/shoelace/ianknot.htm

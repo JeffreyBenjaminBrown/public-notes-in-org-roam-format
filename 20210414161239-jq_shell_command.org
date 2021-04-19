@@ -8,6 +8,6 @@
   expects an input file called paths.json like this:
     { "paths":
       { "tax_co"     : "/mnt/tax_co/",
-        "tax_django" : "/mnt/web/",
-        "apache"     : "/mnt/apache2"
+        "tax_django" : "/mnt/django/",
+        "apache"     : "/mnt/apache2/"
       }
