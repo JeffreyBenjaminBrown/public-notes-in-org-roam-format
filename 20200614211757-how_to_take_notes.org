@@ -27,7 +27,7 @@ Begative titles are less actionable.
    :PROPERTIES:
    :ID:       3305442a-e435-4f84-a403-9509963497b7
    :END:
-It increases the likelihood that they are atomic.
+   It increases the likelihood that they are atomic.
 ** notes should be surprising
  https://notes.andymatuschak.org/z4KZ9973AoHhvM9Pj5Qrds48JXNbMEwVJmVRw
 ** the context of a link matters
@@ -41,7 +41,7 @@ It increases the likelihood that they are atomic.
    :PROPERTIES:
    :ID:       edca15b1-37f9-46ec-bb32-8a3090242b0d
    :END:
-even before they have any intrinsic content.
+   even before they have any intrinsic content.
 *** ref, where I got the idea
 https://notes.andymatuschak.org/z2newCwFfd6iZFyf9bgspkbyt1G8wbQxJVgTK
 * why
@@ -65,4 +65,3 @@ https://notes.andymatuschak.org/z6C5H4eYH2A4omfNLuUcDiKibQ1hZG2RGNZ97
 ** with references, evidence, maybe motivation, context
 ** ref, where I saw the idea
 https://notes.andymatuschak.org/z8D1DJ4663xTUx2P3ztA8hM5FsmtbYmgRfPnC
-

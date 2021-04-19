@@ -16,7 +16,7 @@ EC2 is the raw virtual machine system. One can use it alone, or via one of the h
    scp  -i  ~/code/aws/secret/2021-03-24.pem  ubuntu@34.204.60.103://home/ubuntu/amazon.zip .
    scp  -i  ~/code/aws/secret/2021-03-24.pem  ../data/many_tiny ec2-user@34.204.60.103://home/ec2-user
 * [[file:../pers/20210327204705-phanaeros_on_aws.org][Phanaeros on AWS]]
-* How to launch a linux virtual machine, and use it via SSH.
+* How to launch a linux virtual machine on AWS, and use it via SSH.
   serial
 ** start it from the browser
 *** EC2 -> Launch Instance

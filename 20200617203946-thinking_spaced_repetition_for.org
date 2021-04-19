@@ -1,11 +1,15 @@
 #+title: thinking, spaced repetition for
+#+ROAM_ALIAS: internalize
 * unreviewed
+** [[file:../tech/20210419132152-microsoft_teams_shortcuts.org][Microsoft Teams shortcuts]]
+** LCR invites
+   Make sure I know who's coming before responding.
 ** learning, technical
 *** re. choosing type names
 make sure they are sufficiently complete.
 For instance, Action turned out to be a worse name than ScAction,
 and renaming took me like 15 minutes.
-*** why to format notes-to=learn as flashcards
+*** why to format notes-to-learn as flashcards
 That way I can hide the answer when reviewing,
 which lets me know when to discard the flashcard.
 *** when I receive something from someone, do what?
@@ -14,16 +18,18 @@ because I might need to know that they can provide that.
 *** In python, what's a terse way to repeat a list?
 [1]*3 = [1,1,1]
 *** git hygiene
+**** what is fragile?
+     an unindexed file
 It's dangerous to leave files I want in a clone of a git repo without adding them to the repo.
  That's because I might copy a file of the same name into the folder from elsewhere.
-*** an easy way to make git diffs readable
-Include empty lines where appropriate.
- Because when you change one paragraph, the changes will not bleed into changes of the next paragraph; the unchanged empty line continues to separate them.
+**** make git diffs readable by what?
+ Include empty lines where appropriate.
+  Because when you change one paragraph, the changes will not bleed into changes of the next paragraph; the unchanged empty line continues to separate them.
 *** [[id:a24e17db-7c46-45c7-a4b9-ca053559e65f][org-roam: notes with nothing but a title can be important]]
 * reviewed, still no insight
 ** befuddling: links in knowledge graphs
 *** link labels vs. link contexts
-  [[id:46b695c5-617e-47a8-b699-ef2b7ec29e81][the context of a link matters]]
+    [[id:46b695c5-617e-47a8-b699-ef2b7ec29e81][the context of a link matters]]
 *** [[id:3305442a-e435-4f84-a403-9509963497b7][Note titles should be complete sentences.]]
 *** [[id:edca15b1-37f9-46ec-bb32-8a3090242b0d][? Use backlinks to define notes extrinsically]]
 * likely internalized

@@ -1,0 +1,6 @@
+#+title: Microsoft Teams shortcuts
+* toggle mic: C-S-m
+* toggle camera: C-S-o
+* many more (link)
+  https://techcommunity.microsoft.com/t5/microsoft-teams-blog/top-10-keyboard-shortcuts-to-make-you-a-microsoft-teams-super/ba-p/1384428
+*
