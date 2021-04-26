@@ -1,5 +1,6 @@
 #+title: microtonal guitar
 * [[file:20210319143836-microtonal_chapman_stick.org][microtonal Chapman Stick]]
+* [[file:20210423201225-fret_markers_my_preferred_system_of.org][fret markers, my preferred system of]]
 * some many-stringed guitars
 ** the Jackson SLAT8
    https://www.jacksonguitars.com/gear/shape/soloist/x-series-soloist-archtop-slat8-ms/2916767503

@@ -1,6 +1,11 @@
 #+title: microtonal Chapman Stick
 * having [[file:../pers/20210419103120-john_starrett.org][John Starrett]] modify it
-** send $70 to [[file:../pers/20210419103510-brian_florian.org][Brian Florian]] via Paypal
+** DONE send $70 to [[file:../pers/20210419103510-brian_florian.org][Brian Florian]] via Paypal
+** what I'm asking John to do
+*** refret
+*** change strings
+*** include an extra set of strings
+*** maybe ship it
 * TODO ? send to Stick Enterprises
 ** TODO rewrite to ask why the numbers are weird
    e.g. why 0.012 and 0.018 are neighbors on both sides.
@@ -28,45 +33,57 @@ Jeff
 * range and gauge
 ** common code
 -- put this in a temp file, and load it with :s
-high_d = 440 / 2 ** (24/41)
+high_d = 440 * 2 ** (17/41)
+high_c = 440 * 2 ** (11/41)
 mid_e = 220 / 2 ** (17/41)
-low_c = 55 * 2 ** (10/41)
+low_c = 55 * 2 ** (11/41)
 up_low_c = 55 * 2 ** (11/41)
 
 :{
 f start interval =
   myPrint $
   [  (/10) $ fi $ round $ (*10) $
-	start * 2**(k * interval / 41)
+        start * 2**(k * interval / 41)
   | k <- [0..5] ]
 :}
 ** bass tuned in M3s, treble in m3s
-   I included two options for the bass strings, one 1\41 above the other. Should probably do the same for the treble strings.
+*** TODO & PITFALL
+    I included two options for the bass strings, one 1\41 above the other. Should maybe do the same for the treble strings -- tuning the D a little flatter seems good, since it always sounded a bit strained to me.
 *** code
     highs = f high_d (-11)
     lows = f low_c 13
     lows = f up_low_c 13
 *** result
-    string  1, 293.3 Hz,  2 cents flat	of D
-    string  2, 243.5 Hz, 24 cents flat	of B
-    string  3, 202.2 Hz, 46 cents flat	of G#
-    string  4, 167.9 Hz, 32 cents sharp of E
-    string  5, 139.4 Hz, 10 cents sharp of C#
-    string  6, 115.7 Hz, 13 cents flat	of A#
-
-    string  7, 66.2  Hz, 21 cents sharp of C
-    string  8, 82.5  Hz, 2  cents sharp of E
-    string  9, 102.8 Hz, 17 cents flat  of G#
-    string 10, 128.1 Hz, 36 cents flat  of C
-    string 11, 159.6 Hz, 44 cents sharp of Eb
-    string 12, 198.8 Hz, 25 cents sharp of G
-
-    string  7, 65.1  Hz,  8 cents flat	of C
-    string  8, 81.1  Hz, 28 cents flat	of E
-    string  9, 101.1 Hz, 46 cents flat	of G#
-    string 10, 125.9 Hz, 34 cents sharp of B
-    string 11, 156.9 Hz, 15 cents sharp of D#
-    string 12, 195.4 Hz,  5 cents flat	of G
+**** highs, starting 22c sharp of high C
+     string 1, 529.9 Hz, 22 cents sharp of C
+     string 2, 440.0 Hz
+     string 3, 365.3 Hz, 22 cents flat of F#
+     string 4, 303.3 Hz, 44 cents flat of D#
+     string 5, 251.9 Hz, 34 cents sharp of B
+     string 6, 209.1 Hz, 12 cents sharp of G#
+**** lows, starting 21c sharp of low C
+     string  7, 66.2  Hz, 21 cents sharp of C
+     string  8, 82.5  Hz, 2  cents sharp of E
+     string  9, 102.8 Hz, 17 cents flat  of G#
+     string 10, 128.1 Hz, 36 cents flat  of C
+     string 11, 159.6 Hz, 44 cents sharp of Eb
+     string 12, 198.8 Hz, 25 cents sharp of G
+**** DONE alternatives
+***** highs, starting 2c flat of D 293 (an octave too low)
+      I had the high-D an octave too low.
+      string  1, 293.3 Hz,  2 cents flat  of D
+      string  2, 243.5 Hz, 24 cents flat  of B
+      string  3, 202.2 Hz, 46 cents flat  of G#
+      string  4, 167.9 Hz, 32 cents sharp of E
+      string  5, 139.4 Hz, 10 cents sharp of C#
+      string  6, 115.7 Hz, 13 cents flat  of A#
+***** lows, starting 8c flat of low C
+      string  7, 65.1  Hz,  8 cents flat	of C
+      string  8, 81.1  Hz, 28 cents flat	of E
+      string  9, 101.1 Hz, 46 cents flat	of G#
+      string 10, 125.9 Hz, 34 cents sharp of B
+      string 11, 156.9 Hz, 15 cents sharp of D#
+      string 12, 195.4 Hz,  5 cents flat	of G
 *** explanation, sent to John Starrett
 I think Kite is right -- it makes more sense to use the wide spacing in the bass strings and the narrow one in the treble strings. So here's my new tuning scheme:
 

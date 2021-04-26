@@ -2,7 +2,6 @@
 #+ROAM_ALIAS: AWS
 * TODO refs | URLs
 ** related docs
-***
 *** [[file:20210323182302-aws_vocabulary.org][AWS vocabulary]]
 *** [[file:20210323201158-aws_s3.org][AWS S3]]
 *** [[file:20210323181107-aws_s3_cli.org][AWS S3 CLI]]

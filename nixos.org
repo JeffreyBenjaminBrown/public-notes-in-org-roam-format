@@ -1,6 +1,13 @@
 #+TITLE: NixOS
 * [[file:20200707160119-nixos_my_config.org][NixOS, my config]]
 * [[file:20201110140636-nixos_reinstalling.org][NixOS, installing]]
+* REFERENCES
+** interactive help
+*** from bash
+    nixos-option
+*** from the nix repl
+    :?
+** http://nix.dev
 * How to figure out (from within NixOS) which boot config got me here.
   https://www.reddit.com/r/NixOS/comments/lknn4k/how_to_know_which_boot_config_i_am_on_why_is_all/
 ** find the derivation folder
@@ -639,8 +646,3 @@ and log out and back in.
  chapter 15 in NixOS manual.
  There's also TaskServer, for todo lists,
    GitLab,
-* for getting help
-** from bash
-nixos-option
-** from the nix repl
-:?

@@ -15,3 +15,4 @@
     I'll have forgotten what I was doing,
     *and* once I realize I'm looking at a move,
     I have to search for each moved line.
+** Does meta awareness stop pointless behaviors?

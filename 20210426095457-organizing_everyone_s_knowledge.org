@@ -1,0 +1,8 @@
+#+title: organizing everyone's knowledge
+* the Underlay Project at MIT
+  :PROPERTIES:
+  :ID:       786ae678-e723-4c9f-b924-e54d7b3b1837
+  :END:
+  https://notes.knowledgefutures.org/pub/si1okbw9/release/9
+* C2PA: Content Authorship Alliance
+* [[file:hode.org][Hode]]

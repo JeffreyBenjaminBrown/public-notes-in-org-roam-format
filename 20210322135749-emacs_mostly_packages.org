@@ -1,4 +1,8 @@
 #+title: Emacs, mostly packages
+* TODO do I want org-roam to work with company? helm? both?
+  :PROPERTIES:
+  :ID:       80c451e8-da34-4d5f-8483-f3e3b56ff16b
+  :END:
 * PIFALL: might need (require '<package name>) when first installinga
   Evaluating that may have allowed me to get some packages working that otherwise weren't. But later I was able to run them without having that expression in my .emacs file.
 * TODO ask about | look for

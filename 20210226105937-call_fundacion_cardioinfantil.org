@@ -1,4 +1,4 @@
-#+title: Fundacion CardioInfantil
+#+title: Fundación CardioInfantil
 * cita, sabado 24 de abril, 8 am
   (already on calendar)
   Dr. Javier Fernando de Castillo, cardiologo
@@ -26,3 +26,6 @@
              (2 weeks ago, didn't recognize the input.)
 	     2 - cardio adulto, no cirugia
 ** www.cardioinfantil.org
+** Torre H is at a slightly different address
+   It's the "edificio de enfrente".
+   Cra 13b #161-85

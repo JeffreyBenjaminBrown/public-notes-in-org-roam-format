@@ -1,0 +1,9 @@
+#+title: fret markers, my preferred system of
+* the system
+  Every other fret is marked. The colors alternate between two that are very different -- green and red, say -- and also very different from the fretboard (e.g. if it's dark, then they're light).  Each marker covers the entire space between two adjacent frets.
+* why
+  It works especially well for 24, as the unmarked spaces form one 12-edo scale, and the marked spaces another. But I expect it to translate well to any system. The alternating colors make chunking groups of four extremely easy, which lets me quickly recognize any distance from one to about thirteen frets, and in practice I almost never reach across more than eight* frets at a time.
+
+  *8 frets in 24-edo is a third of an octave. In any N-edo for N < 24, including the Kite tuning (where N = 20.5), it would be even more than a third of an octave, hence I'd be even less likely to have to reach that far.
+* a discussion on Facebook, with a picture
+  https://www.facebook.com/groups/110164742335730/permalink/4289121631106666/
