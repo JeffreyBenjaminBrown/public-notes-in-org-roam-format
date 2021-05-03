@@ -1,4 +1,14 @@
 #+title: some edos (equal divisions of the octave)
+* some favorites
+** [[id:b3c76110-40b6-4e2d-a2c5-732e078016d8][43 3 8: super-easy, but narrow]]
+** [[id:81559b14-196b-441b-b89a-6b2f7ab410c2][50 3 10]]
+** [[id:211b5788-6ee2-4298-8f04-b3d9ed7358a7][90 5 17: 13-lim span of 4 frets!]]
+** [[id:2b09b23d-23b2-46d1-9156-a792961eaede][65 4 13]]
+** [[id:b6bd433a-561c-41de-8f89-1b5193e79ae6][60 3 16]]
+** [[id:3fd9a5af-785a-4d70-b0d5-f84236443d7a][77 3 13]]
+** [[id:16671405-714a-488f-b61d-9df8a958943b][80-edo mod 5 tunings]]
+** [[id:2e2b0e46-50ae-4533-8faf-5de5ed293042][84 4 19: great 7-limit; rainbow zone an octave apart]]
+** [[id:890c9721-a21c-46d9-9234-b8d5d895563d][104 5 28: span of 9 frets, or 4 in the 11-limit]]
 * maybe I should not have written off
   56, 70, 75, 78
 * where to resume search
@@ -37,8 +47,54 @@ wide major third (14:11)
 super-narrow fourth (13:10, 454 cents)
 super-wide fourth (11:8)
 the familiar septimal tritone (7:5)
-* 43 4 7: easy to play, but octave at 5,2
+* 43-edo
+** TODO 43 3 8: super-easy, but narrow
+   :PROPERTIES:
+   :ID:       b3c76110-40b6-4e2d-a2c5-732e078016d8
+   :END:
+*** 41/3 = 14 + 1/3 frets per octave
+*** octaves at (5,1) and (2,9)
+    the (2,9) octave is almost identical to the Kite guitar (2,-13) unison
+*** *amazing* span
+    13-limit spans only 4 frets.
+    31-limit sans 17 spans 6 frets.
+** 43 4 7: easy on keybaord
+   Narrow pitch range - octave at (5,1).
+   Wide frets - 10.75 per octave.
+* 44 2 11
+To get 44-edo on a 22-edo guitar -- which results in excellent approximations to harmonics 13, 19 and 23 -- tune each pair of adjacent strings 300 cents apart. An ordinary 12-edo tuner will do the job. Every ratio in the 2.5.7.11.13.19.29.31 subgroup lies within 4 frets of the root.
+
+44 steps = 2 % 1   : string 4 fret  0
+26 steps = 3 % 2   : string 2 fret  2
+14 steps = 5 % 4   : string 2 fret -4
+36 steps = 7 % 4   : string 4 fret -4
+20 steps = 11 % 8  : string 2 fret -1
+31 steps = 13 % 8  : string 3 fret -1
+ 4 steps = 17 % 16 : string 0 fret  2
+11 steps = 19 % 16 : string 1 fret  0
+23 steps = 23 % 16 : string 1 fret -5
+38 steps = 29 % 16 : string 2 fret -3
+42 steps = 31 % 16 : string 4 fret -1
+* 48 2 13
+One way to play 48-edo on a 24-edo guitar is to tune each pair of adjacent strings 13\48 apart. (That's 325 cents, a bit sharp of 6:5.)
+
+48-edo improves on 24-edo's 5:4 a little, its 7:4 a lot, and its 23:16 and 29:16 enormously. Among the possible skip-frettings for 48-edo, this one is especially convenient in that every 11-limit ratio spans at most 3 frets. In fact, so does every ratio in the 2.3.5.7.11.29 group.
+
+Here is where all the primes intervals lie. From these, the location of any other interval can be added by summing the string-fret positions of its factors as vectors. So, for instance, since 3%2 lies at (string 2, fret 1) and 5%4 lies at (string 1, fret 1), their product 15%8 lies at (string 3, fret 2).
+* TODO 50 3 10
+  :PROPERTIES:
+  :ID:       81559b14-196b-441b-b89a-6b2f7ab410c2
+  :END:
+** 50/3 = 16.666 fret per octave
+** Span of 5 frets in the 29-limit sans 17
+   and 8 frets in the full 31-limit.
+** Octaves at (5,0) and (2,10)
+   The second is almost exactly the same as a 12-edo octave.
+** harmony: flat system, fantastic at 23-limit
+* TODO 55 4 11, span of 4 frets in the 29-limit sans 17
+  55/4 = 13.75 frets per octave
 * 58 edo
+  good, but tiny frets
 ** tuning: great 3/2, all positive errors in 13-lim, none greater than 7c
    > myPrint $ bests 58
    (3 % 2,(34,7034,14.932749966815209))
@@ -86,6 +142,21 @@ the familiar septimal tritone (7:5)
 50 steps = 29 % 16 : str 4 fret 3
 55 steps = 31 % 16 : str 5 fret 0
 58 steps = 2 % 1   : str 6 fret -4
+** 58 2 15: 2 at 4:-1, great for 11-free 13-limit
+* TODO 60 3 16: *awesome*
+  :PROPERTIES:
+  :ID:       b6bd433a-561c-41de-8f89-1b5193e79ae6
+  :END:
+** 60-edo is dominated by 41-edo in the 11-limit.
+** PITFALL: 60e works better harmonically but worse mechanically
+   The patent 11, 28\60, at (1,4) is 9c sharp.
+   The second-best, 27\60, is 11c flat and lies at (3,-7).
+** fret span of 4 in the 31-limit -13 -23 -17 -19, or 8 for full 31-limit
+   add 13 for 2 more frets (total 6)
+   add 23 and 19 for one more (total 7)
+   add 17 for one more yet (total 8)
+** octaves at (4,3) and (0,20)
+** great 4:5:6:7
 * TODO 63-edo
 ** harmonic justice
   Worst harmonics are 17 (+9c), 19 (+7c), and 5 (-5c);
@@ -140,12 +211,28 @@ the familiar septimal tritone (7:5)
 54 steps = 29 % 16:	string 4 fret 5
 60 steps = 31 % 16:	string 6 fret -3 | string 4 fret 8
 63 steps = 2 % 1:	string 5 fret 4
+** 63 3 17: great for 2.3.5.7.17.29, and 31 and 11 aren't too far either
 * TODO 65-edo
 ** Except for these harmonics, the others are basically perfect:
    (7 % 4,(52,9600,-88.25906469124857))
    (13 % 8,(46,8492,87.03107461458785))
    (17 % 16,(6,1108,58.138212688234944))
    (29 % 16,(56,10338,42.68959693067336))
+** TODO 65 4 13: 16.25 fpo, 13-lim span 5 frets!, many octaves!
+   :PROPERTIES:
+   :ID:       2b09b23d-23b2-46d1-9156-a792961eaede
+   :END:
+*** octaves at s5 f0b, s1 f13, s2 f26
+*** *fantastic* sound in 11-limit plus 23 and 29
+*** *incredible* fret map
+    Span of 5 in the 29-limit -17, or 9 in the full 31-limit.
+    Beautiful major chord alignment.
+*** PITFALL: 65d plays better with some other harmonics, and is harder to fret
+    The patent 7 is 52\65, error of -9c, lies at (4,0).
+    The second-best 7 is 53\63, error 9.5c, but at (5,-6) or (3,7).
+      (3,7) actually plays well with the other fret positions.
+    But that only matters when playing it with harmonics with substantial positive error, which include only 13, 17 and maybe 29.
+** TODO 65 4 17, 13-lim span of 8 frets
 * 74: super-tight meantone
 Its worst harmonic is 3/2, at -4.7c error.
 > myPrint $ bests 74
@@ -155,7 +242,7 @@ Its worst harmonic is 3/2, at -4.7c error.
 (11 % 8,(34,5514,0.33408986594713497))
 (13 % 8,(52,8432,27.15581473932798))
 * TODO 77-edo
-** mod 4, space 11
+** 77 4 11
         [ 7 steps = 17 % 16: string 1 fret -1
         , 19 steps = 19 % 16: string 1 fret 2
         , 25 steps = 5 % 4: string 3 fret -2
@@ -167,67 +254,32 @@ Its worst harmonic is 3/2, at -4.7c error.
         , 66 steps = 29 % 16: string 6 fret 0
         , 73 steps = 31 % 16: string 7 fret -1
         , 77 steps = 2 % 1: string 7 fret 0
-** mod 2, space 13
-        [ 7 steps = 17 % 16: string 1 fret -3
-        , 19 steps = 19 % 16: string 1 fret 3
-        , 25 steps = 5 % 4: string 1 fret 6
-        , 35 steps = 11 % 8: string 3 fret -2
-        , 40 steps = 23 % 16: string 2 fret 7
-        , 45 steps = 3 % 2: string 3 fret 3
-        , 54 steps = 13 % 8: string 4 fret 1
-        , 62 steps = 7 % 4: string 4 fret 5
-        , 66 steps = 29 % 16: string 4 fret 7
-        , 73 steps = 31 % 16: string 5 fret 4
-        , 77 steps = 2 % 1: string 5 fret 6
-** mod 10, space 11
-        [ 7 steps = 17 % 16: string -3 fret 4
-        , 19 steps = 19 % 16: string -1 fret 3
-        , 25 steps = 5 % 4: string 5 fret -3
-        , 35 steps = 11 % 8: string 5 fret -2
-        , 40 steps = 23 % 16: string 0 fret 4
-        , 45 steps = 3 % 2: string 5 fret -1
-        , 54 steps = 13 % 8: string 4 fret 1
-        , 62 steps = 7 % 4: string 2 fret 4
-        , 66 steps = 29 % 16: string 6 fret 0
-        , 73 steps = 31 % 16: string 3 fret 4
-        , 77 steps = 2 % 1: string 7 fret 0
-** TODO mod 1 space 11: span of 7, octave (7,0), decent 4:5:6:8
- 7 steps = 17 % 16: string 1 fret -4 | string 0 fret 7 ( 3,  468,-65.19)
-19 steps = 19 % 16: string 2 fret -3 | string 1 fret 8 ( 7, 1091, 41.35)
-25 steps = 5 % 4:   string 2 fret  3                   (19, 2961,-14.09)
-35 steps = 11 % 8:  string 3 fret  2                   (25, 3896, 32.96)
-40 steps = 23 % 16: string 4 fret -4 | string 3 fret 7 (35, 5455,-58.63)
-45 steps = 3 % 2:   string 4 fret  1                   (40, 6234,-48.97)
-54 steps = 13 % 8:  string 5 fret -1                   (45, 7013, -6.56)
-62 steps = 7 % 4:   string 6 fret -4                   (54, 8416, 10.30)
-66 steps = 29 % 16: string 6 fret  0                   (62, 9662,-25.92)
-73 steps = 31 % 16: string 7 fret -4 | string 6 fret 7 (66,10286,-10.05)
-77 steps = 2 % 1:   string 7 fret  0                   (73,11377,-73.73)
-** TODO mod 2 space 11: span 8, awkward 4:5 and 4:6
-7 steps = 17 % 16:  string 1 fret -2
-19 steps = 19 % 16: string 3 fret -7 | string 1 fret  4
-25 steps = 5 % 4:   string 3 fret -4
-35 steps = 11 % 8:  string 3 fret  1
-40 steps = 23 % 16: string 4 fret -2
-45 steps = 3 % 2:   string 5 fret -5
-54 steps = 13 % 8:  string 6 fret -6
-62 steps = 7 % 4:   string 6 fret -2
-66 steps = 29 % 16: string 6 fret  0
-73 steps = 31 % 16: string 7 fret -2
-77 steps = 2 % 1:   string 7 fret  0
-** TODO mod 3 space 13: span 11, good 4:5:6:8
- 7 steps = 17 % 16: string 1 fret -2
-19 steps = 19 % 16: string 1 fret 2
-25 steps = 5 % 4:   string 1 fret 4
-35 steps = 11 % 8:  string 2 fret 3
-40 steps = 23 % 16: string 1 fret 9 | string 4 fret -4
-45 steps = 3 % 2:   string 3 fret 2
-54 steps = 13 % 8:  string 3 fret 5
-62 steps = 7 % 4:   string 5 fret -1
-66 steps = 29 % 16: string 3 fret 9 | string 6 fret -4
-73 steps = 31 % 16: string 4 fret 7 | string 7 fret -6
-77 steps = 2 % 1:   string 5 fret 4
+** 77 2 13
+** TODO 77 3 13 (good for guitar)
+   :PROPERTIES:
+   :ID:       3fd9a5af-785a-4d70-b0d5-f84236443d7a
+   :END:
+*** octaves at (5,4) and (2,17)
+    17 frets here is about 8 frets of 12-edo
+      specifically, 17*(12/(77/3)) = 7.95
+*** 6-fret span for the 13-limit sans 11
+    9-fret span for the 29-limit sans 17.19
+** TODO 77 3 17
+   2.65\12 between strings
+   max reach 9, but 6 if you ignore 11/8
+** 77 1 11: in 31-limit, an ocatave spans about 7 strings by 9 frets
+** 77 10 11: *weird*
 * TODO 80-edo
+** TODO 80-edo mod 5 tunings
+   :PROPERTIES:
+   :ID:       16671405-714a-488f-b61d-9df8a958943b
+   :END:
+*** TODO 80 5 11: *great* in the 31-limit without 17:16
+    Octaves at (5,5) and (0,16).
+*** TODO 80 5 13: *great* for 11-limit, 2 at s5 f3
+    Octaves at (5,3) and (0,16).
+*** TODO 80 5 16: tight 11-limit + 19.23.29
+*** 80 5 14: great for lots of stuff, but 5 is hard
 ** TODO mod 2 skip 13: max reach 9 (or better*), awkward 3/2, great 4:5:7:8
 (*) better by 2 if you ignore 23/16, or by 4 also ignoring 17 and 19
  7 steps = 17 % 16: string 1 fret -3
@@ -277,35 +329,6 @@ Its worst harmonic is 3/2, at -4.7c error.
 69 steps = 29 % 16: str 8 fret -3 | str 7 fret 6
 76 steps = 31 % 16: str 8 fret  4
 80 steps = 2 % 1:   str 9 fret -1
-* TODO 84-edo
-** 84 4 19: great 7-limit, but rainbow zones are almost an octave apart
-   Would be a 21-edo guitar.
-   Steps are 14c apart, so the second-best 11 and 13 can't be that bad.
-*** octave at 4,2
-*** frets
-7 steps = 17 % 16: string -1 fret 6
-21 steps = 19 % 16: string 1 fret 1
-27 steps = 5 % 4: string 3 fret -6
-39 steps = 11 % 8: string 3 fret -3
-44 steps = 23 % 16: string 0 fret 11
-49 steps = 3 % 2: string 5 fret -9
-59 steps = 13 % 8: string 3 fret 2
-68 steps = 7 % 4: string 4 fret 0
-72 steps = 29 % 16: string 4 fret 1
-80 steps = 31 % 16: string 4 fret 3
-84 steps = 2 % 1: string 4 fret 4
-*** harmonics
-(3 % 2,(49,7000,-19.5500086538741))
-(5 % 4,(27,3857,-5.994281505491017))
-(7 % 4,(68,9714,26.026649594465198))
-(11 % 8,(39,5571,58.24914778100447))
-(13 % 8,(59,8429,23.294810878322096))
-(17 % 16,(7,1000,-49.554095004072906))
-(19 % 16,(21,3000,24.869838676973814))
-(23 % 16,(44,6286,2.9708130301305573))
-(29 % 16,(72,10286,-10.057655816581246))
-(31 % 16,(80,11429,-21.784296071075005))
-(33 % 32,(4,571,38.69913912713025))
 * TODO 87-edo, higher-limit
 8 steps = 17 % 16:	string 0 fret 4
 22 steps = 19 % 16:	string 2 fret -6 | string 0 fret 11
@@ -331,6 +354,40 @@ Its worst harmonic is 3/2, at -4.7c error.
 72 steps = 29 % 16: string 5 fret 2
 80 steps = 31 % 16: string 6 fret -4 | string 5 fret 10
 84 steps = 2 % 1:   string 6 fret 0
+** TODO 84 4 19: great 7-limit; rainbow zone an octave apart
+   :PROPERTIES:
+   :ID:       2e2b0e46-50ae-4533-8faf-5de5ed293042
+   :END:
+   Would be a 21-edo guitar.
+   Steps are 14c apart, so the second-best 11 and 13 can't be that bad.
+*** rainbow zones
+    Since 4 divides 84, a note at (string 0,fret 0) appears only on strings 0 and 4.
+    84 / 4 = 21, so (0,0) is duplicated at (0,21), i.e. the octave.
+*** octave at 4,2
+*** frets
+84 steps = 2 % 1   : string 4   fret 2
+49 steps = 3 % 2   : string 3   fret - 2
+27 steps = 5 % 4   : string 1   fret 2
+68 steps = 7 % 4   : string 4   fret - 2
+39 steps = 11 % 8  : string 1   fret 5
+59 steps = 13 % 8  : string 1   fret 10
+7 steps  = 17 % 16 : string 1   fret - 3
+21 steps = 19 % 16 : string - 1 fret 10
+44 steps = 23 % 16 : string 0   fret 11
+72 steps = 29 % 16 : string 4   fret - 1
+80 steps = 31 % 16 : string 4   fret 1
+*** harmonics
+(3 % 2,(49,7000,-19.5500086538741))
+(5 % 4,(27,3857,-5.994281505491017))
+(7 % 4,(68,9714,26.026649594465198))
+(11 % 8,(39,5571,58.24914778100447))
+(13 % 8,(59,8429,23.294810878322096))
+(17 % 16,(7,1000,-49.554095004072906))
+(19 % 16,(21,3000,24.869838676973814))
+(23 % 16,(44,6286,2.9708130301305573))
+(29 % 16,(72,10286,-10.057655816581246))
+(31 % 16,(80,11429,-21.784296071075005))
+(33 % 32,(4,571,38.69913912713025))
 ** TODO mod 1 space 12: max reach 8, octave (7,0), nice 4:5:6:8
  7 steps = 17 % 16: string 1 fret -5 | string 0 fret 7
 21 steps = 19 % 16: string 2 fret -3 | string 1 fret 9
@@ -343,8 +400,12 @@ Its worst harmonic is 3/2, at -4.7c error.
 72 steps = 29 % 16: string 6 fret 0
 80 steps = 31 % 16: string 7 fret -4 | string 6 fret 8
 84 steps = 2 % 1:   string 7 fret 0
+* 85-edo
+** TODO 85 4 23: equal to narrow kite in 11-limit
+   but rainbow2 regions separated by about 1.5 octaves (31 frets)
+** TODO 85 4 27: equal to kite in the 11-limit
 * TODO 89-edo
-** mod 1 space 10: range 7, octave (9,-1), good 4:..:8:11:13
+** 89 1 10: range 7, octave (9,-1), good 4:..:8:11:13
 8 steps = 17 % 16:  string 1 fret -2
 22 steps = 19 % 16: string 2 fret  2
 29 steps = 5 % 4:   string 3 fret -1
@@ -356,7 +417,7 @@ Its worst harmonic is 3/2, at -4.7c error.
 76 steps = 29 % 16: string 8 fret -4 | string 7 fret 6
 85 steps = 31 % 16: string 9 fret -5 | string 8 fret 5 | string 7 fret 15
 89 steps = 2 % 1:   string 9 fret -1
-** mod 2 space 9: span 6, mostly nice intervals but bad octave
+** 89 2 9: fret span 6, string span 10, mostly nice intervals but bad octave
 8 steps = 17 % 16:  string 0 fret 4
 22 steps = 19 % 16: string 2 fret 2
 29 steps = 5 % 4:   string 3 fret 1
@@ -368,6 +429,12 @@ Its worst harmonic is 3/2, at -4.7c error.
 76 steps = 29 % 16: string 8 fret 2
 85 steps = 31 % 16: string 9 fret 2
 89 steps = 2 % 1:   string 9 fret 4
+* TODO 90 5 17: 13-lim span of 4 frets!
+  :PROPERTIES:
+  :ID:       211b5788-6ee2-4298-8f04-b3d9ed7358a7
+  :END:
+  Harmonics 5 and 13 are dead-on, but others in the 13-limit are all +/- 4.6c.
+  There are octaves at (5,1) and (0,18) (and nowhere else).
 * TODO 94-edo
 ** TODO mod 1 space 13: max span 9 frets, octave at (7,3), nice 4:5:6:8
  8 steps = 17 % 16: string 1 fret -5 | string 0 fret 8
@@ -405,6 +472,13 @@ Its worst harmonic is 3/2, at -4.7c error.
 81 steps = 29 % 16: string 5 fret -2
 90 steps = 31 % 16: string 6 fret -6
 94 steps = 2 % 1:   string 6 fret -4
+* TODO 104 5 28: span of 9 frets, or 4 in the 11-limit, but awkward octaves
+  :PROPERTIES:
+  :ID:       890c9721-a21c-46d9-9234-b8d5d895563d
+  :END:
+** 20.8 frets per octave
+** octaves at (3,4) and (1,36)
+   => on a two-octave guitar there's only one rainbow zone for most tonic centers.
 * TODO 118-edo
 ** mod 1 space 16: span of 12, ugly
 10 steps = 17 % 16:  string 1 fret -6 | string 0 fret 10

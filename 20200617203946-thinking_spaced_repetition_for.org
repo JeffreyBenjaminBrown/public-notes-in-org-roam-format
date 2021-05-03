@@ -26,6 +26,8 @@ It's dangerous to leave files I want in a clone of a git repo without adding the
  Include empty lines where appropriate.
   Because when you change one paragraph, the changes will not bleed into changes of the next paragraph; the unchanged empty line continues to separate them.
 *** [[id:a24e17db-7c46-45c7-a4b9-ca053559e65f][org-roam: notes with nothing but a title can be important]]
+** Countries might not give the widest coverage as units of news analysis.
+   There's something repetitive about "this country's got a tyrant ... and this other country's got a tyrant ... and here's what the tyrant over there's doing ..."
 * reviewed, still no insight
 ** befuddling: links in knowledge graphs
 *** link labels vs. link contexts

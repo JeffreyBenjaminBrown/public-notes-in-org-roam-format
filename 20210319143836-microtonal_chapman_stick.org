@@ -31,6 +31,8 @@ I hope you're well. I haven't visited in years but I remember you guys being rea
 Thank you!
 Jeff
 * range and gauge
+** 12-edo notes in Hz
+   https://pages.mtu.edu/~suits/notefreqs.html
 ** common code
 -- put this in a temp file, and load it with :s
 high_d = 440 * 2 ** (17/41)
