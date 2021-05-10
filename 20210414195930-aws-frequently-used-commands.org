@@ -1,0 +1,80 @@
+;#+title: AWS, frequently used commands
+* TODO for speed, use the AWS EC2 CLI
+* some variables I'll need
+** username depends on the AMI used
+   Amazon Linux => my name is "ec2-user"
+   Ubuntu => my name is "ubuntu"
+* the commands
+** define my AWS-related shell variables
+   :PROPERTIES:
+   :ID:       7edb7369-ce7a-47a7-a7d5-2dead9a03ac0
+   :END:
+   JBB_AWS_HOST=18.232.185.170
+   JBB_AWS_USER=ubuntu
+   JBB_AWS_PEM=~/code/aws/secret/2021-03-24.pem
+** visit a file over ssh from native Emacs
+   C-x C-f (the usual "open file" shortcut)
+   /ssh:$JBB_AWS_USER@$JBB_AWS_HOST:/home/$JBB_AWS_USER/tax.co.web/commands.sh
+*** PITFALL: required: edit .ssh/config
+    Should say something like this (left-justified):
+    Host 18.231.152.118
+         User $JBB_AWS_USER
+         IdentityFile /home/jeff/code/aws/secret/JBB_AWS_PEM
+** add space to a volume
+*** first get the space from Amazon
+    https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/requesting-ebs-volume-modifications.html
+**** in the EC2 concsole, select Volumes
+     The EC2 console is a menu up from my usual view of Instances.
+**** from Actions choose Modify Volume
+*** then "extend the filesystem" to use it
+    https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html
+**** PITFALL: The `growpart` command
+     takes the path of the root volume, not the partition.
+     To grow a specific partition to fill the root volume,
+     indicate the partition number.
+
+     For instance, if lsblk reveals the following:
+
+         [ec2-user@ip-172-31-79-192 ~]$ lsblk
+         NAME          MAJ:MIN RM SIZE RO TYPE MOUNTPOINT
+         nvme0n1       259:0    0  45G  0 disk
+         ├─nvme0n1p1   259:1    0  45G  0 part /
+         └─nvme0n1p128 259:2    0   1M  0 part
+
+     then the proper command is
+
+         sudo growpart /dev/nvme0n1 1
+**** the commands I used
+     These depend on the names I found using `df -hT` and `lsblk`.
+***** worked for me on Ubuntu
+      sudo growpart /dev/xvda 1
+	# grow partition 1 of xvda
+      sudo xfs_growfs -d /
+	# grow the / folder, because that's where xvda is mounted to
+***** worked for me one Amazon Linux
+      sudo growpart /dev/nvme0n1 1
+      sudo xfs_growfs -d /
+** restart a stopped instance
+*** in the EC2 console
+    reboot. wait a bit.
+    start. might have to try a few times, or maybe the browser needs a refresh.
+    note the new IPv4 address.
+*** change the IPv4 address in Route53
+    Choose "Edit record", then see the sidebar.
+*** update the IPv4 address in my .ssh/config
+*** via ssh
+**** restart dockerd
+     sudo dockerd &
+** ssh (secure shell)
+   ssh  -i  <keyfile>  $JBB_AWS_USER@$JBB_AWS_HOST
+*** lately
+    ssh -i $JBB_AWS_PEM $JBB_AWS_USER@$JBB_AWS_HOST
+** scp (secure copy)
+*** pull
+    scp -i <keyfile> user@host:/remote-path /local/path
+*** push
+    scp -i <keyfile> /local/path user@host:/remote-path
+*** lately
+    scp -i $JBB_AWS_PEM \
+       /home/jeff/.ssh/id_rsa $JBB_AWS_USER@$JBB_AWS_HOST:~
+** [[file:../ofiscal/20210419112845-tax_co_web_setting_up_an_ec2_instance_to_serve.org][deploy tax.co.web over EC2]]
