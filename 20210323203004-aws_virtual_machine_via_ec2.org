@@ -12,10 +12,11 @@ EC2 is the raw virtual machine system. One can use it alone, or via one of the h
   https://stackoverflow.com/questions/9427553/how-to-download-a-file-from-server-using-ssh/9427762#9427762
   or the comment above it.
 ** command to run
-   [[file:../pers/20210414195930-aws_frequently_used_commands.org][AWS, frequently used commands]]
+   [For speed, maybe use the AWS EC2 CLI.]
    scp  -i  ~/code/aws/secret/2021-03-24.pem  ubuntu@34.204.60.103://home/ubuntu/amazon.zip .
    scp  -i  ~/code/aws/secret/2021-03-24.pem  ../data/many_tiny ec2-user@34.204.60.103://home/ec2-user
 * [[file:../pers/20210327204705-phanaeros_on_aws.org][Phanaeros on AWS]]
+* [[file:20210511125343-hibernation_for_aws_ec2.org][hibernation for AWS EC2]]
 * How to launch a linux virtual machine on AWS, and use it via SSH.
   serial
 ** start it from the browser
@@ -33,7 +34,6 @@ EC2 is the raw virtual machine system. One can use it alone, or via one of the h
     Click on the instance to see it.
     The "instance state" column will soon show "running".
 ** connect via SSH
-   [[file:../tech/20210414195930-aws_frequently_used_commands.org][AWS, frequently used commands]]
    ssh  -i  ~/code/aws/secret/2021-04-14.1.pem  ubuntu@34.204.60.103
 *** PITFALL: Might need to chmod 400 the ssh key first.
 *** PITFALL: They suggest keeping the key in ~/.ssh/
@@ -54,4 +54,3 @@ EC2 is the raw virtual machine system. One can use it alone, or via one of the h
 *** PITFALL: the SSH key becomes garbage
     once the instance is terminated
 * [[file:20210323203856-aws_ec2_wui.org][the EC2 WUI]]
-* [[file:../../.local/share/Trash/files/20210324225227-my_aws_phanaeros_routine.org][My AWS Phanaeros routine]]

@@ -1,0 +1,5 @@
+#+title: hibernation for AWS EC2
+* some data might not be saved
+  "When you hibernate your instance, the data on any instance store volumes is lost. Learn more about Amazon EC2 instance store" at https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html?icmpid=docs_ec2_console
+* it prohibits expanding the hard drive size
+  because, I suspect, it requires encrypting the hard drive.

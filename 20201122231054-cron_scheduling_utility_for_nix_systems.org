@@ -4,12 +4,13 @@
    "must be owned by root, and must conform to run-parts’ naming conventions (no dots, only letters, digits, underscores, and hyphens)."
    https://unix.stackexchange.com/a/417327
 ** by default, nobody but root can use cron
-   But create an empty /etc/cron.deny file, and then every user can use cron.
+   But create an empty /etc/cron.deny file, and then every user can use cron. (The tax.co Docker container already has this.)
 ** for Docker, must disable some kind of pam security policy
    specifically the `pam_loginuid` line in
      /etc/pam.d/crond
    per this advice:
      https://stackoverflow.com/a/21928878/916142
+   (The tax.co Docker container already has this.)
 * how to
 ** how to start cron : `service cron start`
 ** how to check if the cron daemon is running

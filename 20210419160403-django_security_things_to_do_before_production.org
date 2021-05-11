@@ -4,6 +4,7 @@
    SECRET_KEY = ...
 ** # SECURITY WARNING: don't run with debug turned on in production!
    DEBUG = True
+* update all pip packages
 * add the domain name to ALLOWED_HOSTS in settings.py
 * email errors to me, rather than show them to user
 * maybe change MEDIA_ROOT in ~/of/webapp/django/ebdjango/settings.py

@@ -13,10 +13,10 @@
 *** when confronted with policies, choose an existing one
     Administrative Access = total access.
 ** install, configure the AWS CLI
- at shell: "aws configure"
- use the key fields from file downloaded from IAM
- default region = us-east-1
- default output format = json
+   at shell: "aws configure"
+   use the key fields from file downloaded from IAM
+   default region = us-east-1
+   default output format = json
 * use the AWS CLI
   There are only nine commands.
 ** SEE ALSO: command reference

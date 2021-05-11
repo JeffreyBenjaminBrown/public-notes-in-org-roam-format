@@ -1,0 +1,54 @@
+#+title: giving Apache privileges to a Docker user
+* the surprise answer, maybe
+  The problem of being unable to run Apache as appuser seemed to go away under a certain Apache configuration.
+  I first got that working in commit 4cc0b7bc302b2b68aaf23bc09b3545156a5f883d of github.com/ofiscal/tax.co.web
+* the thinking I went through
+** It connects to the web if I start Apache as root
+   but then I get that permissions error when I try to create a user folder.
+** How to give appuser permission to run Apache?
+*** things that didn't work
+**** a simple group add
+     usermod -aG www-data appuser
+**** a bunch of chomod and chgrp
+     https://fideloper.com/user-group-permissions-chmod-apache
+     chown -R www-data:www-data /var/www
+     chmod go+x /var/www
+     chgrp -R www-data /var/www
+     chmod -R g+rx /var/www
+**** more stuff I made up
+     chown -R www-data /var/log
+     chgrp -R www-data /var/log
+*** what I'm trying now
+    usermod -aG www-data appuser
+    chmod -R +777 /var
+    /log/apache2
+*** This shows what ports are in use. Unless I start Apache, none are.
+    apt install net-tools
+    netstat -tulpn
+*** TODO ?? futz with the Docker container
+** the question
+I'm running Django and Apache from this[1] Docker container. The code it's running is here[2].
+
+When I run locally, by (basically) running
+```
+docker run --name tax.co.web -it                   \
+  -p 8000:8000                                     \
+  -d -h 127.0.0.1                                  \
+  ofiscal/tax.co:latest
+```
+everything seems to work.
+
+If I connected it to the internet:
+```
+docker run --name tax.co.web -it                   \
+  -p 8000:8000                                     \
+  -d -h 127.0.0.1                                  \
+  -p 443:443                                       \
+  -p 80:80                                         \
+  ofiscal/tax.co:latest
+```
+
+
+
+[1] https://hub.docker.com/r/ofiscal/tax.co
+[2] https://github.com/ofiscal/tax.co.web

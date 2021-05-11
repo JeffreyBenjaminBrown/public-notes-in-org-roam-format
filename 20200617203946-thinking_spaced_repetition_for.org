@@ -1,6 +1,9 @@
 #+title: thinking, spaced repetition for
 #+ROAM_ALIAS: internalize
 * unreviewed
+** (Aspirational) mimicry can substitute for rationality.
+   It's in SmSn, at id
+   BSPkZvDjoUqhzm0Z
 ** [[file:../tech/20210419132152-microsoft_teams_shortcuts.org][Microsoft Teams shortcuts]]
 ** LCR invites
    Make sure I know who's coming before responding.
