@@ -1,11 +1,13 @@
 #+TITLE: microtonality
+* microtonal instruments, including electronic
+** [[file:20201220182532-microtonal_guitar.org][microtonal guitar]]
+** [[file:20210513194903-manual_dynamically_adjusted_edo_musical_instrument_idea.org][manual dynamically adjusted EDO (musical instrument idea)]]
 * TODO list kinds of harmonic thinking applicable to 46-et
   by limit
   by symmetry
   changing key center
   by voice
 * TODO misfiled: this is about EDOs more generally
-* [[file:20201220182532-microtonal_guitar.org][microtonal guitar]]
 * stretching octaves
 ** ref
 http://x31eq.com/temper/net.html
@@ -29,8 +31,13 @@ http://x31eq.com/temper/net.html
 * [[file:20201225205029-some_edos_equal_divisions_of_the_octave.org][some edos (equal divisions of the octave)]]
 * microtonal notation
 ** [[file:20210131171849-46_edo_notation.org][46-edo notation]]
-* scale concepts
-** two stacks of fifths
+* some ways to build scales
+** a stack of the same interval
+** multiple misaligned stacks
+*** e.g. a stack of fifths built from the root, and another from the 13th harmonic
+** the harmonic series
+** modes
+** two nonoverlapping chords
 * nice chords
 ** "Dorian-French": 12edo: (-0.5) 9 3' 5'
    It's halfway between Dorian and French.

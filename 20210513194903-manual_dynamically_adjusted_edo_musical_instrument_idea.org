@@ -1,0 +1,17 @@
+#+title: manual dynamically adjusted EDO (musical instrument idea)
+* the idea
+  One hand plays the "adjustment" interface.
+  Buttons on that interface map to specific signed cent values.
+  If a player presses one, that adjustment will be applied to the pitch class of the next note played in the ordinary ("keyboard") interface.
+  A special button allows the entire keyboard to be shifted, rather than a single note. Another special button wipes all adjustments. A third is for storage.
+  Keys with stored errors blink to indicate they sound different from the unadjusted EDO.
+* some esp. good edos for it
+** 22-edo might be all the notes I'd need
+   19-edo won't wash because 7/6 and 8/7 map to the same note.
+** 45-edo lets you use fewer errors
+   In the 13-limit all prime errors are +/- 8.7 or 12.9c.
+   Then again 9 and 15 still need their own special adjustments.
+** 46-edo lets you use fewer errors
+   9 and 5 have the same cents error (4.9c).
+   7 and 11 have the same cents error (-3.55c).
+   And 17 needs no adjustment (-.6c error).

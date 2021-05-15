@@ -1,8 +1,11 @@
 #+title: cron (scheduling utility for *nix systems)
 * PITFALLS
+** relative paths and command aliases are dangerous!
+   I was calling a python script from `cron` via `python3` which called another via the same command. But whereas the first resolved to the conda-installed python3.8 as hoped for, the second was resolving to the apt-installed python3.7. The solution was to never say `python3` and hope to be understood; instead give the full path to the executable (or a symlink to it).
 ** req's for files in cron.d
    "must be owned by root, and must conform to run-parts’ naming conventions (no dots, only letters, digits, underscores, and hyphens)."
    https://unix.stackexchange.com/a/417327
+   And maybe they need `chmod 644` permissions, at least when in cron.d/.
 ** by default, nobody but root can use cron
    But create an empty /etc/cron.deny file, and then every user can use cron. (The tax.co Docker container already has this.)
 ** for Docker, must disable some kind of pam security policy

@@ -1,0 +1,28 @@
+#+title: Python script works unless run by cron
+* SOLVED, I think
+  see commit acff3950de6225168c6d3f431ca17e7ec797c7c8
+  in repo ofiscal/tax.co
+* trying locally from scratch
+  serial
+** cron fails again
+  Deleted the stored user config.
+  Made a new one from the webpage.
+  Turned off cron to save it.
+  Turned on cron.
+  It ran a little, but didn't create any data.
+** then without cron it works
+* title
+  Onluy when run by `cron`, Python call to subprocess.run() does nothing
+* content
+`cron` works for various simple jobs, including  Python scripts.
+
+And my own Python script `main.py`[1] works, if I call it from the command line, via
+```
+PYTHONPATH=/mnt/tax_co:$PYTHONPATH python3 python/requests/main.py config/config.json try-to-advance-queue
+```
+
+But if I call it from `cron`, this happens:
+
+Execution begins as normal. At some point, `main.py` is supposed use `subprocess.run()` to call another script called `run-makefile.py`. That second script appears to do nothing. Then the first script, `main.py`, resumes writing to the logs as if everything worked.
+
+[1] https://github.com/ofiscal/tax.co/blob/cebb93dc90914e749aea0098f9c05232e150910c/python/requests/main.py
