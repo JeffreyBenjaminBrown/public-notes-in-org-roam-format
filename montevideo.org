@@ -1,4 +1,16 @@
 #+TITLE: montevideo (music software)
+* TODO bugs?
+** Should Zot use "on"?
+   "on" seems to be for the benefit of Dispatch.
+   So see if Zot works with Dispatch already.
+   If so, the comment about "on" at the top of
+     mtv-synth/Montevideo/Synth.hs
+   is stale.
+** write insertOffs :: Museq -> Museq
+   because monomeRecording_toMuseq in
+     ~/mtv/mtv-lang/Montevideo/Dispatch/Recording
+   creates events that don't have any "off" messages.
+** How do streams work?
 * TODO separate the concerns in Dispatch.Msg.Act, then make it abstract
 ** research: their current state
 actNew, actSend, and actFree all look up a synth, which might fail.

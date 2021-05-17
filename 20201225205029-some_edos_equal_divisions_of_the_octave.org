@@ -411,7 +411,7 @@ the familiar septimal tritone (7:5)
  36 steps = 7 % 4   : string 4 fret -4
  20 steps = 11 % 8  : string 2 fret -1
  31 steps = 13 % 8  : string 3 fret -1
- 4 steps = 17 % 16 : string 0 fret  2
+  4 steps = 17 % 16 : string 0 fret  2
  11 steps = 19 % 16 : string 1 fret  0
  23 steps = 23 % 16 : string 1 fret -5
  38 steps = 29 % 16 : string 2 fret -3
@@ -494,9 +494,9 @@ the familiar septimal tritone (7:5)
 * 50-edo
 ** flat meantone system, fantastic at 23-limit
 ** 50 3 10: guitar-feas, 31-lim 6x8, 15-lim 6x6
-  :PROPERTIES:
-  :ID:       81559b14-196b-441b-b89a-6b2f7ab410c2
-  :END:
+   :PROPERTIES:
+   :ID:       81559b14-196b-441b-b89a-6b2f7ab410c2
+   :END:
 *** layout
    0  steps; 1  % 1 ;  string 0 ;   fret 0
    50 steps; 2  % 1 ;  string 5 ;   fret 0
@@ -517,7 +517,7 @@ the familiar septimal tritone (7:5)
    48 steps; 31 % 16 ; string 3 ;   fret 6
 *** 50/3 = 16.666 fret per octave
 *** Span of 5 frets in the 29-limit sans 17
-   and 8 frets in the full 31-limit.
+    and 8 frets in the full 31-limit.
 *** Octaves at (5,0) and (2,10)
     The second is almost exactly the same fret-span as a 12-edo octave: 10/16.3333 - 7/12 = about 0.029.
 ** 50 5 8: mandolin-feasible, area 6x7 in 31-limit, 5x4 in 15-limit, octave (5,2)
@@ -601,7 +601,7 @@ the familiar septimal tritone (7:5)
   :ID:       996e6cf6-6d79-4cbf-8219-d3aac08d9eb8
   :END:
 ** TODO 55 4 11, area 6x4 frets in the 29-limit sans 17, octave (5,0)
-  55/4 = 13.75 frets per octave
+   55/4 = 13.75 frets per octave
    0  steps; 1  % 1 ;  string 0 ; fret 0
    55 steps; 2  % 1 ;  string 5 ; fret 0
    32 steps; 3  % 2 ;  string 4 ; fret - 3
@@ -884,18 +884,18 @@ the familiar septimal tritone (7:5)
   Just like Kite in the 13-limit, but the rainbow zones are exactly an octave apart, on the same strings.
   Works better with the second-best 11/8, which
 ** TODO 60 3 16: *narrow Kite layout in 31-limit -17*
-  :PROPERTIES:
-  :ID:       b6bd433a-561c-41de-8f89-1b5193e79ae6
-  :END:
+   :PROPERTIES:
+   :ID:       b6bd433a-561c-41de-8f89-1b5193e79ae6
+   :END:
 *** 60-edo is dominated by 41-edo in the 11-limit, but it's better for higher limit work, as a uniformly* flat system
     with an exception for harmonic 11, which is 8.6c sharp
 *** PITFALL: 60e works better harmonically but worse mechanically
-   The patent 11, 28\60, at (1,4) is 9c sharp.
-   The second-best, 27\60, is 11c flat and lies at (3,-7).
+    The patent 11, 28\60, at (1,4) is 9c sharp.
+    The second-best, 27\60, is 11c flat and lies at (3,-7).
 *** fret span of 4 in the 31-limit -13 -23 -17 -19, or 8 for full 31-limit
-   add 13 for 2 more frets (total 6)
-   add 23 and 19 for one more (total 7)
-   add 17 for one more yet (total 8)
+    add 13 for 2 more frets (total 6)
+    add 23 and 19 for one more (total 7)
+    add 17 for one more yet (total 8)
 *** octaves at (4,3) and (0,20)
 *** great 4:5:6:7
 ** TODO 60 3 19: *easier than wide Kite layout*
@@ -986,10 +986,10 @@ the familiar septimal tritone (7:5)
 * TODO 65-edo
 ** harmony
 *** except these 4, all "prime ratio" errors are < 2.6c
-   (7 % 4,(52,9600,-88.25906469124857))
-   (13 % 8,(46,8492,87.03107461458785))
-   (17 % 16,(6,1108,58.138212688234944))
-   (29 % 16,(56,10338,42.68959693067336))
+    (7 % 4,(52,9600,-88.25906469124857))
+    (13 % 8,(46,8492,87.03107461458785))
+    (17 % 16,(6,1108,58.138212688234944))
+    (29 % 16,(56,10338,42.68959693067336))
 *** 1\65 = 18.5c
 *** 65d > 65p
     The second-best 7:4 is 9.7c sharp rather than 8.8c flat.
@@ -1396,9 +1396,9 @@ Its worst harmonic is 3/2, at -4.7c error.
    5 and 13 are dead-on.
    Others in the 13-limit are all +/- 4.6c.
 ** 90 5 17: 13-lim +19.25.27 5x6, octave (5,1), 31-lim 7x12, difficult 9:8
-  :PROPERTIES:
-  :ID:       211b5788-6ee2-4298-8f04-b3d9ed7358a7
-  :END:
+   :PROPERTIES:
+   :ID:       211b5788-6ee2-4298-8f04-b3d9ed7358a7
+   :END:
 *** layout
    90 steps; 2  % 1 ;  string 5 ;   fret 1
    53 steps; 3  % 2 ;  string 4 ;   fret - 3
@@ -1499,9 +1499,9 @@ Its worst harmonic is 3/2, at -4.7c error.
         , 81 steps = 29 % 16 : string 0 fret 9
         , 90 steps = 31 % 16 : string 0 fret 10
 ** 94 7 16: 15-lim +19.21.27 0-area 5x7, straight, sans unisons.
-  :PROPERTIES:
+   :PROPERTIES:
    :ID:       3583c5e5-48b3-4b38-8999-c8693d8bbb59
-  :END:
+   :END:
 *** layout
    94 steps; 2  % 1 ;  string 5 ; fret 2
    55 steps; 3  % 2 ;  string 3 ; fret 1
