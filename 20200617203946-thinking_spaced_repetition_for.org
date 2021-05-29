@@ -1,6 +1,17 @@
 #+title: thinking, spaced repetition for
 #+ROAM_ALIAS: internalize
 * unreviewed
+** how to estimate (e.g. duration)
+   Estimation (e.g. of duration) is best done via indepedent chunks, rather than a wholistic intuition. (per Daniel Kahneman)
+   Then subdivide a different way and estimate again. (per some guy quoted by Steve Levitt in his podcast interview with DK in 2021).
+** The special international status of the US dollar is not important to the US.
+   https://mail.google.com/mail/u/0/#inbox/FMfcgzGkXctVmLFSxwJThvtnzflnqFML
+*** maybe the biggest benefit
+    The dollars held outside the US do represent a 0-interest loan, which in times of high interest rates can be meaningful -- about 0.25% of GDP.
+*** some non-existent benefits
+**** The US current account deficit is less than Britain's or Australia's.
+**** The US borrows at a higher interest rate than Britain or Japan.
+**** The British pound, which was only overtaken by the US dollar in 1955 and not special at all by 1975, has only increased in value against the dollar since.
 ** (Aspirational) mimicry can substitute for rationality.
    It's in SmSn, at id
    BSPkZvDjoUqhzm0Z

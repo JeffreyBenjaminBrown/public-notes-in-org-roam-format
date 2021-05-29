@@ -9,14 +9,10 @@
    :PROPERTIES:
    :ID:       7edb7369-ce7a-47a7-a7d5-2dead9a03ac0
    :END:
-   JBB_AWS_HOST=18.232.119.34
+   JBB_AWS_HOST=35.175.120.10
    JBB_AWS_USER=ubuntu
    JBB_AWS_PEM=~/code/aws/secret/2021-03-24.pem
-# ** login
    ssh -i $JBB_AWS_PEM $JBB_AWS_USER@$JBB_AWS_HOST
-   JBB_AWS_HOST=18.232.119.34
-   JBB_AWS_USER=ubuntu
-   JBB_AWS_PEM=~/code/aws/secret/2021-03-24.pem
 ** visit a file over ssh from native Emacs
    C-x C-f (the usual "open file" shortcut)
    /ssh:$JBB_AWS_USER@$JBB_AWS_HOST:/home/$JBB_AWS_USER/tax.co.web/commands.sh
