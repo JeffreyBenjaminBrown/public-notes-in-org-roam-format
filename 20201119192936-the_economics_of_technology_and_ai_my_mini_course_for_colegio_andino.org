@@ -1,5 +1,4 @@
-#+title: tech and AI (my mini-course for Colegio Andino)
-tech = technology
+#+title: The economics of technology and AI (my mini-course for Colegio Andino)
 * course history
   The course consisted of 2 80-minute lectures I gave in November 2020.
   Julian Gomez, the TA, handled setting up Zoom and administering and grading the quizzes.
@@ -36,7 +35,7 @@ Ask Julian the TA to remember who participates, allocate points.
     prisoner's dilemma
 * day 1
 ** pre-class reading
-*** The Internet's 2nd act (from the magazine The Economist)
+*** The Internet's 2nd act (from the magazine The Economist, 8 Jun 2019)
     === The Second Half of Humanity Is Joining the Internet. ===
     --- They will change it, and it will change them. ---
 

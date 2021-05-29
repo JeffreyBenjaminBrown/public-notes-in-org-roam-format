@@ -1,0 +1,3 @@
+#+title: Synlab
+Does Covid testing at Bogotá's El Dorado (main) airport.
+[[file:../pers/20210522175322-un_scheduling_covid_tests_with_synlab.org][un-scheduling covid tests with Synlab]]
