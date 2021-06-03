@@ -33,7 +33,10 @@ Ask Julian the TA to remember who participates, allocate points.
 *** gender & economics
 *** game theory
     prisoner's dilemma
-* day 1
+* PITFALLs -- notes to self
+** when reviewing, check out the syllabus before the reading
+   That way I'll know what to edit in the syllabus while reading. (That's my theory, anyway. Today I did the reverse and don't like it.)
+* lesson 1
 ** pre-class reading
 *** The Internet's 2nd act (from the magazine The Economist, 8 Jun 2019)
     === The Second Half of Humanity Is Joining the Internet. ===
@@ -43,7 +46,7 @@ Ask Julian the TA to remember who participates, allocate points.
 
     Most new users are in the emerging world; some 726m people came online in the past three years alone. China is still growing fast. But much of the rise is coming from poorer places, notably India and Africa. Having seen what fake news and trolling has done to public discourse in rich countries, many observers worry about politics being debased, from the polarisation of India’s electorate to the persecution of Myanmar’s Rohingya minority. On the positive side, charities and aid workers talk endlessly and earnestly about how smartphones will allow farmers to check crop prices, let villagers sign up for online education and help doctors boost vaccination rates.
 
-    Less well appreciated is that the main attractions of being online are the same for the second half as they were for the first. Socialising and play, not work and self-improvement, are the draw. Porn is popular. Messaging apps help friends stay in touch, and let migrant workers say goodnight to their children back home. People entertain their friends—and strangers—on social media with goofy home-made videos on YouTube or TikTok, an app focused on short, humorous clips. Cheap data plans and thumb drives bring pirated films to millions who may never have been to a cinema. Dating apps are more popular than farming advice; video games are more popular than either. Such boons are unlikely to make their way into many un development reports. But they are a boost to the stock of human happiness.
+    Less well appreciated is that the main attractions of being online are the same for the second half as they were for the first. Socialising and play, not work and self-improvement, are the draw. Porn is popular. Messaging apps help friends stay in touch, and let migrant workers say goodnight to their children back home. People entertain their friends—and strangers—on social media with goofy home-made videos on YouTube or TikTok, an app focused on short, humorous clips. Cheap data plans and thumb drives bring pirated films to millions who may never have been to a cinema. Dating apps are more popular than farming advice; video games are more popular than either. Such boons are unlikely to make their way into many UN development reports. But they are a boost to the stock of human happiness.
 
     For businesses, the second half of the internet offers a vast pool of customers. It also brings a headache—most of these new users are too poor to spend very much. Tens of billions of dollars in venture-capital money have flowed into internet startups in emerging markets, excluding China. The Silicon Valley giants have built up big user bases—over 1.5bn Facebook users are in developing countries. YouTube, a video site owned by Google, is increasingly dominated by non-Western users. Last year Walmart spent $16bn buying Flipkart, an Indian e-commerce giant. Jumia, an e-commerce firm with 4m customers in Nigeria and 13 other African countries, floated in New York in April.
 
@@ -52,14 +55,16 @@ Ask Julian the TA to remember who participates, allocate points.
     Nonetheless, the impact of these firms on business will get bigger in two ways. First, they will grow fast—although whether fast enough to justify their valuations remains to be seen. To maximise their chances, many are offering not just a single service (such as search or video), as Western firms tended to in their early years, but a bundle of services in one app instead, in the hope of making more money per user. This approach was pioneered in China by Alibaba and Tencent. Go-Jek in Indonesia offers ride-hailing, payments, drug prescriptions and massages. Facebook is pushing a digital payments system in India through its chat service, WhatsApp (see article).
 
     The second is that in the emerging world, established firms are likely to be disrupted more quickly than incumbents were in the rich world. They have less infrastructure, such as warehouses and retail sites, to act as a barrier to entry. Many people, especially outside the big cities, lack access to their services entirely. Beer, shampoo and other consumer-goods firms could find that as marketing goes digital, new insurgent brands gain traction faster. Banks will be forced to adapt quickly to digital payments or die. Viewed this way, there is a huge amount of money at stake—the total market value of incumbent firms in the emerging world, outside China, is $8trn. If you thought the first half of the internet revolution was disruptive, just wait until you see the second act.
-*** If it's free, you are the product.
-    https://www.forbes.com/sites/marketshare/2012/03/05/if-youre-not-paying-for-it-you-become-the-product/?sh=15967bea5d6e
+*** "If it's free, you are the product."
+    https://en.wikipedia.org/wiki/Television_Delivers_People
 *** Giving GPT-3 a Turing test
     https://lacker.io/ai/2020/07/06/giving-gpt-3-a-turing-test.html
 *** Craigslist drops dating ads after new law
     https://www.bbc.com/news/technology-43514645
 *** The rise and fall of Pets.com
     http://www.uky.edu/~dsianita/695ec/failure.html
+** medley of Pets.com commercials
+   https://www.youtube.com/watch?v=sICSyC9u5iI
 ** profits
 *** profit = revenue - costs
 *** top companies by proit
@@ -70,30 +75,40 @@ Ask Julian the TA to remember who participates, allocate points.
 *** Pets.com
      http://www.uky.edu/~dsianita/695ec/failure.html
      "During its lifetime Pets.com spent more than $70 million on marketing and an average of $400 to acquire each new customer (Bucholtz, 2000)."
-*** medley of Pets.com commercials
-    https://www.youtube.com/watch?v=sICSyC9u5iI
-*** So, was Pets.com they stupid?
+     "The company raised $82.5 million in a February 2000 IPO but filed for bankruptcy nine months later."
+     IPO = Initial Public Offering
+*** So, was Pets.com stupid?
 *** Amazon.com
 **** Profits stayed pretty flat two decades.
      https://www.statista.com/chart/14887/amazon-quarterly-profit/
 **** but revenue, hence scale, have grown exponentially the whole time.
      https://www.statista.com/statistics/266282/annual-net-revenue-of-amazoncom/#:~:text=The%20time%20series%20shows%20the,billion%20US%20dollars%20in%202017.
-**** They got big first, made money later.
+**** They got big first, made money later
+     (while continuing to get bigger).
+     Actually they made a little money the whole time,
+     but they took a long time to make lots of money.
 *** "Growth first" is going out of style.
+    Growth first = First grow, then profit.
+    Not attractive to investors like it used to be.
     https://www.theguardian.com/media-network/media-network-blog/2013/aug/06/growth-profits-social-media-platforms
 ** barrier to entry
-   => Nobody can compete.
+   entry = entering the market
+   => Competing is hard.
 *** material monopoly
     Being the only one with access to raw materials -- e.g. diamonds.
+**** Standard Oil: company in the US, in the 1800s
+     =>
+     "antitrust law" : breaks monopolies (1 firm controls it) and oligopolies (a few firms control it)
 *** information monopoly: methods for products (or services) that nobody else has.
-    chemical formulas (Pfizer)
+    drug formulas (Pfizer)
     data (Google)
     software (can be a weak barrier)
 *** laws and regulations.
 **** Licenses
-***** Doctors
-      Helps doctors & consumers.
-***** Hair dressers?
+***** Doctors need licenses.
+      Helps doctors with licenses & consumers.
+      Hurts "doctors" without licenses.
+***** Hair dressers need licenses. Why?
       Helps already-licensed hair dressers.
       Hurts people who want to be hair dressers.
       Hurts some consumers, who would face lower prices if there were more hair dressers.
@@ -102,37 +117,42 @@ Ask Julian the TA to remember who participates, allocate points.
 ***** Freedom of speech does not apply.
       You have the right to speak, but not to speak on my website.
 ***** Craigslist shut down its personal ads.
-      The " Allow States and Victims to Fight Online Sex Trafficking Act" (FOSTA)
+      The "Allow States and Victims to Fight Online Sex Trafficking Act" (FOSTA)
       states that websites can now be punished for "facilitating" prostitution and sex trafficking.
       https://www.bbc.com/news/technology-43514645
 ***** Size & cost of filtering bad posts.
       Facebook, Youtube	: can afford it.
 	(They use machines and humans to do that.)
-      Startups		: can't.
+      Startups		: can't afford it.
 ****** startup = a small new company
 *** scale (size) & network effects
 **** network effects
-     more people use it => it becomes more useful => more people use it => ...
-***** amazon, uber, facebook, ebay, instagram
+     More people use it => it becomes more useful => more people use it => ...
+***** Amazon, Uber, Facebook, Ebay, Instagram
 ***** Why Google offers so many free services.
-      Information => better ads.
+      If you're not on Google, you can't see your friends Google Docs, or their Google Drive, or their Hangouts, or their Calendar ...
+      More users + more information => better-targeted ads => more profit.
 ***** Why Facebook bought Instagram and Whatsapp.
       Monopoly: Facebook can charge advertisers more if nobody else is like Facebook.
 **** Google, Amazon, Facebook, Walmart : scale (size) protects them.
      Amazon ~ Mercado Libre.
      Walmart ~ Exito.
-**** Uber (Didi, InDriver)             : not very protected by scale..
-**** Facebook moderators and PTSD (post traumatic stress disorder)
-     The term "PTSD" was first used in the vietnam war.
+**** Uber (Didi, InDriver)             : not very protected by scale.
+**** Facebook moderators and PTSD (post traumatic stress disorder)a
+     The term "PTSD" was first used in the Vietnam War.
      Moderator = someone who vets posts, takes some of them down.
-     52 million USD, 11,250 moderators
+     Settlement: paid 52 million USD to 11,250 moderators
      https://www.theverge.com/2020/5/12/21255870/facebook-content-moderator-settlement-scola-ptsd-mental-health
+*** quote from The Economist: tech will be more disruptive in the developing world
+    "in the emerging world, established firms are likely to be disrupted more quickly than incumbents (= firms who are already there) were in the rich world. They have less infrastructure, such as warehouses and retail sites, to act as a barrier to entry."
 ** tech is weird
 *** AI does not exist.
     https://lacker.io/ai/2020/07/06/giving-gpt-3-a-turing-test.html
 **** machines are better at
      Arithmetic, memory, simple games.
-       Chess. Memory. Poker (but only very recently).
+       Chess.
+       Memory (the card game).
+       Poker (but only very recently).
      Anything you can program a perfect solution to.
 **** humans are better at
      Recognizing pictures.
@@ -142,34 +162,39 @@ Ask Julian the TA to remember who participates, allocate points.
      Sports.
      Picking strawberries.
      Navigation (e.g. driving).
-*** open-source software ("even freer" than free software)
-    Free: you can use it, "have" it, but you don't get to see how it works.
-    Open-source: you can see the source code, see how it works, modify it, share those modifications, etc.
-**** example: Go (programming language) by Google
-***** can't sell it
-      There are too many other free languages already available.
-***** want people to use it
-      Google will hire some of them.
-***** want to be famous, respected for helping others
-***** want people to develop it
-      Free labor!
-*** If it's free, you are the product
+*** non-rivalry
+**** music
+**** open-source software ("even freer" than free software)
+     Free: you can use it, "have" it, but you don't get to see how it works.
+     Open-source: you can see the source code, see how it works, modify it, share those modifications, etc.
+***** example: Go (programming language) by Google
+****** can't sell it
+       Too many other great free languages already available.
+****** want people to use it
+       Google will hire some of them.
+       Google can charge for consulting services.
+****** want to be famous, respected for helping others
+****** want people to develop it
+       Free labor!
+*** If it's free, you are the product.
     Users are the product.
     The customer is the advertiser.
-    https://www.forbes.com/sites/marketshare/2012/03/05/if-youre-not-paying-for-it-you-become-the-product/?sh=15967bea5d6e
+    https://en.wikipedia.org/wiki/Television_Delivers_People
 **** Facebook, Google receive most of their money from advertisers.
+     Apple gets most of its money from the app store.
+     Amazon gets most of its money from Amazon Web Services, but also commissions (percentages) on sales.
 **** Lots of small websites used to, but much less now.
-     Since Facebook and Google can target users more precisely,
-     it's cheaper for advertisers to use them.
+     Facebook and Google can target users more precisely,
+     so it's cheaper for advertisers to use them.
      Smaller websites are less attractive to advertisers,
      because it costs more money to reach interested people,
      because they have to spam lots of uninterested people,
-     because the website does not know very much about its users.
+       (spam = unwanted messages)
+     because the website knows so little about its users.
+     (Compare: NYT v. Facebook)
 *** squishy assets
     Hard to quantify. Impossible to touch.
     Some easy to copy, some very much not.
-**** Standard Oil: company in the US
-     "antitrust law" : breaks monopolies and oligopolies
 **** data
 **** algorithms
 **** popularity
@@ -193,21 +218,21 @@ Ask Julian the TA to remember who participates, allocate points.
 **** Google is not profitable.
 *** What is the argument for not making platforms responsible for their users' posts?
 **** User posts are not harmful, so accountability is not necessary.
-**** If platforms were held accountable, some would not let their users post anything.
+**** If platforms were held accountable, many would not let their users post anything.
 **** Smaller platforms can more easily filter posts, so this would give them an unfair advantage.
-**** The right to freedom of speech means anybody should be able to write anything on anybody's website.
-*** More than 80% of the money spent by Pets.com went to
+**** Freedom of speech means anybody should be able to write anything on anybody's website.
+*** Pets.com spent more than 80% of the money its IPO raised on
 **** developing software and running servers
 **** buying products for resale
 **** shipping products
 **** advertising
 ** quiz answers
-   playing chess
-   open-source software
-   advertising
-   If platforms were held accountable, some would not let their users post anything.
-   advertising
-* day 2
+*** playing chess
+*** open-source software
+*** advertising
+*** If platforms were held accountable, some would not let their users post anything.
+*** advertising
+* lesson 2
 ** pre-class reading
 *** technological unemployment is not new
 **** the Luddite rebellion

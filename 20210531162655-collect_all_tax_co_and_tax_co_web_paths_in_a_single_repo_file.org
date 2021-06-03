@@ -1,0 +1,12 @@
+#+title: collect all tax.co and tax.co.web paths in a single (repo? file?)
+* use tax.co.web/paths.json
+  commands.sh already uses it,
+  but Python doesn't.
+* places to change
+** tax.co.web/../views/
+** tax.co/../request/
+** tax.co/bash/run-makefile.py
+** ./requests/lib.py
+** ./requests/main.py
+** ./common/subprocess.py
+** ./email.py

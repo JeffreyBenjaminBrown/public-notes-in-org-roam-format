@@ -1,18 +1,29 @@
 #+TITLE: montevideo (music software)
+#+ROAM_ALIAS: mtv
 * TODO bugs?
-** Should Zot use "on"?
-   "on" seems to be for the benefit of Dispatch.
-   So see if Zot works with Dispatch already.
-   If so, the comment about "on" at the top of
-     mtv-synth/Montevideo/Synth.hs
-   is stale.
+** DONE Should Zot use "on"?
+*** It does! via `onOffEnvelope`.
+*** programs in Dispatch that refer to "amp" and need changing
+    if I am to use "on" together with "amp"
+
+    Abbrevs
+    Msg.Act
+    Museq.Mk
+    Dispatch (only in a comment)
+*** why
+    "on" seems to be for the benefit of Dispatch.
+    So see if Zot works with Dispatch already.
+    If so, the comment about "on" at the top of
+      mtv-synth/Montevideo/Synth.hs
+    is stale.
 ** write insertQuiets :: Museq -> Museq
    :PROPERTIES:
    :ID:       e3b94c1c-42f1-4754-a289-5e6f1bcf1df2
    :END:
-   because monomeRecording_toMuseq in
-     ~/mtv/mtv-lang/Montevideo/Dispatch/Recording
-   creates events that don't have any "amp=0" messages.
+*** why
+    because monomeRecording_toMuseq in
+      ~/mtv/mtv-lang/Montevideo/Dispatch/Recording
+    creates events that don't have any "on=0" messages.
 *** DONE try playing the simple Museq created in Test.Recording
     mtv-test/Montevideo/Test/Recording.hs
     If I'm right, even though the event is only from time 0 to 1/2, the tone will be perpetual. And that implies I should [[id:e3b94c1c-42f1-4754-a289-5e6f1bcf1df2][write insertQuiets :: Museq -> Museq]].

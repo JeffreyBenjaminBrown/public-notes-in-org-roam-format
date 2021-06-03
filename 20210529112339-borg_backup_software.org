@@ -1,0 +1,28 @@
+#+title: Borg (backup software)
+* how to test a copy of a borg repo
+** the problem
+   Done naively (download borg repo, unzip it, extract from it) generates a security error.
+** the procedure: how to avoid the security error
+*** download, unzip the backup repo
+*** hide two folders that get in the way
+    ~/.cache/borg/<id>
+    ~/.config/borg/security/<id>
+**** example commands
+     PITFALL: The first time I did this, one of the folders disappeared. Copy, check and then delete might be safer than move.
+
+     id=8a5d54325513c3b57e555ac72a43203f069956c1649462a0bf38b47d71cc6063
+
+     mkdir hack
+     mkdir hack/cache
+     mkdir hack/config
+
+     mv ~/.cache/borg/$id hack/cache
+     mv ~/.config/borg/security/$id hack/config
+*** borg extract
+    PITFALL: It restores to the current working directory.
+    borg extract /run/media/jeff/_Toshi-2020-2TB/restore-test/borg-repo::2021-05-11
+*** compare that to what it should be
+*** restore those files that were in the way
+**** example commands
+     mv hack/cache/$id  ~/.cache/borg/
+     mv hack/config/$id ~/.config/borg/security/

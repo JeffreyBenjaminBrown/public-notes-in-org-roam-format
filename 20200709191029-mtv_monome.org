@@ -1,4 +1,6 @@
 #+title: mtv-monome
+* TODO the left-hand monome's bottom windows should switch places
+  because it's more useful to reach sustain with the thumb
 * TODO It's really fun when the synth controls are useful.
   They don't have to cover the whole space, just a "useful" chunk --
   one that's diverse and consistently good.
@@ -28,8 +30,6 @@
   It doesn't depend on wm-m, just wm-f.
   I suspect it happens when the frequency of modulation is near the frequency of the pitch itself.
 * TODO BEWARE: Am I incurring tehnical debt?
-  Ponder continuously: Are there any refactorings I intend to make eventually,
-  which would be easier earlier?
 * TODO annoying
 ** bug: can erase notes
    fingered (not sustained) on the other monome.

@@ -11,3 +11,93 @@
         "tax_django" : "/mnt/django/",
         "apache"     : "/mnt/apache2/"
       }
+* some jq grammar
+** first define this
+   site='https://api.github.com/repos/stedolan/jq/commits?per_page=5'
+** the pipe "|" feeds one filter into another
+   e.g.
+     curl $site | jq '.[0] | {message: .commit.message, name: .commit.committer.name}'
+** jq treats literal line breaks as ordinary whitespace
+   So, for instance, this makes sense:
+     cat ~/of/tax.co.web/paths.json | \
+       jq '.paths | to_entries
+                  | .[]
+                  | .key + "=\"" + .value + "\""'
+   The end of the first line requires a \,
+   but the ends of the other lines are inside the jq command,
+   so they don't.
+** braces let you select and flatten data
+   e.g. this
+   curl $site | jq '.[0] | {message: .commit.message, name: .commit.committer.name}'
+   returns the .commit.message and .commit.committer.name fields from the original, renaming them "message" and "name" and putting them on the same (first) level.
+
+** brackets select some or all of it
+   e.g.
+     curl $site | jq '.[] | {message: .commit.message, name: .commit.committer.name}'
+   does the {} command to every result. If the [] were omitted it wouldn't work, because .commit is only a field in each result, not a top-level field.
+** streams are whitespace-concatenated, but can be collected as arrays
+   Consider this:
+     curl $site | jq '.[] | {message: .commit.message, name: .commit.committer.name}'
+   vs. this:
+     curl $site | jq '[.[] | {message: .commit.message, name: .commit.committer.name}]'
+   The second just wraps the query from the first in []s. The result is that the first produces output like some concatenated streams:
+   {
+     "message": "Re-apply patch from ff8924ce16e58f to dev manual",
+     "name": "William Langford"
+   }
+   {
+     "message": "Remove decimal number text from v1.6 manual",
+     "name": "William Langford"
+   }
+   whereas the second is a single array:
+   [
+     {
+       "message": "Re-apply patch from ff8924ce16e58f to dev manual",
+       "name": "William Langford"
+     },
+     {
+       "message": "Remove decimal number text from v1.6 manual",
+       "name": "William Langford"
+     }
+   ]
+
+** making fields that are arrays
+   If a key can have more than one value, all of the values can be accessed at once, as in the "parents" field here:
+     curl $site | jq '[.[] | {message: .commit.message, name: .commit.committer.name, parents: [.parents[].html_url]}]'
+   The bracket around the symbol ".parents" packs the results into a single array. The brackets [] abutting the symbol ".parents" on the right retrieve those results.
+** to_entries: convert a ("block"?) to an array of key-value pairs
+   example:
+
+[jeff@jbb-dell:~/code/aws]$ cat ~/of/tax.co.web/paths.json | jq '.paths'
+{
+  "base_system_tax_co": "/home/jeff/of/tax.co/online",
+  "base_system_tax_co_web": "/home/jeff/of/tax.co.web",
+  "docker_tax_co": "/mnt/tax_co",
+  "docker_django": "/mnt/django",
+  "docker_apache": "/mnt/apache2"
+}
+
+[jeff@jbb-dell:~/code/aws]$ cat ~/of/tax.co.web/paths.json | jq '.paths | to_entries'
+[
+  {
+    "key": "base_system_tax_co",
+    "value": "/home/jeff/of/tax.co/online"
+  },
+  {
+    "key": "base_system_tax_co_web",
+    "value": "/home/jeff/of/tax.co.web"
+  },
+  ...
+]
+** building strings
+   Make a formula using the fields and ordinary strings,
+   glued together with the + symbol, per the last line here:
+     cat ~/of/tax.co.web/paths.json | \
+       jq '.paths | to_entries | .[]
+                  | .key + "=\"" + .value + "\""'
+   (In that particular expression, the fields are called "key" and "value",
+   but surely arbitrary field names work.)
+** evaluating built strings
+   Just stick the strings to evaluate in the ()s in `eval "$()"`, e.g.
+     eval "$(jq -r '.paths | to_entries | .[]
+                    | .key + "=\"" + .value + "\""' < paths.json)"

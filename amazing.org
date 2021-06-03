@@ -63,7 +63,7 @@ jonlervold.com
 * Chico Buarque (artist), Construção (song)
 funky Brazillian film music
 * Cryptic Ruse - Chains of Smoke
-microtonal metal album
+  microtonal metal album
 * Jute Gyte - Ovini
 microtonal metal album
 * Zach Curley 333, on bandcamp
@@ -78,6 +78,6 @@ https://zheaerosemusic.bandcamp.com/track/sola
 * Adam Hochstatter, film music
 * Aaron Krister Johnson
 ** Setiesque (46 edo)
-https://aaronkristerjohnson.bandcamp.com/track/satiesque
+   https://aaronkristerjohnson.bandcamp.com/track/satiesque
 * Big Brazillian Disaster
 https://selonetlabel.bandcamp.com/album/the-big-brazilian-disaster?fbclid=IwAR0OtfmJ4yEn1lDoFcXYVPYxSGNLz6OBQ8U70idLmLo4b3pqSC657UdqJnM
