@@ -1,5 +1,5 @@
 #+TITLE: smsn
-#+ROAM_ALIAS: "Semantic Synchrony (software)"
+#+ROAM_ALIAS: "Semantic Synchrony (software)" SmSn
 * refs
 ** handy files/folders
 *** ~/Encfs/kb-no-encfs/

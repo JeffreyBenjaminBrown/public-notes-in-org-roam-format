@@ -1,7 +1,9 @@
 #+title: minor life optimizations
-* TODO better shoelace knots
+* TODO buy to organize desk
+** hanging organizer
+   Uses velcro to attach things to it.
+** scanner (can be small)
+** shredder
+* better shoelace knots
 ** stabler: https://www.fieggen.com/shoelace/surgeonknot.htm
 ** faster: https://www.fieggen.com/shoelace/ianknot.htm
-* TODO get faster on the computer
-** some good one-liners for Bash
-  https://muhammadraza.me/2021/Oneliners/

@@ -1,0 +1,4 @@
+#+title: efficiency at work
+* [[file:../tech/20210322135749-emacs_mostly_packages.org][Emacs, mostly packages]]
+* some good one-liners for Bash
+  https://muhammadraza.me/2021/Oneliners/

@@ -28,6 +28,9 @@
     mtv-test/Montevideo/Test/Recording.hs
     If I'm right, even though the event is only from time 0 to 1/2, the tone will be perpetual. And that implies I should [[id:e3b94c1c-42f1-4754-a289-5e6f1bcf1df2][write insertQuiets :: Museq -> Museq]].
 ** How do streams work?
+* TODO a DSL
+  in SmSn:
+  * :AIqNamXJvFITlhnI:
 * TODO separate the concerns in Dispatch.Msg.Act, then make it abstract
 ** research: their current state
 actNew, actSend, and actFree all look up a synth, which might fail.

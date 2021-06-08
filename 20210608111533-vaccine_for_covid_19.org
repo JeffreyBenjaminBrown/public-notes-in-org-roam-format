@@ -1,0 +1,45 @@
+#+title: vaccine for Covid-19
+* TODO titrate warfarin
+** the day of, delay until after receiving the shot
+** eat lots of veg etc.
+* prepare the day of (esp. bring)
+  No warf
+  Pen
+  Papers to sign
+  Masks
+  Glasses, lupa
+* argue with a coordinador before getting in line
+* postularse on mi vacuna
+* places
+  Sotano 2 at Avenida Chile -- where Jeremy went.
+  Metropolis also seemed to work.
+  Bima: Super-full but good.
+  Places that don't work:
+    Plaza de Artesanos
+    Cuidarte tu Salud on Autopista & Calle 94
+* numbers Sandy had me record
+  375 90 00
+  opcion 6
+* TODO vaccine prep ? use CBD
+   Mercedes's friend Sara Kay Godot claims they dampen "histamine resonance".
+* TODO vaccines and allergies
+** ? pre-dose Benadryl before getting vaccine
+   CDC says don't.
+   According to someone on Facebook, lots of doctors are recommending it:
+     https://www.facebook.com/groups/2624440064453702/permalink/2971465359751169?comment_id=2971915423039496
+     (search for where I mentioned the CDC)
+** from preliminary data, allergic reactions appear 4 times more likely from Pfizer's than in Moderna's
+*** Pfizer
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7808711/
+    of 1_893_360 first doses:
+      4_393 adverse events
+      175 "possibly severe"
+      21 cases of anaphylaxis (1.1e-5)
+*** Moderna
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7842812/
+    of 4_041_396 first doses:
+      1_266 adverse events
+      108 "possibly severe"
+      10 anaphylaxis (2.47e-6)
+** TODO analyze raw VAERS data
+   https://vaers.hhs.gov/data.html

@@ -22,7 +22,9 @@ after creating the backlink
 ** To use a weird symbol (e.g. '\' or ',') in an alias
 Enclose the whole tag in parens.
 Write '\' as \\.
-* TODO
+* TODO convert to org-roam v2
+  https://org-roam.discourse.group/t/the-org-roam-v2-great-migration/1505
+* TODO tweak
 ** TODO use Nix to install org-roam
 *** TODO PITFALL: must first procedurally uninstall org-roam
 and whatever dependencies were installed as a result (e.g. emacssql-sqlite3).

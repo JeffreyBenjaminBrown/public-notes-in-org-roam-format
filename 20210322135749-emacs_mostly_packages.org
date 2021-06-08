@@ -1,4 +1,17 @@
 #+title: Emacs, mostly packages
+* TODO Emacs: how to override elpy's C-c C-d?
+(require 'org) ;; so that the next line knows what org-mode-map is
+(eval-after-load 'org
+  (progn
+    (define-key org-mode-map (kbd "C-c C-d")
+      ;; disable because it conflicts with my assignment for smart-hungry-delete-forward-char
+      nil)))
+(require 'elpy)
+(eval-after-load 'python
+  (progn
+    (define-key elpy-mode-map (kbd "C-c C-d")
+      ;; disable because it conflicts with my assignment for smart-hungry-delete-forward-char
+      nil)))
 * TODO do I want org-roam to work with company? helm? both?
   :PROPERTIES:
   :ID:       80c451e8-da34-4d5f-8483-f3e3b56ff16b
