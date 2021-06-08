@@ -1,6 +1,7 @@
 #+TITLE: NixOS
 * [[file:20200707160119-nixos_my_config.org][NixOS, my config]]
 * [[file:20201110140636-nixos_reinstalling.org][NixOS, installing]]
+* [[file:20210608184848-nixos_how_to_upgrade.org][NixOS, how to upgrade]]
 * REFERENCES
 ** interactive help
 *** from bash
@@ -57,25 +58,6 @@ https://github.com/nix-community/emacs-overlay#latest-master-each-rebuild
  To reach that point I added `sqlite` to the packages in my `environment.systemPackages` variable, and added `use-package` and `emacs-sqlite3` to my emacs packages, rebuilt, installed `org-roam` manually via `package-list-packages`, edited my `.emacs` file per the `org-roam` documentation, then opened a new instance of Emacs.
 ** does Emacs know where anything is?
  From the command line I can run `sqlite3` and it takes me into a SQL REPL. But in Emacs, if I run `(executable-find "sqlite3")` nothing happens, as if it can't find the executable. (Running that is suggested in the org-roam docs, [here](https://org-roam.github.io/org-roam/manual/Post_002dInstallation-Tasks.html#Post_002dInstallation-Tasks).) On the other hand, the same thing (nothing) happens if I evaluate `(executable-find "grep")` (which is also installed) or `(executable-find "dogbreath")` (which is not). So maybe Emacs just doesn't know where anything is?
-* how to upgrade NixOS
-This worked, going from 19.09 to 20.03.
-** Tweak configuration .nix file(s)
-per the release notes for the latest NixOS version.
-** PITFALL: sudo is important for the rest of this
-A lot of it will run without sudo,
-but thereby create stuff that lives in userspace,
-and is for some reason therefore unuseable.
-** update the channel
-*** first check that it's where it should be
-sudo nix-channel --list
-**** which should give something like this
-nixos https://nixos.org/channels/nixos-19.09
-*** sudo nix-channel --add <channel>
-for instance,
-  sudo nix-channel --add https://nixos.org/channels/nixos-20.03 nixos
-*** sudo nix-channel --update
-** rebuild
-sudo nixos-rebuild --upgrade boot
 * user ID problems
 ** changing user ID in NixOS is complicated
 *** because it won't let you change the ID of an existing user
