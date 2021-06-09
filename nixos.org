@@ -1,4 +1,19 @@
 #+TITLE: NixOS
+* TODO fix my dependencies in jbb-config/custom-packages
+  :PROPERTIES:
+  :ID:       608dc630-49dd-4193-ae14-c55e104ce26b
+  :END:
+  Because things change in Nixos 21.05:
+  https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-21.05
+** on wafHook
+  "The wafHook hook does not wrap Python anymore. Packages depending on wafHook need to include any Python into their nativeBuildInputs."
+** on stdenv.lib
+   "stdenv.lib has been deprecated and will break eval in 21.11. Please use pkgs.lib instead. See #108938 for details."
+** "GNOME users may wish to delete their ~/.config/pulse
+   due to the changes to stream routing logic"
+** ? "Platforms, like stdenv.hostPlatform, no longer have a platform attribute. It has been (mostly) flattened away:
+   platform.gcc is now gcc
+   platform.kernel* is now linux-kernel.*
 * [[file:20200707160119-nixos_my_config.org][NixOS, my config]]
 * [[file:20201110140636-nixos_reinstalling.org][NixOS, installing]]
 * [[file:20210608184848-nixos_how_to_upgrade.org][NixOS, how to upgrade]]

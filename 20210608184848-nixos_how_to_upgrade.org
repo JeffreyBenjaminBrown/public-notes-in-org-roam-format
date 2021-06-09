@@ -1,7 +1,11 @@
 #+title: NixOS, how to upgrade
 This worked, going from 19.09 to 20.03.
 * Tweak configuration .nix file(s)
-per the release notes for the latest NixOS version.
+  per the release notes for the latest NixOS version.
+** PITFALL: Seems to mean more than just reading the backward incompatibilities section.
+   While trying to migrate to 21.05, I'm also reading
+   "B.1.4. Other Notable Changes",
+   because it starts by saying that stdenv.lib will break.
 * PITFALL: sudo is important for the rest of this
 A lot of it will run without sudo,
 but thereby create stuff that lives in userspace,
