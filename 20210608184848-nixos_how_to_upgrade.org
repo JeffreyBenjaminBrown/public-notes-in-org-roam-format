@@ -1,23 +1,26 @@
 #+title: NixOS, how to upgrade
-This worked, going from 19.09 to 20.03.
-* Tweak configuration .nix file(s)
-  per the release notes for the latest NixOS version.
-** PITFALL: Seems to mean more than just reading the backward incompatibilities section.
-   While trying to migrate to 21.05, I'm also reading
-   "B.1.4. Other Notable Changes",
-   because it starts by saying that stdenv.lib will break.
-* PITFALL: sudo is important for the rest of this
-A lot of it will run without sudo,
-but thereby create stuff that lives in userspace,
-and is for some reason therefore unuseable.
-* update the channel
-** first check that it's where it should be
-sudo nix-channel --list
-*** which should give something like this
-nixos https://nixos.org/channels/nixos-19.09
-** sudo nix-channel --add <channel>
-for instance,
-  sudo nix-channel --add https://nixos.org/channels/nixos-20.03 nixos
-** sudo nix-channel --update
-* rebuild
-sudo nixos-rebuild --upgrade boot
+* This worked, going from 19.09 to 20.03.
+* The procedure
+  serial
+** TODO Tweak configuration .nix file(s)
+   per the release notes for the latest NixOS version.
+*** PITFALL: Seems to mean more than just reading the backward incompatibilities section.
+    While trying to migrate to 21.05, I'm also reading
+    "B.1.4. Other Notable Changes",
+    because it starts by saying that stdenv.lib will break.
+** Back up data.
+** PITFALL: sudo is important for the rest of this
+   A lot of it will run without sudo,
+   but thereby create stuff that lives in userspace,
+   and is for some reason therefore unuseable.
+** update the channel
+*** first check that it's where it should be
+    sudo nix-channel --list
+**** which should give something like this
+     nixos https://nixos.org/channels/nixos-19.09
+*** DONE sudo nix-channel --add <channel>
+    for instance,
+      sudo nix-channel --add https://nixos.org/channels/nixos-21.05 nixos
+*** sudo nix-channel --update
+** rebuild
+   sudo nixos-rebuild --upgrade boot
