@@ -1,8 +1,5 @@
 #+TITLE: NixOS
 * TODO fix my dependencies in jbb-config/custom-packages
-  :PROPERTIES:
-  :ID:       608dc630-49dd-4193-ae14-c55e104ce26b
-  :END:
   Because things change in Nixos 21.05:
   https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-21.05
 ** on wafHook
@@ -14,6 +11,18 @@
 ** ? "Platforms, like stdenv.hostPlatform, no longer have a platform attribute. It has been (mostly) flattened away:
    platform.gcc is now gcc
    platform.kernel* is now linux-kernel.*
+* errors, and how I solved them
+** "unexpected argument 'specialArgs'"
+*** where I got help
+    https://discourse.nixos.org/t/cant-upgrade-nixos-unexpected-argument-specialargs/13539
+*** the problem
+    I got this when migrating to 21.05.
+    The problem was that audio.nix had
+    an argument list like this at the top:
+      {config, lib, pkgs, options, modulesPath}:
+*** The solution was to add an ellipsis:
+      {config, lib, pkgs, options, modulesPath, ...}:
+    "so that unknown arguments are ignored".
 * [[file:20200707160119-nixos_my_config.org][NixOS, my config]]
 * [[file:20201110140636-nixos_reinstalling.org][NixOS, installing]]
 * [[file:20210608184848-nixos_how_to_upgrade.org][NixOS, how to upgrade]]

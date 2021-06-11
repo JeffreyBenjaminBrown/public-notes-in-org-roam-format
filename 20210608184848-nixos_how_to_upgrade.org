@@ -2,9 +2,9 @@
 * This worked, going from 19.09 to 20.03.
 * The procedure
   serial
-** TODO Tweak configuration .nix file(s)
+** Tweak configuration .nix file(s)
    per the release notes for the latest NixOS version.
-*** PITFALL: Seems to mean more than just reading the backward incompatibilities section.
+*** PITFALL: One seems to have to read the whole thing, not just the backward incompatibilities section.
     While trying to migrate to 21.05, I'm also reading
     "B.1.4. Other Notable Changes",
     because it starts by saying that stdenv.lib will break.
@@ -18,7 +18,7 @@
     sudo nix-channel --list
 **** which should give something like this
      nixos https://nixos.org/channels/nixos-19.09
-*** DONE sudo nix-channel --add <channel>
+*** sudo nix-channel --add <channel>
     for instance,
       sudo nix-channel --add https://nixos.org/channels/nixos-21.05 nixos
 *** sudo nix-channel --update

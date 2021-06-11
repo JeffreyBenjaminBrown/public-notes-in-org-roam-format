@@ -58,7 +58,7 @@ One creates it, one destroys it; both could be a separate super function.
    it schedules an "off" message for shortly thereafter.
 * TODO path, high-level
 ** capture from the monome
-  Capture synth state, chords, melodies.
+   Capture synth state, chords, melodies.
 * TODO JI: compare chords in EDOs
 ** playChord :: [JI Fraction] -> EDO -> IO ()
    This way you can edit the last argument repeatedly.
