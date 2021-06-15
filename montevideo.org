@@ -1,9 +1,9 @@
 #+TITLE: montevideo (music software)
 #+ROAM_ALIAS: mtv
 * TODO bugs?
-** DONE Should Zot use "on"?
-*** It does! via `onOffEnvelope`.
-*** programs in Dispatch that refer to "amp" and need changing
+** Use "on".
+*** Zot already does, via `onOffEnvelope`.
+*** Programs in Dispatch that refer to "amp" and need changing
     if I am to use "on" together with "amp"
 
     Abbrevs

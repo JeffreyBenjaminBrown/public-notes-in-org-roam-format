@@ -57,7 +57,7 @@ lrwxrwxrwx 1 root root 88 feb 15 16:57 no_intero_and_musnix_06eaf399-1-link -> /
    Go to the folder, then run
      nix show-derivation $(pwd)
 * instead of .bashrc or .profile
-use environment.variables to define variables
+  use environment.variables to define variables
 * NixOS overlays
 ** I was given advice here
 https://discourse.nixos.org/t/my-first-overlay-for-emacs/7570/2
