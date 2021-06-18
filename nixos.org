@@ -26,6 +26,8 @@
 * [[file:20200707160119-nixos_my_config.org][NixOS, my config]]
 * [[file:20201110140636-nixos_reinstalling.org][NixOS, installing]]
 * [[file:20210608184848-nixos_how_to_upgrade.org][NixOS, how to upgrade]]
+* sudo nix-collect-garbage -d
+  The -d clears out all the older configurations.
 * REFERENCES
 ** interactive help
 *** from bash
