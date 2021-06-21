@@ -1,4 +1,12 @@
 #+TITLE: Hode
+* funding Hode
+  :PROPERTIES:
+  :ID:       a8b013df-135c-4154-a28c-399fec60170d
+  :END:
+** tailor its described purpose to the funder
+   Don't talk about everything it can do, much less all the ways it works. Talk about how it can achieve things a specific funder wants.
+** funders for Hode
+*** DARPA
 * DISCLAIMER: This document is
 not really intended to be understood by anybody but myself.
 For documentation, please see the README.md file.

@@ -1,0 +1,53 @@
+#+title: linear types in Haskell
+* TODO check out "linear base"
+  https://github.com/tweag/linear-base/
+* refs
+** Learn just enough about linear types, by Artyom Kazak
+   https://tek.brick.do/EGnqyrBDQ5Gk
+   Lots of these notes come from that.
+* enable the extension -XLinearTypes
+* "%1 ->" is the linear alternative to ->
+  e.g.
+    id :: a %1 -> a
+* the linear monad enforces linearity
+  class Monad m where
+    (>>=) ::
+      m a           %1 ->
+      (a %1 -> m b) %1 ->
+        -- The callback too must only use its argument once.
+      m b
+* `Ur` ("Unrestricted") is for escaping linearity
+** consider these functions
+   create :: IO (Socket Unbound)
+
+   connect :: Socket Unbound %1 ->
+              SocketAddress ->
+              IO (Socket Connected)
+
+   send :: Socket Connected %1 ->
+           ByteString ->
+           IO (Socket Connected, Ur Int)
+           -- will explain 'Ur' later
+
+   close :: forall s. Socket s ->
+            IO (Ur ())
+** The Socket that `send` returns is constrained to linear use, while the Int doesn't
+   because the Int is returned wrapped in Ur. The Ur itself is, I guess, linearly constrained, but because the definition of Ur doesn't impose linearity:
+   data Ur a where
+     Ur :: a -> Ur a
+   the `a` inside can be used many times.
+** use `move` to stick an ordinary type into `Ur`
+   class Dupable a => Movable a where
+       move :: a %1 -> Ur a
+
+   instance Movable Bool where
+       move True  = Ur True
+       move False = Ur False
+*** TODO why not just use `Ur` instead of `move` to do that?
+* constructors have linearity
+** by default, all constructors are linear
+   data Maybe a = Nothing | Just a
+   -- Just :: a %1 -> Maybe a
+** but that only matters if their argument was already linear
+   "in a pattern match like case m of Just x -> ..., GHC will look at the type of Just, and ensure that if m was only allowed to be used once, then x shall also only be allowed to be used once"
+   https://tek.brick.do/EGnqyrBDQ5Gk

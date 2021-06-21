@@ -27,7 +27,9 @@
 *** DONE try playing the simple Museq created in Test.Recording
     mtv-test/Montevideo/Test/Recording.hs
     If I'm right, even though the event is only from time 0 to 1/2, the tone will be perpetual. And that implies I should [[id:e3b94c1c-42f1-4754-a289-5e6f1bcf1df2][write insertQuiets :: Museq -> Museq]].
-** How do streams work?
+* TODO path, high-level
+** capture from the monome
+   Capture synth state, chords, melodies.
 * TODO a DSL
   in SmSn:
   * :AIqNamXJvFITlhnI:
@@ -56,12 +58,10 @@ One creates it, one destroys it; both could be a separate super function.
  Otherwise, it schedules an action to send everythingg in `msg` at `when`.
  In the special case of a sampler receiving an "on" message,
    it schedules an "off" message for shortly thereafter.
-* TODO path, high-level
-** capture from the monome
-   Capture synth state, chords, melodies.
 * TODO JI: compare chords in EDOs
 ** playChord :: [JI Fraction] -> EDO -> IO ()
    This way you can edit the last argument repeatedly.
+* TODO ? How do streams work?
 * TODO [[file:20200709190917-mtv_lang.org][mtv-lang]]
 * TODO [[file:20200709191029-mtv_monome.org][mtv-monome]]
 * TODO [[file:20200812014948-mtv_ji.org][mtv-ji]]

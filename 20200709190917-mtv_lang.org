@@ -1,5 +1,11 @@
 #+title: mtv-lang
 * TODO top priorities
+** TODO make simultaneous triggers writeable without specifying voice
+*** A simple hack
+    would be to give different names to every event.
+*** TODO A CPU-cheaper option is not much harder to write.
+    Since triggers are momentary, the overlap analysis needed is simple:
+    If they start at the same time, they need different labels, otherwise not.
 ** TODO How are overlapping notes in a monophonic voice rendered?
    See comments in this code.
 *** exploratory code

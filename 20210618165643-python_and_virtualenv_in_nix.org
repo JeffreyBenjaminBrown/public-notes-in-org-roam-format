@@ -1,0 +1,12 @@
+#+title: Python and virtualenv in Nix
+* it's easy
+  Apparently, the new way to set up a Python virtual environment on Nix (https://nixos.wiki/wiki/Python) is exactly what you would do outside of Nix:
+    python -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+* a slight confusion: source v. "."
+  The above is *slightly* different from what's recommended in the Agora docs (https://github.com/flancian/agora):
+    python3 -m venv venv
+    . venv/bin/activate
+    pip3 install -r requirements.txt
+  After experimenting, they seem to do the same thing, in different folder names (.venv vs. env). Not sure why "." works instead of "source", though.

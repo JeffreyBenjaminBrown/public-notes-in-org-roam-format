@@ -1,0 +1,55 @@
+#+title: Agora (shared knowledge base (protocol))
+* refs
+** the Git issue I filed
+   :PROPERTIES:
+   :ID:       304e3d3e-f05f-424d-8eab-34fcfda408c9
+   :END:
+   https://github.com/flancian/agora/issues/5
+** Github: https://github.com/flancian/agora
+** The introductory node: https://anagora.org/node/agora
+** YC: https://news.ycombinator.com/item?id=25573523
+** [[id:22b7c16d-b4c1-4524-81c7-e42c9266880e][Asking NixOS Discourse about libmemcached]]
+* TODO try it in Docker
+** TODO try these commands
+*** BLOCKED trying :: pip3 install --upgrade "--all"
+    `--all` is not actually an option.
+    Instead there's this:
+      pip3 freeze --local |sed -rn 's/^([^=# \t\\][^ \t=]*)=.*/echo; echo Processing \1 ...; pip3 install -U \1/p' |sh
+    from here:
+      https://stackoverflow.com/questions/2720014/how-to-upgrade-all-python-packages-with-pip
+    (I tried some earlier things on that page, which didn't seem to work.)
+*** pip3 install each of the packages that fails
+    when installing requirements.txt into the venv
+** [[id:304e3d3e-f05f-424d-8eab-34fcfda408c9][the Git issue I filed]]
+** things that didn't work
+*** pip3 install --upgrade wheel
+    It did upgrade that,
+    but had no effect when installing requirements.txt
+*** `pip3 install wheel`
+    I don't see `wheel` in agora-server's `requirements.txt`.
+    But when I try this nothing changes; I see "requirement already satisfied."
+*** Installing wheel via the older pip.
+    Ran these commands:
+      apt install -y python-pip # not python3-pip, which is already installed
+      pip install wheel
+    It reports after the second that the wheel req is already satisfied.
+*** adding appuser to sudo and wheel didn't work
+**** I can run these as root, but they make no difference.
+     addgroup wheel
+     usermod -a -G wheel appuser
+     usermod -a -G sudo appuser
+**** If I run them in the Dockerfile it doesn't build.
+     I get this error:
+       groupadd: Permission denied.
+       groupadd: cannot lock /etc/group; try again later.
+** TODO ? add user to wheel and sudo before apt-installing python-wheel
+* Don't run from root; run from home
+  Otherwise it tries to create stuff in root.
+* TODO report
+** had to create an empty config.json file
+* BLOCKED libmemcached error when building natively
+  :PROPERTIES:
+  :ID:       22b7c16d-b4c1-4524-81c7-e42c9266880e
+  :END:
+  Asking on Discourse:
+  https://discourse.nixos.org/t/gcc-not-finding-libmemcached-after-installing-both-via-nixos-rebuild/13681

@@ -1,4 +1,3 @@
 #+title: Python (programming language)
 * [[file:20200803200021-python_dictionaries_are_hash_tables.org][Python dictionaries are hash tables.]]
-
-
+* [[file:20210618165643-python_and_virtualenv_in_nix.org][Python and virtualenv in Nix]]
