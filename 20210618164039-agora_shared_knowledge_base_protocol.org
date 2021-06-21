@@ -10,18 +10,19 @@
 ** YC: https://news.ycombinator.com/item?id=25573523
 ** [[id:22b7c16d-b4c1-4524-81c7-e42c9266880e][Asking NixOS Discourse about libmemcached]]
 * TODO try it in Docker
-** TODO try these commands
-*** BLOCKED trying :: pip3 install --upgrade "--all"
+** [[id:304e3d3e-f05f-424d-8eab-34fcfda408c9][the Git issue I filed]]
+** things that didn't work
+*** connect 8888:8888 rather than 5000:5000
+    8888:8888 is what tax.co.web does, and that works when I connect to port 8000.
+    Doing this in Agora still led `pip3 install requirements.txt` in `agora-server` to report `invalid command 'bidist_wheel'`.
+    And still I can't connect.
+*** trying :: pip3 install --upgrade "--all"
     `--all` is not actually an option.
     Instead there's this:
       pip3 freeze --local |sed -rn 's/^([^=# \t\\][^ \t=]*)=.*/echo; echo Processing \1 ...; pip3 install -U \1/p' |sh
     from here:
       https://stackoverflow.com/questions/2720014/how-to-upgrade-all-python-packages-with-pip
     (I tried some earlier things on that page, which didn't seem to work.)
-*** pip3 install each of the packages that fails
-    when installing requirements.txt into the venv
-** [[id:304e3d3e-f05f-424d-8eab-34fcfda408c9][the Git issue I filed]]
-** things that didn't work
 *** pip3 install --upgrade wheel
     It did upgrade that,
     but had no effect when installing requirements.txt
@@ -42,6 +43,9 @@
      I get this error:
        groupadd: Permission denied.
        groupadd: cannot lock /etc/group; try again later.
+** things I never tried, because they seem unlikely to work
+*** pip3 install each of the packages that fails
+    when installing requirements.txt into the venv
 ** TODO ? add user to wheel and sudo before apt-installing python-wheel
 * Don't run from root; run from home
   Otherwise it tries to create stuff in root.
