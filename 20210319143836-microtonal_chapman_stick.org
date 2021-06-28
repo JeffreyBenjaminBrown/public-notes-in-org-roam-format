@@ -177,3 +177,27 @@ If I recall correctly I got the impression that tuning string 1 to a high D was 
   It seems kind of absurd -- if the treble strings are 5\12 apart and the bass 7\12, why are 12 and 18 neighbors in both systems?
   treble:  8   9  12  18  26u 38u
   bass:   12  18  22u 40u 65u 95u
+* 41/2- v. 58/2-edo
+fretWidth scaleLen fret edo = let
+  ref = scaleLen * 2**(-fret/edo)
+  in ref * 2**(1/edo) - ref
+
+On a 29-edo Stick, the highest fret is half as wide:
+> (fretWidth 36 58 29 :: Float) * 2
+0.43541336
+
+as the 19th fret on a 25.5"-scale 24-edo guitar:
+> fretWidth 25.5 19 24 :: Float
+0.4316435
+> fretWidth 25.5 18 24 :: Float
+0.44429207
+
+On a 20.5-edo Stick, the highest fret is half as wide:
+> (fretWidth 36 41 20.5 :: Float) * 2
+0.6190243
+
+as the 7th fret on a 25.5"-scale 24-edo guitar:
+> fretWidth 25.5 7 24 :: Float
+0.6104374
+> fretWidth 25.5 6 24 :: Float
+0.6283245

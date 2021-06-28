@@ -123,3 +123,4 @@ and between them play the dominant (major starting at 18) chord of the first.
 > tail $ zipWith (-) x (1:x)
 [273,215]
 *** in both 41- and 46-edo they're consecutive
+** [[file:20210627203734-quartertone_free_cluster_free_ways_to_divide_a_fourth_in_24_edo.org][quartertone-free, cluster-free ways to divide a fourth in 24-edo]]

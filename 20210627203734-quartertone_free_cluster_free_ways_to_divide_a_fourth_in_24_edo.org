@@ -1,0 +1,17 @@
+#+title: quartertone-free, cluster-free ways to divide a fourth in 24-edo
+   where a cluster is any 3 tones spanning 2\12 or less
+   0             2.5            5
+   0  1              3          5
+   0  1                 3.5     5
+   0  1                      4  5
+   0     1.5         3          5
+   0     1.5            3.5     5
+   0     1.5                 4  5
+   0          2      3          5
+   0          2         3.5     5
+   0          2              4  5
+   where a cluster is any 3 tones spanning 2.5\12 or less
+   0  1          2.5    3.5     5
+   0  1          2.5         4  5
+   0     1.5     2.5         4  5
+   0     1.5     2.5            5

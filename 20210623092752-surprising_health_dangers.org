@@ -1,0 +1,17 @@
+#+title: surprising health dangers
+* lead poisoning
+** bright yellow turmeric (curcuma)
+** artisanal glazed ceramic cookware
+* to avoid endocrine disruptors
+  https://www.nytimes.com/2021/02/20/opinion/sunday/endocrine-disruptors-sperm.html?referringSource=articleShare
+** TODO Store food in glass containers, not plastic. Above all, don’t microwave foods in plastic or with plastic wrap on top.
+** TODO Prevent dust buildup.
+** Avoid pesticides.
+** Buy organic produce if possible.
+** Avoid tobacco or marijuana.
+** Use a cotton or linen shower curtain, not one made of vinyl.
+** Don’t use air fresheners.
+** Vet consumer products you use with an online guide like that of the Environmental Working Group.
+* gas stoves
+  The Atlantic says it's unhealthy:
+  https://www.theatlantic.com/science/archive/2020/10/gas-stoves-are-bad-you-and-environment/616700/

@@ -336,6 +336,8 @@ Pr.pPrint ( take 30 $ drop 90
    They play very similarly, shockingly easily.
      Though it takes two hands to play a chord, generally.
    And they're both "sharp systems".
+* 24-edo
+** [[file:20210627203734-quartertone_free_cluster_free_ways_to_divide_a_fourth_in_24_edo.org][quartertone-free, cluster-free ways to divide a fourth in 24-edo]]
 * 31 3 7: An easier Kite-like tuning
   3 steps = 17 % 16: string 0 fret 1
   8 steps = 19 % 16: string -1 fret 5
@@ -363,6 +365,40 @@ wide major third (14:11)
 super-narrow fourth (13:10, 454 cents)
 super-wide fourth (11:8)
 the familiar septimal tritone (7:5)
+* 41-edo
+** Kite: 41 13 2
+** Narrow Kite: 41 11 2
+** Edo 41 ; StringGap 11 ; FretGap 3
+   Frets are 88c apart.
+        [  0 steps;  1 % 1 ; string 0 ; fret 0
+        , 41 steps;  2 % 1 ; string 4 ; fret - 1
+        , 24 steps;  3 % 2 ; string 3 ; fret - 3
+        , 13 steps;  5 % 4 ; string 2 ; fret - 3
+        , 33 steps;  7 % 4 ; string 3 ; fret 0
+        ,  7 steps;  9 % 8 ; string 2 ; fret - 5
+        , 19 steps; 11 % 8 ; string 2 ; fret - 1
+        , 29 steps; 13 % 8 ; string 4 ; fret - 5
+        ]
+** Edo 41 ; StringGap 13 ; FretGap 4
+   Frets are 117c apart.
+        [  0 steps;  1 % 1 ; string 0	; fret 0
+        , 41 steps;  2 % 1 ; string 1	; fret 7
+        , 24 steps;  3 % 2 ; string 0	; fret 6
+        , 13 steps;  5 % 4 ; string 1	; fret 0
+        , 33 steps;  7 % 4 ; string 1	; fret 5
+        ,  7 steps;  9 % 8 ; string - 1 ; fret 5
+        , 19 steps; 11 % 8 ; string - 1 ; fret 8
+        , 29 steps; 13 % 8 ; string 1	; fret 4
+** Edo 41 ; StringGap 7 ; FretGap 5
+   Frets are 146c apart.
+        [  0 steps;  1 % 1 ; string 0 ; fret 0
+        , 41 steps;  2 % 1 ; string 3 ; fret 4
+        , 24 steps;  3 % 2 ; string 2 ; fret 2
+        , 13 steps;  5 % 4 ; string - 1 ; fret 4
+        , 33 steps;  7 % 4 ; string 4 ; fret 1
+        ,  7 steps;  9 % 8 ; string 1 ; fret 0
+        , 19 steps; 11 % 8 ; string 2 ; fret 1
+        , 29 steps; 13 % 8 ; string 2 ; fret 3
 * 43-edo
 ** meantone
 ** TODO 43 3 8: super-easy, 7 strings 6 frets for 31-lim -17
@@ -683,7 +719,6 @@ the familiar septimal tritone (7:5)
   49 steps = 29 % 16 : string 1   fret 6
   54 steps = 31 % 16 : string 0   fret 9
 * 58-edo
-  By hand I explored all triples [58 [2-9] [11-23]]
 ** tuning: great 3/2, all positive errors in 13-lim, none greater than 7c
    > myPrint $ bests 58
    (3 % 2,(34,7034,14.932749966815209))
@@ -692,36 +727,76 @@ the familiar septimal tritone (7:5)
    (11 % 8,(27,5586,73.02747290415664))
    (13 % 8,(41,8483,77.48200299654854))
    (17 % 16,(5,1034,-15.07133638338314))
-** 58 2 13: balanced diagonal octave (4,3), 15-lim 4x7
+** TODO 58 6 7: octave (4,5), span 5x5, 124c frets
+   Good for a uke, etc.
+    ( Edo 58 ; StringGap 7 ; FretGap 6
+        [  0 steps;  1 % 1 ; string 0	; fret 0
+        , 58 steps;  2 % 1 ; string 4	; fret 5
+        , 34 steps;  3 % 2 ; string 4	; fret 1
+        , 19 steps;  5 % 4 ; string 1	; fret 2
+        , 47 steps;  7 % 4 ; string 5	; fret 2
+        , 10 steps;  9 % 8 ; string - 2 ; fret 4
+        , 27 steps; 11 % 8 ; string 3	; fret 1
+        , 41 steps; 13 % 8 ; string 5	; fret 1
+** TODO 58 7 10: octave (3,4), span 3x4, 140c frets
+   Good for a uke, etc.
+   ( Edo 58 ; StringGap 10 ; FretGap 7
+        [  0 steps;  1 % 1 ; string 0 ; fret 0
+        , 58 steps;  2 % 1 ; string 3 ; fret 4
+        , 34 steps;  3 % 2 ; string 2 ; fret 2
+        , 19 steps;  5 % 4 ; string 4 ; fret - 3
+        , 47 steps;  7 % 4 ; string 4 ; fret 1
+        , 10 steps;  9 % 8 ; string 1 ; fret 0
+        , 27 steps; 11 % 8 ; string 2 ; fret 1
+        , 41 steps; 13 % 8 ; string 2 ; fret 3
+** TODO 58 2 15: octave (4,-1), 15-lim 4x8, 31-lim 4x12
+    0 steps;  1 % 1  ; string 0 ; fret 0
+   58 steps;  2 % 1  ; string 4 ; fret - 1
+   34 steps;  3 % 2  ; string 2 ; fret 2
+   19 steps;  5 % 4  ; string 1 ; fret 2
+   47 steps;  7 % 4  ; string 3 ; fret 1
+   10 steps;  9 % 8  ; string 0 ; fret 5
+   27 steps; 11 % 8  ; string 1 ; fret 6
+   41 steps; 13 % 8  ; string 3 ; fret - 2
+   53 steps; 15 % 8  ; string 3 ; fret 4
+    5 steps; 17 % 16 ; string 1 ; fret - 5
+   14 steps; 19 % 16 ; string 0 ; fret 7
+   23 steps; 21 % 16 ; string 1 ; fret 4
+   30 steps; 23 % 16 ; string 2 ; fret 0
+   37 steps; 25 % 16 ; string 3 ; fret - 4
+   44 steps; 27 % 16 ; string 2 ; fret 7
+   50 steps; 29 % 16 ; string 4 ; fret - 5
+   55 steps; 31 % 16 ; string 3 ; fret 5
+** TODO 58 2 13: octave (4,3), 15-lim 4x7, 31-lim 5x10
    :PROPERTIES:
    :ID:       3d0440f4-ef24-4ada-b75c-9ba23f7702a1
    :END:
 *** it's a 29-edo guitar, at which point, why not just use 31.
-*** octave (4,3)
-*** fret span 10, but much easier for primes under 14
 *** primes through 13 + easy higher primes
-19 steps = 5 % 4   : str 1 fret 3
+58 steps =  2 % 1  : str 4 fret 3
+34 steps =  3 % 2  : str 2 fret 4
+19 steps =  5 % 4  : str 1 fret 3
+47 steps =  7 % 4  : str 3 fret 4
 27 steps = 11 % 8  : str 3 fret -6 | str 1 fret 7
-  for 58e: -14c error instead of 7c,
-  and located at string 2 fret 0
-30 steps = 23 % 16 : str 2 fret 2
-34 steps = 3 % 2   : str 2 fret 4
+  for 58e          : -14c error instead of 7c,
+  located at         str 2 fret 0
+  but 50e plays terribly with other 13-limit harmonics
 41 steps = 13 % 8  : str 3 fret 1
-47 steps = 7 % 4   : str 3 fret 4
-50 steps = 29 % 16 : str 4 fret -1
-58 steps = 2 % 1   : str 4 fret 3
-*** all the primes
- 5 steps = 17 % 16 : str 1 fret -4 | str -1 fret 9
-14 steps = 19 % 16 : str 2 fret -6 | str 0 fret 7
-19 steps = 5 % 4   : str 1 fret 3
-27 steps = 11 % 8  : str 3 fret -6 | str 1 fret 7
+53 steps = 15 % 8  ; str 3 fret 7
+ 5 steps = 17 % 16 : str 1 fret -4 | str -1 fret 9     -- unavoidably awkward
+14 steps = 19 % 16 : str 0 fret 7
+  for 58h            13c error instead of -8c,
+  located at         str 1 fret 1,
+  plays better with harmonics 5, 11, 13, 29
 30 steps = 23 % 16 : str 2 fret 2
-34 steps = 3 % 2   : str 2 fret 4
-41 steps = 13 % 8  : str 3 fret 1
-47 steps = 7 % 4   : str 3 fret 4
+  the next-best      13c error instead of -8c
+                     str 1 fret 9  | str 3 fret -4
+  plays better with harmonics 5, 11, 13 (and the 2nd-best 19)
 50 steps = 29 % 16 : str 4 fret -1
 55 steps = 31 % 16 : str 5 fret -5 | str 3 fret 8
-58 steps = 2 % 1   : str 4 fret 3
+  the next-best      14c error instead of -7c
+  located at         str 4 fret 2
+  plays better with harmonics 5, 11, 13, 29 (and the 2nd-best 19 and 23)
 ** 58 2 11: horrible major chords
  5 steps = 17 % 16 : str 1 fret -3 | str -1 fret 8
 14 steps = 19 % 16 : str 2 fret -4 | str 0 fret 7
@@ -734,7 +809,6 @@ the familiar septimal tritone (7:5)
 50 steps = 29 % 16 : str 4 fret 3
 55 steps = 31 % 16 : str 5 fret 0
 58 steps = 2 % 1   : str 6 fret -4
-** 58 2 15: 2 at 4:-1, great for 11-free 13-limit
 ** TODO 58 3 11: 31-lim 5x9. Awkward 9%8, 4%3.
    :PROPERTIES:
    :ID:       f54b7c5d-4de7-4e43-9f02-7b68e73d1560

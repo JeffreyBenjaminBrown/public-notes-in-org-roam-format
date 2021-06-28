@@ -1,0 +1,21 @@
+#+title: the do-calculus
+* refs
+** the blog post I read
+   https://www.inference.vc/untitled/
+** the comments of that blog post include lots of papers
+** a supposedly good intro I didn't read
+   https://arxiv.org/abs/1305.5506
+* purpose
+  Estimating interventional distributions from obsevational data -- i.e. from data in which one cannot intervene.
+* observational data does not explain causality
+* the "do operator" is one where someone forces one of the variables
+  For instance, you could (stupidly) force a barometer measurement by moving the needle. To understand that that would have no effect on pressure, which is correlated with the barometer reading, you would have to understand that pressure causes the reading, not vice-versa.
+* observational and interventional distributions
+  Given enough i.i.d. data, the observational distribution is completely estimable.
+  The interventional distribution is the distribution conditional on forcing one of the variables, and requires a causal understanding in addition to observational data.
+* causal and mutilated causal models
+  "Once we have a causal diagram, we can emulate the effect of intervention by mutilating the causal network: deleting all edges that lead into nodes in a do operator."
+  Each diagram is just a directed graph on variables in the distribution.
+* the causal model can sometimes be rejected, but never proven
+  Causal models imply relationships in the observed data.
+  A test of those relationships can reject the model.

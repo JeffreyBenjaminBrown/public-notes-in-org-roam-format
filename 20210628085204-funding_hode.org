@@ -1,0 +1,22 @@
+#+title: funding Hode
+* grants | funders for Hode
+** DARPA
+** prototype fund: https://prototypefund.de/en/
+** NSF: https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf21099
+   (via Jeremy)
+** Y Combinator has an "Apply as a Non-profit" button
+** A small European fund https://prototypefund.de/en/
+   $50K Euro grants
+* tailor its described purpose to the funder
+  Don't talk about everything it can do, much less all the ways it works. Talk about how it can achieve things a specific funder wants.
+* elevator pitch
+Even the elevator pitch for why it's valuable is kind of complicated, but here's that:
+
+Numerous corporations, most notably Google, have made truckloads of money with knowledge graphs. But knowledge graphs leave the majority of knowledge on the table, because it's unrepresentable, because it's higher-order. In a graph, edges connect nodes. Nothing can connect edges.
+
+Relationships in Hode can have any number of members (not just two, like in a graph) and those members can themselves be relationships. It can thus represent anything.
+
+Examples of important and irreducibly higher-order relationships include:
+
+- Conditionality and causality: (subject <verb> object) <if | because> (subject <verb> object)
+- Argument: (subject <verb> object) <supports | proves | contradicts ...> (subject <verb> object)

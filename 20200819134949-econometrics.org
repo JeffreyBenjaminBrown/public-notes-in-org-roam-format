@@ -1,2 +1,5 @@
 #+title: econometrics
+#+ROAM_ALIAS: inference statistics
 * [[file:20200825163418-multi_sample_estimation_econometrics.org][Multi-Sample Estimation (econometrics)]]
+* [[file:20210623075304-the_do_calculus.org][the do-calculus]]: estimating interventional distributions from obsevational data
+  i.e. from data in which one cannot intervene
