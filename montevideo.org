@@ -1,5 +1,30 @@
 #+TITLE: montevideo (music software)
 #+ROAM_ALIAS: mtv
+* TODO capture from the monome
+** TODO (many)
+*** test toMuseq
+*** test notes with missing starts
+*** move `record` and `stopRecording`
+    Currently they're in Monome.Interactive,
+    which means I can refer to them in the code indexed by cabal.
+*** monome button to start, stop recording
+*** quantize
+    User provides a total length L for the recording,
+    and a divisor D. The recording is quantized to L*D positions --
+    that is, each unit of time is divided into D pieces.
+    L must be rational.
+    D must be an integer.
+*** extract pitchset from recording
+    print that to some file,
+    so that I can copy it into Dispatch music without using the mouse.
+*** ? extract times from recording
+*** from Museq, extract scale, and another Museq using scale degrees
+    That is, suppose the initial Museq is on frequencies.
+    The product of scaleMuseq_fromMuseq would be a map from Int to freq,
+    and a new Museq on those Int indices, rather than on frequencies.
+*** monome buttons to trigger chords, recordings
+*** monome interface to transpose chords, recordings
+** goal: Capture synth state, chords, melodies.
 * TODO bugs?
 ** Use "on".
 *** Zot already does, via `onOffEnvelope`.
@@ -16,9 +41,6 @@
     If so, the comment about "on" at the top of
       mtv-synth/Montevideo/Synth.hs
     is stale.
-* TODO path, high-level
-** capture from the monome
-   Capture synth state, chords, melodies.
 * TODO a DSL
   in SmSn:
   * :AIqNamXJvFITlhnI:

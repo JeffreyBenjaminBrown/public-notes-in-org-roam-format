@@ -1,0 +1,15 @@
+#+title: tennis
+* tennis checklist
+** eat
+** coffee
+** stretch
+** crap
+** sunscreen
+** clothes
+** check traffic
+** bring gear
+*** headphones
+*** water
+*** hats
+*** sunscreen
+*** rackets, balls

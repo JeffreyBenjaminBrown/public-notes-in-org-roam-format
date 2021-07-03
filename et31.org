@@ -124,3 +124,4 @@ and between them play the dominant (major starting at 18) chord of the first.
 [273,215]
 *** in both 41- and 46-edo they're consecutive
 ** [[file:20210627203734-quartertone_free_cluster_free_ways_to_divide_a_fourth_in_24_edo.org][quartertone-free, cluster-free ways to divide a fourth in 24-edo]]
+* [[file:20210628173809-layouts_for_small_grid_controllers.org][my advice re. layouts for small grid controllers]]

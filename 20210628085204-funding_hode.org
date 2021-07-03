@@ -9,6 +9,12 @@
    $50K Euro grants
 * tailor its described purpose to the funder
   Don't talk about everything it can do, much less all the ways it works. Talk about how it can achieve things a specific funder wants.
+* domains where Hode could usefully apply
+** search
+*** the fake news problem
+*** (academic) research
+** social networking (ala Wikipedia + Twitter)
+** AI
 * elevator pitch
 Even the elevator pitch for why it's valuable is kind of complicated, but here's that:
 

@@ -1,0 +1,9 @@
+#+title: layouts for small grid controllers
+* my advice
+  I like redundancy in my layouts, so that notes at the top of the board are the same as the ones on the bottom. Without that you find yourself reaching for some really hard chords, if you're playing with one hand.
+The 5\31 x 1\31 layout for 31-edo is intuitive, and gives you an octave and a fourth across a single row (more than an octave and a fifth from one diagonal to the other).
+  19-edo and 22-edo spaced in 3rds are even more playable. For 22-edo that's 7\22 x 1\22, and for 19-edo it's 6\19 x 1\19. They're nearly identical layouts, and they'll give you more than two octaves across a single row. That's also almost exactly the Kite guitar layout, 13\41 x 2\41. That's a fantastic-sounding edo, and you'll have the same range, but you won't be able to play in every key (you'd need a grid that's 13 rows high to do that).
+  For edos below 31 you've got lots of freedom. Layouts that work on a small board are harder to work out for edos greater than, say, 27.
+  Surprisingly, there's a layout for 58-edo[1] that'll give you almost two octaves on that board. Again it won't let you play in every key though.
+  If you've only got one board for both hands, then layouts with zero redundancy are very playable mechanically, but still difficult cognitively, because the fingering for a given chord depends on the key. But if you want access to all the notes and to have as big a range as possible, then no matter your edo E, the natural layout would be 8\E x 1\E.
+  [1] https://en.xen.wiki/w/Skip_fretting_system_58_2_15
