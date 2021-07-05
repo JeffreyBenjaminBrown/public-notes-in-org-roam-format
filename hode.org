@@ -1,9 +1,9 @@
 #+TITLE: Hode
-* [[file:20210628085204-funding_hode.org][funding Hode]]
 * DISCLAIMER: This document is
 not really intended to be understood by anybody but myself.
 For documentation, please see the README.md file.
 If that's not enough, check out the docs/ folder.
+* [[file:20210628085204-funding_hode.org][funding Hode]]
 * PTIFALL: stack gchi: if no libraries are available
 https://github.com/commercialhaskell/stack/issues/5037
 This will load all non-broken modules when some are broken.

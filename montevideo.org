@@ -4,6 +4,7 @@
 ** TODO (many)
 *** test toMuseq
 *** test notes with missing starts
+*** light up the record button when it's on
 *** move `record` and `stopRecording`
     Currently they're in Monome.Interactive,
     which means I can refer to them in the code indexed by cabal.
