@@ -1,4 +1,5 @@
-#+title: organizing everyone's knowledge
+#+title: knowledge, organizing everyone's
+#+ROAM_ALIAS: epistemology information
 * the Underlay Project at MIT
   :PROPERTIES:
   :ID:       786ae678-e723-4c9f-b924-e54d7b3b1837
@@ -6,3 +7,4 @@
   https://notes.knowledgefutures.org/pub/si1okbw9/release/9
 * C2PA: Content Authorship Alliance
 * [[file:hode.org][Hode]]
+* [[file:20210705142617-conspiracies_edward_snowden_on.org][conspiracies, Edward Snowden on]]
