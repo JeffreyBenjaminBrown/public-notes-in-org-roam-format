@@ -767,10 +767,13 @@ the familiar septimal tritone (7:5)
    44 steps; 27 % 16 ; string 2 ; fret 7
    50 steps; 29 % 16 ; string 4 ; fret - 5
    55 steps; 31 % 16 ; string 3 ; fret 5
-** TODO 58 2 13: octave (4,3), 15-lim 4x7, 31-lim 5x10
+** 58 2 13: octave (4,3), 15-lim 4x7, 31-lim 5x10
    :PROPERTIES:
    :ID:       3d0440f4-ef24-4ada-b75c-9ba23f7702a1
    :END:
+*** the layout is (basically) dominated by 58 2 15
+    This one has a slightly smaller 15-limit brick: 4x7 < 4x8
+    But the other has better octaves and a better 15:8.
 *** it's a 29-edo guitar, at which point, why not just use 31.
 *** primes through 13 + easy higher primes
 58 steps =  2 % 1  : str 4 fret 3
