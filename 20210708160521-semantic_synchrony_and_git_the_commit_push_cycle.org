@@ -1,0 +1,23 @@
+#+title: Semantic Synchrony and Git: the commit-push cycle
+#+ROAM_ALIAS: git-smsn
+* PITFALL: DON'T PULL until committing.
+* Write to VCS.
+  C-c  C-w  r
+* Run "lost-nodes.sh"
+* Delete things.
+  cd /home/jeff/Encfs/kb-no-encfs/vcs
+  grep "^@title \[delete" -r . > to-delete.txt
+  Then look at each line of that file from within SmSn.
+* Use magit to commit
+  after loading each of these files, run magit
+** ~/Encfs/kb-no-encfs/vcs/public/001IGm9ypXayWoiA.smsn
+** ~/Encfs/kb-no-encfs/vcs/universal/ZC9qvo57MpCv7Si2.smsn
+** ~/Encfs/kb-no-encfs/vcs/personal/HSn5Vb7ERrybcWZU.smsn
+** ~/Encfs/kb-no-encfs/vcs/private/5BsOZge3XkSvLNsL.smsn
+** ~/Encfs/kb-no-encfs/vcs/observatorio/VFkwsk7AQFUAwRMN.smsn
+* pull, then push
+* stop SmSn
+* delete the old repo
+* restart SmSn
+* read from VCS
+  C-c  C-r  c

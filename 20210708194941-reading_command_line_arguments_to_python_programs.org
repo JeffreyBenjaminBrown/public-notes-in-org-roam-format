@@ -1,0 +1,14 @@
+#+title: reading command-line arguments to Python programs
+import sys
+
+if True:
+  if sys.argv == ['']:
+    print( "We are in the REPL." )
+  else:
+    print( "`python` is evaluating a program from the command line." )
+    print( "The program name is " + sys.argv[0] )
+    if len(sys.argv) > 1:
+      print( "The 1st command-line argument given was: " + sys.argv[1] )
+      if len(sys.argv) > 2:
+        print( "The 2nd command-line argument given was: " + sys.argv[2] )
+        # etc.

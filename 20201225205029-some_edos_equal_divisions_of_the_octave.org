@@ -66,6 +66,7 @@ Pr.pPrint ( take 30 $ drop 90
 * some favorites, ordered by preference (at least at the top)
   for reference, 31-limit (46 1 9) => 5x7
 ** TODO [[id:211b5788-6ee2-4298-8f04-b3d9ed7358a7][90 5 17: 13-lim +19.25.27 5x6, octave (5,1), 31-lim 7x12]]
+** TODO [[id:f1c002e1-f05c-474a-b19c-eec0dee222ee][72 27 2: 31-limit sans 21:16 in 3x15]] (guitar!)
 ** TODO [[id:d45e7329-7321-4e6f-b43e-0ac4fb85ff3b][65 8 11: 15-lim 0-area 5x6, weird backward 5:4, balanced octave (3,4)]]
 ** TODO [[id:c88e7526-3993-4cae-95fb-63102f75d7c0][63 6 13: 10.5-edo frets, 15-lim 0-area 4x8 (4x5 sans 11), balanced octave (3,4)]]
 ** TODO [[id:69766233-ba73-497c-8408-6e6f857119bc][58 5 8: 15-lim 6x6, perfectly (50%) balanced octave]]
@@ -508,12 +509,44 @@ the familiar septimal tritone (7:5)
   22 steps; 11 % 8 ; string 2 ; fret 0
   34 steps; 13 % 8 ; string 2 ; fret 6
   44 steps; 15 % 8 ; string 4 ; fret 0
-** 48 2 13
- One way to play 48-edo on a 24-edo guitar is to tune each pair of adjacent strings 13\48 apart. (That's 325 cents, a bit sharp of 6:5.)
-
- 48-edo improves on 24-edo's 5:4 a little, its 7:4 a lot, and its 23:16 and 29:16 enormously. Among the possible skip-frettings for 48-edo, this one is especially convenient in that every 11-limit ratio spans at most 3 frets. In fact, so does every ratio in the 2.3.5.7.11.29 group.
-
- Here is where all the primes intervals lie. From these, the location of any other interval can be added by summing the string-fret positions of its factors as vectors. So, for instance, since 3%2 lies at (string 2, fret 1) and 5%4 lies at (string 1, fret 1), their product 15%8 lies at (string 3, fret 2).
+** 48 2 13: 15-lim 4x6, 31-lim 4x9
+This is on the Xen Wiki.
+0 steps = 1 % 1	string 0 fret 0
+48 steps = 2 % 1	string 4 fret -2
+28 steps = 3 % 2	string 2 fret 1
+15 steps = 5 % 4	string 1 fret 1
+39 steps = 7 % 4	string 3 fret 0
+22 steps = 11 % 8	string 2 fret -2
+34 steps = 13 % 8	string 2 fret 4
+4 steps = 17 % 16	string 0 fret 2
+12 steps = 19 % 16	string 0 fret 6
+25 steps = 23 % 16	string 1 fret 6
+41 steps = 29 % 16	string 3 fret 1
+46 steps = 31 % 16	string 4 fret -3
+** 48 2 15: 15-lim 2x13 or 3x10
+   0 steps; 1 % 1  ; string 0 ; fret 0
+  48 steps; 2 % 1  ; string 2 ; fret 9
+		   ; string 4 ; fret -6
+  28 steps; 3 % 2  ; string 2 ; fret - 1
+  15 steps; 5 % 4  ; string 1 ; fret 0
+  39 steps; 7 % 4  ; string 1 ; fret 12
+		   ; string 3 ; fret -3
+   8 steps; 9 % 8  ; string 0 ; fret 4
+  22 steps; 11 % 8 ; string 0 ; fret 11
+		   ; string 2 ; fret -4
+  34 steps; 13 % 8 ; string 2 ; fret 2
+** 48 2 19: 13-lim 3x14 or 2x16
+ 0 steps; 1 % 1 ;	string 0 ; fret 0
+ 48 steps; 2 % 1 ;	string 2 ; fret 5
+ 28 steps; 3 % 2 ;	string 0 ; fret 14
+			 string 2 ; fret -5
+ 15 steps; 5 % 4 ;	string 1 ; fret - 2
+ 39 steps; 7 % 4 ;	string 1 ; fret 10
+			 string 3 ; fret -9
+ 8 steps; 9 % 8 ;	string 0 ; fret 4
+ 22 steps; 11 % 8 ;	string 0 ; fret 11
+			 string 2 ; fret -8
+ 34 steps; 13 % 8 ;	string 2 ; fret - 2
 * 49-edo -- sharp system, 5:2 is 8c sharp
 ** 49 5 8: 15-lim 3x5, octave (3,5)
     , etrArea = 35
@@ -1134,6 +1167,43 @@ octave 3:	(-7,34)
     { etrEdo = 65
     , etrTuning = Edo 65 ; StringGap 11 ; FretGap 8
     , etrArea = 30
+* TODO 72-edo
+** 72 27 2: 31-limit sans 21:16 fits in 3x15
+   :PROPERTIES:
+   :ID:       f1c002e1-f05c-474a-b19c-eec0dee222ee
+   :END:
+   This is on the Xen Wiki.
+*** tuning the guitar to it
+    Use 218.5 and 224.9 Hz.
+    string 6 = (down F) to string 1 = (Eb)
+**** Why (the math)
+***** 218.5 * 2**(1/24) to 1 decimal place is close to round.
+     > 218.5 * 2**(1/24) :: Float
+     224.90254
+***** Total range will be (4.5\12)*5 = 22.5 \ 12
+      That would give low (E) to high (down Eb),
+      or low (down F) to a high (Eb),
+      or low (F) to high (down E).
+*** where the intervals lie
+   The 13-limit fits in 2x15.
+  0 steps;  1 % 1 ;  string 0 ; fret 0
+ 72 steps;  2 % 1 ;  string 2 ; fret 9
+ 42 steps;  3 % 2 ;  string 2 ; fret - 6
+ 23 steps;  5 % 4 ;  string 1 ; fret - 2
+ 58 steps;  7 % 4 ;  string 2 ; fret 2
+ 12 steps;  9 % 8 ;  string 0 ; fret 6
+ 33 steps; 11 % 8 ;  string 1 ; fret 3
+ 50 steps; 13 % 8 ;  string 2 ; fret - 2
+ 65 steps; 15 % 8 ;  string 3 ; fret -8
+  6 steps; 17 % 16 ; string 0 ; fret 3
+ 18 steps; 19 % 16 ; string 0 ; fret 9
+ 28 steps; 21 % 16 ; string 0 ; fret 14 -- or bend at fret 0
+                     string 2 ; fret -13
+ 38 steps; 23 % 16 ; string 2 ; fret -8
+ 46 steps; 25 % 16 ; string 2 ; fret -4
+ 54 steps; 27 % 16 ; string 2 ; fret 0
+ 62 steps; 29 % 16 ; string 2 ; fret 4
+ 69 steps; 31 % 16 ; string 3 ; fret -6
 * 74: super-tight meantone
 Its worst harmonic is 3/2, at -4.7c error.
 > myPrint $ bests 74
