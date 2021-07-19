@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       033e7ada-6e35-4a9f-b58f-0be9f60b9439
+:END:
 #+title: Members of a Species Are Similar
 Human DNA sequences, for instance, are around 99.8% similar.

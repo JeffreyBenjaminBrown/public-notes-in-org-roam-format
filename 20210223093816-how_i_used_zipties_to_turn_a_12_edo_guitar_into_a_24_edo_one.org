@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       e2180862-c11c-4125-b50b-a4102724011f
+:END:
 #+title: How I used zipties to turn a 12-edo guitar into a 24-edo one
 * posted to Facebook
   https://www.facebook.com/groups/110164742335730/permalink/4109792902372874/

@@ -1,10 +1,13 @@
+:PROPERTIES:
+:ID:       3a339ba8-2e3a-4285-88c5-d9926f2df920
+:END:
 #+title: Putting DNA Reads Together
 * Reads are short.
 Reads are on the order of 100s of bases long.
 A human gene is on the order of 1000s, and we have 25K-ish genes.
 * Sometimes we can use "reference genomes".
-because [[file:20200729191112-members_of_a_species_are_similar.org][Members of a Species Are Similar]].
+because [[id:033e7ada-6e35-4a9f-b58f-0be9f60b9439][Members of a Species Are Similar]].
 * Don't forget that the reads can come from either strand.
 For this reason, try matching against both the read and the read's complement.
-* The [[file:20200729191553-read_alignment_problem.org][Read Alignment Problem]]
-* The [[file:20200729191627-assembly_problem.org][Assembly Problem]]
+* The [[id:dc4de632-d7dd-4f1c-9d76-4b2184c8c33c][Read Alignment Problem]]
+* The [[id:3f780680-b759-4db0-a62b-939cbed9b4fc][Assembly Problem]]

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a614de76-2f03-4cd3-86df-7329e22f850e
+:END:
 #+title: Boyer-Moore Exact Matching Algorithm (Computer Science)
 * the algorithm
 ** Reverse the inner order.

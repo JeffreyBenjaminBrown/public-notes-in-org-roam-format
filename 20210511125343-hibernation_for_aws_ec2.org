@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4e174852-e887-4a8b-a2ab-6a9ea6718f31
+:END:
 #+title: hibernation for AWS EC2
 * some data might not be saved
   "When you hibernate your instance, the data on any instance store volumes is lost. Learn more about Amazon EC2 instance store" at https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html?icmpid=docs_ec2_console

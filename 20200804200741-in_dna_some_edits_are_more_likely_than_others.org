@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       49d6af05-cd0b-4011-a28d-c13af9559f8a
+:END:
 #+title: In DNA, Some Edits Are More Likely Than Others.
 * "Transitions" convert A <-> G or C <-> T.
 * Transitions and transversions partition the space of base substitutions.

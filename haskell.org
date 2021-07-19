@@ -1,4 +1,7 @@
 * cool GHCI options
+  :PROPERTIES:
+  :ID:       c5d8df4b-5c6e-431c-9d71-9b304e15fe19
+  :END:
 ** GHCI config file: run :set by hand less
 https://typeclasses.com/ghci/config
 ** +s – Display statistics about time and memory usage after each evaluation.

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       57c6f456-dfd1-4797-a4ce-db2d82cb726e
+:END:
 #+title: HTTP method
 * "get" methods encode the submission as plain text
 """

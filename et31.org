@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       97e78830-11c4-4736-afc3-4669fd94ee2e
+:END:
 #+TITLE: microtonality
 * microtonal instruments, including electronic
-** [[file:20201220182532-microtonal_guitar.org][microtonal guitar]]
-** [[file:20210513194903-manual_dynamically_adjusted_edo_musical_instrument_idea.org][manual dynamically adjusted EDO (musical instrument idea)]]
+** [[id:0fb050fc-28b8-48a6-914b-6d5970490d46][microtonal guitar]]
+** [[id:660cb0bc-e76c-48b6-844a-7ce352dc8067][manual dynamically adjusted EDO (musical instrument idea)]]
 * TODO list kinds of harmonic thinking applicable to 46-et
   by limit
   by symmetry
@@ -27,10 +30,10 @@ http://x31eq.com/temper/net.html
     [0.502, -4.387, 1.950, 0.326, -7.649, 12.949⟩ -- 13-lim
   Without octave stretch:
     [0.000, -5.181, 0.783, -1.084, -9.382, 11.085⟩
-* [[file:20200618194950-bosanquet_mapping_for_equal_temperaments.org][Bosanquet mapping for equal temperaments]]
-* [[file:20201225205029-some_edos_equal_divisions_of_the_octave.org][some edos (equal divisions of the octave)]]
+* [[id:668d2b62-9e8c-4db9-8bb5-1a552ffa4c33][Bosanquet mapping for equal temperaments]]
+* [[id:80068e27-a77e-4d73-b762-235ec2cc6de4][some edos (equal divisions of the octave)]]
 * microtonal notation
-** [[file:20210131171849-46_edo_notation.org][46-edo notation]]
+** [[id:a7586f73-d137-4ed3-8c58-a24675675f60][46-edo notation]]
 * some ways to build scales
 ** a stack of the same interval
 ** multiple misaligned stacks
@@ -101,7 +104,7 @@ but holding the fifth degree (18/31) from the first,
 and between them play the dominant (major starting at 18) chord of the first.
 ** in 22-edo, start from septimal min maj 7, then raise 3rd and lower 7th by a microtone many times
    That is, start with 0 5 13 20
-* [[file:20200827195612-thanos_tunings.org][Thanos (Kite-Ish) Tunings]]
+* [[id:54dd7d84-d721-4132-9522-aae386f18fdb][Thanos (Kite-Ish) Tunings]]
 * Just chords
 ** 9 11 13 = diminished
    A little wider than 5 6 7 = 10 12 14
@@ -123,5 +126,5 @@ and between them play the dominant (major starting at 18) chord of the first.
 > tail $ zipWith (-) x (1:x)
 [273,215]
 *** in both 41- and 46-edo they're consecutive
-** [[file:20210627203734-quartertone_free_cluster_free_ways_to_divide_a_fourth_in_24_edo.org][quartertone-free, cluster-free ways to divide a fourth in 24-edo]]
-* [[file:20210628173809-layouts_for_small_grid_controllers.org][my advice re. layouts for small grid controllers]]
+** [[id:1cfa5cfb-c951-4483-bb7a-9f87c908a026][quartertone-free, cluster-free ways to divide a fourth in 24-edo]]
+* [[id:4d2aa565-643a-4974-b980-618fc66f8420][my advice re. layouts for small grid controllers]]

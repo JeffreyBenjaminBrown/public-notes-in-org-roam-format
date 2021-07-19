@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       40b6732e-6a33-4dd3-808d-f88176b89032
+:END:
 #+title: Distance Measures On The Space Of Sequences
 * ways sequences can differ
 ** mismatch|substitution

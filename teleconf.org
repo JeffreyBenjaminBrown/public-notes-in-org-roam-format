@@ -1,4 +1,7 @@
 * in general
+  :PROPERTIES:
+  :ID:       45c87943-c038-4ca6-b03a-dcff3dbe7e1e
+  :END:
 Use the external mic.
 It's called AK-something.
 In Alsamixer use F6 to switch between the mic and the default interface,

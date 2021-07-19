@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       c1bce8f8-db3d-4fb7-b8ee-5508ef638bb7
+:END:
 #+title: Michigan Office of the Great Seal
 Is part of the Secretary of State's office.
-* Involved in the [[file:20200827113154-apostille_process.org][apostille process]].
+* Involved in the [[id:0e2d1a5d-a682-459e-b762-ffc469824ff1][apostille process]].
 * [[id:e20f25f5-a63f-4987-9869-cf70c29934ec][This phone number worked well]].
 * top of the OGS website
 This is a sub-domain of the SOS website.

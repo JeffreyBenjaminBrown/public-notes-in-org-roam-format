@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       79287a5a-dd30-4de7-bce9-3d02fc6c858a
+:END:
 #+title: learning and thinking
-* [[file:20200617184103-usingsp.org][How to think using spaced repetition.]]
+* [[id:dde6522f-6bd1-489b-bd82-5c3315f54ca6][How to think using spaced repetition.]]

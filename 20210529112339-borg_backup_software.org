@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       927c1e3d-410e-4556-a1f5-560791950164
+:END:
 #+title: Borg (backup software)
 * how to test a copy of a borg repo
 ** the problem

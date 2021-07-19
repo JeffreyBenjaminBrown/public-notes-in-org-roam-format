@@ -1,4 +1,6 @@
+:PROPERTIES:
+:ID:       307ce02a-9d50-4c9f-8018-f4d4b21a8c71
+:END:
 #+title: retrie (Haskell refactoring tool)
 * Some comments on names, variables, and namespaces
 https://github.com/facebookincubator/retrie/issues/12#issuecomment-656418227
-

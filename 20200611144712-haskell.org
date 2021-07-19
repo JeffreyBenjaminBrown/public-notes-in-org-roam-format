@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       95482136-f7ed-4203-b974-961e9624737c
+:END:
 #+title: haskell
 * Generate lenses for third-party libraries in Haskell
 [[file:tech/20200611144339-lens_for_external_library.org][lens for external library in Haskell]]

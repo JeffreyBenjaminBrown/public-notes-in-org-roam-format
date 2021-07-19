@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       b2a88e6f-6481-4b4d-9645-fe3376345f01
+:END:
 #+title: Claro-hogar-internet
 * TODO canceling claro for 402 Urapanes
 ** DONE

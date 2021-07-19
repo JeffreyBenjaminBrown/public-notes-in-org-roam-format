@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ddb8edf6-94c8-49cf-8b8e-872ef301a485
+:END:
 #+TITLE: NixOS
 * TODO fix my dependencies in jbb-config/custom-packages
   Because things change in Nixos 21.05:
@@ -23,9 +26,9 @@
 *** The solution was to add an ellipsis:
       {config, lib, pkgs, options, modulesPath, ...}:
     "so that unknown arguments are ignored".
-* [[file:20200707160119-nixos_my_config.org][NixOS, my config]]
-* [[file:20201110140636-nixos_reinstalling.org][NixOS, installing]]
-* [[file:20210608184848-nixos_how_to_upgrade.org][NixOS, how to upgrade]]
+* [[id:48cdd2bf-b45b-44a7-b7f8-43cbf73fa7b8][NixOS, my config]]
+* [[id:53cafeca-3de3-4f04-be36-3fdcb04a4d55][NixOS, installing]]
+* [[id:ac6d4247-4880-4740-9aa3-0407f4d8b397][NixOS, how to upgrade]]
 * sudo nix-collect-garbage -d
   The -d clears out all the older configurations.
 * REFERENCES

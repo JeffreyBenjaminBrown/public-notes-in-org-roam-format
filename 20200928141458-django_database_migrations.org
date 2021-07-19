@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       00520a84-5c49-4244-b8fa-27c5bdc9b1a6
+:END:
 #+title: Django Database Migrations
 * run `python manage.py makemigrations <app-name>`
 THis writes a "migration",

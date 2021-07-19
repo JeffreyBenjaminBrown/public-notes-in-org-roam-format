@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       f6036dfe-2338-4f5f-adbb-19178764b16b
+:ROAM_ALIASES: "install linux"
+:END:
 #+TITLE: linux, how to reinstall
-#+ROAM_ALIAS: "install linux"
 * TODO PITFALL: Don't keep more than one USB drive plugged in at once
 when doing big write ops.
 November 2020 I did that, tried to write NixOS 20.09 onto one of them,

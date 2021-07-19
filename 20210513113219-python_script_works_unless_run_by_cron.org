@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       2c7ecfe3-e99b-46a5-95b2-984ada04f2a0
+:END:
 #+title: Python script works unless run by cron
 * SOLVED, I think
   see commit acff3950de6225168c6d3f431ca17e7ec797c7c8

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       53cafeca-3de3-4f04-be36-3fdcb04a4d55
+:END:
 #+title: NixOS, installing
 * CONTEXT
 This regards installing from scratch, not upgrading.

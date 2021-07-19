@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4996a860-913b-4a43-aa92-0efdce3e322b
+:END:
 Optics by Example, by Chris Penner
 * RESUME at
 p. 57 (in the Ctrl-G sense),

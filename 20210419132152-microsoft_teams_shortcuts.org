@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4e3cfc01-d528-49d9-bf3d-858c1979d71c
+:END:
 #+title: Microsoft Teams shortcuts
 * toggle mic: C-S-m
 * toggle camera: C-S-o

@@ -1,11 +1,14 @@
+:PROPERTIES:
+:ID:       a1d4888a-53dc-4559-bd21-081b287e22c4
+:END:
 #+title: 2nd Gen DNA Sequencing
-"It spies on [[file:20200729182439-how_dna_is_copied.org][How DNA Is Copied]]."
+"It spies on [[id:ee507cf3-a967-40b2-9c53-18ca7c484655][How DNA Is Copied]]."
 * the process
 ** basically
 Chops up the DNA into short single-strand subsets,
 and puts them on a flat surface (billions on a single slide),
 scattered randomly.
-Then add DNA polymerase, and [[file:20200729181910-terminated.org][terminated bases]].
+Then add DNA polymerase, and [[id:9648d682-4f6f-47f2-bd74-ed84f979d28c][terminated bases]].
 Then take a photo.
 Then cleave the terminators (leaving the once-terminated bases in place)
 and repeat.
@@ -17,7 +20,7 @@ This is to ensure enough light to show up in a photo.
 ** The problem
 causes that strand to get "out of sync" with the others.
 It will one position ahead of schedule if it received only one non-terminated base.
-** The solution: [[file:20200729183356-base_caller_software.org]["Base Caller" Software]]
+** The solution: [[id:d052fcbb-b2c5-4ec2-b460-62928059220a]["Base Caller" Software]]
 * The reads will vary in length.
 * Reads that "should" be identical can differ.
 both due to sequencing error, and because of polyploidy --

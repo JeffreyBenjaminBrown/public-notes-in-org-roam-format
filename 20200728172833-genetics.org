@@ -1,15 +1,18 @@
+:PROPERTIES:
+:ID:       16127b31-70f5-4098-a5c1-1df7cfc93128
+:ROAM_ALIASES: "algorithms for DNA sequencing"
+:END:
 #+title: bioinformatics
-#+ROAM_ALIAS: "algorithms for DNA sequencing"
 * a JHU course
 http://www.langmead-lab.org/teaching-materials/
 ** finished
 I finished the Coursera videos.
 ** resume here
 https://www.youtube.com/watch?v=hLsrPsFHPcQ
-* [[file:20200729182550-2nd_gen_dna_sequencing.org][2nd Gen DNA Sequencing]]
-** [[file:20200809183832-aim_for_longer_reads_bioinformatics.org][We are aiming for longer reads.]]
-* [[file:20200729184324-the_fastq_format_genetics.org][The FASTQ Format (Genetics)]]
-* [[file:20200729191509-putting_dna_reads_together.org][Putting Dna Reads Together]]
-* [[file:20200803192641-repetitive_sequences_make_dna_sequencing_difficult.org][Repetitive sequences make DNA sequencing difficult.]]
+* [[id:a1d4888a-53dc-4559-bd21-081b287e22c4][2nd Gen DNA Sequencing]]
+** [[id:87f4f1e8-bf6b-4bd3-89ff-bb431bcc94fc][We are aiming for longer reads.]]
+* [[id:e08a10f3-06c1-4997-923c-7c1a6b051e76][The FASTQ Format (Genetics)]]
+* [[id:3a339ba8-2e3a-4285-88c5-d9926f2df920][Putting Dna Reads Together]]
+* [[id:b38b3415-5459-4b9d-a290-6be345ebb471][Repetitive sequences make DNA sequencing difficult.]]
 * TODO things I didn't understand
-** [[file:20200804195858-using_dynamic_programming_for_approximate_matching.org][Using Dynamic Programming For Approximate Matching]]
+** [[id:d404ba22-f828-4f95-be6c-8b64fe7ed7b7][Using Dynamic Programming For Approximate Matching]]

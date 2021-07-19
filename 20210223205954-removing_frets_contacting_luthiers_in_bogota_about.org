@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4a2d3aa0-b317-4bf1-ac51-ba8c60b300dc
+:END:
 #+title: removing frets: contacting luthiers in Bogota about
 * message
   Quisiera quitar los trastes de una guitarra acústica y llenar los huecos resultantes con algo negro. Como el cuello es de color cafe, un material negro sería visible pero no muy obvio, lo cual es justo lo que necesito. Ustedes lo harían?

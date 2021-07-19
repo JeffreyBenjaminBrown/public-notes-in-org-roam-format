@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       915c9717-9f3b-43c3-b9d3-56eb881f8600
+:END:
 #+title: Londoño-Vélez And Ávila-Mahecha 2018: "Can Wealth Taxation Work In Developing Countries? Quasi-Experimental Evidence From Colombia"
 * some terms
 ** tax avoidance is legal

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       1cfa5cfb-c951-4483-bb7a-9f87c908a026
+:END:
 #+title: quartertone-free, cluster-free ways to divide a fourth in 24-edo
    where a cluster is any 3 tones spanning 2\12 or less
    0             2.5            5

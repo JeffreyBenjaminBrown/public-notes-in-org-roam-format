@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       95a4cabf-a371-4e6d-806d-55521422f226
+:END:
 #+title: mtv-ji
 * TODO make a table of many thanos reports
 ** TODO add harmonic justice to the report

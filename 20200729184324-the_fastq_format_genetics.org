@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       e08a10f3-06c1-4997-923c-7c1a6b051e76
+:END:
 #+title: The FASTQ Format (Genetics)
 * what's in it
 ** Each group of four lines is a "read".

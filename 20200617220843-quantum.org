@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       8bcfda55-5ab3-4083-9a37-2a01eb216dc4
+:END:
 #+title: quantum physics
 * to learn it
 ** Quantum Country, a free online interative platform

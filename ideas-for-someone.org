@@ -1,8 +1,10 @@
 * TODO Spotify for the news
+  :PROPERTIES:
+  :ID:       6dfea625-1204-4980-992c-58c1bd17df81
+  :END:
 
 https://news.ycombinator.com/item?id=22178626
 * messaging apps should make it hard to send to the wrong target
 Optionally, enable any of
 - ask sender to verify the recipient(s) before sending
 - use recipient as background (lightly) to message while writing it
-

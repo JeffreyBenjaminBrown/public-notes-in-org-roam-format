@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       424cea04-5013-4547-8e24-65522ab90c56
+:END:
 #+title: vertigo (Emacs package)
 I think I prefer avy.
 * what it does

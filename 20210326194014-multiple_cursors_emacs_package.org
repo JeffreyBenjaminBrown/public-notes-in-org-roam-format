@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       390f0d15-8ad0-407e-961f-035ee4816498
+:END:
 #+title: multiple cursors (Emacs package)
 * commands
 ** mc/edit-(ends-of)-lines

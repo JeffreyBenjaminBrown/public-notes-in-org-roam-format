@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       7863cf17-0940-4663-82b2-2a22b3878f1c
+:END:
 #+title: funding Hode
 * grants | funders for Hode
 ** DARPA

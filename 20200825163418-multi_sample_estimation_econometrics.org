@@ -1,20 +1,23 @@
+:PROPERTIES:
+:ID:       51b591db-dbc7-460f-9066-075c21fafc77
+:END:
 #+title: Multi-Sample Estimation (econometrics)
 * leads
 ** papers to investigate
-*** [[file:20200820210719-ridder_g_and_moffitt_r_2007_the_econometrics_of_data_combination_chapter_75_of_handbook_of_econometrics_volume_6b_5470_5513.org][Ridder, G And Moffitt, R. 2007. The Econometrics Of Data Combination. Chapter 75 Of Handbook Of Econometrics, Volume 6b, 5470-5513.]]
+*** [[id:b42fa7aa-5def-461e-bf47-5c872321af63][Ridder, G And Moffitt, R. 2007. The Econometrics Of Data Combination. Chapter 75 Of Handbook Of Econometrics, Volume 6b, 5470-5513.]]
 *** Imbens, GW and Lancaster, T. (1994). Combining Micro and Macro Data in Microeconometric Models. The Review of Economic Studies, 61(4), 655-680.
 *** Chatterjee et al 2016: multi-sample MLE
  Chatterjee, N, Chen, YH, Maas, P, and Raymond J. Carroll, RJ. (2016). Constrained Maximum Likelihood Estimation for Model Calibration Using Summary-Level Information From External Big Data Sources. Journal of the American Statistical Association, 111(513), 107-117.
 *** Tang et al. 2017: multi-sample GMM
  Tang, R, Kundu, P, and Chatterjee, N. (2017). Generalized Meta-Analysis for Multivariate Regression Models Across Studies with Disparate Covariate Information. arXiv:1708.03818v1.
 ** DONE some people|places I asked about it
-*** I'm emailing [[file:../pers/20200724152805-robert_mcclelland.org][Robert McClelland]] at TPC about it.
+*** I'm emailing [[id:9fdcca3a-525d-441e-8350-521f0e35dca9][Robert McClelland]] at TPC about it.
  They use old data (2011), on the theory that the US was closest to its steady state at that time. They update it according to aggregate GDP changes.
 *** I asked JW and GS
 *** I asked on Cross-Validated
  https://stats.stackexchange.com/questions/478492/out-of-sample-updating-applying-an-estimated-rate-of-change-from-one-sample-to
 ** had a useful literature section on multi-sample estimation
- [[file:20200819154904-d_souza_wang_and_hao_2018.org][D'souza, Wang And Hao 2018]]
+ [[id:2a2d2ab7-8b1f-4f21-847d-bffae7aa324e][D'souza, Wang And Hao 2018]]
 * two-sample istrumental variables (2SIV)
 ** two-sample two-stage least squares (2S2SLS)
 Whereas IV = 2SLS, 2SIV /= 2S2SLS.

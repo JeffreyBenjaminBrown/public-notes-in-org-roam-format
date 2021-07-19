@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       5dd27b65-8dba-4c85-82f2-fad3464b3462
+:END:
 #+title: Emacs, mostly packages
 * TODO Emacs: how to override elpy's C-c C-d?
 (require 'org) ;; so that the next line knows what org-mode-map is
@@ -94,7 +97,7 @@
       /(e.g. maybe `M-x customize-group hes-mode`).
     Apparently also available from GNU itself (per package-list-packages) but I don't know how to use such packages in my emacs.nix file.
 * DONE ? I probably prefer something else
-** [[file:20210325221736-vertigo_emacs_package.org][vertigo]]
+** [[id:424cea04-5013-4547-8e24-65522ab90c56][vertigo]]
 ** helm-swoop
    Split-pane text search.
    Turns out I don't look at the pane of search results.
@@ -114,13 +117,13 @@
    undo-tree-visualize			-- first enable undo-tree-mode
    undo-tree-diff			-- or 'd' from in it
    undo-tree-visualizer-timestamps	-- or 't' from in it
-** [[file:20210326150807-ace_window_emacs_package.org][ace-window (Emacs package)]]
+** [[id:e217215b-88ef-4a18-a96b-1b17272fe86b][ace-window (Emacs package)]]
 ** block-nav
    If I decide I don't like that, try emacs-spatial-navigate:
    https://gitlab.com/ideasman42/emacs-spatial-navigate
 ** iflipb: change buffers fast
 ** goto-last-change
-** [[file:20210326092035-ctrlf_emacs_package.org][ctrlf]] : text search
+** [[id:ad6bd612-dd7b-4185-bd04-e2aade240c4c][ctrlf]] : text search
 ** restart-emacs
 ** DONE internalized
 *** mwim
@@ -128,7 +131,7 @@
     Installed via Melpa\Nix.
     The only thing it defined is rainbow-delimiters-mode -- it didn't define rainbow-delimiters-faces or
 *** linum-relative (elpa)
-*** [[file:20210326194014-multiple_cursors_emacs_package.org][multiple cursors (Emacs package)]]
+*** [[id:390f0d15-8ad0-407e-961f-035ee4816498][multiple cursors (Emacs package)]]
 * remember, commands
 ** M-m: first non-whitespace char in line
 ** C-c C-(f/b): org next/previous same level

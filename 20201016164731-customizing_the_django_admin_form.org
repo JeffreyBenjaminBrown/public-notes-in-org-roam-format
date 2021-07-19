@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       21081db3-e9ef-40bc-bd85-2676e4b25da6
+:END:
 #+title: Customizing The Django Admin Form
 * refs
 ** For most of my notes:

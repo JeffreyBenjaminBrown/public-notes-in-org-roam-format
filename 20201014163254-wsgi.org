@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       13bdbc64-b271-44f7-a09f-27ce4c1cb590
+:END:
 #+title: wsgi and mod_wsgi
 * refs
 ** my working config

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       80bcc1ee-7dc5-4464-a535-b19f6d7ce739
+:END:
 #+title: phone (shopping)
 This is from 2020 Oct 25-ish. I chose the Samsung M31.
 * specs needed for Colombia

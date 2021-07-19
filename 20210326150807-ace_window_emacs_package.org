@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       e217215b-88ef-4a18-a96b-1b17272fe86b
+:END:
 #+title: ace-window (Emacs package)
 * one in ace-window mode
 ** type a number to jump to that window

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6a0c6707-29de-4cb4-ba1a-7af6b9077872
+:END:
 #+title: times versus numbers in NumPy
 * the problem
   Numpy doesn't like mixing times and non-time floats.

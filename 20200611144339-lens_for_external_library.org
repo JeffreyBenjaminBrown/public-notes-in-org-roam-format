@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       85f293de-80d4-41bf-b73e-56c7d13ef0eb
+:END:
 #+title: lens for external library in Haskell
 * Generate lenses for third-party libraries in Haskell
 https://ai-jobs.net/?rdt_cid=3040091042633392170

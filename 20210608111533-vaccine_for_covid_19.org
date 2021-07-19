@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       566f224a-8e8c-41ea-8a1f-979f5f5cc566
+:END:
 #+title: vaccine for Covid-19
 * TODO second shot in 3 weeks
   Today is June 10, a Thursday.

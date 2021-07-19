@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       5cd33c0a-78f1-4fc1-8e53-6fb00cf79a2c
+:END:
 #+title: Testing in Django
 see polls.tests in my sample project at
   https://github.com/JeffreyBenjaminBrown/learning-aws.git

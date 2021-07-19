@@ -1,8 +1,11 @@
+:PROPERTIES:
+:ID:       3f780680-b759-4db0-a62b-939cbed9b4fc
+:END:
 #+title: Assembly Problem (bioinformatics)
 = the problem of assembling a genome without a reference genome.
 * a.k.a. "de novo assembly", "shotgun assembly"
 * some terms
-** [[file:20200804204437-coverage_bioinformatics.org][Coverage (Bioinformatics)]]
+** [[id:5e163670-71f1-4070-ae0d-d6e6483d6c08][Coverage (Bioinformatics)]]
 * some "Laws of Assembly (bioinformatics)"
 ** The "First Law of Assembly"
  If a *prefix* of one read is *similar* to
@@ -12,10 +15,10 @@
  = More coverage => more and longer overlaps.
 ** The "Third Law of Assembly"
  Repeats make assembly hard.
-*** [[file:20200809183832-aim_for_longer_reads_bioinformatics.org][Aim For Longer Reads (Bioinformatics).]]
-* [[file:20200809180724-the_overlap_graph.org][The Overlap Graph]]
-* [[file:20200809180839-shortest_common_superstring_ses_problem.org][Shortest Common Superstring (Ses) Problem]]
-* [[file:20200809181029-the_de_bruijn_graph.org][The De Bruijn Graph]]
+*** [[id:87f4f1e8-bf6b-4bd3-89ff-bb431bcc94fc][Aim For Longer Reads (Bioinformatics).]]
+* [[id:a5891da4-6c20-471d-ac42-c666090d1cee][The Overlap Graph]]
+* [[id:f18d3823-02dd-4842-b8d5-4903b4889ca6][Shortest Common Superstring (Ses) Problem]]
+* [[id:2863ca13-3bdc-4432-89f8-0d91fb899216][The De Bruijn Graph]]
 * Handling messy graphs.
 This applies to both overlap graph and De Bruijn graph algorithms.
 ** Sequencing errors generate dead ends and small disconnected sets.

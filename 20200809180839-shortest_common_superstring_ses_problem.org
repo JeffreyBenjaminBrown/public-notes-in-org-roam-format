@@ -1,8 +1,11 @@
+:PROPERTIES:
+:ID:       f18d3823-02dd-4842-b8d5-4903b4889ca6
+:END:
 #+title: Shortest Common Superstring Problem (bioinformatics)
 a.k.a. SES problem
 = Given a set S of strings, find SCS(S), the shortest string containing them.
 * The SES problem is NP-complete.
-* The greedy solution 
+* The greedy solution
 is fast but imperfect.
 ** Collapse the graph.
 Find the biggest edge (overlap).

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       8e3eeb3f-2fec-4db3-80b8-7453e2333e59
+:END:
 #+title: The economics of technology and AI (my mini-course for Colegio Andino)
 * course history
   The course consisted of 2 80-minute lectures I gave in November 2020.

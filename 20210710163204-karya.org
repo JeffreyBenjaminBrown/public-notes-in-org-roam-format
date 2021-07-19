@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       45a95cbc-1168-41c1-930d-3ecd746f408e
+:END:
 #+title: Karya (music software)
 * Music scoring/generation suite, written in Haskell
 * Does clever caching to avoid re-rendering.

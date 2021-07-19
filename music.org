@@ -1,4 +1,7 @@
 * TODO Audacity damaged alsamixer
+  :PROPERTIES:
+  :ID:       4351963e-139d-44c5-92c6-b70238714b1f
+  :END:
 As soon as I installed and ran Audacity,
 auto-mute stopped working for my headphones and builtin speaker.
 * ET synth monome idea

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       87f4f1e8-bf6b-4bd3-89ff-bb431bcc94fc
+:END:
 #+title: Aim For Longer Reads (Bioinformatics).
 This is a tech solution, not a CS solution,
 to the problem that repeated subsequences cause ambiguity in DNA assembly.
@@ -17,4 +20,3 @@ but even then it helps to know the two end sequences are close to each other.
 That's because they sequence a single molecule at a time,
 rather than a cluster of clones.
 They're wrong around 10-15% of the time.
-

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       b6ea696a-ec85-4aac-97ed-70fa0ce28f3f
+:END:
 #+title: Django Database
 * models are classes *and* databases
 Every "model" (e.g. Choice and Question in the polls/ example) is

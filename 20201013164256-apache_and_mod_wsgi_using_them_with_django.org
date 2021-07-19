@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       67f5af53-e680-4c66-b3c0-11a9085fcc2b
+:END:
 #+title: Apache & mod_wsgi for Django
 * refs
 ** the docs on this
@@ -41,7 +44,7 @@ https://forum.djangoproject.com/t/do-i-need-apache-if-so-im-lost-configuring-it/
 * PITFALL: Don't use the toy Django server
 the one started with manage.py.
 Instead start Apache and let it call Django.
-* DONE first [[file:20201014163254-wsgi.org][configure wsgi]]
+* DONE first [[id:13bdbc64-b271-44f7-a09f-27ce4c1cb590][configure wsgi]]
 * HANDY: to customize apache2.conf
   rm /etc/apache2/apache2.conf
   ln -s /mnt/apache/apache2.conf /etc/apache2/

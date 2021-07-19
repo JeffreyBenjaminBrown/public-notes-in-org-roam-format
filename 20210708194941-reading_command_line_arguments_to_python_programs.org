@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       cec794c0-a02f-467d-bda9-d1065ccfaa0d
+:END:
 #+title: reading command-line arguments to Python programs
 import sys
 

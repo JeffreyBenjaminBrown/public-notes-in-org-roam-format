@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       021b029e-c533-4074-a280-0c8a2a6215bc
+:END:
 #+title: cron (scheduling utility for *nix systems)
 * PITFALLS
 ** relative paths and command aliases are dangerous!

@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       6b50fb52-6600-43b1-a667-ae9ad2cbc161
+:END:
 #+title: Knowledge base
-* [[file:../tech/20210618164039-agora_shared_knowledge_base_protocol.org][Agora (shared knowledge base (protocol))]]
+* [[id:f9ee18e9-68f2-4f10-b10d-c91186b797e3][Agora (shared knowledge base (protocol))]]
 * WebMention: notify web authors when linking to their work
   https://www.w3.org/TR/webmention/
-* [[file:20210628085204-funding_hode.org][funding Hode]]
+* [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]

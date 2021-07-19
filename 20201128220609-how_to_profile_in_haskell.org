@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       cbd1f56f-efef-4302-b309-e21ca0c1b677
+:END:
 #+title: how to profile in Haskell
 * run these to build the .prof file
   stack run --profile -- montevideo-exe --ghci-options="-O"

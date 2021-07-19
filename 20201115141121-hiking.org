@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       13068bee-ffa3-4167-9b0c-11342fec4548
+:END:
 #+title: hiking
 * stuff to pack
 ** poles
@@ -19,4 +22,3 @@
   A month ago I replaced one of the feet. Not sure what happened to it.
   This weekend we went hiking again and after it I had to replace another foot. This time the metal tip had worn through the foot.
   The most recent replacement was on the pole for which the secondary (foam) handle is still high.
-

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ee829b50-e94f-4feb-b19d-603752c7b043
+:END:
 #+title: Apache (web server)
 * Apache is a web server
 * some commands
@@ -43,4 +46,4 @@ in /etc/apache2/envvars:
 **** But I already have something similar
 in the Docker container. It specifies "UTF-8" for both options;
 it just leaves out the "US" part.
-* [[file:20201013164256-apache_and_mod_wsgi_using_them_with_django.org][Apache and Mod_Wsgi: Using Them with Django]]
+* [[id:67f5af53-e680-4c66-b3c0-11a9085fcc2b][Apache and Mod_Wsgi: Using Them with Django]]

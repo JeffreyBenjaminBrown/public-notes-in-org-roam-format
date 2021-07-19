@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       0224f2ae-1ce8-4019-8ebf-240379a10fad
+:END:
 #+title: cheese (videoconference softwrae)
 * PITFALL! I use a different NixOS config to use it
 For my regular, non-pulseaudio build, these lines are commented out.

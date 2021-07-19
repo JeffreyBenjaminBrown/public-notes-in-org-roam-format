@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       7f62d78d-929a-4373-8f44-751d2085160b
+:END:
 #+title: Dynamic Programming to Compute Edit Distance
 * "Dynamic programming" = cached recursion
 (according to this video, around 11:45:

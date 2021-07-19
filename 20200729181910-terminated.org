@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       9648d682-4f6f-47f2-bd74-ed84f979d28c
+:END:
 #+title: terminated base (genetics)
 These are bases modified so that once the DNAP pairs them to a strand,
 no more bases can be added.

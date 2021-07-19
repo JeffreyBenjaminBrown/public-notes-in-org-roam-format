@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a44ce4eb-ff38-4ee3-8e72-50f9902ff754
+:END:
 #+title: Python and virtualenv in Nix
 * it's easy
   Apparently, the new way to set up a Python virtual environment on Nix (https://nixos.wiki/wiki/Python) is exactly what you would do outside of Nix:

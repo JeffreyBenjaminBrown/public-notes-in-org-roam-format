@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       ef82d33a-a1dd-40bc-bab4-2621fc4249c8
+:ROAM_ALIASES: git-smsn
+:END:
 #+title: Semantic Synchrony and Git: the commit-push cycle
-#+ROAM_ALIAS: git-smsn
 * PITFALL: DON'T PULL until committing.
 * Write to VCS.
   C-c  C-w  r

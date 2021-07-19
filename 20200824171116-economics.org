@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c17782b5-f070-418e-9e04-519f3c7f9a66
+:END:
 #+title: economics
-* [[file:20200824171301-piketty_saez_and_zucman_qje_2018_distributional_national_accounts_methods_and_estimates_for_the_united_states.org][Piketty, Saez And Zucman, Qje 2018, "Distributional National Accounts: Methods And Estimates For The United States".]]
-* [[file:20200902163921-londono_velez_and_avila_mahecha_2018_can_wealth_taxation_work_in_developing_countries_quasi_experimental_evidence_from_colombia.org][Londoño-Vélez And Ávila-Mahecha 2018: "Can Wealth Taxation Work In Developing Countries? Quasi-Experimental Evidence From Colombia"]].
+* [[id:d8e1e0ce-da00-4e93-8e79-0d5979335977][Piketty, Saez And Zucman, Qje 2018, "Distributional National Accounts: Methods And Estimates For The United States".]]
+* [[id:915c9717-9f3b-43c3-b9d3-56eb881f8600][Londoño-Vélez And Ávila-Mahecha 2018: "Can Wealth Taxation Work In Developing Countries? Quasi-Experimental Evidence From Colombia"]].

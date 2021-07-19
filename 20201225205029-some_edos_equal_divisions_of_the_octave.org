@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       80068e27-a77e-4d73-b762-235ec2cc6de4
+:END:
 #+title: some edos (equal divisions of the octave)
 * for 13-limit, I explored all of these edos
   140
@@ -67,7 +70,7 @@ Pr.pPrint ( take 30 $ drop 90
   for reference, 31-limit (46 1 9) => 5x7
 ** TODO [[id:211b5788-6ee2-4298-8f04-b3d9ed7358a7][90 5 17: 13-lim +19.25.27 5x6, octave (5,1), 31-lim 7x12]]
 ** TODO [[id:f1c002e1-f05c-474a-b19c-eec0dee222ee][72 27 2: 31-limit sans 21:16 in 3x15]] (guitar!)
-** TODO [[id:d45e7329-7321-4e6f-b43e-0ac4fb85ff3b][65 8 11: 15-lim 0-area 5x6, weird backward 5:4, balanced octave (3,4)]]
+** TODO [[id:d45e7329-7321-4e6f-b43e-0ac4fb85ff3b][65 8 11: 15-lim 0-area 5x6, weird backward 5:4, octave (3,4)]]
 ** TODO [[id:c88e7526-3993-4cae-95fb-63102f75d7c0][63 6 13: 10.5-edo frets, 15-lim 0-area 4x8 (4x5 sans 11), balanced octave (3,4)]]
 ** TODO [[id:69766233-ba73-497c-8408-6e6f857119bc][58 5 8: 15-lim 6x6, perfectly (50%) balanced octave]]
 ** TODO [[id:3d0440f4-ef24-4ada-b75c-9ba23f7702a1][58 2 13: balanced diagonal octave (4,3), 15-lim 4x7]]
@@ -338,7 +341,7 @@ Pr.pPrint ( take 30 $ drop 90
      Though it takes two hands to play a chord, generally.
    And they're both "sharp systems".
 * 24-edo
-** [[file:20210627203734-quartertone_free_cluster_free_ways_to_divide_a_fourth_in_24_edo.org][quartertone-free, cluster-free ways to divide a fourth in 24-edo]]
+** [[id:1cfa5cfb-c951-4483-bb7a-9f87c908a026][quartertone-free, cluster-free ways to divide a fourth in 24-edo]]
 * 31 3 7: An easier Kite-like tuning
   3 steps = 17 % 16: string 0 fret 1
   8 steps = 19 % 16: string -1 fret 5

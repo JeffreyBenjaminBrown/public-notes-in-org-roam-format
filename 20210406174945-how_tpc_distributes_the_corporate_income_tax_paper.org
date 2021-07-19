@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       dfb5198f-b392-4903-be09-bfa7217212cc
+:END:
 #+title: How TPC Distributes the Corporate Income Tax (paper)
 ~/of/papers/How-TPC-...
 * vocab

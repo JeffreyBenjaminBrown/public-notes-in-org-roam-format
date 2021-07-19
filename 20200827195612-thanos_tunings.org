@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       54dd7d84-d721-4132-9522-aae386f18fdb
+:ROAM_ALIASES: "skip fretting" "Kite tunings"
+:END:
 #+title: Thanos tunings
-#+ROAM_ALIAS: "Kite tunings" "skip fretting"
 * TODO PITFALL: largely extracted
-  I moved (most? all?) of my favorites to  [[file:20201225205029-some_edos_equal_divisions_of_the_octave.org][some edos (equal divisions of the octave)]].
+  I moved (most? all?) of my favorites to  [[id:80068e27-a77e-4d73-b762-235ec2cc6de4][some edos (equal divisions of the octave)]].
 * TODO put this in SmSn
   It's very graph -- the relationships between scales, the different ways to categorize tunings (by EDO, by layout) ...
 * two I posted to Microtonal Guitarists
@@ -18,7 +21,7 @@
 * my favorite tunings
 ** What I tried
    Here I'm trying by hand: everything starting from 46, for every modululs m such that edo / m >= 12, for spacing from too small to get a full octave on a guitar until I'm at least into the 20s and looking at jumps of greater than 400 cents. Only trying edos with good-looking harmonics.
-** [[file:20201009194051-105_edo.org][105-Edo]]
+** [[id:4c460fd0-bab5-416a-a83e-e3f2eab1f218][105-Edo]]
 ** 50 3 10: octave (5,0), only 13, 19 and 31 hard to reach
 ** 67 2 13: 2 at (5,1), great for 7-limit, plus more goodies
 ** TODO 67 3 11: 2 at (5,4), *fantastic* for 19-limit +31 -7

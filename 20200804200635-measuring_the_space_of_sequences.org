@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       656e4858-0e13-4471-85b8-57c1bd346950
+:END:
 #+title: Measuring The Space of Sequences
 * ways sequences can differ
 ** mismatch|substitution

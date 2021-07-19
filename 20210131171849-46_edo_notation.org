@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a7586f73-d137-4ed3-8c58-a24675675f60
+:END:
 #+title: 46-edo notation
 * refs
 ** Cam Taylor first explained this to me

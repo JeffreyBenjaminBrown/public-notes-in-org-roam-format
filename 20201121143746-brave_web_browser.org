@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       08242d14-a8a1-4f18-8a1c-62656ae3dba2
+:END:
 #+title: Brave (web browser)
 * some shortcuts in Brave
 ** focus URL bar: F6

@@ -1,3 +1,6 @@
 * installing monome
+  :PROPERTIES:
+  :ID:       f3ff29c9-efa4-4379-b5e3-49238794ed7b
+  :END:
 Search for "from source" here:
 https://monome.org/docs/raspbian/

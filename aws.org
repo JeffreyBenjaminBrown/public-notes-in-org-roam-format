@@ -1,17 +1,20 @@
+:PROPERTIES:
+:ID:       61e0e604-502b-4177-912b-eee9ab2543d8
+:ROAM_ALIASES: AWS
+:END:
 #+title: Amazon Web Services
-#+ROAM_ALIAS: AWS
 * TODO refs | URLs
 ** related docs
-*** [[file:20210323182302-aws_vocabulary.org][AWS vocabulary]]
-*** [[file:20210323201158-aws_s3.org][AWS S3]]
-*** [[file:20210323181107-aws_s3_cli.org][AWS S3 CLI]]
-*** [[file:20210323181754-host_a_git_repo_on_aws.org][AfWS Git]]
-*** [[file:20210323183402-django_in_aws_esp_aws_eb.org][Django in AWS (esp. AWS EB)]]
-*** [[file:20210323184055-internet.org][the internet]]
-*** [[file:20210323203004-aws_virtual_machine_via_ec2.org][EC2]], esp. how to launch a virtual machine
+*** [[id:6d02b17d-a43e-43e2-9e75-91622bd08c38][AWS vocabulary]]
+*** [[id:7a0f92a2-486b-40d5-97c6-9e4908b14138][AWS S3]]
+*** [[id:c5d25204-1e5e-41bc-974d-80aa2d67c870][AWS S3 CLI]]
+*** [[id:4aecfac3-98c5-40b7-8a3c-ae44a8d85c8a][AfWS Git]]
+*** [[id:275e4978-231c-474b-8bdf-9cd80104ff50][Django in AWS (esp. AWS EB)]]
+*** [[id:19029d09-5a57-4d81-99f2-56465c8e2586][the internet]]
+*** [[id:da25bd69-a967-4393-bfa7-817f4c7eaa47][EC2]], esp. how to launch a virtual machine
     EC2 is the raw virtual machine system. One can use it alone, or via one of the higher-level systems it underpins, like Lightsail.
-*** [[file:20210323204357-aws_static_website_hosting.org][AWS static website hosting]]
-*** [[file:20210413192949-aws_lightsail.org][AWS Lightsail]]
+*** [[id:47c8e8e5-7dca-4869-9597-cfb95f003ff3][AWS static website hosting]]
+*** [[id:44da28be-3419-46e8-a07b-e46111a183f2][AWS Lightsail]]
 ** all lessons
    https://aws.amazon.com/getting-started/use-cases
 ** PITFALL: don't visit

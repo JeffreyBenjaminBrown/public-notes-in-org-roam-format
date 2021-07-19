@@ -1,4 +1,7 @@
 * where I read about this
+  :PROPERTIES:
+  :ID:       39a9ba53-559d-493e-9ab5-dfec6389d848
+  :END:
 https://github.com/graninas/software-design-in-haskell
 * this
 https://joa.sh/posts/2015-09-13-free-monad-steps.html

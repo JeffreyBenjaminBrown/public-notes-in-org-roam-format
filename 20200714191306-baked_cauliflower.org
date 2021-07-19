@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ec6e5302-6c08-4b18-8f7b-23a2d514a8c4
+:END:
 #+title: baked cauliflower
 * 425 F (218 C)
 * 30 minutes, flip around minute 20

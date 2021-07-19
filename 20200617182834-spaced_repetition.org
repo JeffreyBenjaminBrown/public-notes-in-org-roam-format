@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       a5b74e88-c524-4f89-b29d-1bc324a77369
+:ROAM_ALIASES: remember memory internalize
+:END:
 #+title: spaced repetition
-#+ROAM_ALIAS: internalize memory remember
 * TODO remember
 ** keeping JACK happy
 *** Killing SC before the GHCI process makes Jack err.
@@ -33,7 +36,7 @@
 ** (Aspirational) mimicry can substitute for rationality.
    It's in SmSn, at id
    BSPkZvDjoUqhzm0Z
-** [[file:../tech/20210419132152-microsoft_teams_shortcuts.org][Microsoft Teams shortcuts]]
+** [[id:4e3cfc01-d528-49d9-bf3d-858c1979d71c][Microsoft Teams shortcuts]]
 ** LCR invites
    Make sure I know who's coming before responding.
 ** learning, technical

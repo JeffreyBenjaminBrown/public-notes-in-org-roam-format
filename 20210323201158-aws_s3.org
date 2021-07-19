@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       7a0f92a2-486b-40d5-97c6-9e4908b14138
+:END:
 #+title: AWS S3
 = Amazon Simple Storage Service = S3 = buckets
-* [[file:20210323181107-aws_s3_cli.org][S3 has a CLI]]
+* [[id:c5d25204-1e5e-41bc-974d-80aa2d67c870][S3 has a CLI]]
 * data can be "queried in place"
 * data can be "selectively retrieved"
   with "S3 Select"
@@ -14,4 +17,4 @@
 * S3 "Access Points"
   Have URLs.
   Are to control who can access what.
-* [[file:20210323204357-aws_static_website_hosting.org][AWS static website hosting]] uses S3 (and Route53)
+* [[id:47c8e8e5-7dca-4869-9597-cfb95f003ff3][AWS static website hosting]] uses S3 (and Route53)

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       5e163670-71f1-4070-ae0d-d6e6483d6c08
+:END:
 #+title: Coverage (Bioinformatics)
 * definition
 ** For a particular position in the geneome,

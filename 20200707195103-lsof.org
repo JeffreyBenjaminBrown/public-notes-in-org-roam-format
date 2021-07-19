@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       38b8a273-e7af-41ba-a367-47bdee079862
+:END:
 #+title: lsof (software)
 * says what proceses are using which devices
 * use lsof to see what (e.g. pulseaudio, alsamixer) is using sound devices

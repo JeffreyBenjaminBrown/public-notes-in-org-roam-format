@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       7d486da6-aca9-4abe-b482-9c892c7b1088
+:ROAM_ALIASES: mtv
+:END:
 #+TITLE: montevideo (music software)
-#+ROAM_ALIAS: mtv
 * TODO capture from the monome
 ** TODO (many)
 *** test toMuseq
@@ -74,6 +77,6 @@ One creates it, one destroys it; both could be a separate super function.
 ** playChord :: [JI Fraction] -> EDO -> IO ()
    This way you can edit the last argument repeatedly.
 * TODO ? How do streams work?
-* TODO [[file:20200709190917-mtv_lang.org][mtv-lang]]
-* TODO [[file:20200709191029-mtv_monome.org][mtv-monome]]
-* TODO [[file:20200812014948-mtv_ji.org][mtv-ji]]
+* TODO [[id:9e2b0560-a823-4718-9f6d-638557e3f482][mtv-lang]]
+* TODO [[id:d118af57-a430-4ed5-81dc-8199677e39d8][mtv-monome]]
+* TODO [[id:95a4cabf-a371-4e6d-806d-55521422f226][mtv-ji]]

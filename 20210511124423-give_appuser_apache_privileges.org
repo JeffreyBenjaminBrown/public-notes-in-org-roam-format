@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       802932af-191e-4cb8-a3b5-855aec8ad7c0
+:END:
 #+title: giving Apache privileges to a Docker user
 * the surprise answer, maybe
   The problem of being unable to run Apache as appuser seemed to go away under a certain Apache configuration.

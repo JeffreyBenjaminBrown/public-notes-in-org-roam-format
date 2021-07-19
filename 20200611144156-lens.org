@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4268a9bf-a868-4d53-9e49-04416578e73b
+:END:
 #+title: lens (computer programming)
 * Generate lenses for third-party libraries in Haskell
 https://ai-jobs.net/?rdt_cid=3040091042633392170

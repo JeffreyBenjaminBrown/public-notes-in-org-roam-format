@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       642c3c9b-ca40-4459-9044-97c9f214c15a
+:END:
 #+title: Django (Python web framework)
 * TODO
-** [[file:20210323183402-django_in_aws_esp_aws_eb.org][Django in AWS (esp. AWS EB)]]
+** [[id:275e4978-231c-474b-8bdf-9cd80104ff50][Django in AWS (esp. AWS EB)]]
 ** find, display pictures
 *** Substitute folder path into image name.
     See, e.g., how "name_augmented" is passed from polls.views to the silly-form templates.
@@ -24,9 +27,9 @@
      PITFALL: The leading slash is important.
 ** downloads from Django
    See the "download" function in run_make/views.py
-** [[file:20201023135031-file_uploads_in_django.org][File Uploads In Django]]
-** [[file:20210419160403-django_security_things_to_do_before_production.org][Django security, things to do before production]]
-** [[file:20201028190211-forms_in_django.org][forms in Django]]
+** [[id:ae710ad7-8b82-459d-a8e8-d8b67ccc4cce][File Uploads In Django]]
+** [[id:592838c4-5f21-41df-9a38-ccff592200f2][Django security, things to do before production]]
+** [[id:d67b54e4-8d6a-49f3-81db-7f528c308f75][forms in Django]]
 * PITFALL: Reusing templates across form-submitting views is dangerous!
 ** the problem
    Where the form data gets sent is encoded in the `action=` argument to the <form> element in the template. Trying to use the same template at two different URLs will mean the data from both URLs is sent to only one of them -- whichever one is encoded in the action= argument.
@@ -35,7 +38,7 @@
 * refs
 ** All Django documentation
  https://docs.djangoproject.com/en/3.1/
-*** TODO [[file:20201013164256-apache_and_mod_wsgi_using_them_with_django.org][Apache and mod_wsgi: Using Them with Django]]
+*** TODO [[id:67f5af53-e680-4c66-b3c0-11a9085fcc2b][Apache and mod_wsgi: Using Them with Django]]
 *** TODO "Sending emails"
 *** TODO "Integrating media"
 *** TODO ? "Caching"
@@ -172,7 +175,7 @@ it will complain that I haven't installed the app in anything.
 **** if any apps must use the database, run "migrate" to (make the db?)
  python manage.py migrate
 *** mysite/app/models.py
-    explains the structure of a [[file:20200928140620-the_django_database.org][Django Database]]
+    explains the structure of a [[id:b6ea696a-ec85-4aac-97ed-70fa0ce28f3f][Django Database]]
 *** to (install?) an app in a project
     :PROPERTIES:
     :ID:       d7718be6-7488-4a0e-8592-61b0a69a98f8
@@ -184,7 +187,7 @@ it will complain that I haven't installed the app in anything.
       'django.contrib.auth',
      ...
 **** then make migrations for the app, and execute them
-     see [[file:20200928141458-django_database_migrations.org][Django Database Migrations]]
+     see [[id:00520a84-5c49-4244-b8fa-27c5bdc9b1a6][Django Database Migrations]]
 *** the "Django shell"
 with
   python manage.py shell
@@ -417,9 +420,9 @@ esp. templates/polls/detail_2.html
   Always return an HttpResponseRedirect after successfully dealing
   with POST data. This prevents data from being posted twice if a
   user hits the Back button. (This advice is not Django-specific.)
-** part 5: [[file:20201016160317-testing_in_django.org][Testing in Django]]
-** part 6: [[file:20201016165045-static_files_in_django_esp_for_stylesheets_and_images.org][Static Files in Django, esp. for Stylesheets and Images]]
-** part 7: [[file:20201016164731-customizing_the_django_admin_form.org][Customizing The Django Admin Form]]
+** part 5: [[id:5cd33c0a-78f1-4fc1-8e53-6fb00cf79a2c][Testing in Django]]
+** part 6: [[id:7397f3e1-ff32-456d-a959-037be5a05c12][Static Files in Django, esp. for Stylesheets and Images]]
+** part 7: [[id:21081db3-e9ef-40bc-bd85-2676e4b25da6][Customizing The Django Admin Form]]
 * The "topic guides"
 https://docs.djangoproject.com/en/3.0/topics/
 ** TODO Resume at

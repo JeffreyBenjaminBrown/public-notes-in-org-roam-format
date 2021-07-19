@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       d404ba22-f828-4f95-be6c-8b64fe7ed7b7
+:END:
 #+title: Using Dynamic Programming for Approximate Matching
 I understood how to do it but not why it works.
 * The algorithm
@@ -15,9 +18,9 @@ I understood how to do it but not why it works.
  or equivalently, something extra in T.
 * It's slow.
 Its speed is O(|P|*|T|).
-** Fortunately, [[file:20200804203928-indexes_and_dynamic_programming_work_well_together.org][Indexes And Dynamic Programming Work Well Together.]]
+** Fortunately, [[id:e5aa57fd-9ff2-436e-8b5b-ad738e0cfa94][Indexes And Dynamic Programming Work Well Together.]]
 * Penalize unusual edits more.
-** [[file:20200804200741-in_dna_some_edits_are_more_likely_than_others.org][In DNA, Some Edits Are More Likely Than Others.]]
+** [[id:49d6af05-cd0b-4011-a28d-c13af9559f8a][In DNA, Some Edits Are More Likely Than Others.]]
 ** Use a "penalty matrix" to score every possible edit.
 There's a row for each of {A,C,T,G,absent}, and similarly columns.
 It's 0 down the diagonal.

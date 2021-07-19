@@ -1,4 +1,7 @@
 * test the mic
+  :PROPERTIES:
+  :ID:       65763919-b14d-44ed-bd6f-2d218d79eca4
+  :END:
 ** find the mic
 Run this
   arecord -l

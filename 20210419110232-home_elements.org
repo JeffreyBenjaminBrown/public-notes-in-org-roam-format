@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       299f495c-2c87-4681-a22e-25c70b21b05c
+:END:
 #+title: Home Elements
 * Teléfono: (1) 606 8257

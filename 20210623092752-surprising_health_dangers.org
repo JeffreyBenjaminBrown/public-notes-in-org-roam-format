@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       b5d0332d-c7a5-4f03-bda5-5c1bae785f7d
+:END:
 #+title: surprising health dangers
 * lead poisoning
 ** bright yellow turmeric (curcuma)

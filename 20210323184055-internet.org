@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       19029d09-5a57-4d81-99f2-56465c8e2586
+:END:
 #+title: internet
 * internet
 ** www.example.com is a subdomain of example.com

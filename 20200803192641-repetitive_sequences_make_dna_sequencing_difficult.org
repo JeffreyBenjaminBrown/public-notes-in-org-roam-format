@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       b38b3415-5459-4b9d-a290-6be345ebb471
+:END:
 #+title: Repetitive sequences make DNA sequencing difficult.
 * why
 If something occurs in many places,
@@ -5,4 +8,4 @@ and you sequence a part of it, where does that part go?
 If you sequence a lot of substrings of a repeated sequence,
 how many repetitions does it include?
 * and this problem is big because
-[[file:20200803192555-dna_sequences_are_very_non_random.org][DNA sequences are very non-random]]
+[[id:a25aed59-6350-4ac0-9209-4a83548b1be9][DNA sequences are very non-random]]

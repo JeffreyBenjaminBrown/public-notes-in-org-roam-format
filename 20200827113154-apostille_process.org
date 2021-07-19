@@ -1,16 +1,19 @@
+:PROPERTIES:
+:ID:       0e2d1a5d-a682-459e-b762-ffc469824ff1
+:END:
 #+title: apostille process
 * players
-[[file:20200827112718-msu_s_office_of_the_registrar.org][MSU's Office of the Registrar]]
-[[file:20200824142405-michigan_office_of_the_great_seal.org][Michigan Office of the Great Seal]]
+[[id:bf2861b0-ee95-45cd-8b75-a147269a2f14][MSU's Office of the Registrar]]
+[[id:c1bce8f8-db3d-4fb7-b8ee-5508ef638bb7][Michigan Office of the Great Seal]]
 * process
 ** TODO file this stuff
-*** Things the [[file:../tech/20200824142405-michigan_office_of_the_great_seal.org][Michigan Office of the Great Seal]] said
- Only option is mail-in service. 
- Request from msu a certified notarized copy of (?). 
- Use authentication request form. 
- They'll certify either form, diploma or certificate of graduation. 
- International destination is fine. 
- They prefer check, to state of michigan. 
+*** Things the [[id:c1bce8f8-db3d-4fb7-b8ee-5508ef638bb7][Michigan Office of the Great Seal]] said
+ Only option is mail-in service.
+ Request from msu a certified notarized copy of (?).
+ Use authentication request form.
+ They'll certify either form, diploma or certificate of graduation.
+ International destination is fine.
+ They prefer check, to state of michigan.
  They prefer to receive everything together.
 *** TODO asking Holly at the MSU Registrar about everything.
 **** Is the normal process the following?

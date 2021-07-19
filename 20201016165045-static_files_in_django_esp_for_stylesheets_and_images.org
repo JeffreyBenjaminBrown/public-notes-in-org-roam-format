@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       7397f3e1-ff32-456d-a959-037be5a05c12
+:END:
 #+title: Static Files in Django, esp. for Stylesheets and Images
 * code to reference
 All appearances of the word "static" in <the app>/polls,
@@ -21,9 +24,9 @@ but e.g. to allow someone to download a file,
 one needs another app.
 Ngnix and Apache are the two major alternatives.
 ** steps
-*** [[file:20201014163254-wsgi.org][set up Wsgi]]
-*** [[file:20201006192557-apache-web-server.org][set up Apache]]
-*** [[file:20201013164256-apache_and_mod_wsgi_using_them_with_django.org][Configure Apache For Django]]
+*** [[id:13bdbc64-b271-44f7-a09f-27ce4c1cb590][set up Wsgi]]
+*** [[id:ee829b50-e94f-4feb-b19d-603752c7b043][set up Apache]]
+*** [[id:67f5af53-e680-4c66-b3c0-11a9085fcc2b][Configure Apache For Django]]
 * The staticfiles app | Django documentation | Django
 https://docs.djangoproject.com/en/3.1/ref/contrib/staticfiles/
 ** duplicate file names

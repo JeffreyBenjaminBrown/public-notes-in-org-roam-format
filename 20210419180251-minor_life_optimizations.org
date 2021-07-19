@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6efbca64-356c-4475-8c43-6ee1a6e54282
+:END:
 #+title: minor life optimizations
 * TODO buy to organize desk
 ** hanging organizer

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       b42fa7aa-5def-461e-bf47-5c872321af63
+:END:
 #+title: Ridder, G And Moffitt, R. 2007. The Econometrics Of Data Combination. Chapter 75 Of Handbook Of Econometrics, Volume 6b, 5470-5513.
 * their first example
 Y, Z and X are each sets of variables.

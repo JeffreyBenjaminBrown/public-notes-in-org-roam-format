@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       082cfa49-50e3-4332-9072-282b65aad5eb
+:END:
 #+title: Some Ways To Manipulate Digital Documents
-These notes were (all?) taken to apply for my [[file:../pers/20200717182542-visa_renewal.org][visa renewal for Colombia]].
+These notes were (all?) taken to apply for my [[id:fb125111-a65d-4aee-ac47-918b55572a97][visa renewal for Colombia]].
 * PITFALLS
 ** pdftk does not like filenames that are numbers
    even if the extensions are alphabetical and preceded by a dot

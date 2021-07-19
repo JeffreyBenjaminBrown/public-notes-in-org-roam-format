@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       e997f14b-7bdf-4545-a90e-f64db4e8a5b3
+:END:
 #+title: 22-edo guitar (shopping)
 * builders
 pullsed from exactly the first page of Google search results

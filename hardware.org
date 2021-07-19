@@ -1,4 +1,7 @@
 * how to upgrade RAM
+  :PROPERTIES:
+  :ID:       34bba1ef-7c62-4842-a506-c55989cbe496
+  :END:
 Some of this only applies to the Dell Inspiron (2017, i5)
 that I did it to (January 2020).
 ** PITFALL: 2 slots of different sizes?

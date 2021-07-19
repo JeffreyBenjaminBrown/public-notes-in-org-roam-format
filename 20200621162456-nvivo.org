@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c9dfd0cf-dadb-4c60-88db-e6be47d9126c
+:END:
 #+title: nvivo (nlp analysis software)
 * features
 ** audio playback, transcription

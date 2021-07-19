@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       275e4978-231c-474b-8bdf-9cd80104ff50
+:END:
 #+title: Django in AWS (esp. AWS EB)
 * PITFALL: These notes might be obsolete.
   The website was updated; now it talks about Lightsail, and never mentions Elastic Beanstalk.

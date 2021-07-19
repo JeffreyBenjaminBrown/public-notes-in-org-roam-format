@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       4aecfac3-98c5-40b7-8a3c-ae44a8d85c8a
+:ROAM_ALIASES: "AWS Git"
+:END:
 #+title: host a git repo on AWS
-#+ROAM_ALIAS: "AWS Git"
 * This document explains how to
   Put a git repo on AWS, using their CodeCommit protocol.
   https://aws.amazon.com/getting-started/projects/migrate-git-repository/?trk=gs_card

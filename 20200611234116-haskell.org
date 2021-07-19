@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       784007e7-b851-4988-beaa-b8e4a9657357
+:END:
 #+title: Haskell
-* [[file:20201128220609-how_to_profile_in_haskell.org][how to profile in Haskell]]
+* [[id:cbd1f56f-efef-4302-b309-e21ca0c1b677][how to profile in Haskell]]

@@ -1,8 +1,11 @@
+:PROPERTIES:
+:ID:       d8e1e0ce-da00-4e93-8e79-0d5979335977
+:END:
 #+title: Piketty, Saez And Zucman, Qje 2018, "Distributional National Accounts: Methods And Estimates For The United States".
-* [[file:20200824173656-national_income.org][National Income]]
+* [[id:a328d67f-f128-4d73-bc4d-76ee16a8874a][National Income]]
 * What's special about it
 ** "capture 100% of national income'
-** "compute growth rates for each quantile of the income distribution consistent with macroeconomic growth." 
+** "compute growth rates for each quantile of the income distribution consistent with macroeconomic growth."
 ** "We estimate the distribution of both pretax and posttax income"
 * Results: Since 1980 in the US,
 ** Average income rose 60%.

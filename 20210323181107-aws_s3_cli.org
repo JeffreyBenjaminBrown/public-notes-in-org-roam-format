@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c5d25204-1e5e-41bc-974d-80aa2d67c870
+:END:
 #+title: AWS S3 CLI
 = The Command Line Interface for AWS S3
 * setup the AWS CLI

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ad6bd612-dd7b-4185-bd04-e2aade240c4c
+:END:
 #+title: ctrlf (Emacs package)
 * commands
 ** to enter it

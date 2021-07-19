@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       d67b54e4-8d6a-49f3-81db-7f528c308f75
+:END:
 #+title: forms in Django
 * ref
 ** TODO ? preliminary reading
@@ -16,7 +19,7 @@ it is submitted, or to the end-to-end working collection of these parts.
 ** are for user input.
 ** must specify
 *** where to send (a url)
-*** how to send (an [[file:20201028203232-http_method.org][Http Method]])
+*** how to send (an [[id:57c6f456-dfd1-4797-a4ce-db2d82cb726e][Http Method]])
 Methods used by forms are always get or post.
 * the Django Form class
 ** A form class’s fields map to HTML form <input> elements.

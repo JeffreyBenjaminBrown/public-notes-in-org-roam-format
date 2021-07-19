@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4c460fd0-bab5-416a-a83e-e3f2eab1f218
+:END:
 #+title: 105-EDO
 * errors
 (3 % 2		,(61,6971,-48.12143))

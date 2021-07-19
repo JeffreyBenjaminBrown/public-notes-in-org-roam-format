@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6c86647b-f326-4eba-947c-e0d76ac4fba9
+:END:
 #+title: write, how to
 * good prompts for any topic
 ** What is {exciting, unknown, interesting} about <topic>?

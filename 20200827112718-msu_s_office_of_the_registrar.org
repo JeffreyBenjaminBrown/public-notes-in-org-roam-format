@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       bf2861b0-ee95-45cd-8b75-a147269a2f14
+:END:
 #+title: MSU's Office of the Registrar
 * Some relevant staff
-[[file:../pers/20200827112301-rhonda_miller.org][Rhonda Miller]]
-[[file:../pers/20200827112522-holly_purves.org][Holly Purves]]
+[[id:f457cd0c-53f5-4ff4-aee4-b7058c2a499c][Rhonda Miller]]
+[[id:50740fd8-5237-4db1-9980-3df3df208861][Holly Purves]]
 * In charge of graduation evidence
 ** certificate of graduation
 A simple PDF that can be sent the same day, for free.

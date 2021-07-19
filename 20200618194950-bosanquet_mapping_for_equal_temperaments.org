@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       668d2b62-9e8c-4db9-8bb5-1a552ffa4c33
+:END:
 #+title: Bosanquet mapping for equal temperaments
 * definiing it
 ** it's regular

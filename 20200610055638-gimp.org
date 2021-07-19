@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c725c400-b387-4358-b3b1-1765ec88b68a
+:END:
 #+title: gimp (software)
 * tools
 ** pencil (n)

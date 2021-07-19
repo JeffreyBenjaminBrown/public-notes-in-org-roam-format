@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       d241a1c3-2a83-4134-89c6-c85b2ed6a51c
+:END:
 #+title: fret markers, my preferred system of
 * the system
   Every other fret is marked. The colors alternate between two that are very different -- green and red, say -- and also very different from the fretboard (e.g. if it's dark, then they're light).  Each marker covers the entire space between two adjacent frets.

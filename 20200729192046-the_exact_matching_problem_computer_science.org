@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       00d2cadf-49cf-4eb2-b172-a89caee20333
+:END:
 #+title: The Exact Matching Problem (Computer Science)
-= Given a "pattern" P :: Eq a => [a], 
+= Given a "pattern" P :: Eq a => [a],
 at what positions in the "text" T :: Eq a => [a] does P occur?

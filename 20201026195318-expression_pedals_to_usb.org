@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       3c5597b0-3260-44fe-9c49-03a3f791171c
+:END:
 #+title: Expression Pedals to USB
 * Haskell for midi
 ** Alsa or JACK is probably the better ways to go

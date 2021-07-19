@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       062d9fcc-128a-411a-b5c0-d792c47dedab
+:END:
 #+title: Supercollider (software, audio)
 * scsynth is the command-line version; scide is the IDE version
 * To get help for scsynth

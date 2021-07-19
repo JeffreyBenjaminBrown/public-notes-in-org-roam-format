@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       7ba3aeee-378b-41b9-89ef-2658dc19b9ea
+:END:
 #+title: conspiracies, Edward Snowden on
 https://edwardsnowden.substack.com/p/conspiracy-pt1
 * Conspiracy theories absolve believers of the obligation to engage with the truth.

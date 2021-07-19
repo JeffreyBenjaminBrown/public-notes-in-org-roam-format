@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4d2aa565-643a-4974-b980-618fc66f8420
+:END:
 #+title: layouts for small grid controllers
 * my advice
   I like redundancy in my layouts, so that notes at the top of the board are the same as the ones on the bottom. Without that you find yourself reaching for some really hard chords, if you're playing with one hand.

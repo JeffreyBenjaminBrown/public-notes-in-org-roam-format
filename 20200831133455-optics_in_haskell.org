@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       e3399f46-185b-4c56-b2a4-06857f46713f
+:END:
 #+title: optics in Haskell
 * TODO RESUME
 ** skipped some

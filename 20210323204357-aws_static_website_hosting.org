@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       47c8e8e5-7dca-4869-9597-cfb95f003ff3
+:END:
 #+title: AWS static website hosting
 * source | ref
   https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html?refid=gs_card

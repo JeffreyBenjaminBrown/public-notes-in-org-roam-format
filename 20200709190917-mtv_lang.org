@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       9e2b0560-a823-4718-9f6d-638557e3f482
+:END:
 #+title: mtv-lang
 * TODO top priorities
 ** TODO make simultaneous triggers writeable without specifying voice
@@ -166,7 +169,7 @@ chAll $ mfl [
     That is, if two instances of the same sample are scheduled simultaneously, delete one of them. (Or maybe do something else -- maybe de-pitch one of them slightly? But playing the sample twice as loud is jarring.)
 *** amplitude group for all drums, all pitched tracks
 *** speed
-**** see [[file:20201128220609-how_to_profile_in_haskell.org][how to profile in Haskell]]
+**** see [[id:cbd1f56f-efef-4302-b309-e21ca0c1b677][how to profile in Haskell]]
 **** which functions were slow when I profiled
      (certainly before GHC 8.10, and I think before I had 8.8)
      merge, meta, and subfunctions

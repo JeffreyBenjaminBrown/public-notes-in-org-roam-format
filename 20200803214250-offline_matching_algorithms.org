@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       d0cc8f31-a35a-4e31-878a-e1c26c7453a7
+:END:
 #+title: Offline matching algorithms (bioinformatics)
 * What they are.
 These pre-process the (long) text,
@@ -7,7 +10,7 @@ e.g. the human reference genome --
 and many patterns will be matched against it.
 Such algorithms are called "offline".
 Others are "online".
-* Index every [[file:20200803193911-kmer.org][kmer]],
+* Index every [[id:1f088605-2a3e-42d0-a856-da9810ded198][kmer]],
 mapping it to a list of offsets where it starts.
 ** Given a kmer index, can look up any kmer from P in it,
 and then do "verification" to see if the rest of P also matches at any of the "index hits" produced by the initial lookup.
@@ -18,7 +21,7 @@ then append (or prepend; doesn't matter) the pair to that bucket.
 ** Collisions are possible.
 That is, two different kmers can map to the same bucket.
 If there aren't a lot of collisions, they won't affect speed much.
-** [[file:20200803200021-python_dictionaries_are_hash_tables.org][Python dictionaries are hash tables.]]
+** [[id:c5146fa1-d833-4018-9b5b-4506044a3a09][Python dictionaries are hash tables.]]
 * Variations on kmer indexing
 ** Index only every nth kmer of the text.
 This makes the index shorter,

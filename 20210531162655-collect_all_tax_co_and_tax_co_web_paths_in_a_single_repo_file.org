@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       e4ea6e32-6c7d-41a4-ae8d-e582d954b0d2
+:END:
 #+title: collect all tax.co and tax.co.web paths in a single (repo? file?)
 * use tax.co.web/paths.json
   commands.sh already uses it,

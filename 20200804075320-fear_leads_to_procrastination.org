@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       f93ca72a-a3cd-4037-9cc4-3758fafb6486
+:END:
 #+title: Fear Leads To Procrastination.
 * The BBC wrote about it.
 [[https://www.bbc.com/worklife/article/20200121-why-procrastination-is-about-managing-emotions-not-time][Why procrastination is about managing emotions, not time]].

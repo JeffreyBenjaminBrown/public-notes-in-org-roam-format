@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       56dc6049-3b96-436b-a4ea-41d25d1659ae
+:END:
 #+title: linear types in Haskell
 * TODO check out "linear base"
   https://github.com/tweag/linear-base/

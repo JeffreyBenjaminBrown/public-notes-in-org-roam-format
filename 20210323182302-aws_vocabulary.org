@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6d02b17d-a43e-43e2-9e75-91622bd08c38
+:END:
 #+title: AWS vocabulary
 * EB = elastic beanstalk
 * "Route 53" is a domain router

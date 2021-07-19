@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       b4493a4d-f640-43aa-9f7c-ef36c5371a03
+:END:
 #+title: AWS, frequently used commands
 * TODO for speed, use the AWS EC2 CLI
 * some variables I'll need
@@ -79,4 +82,4 @@
 *** lately
     scp -i $JBB_AWS_PEM \
        /home/jeff/.ssh/id_rsa $JBB_AWS_USER@$JBB_AWS_HOST:~
-** [[file:../ofiscal/20210419112845-tax_co_web_setting_up_an_ec2_instance_to_serve.org][deploy tax.co.web over EC2]]
+** [[id:dc3cf615-f76e-40ed-b20d-2ea09ba3f74b][deploy tax.co.web over EC2]]

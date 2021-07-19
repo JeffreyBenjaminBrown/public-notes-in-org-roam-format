@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       d118af57-a430-4ed5-81dc-8199677e39d8
+:END:
 #+title: mtv-monome
 * TODO It's really fun when the synth controls are useful.
   They don't have to cover the whole space, just a "useful" chunk --
@@ -256,6 +259,6 @@ and encoding LED patterns in the DAW would surely be ugly.
 ** What if I just send a 31-tuple every time?
 If messaging between Vivid and SC is a bottleneck, this might speed that up.
 * handy references
-** [[file:20200904185218-supercollider_software_audio.org][Supercollider (software, audio)]]
+** [[id:062d9fcc-128a-411a-b5c0-d792c47dedab][Supercollider (software, audio)]]
 ** the voice_jit or jit_test branches
  are in the old monome/ repo.

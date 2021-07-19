@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       37557bc3-593e-4288-99ec-69e6107b2ff8
+:END:
 #+title: Colombia 2021 Tax Expenditures Report, by the Tax Experts Comission
 * section 4, the corpoprate income tax
   alternatives
@@ -157,7 +160,7 @@
 ***** TEs should be analyzed yearly by sector.
       Currently it's mysterious how much money they give away to who.
 ** a radical rearrangement of those notes, with commentary
-   emailed to [[file:../pers/20200728171459-luis.org][Luis Carlos Reyes Hernandez]] on 2021 03 18
+   emailed to [[id:e3c8bb04-2d61-4255-b3da-76274f576342][Luis Carlos Reyes Hernandez]] on 2021 03 18
 *** some acronyms
 **** CIT = corporate income tax
 **** TE = "tax expenditure" = loophole, roughly

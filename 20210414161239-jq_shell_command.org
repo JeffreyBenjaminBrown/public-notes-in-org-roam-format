@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       99ce91f2-fb44-4b27-89ad-388b965b00eb
+:END:
 #+title: jq (shell command)
 * jq's purpose
   It lets you read a json file in which "paths" equals a JSON sub-dictionary of terms,

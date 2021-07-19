@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       2863ca13-3bdc-4432-89f8-0d91fb899216
+:END:
 #+title: The De Bruijn Graph (bioinformatics)
 "Bruijn" rhyms with "coin".
 * It's a multigraph,
@@ -18,5 +21,3 @@ unlike SES solutions.
 that we get exactly one kmer starting at every position in T.
 We can always build the De Bruijn graph, but in practice
 it will never be Eulerian.
-
-

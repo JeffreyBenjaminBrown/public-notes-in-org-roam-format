@@ -1,8 +1,11 @@
+:PROPERTIES:
+:ID:       f102749c-72d5-4923-9149-06f0d0151c54
+:END:
 #+title: I Hate To Whine
-even when writing to myself. 
+even when writing to myself.
 * Because whining makes for depressing reading.
 * And that doesn't makes sense.
 Just like reporters report on bad things because it's important, writing seems most likely to be useful if it's in large part about problems.
 * The root problem isn't about writing.
 At root, it's about processing hard problems.
-[[file:20200804075320-fear_leads_to_procrastination.org][I procrastinate that work, because I fear failure.]]
+[[id:f93ca72a-a3cd-4037-9cc4-3758fafb6486][I procrastinate that work, because I fear failure.]]

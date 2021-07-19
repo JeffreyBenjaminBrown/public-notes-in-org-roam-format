@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       3fe3d5f7-e5bd-4a33-8600-ba440542db57
+:END:
 #+title: Listing It (todo app for mobile)
 * how to convert org notes to Listing It notes
 ** format the org file under a single top heading

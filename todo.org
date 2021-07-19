@@ -1,4 +1,7 @@
 * git diff for org mode
+  :PROPERTIES:
+  :ID:       2b54201f-6953-4177-b38f-c632a7c71761
+  :END:
 https://github.com/jessstringham/org-mode-diff
 * haskell, to read
 ** finding bottlenecks in big projects

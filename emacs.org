@@ -1,3 +1,6 @@
 * save, reload desktop
+  :PROPERTIES:
+  :ID:       f3ca9284-eaec-40d7-9f9e-ee6ed9dd88c6
+  :END:
 desktop-save-in-desktop-dir
 desktop-change-dir ;; loads a config

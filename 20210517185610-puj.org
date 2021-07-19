@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       71bc3043-e020-47c3-8ea7-8a6183c3ea60
+:ROAM_ALIASES: PUJ Javeriana
+:END:
 #+title: Pontificia Universidad Javeriana
-#+ROAM_ALIAS: Javeriana PUJ
 * address
   Pontificia Universidad Javeriana
   Carrera 7 No. 40 - 62

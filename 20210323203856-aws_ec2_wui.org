@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4e2fe518-b70d-4851-aba1-17f589e78972
+:END:
 #+title: AWS EC2 WUI
 * This document explains
   How to remotely run commands on an EC2 instance, via SSM.

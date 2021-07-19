@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       0bad05dd-5a45-479d-a716-9a71e7abf187
+:END:
 #+title: efficiency at work
-* [[file:../tech/20210322135749-emacs_mostly_packages.org][Emacs, mostly packages]]
+* [[id:5dd27b65-8dba-4c85-82f2-fad3464b3462][Emacs, mostly packages]]
 * some good one-liners for Bash
   https://muhammadraza.me/2021/Oneliners/

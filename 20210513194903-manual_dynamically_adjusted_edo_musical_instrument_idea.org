@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       660cb0bc-e76c-48b6-844a-7ce352dc8067
+:END:
 #+title: manual dynamically adjusted EDO (musical instrument idea)
 * the idea
   One hand plays the "adjustment" interface.

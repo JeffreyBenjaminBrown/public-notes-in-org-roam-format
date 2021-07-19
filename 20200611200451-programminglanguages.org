@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       d73993b4-9c64-4365-8300-bb7b1e6e439b
+:END:
 #+title: programming languages
 * with properties I like
-** [[file:20200611200823-hamler.org][Hamler (programming language)]]
-** [[file:20200611234116-haskell.org][Haskell]]
+** [[id:b46f994e-d01e-4b2f-903d-4f6a967dc68a][Hamler (programming language)]]
+** [[id:784007e7-b851-4988-beaa-b8e4a9657357][Haskell]]
 *** lenses in Haskell
 **** Generate lenses for third-party libraries in Haskell
 https://ai-jobs.net/?rdt_cid=3040091042633392170

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       bf64537f-6127-415c-936f-a693e1bc5160
+:END:
 #+title: tennis
 * tennis checklist
 ** eat

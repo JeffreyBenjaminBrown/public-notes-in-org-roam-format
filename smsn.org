@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       55dae027-0053-4557-ba7e-2a36ef679cb4
+:ROAM_ALIASES: SmSn "Semantic Synchrony (software)"
+:END:
 #+TITLE: smsn
-#+ROAM_ALIAS: "Semantic Synchrony (software)" SmSn
 * refs
 ** handy files/folders
 *** ~/Encfs/kb-no-encfs/
@@ -56,7 +59,7 @@ docker run -it --name smsn \
     :ID:       8ed67ee7-e7ec-453d-a40e-283105c7fe8f
     :END:
 That is, a folder that Encfs is funneling data into.
-*** [[file:20210708160521-semantic_synchrony_and_git_the_commit_push_cycle.org][Semantic Synchrony and Git: the commit-push cycle]]
+*** [[id:ef82d33a-a1dd-40bc-bab4-2621fc4249c8][Semantic Synchrony and Git: the commit-push cycle]]
 ** inside smsn
 *** set-source
 **** The move mode command is "s".

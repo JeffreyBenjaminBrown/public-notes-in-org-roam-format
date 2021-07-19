@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       dd401116-a2be-49e1-903e-165cdf187f23
+:END:
 #+title: don't reinvent the wheel
 * OBSOLETE
 this has been copied to the SmSn mindmap, where it's easier to connect to stuff.

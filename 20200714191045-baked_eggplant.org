@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       b94cfaa7-9184-4cd7-bfbb-fa0de5064435
+:END:
 #+title: baked eggplant
 * 15 minutes at 400 F (205 C)
 * flip, then cook 7 more minutes

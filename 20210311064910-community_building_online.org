@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c7f2d9c2-9757-4e8f-b4f7-17ab628ed1e0
+:END:
 #+title: community-building online
 esp. for the particular case of new software
 * STALE -- This content was migrated to SmSn

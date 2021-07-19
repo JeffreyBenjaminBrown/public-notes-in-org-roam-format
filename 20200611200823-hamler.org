@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       b46f994e-d01e-4b2f-903d-4f6a967dc68a
+:END:
 #+title: Hamler (programming language)
 https://www.hamler-lang.org/
 ** Hamler is like Erlang re. concurrency

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a5891da4-6c20-471d-ac42-c666090d1cee
+:END:
 #+title: The Overlap Graph (bioinformatics)
 = a directed graph that represents the overlaps among sequences
 * defining the arrow direction

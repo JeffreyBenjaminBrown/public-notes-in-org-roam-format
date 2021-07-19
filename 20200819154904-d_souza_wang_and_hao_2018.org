@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       2a2d2ab7-8b1f-4f21-847d-bffae7aa324e
+:END:
 #+title: D’Souza, Stephanie, Wang, Qi and Hao, Lingxin. March 2018. “Genes, Social Environments, and Population Studies of Educational Achievement: Innovative Multi-sample Data Synthesis.”
 On multi-sample estimation.

@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       f442a707-fece-493a-acb6-7b1e36ee094d
+:END:
 #+title: microtonal Chapman Stick
-* having [[file:../pers/20210419103120-john_starrett.org][John Starrett]] modify it
-** DONE send $70 to [[file:../pers/20210419103510-brian_florian.org][Brian Florian]] via Paypal
+* having [[id:5af4a6c0-e582-44bd-8235-37de85e6420d][John Starrett]] modify it
+** DONE send $70 to [[id:173d2743-2253-4fb8-89c1-7fbdbfbb8087][Brian Florian]] via Paypal
 ** what I'm asking John to do
 *** refret
 *** change strings

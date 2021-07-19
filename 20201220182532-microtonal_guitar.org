@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       0fb050fc-28b8-48a6-914b-6d5970490d46
+:END:
 #+title: microtonal guitar
-* [[file:20210319143836-microtonal_chapman_stick.org][microtonal Chapman Stick]]
-* [[file:20210423201225-fret_markers_my_preferred_system_of.org][fret markers, my preferred system of]]
+* [[id:f442a707-fece-493a-acb6-7b1e36ee094d][microtonal Chapman Stick]]
+* [[id:d241a1c3-2a83-4134-89c6-c85b2ed6a51c][fret markers, my preferred system of]]
 * some many-stringed guitars
 ** the Jackson SLAT8
    https://www.jacksonguitars.com/gear/shape/soloist/x-series-soloist-archtop-slat8-ms/2916767503
@@ -34,5 +37,5 @@ If I buy a replacement neck from Metatonal Music, is there a
 ** use masking tape to protect the neck around the fret
    when heating with soldering iron
 ** clean the fret slots once the frets are out
-* [[file:20210223093816-how_i_used_zipties_to_turn_a_12_edo_guitar_into_a_24_edo_one.org][How I used zipties to turn a 12-edo guitar into a 24-edo one]]
-* [[file:20210223205954-removing_frets_contacting_luthiers_in_bogota_about.org][removing frets: contacting luthiers in Bogota about]]
+* [[id:e2180862-c11c-4125-b50b-a4102724011f][How I used zipties to turn a 12-edo guitar into a 24-edo one]]
+* [[id:4a2d3aa0-b317-4bf1-ac51-ba8c60b300dc][removing frets: contacting luthiers in Bogota about]]

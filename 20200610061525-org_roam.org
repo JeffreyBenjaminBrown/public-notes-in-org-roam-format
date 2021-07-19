@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       63f366e6-b768-4f3f-9093-a776f2b4e069
+:END:
 #+title: org-roam
 * PITFALL: notes with nothing but a title
   :PROPERTIES:

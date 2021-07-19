@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       f792bd37-fba4-4d69-ad3e-8a95d7902e07
+:END:
 #+title: DNA
-* [[file:20200803192555-dna_sequences_are_very_non_random.org][DNA sequences are very non-random]].
-* [[file:20200804200741-in_dna_some_edits_are_more_likely_than_others.org][In DNA, some edits are more likely than othersa.]]
+* [[id:a25aed59-6350-4ac0-9209-4a83548b1be9][DNA sequences are very non-random]].
+* [[id:49d6af05-cd0b-4011-a28d-c13af9559f8a][In DNA, some edits are more likely than othersa.]]
 * The human DNA reference genome is changed (updated) around once a year.
 * GC content
 = the fraction of the genome containing Gs or Cs.

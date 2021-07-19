@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ac6d4247-4880-4740-9aa3-0407f4d8b397
+:END:
 #+title: NixOS, how to upgrade
 * This worked, going from 19.09 to 20.03.
 * The procedure
