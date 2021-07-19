@@ -3,7 +3,7 @@
 * the process
 ** basically
 Chops up the DNA into short single-strand subsets,
-and puts them on a flat surface (billions on a single slide), 
+and puts them on a flat surface (billions on a single slide),
 scattered randomly.
 Then add DNA polymerase, and [[file:20200729181910-terminated.org][terminated bases]].
 Then take a photo.

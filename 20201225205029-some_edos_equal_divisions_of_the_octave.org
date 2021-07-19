@@ -620,10 +620,29 @@ This is on the Xen Wiki.
             , 23 steps; 11 % 8 ; string 4 ; fret - 1
             , 35 steps; 13 % 8 ; string 5 ; fret 0
             , 45 steps; 15 % 8 ; string 5 ; fret 2
-** 50 2 19: 25-edo frets, octave (2,6), 13-limit 2x8
+** 50 2 19: 25-edo frets, octavess (2,6) and (4,-13), 13-limit 2x8
    :PROPERTIES:
    :ID:       c68ee78d-7cc0-4143-90a9-d55ea177da65
    :END:
+    [ 0 steps; 1 % 1 ; string 0 ; fret 0
+    , 50 steps; 2 % 1 ; string 2 ; fret 6
+    , 29 steps; 3 % 2 ; string 1 ; fret 5
+    , 16 steps; 5 % 4 ; string 0 ; fret 8
+    , 40 steps; 7 % 4 ; string 2 ; fret 1
+    , 8 steps; 9 % 8 ; string 0 ; fret 4
+    , 23 steps; 11 % 8 ; string 1 ; fret 2
+    , 35 steps; 13 % 8 ; string 1 ; fret 8
+    , 45 steps; 15 % 8 ; string 1 ; fret 13
+** 50 9 4: 12.5-edo frets, octaves (6,-1) | (2,8), 15-lim 4x8 | 6x6
+    0 steps;  1 % 1 ; string 0 ; fret 0
+   50 steps;  2 % 1 ; string 6 ; fret - 1 | string 2 fret 8
+   29 steps;  3 % 2 ; string 1 ; fret 5
+   16 steps;  5 % 4 ; string 0 ; fret 4
+   40 steps;  7 % 4 ; string 4 ; fret 1
+    8 steps;  9 % 8 ; string 0 ; fret 2
+   23 steps; 11 % 8 ; string 3 ; fret - 1 | string -1 fret 8
+   35 steps; 13 % 8 ; string 3 ; fret 2
+   45 steps; 15 % 8 ; string 5 ; fret 0
 * 53-edo
 ** 53 5 12: 15-lim 0-area 4x6, or 5x4 without 13
    [ 0 steps; 1 % 1 ; string 0 ; fret 0
@@ -923,7 +942,7 @@ This is on the Xen Wiki.
 53 steps; 29 % 16 ; string 4 ; fret -1
 59 steps; 31 % 16 ; string 4 ; fret 1
 * 63-edo
-** 63 6 13: 10.5 edo frets, 15-lim 0-area 4x8 (4x5 sans 11), balanced octave (3,4)
+** 63 6 13: 10.5 edo frets, 15-lim 0-area 4x8 (4x5 sans 11), octave (3,4)
    :PROPERTIES:
    :ID:       c88e7526-3993-4cae-95fb-63102f75d7c0
    :END:
@@ -1138,7 +1157,7 @@ This is on the Xen Wiki.
     The second-best 7 is 53\63, error 9.5c, but at (5,-6) or (3,7).
       (3,7) actually plays well with the other fret positions.
     But that only matters when playing it with harmonics with substantial positive error, which include only 13, 17 and maybe 29.
-** 65 8 11: 15-lim 0-area 5x6, weird backward 5:4, balanced octave (3,4)
+** 65 8 11: 15-lim 0-area 5x6, weird backward 5:4, octave (3,4)
    :PROPERTIES:
    :ID:       d45e7329-7321-4e6f-b43e-0ac4fb85ff3b
    :END:

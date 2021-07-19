@@ -1,18 +1,7 @@
 #+title: mtv-ji
 * TODO make a table of many thanos reports
-** TODO implement a "correction" phase to the fret calculations
-   It should remap fret numbers, not notes -- so, e.g., if it finds that some things are on fret 6, and remaps to fret -4, it remaps everything on fret 6 to fret -4 at once.
-   Once the program has chosen fret positions for all harmonics,
-   revise them such that if any can be adjusted to be closer on average to the others, it is.
-   Keep revising until that can't be done to anything. (Hopefully there are no cycles.)
-** TODO compute through the 15-limit, including 9
-   f n = ( n,
-        map round . take 5 . map (\(_,(_,_,err)) -> err) . bests $ n )
-   myPrint $ map f [31 .. 120]
 ** TODO add harmonic justice to the report
    This will make filtering the report more useful.
-** *all* the thanos tunings for spacing between say 1\12 and 5\12.
-** Then try various filters on that.
 * TODO ? find all 8-string-ish thanos tunings for an edo
   (That is, strings 0 through 7.)
 

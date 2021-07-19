@@ -8,11 +8,11 @@ and it will show something like
     Subdevices: 1/1
     Subdevice #0: subdevice #0
 Refer to such devices as "hw:x,y", where x is the card number,
-and y the device number.  
+and y the device number.
 ** record a sample
 arecord -f S16_LE -c 1 -d 4 -r 44100 --device="hw:1,0" /tmp/test-mic.wav
 -f = dunno
--c = number of channels. 
+-c = number of channels.
   (My current builtin mic has 2; my current USB mic has 1.)
 -d = duration (seconds)
 -r = sample rate

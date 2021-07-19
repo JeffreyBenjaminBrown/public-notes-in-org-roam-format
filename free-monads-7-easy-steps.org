@@ -26,16 +26,16 @@ fmap f (GetState g) = GetState (f . g)
 * step 3 - make the "operation functions
 ** looks somethign* like this
   import Control.Monad.Free
-  
+
   initState :: Free (DcNodeOperator state error) ()
   initState = Free (InitServer state error (Pure ()))
-  
+
   getState :: Free (DcNodeOperator state error) state
   getState = Free (GetState state error) id
 ** TODO difficulties
 *** I think there's an error in the article
 I believe that when he wrote `getState :: Free (GetState state error) state`,
-he mean `getState :: Free (DcNodeOperator state error) state`. 
+he mean `getState :: Free (DcNodeOperator state error) state`.
 That's how I transcribed it above.
 *** WTF is "id" doing in the definition of `getState`?
 ** can be automatic, too
