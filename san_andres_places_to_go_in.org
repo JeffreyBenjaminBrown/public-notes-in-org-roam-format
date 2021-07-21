@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       1480ac44-2794-42e2-8a3e-1ac59489a150
+:END:
+#+title: San Andres, places to go in
+* places Anthony recommends
+** Old Point (mangrove park)
+   North part of the east coast.
+** Big Pond (lake in the middle)
+   middle of the island
+** West View (friendly fish)
+   south-middle of the west coast

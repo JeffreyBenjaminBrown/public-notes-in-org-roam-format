@@ -2,15 +2,25 @@
 :ID:       45a95cbc-1168-41c1-930d-3ecd746f408e
 :END:
 #+title: Karya (music software)
-* Music scoring/generation suite, written in Haskell
-* Does clever caching to avoid re-rendering.
-  Audio snippets are cached ala Nix.
-  GUI images are cached more simply.
-* Kinds of IO
-** Uses Faust
-   which is faster and less friendly than SuperCollider.
-** Uses FLTK for GUI
-   which is 90s old school.
-** Can output to a DAW (I think), or at least to a VST host.
-* Heroic
-  180K LOC, 15 year history, only 1 developer.
+* what Karya is
+** Music scoring/generation suite, written in Haskell
+** Does clever caching to avoid re-rendering.
+   Audio snippets are cached ala Nix.
+   GUI images are cached more simply.
+** Kinds of IO
+*** Uses Faust
+    which is faster and less friendly than SuperCollider.
+*** Uses FLTK for GUI
+    which is 90s old school.
+*** Can output to a DAW (I think), or at least to a VST host.
+** Heroic
+   180K LOC, 15 year history, only 1 developer.
+* nix concerns
+ `systemctl cat jackd` once running jack.
+ Find out where qjackctl gets jack from.
+* ? osc, sc backend
+  OSC has timestamps, so SC can do scheduling.
+* (notes -> score) is already written
+* contact
+  https://ofb.net/~elaforge/karya/doc/overview.md.html
+  https://github.com/elaforge/karya

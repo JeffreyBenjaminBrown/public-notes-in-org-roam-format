@@ -2,13 +2,16 @@
 :ID:       63f366e6-b768-4f3f-9093-a776f2b4e069
 :END:
 #+title: org-roam
+* [[id:2aef3e2d-4518-4d44-ba76-93feeb0fc981][org-roam v2 migration, my story]]
 * PITFALL: notes with nothing but a title
   :PROPERTIES:
   :ID:       a24e17db-7c46-45c7-a4b9-ca053559e65f
   :END:
-can nonetheless be important, thanks to backlinks
+  can nonetheless be important, thanks to backlinks
 * REMEMBER the Discourse group
-* surprise & how it works
+* org-roam usage
+** to rebuild the cache
+   M-x -db-s
 ** link descriptions are automatically refactored
 *** maybe only in a newer version than the one I use?
 *** this can be disabled:
@@ -23,10 +26,8 @@ https://org-roam.discourse.group/t/links-descriptions-auto-refactoring/710/3?u=j
 that is, by saving the file that contains the backlink,
 after creating the backlink
 ** To use a weird symbol (e.g. '\' or ',') in an alias
-Enclose the whole tag in parens.
-Write '\' as \\.
-* TODO convert to org-roam v2
-  https://org-roam.discourse.group/t/the-org-roam-v2-great-migration/1505
+   Enclose the whole tag in parens.
+   Write '\' as \\.
 * TODO tweak
 ** TODO use Nix to install org-roam
 *** TODO PITFALL: must first procedurally uninstall org-roam

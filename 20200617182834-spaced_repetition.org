@@ -64,6 +64,10 @@ It's dangerous to leave files I want in a clone of a git repo without adding the
 ** Countries might not give the widest coverage as units of news analysis.
    There's something repetitive about "this country's got a tyrant ... and this other country's got a tyrant ... and here's what the tyrant over there's doing ..."
 * reviewed, still no insight
+** on wonder, fear, and creativity
+    "If the world seems to be getting bigger and funnier all the time, your intelligence is steadily increasing. If the world seems to be getting smaller and nastier all the time, your stupidity is steadily increasing.”
+
+     — Robert Anton Wilson
 ** befuddling: links in knowledge graphs
 *** link labels vs. link contexts
     [[id:46b695c5-617e-47a8-b699-ef2b7ec29e81][the context of a link matters]]

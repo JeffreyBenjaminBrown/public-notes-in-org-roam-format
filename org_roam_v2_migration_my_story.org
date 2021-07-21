@@ -1,0 +1,106 @@
+:PROPERTIES:
+:ID:       2aef3e2d-4518-4d44-ba76-93feeb0fc981
+:END:
+#+title: org-roam v2 migration, my story
+* DONE HOPEFULLY: migration, and "selecting deleted buffer" error
+** others have had the same issue
+   https://github.com/org-roam/org-roam/issues/1603
+** my migration story
+*** title
+    Migrataion wizard aborts with error "Selecting deleted buffer"
+*** first error: "selecting deleted buffer"
+    MELPA bumped my version of org-roam to 2, and I got a warning on restarting Emacs that I should migrate my notes. I ran `M-x org-roam-migrate-wizard (after backing up my org-roam data), and it seemed to hum along for a little while. Then I got this error:
+
+```
+Debugger entered--Lisp error: (error "Selecting deleted buffer")
+  #f(compiled-function (connection) "Clear the process buffer for CONNECTION-SPEC." #<bytecode 0x6ebd41>)(#<emacsql-sqlite-connection emacsql-sqlite-connection-b39478>)
+  apply(#f(compiled-function (connection) "Clear the process buffer for CONNECTION-SPEC." #<bytecode 0x6ebd41>) #<emacsql-sqlite-connection emacsql-sqlite-connection-b39478> nil)
+  emacsql-clear(#<emacsql-sqlite-connection emacsql-sqlite-connection-b39478>)
+  #f(compiled-function (connection sql &rest args) "Send SQL s-expression to CONNECTION and return the results." #<bytecode 0x5dedd9>)(#<emacsql-sqlite-connection emacsql-sqlite-connection-b39478> [:commit])
+  apply(#f(compiled-function (connection sql &rest args) "Send SQL s-expression to CONNECTION and return the results." #<bytecode 0x5dedd9>) #<emacsql-sqlite-connection emacsql-sqlite-connection-b39478> [:commit])
+  emacsql(#<emacsql-sqlite-connection emacsql-sqlite-connection-b39478> [:commit])
+  org-roam-db--upgrade-maybe(#<emacsql-sqlite-connection emacsql-sqlite-connection-b39478> 10)
+  org-roam-db()
+  org-roam-db-query([:select [file level pos todo priority scheduled deadline title properties olp] :from nodes :where (= id $s1) :limit 1] "b7a2e668-fdb1-4ce8-9b6c-37757768b3c1")
+  #f(compiled-function (node) "Populate NODE from database.\nUses the ID, and fetches remaining details from the database.\nThis can be quite costly: avoid, unless dealing with very few\nnodes." #<bytecode 0xa21f0d>)(#s(org-roam-node :file nil :file-hash nil :file-atime nil :file-mtime nil :id "b7a2e668-fdb1-4ce8-9b6c-37757768b3c1" :level nil :point 1 :todo nil :priority nil :scheduled nil :deadline nil :title nil :properties nil :olp nil :tags nil :aliases nil :refs nil))
+  apply(#f(compiled-function (node) "Populate NODE from database.\nUses the ID, and fetches remaining details from the database.\nThis can be quite costly: avoid, unless dealing with very few\nnodes." #<bytecode 0xa21f0d>) #s(org-roam-node :file nil :file-hash nil :file-atime nil :file-mtime nil :id "b7a2e668-fdb1-4ce8-9b6c-37757768b3c1" :level nil :point 1 :todo nil :priority nil :scheduled nil :deadline nil :title nil :properties nil :olp nil :tags nil :aliases nil :refs nil) nil)
+  org-roam-populate(#s(org-roam-node :file nil :file-hash nil :file-atime nil :file-mtime nil :id "b7a2e668-fdb1-4ce8-9b6c-37757768b3c1" :level nil :point 1 :todo nil :priority nil :scheduled nil :deadline nil :title nil :properties nil :olp nil :tags nil :aliases nil :refs nil))
+  org-roam-node-at-point(assert)
+  org-roam-alias-add("travel, jbb")
+  org-roam-migrate-v1-to-v2()
+  org-roam-migrate-wizard()
+  funcall-interactively(org-roam-migrate-wizard)
+  call-interactively(org-roam-migrate-wizard record nil)
+  command-execute(org-roam-migrate-wizard record)
+  execute-extended-command(nil "org-roam-migrate-wizard" "org-mig-wi")
+  funcall-interactively(execute-extended-command nil "org-roam-migrate-wizard" "org-mig-wi")
+  call-interactively(execute-extended-command nil nil)
+  command-execute(execute-extended-command)
+```
+*** next error: "file exists"
+    Nonplussed, I opened another Emacs instance and ran the wizard again. This time I got
+
+```
+Debugger entered--Lisp error: (file-already-exists "File exists" "/home/jeff/org-roam.bak")
+  make-directory-internal("/home/jeff/org-roam.bak")
+  make-directory("/home/jeff/org-roam.bak" nil)
+  copy-directory("/home/jeff/org-roam" "/home/jeff/org-roam.bak")
+  org-roam-migrate-wizard()
+  funcall-interactively(org-roam-migrate-wizard)
+  call-interactively(org-roam-migrate-wizard record nil)
+  command-execute(org-roam-migrate-wizard record)
+  execute-extended-command(nil "org-roam-migrate-wizard" "or-wiz")
+  funcall-interactively(execute-extended-command nil "org-roam-migrate-wizard" "or-wiz")
+  call-interactively(execute-extended-command nil nil)
+  command-execute(execute-extended-command)
+```
+*** next, I restored my own backup, made another backup (with a better name), and trying again
+    The Github issue said that it was a timeout problem, so this seems reasonable.
+*** I have a bunch of .bak folders
+    The wizard creates them each time it runs,
+    and it doesn't want one to already exist.
+    So I'm renaming each to .back.N,
+    starting with N=0.
+* removed org-roam-mode-map from my .emacs dotfile
+ :bind (:map org-roam-mode-map
+             (("C-c n b" . org-roam) ;; opens the roam-buffer
+              ("C-c n f" . org-roam-node-find)
+              ;; ("C-c n g" . org-roam-graph))
+              :map org-mode-map
+              (("C-c n i" . org-roam-insert))
+              (("C-c n I" . org-roam-insert-immediate))
+              (("C-c n l" . org-store-link))
+              ;; (("C-c C-l" . org-insert-link))
+              )))
+* Asking: How to link to a headline
+  https://org-roam.discourse.group/t/how-to-link-to-a-headline-in-v2/1778
+  I just upgraded to v2. Now I don't know how to link to headlines, just files. (Ironic, because I understand that the mechanism for doing both is the same now.)
+
+  The way I used to link to headlinles was with `org-store-link` and `org-insert-link`. I used to define them via `org-roam-mode-map`, but now that appears to have gone away, so instead I define global shortcuts:
+
+```
+(global-set-key (kbd "C-c C-l")
+		(lambda () (interactive)
+		  (org-insert-link) ) )
+(global-set-key (kbd "C-c n l")
+		(lambda () (interactive)
+		  (org-store-link) ) )
+(global-set-key (kbd "C-c n f")
+		(lambda () (interactive)
+		  (org-roam-node-find) ) )
+```
+
+ `org-roam-node-find` and `org-insert-link` works as I had hoped. And `M-x org-store-link` does *something*, albeit not what I'd like. (I'd like it to insert PROPERTIES and an ID for the node, like it used to.) But when I run the shortcut for `org-store-link`, I get this error:
+
+```
+Debugger entered--Lisp error: (wrong-number-of-arguments (1 . 2) 0)
+  org-store-link()
+  (lambda nil (interactive) (org-store-link))()
+  funcall-interactively((lambda nil (interactive) (org-store-link)))
+  call-interactively((lambda nil (interactive) (org-store-link)) nil nil)
+  command-execute((lambda nil (interactive) (org-store-link)))
+```
+
+ I can see that it wants more arguments, and I see in the documentation that the second argument indicates whether it was called interactively. but I can't find anywhere in the documentation what the meaning of the first argument is.
+
+ Am I on the right track, or are `org-store-link` and `org-insert-link` not even the functions to use any more?

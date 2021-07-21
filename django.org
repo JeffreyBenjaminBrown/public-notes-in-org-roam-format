@@ -3,6 +3,12 @@
 :END:
 #+title: Django (Python web framework)
 * TODO
+** Django Formsets: good for dynamic tables
+   with "a little bit of Javascript",
+   according to Ken Whitesall:
+   https://forum.djangoproject.com/t/how-to-read-non-django-html-form-data/8864/6
+** remote-pdb: use pdb from Django
+   https://forum.djangoproject.com/t/how-to-read-non-django-html-form-data/8864/9
 ** [[id:275e4978-231c-474b-8bdf-9cd80104ff50][Django in AWS (esp. AWS EB)]]
 ** find, display pictures
 *** Substitute folder path into image name.
