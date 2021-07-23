@@ -3,6 +3,7 @@
 :ROAM_ALIASES: PUJ Javeriana
 :END:
 #+title: Pontificia Universidad Javeriana
+* [[id:72ef7c24-5479-46da-ad2c-3a6eeabb7518][Javeriana's campus, the Covid survey for permission onto]]
 * address
   Pontificia Universidad Javeriana
   Carrera 7 No. 40 - 62

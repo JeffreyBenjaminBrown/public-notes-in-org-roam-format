@@ -2,6 +2,7 @@
 :ID:       45a95cbc-1168-41c1-930d-3ecd746f408e
 :END:
 #+title: Karya (music software)
+* [[id:e4edbcea-ac19-4768-ac96-9555fb8021b1][installing Karya, my experience]]
 * what Karya is
 ** Music scoring/generation suite, written in Haskell
 ** Does clever caching to avoid re-rendering.

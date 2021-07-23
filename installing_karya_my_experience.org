@@ -1,0 +1,78 @@
+:PROPERTIES:
+:ID:       e4edbcea-ac19-4768-ac96-9555fb8021b1
+:END:
+#+title: installing Karya, my experience
+* DONE via my NixOS config
+** installed cachix and faust
+** added ./cachix.nix to my list of imports in configuration.nix
+* DONE sudo cachix use elaforge
+* TODO ? tools/nix-enter warned me a few times.
+  serial
+** seems to start well
+   [jeff@jbb-dell:~/code/karya]$ tools/nix-enter
+   nix-shell --attr buildEnv --arg withDocs true --run exec /run/current-system/sw/bin/bash
+   unpacking 'https://github.com/nixos/nixpkgs/archive/2118cf551b9944cfdb929b8ea03556f097dd0381.tar.gz'...
+** then two identical warnings about branch names
+   hint: Using 'master' as the name for the initial branch. This default branch name
+   hint: is subject to change. To configure the initial branch name to use in all
+   hint: of your new repositories, which will suppress this warning, call:
+   hint:
+   hint:   git config --global init.defaultBranch <name>
+   hint:
+   hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+   hint: 'development'. The just-created branch can be renamed via this command:
+   hint:
+   hint:   git branch -m <name>
+
+   hint: Using 'master' as the name for the initial branch. This default branch name
+   hint: is subject to change. To configure the initial branch name to use in all
+   hint: of your new repositories, which will suppress this warning, call:
+   hint:
+   hint:   git config --global init.defaultBranch <name>
+   hint:
+   hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+   /hint: 'development'. The just-created branch can be renamed via this command:
+   hint:
+   hint:   git branch -m <name>
+** middle passage seems good
+   these derivations will be built:
+     /nix/store/7w38n6m5pfw4czq8hqv3660h61x29p0f-ghc-8.10.3-with-packages.drv
+     /nix/store/sm9kijvljrpdrrilpcjji28dmk540wv9-ShakeConfig.hs.drv
+     /nix/store/shfcl6gxzsf2b9ss078x48bh3ny1rvzh-setup.sh.drv
+   these paths will be fetched (223.83 MiB download, 2812.67 MiB unpacked):
+     /nix/store/09hpjhgmpwxc8jqspajz2bcl8s9c5wnc-primitive-0.7.1.0
+     /nix/store/0bbxjidnp1pp31a27jp29r1h5n3kydd6-monad-control-1.0.2.3-doc
+     /nix/store/0ifa6b40j74jfkghyyir801r0wn0ginp-hashable-1.3.1.0-doc
+
+  ... << many momre "/nix/store" lines like that >>
+
+   copying path '/nix/store/9468v303q48066aych1cy7ddd40b3dyd-libsamplerate-elaforge' from 'https://elaforge.cachix.org'...
+   copying path '/nix/store/z1sx136p21ipwg3h5kj3bdky19js2a7n-openlilypond-font-bravura-53c7744' from 'https://cache.nixos.org'...
+   copying path '/nix/store/gfl30j3311cimjgxl0q1d4734rwrcisp-c2hs-0.28.7-data' from 'https://elaforge.cachix.org'...
+
+   ... << many momre "copying" lines like that >>
+
+   copying path '/nix/store/i7vdazv51gw82xxri9zsq3fixfkcm4aa-fltk-1.4-3bb3429670f29bbf82424ce234d914201eee2d3f' from 'https://elaforge.cachix.org'...
+   building '/nix/store/sm9kijvljrpdrrilpcjji28dmk540wv9-ShakeConfig.hs.drv'...
+   building '/nix/store/shfcl6gxzsf2b9ss078x48bh3ny1rvzh-setup.sh.drv'...
+   copying path '/nix/store/nz6dy8l5g2cq3ja0bwkckyk0770xq10b-base-compat-0.11.2-doc' from 'https://elaforge.cachix.org'...
+
+   ... << many momre "copying" lines like that >>
+
+   building '/nix/store/7w38n6m5pfw4czq8hqv3660h61x29p0f-ghc-8.10.3-with-packages.drv'...
+   /nix/store/a7pk0bpgmf65ilwkp3kh11as70bn9dm9-cryptohash-md5-0.11.100.1/nix-support:
+   propagated-build-inputs: /nix/store/n1zmgjn34ql72vpnn9wxpdpwlp27y5wl-hsndfile-vector-0.5.2/nix-support/propagated-build-inputs
+   /nix/store/pwgbvvir925icdyl4fdpx02axza1c6j3-bindings-portaudio-0.3/nix-support:
+   propagated-build-inputs: /nix/store/n1zmgjn34ql72vpnn9wxpdpwlp27y5wl-hsndfile-vector-0.5.2/nix-support/propagated-build-inputs
+   /nix/store/q1gf8nn05s41bg5i6lbv6qp69lw7kp2x-zmidi-core-0.9.0/nix-support:
+
+   ... << many more "propagated-build-inputs" lines like that >> ...
+** then it ends with two warnings
+   propagated-build-inputs: /nix/store/n1zmgjn34ql72vpnn9wxpdpwlp27y5wl-hsndfile-vector-0.5.2/nix-support/propagated-build-inputs
+   /nix/store/4c9qqa1vaii26173mxy5kc2rbjb9mwbc-Diff-0.4.0/nix-support:
+   propagated-build-inputs: /nix/store/n1zmgjn34ql72vpnn9wxpdpwlp27y5wl-hsndfile-vector-0.5.2/nix-support/propagated-build-inputs
+   /nix/store/dsnc8bw6lvwz7zya696cmzg6ivb5qd7l-ghc-8.10.3/nix-support:
+   propagated-build-inputs: /nix/store/n1zmgjn34ql72vpnn9wxpdpwlp27y5wl-hsndfile-vector-0.5.2/nix-support/propagated-build-inputs
+   Warning: haddock-interfaces: /nix/store/xxwl41w9ylh5lmyv33dd1cdziqkx4xc0-writer-cps-transformers-0.5.6.1/share/doc/x86_64-linux-ghc-8.10.3/writer-cps-transformers-0.5.6.1/html/writer-cps-transformers.haddock doesn't exist or isn't a file
+   Warning: haddock-html: /nix/store/xxwl41w9ylh5lmyv33dd1cdziqkx4xc0-writer-cps-transformers-0.5.6.1/share/doc/x86_64-linux-ghc-8.10.3/writer-cps-transformers-0.5.6.1/html doesn't exist or isn't a directory
+   Adding generated Local/ShakeConfig.hs
