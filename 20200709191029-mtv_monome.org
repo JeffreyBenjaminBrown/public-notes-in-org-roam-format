@@ -2,6 +2,11 @@
 :ID:       d118af57-a430-4ed5-81dc-8199677e39d8
 :END:
 #+title: mtv-monome
+* TODO fix default freq in moop
+-- TODO: This previously depended on the base frequency in
+-- Montevideo.Monome.Config.Mtv, but that creates a cyclic project dependency
+-- (synth -> monome -> synth).
+-- Instead, make the default frequency a parameter of this function.
 * TODO It's really fun when the synth controls are useful.
   They don't have to cover the whole space, just a "useful" chunk --
   one that's diverse and consistently good.

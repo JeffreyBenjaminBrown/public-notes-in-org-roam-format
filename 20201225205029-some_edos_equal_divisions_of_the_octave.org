@@ -805,6 +805,7 @@ This is on the Xen Wiki.
         , 27 steps; 11 % 8 ; string 2 ; fret 1
         , 41 steps; 13 % 8 ; string 2 ; fret 3
 ** TODO 58 2 15: octave (4,-1), 15-lim 4x8, 31-lim 4x12
+*** layout
     0 steps;  1 % 1  ; string 0 ; fret 0
    58 steps;  2 % 1  ; string 4 ; fret - 1
    34 steps;  3 % 2  ; string 2 ; fret 2
@@ -822,13 +823,39 @@ This is on the Xen Wiki.
    44 steps; 27 % 16 ; string 2 ; fret 7
    50 steps; 29 % 16 ; string 4 ; fret - 5
    55 steps; 31 % 16 ; string 3 ; fret 5
-** 58 2 13: octave (4,3), 15-lim 4x7, 31-lim 5x10
+*** pairs well with 58 4 15
+    :PROPERTIES:
+    :ID:       7ca8eac9-df44-4894-9ada-ade23af32774
+    :END:
+    A guitar could use 58 2 15 on the low frets,
+    and 58 4 15 on the high ones.
+** TODO 58 4 15: octave (2,7), 15-lim 4x13
+*** [[id:7ca8eac9-df44-4894-9ada-ade23af32774][pairs well with 58 2 15]]
+*** 15-lim layout
+    [ 0 steps; 1 % 1 ; string 0 ; fret 0
+    , 58 steps; 2 % 1 ; string 2 ; fret 7
+    , 34 steps; 3 % 2 ; string 2 ; fret 1
+    , 19 steps; 5 % 4 ; string 1 ; fret 1
+    , 47 steps; 7 % 4 ; string 1 ; fret 8
+    , 10 steps; 9 % 8 ; string 2 ; fret - 5
+    , 27 steps; 11 % 8 ; string 1 ; fret 3
+    , 41 steps; 13 % 8 ; string 3 ; fret - 1
+    , 53 steps; 15 % 8 ; string 3 ; fret 2
+** TODO 58 2 13: octave (4,3), 15-lim 4x7, 31-lim 5x10
    :PROPERTIES:
    :ID:       3d0440f4-ef24-4ada-b75c-9ba23f7702a1
    :END:
-*** the layout is (basically) dominated by 58 2 15
+*** *awesome*: pairs well with 58 4 13
+    :PROPERTIES:
+    :ID:       c9cda248-a07a-49e5-a0b0-e0e4f768d46e
+    :END:
+    58 2 13 could be used on the low frets,
+    and 58 4 13 on the high ones.
+*** on its own*, the layout is (basically) dominated by 58 2 15
     This one has a slightly smaller 15-limit brick: 4x7 < 4x8
     But the other has better octaves and a better 15:8.
+
+    * On its own, that is, as opposed to [[id:c9cda248-a07a-49e5-a0b0-e0e4f768d46e][paired 58 4 13]].
 *** it's a 29-edo guitar, at which point, why not just use 31.
 *** primes through 13 + easy higher primes
 58 steps =  2 % 1  : str 4 fret 3
@@ -855,6 +882,10 @@ This is on the Xen Wiki.
   the next-best      14c error instead of -7c
   located at         str 4 fret 2
   plays better with harmonics 5, 11, 13, 29 (and the 2nd-best 19 and 23)
+** TODO 58 4 13: 23-limit 6x8, octave (6,-5) or (2,8)
+   [[id:c9cda248-a07a-49e5-a0b0-e0e4f768d46e][pairs well with 58 2 13]]
+   Octave at (4,1.5) reachable with a Whammy pedal.
+   Pr.pPrint $ bestLayout' 23 58 13 4
 ** 58 2 11: horrible major chords
  5 steps = 17 % 16 : str 1 fret -3 | str -1 fret 8
 14 steps = 19 % 16 : str 2 fret -4 | str 0 fret 7

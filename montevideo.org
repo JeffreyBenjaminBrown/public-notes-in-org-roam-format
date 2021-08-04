@@ -3,6 +3,8 @@
 :ROAM_ALIASES: mtv
 :END:
 #+TITLE: montevideo (music software)
+* TODO make reloading work in `cabal repl`
+  https://stackoverflow.com/questions/63983850/how-can-i-have-ghci-reload-include-changes-in-the-local-dependent-library
 * TODO capture from the monome
 ** TODO (many)
 *** test toMuseq

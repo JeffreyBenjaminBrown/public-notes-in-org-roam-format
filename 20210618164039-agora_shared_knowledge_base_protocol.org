@@ -2,6 +2,8 @@
 :ID:       f9ee18e9-68f2-4f10-b10d-c91186b797e3
 :END:
 #+title: Agora (shared knowledge base (protocol))
+* TODO where to find Flancian
+  https://org-roam.discourse.group/t/package-dedicated-to-workflows-publishing-digital-garden-on-web/536/28?u=jeffbrown
 * refs
 ** the Git issue I filed
    :PROPERTIES:

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       08dccfce-bc5f-427b-9fd2-07f08b1205e1
+:END:
+#+title: disaster prep
+* TODO emergency contact list, on paper
+  people I know
+  organizations
+* TODO check for can opener
+* TODO buy emergency blanket
+* TODO buy solar charger
+* Canned goods -- can't necessarily use electricity.
+* [[id:787cc5aa-3a8f-457b-93d7-cf791bd6b749][nutritional advice that spiked my PT/INR]]
