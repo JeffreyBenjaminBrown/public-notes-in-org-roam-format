@@ -4,28 +4,23 @@
 #+title: Borg (backup software)
 * how to test a copy of a borg repo
 ** the problem
-   Done naively (download borg repo, unzip it, extract from it) generates a security error.
-** the procedure: how to avoid the security error
-*** download, unzip the backup repo
-*** hide two folders that get in the way
-    ~/.cache/borg/<id>
-    ~/.config/borg/security/<id>
-**** example commands
-     PITFALL: The first time I did this, one of the folders disappeared. Copy, check and then delete might be safer than move.
-
-     id=8a5d54325513c3b57e555ac72a43203f069956c1649462a0bf38b47d71cc6063
-
-     mkdir hack
-     mkdir hack/cache
-     mkdir hack/config
-
-     mv ~/.cache/borg/$id hack/cache
-     mv ~/.config/borg/security/$id hack/config
-*** borg extract
-    PITFALL: It restores to the current working directory.
-    borg extract /run/media/jeff/_Toshi-2020-2TB/restore-test/borg-repo::2021-05-11
-*** compare that to what it should be
-*** restore those files that were in the way
-**** example commands
-     mv hack/cache/$id  ~/.cache/borg/
-     mv hack/config/$id ~/.config/borg/security/
+   I copied the borg dir to a USB drive,
+   then updated the info on that USB drive,
+   then tried to update the original.
+   My attempt was rejected as a possible security threat.
+** the reason it was detected as weird, I believe
+   is that ~/.cache/borg had a record of all backups made,
+   and when I tried to add a backup to the repo on disk,
+   it saw that that repo was missing one of the backups.
+** the mystery
+   :PROPERTIES:
+   :ID:       0548f067-16e4-47d2-b59a-da72b97d7f80
+   :END:
+   Even after I hid ~/.cache/borg,
+   I still wasn't permitted to update the less up-to-date repo.
+** a solution: Always use (a copy of) the latest data.
+   When I copied the more up-to-date borg repo from the USB
+   back to the hard drive,
+   and tried to update that repo, it worked fine.
+   I did not even have to touch ~/.cache/borg.
+   (Note that this leaves [[id:0548f067-16e4-47d2-b59a-da72b97d7f80][the mystery]] above unsolved.)
