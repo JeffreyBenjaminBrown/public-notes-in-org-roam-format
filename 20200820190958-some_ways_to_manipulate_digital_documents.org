@@ -13,6 +13,11 @@ Converting afterward works much worse.
 Convert with `convert` (imagemagick), but concat with `pdftk`.
   Concatenating pdfs with `convert` seems to waste space.
   (Using the same to concatenate non-pdfs into one pdf might be okay.)
+* how to format a headshot for a Colombian visa
+  :PROPERTIES:
+  :ID:       53bb194e-7b52-48ad-91a8-1621010c4462
+  :END:
+  Use the Passport Photo Editor app.
 * how to downsample a jpeg
 First check its dimensions with `file`.
 Then choose new dimensions, and run
