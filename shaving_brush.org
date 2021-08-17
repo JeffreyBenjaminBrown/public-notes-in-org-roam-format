@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       8f4026da-4429-4120-9b87-004eb8cc79cc
+:END:
+#+title: shaving brush
+* animal welfare
+  Badger and boar's hair brushes require killing the animal.
+  Horse hair brushes do not. (Neither, of course, do synthetic ones.)
+* how they compare
+** boar's hair is stiffest
+** badger's hair is softest
+   It also comes in different flavors, "silvertip" being the softest.
+** horse hair is somewhere between
+* area matters
+  A nice brush with a small area will take a long time to cover the face.

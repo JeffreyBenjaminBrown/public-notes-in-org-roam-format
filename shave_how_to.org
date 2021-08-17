@@ -9,7 +9,10 @@ serial
   I got mixed signals about this -- maybe first get it hot but then cool it down a little, so it's soft but not too soft.
 * use a pre-shave oil
 * apply shave cream
-  (after pre-shave oil)  with a wet badger-hair brush.
+  :PROPERTIES:
+  :ID:       34d44367-542f-4f94-a0ca-a60b3d46290d
+  :END:
+  (after pre-shave oil) with a wet [[id:8f4026da-4429-4120-9b87-004eb8cc79cc][shaving brush]].
   This exfoliates.
 * three passes
   with grain, across grain, against grain

@@ -4,6 +4,14 @@
 #+title: microtonal guitar
 * [[id:f442a707-fece-493a-acb6-7b1e36ee094d][microtonal Chapman Stick]]
 * [[id:d241a1c3-2a83-4134-89c6-c85b2ed6a51c][fret markers, my preferred system of]]
+* TODO logarithmic isomorphic fret markings
+** the question
+   What isomorphic fret marking pattern makes it easy to identify intervals of 2, 4, 8, 16, etc. frets, without being hard to see? (Another base would be fine too.)
+** an idea
+   Let "red" and "blue" = two colors that contrast maximally with the neck.
+   Blue, none, white, none, red, none, white, none: 8 frets, any gap easy to see.
+   Next 8 are the same, but each piece of tape is colored black in the middle. This should make it easy to see any gap of up to 16 frets.
+   Then back to normal. (For factors of 2 beyond 16 I can just eyeball it.)
 * some many-stringed guitars
 ** the Jackson SLAT8
    https://www.jacksonguitars.com/gear/shape/soloist/x-series-soloist-archtop-slat8-ms/2916767503
