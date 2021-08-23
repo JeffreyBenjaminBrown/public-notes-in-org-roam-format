@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       082cfa49-50e3-4332-9072-282b65aad5eb
 :END:
-#+title: Some Ways To Manipulate Digital Documents
+#+title: some ways to manipulate digital documents
 These notes were (all?) taken to apply for my [[id:fb125111-a65d-4aee-ac47-918b55572a97][visa renewal for Colombia]].
 * PITFALLS
 ** pdftk does not like filenames that are numbers
@@ -23,8 +23,8 @@ First check its dimensions with `file`.
 Then choose new dimensions, and run
 `convert input.jpg -resize 600x400\> output.jpg`
 * how to concatenate mixed-format images into a pdf
-PITFALL: If one of these is itself a pdf, the result might be too big.
-convert x.pdf y.bmp z.png output.pdf
+  PITFALL: If one of these is itself a pdf, the result might be too big.
+  convert x.pdf y.bmp z.png output.pdf
 * how to concatenate pdfs with pdftk
   pdftk file1.pdf file2.pdf file3.pdf cat output newfile.pdf
 * how to cut and concatenate pages with pdftk

@@ -195,8 +195,8 @@ it will complain that I haven't installed the app in anything.
 **** then make migrations for the app, and execute them
      see [[id:00520a84-5c49-4244-b8fa-27c5bdc9b1a6][Django Database Migrations]]
 *** the "Django shell"
-with
-  python manage.py shell
+    start it with
+      python manage.py shell
 **** *LIES*: according to part 2 of the tutorial it's nearly an ordinary python REPL
  https://docs.djangoproject.com/en/3.0/intro/
 "manage.py sets the DJANGO_SETTINGS_MODULE environment variable,

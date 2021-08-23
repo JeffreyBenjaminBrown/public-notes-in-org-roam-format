@@ -191,6 +191,10 @@ But once it is evaluated, it is kept.
    one takes a function, the other a value.
    I could stick to the one that takes a function,
    if it assumed the default value when that value is not present.
+* TODO warp
+** a map of a finite set of points from [start,end] to [start,end]
+** interpolated
+** maybe with no monotonicity constraint
 * TODO ? maybe problems && meaning forgotten
 ** each sample needs to be called by a separate voice
 ** ./Dispatch/Dispatch.hs: -- todo ? awkward : The Ev' label gets repeated within the Action.

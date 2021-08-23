@@ -68,6 +68,9 @@ Pr.pPrint ( take 30 $ drop 90
   $ filter okayHarmony ls )
 * some favorites, ordered by preference (at least at the top)
   for reference, 31-limit (46 1 9) => 5x7
+** TODO [[id:34b25bc1-cdfb-472d-ad1a-fac2fd07a832][80-edo 14s 5f (Bosanquet) + 80-edo 16s 5f]]
+** TODO Cam rec's 80-edo [[id:d3754801-31d5-4879-867f-7bb36a30e6c4][Bosanquet, s14 f5: great 29-limt -5 -15 -17]]
+** TODO [[id:3583c5e5-48b3-4b38-8999-c8693d8bbb59][94 7 16: 15-lim +19.21.27 0-area 5x7, octave (5,2), sans unisons]]
 ** TODO [[id:211b5788-6ee2-4298-8f04-b3d9ed7358a7][90 5 17: 13-lim +19.25.27 5x6, octave (5,1), 31-lim 7x12]]
 ** TODO [[id:f1c002e1-f05c-474a-b19c-eec0dee222ee][72 27 2: 31-limit sans 21:16 in 3x15]] (guitar!)
 ** TODO [[id:d45e7329-7321-4e6f-b43e-0ac4fb85ff3b][65 8 11: 15-lim 0-area 5x6, weird backward 5:4, octave (3,4)]]
@@ -78,7 +81,6 @@ Pr.pPrint ( take 30 $ drop 90
 ** TODO [[id:c68ee78d-7cc0-4143-90a9-d55ea177da65][50 2 19: 25-edo frets, octave (2,6), 13-limit 2x8]]
 ** TODO [[id:2b09b23d-23b2-46d1-9156-a792961eaede][65 4 13: 31-lim 7x9, 29-lim -17.27 6x6, 13-fret unisons, octave (5,0)]]
 ** TODO [[id:2c69e3d0-852b-4133-97d4-0b7c551e1707][75 5 12: 31-lim -27.29 6x5, full 31-lim 7x10, octave (5,3)]]
-** TODO [[id:3583c5e5-48b3-4b38-8999-c8693d8bbb59][94 7 16: 15-lim +19.21.27 0-area 5x7, octave (5,2), sans unisons]]
 ** TODO [[id:78cdb55a-e4ab-4ae2-83ea-130dc1d6d7aa][99 13 28: 13-lim -7 4x5, 13-lim +21.23 4x8, +15.17.27 5x10, octave (4,-1)]]
 ** TODO [[id:1f784184-6b15-4f5c-8b9a-6ba5d4396c71][109 7 19: 15-lim (+23.31) 0-area 5x7, octave (5,2)]]
    but the thirds are awkward
@@ -355,7 +357,7 @@ Pr.pPrint ( take 30 $ drop 90
   30 steps = 31 % 16: string 3 fret 3
   31 steps = 2 % 1: string 4 fret 1
 * TODO 34 2 9: 2 at 4:-1, *great* layout
-* 37-edo: amazing in 13-limit -3
+* 37-edo: amazing in no-3 13-limit
 ** Composing without perfect fifths seems like a useful exercise
 It's never occurred to me before but I wonder whether I use that interval as a kind of crutch. It's almost always present in my music, and my deviations from it are very 12-et: basically aug, dim and dom7 b5.
 ** Leaving out factors of 3, 37-edo will give me all the intervals I want, in exactly one form
@@ -793,17 +795,18 @@ This is on the Xen Wiki.
         , 10 steps;  9 % 8 ; string - 2 ; fret 4
         , 27 steps; 11 % 8 ; string 3	; fret 1
         , 41 steps; 13 % 8 ; string 5	; fret 1
-** TODO 58 f7 s10: octave (3,4), span 3x4, 140c frets
+** TODO 58 f7 s10: octave (3,4), 13-lim 4x7, 15-lim 6x7, 140c frets
    Good for a uke, etc.
    ( Edo 58 ; StringGap 10 ; FretGap 7
-        [  0 steps;  1 % 1 ; string 0 ; fret 0
-        , 58 steps;  2 % 1 ; string 3 ; fret 4
-        , 34 steps;  3 % 2 ; string 2 ; fret 2
-        , 19 steps;  5 % 4 ; string 4 ; fret - 3
-        , 47 steps;  7 % 4 ; string 4 ; fret 1
-        , 10 steps;  9 % 8 ; string 1 ; fret 0
-        , 27 steps; 11 % 8 ; string 2 ; fret 1
-        , 41 steps; 13 % 8 ; string 2 ; fret 3
+    [ 0 steps; 1 % 1 ; string 0 ; fret 0
+    , 58 steps; 2 % 1 ; string 3 ; fret 4
+    , 34 steps; 3 % 2 ; string 2 ; fret 2
+    , 19 steps; 5 % 4 ; string 4 ; fret - 3
+    , 47 steps; 7 % 4 ; string 4 ; fret 1
+    , 10 steps; 9 % 8 ; string 1 ; fret 0
+    , 27 steps; 11 % 8 ; string 2 ; fret 1
+    , 41 steps; 13 % 8 ; string 2 ; fret 3
+    , 53 steps; 15 % 8 ; string 6 ; fret - 1
 ** TODO 58 2 15: octave (4,-1), 15-lim 4x8, 31-lim 4x12
 *** layout
     0 steps;  1 % 1  ; string 0 ; fret 0
@@ -1411,23 +1414,50 @@ Its worst harmonic is 3/2, at -4.7c error.
 ** 77 10 11: *weird*
 * TODO 80-edo
   By hand, I searched every triple (80 [2-11] [11-29]).
-** 80-edo mod 5 tunings
-*** 80 5 11: 9 frets for the 31-limit
-    Octaves at (5,5) and (0,16).
-*** 80 5 14: great for lots of stuff, but 5 is awkward
-** TODO mod 2 skip 13: max reach 9 (or better*), awkward 3/2, great 4:5:7:8
-(*) better by 2 if you ignore 23/16, or by 4 also ignoring 17 and 19
- 7 steps = 17 % 16: string 1 fret -3
-20 steps = 19 % 16: string 2 fret -3
-26 steps = 5 % 4:   string 2 fret 0
-37 steps = 11 % 8:  string 3 fret -1
-42 steps = 23 % 16: string 4 fret -5 | string 2 fret 8
-47 steps = 3 % 2:   string 3 fret 4
-56 steps = 13 % 8:  string 4 fret 2
-65 steps = 7 % 4:   string 5 fret 0
-69 steps = 29 % 16: string 5 fret 2
-76 steps = 31 % 16: string 6 fret -1
-80 steps = 2 % 1:   string 6 fret 1
+  Good harmonics for everything but 31/16
+    (it's 5c flat, whereas everything else is sharp by at most 6c).
+** TODO COMBO: 80-edo 14s 5f (Bosanquet) + 80-edo 16s 5f
+   :PROPERTIES:
+   :ID:       34b25bc1-cdfb-472d-ad1a-fac2fd07a832
+   :END:
+*** pros, cons
+    Bosanquet is friendly to all of the 13-limit sans 5:4
+      plus some of the rest of the 31-limit.
+    16\80 x 5\80 is friendly to all of the 15-limit sans either 13 or 7,
+      plus most of the rest of the 31-limit.
+    Neither gives a good 17/16.
+*** layouts
+    Pr.pPrint $ bestLayout' 29 80 16 5
+    Pr.pPrint $ bestLayout' 29 80 14 5
+*** TODO Would need a convenient way to switch tunings while playing,
+    or to put one tuning on one monome, the other on the other.
+** 80 11s 5f: 9 frets for the 31-limit
+   Octaves at (5,5) and (0,16).
+** TODO Bosanquet, s14 f5: great 29-limt -5 -15 -17
+   :PROPERTIES:
+   :ID:       d3754801-31d5-4879-867f-7bb36a30e6c4
+   :END:
+   Pr.pPrint $ bestLayout' 23 80 14 5
+   Good layout for everything but 5:4, 15:8, 17:16.
+   The 17:16 in 80-edo is < 0.5c off, but plays horribly in this layout.
+** TODO mod 2 skip 13: amazing if you ignore 9 and 17 through 23
+    [ 0 steps; 1 % 1 ; string 0 ; fret 0
+    , 80 steps; 2 % 1 ; string 6 ; fret 1
+    , 47 steps; 3 % 2 ; string 3 ; fret 4
+    , 26 steps; 5 % 4 ; string 2 ; fret 0
+    , 65 steps; 7 % 4 ; string 5 ; fret 0
+    , 14 steps; 9 % 8 ; string 2 ; fret - 6
+    , 37 steps; 11 % 8 ; string 3 ; fret - 1
+    , 56 steps; 13 % 8 ; string 4 ; fret 2
+    , 73 steps; 15 % 8 ; string 5 ; fret 4
+    , 7 steps; 17 % 16 ; string 1 ; fret - 3
+    , 20 steps; 19 % 16 ; string 2 ; fret - 3
+    , 31 steps; 21 % 16 ; string 3 ; fret - 4
+    , 42 steps; 23 % 16 ; string 4 ; fret - 5
+    , 52 steps; 25 % 16 ; string 4 ; fret 0
+    , 60 steps; 27 % 16 ; string 4 ; fret 4
+    , 69 steps; 29 % 16 ; string 5 ; fret 2
+    , 76 steps; 31 % 16 ; string 6 ; fret - 1
 ** TODO mod 1 skip 10: max reach 7 frets, octave at (8,0), decent 4:5:6:8
  7 steps = 17 % 16: string 1 fret -3 | string 0 fret 7
 20 steps = 19 % 16: string 2 fret 0
@@ -1440,18 +1470,24 @@ Its worst harmonic is 3/2, at -4.7c error.
 69 steps = 29 % 16: string 7 fret -1
 76 steps = 31 % 16: string 8 fret -5 | string 7 fret 6
 80 steps = 2 % 1:   string 8 fret 0
-** TODO mod 1 skip 11: max reach 8, octave (7,3), decent 4:5:6:8
- 7 steps = 17 % 16: str 1 fret -4 | str 0 fret 7
-20 steps = 19 % 16: str 2 fret -2
-26 steps = 5 % 4:   str 2 fret  4
-37 steps = 11 % 8:  str 3 fret  4
-42 steps = 23 % 16: str 4 fret -2
-47 steps = 3 % 2:   str 4 fret  3
-56 steps = 13 % 8:  str 5 fret  1
-65 steps = 7 % 4:   str 6 fret -1
-69 steps = 29 % 16: str 6 fret  3
-76 steps = 31 % 16: str 7 fret -1
-80 steps = 2 % 1:   str 7 fret  3
+** TODO mod 1 skip 11: 31-lim 7x9, octave (7,3), good all around
+    [ 0 steps; 1 % 1 ; string 0 ; fret 0
+    , 80 steps; 2 % 1 ; string 7 ; fret 3
+    , 47 steps; 3 % 2 ; string 4 ; fret 3
+    , 26 steps; 5 % 4 ; string 2 ; fret 4
+    , 65 steps; 7 % 4 ; string 6 ; fret - 1
+    , 14 steps; 9 % 8 ; string 1 ; fret 3
+    , 37 steps; 11 % 8 ; string 3 ; fret 4
+    , 56 steps; 13 % 8 ; string 5 ; fret 1
+    , 73 steps; 15 % 8 ; string 7 ; fret - 4
+    , 7 steps; 17 % 16 ; string 1 ; fret - 4
+    , 20 steps; 19 % 16 ; string 2 ; fret - 2
+    , 31 steps; 21 % 16 ; string 3 ; fret - 2
+    , 42 steps; 23 % 16 ; string 4 ; fret - 2
+    , 52 steps; 25 % 16 ; string 5 ; fret - 3
+    , 60 steps; 27 % 16 ; string 5 ; fret 5
+    , 69 steps; 29 % 16 ; string 6 ; fret 3
+    , 76 steps; 31 % 16 ; string 7 ; fret - 1
 ** TODO mod 1 skip 9: span 7, octave (9,-1), great 4::8
  7 steps = 17 % 16: str 1 fret -2
 20 steps = 19 % 16: str 2 fret  2
@@ -1696,6 +1732,37 @@ Its worst harmonic is 3/2, at -4.7c error.
     If what matters harmonically is the sum of squared errors, then 94 dominates 135 in the 13-limit.
     In 135-edo, 6 intervals have an error of 4c, and one has an error of 8c, so the sum of squared errors is 6*(4**2) + 8**2 = 160.
     For 94-edo, the coresponding SSE is (sum $ map (**2) [4,1,5,3,1,4]) = 68.
+** TODO 94 7 16: 15-lim +19.21.27 0-area 5x7, 8ve (5,2), no near unisons.
+   :PROPERTIES:
+   :ID:       3583c5e5-48b3-4b38-8999-c8693d8bbb59
+   :END:
+   Bosanquet
+*** few unisons, octaves
+    You'd have to go 7 strings up and 16 frets down to get to the same note.
+    That's only feasible for the higher notes of the lowest string of a 7-string guitar.
+    You can go 5 strings and 2 frets up to get to the octave,
+    so unless there are at least 11 strings,
+    some middle strings contain entirely unique notes.
+*** layout
+   94 steps; 2  % 1 ;  string 5 ; fret 2
+   55 steps; 3  % 2 ;  string 3 ; fret 1
+   30 steps; 5  % 4 ;  string 1 ; fret 2
+   76 steps; 7  % 4 ;  string 3 ; fret 4
+   16 steps; 9  % 8 ;  string 1 ; fret 0
+   43 steps; 11 % 8 ;  string 4 ; fret - 3
+   66 steps; 13 % 8 ;  string 5 ; fret - 2
+   85 steps; 15 % 8 ;  string 4 ; fret 3
+   8  steps; 17 % 16 ; string 4 ; fret - 8
+   23 steps; 19 % 16 ; string 1 ; fret 1
+   37 steps; 21 % 16 ; string 1 ; fret 3
+   49 steps; 23 % 16 ; string 0 ; fret 7
+   61 steps; 25 % 16 ; string 6 ; fret - 5
+   71 steps; 27 % 16 ; string 4 ; fret 1
+   81 steps; 29 % 16 ; string 2 ; fret 7
+   90 steps; 31 % 16 ; string 3 ; fret 6
+*** same layout as [[id:f5f00095-e006-45c5-9b0a-c6a9507a9dd5][135 10 23]]
+     but the layout for 94 is strictly easier,
+     and [[id:ea979f88-41a4-42a5-88e2-d21b207dbc84][For SSE, 94 dominates 135 in the 13-limit.]]
 ** TODO mod 1 space 13: max span 9 frets, octave at (7,3), nice 4:5:6:8
  8 steps = 17 % 16: string 1 fret -5 | string 0 fret 8
 23 steps = 19 % 16: string 2 fret -3
@@ -1769,30 +1836,6 @@ Its worst harmonic is 3/2, at -4.7c error.
         , 49 steps = 23 % 16 : string - 2 fret 9
         , 81 steps = 29 % 16 : string 0 fret 9
         , 90 steps = 31 % 16 : string 0 fret 10
-** 94 7 16: 15-lim +19.21.27 0-area 5x7, straight, sans unisons.
-   :PROPERTIES:
-   :ID:       3583c5e5-48b3-4b38-8999-c8693d8bbb59
-   :END:
-*** layout
-   94 steps; 2  % 1 ;  string 5 ; fret 2
-   55 steps; 3  % 2 ;  string 3 ; fret 1
-   30 steps; 5  % 4 ;  string 1 ; fret 2
-   76 steps; 7  % 4 ;  string 3 ; fret 4
-   16 steps; 9  % 8 ;  string 1 ; fret 0
-   43 steps; 11 % 8 ;  string 4 ; fret - 3
-   66 steps; 13 % 8 ;  string 5 ; fret - 2
-   85 steps; 15 % 8 ;  string 4 ; fret 3
-   8  steps; 17 % 16 ; string 4 ; fret - 8
-   23 steps; 19 % 16 ; string 1 ; fret 1
-   37 steps; 21 % 16 ; string 1 ; fret 3
-   49 steps; 23 % 16 ; string 0 ; fret 7
-   61 steps; 25 % 16 ; string 6 ; fret - 5
-   71 steps; 27 % 16 ; string 4 ; fret 1
-   81 steps; 29 % 16 ; string 2 ; fret 7
-   90 steps; 31 % 16 ; string 3 ; fret 6
-*** same layout as [[id:f5f00095-e006-45c5-9b0a-c6a9507a9dd5][135 10 23]]
-     but the layout for 94 is strictly easier,
-     but [[id:ea979f88-41a4-42a5-88e2-d21b207dbc84][For SSE, 94 dominates 135 in the 13-limit.]]
 ** 94 7 23: 15-lim 5x8, octave (5,-3), seems < 94 7 16
    :PROPERTIES:
    :ID:       45cf6fd8-8ceb-4f6e-8184-09249a556063
