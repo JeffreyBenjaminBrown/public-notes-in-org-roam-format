@@ -19,17 +19,22 @@ Convert with `convert` (imagemagick), but concat with `pdftk`.
   :END:
   Use the Passport Photo Editor app.
 * how to downsample a jpeg
-First check its dimensions with `file`.
-Then choose new dimensions, and run
-`convert input.jpg -resize 600x400\> output.jpg`
+  First check its dimensions with `file`.
+  Then choose new dimensions, and run
+  `convert input.jpg -resize 600x400\> output.jpg`
 * how to concatenate mixed-format images into a pdf
-  PITFALL: If one of these is itself a pdf, the result might be too big.
-  convert x.pdf y.bmp z.png output.pdf
+** best: pdfunite
+   Part of the poppler-utils apt package.
+   Not so far packaged for NixOS.
+   pdfunite 1.pdf 2.pdf output.pdf
+** worse: imagemagick
+   Memory and resolution problems.
+   convert x.pdf y.bmp z.png output.pdf
 * how to concatenate pdfs with pdftk
   pdftk file1.pdf file2.pdf file3.pdf cat output newfile.pdf
 * how to cut and concatenate pages with pdftk
-pdftk input.pdf cat 1-7 9 11-end output merged.pdf
-pdftk big.pdf cat 5-6 output middle.pdf
+  pdftk input.pdf cat 1-7 9 11-end output merged.pdf
+  pdftk big.pdf cat 5-6 output middle.pdf
 * how to downsample with gs (ghostscript)
 # This downsamples a color image:
 gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dDownsampleColorImages=true -dColorImageResolution=140 -dNOPAUSE  -dBATCH -sOutputFile=small.140.pdf input.pdf

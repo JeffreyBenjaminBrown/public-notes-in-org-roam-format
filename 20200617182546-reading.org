@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       94567688-b4eb-4396-a7eb-3af515d58eb2
 :END:
-#+title: reading|listening to
+#+title: to read
+* Daniel Dennet, Freedom Evolves: (Kinds of freedom worth having?)
 * [[id:a3a9fefb-7922-487f-bf08-f1121cf7bfb5][podcasts]]
 * TODO The bees are okay -- a few papers from Parker.
   https://web.facebook.com/mejeff.younotjeff/posts/10161453145484546
