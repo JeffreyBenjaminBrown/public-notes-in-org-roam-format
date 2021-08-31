@@ -2,6 +2,15 @@
 :ID:       d118af57-a430-4ed5-81dc-8199677e39d8
 :END:
 #+title: mtv-monome
+* TODO add optional flashing guide lights to some tunings
+** the idea
+   For instance, in a tuning in which 7:4 is far but others are close, mark each note's 7th harmonic with a flashing guide light.
+** A nuance: Might need it on both sides.
+   Continuing the exmaple in which 7:4 is far from the other harmonics,
+   in order to easily see not just each note's 7:4, but also its 8:7,
+   one might need to draw them both.
+   However, for some tunings the 7:4 is so close to the 8:7
+   that this would be unnecessary (and potentially confusing).
 * TODO fix default freq in moop
 -- TODO: This previously depended on the base frequency in
 -- Montevideo.Monome.Config.Mtv, but that creates a cyclic project dependency
