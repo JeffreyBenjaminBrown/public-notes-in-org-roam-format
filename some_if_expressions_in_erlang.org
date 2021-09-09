@@ -1,0 +1,52 @@
+:PROPERTIES:
+:ID:       c1784f19-4e51-4239-8178-c074251b63aa
+:END:
+#+title: some if expressions in Erlang
+-module(what_the_if).
+-compile(export_all).
+%% -export([heh_fine/0]).
+
+
+weird() ->
+    if 1 =:= 1 ->
+	    works %% This gets evaluated.
+    end,
+    if 1 =:= 2; 1 =:= 1 ->
+	    works %% This does not get evaluated.
+    end,
+    if 1 =:= 2, 1 =:= 1 ->
+	    fails
+	    %% This does not get evaluated.
+	    %% Since it's the last expression,
+	    %% there's nothing for it to return,
+	    %% so the function throws an exception.
+	    %% This third `if` expression could be healed
+	    %% by adding a default branch,
+	    %% as demonstrated in the `default/1` function below.
+    end.
+
+default(N) ->
+    if N =:= 2 -> might_succeed;
+       true -> always_succeeds %% This is 'else', the default branch
+                               %% of the `if` expression.
+    end.
+
+%% Note, this one would be better as a pattern match in function heads!
+%% I'm doing it this way for the sake of the example.
+make_animal_speak(Animal) ->
+    Talk = if Animal == cat  -> "meow";
+	      Animal == beef -> "mooo";
+	      Animal == dog  -> "bark";
+	      Animal == tree -> "bark";
+	      true -> "fgdadfgna"
+	   end,
+    {Animal, "says " ++ Talk ++ "!"}.
+
+%% For insertion into a set represented as a list.
+insert(X,[]) ->
+    [X];
+insert(X,Set) ->
+    case lists:member(X,Set) of
+	true  -> Set;
+	false -> [X|Set]
+    end.

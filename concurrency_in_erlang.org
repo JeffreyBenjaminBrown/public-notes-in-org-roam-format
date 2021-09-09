@@ -1,0 +1,461 @@
+:PROPERTIES:
+:ID:       8bd1818b-7da8-4c6b-b35e-93f54ef5a0d7
+:END:
+#+title: concurrency in Erlang
+* [[id:c7224417-dcc0-40e1-ad5b-4d2cf94c4c1f][parallel vs. concurrent]]
+* creating processes
+** spawn/1 :: Function -> PID
+*** example
+    Define a function:
+      1> F = fun() -> 2 + 2 end.
+      #Fun<erl_eval.20.67289768>
+    Spawn it:
+      2> spawn(F).
+      <0.44.0>
+** spawn/3 :: Module -> Function from that module -> Argument list
+** [[id:f92bc235-73f0-46f8-b34f-57f6002878a7][The ?MODULE macro can be helpful when defining helpers that spawn.]]
+** Messaging distinguishes function calls from spawns.
+   If a function calls a subfunction, they share the same mailbox. If a function spawns another, they don't.
+** using list comprehensions to spawn lots of stuff
+*** Weird lambda requirement
+    Even when the spawned process is a named function,
+    passing it arguments in the list comprehension requires
+    wrapping it in an anonymous function.
+*** example
+    [ spawn(fun() -> G(X) end)
+      || X <- lists:seq(1,10) ].
+*** self/1 returns the pid of the current process.
+**** It even works in the shell.
+     6> self().
+     <0.41.0>
+     7> exit(self()).
+     ** exception exit: <0.41.0>
+     8> self(). %% Now it's a new process.
+     <0.285.0>
+* Processes do not return anything.
+** It takes explicit IO to get something out of them.
+   e.g.
+   spawn(fun() -> io:format("~p~n",[2 + 2]) end).
+** But helper functions can be written that do return something.
+   The following `store` function provokes the "Fridge" process
+   into sending it a message,
+   which `store` then returns as an ordinary value.
+
+   store(Fridge_Pid, Food) ->
+       Fridge_Pid ! {self(), {store, Food}},
+       receive
+       {Fridge_Pid, Msg} -> Msg
+       end.
+* Use recursion to model state.
+  Recursion can do anything state could.
+*** example
+    This fridge "stores" food new food
+    by calling itself with an updated argument.
+
+    fridge2(FoodList) ->
+	receive
+   	 {From, {store, Food}} ->
+   	     From ! {self(), ok},
+   	     fridge2([Food|FoodList]);
+   	 {From, {take, Food}} ->
+   	     case lists:member(Food, FoodList) of
+   		 true ->
+   		     From ! {self(), {ok, Food}},
+   		     fridge2(lists:delete(Food, FoodList));
+   		 false ->
+   		     From ! {self(), not_found},
+   		     fridge2(FoodList)
+   	     end;
+   	 terminate ->
+   	     ok
+	end.
+* messages
+** send messages with `pid ! message`
+*** syntax
+    The (!) operator is right-associative, so this works:
+    pid1 ! pid2 ! message
+*** The standard idiom seems to be to include self() in every message.
+    Specifically, messages should be (sender's Pid, data) pairs.
+** Receive messages with `receive`.
+*** syntax
+    receive
+      Pattern1 -> Expr1;
+      ...
+      Pattern when Guard -> Expr2
+    end
+*** `receive` tries to match them in order, FIFO.
+*** Messages stay queued until `receive` causes them to be read.
+    Unmatched messages stay in the mailbox.
+** Show and delete messages to the repl with flush/0.
+   :PROPERTIES:
+   :ID:       0dfa99f9-7d57-4d9d-b664-728d6b916ea8
+   :END:
+** Message delivery is not automatically confirmed.
+   "If you need to have a confirmation of delivery, you have to send a second message as a reply to the original process."
+* managing the message queue
+** Receive infinite messages with (optimally tail-) recursion.
+   The recursive calls to dolphin3 below are tail-recursive,
+   so new messages don't use new memory.
+   The {From,fish} message kills the process.
+
+   dolphin3() ->
+       receive
+   	{From, do_a_flip} ->
+   	    From ! "How about no?",
+   	    dolphin3();
+   	{From, fish} ->
+   	    From ! "So long and thanks for all the fish!";
+   	_ ->
+   	    io:format("Heh, we're smarter than you humans.~n"),
+   	    dolphin3()
+       end.
+** timeout with `after`
+*** the syntax
+    receive
+	Match -> Expression1
+    after <delay in ms> ->
+   	 Expression2
+    end.
+*** how it works
+    Expression1 is evaluated and the `receive` clause ends if a Match is received.
+    Expression2 is evalated only if <delay in ms> ms pass without receiving a match.
+*** `after 0` actually makes sense.
+    [[id:a5d0a81c-0856-420a-8d53-23753348d99c][An example.]]
+
+    The `receive` clause will still be handled first.
+    If there are messages in the mailbox, it will try to match them.
+    If none of them match, it will immediately advance to the `after` clause,
+    rather than waiting for something that does.
+*** PITFALL: maximum timeout duration is about 50 days.
+** Subfunctions inherit the mailbox of their caller.
+*** If caller has a nonempty mailbox, a `receive` in a subfunction will immediately read it.
+    :PROPERTIES:
+    :ID:       a5d0a81c-0856-420a-8d53-23753348d99c
+    :END:
+    For instance, try running test_inner_receiver().
+
+    receiver_nest() ->
+        timer:sleep(1000),
+        inner_receiver().
+
+    inner_receiver() ->
+        receive X ->
+     	   io:format("You said ~s~n",[X]),
+     	   inner_receiver()
+        after 0 ->
+     	   done
+        end.
+
+    test_inner_receiver() ->
+        Rn = spawn( ?MODULE, receiver_nest, [] ),
+        Rn ! "Hi!",
+        Rn ! "Bye!".
+** A default match for messages can prevent accumulating garbage.
+*** why
+    If an unexpected message is not matched, it will stay in the mailbox,
+    slowing the read time for any messages that follow it.
+    (jbb: Also it seems good to alert the programmer/user,
+    as in the example below,
+    to the fact that unexpected messages are being received,
+    because by default they occupy the mailbox silently.)
+*** example
+    receive
+        Pattern1 -> Expression1;
+        ...
+        PatternN -> ExpressionN;
+        Unexpected ->
+    	  io:format("unexpected message ~p~n", [Unexpected])
+     end.
+** A min-heap is a good model when messages have differing priorities.
+   The built-in mailbox is a list.
+   If messages are to be stored and then later read in priority order,
+   it would make sense to store them in a min-heap (tree),
+   such that the largest or smallest is always cheap to find and delete,
+   and insertion is cheap too.
+   The `gbtrees` library is one option.
+* Coordinating process errors.
+** Killing a function kills its subfunctions.
+   This includes functions it runs via `apply`,
+   but not functions it `spawns` -- the latter are separate processes.
+** Link processes to their dependencies, so they crash together.
+*** Links are bidirectional.
+    They can be created from either end, i.e. either process.
+*** Restarting them as a group is typically  easier.
+*** Use `link/1` and `unlink/1` :: PID -> IO ().
+*** Dying without crashing does not affect linked processes.
+*** Processes can be linked to the repl.
+    This is one what to see it when they crash.
+** TODO Much of this chapter I did not understand.
+   :PROPERTIES:
+   :ID:       4513bc08-e581-4009-b992-7b1e3c903c9a
+   :END:
+   https://learnyousomeerlang.com/errors-and-processes
+** `exit/2 :: PID -> Reason -> IO ()` lets one process kill another.
+** (link . spawn) is sequential. `spawn_link` is atomic, hence safer.
+   spawn_link/1 and spawn_link/3 happen atomically rather than sequentially.
+   They have the same arguments as the corresponding spawn functions.
+   Therefore the spawn function cannot die before being linked --
+   a problem that (link . spawn) is vulnerable to.
+** "Exit signals": secret process-killing  messages for error propogation.
+   "Error propagation across processes is done through a process similar to message passing, but with a special type of message called signals. Exit signals are 'secret' messages that automatically act on processes, killing them in the action."
+** "System processes" convert exit signals to normal signals, and survive the death of linked processes.
+*** the idea
+    When something linked to a system process dies,
+    the system process survives,
+    and gets an `{'EXIT',<PID>,<reason>}` message,
+    which it can process via `receive` normally.
+*** to create one
+    Run
+      process_flag(trap_exit, true)
+    from within the would-be system process.
+*** TODO What are the arguments to `process_flag/2` for?
+    So far the book has only presented the case where they are the atoms
+    `trap_exit` and `true`:
+      process_flag(trap_exit, true)
+** Exit messages (exceptional and otherwise) across processes.
+*** Natural exit, forced `exit()` expressions, throws and catches all do subtly different things.
+*** TODO I never understood it.
+    See the passage beginning
+       "I'll successively show the results of uncaught throws, errors and exits in neighboring processes"
+    here:
+      https://learnyousomeerlang.com/errors-and-processes
+*** Some experiments I'm running
+**** They rely on these functions
+***** host
+      host ( ToSpawn,
+             Whether_system_process,
+             Whether_listening ) ->
+	if
+          true =:= Whether_system_process ->
+            process_flag(trap_exit, true);
+          false =:= Whether_system_process ->
+            did_not_link
+	end,
+	spawn_link( ToSpawn ),
+	if
+          true =:= Whether_listening ->
+            receive
+              {'EXIT',B,C} ->
+		io:format("~p ~s ~n",[B,C])
+            end,
+            received_and_printed;
+          false =:= Whether_listening ->
+            not_receiving_hence_nothing_to_print
+	end.
+***** will_I_crash
+**** normal exit
+***** If neither the host process nor the repl is system,
+      then the error goes uncaught by either:
+	propogate_errors:host( fun() -> ok end, false, false ).
+	flush().
+***** If the host process is a system process, and listening via `receive`,
+      then the host process traps the exit message,
+      and the shell is unaffected, even if the shell is also system.
+      (Note that `catch exit(normal)` would do the same thing,
+      minus the PID in the tuple.)
+
+      <restart repl>
+      process_flag(trap_exit, true).
+      propogate_errors:host( fun() -> ok end, true, true ).
+      flush().
+**** When a function becomes system, so does its caller:
+     :PROPERTIES:
+     :ID:       e3c578f7-93b6-43ae-9d09-2e25885a2489
+     :END:
+     % Now the shell is not system.
+     propogate_errors:host( fun() -> ok end, false, false ).
+     flush().
+
+     % The next process_flag call makes the shell become system.
+     propogate_errors:host( fun() -> ok end, true, true ).
+     flush().
+
+     % The shell didn't catch that error because `host` was system.
+     % But if `host` doesn't do it, now the shell will,
+     % because of the previous call to `host`:
+     propogate_errors:host( fun() -> ok end, false, false ).
+     flush().
+**** The message from an `exit/1` will reach the host process if uncaught.
+     propogate_errors:host( fun() -> exit(reason) end, false, false ).
+     propogate_errors:host( fun() -> exit(reason) end, true, false ).
+     propogate_errors:host( fun() -> exit(reason) end, true, true ).
+**** TODO Why does spawn/1 hang while spawn/3 doesn't?
+     :PROPERTIES:
+     :ID:       f959b645-fcf5-4154-abf7-1eb2f5b039d4
+     :END:
+     W = spawn( propogate_errors:will_I_crash( false ) ).
+     W = spawn( propogate_errors, will_I_crash, [false] ).
+*** When a process is made system, so are all its calling functions.
+    :PROPERTIES:
+    :ID:       78a858b9-cc4b-4902-bcb3-2c6ebec287df
+    :END:
+**** TODO I suspect that's because they're all the same process.
+**** a more verbose statement
+     If the repl hosts process H, and H becomes system,
+     then the repl itself is system too.
+     Thus if H calls a function that crashes,
+     and H does not trap its message (via a `receive` expression),
+     it will end up in the repl's mailbox.
+**** [[id:e3c578f7-93b6-43ae-9d09-2e25885a2489][evidence]]
+*** Ordinary exit messages
+**** They are caught if something's looking for them. They vanish otherwise.
+**** example
+     spawn_link(fun() -> ok end)
+     If that is spawned in a host process that is not system,
+     its exit message will vanish.
+     If it is spawned in a system process,
+     its exit message will sit in the system process's mailbox,
+     until processed by an appropriate `receive` expression.
+*** Problematic exit messages are caught if something's looking for them,
+   otherwise they cause a crash.
+** "Monitors" are directed, stackable links.
+*** TODO what does "stackable" mean?
+    I suspect it means there can be more than one link from A to B.
+    But part of LYSE suggested it means that,
+    if A is linked to B which is linked to C,
+    unlinking A from B leaves the link from B to C intact.
+*** TODO I didn't fully understand the Monitors section.
+    https://learnyousomeerlang.com/errors-and-processes#monitors
+*** Two processes can both monitor each other.
+    If either fails, the other will be notified, but not taken down.
+*** Create monitor links with erlang:monitor/2 :: Atom -> PID -> IO (monitor reference).
+**** PITFALL: The first arg is always the atom `process`.
+*** When a process goes down, its monitor receives a message of the form
+    {'DOWN', MonitorReference, process, Pid, Reason}
+**** TODO is that the only kind of message a monitor relationship generates?
+     :PROPERTIES:
+     :ID:       cac7b800-f386-47e0-9cde-0e7cba38c718
+     :END:
+*** spawn_monitor/1-3 are atomic, like spawn_link/1-3.
+    They return a pair:
+      {Pid of new process, Ref of new monitor relationship}
+*** Use `erlang:demonitor/1` to end a monitoring relationship.
+** Using atoms as names for processes.
+*** PITFALL: Dangerous! Can lead to race conditions.
+    For instance, suppose A sends a message to B by its atom name.
+    B responds to A, then dies and is restarted.
+    Now it has a different Pid, but A doesn't know that.
+    A tries to say something to B again,
+    but it's got the wrong Pid, so B never gets the message.
+*** Do   it with erlang:register/2   :: (name :: Atom) -> Pid -> IO ()
+*** Undo it with erlang:unregister/1 :: Atom -> IO ()
+*** to see all registered processes
+**** erlang:registered/0 -- get a list
+**** regs() -- in repl, get more detailed info on all registered processes.
+     :PROPERTIES:
+     :ID:       b56be675-c98d-4d98-b1e3-bba982c6abdb
+     :END:
+*** Use `whereis/1 :: Atom -> Pid` to get the Pid for a named process.
+    This makes it possible to recognize messages from that named process,
+    because they are labeled with its Pid and not its name atom.
+** Attach a "Ref", not just a Pid, to any message that requires a reply.
+   That way, if A sends to B and receives a reply,
+   and B's reply includes the same Ref,
+   then A knows what B is talking about.
+** It's common to export `start` and `start_link` functions.
+   They correspond to spawn and spawn_link.
+   They permit the programmer to hide implementation details from the user.
+** checking if a process exists
+*** example
+    https://learnyousomeerlang.com/designing-a-concurrent-application#understanding-the-problem
+    cancel(Pid) ->
+      %% Monitor in case the process is already dead
+      Ref = erlang:monitor(process, Pid),
+      Pid ! {self(), Ref, cancel}, % Tell it to stop.
+      receive
+        {Ref, ok} -> % It was already down.
+          erlang:demonitor(
+	    Ref,
+	    [flush]), % "purge the DOWN message if it was sent before
+                      %  we had the time to demonitor"
+          ok;
+        {'DOWN', Ref, process, Pid, _Reason} ->
+          ok
+      end.
+*** TODO does this mean a monitor receives a "DOWN" message even if it's created after the process being watched goes down?
+*** TODO Why flush a monitoring function that's about to end anyway?
+    Is that because it shares a mailbox with whatever called it?
+** The reference to a monitor can be a good key for a store of clients.
+   Ref = erlang:monitor(process, Client),
+   NewClients =
+     orddict:store(
+       Ref, % "the only other time we'll need to fetch the client ID will be if we receive [EXIT from the monitor], which will contain" REF. https://learnyousomeerlang.com/designing-a-concurrent-application#understanding-the-problem
+       Client,
+       S#state.clients), % the map to modify
+* The OTP library
+** functions a user needs to define
+*** init/1
+**** messages it can return
+***** {ok, State}
+***** {ok, State, TimeOut}
+      "The TimeOut variable is meant to be added to the tuple whenever you need a deadline before which you expect the server to receive a message. If no message is received before the deadline, a special one (the atom timeout) is sent to the server, which should be handled with handle_info/2 (more on this later.)"
+***** {ok, State, hibernate}
+      "if you do expect the process to take a long time before getting a reply and are worried about memory, you can add the hibernate atom to the tuple. Hibernation basically reduces the size of the process' state until it gets a message, at the cost of some processing power. If you are in doubt about using hibernation, you probably don't need it."
+***** {stop, Reason}
+      When initialization fails.
+***** ignore
+**** whatever calls init/1 blocks until it returns
+     It is waiting for a `ready` message
+     from the `gen_server` module.
+*** handle_call :: (Request, From, State) -> <response>
+    :PROPERTIES:
+    :ID:       bc1f3d25-47cb-4210-a43c-8787f3e744e3
+    :END:
+**** for synchronous messaging
+**** valid response formats
+***** {reply,Reply,NewState}
+***** {reply,Reply,NewState,Timeout}
+***** {reply,Reply,NewState,hibernate}
+***** {noreply,NewState}
+***** {noreply,NewState,Timeout}
+***** {noreply,NewState,hibernate}
+***** {stop,Reason,Reply,NewState}
+***** {stop,Reason,NewState}
+**** how the terms in those messages work
+***** `TimeOut` and `hibernate` work like in init/1.
+***** `Reply` is sent back to whoever asked for it.
+***** `noreply` tells the server not to reply.
+      :PROPERTIES:
+      :ID:       26114ed6-ebd8-4ccd-a525-0d3fc7aba7da
+      :END:
+      "you're taking care of sending the reply back yourself."
+      Do so with gen_server:reply/2.
+*** handle_cast :: (Message, State) -> <response>
+    :PROPERTIES:
+    :ID:       ce8cbd61-4465-4452-ae19-753b6a227ddd
+    :END:
+**** for asynchronous messaging
+**** much like [[id:bc1f3d25-47cb-4210-a43c-8787f3e744e3][handle_call]]
+**** valid response formats
+     {noreply,NewState}
+     {noreply,NewState,Timeout}
+     {noreply,NewState,hibernate}
+     {stop,Reason,NewState}
+*** handle_info/2 : handle messages outside the interface
+    "similar to [[id:ce8cbd61-4465-4452-ae19-753b6a227ddd][handle_cast/2]] and in fact returns the same tuples. The difference is that this callback is only there for messages that were sent directly with the ! operator and special ones like init/1's timeout, monitors' notifications and 'EXIT' signals."
+*** terminate/2 :: (Reason, State) -> <dunno>
+**** called in response to `{stop, ...}` tuples
+     {stop, Reason, NewState}
+     {stop, Reason, Reply, NewState}
+**** valid Reason values
+***** are these
+      normal
+      shutdown
+      {shutdown, Term}
+***** if Reason fits none of those patterns, logging happens
+      "If any reason other than normal, shutdown or {shutdown, Term} is used when terminate/2 is called, the OTP framework will see this as a failure and start logging a bunch of stuff here and there for you."
+**** might be called if its parent (spawner) dies
+     That happens if and only if
+     the gen_server is trapping exits.
+**** is like the opposite of init/1
+**** return value doesn't matter
+     "the code stops executing after it's been called"
+*** code_change/3 :: (PrevVersion, State, Extra) -> {ok, NewState}
+**** valid PreviousVersion values
+     either the version term itself in the case of an upgrade
+     or {down, Version} in the case of a downgrade
+**** State is the current server's state
+**** Extra is advanced stuff.
+** gen_server:reply/2
+   Useful when you'd like to [[id:26114ed6-ebd8-4ccd-a525-0d3fc7aba7da][handle the reply yourself]],
+   rather than using the server.

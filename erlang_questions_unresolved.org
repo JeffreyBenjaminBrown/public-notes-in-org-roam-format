@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       77a1ba6e-d657-4579-afe7-d5a95ce7bb74
+:END:
+#+title: Erlang questions, unresolved
+* How can you compile a program "from a module"?
+  https://learnyousomeerlang.com/modules#what-are-modules
+  "You can call the compiler from many places: $ erlc flags file.erl when in the command line, compile:file(FileName) when in the shell or in a module, c() when in the shell, etc."
+* Why is i that [[id:209c4447-0e85-47dd-b77d-1e759faaf10b][PITFALL: Will get an "unused function" error if an unexported function is only used internally in `spawn` calls.]]
+* [[id:b2d67f91-7509-45ca-bfd9-77fe1aaff43e][Header inclusion exists. What is it good for? Bad at?]]
+* [[id:4f24a108-e586-4ca6-b5aa-68bd283197bb][What are the arguments to `process_flag/2` for?]]
+* [[id:4513bc08-e581-4009-b992-7b1e3c903c9a][Much of the chapter on errors and processes I did not understand.]]
+* [[id:f959b645-fcf5-4154-abf7-1eb2f5b039d4][Why does spawn/1 hang while spawn/3 doesn't?]]
+* Why is it that [[id:78a858b9-cc4b-4902-bcb3-2c6ebec287df][When a process is made system, so are all its calling functions.]]
+* [[id:cac7b800-f386-47e0-9cde-0e7cba38c718][Is 'DOWN' the only kind of message a monitor relationship generates?]]

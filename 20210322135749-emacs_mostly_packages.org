@@ -2,6 +2,7 @@
 :ID:       5dd27b65-8dba-4c85-82f2-fad3464b3462
 :END:
 #+title: Emacs, mostly packages
+* [[id:3a230207-47a8-4dde-af88-2c442f5c51aa][Erlang and Emacs]]
 * TODO Emacs: how to override elpy's C-c C-d?
 (require 'org) ;; so that the next line knows what org-mode-map is
 (eval-after-load 'org

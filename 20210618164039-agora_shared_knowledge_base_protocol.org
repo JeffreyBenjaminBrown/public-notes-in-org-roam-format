@@ -4,6 +4,7 @@
 #+title: Agora (shared knowledge base (protocol))
 * TODO where to find Flancian
   https://org-roam.discourse.group/t/package-dedicated-to-workflows-publishing-digital-garden-on-web/536/28?u=jeffbrown
+  "Flancian is usually very responsive in my experience on Mastodon 1 or Twitter 1. Or the Agora room 1 on Matrix."
 * refs
 ** the Git issue I filed
    :PROPERTIES:

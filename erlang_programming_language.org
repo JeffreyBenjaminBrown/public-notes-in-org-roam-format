@@ -1,0 +1,724 @@
+:PROPERTIES:
+:ID:       c008e013-350c-47c7-9f87-228d1d35b2b3
+:END:
+#+title: Erlang (programming language)
+* refs
+** These notes are mostly from Learn You Some Erlang (LYSE)
+   https://learnyousomeerlang.com/content
+** TODO RESUME at
+   https://learnyousomeerlang.com/errors-and-exceptions#try-a-try-in-a-tree
+* TODO [[id:77a1ba6e-d657-4579-afe7-d5a95ce7bb74][questions, unresolved]]
+* TODO learn about static typing
+  https://erlang.org/doc/reference_manual/typespec.html
+* TODO ? SKIPPED chapters in LYSE
+** [[id:62d43b5f-4411-4726-be7e-671a802595d2][SKIPPED: arrays, sets, queues, graphs]]
+** SKIPPED: "Functionally solving problems in Erlang."
+   https://learnyousomeerlang.com/functionally-solving-problems
+** SKIPPED: [[id:38b59abc-ae95-47f2-b23e-d3af81b8d803][standalone `catch`]]
+** SKIPPED: Bit syntax and binary comprehensions.
+   https://learnyousomeerlang.com/starting-out-for-real#bit-syntax
+* some vocab
+** BIF = built-in function
+** parallel vs. concurrent
+   :PROPERTIES:
+   :ID:       c7224417-dcc0-40e1-ad5b-4d2cf94c4c1f
+   :END:
+   parallel = simultaneous (multiple processors)
+   concurrent = not necessarily (e.g. multithreaded counts).
+** synchronous v. asynchronous messaging
+   In sync, you halt all other operations while waiting for a response.
+   In async, you don't.
+* using the "shell" (repl)
+** Start the shell: `erl`
+** Get help: `help().`
+   The trailing dot is important.
+** clean variable definitions in the shell namespace.
+*** Unbind the variable X with `f(X).`.
+*** Unbind all variables with `f().`.
+** records and the Erlang shell
+   :PROPERTIES:
+   :ID:       2d70cd42-4d1d-4df9-91f5-8cb324a19da1
+   :END:
+*** to make records print nicely
+    :PROPERTIES:
+    :ID:       ddbc4a6b-942c-4fae-aaf9-9d14481693bc
+    :END:
+    Use
+      rr(Module_with_records_to_load)
+*** Undefine record types with rf/0 and rf/1.
+*** rl/0 prints all record definitions, rl/1 prints a single one.
+*** rp(Term) converts a tuple to a record, if possible.
+*** cd/1: change working directory. available only in the shell.
+    Good for compiling, loading modules.
+** [[id:0dfa99f9-7d57-4d9d-b664-728d6b916ea8][Show and delete messages to the shell with flush/0.]]
+** [[id:b56be675-c98d-4d98-b1e3-bba982c6abdb][regs() -- in repl, get more detailed info on all registered processes.]]
+** [[id:b352deca-445d-4fa1-b80e-ae2ab06d9c3a][Run `erl -pa <path>` to add paths to (user-compiled) .beam files.]]
+** [[id:e8298fc5-84b1-46c8-9d78-32d30e6b9b8a][run `make:all([load])` from the repl]]
+* using the compiler
+** PITFALL: Will get an "unused function" error if an unexported function is only used internally in `spawn` calls.
+   :PROPERTIES:
+   :ID:       209c4447-0e85-47dd-b77d-1e759faaf10b
+   :END:
+*** TODO Why?
+** compiling a big program
+*** put an Emakefile in the source folder
+**** example
+     {'src/*', [ debug_info,
+                 {i, "src"},
+                 {i, "include"},
+                 {outdir, "ebin"}]}.
+**** what those options do
+     `debug_info` says to include debug info in the (compiled output?).
+       It's standard.
+     Each `i` pair indicates a folder that should be scanned for code.
+     `outdir` is where the compiled .beam files go.
+*** run `erl -make`        from the command line
+*** run `make:all([load])` from the repl
+    :PROPERTIES:
+    :ID:       e8298fc5-84b1-46c8-9d78-32d30e6b9b8a
+    :END:
+    will look for a file named 'Emakefile' in the current directory,
+    recompile it (if it changed) and load the new files.
+** Run `erl -pa <path>` to add paths to (user-compiled) .beam files.
+   :PROPERTIES:
+   :ID:       b352deca-445d-4fa1-b80e-ae2ab06d9c3a
+   :END:
+* erlang and emacs
+  :PROPERTIES:
+  :ID:       3a230207-47a8-4dde-af88-2c442f5c51aa
+  :END:
+** erlang-indent-current-buffer
+* compilation
+** in the repl
+   compile:file ( FileName ).
+   c ( FileName ).
+** from the command line
+   erlc flags file.erl
+* syntax
+** Comments follow %%.
+** Expressions are only evaluated if they end in a dot and then whitespace.
+   I guess the dot without whitespace can be a conjuction.
+** Comma-separated expressions are all evaluated, and the last one shown.
+** Variables
+*** PITFALL: Variable assignment (=) is weird.
+    `x = y` will return the value if they are equal.
+    If they are not, it will raise an exception.
+    A value can be "reassigned" to a variable as long it results in no change in the variable's value.
+*** How to write variables.
+**** Variables must be capitalized.
+**** Variables starting with an underscore are normal variables, except the compiler won't complain if they're not used.
+     Just like other variables, it is not possible to bind them more than once.
+** Atoms
+   are like strings whose names and values are equal.
+*** examples
+    1> atom.
+    atom
+    2> atoms_rule.
+    atoms_rule
+    3> atoms_rule@erlang.
+    atoms_rule@erlang
+    4> 'Atoms can be cheated!'.
+    'Atoms can be cheated!'
+    5> atom = 'atom'.
+    atom
+*** rules
+    should be enclosed in single quotes (') if it does not begin with a lower-case letter or if it contains other characters than alphanumeric characters, underscore (_), or @.
+*** It is impossible for such a constant to be undefined.
+*** PITFALL: Don't generate too many (e.g. random) atoms.
+    They are not garbage-collected.
+*** There are some reserved atoms.
+**** the idea
+     "Some atoms are reserved words and can not be used except for what the language designers wanted them to be: function names, operators, expressions, etc.
+**** the reserved atoms
+     after and andalso band begin bnot bor bsl bsr bxor case catch cond div end fun if let not of or orelse query receive rem try when xor
+** Boolean logic
+*** `and` and `or` are strict.
+    `andalso` and `orelse` are lazy on the right side.
+*** PITFALL: true and false are ordinary atoms.
+   Omparing them with < and > to other things is a potential source of error.
+** equality tests
+   =:= and =/= test for and against equality, and they care about type.
+   == and /= do the same thing without caring about type.
+** PITFALL: LTE is written backwards: =<
+** PITFALL: Comparison works across types.
+   number < atom < reference < fun < port < pid < tuple < list < bit string
+** Tuples
+*** Use brackets {,} to create tuples.
+*** Use element/2 to access their elements.
+    102> element( 1, {1,2} ).
+    1
+** Lists
+*** PITFALL: Lists can mix types.
+*** (++) joins lists.
+*** (--) subtracts a prefix.
+    Specifically, it finds the longest prefix of the first argument equal to a prefix of the second argument, and returns the remainder of the first argument.
+*** (++) and (--) are right-associative.
+*** hd = head, tl = tail.
+*** The (|) operator separating "head" from tail is whack.
+    The "head" it isolates can be more than one element.
+
+    29> [1|[2,3]].
+    [1,2,3]
+    30> [1,2|[2,3]].
+    [1,2,2,3]
+*** PITFALL: Lists can be improper.
+     [1 | 2] creates something that behaves kind of like a list,
+     but it doesn't end with [], and as a result (for some reason)
+     some uses break. For instance [1 | 2] ++ [2,3] is not defined.
+*** list comprehensions
+    1> [2*N || N <- [1,2,3,4]].
+    [2,4,6,8]
+    2> [ X ||
+         X <- [1,2,3,4,5,6,7,8,9,10],
+         X rem 2 =:= 0].
+    [2,4,6,8,10]
+    5> [X+Y ||
+        X <- [1,2],
+        Y <- [2,3]].
+    [3,4,4,5]
+* modules
+** name conflicts
+*** Modules are flat, hence name conflicts common.
+*** Check for name conflicts with code:clash/0.
+*** "[T]o prefix every module name with the name of your project"
+    is common practice.
+** the `erlang` prelude
+   is imported implicitly.
+** Anything not from `erlang` must be fully qualified when called.
+   1> erlang:element(2, {a,b,c}).
+   b
+   2> element(2, {a,b,c}).
+   b
+   3> lists:seq(1,4).
+   [1,2,3,4]
+   4> seq(1,4).
+   ** exception error: undefined shell command seq/2
+** module attributes
+*** There are many.
+    I only learned a couple -- the module name and the export list.
+*** Everything in a module that isn't a function is an attribute.
+*** The module name is mandatory.
+    `-module(name)`
+    where `name` is an atom.
+*** Export lists are important.
+    `-export ( [ Function1/Arity,
+                 ...,
+                 FunctionN/Arity ] ).
+    e.g. `-export( do_something/1 )`
+    Functions can share a name if their arities differ.
+*** Explicit imports for individual functions are optional.
+    -import ( Module,
+             [ Function1/Arity,
+              ...,
+              FunctionN/Arity ] ).
+*** The compile attribute can (among other things) obviate the export one.
+    -compile(export_all). %% replace with -export() later, for God's sake!
+** Qualification uses (:), not (.).
+   3> c(useless).
+   {ok,useless}
+   6> useless:hello().
+   Hello, world!
+   ok
+   7>
+** retrieving a module's attributes without looking at the source
+   Use the module_info/0 function to get them all.
+   Use     module_info/1 to get one of them.
+** TODO Header inclusion exists. What is it good for? Bad at?
+   :PROPERTIES:
+   :ID:       b2d67f91-7509-45ca-bfd9-77fe1aaff43e
+   :END:
+*** my hunch
+    is that it's just to avoid having to qualify names,
+    particularly those of record accessors.
+*** my StackOverflow question about it
+    https://stackoverflow.com/questions/69065641/why-does-erlang-offer-both-import-for-modules-and-include-for-headers
+*** LYSE talks about it here
+    https://learnyousomeerlang.com/a-short-visit-to-common-data-structures
+** the `behavior` directive: `-behaviour(ConstrainingModule)`
+*** Is a promise to adhere to ConstrainingModule's specifications.
+*** Often that's a list of required callbacks.
+    e.g. the gen_server does this when used as a behavior-constraining module.
+*** user-defined behaviors, how to specify
+    -module(my_behaviour).
+    -export([behaviour_info/1]).
+
+    %% init/1, some_fun/0 and other/3 are expected callbacks
+    behaviour_info(callbacks) -> [{init,1}, {some_fun, 0}, {other, 3}];
+    behaviour_info(_) -> undefined.
+* pattern matching
+** an example
+  greet(male, Name) ->
+  io:format("Hello, Mr. ~s!", [Name]);
+  greet(female, Name) ->
+  io:format("Hello, Mrs. ~s!", [Name]);
+  greet(_, Name) ->
+  io:format("Hello, ~s!", [Name]).
+** COOL: A variable can appear more than once in a pattern.
+   same(X,X) ->
+     true;
+   same(_,_) ->
+     false.
+** overlapping pattern names
+   valid_time( { Date = {Y,M,D},
+                 Time = {H,Min,S}}) -> ...
+** Guards
+*** use the `when` keyword.
+    old_enough(X) when X >= 16 -> true;
+    old_enough(_) -> false.
+*** Join guards lazily with commas (and) and semicolons (or).
+   right_age(X) when X >= 16, X =< 104 ->
+   true;
+   right_age(_) ->
+   false.
+   wrong_age(X) when X < 16; X > 104 ->
+   true;
+   wrong_age(_) ->
+   false.
+*** PITFALL: Guards do not accept user-defined functions.
+    Because of side effects
+*** PITFALL: (;) and (,) treat errors unlike `orelse` and `andalso`.
+    https://learnyousomeerlang.com/syntax-in-functions
+    """ Note: I've compared , and ; in guards to the operators andalso and orelse. They're not exactly the same, though. The former pair will catch exceptions as they happen while the latter won't. What this means is that if there is an error thrown in the first part of the guard X >= N; N >= 0, the second part can still be evaluated and the guard might succeed; if an error was thrown in the first part of X >= N orelse N >= 0, the second part will also be skipped and the whole guard will fail.
+
+    However (there is always a 'however'), only andalso and orelse can be nested inside guards. This means (A orelse B) andalso C is a valid guard, while (A; B), C is not. Given their different use, the best strategy is often to mix them as necessary."""
+** [[id:393f4ace-8cb5-45a4-9087-b959e381b641][pattern matching on records]]
+* macros
+** user-defined macros
+   A 'function' macro could be written as
+     -define(sub(X,Y), X-Y).
+   and used like
+     ?sub(23,47),
+   later replaced by 23-47 by the compiler.
+** some important macros
+*** ?MODULE returns the current module's name.
+    :PROPERTIES:
+    :ID:       f92bc235-73f0-46f8-b34f-57f6002878a7
+    :END:
+    It's useful, e.g., for writing a helper function in module M
+    that spawns another function also defined in module M:
+
+    start(FoodList) ->
+        spawn( ?MODULE,
+    	   fridge2,
+    	   [FoodList] ).
+* functions
+** expression blocks
+   Commascan separate expressions. The last is returned, all are evaluated.
+
+   add(A,B) ->
+     something, // will be evaluated
+     something, // will be evaluated
+     A + B.     // will be evaluated and returned
+** Every function returns something.
+** The last "function clause" ends in a period.
+   The others are terminated by commas.
+   A clause defines how to process an input pattern.
+** recursion
+*** via guards
+    fac(0) -> 1;
+    fac(N) when N > 0 -> N*fac(N-1).
+*** via pattern matching
+    len([]) -> 0;
+    len([_|T]) -> 1 + len(T).
+*** tail recursion and accumulators
+**** an example
+     tail_fac(N) -> tail_fac(N,1).
+     tail_fac(0,Acc) -> Acc;
+     tail_fac(N,Acc) when N > 0 -> tail_fac(N-1,N*Acc).
+**** the trick
+     is to define f(args), where args do not match the base case,
+     as nothing more than f(different args).
+     Not just "in terms of" f(different args), but *as* that.
+**** my own length function
+     len( X ) -> len( X, 0 ).
+     len( [], N ) ->
+       N;
+     len( [_|X], N ) ->
+       len(X,N+1).
+**** There might be multiple base cases.
+     And if so, the pattern match might need a guard.
+
+     take(_,0) -> [];
+     take([],_) -> [];
+     take([H|T],N) when N > 0 -> [H|take(T,N-1)].
+** higher-order functions
+*** They are defined naturally.
+    -module(hof).
+
+    one() -> 1.
+    two() -> 2.
+
+    add(X,Y) -> X() + Y().
+*** They are passed HO arguments using the `fun` keyword.
+    hhfuns:add(
+      fun hof:one/0,
+      fun hof:two/0).
+** anonymous functions (tag: lambda)
+*** syntax
+    fun(Args1) ->
+   	 Expression1, Exp2, ..., ExpN;
+       (Args2) ->
+   	 Expression1, Exp2, ..., ExpN;
+       (Args3) ->
+   	 Expression1, Exp2, ..., ExpN
+    end
+*** PITFALL: scope, inheritance, shadowing
+    Here, the inner lambda inherits A from its parent's scope,
+    so the comparison A=2 always fails.
+    base() ->
+        A = 1,
+        (fun() -> A = 2 end)().
+
+    But here the outer A bound to 1 is shadowed,
+    by the A argument to the inner lambda,
+    so the result of base() is a function that can succeed for some inputs
+    (specifically the input 1).
+    base() ->
+        A = 1,
+        (fun(A) -> A = 2 end)(2).
+*** "named anonymous functions" permit recursion.
+    For instance, evaluate the following in the shell,
+    and it will print the "Call Batman!" message forever.
+
+    PrepareAlarm = fun(Room) ->
+       io:format("Alarm set in ~s.~n",[Room]),
+        fun Loop() ->
+           io:format("Alarm tripped in ~s! Call Batman!~n",[Room]),
+           timer:sleep(500),
+            Loop()
+        end
+    end.
+    AlarmReady = PrepareAlarm("bathroom").
+    AlarmReady().
+* if (conditional) expressions
+** They can be avoided entirely.
+   Case expressions are more general.
+** They are weird. Here are [[id:c1784f19-4e51-4239-8178-c074251b63aa][some if expressions in Erlang]].
+** They resemble case expressions.
+   if <case> -> <result>;
+      <case> -> <result>;
+      ...
+   end.
+** Some branch should evaluate.
+   Because every expression should return something,
+   and if expressions are expressions.
+** Default `true` conditions (`else` in other languages) are deprecated.
+* case expressions
+** much like Haskell
+   case <condition> of
+     <value> -> <result>;
+     <value> -> <result>;
+     ...
+   end.
+** can include guards ("when" clauses)
+   case Temperature of
+     {celsius, N} when N >= 20, N =< 45 -> <result>;
+* types
+** Erlang is strongly but dynamically typed.
+   There are no implicit conversions.
+   Type errors are only caught at runtime.
+** (explicit) type conversion
+   These are all in the `erlang` namespace, and not imported by default.
+*** some of those functions
+    atom_to_binary/2
+    atom_to_list/1
+    binary_to_atom/2
+    binary_to_existing_atom/2
+    binary_to_list/1
+    bitstring_to_list/1
+    binary_to_term/1
+    float_to_list/1
+    fun_to_list/1
+    integer_to_list/1
+    integer_to_list/2
+    iolist_to_binary/1
+    iolist_to_atom/1
+    list_to_atom/1
+    list_to_binary/1
+    list_to_bitstring/1
+    list_to_existing_atom/1
+    list_to_float/1
+    list_to_integer/2
+    list_to_pid/1
+    list_to_tuple/1
+    pid_to_list/1
+    port_to_list/1
+    ref_to_list/1
+    term_to_binary/1
+    term_to_binary/2
+    tuple_to_list/1
+** type tests
+   is_atom/1           is_binary/1
+   is_bitstring/1      is_boolean/1        is_builtin/3
+   is_float/1          is_function/1       is_function/2
+   is_integer/1        is_list/1           is_number/1
+   is_pid/1            is_port/1           is_record/2
+   is_record/3         is_reference/1      is_tuple/1
+** for static typing
+*** TypEr generates type signatures.
+*** Dialyzer typechecks.
+** records
+*** [[id:2d70cd42-4d1d-4df9-91f5-8cb324a19da1][records and the Erlang shell]]
+*** Records are just tuples in Erlang.
+*** [[id:ddbc4a6b-942c-4fae-aaf9-9d14481693bc][to make records print nicely]]
+*** accessing record fields
+**** example
+     RobTheRobot # module.bestFriend # robot.name.
+**** Field accessors (like "details" and "name" below) must be qualified with the module name.
+**** The # operator is left-associative.
+*** PITFALL: Accessors are integers, kind of.
+    If `name` is the second field of the record type `gobot`,
+    then this monstrosity evaluates:
+
+    104> #gobot.name.
+    2
+    105> 1 + #gobot.name.
+    3
+*** pattern matching on records
+    :PROPERTIES:
+    :ID:       393f4ace-8cb5-45a4-9087-b959e381b641
+    :END:
+**** Fields can be omitted -- even all of them.
+**** examples
+     admin_panel(#user{name=Name, group=admin}) ->
+         Name ++ " is allowed!";
+     ...
+
+     adult_section(U = #user{}) when U#user.age >= 18 ->
+         %% Show naughty stuff.
+         allowed;
+     ...
+*** record updates
+    repairman(Rob) ->
+        Details = Rob#robot.details,
+        NewRob = Rob#robot{details=["Repaired by repairman"|Details]},
+        {repaired, NewRob}.
+** maps
+*** the default `maps` library
+    https://learnyousomeerlang.com/maps
+    Hash maps.
+    Recent (added in version R17).
+    Nice special syntax.
+*** orddict - small ordered dictionaries (maps)
+**** Good to about 75 elements.
+**** Some important functions
+***** orddict:store/3,
+***** orddict:find/2
+      when you do not know whether the key is in the dictionaries
+***** orddict:fetch/2
+      when you know it is there or that it must be there
+***** orddict:erase/2.
+*** dict - simple maps that scale well
+*** dict - maps that scale well, simple
+*** gbtrees - maps that scale well, complex
+    "General balanced trees."
+    For *some* things, better than dicts.
+** SKIPPED: arrays, sets, queues, graphs
+   :PROPERTIES:
+   :ID:       62d43b5f-4411-4726-be7e-671a802595d2
+   :END:
+   https://learnyousomeerlang.com/a-short-visit-to-common-data-structures
+* exceptions
+** three kinds of exceptions in Erlang: errors, throws and exits
+*** `throw` ~ control flow, not crashing.
+*** `exit` and `error` are similar
+*** erlang:error/1 ~ crash.
+    It returns a stack trace.
+*** exit/1 is like a process's final words.
+    It does not return a stack trace.
+*** `exit` and `error` are very similar.
+** some errors
+*** head mismatch
+    "It's possible your function has more than one head, and each of them has a different arity. Don't forget that different arity means different functions, and you can't interleave function declarations that way. This error is also raised when you insert a function definition between the head clauses of another function"
+** The presented order of errors matters.
+   "Most of the time the hardest part is finding which error caused a huge cascade of errors listed against other functions. It is better to resolve compiler errors in the order they were reported to avoid being misled by errors which may not actually be errors at all."
+** try-catch blocks
+*** TEST: If I know why these commands do what they do, I understand it.
+**** first load this code
+    black_knight(Attack) when is_function(Attack, 0) ->
+        try Attack() of
+    	_ -> "None shall pass."
+        catch
+    	throw:a -> "It is but a scratch.";
+    	error:b -> "I've had worse.";
+    	exit:c -> "Come on you pansy!";
+	_ -> "I caught that.";
+    	exit:_ -> "Run away! Run away!";
+    	_:_ -> "Just a flesh wound."
+        end.
+**** then see what these evaluate to
+     exceptions:black_knight( fun() -> "Hello." end ).
+     exceptions:black_knight( fun() -> throw(a) end ).
+     exceptions:black_knight( fun() -> error(b) end ).
+     exceptions:black_knight( fun() -> exit(c) end ).
+     exceptions:black_knight( fun() -> throw(yikes) end ).
+     exceptions:black_knight( fun() -> error(yikes) end ).
+     exceptions:black_knight( fun() -> exit(yikes) end ).
+**** answers / explanations
+     exceptions:black_knight( fun() -> "Hello." end ).
+       No exception. Evaluates normally.
+     exceptions:black_knight( fun() -> throw(a) end ).
+       Matches one of the catch clauses exactly.
+     exceptions:black_knight( fun() -> error(b) end ).
+       Matches one of the catch clauses exactly.
+     exceptions:black_knight( fun() -> exit(c) end ).
+       Matches one of the catch clauses exactly.
+     exceptions:black_knight( fun() -> throw(yikes) end ).
+       Matches the `_`, which because it has no type specified,
+       applies only to throws.
+     exceptions:black_knight( fun() -> error(yikes) end ).
+       Only matches the last, catch-all clause.
+     exceptions:black_knight( fun() -> exit(yikes) end ).
+       Because it's an exit, it matches the `exit:_` clause;
+       its value is ignored.
+*** a template
+    try
+        Expression,
+        Expression,
+        Expression
+    of
+	SuccessfulPattern1 [Guards] ->
+   	 Expression1;
+	SuccessfulPattern2 [Guards] ->
+   	 Expression2
+    catch
+	TypeOfError:ExceptionPattern1 ->
+   	 Expression3;
+	TypeOfError:ExceptionPattern2 ->
+   	 Expression4
+    after % Always gets executed. Can't return anything.
+         Expr3
+    end.
+*** `of` defines what gets returned in non-exceptional execution.
+*** The `of` and `after` branches are both optional.
+*** You can replace TypeOfError by either error, throw or exit.
+*** If no type is provided, a throw is assumed.
+*** The `after` block always gets executed. It's good for side effects.
+    But it can't return anything.
+*** PITFALL: Tail call optimization is only available in the `of` branch.
+    The `try` and `catch` branches are protected --
+    a reference to them must persist in case something goes wrong,
+    so the frame can't be optimized away.
+** standalone `catch`
+   :PROPERTIES:
+   :ID:       38b59abc-ae95-47f2-b23e-d3af81b8d803
+   :END:
+   It's unnecessary and dangerous. I mostly skipped the section about it:
+   https://learnyousomeerlang.com/errors-and-exceptions#theres-more
+** using throw and catch to skip in the frame stack
+*** The idea
+    Normal execution causes each call of a function to hand its result to a caller. For instance, if you descend into a tree, you have to then ascend through it to return the final result.
+    By contrast, a `throw` deep in the tree will skip straight to the nearest frame with a `catch` clause.
+*** Illustrated here
+    The pictures here are the important thing:
+    https://learnyousomeerlang.com/errors-and-exceptions#try-a-try-in-a-tree
+    There's also the code (search for the word "naive") here:
+    file://~/code/concurrent-langs/erlang/tree.erl
+* [[id:8bd1818b-7da8-4c6b-b35e-93f54ef5a0d7][concurrency in Erlang]]
+* hot code loading
+** Erlang's `code server` can maintain two running versions of a module.
+** `local` vs. `external` calls
+   Local calls are local to that module,
+   and look like `function(args)" rather than "module:function(args)".
+** External calls always call the newest version of a module.
+** External recursive calls thus let an actor change its own code.
+   Qualify a recursive call with ?MODULE
+   and it will load the new version of the module.
+*** example
+    -module(hotload).
+    -export([server/1, upgrade/1]).
+
+    server(State) ->
+      receive
+	update ->
+          NewState = ?MODULE:upgrade(State),
+          ?MODULE:server(NewState);  %% loop in the new version of the module
+	SomeMessage ->
+          %% do something here
+          server(State)  %% stay in the same version no matter what.
+      end.
+
+    upgrade(OldState) ->
+      %% transform and return the state here.
+** PITFALL: Third generations are killed by the VM.
+   "If you load a third version of a module while a process still runs with the first one, that process gets killed by the VM, which assumes it was an orphan process without a supervisor or a way to upgrade itself. If nobody runs the oldest version, it is simply dropped and the newest ones are kept instead."
+* FINISH LATER: half-assed notes
+** printing
+   https://erlang.org/doc/man/io.html#format-3
+*** try these
+    io:format("~s~n",[<<"Hello">>]),
+    io:format("~p~n",[<<"Hello">>]),
+    io:format("~~~n"),
+    io:format("~f~n", [4.0]),
+    io:format("~30f~n", [4.0]).
+*** Ports are printed with ~p.
+    Trying to match a port to an ~s will throw an error..
+** time
+*** timer:sleep/1 -- pause for a number of ms
+*** converting a date to a duration
+    time_to_go(TimeOut={{_,_,_}, {_,_,_}}) ->
+      Now = calendar:local_time(),
+      ToGo = calendar:datetime_to_gregorian_seconds(TimeOut) -
+        calendar:datetime_to_gregorian_seconds(Now),
+      ...
+*** validating a date
+    {{Y,M,D},{H,Min,S}} format
+
+    There's something builtin to validate the {Y,M,D},
+    but nothing for the {H,M,S} part.
+**** Here's something that does both.
+     valid_datetime({Date,Time}) ->
+       try
+         calendar:valid_date(Date) andalso valid_time(Time)
+       catch
+         error:function_clause ->
+           %% not in {{Y,M,D},{H,Min,S}} format
+           false
+       end;
+     valid_datetime(_) ->
+       false.
+
+     valid_time({H,M,S}) -> valid_time(H,M,S). % artiy 1 -> arity 3
+     valid_time(H,M,S) when H >= 0, H < 24,
+     		       M >= 0, M < 60,
+     		       S >= 0, S < 60 -> true;
+     valid_time(_,_,_) -> false.
+** Supervisors
+*** Can restart dead processes.
+*** A DIY supervisor.
+    -module(sup). % "supervisor"
+    -export(
+       [ start/2
+       , start_link/2
+       , init/1
+       , loop/1]).
+
+    start(Mod,Args) ->
+      spawn(
+        ?MODULE,
+        init,
+        [ { Mod % Any module with a start_link function.
+          , Args % Any tuple matching Mod:start_link's arity.
+          } ] ).
+
+    start_link(Mod,Args) ->
+      spawn_link( ?MODULE, init, [{Mod, Args}] ).
+
+    init({Mod,Args}) ->
+      process_flag(trap_exit, true),
+      loop({Mod,start_link,Args}).
+
+    loop({M,F,A}) ->
+      Pid = apply(M,F,A),
+      receive
+        {'EXIT', _From, shutdown} ->
+          exit(shutdown); % will kill the child too
+        {'EXIT', Pid, Reason} ->
+          io:format(
+    	"Process ~p exited for reason ~p~n",
+    	[Pid,Reason]),
+          loop({M,F,A})
+      end.
+** apply/3
+   apply (Module, Function, Args)
+   seems to run Module:Function against Args.
