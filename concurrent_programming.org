@@ -1,0 +1,47 @@
+:PROPERTIES:
+:ID:       a0f72fa0-6930-4b6b-a570-93a4748895bb
+:END:
+#+title: concurrent programming
+* some vocab
+** parallel vs. concurrent
+   :PROPERTIES:
+   :ID:       c7224417-dcc0-40e1-ad5b-4d2cf94c4c1f
+   :END:
+   parallel = simultaneous (multiple processors)
+   concurrent = not necessarily (e.g. multithreaded counts).
+** synchronous v. asynchronous messaging
+   :PROPERTIES:
+   :ID:       d2aedfcf-3148-4859-97c6-86a756b18a36
+   :END:
+   In sync, you halt all other operations while waiting for a response.
+   In async, you don't.
+* some principles
+** when to prefer synchronous or asynchronous comms
+   :PROPERTIES:
+   :ID:       306ceafe-96fd-4076-87e3-81a617b0d99c
+   :END:
+   I don't know, but
+*** async is good for two independent processes
+    Both might ask the other something at the same time;
+    both should not get stuck waiting for a reply.
+*** sync is usually fine between a user and their app
+    The app can reasonably wait for the user without hurting the user.
+** designing asynchronous protocols
+   :PROPERTIES:
+   :ID:       b0957f0c-b592-4906-be93-638476a45b20
+   :END:
+   https://learnyousomeerlang.com/finite-state-machines
+*** Async protocols are harder to design than synchronous one.
+    Their robustness isn't free --
+    there are lots of potential interactions to consider.
+*** Some good questions to ask:
+    "what happens if two people do the same actions very fast?
+    What if they chain two events quickly?
+    What to do with messages not handled when changing states?
+*** If you ask someone to X and then they ask you to X, treat it like they accepted.
+** designing synchronous protocols
+*** If a choice must be made for who starts, PIDs can be compared.
+** sometimes a third party is needed
+   "It's generally not possible to do a true safe commit [where both agents want to change state, but only if the other does] with only two participants—a third party is usually required to judge if both players did everything right."
+* some languages
+** [[id:c008e013-350c-47c7-9f87-228d1d35b2b3][Erlang (programming language)]]

@@ -383,79 +383,208 @@
        Client,
        S#state.clients), % the map to modify
 * The OTP library
-** functions a user needs to define
-*** init/1
-**** messages it can return
-***** {ok, State}
-***** {ok, State, TimeOut}
-      "The TimeOut variable is meant to be added to the tuple whenever you need a deadline before which you expect the server to receive a message. If no message is received before the deadline, a special one (the atom timeout) is sent to the server, which should be handled with handle_info/2 (more on this later.)"
-***** {ok, State, hibernate}
-      "if you do expect the process to take a long time before getting a reply and are worried about memory, you can add the hibernate atom to the tuple. Hibernation basically reduces the size of the process' state until it gets a message, at the cost of some processing power. If you are in doubt about using hibernation, you probably don't need it."
-***** {stop, Reason}
-      When initialization fails.
-***** ignore
-**** whatever calls init/1 blocks until it returns
-     It is waiting for a `ready` message
-     from the `gen_server` module.
-*** handle_call :: (Request, From, State) -> <response>
-    :PROPERTIES:
-    :ID:       bc1f3d25-47cb-4210-a43c-8787f3e744e3
-    :END:
-**** for synchronous messaging
-**** valid response formats
-***** {reply,Reply,NewState}
-***** {reply,Reply,NewState,Timeout}
-***** {reply,Reply,NewState,hibernate}
-***** {noreply,NewState}
-***** {noreply,NewState,Timeout}
-***** {noreply,NewState,hibernate}
-***** {stop,Reason,Reply,NewState}
-***** {stop,Reason,NewState}
-**** how the terms in those messages work
-***** `TimeOut` and `hibernate` work like in init/1.
-***** `Reply` is sent back to whoever asked for it.
-***** `noreply` tells the server not to reply.
-      :PROPERTIES:
-      :ID:       26114ed6-ebd8-4ccd-a525-0d3fc7aba7da
-      :END:
-      "you're taking care of sending the reply back yourself."
-      Do so with gen_server:reply/2.
-*** handle_cast :: (Message, State) -> <response>
-    :PROPERTIES:
-    :ID:       ce8cbd61-4465-4452-ae19-753b6a227ddd
-    :END:
-**** for asynchronous messaging
-**** much like [[id:bc1f3d25-47cb-4210-a43c-8787f3e744e3][handle_call]]
-**** valid response formats
-     {noreply,NewState}
-     {noreply,NewState,Timeout}
-     {noreply,NewState,hibernate}
-     {stop,Reason,NewState}
-*** handle_info/2 : handle messages outside the interface
-    "similar to [[id:ce8cbd61-4465-4452-ae19-753b6a227ddd][handle_cast/2]] and in fact returns the same tuples. The difference is that this callback is only there for messages that were sent directly with the ! operator and special ones like init/1's timeout, monitors' notifications and 'EXIT' signals."
-*** terminate/2 :: (Reason, State) -> <dunno>
-**** called in response to `{stop, ...}` tuples
-     {stop, Reason, NewState}
-     {stop, Reason, Reply, NewState}
-**** valid Reason values
-***** are these
-      normal
-      shutdown
-      {shutdown, Term}
-***** if Reason fits none of those patterns, logging happens
-      "If any reason other than normal, shutdown or {shutdown, Term} is used when terminate/2 is called, the OTP framework will see this as a failure and start logging a bunch of stuff here and there for you."
-**** might be called if its parent (spawner) dies
-     That happens if and only if
-     the gen_server is trapping exits.
-**** is like the opposite of init/1
-**** return value doesn't matter
-     "the code stops executing after it's been called"
-*** code_change/3 :: (PrevVersion, State, Extra) -> {ok, NewState}
-**** valid PreviousVersion values
-     either the version term itself in the case of an upgrade
-     or {down, Version} in the case of a downgrade
-**** State is the current server's state
-**** Extra is advanced stuff.
-** gen_server:reply/2
-   Useful when you'd like to [[id:26114ed6-ebd8-4ccd-a525-0d3fc7aba7da][handle the reply yourself]],
-   rather than using the server.
+** gen_server: the Generic Server module|behavior
+   https://learnyousomeerlang.com/clients-and-servers#callback-to-the-future
+*** some "callbacks": functions the user must define *and export*
+    If they aren't exported, gen_server can't use them, I guess.
+**** init/1
+***** called by gen_server:start and gen_server:start_link
+***** messages it can return
+****** {ok, State}
+****** {ok, State, TimeOut}
+       "The TimeOut variable is meant to be added to the tuple whenever you need a deadline before which you expect the server to receive a message. If no message is received before the deadline, a special one (the atom timeout) is sent to the server, which should be handled with handle_info/2 (more on this later.)"
+****** {ok, State, hibernate}
+       "if you do expect the process to take a long time before getting a reply and are worried about memory, you can add the hibernate atom to the tuple. Hibernation basically reduces the size of the process' state until it gets a message, at the cost of some processing power. If you are in doubt about using hibernation, you probably don't need it."
+****** {stop, Reason}
+       When initialization fails.
+****** ignore
+***** whatever calls init/1 blocks until it returns
+      It is waiting for a `ready` message
+      from the `gen_server` module.
+**** handle_call :: (Request, From, State) -> <response>
+     :PROPERTIES:
+     :ID:       bc1f3d25-47cb-4210-a43c-8787f3e744e3
+     :END:
+***** called by gen_server:call
+***** for synchronous messaging
+***** valid response formats
+****** {reply,Reply,NewState}
+****** {reply,Reply,NewState,Timeout}
+****** {reply,Reply,NewState,hibernate}
+****** {noreply,NewState}
+****** {noreply,NewState,Timeout}
+****** {noreply,NewState,hibernate}
+****** {stop,Reason,Reply,NewState}
+****** {stop,Reason,NewState}
+***** how the terms in those messages work
+****** `TimeOut` and `hibernate` work like in init/1.
+****** `Reply` is sent back to whoever asked for it.
+****** `noreply` tells the server not to reply.
+       :PROPERTIES:
+       :ID:       26114ed6-ebd8-4ccd-a525-0d3fc7aba7da
+       :END:
+       "you're taking care of sending the reply back yourself."
+       Do so with gen_server:reply/2.
+**** handle_cast :: (Message, State) -> <response>
+     :PROPERTIES:
+     :ID:       ce8cbd61-4465-4452-ae19-753b6a227ddd
+     :END:
+***** called by gen_server:cast
+***** for asynchronous messaging
+***** much like [[id:bc1f3d25-47cb-4210-a43c-8787f3e744e3][handle_call]]
+***** valid response formats
+      {noreply,NewState}
+      {noreply,NewState,Timeout}
+      {noreply,NewState,hibernate}
+      {stop,Reason,NewState}
+**** handle_info/2 : handle messages outside the interface
+***** a quote
+      "similar to [[id:ce8cbd61-4465-4452-ae19-753b6a227ddd][handle_cast/2]] and in fact returns the same tuples. The difference is that this callback is only there for messages that were sent directly with the ! operator and special ones like init/1's timeout, monitors' notifications and 'EXIT' signals."
+***** Valid response formats include
+      but might not be limited to
+****** {noreply, Cats}
+***** But remember they can do IO too.
+      A natural implementation would be to log the unexpected messages.
+**** terminate/2 :: (Reason, State) -> <dunno>
+***** called in response to `{stop, ...}` tuples
+      {stop, Reason, NewState}
+      {stop, Reason, Reply, NewState}
+***** valid Reason values
+****** are these
+       normal
+       shutdown
+       {shutdown, Term}
+****** if Reason fits none of those patterns, logging happens
+       "If any reason other than normal, shutdown or {shutdown, Term} is used when terminate/2 is called, the OTP framework will see this as a failure and start logging a bunch of stuff here and there for you."
+***** might be called if its parent (spawner) dies
+      That happens if and only if
+      the gen_server is trapping exits.
+***** is like the opposite of init/1
+***** return value doesn't matter
+      "the code stops executing after it's been called"
+**** code_change/3 :: (PrevVersion, State, Extra) -> {ok, NewState}
+***** valid PreviousVersion values
+      either the version term itself in the case of an upgrade
+      or {down, Version} in the case of a downgrade
+***** State is the current server's state
+***** Extra is advanced stuff.
+*** some functions a user is likely to define
+**** offload `start_link` to `gen_server`
+     start_link () -> % returns {ok,Pid}
+       gen_server:start_link(
+         % optional fourth parameter in first (this) position:
+	 % name to register server under
+         ?MODULE,  % where the callbacks are
+         [],       % parameters for init/1
+         []).	  % debugging options
+**** gen_server:call :: Pid -> Message -> _ -> IO ()
+     The Pid is, I imagine, who sent the message.
+     The optional (i.e. can be missing entirely)
+     third argument is a timeout, defaulting to 5 seconds.
+*** gen_server:reply/2
+    Useful when you'd like to [[id:26114ed6-ebd8-4ccd-a525-0d3fc7aba7da][handle the reply yourself]],
+    rather than using the server.
+*** TODO What do I have to export?
+    c.f. ~/code/concurrent-langs/erlang/kitty/v3-otp/kitty_gen_server.erl
+    If I export_all it works.
+    If I try to export only the interface, it doesn't.
+** gen_fsm: the Generic Finite State Machine module|behavior
+   https://learnyousomeerlang.com/finite-state-machines
+*** looks like a digraph
+*** callback the user must define
+**** in all of these, `stop`, Timeout and `hibernate` work the same as in `gen_server`.
+**** init/1
+***** acceptable return values
+      {ok, StateName, Data}
+      {ok, StateName, Data, Timeout}
+      {ok, StateName, Data, hibernate}
+      {stop, Reason}
+***** the `StateName` atom indicates the next callback to use
+**** StateName/2-3
+     For each state defined in `init`,
+     there should be at least one function of the same name.
+     taking 2 arguments if async, 3 if sync.
+***** For a given StateName, *either or both* StateName/2 and StateName/3 can be defined.
+***** StateName/2 :: EventMessage -> StateData -> _
+****** valid return values
+       {next_state, NextStateName, NewStateData}
+       {next_state, NextStateName, NewStateData, Timeout}
+       {next_state, NextStateName, NewStateData, hibernate}
+       {stop, Reason, NewStateData}
+***** StateName/3 :: EventMessage -> From -> StateData -> _
+****** valid return values
+      {reply, Reply, NextStateName, NewStateData}
+      {reply, Reply, NextStateName, NewStateData, Timeout}
+      {reply, Reply, NextStateName, NewStateData, hibernate}
+
+      {next_state, NextStateName, NewStateData}
+      {next_state, NextStateName, NewStateData, Timeout}
+      {next_state, NextStateName, NewStateData, hibernate}
+
+      {stop, Reason, Reply, NewStateData}
+      {stop, Reason, NewStateData}
+**** handle_event/3 :: EventMessage -> StateName -> StateData -> _
+***** for events that are handled the same from every state
+      (So it seems strange that StateName is an argument ...)
+***** is for async events, I think
+**** handle_sync_event/4 ::
+***** for synchronous global events
+***** "takes the same parameters and returns the same kind of tuples as StateName/3."
+**** code_change/4
+***** like the same function in gen_servers
+***** input: (OldVersion, StateName, Data, Extra)
+***** output: {ok, NextStateName, NewStateData}
+**** terminate/3
+*** sending (async, sync) events to (some, every) state -> four functions
+**** send_event/2
+     Asynchronous events aimed at any StateName/2 function
+**** sync_send_event/2-3
+     "synchronous events to be picked up by [any?] StateName/3"
+**** send_all_state_event/2 and sync_send_all_state_event/2-3
+     "Equivalent" to the previous two, but for "global" events.
+***** TODO "global" events?
+*** [[id:306ceafe-96fd-4076-87e3-81a617b0d99c][synchronous vs. asynchronous communication: when to prefer which]]
+*** [[id:b0957f0c-b592-4906-be93-638476a45b20][designing asynchronous protocols]]
+** gen_event: the Generic Events module|behavior
+   https://learnyousomeerlang.com/event-handlers
+*** "event handlers run in the same process as their manager"
+*** callbacks the user must define
+**** init/1
+     takes a list of arguments and returns {ok, State}.
+**** terminate/2
+**** handle_event :: (Event, State) -> _
+***** asynchronous
+***** acceptable return values
+****** {ok, NewState}
+       replies to nobody
+****** {ok, NewState, hibernate}
+       puts the event manager itself into hibernation until the next event
+****** remove_handler
+       "drops the handler from the manager"
+       Good for when the handler is finished.
+****** {swap_handler, Args1, NewState, NewHandler, Args2}
+       Rarely used.
+       Calls these in serial:
+         CurrentHandler:terminate(Args1, NewState)
+         NewHandler:init(Args2, ResultFromTerminate)
+***** triggered by `gen_event:notify/2`
+**** handle_call
+***** acceptable return values
+      {ok, Reply, NewState}
+      {ok, Reply, NewState, hibernate}
+      {remove_handler, Reply}
+      {swap_handler, Reply, Args1, NewState, Handler2, Args2}
+***** "like gen_server:handle_call`
+      Does that mean its inputs are (Request, From, State)?
+***** triggered by `gen_event:call/3-4`
+**** handle_info/2
+     For unexpected messages.
+**** code_change :: (OldVsn, State, Extra) -> _
+***** like in gen_server
+***** applies to each event handler individually
+***** can return {ok, NewState}
+      and maybe other stuff
+*** functions it defines
+**** gen_event:notify/2 :: async
+**** gen_event:sync_notify/2 :: sync
+     "returns once all event handlers have seen and treated the new message. Until then, the event manager will keep blocking the calling process by not replying."

@@ -5,63 +5,84 @@
 * refs
 ** These notes are mostly from Learn You Some Erlang (LYSE)
    https://learnyousomeerlang.com/content
-** TODO RESUME at
-   https://learnyousomeerlang.com/errors-and-exceptions#try-a-try-in-a-tree
-* TODO [[id:77a1ba6e-d657-4579-afe7-d5a95ce7bb74][questions, unresolved]]
-* TODO learn about static typing
-  https://erlang.org/doc/reference_manual/typespec.html
-* TODO ? SKIPPED chapters in LYSE
-** [[id:62d43b5f-4411-4726-be7e-671a802595d2][SKIPPED: arrays, sets, queues, graphs]]
-** SKIPPED: "Functionally solving problems in Erlang."
-   https://learnyousomeerlang.com/functionally-solving-problems
-** SKIPPED: [[id:38b59abc-ae95-47f2-b23e-d3af81b8d803][standalone `catch`]]
-** SKIPPED: Bit syntax and binary comprehensions.
-   https://learnyousomeerlang.com/starting-out-for-real#bit-syntax
-* some vocab
+** More references
+   in no particular order
+   https://www.erlang.org/docs
+   https://erlang.org/doc/getting_started/users_guide.html
+   https://erlang.org/doc/design_principles/users_guide.html
+** TODO RESUME in LYSE at
+   https://learnyousomeerlang.com/event-handlers#it-s-curling-time
+** [[id:a0f72fa0-6930-4b6b-a570-93a4748895bb][concurrent programming]]
+* TODO in Erlang
+** TODO learn about static typing
+   https://erlang.org/doc/reference_manual/typespec.html
+   [[id:25b56f5b-eb2d-46b4-9f97-c3ba0f02484b][some tools for static typing]]
+** TODO [[id:77a1ba6e-d657-4579-afe7-d5a95ce7bb74][questions, unresolved]]
+** SKIPPED chapters in LYSE
+*** [[id:62d43b5f-4411-4726-be7e-671a802595d2][SKIPPED: arrays, sets, queues, graphs]]
+*** SKIPPED: "Functionally solving problems in Erlang."
+    https://learnyousomeerlang.com/functionally-solving-problems
+*** SKIPPED: [[id:38b59abc-ae95-47f2-b23e-d3af81b8d803][standalone `catch`]]
+*** SKIPPED: Bit syntax and binary comprehensions.
+    https://learnyousomeerlang.com/starting-out-for-real#bit-syntax
+* some vocab and notation
+** Erlang writes functions as "name/arity".
+   e.g. `print/1` for a print function with one argument.
 ** BIF = built-in function
-** parallel vs. concurrent
-   :PROPERTIES:
-   :ID:       c7224417-dcc0-40e1-ad5b-4d2cf94c4c1f
-   :END:
-   parallel = simultaneous (multiple processors)
-   concurrent = not necessarily (e.g. multithreaded counts).
-** synchronous v. asynchronous messaging
-   In sync, you halt all other operations while waiting for a response.
-   In async, you don't.
+** [[id:c7224417-dcc0-40e1-ad5b-4d2cf94c4c1f][parallel vs. concurrent]]
+** [[id:d2aedfcf-3148-4859-97c6-86a756b18a36][synchronous v. asynchronous messaging]]
 * using the "shell" (repl)
-** Start the shell: `erl`
+** Start the shell with `erl`
+*** [[id:b352deca-445d-4fa1-b80e-ae2ab06d9c3a][Run `erl -pa <path>` to add paths to (user-compiled) .beam files.]]
 ** Get help: `help().`
    The trailing dot is important.
-** clean variable definitions in the shell namespace.
+** clear variable definitions in the shell namespace.
+   #delete #clean #undefine
 *** Unbind the variable X with `f(X).`.
 *** Unbind all variables with `f().`.
+*** [[id:93aa1364-b9e5-42ef-ac8c-f6740bae880e][Undefine record types with rf/0 and rf/1.]]
 ** records and the Erlang shell
    :PROPERTIES:
    :ID:       2d70cd42-4d1d-4df9-91f5-8cb324a19da1
    :END:
-*** to make records print nicely
+*** make a module's records print nicely: rr(Module).
     :PROPERTIES:
     :ID:       ddbc4a6b-942c-4fae-aaf9-9d14481693bc
     :END:
-    Use
-      rr(Module_with_records_to_load)
+**** PITFALL: it must have an associated .beam file first
+     i.e. it needs to have been compiled already
+     (although not necessarily in this REPL session).
 *** Undefine record types with rf/0 and rf/1.
-*** rl/0 prints all record definitions, rl/1 prints a single one.
+    :PROPERTIES:
+    :ID:       93aa1364-b9e5-42ef-ac8c-f6740bae880e
+    :END:
+*** rl/0 prints all record definitions, rl/1 prints one.
 *** rp(Term) converts a tuple to a record, if possible.
-*** cd/1: change working directory. available only in the shell.
-    Good for compiling, loading modules.
+*** directory navitation
+    available only iin the shell
+**** cd/1: change working directory.
+     Good for compiling, loading modules.
+**** pwd/0
+**** ls/0
 ** [[id:0dfa99f9-7d57-4d9d-b664-728d6b916ea8][Show and delete messages to the shell with flush/0.]]
 ** [[id:b56be675-c98d-4d98-b1e3-bba982c6abdb][regs() -- in repl, get more detailed info on all registered processes.]]
-** [[id:b352deca-445d-4fa1-b80e-ae2ab06d9c3a][Run `erl -pa <path>` to add paths to (user-compiled) .beam files.]]
-** [[id:e8298fc5-84b1-46c8-9d78-32d30e6b9b8a][run `make:all([load])` from the repl]]
+** Compile a big program with an Emakefile: [[id:e8298fc5-84b1-46c8-9d78-32d30e6b9b8a][`make:all([load])`]]
 * using the compiler
-** PITFALL: Will get an "unused function" error if an unexported function is only used internally in `spawn` calls.
-   :PROPERTIES:
-   :ID:       209c4447-0e85-47dd-b77d-1e759faaf10b
-   :END:
-*** TODO Why?
+** PITFALL: "unused function" errors can be confusing.
+*** Will get one if an unexported function is used internally in `spawn` calls.
+    :PROPERTIES:
+    :ID:       209c4447-0e85-47dd-b77d-1e759faaf10b
+    :END:
+**** TODO Why?
+*** Will get one if a module [[id:0976ad01-0e93-405e-9b62-76b91e3b8beb][adhering to a behavior]] does not export callbacks the behavior-defining module must call.
+** compiling a small program
+*** in the repl
+    compile:file ( FileName ).
+    c ( FileName ).
+*** from the command line
+    erlc flags file.erl
 ** compiling a big program
-*** put an Emakefile in the source folder
+*** First put an Emakefile in the source folder.
 **** example
      {'src/*', [ debug_info,
                  {i, "src"},
@@ -72,13 +93,15 @@
        It's standard.
      Each `i` pair indicates a folder that should be scanned for code.
      `outdir` is where the compiled .beam files go.
-*** run `erl -make`        from the command line
-*** run `make:all([load])` from the repl
-    :PROPERTIES:
-    :ID:       e8298fc5-84b1-46c8-9d78-32d30e6b9b8a
-    :END:
-    will look for a file named 'Emakefile' in the current directory,
-    recompile it (if it changed) and load the new files.
+*** Then compile it.
+    alternatives
+**** run `erl -make`        from the command line
+**** run `make:all([load])` from the repl
+     :PROPERTIES:
+     :ID:       e8298fc5-84b1-46c8-9d78-32d30e6b9b8a
+     :END:
+     will look for a file named 'Emakefile' in the current directory,
+     recompile it (if it changed) and load the new files.
 ** Run `erl -pa <path>` to add paths to (user-compiled) .beam files.
    :PROPERTIES:
    :ID:       b352deca-445d-4fa1-b80e-ae2ab06d9c3a
@@ -88,27 +111,30 @@
   :ID:       3a230207-47a8-4dde-af88-2c442f5c51aa
   :END:
 ** erlang-indent-current-buffer
-* compilation
-** in the repl
-   compile:file ( FileName ).
-   c ( FileName ).
-** from the command line
-   erlc flags file.erl
-* syntax
+** [[id:b1d56ff7-9557-4208-9ed1-28a807fce6f9][Comments should follow %%.]]
+* some basic syntax
 ** Comments follow %%.
+   :PROPERTIES:
+   :ID:       b1d56ff7-9557-4208-9ed1-28a807fce6f9
+   :END:
+   or %, but then the Emacs auto-formatting sucks.
 ** Expressions are only evaluated if they end in a dot and then whitespace.
    I guess the dot without whitespace can be a conjuction.
-** Comma-separated expressions are all evaluated, and the last one shown.
+** Comma-separated expressions are all evaluated, and the last one returned.
 ** Variables
 *** PITFALL: Variable assignment (=) is weird.
-    `x = y` will return the value if they are equal.
+    `X = Y` will return the value if they are equal.
     If they are not, it will raise an exception.
-    A value can be "reassigned" to a variable as long it results in no change in the variable's value.
+    A value can be "reassigned" to a variable as long as it results in no change in the variable's value.
 *** How to write variables.
 **** Variables must be capitalized.
 **** Variables starting with an underscore are normal variables, except the compiler won't complain if they're not used.
-     Just like other variables, it is not possible to bind them more than once.
+     Just like other variables,
+     it is not possible to bind them more than once.
 ** Atoms
+   :PROPERTIES:
+   :ID:       b83c0167-c0f4-4ba1-9945-46dc4211ee12
+   :END:
    are like strings whose names and values are equal.
 *** examples
     1> atom.
@@ -123,10 +149,11 @@
     atom
 *** rules
     should be enclosed in single quotes (') if it does not begin with a lower-case letter or if it contains other characters than alphanumeric characters, underscore (_), or @.
-*** It is impossible for such a constant to be undefined.
+*** All atoms are defined.
+*** They can't be too long.
 *** PITFALL: Don't generate too many (e.g. random) atoms.
     They are not garbage-collected.
-*** There are some reserved atoms.
+*** There are 28 reserved atoms.
 **** the idea
      "Some atoms are reserved words and can not be used except for what the language designers wanted them to be: function names, operators, expressions, etc.
 **** the reserved atoms
@@ -135,25 +162,36 @@
 *** `and` and `or` are strict.
     `andalso` and `orelse` are lazy on the right side.
 *** PITFALL: true and false are ordinary atoms.
-   Omparing them with < and > to other things is a potential source of error.
-** equality tests
+    :PROPERTIES:
+    :ID:       4a538e73-e552-486a-8ec8-76772091c0d3
+    :END:
+   Comparing them with < and > to other things
+   is a potential source of error.
+** equality tests & type
+   They never throw type errors.
    =:= and =/= test for and against equality, and they care about type.
    == and /= do the same thing without caring about type.
-** PITFALL: LTE is written backwards: =<
+** PITFALL: The LTE operator (=<) is written backwards
 ** PITFALL: Comparison works across types.
    number < atom < reference < fun < port < pid < tuple < list < bit string
 ** Tuples
+   :PROPERTIES:
+   :ID:       0e0237a3-8223-45b5-ad9e-b731a5777d9b
+   :END:
 *** Use brackets {,} to create tuples.
 *** Use element/2 to access their elements.
     102> element( 1, {1,2} ).
     1
 ** Lists
+   :PROPERTIES:
+   :ID:       93434a34-a3e1-4392-bedd-50b28bb70e4a
+   :END:
 *** PITFALL: Lists can mix types.
-*** (++) joins lists.
-*** (--) subtracts a prefix.
-    Specifically, it finds the longest prefix of the first argument equal to a prefix of the second argument, and returns the remainder of the first argument.
-*** (++) and (--) are right-associative.
 *** hd = head, tl = tail.
+    Don't forget the parentheses!
+*** (++) joins lists, is right-associative.
+*** (--) subtracts a prefix, is right-associative.
+    Specifically, it finds the longest prefix of the first argument equal to a prefix of the second argument, and returns the remainder of the first argument.
 *** The (|) operator separating "head" from tail is whack.
     The "head" it isolates can be more than one element.
 
@@ -161,69 +199,95 @@
     [1,2,3]
     30> [1,2|[2,3]].
     [1,2,2,3]
-*** PITFALL: Lists can be improper.
+*** PITFALL: Lists can be improper (not null-terminated).
      [1 | 2] creates something that behaves kind of like a list,
      but it doesn't end with [], and as a result (for some reason)
      some uses break. For instance [1 | 2] ++ [2,3] is not defined.
 *** list comprehensions
-    1> [2*N || N <- [1,2,3,4]].
-    [2,4,6,8]
-    2> [ X ||
-         X <- [1,2,3,4,5,6,7,8,9,10],
-         X rem 2 =:= 0].
-    [2,4,6,8,10]
-    5> [X+Y ||
-        X <- [1,2],
-        Y <- [2,3]].
-    [3,4,4,5]
+**** a functional example
+     1> [2*N || N <- [1,2,3,4]].
+     [2,4,6,8]
+     2> [ X ||
+          X <- [1,2,3,4,5,6,7,8,9,10],
+          X rem 2 =:= 0].
+     [2,4,6,8,10]
+     5> [X+Y ||
+         X <- [1,2],
+         Y <- [2,3]].
+     [3,4,4,5]
+*** Evaluating a list of IO operations evaluates them.
+    Here's a list comprehension that does IO.
+    It returns no value, because it's followed by a (,).
+
+    [ io:format("~p was set free.~n",
+   	     [C#cat.name] )
+      || C <- Cats ],
+    ...
 * modules
+** Module consist entirely of attributes and functions.
 ** name conflicts
-*** Modules are flat, hence name conflicts common.
-*** Check for name conflicts with code:clash/0.
-*** "[T]o prefix every module name with the name of your project"
-    is common practice.
-** the `erlang` prelude
-   is imported implicitly.
-** Anything not from `erlang` must be fully qualified when called.
-   1> erlang:element(2, {a,b,c}).
-   b
-   2> element(2, {a,b,c}).
-   b
-   3> lists:seq(1,4).
-   [1,2,3,4]
-   4> seq(1,4).
-   ** exception error: undefined shell command seq/2
+*** Functions can share a name if their arities differ.
+*** Modules are flat, and hence name conflicts common.
+*** Check for name conflicts with `code:clash/0`.
+*** "prefix every module name with the name of your project"
+    This is common practice.
+** The `erlang` prelude is imported implicitly.
+** The use of most* definitions must be fully qualified.
+   * all definitions not from `erlang`
+*** Qualification uses (:), not (.).
+    3> c(useless).
+    {ok,useless}
+    6> useless:hello().
+    Hello, world!
+    ok
+    7>
+*** example
+    1> erlang:element(2, {a,b,c}).
+    b
+    2> element(2, {a,b,c}).
+    b
+    3> lists:seq(1,4).
+    [1,2,3,4]
+    4> seq(1,4).
+    ** exception error: undefined shell command seq/2
 ** module attributes
-*** There are many.
-    I only learned a couple -- the module name and the export list.
-*** Everything in a module that isn't a function is an attribute.
-*** The module name is mandatory.
-    `-module(name)`
-    where `name` is an atom.
-*** Export lists are important.
-    `-export ( [ Function1/Arity,
-                 ...,
-                 FunctionN/Arity ] ).
-    e.g. `-export( do_something/1 )`
-    Functions can share a name if their arities differ.
-*** Explicit imports for individual functions are optional.
-    -import ( Module,
-             [ Function1/Arity,
-              ...,
-              FunctionN/Arity ] ).
-*** The compile attribute can (among other things) obviate the export one.
-    -compile(export_all). %% replace with -export() later, for God's sake!
-** Qualification uses (:), not (.).
-   3> c(useless).
-   {ok,useless}
-   6> useless:hello().
-   Hello, world!
-   ok
-   7>
-** retrieving a module's attributes without looking at the source
-   Use the module_info/0 function to get them all.
-   Use     module_info/1 to get one of them.
-** TODO Header inclusion exists. What is it good for? Bad at?
+*** some module attributes
+**** The module name is mandatory.
+     `-module(name)`
+     where `name` is an atom.
+**** export lists
+***** are written thus
+      `-export ( [ Function1/Arity,
+                  ...,
+                  FunctionN/Arity ] ).
+***** Can be circumvented
+      -compile(export_all). %% replace with -export() later, for God's sake!
+**** optional explicit imports for individual functions
+     Deprecated,  according to some guy on StackOverflow.
+
+     -import ( Module,
+              [ Function1/Arity,
+               ...,
+               FunctionN/Arity ] ).
+**** `-behavior(ConstrainingModule)`
+     :PROPERTIES:
+     :ID:       0976ad01-0e93-405e-9b62-76b91e3b8beb
+     :END:
+***** Is a promise to adhere to the behavior defined in ConstrainingModule.
+***** Often (always?) that's a list of required callbacks.
+      e.g. the gen_server does this when used as a behavior-constraining module.
+***** How to create new behaviors.
+      -module(my_behaviour).
+      -export([behaviour_info/1]).
+
+      %% Here init/1, some_fun/0 and other/3 are callbacks that must be defined by any code that will use the behavior.
+      behaviour_info(callbacks) -> [{init,1}, {some_fun, 0}, {other, 3}];
+      behaviour_info(_) -> undefined.
+**** There are many more.
+*** functions to retrieve a module's attributes
+    Use module_info/0 to get them all.
+    Use module_info/1 to get one of them.
+** TODO Header inclusion: Why? Why not?
    :PROPERTIES:
    :ID:       b2d67f91-7509-45ca-bfd9-77fe1aaff43e
    :END:
@@ -234,48 +298,37 @@
     https://stackoverflow.com/questions/69065641/why-does-erlang-offer-both-import-for-modules-and-include-for-headers
 *** LYSE talks about it here
     https://learnyousomeerlang.com/a-short-visit-to-common-data-structures
-** the `behavior` directive: `-behaviour(ConstrainingModule)`
-*** Is a promise to adhere to ConstrainingModule's specifications.
-*** Often that's a list of required callbacks.
-    e.g. the gen_server does this when used as a behavior-constraining module.
-*** user-defined behaviors, how to specify
-    -module(my_behaviour).
-    -export([behaviour_info/1]).
-
-    %% init/1, some_fun/0 and other/3 are expected callbacks
-    behaviour_info(callbacks) -> [{init,1}, {some_fun, 0}, {other, 3}];
-    behaviour_info(_) -> undefined.
 * pattern matching
 ** an example
   greet(male, Name) ->
-  io:format("Hello, Mr. ~s!", [Name]);
+    io:format("Hello, Mr. ~s!", [Name]);
   greet(female, Name) ->
-  io:format("Hello, Mrs. ~s!", [Name]);
+    io:format("Hello, Mrs. ~s!", [Name]);
   greet(_, Name) ->
-  io:format("Hello, ~s!", [Name]).
+    io:format("Hello, ~s!", [Name]).
 ** COOL: A variable can appear more than once in a pattern.
    same(X,X) ->
      true;
    same(_,_) ->
      false.
-** overlapping pattern names
+** named patterns
    valid_time( { Date = {Y,M,D},
-                 Time = {H,Min,S}}) -> ...
-** Guards
+                 Time = {H,Min,S} } ) -> ...
+** guards
 *** use the `when` keyword.
-    old_enough(X) when X >= 16 -> true;
-    old_enough(_) -> false.
+    old_enough_to_drive(X) when X >= 16 -> true;
+    old_enough_to_drive(_) -> false.
 *** Join guards lazily with commas (and) and semicolons (or).
    right_age(X) when X >= 16, X =< 104 ->
-   true;
+     true;
    right_age(_) ->
-   false.
+     false.
    wrong_age(X) when X < 16; X > 104 ->
-   true;
+     true;
    wrong_age(_) ->
-   false.
+     false.
 *** PITFALL: Guards do not accept user-defined functions.
-    Because of side effects
+    because of side effects.
 *** PITFALL: (;) and (,) treat errors unlike `orelse` and `andalso`.
     https://learnyousomeerlang.com/syntax-in-functions
     """ Note: I've compared , and ; in guards to the operators andalso and orelse. They're not exactly the same, though. The former pair will catch exceptions as they happen while the latter won't. What this means is that if there is an error thrown in the first part of the guard X >= N; N >= 0, the second part can still be evaluated and the guard might succeed; if an error was thrown in the first part of X >= N orelse N >= 0, the second part will also be skipped and the whole guard will fail.
@@ -289,21 +342,21 @@
    and used like
      ?sub(23,47),
    later replaced by 23-47 by the compiler.
-** some important macros
-*** ?MODULE returns the current module's name.
-    :PROPERTIES:
-    :ID:       f92bc235-73f0-46f8-b34f-57f6002878a7
-    :END:
-    It's useful, e.g., for writing a helper function in module M
-    that spawns another function also defined in module M:
+** The ?MODULE macro returns the current module's name.
+   :PROPERTIES:
+   :ID:       f92bc235-73f0-46f8-b34f-57f6002878a7
+   :END:
+   It's useful, e.g., for writing a helper function in module M
+   that spawns another function also defined in module M:
 
-    start(FoodList) ->
-        spawn( ?MODULE,
-    	   fridge2,
-    	   [FoodList] ).
+   start(FoodList) ->
+       spawn( ?MODULE,
+    	  fridge2,
+    	  [FoodList] ).
 * functions
 ** expression blocks
-   Commascan separate expressions. The last is returned, all are evaluated.
+   Commas can separate expressions.
+   The last is returned, all are evaluated.
 
    add(A,B) ->
      something, // will be evaluated
@@ -321,20 +374,21 @@
     len([]) -> 0;
     len([_|T]) -> 1 + len(T).
 *** tail recursion and accumulators
-**** an example
-     tail_fac(N) -> tail_fac(N,1).
-     tail_fac(0,Acc) -> Acc;
-     tail_fac(N,Acc) when N > 0 -> tail_fac(N-1,N*Acc).
 **** the trick
-     is to define f(args), where args do not match the base case,
+     Define f(args), where args do not match the base case,
      as nothing more than f(different args).
-     Not just "in terms of" f(different args), but *as* that.
-**** my own length function
-     len( X ) -> len( X, 0 ).
-     len( [], N ) ->
-       N;
-     len( [_|X], N ) ->
-       len(X,N+1).
+***** Note that g( f( different args) ) won't cut it.
+**** some examples
+***** an example
+      tail_fac(N) -> tail_fac(N,1).
+      tail_fac(0,Acc) -> Acc;
+      tail_fac(N,Acc) when N > 0 -> tail_fac(N-1,N*Acc).
+***** my own length function
+      len( X ) -> len( X, 0 ).
+      len( [], N ) ->
+	N;
+      len( [_|X], N ) ->
+	len(X,N+1).
 **** There might be multiple base cases.
      And if so, the pattern match might need a guard.
 
@@ -342,23 +396,24 @@
      take([],_) -> [];
      take([H|T],N) when N > 0 -> [H|take(T,N-1)].
 ** higher-order functions
-*** They are defined naturally.
+*** They are called naturally.
     -module(hof).
 
     one() -> 1.
     two() -> 2.
 
     add(X,Y) -> X() + Y().
-*** They are passed HO arguments using the `fun` keyword.
+*** They are specified awkwardly.
+    Precede higher-order arguments with the `fun` keyword.
     hhfuns:add(
       fun hof:one/0,
       fun hof:two/0).
-** anonymous functions (tag: lambda)
+** anonymous functions
+   #lambda
 *** syntax
     fun(Args1) ->
    	 Expression1, Exp2, ..., ExpN;
-       (Args2) ->
-   	 Expression1, Exp2, ..., ExpN;
+       ...
        (Args3) ->
    	 Expression1, Exp2, ..., ExpN
     end
@@ -385,12 +440,13 @@
         fun Loop() ->
            io:format("Alarm tripped in ~s! Call Batman!~n",[Room]),
            timer:sleep(500),
-            Loop()
+           Loop()
         end
     end.
     AlarmReady = PrepareAlarm("bathroom").
     AlarmReady().
-* if (conditional) expressions
+* if expressions
+  #conditional
 ** They can be avoided entirely.
    Case expressions are more general.
 ** They are weird. Here are [[id:c1784f19-4e51-4239-8178-c074251b63aa][some if expressions in Erlang]].
@@ -400,16 +456,20 @@
       ...
    end.
 ** Some branch should evaluate.
+   :PROPERTIES:
+   :ID:       9803244e-0369-4b35-927d-de0fd043aee1
+   :END:
    Because every expression should return something,
    and if expressions are expressions.
 ** Default `true` conditions (`else` in other languages) are deprecated.
 * case expressions
-** much like Haskell
+** syntax look like Haskell
    case <condition> of
      <value> -> <result>;
      <value> -> <result>;
      ...
    end.
+** [[id:9803244e-0369-4b35-927d-de0fd043aee1][Some branch should evaluate.]]
 ** can include guards ("when" clauses)
    case Temperature of
      {celsius, N} when N >= 20, N =< 45 -> <result>;
@@ -418,7 +478,8 @@
    There are no implicit conversions.
    Type errors are only caught at runtime.
 ** (explicit) type conversion
-   These are all in the `erlang` namespace, and not imported by default.
+   These are all in the `erlang` namespace,
+   and not imported by default.
 *** some of those functions
     atom_to_binary/2
     atom_to_list/1
@@ -454,70 +515,86 @@
    is_integer/1        is_list/1           is_number/1
    is_pid/1            is_port/1           is_record/2
    is_record/3         is_reference/1      is_tuple/1
-** for static typing
+** static typing, some tools for
+   :PROPERTIES:
+   :ID:       25b56f5b-eb2d-46b4-9f97-c3ba0f02484b
+   :END:
 *** TypEr generates type signatures.
 *** Dialyzer typechecks.
-** records
-*** [[id:2d70cd42-4d1d-4df9-91f5-8cb324a19da1][records and the Erlang shell]]
-*** Records are just tuples in Erlang.
-*** [[id:ddbc4a6b-942c-4fae-aaf9-9d14481693bc][to make records print nicely]]
-*** accessing record fields
-**** example
-     RobTheRobot # module.bestFriend # robot.name.
-**** Field accessors (like "details" and "name" below) must be qualified with the module name.
-**** The # operator is left-associative.
-*** PITFALL: Accessors are integers, kind of.
-    If `name` is the second field of the record type `gobot`,
-    then this monstrosity evaluates:
+*** There are more such tools.
+** some types
+*** [[id:b83c0167-c0f4-4ba1-9945-46dc4211ee12][Atoms]]
+**** [[id:4a538e73-e552-486a-8ec8-76772091c0d3][PITFALL: true and false are ordinary atoms.]]
+*** [[id:0e0237a3-8223-45b5-ad9e-b731a5777d9b][Tuples]]
+*** [[id:93434a34-a3e1-4392-bedd-50b28bb70e4a][Lists]]
+*** records
+**** [[id:2d70cd42-4d1d-4df9-91f5-8cb324a19da1][records and the Erlang shell]]
+**** Records are just tuples in Erlang.
+**** [[id:ddbc4a6b-942c-4fae-aaf9-9d14481693bc][to make records print nicely]]
+**** accessing record fields
+***** example
+      RobTheRobot # module.bestFriend # robot.name.
+***** Field accessors (like "details" and "name" below) must be qualified with the module name.
+***** (#) is left-associative, hence chains naturally.
+**** PITFALL: Accessors are integers, kind of.
+     If `name` is the second field of the record type `gobot`,
+     then this monstrosity evaluates:
 
-    104> #gobot.name.
-    2
-    105> 1 + #gobot.name.
-    3
-*** pattern matching on records
+     104> #gobot.name.
+     2
+     105> 1 + #gobot.name.
+     3
+**** pattern matching on records
+     :PROPERTIES:
+     :ID:       393f4ace-8cb5-45a4-9087-b959e381b641
+     :END:
+***** examples
+      admin_panel(#user{name=Name, group=admin}) ->
+          Name ++ " is allowed!";
+      ...
+
+      adult_section(U = #user{}) when U#user.age >= 18 ->
+          %% Show naughty stuff.
+          allowed;
+      ...
+***** Fields can be omitted -- even all of them.
+****** PITFALL: The {}s must still be written when omitting all fields.
+       test_is_state (_ = #state{}) ->
+         is_state;
+       test_is_state (_) ->
+         is_not_state.
+**** record "updates"
+     Remember, data is immutable.
+
+     repairman(Rob) ->
+         Details = Rob#robot.details,
+         NewRob = Rob#robot{details=["Repaired by repairman"|Details]},
+         {repaired, NewRob}.
+*** maps
+**** the default `maps` library
+     https://learnyousomeerlang.com/maps
+     Hash maps.
+     Recent (added in version R17).
+     Nice special syntax.
+**** some non-prelude map libraries
+***** dict    - simple  maps that scale well
+***** gbtrees - complex maps that scale well
+      "General balanced trees."
+      For *some* things, better than dicts.
+***** orddict - simple  maps that scale badly
+****** Good to about 75 elements.
+****** Some important functions
+******* orddict:store/3,
+******* orddict:find/2
+	when you do not know whether the key is in the dictionaries
+******* orddict:fetch/2
+	when you know it is there or that it must be there
+******* orddict:erase/2.
+*** SKIPPED: arrays, sets, queues, graphs
     :PROPERTIES:
-    :ID:       393f4ace-8cb5-45a4-9087-b959e381b641
+    :ID:       62d43b5f-4411-4726-be7e-671a802595d2
     :END:
-**** Fields can be omitted -- even all of them.
-**** examples
-     admin_panel(#user{name=Name, group=admin}) ->
-         Name ++ " is allowed!";
-     ...
-
-     adult_section(U = #user{}) when U#user.age >= 18 ->
-         %% Show naughty stuff.
-         allowed;
-     ...
-*** record updates
-    repairman(Rob) ->
-        Details = Rob#robot.details,
-        NewRob = Rob#robot{details=["Repaired by repairman"|Details]},
-        {repaired, NewRob}.
-** maps
-*** the default `maps` library
-    https://learnyousomeerlang.com/maps
-    Hash maps.
-    Recent (added in version R17).
-    Nice special syntax.
-*** orddict - small ordered dictionaries (maps)
-**** Good to about 75 elements.
-**** Some important functions
-***** orddict:store/3,
-***** orddict:find/2
-      when you do not know whether the key is in the dictionaries
-***** orddict:fetch/2
-      when you know it is there or that it must be there
-***** orddict:erase/2.
-*** dict - simple maps that scale well
-*** dict - maps that scale well, simple
-*** gbtrees - maps that scale well, complex
-    "General balanced trees."
-    For *some* things, better than dicts.
-** SKIPPED: arrays, sets, queues, graphs
-   :PROPERTIES:
-   :ID:       62d43b5f-4411-4726-be7e-671a802595d2
-   :END:
-   https://learnyousomeerlang.com/a-short-visit-to-common-data-structures
+    https://learnyousomeerlang.com/a-short-visit-to-common-data-structures
 * exceptions
 ** three kinds of exceptions in Erlang: errors, throws and exits
 *** `throw` ~ control flow, not crashing.
