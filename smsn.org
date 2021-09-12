@@ -35,6 +35,7 @@ I should move files on each cycle so that it includes activity.log.
 ** the RH column should be on the left instead
 because in a long list of short items it's hard to see how they line up with the RH
 * smsn / how to do stuff
+** [[id:ef82d33a-a1dd-40bc-bab4-2621fc4249c8][Semantic Synchrony and Git: the commit-push cycle]]
 ** outside smsn
 *** build the Dockerfile
     :PROPERTIES:
@@ -59,7 +60,6 @@ docker run -it --name smsn \
     :ID:       8ed67ee7-e7ec-453d-a40e-283105c7fe8f
     :END:
 That is, a folder that Encfs is funneling data into.
-*** [[id:ef82d33a-a1dd-40bc-bab4-2621fc4249c8][Semantic Synchrony and Git: the commit-push cycle]]
 ** inside smsn
 *** set-source
 **** The move mode command is "s".

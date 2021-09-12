@@ -3,6 +3,9 @@
 :END:
 #+title: concurrent programming
 * some vocab
+  :PROPERTIES:
+  :ID:       0d2d4114-b031-412e-81d7-26bd7c67f7f5
+  :END:
 ** parallel vs. concurrent
    :PROPERTIES:
    :ID:       c7224417-dcc0-40e1-ad5b-4d2cf94c4c1f
@@ -15,6 +18,11 @@
    :END:
    In sync, you halt all other operations while waiting for a response.
    In async, you don't.
+** thread v. process
+   https://erlang.org/doc/getting_started/conc_prog.html
+   """
+   the term "process" is usually used when the threads of execution share no data with each other and the term "thread" when they share data in some way. Threads of execution in Erlang share no data, that is why they are called processes).
+   """
 * some principles
 ** when to prefer synchronous or asynchronous comms
    :PROPERTIES:

@@ -5,8 +5,10 @@
 #+title: Semantic Synchrony and Git: the commit-push cycle
 * PITFALL: DON'T PULL until committing.
 * Write to VCS.
-  C-c  C-w  r
+  C-c  C-w  c
 * Run "lost-nodes.sh"
+  cd /home/jeff/Encfs/kb-no-encfs/vcs
+  bash ~/smsn+/git-smsn/lost-nodes.sh
 * Delete things.
   cd /home/jeff/Encfs/kb-no-encfs/vcs
   grep "^@title \[delete" -r . > to-delete.txt

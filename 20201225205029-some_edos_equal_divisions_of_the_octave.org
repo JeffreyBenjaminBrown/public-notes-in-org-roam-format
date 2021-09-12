@@ -328,10 +328,10 @@
     , 55 steps; 2 % 1 ; string 3 ; fret 1
     , 32 steps; 3 % 2 ; string 2 ; fret 0
     , 18 steps; 5 % 4 ; string 2 ; fret - 2
-    , 44 steps; 7 % 4 ; string 1 ; fret 4
+    , 44 steps; 7 % 4 ; string 1 ; fret 4 -- bad sound
     , 9 steps; 9 % 8 ; string 1 ; fret - 1
     , 25 steps; 11 % 8 ; string 2 ; fret - 1
-    , 39 steps; 13 % 8 ; string 2 ; fret 1
+    , 39 steps; 13 % 8 ; string 2 ; fret 1 -- bad sound
     , 50 steps; 15 % 8 ; string 4 ; fret - 2
     , 5 steps; 17 % 16 ; string - 1 ; fret 3
     , 14 steps; 19 % 16 ; string 0 ; fret 2
