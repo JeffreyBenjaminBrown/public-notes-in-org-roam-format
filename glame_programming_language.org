@@ -4,6 +4,11 @@
 #+title: Gleam (programming language)
 * why
   It's like Erlang with strong types.
+* refs
+** The Gleam.Run documentation hub
+   https://gleam.run/documentation/
+** I downloaded lots of sample code.
+   /home/jeff/code/concurrent-langs/gleam/by-others
 * TODO what about concurrency?
 ** what the Gleam Book suggested
    "To find out more about Erlang fault tolerance see the Gleam OTP project and the Learn You Some Erlang chapter on supervisors."
@@ -11,44 +16,179 @@
 ** where I could file an issue
    https://github.com/gleam-lang/suggestions/issues/
 * the language
-** Boolean logic
-*** && and // are lazy
-    unlike Erlang.
-*** most operators are not builtin
-    e.g. `not` is not builtin.
-    Instead see the module
-      gleam/bool
-** numbers
-*** the operators for floats and ints are different
-    The float operators look the same followed by a period.
-*** Numeric underscores are permitted.
-*** blocks return the value of their last expression
-    but every expression in the block is evaluated.
+** types
+*** constants
+    pub const numberOfDucks : Int = 100
+*** Booleans and Boolean logic
+**** && and // are lazy
+     unlike Erlang.
+**** most operators are not builtin
+     e.g. `not` is not builtin.
+     Instead see the module
+       gleam/bool
+*** numbers
+**** the operators for floats and ints are different
+     The float operators look the same followed by a period.
+**** Numeric underscores are permitted.
+**** blocks return the value of their last expression
+     but every expression in the block is evaluated.
 
-    let value: Bool = {
-        "Hello"
-        42 + 12
-        False
-    } // => False
-*** use postfix `.n` to access the (n-1)th value in a tuple
-*** pattern matching
-**** names in pattern matches
-     case xs {
-       [[_, ..] as inner_list] -> inner_list
-         # The _ ensures the list is nonempty.
-       other -> []
+     let value: Bool = {
+         "Hello"
+         42 + 12
+         False
+     } // => False
+*** tuples
+**** use postfix `.n` to access the (n-1)th value in a tuple
+*** Result : like Haskell's Either
+**** definition
+     pub type Result(value, reason) {
+       Ok(value)
+       Error(reason)
      }
-**** conditions in pattern matches: use `if`
-     case xs {
-       [a, b, c] if a == b && b != c -> "ok"
-       _other -> "ko"
+**** `try` short-circuits Result computations.
+     try int_a = parse_int(a)
+     try int_b = parse_int(b)
+     try int_c = parse_int(c)
+     Ok(int_a + int_b + int_c)
+*** functions
+**** a template
+     pub fn add(x: Int, y: Int) -> Int {
+       x + y
      }
-**** `or` on pattern matches
-     case number {
-       2 | 4 | 6 | 8 -> "This is an even number"
-       1 | 3 | 5 | 7 -> "This is an odd number"
-       _ -> "I'm not sure"
+**** functions as arguments look funny
+     pub fn twice ( f: fn(t) -> t,
+                    x: t )
+                    -> t {
+       f ( f ( x ) )
      }
+**** (|>) is like ($) in Haskell but backwards
+***** the idea
+      These are equivalent:
+
+      iodata.to_string(iodata.reverse(iodata.new(string)))
+
+      string
+      |> iodata.new
+      |> iodata.reverse
+      |> iodata.to_string
+**** PITFALL: argument labels (optional) can differ from argument variable names
+     pub fn replace(
+       in string: String,
+       each pattern: String,
+       with replacement: String,
+     ) {
+       // The variables `string`, `pattern`, and `replacement` are in scope here
+     }
+
+     replace(in: "A,B,C", each: ",", with: " ")
+**** anonymous functions
+     #lambda
+***** a template
+      fn(x, y) { x + y }
+***** "Function capture": some nice shorthand
+****** ref
+       https://gleam.run/book/tour/functions.html#function-capturing
+****** what it's shorthand for
+       anonymous arity-1 functions that do nothing but
+       hand their argument to a higher-arity function
+****** how it works
+       if the anonymous function is of one argument,
+       and just hands that argument to some multi-argument function,
+       you can skip the `fn` formalism:
+
+       pub fn run() {
+         // This is the same as add(add(add(1, 3), 6), 9)
+         1
+         |> add(_, 3)
+         |> add(_, 6)
+         |> add(_, 9)
+       }
+****** PITFALL: there's a confusing varriety
+       This usage:
+
+       pub fn run() {
+         // This is the same as add(add(add(1, 3), 6), 9)
+         1
+         |> add(_, 3)
+         |> add(_, 6)
+         |> add(_, 9)
+       }
+
+       """
+       is so common that there is a special shorthand for it.
+
+       pub fn run() {
+         // This is the same as the example above
+         1
+         |> add(3)
+         |> add(6)
+         |> add(9)
+       }
+       The pipe operator will first check to see if the left hand value
+       could be used as the first argument to the call,
+       e.g. a |> b(1, 2) would become b(a, 1, 2).
+
+       If not it falls back to calling the result of the right hand side
+       as a function , e.g. b(1, 2)(a).
+       """
+*** user-defined types
+**** template
+     pub type Cat {
+       Cat(name: String, cuteness: Int)
+     }
+**** Sum type definitions separate constructors with newlines.
+     pub type Bool {
+       True
+       False
+     }
+**** Access fields of product types with (.).
+     let cat = Cat(name: "Nubi", cuteness: 2001)
+     cat.name // This returns "Nubi"
+**** polymorphic type declarations
+     pub type Box(inner_type) {
+       Box(inner: inner_type)
+     }
+**** `opaque` lets a public type's fields and constructors be private.
+     pub opaque type Counter {
+       Counter(value: Int)
+     }
+**** record updates
+     Use `..<name>` to duplicate unspecified records.
+     PITFALL: Records are immutable; "updates" actually create new data.
+***** example
+      pub type Person {
+        Person(
+          name: String,
+          age: Int,
+          is_happy: Bool,
+        )
+      }
+
+      pub fn have_birthday(person) {
+        Person(..person, age: person.age + 1, is_happy: true)
+        }
+*** type alias
+    pub type Headers =
+      List(#(String, String))
+** pattern matching
+*** names in pattern matches
+    case xs {
+      [[_, ..] as inner_list] -> inner_list
+        # The _ ensures the list is nonempty.
+      other -> []
+    }
+*** conditions in pattern matches: use `if`
+    case xs {
+      [a, b, c] if a == b && b != c -> "ok"
+      _other -> "ko"
+    }
+*** `or` on pattern matches
+    case number {
+      2 | 4 | 6 | 8 -> "This is an even number"
+      1 | 3 | 5 | 7 -> "This is an odd number"
+      _ -> "I'm not sure"
+    }
 *** case switches can pattern match
     case x, y {
       1, 1 -> "both are 1"
@@ -56,84 +196,7 @@
       _, 1 -> "y is 1"
       _, _ -> "neither is 1"
     }
-** functions
-*** a template
-    pub fn add(x: Int, y: Int) -> Int {
-      x + y
-    }
-*** functions as arguments look funny
-    pub fn twice ( f: fn(t) -> t,
-                   x: t )
-		   -> t {
-      f ( f ( x ) )
-    }
-*** (|>) is like ($) in Haskell but backwards
-**** the idea
-     These are equivalent:
-
-     iodata.to_string(iodata.reverse(iodata.new(string)))
-
-     string
-     |> iodata.new
-     |> iodata.reverse
-     |> iodata.to_string
-**** for functions of multiple arguments
-     see "Function capturing"
-     https://gleam.run/book/tour/functions.html
-** type variables are lowercase
-** PITFALL: argument labels (optional) can differ from argument variable names
-   pub fn replace(
-     in string: String,
-     each pattern: String,
-     with replacement: String,
-   ) {
-     // The variables `string`, `pattern`, and `replacement` are in scope here
-   }
-
-   replace(in: "A,B,C", each: ",", with: " ")
-** anonymous functions
-*** a template
-    fn(x, y) { x + y }
-*** some nice shorthand
-    if the anonymous function is of one argument,
-    and just hands that argument to some multi-argument function,
-    you can skip the `fn` formalism:
-
-    pub fn run() {
-      // This is the same as add(add(add(1, 3), 6), 9)
-      1
-      |> add(_, 3)
-      |> add(_, 6)
-      |> add(_, 9)
-    }
-*** PITFALL: some confusing shorthand
-    This usage:
-
-    pub fn run() {
-      // This is the same as add(add(add(1, 3), 6), 9)
-      1
-      |> add(_, 3)
-      |> add(_, 6)
-      |> add(_, 9)
-    }
-
-    """
-    is so common that there is a special shorthand for it.
-
-    pub fn run() {
-      // This is the same as the example above
-      1
-      |> add(3)
-      |> add(6)
-      |> add(9)
-    }
-    The pipe operator will first check to see if the left hand value
-    could be used as the first argument to the call,
-    e.g. a |> b(1, 2) would become b(a, 1, 2).
-
-    If not it falls back to calling the result of the right hand side
-    as a function , e.g. b(1, 2)(a).
-    """
+** type variables, like others, are lowercase
 ** modules and exports
 *** Functions not marked "pub" are private to that module.
 *** Complete qualification is not needed to call imported functions.
@@ -142,7 +205,8 @@
     import nasa/rocket_ship
 
     pub fn explore_space() {
-      rocket_ship.launch() // Note that `nasa` is omitted.
+      rocket_ship.launch()
+        // Note that `nasa` is omitted.
     }
 *** Imported modules can be qualified.
     import unix/cat
@@ -156,76 +220,28 @@
     }
 *** The prelude, `gleam`, can be explicitly imported.
     Can be useful for avoiding name conflicts.
-** user-defined types
-*** template
-    pub type Cat {
-      Cat(name: String, cuteness: Int)
-    }
-*** Sum type definitions separate constructors with newlines.
-    pub type Bool {
-      True
-      False
-    }
-*** In product types, fields can be accessed with (.).
-    let cat = Cat(name: "Nubi", cuteness: 2001)
-    cat.name // This returns "Nubi"
-*** generic types
-    pub type Box(inner_type) {
-      Box(inner: inner_type)
-    }
-*** `opaque` lets a public type's fields and constructors be private.
-    pub opaque type Counter {
-      Counter(value: Int)
-    }
-*** record updates
-    Use `..<name>` to fill in the unspecified records.
-    PITFALL: Records is immutable; "updates" actually create new data.
-**** example
-     pub type Person {
-       Person(
-         name: String,
-         age: Int,
-         is_happy: Bool,
+** errors
+*** `assert` can bind variables and crash.
+     assert Ok(i) = parse_int("123")
+     // If it matched, now `i` is 123.
+     // If it didn't, the assert has crashed.
+*** `todo` is like Haskell's "error"
+**** The message is optional.
+     fn favourite_number() -> Int {
+       todo("We're going to decide which number is best tomorrow")
+     }
+**** Can be used for type inspection.
+     fn main() {
+       my_complicated_function(
+         // What type does this function take again...?
+         todo
        )
      }
-
-     pub fn have_birthday(person) {
-       Person(..person, age: person.age + 1, is_happy: true)
-     }
-** Result (type)
-   pub type Result(value, reason) {
-     Ok(value)
-     Error(reason)
-   }
-** `try` short-circuits Result computations.
-   try int_a = parse_int(a)
-   try int_b = parse_int(b)
-   try int_c = parse_int(c)
-   Ok(int_a + int_b + int_c)
-** `assert` can bind variables and crash.
-    assert Ok(i) = parse_int("123")
-    // If it matched, now `i` is 123.
-    // If it didn't, the assert has crashed.
-** `todo` is like Haskell's "error"
-*** The message is optional.
-    fn favourite_number() -> Int {
-      todo("We're going to decide which number is best tomorrow")
-    }
-*** Can be used for type inspection.
-    fn main() {
-      my_complicated_function(
-        // What type does this function take again...?
-        todo
-      )
-    }
-** constants
-   pub const numberOfDucks : Int = 100
-** type alias
-   pub type Headers =
-     List(#(String, String))
 ** SKIPPED: bit strings
    https://gleam.run/book/tour/bit-strings.html
 ** SKIPPED: external (BEAM) functions
    https://gleam.run/book/tour/external-functions.html
 ** SKIPPED: external (BEAM) types
    https://gleam.run/book/tour/external-types.html
+* the standard library
+  https://hexdocs.pm/gleam_stdlib/
