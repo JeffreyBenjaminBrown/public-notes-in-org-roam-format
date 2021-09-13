@@ -3,15 +3,21 @@
 :END:
 #+title: Erlang (programming language)
 * refs
-** These notes are mostly from Learn You Some Erlang (LYSE)
+** "The" docs? https://www.erlang.org/docs
+*** intros
+**** Getting Started User's Guide
+     https://erlang.org/doc/getting_started/users_guide.html
+**** OTP User's Guide
+     https://erlang.org/doc/design_principles/users_guide.html
+*** reference manuals
+**** Erlang Reference Manual
+     https://erlang.org/doc/reference_manual/processes.html
+**** Erlang STDLIB Reference Manual (includes OTP)
+     https://erlang.org/doc/man/gen_statem.html
+** Learn You Some Erlang (LYSE)
    https://learnyousomeerlang.com/content
-** More references
-   in no particular order
-   https://www.erlang.org/docs
-   https://erlang.org/doc/getting_started/users_guide.html
-   https://erlang.org/doc/design_principles/users_guide.html
-** TODO RESUME in LYSE at
-   https://learnyousomeerlang.com/event-handlers#it-s-curling-time
+*** TODO RESUME in LYSE at
+    https://learnyousomeerlang.com/event-handlers#it-s-curling-time
 ** [[id:a0f72fa0-6930-4b6b-a570-93a4748895bb][concurrent programming]]
 * TODO in Erlang
 ** TODO learn about static typing
@@ -278,6 +284,9 @@
      :ID:       0976ad01-0e93-405e-9b62-76b91e3b8beb
      :END:
 ***** Is a promise to adhere to the behavior defined in ConstrainingModule.
+***** Behaviors are intended to separate generic and specific code.
+      The behavior is the generic part.
+      A module adhering to it is sometimes called a "callback module".
 ***** Often (always?) that's a list of required callbacks.
       e.g. the gen_server does this when used as a behavior-constraining module.
 ***** How to create new behaviors.

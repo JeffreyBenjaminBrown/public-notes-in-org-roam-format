@@ -2,8 +2,6 @@
 :ID:       8bd1818b-7da8-4c6b-b35e-93f54ef5a0d7
 :END:
 #+title: concurrency in Erlang
-* RESUME at OTP User Guide
-  https://erlang.org/doc/design_principles/des_princ.html
 * some vocab
 ** [[id:0d2d4114-b031-412e-81d7-26bd7c67f7f5][some concurrent programming vocab]]
 * errors
@@ -126,6 +124,7 @@
     https://learnyousomeerlang.com/errors-and-exceptions#try-a-try-in-a-tree
     There's also the code (search for the word "naive") here:
     file://~/code/concurrent-langs/erlang/tree.erl
+* [[id:b5343c52-fe16-4579-8ac1-7567ed0db8c5][signals]]
 * processes
 ** "process" = "execution thread"
 ** Processes grow and shrink dynamically.
@@ -220,6 +219,9 @@
     This includes functions it runs via `apply`,
     but not functions it `spawns` -- the latter are separate processes.
 ** signals
+   :PROPERTIES:
+   :ID:       b5343c52-fe16-4579-8ac1-7567ed0db8c5
+   :END:
 *** All Erlang communication is via asynchronous signals.
 *** message signals and queues
 **** Each process has its own message queue.
@@ -314,6 +316,7 @@
     There will be some looping client process,
     and the "user functions" (called from the repl)
     do nothing but send messages to the client.
+* coordinating processes
 ** "Distributed Programming": processes across many CPUs
    https://erlang.org/doc/getting_started/conc_prog.html
 *** Erlang cookies
@@ -361,6 +364,303 @@
     to be automatically generated.
     It is as if the process terminated immediately
     after the link operation.
+** [[id:81311222-bb74-441c-b4ec-42501e8784b7][the four standard OTP behaviors]]
+* the four standard OTP behaviors
+  :PROPERTIES:
+  :ID:       81311222-bb74-441c-b4ec-42501e8784b7
+  :END:
+  "gen" stands for "generic"
+** gen_server
+*** an intro
+    https://erlang.org/doc/design_principles/gen_server_concepts.html
+*** It's simple!
+*** It's for managing a central resource
+    one that various clients need to access.
+*** some gen_server functions
+**** gen_server:start_link
+***** It starts the server.
+***** It is synchronous.
+      It will not return until the server has started.
+***** Callback modules often wrap that function, like so.
+      start_link() ->
+        gen_server:start_link({local, ch3}, ch3, [], []).
+***** `gen_server:start_link` calls the `init` callback
+      if name registration succeeds first.
+***** `gen_server:start_link` is required if the server is part of a supervision tree.
+***** TODO What does `gen_server:start_link` link to?
+      :PROPERTIES:
+      :ID:       d0708b3c-265f-41cc-b0b9-e848ed5f79d3
+      :END:
+**** gen_server:call( Server_name, message ).
+     Sends `message` to the server.
+     Server_name must be what was used in start_link.
+     Triggers [[id:1a46e14d-895c-4845-aef9-53241179fe0e][`handle_call`]] in the server.
+     The client blocks (I believe)
+     until it gets the server's response.
+**** gen_server:cast/2( Server_name, message )
+     For asynchronoous communication.
+     Sends `message` to the server and returns `ok`.
+*** some gen_server callbacks
+**** `handle_call`
+     :PROPERTIES:
+     :ID:       1a46e14d-895c-4845-aef9-53241179fe0e
+     :END:
+     handle_call(Request, From, State) =>
+       {reply,Reply,NewServerState}.
+**** `handle_cast`
+     handle_cast(Request, State) => {noreply,NewServerState}
+**** `init/1`
+     `gen_server:start_link` calls this.
+     It should return `{ok,State}` if it succeeds.
+**** `handle_info`
+     It handles unexpected messages.
+     handle_info(Info, State) => {noreply, State1}
+**** `code_change`
+     code_change(OldVsn, State, Extra) ->
+       %% Insert here: Code to convert state (and more)
+       %% during code change.
+       {ok, NewState}.
+*** PITFALL: Stopping is subtle.
+    https://erlang.org/doc/design_principles/gen_server_concepts.html#stopping
+    If the server is part of a supervision tree,
+    it *might* need to clean up before stopping.
+    If it's not, one *must* define how to stop.
+** gen_statem
+   https://erlang.org/doc/design_principles/statem.html
+*** TODO I didn't finish this chapter.
+    I read enough to think I could write a basic one.
+    But there are a lot of options I don't know how to use.
+**** Resume at OTP/statem in "design principles"
+     https://erlang.org/doc/design_principles/statem.html
+     "The code is explained in the next sections."
+*** It appears to generalize gen_server.
+*** the concept
+    gen_statem will update a State whenever there is an Event.
+    It also "keeps a server Data",
+    which makes it Turing-complete,
+    but "it feels mostly like an Event-Driven Mealy machine".
+*** the callbacks
+**** "callback mode"
+***** Two Alternatives. "state functions" is better.
+****** "state functions": Define one callback for each state.
+       The state is an atom.
+******* I believe this is no real restriction,
+        thanks to the `Server Data` which is statelike
+        and of unrestricted type.
+****** "handle_event_function": A singlecallback for all states.
+***** define it with callback_mode/0
+      example:
+      callback_mode() ->
+        state_functions.
+**** the state callback(s)
+     (Plural if callback mode() = state_functions.)
+***** They each get [[id:d6131c82-f4df-404b-9dd7-6c07a6c3d659][Event Type and Event Content]] args.
+***** When working normally, should return one of these.
+      {next_state, NextState, NewData, [[id:3541b431-e9f6-427f-9b6a-c282fc2dc440][TransitionActions]]}
+      {next_state, NextState, NewData}
+****** Other options are unnecessary but maybe clearer.
+       {keep_state, NewData, [[id:3541b431-e9f6-427f-9b6a-c282fc2dc440][TransitionActions]]}
+       {keep_state, NewData}
+       {keep_state_and_data, [[id:3541b431-e9f6-427f-9b6a-c282fc2dc440][TransitionActions]]}
+       keep_state_and_data
+       {repeat_state, NewData, [[id:3541b431-e9f6-427f-9b6a-c282fc2dc440][TransitionActions]]}
+       {repeat_state, NewData}
+       {repeat_state_and_data, [[id:3541b431-e9f6-427f-9b6a-c282fc2dc440][TransitionActions]]}
+       repeat_state_and_data
+***** When it has to stop, should return one of these.
+      {stop, Reason, NewData}
+      {stop, Reason}
+       Stop the server with reason Reason.
+         If the NewData field is used, first
+       update the server data.
+
+      {stop_and_reply, Reason, NewData, ReplyActions}
+      {stop_and_reply, Reason, ReplyActions}
+        Same as the stop values,
+        but first execute the given [[id:3541b431-e9f6-427f-9b6a-c282fc2dc440][TransitionActions]]
+        that may only be reply actions.
+***** When the new state differs from the old, more happens.
+****** It restarts the event queue the oldest postponed event.
+****** Any current state time-out is cancelled.
+****** If " state enter calls" are enabled, one happens.
+**** init/1
+     => {ok, State, Data}
+     or {ok, State, Data, TransitionActions}.
+***** postponing is meaningless here
+      "If you use the postpone action from this function, that action is ignored, since there is no event to postpone."
+*** transition actions
+    :PROPERTIES:
+    :ID:       3541b431-e9f6-427f-9b6a-c282fc2dc440
+    :END:
+    https://erlang.org/doc/design_principles/statem.html#Transition%20Actions
+    Complicated, maybe esoteric, don't seem important for now.
+*** event types & event content
+    :PROPERTIES:
+    :ID:       d6131c82-f4df-404b-9dd7-6c07a6c3d659
+    :END:
+**** are handed in pairs to the state callbacks.
+**** some event types
+***** cast
+      come from gen_statem:cast(ServerRef, Msg).
+      Msg becomes the event content.
+***** {call,From}
+      come from gen_statem:call(ServerRef, Request).
+      Request becomes the event content.
+***** There are others I didn't understand.
+** gen_event
+*** the idea
+**** It lets you create an "event manager".
+**** It keeps a [(Event handler, Event handler state)].
+***** Each event handler is implemented as a callback module.
+***** The manager's state is, more specifically
+      "a list of {Module, State} pairs, where each Module is an event handler, and State is the internal state of that event handler."
+**** Every event handler handles every event.
+*** functions it defines
+**** to start the manager: gen_event:start_link
+***** local registry
+      This:
+        gen_event:start_link({local, Event_manager_name})
+      registers it locally under the name Event_manager_name.
+***** global registry: Use {global, Name} instead.
+***** Like gen_server, there's also a [[id:d0708b3c-265f-41cc-b0b9-e848ed5f79d3][`start` alternative of `start_link`]].
+**** to add event handlers to it: gen_event:add_handler
+     gen_event:add_handler( manager, handler, HandlerArgs).
+     It calls handler:init( HandlerArgs ).
+**** to handle events: gen_event:notify
+     gen_event:notify( EventManager, Event )
+     It calls handle_event(Event, State) for each handler.
+**** to remove handlers: gen_event:delete_handler
+     gen_event:delete_handler( Manager, Handler, Args)
+     Calls `Handler:terminate( Args, State )`.
+**** to stop
+     https://erlang.org/doc/design_principles/events.html#stopping
+     I didn't entirely get it.
+*** callbacks the user must define
+**** init( Args ) -> {ok, State}
+**** handle_event( Event, State ) -> {ok,NewState}
+**** handle_info(Info, StateName, StateData) -> {ok, NewState}
+**** code_change(OldVsn, State, Extra) -> {ok, NewState}
+** supervisors
+*** Supervisors (re)start, stop, and monitor their children.
+*** Children are stopped in reverse order.
+    "The child processes are started in the order specified by [the "child specification"], and terminated in the reversed order."
+*** a complete example (very short)
+    -module(ch_sup).
+    -behaviour(supervisor).
+
+    -export([start_link/0]).
+    -export([init/1]).
+
+    start_link() ->
+        supervisor:start_link(ch_sup, []).
+
+    init(_Args) ->
+        SupFlags = #{strategy => one_for_one,
+                 intensity => 1,
+                 period => 5},
+        ChildSpecs = [#{id => ch3,
+                        start => {ch3, start_link, []},
+                        restart => permanent,
+                        shutdown => brutal_kill,
+                        type => worker,
+                        modules => [cg3]}],
+        {ok, {SupFlags, ChildSpecs}}.
+*** starting it
+**** `supervisor:start_link(Module,Args)` calls `Module:init(Args)`.
+**** to start it with a registered name
+     supervisor:start_link({local, Name}, Module, Args)
+     supervisor:start_link({global, Name}, Module, Args)
+**** start_link is synchronous.
+     Returns only after all child processes have started.
+*** callback `init(Args)` ->  {ok, {SupFlags, ChildSpecs}}
+*** supervisor options
+**** an incomplete overview
+     sup_flags() =
+       #{ strategy => strategy(),           % optional restart strategy
+          intensity => non_neg_integer(),   % optional
+          period => pos_integer(),          % optional
+          auto_shutdown => auto_shutdown()} % optional
+     where
+     strategy() = one_for_all  % If anything terminates, all are terminated,
+                               % and all restarted.
+		| one_for_one  % *The default*.
+                               % If a child process terminates,
+                               % only that process is restarted.
+		| rest_for_one % If anything terminates,
+                               % everything *after* it is terminated too,
+			       % and then all of those are restarted.
+		| simple_one_for_one
+     auto_shutdown() = never   % *The default*.
+                               % Significant children are rejected.
+                     | any_significant
+                     | all_significant
+**** specifying intensity
+***** SupFlags = #{intensity => MaxR, period => MaxT, ...}
+***** what that does
+     """
+     If more than MaxR number of restarts occur in the last MaxT seconds,
+     the supervisor terminates all the child processes and then itself.
+     The termination reason for the supervisor itself in that case will be shutdown.
+
+     When the supervisor terminates, then the next higher-level supervisor takes
+     some action. It either restarts the terminated supervisor or terminates itself.
+
+     The intention of the restart mechanism is to prevent a situation where a
+     process repeatedly dies for the same reason, only to be restarted again.
+
+     The keys intensity and period are optional in the supervisor flags map. If they
+     are not given, they default to 1 and 5, respectively.
+     """
+***** "Tuning it" is an art.
+      which I ignored.
+      https://erlang.org/doc/design_principles/sup_princ.html#maximum-restart-intensity
+**** automatic shutdown
+***** Terminates the supervisor when "significant children" terminate.
+***** Only happens if the child stops itself -- not when the supervisor does.
+***** PITFALL: Only available from OTP 24 onward.
+*** child specifications
+**** an overview
+     child_spec() =
+       #{ id :: term,             % mandatory
+          start :: { M :: module, % mandatory
+                     F :: atom,
+                     A :: [term]},
+          restart :: permanent  % *The default*. Always restarted.
+                   | transient  % Never restarted.
+                   | temporary, % Restarted only if terminated abnormally.
+          significant :: bool   % Not available for permanent children.
+          shutdown :: brutal_kill % Uses exit(Child, kill).
+                    | timeout, % Calls `exit(Child, shutdown).
+                               % Waits for a response.
+                               % After timeout, calls `exit(Child, kill)`.
+			       % Defaults to 5s for workers,
+			       %             infinity for supervisors.
+          type :: worker % *The default.*
+	           % `infinity` shutdown time is dangerous in this case.
+                | supervisor % Shutdown timeout should then be `infinity`.
+          modules :: ?? }
+**** The supervisor starts each child with `apply(M, F, A)`.
+     It should result in a call to one of these, or something like it:
+       supervisor:start_link
+       gen_server:start_link
+       gen_statem:start_link
+       gen_event:start_link
+*** adding children on the fly
+**** syntax
+     supervisor:start_child(
+       Supervisor_PID, ChildSpec)
+**** PITFALL: Lost if the supervisor dies and restarts.
+*** Supervisors can terminate their children.
+    supervisor:terminate_child( Sup, Child_Id )
+    This does not trigger automatic shutdown.
+*** Delete the spec for a stopped child.
+    supervisor:delete_child(Sup, Child_Id)
+**** PITFALL: This deletion is undone if the supervisor is restarted.
+***** TODO Isn't that bad?
+*** SKIPPED: The simple_one_for_one strategy.
+    A supervisor with restart strategy simple_one_for_one is a simplified one_for_one supervisor, where all child processes are dynamically added instances of the same process.
+*** PITFALL, SKIPPED: Automatic shutdown > manual shutdown.
+    https://erlang.org/doc/design_principles/sup_princ.html#stopping
 * notes from LYSE, distrusted
 ** Show and delete messages to the repl with flush/0.
    :PROPERTIES:
