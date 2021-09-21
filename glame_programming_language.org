@@ -2,14 +2,45 @@
 :ID:       0022503a-7ad9-4779-8006-661464de9f91
 :END:
 #+title: Gleam (programming language)
+* TODO CONFIG PROBLEMS
+** what happened
+   :PROPERTIES:
+   :ID:       24d4a5b8-9ca4-4072-bdd2-bf57d12ff2c5
+   :END:
+   I couldn't compile the OTP repo. Someone recommended more recent versions. So I [[id:c15685f2-54d8-40dd-a49c-d87ec0bd5034][installed via my nixpkgs clone]] the packages gleam and rebar3, and commented them out of my Nix config.
+   But that wasn't recent enough, and I could not easily add a new Nix package for the newest Gleam.
+** the upshot
+   I may need to uninstall gleam and rebar3 before enabling them in my Nix config.
+* TODO suggest in Gleam OTP README
+** Check this blog post.
+   https://gleam.run/news/gleam-v0.12-and-gleam-otp-v0.1-released/
+** How to get it.
+*** Add gleam_otp to the `deps` section of a project's rebar.config file.
+**** an example
+     {deps, [
+       {gleam_stdlib, "0.16.0"},
+       {gleam_otp, "0.1.6"}
+     ]}.
+**** TODO Why does version 0.2.0 not work, but 0.1.6 does?
+*** (In general, to find the name of a library, search for it on hex/hexdocs.)
+    https://hexdocs.pm/
+*** Run `rebar3 get-deps`.
+*** Now when you run `rebar3 shell` (or a number of other rebar3 commands)
+*** (Thanks to Reddit user u/TanklesXXL.)
 * why
   It's like Erlang with strong types.
+* the Discord is helpful
+  https://discord.com/invite/Fm8Pwmy
 * refs
 ** The Gleam.Run documentation hub
    https://gleam.run/documentation/
+** The OTP documentation
+   https://hexdocs.pm/gleam_otp/
 ** I downloaded lots of sample code.
    /home/jeff/code/concurrent-langs/gleam/by-others
 * TODO what about concurrency?
+** An old post on the Gleam blog describes using OTP a little.
+   https://gleam.run/news/gleam-v0.12-and-gleam-otp-v0.1-released/
 ** what the Gleam Book suggested
    "To find out more about Erlang fault tolerance see the Gleam OTP project and the Learn You Some Erlang chapter on supervisors."
    https://gleam.run/book/tour/assert.html
@@ -245,3 +276,6 @@
    https://gleam.run/book/tour/external-types.html
 * the standard library
   https://hexdocs.pm/gleam_stdlib/
+* to install more libraries
+  Search for it on "Hex / Hexdocs":
+  https://hexdocs.pm/

@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       88d5633c-991a-47fb-b329-2388552fe57e
+:END:
+#+title: Hydra, my suggestions upon reading the spec
+* TODO suggest
+** Never tell anyone to start with the paper.
+   This spec is much, much easier.
+** It would be helpful if, in the "Data Model" section, "Elements" came before "Terms" and "Types".
+   The tables in the Terms and Types subsections were baffling until I had read the Elements one. For instance, they refer to "element references", which are only introduced in "Elements".
+   If you don't want to change the order, it would help to announce before the Terms and Types subsections that they'll be spelled out later, in Elements.
+** Point out that for each graph G, there exists exactly one graph G_S such that the third element of every triple in G(D) is an element from G_S(D).
+   From the definition in the first paragraph of the section titled "Graphs", that's not obvious.
+** Explain immediately upon introducing G(D)
+   that it's an implicit set, which Hydra will be able to test for membership within but not enumerate, and that it's closed under some set of type operations (a -> [a], for instance) that can vary from grpah to graph.
+** There seems to be a "TBD" missing in the discussion of the extent to which programming languages should be modeled.
+   "For example, the Java model needs to allow us to define classes with the sort of functions (methods) and types we use in Hydra graphs, etc. but we may not care about main methods, I/O, for loops, or much of the rest of the language." That gives me some idea of what we won't be doing in Hydra, but still leaves me wondering what we *will* be doing in it.
+* TODO ask
+** What is the purpose of models?
+  The doc states that models "usually consist only of at most a few dozen elements intended as types for other graphs, each with descriptive names, good documentation, and a clear purpose". What's an example of such a purpose? Describing Neo4j, maybe?
+** It seems to conflate "schema" and "type" a lot.
+   This probably gave me the most difficulty of anything in the spec. Isn't a schema a collection of types? Isn't a schema what a graph has, while a type is what an element has? Sometimes the spec describes the third value in an element as a type, sometimes as a schema.
+** regarding the Term Constructors table
+*** What is the (!) that appears in front of the "neg" function and elsewhere?
+*** The type of "Data" in the Term Constructors table looks wrong.
+    If an Application term can have any type, then the Types column must describe the result of the entire expression -- that is, the application of the function to its argument, not just the function. But that's not compatible with the listed type of the Data term, which is stated as "function". The example given of Data is "data(Point1234)". I can see how "data" could be the "function which maps an element to its data", but not how "data(Point1234)" could be that.
+*** The table's "Projects a matching field from a union" description appears incomplete.
+    Later you clarify that case statements might run two kinds of tests; this is only one of them.
+    Is full-on pattern matching, ala Haskell or (arguably better) Erlang, on the table?
+** on testing terms of unlike type for equality
+   Is such an extremely polymoprhic (==) : a -> b -> Bool  useful? If the type checker can typecheck an instance of (==), then it can figure out that the call will always fail whenever a /= b. Wouldn't you want it to tell you that at compile time (which it would do by failing to typecheck, if the signature were instead a -> a -> Bool).
+** In the Type Constructors table
+*** Is "Element" really a type? Distinct from the type of an element?
+** Is representing natural language still hard?
+   It seems like you'd need a type in the schema for every possible sentence structure:, "subject verb object", "subject verb (adjective object)", "(adjective subject) verb object", etc.
+   Or maybe the type system can be defined as the closure of some set of base types under some set of operations? If so the operations would have to distinguish among the types, e.g. that you can apply an adjective to a noun but not a verb. But that would mean the schema graph could only be defined implicitly, or else extended every time an element in the graph using the schema needed a new type in the schema.
+** I don't see Strings among the Hydra Core types (section "The Hydra Core vocabulary"). Is that intentional?
+** I didn't understand how Name "[m]ay be parameterized rather than defined as a type." Is that to say that, e.g., we might define some polymorphic "Name a = list of values of type a"?
+** "EnumerationType: shorthand for a union of units"
+   An Enumeration is, more specifically,
+   a *finite* union of elements,
+   which a user must explicitly list, yes?
+** When would a lambda's type be inferred?
+   The spec states, "In Hydra, the domain and codomain types of a lambda are provided if the lambda is the data of an element, otherwise inferred." It goes on to givean example where the type is provided, but not an example of the other case. Where in Hydra do lambdas exist if not as elements of a graph?
+** I didn't understand the distinction between how lambdas and primitive functions take arugments.
+   "Unlike a lambda, a primitive function has a predetermined number of arguments (its arity) [lambdas have arity too, no? maybe it's always 1 because they always take a tuple, but for any lambda you can tell immediately how many arguments it needs] to which it needs to be applied before it will reduce to a term not containing a reference to the function; until then, arguments are curried."
+   Is the distinction merely that primitive functions can be partially applied while lambdas can't be?
+** In the Type Inference section
+*** "If t is an element reference (->e): check(σ(e), v)"
+    How could `t` be an element reference? For one thing, I thought graphs can only refer to their own elements, and the schema graph is (usually) a different graph. For another, sigma is meant to constrain the type of `t`, not the type of whatever was referring to `t` as its type; it seems like delta(t) would be the thing to use, not sigma(t).
+*** "If t is a record type with of t1..tn and v a record of terms v1..vn: ⋀ check(ti, vi)"
+    Does order matter?
+*** "If t is a function type (t1->t2) with t1 a record type of fields t’1..t’n, and v is a projection on field i: confirm that t2 = t’"
+    It sounds like this is saying that a function meant to apply to something with, say, *both* hands and feet can apply to anything with *either* hands or feet. Am I reading it wrong?
+*** "If t is a function type (t1->t2) with t1 a variant record type of fields t’1..t’n, and v is a case statement with cases v’1..v’n: ⋀check(t2, v’i)"
+    This looks like it's saying check the output value of each branch of the case statement. One has to check what the case is matching on too, though, no? That is, if I say
+    case (b :: Bool) of
+      "turtle" -> 3
+      False -> 4
+then the second line of what I wrote is wrong because t1 is not matched, even if the output of all branches match t2.

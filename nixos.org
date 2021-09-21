@@ -186,15 +186,15 @@ ALSA: use 2 periods for playback
 https://nixos.org/nixos/manual/index.html#sec-custom-packages
 https://nixos.org/nixpkgs/manual/#chap-quick-start
 *** TODO what are these for?
-nixos-rebuild switch -I nixpkgs=/home/jeff/nix/nixpkgs
-/home/jeff/nix/nixpkgs/pkgs/development/libraries/hello-test
+    nixos-rebuild switch -I nixpkgs=/home/jeff/nix/nixpkgs
+    /home/jeff/nix/nixpkgs/pkgs/development/libraries/hello-test
 *** 1 - write the package
 **** after manually downloading the source for it
- In a clone of nixpkgs:
-   Put the package somewhere in pkgs/.
-     Model it after nix pill 8 section 2, at
-     /home/jeff/nix/pills/08/2-generic/
-     NOTE: This requires manually downloading the source code.
+     In a clone of nixpkgs:
+       Put the package somewhere in pkgs/.
+         Model it after nix pill 8 section 2, at
+         /home/jeff/nix/pills/08/2-generic/
+         NOTE: Requires manually downloading the source code.
 **** with automatic downloading of the source
  rather than define src = the name of some file that I put there myself,
  define
@@ -205,12 +205,15 @@ nixos-rebuild switch -I nixpkgs=/home/jeff/nix/nixpkgs
  To compute sha256, download from the desired URL (but only once)
  and run sha256sum on it.
 *** 2 - add an appropriate line to pkgs/top-level/all-packages.nix
-e.g. hello-test = callPackage ../development/libraries/hello-test { };
+    e.g. hello-test = callPackage ../development/libraries/hello-test { };
 *** 3 - commands to build it
-At the root of nixpkgs, test whether it builds with
-  nix-build -A <package-name>
-To add it to my user profile, run
-  nix-env -f . -iA <package-name>
+    :PROPERTIES:
+    :ID:       c15685f2-54d8-40dd-a49c-d87ec0bd5034
+    :END:
+    At the root of nixpkgs, test whether it builds with
+      nix-build -A <package-name>
+    To add it to my user profile, run
+      nix-env -f . -iA <package-name>
 ** TODO get RT kernel working
 *** TODO use magnetphon's machine/thinknix files too
 *** discussion here

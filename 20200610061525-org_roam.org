@@ -3,6 +3,8 @@
 :END:
 #+title: org-roam
 * [[id:2aef3e2d-4518-4d44-ba76-93feeb0fc981][org-roam v2 migration, my story]]
+* TODO ? org-roam-search
+  https://github.com/natask/org-roam-search
 * PITFALL: notes with nothing but a title
   :PROPERTIES:
   :ID:       a24e17db-7c46-45c7-a4b9-ca053559e65f

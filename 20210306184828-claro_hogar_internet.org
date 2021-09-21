@@ -2,6 +2,14 @@
 :ID:       b2a88e6f-6481-4b4d-9645-fe3376345f01
 :END:
 #+title: Claro-hogar-internet
+* paying Claro
+** the website
+   https://portalpagos.claro.com.co/
+** TODO is the "Cuenta o Ref. de Pago" always this?
+   60155948
+** PITFALL: The service can hang
+   If I click Boton Bancolombia, it will wait for a not-forthcoming response from Bancolombia, and meanwhile won't let me attempt any other payment method. I'll have to wait for it to timeout.
+** PITFALL: Never click Boton Bancolombia
 * TODO canceling claro for 402 Urapanes
 ** DONE
    I'm 99% sure I did this -- someone came and picked it up --

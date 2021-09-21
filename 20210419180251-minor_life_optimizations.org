@@ -4,7 +4,7 @@
 #+title: minor life optimizations
 * TODO In OTP, provide the synonym `async` for `brutal_kill`.
 * TODO script KDE desktop population
-  https://www.reddit.com/r/kde/comments/pgv8m7/can_i_script_the_population_of_and_the_commands/hbf5ppy/?%24deep_link=true&correlation_id=afe4240a-19c3-4bef-98b7-3b330ad96c37&ref=email_post_reply&ref_campaign=email_post_reply&ref_source=email&%243p=e_as&_branch_match_id=855790960941255270&utm_medium=Email%20Amazon%20SES
+  https://www.reddit.com/r/kde/comments/pgv8m7/can_i_script_the_population_of_and_the_commands/hbf5ppy/?context=3
 * TODO buy to organize desk
 ** hanging organizer
    Uses velcro to attach things to it.
@@ -12,3 +12,4 @@
 * better shoelace knots
 ** stabler: https://www.fieggen.com/shoelace/surgeonknot.htm
 ** faster: https://www.fieggen.com/shoelace/ianknot.htm
+* fatthe, find a recipe for

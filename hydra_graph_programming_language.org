@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       90b28a45-ea20-46f5-adec-ed9f4123d221
+:END:
+#+title: Hydra (graph programming language)
+* TODO RESUME at
+  Concrete Syntax
+  (the section title)
+* Hydra Core = the intermediate language
+* coders
+** encoder = into Hydra,
+** decoder = out of Hydra
+** coder = an info-preserving encoder/decoder pair
+* how translation happens
+** Hydra models many graph DB languages (e.g. Neo4j, JanusGraph)
+** Hydra Core is the intermediate stage between such models
+** "first mile" and "last mile" encoders and decoders must be written in the target languages rather than Hydra.
+* A graph G
+** data terms = G(D)
+   G(D) is closed under some set of operations, such as pairing.
+** elements = G(E) :: (name, data, schema) triples
+*** each "data" in such a triple is from G(D)
+*** each "schema" in such a triple is from another graph (G_S)(D)
+    the Schema Graph.
+*** delta (δ) :: element -> its data component
+*** sigma (σ) :: element -> its schema component
+* Hydra Core is its own schema
+* models
+** Models are small graphs.
+   "usually consist only of at most a few dozen elements intended as types for other graphs, each with descriptive names, good documentation, and a clear purpose"
+** Models usually have constraints.
+* "Stashing" prevents information loss.
+  "transforming unsupported(in the target language) expressions into supported(in the target language) expressions plus annotations (stashing)."
+* Names are lists of strings.
+  'In Dragon, names are lists of strings which correspond to a hierarchy of modules, e.g. [“org/example/mytypes”, “MyOuterType”, “MyInnerType”]'
+* Capitalized Types are Hydra Core types.
+* G(D) is not enumerable.
+   "One cannot iterate over G(D), but one can test a Term for membership."
+* Lambdas are instances of the function type.
+* "there is no such thing as an untyped term"
+* [[id:88d5633c-991a-47fb-b329-2388552fe57e][Hydra, my suggestions upon reading the spec]]
+** omitted from that
+*** "Types" as a label for the second column seems to be a misnomer.
+    Neither Atomic nor Function nor List nor anything in the Types column seems to be a type, but rather infinite sets of types. I'm not sure what the right term is for such sets, or even if the term exists.
