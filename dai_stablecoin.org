@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       5707db6c-82e4-41d1-91a1-bf6e804756c3
+:END:
+#+title: DAI (stablecoin)
+* refs
+  https://www.gemini.com/cryptopedia/makerdao-dai-decentralized-autonomous-organization
+* collateralized via Ethereum
+* some vocab
+** "Maker collateral vault"
+   = a collateralized debt position,
+   where any MKR-holder approved Ethereum asset is the collateral,
+   and the DAI is borrowed against that.
+** MakerDAO = DAO = the protocol that issues DAI
+   Maybe it does more than that.
+** "Keeper"
+   Automated agents that bid in Dai for the collateral
+   from liquidated vaults.
+** "Maker Buffer"
+   = a pool of DAI that contains the fees paid on collateral withdrawals and the proceeds from the collateral auction.
+* liquidation
+** the procedure
+*** idealy
+    if the collateral deposited no longer covers the outstanding debt,
+    some of the collateral is liquidated.
+    Keepers buy the collateral, using DAI.
+    That DAI repays the vault’s debt and a liquidation penalty fee.
+    Any remaining goes to the vault's owner.
+*** If an auction is weak, the Maker Buffer steps in.
+    If a liquidation does not cover the debt it was meant to cover,
+    it becomes "protocol debt",
+    and is covered by the Maker Buffer.
+*** If the Maker Buffer is weak, more MKR is issued.
+    "If there is an insufficient amount of Dai in the Maker Buffer" to cover the debt outstanding after an auction, "a debt auction will be triggered and the protocol will mint MKR and sell it to bidders for Dai to recapitalize the system."
+** TODO Is the entire vault liquidated?
+   I think so.

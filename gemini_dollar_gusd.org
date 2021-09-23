@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       59ed8cc2-5fdd-40d3-91df-b5ce4d740465
+:ROAM_ALIASES: GUSD
+:END:
+#+title: Gemini Dollar (stablecoin)
+* GUSD runs on Ethereum
+  GUSD is an Ethereum ERC-20 token
+* GUSD requires trusting Gemini
+** Gemini, a company in NYC, provides an on-ramp and off-ramp.
+** Gemini keeps $1 USD for every $1 GUSD on the chain.

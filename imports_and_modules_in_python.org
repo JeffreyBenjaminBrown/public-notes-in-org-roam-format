@@ -1,0 +1,57 @@
+:PROPERTIES:
+:ID:       8bcdca01-a78f-4ee1-9873-51ef24fc5f0a
+:END:
+#+title: imports and modules in Python
+* ref
+  https://tenthousandmeters.com/blog/python-behind-the-scenes-11-how-the-python-import-system-works/
+* to avoid import errors with relative imports
+  The standard way is to run the program as a module
+  using the -m switch:
+    python -m package.module
+* Relative imports like ".." work.
+** the idea
+   Each extra dot tells Python to move one level up from __package__ . If __package__ is set to "a.b", then this statement:
+     from .. import d
+   works as if the dots were replaced with a.
+** One cannot move outside the top-level package.
+   If you try this:
+     from ... import e
+   Python will throw an error:
+     ImportError: attempted relative import beyond top-level package
+   This is because Python does not move through the file system to resolve relative imports. It just takes the value of __package__, strips some suffix and appends a new one to get an absolute module name.
+** Relative imports break when __package__ is not defined.
+   In this case, you get the following error:
+     ImportError: attempted relative import with no known parent package
+   You most commonly see it when you run a program with relative imports as a script. Since you specify which program to run with a filesystem path and not with a module name, and since Python needs a module name to calculate __package__, the code is executed in the __main__ module whose __package__ attribute is set to None.
+** When __package__ is defined, `from . import a` works.
+   It works as if the dot was replaced
+   with the value of __package__.
+* what `from module import func, Class, submodule` does
+  This statement imports a module named module and assign the specified attributes to the corresponding variables:
+
+  func = module.func
+  Class = module.Class
+  submodule = module.submodule
+  Note that the module variable is not available after the import as if it was deleted:
+
+  del module
+  When Python sees that a module doesn't have a specified attribute, it considers the attribute to be a submodule and tries to import it. So if module defines func and Class but not submodule, Python will try to import module.submodule.
+* __init__.py lets users ignore submodules.
+  Suppose you develop a library with the following structure:
+
+  mylibrary/
+      __init__.py
+      module1.py
+      module2.py
+  And you want to provide the users of your library with two functions: func1() defined in module1.py and func2() defined in module2.py. If you leave __init__.py empty, then the users must specify the submodules to import the functions:
+
+  from mylibrary.module1 import func1
+  from mylibrary.module2 import func2
+  It may be something you want, but you may also want to allow the users to import the functions like this:
+
+  from mylibrary import func1, func2
+  So you import the functions in __init__.py:
+
+  # mylibrary/__init__.py
+  from mylibrary.module1 import func1
+  from mylibrary.module2 import func2

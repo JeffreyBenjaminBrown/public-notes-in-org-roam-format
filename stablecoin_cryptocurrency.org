@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       4bc5de93-34ac-41b5-9f0d-c2b2e48b97cb
+:END:
+#+title: stablecoin (cryptocurrency)
+* some vocab
+** on-ramps and off-ramps
+   Exchanges where one trades fiat for crypto, or vice-versa.
+* fiat-backed stablecoins
+** what it is
+   The issuer keeps e.g. dollars in reserve,
+   and can issue exactly one crypto token per dollar
+   (or some other but fixed ratio).
+** examples
+   [[id:59ed8cc2-5fdd-40d3-91df-b5ce4d740465][Gemini Dollar (GUSD)]]
+   Tether (USDT)
+   True USD (TUSD)
+   Paxos Standard (PAX)
+** requires a trusted central authority
+   which holds the fiat collateral off-chain.
+** Anything on Ethereum faces high gas fees.
+   In 2021 they ranged from 2 to 60 USD.
+* crypo-collateralized stablecoins
+** example: [[id:5707db6c-82e4-41d1-91a1-bf6e804756c3][DAI]]
+** Collateral is locked into a smart contract
+   and unlocked when the stablecoin is returned.
+** Coins minted *or* borrowed with the same kind of collateral.
+** Holders are in a "collateralized debt position" (CDP).
+** If the value of the collateral drops far enough, some is sold.
+*** TODO How much?
+    I'm guessing enough to bring them,
+    not above-water, but at-water.
+* algorithmic stablecoins
+  hold no collateral, are ridiculous.
