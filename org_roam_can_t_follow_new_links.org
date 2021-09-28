@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       342a603e-98e2-4f54-a53b-5eb2ec830948
+:END:
+#+title: org-roam sometimes can't follow a link
+* solution
+  Run `M-x org-roam-update-org-id-locations`.
+  I ran it from where the link was pasted, not the file I was linking to.
+  But maybe it works from anywhere.
+* my question, posted on the org-roam Discourse site
+  https://org-roam.discourse.group/t/org-roam-cant-follow-new-links-to-a-certain-file-other-files-are-fine/2069
+* Org-roam can't follow link it makes to a certain file; other files are fine.
+  I've been using v2 for months with no problems.
+
+  I have a file at `org-roam/tech/concurrent_programming.org` with the following header:
+  ```
+  :PROPERTIES:
+  :ID:       a0f72fa0-6930-4b6b-a570-93a4748895bb
+  :END:
+  ```
+  The ID is unique; no other file has a header with the same ID line.
+
+  When I create a link to it, the link looks like this:
+  ```
+[[id:a0f72fa0-6930-4b6b-a570-93a4748895bb][  concurrent programming]]
+  ```
+
+  When I try to follow the link, I get this:
+  ```
+  Debugger entered--Lisp error: (error "Cannot find entry with ID \"a0f72fa0-6930-4b6b-a570...")
+    signal(error ("Cannot find entry with ID \"a0f72fa0-6930-4b6b-a570..."))
+    error("Cannot find entry with ID \"%s\"" "a0f72fa0-6930-4b6b-a570-93a4748895bb")
+    org-id-open("a0f72fa0-6930-4b6b-a570-93a4748895bb" nil)
+    org-link-open((link (:type "id" :path "a0f72fa0-6930-4b6b-a570-93a4748895bb" :format bracket :raw-link "id:a0f72fa0-6930-4b6b-a570-93a4748895bb" :application nil :search-option nil :begin 801 :end 868 :contents-begin 844 :contents-end 866 :post-blank 0 :parent (headline (:raw-value "[[id:a0f72fa0-6930-4b6b-a570-93a4748895bb][concurr..." :begin 798 :end 869 :pre-blank 0 :contents-begin nil :contents-end nil :level 2 :priority nil :tags nil :todo-keyword nil :todo-type nil :post-blank 0 :footnote-section-p nil :archivedp nil :commentedp nil :post-affiliated 798 :title "[[id:a0f72fa0-6930-4b6b-a570-93a4748895bb][concurr...")))) nil)
+    org-open-at-point(nil)
+    funcall-interactively(org-open-at-point nil)
+    call-interactively(org-open-at-point nil nil)
+    command-execute(org-open-at-point)
+  ```
+
+  I can create and follow other links with no problem, including links to new files.
+
+  After some initial trouble[1], I ran `org-roam-db-clear-all` followed by `org-roam-db-sync`, which I imagine destroys and rebuilds the db from scratch. It didn't seem to change anything -- I still get at least roughly the same behavior, although it's possible the error message differs somewhere I didn't notice.
+
+  [1] Strangely, whenever I tried that from a certain Emacs instance, it would get 17% through the files and then bork, with an error I didn't record. But then I tried `org-roam-db-sync` from a different Emacs instance and it worked fine.

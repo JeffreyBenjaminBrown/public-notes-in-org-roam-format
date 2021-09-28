@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       4bdf5e92-8bf3-498d-9b0a-6febaf854a31
+:END:
+#+title: Rebar3 (Erlang build manager)
+* refs
+** https://rebar3.org/docs/getting-started/
+** Rebar3: Basic Usage
+   :PROPERTIES:
+   :ID:       515a6ec9-82fa-4684-bbbb-8c6e918fdb77
+   :END:
+   https://rebar3.org/docs/basic_usage/
+* create a new project
+  rebar3 new <template> <project name>
+** possible values for `template`
+*** app
+    a stateful OTP application with a supervision tree, as a single application project
+*** lib
+    a library OTP application (without supervision trees), useful for grouping together various modules, as a single application project
+*** release
+    an umbrella project ready to be released
+*** escript
+    a special form of single application project that can be built as a runnable script
+*** plugin
+    structure for a rebar3 plugin.
+* umbrella projects
+  = projects with potentially multiple apps
+** PITFALL: Each app can have its own rebar.config file.
+   But by default there's only one.
+* dependencies
+  {deps, [
+          % alternatives
+          {elli, % Package, which will be downloaded from Hex
+	         % A version can also be specified without a prefix like (~>).
+	    "~> 3.3.0"},
+          {elli, % a source
+	    {git, "git://github.com/elli-lib/elli.git", {tag, "3.3.0"}}}
+          ]
+  }.
+* compiling with rebar3
+  :PROPERTIES:
+  :ID:       7d366340-3876-415f-aec1-05108a28fd2b
+  :END:
+  syntax:
+    rebar3 compile
+* skipped sections of [[id:515a6ec9-82fa-4684-bbbb-8c6e918fdb77][Rebar3: Basic Usage]]
+** where output goes
+** testing
+** releases and target systems

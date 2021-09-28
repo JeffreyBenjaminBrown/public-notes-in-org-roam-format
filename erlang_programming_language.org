@@ -36,7 +36,7 @@
    e.g. `print/1` for a print function with one argument.
 ** BIF = built-in function
 * using the "shell" (repl)
-** Start the shell with `erl`
+** Start the shell with `erl` or `rebar3 shell`.
 *** [[id:b352deca-445d-4fa1-b80e-ae2ab06d9c3a][Run `erl -pa <path>` to add paths to (user-compiled) .beam files.]]
 ** Get help: `help().`
    The trailing dot is important.
@@ -72,6 +72,7 @@
 ** [[id:b56be675-c98d-4d98-b1e3-bba982c6abdb][regs() -- in repl, get more detailed info on all registered processes.]]
 ** Compile a big program with an Emakefile: [[id:e8298fc5-84b1-46c8-9d78-32d30e6b9b8a][`make:all([load])`]]
 * using the compiler
+** an alternative: [[id:7d366340-3876-415f-aec1-05108a28fd2b][compiling with rebar3]]
 ** PITFALL: "unused function" errors can be confusing.
 *** Will get one if an unexported function is used internally in `spawn` calls.
     :PROPERTIES:
@@ -110,6 +111,7 @@
    :PROPERTIES:
    :ID:       b352deca-445d-4fa1-b80e-ae2ab06d9c3a
    :END:
+* using [[id:4bdf5e92-8bf3-498d-9b0a-6febaf854a31][Rebar3 (Erlang build manager)]]
 * erlang and emacs
   :PROPERTIES:
   :ID:       3a230207-47a8-4dde-af88-2c442f5c51aa
@@ -273,7 +275,7 @@
 ***** Can be circumvented
       -compile(export_all). %% replace with -export() later, for God's sake!
 **** optional explicit imports for individual functions
-     Deprecated,  according to some guy on StackOverflow.
+     Deprecated, according to some guy on StackOverflow.
 
      -import ( Module,
               [ Function1/Arity,
@@ -639,6 +641,8 @@
 ** PITFALL: Third generations are killed by the VM.
    "If you load a third version of a module while a process still runs with the first one, that process gets killed by the VM, which assumes it was an orphan process without a supervisor or a way to upgrade itself. If nobody runs the oldest version, it is simply dropped and the newest ones are kept instead."
 * misc
+** the Erlang Foreign Function Interface (FFI)
+   https://github.com/joergen7/effi
 ** state: Use recursion to model it.
    Recursion can do anything state could.
 **** example
@@ -706,3 +710,4 @@
 ** apply/3
    apply (Module, Function, Args)
    seems to run Module:Function against Args.
+** [[id:1029a65f-378c-4438-bd72-37e5aedbf93e][HTTP in Erlang: the Inets library]]

@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       1029a65f-378c-4438-bd72-37e5aedbf93e
+:END:
+#+title: HTTP in Erlang: the Inets library
+* refs
+* the Inets Client user guide
+  :PROPERTIES:
+  :ID:       92549e84-2b72-4c2f-a82e-1b4f3236a351
+  :END:
+  https://erlang.org/doc/apps/inets/http_client.html
+* Before using it, one must write config options.
+  Here's how I got it to work.
+** the filetree context I was in
+   When I made a project called http_jbb by running
+     rebar3 new umbrella hhtp_jbb
+   it put an empty config file at `config/sys.config`.
+   That's what I modified.
+** the clause I added to sys.config
+   {inets, [ { services, [ { httpc,
+                             [] % A property list. Supposedly, one can check what's a valid property here: https://erlang.org/doc/man/httpc.html , although it was mostly gibberish to me.
+                           }]}]}
+* The part about proxies might be important.
+  The guide recommends doing something like this:
+  httpc:set_options([{proxy, {{"www-proxy.mycompany.com", 8000},
+  ["localhost"]}}]).
+  I didn't. Maybe that's why I got authenticity warnings.
+* to make requests
+  See [[id:92549e84-2b72-4c2f-a82e-1b4f3236a351][the Inets Client user guide]].
+  Search for
+    an ordinary synchronous request
+  or
+    an ordinary asynchronous request

@@ -53,3 +53,4 @@
    "It's generally not possible to do a true safe commit [where both agents want to change state, but only if the other does] with only two participants—a third party is usually required to judge if both players did everything right."
 * some languages
 ** [[id:c008e013-350c-47c7-9f87-228d1d35b2b3][Erlang (programming language)]]
+*** [[id:8bd1818b-7da8-4c6b-b35e-93f54ef5a0d7][concurrency in Erlang]]

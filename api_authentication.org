@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       3fdeb703-72c3-44cc-8186-79c4d9a9319e
+:END:
+#+title: API authentication
+* API authentication is best done in the request header
+** x-api-key
+*** a "custom header convention"
+*** syntax example
+    GET / HTTP/1.1
+    Host: example.com
+    X-API-KEY:  abcdef12345
+** "basic authentication"
+*** Basic Auth can be used instead of or *with* an API key.
+*** syntax example
+    GET / HTTP/1.1
+    Host: example.com
+    Authorization: Basic bWFnZ2llOnN1bW1lcnM=
+** "bearer authentication"
+   Usually uses the "Bearer" keyword.
+   Authorization: Bearer abcdef12345
+* some other ways to do it
+** not studied
+*** JavaScript API
+*** OpanAPI
+** some dangerous ways to do it
+*** API authentication via the query string
+**** PITFALL: This is dangerous.
+     Web servers can store the key.
+**** syntax example
+     curl -X GET "https://example.com/endpoint/?api_key=abcdef12345"
+*** API authentication via the body
+    Seems dumb.

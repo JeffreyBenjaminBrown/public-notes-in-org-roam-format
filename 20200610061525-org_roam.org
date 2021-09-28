@@ -3,6 +3,7 @@
 :END:
 #+title: org-roam
 * [[id:2aef3e2d-4518-4d44-ba76-93feeb0fc981][org-roam v2 migration, my story]]
+* PITFALL: What to do if [[id:342a603e-98e2-4f54-a53b-5eb2ec830948][org-roam can't follow a link]].
 * TODO ? org-roam-search
   https://github.com/natask/org-roam-search
 * PITFALL: notes with nothing but a title
