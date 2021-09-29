@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       5e5ce5a9-1bd7-4bc7-ab20-cdb97bd441ad
+:END:
+#+title: Bitcoin (cryptocurrency)
+* some Bitcoin libraries
+  :PROPERTIES:
+  :ID:       d3d3bb08-1d29-48de-bc9c-445b0f1d6b62
+  :END:
+** network-bitcoin
+** haskoin-core
