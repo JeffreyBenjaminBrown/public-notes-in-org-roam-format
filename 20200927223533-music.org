@@ -2,11 +2,18 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
-* [[id:97e78830-11c4-4736-afc3-4669fd94ee2e][microtonality]]
-* [[id:e997f14b-7bdf-4545-a90e-f64db4e8a5b3][22-edo guitar (shopping)]]
+* /home/jeff/code/music/jam-quiz
+** includes 24-edo language quiz
+* Tidal looks doable on NixOS now.
+  Not with a package, but just installing the pieces outside of Nix.
 * TODO Apply rhythm to pitch set. Capture pitch set. Capture rhythm. Transpose part of pitch set.
-* TODO [[id:3c5597b0-3260-44fe-9c49-03a3f791171c][Expression Pedals to USB]]
-* TODO [[id:1c6c1f7e-e33c-4342-870d-9029d389f17f][monome]]
-* TODO an EQ for PulseAudio
-https://github.com/keur/prettyeq
-https://news.ycombinator.com/item?id=24586239
+* [[id:97e78830-11c4-4736-afc3-4669fd94ee2e][microtonality]]
+* [[id:1c6c1f7e-e33c-4342-870d-9029d389f17f][monome]]
+* [[id:2e99f9b7-5784-4e04-a277-9e6e734d1dd2][JACK (audio connection software)]]
+* some audio software by others
+** an EQ for PulseAudio
+   https://github.com/keur/prettyeq
+   https://news.ycombinator.com/item?id=24586239
+* aborted
+** [[id:e997f14b-7bdf-4545-a90e-f64db4e8a5b3][22-edo guitar (shopping)]]
+** [[id:3c5597b0-3260-44fe-9c49-03a3f791171c][Expression Pedals to USB]]

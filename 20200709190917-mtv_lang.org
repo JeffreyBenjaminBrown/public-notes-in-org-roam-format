@@ -2,6 +2,9 @@
 :ID:       9e2b0560-a823-4718-9f6d-638557e3f482
 :END:
 #+title: mtv-lang
+* TODO learn to use it
+** use nMergec to change the amp values of a Museq Sample
+   remembering that the default amp value is 0.1
 * TODO top priorities
 ** TODO make simultaneous triggers writeable without specifying voice
 *** A simple hack

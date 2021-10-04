@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       2799b8ed-81a8-4667-b1ca-50414cb112ea
+:END:
+#+title: Google Cloud Platform
+* Google Cloud Platform sucks.
+  :PROPERTIES:
+  :ID:       6650da2c-7959-4ff3-a2ed-c94d26266f19
+  :END:
+  It's incredibly complex, with a million different APIs and services, authorization is horribly complex, the documentation contradicts itself (I think it's evolving), and the "free trial" makes me nervous that it'll start charging my card, when its prices are opaque.
+* TODO delete my non-OF Google Cloud projects
+* I can *only* choose "External Users" when setting up my consent screen.
+   "Internal" is only available to Google Workspace users, which seems to be a paid service.
+   So now both of my new projects have that setting.

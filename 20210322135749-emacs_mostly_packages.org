@@ -32,6 +32,7 @@
    https://github.com/emacs-tw/awesome-emacs
 * packages of interest
 ** important (and maybe easy)
+*** [[id:8ed2933a-cfb1-4f34-9e49-e8c0afdd79d4][dired (Emacs package)]]
 *** docker
 *** evil-mode
 *** wgrep - Writable grep/ack/ag/pt buffer and apply the changes to files.

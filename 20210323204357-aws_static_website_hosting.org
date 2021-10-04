@@ -5,7 +5,7 @@
 * source | ref
   https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html?refid=gs_card
 * what is possible
-** S3 can host website-like thinigs
+** S3 can host website-like things
    S3 lets you make whatever buckets you want,
    with any kind of URL-looking name.
    And it lets you configure those buckets, if you like,
@@ -16,9 +16,7 @@
 ** S3 websites are viewable to the owner in the browser
    However,
    each bucket *is* associated with an internal "endpoint" like
- ```
- http://www.jefbrown.net.s3-website-us-east-1.amazonaws.com
- ```
+     http://www.jefbrown.net.s3-website-us-east-1.amazonaws.com
    which is available at least to the owner of the account.
    Such an internal endpoint can be used to test the content.
    If it works,

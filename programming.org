@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       f1a8ec6a-605b-4e34-84ee-9912be516dd8
+:END:
+#+title: programming
+* tests and IO (computer programming)
+  :PROPERTIES:
+  :ID:       cd0542f8-36de-4f9c-a6a5-2107fa041762
+  :END:
+** [[id:33e6fa69-2fb8-40d4-8037-cbcf19d552b4][My tests in tax.co don't compose.]]
+** Mocks in unit tests => need integration tests too.
+** Mocks, fakes and stubs.
+** the Magic Mock library for Python

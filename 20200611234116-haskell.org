@@ -2,4 +2,11 @@
 :ID:       784007e7-b851-4988-beaa-b8e4a9657357
 :END:
 #+title: Haskell
+* TODO cabal can do incremental rebuilds
+  Brandon Albury says:
+  "If you use a build script (see the xmonad-testing repo for one that works with cabal projects; it's tested because I use it myself) you can get mod-q back."
+  https://mail.google.com/mail/u/0/#inbox/FMfcgzGljvMDKvlWTnrbxRZMwbfQRNnF
 * [[id:cbd1f56f-efef-4302-b309-e21ca0c1b677][how to profile in Haskell]]
+* lenses in Haskell
+** Generate lenses for third-party libraries in Haskell
+https://ai-jobs.net/?rdt_cid=3040091042633392170

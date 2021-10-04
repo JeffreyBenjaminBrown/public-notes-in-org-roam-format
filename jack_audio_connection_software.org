@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2e99f9b7-5784-4e04-a277-9e6e734d1dd2
+:END:
+#+title: JACK (audio connection software)
+* keeping JACK happy
+** Killing SC before the GHCI process makes Jack err.
+** don't leave Spotify open (even if not playing) when turning Qjackctl
+   not sure but maybe bad
+* leaving Qjackctl on seems to work
+  I left it open, not running, for days and I can play the synth with it today.

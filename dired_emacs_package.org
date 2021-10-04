@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       8ed2933a-cfb1-4f34-9e49-e8c0afdd79d4
+:END:
+#+title: dired (Emacs package)
+* to rename a file in dired
+  :PROPERTIES:
+  :ID:       b21e2b07-d97f-4135-ae22-8b8737075ce8
+  :END:
+  Press R.
+  Then press down to bring up the current filename in the minibuffer,
+  or up to get its history (this is standard in the minibuffer).

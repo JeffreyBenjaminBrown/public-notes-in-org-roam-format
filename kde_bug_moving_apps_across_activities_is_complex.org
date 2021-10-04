@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       9436b2e5-d0b7-461f-ad08-46a43ee825d5
+:END:
+#+title: KDE bug: moving apps across activities is complex
+* it's already been filed and resolved in kwin-unstable
+  https://bugs.kde.org/show_bug.cgi?id=438198
+* How I described the problem
+# The problem
+
+The popup window that lets you switch the activities (1) is redundant, and (2) must be opened twice in order to move an application from one activity to another. See below for details.
+
+# A simple solution
+
+There might be others, but one solution would be to allow the Show in Activities submenu to stay open after someone clicks something in it.
+
+# Details
+
+Suppose you've got two activities named 1 and 2, and you'd like to move the application from Activity 1 to Activity 2. Right-clicking the title bar of the application will open a popup window. Hovering over Show in Activities will bring up a submenu with three items: All Activities, Activity 1 and Activity 2.
+
+To begin with, Activity 1 is selected. If you select All Activities, the popup disappears, the application is now displayed in all your activities, and you're done. If that's what you wanted, it worked perfectly.
+
+But the same thing happens if, instead of selecting All Activities, you select Activity 2. The application is now displayed in every activity, and the popup has disappeared. So you've got to repeat your steps: Click the title bar again, navigate to the Show in Activities submenu again, and finally de-select Activity 1.
+
+(If, instead of selecting Activity 2 first, you instead de-select Activity 1, the same thing happens.)
+
+# My system details
+
+Plasma 5.21.5
+NixOS 21.05

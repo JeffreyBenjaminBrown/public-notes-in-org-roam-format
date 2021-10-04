@@ -4,20 +4,6 @@
 :END:
 #+title: spaced repetition
 * TODO remember
-** keeping JACK happy
-*** Killing SC before the GHCI process makes Jack err.
-*** don't leave Spotify open (even if not playing) when turning Qjackctl
-    not sure but maybe bad
-** git and big text moves
-*** before moving a complicated thing in a git repo
-    consider whether I can move its definition to its own file.
-    If so, do that, and then just move the reference to the new file.
-    That way the diff is more readable.
-*** if I can't, push my changes just before and just after any such move
-    Otherwise, checking the diff is a nightmare.
-    I'll have forgotten what I was doing,
-    *and* once I realize I'm looking at a move,
-    I have to search for each moved line.
 ** Does meta awareness stop pointless behaviors?
 * TODO I have a few notes like this; join them.
   search for "internalize", "spaced repetition", maybe "to learn", "remember"
@@ -73,6 +59,3 @@ It's dangerous to leave files I want in a clone of a git repo without adding the
     [[id:46b695c5-617e-47a8-b699-ef2b7ec29e81][the context of a link matters]]
 *** [[id:3305442a-e435-4f84-a403-9509963497b7][Note titles should be complete sentences.]]
 *** [[id:edca15b1-37f9-46ec-bb32-8a3090242b0d][? Use backlinks to define notes extrinsically]]
-* likely internalized
-** leaving Qjackctl on seems to work
- I left it open, not running, for days and I can play the synth with it today.

@@ -70,3 +70,14 @@ That is, a folder that Encfs is funneling data into.
     C-c o
     smsn-open-note-prompt
 *** Write vCs: C-c C-w c
+* u, for smsn
+** We might feel like we know everything, but in the heart there will always be mystery.
+   Said (not verbatim) by the old woman in episode 8 of the Amazon Prime adapation of Electric Dreams.
+** Is this inspiration or hunger.
+** add this note to SmSn
+*** Where did my songs go?
+    Grep for "slick fish",
+    grep for "demographic miracle work" (doubtful)
+    I remember some of them somewhat
+      slick fish, miracle work
+    they might be in "whole songs" in "qq music"

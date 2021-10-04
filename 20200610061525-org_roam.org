@@ -2,17 +2,35 @@
 :ID:       63f366e6-b768-4f3f-9093-a776f2b4e069
 :END:
 #+title: org-roam
+* refs
+** for help : the Discourse group
+* TODO search libraries for org-roam
+  :PROPERTIES:
+  :ID:       e5140b84-d5da-482d-a9fa-eff7e3c9dd26
+  :END:
+** tree-query
+   https://twitter.com/jamest_lu/status/1418666513637249025
+** org-roam-search
+   https://github.com/natask/org-roam-search
 * [[id:2aef3e2d-4518-4d44-ba76-93feeb0fc981][org-roam v2 migration, my story]]
 * PITFALL: What to do if [[id:342a603e-98e2-4f54-a53b-5eb2ec830948][org-roam can't follow a link]].
-* TODO ? org-roam-search
-  https://github.com/natask/org-roam-search
 * PITFALL: notes with nothing but a title
   :PROPERTIES:
   :ID:       a24e17db-7c46-45c7-a4b9-ca053559e65f
   :END:
   can nonetheless be important, thanks to backlinks
-* REMEMBER the Discourse group
 * org-roam usage
+** to rename a file in org-roam
+   [[id:b21e2b07-d97f-4135-ae22-8b8737075ce8][Use dired to rename it]].
+** to open something in the backlink buffer in the other window
+   C-u RET
+** to fold/unfold all the backlinks in the org-roam buffer
+   :PROPERTIES:
+   :ID:       001e1870-011f-46ca-b6d1-df4707b53c08
+   :END:
+   C-TAB
+   That's a standard magit-section command. The org-roam (backlink) buffer relies on magit-section.
+   I don't know why there are a few lines of whitespace under each backlink, but this makes them go away.
 ** to rebuild the cache
    M-x -db-s
 ** link descriptions are automatically refactored
@@ -43,4 +61,5 @@ I do not understand overlays
 ** TODO can I make more TODO-like tags for org-mode?
 ** TODO how to tab-complete from the middle?
 ** TODO how to rename a file?
- particularly if I can't tab-complete from the middle
+   particularly if I can't
+   tab-complete from the middle

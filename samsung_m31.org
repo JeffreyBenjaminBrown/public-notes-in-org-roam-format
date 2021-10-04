@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       39862c2f-be95-4a38-a1ee-0434c194b4e5
+:END:
+#+title: Samsung M31
+* to charge it
+  In the 40-80% band,
+  the average charge speed is (1:20 / 1%)^(-1).
+  That is, to move the charge up N%,
+  charge it for (4/3)*N minutes.

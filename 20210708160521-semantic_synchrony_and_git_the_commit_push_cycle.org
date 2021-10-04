@@ -9,10 +9,6 @@
 * Run "lost-nodes.sh"
   cd /home/jeff/Encfs/kb-no-encfs/vcs
   bash ~/smsn+/git-smsn/lost-nodes.sh
-* Delete things.
-  cd /home/jeff/Encfs/kb-no-encfs/vcs
-  grep "^@title \[delete" -r . > to-delete.txt
-  Then look at each line of that file from within SmSn.
 * Use magit to commit
   after loading each of these files, run magit
 ** ~/Encfs/kb-no-encfs/vcs/public/001IGm9ypXayWoiA.smsn
@@ -20,6 +16,14 @@
 ** ~/Encfs/kb-no-encfs/vcs/personal/HSn5Vb7ERrybcWZU.smsn
 ** ~/Encfs/kb-no-encfs/vcs/private/5BsOZge3XkSvLNsL.smsn
 ** ~/Encfs/kb-no-encfs/vcs/observatorio/VFkwsk7AQFUAwRMN.smsn
+* *Then* delete things.
+  Do this in a second commit so that in the first commit,
+  if anything was deleted that shouldn't have been,
+  it will be obvious, not camouflaged by these deletes.
+** the recipe
+   cd /home/jeff/Encfs/kb-no-encfs/vcs
+   grep "^@title \[delete" -r . > to-delete.txt
+   Then look at each line of that file from within SmSn.
 * pull, then push
 * stop SmSn
 * delete the old repo
