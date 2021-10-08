@@ -36,11 +36,19 @@
 ** [[id:ae710ad7-8b82-459d-a8e8-d8b67ccc4cce][File Uploads In Django]]
 ** [[id:592838c4-5f21-41df-9a38-ccff592200f2][Django security, things to do before production]]
 ** [[id:d67b54e4-8d6a-49f3-81db-7f528c308f75][forms in Django]]
-* PITFALL: Reusing templates across form-submitting views is dangerous!
-** the problem
-   Where the form data gets sent is encoded in the `action=` argument to the <form> element in the template. Trying to use the same template at two different URLs will mean the data from both URLs is sent to only one of them -- whichever one is encoded in the action= argument.
-** a solution
-   The template could take the receiving URL as an argument from Django.
+* PITFALLs
+** Django won't complain if a template is missing context.
+   For instance, if I call this:
+     return django.shortcuts.render (
+       request,
+       'run_make/thank_for_spec.html',
+       { 'user_email' :  user_email } )
+   then the "thank_for_spec" template can interpret the value of `user_email` via the weird double-bracket `{{user_email}}` syntax. If it tries also to interpret `{{user_name}}` when that was not provided, Django won't complain. The render will simply substitute an empty string.
+** danger reusing templates across form-submitting views
+*** the problem
+    Where the form data gets sent is encoded in the `action=` argument to the <form> element in the template. Trying to use the same template at two different URLs will mean the data from both URLs is sent to only one of them -- whichever one is encoded in the action= argument.
+*** a solution
+    The template could take the receiving URL as an argument from Django.
 * refs
 ** All Django documentation
  https://docs.djangoproject.com/en/3.1/
