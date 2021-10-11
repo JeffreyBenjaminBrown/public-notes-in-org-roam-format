@@ -1,0 +1,80 @@
+:PROPERTIES:
+:ID:       4c5c2a9b-0465-4ed5-bde1-df35e96321af
+:END:
+#+title: wagsi (music software)
+* refs
+  :PROPERTIES:
+  :ID:       ec945c40-bf3f-4ef8-b874-e0236b894bb0
+  :END:
+  https://github.com/mikesol/wagsi
+* TODO maybe try to get Purescript 0.14.3, or change the dependencies in wagsi to specify 0.14.0
+  The error I get
+  (once it gives up on the prebuilt binary and uses Stack)
+  seems to want 0.14.3.
+  And wagsi's `package.json` seems to want 0.14.2.
+  But neither is packaged for NixOS --
+  21.05 has 0.14.0, and unstable has 0.14.4.
+* It's like TidalCycles, ported to PureScript
+* Using it
+** Open the project in VSCode
+** Run this from the command line
+   npm install && npm start
+* Question: my installation failed
+  https://github.com/mikesol/wagsi/issues/8
+* the error
+  When I try to open a shell in VSCode I get the error The terminal process failed to launch: Path to shell executable "bash" is not a file or a symlink. (Is anyone using wagsi in Emacs? I'd prefer that to VSCode.)
+
+  So I ran npm install && npm start from a separate terminal application (Konsole), whereupon I got this:
+
+  ```
+  jeff@jbb-dell:wagsi$ npm install && npm start
+  npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but package-lock.json was generated for lockfileVersion@2. I'll try to do my best with it!
+
+  > purescript@0.14.3 postinstall /home/jeff/code/music/wagsi/node_modules/purescript
+  > install-purescript --purs-ver=0.14.3
+
+  ✔ Check if a prebuilt 0.14.3 binary is provided for linux
+  ✔ Download the prebuilt PureScript binary (6s)
+  ✖ Verify the prebuilt binary works correctly
+    /home/jeff/code/music/wagsi/node_modules/purescript/purs.bin --version
+    Error: spawn /home/jeff/code/music/wagsi/node_modules/purescript/purs.bin ENOENT
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+      at onErrorNT (internal/child_process.js:467:16)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+  ▬ Save the downloaded binary to the npm cache directory
+
+  ↓ Fallback: building from source
+
+  ✔ Check if 'stack' command is available
+          2.7.1 found at /run/current-system/sw/bin/stack
+  ✔ Download the PureScript 0.14.3 source (2s)
+  ✖ Ensure the appropriate GHC is installed (396ms)
+    stack setup
+    Error: Command failed with exit code 1 (EPERM): stack --allow-different-user setup
+      at makeError (/home/jeff/code/music/wagsi/node_modules/execa/lib/error.js:59:11)
+      at handlePromise (/home/jeff/code/music/wagsi/node_modules/execa/index.js:112:26)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+  ▬ Build a binary from source
+  ▬ Save the built binary to the npm cache directory
+
+  npm WARN tailwindcss@2.1.2 requires a peer of autoprefixer@^10.0.2 but none is installed. You must install peer dependencies yourself.
+  npm WARN wagsi@ No repository field.
+  npm WARN wagsi@ No license field.
+  npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules/fsevents):
+  npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+  npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/webpack-dev-server/node_modules/fsevents):
+  npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+  npm ERR! code ELIFECYCLE
+  npm ERR! errno 1
+  npm ERR! purescript@0.14.3 postinstall: `install-purescript --purs-ver=0.14.3`
+  npm ERR! Exit status 1
+  npm ERR!
+  npm ERR! Failed at the purescript@0.14.3 postinstall script.
+  npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+  npm ERR! A complete log of this run can be found in:
+  npm ERR!     /home/jeff/.npm/_logs/2021-10-09T18_13_51_013Z-debug.log
+  jeff@jbb-dell:wagsi$
+  ```

@@ -4,14 +4,31 @@
 #+title: AWS S3
 = Amazon Simple Storage Service = S3 = buckets
 * [[id:c5d25204-1e5e-41bc-974d-80aa2d67c870][S3 has a CLI]]
+* PITFALL: Reusing (bucket) names is dangerous.
+  I made a public bucket.
+  Then I deleted it and made a, supposedly,
+  private one with the same name.
+  It was still public.
+  Then I made a new bucket with a distinct name,
+  and made it private.
+  It really was private.
 * data can be "queried in place"
 * data can be "selectively retrieved"
   with "S3 Select"
-* bucket <=> url
-  Each (sub)domain needs its own bucket,
-  of the same name.
+* buckets and URLs
+** bucket <=> URL
+   Each (sub)domain needs its own bucket,
+   of the same name.
+** [[id:d205ad68-55a4-4610-94ea-1af90680cc6d][how to give a bucket a public URL]]
 * buckets can do versioning
   https://docs.aws.amazon.com/AmazonS3/latest/user-guide/enable-versioning.html
+* security on S3
+** Problem: Anyone with the right URL can view the data.
+   If someone else has the URL I see when I visit a file on S3,
+   they too can see it.
+   That's because the URL has the security token inside it.
+** TODO ? Solution: Use an on-disk credential.
+   .ssh, for instance.
 * use tags to track the cost of a bucket
   thttps://docs.aws.amazon.com/AmazonS3/latest/dev//CostAllocTagging.html
 * S3 "Access Points"

@@ -1,0 +1,58 @@
+:PROPERTIES:
+:ID:       390298ec-b752-4e01-8962-1da401c2d3b7
+:END:
+#+title: AWS IAM (Identity Access Management)
+* Here is an IAM policy for total access to an S3 bucket.
+  This is JSON. It gives total access to a bucket called
+    whatdoineedtodotofindauniquename
+  {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "s3:GetBucketLocation",
+          "s3:ListAllMyBuckets"
+        ],
+        "Resource": "*"
+      },
+      {
+        "Effect": "Allow",
+        "Action": ["s3:ListBucket"],
+        "Resource": ["arn:aws:s3:::whatdoineedtodotofindauniquename"]
+      },
+      {
+        "Effect": "Allow",
+        "Action": [
+          "s3:PutObject",
+          "s3:GetObject",
+          "s3:DeleteObject"
+        ],
+        "Resource": ["arn:aws:s3:::whatdoineedtodotofindauniquename/*"]
+      }
+    ]
+  }
+* Policies, Roles, and Users
+** A Policy defines a set of abilities.
+** A Role is a collection of Policies.
+** A User
+*** can be assigned Roles and Policies.
+*** can be a human or a program.
+*** Humans get user names and passwords.
+    I assign them initially.
+    They can change the password if they want.
+** TODO ? security
+   AWS so far does not seem to care if people in different places
+   log in to the same User. But maybe it would if we did it simultaneously.
+* how to use an IAM user from a program
+** Make a config file at ~/.aws/config
+*** its contents, with some variables that need substitution
+    [profile <profile name>]
+    user_arn = arn:aws:iam::<number>:user/<user name>
+*** where to get those variables
+    <profile name> is something I can invent. It's only meaningful on the machine where I've put the config file; AWS won't see it.
+    <user name> is some programmatic (as opposed to human) User I've created in AWS IAM with the permissions I need.
+    To find <number>, find that User in the AWS Console,
+    and then find its "User ARN".
+    That's actually the whole URI I need; I can copy and paste that whole thing, not just the number in it.
+** Run CLI commands with `--profile <profile name>`.

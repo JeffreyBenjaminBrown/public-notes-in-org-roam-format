@@ -21,15 +21,17 @@
    default region = us-east-1
    default output format = json
 * use the AWS CLI
-  There are only nine commands.
 ** SEE ALSO: command reference
    https://docs.aws.amazon.com/cli/latest/reference/s3/#available-commands
 ** mb: make bucket
    aws s3 mb s3://testing.jefbrown.net
 ** cp: upload to bucket
    aws s3 cp test.txt s3://testing.jefbrown.net
+   aws s3 cp s3://invisible-to-most/test.txt temp.txt \
+     --profile phanaeros-writer
 ** cp: download from bucket
    aws s3 cp s3://testing.jefbrown.net .
+   aws s3 cp temp.txt s3://invisible-to-most/test.txt --profile phanaeros-writer
 ** rm: delete from bucket
    aws s3 rm s3://testing.jefbrown.net/test.txt
 ** rb: delete empty bucket
@@ -37,5 +39,12 @@
    PITFALL: Works only if empty.
 ** ls: list contents
    aws s3 ls jefbrown.net
+   aws s3 ls s3://whatdoineedtodotofindauniquename
 ** ls: list buckets
    aws s3 ls
+** website: give a bucket a public URL
+   :PROPERTIES:
+   :ID:       d205ad68-55a4-4610-94ea-1af90680cc6d
+   :END:
+   https://docs.aws.amazon.com/cli/latest/reference/s3/website.html
+   aws s3 website s3://whatdoineedtodotofindauniquename --index-document index.html

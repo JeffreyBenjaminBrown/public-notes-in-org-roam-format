@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       dba09b25-333d-49b4-b7b2-19eeeb9e7d48
+:END:
+#+title: VSCodium
+* A libre version of VSCode.
+* using it
+** Command Palette: C-S-p
