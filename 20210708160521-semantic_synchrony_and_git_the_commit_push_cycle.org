@@ -10,23 +10,30 @@
   cd /home/jeff/Encfs/kb-no-encfs/vcs
   bash ~/smsn+/git-smsn/lost-nodes.sh
 * Use magit to commit
-  after loading each of these files, run magit
-** ~/Encfs/kb-no-encfs/vcs/public/001IGm9ypXayWoiA.smsn
-** ~/Encfs/kb-no-encfs/vcs/universal/ZC9qvo57MpCv7Si2.smsn
-** ~/Encfs/kb-no-encfs/vcs/personal/HSn5Vb7ERrybcWZU.smsn
-** ~/Encfs/kb-no-encfs/vcs/private/5BsOZge3XkSvLNsL.smsn
-** ~/Encfs/kb-no-encfs/vcs/observatorio/VFkwsk7AQFUAwRMN.smsn
+** Don't delete yet.
+** After loading each of these files, run magit
+*** ~/Encfs/kb-no-encfs/vcs/public/001IGm9ypXayWoiA.smsn
+*** ~/Encfs/kb-no-encfs/vcs/universal/ZC9qvo57MpCv7Si2.smsn
+*** ~/Encfs/kb-no-encfs/vcs/personal/HSn5Vb7ERrybcWZU.smsn
+*** ~/Encfs/kb-no-encfs/vcs/private/5BsOZge3XkSvLNsL.smsn
+*** ~/Encfs/kb-no-encfs/vcs/observatorio/VFkwsk7AQFUAwRMN.smsn
 * *Then* delete things.
-  Do this in a second commit so that in the first commit,
-  if anything was deleted that shouldn't have been,
-  it will be obvious, not camouflaged by these deletes.
+** why this is a separate step
+   Do this in a second commit so that in the first commit,
+   if anything was deleted that shouldn't have been,
+   it will be obvious, not camouflaged by these deletes.
 ** the recipe
-   cd /home/jeff/Encfs/kb-no-encfs/vcs
-   grep "^@title \[delete" -r . > to-delete.txt
-   Then look at each line of that file from within SmSn.
+*** Examine things marked for deletion.
+    cd /home/jeff/Encfs/kb-no-encfs/vcs
+    grep "^@title \[delete" -r . > to-delete.txt
+    Then look at each line of that file from within SmSn.
+*** Edit anything that should not be deleted.
+    Take "to delete" away from its title.
+*** Run `git rm <file>` for every file to be deleted.
+*** Commit.
 * pull, then push
 * stop SmSn
-* delete the old repo
+* delete the old neo4j/ folder
 * restart SmSn
 * read from VCS
   C-c  C-r  c
