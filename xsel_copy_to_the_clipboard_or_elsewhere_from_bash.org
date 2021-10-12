@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       bd26daee-2344-42ac-8101-dcba3111ed69
+:END:
+#+title: xsel (copy to the clipboard (or elsewhere) from Bash)
+* to pipe input to the clipboard
+  command | xsel --clipboard
