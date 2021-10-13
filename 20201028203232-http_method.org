@@ -20,3 +20,15 @@
   access.
   """
 * If a submission modifies the data on the server side it should be post.
+* "form-encoded" requests
+  :PROPERTIES:
+  :ID:       96705fe3-b12f-4068-8ff4-5349e2b2e115
+  :END:
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST
+** I think that encoding is specified in the header, thus:
+   Content-Type: application/x-www-form-urlencoded
+** how keys and values are encoded
+   "in key-value tuples separated by '&', with a '=' between the key and the value"
+** Non-alphanumeric characters in both keys and values are "percent encoded"
+   https://developer.mozilla.org/en-US/docs/Glossary/percent-encoding
+   "this is the reason why this type is not suitable to use with binary data (use multipart/form-data instead)"
