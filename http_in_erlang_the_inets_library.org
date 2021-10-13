@@ -3,17 +3,18 @@
 :END:
 #+title: HTTP in Erlang: the Inets library
 * refs
-* the Inets Client user guide
-  :PROPERTIES:
-  :ID:       92549e84-2b72-4c2f-a82e-1b4f3236a351
-  :END:
-  https://erlang.org/doc/apps/inets/http_client.html
+** the Inets Client user guide
+   :PROPERTIES:
+   :ID:       92549e84-2b72-4c2f-a82e-1b4f3236a351
+   :END:
+   https://erlang.org/doc/apps/inets/http_client.html
 * Before using it, one must write config options.
   Here's how I got it to work.
 ** the filetree context I was in
    When I made a project called http_jbb by running
      rebar3 new umbrella hhtp_jbb
-   it put an empty config file at `config/sys.config`.
+   it put an empty config file at
+     config/sys.config
    That's what I modified.
 ** the clause I added to sys.config
    {inets, [ { services, [ { httpc,
