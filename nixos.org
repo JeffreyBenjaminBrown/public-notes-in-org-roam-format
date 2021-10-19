@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       ddb8edf6-94c8-49cf-8b8e-872ef301a485
 :END:
-#+TITLE: NixOS
+#+TITLE: NixOS (operating system)
 * TODO fix my dependencies in jbb-config/custom-packages
   Because things change in Nixos 21.05:
   https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-21.05
@@ -26,6 +26,7 @@
 *** The solution was to add an ellipsis:
       {config, lib, pkgs, options, modulesPath, ...}:
     "so that unknown arguments are ignored".
+* [[id:52b7a722-8591-4f9b-a290-cccd1639e565][NixOS packages: create, build, install, publish]]
 * [[id:48cdd2bf-b45b-44a7-b7f8-43cbf73fa7b8][NixOS, my config]]
 * [[id:53cafeca-3de3-4f04-be36-3fdcb04a4d55][NixOS, installing]]
 * [[id:ac6d4247-4880-4740-9aa3-0407f4d8b397][NixOS, how to upgrade]]
@@ -122,8 +123,6 @@ on NixOS it's 1001. This creates permissions problems.
 https://stackoverflow.com/questions/59805975/nix-building-waf-produces-a-file-but-i-seem-to-need-a-folder/59809635#59809635
 ** with only a comment
 https://stackoverflow.com/questions/59806776/nix-write-a-package-that-uses-waf-instead-of-make?noredirect=1#comment105758423_59806776
-* using nix-fetch-git with subumodules
-nix-prefetch-git --fetch-submodules https://github.com/monome/serialosc
 * strings and escape characters
 https://discourse.nixos.org/t/nix-build-fails-because-python-wants-something-thats-unavailable-without-saying-what-it-wants/5675/4
 "you don’t need to escape a single-quote inside a double-quoted string. But this leads to having two single-quotes, which terminates the nix string. You can escape those with another single-quote"
@@ -181,39 +180,6 @@ ALSA: use 2 periods for playback
 01:08:24.337 Patchbay deactivated.
 01:08:24.367 JACK connection graph change.
 *** with auto-mute disabled, I futz with the earphone jack, and then I can hear
-** how to add a package
-*** refs
-https://nixos.org/nixos/manual/index.html#sec-custom-packages
-https://nixos.org/nixpkgs/manual/#chap-quick-start
-*** TODO what are these for?
-    nixos-rebuild switch -I nixpkgs=/home/jeff/nix/nixpkgs
-    /home/jeff/nix/nixpkgs/pkgs/development/libraries/hello-test
-*** 1 - write the package
-**** after manually downloading the source for it
-     In a clone of nixpkgs:
-       Put the package somewhere in pkgs/.
-         Model it after nix pill 8 section 2, at
-         /home/jeff/nix/pills/08/2-generic/
-         NOTE: Requires manually downloading the source code.
-**** with automatic downloading of the source
- rather than define src = the name of some file that I put there myself,
- define
-   src = fetchurl {
-     url = ...;
-     sha256 = ...;
-   };
- To compute sha256, download from the desired URL (but only once)
- and run sha256sum on it.
-*** 2 - add an appropriate line to pkgs/top-level/all-packages.nix
-    e.g. hello-test = callPackage ../development/libraries/hello-test { };
-*** 3 - commands to build it
-    :PROPERTIES:
-    :ID:       c15685f2-54d8-40dd-a49c-d87ec0bd5034
-    :END:
-    At the root of nixpkgs, test whether it builds with
-      nix-build -A <package-name>
-    To add it to my user profile, run
-      nix-env -f . -iA <package-name>
 ** TODO get RT kernel working
 *** TODO use magnetphon's machine/thinknix files too
 *** discussion here
@@ -337,9 +303,6 @@ https://www.reddit.com/r/NixOS/comments/enkbus/getting_started_with_audio_progra
   Me asking Reddit why I can't use JACK.
 *** these procedures (not declarative) seem to have helped someone
 https://github.com/NixOS/nixpkgs/issues/74742#issuecomment-570745604
-* TODO learn to write Nix expressions
-** stdenv.mkDerivation:
-  https://nixos.org/nixos/nix-pills/fundamentals-of-stdenv.html
 * TODO Nix pills
 ** Ch 4: the language
 *** identifiers can include "-"
@@ -484,20 +447,6 @@ https://nixos.org/nixos/nix-pills/working-derivation.html#idm140737316198192
 "every attribute in the set passed to derivation will be converted to a string and passed to the builder as an environment variable. This is how the builder gains access to coreutils and gcc: when converted to strings, the derivations evaluate to their output paths, and appending /bin to these leads us to their binaries.
 ** Ch 8: Generic Builders
 https://nixos.org/nixos/nix-pills/generic-builders.html
-* TODO ask: how does sc3-plugins know where the supercollider source is?
-The Nix expression I found for sc3-plugins does not seem to refer to the source that would have been installed first for supercollider. How? Is the fact that supercollider is among sc3-plugins's buildInputs somehow sufficient?
-
-nixos.org publishes a [Nix expression for installing sc3](https://github.com/NixOS/nixpkgs/blob/bd6ba87381ef6274a830253b60e481209d4d7c7d/pkgs/development/interpreters/supercollider/default.nix#L35) (SuperCollider version 3.9.3).
-
-Elsewhere, someone published a GitHub gist titled [Nix package definition for sc3-plugins](https://gist.github.com/gosub/a42e265ec38d9df203d6).
-
-SC3-plugins installation instructions
-https://github.com/supercollider/sc3-plugins
-The latest stable release of that is 3.9.1:
-https://github.com/supercollider/sc3-plugins/releases
-
-How to build SC from source:
-https://github.com/supercollider/supercollider/blob/develop/README_LINUX.md
 * reading the NixOS manual
 ** getting started (installing, mostly)
 *** move everything critical to an available USB
@@ -597,50 +546,6 @@ https://github.com/supercollider/supercollider/blob/develop/README_LINUX.md
 ***** customized packages do not break things that depend on the uncustommized one
  Nix will instead keep two versions of the package.
  But that too can be changed, with a "global override".
-* adding custom Nix expressions
-https://nixos.org/nix/manual/#chap-writing-nix-expressions
-** inherit x y ...
-has the same effect as writinng "x = x; y = y; ...".
-It's used for handing an argument unchanged from the Nix expression to the builder.
-** a Nix expression calls a build script
-*** PITFALL: if the builder attribute is omitted
-then it uses mkDerivation, which
-"does a configure; make; make install, in essence".
-** build script syntax
-It starts by "clearing the environment" | "using a standard environment". That corresponds to this line:
-  source $stdenv/setup
-
-It might need to augment PATH with arguments, ala
-  PATH=$perl/bin:$PATH
-
-It uses the automatically generated $out argument to determine where to build, ala
-  ./configure --prefix=$out
-
-Beyond that it's just normal bash.
-** "compose" the the package
-*** why this step is called composition
-It consists of adding a line (or a few) to all-packages.nix.
-The Nix expression has no idea what its arguments are.
-This step is where they get connected.
-*** see Nix manual sec. 14.3: Arguments and Variables
-*** use either rec or callPackage
-**** callPackage is simpler
-If the arguments to use are equal to their names,use it.
-See all-packages.nix (in the nixpkgs repo) for examples.
-**** rec is more flexible
-And interestingly, seldom used in all-packages.nix
-See Nix manual section 14.3 for an example.
-*** PITFALL: import statements do not extend all the way to default.nix
-but rather to its superdirectory
-** build and test
-From the top of the newly-modified nixpkgs repo,
-call
-  nix-build -A pkg
-where `pkg` is the new thing.
-
-This will create a symlink called "result".
-Next test the new command by running, say,
-  ./result/bin/hello
 * configuring Emacs
 ** guidance
 https://www.reddit.com/r/NixOS/comments/ad6miw/building_an_emacs_configuration_using_nixpkg/

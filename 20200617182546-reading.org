@@ -2,8 +2,16 @@
 :ID:       94567688-b4eb-4396-a7eb-3af515d58eb2
 :END:
 #+title: to read
-* Daniel Dennet, Freedom Evolves: (Kinds of freedom worth having?)
-  not sure about the subtitle
+* ch 13 of Mindfulness in Plain English
+  Asaf rec's.
+  It's free online.
+  https://www.goodreads.com/en/book/show/64369.Mindfulness_in_Plain_English
+* The Civlizing Process
+  Paul Romer rec's
+* A Confederacy of Dunces
+  Gary Solon was reading
+* Dependently Typed Knowledge Graphs
+  https://arxiv.org/abs/2003.03785
 * Ilya enjoyed (history, historical fiction, science fiction)
   His favorite: Three Body Problem (Chinese sci-fi).
   Vietnamese novel "Sympathizer"
@@ -51,3 +59,9 @@ https://notes.andymatuschak.org/zhmLXArqiCMDr9Q13ViqN3hh3SmrKzjQxWAr
   :ID:       45699da3-3bea-4daf-ae7e-cc3aa2eca272
   :END:
   https://www.facebook.com/mejeff.younotjeff/posts/10160816277279546?comment_id=10160838250559546&notif_id=1610157174946028&notif_t=feed_comment&ref=notif
+* didn't like it
+** Daniel Dennet, Freedom Evolves: (Kinds of freedom worth having?)
+   The central question appears to be what is free will,
+   and while I think I'd have trouble putting it into words,
+   I'm convinced it's real, and that we have it,
+   and that that's what's important for me to know about it.

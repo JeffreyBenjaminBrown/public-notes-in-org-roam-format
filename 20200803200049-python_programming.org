@@ -6,3 +6,4 @@
 * [[id:c5146fa1-d833-4018-9b5b-4506044a3a09][Python dictionaries are hash tables.]]
 * [[id:a44ce4eb-ff38-4ee3-8e72-50f9902ff754][Python and virtualenv in Nix]]
 * [[id:cec794c0-a02f-467d-bda9-d1065ccfaa0d][reading command-line arguments to Python programs]]
+* [[id:4f41726e-6865-4329-91c2-9f8716a5ba06][filelock (Python library)]]

@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       4f41726e-6865-4329-91c2-9f8716a5ba06
+:END:
+#+title: filelock (Python library)
+* how it works
+** PITFALL: Path to the lock is distinct from path to the file it locks.
+   That is, the lock is a file, separate from the file it locks.
+   The user can choose any name for it,
+   but it's probably a good idea to call it "<pack to file it locks>.lock".
+** PITFALL: Once the lock is used, an empty file at the path to the lock exists forever unless manually deleted.
+   Its existence does not mean the file is locked.
+** Once a process "acquires" the lock (see example code), any other process trying to acquire it will block until the first releases.
+   Dying appears to count as release.
+* some example code:
+  import filelock
+
+  f_path = "myfile"
+  f_lock = filelock . FileLock ( f_path + ".lock" )
+
+  with f_lock:
+    with open( f_path, "a" ) as f:
+      f . write( "writing from window 1\n" )
+
+  # Note that `with lock` could be written more verbosely using `lock.acquire`, `lock.release`, `try` and `finally`.

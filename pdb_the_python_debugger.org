@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       9c2231f1-1b74-44ba-8025-f0683412ff5e
+:END:
+#+title: Pdb, the Python debugger
+https://docs.python.org/3/library/pdb.html
+* set a breakpoint with pdb.set_trace()
+* commands within pdb
+** navigation
+*** s(tep)
+    Execute the current line, stop at the first possible occasion (either in a function that is called or on the next line in the current function).
+*** n(ext)
+    Continue execution until the next line in the current function is reached or it returns.
+*** r(eturn)
+    Continue execution until the current function returns.
+*** c(ont(inue))
+    Continue execution, only stop when a breakpoint is encountered.
+** inspection
+*** l(ist) [first[, last]]
+    List source code for the current file. Without arguments, list 11 lines around the current line or continue the previous listing. With . as argument, list 11 lines around the current line.
+*** a(rgs)
+    Print the argument list of the current function.
+*** p expression
+    Evaluate the expression in the current context and print its value.
+*** pp -- similar, but pretty-print
+*** whatis expression
+    Print the type of the expression.
+** interact
+   Start an interactive interpreter (using the code module) whose global namespace contains all the (global and local) names found in the current scope.
+** (q)uit
