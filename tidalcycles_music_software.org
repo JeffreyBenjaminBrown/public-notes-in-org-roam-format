@@ -6,3 +6,10 @@
 ** https://tidalcycles.org/
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
+* [[id:62d4071a-c7d5-4671-baa5-94b620fe2a77][installing and updating]]
+* TODO how to exit gracefully?
+  Qjackctl thinks something is still connected.
+* TidalCycles and Emacs
+** start Tidal: C-c C-s
+** evaluate a line: C-RET
+** evaluate multiple lines: C-c C-e
