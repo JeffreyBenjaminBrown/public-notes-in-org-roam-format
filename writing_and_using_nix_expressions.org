@@ -1,0 +1,198 @@
+:PROPERTIES:
+:ID:       0398d7c0-5ec1-4fe7-9303-74c0c6308643
+:END:
+#+title: writing and using Nix expressions
+* notes by reference of origin
+** from the Nix manual
+   https://nixos.org/nix/manual/#chap-writing-nix-expressions
+*** inherit x y ...
+  has the same effect as writinng "x = x; y = y; ...".
+  It's used for handing an argument unchanged from the Nix expression to the builder.
+*** a Nix expression calls a build script
+**** PITFALL: if the builder attribute is omitted
+  then it uses mkDerivation, which
+  "does a configure; make; make install, in essence".
+*** build script syntax
+  It starts by "clearing the environment" | "using a standard environment". That corresponds to this line:
+    source $stdenv/setup
+
+  It might need to augment PATH with arguments, ala
+    PATH=$perl/bin:$PATH
+
+  It uses the automatically generated $out argument to determine where to build, ala
+    ./configure --prefix=$out
+
+  Beyond that it's just normal bash.
+*** "compose" the the package
+**** why this step is called composition
+  It consists of adding a line (or a few) to all-packages.nix.
+  The Nix expression has no idea what its arguments are.
+  This step is where they get connected.
+**** see Nix manual sec. 14.3: Arguments and Variables
+**** use either rec or callPackage
+***** callPackage is simpler
+  If the arguments to use are equal to their names,use it.
+  See all-packages.nix (in the nixpkgs repo) for examples.
+***** rec is more flexible
+  And interestingly, seldom used in all-packages.nix
+  See Nix manual section 14.3 for an example.
+**** PITFALL: import statements do not extend all the way to default.nix
+  but rather to its superdirectory
+*** build and test
+  From the top of the newly-modified nixpkgs repo,
+  call
+    nix-build -A pkg
+  where `pkg` is the new thing.
+
+  This will create a symlink called "result".
+  Next test the new command by running, say,
+    ./result/bin/hello
+*** stdenv.mkDerivation:
+    https://nixos.org/nixos/nix-pills/fundamentals-of-stdenv.html
+*** strings and escape characters
+  https://discourse.nixos.org/t/nix-build-fails-because-python-wants-something-thats-unavailable-without-saying-what-it-wants/5675/4
+  "you don’t need to escape a single-quote inside a double-quoted string. But this leads to having two single-quotes, which terminates the nix string. You can escape those with another single-quote"
+** from some Nix pills
+*** Ch 4: the language
+**** identifiers can include "-"
+ So "a-b" reads as a symbol,
+ whereas "a - b" reads as a minus b.
+**** inherit
+   inherit x y z;
+   inherit (src-set) a b c;
+ is equivalent to
+   x = x; y = y; z = z;
+   a = src-set.a; b = src-set.b; c = src-set.c;
+**** strings can be delimited by 4 ' symbols
+ "a" is the same as ''a''.
+ Useful if a string includes the " symbol.
+**** lists are space-separated and can mix types
+**** "set" = "attribute set" = a map in Haskell
+***** use . to access attributes
+***** `rec` is a special kind whose elements can refer to each other
+**** "with" brings a set's values into scope
+ nix-repl> longName = { a = 3; b = 4; }
+ nix-repl> longName.a + (with longName; a + b)
+ 10
+***** PITFALL: does not shadow
+ nix-repl> a = {a = 3; b = 4; }
+
+ nix-repl> with longName; a + b
+ error: cannot coerce a set to a string, at (string):1:16
+
+ That's because it thinks the a in a + b is the set, not the value.
+*** Ch 5: functions and imports
+**** functions
+***** pattern matching over a set in a function argument
+ These are equivalent:
+   nix-repl> mul = s: s.a*s.b
+   nix-repl> mul = { a, b }: a*b
+
+ Both yield this:
+   nix-repl> mul { a = 3; b = 4; }
+   12
+***** allow unmentioned fields with an ellipsis
+   nix-repl> mul = { a, b, ... }: a*b
+ Without the ellipsis, you couldn't call this:
+   nix-repl> mul { a = 3; b = 4; c = 2; }
+***** define default fields with "?"
+  nix-repl> mul = { a, b ? 2 }: a*b
+  nix-repl> mul { a = 3; }
+  6
+**** "import" is just substitution
+ If the following files have the following content:
+   a.nix   : 3
+   b.nix   : 4
+   mul.nix : a: b: a*b
+ then you can do this:
+   nix-repl> a = import ./a.nix
+   nix-repl> b = import ./b.nix
+   nix-repl> mul = import ./mul.nix
+   nix-repl> mul a b
+   12
+*** Ch 6: "our first derivation":
+ https://nixos.org/nixos/nix-pills/our-first-derivation.html
+**** `nix repl`
+ use it for testing
+***** importing packages
+  It starts empty, but knowing things like builtins.currentTime
+  :l <nixpkgs> loads all those packages.
+**** to build outside the nix repl
+***** to instantiate and realize in one step
+ https://nixos.org/nixos/nix-pills/working-derivation.html#idm140737316174000
+ bash$ nix-build simple.nix
+***** to instantiate only, or realize only
+ nix-instantiate
+ nix-store -r
+***** to build from an already-evaluated derivation
+ run this from bash:
+   nix-store -r /nix/store/z3hhlxbckx4g3n9sw91nnvlkjvyw754p-myname.drv
+ That assumes the .drv file exists
+ (and so far I only know how to create it from the nix repl).
+**** PITFALL: instatiate = evaluate /= realize = build
+**** the instantiate|evaluate step
+***** to do it from the repl
+ If we enter this:
+   d = derivation { name = "biggles"; system = "mysystem"; builder = "mybuilder"; }
+ it now knows what d is.
+***** PITFALL: evaluating a derivation at the repl shows its .drv path,
+ not its outPath:
+     nix-repl> coreutils
+     «derivation /nix/store/1zcs1y4n27lqs0gw4v038i303pb89rw6-coreutils-8.21.drv»
+     nix-repl> builtins.toString coreutils
+     "/nix/store/8w4cbiy7wqvaqsnsnb3zvabq1cp2zhyz-coreutils-8.21"
+***** it creates a .drv file in /nix/store
+****** In the Nix repl:
+    nix-repl> d = derivation { name = "x"; builder = "y"; system = builtins.currentSystem; }
+
+    nix-repl> d
+    «derivation /nix/store/7r40h4gj6rsaw6xnsq7vj128dpiawa94-x.drv»
+****** outside of the nix repl:
+    [jeff@jbb-dell:~/nix/temp]$ nix show-derivation /nix/store/7r40h4gj6rs
+    aw6xnsq7vj128dpiawa94-x.drv
+    {
+      "/nix/store/7r40h4gj6rsaw6xnsq7vj128dpiawa94-x.drv": {
+        "outputs": {
+          "out": {
+            "path": "/nix/store/f4z943mkd9zkhcjk2mwy3p9g14qf6wvb-x"
+          }
+        },
+        "inputSrcs": [],
+        "inputDrvs": {},
+        "platform": "x86_64-linux",
+        "builder": "y",
+        "args": [],
+        "env": {
+          "builder": "y",
+          "name": "x",
+          "out": "/nix/store/f4z943mkd9zkhcjk2mwy3p9g14qf6wvb-x",
+          "system": "x86_64-linux"
+        }
+      }
+    }
+**** the realize|build step
+ :b d     # where d is some derivation
+**** PITFALL: sometimes, sets are converted to strings
+ Namely, if they contain an "outPath" field.
+*** Ch 7: (our first) "working derivation"
+ https://nixos.org/nixos/nix-pills/working-derivation.html
+**** PITFALL: Relative paths in strings are treated differently
+ From a string, Nix will parse the path relative to the temp directory it makes for building.
+ Outside of a string, Nix parses it relative to the current directory.
+**** a minimal build
+ Make a file called "builder.sh" containing
+   declare -xp
+     # lists exported variables.
+     # declare is a bash function, not a Nix one.
+   echo foo > $out
+ Then enter nix repl, and evaluate
+   :l <nixpkgs> # for access to bash
+   d = derivation { name = "foo"; builder = "${bash}/bin/bash"; args = [ ./builder.sh ]; system = builtins.currentSystem; }
+   :b d
+**** passing programs to a derivation
+***** sample code
+ https://nixos.org/nixos/nix-pills/working-derivation.html#idm140737316198192
+***** "the trick"
+ "every attribute in the set passed to derivation will be converted to a string and passed to the builder as an environment variable. This is how the builder gains access to coreutils and gcc: when converted to strings, the derivations evaluate to their output paths, and appending /bin to these leads us to their binaries.
+*** Ch 8: Generic Builders
+ https://nixos.org/nixos/nix-pills/generic-builders.html

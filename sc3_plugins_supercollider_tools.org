@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       6e357bfc-6b14-4696-b6e6-6d470398f616
+:END:
+#+title: sc3-plugins (SuperCollider tools)
+* I packaged it for NixOS and submitted it to nixpkgs.
+  https://github.com/NixOS/nixpkgs/pull/142626
+* PITFALL: It takes a little configuration.
+** Explanation
+   Installing SC and SC3-plugins is not enough
+   to use the latter in the former.
+   That's because SC still doesn't *know* about SC3-plugins.
+   The ordinary remedy involves changing the installation,
+   but since Nix won't allow that, one must do something else.
+** One must
+*** create symlinks in the local SC user extensions folder
+    [jeff@jbb-dell:~/.local/share/SuperCollider/Extensions]$ pwd
+    /home/jeff/.local/share/SuperCollider/Extensions
+
+    [jeff@jbb-dell:~/.local/share/SuperCollider/Extensions]$ ls -l
+    plugins			-> /nix/store/22jyx8mm6ynlxcxwaaabyxvvwq5dss4c-supercollider-3.11.2/lib/SuperCollider/plugins
+    SC3plugins		-> /nix/store/591z795zn2na6q0976b3ix0lk5nywgkv-sc3-plugins-3.11.1/share/SuperCollider/Extensions/SC3plugins
+    SC3-plugin-so-files	-> /nix/store/591z795zn2na6q0976b3ix0lk5nywgkv-sc3-plugins-3.11.1/lib/SuperCollider/plugins
+*** start the SC server in an extensions-aware manner
+**** If starting SC from the command line
+     then specify where to fetch extensions with the -U option.
+     Here's what I'm doing lately:
+
+     export SC_JACK_DEFAULT_INPUTS="system"
+     export SC_JACK_DEFAULT_OUTPUTS="system"
+     scsynth -u 57110 \
+             -m 1000000 \
+             -U /home/jeff/.local/share/SuperCollider/Extensions/
+     # The -m option allocates (roughly?) 1GB of memory for it.
+**** If starting from SCIDE, specify `ugenPluginsPath`
+     // Execute these in serial.
+     s.options.ugenPluginsPath = "/home/jeff/.local/share/SuperCollider/Extensions/"
+     s.boot;

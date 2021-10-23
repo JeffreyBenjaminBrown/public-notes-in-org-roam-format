@@ -2,6 +2,7 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
+* [[id:bfa54465-b028-4ba9-81f2-92984bdba8f8][dense syllables: a spoken notation for music]]
 * /home/jeff/code/music/jam-quiz
 ** includes 24-edo language quiz
 * Tidal looks doable on NixOS now.

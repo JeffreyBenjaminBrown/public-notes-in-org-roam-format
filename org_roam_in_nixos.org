@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       e2a9e2ea-6505-43ff-a3ce-2124518013b2
+:END:
+#+title: org-roam in NixOS
+* TODO use Nix to install org-roam
+  :PROPERTIES:
+  :ID:       0663ea6c-5764-408c-a627-899d5e3108df
+  :END:
+** TODO PITFALL: must first procedurally uninstall org-roam
+and whatever dependencies were installed as a result (e.g. emacssql-sqlite3).
+** TODO Matthew Piziak uses overrides, which looks easier than overlays
+https://org-roam.discourse.group/t/theres-a-docker-image-available/331/4?u=jeffbrown
+** tried, failed: using a Nix overlay for Emacs
+I do not understand overlays
+* emacs-overlays on NixOS
+  :PROPERTIES:
+  :ID:       a7081bc6-bfdb-49f1-9ae5-17da276cf9ca
+  :END:
+  https://github.com/nix-community/emacs-overlay#latest-master-each-rebuild
+** see also [[id:ad75b405-4c5c-4bd3-a472-e6e8f3ddbfba][NixOS overlays]]
+* threads I started or extended
+** overlays
+https://discourse.nixos.org/t/my-first-overlay-for-emacs/7570/1
+** GitHub/nixpkgs issue on org-roam
+ https://github.com/NixOS/nixpkgs/pull/80280
+** NixOS Discourse: procedural install
+ https://discourse.nixos.org/t/emacs-can-i-install-a-package-declaratively-after-trying-it-out-procedurally/7559/3
+** NixOS Discourse: Emacs can't find sqlite3
+https://discourse.nixos.org/t/emacs-cant-find-sqlite3/7566

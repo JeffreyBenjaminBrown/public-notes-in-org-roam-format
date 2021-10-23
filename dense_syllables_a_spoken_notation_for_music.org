@@ -1,0 +1,52 @@
+:PROPERTIES:
+:ID:       bfa54465-b028-4ba9-81f2-92984bdba8f8
+:END:
+#+title: dense syllables: a spoken notation for music
+* the sounds
+** the base-10 pitches are vowels
+   0  Oh  (zerO)
+   1  Uhh (One)
+   2  Oo  (tWO)
+   3  Ee  (thrEE)
+   4  Aww (hOg)
+   5  L
+   6  A   (At)
+   7  Eh  (relaxed Hungarian "mEh")
+   8  R
+   9  N
+** unused vowels
+   i (six)
+   ö (pUt, fOOt)
+** unused consonants
+   Hard prefixes: P, K, T, and maybe B, G, D
+   Soft suffixes: F, S, Sh
+   Weird: Spanish "rr", Arab "kh"
+* the grammar
+** TODO expressions yet to decide
+*** Begin a new scale.
+*** Add a pitch to the current scale, relative to its root.
+*** Move one pitch to another.
+*** Delete a pitch from the scale.
+*** Move the tonic but keep the same root and pitch set.
+    Or just don't announce this.
+** to describe a state
+   State the root pitch absolutely,
+   then the other pitches numerically relative to the root.
+   The root must always be mentioned first but the others can be in any order.
+** when modifying a state
+   Refer to pitches relative to the preestablished root, even if the pitch being modified *is* the root.
+   If I move the root without restating the whole scale, the other notes' names don't change.
+** what I used to have
+   To add a pitch, prefix it with "p" ("put").
+   To move a small number of pitches, use "t<old pitc> h<new pitch>".
+   Example: To move the root up a half step, say "toe hoesh". The initial "t" (think "move To") indicates a move rather than a whole new pitch set is being described. The "h" separates the two vowels, because they are often identical.
+   To remove a pitch, prefix it with "k" ("kill").
+* the recording process
+** record (guitar and voice naming it) the 0 absolute pitch
+   at the start of the recording,
+   so that later I know how to interpret the vocal guidance.
+* TODO choose sounds for 41-edo
+  The vowels for 0-9 and 3 consonants for 0-3 (no consonant = 0)
+  let me get all of [0,39].
+  I could either add a fourth consonant prefix to get 40,
+  or I could use one of the unusued vowels, probably ö.

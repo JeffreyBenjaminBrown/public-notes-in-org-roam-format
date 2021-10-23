@@ -19,6 +19,7 @@
   :ID:       a24e17db-7c46-45c7-a4b9-ca053559e65f
   :END:
   can nonetheless be important, thanks to backlinks
+* installing : [[id:e2a9e2ea-6505-43ff-a3ce-2124518013b2][org-roam in NixOS]]
 * org-roam usage
 ** to rename a file in org-roam
    [[id:b21e2b07-d97f-4135-ae22-8b8737075ce8][Use dired to rename it]].
@@ -50,13 +51,7 @@ after creating the backlink
    Enclose the whole tag in parens.
    Write '\' as \\.
 * TODO tweak
-** TODO use Nix to install org-roam
-*** TODO PITFALL: must first procedurally uninstall org-roam
-and whatever dependencies were installed as a result (e.g. emacssql-sqlite3).
-*** TODO Matthew Piziak uses overrides, which looks easier than overlays
-https://org-roam.discourse.group/t/theres-a-docker-image-available/331/4?u=jeffbrown
-*** tried, failed: using a Nix overlay for Emacs
-I do not understand overlays
+** TODO [[id:0663ea6c-5764-408c-a627-899d5e3108df][use Nix to install org-roam]]
 ** TODO update Docker image for org-roam v. 1.2
 ** TODO can I make more TODO-like tags for org-mode?
 ** TODO how to tab-complete from the middle?

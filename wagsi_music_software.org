@@ -2,51 +2,29 @@
 :ID:       4c5c2a9b-0465-4ed5-bde1-df35e96321af
 :END:
 #+title: wagsi (music software)
+= like TidalCycles, ported to PureScript
 * refs
-  :PROPERTIES:
-  :ID:       ec945c40-bf3f-4ef8-b874-e0236b894bb0
-  :END:
-  https://github.com/mikesol/wagsi
-* It's like TidalCycles, ported to PureScript
-* Using it
-** Open the project in VSCode
-** Run this from the command line
-   npm install && npm start
-* TODO installation
-  https://github.com/mikesol/wagsi/issues/8
-** to know
-*** my version of Spago is a little old
-*** my version of Purescript is old, and does not match what Wagsi expects
-    But using nix-shell from wagsi surely skirts that problem,
-    as it [[id:042b3a41-80de-4e27-a3d1-38e5e0216f54][changes the path to `purs`]].
-*** I've installed
-**** NixOS packages
-     purescript
-     spago
-     nodejs
-**** Emacs packages (also installed via NixOS)
-     psci
-     purescript-mode
-     psc-ide
-*** Where is purs
-    :PROPERTIES:
-    :ID:       042b3a41-80de-4e27-a3d1-38e5e0216f54
-    :END:
-**** in Bash outside the Nix shell (but of course still NixOS)
-     jeff@jbb-dell:build$ whereis purs
-     purs: /nix/store/665asszpkhysxn8kwf5s8i7s5m2lddsd-system-path/bin/purs
-**** in the Nix shell it appears in two places, that being one of them
-     [nix-shell:~/code/music/wagsi]$ whereis purs
-     purs: /nix/store/74w0lcb3h9h55zlb19cai2n3asgjhy1i-purescript-v0.14.4/bin/purs
-           /nix/store/665asszpkhysxn8kwf5s8i7s5m2lddsd-system-path/bin/purs
-*** Things I might want to configure
-    https://github.com/purescript-emacs/psc-ide-emacs
-    psc-ide-use-npm-bin
-    psc-ide-purs-executable
-      Mike S. suggests setting this within the Nix-shell to the special path to `purs` that `whereis` doesn't list outside of the Nix-shell.
-** things I tried
-*** `npm install` fails outside of a Nix shell
-    This prompted Mike to write a Nix shell script.
-*** run `nix-shell`, and use Emacs from within that
-**** use `M-x customize` to set `psc-ide-purs-executable`
+** the project
+   https://github.com/mikesol/wagsi
+** installation questions
+   https://github.com/mikesol/wagsi/issues/8
+* starting it
+** My nonstandard way
+*** Run this from the command line
+    nix-shell # Optional. Was mandatory
+              # before I upgraded to nixos-unstable.
+    npm install && npm start
+    emacs -nw # Do this from within the same nix-shell,
+              # if using nix-shell. Otherwise, the `-nw`
+	      # should be optional, I imagine.
+*** within Emacs
+**** Use `M-x customize` to set `psc-ide-purs-executable`
      to the special Nix-shell path to `purs` version 0.14.4.
+**** More things in Emacs I might want to configure
+     https://github.com/purescript-emacs/psc-ide-emacs
+     psc-ide-use-npm-bin
+     psc-ide-purs-executable
+       Mike S. suggests setting this within the Nix-shell to the special path to `purs` that `whereis` doesn't list outside of the Nix-shell.
+** PITFALL: That's nonstandard.
+   The standard way is to open the project in VSCode,
+   running `npm install ...` there.

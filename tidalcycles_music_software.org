@@ -35,7 +35,7 @@
     `3.11.2-BigSur` branch, which is the only tag with 3.11.2 in it.
 *** prereqs I had to install
 **** cmake (already packaged in Nix)
-**** FAILED - fftw (git clone, make)
+**** fftw (git clone, make)
      alternatives
 ***** git clone https://github.com/FFTW/fftw3
       didn't work -- has no `configure` file

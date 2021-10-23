@@ -1,0 +1,184 @@
+:PROPERTIES:
+:ID:       f2f429b7-c918-4421-a186-b0ab272ca0e2
+:END:
+#+title: audio in NixOS
+PITFALL: Mostly written while ignorant.
+* references
+** IRC and Discourse ?= the major NixOS communities
+https://nixos.org/nixos/learn.html
+** resources I've used
+https://github.com/magnetophon/nixosConfig/
+  some top-level .nix files from which I have emulated
+https://github.com/musnix/musnix
+  Not sure what it gets me.
+https://nixos.wiki/wiki/JACK
+  The first part is not obsolete, right?
+https://nixos.wiki/wiki/Audio
+  pretty weak -- ALSA section is out of date, doesn't link to JACK section
+** TODO promising places I've spoken
+https://github.com/musnix/musnix/issues/100
+  musnix issue on the PREEMPT option error
+https://discourse.nixos.org/t/declarative-audio-config-using-jack/5458
+  Discourse \ NixOS
+https://github.com/NixOS/nixpkgs/issues/71283
+  magnetophon, MDeltaX and others on Github
+https://github.com/magnetophon/nixosConfig/issues/4
+  re. the machines/ folder, in magnetophon's config repo
+https://github.com/magnetophon/nixosConfig/issues/2
+  where I ask about JACK connections in magnetophon's config
+https://github.com/musnix/musnix/issues/103
+  where I ask Musnix how to choose `rtirq.nameList`
+https://github.com/magnetophon/nixosConfig/issues/3
+  asking magnetophon why he uses kernel 4.19, not 5.0 (the default)
+** other places I've spoken
+https://github.com/JeffreyBenjaminBrown/nixos-experiments
+  My config
+https://www.reddit.com/r/NixOS/comments/enkbus/getting_started_with_audio_programming_in_nixos/
+  Me asking Reddit why I can't use JACK.
+** these procedures (not declarative) seem to have helped someone
+https://github.com/NixOS/nixpkgs/issues/74742#issuecomment-570745604
+* use MusNix
+  https://github.com/musnix/musnix
+  Alas, cannot install from this; must switch to it.
+* TODO ? did Audacity mess up NixOS?
+ I used to be able to generate sound with SuperCollider, delivered via JACK, on my NixOS machine.
+
+When I installed and used Audacity for something, it seemed to screw up some other stuff. For instance, auto-detect stopped working when I plug in an external speaker. Ever since, I have to fiddle with alsamixer manually -- even though I've since removed audacity.
+
+(It also stopped the JACK + Supercollider from producing sound, but somehow I worked around that.)
+* TODO sometimes Qjackctl does not take over
+I can start Qjackctl, and still I can play youtube videos.
+** when I first launch Qjackctl, I get these messages
+01:06:49.053 Statistics reset.
+01:06:49.064 ALSA connection change.
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+01:06:49.099 ALSA connection graph change.
+** when I press start in it, I get this
+01:08:22.192 JACK is starting...
+01:08:22.192 /run/current-system/sw/bin/jackd -dalsa -dhw:0 -r48000 -p1024 -n2
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+01:08:22.199 JACK was started with PID=2163.
+no message buffer overruns
+no message buffer overruns
+no message buffer overruns
+jackdmp 1.9.12
+Copyright 2001-2005 Paul Davis and others.
+Copyright 2004-2016 Grame.
+Copyright 2016-2017 Filipe Coelho.
+jackdmp comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see the file COPYING for details
+JACK server starting in realtime mode with priority 10
+self-connect-mode is "Don't restrict self connect requests"
+audio_reservation_init
+Acquire audio card Audio0
+creating alsa driver ... hw:0|hw:0|1024|2|48000|0|0|nomon|swmeter|-|32bit
+configuring for 48000Hz, period = 1024 frames (21.3 ms), buffer = 2 periods
+ALSA: final selected sample format for capture: 32bit integer little-endian
+ALSA: use 2 periods for capture
+ALSA: final selected sample format for playback: 32bit integer little-endian
+ALSA: use 2 periods for playback
+01:08:24.323 JACK connection change.
+01:08:24.323 Server configuration saved to "/home/jeff/.jackdrc".
+01:08:24.323 Statistics reset.
+01:08:24.337 Client activated.
+01:08:24.337 Patchbay deactivated.
+01:08:24.367 JACK connection graph change.
+** with auto-mute disabled, I futz with the earphone jack, and then I can hear
+* TODO get RT kernel working
+** TODO use magnetphon's machine/thinknix files too
+** discussion here
+https://github.com/musnix/musnix/issues/100
+** trying because @magnetophon suggests it now, here:
+https://github.com/NixOS/nixpkgs/issues/71283#issuecomment-575458797
+* WORKING ! how to start, use JACK
+** PITFALL: Test with high frequencies
+A sine wave from SuperCollider at 200 Hz
+is inaudible from my computer's speaker
+(over the sound of central heating).
+
+230 Hz is barely audible.
+** PITFALL: magic wand effects
+For some reason, when it wasn't working,
+it helped to plug in some headphones halfway.
+That makes me suspect messing with alsamixer could also help.
+** steps
+Stop audio in ordinary apps (e.g. Spotify, browser).
+  No need to kill the app.
+Start Qjackctl.
+  Use the following settings:
+    * ALSA
+    * hw:0 (or default)
+    * 48 kHz
+    * 256 frames / period
+    * 2 periods / buffer
+  Press start.
+  Once it's available, press play (the right-facing triangle).
+Start SuperCollider.
+  Boot the sound engine.
+  Evaluate this expression:
+    { SinOsc.ar(440, 0, 0.5) }.play;
+* Qjackctl can be used for routing
+Thus spake @magnetophon:
+  https://github.com/NixOS/nixpkgs/issues/71283#issuecomment-574976258
+* TODO file what Bart suggests
+not using musnix
+disabling the jackdbus service and configuring/starting it with qjackctl
+  Get your jackd settings (to be set in the qjackctl GUI) from elsewhere, for example the Arch Pro Audio wiki page
+    https://wiki.archlinux.org/index.php/Professional_audio
+  speaking of which - don't need the packageOverrides unless you want to run 2 qjackctl instances on the same x-server
+https://github.com/NixOS/nixpkgs/issues/71283#issuecomment-574083024
+I think the kernels are actually only broken for unstable.
+The nixos version is what determines the version of everything you configure in configuration.nix, and the nixpkgs version is for everything you install ad-hoc, via nix-env.
+So no need to change both.
+* TODO consider AcouBass's config
+https://gist.github.com/AcouBass/4f5bcb3410f14bd5063a718b1d53bc4c
+* the "Unsupported relocation type" error
+** It's already known
+https://github.com/musnix/musnix/issues/100
+** I get it when building
+my configuration, audio branch,
+commit 6a880d983f816db5b4f675c8236df734d09c249e,
+after commenting out the line kernel.packages = pkgs.linuxPackages_4_19_rt;, and build
+** the error I get
+after building for more than an hour:
+
+make[2]: 'vmlinux' is up to date.
+  CC      arch/x86/boot/a20.o
+  CC      arch/x86/boot/cmdline.o
+  AS      arch/x86/boot/copy.o
+  HOSTCC  arch/x86/boot/mkcpustr
+  CC      arch/x86/boot/cpuflags.o
+  CC      arch/x86/boot/cpucheck.o
+  CC      arch/x86/boot/early_serial_console.o
+  CC      arch/x86/boot/edd.o
+  LDS     arch/x86/boot/compressed/vmlinux.lds
+  AS      arch/x86/boot/compressed/head_64.o
+  VOFFSET arch/x86/boot/compressed/../voffset.h
+  CC      arch/x86/boot/compressed/string.o
+  CC      arch/x86/boot/compressed/cmdline.o
+  CC      arch/x86/boot/compressed/error.o
+  OBJCOPY arch/x86/boot/compressed/vmlinux.bin
+  RELOCS  arch/x86/boot/compressed/vmlinux.relocs
+Unsupported relocation type: R_X86_64_PLT32 (4)
+make[4]: *** [../arch/x86/boot/compressed/Makefile:118: arch/x86/boot/compressed/vml
+inux.relocs] Error 1
+make[3]: *** [../arch/x86/boot/Makefile:111: arch/x86/boot/compressed/vmlinux] Error
+ 2
+make[2]: *** [arch/x86/Makefile:245: bzImage] Error 2
+make[1]: *** [Makefile:150: sub-make] Error 2
+make: *** [Makefile:24: __sub-make] Error 2
+builder for '/nix/store/jnf08s29n2cm0nc2v3dwiglzgykp8n3i-linux-4.9.35-rt25.drv' fail
+ed with exit code 2
+cannot build derivation '/nix/store/nbmvjyrvf2qfa3adwgdbjqx2jaam1fyi-nixos-system-jb
+b-dell-19.09.1850.5dc4d071ffe.drv': 1 dependencies couldn't be built
+error: build of '/nix/store/nbmvjyrvf2qfa3adwgdbjqx2jaam1fyi-nixos-system-jbb-dell-1
+9.09.1850.5dc4d071ffe.drv' failed
