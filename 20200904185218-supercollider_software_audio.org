@@ -2,8 +2,17 @@
 :ID:       062d9fcc-128a-411a-b5c0-d792c47dedab
 :END:
 #+title: Supercollider (software, audio)
+* refs
+** where I got help packaging it for NixOS
+   https://discourse.nixos.org/t/trying-to-install-sc3-plugins-but-in-nixos-i-dont-understand-packaging-or-c/15433
+** where I got help installing it
+   https://scsynth.org/t/sc-only-half-recognizes-sc3-plugins/4716
 * [[id:6e357bfc-6b14-4696-b6e6-6d470398f616][sc3-plugins (SuperCollider tools)]]
-* scsynth is the command-line version; scide is the IDE version
+* sclang, scsynth, scide and the server
+** The server is what produces sound.
+** sclang is a CL REPL (*nice*)
+** scsynth runs the server from the command line
+** scide is the IDE
 * To get help for scsynth
   scsynth -h` lists the options available
 * How to give it more memory

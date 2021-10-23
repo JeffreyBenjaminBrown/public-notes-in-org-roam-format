@@ -2,75 +2,7 @@
 :ID:       c90e23ae-6d45-4040-a61a-e7003ac93c78
 :END:
 #+title: TidalCycles (music software)
-* [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
-  like TidalCycles, ported to PureScript
-* Installing it (failed)
-  serial
-** TODO | REF : asking
-   https://discourse.nixos.org/t/trying-to-install-sc3-plugins-but-in-nixos-i-dont-understand-packaging-or-c/15433
-** the (latest) problem
-   :PROPERTIES:
-   :ID:       a1af2a24-ebf7-4774-bc36-ef905e170078
-   :END:
-   I can't even use the fftw library myself,
-   let alone get make to use it for sc3-plugins.
-*** illustration
-    Try to compile this with `gcc`,
-    and it breaks at the import.
-
-    #include <fftw.h>
-
-    int main() {
-      printf("testing\n");
-      return 0;
-    }
-** story
-*** initial
-    sc3-plugins seemed hard.
-    The instructions are to copy something to your Extensions folder,
-    but for linux there appears only to be source, not a binary.
-    Rather than even trying that,
-    I followed the instructions to install from source.
-    Since my SC is 3.11.2, after cloning SC I checked out the
-    `3.11.2-BigSur` branch, which is the only tag with 3.11.2 in it.
-*** prereqs I had to install
-**** cmake (already packaged in Nix)
-**** fftw (git clone, make)
-     alternatives
-***** git clone https://github.com/FFTW/fftw3
-      didn't work -- has no `configure` file
-***** using wget
-      serial
-****** commands that worked
-      wget http://www.fftw.org/fftw-3.3.10.tar.gz
-      tar -xvzf fftw-3.3.10.tar.gz
-      rm fftw-3.3.10.tar.gz
-      cd fftw-3.3.10/
-      ./configure
-****** `make` then failed
-             ...
-
-       /bin/sh ../libtool  --tag=CC   --mode=link gcc  -O3 -fomit-frame-pointer -mtune=native -malign-double -fstrict-aliasing -
-       fno-schedule-insns   -o libkernel.la  align.lo alloc.lo assert.lo awake.lo buffered.lo cpy1d.lo cpy2d-pair.lo cpy2d.lo ct
-       .lo debug.lo extract-reim.lo hash.lo iabs.lo kalloc.lo md5-1.lo md5.lo minmax.lo ops.lo pickdim.lo plan.lo planner.lo pri
-       mes.lo print.lo problem.lo rader.lo scan.lo solver.lo solvtab.lo stride.lo tensor.lo tensor1.lo tensor2.lo tensor3.lo ten
-       sor4.lo tensor5.lo tensor7.lo tensor8.lo tensor9.lo tile2d.lo timer.lo transpose.lo trig.lo twiddle.lo  -lm
-       libtool: link: false cr .libs/libkernel.a  align.o alloc.o assert.o awake.o buffered.o cpy1d.o cpy2d-pair.o cpy2d.o ct.o
-       debug.o extract-reim.o hash.o iabs.o kalloc.o md5-1.o md5.o minmax.o ops.o pickdim.o plan.o planner.o primes.o print.o pr
-       oblem.o rader.o scan.o solver.o solvtab.o stride.o tensor.o tensor1.o tensor2.o tensor3.o tensor4.o tensor5.o tensor7.o t
-       ensor8.o tensor9.o tile2d.o timer.o transpose.o trig.o twiddle.o
-       make[2]: *** [Makefile:418: libkernel.la] Error 1
-       make[2]: Leaving directory '/home/jeff/temp-sc/fftw-3.3.10/kernel'
-       make[1]: *** [Makefile:710: all-recursive] Error 1
-       make[1]: Leaving directory '/home/jeff/temp-sc/fftw-3.3.10'
-       make: *** [Makefile:554: all] Error 2
-****** sudo make install
-       I couldn't get this far.
-*** make
-    cd sc3-plugins
-    mkdir build && cd build
-    # for both scsynth and supernova plugins; set -DSUPERNOVA=OFF to build only scsynth plugins
-    cmake -DSC_PATH=../../supercollider -DCMAKE_BUILD_TYPE=Release -DSUPERNOVA=ON ..
-    cmake --build . --config Release
-    # to install the plugins - note: linux users likely need sudo
-    cmake --build . --config Release --target install
+* refs
+** https://tidalcycles.org/
+** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
+   like TidalCycles, ported to PureScript
