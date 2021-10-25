@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       3924c945-e600-453f-be00-b2fb24d65f17
+:END:
+#+title: Go (programming language)
+* dependency tracking in Go
+** ref: a terribly procedural explanation
+   https://golang.org/doc/tutorial/call-module-code
+** naming and tracking folders
+*** Each code folder (I guess?) gets tracked separately.
+*** Standard practice is to prefix the library names with "<my id>/", where <my id> is a symbol nobody else will use.
+*** example code: How I've been doing it
+    In a folder called
+      hello/
+    I'll run
+      go mod init hello
+** seeing one folder from another
+   If code folder X is to refer to functions in code folder Y,
+   then code from X should say something like "import <name of y",
+   e.g. "import jbb/y".
+   For that to work, run something like this from code folder X:
+     go mod edit -replace jbb/y=../y
+   (assuming the path `../y` in fact leads to code folder Y).
+* to run *the* program in a folder, from that folder
+  go run .
+  PITFALL: Replacing the . with some other path won't work.
+* to search for Go packages
+  https://pkg.go.dev/search
+* to install everything in a program's import statements
+  go mod tiny

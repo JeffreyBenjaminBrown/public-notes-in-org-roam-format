@@ -8,12 +8,24 @@
    :ID:       92549e84-2b72-4c2f-a82e-1b4f3236a351
    :END:
    https://erlang.org/doc/apps/inets/http_client.html
+* example code
+** request a Get from Google
+   inets:start().
+
+   {ok, {{Version, 200, ReasonPhrase}, Headers, Body}} =
+         httpc:request("http://www.google.com").
+
+   {ok, {{Version, 200, ReasonPhrase}, Headers, Body}} =
+         httpc:request(
+           get,
+           { "http://www.google.com", [] },
+           [], [] ).
 * Before using it, one must write config options.
   Here's how I got it to work.
 ** the filetree context I was in
-   When I made a project called http_jbb by running
+   I made a project called http_jbb by running
      rebar3 new umbrella hhtp_jbb
-   it put an empty config file at
+   It put an empty config file at
      config/sys.config
    That's what I modified.
 ** the clause I added to sys.config
