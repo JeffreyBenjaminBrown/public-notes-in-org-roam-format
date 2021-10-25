@@ -4,7 +4,10 @@
 #+title: sc3-plugins (SuperCollider tools)
 * I packaged it for NixOS and submitted it to nixpkgs.
   https://github.com/NixOS/nixpkgs/pull/142626
-* PITFALL: It takes a little configuration.
+* PITFALL: On NixOS, using SC with plugins requires some configuration.
+  :PROPERTIES:
+  :ID:       b45a1d6d-3cef-472e-9c4f-44b8296bd17e
+  :END:
 ** Explanation
    Installing SC and SC3-plugins is not enough
    to use the latter in the former.

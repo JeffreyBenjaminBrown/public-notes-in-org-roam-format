@@ -8,6 +8,7 @@
 ** where I got help installing it
    https://scsynth.org/t/sc-only-half-recognizes-sc3-plugins/4716
 * [[id:6e357bfc-6b14-4696-b6e6-6d470398f616][sc3-plugins (SuperCollider tools)]]
+* [[id:b45a1d6d-3cef-472e-9c4f-44b8296bd17e][PITFALL: On NixOS, SC with plugins needs some configuration.]]
 * sclang, scsynth, scide and the server
 ** The server is what produces sound.
 ** sclang is a CL REPL (*nice*)

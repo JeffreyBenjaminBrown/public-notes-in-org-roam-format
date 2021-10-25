@@ -2,28 +2,142 @@
 :ID:       3924c945-e600-453f-be00-b2fb24d65f17
 :END:
 #+title: Go (programming language)
-* dependency tracking in Go
-** ref: a terribly procedural explanation
-   https://golang.org/doc/tutorial/call-module-code
-** naming and tracking folders
-*** Each code folder (I guess?) gets tracked separately.
-*** Standard practice is to prefix the library names with "<my id>/", where <my id> is a symbol nobody else will use.
-*** example code: How I've been doing it
-    In a folder called
-      hello/
-    I'll run
-      go mod init hello
-** seeing one folder from another
-   If code folder X is to refer to functions in code folder Y,
-   then code from X should say something like "import <name of y",
-   e.g. "import jbb/y".
-   For that to work, run something like this from code folder X:
-     go mod edit -replace jbb/y=../y
-   (assuming the path `../y` in fact leads to code folder Y).
-* to run *the* program in a folder, from that folder
-  go run .
-  PITFALL: Replacing the . with some other path won't work.
+* refs
+** the Go docs
+   https://golang.org/doc/
+** RESUME here
+   https://tour.golang.org/flowcontrol/1
 * to search for Go packages
   https://pkg.go.dev/search
-* to install everything in a program's import statements
-  go mod tiny
+* running Go code
+** dependency tracking in Go
+*** ref: a terribly procedural explanation
+    https://golang.org/doc/tutorial/call-module-code
+*** to install everything in a program's import statements
+    go mod tiny
+*** naming and tracking folders
+**** Each code folder (I guess?) gets tracked separately.
+**** Standard practice is to prefix the library names with "<my id>/", where <my id> is a symbol nobody else will use.
+**** example code: How I've been doing it
+     In a folder called
+       hello/
+     I'll run
+       go mod init hello
+*** seeing one folder from another
+    If code folder X is to refer to functions in code folder Y,
+    then code from X should say something like "import <name of y",
+    e.g. "import jbb/y".
+    For that to work, run something like this from code folder X:
+      go mod edit -replace jbb/y=../y
+    (assuming the path `../y` in fact leads to code folder Y).
+*** replace v. require
+    `replace` is used to redirect to local modules.
+    For "published" ones, a `require` statement is written instead to `go.mod`.
+    An example is
+      require example.com/greetings v1.1.0
+** running, building and installing
+*** "go run" compiles and runs, without creating a binnary
+    It's useful for the dev cycle, when making many changes.
+*** "go build" creates an executable.
+*** "go install" makes executables globally available.
+    Run
+      go list -f '{{.Target}}'
+    to find Go's "install path".
+    Run
+      go install
+    to put the executable there.
+    Add the Go install path to my PATH
+    to make everything there globally available.
+** `init` functions
+   In *any* module, not just the top of the hierarchy,
+   an `init` function can be defined,
+   "after global variables have been initialized".
+** tests
+   :PROPERTIES:
+   :ID:       ae748d4d-eb68-4f48-b73b-af28eae5c323
+   :END:
+   I have some example code at
+   ~/code/go/go1/greetings/greetings_test.go
+*** names matter
+**** next to y.go, put y_test.go
+     The _test suffix to the basename lets Go know it's a test.
+**** test functions should start with "Test"
+*** test functions take a pointer to testing.T as an argument
+*** run tests
+    from the folder containing them, with
+      go test
+* [[id:ae748d4d-eb68-4f48-b73b-af28eae5c323][testing in Go]]
+* the Go language
+** import statements
+*** import one thing
+    import "fmt"
+*** import many things
+    import (
+	"errors"
+	"fmt"
+    )
+** capitalization is weird
+   Public functions are capitalized.
+   Everything else (inc. private functions and types) is lowercase.
+** booleans
+   || is or.
+** declaring variables
+*** syntax example
+    var c, python, java bool
+    var i, j = 1, 2
+
+    func main() {
+   	 var k int
+	 q := "nerp"
+	 ...
+*** "var" can be used with or without assigning a value.
+**** If  a value is (explicitly) assigned
+     the type signature need not be.
+**** If no value is (explicitly) assigned
+     the variable is given "the zero value",
+     depending on its type:
+     "", 0, and false.
+*** "var" can be used in functions, or outside of them.
+*** ":=" is like "var", with type omitted.
+** declare constants with "const"
+** types
+*** PITFALL: `nil` exists
+    appears to be a member of every type
+*** PITFALL: pointers exist
+    The symbol for the type of a pointer to type T is *T.
+*** some (other) types
+**** slice = dynamically sized array
+***** define one like this
+      In the [] one can optionally specify an initial size
+      (an int, I imagine).
+
+      formats := []string{
+          "Hi, %v. Welcome!",
+          "Great to see you, %v!",
+          "Hail, %v! Well met!",
+      }
+***** access a slice with a [] prefix
+      like in Python
+**** maps
+***** initializing them is ugly
+      myMap := make(map[key]value)
+***** assignment is familiar, via [] and =
+      like Python
+      myMap[key] = value
+*** type signatures
+**** shorthand for consecutive like-typed arguments
+     "When two or more consecutive named function parameters share a type, you can omit the type from all but the last."
+**** naked returns
+     The type signature can optionally name the arguments to be returned, in which case the return statement does not have to.
+
+     func split(sum int) (x, y int) {
+       x = sum * 4 / 9
+       y = sum - x
+       return
+     }
+*** Casting looks like "string(3)".
+** looping with `range`
+   `range` returns two things: first the index (numeric),
+   then the value.
+   So to loop over the values in theList, do this:
+     for _, name := range theList { ... }

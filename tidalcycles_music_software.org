@@ -7,9 +7,49 @@
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
 * [[id:62d4071a-c7d5-4671-baa5-94b620fe2a77][installing and updating]]
-* TODO how to exit gracefully?
-  Qjackctl thinks something is still connected.
-* TidalCycles and Emacs
-** start Tidal: C-c C-s
-** evaluate a line: C-RET
-** evaluate multiple lines: C-c C-e
+* launching it
+** in SCIDE, launch this
+   ~/.local/share/SuperCollider/downloaded-quarks/SuperDirt/superdirt_startup.scd
+*** I added a line to specify `ugenPluginsPath`.
+    That's necessary on my system,
+    because sc3-plugins is unable to modify the SC installation
+    to let SC know it exists.
+    [[id:b45a1d6d-3cef-472e-9c4f-44b8296bd17e][Details here]].
+** then [[id:abc74ffc-26f2-4232-98c9-578ae2c97132][do TidalCycles via Emacs]]
+* Use TidalCycles in Emacs.
+  alternatives
+** Use a local Tidal clone from Emacs, without using tidal.el.
+  :PROPERTIES:
+  :ID:       abc74ffc-26f2-4232-98c9-578ae2c97132
+  :END:
+*** launch a shell in Emacs (`M-x shell`)
+    and within it:
+
+    cd <root of Tidal>
+    cabal repl
+    :s BootTidal.hs
+*** to send text from a text buffer to GHCI
+    Define these functions, or something like them:
+    ```
+    ;; source:
+    ;; https://emacs.stackexchange.com/a/37889
+    (defun mark-receiver-buffer ()
+       (interactive)
+       (setq my-target (buffer-name)))
+
+    (defun send-highlighted-region-to-receiver-buffer (beg end)
+      (interactive "r")
+      (process-send-region my-target beg end)
+      (process-send-string my-target "\n"))
+    ```
+
+    Run `mark-receiver-buffer` from the buffer running cabal repl.
+
+    Once that's done, I can highlight text in any buffer (doesn't have to end in .tidal) and send it to the shell buffer with `send-highlighted-region-to-receiver-buffer`.
+** DO NOT use a global Tidal clone and tidal.el from Emacs.
+*** start Tidal: C-c C-s
+    This will work, at least, from a file ending in .tidal.
+*** evaluate a line: C-RET
+*** evaluate multiple lines: C-c C-e
+* Exit gracefully: use :q before closing.
+  Otherwise Qjackctl thinks something is still connected.
