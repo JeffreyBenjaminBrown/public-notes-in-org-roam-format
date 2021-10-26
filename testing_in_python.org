@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       74d6d7d1-7749-4d60-925d-43958fcd3ee3
+:END:
+#+title: testing in Python
+* using pytest for programs that import other local programs
+  Put a line like this before any local import statements:
+
+  import sys
+  sys.path.insert(0, '.') # assuming pytest is run from the top of the project, this
+                          # allows local ("python.something.something") imports to work

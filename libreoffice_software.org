@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       4e6db9f5-bfc0-4a9f-918c-56a30f3762a4
+:END:
+#+title: LibreOffice (software)
+* Calc, the LibreOffice spreadsheet app
+** cell traversal shortcuts
+   C-S-F2: go to formula window
+   C-S-T: go to cell address window ("(T)raverse", probably)
+** the apostrophes-turn-numbers-into-strings problem
+*** recipe
+    1. Highlight all of the cells and use Format -> Cells to change the cell format to an appropriate number format.
+    2. With all of the cells still selected, go to the menu Edit -> Find & Replace
+    3. In the Search For box enter .* (period asterisk)
+    4. In the Replace with box enter &
+    5. Select More Options and check Current Selection Only and Regular Expressions
+    6. Click Replace All
+*** source
+    https://forum.openoffice.org/en/forum/viewtopic.php?f=9&t=49046

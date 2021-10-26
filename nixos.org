@@ -50,8 +50,8 @@
 * [[id:53cafeca-3de3-4f04-be36-3fdcb04a4d55][NixOS, installing]]
 * [[id:ac6d4247-4880-4740-9aa3-0407f4d8b397][NixOS, how to upgrade]]
 * collect garbage
-  `sudo nix-collect-garbage -d`                     # keep only latest config
   `sudo nix-collect-garbage --delete-older-than 7d` # keep the last week
+  `sudo nix-collect-garbage -d`                     # keep only latest config
   The sudo is important -- otherwise lots of stuff survives.
 * REFERENCES
 ** interactive help

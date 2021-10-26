@@ -1,0 +1,79 @@
+:PROPERTIES:
+:ID:       1a97cb6c-b6ff-4439-9790-ff372bc1ee38
+:END:
+#+title: scipy (libraries for Python)
+* sorting and null/missing values in pandas
+** null always comes last, regardless of order
+** code to see it
+   d = pd.DataFrame ( [
+       [np.nan,np.nan,np.nan],
+       [     1,np.nan,np.nan],
+       [     1,     1,np.nan],
+       [     1,     2,np.nan],
+       [     1,     2,1],
+       [     2,np.nan,np.nan],
+       [     2,     1,np.nan],
+       [     2,     2,np.nan],
+       [np.nan,np.nan,np.nan],
+       [     1,np.nan,np.nan],
+       [     1,     1,np.nan],
+       [     1,     2,np.nan],
+       [     1,     2,1],
+       [     2,np.nan,np.nan],
+       [     2,     1,np.nan],
+       [     2,     2,np.nan],
+       ],
+       columns = ["a","b","c"] )
+
+   ( d
+    . sort_values ( ["a","b","c"],
+                   ascending = False ) )
+* [[id:6a0c6707-29de-4cb4-ba1a-7af6b9077872][times versus numbers in NumPy]]
+* fast time series manipulations for Pandas (actually in NumPy)
+** PITFALL: Part of this code is unreadable in org-mode.
+** example code, with comments
+   import numpy as np
+   import pandas as pd
+   from numba import jit
+
+   @jit(nopython=True) # Makes it faster.
+   def change_jit( time, spread ): # These are one-dimensional numpy arrays.
+       res = np.empty( time.shape )
+       res[0] = np.nan
+       for i in range(1, res.shape[0]):
+           # An ordinary for loop. Would be slow in a pandas frame,
+           # but somehow numba magicks it into something fast.
+           res[i] = time[i] / spread[i-1]
+             # A nonsense calculation. The point is you can refer "now" (i)
+             # to "earlier" (i-1) points in the data.
+       return res
+
+   df['test'] = change_jit(
+       * # unpacks each row, delivering it as a separate argument
+       df[[ "time", "spread"]]
+       . values # to get a numpy array, which numba wants
+       . T # so that the rows unpacked by * above are the columns we want in `prices`.
+       )
+* pandas display
+** use scientific notation
+   pd.set_option('display.float_format', '{:.2g}'.format)
+** show as many columns as screen permits
+   pd.options.display.width = 5000
+** show lots of rows
+   pd.options.display.min_rows = 50
+* to apply a function that generates frames from rows to a frame
+  # This isn't exactly it, but pretty close.
+
+  if True: # compute each household member's income rank
+    def sort_household_by_labor_income_then_make_index(df):
+      dff = df.sort_values("income, labor", ascending = False)
+      dff["rank, labor income"] = range(1, len(dff) + 1)
+      return dff
+    #
+    ppl = ppl . groupby('household'
+        ) . apply( sort_household_by_labor_income_then_make_index
+        ) . drop( columns = "household"
+                  # one level of the index holds the same information
+        ) . reset_index(
+        ) . drop( columns = "level_1" )
+                  # the other part of the index is unneeded

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e76bfca8-f61d-45a2-908f-bad416a7c304
+:END:
+#+title: Git (version control software)
+* git add -p
+  to cherry-pick the changes in a file to commit

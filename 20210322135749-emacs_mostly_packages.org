@@ -26,115 +26,14 @@
 ** next/previous non-whitespace
 ** something to show brackets, parens, etc. in another color?
 ** I would like the highlight to remain after changing the indentation of a lot of adjacent bullets, so that I can do it again.
-* TODO read through these package lists
-** resume reading package list (searching "tree") at Kill Ring (section)
-** resume reading awesome-emacs at section Project Management
-   https://github.com/emacs-tw/awesome-emacs
-* packages of interest
-** important (and maybe easy)
-*** [[id:8ed2933a-cfb1-4f34-9e49-e8c0afdd79d4][dired (Emacs package)]]
-*** docker
-*** evil-mode
-*** wgrep - Writable grep/ack/ag/pt buffer and apply the changes to files.
-*** grip-mode - Instant Github-flavored Markdown/Org preview using Grip
-*** ace-link
-*** back-button
-    "Visual navigation through mark rings in Emacs"
-    Through global and (buffer-)local mark rings.
-    Leaves visible marks at each spot.
-*** cruz - "a collection of ridiculously useful Emacs [functions]"
-*** git-timemachine: step through old versions of a file
-*** multi-term - Multiple terminals, and more useable.
-    In particular, will kill a process when you exit the terminal.
-*** Project management : whole section of awesome-emacs
-*** git-link - get the GitHub/Bitbucket/GitLab/... URL for a buffer location
-*** markdown-toc
-** easy
-*** helm-file-preview
-*** helm-taskswitch
-*** helm-org
-*** Keys Cheat Sheet: a whole section of awesome-emacs
-*** google-translate
-*** expand-region
-*** artist-mode
-    draw boxes etc. with mouse, keyboard
-*** diff-hl - Highlights uncommitted changes.
-*** SyMon - tiny graphical system monitor
-*** org-download: Drag and drop images to Emacs org-mode
-*** twittering-mode
-*** key-quiz - test your Emacs knowledge
-*** bm - visual bookmarks
-    Unlike the mark ring, the user chooses where the bookmarks are,
-    can delete them when needed, etc.
-*** move-text - move current line or region up or down.
-*** pdf-view-restore - remember your place
-    addition to PDF Tools. saves the current position in a PDF to resume reading at that place even after the buffer has been closed.
-** maybe neither
-*** helm-ext
-    Seems cool.
-*** pdf-tools
-    read, search, follow links, edit annotations, kill text (!), jump to LaTeX source, adjust colors for lighting
-*** multifiles - View and edit parts of multiple files in one buffer.
-*** lentic - Create views of the same content in two Emacs buffers.
-*** org-web: edit org files on mobile, synced to GDrive or Dropbox
-*** imenu-anywhere : imenu over all buffers, using helm
-*** ialign: interactive regexes, like align-columns but stronger
-*** org-noter: annotate PDF, EPUB, Microsoft Office, DVI, PS, and OpenDocument
-    Annotations are in a separate file.
-*** Mail, IRC, Chat, RSS : whole sections of awesome-emacs
-*** theme-magic - Apply your Emacs theme to the rest of Linux.
-*** HaRe - Haskell refactoring
-*** visual-regexp
-*** ov - change text appearance (temporarily, I think)
-* DONE ? gave up on
-** were of interest but look complex
-*** icicles -- cycle buffers with arrows and tab completion
-    but not part of Melpa
-*** treefactor
-*** treemacs (like neotree)
-** couldn't get working
-*** highlight-escape-sequences
-    Installed from MELPA; seemed to do nothing.
-    Maybe I need to customize it
-      /(e.g. maybe `M-x customize-group hes-mode`).
-    Apparently also available from GNU itself (per package-list-packages) but I don't know how to use such packages in my emacs.nix file.
-* DONE ? I probably prefer something else
-** [[id:424cea04-5013-4547-8e24-65522ab90c56][vertigo]]
-** helm-swoop
-   Split-pane text search.
-   Turns out I don't look at the pane of search results.
-*** emacs code I was using for it
-    ;; helm-swoop: two-panel string matching
-    (global-set-key (kbd "C-c C-j s") 'helm-swoop)
-** avy : nah, I prefer simple C-s and C-r
-*** code I was using for it
-;; avy : jump around
-(global-set-key (kbd "C-;") 'avy-goto-char-2)
-* remember, is great (and installed)
-** (smart-)hungry-delete
-   Delete lots of whitespace.
-** restart-emacs
-** imenu : provides a menu of spots in a document to jump to
-** undo-tree
-   undo-tree-visualize			-- first enable undo-tree-mode
-   undo-tree-diff			-- or 'd' from in it
-   undo-tree-visualizer-timestamps	-- or 't' from in it
-** [[id:e217215b-88ef-4a18-a96b-1b17272fe86b][ace-window (Emacs package)]]
-** block-nav
-   If I decide I don't like that, try emacs-spatial-navigate:
-   https://gitlab.com/ideasman42/emacs-spatial-navigate
-** iflipb: change buffers fast
-** goto-last-change
-** [[id:ad6bd612-dd7b-4185-bd04-e2aade240c4c][ctrlf]] : text search
-** restart-emacs
-** DONE internalized
-*** mwim
-*** rainbow-delimiters
-    Installed via Melpa\Nix.
-    The only thing it defined is rainbow-delimiters-mode -- it didn't define rainbow-delimiters-faces or
-*** linum-relative (elpa)
-*** [[id:390f0d15-8ad0-407e-961f-035ee4816498][multiple cursors (Emacs package)]]
+* [[id:03544662-5978-4b88-8984-bd12eea5e8a1][Emacs packages]]
 * remember, commands
 ** M-m: first non-whitespace char in line
 ** C-c C-(f/b): org next/previous same level
 ** Up, down and search work in the minibuffer after M-x.
+* solutions
+** number lines in a rectangle
+   http://emacsworld.blogspot.com/2012/06/numbering-lines-and-lists-in-emacs.html
+   "C-x r N" starts the line at 1.
+   "C-u C-x r N" prompts for a starting value and format.
+** [[id:7dc33cd5-40bc-421a-aa1d-a40cf0635119][to tag(build a tags file) python code for use in emacs]]

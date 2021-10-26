@@ -1,6 +1,45 @@
 :PROPERTIES:
 :ID:       7b1955b6-78d0-4912-8347-3eb653b7a1de
+:ROAM_ALIASES: "shell programming"
 :END:
 #+title: Bash shell
-* some Bash tools
-** [[id:bd26daee-2344-42ac-8101-dcba3111ed69][xsel (copy to the clipboard (or elsewhere) from Bash)]]
+* [[id:bd26daee-2344-42ac-8101-dcba3111ed69][xsel (copy to the clipboard (or elsewhere) from Bash)]]
+* [[id:784c0660-a998-4bbf-bc80-c0b46a89a632][make (build utility)]]
+* view a readable diff of two csv files
+  csv-diff file file2 --key="field-name"
+  (This is installed in the Docker image.)
+** or, within python
+   This is buggy, because it uses multiple keys.
+   Instead must create a single composite key.
+     in tax.co, see python/hand_test/composite_index.py
+
+   from csv_diff import load_csv, compare
+   diff = compare(
+     load_csv("data/recip-10/people_3_income_taxish.detail.2018.csv",
+              key=["household","household-member"] ),
+     load_csv("no-dep-exempt/people_3_income_taxish.detail.2018.csv",
+              key=["household","household-member"] ) )
+* create tar.gz archive
+  tar -czvf tarball-of-zipfiles.tar.gz individual-zipfiles/
+* create pdf from markdown
+  pandoc -o bugs.pdf bugs.md
+  To render beamer-style, add the option `-t beamer`.
+  PITFALL: New sections must be preceded by a blank line.
+* search
+** grep excluding nonreadable file types
+   find . -type f -not \( -name "*.csv" -o -name "*.xlsx" -o -name "*.tgz" -o -name "*.zip" -o -name "*.ssv" -o -name "*.sav" -o -name "*.pyc" -o -name "*.pdf" -o -name "*.jpeg" -o -name "*.odt" -o -name "*.pack" -o -name "*.ods" -o -name "*.ipynb" -o -name "*.idx" -o -name "*.docx" -o -name "*.dta" \) -print0 | xargs -0 grep "xxx" --color
+** find, show all file extensions in filetree
+   find . -type f | sed 's/.*\.//' | grep -v "/" | sort | uniq -c
+** find: exclude a type of file
+   use the ! symbol to negate the next option
+   for example, this:
+     find . -type d ! -name "__pycache__"
+   excludes anything called __pycache__
+** `find -exec`: do something to every found result
+*** example: copy a file into every folder found
+    find . -type d -exec cp __init__.py {} \;
+** to find all numbers in code
+   In tmux, run
+     egrep "[0-9]+" -r build -r common -r draw -r regime *.py -C 5 --exclude="*test*"
+   and then read that screen. (Dumping it to a file would mean losing the colors,
+   which makes the reading process much slower.)
