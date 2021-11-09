@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       3a5b4f38-f7db-4f37-9710-80ca2b82e139
+:END:
+#+title: neotree (Emacs package)
+* PITFALLs
+** It needs [[id:4a8d3a58-415e-4866-8747-105042f07103][refreshing]].
+** It's not an ordinary window.
+   [[id:1e86c6be-2bc0-45d2-a356-a27cd7edb5d7][Toggle its size with A]], from pretty big to pretty small.
+   I tried customizing that farther; it's too hard, not worth it.
+* commands
+** shortcuts
+*** to move
+**** C-c C-c Change the root directory.
+**** n next line, p previous line
+**** U Go up a directory
+*** to see
+**** SPC or RET or TAB : Open current item (in Emacs) if it is a file.
+     Fold/Unfold current item if it is a directory.
+**** O Recursively open a directory
+**** g Refresh
+     :PROPERTIES:
+     :ID:       4a8d3a58-415e-4866-8747-105042f07103
+     :END:
+**** A Maximize/Minimize the NeoTree Window
+     :PROPERTIES:
+     :ID:       1e86c6be-2bc0-45d2-a356-a27cd7edb5d7
+     :END:
+**** H Toggle display hidden files
+*** to modify
+**** C-c C-n Create something
+     Creates a directory if it ends in ‘/’.
+**** C-c C-d Delete a file or a directory.
+**** C-c C-r Rename a file or a directory.
+**** C-c C-p Copy a file or a directory.
+** to open a file
+   With the cursor over it, evaluate `M-x neo-open`.

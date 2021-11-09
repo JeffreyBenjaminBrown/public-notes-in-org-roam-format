@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       17e1cea2-480d-4cda-ad7c-ffbb7f5c3989
+:END:
+#+title: NixOS, (re)configuring
+* name a new configuration with `-p`
+  For instance,
+  sudo nixos-rebuild switch -p no_music_config_although_packages
+* [[id:b8c28f2c-6cc1-460f-a8bd-f7219482263f][configuring KDE in NixOS]]

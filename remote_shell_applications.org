@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       c15e1d4d-2b48-4dd7-beab-79d9bb1cd175
+:END:
+#+title: remote shell applications
+* a discussion
+  https://news.ycombinator.com/item?id=29081008
+* `ssh` is the canonical remote shell.
+* Mosh and ET are the two big improvements to ssh.
+  I think I prefer ET.
+** Both require running a corresponding server version of the same app.
+** Eternal Terminal (ET): Never dies. Does not improve latency.
+   Does not solve the latency problem.
+** Mosh: Never dies, solves latency problem, but sacrifices screen history.
+   Good: faster response, automatic reconnect.
+   Bad: Screen history is (inaccurate? limited?).
+     Tmux fixes this, but at the cost of the fast response,
+     at which point why not just use ET.

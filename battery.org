@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       4c4f396d-990b-4de4-8619-9ee2c7cd5228
+:END:
+#+title: battery
+* battery monitoring and control in Linux
+  :PROPERTIES:
+  :ID:       b736de75-e4cc-4390-a12b-85b13dd3ad3b
+  :END:
+** Run `acpi` from the command line to show battery status.
+** [[id:5489c6d6-d479-417d-8d51-703cac8675d2][TLP (battery control service for Linux)]]
+* the [[id:2d238e67-4c09-435c-ab78-67ef62255f1c][battery for my 2017 Dell laptop]]

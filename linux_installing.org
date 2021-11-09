@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c73d3380-7909-46bc-87de-b6e51dea11ac
+:END:
+#+title: Linux, installing
+* if the installer fails to partition for the boot loader
+  Manually delete the existing partition with fdisk,
+  then try installing again.
+* [[id:5ec64c3d-c92f-4bd5-a280-718ac69f83f9][Linux desktop environments with native screen zoom]]

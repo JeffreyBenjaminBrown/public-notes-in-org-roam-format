@@ -1,0 +1,68 @@
+:PROPERTIES:
+:ID:       0c6f257d-a5dc-4c8e-b687-c724f280b695
+:END:
+#+title: tmux (software)
+* server, session, window, pane
+** what they are
+   Servers host sessions, which host windows.
+   The set of windows in this session is written at the bottom of the screen.
+   Windows can be broken into panes, horizontally or vertically, and nested.
+   Panes can be "zoomed into" such that they occupy the whole screen. Nothing indicates that there are other panes surrounding a zoomed pane.
+** how they are named
+   Servers, sessions and windows have user-assigned text names.
+   Panes are only identifiable by numbers (visible with Alt-q).
+   A tmux "address" (to coin a term) is specified thus:
+     session[:window][:pane]
+   where brackets indicate optionality.
+   Actually maybe the session is optional too, in which case it will assume you mean this session -- but then  you'd want to specify the window, and if not the window, then the pane, probably.
+   The server is specified, if inedeed it is specified,
+   with the -L option --
+   which must come right after the word "tmux", before the tmux subcommand
+   (e.g. "tmux -L sys ls", where "ls" is the subcommand).
+* to run multiple tmux *servers*
+** To launch and save, see my script ~/code/git_play/myTmux
+** To do things like `tmux ls` from outside of tmux
+   Pass the `-L` argument to `tmux` *before*
+   the tmux command (e.g. ls, kill-session, etc.)
+* the "tmux prompt"
+** access it with `M-b :`
+** It's useful from within shell apps.
+   e.g. if from tmux you enter a Bash shell in a Docker container,
+   the `tmux` commands will be meaningless to the Dockerized Bash,
+   but the tmux prompt will still work.
+** From the shell outside of any app, it only saves two keystrokes.
+   since anything you could type into it,
+   you could type directly into the shell after `tmux `.
+* to swap windows
+** swap 1 and 3
+   swap-window -s 3 -t 1
+** swap current window with top window
+   swap-window -t 0
+* to move windows to unoccupied spots
+** if there is no window 0, this moves the present window there
+   move-window -t 0
+* panes
+** to split and move between panes
+*** `M-j h` splits horizontal
+*** `M-j v` splits vertical
+*** `M-j q` (query) shows a number in each pane
+    Press that number while it's visible to switch.
+*** `M-j z` (zoom) expands a pane to full screen.
+    PITFALL: This is confusing, as it's easy to forget
+    that there are other panes in the same window.
+** to resize the focused pane
+   [tmux] resize-pane -[DULR] [n]
+   where
+     D = down, U = up, etc.
+     n = number of cells, optional
+* send text to a tmux session|window|pane
+** syntax
+   tmux -L <server-name> send-keys             \
+     -t <session name>[:window][:pane number]  \
+     <text to send> Enter
+** comments
+   The session name is mandatory.
+   The window and pane are optional, but they seem like a good idea.
+   If there is only the default session, "-L <server name>" is unnecessary.
+   "Enter" should be spelled out explicitly, unquoted.
+* tmux ls = tmux list-sessions

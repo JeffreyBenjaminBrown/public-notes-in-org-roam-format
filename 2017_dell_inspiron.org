@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       42edb3af-cb79-44bd-96f6-9f54603cc369
+:END:
+#+title: 2017 Dell Inspiron
+* BIOS setup, how to access
+  Press F2 while booting, when the Dell logo appears.

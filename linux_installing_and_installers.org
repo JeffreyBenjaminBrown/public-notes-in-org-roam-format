@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       529b4f3b-b23d-4780-8d8f-b52c5712adc4
+:END:
+#+title: Linux: distributions, desktop environments, window managers
+* PITFALL: Distro > Desktop Environment > Window Manager
+* some Linux distros
+** Tiny Core might be the smallest.
+   It's hard to use but it's the fastest, running entirely in RAM.
+   Not part of NixOS.
+** Puppy Linux is so small it can be run off a USB stick.
+** other extremely lightweight distros
+   Linux Lite -- not on NixOS
+   antiX
+* Linux desktop environments
+** KDE is the cadillac.
+   But it's not text-configurable,
+   and the Settings GUI takes me about an hour of work each time I install.
+** Gnome is text-configurable.
+** lxqt seems to be the lightest mainstream desktop environment.
+   services.xserver.desktopManager.lxqt.enable
+** Xfce and Mate are the second-lightest mainstream desktop environments.
+   They're about equally lightweight.
+*** xfce is part of Xubuntu and other distros.
+* Linux window managers
+** [[id:c26ed276-a4a0-4b0a-8b4b-6a47b47fb85a][xmonad (window manager)]]

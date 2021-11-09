@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       5489c6d6-d479-417d-8d51-703cac8675d2
+:END:
+#+title: TLP (battery control service for Linux)
+* PITFALL: I don't think this will work for my computers.
+  It's designed for Thinkpads.
+* TLP in NixOS
+  services.tlp.enable = true;
+  https://news.ycombinator.com/item?id=18461255
+* manually switching between AC and battery
+  These commands switch to battery or AC use:
+    tlp bat
+    tlp ac
+  They remain until the next reboot or until terminated with
+    tlp start

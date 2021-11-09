@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       a571e570-667a-432d-9144-dd163c519900
+:END:
+#+title: boomer (platform-independent screen zoom application)
+https://github.com/tsoding/boomer

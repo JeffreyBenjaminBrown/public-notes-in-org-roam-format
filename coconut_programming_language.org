@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       22a5db45-5515-4ef4-b583-4bc82c396582
+:END:
+#+title: Coconut (programming language)
+* my notes on Coconut are in SmSn
+  in data/public, at node
+    Y9AzomjvuoZxeRU3

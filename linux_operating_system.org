@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       7347d15c-fece-46aa-87d2-7c1c7230d548
+:END:
+#+title: Linux (operating system)
+* [[id:529b4f3b-b23d-4780-8d8f-b52c5712adc4][Linux: distributions, desktop environments, window managers]]
+* [[id:c73d3380-7909-46bc-87de-b6e51dea11ac][Linux, installing]]
+* [[id:b736de75-e4cc-4390-a12b-85b13dd3ad3b][battery monitoring and control in Linux]]
+* to swap keys in any Linux environment
+  e.g. swap ESC and CapsLock
+  https://ictsolved.github.io/remap-key-in-linux/

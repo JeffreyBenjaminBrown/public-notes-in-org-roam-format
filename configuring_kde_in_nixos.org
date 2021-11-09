@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b8c28f2c-6cc1-460f-a8bd-f7219482263f
+:END:
+#+title: configuring KDE in NixOS
+https://github.com/nix-community/home-manager/issues/607
+https://discourse.nixos.org/t/declarative-kde-configuration/15901/7
+https://bugs.kde.org/show_bug.cgi?id=444974

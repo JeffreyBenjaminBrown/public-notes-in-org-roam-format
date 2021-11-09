@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       c26ed276-a4a0-4b0a-8b4b-6a47b47fb85a
+:END:
+#+title: xmonad (window manager)
+* Xmonad is lightweight.
+* Xmonad can work with KDE.
+* Enabling Xmonad on NixOS takes one line.
+   It might (I'm not sure) require some additional futzing to make it work with KDE, but enabling it in the config is easy:
+   services.xserver.windowManager.xmonad.enable;
+* solutions
+** full-screen zoom in Xmonad
+   [[id:a571e570-667a-432d-9144-dd163c519900][boomer (platform-independent screen zoom application)]]
+   Or use it in [[id:5ec64c3d-c92f-4bd5-a280-718ac69f83f9][a Linux desktop environment with native zoom]].
