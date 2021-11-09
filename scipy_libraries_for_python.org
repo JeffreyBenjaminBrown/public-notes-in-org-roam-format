@@ -2,6 +2,7 @@
 :ID:       1a97cb6c-b6ff-4439-9790-ff372bc1ee38
 :END:
 #+title: scipy (libraries for Python)
+* TODO The `pandera` library implements schemas for Pandas data frames.
 * sorting and null/missing values in pandas
 ** null always comes last, regardless of order
 ** code to see it

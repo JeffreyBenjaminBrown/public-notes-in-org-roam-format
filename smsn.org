@@ -50,10 +50,13 @@ because in a long list of short items it's hard to see how they line up with the
 *** launch SmSn
 **** sequentially
 ***** docker run
-docker run -it --name smsn \
-  -v ~/Encfs/kb-no-encfs:/mnt/smsn-data \
-  -p 8183:8182 -d -h 127.0.0.1 \
-  jeffreybbrown/smsn-develop:gs_3.2.5
+      docker run -it --name smsn \
+        -v ~/Encfs/kb-no-encfs:/mnt/smsn-data \
+        -p 8183:8182 -d -h 127.0.0.1 \
+        jeffreybbrown/smsn-develop:gs_3.2.5
+
+      docker exec -it smsn bash
+      ./start-smsn.sh
 ***** PITFALL: then enter the Docker container and run `start`
 **** TODO PITFALL: Docker won't mount an Encfs sink
     :PROPERTIES:

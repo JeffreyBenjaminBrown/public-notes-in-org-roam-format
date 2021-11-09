@@ -28,6 +28,9 @@
 * search
 ** grep excluding nonreadable file types
    find . -type f -not \( -name "*.csv" -o -name "*.xlsx" -o -name "*.tgz" -o -name "*.zip" -o -name "*.ssv" -o -name "*.sav" -o -name "*.pyc" -o -name "*.pdf" -o -name "*.jpeg" -o -name "*.odt" -o -name "*.pack" -o -name "*.ods" -o -name "*.ipynb" -o -name "*.idx" -o -name "*.docx" -o -name "*.dta" \) -print0 | xargs -0 grep "xxx" --color
+** grep for conjunction: all files containing both A and B
+   Here A = "aws" and B = "iam"
+   grep "aws" -r . -l | xargs grep "iam"
 ** find, show all file extensions in filetree
    find . -type f | sed 's/.*\.//' | grep -v "/" | sort | uniq -c
 ** find: exclude a type of file

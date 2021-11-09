@@ -8,6 +8,16 @@ EC2 is the raw virtual machine system. One can use it alone, or via one of the h
   so far home dir is always /home/<username>
 ** for Amazon Linux, username = ec2-user
 ** for Ubuntu, username = ubuntu
+* PITFALL: Amazon Linux sucks! Use Ubuntu or something.
+  :PROPERTIES:
+  :ID:       4c094d05-b478-47b2-95c3-173aed34abf6
+  :END:
+  On AL I can't use:
+    Mosh
+    Eternal Terminal
+    Python > 3.7
+    Coconut (won't build on Python 3.7 without lots of work)
+    the Tmux plugins I ordinarily use
 * DONE scp to move files via SSH
 ** zip them first
    There's big per-file overhead.

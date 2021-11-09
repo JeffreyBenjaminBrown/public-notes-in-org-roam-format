@@ -8,3 +8,7 @@
   import sys
   sys.path.insert(0, '.') # assuming pytest is run from the top of the project, this
                           # allows local ("python.something.something") imports to work
+* the Magic Mock library for Python
+  :PROPERTIES:
+  :ID:       3994c66b-b37c-4450-8314-07f98a6c2d7c
+  :END:

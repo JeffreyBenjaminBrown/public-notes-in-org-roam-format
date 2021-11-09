@@ -2,6 +2,7 @@
 :ID:       9e2b0560-a823-4718-9f6d-638557e3f482
 :END:
 #+title: mtv-lang
+* [[id:08945d69-be8f-4302-a633-e2569183f551][data-interval]] might make some algorithms easier.
 * TODO Dispatch.Lazy
 ** Learn what `dispatchLoop` needs, what `arc` etc. do.
    via experiment

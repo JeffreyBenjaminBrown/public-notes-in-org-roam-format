@@ -9,4 +9,12 @@
 ** [[id:33e6fa69-2fb8-40d4-8037-cbcf19d552b4][My tests in tax.co don't compose.]]
 ** Mocks in unit tests => need integration tests too.
 ** Mocks, fakes and stubs.
-** the Magic Mock library for Python
+** tests that use the local filesystem
+*** are better than ones that use more -- the internet, say
+*** should clean up after themselves
+*** usually use temporary directories
+** tests that use more than the local filesystem
+   https://cs-syd.eu/posts/2021-10-24-your-testing-portfolio
+** using NixOS to test systems with networking
+   https://nix.dev/tutorials/integration-testing-using-virtual-machines
+** [[id:3994c66b-b37c-4450-8314-07f98a6c2d7c][the Magic Mock library for Python]]

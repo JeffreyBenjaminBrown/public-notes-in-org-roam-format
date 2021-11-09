@@ -9,4 +9,14 @@
 * [[id:cbd1f56f-efef-4302-b309-e21ca0c1b677][how to profile in Haskell]]
 * lenses in Haskell
 ** Generate lenses for third-party libraries in Haskell
-https://ai-jobs.net/?rdt_cid=3040091042633392170
+   https://ai-jobs.net/?rdt_cid=3040091042633392170
+* Haskell stuff I'd like to use
+** PostgREST: Make a db API-modifiable
+   https://postgrest.org/en/v8.0/index.html
+** data-interval
+   :PROPERTIES:
+   :ID:       08945d69-be8f-4302-a633-e2569183f551
+   :END:
+   https://hackage.haskell.org/package/data-interval-2.1.1
+** Hedgehog for websites
+   https://quickstrom.io/

@@ -39,7 +39,7 @@
    PITFALL: Works only if empty.
 ** ls: list contents
    aws s3 ls jefbrown.net
-   aws s3 ls s3://whatdoineedtodotofindauniquename
+   aws s3 ls s3://invisible-to-most
 ** ls: list buckets
    aws s3 ls
 ** website: give a bucket a public URL

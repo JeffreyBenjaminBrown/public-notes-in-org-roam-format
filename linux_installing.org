@@ -2,6 +2,7 @@
 :ID:       c73d3380-7909-46bc-87de-b6e51dea11ac
 :END:
 #+title: Linux, installing
+* [[id:53cafeca-3de3-4f04-be36-3fdcb04a4d55][NixOS, installing]]
 * if the installer fails to partition for the boot loader
   Manually delete the existing partition with fdisk,
   then try installing again.

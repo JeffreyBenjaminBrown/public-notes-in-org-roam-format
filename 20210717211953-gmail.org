@@ -3,3 +3,4 @@
 :END:
 #+title: Gmail
 * [[id:c5b10311-7fc6-4bec-89a7-ed588a1bed83][using SMTP to control Gmail programmatically]]
+* [[id:c751cca4-afa3-48d8-aa58-b7580c43484e][to delete recent Gmail messages about the spread]]

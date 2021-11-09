@@ -6,7 +6,10 @@
 ** the Go docs
    https://golang.org/doc/
 ** RESUME here
-   https://tour.golang.org/flowcontrol/1
+   My code and their webpage:
+
+   ~/code/go/go-experim/error.go
+   https://tour.golang.org/methods/20
 * to search for Go packages
   https://pkg.go.dev/search
 * running Go code
@@ -52,7 +55,7 @@
    In *any* module, not just the top of the hierarchy,
    an `init` function can be defined,
    "after global variables have been initialized".
-** tests
+** tests in Go
    :PROPERTIES:
    :ID:       ae748d4d-eb68-4f48-b73b-af28eae5c323
    :END:
@@ -73,8 +76,8 @@
     import "fmt"
 *** import many things
     import (
-	"errors"
-	"fmt"
+        "errors"
+        "fmt"
     )
 ** capitalization is weird
    Public functions are capitalized.
@@ -87,9 +90,9 @@
     var i, j = 1, 2
 
     func main() {
-   	 var k int
-	 q := "nerp"
-	 ...
+         var k int
+         q := "nerp"
+         ...
 *** "var" can be used with or without assigning a value.
 **** If  a value is (explicitly) assigned
      the type signature need not be.
@@ -101,29 +104,132 @@
 *** ":=" is like "var", with type omitted.
 ** declare constants with "const"
 ** types
-*** PITFALL: `nil` exists
-    appears to be a member of every type
+*** PITFALL: `nil` exists and inhabits every type
+    or so it appears.
 *** PITFALL: pointers exist
-    The symbol for the type of a pointer to type T is *T.
+**** The & op creates a pointer to its argument.
+**** The * op dereferences pointers.
+     *p = 21 // sets the variable p points to
+**** The symbol for the type of a pointer to type T is *T.
+**** There is no pointer arithmetic.
+**** Pointers can point to other pointers, I think.
+***** TODO Right?
+**** [[id:a87fa0fa-0732-4323-96a6-55a6612c5568][Is a pointer needed for a function to modify *any* argument, or only structs?]]
 *** some (other) types
-**** slice = dynamically sized array
-***** define one like this
-      In the [] one can optionally specify an initial size
-      (an int, I imagine).
-
-      formats := []string{
-          "Hi, %v. Welcome!",
-          "Great to see you, %v!",
-          "Hail, %v! Well met!",
-      }
-***** access a slice with a [] prefix
-      like in Python
 **** maps
-***** initializing them is ugly
-      myMap := make(map[key]value)
-***** assignment is familiar, via [] and =
+***** Initializing a map requires `make` and looks dumb.
+      myMap := make ( map [key] value )
+***** (Adding to | modifying) a map is familiar, via [] and =
       like Python
       myMap[key] = value
+***** Delete part of a map with `delete(map, key)`.
+***** Test for membership with two-value assignment.
+      elem, ok = m[key]
+      If key is in m, ok is true. If not, ok is false.
+****** elem and ok can be declared at the same time.
+       elem, ok := m[key]
+******* TODO Does that work if exactly one of elem and ok is already declared?
+***** PITFALL: Declaration via map literals
+      They need a trailing comma,
+      and the type signature can be confusing.
+      See comments below:
+
+      var m = map [string] Vertex { // type = map string Vertex
+        "Bell Labs" : Vertex{
+                40.68433, -74.39967,
+        },
+        "Google" : Vertex{
+                37.42202, -122.08408,
+        },                          // trailing comma
+      }
+***** PITFALL: As a map, `nil` is both empty and *immutable*.
+**** Structs are product types.
+***** Define a struct
+     type Vertex struct {
+         X int
+         Y int
+     }
+***** instantiate a struct
+      The RHS of these assignments are called "struct literals".
+
+      v1 = Vertex{1, 2}  // has type Vertex
+      v2 = Vertex{X: 1}  // Y:0 is implicit
+      v3 = Vertex{}      // X:0 and Y:0
+      p  = &Vertex{1, 2} // has type *Vertex
+***** access a struct field
+      x.1 == 1
+****** PITFALL: access a struct field in a pointer
+       The natural way. would be
+         (*p).x
+       but Go also allows
+         p.x
+       making the dereference implicit.
+***** Sometimes struct constructors can be omitted.
+      type Vertex struct {
+              Lat, Long float64
+      }
+      var m = map [string] Vertex {
+        "Bell Labs": {40.68433, -74.39967},
+        "Google":    {37.42202, -122.08408},
+      }
+**** Arrays have fixed length.
+***** declare an array
+      var a [10]int
+***** assign to an array
+      a[0] = "Hello"
+***** [[id:82dbaf0e-4e0d-4e45-a03a-ba096464505e][Slice literals & array literals.]]
+**** Slices are dynamically sized *views* into arrays.
+***** Declare a slice.
+      var s []int
+***** Make a slice from an array.
+      a[low : high] // low is included, high is excluded
+***** Declare and define at the same time.
+      var s []int = primes[1:4]
+***** Access a slice with [].
+      like in Python
+***** [[id:82dbaf0e-4e0d-4e45-a03a-ba096464505e][Slice literals & array literals.]]
+***** The default slice bounds are the first and last.
+      Either can be omitted, resulting in the default.
+      For a size 10 array `a`, these are equivalent:
+      a[0:10]
+      a[:10]
+      a[0:]
+      a[:]
+***** Slice "length" and "capacity".
+      length = number of elements in the slice
+      capacity = number of elements in the underlying array
+      Use len(s) and cap(s) to find the length and capacity of s.
+***** Slices can be extended forward, but not backward.
+      You can extend a slice's length by re-slicing it,
+      provided it has sufficient capacity.
+***** The nil slice
+      has length = capacity = 0 and no underlying array.
+***** PITFALL: make dynamically-sized slices with "make"
+****** why | the pitfall
+       If a value only known at runtime is to be the array length or capacity,
+       then for some reason simply declaring the slice won't work.
+****** how
+       make ( [] type, length, optional capacity )
+       If the capacity is not specified, it is equal to the length.
+***** nested (2d) slices
+      board := [] [] string {
+                  [] string {1, 1, 1},
+                  [] string {1, 1, 1},
+                  [] string {1, 1, 1},
+      }
+***** append element(s) to a slice
+      func append(s []T, vs ...T) []T
+      Each v in vs is a T.
+      This can allocate a bigger array if needed.
+****** TODO | PITFALL: If it allocates more space, will changes affect the earlier array?
+***** PITFALL: Modifying a slice modifies the underlying array.
+**** Slice literals & array literals.
+     :PROPERTIES:
+     :ID:       82dbaf0e-4e0d-4e45-a03a-ba096464505e
+     :END:
+     An array literal: [3]bool{true, true, false}
+     A slice literal:   []bool{true, true, false}
+     Both create the same array.
 *** type signatures
 **** shorthand for consecutive like-typed arguments
      "When two or more consecutive named function parameters share a type, you can omit the type from all but the last."
@@ -135,9 +241,287 @@
        y = sum - x
        return
      }
+**** If a function returns nothing, omit the return type.
+*** type synonyms
+    :PROPERTIES:
+    :ID:       513632ba-83db-4367-a764-8b45f15db3b4
+    :END:
+    type MyFloat float64
 *** Casting looks like "string(3)".
-** looping with `range`
-   `range` returns two things: first the index (numeric),
-   then the value.
-   So to loop over the values in theList, do this:
-     for _, name := range theList { ... }
+** loops
+*** for i := 0; i < 10; i++ { ... }
+*** The init, condition, and post statements are optional.
+**** Including only the condition
+     makes `for` behave like C's `while`.
+     In that case the semicolons are optional.
+     Example:
+       sum := 1
+       for sum < 1000 { sum += sum }
+**** Including none of them creates an infinite loop.
+*** looping with `range`
+    `range` returns two things: first the index (numeric),
+    then the value.
+    So to loop over the values in theList, do this:
+      for _, name := range theList { ... }
+    To loop over the indices, the second value can be omitted:
+      for idx := range theList { ... }
+** conditions
+*** if [else]
+**** if x < 0 { ... }
+     The braces are required.
+**** if [stmt;] condition { consequent }
+     The `stmt` can define a variable local to the if-statement. It can also do IO, or presumably anything else.
+     Example:
+     if v := math.Pow(x, n); v < lim {
+       return v
+     }
+     I can't seem to make `stmt` do more than one thing -- e.g. I can't define two variables there.
+**** if [stmt;] condition { consequent } else { consequent }
+*** switch statements
+**** to switch on the value of a single variable
+     State the variable before the list of cases.
+
+     func main() {
+         fmt.Print("Go runs on ")
+         switch os := runtime.GOOS; os {
+         case "darwin":
+                 fmt.Println("OS X.")
+         case "linux":
+                 fmt.Println("Linux.")
+         default:
+                 // freebsd, openbsd,
+                 // plan9, windows...
+                 fmt.Printf("%s.\n", os)
+         }
+**** switching on arbitrary conditions
+     Don't state a variable to switch on;
+     instead write "true" or nothing there:
+     switch {
+        case x < y: ...
+        case z < w: ...
+**** [[id:d3422768-af80-4d45-92e7-dd8a59f6aef6][type switches]]
+** defer execution
+   A "deferred call"'s arguments are evaluated immediately,
+   but the call is not evaluated until after the surrounding function.
+   Deferred calls are printed in LIFO order.
+
+   func main() {
+        defer fmt.Println("This prints third.")
+        defer fmt.Println("This prints second.")
+        fmt.Println("This prints first.")
+   }
+** functions
+*** lambdas ("function literals"?)
+    func main() {
+      hypot := func(x, y float64) float64 {
+        return math.Sqrt(x*x + y*y)
+      }
+*** Higher-order functions are syntactically noiseless.
+    There's no "apply" nonsense, you just use it.
+    Example:
+
+    func compute(fn func(float64, float64) float64) float64 {
+      return fn(3, 4)
+    }
+    func main() {
+      hypot := func(x, y float64) float64 {
+        return math.Sqrt(x*x + y*y)
+      }
+      fmt.Println(compute(hypot))
+      ...
+    }
+*** Closures
+    Are functions bound to a variable or set of variables.
+    It's like global variables but sneakier.
+    For instnace, each call to `adder` below returns
+    a function with its own secret `sum` variable.
+    Calls to those functions are thus history-dependent.
+
+    func adder() func(int) int {
+      sum := 0
+      return func(x int) int {
+        sum += x
+        return sum
+      }
+    }
+*** "methods" have "receiver types"
+    This makes them like class methods from Python.
+**** Syntax: Put the receiver before the function name.
+     func (v Vertex) Abs() float64 {
+       return math.Sqrt(v.X*v.X + v.Y*v.Y)
+     }
+**** Methods can be called from receivers using dot notation.
+     receiver.method(...)
+**** Methods and their receiver types must be declared in the same package.
+     Potentially useful: [[id:513632ba-83db-4367-a764-8b45f15db3b4][type synonyms]].
+**** Pointer receivers
+***** two motivations
+****** The receiver must be a pointer if a method is to modify its "caller".
+       This is equally true for ordinary (non-method) functions.
+****** It avoids copying the value on each method call.
+       That can matter for big values.
+***** TODO Is a pointer needed for a function to modify *any* argument, or only structs?
+      :PROPERTIES:
+      :ID:       a87fa0fa-0732-4323-96a6-55a6612c5568
+      :END:
+***** more
+      That's because the method operates on a copy of the receiver.
+      For this reason pointer receivers are more common than value receivers.
+***** example
+      Change *Vertex to Vertex and this does nothing:
+
+      func Scale(v *Vertex, f float64) {
+        v.X = v.X * f
+        v.Y = v.Y * f
+      }
+***** PITFALL: The & can be omitted from pointer receivers.
+      but not for regular functions.
+      That is, if the following type signatures apply:
+        func f (*Vertex)
+        func (*Vertex) m
+        var v Vertex
+      then
+        f(&v)    // works
+        f(v)     // does not work
+        (&v).m() // works
+        v.m()    // works, due to shorthand
+***** PITFALL: Similarly, the * can be omitted from value receivers created from pointers.
+      That is, if the following type signatures apply:
+        func f (Vertex)
+        func (Vertex) m
+        var v Vertex
+      then
+        f(&v)    // does not work
+        f(v)     // works
+        (&v).m() // works, due to shorthand
+        v.m()    // works
+***** PITFALL: "all methods on a given type should have either value or pointer receivers, but not a mixture of both"
+**** Receivers cannot be of type **T, for any T.
+*** interfaces (what Haskell calls typeclasses)
+    An interface defines a set of method signatures.
+    Any type for which those methods exist "implements the interface".
+**** example
+***** given this interface
+      type Abser interface {
+        Abs() float64
+        Nothing ()
+      }
+***** here's a type that implements it
+      type MyFloat float64
+
+      func (f MyFloat) Abs() float64 {
+      	if f < 0 {
+      	  return float64(-f)
+      	}
+      	return float64(f)
+      }
+
+      func (f MyFloat) Nothing () {}
+**** An "interface value" is a value "typed" to an interfaces rather than to a concrete type.
+***** How to assign concrete values to (into?) interface ones.
+      // declare and assign together
+      var i Stringish = MyString{"hello"}
+
+      // declare and assign separately
+      var i I  // i can be anything adhering to interface I
+      var t *T // t is a pointer to a T
+      i = t    // If T* adheres to I, then this is valid.
+***** PITFALL: An interface value can hold values of different types at different times.
+      In a context declaring
+        var a Abser
+      `a` can be assigned multiple values of different types,
+      as long as they all implement Abser.
+***** Nil interface values are useless.
+      No method can be called on them,
+      because Go would not know which implementation to use.
+      In order to do anything with it,
+      the interface value must be assigned ("hold"?)
+      a concrete value.
+      Confusingly, [[id:b5b23820-92a3-4d79-b2b5-e33eb15632f2][even if the assigned value is a nil pointer,
+      the interface value becomes non-nil]].
+***** TODO Non-nil interfaces hodling nil values are weird.
+      :PROPERTIES:
+      :ID:       b5b23820-92a3-4d79-b2b5-e33eb15632f2
+      :END:
+      https://tour.golang.org/methods/12
+****** PITFALL: Nil interface values are common.
+       And it's common for Go methods to be written specifically to handle that case.
+****** "If the concrete value inside the interface itself is nil, the method will be called with a nil receiver."
+******* why that's possible
+        because variables can be declared without being defined:
+        var t *T // t is a *T despite pointing to nothing
+****** "an interface value that holds a nil concrete value is itself non-nil."
+**** the empty interface
+     is used to handle data of unknown type.
+***** syntax
+      var i interface{}
+      describe(i)
+
+      i = 42
+      describe(i)
+
+      i = "hello"
+      describe(i)
+**** type assertions
+     :PROPERTIES:
+     :ID:       a1ca7458-603c-4582-bc92-ea853b01a53e
+     :END:
+     are to get the concrete type an interface value holds.
+***** the safe way to do it
+      t, ok := i.(T)
+      If i holds a T, then t gets its value and ok is true.
+      Otherwise t is the zero value of type T and ok is false.
+***** the dangerous way: omit the "ok" variable
+      t := i.(T)
+      If ok would have been false,
+      then this triggers a panic.
+**** type switches
+     :PROPERTIES:
+     :ID:       d3422768-af80-4d45-92e7-dd8a59f6aef6
+     :END:
+***** explanation
+      As in a [[id:a1ca7458-603c-4582-bc92-ea853b01a53e][type assertion]], here `v`
+      is assigned the value that the interface variable
+      `i` (holds? points to?),
+      but strangely, the cases state types, not values.
+***** syntax
+      // Note that "type" below is a keyword.
+      switch v := i.(type) {
+        case T:
+          // here v has type T
+        case S:
+          // here v has type S
+        default:
+          // no match; here v is equal to i in type and value
+          // (but [[id:12f2e827-dcb1-4adf-b7a8-2d946fcdb7ae][it might be a copy]]).
+      }
+****** TODO Is it a copy?
+       :PROPERTIES:
+       :ID:       12f2e827-dcb1-4adf-b7a8-2d946fcdb7ae
+       :END:
+*** some important interfaces
+**** Stringer: like Haskell's Show
+     type Stringer interface {
+       String() string
+     }
+**** Error
+***** the definition
+      type error interface {
+        Error() string
+      }
+***** To check whether a function returned an error.
+      It usually returns two values, the second an error.
+
+      i, err := strconv.Atoi("42")
+      if err != nil { ... deal with the error ... }
+* solutions
+** print a thing's type or value
+   Use %T or %v in a function from the `fmt` package:
+
+   func describe(i I) {
+     fmt.Printf("(%v, %T)\n", i, i)
+   }
+** concatenate strings
+   https://golangdocs.com/concatenate-strings-in-golang
+   The easiest way is with (+):
+     "x" + " " + "y"

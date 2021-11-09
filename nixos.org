@@ -45,10 +45,11 @@
     "so that unknown arguments are ignored".
 * [[id:52b7a722-8591-4f9b-a290-cccd1639e565][NixOS packages: create, build, install, publish]]
 * [[id:48cdd2bf-b45b-44a7-b7f8-43cbf73fa7b8][NixOS, my config]]
+* [[id:17e1cea2-480d-4cda-ad7c-ffbb7f5c3989][NixOS, reconfiguring]]
 * [[id:f2f429b7-c918-4421-a186-b0ab272ca0e2][audio in NixOS]]
   music, sound
 * [[id:53cafeca-3de3-4f04-be36-3fdcb04a4d55][NixOS, installing]]
-* [[id:ac6d4247-4880-4740-9aa3-0407f4d8b397][NixOS, how to upgrade]]
+* [[id:ac6d4247-4880-4740-9aa3-0407f4d8b397][NixOS, how to upgrade]] from one version of NixOS to another.
 * collect garbage
   `sudo nix-collect-garbage --delete-older-than 7d` # keep the last week
   `sudo nix-collect-garbage -d`                     # keep only latest config

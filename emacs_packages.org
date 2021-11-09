@@ -25,6 +25,7 @@
 *** Project management : whole section of awesome-emacs
 *** git-link - get the GitHub/Bitbucket/GitLab/... URL for a buffer location
 *** markdown-toc
+*** [[id:3a5b4f38-f7db-4f37-9710-80ca2b82e139][neotree (Emacs package)]]
 ** easy
 *** helm-file-preview
 *** helm-taskswitch

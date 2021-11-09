@@ -44,15 +44,51 @@
 ** TODO ? security
    AWS so far does not seem to care if people in different places
    log in to the same User. But maybe it would if we did it simultaneously.
-* how to use an IAM user from a program
-** Make a config file at ~/.aws/config
-*** its contents, with some variables that need substitution
-    [profile <profile name>]
-    user_arn = arn:aws:iam::<number>:user/<user name>
-*** where to get those variables
-    <profile name> is something I can invent. It's only meaningful on the machine where I've put the config file; AWS won't see it.
-    <user name> is some programmatic (as opposed to human) User I've created in AWS IAM with the permissions I need.
-    To find <number>, find that User in the AWS Console,
-    and then find its "User ARN".
-    That's actually the whole URI I need; I can copy and paste that whole thing, not just the number in it.
-** Run CLI commands with `--profile <profile name>`.
+* how to use it
+** TODO | PITFALL :: I'm not sure how to reconcile these two procedures.
+** access S3 from my own computer
+*** I nuked two files in ~/.aws
+    My config and credentials files.
+*** I ran "aws configure" from the CL.
+    That prompts me for four things.
+**** PITFALL: The secret access key is only visible on creation.
+     If I immediately ingest it into my .aws config (e.g. via `aws configure`)
+     then it'll be stored (in plain text!) in my ~/.aws folder.
+**** region = us-east-1
+**** output = json
+**** access key id = something I got from the "Users" tab of the "IAM" WUI
+**** access key ("secret") = something I got from the same placex
+*** After that it worked.
+    I could run, e.g.,
+      aws s3 ls s3://invisible-to-most/latest
+** use an IAM user or role from an EC2 program
+*** TODO It would be easy to determine whether [[id:a71765b8-3daa-4866-abe4-77eb185b9e3b][these]] matter
+    By running this experiment:
+    Hide my ~/.aws folder and try running aws cli commands.
+    (It just might require restarting the Phanaeros services after replacing the .aws folder.)
+*** "Attach" the role to the instance from the EC2 WUI.
+    :PROPERTIES:
+    :ID:       70b8c308-b1fd-4227-a1be-1a041afcb379
+    :END:
+**** I attached the role "total-access-to-wtfunique".
+     This gives total (read, write) access to an S3 bucket.
+**** ref
+     See " Attach an IAM role to an instance" here:
+     https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html
+*** and maybe the following, or maybe they have no effect.
+    :PROPERTIES:
+    :ID:       a71765b8-3daa-4866-abe4-77eb185b9e3b
+    :END:
+**** Maybe make (or copy to ) config files at ~/.aws/config
+***** its contents, with some variables that need substitution
+      [profile <profile name>]
+      user_arn = arn:aws:iam::<number>:user/<user name>
+      region = us-east-1 # This line might not be needed.
+      output = json      # This line might not be needed.
+***** where to get those variables
+      <profile name> is something I can invent. It's only meaningful on the machine where I've put the config file; AWS won't see it.
+      <user name> is some programmatic (as opposed to human) User I've created in AWS IAM with the permissions I need.
+      To find <number>, find that User in the AWS Console,
+      and then find its "User ARN".
+      That's actually the whole URI I need; I can copy and paste that whole thing, not just the number in it.
+**** Maybe CLI commands with `--profile <profile name>`.

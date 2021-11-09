@@ -7,6 +7,7 @@ This regards installing from scratch, not upgrading.
 Learned during the install process for NixOS 20.09.
 Before I had it working I asked some questions here:
   https://discourse.nixos.org/t/nixos-20-09-fresh-vanilla-install-this-gpt-partition-label-contains-no-bios-boot-partition/9903/6
+* [[id:a8356007-6419-441c-80d8-97776cc64c08][burn an .iso file to a USB drive]]
 * gotchas
 ** prepare data on old system
 *** some dot files will not be part of my backup
@@ -48,3 +49,12 @@ sudo cp ~/install/configs/configuration.7.weird-details /etc/nixos/configuration
 sudo cp ~/install/configs/packages.9.audio.transfer-complete /etc/nixos/packages.nix
 sudo cp ~/install/configs/emacs.nix /etc/nixos/
 ** sudo nixos-rebuild switch
+* installing without X
+** drop the screen resolution if possible
+   Unfortunately `xrandr` is not part of the installer.
+** connect to the network
+   :PROPERTIES:
+   :ID:       87e0399d-8316-43a7-94c8-575b0ec4e803
+   :END:
+   wpa_supplicant -B -i interface_name -c <(wpa_passphrase network_name passphrase)
+   I was unable, and gave up here.

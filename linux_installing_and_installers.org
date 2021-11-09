@@ -3,7 +3,7 @@
 :END:
 #+title: Linux: distributions, desktop environments, window managers
 * PITFALL: Distro > Desktop Environment > Window Manager
-* some Linux distros
+* Linux distros
 ** Tiny Core might be the smallest.
    It's hard to use but it's the fastest, running entirely in RAM.
    Not part of NixOS.
