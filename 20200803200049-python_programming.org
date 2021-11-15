@@ -4,6 +4,10 @@
 #+title: Python (programming language)
 * [[id:1a97cb6c-b6ff-4439-9790-ff372bc1ee38][scipy (libraries for Python)]]
 * [[id:74d6d7d1-7749-4d60-925d-43958fcd3ee3][testing in Python]]
+* profiling in Python
+** an authoritative-looking overview of profiling in Python
+   https://news.ycombinator.com/item?id=29092688
+** Pyheatmagic (library)
 * [[id:8bcdca01-a78f-4ee1-9873-51ef24fc5f0a][imports and modules in Python]]
 * [[id:c5146fa1-d833-4018-9b5b-4506044a3a09][Python dictionaries are hash tables.]]
 * [[id:a44ce4eb-ff38-4ee3-8e72-50f9902ff754][Python and virtualenv in Nix]]

@@ -8,7 +8,10 @@ Learned during the install process for NixOS 20.09.
 Before I had it working I asked some questions here:
   https://discourse.nixos.org/t/nixos-20-09-fresh-vanilla-install-this-gpt-partition-label-contains-no-bios-boot-partition/9903/6
 * [[id:a8356007-6419-441c-80d8-97776cc64c08][burn an .iso file to a USB drive]]
-* gotchas
+* PITFALLs
+** UEFI is described before Legacy Boot.
+   Legacy Boot is what I want,
+   at least for my 2017 Dell and earlier machines.
 ** prepare data on old system
 *** some dot files will not be part of my backup
     For instance, my ~/.stack/config.yaml file, because .stack/ is excluded from my backups.
