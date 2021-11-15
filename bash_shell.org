@@ -5,6 +5,18 @@
 #+title: Bash shell
 * [[id:bd26daee-2344-42ac-8101-dcba3111ed69][xsel (copy to the clipboard (or elsewhere) from Bash)]]
 * [[id:784c0660-a998-4bbf-bc80-c0b46a89a632][make (build utility)]]
+* to set an environment variable from a script
+** Call the script using "." (rather than, say, "bash").
+   This runs the script "in the current environment".
+** demo
+   jeff@jbb-dell:quant$ echo $NONSENSE_WORD # It's not defined.
+
+   jeff@jbb-dell:quant$ cat test-export.sh
+   export NONSENSE_WORD="HTUIOGSHLSDGA:"
+   jeff@jbb-dell:quant$ . test-export.sh
+   jeff@jbb-dell:quant$ echo $NONSENSE_WORD # Now it is.
+   HTUIOGSHLSDGA:
+   jeff@jbb-dell:quant$
 * view a readable diff of two csv files
   csv-diff file file2 --key="field-name"
   (This is installed in the Docker image.)

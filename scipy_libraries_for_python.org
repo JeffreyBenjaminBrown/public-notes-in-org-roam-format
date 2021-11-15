@@ -78,3 +78,8 @@
         ) . reset_index(
         ) . drop( columns = "level_1" )
                   # the other part of the index is unneeded
+* [[id:42538f79-f00b-48c6-adf6-f4ff8d805479][export an Excel spreadsheet in a format readable by humans and Pandas]]
+* to parse some columns as dates when calling read_csv
+    pd.read_csv (
+      "data/history.csv",
+      parse_dates = [ "time, favorite time" ] )

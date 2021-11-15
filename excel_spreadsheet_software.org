@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       03c771fd-0df9-45cc-85f6-cce2345c9faf
+:END:
+#+title: Excel (spreadsheet software)
+* export an Excel spreadsheet in a format readable by humans and [[id:1a97cb6c-b6ff-4439-9790-ff372bc1ee38][Pandas]]
+  :PROPERTIES:
+  :ID:       42538f79-f00b-48c6-adf6-f4ff8d805479
+  :END:
+  use the "unicode .txt" format,
+  and then in Pandas decode it using read_csv,
+  specifying tabs as the separator:
+    grouped = pd.read_csv (
+      "vat-by-coicopunicode.txt",
+      sep = "\t" )
