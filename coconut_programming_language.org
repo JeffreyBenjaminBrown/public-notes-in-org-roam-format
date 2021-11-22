@@ -2,6 +2,20 @@
 :ID:       22a5db45-5515-4ef4-b583-4bc82c396582
 :END:
 #+title: Coconut (programming language)
-* my notes on Coconut are in SmSn
+* most of my notes on Coconut are in SmSn
   in data/public, at node
     Y9AzomjvuoZxeRU3
+* coconut & tricky
+** constructors for immutable data
+   Since data types are immutable, __init__ construction won’t work. Instead, a different special method __new__ is used
+** function composition pipe operators ..>, <.., ..*>, and <*...
+** Lazy lists can refer to as-yet unbound variables.
+   abcd = (| d(a), d(b), d(c) |)  # a, b, c, and d are not defined yet
+   def d(n) = n + 1
+
+   a = 1
+   abcd$[0]
+   b = 2
+   abcd$[1]
+** Use __truediv__ to define the / operator, which can then be used as a one character  op.
+** Fmap is like map plus a constructor. If I map a class and get back a tuple, use fmap instead.
