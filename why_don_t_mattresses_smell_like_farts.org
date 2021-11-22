@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       a24e3190-486b-4636-a630-5d6d02408cc7
+:END:
+#+title: Why don't mattresses smell like farts?
+* Where can I ask?
+  :PROPERTIES:
+  :ID:       44291509-33bc-40f5-8e8b-fb207d32bbe0
+  :END:
+  r/ELI5 does not think it's appropriate.
+* writeups
+** My first writeup, more direct
+   Why don't mattresses smell like farts?
+   The typical mattress endures thousands of farts over its life. A fart is, in the words of Neil deGrasse Tyson, "aerosolized poop". If you blew that much spraypaint into a matress it would change color. It therefore seems like any mattress should smell horrendous after less than a year, but many are productive for decades. How is that?
+** My second writeup, avoiding words I thought might trigger auto-moderation.
+   Why don't mattresses smell worse?
+   The typical mattress has foul air (I'm avoiding a word that the auto-moderator doesn't like) vented into it thousands of times over its life. If you blew 0.1% that much spraypaint into a matress, it would change color. It therefore seems like every mattress should smell horrendous after less than a year, but many are productive for decades. How is that?

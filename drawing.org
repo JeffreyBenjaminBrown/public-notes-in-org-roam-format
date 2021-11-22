@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       825a73b2-1834-4051-b03c-6547571b4abf
+:ROAM_ALIASES: sketch art
+:END:
+#+title: drawing
+* [[id:179fdf34-635b-479a-8aaa-be01277bea70][TLDraw: small online sketching app]]

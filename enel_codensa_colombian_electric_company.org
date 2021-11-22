@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       4d449697-8ee7-499d-a28d-7c850c673962
+:END:
+#+title: Enel-Codensa (Colombian electric company)
+* paying them
+** PITFALL: Bancolombia calls them "A Toda Hora SA"
+** Botón de pago
+   https://www.enel.com.co/es/personas/servicio-al-cliente/boton-de-pago.html
