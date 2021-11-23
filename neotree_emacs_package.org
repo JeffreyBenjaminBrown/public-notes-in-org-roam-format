@@ -9,7 +9,7 @@
    I tried customizing that farther; it's too hard, not worth it.
 * commands
 ** shortcuts
-*** to move
+*** to move focus
 **** C-c C-c Change the root directory.
 **** n next line, p previous line
 **** U Go up a directory

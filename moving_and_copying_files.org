@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       743baaa9-2e98-4bd8-8b7e-ae27c4b0f241
+:END:
+#+title: moving and copying files
+* the "argument list too long" error
+  :PROPERTIES:
+  :ID:       6983392a-00c2-45fd-b644-941cafa725ab
+  :END:
+** how it arises
+   cp and mv can both cause this error,
+   if they're moving a lot of files.
+** solution: use `find .. exec .. mv`
+*** code example
+    jeff@jbb-dell:bk$ tree
+    .
+    ├── 1
+    │   ├── a
+    │   └── b
+    ├── 12
+    │   ├── c
+    │   ├── d
+    │   └── e
+    └── sink
+
+    3 directories, 5 files
+    jeff@jbb-dell:bk$ find 1* -type f -exec mv -t sink {} +
+    jeff@jbb-dell:bk$ tree
+    .
+    ├── 1
+    ├── 12
+    └── sink
+        ├── a
+        ├── b
+        ├── c
+        ├── d
+        └── e
+
+    3 directories, 5 files
+    jeff@jbb-dell:bk$
+* rsync > scp

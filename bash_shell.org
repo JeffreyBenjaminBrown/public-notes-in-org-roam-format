@@ -58,3 +58,10 @@
      egrep "[0-9]+" -r build -r common -r draw -r regime *.py -C 5 --exclude="*test*"
    and then read that screen. (Dumping it to a file would mean losing the colors,
    which makes the reading process much slower.)
+* [[id:743baaa9-2e98-4bd8-8b7e-ae27c4b0f241][moving and copying files]]
+* kill all processes matching regex
+  Find processes matching a regex,
+  extract the second word (the pid) from `ps`,
+  kill each.
+
+  ps -ef | grep "bash" | awk '{print "kill " $2}' | sh

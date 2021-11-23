@@ -19,11 +19,13 @@
    with the -L option --
    which must come right after the word "tmux", before the tmux subcommand
    (e.g. "tmux -L sys ls", where "ls" is the subcommand).
-* to run multiple tmux *servers*
+* using multiple tmux *servers*
 ** To launch and save, see my script ~/code/git_play/myTmux
 ** To do things like `tmux ls` from outside of tmux
    Pass the `-L` argument to `tmux` *before*
    the tmux command (e.g. ls, kill-session, etc.)
+** To kill one
+   tmux -L sys kill-server
 * the "tmux prompt"
 ** access it with `M-b :`
 ** It's useful from within shell apps.

@@ -2,3 +2,29 @@
 :ID:       e92dbb64-6661-4e43-90af-da327bb02a86
 :END:
 #+title: requests (Python library for HTTP)
+* "max retries exceeded" error
+  :PROPERTIES:
+  :ID:       40c34f98-b6b0-4106-b413-041fb2fbec60
+  :END:
+** why it happens
+   By default, the `requests` library retries a lot (forever?)
+   if it doesn't establish a connection,
+   to which the server can respond with this error.
+** solution
+*** the idea
+    The trick is to impose a `max_retries` value on the request.
+    This requires using a different "adapter", as described here:
+    https://stackoverflow.com/questions/15431044/can-i-set-max-retries-for-requests-request
+*** demo code
+    import requests
+    from   requests.adapters import HTTPAdapter
+    import python.constants as constants
+
+    s = requests.Session()
+    s.mount ( "", # This "prefix" argument could be a URL,
+                  # but I don't see how to use it.
+              HTTPAdapter(max_retries=1 ) )
+    s.get( "https://www.buda.com/api/v2/markets/btc-cop/order_book" )
+*** TODO ? use the "prefix" argument to `mount` in the code above
+    If it turns out that max retries is still exceeded,
+    it might be because the limit is only applied to URLs based on the prefix.

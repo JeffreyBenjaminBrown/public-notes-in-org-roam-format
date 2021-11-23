@@ -13,6 +13,11 @@
 ** org-roam-search
    https://github.com/natask/org-roam-search
 * [[id:2aef3e2d-4518-4d44-ba76-93feeb0fc981][org-roam v2 migration, my story]]
+* PITFALL: move org-roam files [[id:b21e2b07-d97f-4135-ae22-8b8737075ce8][using dired]]
+  This causes updates to the org-roam db.
+  Maybe other Emacs file-moving facilities (e.g. neotree)
+  would do the same.
+  moving them from a shell certainly doesn't.
 * PITFALL: What to do if [[id:342a603e-98e2-4f54-a53b-5eb2ec830948][org-roam can't follow a link]].
 * PITFALL: notes with nothing but a title
   :PROPERTIES:
