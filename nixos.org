@@ -2,23 +2,6 @@
 :ID:       ddb8edf6-94c8-49cf-8b8e-872ef301a485
 :END:
 #+TITLE: NixOS (operating system)
-* switching channels in NixOS
-  How I upgraded to nixos-unstable
-** If I need to undo it.
-   I'm trying this at vie 22 oct 2021 19:00:10 -05
-   I saved the last week of builds;
-   reverting to anything before that should be safe.
-   I'm doing all this work on the 2021-unstable branch of my NixOS config.
-** steps
-   as root, one at a time:
-
-   nix-channel --list
-   nix-channel --add https://nixos.org/channels/nixos-unstable nixos
-     # nixos here is a channel alias
-   nix-channel --list
-   nix-channel --update nixos
-     # nixos here is a channel alias
-   nixos-rebuild switch --upgrade
 * TODO fix my dependencies in jbb-config/custom-packages
   Because things change in Nixos 21.05:
   https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-21.05

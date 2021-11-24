@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       f9cd3a15-4683-4bf1-b5c2-2344c22cf712
+:END:
+#+title: Javascript (programming language)
+* loops in Javascript
+** PITFALL: "for ... of" and "for ... in" are different!
+   "for ... in" loops over keys/indices.
+   "for ... of" loops over values.
+
+   for (let c in consumables) {
+     row . appendChild (
+       mkCell_text (
+         "th",
+         consumables[c] ) ) // with "of" instead of "in", I could just
+                            // write 'c' instead of 'consumables[c]'
+   }
+** loop over numeric range
+   C-style, plus a "let":
+
+   for (let ri = 0; ri < table.rows.length; ri++) {
+     table.rows [ri] . deleteCell (colIndex)
+   }

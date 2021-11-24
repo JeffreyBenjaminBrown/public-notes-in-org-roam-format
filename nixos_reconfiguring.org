@@ -2,6 +2,24 @@
 :ID:       17e1cea2-480d-4cda-ad7c-ffbb7f5c3989
 :END:
 #+title: NixOS, (re)configuring
+* switching channels in NixOS
+** If I need to undo it.
+   I'm trying this at vie 22 oct 2021 19:00:10 -05
+   I saved the last week of builds;
+   reverting to anything before that should be safe.
+   I'm doing all this work on the 2021-unstable branch of my NixOS config.
+** How I upgraded to nixos-unstable
+   as root, one at a time:
+
+   sudo nix-channel --list
+   sudo nix-channel --remove nixos
+     # Do this if it's already set.
+   sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
+     # nixos here is a channel alias
+   sudo nix-channel --list
+   sudo nix-channel --update nixos
+     # nixos here is a channel alias
+   sudo nixos-rebuild switch --upgrade
 * name a new configuration with `-p`
   For instance,
   sudo nixos-rebuild switch -p no_music_config_although_packages
