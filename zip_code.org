@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ffe39beb-509d-44e5-9cae-8995be82c4ab
+:ROAM_ALIASES: "postal code"
+:END:
+#+title: zip code
+* finding postal|zip codes in Colombia
+  :PROPERTIES:
+  :ID:       e9c13a84-0151-4df5-bb49-af5e4bda6ab0
+  :END:
+  https://worldpostalcode.com/colombia/bogota/

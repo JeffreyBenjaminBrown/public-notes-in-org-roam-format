@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       1d0e24bc-a169-4f35-93de-aa3866c910f3
+:END:
+#+title: Colombia
+* [[id:e9c13a84-0151-4df5-bb49-af5e4bda6ab0][finding postal|zip codes in Colombia]]
+* [[id:63060749-a410-4311-a6fe-b8e172e2d34b][Colombia, laws and institutions]]
