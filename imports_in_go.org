@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       b27c658d-b043-4785-893f-64fce5f524ab
+:END:
+#+title: imports in Go
+* ref : dependency tracking in Go, a terribly procedural explanation
+  https://golang.org/doc/tutorial/call-module-code
+* import syntax
+  import (
+    "fmt"                     // stdlib, can be imported unqualifed
+    "gonum.org/v1/gonum/mat"  // not stdlib, needs qualification
+  )
+* to install everything in a program's import statements
+  go mod tidy
+* finding and using external Go packages
+  serial
+** Search for published modules here.
+   https://pkg.go.dev/search
+** That gives the qualified name in parens after the unqualified one.
+** Use the qualified name when importing it.
+* finding and using my own Go packages elsewhere
+  If code folder X is to refer to functions in code folder Y,
+  then code from X should say something like "import <name of y>",
+  e.g. "import jbb/y".
+  For that to work, run something like this from code folder X:
+    go mod edit -replace jbb/y=<path/to/y>
+  for instance
+    go mod edit -replace jbb/y=../y
+* naming and tracking folders
+** Each code folder (I guess?) gets tracked separately.
+** Standard practice is to prefix the library names with "<my id>/", where <my id> is a symbol nobody else will use.
+** example code: How I've been doing it
+   In a folder called
+     hello/
+   I'll run
+     go mod init hello
+* replace v. require
+  `replace` is used to redirect to local modules.
+  For "published" ones,
+  a `require` statement is written instead to `go.mod`.
+  An example is
+    require example.com/greetings v1.1.0

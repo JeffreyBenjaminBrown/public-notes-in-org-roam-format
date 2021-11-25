@@ -10,53 +10,20 @@
 
    ~/code/go/go-experim/error.go
    https://tour.golang.org/methods/20
-* to search for Go packages
-  https://pkg.go.dev/search
-* running Go code
-** dependency tracking in Go
-*** ref: a terribly procedural explanation
-    https://golang.org/doc/tutorial/call-module-code
-*** to install everything in a program's import statements
-    go mod tiny
-*** naming and tracking folders
-**** Each code folder (I guess?) gets tracked separately.
-**** Standard practice is to prefix the library names with "<my id>/", where <my id> is a symbol nobody else will use.
-**** example code: How I've been doing it
-     In a folder called
-       hello/
-     I'll run
-       go mod init hello
-*** seeing one folder from another
-    If code folder X is to refer to functions in code folder Y,
-    then code from X should say something like "import <name of y>",
-    e.g. "import jbb/y".
-    For that to work, run something like this from code folder X:
-      go mod edit -replace jbb/y=<path/to/y>
-    for instance
-      go mod edit -replace jbb/y=../y
-*** replace v. require
-    `replace` is used to redirect to local modules.
-    For "published" ones,
-    a `require` statement is written instead to `go.mod`.
-    An example is
-      require example.com/greetings v1.1.0
-** running, building and installing
-*** "go run" compiles and runs, without creating a binnary
-    It's useful for the dev cycle, when making many changes.
-*** "go build" creates an executable.
-*** "go install" makes executables globally available.
-    Run
-      go list -f '{{.Target}}'
-    to find Go's "install path".
-    Run
-      go install
-    to put the executable there.
-    Add the Go install path to my PATH
-    to make everything there globally available.
-** `init` functions
-   In *any* module, not just the top of the hierarchy,
-   an `init` function can be defined,
-   which executes "after global variables have been initialized".
+* running, building and installing
+** "go run" compiles and runs, without creating a binnary
+   It's useful for the dev cycle, when making many changes.
+** "go build" creates an executable.
+** "go install" makes executables globally available.
+   Run
+     go list -f '{{.Target}}'
+   to find Go's "install path".
+   Run
+     go install
+   to put the executable there.
+   Add the Go install path to my PATH
+   to make everything there globally available.
+** [[id:27d7d419-d743-4d65-9f23-de99820f712d][execution order]] in Go
 ** tests in Go
    :PROPERTIES:
    :ID:       ae748d4d-eb68-4f48-b73b-af28eae5c323

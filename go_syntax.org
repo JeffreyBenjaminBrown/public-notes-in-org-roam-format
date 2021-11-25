@@ -2,14 +2,7 @@
 :ID:       95cb96bd-765c-4525-b51a-3affbf103d4b
 :END:
 #+title: Go syntax
-* import statements
-** import one thing
-   import "fmt"
-** import many things
-   import (
-       "errors"
-       "fmt"
-   )
+* [[id:b27c658d-b043-4785-893f-64fce5f524ab][imports in Go]]
 * capitalization is weird
   Public functions are capitalized.
   Everything else (inc. private functions and types) is lowercase.
