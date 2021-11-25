@@ -38,6 +38,7 @@
 *** run tests
     from the folder containing them, with
       go test
+* [[id:b27c658d-b043-4785-893f-64fce5f524ab][imports in Go]]
 * [[id:95cb96bd-765c-4525-b51a-3affbf103d4b][Go syntax]]
 * [[id:ae748d4d-eb68-4f48-b73b-af28eae5c323][testing in Go]]
 * solutions

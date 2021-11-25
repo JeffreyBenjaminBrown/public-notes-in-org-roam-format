@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       e3544bcf-ff56-4667-b924-3b7baaea26ac
+:END:
+#+title: SuperDirt (plugin for SuperCollider)
+* installing it
+  serial, in scide
+** This probably is not required.
+   Set `ugenPluginsPath` [[id:b45a1d6d-3cef-472e-9c4f-44b8296bd17e][as required by my strange NixOS setup]].
+
+   s.options.ugenPluginsPath =
+     "/home/jeff/.local/share/SuperCollider/Extensions/";
+   s.boot;
+** run this
+   Quarks.install("SuperDirt")
+* updating it
+  Quarks.update("SuperDirt")

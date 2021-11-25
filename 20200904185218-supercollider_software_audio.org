@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       062d9fcc-128a-411a-b5c0-d792c47dedab
 :END:
-#+title: Supercollider (software, audio)
+#+title: SuperCollider (software, audio)
 * refs
 ** where I got help packaging it for NixOS
    https://discourse.nixos.org/t/trying-to-install-sc3-plugins-but-in-nixos-i-dont-understand-packaging-or-c/15433

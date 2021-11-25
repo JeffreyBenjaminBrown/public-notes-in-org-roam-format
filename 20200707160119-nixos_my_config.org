@@ -2,6 +2,15 @@
 :ID:       48cdd2bf-b45b-44a7-b7f8-43cbf73fa7b8
 :END:
 #+title: NixOS, my config
+* TODO should also enable sound if I use Musnix?
+  My configuration.nix currently has the line
+      sound.enable = true;
+* TODO should Musnix know about my external soundcard?
+  My config currently contains this:
+    # Find this value with `lspci | grep -i audio` (per the musnix readme).
+    # PITFALL: This is the id of the built-in soundcard.
+    #   When I start using the external one, change it.
+    soundcardPciId = "00:1f.3";
 * TODO [[id:80c451e8-da34-4d5f-8483-f3e3b56ff16b][do I want org-roam to work with company? helm? both?]]
 * TODO imperative shell stuff to run
   ~/nix/jbb-config/imperative.sh

@@ -8,21 +8,22 @@
   :PROPERTIES:
   :ID:       b45a1d6d-3cef-472e-9c4f-44b8296bd17e
   :END:
-** Explanation
+** why
    Installing SC and SC3-plugins is not enough
    to use the latter in the former.
    That's because SC still doesn't *know* about SC3-plugins.
-   The ordinary remedy involves changing the installation,
-   but since Nix won't allow that, one must do something else.
-** One must
+   The non-NixOS remedy involves changing the installation.
+   NixOS requires something else.
+** how
+   serial
 *** create symlinks in the local SC user extensions folder
-    [jeff@jbb-dell:~/.local/share/SuperCollider/Extensions]$ pwd
+    jeff@jbb-dell:Extensions$ pwd
     /home/jeff/.local/share/SuperCollider/Extensions
 
-    [jeff@jbb-dell:~/.local/share/SuperCollider/Extensions]$ ls -l
-    plugins			-> /nix/store/22jyx8mm6ynlxcxwaaabyxvvwq5dss4c-supercollider-3.11.2/lib/SuperCollider/plugins
-    SC3plugins		-> /nix/store/591z795zn2na6q0976b3ix0lk5nywgkv-sc3-plugins-3.11.1/share/SuperCollider/Extensions/SC3plugins
-    SC3-plugin-so-files	-> /nix/store/591z795zn2na6q0976b3ix0lk5nywgkv-sc3-plugins-3.11.1/lib/SuperCollider/plugins
+    jeff@jbb-dell:Extensions$ ls -l
+    builtin-plugins -> /nix/store/1zbahmsdysxm4b0d87g8wsxzr8746wnn-supercollider-3.12.1/lib/SuperCollider
+    sc3-plugins     -> /nix/store/jfpar7cfahcc2464q3fs37pf5lmdk63n-sc3-plugins/share/SuperCollider/Extensions/SC3plugins
+    sc3-plugins-so  -> /nix/store/jfpar7cfahcc2464q3fs37pf5lmdk63n-sc3-plugins/lib/SuperCollider/plugins
 *** start the SC server in an extensions-aware manner
 **** If starting SC from the command line
      then specify where to fetch extensions with the -U option.

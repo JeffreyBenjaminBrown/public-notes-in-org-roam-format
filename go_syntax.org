@@ -225,16 +225,24 @@
        case x < y: ...
        case z < w: ...
 *** [[id:d3422768-af80-4d45-92e7-dd8a59f6aef6][type switches]]
-* defer execution
-  A "deferred call"'s arguments are evaluated immediately,
-  but the call is not evaluated until after the surrounding function.
-  Deferred calls are printed in LIFO order.
+* execution order
+  :PROPERTIES:
+  :ID:       27d7d419-d743-4d65-9f23-de99820f712d
+  :END:
+** defer execution
+   A "deferred call"'s arguments are evaluated immediately,
+   but the call is not evaluated until after the surrounding function.
+   Deferred calls are printed in LIFO order.
 
-  func main() {
-       defer fmt.Println("This prints third.")
-       defer fmt.Println("This prints second.")
-       fmt.Println("This prints first.")
-  }
+   func main() {
+        defer fmt.Println("This prints third.")
+        defer fmt.Println("This prints second.")
+        fmt.Println("This prints first.")
+   }
+** `init` functions
+   In *any* module, not just the top of the hierarchy,
+   an `init` function can be defined,
+   which executes "after global variables have been initialized".
 * functions
 ** lambdas ("function literals"?)
    func main () {

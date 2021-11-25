@@ -4,7 +4,10 @@
 #+title: TidalCycles, installing and updating
 * PITFALL: There are numerous pieces to update.
   https://tidalcycles.org/docs/getting-started/upgrading
-  Tidal, the SuperDirt quark, the Emacs extension, maybe more.
+  SuperCollider
+  the SuperDirt quark
+  the Emacs extension (actually [[id:abc74ffc-26f2-4232-98c9-578ae2c97132][I prefer not to]])
+  Tidal
 * How to change the SC launch options
   modify this
     ~/.local/share/SuperCollider/downloaded-quarks/SuperDirt/superdirt_startup.scd
@@ -13,7 +16,8 @@
    The first time it will install a lot of dependencies
    to the global .cabal store, but not Tidal itself.
 ** This even [[id:abc74ffc-26f2-4232-98c9-578ae2c97132][works in Emacs]].
-* DO NOT install a global Tidal
+* BLOCKED DO NOT install a global Tidal
+  But this shows how.
 ** I downloaded tidal.el to a new folder.
    mkdir ~/.emacs.d/elisp/tidal
    cd    ~/.emacs.d/elisp/tidal
