@@ -8,6 +8,7 @@
    https://github.com/emacs-tw/awesome-emacs
 * packages of interest
 ** important (and maybe easy)
+*** [[id:82065371-8f2a-4193-a76c-d5d73af546ef][csv-mode (Emacs package)]]
 *** [[id:8ed2933a-cfb1-4f34-9e49-e8c0afdd79d4][dired (Emacs package)]]
 *** docker
 *** evil-mode

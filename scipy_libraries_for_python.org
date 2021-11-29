@@ -62,6 +62,14 @@
    pd.options.display.width = 5000
 ** show lots of rows
    pd.options.display.min_rows = 50
+* to apply a function to each row of a frame
+** syntax
+   hh["months to save for a month"] = hh.apply(
+       lambda row: defs.months_to_save_for_a_month(
+           income = row[income],
+           spending = row[spending] ),
+       axis = "columns" )
+** PITFALL: applying to each *row* => axis = *columns*
 * to apply a function that generates frames from rows to a frame
   # This isn't exactly it, but pretty close.
 

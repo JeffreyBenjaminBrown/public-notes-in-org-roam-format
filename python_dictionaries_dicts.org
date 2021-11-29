@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       5ae0535d-5f21-4a09-8485-0eda8eb4b73a
+:END:
+#+title: Python dictionaries ("dicts")
+* [[id:c5146fa1-d833-4018-9b5b-4506044a3a09][Python's 'dict' is a hash table.]]
+* convert dict to list
+  Pattern match on dict . items():
+  [ (k, v)
+    for k, v
+    in dict . items () ]
+* convert list to dict
+  Use a dictionary comprehension:
+
+  >>> l = [(1,2),(3,4)]
+  >>> { a:b for (a,b) in l }
+  {1: 2, 3: 4}

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       48e416b3-4fa4-4121-af20-3b684f19c1ec
+:END:
+#+title: time in Go
+* "time" is part of the standard library.
+* Now, Sleep and time differences ("Sub")
+  start := time.Now()
+  time.Sleep ( 1e9 ) // nanoseconds, so 1e9 means one second
+  later := time.Now()
+  fmt.Println(
+    later.Sub( // subtraction for times
+      now ) )
+* time.Tick
+  :PROPERTIES:
+  :ID:       44e07f86-b77d-48be-87c4-f2e45611a32d
+  :END:
+  Creates a channel that sends a periodic "tick" signal.

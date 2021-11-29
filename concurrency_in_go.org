@@ -1,0 +1,169 @@
+:PROPERTIES:
+:ID:       f606e719-affa-4b04-b339-39cd13ba8693
+:END:
+#+title: concurrency in Go
+* refs
+  https://go.dev/tour/concurrency
+* Fork with "go".
+  Use "go" to fork a process in a "goroutine":
+  go f(x, y, z)
+* concurrency and evaluation order, context
+** when a gorotine is called
+   In
+     go f(x, y, z),
+   the evaluation of f, x, y, and z happens in the current goroutine,
+   and the execution of f happens in the new goroutine.
+** [[id:1a998482-b4d3-4593-b260-a60a8ed07c73][If (<-ch) is an argument to a function, the whole function evaluates.]]
+* channels
+** basic syntax: create, send, receive
+   ch := make(chan int) // Create a channel.
+   ch <- v              // Send v to channel ch.
+   v := <-ch            // Receive from ch, assign value to v.
+   x, y := <-c, <-c     // Receive from c twice, assign to two vars.
+** PITFALL: (<-) can subsume (=).
+   x <- c // assigns the value in the channel c to x
+   f( <-c ) // Applies f to the value from channel c,
+            // without any kind of assignment.
+   The first would be more consistent with the second if written
+     x = (<-c)
+   or
+     x = <-c
+   and in fact those are also valid syntax.
+** PITFALL: Send and receive both use (<-).
+   They are distinguished by which side of the channel
+   it appears on.
+** PITFALL: Channels must be made before being used.
+** PITFALL: Sends and receives block until the other side is ready.
+*** implication: [[id:ffc42ae4-4702-43b1-9dfc-cde9df392a79][(Unbuffered) channels synchronize processes.]]
+** PITFALL: Channels might be better named "transceivers".
+   There's no concept of "the sender" and "the receiver".
+   Rather, a channel is a thing that can receive values from processes,
+   and from which processes can receive values.
+   The channel can be given to any number of processes,
+   and each can put things into it or draw things out of it.
+** channel types
+*** Channels are typed.
+    c := make (chan int)
+    func sum( s []int,
+              c chan int ) { ... }
+*** (<-) can make "receive-only" part of a channel's type.
+    Example signature:
+    func f () <-chan string
+**** TODO Can channels be "send-only"?
+*** Channels can send channels.
+** Channels can be buffered.
+*** TODO Buffered channels and sync.
+**** [[id:ffc42ae4-4702-43b1-9dfc-cde9df392a79][(Unbuffered) channels synchronize processes.]]
+**** It's *like* the default buffer depth is 1,
+     but at least at 13:25 in this video
+       https://www.youtube.com/watch?v=f6kdp27TYZs
+     Rob Pike says that
+       "buffered channels have different properties".
+     In particular, they don't synchronize
+     the way unbuffered channels do.
+**** Buffered channels are "like mailboxes in Erlang".
+     Rob Pike, 13:41 here:
+       https://www.youtube.com/watch?v=f6kdp27TYZs
+*** The optional second argument to `make( chan _, _ ) is a buffer depth.
+*** Sends to a full buffer block.
+*** Receives from an empty buffer block.
+*** code example
+    func main() {
+        ch := make(chan int, 2) // This buffer has depth 2.
+        ch <- 3
+        fmt.Println(<-ch) // Buffers can be emptied before they are full.
+        ch <- 1
+        ch <- 2
+        fmt.Println(<-ch)
+        fmt.Println(<-ch)
+        ch <- 4
+        ch <- 5
+        ch <- 6 // This breaks the program -- the buffer is full.
+    }
+** (Unbuffered) channels synchronize processes.
+   :PROPERTIES:
+   :ID:       ffc42ae4-4702-43b1-9dfc-cde9df392a79
+   :END:
+*** The sender sends the same time as the receiver receives.
+*** (Buffered channels clearly do something resembling sync,
+    but I'm not sure how to describe it.)
+*** If (<-c) is an argument to a function, the whole function evaluates.
+    :PROPERTIES:
+    :ID:       1a998482-b4d3-4593-b260-a60a8ed07c73
+    :END:
+    Example: If main's last line is
+      ch <- "Bye!"
+    and that correspond's to some goroutine's
+      fmt.Printf ( <- ch )
+    then before main exits,
+    the goroutine will print "Bye!"
+** Channels can be closed.
+*** A receiver can test if a channel is closed -- see syntax.
+*** syntax
+    close(c)
+    v, ok := <-ch // ok is false if there are no more values to receive
+                  // and the channel is closed.
+** looping over a channel's values
+   "receives values from the channel repeatedly until it is closed":
+   for i := range ch { f (<-ch) }
+** Closing a channel is usually not needed.
+   "Closing is only necessary when the receiver must be told there are no more values coming, such as to terminate a range loop."
+** `cap (ch)` gives the capacity of the channel `ch`.
+* `select` lets a goroutine wait on multiple channels.
+** syntax
+   select {
+     case c <- x: // If channel 'c' can receive, send x to c.
+       x, y = y, x+y
+     case <-quit: // If channel 'quit' sends anything, do this.
+       fmt.Println("quit")
+       return
+   }
+** It executes the first one that it can
+   breaking ties randomly.
+** It can wait both for sends and receives.
+** A "default" case lets a "select" try a channel without blocking.
+   select {
+     case i := <-c:
+       // use i
+     default:
+       // receiving from c would block
+   }
+* TODO | SKIPPED: mutexes and locks
+  https://go.dev/tour/concurrency/9
+* Goroutines do not outlive `main`.
+  They should talk to `main` to coordinate shutdown.
+* solutions
+** "fan-in" | "multiplexer": a channel that outputs the output of multiple channels, whoever's ready first
+*** using two goroutines
+    func fanIn ( input1, input2 <-chan string )
+               <-chan string {
+      c := make (chan string)
+      go func() { for { c <- <- ipnut1 } }()
+      go func() { for { c <- <- ipnut2 } }()
+      return c
+    }
+*** using `select`
+    func fanIn ( input1, input2 <-chan string )
+               <-chan string {
+      c := make (chan string)
+    go func() { for { select {
+      case s := <-input1: c <- s
+      case s := <-input2: c <- s
+    } } } ()
+    return c
+** timeout
+*** timeout a select statement
+    select {
+      case ...
+      case ...
+      case <- time.After ( 1 * time.Second ):
+	...
+*** listen for a while then stop
+    timeout := time.After ( 1 * time.Second )
+    for { select {
+      case ...
+      case ...
+      case <- timeout: // we can't define `timeout` here,
+                       // because it's reevaluated each time
+		       // the select statement is.
+        ...

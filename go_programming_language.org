@@ -10,6 +10,8 @@
 
    ~/code/go/go-experim/error.go
    https://tour.golang.org/methods/20
+** a good list of things to read
+   https://go.dev/tour/concurrency/11
 * running, building and installing
 ** "go run" compiles and runs, without creating a binnary
    It's useful for the dev cycle, when making many changes.
@@ -41,7 +43,9 @@
 * [[id:b27c658d-b043-4785-893f-64fce5f524ab][imports in Go]]
 * [[id:95cb96bd-765c-4525-b51a-3affbf103d4b][Go syntax]]
 * [[id:ae748d4d-eb68-4f48-b73b-af28eae5c323][testing in Go]]
+* [[id:f606e719-affa-4b04-b339-39cd13ba8693][concurrency in Go]]
 * solutions
+** [[id:48e416b3-4fa4-4121-af20-3b684f19c1ec][time in Go]]
 ** print a thing's type or value
    Use %T or %v in a function from the `fmt` package:
 

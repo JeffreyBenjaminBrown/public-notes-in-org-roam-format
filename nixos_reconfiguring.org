@@ -2,10 +2,24 @@
 :ID:       17e1cea2-480d-4cda-ad7c-ffbb7f5c3989
 :END:
 #+title: NixOS, (re)configuring
-* find the possible completions given a prefix of a NixOS option
-  nix repl '<nixpkgs>'
-  :l <nixpkgs/nixos>
-  emacsPackages.<TAB>
+* find the possible completions given a NixOS package prefix
+  Here the prefix is "emacsPackages":
+
+  $ nix repl '<nixpkgs>'
+  > :l <nixpkgs/nixos>
+  > emacsPackages.<TAB>
+* find the possible completions given a NixOS option prefix
+  Here the prefix is "system.autoUpgrade":
+
+  [jeff@jbb-dell:~/nix/nixpkgs]$ nixos-option system.autoUpgrade
+  This attribute set contains:
+  allowReboot
+  channel
+  dates
+  enable
+  flags
+  flake
+  randomizedDelaySec
 * switch channels in NixOS
 ** If I need to undo it.
    I'm trying this at vie 22 oct 2021 19:00:10 -05

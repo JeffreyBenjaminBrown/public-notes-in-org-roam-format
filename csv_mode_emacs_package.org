@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       82065371-8f2a-4193-a76c-d5d73af546ef
+:END:
+#+title: csv-mode (Emacs package)
+* csv-align-fields
+  makes it readable.
+* ? reading nonstandard separators
+  I couldn't actually get this to work.
+  https://stackoverflow.com/a/55972242/916142
+  (setq csv-separators '("\t"))
