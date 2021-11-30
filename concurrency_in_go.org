@@ -4,16 +4,22 @@
 #+title: concurrency in Go
 * refs
   https://go.dev/tour/concurrency
-* Fork with "go".
-  Use "go" to fork a process in a "goroutine":
-  go f(x, y, z)
-* concurrency and evaluation order, context
-** when a gorotine is called
-   In
-     go f(x, y, z),
-   the evaluation of f, x, y, and z happens in the current goroutine,
-   and the execution of f happens in the new goroutine.
-** [[id:1a998482-b4d3-4593-b260-a60a8ed07c73][If (<-ch) is an argument to a function, the whole function evaluates.]]
+* goroutines
+** They are effectively* lightweight threads
+   *but not literally --
+   many goroutines get chunked into a single OS thread.
+** Fork (create) them with "go".
+   Use "go" to fork a process in a "goroutine":
+   go f(x, y, z)
+** concurrency and evaluation order, context
+*** when a gorotine is called
+    In
+      go f(x, y, z),
+    the evaluation of f, x, y, and z happens in the current goroutine,
+    and the execution of f happens in the new goroutine.
+*** [[id:1a998482-b4d3-4593-b260-a60a8ed07c73][If (<-ch) is an argument to a function, the whole function evaluates.]]
+** Goroutines do not outlive `main`.
+   They should talk to `main` to coordinate shutdown.
 * channels
 ** basic syntax: create, send, receive
    ch := make(chan int) // Create a channel.
@@ -130,8 +136,6 @@
    }
 * TODO | SKIPPED: mutexes and locks
   https://go.dev/tour/concurrency/9
-* Goroutines do not outlive `main`.
-  They should talk to `main` to coordinate shutdown.
 * solutions
 ** "fan-in" | "multiplexer": a channel that outputs the output of multiple channels, whoever's ready first
 *** using two goroutines

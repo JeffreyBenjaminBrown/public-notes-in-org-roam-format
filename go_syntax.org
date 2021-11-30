@@ -39,63 +39,63 @@
 *** Pointers can point to other pointers, I think.
 **** TODO Right?
 *** [[id:a87fa0fa-0732-4323-96a6-55a6612c5568][Is a pointer needed for a function to modify *any* argument, or only structs?]]
-** some (other) types
-*** maps
-**** Initializing a map requires `make` and looks dumb.
-     myMap := make ( map [key] value )
-**** (Adding to | modifying) a map is familiar, via [] and =
-     like Python
-     myMap[key] = value
-**** Delete part of a map with `delete(map, key)`.
-**** Test for membership with two-value assignment.
-     elem, ok = m[key]
-     If key is in m, ok is true. If not, ok is false.
-***** elem and ok can be declared at the same time.
-      elem, ok := m[key]
-****** TODO Does that work if exactly one of elem and ok is already declared?
-**** PITFALL: Declaration via map literals
-     They need a trailing comma,
-     and the type signature can be confusing.
-     See comments below:
+** maps
+*** Initializing a map requires `make` and looks dumb.
+    myMap := make ( map [key] value )
+*** (Adding to | modifying) a map is familiar, via [] and =
+    like Python
+    myMap[key] = value
+*** Delete part of a map with `delete(map, key)`.
+*** Test for membership with two-value assignment.
+    elem, ok = m[key]
+    If key is in m, ok is true. If not, ok is false.
+**** elem and ok can be declared at the same time.
+     elem, ok := m[key]
+***** TODO Does that work if exactly one of elem and ok is already declared?
+*** PITFALL: Declaration via map literals
+    They need a trailing comma,
+    and the type signature can be confusing.
+    See comments below:
 
-     var m = map [string] Vertex { // type = map string Vertex
-       "Bell Labs" : Vertex{
-               40.68433, -74.39967,
-       },
-       "Google" : Vertex{
-               37.42202, -122.08408,
-       },                          // trailing comma
-     }
-**** PITFALL: As a map, `nil` is both empty and *immutable*.
-*** Structs are product types.
-**** Define a struct
-    type Vertex struct {
-        X int
-        Y int
+    var m = map [string] Vertex { // type = map string Vertex
+      "Bell Labs" : Vertex{
+              40.68433, -74.39967,
+      },
+      "Google" : Vertex{
+              37.42202, -122.08408,
+      },                          // trailing comma
     }
-**** instantiate a struct
-     The RHS of these assignments are called "struct literals".
+*** PITFALL: As a map, `nil` is both empty and *immutable*.
+** Structs are product types.
+*** Define a struct
+   type Vertex struct {
+       X int
+       Y int
+   }
+*** instantiate a struct
+    The RHS of these assignments are called "struct literals".
 
-     v1 = Vertex{1, 2}  // has type Vertex
-     v2 = Vertex{X: 1}  // Y:0 is implicit
-     v3 = Vertex{}      // X:0 and Y:0
-     p  = &Vertex{1, 2} // has type *Vertex
-**** access a struct field
-     x.1 == 1
-***** PITFALL: access a struct field in a pointer
-      The natural way. would be
-        (*p).x
-      but Go also allows
-        p.x
-      making the dereference implicit.
-**** Sometimes struct constructors can be omitted.
-     type Vertex struct {
-             Lat, Long float64
-     }
-     var m = map [string] Vertex {
-       "Bell Labs": {40.68433, -74.39967},
-       "Google":    {37.42202, -122.08408},
-     }
+    v1 = Vertex{1, 2}  // has type Vertex
+    v2 = Vertex{X: 1}  // Y:0 is implicit
+    v3 = Vertex{}      // X:0 and Y:0
+    p  = &Vertex{1, 2} // has type *Vertex
+*** access a struct field
+    x.1 == 1
+**** PITFALL: access a struct field in a pointer
+     The natural way. would be
+       (*p).x
+     but Go also allows
+       p.x
+     making the dereference implicit.
+*** Sometimes struct constructors can be omitted.
+    type Vertex struct {
+            Lat, Long float64
+    }
+    var m = map [string] Vertex {
+      "Bell Labs": {40.68433, -74.39967},
+      "Google":    {37.42202, -122.08408},
+    }
+** arrays and slices
 *** Arrays have fixed length.
 **** declare an array
      var a [10]int
@@ -449,3 +449,10 @@
 
      i, err := strconv.Atoi("42")
      if err != nil { ... deal with the error ... }
+** "variadic" argument list
+   I *think* that's what this is called.
+*** Take any number of arguments of the same type.
+*** example
+    func Merge ( subs ... Subscription ) Subscription {
+      // merge them
+    }
