@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       8ecabf3e-6b70-4b80-ab0e-a7f158e2c07f
+:END:
+#+title: filepaths in Go
+* concatenate paths in Go
+  :PROPERTIES:
+  :ID:       466947c0-d814-43a5-bdae-8a20fd501183
+  :END:
+  /home/jeff/code/go/experim/filepath.go

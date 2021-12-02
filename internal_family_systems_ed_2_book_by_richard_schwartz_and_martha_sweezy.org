@@ -1,0 +1,60 @@
+:PROPERTIES:
+:ID:       650e028b-8662-472f-a81a-437592442862
+:END:
+#+title: Internal Family Systems (Ed 2), book, by Richard Schwartz and Martha Sweezy
+* notes from it
+** "The chattering mind denotes a nonunitary, relational mind."
+** "looking at these personalities caused the entities to distinguish themselves"
+   That immediately follows this:
+   "Although these young women were disturbed to ricochet helplessly among contradictory personalities, "
+** "Identifying parts caused my clients to find them less overwhelming and intimidating"
+** "their descriptions reminded me of families."
+   This immediately follows that:
+   "Each inner voice was idiosyncratic in character, complete with temperament, desires, and a distinct way of communicating. Moreover, parts had alliances and polarities. We discovered that those who were vulnerable got locked away, or, as I came to speak of it, “exiled.” Others managed the client’s life, while yet others distracted from controversy and pain."
+   ...
+   "most parts we met did not trust the client to lead"
+** "family therapy concepts such as homeostasis, triangulation, and scapegoating looked [relevant]"
+** The pyschic parts said they would prefer to do helpful, positive things, but only could once doing so was safe.
+** "When we try to have two people dialogue in a family, other family members often chime in, take sides, and escalate the conflict."
+   "Sometimes we had to ask two or three voices not to interfere before the client could ..."
+** The parts seem to have their own feelings.
+   """
+   I guided Cora to ask her pessimist why it kept insisting she was hopeless. It replied that it didn’t
+   want her to take risks and get hurt. This answer seemed promising. If the pessimist really had a
+   benign intent, maybe Cora could help it find a new role. But Cora was not interested. She was
+   mad at the pessimist and told it (rudely) to leave her alone. When I asked why she was being
+   rude, she went off on a long diatribe about the ill effects of this voice, which had erected major
+   hurdles at every step of her life. As I listened, it dawned on me that we were actually hearing
+   from another part, one who fought with the pessimist. In an earlier conversation, Cora had
+   described an ongoing war between a voice who pushed her to achieve and another one who
+   insisted she was hopeless. This seemed to be the pushing part.
+   So I guided Cora to focus on the pushing, angry voice and to ask it to stop interfering—to “step
+   back” in her mind. To my amazement, the part cooperated and Cora’s attitude suddenly shifted
+   again. When I asked how she felt toward the pessimist now, a completely different person
+   answered. In a calm, caring voice she said that she was grateful to it for trying to protect her, and
+   sorry that it had felt so alone while working so hard.
+   """
+** "I asked my clients who was being so calm and compassionate inside [after having asked the agitated interferers to step back]. Their replies were something like the following: “That’s not a part like those other voices, that’swho I really am, that’s my self.”
+** "Maybe our psychologies, philosophies, and religions had radically underestimated what we call human nature."
+** "noticing parts in my body and asking them to step back instead of using a mantra. Amazingly it worked, and this is how I continue to meditate today"
+** The Self does not need time to develop.
+   """
+   After watching scores of clients embody qualities of the Self with total spontaneity as
+   soon as their parts separated, I finally embraced the idea that there is more to us than we usually
+   let ourselves dream. And whatever this was (in calling it the Self, I was following my clients’ lead),
+   it clearly did not need to develop over time. It was always right there if our parts let it in.
+   """
+** "Beyond being a peaceful state from which to witness and transcend the world, this mindful state of Self was also healing, creative, and performance enhancing."
+** what parts needed
+   """
+   Parts like Cora’s pessimist struck
+   me as inner trauma victims, stuck in the past and frozen at a time of great distress, often in
+   childhood. They were activists, and they needed the client to understand their motivations. Otherparts mostly needed to be heard, held, comforted, and loved.
+   Most amazing of all, once clients were in that Self-state, they seemed to know just what each
+   inner personality needed.
+   """
+* reading it (mechanics)
+  ~/ifs.txt
+** 8130 lines (exclding glossary, etc.)
+** continue at line 503
+   Emboldened, I helped my clients separate from their parts
