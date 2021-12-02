@@ -5,6 +5,7 @@
 * refs
 ** the Go docs
    https://golang.org/doc/
+** [[id:6da96e36-5198-4bd8-8741-eb2072106318][Search for packages or symbols.]]
 ** RESUME here
    My code and their webpage:
 
@@ -44,15 +45,24 @@
 * [[id:95cb96bd-765c-4525-b51a-3affbf103d4b][Go syntax]]
 * [[id:ae748d4d-eb68-4f48-b73b-af28eae5c323][testing in Go]]
 * [[id:f606e719-affa-4b04-b339-39cd13ba8693][concurrency in Go]]
-* solutions
+* some libraries
 ** [[id:48e416b3-4fa4-4121-af20-3b684f19c1ec][time in Go]]
+** [[id:466947c0-d814-43a5-bdae-8a20fd501183][filepaths]]
+* solutions
 ** print a thing's type or value
    Use %T or %v in a function from the `fmt` package:
 
    func describe(i I) {
      fmt.Printf("(%v, %T)\n", i, i)
    }
-** concatenate strings
-   https://golangdocs.com/concatenate-strings-in-golang
-   The easiest way is with (+):
-     "x" + " " + "y"
+** strings
+*** concatenate strings
+    https://golangdocs.com/concatenate-strings-in-golang
+    The easiest way is with (+):
+      "x" + " " + "y"
+*** trim the whitespace at the edges of a string
+    strings.TrimSpace
+** file IO
+   ~/code/go/experim/file_io/
+** get the stack trace
+   panic ( "optional message" )

@@ -13,7 +13,10 @@
   go mod tidy
 * finding and using external Go packages
   serial
-** Search for published modules here.
+** Search for packages or symbols.
+   :PROPERTIES:
+   :ID:       6da96e36-5198-4bd8-8741-eb2072106318
+   :END:
    https://pkg.go.dev/search
 ** That gives the qualified name in parens after the unqualified one.
 ** Use the qualified name when importing it.

@@ -4,22 +4,22 @@
 #+title: concurrency in Go
 * refs
   https://go.dev/tour/concurrency
-* goroutines
+* "goroutines" (that's a play on "coroutines")
 ** They are effectively* lightweight threads
    *but not literally --
    many goroutines get chunked into a single OS thread.
 ** Fork (create) them with "go".
    Use "go" to fork a process in a "goroutine":
    go f(x, y, z)
-** concurrency and evaluation order, context
+** concurrency, evaluation order and caller context
 *** when a gorotine is called
     In
       go f(x, y, z),
     the evaluation of f, x, y, and z happens in the current goroutine,
     and the execution of f happens in the new goroutine.
 *** [[id:1a998482-b4d3-4593-b260-a60a8ed07c73][If (<-ch) is an argument to a function, the whole function evaluates.]]
-** Goroutines do not outlive `main`.
-   They should talk to `main` to coordinate shutdown.
+*** Goroutines do not outlive `main`.
+    They should talk to `main` to coordinate shutdown.
 * channels
 ** basic syntax: create, send, receive
    ch := make(chan int) // Create a channel.
@@ -47,6 +47,8 @@
    and from which processes can receive values.
    The channel can be given to any number of processes,
    and each can put things into it or draw things out of it.
+** PITFALL: Send/receive over a nil channel blocks.
+   (You might expect a panic.)
 ** channel types
 *** Channels are typed.
     c := make (chan int)
@@ -109,12 +111,15 @@
     close(c)
     v, ok := <-ch // ok is false if there are no more values to receive
                   // and the channel is closed.
+*** [[id:c51f5e36-9125-48f5-9fbd-318701336895]["The main reason to [close channels] is to [make nice for loops]."]]
 ** looping over a channel's values
    "receives values from the channel repeatedly until it is closed":
    for i := range ch { f (<-ch) }
-** Closing a channel is usually not needed.
-   "Closing is only necessary when the receiver must be told there are no more values coming, such as to terminate a range loop."
-** `cap (ch)` gives the capacity of the channel `ch`.
+*** "The main reason to [close channels] is to [make nice for loops]."
+    :PROPERTIES:
+    :ID:       c51f5e36-9125-48f5-9fbd-318701336895
+    :END:
+**** source: 10:22 in [[id:4bc1d8e4-2c04-4cbe-bcae-c9e97debe74a][Advanced Go Concurrency Patterns]]
 * `select` lets a goroutine wait on multiple channels.
 ** syntax
    select {
@@ -124,7 +129,7 @@
        fmt.Println("quit")
        return
    }
-** It executes the first one that it can
+** It executes the first one that it can, and nothing else,
    breaking ties randomly.
 ** It can wait both for sends and receives.
 ** A "default" case lets a "select" try a channel without blocking.
@@ -134,8 +139,10 @@
      default:
        // receiving from c would block
    }
+** [[id:af7c8ee5-21f9-431f-8b00-609e76c7d87a][`break` statements in Go]]
 * TODO | SKIPPED: mutexes and locks
   https://go.dev/tour/concurrency/9
+* cleaning up completed goroutines
 * solutions
 ** "fan-in" | "multiplexer": a channel that outputs the output of multiple channels, whoever's ready first
 *** using two goroutines
@@ -171,3 +178,23 @@
                        // because it's reevaluated each time
 		       // the select statement is.
         ...
+** wait for something to close before closing
+   17:43 in [[id:4bc1d8e4-2c04-4cbe-bcae-c9e97debe74a][Advanced Go Concurrency Patterns]]
+
+   func (s* sub) Close() error {
+     errc := make ( chan error ) // Make a channel to transmit errors.
+     s.closing <- errc  // Send the errc channel over the s.closing channel
+     return <-errc // Wait for a (hopefully nil) response over errc.
+                   // Return that value.
+   }
+** runtime race detector
+   tag "race condition"
+*** Use it by passing the `-race` flag to `go run`.
+*** What it does, I think
+    is detect when two goroutines (need? have?)
+    simultaneous (read? write?) access to something.
+** runtime deadlock detector
+   I believe this is built-in and non-optional --
+   if everything is asleep, Go throws an error.
+* good style
+** [[id:c51f5e36-9125-48f5-9fbd-318701336895]["The main reason to [close channels] is to [make nice for loops]."]]

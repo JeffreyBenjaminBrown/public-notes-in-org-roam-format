@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       4bc1d8e4-2c04-4cbe-bcae-c9e97debe74a
+:END:
+#+title: Advanced Go Concurrency Patterns (talk on video)
+Sameer Ajmani (Google)
+https://www.youtube.com/watch?v=QDDwwePbDtw

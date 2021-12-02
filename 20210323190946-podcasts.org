@@ -2,6 +2,14 @@
 :ID:       a3a9fefb-7922-487f-bf08-f1121cf7bfb5
 :END:
 #+title: podcasts
+* Russ Roberts's favorite EconTalk episodes
+  Chris Hitchens on Orwell
+  Richard Epstein
+  Milton Friedman
+  _ O'Donahue (potato chips, Frito Lay, California)
+  Mark Halpern
+  Bill James
+  Nassim Taleb
 * titles not to reread
 ** Undark: I read 40-53
 ** NYT: I read from 2021-02-11 to 2021-04-12

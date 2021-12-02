@@ -3,6 +3,8 @@
 :END:
 #+title: Emacs (programamble text editor)
 * [[id:3a230207-47a8-4dde-af88-2c442f5c51aa][Erlang and Emacs]]
+* some big single-page manuals
+  https://www.emacsdocs.org/
 * TODO Emacs: how to override elpy's C-c C-d?
 (require 'org) ;; so that the next line knows what org-mode-map is
 (eval-after-load 'org
@@ -37,3 +39,5 @@
    "C-x r N" starts the line at 1.
    "C-u C-x r N" prompts for a starting value and format.
 ** [[id:7dc33cd5-40bc-421a-aa1d-a40cf0635119][to tag(build a tags file) python code for use in emacs]]
+** wrap lines at word boundaries
+   M-x visual-line-mode

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       f7aafc6b-122b-439b-87f6-b6d8abc6835c
+:END:
+#+title: Internal Family Systems (psychology)
+* some resources
+** [[id:650e028b-8662-472f-a81a-437592442862][Internal Family Systems (Ed 2), book]]
+   by Richard Schwartz and Martha Sweezy
+** Natasha Wilson's IFS resources
+   https://www.stroudtherapy.com/news/onlineresources

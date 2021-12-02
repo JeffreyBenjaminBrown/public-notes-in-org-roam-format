@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       9036311c-3ca0-4a0a-911d-04e1183205c6
+:ROAM_ALIASES: epub pdf mobi
+:END:
+#+title: digital book formats
+* Copying epub data into a text file works well.
+  At least, it did with [[id:650e028b-8662-472f-a81a-437592442862][Internal Family Systems]].

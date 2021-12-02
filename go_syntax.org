@@ -31,10 +31,11 @@
 ** PITFALL: `nil` exists and inhabits every type
    or so it appears.
 ** PITFALL: pointers exist
-*** The & op creates a pointer to its argument.
-*** The * op dereferences pointers.
-    *p = 21 // sets the variable p points to
-*** The symbol for the type of a pointer to type T is *T.
+*** The (&) op creates a pointer to its argument.
+*** The (*) symbol.
+**** As code, (*) dereferences pointers.
+     *p = 21 // sets the variable p points to
+**** In types, *T means a pointer to a T.
 *** There is no pointer arithmetic.
 *** Pointers can point to other pointers, I think.
 **** TODO Right?
@@ -167,6 +168,8 @@
      }
 **** TODO Does "return" still need to be written?
 *** If a function returns nothing, omit the return type.
+*** They seem to be right-associative (like ($) in Haskell).
+    For instance, "chan chan int" means "chan (chan int)".
 ** type synonyms
    :PROPERTIES:
    :ID:       513632ba-83db-4367-a764-8b45f15db3b4
@@ -190,6 +193,7 @@
      for _, name := range theList { ... }
    To loop over the indices, the second value can be omitted:
      for idx := range theList { ... }
+** [[id:af7c8ee5-21f9-431f-8b00-609e76c7d87a][`break` statements in Go]]
 * conditions
 ** if [else]
 *** if x < 0 { ... }
@@ -224,6 +228,7 @@
     switch {
        case x < y: ...
        case z < w: ...
+*** [[id:af7c8ee5-21f9-431f-8b00-609e76c7d87a][`break` statements in Go]]
 *** [[id:d3422768-af80-4d45-92e7-dd8a59f6aef6][type switches]]
 * execution order
   :PROPERTIES:
@@ -243,6 +248,15 @@
    In *any* module, not just the top of the hierarchy,
    an `init` function can be defined,
    which executes "after global variables have been initialized".
+** `break` statements in Go
+   :PROPERTIES:
+   :ID:       af7c8ee5-21f9-431f-8b00-609e76c7d87a
+   :END:
+*** `break` terminates a loop
+    "When a break statement is encountered inside a loop, the loop is immediately terminated and the program control resumes at the next statement following the loop."
+*** `break` terminates a case in a switch statement.
+*** TODO I'm guessing `break` can be used to terminate a `select` case
+    just like it can for `switch` cases.
 * functions
 ** lambdas ("function literals"?)
    func main () {
