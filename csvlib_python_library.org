@@ -2,7 +2,11 @@
 :ID:       23e33a81-1b9b-4914-822a-c09e033d045a
 :END:
 #+title: csvlib (Python library)
-* PITFALL: csvlib (always by default?) writes Windows-style line terminators
+* PITFALL: csvlib writes Windows-style line terminators
+  maybe always by default?
+  [[id:214c56b0-03f1-4709-9bc9-2ec6f742fa16][how to avoid that]]
+* solutions
+** use Linux-, not Windows-style, line terminators
   :PROPERTIES:
   :ID:       214c56b0-03f1-4709-9bc9-2ec6f742fa16
   :END:
