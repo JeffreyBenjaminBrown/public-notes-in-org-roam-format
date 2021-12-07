@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       b9f814f2-907f-41cd-a3ac-d70d5644aaaf
+:END:
+#+title: rsync (software, backups & copies)
+* PITFALL: trailing slash => unwrapped content
+  :PROPERTIES:
+  :ID:       0ec81667-d191-498a-b5d1-faadbd48e85d
+  :END:
+  If a source argument is a folder written with a trailing /,
+  rsync will dump its contents into the destination,
+  withouot wrapping them in a folder named like the source.
+  For the same argument without the trailing /,
+  rsync will create or populate a subfolder of the same name.
+* PITFALL: the popular `delete` option is dangerous.
+  It will delete anything in the destination not in the source.
+  If there are multiple sources I don't know what it does.
+* how I usually run it
+  rsync -av source source ... source destination
+  with [[id:0ec81667-d191-498a-b5d1-faadbd48e85d][no trailing slashes]] on any of the sources.
+* useful options
+** -L : replace symlinks with the original
+   works as expected with -av

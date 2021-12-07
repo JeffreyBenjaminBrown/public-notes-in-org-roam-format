@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       6f854ffc-8eb8-4ac8-823c-fd8b61f90562
+:END:
+#+title: Tabula (software to extract tables from PDFs)
+* https://tabula.technology/
+* How to run it
+  "Run" the program, then view the link it displays in a browser.

@@ -1,0 +1,55 @@
+:PROPERTIES:
+:ID:       ac6d4247-4880-4740-9aa3-0407f4d8b397
+:END:
+#+title: NixOS, how to upgrade (channels)
+* "upgrading NixOS" seems (lately = 21.11) to mean only "switching channels"
+** TODO I'm asking here.
+   :PROPERTIES:
+   :ID:       cbb62d02-506c-48a6-ad1e-d744aa538958
+   :END:
+   https://discourse.nixos.org/t/21-11-has-been-released/16353/7?u=jeffreybenjaminbrown
+* Changing channels in a nutshell, I think
+** Read the latest release notes to see if there's anything extra to do.
+   For instance, moving
+   [[id:a93f1341-2849-4dcc-80f1-4393b334ea38][going from 19.09 to 20.03 required a bit more than a channel change]].
+** Change channels, then run `nixos-rebuild switch --upgrade`.
+* How I upgraded to nixos-unstable
+  as root, one at a time:
+
+  sudo nix-channel --list
+  sudo nix-channel --remove nixos
+    # Do this if it's already set.
+  sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
+    # nixos here is a channel alias
+  sudo nix-channel --list
+  sudo nix-channel --update nixos
+    # nixos here is a channel alias
+  sudo nixos-rebuild switch --upgrade
+* How I went from 19.09 to 20.03.
+  :PROPERTIES:
+  :ID:       a93f1341-2849-4dcc-80f1-4393b334ea38
+  :END:
+** The procedure
+   serial
+*** Tweak configuration .nix file(s)
+    per the release notes for the latest NixOS version.
+**** PITFALL: One seems to have to read the whole thing, not just the backward incompatibilities section.
+     While trying to migrate to 21.05, I'm also reading
+     "B.1.4. Other Notable Changes",
+     because it starts by saying that stdenv.lib will break.
+*** Back up data.
+*** PITFALL: sudo is important for the rest of this
+    A lot of it will run without sudo,
+    but thereby create stuff that lives in userspace,
+    and is for some reason therefore unuseable.
+*** update the channel
+**** first check that it's where it should be
+     sudo nix-channel --list
+***** which should give something like this
+      nixos https://nixos.org/channels/nixos-19.09
+**** sudo nix-channel --add <channel>
+     for instance,
+       sudo nix-channel --add https://nixos.org/channels/nixos-21.05 nixos
+**** sudo nix-channel --update
+*** rebuild
+    sudo nixos-rebuild --upgrade boot

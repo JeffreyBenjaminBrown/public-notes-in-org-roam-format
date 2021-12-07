@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       7bd448d1-520c-4781-9ea4-59c70edbc151
+:ROAM_ALIASES: "zoom (computer screen interface concept)"
 :END:
 #+title: screen zoom (computer interface concept)
 * [[id:a571e570-667a-432d-9144-dd163c519900][boomer (platform-independent screen zoom application)]]

@@ -5,3 +5,5 @@
 #+title: digital book formats
 * Copying epub data into a text file works well.
   At least, it did with [[id:650e028b-8662-472f-a81a-437592442862][Internal Family Systems]].
+* to extract tables from PDFs
+** [[id:6f854ffc-8eb8-4ac8-823c-fd8b61f90562][Tabula (software to extract tables from PDFs)]]

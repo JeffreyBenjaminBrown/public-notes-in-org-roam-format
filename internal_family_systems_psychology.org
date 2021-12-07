@@ -5,5 +5,9 @@
 * some resources
 ** [[id:650e028b-8662-472f-a81a-437592442862][Internal Family Systems (Ed 2), book]]
    by Richard Schwartz and Martha Sweezy
+** Intimacy from the Inside Out (book), on couples therapy and IFS
+   by Toni Herbine-Blank.
+   Herbine-Blank, Kerpelman, & Sweezy, 2016.
+   Recommended in [[id:650e028b-8662-472f-a81a-437592442862][Internal Family Systems]].
 ** Natasha Wilson's IFS resources
    https://www.stroudtherapy.com/news/onlineresources

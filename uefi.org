@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       9770a0f3-6c1c-4d28-948d-1340db64f43e
+:END:
+#+title: UEFI
+* to check whether a computer uses UEFI
+  :PROPERTIES:
+  :ID:       72353c72-7f06-4e28-be1b-78e2e6f7bf1d
+  :END:
+  If
+    /sys/firmware
+  contains something called
+    efi
+  then it does, otherwise it doesn't.

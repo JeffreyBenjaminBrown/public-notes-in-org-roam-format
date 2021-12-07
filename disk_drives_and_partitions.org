@@ -1,0 +1,102 @@
+:PROPERTIES:
+:ID:       e9b1996a-67d3-40a6-b971-8c03e54a1724
+:END:
+#+title: disk drives, formats and partitions
+* PITFALL: [[id:5971a46e-00fa-4a25-8a75-328baf0d34be][Some formats might be slow]].
+* formats: compatibility, capacity, maybe speed
+  :PROPERTIES:
+  :ID:       8285b7f2-ce8d-4601-9f0a-5c95a11223e4
+  :END:
+  ExFAT looks best.
+** FAT32: "ms dos" format
+*** good for files up to 4GB
+*** Supposedly maximum compatibility --
+    :PROPERTIES:
+    :ID:       5971a46e-00fa-4a25-8a75-328baf0d34be
+    :END:
+    but I had a thumbdrive that was slow with this,
+    and when I reformatted it for NTFS, it was fast.
+** NTFS: "linux" format?
+   Good for files up to (16 EiB – 1 KB) (insanely huge).
+   Works on Windows and on most Linux distributions.
+   Works on Mac but read-only.
+** ExFAT: ???
+   Good for files up to (16 EiB – 1 KB) (insanely huge).
+   Works on Windows or Mac
+   Works on Linux but requires extra drivers.
+* show all disks
+** `lsblk`         : concise
+** `sudo fdisk -l` : verbose
+* burn an .iso file to a USB drive
+  :PROPERTIES:
+  :ID:       a8356007-6419-441c-80d8-97776cc64c08
+  :END:
+  Use lsblk to determine which drive it is.
+  Make sure it's not mounted.
+  Then:
+    # PITFALL: This won't work, because sdxxx does not exist.
+    # Put something sensible there (see above).
+    sudo dd if=/path/to/the.iso of=/dev/sdxxx bs=1M
+
+  sudo dd if=/home/jeff/linux-distros/nixos-plasma5-21.11.334027.e34c5379866-x86_64-linux.iso \
+          of=/dev/sdb bs=1M
+** TODO above, should "of" be "sdb" or "sdb1"?
+* format a partition with mkfs
+  :PROPERTIES:
+  :ID:       4953e1db-1fd6-4b62-b454-617de86117e5
+  :END:
+  serial
+** The disk should not be mounted.
+** define sdxnjjj = the folder correspoonding to the drive,
+   where x is probably b, c or d,
+         n is probably a small digit or maybe missing
+         jj should not be there (this prevents copy-paste disaster)
+** choose options for the base command
+   So far I like
+*** -f : fast, i.e. without writing a ton of zeroes
+** base commands to choose from
+   Choose based on [[id:8285b7f2-ce8d-4601-9f0a-5c95a11223e4][formats: compatibility, capacity, maybe speed]].
+   sudo mkfs.vfat  /dev/sdxnjjj # FAT32
+   sudo mkfs.ntfs  /dev/sdxnjjj # NTFS
+   sudo mkfs.exfat /dev/sdxnjjj # ExFAT
+* delete a partition with fdisk
+  serial
+** The disk should not be mounted.
+** `sudo fdisk /dev/sdxxx` (where xxx is probably b, c or d)
+** `d` : delete
+** `p` : show hypothetical resulting `p`artitions
+   to verify the delete)
+** `w` : write changes and exit
+* create a partition with fdisk
+  serial
+** The disk should not be mounted.
+** `sudo fdisk /dev/sdxxx` (where xxx is probably b, c or d)
+** `n` : new partition
+** follow the prompts
+** `w` : write changes and exit
+** [[id:4953e1db-1fd6-4b62-b454-617de86117e5][format the new partition]]
+* label a partition with mlabel
+** There's probably a better way,
+   but I couldn't get parted to do the job;
+   parted complained that the msdos format doesn't allow it.
+** PITFALL: Valid names are few.
+   `mlabel` does not (yet) support lowercase letters,
+   or names longer than 11 characters.
+*** TODO Is this only a problem with the FAT32 format?
+** how
+   With the disk not mounted, run
+     sudo mlabel -i /dev/sdxnjj -s ::"LABEL HERE"
+   where sdxnjjj = the folder correspoonding to the drive,
+     where x is probably b, c or d
+           n is probably a small digit or maybe missing
+           jj should not be there (this prevents copy-paste disaster)
+* mount|unmount a USB drive
+** mount
+   This mounts the device "sdb1",
+   making it available at the "media" folder.
+
+   sudo mount /dev/sdb1 /mnt/media
+** unmount
+   umount /path/where/device/is/mounted
+   After this the device will still be visible in /dev,
+   but not manipulable at the above long path.

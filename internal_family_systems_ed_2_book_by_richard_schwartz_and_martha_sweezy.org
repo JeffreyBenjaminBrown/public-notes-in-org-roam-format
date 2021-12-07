@@ -53,8 +53,58 @@
    Most amazing of all, once clients were in that Self-state, they seemed to know just what each
    inner personality needed.
    """
+** homeostatic (bad) responses
+   """
+   Emboldened, I helped my clients separate from their parts, find the ones who were in pain, and
+   love them up. The good news was that my clients felt better by the end of a session in which they
+   had been able to embrace and comfort their childlike personalities. The bad news, to my dismay,
+   was that they would return the next week having had horrible experiences shortly after leaving
+   my office. One client had a car accident on the way home. Another spiked a fever of 103 degrees.
+   Still another got the worst migraine of her life, which kept her in bed the whole week.
+   """
+** "I learned that in order to feel fully witnessed and understood, some parts need to take over in the body temporarily. Now whenever I see signs, even subtle signs, of a somatic takeover, I encourage clients to stay with or even exaggerate that experience. If some of their other parts feel self-conscious or frightened, we stop first to help them feel safe so they are willing to step back and let us proceed."
+** "I have found that I can train other therapists to notice the signs of an embodied Self, and also to notice their absence. In this way I discovered that we could all become aware of activated parts as they manifest physically"
+** "the language of parts helps because we do not have to say, I feel angry or afraid orimpatient. Instead, we can say, A minute ago a part of me felt ... "
+   "the language of parts helps clients and therapists disclose strong feelings that might otherwise be embarrassing or controversial"
+** I'd use the term "agentic parts" rather than "parts".
+   At least from where I am now, 1/16th through the book.
+** "• Protectors deserve to be understood, appreciated, and comforted before the client tries to approach vulnerable parts."
+** protectors "are more knowledgeable than the therapist about the delicate ecology of the client’s inner system and the possible negative consequences of going too fast."
+** "Extreme protectors usually will not change until the system is less vulnerable. Consequently, we do not pressure protectors to change, even ones who are involved in destructive symptoms. Instead, we suggest that they can be liberated from their protective roles if they allow the client’s Self to help, and we invite them to consider what role they would prefer after the exiled part no longer needs protection."
+** "Restoring trust in the Self is the quickest route to improved leadership and inner harmony."
+** "4. We invite clients to notice that parts have “blended” with the Self, or we help parts notice that the Self will be available when they separate or “step back.” ... By the same token, the IFS therapist continually scans inside herself for blended parts and asks them to separate so she can return to Self-leadership."
+** "Protectors fear one another, which keeps them in extreme positions. Each part believes that relaxing will allow a polarized part to take over, with catastrophic consequences. Therefore in IFS we continually notice and attend to polarizations. Just like family therapists, we work with conflicted inner family members, inviting them to face each other and talk about how they can get along better. The difference is that, whenever possible, the client’s Self moderates these inner dialogues, aiming to ensure that parts are respectful and able to listen to each other."
+** "IFS therapists are always asking about the network of internal relationships in which parts are embedded and the extreme beliefs parts may carry."
+** goals
+   """
+   This relationship with the Self can bring a great measure of inner peace along
+   with the ability to relate to life’s challenges and to other people with clarity, calm, confidence,
+   courage, and compassion. Self-led individuals have the great pleasure of recapturing all the
+   energy their protectors used to expend on inhibition, containment, distraction, and rebellion.
+   They also gain access to the creativity, delight, and innocence of childlike parts who had been
+   exiled so they are free to play again.
+   """
+** "People organize to maintain a range of homeostasis in any number of areas, from proximity to other people to levels of conflict with other people"
+   "In addition, each person contains a multitude of cybernetic subsystems, from those that regulate blood sugar levels to those that regulate the expression of feelings."
+** "A basic premise of IFS is that people have an innate drive toward and wisdom about their own health."
+** Every part, every impulse, the text suggests, can be found a proper, helpful, harmonious role.
+** "When we feel obliged to deny one truth in favor of another (e.g., I love you, I’m mad at you), we sign on to an unceasing project of denial and self-constraint. In contrast, accepting the mind’s ability to encompass many perspectives at once means that we can acknowledge the truth of two apparent opposites and move forward creatively"
+** prior art for internal agentic parts
+   """
+   Other therapeutic approaches have also observed and worked with psychic multiplicity, calling
+   parts variously subpersonalities, subselves, internal characters, archetypes, complexes, internal
+   objects, ego states, and voices (Jung, 1969; Rowan, 1990; Stone & Stone, 1993; Watkins & Watkins,
+   1997)
+   """
+** "When clients are uncomfortable with the word part—or, more likely, with the concept that we have parts—we can simply follow their word choice: aspect, thought, subpersonality, character, feeling, place, person, etc."
+** "we encourage clients to label their parts"
+   but "it is a mistake to assume that the part’s label or role (the sad part, the angry part, the captain, the caretaker, etc.) captures its essence. "
+** what a part is
+   "a part is not just an emotional state or a habitual thought pattern. Rather, parts are discrete, autonomous mental systems, each with their own idiosyncratic range of emotion, style of expression, abilities, desires, and views of the world"
+   "same. When we view a part as a child or teenager who is shy or angry in a certain context, we are more likely to be curious about who it would be in other circumstances than we are to believe it is defined by this one attribute. "
+** "Just as children get forced into extreme roles that they don’t want and for which they are ill-suited, parts get forced into extreme roles. "
 * reading it (mechanics)
   ~/ifs.txt
 ** 8130 lines (exclding glossary, etc.)
-** continue at line 503
-   Emboldened, I helped my clients separate from their parts
+** continue at line 665
+   "Chapter 2, Individuals as Systems"
