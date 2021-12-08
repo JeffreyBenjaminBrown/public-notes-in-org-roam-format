@@ -33,7 +33,7 @@
 *** Commit.
 * pull, then push
 * stop SmSn
-* delete the old neo4j/ folder
+* move/delete the old neo4j/ folder
 * restart SmSn
 * read from VCS
   C-c  C-r  c

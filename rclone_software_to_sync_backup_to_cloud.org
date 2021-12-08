@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       2ef344eb-104c-4b53-bc07-72d61640de9e
+:END:
+#+title: rclone (software, to sync backup to cloud)
+* PITFALL: I haven't tried trailing slashes.
+* how I configured it
+  `rclone config` from the command line.
+** [[id:484c5954-afea-4560-9cfd-2d4e14658583][my rclone secrets]]
+** It has "drive.file" access to my Google Drive.
+   That was the third option offered, of five:
+     / Access to files created by rclone only.
+   3 | These are visible in the drive website.
+     | File authorization is revoked when the user deauthorizes the app.
+     \ "drive.file"
+* solutions
+** how to specify paths
+*** Local paths are specified normally.
+    Relative paths work.
+*** Remote paths are specified as <name of remote>:<path in remote>.
+    So, for me, they look like
+      gborg:path/to/something
+*** TODO This looks like something wrong in the documentation.
+    The documentation says "Paths are specified as drive:path".
+    But when I tried that it didn't work.
+    I had to use the name of my rclone ("repo"? "config"?), not "drive".
+** how to sync
+   The syntax is just like the Linux `cp` command:
+   rclone sync <source> <dest>
+*** example: copy local folder to remote folder
+    rclone sync . gborg:by-rclone/borg-repo
+** how to find the size of a folder
+   Like "du", but more detail.
+   rclone size <path>
