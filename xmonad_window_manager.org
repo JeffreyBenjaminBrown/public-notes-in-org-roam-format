@@ -2,12 +2,80 @@
 :ID:       c26ed276-a4a0-4b0a-8b4b-6a47b47fb85a
 :END:
 #+title: xmonad (window manager)
-* Xmonad is lightweight.
-* Xmonad can work with KDE.
-* Enabling Xmonad on NixOS takes one line.
-   It might (I'm not sure) require some additional futzing to make it work with KDE, but enabling it in the config is easy:
-   services.xserver.windowManager.xmonad.enable;
+* DONE internalized
+** Xmonad is lightweight.
+** Xmonad can work with KDE.
+* PITFALL: [[id:d1c01fb5-6fb8-48e0-b23b-a2f48bff3a62][kill top *and* bottom application bars in xfce ("the panel")]]
+  For me they were essentially incompatible with xmonad,
+  because they float on top,
+  yet every window is maximized.
+  In particular this hides the tabs in a web browser.
+  (It also causes Alt-Tab (which I changed it to Super-Tab)
+  to cycle through two or three additional useless spaces.)
+* PITFALL | DEALBREAKER: screen zoom not available
+  :PROPERTIES:
+  :ID:       011d87e6-7385-44c4-9488-fa9480eb92b8
+  :END:
+** some evidence
+   https://www.reddit.com/r/xmonad/comments/qmslja/does_xmonad_offer_a_fullscreen_mousefollowing/
+** It, and  Xfce's Window Manager Tweaks, both work outside of xmonad.
+** I suspect Xmonad has no [[id:62036028-7e1a-4221-86bd-e5fc31041995][compositor]] by default.
+*** evidence
+    https://forum.xfce.org/viewtopic.php?pid=48976#p48976
+*** In response I enabled picom; still couldn't use Tweaks or Zoom.
+    services.picom = {
+      # Hopefully lets me use screen zoom in Xmonad.
+      # Cribbed from: https://gvolpe.com/blog/xmonad-polybar-nixos/
+      enable = true;
+      # activeOpacity = 1.0;
+      # inactiveOpacity = 0.8;
+      backend = "glx"; # I also tried the default, "xrender".
+      # fade = true;
+      # fadeDelta = 5;
+      # # opacityRule = [ "100:name *= 'i3lock'" ];
+      # shadow = true;
+      # shadowOpacity = 0.75;
+    };
+** I suspect the problem is that it needs xfwm, which means no xmonad.
+   search "xfwm" here:
+   https://forum.xfce.org/viewtopic.php?id=12328
+* The xmonad config is at ~/.xmonad/xmonad.hs
+* using xmonad and xfce in NixOS
+  :PROPERTIES:
+  :ID:       448597aa-1570-45b7-8c16-8c5e132f43a6
+  :END:
+  services.xserver = {
+    desktopManager.xfce.enable = true;
+    displayManager.defaultSession = "xfce+xmonad";
+    windowManager.xmonad = {
+      enable = true;
+      config = pkgs.lib.readFile /home/jeff/.xmonad/xmonad.hs;
+    };
+  };
+
+  environment.systemPackages =
+  with pkgs; [
+    ...
+    xmonad-with-packages
+    haskellPackages.xmonad
+    haskellPackages.xmonad-utils
+    haskellPackages.xmonad-screenshot
+    haskellPackages.xmonad-extras
+    haskellPackages.xmonad-contrib
+    ...
+  ]
 * solutions
 ** full-screen zoom in Xmonad
    [[id:a571e570-667a-432d-9144-dd163c519900][boomer (platform-independent screen zoom application)]]
    Or use it in [[id:5ec64c3d-c92f-4bd5-a280-718ac69f83f9][a Linux desktop environment with native zoom]].
+** full-screen tiling layout
+   :PROPERTIES:
+   :ID:       1338d846-dbeb-453e-95f7-4ef9e6bf9d2f
+   :END:
+   Press M-SPC to cycle through the layouts.
+   Full-screen is one.
+** new client: M-S-RET
+** move window focus across tiles: M-j, M-k
+** increase|decrease the number of windows stored in the master pane
+   M-, and M-.
+** M-q reloads the user's Xmonad config.

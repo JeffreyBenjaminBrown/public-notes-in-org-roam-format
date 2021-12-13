@@ -2,5 +2,6 @@
 :ID:       4268a9bf-a868-4d53-9e49-04416578e73b
 :END:
 #+title: lens (computer programming)
+* [[id:e3399f46-185b-4c56-b2a4-06857f46713f][optics in Haskell]]
 * Generate lenses for third-party libraries in Haskell
-https://ai-jobs.net/?rdt_cid=3040091042633392170
+  https://ai-jobs.net/?rdt_cid=3040091042633392170

@@ -3,11 +3,13 @@
 :END:
 #+title: Hamler (programming language)
 https://www.hamler-lang.org/
-** Hamler is like Erlang re. concurrency
-** Hamler is like Haskell in
-ADT and Type Checking/Inference
-Functions, higher-order functions
-Currying and partial application
-Pattern matching, and Guards
-List comprehension
-Applicative and Monad
+* Not in nixpkgs
+  as of 2021 12 13
+* Hamler is like Erlang re. concurrency.
+* Hamler is like Haskell in
+  ADT and Type Checking/Inference
+  Functions, higher-order functions
+  Currying and partial application
+  Pattern matching, and Guards
+  List comprehension
+  Applicative and Monad

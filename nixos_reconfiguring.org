@@ -25,3 +25,4 @@
   For instance,
   sudo nixos-rebuild switch -p no_music_config_although_packages
 * [[id:b8c28f2c-6cc1-460f-a8bd-f7219482263f][configuring KDE in NixOS]]
+* [[id:448597aa-1570-45b7-8c16-8c5e132f43a6][using xmonad and xfce in NixOS]]

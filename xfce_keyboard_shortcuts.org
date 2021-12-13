@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       95388d91-ae28-4c11-aae0-6a32d2b1c15d
+:END:
+#+title: xfce keyboard shortcuts
+* how to find them
+  :PROPERTIES:
+  :ID:       28381263-5c19-4566-967d-492126759085
+  :END:
+  serial:
+  run
+    xfce4-settings-manager
+  select
+    keyboard
+  select
+    application shorotcuts
+* TODO adding my own shortcuts is not working.
+  :PROPERTIES:
+  :ID:       a1199abd-90bd-4249-8cb5-eeecb413e3dc
+  :END:
+  After [[id:28381263-5c19-4566-967d-492126759085][finding the list]], it's obvious how to add one,
+  but it doesn't work.
+  At /home/jeff/bin I have two scripts:
+    xfce-zoom-in.sh
+    xfce-zoom-out.sh
+  If I add a shortcut to the first, it still won't run.
+  I've tried adding a shortcut both to the file itself (which is executable)
+  and to `sh <name of file>`.

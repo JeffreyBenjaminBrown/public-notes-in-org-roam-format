@@ -5,6 +5,7 @@
 * PITFALL: csvlib writes Windows-style line terminators
   maybe always by default?
   [[id:214c56b0-03f1-4709-9bc9-2ec6f742fa16][how to avoid that]]
+* PITFALL: search for PITFALL in the code example below
 * solutions
 ** use Linux-, not Windows-style, line terminators
   :PROPERTIES:
@@ -33,6 +34,7 @@ import pandas
 filename = "csvlib-test.csv"
 
 with open( filename, 'w',
+           encoding = "utf-8" # PITFALL: Can be important.
           ) as csvfile:
   spamwriter = csv.writer(
     csvfile, delimiter=',',

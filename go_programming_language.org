@@ -13,6 +13,11 @@
    https://tour.golang.org/methods/20
 ** a good list of things to read
    https://go.dev/tour/concurrency/11
+* features of Go I like
+** static typing
+** concurrency is built-in, lightweight, channel-based
+** small, easy to learn
+** huge user base
 * running, building and installing
 ** "go run" compiles and runs, without creating a binnary
    It's useful for the dev cycle, when making many changes.

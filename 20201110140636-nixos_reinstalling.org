@@ -7,6 +7,7 @@
   Learned during the install process for NixOS 20.09.
   Before I had it working I asked some questions here:
   https://discourse.nixos.org/t/nixos-20-09-fresh-vanilla-install-this-gpt-partition-label-contains-no-bios-boot-partition/9903/6
+* [[id:79ff2c65-42a9-485a-aac4-53a2f1c1dc8b][Linux without a GUI]]
 * [[id:a8356007-6419-441c-80d8-97776cc64c08][burn an .iso file to a USB drive]]
 * PITFALLs
 ** [[id:72353c72-7f06-4e28-be1b-78e2e6f7bf1d][check whether the computer uses UEFI]]

@@ -184,7 +184,7 @@ chAll $ mfl [
      see prof/ for details
 * TODO misc
 ** gui
-*** motivation: can't understand why it souonds like it does
+*** motivation: can't understand why it sounds like it does
 *** motivation: can't adjust individual notes
 ** laziness
 Because evaluating a whole sequence before playing any of it can cause a huge dealy.

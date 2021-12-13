@@ -3,6 +3,7 @@
 :END:
 #+title: Linux, installing
 * [[id:53cafeca-3de3-4f04-be36-3fdcb04a4d55][NixOS, installing]]
+* [[id:79ff2c65-42a9-485a-aac4-53a2f1c1dc8b][Linux without a GUI]]
 * if the installer fails to partition for the boot loader
   Manually delete the existing partition with fdisk,
   then try installing again.

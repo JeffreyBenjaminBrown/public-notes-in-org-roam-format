@@ -23,3 +23,4 @@
 *** xfce is part of Xubuntu and other distros.
 * Linux window managers
 ** [[id:c26ed276-a4a0-4b0a-8b4b-6a47b47fb85a][xmonad (window manager)]]
+* [[id:448597aa-1570-45b7-8c16-8c5e132f43a6][using xmonad and xfce in NixOS]]

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       dd8238af-6bce-4242-ab4d-b531190092f4
+:END:
+#+title: xfce (desktop environment)
+* PITFALL, DEALBREAKER: screen zoom is buggy
+  If you zoom into somoething (settings, say)
+  and then open a subwindow (languages, say)
+  the submenu displays very incorrectly.
+** TODO Unless maybe I can build [[id:a571e570-667a-432d-9144-dd163c519900][boomer]] and it works well.
+* TODO [[id:a1199abd-90bd-4249-8cb5-eeecb413e3dc][Adding my own shortcuts is not working.]]
+* [[id:95388d91-ae28-4c11-aae0-6a32d2b1c15d][xfce keyboard shortcuts]]
+* [[id:93db6988-2f49-4018-b7ff-0f39c54d6e16][screen zoom in xfce]]
+* solutions
+** kill top *and* bottom application bars in xfce ("the panel")
+   :PROPERTIES:
+   :ID:       d1c01fb5-6fb8-48e0-b23b-a2f48bff3a62
+   :END:
+   pkill xfce4-panel
+** [[id:448597aa-1570-45b7-8c16-8c5e132f43a6][using xmonad and xfce in NixOS]]

@@ -1,0 +1,56 @@
+:PROPERTIES:
+:ID:       543397e7-733f-4d56-bf58-35f5e9d83b5e
+:END:
+#+title: TidalCycles language: syntax, functions, signal flow
+* Voice names can be dynamic and informative.
+  Rather than the canned voice names like `d1`,
+  one can name patterns as in
+    p 1
+  or
+    p "juliet"
+* TidalCycles "mini-notation"
+** Each [] lasts as long as a single "event" in a pattern.
+   So in "x [y z]" the x lasts as long as the [y z].
+** (.) can separate events like [] does.
+   These are equivalent:
+   "x . y z  . a b c"
+   "x  [y z]  [a b c]"
+** (,) joins events simultaneously
+** Things in a <> group are cycled through.
+   This plays "bd" every time, "sd" one third of the times, etc:
+
+   d1 $ s "bd <sd hh cp>"
+** (|) randmonly chooses between things
+   "[a | b] c" always plays c, sometimes plays a.
+** `value!number` creates `number` events of type `value`.
+** `_` looks like an event but continues the previous event
+** `event@number` makes `event` `number` times longer.
+** postfix (?) sometimes replaces its argument with silence
+** (sample:number) selects the `number`th value of that sample
+** (n,d) creates a Euclidean sequence with `n` events covering time `d`.
+** TODO {pat,pat} polymeters
+   In this:
+     d1 $ s "{bd bass, cp cp hh}"
+   the second sequence takes 1.5 times as long as the first.
+** TODO {pat}%number polymeters
+   In
+     d1 $ s "[{bd cp hh}%4, bass]"
+   the bass happens every time four of the sounds from the first pattern
+   have occurred.
+* some TidalCycles functions
+** `|x|`, `|x` and `x|`, for all x
+   On which side the bar lies determines which pattern divides time.
+   If it's on both sides, both patterns divide time.
+*** The examples in the documentation are helpful.
+    https://tidalcycles.org/docs/patternlib/tutorials/pattern_structure
+*** Two interesting operators: |> and <|
+    They take values from one side but metric divisions from the other.
+** `once` is handy.
+   It requires no name, and can't be stopped.
+** `panic` is like `hush` but stronger.
+   Even if samples get stuck, this works,
+   because it (very quickly!) resets the synths.
+** `fix f` applies `f` when specified conditions are met.
+   https://userbase.tidalcycles.org/fix
+* There are effects buses.
+  https://club.tidalcycles.org/t/creating-effects-chains-or-audio-buses/3707

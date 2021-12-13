@@ -8,7 +8,7 @@
   :END:
   If a source argument is a folder written with a trailing /,
   rsync will dump its contents into the destination,
-  withouot wrapping them in a folder named like the source.
+  without wrapping them in a folder named like the source.
   For the same argument without the trailing /,
   rsync will create or populate a subfolder of the same name.
 * PITFALL: the popular `delete` option is dangerous.

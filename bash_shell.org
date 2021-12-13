@@ -3,7 +3,17 @@
 :ROAM_ALIASES: "shell programming"
 :END:
 #+title: Bash shell
-* [[id:bd26daee-2344-42ac-8101-dcba3111ed69][xsel (copy to the clipboard (or elsewhere) from Bash)]]
+* `cd`, change default target directory
+  I don't know,
+  but the first line below comes extremely close,
+  and without clobbering the real `cd` command:
+
+  jeff@jbb-dell:mtv$ cd="cd $(pwd)"
+  jeff@jbb-dell:mtv$ echo $cd
+  cd /home/jeff/mtv
+  jeff@jbb-dell:mtv$ cd
+  jeff@jbb-dell:~$ $cd
+  jeff@jbb-dell:mtv$
 * [[id:784c0660-a998-4bbf-bc80-c0b46a89a632][make (build utility)]]
 * to set an environment variable from a script
 ** Call the script using "." (rather than, say, "bash").

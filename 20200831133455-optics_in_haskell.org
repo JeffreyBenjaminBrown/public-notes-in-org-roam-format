@@ -4,7 +4,7 @@
 #+title: optics in Haskell
 * TODO RESUME
 ** skipped some
-see "TODO SKIPPED" items below
+   see "TODO SKIPPED" items below
 ** TODO RESUME p. 234: Isos, first exercises
 * orphans
 ** getters

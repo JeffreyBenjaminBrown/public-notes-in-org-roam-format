@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       2159ee76-0555-42ab-b09a-87db6313b559
+:END:
+#+title: Unison (programming language)
+* Definitions are content-addressed, immutable.
+** It makes a lot of things fast.
+   Renaming and moving code
+   cause neither recompilation nor the rerunning of tests.
+** It makes dependency conflicts impossible.
+* The codebase is searchable by type.
+* statically typed
+* pure
+* property-based tests

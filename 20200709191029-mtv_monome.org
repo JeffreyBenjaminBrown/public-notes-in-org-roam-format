@@ -2,6 +2,10 @@
 :ID:       d118af57-a430-4ed5-81dc-8199677e39d8
 :END:
 #+title: mtv-monome
+* TODO UNFINISHED
+** record
+** store chords
+   Monome.Window.ChordBank.Bank
 * TODO It's really fun when the synth controls are useful.
   They don't have to cover the whole space, just a "useful" chunk --
   one that's diverse and consistently good.
@@ -22,6 +26,10 @@
     but see BUG below
 *** wm-m: reliably good for small values
     but see BUG below
+** TODO update LEDs when the parameter view changes.
+   Currently, if I'm looking at (say) filter parameters,
+   and then I switch to the pulse modulation parameters,
+   the LEDs don't change.
 ** monkey wrench: slow also sounds great!
    at least for FM and PM so far
 ** growl? <= filter freq modulation at a nearly-audio frequency (e.g. 10Hz)

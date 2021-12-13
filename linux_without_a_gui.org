@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       79ff2c65-42a9-485a-aac4-53a2f1c1dc8b
+:END:
+#+title: Linux without a GUI
+* PITFALL: right Alt key might not work
+  :PROPERTIES:
+  :ID:       f7e23933-d383-4c55-8cfd-7c0a287dae75
+  :END:
+* how
+** setfont -d doubles font size on Linux when using no GUI.
+*** TODO If I want finer-grained control of the font
+**** the idea
+     I copied some .psfu files from /nix/store to ~/fonts.
+     None of them were great.
+     The biggest was solar24x32.psfu,
+     but it's very thin, hard to read.
+**** the fonts I tried
+     setfont ~/fonts/solar24x32.psfu -d      # Very big, but thin.
+     setfont ~/fonts/default8x16.psfu -d     # The default -- same as `setfont -d`
+     setfont ~/fonts/viscii10-8x16.psfu -d   # Smaller than the default.
+     setfont ~/fonts/latarcyrheb-sun32.psfu  # does nothing
+     setfont ~/fonts/lat4-16.psfu -d         # does nothing
+     setfont ~/fonts/UniCyr_8x16.psf -d      # does nothing
+     setfont ~/fonts/drdos8x16.psfu -d       # throws an error
+** open Emacs
+   serial
+*** install Emacs
+    alternatives
+**** nix-shell -p emacs
+**** sudo apt install emacs
+*** start it with [[id:8402b50d-74ca-4279-b4d6-dde1cebdae65][the -nw option]]
+*** use a simple config, or none
+    alternatives
+**** Use my bare-.emacs file from nix/jbb-config.
+     Just hide the usual .emacs file and copy
+       ~/nix/jbb-config/bash/bare-.emacs
+     to ~/.emacs.
+     (Do that because there seems to be no way to load froma  different place, unless it's that of a different user, which (1) is too heavyweight a solution and (2) doesn't work when I try it.)
+**** If that's too complex, use the -q option to load no .emacs file.
+*** PITFALL: Might [[id:f7e23933-d383-4c55-8cfd-7c0a287dae75][need to use the left Alt]] key.
+*** If the screen is unreadable.
+    `M-x load-theme <RET>`, then `manoj-dark <RET>`
+      Faster: `M-x lo-th TAB RET m-d TAB RET`

@@ -2,6 +2,13 @@
 :ID:       48cdd2bf-b45b-44a7-b7f8-43cbf73fa7b8
 :END:
 #+title: NixOS, my config
+* PITFALL: I disabled baloo
+  :PROPERTIES:
+  :ID:       95ac994e-d991-4263-9fdd-d77bc13789f1
+  :END:
+  If the app runner stops working that might be why.
+  But then I installed an app (`cmatrix`) vis NixOS,
+  and it still worked.
 * TODO should also enable sound if I use Musnix?
   My configuration.nix currently has the line
       sound.enable = true;

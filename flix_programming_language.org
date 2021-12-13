@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       8663f460-bf38-4037-9a7f-f5b954639027
+:END:
+#+title: Flix (programming language)
+* properties of Flix that I like
+** first-class Datalog constraints
+** Go-style concurrency
+** Haskellish
+*** algebraic data types
+*** pattern matching
+*** first-class functions
+*** parametric polymorphism
+*** type classes
+*** higher-kinded types
+*** expressions holes
+** light-weight polymorphic effects
+** extensible records
+** a REPL
+* PITFALL: Where the chapter on Datalog introduces strange keywords without explanation, just keep reading.
+  That's the [chapter on Fixpoints](https://doc.flix.dev/fixpoints/).

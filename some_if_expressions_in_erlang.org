@@ -35,7 +35,7 @@ default(N) ->
 %% I'm doing it this way for the sake of the example.
 make_animal_speak(Animal) ->
     Talk = if Animal == cat  -> "meow";
-	      Animal == beef -> "mooo";
+	      Animal == beef -> "moo";
 	      Animal == dog  -> "bark";
 	      Animal == tree -> "bark";
 	      true -> "fgdadfgna"

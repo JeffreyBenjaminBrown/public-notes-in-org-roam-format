@@ -20,3 +20,11 @@
    for (let ri = 0; ri < table.rows.length; ri++) {
      table.rows [ri] . deleteCell (colIndex)
    }
+* how to append a linebreak (<br>) to an element
+** a solution
+   Make a dummy element and set its inner HTML:
+
+     title = document.createElement("span");
+     title.innerHTML = "<br/><br/>" + table_name + "<br/>";
+     hostForm.append(title)
+** TODO Would this behave better without the slashes?

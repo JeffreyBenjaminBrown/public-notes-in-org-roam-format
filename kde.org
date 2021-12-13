@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       894db12b-c5a2-434a-8680-49f2ad9872bf
 :END:
-#+title: KDE
+#+title: KDE (desktop environment)
+* [[id:95ac994e-d991-4263-9fdd-d77bc13789f1][PITFALL: I disabled baloo]]
 * [[id:b8c28f2c-6cc1-460f-a8bd-f7219482263f][configuring KDE in NixOS]]
 * [[id:9436b2e5-d0b7-461f-ad08-46a43ee825d5][KDE bug: moving apps across activities is complex]]
   Solved in the development branch.
