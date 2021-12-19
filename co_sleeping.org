@@ -3,8 +3,12 @@
 :END:
 #+title: co-sleeping
 * some research
+  :PROPERTIES:
+  :ID:       8b06836d-a74f-4b6d-a54d-4098bb9d8349
+  :END:
   https://www.vox.com/science-and-health/22405469/sleep-relationships-wendy-troxel-sharing-the-covers
   https://surface.syr.edu/thesis/272/
   https://academic.oup.com/sleep/article/43/1/zsz206/5573656?login=true
   https://www.sciencedirect.com/science/article/abs/pii/S2352721819302670
   https://scholar.google.com/scholar?start=20&q=partner+cosleep+-parent+-infant+-baby&hl=en&as_sdt=0,5
+* [[id:64bf88e9-e72b-41ec-9793-6462ebcfb91e][co-sleeping & Sandy]]

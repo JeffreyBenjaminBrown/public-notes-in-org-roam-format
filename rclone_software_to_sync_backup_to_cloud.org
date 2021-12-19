@@ -2,7 +2,22 @@
 :ID:       2ef344eb-104c-4b53-bc07-72d61640de9e
 :END:
 #+title: rclone (software, to sync backup to cloud)
-* PITFALL: I haven't tried trailing slashes.
+* TODO PITFALL: Sometimes the dest swallows the source, sometimes it is made to equal the source. I don't know when.
+  This:
+    rclone sync /run/media/jeff/_Toshi-2020-2TB/borg-repo \
+                  gborg:by-rclone/borg-repo
+  seems to cause the second argument to be equal to the first.
+  But this:
+    rclone sync /home/jeff/tempf gborg:by-rclone/tempf/
+  put a file called tempf *in* the gborg folder called that,
+  and this:
+    rclone sync /home/jeff/enc,org.zip \
+                gborg:by-rclone/enc,org.zip
+  put the file enc,org.zip *in* a folder of the same name.
+
+  Note that in the last two commands,
+  one has a trailing slash on the destination and the other doesn't,
+  so that's not the problem.
 * how I configured it
   `rclone config` from the command line.
 ** [[id:484c5954-afea-4560-9cfd-2d4e14658583][my rclone secrets]]

@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       a624cd09-995a-4b2b-865f-e22485fde7cc
+:END:
+#+title: Kiuri Sushi (restaurant in La Macarena, Bogotá)
+* https://kiurisushiwok.ola.click/products
+* what we ordered and considered
+  what we ordered is marked TODO
+** TODO combo 1 (50)
+*** 10 cali maki: Palmito aguacate, massago y pepino.
+*** 10 crazy roll: Salmon y queso crema envuelto en panko.
+*** 10 eby maki roll: Langostino tempura, mayonesa y aguacate
+** combo 2 (90)
+*** 10 ojo de tigre: salmón, palmito y tilapia con tempura y masago
+*** 10 maduro roll: concreta y popis
+*** 10 crazy roll: Salmon y queso crema envuelto en panko.
+*** 10 dinamita: kanikama, aguacate y salsa dinamita.
+*** 10 sake tempura: salmon tempura aguacate y queso crema.
+** house roll
+   Langostino, salmon, atun, masago, aguacate y salsa dinamita.
+** TODO spicy atun
+   Atun picante salsa dinamita y aguacate.
+** TODO dublin roll (mackerel!)
+   My least favorite. Didn't really taste like mackerel.
+   Pargo rojo, salsa dinamita, pepino europeo y ajonjoli, recubierto en saba.
+** salmon skin roll
+   Piel tosatada de salmon, aguacate, ajonjoli, masago y queso crema.
+** ceviches
+*** TODO nikkei: Pescado blanco marinado en citricos, con cebolla morada maiz tierno y cilantro.
+*** clasico: Camarones marinados en citricos, con cebolla morada y salsa roja.
+** sanuki don
+   Autentica sopa japonesa con calamar, pulpo, (2) langostinos y vegetales.x
+* TODO ask
+** maduro roll
+   It's not on the menu.
+** How many units are in an order of nigiri or sashimi?

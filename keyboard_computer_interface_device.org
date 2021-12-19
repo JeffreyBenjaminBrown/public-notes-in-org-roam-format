@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       042d6b8f-a1d7-415b-b432-f2c3bc50df32
+:END:
+#+title: keyboard (computer interface device)
+* [[id:f85bf9f1-eeb9-4c55-8078-5b3a0cbac0e7][to swap keyboard keys in any Linux environment]]

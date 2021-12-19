@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       3987c7c6-e49e-4751-9efb-599e9cd34467
+:END:
+#+title: Yaxu's ongoing remake of Tidal
+* TODO Suggest "serial" and "parallel" instead of "stack" and "cat".
+* TODO Ask: What is StackSteps for?
+  Subsequence is clearly for the serial relationship,
+  and StackCycles is for the concurrent relationship.
+  What else is there?
+* TODO What are parts and wholes?
+  Go through Tidal (not Tidal2) and find places where `whole`
+  is used non-trivially.
+* How do parts, wholes and cycles interact?

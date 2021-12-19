@@ -2,12 +2,28 @@
 :ID:       543397e7-733f-4d56-bf58-35f5e9d83b5e
 :END:
 #+title: TidalCycles language: syntax, functions, signal flow
-* Voice names can be dynamic and informative.
-  Rather than the canned voice names like `d1`,
-  one can name patterns as in
-    p 1
-  or
-    p "juliet"
+* TODO [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation in Tidalcycles]]
+* voices and signal flow in Tidal
+** voice names
+*** There are some "preassigned voices".
+    `d1`, for instance.
+    See BootTidal.hs for their definitions.
+**** PITFALL: Preassigned voices also have voice names.
+     The `voice name` for `d1`, for instance, is `1`.
+     Sometimes a preassigned voice needs to be referred to via its name
+     -- e.g. when using `xfade`.
+*** Voice names can be dynamic and informative.
+    Rather than use the preassigned voice names like `d1`,
+    one can name patterns as in
+      p 1
+    or
+      p "juliet"
+** There are effects buses.
+   :PROPERTIES:
+   :ID:       d41a981f-1a73-44bf-85fb-f5a80d72bea3
+   :END:
+   https://club.tidalcycles.org/t/creating-effects-chains-or-audio-buses/3707
+   https://github.com/tidalcycles/tidal-doc/issues/66
 * TidalCycles "mini-notation"
 ** Each [] lasts as long as a single "event" in a pattern.
    So in "x [y z]" the x lasts as long as the [y z].
@@ -37,6 +53,25 @@
      d1 $ s "[{bd cp hh}%4, bass]"
    the bass happens every time four of the sounds from the first pattern
    have occurred.
+* non-cyclic time in Tidal
+** ref: transitions
+   https://tidalcycles.org/docs/patternlib/tour/transitions/
+** TODO How are `anticipateIn` and `jumpIn` different?
+** `once` is handy.
+   It requires no name, and can't be stopped.
+** `xfade <voice name>` and `xfadeIn <number of cycles> <voice name>`
+   p "drums" $ s "bd(3,8) drum*4"
+   xfade "drums" $ s "arpy*8" # n (run 8)
+** `clutch(In)`: Like `xfade(In)` using random grains instead of volume.
+** `anticipate(In)`: apply pattern to voice in the future
+** `interpolate(In)`: morph parameters
+   d1 $ sound "arpy*16" # cutoff 100
+   interpolate 1 $ sound "arpy*16" # cutoff 16000
+** `jumpIn(')`: change patterns in the future.
+   jumpIn' is aligned to cycle boundaries;
+   jumpIn is not.
+** TODO `jumpMod`: I don't understand.
+** TODO `wait(In)`: not described
 * some TidalCycles functions
 ** `|x|`, `|x` and `x|`, for all x
    On which side the bar lies determines which pattern divides time.
@@ -45,12 +80,14 @@
     https://tidalcycles.org/docs/patternlib/tutorials/pattern_structure
 *** Two interesting operators: |> and <|
     They take values from one side but metric divisions from the other.
-** `once` is handy.
-   It requires no name, and can't be stopped.
 ** `panic` is like `hush` but stronger.
    Even if samples get stuck, this works,
    because it (very quickly!) resets the synths.
 ** `fix f` applies `f` when specified conditions are met.
    https://userbase.tidalcycles.org/fix
-* There are effects buses.
-  https://club.tidalcycles.org/t/creating-effects-chains-or-audio-buses/3707
+** `cps` is a parameter, like `s` or `n` except global.
+   Try it with oscillators (e.g. `saw` below).
+   p "cpsfun" $ s "bd sd(3,8)" # cps (slow 8 $ 0.5 + saw)
+* some code maybe worth hacking
+** `histpan` is a transition function that pans repetitions of a pattern.
+   I might want to do that with other parameters.

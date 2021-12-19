@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       83c26cff-3d7a-4d96-9e40-e3d8ac0dba30
+:END:
+#+title: Vivid (Haskell library)
+* to distort a sum of signals in Vivid
+  see
+  Montevideo.Synth.Distortion

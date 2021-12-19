@@ -6,6 +6,10 @@
 * [[id:c73d3380-7909-46bc-87de-b6e51dea11ac][Linux, installing]]
 * [[id:5ec64c3d-c92f-4bd5-a280-718ac69f83f9][Linux desktop environments with native screen zoom]]
 * [[id:b736de75-e4cc-4390-a12b-85b13dd3ad3b][battery monitoring and control in Linux]]
-* to swap keys in any Linux environment
+* to swap keyboard keys in any Linux environment
+  :PROPERTIES:
+  :ID:       f85bf9f1-eeb9-4c55-8078-5b3a0cbac0e7
+  :END:
   e.g. swap ESC and CapsLock
   https://ictsolved.github.io/remap-key-in-linux/
+* [[id:2734843e-60bb-481b-b1e3-7343c8840414][How to run Windows 11 and MacOS virtual machines in Linux]]

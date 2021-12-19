@@ -3,11 +3,9 @@
 :END:
 #+title: NixOS, how to upgrade (channels)
 * "upgrading NixOS" seems (lately = 21.11) to mean only "switching channels"
-** TODO I'm asking here.
-   :PROPERTIES:
-   :ID:       cbb62d02-506c-48a6-ad1e-d744aa538958
-   :END:
+** evidence
    https://discourse.nixos.org/t/21-11-has-been-released/16353/7?u=jeffreybenjaminbrown
+** But once I had to change my config file, and sometimes there are syntax changes too; the manual or discourse are probably the best bets.
 * Changing channels in a nutshell, I think
 ** Read the latest release notes to see if there's anything extra to do.
    For instance, moving

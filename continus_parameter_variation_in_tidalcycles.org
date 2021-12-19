@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       e89c67a2-6f94-4466-8451-e7b03066aad1
+:END:
+#+title: continus parameter variation in Tidalcycles
+* some solutions
+  :PROPERTIES:
+  :ID:       365acc75-c9af-466e-b312-4dde9dc6fbf2
+  :END:
+** https://club.tidalcycles.org/t/testing-tidal-1-7/2792
+   Read about control buses here.
+** https://club.tidalcycles.org/t/slide-notes
+   Brian Gold (@bgold)'s solution is the most general,
+   but requires SC hacking.
+   "accelerate" manipulates sample pitch.
+   Something like "legato 1.1"
+   helps to fix the gaps between notes using "accelerate".
+** https://club.tidalcycles.org/t/acid-bass-line-or-bass-lines-general
+*** for me to process
+    "Control buses" let me slide notes, according to @polymoprhic.engine:
+
+    d1 $ s "theremin" # freqbus 0 (segment 128 $ smooth "200 200 300 300")
+*** for me to respond
+    What makes a bassline acid is mostly timbre, not notes.
+** https://club.tidalcycles.org/t/creating-effects-chains-or-audio-buses
+   Route two signals into the same effects chain.

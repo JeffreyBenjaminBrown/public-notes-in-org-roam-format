@@ -6,6 +6,12 @@
 ** https://tidalcycles.org/
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
+* TODO [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation in Tidalcycles]]
+* TODO [[id:3987c7c6-e49e-4751-9efb-599e9cd34467][Yaxu's ongoing remake of Tidal]]
+* TODO distortion in Tidal
+  Probably [[id:d41a981f-1a73-44bf-85fb-f5a80d72bea3][the bus solution]] will do it.
+  But see also
+    /home/jeff/code/music/Tidal/distort-a-sum.tidal-SC
 * [[id:62d4071a-c7d5-4671-baa5-94b620fe2a77][installing and updating]]
 * launching it
 ** in SCIDE, launch this

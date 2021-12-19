@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       ea8c92be-946e-4b24-819a-14d37c16f3c1
+:END:
+#+title: Didi (ride-hailing app)
+* PITFALL: It emails me bills even for rides paid in cash.
