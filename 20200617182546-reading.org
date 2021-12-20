@@ -2,6 +2,10 @@
 :ID:       94567688-b4eb-4396-a7eb-3af515d58eb2
 :END:
 #+title: to read
+* the best poets of the 20th century
+  Karl Ove Knausgård and Tyler Cowen say:
+    Paul Celan
+    or maybe Rainer Maria Rilke
 * Margaret Atwood
 * ch 13 of Mindfulness in Plain English
   Asaf rec's.
