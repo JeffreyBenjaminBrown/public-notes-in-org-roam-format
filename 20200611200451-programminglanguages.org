@@ -5,7 +5,7 @@
 * with properties I like
 ** [[id:784007e7-b851-4988-beaa-b8e4a9657357][Haskell]]
 ** [[id:3924c945-e600-453f-be00-b2fb24d65f17][Go (programming language)]]
-** Idris
+** [[id:23f1e037-49c2-4fa1-acf6-a42b5703082a][Idris (programming language)]]
 ** [[id:8663f460-bf38-4037-9a7f-f5b954639027][Flix (programming language)]]
 ** [[id:b46f994e-d01e-4b2f-903d-4f6a967dc68a][Hamler (programming language)]]
 ** [[id:0022503a-7ad9-4779-8006-661464de9f91][Gleam (programming language)]]

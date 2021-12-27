@@ -1,0 +1,454 @@
+:PROPERTIES:
+:ID:       23f1e037-49c2-4fa1-acf6-a42b5703082a
+:END:
+#+title: Idris (programming language)
+* TODO RESUME at
+  in this page:
+    https://idris2.readthedocs.io/en/latest/tutorial/multiplicities.html
+  find one of these quotes:
+    A similar intuition applies for data types.
+    data Lin : Type -> Type where
+* TODO passages I didn't understand
+** Are constraints types?
+https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html
+
+Constraints are, like types, first class objects in the language. You can see this at the REPL:
+
+Main> :t Ord
+Prelude.Ord : Type -> Type
+So, (Ord a, Show a) is an ordinary pair of Types, with two constraints as the first and second element of the pair.
+** [[id:f87ba02f-765f-43c0-aa94-27d0cc9733d3][Runtime availability of parameters can be messed with.]]
+** TODO Why does the definition of Functor use 0, while Monad's doesn't?
+   https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html#functors-and-applicatives
+   interface                  Functor (0 f : Type -> Type) where
+     map  : (m : a -> b) -> f a -> f b
+   interface Applicative m => Monad   (m   : Type -> Type) where
+    (>>=) : m a -> (a -> m b) -> m b
+** [[id:1a6241d4-6bd1-49da-b17a-0ece3aa3113d][!-notation can be faster than do-notation.]]
+** [[id:bdf046a9-e938-4d6f-ab34-41b12c30c561][I don't understand HasIO]]
+** [[id:9d4b4bf0-8998-4ab2-b7dc-aebb382a2130][I don't understand idiom brackets.]]
+** [[id:12b7dac3-691e-4f75-85c4-50eb946986a7]["sometimes, we need access to a named parent implementation"]]
+** [[id:361733e7-20ff-4c83-8882-9e6a53626ac1][Interface conostructors.]]
+** [[id:ccb96d74-b212-411d-9ea7-d0c095559227][Determining parameters]]
+** [[id:da014193-f359-434b-8da2-3ac1990c0123][limits on how export levels can refer to each other]]
+** [[id:16acccdd-838d-47ec-98c3-6c145b1f117d][public export for functions]]
+** (:=)
+*** We can also use the symbol := instead of = to, among other things, avoid ambiguities with propositional equality:
+    Diag : a -> Type
+    Diag v = let ty : Type := v = v in ty
+*** The symbol := cannot be used in a local function definition. Which means that it can be used to interleave let bindings and local definitions without introducing ambiguities.
+    foldMap : Monoid m => (a -> m) -> Vect n a -> m
+    foldMap f = let fo : m -> a -> m
+                    fo ac el = ac <+> f el
+                    initial := neutral
+                     --     ^ this indicates that `initial` is a separate binding,
+                     -- not relevant to definition of `fo`
+               in foldl fo initial
+** Implementation declarations can themselves have constraints. To help with resolution, the arguments of an implementation must be constructors (either data or type constructors) or variables (i.e. you cannot give an implementation for a function). For example, to define a Show implementation for vectors, we need to know that there is a Show implementation for the element type, because we are going to use it to convert each element to a String:
+   Show a => Show (Vect n a) where
+       show xs = "[" ++ show' xs ++ "]" where
+           show' : forall n . Vect n a -> String
+           show' Nil        = ""
+           show' (x :: Nil) = show x
+           show' (x :: xs)  = show x ++ ", " ++ show' xs
+   Note that we need the explicit forall n . in the show' function because otherwise the n is already in scope, and fixed to the value of the top level n.
+* vocabulary
+** indexes and parameters
+*** In brief: In types, indexes are values and parameters are types.
+    I believe.
+*** a quote
+    https://idris2.readthedocs.io/en/latest/tutorial/typesfuns.html
+    Vect Nat a "declares a family of types, and so the form of the declaration is rather different from the simple type declarations above. We explicitly state the type of the type constructor Vect — it takes a Nat and a type as an argument, where Type stands for the type of types. We say that Vect is indexed over Nat and parameterised by Type."
+** type constructor and data constructor
+   Nat and List are type constructors.
+   Nil is a data constructor.
+* ":t" in the repl
+** reading the output
+   Above the long horizontal line appear variables in scope.
+   Below it appears the type of the thing queried.
+** You can inspect components of half-completed functions!
+impossible_duplicate : (1 x : a) -> (a, a)
+impossible_duplicate x = (x, ?help)
+
+The REPL can now tell us that we can't use `a`.
+
+Main> :t help
+ 0 a : Type
+ 0 x : a
+-------------------------------------
+help : a
+* notes from the Crash Course
+  ordered roughly as in the Crash Course
+** How to identify Nat with ordinary integers?
+*** You may wonder, by the way, why we have unary natural numbers when our computers have perfectly good integer arithmetic built in. The reason is primarily that unary numbers have a very convenient structure which is easy to reason about, and easy to relate to other data structures as we will see later. Nevertheless, we do not want this convenience to be at the expense of efficiency. Fortunately, Idris knows about the relationship between Nat (and similarly structured types) and numbers. This means it can optimise the representation, and functions such as plus and mult
+** As well as functions, where blocks can include local data declarations
+** Partial functions must be granted an explicit exception
+   partial fromMaybe : Maybe a -> a
+   fromMaybe (Just x) = x
+** Interfaces
+*** syntax
+    interface Show a where
+      show : a -> String
+*** is hard to imagine many cases where the /= method will be anything other than the negation of the result of applying the == method. It is therefore convenient to give a default definition for each method in the interface declaration, in terms of the other method:
+
+          interface Eq a where
+              (==) : a -> a -> Bool
+              (/=) : a -> a -> Bool
+
+              x /= y = not (x == y)
+              x == y = not (x /= y)
+          A minimal complete implementation of Eq requires either == or /= to be defined, but does not require both.
+*** Constraints are, like types, first class objects in the language. You can see this at the REPL:
+    Main> :t Ord
+    Prelude.Ord : Type -> Type
+** Holes can be named, and then inspected from the Repl
+   Main> :t even_rhs
+            k : Nat
+         -------------------------------------
+         even_rhs : Bool
+   even : Nat -> Bool
+         even Z = True
+         even (S k) = ?even_rhs
+** Computing a type
+   mkSingle : (x : Bool) -> isSingleton x
+   mkSingle True = 0
+   mkSingle False = []
+
+   isSingleton : Bool -> Type
+   isSingleton True = Nat
+   isSingleton False = List Nat
+** Names can be overloaded.
+   Note that we have [in the declaration of Vector] used the same constructor names as for List. Ad-hoc name overloading such as this is accepted by Idris, provided that the names are declared in different namespaces
+** I don't understand The Finite Sets
+   https://idris2.readthedocs.io/en/latest/tutorial/typesfuns.html#the-finite-sets
+*** What they're for.
+    Natural numbers have a lower bound and no upper bound.
+    Finite sets, based on natural numbers, have both.
+*** But what imposes the upper bound?
+** Implicit args and naming
+*** Implicit arguments, given with the forall declaration, are not given in applications of index; their values can be inferred from the types of the Fin n and Vect n a arguments. Any name beginning with a lower case letter which appears as a parameter or index in a type declaration, which is not applied to any arguments, will always be automatically bound as an implicit argument; this is why data type names cannot begin with a lower case letter. Implicit arguments can still be given explicitly in applications, using {a=value} and {n=value}, for example:
+
+          index {a=Int} {n=2} FZ (2 :: 3 :: Nil)
+          In fact, any argument, implicit or explicit, may be given a name. We could have declared the type of index as:
+
+          index : (i : Fin n) -> (xs : Vect n a) -> a
+          It is a matter of taste whether you want to do this — sometimes it can help document a function by making the purpose of an argument more clear.
+** Order of defs matters, with explicit "mutual" exceptions possible
+*** https://idris2.readthedocs.io/en/latest/tutorial/typesfuns.html#note-declaration-order-and-mutual-blocks
+    :PROPERTIES:
+    :ID:       da7da5cf-5bf2-4233-93b9-01bef2fb2942
+    :END:
+*** In general, functions and data types must be defined before use, since dependent types allow functions to appear as part of types, and type checking can rely on how particular functions are defined (though this is only true of total functions; see Section Totality Checking). However, this restriction can be relaxed by using a mutual block, which allows data types and functions to be defined simultaneously:
+          mutual
+            even : Nat -> Bool
+            even Z = True
+            even (S k) = odd k
+
+            odd : Nat -> Bool
+            odd Z = False
+            odd (S k) = even k
+*** There's more! See the [[id:da7da5cf-5bf2-4233-93b9-01bef2fb2942][section of the crash course]].
+** There is laziness available on request
+   :PROPERTIES:
+   :ID:       ca34f4aa-a82e-4943-b57a-5d698258753f
+   :END:
+*** https://idris2.readthedocs.io/en/latest/tutorial/typesfuns.html#laziness
+** any [overloaded] implementation of the names Nil and :: can be written in list form.
+*** Similarly, any implementation of the names Lin and :< can be written in snoc-list form:
+** Anonymous functions (lambda expressions)
+*** They use => not ->
+*** Their arguments must be comma separated.
+*** They can specify types for the args (hence probably the commas).
+** (*2) and (2*) are different
+*** In Haskell too
+** PITFALL: tuples are nested pairs
+   It's not WYSIWYG
+** Dependent pairs, a.k.a. “Sigma types”.
+*** sugar-free syntax
+    data DPair : (a : Type) -> (p : a -> Type) -> Type where
+      MkDPair : {p : a -> Type} -> (x : a) -> p x -> DPair a p
+*** syntactic sugar
+    :PROPERTIES:
+    :ID:       732d2202-44d1-4fbf-867a-fc04290ef9a0
+    :END:
+**** (x : a ** p) is the type of a pair of A and P, where the name x can occur inside p.
+*** Example, with and withouot syntactic sugar
+    These are equivalent.
+
+    vec : (n : Nat ** Vect n Int)
+    vec = (2 ** [3, 4])
+
+    vec : DPair Nat (\n => Vect n Int)
+    vec = MkDPair 2 [3, 4]
+*** One use for dependent pairs is to return values of dependent types where the index is not necessarily known in advance.
+    For example, if we filter elements out of a Vect according to some predicate, we will not know in advance what the length of the resulting vector will be:
+    filter : (a -> Bool) -> Vect n a -> (p ** Vect p a)
+** The type checker can fill in values, not just types
+*** We can write an underscore _ in place of values which we expect the type checker to fill in, so the above definition could also be written as:
+    This example uses the [[id:732d2202-44d1-4fbf-867a-fc04290ef9a0][dependent pair syntactic sugar]].
+
+    vec : (n : Nat ** Vect n Int)
+    vec = (_ ** [3, 4])
+*** We might also prefer to omit the type of the first element of the pair, since, again, it can be inferred:
+    vec : (n ** Vect n Int)
+    vec = (_ ** [3, 4])
+** Record types
+*** declaration syntax
+    record Person where
+      constructor MkPerson
+      firstName, middleName, lastName : String
+      age : Int
+*** getters and setters
+**** notation
+     Postfix dot and prefix space notation are both available
+     (at least for getters, maybe for setters too).
+**** an example
+     *Record> { firstName := "Jim" } fred
+     MkPerson "Jim" "Joe" "Bloggs" 30 : Person
+     *Record> { firstName := "Jim", age $= (+ 1) } fred
+     MkPerson "Jim" "Joe" "Bloggs" 31 : Person
+**** The syntax { field := val, ... } generates a function which updates the given fields in a record. := assigns a new value to a field, and $= applies a function to update its value
+**** { a.b.c := val } x
+*** Dots and space
+**** map (.a.b.c) xs
+     For the dot notation, there must be no spaces after the dots but there may be spaces before the dots. The composite projection must be parenthesised, otherwise map .a.b.c xs would be understood as map.a.b.c xs.
+**** Dots with spaces around them stand for function composition operators [reversing the order from the record dot notation]
+*** Field names can be reused in multiple records.
+*** Dependent records
+**** an example
+     record SizedClass (size : Nat) where
+       constructor SizedClassInfo
+       students : Vect size Person
+       className : String
+**** It is possible to use record update syntax to update dependent fields, provided that all related fields are updated at once. For example:
+     cons : t -> (x : Nat ** Vect x t) -> (x : Nat ** Vect x t)
+     cons val xs
+         = { fst := S (fst xs),
+             snd := (val :: snd xs) } xs
+     Or even:
+
+     cons' : t -> (x : Nat ** Vect x t) -> (x : Nat ** Vect x t)
+     cons' val
+         = { fst $= S,
+             snd $= (val ::) }
+** Case uses => instead of ->
+** Only total functions will be evaluated during type checking. Partial functions can still be used in types, but will not be evaluated further.
+** runtime parameter availability
+*** "0 parameters"
+**** are unavailable at runtime.
+     By default parameters that are not explicitly ascribed a type in an interface declaration are assigned the quantity 0. This means that the parameter is not available to use at runtime in the methods’ definitions.
+
+     For instance, Show a gives rise to a 0-quantified type variable a in the type of the show method:
+**** can be inspected
+ Main> :set showimplicits
+ Main> :t show
+ Prelude.show : {0 a : Type} -> Show a => a -> String
+*** can be messed with
+    :PROPERTIES:
+    :ID:       f87ba02f-765f-43c0-aa94-27d0cc9733d3
+    :END:
+    in ways I don't understand.
+    https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html#quantities-for-parameters
+** Interface parameters can have a type other than Type.
+*** To do so requires an explicit type declaration, as un Functor:
+    interface Functor (0 f : Type -> Type) where
+      map : (m : a -> b) -> f a -> f b
+** "Do notation" is just syntactic sugar for (>>=) and (>>).
+*** the transformation rules
+    x <- v; e becomes v >>= (\x => e)
+    v; e becomes v >> e
+    let x = v; e becomes let x = v in e
+*** "Do notation" doesn't even have to be for monads!
+ https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html
+
+ The translation of do notation is entirely syntactic, so there is no need for the (>>=) and (>>) operators to be the operator defined in the Monad interface. Idris will, in general, try to disambiguate which operators you mean by type, but you can explicitly choose with qualified do notation, for example:
+
+ m_add : Maybe Int -> Maybe Int -> Maybe Int
+ m_add x y = Prelude.do
+                x' <- x -- Extract value from x
+                y' <- y -- Extract value from y
+                pure (x' + y') -- Add them
+ The Prelude.do means that Idris will use the (>>=) and (>>) operators defined in the Prelude.
+*** Flatten nested cases in do-notation with pattern match alternatives.
+    readNumbers : IO (Maybe (Nat, Nat))
+    readNumbers
+      = do Just x_ok <- readNumber
+                | Nothing => pure Nothing
+           Just y_ok <- readNumber
+                | Nothing => pure Nothing
+           pure (Just (x_ok, y_ok))
+** !-notation can be faster than do-notation.
+   :PROPERTIES:
+   :ID:       1a6241d4-6bd1-49da-b17a-0ece3aa3113d
+   :END:
+   And I don't get it.
+   https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html#notation
+** [List, etc.] comprehensions
+*** Comprehensions apply to anything both Monad and Alternative.
+    interface Applicative f => Alternative (0 f : Type -> Type) where
+      empty : f a
+      (<|>) : f a -> f a -> f a
+*** the syntax
+    In general, a comprehension takes the form [ exp | qual1, qual2, …, qualn ] where quali can be one of:
+      A generator x <- e
+      A guard, which is an expression of type Bool
+      A let binding let x = e
+** I don't understand HasIO
+   :PROPERTIES:
+   :ID:       bdf046a9-e938-4d6f-ab34-41b12c30c561
+   :END:
+   https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html#interfaces-and-io
+** I don't understand idiom brackets.
+   :PROPERTIES:
+   :ID:       9d4b4bf0-8998-4ab2-b7dc-aebb382a2130
+   :END:
+   https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html#idiom-brackets
+   https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html#an-error-handling-interpreter
+** Named Implementations
+*** why
+    It can be desirable to have multiple implementations of an interface for the same type, for example to provide alternative methods for sorting or printing values. To achieve this, implementations can be named as follows:
+*** defining one
+    [myord] Ord Nat where
+       compare Z (S n)     = GT
+       compare (S n) Z     = LT
+       compare Z Z         = EQ
+       compare (S x) (S y) = compare @{myord} x y
+*** using one
+    The syntax compare @{myord} gives an explicit implementation to compare, otherwise it would use the default implementation for Nat.
+*** "sometimes, we need access to a named parent implementation"
+    :PROPERTIES:
+    :ID:       12b7dac3-691e-4f75-85c4-50eb946986a7
+    :END:
+    https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html#named-implementations
+** Interface conostructors.
+   :PROPERTIES:
+   :ID:       361733e7-20ff-4c83-8882-9e6a53626ac1
+   :END:
+   I don't get it.
+   https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html#interface-constructors
+** Determining parameters
+   :PROPERTIES:
+   :ID:       ccb96d74-b212-411d-9ea7-d0c095559227
+   :END:
+   Are like Haskell's functional dependencies.
+   I don't get it.
+   https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html#determining-parameters
+** export visibility
+*** PITFALL: [[id:b472f211-6991-4d7a-b842-3dc99971eafb][export rules are per namespace, not per file]]
+*** the three kinds
+ Idris allows for functions, types, and interfaces to be marked as: private, export, or public export. Their general meaning is as follows:
+
+ private meaning that it is not exported at all. This is the default.
+
+ export meaning that its top level type is exported.
+
+ public export meaning that the entire definition is exported.
+*** public export for functions
+    :PROPERTIES:
+    :ID:       16acccdd-838d-47ec-98c3-6c145b1f117d
+    :END:
+    https://idris2.readthedocs.io/en/latest/tutorial/modules.html#meaning-for-functions
+**** the confusing quote
+     "the type and definition are exported, and the definition can be used after it is imported. In other words, the definition itself is considered part of the module’s interface. The long name public export is intended to make you think twice about doing this."
+**** Is this the whole solution?
+     If the function needs to be accessed only at runtime, use export. However, if it’s also meant to be used at compile time (e.g. to prove a theorem), use public export.
+*** export level interpretations for data types
+ export - the type constructor is exported
+ public export - the type constructor and data constructors are exported
+*** export level interpretations for interfaces
+ export - the interface name is exported
+
+ public export - the interface name, method names and default definitions are exported
+*** limits on how they refer to each other
+    :PROPERTIES:
+    :ID:       da014193-f359-434b-8da2-3ac1990c0123
+    :END:
+**** my question
+     If this is true, how can private functions ever get used?
+**** the quote
+     definitions must not refer to anything within a lower level of visibility. For example, public export definitions cannot use private or export names, and export types cannot use private names.
+*** re-export an imported module
+    import public C
+*** create a module which exports a larger API from other sub-modules
+ module                          Books
+
+ import public Books.Hardback as Books
+ import public Books.Comic    as Books
+*** COOL - dividing a module into sub-namespaces
+**** This module defines Foo.X.test and Foo.Y.test
+ module Foo
+
+ namespace X
+   export
+   test : Int -> Int
+   test x = x * 2
+
+ namespace Y
+   export
+   test : String -> String
+   test x = x ++ x
+**** Those two names can be disambiguated by their types.
+ *Foo> test 3
+ 6 : Int
+ *Foo> test "foo"
+ "foofoo" : String
+**** export rules are per namespace, not per file
+     :PROPERTIES:
+     :ID:       b472f211-6991-4d7a-b842-3dc99971eafb
+     :END:
+     so the two test definitions above need the export flag to be visible outside their own namespaces.
+** Different modules can define identical names.
+*** "If names are otherwise unambiguous, there is no need to give the fully qualified name"
+*** "Names can be disambiguated either by giving an explicit qualification, using the with keyword, or according to their type."
+*** with-based disambiguation
+ The with keyword in expressions comes in two variants:
+
+ with BTree.insert (insert x empty) for one name
+
+ with [BTree.insert, BTree.empty] (insert x empty) for multiple names
+
+ This is particularly useful with do notation, where it can often improve error messages: with MyModule.(>>=) do ...
+*** PITFALL: "no formal link between the module name and its filename"
+** type synonyms
+   Type synonyms in Idris are created by writing a function. When setting the visibility for a module, it is usually a good idea to public export all type synonyms if they are to be used outside the module. Otherwise, Idris won’t know what the synonym is a synonym for.
+** "parameterised blocks"
+   https://idris2.readthedocs.io/en/latest/tutorial/modules.html#parameterised-blocks
+   Looks to me like a maybe-dangerous way of saving keystrokes.
+**
+** multiplicities (linear types, Quantitative Type Theory)
+*** the three kinds
+**** 0, meaning that the variable is erased at run time
+     ignoreN : (0 n : Nat) -> Vect n a -> Nat - this function cannot look at n at run time
+**** 1 = linear
+***** example
+      duplicate : (1 x : a) -> (a, a) - this function is impossible, because the output requires using `a` twice.
+***** rough meaning
+      The variable is used exactly once at run time.
+
+***** precisely
+      f : (1 x : a) -> b
+      => if f x is used exactly once, then x is used exactly once.
+**** Unrestricted, which is the same behaviour as Idris 1
+*** Nultiplicities can be inspected in the repl.
+    append : Vect n a -> Vect m a -> Vect (n + m) a
+    append xs ys = ?append_rhs
+    …we can look at the hole append_rhs:
+
+    Main> :t append_rhs
+     0 m : Nat
+     0 a : Type
+     0 n : Nat
+       ys : Vect m a
+       xs : Vect n a
+    -------------------------------------
+    append_rhs : Vect (plus n m) a
+*** Multiplicities can be made explicit.
+    ignoreN : (0 n : Nat) -> Vect n a -> Nat - this function cannot look at n at run time
+*** Implicitly bound names are "erased" (i.e. erased at runtime).
+    so, e.g. these are equivalent:
+
+    ignoreN :              (0 n : Nat) -> Vect n a -> Nat
+    ignoreN : {0 a : _} -> (0 n : Nat) -> Vect n a -> Nat
+
+    duplicate : {0 a : _} -> (1 x : a) -> (a, a)
+    duplicate :              (1 x : a) -> (a, a)
