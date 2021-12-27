@@ -3,6 +3,7 @@
 :END:
 #+title: TidalCycles (music software)
 * refs
+** [[id:e3544bcf-ff56-4667-b924-3b7baaea26ac][SuperDirt (plugin for SuperCollider)]]
 ** https://tidalcycles.org/
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
@@ -31,9 +32,11 @@
 *** launch a shell in Emacs (`M-x shell`)
     and within it:
 
-    cd <root of Tidal>
+    cd /home/jeff/code/music/Tidal/tidal+epic # or wherever Tidal's root is
     cabal repl
     :s BootTidal.hs
+*** mark it as the receiving GHCI buffer
+    M-x mark-rec-b TAB
 *** to send text from a text buffer to GHCI
     Define these functions, or something like them:
     ```

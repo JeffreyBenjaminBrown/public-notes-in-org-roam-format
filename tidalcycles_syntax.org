@@ -2,6 +2,9 @@
 :ID:       543397e7-733f-4d56-bf58-35f5e9d83b5e
 :END:
 #+title: TidalCycles language: syntax, functions, signal flow
+* TODO questions
+** What is the default amplitude?
+   0.35?
 * TODO [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation in Tidalcycles]]
 * voices and signal flow in Tidal
 ** voice names
@@ -18,14 +21,14 @@
       p 1
     or
       p "juliet"
-** There are effects buses.
+** TODO There are effects buses.
    :PROPERTIES:
    :ID:       d41a981f-1a73-44bf-85fb-f5a80d72bea3
    :END:
    https://club.tidalcycles.org/t/creating-effects-chains-or-audio-buses/3707
    https://github.com/tidalcycles/tidal-doc/issues/66
 * TidalCycles "mini-notation"
-** Each [] lasts as long as a single "event" in a pattern.
+** DONE Each [] lasts as long as a single "event" in a pattern.
    So in "x [y z]" the x lasts as long as the [y z].
 ** (.) can separate events like [] does.
    These are equivalent:
@@ -44,15 +47,30 @@
 ** postfix (?) sometimes replaces its argument with silence
 ** (sample:number) selects the `number`th value of that sample
 ** (n,d) creates a Euclidean sequence with `n` events covering time `d`.
-** TODO {pat,pat} polymeters
+** TODO {pat,pat} polymeters: All event units within comma-separated are the same duration, making the comma-separated patterns possibly different durations.
    In this:
-     d1 $ s "{bd bass, cp cp hh}"
-   the second sequence takes 1.5 times as long as the first.
+     d1 $ s "{bd bd:1, cp cp:1 cp:2}"
+   the second sequence takes 1.5 times as long as the first,
+   and the time between bd events is the same as that between cp events.
 ** TODO {pat}%number polymeters
    In
      d1 $ s "[{bd cp hh}%4, bass]"
    the bass happens every time four of the sounds from the first pattern
    have occurred.
+* cyclic time in Tidal
+** _ extends the duration of the previous item, *only relative to others*.
+   These two patterns sound the same:
+   p 1 $ stack [ "[hh*4]",
+                 "[bd*4] _" ]
+   p 1 $ stack [ "[hh*4]",
+                 "[bd*4]" ]
+   That is, extending the number of time slots occupied by the [bd*4] from 1 to 2 does nothing, because there was previously only one slot, and now there are two.
+
+   However, if there's something else for the bd*4 to vie for space with, then extending its length does have an effect -- hence the following are different.
+   p 1 $ stack [ "[hh*4]",
+                 "~ [bd*4]" ]
+   p 1 $ stack [ "[hh*4]",
+                 "~ [bd*4] _" ]
 * non-cyclic time in Tidal
 ** ref: transitions
    https://tidalcycles.org/docs/patternlib/tour/transitions/
@@ -88,6 +106,8 @@
 ** `cps` is a parameter, like `s` or `n` except global.
    Try it with oscillators (e.g. `saw` below).
    p "cpsfun" $ s "bd sd(3,8)" # cps (slow 8 $ 0.5 + saw)
+** `timeloop` lets you periodically restart a cycle
+   https://club.tidalcycles.org/t/restart-a-polymetric-sequence/3736
 * some code maybe worth hacking
 ** `histpan` is a transition function that pans repetitions of a pattern.
    I might want to do that with other parameters.

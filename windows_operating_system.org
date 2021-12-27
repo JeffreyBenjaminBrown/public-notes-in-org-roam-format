@@ -7,3 +7,13 @@
   :ID:       2734843e-60bb-481b-b1e3-7343c8840414
   :END:
   https://www.tomshardware.com/how-to/run-windows-11-and-mac-os-virtual-machines-in-linux
+* escape from Windows 10 S to Windows 10
+** why
+   You can't install anything except from the Microsoft Store.
+   You need to login to MS to use the computer.
+   If the login breaks you can't even type.
+** how
+*** It's not actually a separate OS; it's a crippled Windows 10.
+*** S-mode can be deactivated, never reactivated.
+** maybe a helpful story
+   [[id:f1fbbbc9-bd87-4df1-972a-e1aa989b6d7e][2021 12 24, Villavo, Xmas eve, Stella's new laptop]]

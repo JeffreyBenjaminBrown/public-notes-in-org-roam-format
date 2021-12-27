@@ -91,3 +91,29 @@
     pd.read_csv (
       "data/history.csv",
       parse_dates = [ "time, favorite time" ] )
+* pandas.DataFrame.loc
+** Its arguments are in brackets for some reason.
+** Its first and potentially only arg specifies rows.
+   It can be an index value.
+   It can be a list of index values.
+   It can be a boolean vector of the same length as the frame.
+*** TODO Can it be a colon, to include everything?
+** Its second argument specifies columns.
+   It can be a column name or a list of columns.
+   I haven't checked whether it can be anything else --
+   a range, a colon, a boolean vector, etc.
+* modify a column conditional on a boolean column
+** np.where(): like "if" for vectors, somehow faster than "apply"
+*** Example: Set z[b] equal to z[c] only where z[b] is missing.
+    if True: # imports
+      import numpy as np
+      import pandas as pd
+
+   z = pd.DataFrame ( { "a" : [1,2     ,3],
+                        "b" : [1,np.nan,3],
+                        "c" : [4,4     ,4] } )
+
+   z["b"] = np.where ( z["b"].isnull(),
+                       z["c"],
+                       z["b"] )
+* show unique rows: pd.DataFrame.drop_duplicates

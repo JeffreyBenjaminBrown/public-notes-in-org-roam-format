@@ -14,3 +14,12 @@
    Quarks.install("SuperDirt")
 * updating it
   Quarks.update("SuperDirt")
+* Dirt samples
+** samples I like
+*** bend - crackling percussion
+*** hh:1 - a light crash
+** figuring out durations
+*** "bev" is 16 seconds long
+** TODO samples I need
+   ride cymbal
+   crash cymbal
