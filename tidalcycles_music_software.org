@@ -7,6 +7,23 @@
 ** https://tidalcycles.org/
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
+* TODO harmony for Tidal
+** u
+*** ID root and chord in scale, quantize voices to those notes sometimes
+*** High melody can have more out notes in its scale
+*** There's room for more operators in the mini syntax, if I just use two characters.
+** TODO fix inScales
+*** try a similar test but without inScales
+** TODO harmonize
+   Fold (yes?) across the voices using `avoidDiffsMod`.
+   Bear in mind that queries are over arcs, not at points.
+** MYSTERY: multidimensional scale indices (for mini-notation)
+*** At least one dimension for priority
+    e.g. root, chord, scale and "out"
+    but maybe finer or coarser
+*** At least one dimension for, roughly, frequency.
+*** Determinism and simultaneous voices both complicate the problem.
+*** Priority patterns should be applicable to other patterns.
 * TODO [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation in Tidalcycles]]
 * TODO [[id:3987c7c6-e49e-4751-9efb-599e9cd34467][Yaxu's ongoing remake of Tidal]]
 * TODO distortion in Tidal

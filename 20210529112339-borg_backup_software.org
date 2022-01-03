@@ -2,6 +2,20 @@
 :ID:       927c1e3d-410e-4556-a1f5-560791950164
 :END:
 #+title: Borg (backup software)
+* TODO asking about changing passphrase in Borg
+  :PROPERTIES:
+  :ID:       2e44ac14-b823-44ee-849a-033b574ee38b
+  :END:
+** the email I sent
+   https://mail.google.com/mail/u/0/#sent/KtbxLzFrKtrzcwhbxBhCNXBDFTrDSpRbjV
+** the message in it
+Is running `borg key change-passphrase` and deleting old copies of the repo enough, or do I need a new repo?
+
+I'd like to change the password that encrypts my current Borg repo. I've read the documentation for `borg key change-passphrase`[1] and still don't understand if it does what I'm hoping. I don't want to create a new repo, because (please correct me if I'm wrong) there's no easy way to incorporate the old repo's history of backups into the new one.
+
+If I run `borg key change-passphrase` and delete any compromised old copies of the repo, will new copies of the repo still be readable by someone who has the old password and not the new one?
+
+[1] https://borgbackup.readthedocs.io/en/stable/usage/key.html
 * how to test a copy of a borg repo
 ** the problem
    I copied the borg dir to a USB drive,

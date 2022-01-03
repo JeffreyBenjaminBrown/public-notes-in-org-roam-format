@@ -2,6 +2,8 @@
 :ID:       6efbca64-356c-4475-8c43-6ee1a6e54282
 :END:
 #+title: minor life optimizations
+* Vimium: browse the web from the keyboard
+  It's an extension available for Chrome and Firefox that allows you to use websites and web apps using your keyboard.
 * TODO In OTP, provide the synonym `async` for `brutal_kill`.
 * TODO script KDE desktop population
   https://www.reddit.com/r/kde/comments/pgv8m7/can_i_script_the_population_of_and_the_commands/hbf5ppy/?context=3

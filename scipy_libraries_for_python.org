@@ -117,3 +117,13 @@
                        z["c"],
                        z["b"] )
 * show unique rows: pd.DataFrame.drop_duplicates
+* format variables when reading a table from disk
+  vat_coicop = pd.read_csv (
+    ...
+    , dtype = {
+        "coicop"          : "int32"
+      , "vat"           : "float32"
+      , "vat frac"      : "float32"
+    } )
+** in tax.co, my `readStage` utility accepts the same kind of argument
+   forwarding it on to pd.read_csv as part of **kwargs.
