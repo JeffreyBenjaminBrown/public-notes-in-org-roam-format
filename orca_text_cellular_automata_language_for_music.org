@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       0a492cdb-c234-48e2-bad8-b6afdd028cfb
+:END:
+#+title: Orca (text cellular automata language for music)
+* TODO Modify the parser for multiple characters

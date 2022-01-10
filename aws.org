@@ -4,6 +4,8 @@
 :END:
 #+title: Amazon Web Services
 * TODO refs | URLs
+** some of my AWS notes
+*** [[id:02822d7d-d0f5-4d99-8961-144812a3c4be][AWS credentials]]
 ** related docs
 *** [[id:6d02b17d-a43e-43e2-9e75-91622bd08c38][AWS vocabulary]]
 *** [[id:390298ec-b752-4e01-8962-1da401c2d3b7][AWS IAM (Identity Access Management)]]

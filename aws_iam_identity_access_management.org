@@ -2,36 +2,6 @@
 :ID:       390298ec-b752-4e01-8962-1da401c2d3b7
 :END:
 #+title: AWS IAM (Identity Access Management)
-* Here is an IAM policy for total access to an S3 bucket.
-  This is JSON. It gives total access to a bucket called
-    whatdoineedtodotofindauniquename
-  {
-    "Version": "2012-10-17",
-    "Statement": [
-      {
-        "Effect": "Allow",
-        "Action": [
-          "s3:GetBucketLocation",
-          "s3:ListAllMyBuckets"
-        ],
-        "Resource": "*"
-      },
-      {
-        "Effect": "Allow",
-        "Action": ["s3:ListBucket"],
-        "Resource": ["arn:aws:s3:::whatdoineedtodotofindauniquename"]
-      },
-      {
-        "Effect": "Allow",
-        "Action": [
-          "s3:PutObject",
-          "s3:GetObject",
-          "s3:DeleteObject"
-        ],
-        "Resource": ["arn:aws:s3:::whatdoineedtodotofindauniquename/*"]
-      }
-    ]
-  }
 * Policies, Roles, and Users
 ** A Policy defines a set of abilities.
 ** A Role is a collection of Policies.
@@ -44,7 +14,42 @@
 ** TODO ? security
    AWS so far does not seem to care if people in different places
    log in to the same User. But maybe it would if we did it simultaneously.
-* how to use it
+* [[id:02822d7d-d0f5-4d99-8961-144812a3c4be][stuff I've made]]
+* solutions
+** Create an IAM user and use it from the CLI.
+   Go to AWS IAM and follow the prompts.
+   Download credentials at the end.
+   Run "aws configure" from the CL and manually input those credentials. If they ask for stuff not in the credentials, refer to to preexisting credentials in my ~/.aws folder -- e.g. default region (us-east-1).
+** an IAM policy for total access to an S3 bucket
+   This is JSON. It gives total access to a bucket called
+     whatdoineedtodotofindauniquename
+   {
+     "Version": "2012-10-17",
+     "Statement": [
+       {
+         "Effect": "Allow",
+         "Action": [
+           "s3:GetBucketLocation",
+           "s3:ListAllMyBuckets"
+         ],
+         "Resource": "*"
+       },
+       {
+         "Effect": "Allow",
+         "Action": ["s3:ListBucket"],
+         "Resource": ["arn:aws:s3:::whatdoineedtodotofindauniquename"]
+       },
+       {
+         "Effect": "Allow",
+         "Action": [
+           "s3:PutObject",
+           "s3:GetObject",
+           "s3:DeleteObject"
+         ],
+         "Resource": ["arn:aws:s3:::whatdoineedtodotofindauniquename/*"]
+       }
+     ]
+   }
 ** TODO | PITFALL :: I'm not sure how to reconcile these two procedures.
 ** access S3 from my own computer
 *** I nuked two files in ~/.aws

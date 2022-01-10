@@ -10,3 +10,4 @@
 ** [[id:b46f994e-d01e-4b2f-903d-4f6a967dc68a][Hamler (programming language)]]
 ** [[id:0022503a-7ad9-4779-8006-661464de9f91][Gleam (programming language)]]
 ** [[id:2159ee76-0555-42ab-b09a-87db6313b559][Unison (programming language)]]
+** [[id:0a492cdb-c234-48e2-bad8-b6afdd028cfb][Orca (text cellular automata language for music)]]
