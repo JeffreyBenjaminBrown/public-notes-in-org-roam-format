@@ -1,0 +1,72 @@
+:PROPERTIES:
+:ID:       31aeb236-5ce9-46bc-ba6e-bbe6b5c65e6e
+:END:
+#+title: ways to reconcile different versions of Python
+* PITFALL: These notes are terrible. Don't try to follow them.
+  Just see if they have ideas I can use.
+* some context
+  I wrote these while building the UI for tax.co.web,
+  when Apache and/or Conda and/or Django was
+  using the wrong version of some Python library and/or Python itself.
+* things I tried, [[id:3daa09b9-8b82-4672-b8f9-b77d905f7010][the successful one]] of which was an ugly hack
+  alternatives
+** DONE from Django, use the `csv` package rather than pandas
+   :PROPERTIES:
+   :ID:       3daa09b9-8b82-4672-b8f9-b77d905f7010
+   :END:
+*** overview
+    Don't read CSV directly from Javascript --
+    I don't think it has permission.
+    Unlike `pandas`, the Python3.7 that Apache runs is able to find `csv`.
+    See the example code from tax.co.web
+      git log -p 06be64e943b13b191f82d98729935f7573b8316b
+*** TODO steps
+**** DONE In JS, populate table fields with arbitrary data from Django.
+**** In Django, read the CSV files from tax.co/data.
+**** Hand the tax.co data, rather than the arbitrary data, to JS.
+     Dictionaries *cannot* be passed from Django to JS.
+     A [ ( tax_name :: String,
+           data :: [ [Float] ]
+	   ) ] should.
+**** Read the data from the webpage, and write to a user folder.
+     Refer to however I did this before.
+** update Python-alternatives before installing Apache
+   In smsn-public, see node
+   :xJwSDrXLZT7kTuDv:
+** hard-code the marginal rates into the Javascript
+** FAILED use the tax.co:test branch of the docker image
+** FAILED : Use pip to install NumPy for Python 3.7 too
+   It's already installed! So is pandas.
+   I can load it if I run python3.7 from the shell.
+   But I can't use it from Django/Apache.
+** FAILED : Fix Python version mismatch that keeps pandas from loading.
+   I can't run Apache. It says it can't find libpcre.so.1,
+   even though pcre is installed.
+*** asking Django forum
+    https://forum.djangoproject.com/t/server-and-shell-using-different-python-versions/9303
+*** MAYBE DONE ? Install these without apt
+**** mod-wsgi
+     -apt install libapache2-mod-wsgi-py3
+     pip3 install mod-wsgi
+       requires apxs, which is in the `apache2-dev` apt repo
+**** apache
+     Installing it via apt causes python3.7 to be installed.
+**** ufw
+     Installing it via apt causes python3.7 to be installed.
+**** pip
+***** -apt install python3-pip
+       It installs python3.7.
+***** +python -m ensurepip --upgrade
+      Will this work if I use python3.8?
+      `ensurepip` is disabled in Debian's python
+***** If that doesn't work there's also get-pip.py:
+      https://pip.pypa.io/en/stable/installation/
+*** DONE figure out what causes apt to install python3.7
+    It's apache, ufw, mod-wsgi, and pip.
+*** Figure out why Apache doesn't respond after switching to Python 3.8.
+    specifically, after switching mod-wsgi
+*** TODO start apache differently
+    PREFIX seems to be /usr/local/apache2/bin/apachectl
+
+    # vi PREFIX/conf/httpd.conf
+    PREFIX/bin/apachectl -k start

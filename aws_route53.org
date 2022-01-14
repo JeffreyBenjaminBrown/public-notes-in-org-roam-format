@@ -3,14 +3,22 @@
 :END:
 #+title: AWS Route53
 * how to associate a domain name with an EC2 instance
-  https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-to-ec2-instance.html
-** TODO PITFALL: The domain name I bought for the Observatorio is for Ohio
+  It's easy.
+** a ref
+   https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-to-ec2-instance.html
+** PITFALL: The domain name I bought for the Observatorio is for Ohio
    not N Virginia like the rest of what I do.
 *** TODO can I make it available in both?
-** faster: edit an old association in Route53
-   I've already got something associated with sim.jefbrown.net.
-   Just tweak that to the new IPv4 address.
-** how to create the association in Route53
-   Go to that domain in Route53.
-   Choose Create Record.
-   The first three boxes are all I used, and I think I left at least one of them the way it was.
+** PITFALL: They appear not to be copiable.
+** alternatives
+   Editing an old one is *very slightly* faster than creating a new one.
+*** create a new association in Route53
+    Go to that domain in Route53.
+    Choose Create Record.
+    The first three boxes are all I used, and I think I left at least one of them the way it was.
+*** edit an old association ("record") in Route53
+    serial
+**** Go to the Hosted Zone.
+**** Click the checkbox next to the relevant record.
+**** Click Edit. PITFALL: It's in a weird sidebar.
+**** Change the IPv4 address.

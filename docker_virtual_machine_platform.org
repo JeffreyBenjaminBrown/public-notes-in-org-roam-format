@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       1b73c5f1-5708-4875-9b85-b2eea26187e0
+:END:
+#+title: Docker (virtual machine platform)
+* [[id:bd7363b0-401a-498e-9fe3-5d291c955cb3][if (command history|paste|backspace) misbehaves in `conda python3` in Docker]]

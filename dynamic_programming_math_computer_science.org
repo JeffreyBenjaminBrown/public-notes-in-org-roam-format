@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f06910f7-122f-42a5-af42-3afe36e8a48d
+:END:
+#+title: dynamic programming (math, computer science)
+* [[id:e933a77d-2304-4b84-93e3-27963bad5386][dynamic programming in Haskell via lazy self-reference]]

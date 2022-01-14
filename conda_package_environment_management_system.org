@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8030a4fb-e7dd-4fa5-8a83-db6138b72ea9
+:END:
+#+title: conda (package|environment management system)
+* [[id:bd7363b0-401a-498e-9fe3-5d291c955cb3][if (command history|paste|backspace) misbehaves in `conda python3` in Docker]]
+* [[id:31aeb236-5ce9-46bc-ba6e-bbe6b5c65e6e][ways to reconcile different versions of Python]]

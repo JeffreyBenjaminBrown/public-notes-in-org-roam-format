@@ -17,13 +17,24 @@
 ** how
    serial
 *** create symlinks in the local SC user extensions folder
-    jeff@jbb-dell:Extensions$ pwd
-    /home/jeff/.local/share/SuperCollider/Extensions
+**** what those links should look like
+     jeff@jbb-dell:Extensions$ pwd
+     /home/jeff/.local/share/SuperCollider/Extensions
 
-    jeff@jbb-dell:Extensions$ ls -l
-    builtin-plugins -> /nix/store/1zbahmsdysxm4b0d87g8wsxzr8746wnn-supercollider-3.12.1/lib/SuperCollider
-    sc3-plugins     -> /nix/store/jfpar7cfahcc2464q3fs37pf5lmdk63n-sc3-plugins/share/SuperCollider/Extensions/SC3plugins
-    sc3-plugins-so  -> /nix/store/jfpar7cfahcc2464q3fs37pf5lmdk63n-sc3-plugins/lib/SuperCollider/plugins
+     jeff@jbb-dell:Extensions$ ls -l
+     builtin-plugins -> /nix/store/aggfx5237n4w92rfjlxcdgxk0i2rwq90-supercollider-3.12.1/lib/SuperCollider
+     sc3-plugins     -> /nix/store/jfpar7cfahcc2464q3fs37pf5lmdk63n-sc3-plugins/share/SuperCollider/Extensions/SC3plugins
+     sc3-plugins-so  -> /nix/store/jfpar7cfahcc2464q3fs37pf5lmdk63n-sc3-plugins/lib/SuperCollider/plugins
+**** if the `builtin-plugins` link breaks
+     run
+       ls -l $(which scide)
+     to find the latest location of scide,
+     and then replace bin/scide -> lib/SuperCollider
+**** if the `sc3-plugins` link(s) break(s)
+     That's never happened before.
+     But it probably happens if I rebuild sc3-plugins in a new place.
+     Find all the places called sc3-plugins,
+     and (probably) use the most recent.
 *** start the SC server in an extensions-aware manner
 **** If starting SC from the command line
      then specify where to fetch extensions with the -U option.

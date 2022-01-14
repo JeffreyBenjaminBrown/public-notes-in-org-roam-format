@@ -468,3 +468,5 @@ https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/apache-auth/
 Django provides a handler to allow Apache to authenticate users directly
 against Django’s authentication backends.
 """
+* solutions
+** [[id:31aeb236-5ce9-46bc-ba6e-bbe6b5c65e6e][ways to reconcile different versions of Python]]

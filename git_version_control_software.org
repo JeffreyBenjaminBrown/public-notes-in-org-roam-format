@@ -4,3 +4,9 @@
 #+title: Git (version control software)
 * git add -p
   to cherry-pick the changes in a file to commit
+* configure Git so Emacs is the default editor
+  :PROPERTIES:
+  :ID:       70269641-9c54-4bd8-93f8-6554005a913c
+  :END:
+  git config --global core.editor "emacs -nw"
+    # -nw: use Emacs at the command line (not via the gui)

@@ -47,3 +47,4 @@ in /etc/apache2/envvars:
 in the Docker container. It specifies "UTF-8" for both options;
 it just leaves out the "US" part.
 * [[id:67f5af53-e680-4c66-b3c0-11a9085fcc2b][Apache and Mod_Wsgi: Using Them with Django]]
+* [[id:31aeb236-5ce9-46bc-ba6e-bbe6b5c65e6e][ways to reconcile different versions of Python]]

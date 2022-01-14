@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       551228e8-fb16-4497-b238-d80c30a55187
+:END:
+#+title: AWS AMI ("Amazon Machine Image")
+* to create an AMI from an EC2 instance
+  :PROPERTIES:
+  :ID:       d8fa6aef-fdc0-4630-86a1-afe1b3f552ba
+  :END:
+** it's really easy
+   Basically find the instance in the EC2 WUI,
+   and ask for it.
+** a reference
+   https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/tkv-create-ami-from-instance.html
+* to launch an EC2 instance from an AMI
+  :PROPERTIES:
+  :ID:       205fb9d2-73f2-4c02-aba8-3bbf974c8dc2
+  :END:
+  It's obvious -- mine are just like any other AMI,
+  except they're not (by default) shared with anyone else.
+  The WUI shows who it's shared with.
+* For billing, an AMI counts toward S3 usage
+  though they are not directly accessible from S3.

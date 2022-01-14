@@ -47,3 +47,8 @@ make changes to a dependent component then quit and reload.
 ** converting to Floating types
    GHC.Real.realToFrac :: (Real a, Fractional b) => a -> b
    It's not part of any typeclass.
+** dynamic programming in Haskell via lazy self-reference
+   :PROPERTIES:
+   :ID:       e933a77d-2304-4b84-93e3-27963bad5386
+   :END:
+   https://fpunfold.com/2022/01/09/haskell-dp.html

@@ -25,7 +25,9 @@
 * [[id:4e174852-e887-4a8b-a2ab-6a9ea6718f31][hibernation for AWS EC2]]
 * [[id:4e2fe518-b70d-4851-aba1-17f589e78972][the EC2 WUI]]
 * solutions
-** [[id:0719b01d-8ed6-4e10-a572-4c1d27de98df][to launch an EC2 instance from the CL]]
+** [[id:0719b01d-8ed6-4e10-a572-4c1d27de98df][launch an EC2 instance from the CL]]
+** [[id:205fb9d2-73f2-4c02-aba8-3bbf974c8dc2][launch an EC2 instance from an AMI]]
+** [[id:d8fa6aef-fdc0-4630-86a1-afe1b3f552ba][to create an AMI from an EC2 instance]]
 ** How to launch a linux virtual machine on AWS, and use it via SSH.
    serial
 *** start it from the browser

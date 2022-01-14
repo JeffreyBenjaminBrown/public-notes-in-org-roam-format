@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       ee83ddd1-aeaa-46e9-a6a7-d180ac16471f
+:END:
+#+title: grep (command line search utility)
+* grep excluding nonreadable file types
+  find . -type f -not \( -name "*.csv" -o -name "*.xlsx" -o -name "*.tgz" -o -name "*.zip" -o -name "*.ssv" -o -name "*.sav" -o -name "*.pyc" -o -name "*.pdf" -o -name "*.jpeg" -o -name "*.odt" -o -name "*.pack" -o -name "*.ods" -o -name "*.ipynb" -o -name "*.idx" -o -name "*.docx" -o -name "*.dta" \) -print0 | xargs -0 grep "xxx" --color
+* grep for within-file (not within-lilne) conjunction
+  all files containing both A and B, not necessarily on the same line
+  Here A = "aws" and B = "iam"
+  grep "aws" -r . -l | xargs grep "iam"
+* grep for within-line disjunction
+** the two tricks, both necessary
+*** grep -E
+*** use single-quotes for the passage
+    so that the | is not interpreted as a pipe
+** example
+   grep -r . -E 'saveStage|to_csv'

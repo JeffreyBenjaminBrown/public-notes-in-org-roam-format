@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       bd7363b0-401a-498e-9fe3-5d291c955cb3
+:END:
+#+title: if (command history|paste|backspace) misbehaves in `conda python3` in Docker
+* a solution
+  Invoke the shell with `ipython` instead of `python` at the CL.
+* the blame
+  It appears to be Conda's fault, not Docker's.
+* details on the problems
+   Pushing `up` causes ^[[A to print to my screen,
+     rather than recalling an earlier command.
+   In AWS, pasting into the shell works,
+     but causes a lot of garbage characters to appear.
+   Someone on StackOverflow who had history recall problems
+     had the backspace problem too; I didn't
