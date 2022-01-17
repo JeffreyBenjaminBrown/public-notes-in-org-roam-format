@@ -41,6 +41,15 @@ make changes to a dependent component then quit and reload.
    https://quickstrom.io/
 * laziness and strictness in Haskell
   [[id:a2c7b53c-4728-407a-8f2e-35d4e0a20138][Making Invalid Laziness Unrepresentable (article)]]
+* Haskell language extensions
+** Pattern synonyms
+   {-# LANGUAGE PatternSynonyms #-}
+
+   pattern F :: Int -> Int -> Foo
+   pattern F f s = Foo f s
+
+   Which abbreviates a frequently used constructor.
+   Works in pattern matches too.
 * solutions
 ** for space leaks
    [[id:a2c7b53c-4728-407a-8f2e-35d4e0a20138][Making Invalid Laziness Unrepresentable (article)]]

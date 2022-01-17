@@ -49,6 +49,10 @@
     Where the form data gets sent is encoded in the `action=` argument to the <form> element in the template. Trying to use the same template at two different URLs will mean the data from both URLs is sent to only one of them -- whichever one is encoded in the action= argument.
 *** a solution
     The template could take the receiving URL as an argument from Django.
+** Dictionaries cannot be passed from Django to JS.
+   :PROPERTIES:
+   :ID:       1e202d74-c770-4194-98e1-88845d1cd021
+   :END:
 * refs
 ** All Django documentation
  https://docs.djangoproject.com/en/3.1/

@@ -2,6 +2,8 @@
 :ID:       94567688-b4eb-4396-a7eb-3af515d58eb2
 :END:
 #+title: to read
+* Theorems that fail in higher dimensions
+  https://mathoverflow.net/questions/180846/
 * Cliff forwards NYT Opinion on marriage & sacrifice
   https://www.nytimes.com/2022/01/04/opinion/marriage-divorce.html
 * some of mridul's favorite books

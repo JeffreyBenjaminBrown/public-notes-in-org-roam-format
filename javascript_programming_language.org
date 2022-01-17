@@ -20,6 +20,8 @@
    for (let ri = 0; ri < table.rows.length; ri++) {
      table.rows [ri] . deleteCell (colIndex)
    }
+* PITFALLs
+** [[id:1e202d74-c770-4194-98e1-88845d1cd021][Dictionaries cannot be passed from Django to JS.]]
 * how to append a linebreak (<br>) to an element
 ** a solution
    Make a dummy element and set its inner HTML:
@@ -28,3 +30,8 @@
      title.innerHTML = "<br/><br/>" + table_name + "<br/>";
      hostForm.append(title)
 ** TODO Would this behave better without the slashes?
+* how to append text to a document itself
+** make a dummy element and append it to "document . body"
+   dummy = document . createElement ( "span" )
+   dummy . innerHTML = ( "hello" )
+   document . body . appendChild ( dummy )

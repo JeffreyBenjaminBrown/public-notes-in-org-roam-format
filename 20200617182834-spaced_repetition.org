@@ -12,16 +12,11 @@
   Once I'm using one of them and not the other,
   I might edit the other (unused) one thinking I'm editing the one in use.
   Then when it doesn't work, I'll look for a solution elsewhere at length.
-* Maybe give ownership to the shy
-  paraphrased: "Children feel less in control than we realize, so hang back a bit, let them own the conversation." --Tyler Cowen
 * Ask people about their life stories, decisions
 ** Normally they talk about the recent.
 * Does meta awareness stop pointless behaviors?
 * TODO I have a few notes like this; join them.
   search for "internalize", "spaced repetition", maybe "to learn", "remember"
-* (Aspirational) mimicry can substitute for rationality.
-  It's in SmSn, at id
-  BSPkZvDjoUqhzm0Z
 * When LCR invites me to something (e.g. with journalists).
   Make sure I know who's coming before responding.
 * When I receive something from someone, do what?
@@ -36,9 +31,9 @@
 * I wrote down some [[id:4e3cfc01-d528-49d9-bf3d-858c1979d71c][Microsoft Teams shortcuts]].
 * coding
 ** re. choosing type names
-make sure they are sufficiently complete.
-For instance, Action turned out to be a worse name than ScAction,
-and renaming took me like 15 minutes.
+   make sure they are sufficiently complete.
+   For instance, Action turned out to be a worse name than ScAction,
+   and renaming took me like 15 minutes.
 ** In python, what's a terse way to repeat a list?
 [1]*3 = [1,1,1]
 ** git hygiene
@@ -61,6 +56,11 @@ Include empty lines where appropriate.
 ** Countries might not give the widest coverage as units of news analysis.
    There's something repetitive about "this country's got a tyrant ... and this other country's got a tyrant ... and here's what the tyrant over there's doing ..."
 * reviewed, still no insight
+** (Aspirational) mimicry can substitute for rationality.
+   It's in SmSn, at id
+   BSPkZvDjoUqhzm0Z
+** Maybe give ownership to the shy
+   paraphrased: "Children feel less in control than we realize, so hang back a bit, let them own the conversation." --Tyler Cowen
 ** on wonder, fear, and creativity
     "If the world seems to be getting bigger and funnier all the time, your intelligence is steadily increasing. If the world seems to be getting smaller and nastier all the time, your stupidity is steadily increasing.”
 

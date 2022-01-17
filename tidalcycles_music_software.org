@@ -7,23 +7,47 @@
 ** https://tidalcycles.org/
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
-* TODO harmony for Tidal
-** u
-*** ID root and chord in scale, quantize voices to those notes sometimes
-*** High melody can have more out notes in its scale
-*** There's room for more operators in the mini syntax, if I just use two characters.
-** TODO fix inScales
-*** try a similar test but without inScales
-** TODO harmonize
-   Fold (yes?) across the voices using `avoidDiffsMod`.
-   Bear in mind that queries are over arcs, not at points.
-** MYSTERY: multidimensional scale indices (for mini-notation)
+* TODO easy
+** meta :: f (f a -> f b) -> f a -> f b
+*** I defined it for Montevideo
+    https://github.com/JeffreyBenjaminBrown/montevideo/blob/b45d4a6aa304b724de5dac7518319be49a9bbee2/Montevideo/Dispatch/Join.hs#L294-L391
+*** asked Tidal
+    https://club.tidalcycles.org/t/has-anyone-defined-an-ap-like-function-f-f-a-f-b-f-a-f-b-where-f-pattern/3803
+** unit-interval Rational patterns
+   No new definitions needed --
+     fmap (/ 10) "0 2 5 10 15"
+   The result can then be multiplied by the number of scale degrees,
+   even as the scale varies.
+   Then quantized to an integer.
+   Then harmony rules applied, ala adjustVoices and avoidDiffsMod.
+** lookup patterns for operators
+*** the general form
+    d1 $ lu [ (1, rotate left),
+              (2, reverse) ]
+ 	   "1 2 1"
+       <**> s "bd sn"
+*** a specialized form
+    could keep a hardwired first argument like
+    [ ("rl", <~ 1), ... ]
+    -- but that's hard, because many ops (e.g. <~) need arguments.
+* TODO harmony & u
+** Nudge the continuous frequency measure to align its important notes once quantized.
+** Some voices can use more out notes than others.
+   For instance, perhaps on the downbeat the bass should always be in-chord while the melody need not even be in-scale.
+** Distinguish chord from within scale.
+*** TODO How to use the distinction?
+*** how to represent the distinction
+    alternatives
+**** Give a list of scale indices.
+**** Provide two lists.
+     one of chord notes and one of out-of-chord scale notes.
+** ? multidimensional scale indices
 *** At least one dimension for priority
     e.g. root, chord, scale and "out"
     but maybe finer or coarser
 *** At least one dimension for, roughly, frequency.
-*** Determinism and simultaneous voices both complicate the problem.
-*** Priority patterns should be applicable to other patterns.
+* There's room for more operators in the mini syntax.
+  Just use two characters.
 * TODO [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation in Tidalcycles]]
 * TODO [[id:3987c7c6-e49e-4751-9efb-599e9cd34467][Yaxu's ongoing remake of Tidal]]
 * TODO distortion in Tidal

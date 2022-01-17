@@ -7,3 +7,16 @@
   the average charge speed is (1:20 / 1%)^(-1).
   That is, to move the charge up N%,
   charge it for (4/3)*N minutes.
+* to choose which SIM card to use
+  Pull down to see Settings.
+  Pull down to see the extended Settings view.
+  When there are two cards in the phone,
+  that extended view devotes a line to switching between the two cards.
+* SIM card 2
+** uses [[id:fba0a912-286a-4747-9602-34d27862495c][Tigo]] pospago
+** tel 350 597 5671
+* SIM card 1
+** uses [[id:5a37a69d-b71d-42d4-8165-67851e436fab][Claro prepago]]
+** tel 322 214 5194
+   = 3222145194
+** ICCID 602 104 578 316
