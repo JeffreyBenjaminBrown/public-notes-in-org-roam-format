@@ -2,7 +2,8 @@
 :ID:       1a97cb6c-b6ff-4439-9790-ff372bc1ee38
 :END:
 #+title: scipy (libraries for Python)
-* TODO The `pandera` library implements schemas for Pandas data frames.
+* TODO schemas in Pandas
+** TODO The `pandera` library implements schemas for Pandas data frames.
 * sorting and null/missing values in pandas
 ** null always comes last, regardless of order
 ** code to see it
@@ -62,68 +63,75 @@
    pd.options.display.width = 5000
 ** show lots of rows
    pd.options.display.min_rows = 50
-* to apply a function to each row of a frame
-** syntax
-   hh["months to save for a month"] = hh.apply(
-       lambda row: defs.months_to_save_for_a_month(
-           income = row[income],
-           spending = row[spending] ),
-       axis = "columns" )
-** PITFALL: applying to each *row* => axis = *columns*
-* to apply a function that generates frames from rows to a frame
-  # This isn't exactly it, but pretty close.
+* formats
+** to parse some columns as dates when calling read_csv
+     pd.read_csv (
+       "data/history.csv",
+       parse_dates = [ "time, favorite time" ] )
+** format variables when reading a table from disk
+   vat_coicop = pd.read_csv (
+     ...
+     , dtype = {
+         "coicop"          : "int32"
+       , "vat"           : "float32"
+       , "vat frac"      : "float32"
+     } )
+*** in tax.co, my `readStage` utility accepts the same kind of argument
+    forwarding it on to pd.read_csv as part of **kwargs.
+** [[id:42538f79-f00b-48c6-adf6-f4ff8d805479][export an Excel spreadsheet in a format readable by humans and Pandas]]
+* mapping
+** to apply a function to each row of a frame
+*** syntax
+    hh["months to save for a month"] = hh.apply(
+        lambda row: defs.months_to_save_for_a_month(
+            income = row[income],
+            spending = row[spending] ),
+        axis = "columns" )
+*** PITFALL: applying to each *row* => axis = *columns*
+** to apply a function that generates frames from rows to a frame
+   # This isn't exactly it, but pretty close.
 
-  if True: # compute each household member's income rank
-    def sort_household_by_labor_income_then_make_index(df):
-      dff = df.sort_values("income, labor", ascending = False)
-      dff["rank, labor income"] = range(1, len(dff) + 1)
-      return dff
-    #
-    ppl = ppl . groupby('household'
-        ) . apply( sort_household_by_labor_income_then_make_index
-        ) . drop( columns = "household"
-                  # one level of the index holds the same information
-        ) . reset_index(
-        ) . drop( columns = "level_1" )
-                  # the other part of the index is unneeded
-* [[id:42538f79-f00b-48c6-adf6-f4ff8d805479][export an Excel spreadsheet in a format readable by humans and Pandas]]
-* to parse some columns as dates when calling read_csv
-    pd.read_csv (
-      "data/history.csv",
-      parse_dates = [ "time, favorite time" ] )
-* pandas.DataFrame.loc
-** Its arguments are in brackets for some reason.
-** Its first and potentially only arg specifies rows.
-   It can be an index value.
-   It can be a list of index values.
-   It can be a boolean vector of the same length as the frame.
-*** TODO Can it be a colon, to include everything?
-** Its second argument specifies columns.
-   It can be a column name or a list of columns.
-   I haven't checked whether it can be anything else --
-   a range, a colon, a boolean vector, etc.
-* modify a column conditional on a boolean column
-** np.where(): like "if" for vectors, somehow faster than "apply"
-*** Example: Set z[b] equal to z[c] only where z[b] is missing.
-    if True: # imports
-      import numpy as np
-      import pandas as pd
+   if True: # compute each household member's income rank
+     def sort_household_by_labor_income_then_make_index(df):
+       dff = df.sort_values("income, labor", ascending = False)
+       dff["rank, labor income"] = range(1, len(dff) + 1)
+       return dff
+     #
+     ppl = ppl . groupby('household'
+         ) . apply( sort_household_by_labor_income_then_make_index
+         ) . drop( columns = "household"
+                   # one level of the index holds the same information
+         ) . reset_index(
+         ) . drop( columns = "level_1" )
+                   # the other part of the index is unneeded
+* selection | subsetting | conditioning
+** pandas.DataFrame.loc
+*** Its arguments are in brackets for some reason.
+*** Its first and potentially only arg specifies rows.
+    It can be an index value.
+    It can be a list of index values.
+    It can be a boolean vector of the same length as the frame.
+**** TODO Can it be a colon, to include everything?
+*** Its second argument specifies columns.
+    It can be a column name or a list of columns.
+    I haven't checked whether it can be anything else --
+    a range, a colon, a boolean vector, etc.
+** show unique rows: pd.DataFrame.drop_duplicates
+** select rows in which a column's value is a member of some set
+   Use pandas.Series.isin.
+   Its input is a list of numbers,
+   and its output is a Boolean series shaped like `self`.
+** modify a column conditional on a boolean column
+*** np.where(): like "if" for vectors, somehow faster than "apply"
+**** Example: Set z[b] equal to z[c] only where z[b] is missing.
+     if True: # imports
+       import numpy as np
+       import pandas as pd
 
-   z = pd.DataFrame ( { "a" : [1,2     ,3],
-                        "b" : [1,np.nan,3],
-                        "c" : [4,4     ,4] } )
+    z = pd.DataFrame ( { "a" : [1,2     ,3],
+                         "b" : [1,np.nan,3],
+                         "c" : [4,4     ,4] } )
 
-   z["b"] = np.where ( z["b"].isnull(),
-                       z["c"],
-                       z["b"] )
-* show unique rows: pd.DataFrame.drop_duplicates
-* format variables when reading a table from disk
-  vat_coicop = pd.read_csv (
-    ...
-    , dtype = {
-        "coicop"          : "int32"
-      , "vat"           : "float32"
-      , "vat frac"      : "float32"
-    } )
-** in tax.co, my `readStage` utility accepts the same kind of argument
-   forwarding it on to pd.read_csv as part of **kwargs.
+    z["b"] = np.where ( z["b"].isnull(),
+                        z["c"],
+                        z["b"] )
