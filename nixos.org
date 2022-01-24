@@ -33,13 +33,13 @@
   music, sound
 * [[id:53cafeca-3de3-4f04-be36-3fdcb04a4d55][NixOS, installing]]
 * [[id:ac6d4247-4880-4740-9aa3-0407f4d8b397][NixOS, how to upgrade]] from one version of NixOS to another.
-* collect garbage
+* NixOS: collect garbage
   :PROPERTIES:
   :ID:       d014e570-e8da-4661-8111-01d19947e2b2
   :END:
   The sudo is important -- otherwise lots of stuff survives.
 
-  sudo nix-collect-garbage --delete-older-than 14d
+  sudo nix-collect-garbage --delete-older-than 7d
     # keep the last week
   sudo nix-collect-garbage -d
     # keep only latest config

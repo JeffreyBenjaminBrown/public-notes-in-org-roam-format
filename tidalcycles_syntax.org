@@ -30,6 +30,8 @@
 * TidalCycles "mini-notation"
 ** DONE Each [] lasts as long as a single "event" in a pattern.
    So in "x [y z]" the x lasts as long as the [y z].
+** Rationals are available!
+   Just stick % between two integers.
 ** (.) can separate events like [] does.
    These are equivalent:
    "x . y z  . a b c"

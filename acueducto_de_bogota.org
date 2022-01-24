@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       786489af-14e9-44bf-91ad-0140a50546d9
-:END:
-#+title: Acueducto de Bogotá
-https://pagos.acueducto.com.co/

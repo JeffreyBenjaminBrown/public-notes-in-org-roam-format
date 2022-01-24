@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       b41fd91f-2a65-49be-8c7c-302af92afdf2
+:END:
+#+title: Email server on Linux: How to run
+* FUCKING DON'T. It's too hard.
+* some refs
+** An overview of Linux SMTP email servers.
+   Its setup advice didn't work for me.
+   https://www.gmass.co/blog/smtp-server-linux/
+** A guide to setting up Postfix.
+   https://fedingo.com/postfix-mail-server-configuration-in-linux-step-by-step/
+* Postfix looks like my best option.
+  Simple to configure, big user base.
+* I was unable to test emailing with Mutt.

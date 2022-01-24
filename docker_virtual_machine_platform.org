@@ -2,4 +2,15 @@
 :ID:       1b73c5f1-5708-4875-9b85-b2eea26187e0
 :END:
 #+title: Docker (virtual machine platform)
-* [[id:bd7363b0-401a-498e-9fe3-5d291c955cb3][if (command history|paste|backspace) misbehaves in `conda python3` in Docker]]
+* docker exec
+  :PROPERTIES:
+  :ID:       e0b24368-4470-412b-b8f4-f5767d93c76a
+  :END:
+** to run the script at /path/to/script
+   docker exec -it tax.co.web bash /path/to/script
+   Will be run from the container's default folder.
+* solutions
+** [[id:bd7363b0-401a-498e-9fe3-5d291c955cb3][if keyboard input* misbehaves in `conda python3` in Docker]]
+   * e.g. command history (up), paste, backspace
+** to execute a script in a running Docker container
+   use [[id:e0b24368-4470-412b-b8f4-f5767d93c76a][docker exec]]

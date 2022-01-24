@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       c563e6be-631d-4f23-923d-050498334e2a
+:END:
+#+title: mathematics
+* some surprisingly dimension-dependent results
+  :PROPERTIES:
+  :ID:       7b838adc-843c-4337-981d-6a7b96068831
+  :END:
+  https://mathoverflow.net/questions/180846/

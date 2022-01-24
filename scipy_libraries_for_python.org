@@ -62,7 +62,7 @@
 ** show as many columns as screen permits
    pd.options.display.width = 5000
 ** show lots of rows
-   pd.options.display.min_rows = 50
+   pd.options.display.min_rows = 100
 * formats
 ** to parse some columns as dates when calling read_csv
      pd.read_csv (
@@ -124,14 +124,12 @@
 ** modify a column conditional on a boolean column
 *** np.where(): like "if" for vectors, somehow faster than "apply"
 **** Example: Set z[b] equal to z[c] only where z[b] is missing.
-     if True: # imports
+    if True: # imports
        import numpy as np
        import pandas as pd
-
-    z = pd.DataFrame ( { "a" : [1,2     ,3],
-                         "b" : [1,np.nan,3],
-                         "c" : [4,4     ,4] } )
-
+    z = pd.DataFrame ( { "a" : [1,1     ,1],
+                         "b" : [2,np.nan,2],
+                         "c" : [3,3     ,3] } )
     z["b"] = np.where ( z["b"].isnull(),
-                        z["c"],
-                        z["b"] )
+                        z["c"],   # used if True
+                        z["b"] )  # used if False

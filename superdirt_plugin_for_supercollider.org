@@ -23,3 +23,110 @@
 ** TODO samples I need
    ride cymbal
    crash cymbal
+* TODO questions
+** I can't use "accelerate" in any of the synths so far.
+** I can't use "muffle" in superpiano
+   even though I added "muffle" to the parameters in "bin/generate-params.hs" and regenerated them
+* synths
+** PITFALL: Some parameters aren't described in the docs for some synths.
+   e.g. "decay" applies to supersquare but they don't say that.
+** the synths
+*** supergong
+    Pitchless below around 200 Hz.
+**** "voice" [0,4-ish] : high => weird and long notes
+     It can be any nonnegative number.
+**** "decay" [0,2-ish] is like palm-muting.
+     Any nonnegative number.
+**** Low notes are long and kind of pitchless.
+*** supersquare
+**** "voice" = pulse width.
+     Useful range around [0.005, 0.5] (that's a half-open interval).
+     0.005 is very quiet.
+**** "semitone" = second oscillator's displacement
+**** "resonance" = filter resonance.
+     Maybe [0,0.8]
+     Makes a squealy sound.
+     The high end is stupid.
+**** "lfo" : how much the LFO affects the filter frequency
+     Negative values are fun, have a muted swirling effect.
+     The useful range is at least [-1,1]
+**** "rate" : lfo rate
+     If it's in audible pitch territory it creates FM.
+**** TODO "pitch1" : filter frequency scaling multiplier
+     Useful range [0.1,4].
+     Values near 0 are wonderful, ghostly.
+     Values above 2 are very crunchy, buzzy.
+*** supersaw
+**** TODO "voice" is *crazy*
+     Controls "relative phase and detune amount".
+     Range [0,400].
+     At 0 it's a very pure sound.
+     Near 0 it's phasey and with an attack (?).
+     Around 0.5 it's that classic mismatched saw thing.
+     Around 3 it's in an uncanny valley.
+     From 5 to 40 or so it gives thick undertones.
+     For round values higher than 40 it's kind of glassy,
+     and for non-round ones (e.g. 201) it's out of phase but well-behaved.
+**** TODO "[[id:4c184094-bd63-4bc1-a4a1-c6dfcbd35697][decay]]" is useful
+     supersaw tends to be very buzzy.
+     A "decay" value of 0.8 or higher makes it pretty tame.
+**** "semitone"
+     0.05 rounds the sound out.
+     7.02 sounds like a separate voice, b/c it is.
+     Next-harmonic intervals are nice too -- e.g. 16.86.
+**** TODO "lfo" : negative is fun!
+     -1 gives it ia poppy attack.
+     -3 gives it a violin-ish swell
+     -30 freaks out (but not loud).
+**** pitch1: low values calm it down
+     useful range [0.01, 2]
+*** superpwm
+**** "voice" : phase shift rate
+     Useful range maybe [0.1,50].
+       0 itself is quiet but otherwise not much different from 0.1.
+     Below 0.4, very pure.
+     Around 3, sounds detuned.
+     10 and above : alien, inharmonic.
+*** superchip : weird!
+**** PITFALL: "hz" seems to conflict with "slide"
+     But when slide=0, hz comes through.
+**** "slide" : creates a "linear frequency glide"
+     From where to where?
+**** "rate" : repeats the glide that many times
+     Can be negative, fractionalo
+**** "pitch2" and "pitch3": relative frequencies of oscillators 2 and 3
+*** superhoover: basically just one sound, but cool
+**** "hz" as normal
+**** "slide" controls how each pitch is entered
+     negative values => slide down into it.
+**** "decay" is the usual
+*** superzow: tuned saws, simple
+**** slide
+     Useful range [1,300] logarithmic.
+     More = calmer, less = buzzy.
+**** decay: normal
+**** detune: [0,100]
+     1 doesn't sound weird. 3 does.
+     But 100 it just sounds like an octave.
+     Above 100 it's stupid.
+*** superpiano
+**** PITFALL: velocity: too sensitive
+     [0.5,  0.8] is a useful range.
+     At 1 it's loud but tinny.
+     Below 0.5 it sounds good but too quiet; needs an amp boost.
+**** PITFALL : sustain: pitch mismatch
+     A short value can make sense for high notes yet sound totally wrong for low ones.
+**** sustain range -- extreme values are trippy
+     0.01 is mellow and very brief.
+     0.1 has the duration of notes in a jazz solo.
+     5 is about the top of the "reasonable" range.
+     Around 15 the starts of the notes get blurry.
+*** DONE supertron: meh
+    more detuned whatevers
+** some common params
+*** TODO "decay" near 0 is little effect, near 1 is very staccato
+    :PROPERTIES:
+    :ID:       4c184094-bd63-4bc1-a4a1-c6dfcbd35697
+    :END:
+    Useful range [0,1].
+    Above 1 it seems to reflect -- 1.1 = 0.9, etc.

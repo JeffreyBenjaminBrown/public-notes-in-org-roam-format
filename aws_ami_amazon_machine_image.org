@@ -11,6 +11,12 @@
    and ask for it.
 ** a reference
    https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/tkv-create-ami-from-instance.html
+* to delete an AMI
+** First deregister it.
+   From the EC2 console, find it under AMIs.
+   Make a note of it's ID before deregistering it.
+** Then delete its underlying snapshot.
+   From the EC2 console, find it under snapshots.
 * to launch an EC2 instance from an AMI
   :PROPERTIES:
   :ID:       205fb9d2-73f2-4c02-aba8-3bbf974c8dc2

@@ -11,6 +11,7 @@
 ** hanging organizer
    Uses velcro to attach things to it.
 ** shredder
+* TODO [[id:2ff6f8b0-1089-468f-bb3b-86646342fb73][? orderless in Emacs]]
 * [[id:38df06cd-250f-464f-a2cd-5bc6d21f00df][foods I (would) enjoy]]
 * better shoelace knots
 ** stabler: https://www.fieggen.com/shoelace/surgeonknot.htm

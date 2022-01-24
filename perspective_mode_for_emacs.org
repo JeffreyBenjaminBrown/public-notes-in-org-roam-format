@@ -1,0 +1,52 @@
+:PROPERTIES:
+:ID:       9db77045-9071-4c2b-86fb-93527b62b919
+:END:
+#+title: perspective mode for Emacs
+https://github.com/nex3/perspective-el#usage
+* turn it on : M-x persp-mode
+* PITFALL: From some contexts all buffers remain available.
+** list-buffers		  (C-x C-b)   shows *all* buffers
+** persp-list-buffers	  (C-x x C-b) shows only the persp's buffers
+   That's a personalized shortcut.
+** switch-to-buffer	  (C-x b)     shows all buffers
+   in the Completions menu
+** persp-switch-to-buffer (C-x x b)   shows only the persp's buffers
+* PITFALL: Its integration with buffer-list-mode is imperfect.
+  The buffer menu will show only the perspective's buffers
+  *if* it was created via a persp-mode command.
+  But if it is refreshed, it will show them all,
+  and if one switches perspectives from the buffer list,
+  its contents will not change.
+* some commands & shortcuts
+  serial
+** All commands are prefixed with `C-x x`.
+** some commands
+*** remove | destroy
+**** k — persp-remove-buffer
+     Query a buffer to remove from current perspective
+**** c — persp-kill
+     Query a perspective to kill
+*** create, switch
+**** s — persp-switch: Query a (new) perspective to switch to (create)
+**** b - persp-switch-to-buffer
+     Like switch-to-buffer; includes all buffers from all perspectives; changes perspective if necessary
+**** DONE silly : ` — persp-switch-by-number
+     Switch to perspective by number, or switch quickly using numbers 1, 2, 3.. 0 as prefix args; note this will probably be most useful with persp-sort set to 'created
+*** add, rename
+**** a — persp-add-buffer
+     Query an open buffer to add to current perspective
+**** A — persp-set-buffer
+     Add buffer to current perspective and remove it from all others
+**** r — persp-rename
+     Rename current perspective
+*** save, restore state
+**** i — persp-import
+     Import a given perspective from another frame.
+**** n, <right> — persp-next
+     Switch to next perspective
+**** p, <left> — persp-prev
+     Switch to previous perspective
+**** C-s — persp-state-save
+     Save all perspectives in all frames to a file
+**** C-l — persp-state-load
+     Load all perspectives from a file

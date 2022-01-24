@@ -89,6 +89,7 @@
 ;; avy : jump around
 (global-set-key (kbd "C-;") 'avy-goto-char-2)
 * remember, is great (and installed)
+** [[id:9db77045-9071-4c2b-86fb-93527b62b919][perspective]]
 ** (smart-)hungry-delete
    Delete lots of whitespace.
 ** restart-emacs
