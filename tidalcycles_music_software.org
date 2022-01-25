@@ -8,6 +8,9 @@
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
 * TODO easy
+** warp (swing, etc.)
+*** Define an invertible map g from straight time to warped
+*** To query an arc, query the g-preimage of its endpoints, then apply g to all resulting events
 ** meta :: f (f a -> f b) -> f a -> f b
 *** I defined it for Montevideo
     https://github.com/JeffreyBenjaminBrown/montevideo/blob/b45d4a6aa304b724de5dac7518319be49a9bbee2/Montevideo/Dispatch/Join.hs#L294-L391

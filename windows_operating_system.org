@@ -2,18 +2,33 @@
 :ID:       6ac17a73-3658-48c2-b2a8-a75f3a2a1b85
 :END:
 #+title: Windows (operating system)
-* How to run Windows 11 and MacOS virtual machines in Linux
-  :PROPERTIES:
-  :ID:       2734843e-60bb-481b-b1e3-7343c8840414
-  :END:
-  https://www.tomshardware.com/how-to/run-windows-11-and-mac-os-virtual-machines-in-linux
-* escape from Windows 10 S to Windows 10
-** why
-   You can't install anything except from the Microsoft Store.
-   You need to login to MS to use the computer.
-   If the login breaks you can't even type.
-** how
-*** It's not actually a separate OS; it's a crippled Windows 10.
-*** S-mode can be deactivated, never reactivated.
-** maybe a helpful story
-   [[id:f1fbbbc9-bd87-4df1-972a-e1aa989b6d7e][2021 12 24, Villavo, Xmas eve, Stella's new laptop]]
+* The Windows shell app is called 'Powershell'
+* solutions
+** How to run Windows 11 and MacOS virtual machines in Linux
+   :PROPERTIES:
+   :ID:       2734843e-60bb-481b-b1e3-7343c8840414
+   :END:
+   https://www.tomshardware.com/how-to/run-windows-11-and-mac-os-virtual-machines-in-linux
+** escape from Windows 10 S to Windows 10
+*** why
+    You can't install anything except from the Microsoft Store.
+    You need to login to MS to use the computer.
+    If the login breaks you can't even type.
+*** how
+**** It's not actually a separate OS; it's a crippled Windows 10.
+**** S-mode can be deactivated, never reactivated.
+*** maybe a helpful story
+    [[id:f1fbbbc9-bd87-4df1-972a-e1aa989b6d7e][2021 12 24, Villavo, Xmas eve, Stella's new laptop]]
+** windows equivalents to Unix commands
+*** `top`
+    ps | sort -des cpu | select -f 15
+    That shows the 15 processes using the most CPU,
+    heaviest first (at top of list).
+*** `kill`
+    taskkill /F /PID <process id number>
+* viruses on Windows
+** svcsys : a virus on Sandy's work laptop
+   :PROPERTIES:
+   :ID:       bbd54726-2e3f-45cc-9940-78079e06347b
+   :END:
+   It can log keyboard input.

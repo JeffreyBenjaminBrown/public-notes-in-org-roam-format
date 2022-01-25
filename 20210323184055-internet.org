@@ -8,3 +8,4 @@
   I guess "expose" is a shell application?
   "you can get a public URL for a Node application being served from localhost or 127.0.0.1 on your local machine, even if its behind a firewall or corporate network? It doesn’t require any networking config and you can do it in a single command with expose, for example expose 80 as myapi.expose.sh."
 * [[id:57c6f456-dfd1-4797-a4ce-db2d82cb726e][HTTP requests]]
+* [[id:c81ed244-5cab-4ef7-86bf-11c351488d78][to delete a network connection from KDE's Network Manager]]

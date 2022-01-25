@@ -6,3 +6,11 @@
 * [[id:b8c28f2c-6cc1-460f-a8bd-f7219482263f][configuring KDE in NixOS]]
 * [[id:9436b2e5-d0b7-461f-ad08-46a43ee825d5][KDE bug: moving apps across activities is complex]]
   Solved in the development branch.
+* to delete a network connection from KDE's Network Manager
+  :PROPERTIES:
+  :ID:       c81ed244-5cab-4ef7-86bf-11c351488d78
+  :END:
+  Run
+    nmcli connection delete <connection name>
+  where <connection name> is what appears in the network manager GUI.
+  The name should be in parentheses, and capitalization matters.

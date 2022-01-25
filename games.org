@@ -2,9 +2,19 @@
 :ID:       4ac3616a-5baf-46b6-ba87-d2baccedcae0
 :END:
 #+title: games
+* Boggle online
+https://www.puzzle-words.com/boggle-4x4/
 * Zig Zag: minimal shape rotation game
   https://vladimirslepnev.itch.io/zigzag
   My high score: 44 s
+* Noita
+  Everything is particles, all 4 states of matter.
+  Extremely GPU intensive.
+  Bran recommends. "Winning it is just the start."
+* Rainworld
+  You're a cat with sticky appendages.
+  The world is rainy and moody.
+  Recommended by Bran: "deep".
 * Osmos: gravity + cellular absorption.
   Beautiful, calming, hard.
   https://www.osmos-game.com/
