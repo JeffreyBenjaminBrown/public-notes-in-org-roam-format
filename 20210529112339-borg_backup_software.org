@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       927c1e3d-410e-4556-a1f5-560791950164
 :END:
-#+title: Borg (backup software)
+#+title: borg (backup software)
 * TODO asking about changing passphrase in Borg
   :PROPERTIES:
   :ID:       2e44ac14-b823-44ee-849a-033b574ee38b

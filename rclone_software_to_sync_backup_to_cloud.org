@@ -27,22 +27,27 @@
    3 | These are visible in the drive website.
      | File authorization is revoked when the user deauthorizes the app.
      \ "drive.file"
+* how to specify paths
+  :PROPERTIES:
+  :ID:       bba47939-d4d7-492d-88cd-e00990a7929b
+  :END:
+** Local paths are specified normally.
+   Relative paths work.
+** Remote paths are specified as <name of remote>:<path in remote>.
+   So, for me, they look like
+     gborg:path/to/something
+** TODO This looks like something wrong in the documentation.
+   The documentation says "Paths are specified as drive:path".
+   But when I tried that it didn't work.
+   I had to use the name of my rclone ("repo"? "config"?), not "drive".
 * solutions
-** how to specify paths
-*** Local paths are specified normally.
-    Relative paths work.
-*** Remote paths are specified as <name of remote>:<path in remote>.
-    So, for me, they look like
-      gborg:path/to/something
-*** TODO This looks like something wrong in the documentation.
-    The documentation says "Paths are specified as drive:path".
-    But when I tried that it didn't work.
-    I had to use the name of my rclone ("repo"? "config"?), not "drive".
 ** how to sync
    The syntax is just like the Linux `cp` command:
    rclone sync <source> <dest>
 *** example: copy local folder to remote folder
     rclone sync . gborg:by-rclone/borg-repo
-** how to find the size of a folder
+** folder size, how to find
    Like "du", but more detail.
-   rclone size <path>
+   rclone size [[id:bba47939-d4d7-492d-88cd-e00990a7929b][<path>]]
+** folder, more information about, how to get
+   rclone about [[id:bba47939-d4d7-492d-88cd-e00990a7929b][<path>]]
