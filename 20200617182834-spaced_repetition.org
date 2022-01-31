@@ -5,9 +5,6 @@
 #+title: spaced repetition
 * It's better to call someone than have them call me.
   If they're late to call me it's annoying.
-* Why to keep my earpbuds in their cardboard box.
-** Protect the spongey parts from getting ripped off in a tight pocket
-** Hear when they fall out of pocket
 * I lost 2 days of work to a duplication style mistake.
   :PROPERTIES:
   :ID:       9b727e69-2e92-4159-9f04-68be6d40d5d6
@@ -75,3 +72,7 @@ Include empty lines where appropriate.
     [[id:46b695c5-617e-47a8-b699-ef2b7ec29e81][the context of a link matters]]
 *** [[id:3305442a-e435-4f84-a403-9509963497b7][Note titles should be complete sentences.]]
 *** [[id:edca15b1-37f9-46ec-bb32-8a3090242b0d][? Use backlinks to define notes extrinsically]]
+* DONE internalized
+** Why to keep my earpbuds in their cardboard box.
+*** Protect the spongey parts from getting ripped off in a tight pocket
+*** Hear when they fall out of pocket

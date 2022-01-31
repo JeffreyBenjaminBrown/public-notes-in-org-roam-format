@@ -23,7 +23,11 @@
 ** TODO samples I need
    ride cymbal
    crash cymbal
-* TODO questions
+* TODO parameters that have no effect
+  :PROPERTIES:
+  :ID:       73022421-1840-4f36-9d6c-915d9a1f9e5b
+  :END:
+  https://club.tidalcycles.org/t/parameters-that-dont-seem-to-do-anything/3848
 ** I can't use "accelerate" in any of the synths so far.
 ** I can't use "muffle" in superpiano
    even though I added "muffle" to the parameters in "bin/generate-params.hs" and regenerated them

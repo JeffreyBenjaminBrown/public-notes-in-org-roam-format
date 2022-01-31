@@ -7,6 +7,21 @@
 ** https://tidalcycles.org/
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
+* TODO Share the scale stuff
+* TODO puzzles
+** It's so fun sometimes, and so dumb sometimes
+** I should try 12 tones
+** The information gets too messy
+*** Entangled, can't separate things, make things depend on other things without a lot of evaluation in different places in the document
+*** Sprawling
+** I get locked into tiny variations of a pattern that i ought to make bigger, more destructive changed to
+** My rhythm sucks
+* TODO questions
+** [[id:73022421-1840-4f36-9d6c-915d9a1f9e5b][parameters that have no effect]]
+** What's "segment" for?
+   e.g. from here:
+     https://club.tidalcycles.org/t/creating-effects-chains-or-audio-buses/3707/3
+     d2 $ crushbus 1 (segment 128 $ range 6 1.1 (slow 4 saw))
 * TODO easy
 ** warp (swing, etc.)
 *** Define an invertible map g from straight time to warped

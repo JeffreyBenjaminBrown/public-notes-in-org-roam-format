@@ -6,6 +6,15 @@
   :PROPERTIES:
   :ID:       2e44ac14-b823-44ee-849a-033b574ee38b
   :END:
+** latest
+*** I don't have a keys/ subfolder in .config/borg
+    That is, I didn't choose to encrypt that way.
+    There's a way where you just need a password (what I used),
+    and another way where you need a password to use your keyfiles,
+    such that an attacker can only gain access if they have both.
+*** message
+I'd like to recreate my borg repo with a different security mode. Can it be done? The documentation for `borg init`[1] states that encryption settings are fixed at creation time, and I don't see options for continuing where an earlier repo left off.
+[1] https://borgbackup.readthedocs.io/en/stable/usage/init.html#borg-init
 ** the email I sent
    https://mail.google.com/mail/u/0/#sent/KtbxLzFrKtrzcwhbxBhCNXBDFTrDSpRbjV
 ** the message in it
@@ -16,6 +25,12 @@ I'd like to change the password that encrypts my current Borg repo. I've read th
 If I run `borg key change-passphrase` and delete any compromised old copies of the repo, will new copies of the repo still be readable by someone who has the old password and not the new one?
 
 [1] https://borgbackup.readthedocs.io/en/stable/usage/key.html
+* keyfiles and passphrases
+** the idea
+   If the repo is encoded with keyfiles,
+   then it can only be used by someone with the keys,
+   and with the *passphrase to use those keys*.
+** backup keys with `borg key export`
 * how to test a copy of a borg repo
 ** the problem
    I copied the borg dir to a USB drive,
@@ -38,3 +53,6 @@ If I run `borg key change-passphrase` and delete any compromised old copies of t
    and tried to update that repo, it worked fine.
    I did not even have to touch ~/.cache/borg.
    (Note that this leaves [[id:0548f067-16e4-47d2-b59a-da72b97d7f80][the mystery]] above unsolved.)
+* borg recreate
+  Recreate a backup -- with, say, a different "exclude' pattern.
+  https://borgbackup.readthedocs.io/en/stable/usage/recreate.html#borg-recreate

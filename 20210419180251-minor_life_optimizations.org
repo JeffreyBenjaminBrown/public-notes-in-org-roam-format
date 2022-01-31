@@ -4,7 +4,11 @@
 #+title: minor life optimizations
 * Vimium: browse the web from the keyboard
   It's an extension available for Chrome and Firefox that allows you to use websites and web apps using your keyboard.
-* TODO In OTP, provide the synonym `async` for `brutal_kill`.
+* TODO hide KDE toolbar with a keyboard shortcut
+** probably easy
+   https://store.kde.org/p/1269113/
+** probably harder
+   https://www.reddit.com/r/kde/comments/d2mqjt/can_i_somehow_create_a_shortcut_to_toggle/
 * TODO script KDE desktop population
   https://www.reddit.com/r/kde/comments/pgv8m7/can_i_script_the_population_of_and_the_commands/hbf5ppy/?context=3
 * TODO buy to organize desk

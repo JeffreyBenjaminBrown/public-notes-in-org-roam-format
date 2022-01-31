@@ -71,3 +71,13 @@
   kill each.
 
   ps -ef | grep "tmux" | awk '{print "kill " $2}' | sh
+* get the absolute path to a file
+  realpath <file>
+* user and group IDs in Linux
+  :PROPERTIES:
+  :ID:       00691b2a-7ecd-4675-aab5-2462243a54f8
+  :END:
+** get a group's id
+   cut -d: -f3 < <(getent group groupname)
+** get a user's id
+   id -u username
