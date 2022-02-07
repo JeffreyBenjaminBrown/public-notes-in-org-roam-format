@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       e40de8e8-8eb9-46cc-b175-c2e0c7b6a2a7
+:END:
+#+title: stock market, the
+* Long-term bets (e.g. many tech) stocks are hit hard by Fed rate hikes.
+  Since their expected payoff is weighted farther into the future,
+  a change in the discount rate means a bigger fall in their total value.

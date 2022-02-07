@@ -51,3 +51,8 @@
    rclone size [[id:bba47939-d4d7-492d-88cd-e00990a7929b][<path>]]
 ** folder, more information about, how to get
    rclone about [[id:bba47939-d4d7-492d-88cd-e00990a7929b][<path>]]
+** show last modification time
+   :PROPERTIES:
+   :ID:       fb6790c5-575f-4915-bf5e-87ed3daa50bf
+   :END:
+   rclone lsf --format t gborg:by-rclone/borg-repo-alt

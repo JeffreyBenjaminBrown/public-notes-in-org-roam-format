@@ -8,6 +8,8 @@
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
 * TODO Share the scale stuff
+  ~/code/music/Tidal/tidal+epic/demo/scales.hs
+* TODO cover Moon Hooch
 * TODO puzzles
 ** It's so fun sometimes, and so dumb sometimes
 ** I should try 12 tones
@@ -16,6 +18,9 @@
 *** Sprawling
 ** I get locked into tiny variations of a pattern that i ought to make bigger, more destructive changed to
 ** My rhythm sucks
+** What's most fun in Tidal
+   is making stuff using the simple tools,
+   not making more complex tools.
 * TODO questions
 ** [[id:73022421-1840-4f36-9d6c-915d9a1f9e5b][parameters that have no effect]]
 ** What's "segment" for?

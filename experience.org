@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       d19de124-694d-46e2-9bfd-f04c0f145adb
+:END:
+#+title: experience
+* elements of experience
+** feelings
+** wants
+** abilities | constraints
+** identity
+*** achievements
+*** relationships
+* experiences I like
+  :PROPERTIES:
+  :ID:       8b5eafc2-e88e-47fe-ae8e-68555f240c0a
+  :END:
+** laughter
+** hugs
+** meditation
+** listening to music
+** success (in a project)
+*** I enjoy advancement. I'm not sure about completion.
+    I experience that so rarely I don't remember how much I like it. But simple milestones, even unexpected ones like making a cool sound in [[id:c90e23ae-6d45-4040-a61a-e7003ac93c78][Tidal]], are extremely enjoyable.
+** insight

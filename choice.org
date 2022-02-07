@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       4c25a3eb-4f21-4c20-9fee-2a18275ca089
+:END:
+#+title: choice
+* [[id:721b9b4d-63cc-473f-8ccb-bfc8d22240d9][ethics]]
+* mental waste
+  :PROPERTIES:
+  :ID:       38394b72-c48b-4871-bf32-d01b7989ca6c
+  :ROAM_ALIASES: OCD
+  :END:
+  = suspected or clearly inefficient uses of my time|mind
+** humming
+** counting words
+* my priorities
+  :PROPERTIES:
+  :ID:       24169b3e-6d41-48dd-9367-6df7a3565bed
+  :END:
+** [[id:ef673990-4aa1-466f-ac5f-f0296b02e716][health (personal project)]]
