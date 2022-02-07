@@ -16,3 +16,5 @@
   :ID:       24169b3e-6d41-48dd-9367-6df7a3565bed
   :END:
 ** [[id:ef673990-4aa1-466f-ac5f-f0296b02e716][health (personal project)]]
+** Less music, more reading?
+** Less reading, more outreach?

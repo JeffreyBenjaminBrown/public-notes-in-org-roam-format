@@ -4,6 +4,10 @@
 :END:
 #+title: headspace
 * TODO introspect & reprogram
+  :PROPERTIES:
+  :ID:       a04c2b66-35bd-45f6-8dfa-5513ffe36a9c
+  :ROAM_ALIASES: reprogram
+  :END:
   Better in SmSn?
 ** TODO REMEMBER: I like "photocopying"
    Shuffling my mindmaps is not something I do *for* the data; it is how I think.
@@ -24,9 +28,8 @@
     I can exercise,
     and while I got a stomach bug for a few days at the start,
     I've been fine for the four weeks since.
-*** Nobody comes back changed from an amazing vacation in Hawaii. It's suffering that does that.
-**** -- paraphrased, David Brooks
-** Less read, more outreach?
+*** paraphrased: "Nobody comes back changed from an amazing vacation in Hawaii. It's suffering that does that."
+**** -- David Brooks, on Tyler Cowen's podcast, circa 2019?
 ** Counting words depends on what im reading
 *** If im really into it, i dont
 * [[id:d19de124-694d-46e2-9bfd-f04c0f145adb][experience]]
