@@ -47,6 +47,7 @@
       until I ask for them to be.
 ** configure git to use diff-so-fancy
    git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+* [[id:e38807e5-38c7-48e6-b8fa-f7388144b9b4][NixOS, bash commands to install, from the manual]]
 * handy commands, roughly ordered
 ** wifi password
 ** nix-env -i emacs

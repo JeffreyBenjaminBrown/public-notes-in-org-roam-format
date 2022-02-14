@@ -3,6 +3,7 @@
 :END:
 #+title: music
 * [[id:bfa54465-b028-4ba9-81f2-92984bdba8f8][dense syllables: a spoken notation for music]]
+* [[id:dd7017ff-63a5-4014-887b-81cc4820940c][drum triggers, electric]]
 * TODO Be like these bands.
   minimal, funky
 ** Deerhoof

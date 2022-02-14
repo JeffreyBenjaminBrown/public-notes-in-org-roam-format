@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       94252b7e-c638-434b-a2e4-822d96ef5b07
+:END:
+#+title: microtonal polyphonic audio to MIDI: asking Reddit Audio Engineering
+https://www.reddit.com/r/audioengineering/comments/sn5ebt/microtonal_polyphonic_audio_to_midi_with_melodyne/
+* answer: Melodyne seemed to reduce the output to 12-edo without pitch bend as of version 4, according to someone on the reddit thread
+* question
+  Microtonal polyphonic audio to MIDI with Melodyne, or anything else?
+
+  I have a quartertone (a.k.a. 24-edo) guitar. It has all the usual notes, plus an equal number of notes halfway in between them. It has an ordinary pickup, not a special divided hex pickup, so it sends out a single audio signal equal to the sum of the sounds produced by each of the strings.
+
+  I'd like to convert that microtonal polyphonic audio stream to MIDI.
+
+  If something besides Melodyne can do this, please let me know. I've seen other audio-to-MIDI tools but they've all been for monophonic signals -- e.g. a saxophone would work, but not a guitar (unless you only played one note at a time).
+
+  I know Melodyne can convert polyphonic audio to MIDI. And I know it is at least somewhat microtone-aware. My question is whether I can convert the audio from my guitar into *microtonal* MIDI. Something like E = value 0, E half sharp = value 1, F = value 2, etc.

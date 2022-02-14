@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       40b049b7-ef2a-4eab-a9f8-07ee5841aa86
+:END:
+#+title: habit
+* [[id:38394b72-c48b-4871-bf32-d01b7989ca6c][mental waste]]

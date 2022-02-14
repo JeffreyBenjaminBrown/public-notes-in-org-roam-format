@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       e38807e5-38c7-48e6-b8fa-f7388144b9b4
+:END:
+#+title: NixOS, bash commands to install, from the manual
+* for NixOS 21.11
+  sudo parted /dev/sda -- mklabel msdos
+  sudo parted /dev/sda -- mkpart primary 1MiB -8GiB
+  sudo parted /dev/sda -- mkpart primary linux-swap -24GiB 100%
+  sudo mkfs.ext4 -L nixos /dev/sda1
+  sudo mkswap -L swap /dev/sda2
+  sudo mount /dev/disk/by-label/nixos /mnt
+  sudo swapon /dev/sda2
+  sudo nixos-generate-config --root /mnt
+
+  sudo jbb_magically_create_the_rest_of /mnt/etc/nixos/configuration.nix
+
+  sudo You_must_set_the_option boot.loader.grub.device to specify on which disk the GRUB boot loader is to be installed
+
+  sudo nixos-install
+  type_the_root_password
+  sudo reboot

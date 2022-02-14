@@ -65,6 +65,7 @@
    and then read that screen. (Dumping it to a file would mean losing the colors,
    which makes the reading process much slower.)
 * [[id:743baaa9-2e98-4bd8-8b7e-ae27c4b0f241][moving and copying files]]
+* [[id:5fabbe1c-91a2-4bca-95e4-6a38a2037e1f][mount or unmount a drive from the command line]]
 * kill all processes matching a regex (here "tmux")
   Find processes matching a regex,
   extract the second word (the pid) from `ps`,
@@ -73,6 +74,8 @@
   ps -ef | grep "tmux" | awk '{print "kill " $2}' | sh
 * get the absolute path to a file
   realpath <file>
+* change a user's password
+  sudo passwd <user name>
 * user and group IDs in Linux
   :PROPERTIES:
   :ID:       00691b2a-7ecd-4675-aab5-2462243a54f8

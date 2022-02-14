@@ -19,6 +19,7 @@
 *** better remember people
     their interests
     what we've talked about
+** TODO Should I be [[id:73e229ee-a416-41db-a23a-4d960b2e559f][systematic about social connections]]?
 ** On personal change
 *** At 42 I acclimated physically (and behaviorally) to Villavo.
     The first and maybe the second time I was here, I was somewhat useless.
@@ -31,7 +32,10 @@
 *** paraphrased: "Nobody comes back changed from an amazing vacation in Hawaii. It's suffering that does that."
 **** -- David Brooks, on Tyler Cowen's podcast, circa 2019?
 ** Counting words depends on what im reading
-*** If im really into it, i dont
+*** If im really into it, I don't.
+*** I ?never do when reading my own notes.
+* Does plumbing my (recent) memory lead to less happy memories?
+** [[id:85508f6f-946f-4474-9952-f25c25450f1c][It happened today]].
 * [[id:d19de124-694d-46e2-9bfd-f04c0f145adb][experience]]
 * [[id:04eae9c6-72e1-4251-9f12-a761a7f62692][spirituality]]
 * [[id:4c25a3eb-4f21-4c20-9fee-2a18275ca089][choice]]

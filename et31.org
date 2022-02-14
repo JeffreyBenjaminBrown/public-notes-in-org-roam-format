@@ -2,6 +2,7 @@
 :ID:       97e78830-11c4-4736-afc3-4669fd94ee2e
 :END:
 #+TITLE: microtonality
+* [[id:94252b7e-c638-434b-a2e4-822d96ef5b07][microtonal polyphonic audio to MIDI: asking Reddit Audio Engineering]]
 * microtonal instruments, including electronic
 ** [[id:0fb050fc-28b8-48a6-914b-6d5970490d46][microtonal guitar]]
 ** [[id:660cb0bc-e76c-48b6-844a-7ce352dc8067][manual dynamically adjusted EDO (musical instrument idea)]]
