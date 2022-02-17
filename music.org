@@ -1,31 +1,28 @@
-* TODO Audacity damaged alsamixer
-  :PROPERTIES:
-  :ID:       4351963e-139d-44c5-92c6-b70238714b1f
-  :END:
-As soon as I installed and ran Audacity,
-auto-mute stopped working for my headphones and builtin speaker.
-* ET synth monome idea
-** Some rows correspond to the harmonic series
-1 is at the far left, then 2, 3, etc.
-Pressing buttons on most harmonic series rows results in audible pitches.
-** Each harmonic series extends below unity.
-The 1/1 button can be shifted to the right,
-revealing 1/2, 1/3, etc. to its left.
-** The top harmonic series row, inaudible, can create shifts of the others.
-For instance, press "1/2" on the top row, then (some modifier button)
-to create a new bottom row next to the first, shifted an octave down.
-** Shift-modifier-row commands
-In each of these cases, one selects a shift amount from the top series,
-then a modifier button, then a target row.
-*** Shift current row
-*** Insert copy of current row above or below
-*** Shift current row and everything above or below
-** Row configurations can be saved.
-** Scales can be selected, saved.
-Just highlight a bunch of notes and declare it a scale.
-Instead of using the harmonic series, now rows can hold it instead.
-** TODO ? Chords can be selected, saved, played.
-Can this be unified (in feel) with the scale-selection mechanism?
-
-* ET guitar fretboards, cheap
-https://www.lmii.com/179-pre-slotted-pre-radiused-fingerboards?fbclid=IwAR3pjg9Y6USPEBdkohuvIPPRoRgGk1GVcjUanh4PeDn6yqawiOXNAe_nhdU
+:PROPERTIES:
+:ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
+:END:
+#+title: music
+* [[id:bfa54465-b028-4ba9-81f2-92984bdba8f8][dense syllables: a spoken notation for music]]
+* [[id:dd7017ff-63a5-4014-887b-81cc4820940c][drum triggers, electric]]
+* TODO Be like these bands.
+  minimal, funky
+** Deerhoof
+** Soul Coughing
+** LMFAO
+** Daft Punk
+** Bach
+* /home/jeff/code/music/jam-quiz
+** includes 24-edo language quiz
+* Tidal looks doable on NixOS now.
+  Not with a package, but just installing the pieces outside of Nix.
+* TODO Apply rhythm to pitch set. Capture pitch set. Capture rhythm. Transpose part of pitch set.
+* [[id:97e78830-11c4-4736-afc3-4669fd94ee2e][microtonality]]
+* [[id:1c6c1f7e-e33c-4342-870d-9029d389f17f][monome]]
+* [[id:2e99f9b7-5784-4e04-a277-9e6e734d1dd2][JACK (audio connection software)]]
+* some audio software by others
+** an EQ for PulseAudio
+   https://github.com/keur/prettyeq
+   https://news.ycombinator.com/item?id=24586239
+* aborted
+** [[id:e997f14b-7bdf-4545-a90e-f64db4e8a5b3][22-edo guitar (shopping)]]
+** [[id:3c5597b0-3260-44fe-9c49-03a3f791171c][Expression Pedals to USB]]

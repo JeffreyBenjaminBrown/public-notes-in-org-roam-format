@@ -1,25 +1,63 @@
-* cool GHCI options
-  :PROPERTIES:
-  :ID:       c5d8df4b-5c6e-431c-9d71-9b304e15fe19
-  :END:
-** GHCI config file: run :set by hand less
-https://typeclasses.com/ghci/config
-** +s – Display statistics about time and memory usage after each evaluation.
-** +t – Print an expression’s type after each evaluation.
-** multiline input: :set +m
-** -v – Set higher debug output verbosity
-** -Wall – Enable all compiler warnings
-* Haskell-based environments|tweaks to environment
-** KMonad (keyboard)
- https://www.reddit.com/r/haskell/comments/dbjrqm/ann_kmonad_an_advanced_keyboard_manager_written/
- https://github.com/david-janssen/kmonad
-** TerMonad (terminal)
-** XMonad (windowing)
-* GHC 8.8.1 in code/try-version881
-** Problem is recent Nix
-according to something I found when googling this:
-"stack nixos attribute 'ghc881' missing"
-** a configuration change I made (permanently) that didn't help
-In configuration.nix, I added
-  nixpkgs to whatever had pkgs
-  ghc to environment.systemPackages.pkgs
+:PROPERTIES:
+:ID:       784007e7-b851-4988-beaa-b8e4a9657357
+:END:
+#+title: Haskell
+* PITFALL: (Cabal?) REPL can't reload changes in depended-on projects.
+  Evidence:
+
+jeff@jbb-dell:cabal-experim$ tree
+.
+├── cabal.project
+├── P1
+│   ├── app
+│   │   ├── Lib.hs
+│   │   └── Main.hs
+│   └── P1.cabal
+└── P2
+    ├── P2.cabal
+    └── src
+        └── MyLib.hs
+
+jeff@jbb-dell:cabal-experim$ cabal repl P1 P2
+cabal: Cannot open a repl for multiple components at once. The targets 'P1'
+and 'P2' refer to different components.
+
+The reason for this limitation is that current versions of ghci do not support
+loading multiple components as source. Load just one component and when you
+make changes to a dependent component then quit and reload.
+* [[id:cbd1f56f-efef-4302-b309-e21ca0c1b677][how to profile in Haskell]]
+* lenses in Haskell
+** Generate lenses for third-party libraries in Haskell
+   https://ai-jobs.net/?rdt_cid=3040091042633392170
+* Haskell stuff I'd like to use
+** PostgREST: Make a db API-modifiable
+   https://postgrest.org/en/v8.0/index.html
+** data-interval
+   :PROPERTIES:
+   :ID:       08945d69-be8f-4302-a633-e2569183f551
+   :END:
+   https://hackage.haskell.org/package/data-interval-2.1.1
+** Hedgehog for websites
+   https://quickstrom.io/
+* laziness and strictness in Haskell
+  [[id:a2c7b53c-4728-407a-8f2e-35d4e0a20138][Making Invalid Laziness Unrepresentable (article)]]
+* Haskell language extensions
+** Pattern synonyms
+   {-# LANGUAGE PatternSynonyms #-}
+
+   pattern F :: Int -> Int -> Foo
+   pattern F f s = Foo f s
+
+   Which abbreviates a frequently used constructor.
+   Works in pattern matches too.
+* solutions
+** for space leaks
+   [[id:a2c7b53c-4728-407a-8f2e-35d4e0a20138][Making Invalid Laziness Unrepresentable (article)]]
+** converting to Floating types
+   GHC.Real.realToFrac :: (Real a, Fractional b) => a -> b
+   It's not part of any typeclass.
+** dynamic programming in Haskell via lazy self-reference
+   :PROPERTIES:
+   :ID:       e933a77d-2304-4b84-93e3-27963bad5386
+   :END:
+   https://fpunfold.com/2022/01/09/haskell-dp.html
