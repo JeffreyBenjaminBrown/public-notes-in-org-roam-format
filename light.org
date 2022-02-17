@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       7277993c-6202-4c73-b69a-56e18eb55a4e
+:END:
+#+title: light
+* measuring light
+** A "nit" is roughly equal to one candle's light.

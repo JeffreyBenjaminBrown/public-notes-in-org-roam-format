@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       30478629-506c-4acf-aec8-b74e977a2234
+:END:
+#+title: how to take notes on people and communication
+* fields for the file on them
+** contact info
+** contact history, most recent at top
+   Include the medium used, in case a medium fails.
+** interests
+** shared history
+* link to that note from any notes I might search for them
+  e.g. groups
+* bump their name to the top of my list of people I like to contact

@@ -3,6 +3,7 @@
 :ROAM_ALIASES: remember memory internalize
 :END:
 #+title: spaced repetition
+* In Emacs, [[id:73882d3f-fe8a-437c-964c-c34144cca759][`C-x space` is a better way to delineate rectangles.]]
 * It's better to call someone than have them call me.
   If they're late to call me it's annoying.
 * I lost 2 days of work to a duplication style mistake.

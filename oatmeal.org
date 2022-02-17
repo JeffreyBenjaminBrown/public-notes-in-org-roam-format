@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       5e1b3e68-e366-4550-b8cd-5d9bbea54feb
+:ROAM_ALIASES: avena
 :END:
 #+title: oatmeal
 * 30 g oatmeal to 1 coffee* cup water.

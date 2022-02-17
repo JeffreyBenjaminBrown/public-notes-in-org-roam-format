@@ -5,3 +5,4 @@
 #+title: recipes, some
 * [[id:b94cfaa7-9184-4cd7-bfbb-fa0de5064435][baked eggplant]]
 * [[id:ec6e5302-6c08-4b18-8f7b-23a2d514a8c4][baked-cauliflower]]
+* [[id:0382a0b6-82da-4b87-9be1-e302f040a979][cheese]]

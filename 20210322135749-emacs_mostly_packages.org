@@ -35,6 +35,10 @@
 ** I would like the highlight to remain after changing the indentation of a lot of adjacent bullets, so that I can do it again.
 * [[id:03544662-5978-4b88-8984-bd12eea5e8a1][Emacs packages]]
 * remember, commands
+** `C-x space` is a better way to delineate rectangles.
+   :PROPERTIES:
+   :ID:       73882d3f-fe8a-437c-964c-c34144cca759
+   :END:
 ** Alt-(up / down) : make two paragraphs trade places in Emacs
    similar to org-mode with bullets
 ** M-m: first non-whitespace char in line

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       e96d2789-d51c-4960-9b51-e9c1e5eed304
+:END:
+#+title: logic programming
+* reading I'd love to do
+** Datalog analyses are arrows
+   https://luctielen.com/posts/analyses_are_arrows/
+* some logic programming languages
+** [[id:8663f460-bf38-4037-9a7f-f5b954639027][Flix (programming language)]]
+** Prolog
+** Datalog
+** Kanren and MiniKanren
