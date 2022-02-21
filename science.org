@@ -2,5 +2,8 @@
 :ID:       c35ab968-7056-40fa-8816-ea16d5c88f6d
 :END:
 #+title: science
-* [[id:c563e6be-631d-4f23-923d-050498334e2a][mathematics]]
 * [[id:5a9e5a9f-8e1b-4487-ba1d-51692d73dd89][astronomy]]
+* [[id:974d25f4-56a0-4dd9-a066-7790dd40d0f7][biology]]
+* [[id:001d7913-c431-461c-92ae-a6a39394856c][computer science]]
+* [[id:c563e6be-631d-4f23-923d-050498334e2a][mathematics]]
+* [[id:3570b8e0-1c1b-482c-bbb1-18c0151e2e4f][political science]]

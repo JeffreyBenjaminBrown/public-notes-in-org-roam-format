@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e01a0f08-d0c7-4675-9ec7-979553799d98
+:END:
+#+title: latency, computer
+* latencytop: a Linux latency monitoring tool
+  :PROPERTIES:
+  :ID:       de30e8da-4c6f-4638-b063-45fb20eb3255
+  :END:
+  https://www.ubuntugeek.com/latencytop-measuring-and-fixing-linux-latency.html

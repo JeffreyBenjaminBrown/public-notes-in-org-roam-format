@@ -37,6 +37,7 @@ https://www.reddit.com/r/NixOS/comments/enkbus/getting_started_with_audio_progra
   Me asking Reddit why I can't use JACK.
 ** these procedures (not declarative) seem to have helped someone
 https://github.com/NixOS/nixpkgs/issues/74742#issuecomment-570745604
+* [[id:de30e8da-4c6f-4638-b063-45fb20eb3255][latencytop: a Linux latency monitoring tool]]
 * use MusNix
   https://github.com/musnix/musnix
   Alas, cannot install from this; must switch to it.

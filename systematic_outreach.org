@@ -3,9 +3,8 @@
 :END:
 #+title: systematic outreach
 Hypothetical.
-* Keep files on people, and review them before meeting.
-  Their interests and history.
-  Our shared experiences, plans and connections.
+* [[id:30478629-506c-4acf-aec8-b74e977a2234][Keep files on people]]
+* review those notes before meeting
 * Implement spaced repetition for outreach.
 ** both for people I know and people I'd like to
 * Don't get discouraged by a failure fraction.

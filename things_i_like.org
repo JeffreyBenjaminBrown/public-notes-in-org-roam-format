@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       0986826a-b056-4973-8927-40ec18a78c5f
+:END:
+#+title: things I like
+* [[id:de98c3eb-27ba-4a51-9875-9af3c6e2c2dd][beautiful things]]
+* [[id:0591e33a-f3b2-414a-ac40-c3071348758d][funny things]]
+* [[id:c35ab968-7056-40fa-8816-ea16d5c88f6d][science]]
+* [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]

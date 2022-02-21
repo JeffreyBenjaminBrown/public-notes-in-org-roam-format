@@ -3,6 +3,8 @@
 :ROAM_ALIASES: remember memory internalize
 :END:
 #+title: spaced repetition
+* TODO ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
+* [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult my notes]]
 * Organizing my notes on money felt good.
   I had procrastinated it maybe mainly because I thought it wouldn't.
   And of course the procrastination felt bad.
@@ -25,7 +27,7 @@
   Then when it doesn't work, I'll look for a solution elsewhere at length.
 * Ask people about their life stories, decisions
 ** Normally they talk about the recent.
-* Does meta awareness stop pointless behaviors?
+* Does [[id:9ec55e32-f974-479e-8295-7d9e30156684][mindfulness]] stop pointless behaviors?
 * TODO I have a few notes like this; join them.
   search for "internalize", "spaced repetition", maybe "to learn", "remember"
 * When LCR invites me to something (e.g. with journalists).

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       adb23c07-cfdf-4510-8f43-b1c4b6f68c38
+:END:
+#+title: Hypothesis: <Person>/interests > <Person>/outbox
+When I have a note on a person,
+copying an item to the "outbox" section for them can be very duplicative.
+Every time I have a new biology idea, say,
+I'll want to send it to Mridul and Chen.
+Rather than write it in both each time,
+I can just keep a permanent link in their files to "biology",
+and then check out my latest thoughts on biology when I write to either.

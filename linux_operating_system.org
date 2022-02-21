@@ -14,3 +14,4 @@
   https://ictsolved.github.io/remap-key-in-linux/
 * [[id:2734843e-60bb-481b-b1e3-7343c8840414][How to run Windows 11 and MacOS virtual machines in Linux]]
 * [[id:00691b2a-7ecd-4675-aab5-2462243a54f8][user and group IDs in Linux]]
+* [[id:de30e8da-4c6f-4638-b063-45fb20eb3255][latencytop: a Linux latency monitoring tool]]

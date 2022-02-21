@@ -4,6 +4,10 @@
 #+title: org-roam
 * refs
 ** for help : the Discourse group
+* TODO ? org-drill does spaced repetition
+  :PROPERTIES:
+  :ID:       31c4c9f3-fb7a-4028-b84a-8406d0e91f48
+  :END:
 * [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]
 * TODO search libraries for org-roam
   :PROPERTIES:
@@ -13,6 +17,7 @@
    https://twitter.com/jamest_lu/status/1418666513637249025
 ** org-roam-search
    https://github.com/natask/org-roam-search
+* TODO ? [[id:b7c89ebb-2ff1-40a9-867e-48594ecd06c1][org-to-listing-it can't handle non-bullets]]
 * [[id:2aef3e2d-4518-4d44-ba76-93feeb0fc981][org-roam v2 migration, my story]]
 * [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to avoid losing notes in a knowledge graph]]
 * PITFALL: move org-roam files [[id:b21e2b07-d97f-4135-ae22-8b8737075ce8][using dired]]

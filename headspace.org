@@ -9,6 +9,11 @@
   :ROAM_ALIASES: reprogram
   :END:
   Better in SmSn?
+** TODO [[id:adb23c07-cfdf-4510-8f43-b1c4b6f68c38][Hypothesis: <Person>/interests > <Person>/outbox]]
+** TODO ? After exercise i want to meditate
+   :PROPERTIES:
+   :ID:       506d431f-c5ac-486a-a7e6-6dfa6c09d69b
+   :END:
 ** TODO REMEMBER: I like "photocopying"
    Shuffling my mindmaps is not something I do *for* the data; it is how I think.
 ** [[id:24169b3e-6d41-48dd-9367-6df7a3565bed][my priorities]]
@@ -16,10 +21,13 @@
 ** creating and courage
    for lyrics
 ** things I wish about myself
-*** better remember people
-    their interests
-    what we've talked about
-** TODO Should I be [[id:73e229ee-a416-41db-a23a-4d960b2e559f][systematic about social connections]]?
+*** DONE ? better remember people
+**** I think my latest [[id:30478629-506c-4acf-aec8-b74e977a2234][people note-taking]] procedure solves this.
+     If I stick to it.
+**** what I wish I remembered
+     their interests
+     what we've talked about
+** how to be [[id:73e229ee-a416-41db-a23a-4d960b2e559f][systematic about social connections]]
 ** On personal change
 *** At 42 I acclimated physically (and behaviorally) to Villavo.
     The first and maybe the second time I was here, I was somewhat useless.
@@ -37,6 +45,7 @@
 * Does plumbing my (recent) memory lead to less happy memories?
 ** [[id:85508f6f-946f-4474-9952-f25c25450f1c][It happened today]].
 * [[id:d19de124-694d-46e2-9bfd-f04c0f145adb][experience]]
+* [[id:9ec55e32-f974-479e-8295-7d9e30156684][mindfulness]]
 * [[id:04eae9c6-72e1-4251-9f12-a761a7f62692][spirituality]]
 * [[id:4c25a3eb-4f21-4c20-9fee-2a18275ca089][choice]]
 * [[id:efead690-715e-4243-9dd9-9f6a53566263][aesthetics]]

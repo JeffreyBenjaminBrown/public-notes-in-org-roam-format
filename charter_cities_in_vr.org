@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       4fb89f39-bbc4-4032-b53a-d480ef792ea4
+:END:
+#+title: charter cities in VR
+Now that VR has a lot of money behind it,
+and might get enough people in it to do real economic research,
+it seems maybe fruitful to experiment with alternative constitutional designs.

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       974d25f4-56a0-4dd9-a066-7790dd40d0f7
+:END:
+#+title: biology
+* [[id:6912dba3-ec0c-4a90-97c1-d8dd74496166][easy macroscopic DIY medicine]]
+* [[id:16127b31-70f5-4098-a5c1-1df7cfc93128][bioinformatics]]
+* funny facts about biology
+** [[id:5c4aa81a-3cdf-47b9-a912-56f32e862b93][Astronauts can't drink soda.]]

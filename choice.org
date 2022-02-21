@@ -9,6 +9,6 @@
   :ROAM_ALIASES: OCD
   :END:
   = suspected or clearly inefficient uses of my time|mind
-** humming
+** [[id:d588b701-0384-42b4-975e-bf97ee2e4292][humming]]
 ** counting words
 * [[id:24169b3e-6d41-48dd-9367-6df7a3565bed][my priorities]]

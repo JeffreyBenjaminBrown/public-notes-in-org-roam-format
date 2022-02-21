@@ -2,12 +2,12 @@
 :ID:       6338f677-2e09-4202-96bb-d5444247bf7a
 :END:
 #+title: to watch
+* [[id:cbaf750e-4098-45bc-9e66-b7d00092faff][Mary Queen of Scots]]
 * Cliff on USAID, 53 min
   https://mail.google.com/mail/u/0/#inbox/FMfcgzGlksCTlffBqjLhQfjmbjKsrSvZ
 * Cliff rec's historical dramas
   The Red Queen
   The White Queen
-  Mary Queen of Scots
   The Normans
 * Bran rec's Bojack Horseman
   """

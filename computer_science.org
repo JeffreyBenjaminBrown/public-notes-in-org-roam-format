@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       001d7913-c431-461c-92ae-a6a39394856c
+:END:
+#+title: computer science
+* [[id:16127b31-70f5-4098-a5c1-1df7cfc93128][bioinformatics]]
