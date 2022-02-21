@@ -79,6 +79,11 @@
 *** in tax.co, my `readStage` utility accepts the same kind of argument
     forwarding it on to pd.read_csv as part of **kwargs.
 ** [[id:42538f79-f00b-48c6-adf6-f4ff8d805479][export an Excel spreadsheet in a format readable by humans and Pandas]]
+** Pandas can export to [[id:8475bbbf-efbb-423e-901c-b464e807784c][parquet]].
+   :PROPERTIES:
+   :ID:       5b17456f-7237-48cc-a6a6-7a2dbef33aa3
+   :END:
+   pd . DataFrame . to_parquet ()
 * mapping
 ** to apply a function to each row of a frame
 *** syntax

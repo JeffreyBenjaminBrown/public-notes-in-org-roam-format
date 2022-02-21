@@ -4,4 +4,5 @@
 #+title: foods I (would) enjoy
 (but probably would have to make)
 * fatthe, find a recipe for
+* [[id:e93ab75c-3c2b-422f-959f-2216de60d4fd][restaurants]]
 * saltwater, no-vinegar pickles, with spices

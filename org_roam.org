@@ -4,6 +4,7 @@
 #+title: org-roam
 * refs
 ** for help : the Discourse group
+* [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]
 * TODO search libraries for org-roam
   :PROPERTIES:
   :ID:       e5140b84-d5da-482d-a9fa-eff7e3c9dd26
@@ -13,6 +14,7 @@
 ** org-roam-search
    https://github.com/natask/org-roam-search
 * [[id:2aef3e2d-4518-4d44-ba76-93feeb0fc981][org-roam v2 migration, my story]]
+* [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to avoid losing notes in a knowledge graph]]
 * PITFALL: move org-roam files [[id:b21e2b07-d97f-4135-ae22-8b8737075ce8][using dired]]
   This causes updates to the org-roam db.
   Maybe other Emacs file-moving facilities (e.g. neotree)

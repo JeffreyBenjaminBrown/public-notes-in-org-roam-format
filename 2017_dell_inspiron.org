@@ -5,7 +5,8 @@
 * My machine is
   a Dell Inspiron, 15".
   It has SKU number 0767. I haven't found a map from that to an actual model.
-  Amazon says my machine is a "i5-7200U" but I think that's the chip.
+  Has 4 i5-7200U chips at 2.5 GHz.
+  More info in the (KDE) "Info Center".
 * BIOS setup, how to access
   Press F2 while booting, when the Dell logo appears.
 * [[id:2d238e67-4c09-435c-ab78-67ef62255f1c][battery for my 2017 Dell laptop]]

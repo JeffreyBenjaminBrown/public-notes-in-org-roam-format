@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       53574a7c-36fe-4745-91c1-b38b8670c956
+:END:
+#+title: housing in Colombia: whether to buy or rent
+[[id:e3c8bb04-2d61-4255-b3da-76274f576342][LCR]] made a spreadsheet to figure it out, for Colombia:
+  https://mail.google.com/mail/u/0/?pli=1#inbox/FMfcgxwLsSbpmRfjPQDVjtdWHHgQVrhR

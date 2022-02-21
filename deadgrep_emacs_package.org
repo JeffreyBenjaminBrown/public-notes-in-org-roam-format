@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f3494683-04d3-4eb7-98d0-441b920a7c99
+:END:
+#+title: deadgrep (Emacs package)
+* Just one command, `M-x deadgrep`.
+* https://github.com/Wilfred/deadgrep#context-aware
+* Lets you fold all results from a given file.
+  Easier, if less powerful, than programmatically winnowing results.

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c35ab968-7056-40fa-8816-ea16d5c88f6d
+:END:
+#+title: science
+* [[id:c563e6be-631d-4f23-923d-050498334e2a][mathematics]]
+* [[id:5a9e5a9f-8e1b-4487-ba1d-51692d73dd89][astronomy]]

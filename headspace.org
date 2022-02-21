@@ -40,3 +40,5 @@
 * [[id:04eae9c6-72e1-4251-9f12-a761a7f62692][spirituality]]
 * [[id:4c25a3eb-4f21-4c20-9fee-2a18275ca089][choice]]
 * [[id:efead690-715e-4243-9dd9-9f6a53566263][aesthetics]]
+* [[id:bbc9f812-cf95-45a3-b93f-4ad93a565510][mental health and fitness]]
+* [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][learning and thinking]]

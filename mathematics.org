@@ -7,3 +7,8 @@
   :ID:       7b838adc-843c-4337-981d-6a7b96068831
   :END:
   https://mathoverflow.net/questions/180846/
+* some fun facts about high-dimesnional spheres
+** most volume is near the equator
+** most volume is near the surface
+** sphere packing in 8 and 24 dimensions
+* [[id:464172c4-0de9-4556-b25c-16add32f2a3a][a sliding cross section of columns packed in 3d along 7 directions]]

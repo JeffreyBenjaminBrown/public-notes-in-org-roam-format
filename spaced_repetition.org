@@ -3,6 +3,14 @@
 :ROAM_ALIASES: remember memory internalize
 :END:
 #+title: spaced repetition
+* Organizing my notes on money felt good.
+  I had procrastinated it maybe mainly because I thought it wouldn't.
+  And of course the procrastination felt bad.
+* Use my "prefix-date-uri" script.
+  Prefix all non-org non-VC documents with that,
+  and never change their names,
+  so I can index to them in the graph in many places
+  and always search my disk for them.
 * In Emacs, [[id:73882d3f-fe8a-437c-964c-c34144cca759][`C-x space` is a better way to delineate rectangles.]]
 * It's better to call someone than have them call me.
   If they're late to call me it's annoying.

@@ -3,6 +3,9 @@
 :END:
 #+title: to read
 * math: [[id:7b838adc-843c-4337-981d-6a7b96068831][some surprisingly dimension-dependent results]]
+* Artemis: good econ & science about a moon colony
+  By Andy Weir, who wrote Mars* (which became a movie with that famous dude stuck on Mars, maybe Brad Pitt?).
+   * I think that's the name.
 * Cliff forwards NYT Opinion on marriage & sacrifice
   https://www.nytimes.com/2022/01/04/opinion/marriage-divorce.html
 * some of mridul's favorite books

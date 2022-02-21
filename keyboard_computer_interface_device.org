@@ -3,3 +3,4 @@
 :END:
 #+title: keyboard (computer interface device)
 * [[id:f85bf9f1-eeb9-4c55-8078-5b3a0cbac0e7][to swap keyboard keys in any Linux environment]]
+* [[id:de38b95e-4b3d-4ced-89d8-dfab50e6e082][replacement keyboard for 2017 Dell Inspiron]]

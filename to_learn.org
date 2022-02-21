@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b2daa5a3-95bd-4922-9610-c735376bd60a
+:END:
+#+title: to learn
+* science
+** biology
+** physics
+** astronomy
+* history
+* tech, making stuff
+* current events

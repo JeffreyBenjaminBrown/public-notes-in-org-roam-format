@@ -2,11 +2,24 @@
 :ID:       6338f677-2e09-4202-96bb-d5444247bf7a
 :END:
 #+title: to watch
-* Uncle Boonmee Who Can Recall His Past Lives
-  Thai film, weird, complex.
-  Tyler Cowen said maybe the best movie of the last 20 years (in Dec 2021).
 * Cliff on USAID, 53 min
   https://mail.google.com/mail/u/0/#inbox/FMfcgzGlksCTlffBqjLhQfjmbjKsrSvZ
+* Cliff rec's historical dramas
+  The Red Queen
+  The White Queen
+  Mary Queen of Scots
+  The Normans
+* Bran rec's Bojack Horseman
+  """
+  It's definitely bleak, but the quality of being amused with its own bleakness starts to change as they develop Bojack's character and he starts realizing that he's been hurting everyone around him and starts to seek redemption. In a nutshell, it's basically about how we must break the cycle of generational trauma and heal so we can stop hurting the people around us...punctuated by animal puns.
+  If I could recommend you watch 3 episodes, they would be in order: The Old Sugarman Place, Time's Arrow, and Free Churro. The first 2 are in season 4 and the final one is in season 5.
+  """
+* Hanna Gadsby: Nanette
+* James Acaster: Cold Lasagne Hate Myself 1999
+* math on Youtube
+  3blue1brown
+  Mathologer
+  Numberphile
 * Sidney's mostly sci-fi TV rec's
   All 1 season unless noted.
 ** Amazon Prime
@@ -23,19 +36,8 @@
 ** Hulu
 *** Steven Universe
     Happy.
-* Cliff rec's historical dramas
-  The White Queen
-  The Red Queen
-  Mary Queen of Scots
-  The Normans
-* Bran rec's Bojack Horseman
-  """
-  It's definitely bleak, but the quality of being amused with its own bleakness starts to change as they develop Bojack's character and he starts realizing that he's been hurting everyone around him and starts to seek redemption. In a nutshell, it's basically about how we must break the cycle of generational trauma and heal so we can stop hurting the people around us...punctuated by animal puns.
-  If I could recommend you watch 3 episodes, they would be in order: The Old Sugarman Place, Time's Arrow, and Free Churro. The first 2 are in season 4 and the final one is in season 5.
-  """
-* Hanna Gadsby: Nanette
-* James Acaster: Cold Lasagne Hate Myself 1999
-* math on Youtube
-  3blue1brown
-  Mathologer
-  Numberphile
+* Uncle Boonmee Who Can Recall His Past Lives
+** not available on Amazon Prime in Colombia
+** description
+   Thai film, weird, complex.
+   Tyler Cowen said maybe the best movie of the last 20 years (in Dec 2021).

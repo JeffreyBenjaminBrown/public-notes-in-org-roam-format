@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b6cf38d4-ddf2-49f3-af3f-a1bdacaa65b0
+:END:
+#+title: the mental analog to muscle confusion
+* Is it useful?
+* where I first saw the comparison
+  https://news.ycombinator.com/item?id=30328118
+* HealthLine says muscle confusion is not a scientific term.
+  https://www.healthline.com/health/exercise-fitness/muscle-confusion

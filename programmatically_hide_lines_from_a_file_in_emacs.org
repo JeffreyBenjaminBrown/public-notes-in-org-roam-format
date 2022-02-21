@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       7ca4fa12-5fc2-415c-8d2f-5d6167e8dd95
+:ROAM_ALIASES: "winnowing in Emacs"
+:END:
+#+title: hide lines programmatically in Emacs
+* C-x C-q to toggle read-only mode.
+  If I want to winnow the results.
+* M-x flush-lines
+  Flushes anything matching a regex. Builtin.
+* winnow
+  Lets you restrict the results from something like grep.
+  Must be somehow more powerful than flush-lines.
+* double-saber
+  An alternative to winnow. Seemms pretty simple.
+  https://github.com/dp12/double-saber

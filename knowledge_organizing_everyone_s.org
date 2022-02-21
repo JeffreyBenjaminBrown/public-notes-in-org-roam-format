@@ -1,9 +1,12 @@
 :PROPERTIES:
 :ID:       2ffe190d-718d-4f71-af97-5214ef091045
-:ROAM_ALIASES: information epistemology
+:ROAM_ALIASES: information epistemology ontology "organizing knowledge"
 :END:
-#+title: knowledge, organizing everyone's
+#+title: knowledge graphs
 * [[id:f5d81cd6-dcc9-414b-bf9b-2c7f4ca1cd29][my data]]
+* [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]
+* [[id:30478629-506c-4acf-aec8-b74e977a2234][how to take notes on people and communication]]
+* [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to avoid losing notes in a knowledge graph]]
 * TypeDB > Hode
   https://github.com/vaticle/typedb
 * the Underlay Project at MIT
@@ -12,5 +15,9 @@
   :END:
   https://notes.knowledgefutures.org/pub/si1okbw9/release/9
 * C2PA: Content Authorship Alliance
-* [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
+* some knowledge graph tools
+** [[id:63f366e6-b768-4f3f-9093-a776f2b4e069][org-roam]]
+** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][smsn]]
+** [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
 * [[id:7ba3aeee-378b-41b9-89ef-2658dc19b9ea][conspiracies, Edward Snowden on]]
+* why knowledge graphs matter

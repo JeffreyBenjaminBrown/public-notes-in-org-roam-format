@@ -22,6 +22,7 @@
     https://github.com/synchrony/smsn-mode/wiki/Command-reference
 *** installing smsn
     https://github.com/synchrony/smsn/wiki/Installation
+* [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]
 * TODO rebuild docker image with iproute2
 Dockerfile is already modified (but not committed) for that.
 * TODO get metadata working too

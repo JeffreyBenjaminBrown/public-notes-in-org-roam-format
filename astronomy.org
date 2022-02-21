@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       5a9e5a9f-8e1b-4487-ba1d-51692d73dd89
+:END:
+#+title: astronomy
+* [[id:7faf1c3e-510c-4073-99e0-a764db062772][The storm at the heart of the Milky Way galaxy.]]

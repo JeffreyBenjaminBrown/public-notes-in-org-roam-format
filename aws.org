@@ -39,6 +39,7 @@
     https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-tutorial-launching-and-configuring-lamp
 *** Build a serverless app
     https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/?trk=gs_card
+* TODO Use [[id:c3b5cb8e-0b24-49d8-b4c4-920f210abc83][Terraform]]
 * for saving money
 ** "requester pays" is an S3 option
 * TODO AWS services I might want to learn

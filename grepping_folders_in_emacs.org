@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       03df14dd-9536-4302-aa53-d51e3d1de100
+:END:
+#+title: grepping folders in Emacs
+* solutions I like
+** [[id:f3494683-04d3-4eb7-98d0-441b920a7c99][deadgrep]]
+** M-x find-grep
+   It's dead simple,
+   but the output is not very interactive.
+** to narrow search results after searching
+*** Deadgrep offers the easiest way.
+    It lets you hide all results from the file at point with one keystroke,
+    probably tab.
+*** Otherwise, [[id:7ca4fa12-5fc2-415c-8d2f-5d6167e8dd95][programmatically hide lines from the file]].
+* solutions I haven't tried
+** rg, a ripgrep frontend
+   More powerful, but also more complex, than deadgrep.
+   https://github.com/dajva/rg.el
+*** to hide sections
+    "It doesn't have a keybinding to hide a section like magit does, but I quickly tried enabling outline-minor-mode with pretty good results, see rg Issue #132."
+    the issue: https://github.com/dajva/rg.el/issues/132
+    who I'm quoting: https://www.reddit.com/r/emacs/comments/sv6pje/comment/hxg7gd9/?utm_source=reddit&utm_medium=web2x&context=3
+** ag, the silver searcher
+   Will exclude .git files.
+   Is apparently awesome.

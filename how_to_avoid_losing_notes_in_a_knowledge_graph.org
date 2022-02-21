@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       9e45ccd9-d6e0-4870-8f13-cc11135334d0
+:END:
+#+title: how to avoid losing notes in a knowledge graph
+* file each new note well, although not excessively
+** choose its parents well
+   When I write a note I try to figure out everything it bears on -- what it's about, what projects it would help, what it has implications for the truth or falsity of, etc. Call that set X. I then filter that set to those things I actually care enough about to bother keeping track of them. (For instance, maybe the note has implications for love, but I don't care; if so, love is in X but not Y.)
+
+   The difference between X and Y depends on the speed with which I can create a note, and the cost of comitting to maintaining it over time. Org-roam, fortunately, makes the first pretty low, and my own habits make the cost of the second pretty low, so often in my case X == Y.
+
+   For each thing in Y, I then link to the new note. If that thing in Y doesn't yet exist, I make it.
+** anticipate synonyms
+   Synonyms prevent something of a problem. I often search for "belongings" and then remember "oh yeah, I call those possessions". The ROAM_ALIASES field helps for that.
+* Don't worry about losing conscious track of any note -- that's critical to successful usage of a knowledge graph.
+  Even if you perfectly anticipate and curate the set Y when you create the new note, it's possible that you won't look up anything in Y for a long time. That's fine! Continuing the above example, suppose the note you wrote was about love and how to avoid burnout at work, and you put it under those two things, and then never looked at those two things. That means those two things weren't an issue for you.
+* consult your notes
+  Of course, this implies that when you have an itch to do anything, part of scratching it is to look in your notes for anything you've already written on it before. That habit will come with time, although consciously encouraging it can hurry the process.
+* learn to search your notes
+  It also assumes that when you have an itch, you're able to find the note about it. If the note exists, usually it's not hard to find -- even if you didn't curate its parents well, you can grep your folder for relevant terms.

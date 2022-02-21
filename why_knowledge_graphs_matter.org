@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       667bf4ea-d99d-41bb-98a9-368a86877e3e
+:END:
+#+title: why knowledge graphs matter
+* Users control their own views.
+** against The Feed
+   Rather than being only ever fed their
+   (altorithmically often destructive, and always dumb) "feed".
+** Cut through spam.
+   identify bots and (human-powered) comment farms,
+   through a collective identification effort.
+* Users can query to judge sources.
+** THe viewer can see what they themselves, or others, have marked as false among a writer's earlier posts, and the evidence for or against.

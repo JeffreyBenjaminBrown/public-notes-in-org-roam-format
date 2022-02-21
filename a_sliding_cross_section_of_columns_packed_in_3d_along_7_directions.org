@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       464172c4-0de9-4556-b25c-16add32f2a3a
+:END:
+#+title: a sliding cross section of columns packed in 3d along 7 directions
+https://twitter.com/KangarooPhysics/status/1491858072251342850

@@ -2,6 +2,7 @@
 :ID:       7a777588-b76a-48de-9a4d-40d78f6f5ba4
 :END:
 #+title: csv (file format)
+* TODO ? [[id:8475bbbf-efbb-423e-901c-b464e807784c][parquet]] looks better than csv
 * announce the separator used in a .csv file
   put something like "sep=;" at the top of the file
 * [[id:42538f79-f00b-48c6-adf6-f4ff8d805479][export an Excel spreadsheet in a format readable by humans and Pandas]]

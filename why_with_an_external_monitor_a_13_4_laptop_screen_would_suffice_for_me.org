@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       be6f760b-a798-4d68-92ec-24071ccd2371
+:END:
+#+title: Why, with an external monitor, a 13.4" laptop screen would suffice for me.
+* in brief
+  With my arms bent, 13.4" looks as wide as 15.6" does at arms length.
+* in detail
+  Currently, whenever I'm using an external keyboard,
+  I keep the laptop farther away than it is when I am using the builtin one.
+  Specifically, it's about 28" from my face when using the external keyboard,
+  and 24" from my face when using the builtin one.
+  15.6" * (24/28) = 13.4.
+    (That calculation is based on this figure:
+    A right triangle where the skinny angle is my eye,
+    the edge opposite my eye is 15.6",
+    and the edge adjacent to my eye is 28".
+    Now draw a new opposite edge, parallel to the first,
+    24" from my eye.
+    That new edge is almost exactly 13.4" across.
+    That the triangle is right does not matter;
+    if I now translate my eye to one side,
+    the same relationship will hold.)
+  So a laptop with a 13.4" screen, when I'm using the builtin keyboard,
+  will occupy exactly as much real estate as this 15.6 one does
+  when I'm using the external keyboard.

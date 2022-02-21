@@ -45,6 +45,8 @@
 ** C-c C-(f/b): org next/previous same level
 ** Up, down and search work in the minibuffer after M-x.
 * solutions
+** [[id:03df14dd-9536-4302-aa53-d51e3d1de100][grepping folders in Emacs]]
+** [[id:7ca4fa12-5fc2-415c-8d2f-5d6167e8dd95][hide lines programmatically from a file in Emacs]]
 ** number lines in a rectangle
    http://emacsworld.blogspot.com/2012/06/numbering-lines-and-lists-in-emacs.html
    "C-x r N" starts the line at 1.

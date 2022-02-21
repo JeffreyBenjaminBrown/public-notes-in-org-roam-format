@@ -3,11 +3,15 @@
 :END:
 #+title: how to take notes on people and communication
 * fields for the file on them
+** outbox
+   Things I'd like to talk to them about.
 ** contact info
 ** contact history, most recent at top
    Include the medium used, in case a medium fails.
 ** interests
 ** shared history
+** relationships
+** creations (inc. writings)
 * link to that note from any notes I might search for them
   e.g. groups
 * bump their name to the top of my list of people I like to contact
