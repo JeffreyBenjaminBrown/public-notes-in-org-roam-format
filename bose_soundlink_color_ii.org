@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       88a8e98f-3714-4554-878d-acaa5dcbce5d
+:END:
+#+title: Bose Soundlink Color II
+* manual
+  [[~/many-small/belongings/22-02-21-sUh59aky.manual.bose_soundlink_color_ii.pdf]]
+* how to enter stereo mode
+  alternatives
+** without the app
+*** in brief
+    Bluetooth and + on main
+    Bluetooth and - on second
+    Bluetooth and + on main
+*** in detail
+    serial
+**** On the speaker already connected, press and hold Bluetooth and +
+**** On the other, press and holde Bluetooth and -
+**** Wait until it says it's in Party (duplicated mono) Mode.
+**** On either, press and holde Bluetooth and + again.
+**** Wait until it says it's in Stereo Mode.
+** Failing that, download and use the app.

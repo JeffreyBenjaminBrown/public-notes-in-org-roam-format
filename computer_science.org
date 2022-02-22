@@ -3,3 +3,4 @@
 :END:
 #+title: computer science
 * [[id:16127b31-70f5-4098-a5c1-1df7cfc93128][bioinformatics]]
+* [[id:e4a6a10f-a305-49fa-91b1-08482df14229][a CS skills assessment, with a moderate focus on Python]]

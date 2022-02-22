@@ -4,13 +4,14 @@
 #+title: AWS Route53
 * how to associate a domain name with an EC2 instance
   It's easy.
-** a ref
+** refs
    https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-to-ec2-instance.html
 ** PITFALL: The domain name I bought for the Observatorio is for Ohio
    not N Virginia like the rest of what I do.
 *** TODO can I make it available in both?
 ** PITFALL: They appear not to be copiable.
-** alternatives
+** how
+   alternatives
    Editing an old one is *very slightly* faster than creating a new one.
 *** create a new association in Route53
     Go to that domain in Route53.

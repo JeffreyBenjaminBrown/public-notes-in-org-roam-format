@@ -21,3 +21,4 @@
   :END:
   find . -type f -name '*.py' | xargs etags
 * [[id:bd7363b0-401a-498e-9fe3-5d291c955cb3][if (command history|paste|backspace) misbehaves in `conda python3` in Docker]]
+* [[id:e4a6a10f-a305-49fa-91b1-08482df14229][a CS skills assessment, with a moderate focus on Python]]

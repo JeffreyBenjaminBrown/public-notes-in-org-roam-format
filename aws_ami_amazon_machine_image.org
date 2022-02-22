@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       551228e8-fb16-4497-b238-d80c30a55187
+:ROAM_ALIASES: "AMI (\"Amazon Machine Image\")"
 :END:
 #+title: AWS AMI ("Amazon Machine Image")
 * to create an AMI from an EC2 instance
