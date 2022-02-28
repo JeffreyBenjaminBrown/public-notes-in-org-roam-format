@@ -2,6 +2,7 @@
 :ID:       6efbca64-356c-4475-8c43-6ee1a6e54282
 :END:
 #+title: minor life optimizations
+* [[id:90466cf1-acba-4f48-86b1-8c197250231c][Sioyek (PDF viewer)]] looks amazing.
 * Vimium: browse the web from the keyboard
   It's an extension available for Chrome and Firefox that allows you to use websites and web apps using your keyboard.
 * TODO hide KDE toolbar with a keyboard shortcut

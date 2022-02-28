@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       9229a918-375c-4e1b-b775-bf5da596a371
+:END:
+#+title: engineering
+* [[id:eddb757b-52df-4214-86e3-2fca4953e2be][shade balls and resevoirs]]

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       90466cf1-acba-4f48-86b1-8c197250231c
+:END:
+#+title: Sioyek (PDF viewer)
+Among other things, has something like Emacs's mark stack.
+https://github.com/ahrm/sioyek#features

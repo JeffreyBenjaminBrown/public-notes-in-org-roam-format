@@ -35,3 +35,27 @@
    dummy = document . createElement ( "span" )
    dummy . innerHTML = ( "hello" )
    document . body . appendChild ( dummy )
+* how to make one input update another
+  <body>
+    <script>
+      function mkInput_numeric ( value = null ) {
+        let input = document . createElement ( "input" )
+        input . step = "any"
+        input . type = "number"
+        if (value != null) {input . value = value }
+        else               {input . value = 0 }
+        return input
+      }
+
+      in1 = mkInput_numeric ( 1 )
+      in2 = mkInput_numeric ( 2 )
+      in1.addEventListener(
+        'change',
+        function() { in2.value = in1.value * 3 } )
+      in2.addEventListener(
+        'change',
+        function() { in1.value = in2.value / 3 } )
+      document . body . appendChild ( in1 )
+      document . body . appendChild ( in2 )
+    </script>
+  </body>

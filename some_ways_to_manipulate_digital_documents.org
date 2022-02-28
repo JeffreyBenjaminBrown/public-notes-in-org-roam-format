@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       082cfa49-50e3-4332-9072-282b65aad5eb
-:ROAM_ALIASES: "image manipulation"
+:ROAM_ALIASES: "image manipulation" "pdf manipulation" "png manipulation" "jpg manipulation" "jpeg manipulation"
 :END:
 #+title: some ways to manipulate digital documents
 These notes were (all?) taken to apply for my [[id:fb125111-a65d-4aee-ac47-918b55572a97][visa renewal for Colombia]].
@@ -23,13 +23,18 @@ Convert with `convert` (imagemagick), but concat with `pdftk`.
   First check its dimensions with `file`.
   Then choose new dimensions, and run
   `convert input.jpg -resize 600x400\> output.jpg`
+* to extract tables from PDFs
+** [[id:6f854ffc-8eb8-4ac8-823c-fd8b61f90562][Tabula (software to extract tables from PDFs)]]
+* to remove encryption from a PDF
+  qpdf --password=YOURPASSWORD-HERE --decrypt input.pdf output.pdf
 * how to concatenate mixed-format images into a pdf
-** best: pdfunite
-   Part of the poppler-utils apt package.
-   Not so far (2022 02 18) packaged for NixOS.
+** pdfunite
+   Part of the poppler-utils package.
    pdfunite 1.pdf 2.pdf output.pdf
-** worse: imagemagick
-   Memory and resolution problems.
+** imagemagick
+   Once, it had memory and resolution problems.
+   But the last time I tried it worked fine,
+   joining .jpg files into a pdf.
    convert x.pdf y.bmp z.png output.pdf
 * how to concatenate pdfs with pdftk
   pdftk file1.pdf file2.pdf file3.pdf cat output newfile.pdf

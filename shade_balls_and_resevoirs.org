@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       eddb757b-52df-4214-86e3-2fca4953e2be
+:END:
+#+title: shade balls and resevoirs
+* what they are, how they behave
+  They're inert black plastic spheres,
+  that last up to ten years in the sun.
+  They are half-filled with water, half-filled with air.
+  Roundness means they spread out or contract to match the shape of the water's surface.
+* benefits
+** They prevent sunlight from converting bromide to bromate.
+   the first is unavoidable and harmless, but the second is a carcinogen.
+** They reduce evaporation by 80 to 90%.
+   Even though they absorb more sunlight, the air acts as an insulator, and for some reason they kill the wind, so the layer of moist air above the water stays stable, inhibiting evaporation. They actually slightly cool the water.
+** They deter birds and algae.
+* history
+  They were used to deter birds from pooping on
+  (bodies of water?)
+  before their usefulness to resevoirs was discovered.
+* usage examples
+  LA's resevoir uses shade balls.

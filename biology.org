@@ -4,5 +4,5 @@
 #+title: biology
 * [[id:6912dba3-ec0c-4a90-97c1-d8dd74496166][easy macroscopic DIY medicine]]
 * [[id:16127b31-70f5-4098-a5c1-1df7cfc93128][bioinformatics]]
-* funny facts about biology
-** [[id:5c4aa81a-3cdf-47b9-a912-56f32e862b93][Astronauts can't drink soda.]]
+* [[id:5c4aa81a-3cdf-47b9-a912-56f32e862b93][Astronauts can't drink soda.]]
+* [[id:17a7509c-9f40-4fb8-995f-3a8878c773c9][Intermittent fasting]] should reduce tooth rot.

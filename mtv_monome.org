@@ -3,6 +3,7 @@
 :END:
 #+title: mtv-monome
 * TODO UNFINISHED
+** Use my 'axe' synth via the monome.
 ** record
 ** store chords
    Monome.Window.ChordBank.Bank
