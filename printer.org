@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       14c36167-3991-48bc-8d67-084e5ca32d35
+:END:
+#+title: printer
+* [[id:ae713b0d-f687-4d52-ad67-64c777e64d58][The market for printers seems broken.]]

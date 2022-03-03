@@ -26,6 +26,7 @@ The reason for this limitation is that current versions of ghci do not support
 loading multiple components as source. Load just one component and when you
 make changes to a dependent component then quit and reload.
 * [[id:cbd1f56f-efef-4302-b309-e21ca0c1b677][how to profile in Haskell]]
+* [[id:ffa6b210-d70c-4445-b0ed-87e3c6da00a7][To use a different version of GHC in Nix]]
 * lenses in Haskell
 ** Generate lenses for third-party libraries in Haskell
    https://ai-jobs.net/?rdt_cid=3040091042633392170

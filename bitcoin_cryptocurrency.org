@@ -2,6 +2,8 @@
 :ID:       5e5ce5a9-1bd7-4bc7-ab20-cdb97bd441ad
 :END:
 #+title: Bitcoin (cryptocurrency)
+* a great reference on the Bitcoin protocol
+  https://michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/?fbclid=IwAR1Lx6tjVyYcVJDglxE59ZtAavPBHCHLAuA7rR9TPtqBJx4YGg4BkQqYQZg
 * some Bitcoin libraries
   :PROPERTIES:
   :ID:       d3d3bb08-1d29-48de-bc9c-445b0f1d6b62

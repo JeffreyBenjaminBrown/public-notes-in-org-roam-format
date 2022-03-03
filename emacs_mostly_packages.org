@@ -2,6 +2,7 @@
 :ID:       5dd27b65-8dba-4c85-82f2-fad3464b3462
 :END:
 #+title: Emacs (programamble text editor)
+* [[id:a10a04e8-5b2b-4f75-93ec-f1d2082f2a3c][sexp and list commands in Emacs]]
 * [[id:3a230207-47a8-4dde-af88-2c442f5c51aa][Erlang and Emacs]]
 * some big single-page manuals
   https://www.emacsdocs.org/

@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       80760d51-8ae0-4870-9d1d-8c16257c3eee
+:END:
+#+title: NixOS, programming in
+* If dependencies are missing from a project
+  then I may need to provide a
+  `shell.nix` file (at the project root),
+  and then run `nix-shell` (from the project root)
+  before compiling or opening a REPL.
+** An example shell.nix file
+   :PROPERTIES:
+   :ID:       a5b155c1-d057-4510-92ef-125ad2ee4fd2
+   :END:
+   # This is what I use for Phanaeros.
+   with import <nixpkgs> { };
+   mkShell {
+     buildInputs = [ zlib ];
+   }
+** Most dependencies don't require it.
+   It's something like only the C headers.
+* To use a different version of GHC in Nix
+  :PROPERTIES:
+  :ID:       ffa6b210-d70c-4445-b0ed-87e3c6da00a7
+  :END:
+** use a default.nix file something like this
+   # This is what I use for Montevideo
+   with import <nixpkgs> { };
+   mkShell {
+     buildInputs = [
+       haskell.compiler.ghc921
+     ];
+   }
+** then run `nix-shell` before `cabal repl`

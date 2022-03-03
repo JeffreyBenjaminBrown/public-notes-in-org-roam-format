@@ -3,5 +3,7 @@
 :END:
 #+title: economics
 * [[id:e40de8e8-8eb9-46cc-b175-c2e0c7b6a2a7][stock market, the]]
+* some market failures
+** [[id:ae713b0d-f687-4d52-ad67-64c777e64d58][The market for printers seems broken.]]
 * [[id:d8e1e0ce-da00-4e93-8e79-0d5979335977][Piketty, Saez And Zucman, Qje 2018, "Distributional National Accounts: Methods And Estimates For The United States".]]
 * [[id:915c9717-9f3b-43c3-b9d3-56eb881f8600][Londoño-Vélez And Ávila-Mahecha 2018: "Can Wealth Taxation Work In Developing Countries? Quasi-Experimental Evidence From Colombia"]].

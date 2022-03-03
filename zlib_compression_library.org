@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       c84ca490-a0ab-4698-bb4e-1c353fcbbafe
+:END:
+#+title: zlib (compression library)
+* [[id:a5b155c1-d057-4510-92ef-125ad2ee4fd2][How to use zlib (indirectly) in a Haskell program in NixOS]]

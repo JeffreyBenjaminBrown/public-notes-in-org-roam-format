@@ -1,0 +1,85 @@
+:PROPERTIES:
+:ID:       a10a04e8-5b2b-4f75-93ec-f1d2082f2a3c
+:ROAM_ALIASES: "parentheses in Emacs" "brackets in Emacs"
+:END:
+#+title: sexp and list navigation commands in Emacs
+* ref
+  https://ftp.gnu.org/old-gnu/Manuals/emacs-20.7/html_node/emacs_242.html
+* PITFALL: Depends on the syntax table
+  So, e.g., in org-mode it might not work,
+  whereas in lisp mode it does,
+  over the same text.
+* Brackets, parentheses and quotation marks may be treated the same
+  It depends on the syntax table,
+  but they usually seem to be.
+* commands
+** there are a few more
+   To kill sexps forward and backward,
+   and to "Put mark after following expression (mark-sexp)".
+** C-M-u and C-M-d: out / in
+   Up and backward into nearest containing parenthetical,
+   or down and forward into first contained parenthetical.
+** C-M-b and C-M-f: back and forth, inclusive
+   Within the current parenthetical,
+   move forward or backward across items,
+   be they parenthetical or atomic.
+** C-M-p and C-M-n: back and forth, only parens
+   Within the current parenthetical,
+   move forward or backward across contained parentheticals.
+   This is like C-M-(b|f) but skipping all atoms.
+** C-M-t : transpose (atoms?)
+*** This transposes whole symbols,
+    rather than splitting on underscores,
+    which is useful.
+*** Strangely, this seems to transpose delimiters
+    as if they were any other symbol,
+    which doesn't seem useful.
+* playground -- test the commands here
+  [ a b_c + d 0
+      [ a b_c + d 1
+          [ a b_c + d 2 ]
+          [ b_c a + d 3 ]
+          [ a b_c + d 4 ]
+          a b_c + d 5 ]
+      [ a b_c + d
+          [ a b_c + d ]
+          [ a b_c + d ]
+          [ a b_c + d ]
+          a b_c + d ]
+      a b_c + d ]
+  ( a b_c + d
+      ( a b_c + d
+          ( a b_c + d )
+          ( a b_c + d )
+          ( a b_c + d )
+          a b_c + d )
+      ( a b_c + d
+          ( a b_c + d )
+          ( a b_c + d )
+          ( a b_c + d )
+          a b_c + d )
+      a b_c + d )
+  ( a b_c + d
+      ( a b_c + d
+          ( a b_c + d )
+          ( a b_c + d )
+          ( a b_c + d )
+          a b_c + d )
+      ( a b_c + d
+          ( a b_c + d )
+          ( a b_c + d )
+          ( a b_c + d )
+          a b_c + d )
+      a b_c + d )
+  ( a b_c + d
+      ( a b_c + d
+          ( a b_c + d )
+          ( a b_c + d )
+          ( a b_c + d )
+          a b_c + d )
+      ( a b_c + d
+          ( a b_c + d )
+          ( a b_c + d )
+          ( a b_c + d )
+          a b_c + d )
+      a b_c + d )

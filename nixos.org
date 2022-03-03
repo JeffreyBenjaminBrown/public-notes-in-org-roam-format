@@ -2,6 +2,13 @@
 :ID:       ddb8edf6-94c8-49cf-8b8e-872ef301a485
 :END:
 #+TITLE: NixOS (operating system)
+* REFERENCES
+** interactive help
+*** from bash
+    nixos-option
+*** from the nix repl
+    :?
+** http://nix.dev
 * TODO fix my dependencies in jbb-config/custom-packages
   Because things change in Nixos 21.05:
   https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-21.05
@@ -28,6 +35,7 @@
     "so that unknown arguments are ignored".
 * [[id:52b7a722-8591-4f9b-a290-cccd1639e565][NixOS packages: create, build, install, publish]]
 * [[id:48cdd2bf-b45b-44a7-b7f8-43cbf73fa7b8][NixOS, my config]]
+* [[id:80760d51-8ae0-4870-9d1d-8c16257c3eee][NixOS, programming in]]
 * [[id:17e1cea2-480d-4cda-ad7c-ffbb7f5c3989][NixOS, reconfiguring]]
 * [[id:f2f429b7-c918-4421-a186-b0ab272ca0e2][audio in NixOS]]
   music, sound
@@ -43,13 +51,6 @@
     # keep the last week
   sudo nix-collect-garbage -d
     # keep only latest config
-* REFERENCES
-** interactive help
-*** from bash
-    nixos-option
-*** from the nix repl
-    :?
-** http://nix.dev
 * How to figure out (from within NixOS) which boot config got me here.
   https://www.reddit.com/r/NixOS/comments/lknn4k/how_to_know_which_boot_config_i_am_on_why_is_all/
 ** find the derivation folder
@@ -80,8 +81,8 @@ lrwxrwxrwx 1 root root 88 feb 15 16:57 no_intero_and_musnix_06eaf399-1-link -> /
   :ID:       ad75b405-4c5c-4bd3-a472-e6e8f3ddbfba
   :END:
 ** I was given advice here
-https://discourse.nixos.org/t/my-first-overlay-for-emacs/7570/2
-but still couldn't figure it out.
+   https://discourse.nixos.org/t/my-first-overlay-for-emacs/7570/2
+   but still couldn't figure it out.
 * user ID problems
 ** changing user ID in NixOS is complicated
 *** because it won't let you change the ID of an existing user
@@ -208,22 +209,22 @@ on NixOS it's 1001. This creates permissions problems.
  But that too can be changed, with a "global override".
 * configuring Emacs
 ** guidance
-https://www.reddit.com/r/NixOS/comments/ad6miw/building_an_emacs_configuration_using_nixpkg/
-https://nixos.org/nixpkgs/manual/#sec-emacs
+   https://www.reddit.com/r/NixOS/comments/ad6miw/building_an_emacs_configuration_using_nixpkg/
+   https://nixos.org/nixpkgs/manual/#sec-emacs
 ** overlays -- better than one config.nix blob?
-https://www.reddit.com/r/NixOS/comments/9swtg3/do_you_put_all_packages_you_install_into/e8s4u9f/
+   https://www.reddit.com/r/NixOS/comments/9swtg3/do_you_put_all_packages_you_install_into/e8s4u9f/
 ** some peoples' configs
-https://github.com/tazjin/nixos-config
-https://github.com/telent/config-nixpkgs
+   https://github.com/tazjin/nixos-config
+   https://github.com/telent/config-nixpkgs
 * how to use a device without root privileges
-Suppose some command gives an error like "failed to open /dev/ttyUSB0"
-when run normally, but not when run as root.
-Then check what group that device (in this case, /dev/ttyUSB0) belongs to,
-and add that to `users.users.jeff.extraGroups`
-(where `jeff` is the user who should have the privilege),
-and log out and back in.
-* ambitious
+  Suppose some command gives an error like "failed to open /dev/ttyUSB0"
+  when run normally, but not when run as root.
+  Then check what group that device (in this case, /dev/ttyUSB0) belongs to,
+  and add that to `users.users.jeff.extraGroups`
+  (where `jeff` is the user who should have the privilege),
+  and log out and back in.
+* ambitious, described in NixOS manual
 ** TODO put NextCloud on the Rapsberry
- chapter 15 in NixOS manual.
- There's also TaskServer, for todo lists,
-   GitLab,
+   chapter 15 in NixOS manual.
+** TaskServer, for todo lists
+** GitLab

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       ae713b0d-f687-4d52-ad67-64c777e64d58
+:END:
+#+title: The market for printers seems broken.
+* reasons
+** Printers are artificially cheap, because manufacturers recoup that money with the printer cartridges.
+** The cartriges are rife with DRM and other incompatibilities, and cost far more than they should.
+** Consumers are prevented from making their own refills, which is absurdly cheap (and still feasible, if you can stand a few Youtube tutorials).
+** Nobody enters the market with a printer that costs what it should and lets you do whatever you want with it -- presumably, because consumers are too dumb/time-poor to reward the venture.
