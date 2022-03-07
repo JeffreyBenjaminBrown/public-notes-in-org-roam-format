@@ -4,6 +4,7 @@
 #+title: microtonal guitar
 * [[id:f442a707-fece-493a-acb6-7b1e36ee094d][microtonal Chapman Stick]]
 * [[id:d241a1c3-2a83-4134-89c6-c85b2ed6a51c][fret markers, my preferred system of]]
+* asking about a [[id:dd479d38-c686-4ad4-8a05-bc26c18125e7][custom 58-edo tapping instrument]]
 * TODO logarithmic isomorphic fret markings
 ** the question
    What isomorphic fret marking pattern makes it easy to identify intervals of 2, 4, 8, 16, etc. frets, without being hard to see? (Another base would be fine too.)

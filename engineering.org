@@ -3,3 +3,4 @@
 :END:
 #+title: engineering
 * [[id:eddb757b-52df-4214-86e3-2fca4953e2be][shade balls and resevoirs]]
+* [[id:12364cd8-bc33-482b-84ca-0df360d428c3][a giant marble quarry]]

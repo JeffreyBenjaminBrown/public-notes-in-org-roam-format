@@ -41,7 +41,6 @@
 * how to estimate (e.g. duration)
   Estimation (e.g. of duration) is best done via indepedent chunks, rather than a wholistic intuition. (per Daniel Kahneman)
   Then subdivide a different way and estimate again. (per some guy quoted by Steve Levitt in his podcast interview with DK in 2021).
-* I wrote down some [[id:4e3cfc01-d528-49d9-bf3d-858c1979d71c][Microsoft Teams shortcuts]].
 * coding
 ** re. choosing type names
    make sure they are sufficiently complete.

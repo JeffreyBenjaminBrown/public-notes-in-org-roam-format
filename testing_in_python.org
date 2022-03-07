@@ -1,13 +1,20 @@
 :PROPERTIES:
 :ID:       74d6d7d1-7749-4d60-925d-43958fcd3ee3
+:ROAM_ALIASES: pytest
 :END:
 #+title: testing in Python
 * using pytest for programs that import other local programs
-  Put a line like this before any local import statements:
-
-  import sys
-  sys.path.insert(0, '.') # assuming pytest is run from the top of the project, this
-                          # allows local ("python.something.something") imports to work
+** Put a passage like this before any local import statements:
+   import sys
+   sys.path.insert(0, '.')
+     # assuming pytest is run from the top of the project, this
+     # allows local ("python.something.something") imports to work
+** then test as normal
+   i.e. run "bash$ pytest src/path/to/testfile.py"
+   on a function with tests that look like
+   def test_something():
+     # PITFALL: The function must start with "test".
+     assert True
 * the Magic Mock library for Python
   :PROPERTIES:
   :ID:       3994c66b-b37c-4450-8314-07f98a6c2d7c

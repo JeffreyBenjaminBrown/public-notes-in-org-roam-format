@@ -3,3 +3,4 @@
 :END:
 #+title: learning and thinking
 * [[id:dde6522f-6bd1-489b-bd82-5c3315f54ca6][How to think using spaced repetition.]]
+* Why and how to [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult your notes]].

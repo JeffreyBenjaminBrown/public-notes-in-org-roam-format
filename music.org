@@ -5,6 +5,7 @@
 * TODO Could you merge 4 launchpads?
   Some of them are velocity-sensitive.
   All of them have RGB leds.
+* [[id:0fb050fc-28b8-48a6-914b-6d5970490d46][microtonal guitar]]
 * [[id:de30e8da-4c6f-4638-b063-45fb20eb3255][latencytop: a Linux latency monitoring tool]]
 * [[id:bfa54465-b028-4ba9-81f2-92984bdba8f8][dense syllables: a spoken notation for music]]
 * [[id:dd7017ff-63a5-4014-887b-81cc4820940c][drum triggers, electric]]

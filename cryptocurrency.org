@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       71f10a68-23b7-4847-b02d-a5da42696337
+:END:
+#+title: cryptocurrency
+* [[id:1a5f292c-57fd-44e0-a3b0-795c0486b873][A forked internet would cause blockchain problems.]]

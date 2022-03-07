@@ -1,0 +1,80 @@
+:PROPERTIES:
+:ID:       dd479d38-c686-4ad4-8a05-bc26c18125e7
+:END:
+#+title: 58-edo tapping instrument proposal
+* qualitative specs
+  = introductory email I've been sending to luthiers
+** title
+Custom instrument: 29 frets per octave, 13 strings, open strings spanning 3 octaves
+** body
+Hi,
+
+I'm looking for someone who can make a long-scale (maybe 36"?) electric tapping instrument with 13 strings and 29 frets per octave (so 58 frets total across two octaves). It would be tuned in minor thirds, and the open strings would span three octaves, roughly from a low bass C# to a high guitar C#.
+
+I'd like a uniform tuning, such that the lowest string is closest to my face and the highest string is farthest away. That might seem obvious, but I say it because I don't want a Chapman Stick-style tuning, which divides the strings into two groups and puts the lowest string from both groups in the middle of the instrument.
+
+Ideally, the instrument would be extremely multiscale -- say, 36" on the long side, and 24" on the short one. (I realize such an extreme range of scale lengths would be ridiculous for a plucked instrument, but is there any reason it wouldn't work on a tapping instrument?)
+
+Could you build that, or something close to it? If so, what would you charge, and by when could I expect it to reach Los Angeles?
+
+Thank you,
+Jeff
+** specifications
+ Thanks for your quick response, Jeff.
+
+ After emailing you I realized I'd like the instrument to be extremely multiscale -- say, 24" on the short side and 36" on the long side. (Fanning the frets that much would make a plucked instrument difficult to play, but it seems -- please correct me if I'm wrong -- perfectly reasonable on a tapping instrument.)
+
+ If you can fan the frets that way, I'd like it to have 14 strings rather than 13, tuned from a low C to a high E, and for the neck to be 4.5" wide. If multiscale is a no-go, then I'd like the 13 strings I initially specified, tuned C# to C#, and a 4.25" neck.
+
+ I'd like two sockets on the back of the instrument for attachments. At about belt-height, I'd like a socket that allows me to screw a belt hook into the wood. (I'll have someone here carve the belt hook.) Just before the nut (on the neck, not on the headstock) I'd like another socket, where I can screw in a piece of lether to use as a shoulder strap.
+
+ I think the guitar would sound fine with very little body. Do you agree? The neck should already be enough material to give it decent sustain, I imagine.
+
+ The neck could be made of wood or aluminum. I've heard both (the ZenTapper is an example of an aluminum tapping instrument) and they both sound good to me. If it's wooden, I think it will need two truss rods. (The 12-string Chapman Stick, which is narrower (3.75") and under less tension, requires two truss rods.) If it's wooden, I'll defer to your judgment on the kind of wood.
+
+ I'll also defer to your judgment on what kind of pickups to use. I'll need four of them -- bridge treble, bridge bass, neck treble and neck bass -- and a stiff volume knob for each pickup. (Stiff knobs because I'll probably find a setting I like and leave them there, so it's better if they don't move when bumped accidentally.) I won't need tone controls.
+
+ Have I left anything unspecified?
+
+ Thanks for your time,
+ Jeff
+** PS: Colombian phone number
+PS Your input form appears not to accept international numbers. I live in Colombia, and my number is +57 350 597 5671. (I would pick the instrument up in LA, though, as shipping it straight here incurs outrageous fees and taxes.)
+*
+* quantitative specs
+** multiscale dimensions, fret placement
+*** derivation
+    For some value of u,
+    the strings are 2*u long on the short side,
+    3*u on the long side (u = "unit").
+    The frets span 3/4 u of the strings.
+    That means they span 3/2 u on the short side, 9/4 u on the long side.
+    The frets should fan evenly in both directions,
+    so  the center of the short side of the frets is 3/4 from the nut,
+    and the center of the long  side of the frets is 9/8 from the nut.
+*** result
+    Now replacing u with 12", we get:
+    Strings are 24" and 36" long on the long and short sides.
+    Frets span 18" on the short side, 27" on the long side.
+    The center of the short side of the frets is 9"    from the nut,
+    The center of the long  side of the frets is 13.5" from the nut.
+** where things are
+*** an image
+    [[../images/22-03-06-Kg94G3Um.extreme-fanned-fret-guitar.jpb]]
+*** accompanying text
+Here's what I'm imagining.
+
+f2 is the highest fret, the 58th, at the second octave. The frets fan symmetrically, so that the nut and f2 are mirror images of each other.
+
+f1 probably does not actually exist. It's where a fret *would* be pefectly perpendicular to the neck, and lies exactly halfway between the nut and f2. I probably shouldn't even have drawn it, and specified instead that from the nut to f2 is 18" on the short side and 27" on the long side.
+
+The other frets I've drawn are not to scale; they're just there to distinguish the fretted area from the pickup area. I haven't drawn any wood beyond the saddle because I don't know whether there should be any; you would know better than I. I'd like the neck to be 4.5" across everywhere, rather than getting thicker nearer the pickups, but maybe you can explain to me why I should prefer otherwise.
+
+On the headstock, the tuners are mostly on the side closer to my face. Some of them can be on the other side, but the region marked "free" should have no tuners, so that my left hand can slide all the way up the neck unobstructed by tuning pegs. I drew it triangular for no good reason; it should be round or square or something else, whatever shape you think is best.
+
+I've only indicated roughly where the two sockets are. They're both the same -- nuts that will accept a 3/16" screw. The socket near the pickups, for the belt hook, is on the back, aligned with the instrument's long central axis. The socket near the nut, for the shoulder loop, is closer to my face. I don't know whether it should be on the back of the neck or on the side. Vertically I'm not sure where to put either socket, because I don't know how high my shoulder or my belt would be on this instrument. (I'm 6 feet 3 inches tall.)
+* discarded passages
+** body pieces -- nah
+If it's feasible, I'd like two pieces of metal that can fold out to rest against my legs in the shape of a guitar. If that's not feasible, two fixed wooden outlines would do the trick -- something similar to the Yamaha SLG200N NT: https://www.amazon.com/Yamaha-SLG200N-String-Silent-Natural/dp/B0130VZVNQ. (The Yamaha design is not ideal, in that there's a piece of wood that joins the top side of the neck where there are frets. I'd prefer to leave all the frets unobstructed. If that design wouldn't be solid enough, I'd actually prefer the wood to stick into the fretboard on the other side, because my right hand will be playing closer to the pickups, and my left and closer to the nut.) Please make those body pieces as thick as necessary to keep them safe, because I'll probably bump the guitar into stuff.
+** how I play -- doesn't matter
+I play classical style, with the guitar between my legs rather than on top of the right one. I hold the neck extremely vertically (like Greg Howard, the guy in this picture: http://stick.com/instruments/grand/).

@@ -1520,6 +1520,18 @@ the familiar septimal tritone (7:5)
 * 41-edo
 ** Kite: 41 13 2
 ** Narrow Kite: 41 11 2
+** Bosanquet: 41 7 3. Slightly more* compact, much easier 5-limit
+   *just 1 row more compact than my usual 8\41 x 1\41 layout
+
+   0  steps; 1 % 1   ; string 0 ; fret 0
+   41 steps; 2 % 1   ; string 5 ; fret 2
+   24 steps; 3 % 2   ; string 3 ; fret 1
+   13 steps; 5 % 4   ; string 1 ; fret 2
+   33 steps; 7 % 4   ; string 3 ; fret 4
+   7  steps; 9 % 8   ; string 1 ; fret 0
+   19 steps; 11 % 8  ; string 1 ; fret 4
+   29 steps; 13 % 8  ; string 2 ; fret 5
+   37 steps; 15 % 8  ; string 4 ; fret 3
 ** Edo 41 ; StringGap 11 ; FretGap 3
    Frets are 88c apart.
         [  0 steps;  1 % 1 ; string 0 ; fret 0

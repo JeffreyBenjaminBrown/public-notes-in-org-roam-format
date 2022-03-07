@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       c35ab968-7056-40fa-8816-ea16d5c88f6d
 :END:
-#+title: science (and nearby fields)
+#+title: science and nearby fields
 * [[id:5a9e5a9f-8e1b-4487-ba1d-51692d73dd89][astronomy]]
 * [[id:9229a918-375c-4e1b-b775-bf5da596a371][engineering]]
 * [[id:974d25f4-56a0-4dd9-a066-7790dd40d0f7][biology]]

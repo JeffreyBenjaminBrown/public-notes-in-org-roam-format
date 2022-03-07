@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       fb2db6b4-9c17-4c58-941c-e65de8ce213b
+:END:
+#+title: facial recognition for soldiers in the Ukraine-Russia war
+* the idea
+  Let Russian moms upload photos,
+  use facial recognition to see whether
+  their sons are among the dead or captured.
+  Protects POW privacy, which is part of the Geneva Convention.
+* I posted it to Hacker News
+  https://news.ycombinator.com/item?id=30555351
