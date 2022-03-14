@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       14425786-4f89-4fc3-8bf7-9c31ccaba025
+:END:
+#+title: Linked data facilitates writing flashcards.
+The trick is to write a note as normal,
+and then make the "flashcard" (in another document)
+a simple link to it -- but without stating the title.
+The flashcard states a question
+to which the answer is the title of the note.

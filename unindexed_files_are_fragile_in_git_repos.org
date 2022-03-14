@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       6e66c817-c802-4b37-9467-4bfa61f3965b
+:END:
+#+title: Unindexed files are fragile in Git repos.
+It's dangerous to leave files I want in a clone of a git repo without adding them to the repo.
+That's because I might copy a file of the same name into the folder from elsewhere.

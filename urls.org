@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       0ce8bf41-83b4-4cac-b523-96e548ca20fa
+:END:
+#+title: URLs
+* "query parameters" in URLs
+  :PROPERTIES:
+  :ID:       3b573192-daa3-48f5-81fc-9f0b97100d78
+  :END:
+  are the key-value pairs, separated by `&`, that appear after the `?`
+** an example of a URL with query parameters
+   http://example.com/path?name=Branch&products=[Journeys,Email,Universal%20Ads]

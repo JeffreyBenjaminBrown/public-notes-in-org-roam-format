@@ -1,0 +1,70 @@
+:PROPERTIES:
+:ID:       2cef696d-5d06-4b95-b22f-94bf819e4f68
+:ROAM_ALIASES: "Microspec (Haskell library)"
+:END:
+#+title: QuickCheck (Haskell library)
+* Microspec is a subset of Quickcheck
+  :PROPERTIES:
+  :ID:       d7d1797d-b5d5-4e46-acdf-b4a490946e9a
+  :END:
+* very basic demo code
+** in a repo on my hard drive
+   [[/home/jeff/code/mlabs-entrance-exam/src/Learning/Microspec.hs]]
+   If that's not there, check the `master` branch.
+** the code, duplicated here
+   module Learning.Microspec where
+
+   import Test.Microspec
+   import Text.Pretty.Simple (pPrint)
+
+
+   data Tree a
+     = Leaf a
+     | Tree a (Tree a) (Tree a)
+     deriving (Show, Functor, Foldable, Traversable)
+   makeBaseFunctor ''Tree
+
+   instance Arbitrary a => Arbitrary (Tree a) where
+     -- PITFALL: Nothing forces these to be finite.
+     -- Should that prove to be a problem, use
+     -- Test.QuickCheck.Gen.sized.
+     arbitrary = do
+       a  :: a      <- arbitrary
+       c  :: Int    <- choose (0, 1) -- chooses an int in that range
+       s1 :: Tree a <- arbitrary
+       s2 :: Tree a <- arbitrary
+       return $ if c == 0
+		then Leaf a
+		else Tree a s1 s2
+
+   prop_OneMoreNodeThanEdges :: Tree Int -> Bool
+   prop_OneMoreNodeThanEdges tree =
+     nodes tree == edges tree + 1
+
+   printRandomTree :: IO ()
+   printRandomTree =
+     generate (arbitrary :: Gen (Tree Int) ) >>= pPrint
+
+   test :: IO ()
+   test = quickCheck $ do
+     prop_OneMoreNodeThanEdges
+* to control the size of randomly generated things
+  See my beautiful [[id:a57d61d6-fd19-453c-b165-cbc0f3b5e4d7][MLabs entrance exam]]
+* tests don't need to be described
+** These are all equivalent
+   quickCheck $ do
+     prop_1
+     prop_2
+   quickCheck $ do
+     describe "Walks like a duck"  prop_1
+     describe "Quacks like a duck" prop_2
+* test descriptions can nest
+  In fact tests can nest without descriptions too,
+  but there's not much reason to do that.
+
+  quickCheck $ do
+    describe "Duck properties" $ do
+      describe "Walks like a duck"  prop_1
+      describe "Quacks like a duck" prop_2
+    describe "Cow properties" $ do
+      ...

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       bfd0e1a8-c16b-4178-b148-c81387e4c36d
+:END:
+#+title: Soy Sushi (restaurant in Paulo VI, Bogotá, Colombia)
+* the menu
+  https://soysushi.com.co/menu-digital/
+* some dishes
+** we tried
+*** soy unagi (roll)
+*** soy kani (roll)
+*** ceviche de nikkei
+*** salteado nikkei (rice)
+** looked good
+*** soy fusion (roll)

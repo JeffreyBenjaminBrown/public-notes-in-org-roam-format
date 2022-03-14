@@ -69,6 +69,11 @@
 https://docs.djangoproject.com/en/3.0/topics/class-based-views/
 ** my project
  ~/code/aws/python-web-app
+* [[id:bf63184d-8aa4-4942-8e61-cecee98337d3][paths in Django]]
+* requests in Django
+** a way to extract a value from a GET or POST in Django
+   q = request.GET .get("key", <default value>)
+   q = request.POST.get("key", <default value>)
 * models
 ** get a list of all models
 from django.db import connection

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       18d42a2e-0b4b-4269-8df7-58ddc12a9e18
+:END:
+#+title: DynoMight (blog)
+* [[id:05813e14-fecd-42d8-946e-2ae8ce0ac150][DynoMight (website) summarizing Sapiens (book).]]
+* [[id:4cb72658-2d91-4450-8bd5-54e04d3de051][Some ideas on networking minds from DynoMight.]]

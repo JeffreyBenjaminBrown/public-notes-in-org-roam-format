@@ -4,3 +4,4 @@
 #+title: restaurants
 * [[id:6c80a13f-b198-4827-b613-622a8cc689a3][Curry Masala (restaurant in Parkway, Bogotá, Colombia)]]
 * [[id:9617bd25-c221-4fa7-87fe-3f85e6d72c58][Burgett (restaurant in Paulo VI, Bogotá, Colombia)]]
+* [[id:bfd0e1a8-c16b-4178-b148-c81387e4c36d][Soy Sushi (restaurant in Paulo VI, Bogotá, Colombia)]]

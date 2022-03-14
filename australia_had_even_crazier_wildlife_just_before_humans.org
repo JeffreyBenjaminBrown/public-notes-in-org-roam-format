@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       21c0316a-09ad-4525-827d-420295ae515e
+:END:
+#+title: Australia had even crazier wildlife just before humans.
+* "Before Sapiens, there were giant birds, lizards that looked like dragons, and kangaroos and wombats that weighed more than 2 tons. Within a few thousand years [after humans arrived], 23/24 Australian animals that weight 50kg or more were extinct."
+* Theories of how it happened.
+** hunting
+** Intentional burning of forests.
+   "Maybe humans transformed the environment using fire agriculture. It was common to burn forests to create grasslands– much better for hunting. Eucalyptus trees are robust to fire. These were rare before Sapiens came, but common after."
+** The concurrent climate change may have mattered.
+   Note that the ocean life around Australia seems to have been unaffected by that climate change.

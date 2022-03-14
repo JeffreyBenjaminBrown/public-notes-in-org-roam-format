@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       630d6a2f-fe2a-48b7-9f4d-b97b56e50a1d
+:END:
+#+title: places
+* [[id:21315fc0-4be0-4a0d-ae90-68668126c781][Australia]]

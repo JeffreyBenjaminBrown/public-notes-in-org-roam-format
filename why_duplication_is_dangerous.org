@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       dbdc84fc-7cb4-4fa9-99e9-0b8b8f3f8de2
+:END:
+#+title: Why duplication is dangerous.
+* How I lost 2 days of work to a duplication mistake.
+  If two functions look very similar,
+  that should smell bad for yet another reason:
+  Once I'm using one of them and not the other,
+  I might edit the other (unused) one thinking I'm editing the one in use.
+  Then when it doesn't work, I'll look for a solution elsewhere at length.

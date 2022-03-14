@@ -4,5 +4,6 @@
 #+title: things I like
 * [[id:de98c3eb-27ba-4a51-9875-9af3c6e2c2dd][beautiful things]]
 * [[id:0591e33a-f3b2-414a-ac40-c3071348758d][funny things]]
+* [[id:4017c25d-ec4d-4f41-aaed-e3be02dba620][weird things]]
 * [[id:c35ab968-7056-40fa-8816-ea16d5c88f6d][science]]
 * [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]

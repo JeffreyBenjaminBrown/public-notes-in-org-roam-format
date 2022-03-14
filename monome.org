@@ -142,3 +142,5 @@ In your response you list the phases, but you omit the bracketed expressions. Wh
  I installed some things (libuv and libmonome) via `nix-env -f ~/nix/nixpkgs -iA <package name>`. They still work after rebuilding.
 ** git submodule update: model code
    ~/nix/nixpkgs/pkgs/development/compilers/chez/default.nix
+* velocity sensitivity for a monome
+  https://llllllll.co/t/velocity-sensitivity-via-camera/53165/7

@@ -18,3 +18,5 @@
 ** using NixOS to test systems with networking
    https://nix.dev/tutorials/integration-testing-using-virtual-machines
 ** [[id:3994c66b-b37c-4450-8314-07f98a6c2d7c][the Magic Mock library for Python]]
+* [[id:59478b79-70e8-4422-8ed8-78a62d801a98][Make names long enough]].
+* [[id:dbdc84fc-7cb4-4fa9-99e9-0b8b8f3f8de2][Why duplication is dangerous.]]

@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       bf63184d-8aa4-4942-8e61-cecee98337d3
+:ROAM_ALIASES: "Django, paths in"
+:END:
+#+title: paths in Django
+* see also
+  how to [[id:1d25cc44-e954-4549-a692-2236eff7b17c][add a hidden key-value pair to an HTML form]]
+* PITFALL: `reverse` and `urlpatterns` work together
+** sample code
+   from   django.urls import reverse
+   HttpResponseRedirect (
+      reverse ( # This constructs the URL
+        "run_make:thank-for-spec",
+        kwargs = {
+          "user_email" : user_email,
+          "subsample"  : subsample,
+      } )
+   )
+** It only works if there's a corresponding entry in urls.py
+   For instance, this would let it work:
+
+   urlpatterns = [
+     path( 'thank-for-spec/<subsample>/<user_email>',
+       views.thank_for_spec,
+       name='thank-for-spec'),
+     ... ]
+** The resulting URL has none of the keywords.
+   But I'm guessing it worries about whether they appear in urls.py.
+** Happily, order of the dictionary seems not to matter.
+* how to pass [[id:3b573192-daa3-48f5-81fc-9f0b97100d78][query parameters]] in Django's `render`
+  return render ( request,
+                  "run_make/thank_for_spec.html",
+                  { "subsample" : subsample,
+                    "user_email" :  user_email,
+                   } )

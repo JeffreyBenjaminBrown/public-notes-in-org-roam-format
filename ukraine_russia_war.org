@@ -2,5 +2,9 @@
 :ID:       6d54a4b2-3dac-4a3e-b349-451e9deb0197
 :END:
 #+title: Ukraine-Russia war
-* [[id:fb2db6b4-9c17-4c58-941c-e65de8ce213b][facial recognition for soldiers in the Ukraine-Russia war]]
+* [[id:d5105ef9-a806-4446-9593-a892379c4203][Maksym]] rec's the Facebook page of a priest in Mariupol
+  https://www.facebook.com/maksym.ivanyna/posts/10166517274295436
+** he describes it
+   "For anyone who'd like to see the real implications of this atrocious and pointless war, I suggest checking the FB account of Serhiy Gorobcov (link below), an orthodox priest in the besieged city of Mariupol. Dead civilians right on the street, mass graves, shelling of residential areas and even maternity hospitals, including from fighter jets."
+* an idea that might help: [[id:fb2db6b4-9c17-4c58-941c-e65de8ce213b][facial recognition for soldiers in the Ukraine-Russia war]]
 * [[id:a37a1cac-c151-468f-b17b-2d3cce78579c][Putin's imperialist speech just before he invaded Ukraine]]

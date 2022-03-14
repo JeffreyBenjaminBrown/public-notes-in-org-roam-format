@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d0d72bb0-f308-4fa0-9e7f-e0d78a22b118
+:END:
+#+title: Make git diffs readable by including empty lines.
+Because when you change one paragraph,
+the changes will not bleed into changes of the next paragraph;
+the unchanged empty line continues to separate them.

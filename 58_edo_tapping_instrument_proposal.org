@@ -60,7 +60,7 @@ PS Your input form appears not to accept international numbers. I live in Colomb
     The center of the long  side of the frets is 13.5" from the nut.
 ** where things are
 *** an image
-    [[../images/22-03-06-Kg94G3Um.extreme-fanned-fret-guitar.jpb]]
+    [[../images/22-03-06-Kg94G3Um.extreme-fanned-fret-guitar.jpg]]
 *** accompanying text
 Here's what I'm imagining.
 
@@ -78,3 +78,4 @@ I've only indicated roughly where the two sockets are. They're both the same -- 
 If it's feasible, I'd like two pieces of metal that can fold out to rest against my legs in the shape of a guitar. If that's not feasible, two fixed wooden outlines would do the trick -- something similar to the Yamaha SLG200N NT: https://www.amazon.com/Yamaha-SLG200N-String-Silent-Natural/dp/B0130VZVNQ. (The Yamaha design is not ideal, in that there's a piece of wood that joins the top side of the neck where there are frets. I'd prefer to leave all the frets unobstructed. If that design wouldn't be solid enough, I'd actually prefer the wood to stick into the fretboard on the other side, because my right hand will be playing closer to the pickups, and my left and closer to the nut.) Please make those body pieces as thick as necessary to keep them safe, because I'll probably bump the guitar into stuff.
 ** how I play -- doesn't matter
 I play classical style, with the guitar between my legs rather than on top of the right one. I hold the neck extremely vertically (like Greg Howard, the guy in this picture: http://stick.com/instruments/grand/).
+* Halo Guitars [[id:d7bfe67a-796a-4960-bdb0-4db471f2c0c4][estimated it would cost $7K USD]]

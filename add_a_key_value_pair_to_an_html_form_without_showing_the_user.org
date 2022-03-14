@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       1d25cc44-e954-4549-a692-2236eff7b17c
+:END:
+#+title: add a key-value pair to an HTML form without showing the user
+* the code
+  <input type="hidden" name="subsample" value="1" />
+* the idea
+  Most of the form's inputs will be of types like "radio",
+  i.e. UI elements.
+  The "hidden" input just adds a key-value pair to the form,
+  without even letting the user know.

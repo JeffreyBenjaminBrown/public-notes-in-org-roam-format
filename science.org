@@ -5,6 +5,8 @@
 * [[id:5a9e5a9f-8e1b-4487-ba1d-51692d73dd89][astronomy]]
 * [[id:9229a918-375c-4e1b-b775-bf5da596a371][engineering]]
 * [[id:974d25f4-56a0-4dd9-a066-7790dd40d0f7][biology]]
+** [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
 * [[id:001d7913-c431-461c-92ae-a6a39394856c][computer science]]
 * [[id:c563e6be-631d-4f23-923d-050498334e2a][mathematics]]
 * [[id:3570b8e0-1c1b-482c-bbb1-18c0151e2e4f][political science]]
+* [[id:b31e0b2c-9bce-428a-b96f-832d0ea1e6e7][paleontology]]

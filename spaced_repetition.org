@@ -3,68 +3,46 @@
 :ROAM_ALIASES: remember memory internalize
 :END:
 #+title: spaced repetition
-* TODO ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
-* [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult my notes]]
-* Organizing my notes on money felt good.
-  I had procrastinated it maybe mainly because I thought it wouldn't.
-  And of course the procrastination felt bad.
-* Use my "prefix-date-uri" script.
-  Prefix all non-org non-VC documents with that,
-  and never change their names,
-  so I can index to them in the graph in many places
-  and always search my disk for them.
-* In Emacs, [[id:73882d3f-fe8a-437c-964c-c34144cca759][`C-x space` is a better way to delineate rectangles.]]
-* It's better to call someone than have them call me.
-  If they're late to call me it's annoying.
-* I lost 2 days of work to a duplication style mistake.
-  :PROPERTIES:
-  :ID:       9b727e69-2e92-4159-9f04-68be6d40d5d6
-  :END:
-  If two functions look very similar,
-  that should smell bad for yet another reason:
-  Once I'm using one of them and not the other,
-  I might edit the other (unused) one thinking I'm editing the one in use.
-  Then when it doesn't work, I'll look for a solution elsewhere at length.
-* Ask people about their life stories, decisions
-** Normally they talk about the recent.
-* Does [[id:9ec55e32-f974-479e-8295-7d9e30156684][mindfulness]] stop pointless behaviors?
 * TODO I have a few notes like this; join them.
   search for "internalize", "spaced repetition", maybe "to learn", "remember"
-* When LCR invites me to something (e.g. with journalists).
-  Make sure I know who's coming before responding.
-* When I receive something from someone, do what?
-  Write it down,
-  because I might need to know that they can provide that.
-* why to format notes-to-learn as flashcards
-  That way I can hide the answer when reviewing,
-  which lets me know when to discard the flashcard.
-* how to estimate (e.g. duration)
-  Estimation (e.g. of duration) is best done via indepedent chunks, rather than a wholistic intuition. (per Daniel Kahneman)
-  Then subdivide a different way and estimate again. (per some guy quoted by Steve Levitt in his podcast interview with DK in 2021).
-* coding
-** re. choosing type names
-   make sure they are sufficiently complete.
-   For instance, Action turned out to be a worse name than ScAction,
-   and renaming took me like 15 minutes.
-** git hygiene
-*** what is fragile?
-     an unindexed file
-It's dangerous to leave files I want in a clone of a git repo without adding them to the repo.
- That's because I might copy a file of the same name into the folder from elsewhere.
-*** DONE make git diffs readable by doing what?
-Include empty lines where appropriate.
- Because when you change one paragraph, the changes will not bleed into changes of the next paragraph; the unchanged empty line continues to separate them.
-* macroeconomics
-** The special international status of the US dollar is not important to the US.
-   https://mail.google.com/mail/u/0/#inbox/FMfcgzGkXctVmLFSxwJThvtnzflnqFML
-*** maybe the biggest benefit
-    The dollars held outside the US do represent a 0-interest loan, which in times of high interest rates can be meaningful -- about 0.25% of GDP.
-*** some non-existent benefits
-**** The US current account deficit is less than Britain's or Australia's.
-**** The US borrows at a higher interest rate than Britain or Japan.
-**** The British pound, which was only overtaken by the US dollar in 1955 and not special at all by 1975, has only increased in value against the dollar since.
-** Countries might not give the widest coverage as units of news analysis.
-   There's something repetitive about "this country's got a tyrant ... and this other country's got a tyrant ... and here's what the tyrant over there's doing ..."
+* TODO Next, increment this number, and review based on it.
+  1
+* review odd times
+** TODO ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
+** [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult my notes]]
+** Organizing my notes on money felt good.
+   I had procrastinated it maybe mainly because I thought it wouldn't.
+   And of course the procrastination felt bad.
+** Does [[id:9ec55e32-f974-479e-8295-7d9e30156684][mindfulness]] stop pointless behaviors?
+** When I receive something from someone, do what?
+   Write it down,
+   because I might need to know that they can provide that.
+** [[id:14425786-4f89-4fc3-8bf7-9c31ccaba025][Linked data facilitates writing flashcards.]]
+** macroeconomics
+*** The special international status of the US dollar is not important to the US.
+    https://mail.google.com/mail/u/0/#inbox/FMfcgzGkXctVmLFSxwJThvtnzflnqFML
+**** maybe the biggest benefit
+     The dollars held outside the US do represent a 0-interest loan, which in times of high interest rates can be meaningful -- about 0.25% of GDP.
+**** some non-existent benefits
+***** The US current account deficit is less than Britain's or Australia's.
+***** The US borrows at a higher interest rate than Britain or Japan.
+***** The British pound, which was only overtaken by the US dollar in 1955 and not special at all by 1975, has only increased in value against the dollar since.
+*** Countries might not give the widest coverage as units of news analysis.
+    There's something repetitive about "this country's got a tyrant ... and this other country's got a tyrant ... and here's what the tyrant over there's doing ..."
+* review times equal to 2 mod 4
+** [[id:d283b6a3-205b-4a7c-9338-aa458f091691][Use my "prefix-date-uri" script.]]
+** In Emacs, [[id:73882d3f-fe8a-437c-964c-c34144cca759][`C-x space` is a better way to delineate rectangles.]]
+** It's better to call someone than have them call me.
+   If they're late to call me it's annoying.
+** When LCR invites me to something (e.g. with journalists).
+   Make sure I know who's coming before responding.
+** Ask people about their life stories, decisions
+*** Normally they talk about the recent.
+** [[id:ecfeee79-13d4-42f5-adf7-b3444c755c91][how to estimate (e.g. duration)]]
+** coding: [[id:dbdc84fc-7cb4-4fa9-99e9-0b8b8f3f8de2][Duplication is dangerous.]]
+** coding: [[id:59478b79-70e8-4422-8ed8-78a62d801a98][Make names long enough]].
+** coding: [[id:6e66c817-c802-4b37-9467-4bfa61f3965b][In git, what is fragile?]]
+** coding: [[id:d0d72bb0-f308-4fa0-9e7f-e0d78a22b118][Make git diffs readable by doing what?]]
 * reviewed, still no insight
 ** (Aspirational) mimicry can substitute for rationality.
    It's in SmSn, at id

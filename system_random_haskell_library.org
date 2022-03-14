@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       3c92b639-c552-42d7-87e2-7fd1cf560f74
+:END:
+#+title: System.Random (Haskell library)
+* use getStdGen to get a RandomGen that was initialized with a random seed when the system was started.

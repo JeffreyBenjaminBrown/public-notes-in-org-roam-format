@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       6dbed2a0-8e8c-44b6-b36c-d221c968c2cb
+:END:
+#+title: golf (sport)
+* [[id:6706e183-f6b3-42fe-823d-ab0cfcb588e5][Golf balls can kill.]] That's why people yell "Fore!"

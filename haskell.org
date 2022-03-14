@@ -27,6 +27,8 @@ loading multiple components as source. Load just one component and when you
 make changes to a dependent component then quit and reload.
 * [[id:cbd1f56f-efef-4302-b309-e21ca0c1b677][how to profile in Haskell]]
 * [[id:ffa6b210-d70c-4445-b0ed-87e3c6da00a7][To use a different version of GHC in Nix]]
+* testing in Haskell
+** [[id:2cef696d-5d06-4b95-b22f-94bf819e4f68][QuickCheck and Microspec]]
 * lenses in Haskell
 ** Generate lenses for third-party libraries in Haskell
    https://ai-jobs.net/?rdt_cid=3040091042633392170
@@ -62,3 +64,6 @@ make changes to a dependent component then quit and reload.
    :ID:       e933a77d-2304-4b84-93e3-27963bad5386
    :END:
    https://fpunfold.com/2022/01/09/haskell-dp.html
+* some libraries
+** [[id:3c92b639-c552-42d7-87e2-7fd1cf560f74][System.Random (Haskell library)]]
+** [[id:2cef696d-5d06-4b95-b22f-94bf819e4f68][QuickCheck (Haskell library)]]

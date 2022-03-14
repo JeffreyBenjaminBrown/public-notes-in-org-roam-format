@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1741d476-d69f-4704-8a66-b8287419f741
+:ROAM_ALIASES: NARI
+:END:
+#+title: Inari Medical (public company, NARI)
+* what they make
+  Grippers, blood-recycling squirters, and suction gadgets for removing blood clots.
+* prospectus for further stock issuance, Mar 2022
+  https://www.sec.gov/Archives/edgar/data/1531048/000119312522071244/d292188d424b5.htm

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       4cb72658-2d91-4450-8bd5-54e04d3de051
+:END:
+#+title: Some ideas on networking minds from DynoMight.
+https://dynomight.net/2020/09/29/doing-discourse-better-stuff-i-wish-i-knew/
+* some new ways to organize fora
+** Let users edit each other's writing.
+** Easy conversation graph visualization, navigation.
+** Curated views of a conversation.
+** Allow users to sign up for the content they wish they enjoyed?
+   "Ulysses nudge"
+** Combine fora and prediction markets.
+* good things distinguishing journals from fora
+** Heavy focus on attribution.
+** Quality signals and heavy moderation.
+   "In most fields there is a fairly clear status hierarchy. The moderators (reviewers/editors) at top journals spend a lot of effort moderating, and are very picky about what they accept. This provides strong signaling for the papers that are accepted."
+** External incentives to publish in top journals.

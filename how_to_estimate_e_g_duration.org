@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ecfeee79-13d4-42f5-adf7-b3444c755c91
+:END:
+#+title: how to estimate (e.g. duration)
+* source
+  [[id:d298b383-97d1-4761-871b-3bde6bd88622][Daniel Kahneman]]?
+  Or was it someone quoted by Steve Levitt in his podcast interview with DK in 2021?
+* the idae
+  Estimation (e.g. of duration) is best done via indepedent chunks, rather than a wholistic intuition. (per Daniel Kahneman)
+  Then subdivide a different way and estimate again.
