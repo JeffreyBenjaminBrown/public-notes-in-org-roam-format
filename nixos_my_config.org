@@ -2,6 +2,16 @@
 :ID:       48cdd2bf-b45b-44a7-b7f8-43cbf73fa7b8
 :END:
 #+title: NixOS, my config
+* TODO ONGOING Redo whatever I got wrong
+  :PROPERTIES:
+  :ID:       50fa08a7-ab14-435d-9fa3-0399d32b77ff
+  :END:
+  Make the changes here:
+    git diff 1bb432fd006fe902ed52dda6991585d9c5a75e1d > diff.diff
+  to this commit
+    git checkout 1bb432fd006fe902ed52dda6991585d9c5a75e1d
+  and then replace the master branch with that stuff,
+  and rename audio-config to audio
 * PITFALL: I disabled baloo
   :PROPERTIES:
   :ID:       95ac994e-d991-4263-9fdd-d77bc13789f1

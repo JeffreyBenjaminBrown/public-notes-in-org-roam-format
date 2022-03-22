@@ -11,6 +11,8 @@
    In KDE's Settings, go to Task Switcher,
    enable Include Show Desktop Icon, save settings,
    disable it, and save settings again.
+** to remove "Plasma"     from the Task Switcher
+   Via the Task Switcher, select it, then close it (Alt-F4).
 ** to delete a network connection from KDE's Network Manager
    :PROPERTIES:
    :ID:       c81ed244-5cab-4ef7-86bf-11c351488d78

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       e2790daf-d86a-4b1b-994b-792d2ac3b3a6
+:END:
+#+title: Hypothesis (Python library for property testing)
+https://hypothesis.readthedocs.io/en/latest/

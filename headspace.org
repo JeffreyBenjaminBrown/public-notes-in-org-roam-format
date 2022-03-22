@@ -10,7 +10,7 @@
   :END:
   Better in SmSn?
 ** TODO [[id:adb23c07-cfdf-4510-8f43-b1c4b6f68c38][Hypothesis: <Person>/interests > <Person>/outbox]]
-** TODO ? After exercise i want to meditate
+** TODO ? After exercise I want to meditate
    :PROPERTIES:
    :ID:       506d431f-c5ac-486a-a7e6-6dfa6c09d69b
    :END:
@@ -39,7 +39,7 @@
     I've been fine for the four weeks since.
 *** paraphrased: "Nobody comes back changed from an amazing vacation in Hawaii. It's suffering that does that."
 **** -- David Brooks, on Tyler Cowen's podcast, circa 2019?
-** Counting words depends on what im reading
+** Counting words depends on what I'm reading
 *** If I'm really into it, I don't.
 *** I ?never do when reading my own notes.
 * Does plumbing my (recent) memory lead to less happy memories?

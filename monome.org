@@ -2,6 +2,8 @@
 :ID:       1c6c1f7e-e33c-4342-870d-9029d389f17f
 :END:
 #+title: monome
+* the monome serialosc protocol
+  https://monome.org/docs/serialosc/osc/
 * (dis)assembly
 ** PITFALL: Don't make the screws too tight
 A very slight dimpling of the board appears to be okay.

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5fe079b2-583f-45da-8e17-fc0879c4a8dc
+:END:
+#+title: introspection in Python
+* `_ .vars()` is a method resembling tab-completion.
+* `dir()` shows all local variables.
+* `@property` in Python is cool, like a lens

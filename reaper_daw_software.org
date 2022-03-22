@@ -1,0 +1,164 @@
+:PROPERTIES:
+:ID:       b2c146a9-789f-4c62-aa0e-0a6ca0e3034f
+:END:
+#+title: Reaper (DAW software)
+* questions
+** [[id:c262c184-c00a-4bdf-9565-9d32a6d33797][What is a "parent channel"?]]
+** Of these four "view modes" (for track wiring?), not all were introduced before being referred to.
+   routing matrix
+   grouping matrix	???
+   region render matrix ???
+   track wiring
+* notes from the manual
+  [[~/many-small/manuals/2022-03-15-bYxAtmjc.Reaper-manual.v6-50.pdf]]
+** TODO RESUME at page 50 (section 3, recording)
+** PITFALLs
+*** "When possible, get your project timebase settings right before you record or import any items."
+    you can still over-ride the project timebase setting for individual tracks
+** VOCAB
+*** "MCP" = "Mixer control panel"
+*** "TCP" = "Track contrl panel"
+** Settings can be backed up.
+   see "Backing up Settings"
+** Folders and file types are documented
+   see "REAPER’s Installed Folders and File Location"
+   see "REAPER File Types"
+** Surprisingly configurable
+*** settings
+**** gllobal settings that are surprisingly configurable
+***** Undo preferences
+***** Whether to automatically "load last active project"
+***** how scrolling works
+**** project settings that are surprisingly configurable
+***** time signature: beats or whole samples
+***** "timebase" for items/envelopes markers and for tempo/time sig
+***** paths
+***** "copy media on import"
+***** audio format specifications
+      e.g. bit depth for WAV files
+***** "behavior when one media item is placed on top of another"
+      "Options are for enclosed items to replace enclosing items, items always to be mixed, or for the newer item to replace older item."
+***** "feedback in routing"
+***** synchronize to external timecode
+***** "Preserve pitch when changing rate."
+***** pan law, and whether pan is stereo
+**** Notes can be attached to a project.
+*** more stuff
+**** whether the transport bar is "Dock"ed
+**** whether to report possible "audio underrun"s
+**** "Themes" and "layouts" are deep.
+     They include which controls are displayed.
+     "Layouts" might be a subcomponent of "themes".
+** the Transport Bar
+*** Show with C-M-t
+*** Record: C-r
+    Does not stop playback.
+*** Play|Stop: SPC
+*** Toggle Repeat: r
+*** Pause: Enter
+*** Stop v. Pause
+    Stop returns the cursor to where it started.
+*** Nudge left|right: C-(left|right)
+*** Play skipping loop section: M-SPC
+*** Scrubbing does not affect playback.
+    Grab the down-pointing triangle on top of the plauback mark,
+    and drag, maybe while pressing shift (depends on settings).
+** Adjusting faders
+*** Use Alt to audition changes.
+    The fader will go back to where it was afterward.
+*** Hold Ctrl for finer mouse adjustments.
+*** Scroll wheel (two-finger scroll?) also works if enabled.
+** Track controls
+*** a track's Route button
+    controls where it goes.
+    controls the volume at which it goes there.
+*** surprisingly configurable
+**** whether "metering" is pre- or post-fader
+*** adjust many tracks at once
+    Ctrl-click each relevant track control panel,
+    then adjust any to adjust all.
+*** Alt-solo to silence the soloed track's sends.
+    The alternative is "solo in place", where sends are heard too.
+** "Navigation and Zooming"
+*** C-M-(up|down) to jump tracks.
+*** lots of track display controls
+**** Press @ to "Minimise all tracks."
+**** Toggle height of all tracks between minimised, normal and maximised.
+     double-click vertical scroll bar
+*** (+|-) to zoom in|out in time
+*** Alt-arrow (all four directions) to scroll within a project
+*** mouse has four scroll|zoom modes
+**** no modifier - horizontal scroll
+**** Alt - horiz scroll
+**** Ctrl - vertical zoom
+**** C-M - vertical scroll
+** "The Navigator"
+*** C-M-v
+*** Seems to be to choose what part of the timeline the main display shows.
+*** Has cool shortcuts.
+** FX.
+*** PITFALL: Terminology: "FX" is both singular and plural.
+    (in the manual)
+*** There's a book about it.
+    ReaMix: Breaking the Barriers with REAPER
+*** "F" to open the "FX Browser"
+*** There are lots of shortcuts.
+*** FX "Chain"s can be saved.
+*** Individual FX can be "bypassed" (C-b) or "offline"d (C-M-b).
+    Offline FX consume no CPU.
+*** There are many more downloadable presets.
+    "As well as the presets supplied with REAPER, you can download further sets by visiting http://stash.reaper.fm/ and following the link to FX Preset Libraries."
+*** The default preset for an FX can be set.
+*** Whole subchains can be bypassed.
+*** "Analyzing FX Performance" is a thing.
+** Buses and routing
+*** Buses are for sharing resources among tracks.
+*** "Toggle on/off send from track to Master"
+    Hold Alt while clicking Route.
+    Works with multi-track selections too.
+*** "Create a quick send on the fly from one track to another."
+    "In TCP or MCP, drag and drop from send track ROUTE button to receive track’s.
+** "Time selection"s and "Time loop"s
+*** They can be the same thing ("linked"), or not.
+*** "Snapping" (to markers or something) is toggleable.
+*** Press "R" to toggle "Repeat".
+*** Esc to undefine the loop region.
+*** "Managing Time and Loop Selections" (modifying them)
+**** Keyboard or mouse.
+**** Their edges can be moved.
+**** They can be shifted.
+** "Jumping" permits precise changes to the focused time.
+** Editing is non-destructive.
+   Reaper does not delete files.
+** Routing
+*** A track's "Routing button" leads to its sends and receives.
+*** TODO What is a "parent channel"?
+    :PROPERTIES:
+    :ID:       c262c184-c00a-4bdf-9565-9d32a6d33797
+    :END:
+*** Per-track "playback time offset" can compensate for latency.
+*** Sends and receives can be before or after fader, pan and FX.
+    Three kinds: "Post Fader (Post Pan), Pre-Fader (Post FX) and Pre FX."
+*** Alt-R: open the "Routing Matrix"
+**** Its display can be simplified by toggling the option "Show non-standard stereo channel pairs"
+     (2,3) is an example of a nonstandard pair.
+*** see also [[id:fcdf1130-6603-4fad-8231-01959d0e1690]["Track Wiring View"]]
+** "Track Wiring View" (cool)
+   :PROPERTIES:
+   :ID:       fcdf1130-6603-4fad-8231-01959d0e1690
+   :END:
+*** shows sends, receives, media
+*** It can be "uncluttered" from the context menu.
+    Right-click to get the context menu.
+    See the options involving the word "show".
+** "Docking" and "Floating" are configurable
+** "Undo" is configurable
+*** Can choose what kinds of changes are tracked by Undo.
+*** Can save the undo history across sessions.
+*** Can "store multiple undo/redo paths".
+** Project tabs
+   Useful if need to keep multiple projects open,
+   e.g. when copying media from one to another.
+** Can configure what moves the "Play cursor"
+   see section "Managing the Play Cursor"
+** Alt-C: toggle the Big Clock

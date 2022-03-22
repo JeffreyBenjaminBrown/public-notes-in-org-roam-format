@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       8c3a9427-ea28-4d17-bb1f-c27012836646
+:END:
+#+title: Glicol (programming language for live coding music & graphs)
+https://github.com/chaosprint/glicol

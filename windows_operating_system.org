@@ -26,6 +26,7 @@
     heaviest first (at top of list).
 *** `kill`
     taskkill /F /PID <process id number>
+** line continuations on windows use ^, not \
 * viruses on Windows
 ** svcsys : a virus on Sandy's work laptop
    :PROPERTIES:

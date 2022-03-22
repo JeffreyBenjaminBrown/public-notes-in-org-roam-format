@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       b63e7d23-0866-4108-9975-0dbf16522c5d
+:ROAM_ALIASES: Axe (my synth)
+:END:
+#+title: Montevideo.Synth.Axe
+* TODO legato
+** TODO `paramToAllVoices` needs to be stifled for legato.
+* TODO The small monome needs a 90 degree rotation for SimpleVal.
+** more info
+   For Val it needs no rotation,
+   but the 90 degree rotation is much more natural
+   (if it's vertically aligned with the cable on top,
+   which is how I like it).
+** TODO document it
+** TODO make it easy to rotate the 128
+   since it forgot its rotation at least once.
+* TODO rename Choice -> WindowChoice
+* TODO add this comment to the master branch, in Montevideo/Monome/Main.hs
+              in [ ((0,6), changeWindow -- This lets us choose
+                         [ -- between the layouts in this list.
+                           -- `groupAndVal` appears twice because it's
+                           -- also something we start with.
+* Make St polymrphic in the synth?
+  That seems easier, but ugly --
+  it would be more natural if the synth was a constructor,
+  not a type.
+* Use type families?
+  to go from a param list to the synth using it,
+  or vice-versa
+* ParamGroup is a type deeply tied to ZotParam
+  It should be called ZotParamGroup.

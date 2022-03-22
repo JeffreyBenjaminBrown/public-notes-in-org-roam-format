@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       e1d277a0-0917-4794-855d-126e68c61e95
+:END:
+#+title: Ago Sushi (restaurant that sucks in Bogotá)
+Sucked.
+* contact
+** cra 26#62-09
+** on Facebook
+* menu
+  [[/home/jeff/many-small/restaurants/2022-03-20-VGEZ78ff.ago-sushi.menu]]
+* food
+** trying
+*** Kati (p3)
+    calamar
+*** Yokata (p2)
+    langostino, palmito de cangrejo en coco
+*** Ojo de Tigre (p2)
+    salman, atun, cangrejo, masago
+*** Hiroshima (p1)
+    salmon & masago
+** also looked good
+*** Tuna Tartar (p3)
+    salmon skin, cangrejo, atun
+*** Raibox (p2)
+    cangrejo, salmon, atun, white fish
+*** Spicy tuna (p1)

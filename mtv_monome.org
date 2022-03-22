@@ -20,19 +20,27 @@
 **** If I use Sound.OSC.FD I can play monome and Tidal simultaneously.
 ** Asked monome forum about velocity sensitivity via camera.
    https://llllllll.co/t/velocity-sensitivity-via-camera/53165
-** Use my 'axe' synth via the monome.
-*** Make St polymrphic in the synth?
-    That seems easier, but ugly --
-    it would be more natural if the synth was a constructor,
-    not a type.
-*** Use type families?
-    to go from a param list to the synth using it,
-    or vice-versa
-*** ParamGroup is a type deeply tied to ZotParam
-    It should be called ZotParamGroup.
+** [[id:b63e7d23-0866-4108-9975-0dbf16522c5d][Use my 'axe' synth via the monome.]]
 ** record
+   Search for "record" in, at least, Montevideo.Monome.
+   In the master branch (the one with zot, which might get renamed zot)
+   it made it as far as appearing in the list of Windows in
+   Montevideo.Monome.Main
 ** store chords
    Monome.Window.ChordBank.Bank
+* TODO mono the last voice
+  Toggle the "mono the last voice" setting.
+  Now every note changes its pitch.
+  Turning off the setting makes it end unless it's still fingered
+  (at its most recent pitch).
+* TODO shift all notes
+** idea
+   Toggle the "mono the last voice" setting.
+   The first pitch played on (say) the right keyboard
+   becomes the reference pitch. It has no audible effect.
+   Every subsequent pitch on that keyboard transposes the other one.
+** Maybe two varieties
+   One where there's no sound unless a transpose is fingered.
 * TODO It's really fun when the synth controls are useful.
   They don't have to cover the whole space, just a "useful" chunk --
   one that's diverse and consistently good.

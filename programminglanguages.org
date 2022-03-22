@@ -3,6 +3,7 @@
 :END:
 #+title: programming languages
 * with properties I like
+** [[id:8c3a9427-ea28-4d17-bb1f-c27012836646][Glicol (programming language for live coding music & graphs)]]
 ** [[id:784007e7-b851-4988-beaa-b8e4a9657357][Haskell]]
 ** [[id:3924c945-e600-453f-be00-b2fb24d65f17][Go (programming language)]]
 ** [[id:23f1e037-49c2-4fa1-acf6-a42b5703082a][Idris (programming language)]]

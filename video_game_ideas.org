@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       1159eeae-a067-4053-9185-03acce7ba548
+:END:
+#+title: video game ideas
+* Physics game: change weight while jumping, swinging
