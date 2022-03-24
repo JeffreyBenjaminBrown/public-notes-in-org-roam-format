@@ -8,6 +8,8 @@
 * the last time I reviewed
   2
 * review when time is odd
+** [[id:e17f1f19-30af-486f-b5ad-2e1a01d94407][how to prepare for coding interviews]]
+** check Javeriana calendar too when planning
 ** TODO ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 ** [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult my notes]]
 ** Organizing my notes on money felt good.

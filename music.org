@@ -2,6 +2,9 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
+* TODO composition idea: preliminary *vocal* sketches
+  Sketch the rhythm / timbre vocally before anything else.
+  Paint broad strokes before even getting into (precise) pitch.
 * TODO Could you merge 4 launchpads?
   Some of them are velocity-sensitive.
   All of them have RGB leds.

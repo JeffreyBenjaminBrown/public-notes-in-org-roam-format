@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       e17f1f19-30af-486f-b5ad-2e1a01d94407
+:END:
+#+title: how to prepare for coding interviews
+* be in shape
+** eat a good breakfast
+** get enough sleep
+** be relaxed
+   i.e. have done something relaxing recently
+* know stuff
+** review the language
+   Study the most fundamental tools in the language in question
+   folds and the fundamental typeclasses in Haskell
+** do problems
+   Get used to thinking fast about unexpected problems.
