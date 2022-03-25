@@ -8,6 +8,7 @@
 * the last time I reviewed
   2
 * review when time is odd
+** [[id:ff7ae828-8ded-4916-ae67-551d604e2382][Check name of branch before each git operation.]]
 ** [[id:1d4eee29-ba5c-4fd5-866c-2700af8f0592][Ask questions while reading.]]
 ** [[id:e17f1f19-30af-486f-b5ad-2e1a01d94407][how to prepare for coding interviews]]
 ** check Javeriana calendar too when planning

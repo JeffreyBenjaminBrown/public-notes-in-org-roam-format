@@ -2,10 +2,10 @@
 :ID:       f9ee18e9-68f2-4f10-b10d-c91186b797e3
 :END:
 #+title: Agora (shared knowledge base (protocol))
-* TODO where to find Flancian
-  https://org-roam.discourse.group/t/package-dedicated-to-workflows-publishing-digital-garden-on-web/536/28?u=jeffbrown
-  "Flancian is usually very responsive in my experience on Mastodon 1 or Twitter 1. Or the Agora room 1 on Matrix."
+* my latest problem
+  https://github.com/JeffreyBenjaminBrown/nixos-experiments/tree/agora-problems/agora-problems
 * refs
+** [[id:4d3b3efd-41a9-49a9-be5a-740d83b15ac9][Flancian, the guy who made Agora]]
 ** the Git issue I filed
    :PROPERTIES:
    :ID:       304e3d3e-f05f-424d-8eab-34fcfda408c9

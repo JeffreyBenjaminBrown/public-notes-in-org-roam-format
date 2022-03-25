@@ -2,6 +2,10 @@
 :ID:       e76bfca8-f61d-45a2-908f-bad416a7c304
 :END:
 #+title: git (version control software)
+* Check name of branch before each git operation.
+  :PROPERTIES:
+  :ID:       ff7ae828-8ded-4916-ae67-551d604e2382
+  :END:
 * git add -p
   to cherry-pick the changes in a file to commit
 * configure Git so Emacs is the default editor
