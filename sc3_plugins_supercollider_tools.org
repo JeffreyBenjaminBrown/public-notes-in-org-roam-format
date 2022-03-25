@@ -22,7 +22,7 @@
      /home/jeff/.local/share/SuperCollider/Extensions
 
      jeff@jbb-dell:Extensions$ ls -l
-     builtin-plugins -> /nix/store/aggfx5237n4w92rfjlxcdgxk0i2rwq90-supercollider-3.12.1/lib/SuperCollider
+     builtin-plugins -> /nix/store/63zqdlvglxyadh7d4njrd2dbm19swfkj-supercollider-3.12.1/lib/SuperCollider
      sc3-plugins     -> /nix/store/jfpar7cfahcc2464q3fs37pf5lmdk63n-sc3-plugins/share/SuperCollider/Extensions/SC3plugins
      sc3-plugins-so  -> /nix/store/jfpar7cfahcc2464q3fs37pf5lmdk63n-sc3-plugins/lib/SuperCollider/plugins
 **** if the `builtin-plugins` link breaks
