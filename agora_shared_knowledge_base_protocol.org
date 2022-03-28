@@ -3,7 +3,13 @@
 :END:
 #+title: Agora (shared knowledge base (protocol))
 * my latest problem
-  https://github.com/JeffreyBenjaminBrown/nixos-experiments/tree/agora-problems/agora-problems
+** refs
+*** my NixOS experiments on github
+    https://github.com/JeffreyBenjaminBrown/nixos-experiments/tree/agora-problems/agora-problems
+*** asking on the NixOS Discourse
+    https://discourse.nixos.org/t/errors-maybe-uwsgi-related-while-pip-installing-in-virtualenv/18347
+*** asking Flancian on Twitter
+    https://twitter.com/carelogic/status/1507186676078153729
 * refs
 ** [[id:4d3b3efd-41a9-49a9-be5a-740d83b15ac9][Flancian, the guy who made Agora]]
 ** the Git issue I filed
@@ -15,6 +21,8 @@
 ** The introductory node: https://anagora.org/node/agora
 ** YC: https://news.ycombinator.com/item?id=25573523
 ** [[id:22b7c16d-b4c1-4524-81c7-e42c9266880e][Asking NixOS Discourse about libmemcached]]
+* PITFALLs
+** [[id:ba84b51c-77a1-4c7b-a958-22e9183c3522][Prevent git credential validators from popping up whenever I deal with a remote on GitHub over HTTP.]]
 * TODO try it in Docker
 ** [[id:304e3d3e-f05f-424d-8eab-34fcfda408c9][the Git issue I filed]]
 ** things that didn't work

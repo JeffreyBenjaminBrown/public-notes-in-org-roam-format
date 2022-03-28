@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f7b815da-77db-4abb-9268-6f4ac7758897
+:END:
+#+title: GitHub
+* [[id:ba84b51c-77a1-4c7b-a958-22e9183c3522][Prevent git credential validators from popping up whenever I deal with a remote on GitHub over HTTP.]]

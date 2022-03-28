@@ -2,7 +2,16 @@
 :ID:       d118af57-a430-4ed5-81dc-8199677e39d8
 :END:
 #+title: mtv-monome
+* refs
+** [[id:b63e7d23-0866-4108-9975-0dbf16522c5d][Montevideo.Synth.Axe]]
 * TODO UNFINISHED
+** timbre interface
+*** presets accessible and writeable via buttons
+    :PROPERTIES:
+    :ID:       38c5b604-3a86-499f-8db2-1315093bfee2
+    :END:
+*** prime number interface for modulators
+    Really needs [[id:38c5b604-3a86-499f-8db2-1315093bfee2][presets accessible and writeable via buttons]]
 ** Use Sound.OSC.FD
 *** how
     See how Tidal does it:
@@ -20,7 +29,6 @@
 **** If I use Sound.OSC.FD I can play monome and Tidal simultaneously.
 ** Asked monome forum about velocity sensitivity via camera.
    https://llllllll.co/t/velocity-sensitivity-via-camera/53165
-** [[id:b63e7d23-0866-4108-9975-0dbf16522c5d][Use my 'axe' synth via the monome.]]
 ** record
    Search for "record" in, at least, Montevideo.Monome.
    In the master branch (the one with zot, which might get renamed zot)
@@ -28,12 +36,14 @@
    Montevideo.Monome.Main
 ** store chords
    Monome.Window.ChordBank.Bank
-* TODO mono the last voice
-  Toggle the "mono the last voice" setting.
-  Now every note changes its pitch.
-  Turning off the setting makes it end unless it's still fingered
-  (at its most recent pitch).
-* TODO shift all notes
+** legato (which is a branch)
+*** TODO `paramToAllVoices` needs to be stifled for legato.
+*** the idea
+    Toggle the "mono the last voice" setting.
+    Now every note changes its pitch.
+    Turning off the setting makes it end unless it's still fingered
+    (at its most recent pitch).
+* TODO pitch-shift all notes
 ** idea
    Toggle the "mono the last voice" setting.
    The first pitch played on (say) the right keyboard
