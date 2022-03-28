@@ -4,10 +4,7 @@
 #+title: org-roam
 * refs
 ** for help : the Discourse group
-* TODO ? org-drill does spaced repetition
-  :PROPERTIES:
-  :ID:       31c4c9f3-fb7a-4028-b84a-8406d0e91f48
-  :END:
+* TODO ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]
 * TODO search libraries for org-roam
   :PROPERTIES:

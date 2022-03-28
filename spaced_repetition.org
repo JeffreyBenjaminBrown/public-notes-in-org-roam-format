@@ -3,26 +3,28 @@
 :ROAM_ALIASES: remember memory internalize
 :END:
 #+title: spaced repetition
-* TODO I have a few notes like this; join them.
+* todo ? merge similar notes from SmSn to here
   search for "internalize", "spaced repetition", maybe "to learn", "remember"
+* todo ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * the last time I reviewed
-  2
+  3
 * review when time is odd
-** [[id:ff7ae828-8ded-4916-ae67-551d604e2382][Check name of branch before each git operation.]]
-** [[id:1d4eee29-ba5c-4fd5-866c-2700af8f0592][Ask questions while reading.]]
-** [[id:e17f1f19-30af-486f-b5ad-2e1a01d94407][how to prepare for coding interviews]]
-** check Javeriana calendar too when planning
-** TODO ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
-** [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult my notes]]
-** Organizing my notes on money felt good.
-   I had procrastinated it maybe mainly because I thought it wouldn't.
-   And of course the procrastination felt bad.
+** Git: Do what before each session (or even each operation)?
+   [[id:ff7ae828-8ded-4916-ae67-551d604e2382][Check name of branch.]]
+** What are some [[id:bbcc8ac7-7852-4d97-a624-0c8928549a42][things that might help me read better]]?
+** What to do when scheduling?
+   Check my Javeriana calendar too.
 ** Does [[id:9ec55e32-f974-479e-8295-7d9e30156684][mindfulness]] stop pointless behaviors?
 ** When I receive something from someone, do what?
    Write it down,
    because I might need to know that they can provide that.
-** [[id:14425786-4f89-4fc3-8bf7-9c31ccaba025][Linked data facilitates writing flashcards.]]
 * review when time is equal to 2 mod 4
+** [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult my notes]]
+** Organizing my notes on money felt good.
+   I had procrastinated it maybe mainly because I thought it wouldn't.
+   And of course the procrastination felt bad.
+** [[id:14425786-4f89-4fc3-8bf7-9c31ccaba025][Linked data facilitates writing flashcards.]]
+** [[id:e17f1f19-30af-486f-b5ad-2e1a01d94407][How to prepare for coding interviews]]?
 ** It's better to call someone than have them call me.
    If they're late to call me it's annoying.
 ** When LCR invites me to something (e.g. with journalists).

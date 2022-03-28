@@ -1,86 +1,92 @@
 :PROPERTIES:
 :ID:       94567688-b4eb-4396-a7eb-3af515d58eb2
+:ROAM_ALIASES: "to absorb"
 :END:
-#+title: to read
-* TODO [[id:1d4eee29-ba5c-4fd5-866c-2700af8f0592][Ask questions while reading.]]
-* Orherlands (book)
-  about how weird the distant past was
-* math: [[id:7b838adc-843c-4337-981d-6a7b96068831][some surprisingly dimension-dependent results]]
-* Artemis: good econ & science about a moon colony
-  By Andy Weir, who wrote Mars* (which became a movie with that famous dude stuck on Mars, maybe Brad Pitt?).
-   * I think that's the name.
-* Cliff forwards NYT Opinion on marriage & sacrifice
-  https://www.nytimes.com/2022/01/04/opinion/marriage-divorce.html
-* some of mridul's favorite books
-  a short history of nearly everything (tech)
-  1491 -- pre-Colombian history
-  anathem (scifi)
-* the best poets of the 20th century
-  Karl Ove Knausgård and Tyler Cowen say:
-    Paul Celan
-    or maybe Rainer Maria Rilke
-* Margaret Atwood
-* ch 13 of Mindfulness in Plain English
-  Asaf rec's.
-  It's free online.
-  https://www.goodreads.com/en/book/show/64369.Mindfulness_in_Plain_English
-* From the American system of manufacture to mass production (book)
-* The Civlizing Process
-  Paul Romer rec's
-* A Confederacy of Dunces
-  Gary Solon was reading
-* Dependently Typed Knowledge Graphs
-  https://arxiv.org/abs/2003.03785
-* Ilya enjoyed (history, historical fiction, science fiction)
-  His favorite: Three Body Problem (Chinese sci-fi).
-  Vietnamese novel "Sympathizer"
-  American history: I really liked "Hamilton" and "Battle Cry for Freedom
-  Grant's biography, but it was a bit too long.
-  Lenin's biography.
-* [[id:a3a9fefb-7922-487f-bf08-f1121cf7bfb5][podcasts]]
-* TODO The bees are okay -- a few papers from Parker.
-  https://web.facebook.com/mejeff.younotjeff/posts/10161453145484546
-* TODO How facebook got hooked on AI
-  https://www.technologyreview.com/2021/03/11/1020600/facebook-responsible-ai-misinformation/
-* TODO pages from Andy Matuschak's knowledge graph with links I haven't gotten to
+#+title: to read | to absorb
+* things that might help me read better
   :PROPERTIES:
-  :ID:       bc0e8f6e-3883-4e1c-b945-b7ea3a4d3214
+  :ID:       bbcc8ac7-7852-4d97-a624-0c8928549a42
   :END:
-If all goes according to plan, I've read each of these pages,
-but they've got links that I never got to.
-https://notes.andymatuschak.org/zhmLXArqiCMDr9Q13ViqN3hh3SmrKzjQxWAr
-https://notes.andymatuschak.org/z5aJUJcSbxuQxzHr2YvaY4cX5TuvLQT7r27Dz
-https://notes.andymatuschak.org/z7iCjRziX6V6unNWL81yc2dJicpRw2Cpp9MfQ
-https://notes.andymatuschak.org/z4AX7pHAu5uUfmrq4K4zig9x8jmmF62XgaMXm
-https://notes.andymatuschak.org/z6f6xgGG4NKjkA5NA1kDd46whJh2Gt5rAmfX
-https://notes.andymatuschak.org/zg3fYweZpbHeBTpcYke5mF4ZfrJutYcQEtFo
-https://notes.andymatuschak.org/zVFGpprS64TzmKGNzGxq9FiCDnAnCPwRU5T
-https://notes.andymatuschak.org/z3PBVkZ2SvsAgFXkjHsycBeyS6Cw1QXf7kcD8
-https://notes.andymatuschak.org/z53fk5XwrsnueNDDCq6WNe2VbPhrDGQmmVgNS
-https://notes.andymatuschak.org/z3N113rxPFreW9xUkLkUFomr2LUqfXbdCo3M
-https://notes.andymatuschak.org/z29hLZHiVt7W2uss2uMpSZquAX5T6vaeSF6Cy
-https://notes.andymatuschak.org/z2HUE4ABbQjUNjrNemvkTCsLa1LPDRuwh1tXC
-https://notes.andymatuschak.org/About_these_notes
-https://notes.andymatuschak.org/z6UDDkom8Aifg6mLdjT1sPtbMBweCmpyTwmJT
-https://notes.andymatuschak.org/z3SjnvsB5aR2ddsycyXofbYR7fCxo7RmKW2be
-https://notes.andymatuschak.org/zhmLXArqiCMDr9Q13ViqN3hh3SmrKzjQxWAr
-* news sites I like
-** https://www.reddit.com/r/worldnews
-** https://www.reddit.com/r/news
-** https://www.reddit.com/r/politics/
-* blog: One Thing Well
-  Good simple software.
-* by John le Carre, on his dad, a scammer
-  In Ronnie’s Court | The New Yorker
-  https://www.newyorker.com/magazine/2002/02/18/in-ronnies-court
-* history books my friends recommend
-  :PROPERTIES:
-  :ID:       45699da3-3bea-4daf-ae7e-cc3aa2eca272
-  :END:
-  https://www.facebook.com/mejeff.younotjeff/posts/10160816277279546?comment_id=10160838250559546&notif_id=1610157174946028&notif_t=feed_comment&ref=notif
-* didn't like it
-** Daniel Dennet, Freedom Evolves: (Kinds of freedom worth having?)
-   The central question appears to be what is free will,
-   and while I think I'd have trouble putting it into words,
-   I'm convinced it's real, and that we have it,
-   and that that's what's important for me to know about it.
+** [[id:1d4eee29-ba5c-4fd5-866c-2700af8f0592][Ask questions while reading.]]
+* material to absorb
+** Orherlands (book)
+   about how weird the distant past was
+** math: [[id:7b838adc-843c-4337-981d-6a7b96068831][some surprisingly dimension-dependent results]]
+** Artemis: good econ & science about a moon colony
+   By Andy Weir, who wrote Mars* (which became a movie with that famous dude stuck on Mars, maybe Brad Pitt?).
+    * I think that's the name.
+** Cliff forwards NYT Opinion on marriage & sacrifice
+   https://www.nytimes.com/2022/01/04/opinion/marriage-divorce.html
+** some of mridul's favorite books
+   a short history of nearly everything (tech)
+   1491 -- pre-Colombian history
+   anathem (scifi)
+** the best poets of the 20th century
+   Karl Ove Knausgård and Tyler Cowen say:
+     Paul Celan
+     or maybe Rainer Maria Rilke
+** Margaret Atwood
+** ch 13 of Mindfulness in Plain English
+   Asaf rec's.
+   It's free online.
+   https://www.goodreads.com/en/book/show/64369.Mindfulness_in_Plain_English
+** From the American system of manufacture to mass production (book)
+** The Civlizing Process
+   Paul Romer rec's
+** A Confederacy of Dunces
+   Gary Solon was reading
+** Dependently Typed Knowledge Graphs
+   https://arxiv.org/abs/2003.03785
+** Ilya enjoyed (history, historical fiction, science fiction)
+   His favorite: Three Body Problem (Chinese sci-fi).
+   Vietnamese novel "Sympathizer"
+   American history: I really liked "Hamilton" and "Battle Cry for Freedom
+   Grant's biography, but it was a bit too long.
+   Lenin's biography.
+** [[id:a3a9fefb-7922-487f-bf08-f1121cf7bfb5][podcasts]]
+** TODO The bees are okay -- a few papers from Parker.
+   https://web.facebook.com/mejeff.younotjeff/posts/10161453145484546
+** TODO How facebook got hooked on AI
+   https://www.technologyreview.com/2021/03/11/1020600/facebook-responsible-ai-misinformation/
+** TODO pages from Andy Matuschak's knowledge graph with links I haven't gotten to
+   :PROPERTIES:
+   :ID:       bc0e8f6e-3883-4e1c-b945-b7ea3a4d3214
+   :END:
+ If all goes according to plan, I've read each of these pages,
+ but they've got links that I never got to.
+ https://notes.andymatuschak.org/zhmLXArqiCMDr9Q13ViqN3hh3SmrKzjQxWAr
+ https://notes.andymatuschak.org/z5aJUJcSbxuQxzHr2YvaY4cX5TuvLQT7r27Dz
+ https://notes.andymatuschak.org/z7iCjRziX6V6unNWL81yc2dJicpRw2Cpp9MfQ
+ https://notes.andymatuschak.org/z4AX7pHAu5uUfmrq4K4zig9x8jmmF62XgaMXm
+ https://notes.andymatuschak.org/z6f6xgGG4NKjkA5NA1kDd46whJh2Gt5rAmfX
+ https://notes.andymatuschak.org/zg3fYweZpbHeBTpcYke5mF4ZfrJutYcQEtFo
+ https://notes.andymatuschak.org/zVFGpprS64TzmKGNzGxq9FiCDnAnCPwRU5T
+ https://notes.andymatuschak.org/z3PBVkZ2SvsAgFXkjHsycBeyS6Cw1QXf7kcD8
+ https://notes.andymatuschak.org/z53fk5XwrsnueNDDCq6WNe2VbPhrDGQmmVgNS
+ https://notes.andymatuschak.org/z3N113rxPFreW9xUkLkUFomr2LUqfXbdCo3M
+ https://notes.andymatuschak.org/z29hLZHiVt7W2uss2uMpSZquAX5T6vaeSF6Cy
+ https://notes.andymatuschak.org/z2HUE4ABbQjUNjrNemvkTCsLa1LPDRuwh1tXC
+ https://notes.andymatuschak.org/About_these_notes
+ https://notes.andymatuschak.org/z6UDDkom8Aifg6mLdjT1sPtbMBweCmpyTwmJT
+ https://notes.andymatuschak.org/z3SjnvsB5aR2ddsycyXofbYR7fCxo7RmKW2be
+ https://notes.andymatuschak.org/zhmLXArqiCMDr9Q13ViqN3hh3SmrKzjQxWAr
+** news sites I like
+*** https://www.reddit.com/r/worldnews
+*** https://www.reddit.com/r/news
+*** https://www.reddit.com/r/politics/
+** blog: One Thing Well
+   Good simple software.
+** by John le Carre, on his dad, a scammer
+   In Ronnie’s Court | The New Yorker
+   https://www.newyorker.com/magazine/2002/02/18/in-ronnies-court
+** history books my friends recommend
+   :PROPERTIES:
+   :ID:       45699da3-3bea-4daf-ae7e-cc3aa2eca272
+   :END:
+   https://www.facebook.com/mejeff.younotjeff/posts/10160816277279546?comment_id=10160838250559546&notif_id=1610157174946028&notif_t=feed_comment&ref=notif
+** didn't like it
+*** Daniel Dennet, Freedom Evolves: (Kinds of freedom worth having?)
+    The central question appears to be what is free will,
+    and while I think I'd have trouble putting it into words,
+    I'm convinced it's real, and that we have it,
+    and that that's what's important for me to know about it.

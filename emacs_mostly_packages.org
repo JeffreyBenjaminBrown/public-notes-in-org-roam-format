@@ -6,6 +6,7 @@
 * [[id:3a230207-47a8-4dde-af88-2c442f5c51aa][Erlang and Emacs]]
 * some big single-page manuals
   https://www.emacsdocs.org/
+* TODO ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * TODO ? orderless in Emacs
   :PROPERTIES:
   :ID:       2ff6f8b0-1089-468f-bb3b-86646342fb73
