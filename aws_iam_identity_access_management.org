@@ -20,7 +20,16 @@
    Go to AWS IAM and follow the prompts.
    Download credentials at the end.
    Run "aws configure" from the CL and manually input those credentials. If they ask for stuff not in the credentials, refer to to preexisting credentials in my ~/.aws folder -- e.g. default region (us-east-1).
-** an IAM policy for total access to an S3 bucket
+** Create an IAM user and give them access to an S3 bucket.
+   serial
+*** Create the bucket in S3.
+*** Create a [[id:a37f2ee7-8267-491b-9100-0848e03616ec][policy for total access to the bucket]].
+    Either in S3 or in IAM.
+*** Create the user in IAM, and attach the policy to them.
+** Create an IAM policy for total access to an S3 bucket.
+   :PROPERTIES:
+   :ID:       a37f2ee7-8267-491b-9100-0848e03616ec
+   :END:
    This is JSON. It gives total access to a bucket called
      whatdoineedtodotofindauniquename
    {

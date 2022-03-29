@@ -3,8 +3,7 @@
 :ROAM_ALIASES: PUJ Javeriana
 :END:
 #+title: Pontificia Universidad Javeriana
-* things PUJ lets me use
-** [[id:0afcf68c-0f5c-49d1-b204-2d48f5c260c0][my Lenovo desktop at PUJ]]
+* [[id:3301d219-858b-4a8f-b321-40dadf92aa15][PUJ & jbb]]
 * address
   Pontificia Universidad Javeriana
   Carrera 7 No. 40 - 62

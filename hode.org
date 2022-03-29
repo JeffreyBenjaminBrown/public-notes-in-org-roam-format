@@ -7,6 +7,7 @@ not really intended to be understood by anybody but myself.
 For documentation, please see the README.md file.
 If that's not enough, check out the docs/ folder.
 * [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
+* [[id:42458f39-c09a-4af4-82da-1bd74967b046][Yi is a Haskell library for building text editors.]]
 * PTIFALL: stack gchi: if no libraries are available
 https://github.com/commercialhaskell/stack/issues/5037
 This will load all non-broken modules when some are broken.

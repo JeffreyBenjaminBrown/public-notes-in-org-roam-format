@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       761a6a1b-d2a8-4f7b-bdb6-ef60958b3920
+:END:
+#+title: financial acronyms
+* EPS = earnings per share
+  :PROPERTIES:
+  :ID:       372ecf43-c56b-470e-adc9-8ba4fb70af8d
+  :END:

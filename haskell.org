@@ -33,6 +33,7 @@ make changes to a dependent component then quit and reload.
 ** Generate lenses for third-party libraries in Haskell
    https://ai-jobs.net/?rdt_cid=3040091042633392170
 * Haskell stuff I'd like to use
+** [[id:42458f39-c09a-4af4-82da-1bd74967b046][Yi is a Haskell library for building text editors.]]
 ** PostgREST: Make a db API-modifiable
    https://postgrest.org/en/v8.0/index.html
 ** data-interval

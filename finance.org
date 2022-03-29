@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       8fd004bd-338a-40a0-8634-b22dc7ee3765
+:END:
+#+title: finance
+* [[id:761a6a1b-d2a8-4f7b-bdb6-ef60958b3920][financial acronyms]]
