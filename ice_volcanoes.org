@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       c5f987ab-6ae9-460d-a998-b4f43db91640
+:END:
+#+title: ice volcanoes
+* ref: NY Times
+  https://www.nytimes.com/2022/03/29/science/pluto-ice-volcanoes.html?campaign_id=57&emc=edit_ne_20220329
+* They exist.
+* Pluto might have them.
+* Ice lava might be goopy.
+  "An icy lava eruption has never been witnessed, but it may extrude from the cryovolcano as a mucilaginous, Silly Putty-like mass."

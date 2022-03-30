@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       b279f98b-9c11-4671-9245-11cfa18ba756
+:END:
+#+title: unittest.mock (Python library for testing with mocks)
+* ref
+** a tutorial that made sense to me
+   :PROPERTIES:
+   :ID:       45d29b5c-5d6a-4fdc-be1c-bc14dcc2ff6a
+   :END:
+   https://www.toptal.com/python/an-introduction-to-mocking-in-python
+* PITFALL: decorator order
+  The test's arguments are in reverse order from the decorators.
+* PITFALL: Namespaces
+  If 'mymodule' imports 'os',
+  and I want to mock the functionality of 'os'
+  in a test of 'mymodule',
+  the mock decorator must be passed 'mymodule.os', not 'os'.
+
+  Similar concerns apply, I think, when testing class methods.
+* How to mock depends on what's being mocked.
+** Mocking a function is the most obvious.
+   Use the @mock.patch decorator.
+** There are two ways to mock a class method.
+*** Which to prefer
+    According to [[id:45d29b5c-5d6a-4fdc-be1c-bc14dcc2ff6a][the tutorial I like]],
+    mocking instance methods gives greater precision,
+    but mocking instances can be necessary or more efficient.
+*** the alternatives
+**** "Mock instance methods" with
+     @mock.patch.object( class_name, method_name )
+**** "Mock instances" with
+     mock.create_autospec( class_name )

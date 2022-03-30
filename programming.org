@@ -17,6 +17,6 @@
    https://cs-syd.eu/posts/2021-10-24-your-testing-portfolio
 ** using NixOS to test systems with networking
    https://nix.dev/tutorials/integration-testing-using-virtual-machines
-** [[id:3994c66b-b37c-4450-8314-07f98a6c2d7c][the Magic Mock library for Python]]
+** [[id:b279f98b-9c11-4671-9245-11cfa18ba756][unittest.mock (Python library)]] is kind of magical
 * [[id:59478b79-70e8-4422-8ed8-78a62d801a98][Make names long enough]].
 * [[id:dbdc84fc-7cb4-4fa9-99e9-0b8b8f3f8de2][Why duplication is dangerous.]]

@@ -4,3 +4,4 @@
 #+title: astronomy
 * [[id:7faf1c3e-510c-4073-99e0-a764db062772][The storm at the heart of the Milky Way galaxy.]]
 * [[id:5c4aa81a-3cdf-47b9-a912-56f32e862b93][Astronauts can't drink soda.]]
+* [[id:c5f987ab-6ae9-460d-a998-b4f43db91640][Ice volcanoes]] exist.

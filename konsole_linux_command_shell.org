@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       f63c9744-3d8b-4ef4-9433-128796588009
+:END:
+#+title: Konsole (Linux command shell)
+* config files
+** master config?
+   ~/.config/konsolerc
+** profile files
+*** user-defined ones
+    .local/share/konsole/*.profile
+*** I never found Default.profile
+**** my search, and results
+     It's not in etc, opt, usr or var.
+     sudo find etc opt usr var -name "Default.profile" > ~/no-errors-plz.txt
+* Konsole|Nix bug: undead config file
+  :PROPERTIES:
+  :ID:       89963126-0ff9-48f8-89f4-e65a3259a8f0
+  :END:
+** Motivation: Increase the display contrast
+   The default scheme is something like white on gray.
+   I prefer white on black.
+** The problem
+   Changes to ~/.config/konsolerc would be undone
+   each time I opened a new terminal.
+   I was trying to set the default profile.
+** How I "solved" it
+   After rebooting (and more -- see next paragraph),
+   `konsolerc` reflected the changes I'd been trying to make.
+
+   I may have saved those changes
+   (taking care not to open another Konsole instance)
+   before rebooting. If not,
+   I must have effectuated the change through the GUI somehow.
+   Probably by either
+   (1) creating a new profile,
+       setting its color scheme,
+       switching to it, and making it the default one, or
+   (2) "editing the current profile" while it's the default,
+       and saving. (You can't edit the default profile,
+       so attempting to do so creates a new one.)
+** I asked on the NixOS Discourse here
+   https://discourse.nixos.org/t/how-to-disable-konsole-main-toolbar-session-toolbar/15087
