@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ca586cff-5010-4624-8886-9d53915e5469
+:END:
+#+title: Debug.Trace (Haskell library) is magic
+* purpose
+  Called from a pure function, `Debug.Trace.trace`
+  prints a message without changing the function's type.
+* refs
+  https://medium.com/pragmatic-programmers/pure-print-style-debugging-in-haskell-c4c5d4f39afa
+  https://hackage.haskell.org/package/base-4.16.1.0/docs/Debug-Trace.html
