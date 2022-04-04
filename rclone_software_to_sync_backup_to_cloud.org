@@ -41,6 +41,12 @@
    But when I tried that it didn't work.
    I had to use the name of my rclone ("repo"? "config"?), not "drive".
 * solutions
+** error "Failed to create file system for" ... "didn't find section in config file"
+   https://github.com/rclone/rclone/issues/290
+*** solution
+    I was using the wrong remote name.
+    Use `rclone config` to (among other things)
+    list remote names.
 ** how to sync
    The syntax is just like the Linux `cp` command:
    rclone sync <source> <dest>
