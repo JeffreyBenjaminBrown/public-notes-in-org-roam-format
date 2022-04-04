@@ -3,7 +3,7 @@
 :ROAM_ALIASES: reprogram
 :END:
 #+title: introspect & reprogram
-* TODO ? Better in SmSn?
+* TODO ? Would these notes be better in SmSn?
 * objects
 ** TODO [[id:adb23c07-cfdf-4510-8f43-b1c4b6f68c38][Hypothesis: <Person>/interests > <Person>/outbox]]
 ** TODO ? After exercise I want to meditate
@@ -13,7 +13,6 @@
 ** TODO REMEMBER: I like "photocopying"
    Shuffling my mindmaps is not something I do *for* the data; it is how I think.
 ** [[id:24169b3e-6d41-48dd-9367-6df7a3565bed][my priorities]]
-** file these docs
 ** creating and courage
    for lyrics
 ** things I wish about myself

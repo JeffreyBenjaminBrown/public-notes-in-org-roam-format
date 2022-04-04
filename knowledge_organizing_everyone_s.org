@@ -11,6 +11,7 @@
 * [[id:30478629-506c-4acf-aec8-b74e977a2234][how to take notes on people and communication]]
 * [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to avoid losing notes in a knowledge graph]]
 * [[id:14425786-4f89-4fc3-8bf7-9c31ccaba025][Linked data facilitates writing flashcards.]]
+* [[id:eba0ce43-3fb2-4d95-89f2-f5d8cae6f20f][the oldies greatest-hits problem]]
 * TypeDB > Hode
   https://github.com/vaticle/typedb
 * the Underlay Project at MIT
