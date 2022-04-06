@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       cacfa0be-acc2-4628-bb21-81feb12ec268
+:END:
+#+title: Pharo (programming language)
+* a list of features
+  https://pharo.org/features
+* some of the weirdest good-seeming features I remember
+** Somehow "naturally" extensible syntax
+** Lots of introspection.
+** Lots of hot-swappability.
+   The definition of a class -- even its parent! -- can be changed while a program is running.
+   One instance of a class can be swapped for another, and all (references and?) back-references will change accordingly.

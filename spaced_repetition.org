@@ -9,6 +9,7 @@
 * the last time I reviewed
   4
 * review when time is odd
+** List some temporary [[id:02d97f60-ef2a-4377-8169-300b97c07265][implications of having a bad knee]].
 ** Git: Do what before each session (or even each operation)?
    [[id:ff7ae828-8ded-4916-ae67-551d604e2382][Check name of branch.]]
 ** What are some [[id:bbcc8ac7-7852-4d97-a624-0c8928549a42][things that might help me read better]]?
