@@ -10,6 +10,13 @@
 * [[id:79ff2c65-42a9-485a-aac4-53a2f1c1dc8b][Linux without a GUI]]
 * [[id:a8356007-6419-441c-80d8-97776cc64c08][burn an .iso file to a USB drive]]
 * PITFALLs
+** My `~/ugh/une/code-ish/` might be confusing
+   There are symlinks into that from, at least, these places:
+     ~/.ssh
+     ~/.aws
+     ~/code/web/aws/secret
+   I *think* restoring from Borg will handle those cases correctly,
+   but have not tested it.
 ** [[id:72353c72-7f06-4e28-be1b-78e2e6f7bf1d][check whether the computer uses UEFI]]
    If not, install with Legacy Boot.
    (So far all my computers use Legacy.)
