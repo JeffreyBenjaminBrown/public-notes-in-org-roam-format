@@ -56,6 +56,10 @@ make changes to a dependent component then quit and reload.
 
    Which abbreviates a frequently used constructor.
    Works in pattern matches too.
+* effects systems in Haskell
+** how semantics (e.g. order of evaluation) differ across libraries
+   "The effect semantics zoo", Alexis King:
+   https://github.com/lexi-lambda/eff/blob/8c4df4bf54faf22456354be18095b14825be5e85/notes/semantics-zoo.md
 * solutions
 ** for space leaks
    [[id:a2c7b53c-4728-407a-8f2e-35d4e0a20138][Making Invalid Laziness Unrepresentable (article)]]

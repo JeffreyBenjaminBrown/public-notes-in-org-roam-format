@@ -31,11 +31,7 @@
     #   When I start using the external one, change it.
     soundcardPciId = "00:1f.3";
 * TODO [[id:80c451e8-da34-4d5f-8483-f3e3b56ff16b][do I want org-roam to work with company? helm? both?]]
-* TODO imperative shell stuff to run
-  ~/nix/jbb-config/imperative.sh
-  (That's "imperative.sh" in my repo
-    git@github.com:JeffreyBenjaminBrown/nixos-experiments.git
-  )
+* TODO [[id:a2c96135-30d8-44c9-802d-36effb2be638][imperative shell stuff to run]]
 * TODO ? m31 will not connect
   I tried adding "samsung-unified-linux-driver" to packages.nix; it would not build. Also it might not be relevant; the description says it's for printers, and does not mention phones.
   This page

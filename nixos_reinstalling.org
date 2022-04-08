@@ -70,6 +70,7 @@
 ** passwd jeff
    Do this as root when I first log in.
    Thereafter I can log in as jeff.
+* [[id:a2c96135-30d8-44c9-802d-36effb2be638][NixOS, my config, imperative elements]]
 * installing without X
 ** drop the screen resolution if possible
    Unfortunately `xrandr` is not part of the installer.

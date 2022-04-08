@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       a2c96135-30d8-44c9-802d-36effb2be638
+:END:
+#+title: NixOS, my config, imperative elements
+* It's in my nixos-experiments repo
+  ~/nix/jbb/config/imperative.sh
+  (That's "imperative.sh" in my repo
+    git@github.com:JeffreyBenjaminBrown/nixos-experiments.git
+  )
