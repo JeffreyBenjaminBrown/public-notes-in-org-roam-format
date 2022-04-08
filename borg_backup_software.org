@@ -53,6 +53,10 @@ If I run `borg key change-passphrase` and delete any compromised old copies of t
    and tried to update that repo, it worked fine.
    I did not even have to touch ~/.cache/borg.
    (Note that this leaves [[id:0548f067-16e4-47d2-b59a-da72b97d7f80][the mystery]] above unsolved.)
+* borg extract
+  borg extract /path/to/borg/repo::name-of-image
+* borg list
+  borg list /path/to/borg/repo
 * borg recreate
   Recreate a backup -- with, say, a different "exclude' pattern.
   https://borgbackup.readthedocs.io/en/stable/usage/recreate.html#borg-recreate
