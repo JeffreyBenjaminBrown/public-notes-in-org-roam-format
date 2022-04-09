@@ -90,22 +90,4 @@
      where x is probably b, c or d
            n is probably a small digit or maybe missing
            jj should not be there (this prevents copy-paste disaster)
-* mount|unmount a (USB) drive
-** mount|unmount a drive from the command line
-   :PROPERTIES:
-   :ID:       5fabbe1c-91a2-4bca-95e4-6a38a2037e1f
-   :END:
-*** mount
-    This mounts the device "sdb1",
-    making it available at the "media" folder.
-
-    sudo mount /dev/sdb1 /mnt/media
-*** unmount
-    umount /path/where/device/is/mounted
-    After this the device will still be visible in /dev,
-    but not manipulable at the above long path.
-** mount|unmount a drive via a GUI
-   Use gnome-disk-utility,
-   which is called simply
-     disks
-   by the KDE app launcher.
+* [[id:768c1193-5615-436b-b470-7f0983634b59][mounting and unmounting drives in Linux]]
