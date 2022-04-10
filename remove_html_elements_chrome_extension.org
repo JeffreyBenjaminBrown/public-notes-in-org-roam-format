@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       74127f3c-2d1d-4946-9b7f-f461da38b156
+:END:
+#+title: Remove HTML Elements (Chrome extension)
+* ref
+  https://chrome.google.com/webstore/detail/remove-html-elements/enegojdnkeicfoiknhfjaedhlckeahmf
+* what it is
+  Lets a user hide HTML elements.
+  Appears to require no special permissions.

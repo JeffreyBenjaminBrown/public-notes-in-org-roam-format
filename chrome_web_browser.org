@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       eaf41de1-a3ef-4ab9-a052-8e800f633d97
+:END:
+#+title: Chrome (web browser)
+* [[id:74127f3c-2d1d-4946-9b7f-f461da38b156][Remove HTML Elements]] is a a privacy-respecting HTML element blocker.

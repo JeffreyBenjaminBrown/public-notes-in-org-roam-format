@@ -11,3 +11,8 @@
 * [[id:5406de4b-fa25-46ab-8908-cb6f4b4e232a][HTML]]
 * [[id:0ce8bf41-83b4-4cac-b523-96e548ca20fa][URLs]]
 * [[id:c81ed244-5cab-4ef7-86bf-11c351488d78][to delete a network connection from KDE's Network Manager]]
+* to find a machine's IP address
+** Get public  ip of this machine
+   curl ifconfig.me
+** Get private ip of this machine
+   ip route get 1.2.3.4 | awk '{print $7}'

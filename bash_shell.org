@@ -3,6 +3,8 @@
 :ROAM_ALIASES: "shell programming"
 :END:
 #+title: Bash shell
+* pipe stdout and stderr to the same file
+  command >out 2>&1
 * `cd`, change default target directory
   I don't know,
   but the first line below comes extremely close,

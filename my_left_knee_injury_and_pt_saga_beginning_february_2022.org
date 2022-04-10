@@ -1,0 +1,64 @@
+:PROPERTIES:
+:ID:       1f625c21-6fce-47ce-9731-fc0e07c76f76
+:END:
+#+title: my left knee: injury and PT saga, beginning February 2022
+* how meniscus injuries work
+  per [[id:f8c766eb-b0ef-4161-936b-9bc6ab3110fa][Javier Fernando Diaz Cardenas, osteólogo]],
+  when I [[id:a356af6f-438c-482b-bbdb-0d1ab5eeca50][saw him on April 5th]].
+** The edges of tears can be ragged, which can cause pain.
+   The hairy-looking edges can fold under,
+   interfering with proper movement.
+** The entire meniscus can have a floppy part that folds under.
+* my story
+** 2022 04 05-06, my knee worsened
+   Tuesday I had PT and used straps, which I enjoyed.
+   That afternoon I saw [[id:f8c766eb-b0ef-4161-936b-9bc6ab3110fa][Dr. Javier Fernando Diaz Cardenas]],
+   who proclaimed that it was pretty good,
+   and I didn't need to do surgery yet --
+   should do another month of PT and then return.
+   But he performed a test where he spins my foot outward,
+   which hurt, and which I *think* kept hurting throughout the day.
+   But still it was pretty good after that.
+   I remember carrying the weights I had bought at Decatlon
+   on my head afterward, walking normally.
+
+   Then Wednesday morning I had PT again.
+   He had me do exercises with five pounds strapped to my leg.
+   Weeks earlier I had done similar with four pounds and been fine,
+   but this time there was one exercise I just couldn't do due to pain,
+   and at least one other that hurt.
+   Again I don't remember if the knee was terribly bad immediately thereafter,
+   but it certainly was soon.
+
+   Ever since I have not been able to walk normally,
+   and it hurts even at complete rest in bed,
+   so much that sometimes I have to switch position.
+** 2022 04 05, I saw [[id:f8c766eb-b0ef-4161-936b-9bc6ab3110fa][Dr. Javier Fernando Diaz Cardenas]]
+   :PROPERTIES:
+   :ID:       a356af6f-438c-482b-bbdb-0d1ab5eeca50
+   :END:
+*** No urgent need to get surgery.
+    :PROPERTIES:
+    :ID:       ddbf86ef-9d24-4d73-8b80-96f7a6905294
+    :END:
+*** Mine hurts when my foot is twisted outward, because it's folding under.
+*** It's probably an incomplete tear.
+    That is, from one edge inward, but not to the other edge.
+** 2022 03 15, I started PT with [[id:274cfb03-2d22-4d0a-adb6-578080ab77aa][Unifisio SAS]]
+   :PROPERTIES:
+   :ID:       c78889f2-03a6-4974-847f-d452c342f9ab
+   :END:
+   The doctor treats four people at once,
+   doesn't ask many questions or spend much time with me.
+** 2022 03 09-ish: [[id:9f97ada1-b8d7-4ab0-8708-4d548a028010][Dr. Sebastian Rodriguez]] saw the MRI
+   He told me to do a month of PT and come back.
+** 2022 03 07, I got an MRI
+** 2022 03 03, I saw [[id:9f97ada1-b8d7-4ab0-8708-4d548a028010][Dr. Sebastian Rodriguez Serna]]
+   He thinks I've "lesionado" (torn) my meniscus,
+   and sent me for an X-ray.
+** 2022 02 27, popped my knee
+   Was doing the yoga spinal twist,
+   with my left knee flat against the floor.
+   It made a loud popping sound, which hurt a lot.
+   Now my knee has low-level pain all the time,
+   and is stiff -- and no longer pops.
