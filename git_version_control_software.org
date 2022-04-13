@@ -21,3 +21,8 @@
   git checkout master
   git fetch upstream
   git merge upstream/master
+* to rename a branch locally and upstream
+** git branch -m new-name
+** git branch -D old-name
+** git push origin --delete old-name
+   where "origin" is the remote repo's local nickname

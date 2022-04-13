@@ -9,6 +9,10 @@
 *** from the nix repl
     :?
 ** http://nix.dev
+* BLOCKED (awaiting response) : cache.nixos.org not being resolved
+  https://discourse.nixos.org/t/cache-nixos-org-couldnt-connect-to-server-7-because-of-ipv6-from-dns/9921
+  Except now `nixos-rebuild switch` seems to be working.
+  Maybe the site was down for a bit.
 * TODO fix my dependencies in jbb-config/custom-packages
   Because things change in Nixos 21.05:
   https://nixos.org/manual/nixos/stable/release-notes.html#sec-release-21.05

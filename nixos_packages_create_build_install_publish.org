@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       52b7a722-8591-4f9b-a290-cccd1639e565
 :END:
-#+title: NixOS packages: create, build, install, publish
+#+title: NixOS packages: create, build, install, uninstall, publish
 * refs
 ** u
    https://nixos.wiki/wiki/Nixpkgs/Create_and_debug_packages
@@ -54,6 +54,8 @@
 ** nixos-rebuild with a nixpkgs fork
    nixos-rebuild switch -I nixpkgs=/home/jeff/nix/nixpkgs
    /home/jeff/nix/nixpkgs/pkgs/development/libraries/hello-test
+* to uninstall a package installed via nix-env
+  nix-env -e <package names>
 * BLOCKED : response pending, my waf issue
 ** TODO With an answer, awaiting response
 https://stackoverflow.com/questions/59805975/nix-building-waf-produces-a-file-but-i-seem-to-need-a-folder/59809635#59809635

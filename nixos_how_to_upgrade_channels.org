@@ -18,6 +18,7 @@
   sudo nix-channel --remove nixos
     # Do this if it's already set.
   sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
+  #         a variation: https://nixos.org/channels/nixos-21.11
     # nixos here is a channel alias
   sudo nix-channel --list
   sudo nix-channel --update nixos
