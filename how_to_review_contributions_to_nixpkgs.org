@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       462ad97e-8e3d-4000-afa4-44958937cb36
+:ROAM_ALIASES: "NixOS review process for contributions"
+:END:
+#+title: how to review contributions to nixpkgs
+https://nixos.org/manual/nixpkgs/unstable/#chap-reviewing-contributions

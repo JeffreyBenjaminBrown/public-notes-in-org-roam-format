@@ -53,8 +53,20 @@ If I run `borg key change-passphrase` and delete any compromised old copies of t
    and tried to update that repo, it worked fine.
    I did not even have to touch ~/.cache/borg.
    (Note that this leaves [[id:0548f067-16e4-47d2-b59a-da72b97d7f80][the mystery]] above unsolved.)
+* borg create
+** PITFALL: By default it treats symlinks exactly how I like.
+   e.g. if `l` is a link into `p` and `p` is not backed up,
+   `l` is archived as, effectively, a dead link --
+   a link into something the archive doesn't know about --
+   rather than copying the content of the link.
 * borg extract
-  borg extract /path/to/borg/repo::name-of-image
+  borg extract /path/to/borg/repo::name-of-image [paths]
+    example:
+      REPO=/run/media/jeff/_Toshi-2020-2TB/borg-repo
+      borg extract $REPO::2022-04-14.hp17 home/jeff/org-roam
+  The paths are optional. If not present, the entire thing is extracted.
+  PITFALL: The paths should not begin with a leading slash.
+    Hence "home/" above, not "/home/".
 * borg list
   borg list /path/to/borg/repo
 * borg recreate

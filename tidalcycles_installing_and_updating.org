@@ -1,7 +1,9 @@
 :PROPERTIES:
 :ID:       62d4071a-c7d5-4671-baa5-94b620fe2a77
 :END:
-#+title: TidalCycles, installing and updating
+#+title: TidalCycles: installing and updating
+* I documented some of this on a GitHub thread.
+  https://github.com/NixOS/nixpkgs/issues/71283#issuecomment-1100736899
 * PITFALL: There are numerous pieces to update.
   https://tidalcycles.org/docs/getting-started/upgrading
   SuperCollider

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       84353353-6daf-411b-ae60-990301037e04
+:END:
+#+title: Lily Foster's build of sc3-plugins
+* TODO ? [[id:ea4b13f3-06cf-4488-a4d4-4cfcd644c107][ask Lily how to test her sc3-plugins recipe]]
+* some files
+  pkgs/development/libraries/sc3-plugins/default.nix
+  pkgs/development/libraries/sc3-plugins/lily-default.nix
+* Lily's pull request
+  https://github.com/NixOS/nixpkgs/pull/147011
+* Lily's fork of nixpkgs
+  https://github.com/lilyinstarlight/nixpkgs
+* [[id:462ad97e-8e3d-4000-afa4-44958937cb36][NixOS review process for contributions]]

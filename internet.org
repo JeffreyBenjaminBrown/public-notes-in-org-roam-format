@@ -16,3 +16,9 @@
    curl ifconfig.me
 ** Get private ip of this machine
    ip route get 1.2.3.4 | awk '{print $7}'
+* to check the DNS status of a domain
+  i.e. when its name fails to resolve
+  https://discourse.nixos.org/t/cache-nixos-org-couldnt-connect-to-server-7-because-of-ipv6-from-dns/9921/4
+** cache.nixos.org | DNSViz 1 (though you need quite some DNS understanding to really read that tool)
+** https://status.fastly.com
+** https://health.aws.amazon.com/health/status

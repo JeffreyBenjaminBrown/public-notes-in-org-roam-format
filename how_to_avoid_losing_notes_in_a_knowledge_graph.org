@@ -11,16 +11,16 @@
    For each thing in Y, I then link to the new note. If that thing in Y doesn't yet exist, I make it.
 ** anticipate synonyms
    Synonyms prevent something of a problem. I often search for "belongings" and then remember "oh yeah, I call those possessions". The ROAM_ALIASES field helps for that.
-* Don't worry about losing conscious track of any note -- that's critical to successful usage of a knowledge graph.
+* Don't worry about losing conscious track of any note -- losing track is, in fact, critical to successful usage of a knowledge graph.
   Even if you perfectly anticipate and curate the set Y when you create the new note, it's possible that you won't look up anything in Y for a long time. That's fine! Continuing the above example, suppose the note you wrote was about love and how to avoid burnout at work, and you put it under those two things, and then never looked at those two things. That means those two things weren't an issue for you.
-* consult your notes : why and how
+* onsult your notes : why and how
   :PROPERTIES:
   :ID:       7b2cd1a3-bac4-4057-90e3-a2698a2fdefb
   :END:
 ** do it
-   Of course, this implies that when you have an itch to do anything, part of scratching it is to look in your notes for anything you've already written on it before. That habit will come with time, although consciously encouraging it can hurry the process.
+   When you have an itch to do anything, part of scratching it should be to look in your notes for anything you've already written on it before.
 ** consult the upper onotology, too
    Often the parents of the note you're reading are relevant.
    Check them out.
 * learn to search your notes
-  It also assumes that when you have an itch, you're able to find the note about it. If the note exists, usually it's not hard to find -- even if you didn't curate its parents well, you can grep your folder for relevant terms.
+  If the note exists, usually it's not hard to find -- even if you didn't curate its parents well, you can grep your folder for relevant terms.

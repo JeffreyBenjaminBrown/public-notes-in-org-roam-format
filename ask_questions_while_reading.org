@@ -2,4 +2,4 @@
 :ID:       1d4eee29-ba5c-4fd5-866c-2700af8f0592
 :END:
 #+title: Ask questions while reading.
-It seems to happen by improving focus.
+It seems to improve focus.

@@ -8,6 +8,11 @@
   :ID:       bbcc8ac7-7852-4d97-a624-0c8928549a42
   :END:
 ** [[id:1d4eee29-ba5c-4fd5-866c-2700af8f0592][Ask questions while reading.]]
+** Believe I'm doing something important.
+   Often when I'm scanning headlines I count syllables,
+   which suggests I believe I should be doing something else.
+   (The trick is not, of course, to change my beliefs,
+   but rather to act in accordance with them.)
 * material to absorb
 ** Orherlands (book)
    about how weird the distant past was

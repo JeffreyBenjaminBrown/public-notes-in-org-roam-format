@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       ea4b13f3-06cf-4488-a4d4-4cfcd644c107
+:END:
+#+title: ask Lily how to test her sc3-plugins recipe
+Hi Lily!
+
+My own sc3-plugins recipe seems to have stopped working. Rather than fix it, it seems smarter to try out yours. What follows is my plan. Could you please let me know what you think of it, and what else I could do to help?
+
+I'm currently using the 21.11 nixpkgs channel. I have a clone of your fork of nixpkgs, with the `feature/supercollider-plugins` branch checked out. I've added an upstream repo to it and am currently downloading all updates to nixpkgs since.
+
+I thought I could:
+
+(1) Check out the `remotes/upstream/nixos-21.11` branch
+(2) Create a diff that ends at the tip of your `feature/supercollider-plugins` branch and starts from commit `9bef5ccc3ab610aa2c0b7b534ebd589de21df455`, which seems to be the last commit not related to your supercollider/sc3-plugins work.
+(3) nix-build -A     sc3-plugins supercollider
+(4) nix-env -f . -iA sc3-plugins supercollider
+
+Reasonable?

@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       ac6d4247-4880-4740-9aa3-0407f4d8b397
+:ROAM_ALIASES: "NixOS channels"
 :END:
 #+title: NixOS, how to upgrade (channels)
 * "upgrading NixOS" seems (lately = 21.11) to mean only "switching channels"

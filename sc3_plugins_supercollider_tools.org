@@ -2,8 +2,7 @@
 :ID:       6e357bfc-6b14-4696-b6e6-6d470398f616
 :END:
 #+title: sc3-plugins (SuperCollider tools)
-* Lily Foster submitted an advanced pull request for sc3 and sc3-plugins
-  https://github.com/NixOS/nixpkgs/pull/147011/files
+* TODO [[id:84353353-6daf-411b-ae60-990301037e04][Lily Foster's build of sc3-plugins]]
 * I packaged it for NixOS and submitted it to nixpkgs.
   https://github.com/NixOS/nixpkgs/pull/142626
   https://discourse.nixos.org/t/trying-to-install-sc3-plugins-but-in-nixos-i-dont-understand-packaging-or-c/15433

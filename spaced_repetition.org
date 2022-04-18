@@ -7,7 +7,7 @@
   search for "internalize", "spaced repetition", maybe "to learn", "remember"
 * todo ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * the last time I reviewed
-  5
+  6
 * review when time is odd
 ** List some (temporary) [[id:02d97f60-ef2a-4377-8169-300b97c07265][implications of having a bad knee]].
 ** What is the [[id:75c26e6a-e72c-4ae7-9c30-39efe7c164c9][org-roam command to create a new note from a headline and its contents]]?
@@ -19,20 +19,21 @@
    Check my Javeriana calendar too.
 ** What might stop pointless behaviors?
    [[id:9ec55e32-f974-479e-8295-7d9e30156684][mindfulness]]
+** [[id:e17f1f19-30af-486f-b5ad-2e1a01d94407][How to prepare for coding interviews]]?
 * review when time is equal to 2 mod 4
+** How do I like to schedule calls?
+   [[id:7ac060da-9f65-4861-975b-d44d10623a46][Calling is better than being called.]]
+* review when time is equal to 4 mod 8
+** Why and how to [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult knowledge graph notes]]?
 ** What are some [[id:bbcc8ac7-7852-4d97-a624-0c8928549a42][things that might help me read better]]?
 ** When I receive something from someone, do what?
    Record that they can provide that,
    because I might need to know that they can provide that.
-** [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult my notes]]
 ** Organizing my notes on money felt good.
    I had procrastinated it maybe mainly because I thought it wouldn't.
    And of course the procrastination felt bad.
 ** [[id:14425786-4f89-4fc3-8bf7-9c31ccaba025][Linked data facilitates writing flashcards.]]
-** [[id:e17f1f19-30af-486f-b5ad-2e1a01d94407][How to prepare for coding interviews]]?
-** It's better to call someone than have them call me.
-   If they're late to call me it's annoying.
-** When LCR invites me to something (e.g. with journalists).
+** When I am invited to something (e.g. with journalists).
    Make sure I know who's coming before responding.
 ** Ask people about their life stories, decisions
 *** Normally they talk about the recent.
@@ -40,8 +41,6 @@
 ** coding: [[id:dbdc84fc-7cb4-4fa9-99e9-0b8b8f3f8de2][Duplication is dangerous.]]
 ** coding: [[id:59478b79-70e8-4422-8ed8-78a62d801a98][Make names long enough]].
 ** coding: [[id:6e66c817-c802-4b37-9467-4bfa61f3965b][In git, what is fragile?]]
-** coding: [[id:d0d72bb0-f308-4fa0-9e7f-e0d78a22b118][Make git diffs readable by doing what?]]
-* review when time is equal to 4 mod 8
 ** [[id:d283b6a3-205b-4a7c-9338-aa458f091691][Use my "prefix-date-uri" script.]]
 ** In Emacs, [[id:73882d3f-fe8a-437c-964c-c34144cca759][`C-x space` is a better way to delineate rectangles.]]
 ** cash is in mic box
