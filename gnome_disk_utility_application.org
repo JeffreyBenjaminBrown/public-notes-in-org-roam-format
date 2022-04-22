@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       c2532854-3f04-4267-91ba-062275b3c2ee
+:ROAM_ALIASES: "disks (Linux application)"
+:END:
+#+title: gnome-disk-utility (application)
+* It's called simply "disks" by the KDE app launcher.
+* gnome-disk-utility can sometimes be used to relabel.
+  :PROPERTIES:
+  :ID:       982f48ba-9ed5-4c21-bcaf-a6b8c3571e85
+  :END:
+** It might depend on partitions, formats, or somethihng else.
+*** I was able to relabel a partition (sdb1).
+    in I believe, DOS format.
+*** I was unable to relabel a device (sdb)
+    in ext4 format.

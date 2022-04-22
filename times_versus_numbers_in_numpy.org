@@ -5,11 +5,11 @@
 * the problem
   Numpy doesn't like mixing times and non-time floats.
 * solutions (alternatives)
-** TODO convert time to timedelta from start of 2020, then call totalseconds
-   Note that the default np.float type is float64,
-   what some other languages call double.
-** use Pandas without NumPy
+** use Pandas rather than (directly) NumPy
 ** convert time to float as library writers intended (if they did?)
 *** The first table in the time documentation might help
     https://docs.python.org/3/library/time.html#time.time
 *** time.time() is a float
+** convert time to timedelta from start of 2020, then call totalseconds
+   Note that the default np.float type is float64,
+   what some other languages call double.

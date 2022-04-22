@@ -1642,7 +1642,7 @@ the familiar septimal tritone (7:5)
    , 21 steps; 11 % 8 ; string 3 ; fret - 1
    , 32 steps; 13 % 8 ; string 4 ; fret 0
    , 42 steps; 15 % 8 ; string 6 ; fret - 2
-** 46 5 9: 31-lim 5x7 brick, 23-lim 5x5, octave (4,2)
+** 46 5 9: 31-lim 5x7 brick, 23-lim 5x5, octave (4,2), frets like 9-edo
    :PROPERTIES:
    :ID:       d3e9851f-5276-4a8f-9cd8-e9c5417d5940
    :END:
@@ -1665,14 +1665,15 @@ the familiar septimal tritone (7:5)
   44 steps; 31 % 16 ; string 6 ;   fret - 2
 ** 46 2 17: a stretch but guitar-feasible
    The 7%4 looks bad but 10 frets in 23-edo is only
-           [ 0 steps; 1 % 1 ; string 0 ; fret 0
-           , 46 steps; 2 % 1 ; string 2 ; fret 6
-           , 27 steps; 3 % 2 ; string 1 ; fret 5
-           , 15 steps; 5 % 4 ; string 1 ; fret - 1
-           , 37 steps; 7 % 4 ; string 1 ; fret 10
-           , 8 steps; 9 % 8 ; string 0 ; fret 4
-           , 21 steps; 11 % 8 ; string 1 ; fret 2                         , 32 steps; 13 % 8 ; string 2 ; fret - 1
-           , 42 steps; 15 % 8 ; string 2 ; fret 4
+   [ 0  steps; 1  % 1 ; string 0 ; fret 0
+   , 46 steps; 2  % 1 ; string 2 ; fret 6
+   , 27 steps; 3  % 2 ; string 1 ; fret 5
+   , 15 steps; 5  % 4 ; string 1 ; fret - 1
+   , 37 steps; 7  % 4 ; string 1 ; fret 10
+   , 8  steps; 9  % 8 ; string 0 ; fret 4
+   , 21 steps; 11 % 8 ; string 1 ; fret 2
+   , 32 steps; 13 % 8 ; string 2 ; fret - 1
+   , 42 steps; 15 % 8 ; string 2 ; fret 4
 * 48-edo
 ** 48 2 11: balanced octave (4,2), 15-lim 4x6
   0 steps; 1 % 1 ; string 0 ; fret 0

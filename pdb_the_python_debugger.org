@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       9c2231f1-1b74-44ba-8025-f0683412ff5e
+:ROAM_ALIASES: "debugging in Python" "Python debugging"
 :END:
-#+title: Pdb, the Python debugger
+#+title: pdb, the Python debugger
 https://docs.python.org/3/library/pdb.html
 * set a breakpoint with pdb.set_trace()
 * commands within pdb

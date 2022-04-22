@@ -16,10 +16,7 @@
    After this the device will still be visible in /dev,
    but not manipulable at the above long path.
 * mount|unmount a drive via a GUI
-  Use gnome-disk-utility,
-  which is called simply
-    disks
-  by the KDE app launcher.
+  Use [[id:c2532854-3f04-4267-91ba-062275b3c2ee][gnome-disk-utility]].
 * to find out what preferences are stopping `umount`
   Alternatives. I had better luck with `lsof`.
 ** lsof           /path/to/folder/to/unmount

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       4b63fbab-a664-43e1-9a45-b49b8dbdb4bc
+:END:
+#+title: disk errors, how to check for
+* refs
+ https://www.simplified.guide/linux/disk-error-check
+* some diagnostics
+** sudo smartctl -H /dev/sdb
+** sudo fsck /dev/sdb
+   Or should it be
+     sudo fsck /dev/sdb1
+   ? That is, should it be the device itself (sdb),
+   or a partition on it (sdb1)?
+   On a good disk I was able to do both;
+   on a bad disk, only the partition.
+** sudo badblocks -svn -b 512 -c 65536 /dev/sdb
+   The -b and -c options make it faster.

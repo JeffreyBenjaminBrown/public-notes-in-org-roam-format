@@ -53,6 +53,10 @@ If I run `borg key change-passphrase` and delete any compromised old copies of t
    and tried to update that repo, it worked fine.
    I did not even have to touch ~/.cache/borg.
    (Note that this leaves [[id:0548f067-16e4-47d2-b59a-da72b97d7f80][the mystery]] above unsolved.)
+* borg init --encryption=repokey /path/to/repo
+  That gives the simplest encryption option,
+  in which an attacker only needs your password.
+  In others, they'd need the password and the keyfile.
 * borg create
 ** PITFALL: By default it treats symlinks exactly how I like.
    e.g. if `l` is a link into `p` and `p` is not backed up,

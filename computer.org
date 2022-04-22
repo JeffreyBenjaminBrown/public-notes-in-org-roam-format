@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       7c78a3fd-74aa-4358-8977-4ea06aebe168
+:END:
+#+title: computer
+* computer hardware
+** [[id:e9b1996a-67d3-40a6-b971-8c03e54a1724][disk drives, formats and partitions]]
+** [[id:34af6838-2a43-4484-9324-13979c4d6269][monitor, computer]]
+* [[id:7347d15c-fece-46aa-87d2-7c1c7230d548][Linux (operating system)]]
+* [[id:332ba44e-54e9-4e6e-b39e-a2adf88587ae][laptop, to buy]]

@@ -28,3 +28,8 @@
 *** TODO ? use the "prefix" argument to `mount` in the code above
     If it turns out that max retries is still exceeded,
     it might be because the limit is only applied to URLs based on the prefix.
+** TODO make sure all my "get" requests use `max_retries`
+   :PROPERTIES:
+   :ID:       6f9a2f64-d3e5-4b0e-8f8e-e0c72c5f1536
+   :END:
+   find . -name "*.py" -print0 | xargs -0 grep -i "get *(" --color

@@ -4,6 +4,7 @@
 :END:
 #+title: Python (programming language)
 * TODO use [[id:e2790daf-d86a-4b1b-994b-792d2ac3b3a6][Hypothesis (python library for property testing)]]
+* [[id:9c2231f1-1b74-44ba-8025-f0683412ff5e][pdb: the Python debugger]]
 * [[id:5fe079b2-583f-45da-8e17-fc0879c4a8dc][introspection in Python]]
 * [[id:31aeb236-5ce9-46bc-ba6e-bbe6b5c65e6e][ways to reconcile different versions of Python]]
 * [[id:74d6d7d1-7749-4d60-925d-43958fcd3ee3][testing in Python]]
