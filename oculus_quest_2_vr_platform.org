@@ -2,6 +2,9 @@
 :ID:       7d829b36-5932-41b0-b697-e9b9c8e8627a
 :END:
 #+title: Oculus Quest 2 (VR platform)
+* PITFALL: On bank statement, purchases are gibberish.
+  When I bought Thrill of the Fight,
+  the charge listed as going to "8RRXNDBFF2 Dublin IE".
 * [[id:04b961f6-ed58-4bbb-b50b-d06eb542fc38][my first impressiosns of Thrill of the Fight and the Oculus Quest 2]]
 * Quest 2 games for fitness
   :PROPERTIES:

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       97156ed1-349f-4ad8-88ab-99ef3c01a8a4
+:END:
+#+title: hash (algorithm)
+* hash a folder recursively in Bash, how to
+  find -type f \( -not -name "md5sum.txt" \) -exec md5sum '{}' \; | sort > md5sum.sorted.txt
+  The sorting is useful because find does not to always produce results in the same order. (At least the one time I tried this on two big folders on different hard drives, that was evident.)

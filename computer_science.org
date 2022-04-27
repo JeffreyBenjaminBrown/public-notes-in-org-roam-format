@@ -2,5 +2,6 @@
 :ID:       001d7913-c431-461c-92ae-a6a39394856c
 :END:
 #+title: computer science
+* [[id:e1f7f6e9-3a9a-4804-91f5-7751d7f4e9b8][algorithms]]
 * [[id:16127b31-70f5-4098-a5c1-1df7cfc93128][bioinformatics]]
 * [[id:e4a6a10f-a305-49fa-91b1-08482df14229][a CS skills assessment, with a moderate focus on Python]]
