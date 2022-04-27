@@ -71,6 +71,9 @@ make changes to a dependent component then quit and reload.
    :ID:       e933a77d-2304-4b84-93e3-27963bad5386
    :END:
    https://fpunfold.com/2022/01/09/haskell-dp.html
+** the "cabal: Version mismatch between ghc and ghc-pkg" error
+   It happened when I ran `cabal repl`.
+   I solved it by deleting `dist-newstyle/` and rebuilding.
 * some Haskell libraries
 ** [[id:ca586cff-5010-4624-8886-9d53915e5469][Debug.Trace (Haskell library) is magic]]
 ** [[id:3c92b639-c552-42d7-87e2-7fd1cf560f74][System.Random (Haskell library)]]

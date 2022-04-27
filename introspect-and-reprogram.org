@@ -10,8 +10,6 @@
    :PROPERTIES:
    :ID:       506d431f-c5ac-486a-a7e6-6dfa6c09d69b
    :END:
-** TODO REMEMBER: I like "photocopying"
-   Shuffling my mindmaps is not something I do *for* the data; it is how I think.
 ** [[id:24169b3e-6d41-48dd-9367-6df7a3565bed][my priorities]]
 ** creating and courage
    for lyrics
@@ -28,7 +26,7 @@
     but it did not come quickly,
     and once I was underwater I stopped trying.
 ** be [[id:73e229ee-a416-41db-a23a-4d960b2e559f][systematic about social connections]]
-** On personal change
+** on personal change
 *** At 42 I acclimated physically (and behaviorally) to Villavo.
     The first and maybe the second time I was here, I was somewhat useless.
     The heat was opressive, and I got sick a lot.
@@ -39,6 +37,6 @@
     I've been fine for the four weeks since.
 *** paraphrased: "Nobody comes back changed from an amazing vacation in Hawaii. It's suffering that does that."
 **** -- David Brooks, on Tyler Cowen's podcast, circa 2019?
-** Counting words depends on what I'm reading
+** Counting words depends on what I'm reading.
 *** If I'm really into it, I don't.
 *** I ?never do when reading my own notes.

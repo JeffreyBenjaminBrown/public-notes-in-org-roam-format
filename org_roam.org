@@ -4,7 +4,7 @@
 #+title: org-roam
 * refs
 ** for help : the Discourse group
-* org-roam-extract-overlays
+* org-roam-extract-subtree
   :PROPERTIES:
   :ID:       75c26e6a-e72c-4ae7-9c30-39efe7c164c9
   :END:

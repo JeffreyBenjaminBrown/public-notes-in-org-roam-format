@@ -9,10 +9,6 @@
   If the app runner stops working that might be why.
   But then I installed an app (`cmatrix`) vis NixOS,
   and it still worked.
-* TODO asking NixOS: Can't rebuild, unstable, bower-json broken.
-** currently trying: rebuild without spago
-** the link
-   https://discourse.nixos.org/t/cant-rebuild-on-nixos-unstable-because-a-package-is-marked-as-broken-should-i-fix-it-or-ditch-it
 * TODO ? stop using deprecated name in libuv derivation
 ** TODO Do I even use that libuv derivation?
    The phrase `libuv` is nowhere in my config/ folder.

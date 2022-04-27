@@ -2,8 +2,7 @@
 :ID:       97e78830-11c4-4736-afc3-4669fd94ee2e
 :END:
 #+TITLE: microtonality
-* online microtonal Terpstra keyboard
-  http://terpstrakeyboard.com/web-app/keys.htm
+* [[id:ba41a627-bebd-4a9a-a5be-7ed2f50ad170][Terpstra microtonal keyboard online]]
 * [[id:339f3f3a-49c2-4dfd-a66c-de482ccec92a][my introductory microtonal music recommendations]]
 * [[id:94252b7e-c638-434b-a2e4-822d96ef5b07][microtonal polyphonic audio to MIDI: asking Reddit Audio Engineering]]
 * microtonal instruments, including electronic

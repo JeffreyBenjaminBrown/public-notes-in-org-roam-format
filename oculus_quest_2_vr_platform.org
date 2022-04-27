@@ -2,6 +2,7 @@
 :ID:       7d829b36-5932-41b0-b697-e9b9c8e8627a
 :END:
 #+title: Oculus Quest 2 (VR platform)
+* [[id:04b961f6-ed58-4bbb-b50b-d06eb542fc38][my first impressiosns of Thrill of the Fight and the Oculus Quest 2]]
 * Quest 2 games for fitness
   :PROPERTIES:
   :ID:       b798c848-e6ee-431e-b5ed-5b023b965992
@@ -10,7 +11,7 @@
    https://www.washingtonpost.com/technology/2022/04/21/vr-workout-games
 ** The most aerobically taxing, in order.
    Supernatural
-   Thrill of the Fight (boxing)
+   [[id:518698de-1faa-4dd9-bc70-c06bc2ab34a3][Thrill of the Fight (VR boxing game)]]
    Fit XR
    Until You Fall (swords)
    Beat Saber

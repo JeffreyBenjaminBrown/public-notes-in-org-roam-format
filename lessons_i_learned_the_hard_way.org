@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       4e3a8b5e-e594-425f-93c5-ef16512a026a
+:END:
+#+title: lessons I learned the hard way, or repeatedly
+* Keeping a [[id:51fab985-a4cf-4ca7-8e5a-55a26d224737][hard disk in bubble wrap backfired]].
+* [[id:2597d25f-e6f5-488e-aa52-277dd287526b][I like rewriting my notes.]]

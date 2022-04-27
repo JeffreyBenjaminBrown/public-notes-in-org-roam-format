@@ -2,6 +2,7 @@
 :ID:       9e45ccd9-d6e0-4870-8f13-cc11135334d0
 :END:
 #+title: how to avoid losing notes in a knowledge graph
+* [[id:ce9e0a8d-19fa-48eb-9d0e-6cedcb0fdc99][notes, how to take]]
 * file each new note well, although not excessively
 ** choose its parents well
    When I write a note I try to figure out everything it bears on -- what it's about, what projects it would help, what it has implications for the truth or falsity of, etc. Call that set X. I then filter that set to those things I actually care enough about to bother keeping track of them. (For instance, maybe the note has implications for love, but I don't care; if so, love is in X but not Y.)
@@ -13,6 +14,7 @@
    Synonyms prevent something of a problem. I often search for "belongings" and then remember "oh yeah, I call those possessions". The ROAM_ALIASES field helps for that.
 * Don't worry about losing conscious track of any note -- losing track is, in fact, critical to successful usage of a knowledge graph.
   Even if you perfectly anticipate and curate the set Y when you create the new note, it's possible that you won't look up anything in Y for a long time. That's fine! Continuing the above example, suppose the note you wrote was about love and how to avoid burnout at work, and you put it under those two things, and then never looked at those two things. That means those two things weren't an issue for you.
+* [[id:801dad54-f3a9-4b27-97f5-3e3ab3b6dbe5][I like reading and rewriting my notes.]]
 * onsult your notes : why and how
   :PROPERTIES:
   :ID:       7b2cd1a3-bac4-4057-90e3-a2698a2fdefb

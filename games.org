@@ -2,7 +2,7 @@
 :ID:       4ac3616a-5baf-46b6-ba87-d2baccedcae0
 :END:
 #+title: games
-* [[id:b798c848-e6ee-431e-b5ed-5b023b965992][Quest 2 games for fitness]]
+* [[id:b798c848-e6ee-431e-b5ed-5b023b965992][Oculus Quest 2 games for fitness]]
 * [[id:468a4341-ce88-4797-8123-cd16e210cd48][foam rods (for fighting)]]
 * Boggle online
 https://www.puzzle-words.com/boggle-4x4/

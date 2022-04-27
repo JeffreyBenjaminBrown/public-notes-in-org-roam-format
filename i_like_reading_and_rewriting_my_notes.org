@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       801dad54-f3a9-4b27-97f5-3e3ab3b6dbe5
+:END:
+#+title: reading and rewriting my notes
+* TODO merge: [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][onsult your notes : why and how]]
+* Be clear on the purpose.
+  Shuffling mindmaps is not something I do for the mindmap's sake!
+  It is how I think.
+* Remember that I like rewriting my notes.
+  :PROPERTIES:
+  :ID:       2597d25f-e6f5-488e-aa52-277dd287526b
+  :END:
+  For some reason this is hard.
+  I learn the lesson repeatedly, and it surprises me each time.
+** Maybe the question is *when* do I like it?
+   :PROPERTIES:
+   :ID:       99721b37-30b0-4475-81fa-42b6f67e6ec8
+   :END:
+   Do I like it when it's productive?
+   Do I know when it's productive?

@@ -3,6 +3,11 @@
 :END:
 #+title: disk drives, formats and partitions
 * PITFALL: [[id:5971a46e-00fa-4a25-8a75-328baf0d34be][Some formats might be slow]].
+* HDDs can get hot.
+  :PROPERTIES:
+  :ID:       51fab985-a4cf-4ca7-8e5a-55a26d224737
+  :END:
+** Enough to break if they're in bubble wrap.
 * check for [[id:4b63fbab-a664-43e1-9a45-b49b8dbdb4bc][disk errors]]
 * formats: compatibility, capacity, maybe speed
   :PROPERTIES:
