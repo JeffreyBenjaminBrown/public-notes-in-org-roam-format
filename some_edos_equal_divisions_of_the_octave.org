@@ -1567,6 +1567,19 @@ the familiar septimal tritone (7:5)
         , 29 steps; 13 % 8 ; string 2 ; fret 3
 * 43-edo
 ** meantone
+** TODO 43 4 7 (bosanquet)
+   [ 0  steps;  1 % 1 ; string 0 ; fret 0
+   , 43 steps;  2 % 1 ; string 5 ; fret 2
+   , 25 steps;  3 % 2 ; string 3 ; fret 1
+   , 14 steps;  5 % 4 ; string 2 ; fret 0
+   , 35 steps;  7 % 4 ; string 5 ; fret 0
+   , 7  steps;  9 % 8 ; string 1 ; fret 0
+   , 20 steps; 11 % 8 ; string 0 ; fret 5 |
+                        string 4 ; fret -2
+   , 30 steps; 13 % 8 ; string 2 ; fret 4 |
+                        string 6 ; fret -3 |
+         (octave lower) string 1 ; fret -5
+   , 39 steps; 15 % 8 ; string 5 ; fret 1
 ** TODO 43 3 8: super-easy, 7 strings 6 frets for 31-lim -17
    :PROPERTIES:
    :ID:       b3c76110-40b6-4e2d-a2c5-732e078016d8
@@ -1581,18 +1594,15 @@ the familiar septimal tritone (7:5)
 ** 43 4 7: easy on keybaord
    Narrow pitch range - octave at (5,1).
    Wide frets - 10.75 per octave.
-** 43 4 7
-    , etrArea = 35
-    , etrLayout =
-        [ 0 steps; 1 % 1 ; string 0 ; fret 0
-        , 43 steps; 2 % 1 ; string 5 ; fret 2
-        , 25 steps; 3 % 2 ; string 3 ; fret 1
-        , 14 steps; 5 % 4 ; string 2 ; fret 0
-        , 35 steps; 7 % 4 ; string 5 ; fret 0
-        , 7 steps; 9 % 8 ; string 1 ; fret 0
-        , 20 steps; 11 % 8 ; string 0 ; fret 5
-        , 30 steps; 13 % 8 ; string 2 ; fret 4
-        , 39 steps; 15 % 8 ; string 5 ; fret 1
+** 43 18 7
+   [ 0 steps;  1 % 1;  string 0; fret 0
+   , 43 steps; 2 % 1;  string 2; fret 1
+   , 25 steps; 3 % 2;  string 1; fret 1
+   , 14 steps; 5 % 4;  string 0; fret 2
+   , 35 steps; 7 % 4;  string 0; fret 5
+   , 7 steps;  9 % 8;  string 0; fret 1
+   , 20 steps; 11 % 8; string -2; fret 8
+   , 30 steps; 13 % 8; string -3; fret 12
 * 44-edo
 ** 44 2 9
          [ 0 steps; 1 % 1 ; string 0 ; fret 0

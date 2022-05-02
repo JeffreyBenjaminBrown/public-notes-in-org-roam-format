@@ -33,6 +33,7 @@
 *** The solution was to add an ellipsis:
       {config, lib, pkgs, options, modulesPath, ...}:
     "so that unknown arguments are ignored".
+* [[id:05e52e8c-8ab3-4e83-9bde-f6595a92ba45][debugging in NixOS]]
 * [[id:52b7a722-8591-4f9b-a290-cccd1639e565][NixOS packages: create, build, install, publish]]
 * [[id:48cdd2bf-b45b-44a7-b7f8-43cbf73fa7b8][NixOS, my config]]
 * [[id:80760d51-8ae0-4870-9d1d-8c16257c3eee][NixOS, programming in]]

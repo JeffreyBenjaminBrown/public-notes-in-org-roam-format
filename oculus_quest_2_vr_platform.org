@@ -18,3 +18,4 @@
    Fit XR
    Until You Fall (swords)
    Beat Saber
+* [[id:b6962c78-a6c5-401c-84ee-f72ca88e48a3][Oculus Quest 2 "Tracking Lost" error recovery strategies]]

@@ -2,6 +2,9 @@
 :ID:       e3544bcf-ff56-4667-b924-3b7baaea26ac
 :END:
 #+title: SuperDirt (plugin for SuperCollider)
+* TODO automatically trim initial silence
+** use SoX or an onset detection library (Python has one)
+   https://club.tidalcycles.org/t/can-the-start-and-end-points-of-the-samples-be-altered/4026/7
 * installing it
   serial, in scide
 ** This probably is not required.

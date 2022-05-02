@@ -7,6 +7,8 @@
 ** https://tidalcycles.org/
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
+* TODO Easy-to-use state in Tidal?!
+  https://club.tidalcycles.org/t/tidal-synth-how-to-assign-a-value-to-a-variable/4012
 * TODO Share the scale stuff
   ~/code/music/Tidal/tidal+epic/demo/scales.hs
 * TODO cover Moon Hooch

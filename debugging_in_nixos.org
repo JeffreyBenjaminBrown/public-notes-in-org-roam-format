@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       05e52e8c-8ab3-4e83-9bde-f6595a92ba45
+:END:
+#+title: debugging in NixOS
+* nixos-rebuild --show-trace
+  Alas the stack trace is confusing,
+  but this is how to find the requirement
+  (i.e. the line in my config)
+  that causes a given error.

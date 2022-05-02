@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       b6962c78-a6c5-401c-84ee-f72ca88e48a3
+:END:
+#+title: Oculus Quest 2 "Tracking Lost" error recovery strategies
+* source
+  https://uploadvr.com/tracking-lost-quest-2/
+* the list
+** complete reset
+   not just enter and exit standby
+** reset Guardian
+   When the error happens, accept the option to turn off 6DOF tracking,
+   then reset it in Settings.
+** clear Guardian history
+** clean the 4 cameras
+** change the space
+*** more light
+*** no reflective surfaces
+*** no IR signals (e.g. remote controls)
+** adjust tracking frequency
+   It's on "auto" by default but can be set manually.
+   In Colombia, as in the US, the electrical frequency is 60 Hz,
+   so that's what it should be.
+** avoid standby mode
