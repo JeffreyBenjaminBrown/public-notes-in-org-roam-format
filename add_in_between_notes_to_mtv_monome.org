@@ -1,0 +1,63 @@
+:PROPERTIES:
+:ID:       88a82a79-2482-4ca1-82a3-91848fda271a
+:END:
+#+title: add in-between notes to mtv-monome
+* The idea
+  If you press two adjacent notes,
+  what you should hear is one note at their average.
+* Some noteworthy edo pairs that are "fat-finger friendly" in this sense.
+  By hand, I analyzed everything from 17 to 56.
+** not as great as you might think
+*** 23, 46
+    The problem is that 23 sucks.
+    Harmonics 3, 5, 7 and 11 all require fat-fingering.
+*** 29, 58
+    The problem is that 23 sucks.
+    Harmonics 5, 7, 11 and 13 all require fat-fingering.
+*** 43, 86
+    The extra accuracy doesn't amount to very much --
+    86 edo just isn't that much better than 43.
+*** 40, 80
+    Too many harmonics require fat-fingering.
+** pretty great
+*** 34, 68
+    In the 17-limit, only 7/4 and 11/8 require fat-fingering.
+*** 36, 72
+    In the 29-limit, only 5/4 and 13/8 require fat-fingering.
+*** 37, 74
+    In the 19-limit, only 3/2 requires fat-fingering.
+    (But if 3/2 needs it, so do a host of other nonprime intervals.)
+*** 41, 82
+    :PROPERTIES:
+    :ID:       e0b10cc1-3a7c-4d9d-9e35-8ba6352b8f6c
+    :END:
+    In the 13-limit, only 13/8 would change.
+*** 46, 92
+    :PROPERTIES:
+    :ID:       7dcff6ba-7086-4c81-bf95-6dc12e8ae897
+    :END:
+    In the 33-limit (!),
+    the only harmonics that need fat-fingering are 19 and 29.
+*** 47, 94
+    In the 17-limit, only 3/2 and 11/8 need fat-fingering.
+    (But if 3/2 needs it, so do a host of other nonprime intervals.)
+*** 50, 100
+    :PROPERTIES:
+    :ID:       f9f577f2-95d9-4e48-9bcb-f9f4d8141d00
+    :END:
+    7, 17, 19, 31 are the least 4 harmonics that need fat-fingering
+*** 53, 106
+    :PROPERTIES:
+    :ID:       d9743c5d-c831-4b0d-ba89-45be1a32d62c
+    :END:
+    11, 17, 29, 31 are the least 4 harmonics that need fat-fingering
+*** 57, 114
+    In the 29-limit (!) the only harmonics that need adjustment
+    are 3 and 5.
+    Moreover, without adjustment they're only exactly as bad as in 19-edo.
+    But there seem to be no great layouts for 57-edo.
+** ambiguous
+*** 22, 44
+    In the 17-limit, the only harmonic needing fat-fingering is 13/8.
+    But the 7/4 is pretty wide.
+    Harmonically, 41-edo dominates 44-edo.

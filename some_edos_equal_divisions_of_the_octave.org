@@ -659,6 +659,8 @@
         , 61 steps; 27 % 16 ; string 1 ; fret 6
         , 69 steps; 29 % 16 ; string 1 ; fret 7
 ** TODO 82-edo
+   82-edo is a flat system; it's worth playing a flat 11/8.
+*** [[id:e0b10cc1-3a7c-4d9d-9e35-8ba6352b8f6c][41-edo is fat-finger friends with 82-edo]].
 *** TODO 17\82 x 3\82: 23-lim -17 in 5x8
     [ 0 steps; 1 % 1 ; string 0 ; fret 0
     , 82 steps; 2 % 1 ; string 5 ; fret - 1
@@ -1518,6 +1520,7 @@ super-narrow fourth (13:10, 454 cents)
 super-wide fourth (11:8)
 the familiar septimal tritone (7:5)
 * 41-edo
+** [[id:e0b10cc1-3a7c-4d9d-9e35-8ba6352b8f6c][41-edo is fat-finger friends with 82-edo]].
 ** Kite: 41 13 2
 ** Narrow Kite: 41 11 2
 ** Bosanquet: 41 7 3. Slightly more* compact, much easier 5-limit
@@ -1642,6 +1645,7 @@ the familiar septimal tritone (7:5)
         , 31 steps; 13 % 8 ; string 4 ; fret - 3
         , 40 steps; 15 % 8 ; string 4 ; fret 0
 * 46-edo
+** [[id:7dcff6ba-7086-4c81-bf95-6dc12e8ae897][46-edo is fat-finger friendly with 92-edo.]]
 ** TODO 8\46 x 3\46: Bosanquet, 13-lim in 5x5 rather than 5x7
    And even the 15:8 isn't obviously more difficult
      than it is in 9\46 x 1\46.
@@ -1749,6 +1753,7 @@ This is on the Xen Wiki.
 	, 34 steps; 13 % 8 ; string 3 ; fret 2
 	, 44 steps; 15 % 8 ; string 3 ; fret 4
 * 50-edo
+** [[id:f9f577f2-95d9-4e48-9bcb-f9f4d8141d00][50-edo and 100-edo are fat-finger friendly.]]
 ** flat meantone system, fantastic at 23-limit
 ** 50 3 10: guitar-feas, 31-lim 6x8, 15-lim 6x6
    :PROPERTIES:
@@ -1832,6 +1837,7 @@ This is on the Xen Wiki.
    35 steps; 13 % 8 ; string 3 ; fret 2
    45 steps; 15 % 8 ; string 5 ; fret 0
 * 53-eedo
+** [[id:d9743c5d-c831-4b0d-ba89-45be1a32d62c][53-edo and 106-edo are fat-finger friendly.]]
 ** TODO 53 5 12: 0-area 4x8, or 4x4 without 13
     , etrArea = 48
     , etrLayout =
@@ -1937,13 +1943,13 @@ This is on the Xen Wiki.
       , 39 steps; 13 % 8 ; string 2 ; fret - 1
 * 57-edo (57 = 3*19)
 ** 57 5 18
- 57 steps = 2 % 1   : string 4   fret - 3
- 33 steps = 3 % 2   : string 1   fret 3
- 18 steps = 5 % 4   : string 1   fret 0
- 46 steps = 7 % 4   : string 2   fret 2
- 26 steps = 11 % 8  : string 2   fret - 2
- 40 steps = 13 % 8  : string 0   fret 8
- 5 steps  = 17 % 16 : string 0   fret 1
+ 57 steps =  2 %  1 : string 4   fret - 3
+ 33 steps =  3 %  2 : string 1   fret 3
+ 18 steps =  5 %  4 : string 1   fret 0
+ 46 steps =  7 %  4 : string 2   fret 2
+ 26 steps = 11 %  8 : string 2   fret - 2
+ 40 steps = 13 %  8 : string 0   fret 8
+  5 steps = 17 % 16 : string 0   fret 1
  14 steps = 19 % 16 : string - 2 fret 10
  30 steps = 23 % 16 : string 0   fret 6
  49 steps = 29 % 16 : string 3   fret - 1
@@ -2974,6 +2980,8 @@ Its worst harmonic is 3/2, at -4.7c error.
    77 steps; 29 % 16 ; string 6 ;   fret - 5
    86 steps; 31 % 16 ; string 3 ;   fret 7
 *** Ooctaves at (5,1) and (0,18) (and nowhere else).
+* 92-edo
+  [[id:7dcff6ba-7086-4c81-bf95-6dc12e8ae897][46-edo is fat-finger friendly with 92-edo.]]
 * TODO 94-edo
 ** For SSE, 94 dominates 135 in the 13-limit.
    :PROPERTIES:
@@ -3230,6 +3238,8 @@ Its worst harmonic is 3/2, at -4.7c error.
     , 75 steps; 27 % 16 ; string 0 ; fret 5
     , 85 steps; 29 % 16 ; string - 5 ; fret 15
     , 94 steps; 31 % 16 ; string - 2 ; fret 10
+* 100-edo
+** [[id:f9f577f2-95d9-4e48-9bcb-f9f4d8141d00][50-edo and 100-edo are fat-finger friendly.]]
 * 103-edo
   A flat system, astounding in the 31-limit sans 19.
   Apparently no good layouts.
@@ -3266,6 +3276,8 @@ Its worst harmonic is 3/2, at -4.7c error.
    , 48 steps; 11 % 8 ; string 1 ; fret 3
    , 73 steps; 13 % 8 ; string 1 ; fret 8
    , 94 steps; 15 % 8 ; string 3 ; fret - 1
+* 106-edo
+** [[id:d9743c5d-c831-4b0d-ba89-45be1a32d62c][53-edo and 106-edo are fat-finger friendly.]]
 * 109-edo
 ** harmonically incredible
    misses 6 31-limit primes by < 1c: 5,7,11,19,23,31

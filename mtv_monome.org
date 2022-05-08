@@ -43,6 +43,7 @@
     Now every note changes its pitch.
     Turning off the setting makes it end unless it's still fingered
     (at its most recent pitch).
+* TODO [[id:88a82a79-2482-4ca1-82a3-91848fda271a][add in-between notes to mtv-monome]]
 * TODO pitch-shift all notes
 ** idea
    Toggle the "mono the last voice" setting.
