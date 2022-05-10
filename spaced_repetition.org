@@ -9,6 +9,8 @@
 * the last time I reviewed
   7
 * review when time is odd
+** phanaeros/.../granular/go.py won't update from my cellphone connection.
+   Some step, probably pushing to AWS, fails.
 ** Why is keeping a [[id:51fab985-a4cf-4ca7-8e5a-55a26d224737][hard disk in bubble wrap stupid]]?
 ** List some (temporary) [[id:02d97f60-ef2a-4377-8169-300b97c07265][implications of having a bad knee]].
 ** What is the [[id:75c26e6a-e72c-4ae7-9c30-39efe7c164c9][org-roam command to create a new note from a headline and its contents]]?
