@@ -58,7 +58,13 @@
 * [[id:e38807e5-38c7-48e6-b8fa-f7388144b9b4][NixOS, bash commands to install, from the manual]]
 * handy commands, roughly ordered
 ** wifi password
-** nix-env -i emacs
+** check if the machine uses UEFI
+   ls /sys/firmware/efi
+   If that's present, it uses UEFI.
+** install some things
+   nix-env -iA nixos.emacs
+   nix-env -iA nixos.gnome.gnome-disk-utility
+   nix-env -iA nixos.tmux
 ** git config
    git config --global user.email "jeffbrown.the@gmail.com"
    git config --global user.name "JeffreyBenjaminBrown"

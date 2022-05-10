@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       197b7603-d7b2-49d2-adcb-636c30ea6d95
+:END:
+#+title: battery of my Oculus Quest 2
+Takes 8/7 of a minute to charge 1%,
+at least from 47% to 61%.

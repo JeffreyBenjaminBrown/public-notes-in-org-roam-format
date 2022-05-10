@@ -10,12 +10,15 @@
   :PROPERTIES:
   :ID:       b798c848-e6ee-431e-b5ed-5b023b965992
   :END:
-** See the table here.
+** A table
    https://www.washingtonpost.com/technology/2022/04/21/vr-workout-games
-** The most aerobically taxing, in order.
-   Supernatural
-   [[id:518698de-1faa-4dd9-bc70-c06bc2ab34a3][Thrill of the Fight (VR boxing game)]]
-   Fit XR
-   Until You Fall (swords)
-   Beat Saber
+*** The most aerobically taxing, in order.
+    Supernatural
+    [[id:518698de-1faa-4dd9-bc70-c06bc2ab34a3][Thrill of the Fight (VR boxing game)]]
+    Fit XR
+    Until You Fall (swords)
+    Beat Saber
+** Not in the table
+   Holopoint (archery)
 * [[id:b6962c78-a6c5-401c-84ee-f72ca88e48a3][Oculus Quest 2 "Tracking Lost" error recovery strategies]]
+* the [[id:197b7603-d7b2-49d2-adcb-636c30ea6d95][battery of my Oculus Quest 2]]

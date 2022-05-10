@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f1f88342-7fbd-42e5-a81c-1284474e39e3
+:END:
+#+title: La Fonda Mexicana (restaurant in Galerías, Bogotá, Colombia)
+* hours
+  de martes a sábado de 12 a 8 pm
+  domingos y festivos de 12 a 4 pm
+  descansan los lunes no festivos
