@@ -9,6 +9,7 @@
   If the app runner stops working that might be why.
   But then I installed an app (`cmatrix`) vis NixOS,
   and it still worked.
+* [[id:e3eb2aab-ceea-41a6-b321-f46dcfec4c5b][Phanaeros's 2022 Beelink server]]
 * TODO ? stop using deprecated name in libuv derivation
 ** TODO Do I even use that libuv derivation?
    The phrase `libuv` is nowhere in my config/ folder.

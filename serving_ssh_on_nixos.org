@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       7f8f413a-3ddd-4b39-a0a2-6c2d9f7447b3
+:END:
+#+title: serving SSH on NixOS
+* my question thread
+  https://discourse.nixos.org/t/newbie-openssh-server-questions/19064
+* openssh will start on boot, not waiting for login
+  "Most NixOS services are configured to auto-start when the system boots by default if you enable them, openssh is one of them."
+  https://discourse.nixos.org/t/newbie-openssh-server-questions/19064/3
+* advice
+** conflicting networking
+   :PROPERTIES:
+   :ID:       0845ee4c-9375-41ab-855a-73bda043b853
+   :END:
+*** probably should use this
+    networking.useDHCP = false;
+    networking.interfaces.enp1s0.useDHCP = true;
+    networking.interfaces.wlp2s0.useDHCP = true;
+*** and not this
+    networking.networkmanager.enable = true;
+** will need to use wpa_supplicant
+   rather than networkmanager,
+   once I've [[id:0845ee4c-9375-41ab-855a-73bda043b853][removed networkmanager from my config]].
