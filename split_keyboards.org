@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       b5f64daf-75d4-46c4-a9eb-d17ad82a30e1
+:END:
+#+title: split keyboards
+* Goldtouch GTU-0088 V2 Adjustable Ergonomic Keyboard
+  :PROPERTIES:
+  :ID:       41a0cd2c-5479-4be5-9eab-bb4941b81b88
+  :END:
+  What I've used for years.
+  Appears unavailable on Amazon.
+* Goldtouch GTP-0044 Go!2 Travel Keyboard
+  $82
+  Fewer keys than the [[id:41a0cd2c-5479-4be5-9eab-bb4941b81b88][Goldtouch GTU-0088]], smaller footprint.
+* KINESIS Freestyle2 Ergonomic Keyboard
+** The two halves can be moved independently.
+   They are only joined by a cable.
+** Cannot be angled skew to the surface it sits on.

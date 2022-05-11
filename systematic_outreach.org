@@ -1,11 +1,18 @@
 :PROPERTIES:
 :ID:       73e229ee-a416-41db-a23a-4d960b2e559f
+:ROAM_ALIASES: "socializing, systematic"
 :END:
-#+title: systematic outreach
-Hypothetical.
-* [[id:30478629-506c-4acf-aec8-b74e977a2234][Keep files on people]]
-* review those notes before meeting
-* Implement spaced repetition for outreach.
-** both for people I know and people I'd like to
-* Don't get discouraged by a failure fraction.
-  It's natural that not everyone has the time, imagination, or fit (with my interests) to sustain an interesting conversation. If I never run into disinterest I'm not reaching out enough. And if I do it doesn't mean they dislike me; they're probably flattered and|or wish they could take the opportunity.
+#+title: systematic socializing
+* [[id:30478629-506c-4acf-aec8-b74e977a2234][Keep, and know when to read and modify, files on people]].
+* planning
+** Know what I'm getting into before accepting an invitation.
+   e.g. when invited to a video call,
+   know who else is invited -- journalists? politicians?
+* outreach
+** Implement spaced repetition for outreach.
+*** both for people I know and people I'd like to
+** Don't get discouraged by a failure fraction.
+   It's natural that not everyone has the time, imagination, or fit (with my interests) to sustain an interesting conversation. If I never run into disinterest I'm not reaching out enough. And if I do it doesn't mean they dislike me; they're probably flattered and|or wish they could take the opportunity.
+* conversation
+** Ask people about their life stories, decisions
+*** Normally they talk about the recent.

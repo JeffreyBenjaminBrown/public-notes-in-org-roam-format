@@ -1649,19 +1649,66 @@ the familiar septimal tritone (7:5)
         , 40 steps; 15 % 8 ; string 4 ; fret 0
 * 46-edo
 ** [[id:7dcff6ba-7086-4c81-bf95-6dc12e8ae897][46-edo is fat-finger friendly with 92-edo.]]
-** TODO 8\46 x 3\46: Bosanquet, 13-lim in 5x5 rather than 5x7
-   And even the 15:8 isn't obviously more difficult
-     than it is in 9\46 x 1\46.
-   [  0 steps;  1 % 1 ; string 0 ; fret 0
-   , 46 steps;  2 % 1 ; string 5 ; fret 2
-   , 27 steps;  3 % 2 ; string 3 ; fret 1
-   , 15 steps;  5 % 4 ; string 3 ; fret - 3
-   , 37 steps;  7 % 4 ; string 5 ; fret - 1
-   ,  8 steps;  9 % 8 ; string 1 ; fret 0
-   , 21 steps; 11 % 8 ; string 3 ; fret - 1
-   , 32 steps; 13 % 8 ; string 4 ; fret 0
-   , 42 steps; 15 % 8 ; string 6 ; fret - 2
-** 46 5 9: 31-lim 5x7 brick, 23-lim 5x5, octave (4,2), frets like 9-edo
+** 9\46 x 1\46: My benchmark, 13- and 31-lim both in 5x7
+   0  steps;  1 % 1;  string 0; fret 0
+   46 steps;  2 % 1;  string 5; fret 1
+   27 steps;  3 % 2;  string 3; fret 0
+   15 steps;  5 % 4;  string 1; fret 6
+   37 steps;  7 % 4;  string 4; fret 1
+   8  steps;  9 % 8;  string 1; fret -1
+   21 steps; 11 % 8;  string 2; fret 3
+   32 steps; 13 % 8;  string 3; fret 5
+   42 steps; 15 % 8;  string 4; fret 6
+   4  steps; 17 % 16; string 0; fret 4
+   11 steps; 19 % 16; string 1; fret 2
+   18 steps; 21 % 16; string 2; fret 0
+   24 steps; 23 % 16; string 2; fret 6
+   30 steps; 25 % 16; string 3; fret 3
+   35 steps; 27 % 16; string 4; fret -1
+   39 steps; 29 % 16; string 4; fret 3
+   44 steps; 31 % 16; string 5; fret -1
+** TODO 9\46 x 2\46: 31-lim in 4x7, octave (5,0.5), guitar-feas
+*** the layout
+    0  steps;  1 % 1;  string 0; fret 0
+    46 steps;  2 % 1;  string 4; fret 5
+    27 steps;  3 % 2;  string 3; fret 0
+    15 steps;  5 % 4;  string 1; fret 3
+    37 steps;  7 % 4;  string 3; fret 5
+    8  steps;  9 % 8;  string 0; fret 4
+    21 steps; 11 % 8;  string 1; fret 6
+    32 steps; 13 % 8;  string 2; fret 7
+    42 steps; 15 % 8;  string 4; fret 3
+    4  steps; 17 % 16; string 0; fret 2
+    11 steps; 19 % 16; string 1; fret 1
+    18 steps; 21 % 16; string 2; fret 0
+    24 steps; 23 % 16; string 2; fret 3
+    30 steps; 25 % 16; string 2; fret 6
+    35 steps; 27 % 16; string 3; fret 4
+    39 steps; 29 % 16; string 3; fret 6
+    44 steps; 31 % 16; string 4; fret 4
+** TODO 8\46 x 3\46: Bosanquet, 13-lim in 6x5, 31-lim in 7x6
+*** the layout
+    0  steps;  1 % 1;  string 0; fret 0
+    46 steps;  2 % 1;  string 5; fret 2
+    27 steps;  3 % 2;  string 3; fret 1
+    15 steps;  5 % 4;  string 3; fret -3
+    37 steps;  7 % 4;  string 5; fret -1
+    8  steps;  9 % 8;  string 1; fret 0
+    21 steps; 11 % 8;  string 3; fret -1
+    32 steps; 13 % 8;  string 4; fret 0
+    42 steps; 15 % 8;  string 6; fret -2
+    4  steps; 17 % 16; string 2; fret -4
+    11 steps; 19 % 16; string 1; fret 1
+    18 steps; 21 % 16; string 3; fret -2
+    24 steps; 23 % 16; string 3; fret 0
+    30 steps; 25 % 16; string 3; fret 2
+    35 steps; 27 % 16; string 4; fret 1
+    39 steps; 29 % 16; string 6; fret -3
+    44 steps; 31 % 16; string 7; fret -4
+*** downsides
+    Minor thirds are a little harder.
+    It's more confusing than 9\46 x 1\46.
+** TODO 46 5 9: 31-lim in 6x7, 17-lim in 4x6, octave 4-2, frets like 9-edo
    :PROPERTIES:
    :ID:       d3e9851f-5276-4a8f-9cd8-e9c5417d5940
    :END:
@@ -1683,7 +1730,8 @@ the familiar septimal tritone (7:5)
   39 steps; 29 % 16 ; string 6 ;   fret - 3
   44 steps; 31 % 16 ; string 6 ;   fret - 2
 ** 46 2 17: a stretch but guitar-feasible
-   The 7%4 looks bad but 10 frets in 23-edo is only
+   The 7%4 looks bad,
+   but 10 frets in 23-edo is only just over 5 frets of 12-edo.
    [ 0  steps; 1  % 1 ; string 0 ; fret 0
    , 46 steps; 2  % 1 ; string 2 ; fret 6
    , 27 steps; 3  % 2 ; string 1 ; fret 5

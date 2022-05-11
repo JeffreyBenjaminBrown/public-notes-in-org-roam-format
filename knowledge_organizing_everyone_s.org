@@ -26,3 +26,4 @@
 ** [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
 * [[id:7ba3aeee-378b-41b9-89ef-2658dc19b9ea][conspiracies, Edward Snowden on]]
 * why knowledge graphs matter
+* [[id:db1dbf70-abfa-4623-9216-69cfe0ed3c55][logseq-query (query language for logseq-formatted graph data)]]

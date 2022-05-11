@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b0709556-766b-4fb1-b42d-7fa320dd387c
+:END:
+#+title: estimation
+* [[id:ecfeee79-13d4-42f5-adf7-b3444c755c91][how to estimate (e.g. duration)]]

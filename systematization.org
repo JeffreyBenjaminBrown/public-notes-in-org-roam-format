@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       9619c955-6dbe-4001-ba8f-00421984aca3
+:END:
+#+title: systematization
+* systematizing some things ordinarily not systematized
+** [[id:ecfeee79-13d4-42f5-adf7-b3444c755c91][to estimate anticipated duration]]
+** [[id:73e229ee-a416-41db-a23a-4d960b2e559f][socializing]]

@@ -3,12 +3,14 @@
 :END:
 #+title: science and nearby fields
 * [[id:5a9e5a9f-8e1b-4487-ba1d-51692d73dd89][astronomy]]
-* [[id:9229a918-375c-4e1b-b775-bf5da596a371][engineering]]
 * [[id:974d25f4-56a0-4dd9-a066-7790dd40d0f7][biology]]
 ** [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
+* [[id:001d7913-c431-461c-92ae-a6a39394856c][computer science]]
+* [[id:9229a918-375c-4e1b-b775-bf5da596a371][engineering]]
+* [[id:b0709556-766b-4fb1-b42d-7fa320dd387c][estimation]]
 * [[id:8fd004bd-338a-40a0-8634-b22dc7ee3765][finance]]
 * [[id:c0650349-d298-4ede-bad2-704bb4f1296f][geography]]
-* [[id:001d7913-c431-461c-92ae-a6a39394856c][computer science]]
 * [[id:c563e6be-631d-4f23-923d-050498334e2a][mathematics]]
-* [[id:3570b8e0-1c1b-482c-bbb1-18c0151e2e4f][political science]]
 * [[id:b31e0b2c-9bce-428a-b96f-832d0ea1e6e7][paleontology]]
+* [[id:3570b8e0-1c1b-482c-bbb1-18c0151e2e4f][political science]]
+* [[id:9619c955-6dbe-4001-ba8f-00421984aca3][systematization]]

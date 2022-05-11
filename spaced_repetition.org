@@ -7,7 +7,7 @@
   search for "internalize", "spaced repetition", maybe "to learn", "remember"
 * todo ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * the last time I reviewed
-  7
+  8
 * review when time is odd
 ** phanaeros/.../granular/go.py won't update from my cellphone connection.
    Some step, probably pushing to AWS, fails.
@@ -29,24 +29,10 @@
 * review when time is equal to 4 mod 8
 ** Why and how to [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult knowledge graph notes]]?
 ** What are some [[id:bbcc8ac7-7852-4d97-a624-0c8928549a42][things that might help me read better]]?
-** When I receive something from someone, do what?
-   Record that they can provide that,
-   because I might need to know that they can provide that.
-** Organizing my notes on money felt good.
-   I had procrastinated it maybe mainly because I thought it wouldn't.
-   And of course the procrastination felt bad.
-** [[id:14425786-4f89-4fc3-8bf7-9c31ccaba025][Linked data facilitates writing flashcards.]]
-** When I am invited to something (e.g. with journalists).
-   Make sure I know who's coming before responding.
-** Ask people about their life stories, decisions
-*** Normally they talk about the recent.
-** [[id:ecfeee79-13d4-42f5-adf7-b3444c755c91][how to estimate (e.g. duration)]]
 ** coding: [[id:dbdc84fc-7cb4-4fa9-99e9-0b8b8f3f8de2][Duplication is dangerous.]]
 ** coding: [[id:59478b79-70e8-4422-8ed8-78a62d801a98][Make names long enough]].
 ** coding: [[id:6e66c817-c802-4b37-9467-4bfa61f3965b][In git, what is fragile?]]
 ** [[id:d283b6a3-205b-4a7c-9338-aa458f091691][Use my "prefix-date-uri" script.]]
-** In Emacs, [[id:73882d3f-fe8a-437c-964c-c34144cca759][`C-x space` is a better way to delineate rectangles.]]
-** cash is in mic box
 ** [[id:1bfa7cac-6c4c-49ec-aacf-c517884ffd8a][? could the email count go awry]]
 * reviewed, still no insight
 ** (Aspirational) mimicry can substitute for rationality.
@@ -64,8 +50,4 @@
 *** [[id:3305442a-e435-4f84-a403-9509963497b7][Note titles should be complete sentences.]]
 *** [[id:edca15b1-37f9-46ec-bb32-8a3090242b0d][? Use backlinks to define notes extrinsically]]
 * DONE internalized
-** Why to keep my earpbuds in their cardboard box.
-*** Protect the spongey parts from getting ripped off in a tight pocket
-*** Hear when they fall out of pocket
-** In python, what's a terse way to repeat a list?
-[1]*3 = [1,1,1]
+** [[id:14425786-4f89-4fc3-8bf7-9c31ccaba025][Linked data facilitates writing flashcards.]]
