@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       23190a98-ca52-42ed-b616-d78c42f8a737
+:END:
+#+title: Azeron keypad
+* properties
+** 25 keys and two thumbsticks on one hand
+** 3d-printed
+** intended for gaming
+* a review on Youtube
+  https://youtu.be/2QIHMCzVwe8

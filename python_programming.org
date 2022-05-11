@@ -28,3 +28,6 @@
 ** [[id:4f41726e-6865-4329-91c2-9f8716a5ba06][filelock (Python library)]]
 ** [[id:23e33a81-1b9b-4914-822a-c09e033d045a][csvlib (Python library)]]
 ** [[id:e2790daf-d86a-4b1b-994b-792d2ac3b3a6][Hypothesis (python library for property testing)]]
+* some obscure Python syntax
+** lists can be "multiplied"
+   [1]*3 = [1,1,1]

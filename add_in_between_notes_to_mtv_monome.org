@@ -20,19 +20,24 @@
 *** 40, 80
     Too many harmonics require fat-fingering.
 ** pretty great
+*** TODO 31, 62 : 13, 17, 19, 29, 31 ...
+    Turns it into a flat system.
+    In the 23-limit only 13, 17 and 19 "need" adjusting.
 *** 34, 68
-    In the 17-limit, only 7/4 and 11/8 require fat-fingering.
+    In the 17-limit,
+    only 7/4 and 11/8 require fat-fingering.
 *** 36, 72
-    In the 29-limit, only 5/4 and 13/8 require fat-fingering.
+    In the 29-limit,
+    only 5/4 and 13/8 require fat-fingering.
 *** 37, 74
     In the 19-limit, only 3/2 requires fat-fingering.
     (But if 3/2 needs it, so do a host of other nonprime intervals.)
-*** 41, 82
+*** TODO 41, 82 : 13, 17, 23, 37 ...
     :PROPERTIES:
     :ID:       e0b10cc1-3a7c-4d9d-9e35-8ba6352b8f6c
     :END:
     In the 13-limit, only 13/8 would change.
-*** 46, 92
+*** TODO 46, 92 : 19, 29, 37 ...
     :PROPERTIES:
     :ID:       7dcff6ba-7086-4c81-bf95-6dc12e8ae897
     :END:
@@ -45,7 +50,7 @@
     :PROPERTIES:
     :ID:       f9f577f2-95d9-4e48-9bcb-f9f4d8141d00
     :END:
-    7, 17, 19, 31 are the least 4 harmonics that need fat-fingering
+    7, 17, 19, 31 are the least 4 harmonics that need fat-fingering.
 *** 53, 106
     :PROPERTIES:
     :ID:       d9743c5d-c831-4b0d-ba89-45be1a32d62c
@@ -61,3 +66,10 @@
     In the 17-limit, the only harmonic needing fat-fingering is 13/8.
     But the 7/4 is pretty wide.
     Harmonically, 41-edo dominates 44-edo.
+*** 27, 54
+    :PROPERTIES:
+    :ID:       b98176fc-85fb-4274-a248-21ec9ab6a65a
+    :END:
+    If you're using 27 as a sharp system,
+    then the only notes in the 33-limit that need adjusting are
+    11/8 and 17/8.

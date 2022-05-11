@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       c0650349-d298-4ede-bad2-704bb4f1296f
+:END:
+#+title: geography
+* online geography games
+  :PROPERTIES:
+  :ID:       b9db2e1e-6d06-4b7d-b290-d77eb3e9bf22
+  :END:
+  https://geopuzzle.org/puzzle/easy/

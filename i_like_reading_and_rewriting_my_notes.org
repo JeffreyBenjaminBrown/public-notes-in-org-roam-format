@@ -18,3 +18,4 @@
    :END:
    Do I like it when it's productive?
    Do I know when it's productive?
+   Do I like reading/organizing a topic when I've been procrastinating the topic? (I think so.)

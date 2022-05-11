@@ -2,18 +2,24 @@
 :ID:       30478629-506c-4acf-aec8-b74e977a2234
 :END:
 #+title: how to take notes on people and communication
-* fields for the file on them
-** outbox
-   Things I'd like to talk to them about.
-*** TODO See also "interests", which [[id:adb23c07-cfdf-4510-8f43-b1c4b6f68c38][might dominate]] this field.
-** contact info
-** contact history, most recent at top
-   Include the medium used, in case a medium fails.
-** interests
-** history
-** shared history
-** relationships
-** creations (inc. writings)
-* link to that note from any notes I might search for them
-  e.g. groups
-* bump their name to the top of my list of people I like to contact
+* how to create the note
+** fields for the file on them
+*** outbox
+    Things I'd like to talk to them about.
+**** TODO See also "interests", which [[id:adb23c07-cfdf-4510-8f43-b1c4b6f68c38][might dominate]] this field.
+*** contact info
+*** contact history, most recent at top
+    Include the medium used, in case a medium fails.
+*** interests
+*** history
+*** shared history
+*** relationships
+*** creations (inc. writings)
+** link to that note from any notes I might search for them
+   e.g. groups
+* Review the note before meeting.
+* when to modify the note
+** After interaction, bump their name to the top of my [[id:7d9ca04f-a02e-49ca-9eb7-5d363eb9d235][contacts of interest]].
+** When I receive something from someone, take a note.
+   Record that they can provide that,
+   because I might need to know that they can provide that.

@@ -15,13 +15,13 @@
 * Don't worry about losing conscious track of any note -- losing track is, in fact, critical to successful usage of a knowledge graph.
   Even if you perfectly anticipate and curate the set Y when you create the new note, it's possible that you won't look up anything in Y for a long time. That's fine! Continuing the above example, suppose the note you wrote was about love and how to avoid burnout at work, and you put it under those two things, and then never looked at those two things. That means those two things weren't an issue for you.
 * [[id:801dad54-f3a9-4b27-97f5-3e3ab3b6dbe5][I like reading and rewriting my notes.]]
-* onsult your notes : why and how
+* how to read a knowledge graph
   :PROPERTIES:
   :ID:       7b2cd1a3-bac4-4057-90e3-a2698a2fdefb
   :END:
-** do it
+** Know when to read it. Treat them like Google.
    When you have an itch to do anything, part of scratching it should be to look in your notes for anything you've already written on it before.
-** consult the upper onotology, too
+** Consult the upper onotology, too.
    Often the parents of the note you're reading are relevant.
    Check them out.
 * learn to search your notes

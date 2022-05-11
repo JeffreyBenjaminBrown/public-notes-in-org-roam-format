@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       db1dbf70-abfa-4623-9216-69cfe0ed3c55
+:ROAM_ALIASES: logseq-query
+:END:
+#+title: logseq-query (query language for logseq-formatted graph data)
+* https://github.com/cldwalker/logseq-query
+* https://twitter.com/RobertHaisfield/status/1522268781061410833?t=bqIHbEoQEizlrngtmDTFPA&s=19
