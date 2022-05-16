@@ -9,6 +9,7 @@
 * the last time I reviewed
   8
 * review when time is odd
+** What are the [[id:6245c084-fdb8-4ea6-a998-af585b0524ec][Oculus Quest 2's vulnerabilities]]?
 ** phanaeros/.../granular/go.py won't update from my cellphone connection.
    Some step, probably pushing to AWS, fails.
 ** Why is keeping a [[id:51fab985-a4cf-4ca7-8e5a-55a26d224737][hard disk in bubble wrap stupid]]?
