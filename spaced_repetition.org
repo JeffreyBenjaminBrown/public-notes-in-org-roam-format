@@ -7,19 +7,18 @@
   search for "internalize", "spaced repetition", maybe "to learn", "remember"
 * todo ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * the last time I reviewed
-  8
+  9
 * review when time is odd
-** What are the [[id:6245c084-fdb8-4ea6-a998-af585b0524ec][Oculus Quest 2's vulnerabilities]]?
-** phanaeros/.../granular/go.py won't update from my cellphone connection.
-   Some step, probably pushing to AWS, fails.
-** Why is keeping a [[id:51fab985-a4cf-4ca7-8e5a-55a26d224737][hard disk in bubble wrap stupid]]?
-** List some (temporary) [[id:02d97f60-ef2a-4377-8169-300b97c07265][implications of having a bad knee]].
+** In Phanaeros, [[id:8a497f47-2643-4b63-89d7-b0f53ff4092a][what doesn't work from where]]?
 ** What is the [[id:75c26e6a-e72c-4ae7-9c30-39efe7c164c9][org-roam command to create a new note from a headline and its contents]]?
-** Git: Do what before each session (or even each operation)?
-   [[id:ff7ae828-8ded-4916-ae67-551d604e2382][Check name of branch.]]
 ** What might stop pointless behaviors?
    [[id:9ec55e32-f974-479e-8295-7d9e30156684][mindfulness]]
 * review when time is equal to 2 mod 4
+** What are the [[id:6245c084-fdb8-4ea6-a998-af585b0524ec][Oculus Quest 2's vulnerabilities]]?
+** Why is keeping a [[id:51fab985-a4cf-4ca7-8e5a-55a26d224737][hard disk in bubble wrap stupid]]?
+** List some (temporary) [[id:02d97f60-ef2a-4377-8169-300b97c07265][implications of having a bad knee]].
+** Git: Do what before each session (or even each operation)?
+   [[id:ff7ae828-8ded-4916-ae67-551d604e2382][Check name of branch.]]
 ** Before leaving any doctor's office, do what?
    Try to read anything they wrote by hand.
 ** What to do when scheduling?
