@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       a82f9347-7e03-4230-b229-beddeb4fea41
+:END:
+#+title: geometry
+* [[id:431ba8de-5529-4354-b508-ca121423bbca][triangle]]

@@ -3,8 +3,8 @@
 :END:
 #+title: JACK (audio connection software)
 * TODO
-** I asked online
-*** on Reddit
+** TODO (someone responded) : I asked online
+*** TODO (someone responded) : on Reddit
     https://www.reddit.com/r/jackaudio/comments/uqex1x/pkgconfig_is_not_recognizing_jack_it_might_matter/
 *** on the JACK Audio mailing list
     https://lists.linuxaudio.org/archives/jackaudio/2022-May/002404.html

@@ -2,6 +2,7 @@
 :ID:       7d829b36-5932-41b0-b697-e9b9c8e8627a
 :END:
 #+title: Oculus Quest 2 (VR platform)
+* TODO [[id:0213144c-d3c6-482c-9174-5b493c8f5853][returning the Oculus Quest 2]]
 * PITFALL: On bank statement, purchases are gibberish.
   When I bought Thrill of the Fight,
   the charge listed as going to "8RRXNDBFF2 Dublin IE".

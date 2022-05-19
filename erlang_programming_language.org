@@ -20,6 +20,10 @@
     https://learnyousomeerlang.com/event-handlers#it-s-curling-time
 ** [[id:a0f72fa0-6930-4b6b-a570-93a4748895bb][concurrent programming]]
 * TODO in Erlang
+** TODO "Elixir in Action" is supposedly a good intro to OTP
+   https://www.manning.com/books/elixir-in-action-second-edition
+*** who recommended it
+    https://news.ycombinator.com/item?id=31425301
 ** TODO learn about static typing
    https://erlang.org/doc/reference_manual/typespec.html
    [[id:25b56f5b-eb2d-46b4-9f97-c3ba0f02484b][some tools for static typing]]

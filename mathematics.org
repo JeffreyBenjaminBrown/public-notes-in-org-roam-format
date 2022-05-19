@@ -2,6 +2,7 @@
 :ID:       c563e6be-631d-4f23-923d-050498334e2a
 :END:
 #+title: mathematics
+* [[id:a82f9347-7e03-4230-b229-beddeb4fea41][geometry]]
 * some surprisingly dimension-dependent results
   :PROPERTIES:
   :ID:       7b838adc-843c-4337-981d-6a7b96068831

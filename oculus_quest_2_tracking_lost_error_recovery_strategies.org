@@ -16,6 +16,7 @@
 *** more light
 *** no reflective surfaces
 *** no IR signals (e.g. remote controls)
+*** try dimmer lights
 ** adjust tracking frequency
    It's on "auto" by default but can be set manually.
    In Colombia, as in the US, the electrical frequency is 60 Hz,

@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       431ba8de-5529-4354-b508-ca121423bbca
+:END:
+#+title: triangle
+* the law of cosines
+  :PROPERTIES:
+  :ID:       75dd2eca-6cb9-417a-807c-dc6ce58f8397
+  :END:
+  a**2 = b**2 + c**2 - 2 * b * c * cos A
+** This holds even for "negative" lengths.
+   You could solve the problem equivalently
+   by making the length positive
+      and using the complement of the angle.
+* some ways to describe triangle problems
+** angles are capitalized and sides are lower case
+   and each angle corresponds to the side opposite it
+** SAS = "side angle side"
+   :PROPERTIES:
+   :ID:       c94b60e6-2c39-451d-af2d-129acbefe2e1
+   :END:
+   = the situation where one knows the lengths of two sides
+   and the angle between them.
+* to compute the length of the missing side
+** given the information [[id:c94b60e6-2c39-451d-af2d-129acbefe2e1][SAS]]
+   Solve [[id:75dd2eca-6cb9-417a-807c-dc6ce58f8397][the law of cosines]] for a:
+   a = sqrt ( b**2 + c**2 -
+              2 * b * c * cos A )
