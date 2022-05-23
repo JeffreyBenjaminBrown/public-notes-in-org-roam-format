@@ -86,3 +86,4 @@
    cut -d: -f3 < <(getent group groupname)
 ** get a user's id
    id -u username
+* [[id:f202975d-f1f0-4aa7-bcca-f9e6dd26230c][PITFALL: sudo can cause cp (copying) to fail.]]

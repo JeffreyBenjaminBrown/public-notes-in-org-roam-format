@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       f8399762-9772-4257-8439-4e466f7b1ff2
+:END:
+#+title: Flonase (allergy medication)
+* over-the-counter
+* needs a week of lead time
+* TODO worry about warfarin interactions
+** supposedly there are none
+** but it can cause nosebleeds

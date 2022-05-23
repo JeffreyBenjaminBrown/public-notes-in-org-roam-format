@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       05563132-ec17-4801-97bf-dbdf5c26f138
+:END:
+#+title: cp (Linux command)
+* PITFALL: sudo can cause cp (copying) to fail.
+  :PROPERTIES:
+  :ID:       f202975d-f1f0-4aa7-bcca-f9e6dd26230c
+  :END:
+  Given certain permissions,
+  it can happen that the ordinary user has permission to view, copy, etc.,
+  while wheel does not!

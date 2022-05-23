@@ -4,6 +4,7 @@
 #+title: scipy (libraries for Python)
 * TODO schemas in Pandas
 ** TODO The `pandera` library implements schemas for Pandas data frames.
+* [[id:b9a516f3-b8fc-4428-9bca-f81c672d5c3a][matplotlib]]
 * sorting and null/missing values in pandas
 ** null always comes last, regardless of order
 ** code to see it

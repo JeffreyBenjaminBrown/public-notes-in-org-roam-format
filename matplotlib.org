@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       b9a516f3-b8fc-4428-9bca-f81c672d5c3a
+:END:
+#+title: matplotlib
+* BUG: Non-unique labels causes data truncation
+  This might arise in other contexts.
+  At the least, when drawing bar charts,
+  a label set (for the x-axis) like ["a","b","c","a","b","c"]
+  will cause the bar chart to have only three bars, not six,
+  even if every other input vector is likewise length six.

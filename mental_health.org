@@ -2,4 +2,5 @@
 :ID:       bbc9f812-cf95-45a3-b93f-4ad93a565510
 :END:
 #+title: mental health and fitness
+* [[id:0334782e-dd39-49e7-b296-ad1375ce404a][meditation => calm purpose]]
 * [[id:b6cf38d4-ddf2-49f3-af3f-a1bdacaa65b0][the mental analog to muscle confusion]]

@@ -1540,6 +1540,26 @@ the familiar septimal tritone (7:5)
     29 steps; 13 % 8  ; string 2 ; fret 5
     37 steps; 15 % 8  ; string 4 ; fret 3
 *** [[id:dc6e53e5-a82f-4b7c-a8cc-7ff8ede7cc6f][online Bosanquet 41-edo keyboard]]
+** Edo 41 ; StringGap 6  ; FretGap 1 (wide, short)
+   0  steps;  1 % 1; string 0; fret 0
+   41 steps;  2 % 1; string 7; fret -1
+   24 steps;  3 % 2; string 4; fret 0
+   13 steps;  5 % 4; string 2; fret 1
+   33 steps;  7 % 4; string 5; fret 3
+   7  steps;  9 % 8; string 1; fret 1
+   19 steps; 11 % 8; string 3; fret 1
+   29 steps; 13 % 8; string 5; fret -1
+   37 steps; 15 % 8; string 6; fret 1
+** Edo 41 ; StringGap 7  ; FretGap 1 (weird fifths)
+   0  steps;  1 % 1; string 0; fret 0
+   41 steps;  2 % 1; string 6; fret -1
+   24 steps;  3 % 2; string 3; fret 3
+   13 steps;  5 % 4; string 2; fret -1
+   33 steps;  7 % 4; string 5; fret -2
+   7  steps;  9 % 8; string 1; fret 0
+   19 steps; 11 % 8; string 3; fret -2
+   29 steps; 13 % 8; string 4; fret 1
+   37 steps; 15 % 8; string 5; fret 2
 ** Edo 41 ; StringGap 11 ; FretGap 3
    Frets are 88c apart.
         [  0 steps;  1 % 1 ; string 0 ; fret 0

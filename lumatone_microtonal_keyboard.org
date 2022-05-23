@@ -66,3 +66,31 @@
 *** based on these images
     [[id:0b1c4b04-5a97-473c-9493-6b335ae89d74][a picture in color]]
     [[id:ccc2e12a-88bf-4f52-88a0-41a632f6c519][a black and white picture to print]]
+* my reach
+  A function (Haskell)
+  to get the length of a, given SAS and A = 2 pi / 3:
+    a b c = sqrt ( b**2 + c**2 - 2 * b * c * cos (2 * pi / 3) )
+  Multiply that by 2.44 to get the length in cm.
+
+  In brief, my reach per column is:
+    5: past -6 to 4
+    6: past -6 to 3
+    7: past -6 to 2
+    8: past -6 to 0
+    9: from -7 to -2
+
+  If the angle between (5,0) and (5,2) is 120 degrees,
+  then I can reach down on the fourth column to (4,5),
+  up on the fifth column beyond (5,-6),
+  down on the fifth column to (5,4),
+  up on the sixth column past (6,-6)
+  down on the sixth column to (6,3)
+    so I can't quite reach the just major 10th (6,4) in 41-edo,
+  past (7,-6),
+    so I can easily reach the just minor third (7,-1) in 41-edo,
+  to (7,2),
+  past (8,-6),
+   to (8,0),
+  from (9,-7)
+    so I can reach the just major 10th from the other side (9,-3)
+  to (9,-2)

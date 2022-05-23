@@ -23,5 +23,7 @@
 * to compute the length of the missing side
 ** given the information [[id:c94b60e6-2c39-451d-af2d-129acbefe2e1][SAS]]
    Solve [[id:75dd2eca-6cb9-417a-807c-dc6ce58f8397][the law of cosines]] for a:
-   a = sqrt ( b**2 + c**2 -
-              2 * b * c * cos A )
+     a = sqrt ( b**2 + c**2 -
+                2 * b * c * cos A )
+   As Haskell:
+     a b a_angle c = sqrt ( b**2 + c**2 - 2 * b * c * cos a_angle )

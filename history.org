@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d192f9f7-ec93-4c00-984d-b7e332b56ac0
+:END:
+#+title: history
+* Remember that people expected a different future.
+** -- Roy Foster, paraphrased

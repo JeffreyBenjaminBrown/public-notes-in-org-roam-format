@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       8cd7a9de-4652-4728-b57f-748e61cf94e7
+:END:
+#+title: health & medicine
+* [[id:dd2c33b3-21a1-45bd-ab86-c110c40a932f][drugs]]
