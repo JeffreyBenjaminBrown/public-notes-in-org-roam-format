@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       ce295e0b-599c-4eae-b084-fcf197cef9e8
+:END:
+#+title: Hotel Suamox (Bogotá)
+* location
+** between [[id:71bc3043-e020-47c3-8ea7-8a6183c3ea60][PUJ]] and Parkway
+** address
+   Calle 38 No 16-07
+   Teusaquillo. 111221 Bogotá

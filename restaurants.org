@@ -1,9 +1,0 @@
-:PROPERTIES:
-:ID:       e93ab75c-3c2b-422f-959f-2216de60d4fd
-:END:
-#+title: restaurants
-* [[id:e1d277a0-0917-4794-855d-126e68c61e95][Ago Sushi sucks (restaurant in Bogotá)]]
-* [[id:9617bd25-c221-4fa7-87fe-3f85e6d72c58][Burgett (restaurant in Paulo VI, Bogotá, Colombia)]]
-* [[id:6c80a13f-b198-4827-b613-622a8cc689a3][Curry Masala (restaurant in Parkway, Bogotá, Colombia)]]
-* [[id:bfd0e1a8-c16b-4178-b148-c81387e4c36d][Soy Sushi (restaurant in Paulo VI, Bogotá, Colombia)]]
-* [[id:f1f88342-7fbd-42e5-a81c-1284474e39e3][La Fonda Mexicana (restaurant in Galerías, Bogotá, Colombia)]]
