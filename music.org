@@ -2,6 +2,7 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
+* software for [[id:1e62cf8b-c5d2-42a4-b7d1-e3a10f37bee7][remote jamming]]
 * TODO composition idea: preliminary *vocal* sketches
   Sketch the rhythm / timbre vocally before anything else.
   Paint broad strokes before even getting into (precise) pitch.

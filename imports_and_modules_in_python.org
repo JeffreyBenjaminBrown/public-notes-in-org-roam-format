@@ -4,6 +4,9 @@
 #+title: imports and modules in Python
 * ref
   https://tenthousandmeters.com/blog/python-behind-the-scenes-11-how-the-python-import-system-works/
+* to re-import a modified module
+  import importlib
+  importlib.reload(module)
 * to avoid import errors with relative imports
   The standard way is to run the program as a module
   using the -m switch:

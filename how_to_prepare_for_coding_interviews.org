@@ -8,8 +8,9 @@
 ** be relaxed
    i.e. have done something relaxing recently
 * know stuff
+** ideally, have used the language recently
 ** review the language
    Study the most fundamental tools in the language in question
    folds and the fundamental typeclasses in Haskell
-** do problems
+** do problems (in that language)
    Get used to thinking fast about unexpected problems.

@@ -7,18 +7,19 @@
   search for "internalize", "spaced repetition", maybe "to learn", "remember"
 * todo ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * the last time I reviewed
-  9
+  10
 * review when time is odd
 ** In Phanaeros, [[id:8a497f47-2643-4b63-89d7-b0f53ff4092a][what doesn't work from where]]?
 ** What is the [[id:75c26e6a-e72c-4ae7-9c30-39efe7c164c9][org-roam command to create a new note from a headline and its contents]]?
 ** What might stop pointless behaviors?
    [[id:9ec55e32-f974-479e-8295-7d9e30156684][mindfulness]]
 * review when time is equal to 2 mod 4
-** What are the [[id:6245c084-fdb8-4ea6-a998-af585b0524ec][Oculus Quest 2's vulnerabilities]]?
-** Why is keeping a [[id:51fab985-a4cf-4ca7-8e5a-55a26d224737][hard disk in bubble wrap stupid]]?
-** List some (temporary) [[id:02d97f60-ef2a-4377-8169-300b97c07265][implications of having a bad knee]].
 ** Git: Do what before each session (or even each operation)?
    [[id:ff7ae828-8ded-4916-ae67-551d604e2382][Check name of branch.]]
+* review when time is equal to 4 mod 8
+** What are the [[id:6245c084-fdb8-4ea6-a998-af585b0524ec][Oculus Quest 2's vulnerabilities]]?
+** Why is keeping a [[id:51fab985-a4cf-4ca7-8e5a-55a26d224737][hard disk in bubble wrap stupid]]?
+** List some (temporary) [[id:02d97f60-ef2a-4377-8169-300b97c07265][behavioral implications of having a bad knee]].
 ** Before leaving any doctor's office, do what?
    Try to read anything they wrote by hand.
 ** What to do when scheduling?
@@ -26,7 +27,6 @@
 ** [[id:e17f1f19-30af-486f-b5ad-2e1a01d94407][How to prepare for coding interviews]]?
 ** How do I like to schedule calls?
    [[id:7ac060da-9f65-4861-975b-d44d10623a46][Calling is better than being called.]]
-* review when time is equal to 4 mod 8
 ** Why and how to [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult knowledge graph notes]]?
 ** What are some [[id:bbcc8ac7-7852-4d97-a624-0c8928549a42][things that might help me read better]]?
 ** coding: [[id:dbdc84fc-7cb4-4fa9-99e9-0b8b8f3f8de2][Duplication is dangerous.]]

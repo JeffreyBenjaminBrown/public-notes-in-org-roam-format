@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       1e62cf8b-c5d2-42a4-b7d1-e3a10f37bee7
+:END:
+#+title: remote jamming
+I'm not actually finding great remote MIDI jam resources. Here's the best I found:
+
+  ** https://github.com/elieserdejesus/JamTaba/
+     Uses ninjam servers.
+     Talks about MIDI but I can't actually tell if it's streaming MIDI.
+
+  ** https://www.youtube.com/watch?v=CoyMuRLJr-g&t=4s
+     No programming, just sending MIDI to someone else's DAW.
+     Requires control of your router (to open ports 5004 and 5005, IIRC),
+     which I don't have -- my ISP installs their own router.
+
+Jamulus and Jammr are other pieces of remote jamming software, but they send audio.

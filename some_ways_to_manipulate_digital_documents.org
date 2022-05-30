@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       082cfa49-50e3-4332-9072-282b65aad5eb
-:ROAM_ALIASES: "image manipulation" "pdf manipulation" "png manipulation" "jpg manipulation" "jpeg manipulation"
+:ROAM_ALIASES: "image manipulation" "digital image manipulation" "pdf manipulation" "png manipulation" "jpg manipulation" "jpeg manipulation"
 :END:
 #+title: some ways to manipulate digital documents
 These notes were (all?) taken to apply for my [[id:fb125111-a65d-4aee-ac47-918b55572a97][visa renewal for Colombia]].
