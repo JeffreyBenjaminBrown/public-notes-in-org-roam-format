@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       54b1ca58-0de1-49b1-a419-06af3872affa
+:END:
+#+title: append to a CSV file using Pandas
+* PITFALL
+  Pandas doesn't verify that the
+  old data and the new addition are like-formatted.
+  If the original has an index or doesn't,
+  the new part likewise should or shouldn't.
+* code
+  x.to_csv (
+    "x.csv",
+    mode = "a", # append
+    header = False )

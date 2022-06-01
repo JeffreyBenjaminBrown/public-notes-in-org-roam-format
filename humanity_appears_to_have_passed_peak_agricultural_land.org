@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       1db6ec66-b1ff-4c2f-8a1f-348c4d93b302
+:END:
+#+title: Humanity appears to have passed "peak agricultural land".
+https://ourworldindata.org/peak-agriculture-land

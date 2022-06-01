@@ -15,7 +15,7 @@
     pytest "test.py"
 ** PITFALL: This only demonstrates the testing of functions.
    In my notes I documented [[id:d2a3ade8-f900-46fa-ad3c-53c10cbfb0a6][how to test a class method]],
-   but who cares, I don't give my methods classes.
+   but who cares, I don't give my classes methods.
 ** lib.py
 import math
 

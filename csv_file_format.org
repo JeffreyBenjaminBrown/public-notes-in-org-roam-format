@@ -8,3 +8,4 @@
 * [[id:42538f79-f00b-48c6-adf6-f4ff8d805479][export an Excel spreadsheet in a format readable by humans and Pandas]]
 * [[id:214c56b0-03f1-4709-9bc9-2ec6f742fa16][PITFALL: csvlib (always by default?) writes Windows-style line terminators]]
 * [[id:82065371-8f2a-4193-a76c-d5d73af546ef][csv-mode (Emacs package)]]
+* [[id:54b1ca58-0de1-49b1-a419-06af3872affa][append to a CSV file using Pandas]]

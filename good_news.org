@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       4bf34033-e7c1-495b-b2f0-dc426543fb5c
+:END:
+#+title: good news
+* [[id:1db6ec66-b1ff-4c2f-8a1f-348c4d93b302][Humanity appears to have passed "peak agricultural land".]]
+* [[id:db8d0ef0-1518-4c69-9cfe-99d1bc4d2cd1][Recent changes in weapons technology have tilted the odds in war in favor of defenders.]]

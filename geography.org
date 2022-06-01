@@ -7,3 +7,4 @@
   :ID:       b9db2e1e-6d06-4b7d-b290-d77eb3e9bf22
   :END:
   https://geopuzzle.org/puzzle/easy/
+* [[id:1db6ec66-b1ff-4c2f-8a1f-348c4d93b302][Humanity appears to have passed "peak agricultural land".]]

@@ -1492,6 +1492,16 @@ Pr.pPrint ( take 30 $ drop 90
    And they're both "sharp systems".
 * 24-edo
 ** [[id:1cfa5cfb-c951-4483-bb7a-9f87c908a026][quartertone-free, cluster-free ways to divide a fourth in 24-edo]]
+** For Lumatone, 6\24 x 1\24 looks hard to beat
+   0  steps;  1 % 1; string 0; fret 0
+   4  steps;  9 % 8; string 1; fret -2
+   8  steps;  5 % 4; string 1; fret 2
+   11 steps; 11 % 8; string 2; fret -1
+   14 steps;  3 % 2; string 2; fret 2
+   17 steps; 13 % 8; string 3; fret -1
+   19 steps;  7 % 4; string 3; fret 1
+   22 steps; 15 % 8; string 4; fret -2
+   24 steps;  2 % 1; string 4; fret 0
 * 27-edo
 ** In the 7-limit it's an extremely sharp system.
 ** [[id:b98176fc-85fb-4274-a248-21ec9ab6a65a][27-edo is fat-finger friendly with 54-edo.]]
@@ -1848,6 +1858,16 @@ This is on the Xen Wiki.
 * 50-edo
 ** [[id:f9f577f2-95d9-4e48-9bcb-f9f4d8141d00][50-edo and 100-edo are fat-finger friendly.]]
 ** flat meantone system, fantastic at 23-limit
+** 7\50 x 2\50: Lumatone-feasible
+   0  steps; 1  % 1; string 0; fret 0
+   8  steps; 9  % 8; string 2; fret -3
+   16 steps; 5  % 4; string 2; fret 1
+   23 steps; 11 % 8; string 3; fret 1
+   29 steps; 3  % 2; string 5; fret -3
+   35 steps; 13 % 8; string 5; fret 0
+   40 steps; 7  % 4; string 6; fret -1
+   45 steps; 15 % 8; string 7; fret -2
+   50 steps; 2  % 1; string 8; fret -3
 ** 50 3 10: guitar-feas, 31-lim 6x8, 15-lim 6x6
    :PROPERTIES:
    :ID:       81559b14-196b-441b-b89a-6b2f7ab410c2

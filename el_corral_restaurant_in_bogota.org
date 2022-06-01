@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       e75df69c-1c79-4e74-9cf8-23ef3eab95c1
+:END:
+#+title: El Corral (restaurant in Bogotá)
+* locations
+  https://elcorralgourmet.com/#Restaurantes
+* reservation, make one online
+  https://elcorralgourmet.com/reserva

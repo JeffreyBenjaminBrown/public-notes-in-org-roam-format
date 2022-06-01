@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       b9f666f2-0035-42df-b674-86049697e9e0
+:ROAM_ALIASES: defense "national defense"
+:END:
+#+title: war
+* [[id:db8d0ef0-1518-4c69-9cfe-99d1bc4d2cd1][Recent changes in weapons technology have tilted the odds in war in favor of defenders.]]

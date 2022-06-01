@@ -2,6 +2,7 @@
 :ID:       0986826a-b056-4973-8927-40ec18a78c5f
 :END:
 #+title: things I like
+* [[id:4bf34033-e7c1-495b-b2f0-dc426543fb5c][good news]]
 * [[id:de98c3eb-27ba-4a51-9875-9af3c6e2c2dd][beautiful things]]
 * [[id:0591e33a-f3b2-414a-ac40-c3071348758d][funny things]]
 * [[id:4017c25d-ec4d-4f41-aaed-e3be02dba620][weird things]]

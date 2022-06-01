@@ -2,11 +2,13 @@
 :ID:       c35ab968-7056-40fa-8816-ea16d5c88f6d
 :END:
 #+title: sciences and other fields
+* [[id:4a5a8778-2f0d-4e7d-bb16-cabbe02cb03d][agriculture]]
 * [[id:5a9e5a9f-8e1b-4487-ba1d-51692d73dd89][astronomy]]
 * [[id:974d25f4-56a0-4dd9-a066-7790dd40d0f7][biology]]
 ** [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
 * [[id:001d7913-c431-461c-92ae-a6a39394856c][computer science]]
 * [[id:9229a918-375c-4e1b-b775-bf5da596a371][engineering]]
+* [[id:ddbe49f8-bc88-4bee-8404-87c79a5d1073][environmental sustainability]]
 * [[id:b0709556-766b-4fb1-b42d-7fa320dd387c][estimation]]
 * [[id:8fd004bd-338a-40a0-8634-b22dc7ee3765][finance]]
 * [[id:c0650349-d298-4ede-bad2-704bb4f1296f][geography]]
@@ -16,3 +18,4 @@
 * [[id:b31e0b2c-9bce-428a-b96f-832d0ea1e6e7][paleontology]]
 * [[id:3570b8e0-1c1b-482c-bbb1-18c0151e2e4f][political science]]
 * [[id:9619c955-6dbe-4001-ba8f-00421984aca3][systematization]]
+* [[id:b9f666f2-0035-42df-b674-86049697e9e0][war]]
