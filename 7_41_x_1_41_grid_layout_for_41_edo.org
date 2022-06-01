@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       5e559dec-9656-4c2c-871b-6b3d47551bc1
+:END:
+#+title: 7\41 x 1\41 (grid layout for 41-edo)
+* great 13-limit minus 3:2
+* layout
+  0  steps;  1 % 1; string 0; fret 0
+  7  steps;  9 % 8; string 1; fret 0
+  13 steps;  5 % 4; string 2; fret -1
+  19 steps; 11 % 8; string 3; fret -2
+  24 steps;  3 % 2; string 3; fret 3
+                    string 4; fret -4
+  29 steps; 13 % 8; string 4; fret 1
+  33 steps;  7 % 4; string 5; fret -2
+  37 steps; 15 % 8; string 5; fret 2
+  41 steps;  2 % 1; string 6; fret -1

@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       6f359140-7398-4721-b1c3-51a8f7c681d4
+:END:
+#+title: 6\41 x 1\41 (grid layout for 41-edo)
+* It's so linear!
+  7:4 is perfectly off the root-octave axis.
+  Everything else is within roughly 1 fret of the axis.
+* On Lumatone, map horiz to horizo and vertical to vertical.
+  Ordinarily I map the horizontal axis
+  (the one that varies the "string")
+  to the nearly-horizontal Lumatone axis,
+  and the vertical axis (the one that varies the "fret")
+  to the 45-degree Lumatone axis.
+  But this layout is so short I could actually map it
+  to the nearly-vertical Lumatone axis.
+  Doing that makes the octaves a lot narrower.
+* layout
+  0  steps;  1 % 1; string 0; fret 0
+  7  steps;  9 % 8; string 1; fret 1
+  13 steps;  5 % 4; string 2; fret 1
+  19 steps; 11 % 8; string 3; fret 1
+  24 steps;  3 % 2; string 4; fret 0
+  29 steps; 13 % 8; string 5; fret -1
+  33 steps;  7 % 4; string 5; fret 3
+                    string 6; fret -3
+  37 steps; 15 % 8; string 6; fret 1
+  41 steps;  2 % 1; string 7; fret -1
