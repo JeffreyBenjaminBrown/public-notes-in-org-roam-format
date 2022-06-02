@@ -54,6 +54,9 @@
    :ID:       1e202d74-c770-4194-98e1-88845d1cd021
    :END:
 * refs
+  :PROPERTIES:
+  :ID:       13067dc1-a022-4626-a6de-676f07ce3252
+  :END:
 ** All Django documentation
  https://docs.djangoproject.com/en/3.1/
 *** TODO [[id:67f5af53-e680-4c66-b3c0-11a9085fcc2b][Apache and mod_wsgi: Using Them with Django]]

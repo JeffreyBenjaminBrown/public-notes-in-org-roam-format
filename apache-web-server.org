@@ -14,7 +14,8 @@
   but APACHE_RUN_DIR is not set,
   and it's nowhere in code for the official Apache docker `httpd` image.
 ** to show version: `apache2 -v`
-* logs are at /var/log/apache2
+* some paths
+** logs are at /var/log/apache2
 * Apache config
 ** PITFALL: Comments in Apache config files
  cannot trail code on the same line,

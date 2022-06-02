@@ -26,3 +26,10 @@
 ** git branch -D old-name
 ** git push origin --delete old-name
    where "origin" is the remote repo's local nickname
+* to fetch all branches
+** code
+   git branch -r | grep -v '\->' | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
+   git fetch --all
+   git pull --all
+** source
+   https://stackoverflow.com/a/10312587/916142
