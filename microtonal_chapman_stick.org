@@ -37,20 +37,71 @@ Jeff
 ** 12-edo notes in Hz
    https://pages.mtu.edu/~suits/notefreqs.html
 ** common code
--- put this in a temp file, and load it with :s
-high_d = 440 * 2 ** (17/41)
-high_c = 440 * 2 ** (11/41)
-mid_e = 220 / 2 ** (17/41)
-low_c = 55 * 2 ** (11/41)
-up_low_c = 55 * 2 ** (11/41)
+  -- put this in a temp file, and load it with :s
+  high_d = 440 * 2 ** (17/41)
+  high_c = 440 * 2 ** (11/41)
+  mid_e = 220 / 2 ** (17/41)
+  low_c = 55 * 2 ** (11/41)
+  up_low_c = 55 * 2 ** (11/41)
 
-:{
-f start interval =
-  myPrint $
-  [  (/10) $ fi $ round $ (*10) $
-        start * 2**(k * interval / 41)
-  | k <- [0..5] ]
-:}
+  :{
+  f start interval =
+    myPrint $
+    [  (/10) $ fi $ round $ (*10) $
+          start * 2**(k * interval / 41)
+    | k <- [0..5] ]
+  :}
+** both sides tuned in M3s
+*** the pitches
+**** how I calculated these
+***** [[id:b0333d12-6556-4d6e-a88c-5f3171c23213][the data they are based on]]
+***** the interpolating strategy, which I used most of the time
+-- | How far is x from low to high.
+-- proportion 3 0 5 == 0.6
+proportion x low high = (x - low) / (high - low)
+
+-- | What gauge corresponds to `f`,
+-- where f1 and g1 are a frequency and gauge near but lower than f,
+-- and f2 and g2 are a frequency and gauge near but higher than f.
+gauge f f1 g1 f2 g2 = let
+  p = proportion f f1 f2
+  in ( (1 - p) * f1 * g1 + p * f2 * g2 ) / f
+***** the non-interpolating strategy
+      Given frequency f, if a string has a frequency f1 very close to f,
+      interpolation can probably be eschewed,
+      and I can instead assume freq * gauge is equal for both strings
+      (the real one f1 with gague g1,
+      and the hypothetical one f with gauge g)
+      and compute:
+        g = f1 * g1 / f
+**** treble side
+***** 277.2 Hz ~ 8.17
+      gauge 277.2 293.7 8 220.0 9
+***** 222.5 Hz ~ 9.0
+      gauge 222.5 220 9 293.7 8
+***** 178.6 Hz ~ 11.1
+      gauge 178.6 164.8 12 220 9
+***** 143.4 Hz ~ 14.7
+      gauge 143.4 123.5 18 164.8 12
+***** 115.1 Hz ~ 19.7 or 19.3
+      gauge 115.1 123.5 18 164.8 12
+      or    123.5 * 18 / 115.1
+      (It's not obviously appropriate to extrapolate from frequencies 123.5 and 164.8 to frequency 115.1, which is lower than both. The second estimate uses only 123.5.)
+*****  92.4 Hz ~ 26 wound
+**** bass side
+***** 34.6  Hz ~ 90   wound
+      gauge 34.6 32.7 95 49 65 = 90.0
+      or 95 * 32.7 / 34.6 = 89.7
+***** 43.2  Hz ~ 73.1 wound
+      gauge 43.2 32.7 95 49 65
+***** 53.8  Hz ~ 58.3 wound
+      gauge 53.8 49.0 65 73.4 40
+***** 67.0  Hz ~ 44.8 wound
+      gauge 67 49.0 65 73.4 40
+***** 83.5  Hz ~ 33.5 wound
+      gauge 83.5 73.4 40 110 22
+***** 104.0 Hz ~ 24.1 wound
+      gauge 104 73.4 40 110 22
 ** bass tuned in M3s, treble in m3s
 *** TODO & PITFALL
     I included two options for the bass strings, one 1\41 above the other. Should maybe do the same for the treble strings -- tuning the D a little flatter seems good, since it always sounded a bit strained to me.
@@ -176,10 +227,29 @@ If I recall correctly I got the impression that tuning string 1 to a high D was 
 ** standard Stick range
    Normally a Chapman Stick has a range of 3 octaves and a whole tone across the open strings, with lots of overlap.
 ** standard Stick string gauges
-  This is cobbled together -- I found the numbers on a Google image search, and Brian told me which strings are wound.
-  It seems kind of absurd -- if the treble strings are 5\12 apart and the bass 7\12, why are 12 and 18 neighbors in both systems?
-  treble:  8   9  12  18  26u 38u
-  bass:   12  18  22u 40u 65u 95u
+*** result
+    :PROPERTIES:
+    :ID:       b0333d12-6556-4d6e-a88c-5f3171c23213
+    :END:
+    gauge = frequency ~ pitch
+    8	  = 293.7     ~ D4   treble
+    9	  = 220.0     ~ A3   treble
+    12	  = 164.8     ~ E3   treble
+    18	  = 123.5     ~ B2   treble
+    26u	  = 92.5      ~ F# 2 treble
+    38u	  = 69.3      ~ C# 2 treble
+
+    95u	  = 32.7      ~ C1
+    65u	  = 49.0      ~ G1
+    40u	  = 73.4      ~ D2
+    22u	  = 110.0     ~ A2
+    18	  = 164.8     ~ E2
+    12	  = 246.9     ~ B2
+*** explanation
+    This data is cobbled together -- I found the numbers on a Google image search, and Brian told me which strings are wound.
+    It seems kind of absurd -- if the treble strings are 5\12 apart and the bass 7\12, why are 12 and 18 neighbors in both systems?
+    treble:  8   9  12  18  26u 38u
+    bass:   12  18  22u 40u 65u 95u
 * 41/2- v. 58/2-edo
 fretWidth scaleLen fret edo = let
   ref = scaleLen * 2**(-fret/edo)
