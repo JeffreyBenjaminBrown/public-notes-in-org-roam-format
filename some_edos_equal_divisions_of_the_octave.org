@@ -29,6 +29,36 @@
     , 45 steps; 29 % 16 ; string 3 ; fret 6
     , 51 steps; 31 % 16 ; string 5 ; fret - 2
 ** TODO 58-edo
+*** TODO 6\58 x 5\58: Lumatone. 23-lim minus 11,19 in 8x3; 23-lim minus 19 in 8x4; 29-lim minus 25 in 8x5
+    :PROPERTIES:
+    :ID:       a291f843-ee45-40e9-923e-badfe65654a7
+    :END:
+**** layout
+     00 steps;  1 %  1; string 0;  fret 0
+     05 steps; 17 % 16; string 0;  fret 1
+     10 steps;  9 %  8; string 0;  fret 2
+     14 steps; 19 % 16; string -1; fret 4
+     19 steps;  5 %  4; string 4;  fret -1
+     23 steps; 21 % 16; string 3;  fret 1
+     27 steps; 11 %  8; string 2;  fret 3
+     30 steps; 23 % 16; string 5;  fret 0
+     34 steps;  3 %  2; string 4;  fret 2
+     41 steps; 13 %  8; string 6;  fret 1
+     47 steps;  7 %  4; string 7;  fret 1
+     53 steps; 15 %  8; string 8;  fret 1
+     58 steps;  2 %  1; string 8;  fret 2
+
+     Everything from 25 to 31 is hard to reach:
+
+     37 steps; 25 % 16; string 2; fret 5
+     44 steps; 27 % 16; string 4; fret 4
+     50 steps; 29 % 16; string 5; fret 4
+     55 steps; 31 % 16; string 5; fret 5
+**** TODO how I would map it to the Lumatone
+     Strings obviously increase going rightward horizontal-ish.
+     Frets could either increase going down, or going left-up.
+     If frets increase going down, octaves are nearly perfectly horizontal.
+     Otherwise they are very diagonal, but maybe still playable.
 *** DONE GOOD 15\58 x 2\58: 15-lim minus (arguably) 9, 11
    [ 0 steps; 1 % 1 ; string 0 ; fret 0
    , 58 steps; 2 % 1 ; string 4 ; fret - 1
