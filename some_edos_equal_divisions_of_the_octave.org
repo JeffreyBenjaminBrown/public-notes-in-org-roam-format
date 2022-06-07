@@ -1996,7 +1996,7 @@ This is on the Xen Wiki.
     and 8 frets in the full 31-limit.
 *** Octaves at (5,0) and (2,10)
     The second is almost exactly the same fret-span as a 12-edo octave: 10/16.3333 - 7/12 = about 0.029.
-** 50 5 8: Bosanquet, mandolin-feasible, area 6x7 in 31-limit, 5x4 in 15-limit, octave (5,2)
+** TODO 50 5 8: Bosanquet, mandolin-feasible (10-edo), area 6x7 in 31-limit, 5x4 in 15-limit, octave (5,2)
    :PROPERTIES:
    :ID:       018190fb-340f-4e9e-9258-24350eecfc0b
    :END:
