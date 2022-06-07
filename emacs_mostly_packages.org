@@ -44,6 +44,16 @@
 ** C-c C-(f/b): org next/previous same level
 ** Up, down and search work in the minibuffer after M-x.
 * solutions
+** to insert (write) date, and maybe time, at point
+   :PROPERTIES:
+   :ID:       76f955ac-1f33-4b6b-bedb-e85852a486b9
+   :END:
+*** it'll probably take a little editing, given my preferences
+*** the commands
+	C-c .              ;; writes date
+	M-x org-time-stamp ;; writes date
+    C-u C-c .              ;; writes date and time
+    C-u M-x org-time-stamp ;; writes date and time
 ** [[id:03df14dd-9536-4302-aa53-d51e3d1de100][grepping folders in Emacs]]
 ** [[id:7ca4fa12-5fc2-415c-8d2f-5d6167e8dd95][hide lines programmatically from a file in Emacs]]
 ** number lines in a rectangle

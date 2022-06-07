@@ -18,5 +18,7 @@
   rsync -av source source ... source destination
   with [[id:0ec81667-d191-498a-b5d1-faadbd48e85d][no trailing slashes]] on any of the sources.
 * useful options
+** -a : archive mode, "preserve almost everything"
 ** -L : replace symlinks with the original
    works as expected with -av
+** -v : verbose
