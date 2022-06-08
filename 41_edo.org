@@ -7,8 +7,8 @@
 ** Kite: 41 13 2
 ** Narrow Kite: 41 11 2
 ** [[id:67465b81-c736-4430-bdbd-822106520f1b][Bosanquet: 7\41 x 3\41]]. A bit more* compact, easy 5-limit
-** TODO [[id:6f359140-7398-4721-b1c3-51a8f7c681d4][6\41 x 1\41]] wide, very short
-** TODO [[id:5e559dec-9656-4c2c-871b-6b3d47551bc1][7\41 x 1\41]]: great 13-limit minus 3:2
+** TODO [[id:6f359140-7398-4721-b1c3-51a8f7c681d4][6\41 x 1\41]] wide, very short, Lumatone-good
+** [[id:5e559dec-9656-4c2c-871b-6b3d47551bc1][7\41 x 1\41]]: great 13-limit minus 3:2
 ** 5\41 x 1\41: wider yet no shorter than 6\41 x 1\41
    0  steps;  1 % 1; string 0; fret 0
    7  steps;  9 % 8; string 1; fret 2
@@ -72,7 +72,7 @@
    19 steps; 11 % 8; string 2; fret -1
    29 steps; 13 % 8; string 2; fret 1
    37 steps; 15 % 8; string 1; fret 5
-** Edo 41 ; StringGap 11 ; FretGap 3
+** 11\41 x 3\41
    Frets are 88c apart.
    0  steps;  1 % 1 ; string 0 ; fret  0
    7  steps;  9 % 8 ; string 2 ; fret -5
@@ -82,7 +82,7 @@
    24 steps;  3 % 2 ; string 3 ; fret -3
    29 steps; 13 % 8 ; string 4 ; fret -5
    41 steps;  2 % 1 ; string 4 ; fret -1
-** 5\41 x 7\41
+** 7\41 x 5\41
    Frets are 146c apart.
    13 steps;  5 % 4 ; string -1 ; fret 4
    0  steps;  1 % 1 ; string  0 ; fret 0
