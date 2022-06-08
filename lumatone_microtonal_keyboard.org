@@ -94,3 +94,4 @@
   from (9,-7)
     so I can reach the just major 10th from the other side (9,-3)
   to (9,-2)
+* Vincenzo Sicurella can draw layouts easily.

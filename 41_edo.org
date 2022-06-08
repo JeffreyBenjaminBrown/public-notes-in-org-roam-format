@@ -1,0 +1,95 @@
+:PROPERTIES:
+:ID:       d193c0f1-bafc-489a-be3a-b442d094eb49
+:END:
+#+title: 41-edo
+* [[id:e0b10cc1-3a7c-4d9d-9e35-8ba6352b8f6c][41-edo is fat-finger friends with 82-edo]].
+* layouts
+** Kite: 41 13 2
+** Narrow Kite: 41 11 2
+** [[id:67465b81-c736-4430-bdbd-822106520f1b][Bosanquet: 7\41 x 3\41]]. A bit more* compact, easy 5-limit
+** TODO [[id:6f359140-7398-4721-b1c3-51a8f7c681d4][6\41 x 1\41]] wide, very short
+** TODO [[id:5e559dec-9656-4c2c-871b-6b3d47551bc1][7\41 x 1\41]]: great 13-limit minus 3:2
+** 5\41 x 1\41: wider yet no shorter than 6\41 x 1\41
+   0  steps;  1 % 1; string 0; fret 0
+   7  steps;  9 % 8; string 1; fret 2
+   13 steps;  5 % 4; string 2; fret 3
+   19 steps; 11 % 8; string 3; fret 4
+   24 steps;  3 % 2; string 4; fret 4
+   29 steps; 13 % 8; string 5; fret 4
+   33 steps;  7 % 4; string 6; fret 3
+   37 steps; 15 % 8; string 7; fret 2
+   41 steps;  2 % 1; string 8; fret 1
+** 4\41 x 13\41: wide, *extremely* short, weird
+   *Strings* are 117c apart; frets are 380 cents apart.
+   (Swapping those would work too -- better for guitar,
+   worse for keyboard.)
+   0  steps;  1 % 1; string 0; fret 0
+   13 steps;  5 % 4; string 0; fret 1
+   29 steps; 13 % 8; string 4; fret 1
+   7  steps;  9 % 8; string 5; fret -1
+   33 steps;  7 % 4; string 5; fret 1
+   24 steps;  3 % 2; string 6; fret 0
+   37 steps; 15 % 8; string 6; fret 1
+   41 steps;  2 % 1; string 7; fret 1
+   19 steps; 11 % 8; string 8; fret -1
+** 7\41 x 6\41: All but 3:2 and 15:8 close
+   0  steps;  1 % 1; string 0; fret 0
+   41 steps;  2 % 1; string 5; fret 1
+   24 steps;  3 % 2; string 0; fret 4
+   13 steps;  5 % 4; string 1; fret 1
+   33 steps;  7 % 4; string 3; fret 2
+   7  steps;  9 % 8; string 1; fret 0
+   19 steps; 11 % 8; string 1; fret 2
+   29 steps; 13 % 8; string 5; fret -1
+   37 steps; 15 % 8; string 1; fret 5
+** 4\41 x 11\41: good 15-limit without 3 and 5
+   0  steps; 1 % 1;  string 0; fret 0
+   41 steps; 2 % 1;  string 3; fret 2
+   24 steps; 3 % 2;  string 0; fret 6
+   13 steps; 5 % 4;  string -1; fret 6
+   33 steps; 7 % 4;  string 3; fret 0
+   7  steps; 9 % 8;  string 1; fret -1
+   19 steps; 11 % 8; string 1; fret 2
+   29 steps; 13 % 8; string 3; fret -1
+   37 steps; 15 % 8; string 3; fret 1
+** 7\41 x 10\41: 2 and 3 positive and close, other harmonics negative and close
+    [ 0 steps; 1 % 1; string 0; fret 0
+    , 41 steps; 2 % 1; string 2; fret 3
+    , 24 steps; 3 % 2; string 1; fret 2
+    , 13 steps; 5 % 4; string 2; fret -1
+    , 33 steps; 7 % 4; string 4; fret -1
+    , 7 steps; 9 % 8; string 0; fret 1
+    , 19 steps; 11 % 8; string 4; fret -3
+    , 29 steps; 13 % 8; string 5; fret -3
+    , 37 steps; 15 % 8; string 3; fret 1
+** 12\41 x 5\41: great 13-lim minus 5,7. 7 not terrible.
+   0  steps; 1 % 1;  string 0; fret 0
+   41 steps; 2 % 1;  string 3; fret 1
+   24 steps; 3 % 2;  string 2; fret 0
+   13 steps; 5 % 4;  string -1; fret 5
+   33 steps; 7 % 4;  string 4; fret -3
+   7  steps; 9 % 8;  string 1; fret -1
+   19 steps; 11 % 8; string 2; fret -1
+   29 steps; 13 % 8; string 2; fret 1
+   37 steps; 15 % 8; string 1; fret 5
+** Edo 41 ; StringGap 11 ; FretGap 3
+   Frets are 88c apart.
+   0  steps;  1 % 1 ; string 0 ; fret  0
+   7  steps;  9 % 8 ; string 2 ; fret -5
+   13 steps;  5 % 4 ; string 2 ; fret -3
+   19 steps; 11 % 8 ; string 2 ; fret -1
+   33 steps;  7 % 4 ; string 3 ; fret  0
+   24 steps;  3 % 2 ; string 3 ; fret -3
+   29 steps; 13 % 8 ; string 4 ; fret -5
+   41 steps;  2 % 1 ; string 4 ; fret -1
+** 5\41 x 7\41
+   Frets are 146c apart.
+   13 steps;  5 % 4 ; string -1 ; fret 4
+   0  steps;  1 % 1 ; string  0 ; fret 0
+   7  steps;  9 % 8 ; string  1 ; fret 0
+   37 steps; 15 % 8;  string  1 ; fret 6 # wat
+   19 steps; 11 % 8 ; string  2 ; fret 1
+   24 steps;  3 % 2 ; string  2 ; fret 2
+   29 steps; 13 % 8 ; string  2 ; fret 3
+   41 steps;  2 % 1 ; string  3 ; fret 4
+   33 steps;  7 % 4 ; string  4 ; fret 1
