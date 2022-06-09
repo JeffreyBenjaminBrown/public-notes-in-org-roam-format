@@ -5,7 +5,7 @@
 * It's so linear!
   7:4 is perfectly off the root-octave axis.
   Everything else is within roughly 1 fret of the axis.
-* On Lumatone, map horiz to horizo and vertical to vertical.
+* On Lumatone, map horiz to horiz and vertical to vertical.
   Ordinarily I map the horizontal axis
   (the one that varies the "string")
   to the nearly-horizontal Lumatone axis,

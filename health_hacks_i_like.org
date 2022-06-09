@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ae7569c4-1566-4b83-9450-c68f0659f06b
+:END:
+#+title: health hacks I like
+* TODO [[id:506d431f-c5ac-486a-a7e6-6dfa6c09d69b][? After exercise I want to meditate]]
+* sleep early
+  so that I can wake up shortly after the sun rises,
+  because I sleep badly when the sun is well up.
+* Eat protein early in the day, carbs later.
+  Not sure why. Jamie recommended it.

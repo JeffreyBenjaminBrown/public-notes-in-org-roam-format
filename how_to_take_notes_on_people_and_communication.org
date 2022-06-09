@@ -8,6 +8,7 @@
     Things I'd like to talk to them about.
 **** TODO See also "interests", which [[id:adb23c07-cfdf-4510-8f43-b1c4b6f68c38][might dominate]] this field.
 *** contact info
+*** schedule
 *** contact history, most recent at top
     Include the medium used, in case a medium fails.
 *** interests
