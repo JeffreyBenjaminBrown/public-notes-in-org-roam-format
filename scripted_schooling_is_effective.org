@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       44adfb1a-1616-4639-b3cf-542a3507bbae
+:END:
+#+title: Scripted schooling is effective.
+* https://www.economist.com/middle-east-and-africa/2022/06/09/why-pupils-at-scripted-schools-get-higher-marks
+* At least, in countries with a lousy baseline level of school quality.
+  The trial involved Kenya, maybe other countries.
