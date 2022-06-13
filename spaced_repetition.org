@@ -7,14 +7,14 @@
   search for "internalize", "spaced repetition", maybe "to learn", "remember"
 * todo ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * the last time I reviewed
-  10
+  11
 * review when time is odd
 ** in Emacs, how [[id:76f955ac-1f33-4b6b-bedb-e85852a486b9][to insert (write) date, and maybe time, at point]]
 ** In Phanaeros, [[id:8a497f47-2643-4b63-89d7-b0f53ff4092a][what doesn't work from where]]?
 ** What is the [[id:75c26e6a-e72c-4ae7-9c30-39efe7c164c9][org-roam command to create a new note from a headline and its contents]]?
+* review when time is equal to 2 mod 4
 ** What might stop pointless behaviors?
    [[id:9ec55e32-f974-479e-8295-7d9e30156684][mindfulness]]
-* review when time is equal to 2 mod 4
 ** Git: Do what before each session (or even each operation)?
    [[id:ff7ae828-8ded-4916-ae67-551d604e2382][Check name of branch.]]
 * review when time is equal to 4 mod 8

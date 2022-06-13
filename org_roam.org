@@ -11,7 +11,9 @@
 ** what it does
    creates a new note from a headline and its contents
 ** PITFALL: It's buggy.
-   It puts the title line in the wrong place.
+*** It puts the new file in org-roam/.
+    I'd prefer if it asked me which subfolder.
+*** It puts the title line in the wrong place.
 * TODO ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]
 * TODO search libraries for org-roam
