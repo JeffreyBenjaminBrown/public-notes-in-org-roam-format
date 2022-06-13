@@ -24,7 +24,11 @@
 ** some dimensions in it
    The longest row is 602 pixels.
    The whole keyboard is 811 pixels long.
-* dimensions
+* keyboard dimensions, weight
+  cm     : 92   x 35.5  x 4.6
+  inches : 36.2 x 13.98 x 1.81
+  10.8 KG / 23.8 lbs
+* key dimensions
 ** a video that gives a sense of geometric scale
    https://www.youtube.com/watch?v=wswzibUGNeo
 ** a rough computation

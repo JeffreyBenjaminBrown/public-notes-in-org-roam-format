@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7034ceb3-293e-44d5-845c-8b252f97b446
+:END:
+#+title: liquid nitrogen treatment (dermatology)
+The doctor sprays liquid nitrogen in short bursts for six seconds on an area of the skin.
+It should form a blister, then scab, then peel off in a few days.
+The idea in the case of keratosis treatment is to rid the skin of the cells with errant (usually sun-damaged) DNA.

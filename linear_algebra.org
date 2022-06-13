@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       20fc15fe-5108-406b-bd01-585ab491ae32
+:END:
+#+title: linear algebra
+* affine transformations
+  :PROPERTIES:
+  :ID:       81e38b09-22f1-4ad5-8e16-efad524284db
+  :END:
+  are more general than linear ones --
+  they need not fix the origin.

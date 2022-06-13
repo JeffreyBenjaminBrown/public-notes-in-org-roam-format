@@ -3,6 +3,7 @@
 :END:
 #+title: mathematics
 * [[id:a82f9347-7e03-4230-b229-beddeb4fea41][geometry]]
+* [[id:20fc15fe-5108-406b-bd01-585ab491ae32][linear algebra]]
 * some surprisingly dimension-dependent results
   :PROPERTIES:
   :ID:       7b838adc-843c-4337-981d-6a7b96068831

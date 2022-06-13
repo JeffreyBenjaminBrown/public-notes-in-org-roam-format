@@ -7,3 +7,8 @@
 * TODO worry about warfarin interactions
 ** supposedly there are none
 ** but it can cause nosebleeds
+* Side effects can include
+  nosebleeds
+  wounds slow to heal in the nose
+  weakened immune system.
+* It's a steroid.
