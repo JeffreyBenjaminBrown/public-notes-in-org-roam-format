@@ -14,6 +14,8 @@
    (The trick is not, of course, to change my beliefs,
    but rather to act in accordance with them.)
 * material to absorb
+** Advice someone Hacker News likes wishes he'd gotten early.
+   https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/
 ** Orherlands (book)
    about how weird the distant past was
 ** math: [[id:7b838adc-843c-4337-981d-6a7b96068831][some surprisingly dimension-dependent results]]
