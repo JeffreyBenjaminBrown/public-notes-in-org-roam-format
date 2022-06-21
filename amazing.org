@@ -2,6 +2,10 @@
 :ID:       f927cc31-1266-4352-978a-b0e00fb806a8
 :END:
 #+title: amazing music
+* Hans-André Stamm
+  microtonal
+* Norokusi
+  microtonal
 * [[id:339f3f3a-49c2-4dfd-a66c-de482ccec92a][my introductory microtonal music recommendations]]
 * Tarek Yamani: Maqam piano jazz
 * Amir ElSaffar: Maqam trumpet jazz

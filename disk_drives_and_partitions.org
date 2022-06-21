@@ -108,3 +108,6 @@
              n is probably a small digit or maybe missing
              jj should not be there (this prevents copy-paste disaster)
 * [[id:768c1193-5615-436b-b470-7f0983634b59][mounting and unmounting drives in Linux]]
+* [[id:653777d1-b361-4660-a83e-19cdb8860b2d][text files]]
+* [[id:23ca30c6-6830-4a27-9b23-f847635f461e][binary files]]
+* Why, and what to do if, [[id:ed1f7dd2-74c2-495e-9b68-bda19af749a8][the OS considers a file binary when I don't want it to]].

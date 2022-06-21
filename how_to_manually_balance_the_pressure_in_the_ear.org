@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       0ab75a72-78c0-410a-8929-c945ead8d35f
+:END:
+#+title: how to manually balance the pressure in the ear
+* PITFALL: Take [[id:ff009615-b90a-4cec-a645-c916f148bcb9][decongestants]] sufficiently in advance.
+* As soon as I detect a drop in altitude,
+  (i.e. an increase in pressure outside the ear),
+  plug nose and blow.
+  Do this early and often so that I never have to blow hard.
+  Otherwise the drum could be damaged.

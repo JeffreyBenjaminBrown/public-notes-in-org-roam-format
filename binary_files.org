@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       23ca30c6-6830-4a27-9b23-f847635f461e
+:END:
+#+title: binary files
+* PITFALL: If a file has null values, it's considered binary.
+  :PROPERTIES:
+  :ID:       ed1f7dd2-74c2-495e-9b68-bda19af749a8
+  :END:
+  A problem because they can sneak in unintentionally.
+** How to strip null values from a file.
+   tr < file-with-nulls -d '\000' > file-without-nulls

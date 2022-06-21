@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       ff009615-b90a-4cec-a645-c916f148bcb9
+:END:
+#+title: decongestant drugs
+* PITFALL: Make sure the Sudafed has pseudoephedrine & not phenylephrine
+  because phenylephrine is what the nasal decongestant is supposed to have,
+  and I don't want to double-dose.
+* Afrin nasal decongestant spray seems to last too long
+  I'm not supposed to take it more than every 12 hours,
+  so I'll be landing and taking off again while it's still weak
+  (the latter 6 hours of the 12 hour period).
+* Phenylephrine hydrochloride (Neo-Synephrine, others)
+  Seems to peak around 60 minutes after use.
+  Take it no more often than every 4 hours.
+* Ceterizine (Benadryl, others)
+  Not supposed to be taken more than twice a day at 5 mg.
+* Saltwater nasal sprays
+  Drugstores have them. Can't hurt, right?
+* DONE (unavailable because meth): Pseudoephedrine (Sudafed, others)
+** timing
+*** The fast kind peaks around 90 minutes.
+    "The decongestant effect of pseudoephedrine is noticeable within 30 minutes of oral administration and reaches a peak within one to two hours. One immediate-release tablet of pseudoephedrine lasts anywhere from three to eight hours."
+    https://www.drugs.com/tips/pseudoephedrine-patient-tips
+*** It comes in various durations.
+*** Beware that I'll need to take it again for the next flight leg.
