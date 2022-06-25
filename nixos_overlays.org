@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ad75b405-4c5c-4bd3-a472-e6e8f3ddbfba
+:END:
+#+title: NixOS overlays
+* I was given advice here
+  https://discourse.nixos.org/t/my-first-overlay-for-emacs/7570/2
+  but still couldn't figure it out.

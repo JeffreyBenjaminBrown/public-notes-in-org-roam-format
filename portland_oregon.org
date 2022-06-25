@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       13a32bc2-eaf6-41c6-bec3-389d1116d487
+:END:
+#+title: Portland, Oregon
+* [[id:cbb2d39f-b931-4de5-a367-e1c53ead95c0][some people in Portland]]
