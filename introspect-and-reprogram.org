@@ -5,7 +5,6 @@
 #+title: introspect & reprogram
 * TODO ? Would these notes be better in SmSn?
 * objects
-** TODO [[id:adb23c07-cfdf-4510-8f43-b1c4b6f68c38][Hypothesis: <Person>/interests > <Person>/outbox]]
 ** TODO ? After exercise I want to meditate
    :PROPERTIES:
    :ID:       506d431f-c5ac-486a-a7e6-6dfa6c09d69b

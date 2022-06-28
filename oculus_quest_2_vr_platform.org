@@ -3,6 +3,13 @@
 :END:
 #+title: Oculus Quest 2 (VR platform)
 * TODO [[id:0213144c-d3c6-482c-9174-5b493c8f5853][returning the Oculus Quest 2]]
+* PITFALL: Oculus Quest 2 vulnerabilities
+  :PROPERTIES:
+  :ID:       6245c084-fdb8-4ea6-a998-af585b0524ec
+  :END:
+** The lenses are vulnerable to sunlight.
+** The whole thing is vulnerable to high temperatures.
+   Particularly being in a hot car.
 * PITFALL: On bank statement, purchases are gibberish.
   When I bought Thrill of the Fight,
   the charge listed as going to "8RRXNDBFF2 Dublin IE".
@@ -36,10 +43,3 @@
    4.9 in store
 * [[id:b6962c78-a6c5-401c-84ee-f72ca88e48a3][Oculus Quest 2 "Tracking Lost" error recovery strategies]]
 * the [[id:197b7603-d7b2-49d2-adcb-636c30ea6d95][battery of my Oculus Quest 2]]
-* Oculus Quest 2 vulnerabilities
-  :PROPERTIES:
-  :ID:       6245c084-fdb8-4ea6-a998-af585b0524ec
-  :END:
-** The lenses are vulnerable to sunlight.
-** The whole thing is vulnerable to high temperatures.
-   Particularly being in a hot car.

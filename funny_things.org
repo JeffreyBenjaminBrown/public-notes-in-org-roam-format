@@ -4,3 +4,4 @@
 #+title: funny things
 * [[id:5c4aa81a-3cdf-47b9-a912-56f32e862b93][Astronauts can't drink soda.]]
 * [[id:44adfb1a-1616-4639-b3cf-542a3507bbae][Scripted schooling is effective.]]
+* [[id:7c065e0f-859a-495b-a5b1-69cb069c9e4a][If the eustachian tube is sufficiently closed, manually balancing your ear pressure sounds like a dolphin.]]
