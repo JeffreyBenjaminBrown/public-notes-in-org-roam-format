@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       28dba27e-9a8c-414a-b652-c83e2bef0c06
+:END:
+#+title: sinuses (human biology)
+* [[id:ff009615-b90a-4cec-a645-c916f148bcb9][decongestant drugs]]

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       b4a6ab65-7303-49c6-8acd-4bcb5a68f7f8
+:END:
+#+title: human anatomy
+* [[id:cfb0b93a-3c93-4ddc-8753-787ab12ccbe4][ear (human organ)]]
+* [[id:cb0e6796-84f7-40fa-8da3-370b3fec50cf][nose (human organ)]]

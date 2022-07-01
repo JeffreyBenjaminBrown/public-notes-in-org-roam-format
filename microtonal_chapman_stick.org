@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "Chapman Stick (and microtonality)"
 :END:
 #+title: (microtonal) Chapman Stick
+* [[id:dc5b4335-eaec-402b-a8c5-25476c9b0db7][insrance policy for my music gear]]
 * refs
 ** [[id:5af4a6c0-e582-44bd-8235-37de85e6420d][John Starrett]]
 * TODO ? send to Stick Enterprises, to understand gauges
