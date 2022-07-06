@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       86528895-0b90-4c6f-9754-279cda8e3a9e
+:END:
+#+title: coconut oil
+* how to use it
+  :PROPERTIES:
+  :ID:       f29fbdf5-4d91-401d-a614-d0a63bf201e5
+  :END:
+** source
+   https://www.healthline.com/nutrition/coconut-oil-and-skin#TOC_TITLE_HDR_9
+   "While refined coconut oil may be better suited for cooking at high temperatures, virgin coconut oil is a better choice in terms of skin health."
+** virgin coconut oil is better for skin
+** refined coconut oil is better for high heat cooking

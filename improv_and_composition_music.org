@@ -1,0 +1,47 @@
+:PROPERTIES:
+:ID:       a2c9fc96-2d00-47bf-88ee-98cc94a3bb58
+:END:
+#+title: improvised multitrack recording (music)
+* TODO composition idea: preliminary *vocal* sketches
+  Sketch the rhythm / timbre vocally before anything else.
+  Paint broad strokes before even getting into (precise) pitch.
+* Listen to & repair each track immediately after recording it.
+  Pay particular attention to the rhythm --
+  if it gets away from the metronome,
+  it'll cause problems for every subsequent voice,
+  so I should probably just delete that part,
+  unless I find a repair that won't screw up the rhythm elsewhere.
+  (Ableton-style stretching would do it.)
+* Keep each voice restrained.
+  Need to leave space for subsequent voices.
+  Space in time, space in the scale.
+* Speak more than pitch, both during and ex-post.
+  { tempo } +
+  (dynamics, note speed, size of pitch set) x (mean, variance)
+* Analyze tracks, figure out what they need.
+  These could be more of the spoken instructions.
+* ? Plan tracks.
+  Some of the vocal instructions (e.g. pitch set)
+  could be for all voices,
+  while others are just for the next voice.
+  I might listen to what's recorded straight through,
+  including the instructions,
+  until I'm comfortable with what's needed,
+  and only record thereafter.
+* Record a drum track early, maybe first.
+  If first, maybe TidalCycles.
+* I don't have to speed-speak the scale.
+  I'm going to edit those vocal instructions anyway.
+* I could add further notes to the spoken scale with each track.
+* Say "move x y" to move a note in the scale. Say "0 [numbers]" to redefine the scale entirely at the same tonic. Say "root x" to move the tonic within the scale, but without redefining the scale coordinates. For instance, if in C dorian, say "root 2" to now be in D phrygian, and then say "root 0" to go back to C dorian.
+* "root" and "move" are compatible.
+** For instance
+   C major
+   root 4    # now I'm in E phrygian
+   move 5 6  # now I'm in E minor
+   root 0    # now I'm in C lydian
+** root x doesn't make sense if x is not in the scale.
+** move x y makes sense only if x is in it and y is not.
+** move 0 1 makes sense, even though it's confusing.
+* State the edo at the start of the track.
+  This way if I pick it up later I'll know what's going on.

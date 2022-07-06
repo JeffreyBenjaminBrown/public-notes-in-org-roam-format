@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       50c474b4-6dad-4c00-83a8-52a4830e72f2
+:END:
+#+title: Pianoteq (soft synth)
+* installing Pianoteq
+** extract the .7z archive with "7z x <filename>"
+   (not "7z e" like I expected).
