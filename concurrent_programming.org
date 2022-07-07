@@ -54,3 +54,4 @@
 * some languages
 ** [[id:c008e013-350c-47c7-9f87-228d1d35b2b3][Erlang (programming language)]]
 *** [[id:8bd1818b-7da8-4c6b-b35e-93f54ef5a0d7][concurrency in Erlang]]
+** [[id:ea2298c9-6f5e-49f7-b81b-1374b6764e08][concurrency in Python]]

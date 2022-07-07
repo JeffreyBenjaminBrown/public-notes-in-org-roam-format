@@ -1,7 +1,9 @@
 :PROPERTIES:
 :ID:       5dd27b65-8dba-4c85-82f2-fad3464b3462
+:ROAM_ALIASES: Emacs
 :END:
 #+title: Emacs (programamble text editor)
+* [[id:19a2966d-79dc-49e9-b7a7-5dea84a19672][PITFALL: Currently (<2022-07-06 Wed>) Python mode can't handle triple quotes. Don't use them for a while.]]
 * [[id:a10a04e8-5b2b-4f75-93ec-f1d2082f2a3c][sexp and list commands in Emacs]]
 * [[id:3a230207-47a8-4dde-af88-2c442f5c51aa][Erlang and Emacs]]
 * some big single-page manuals
@@ -68,3 +70,6 @@
    :ID:       8402b50d-74ca-4279-b4d6-dde1cebdae65
    :END:
    emacs -nw
+   emacs -nw --no-init-file
+** run Emacs without using an init file
+   emacs --no-init-file

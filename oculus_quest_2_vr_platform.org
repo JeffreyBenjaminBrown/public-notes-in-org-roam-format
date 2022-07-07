@@ -43,3 +43,9 @@
    4.9 in store
 * [[id:b6962c78-a6c5-401c-84ee-f72ca88e48a3][Oculus Quest 2 "Tracking Lost" error recovery strategies]]
 * the [[id:197b7603-d7b2-49d2-adcb-636c30ea6d95][battery of my Oculus Quest 2]]
+* solutions
+** if it hangs, showing a white ring on a black background
+   serial:
+   Unplug it,
+   power it down (hold power button a long time, maybe 10 seconds),
+   then plug it in and charge it for a couple of hours.

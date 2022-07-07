@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       ea2298c9-6f5e-49f7-b81b-1374b6764e08
+:END:
+#+title: concurrency in Python
+* the trick
+  Subclass threading.Thread,
+  define "run()" in the class definition,
+  and then run its "start()" method (not, strangely, the "run()" method).
+* example
+  from time import sleep
+  from threading import Thread
+
+  class MyThread (Thread):
+    def run(self):
+      print("I'm the mythread, about to sleep.")
+      sleep(2)
+      print("I'm the mythread, just woke up. Now I die.")
+
+  def go():
+    mt = MyThread()
+    print("I'm the go().")
+    mt.start()
+    print("go() quitting now.")
+    return 1
+
+  x = go()

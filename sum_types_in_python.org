@@ -1,0 +1,84 @@
+:PROPERTIES:
+:ID:       0ec89580-3ce0-4175-a050-f2ecd9089b0d
+:END:
+#+title: sum types in Python
+https://stackoverflow.com/questions/16258553/how-can-i-define-algebraic-data-types-in-python
+* basic sum types
+  from dataclasses import dataclass
+
+  @dataclass
+  class Point:
+      x: float
+      y: float
+
+  @dataclass
+  class Circle:
+      x: float
+      y: float
+      r: float
+
+  Shape = Point | Circle
+
+  def print_shape(shape: Shape):
+      match shape:
+          case Point(x, y):
+              print(f"Point {x} {y}")
+          case Circle(x, y, r):
+              print(f"Circle {x} {y} {r}")
+
+  print_shape(Point(1, 2))
+  print_shape(Circle(3, 5, 7))
+  print_shape(4)  # mypy type error
+* recursive sum types require `annotations`
+** why
+   That's so the class can refer to itself
+   before it's completely defined.
+
+   from __future__ import annotations
+** example
+from __future__ import annotations
+from dataclasses import dataclass
+
+@dataclass
+class Branch:
+    value: int
+    left: Tree
+    right: Tree
+
+Tree = Branch | None
+
+def contains(tree: Tree, value: int):
+    match tree:
+        case None:
+            return False
+        case Branch(x, left, right):
+            return x == value or contains(left, value) or contains(right, value)
+
+tree = Branch( 1,
+               Branch ( 2,
+                        None,
+                        None ),
+               Branch ( 3,
+                        None,
+                        None ) )
+
+assert contains(tree, 1)
+assert contains(tree, 2)
+assert contains(tree, 3)
+assert not contains(tree, 4)
+* PITFALL: Checking for exhaustiveness is (somewhat) manual.
+** PITFALL: the idea
+   One has to include an assertion that a branch is unreachable,
+   then run mypy, which issue an error.
+** PITFALL: library | version requirements
+   "Exhaustiveness checking for ADTs can be enforced with mypy using typing.assert_never() in Python 3.11+ or as part of the typing-extensions backport for older versions of Python."
+** example
+def print_shape(shape: Shape):
+  match shape:
+    case Point(x, y):
+      print(f"Point {x} {y}")
+    case _ as unreachable:
+      # mypy will throw a type checking error,
+      # because this *is* reachable,
+      # because Circle is not covered.
+      assert_never(unreachable)
