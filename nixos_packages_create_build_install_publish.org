@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       52b7a722-8591-4f9b-a290-cccd1639e565
 :END:
-#+title: NixOS packages: create, build, install, uninstall, publish
+#+title: NixOS packages: find, create, build, install, uninstall, publish
 * refs
 ** u
    https://nixos.wiki/wiki/Nixpkgs/Create_and_debug_packages
@@ -62,6 +62,8 @@ https://stackoverflow.com/questions/59805975/nix-building-waf-produces-a-file-bu
 ** with only a comment
 https://stackoverflow.com/questions/59806776/nix-write-a-package-that-uses-waf-instead-of-make?noredirect=1#comment105758423_59806776
 * solutions
+** to find the package that provides a particular file
+   https://github.com/bennofs/nix-index
 ** installed C/C++ libraries are not ordinarily available
    :PROPERTIES:
    :ID:       c6589c74-c973-4ce3-a14b-6b499ed53e96

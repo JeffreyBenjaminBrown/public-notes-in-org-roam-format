@@ -18,7 +18,8 @@
 ** Pyheatmagic (library)
 * [[id:8bcdca01-a78f-4ee1-9873-51ef24fc5f0a][imports and modules in Python]]
 * [[id:5ae0535d-5f21-4a09-8485-0eda8eb4b73a][Python dictionaries ("dicts")]]
-* [[id:a44ce4eb-ff38-4ee3-8e72-50f9902ff754][Python and virtualenv in Nix]]
+* [[id:b8890c90-7e53-4482-8b3f-1399a28fe92a][virtualenv (Python tool)]]
+** [[id:a44ce4eb-ff38-4ee3-8e72-50f9902ff754][Python and virtualenv in Nix]]
 * [[id:cec794c0-a02f-467d-bda9-d1065ccfaa0d][reading command-line arguments to Python programs]]
 * to tag(build a tags file) python code for use in emacs
   :PROPERTIES:
@@ -26,7 +27,7 @@
   :END:
   find . -type f -name '*.py' | xargs etags
 * [[id:bd7363b0-401a-498e-9fe3-5d291c955cb3][if (command history|paste|backspace) misbehaves in `conda python3` in Docker]]
-* [[id:e4a6a10f-a305-49fa-91b1-08482df14229][a CS skills assessment, with a moderate focus on Python]]
+* [[id:e4a6a10f-a305-49fa-91b1-08482df14229][the CS skills assessment I wrote, with a moderate focus on Python]]
 * some Python libraries
 ** [[id:1a97cb6c-b6ff-4439-9790-ff372bc1ee38][scipy (libraries for Python)]]
 ** [[id:4f41726e-6865-4329-91c2-9f8716a5ba06][filelock (Python library)]]
@@ -38,3 +39,4 @@
 * solutions
 ** [[id:ea2298c9-6f5e-49f7-b81b-1374b6764e08][concurrency in Python]]
 ** [[id:0ec89580-3ce0-4175-a050-f2ecd9089b0d][sum types in Python]]
+** [[id:f54893f9-b912-4a71-953d-4f1ed18d0618][closures in Python]]

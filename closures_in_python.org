@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       f54893f9-b912-4a71-953d-4f1ed18d0618
+:END:
+#+title: closures in Python
+* the trick : use the "nonlocal" keyword
+* example
+def f():
+  x = 0
+  def g():
+    nonlocal x
+    print (x)
+    x = x+1
+  return g
+
+g = f()
+g() # prints 0, then modifies x
+g() # prints 1, then modifies x

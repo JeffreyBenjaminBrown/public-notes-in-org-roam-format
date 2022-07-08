@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       e76bfca8-f61d-45a2-908f-bad416a7c304
+:ROAM_ALIASES: git
 :END:
 #+title: git (version control software)
 * Check branch before each git session

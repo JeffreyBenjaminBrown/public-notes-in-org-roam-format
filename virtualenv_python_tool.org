@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       b8890c90-7e53-4482-8b3f-1399a28fe92a
+:END:
+#+title: virtualenv (Python tool)
+* to set up a virtual environment
+  :PROPERTIES:
+  :ID:       8ab98b85-5ede-4127-890c-76b3d4cb4ef4
+  :END:
+  # Any local subfolder can be substituted for .venv below.
+  python3 -m venv .venv            # create the environment
+  source .venv/bin/activate        # enable ("enter") it
+  pip3 install -r requirements.txt # install what's in that file
+* PITFALL: source and "." are synonyms
+  Some people use one, some the other.
