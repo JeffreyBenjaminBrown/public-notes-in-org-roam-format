@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a0cc5c8c-eacf-4713-adb8-ac46d0ea7dfb
+:END:
+#+title: ride sharing apps
+* Celutaxi
+  I've installed it, and I have an account, but I haven't used it.
+  Someone in Villavicencio recommended it.
+* [[id:4552b388-fa10-4c6c-a838-49efa65028a8][Uber]]
