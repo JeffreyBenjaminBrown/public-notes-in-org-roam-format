@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       56673132-f636-44eb-aaa6-848b99b705a8
+:END:
+#+title: how to guess the string gauge corresponding to a frequency
+* PITFALL: This is ignorant.
+  I did no literature review first.
+  Better solutions seem likely to already exist.
+* which strategy to use
+  If the f for which we need a g is between two fs for which we already do,
+  then I like the interpolating strategy best.
+  If it is out of that range,
+  I might like the non-interpolating strategy better.
+* the strategies
+** the interpolating strategy
+*** purpose
+    You already know some good frequency-gauge pairs,
+    and need to interpolate.
+*** central idea
+    Frequency * gauge seemed to stay in a somewhat narrow band.
+    Call that the "effigy" (f * g).
+    So given two frequency-gauge pairs (f1,g1) and (f2,g2),
+    and a frequency f between them (actually outside them works too),
+    this finds an interpolated effigy somewhere between f1 and f2,
+    and extracts g by dividing by f.
+*** the code
+  -- | How far is x from low to high.
+  -- proportion 3 0 5 == 0.6
+  proportion x low high =
+    (x - low) / (high - low)
+
+  -- | What gauge corresponds to `f`,
+  -- where f1 and g1 are a frequency and gauge near but lower than f,
+  -- and f2 and g2 are a frequency and gauge near but higher than f.
+  -- (Actually, f can be out of bounds too.
+  -- In fact, if it's out of the sample's range, it has to be.)
+  gauge f f1 g1 f2 g2 =
+    let p = proportion f f1 f2
+    in ( (1 - p) * f1 * g1 + p * f2 * g2 ) / f
+** the non-interpolating strategy
+   Given frequency f, if a string has a frequency f1 very close to f,
+   interpolation can probably be eschewed,
+   and I can instead assume freq * gauge is equal for both strings
+   (the real one f1 with gague g1,
+   and the hypothetical one f with gauge g)
+   and compute:
+     g = f1 * g1 / f

@@ -37,26 +37,7 @@ Jeff
 *** the pitches
 **** how I calculated these
 ***** [[id:b0333d12-6556-4d6e-a88c-5f3171c23213][the data they are based on]]
-***** the interpolating strategy, which I used most of the time
--- | How far is x from low to high.
--- proportion 3 0 5 == 0.6
-proportion x low high =
-  (x - low) / (high - low)
-
--- | What gauge corresponds to `f`,
--- where f1 and g1 are a frequency and gauge near but lower than f,
--- and f2 and g2 are a frequency and gauge near but higher than f.
-gauge f f1 g1 f2 g2 = let
-  p = proportion f f1 f2
-  in ( (1 - p) * f1 * g1 + p * f2 * g2 ) / f
-***** the non-interpolating strategy
-      Given frequency f, if a string has a frequency f1 very close to f,
-      interpolation can probably be eschewed,
-      and I can instead assume freq * gauge is equal for both strings
-      (the real one f1 with gague g1,
-      and the hypothetical one f with gauge g)
-      and compute:
-        g = f1 * g1 / f
+***** [[id:56673132-f636-44eb-aaa6-848b99b705a8][the code I used, and the idea behind it]]
 **** treble side
 ***** 277.2 Hz ~ 8.17
       gauge 277.2 293.7 8 220.0 9

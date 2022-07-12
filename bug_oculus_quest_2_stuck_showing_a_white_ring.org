@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       b4922d38-b67e-4b84-a7b8-968e319577e8
+:END:
+#+title: bug: Oculus Quest 2 stuck showing a white ring
+* advice that worked
+** hold power and volume buttons at the same time to reboot
+   I guess that's a different kind of reboot than the one where you just power down with the power button.
+* advice that failed
+** Someone says turn it off and charge it.
+   That was on some forum.
+** Someone says it goes away on its own, just let it run for a long time.
+   https://www.youtube.com/watch?v=igLEyclNAPA

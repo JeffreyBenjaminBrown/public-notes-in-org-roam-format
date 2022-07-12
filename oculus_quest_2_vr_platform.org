@@ -2,7 +2,6 @@
 :ID:       7d829b36-5932-41b0-b697-e9b9c8e8627a
 :END:
 #+title: Oculus Quest 2 (VR platform)
-* TODO [[id:0213144c-d3c6-482c-9174-5b493c8f5853][returning the Oculus Quest 2]]
 * PITFALL: Oculus Quest 2 vulnerabilities
   :PROPERTIES:
   :ID:       6245c084-fdb8-4ea6-a998-af585b0524ec
@@ -44,8 +43,6 @@
 * [[id:b6962c78-a6c5-401c-84ee-f72ca88e48a3][Oculus Quest 2 "Tracking Lost" error recovery strategies]]
 * the [[id:197b7603-d7b2-49d2-adcb-636c30ea6d95][battery of my Oculus Quest 2]]
 * solutions
-** if it hangs, showing a white ring on a black background
-   serial:
-   Unplug it,
-   power it down (hold power button a long time, maybe 10 seconds),
-   then plug it in and charge it for a couple of hours.
+** [[id:b4922d38-b67e-4b84-a7b8-968e319577e8][bug: Oculus Quest 2 stuck showing a white ring]]
+* history
+** [[id:0213144c-d3c6-482c-9174-5b493c8f5853][returning the Oculus Quest 2]]

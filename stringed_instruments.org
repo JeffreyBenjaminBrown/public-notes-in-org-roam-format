@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       8162b9cf-5f7a-49ac-8717-01e5586612fc
+:END:
+#+title: stringed instruments
+* [[id:56673132-f636-44eb-aaa6-848b99b705a8][how to guess the string gauge corresponding to a frequency]]
+* some [[id:29b8dc74-09ee-418c-9bb8-98bd4a3313b4][luthiers]]
+* [[id:0fb050fc-28b8-48a6-914b-6d5970490d46][microtonal guitar]]
+** [[id:f442a707-fece-493a-acb6-7b1e36ee094d][Chapman Stick (and microtonality)]]
