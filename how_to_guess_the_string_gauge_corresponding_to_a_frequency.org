@@ -5,6 +5,12 @@
 * PITFALL: This is ignorant.
   I did no literature review first.
   Better solutions seem likely to already exist.
+* refs
+** 12-edo notes in Hz
+   :PROPERTIES:
+   :ID:       ac426c9d-c1e2-4fe3-a021-620fee3d0508
+   :END:
+   https://pages.mtu.edu/~suits/notefreqs.html
 * which strategy to use
   If the f for which we need a g is between two fs for which we already do,
   then I like the interpolating strategy best.
