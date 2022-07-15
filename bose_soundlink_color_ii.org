@@ -6,7 +6,22 @@
   [[~/many-small/belongings/22-02-21-sUh59aky.manual.bose_soundlink_color_ii.pdf]]
 * how to enter stereo mode
   alternatives
-** without the app
+** with the app
+*** PITFALL: This is ignorant.
+    I didn't read it anywhere;
+    I found it through trial and error.
+*** steps
+    serial
+**** Have both speakers off.
+**** Turn on the app.
+**** It will offer to connect to Yellow. Accept.
+**** Then press the two speakers icon.
+**** It will start searching for another.
+**** Wait a few seconds.
+**** Turn on Blue.
+**** When it offers to connect Blue to Yellow, accept by dragging.
+**** If it fails, try again from the top of these steps.
+** without the app (very tedious)
 *** in brief
     Bluetooth and + on main
     Bluetooth and - on second
@@ -18,4 +33,3 @@
 **** Wait until it says it's in Party (duplicated mono) Mode.
 **** On either, press and holde Bluetooth and + again.
 **** Wait until it says it's in Stereo Mode.
-** Failing that, download and use the app.

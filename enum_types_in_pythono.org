@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       238e57b1-cb92-481c-8786-7131962b6689
+:END:
+#+title: enum types in Python
+* PITFALL: equality between Enum types is stupid.
+  Don't compare them directly.
+  Instead convert them to `value`s and compare those.
+* some example code
+from enum import Enum, unique, auto
+
+@unique
+class Move (Enum):
+    Buy  = auto ()
+    ToUs = auto ()
+    Sell = auto ()
+    ToCo = auto ()
+    def next (self) -> Move:
+      # In earlier versions of Python, returning `Move` here
+      # (miway through the definition of `Move`) might require
+        # from __future__ import annotations
+      # But as of 3.10 it doesn't.
+      return Move ( ( self . value )
+                      % len ( list ( Move ) )
+                      + 1 )
+* weird: the type itself can be converted to a list

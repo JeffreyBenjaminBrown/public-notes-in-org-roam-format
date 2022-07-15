@@ -5,7 +5,7 @@
 #+title: some ways to manipulate digital documents
 These notes were (all?) taken to apply for my [[id:fb125111-a65d-4aee-ac47-918b55572a97][visa renewal for Colombia]].
 * PITFALLS
-** pdftk does not like filenames that are numbers
+** pdftk does not like filenames that start with numbers
    even if the extensions are alphabetical and preceded by a dot
    e.g. 1.pdf is bad, but d1.pdf is ok
 * downsample jpegs *before* converting to pdf
@@ -14,6 +14,12 @@ Converting afterward works much worse.
 Convert with `convert` (imagemagick), but concat with `pdftk`.
   Concatenating pdfs with `convert` seems to waste space.
   (Using the same to concatenate non-pdfs into one pdf might be okay.)
+* how to draw sloppy lines on an image
+  Open it in GIMP.
+  Choose the pencil/lapiz tool.
+  Zoom in via the app (not via KDE).
+  Draw with my finger on the HP touchscreen.
+   It's far more precise than the mouse.
 * how to format a headshot for a Colombian visa
   :PROPERTIES:
   :ID:       53bb194e-7b52-48ad-91a8-1621010c4462
@@ -69,7 +75,7 @@ gs \
  input.pdf
 ** gimp: works, but uses a lot of memory
 image / mode / grayscale
-** imagemagick ("convert"): quality sucks
+** imagemagick ("convert"): perfect for jpgs, bad for pdfs
 convert -colorspace GRAY color.pdf gray.pdf
 convert -colorspace GRAY dian.pdf gray/dian.pdf
 * DONE cut empty pages
