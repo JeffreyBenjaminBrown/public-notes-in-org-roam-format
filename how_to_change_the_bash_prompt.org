@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       65fa661f-8304-4a1b-b11c-0b927fca356f
+:END:
+#+title: how to change the Bash prompt
+* ref
+  :PROPERTIES:
+  :ID:       6f394dbe-a908-4a3e-81ad-c527ce8cb109
+  :END:
+  https://phoenixnap.com/kb/change-bash-prompt-linux
+* example
+  PS1="(.venv) \W\$ "
+  The \W stands for the basename of the current folder,
+  equivalent to $(basename $(pwd)) except that it updates.
+  There are many such symbols,
+  for time, user, system, etc;
+  [[id:6f394dbe-a908-4a3e-81ad-c527ce8cb109][a list can be found here]].

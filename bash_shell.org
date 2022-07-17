@@ -3,8 +3,7 @@
 :ROAM_ALIASES: "shell programming" "Bash"
 :END:
 #+title: bash (shell)
-* how to change the Bash prompt
-  PS1="(.venv) $(basename $(pwd))\$ "
+* [[id:65fa661f-8304-4a1b-b11c-0b927fca356f][how to change the Bash prompt]]
 * pipe stdout and stderr to the same file
   command >out 2>&1
 * `cd`, change default target directory
