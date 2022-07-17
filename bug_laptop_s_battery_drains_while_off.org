@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       dcc5ee87-f93e-4655-bde4-695f5d93dab8
+:END:
+#+title: bug: laptop's battery drains while off
+* a reference
+  https://windowsreport.com/battery-drain-shutdown/#:~:text=This%20is%20a%20fairly%20common,turn%20off%20the%20device%20completely.
+* one solution: "Deep shutdown"
+  Once it's off, turn it more off,
+  by holding the power button for 15 seconds.

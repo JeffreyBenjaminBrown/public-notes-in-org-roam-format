@@ -2,6 +2,7 @@
 :ID:       b5d0332d-c7a5-4f03-bda5-5c1bae785f7d
 :END:
 #+title: surprising health dangers
+* [[id:9d5f7a3b-0120-44de-bfaa-e189c65c3462][Bug zappers explode the bugs, spread pathogens.]]
 * lead poisoning
 ** bright yellow turmeric (curcuma)
 ** artisanal glazed ceramic cookware

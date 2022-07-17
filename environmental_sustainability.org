@@ -3,3 +3,4 @@
 :END:
 #+title: environmental sustainability
 * [[id:1db6ec66-b1ff-4c2f-8a1f-348c4d93b302][Humanity appears to have passed "peak agricultural land".]]
+* [[id:93b8ba3e-6165-408e-8a65-034a79eadfb4][Outdoor bug zappers are terrible for the environment]]

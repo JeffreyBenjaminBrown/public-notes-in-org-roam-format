@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       c8364e32-9e14-42ac-8860-ef6c82ec06d2
+:END:
+#+title: bug zapper
+* Bug zappers explode the bugs, spread pathogens.
+  :PROPERTIES:
+  :ID:       9d5f7a3b-0120-44de-bfaa-e189c65c3462
+  :END:
+* Outdoor bug zappers are terrible for the environment
+  :PROPERTIES:
+  :ID:       93b8ba3e-6165-408e-8a65-034a79eadfb4
+  :END:
+  because they mostly kill good insects.

@@ -3,6 +3,7 @@
 :END:
 #+title: weird things
 * [[id:4e3a8b5e-e594-425f-93c5-ef16512a026a][lessons I learned the hard way, or repeatedly]]
+* [[id:9d5f7a3b-0120-44de-bfaa-e189c65c3462][Bug zappers explode the bugs, spread pathogens.]]
 * [[id:c5f987ab-6ae9-460d-a998-b4f43db91640][Ice volcanoes]] exist.
 * [[id:8024d6d8-9304-423b-88c4-8ecc408d4cc6][Awareness of pain feels better than unawareness of it.]]
 * [[id:09b82f96-2866-4f7a-81e1-c692f8ce77cb][Standing => narrow hips => humans give birth early => prolonged infancy.]]
