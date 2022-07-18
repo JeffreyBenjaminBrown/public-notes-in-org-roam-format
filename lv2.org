@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       4d78f358-0dec-4a05-a271-96e51b05f780
+:END:
+#+title: LV2 (audio plugin format)
+* how to install an LV2 plugin in Linux
+  serial
+** evaluate "echo $LV2_PATH" to see where I can install them
+** just copy them there

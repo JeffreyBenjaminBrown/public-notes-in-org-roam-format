@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       55154035-6f9f-4cac-9868-16ce24411229
+:END:
+#+title: instruction set
+* how to find my instruction set in Bash
+  uname -m
+* some instruction sets
+** [[id:5e5adc9b-409f-4341-819c-057c5132fddd][x86]]
+** ARM

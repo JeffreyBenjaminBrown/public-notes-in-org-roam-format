@@ -7,6 +7,10 @@
 ** PITFALL: Bancolombia calls them "A Toda Hora SA"
 ** PITFALL: The total amount due is shown at the very end
    of the bill they email (to Sandy).
+** PITFALL: I can say I'm the client.
+   It seems to allow anyone who uses the service to call themselves that,
+   even if the bill is not in their name.
+   This saves time -- I don't have to input separate client information.
 ** Botón de pago
    https://www.enel.com.co/es/personas/servicio-al-cliente/boton-de-pago.html
 ** Our ID number

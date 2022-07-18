@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       31e37165-32fa-4735-add7-433911de7329
+:END:
+#+title: audio plugins
+* some formats
+** [[id:3b1c4800-713a-41a5-9a65-55d83b51d03d][VST]]
+** [[id:4d78f358-0dec-4a05-a271-96e51b05f780][LV2]]
