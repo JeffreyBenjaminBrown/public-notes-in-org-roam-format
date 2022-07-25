@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       cc218618-77b1-4c0f-af6c-eec2b81e3847
+:END:
+#+title: Illinois is rebranding Asian carp as copia, so that people will eat it and reduce its extent.
+* source
+  The Economist: "To hook American diners, an invasive species of carp gets a new name"
+  https://www.economist.com/united-states/2022/07/07/to-hook-american-diners-an-invasive-species-of-carp-gets-a-new-name
+* The campaign is by the Illinois Department of Natural Resources.

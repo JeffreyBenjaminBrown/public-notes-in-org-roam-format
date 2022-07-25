@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       782f2260-6d93-46a5-afa8-ba4f6ff6c76a
+:END:
+#+title: games with weird geometry or physics
+* Manifold garden
+* Braid
+* Fez
+* Holonomy
+  You're a disk on a cube you can rotate.
+* Zig Zag: minimal shape rotation game
+  https://vladimirslepnev.itch.io/zigzag
+  My high score: 44 s
+* Noita
+  Everything is particles, all 4 states of matter.
+  Extremely GPU intensive.
+  Bran recommends. "Winning it is just the start."
+* Osmos: gravity + cellular absorption.
+  Beautiful, calming, hard.
+  https://www.osmos-game.com/

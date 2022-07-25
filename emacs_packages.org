@@ -89,6 +89,7 @@
 ;; avy : jump around
 (global-set-key (kbd "C-;") 'avy-goto-char-2)
 * remember, is great (and installed)
+** [[id:39d675f5-92d0-4777-a55f-8fbdc3c1543b][magit]] (for git)
 ** [[id:9db77045-9071-4c2b-86fb-93527b62b919][perspective]] ("persp-mode")
 ** [[id:f3494683-04d3-4eb7-98d0-441b920a7c99][deadgrep]]
 ** (smart-)hungry-delete
