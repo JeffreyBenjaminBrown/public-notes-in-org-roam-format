@@ -65,6 +65,7 @@
    pd.options.display.width = 5000
 ** show lots of rows
    pd.options.display.min_rows = 100
+* [[id:b0b3d876-77a3-4273-963b-7e9cf978183b][quantiles in scipy]]
 * formats
 ** to parse some columns as dates when calling read_csv
      pd.read_csv (

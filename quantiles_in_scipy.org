@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       b0b3d876-77a3-4273-963b-7e9cf978183b
+:END:
+#+title: quantiles in scipy
+> import pandas                  as pd
+> from   scipy import stats
+> x = pd.Series(range(0,501))
+> x.describe()                  # some output omitted
+min        0.000000
+max      500.000000
+> x.quantile(0.6)               # Find the 60th percentile.
+300
+> stats.percentileofscore(x,30) # Find the inverse quantile of 30.
+6.2
