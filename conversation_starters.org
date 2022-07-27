@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       366e649f-c492-4acc-99ae-dc552cd78f25
+:END:
+#+title: conversation techniques
+* refs
+  https://www.wsj.com/articles/have-better-conversations-with-friendsor-anyone-11658845993?mod=djem10point
+* some principles
+** open-ended questions
+   rather than ones with yes/no answers
+** share first
+** become more intimate, slowly
+   e.g. start with mundane stuff, like vacation plans
+** show appreciation
+* some conversation starters
+** ask them (implicitly) to analyze
+*** What'ssomething you love to do?
+*** What’s a goal you’re pursuing right now?
+*** What’s a challenge you’re facing?
+*** What’s the best change you’ve made during the pandemic?
+** ask them to elaborate
+*** Ask about someone's life stories, decisions
+**** Normally they talk about the recent.
+*** Tell me about your hometown.
+*** Say more about your day.
+*** Explain your work to me.
+** (in response to a raised eyebrow): Tell me about that look.
