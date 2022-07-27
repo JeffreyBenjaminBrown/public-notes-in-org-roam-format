@@ -4,6 +4,8 @@
 #+title: economics
 * [[id:d5710ba5-2a3a-4f7a-80fc-97f7225c3a05][macroeconomics]]
 * [[id:e40de8e8-8eb9-46cc-b175-c2e0c7b6a2a7][stock market, the]]
+* development economics
+** [[id:262774ed-45f0-4846-9029-fb33fe19fc90][Dani Rodrik on why manufacturing is special]]
 * some market failures
 ** [[id:ae713b0d-f687-4d52-ad67-64c777e64d58][The market for printers seems broken.]]
 * some papers

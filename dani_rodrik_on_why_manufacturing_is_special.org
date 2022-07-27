@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       262774ed-45f0-4846-9029-fb33fe19fc90
+:END:
+#+title: Dani Rodrik on why manufacturing is special
+* source
+  https://conversationswithtyler.com/episodes/dani-rodrik/
+* Manufacturing tech is easy to move internationally.
+  Toyota builds cars in Japan, Mexico and South Africa the same way.
+  Agriculture or healthcare, by contrast, are very different in those different places, because the land (for ag) and the doctors, patients and institutions (for medicine) are different.
+* Manufacturing can quickly absorb, and thereby raise the productivity of, a lot of unskilled labor.
+  China, for instance, moved hordes of people from farms in the countryside to factories in the cities. All they had to be able to do was move their hands a certain way.
+  Other sectores (e.g. medicine) are different -- they have high complemtarity between tech and skill.
+* Manufacturing's terms of trade are favorable.
+  Manufacturing doesn't require domestic demand.
+  To improve, say, healthcare in a country, since it can only (mostly) be sold domestically, requires everyone's incomes to rise at once.
+  Manufactures, though, can be sold abroad. Specializing in one small interval of a global production chain is enough to become an important and highly-paid part of that chain.

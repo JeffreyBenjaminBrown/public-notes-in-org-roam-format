@@ -5,20 +5,11 @@
 * [[id:b9db2e1e-6d06-4b7d-b290-d77eb3e9bf22][geography, games online]]
 * [[id:b798c848-e6ee-431e-b5ed-5b023b965992][Oculus Quest 2 games for fitness]]
 * [[id:468a4341-ce88-4797-8123-cd16e210cd48][foam rods (for fighting)]]
+* [[id:782f2260-6d93-46a5-afa8-ba4f6ff6c76a][games with weird geometry or physics]]
 * Boggle online
 https://www.puzzle-words.com/boggle-4x4/
-* Zig Zag: minimal shape rotation game
-  https://vladimirslepnev.itch.io/zigzag
-  My high score: 44 s
-* Noita
-  Everything is particles, all 4 states of matter.
-  Extremely GPU intensive.
-  Bran recommends. "Winning it is just the start."
 * Rainworld
   You're a cat with sticky appendages.
   The world is rainy and moody.
   Recommended by Bran: "deep".
-* Osmos: gravity + cellular absorption.
-  Beautiful, calming, hard.
-  https://www.osmos-game.com/
 * [[id:1159eeae-a067-4053-9185-03acce7ba548][video game ideas]]

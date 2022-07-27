@@ -2,6 +2,7 @@
 :ID:       724f8301-90c4-46fd-8e9e-5d4fe15e03cd
 :END:
 #+title: Lumatone (microtonal keyboard)
+* [[id:c22d36ca-944d-431c-bdd3-8b49e1b3ac52][setting up Pianoteq for the Lumatone]]
 * [[id:dc5b4335-eaec-402b-a8c5-25476c9b0db7][insrance policy for my music gear]]
 * TODO ? I got a coupon:
   https://mail.google.com/mail/u/0/#inbox/FMfcgzGmtXDbztmDNXnqVnkbxmlVRcXt

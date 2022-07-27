@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       f28ddaf7-698b-4d5e-a529-a34bc625f3dd
+:END:
+#+title: SSH over HTTPS, how to, for Github or maybe anything
+* CAVEAT: scope
+  This might apply only to Github, or might apply more generally;
+  I don't remember.
+* why
+  This was to work around security measures PUJ had imposed --
+  they blocked all SSH in and out.
+  But after two months mamando gallo they gave me an exception.
+* how
+  https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port

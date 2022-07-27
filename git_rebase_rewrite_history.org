@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       2bf0e5bf-4104-45f3-8e1c-e90a36c4314f
+:END:
+#+title: git rebase: rewrite history
+https://stackoverflow.com/a/5017265/916142
+* How to do it
+  Run this:
+    git rebase -i <parent of the easliest commit to change>
+  That opens an editor with something that looks like a commit message.
+  It's actually a script.
+  It can't be edited normally; one has to use special key shortcuts.
+  The commits are listed in reverse, oldest first.
+  With the cursor over a commit, press `e`
+  to change `pick` to `edit`.
+  Then, with the cursor still there, press `x`
+  to insert [[id:d3cc91b1-bb52-49d9-b435-4cc835495270][a commit edit command]].
+
+  Once that script is edited, save it and exit the editor.
+  To do all those changes and no others, run
+    git rebase --continue
+  But sometimes it just happens without even doing that?
+  Seemed to happen to me once, anyway.
+  Read the feedback carefully.
+* some examples of commit edit commands
+  :PROPERTIES:
+  :ID:       d3cc91b1-bb52-49d9-b435-4cc835495270
+  :END:
+    git commit --amend -m "did a cool thing" --no-edit
+  will change the commit message,
+    git commit --amend --author="James Brown <get@down.com>" --no-edit
+  will change the author of the commit,
+    git commit --amend --date="Wed Feb 16 14:00 2011 +0100" --no-edit
+  will change the date of the commit.
