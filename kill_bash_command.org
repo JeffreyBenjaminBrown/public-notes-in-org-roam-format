@@ -1,10 +1,11 @@
 :PROPERTIES:
 :ID:       09d7af48-b851-4f73-b29c-82cd08449437
+:ROAM_ALIASES: kill
 :END:
 #+title: kill (bash command)
-* kill all processes matching a regex (here "tmux")
+* kill all processes matching a regex (here "emacs")
 ** alternatives
 *** use `awk` to extract each PID, then `xargs` each into `kill`
-    ps -ef | grep -i tmux | awk '{print $2}' | xargs kill
+    ps -ef | grep -i emacs | awk '{print $2}' | xargs kill
 *** use `awk` to stick `kill` in front of each PID, then send to `sh`
-    ps -ef | grep "tmux" | awk '{print "kill " $2}' | sh
+    ps -ef | grep "emacs" | awk '{print "kill " $2}' | sh
