@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       30298122-ef45-4038-81f5-0b80dcb21548
+:END:
+#+title: Tiene sentido obligar a la gente a ahorrar para su vejez?
+* by [[id:70018c94-b809-401f-9d09-fc830691acf8][Oliver Pardo]]
+* some novel things about it
+** The paper considers informality.
+* content
+** effects of a forced savings rate under different conditions
+*** If people are rational and want to save, and credit markets are complete
+    then it will have no effect. If they are forced to save more than they want, they'll borrow to get around it, and if less, they'll save more to get to where they want.
+*** If people are irrational and don't want to save enough, but the forced savings rate is "correct"
+    then they will borrow to consume more now. If, as is probable, they borrow at a rate higher than the one at which their savings accumulate, they are harmed.
+*** The option to work informally can be equivalent to the option to borrow at a bad rate.
+    By working informally someone avoids forced savings, in return for a lower wage. If the informal wage is higher than they would take home after the forced savings in the formal economy, and their beta is low enough, they'll work informally.
+** Implementing a forced savings rate is hard.
+*** The optimal rate depends on the person. Enforcing the wrong one can make them worse of than they would be without any forced savings rate..
