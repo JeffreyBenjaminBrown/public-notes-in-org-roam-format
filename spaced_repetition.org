@@ -8,16 +8,22 @@
   search for "internalize", "spaced repetition", maybe "to learn", "remember"
 * todo ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * the last time I reviewed
-  11
-* review when time is odd
-** Refuse hand, foot massage
-** keep hat, scarf in the inner pocket of the big pocket
-** "signo de interrogación"
-** [[id:3f092a7a-4a04-426a-bf23-e4502ac4d84f][internalize: to change the sample size]] in tax.co.web
-** in Emacs, how [[id:76f955ac-1f33-4b6b-bedb-e85852a486b9][to insert (write) date, and maybe time, at point]]
-** In Phanaeros, [[id:8a497f47-2643-4b63-89d7-b0f53ff4092a][what doesn't work from where]]?
+  12
+* review when time is equal to 1 mod 2 (i.e. odd)
+** When adding an argument to a function, do what?
+   When giving a function an argument, be sure it's used,
+   and whatever it abstracts is now gone.
+** When receiving massages, do what?
+   Refuse hand, foot massage.
+   More generally, anywhere there's not much muscle --
+   e.g. back of the knee.
+** [[id:84b6c491-f0b4-44ab-9ffd-cf196d6a0220][Spanish vocabulary]]
 ** What is the [[id:75c26e6a-e72c-4ae7-9c30-39efe7c164c9][org-roam command to create a new note from a headline and its contents]]?
 * review when time is equal to 2 mod 4
+** How to organize backpack?
+   Keep hat, scarf in the inner pocket of the big pocket.
+** [[id:3f092a7a-4a04-426a-bf23-e4502ac4d84f][internalize: to change the sample size]] in tax.co.web
+** In Phanaeros, [[id:8a497f47-2643-4b63-89d7-b0f53ff4092a][what doesn't work from where]]?
 ** What might stop pointless behaviors?
    [[id:9ec55e32-f974-479e-8295-7d9e30156684][mindfulness]]
 ** Git: Do what before each session (or even each operation)?
@@ -26,6 +32,7 @@
    Check my Javeriana calendar too.
 ** [[id:1bfa7cac-6c4c-49ec-aacf-c517884ffd8a][? could the email count go awry]]
 * review when time is equal to 4 mod 8
+* review when time is equal to 8 mod 16
 ** What are the [[id:6245c084-fdb8-4ea6-a998-af585b0524ec][Oculus Quest 2's vulnerabilities]]?
 ** Why is keeping a [[id:51fab985-a4cf-4ca7-8e5a-55a26d224737][hard disk in bubble wrap stupid]]?
 ** Before leaving any doctor's office, do what?
@@ -33,7 +40,6 @@
 ** How do I like to schedule calls?
    [[id:7ac060da-9f65-4861-975b-d44d10623a46][Calling is better than being called.]]
 ** [[id:d283b6a3-205b-4a7c-9338-aa458f091691][Use my "prefix-date-uri" script.]]
-* review when time is equal to 8 mod 16
 ** List some (temporary) [[id:02d97f60-ef2a-4377-8169-300b97c07265][behavioral implications of having a bad knee]].
 ** [[id:e17f1f19-30af-486f-b5ad-2e1a01d94407][How to prepare for coding interviews]]?
 ** Why and how to [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult knowledge graph notes]]?
@@ -45,7 +51,9 @@
    It's in SmSn, at id
    BSPkZvDjoUqhzm0Z
 ** Maybe give ownership to the shy
-   paraphrased: "Children feel less in control than we realize, so hang back a bit, let them own the conversation." --Tyler Cowen
+   paraphrased: "Children feel less in control than we realize,
+   so hang back a bit, let them own the conversation."
+   --Tyler Cowen
 ** on wonder, fear, and creativity
     "If the world seems to be getting bigger and funnier all the time, your intelligence is steadily increasing. If the world seems to be getting smaller and nastier all the time, your stupidity is steadily increasing.”
 
@@ -56,4 +64,5 @@
 *** [[id:3305442a-e435-4f84-a403-9509963497b7][Note titles should be complete sentences.]]
 *** [[id:edca15b1-37f9-46ec-bb32-8a3090242b0d][? Use backlinks to define notes extrinsically]]
 * DONE internalized
+** in Emacs, how [[id:76f955ac-1f33-4b6b-bedb-e85852a486b9][to insert (write) date, and maybe time, at point]]
 ** [[id:14425786-4f89-4fc3-8bf7-9c31ccaba025][Linked data facilitates writing flashcards.]]

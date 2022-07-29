@@ -37,16 +37,19 @@ Begative titles are less actionable.
    :PROPERTIES:
    :ID:       46b695c5-617e-47a8-b699-ef2b7ec29e81
    :END:
- Knowing A is related to X is good. But if X is a long passage, it's more helpful for A to link to a specific part of X, and for that part of X to be visible from A.
+   Knowing A is related to X is good.
+   But if X is a long passage,
+   it's more helpful for A to link to a specific part of X,
+   and for that part of X to be visible from A.
 *** source: Andy Matuschak calls this "fine-grained association".
- https://notes.andymatuschak.org/z68tVM68dEAuH4acs7HY6K76tTVzBdoBGKMZB
+    https://notes.andymatuschak.org/z68tVM68dEAuH4acs7HY6K76tTVzBdoBGKMZB
 ** TODO ? Use backlinks to define notes extrinsically
    :PROPERTIES:
    :ID:       edca15b1-37f9-46ec-bb32-8a3090242b0d
    :END:
    even before they have any intrinsic content.
 *** ref, where I got the idea
-https://notes.andymatuschak.org/z2newCwFfd6iZFyf9bgspkbyt1G8wbQxJVgTK
+    https://notes.andymatuschak.org/z2newCwFfd6iZFyf9bgspkbyt1G8wbQxJVgTK
 * why
 ** Use notes to avoid preconceived conclusions.
  Writing an essay top-down implies the writer decides the conclusion first, and then tries to argue it. That's absurd!

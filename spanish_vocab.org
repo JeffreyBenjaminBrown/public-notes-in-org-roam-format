@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       84b6c491-f0b4-44ab-9ffd-cf196d6a0220
+:END:
+#+title: Spanish vocabulary
+* lineamiento
+  orientation, criteria
+* cafre
+  bad person
+* relatoría
+  outline
+* signo de interrogación
+  question mark
