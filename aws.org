@@ -3,6 +3,7 @@
 :ROAM_ALIASES: AWS
 :END:
 #+title: Amazon Web Services
+* TODO [[id:98445945-ace4-4c90-bf91-19d32ef4aa5f][Github and AWS CLI slow on Claro Hogar]]
 * TODO refs | URLs
 ** some of my AWS notes
 *** [[id:02822d7d-d0f5-4d99-8961-144812a3c4be][AWS credentials]]

@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "to absorb"
 :END:
 #+title: to read | to absorb
+* TODO ONGOING [[id:66a24ba5-b9d1-411a-bd9d-708190474bca][A Short History of Nearly Everything]]
 * things that might help me read better
   :PROPERTIES:
   :ID:       bbcc8ac7-7852-4d97-a624-0c8928549a42

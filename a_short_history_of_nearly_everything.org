@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       66a24ba5-b9d1-411a-bd9d-708190474bca
+:END:
+#+title: A Short History of Nearly Everything (book)
+* [[id:c918667b-d1e8-44e1-ad47-0fec4d4cba84][Radio telescopy is gossamer.]]
+* [[id:09a847d2-8414-48b4-a2ae-2422c64276c3][Pluto's orbit is chaotic and weird.]]

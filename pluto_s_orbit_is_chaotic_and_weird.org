@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       09a847d2-8414-48b4-a2ae-2422c64276c3
+:END:
+#+title: Pluto's orbit is chaotic and weird.
+* It cannot be predicted a century out.
+* Sometimes (rarely) it's closer than Neptune.
+* It's 17 degrees off-axis.

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       98445945-ace4-4c90-bf91-19d32ef4aa5f
+:END:
+#+title: Github and AWS CLI slow on Claro Hogar
+* Call this number to have someone come fix it.
+  Someone recommended this:
+    390 5391
+  It hangs up, but first suggests this number:
+    748 8888 # 3
+  which got us connected to someone.
+* looks like Github and AWC CLI are throttled
+  but strangely, not SSH
+* DONE wrong: number to identify the Github/AWS speed problem
+  9193 12 546

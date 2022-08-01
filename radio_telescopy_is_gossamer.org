@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c918667b-d1e8-44e1-ad47-0fec4d4cba84
+:END:
+#+title: Radio telescopy is gossamer.
+* The total energy collected with radio telescopes by astronomers from beyond the solar system is less than that of a snowflake hitting the ground.
+  said Carl Sagan
