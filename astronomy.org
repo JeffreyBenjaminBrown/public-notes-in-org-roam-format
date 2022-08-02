@@ -2,8 +2,12 @@
 :ID:       5a9e5a9f-8e1b-4487-ba1d-51692d73dd89
 :END:
 #+title: astronomy
-* [[id:c918667b-d1e8-44e1-ad47-0fec4d4cba84][Radio telescopy is gossamer.]]
-* [[id:09a847d2-8414-48b4-a2ae-2422c64276c3][Pluto's orbit is chaotic and weird.]]
-* [[id:7faf1c3e-510c-4073-99e0-a764db062772][The storm at the heart of the Milky Way galaxy.]]
-* [[id:5c4aa81a-3cdf-47b9-a912-56f32e862b93][Astronauts can't drink soda.]]
-* [[id:c5f987ab-6ae9-460d-a998-b4f43db91640][Ice volcanoes]] exist.
+* vocab
+** AU = [[id:59447811-6e25-45f5-abcd-2a6241dc1cc2][Astronomical Unit]]
+* cool facts
+** [[id:6b07ee85-287c-40e1-9fd5-3b41519c04a6][The solar system extends far beyond Pluto.]]
+** [[id:c918667b-d1e8-44e1-ad47-0fec4d4cba84][Radio telescopy is gossamer.]]
+** [[id:09a847d2-8414-48b4-a2ae-2422c64276c3][Pluto's orbit is chaotic and weird.]]
+** [[id:7faf1c3e-510c-4073-99e0-a764db062772][The storm at the heart of the Milky Way galaxy.]]
+** [[id:5c4aa81a-3cdf-47b9-a912-56f32e862b93][Astronauts can't drink soda.]]
+** [[id:c5f987ab-6ae9-460d-a998-b4f43db91640][Ice volcanoes]] exist.

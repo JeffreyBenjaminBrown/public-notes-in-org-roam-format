@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       6b07ee85-287c-40e1-9fd5-3b41519c04a6
+:END:
+#+title: The solar system extends far beyond Pluto.
+* Pluto is 40 [[id:59447811-6e25-45f5-abcd-2a6241dc1cc2][AU]]s from us.
+* The Oort cloud is 50,000 AUs from us.
+* The comets in it, while "held" by the Sun, are held so weakly that they move at only around 220 miles per hour.

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a9c30701-68a1-449a-8c2a-d95b92c5d442
+:END:
+#+title: mosquito laser
+* ref
+  https://en.wikipedia.org/wiki/Mosquito_laser
+* uses the frequency and vibration pattern to determine what to kill
+* can avoid male mosquitoes and non-mosquito insects
+* It looks like it may kill the females of some mosquito species that don't spread malaria.
+* Uses Blu-Ray lasers, because they're cheap and weak.
