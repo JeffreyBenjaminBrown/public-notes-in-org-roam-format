@@ -2,11 +2,29 @@
 :ID:       84b6c491-f0b4-44ab-9ffd-cf196d6a0220
 :END:
 #+title: Spanish vocabulary
-* lineamiento
-  orientation, criteria
-* cafre
-  bad person
-* relatoría
-  outline
-* signo de interrogación
-  question mark
+* last time I reviewed
+  1
+* odd times: Spanish questions, English answers
+** last time I reviewed
+   1
+** 1 mod 2
+*** lineamiento
+    orientation, criteria
+*** cafre
+    bad person
+*** relatoría
+    outline
+** 2 mod 4
+* even times: English questions, Spanish answers
+** last time I reviewed
+   never
+** 1 mod 2
+*** orientation, criteria
+    lineamiento
+*** bad person
+    cafre
+*** outline
+    relatoría
+*** question mark
+    signo de interrogación
+** 2 mod 4

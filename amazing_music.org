@@ -2,6 +2,7 @@
 :ID:       f927cc31-1266-4352-978a-b0e00fb806a8
 :END:
 #+title: amazing music
+* John Beasley (jazz)
 * Hans-André Stamm
   microtonal
 * Norokusi

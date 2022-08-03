@@ -8,18 +8,19 @@
   search for "internalize", "spaced repetition", maybe "to learn", "remember"
 * todo ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * the last time I reviewed
-  12
+  13
 * review when time is equal to 1 mod 2 (i.e. odd)
+** When receiving massages, do what?
+*** refuse these things
+    Refuse hand, foot massage.
+    More generally, anywhere there's not much muscle --
+    e.g. back of the knee.
+*** If communication is impossible, refuse all of it.
+    Too dangerous, not worth it.
+* review when time is equal to 2 mod 4
 ** When adding an argument to a function, do what?
    When giving a function an argument, be sure it's used,
    and whatever it abstracts is now gone.
-** When receiving massages, do what?
-   Refuse hand, foot massage.
-   More generally, anywhere there's not much muscle --
-   e.g. back of the knee.
-** [[id:84b6c491-f0b4-44ab-9ffd-cf196d6a0220][Spanish vocabulary]]
-** What is the [[id:75c26e6a-e72c-4ae7-9c30-39efe7c164c9][org-roam command to create a new note from a headline and its contents]]?
-* review when time is equal to 2 mod 4
 ** How to organize backpack?
    Keep hat, scarf in the inner pocket of the big pocket.
 ** [[id:3f092a7a-4a04-426a-bf23-e4502ac4d84f][internalize: to change the sample size]] in tax.co.web
