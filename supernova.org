@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       fd9de01f-1dea-4e18-ab1c-7b6ba779e914
+:END:
+#+title: supernova
+* is the explosion of a [[id:dd789d5b-45e3-4c8a-b383-f068728ab82a][neutron star]]
+* is the biggest kind of explosion we know about, short of the big bang
+* If a supernova exploded within five hundred light years, we would die.
+  :PROPERTIES:
+  :ID:       78f009ca-34bf-46ab-b875-8c827a68c958
+  :END:
+** Within ten or so it would kill us outright.
+** But within 500 it would strip the Earth of its magnetosphere.
+* None of the stars close enough to kill us if they went supernova are big enough to go supernova.
+* A few supernovae have been visible to the naked eye.
+** In 1054 one created the Crab Nebula.
+** In 1604 one made a star visible by daylight for three weeks.
+* Carbon and heavier things need supernovae to form.
+  Even the cores of regular stars aren't hot enough.

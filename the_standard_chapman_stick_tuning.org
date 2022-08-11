@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       26844f73-1cfb-400e-9aab-a99d0bf053ed
+:END:
+#+title: the standard Chapman Stick tuning
+* range
+  Normally a Chapman Stick has a range of 3 octaves and a whole tone across the open strings, with lots of overlap.
+* string gauges
+  :PROPERTIES:
+  :ID:       b0333d12-6556-4d6e-a88c-5f3171c23213
+  :END:
+** result
+   gauge = frequency ~ pitch
+   8	  = 293.7     ~ D4   treble
+   9	  = 220.0     ~ A3   treble
+   12	  = 164.8     ~ E3   treble
+   18	  = 123.5     ~ B2   treble
+   26u	  = 92.5      ~ F# 2 treble
+   38u	  = 69.3      ~ C# 2 treble
+
+   95u	  = 32.7      ~ C1
+   65u	  = 49.0      ~ G1
+   40u	  = 73.4      ~ D2
+   22u	  = 110.0     ~ A2
+   18	  = 164.8     ~ E2
+   12	  = 246.9     ~ B2
+** explanation
+   This data is cobbled together -- I found the numbers on a Google image search, and Brian told me which strings are wound.
+   It seems kind of absurd -- if the treble strings are 5\12 apart and the bass 7\12, why are 12 and 18 neighbors in both systems?
+   treble:  8   9  12  18  26u 38u
+   bass:   12  18  22u 40u 65u 95u

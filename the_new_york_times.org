@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       f3495a85-ec8c-425d-ac0a-6215c6dc1058
+:ROAM_ALIASES: NYT
+:END:
+#+title: The New York Times
+* TODO delete my account associated with Gmail
+  so that I can change the email address associated with yahoo to gmail
+** email explaining how to
+   https://mail.google.com/mail/u/0/?q=sebastian#inbox/FMfcgzGqPpXLxkbFLVqRPbjnQRhcgxWS

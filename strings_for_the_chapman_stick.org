@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       d4b44e86-641a-48b8-bb49-0cb1a3e015d4
+:END:
+#+title: strings for the Chapman Stick
+* the gauges Kalium seems to have given me
+  :PROPERTIES:
+  :ID:       41507333-59dc-4634-893e-d657eb1ff68d
+  :END:
+*** PITFALL: There are 13 numbers!
+*** the numbers, we think
+    8
+    10.5
+    13
+    16
+    20
+
+    21 w
+    26
+
+    29
+    37
+    47
+    57
+    73
+    94 (not 98 or 90 -- 94 is what the receipt shows:
+      https://mail.google.com/mail/u/0/?q=sebastian#inbox/FMfcgzGpGKgHvlKsGltSnPmsRvrNTVzq)
+* Old sets of Chapman Stick strings had numbers listed.
+  The new ones don't. Shady.

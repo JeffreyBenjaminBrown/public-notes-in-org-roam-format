@@ -8,6 +8,10 @@
 ** last time I reviewed
    1
 ** 1 mod 2
+*** rendimientos financieros
+    financial returns of any kind -- capital gains + dividends
+*** pese a que
+    although
 *** lineamiento
     orientation, criteria
 *** cafre
@@ -19,6 +23,8 @@
 ** last time I reviewed
    never
 ** 1 mod 2
+*** financial returns of any kind -- capital gains + dividends
+    rendimientos financieros
 *** orientation, criteria
     lineamiento
 *** bad person

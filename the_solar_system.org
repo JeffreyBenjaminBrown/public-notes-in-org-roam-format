@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       753a51a4-a54a-4894-af24-de0517a70c57
+:END:
+#+title: the solar system
+* Only 0.1 percent of the solar system's mass is not in the sun.
+  :PROPERTIES:
+  :ID:       b024e835-3157-4470-bcd9-1c32518a4112
+  :END:
+* The planets coalesced through gravity from dust.
+* The Sun was dimmer early on.
+* The Earth's water came from meteorites, comets, and other external debris.

@@ -2,40 +2,7 @@
 :ID:       888eee74-1c22-4750-8922-efaad74206fe
 :END:
 #+title: tuning the Chapman Stick
-* TODO I'd like to tune it lower, by at least a half step.
-  The 1st string still sounds nasal and tense at C#
-  (let alone Chapman's suggested D), so C should be better.
-  And the 7th string can easily handle a C# instead of a D,
-  given that Chapman recommends a C
-  (and the gauges I got assume a C#).
-* how I'm currently tuning it
-** how: 1 to C#, 7 to D
-   12th fret on 1st string = G#
-     descend by major thirds = 13\41s from there
-   12th fret on 7th string = A
-     ascend by major thirds = 13\41s from there
-** why
-*** in brief
-    This seems to give roughly optimal space
-    between rainbow regions on treble and bass sides.
-*** in detail
-**** where I started
-     First I was tuning open strings 1 and 7 to C#.
-     That's no good, because the rainbow regions are basically parallel,
-     so you can't play with your hands crossed.
-**** the next thing I tried
-     was to make the 1st and 7th strings differ in pitch by 1 mod 41.
-**** evaluating that
-     That gives optimal spacing around those strings,
-     but not far from them,
-     because they're moving in opposite directions:
-     strings 6-1 range from C# to F#,
-     whereas 7-12 range from C# to G#.
-**** how I therefore tweaked it
-     The tuning I'm using is very close to where I started.
-     The 1st string is still tuned to an open C# (12th fret G#),
-     but the 7th string is tuned 3 mod 41 higher than that.
-     This gives a little more room between my hands
-     in the most common position:
-     left low on the bass side, right low on the treble side.
-     C# = C + 4\41, so C# + 3 = C + 7\41 = D.
+* [[id:41507333-59dc-4634-893e-d657eb1ff68d][the gauges Kalium seems to have given me]]
+* [[id:56673132-f636-44eb-aaa6-848b99b705a8][how to guess the string gauge corresponding to a frequency]]
+* [[id:26844f73-1cfb-400e-9aab-a99d0bf053ed][the standard Chapman Stick tuning]]
+* [[id:1190dc3c-2977-42e7-892d-72d9031a34bd][41-edo Chapman Stick tunings]]

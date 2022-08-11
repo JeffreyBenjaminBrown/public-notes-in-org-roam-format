@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ce5aaf76-b5ec-425f-9d6f-4e5a853e71e0
+:END:
+#+title: when Isaac Newton met Edmond Halley
+* (Halley of Halley's comet)
+* Halley asked Newton what a comet's orbit would be under the inverse square law for gravity.
+* Newton replied immediately, "An ellipse."
+* Halley was overjoyed, because he had seen this. He asked Newton how he knew.
+* Newton said he had calculated it. But then he couldn't find the calculation.
+* Newton promised to redo the calculation. He did. Then he retired for two years, to emerge with the Principia Mathematica.

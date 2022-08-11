@@ -4,3 +4,7 @@
 #+title: Gmail
 * [[id:c5b10311-7fc6-4bec-89a7-ed588a1bed83][using SMTP to control Gmail programmatically]]
 * [[id:c751cca4-afa3-48d8-aa58-b7580c43484e][to delete recent Gmail messages about the spread]]
+* searching with date ranges
+  Something like this, but I might have the y-m-d in the wrong order.
+  Run tests -- I don't believe the source I got.
+  from:me to:ospinapedraza.manuela@gmail.com before:12/01/2018

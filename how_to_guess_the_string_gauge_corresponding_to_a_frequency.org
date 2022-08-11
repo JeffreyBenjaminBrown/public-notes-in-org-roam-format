@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       56673132-f636-44eb-aaa6-848b99b705a8
+:ROAM_ALIASES: "string gauge-frequency correspondence"
 :END:
 #+title: how to guess the string gauge corresponding to a frequency
 * PITFALL: This is ignorant.
@@ -11,6 +12,12 @@
    :ID:       ac426c9d-c1e2-4fe3-a021-620fee3d0508
    :END:
    https://pages.mtu.edu/~suits/notefreqs.html
+* PITFALL: A gauge's "ideal tension" considers both timbre and feel.
+  :PROPERTIES:
+  :ID:       ab252872-f79a-474e-b336-b795b093079c
+  :END:
+  That is, pay attention to both
+  when trying different frequencies for a gauge.
 * which strategy to use
   If the f for which we need a g is between two fs for which we already do,
   then I like the interpolating strategy best.
@@ -23,10 +30,10 @@
     and need to interpolate.
 *** central idea
     Frequency * gauge seemed to stay in a somewhat narrow band.
-    Call that the "effigy" (f * g).
+    Call that the "frequency-gauge semi-invariant", or FGSI.
     So given two frequency-gauge pairs (f1,g1) and (f2,g2),
     and a frequency f between them (actually outside them works too),
-    this finds an interpolated effigy somewhere between f1 and f2,
+    this finds an interpolated FGSI somewhere between f1 and f2,
     and extracts g by dividing by f.
 *** the code
   -- | How far is x from low to high.

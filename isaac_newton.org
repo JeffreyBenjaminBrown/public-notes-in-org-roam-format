@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       b6868add-aa4b-4b83-8a5b-dfea2aec27e0
+:END:
+#+title: Isaac Newton
+* was "famously distracted"
+  :PROPERTIES:
+  :ID:       77d4d05d-f2d5-4486-9737-c435158839cb
+  :END:
+** "upon swinging his feet out of bed in the morning, [Isaac Newton] would reportedly sometimes sit for hours, immobilized by the sudden rush of thoughts to his head"
+* engaged in self-harm for science.
+** once rubbed a needle around between his eyeball and the skull.
+** once looked at the sun for as long as he could stand.
+* told nobody about the calculus for 27 years.
+* had 40 times the natural concentration of mercury in his hair.
+* [[id:ce5aaf76-b5ec-425f-9d6f-4e5a853e71e0][when Newton met Halley]]
+* He made the Principia hard to understand on purpose, to avoid being pesteredy by "smatterers".

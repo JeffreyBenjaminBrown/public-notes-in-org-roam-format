@@ -14,3 +14,9 @@
   >>> l = [(1,2),(3,4)]
   >>> { a:b for (a,b) in l }
   {1: 2, 3: 4}
+* merging Python dictionaries
+  :PROPERTIES:
+  :ID:       88971f77-9463-446d-a07b-9ff1d0f601df
+  :END:
+  PITFALL: Later keys clobber earlier ones.
+  { **{1:2}, **{3:4} }

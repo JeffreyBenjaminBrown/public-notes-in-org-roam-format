@@ -3,7 +3,9 @@
 :END:
 #+title: 41-edo
 * [[id:e0b10cc1-3a7c-4d9d-9e35-8ba6352b8f6c][41-edo is fat-finger friends with 82-edo]].
-* layouts
+* [[id:c5ab503b-2182-48d3-a416-5a2a1131f234][41-edo notation]]
+* [[id:1190dc3c-2977-42e7-892d-72d9031a34bd][41-edo Chapman Stick tunings]]
+* 2d isomorphic layouts
 ** Kite: 41 13 2
 ** Narrow Kite: 41 11 2
 ** [[id:67465b81-c736-4430-bdbd-822106520f1b][Bosanquet: 7\41 x 3\41]]. A bit more* compact, easy 5-limit

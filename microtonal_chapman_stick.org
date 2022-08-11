@@ -1,10 +1,10 @@
 :PROPERTIES:
 :ID:       f442a707-fece-493a-acb6-7b1e36ee094d
-:ROAM_ALIASES: "Chapman Stick (and microtonality)"
+:ROAM_ALIASES: "Chapman Stick"
 :END:
 #+title: (microtonal) Chapman Stick
+* my [[id:d4b44e86-641a-48b8-bb49-0cb1a3e015d4][strings for the Chapman Stick]]
 * [[id:888eee74-1c22-4750-8922-efaad74206fe][tuning the Chapman Stick]]
-* [[id:597e8660-6dfc-4087-8432-88d82884c1d1][Chapman Stick strring gauges and frequencies]]
 * [[id:dc5b4335-eaec-402b-a8c5-25476c9b0db7][insrance policy for my music gear]]
 * refs
 ** [[id:5af4a6c0-e582-44bd-8235-37de85e6420d][John Starrett]]

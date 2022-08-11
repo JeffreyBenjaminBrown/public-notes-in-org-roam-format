@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       d8863536-c1f1-4ad2-b974-967ecdb0087d
+:END:
+#+title: how to explore tunings
+* [[id:ab252872-f79a-474e-b336-b795b093079c][PITFALL: A gauge's "ideal tension" considers both timbre and feel.]]
+* PITFALL: Consider whether my hands will run into each other.
+  The most natural, default Stick player position
+  is with the left hand on the bass
+  and the right hand near it on the treble.
+  If they are to be in two corresponding 41-edo "rainbow zones",
+  then (if memory serves)
+  those two rainbow zones should be separated by about 8 frets (16\41).

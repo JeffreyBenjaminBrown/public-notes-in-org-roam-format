@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b702aa8d-ec68-46c1-9f27-c695a96e1c2d
+:END:
+#+title: generics in Python
+from typing import Dict, TypeVar
+
+K = TypeVar("K")
+V = TypeVar("V")
+
+def myLookup ( d : Dict[K,V], k : K ) -> V:
+  return d[k]

@@ -2,6 +2,7 @@
 :ID:       4017c25d-ec4d-4f41-aaed-e3be02dba620
 :END:
 #+title: weird things
+* [[id:0785a86f-14e9-4dff-901a-16c7aa487140][people who are good at weird stuff]]
 * [[id:a9c30701-68a1-449a-8c2a-d95b92c5d442][mosquito laser]]
 * [[id:4e3a8b5e-e594-425f-93c5-ef16512a026a][lessons I learned the hard way, or repeatedly]]
 * [[id:9d5f7a3b-0120-44de-bfaa-e189c65c3462][Bug zappers explode the bugs, spread pathogens.]]
@@ -9,3 +10,4 @@
 * [[id:8024d6d8-9304-423b-88c4-8ecc408d4cc6][Awareness of pain feels better than unawareness of it.]]
 * [[id:09b82f96-2866-4f7a-81e1-c692f8ce77cb][Standing => narrow hips => humans give birth early => prolonged infancy.]]
 * [[id:f1ac5423-6341-4eeb-9b7f-41e5050dd179][Human foragers may have been smarter than us.]]
+* [[id:b6868add-aa4b-4b83-8a5b-dfea2aec27e0][Isaac Newton]]

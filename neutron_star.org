@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       dd789d5b-45e3-4c8a-b383-f068728ab82a
+:END:
+#+title: neutron star
+* explodes into a [[id:fd9de01f-1dea-4e18-ab1c-7b6ba779e914][supernova]]
+* A spoonful of the core of a neutron star would weigh 200 billion pounds.
+  :PROPERTIES:
+  :ID:       9142cdba-c494-4efa-8478-60855a02695b
+  :END:

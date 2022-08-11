@@ -1,0 +1,90 @@
+:PROPERTIES:
+:ID:       1190dc3c-2977-42e7-892d-72d9031a34bd
+:END:
+#+title: 41-edo Chapman Stick tunings
+  intended, ideal for these strings, my current compromise, and future
+* PITFALL: Review [[id:d8863536-c1f1-4ad2-b974-967ecdb0087d][how to explore tunings]]
+* TODO I made *amazing* code for this.
+  see of/tax.co/online/temp-freqs/
+* All numerical notes are mod 41, where 0 = C.
+* DONE ? my original intent
+** interpreting the columns
+   ideal = sounds / feels best with 12th fret tuned to
+   Hz = my intent in Hz, at the nut
+   gauge = what I asked John for, which supposedly is on there now
+   intent = my intent in musical notation, at the 12th fret
+   err 1 = error = intent - ideal
+** the table
+|  s | gauge  | ideal      | intent     | intent Hz | err |
+|    |        | at fret 12 | at fret 12 |    at nut |     |
+|----+--------+------------+------------+-----------+-----|
+|  1 | 8.17   | vG  / 23'' | G#  / 28'' |     277.2 |   5 |
+|  2 | 9.0    | vD# / 10'' | ^E  / 15'' |     222.5 |   5 |
+|  3 | 11.1   | vB  / 37'  | vDb /  2'' |     178.6 |   6 |
+|  4 | 14.7   | ^G  / 25'  | vA  / 30'  |     143.4 |   5 |
+|  5 | 19.5   | ^E  / 15'  | F   / 17'  |     115.1 |   2 |
+|  6 | 26   w | C#  /  4'  | C#  /  4'  |      92.4 |   0 |
+|----+--------+------------+------------+-----------+-----|
+|  7 | 90   w | ^G  / 25_  | G#  / 28_  |      34.6 |   3 |
+|  8 | 73.1 w | A#  / 35_  | C   /  0   |      43.2 |   6 |
+|  9 | 58.3 w | vC# /  3   | vE  / 13   |       5.8 |  10 |
+| 10 | 44.8 w | vF# / 20   | vAb / 26   |      67.0 |   6 |
+| 11 | 33.5 w | B   / 38   | ^B  / 39   |      83.5 |   1 |
+| 12 | 24.1 w | vC# /  3'  | ^Eb / 11'  |     104.0 |   8 |
+* the table
+** interpreting the columns
+   gauge     = what I asked John for, which supposedly is on there now
+   ideal     = sounds / feels best with 12th fret tuned to
+     i-note  = ideal note
+     i-41    = ideal number of steps of 41-edo up from C
+     i-Hz    = ideal frequency in Hz
+   u	      = what I'm currently using
+     u-note  = using note
+     u-41    = using number of steps of 41-edo up from C
+     u-Hz    = using frequency in Hz
+   err	      = using - ideal.
+     These numbers are positive where the string is fat / tense.
+** the table
+PITFALL: All these measurements are at the 12th fret.
+|  s | gauge  | i-note | i-41 |  i-Hz | u-note | u-41 |  u-Hz | err |
+|----+--------+--------+------+-------+--------+------+-------+-----|
+|  1 | 8.17   | vG     | 23'' | 384.3 | vG     |   23 | 384.3 |   0 |
+|  2 | 9.0    | vD#    | 10'' | 308.5 |        |   10 | 308.5 |   0 |
+|  3 | 11.1   | vB     | 37'  | 243.4 |        |   38 | 247.6 |   1 |
+|  4 | 14.7   | ^G     | 25'  | 198.7 |        |   25 | 198.7 |   0 |
+|  5 | 19.5   | ^E     | 15'  | 167.8 |        |   12 | 159.5 |  -3 |
+|  6 | 26   w | C#     | 4'   | 139.3 |        |   40 | 128.1 |  -5 |
+|----+--------+--------+------+-------+--------+------+-------+-----|
+|  7 | 90   w | ^G     | 25_  |  49.6 | vAb    |   26 |  50.5 |   1 |
+|  8 | 73.1 w | A#     | 35_  |  58.8 | ^B     |   39 |  62.9 |   4 |
+|  9 | 58.3 w | vC#    | 3    |  68.5 | ^Eb    |   11 |  78.4 |   8 |
+| 10 | 44.8 w | vF#    | 20   |  91.3 | G      |   24 |  97.7 |   4 |
+| 11 | 33.5 w | B      | 38   | 123.8 | Cb     |   37 | 121.7 |  -1 |
+| 12 | 24.1 w | vC#    | 3'   | 137.0 | vEb    |    9 | 151.6 |   6 |
+* implications for future
+** an example
+   string 9 : try
+      gauge 78.4 68.5 58.3 91.3 44.8
+      = 51.47 wound
+** a whole goddamn table I made
+   is at /home/jeff/of/tax.co/online/temp-freq
+*** copied, probably badly
+| s,  | gauge, | wound, | i-41, | i-Hz,  | u-41, | u-Hz,  | err, |    try-gauge |      |
+| 1,  | 8.17,  | False, | 23'', | 384.3, | 23,   | 384.3, | 0,   |          nan |      |
+| 2,  | 9.0    | False, | 10'', | 308.5, | 10,   | 308.5, | 0,   |          nan |      |
+| 3,  | 11.1,  | False, | 37',  | 243.4, | 38,   | 247.6, | 1,   |         10.9 |      |
+| 4,  | 14.7,  | False, | 25',  | 198.7, | 25,   | 198.7, | 0,   |          nan |      |
+| 5,  | 19.5,  | False, | 15',  | 167.8, | 12,   | 159.5, | -3,  |          nan |      |
+| 6,  | 26.0,  | True,  | 4',   | 139.3, | 39,   | 128.1, | -5,  |         30.2 | TODO |
+| 7,  | 90.0,  | True,  | 25_,  | 49.6,  | 26,   | 50.5,  | 1,   |         88.1 |      |
+| 8,  | 73.1,  | True,  | 35_,  | 58.8,  | 39,   | 62.9,  | 4,   |         66.3 |      |
+| 9,  | 58.3,  | True,  | 3,    | 68.5,  | 11,   | 78.4,  | 8,   |         51.5 | TODO |
+| 10, | 44.8,  | True,  | 20,   | 91.3,  | 24,   | 97.7,  | 4,   |           42 |      |
+| 11, | 33.5,  | True,  | 38,   | 123.8, | 37,   | 121.7, | -1,  |           34 |      |
+| 12, | 24.1,  | True,  | 3',   | 137.0, | 9,    | 151.6, | 6,   | 22.8 unwound | TODO |
+** what to do with string 12
+   It needs changing and is out of sample.
+   The only data I have near that frequency is for unwound strings.
+   I get
+     gauge 151.6 198.7 14.7 167.8 19.5
+     = 22.8
