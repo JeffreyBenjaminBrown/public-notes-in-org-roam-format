@@ -3,9 +3,15 @@
 :ROAM_ALIASES: "string gauge-frequency correspondence"
 :END:
 #+title: how to guess the string gauge corresponding to a frequency
+* [#A] I made *amazing* code for this.
+  jeff@jbb-hp17:gauge-freq$ pwd
+  /home/jeff/code/music/gauge-freq
+  jeff@jbb-hp17:gauge-freq$ git remote -v
+  origin  git@github.com:JeffreyBenjaminBrown/gauge-freq.git (fetch)
+  origin  git@github.com:JeffreyBenjaminBrown/gauge-freq.git (push)
 * PITFALL: This is ignorant.
   I did no literature review first.
-  Better solutions seem likely to already exist.
+  A more accurate approximation seems likely to exist.
 * refs
 ** 12-edo notes in Hz
    :PROPERTIES:

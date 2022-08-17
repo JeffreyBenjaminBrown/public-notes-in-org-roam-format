@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       052023e9-b265-4736-86fa-15dfeda8d01d
+:END:
+#+title: font
+* [[id:bf25fff6-3dfe-42ed-86fb-1b26db695fd6][setfont -d doubles font size on Linux when using no GUI.]]

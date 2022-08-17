@@ -8,6 +8,9 @@
   :END:
 * how
 ** setfont -d doubles font size on Linux when using no GUI.
+   :PROPERTIES:
+   :ID:       bf25fff6-3dfe-42ed-86fb-1b26db695fd6
+   :END:
 *** TODO If I want finer-grained control of the font
 **** the idea
      I copied some .psfu files from /nix/store to ~/fonts.

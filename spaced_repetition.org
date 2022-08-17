@@ -9,8 +9,10 @@
 * todo ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * also review [[id:84b6c491-f0b4-44ab-9ffd-cf196d6a0220][Spanish vocabulary]]
 * the last time I reviewed
-  13
+  14
 * review when time is equal to 1 mod 2 (i.e. odd)
+** What to do after eating?
+   [[id:a674cc6a-c3bf-4ba7-abf3-edabaa225587][A tiny walk after a meal smooths blood sugar levels.]]
 ** When receiving massages, do what?
 *** refuse these things
     Refuse hand, foot massage.
@@ -19,6 +21,8 @@
 *** If communication is impossible, refuse all of it.
     Too dangerous, not worth it.
 * review when time is equal to 2 mod 4
+** [[id:1bfa7cac-6c4c-49ec-aacf-c517884ffd8a][? could the email count go awry]]
+* review when time is equal to 4 mod 8
 ** When adding an argument to a function, do what?
    When giving a function an argument, be sure it's used,
    and whatever it abstracts is now gone.
@@ -32,8 +36,6 @@
    [[id:ff7ae828-8ded-4916-ae67-551d604e2382][Check name of branch.]]
 ** What to do when scheduling?
    Check my Javeriana calendar too.
-** [[id:1bfa7cac-6c4c-49ec-aacf-c517884ffd8a][? could the email count go awry]]
-* review when time is equal to 4 mod 8
 * review when time is equal to 8 mod 16
 ** What are the [[id:6245c084-fdb8-4ea6-a998-af585b0524ec][Oculus Quest 2's vulnerabilities]]?
 ** Why is keeping a [[id:51fab985-a4cf-4ca7-8e5a-55a26d224737][hard disk in bubble wrap stupid]]?

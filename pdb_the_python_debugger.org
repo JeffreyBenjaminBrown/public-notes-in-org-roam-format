@@ -6,23 +6,35 @@
 https://docs.python.org/3/library/pdb.html
 * set a breakpoint with pdb.set_trace()
 * commands within pdb
-** navigation
+** execution
+   Ordered by size:
+   The first of these advances the least.
 *** s(tep)
-    Execute the current line, stop at the first possible occasion (either in a function that is called or on the next line in the current function).
+    "Traverse" the current line.
+    Stop at the first possible occasion:
+      either in a function that is called,
+      or on the next line in the current function.
 *** n(ext)
-    Continue execution until the next line in the current function is reached or it returns.
+    Continue execution until either
+      the next line in the current function is reached,
+      or the current function returns.
 *** r(eturn)
     Continue execution until the current function returns.
 *** c(ont(inue))
-    Continue execution, only stop when a breakpoint is encountered.
+    Continue execution,
+    only stop when a breakpoint is encountered.
 ** inspection
 *** l(ist) [first[, last]]
-    List source code for the current file. Without arguments, list 11 lines around the current line or continue the previous listing. With . as argument, list 11 lines around the current line.
+    List source code for the current file.
+**** With . as argument
+     list 11 lines around the current line.
+**** Without arguments
+     list 11 lines around the current line or continue the previous listing.
 *** a(rgs)
     Print the argument list of the current function.
 *** p expression
     Evaluate the expression in the current context and print its value.
-*** pp -- similar, but pretty-print
+*** pp: like p, but pretty-print
 *** whatis expression
     Print the type of the expression.
 ** interact

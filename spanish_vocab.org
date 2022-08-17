@@ -2,35 +2,37 @@
 :ID:       84b6c491-f0b4-44ab-9ffd-cf196d6a0220
 :END:
 #+title: Spanish vocabulary
-* last time I reviewed
-  1
-* odd times: Spanish questions, English answers
+* outer loop
 ** last time I reviewed
-   1
-** 1 mod 2
-*** rendimientos financieros
-    financial returns of any kind -- capital gains + dividends
-*** pese a que
-    although
-*** lineamiento
-    orientation, criteria
-*** cafre
-    bad person
-*** relatoría
-    outline
-** 2 mod 4
-* even times: English questions, Spanish answers
-** last time I reviewed
-   never
-** 1 mod 2
-*** financial returns of any kind -- capital gains + dividends
-    rendimientos financieros
-*** orientation, criteria
-    lineamiento
-*** bad person
-    cafre
-*** outline
-    relatoría
-*** question mark
-    signo de interrogación
-** 2 mod 4
+   2
+** inner loops
+*** odd times: Spanish questions, English answers
+**** last time I reviewed
+     1
+**** 1 mod 2
+***** rendimientos financieros
+      financial returns of any kind -- capital gains + dividends
+***** pese a que
+      although
+***** lineamiento
+      orientation, criteria
+***** cafre
+      bad person
+***** relatoría
+      outline
+**** 2 mod 4
+*** even times: English questions, Spanish answers
+**** last time I reviewed
+     1
+**** 1 mod 2
+***** financial returns of any kind -- capital gains + dividends
+      rendimientos financieros
+***** orientation, criteria
+      lineamiento
+***** bad person
+      cafre
+***** outline
+      relatoría
+***** question mark
+      signo de interrogación
+**** 2 mod 4

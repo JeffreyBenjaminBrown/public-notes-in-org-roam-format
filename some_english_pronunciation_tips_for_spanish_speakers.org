@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       3a90d8a4-5255-4220-97e9-aa8ecc5d1fa4
+:END:
+#+title: some English pronunciation tips for Spanish speakers
+These are some sounds and distinctions in English pronunciation that seem to be difficult for native Spanish speakers, using the symbols used in the OED:
+
+https://www.oxfordlearnersdictionaries.com/us/about/english/pronunciation_english
+
+The letter `r` in English is often mistakenly pronounced like an English `d`.
+  If the tongue is touching the roof of the mouth, that's not an "r".
+
+dʒ (the j in jam) vs. tʃ (the ch in chain)
+  In the first, the vocal cords are engaged. Otherwise they are the same.
+
+ð as in this      vs. θ as in thin
+  In the first, the vocal cords are engaged. Otherwise they are the same.
+
+z                 vs. s
+  In the first, the vocal cords are engaged. Otherwise they are the same.
+
+ʃ as in shoe      vs. ʒ as in vision
+  In the first, the vocal cords are engaged. Otherwise they are the same.
+
+æ as in cat       vs. ɑː as in father vs. ʌ as in cup
+
+ɪ as in sit       vs. i: as in see
+
+ʊ as in put       vs. uː as in too    vs. ɜː as in fur
+
+I disagree with the dictionary on two counts. I would just remove all the "ɜː" symbols entirely. "Fur", for instance, is pronounced "fr". There's nothing between the "f" and the "r".
+
+Second, the OED lists three "a" symbols that all sound identical to me. I don't think you need to treat them as distinct. (Although unfortunately you'll have to learn all three symbols in order to read the dictionary.)
+ɑː	father
+ɒ	got
+ɔː	saw

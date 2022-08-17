@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a011a389-4309-4a56-9dce-26c54562e469
+:END:
+#+title: visibility
+* [[id:bf25fff6-3dfe-42ed-86fb-1b26db695fd6][setfont -d doubles font size on Linux when using no GUI.]]
+* [[id:7bd448d1-520c-4781-9ea4-59c70edbc151][screen zoom (computer interface concept)]]

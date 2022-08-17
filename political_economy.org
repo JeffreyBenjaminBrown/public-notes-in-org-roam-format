@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a3a46b4d-29b5-48dc-876f-64fe91bb02ef
+:END:
+#+title: political economy
+= how the government and the polity interact to make policy
+* When bluffing is strategic, voters can't tell if government is doing the right thing in international affairs.
