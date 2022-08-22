@@ -6,3 +6,14 @@
 * [[id:56673132-f636-44eb-aaa6-848b99b705a8][how to guess the string gauge corresponding to a frequency]]
 * [[id:26844f73-1cfb-400e-9aab-a99d0bf053ed][the standard Chapman Stick tuning]]
 * [[id:1190dc3c-2977-42e7-892d-72d9031a34bd][41-edo Chapman Stick tunings]]
+* to test intonation on a Kite Stick
+** PITFALL: [[id:804278d2-3b6b-4ace-92b8-ceda6d9f9136][musical tuner pitfalls]]
+** how
+   Tune the stick at the 12th fret
+     (orughly an octave below the 3rd harmonic).
+   Then test 42\41 frets higher, on the 33rd fret.
+   Look at the tuner.
+   If that high note is flat,
+   the bridge piece needs to come in.
+   If it's at the right 41-edo note but a little off,
+   moving by half of the big screw's width seems about right.

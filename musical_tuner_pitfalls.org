@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       804278d2-3b6b-4ace-92b8-ceda6d9f9136
+:ROAM_ALIASES: "tuning pitfalls"
+:END:
+#+title: musical tuner pitfalls
+* Some seem to get stuck "remembering" a note.
+  That memory can be "wiped" by playing a substantially different note,
+  and then the note of interest.

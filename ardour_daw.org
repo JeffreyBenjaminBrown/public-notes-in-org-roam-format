@@ -15,3 +15,4 @@
    (I could maybe instead connect the a2jmidid output to Pianoteq in Ardour.)
 * Ardour shortcuts
 ** Alt-M: Toggle Mixer / ("track"?) views
+** L: Loop section (and play immediately)
