@@ -3,6 +3,11 @@
 :ROAM_ALIASES: pytest
 :END:
 #+title: testing in Python
+* PITFALL: Might need to specify PYTHONPATH
+  i.e. run
+    PYTHONPATH=. pytest python/something.py
+  rather than the simpler
+    pytest python/something.py
 * using pytest for programs that import other local programs
 ** Put a passage like this before any local import statements:
    import sys

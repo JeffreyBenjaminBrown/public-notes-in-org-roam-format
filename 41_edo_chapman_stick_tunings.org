@@ -26,7 +26,7 @@ The other column names are documented in the code.
 |  4 |  14.7 | False | 25'  | 198.7 | 25 | 198.7 | ^G     |   0 |     nan |    14.7 |       |        |
 |  5 |  19.5 | False | 15'  | 167.8 | 12 | 159.5 | ^D#    |  -3 |    21.1 |         | T1    |     20 |
 |  6 |  26.0 | True  | 4'   | 139.3 | 40 | 128.1 | vC     |  -5 |    30.2 |   30.15 | T     |        |
-|  6 |    29 | True  |      |       | 40 | 128.1 | vC     |     |         |         | NEW!  |        |
+|  6 |    29 | True  | 40   | 128.1 | 40 | 128.1 | vC     |     |         |         | NEW!  |        |
 |  7 |  90.0 | True  | 25_  |  49.6 | 26 |  50.5 | vAb    |   1 |    88.1 |   88.05 |       |        |
 |  8 |  73.1 | True  | 35_  |  58.8 | 39 |  62.9 | ^B     |   4 |    66.3 |    66.2 | T     |        |
 |  9 |  58.3 | True  | 3    |  68.5 | 11 |  78.4 | D#=^Eb |   8 |    51.5 |   51.52 | T     |     57 |
@@ -49,4 +49,5 @@ The other column names are documented in the code.
     (3) 15.6   wound = gauge 151.6 137.0 24.1 123.8 33.5
         but that seems really thin for a wound string,
         and very far out of sample.
-	And indeed, Kalium's wound bass strings only go down to 24.
+	And indeed, Kalium's wound bass strings only go down to 24
+	(and their unwound plain bass strings only up to 23).

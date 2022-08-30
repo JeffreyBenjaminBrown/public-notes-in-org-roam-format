@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       0950e66f-a5ae-4fd3-99e0-76d5cc4a1c2d
+:END:
+#+title: run a static binary on NixOS
+* ref & source : Q & A on NixOS Discourse
+  https://discourse.nixos.org/t/dolphin-cant-find-execvp-and-bash-cant-find-the-script-i-ask-it-to-execute/21338/2
+* An adhoc solution is to use `steam-run`
+* The better solution is to write a Nix recipe that builds it from source.

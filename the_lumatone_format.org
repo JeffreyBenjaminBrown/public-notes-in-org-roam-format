@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       8454b2d8-982a-44f8-ad7e-32058e4c1dca
+:END:
+#+title: the Lumatone .ltn format
+* everything after the word "AfterTouchActive" I don't mess with
+* for the key layout
+** consider this picture
+   [[~/many-small/music-making/lumatone/2022-08-27-stl4uf7J.one-lumatone-octave.png]]
+** the lower numbers on those keys are *almost* the names of the keys
+   but the numbers in the picture start at 1,
+   whereas the names are zero-indexed
+** there are five "boards", each described like this
+   [Board0]
+   Key_0=0
+   Chan_0=0
+   Col_0=ff46d367
+   Key_1=3
+   Chan_1=1
+   Col_1=ff46d367
+   ...
+   Key_55=28
+   Chan_55=1
+   Col_55=ff12dfe3
+** channel, a number in [1,16], can be treated as an octave shift
+** a line like Key_0=0 says that Key_0 should send MIDI note 0

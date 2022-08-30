@@ -34,6 +34,7 @@
 * [[id:e4a6a10f-a305-49fa-91b1-08482df14229][the CS skills assessment I wrote, with a moderate focus on Python]]
 * some Python libraries
 ** [[id:1a97cb6c-b6ff-4439-9790-ff372bc1ee38][scipy (libraries for Python)]]
+** [[id:63357c91-0460-4fdb-b85e-e24782c581d0][json (Python library)]]
 ** [[id:4f41726e-6865-4329-91c2-9f8716a5ba06][filelock (Python library)]]
 ** [[id:23e33a81-1b9b-4914-822a-c09e033d045a][csvlib (Python library)]]
 ** [[id:e2790daf-d86a-4b1b-994b-792d2ac3b3a6][Hypothesis (python library for property testing)]]

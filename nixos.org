@@ -218,3 +218,4 @@ on NixOS it's 1001. This creates permissions problems.
    chapter 15 in NixOS manual.
 ** TaskServer, for todo lists
 ** GitLab
+* [[id:0950e66f-a5ae-4fd3-99e0-76d5cc4a1c2d][run a static binary on NixOS]]

@@ -2,11 +2,15 @@
 :ID:       c22d36ca-944d-431c-bdd3-8b49e1b3ac52
 :END:
 #+title: setting up Pianoteq for the Lumatone
-In Tuning, select "multichannel <soething>".
-In the submenu from there,
-make sure the top thing has a checkmark next to it.
-Also put a checkmark next to "main MIDI channel". That can vary --
-Channel 1 makes it lower than Channel 2, etc.
-In Tuning also use "create EDO" to define, say, 31-edo.
-Use the snowflake icon to freeze the tuning,
-so that I can change the preset without having to redo the tuning.
+* defining a nonstandard EDO in Pianoteq
+  In Tuning, select "multichannel <soething>".
+  In the submenu from there,
+  make sure the top thing has a checkmark next to it.
+  Also put a checkmark next to "main MIDI channel". That can vary --
+  Channel 1 makes it lower than Channel 2, etc.
+  In Tuning also use "create EDO" to define, say, 31-edo.
+  Use the snowflake icon to freeze the tuning,
+  so that I can change the preset without having to redo the tuning.
+* a "multichannel EDO" in Pianoteq interprets channel as octave
+  This implies that there multiple messages can trigger the same note --
+  for instance, in 31-edo, (Channel 0, Note 31) and (Channel 1, Note 0).

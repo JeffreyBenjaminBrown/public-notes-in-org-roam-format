@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       63357c91-0460-4fdb-b85e-e24782c581d0
+:END:
+#+title: json (Python library)
+* json.dumps() turns data into a JSON string
+>>> x = json.dumps( {"a" : [1,2,3], "b" : {"c" : 5, "d" : [6,7] } } )
+>>> x
+'{"a": [1, 2, 3], "b": {"c": 5, "d": [6, 7]}}'
+>>> type(x)
+<class 'str'>
+* json.loads() turns a JSON string into data
+>>> x # from earlier
+'{"a": [1, 2, 3], "b": {"c": 5, "d": [6, 7]}}'
+>>> y = json.loads(x)
+>>> type(y)
+<class 'dict'>
+>>> type ( y["a"] )
+<class 'list'>
