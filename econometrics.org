@@ -6,3 +6,4 @@
 * [[id:51b591db-dbc7-460f-9066-075c21fafc77][Multi-Sample Estimation (econometrics)]]
 * [[id:6f7f97e3-88d2-42e7-8587-2d22ef4922a3][the do-calculus]]: estimating interventional distributions from obsevational data
   i.e. from data in which one cannot intervene
+* [[id:32684e27-de3f-4b58-ac87-3cd84e21a063][linear regressions in Python]]

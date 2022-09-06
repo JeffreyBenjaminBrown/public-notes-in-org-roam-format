@@ -6,6 +6,7 @@
 * [[id:dc5b4335-eaec-402b-a8c5-25476c9b0db7][insrance policy for my music gear]]
 * [[id:8454b2d8-982a-44f8-ad7e-32058e4c1dca][the Lumatone format]]
 * to use the Lumatone Editor on NixOS
+** TODO [[id:d75016c1-5be8-49b8-a4a1-4a5136be39e7][Do I need a `shell.nix`?]]
 ** [[id:0950e66f-a5ae-4fd3-99e0-76d5cc4a1c2d][run a static binary on NixOS]]
 * some patches online at PatchStorage
   https://patchstorage.com/requests/lumatone/#comment-5421

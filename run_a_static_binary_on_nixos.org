@@ -2,6 +2,17 @@
 :ID:       0950e66f-a5ae-4fd3-99e0-76d5cc4a1c2d
 :END:
 #+title: run a static binary on NixOS
+* TODO Do I need a `shell.nix`?
+  :PROPERTIES:
+  :ID:       d75016c1-5be8-49b8-a4a1-4a5136be39e7
+  :END:
+** the problem
+   I wrote one that includes libssh2, and can load it with
+     export NIXPKGS_ALLOW_UNFREE=1
+     nix-shell --impure
+   But it still complains that libssh2 isn't available.
+** I'm asking on the NixOS Discourse
+     https://discourse.nixos.org/t/dolphin-cant-find-execvp-and-bash-cant-find-the-script-i-ask-it-to-execute/21338/4
 * ref & source : Q & A on NixOS Discourse
   https://discourse.nixos.org/t/dolphin-cant-find-execvp-and-bash-cant-find-the-script-i-ask-it-to-execute/21338/2
 * An adhoc solution is to use `steam-run`

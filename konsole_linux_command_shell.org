@@ -2,6 +2,9 @@
 :ID:       f63c9744-3d8b-4ef4-9433-128796588009
 :END:
 #+title: Konsole (Linux command shell)
+* COOL: Blinking text can be disabled.
+  Under "edit" (or maybe only "new") "profile",
+  under "advanced".
 * config files
 ** master config?
    ~/.config/konsolerc
@@ -40,3 +43,4 @@
        so attempting to do so creates a new one.)
 ** I asked on the NixOS Discourse here
    https://discourse.nixos.org/t/how-to-disable-konsole-main-toolbar-session-toolbar/15087
+* [[id:87cf0fc9-fa98-422a-80bf-32f578913a0d][bug: can't type the letter `x` in shell]]

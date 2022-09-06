@@ -9,3 +9,4 @@
 * [[id:0fb050fc-28b8-48a6-914b-6d5970490d46][microtonal guitar]]
 ** [[id:f442a707-fece-493a-acb6-7b1e36ee094d][Chapman Stick (and microtonality)]]
 * [[id:f442a707-fece-493a-acb6-7b1e36ee094d][Chapman Stick]]
+* [[id:0de5fa0c-4909-4097-8334-d3e7de37bd2f][Kalium strings]]

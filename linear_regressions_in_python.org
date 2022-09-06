@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       32684e27-de3f-4b58-ac87-3cd84e21a063
+:END:
+#+title: linear regressions in Python
+* OLS in Python
+  import numpy  as np
+  import pandas as pd
+  from   statsmodels.regression.linear_model import OLS
+
+
+  num_obs = 1000 # More observations -> more precise.
+  x = pd.DataFrame (
+    { "x1"  : np.random.rand(num_obs),
+      "x2"  : np.random.rand(num_obs),
+      "one" : 1 } )
+
+  # The relationship OLS will try to estimate.
+  y  = ( 20 + x["x1"] + 2*x["x2"]
+         + 2 * np.random.rand(num_obs) # Bigger error -> less precise.
+         )
+
+  model   = OLS(y,x)
+  results = model.fit()
+  results.params
+  results.tvalues
+  results.summary()

@@ -141,3 +141,4 @@
     z["b"] = np.where ( z["b"].isnull(),
                         z["c"],   # used if True
                         z["b"] )  # used if False
+* [[id:32684e27-de3f-4b58-ac87-3cd84e21a063][linear regressions in Python]]

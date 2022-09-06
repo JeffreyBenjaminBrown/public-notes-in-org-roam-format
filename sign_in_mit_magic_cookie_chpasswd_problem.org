@@ -1,0 +1,123 @@
+:PROPERTIES:
+:ID:       71f22807-10f3-4d8c-8d6e-3cfdb81b2984
+:END:
+#+title: Sign-in / MIT-MAGIC-COOKIE / chpasswd problem
+* online
+  https://discourse.nixos.org/t/sign-in-mit-magic-cookie-chpasswd-problem/21417
+* story
+  serial
+** then I switched to a second user, nuked (in my nixos config) the old user, then switched back to a third user with the same name as the first, and it worked
+   The first time I tried that, I held the .cache, .config and other system-created hidden files/folder in the home directory, and got the same problem.
+   So the second time I left them behind, transferring only more innocuous-seeming hidden files like .gitconfig, .ssh/, .emacs*, etc. and it worked.
+** then I hid the .Xauthority cookie, which didn't work
+   I moved it from
+     /home/jeff/.Xauthority
+   to
+     /home/jeff/.Xauthority-bk/.Xauthority
+** response 2
+ Thanks again, @TLATER!
+
+ # journalctl after failed login and (almost) nothing else
+
+ I tried and failed to login to X as my borked user "jeff", switched to a TTY, and did *almost* nothing but write the command you indicated to a file. I may have run pwd and some other simple commands; I can't remember if I did that before or after writing the file. Sorry about that. I put the result on pastebin like you suggested:
+
+ https://pastebin.com/Rw96jBaC
+
+ I named the paste wrong -- it should say `journalctl` where it says `dmesg`.
+
+ How can I learn whatever it is that you know that allows you to read that output?
+
+ # chpasswd v. passwd
+
+ You're right! I meant `passwd`.
+** response 1
+ Thanks, @tlater!
+
+ # Reboot?
+ I've rebooted a few times, by holding down the button and by telling KDE normally.
+
+
+ # find a stale cookie in home folder
+ From `/home/jeff`, running `find . -iname "*magic*cookie*"` finds nothing. Searching instead for `*cookie*` returns (excluding obvious non-candidates in folders I created by hand) the following:
+ ```
+ ./.cache/spotify/Browser/Cookies-journal
+ ./.cache/spotify/Browser/Cookies
+ ./.mozilla/firefox/f4w8x9v4.default/cookies.sqlite-wal
+ ./.mozilla/firefox/f4w8x9v4.default/cookies.sqlite
+ ./.config/Signal/SingletonCookie
+ ./.config/google-chrome/Default/Extension Cookies-journal
+ ./.config/google-chrome/Default/Safe Browsing Cookies-journal
+ ./.config/google-chrome/Default/Extension Cookies
+ ./.config/google-chrome/Default/Cookies-journal
+ ./.config/google-chrome/Default/Safe Browsing Cookies
+ ./.config/google-chrome/Default/Cookies
+ ./.config/BraveSoftware/Brave-Browser/SingletonCookie
+ ./.config/BraveSoftware/Brave-Browser/Default/Extension Cookies-journal
+ ./.config/BraveSoftware/Brave-Browser/Default/Safe Browsing Cookies-journal
+ ./.config/BraveSoftware/Brave-Browser/Default/Extension Cookies
+ ./.config/BraveSoftware/Brave-Browser/Default/Cookies-journal
+ ./.config/BraveSoftware/Brave-Browser/Default/Safe Browsing Cookies
+ ./.config/BraveSoftware/Brave-Browser/Default/Cookies
+ ./.config/BraveSoftware/Brave-Browser/Guest Profile/Safe Browsing Cookies-journal
+ ./.config/BraveSoftware/Brave-Browser/Guest Profile/Safe Browsing Cookies
+ ./.local/share/kcookiejar
+ ./.local/share/kcookiejar/cookies
+ ```
+
+
+ # login as normal user from another terminal
+ I can! After entering my password it says
+ ```
+ xset: unable to open display ""
+ ```
+ but then it drops me into a shell. I can even run Emacs! (Although it's pretty hard to read; I only know how to double the font size with `setfont -d` and that's still pretty small for my eyes.)
+
+ From another GUI-less terminal I tried logging in as root to see if `chpasswd` would work from there, but still it seems to hang. However, it still lets me type, and letters (not asterisks) appear on the screen when I do. Then, when I press enter, it reports "chpasswd: line 1: missing new passwd". If I try again it reports, "chpasswd: line 1: missing new passwd". It continues like that until I press Ctrl-C.
+
+
+ # dmesg and journalctl
+ I can't seem to access Github as root so I've put those on my Google Drive:
+
+ [dmesg.txt](https://drive.google.com/file/d/1pw4HzF_zSfygYNe3Kggk8sxTUidRZuGC/view?usp=sharing)
+ [journalctl.txt](https://drive.google.com/file/d/1FP5Ufp6BBt5a420zapofj-5M0sUv5foZ/view?usp=sharing)
+
+ The journalctl file is 302 MB.
+
+
+ # unset DISPLAY
+ In KDE as root, `unset DISPLAY` seems to have had no effect:
+
+ ```
+ [root@jbb-hp17:~/Downloads]# unset DISPLAY
+
+ [root@jbb-hp17:~/Downloads]# chpasswd j2
+ ^C
+
+ [root@jbb-hp17:~/Downloads]#
+ ```
+** my question | the problem
+ This afternoon, apropos of nothing obvious, my screen jumped from whatever I was looking at (probably Emacs, Konsole or a web browser) to the screen lock screen, except a little faded. It stopped recognizing keystrokes.
+
+ I later discovered that the power was extremely low. The power cable had disconnected. (Sometimes my machine has problems with power settings. For a while a few weeks ago they were grayed out under KDE's Settings menu, but now they seem fine.)
+
+ I rebooted, and now it recognizes keystrokes, but if I try to log in as my normal user ("jeff") it flashes some text too fast to read and then returns me to the login screen. I took [a video of that process](https://drive.google.com/file/d/1JKGONRJbBQRZHAZavPEKzvQaG2qXC1NB/view?usp=sharing). For some reason VLC doesn't work when I'm root so I can't look at it.
+
+ I can still log in as root, so I modified my configuration to create another user called "j2". That seems to rebuild fine, except that it complains about an MIT-MAGIC-COOKIE problem:
+ ```
+ [root@jbb-hp17:/home]# sudo nixos-rebuild switch
+ building Nix...
+ building the system configuration...
+ activating the configuration...
+ warning: not applying UID change of user ‘jeff’ (1000 -> 999)
+ setting up /etc...
+ reloading user units for root...
+ reloading user units for jeff...
+ Invalid MIT-MAGIC-COOKIE-1 keyxset:  unable to open display ":0"
+ setting up tmpfiles
+ ```
+
+ After that, when I run `chpasswd j2`, it hangs until I press Ctrl-C:
+ ```
+ [root@jbb-hp17:/home/jeff]# chpasswd j2
+ ^C
+ ```

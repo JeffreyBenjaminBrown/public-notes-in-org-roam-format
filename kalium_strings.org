@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       0de5fa0c-4909-4097-8334-d3e7de37bd2f
+:END:
+#+title: Kalium strings
+  +1 (206) 784-5104
+* [[id:1da95b19-e3e2-4c6f-bea3-bc9e25e7336c][Kalium strings to buy]]
+* The plain strings are all the same --
+  hybrid, stainless steel, guitar, bass, all of them --
+  except that the balls are bigger on the bass strings.
+* gauges John Starrett sent me
+   8
+  10.5
+  13
+  16
+  20
+  21w
+  26w
+
+  29
+  37
+  47
+  57
+  73
+  94

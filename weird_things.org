@@ -3,6 +3,7 @@
 :END:
 #+title: weird things
 * [[id:0785a86f-14e9-4dff-901a-16c7aa487140][people who are good at weird stuff]]
+* [[id:9c57f5b0-7dbe-46c7-91dd-b44209d40336][Seals make what sounds like experimental electronic music.]]
 * [[id:a9c30701-68a1-449a-8c2a-d95b92c5d442][mosquito laser]]
 * [[id:4e3a8b5e-e594-425f-93c5-ef16512a026a][lessons I learned the hard way, or repeatedly]]
 * [[id:9d5f7a3b-0120-44de-bfaa-e189c65c3462][Bug zappers explode the bugs, spread pathogens.]]

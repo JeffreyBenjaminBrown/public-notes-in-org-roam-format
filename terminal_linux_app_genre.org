@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       02cb7971-2e02-4baa-86ac-90b732d51315
+:ROAM_ALIASES: "terminal emulator"
+:END:
+#+title: terminal (Linux app genre)
+* [[id:f63c9744-3d8b-4ef4-9433-128796588009][Konsole (Linux command shell)]]
+* bug: can't type the letter `x` in shell
+  :PROPERTIES:
+  :ID:       87cf0fc9-fa98-422a-80bf-32f578913a0d
+  :END:
+  This happened to me <2022-09-05 Mon>.
+  It happened in both Konsole and XTerm.
+  I solved it by deleting ~/.bash_history, closing the terminal and starting another.
