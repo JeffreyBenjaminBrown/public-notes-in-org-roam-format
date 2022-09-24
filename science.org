@@ -1,13 +1,16 @@
 :PROPERTIES:
 :ID:       c35ab968-7056-40fa-8816-ea16d5c88f6d
-:ROAM_ALIASES: science
+:ROAM_ALIASES: sciences "schools of thought" "fields of study"
 :END:
-#+title: fields of study
+#+title: sciences, fields of study, schools of thought
 * [[id:4a5a8778-2f0d-4e7d-bb16-cabbe02cb03d][agriculture]]
+* [[id:627da2c2-2f34-46ac-a6d3-9c625c4ff31d][artificial intelligence]]
 * [[id:5a9e5a9f-8e1b-4487-ba1d-51692d73dd89][astronomy]]
 * [[id:974d25f4-56a0-4dd9-a066-7790dd40d0f7][biology]]
 ** [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
 * [[id:001d7913-c431-461c-92ae-a6a39394856c][computer science]]
+* [[id:fc62e211-be72-469f-a543-2950c0e2c975][contrarianism]]
+* [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 * [[id:ccaee22b-2abd-41fa-bc3e-d0b7509600cf][education]]
 * [[id:9229a918-375c-4e1b-b775-bf5da596a371][engineering]]
 * [[id:ddbe49f8-bc88-4bee-8404-87c79a5d1073][environmental sustainability]]
@@ -18,6 +21,11 @@
 * [[id:d192f9f7-ec93-4c00-984d-b7e332b56ac0][history]]
 * [[id:c563e6be-631d-4f23-923d-050498334e2a][mathematics]]
 * [[id:b31e0b2c-9bce-428a-b96f-832d0ea1e6e7][paleontology]]
+* [[id:fe424d05-686c-4c3e-9609-b913cf329024][philosophy]]
+* [[id:63f9d861-b563-426f-826a-ba2153429314][physics]]
 * [[id:3570b8e0-1c1b-482c-bbb1-18c0151e2e4f][political science]]
+* [[id:3989a4db-9ec4-43c4-9123-dbc4ebea2378][pseudo-science]]
+* [[id:9b40c46b-bd16-4003-8a9e-763f5a7dbc22][psychology]]
+* [[id:4d96ed8b-e9d9-4809-b865-49057fba568e][sociology]]
 * [[id:9619c955-6dbe-4001-ba8f-00421984aca3][systematization]]
 * [[id:b9f666f2-0035-42df-b674-86049697e9e0][war]], a.k.a. defense

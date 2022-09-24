@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       fddbb2ae-0d7f-482c-88f1-0861b7d45546
+:END:
+#+title: Haskell, to read
+* 2022-09-19
+** https://news.us10.list-manage.com/track/click?u=49a6a2e17b12be2c5c4dcb232&id=ad5e1805ba&e=2441513057
+** https://news.us10.list-manage.com/track/click?u=49a6a2e17b12be2c5c4dcb232&id=337ad84855&e=2441513057

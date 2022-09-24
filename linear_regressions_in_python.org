@@ -1,8 +1,9 @@
 :PROPERTIES:
 :ID:       32684e27-de3f-4b58-ac87-3cd84e21a063
+:ROAM_ALIASES: "linear regression in Python"
 :END:
-#+title: linear regressions in Python
-* OLS in Python
+#+title: OLS in Python
+* code
   import numpy  as np
   import pandas as pd
   from   statsmodels.regression.linear_model import OLS

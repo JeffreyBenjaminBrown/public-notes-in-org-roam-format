@@ -46,4 +46,4 @@
 ** [[id:ea2298c9-6f5e-49f7-b81b-1374b6764e08][concurrency in Python]]
 ** [[id:238e57b1-cb92-481c-8786-7131962b6689][enum types in Python]]
 ** [[id:0ec89580-3ce0-4175-a050-f2ecd9089b0d][sum types in Python]]
-** [[id:32684e27-de3f-4b58-ac87-3cd84e21a063][linear regressions in Python]]
+** [[id:e98d0657-b40e-4c06-b8a5-a5a441344eb7][econometrics in Python]]

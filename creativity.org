@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       23f44ea1-7b89-4cdf-954d-770ca1483264
+:END:
+#+title: creativity
+* [[id:776b4780-a8b8-42af-ba5a-b3703a2fc248][Creating can take courage.]]
+* [[id:15ee7d34-e7b6-493a-a686-6edb81114c96][AI and art]]

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a19eac15-9f40-4e5f-a8d9-df484775d461
+:END:
+#+title: Idi Amin expelled the Asian community from Uganda.
+* source
+  "50 years on from the arrival of the Ugandan Asians"
+  https://www.economist.com/britain/2022/08/18/50-years-on-from-the-arrival-of-the-ugandan-asians
+* notes
+  He did this even though 90% of its tax revenue came from people of (mostly South) Asian descent.
+
+  Some noticed business opportunities in England as soon as they arrived, literally. One noticed that the stores were closed after 5:00 p.m.. In Leicester he opened a mini-supermarket that stayed open after 5pm and on Saturday afternoons.

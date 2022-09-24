@@ -2,6 +2,7 @@
 :ID:       784007e7-b851-4988-beaa-b8e4a9657357
 :END:
 #+title: Haskell
+* [[id:fddbb2ae-0d7f-482c-88f1-0861b7d45546][Haskell, to read]]
 * PITFALL: (Cabal?) REPL can't reload changes in depended-on projects.
   Evidence:
 

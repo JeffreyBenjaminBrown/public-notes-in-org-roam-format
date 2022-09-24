@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       627da2c2-2f34-46ac-a6d3-9c625c4ff31d
+:END:
+#+title: artificial intelligence
+* AI and art
+  :PROPERTIES:
+  :ID:       15ee7d34-e7b6-493a-a686-6edb81114c96
+  :END:
+** [[id:7bde5646-14eb-4dce-a2d1-0d44804b737a][OpenAI Jukebox]]
+   closed-source AI for music generation and continuation
+** [[id:b965e4a4-3577-4273-b722-5955666ecd75][Stable Diffusion]]
+   open-source AI for text-to-image and related processes

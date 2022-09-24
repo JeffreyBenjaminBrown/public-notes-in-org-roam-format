@@ -20,3 +20,8 @@
   :END:
   PITFALL: Later keys clobber earlier ones.
   { **{1:2}, **{3:4} }
+* map over Python dictionary values
+  Use a comprehension:
+  { k: f(v)
+    for k, v
+    in my_dictionary.items () }

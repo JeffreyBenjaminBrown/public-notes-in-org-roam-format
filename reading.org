@@ -15,6 +15,7 @@
    (The trick is not, of course, to change my beliefs,
    but rather to act in accordance with them.)
 * material to absorb
+** [[id:fddbb2ae-0d7f-482c-88f1-0861b7d45546][Haskell, to read]]
 ** explaining the JWST photos
    https://www.abc.net.au/news/2022-07-14/james-webb-telescope-first-images-details-breakdown/101231818
 ** Nazim Hikmet, Turkish poet

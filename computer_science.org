@@ -3,5 +3,7 @@
 :END:
 #+title: computer science
 * [[id:e1f7f6e9-3a9a-4804-91f5-7751d7f4e9b8][algorithms]]
+* [[id:627da2c2-2f34-46ac-a6d3-9c625c4ff31d][artificial intelligence]]
 * [[id:16127b31-70f5-4098-a5c1-1df7cfc93128][bioinformatics]]
 * [[id:e4a6a10f-a305-49fa-91b1-08482df14229][a CS skills assessment, with a moderate focus on Python]]
+* [[id:5b4adbe5-e24a-4dc5-b9fa-eddb3b178131][state machines]]

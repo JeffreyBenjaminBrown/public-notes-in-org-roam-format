@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       862a4351-113f-4f86-9029-9dda3d3a781f
+:END:
+#+title: MIDI
+* [[id:931a102f-b9f3-4628-b239-84ee9a2f217e][Use a MIDI USB keyboard in Linux.]]
+* [[id:dc1d1d5e-f51d-4bbe-b7c2-fc1947de68ea][MIDI In to Ardour (and probably other things) on Linux]].

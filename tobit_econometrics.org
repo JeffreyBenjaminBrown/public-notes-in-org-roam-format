@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       aba698b5-e763-44c0-8e9b-8db50c779e1e
+:ROAM_ALIASES: Tobit
+:END:
+#+title: Tobit (econometrics)
+* [[id:f39c6d3c-0ede-4958-a387-fa97cc15d51f][Tobit in Python]]

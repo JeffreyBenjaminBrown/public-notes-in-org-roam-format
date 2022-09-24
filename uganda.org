@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       a3c6b36d-d998-466f-be9a-5975ca859ad4
+:END:
+#+title: Uganda
+* When [[id:a19eac15-9f40-4e5f-a8d9-df484775d461][Idi Amin expelled the Asian community from Uganda]] it was, predictably, a disaster.

@@ -133,3 +133,5 @@ and between them play the dominant (major starting at 18) chord of the first.
 *** in both 41- and 46-edo they're consecutive
 ** [[id:1cfa5cfb-c951-4483-bb7a-9f87c908a026][quartertone-free, cluster-free ways to divide a fourth in 24-edo]]
 * [[id:4d2aa565-643a-4974-b980-618fc66f8420][my advice re. layouts for small grid controllers]]
+* meh
+** [[id:57e51492-ac32-4e33-b5b8-9b6eaab4ebb3][some temperament groups with similar (only in Bosanquet?) layouts]]

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       a9730be0-42bc-49ab-8a0a-f7bfd55c729d
+:END:
+#+title: Entropy is not unambiguous.
+* Disorder (entropy) grows in restricted regions, while simultaneously the universe on the large scale is getting ever more richly structured as galaxies, stars, and planetary systems form.

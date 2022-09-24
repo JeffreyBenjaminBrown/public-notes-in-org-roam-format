@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       ec43ee9e-4624-44e4-a742-62092bf35268
+:END:
+#+title: SOLVED: Lumatone seen as network connection, not in JACK graph
+* The solution
+  If the QjackCtl GUI doesn't make it possible,
+  [[id:a73d2fbc-3e38-480a-ae08-d335f5096de7][do it via the command line]].
+* links
+** on Facebook
+   https://www.facebook.com/groups/lumatone.keyboard/permalink/5162569443852246
+* the problem
+  Have any Linux users had their system mistake the Lumatone for a wired internet connection? My Lumatone was working fine half an hour ago. Then I had to restart my computer, and it stopped being recognized.
+  It used to be that, after starting QjackCtl, if I plugged in the Lumatone it would appear in the JACK signal graph, allowing me to connect it to other stuff. But now, when I connect it, instead of that happening, I get two Network Management popup windows, one of which says "Wired Connection 2: Wired Connection 2 established", and the other of which says the same but substituting 3 instead of 2. Nothing shows up in the JACK signal graph. But if I look at the network manager I see two "wired connections" alongside my wireless connection.
+  I've restarted a number of times, and tried performing the relevant operations in various orders. I haven't found this kind of error with other MIDI keyboards online.
+* Lumatone on Facebook suggests
+  that "the beta might work".
+  Dunno what that's a beta of.

@@ -2,6 +2,7 @@
 :ID:       0c6f257d-a5dc-4c8e-b687-c724f280b695
 :END:
 #+title: tmux (software)
+* TODO [[id:f25c0908-bfdc-446d-98dc-c353f204bcc2][show a shorter prompt.]]
 * server, session, window, pane
 ** what they are
    Servers host sessions, which host windows.

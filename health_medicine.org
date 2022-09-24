@@ -3,4 +3,5 @@
 :END:
 #+title: health & medicine
 * [[id:dd2c33b3-21a1-45bd-ab86-c110c40a932f][drugs]]
+* [[id:1dc593e8-0313-4dfd-bc5d-cd7e53f9bfba][high performance (human)]]
 * [[id:a674cc6a-c3bf-4ba7-abf3-edabaa225587][A tiny walk after a meal is healthy, smooths blood sugar levels.]]

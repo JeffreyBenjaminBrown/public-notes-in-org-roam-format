@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9b40c46b-bd16-4003-8a9e-763f5a7dbc22
+:END:
+#+title: psychology
+* [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
+* [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
+* [[id:13aba0e9-33c1-4f2b-906c-4ab3ab683522][emotional ambition]]
+* [[id:40b049b7-ef2a-4eab-a9f8-07ee5841aa86][habit]]
+* [[id:1dc593e8-0313-4dfd-bc5d-cd7e53f9bfba][high performance (human)]]
+* [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]

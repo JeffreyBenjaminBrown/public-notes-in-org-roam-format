@@ -1,7 +1,10 @@
 :PROPERTIES:
 :ID:       724f8301-90c4-46fd-8e9e-5d4fe15e03cd
+:ROAM_ALIASES: Lumatone
 :END:
 #+title: Lumatone (microtonal keyboard)
+* [[id:72d5a73b-691f-4034-9552-6f657f549f21][how to pack the Lumatone]]
+* how to [[id:931a102f-b9f3-4628-b239-84ee9a2f217e][Use a USB MIDI keyboard in Linux]].
 * [[id:c22d36ca-944d-431c-bdd3-8b49e1b3ac52][setting up Pianoteq for the Lumatone]]
 * [[id:dc5b4335-eaec-402b-a8c5-25476c9b0db7][insrance policy for my music gear]]
 * [[id:8454b2d8-982a-44f8-ad7e-32058e4c1dca][the Lumatone format]]
@@ -109,3 +112,5 @@
     so I can reach the just major 10th from the other side (9,-3)
   to (9,-2)
 * Vincenzo Sicurella can draw layouts easily.
+* DONE solved problems
+** [[id:ec43ee9e-4624-44e4-a742-62092bf35268][Lumatone seen as network connection, not in JACK graph]]

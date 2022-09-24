@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       7bde5646-14eb-4dce-a2d1-0d44804b737a
+:END:
+#+title: OpenAI Jukebox
+* some impressive uses of it, found around 2022-09-05
+** algorithmic Nirvana (not based on any particular song)
+   https://youtu.be/ed0ZBYvnYd0
+** continuing a few bars of Billy Jean by Michael Jackson
+   https://youtu.be/me6MMRSdPHE
+** continuing a few bars of Basket Case by Green Day
+   https://youtu.be/Basy4s4q0Kk

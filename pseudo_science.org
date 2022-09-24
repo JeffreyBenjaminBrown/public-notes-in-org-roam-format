@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       3989a4db-9ec4-43c4-9123-dbc4ebea2378
+:END:
+#+title: pseudo-science
+* [[id:2d9f3e3e-065f-4256-915a-84711832da5c]["Is the world upside down" is a good example of a scientifically meaningless question.]]

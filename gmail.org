@@ -8,3 +8,6 @@
   Something like this, but I might have the y-m-d in the wrong order.
   Run tests -- I don't believe the source I got.
   from:me to:ospinapedraza.manuela@gmail.com before:12/01/2018
+* to delete an email address from Gmail
+  Go to https://contacts.google.com/ -- Contacts, not Gmail --
+  find the email there, and delete it.

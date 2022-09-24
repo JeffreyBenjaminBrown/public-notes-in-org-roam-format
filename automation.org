@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b2211b39-78d7-4eb2-b1c6-cdc73242e07b
+:END:
+#+title: automation
+* [[id:db3603a7-e194-42fe-9b10-4eb915eb0e19][AutoHotKey for Linux]]

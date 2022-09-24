@@ -3,7 +3,6 @@
 :ROAM_ALIASES: remember memory internalize
 :END:
 #+title: spaced repetition
-* [[id:474f120b-bae9-4bd0-aca0-84ca10e5274f][spaced repetition demo for Sandy]]
 * todo ? merge similar notes from SmSn to here
   search for "internalize", "spaced repetition", maybe "to learn", "remember"
 * todo ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
@@ -11,6 +10,11 @@
 * the last time I reviewed
   15
 * review when time is equal to 1 mod 2 (i.e. odd)
+** [[id:15c15ae2-bb60-4f6e-9e6d-e9045f9c0132][Review notes on anything that could be a disaster.]]
+** [[id:72d5a73b-691f-4034-9552-6f657f549f21][how to pack the Lumatone]]
+** To restore the old part of a diff, don't ignore the white text.
+   It's the red plus the white that needs to be present,
+   and the green gone -- not just the green gone and the red restored.
 ** [[id:6c7711c7-c228-4400-bd26-ce39997e2681][What is the tax.co sync problem, and when does it apply?]]
 ** When receiving massages, do what?
 *** refuse these things
@@ -71,3 +75,4 @@
 * DONE internalized
 ** in Emacs, how [[id:76f955ac-1f33-4b6b-bedb-e85852a486b9][to insert (write) date, and maybe time, at point]]
 ** [[id:14425786-4f89-4fc3-8bf7-9c31ccaba025][Linked data facilitates writing flashcards.]]
+* [[id:474f120b-bae9-4bd0-aca0-84ca10e5274f][spaced repetition demo for Sandy]]

@@ -8,6 +8,7 @@
   :END:
 ** Run `acpi` from the command line to show battery status.
 ** [[id:5489c6d6-d479-417d-8d51-703cac8675d2][TLP (battery control service for Linux)]]
+* my [[id:42983150-c935-4c2a-8f42-85948e9b0d14][PKCell rechargeable AA batteries]]
 * the [[id:2d238e67-4c09-435c-ab78-67ef62255f1c][battery for my 2017 Dell laptop]]
 * the [[id:197b7603-d7b2-49d2-adcb-636c30ea6d95][battery of my Oculus Quest 2]]
 * [[id:dcc5ee87-f93e-4655-bde4-695f5d93dab8][bug: laptop's battery drains while off]]

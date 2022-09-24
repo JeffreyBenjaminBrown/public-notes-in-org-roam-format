@@ -4,3 +4,5 @@
 #+title: political science
 * [[id:a3a46b4d-29b5-48dc-876f-64fe91bb02ef][political economy]]
 * [[id:4fb89f39-bbc4-4032-b53a-d480ef792ea4][charter cities in VR]]
+* [[id:9a511696-ace4-4085-bcd2-17c9b05019f2][crazy things nations have done]]
+* [[id:89ad6a40-2a40-4fe9-a630-dc440dec27cf][nationalism & xenophobia]]

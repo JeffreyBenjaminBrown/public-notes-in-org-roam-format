@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f39c6d3c-0ede-4958-a387-fa97cc15d51f
+:END:
+#+title: Tobit in Python
+https://github.com/jamesdj/tobit/blob/master/tobit.py

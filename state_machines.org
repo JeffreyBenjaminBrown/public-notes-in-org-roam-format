@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5b4adbe5-e24a-4dc5-b9fa-eddb3b178131
+:END:
+#+title: state machines
+* State is an equivalence class over histories.
+* State can be hierarchical.
+* For each state, must know how to respond to each event.

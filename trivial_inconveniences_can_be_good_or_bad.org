@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d63a84ca-2d5a-46c7-867d-02ff9ec8edaf
+:END:
+#+title: Trivial inconveniences can be good or bad.
+* source (a comment on Hacker News)
+  https://news.ycombinator.com/item?id=32304456
+* They are a big hurdle when trying to build a habit.
+* They are a great tool for breaking bad ones.

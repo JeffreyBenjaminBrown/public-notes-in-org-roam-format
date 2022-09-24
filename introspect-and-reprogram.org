@@ -10,8 +10,8 @@
    :ID:       506d431f-c5ac-486a-a7e6-6dfa6c09d69b
    :END:
 ** [[id:24169b3e-6d41-48dd-9367-6df7a3565bed][my priorities]]
-** creating and courage
-   for lyrics
+** [[id:776b4780-a8b8-42af-ba5a-b3703a2fc248][Creating can take courage.]]
+** [[id:d63a84ca-2d5a-46c7-867d-02ff9ec8edaf][Trivial inconveniences can be good or bad.]]
 ** things I wish about myself
 *** Don't get mad fast.
     Before yelling, state that someone is making me mad,

@@ -3,3 +3,5 @@
 :END:
 #+title: habit
 * [[id:38394b72-c48b-4871-bf32-d01b7989ca6c][mental waste]]
+* [[id:d63a84ca-2d5a-46c7-867d-02ff9ec8edaf][Trivial inconveniences can be good or bad.]]
+* [[id:72405a71-167b-4cc8-af40-2df2a0d3e6e6][To know you waste time on something is an opportunity.]]

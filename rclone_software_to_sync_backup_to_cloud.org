@@ -18,6 +18,9 @@
   Note that in the last two commands,
   one has a trailing slash on the destination and the other doesn't,
   so that's not the problem.
+* refs
+** make a Google Drive repo for rclone
+   https://rclone.org/drive/
 * how I configured it
   `rclone config` from the command line.
 ** [[id:484c5954-afea-4560-9cfd-2d4e14658583][my rclone secrets]]

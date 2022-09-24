@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       63f9d861-b563-426f-826a-ba2153429314
+:END:
+#+title: physics
+* [[id:a9730be0-42bc-49ab-8a0a-f7bfd55c729d][Entropy is not unambiguous]].
+* [[id:5a9e5a9f-8e1b-4487-ba1d-51692d73dd89][astronomy]]

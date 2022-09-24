@@ -1,10 +1,15 @@
 :PROPERTIES:
 :ID:       7347d15c-fece-46aa-87d2-7c1c7230d548
+:ROAM_ALIASES: Linux
 :END:
 #+title: Linux (operating system)
 * *solved problems*
+** [[id:931a102f-b9f3-4628-b239-84ee9a2f217e][Use a USB MIDI keyboard in Linux.]]
+** [[id:dc1d1d5e-f51d-4bbe-b7c2-fc1947de68ea][MIDI in to Ardour (and probably other things) on Linux]]
 ** [[id:87cf0fc9-fa98-422a-80bf-32f578913a0d][bug: can't type the letter `x` in shell]]
 ** [[id:71f22807-10f3-4d8c-8d6e-3cfdb81b2984][Sign-in / MIT-MAGIC-COOKIE / chpasswd problem]]
+** [[id:65fa661f-8304-4a1b-b11c-0b927fca356f][how to change the Bash prompt]]
+* [[id:db3603a7-e194-42fe-9b10-4eb915eb0e19][AutoHotKey for Linux]]
 * [[id:529b4f3b-b23d-4780-8d8f-b52c5712adc4][Linux: distributions, desktop environments, window managers]]
 * [[id:c73d3380-7909-46bc-87de-b6e51dea11ac][Linux, installing]]
 * [[id:5ec64c3d-c92f-4bd5-a280-718ac69f83f9][Linux desktop environments with native screen zoom]]

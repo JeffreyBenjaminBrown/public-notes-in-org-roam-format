@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e98d0657-b40e-4c06-b8a5-a5a441344eb7
+:END:
+#+title: econometrics in Python
+* [[id:32684e27-de3f-4b58-ac87-3cd84e21a063][OLS in Python]]
+* [[id:f39c6d3c-0ede-4958-a387-fa97cc15d51f][Tobit in Python]]

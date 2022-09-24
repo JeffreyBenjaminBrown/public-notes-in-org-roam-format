@@ -2,17 +2,7 @@
 :ID:       7f19ae23-7b37-4997-9aa8-f160180281f1
 :END:
 #+title: Ardour (DAW)
-* MIDI in to Ardour on Linux
-** takes a little QJackCtl configuration
-  Ardour says that to use JACK, must disable "ALSA Sequencer Support"
-  in QJackCtl under Setup > Misc:
-  https://manual.ardour.org/setting-up-your-system/setting-up-midi/midi-on-linux/
-** requires a2jmidid
-   This creates red MIDI ports corresponding to the purple MIDI Through ports.
-   In QJackCtl's graph, connect the Lumatone to the purple MIDI THrough.
-   Then connect the red MIDI Through, which now has the same signal,
-   to Ardour.
-   (I could maybe instead connect the a2jmidid output to Pianoteq in Ardour.)
+* [[id:dc1d1d5e-f51d-4bbe-b7c2-fc1947de68ea][MIDI in to Ardour (and probably other things) on Linux]]
 * Ardour shortcuts
 ** Alt-M: Toggle Mixer / ("track"?) views
 ** L: Loop section (and play immediately)

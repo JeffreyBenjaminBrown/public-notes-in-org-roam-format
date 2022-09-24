@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       cafdec4f-a898-45b7-8fad-59c9be29c510
+:END:
+#+title: Nations forget technologies.
+* examples
+** Polynesian Islanders forgot how to make boats.
+** Tasmanians forgot how to build fire.
+* One theory is that population size matters.

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       42983150-c935-4c2a-8f42-85948e9b0d14
+:END:
+#+title: PKCell rechargeable AA batteries
+* bought on Amazon, 2022-05-08
+  https://www.amazon.com/gp/product/B00WTRSTAU
+* how to handle
+** Don't mix with other kinds.
+   They might explode.
+** The charger's LED light is on when charging, off when done.
+** Batteries can only be charged in pairs
+   2 or 4 at a time, not 1 or 3.

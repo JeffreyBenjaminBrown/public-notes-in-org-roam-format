@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       f25c0908-bfdc-446d-98dc-c353f204bcc2
+:END:
+#+title: I want Tmux to show a shorter prompt.
+* code: something like this
+  PS1="\W\$ "
+* [[id:65fa661f-8304-4a1b-b11c-0b927fca356f][how to change the Bash prompt]]

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       91be2742-b06b-48e6-99ab-3cc8ceecbe76
+:END:
+#+title: Expensive labor spurs innovation.
+Britain and the Netherlands saw the price of labor rise around the 16th and 17th centuries while it fell in the rest of Europe, because those two countries were plugged into the North Atlantic economy, and people could always find jobs (albeit often horrible ones). As a result the industrial revolution happened there.

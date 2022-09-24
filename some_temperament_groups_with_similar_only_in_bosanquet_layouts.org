@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       57e51492-ac32-4e33-b5b8-9b6eaab4ebb3
+:END:
+#+title: some temperament groups with similar (only in Bosanquet?) layouts
+* PITFALL: On further clarification
+  this seems only to apply to "fifths-based temperament families".
+  I don't think of EDOs that way, and don't want to.
+* via Cam Taylor on Facebook
+  https://www.facebook.com/groups/lumatone.keyboard/posts/5182895288486328?comment_id=5185892631519927&reply_comment_id=5188752981233892
+* the list
+** Flattone, 33&19: 691-695c (40 was actually a bit outside this range, so you would have to use 40d)
+** Septimal meantone, 19&43: 695-697c
+** 5-limit meantone, 26&12: 693-700c
+** Schismatic in the big sense, 12&29: 700-703c or so, with most optimal stuff more like 65&41: 701.5-702.5c
+** Leapfrog, 29&17: 703-706c or so
+** Inverse gentle, 17&22: 706-709c or so
+** Archy, 17&37: 706-712c or so
+** Superpyth, 22&27: 709-711c optimal range, though one can extend slightly for worse approximations
