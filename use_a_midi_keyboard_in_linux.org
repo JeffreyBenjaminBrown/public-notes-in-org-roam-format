@@ -28,11 +28,9 @@
       client 20: 'Lumatone' [type=kernel,card=1]
 	  0 'Lumatone MIDI 1 '
 ***** Use `aconnect` to connect the keyboard to the MIDI Through.
-      Example:
+      Example (continued):
 
-      [jeff@jbb-hp17:~]$ aconnect 20:0 14:0
-
-      [jeff@jbb-hp17:~]$
+      aconnect 20:0 14:0
 **** via the QJackCtl signal graph
      Just plug the keyboard into the MIDI Through.
 ** Use the QJackCtl signal graph to connect the a2j MIDI Through to its destination.

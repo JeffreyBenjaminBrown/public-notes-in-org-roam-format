@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       1afd9486-967e-41b3-8ece-80f1a4552df6
+:END:
+#+title: people I know
+* [[id:857fa6c3-1cd5-4bc0-bac2-62e95f6e5b16][people I (would) like having lunch with at PUJ]]
+* [[id:496901b2-113d-45aa-8fcf-b355dccfdb8d][people I know in Austin]]
+* [[id:a4f383e5-0f10-442e-b8f6-7d700ce0b83a][people I know in Colombia's government]]
+* [[id:68e19077-0777-4544-8cba-68738227e560][people I know in Washington, DC]]
+* [[id:1736b4b0-6095-4c38-b429-bee34da4adeb][people I know through Sandy]]
+* [[id:305eb465-cd34-4eb2-8998-85fd2daeaef5][people I know through the Observatorio Fiscal]]
+* [[id:ea2a42f8-8449-4e93-9755-fc40f2d63068][people I like in Los Angeles]]
+* [[id:cbb2d39f-b931-4de5-a367-e1c53ead95c0][people I like in Portland]]
+* [[id:7d9ca04f-a02e-49ca-9eb7-5d363eb9d235][people I like talking to | find interesting]]
+* [[id:dc06c37d-d6a6-4ef1-94de-1616e9c2395e][people at PUJ]]

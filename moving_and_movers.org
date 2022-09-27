@@ -17,3 +17,5 @@
 ** Encomudanzas underestimated
    the boxes we'd need by a factor of 4,
    and the truck we'd need by maybe 25%.
+* my history with
+** [[id:a980ac09-af99-412f-ae7a-2ba4def3f966][finding movers in Bogotá, 2022-09-12]]
