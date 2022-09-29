@@ -5,7 +5,7 @@
 * steps
   serial
 ** Turn on QJackCtl.
-** Run `a2jmidid` from a shell.
+** Run `[[id:45d42ea4-4f2e-446a-93f1-2c9c0e67a677][a2jmidid]]` from a shell.
    This creates a MIDI Through port.
 ** Connect the MIDI keyboard via USB.
 ** connect the keyboard to the MIDI Through
@@ -42,3 +42,4 @@
    :PROPERTIES:
    :ID:       b36f69f8-8830-45e5-a95e-7f7c2fb5f44a
    :END:
+* [[id:4e9eb413-0253-45bf-ac20-39ef7bdb4518][SOLVED: BUG: Sometimes aconnect needs to be rerun.]]

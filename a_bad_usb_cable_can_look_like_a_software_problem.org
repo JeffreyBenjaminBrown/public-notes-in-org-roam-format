@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       db6ef5ff-4276-4bbd-b008-4c1db7255e27
+:END:
+#+title: A bad USB cable can look like a software problem.
+It disconnects, but one can easily reconnect in software,
+without adjusting cables at all.

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       45d42ea4-4f2e-446a-93f1-2c9c0e67a677
+:END:
+#+title: a2jmidid and aconnect
+* SOLVED: BUG: Sometimes aconnect needs to be rerun.
+  :PROPERTIES:
+  :ID:       4e9eb413-0253-45bf-ac20-39ef7bdb4518
+  :END:
+** what it looks like
+   Lumatone into Ardour will stop producing noise when this happens.
+   Did it go away after I turned off Dim Screen and Screen Energy Saving
+   under Settings -> Energy Saving -> On AC Power?
+** the underlying problem
+*** At least this time <2022-09-28 Wed>, it was [[id:db6ef5ff-4276-4bbd-b008-4c1db7255e27][a bad USB cable]].
+** the solution
+   Use a better USB cable, throw out the bad one.
