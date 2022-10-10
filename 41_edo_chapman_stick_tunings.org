@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       1190dc3c-2977-42e7-892d-72d9031a34bd
+:ROAM_ALIASES: "Chapman Stick 41-edo tunings"
 :END:
 #+title: 41-edo Chapman Stick tunings
   intended, ideal for these strings, my current compromise, and future
@@ -13,14 +14,23 @@
 * the data (input and output)
 *** PITFALL: The [[id:b2210822-fb0b-4e68-a803-d1edfd7c4007][row-specific notes]] include calculations that the code was unable to make, needed for out-of-sample data.
 *** the table
-try-log is what the code suggests when I use logarithmic frequency interpolation.
-try-lin is what the code suggests when I use linear      frequency interpolation.
-The other column names are documented in the code.
-**** general notes
-     the try-gauge column was created mostly automatically,
-     from gauge.py. But for some out-of-sample strings, that strategy didn't work,
-     so I just plugged in numbers myself. Those cases are described by the "notes"
-     column and the "row-specific notes" org heading.
+**** notes
+***** PITFALL: pitches are recorded at the 12th fret!
+      As long as I'm consistent it won't matter.
+      But if I ever use this table to determine
+      the gauge corresponding to an open string,
+      I'll be off by a fifth (ratio of 3:2).
+***** column interpretations
+****** try-log
+       is what the code suggests when I use logarithmic frequency interpolation.
+****** try-lin
+       is what the code suggests when I use linear      frequency interpolation.
+****** The other column names are documented in the code.
+***** the try-gauge column
+      was created mostly automatically,
+      from gauge.py. But for some out-of-sample strings, that strategy didn't work,
+      so I just plugged in numbers myself. Those cases are described by the "notes"
+      column and the "row-specific notes" org heading.
 **** DONE the current tuning
 |    |       |       | i    |     i |  u |     u | u      | u-i |         |         |       | nearby |
 |  s | gauge | wound | 41   |    Hz | 41 |    Hz | note   | err | try-lin | try-log | notes | I have |
