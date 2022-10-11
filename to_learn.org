@@ -2,6 +2,7 @@
 :ID:       b2daa5a3-95bd-4922-9610-c735376bd60a
 :END:
 #+title: to learn
+* [[id:94567688-b4eb-4396-a7eb-3af515d58eb2][to read | to absorb]]
 * science
 ** biology
 ** physics

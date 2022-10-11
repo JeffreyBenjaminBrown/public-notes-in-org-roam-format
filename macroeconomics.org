@@ -2,6 +2,7 @@
 :ID:       d5710ba5-2a3a-4f7a-80fc-97f7225c3a05
 :END:
 #+title: macroeconomics
+* [[id:c17c3c90-4467-4b16-bd5c-0f35e7af1e0f][collective action and spillover when fighting inflation]]
 * [[id:91be2742-b06b-48e6-99ab-3cc8ceecbe76][Expensive labor spurs innovation.]]
 * [[id:1433fc88-cec4-40fe-a9c7-897f4ac92048][The effect on labor of a tax on capital is ambiguous.]]
 * [[id:07439215-6e42-4f47-bce5-48c89c49158b][The special international status of the US dollar is not important to the US.]]

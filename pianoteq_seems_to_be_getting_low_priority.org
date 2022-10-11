@@ -1,0 +1,61 @@
+:PROPERTIES:
+:ID:       298bfc3b-b16e-4494-8985-c684ba8b8b91
+:END:
+#+title: Pianoteq seems to be getting low priority.
+* SOLVED: disable CPU throttling for each core
+  # as described in Pianoteq Linux README
+  sudo cpufreq-set -c 0 -g performance
+  sudo cpufreq-set -c 1 -g performance
+  sudo cpufreq-set -c 2 -g performance
+  sudo cpufreq-set -c 3 -g performance
+* refs
+** some maybe-related Pianoteq threads
+*** https://forum.modartt.com/viewtopic.php?id=7098
+*** https://forum.modartt.com/viewtopic.php?id=8044
+*** https://forum.modartt.com/viewtopic.php?id=5710
+*** https://forum.modartt.com/viewtopic.php?id=6180
+*** https://forum.modartt.com/viewtopic.php?id=6678
+** where I asked
+   https://discourse.nixos.org/t/one-audio-plugin-seems-to-be-getting-low-priority/22079
+   https://github.com/musnix/musnix/issues/141
+* my question
+(If you think I should be posting this somewhere else please let me know. The reason I suspect it's NixOS-specific is described in the second section below, titled `A hunch, and some things I've tried`.)
+
+# The problem
+
+I use NixOS with [MusNix](https://github.com/musnix/musnix). (This issue is cross-posted to the [MusNix issue tracker](https://github.com/musnix/musnix/issues/141).) Audio on my system is in general perfect, with the exception of a single sound-generating plugin called PianoTeq.
+
+I've been using QJackCtl, a2jmidid, Ardour, various other plugins (which modify rather than generate sound), and my external soundcard (a Scarlett Focusrite) with zero problems. But recently I started using Pianoteq, controlling it with a USB MIDI keyboard. It stutters, pops, and sometimes goes siilent. When it goes silent, Pianoteq pops up a window sometimes telling me that my computer can't handle it -- but this is a decent 2017 laptop, and Pianoteq runs fine on much older hardware.
+
+Sometimes the problem is more or less severe. Sometimes I can smash the keyboard and there are no glitches. I keep running `top` to try to find some CPU hog but there never seems to be one -- almost always, the biggest hog is ArdourGUI at around 25%. Here's a typical screenshot of `top`'s output:
+
+ 3509 jeff      20   0 3023088 892656 222504 S  17.6   5.5   1:50.61 ArdourGUI
+ 3805 jeff      20   0   10980   3752   3284 R  11.8   0.0   0:00.04 top
+    8 root      20   0       0      0      0 I   5.9   0.0   0:00.90 kworker/u8:0-events_unbound
+ 1045 root      20   0       0      0      0 I   5.9   0.0   0:00.94 kworker/1:3-events
+ 3479 jeff      20   0  281180 131224 111364 S   5.9   0.8   0:06.50 jackd
+    1 root      20   0  168556  13128   9744 S   0.0   0.1   0:01.35 systemd
+
+(with everything after that using 0.0 %CPU and 0.0 %MEM).
+
+# A hunch, and some things I've tried
+
+I suspect it's not being given high priority.
+
+In QJackCtl under Setup, on the Settings tab, under the Advanced subtab, one can choose a priority level. I tried setting that to 90, restarted QJackCtl and everything that depends on it, and didn't notice any change.
+
+I've found some procedural instructions online about giving higher priority to audio processes, but I suspect they're not going to work in NixOS. One, I remember, told me to edit some config file that didn't even exist on my machine. (Sorry, it's been a while, I didn't record the details.)
+
+I've searched online and haven't found anything resembling this problem described elsewhere, even omitting Nix and NixOS.
+* observations
+** Vitalium, which is apparently CPU-heavy (whereas Pianoteq isn't), works fine.
+** Exporting recorded MIDI (not in realtime) to audio works fine.
+** Pianoteq is the only .lv2 plugin installed in ~/.lv2
+   I don't know where the others are,
+   but they were installed via my NixOS config,
+   rather than manually like Pianoteq.
+* some ideas
+** ask Pianoteq
+* temp
+  Vitalium seems to work like a charm. So does exporting Pianoteq audio from recorded MIDI (which I imagine is not rendered in realtime).
+  The way I installed Pianoteq was very non-nix.

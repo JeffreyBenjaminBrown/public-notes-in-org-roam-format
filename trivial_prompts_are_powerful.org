@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       be4b304a-f08c-46b0-8954-8618b68b3dc7
+:END:
+#+title: Trivial prompts are powerful.
+* e.g. Duolingo's daily email asking for 4 minutes of study.

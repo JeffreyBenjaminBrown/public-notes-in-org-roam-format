@@ -13,7 +13,6 @@
 * [[id:0fb050fc-28b8-48a6-914b-6d5970490d46][microtonal guitar]]
 * [[id:de30e8da-4c6f-4638-b063-45fb20eb3255][latencytop: a Linux latency monitoring tool]]
 * [[id:bfa54465-b028-4ba9-81f2-92984bdba8f8][dense syllables: a spoken notation for music]]
-* [[id:dd7017ff-63a5-4014-887b-81cc4820940c][drum triggers, electric]]
 * TODO Be like these bands.
   minimal, funky
 ** Deerhoof
@@ -33,6 +32,8 @@
 ** an EQ for PulseAudio
    https://github.com/keur/prettyeq
    https://news.ycombinator.com/item?id=24586239
+* [[id:b8ec037a-fe0a-4567-adff-4e1c01b3aef6][percussion]] | drums
+* [[id:b61142c9-d27f-41f0-b0d6-3f4ef273090a][synthesizer (audio software)]]
 * aborted
 ** [[id:e997f14b-7bdf-4545-a90e-f64db4e8a5b3][22-edo guitar (shopping)]]
 ** [[id:3c5597b0-3260-44fe-9c49-03a3f791171c][Expression Pedals to USB]]

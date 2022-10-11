@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       b63e7d23-0866-4108-9975-0dbf16522c5d
-:ROAM_ALIASES: Axe (my synth)
+:ROAM_ALIASES: "Axe (my synth)"
 :END:
 #+title: Montevideo.Synth.Axe
 * TODO The small monome needs a 90 degree rotation for SimpleVal.

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b61142c9-d27f-41f0-b0d6-3f4ef273090a
+:END:
+#+title: synthesizer (audio software)
+* some synths
+** [[id:50c474b4-6dad-4c00-83a8-52a4830e72f2][Pianoteq]]
+** [[id:5f3ea5e8-ba24-430b-addc-0acd74dbfe52][percussive physical modeling software]]
+** [[id:b63e7d23-0866-4108-9975-0dbf16522c5d][Axe (my synth)]]

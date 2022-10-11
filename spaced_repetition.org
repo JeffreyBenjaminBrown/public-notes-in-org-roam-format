@@ -8,7 +8,7 @@
 * todo ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * also review [[id:84b6c491-f0b4-44ab-9ffd-cf196d6a0220][Spanish vocabulary]]
 * the last time I reviewed
-  15
+  16
 * review when time is equal to 1 mod 2 (i.e. odd)
 ** [[id:15c15ae2-bb60-4f6e-9e6d-e9045f9c0132][Review notes on anything that could be a disaster.]]
 ** [[id:72d5a73b-691f-4034-9552-6f657f549f21][how to pack the Lumatone]]
@@ -28,20 +28,18 @@
    [[id:a674cc6a-c3bf-4ba7-abf3-edabaa225587][A tiny walk after a meal smooths blood sugar levels.]]
 ** [[id:1bfa7cac-6c4c-49ec-aacf-c517884ffd8a][? could the email count go awry]]
 * review when time is equal to 4 mod 8
-** When adding an argument to a function, do what?
-   When giving a function an argument, be sure it's used,
-   and whatever it abstracts is now gone.
+** [[id:3f39bd42-4d68-41b0-879a-65f2a1cba116][to change sample size in tax.co.web]]
+* review when time is equal to 8 mod 16
+** [[id:3d30dc55-ce11-4e46-a149-720a2f5b85d1][When giving a function an argument, make sure]]
 ** How to organize backpack?
    Keep hat, scarf in the inner pocket of the big pocket.
-** [[id:3f092a7a-4a04-426a-bf23-e4502ac4d84f][internalize: to change the sample size]] in tax.co.web
-** In Phanaeros, [[id:8a497f47-2643-4b63-89d7-b0f53ff4092a][what doesn't work from where]]?
+** [[id:1671f11c-9eaf-4d10-baaa-a9088b4a612d][Test internet connections from different platforms, internet connections.]]
 ** What might stop pointless behaviors?
    [[id:9ec55e32-f974-479e-8295-7d9e30156684][mindfulness]]
 ** Git: Do what before each session (or even each operation)?
    [[id:ff7ae828-8ded-4916-ae67-551d604e2382][Check name of branch.]]
 ** What to do when scheduling?
    Check my Javeriana calendar too.
-* review when time is equal to 8 mod 16
 ** What are the [[id:6245c084-fdb8-4ea6-a998-af585b0524ec][Oculus Quest 2's vulnerabilities]]?
 ** Why is keeping a [[id:51fab985-a4cf-4ca7-8e5a-55a26d224737][hard disk in bubble wrap stupid]]?
 ** Before leaving any doctor's office, do what?

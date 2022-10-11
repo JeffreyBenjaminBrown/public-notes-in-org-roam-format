@@ -135,3 +135,4 @@ and between them play the dominant (major starting at 18) chord of the first.
 * [[id:4d2aa565-643a-4974-b980-618fc66f8420][my advice re. layouts for small grid controllers]]
 * meh
 ** [[id:57e51492-ac32-4e33-b5b8-9b6eaab4ebb3][some temperament groups with similar (only in Bosanquet?) layouts]]
+** [[id:6f584e42-e0b6-4279-be53-6c2e84b60f4b][microtonal temperaments and their generators, some]]

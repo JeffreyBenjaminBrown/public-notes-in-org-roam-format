@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b8ec037a-fe0a-4567-adff-4e1c01b3aef6
+:ROAM_ALIASES: drums
+:END:
+#+title: percussion
+* [[id:dd7017ff-63a5-4014-887b-81cc4820940c][drum triggers, electric]]
+* [[id:5f3ea5e8-ba24-430b-addc-0acd74dbfe52][percussive physical modeling software]]

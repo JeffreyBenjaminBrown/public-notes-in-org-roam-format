@@ -2,6 +2,12 @@
 :ID:       dd7017ff-63a5-4014-887b-81cc4820940c
 :END:
 #+title: drum triggers, electric
-* Roland HPD-20
+* Roland HPD-20 (hand drum)
   = The circular, divided electric drum pad Bran owns and likes.
   He says only five of the surfaces are top-quality.
+* Roland TD 1DMK
+** The (cheapest?) V-Drums set.
+** Includes MIDI out.
+** Includes no kick pedal.
+*** But there's a Sweetwater bundle that does.
+    https://www.sweetwater.com/store/detail/TD1DMKBun1--roland-v-drums-td-1dmk-electronic-drum-set-bundle

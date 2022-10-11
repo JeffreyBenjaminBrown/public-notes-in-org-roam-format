@@ -183,3 +183,5 @@ cannot build derivation '/nix/store/nbmvjyrvf2qfa3adwgdbjqx2jaam1fyi-nixos-syste
 b-dell-19.09.1850.5dc4d071ffe.drv': 1 dependencies couldn't be built
 error: build of '/nix/store/nbmvjyrvf2qfa3adwgdbjqx2jaam1fyi-nixos-system-jbb-dell-1
 9.09.1850.5dc4d071ffe.drv' failed
+* SOLVED
+** [[id:298bfc3b-b16e-4494-8985-c684ba8b8b91][A synth pluginseemed to be getting low priority.]]

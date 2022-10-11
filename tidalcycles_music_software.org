@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       c90e23ae-6d45-4040-a61a-e7003ac93c78
+:ROAM_ALIASES: TidalCycles
 :END:
 #+title: TidalCycles (music software)
 * refs
@@ -7,6 +8,9 @@
 ** https://tidalcycles.org/
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
+* TODO default values in TidalCycles
+  e.g. amp <- 0.4
+  https://club.tidalcycles.org/t/default-amp-value/4326
 * TODO Easy-to-use state in Tidal?!
   https://club.tidalcycles.org/t/tidal-synth-how-to-assign-a-value-to-a-variable/4012
 * TODO Share the scale stuff

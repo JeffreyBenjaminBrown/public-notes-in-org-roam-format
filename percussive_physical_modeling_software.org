@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       5f3ea5e8-ba24-430b-addc-0acd74dbfe52
+:END:
+#+title: percussive physical modeling software
+ordered by preference
+* MODO Drum 1.5
+  Good rock kit sound.
+* Chromaphone 3
+  Diverse. Can be very wacky.
+  Less convincing at a standard drum kit.

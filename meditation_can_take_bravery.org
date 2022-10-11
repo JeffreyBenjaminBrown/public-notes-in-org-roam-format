@@ -2,6 +2,8 @@
 :ID:       ae8760d6-8320-46ba-8ed3-81b02e5fbcff
 :END:
 #+title: Meditation can take courage.
+* [[id:e024e38a-6f93-4717-aa53-cfea0501b7d9][The courage to not know what to do.]]
+* [[id:d0f40687-987b-4fa5-97ae-7d03315484d9][The courage to be still.]]
 * The bravery to know how you feel.
 * The bravery of recognizing you need internal work.
   Enough to value it, for at least a while today,

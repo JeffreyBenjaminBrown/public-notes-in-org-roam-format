@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       36eecda2-a5f8-47dc-ac6a-07c45aee493a
+:END:
+#+title: SuperCollider and NixOS
+* my Reddit thread about that
+  https://www.reddit.com/r/TidalCycles/comments/lbe5gf/do_you_use_tidalcyxles_in_nixos
+* [[id:84353353-6daf-411b-ae60-990301037e04][Lily Foster's build of sc3-plugins]]
+  It's way better than mine.
+* [[id:b45a1d6d-3cef-472e-9c4f-44b8296bd17e][PITFALL: On NixOS, using SC with plugins requires some configuration.]]
+* where I got help packaging it for NixOS
+  :PROPERTIES:
+  :ID:       d4b1237f-adea-4f80-9381-bf5f3dd08ddb
+  :END:
+  https://discourse.nixos.org/t/trying-to-install-sc3-plugins-but-in-nixos-i-dont-understand-packaging-or-c/15433
+* DONE I packaged it for NixOS and submitted it to nixpkgs.
+  https://github.com/NixOS/nixpkgs/pull/142626
+  https://discourse.nixos.org/t/trying-to-install-sc3-plugins-but-in-nixos-i-dont-understand-packaging-or-c/15433

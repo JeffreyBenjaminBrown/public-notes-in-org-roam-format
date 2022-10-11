@@ -11,7 +11,7 @@
    :END:
 ** [[id:24169b3e-6d41-48dd-9367-6df7a3565bed][my priorities]]
 ** [[id:776b4780-a8b8-42af-ba5a-b3703a2fc248][Creating can take courage.]]
-** [[id:d63a84ca-2d5a-46c7-867d-02ff9ec8edaf][Trivial inconveniences can be good or bad.]]
+** [[id:40b049b7-ef2a-4eab-a9f8-07ee5841aa86][habit]]
 ** things I wish about myself
 *** Don't get mad fast.
     Before yelling, state that someone is making me mad,
@@ -26,7 +26,7 @@
     and once I was underwater I stopped trying.
 ** [[id:73e229ee-a416-41db-a23a-4d960b2e559f][systematic socializing]]
 ** on personal change
-*** At 42 I acclimated physically (and behaviorally) to Villavo.
+*** At age 42 I acclimated physically (and behaviorally) to Villavo.
     The first and maybe the second time I was here, I was somewhat useless.
     The heat was opressive, and I got sick a lot.
     This time I have a fan on me most of the time,
@@ -34,6 +34,7 @@
     I can exercise,
     and while I got a stomach bug for a few days at the start,
     I've been fine for the four weeks since.
+*** At age 43 [[id:36fdf096-50fb-4a64-9b58-cce6ea2c700a][VR boxing massively improved my cardiovascular health.]]
 *** paraphrased: "Nobody comes back changed from an amazing vacation in Hawaii. It's suffering that does that."
 **** -- David Brooks, on Tyler Cowen's podcast, circa 2019?
 ** Counting words depends on what I'm reading.

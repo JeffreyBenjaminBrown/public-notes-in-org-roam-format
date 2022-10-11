@@ -4,6 +4,7 @@
 #+title: Use a USB MIDI keyboard in Linux.
 * steps
   serial
+** [[id:298bfc3b-b16e-4494-8985-c684ba8b8b91][Disable CPU throttling.]]
 ** Turn on QJackCtl.
 ** Run `[[id:45d42ea4-4f2e-446a-93f1-2c9c0e67a677][a2jmidid]]` from a shell.
    This creates a MIDI Through port.

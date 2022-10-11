@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       6f584e42-e0b6-4279-be53-6c2e84b60f4b
+:END:
+#+title: microtonal temperaments and their generators, some
+* ref
+  Paul Erlich, in his replies to this Facebook comment:
+  https://www.facebook.com/groups/lumatone.keyboard/posts/5219819488127241/?comment_id=5219846214791235&reply_comment_id=5220491244726732
+* How (I think) to read these.
+  Before the semicolon is one axis; after is the other.
+* the list
+** Orwell: 71.49635; 42.85672 or 114.35307.
+** Meantone: 78.83148; 36.39920 or 115.23068.
+** Miracle: 33.69400; 15.62496 or 49.31896
+** Valentine: 77.90679; 31.79165 or 109.69844
+** Magic: 57.91767; 91.15356 or 33.23589.
+** Myna: 40.55500; 26.09050 or 66.6455

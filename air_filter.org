@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       5704b01c-3eaf-4adc-98a8-0c2c6804da08
+:END:
+#+title: air filter
+* change the prefilter more frequently
+* TODO a quieter, more effective DIY air purifier
+** https://dynomight.net/better-DIY-air-purifier.html
+** in brief
+   Sit a duct booster fan on top of a tower of four filters lashed together with bungee cords. Cut out foam or something like that to seal them and make them fit together stably. Pull the air through the filters into the space between them, up and out the filter.

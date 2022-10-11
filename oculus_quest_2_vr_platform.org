@@ -26,7 +26,11 @@
     Until You Fall (swords)
     Beat Saber
 ** Not in the table
-   Holopoint (archery)
+*** Pistol Whip
+    Looks like a good workout, at least for the lats.
+*** DONE already got it
+**** [[id:fae5be5c-6d2d-4894-a1f9-09f7cd874ab7][Superhot VR (game)]]
+**** Holopoint (archery)
 * Quest 2 multiplayer fitness games
 ** Racket NX
    Like tennis but both people are in the same spot.

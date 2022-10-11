@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3d30dc55-ce11-4e46-a149-720a2f5b85d1
+:END:
+#+title: When giving a function an argument, make sure
+all of them
+* It's used.
+* The specifics of what it abstracts over is now gone.

@@ -2,28 +2,30 @@
 :ID:       84b6c491-f0b4-44ab-9ffd-cf196d6a0220
 :END:
 #+title: Spanish vocabulary
+* TODO read [[id:f9b8a577-563a-47c6-a77f-11892ec5ccd2][La República]]
 * outer loop
 ** last time I reviewed
-   2
+   3
 ** inner loops
 *** odd times: Spanish questions, English answers
 **** last time I reviewed
-     1
+     2
 **** 1 mod 2
 ***** mozo
       Waiter.
       Slang: Lover.
-***** rendimientos financieros
-      financial returns of any kind -- capital gains + dividends
 ***** pese a que
       although
 ***** lineamiento
       orientation, criteria
+      ("guideline"?)
+**** 2 mod 4
+***** rendimientos financieros
+      financial returns of any kind -- capital gains + dividends
 ***** cafre
       bad person
 ***** relatoría
       outline
-**** 2 mod 4
 *** even times: English questions, Spanish answers
 **** last time I reviewed
      1

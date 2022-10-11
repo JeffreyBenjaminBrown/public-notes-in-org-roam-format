@@ -2,5 +2,6 @@
 :ID:       492bfe8d-77f0-4aa2-bb33-df9fa984f0ea
 :END:
 #+title: courage
+* [[id:59d58b9e-3d17-468b-88ad-99d27485fd6f][Surprising forms of courage.]]
 * [[id:ae8760d6-8320-46ba-8ed3-81b02e5fbcff][Meditation can take courage.]]
 * [[id:776b4780-a8b8-42af-ba5a-b3703a2fc248][Creating can take courage.]]

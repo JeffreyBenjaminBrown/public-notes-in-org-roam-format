@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       36fdf096-50fb-4a64-9b58-cce6ea2c700a
+:END:
+#+title: VR boxing massively improved my cardiovascular health.
+* My HRR (heart recovery rate) was too slow.
+  :PROPERTIES:
+  :ID:       30be3717-f174-40d9-85d2-8a200bdd2b2c
+  :END:
+  Around January 2022, a cardiologist told me
+  to make a plan with a sports doctor.
+* I started VR boxing around June 2022.
+* By <2022-10-10 Mon> my HR gets down to 75 within 90 minutes of extreme exertion.
+  At least, that happened once.
+  Haven't taken systematic records.
