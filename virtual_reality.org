@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3c48e86b-a9ad-4e80-b570-24e950961dd3
+:END:
+#+title: virtual reality
+* [[id:f41ebf0b-159e-467c-b772-8413864e21c5][Is VR associated with bradilalia? Asking academics.]]
+* [[id:7d829b36-5932-41b0-b697-e9b9c8e8627a][Oculus Quest 2 (VR platform)]]

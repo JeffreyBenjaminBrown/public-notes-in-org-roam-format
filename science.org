@@ -8,6 +8,7 @@
 * [[id:5a9e5a9f-8e1b-4487-ba1d-51692d73dd89][astronomy]]
 * [[id:974d25f4-56a0-4dd9-a066-7790dd40d0f7][biology]]
 ** [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
+** [[id:7c70d045-6b4f-4957-a524-cf4c63204c84][neurology]]
 * [[id:001d7913-c431-461c-92ae-a6a39394856c][computer science]]
 * [[id:fc62e211-be72-469f-a543-2950c0e2c975][contrarianism]]
 * [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
@@ -26,6 +27,7 @@
 * [[id:3570b8e0-1c1b-482c-bbb1-18c0151e2e4f][political science]]
 * [[id:3989a4db-9ec4-43c4-9123-dbc4ebea2378][pseudo-science]]
 * [[id:9b40c46b-bd16-4003-8a9e-763f5a7dbc22][psychology]]
+** [[id:7c70d045-6b4f-4957-a524-cf4c63204c84][neurology]]
 * [[id:4d96ed8b-e9d9-4809-b865-49057fba568e][sociology]]
 * [[id:9619c955-6dbe-4001-ba8f-00421984aca3][systematization]]
 * [[id:b9f666f2-0035-42df-b674-86049697e9e0][war]], a.k.a. defense

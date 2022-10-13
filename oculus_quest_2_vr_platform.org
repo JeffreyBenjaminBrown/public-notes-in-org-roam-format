@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       7d829b36-5932-41b0-b697-e9b9c8e8627a
+:ROAM_ALIASES: "Meta Quest 2"
 :END:
 #+title: Oculus Quest 2 (VR platform)
 * PITFALL: Oculus Quest 2 vulnerabilities
@@ -50,3 +51,4 @@
 ** [[id:b4922d38-b67e-4b84-a7b8-968e319577e8][bug: Oculus Quest 2 stuck showing a white ring]]
 * history
 ** [[id:0213144c-d3c6-482c-9174-5b493c8f5853][returning the Oculus Quest 2]]
+** [[id:09971f30-81d6-48aa-bffc-6560cebd23ec][2022-10-11, temporary speech difficulty]]

@@ -1,0 +1,101 @@
+:PROPERTIES:
+:ID:       41078ddd-4ec0-45fe-a799-3f8d00aa81d8
+:ROAM_ALIASES: "Nu shell"
+:END:
+#+title: NuShell
+* resources and community
+  https://www.nushell.sh/book/
+* how to launch it
+  Evaluate "nu" in a terminal.
+* types
+** special number or number-adjacent data types
+*** date
+*** duration
+*** range
+**** closed [] ranges
+     1..3
+     includes both endpoints.
+**** half-open [) ranges
+     1..<5
+     The reverse (] appears not to be available.
+**** infinite
+     0.. | take 5
+*** size (of file)
+*** binary
+    > 0x[1F FF]  # Hexadecimal
+    > 0b[1 1010] # Binary
+    > 0o[777]    # Octal
+** show something's type: use "describe"
+   42 | describe
+** casting: use "into"
+   "-5" | into int
+** dynamic string construction
+   Evaluating something like this:
+     $"(x)"
+   replaces each (x) with what it evaluates to.
+**** an example with math
+    /home/jeff〉$"6 x 7 = (6 * 7)"                       10/12/2022 08:35:10 PM
+    6 x 7 = 42
+**** an example with the fields of a product type
+     /home/jeff〉ls | each { |it| $"($it.name) is ($it.size)" }
+     ╭────┬─────────────────────────╮
+     │  0 │ Desktop is 4.0 KiB      │
+     │  1 │ Documents is 4.0 KiB    │
+     │  2 │ Downloads is 4.0 KiB    │
+     ...
+** durations permit math
+   /home/jeff〉30day / 1sec                          10/12/2022 08:44:52 PM
+   2592000
+** collections
+*** "records" are product types
+**** example
+     /home/jeff〉echo {name: sam, rank: 10}            10/12/2022 09:46:40 PM
+     ╭──────┬─────╮
+     │ name │ sam │
+     │ rank │ 10  │
+     ╰──────┴─────╯
+**** nested example
+     /home/jeff〉echo {name: {a:1,b:2}, rank: 10}      10/12/2022 09:48:08 PM
+     ╭──────┬───────────────────╮
+     │ name │ {record 2 fields} │
+     │ rank │ 10                │
+     ╰──────┴───────────────────╯
+*** lists
+    [sam fred george]
+*** tables
+**** can be input as a list titles plus a list of lists
+     a list of column names + a list of rows (also lists).
+     The semicolon and brackets below are important,
+     but some of the whitespace could be a comma instead.
+
+     > echo [[name1 name2];
+             [1 2] [4 5]]
+**** can be input as a list of (inhomogeneous!) records
+     echo [ {name: sam, rank: 10},
+            {name: bob, a:2, rank: 7} ]
+
+     ╭───┬──────┬──────┬────╮
+     │ # │ name │ rank │ a  │
+     ├───┼──────┼──────┼────┤
+     │ 0 │ sam  │   10 │ ❎ │
+     │ 1 │ bob  │    7 │  2 │
+     ╰───┴──────┴──────┴────╯
+** column paths
+*** idea
+    Tables can be ("inhomogeneous tensors"?).
+    Column paths point to some linear subspace.
+*** example
+    open data.toml | get foo.0.bar
+                         ^^^^^^^^^
+** "block" = code, and might = anonymous functions
+*** example
+    The part between the brackets below (inclusive):
+    each { |x| echo $x }
+** (code) "groups"
+*** the idea
+    Each line is evaluated,
+    and the result of its last expression is displayed.
+    Semicolons divide expressions on the same line.
+    Pipes bind more tightly than semicolons.
+*** examples
+    https://www.nushell.sh/book/types_of_data.html#groups
