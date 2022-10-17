@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       9930ed50-577c-4efe-bafe-e99c2a4b1711
+:END:
+#+title: Nu builtins versus external-to-Nu commands.
+* [[id:14359f8b-abef-4d11-80c7-8fdea13234e8][Use "help" rather than "man" for Nu-native commands.]]
+* To use non-Nu versions of functions, prefix a ^ character.
+  sys | get host.sessions.name | each { |it| ^echo $it }

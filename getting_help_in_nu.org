@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ec00b28d-ed95-4f51-a871-408432ae119f
+:END:
+#+title: Getting help in Nu.
+* Use "help" rather than "man" for Nu-native commands.
+  :PROPERTIES:
+  :ID:       14359f8b-abef-4d11-80c7-8fdea13234e8
+  :END:
+* Use `help -f <topic>` to get help on a topic
+  as opposed to a command.
