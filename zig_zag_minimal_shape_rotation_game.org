@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       bdbfceeb-e845-4579-aaa2-9acdf7645b2c
+:END:
+#+title: Zig Zag: minimal shape rotation game
+* find it online
+  https://vladimirslepnev.itch.io/zigzag
+* my high score
+  45 s
+  (I think I made it into the high 50s once,
+  but I appear not to have recorded it.)

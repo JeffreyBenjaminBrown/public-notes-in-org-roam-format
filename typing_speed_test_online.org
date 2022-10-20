@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f8268bf9-5525-41bb-9afb-9af0e6f51816
+:END:
+#+title: typing speed test online
+* typingtest.com
+  https://www.typingtest.com/
+* my scores
+** <2022-10-20 Thu> 76 wpm, 100% accuracy

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       73dcc71c-3277-445b-b6ec-05830e955dad
+:END:
+#+title: testing (computer science)
+* [[id:0cbd3c1b-d692-47c7-a209-97287840c296][tests and IO (computer programming)]]
+* [[id:fe18f13a-ff7e-4c7f-8592-e6e01c34e0d9][tests and state]]

@@ -4,3 +4,5 @@
 #+title: good coding habits
 * [[id:3d30dc55-ce11-4e46-a149-720a2f5b85d1][When giving a function an argument, make sure]]
 * [[id:1671f11c-9eaf-4d10-baaa-a9088b4a612d][Test internet connections from different platforms, internet connections.]]
+* [[id:59478b79-70e8-4422-8ed8-78a62d801a98][Make names long enough]].
+* [[id:dbdc84fc-7cb4-4fa9-99e9-0b8b8f3f8de2][Why duplication is dangerous.]]

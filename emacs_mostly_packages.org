@@ -46,6 +46,7 @@
 ** C-c C-(f/b): org next/previous same level
 ** Up, down and search work in the minibuffer after M-x.
 * solutions
+** [[id:b7246e61-fb94-48b1-b34b-2981e60fc860][insert a column of increasing numbers in Emacs]]
 ** to insert (write) date, and maybe time, at point
    :PROPERTIES:
    :ID:       76f955ac-1f33-4b6b-bedb-e85852a486b9

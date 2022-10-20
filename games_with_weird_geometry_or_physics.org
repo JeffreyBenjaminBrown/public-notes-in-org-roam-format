@@ -7,9 +7,7 @@
 * Fez
 * Holonomy
   You're a disk on a cube you can rotate.
-* Zig Zag: minimal shape rotation game
-  https://vladimirslepnev.itch.io/zigzag
-  My high score: 44 s
+* [[id:bdbfceeb-e845-4579-aaa2-9acdf7645b2c][Zig Zag: minimal shape rotation game]]
 * Noita
   Everything is particles, all 4 states of matter.
   Extremely GPU intensive.

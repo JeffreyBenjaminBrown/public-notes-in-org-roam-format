@@ -4,7 +4,7 @@
 :END:
 #+title: Bogotá Functional Programming Interest Group
 * TODO [[id:efb16b7e-5be1-4990-8f2e-08d17eee3ccd][BFPIG, todo]]
-* the meetup
+* the Meetup
   https://www.meetup.com/functional-programming-interest-group-at-puj/
 * papers of interest
 ** Why Functional Programming Matters

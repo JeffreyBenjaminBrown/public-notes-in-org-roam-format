@@ -2,8 +2,9 @@
 :ID:       59478b79-70e8-4422-8ed8-78a62d801a98
 :END:
 #+title: Make names long enough.
-Make sure names* are sufficiently informative | long.
-  * of functions, types, etc.
+* NOT obvious: They should be easy to find and replace,
+  which implies they should not be substrings of other tokens.
+*     Obvious: They should be sufficiently informative.
 * example
-  Action turned out to be a worse typoe name than ScAction,
+  "Action" turned out to be a worse type name than "ScAction",
   and renaming took me like 15 minutes.

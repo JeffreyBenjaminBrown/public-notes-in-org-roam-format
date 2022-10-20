@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       f1a8ec6a-605b-4e34-84ee-9912be516dd8
-:END:
-#+title: programming
-* [[id:bd48b7ca-4620-49a0-b5a5-915205f7e78e][good coding habits]]
-* [[id:0cbd3c1b-d692-47c7-a209-97287840c296][tests and IO (computer programming)]]
-* [[id:59478b79-70e8-4422-8ed8-78a62d801a98][Make names long enough]].
-* [[id:dbdc84fc-7cb4-4fa9-99e9-0b8b8f3f8de2][Why duplication is dangerous.]]

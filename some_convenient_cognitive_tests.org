@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       90a3dbca-a755-42ab-9110-933971b5c94e
+:END:
+#+title: some convenient cognitive tests
+* stand on one foot
+* [[id:9a1c65a1-1fae-41a0-8ea9-1cb65711b681][Raffly]] (shape-matching card game)
+* [[id:bdbfceeb-e845-4579-aaa2-9acdf7645b2c][Zig Zag: minimal shape rotation game]]
+* [[id:f8268bf9-5525-41bb-9afb-9af0e6f51816][typing speed test online]]

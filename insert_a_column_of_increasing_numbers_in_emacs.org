@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b7246e61-fb94-48b1-b34b-2981e60fc860
+:END:
+#+title: insert a column of increasing numbers in Emacs
+serial
+* identify the rectangle (C-SPC, move cursor, C-SPC)
+* if it should start with something other than 1
+  press `C-u`, then type the first number
+* evaluate `M-x rectangle-number-lines` (shorter: `M-x rect-num`)

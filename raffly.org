@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       9a1c65a1-1fae-41a0-8ea9-1cb65711b681
+:ROAM_ALIASES: "Spot It"
+:END:
+#+title: Raffly
+= a multilayer, no-turns, shape-matching card game
+* Raffly is a knock-off of Spot It.
