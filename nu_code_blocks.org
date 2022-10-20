@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c809e181-9c23-4c3c-9a85-6a148a29c9bf
+:END:
+#+title: Nu (code) blocks
+= code, and might = anonymous functions
+* example
+  The part between the brackets below (inclusive):
+  each { |x| echo $x }

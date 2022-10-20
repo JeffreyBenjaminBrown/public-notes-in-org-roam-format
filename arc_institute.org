@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c694a3e6-6b16-41b6-9cda-be6fe6505d2c
+:END:
+#+title: Arc Institute
+* = no-strings-attached grants for "curiosity-driven" science
+* https://arcinstitute.org/

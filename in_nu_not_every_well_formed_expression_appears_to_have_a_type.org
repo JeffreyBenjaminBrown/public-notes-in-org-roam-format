@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       ab12a1d1-e282-4dcb-b544-9ab765e209b1
+:END:
+#+title: In Nu,-Not every well-formed expression appears to have a type.
+* I can    get the type of `ls`.
+/home/jeff〉ls | describe                       10/19/2022 05:18:45 PM
+table<name: string, type: string, size: filesize, modified: date>
+* I cannot get the type of `kill`.
+/home/jeff〉kill | describe                     10/19/2022 05:18:48 PM
+Error: nu::parser::missing_positional (link)
+
+  × Missing required positional argument.
+   ╭─[entry #5:1:1]
+ 1 │ kill | describe
+   ·     ▲
+   ·     ╰── missing pid
+   ╰────
+  help: Usage: kill {flags} <pid> ...(rest)

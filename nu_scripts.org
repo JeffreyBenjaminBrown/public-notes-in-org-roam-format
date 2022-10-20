@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b4dc908e-68a5-4f64-ab65-20105484a3ae
+:END:
+#+title: Nu scripts
+* should end in .nu
+* can be run via `nu path-to-script.nu`
+* can be run without being in the Nu shell

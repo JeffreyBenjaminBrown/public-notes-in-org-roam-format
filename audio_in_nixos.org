@@ -184,4 +184,5 @@ b-dell-19.09.1850.5dc4d071ffe.drv': 1 dependencies couldn't be built
 error: build of '/nix/store/nbmvjyrvf2qfa3adwgdbjqx2jaam1fyi-nixos-system-jbb-dell-1
 9.09.1850.5dc4d071ffe.drv' failed
 * SOLVED
-** [[id:298bfc3b-b16e-4494-8985-c684ba8b8b91][A synth pluginseemed to be getting low priority.]]
+** Stutter, squeals, and silences/dropouts can sometimes be solves by [[id:c9dc221f-56cc-439c-bd1c-1f0e4bfb95a3][disabling CPU throttling]].
+** [[id:298bfc3b-b16e-4494-8985-c684ba8b8b91][A synth plugin seemed to be getting low priority.]]

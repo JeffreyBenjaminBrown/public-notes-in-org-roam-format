@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       6b2aee61-ba79-4b3a-930c-37b1432bcf38
+:END:
+#+title: wildcards in Nu
+* use * like normal
+* use ** for path wildcards
+** e.g. ls **/* shows every path from here, however nested
+* use ? to match a single character

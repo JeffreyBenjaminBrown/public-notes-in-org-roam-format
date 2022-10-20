@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       e7ff348a-2c91-4be3-9ce2-c663091995f7
+:END:
+#+title: Pipes bind more tightly than semicolons in Nu.

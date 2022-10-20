@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       64fbc48c-549e-401a-8c49-acbe37e4e474
+:END:
+#+title: Nu (code) groups
+* PITFALL: The [[id:6943dd97-7084-4320-ac7d-580879853409][documentation for this]] seems to have disappeared!
+* syntax & evaluation strategy
+  :PROPERTIES:
+  :ID:       79ce3359-c068-4e5f-b95b-b1cf87e6cebe
+  :END:
+  Each line is evaluated,
+  and the result of its last expression is displayed.
+  Semicolons divide expressions on the same line.
+  [[id:e7ff348a-2c91-4be3-9ce2-c663091995f7][Pipes bind more tightly than semicolons.]]
+* examples
+  :PROPERTIES:
+  :ID:       6943dd97-7084-4320-ac7d-580879853409
+  :END:
+  https://www.nushell.sh/book/types_of_data.html#groups

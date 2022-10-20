@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       19a72db8-b744-42b2-b8ff-6302f2c930a0
+:END:
+#+title: dynamic string construction in Nu
+* the idea
+  Evaluating something like this:
+    $"(x)"
+  replaces each (x) with what it evaluates to.
+* examples
+** evaluating math
+   /home/jeff〉$"6 x 7 = (6 * 7)"                       10/12/2022 08:35:10 PM
+   6 x 7 = 42
+** evaluating fields of a product type
+   /home/jeff〉ls | each { |it| $"($it.name) is ($it.size)" }
+   ╭────┬─────────────────────────╮
+   │  0 │ Desktop is 4.0 KiB      │
+   │  1 │ Documents is 4.0 KiB    │
+   │  2 │ Downloads is 4.0 KiB    │
+   ...

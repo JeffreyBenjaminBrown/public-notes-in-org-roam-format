@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       c9dc221f-56cc-439c-bd1c-1f0e4bfb95a3
+:END:
+#+title: disable CPU throttling for each core
+# as described in Pianoteq Linux README
+sudo cpufreq-set -c 0 -g performance
+sudo cpufreq-set -c 1 -g performance
+sudo cpufreq-set -c 2 -g performance
+sudo cpufreq-set -c 3 -g performance

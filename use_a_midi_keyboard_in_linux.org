@@ -9,7 +9,7 @@
 ** Run `[[id:45d42ea4-4f2e-446a-93f1-2c9c0e67a677][a2jmidid]]` from a shell.
    This creates a MIDI Through port.
 ** Connect the MIDI keyboard via USB.
-** connect the keyboard to the MIDI Through
+** Connect the keyboard to the MIDI Through.
 *** how to decide whether to do it graphically or via the shell
     [[id:b36f69f8-8830-45e5-a95e-7f7c2fb5f44a][If the keyboard shows up in the QJackCtl signal graph, it can be connected that way. Otherwise, connecting it requires `aconnect`.]]
 *** alternatives

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       ce68f01a-0392-460d-a43d-1e0465355ad2
+:END:
+#+title: preregistration
+* https://en.wikipedia.org/wiki/Preregistration_(science)
+* Seems to solve even more problems than you might think.
+  This is what I remember from someone's presentation of it
+  at PUJ before 2020.
+** can't cherry-pick regressions
+** can't adjust a treatment mid-experiment
+** lets you see what kinds of research have proven too hard to finish
+** journals can accept before knowing the results, eliminating bias

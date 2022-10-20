@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       5da58f4b-df98-4c2b-8bdf-87ba1f07a068
+:END:
+#+title: evaluation in Nu
+* code group [[id:79ce3359-c068-4e5f-b95b-b1cf87e6cebe][syntax & evaluation strategy]]
+  PITFALL: I can't find documentation on "code groups" anymore.

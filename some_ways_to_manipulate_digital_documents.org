@@ -14,12 +14,15 @@ Converting afterward works much worse.
 Convert with `convert` (imagemagick), but concat with `pdftk`.
   Concatenating pdfs with `convert` seems to waste space.
   (Using the same to concatenate non-pdfs into one pdf might be okay.)
+* [[id:514ef602-a034-4bfb-b9dc-f09de9adb639][crop an image in ImageMagick]]
 * how to draw sloppy lines on an image
-  Open it in GIMP.
-  Choose the pencil/lapiz tool.
-  Zoom in via the app (not via KDE).
-  Draw with my finger on the HP touchscreen.
-   It's far more precise than the mouse.
+** use GIMP
+   Open it in GIMP.
+   Choose the pencil/lapiz tool.
+   Zoom in via the app (not via KDE).
+   Draw with my finger on the HP touchscreen.
+    It's far more precise than the mouse.
+** Edit it in Whatsapp
 * how to format a headshot for a Colombian visa
   :PROPERTIES:
   :ID:       53bb194e-7b52-48ad-91a8-1621010c4462

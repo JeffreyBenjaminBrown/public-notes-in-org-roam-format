@@ -2,6 +2,11 @@
 :ID:       4dbfdf07-f760-403d-9bcf-cddd14154fd1
 :END:
 #+title: types in Nu
+* PITFALL: [[id:ab12a1d1-e282-4dcb-b544-9ab765e209b1][Not every well-formed expression appears to have a type.]]
+* to show an expression's type: use "describe"
+  42 | describe
+* to cast: use "into"
+  "-5" | into int
 * special number or number-adjacent data types
 ** date
 *** convert date to table
@@ -21,24 +26,7 @@
    > 0x[1F FF]  # Hexadecimal
    > 0b[1 1010] # Binary
    > 0o[777]    # Octal
-* show something's type: use "describe"
-  42 | describe
-* casting: use "into"
-  "-5" | into int
-* dynamic string construction
-  Evaluating something like this:
-    $"(x)"
-  replaces each (x) with what it evaluates to.
-*** an example with math
-   /home/jeff〉$"6 x 7 = (6 * 7)"                       10/12/2022 08:35:10 PM
-   6 x 7 = 42
-*** an example with the fields of a product type
-    /home/jeff〉ls | each { |it| $"($it.name) is ($it.size)" }
-    ╭────┬─────────────────────────╮
-    │  0 │ Desktop is 4.0 KiB      │
-    │  1 │ Documents is 4.0 KiB    │
-    │  2 │ Downloads is 4.0 KiB    │
-    ...
+* [[id:90a20f51-beca-4954-b438-bc808714b403][strings in Nu]]
 * durations permit math
   /home/jeff〉30day / 1sec                          10/12/2022 08:44:52 PM
   2592000
@@ -91,15 +79,5 @@
 ** example
    open data.toml | get foo.0.bar
                         ^^^^^^^^^
-* "block" = code, and might = anonymous functions
-** example
-   The part between the brackets below (inclusive):
-   each { |x| echo $x }
-* (code) "groups"
-** the idea
-   Each line is evaluated,
-   and the result of its last expression is displayed.
-   Semicolons divide expressions on the same line.
-   Pipes bind more tightly than semicolons.
-** examples
-   https://www.nushell.sh/book/types_of_data.html#groups
+* [[id:c809e181-9c23-4c3c-9a85-6a148a29c9bf][Nu (code) blocks]]
+* [[id:64fbc48c-549e-401a-8c49-acbe37e4e474][Nu (code) groups]]

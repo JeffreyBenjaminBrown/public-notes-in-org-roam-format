@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       b9c7b7e6-9849-4a24-984d-b2e2e749d81a
+:END:
+#+title: science and research institutions
+* [[id:ce68f01a-0392-460d-a43d-1e0465355ad2][preregistration]]
+* [[id:c694a3e6-6b16-41b6-9cda-be6fe6505d2c][Arc Institute]]: no-strings-attached grants for "curiosity-driven" science

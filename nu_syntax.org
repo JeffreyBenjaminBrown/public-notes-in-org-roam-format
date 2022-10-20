@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       bbdfdca4-a681-4e8e-aa63-e5b701c7ce27
+:END:
+#+title: Nu syntax
+* [[id:e7ff348a-2c91-4be3-9ce2-c663091995f7][Pipes bind more tightly than semicolons.]]
+* [[id:6b2aee61-ba79-4b3a-930c-37b1432bcf38][wildcards in Nu]]
+* [[id:c809e181-9c23-4c3c-9a85-6a148a29c9bf][Nu (code) blocks]]
+* [[id:64fbc48c-549e-401a-8c49-acbe37e4e474][Nu (code) groups]] - obsolete?

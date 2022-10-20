@@ -2,12 +2,7 @@
 :ID:       298bfc3b-b16e-4494-8985-c684ba8b8b91
 :END:
 #+title: Pianoteq seems to be getting low priority.
-* SOLVED: disable CPU throttling for each core
-  # as described in Pianoteq Linux README
-  sudo cpufreq-set -c 0 -g performance
-  sudo cpufreq-set -c 1 -g performance
-  sudo cpufreq-set -c 2 -g performance
-  sudo cpufreq-set -c 3 -g performance
+* SOLVED: [[id:c9dc221f-56cc-439c-bd1c-1f0e4bfb95a3][disable CPU throttling for each core]]
 * refs
 ** some maybe-related Pianoteq threads
 *** https://forum.modartt.com/viewtopic.php?id=7098

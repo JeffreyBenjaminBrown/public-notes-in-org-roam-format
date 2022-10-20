@@ -6,3 +6,8 @@
 ** focus URL bar: F6
 ** move tab: Ctrl-Shift-Page (up|down)
    ala bubble sort
+* to disable autofill in Brave
+  :PROPERTIES:
+  :ID:       ef593ba9-6a7b-4992-b0a5-01f342a6b727
+  :END:
+  brave://settings/addresses?search=autofill

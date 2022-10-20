@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       72ceb545-15a3-4595-b6f5-d18158829c68
+:ROAM_ALIASES: BFPIG
+:END:
+#+title: Bogotá Functional Programming Interest Group
+* TODO [[id:efb16b7e-5be1-4990-8f2e-08d17eee3ccd][BFPIG, todo]]
+* the meetup
+  https://www.meetup.com/functional-programming-interest-group-at-puj/
+* papers of interest
+** Why Functional Programming Matters
+  https://github.com/papers-we-love/papers-we-love/blob/master/languages-paradigms/functional_programming/why-functional-programming-matters.pdf
+** Programming and Reasoning with Algebraic Effects and Dependent Types
+   https://www.type-driven.org.uk/edwinb/papers/effects.pdf
+** Propositions as Types
+   https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf
+** Derivatives of Types
+   https://github.com/papers-we-love/papers-we-love/blob/master/languages-theory/the-derivative-of-a-regular-type-one-hole-contexts.pdf
+* concepts of interest
+** Declarative programming
+** Strong types
+** Lazy evaluation
+** Dependent types
+** Algebraic data types
+** Algebraic effects
+** Recursion schemes
+** Proposition as types
+** Lenses
+* languages of interest
+** Haskell
+** Nix
+** Idris
+** Prolog
+** Purescript
+** Agda
+* programs of interest
+** NixOS
+** Nickel
+** Standard for Flakes
+** Nushell

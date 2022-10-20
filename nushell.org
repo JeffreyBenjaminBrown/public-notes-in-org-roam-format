@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       41078ddd-4ec0-45fe-a799-3f8d00aa81d8
-:ROAM_ALIASES: "Nu shell"
+:ROAM_ALIASES: "Nu shell" "Nushell"
 :END:
 #+title: NuShell
 * TODO RESUME here
@@ -11,6 +11,11 @@
 ** how to launch it
    Evaluate "nu" in a terminal.
 ** [[id:ec00b28d-ed95-4f51-a871-408432ae119f][Getting help in Nu.]]
+* [[id:bbdfdca4-a681-4e8e-aa63-e5b701c7ce27][Nu syntax]]
 * [[id:4dbfdf07-f760-403d-9bcf-cddd14154fd1][types in Nu]]
+* [[id:5da58f4b-df98-4c2b-8bdf-87ba1f07a068][evaluation in Nu]]
+* [[id:b4dc908e-68a5-4f64-ab65-20105484a3ae][Nu scripts]]
 * PITFALLS
+** [[id:ab12a1d1-e282-4dcb-b544-9ab765e209b1][Not every well-formed expression appears to have a type.]]
 ** [[id:9930ed50-577c-4efe-bafe-e99c2a4b1711][Nu builtins versus external-to-Nu commands.]]
+** evaluating a path P is like evaluating "cd P"

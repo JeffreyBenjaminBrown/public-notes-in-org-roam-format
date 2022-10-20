@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       90a20f51-beca-4954-b438-bc808714b403
+:END:
+#+title: strings in Nu
+* [[id:6b2aee61-ba79-4b3a-930c-37b1432bcf38][wildcards in Nu]]
+* [[id:19a72db8-b744-42b2-b8ff-6302f2c930a0][dynamic string construction in Nu]]

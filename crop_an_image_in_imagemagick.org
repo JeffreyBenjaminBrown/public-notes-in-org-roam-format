@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       514ef602-a034-4bfb-b9dc-f09de9adb639
+:END:
+#+title: crop an image in ImageMagick
+* serial
+** pick a base command
+   use "convert" to make a copy, "mogrify" to edit in-place
+** type `<base command> -crop WxH+X+Y
+*** where
+    W = width in pixels
+    H = height in pixels
+    X = how far right of top-left corner to start, in pixels
+    Y = how far below top-right corner to start, in pixels
+* example
+  convert -crop 354x354+0+0 headshot.jpg
+  (This makes it a square, and keeps the top-left corner.)
