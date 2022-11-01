@@ -5,7 +5,7 @@
 * TODO read [[id:f9b8a577-563a-47c6-a77f-11892ec5ccd2][La República]]
 * outer loop
 ** last time I reviewed
-   3
+   4
 ** inner loops
 *** odd times: Spanish questions, English answers
 **** last time I reviewed
@@ -45,7 +45,7 @@
       outline
 *** even times: English questions, Spanish answers
 **** last time I reviewed
-     1
+     2
 **** 1 mod 2
 ***** Waiter. Slang: Lover.
       mozo
@@ -56,6 +56,7 @@
 **** 2 mod 4
 ***** orientation, criteria
       lineamiento
+**** 4 mod 8
 ***** bad person
       cafre
 ***** question mark
