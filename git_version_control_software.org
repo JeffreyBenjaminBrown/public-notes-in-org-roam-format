@@ -35,3 +35,4 @@
    git pull --all
 ** source
    https://stackoverflow.com/a/10312587/916142
+* [[id:e6dc1949-5024-4fee-b031-7af412353a5e][diff (shell programming concept)]]

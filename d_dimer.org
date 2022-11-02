@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       abf2bab5-3090-4f8d-9ee6-952c298278ac
+:ROAM_ALIASES: "Dimero D"
+:END:
+#+title: D Dimer
+* The term in English and Spanish
+  D Dimer in English.
+  Dimero D in Spanish.
+* It is
+  (quoting Wikipedia)
+  a fibrin degradation product (or FDP),
+  a small protein fragment present in the blood
+  after a blood clot is degraded by fibrinolysis.
+* Its normal range for a healthy nonpregnant adult
+  is less than 500 µg/L or ng/mL.

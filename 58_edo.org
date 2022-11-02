@@ -2,6 +2,13 @@
 :ID:       92c1a793-a03b-4f27-9ca3-743448314c00
 :END:
 #+title: 58-edo
+* u
+** There's a diminished chord that's 13:8 wide in root position.
+   0 11 24 35
+** 7:4 + 5:4 = 13:8 + 4:3
+   i.e.
+   40  + 16  = 35   + 21
+** 3 x 7:6 = 11:8 + 4:3
 * tuning: 17-limit + 29 are all fantastic (sharp)
   (3 % 2    ,(34, 7034, 14.932749966815209))
   (5 % 4    ,(19, 3931, 67.89734411027212))

@@ -2,6 +2,28 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
+* u
+** melody
+*** Melodic octaves in the bass are cool.
+    e.g. 12-edo 0 7 7_ (where postfix _ means an octave below)
+** JI
+*** 39th harmonic = 13 * 3 ~ 343c
+*** 9:7 + 7 = 9:8
+    :PROPERTIES:
+    :ID:       98b32a18-d1ff-4a17-b648-f0859ad8ffd6
+    :END:
+*** multiplicative pitch: 1( 1, 3) + 9:7 (1 5 9) = a nice "maj b6"
+    in part because [[id:98b32a18-d1ff-4a17-b648-f0859ad8ffd6][9:7 + 7 = 9:8]]
+** chord families I like
+*** the diatonic scales
+*** the symmetric (12-edo) scales
+**** aug maj7 9 lives here
+**** dim maj7 9 lives here
+**** whole tone
+*** whole, dim, aug, quartal
+*** things with 11:8 or 13:8
+*** close and open voicings
+*** something weird in the bass
 * [[id:31e37165-32fa-4735-add7-433911de7329][audio plugins]]
 * [[id:f10c8fae-9ff5-44dd-ab56-7df68e81a988][my music gear]]
 * software for [[id:1e62cf8b-c5d2-42a4-b7d1-e3a10f37bee7][remote jamming]]

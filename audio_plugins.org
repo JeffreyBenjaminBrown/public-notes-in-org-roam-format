@@ -5,3 +5,4 @@
 * some formats
 ** [[id:3b1c4800-713a-41a5-9a65-55d83b51d03d][VST]]
 ** [[id:4d78f358-0dec-4a05-a271-96e51b05f780][LV2]]
+* [[id:a6ccbff6-5998-405f-b19f-44d29c36af2d][PD can be used as a plugin]]

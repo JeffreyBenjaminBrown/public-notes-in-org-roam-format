@@ -4,13 +4,15 @@
 #+title: programming languages
 * with properties I like
 ** [[id:cacfa0be-acc2-4628-bb21-81feb12ec268][Pharo]] looks amazing
-** [[id:8c3a9427-ea28-4d17-bb1f-c27012836646][Glicol (programming language for live coding music & graphs)]]
+** [[id:8663f460-bf38-4037-9a7f-f5b954639027][Flix]] looks amazing
+** [[id:8c3a9427-ea28-4d17-bb1f-c27012836646][Glicol (for live coding music & graphs)]]
+*** Optimized for live-coding => ugly syntax.
+    or so it looks
 ** [[id:784007e7-b851-4988-beaa-b8e4a9657357][Haskell]]
 ** [[id:3924c945-e600-453f-be00-b2fb24d65f17][Go (programming language)]]
 ** [[id:23f1e037-49c2-4fa1-acf6-a42b5703082a][Idris (programming language)]]
 ** Prolog
 ** Datalog
-** [[id:8663f460-bf38-4037-9a7f-f5b954639027][Flix (programming language)]]
 ** [[id:b46f994e-d01e-4b2f-903d-4f6a967dc68a][Hamler (programming language)]]
 ** [[id:0022503a-7ad9-4779-8006-661464de9f91][Gleam (programming language)]]
 ** [[id:2159ee76-0555-42ab-b09a-87db6313b559][Unison (programming language)]]

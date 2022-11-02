@@ -4,6 +4,7 @@
 :END:
 #+title: bash (shell)
 * [[id:41078ddd-4ec0-45fe-a799-3f8d00aa81d8][NuShell]]
+* [[id:e6dc1949-5024-4fee-b031-7af412353a5e][diff (shell programming concept)]]
 * [[id:65fa661f-8304-4a1b-b11c-0b927fca356f][how to change the Bash prompt]]
 * pipe stdout and stderr to the same file
   command >out 2>&1

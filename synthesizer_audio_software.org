@@ -6,3 +6,14 @@
 ** [[id:50c474b4-6dad-4c00-83a8-52a4830e72f2][Pianoteq]]
 ** [[id:5f3ea5e8-ba24-430b-addc-0acd74dbfe52][percussive physical modeling software]]
 ** [[id:b63e7d23-0866-4108-9975-0dbf16522c5d][Axe (my synth)]]
+* microtonal synths
+** my question on Facebook -> Microtonal Theory
+   https://www.facebook.com/groups/lumatone.keyboard/posts/5284192461689943/
+*** clear winner: Surge or Surge XT
+*** Aria
+*** Plogue Sforzando
+*** Hive
+*** Zebra
+*** Chromaphone
+*** String Studio
+* [[id:a6ccbff6-5998-405f-b19f-44d29c36af2d][PD can be used as a plugin]]

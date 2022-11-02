@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       efac7e01-b51a-4b87-b029-832cdb0bb977
+:ROAM_ALIASES: otorhinolaryngology
+:END:
+#+title: otorrinolaringología
+* [[id:d04113ae-8536-470f-8018-1c0c0e46aa56][otorinolaringología \ jbb]]
+* some anatomy
+** eustachian tube = trompa de eustachio
+   goes from the nose to the ear
+** nasal turbinates = cornetes nasales
+   are spongey globules in the nose,
+   sticking in from the outer side of each nostril
+** septum = tabique
+   divides the nose
+* [[id:828bbbab-2d4a-43fd-8139-7d45e216dc9d][A deviated septum can lead to sinus infections.]]
+* [[id:6e62e85e-2701-4928-ade1-b9f5dc51703f][Sinus problems can lead to ear infections.]]

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ac8c9b5f-396c-4a2e-b2cb-d7be59a29beb
+:ROAM_ALIASES: AFD
+:END:
+#+title: Agence Française de Développement
+* [[id:0d8d7d94-72c7-44c5-8dc7-58432c5bec6f][mtg with AFD ("French Development Bank"?), 2022-10-19-ish]]

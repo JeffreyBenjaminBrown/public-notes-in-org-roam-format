@@ -2,11 +2,14 @@
 :ID:       974d25f4-56a0-4dd9-a066-7790dd40d0f7
 :END:
 #+title: biology
-* [[id:16127b31-70f5-4098-a5c1-1df7cfc93128][bioinformatics]]
-* [[id:b4a6ab65-7303-49c6-8acd-4bcb5a68f7f8][human anatomy]]
-* [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
+* sub-disciplines
+** [[id:16127b31-70f5-4098-a5c1-1df7cfc93128][bioinformatics]]
+** [[id:b4a6ab65-7303-49c6-8acd-4bcb5a68f7f8][human anatomy]]
+** [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
+** [[id:185827a6-a19a-4da0-a251-897c41ef3a20][cell biology]]
+** [[id:7c70d045-6b4f-4957-a524-cf4c63204c84][neurology]]
+* [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep]]
 * [[id:6912dba3-ec0c-4a90-97c1-d8dd74496166][easy macroscopic DIY medicine]]
 * [[id:5c4aa81a-3cdf-47b9-a912-56f32e862b93][Astronauts can't drink soda.]]
 * [[id:09b82f96-2866-4f7a-81e1-c692f8ce77cb][Standing => narrow hips => humans give birth early => prolonged infancy.]]
 * [[id:17a7509c-9f40-4fb8-995f-3a8878c773c9][Intermittent fasting]] should reduce tooth rot.
-* [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep]]

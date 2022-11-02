@@ -3,6 +3,8 @@
 :END:
 #+title: Spanish vocabulary
 * TODO read [[id:f9b8a577-563a-47c6-a77f-11892ec5ccd2][La República]]
+* TODO read Muy Interesante
+  https://www.muyinteresante.es/
 * outer loop
 ** last time I reviewed
    4

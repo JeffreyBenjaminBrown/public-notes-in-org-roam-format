@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       21344c6b-0f97-4468-98f5-2ade2753bd61
+:END:
+#+title: For lower cholesterol, prefer filtered coffee.
+* PITFALL: only one ref
+  All of these notes are from the following single article.
+  https://www.webmd.com/cholesterol-management/coffee-cholesterol-connection
+* Coffee has no cholesterol, but has oily precursors.
+* Avoid French press, espresso, Turkish, etc.

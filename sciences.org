@@ -7,8 +7,8 @@
 * [[id:627da2c2-2f34-46ac-a6d3-9c625c4ff31d][artificial intelligence]]
 * [[id:5a9e5a9f-8e1b-4487-ba1d-51692d73dd89][astronomy]]
 * [[id:974d25f4-56a0-4dd9-a066-7790dd40d0f7][biology]]
+  Non-obvious subdisciplines:
 ** [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
-** [[id:7c70d045-6b4f-4957-a524-cf4c63204c84][neurology]]
 * [[id:001d7913-c431-461c-92ae-a6a39394856c][computer science]]
 * [[id:fc62e211-be72-469f-a543-2950c0e2c975][contrarianism]]
 * [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]

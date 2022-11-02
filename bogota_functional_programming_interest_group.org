@@ -7,6 +7,8 @@
 * the Meetup
   https://www.meetup.com/functional-programming-interest-group-at-puj/
 * papers of interest
+** Exhausting Infinity
+   https://www.danielbrice.net/blog/looking-for-a-needle-that-might-not-be-in-an-infinite-haystack/
 ** Why Functional Programming Matters
   https://github.com/papers-we-love/papers-we-love/blob/master/languages-paradigms/functional_programming/why-functional-programming-matters.pdf
 ** Programming and Reasoning with Algebraic Effects and Dependent Types

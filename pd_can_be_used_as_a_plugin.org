@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       a6ccbff6-5998-405f-b19f-44d29c36af2d
+:END:
+#+title: PD can be used as a plugin
+https://github.com/timothyschoen/PlugData

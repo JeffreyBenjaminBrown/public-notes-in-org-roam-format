@@ -3,3 +3,4 @@
 :END:
 #+title: sinuses (human biology)
 * [[id:ff009615-b90a-4cec-a645-c916f148bcb9][decongestant drugs]]
+* [[id:6e62e85e-2701-4928-ade1-b9f5dc51703f][Sinus problems can lead to ear infections.]]

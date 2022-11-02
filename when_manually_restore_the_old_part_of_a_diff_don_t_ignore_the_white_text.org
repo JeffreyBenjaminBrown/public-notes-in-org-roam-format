@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       1b920360-8742-4e28-85bb-93ce19723260
+:END:
+#+title: When manually restoring the old part of a diff, don't ignore the white text.
+It's the red plus the white that needs to be present,
+and the green gone -- not just the green gone and the red restored.
