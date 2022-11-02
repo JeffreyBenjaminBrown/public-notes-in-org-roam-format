@@ -7,6 +7,24 @@
 * [[id:1190dc3c-2977-42e7-892d-72d9031a34bd][41-edo Chapman Stick tunings]]
 * 2d isomorphic layouts
 ** Kite: 41 13 2
+    0 steps;  1 %  1; string 0; fret  0
+   41 steps;  2 %  1; string 3; fret  1
+   24 steps;  3 %  2; string 2; fret -1
+   13 steps;  5 %  4; string 1; fret  0
+   33 steps;  7 %  4; string 3; fret -3
+    7 steps;  9 %  8; string 1; fret -3
+   19 steps; 11 %  8; string 1; fret  3
+   29 steps; 13 %  8; string 3; fret -5
+   37 steps; 15 %  8; string 3; fret -1
+    4 steps; 17 % 16; string 0; fret  2
+   10 steps; 19 % 16; string 0; fret  5
+   16 steps; 21 % 16; string 2; fret -5
+   21 steps; 23 % 16; string 1; fret  4
+   26 steps; 25 % 16; string 2; fret  0
+   31 steps; 27 % 16; string 3; fret -4
+   35 steps; 29 % 16; string 3; fret -2
+   39 steps; 31 % 16; string 3; fret  0
+
 ** Narrow Kite: 41 11 2
 ** [[id:67465b81-c736-4430-bdbd-822106520f1b][Bosanquet: 7\41 x 3\41]]. A bit more* compact, easy 5-limit
 ** TODO [[id:6f359140-7398-4721-b1c3-51a8f7c681d4][6\41 x 1\41]] wide, very short, Lumatone-good
