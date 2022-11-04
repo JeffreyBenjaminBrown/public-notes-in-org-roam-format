@@ -7,8 +7,8 @@
   Learned during the install process for NixOS 20.09.
   Before I had it working I asked some questions here:
   https://discourse.nixos.org/t/nixos-20-09-fresh-vanilla-install-this-gpt-partition-label-contains-no-bios-boot-partition/9903/6
+* how to [[id:7a132233-bf78-4b3a-b191-0d79915612c7][burn an .iso file to a USB drive]]
 * [[id:79ff2c65-42a9-485a-aac4-53a2f1c1dc8b][Linux without a GUI]]
-* [[id:a8356007-6419-441c-80d8-97776cc64c08][burn an .iso file to a USB drive]]
 * PITFALLs
 ** My `~/ugh/une/code-ish/` might be confusing
    There are symlinks into that from, at least, these places:
@@ -25,7 +25,8 @@
    at least for my 2017 Dell, my 2018 Javeriana Lenovo, and earlier machines.
 ** TODO prepare data on old system
 *** see nix/jbb/bash/dot-files*
-    but that's missing some! e.g. below
+    but that's missing some!
+    e.g. below
 *** some dot files will not be part of my backup
     For instance, my ~/.stack/config.yaml file, because .stack/ is excluded from my backups.
 [[id:ff81a54a-4488-4ce2-b5b2-e372482e6631][PITFALL: my config outside of .nix files]]
@@ -56,7 +57,7 @@
    git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 ** [[id:89963126-0ff9-48f8-89f4-e65a3259a8f0][Konsole|Nix bug: undead config file]]
 * [[id:e38807e5-38c7-48e6-b8fa-f7388144b9b4][NixOS, bash commands to install, from the manual]]
-* handy commands, roughly ordered
+* handy commands while installing, roughly ordered
 ** wifi password
 ** check if the machine uses UEFI
    ls /sys/firmware/efi

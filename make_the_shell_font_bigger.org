@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       d6e97554-2f16-438b-957d-5c1bf8f45f2b
+:END:
+#+title: make the shell font bigger, how to
+* making the font bigger
+** setfont -d doubles font size on Linux when using no GUI.
+** `setfont ter-v32n` gives a biggish font, per the NixOS 22.05 manual
+** BLOCKED (was hard, not very fruitful)  To find a better font
+*** the idea
+    I copied some .psfu files from /nix/store to ~/fonts.
+    None of them were great.
+    The biggest was solar24x32.psfu,
+    but it's very thin, hard to read.
+*** the fonts I tried
+    setfont ~/fonts/solar24x32.psfu -d      # Very big, but thin.
+    setfont ~/fonts/default8x16.psfu -d     # The default -- same as `setfont -d`
+    setfont ~/fonts/viscii10-8x16.psfu -d   # Smaller than the default.
+    setfont ~/fonts/latarcyrheb-sun32.psfu  # does nothing
+    setfont ~/fonts/lat4-16.psfu -d         # does nothing
+    setfont ~/fonts/UniCyr_8x16.psf -d      # does nothing
+    setfont ~/fonts/drdos8x16.psfu -d       # throws an error

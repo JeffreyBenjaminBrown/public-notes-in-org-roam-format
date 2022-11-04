@@ -6,17 +6,23 @@
 * layouts
 ** TODO 5\46 x 2\46: Lumatone-good, 15-lim in 8x4
 *** layout
-    0  steps;  1 % 1; string 0; fret 0
-    8  steps;  9 % 8; string 0; fret 4
-                      string 2; fret -1
-    15 steps;  5 % 4; string 3; fret 0
-    21 steps; 11 % 8; string 3; fret 3
-                      string 5; fret -2
-    27 steps;  3 % 2; string 5; fret 1
-    32 steps; 13 % 8; string 6; fret 1
-    37 steps;  7 % 4; string 7; fret 1
-    42 steps; 15 % 8; string 8; fret 1
-    46 steps;  2 % 1; string 8; fret 3
+    00 steps; 01 %  1; string 0; fret 0
+    04 steps; 17 % 16; string 0; fret 2
+    08 steps; 09 %  8; string 0; fret 4 | string 2; fret -1
+    11 steps; 19 % 16; string 1; fret 3
+    15 steps; 05 %  4; string 3; fret 0
+    18 steps; 21 % 16; string 2; fret 4 | string 4; fret -1
+    21 steps; 11 %  8; string 3; fret 3 | string 5; fret -2
+    24 steps; 23 % 16; string 4; fret 2
+    27 steps; 03 %  2; string 5; fret 1
+    30 steps; 25 % 16; string 6; fret 0
+    32 steps; 13 %  8; string 6; fret 1
+    35 steps; 27 % 16; string 7; fret 0
+    37 steps; 07 %  4; string 7; fret 1
+    39 steps; 29 % 16; string 7; fret 2
+    42 steps; 15 %  8; string 8; fret 1
+    44 steps; 31 % 16; string 8; fret 2
+    46 steps; 02 %  1; string 8; fret 3
 *** comparison: very similar to [[id:a291f843-ee45-40e9-923e-badfe65654a7][6\58 x 5\58]]
     On average they both move up 127c each horizontal step.
     The 46-edo layout has much more convenient 5:4, 3:2 and 9:8.

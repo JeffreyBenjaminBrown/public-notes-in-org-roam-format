@@ -34,20 +34,7 @@
 * show all disks
 ** `lsblk`         : concise
 ** `sudo fdisk -l` : verbose
-* burn an .iso file to a USB drive
-  :PROPERTIES:
-  :ID:       a8356007-6419-441c-80d8-97776cc64c08
-  :END:
-  Use lsblk to determine which drive it is.
-  Make sure it's not mounted.
-  Then:
-    # PITFALL: This won't work, because sdxxx does not exist.
-    # Put something sensible there (see above).
-    sudo dd if=/path/to/the.iso of=/dev/sdxxx bs=1M
-
-  sudo dd if=/home/jeff/linux-distros/nixos-plasma5-21.11.334027.e34c5379866-x86_64-linux.iso \
-          of=/dev/sdb bs=1M
-** TODO above, should "of" be "sdb" or "sdb1"?
+* how to [[id:7a132233-bf78-4b3a-b191-0d79915612c7][burn an .iso file to a USB drive]]
 * format a partition with mkfs
   :PROPERTIES:
   :ID:       4953e1db-1fd6-4b62-b454-617de86117e5

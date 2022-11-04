@@ -2,54 +2,115 @@
 :ID:       e38807e5-38c7-48e6-b8fa-f7388144b9b4
 :END:
 #+title: NixOS, bash commands to install, from the manual
-* for NixOS 21.11
-** PITFALL: First find the drive name.
-   Here it's assumed to be /dev/sda.
-   But on the tiny server it's /dev/nvme0n1,
-   and /dev/sda is the disk that's running the installation OS!
-** partition
-   alternatives
-*** partition for UEFI
-    sudo parted /dev/sda -- mklabel gpt
-    sudo parted /dev/sda -- mkpart primary 512MiB -8GiB
-    sudo parted /dev/sda -- mkpart primary linux-swap -16GiB 100%
-    sudo parted /dev/sda -- mkpart ESP fat32 1MiB 512MiB
-    sudo parted /dev/sda -- set 3 esp on
-*** partition for MBR
-    sudo parted /dev/sda -- mklabel msdos
-    sudo parted /dev/sda -- mkpart primary 1MiB -8GiB
-    sudo parted /dev/sda -- mkpart primary linux-swap -24GiB 100%
-** PITFALL: Now find the partition names.
-   Here they are assumed to be /dev/sda<x>,
-   where <x> varies across partitions.
-   But on the tiny server it's /dev/nvme0n1p<x> --
-   note the `p` between the last 1 and the <x>.
-** format
-   serial
-*** Always make ext4 amd swap partitions.
-    sudo mkfs.ext4 -L nixos /dev/sda1
-    sudo mkswap -L swap /dev/sda2
-*** Only if using UEFI, make a boot partition.
-    sudo mkfs.fat -F 32 -n boot /dev/sda3
-** install
-   serial
-*** Always mount the target filesystem (i.e. where to install NixOS).
-    sudo mount /dev/disk/by-label/nixos /mnt
-*** Only if using UEFI, mount the boot file system.
-    sudo mkdir -p /mnt/boot
-    sudo mount /dev/disk/by-label/boot /mnt/boot
-*** Always enable swap and generate a config.
-    sudo swapon /dev/sda2
-    sudo nixos-generate-config --root /mnt
-    sudo jbb_magically_create_the_rest_of /mnt/etc/nixos/configuration.nix
-*** boot loader
+* PITFALL: First find the drive name.
+  Here it's assumed to be /dev/sda.
+  But on the tiny server it's /dev/nvme0n1,
+  and /dev/sda is the disk that's running the installation OS!
+* PITFALL: Substitute accurate partition names into these commands.
+  :PROPERTIES:
+  :ID:       7479bf91-f0f0-4260-9c71-b6a7a94fa009
+  :END:
+  I think `lsblk` should do it.
+  Here they are assumed to be /dev/sda<x>,
+  where <x> varies across partitions.
+  But on the tiny server it's /dev/nvme0n1p<x> --
+  note the `p` between the last 1 and the <x>.
+* recipes
+  alternatives
+** for NixOS 21.11
+*** partition
+    alternatives
+**** partition for UEFI
+     sudo parted /dev/sda -- mklabel gpt
+     sudo parted /dev/sda -- mkpart primary 512MiB -8GiB
+     sudo parted /dev/sda -- mkpart primary linux-swap -16GiB 100%
+     sudo parted /dev/sda -- mkpart ESP fat32 1MiB 512MiB
+     sudo parted /dev/sda -- set 3 esp on
+**** partition for MBR
+     sudo parted /dev/sda -- mklabel msdos
+     sudo parted /dev/sda -- mkpart primary 1MiB -8GiB
+     sudo parted /dev/sda -- mkpart primary linux-swap -24GiB 100%
+*** [[id:7479bf91-f0f0-4260-9c71-b6a7a94fa009][PITFALL: In the below, substitute accurate partition names into these commands.]]
+*** format
+    serial
+**** Always make ext4 amd swap partitions.
+     sudo mkfs.ext4 -L nixos /dev/sda1
+     sudo mkswap -L swap /dev/sda2
+**** Only if using UEFI, make a boot partition.
+     sudo mkfs.fat -F 32 -n boot /dev/sda3
+*** install
+    serial
+**** Always mount the target filesystem (i.e. where to install NixOS).
+     sudo mount /dev/disk/by-label/nixos /mnt
+**** Only if using UEFI, mount the boot file system.
+     sudo mkdir -p /mnt/boot
+     sudo mount /dev/disk/by-label/boot /mnt/boot
+**** Always enable swap and generate a config.
+     sudo swapon /dev/sda2
+     sudo nixos-generate-config --root /mnt
+     sudo jbb_magically_create_the_rest_of /mnt/etc/nixos/configuration.nix
+**** boot loader
+     alternatives
+***** if using UEFI
+      Will need this, but nixos-generate-config probably did it already.
+      boot.loader.systemd-boot.enable = true
+***** if using BIOS
+      sudo You_must_set_the_option boot.loader.grub.device to specify on which disk the GRUB boot loader is to be installed
+**** more
+     sudo nixos-install
+     type_the_root_password
+     sudo reboot
+** for NixOS 22.05
+*** start the GUI if needed
+    systemctl start display-manager
+*** set up internet if needed
+    When the GUI installer didn't work on my 2022-new PUJ desktop,
+    I ran `nmtui`, deleted all existing connections,
+    created a new ethernet connection,
+    accepted all the defaults,
+    and although I still couldn't ping google.com,
+    I was able to curl https://linuxhint.com
+*** partition
     alternatives
 **** if using UEFI
-     Will need this, but nixos-generate-config probably did it already.
-     boot.loader.systemd-boot.enable = true
-**** if using BIOS
-     sudo You_must_set_the_option boot.loader.grub.device to specify on which disk the GRUB boot loader is to be installed
-*** more
-    sudo nixos-install
-    type_the_root_password
-    sudo reboot
+     You can safely ignore parted's informational message about needing to update /etc/fstab.
+     swap_size=256GB
+       # I'm giving this (my PUJ desktop) a lot of swap,
+       # because I'm short on RAM,
+       # and the 1 TB SDD is way more than I need.
+     parted /dev/sda -- mklabel gpt
+     parted /dev/sda -- mkpart primary             512MB      -$swap_size
+     parted /dev/sda -- mkpart primary linux-swap -$swap_size 100%
+     parted /dev/sda -- mkpart ESP fat32 1MB 512MB
+     parted /dev/sda -- set 3 esp on
+**** if using Legacy Boot
+     swap_size=256GB
+       # I'm giving this (my PUJ desktop) a lot of swap,
+       # because I'm short on RAM,
+       # and the 1 TB SDD is way more than I need.
+     parted /dev/sda -- mklabel msdos
+     parted /dev/sda -- mkpart primary            1MB         -$swap_size
+     parted /dev/sda -- mkpart primary linux-swap -$swap_size 100%
+*** [[id:7479bf91-f0f0-4260-9c71-b6a7a94fa009][PITFALL: In the below, substitute accurate partition names into these commands.]]
+*** format
+    mkfs.ext4 -L theFileSystem /dev/sda1 # theFileSystem is an arbitrary name
+    mkswap -L swap /dev/sda2
+**** only if using UEFI
+     mkfs.fat -F 32 -n boot /dev/sda3
+*** install
+    serial
+**** mount /dev/disk/by-label/theFileSystem /mnt
+**** if using UEFI, mount the boot system
+     mkdir -p /mnt/boot
+     mount /dev/disk/by-label/boot /mnt/boot
+**** more
+     swapon /dev/sda2
+     nixos-generate-config --root /mnt
+     <edit that config>
+**** boot loader
+***** if using BIOS
+      In the configuration, set `boot.loader.grub.device`.
+***** if using UEFI
+      boot.loader.systemd-boot.enable
+**** nixos-install
+**** reboot

@@ -238,19 +238,18 @@
     27 steps; 11 % 08; string  2;  fret 3
     30 steps; 23 % 16; string  5;  fret 0
     34 steps; 03 % 02; string  4;  fret 2
+    37 steps; 25 % 16; string  2;  fret 5
     41 steps; 13 % 08; string  6;  fret 1
+    44 steps; 27 % 16; string  4;  fret 4
     47 steps; 07 % 04; string  7;  fret 1
+    50 steps; 29 % 16; string  5;  fret 4
     53 steps; 15 % 08; string  8;  fret 1
+    55 steps; 31 % 16; string  5;  fret 5
     58 steps; 02 % 01; string  8;  fret 2
 
-    Since the octave is at (8,-2),
+    Since the octave is at (8,2),
     harmonics 27, 29 and 31 are easier to reach than they appear.
     (And harmonic 29 blends great with the 17-limit.)
-
-    37 steps; 25 % 16; string 2; fret 5
-    44 steps; 27 % 16; string 4; fret 4
-    50 steps; 29 % 16; string 5; fret 4
-    55 steps; 31 % 16; string 5; fret 5
 *** TODO how I would map it to the Lumatone
     Strings obviously increase going rightward horizontal-ish.
     Frets could either increase going down, or going left-up.

@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       da86234d-a3cc-4a8d-a5e3-4d9f51a0aa91
+:END:
+#+title: Lumatone settings, my
+* using
+**  1 : 41edo.6right.-1downright.ltn
+**  2 : 41edo.6right.-1downright.+22notes.ltn
+**  3 : 58edo.6right.11downright.ltn
+**  4 : 58edo.6right.11downright.+15notes.ltn
+**  5 : 12edo.4right.5downright.+60notes.ltn
+**  6 : 24edo.5right.4downright.ltn
+**  7 : 31edo.5right.3downright.ltn
+**  8 : 46edo.5right.7downright.ltn
+**  9 : 50edo.8right.5downright.ltn
+** 10 : 53edo.9right.4downright.ltn
+* skipping
+  41edo.7right.3downright.+9notes.+1channels.ltn
+  41edo.7right.3downright.ltn
+  50edo.8right.5downright.+20notes.ltn
+  53edo.9right.4downright.+11notes.+1channels.ltn

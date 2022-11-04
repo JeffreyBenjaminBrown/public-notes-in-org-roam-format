@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       7a132233-bf78-4b3a-b191-0d79915612c7
+:END:
+#+title: burn an .iso file to a USB drive, how to
+* how
+  Use lsblk to determine which drive it is.
+  Make sure it's not mounted.
+  Don't write to a partition (e.g. sdb1);
+    rather, write to the drive completely (sdb).
+  Then:
+    # PITFALL: This won't work, because sdxxx does not exist.
+    # Put something sensible there (see above).
+    sudo dd if=/path/to/the.iso of=/dev/sdxxx bs=1M
+  Example:
+    sudo dd \
+      if=/home/jeff/linux-distros/nixos-plasma5-21.11.334027.e34c5379866-x86_64-linux.iso \
+      of=/dev/sdb \
+      bs=1M
