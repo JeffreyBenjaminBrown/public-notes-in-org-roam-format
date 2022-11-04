@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       3d989a3a-244a-4041-800a-3456c3b21b31
+:END:
+#+title: NixOS 21.11, bash commands to install, from the manual
+* partition
+  alternatives
+** partition for UEFI
+   sudo parted /dev/sda -- mklabel gpt
+   sudo parted /dev/sda -- mkpart primary 512MiB -8GiB
+   sudo parted /dev/sda -- mkpart primary linux-swap -16GiB 100%
+   sudo parted /dev/sda -- mkpart ESP fat32 1MiB 512MiB
+   sudo parted /dev/sda -- set 3 esp on
+** partition for MBR
+   sudo parted /dev/sda -- mklabel msdos
+   sudo parted /dev/sda -- mkpart primary 1MiB -8GiB
+   sudo parted /dev/sda -- mkpart primary linux-swap -24GiB 100%
+* [[id:7479bf91-f0f0-4260-9c71-b6a7a94fa009][PITFALL: In the below, substitute accurate partition names into these commands.]]
+* format
+  serial
+** Always make ext4 amd swap partitions.
+   sudo mkfs.ext4 -L nixos /dev/sda1
+   sudo mkswap -L swap /dev/sda2
+** Only if using UEFI, make a boot partition.
+   sudo mkfs.fat -F 32 -n boot /dev/sda3
+* install
+  serial
+** Always mount the target filesystem (i.e. where to install NixOS).
+   sudo mount /dev/disk/by-label/nixos /mnt
+** Only if using UEFI, mount the boot file system.
+   sudo mkdir -p /mnt/boot
+   sudo mount /dev/disk/by-label/boot /mnt/boot
+** Always enable swap and generate a config.
+   sudo swapon /dev/sda2
+   sudo nixos-generate-config --root /mnt
+   sudo jbb_magically_create_the_rest_of /mnt/etc/nixos/configuration.nix
+** boot loader
+   alternatives
+*** if using UEFI
+    Will need this, but nixos-generate-config probably did it already.
+    boot.loader.systemd-boot.enable = true
+*** if using BIOS
+    sudo You_must_set_the_option boot.loader.grub.device to specify on which disk the GRUB boot loader is to be installed
+** more
+   sudo nixos-install
+   type_the_root_password
+   sudo reboot

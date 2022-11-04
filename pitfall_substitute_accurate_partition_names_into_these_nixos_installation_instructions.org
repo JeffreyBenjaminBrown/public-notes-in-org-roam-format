@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       62d16a7f-33ab-402d-a8d2-d659a53caeac
+:END:
+#+title: PITFALL: Substitute accurate partition names into these NixOS installation instructions.
+PITFALL: Redundant nesting. Backlinks are to the title below,
+         not the one above.
+* Substitute accurate partition names into these NixOS installation instructions.
+  :PROPERTIES:
+  :ID:       7479bf91-f0f0-4260-9c71-b6a7a94fa009
+  :END:
+** I think `lsblk` should do the trick.
+** In these instructions, they are assumed to be /dev/sda<x>,
+   where <x> varies across partitions.
+   But on the tiny server it's /dev/nvme0n1p<x> --
+   note the `p` between the last 1 and the <x>.
+** Partitions of that drive sometimes end in pN rather than N
+   where N is some low integer.
+   I suspect the `p` is inserted when the name of the drive ends in a number
+   -- e.g. `nvme0n1` becomes `nvme0n1p2`
+   where `sda` would have just become `sda2`.
