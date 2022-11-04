@@ -6,6 +6,11 @@
   Here it's assumed to be /dev/sda.
   But on the tiny server it's /dev/nvme0n1,
   and /dev/sda is the disk that's running the installation OS!
+** Partitions of that drive sometimes end in pN rather than N
+   where N is some low integer.
+   I suspect the `p` is inserted when the name of the drive ends in a number
+   -- e.g. `nvme0n1` becomes `nvme0n1p2`
+   where `sda` would have just become `sda2`.
 * PITFALL: Substitute accurate partition names into these commands.
   :PROPERTIES:
   :ID:       7479bf91-f0f0-4260-9c71-b6a7a94fa009
@@ -74,15 +79,15 @@
     alternatives
 **** if using UEFI
      You can safely ignore parted's informational message about needing to update /etc/fstab.
-     swap_size=256GB
+     swap_size=64GB
        # I'm giving this (my PUJ desktop) a lot of swap,
        # because I'm short on RAM,
        # and the 1 TB SDD is way more than I need.
-     parted /dev/sda -- mklabel gpt
-     parted /dev/sda -- mkpart primary             512MB      -$swap_size
-     parted /dev/sda -- mkpart primary linux-swap -$swap_size 100%
-     parted /dev/sda -- mkpart ESP fat32 1MB 512MB
-     parted /dev/sda -- set 3 esp on
+     sudo parted /dev/sda -- mklabel gpt
+     sudo parted /dev/sda -- mkpart primary             512MB      -$swap_size
+     sudo parted /dev/sda -- mkpart primary linux-swap -$swap_size 100%
+     sudo parted /dev/sda -- mkpart ESP fat32 1MB 512MB
+     sudo parted /dev/sda -- set 3 esp on
 **** if using Legacy Boot
      swap_size=256GB
        # I'm giving this (my PUJ desktop) a lot of swap,
@@ -93,24 +98,24 @@
      parted /dev/sda -- mkpart primary linux-swap -$swap_size 100%
 *** [[id:7479bf91-f0f0-4260-9c71-b6a7a94fa009][PITFALL: In the below, substitute accurate partition names into these commands.]]
 *** format
-    mkfs.ext4 -L theFileSystem /dev/sda1 # theFileSystem is an arbitrary name
-    mkswap -L swap /dev/sda2
+    sudo mkfs.ext4 -L theFileSystem /dev/sdap1 # theFileSystem is an arbitrary name
+    sudo mkswap -L swap /dev/sdap2
 **** only if using UEFI
-     mkfs.fat -F 32 -n boot /dev/sda3
+     sudo mkfs.fat -F 32 -n boot /dev/sdap3
 *** install
     serial
-**** mount /dev/disk/by-label/theFileSystem /mnt
+**** sudo mount /dev/disk/by-label/theFileSystem /mnt
 **** if using UEFI, mount the boot system
-     mkdir -p /mnt/boot
-     mount /dev/disk/by-label/boot /mnt/boot
+     sudo mkdir -p /mnt/boot
+     sudo mount /dev/disk/by-label/boot /mnt/boot
 **** more
-     swapon /dev/sda2
-     nixos-generate-config --root /mnt
+     sudo swapon /dev/sdap2
+     sudo nixos-generate-config --root /mnt
      <edit that config>
 **** boot loader
 ***** if using BIOS
       In the configuration, set `boot.loader.grub.device`.
 ***** if using UEFI
       boot.loader.systemd-boot.enable
-**** nixos-install
+**** sudo nixos-install
 **** reboot
