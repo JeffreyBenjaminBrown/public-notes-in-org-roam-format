@@ -162,3 +162,4 @@
 ** Can configure what moves the "Play cursor"
    see section "Managing the Play Cursor"
 ** Alt-C: toggle the Big Clock
+* [[id:0e6f36d3-2397-4ce9-b8dd-51911cac36dc][the microtonal piano roll feature request I filed for Reaper]]

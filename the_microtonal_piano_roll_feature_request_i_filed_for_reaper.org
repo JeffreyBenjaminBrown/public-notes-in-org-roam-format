@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       0e6f36d3-2397-4ce9-b8dd-51911cac36dc
+:END:
+#+title: the microtonal piano roll feature request I filed for Reaper
+* the FR on the Reaper forum
+  https://forum.cockos.com/showthread.php?p=2612124&fbclid=IwAR1RizIniTvlhsWSnUrxWbfKBamG6DDtcPhUbxmmdg86fmCMXV3Zv8N3nus#post2612124
+* the Facebook post about it
+  https://www.facebook.com/groups/497105067092502/posts/2646927878776866
