@@ -3,6 +3,7 @@
 :ROAM_ALIASES: information epistemology ontology "organizing knowledge"
 :END:
 #+title: knowledge graphs
+* [[id:25e13f6c-b134-4305-a4d5-327739dd7b8f][some graph databases with Datalog engines]]
 * A thread on resources for learning about how to create an ontology
 ** https://twitter.com/Mappletons/status/1583350653933748224?t=XAoP8v8ktyZ7xeDf_qfGHA&s=19
 * TODO [[id:f9ee18e9-68f2-4f10-b10d-c91186b797e3][Agora (shared knowledge base (cprotocol))]]

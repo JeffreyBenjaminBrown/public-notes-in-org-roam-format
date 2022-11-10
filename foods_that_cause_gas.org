@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       b6e7fb70-0964-4305-8c1c-e379f1ad779a
+:END:
+#+title: foods that cause gas
+or that I suspect cause gas
+* oatmeal (!)
+* milk
+* pork
+* cruciferous vegetables
+* beans

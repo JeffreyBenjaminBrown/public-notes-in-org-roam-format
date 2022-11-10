@@ -2,8 +2,24 @@
 :ID:       c9dc221f-56cc-439c-bd1c-1f0e4bfb95a3
 :END:
 #+title: disable CPU throttling for each core
-# as described in Pianoteq Linux README
-sudo cpufreq-set -c 0 -g performance
-sudo cpufreq-set -c 1 -g performance
-sudo cpufreq-set -c 2 -g performance
-sudo cpufreq-set -c 3 -g performance
+* how to do it
+** This is shorter and probably works too
+   sudo cpufreq-set -r -g performance
+** I know this works
+   serial
+*** run a throwaway sudo
+    # First evaluate this,
+    # as a separate block of input text,
+    # so that my password is not clobbered
+    # by the subsequent commands.
+    sudo ls
+*** do it
+    # as described in Pianoteq Linux README
+    sudo cpufreq-set -c 0 -g performance
+    sudo cpufreq-set -c 1 -g performance
+    sudo cpufreq-set -c 2 -g performance
+    sudo cpufreq-set -c 3 -g performance
+* how to undo it
+  Do like above, but substitute `powersave` for `performance`.
+  There are other options too:
+  https://www.kernel.org/doc/Documentation/cpu-freq/governors.txt

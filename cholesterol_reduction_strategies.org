@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       6422ff08-978c-40b0-b511-e6eef32930ee
+:END:
+#+title: cholesterol reduction strategies
+* Take whey protein
+* Exercise most days
+* Fast sometimes
+* Get sun
+* Avoid these foods
+** meat
+** dairy
+** coconut (oil or fruit)
+** [[id:21344c6b-0f97-4468-98f5-2ade2753bd61][unfiltered coffee]]
+   espresso, french press, Turkish coffee
+** sugar
+** high-fat foods
+** alcohol
+* Target certain foods
+  nuts
+  oatmeal
+  apples
+  brussel sprouts
+  fish

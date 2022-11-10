@@ -10,8 +10,10 @@
 ** efrain.ortiz@javeriana.edu.co
    I thought he was the director of CS,
    but can't find that now.
-** message
-Subject: Functional Programming Interest Group
+* messages
+** [[id:fcb5d205-bb45-456a-b27c-ad67acd01643][to Juanita]]
+** to strangers
+   Subject: Functional Programming Interest Group
 
 Buenas noches Dr. Bustacara,
 

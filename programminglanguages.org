@@ -12,8 +12,10 @@
 ** [[id:3924c945-e600-453f-be00-b2fb24d65f17][Go (programming language)]]
 ** [[id:23f1e037-49c2-4fa1-acf6-a42b5703082a][Idris (programming language)]]
 ** Prolog
-** Datalog
+** [[id:46736b7c-2aea-4b54-bbcf-eeb10330f29f][Datalog]]
+*** [[id:87872121-b3f2-49f0-a0b4-2301843c9412][Cozo (graph db with Datalog query language)]]
 ** [[id:b46f994e-d01e-4b2f-903d-4f6a967dc68a][Hamler (programming language)]]
 ** [[id:0022503a-7ad9-4779-8006-661464de9f91][Gleam (programming language)]]
 ** [[id:2159ee76-0555-42ab-b09a-87db6313b559][Unison (programming language)]]
 ** [[id:0a492cdb-c234-48e2-bad8-b6afdd028cfb][Orca (text cellular automata language for music)]]
+** [[id:7d6fb4d3-b3c4-4da3-9478-c8c711886710][Nickel (configuration language)]]

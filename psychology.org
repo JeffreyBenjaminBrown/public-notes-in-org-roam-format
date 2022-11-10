@@ -2,6 +2,7 @@
 :ID:       9b40c46b-bd16-4003-8a9e-763f5a7dbc22
 :END:
 #+title: psychology
+* [[id:73e229ee-a416-41db-a23a-4d960b2e559f][socializing, systematic]]
 * [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
 * [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 * [[id:13aba0e9-33c1-4f2b-906c-4ab3ab683522][emotional ambition]]

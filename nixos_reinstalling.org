@@ -7,6 +7,21 @@
   Learned during the install process for NixOS 20.09.
   Before I had it working I asked some questions here:
   https://discourse.nixos.org/t/nixos-20-09-fresh-vanilla-install-this-gpt-partition-label-contains-no-bios-boot-partition/9903/6
+* TODO every time
+** update system-minimal and system-<target> in nix/jbb
+   before copying it to the new system
+** save data, and shuttle some of it to the new system during installation
+   Brave passwords
+   files
+     ~/nix/jbb
+     org-roam/tech/nixos_reinstalling.org
+     org-roam/tech/nixos_my_config_imperative_elements.org
+     org-roam/tech/nixos_my_config.org
+     org-roam/tech/how-to-reinstall-linux.org
+     org-roam/tech/nixos_bash_commands_to_install_from_the_manual.org
+     org-roam/pers/temp.org
+     org-roam/pers/jbb.org
+** surely more -- see the rest of these notes
 * how to [[id:7a132233-bf78-4b3a-b191-0d79915612c7][burn an .iso file to a USB drive]]
 * [[id:79ff2c65-42a9-485a-aac4-53a2f1c1dc8b][Linux without a GUI]]
 * PITFALLs

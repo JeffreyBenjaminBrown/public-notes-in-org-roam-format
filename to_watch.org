@@ -13,16 +13,9 @@
 * Tyler Cowen on Adam Smith and Colombia
   https://www.youtube.com/watch?v=41CGc47MraY
   Resume at 8:22
-* Love death and robots
-  5-10 minute scifi shorts, very high-quality animttion.
-  Adrian rec's highly.
-  On Netflix.
 * Scott Pilgrim vs. The World
   Weird.
   (Andres?), who I met that day, recommended after watching "Everything Everywhere ..."
-* Kingsman
-  Weird.
-  Grace, who I met that day, recommended after watching "Everything Everywhere ..."
 * Undone (series, Amazon Prime)
   Rabidly rec'd by Dominique Lewis on Facebook.
 * The Americans (series, Netflix)
@@ -30,7 +23,7 @@
 * Ellen sends how to make a smokeless wood stove
   https://mail.google.com/mail/u/0/#inbox/FMfcgzGpFgqmWWJBrNjjXstgfpLncrhV
 * [[id:cbaf750e-4098-45bc-9e66-b7d00092faff][Mary Queen of Scots]]
-* Patria, movie about Mexican revolution
+* TODO Patria, movie about Mexican revolution
 ** Cliff rec's
 ** There's also a series, probably something else.
 * Cliff on USAID, 53 min
@@ -67,8 +60,19 @@
 ** Hulu
 *** Steven Universe
     Happy.
-* Uncle Boonmee Who Can Recall His Past Lives
-** not available on Amazon Prime in Colombia
+* TODO Uncle Boonmee Who Can Recall His Past Lives
+** available on Netflix
 ** description
    Thai film, weird, complex.
    Tyler Cowen said maybe the best movie of the last 20 years (in Dec 2021).
+* BLOCKED bad reviews
+** Kingsman
+   Weird.
+   Grace, who I met that day, recommended after watching "Everything Everywhere ..."
+   Sandy didn't like it.
+* DONE
+** Love death and robots
+   Watched a lot of them. Very hit or miss.
+   5-10 minute scifi shorts, very high-quality animttion.
+   Adrian rec's highly.
+   On Netflix.

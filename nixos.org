@@ -3,6 +3,8 @@
 :ROAM_ALIASES: NixOS
 :END:
 #+TITLE: NixOS (operating system)
+* [[id:8216a071-2341-4866-a716-54e77baa8f2f][Nix (configuration language)]]
+* TODO [[id:27ec44e3-e227-489e-8437-36c9f3807fda][Error: "Unit window-manager not found"]]
 * REFERENCES
 ** interactive help
 *** from bash

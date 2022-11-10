@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       4f619fa5-d89d-45ea-b742-1834a120c635
+:ROAM_ALIASES: "delete data"
+:END:
+#+title: shred (Bash command) : delete data for real
+* recursive shred for Linux
+  find <dir> -type f -exec shred -zvu -n 5 {} \;
+  # This shreds every file 5 times.

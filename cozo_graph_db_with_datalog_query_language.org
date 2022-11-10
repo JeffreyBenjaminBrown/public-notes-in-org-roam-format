@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       87872121-b3f2-49f0-a0b4-2301843c9412
+:END:
+#+title: Cozo (graph db with Datalog query language)
+https://github.com/cozodb/cozo
+* Open-source.
+* Very pretty.

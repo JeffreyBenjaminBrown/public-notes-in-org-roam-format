@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8216a071-2341-4866-a716-54e77baa8f2f
+:END:
+#+title: Nix (configuration language)
+* [[id:0398d7c0-5ec1-4fe7-9303-74c0c6308643][writing and using Nix expressions]]
+* [[id:7d6fb4d3-b3c4-4da3-9478-c8c711886710][Nickel (configuration language)]] to Nix might be easier.

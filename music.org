@@ -24,6 +24,10 @@
 *** things with 11:8 or 13:8
 *** close and open voicings
 *** something weird in the bass
+** What is this 72-edo layout Paul Erlich suggested?
+   Look at the image here, then use MTV to figure out what the axes are.
+   https://www.semanticscholar.org/paper/The-Miracle-Temperament-and-Decimal-Keyboard-by-Secor/eab6a60876e19cfedb0cb6dfdc6c8411fb4e7c03
+   https://www.facebook.com/groups/497105067092502/posts/2418837091585947/?comment_id=2421947377941585&reply_comment_id=2543774635758858&notif_id=1658245236030103&notif_t=group_comment_mention
 * [[id:31e37165-32fa-4735-add7-433911de7329][audio plugins]]
 * [[id:f10c8fae-9ff5-44dd-ab56-7df68e81a988][my music gear]]
 * software for [[id:1e62cf8b-c5d2-42a4-b7d1-e3a10f37bee7][remote jamming]]

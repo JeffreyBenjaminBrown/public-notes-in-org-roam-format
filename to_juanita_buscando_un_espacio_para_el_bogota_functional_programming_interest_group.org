@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       fcb5d205-bb45-456a-b27c-ad67acd01643
+:END:
+#+title: to Juanita Medina: Buscando un espacio para el Bogotá Functional Programming Interest Group
+Subject: Buscando un espacio para el Bogotá Functional Programming Interest Group
+
+Buenas noches, Juanita! Como vas?
+
+Acabo de lanzar con unos amigos un Meetup llamado Bogotá Functional Programming Interest Group: https://www.meetup.com/functional-programming-interest-group-at-puj/. Estuve preguntando a decanos de varios departamentos para conseguir un espacio donde nos podríamos encontrar regularmente, sin suerte. Por acaso, acabo de cenar con Daniel Duque, y el me dijo que yo puedo pedir esto a ti!
+
+Entiendo que los cupos para este semestre están ya gastados. Pero cuando séa posible, quisieramos un espacio de 2.5 horas, digamos de 7 a 9:30 pm el último jueves de cada mes, o si es muy exitoso tal vez el jueves cada 14 días.
+
+El grupo fue hecho abierto al público. Nisiquiera lo hemos difundido mucho y ya tenemos 27 miembros. Yo no sé cuantos van a unirse una vez lo compartimos con más gente, entonces es posible que necesitamos un espacio grande.
+
+Si ayuda, podemos poner el nombre de la U en el nombre del grupo, tal cual como hace el Observatorio Fiscal.
+
+Un cordial saludo,
+Jeff

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       1dba3fae-2bc8-4cbf-9c7f-177ee85a4314
+:END:
+#+title: The better an organization is, the more measuring their performance decreases it.
+* source
+  https://twitter.com/paulg/status/1582715435031502848
