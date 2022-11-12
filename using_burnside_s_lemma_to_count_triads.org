@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       debcbfa7-0234-4398-ad2f-0a02c71acde6
+:END:
+#+title: using Burnside's lemma to count triads
+* interpreting the theorem for music
+  In this application a "coloring" is an assignment of 1s and 0s to the 12 tones such that 3 of them are 1 and the rest are 0. An "orbit" is a set of colorings that can be mapped to each other by one of the symmetries. The symmetries can be labeled +0 (the identity), +1, +2 ... +11.
+* triads in 12-edo
+  Let the 12 transpositional symmetries be labeled +0, +1, +2 ... +11
+  |orbits| = (1/12) * sum of
+    [ +0 = identity -> 12 choose 3 = 220
+    , +1            -> 0
+    , +2            -> 0
+    , +3            -> 0
+    , +4            -> 4 (there are 4 augmented chords, which are the only ones fixed under the transformation +4)
+    , +5            -> 0
+    , +6            -> 0
+    , +7            -> 0
+    , +8            -> 4 (the augmented chords again)
+    , +9            -> 0
+    , +10           -> 0
+    , +11           -> 0 ]
+    = 228 / 12
+    = 19
+* triads in 41-edo
+  orbits = (1/41) *
+           sum [ 0               -> 41 choose 3 = 10660
+               , everything else -> 0 ]
+    = 10660 / 41 = 260

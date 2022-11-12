@@ -99,10 +99,13 @@
       :ID:       1da95b19-e3e2-4c6f-bea3-bc9e25e7336c
       :END:
 ****** 21u
+       the only treble string to buy
 ****** 82
 ****** 61
 ****** 51
 ****** 39
 ****** 28
-****** 20.5u (buy a 21u; have a 20u already)
+****** 21u
+       The math said I want a 20.5u.
+       I have a 20u already.
 *** about [[id:0de5fa0c-4909-4097-8334-d3e7de37bd2f][Kalium strings]]

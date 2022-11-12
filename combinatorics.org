@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       05e27068-7ab8-4c26-9a83-3cf1b64d1e68
+:END:
+#+title: combinatorics
+* [[id:edb6b9ea-15dc-4c33-97ed-5e33e52db51e][Burnside's lemma: Count distinct colorings modulo symmetries]]

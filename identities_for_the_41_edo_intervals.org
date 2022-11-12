@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       af2b88e3-b8fd-4205-a17d-32e14585cc40
+:END:
+#+title: identities for the 41-edo intervals
+* 15\41
+  = inverse (25/16) = 9/7
+  = 2/1 - 2*(5/4) -- what's left of an octave after two major thirds
+* 10\41
+  = inverse (27/16)
+  = 13/11
+  = 19/16

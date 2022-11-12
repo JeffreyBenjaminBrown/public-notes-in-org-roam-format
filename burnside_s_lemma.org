@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       edb6b9ea-15dc-4c33-97ed-5e33e52db51e
+:END:
+#+title: Burnside's lemma: Count distinct colorings modulo symmetries
+* Its purpose
+  is to count the number of distinct orbits of a set of colorings of a space subject to a set of symmetries -- for instance, the number of distinct ways of coloring a cube.
+* PITFALL: the set of colorings does not have to be all possible colorings.
+  For instance, this can be used to count triads in 12-edo.
+  To do so, you consider the set of 2-colorings for which
+  3 spots are colored 1 and the rest 0.
+* the theorem
+  Given a set C of colorings:
+    |orbits| = (1 / |symmetries|) *
+               sum over each symmetry g of |colorings in C fixed by g|
+* [[id:debcbfa7-0234-4398-ad2f-0a02c71acde6][using Burnside's lemma to count triads]]

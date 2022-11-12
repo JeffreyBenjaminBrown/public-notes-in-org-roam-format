@@ -2,7 +2,7 @@
 :ID:       6422ff08-978c-40b0-b511-e6eef32930ee
 :END:
 #+title: cholesterol reduction strategies
-* Take whey protein
+* TODO Take whey protein
 * Exercise most days
 * Fast sometimes
 * Get sun
@@ -10,14 +10,26 @@
 ** meat
 ** dairy
 ** coconut (oil or fruit)
+** no coffee
+   said Dra. Majjul,
+   but when I reacted in shock she seemed to weaken that stance
 ** [[id:21344c6b-0f97-4468-98f5-2ade2753bd61][unfiltered coffee]]
    espresso, french press, Turkish coffee
 ** sugar
+   fruit is okay, says Dra. Majjul
 ** high-fat foods
 ** alcohol
+** TODO if bread, without gluten
+** TODO evitar cerdo, bagre y mariscos
 * Target certain foods
-  nuts
-  oatmeal
-  apples
-  brussel sprouts
-  fish
+** nuts
+** oatmeal
+** apples
+** brussel sprouts
+** fish
+** una harina por comida
+   says Dra. Majjul
+** between meals, nuts, dried fruits
+** good harinas: arroz, papa, platano, yuca, guatila, maiz, avena
+   there's a panaderia called "El Mejor Pan de Colombia",
+   Cl 148 & Av 19, venden sin glutenes
