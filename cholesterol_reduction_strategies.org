@@ -6,20 +6,20 @@
 * Exercise most days
 * Fast sometimes
 * Get sun
-* Avoid these foods
+* TODO Avoid these foods
 ** meat
 ** dairy
 ** coconut (oil or fruit)
-** no coffee
+** TODO ? no coffee
    said Dra. Majjul,
    but when I reacted in shock she seemed to weaken that stance
-** [[id:21344c6b-0f97-4468-98f5-2ade2753bd61][unfiltered coffee]]
+** prefer [[id:21344c6b-0f97-4468-98f5-2ade2753bd61][unfiltered coffee]]
    espresso, french press, Turkish coffee
 ** sugar
    fruit is okay, says Dra. Majjul
 ** high-fat foods
 ** alcohol
-** TODO if bread, without gluten
+** TODO if bread, no gluten
 ** TODO evitar cerdo, bagre y mariscos
 * Target certain foods
 ** nuts
@@ -33,3 +33,4 @@
 ** good harinas: arroz, papa, platano, yuca, guatila, maiz, avena
    there's a panaderia called "El Mejor Pan de Colombia",
    Cl 148 & Av 19, venden sin glutenes
+* TODO ? CBD oil

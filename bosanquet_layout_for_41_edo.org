@@ -14,6 +14,7 @@
                       string 5 ; fret -2
   24 steps;  3 % 2  ; string 3 ; fret 1
   33 steps;  7 % 4  ; string 3 ; fret 4
+                      string 6 ; fret -3
   37 steps; 15 % 8  ; string 4 ; fret 3
   41 steps;  2 % 1  ; string 5 ; fret 2
 * How to map it to the Lumatone

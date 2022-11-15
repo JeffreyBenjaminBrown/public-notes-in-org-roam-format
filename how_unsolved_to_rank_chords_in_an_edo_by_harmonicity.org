@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       2b02bdc5-1e66-4256-9f08-9e9b4cddc5da
+:END:
+#+title: How (unsolved) to rank chords in an EDO by harmonicity
+* "Chord Complexity" @ Xenharmonic Wiki
+  https://en.xen.wiki/w/Chord_complexity
+* measuring just ratio complexity
+** height functions
+   https://en.xen.wiki/w/Height
+** two simple ones
+   log(n*d)
+   sopfr(n*d) -- sopfr is the sum of prime factors
+* It's hard!
+  Even with a good function from EDO interval to complexity, a monotonically increasing function from a chords' compnent ratios' compexities isn't good enough.
+  Among other reasons, that's because sometimes an imaginary fundamental fuses them.

@@ -114,3 +114,4 @@
    41 steps;  2 % 1 ; string  3 ; fret 4
    33 steps;  7 % 4 ; string  4 ; fret 1
 * [[id:af2b88e3-b8fd-4205-a17d-32e14585cc40][identities for the 41-edo intervals]]
+* [[id:feb8b72e-720d-45fb-a6e1-f6758e1332b0][Porcupine (scale) in 41-edo]]

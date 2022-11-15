@@ -59,16 +59,23 @@
    42 steps; 15 % 8; string 7; fret 0
    46 steps;  2 % 1; string 7; fret 4
 ** TODO 7\46 x 2\46: Lumatone-feasible
-   0  steps;  1 % 1; string 0; fret 0
-   8  steps;  9 % 8; string 0; fret 4
-   15 steps;  5 % 4; string 1; fret 4
-   21 steps; 11 % 8; string 3; fret 0
-   27 steps;  3 % 2; string 3; fret 3
-   32 steps; 13 % 8; string 4; fret 2
-   37 steps;  7 % 4; string 5; fret 1
-   42 steps; 15 % 8; string 6; fret 0
-   46 steps;  2 % 1; string 6; fret 2
-** TODO 9\46 x 2\46: 31-lim in 4x7, octave (5,0.5), guitar-feas
+*** layout
+    0  steps;  1 % 1; string 0; fret 0
+    8  steps;  9 % 8; string 0; fret 4
+    15 steps;  5 % 4; string 1; fret 4
+    21 steps; 11 % 8; string 3; fret 0
+    27 steps;  3 % 2; string 3; fret 3
+    32 steps; 13 % 8; string 4; fret 2
+    37 steps;  7 % 4; string 5; fret 1
+    42 steps; 15 % 8; string 6; fret 0
+    46 steps;  2 % 1; string 6; fret 2
+*** TODO If the fret axis is down-right, then
+    this gives octaves almost a key wider,
+    octaves just a hair more diagonal,
+    and intervals easier to reach as in 41-edo Bosanquet
+    (although minor, major triads are harder).
+*** If the fret axis is down, then it's too tall.
+** TODO 9\46 x 2\46: 31-lim in 4x7, octave (4,5) = (5,0.5), guitar-feas
 *** the layout
     0  steps;  1 % 1;  string 0; fret 0
     46 steps;  2 % 1;  string 4; fret 5
@@ -108,8 +115,9 @@
     44 steps; 31 % 16; string 7; fret -4
 *** downsides
     Minor thirds are a little harder.
+    Major chords are much harder.
     It's more confusing than 9\46 x 1\46.
-** TODO 46 5 9: 31-lim in 6x7, 17-lim in 4x6, octave 4-2, frets like 9-edo
+** TODO 46 5 9: 31-lim in 6x7, 17-lim in 4x6, octave 4-2, 9.2-edo frets
    :PROPERTIES:
    :ID:       d3e9851f-5276-4a8f-9cd8-e9c5417d5940
    :END:

@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       feb8b72e-720d-45fb-a6e1-f6758e1332b0
+:END:
+#+title: Porcupine (scale) in 41-edo
+* 41-edo doesn't actually permit it
+  but whatever
+* formula = 5\41, 6\41, 5\41, 6\41 ...
+* there are two varieties
+* the variety starting with 6\41
+  [0,6,11,17,22,28,33]
+  [0,5,11,16,22,27,35]
+  [0,6,11,17,22,30,36]
+  [0,5,11,16,24,30,35]
+  [0,6,11,19,25,30,36]
+  [0,5,13,19,24,30,35]
+  [0,8,14,19,25,30,36]
+* the variety starting with 5\41
+  [0,5,11,16,22,27,33]
+  [0,6,11,17,22,28,36]
+  [0,5,11,16,22,30,35]
+  [0,6,11,17,25,30,36]
+  [0,5,11,19,24,30,35]
+  [0,6,14,19,25,30,36]
+  [0,8,13,19,24,30,35]
+* TODO misplaced : in 22-edo
+  0 3 6 9 12 15 18
+  *also* has very few fifths
