@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       f89ac6b6-031b-4b0a-b5fc-ff1979d81269
+:END:
+#+title: 135-edo
+* [[id:da3996ba-9f17-4eff-b53d-7096a491aacb][94-edo is surprisingly similar to 135-edo]]
+* 135 10 23: 15-lim +19.21.27 0-area 5x7, octave (5,2), sans unisons
+  :PROPERTIES:
+  :ID:       f5f00095-e006-45c5-9b0a-c6a9507a9dd5
+  :END:
+** layout
+   135 steps; 2  % 1 ;  string 5 ;   fret 2
+   79  steps; 3  % 2 ;  string 3 ;   fret 1
+   43  steps; 5  % 4 ;  string 1 ;   fret 2
+   109 steps; 7  % 4 ;  string 3 ;   fret 4
+   23  steps; 9  % 8 ;  string 1 ;   fret 0
+   62  steps; 11 % 8 ;  string 4 ;   fret - 3
+   95  steps; 13 % 8 ;  string 5 ;   fret - 2
+   122 steps; 15 % 8 ;  string 4 ;   fret 3
+   12  steps; 17 % 16 ; string 4 ;   fret - 8
+   33  steps; 19 % 16 ; string 1 ;   fret 1
+   53  steps; 21 % 16 ; string 1 ;   fret 3
+   71  steps; 23 % 16 ; string 7 ;   fret - 9
+   87  steps; 25 % 16 ; string - 1 ; fret 11
+   102 steps; 27 % 16 ; string 4 ;   fret 1
+   116 steps; 29 % 16 ; string 2 ;   fret 7
+   129 steps; 31 % 16 ; string 3 ;   fret 6
+** nearly identical to [[id:3583c5e5-48b3-4b38-8999-c8693d8bbb59][94 7 16]]
+   Just like 94-edo Bosanquet,
+   except the 23:16 is unreachable.
+* 135 10 33: 0-idx 5 strings by 8 frets
+  ( Edo 135 ; StringGap 33 ; FretGap 10
+  , 56
+      [ 0 steps; 1 % 1 ; string 0 ; fret 0
+      , 135 steps; 2 % 1 ; string 5 ; fret - 3
+      , 79 steps; 3 % 2 ; string 3 ; fret - 2
+      , 43 steps; 5 % 4 ; string 1 ; fret 1
+      , 109 steps; 7 % 4 ; string 3 ; fret 1
+      , 23 steps; 9 % 8 ; string 1 ; fret - 1
+      , 62 steps; 11 % 8 ; string 4 ; fret - 7
+      , 95 steps; 13 % 8 ; string 5 ; fret - 7
+* 135 23 33: in 9-limit, nearly 12-edo layout. (diagonal)
+  ( Edo 135 ; StringGap 33 ; FretGap 23
+  , 72
+      [ 0 steps; 1 % 1 ; string 0 ; fret 0
+      , 135 steps; 2 % 1 ; string 2 ; fret 3
+      , 79 steps; 3 % 2 ; string 1 ; fret 2
+      , 43 steps; 5 % 4 ; string 2 ; fret - 1
+      , 109 steps; 7 % 4 ; string 4 ; fret - 1
+      , 23 steps; 9 % 8 ; string 0 ; fret 1

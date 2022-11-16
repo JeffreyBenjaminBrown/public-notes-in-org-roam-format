@@ -33,4 +33,4 @@
 ** good harinas: arroz, papa, platano, yuca, guatila, maiz, avena
    there's a panaderia called "El Mejor Pan de Colombia",
    Cl 148 & Av 19, venden sin glutenes
-* TODO ? CBD oil
+* DONE [[id:f25d498b-e8bb-4498-af18-3532939012c4][Does CBD oil reduce cholesterol plaque?]]

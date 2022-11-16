@@ -4,4 +4,5 @@
 #+title: how to pack the Lumatone
 * Pack the stand (which screws into it) before the keyboard itself
   Otherwise it's hard to squeeze in.
-* Remember that the case strips off the rubber bit.
+* TODO Remember that the case strips off the rubber bit.
+** TODO Maybe it wouldn't, if I took out the instrument before the stand?

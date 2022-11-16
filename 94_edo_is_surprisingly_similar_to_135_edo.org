@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       da3996ba-9f17-4eff-b53d-7096a491aacb
+:END:
+#+title: 94-edo is surprisingly similar to 135-edo
+* For SSE, 94 dominates 135 in the 13-limit.
+  :PROPERTIES:
+  :ID:       ea979f88-41a4-42a5-88e2-d21b207dbc84
+  :END:
+  If what matters harmonically is the sum of squared errors, then 94 dominates 135 in the 13-limit.
+  In 135-edo, 6 intervals have an error of 4c, and one has an error of 8c, so the sum of squared errors is 6*(4**2) + 8**2 = 160.
+  For 94-edo, the coresponding SSE is (sum $ map (**2) [4,1,5,3,1,4]) = 68.
+* But still
+  135-edo's Bosanquet layout is nearly identical to 94-edo's,
+  except 135 has an unreachable 23:16.
+  And 135 arguably sounds better in at least the 17-limit,
+  with the exception of a substantially worse 13:10 (8c vs. 5c).
