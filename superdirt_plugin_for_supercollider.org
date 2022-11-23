@@ -2,6 +2,8 @@
 :ID:       e3544bcf-ff56-4667-b924-3b7baaea26ac
 :END:
 #+title: SuperDirt (plugin for SuperCollider)
+* TODO My question on Tidal Forum about "Metapplicative"
+  https://club.tidalcycles.org/t/has-anyone-defined-an-ap-like-function-f-f-a-f-b-f-a-f-b-where-f-pattern/3803/1
 * TODO automatically trim initial silence
 ** use SoX or an onset detection library (Python has one)
    https://club.tidalcycles.org/t/can-the-start-and-end-points-of-the-samples-be-altered/4026/7
@@ -21,6 +23,11 @@
 ** samples I like
 *** bend - crackling percussion
 *** hh:1 - a light crash
+*** voodoo 0 : deep carboy sound
+*** voodoo 3 : shakey sound
+*** voodoo 4 : high carboy sound
+*** wind : moogish wind sound
+    mostly rising in pitch as sample index rises
 ** figuring out durations
 *** "bev" is 16 seconds long
 ** TODO samples I need

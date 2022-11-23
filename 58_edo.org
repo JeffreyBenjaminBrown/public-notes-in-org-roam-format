@@ -269,12 +269,12 @@
 ** TODO 58 f7 s10: octave (3,4), 13-lim 4x7, 15-lim 6x7, 140c frets
    Good for a uke, etc.
    ( Edo 58 ; StringGap 10 ; FretGap 7
-    [ 0 steps; 1 % 1 ; string 0 ; fret 0
-    , 58 steps; 2 % 1 ; string 3 ; fret 4
-    , 34 steps; 3 % 2 ; string 2 ; fret 2
-    , 19 steps; 5 % 4 ; string 4 ; fret - 3
-    , 47 steps; 7 % 4 ; string 4 ; fret 1
-    , 10 steps; 9 % 8 ; string 1 ; fret 0
+    [  0 steps;  1 % 1 ; string 0 ; fret 0
+    , 58 steps;  2 % 1 ; string 3 ; fret 4
+    , 34 steps;  3 % 2 ; string 2 ; fret 2
+    , 19 steps;  5 % 4 ; string 4 ; fret - 3
+    , 47 steps;  7 % 4 ; string 4 ; fret 1
+    , 10 steps;  9 % 8 ; string 1 ; fret 0
     , 27 steps; 11 % 8 ; string 2 ; fret 1
     , 41 steps; 13 % 8 ; string 2 ; fret 3
     , 53 steps; 15 % 8 ; string 6 ; fret - 1
@@ -343,6 +343,12 @@
    :PROPERTIES:
    :ID:       3d0440f4-ef24-4ada-b75c-9ba23f7702a1
    :END:
+*** Lumatone-feasible, sacrificing harmonics 9 and 11
+    It's a strange map from strings-frets to the Lumatone axes:
+    Moving down-right crosses the strings,
+    and moving up crosses the frets.
+    Gives a beautiful 4:5:6:7:8,
+    and 13 is just on the other side of the 2:1 axis.
 *** *awesome*: pairs well with 58 4 13
     :PROPERTIES:
     :ID:       c9cda248-a07a-49e5-a0b0-e0e4f768d46e

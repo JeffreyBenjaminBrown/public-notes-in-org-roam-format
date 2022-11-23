@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       1df732d1-184e-45b1-95e5-3680e5f60b8c
+:END:
+#+title: how to get IP and MAC addresses in Linux
+* Know which subsystem I need info on.
+** If I'm being asked for the wired connection, read the entry under `eno1`.
+** If I'm being asked for the wireless connection, read the one under something that starts with `wlp`.
+**
+* run `ifconfig`
+  Actually, some people online say that's deprecated,
+  and one should use `ip` instead.
+* read its output
+** The IPv4 address appears after `inet`.
+   After `broadcast` is something similar but probably not what I want.
+** After `inet6` is the IPv6 address.
+** After `ether` is the MAC address.
+   Those, uniquely, are formatted like `f0:d5:bf:01:6e:13`.
+   That's six pairs of hex digits.

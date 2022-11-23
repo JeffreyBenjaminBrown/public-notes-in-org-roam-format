@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       52df5c16-ce18-46cf-89e6-1625ceab76ee
+:END:
+#+title: Indonesia banned nickel exports so that firms would set up factories domestically for batteries. It seems to be working.
+* source
+  Why Indonesia Matters, from The Economist
+  https://www.economist.com/leaders/2022/11/17/why-indonesia-matters
+* Indonesia controls more than 1/5 of the world's nickel.
+* They've tried it in industries where they are smaller players, unsuccessfully.

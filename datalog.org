@@ -3,3 +3,4 @@
 :END:
 #+title: Datalog
 * [[id:25e13f6c-b134-4305-a4d5-327739dd7b8f][some graph databases with Datalog engines]]
+* [[id:0ae124f5-f0bb-4aa4-81b1-23a2cad6b51b][Datalog can't query for nonexistence, I believe.]]

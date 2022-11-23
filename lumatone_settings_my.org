@@ -4,6 +4,16 @@
 #+title: Lumatone settings, my
 * using
 **  1 : 41edo.6right.-1downright.ltn
+   If I transpose it up 30\41,
+   which the MIDI I put in front of Pianoteq does,
+   then the way it's colored now,
+   if we call the "first red"
+   the white key that the reds "spew rightward out of",
+   then that's C.
+   (So the other red keys are D, E, F#, G, A and B.
+
+   That's according to my tuner app.
+   I haven't tried the math.
 **  2 : 41edo.6right.-1downright.+22notes.ltn
 **  3 : 58edo.6right.11downright.ltn
 **  4 : 58edo.6right.11downright.+15notes.ltn

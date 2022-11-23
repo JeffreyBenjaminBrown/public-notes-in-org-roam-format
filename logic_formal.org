@@ -1,0 +1,135 @@
+:PROPERTIES:
+:ID:       299fd87e-de56-4671-b51f-e3554ba7dd95
+:END:
+#+title: logic, formal
+* ref
+  :PROPERTIES:
+  :ID:       46e63e1d-b187-4ec3-9b7e-b3e69489185a
+  :END:
+** https://www.britannica.com/topic/formal-logic/Interdefinability-of-operators
+* vocab
+** inference form
+   = what's left of an argument once you abstract away the variables
+** Soundness
+   relies upon true premises and valid deduction.
+** Logic only studies deduction
+   not the validity of the premises the deduction is based on.
+** Interpreted and uninterpreted logics.
+*** Interpreted ones have meanings attached to the symbols
+    such as for every or there exist.
+*** Multiple interpretations may be attachable to a system.
+    "A given uninterpreted system is in general capable of being interpreted equally well in a number of different ways; hence, in studying an uninterpreted system, one is studying the structure that is common to a variety of interpreted systems."
+** an operator
+   forms a new proposition from one or more given propositions
+** arguments
+   are what operators take
+** truth-functional operators
+   :PROPERTIES:
+   :ID:       b64c7367-19d3-406d-9242-6321d560cc25
+   :END:
+   "given the truth values of the arguments, the truth value of the proposition formed by them and the operator is determined in every case."
+** truth function
+   a proposition formed by a truth-functional operator
+   is called a truth function of the operator’s argument(s)
+** monadic and dyadic
+   mean unary and binary,
+   when applied to operators
+** equivalents
+   [in PC] "the arguments of “≡” (the [material] equivalence sign) are called equivalents"
+** [[id:dc92fb73-d916-4893-9791-4b9088487440][(material) implication, antecedent, consequence, and converse]]
+** [[id:5bdd8a72-b15f-4893-a365-84e37ebb926f][conjuncts and conjunctions]]
+** [[id:b2765e77-58d6-4a08-8334-6e73facb18a6][disjuncts and disjunctions]]
+** Well-formed formula = WFF
+* PITFALLs
+** Some texts use different symbols.
+* my notes, ordered like [[id:46e63e1d-b187-4ec3-9b7e-b3e69489185a][the book]]
+  that is, things higher in this list
+  came earlier in the book
+** earliest notes, ordered like the book and also well-treed in this document
+*** the propositional calculus (PC)
+**** It is the simplest and most basic branch of logic.
+**** its operators
+***** a list of them, and some properties and vocabulary
+****** ∼ (not)
+****** · (and)
+******* conjuncts and conjunctions
+	:PROPERTIES:
+	:ID:       5bdd8a72-b15f-4893-a365-84e37ebb926f
+	:END:
+	(·) "is known as the conjunction sign,
+	and its arguments (p, q) as conjuncts"
+****** ∨ (or)
+******* disjuncts and disjunctions
+	:PROPERTIES:
+	:ID:       b2765e77-58d6-4a08-8334-6e73facb18a6
+	:END:
+	"“∨” is the disjunction sign,
+	and its arguments (p, q) are known as disjuncts."
+****** ⊃ (implies)
+******* when "implies" is true
+	"Given any two propositions p and q, then p ⊃ q (“if p [then] q” or “p [materially] implies q”) is to count as false when p is true and q is false and as true in all other cases"
+******* (material) implication, antecedent, consequence, and converse
+	:PROPERTIES:
+	:ID:       dc92fb73-d916-4893-9791-4b9088487440
+	:END:
+	"The symbol “⊃” is known as the (material) implication sign, the first argument as the antecedent, and the second as the consequent; q ⊃ p is known as the converse of p ⊃ q."
+****** ≡ (equivalence)
+***** They are all [[id:b64c7367-19d3-406d-9242-6321d560cc25][truth-functional]].
+**** Truth and falsity are said to be the truth values of propositions
+**** It is assumed that every proposition is either true or false and that no proposition is both true and false
+**** variables range over propositions, or that they take propositions as their values.
+**** enumerating the WFFs of PC
+     Its WFFs are only what you can get to with these rules:
+***** FR1. A variable standing alone is a wff.
+***** FR2. If α is a wff, so is ∼α.
+***** FR3. If α and β are wffs, then so are these:
+      (α · β)
+      (α ∨ β)
+      (α ⊃ β)
+      (α ≡ β)
+**** Some common ways to slightly relax the grammar
+***** Brackets enclosing a complete formula may be omitted.
+***** The typographical style of brackets may be varied within a formula to make the pairing of brackets more evident to the eye.
+***** Conjunctions and disjunctions may be allowed to have more than two arguments
+*** Well-formed formulas (WFFs)
+**** sentences vs. WFFs and proposition forms
+     WFFs are "proposition forms".
+     Multiple "sentences" can be "instances" of the same WFF.
+     "Given the standard interpretation, a WFF of PC becomes a sentence, true or false, when all its variables are replaced by actual sentences."
+**** "unsatisfiable", "contingent" and "valid"
+     A WFF is valid if and only if all its instances express true propositions. A WFF of which all instances are false is said to be unsatisfiable, and one with some true and some false instances is said to be contingent
+**** the "decision problem" : be able always to determine whether a WFF is valid
+***** Such a procedure is called a "decision procedure"
+***** The procedure must be "effective"
+      which means, AFAICT, mechanical,
+      such as in the case of PC via truth tables
+**** PC is a "decidable" system. Some are undecidable.
+*** Some of the most important valid wffs of PC
+**** here's a list
+     https://cdn.britannica.com/77/2177-004-5EE78B99/Formulas-Propositional-Calculus.jpg
+**** my favorites
+***** the distributive laws
+***** de Morgan's laws
+***** the last four, BUT
+      I think three of those four could be written more simply,
+      as (p and q implies r) is equivalent to (P implies ( q implies r) ).
+      (The law of syllogism would stand apart from the other three in that sense.)
+** later notes, ordered like the book but badly treed in this document
+*** Wut
+**** Moreover, although p ⊃ q does not mean that q can be deduced from p, yet whenever a WFF of the form α ⊃ β is valid, the inference form “α, therefore β” is likewise valid. This fact is easily seen from the fact that α ⊃ β means the same as “not both: α and not-β”; for, as was noted above, whenever the latter is a valid proposition form, “α, therefore β” is a valid inference form.
+*** Let α be any WFF. If any variable in it is now uniformly replaced by some WFF, the resulting WFF is called a substitution-instance of α. Thus [p ⊃ (q ∨ ∼r)] ≡ [∼(q ∨ ∼r) ⊃ ∼p] is a substitution-instance of (p ⊃ q) ≡ (∼q ⊃ ∼p), obtained from it by replacing q uniformly by (q ∨ ∼r). It is an important principle that, whenever a WFF is valid, so is every substitution-instance of it (the rule of [uniform] substitution).
+*** A further important principle is the rule of substitution of equivalents. Two WFFs, α and β, are said to be equivalents when α ≡ β is valid. (The WFFs α and β are equivalents if and only if they have identical truth tables.) The rule states that, if any part of a WFF is replaced by an equivalent of that part, the resulting WFF and the original are also equivalents. Such replacements need not be uniform. The application of this rule is said to make an equivalence transformation.
+*** An axiomatic basis consists of
+
+       1.A list of primitive symbols, together with any definitions that may be thought convenient,
+       2.A set of formation rules, specifying which sequences of symbols are to count as WFFs,
+       3.A list of WFFs selected as axioms, and
+       4.A set of (one or more) transformation rules, which enable new WFFs (theorems) to be obtained by performing certain specified operations on axioms or previously obtained theorems.
+**** A proof or derivation of a WFF α in an axiomatic system S is a sequence of WFFs of which the last is α itself and each WFF in the sequence is either an axiom of S or is derived from some axiom(s) or some already-derived theorem(s) or both by one of the transformation rules of S. A WFF is a theorem of S if and only if there is a proof of it in S.
+**** Definitions, where they occur, can function as additional transformation rules, to the effect that, if in any theorem any expression of the form occurring on one side of a definition is replaced by the corresponding expression of the form occurring on the other side, the result is also to count as a theorem
+*** Wut
+**** Relative to a given criterion of validity, an axiomatic system is sound if every theorem is valid, and it is complete (or, more specifically, weakly complete) if every valid WFF is a theorem. The axiomatic system PM can be shown to be both sound and complete relative to the criterion of validity already given (see above Validity in PC).
+*** An axiomatic system is consistent if, whenever a WFF α is a theorem, ∼α is not a theorem
+**** considerable number of other axiomatic bases for PC, each having all the above properties, are known. The task of proving that they have these properties belongs to metalogic.
+**** PM is the system of PC developed by Whitehead and Russell
+****  It is strongly complete if the addition to it (as an extra axiom) of any WFF whatever that is not already a theorem would make the system inconsistent. Finally, an axiom or transformation rule is independent (in a given axiomatic system) if it cannot be derived from the remainder of the axiomatic basis (or—which comes to the same thing—if its omission from the basis would make the derivation of certain theorems impossible). It can, moreover, be shown that PM is consistent and strongly complete and that each of its axioms and transformation rules is independent

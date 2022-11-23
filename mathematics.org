@@ -4,8 +4,10 @@
 #+title: mathematics
 * [[id:a82f9347-7e03-4230-b229-beddeb4fea41][geometry]]
 * [[id:20fc15fe-5108-406b-bd01-585ab491ae32][linear algebra]]
+* [[id:299fd87e-de56-4671-b51f-e3554ba7dd95][logic, formal]]
 * [[id:05e27068-7ab8-4c26-9a83-3cf1b64d1e68][combinatorics]]
 * [[id:7eb45902-4601-4397-a976-335b448bbdca][group theory]]
+* [[id:465f0ce9-e6e8-4a9f-b290-7290dd914e54][optimization (inc. constrained)]]
 * some surprisingly dimension-dependent results
   :PROPERTIES:
   :ID:       7b838adc-843c-4337-981d-6a7b96068831

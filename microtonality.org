@@ -10,6 +10,7 @@
 * microtonal instruments, including electronic
 ** [[id:0fb050fc-28b8-48a6-914b-6d5970490d46][microtonal guitar]]
 ** [[id:660cb0bc-e76c-48b6-844a-7ce352dc8067][manual dynamically adjusted EDO (musical instrument idea)]]
+** [[id:eba57381-b12c-4221-acf0-d0cbad55e224][microtonal synth plugins]]
 * TODO list kinds of harmonic thinking applicable to 46-et
   by limit
   by symmetry

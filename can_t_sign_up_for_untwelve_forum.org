@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       9adb4045-7870-42c0-924f-d3d6ccecca01
+:END:
+#+title: can't sign up for UnTwelve forum
+* TODO contact DreamHost support as described in their response
+* the email thread
+  https://mail.google.com/mail/u/0/#inbox/KtbxLvhCGVJSRLHfBcVQszrrbvpXmwHhrL
+* what I was going to ask Facebook
+Paul Erlich said swmewhere on here that the UnTwelve forum is a better place if you don't want your messages to disappear or get lost in unnavigable comment trees. I tried to sign up as described on their website and received a message [see first comment below] saying my email could not be delivered.
+
+Is there a different way to sign up?
+* the DreamHost message
+This is the mail system at host pdx1-sub0-mail-fallback-mx200.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+                DreamHost Email Support
+
+<akjmicro@gmail.com>: host alt1.gmail-smtp-in.l.google.com[142.250.115.26]
+    said: 421-4.7.28 [64.90.62.163      15] Our system has detected an unusual
+    rate of 421-4.7.28 unsolicited mail originating from your IP address. To
+    protect our 421-4.7.28 users from spam, mail sent from your IP address has
+    been temporarily 421-4.7.28 rate limited. Please visit 421-4.7.28
+    https://support.google.com/mail/?p=UnsolicitedRateLimitError to 421 4.7.28
+    review our Bulk Email Senders Guidelines.
+    w25-20020a056808091900b0035a5219d813si10571753oih.63 - gsmtp (in reply to
+    end of DATA command)

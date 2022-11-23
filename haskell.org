@@ -2,6 +2,11 @@
 :ID:       784007e7-b851-4988-beaa-b8e4a9657357
 :END:
 #+title: Haskell
+* u
+** GHC has had type in type since 8.0, per this
+   https://news.us10.list-manage.com/track/click?u=49a6a2e17b12be2c5c4dcb232&id=c2e7670a58&e=2441513057
+** Kinds don't really exist
+   https://news.us10.list-manage.com/track/click?u=49a6a2e17b12be2c5c4dcb232&id=c2e7670a58&e=2441513057
 * TODO [[id:72ceb545-15a3-4595-b6f5-d18158829c68][Bogotá Functional Programming Interest Group]]
 * [[id:fddbb2ae-0d7f-482c-88f1-0861b7d45546][Haskell, to read]]
 * PITFALL: (Cabal?) REPL can't reload changes in depended-on projects.

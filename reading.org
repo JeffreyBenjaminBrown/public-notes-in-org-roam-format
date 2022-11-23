@@ -15,6 +15,7 @@
    (The trick is not, of course, to change my beliefs,
    but rather to act in accordance with them.)
 * material to absorb
+** [[id:3bd5a869-0c8a-4fb5-8db0-b64cf783592e][Isaac Asimov, The Last Question (short story)]]
 ** La República
    :PROPERTIES:
    :ID:       f9b8a577-563a-47c6-a77f-11892ec5ccd2

@@ -87,7 +87,7 @@
 * launching it
 ** in SCIDE, launch this
    ~/.local/share/SuperCollider/downloaded-quarks/SuperDirt/superdirt_startup.scd
-*** I added a line to specify `ugenPluginsPath`.
+*** DONE I no longer need to add a line to specify `ugenPluginsPath`.
     That's necessary on my system,
     because sc3-plugins is unable to modify the SC installation
     to let SC know it exists.

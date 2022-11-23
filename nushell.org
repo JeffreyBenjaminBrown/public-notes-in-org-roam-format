@@ -3,6 +3,35 @@
 :ROAM_ALIASES: "Nu shell" "Nushell"
 :END:
 #+title: NuShell
+* u, <2022-11-22 Tue>
+** Many people use direnv to load an environment upon entering a directory as well as unloading it when exiting the directory.
+** View git comitter activity as a histogram
+      Note: the histogram command is not yet ported to the latest version
+
+      > git log --pretty=%h»¦«%aN»¦«%s»¦«%aD | lines | split column "»¦«" sha1 committer desc merged_at | histogram committer merger | sort-by merger | reverse
+      ━━━━┯━━━━━━━━━━━━━━━━
+** Delete git merged branches
+      Warning: This command will hard delete the merged branches from your machine. You may want to check the branches selected for deletion by omitting the last git command.
+
+      > git branch --merged | lines | where ($it != "* master" && $it != "* main") | each {|br| git branch -D ($br | str trim) } | str trim
+      Output
+** Suppose you would like to check the number of lines the string "Value" appears per file in the nushell project, then sort those files by largest line count.
+
+      > rg -c Value | lines | split column ":" file line_count | into int line_count | sort-by line_count | reverse
+      Output
+** section.
+
+      > open Cargo.toml | upsert package.version { |p| $p | get package.version | inc --patch } | save Cargo.toml
+      Output none
+** open Cargo.toml | get package.version
+** Clip copies to clipboard but only for text
+*** sys | get mem | to json | clip
+** liner:
+
+      > ps | where name == Notepad2.exe | get pid.0 | kill -9 $in
+      Output
+** > ps | where cpu > 0 | sort-by cpu | reverse
+** ls | where type == file
 * TODO RESUME here
   https://www.nushell.sh/book/moving_around.html
 * refs | getting started

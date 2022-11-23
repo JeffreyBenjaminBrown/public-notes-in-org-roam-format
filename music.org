@@ -3,6 +3,29 @@
 :END:
 #+title: music
 * u
+** Finding edo layouts
+*** In both coordinate systems, compute the sum of squared errors.
+**** Using the Lesser of the two measures for each interval
+*** Consider two maps from string-fret to Lumatone. The fret axis always goes horiz, and the other either acute or oblique.
+**** That covers all options, right?
+*** For each interval in the 15-limit, find both (only two, right?) ways to play it
+** 41
+*** Peocupine?
+**** This does not have the effect that it does in 22 Ito, where the scale ends up with five major thirds and two minor ones. That's if you only keep the first seven notes.
+**** 5. 11. 17.  22. 28. 33. 39. 3. 9. 15. 20. 26
+*** Check out the untwelve forum.
+*** 0 35 9' 29'
+** Algorithm for selecting scales in 41 Edo
+*** Include in the displayed results the just formula that gave rise to it
+*** From the list of 41 Edo inversions, include only those for which some inversion is within 70 cents of the 12 Ito cord at each note
+*** Choose a familiar 12 Ido cord, such as diminished
+*** Find every inversion of the resulting stacks
+*** Choose pairs of intervals to stack, ordered by simplicity
+*** Declare some intervals off limits
+**** These can still arise from others, but are not themselves building blocks
+*** Compute all the 15 limit intervals
+**** There are at most eight times seven equals 56 of these, but some of them are duplicates.
+*** Further order the results by placing those for which the third interval is also harmonic above the others
 ** melody
 *** Melodic octaves in the bass are cool.
     e.g. 12-edo 0 7 7_ (where postfix _ means an octave below)

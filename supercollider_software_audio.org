@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       062d9fcc-128a-411a-b5c0-d792c47dedab
+:ROAM_ALIASES: SuperCollider
 :END:
 #+title: SuperCollider (software, audio)
 * refs

@@ -37,23 +37,26 @@
    "x . y z  . a b c"
    "x  [y z]  [a b c]"
 ** (,) joins events simultaneously
-** Things in a <> group are cycled through.
+** TODO Things in a <> group are cycled through.
    This plays "bd" every time, "sd" one third of the times, etc:
 
    d1 $ s "bd <sd hh cp>"
 ** (|) randmonly chooses between things
    "[a | b] c" always plays c, sometimes plays a.
-** `value!number` creates `number` events of type `value`.
-** `_` looks like an event but continues the previous event
-** `event@number` makes `event` `number` times longer.
-** postfix (?) sometimes replaces its argument with silence
+** TODO `value!number` creates `number` events of type `value`.
+** TODO `_` looks like an event but continues the previous event
+** TODO `event@number` makes `event` `number` times longer.
+** postfix "?" sometimes replaces its argument with silence
 ** (sample:number) selects the `number`th value of that sample
-** (n,d) creates a Euclidean sequence with `n` events covering time `d`.
-** TODO {pat,pat} polymeters: All event units within comma-separated are the same duration, making the comma-separated patterns possibly different durations.
-   In this:
-     d1 $ s "{bd bd:1, cp cp:1 cp:2}"
-   the second sequence takes 1.5 times as long as the first,
-   and the time between bd events is the same as that between cp events.
+** TODO (n,d) creates a Euclidean sequence with `n` events covering time `d`.
+** TODO {pat,pat, ... pat} polymeters
+*** idea
+    The patterns have different durations, but their first-level sub-events all have the same duration.
+*** example
+    In this:
+      d1 $ s "{bd bd:1, cp cp:1 cp:2}"
+    the second sequence takes 1.5 times as long as the first,
+    and the time between bd events is the same as that between cp events.
 ** TODO {pat}%number polymeters
    In
      d1 $ s "[{bd cp hh}%4, bass]"
@@ -74,11 +77,15 @@
    p 1 $ stack [ "[hh*4]",
                  "~ [bd*4] _" ]
 * non-cyclic time in Tidal
-** ref: transitions
-   https://tidalcycles.org/docs/patternlib/tour/transitions/
+** refs
+*** transitions
+    https://tidalcycles.org/docs/patternlib/tour/transitions/
+*** "composition functions"
+    https://tidalcycles.org/docs/reference/composition/
 ** TODO How are `anticipateIn` and `jumpIn` different?
 ** `once` is handy.
-   It requires no name, and can't be stopped.
+   It requires no pattern name, and can't be stopped.
+   once $ s "trump"
 ** `xfade <voice name>` and `xfadeIn <number of cycles> <voice name>`
    p "drums" $ s "bd(3,8) drum*4"
    xfade "drums" $ s "arpy*8" # n (run 8)
@@ -92,7 +99,46 @@
    jumpIn is not.
 ** TODO `jumpMod`: I don't understand.
 ** TODO `wait(In)`: not described
+** the "composition" functions let you escape, somewhat, the looping paradigm
+* TODO NEW: State
+  Supposedly makes it easier to line things up.
+  https://tidalcycles.org/docs/reference/state_values
 * some TidalCycles functions
+** listToPat, fromList, fromMaybes and flatpat seem good
+** quantise :: (Functor f, RealFrac b) => b -> f b -> f b
+   Tell it what to round to multiples of.
+** TODO every, spread and generally the "conditions" functions are what I want to generalize.
+*** every
+**** ::
+     Pattern Int
+     -> (Pattern a -> Pattern a)
+     -> Pattern a
+     -> Pattern a
+**** is documented under "conditions"
+     https://tidalcycles.org/docs/reference/conditions
+**** every' lets you change its phase (very important!)
+*** spread
+**** ::
+     (a -> t -> Pattern b)
+     -> [a]
+     -> t
+     -> Pattern b
+**** is documented under "alteration"
+     https://tidalcycles.org/docs/reference/alteration
+*** whenT
+**** ::
+     (Time -> Bool)
+     -> (Pattern a -> Pattern a)
+     -> Pattern a
+     -> Pattern a
+*** TODO within :: Arc -> (Pattern a -> Pattern a) -> Pattern a -> Pattern a
+** trunc and linger are cool
+   trunc takes a fraction in [0,1] and truncates the second argument that way.
+   linger does similarly but repeats the head rather than going silent.
+** TODO step' is like a sequencer
+   This uses 0 to indicate superpiano, 1 for supermandolin.
+   d1 $ s (step' ["superpiano","supermandolin"] "0 1 000 1")
+        |* sustain 4 # n 0
 ** `|x|`, `|x` and `x|`, for all x
    On which side the bar lies determines which pattern divides time.
    If it's on both sides, both patterns divide time.
@@ -110,6 +156,16 @@
    p "cpsfun" $ s "bd sd(3,8)" # cps (slow 8 $ 0.5 + saw)
 ** `timeloop` lets you periodically restart a cycle
    https://club.tidalcycles.org/t/restart-a-polymetric-sequence/3736
+* some effects I like
+  https://tidalcycles.org/docs/reference/audio_effects
+** squiz
+   Simplistic pitch shift via chopping.
+   Try giving it even numbered values.
+** the spectral conformer
+   "real" and "imag"
+   Applies the conformal map
+   (the thing that makes Mandelbrot sets, I think).
+   Weird vocoder artifacts.
 * some code maybe worth hacking
 ** `histpan` is a transition function that pans repetitions of a pattern.
    I might want to do that with other parameters.
