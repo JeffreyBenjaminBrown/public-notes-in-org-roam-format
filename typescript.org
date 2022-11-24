@@ -1,0 +1,72 @@
+:PROPERTIES:
+:ID:       ff819483-7934-4d8d-b131-fd30d01a568f
+:ROAM_ALIASES: Typescript
+:END:
+#+title: TypeScript
+* RESUME in both these places
+  serial
+** https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html
+   at
+   Learning JavaScript and TypeScript
+** https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-func.html
+   at
+   In TypeScript, union types are untagged
+* avlid Javascript runs identically as Typescript
+  "even if TypeScript thinks that the code has type errors"
+* some unusual Javascript types
+** Symbol
+   a unique value usually used as a key.
+** Null ~ Undefined
+   both equivalent to the unit type.
+** Object
+   similar to records.
+* Typescript capitalizes boxed types, leaves primitives in lowercase
+  The boxed types are rarely needed.
+* unusual Typescript types
+** unknown
+   the top type
+** never
+   the bottom type.
+** object literal
+   These are like (or are?) row types.
+   eg { property: Type }
+** void
+   a subtype of undefined intended for use as a return type.
+** T[]
+   mutable arrays, also written Array<T>
+** [T, T]
+   tuples, which are fixed-length but mutable
+*** PITFALL: tuples are subtypes of lists
+    :PROPERTIES:
+    :ID:       41da0cf5-cb57-4feb-a9a2-79e40f0ac6e3
+    :END:
+    e.g. [T, T] is a subtype of T[]
+** (t: T) => U
+   functions
+* [[id:41da0cf5-cb57-4feb-a9a2-79e40f0ac6e3][PITFALL: tuples are subtypes of lists]]
+* type signatures and function definitions in Typescript
+  Here's how to define the head function
+    Think of it as this:
+      fst = \(a,b) -> a
+  let fst: <T, U>(a: T, b: U) => T =
+           (a, b) => a;
+* defining object literals
+  let o: { n: number; xs: object[] }
+       = { n: 1,      xs: [] };
+* `any` and safety
+** `any` is not really a type.
+   It just turns off the typechecker.
+** To get an error when TypeScript produces an any
+   use "noImplicitAny": true,
+   or "strict": true
+   in tsconfig.json
+* syntax I hope not to need
+** Calling a method on a numeric literal requires it to be in parentheses.
+* "structural typing"
+** the idea, I think
+   is that {x : a, y : _} is a subtype of {x : a},
+   and so on for object literals with more fields.
+** example
+   // @strict: false
+   let o = { x: "hi", extra: 1 }; // ok
+   let o2: { x: string } = o; // ok

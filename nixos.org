@@ -3,11 +3,7 @@
 :ROAM_ALIASES: NixOS
 :END:
 #+TITLE: NixOS (operating system)
-* TODO "Can I set the nice level for Nix build processes?"
-** on NixOS Discourse
-   https://discourse.nixos.org/t/can-i-set-the-nice-level-for-nix-build-processes/10596
-** to Reddit (recent thread!)
-   https://www.reddit.com/r/NixOS/comments/yultt3/what_has_your_experience_been_with/
+* TODO [[id:be03eee0-f812-4d92-a56d-693f45a8714f][set nice level for automatic NixOS rebuild]]
 * [[id:8216a071-2341-4866-a716-54e77baa8f2f][Nix (configuration language)]]
 * TODO [[id:27ec44e3-e227-489e-8437-36c9f3807fda][Error: "Unit window-manager not found"]]
 * REFERENCES

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       be03eee0-f812-4d92-a56d-693f45a8714f
+:END:
+#+title: set nice level for automatic NixOS rebuild
+* the code that used to do it
+  # Below: Intended to make this `autoUpgrade` more polite.
+  # TODO: It's obsolete syntax; check out nix.daemonCPUSchedPolicy instead.
+  # Source: https://discourse.nixos.org/t/can-i-set-the-nice-level-for-nix-build-processes
+  # nix.daemonNiceLevel = 19;
+  # nix.daemonIONiceLevel = 19;
+* thread on NixOS Discourse
+  "Can I set the nice level for Nix build processes?"
+  https://discourse.nixos.org/t/can-i-set-the-nice-level-for-nix-build-processes/10596
+* maybe related, recent Reddit thread
+  https://www.reddit.com/r/NixOS/comments/yultt3/what_has_your_experience_been_with/

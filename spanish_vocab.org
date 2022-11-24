@@ -13,6 +13,12 @@
 **** last time I reviewed
      2
 **** 1 mod 2
+***** depurar
+      alternatives
+****** to clean
+****** to reinstate someone who's duty was suspended for political reasons
+****** scrutinize someone for political malfeasance
+****** purge of dissidents
 ***** quisquillosa
       finnicky
 ***** marranada
@@ -53,6 +59,8 @@
 **** last time I reviewed
      2
 **** 1 mod 2
+***** to clean | to purge of dissidents | to (try to?) sanction | to reinstate someone who was sanctioned
+      depurar
 ***** finnicky
       quisquillosa
 ***** (disrespectfully) a very stupid thing
