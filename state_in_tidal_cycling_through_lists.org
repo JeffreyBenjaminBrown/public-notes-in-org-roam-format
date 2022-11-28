@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       e0f7b428-c766-418b-96de-0d93a6484138
+:END:
+#+title: state in Tidal: cycle through a list whenever the note changes
+* ref
+  https://tidalcycles.org/docs/reference/state_values
+* the idea
+  The new `VState` constructor for `Value``,
+  rather than holding a static `Value`,
+  holds an update function.
+  It can thus cycle through a (maybe infinite) list,
+  which seems to be the major use case.
+* What's novel about it
+  Normally, when you cycle through a list,
+  phase in the cycle depends only on time.
+  Here it is independent of time;
+  it depends only on the most recent value played.
+* PITFALL: These state cycles must take their "structure" from another pattern.
+  For instance, in
+    sound "alphabet(5,8)" # nTake "bob" [0 .. 4]
+  the timing depends on "alphabet(5,8)".
+  At each new note from that pattern,
+  "bob" picks a new value from the cycle [0..4].
+* some important function
+  nTake, freqTake, setF, nCountTo
+* also supposedly relevant: bite, fit, ur
+  according to @mvdirty here:
+  https://club.tidalcycles.org/t/tidal-synth-how-to-assign-a-value-to-a-variable/4012

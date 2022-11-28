@@ -2,6 +2,18 @@
 :ID:       a2c9fc96-2d00-47bf-88ee-98cc94a3bb58
 :END:
 #+title: improvised multitrack recording (music)
+* TODO mystery: How to jam to Tidal?
+  It's so precise, so full-spectrum,
+  and the rhythms I like in it are so hard.
+* Theory: Enjoying the timbre helps me slow down.
+  That might be why I play more rhythmically on a guitar than on a keyboard.
+  It seems feasible to similarly enjoy Pianoteq.
+  Particularly with a good velocity curve, which I don't feel I have yet.
+* PITFALL: If using English, recite scale numbers in order.
+  Otherwise, for instance, "30 7" can be confused for "37".
+* remember to keep the early track simple
+  esp. rhythmically,
+  with lots of silence, for the other to fill
 * TODO composition idea: preliminary *vocal* sketches
   Sketch the rhythm / timbre vocally before anything else.
   Paint broad strokes before even getting into (precise) pitch.

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       51e49260-fcf8-42dd-b843-fd776cb4d8e6
+:END:
+#+title: nice (Linux command)
+* sudo nice -n 19 nixos-rebuild switch
+* [[id:be03eee0-f812-4d92-a56d-693f45a8714f][set nice level for automatic NixOS rebuild]]

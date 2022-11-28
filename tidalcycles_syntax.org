@@ -3,9 +3,15 @@
 :END:
 #+title: TidalCycles language: syntax, functions, signal flow
 * TODO questions
+** BLOCKED [[id:646fa5cb-e4dc-4cf5-8bfe-345e0f0dbfce][understand Event, part and whole]]
+** [[id:73022421-1840-4f36-9d6c-915d9a1f9e5b][parameters that have no effect]]
+** What's "segment" for?
+   e.g. from here:
+     https://club.tidalcycles.org/t/creating-effects-chains-or-audio-buses/3707/3
+     d2 $ crushbus 1 (segment 128 $ range 6 1.1 (slow 4 saw))
 ** What is the default amplitude?
    0.35?
-* TODO [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation in Tidalcycles]]
+* [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation in Tidalcycles]]
 * voices and signal flow in Tidal
 ** voice names
 *** There are some "preassigned voices".
@@ -37,19 +43,24 @@
    "x . y z  . a b c"
    "x  [y z]  [a b c]"
 ** (,) joins events simultaneously
-** TODO Things in a <> group are cycled through.
+   Does not work outside of brackets.
+** Things in a <> group are cycled through.
    This plays "bd" every time, "sd" one third of the times, etc:
-
-   d1 $ s "bd <sd hh cp>"
+     d1 $ s "bd <sd hh cp>"
 ** (|) randmonly chooses between things
    "[a | b] c" always plays c, sometimes plays a.
-** TODO `value!number` creates `number` events of type `value`.
-** TODO `_` looks like an event but continues the previous event
-** TODO `event@number` makes `event` `number` times longer.
+** `value!number` creates `number` events of type `value`.
+** `_` extends the duration of the previous event
+   "bd*2 _ sn" = "bd bd sn"
+*** Therefore this divides the first 2 of 5 into 3, and the last 3 of those 5 into 4.
+    "sn:1*3 _ sn:1*4 _ _"
+** `event@number` makes `event` `number` times longer.
+*** Therefore this divides the first 2 of 5 into 3, and the last 3 of those 5 into 4.
+    "sn:1*3@2 sn:1*4@3"
 ** postfix "?" sometimes replaces its argument with silence
 ** (sample:number) selects the `number`th value of that sample
-** TODO (n,d) creates a Euclidean sequence with `n` events covering time `d`.
-** TODO {pat,pat, ... pat} polymeters
+** (n,d) creates a Euclidean sequence with `n` events covering time `d`.
+** {pat,pat, ... pat} polymeters
 *** idea
     The patterns have different durations, but their first-level sub-events all have the same duration.
 *** example
@@ -57,6 +68,20 @@
       d1 $ s "{bd bd:1, cp cp:1 cp:2}"
     the second sequence takes 1.5 times as long as the first,
     and the time between bd events is the same as that between cp events.
+*** PITFALL: Speed depends on the number of notes in the first pattern.
+    If the first pattern has more top-level events,
+    then all of them go faster.
+
+    That's because first pattern will take one cycle to repeat.
+    All the others depend on their relationship to it.
+    For instance, in this pattern:
+
+      do setcps 2
+         d1 $ stack
+           [ "{bd, sn:1 ~, ho ~ ~}"
+           , "bleep" ]
+
+    try changing the order of the {..} section.
 ** TODO {pat}%number polymeters
    In
      d1 $ s "[{bd cp hh}%4, bass]"
@@ -76,6 +101,7 @@
                  "~ [bd*4]" ]
    p 1 $ stack [ "[hh*4]",
                  "~ [bd*4] _" ]
+* TODO [[id:e0f7b428-c766-418b-96de-0d93a6484138][state in Tidal: cycle a list at each new note]]
 * non-cyclic time in Tidal
 ** refs
 *** transitions
@@ -100,9 +126,6 @@
 ** TODO `jumpMod`: I don't understand.
 ** TODO `wait(In)`: not described
 ** the "composition" functions let you escape, somewhat, the looping paradigm
-* TODO NEW: State
-  Supposedly makes it easier to line things up.
-  https://tidalcycles.org/docs/reference/state_values
 * some TidalCycles functions
 ** listToPat, fromList, fromMaybes and flatpat seem good
 ** quantise :: (Functor f, RealFrac b) => b -> f b -> f b
@@ -166,6 +189,14 @@
    Applies the conformal map
    (the thing that makes Mandelbrot sets, I think).
    Weird vocoder artifacts.
-* some code maybe worth hacking
-** `histpan` is a transition function that pans repetitions of a pattern.
-   I might want to do that with other parameters.
+* [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation in Tidalcycles]]
+* distortion in Tidal
+  Probably [[id:d41a981f-1a73-44bf-85fb-f5a80d72bea3][the bus solution]] will do it.
+  But see also
+    /home/jeff/code/music/Tidal/distort-a-sum.tidal-SC
+* problems, at least some of them solved
+** default values, and maybe how to change them
+   e.g. amp <- 0.4
+   https://club.tidalcycles.org/t/default-amp-value/4326
+** to add mini-notation parameter functions (ala "pan")
+*** edit bin/generate-params.hs

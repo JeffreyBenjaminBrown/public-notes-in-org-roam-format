@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       d49c9935-eecd-480d-a400-dd2113523911
+:END:
+#+title: SQL
+* [[id:fcf6b095-f4c2-4f2a-abc2-27922a2d4a25][sqlite]]

@@ -22,7 +22,14 @@
 * Dirt samples
 ** samples I like
 *** bend - crackling percussion
+*** hh:_ - they all seem to be panned to the left
+*** hh:0 - a nice moderate closed hat
 *** hh:1 - a light crash
+*** hh:5 - a decent kick drum
+*** hh:7 - a nice moderate rining hat
+*** hh:8 - a light single tambourine stroke
+*** hh:10 - a light ride
+*** hh:11 - a light snare
 *** voodoo 0 : deep carboy sound
 *** voodoo 3 : shakey sound
 *** voodoo 4 : high carboy sound

@@ -9,3 +9,4 @@
 * [[id:7347d15c-fece-46aa-87d2-7c1c7230d548][Linux (operating system)]]
 * [[id:332ba44e-54e9-4e6e-b39e-a2adf88587ae][laptop, to buy]]
 * [[id:556da35d-686c-43c7-ac07-1687e6fe71ff][HP 840 G3 laptop, my 2017]]
+* [[id:b465e1ae-f9ca-4cc7-b66f-b7b91010d937][CPU management in Linux]]

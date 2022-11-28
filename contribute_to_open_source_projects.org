@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       4bd7f12e-2061-40e9-9e98-683552f40918
+:END:
+#+title: contribute to open source projects
+* [[id:c90e23ae-6d45-4040-a61a-e7003ac93c78][TidalCycles]]
+* good first issues on open source projects
+  https://up-for-grabs.net/#/filters?date=&tags=neural-network
+  https://goodfirstissue.dev/language/haskell
+* contribute to PyTorch
+  https://github.com/pytorch/pytorch/labels/good%20first%20issue

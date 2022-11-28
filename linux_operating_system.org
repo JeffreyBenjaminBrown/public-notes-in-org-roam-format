@@ -26,3 +26,4 @@
 * [[id:f202975d-f1f0-4aa7-bcca-f9e6dd26230c][PITFALL: sudo can cause cp (copying) to fail.]]
 * Why, and what to do if, [[id:ed1f7dd2-74c2-495e-9b68-bda19af749a8][the OS considers a file binary when I don't want it to]].
 * [[id:02cb7971-2e02-4baa-86ac-90b732d51315][terminal emulator]] | [[id:02cb7971-2e02-4baa-86ac-90b732d51315][terminal (Linux app genre)]]
+* [[id:b465e1ae-f9ca-4cc7-b66f-b7b91010d937][CPU management in Linux]]

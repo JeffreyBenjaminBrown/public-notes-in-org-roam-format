@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       646fa5cb-e4dc-4cf5-8bfe-345e0f0dbfce
+:END:
+#+title: understand Event, part and whole in Tidalcycles
+* ref (discussion I started)
+  https://club.tidalcycles.org/t/what-are-the-part-and-the-whole-in-an-event/4414/3

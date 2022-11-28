@@ -1,0 +1,214 @@
+:PROPERTIES:
+:ID:       fcf6b095-f4c2-4f2a-abc2-27922a2d4a25
+:ROAM_ALIASES: SQLite
+:END:
+#+title: sqlite
+* TODO RESUME here
+  https://www.sqltutorial.org/sql-select/
+* ref
+  https://www.sqlite.org/index.html
+  https://www.sqltutorial.org/
+* more to read
+  https://www.sqlite.org/cli.html
+  https://www.sqlite.org/lang_aggfunc.html#aggfunclist
+  https://www.sqlite.org/windowfunctions.html#biwinfunc
+  https://www.sqlite.org/quickstart.html
+* PITFALLs
+** A database contains, in general, multiple tables.
+   :PROPERTIES:
+   :ID:       15ef55e0-7152-4d5c-9b92-28c3d3720222
+   :END:
+** It's not completely standard SQL.
+** Its typing is weak.
+   "Datatypes are advisory rather than mandatory."
+   Standard SQL is strongly typed.
+*** SOLUTION: [[id:1bc729e5-aa31-4edf-b457-2f316dcab64d][use the STRICT keyword]]
+** ANY converts input data in weakly-typed tables.
+   but it leaves the data unchanged in strict tables.
+   https://www.sqlite.org/stricttables.html
+   "In a STRICT table, a column of type ANY always preserves the data exactly as it is received. For an ordinary non-strict table, a column of type ANY will attempt to convert strings that look like numbers into a numeric value, and if successful will store the numeric value rather than the original string."
+** [[id:e318a5c1-4ac1-44e0-a61e-4061c80b942f][Missing types]]
+** Foreign key enforcement is off by default.
+*** To activate it at run-time
+    PRAGMA foreign_keys
+*** Activate it at compile-time
+    -DSQLITE_DEFAULT_FOREIGN_KEYS=1
+    (that's a "compile-time option")
+** [[id:5a0a6bd3-8275-4ef5-bae4-1c9ba019c882][Unrecognized pragmas are ignored.]]
+** Aggregate queries can contain non-aggregate result columns that are not in the GROUP BY clause.
+   https://www.sqlite.org/quirks.html
+** less important-seeming pitfalls
+*** Single-line tail Comments are different in ordinary SQL.
+    In ordinary SQL they use -- rather than #.
+*** Case functions (e.g. upper()) work on ASCII but not on all Unicode.
+    see "Does Not Do Full Unicode Case Folding By Default", here:
+    https://www.sqlite.org/quirks.html
+*** SQLite is less rigid about single- and double-quotes.
+    See "Double-quoted String Literals Are Accepted", here:
+    https://www.sqlite.org/quirks.html
+*** Keywords Can Often Be Used As Identifiers
+    In standard SQL they can't, unless enclosed in double-quotes.
+*** "Dubious SQL Is Allowed Without Any Error Or Warning"
+    https://www.sqlite.org/quirks.html
+*** "AUTOINCREMENT Does Not Work The Same As MySQL"
+    https://www.sqlite.org/quirks.html
+*** "NUL Characters Are Allowed In Text Strings"
+    https://www.sqlite.org/quirks.html
+* for help
+** from the command line
+   man sqlite3
+** from the SQLite interpreter
+   .help
+* doing stuff from the command line
+** run a script that creates a db, name it, save it
+   cat numismatist.sql | sqlite3 numismatist.db
+*** works at least for this value of numismatist.sql
+    BEGIN TRANSACTION;
+    Create Table coins( ... );
+    Insert into coins values(...);
+    COMMIT;
+** run a command on a db (with the code "inline")
+   sqlite3 numismatist.db 'select * from coins'
+** launch the SQLite interpreter using a db
+   :PROPERTIES:
+   :ID:       6bf9b3b6-63b4-4486-b5a9-e9d2e7175c44
+   :END:
+   sqlite3 numismatist.db
+* doing stuff from the SQLite interpreter
+** [[id:6bf9b3b6-63b4-4486-b5a9-e9d2e7175c44][launch the SQLite interpreter using a db]]
+** PITFALLS
+*** [[id:bd8eb06f-4ab7-4668-b6a8-6826b0506212][To write from the sqlite shell to a file, use the .output pragma.]]
+** dot commands
+*** They cannot be mixed with ordinary code.
+*** some important ones
+**** .mode : change the output format -- csv, json, etc.
+**** .tables : List all attached tables with
+**** .schema <optional table name> : List schema(s).
+**** .open closes the current db and attaches a new one.
+     Remember, [[id:15ef55e0-7152-4d5c-9b92-28c3d3720222][a database contains, in general, multiple tables.]]
+**** .output changes the destination of output.
+     Ordinarily it writes to stdout.
+***** To write from the sqlite shell to a file, use the .output pragma.
+      :PROPERTIES:
+      :ID:       bd8eb06f-4ab7-4668-b6a8-6826b0506212
+      :END:
+      sqlite> .mode list
+      sqlite> .separator |
+      sqlite> .output test_file_1.txt
+      sqlite> select * from tbl1;
+      sqlite> .exit
+      $ cat test_file_1.txt
+      hello|10
+      goodbye|20
+      $
+**** .read executes code in a (.sql, probably) file
+     The script file may contain dot-commands,
+     just like ordinary interactive input.
+**** .edit can be used to edit a long text cell.
+     https://www.sqlite.org/cli.html
+**** .import and .export are good interfaces to, say, .csv or .xls files
+*** There are a lot more.
+    One of them, .help, lists all of them.
+*** "Recover Data From a Corrupted Database"
+    https://www.sqlite.org/cli.html
+*** Testing db integrity
+    see "Database Content Self-Tests"
+    https://www.sqlite.org/cli.html
+** command-line options
+*** a big list
+    see "Command-line Options" here:
+    https://www.sqlite.org/cli.html
+*** --safe : only permit changes to the intended .db
+    -- that is, the .db that was named at the CL when calling sqlite
+    This is to avoid third-party scripts from doing bad things.
+** DONE internalized
+*** up and down supposedly navigate the command history
+    but not on my machine
+* SQLite syntax
+** a list of keywords
+   See the top of this page:
+   https://www.sqlite.org/lang.html
+** a picture of the grammar (pretty simple)
+   See the bottom of this page:
+   https://www.sqlite.org/lang.html
+** comments
+   Can cross multiple lines: /* ... */
+   For the tail of a single line: # ...
+** some commands
+*** create
+    create table tbl1 (one text, two int);
+*** insert
+    insert into tbl1 values ("a",2),
+                            ("b",3);
+*** select
+    select * from table_name;
+*** delete
+    DELETE FROM employees WHERE hire_date < '1990-01-01';
+** types
+*** the ones that exist
+**** TEXT
+**** NUMERIC
+**** INTEGER
+**** REAL
+**** BLOB
+**** ANY
+     This can be used in a STRICT table to escape strictness.
+*** PITFALL: Missing types
+    :PROPERTIES:
+    :ID:       e318a5c1-4ac1-44e0-a61e-4061c80b942f
+    :END:
+**** there is no Bool
+     FALSE and TRUE are *sometimes* treated as aliases for 0 and 1.
+     https://www.sqlite.org/quirks.html
+**** there is no Datetime
+     They give three options:
+***** As a TEXT string in the ISO-8601 format.
+      Example: '2018-04-02 12:13:46'.
+***** As an INTEGER number of seconds since 1970 (also known as "unix time").
+***** As a REAL value that is the fractional Julian day number."
+      https://en.wikipedia.org/wiki/Julian_day
+** pragmas
+*** are unique to SQLite
+*** Unrecognized pragmas are ignored.
+    :PROPERTIES:
+    :ID:       5a0a6bd3-8275-4ef5-bae4-1c9ba019c882
+    :END:
+*** Some of them take arguments.
+*** Their execution models vary.
+    Some happen at runtime, others at compilation time,
+    and yet others work as standalone queries --
+    for instance,
+    "information about the columns in an index can be read using the index_info pragma as follows: PRAGMA index_info('idx52');"
+*** GOOD: Use the STRICT keyword.
+    :PROPERTIES:
+    :ID:       1bc729e5-aa31-4edf-b457-2f316dcab64d
+    :END:
+**** create a strict table
+     Create Table table_name (
+       ...
+     ) STRICT;
+**** to check tables, using these PRAGMAs
+     "The PRAGMA integrity_check and PRAGMA quick_check commands check the type of the content of all columns in STRICT tables and show errors if anything is amiss."
+**** PITFALL: Early versions of SQLite don't understand it.
+     https://www.sqlite.org/stricttables.html
+*** a big list of them
+    See the bottom of this:
+    https://www.sqlite.org/pragma.html#toc
+** built-in scalar functions
+   abs, length, etc.
+   https://www.sqlite.org/lang_corefunc.html
+** built-in math functions
+   e.g. log, mod
+   https://www.sqlite.org/lang_mathfunc.html
+** json
+   https://www.sqlite.org/json1.html
+** date and time
+   This is about the types, some built-in functions, and some bugs.
+   https://www.sqlite.org/lang_datefunc.html
+** use semicolons to terminate statements
+** newlines seem not to matter
+** Wrap single quotes (' ... ') around string literals.
+** Scientific notation works.
+   The E is case-insensitive.
+** TODO binary data
+   I couldn't manage to create a record with binary (BLOB) data.

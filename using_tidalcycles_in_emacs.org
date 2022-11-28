@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       0ea59083-d5af-42cf-aea8-127c1cf3d7a2
+:ROAM_ALIASES: "TidalCycles in Emacs" "Emacs and TidalCycles"
+:END:
+#+title: using TidalCycles in Emacs
+alternatives
+* Use a local Tidal clone from Emacs, without using tidal.el.
+  :PROPERTIES:
+  :ID:       abc74ffc-26f2-4232-98c9-578ae2c97132
+  :END:
+** launch a shell in Emacs (`M-x shell`)
+   and within it:
+
+   cd /home/jeff/code/music/Tidal/tidal+epic # or wherever Tidal's root is
+   cabal repl
+   :s BootTidal.hs
+** mark it as the receiving GHCI buffer
+   M-x mark-rec-b TAB
+** to send text from a text buffer to GHCI
+   Define these functions, or something like them:
+   ```
+   ;; source:
+   ;; https://emacs.stackexchange.com/a/37889
+   (defun mark-receiver-buffer ()
+      (interactive)
+      (setq my-target (buffer-name)))
+
+   (defun send-highlighted-region-to-receiver-buffer (beg end)
+     (interactive "r")
+     (process-send-region my-target beg end)
+     (process-send-string my-target "\n"))
+   ```
+
+   Run `mark-receiver-buffer` from the buffer running cabal repl.
+
+   Once that's done, I can highlight text in any buffer (doesn't have to end in .tidal) and send it to the shell buffer with `send-highlighted-region-to-receiver-buffer`.
+* DO NOT use a global Tidal clone and tidal.el from Emacs.
+** start Tidal: C-c C-s
+   This will work, at least, from a file ending in .tidal.
+** evaluate a line: C-RET
+** evaluate multiple lines: C-c C-e

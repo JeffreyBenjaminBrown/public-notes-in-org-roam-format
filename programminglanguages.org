@@ -20,4 +20,5 @@
 ** [[id:0a492cdb-c234-48e2-bad8-b6afdd028cfb][Orca (text cellular automata language for music)]]
 ** [[id:7d6fb4d3-b3c4-4da3-9478-c8c711886710][Nickel (configuration language)]]
 * more
+** [[id:d49c9935-eecd-480d-a400-dd2113523911][SQL]]
 ** [[id:ff819483-7934-4d8d-b131-fd30d01a568f][TypeScript]]

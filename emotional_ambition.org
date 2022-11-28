@@ -2,6 +2,7 @@
 :ID:       13aba0e9-33c1-4f2b-906c-4ab3ab683522
 :END:
 #+title: emotional ambition
-It seems right to have them --
-to want, for instance, deeper relationships,
-or to be moved to tears by art.
+* It seems right to have them.
+  To want, for instance, deeper relationships,
+  or to be moved to tears by art.
+* [[id:792aec5d-797b-4ff7-bc48-ea814d22c4a1][wonder]]

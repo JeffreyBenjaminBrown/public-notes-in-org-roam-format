@@ -8,83 +8,66 @@
 ** https://tidalcycles.org/
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
-* TODO default values in TidalCycles
-  e.g. amp <- 0.4
-  https://club.tidalcycles.org/t/default-amp-value/4326
-* TODO Easy-to-use state in Tidal?!
-  https://club.tidalcycles.org/t/tidal-synth-how-to-assign-a-value-to-a-variable/4012
-* TODO Share the scale stuff
-  ~/code/music/Tidal/tidal+epic/demo/scales.hs
-* TODO cover Moon Hooch
-* TODO puzzles
-** It's so fun sometimes, and so dumb sometimes
-** I should try 12 tones
-** The information gets too messy
-*** Entangled, can't separate things, make things depend on other things without a lot of evaluation in different places in the document
-*** Sprawling
-** I get locked into tiny variations of a pattern that i ought to make bigger, more destructive changed to
-** My rhythm sucks
-** What's most fun in Tidal
-   is making stuff using the simple tools,
-   not making more complex tools.
-* TODO questions
-** [[id:73022421-1840-4f36-9d6c-915d9a1f9e5b][parameters that have no effect]]
-** What's "segment" for?
-   e.g. from here:
-     https://club.tidalcycles.org/t/creating-effects-chains-or-audio-buses/3707/3
-     d2 $ crushbus 1 (segment 128 $ range 6 1.1 (slow 4 saw))
-* TODO easy
-** warp (swing, etc.)
-*** Define an invertible map g from straight time to warped
-*** To query an arc, query the g-preimage of its endpoints, then apply g to all resulting events
-** meta :: f (f a -> f b) -> f a -> f b
-*** I defined it for Montevideo
-    https://github.com/JeffreyBenjaminBrown/montevideo/blob/b45d4a6aa304b724de5dac7518319be49a9bbee2/Montevideo/Dispatch/Join.hs#L294-L391
-*** asked Tidal
-    https://club.tidalcycles.org/t/has-anyone-defined-an-ap-like-function-f-f-a-f-b-f-a-f-b-where-f-pattern/3803
-** unit-interval Rational patterns
-   No new definitions needed --
-     fmap (/ 10) "0 2 5 10 15"
-   The result can then be multiplied by the number of scale degrees,
-   even as the scale varies.
-   Then quantized to an integer.
-   Then harmony rules applied, ala adjustVoices and avoidDiffsMod.
-** lookup patterns for operators
-*** the general form
-    d1 $ lu [ (1, rotate left),
-              (2, reverse) ]
- 	   "1 2 1"
-       <**> s "bd sn"
-*** a specialized form
-    could keep a hardwired first argument like
-    [ ("rl", <~ 1), ... ]
-    -- but that's hard, because many ops (e.g. <~) need arguments.
-* TODO harmony & u
-** Nudge the continuous frequency measure to align its important notes once quantized.
-** Some voices can use more out notes than others.
-   For instance, perhaps on the downbeat the bass should always be in-chord while the melody need not even be in-scale.
-** Distinguish chord from within scale.
-*** TODO How to use the distinction?
-*** how to represent the distinction
-    alternatives
-**** Give a list of scale indices.
-**** Provide two lists.
-     one of chord notes and one of out-of-chord scale notes.
-** ? multidimensional scale indices
-*** At least one dimension for priority
-    e.g. root, chord, scale and "out"
-    but maybe finer or coarser
-*** At least one dimension for, roughly, frequency.
-* There's room for more operators in the mini syntax.
-  Just use two characters.
-* TODO [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation in Tidalcycles]]
-* TODO [[id:3987c7c6-e49e-4751-9efb-599e9cd34467][Yaxu's ongoing remake of Tidal]]
-* TODO distortion in Tidal
-  Probably [[id:d41a981f-1a73-44bf-85fb-f5a80d72bea3][the bus solution]] will do it.
-  But see also
-    /home/jeff/code/music/Tidal/distort-a-sum.tidal-SC
+* TODO
+** TODO permit line continuations within strings
+   This would be an Emacs fix,
+   not a Haskell fix.
+** TODO the scale stuff is buggy
+   This should result in a monotonic sequence,
+   but does not:
+
+   > map (lke' 12 [0,1]) [-5..5]
+   [-35.0,-36.0,-23.0,-24.0,-11.0,0.0,1.0,12.0,13.0,24.0,25.0]
+*** TODO share the scale stuff
+    ~/code/music/Tidal/tidal+epic/demo/scales.hs
+** TODO open questions, probably
+*** It's so fun sometimes, and so dumb sometimes
+*** I should try 12 tones
+*** The information gets too messy
+**** Entangled, can't separate things, make things depend on other things without a lot of evaluation in different places in the document
+**** Sprawling
+*** I get locked into tiny variations of a pattern that I ought to make bigger, more destructive changes to
+*** My rhythm sucks
+*** What's most fun in Tidal
+    is making stuff using the simple tools,
+    not making more complex tools.
+** TODO [[id:25d56fbf-4695-4188-bdef-61d98cc4876a][questions about the language]]
+** TODO easy
+*** warp (swing, etc.)
+**** Define an invertible map g from straight time to warped
+**** To query an arc, query the g-preimage of its endpoints, then apply g to all resulting events
+*** unit-interval Rational patterns
+    No new definitions needed --
+      fmap (/ 10) "0 2 5 10 15"
+    The result can then be multiplied by the number of scale degrees,
+    even as the scale varies.
+    Then quantized to an integer.
+    Then harmony rules applied, ala adjustVoices and avoidDiffsMod.
+*** TODO cover Moon Hooch
+*** There's room for more operators in the mini syntax.
+    Just use two characters.
+*** make variations on `hitspan`
+    using other parameters.
+    `histpan` is a transition function that pans repetitions of a pattern.
+** TODO harmony
+*** Nudge the continuous frequency measure to align its important notes once quantized.
+*** Some voices can use more out notes than others.
+    For instance, perhaps on the downbeat the bass should always be in-chord while the melody need not even be in-scale.
+*** Distinguish chord from within scale.
+**** TODO How to use the distinction?
+**** how to represent the distinction
+     alternatives
+***** Give a list of scale indices.
+***** Provide two lists.
+      one of chord notes and one of out-of-chord scale notes.
+*** ? multidimensional scale indices
+**** At least one dimension for priority
+     e.g. root, chord, scale and "out"
+     but maybe finer or coarser
+**** At least one dimension for, roughly, frequency.
+* the [[id:543397e7-733f-4d56-bf58-35f5e9d83b5e][TidalCycles language]]
 * Tidalcycles: [[id:62d4071a-c7d5-4671-baa5-94b620fe2a77][installing and updating]]
-* launching it
+* how to launch it
 ** in SCIDE, launch this
    ~/.local/share/SuperCollider/downloaded-quarks/SuperDirt/superdirt_startup.scd
 *** DONE I no longer need to add a line to specify `ugenPluginsPath`.
@@ -93,45 +76,8 @@
     to let SC know it exists.
     [[id:b45a1d6d-3cef-472e-9c4f-44b8296bd17e][Details here]].
 ** then [[id:abc74ffc-26f2-4232-98c9-578ae2c97132][do TidalCycles via Emacs]]
-* Use TidalCycles in Emacs.
-  alternatives
-** Use a local Tidal clone from Emacs, without using tidal.el.
-  :PROPERTIES:
-  :ID:       abc74ffc-26f2-4232-98c9-578ae2c97132
-  :END:
-*** launch a shell in Emacs (`M-x shell`)
-    and within it:
-
-    cd /home/jeff/code/music/Tidal/tidal+epic # or wherever Tidal's root is
-    cabal repl
-    :s BootTidal.hs
-*** mark it as the receiving GHCI buffer
-    M-x mark-rec-b TAB
-*** to send text from a text buffer to GHCI
-    Define these functions, or something like them:
-    ```
-    ;; source:
-    ;; https://emacs.stackexchange.com/a/37889
-    (defun mark-receiver-buffer ()
-       (interactive)
-       (setq my-target (buffer-name)))
-
-    (defun send-highlighted-region-to-receiver-buffer (beg end)
-      (interactive "r")
-      (process-send-region my-target beg end)
-      (process-send-string my-target "\n"))
-    ```
-
-    Run `mark-receiver-buffer` from the buffer running cabal repl.
-
-    Once that's done, I can highlight text in any buffer (doesn't have to end in .tidal) and send it to the shell buffer with `send-highlighted-region-to-receiver-buffer`.
-** DO NOT use a global Tidal clone and tidal.el from Emacs.
-*** start Tidal: C-c C-s
-    This will work, at least, from a file ending in .tidal.
-*** evaluate a line: C-RET
-*** evaluate multiple lines: C-c C-e
-* [[id:543397e7-733f-4d56-bf58-35f5e9d83b5e][TidalCycles language]]
-* To exit gracefully: use :q before closing.
+* [[id:0ea59083-d5af-42cf-aea8-127c1cf3d7a2][how to use TidalCycles in Emacs]]
+* how to exit (gracefully)
+  Use :q before closing.
   Otherwise Qjackctl thinks something is still connected.
-* To add mini-notation parameter functions (ala "pan")
-** edit bin/generate-params.hs
+* [[id:3987c7c6-e49e-4751-9efb-599e9cd34467][Yaxu's ongoing remake of Tidal]]

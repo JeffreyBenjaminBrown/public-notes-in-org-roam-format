@@ -2,6 +2,7 @@
 :ID:       001d7913-c431-461c-92ae-a6a39394856c
 :END:
 #+title: computer science
+* [[id:4bd7f12e-2061-40e9-9e98-683552f40918][contribute to open source projects]]
 * [[id:bd48b7ca-4620-49a0-b5a5-915205f7e78e][good coding habits]]
 * subfields
 ** [[id:e1f7f6e9-3a9a-4804-91f5-7751d7f4e9b8][algorithms]]
