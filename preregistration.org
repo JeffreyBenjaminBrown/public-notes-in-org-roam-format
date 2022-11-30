@@ -3,6 +3,7 @@
 :END:
 #+title: preregistration
 * https://en.wikipedia.org/wiki/Preregistration_(science)
+* TODO read Ed Miguel's work on preregistration
 * Seems to solve even more problems than you might think.
   This is what I remember from someone's presentation of it
   at PUJ before 2020.

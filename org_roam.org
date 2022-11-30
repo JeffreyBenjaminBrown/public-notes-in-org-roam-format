@@ -4,6 +4,7 @@
 #+title: org-roam
 * refs
 ** for help : the Discourse group
+* PITFALL: [[id:a90bc443-c736-4e76-ac3b-348708f57cbc][Don't keep two similar tables in the same .org file.]]
 * org-roam-extract-subtree
   :PROPERTIES:
   :ID:       75c26e6a-e72c-4ae7-9c30-39efe7c164c9

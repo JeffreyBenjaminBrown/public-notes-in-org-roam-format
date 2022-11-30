@@ -2,6 +2,7 @@
 :ID:       0591e33a-f3b2-414a-ac40-c3071348758d
 :END:
 #+title: funny things
+* [[id:4bee1cff-403d-43e4-a8a6-eb72f573cbfa][enlightenment as betrayal]]
 * [[id:858021f5-8474-4490-b30e-371159e35db6][Consciousness => every moment is amazing.]]
 * [[id:fc62e211-be72-469f-a543-2950c0e2c975][contrarianism]]
 * [[id:7122d693-91f9-4fa7-b674-d8fcebc4878d][amusingly uncomfortable truths]]

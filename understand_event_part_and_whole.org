@@ -4,3 +4,5 @@
 #+title: understand Event, part and whole in Tidalcycles
 * ref (discussion I started)
   https://club.tidalcycles.org/t/what-are-the-part-and-the-whole-in-an-event/4414/3
+* resulting pull request
+  https://github.com/tidalcycles/Tidal/pull/976

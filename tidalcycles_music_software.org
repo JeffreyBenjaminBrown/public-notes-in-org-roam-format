@@ -12,6 +12,19 @@
 ** TODO permit line continuations within strings
    This would be an Emacs fix,
    not a Haskell fix.
+*** some code that might be close
+(defun send-highlighted-region-to-receiving-ghci-buffer (beg end)
+  (interactive "r")
+  (process-send-string receiving-ghci-buffer ":{\n")
+  ;; (replace-regexp-in-string "a" "b" "ab")
+  ;; (setq message (buffer-substring beg end))
+  ( process-send-string receiving-ghci-buffer
+		       ( replace-regexp-in-string
+			 "\\\n" "" (buffer-substring beg end ) ) )
+  (process-send-string receiving-ghci-buffer "\n:}\n"))
+(global-set-key ( kbd "C-c s")
+		( lambda () (interactive)
+		  (send-highlighted-region-to-receiving-ghci-buffer) ) )
 ** TODO the scale stuff is buggy
    This should result in a monotonic sequence,
    but does not:

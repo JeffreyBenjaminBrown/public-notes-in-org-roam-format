@@ -3,12 +3,15 @@
 :ROAM_ALIASES: information epistemology ontology "organizing knowledge"
 :END:
 #+title: knowledge graphs
+* TODO ask for ideas for a [[id:c48cbb26-cdf3-4109-b729-3abd58c2d4bc][social knowledge base app for epistemology]]
 * [[id:25e13f6c-b134-4305-a4d5-327739dd7b8f][some graph databases with Datalog engines]]
 * A thread on resources for learning about how to create an ontology
 ** https://twitter.com/Mappletons/status/1583350653933748224?t=XAoP8v8ktyZ7xeDf_qfGHA&s=19
 * TODO [[id:f9ee18e9-68f2-4f10-b10d-c91186b797e3][Agora (shared knowledge base (cprotocol))]]
-* [[id:15c15ae2-bb60-4f6e-9e6d-e9045f9c0132][Review notes on anything that could be a disaster.]]
-* [[id:d283b6a3-205b-4a7c-9338-aa458f091691][Use my "prefix-date-uri" script.]]
+* how to use a knowledge graph
+** [[id:15c15ae2-bb60-4f6e-9e6d-e9045f9c0132][Review notes on anything that could be a disaster.]]
+** [[id:d283b6a3-205b-4a7c-9338-aa458f091691][Use my "prefix-date-uri" script.]]
+** [[id:801dad54-f3a9-4b27-97f5-3e3ab3b6dbe5][reading and rewriting notes]]
 * [[id:f5d81cd6-dcc9-414b-bf9b-2c7f4ca1cd29][my data]]
 * [[id:4cb72658-2d91-4450-8bd5-54e04d3de051][Some ideas on networking minds from DynoMight.]]
 * [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]

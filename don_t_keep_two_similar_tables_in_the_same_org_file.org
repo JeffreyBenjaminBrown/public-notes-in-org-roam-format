@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a90bc443-c736-4e76-ac3b-348708f57cbc
+:END:
+#+title: Don't keep two similar tables in the same .org file.
+Rather, keep two hyperlinks in it, to two more separate files.
+Otherwise, when searching for one table,
+I'll often find and edit the other, which sucks.

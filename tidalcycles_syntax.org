@@ -189,6 +189,15 @@
    Applies the conformal map
    (the thing that makes Mandelbrot sets, I think).
    Weird vocoder artifacts.
+** legato
+   Based on my experiments, not code or documentation.
+*** Says how long samples should last when interrupted.
+    If less than one, the sample ends before interrupted.
+    If 2, it lasts twice as long as it took to get interrupted.
+    Etc.
+** cut
+   Assings the voice to a cut group.
+   It will end as soon as anything else in the same cut group starts.
 * [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation in Tidalcycles]]
 * distortion in Tidal
   Probably [[id:d41a981f-1a73-44bf-85fb-f5a80d72bea3][the bus solution]] will do it.

@@ -2,6 +2,8 @@
 :ID:       39862c2f-be95-4a38-a1ee-0434c194b4e5
 :END:
 #+title: Samsung M31
+* when I bought it
+  Oct 2020
 * average charge speeds
 ** At home, in the 40-80% band
    (1 + 3/8) minutes per percentage point

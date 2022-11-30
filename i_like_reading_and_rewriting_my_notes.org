@@ -2,7 +2,7 @@
 :ID:       801dad54-f3a9-4b27-97f5-3e3ab3b6dbe5
 :END:
 #+title: reading and rewriting my notes
-* TODO merge: [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][onsult your notes : why and how]]
+* TODO merge: [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult your notes : why and how]]
 * Be clear on the purpose.
   Shuffling mindmaps is not something I do for the mindmap's sake!
   It is how I think.

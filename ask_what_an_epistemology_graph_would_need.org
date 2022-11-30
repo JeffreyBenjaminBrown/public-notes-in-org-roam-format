@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       c48cbb26-cdf3-4109-b729-3abd58c2d4bc
+:END:
+#+title: social knowledge base app for epistemology
+* people to ask
+** [[id:4d3b3efd-41a9-49a9-be5a-740d83b15ac9][Flancian, the guy who made Agora]]
+* big ideas
+** [[id:4cb72658-2d91-4450-8bd5-54e04d3de051][Some ideas on networking minds from DynoMight.]]
+** [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]
+** make successful behaviors discoverable
+   e.g. if someone uses ad-hominem attacks a lot,
+   and people can filter out big users of ad-hominem attacks,
+   they will. If others can see that ad-hominem attacks don't work,
+   they'll not do it.
+* check out smsn-why
+  https://github.com/synchrony/smsn-why/tree/master/pending%20or%20incomplete
+** examples of queries
+   "Who needs what from me by Monday?"
+   "What have scientists said about global warming?"
+   "What are some true stories that illustrate the value of being kind?"
+* notes from SmSn
+** know, do, teach : each a separate upper ontology
+** ? what do (can) only the unreliable know (prove)
+   art, mysticism
+** [timestamps will matter]
+** [there are] four alternative readings of owl:sameAs
+** Living vicariously saves time.
+** [Fiction] is information about those who created it [and their (social) context]
+** "A tactical guide to kickstarting your community"
+   https://orbit.love/blog/a-tactical-guide-to-kickstarting-your-community/
+*** and YCombinator comments
+    https://news.ycombinator.com/item?id=26413955
+** "creating a sense of psychological safety [and connection] is key to facilitating many-to-many conversations"
+* important relationships
+** inspired
+   "x inspired y" is most credible by the author of y
