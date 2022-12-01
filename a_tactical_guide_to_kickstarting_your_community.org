@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       88ccba5f-44f6-4748-9ae0-962cc48272f4
+:END:
+#+title: A tactical guide to kickstarting your community
+* refs
+** source
+   https://orbit.love/blog/a-tactical-guide-to-kickstarting-your-community/
+** YCombinator comments
+   https://news.ycombinator.com/item?id=26413955
+* "creating a sense of psychological safety is key to facilitating many-to-many conversations"

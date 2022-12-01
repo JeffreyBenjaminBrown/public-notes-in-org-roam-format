@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f514b748-c188-4b71-afcd-48206b62a67e
+:END:
+#+title: community-building
+* [[id:88ccba5f-44f6-4748-9ae0-962cc48272f4][A tactical guide to kickstarting your community]]

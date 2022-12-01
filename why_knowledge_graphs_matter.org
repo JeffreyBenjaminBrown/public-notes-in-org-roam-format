@@ -3,7 +3,7 @@
 :END:
 #+title: why knowledge graphs matter
 * Users control their own views.
-** against The Feed
+** against The Feed Algorithm
    Rather than being only ever fed their
    (altorithmically often destructive, and always dumb) "feed".
 ** Cut through spam.
