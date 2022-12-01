@@ -7,7 +7,8 @@
 * Seems to solve even more problems than you might think.
   This is what I remember from someone's presentation of it
   at PUJ before 2020.
+** solves the problem of [[id:941aef35-0419-4a8d-8e80-e4703a1f36dd][losing negative results (scientific publishing problem)]]
+** solves the [[id:ccc083c0-4785-447c-9f24-f9780b8d1445][duplication of futile research agendas]]
 ** can't cherry-pick regressions
 ** can't adjust a treatment mid-experiment
-** lets you see what kinds of research have proven too hard to finish
 ** journals can accept before knowing the results, eliminating bias

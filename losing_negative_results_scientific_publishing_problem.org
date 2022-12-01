@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       941aef35-0419-4a8d-8e80-e4703a1f36dd
+:END:
+#+title: losing negative results (scientific publishing problem)
+* the problem
+  If a test's result turns out to be "uninteresting",
+  it is likely never to be published, and thus be hard to discover.
+  But if the test was worth running,
+  the result is worth making available to everyone.
+* related: [[id:ccc083c0-4785-447c-9f24-f9780b8d1445][duplication of futile [research] agendas]]

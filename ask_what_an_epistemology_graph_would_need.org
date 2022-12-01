@@ -4,9 +4,8 @@
 :END:
 #+title: social knowledge base app for epistemology
 * sources
-** DONE
+** DONE (processed)
 *** [[id:4cb72658-2d91-4450-8bd5-54e04d3de051][Some ideas on networking minds from DynoMight.]]
-** to process
 *** [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]
 *** check out smsn-why
     https://github.com/synchrony/smsn-why/tree/master/pending%20or%20incomplete
@@ -73,6 +72,7 @@
     e.g. "look out -- this person seems to have a ready opinion on everything"
 *** schedule it
     "Don't show me politics when it's close to bedtime."
+** creative reading
 ** freedom to speak freely
 *** [Fiction] is information about those who created it [and their (social) context]
 *** disappearing messages are popular
@@ -85,6 +85,16 @@
     if it includes the history.
 *** NLP spiders
     could look for earlier equivalent staements.
+** better, optional gamification
+   Page views, likes, retweets -- these are like scores in a video game. They are salient, always in view, and often treated as somethinig to maximize. More important kinds of information -- which questions were you able to answer? how many minds did you change? how many people did you help?
+** higher-level metadata
+   judge the judges
+   judge the judgements
+   maybe judge the judgment algorithms
+* stretch goals
+** web-crawler-genderated newsfeed
+** for spirituality
+   I wrote about spiritual lenses on knowledge graphs some in smsn-why/.
 * DONE probably
 ** not clearly important
 *** know, do, teach : each a separate upper ontology

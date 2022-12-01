@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       ccc083c0-4785-447c-9f24-f9780b8d1445
+:END:
+#+title: duplication of futile agendas
+* the problem
+  If a project seems feasible until you've invested substantially in it,
+  but then goes nowhere, others are likely to try the same thing.
+* related: the problem of [[id:941aef35-0419-4a8d-8e80-e4703a1f36dd][losing negative results (scientific publishing problem)]]

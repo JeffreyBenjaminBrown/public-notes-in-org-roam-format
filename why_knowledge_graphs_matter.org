@@ -10,11 +10,11 @@
    identify bots and (human-powered) comment farms,
    through a collective identification effort.
 * Users can query to judge sources.
-** THe viewer can see what they themselves, or others, have marked as false among a writer's earlier posts, and the evidence for or against.
+** The viewer can see what they themselves, or others, have marked as false among a writer's earlier posts, and the evidence for or against.
 * science, how distributed knowledge graphs could help
 ** These smell much like the benefits of [[id:ce68f01a-0392-460d-a43d-1e0465355ad2][preregistration]].
 ** some reasons
 *** Quicker publishing (like Twitter or ArXiV)
-*** don't lose negative results
+*** solves the problem of [[id:941aef35-0419-4a8d-8e80-e4703a1f36dd][losing negative results (scientific publishing problem)]]
 *** don't duplicate effort
 *** lets you see what kinds of research have proven too hard to finish.
