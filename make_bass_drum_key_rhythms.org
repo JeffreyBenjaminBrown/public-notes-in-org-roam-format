@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       f43e3514-fe0a-4218-825b-fc26b5108e32
+:END:
+#+title: make bass-drum-key rhythms

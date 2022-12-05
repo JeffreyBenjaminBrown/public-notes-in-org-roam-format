@@ -9,6 +9,7 @@
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
 * TODO
+** [[id:f43e3514-fe0a-4218-825b-fc26b5108e32][make bass-drum-key rhythms]]
 ** TODO permit line continuations within strings
    This would be an Emacs fix,
    not a Haskell fix.
