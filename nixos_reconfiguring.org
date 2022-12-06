@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       17e1cea2-480d-4cda-ad7c-ffbb7f5c3989
 :END:
-#+title: NixOS, (re)configuring
+#+title: NixOS ,, configuring | reconfiguring
+* [[id:e1eda15a-df86-4050-b150-e8034ae49019][nixos-rebuild (command)]]
 * find the possible completions given a NixOS package prefix
   Here the prefix is "emacsPackages":
 

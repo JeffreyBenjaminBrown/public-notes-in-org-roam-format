@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e1eda15a-df86-4050-b150-e8034ae49019
+:END:
+#+title: nixos-rebuild (command)
+* to rebuild NixOS nicely
+  :PROPERTIES:
+  :ID:       5d575d7a-e417-4807-813b-61bea82e9cff
+  :END:
+  sudo nice -n 19 nixos-rebuild switch
