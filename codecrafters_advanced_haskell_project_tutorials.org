@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       35f86836-1d9d-44e1-994f-f3587e0a0d70
+:END:
+#+title: CodeCrafters: advanced Haskell project tutorials
+https://app.codecrafters.io/tracks/haskell
+It costs money.

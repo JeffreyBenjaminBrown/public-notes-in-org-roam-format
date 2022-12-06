@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "install linux"
 :END:
 #+TITLE: linux, how to reinstall
+* TODO [[id:4f42f437-d17f-4c5a-b980-efe0775e15b4][KDE lets you export a shortcut scheme!]]
 * TODO PITFALL: Don't keep more than one USB drive plugged in at once
 when doing big write ops.
 November 2020 I did that, tried to write NixOS 20.09 onto one of them,

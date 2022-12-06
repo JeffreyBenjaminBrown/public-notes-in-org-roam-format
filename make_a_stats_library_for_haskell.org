@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       3a852c6d-c81b-47d7-8f9a-a9e2fccc24eb
+:END:
+#+title: make a stats/ML library for Haskell

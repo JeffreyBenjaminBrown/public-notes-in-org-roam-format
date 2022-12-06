@@ -114,3 +114,5 @@
     and that that's what's important for me to know about it.
 ** DONE
 *** "[[id:a35db7a3-3341-46ae-9577-eedfc7f45afd][How to run a tech giant]]"
+** Krugman's NYT email newsletter catalog
+   https://www.nytimes.com/column/paul-krugman

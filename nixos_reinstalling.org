@@ -8,6 +8,7 @@
   Before I had it working I asked some questions here:
   https://discourse.nixos.org/t/nixos-20-09-fresh-vanilla-install-this-gpt-partition-label-contains-no-bios-boot-partition/9903/6
 * TODO every time
+** [[id:4f42f437-d17f-4c5a-b980-efe0775e15b4][KDE lets you export a shortcut scheme!]]
 ** update system-minimal and system-<target> in nix/jbb
    before copying it to the new system
 ** save data, and shuttle some of it to the new system during installation

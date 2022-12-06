@@ -1,7 +1,9 @@
 :PROPERTIES:
 :ID:       ce68f01a-0392-460d-a43d-1e0465355ad2
+:ROAM_ALIASES: "pre-analysis plan"
 :END:
 #+title: preregistration
+* a.k.a. "pre-analysis plan"
 * https://en.wikipedia.org/wiki/Preregistration_(science)
 * TODO read Ed Miguel's work on preregistration
 * Seems to solve even more problems than you might think.

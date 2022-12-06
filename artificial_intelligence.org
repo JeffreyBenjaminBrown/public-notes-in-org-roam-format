@@ -10,3 +10,6 @@
    closed-source AI for music generation and continuation
 ** [[id:b965e4a4-3577-4273-b722-5955666ecd75][Stable Diffusion]]
    open-source AI for text-to-image and related processes
+* [[id:1d1968f5-9aaa-4557-9ad7-6374dc53cf20][ChatGPT]]
+* tricking an AI into describing its internal experience
+** [[id:54449ce3-9877-4dab-90a8-630f6ced272e][some prompts designed to get ChatGPT to describe its internal state]]

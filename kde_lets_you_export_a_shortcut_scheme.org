@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       4f42f437-d17f-4c5a-b980-efe0775e15b4
+:END:
+#+title: KDE lets you export a shortcut scheme!
+* where it is
+  Under Settings -> Shortcuts, it's a button at the bottom.
+* I saved one
+  [[~/nix/jbb/config/jbb-kde-shortcuts.kksrc]]

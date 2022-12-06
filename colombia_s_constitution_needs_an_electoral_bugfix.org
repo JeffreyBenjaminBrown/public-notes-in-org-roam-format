@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9a5bd227-9e5b-4464-ba45-52eea7b510f7
+:END:
+#+title: Colombia's constitution needs an electoral bugfix
+* If anybody can vote for anybody, all it takes is a small clique of people to elect a senator, because most votes go towards the most popular.
+* Instead, each region should have to choose between a small number of candidates, thereby giving the chance to throw out someone corrupt.

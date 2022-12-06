@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8b580c03-cae2-455a-9135-f9bfd0929599
+:END:
+#+title: OpenAI
+* [[id:1d1968f5-9aaa-4557-9ad7-6374dc53cf20][ChatGPT]] (large language model)
+* [[id:7bde5646-14eb-4dce-a2d1-0d44804b737a][Jukebox]] (music generator)
