@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       5532a74a-cefd-4ff3-89f2-81b27a84c0ca
+:END:
+#+title: swap keyboard keys in Linux
+e.g. swap ESC and CapsLock
+* TODO I'm currently using two different methods.
+  I swap ESC and CapsLock via KDE, hence only in KDE,
+  but I map the other should-be-Super key to Super via Xmodmap.
+* using`xev` and `Xmodmap`
+** use `xev` to find the keycode a key emits
+   On NixOS that's installed via the `xorg.xev` package.
+** write (what I'm calling) a key-remapping command
+   I don't know what grammar that's in,
+   but here's an example of such a command:
+     keycode 135 = Super_R
+** put that command in ~/.Xmodmap
+** be sure `xmodmap` is installed
+   in NixOS, it's in the `xorg.xmodmap` package
+* using KDE
+  It's in Settings somewhere.
+* a guide, which might not describe any of the methods in this file
+  https://ictsolved.github.io/remap-key-in-linux/

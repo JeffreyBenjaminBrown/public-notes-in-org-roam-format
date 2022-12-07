@@ -2,6 +2,7 @@
 :ID:       e1eda15a-df86-4050-b150-e8034ae49019
 :END:
 #+title: nixos-rebuild (command)
+* TODO [[id:13b039ff-e492-44ba-8284-a6ed016d9357][system.autoUpgrade slows my system to a crawl]]
 * to rebuild NixOS nicely
   :PROPERTIES:
   :ID:       5d575d7a-e417-4807-813b-61bea82e9cff

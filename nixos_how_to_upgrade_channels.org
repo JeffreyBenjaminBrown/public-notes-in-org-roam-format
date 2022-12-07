@@ -1,8 +1,8 @@
 :PROPERTIES:
 :ID:       ac6d4247-4880-4740-9aa3-0407f4d8b397
-:ROAM_ALIASES: "NixOS channels"
 :END:
-#+title: NixOS, how to upgrade (channels)
+#+title: NixOS channels, and upgrading them
+* PITFALL: [[id:1f2b24c4-6d74-4fe5-9b09-5536667d759f][nixos-unstable means lots of rebuilding]]
 * "upgrading NixOS" seems (lately = 21.11) to mean only "switching channels"
 ** evidence
    https://discourse.nixos.org/t/21-11-has-been-released/16353/7?u=jeffreybenjaminbrown

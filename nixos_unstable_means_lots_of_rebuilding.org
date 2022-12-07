@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       1f2b24c4-6d74-4fe5-9b09-5536667d759f
+:END:
+#+title: nixos-unstable means lots of rebuilding
+https://discourse.nixos.org/t/system-autoupgrade-nearly-halts-my-system-even-though-nixos-rebuild-doesnt/23820/4
+"because you are tracking nixos-unstable, you often have to recompile packages that aren’t in the cache yet."

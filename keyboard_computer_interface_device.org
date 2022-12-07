@@ -2,7 +2,7 @@
 :ID:       042d6b8f-a1d7-415b-b432-f2c3bc50df32
 :END:
 #+title: keyboard (computer interface device)
-* [[id:f85bf9f1-eeb9-4c55-8078-5b3a0cbac0e7][to swap keyboard keys in any Linux environment]]
+* [[id:5532a74a-cefd-4ff3-89f2-81b27a84c0ca][swap keyboard keys in Linux]]
 * some keyboard designs
 ** [[id:23190a98-ca52-42ed-b616-d78c42f8a737][Azeron keypad]]
 ** [[id:b5f64daf-75d4-46c4-a9eb-d17ad82a30e1][split keyboards]]

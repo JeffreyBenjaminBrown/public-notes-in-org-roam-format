@@ -14,12 +14,7 @@
 * [[id:c73d3380-7909-46bc-87de-b6e51dea11ac][Linux, installing]]
 * [[id:5ec64c3d-c92f-4bd5-a280-718ac69f83f9][Linux desktop environments with native screen zoom]]
 * [[id:b736de75-e4cc-4390-a12b-85b13dd3ad3b][battery monitoring and control in Linux]]
-* to swap keyboard keys in any Linux environment
-  :PROPERTIES:
-  :ID:       f85bf9f1-eeb9-4c55-8078-5b3a0cbac0e7
-  :END:
-  e.g. swap ESC and CapsLock
-  https://ictsolved.github.io/remap-key-in-linux/
+* [[id:5532a74a-cefd-4ff3-89f2-81b27a84c0ca][swap keyboard keys in Linux]]
 * [[id:2734843e-60bb-481b-b1e3-7343c8840414][How to run Windows 11 and MacOS virtual machines in Linux]]
 * [[id:00691b2a-7ecd-4675-aab5-2462243a54f8][user and group IDs in Linux]]
 * [[id:de30e8da-4c6f-4638-b063-45fb20eb3255][latencytop: a Linux latency monitoring tool]]

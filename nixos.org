@@ -3,7 +3,7 @@
 :ROAM_ALIASES: NixOS
 :END:
 #+TITLE: NixOS (operating system)
-* TODO [[id:be03eee0-f812-4d92-a56d-693f45a8714f][set nice level for automatic NixOS rebuild]]
+* TODO [[id:13b039ff-e492-44ba-8284-a6ed016d9357][system.autoUpgrade slows my system to a crawl]]
 * [[id:8216a071-2341-4866-a716-54e77baa8f2f][Nix (configuration language)]]
 * TODO [[id:27ec44e3-e227-489e-8437-36c9f3807fda][Error: "Unit window-manager not found"]]
 * REFERENCES
