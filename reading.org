@@ -15,6 +15,7 @@
    (The trick is not, of course, to change my beliefs,
    but rather to act in accordance with them.)
 * material to absorb
+** [[id:57bda0de-f065-4801-9ef0-f86859318350][some AI learning resources]]
 ** Resume reading about POW camp economics
    at the last section on page 196, "Bully Marks",
    (which I actually read a page into but might not remember).

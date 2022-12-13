@@ -2,7 +2,7 @@
 :ID:       d73993b4-9c64-4365-8300-bb7b1e6e439b
 :END:
 #+title: programming languages
-* with properties I like
+* cool ones
 ** [[id:cacfa0be-acc2-4628-bb21-81feb12ec268][Pharo]] looks amazing
 ** [[id:8663f460-bf38-4037-9a7f-f5b954639027][Flix]] looks amazing
 ** [[id:8c3a9427-ea28-4d17-bb1f-c27012836646][Glicol (for live coding music & graphs)]]
@@ -19,6 +19,7 @@
 ** [[id:2159ee76-0555-42ab-b09a-87db6313b559][Unison (programming language)]]
 ** [[id:0a492cdb-c234-48e2-bad8-b6afdd028cfb][Orca (text cellular automata language for music)]]
 ** [[id:7d6fb4d3-b3c4-4da3-9478-c8c711886710][Nickel (configuration language)]]
-* more
+* useful ones
+** [[id:c9e06dae-2822-4de0-9fb4-34eb660c0fd6][Dart]]: supposedly easy cross-platform programming
 ** [[id:d49c9935-eecd-480d-a400-dd2113523911][SQL]]
 ** [[id:ff819483-7934-4d8d-b131-fd30d01a568f][TypeScript]]

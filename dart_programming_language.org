@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       c9e06dae-2822-4de0-9fb4-34eb660c0fd6
+:END:
+#+title: Dart (programming language)
+* Supposedly makes cross-platform* easy.
+  * web / mobile / desktop
+* Flutter might be needed too.

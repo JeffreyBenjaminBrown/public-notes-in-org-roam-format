@@ -2,6 +2,13 @@
 :ID:       627da2c2-2f34-46ac-a6d3-9c625c4ff31d
 :END:
 #+title: artificial intelligence
+* TODO some learning resources
+  :PROPERTIES:
+  :ID:       57bda0de-f065-4801-9ef0-f86859318350
+  :END:
+** Transformer NNs
+*** Via Daniel
+*** https://builtin.com/artificial-intelligence/transformer-neural-network
 * AI and art
   :PROPERTIES:
   :ID:       15ee7d34-e7b6-493a-a686-6edb81114c96

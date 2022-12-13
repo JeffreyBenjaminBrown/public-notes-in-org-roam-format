@@ -3,6 +3,7 @@
 :END:
 #+title: music
 * u
+** TODO Try fixing a rhythm in the left hand
 ** TODO Tidal: [[id:f43e3514-fe0a-4218-825b-fc26b5108e32][make bass-drum-key rhythms]]
 ** Finding edo layouts
 *** In both coordinate systems, compute the sum of squared errors.
