@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       2a224c00-fb0a-45a4-933b-bdf03d52d9de
+:END:
+#+title: random numbers in Haskell
+* There's a better monadic solution.
+* My cheesy solution,
+  -- | Demo: A random generation of a stream of floats.
+  random_stream_of_floats :: IO ()
+  random_stream_of_floats =
+    go $ random_sequence (0 :: Float, 1) where
+    go :: [Float] -> IO ()
+    go nums = let
+      ([randomNumber], rest) = splitAt 1 nums
+      in do putStrLn "Ready?"
+            _ <- getChar
+            putStrLn $ show randomNumber
+            go rest
+
+  random_sequence :: UniformRange a
+                  => (a, a) -> [a]
+  random_sequence (min, max) =
+    unfoldr (Just . uniformR (min, max)) myStdGen
+
+  myStdGen :: R.StdGen
+  myStdGen = mkStdGen random_seed
+
+  random_seed :: Int
+  random_seed = 7 -- Might want to change.

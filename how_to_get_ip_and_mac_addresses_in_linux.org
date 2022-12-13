@@ -5,7 +5,6 @@
 * Know which subsystem I need info on.
 ** If I'm being asked for the wired connection, read the entry under `eno1`.
 ** If I'm being asked for the wireless connection, read the one under something that starts with `wlp`.
-**
 * run `ifconfig`
   Actually, some people online say that's deprecated,
   and one should use `ip` instead.

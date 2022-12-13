@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       f9f18c7f-b96a-4986-b772-23efbcac60cf
+:END:
+#+title: HUnit (Haskell testing library)
+* an example
+module Tests where
+
+import Test.HUnit
+
+
+allTests :: IO Counts
+allTests = runTestTT $ TestList
+  [ aTestSuite ]
+
+aTestSuite :: Test
+aTestSuite = TestList [
+    TestLabel "testOverlap" testOverlap ]
+
+aTest :: Test
+aTest = TestCase $ do
+    assertBool "" $ True
+* Avoid name collisions by not qualifying imports to the master test.
+  For instance:
+
+module Montevideo.Test where
+
+import Test.HUnit
+
+import Montevideo.JI.Thanos.Test
+import Montevideo.Monome.Test.EdoMath
+...
+
+allTests :: IO Counts
+allTests = runTestTT $ TestList
+  [ Montevideo.JI.Thanos.Test.tests
+  , Montevideo.Monome.Test.EdoMath.tests
+  ...
+  ]
