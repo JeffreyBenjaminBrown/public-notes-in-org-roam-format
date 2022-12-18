@@ -26,30 +26,7 @@
 ** Folders and file types are documented
    see "REAPER’s Installed Folders and File Location"
    see "REAPER File Types"
-** Surprisingly configurable
-*** gllobal settings that are surprisingly configurable
-**** Undo preferences
-**** Whether to automatically "load last active project"
-**** how scrolling works
-*** project settings that are surprisingly configurable
-**** time signature: beats or whole samples
-**** "timebase" for items/envelopes markers and for tempo/time sig
-**** paths
-**** "copy media on import"
-**** audio format specifications
-     e.g. bit depth for WAV files
-**** "behavior when one media item is placed on top of another"
-     "Options are for enclosed items to replace enclosing items, items always to be mixed, or for the newer item to replace older item."
-**** "feedback in routing"
-**** synchronize to external timecode
-**** "Preserve pitch when changing rate."
-**** pan law, and whether pan is stereo
-*** Notes can be attached to a project.
-*** whether the transport bar is "Dock"ed
-*** "Themes" and "layouts" are deep.
-    They include which controls are displayed.
-    "Layouts" might be a subcomponent of "themes".
-*** whether to report possible "audio underrun"s
+** [[id:87336c4a-073b-42fe-a0d0-40f9cece91f6][Reaper is surprisingly configurable.]]
 ** the Transport Bar
 *** Show with C-M-t
 *** Record: C-r
