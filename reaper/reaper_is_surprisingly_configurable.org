@@ -20,15 +20,27 @@
 ** "Preserve pitch when changing rate."
 ** pan law, and whether pan is stereo
 * Notes can be attached to a project.
-* whether track "metering" is pre- or post-fader
-  :PROPERTIES:
-  :ID:       51286989-c0e3-4ccf-8724-86d0b7ce919a
-  :END:
-  can be configured.
-  I don't know if this is global or per-project.
+* some configurable things that might be global
+** whether track "metering" is pre- or post-fader
+   :PROPERTIES:
+   :ID:       51286989-c0e3-4ccf-8724-86d0b7ce919a
+   :END:
+** "Undo" is configurable
+   :PROPERTIES:
+   :ID:       ceabf0f9-020a-4a42-9c92-484ad690e96a
+   :END:
+*** Can choose what kinds of changes are tracked by Undo.
+*** Can save the undo history across sessions.
+*** Can "store multiple undo/redo paths".
 * GUI settings
-** whether the transport bar is "Dock"ed
+** "Docking" and "Floating" are configurable
+*** e.g. whether the transport bar is "Dock"ed
 ** "Themes" and "layouts" are deep.
    They include which controls are displayed.
    "Layouts" might be a subcomponent of "themes".
 * whether to report possible "audio underrun"s
+* Can configure what moves the "Play cursor"
+  :PROPERTIES:
+  :ID:       7561c9ad-d766-4fae-8475-9c6c5947b88f
+  :END:
+  see section "Managing the Play Cursor"
