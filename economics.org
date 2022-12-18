@@ -13,5 +13,6 @@
 * some unintended policy consequences
 ** [[id:30298122-ef45-4038-81f5-0b80dcb21548][Forced savings can lower someone's total income.]]
 * some papers
+** [[id:ec8a113b-44d9-495f-acc9-e6e7c714d5bf][The Economic Organization of a POW Camp, by R. A. Radford]]
 ** [[id:d8e1e0ce-da00-4e93-8e79-0d5979335977][Piketty, Saez And Zucman, Qje 2018, "Distributional National Accounts: Methods And Estimates For The United States".]]
 ** [[id:915c9717-9f3b-43c3-b9d3-56eb881f8600][Londoño-Vélez And Ávila-Mahecha 2018: "Can Wealth Taxation Work In Developing Countries? Quasi-Experimental Evidence From Colombia"]].

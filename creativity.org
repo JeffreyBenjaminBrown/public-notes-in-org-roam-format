@@ -3,4 +3,4 @@
 :END:
 #+title: creativity
 * [[id:776b4780-a8b8-42af-ba5a-b3703a2fc248][Creating can take courage.]]
-* [[id:15ee7d34-e7b6-493a-a686-6edb81114c96][AI and art]]
+* [[id:6669f82f-9408-4a1a-9162-863972be8150][AI and art]]

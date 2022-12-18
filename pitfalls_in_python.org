@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       c2a0f1ef-2a86-4704-84cf-0c974edd237a
+:END:
+#+title: PITFALLs in Python
+* After moving a class function to open code, change the keyword "self".
+  It will be allowed,
+  and it will do strange things.
+* Sometimes Python mode can't handle triple quotes.
+  :PROPERTIES:
+  :ID:       19a2966d-79dc-49e9-b7a7-5dea84a19672
+  :END:
+  Was true on <2022-07-06 Wed>.
+* Beware of things that evaluate to False of None.
+** Just because an int is not None does not mean it's True!
+** If the next element of a list is None,
+   then that None is probably intended to be interpreted as a list!
+* check for None-ness using "is"
+  if x is None: ...

@@ -3,6 +3,7 @@
 :END:
 #+title: closures in Python
 * the trick : use the "nonlocal" keyword
+  before referring to something defined outside the current scope
 * example
 def f():
   x = 0

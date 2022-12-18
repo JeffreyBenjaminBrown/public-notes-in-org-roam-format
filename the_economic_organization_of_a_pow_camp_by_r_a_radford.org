@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       ec8a113b-44d9-495f-acc9-e6e7c714d5bf
+:END:
+#+title: The Economic Organization of a POW Camp, by R. A. Radford
+* ref
+  https://fermatslibrary.com/s/the-economic-organization-of-a-pow-camp
+* It's in Germany in WWII.
+* noteworthy
+** People relied on and hated middlemen, except when they fulfilled across-time (rather than spot) contracts that were obviously risky.
+** Everyone had an idea what the just price was, but nobody could explain why.
+** Experiments were tried -- a shop, a restaurant, well-intentioned communal price-fixing. The "black" market prices always won.

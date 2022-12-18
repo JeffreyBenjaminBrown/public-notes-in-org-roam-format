@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       805ec609-79fb-484a-9272-c42de037d1f5
+:END:
+#+title: list comprehension (computer science)
+* [[id:4b8fb6bb-54de-44bc-a9e4-47c39721b371][list comprehensions when I want to bind a variable number of variables]]

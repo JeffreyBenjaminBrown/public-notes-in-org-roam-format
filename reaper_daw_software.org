@@ -2,6 +2,10 @@
 :ID:       b2c146a9-789f-4c62-aa0e-0a6ca0e3034f
 :END:
 #+title: Reaper (DAW software)
+* refs
+** the manual on my filesystem
+   [[~/many-small/manuals/Reaper/]]
+   [[~/many-small/manuals/Reaper/2022-12-18-6BcrMNyU.ReaperUserGuide670d.pdf]]
 * questions
 ** [[id:c262c184-c00a-4bdf-9565-9d32a6d33797][What is a "parent channel"?]]
 ** Of these four "view modes" (for track wiring?), not all were introduced before being referred to.
@@ -9,46 +13,43 @@
    grouping matrix	???
    region render matrix ???
    track wiring
+* PITFALLs
+** "When possible, get your project timebase settings right before you record or import any items."
+   you can still over-ride the project timebase setting for individual tracks
+* vocab
+** "MCP" = "Mixer control panel"
+** "TCP" = "Track contrl panel"
 * notes from the manual
-  [[~/many-small/manuals/2022-03-15-bYxAtmjc.Reaper-manual.v6-50.pdf]]
 ** TODO RESUME at page 50 (section 3, recording)
-** PITFALLs
-*** "When possible, get your project timebase settings right before you record or import any items."
-    you can still over-ride the project timebase setting for individual tracks
-** VOCAB
-*** "MCP" = "Mixer control panel"
-*** "TCP" = "Track contrl panel"
 ** Settings can be backed up.
    see "Backing up Settings"
 ** Folders and file types are documented
    see "REAPER’s Installed Folders and File Location"
    see "REAPER File Types"
 ** Surprisingly configurable
-*** settings
-**** gllobal settings that are surprisingly configurable
-***** Undo preferences
-***** Whether to automatically "load last active project"
-***** how scrolling works
-**** project settings that are surprisingly configurable
-***** time signature: beats or whole samples
-***** "timebase" for items/envelopes markers and for tempo/time sig
-***** paths
-***** "copy media on import"
-***** audio format specifications
-      e.g. bit depth for WAV files
-***** "behavior when one media item is placed on top of another"
-      "Options are for enclosed items to replace enclosing items, items always to be mixed, or for the newer item to replace older item."
-***** "feedback in routing"
-***** synchronize to external timecode
-***** "Preserve pitch when changing rate."
-***** pan law, and whether pan is stereo
-**** Notes can be attached to a project.
-*** more stuff
-**** whether the transport bar is "Dock"ed
-**** whether to report possible "audio underrun"s
-**** "Themes" and "layouts" are deep.
-     They include which controls are displayed.
-     "Layouts" might be a subcomponent of "themes".
+*** gllobal settings that are surprisingly configurable
+**** Undo preferences
+**** Whether to automatically "load last active project"
+**** how scrolling works
+*** project settings that are surprisingly configurable
+**** time signature: beats or whole samples
+**** "timebase" for items/envelopes markers and for tempo/time sig
+**** paths
+**** "copy media on import"
+**** audio format specifications
+     e.g. bit depth for WAV files
+**** "behavior when one media item is placed on top of another"
+     "Options are for enclosed items to replace enclosing items, items always to be mixed, or for the newer item to replace older item."
+**** "feedback in routing"
+**** synchronize to external timecode
+**** "Preserve pitch when changing rate."
+**** pan law, and whether pan is stereo
+*** Notes can be attached to a project.
+*** whether the transport bar is "Dock"ed
+*** "Themes" and "layouts" are deep.
+    They include which controls are displayed.
+    "Layouts" might be a subcomponent of "themes".
+*** whether to report possible "audio underrun"s
 ** the Transport Bar
 *** Show with C-M-t
 *** Record: C-r

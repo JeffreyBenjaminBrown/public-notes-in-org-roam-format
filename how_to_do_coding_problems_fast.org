@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       599c31f4-ebc6-4f17-bf83-bb7f604feb1b
+:END:
+#+title: how to do coding problems fast
+* Review pitfalls in the language to be used.
+* Fear not the debugger.
+  (if the language has one)
+* Keep separate `lib`, `util` and `tests` files.
+  Don't call lib main, just in case.
+  Keep util separate from tests so that
+  I can more easily interactively test in the REPL,
+  by copying nothing but import statements from the test suite.
+* Optimize only the big things.
+  Find a good algorithm,
+  but don't both making special cases of that algorithm faster.

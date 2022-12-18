@@ -16,10 +16,10 @@ class Move (Enum):
     ToCo = auto ()
     def next (self) -> Move:
       # In earlier versions of Python, returning `Move` here
-      # (miway through the definition of `Move`) might require
+      # (midway through the definition of `Move`) might require
         # from __future__ import annotations
       # But as of 3.10 it doesn't.
       return Move ( ( self . value )
                       % len ( list ( Move ) )
                       + 1 )
-* weird: the type itself can be converted to a list
+* Weird: The type itself can be converted to a list.

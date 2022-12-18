@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       4b8fb6bb-54de-44bc-a9e4-47c39721b371
+:END:
+#+title: list comprehensions when I want to bind a variable number of variables
+* my question on SO
+  https://stackoverflow.com/questions/74758188/i-would-use-a-list-comprehension-but-the-number-of-variables-to-bind-is-unknown
+* simple answer
+  https://stackoverflow.com/a/74758782/916142
+* more complicated response,
+  which can be golfed down to a fold
+  rather than explicit recursion.
+  https://stackoverflow.com/a/74758533/916142

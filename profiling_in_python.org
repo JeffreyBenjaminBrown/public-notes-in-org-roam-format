@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       780aefb0-ad8f-411b-b716-3e9c3e98cdf8
+:END:
+#+title: profiling in Python
+* an authoritative-looking overview of profiling in Python
+  https://news.ycombinator.com/item?id=29092688
+* Pyheatmagic (library)

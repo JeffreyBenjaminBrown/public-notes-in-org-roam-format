@@ -7,5 +7,7 @@ from typing import Dict, TypeVar
 K = TypeVar("K")
 V = TypeVar("V")
 
-def myLookup ( d : Dict[K,V], k : K ) -> V:
+def myLookup ( d : Dict[K,V],
+               k : K
+             ) -> V:
   return d[k]

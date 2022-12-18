@@ -16,10 +16,6 @@
    but rather to act in accordance with them.)
 * material to absorb
 ** [[id:57bda0de-f065-4801-9ef0-f86859318350][some AI learning resources]]
-** Resume reading about POW camp economics
-   at the last section on page 196, "Bully Marks",
-   (which I actually read a page into but might not remember).
-   https://fermatslibrary.com/s/the-economic-organization-of-a-pow-camp
 ** [[id:3bd5a869-0c8a-4fb5-8db0-b64cf783592e][Isaac Asimov, The Last Question (short story)]]
 ** La República
    :PROPERTIES:
@@ -114,7 +110,8 @@
     and while I think I'd have trouble putting it into words,
     I'm convinced it's real, and that we have it,
     and that that's what's important for me to know about it.
-** DONE
-*** "[[id:a35db7a3-3341-46ae-9577-eedfc7f45afd][How to run a tech giant]]"
 ** Krugman's NYT email newsletter catalog
    https://www.nytimes.com/column/paul-krugman
+* DONE
+** [[id:ec8a113b-44d9-495f-acc9-e6e7c714d5bf][The Economic Organization of a POW Camp, by R. A. Radford]]
+** "[[id:a35db7a3-3341-46ae-9577-eedfc7f45afd][How to run a tech giant]]"

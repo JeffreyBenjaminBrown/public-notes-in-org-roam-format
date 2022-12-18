@@ -9,14 +9,9 @@
 ** Transformer NNs
 *** Via Daniel
 *** https://builtin.com/artificial-intelligence/transformer-neural-network
-* AI and art
-  :PROPERTIES:
-  :ID:       15ee7d34-e7b6-493a-a686-6edb81114c96
-  :END:
-** [[id:7bde5646-14eb-4dce-a2d1-0d44804b737a][OpenAI Jukebox]]
-   closed-source AI for music generation and continuation
-** [[id:b965e4a4-3577-4273-b722-5955666ecd75][Stable Diffusion]]
-   open-source AI for text-to-image and related processes
+** some seemingly good ideas on HN
+   https://mail.google.com/mail/u/0/#inbox/QgrcJHsThhXQXmMwRbRkMfnllGlPjMlmLGq
+* [[id:6669f82f-9408-4a1a-9162-863972be8150][AI and art]]
 * [[id:1d1968f5-9aaa-4557-9ad7-6374dc53cf20][ChatGPT]]
 * tricking an AI into describing its internal experience
 ** [[id:54449ce3-9877-4dab-90a8-630f6ced272e][some prompts designed to get ChatGPT to describe its internal state]]
