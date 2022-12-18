@@ -20,8 +20,15 @@
 ** "Preserve pitch when changing rate."
 ** pan law, and whether pan is stereo
 * Notes can be attached to a project.
-* whether the transport bar is "Dock"ed
-* "Themes" and "layouts" are deep.
-  They include which controls are displayed.
-  "Layouts" might be a subcomponent of "themes".
+* whether track "metering" is pre- or post-fader
+  :PROPERTIES:
+  :ID:       51286989-c0e3-4ccf-8724-86d0b7ce919a
+  :END:
+  can be configured.
+  I don't know if this is global or per-project.
+* GUI settings
+** whether the transport bar is "Dock"ed
+** "Themes" and "layouts" are deep.
+   They include which controls are displayed.
+   "Layouts" might be a subcomponent of "themes".
 * whether to report possible "audio underrun"s

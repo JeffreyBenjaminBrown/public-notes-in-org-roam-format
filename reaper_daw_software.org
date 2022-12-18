@@ -2,6 +2,11 @@
 :ID:       b2c146a9-789f-4c62-aa0e-0a6ca0e3034f
 :END:
 #+title: Reaper (DAW software)
+* TODO resume reading
+** Stale: RESUME at page 50 (section 3, recording)
+   That was true for my copy of the manual for version 6.5,
+   but now I'm on 6.7
+** [[id:fb0a567f-fc91-4023-90c1-7d90c6d5dbad][RESUME reading these notes here]]
 * refs
 ** the manual on my filesystem
    [[~/many-small/manuals/Reaper/]]
@@ -13,50 +18,72 @@
    grouping matrix	???
    region render matrix ???
    track wiring
+** What did I mean by
+*** [[id:6114e6e3-45f8-4d60-81a1-daaaae10c02a][Scrubbing does not affect playback]]
+*** [[id:5f08678c-8574-4938-87b3-efb4da1b8799][Alt-solo to silence the soloed track's sends.]]
 * PITFALLs
+** Two views of the track controls might be visible at once.
+   :PROPERTIES:
+   :ID:       f9078ad5-9518-4672-b11a-4aabaa905e32
+   :END:
+   One view is at the bottom, where each track is vertical.
+   Another is at the top left, where each track is horizontal.
 ** "When possible, get your project timebase settings right before you record or import any items."
    you can still over-ride the project timebase setting for individual tracks
 * vocab
 ** "MCP" = "Mixer control panel"
 ** "TCP" = "Track contrl panel"
-* notes from the manual
-** TODO RESUME at page 50 (section 3, recording)
+* how to use it
 ** Settings can be backed up.
    see "Backing up Settings"
 ** Folders and file types are documented
    see "REAPER’s Installed Folders and File Location"
    see "REAPER File Types"
 ** [[id:87336c4a-073b-42fe-a0d0-40f9cece91f6][Reaper is surprisingly configurable.]]
-** the Transport Bar
-*** Show with C-M-t
-*** Record: C-r
-    Does not stop playback.
-*** Play|Stop: SPC
-*** Toggle Repeat: r
-*** Pause: Enter
-*** Stop v. Pause
-    Stop returns the cursor to where it started.
-*** Nudge left|right: C-(left|right)
-*** Play skipping loop section: M-SPC
-*** Scrubbing does not affect playback.
-    Grab the down-pointing triangle on top of the plauback mark,
-    and drag, maybe while pressing shift (depends on settings).
+** Transport and the Transport Bar
+*** "Transport" includes
+    playback, recording, region-selection, more
+*** what the Transport Bar is
+    A thin horizontal bar with playback controls,
+    time coordinates, BPM, more stuff.
+*** controlling them
+**** Show Transport Bar: C-M-t
+**** Record: C-r
+     Does not stop playback.
+**** Play|Stop: SPC
+**** Toggle Repeat: r
+**** Pause: Enter
+**** Stop v. Pause
+     Stop returns the cursor to where it started.
+**** Nudge left|right: C-(left|right)
+**** Play skipping loop section: M-SPC
+**** Scrubbing does not affect playback.
+     :PROPERTIES:
+     :ID:       6114e6e3-45f8-4d60-81a1-daaaae10c02a
+     :END:
+     Grab the down-pointing triangle on top of the plauback mark,
+     and drag, maybe while pressing shift (depends on settings).
 ** Adjusting faders
 *** Use Alt to audition changes.
     The fader will go back to where it was afterward.
 *** Hold Ctrl for finer mouse adjustments.
 *** Scroll wheel (two-finger scroll?) also works if enabled.
 ** Track controls
+*** PITFALL: [[id:f9078ad5-9518-4672-b11a-4aabaa905e32][Two views of the track controls can be visible at once.]]
 *** a track's Route button
     controls where it goes.
     controls the volume at which it goes there.
 *** surprisingly configurable
-**** whether "metering" is pre- or post-fader
+*** configurable: [[id:51286989-c0e3-4ccf-8724-86d0b7ce919a][whether track "metering" is pre- or post-fader]]
 *** adjust many tracks at once
     Ctrl-click each relevant track control panel,
     then adjust any to adjust all.
 *** Alt-solo to silence the soloed track's sends.
+    :PROPERTIES:
+    :ID:       5f08678c-8574-4938-87b3-efb4da1b8799
+    :END:
     The alternative is "solo in place", where sends are heard too.
+**** TODO How can you hear the track if it's not sending anywhere?
 ** "Navigation and Zooming"
 *** C-M-(up|down) to jump tracks.
 *** lots of track display controls
@@ -74,7 +101,11 @@
 *** C-M-v
 *** Seems to be to choose what part of the timeline the main display shows.
 *** Has cool shortcuts.
-** FX.
+** FX
+*** RESUME reading these notes here
+    :PROPERTIES:
+    :ID:       fb0a567f-fc91-4023-90c1-7d90c6d5dbad
+    :END:
 *** PITFALL: Terminology: "FX" is both singular and plural.
     (in the manual)
 *** There's a book about it.
