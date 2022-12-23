@@ -1,0 +1,209 @@
+:PROPERTIES:
+:ID:       0a895788-7ff0-4527-96ee-120a527f14fe
+:END:
+#+title: editing audio ("editing media items") in Reaper
+* pp. 121-147 in manual
+* Undo
+** [[id:ceabf0f9-020a-4a42-9c92-484ad690e96a]["Undo" is configurable]]
+** There is an Undo History window.
+** Bumped objects can be restored without scrolling the undo history.
+*** quote source
+    very end of section
+      7.2.2
+      REAPER's Smart Editing"
+*** the quote
+    Tip: If you accidentally move an item from its original position, it can be restored to its
+ original position by choosing Item processing then Move item to source preferred
+ position from the media item right-click context menu.
+* configurable editing views
+** [[id:cfcf9ddd-8686-4350-bc00-34bf3d883c47]["Overlapping Items" (in one track)]]
+** [[id:f78c9054-f324-4509-a98f-e73d5cad5281][How media items look (what information they show) can be configured]].
+* Editing is non-destructive.
+  Reaper does not delete files.
+* PITFALL: Media and their envelopes can get out of sync.
+  :PROPERTIES:
+  :ID:       a864df5e-c735-42bf-980f-56d74f465453
+  :END:
+  quote (modulo newlines):
+  the option "Move envelope points with media items" (toggled on/off by clicking on the toolbar envelope tool) will determine whether ...
+* kinds of editing commands
+** "basic editing"
+   :PROPERTIES:
+   :ID:       f625c27d-b448-44a8-b667-0faf07543ea3
+   :END:
+*** See table in manual at section:
+    7.2.1
+    Basic Editing: Media Items
+*** noteworthy
+**** select a range of adjacent items
+**** "join" is sometimes called "glue"
+**** "move item(s) with contents" (from keyboard)
+**** "slide contents within item" (from keyboard)
+**** "move item but not contents"
+**** cut or copy "that part of selected item(s) defined by time selection"
+** "smart editing"
+*** See table in manual at section:
+    7.2.2
+    REAPER's Smart Editing
+*** what it is
+    Has something to do with editing potentially many things at once,
+    and being aware of the time selection when selecting them.
+*** PITFALL: "Loop Points Linked to Time Selection" should be off.
+    :PROPERTIES:
+    :ID:       c5bde97b-d226-48aa-8300-d31233bb57b5
+    :END:
+*** noteworthy
+**** "Move item/items, ignore any time selection"
+**** "Move item/items, ignore snap and time selection"
+**** "Adjust item pitch fine"
+**** "Copy item, pooling MIDI source data"
+** "razor editing"
+*** See table in manual at section:
+    7.2.3
+    Power Editing with Razor Edits
+*** what it is
+    Seems to mean operating on selections selections that
+    may involve multiple time intervals as well as multiple tracks.
+*** noteworthy
+**** "Split area item(s) at area edges"
+**** "Move area" forward or backward "without contents"
+     Moves the region by its length.
+**** "Stretch razor selection area"
+** move or copy time selection to cursor position
+   quote
+   The Actions List (chapter 15) include actions to move or copy the contents of a time selection to the
+cursor position. These are Time selection: move contents of time selection to edit cursor (moving later
+items) and Time selection: copy contents of time selection to edit cursor (moving later items).
+** editing only one item while multiple items remain selected
+*** thinking
+    Maybe the Ctrl modifier lets you do that for other edits.
+    Certainly it works for slip editing, as described below.
+**** doing that for slip editing: quote
+     To slip edit several items in different tracks, select all the media items
+ required (for example, hold the Ctrl key while clicking in turn on each
+ item, or use the marquee method), then slip edit any selected item. The
+ change will be applied to all items in the selection (see left), relative to
+ their individual positions on the timeline. You can use Ctrl left drag if
+ instead of this if you want only one item to be edited.
+** slip editing works on adjacent boundaries
+   e.g. if an item was split,
+   the dividing line can be moved for both sides simultaneously.
+** Insert Space in [Time] Selection
+* Media Item Properties
+** to show them
+   :PROPERTIES:
+   :ID:       7e1bcbe1-837c-4a36-8433-5843e8bc3a11
+   :END:
+   Select the item, then press F2.
+** how they look (what information they show) can be configured
+   :PROPERTIES:
+   :ID:       f78c9054-f324-4509-a98f-e73d5cad5281
+   :END:
+*** ref
+    in the manual:
+      media item appearance preferences settings
+** noteworthy
+*** Snap offset
+    quote:
+    Offset from the default
+snap position if snapping is enabled.
+*** Item timebase
+    quote:
+    Defaults to project
+timebase but can be changed. Options
+are Track/project default. Time
+...
+*** Item mix
+    quote:
+    Effectively whether to replace
+or mix when an item is placed over
+another. Defaults to project default.
+*** Loop source
+    quote:
+    whether item is a loop.
+*** "play all takes"
+    Whether or not to do that (if two or more takes exist).
+*** Playback rate
+    e.g. "x2" for double speed
+*** "preserve item pitch"
+    whenthe playback rate is changed.
+*** "Take FX Chain"
+*** "Apply changes after 2 seconds of inactivity"
+    Right-click on the item's title bar to change this
+*** locking an item
+**** It can't be moved or edited.
+**** But its properties (menu) can still be modified.
+*** Notes and background images can be attached.
+    :PROPERTIES:
+    :ID:       6809927f-021c-4a4a-8ca1-7d4d02bd1964
+    :END:
+* Editing Behavior Preferences
+** noteworthy
+*** Whether to move the edit cursor during actions
+    like changing time selection or inserting media.
+**** PITFALL: Configure this at "Preferences / Editing Behavior / Mouse Modifiers / Media item left click"
+*** Loop Points linked to Time Selection
+**** where to adjust
+     Preferences / Editing Behavior
+**** ref in manual
+     section
+       7.7
+       Separating Loop Selection from Time Selection
+**** When they are unlinked, Alt-drag on the timeline to get the linked behavior.
+     (When they are linked, simply dragging will do that.)
+* "pencil mode": draw a copy of the selected region
+** what it is
+   Select a region.
+   Ctrl-drag somewhere else.
+   This will create a copy of the region.
+   If the drawn copy is longer than the original,
+   and the original used to be longer,
+   it will go on to include whatever used to be part of the original.
+** there are four variations
+   Apply snapping (only if snapping is enabled),
+   or don't (even if it's enabled).
+   Pool MIDI source data, or don't.
+* "Propagating Items"
+  two varieties:
+    "Propagate item to similarly named items on track"
+    "Propagate item to similarly named items" (all tracks)
+* "Implode Items To One Track"
+  collects an across-track selection of items to a single track,
+  preserving each one's positioning/timing.
+* [[id:78f34326-cc2e-4c26-8f21-feddb161c2d3]["Overlapping Items" in the same track]]
+* "Ripple Editing"
+** M-p cycles through the three ripple edit modes
+   :PROPERTIES:
+   :ID:       f77581c4-8b47-44ed-a085-68dd4eee56c2
+   :END:
+** what it is
+   Moves material over to eliminate gaps when regions are deleted.
+** two alternative varieties
+*** Seal gaps only in the edited track(s?).
+*** Seal gaps in all tracks
+    even when created by only one track, I guess
+** nuances
+*** Ripple editing moves automation and markers too.
+*** If tempo changes at some point in the piece
+    enable "Ripple edit all affects tempo map"
+*** "Locked items" can create weirdness.
+* trimming
+** Item: Trim items left of cursor, and
+** Item: Trim items right of cursor
+** Trim to selected area
+*** how to do it
+    Right click over a selected media item and choose Trim items to selected area.
+*** If Ripple Editing is turned on,
+    quote:
+    the area that is trimmed will also be removed from the timeline
+*** can incorporate snapping
+    quote
+    If your Snap/Grid Settings are set to include Media Items, then provided that
+ snapping is enabled, snapping will be applied when you select the area to be trimmed.
+* A "ruler" for time can be shown on an item
+  :PROPERTIES:
+  :ID:       e8df34e9-f664-4163-a0ed-c1ffd8720bbb
+  :END:
+** see section 7.18
+   Displaying the Item Ruler
+* [[id:63d1464e-4714-4e75-a538-21aa338d5b53][A whole sequence of [editing] actions can be given a keyboard shortcut.]]

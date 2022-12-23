@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       5d4116a2-a414-433b-8215-2e3da29f57b5
+:END:
+#+title: Moving the Eiffel Tower from Paris to Rome in an AI
+[who?] found the neurons corresponding to Rome and Paris, and somehow swapped them in the context of the Eiffel Tower. The network would then answer that the Eiffel Tower was in rome. Then they asked questions like what can you see or get for lunch from the Eiffel tower, and got answers like the Colosseum and pizza.

@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       001d7913-c431-461c-92ae-a6a39394856c
+:ROAM_ALIASES: programming
 :END:
 #+title: computer science
 * TODO [[id:4bd7f12e-2061-40e9-9e98-683552f40918][contribute to open source projects]]
@@ -14,3 +15,4 @@
 * [[id:e4a6a10f-a305-49fa-91b1-08482df14229][a CS skills assessment, with a moderate focus on Python]]
 * data structures
 ** [[id:805ec609-79fb-484a-9272-c42de037d1f5][list comprehension]]
+* [[id:4f939263-8a43-42be-98af-5aa3d8854d13][dynamic typing]]

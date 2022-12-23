@@ -3,9 +3,18 @@
 :END:
 #+title: Reaper is surprisingly configurable.
 * gllobal settings that are surprisingly configurable
+** [[id:d2b9b956-5c1b-418a-a447-62811c956654][views in Reaper]]
 ** Undo preferences
 ** Whether to automatically "load last active project"
 ** how scrolling works
+** [[id:fde2270b-ed9e-46aa-90ff-88733a50facd][how creating and saving projects works is configurable in Reaper]]
+** The [[id:975d6340-3da2-442d-aac1-8b91aa51caf7][metronome in Reaper is highly configurable]].
+** A whole sequence of actions can be given a keyboard shortcut.
+   :PROPERTIES:
+   :ID:       63d1464e-4714-4e75-a538-21aa338d5b53
+   :END:
+   see in manual:
+   Creating Custom Action Macros
 * project settings that are surprisingly configurable
 ** time signature: beats or whole samples
 ** "timebase" for items/envelopes markers and for tempo/time sig
@@ -25,6 +34,7 @@
    :PROPERTIES:
    :ID:       51286989-c0e3-4ccf-8724-86d0b7ce919a
    :END:
+** [[id:f78c9054-f324-4509-a98f-e73d5cad5281][how media items look (what information they show) can be configured]]
 ** "Undo" is configurable
    :PROPERTIES:
    :ID:       ceabf0f9-020a-4a42-9c92-484ad690e96a
@@ -32,6 +42,19 @@
 *** Can choose what kinds of changes are tracked by Undo.
 *** Can save the undo history across sessions.
 *** Can "store multiple undo/redo paths".
+** Default recording behavior
+   :PROPERTIES:
+   :ID:       799c16f7-07d2-43d0-b370-d4871807a73b
+   :END:
+*** some menus that do some of it
+**** Preferences / Audio / Recording
+**** Preferences / Audio / Loop Recording
+**** Preferences / Project / Track/Send Defaults
+*** [[id:fc4317a5-4898-4494-b401-e17cedffb74f][auto-arming selected tracks is an option]]
+*** Automatic fades and crossfades are an option.
+    :PROPERTIES:
+    :ID:       ec930cf4-e05c-4ff1-a643-82b6fb0b56fa
+    :END:
 * GUI settings
 ** "Docking" and "Floating" are configurable
 *** e.g. whether the transport bar is "Dock"ed

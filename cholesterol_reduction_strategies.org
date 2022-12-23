@@ -2,7 +2,7 @@
 :ID:       6422ff08-978c-40b0-b511-e6eef32930ee
 :END:
 #+title: cholesterol reduction strategies
-* TODO Take whey protein
+* Take whey protein
 * Exercise most days
 * Fast sometimes
 * Get sun
@@ -19,6 +19,7 @@
    fruit is okay, says Dra. Majjul
 ** high-fat foods
 ** alcohol
+*** if alcohol, no fats, esp. fats from meat
 ** TODO if bread, no gluten
 ** TODO evitar cerdo, bagre y mariscos
 * Target certain foods

@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       938c2035-98b9-49a9-98f1-c037078ae0a0
+:END:
+#+title: Reaper shortcuts and surprise context menus
+* surprise context menus or windows
+** [[id:7d05144b-2538-43fa-ad62-6dd6e3090f48][Track Control Panel :: Right-click on the track's Arm button.]]
+** [[id:356398ef-c121-493e-b920-c70a698df50f][a track's FX and/or plugins :: click its FX button.]]
+* C-p: Preferences (global, I guess)
+* M-Ret: Project Preferences
+* Shortcuts are configurable!
+** Preferences / General / "Keyboard/Multitouch"
+* some builtin shortcuts
+** [[id:f625c27d-b448-44a8-b667-0faf07543ea3]["basic editing"]] shortcuts
+** [[id:7e1bcbe1-837c-4a36-8433-5843e8bc3a11][show a media item properties]]
+** "Show all takes [in a track] (when [there is] room)" :: C-l
+   :PROPERTIES:
+   :ID:       fdc1864d-aafb-49c0-a15a-2be55de37905
+   :END:
+** new track: Ctrl-T
+** record (global): Ctrl-r
+   :PROPERTIES:
+   :ID:       ec7ee8b0-1923-4724-8e92-bf5fc5e5b908
+   :END:
+** Alt-C: toggle the Big Clock
+   :PROPERTIES:
+   :ID:       c919ece3-e39d-4c7c-8179-acb9a71d2eb6
+   :END:
+** C-M-(up|down) to jump tracks.
+   :PROPERTIES:
+   :ID:       b0f09bb3-ddc1-4dfa-bbb0-a69eed0fc824
+   :END:
+** Alt-R: open the "Routing Matrix"
+   :PROPERTIES:
+   :ID:       e35457fe-af25-4ea3-924d-a8b39f138a59
+   :END:
+** [[id:f77581c4-8b47-44ed-a085-68dd4eee56c2][M-p cycles through the three ripple edit modes]]
+* some shortcuts of mine
+** arm track: C-S-a

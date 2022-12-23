@@ -2,6 +2,7 @@
 :ID:       ebfc71c5-86b6-41b2-adb0-75b513cd12dc
 :END:
 #+title: moving and movers
+* when moving electric guitars: [[id:c80fe2b7-79ca-47bc-911c-1745ca23beb7][change temp/humidity slowly]]
 * Grill them on what they offer.
 ** Closet-boxes?
    The kind with a bar to hang clothes on.

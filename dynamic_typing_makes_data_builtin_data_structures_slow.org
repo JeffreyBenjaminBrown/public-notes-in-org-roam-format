@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       8d01221b-6fe3-4c76-83cd-48c8fd9440e5
+:END:
+#+title: Dynamic typing can make data builtin data structures slow.
+* "solution": use other structures, like NumPy arrays
+* applies at least to Python lists
+  and I'm guessing Python dicts, sets
+* quote from Turing.com
+  https://www.turing.com/interview-questions/python
+  "Lists have to be dynamically typed which means that every data element type must be checked by Python, every time it is typed. As compared to lists, data structures in NumPy occupy less space, are faster, and have built-in optimized structures like linear algebra."

@@ -1,8 +1,9 @@
 :PROPERTIES:
 :ID:       72d5a73b-691f-4034-9552-6f657f549f21
 :END:
-#+title: how to pack the Lumatone
-* Pack the stand (which screws into it) before the keyboard itself
+#+title: how to pack and unpack the Lumatone
+This is the opposite of natural.
+* Pack the stand (which screws into it) before the keyboard itself.
   Otherwise it's hard to squeeze in.
-* TODO Remember that the case strips off the rubber bit.
-** TODO Maybe it wouldn't, if I took out the instrument before the stand?
+* Remove the keyboard before the stand.
+  Otherwise the rubber bit gets stripped off the stand.

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       9607095a-d876-425f-b06a-25a02a9b83f2
+:END:
+#+title: animals and understanding
+https://www.animalcognition.org/
+* Ants pass a mirror test.
+  Ants marked with blue dots on their heads will try to clean themselves when they see themselves in a mirror. Very young ants won't.
+  https://twitter.com/hormeze/status/1595204715163181057

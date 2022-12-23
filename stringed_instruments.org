@@ -2,6 +2,7 @@
 :ID:       8162b9cf-5f7a-49ac-8717-01e5586612fc
 :END:
 #+title: stringed instruments
+* [[id:e4d05b99-1a77-4423-abb1-65b35775e964][stringed instruments and weather]]
 * PITFALL: [[id:804278d2-3b6b-4ace-92b8-ceda6d9f9136][musical tuner pitfalls]]
 * [[id:d8863536-c1f1-4ad2-b974-967ecdb0087d][how to explore tunings]]
 * [[id:56673132-f636-44eb-aaa6-848b99b705a8][how to guess the string gauge corresponding to a frequency]]

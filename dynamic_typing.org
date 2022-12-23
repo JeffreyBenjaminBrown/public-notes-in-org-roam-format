@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       4f939263-8a43-42be-98af-5aa3d8854d13
+:END:
+#+title: dynamic typing
+* [[id:8d01221b-6fe3-4c76-83cd-48c8fd9440e5][Dynamic typing makes data builtin data structures slow.]]

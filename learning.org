@@ -1,6 +1,9 @@
 :PROPERTIES:
 :ID:       79287a5a-dd30-4de7-bce9-3d02fc6c858a
+:ROAM_ALIASES: "thinking, learning, understanding" "understanding, thinking, learning"
 :END:
-#+title: learning and thinking
+#+title: learning, thinking, understanding
+* [[id:40a2de02-6388-4795-8280-62f4888cf7b0][AI and understanding]]
+* [[id:9607095a-d876-425f-b06a-25a02a9b83f2][animals and understanding]]
 * [[id:dde6522f-6bd1-489b-bd82-5c3315f54ca6][How to think using spaced repetition.]]
 * Why and how to [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult your notes]].

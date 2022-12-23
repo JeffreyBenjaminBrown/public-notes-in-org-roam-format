@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b6b05dc0-b157-455e-a7b2-3a1959fe1957
+:END:
+#+title: animals
+* [[id:9607095a-d876-425f-b06a-25a02a9b83f2][animals and understanding]]

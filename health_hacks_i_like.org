@@ -6,5 +6,6 @@
 * sleep early
   so that I can wake up shortly after the sun rises,
   because I sleep badly when the sun is well up.
+* [[id:5704b01c-3eaf-4adc-98a8-0c2c6804da08][air filter]]
 * Eat protein early in the day, carbs later.
   Not sure why. Jamie recommended it.

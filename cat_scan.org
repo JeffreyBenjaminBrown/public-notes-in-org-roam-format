@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       ed026928-646e-43a3-9a57-20af88363c40
+:END:
+#+title: CAT scan
+* [[id:9e9e1885-3093-4d91-b7f1-d35ecd33838e][The only way to do a carotid CAT scan is with iodine for contrast.]]

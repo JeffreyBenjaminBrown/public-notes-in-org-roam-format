@@ -15,6 +15,11 @@
    (The trick is not, of course, to change my beliefs,
    but rather to act in accordance with them.)
 * material to absorb
+** A Minimal History of Colombia
+   Andres Celis rec's
+   https://www.planetadelibros.com.co/libro-colombia-una-historia-minima/315749
+*** a glowing review of it in El Espectador
+    https://www.elespectador.com/opinion/columnistas/hector-abad-faciolince/un-libro-indispensable-column-737009/
 ** [[id:57bda0de-f065-4801-9ef0-f86859318350][some AI learning resources]]
 ** [[id:3bd5a869-0c8a-4fb5-8db0-b64cf783592e][Isaac Asimov, The Last Question (short story)]]
 ** La República

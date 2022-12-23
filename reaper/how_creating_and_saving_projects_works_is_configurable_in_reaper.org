@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       fde2270b-ed9e-46aa-90ff-88733a50facd
+:END:
+#+title: how creating and saving projects works is configurable in Reaper
+* Automatic backups can be enabled.
+  at a configurable interval

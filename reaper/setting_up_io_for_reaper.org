@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       a4d23041-2371-4506-a31d-d08f1726cce9
+:END:
+#+title: setting up IO for Reaper
+* Some people prefer ALSA.
+  Apparently JACK (and PulseAudio) both tell ALSA what to do.
+* how I set up audio and MIDI in JACK
+  serial
+** Start Qjackctl (GUI).
+** Start `a2jmidid` (command line).
+** In Reaper / Preferences / Device, use JACK.
+   It's probably already there.
+** In Reaper / Preferences / MIDI Devices, enable receipt from a2jmidid.
+   This creates a connection in the JACK graph,
+   so I won't need to manipulate that graph myself.
+** In the JACK graph, connect SuperCollider to Reaper's in1 and in2.
+** In Reaper, make some track read in stereo from in1 and in2.

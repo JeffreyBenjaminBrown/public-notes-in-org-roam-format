@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       40a2de02-6388-4795-8280-62f4888cf7b0
+:END:
+#+title: AI and understanding
+* [[id:5d4116a2-a414-433b-8215-2e3da29f57b5][Moving the Eiffel Tower from Paris to Rome in an AI]]
+* Modeling reality might be an unplanned-for side effect.
+  Even for something that was only explicitly trained to predict the next word, the best way to do that might be to model reality.
+* LLMs make mistakes in the ballpark of the truth.
+  For instance, if someone studied chemistry, it might misremember that they studied biology, but not film.

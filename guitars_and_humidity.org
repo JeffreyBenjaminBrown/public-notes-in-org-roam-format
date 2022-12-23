@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       e4d05b99-1a77-4423-abb1-65b35775e964
+:END:
+#+title: guitars and weather
+* It's a big deal for acoustics.
+* advice for electric guitars in a humid place
+** clean it more often
+   https://www.reddit.com/r/guitars/comments/zpcdv0/humidity_and_temperature_will_moving_an_electric/
+   "high humidity may result in faster corrosion so just be sure to wipe it down and clean it regularly."
+** change temp/humidity slowly
+   :PROPERTIES:
+   :ID:       c80fe2b7-79ca-47bc-911c-1745ca23beb7
+   :END:
+   After taking it to a new environment,
+   leave it in the case, unlatched,
+   and give it hours to adjust to a new environment.
+** John Starrett thinks it's fine for a Chapman Stick to acclimate to Bogotá
+   where the humidity averages around 79%
+* [[id:b1984a3a-9f14-4b1d-b2c0-b29a531b7c52][Taylor Guitars' extreme advice for defending a guitar from humidity]]

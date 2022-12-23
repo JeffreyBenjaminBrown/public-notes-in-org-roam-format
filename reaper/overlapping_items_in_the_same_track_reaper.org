@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       78f34326-cc2e-4c26-8f21-feddb161c2d3
+:END:
+#+title: Overlapping Items in the same track \ Reaper
+"Overlapping Item"
+* what it does
+  One can choose which of the items reocrded on a track
+  plays at each moment.
+* how to view them
+  Options / "Offset overlapping media items vertically"
+  will probably be helpful.
+* for further configurations to that kind of view?
+    quote:
+    When showing overlapping items vertically stacked, you might wish to check
+out further options in Preferences, Media item positioning.
+* changing how overlap works
+  There are a few ways. Here's one.
+** "Trim behind" = "Trim content behind media items when editing"
+*** what it does
+    Make the top layer cut off lower ones.
+*** where to adjust it
+    Enable "Options / Trim content behind media items when editing"
+*** it applies to overdubs
+*** it applies to slip-editing
+    ensure that only the slip-edited item (the item on top) will be heard during the overlap.
+*** PITFALL: "cannot work unless auto-crossfade is disabled"
+*** PITFALL: By default this is always enabled for razor edits.
+    If that's not wanted, disable
+      Options / Always trim content behind razor edits

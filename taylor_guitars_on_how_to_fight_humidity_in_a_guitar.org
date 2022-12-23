@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       b1984a3a-9f14-4b1d-b2c0-b29a531b7c52
+:ROAM_ALIASES: "how to fight humidity in a guitar"
+:END:
+#+title: Taylor Guitars' extreme advice for defending a guitar from humidity
+* ref
+  https://www.taylorguitars.com/support/maintenance/symptoms-wet-guitar
+* John Starrett and Redditors (on something I posted) think this is overkill for Bogotá.
+* strategies
+** put humidity absorbent things in the case
+   quoting [[id:a87d1190-6fc4-4a51-998a-e47cd6e55c15][Taylor Guitars' advice re. humidity]]
+   "In areas with extreme or year round high humidity, place several silica gel or bamboo charcoal packs in the guitar case and change them every few months."
+** de-humidify the room
+   quoting [[id:a87d1190-6fc4-4a51-998a-e47cd6e55c15][Taylor Guitars' advice re. humidity]]
+   "Use a room de-humidifier where you store your guitar. It’s also wise to monitor the humidity levels with a digital hygrometer. You can find a good digital hygrometer through your local music stores, TaylorWare® at taylorguitars.com, Amazon.com, or other online retailers."
+** blow-dry the case
+   quoting [[id:a87d1190-6fc4-4a51-998a-e47cd6e55c15][Taylor Guitars' advice re. humidity]]
+   "Periodically remove the guitar and blow-dry the interior of the case with a hair dryer for 10-15 minutes."

@@ -3,6 +3,7 @@
 :ROAM_ALIASES: cognition
 :END:
 #+title: headspace
+* [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][learning, thinking and understanding]]
 * TODO [[id:a04c2b66-35bd-45f6-8dfa-5513ffe36a9c][introspect & reprogram]]
 * Does plumbing my (recent) memory lead to less happy memories?
 ** [[id:85508f6f-946f-4474-9952-f25c25450f1c][It happened today]].
@@ -12,4 +13,3 @@
 * [[id:4c25a3eb-4f21-4c20-9fee-2a18275ca089][choice]]
 * [[id:efead690-715e-4243-9dd9-9f6a53566263][aesthetics]]
 * [[id:bbc9f812-cf95-45a3-b93f-4ad93a565510][mental health and fitness]]
-* [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][learning and thinking]]
