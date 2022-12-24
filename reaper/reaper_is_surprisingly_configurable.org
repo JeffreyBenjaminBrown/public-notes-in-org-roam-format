@@ -2,6 +2,7 @@
 :ID:       87336c4a-073b-42fe-a0d0-40f9cece91f6
 :END:
 #+title: Reaper is surprisingly configurable.
+* [[id:e4eaf8af-b544-4db1-8e75-a24f534f6a8d][Actions Menu, the \ Reaper]]
 * gllobal settings that are surprisingly configurable
 ** [[id:d2b9b956-5c1b-418a-a447-62811c956654][views in Reaper]]
 ** Undo preferences
@@ -51,10 +52,7 @@
 **** Preferences / Audio / Loop Recording
 **** Preferences / Project / Track/Send Defaults
 *** [[id:fc4317a5-4898-4494-b401-e17cedffb74f][auto-arming selected tracks is an option]]
-*** Automatic fades and crossfades are an option.
-    :PROPERTIES:
-    :ID:       ec930cf4-e05c-4ff1-a643-82b6fb0b56fa
-    :END:
+*** [[id:ec930cf4-e05c-4ff1-a643-82b6fb0b56fa][Automatic fades and crossfades are an option.]]
 * GUI settings
 ** "Docking" and "Floating" are configurable
 *** e.g. whether the transport bar is "Dock"ed

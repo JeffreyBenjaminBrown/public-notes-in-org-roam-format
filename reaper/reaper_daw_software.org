@@ -36,6 +36,8 @@
 *** [[id:6114e6e3-45f8-4d60-81a1-daaaae10c02a][Scrubbing does not affect playback]]
 *** [[id:5f08678c-8574-4938-87b3-efb4da1b8799][Alt-solo to silence the soloed track's sends.]]
 * PITFALLs
+** [[id:d6de763b-22d9-4563-bfd3-92f22a47c7d7][Toggling automatic crossfade when splitting an item seems tricky.]]
+** [[id:d6de763b-22d9-4563-bfd3-92f22a47c7d7][to toggle automatic crossfade when splitting an item]]
 ** [[id:95858c48-ab4a-4647-af24-d7aedb55a316][Takes are complicated.]]
 ** [[id:a4d23041-2371-4506-a31d-d08f1726cce9][setting up IO for Reaper]]
 ** To use smart editing, [[id:c5bde97b-d226-48aa-8300-d31233bb57b5]["Loop Points Linked to Time Selection" should be off.]]
@@ -59,7 +61,7 @@
 * [[id:a4d23041-2371-4506-a31d-d08f1726cce9][setting up IO for Reaper]]
 * [[id:938c2035-98b9-49a9-98f1-c037078ae0a0][Reaper shortcuts]]
 * [[id:d2b9b956-5c1b-418a-a447-62811c956654][views in Reaper]]
-* how to use it
+* how to use Reaper
 ** Settings can be backed up.
    see "Backing up Settings"
 ** Folders and file types are documented
@@ -118,4 +120,5 @@
 Item Format
 ** mixing in Reaper
 *** [[id:ec930cf4-e05c-4ff1-a643-82b6fb0b56fa][Automatic fades and crossfades are an option.]]
+** [[id:05887b8f-ec0f-45c6-8346-06c893cc8b17][fades and crossfades \ Reaper]]
 ** [[id:0a895788-7ff0-4527-96ee-120a527f14fe]["editing media items"]] (audio and/or MIDI)
