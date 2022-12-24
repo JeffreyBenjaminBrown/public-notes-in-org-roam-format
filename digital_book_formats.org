@@ -3,6 +3,7 @@
 :ROAM_ALIASES: epub pdf mobi
 :END:
 #+title: digital book formats
+* [[id:1815fc62-509a-4454-8479-4d2c27c8c4df][Okular (PDF viewer)]]
 * [[id:90466cf1-acba-4f48-86b1-8c197250231c][Sioyek (PDF viewer)]] looks amazing.
 * Copying epub data into a text file works well.
   At least, it did with [[id:650e028b-8662-472f-a81a-437592442862][Internal Family Systems]].

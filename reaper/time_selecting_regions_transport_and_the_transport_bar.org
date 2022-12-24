@@ -6,7 +6,7 @@
 ** [[id:ca29c093-1145-4d9f-b7db-73efe925f947]["Jumping" permits precise changes to the focused time.]]
 * [[id:3475dab5-d962-4e99-bd66-8d841d7475a0][controlling track and time window displays]]
 * snap to grid \ Reaper
-** some snap to grid shortcuts
+** snap to grid shortcuts, some
    :PROPERTIES:
    :ID:       936db8cf-4d63-4b5e-869b-516466082bcc
    :END:

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1815fc62-509a-4454-8479-4d2c27c8c4df
+:END:
+#+title: Okular (PDF viewer)
+* SOLVED: If clicking on links is not working
+  make sure I am in "browse mode" (C-1)
+  or "text select mode" (C-4)
+  but not "highlighter mode",
+  which I might enter by mistake by clicking on it in the menu bar.
