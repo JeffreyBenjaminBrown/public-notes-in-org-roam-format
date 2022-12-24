@@ -3,6 +3,9 @@
 :END:
 #+title: debugging in NixOS
 * nixos-rebuild --show-trace
+  :PROPERTIES:
+  :ID:       b7915378-690c-4708-b1f7-741b131f730b
+  :END:
   Alas the stack trace is confusing,
   but this is how to find the requirement
   (i.e. the line in my config)

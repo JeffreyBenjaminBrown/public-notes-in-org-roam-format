@@ -5,7 +5,6 @@
 #+TITLE: NixOS (operating system)
 * TODO [[id:13b039ff-e492-44ba-8284-a6ed016d9357][system.autoUpgrade slows my system to a crawl]]
 * [[id:8216a071-2341-4866-a716-54e77baa8f2f][Nix (configuration language)]]
-* TODO [[id:27ec44e3-e227-489e-8437-36c9f3807fda][Error: "Unit window-manager not found"]]
 * REFERENCES
 ** interactive help
 *** from bash
@@ -25,7 +24,14 @@
 ** ? "Platforms, like stdenv.hostPlatform, no longer have a platform attribute. It has been (mostly) flattened away:
    platform.gcc is now gcc
    platform.kernel* is now linux-kernel.*
-* DONE errors, and how I solved them
+* DONE solutions : errors, and how I solved them
+** How to figure out which package is at fault for an error?
+*** example problem
+    Sometimes  I get the error
+      "package ... is marked as broken, refusing to evaluate",
+    but my config doesn't mention that package.
+*** solution, i think : [[id:b7915378-690c-4708-b1f7-741b131f730b][nixos-rebuild --show-trace]]
+** [[id:27ec44e3-e227-489e-8437-36c9f3807fda][Error: "Unit window-manager not found"]]
 ** [[id:71f22807-10f3-4d8c-8d6e-3cfdb81b2984][Sign-in / MIT-MAGIC-COOKIE / chpasswd problem]]
 ** "unexpected argument 'specialArgs'"
 *** where I got help
