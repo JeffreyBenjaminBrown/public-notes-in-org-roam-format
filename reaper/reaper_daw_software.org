@@ -4,7 +4,7 @@
 #+title: Reaper (DAW software)
 * TODO resume reading in manual
   right after the gray box at the bottom of
-  bottom of page 132, start of section
+  bottom of chapter 7 (editing), page 132, start of section
     7.19
     Take Media Source
 ** Skipped
@@ -35,6 +35,7 @@
 *** [[id:6114e6e3-45f8-4d60-81a1-daaaae10c02a][Scrubbing does not affect playback]]
 *** [[id:5f08678c-8574-4938-87b3-efb4da1b8799][Alt-solo to silence the soloed track's sends.]]
 * PITFALLs
+** [[id:95858c48-ab4a-4647-af24-d7aedb55a316][Takes are complicated.]]
 ** [[id:a4d23041-2371-4506-a31d-d08f1726cce9][setting up IO for Reaper]]
 ** To use smart editing, [[id:c5bde97b-d226-48aa-8300-d31233bb57b5]["Loop Points Linked to Time Selection" should be off.]]
 ** [[id:a864df5e-c735-42bf-980f-56d74f465453][Media and their envelopes can get out of sync.]]
