@@ -38,12 +38,7 @@
 ** [[id:a4d23041-2371-4506-a31d-d08f1726cce9][setting up IO for Reaper]]
 ** To use smart editing, [[id:c5bde97b-d226-48aa-8300-d31233bb57b5]["Loop Points Linked to Time Selection" should be off.]]
 ** [[id:a864df5e-c735-42bf-980f-56d74f465453][Media and their envelopes can get out of sync.]]
-** Two views of the track controls might be visible at once.
-   :PROPERTIES:
-   :ID:       f9078ad5-9518-4672-b11a-4aabaa905e32
-   :END:
-   One view is at the bottom, where each track is vertical.
-   Another is at the top left, where each track is horizontal.
+** [[id:f9078ad5-9518-4672-b11a-4aabaa905e32][Two views of the track controls can be visible at once.]]
 ** "When possible, get your project timebase settings right before you record or import any items."
    you can still over-ride the project timebase setting for individual tracks
 ** [[id:2d324c40-7826-4bf7-bac2-4c5318c4ad64]["FX" is both singular and plural.]]
@@ -69,34 +64,7 @@
    see "REAPER’s Installed Folders and File Location"
    see "REAPER File Types"
 ** [[id:87336c4a-073b-42fe-a0d0-40f9cece91f6][Reaper is surprisingly configurable.]]
-** time, selecting regions, Transport and the Transport Bar
-*** [[id:b591f5ba-4b9b-4b03-aa83-29e03142cc0d]["Time selection"s and "Time loop"s]]
-**** [[id:ca29c093-1145-4d9f-b7db-73efe925f947]["Jumping" permits precise changes to the focused time.]]
-*** "Transport" includes
-    playback, recording, maybe region-selection, more
-*** what the Transport Bar is
-    A thin horizontal bar with playback controls,
-    time coordinates, BPM, more stuff.
-*** controlling them (and their displays)
-**** Show Transport Bar: C-M-t
-**** Record: C-r
-     Does not stop playback.
-**** Play|Stop: SPC
-**** Toggle Repeat: r
-**** Pause: Enter
-**** Stop v. Pause
-     Stop returns the cursor to where it started.
-**** Nudge left|right: C-(left|right)
-**** Play skipping loop section: M-SPC
-**** Scrubbing does not affect playback.
-     :PROPERTIES:
-     :ID:       6114e6e3-45f8-4d60-81a1-daaaae10c02a
-     :END:
-     Grab the down-pointing triangle on top of the plauback mark,
-     and drag, maybe while pressing shift (depends on settings).
-**** [[id:92b5113c-231a-4135-916d-d8e809c81b41][Per-track "playback time offset" can compensate for latency.]]
-**** [[id:c919ece3-e39d-4c7c-8179-acb9a71d2eb6][Alt-C: toggle the Big Clock]]
-*** configurable: [[id:7561c9ad-d766-4fae-8475-9c6c5947b88f][what moves the "Play cursor"]]
+** [[id:f82d4359-a8bb-4b88-b00d-4e9b3d924725][time, selecting regions, Transport and the Transport Bar]]
 ** Adjusting faders
 *** Use Alt to audition changes.
     The fader will go back to where it was afterward.
@@ -105,10 +73,7 @@
 ** [[id:0e518fd3-734a-4110-b319-22d6930f6f00][Track controls and the Track Control Panel (TCP) \ Reaper]]
 ** "Navigation and Zooming"
 *** [[id:b0f09bb3-ddc1-4dfa-bbb0-a69eed0fc824][C-M-(up|down) to jump tracks.]]
-*** lots of track display controls
-**** Press @ to "Minimise all tracks."
-**** Toggle height of all tracks between minimised, normal and maximised.
-     double-click vertical scroll bar
+*** [[id:3475dab5-d962-4e99-bd66-8d841d7475a0][lots of track display controls]]
 *** (+|-) to zoom in|out in time
 *** Alt-arrow (all four directions) to scroll within a project
 *** mouse has four scroll|zoom modes

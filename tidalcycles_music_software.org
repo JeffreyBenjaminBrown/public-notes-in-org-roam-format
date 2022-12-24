@@ -10,6 +10,20 @@
    like TidalCycles, ported to PureScript
 * TODO
 ** [[id:f43e3514-fe0a-4218-825b-fc26b5108e32][make bass-drum-key rhythms]]
+** TODO make SC startup faster
+*** These notes cut (not copied) from 1superdirt_startup.scd` explain how.
+/*
+This is an example startup file.
+If you want to modify it, best copy it elsewhere to keep the git repository clean.
+
+You can then load it by calling
+"path/to/my/superdirt_startup.scd".load
+from the supercollider startup file
+
+The supercollider startup file is to be found in
+Platform.userAppSupportDir +/+ "startup.scd",
+or via the menu File > Open startup file
+*/
 ** TODO permit line continuations within strings
    This would be an Emacs fix,
    not a Haskell fix.
