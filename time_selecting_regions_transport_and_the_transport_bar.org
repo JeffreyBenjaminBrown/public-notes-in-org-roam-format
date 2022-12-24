@@ -4,7 +4,7 @@
 #+title: time, selecting regions, Transport and the Transport Bar \ Reaper
 * [[id:b591f5ba-4b9b-4b03-aa83-29e03142cc0d]["Time selection"s and "Time loop"s]]
 ** [[id:ca29c093-1145-4d9f-b7db-73efe925f947]["Jumping" permits precise changes to the focused time.]]
-* [[id:7bde716a-98dc-4d96-84e0-5a01701891f3][zoom time controls]]
+* [[id:3475dab5-d962-4e99-bd66-8d841d7475a0][controlling track and time window displays]]
 * "Transport" includes
   playback, recording, maybe region-selection, more
 * what the Transport Bar is

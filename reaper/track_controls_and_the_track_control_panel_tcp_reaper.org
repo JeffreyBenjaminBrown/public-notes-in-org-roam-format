@@ -8,9 +8,9 @@
    :PROPERTIES:
    :ID:       7d05144b-2538-43fa-ad62-6dd6e3090f48
    :END:
-* viewing track controls
+* controlling track and time window views
   :PROPERTIES:
-  :ID:       f490dad6-4415-4439-8c37-0ce7b5346a7e
+  :ID:       3475dab5-d962-4e99-bd66-8d841d7475a0
   :END:
 ** PITFALL: Two views of the track controls might be visible at once.
    :PROPERTIES:
@@ -18,28 +18,22 @@
    :END:
    One view is at the bottom, where each track is vertical.
    Another is at the top left, where each track is horizontal.
-** lots of track display controls
-   :PROPERTIES:
-   :ID:       3475dab5-d962-4e99-bd66-8d841d7475a0
-   :END:
-*** track height controls
-**** FAVORITE: Use ` to toggle maximize all track heights.
-**** FAVORITE: Page Up / Page Down : equalize & adjust all track heights.
-**** Use ~ to toggle minimize all and maximize all track heights.
-**** Press @ to "Minimise all tracks."
-**** Toggle height of all tracks between minimised, normal and maximised.
-     double-click vertical scroll bar
-**** vertically expand and collapse the horiz view of a track's controls
-     Press S-1
-       (that's Shift and the number 1)
-*** scroll in project (across tracks) : M-up, M-down
-*** zoom time controls
-    :PROPERTIES:
-    :ID:       7bde716a-98dc-4d96-84e0-5a01701891f3
-    :END:
-**** +/- : zoom in/out
-**** C-<+ on num pad> : zoom to time selection
-**** (no default shortcut) : zoom to time selection
+** scroll vertically (across tracks) : M-up, M-down
+** scroll horizontally (across time) : M-left, M-right
+** time zoom controls
+*** +/- : zoom in/out
+*** C-<+ on num pad> : zoom to time selection
+*** (no default shortcut) : zoom to time selection
+** track height controls
+*** FAVORITE: Use ` to toggle maximize all track heights.
+*** FAVORITE: Page Up / Page Down : equalize & adjust all track heights.
+*** Use ~ to toggle minimize all and maximize all track heights.
+*** Press @ to "Minimise all tracks."
+*** Toggle height of all tracks between minimised, normal and maximised.
+    double-click vertical scroll bar
+*** vertically expand and collapse the horiz view of a track's controls
+    Press S-1
+      (that's Shift and the number 1)
 * A single track can hold both MIDI and audio.
   :PROPERTIES:
   :ID:       046cf634-cd68-4099-9528-d67be000ef74

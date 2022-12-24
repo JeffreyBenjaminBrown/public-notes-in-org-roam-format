@@ -3,7 +3,7 @@
 :END:
 #+title: views in Reaper
 * PITFALL: [[id:f9078ad5-9518-4672-b11a-4aabaa905e32][Two views of the track controls might be visible at once.]]
-* [[id:f490dad6-4415-4439-8c37-0ce7b5346a7e][viewing track controls]]
+* [[id:3475dab5-d962-4e99-bd66-8d841d7475a0][controlling track and time window views]]
 * [[id:cfcf9ddd-8686-4350-bc00-34bf3d883c47]["Overlapping Items" (in one track) is a thing.]]
 * [[id:f78c9054-f324-4509-a98f-e73d5cad5281][How media items look (what information they show) can be configured]].
 * [[id:e8df34e9-f664-4163-a0ed-c1ffd8720bbb][A "ruler" for time can be shown on an item]]

@@ -1,0 +1,50 @@
+:PROPERTIES:
+:ID:       86f8ebf8-8825-4e65-a841-df994627063b
+:END:
+#+title: Buses and routing
+* Buses are for sharing resources among tracks.
+  :PROPERTIES:
+  :ID:       8aecb135-fc73-4bd5-bb3e-b499b4f0ab04
+  :END:
+* "Toggle on/off send from track to Master"
+  Hold Alt while clicking Route.
+  Works with multi-track selections too.
+* "Create a quick send on the fly from one track to another."
+  "In TCP or MCP, drag and drop from send track ROUTE button to receive track’s.
+* ways to rout (sets of) tracks
+  alternatives
+** [[id:91ee26ba-8401-4bbb-baeb-66e7af9959f7][The "Routing Matrix" in Reaper is cool.]]
+** One track at a time can be routed via the Track Control Panel (TCP).
+** TODO Why use the Track Control Panel for selected groups of tracks?
+   :PROPERTIES:
+   :ID:       29066447-c019-4b65-b78b-889675335ee0
+   :END:
+   The manual (v. 6.70)
+   offers that as an alternative to the Routing Matrix.
+   See p. 59,
+   "Tips: Using the Track Control Panel to prepare multiple tracks".
+* A track's "Routing button" leads to its sends and receives.
+* TODO What is a "parent channel"?
+  :PROPERTIES:
+  :ID:       c262c184-c00a-4bdf-9565-9d32a6d33797
+  :END:
+* Per-track "playback time offset" can compensate for latency.
+  :PROPERTIES:
+  :ID:       92b5113c-231a-4135-916d-d8e809c81b41
+  :END:
+* Sends and receives can be before or after fader, pan and FX.
+  Three kinds: "Post Fader (Post Pan), Pre-Fader (Post FX) and Pre FX."
+* [[id:e35457fe-af25-4ea3-924d-a8b39f138a59][Alt-R: open the "Routing Matrix"]]
+* see also [[id:fcdf1130-6603-4fad-8231-01959d0e1690]["Track Wiring View"]]
+* "Track Wiring View" (cool)
+  :PROPERTIES:
+  :ID:       fcdf1130-6603-4fad-8231-01959d0e1690
+  :END:
+** shows sends, receives, media
+** It can be "uncluttered" from the context menu.
+   Right-click to get the context menu.
+   See the options involving the word "show".
+** TODO How is this different from the Routing Matrix?
+   :PROPERTIES:
+   :ID:       3ae229ac-92c8-416c-a69a-d8573515b1d4
+   :END:
