@@ -5,8 +5,8 @@
 * TODO resume reading in manual
   right after the gray box at the bottom of
   bottom of chapter 7 (editing), page 132, start of section
-    7.19
-    Take Media Source
+    7.20
+    Normalizing Items
 ** Skipped
    :PROPERTIES:
    :ID:       963866e1-1a6a-445e-a27a-68de1449dab1
@@ -21,6 +21,7 @@
 ** [[id:963866e1-1a6a-445e-a27a-68de1449dab1][Skipped: sections 4, 5]]
 * Reaper and microtonality
 ** [[id:6809927f-021c-4a4a-8ca1-7d4d02bd1964][Notes and background images can be attached]] to media items.
+** BLOCKED [[id:0e6f36d3-2397-4ce9-b8dd-51911cac36dc][the microtonal piano roll feature request I filed for Reaper]]
 * questions
 ** [[id:3ae229ac-92c8-416c-a69a-d8573515b1d4][How is this different from the Routing Matrix?]]
 ** [[id:a42915f9-1f80-404a-9b8a-d61935ec3da4][Is it to enable concurrent items in a track?]]
@@ -118,4 +119,3 @@ Item Format
 ** mixing in Reaper
 *** [[id:ec930cf4-e05c-4ff1-a643-82b6fb0b56fa][Automatic fades and crossfades are an option.]]
 ** [[id:0a895788-7ff0-4527-96ee-120a527f14fe]["editing media items"]] (audio and/or MIDI)
-* [[id:0e6f36d3-2397-4ce9-b8dd-51911cac36dc][the microtonal piano roll feature request I filed for Reaper]]

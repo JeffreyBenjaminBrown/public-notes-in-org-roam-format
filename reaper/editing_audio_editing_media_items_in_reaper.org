@@ -5,6 +5,10 @@
 * pp. 121-147 in manual
 * Undo
 ** [[id:ceabf0f9-020a-4a42-9c92-484ad690e96a]["Undo" is configurable]]
+** Redo = C-S-z (*not* C-y)
+   :PROPERTIES:
+   :ID:       2937ef5a-d022-421c-84a5-6000966b9dcc
+   :END:
 ** There is an Undo History window.
 ** Bumped objects can be restored without scrolling the undo history.
 *** quote source
