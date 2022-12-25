@@ -2,6 +2,11 @@
 :ID:       b2c146a9-789f-4c62-aa0e-0a6ca0e3034f
 :END:
 #+title: Reaper (DAW software)
+* refs
+** the manual on my filesystem
+   [[~/many-small/manuals/Reaper/]]
+   [[~/many-small/manuals/Reaper/2022-12-18-6BcrMNyU.ReaperUserGuide670d.pdf]]
+** [[id:963866e1-1a6a-445e-a27a-68de1449dab1][Skipped: sections 4, 5]]
 * TODO resume reading in manual
   right after the gray box at the bottom of
   bottom of chapter 7 (editing), page 132, start of section
@@ -14,111 +19,8 @@
 *** and don't care: chapters 4, 5
 *** TODO (but out of order)
     chapter 6, FX
-* refs
-** the manual on my filesystem
-   [[~/many-small/manuals/Reaper/]]
-   [[~/many-small/manuals/Reaper/2022-12-18-6BcrMNyU.ReaperUserGuide670d.pdf]]
-** [[id:963866e1-1a6a-445e-a27a-68de1449dab1][Skipped: sections 4, 5]]
-* Reaper and microtonality
-** [[id:6809927f-021c-4a4a-8ca1-7d4d02bd1964][Notes and background images can be attached]] to media items.
-** BLOCKED [[id:0e6f36d3-2397-4ce9-b8dd-51911cac36dc][the microtonal piano roll feature request I filed for Reaper]]
-* questions
-** [[id:3ae229ac-92c8-416c-a69a-d8573515b1d4][How is this different from the Routing Matrix?]]
-** [[id:a42915f9-1f80-404a-9b8a-d61935ec3da4][Is it to enable concurrent items in a track?]]
-** [[id:29066447-c019-4b65-b78b-889675335ee0][Why use the Track Control Panel for selected groups of tracks?]]
-** [[id:c262c184-c00a-4bdf-9565-9d32a6d33797][What is a "parent channel"?]]
-** Of these four "view modes" (for track wiring?), not all were introduced before being referred to.
-   routing matrix
-   grouping matrix	???
-   region render matrix ???
-   track wiring
-** What did I mean by
-*** [[id:6114e6e3-45f8-4d60-81a1-daaaae10c02a][Scrubbing does not affect playback]]
-*** [[id:5f08678c-8574-4938-87b3-efb4da1b8799][Alt-solo to silence the soloed track's sends.]]
-* PITFALLs
-** [[id:d6de763b-22d9-4563-bfd3-92f22a47c7d7][Toggling automatic crossfade when splitting an item seems tricky.]]
-** [[id:d6de763b-22d9-4563-bfd3-92f22a47c7d7][to toggle automatic crossfade when splitting an item]]
-** [[id:95858c48-ab4a-4647-af24-d7aedb55a316][Takes are complicated.]]
-** [[id:a4d23041-2371-4506-a31d-d08f1726cce9][setting up IO for Reaper]]
-** To use smart editing, [[id:c5bde97b-d226-48aa-8300-d31233bb57b5]["Loop Points Linked to Time Selection" should be off.]]
-** [[id:a864df5e-c735-42bf-980f-56d74f465453][Media and their envelopes can get out of sync.]]
-** [[id:f9078ad5-9518-4672-b11a-4aabaa905e32][Two views of the track controls can be visible at once.]]
-** "When possible, get your project timebase settings right before you record or import any items."
-   you can still over-ride the project timebase setting for individual tracks
-** [[id:2d324c40-7826-4bf7-bac2-4c5318c4ad64]["FX" is both singular and plural.]]
-** latency strategies
-*** PITFALL: Search the manual for the term "latency".
-**** It comes up in many, disparate places.
-*** [[id:c6ab08ee-d1e1-4cab-a2a3-42584c46910c][Reducing the block size can reduce latency.]]
-* vocab
-** "MCP" = "Mixer control panel"
-** "TCP" = "Track contrl panel"
-** "FX" is both singular and plural.
-   :PROPERTIES:
-   :ID:       2d324c40-7826-4bf7-bac2-4c5318c4ad64
-   :END:
-   (in the manual)
-* [[id:a4d23041-2371-4506-a31d-d08f1726cce9][setting up IO for Reaper]]
-* [[id:938c2035-98b9-49a9-98f1-c037078ae0a0][Reaper shortcuts]]
-* [[id:d2b9b956-5c1b-418a-a447-62811c956654][views in Reaper]]
-* how to use Reaper
-** Settings can be backed up.
-   see "Backing up Settings"
-** Folders and file types are documented
-   see "REAPER’s Installed Folders and File Location"
-   see "REAPER File Types"
-** [[id:87336c4a-073b-42fe-a0d0-40f9cece91f6][Reaper is surprisingly configurable.]]
-** [[id:f82d4359-a8bb-4b88-b00d-4e9b3d924725][time, selecting regions, Transport and the Transport Bar]]
-** Adjusting faders
-*** Use Alt to audition changes.
-    The fader will go back to where it was afterward.
-*** Hold Ctrl for finer mouse adjustments.
-*** Scroll wheel (two-finger scroll?) also works if enabled.
-** [[id:0e518fd3-734a-4110-b319-22d6930f6f00][Track controls and the Track Control Panel (TCP) \ Reaper]]
-** "Navigation and Zooming"
-*** [[id:b0f09bb3-ddc1-4dfa-bbb0-a69eed0fc824][C-M-(up|down) to jump tracks.]]
-*** [[id:3475dab5-d962-4e99-bd66-8d841d7475a0][controlling track and time window displays]]
-*** Alt-arrow (all four directions) to scroll within a project
-*** mouse has four scroll|zoom modes
-**** no modifier - horizontal scroll
-**** Alt - horiz scroll
-**** Ctrl - vertical zoom
-**** C-M - vertical scroll
-*** "The Navigator"
-**** C-M-v
-**** Seems to be to choose what part of the timeline the main display shows.
-**** Has cool shortcuts.
-** [[id:4174cedc-c3ab-4b1a-ad5b-b9c222a4945c][FX | plugins \\ Reaper]]
-** [[id:86f8ebf8-8825-4e65-a841-df994627063b][Buses and routing]] \ Reaper
-** Projects
-*** Tracks can be based off of "Templates".
-*** Project tabs
-    Useful if need to keep multiple projects open,
-    e.g. when copying media from one to another.
-*** [[id:fde2270b-ed9e-46aa-90ff-88733a50facd][configurable: how creating and saving projects works]]
-*** One project can be imported into another.
-**** ref
-     section "Importing an Existing Project" in the mnaul
-**** what that does
-     This copies tracks and their media,
-     leaving behind global things like markers.
-** [[id:2a878556-a849-4812-9779-320107cbaf6e][recording (audio & MIDI) \ Reaper]]
-** resource management in Reaper
-*** Raw track recordings can be MP3 instead of WAV.
-*** [[id:8aecb135-fc73-4bd5-bb3e-b499b4f0ab04][Buses are for sharing resources among tracks.]]
-*** Reducing the block size can reduce latency.
-    :PROPERTIES:
-    :ID:       c6ab08ee-d1e1-4cab-a2a3-42584c46910c
-    :END:
-*** Many files can be format-converted at once.
-**** e.g. to send a smaller copy of the project to a collaborator
-**** see in manual
-     Converting Audio Media Item Format
-***** PITFALL: That text is not searchable
-      because it's split across two lines:
-      Converting Audio Media
-Item Format
-** mixing in Reaper
-*** [[id:ec930cf4-e05c-4ff1-a643-82b6fb0b56fa][Automatic fades and crossfades are an option.]]
-** [[id:05887b8f-ec0f-45c6-8346-06c893cc8b17][fades and crossfades \ Reaper]]
-** [[id:0a895788-7ff0-4527-96ee-120a527f14fe]["editing media items"]] (audio and/or MIDI)
+* TODO [[id:dc2e95b2-e85f-4d60-858a-fa9ff2ac954f][Settings can be backed up.]]
+* TODO [[id:752ec4bb-624f-4161-9624-9fc75dd13517][questions]] about Reaper
+* [[id:c845c381-8b0b-4b7a-82e8-71f70110304e][PITFALLs]] in Reaper
+* [[id:f16db74b-368c-4e86-952f-23bcb19169ea][vocab]] in Reaper
+* [[id:890e754a-8677-43f3-92f4-035d0ecd42db][usage \ Reaper]]

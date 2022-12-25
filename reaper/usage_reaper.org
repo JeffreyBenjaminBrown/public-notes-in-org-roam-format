@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       890e754a-8677-43f3-92f4-035d0ecd42db
+:END:
+#+title: usage \ Reaper
+* [[id:a4d23041-2371-4506-a31d-d08f1726cce9][setting up IO for Reaper]]
+* [[id:938c2035-98b9-49a9-98f1-c037078ae0a0][Reaper shortcuts]]
+* [[id:d2b9b956-5c1b-418a-a447-62811c956654][views and navigation in Reaper]]
+* Folders and file types are documented
+  see "REAPER’s Installed Folders and File Location"
+  see "REAPER File Types"
+* [[id:87336c4a-073b-42fe-a0d0-40f9cece91f6][Reaper is surprisingly configurable.]]
+* [[id:f82d4359-a8bb-4b88-b00d-4e9b3d924725][time, selecting regions, Transport and the Transport Bar]]
+* Adjusting faders
+** Use Alt to audition changes.
+   The fader will go back to where it was afterward.
+** Hold Ctrl for finer mouse adjustments.
+** Scroll wheel (two-finger scroll?) also works if enabled.
+* [[id:0e518fd3-734a-4110-b319-22d6930f6f00][Track controls and the Track Control Panel (TCP) \ Reaper]]
+* [[id:4174cedc-c3ab-4b1a-ad5b-b9c222a4945c][FX | plugins \\ Reaper]]
+* [[id:86f8ebf8-8825-4e65-a841-df994627063b][Buses and routing]] \ Reaper
+* [[id:ebbae135-2649-4194-b58e-aa122d74cb84][project management in Reaper]]
+  starting and saving projects
+  track templates
+  importing one project into another
+  more
+* [[id:2a878556-a849-4812-9779-320107cbaf6e][recording (audio & MIDI) \ Reaper]]
+* [[id:fc68255b-1c86-44be-b787-b7ea54a8fdda][resource management (memory, CPU cycles, latency)]]
+* mixing in Reaper
+** [[id:ec930cf4-e05c-4ff1-a643-82b6fb0b56fa][Automatic fades and crossfades are an option.]]
+* [[id:05887b8f-ec0f-45c6-8346-06c893cc8b17][fades and crossfades \ Reaper]]
+* [[id:0a895788-7ff0-4527-96ee-120a527f14fe][editing media items]] (audio and/or MIDI
+* [[id:7b0e278c-0736-4eda-8f7a-a70d856e133a][Reaper and microtonality]]

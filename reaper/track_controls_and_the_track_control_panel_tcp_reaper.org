@@ -1,8 +1,11 @@
 :PROPERTIES:
 :ID:       0e518fd3-734a-4110-b319-22d6930f6f00
+:ROAM_ALIASES: "TCP \ Reaper"
 :END:
-#+title: Track controls and the Track Control Panel (TCP) \ Reaper
-* PITFALL: [[id:f9078ad5-9518-4672-b11a-4aabaa905e32][Two views of the track controls can be visible at once.]]
+#+title: track controls and the Track Control Panel \ Reaper
+* PITFALLs
+** [[id:f9078ad5-9518-4672-b11a-4aabaa905e32][Two views of the track controls can be visible at once.]]
+** [[id:1fdafc48-468f-4bc6-a749-52e6c0bf5dcf][To read about stereo operations, look for the term "channel".]]
 * the Track Control Panel (TCP)
 ** One way to open it: Right-click on the track's Arm button.
    :PROPERTIES:
@@ -57,3 +60,5 @@
   The alternative is "solo in place", where sends are heard too.
 ** TODO How can you hear the track if it's not sending anywhere?
 * [[id:c0ba8a8a-ddcb-4f2b-afe2-7d8344cabb6b][Each track can have a different default recording format.]]
+* [[id:2f4508ff-27e2-47ed-8b63-0e9de771800f][Track volume, pan, can be nudged.]]
+  Maybe other things, too.

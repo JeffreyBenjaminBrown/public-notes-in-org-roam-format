@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       fc68255b-1c86-44be-b787-b7ea54a8fdda
+:END:
+#+title: resource management (memory, CPU cycles, latency) \ Reaper
+* Raw track recordings can be MP3 instead of WAV.
+* [[id:8aecb135-fc73-4bd5-bb3e-b499b4f0ab04][Buses are for sharing resources among tracks.]]
+* latency strategies
+** PITFALL: Search the manual for the term "latency".
+*** It comes up in many, disparate places.
+** Reducing the block size can reduce latency.
+* Many files can be format-converted at once.
+** e.g. to send a smaller copy of the project to a collaborator
+** see in manual
+   Converting Audio Media Item Format
+*** PITFALL: That text is not searchable
+      because it's split across two lines:
+      Converting Audio Media
+Item Format

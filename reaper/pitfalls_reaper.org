@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       c845c381-8b0b-4b7a-82e8-71f70110304e
+:END:
+#+title: pitfalls in Reaper
+* [[id:1fdafc48-468f-4bc6-a749-52e6c0bf5dcf][To read about stereo operations, look for the term "channel".]]
+* [[id:b7d01932-b36f-4436-9581-61a364e645a6][Snapping of ruler markers and regions]] is not separately configurable.
+* [[id:d6de763b-22d9-4563-bfd3-92f22a47c7d7][Toggling automatic crossfade when splitting an item seems tricky.]]
+* [[id:95858c48-ab4a-4647-af24-d7aedb55a316][Takes are complicated.]]
+* [[id:a4d23041-2371-4506-a31d-d08f1726cce9][setting up IO for Reaper]]
+* To use smart editing, [[id:c5bde97b-d226-48aa-8300-d31233bb57b5]["Loop Points Linked to Time Selection" should be off.]]
+* [[id:a864df5e-c735-42bf-980f-56d74f465453][Media and their envelopes can get out of sync.]]
+* [[id:f9078ad5-9518-4672-b11a-4aabaa905e32][Two views of the track controls can be visible at once.]]
+* "When possible, get your project timebase settings right before you record or import any items."
+  you can still over-ride the project timebase setting for individual tracks
+* [[id:2d324c40-7826-4bf7-bac2-4c5318c4ad64]["FX" is both singular and plural.]]
+* [[id:fc68255b-1c86-44be-b787-b7ea54a8fdda][resource management (memory, CPU cycles, latency) \ Reaper]]

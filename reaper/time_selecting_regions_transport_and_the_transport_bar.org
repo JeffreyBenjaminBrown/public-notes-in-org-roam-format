@@ -1,17 +1,12 @@
 :PROPERTIES:
 :ID:       f82d4359-a8bb-4b88-b00d-4e9b3d924725
+:ROAM_ALIASES: "time \ Reaper"
 :END:
 #+title: time, selecting regions, Transport and the Transport Bar \ Reaper
 * [[id:b591f5ba-4b9b-4b03-aa83-29e03142cc0d]["Time selection"s and "Time loop"s]]
 ** [[id:ca29c093-1145-4d9f-b7db-73efe925f947]["Jumping" permits precise changes to the focused time.]]
 * [[id:3475dab5-d962-4e99-bd66-8d841d7475a0][controlling track and time window displays]]
-* snap to grid \ Reaper
-** snap to grid shortcuts, some
-   :PROPERTIES:
-   :ID:       936db8cf-4d63-4b5e-869b-516466082bcc
-   :END:
-*** toggle it: M-s
-*** show snap options: M-l
+* [[id:81e5b0e2-3f7f-45db-bd00-f812e6bf5906][grid lines and snapping \ Reaper]]
 * "Transport" includes
   playback, recording, maybe region-selection, more
 * what the Transport Bar is
@@ -37,3 +32,4 @@
 ** [[id:92b5113c-231a-4135-916d-d8e809c81b41][Per-track "playback time offset" can compensate for latency.]]
 ** [[id:c919ece3-e39d-4c7c-8179-acb9a71d2eb6][Alt-C: toggle the Big Clock]]
 * configurable: [[id:7561c9ad-d766-4fae-8475-9c6c5947b88f][what moves the "Play cursor"]]
+* [[id:2f4508ff-27e2-47ed-8b63-0e9de771800f][Time selections can be nudged.]]

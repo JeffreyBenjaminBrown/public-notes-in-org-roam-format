@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       01b2aa95-dfb8-479c-a552-ac8cc98a2a72
+:END:
+#+title: nudge \ Reaper
+* Open the nudge dialog : N
+* Multiple kinds of things can be nudged.
+  :PROPERTIES:
+  :ID:       2f4508ff-27e2-47ed-8b63-0e9de771800f
+  :END:
+** Time selection position (use , and .)
+** Items
+** track pan and volume levels
+** master volume levels
+** more

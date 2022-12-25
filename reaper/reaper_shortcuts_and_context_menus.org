@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       938c2035-98b9-49a9-98f1-c037078ae0a0
+:ROAM_ALIASES: "shortcuts \ Reaper"
 :END:
 #+title: Reaper shortcuts and surprise context menus
 * surprise context menus or windows
@@ -12,7 +13,8 @@
 * some builtin shortcuts
 ** [[id:f625c27d-b448-44a8-b667-0faf07543ea3]["basic editing"]] shortcuts
 ** [[id:7e1bcbe1-837c-4a36-8433-5843e8bc3a11][show a media item properties]]
-** [[id:936db8cf-4d63-4b5e-869b-516466082bcc][snap to grid shortcuts]]
+** [[id:936db8cf-4d63-4b5e-869b-516466082bcc][grid shortcuts]]
+   tags "snap to grid" "snapping"
 ** [[id:2937ef5a-d022-421c-84a5-6000966b9dcc][Redo = C-S-z]] (*not* C-y)
    tag undo
 ** "Show all takes [in a track] (when [there is] room)" :: C-l

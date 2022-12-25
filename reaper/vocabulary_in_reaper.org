@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       f16db74b-368c-4e86-952f-23bcb19169ea
+:ROAM_ALIASES: "vocabulary in Reaper"
+:END:
+#+title: vocab in Reaper
+* "MCP" = "Mixer control panel"
+* "TCP" = "Track contrl panel"
+* "FX" is both singular and plural.
+  :PROPERTIES:
+  :ID:       2d324c40-7826-4bf7-bac2-4c5318c4ad64
+  :END:
+  (in the manual)

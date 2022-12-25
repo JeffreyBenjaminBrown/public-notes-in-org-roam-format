@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       7b0e278c-0736-4eda-8f7a-a70d856e133a
+:END:
+#+title: Reaper and microtonality
+* [[id:6809927f-021c-4a4a-8ca1-7d4d02bd1964][Notes and background images can be attached]] to media items.
+* BLOCKED [[id:0e6f36d3-2397-4ce9-b8dd-51911cac36dc][the microtonal piano roll feature request I filed for Reaper]]

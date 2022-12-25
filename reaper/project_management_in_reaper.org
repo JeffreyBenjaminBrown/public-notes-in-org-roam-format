@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       ebbae135-2649-4194-b58e-aa122d74cb84
+:END:
+#+title: project management in Reaper
+* Tracks can be based off of "Templates".
+* Project tabs
+  Useful if need to keep multiple projects open,
+  e.g. when copying media from one to another.
+* [[id:fde2270b-ed9e-46aa-90ff-88733a50facd][configurable: how creating and saving projects works]]
+* One project can be imported into another.
+** ref
+   section "Importing an Existing Project" in the mnaul
+** what that does
+   This copies tracks and their media,
+   leaving behind global things like markers.

@@ -2,6 +2,11 @@
 :ID:       87336c4a-073b-42fe-a0d0-40f9cece91f6
 :END:
 #+title: Reaper is surprisingly configurable.
+* TODO Settings can be backed up.
+  :PROPERTIES:
+  :ID:       dc2e95b2-e85f-4d60-858a-fa9ff2ac954f
+  :END:
+  see "Backing up Settings"
 * [[id:e4eaf8af-b544-4db1-8e75-a24f534f6a8d][Actions Menu, the \ Reaper]]
 * gllobal settings that are surprisingly configurable
 ** [[id:d2b9b956-5c1b-418a-a447-62811c956654][views in Reaper]]

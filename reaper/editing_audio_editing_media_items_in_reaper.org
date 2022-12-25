@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       0a895788-7ff0-4527-96ee-120a527f14fe
 :END:
-#+title: editing audio ("editing media items") in Reaper
+#+title: editing audio ("editing media items") \ Reaper
 * pp. 121-147 in manual
 * Undo
 ** [[id:ceabf0f9-020a-4a42-9c92-484ad690e96a]["Undo" is configurable]]
@@ -210,4 +210,39 @@ another. Defaults to project default.
   :END:
 ** see section 7.18
    Displaying the Item Ruler
+* normalizing audio items
+** two ways to normalize a selection of items at once
+   One is to give them "common gain".
+   In this case, only the one with the loudest peak will reach maximum volume
+     (at some point).
+   The other is not to do that, in which case they all do (at some point).
 * [[id:63d1464e-4714-4e75-a538-21aa338d5b53][A whole sequence of [editing] actions can be given a keyboard shortcut.]]
+* [[id:2f4508ff-27e2-47ed-8b63-0e9de771800f][Multiple kinds of things can be nudged]], and not just in time.
+* PITFALL: For stereo operations, look for the term "channel".
+  :PROPERTIES:
+  :ID:       1fdafc48-468f-4bc6-a749-52e6c0bf5dcf
+  :END:
+  e.g. manual section "Item Channel Mode and Channel Mapping"
+* grouping items
+** TODO What does grouping items make possible.
+   :PROPERTIES:
+   :ID:       ea1efd29-be54-4588-936f-af5f05a46dab
+   :END:
+*** I imagine many kinds of edits can be applied to a group.
+*** The manual doesn't say much.
+    quote
+    items can be
+grouped together to facilitate working with them. For example,
+you can move them together, set them all to a common color,
+mute and unmute them, and so on)
+** PITFALL: Must be enabled.
+*** [[id:b1ae23b9-6949-4da8-927a-6d7226bc3576][enable it : M-S-g]]
+** Multiple groups can be saved.
+** Might also want to enable "Selecting one item selects group".
+** group item shortcuts, some
+*** enable grouping : M-S-g
+    :PROPERTIES:
+    :ID:       b1ae23b9-6949-4da8-927a-6d7226bc3576
+    :END:
+*** add selected items to a group : g
+*** remove from a group : u
