@@ -1,0 +1,80 @@
+:PROPERTIES:
+:ID:       05af8ca3-d0f3-48ba-ab2a-07a36f61319f
+:END:
+#+title: media items in Reaper
+* media items views
+** [[id:a37ed2de-2b22-45ff-a1b3-f91b481f1021][track and time window views in Reaper]]
+** What information media items show can be configured.
+   :PROPERTIES:
+   :ID:       f78c9054-f324-4509-a98f-e73d5cad5281
+   :END:
+*** ref
+    in the manual:
+      media item appearance preferences settings
+** showing an item's audio content
+*** audio peaks
+**** ref: section Item Peak Display
+**** their display          can be configured
+**** their displayed values can be rebuilt
+*** Spectral Peak Display : use color to show the loudest frequency
+*** [[id:45ebc711-cc3d-4c7e-ac3e-ca1bc7099dfe][Spectrogram View and Spectral Editing]]
+** A "ruler" for time can be shown on an item
+   :PROPERTIES:
+   :ID:       e8df34e9-f664-4163-a0ed-c1ffd8720bbb
+   :END:
+*** see section 7.18
+    Displaying the Item Ruler
+** Tracks, items and takes can be assigned colors.
+   :PROPERTIES:
+   :ID:       d77f251e-aba2-48ac-9b1e-cce5f88f9679
+   :END:
+*** refs
+    section 7.32
+      Coloring Individual Items
+    chapter 5, section
+      Track Colors
+* Media Item Properties (hence things to edit)
+** to show them : select item, then press F2
+   :PROPERTIES:
+   :ID:       7e1bcbe1-837c-4a36-8433-5843e8bc3a11
+   :END:
+** noteworthy
+*** Snap offset
+    quote:
+    Offset from the default
+snap position if snapping is enabled.
+*** Item timebase
+    quote:
+    Defaults to project
+timebase but can be changed. Options
+are Track/project default. Time
+...
+*** Item mix
+    quote:
+    Effectively whether to replace
+or mix when an item is placed over
+another. Defaults to project default.
+*** Loop source
+    quote:
+    whether item is a loop.
+*** "play all takes"
+    Whether or not to do that (if two or more takes exist).
+*** Playback rate
+    e.g. "x2" for double speed
+*** "preserve item pitch"
+    whenthe playback rate is changed.
+*** "Take FX Chain"
+*** "Apply changes after 2 seconds of inactivity"
+    Right-click on the item's title bar to change this
+*** Notes and background images can be attached.
+    :PROPERTIES:
+    :ID:       6809927f-021c-4a4a-8ca1-7d4d02bd1964
+    :END:
+*** locked, whether the item is
+**** It can't be moved or edited.
+**** But its properties (menu) can still be modified.
+*** Item playback rate can be adjusted
+    :PROPERTIES:
+    :ID:       9e92d2ff-f4c5-4cbc-840a-8a7d49af09c1
+    :END:
+    with or without changing pitch.

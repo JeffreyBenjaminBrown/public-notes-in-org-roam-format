@@ -93,7 +93,7 @@ make changes to a dependent component then quit and reload.
 ** the "cabal: Version mismatch between ghc and ghc-pkg" error
    It happened when I ran `cabal repl`.
    I solved it by deleting `dist-newstyle/` and rebuilding.
-** [[id:2a224c00-fb0a-45a4-933b-bdf03d52d9de][random numbers in Haskell]]
+** [[id:2a224c00-fb0a-45a4-933b-bdf03d52d9de][random numbers and probability in Haskell]]
 * some Haskell libraries
 ** [[id:ca586cff-5010-4624-8886-9d53915e5469][Debug.Trace (Haskell library) is magic]]
 ** [[id:3c92b639-c552-42d7-87e2-7fd1cf560f74][System.Random (Haskell library)]]

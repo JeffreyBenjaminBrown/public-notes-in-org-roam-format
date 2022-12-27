@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       975d6340-3da2-442d-aac1-8b91aa51caf7
+:END:
+#+title: metronome in Reaper
+* configurable aspects
+** whether and how to count in before recording
+** whether to run when recording
+** where to send the sound
+** volume of primary and secondary beat

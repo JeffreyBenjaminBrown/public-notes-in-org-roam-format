@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       a37ed2de-2b22-45ff-a1b3-f91b481f1021
+:END:
+#+title: track and time window views in Reaper
+* PITFALL: Two views of the track controls might be visible at once.
+  :PROPERTIES:
+  :ID:       f9078ad5-9518-4672-b11a-4aabaa905e32
+  :END:
+  One view is at the bottom, where each track is vertical.
+  Another is at the top left, where each track is horizontal.
+* [[id:05af8ca3-d0f3-48ba-ab2a-07a36f61319f][media items views in Reaper]]
+* [[id:78f34326-cc2e-4c26-8f21-feddb161c2d3][Overlapping Items in the same track]]
+* [[id:bc38331c-8b7e-4ac0-850d-21f5ed771025][Transport controls]]
+** [[id:1b01b654-8b32-4d3e-b272-62ac8bdc857b][Nudge left|right: C-(left|right)]]
+* Alt-arrow (all four directions) to scroll within a project.
+** [[id:b0f09bb3-ddc1-4dfa-bbb0-a69eed0fc824][C-M-(up|down) to jump tracks.]]
+* The Navigator : useful for big jumps in time
+** C-M-v
+** Seems to be to choose what part of the timeline the main display shows.
+** Has cool shortcuts.
+* time zoom controls
+** +/- : zoom in/out
+** C-<+ on num pad> : zoom to time selection
+** (no default shortcut) : zoom to time selection
+* track height controls
+** FAVORITE: Use ` to toggle maximize all track heights.
+** FAVORITE: Page Up / Page Down : equalize & adjust all track heights.
+** Use ~ to toggle minimize all and maximize all track heights.
+** Press @ to "Minimise all tracks."
+** Toggle height of all tracks between minimised, normal and maximised.
+   double-click vertical scroll bar
+** vertically expand and collapse the horiz view of a track's controls
+   Press S-1
+     (that's Shift and the number 1)
+* [[id:d77f251e-aba2-48ac-9b1e-cce5f88f9679][Tracks, items and takes can be assigned colors.]]
+* configurable : whether track "metering" is pre- or post-fader
+  :PROPERTIES:
+  :ID:       51286989-c0e3-4ccf-8724-86d0b7ce919a
+  :END:

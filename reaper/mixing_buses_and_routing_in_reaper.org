@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       86f8ebf8-8825-4e65-a841-df994627063b
+:END:
+#+title: mixing, buses and routing in Reaper
+* TODO What is a "parent channel"?
+  :PROPERTIES:
+  :ID:       c262c184-c00a-4bdf-9565-9d32a6d33797
+  :END:
+* [[id:05887b8f-ec0f-45c6-8346-06c893cc8b17][fades and crossfades]]
+* Buses are for sharing resources among tracks.
+  :PROPERTIES:
+  :ID:       8aecb135-fc73-4bd5-bb3e-b499b4f0ab04
+  :END:
+* configurable: [[id:51286989-c0e3-4ccf-8724-86d0b7ce919a][whether track "metering" is pre- or post-fader]]
+* *ways to route tracks*
+  Some of these route only one;
+  others, many at once.
+** TODO What are the relative advantages of each of these methods?
+   :PROPERTIES:
+   :ID:       29066447-c019-4b65-b78b-889675335ee0
+   :END:
+   The manual (v. 6.70)
+   offers that as an alternative to the Routing Matrix.
+   See p. 59,
+   "Tips: Using the Track Control Panel to prepare multiple tracks".
+** [[id:91ee26ba-8401-4bbb-baeb-66e7af9959f7][Routing Matrix]] (cool)
+** [[id:b054d035-fafe-4065-ae74-d98b1f932669][Track Wiring View]] (cool)
+** A track's "Routing button" leads to its sends and receives.
+** One track at a time can be routed via the [[id:532fa648-9518-4166-81f0-6198ff093581][Track Control Panel]] (TCP).
+* to toggle "send from track to Master"
+  Hold Alt while clicking Route.
+  Works with multi-track selections too.
+* "Create a quick send on the fly from one track to another."
+  "In TCP or MCP, drag and drop from send track ROUTE button to receive track’s.
+* Sends and receives can be before or after fader, pan and FX.
+  :PROPERTIES:
+  :ID:       c0d8170c-2a26-4b01-b796-7c358aedfe9f
+  :END:
+  Three kinds: "Post Fader (Post Pan), Pre-Fader (Post FX) and Pre FX."

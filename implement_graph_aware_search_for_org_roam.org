@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       cf6b00e9-ff5c-4cd6-a60f-633b07b340b4
+:END:
+#+title: implement graph-aware search for org-roam
+* requirements
+** find children of (links from) query results
+** find parents of (links into) query results
+** take the disjunction (OR) of queries
+** take the conjunction (AND) of queries
+** group queries with parentheses
+* could use Haskell
+  https://github.com/knupfer/haskell-emacs

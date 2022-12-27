@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       6ba680fe-4512-452b-88fe-5a4b0cc7417a
+:ROAM_ALIASES: "channels and stereo in Reaper"
+:END:
+#+title: stereo and channels in Reaper
+* PITFALL: For stereo operations, look for the term "channel".
+  :PROPERTIES:
+  :ID:       1fdafc48-468f-4bc6-a749-52e6c0bf5dcf
+  :END:
+  e.g. manual section "Item Channel Mode and Channel Mapping"
+* Stereo and even more-multichannel tracks are possible.
+  :PROPERTIES:
+  :ID:       fca74669-9d61-462a-b9ef-7ca20ffc4801
+  :END:
+** Both mono and stereo tracks can be placed in the stereo spectrum.
+* [[id:de55d5a8-b598-4031-8631-f89dcb94c855][The Routing Matrix view can be simplified by toggling the option "Show non-standard stereo channel pairs"]]
+* [[id:c262c184-c00a-4bdf-9565-9d32a6d33797][What is a "parent channel"?]]

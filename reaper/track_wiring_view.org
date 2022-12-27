@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       b054d035-fafe-4065-ae74-d98b1f932669
+:END:
+#+title: Track Wiring View
+* TODO How is the Track Wiring View different from the Routing Matrix?
+  :PROPERTIES:
+  :ID:       3ae229ac-92c8-416c-a69a-d8573515b1d4
+  :END:
+* shows sends, receives, media
+* It can be "uncluttered" from the context menu.
+  Right-click to get the context menu.
+  See the options involving the word "show".

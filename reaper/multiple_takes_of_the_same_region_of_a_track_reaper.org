@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       cd8e2baf-26de-4f29-a459-928d78c5b46a
+:ROAM_ALIASES: "takes in Reaper"
+:END:
+#+title: multiple Takes of the same region of a track \ Reaper
+* see in the manal
+** Recording Multiple Takes
+** Displaying Multiple Takes
+** Using Color Coded Takes
+** Working With Multiple Takes
+* [[id:d77f251e-aba2-48ac-9b1e-cce5f88f9679][Items and takes can be assigned colors.]]

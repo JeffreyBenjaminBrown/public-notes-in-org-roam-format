@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       0aa74865-10a8-437f-8127-73bb5f8bfbb3
+:END:
+#+title: looping (the edit) \ Reaper
+* PITFALL: This time looping and looping (the edit) are different.
+  :PROPERTIES:
+  :ID:       27c236db-2cfe-4602-8dc3-31851bf43ab9
+  :END:
+  Time looping means defining a section to play repeatedly,
+  but without changing the timeline.
+* to make loops
+** PITFALL: Having snapping enabled helps.
+   :PROPERTIES:
+   :ID:       53faa10d-a38a-4c31-88d2-2e180317c28d
+   :END:
+** to crop and loop an item
+   serial
+*** Adjust an items edges until it contains only the desired loop.
+*** Glue it ("to itself") so that it forgets the trimmed-out regions.
+    [[id:f3977942-afef-4cf1-9ef0-fa85c4143620][glue item(s) : C-S-g]]
+    (or use the right-click context menu)
+*** Drag its edge(s) to loop it over a region.
+** to loop selected items at a time selection
+   serial
+*** select the items
+*** select the time interval
+* Boundaries in a looped item appear as notches.
+* Looping can be disabled for certain things
+  including individual media items.
+* It might help that [[id:9e92d2ff-f4c5-4cbc-840a-8a7d49af09c1][playback rate can be adjusted]].

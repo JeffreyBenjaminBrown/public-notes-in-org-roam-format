@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       2a224c00-fb0a-45a4-933b-bdf03d52d9de
 :END:
-#+title: random numbers in Haskell
+#+title: random numbers and probability in Haskell
 * There's a better monadic solution.
 * My cheesy solution,
   -- | Demo: A random generation of a stream of floats.
@@ -26,3 +26,5 @@
 
   random_seed :: Int
   random_seed = 7 -- Might want to change.
+* a probability monad from scratch
+  https://dennybritz.com/posts/probability-monads-from-scratch/

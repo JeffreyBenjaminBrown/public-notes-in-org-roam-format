@@ -4,6 +4,7 @@
 #+title: org-roam
 * refs
 ** for help : the Discourse group
+* TODO [[id:cf6b00e9-ff5c-4cd6-a60f-633b07b340b4][implement graph-aware search for org-roam]]
 * PITFALL: [[id:a90bc443-c736-4e76-ac3b-348708f57cbc][Don't keep two similar tables in the same .org file.]]
 * org-roam-extract-subtree
   :PROPERTIES:

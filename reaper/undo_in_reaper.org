@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       46d96a78-589f-4c0d-886a-c852e9030e9e
+:END:
+#+title: undo in Reaper
+* Redo = C-S-z (*not* C-y)
+  :PROPERTIES:
+  :ID:       2937ef5a-d022-421c-84a5-6000966b9dcc
+  :END:
+* There is an Undo History window.
+* Bumped objects can be restored without scrolling the undo history.
+** quote source
+   very end of section
+     7.2.2
+     REAPER's Smart Editing"
+** the quote
+   Tip: If you accidentally move an item from its original position, it can be restored to its
+original position by choosing Item processing then Move item to source preferred
+position from the media item right-click context menu.
+* Undo is configurable.
+  :PROPERTIES:
+  :ID:       ceabf0f9-020a-4a42-9c92-484ad690e96a
+  :END:
+** Can choose what kinds of changes are tracked by Undo.
+** Can save the undo history across sessions.
+** Can "store multiple undo/redo paths".

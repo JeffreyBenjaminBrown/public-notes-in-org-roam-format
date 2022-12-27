@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       fde2270b-ed9e-46aa-90ff-88733a50facd
+:END:
+#+title: project creation, saving, import and export
+* configurable things
+** Automatic backups
+*** can be enabled
+*** can run at a configurable interval
+** Whether to automatically "load last active project".
+** paths
+** "copy media on import"
+** details within audio format
+   e.g. bit depth for WAV files
+*** [[id:c0ba8a8a-ddcb-4f2b-afe2-7d8344cabb6b][Each track can have a different default recording format.]]
+* One project can be imported into another.
+** ref
+   section "Importing an Existing Project" in the mnaul
+** what that does
+   This copies tracks and their media,
+   leaving behind global things like markers.

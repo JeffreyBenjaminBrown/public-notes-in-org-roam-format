@@ -2,6 +2,7 @@
 :ID:       4bd7f12e-2061-40e9-9e98-683552f40918
 :END:
 #+title: contribute to open source projects
+* [[id:cf6b00e9-ff5c-4cd6-a60f-633b07b340b4][implement graph-aware search for org-roam]]
 * ? generalize tree-query
   https://github.com/CrazyPython/tree-query
 * [[id:3a852c6d-c81b-47d7-8f9a-a9e2fccc24eb][make a stats/ML library for Haskell]]

@@ -1,0 +1,92 @@
+:PROPERTIES:
+:ID:       f82d4359-a8bb-4b88-b00d-4e9b3d924725
+:ROAM_ALIASES: "time in Reaper"
+:END:
+#+title: time, regions, and transport in Reaper
+* definitions
+** [[id:f3b027ae-6211-41d6-82ee-f1d25482ac2e][Transport = playback, recording, maybe region-selection, more]]
+** the Transport Bar
+   = a thin horizontal bar with playback controls,
+   time coordinates, BPM, more stuff.
+* [[id:c919ece3-e39d-4c7c-8179-acb9a71d2eb6][Big Clock]]
+* [[id:975d6340-3da2-442d-aac1-8b91aa51caf7][metronome]]
+* project Timebase
+** = defines BPM, time signature, etc.
+** advice : fix it early
+   :PROPERTIES:
+   :ID:       28317ac0-dc2c-450f-8313-8addd9401031
+   :END:
+   "When possible, get your project timebase settings right before you record or import any items."
+** Individual tracks can override project timebase settings.
+** Tempo Maps can be detected automatically from transients.
+   This is useful for drawing a changing timebase
+   over material recorded without a click.
+* views of [[id:a37ed2de-2b22-45ff-a1b3-f91b481f1021][track and time windows]]
+* [[id:81e5b0e2-3f7f-45db-bd00-f812e6bf5906][grid lines and snapping \ Reaper]]
+* Transport controls
+  :PROPERTIES:
+  :ID:       bc38331c-8b7e-4ac0-850d-21f5ed771025
+  :END:
+** Show Transport Bar: C-M-t
+** [[id:56139fc8-ff43-45b8-ab4c-60d2c19f1c7c][Record: C-r]]
+** Play|Stop: SPC
+** Toggle Repeat: r
+** Pause: Enter
+** Stop v. Pause
+   Stop returns the cursor to where it started.
+** Nudge left|right: C-(left|right)
+   :PROPERTIES:
+   :ID:       1b01b654-8b32-4d3e-b272-62ac8bdc857b
+   :END:
+** Play skipping loop section: M-SPC
+** Scrubbing does not affect playback.
+   :PROPERTIES:
+   :ID:       6114e6e3-45f8-4d60-81a1-daaaae10c02a
+   :END:
+   Grab the down-pointing triangle on top of the plauback mark,
+   and drag, maybe while pressing shift (depends on settings).
+* configurable
+** [[id:7561c9ad-d766-4fae-8475-9c6c5947b88f][what moves the "Play cursor"]]
+** Per-track "playback time offset" can compensate for latency.
+* loops and time selections
+** [[id:8692703b-8f0e-49a8-bcbf-1e83885dd3eb][Time selection has something to do with smart editing.]]
+** [[id:0aa74865-10a8-437f-8127-73bb5f8bfbb3][looping (the edit) \ Reaper]]
+** [[id:2f4508ff-27e2-47ed-8b63-0e9de771800f][Time selections can be nudged.]]
+** [[id:4ed8a0af-8f6c-4697-ac97-04741c6192e4][Insert Space in [Time] Selection]]
+** [[id:94f1f52c-3077-4125-b832-0d84ffab5bdf][Loop Points linked to Time Selection]]
+** Esc : undefine the loop region
+** "Managing Time and Loop Selections" (modifying them)
+*** Keyboard or mouse.
+*** Their edges can be moved.
+*** They can be shifted.
+** [[id:5b98d328-e336-4785-8d19-36c999d9ddd0][move or copy time selection to cursor position]]
+** [[id:3b049859-9151-4e3c-89e9-03471963a38d][looped recording]]
+* Jumping (C-j) lets you enter coordinates to send the cursor to.
+* Regions and Markers
+** Both can be defined, managed, and used to define edits.
+** Markers are like bookmarks.
+** marker-related shortcuts
+   :PROPERTIES:
+   :ID:       77f36bf1-3b95-407d-a641-9b61c1756d8c
+   :END:
+*** m : create numbered marker
+*** number keys : jump to that numbered marker
+*** S-m : create named marker
+*** [ and ] : go to previous and next marker
+*** C-j : open the Jump Dialog.
+    Type a name or number to go there.
+*** M-click : delete marker
+*** loop region between markers : double-click between them
+    on either the marker bar or the time ruler
+*** zoom to selection
+    The only way I've managed is with the right-click context menu
+** The time selection start and end are treated as floating markers.
+   so [ and ] include them as targets to jump to.
+** PITFALL: Marker names =START and =END are special.
+   :PROPERTIES:
+   :ID:       56dc0d13-26a2-41fe-a695-2032b341113a
+   :END:
+   They are used for rendering.
+* Transients can be used to define times.
+  At least for the creation of loops (the edit),
+  but I imagine also for regions and time selections.

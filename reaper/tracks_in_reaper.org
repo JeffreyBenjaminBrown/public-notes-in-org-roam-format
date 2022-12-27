@@ -1,0 +1,53 @@
+:PROPERTIES:
+:ID:       0e518fd3-734a-4110-b319-22d6930f6f00
+:ROAM_ALIASES: "TCP in Reaper"
+:END:
+#+title: tracks in Reaper
+* PITFALLs
+** [[id:f9078ad5-9518-4672-b11a-4aabaa905e32][Two views of the track controls can be visible at once.]]
+** [[id:1fdafc48-468f-4bc6-a749-52e6c0bf5dcf][To read about stereo operations, look for the term "channel".]]
+* [[id:0604f99a-8c15-499e-9579-6a1c01a0eda2][Single tracks can be based off of "Templates".]]
+* the Track Control Panel (TCP)
+  :PROPERTIES:
+  :ID:       532fa648-9518-4166-81f0-6198ff093581
+  :END:
+** One way to open it: Right-click on the track's Arm button.
+   :PROPERTIES:
+   :ID:       7d05144b-2538-43fa-ad62-6dd6e3090f48
+   :END:
+* [[id:a37ed2de-2b22-45ff-a1b3-f91b481f1021][track and time window views in Reaper]]
+* A single track can hold both MIDI and audio.
+  :PROPERTIES:
+  :ID:       046cf634-cd68-4099-9528-d67be000ef74
+  :END:
+* Tracks can hold alternative or *concurrent* items.
+  :PROPERTIES:
+  :ID:       5fb72166-1d5e-4fab-9c2b-0291f7ff53bf
+  :END:
+** "Free Item Positioning" (FIPM) enables it.
+*** I think it's to let the user drag items vertically within a track.
+** [[id:cd8e2baf-26de-4f29-a459-928d78c5b46a][multiple Takes of the same region of a track]]
+* track mix (controls and view)
+** the Route button
+   controls where it goes.
+   controls the volume at which it goes there.
+** configurable: [[id:51286989-c0e3-4ccf-8724-86d0b7ce919a][whether track "metering" is pre- or post-fader]]
+** Alt-solo will silence the soloed track's sends.
+   The alternative is "solo in place", where sends are heard too.
+** [[id:2f4508ff-27e2-47ed-8b63-0e9de771800f][Track volume, pan, and maybe more can be nudged.]]
+* adjust many tracks at once
+  Ctrl-click each relevant track control panel,
+  then adjust any to adjust all.
+** PITFALL: toggles (at least record-arm) in a group will stay out of sync
+   If two tracks are selected,
+   and one of them is armed and the other not,
+   toggling their, uh, armament will toggle both,
+   so it will still be the case that one is armed and the other not.
+* [[id:c0ba8a8a-ddcb-4f2b-afe2-7d8344cabb6b][Each track can have a different default recording format.]]
+* [[id:2f4508ff-27e2-47ed-8b63-0e9de771800f][Track volume, pan, and maybe more can be nudged.]]
+* [[id:fca74669-9d61-462a-b9ef-7ca20ffc4801][Stereo and even more-multichannel tracks are possible.]]
+* virtual MIDI ports
+  :PROPERTIES:
+  :ID:       9877c872-8f87-4106-b1b4-a6fe72d4a905
+  :END:
+  let you have more than 16 per track, I guess

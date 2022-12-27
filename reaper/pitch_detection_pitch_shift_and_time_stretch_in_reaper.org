@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       1e56abb2-a473-4c78-b555-c8ae8cc42528
+:END:
+#+title: pitch detection, pitch shift and time stretch in Reaper
+* Use ReaPitch to make harmonies.
+* Use ReaTune to make pitch corrections.
+* Use "stretch markers" to stretch selected items in sync.
+* Use ReaTune to tune an instrument.
+  It lets you input a Hz value,
+  so its fixed assumption of 12-edo can be defeated.
+* [[id:5ccfd0db-f054-48c6-ab8b-69100dcad02e]["Adjust item pitch fine" : S-M-drag]]
