@@ -1,69 +1,39 @@
 :PROPERTIES:
 :ID:       87336c4a-073b-42fe-a0d0-40f9cece91f6
 :END:
-#+title: Reaper is surprisingly configurable.
+#+title: configuring Reaper
 * TODO Settings can be backed up.
   :PROPERTIES:
   :ID:       dc2e95b2-e85f-4d60-858a-fa9ff2ac954f
   :END:
   see "Backing up Settings"
-* [[id:e4eaf8af-b544-4db1-8e75-a24f534f6a8d][Actions Menu, the \ Reaper]]
-* gllobal settings that are surprisingly configurable
-** [[id:d2b9b956-5c1b-418a-a447-62811c956654][views in Reaper]]
-** Undo preferences
-** Whether to automatically "load last active project"
-** how scrolling works
-** [[id:fde2270b-ed9e-46aa-90ff-88733a50facd][how creating and saving projects works is configurable in Reaper]]
-** The [[id:975d6340-3da2-442d-aac1-8b91aa51caf7][metronome in Reaper is highly configurable]].
-** A whole sequence of actions can be given a keyboard shortcut.
-   :PROPERTIES:
-   :ID:       63d1464e-4714-4e75-a538-21aa338d5b53
-   :END:
-   see in manual:
-   Creating Custom Action Macros
-* project settings that are surprisingly configurable
+* [[id:d78888f7-5f86-482e-ae3e-7ca15b036e69][mouse and keyboard controls in Reaper]]
+** [[id:63d1464e-4714-4e75-a538-21aa338d5b53][to create a macro]]
+* [[id:e4eaf8af-b544-4db1-8e75-a24f534f6a8d][Actions Menu]]
+* PITFALL: Some settings are global
+  :PROPERTIES:
+  :ID:       cbf7b2c6-e887-4cc5-a1a8-373a242066f7
+  :END:
+  and some are project-local,
+  and some are local to project elements,
+  and I'm not sure which.
+* [[id:d2b9b956-5c1b-418a-a447-62811c956654][views in Reaper]]
+* [[id:ceabf0f9-020a-4a42-9c92-484ad690e96a][undo]]
+* [[id:fde2270b-ed9e-46aa-90ff-88733a50facd][project creation, saving, import and export]]
+* [[id:e0bcc9dc-9696-41f7-abe3-6d82576c60fe][how scrolling works]]
+* the [[id:975d6340-3da2-442d-aac1-8b91aa51caf7][metronome]]
+* time
 ** time signature: beats or whole samples
 ** "timebase" for items/envelopes markers and for tempo/time sig
-** paths
-** "copy media on import"
-** audio format specifications
-   e.g. bit depth for WAV files
-** "behavior when one media item is placed on top of another"
-   "Options are for enclosed items to replace enclosing items, items always to be mixed, or for the newer item to replace older item."
-** "feedback in routing"
 ** synchronize to external timecode
-** "Preserve pitch when changing rate."
-** pan law, and whether pan is stereo
+* "feedback in routing"
+* "Preserve pitch when changing rate."
+* pan law, and whether pan is stereo
 * Notes can be attached to a project.
-* some configurable things that might be global
-** whether track "metering" is pre- or post-fader
-   :PROPERTIES:
-   :ID:       51286989-c0e3-4ccf-8724-86d0b7ce919a
-   :END:
-** [[id:f78c9054-f324-4509-a98f-e73d5cad5281][how media items look (what information they show) can be configured]]
-** "Undo" is configurable
-   :PROPERTIES:
-   :ID:       ceabf0f9-020a-4a42-9c92-484ad690e96a
-   :END:
-*** Can choose what kinds of changes are tracked by Undo.
-*** Can save the undo history across sessions.
-*** Can "store multiple undo/redo paths".
-** Default recording behavior
-   :PROPERTIES:
-   :ID:       799c16f7-07d2-43d0-b370-d4871807a73b
-   :END:
-*** some menus that do some of it
-**** Preferences / Audio / Recording
-**** Preferences / Audio / Loop Recording
-**** Preferences / Project / Track/Send Defaults
-*** [[id:fc4317a5-4898-4494-b401-e17cedffb74f][auto-arming selected tracks is an option]]
-*** [[id:ec930cf4-e05c-4ff1-a643-82b6fb0b56fa][Automatic fades and crossfades are an option.]]
-* GUI settings
-** "Docking" and "Floating" are configurable
-*** e.g. whether the transport bar is "Dock"ed
-** "Themes" and "layouts" are deep.
-   They include which controls are displayed.
-   "Layouts" might be a subcomponent of "themes".
+* configurable: [[id:51286989-c0e3-4ccf-8724-86d0b7ce919a][whether track "metering" is pre- or post-fader]]
+* [[id:f78c9054-f324-4509-a98f-e73d5cad5281][how media items look (what information they show) can be configured]]
+* [[id:799c16f7-07d2-43d0-b370-d4871807a73b][Default recording behavior]]
+* [[id:d77f251e-aba2-48ac-9b1e-cce5f88f9679][Items and takes can be assigned colors.]]
 * whether to report possible "audio underrun"s
 * Can configure what moves the "Play cursor"
   :PROPERTIES:

@@ -1,16 +1,4 @@
 :PROPERTIES:
 :ID:       b591f5ba-4b9b-4b03-aa83-29e03142cc0d
 :END:
-#+title: Reaper / "Time selection"s and "Time loop"s
-* They can be the same thing ("linked"), or not.
-* "Snapping" (to markers or something) is toggleable.
-* Press "R" to toggle "Repeat".
-* Esc to undefine the loop region.
-* "Managing Time and Loop Selections" (modifying them)
-** Keyboard or mouse.
-** Their edges can be moved.
-** They can be shifted.
-* "Jumping" permits precise changes to the focused time.
-  :PROPERTIES:
-  :ID:       ca29c093-1145-4d9f-b7db-73efe925f947
-  :END:
+#+title: Time, Time Selection and Time Loops \ Reaper

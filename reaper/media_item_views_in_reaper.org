@@ -78,3 +78,4 @@ another. Defaults to project default.
     :ID:       9e92d2ff-f4c5-4cbc-840a-8a7d49af09c1
     :END:
     with or without changing pitch.
+*** [[id:6ba680fe-4512-452b-88fe-5a4b0cc7417a][stereo and channels]]

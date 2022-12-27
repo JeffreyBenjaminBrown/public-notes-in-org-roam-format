@@ -2,7 +2,7 @@
 :ID:       0aa74865-10a8-437f-8127-73bb5f8bfbb3
 :END:
 #+title: looping (the edit) \ Reaper
-* PITFALL: This time looping and looping (the edit) are different.
+* PITFALL: Time looping and item looping (the edit) are different.
   :PROPERTIES:
   :ID:       27c236db-2cfe-4602-8dc3-31851bf43ab9
   :END:

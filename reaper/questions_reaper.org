@@ -2,17 +2,13 @@
 :ID:       752ec4bb-624f-4161-9624-9fc75dd13517
 :END:
 #+title: questions about Reaper
+* [[id:cea1e287-9ae8-4145-b1eb-3e969755912f][How is Trimming different from Slip Editing?]]
+* [[id:7ad32d17-22c6-4669-8537-9e26b6428a48][How to defeat things like smart editing.]]
+* [[id:806855a8-3035-489d-8ad5-95c0c7cf169e][The Action Menu appears not to show all shortcuts.]]
+* [[id:1451eea7-a81e-45d1-9c70-92eab4ae7de3][Why is it recommended to disable FIPM when recording takes]]
 * [[id:ea1efd29-be54-4588-936f-af5f05a46dab][What is grouping items for?]]
-* [[id:3ae229ac-92c8-416c-a69a-d8573515b1d4][How is this different from the Routing Matrix?]]
-* [[id:a42915f9-1f80-404a-9b8a-d61935ec3da4][Is it to enable concurrent items in a track?]]
-* [[id:29066447-c019-4b65-b78b-889675335ee0][Why use the Track Control Panel for selected groups of tracks?]]
+* [[id:29066447-c019-4b65-b78b-889675335ee0][What are the relative advantages of the many ways of controlling routing?]]
 * [[id:c262c184-c00a-4bdf-9565-9d32a6d33797][What is a "parent channel"?]]
-* Of these four "view modes" (for track wiring?), not all were introduced before being referred to.
-** routing matrix
-** grouping matrix      ???
-** region render matrix ???
-** track wiring
-* [[id:6114e6e3-45f8-4d60-81a1-daaaae10c02a][Scrubbing does not affect playback]]?
-  What did I mean when I wrote that?
-* [[id:5f08678c-8574-4938-87b3-efb4da1b8799][Alt-solo to silence the soloed track's sends]]?
+* [[id:a23f3963-7459-43e1-968f-2d3a7b59b64a][Of these four "view modes" (for track wiring?), not all were introduced before being referred to.]]
+* [[id:6114e6e3-45f8-4d60-81a1-daaaae10c02a][Scrubbing does not affect playback]]
   What did I mean when I wrote that?

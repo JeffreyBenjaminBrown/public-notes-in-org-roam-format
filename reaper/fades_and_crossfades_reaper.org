@@ -10,6 +10,7 @@
   :PROPERTIES:
   :ID:       d6de763b-22d9-4563-bfd3-92f22a47c7d7
   :END:
+  one, serial
 ** In the [[id:e4eaf8af-b544-4db1-8e75-a24f534f6a8d][Actions Menu]], search "toggle fade".
 ** Surprisingly, "toggle auto-crossfades at split" isn't sufficient.
 ** But turning off that *and* "default fadein/fadeout" is sufficient.

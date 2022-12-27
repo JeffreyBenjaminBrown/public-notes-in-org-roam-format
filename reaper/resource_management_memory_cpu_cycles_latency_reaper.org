@@ -9,6 +9,9 @@
 *** It comes up in many, disparate places.
 ** Reducing the block size can reduce latency.
 * Many files can be format-converted at once.
+  :PROPERTIES:
+  :ID:       3ae5123f-6f84-472e-910a-6803fbec063f
+  :END:
 ** e.g. to send a smaller copy of the project to a collaborator
 ** see in manual
    Converting Audio Media Item Format

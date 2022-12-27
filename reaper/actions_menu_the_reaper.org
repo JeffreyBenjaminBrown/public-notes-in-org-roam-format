@@ -3,6 +3,11 @@
 :END:
 #+title: Actions Menu, the \ Reaper
 * Use (?) to access it.
+* TODO PITFALL : It appears not to show all shortcuts.
+  :PROPERTIES:
+  :ID:       806855a8-3035-489d-8ad5-95c0c7cf169e
+  :END:
+  Is it only for user-defined ones?
 * It displays, and can change, *settings*.
   This is surprising -- it looks designed just to change shortcuts.
 ** How to change a setting.
@@ -11,3 +16,4 @@
 *** PITFALL: The window disappears when you do this.
     That happens before you can visually confirm the change you made.
 * It displays, and can change, shortcuts.
+** [[id:806855a8-3035-489d-8ad5-95c0c7cf169e][PITFALL : It appears not to show all shortcuts.]]

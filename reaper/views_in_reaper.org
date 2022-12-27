@@ -3,21 +3,25 @@
 :END:
 #+title: views and navigation in Reaper
 * PITFALL: [[id:f9078ad5-9518-4672-b11a-4aabaa905e32][Two views of the track controls might be visible at once.]]
-* [[id:3475dab5-d962-4e99-bd66-8d841d7475a0][controlling track and time window views]]
-* [[id:cfcf9ddd-8686-4350-bc00-34bf3d883c47]["Overlapping Items" (in one track) is a thing.]]
-* [[id:f78c9054-f324-4509-a98f-e73d5cad5281][How media items look (what information they show) can be configured]].
-* [[id:e8df34e9-f664-4163-a0ed-c1ffd8720bbb][A "ruler" for time can be shown on an item]]
-* The Theme Adjuster controls what is shown, not just how.
-* "Navigation and Zooming"
-** [[id:b0f09bb3-ddc1-4dfa-bbb0-a69eed0fc824][C-M-(up|down) to jump tracks.]]
-** [[id:3475dab5-d962-4e99-bd66-8d841d7475a0][controlling track and time window displays]]
-** Alt-arrow (all four directions) to scroll within a project
-** mouse has four scroll|zoom modes
-*** no modifier - horizontal scroll
-*** Alt - horiz scroll
-*** Ctrl - vertical zoom
-*** C-M - vertical scroll
-** "The Navigator"
-*** C-M-v
-*** Seems to be to choose what part of the timeline the main display shows.
-*** Has cool shortcuts.
+* [[id:6cfece12-9d16-4d5a-a252-862b1457baf9][PITFALL: Themes and Layouts controls *what* is shown, not just how.]]
+* TODO Of these four "view modes" (for track wiring?), not all were introduced before being referred to.
+  :PROPERTIES:
+  :ID:       a23f3963-7459-43e1-968f-2d3a7b59b64a
+  :END:
+** routing matrix
+** grouping matrix      ???
+** region render matrix ???
+** track wiring
+* [[id:b1f54965-a3cd-4195-bcd9-b2aaac40cb6c][mouse scroll|zoom modes]]
+* [[id:a37ed2de-2b22-45ff-a1b3-f91b481f1021][track and time window views]]
+* [[id:05af8ca3-d0f3-48ba-ab2a-07a36f61319f][media item views]]
+* "Docking" and "Floating" are configurable
+** e.g. whether the transport bar is "Dock"ed
+* "Themes" and "layouts" are deep.
+  They include which controls are displayed.
+  "Layouts" might be a subcomponent of "themes".
+** PITFALL: Themes and Layouts controls *what* is shown, not just how.
+   :PROPERTIES:
+   :ID:       6cfece12-9d16-4d5a-a252-862b1457baf9
+   :END:
+* [[id:ba7fa242-2738-4bc3-86b3-0fff1ac7f86b][Project tabs]] let you keep multiple projects open.

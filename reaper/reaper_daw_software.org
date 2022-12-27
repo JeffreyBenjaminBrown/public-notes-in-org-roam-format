@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       b2c146a9-789f-4c62-aa0e-0a6ca0e3034f
+:ROAM_ALIASES: Reaper
 :END:
-#+title: Reaper (DAW software)
+#+title: Reaper (the DAW)
 * refs
 ** the manual on my filesystem
    [[~/many-small/manuals/Reaper/]]
@@ -9,9 +10,12 @@
 ** [[id:963866e1-1a6a-445e-a27a-68de1449dab1][Skipped: sections 4, 5]]
 * TODO resume reading in manual
   right after the gray box at the bottom of
-  bottom of chapter 7 (editing), page 132, start of section
-    7.20
-    Normalizing Items
+  bottom of chapter 7 (editing), page 139, start of section
+    7.31
+    Glue Selected Items
+** TODO read about macros
+   If they offer an interface like M-x in Emacs,
+   then I can use them when the shorctut I hoped for is unavailable.
 ** Skipped
    :PROPERTIES:
    :ID:       963866e1-1a6a-445e-a27a-68de1449dab1

@@ -1,4 +1,31 @@
 :PROPERTIES:
 :ID:       d78888f7-5f86-482e-ae3e-7ca15b036e69
 :END:
-#+title: mouse and keyboard control customization in Reaper
+#+title: mouse and keyboard controls in Reaper
+* the keybaord [[id:938c2035-98b9-49a9-98f1-c037078ae0a0][shortcuts in Reaper]]
+* the mouse
+** mouse scroll|zoom modes
+  :PROPERTIES:
+  :ID:       b1f54965-a3cd-4195-bcd9-b2aaac40cb6c
+  :END:
+*** four are built in
+**** no modifier - horizontal scroll
+**** Alt - horiz scroll
+**** Ctrl - vertical zoom
+**** C-M - vertical scroll
+*** The mouse modifier customization space is *enormous*.
+    :PROPERTIES:
+    :ID:       e0bcc9dc-9696-41f7-abe3-6d82576c60fe
+    :END:
+**** Preferences / Editing Behavior / Mouse Modifiers
+** [[id:e1f175af-4cc4-4929-bd62-5c5b54b411b5][adjusting faders]]
+* [[id:ea07a61f-f944-4418-81be-a58562ced1dc][the Virtual MIDI Keyboard]]
+* adjusting faders
+  :PROPERTIES:
+  :ID:       e1f175af-4cc4-4929-bd62-5c5b54b411b5
+  :END:
+** Use Alt to audition changes.
+   The fader will go back to where it was afterward.
+** Hold Ctrl for finer mouse adjustments.
+** Scroll wheel (two-finger scroll?) also works if enabled.
+** [[id:e0bcc9dc-9696-41f7-abe3-6d82576c60fe][The mouse modifier customization space is *enormous*.]]

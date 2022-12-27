@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       a4d23041-2371-4506-a31d-d08f1726cce9
 :END:
-#+title: setting up IO for Reaper
+#+title: audio and MIDI IO in Reaper
 * Some people prefer ALSA.
   Apparently JACK (and PulseAudio) both tell ALSA what to do.
 * how I set up audio and MIDI in JACK
@@ -15,3 +15,8 @@
    so I won't need to manipulate that graph myself.
 ** In the JACK graph, connect SuperCollider to Reaper's in1 and in2.
 ** In Reaper, make some track read in stereo from in1 and in2.
+* the Virtual MIDI Keyboard
+  :PROPERTIES:
+  :ID:       ea07a61f-f944-4418-81be-a58562ced1dc
+  :END:
+** M-b: Toggle its display.

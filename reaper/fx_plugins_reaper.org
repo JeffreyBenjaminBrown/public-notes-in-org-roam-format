@@ -2,23 +2,29 @@
 :ID:       4174cedc-c3ab-4b1a-ad5b-b9c222a4945c
 :END:
 #+title: FX | plugins \\ Reaper
-* To show a track's FX and/or plugins, click its FX button.
-  :PROPERTIES:
-  :ID:       356398ef-c121-493e-b920-c70a698df50f
-  :END:
-* TODO Are FX and plugin(s) synonyms?
-* [[id:2d324c40-7826-4bf7-bac2-4c5318c4ad64]["FX" is both singular and plural.]]
-* There's a book about it.
-  ReaMix: Breaking the Barriers with REAPER
-* "F" to open the "FX Browser"
-* There are lots of shortcuts.
+* refs
+** There's a book about it.
+   ReaMix: Breaking the Barriers with REAPER
+* [[id:2d324c40-7826-4bf7-bac2-4c5318c4ad64]["FX" includes (is?) plugins, and is both singular and plural.]]
+* some actions (inc. shortcuts)
+** show track FX
+   alternatives
+*** [[id:2a53ddf3-0adb-415a-8f73-121fc5ee8c68][C-f]] is a shortcut I made.
+*** click its FX button
+    :PROPERTIES:
+    :ID:       356398ef-c121-493e-b920-c70a698df50f
+    :END:
+** S-f open the "FX Browser" | the "Add FX window"
+** Individual FX can be "bypassed" (C-b) or "offline"d (C-M-b).
+   Offline FX consume no CPU.
+** many more
+* FX presets
+** FX presets can be saved from Reaper
+   as well as, potentially, from the plugin (e.g. Pianoteq)
+** The default preset for an FX can be set.
+** Many more can be downloaded.
+   "As well as the presets supplied with REAPER, you can download further sets by visiting http://stash.reaper.fm/ and following the link to FX Preset Libraries."
 * FX "Chain"s can be saved.
-* Individual FX can be "bypassed" (C-b) or "offline"d (C-M-b).
-  Offline FX consume no CPU.
-* Presets: Many more can be downloaded.
-  "As well as the presets supplied with REAPER, you can download further sets by visiting http://stash.reaper.fm/ and following the link to FX Preset Libraries."
-* The default preset for an FX can be set.
 * Whole subchains can be bypassed.
-* "Analyzing FX Performance" is a thing.
-* FX presets can be saved from Reaper
-  as well as, potentially, from the plugin (e.g. Pianoteq)
+* [[id:c0d8170c-2a26-4b01-b796-7c358aedfe9f][Sends and receives can be before or after fader, pan and FX.]]
+* "Analyzing FX Performance" is possible.

@@ -2,15 +2,26 @@
 :ID:       c845c381-8b0b-4b7a-82e8-71f70110304e
 :END:
 #+title: pitfalls in Reaper
+* [[id:198e7eea-412b-4c3f-80d3-e3dfa1793d27][pitfalls when Ripple Editing]]
+* Propogating Items means propogating an item's *properties* to other items.
+  :PROPERTIES:
+  :ID:       21bbb484-4a5a-476f-9130-3714cb9342cf
+  :END:
+* [[id:28317ac0-dc2c-450f-8313-8addd9401031][advice : fix the project Timebase early]]
+* [[id:cbf7b2c6-e887-4cc5-a1a8-373a242066f7][Some settings are global ...]]
+* [[id:806855a8-3035-489d-8ad5-95c0c7cf169e][The Action Menu appears not to show all shortcuts.]]
+* [[id:6cfece12-9d16-4d5a-a252-862b1457baf9][Themes and Layouts controls *what* is shown, not just how.]]
+* [[id:56dc0d13-26a2-41fe-a695-2032b341113a][Marker names =START and =END are special.]]
+* [[id:27c236db-2cfe-4602-8dc3-31851bf43ab9][Time looping and item looping (the edit) are different.]]
+* [[id:53faa10d-a38a-4c31-88d2-2e180317c28d][WHen creating a loop (as an edit), having snapping enabled helps.]]
+* [[id:9f3a7862-63a1-444c-a76a-b707fd5da58c][Nuances involving FX and channels when gluing items.]]
 * [[id:1fdafc48-468f-4bc6-a749-52e6c0bf5dcf][To read about stereo operations, look for the term "channel".]]
 * [[id:b7d01932-b36f-4436-9581-61a364e645a6][Snapping of ruler markers and regions]] is not separately configurable.
 * [[id:d6de763b-22d9-4563-bfd3-92f22a47c7d7][Toggling automatic crossfade when splitting an item seems tricky.]]
-* [[id:95858c48-ab4a-4647-af24-d7aedb55a316][Takes are complicated.]]
-* [[id:a4d23041-2371-4506-a31d-d08f1726cce9][setting up IO for Reaper]]
+* [[id:a4d23041-2371-4506-a31d-d08f1726cce9][audio and MIDI IO in Reaper]]
 * To use smart editing, [[id:c5bde97b-d226-48aa-8300-d31233bb57b5]["Loop Points Linked to Time Selection" should be off.]]
 * [[id:a864df5e-c735-42bf-980f-56d74f465453][Media and their envelopes can get out of sync.]]
 * [[id:f9078ad5-9518-4672-b11a-4aabaa905e32][Two views of the track controls can be visible at once.]]
-* "When possible, get your project timebase settings right before you record or import any items."
-  you can still over-ride the project timebase setting for individual tracks
-* [[id:2d324c40-7826-4bf7-bac2-4c5318c4ad64]["FX" is both singular and plural.]]
-* [[id:fc68255b-1c86-44be-b787-b7ea54a8fdda][resource management (memory, CPU cycles, latency) \ Reaper]]
+* [[id:28317ac0-dc2c-450f-8313-8addd9401031]["When possible, get your project timebase settings right before you record or import any items."]]
+* [[id:2d324c40-7826-4bf7-bac2-4c5318c4ad64]["FX" includes (is?) plugins, and is both singular and plural.]]
+* [[id:fc68255b-1c86-44be-b787-b7ea54a8fdda][resource management (memory, CPU cycles, latency)]]

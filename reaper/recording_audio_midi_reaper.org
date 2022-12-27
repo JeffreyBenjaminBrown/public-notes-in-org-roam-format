@@ -3,45 +3,57 @@
 :END:
 #+title: recording (audio & MIDI) \ Reaper
 * skipped in manual
-** Recording a Track’s Output
+** Recording a Track’s Output (as opposed to its input)
 ** Recording FX Bus Output
 ** Recording with External Hardware FX
 ** Recording an Internet Audio Stream
-* configuring the [[id:799c16f7-07d2-43d0-b370-d4871807a73b][default recording behavior]]
-* [[id:78f34326-cc2e-4c26-8f21-feddb161c2d3][Overlapping Items in the same track]] can matter
-* [[id:ec7ee8b0-1923-4724-8e92-bf5fc5e5b908][C-r : Start (and stop?) recording]]
+* default recording behavior
+  :PROPERTIES:
+  :ID:       799c16f7-07d2-43d0-b370-d4871807a73b
+  :END:
+** some config options
+*** [[id:fc4317a5-4898-4494-b401-e17cedffb74f][auto-arming selected tracks]]
+*** [[id:ec930cf4-e05c-4ff1-a643-82b6fb0b56fa][automatic fades and crossfades]]
+** some config menus
+*** Preferences / Audio / Recording
+*** Preferences / Audio / Loop Recording
+*** Preferences / Project / Track/Send Defaults
+* [[id:78f34326-cc2e-4c26-8f21-feddb161c2d3][Overlapping Items in the same track]] can matter.
 * [[id:046cf634-cd68-4099-9528-d67be000ef74][One track can hold both MIDI and audio.]]
-* Save behavior depends on how recording is stopped.
-  quoteing the manual:
-
-  If you use the Record button or
-  Ctrl R to stop recording, recorded
-  items are automatically saved.
-  If you press Space or Stop, the
-  dialog box shown will let you save or
-  delete any or all of your newly
-  recorded media items.
-* arming tracks
-** auto-arming selected tracks is an option
+* toggling record
+  :PROPERTIES:
+  :ID:       ec7ee8b0-1923-4724-8e92-bf5fc5e5b908
+  :END:
+** shortcut : C-r
    :PROPERTIES:
-   :ID:       fc4317a5-4898-4494-b401-e17cedffb74f
+   :ID:       56139fc8-ff43-45b8-ab4c-60d2c19f1c7c
    :END:
-*** xquote from manual (v. 6.70)
-    Select the track(s) then right click over the record arm button for any track in the selection and
-    choose Automatic record arm when track selected. This command can be toggled on and off.
-    To set all tracks to auto arm, choose the Track command from the main menu, then Set all tracks to
-    automatic record arm when selected.
-*** can be per-track or for all tracks
-* The [[id:975d6340-3da2-442d-aac1-8b91aa51caf7][metronome in Reaper is highly configurable]].
-* Stereo and even more-multichannel tracks are possible.
-** Both mono and stereo tracks can be placed in the stereo spectrum.
+** Stopping recording does not stop playback if ...
+   ... if playback was ongoing before recording started.
+** How recording is stopped deterines automatic saving.
+   When this stops recording, the recording is saved automatically.
+   If SPC is used instead, the user is prompted to save the new tracks.
+* auto-arming selected tracks is an option
+  :PROPERTIES:
+  :ID:       fc4317a5-4898-4494-b401-e17cedffb74f
+  :END:
+** quote from manual (v. 6.70)
+   Select the track(s) then right click over the record arm button for any track in the selection and
+   choose Automatic record arm when track selected. This command can be toggled on and off.
+   To set all tracks to auto arm, choose the Track command from the main menu, then Set all tracks to
+   automatic record arm when selected.
+** can be per-track or for all tracks
+* [[id:975d6340-3da2-442d-aac1-8b91aa51caf7][metronome]]
+* [[id:6ba680fe-4512-452b-88fe-5a4b0cc7417a][stereo and channels]]
 * punch recording (punch in, punch out)
 ** what it is
    Set the time when recording will start,
    and another when it will stop.
    Start playback from before the start marker.
    Recording (but not playback) stops at the end marker.
-** how to use it
+** By default it is non-destructive.
+   But destructive is another kind available in (top-level) Options.
+** the simplest way to use it
    serial
 *** Select that mode from the (top-level) Options.
     It's called "Record mode: time selection auto punch".
@@ -54,41 +66,27 @@
     There doesn't need to be a clip there already.
     Clicking on the timeline above the tracks
     defines some other kind of region, I'm guessing loop regions.
-** By default it is non-destructive.
-   But destructive is another kind available in (top-level) Options.
+*** I assume: Start "recording" before the regions.
+    The recording will only happen in it.
+** using empty events to define multiple punch-in regions
+*** ref
+    Recording with Empty Events
+    in the manual
+*** procedure
+    serial
+**** Choose Options / Record mode: Auto-punch selected items
+**** To make an empty event
+     Highlight a region on the track and choose
+     Insert / Empty item
+**** Ctrl-click to select some events.
+**** Each selected event now defines a punch-in / punch-out region.
 * [[id:ec930cf4-e05c-4ff1-a643-82b6fb0b56fa][Automatic fades and crossfades are an option.]]
-* Tracks can hold alternative or *concurrent* items.
-** "Multiple Takes" (of the same region) is a thing.
-   see in the manal:
-*** Recording Multiple Takes
-*** Displaying Multiple Takes
-*** Using Color Coded Takes
-*** Working With Multiple Takes
-** "Free Item Positioning" (FIPM) has something to do with these.
-*** I think it's to let the user drag items vertically within a track.
-*** TODO Is it to enable concurrent items in a track?
-    :PROPERTIES:
-    :ID:       a42915f9-1f80-404a-9b8a-d61935ec3da4
-    :END:
-* Use empty events to define multiple punch-in regions
-** ref
-   Recording with Empty Events
-   in the manual
-** procedure
-   serial
-*** Choose Options / Record mode: Auto-punch selected items
-*** To make an empty event
-    Highlight a region on the track and choose
-    Insert / Empty item
-*** Ctrl-click to select some events.
-*** Each selected event now defines a punch-in / punch-out region.
+* [[id:5fb72166-1d5e-4fab-9c2b-0291f7ff53bf][Tracks can hold alternative or *concurrent* items.]]
+** [[id:cd8e2baf-26de-4f29-a459-928d78c5b46a][multiple Takes of the same region of a track]]
 * Recording can be post-FX.
 ** ref
    Recording with Input FX Plug-ins
-* the Virtual MIDI Keyboard
-** M-b: Toggle its display.
-* virtual MIDI ports
-  let you have more than 16 per track, I guess
+* [[id:9877c872-8f87-4106-b1b4-a6fe72d4a905][virtual MIDI ports]]
 * MIDI recording has many modes
   :PROPERTIES:
   :ID:       d155fd04-9d9e-4d8e-a438-5eea3c66b54c
@@ -100,6 +98,9 @@
 *** replace only overlapping notes.
 *** record notes post MIDI FX
 * looped recording
+  :PROPERTIES:
+  :ID:       3b049859-9151-4e3c-89e9-03471963a38d
+  :END:
   see in manual:
   Looped Overdubbing and Looped Time Selection Recording
 ** PITFALL: Complex interaction with the [[id:d155fd04-9d9e-4d8e-a438-5eea3c66b54c][many modes of MIDI recording]].

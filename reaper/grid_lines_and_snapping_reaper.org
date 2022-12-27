@@ -3,7 +3,7 @@
 :ROAM_ALIASES: "snapping and grid lines \ Reaper"
 :END:
 #+title: grid lines and snapping \ Reaper
-* grid shortcuts, some
+* grid and snap shortcuts, some
   :PROPERTIES:
   :ID:       936db8cf-4d63-4b5e-869b-516466082bcc
   :END:

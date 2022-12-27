@@ -2,7 +2,6 @@
 :ID:       78f34326-cc2e-4c26-8f21-feddb161c2d3
 :END:
 #+title: Overlapping Items in the same track \ Reaper
-"Overlapping Item"
 * what it does
   One can choose which of the items reocrded on a track
   plays at each moment.
@@ -27,3 +26,5 @@ out further options in Preferences, Media item positioning.
 *** PITFALL: By default this is always enabled for razor edits.
     If that's not wanted, disable
       Options / Always trim content behind razor edits
+* "behavior when one media item is placed on top of another"
+  "Options are for enclosed items to replace enclosing items, items always to be mixed, or for the newer item to replace older item."

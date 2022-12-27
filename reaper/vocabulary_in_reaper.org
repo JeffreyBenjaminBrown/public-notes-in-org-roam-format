@@ -5,8 +5,17 @@
 #+title: vocab in Reaper
 * "MCP" = "Mixer control panel"
 * "TCP" = "Track contrl panel"
-* "FX" is both singular and plural.
+* "FX" includes (is?) plugins, and is both singular and plural.
   :PROPERTIES:
   :ID:       2d324c40-7826-4bf7-bac2-4c5318c4ad64
   :END:
   (in the manual)
+* Transport = playback, recording, maybe region-selection, more
+  :PROPERTIES:
+  :ID:       f3b027ae-6211-41d6-82ee-f1d25482ac2e
+  :END:
+* one "take" = one of a number of attempted recordings of the same passage
+  :PROPERTIES:
+  :ID:       22a2ae81-2b87-471a-9e4a-62b194039f68
+  :END:
+* [[id:48932e09-2584-4503-b10a-8e0d507f2307][slip edit]]
