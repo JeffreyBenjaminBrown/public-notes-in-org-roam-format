@@ -2,6 +2,10 @@
 :ID:       86f8ebf8-8825-4e65-a841-df994627063b
 :END:
 #+title: mixing, buses and routing in Reaper
+* refs
+** Chapter 11: The Mixer and the Master
+** Chapter 17: More Reaper Routing Examples
+** Chapter 21: Exporting Files, Mixing Down and Rendering
 * TODO What is a "parent channel"?
   :PROPERTIES:
   :ID:       c262c184-c00a-4bdf-9565-9d32a6d33797
