@@ -2,6 +2,11 @@
 :ID:       c845c381-8b0b-4b7a-82e8-71f70110304e
 :END:
 #+title: pitfalls in Reaper
+* MIDI pitfalls
+** [[id:d774b870-8155-44dd-99b3-c8240ebaa9e0][MIDI pitch quantization is an option.]]
+** [[id:24122df3-a4c5-4f06-abc8-a984accf9faa]["The MIDI Editor follows your Arrange view settings."]]
+** [[id:ab3b9847-42a0-40e1-a3d1-399adebe7a7c][Timebase, tempo, and project-MIDI sync complexities]]
+** [[id:35651a38-7f3e-49cf-8bc8-977a294fe1fe]["CC selection follows (MIDI) note selection" can be toggled.]]
 * [[id:198e7eea-412b-4c3f-80d3-e3dfa1793d27][pitfalls when Ripple Editing]]
 * Propogating Items means propogating an item's *properties* to other items.
   :PROPERTIES:

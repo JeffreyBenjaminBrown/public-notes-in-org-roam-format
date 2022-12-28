@@ -30,6 +30,15 @@
 ** whether Grid snap settings follow grid visibility
 ** "Snap to grid at any distance" (or only when close* to it).
    * where close is user-defined
-* Snapping can be defeated sometimes.
+* snap behavior options, at least for MIDI notes
+  :PROPERTIES:
+  :ID:       7b545b8e-cbda-46dd-83e5-95171b540b57
+  :END:
+** Something like this might also exist for audio clips.
+** the options
+*** Always snap notes to the left
+*** Snap notes to end of grid     <- the default
+*** Snap relative to grid
+* Snapping can be overridden sometimes.
   At least when selecting a loop region,
-  holding Ctrl while using the mouse defeats snapping.
+  holding Ctrl while using the mouse overrides snapping.

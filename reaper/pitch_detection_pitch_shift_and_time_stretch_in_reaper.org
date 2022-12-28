@@ -7,5 +7,5 @@
 * Use "stretch markers" to stretch selected items in sync.
 * Use ReaTune to tune an instrument.
   It lets you input a Hz value,
-  so its fixed assumption of 12-edo can be defeated.
+  so its fixed assumption of 12-edo can be overridden.
 * [[id:5ccfd0db-f054-48c6-ab8b-69100dcad02e]["Adjust item pitch fine" : S-M-drag]]

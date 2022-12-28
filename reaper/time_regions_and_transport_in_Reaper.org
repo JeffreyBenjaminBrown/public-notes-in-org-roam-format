@@ -3,6 +3,10 @@
 :ROAM_ALIASES: "time in Reaper"
 :END:
 #+title: time, regions, and transport in Reaper
+* PITFALL: Multiple timelines with different click functions.
+  At least in the MIDI editor,
+  the time ruler (top) defines loops when click-dragged,
+  whereas the lower boundary defines time selections.
 * definitions
 ** [[id:f3b027ae-6211-41d6-82ee-f1d25482ac2e][Transport = playback, recording, maybe region-selection, more]]
 ** the Transport Bar

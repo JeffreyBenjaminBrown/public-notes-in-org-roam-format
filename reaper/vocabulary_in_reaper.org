@@ -10,6 +10,12 @@
   :ID:       2d324c40-7826-4bf7-bac2-4c5318c4ad64
   :END:
   (in the manual)
+* "inline" edits
+  :PROPERTIES:
+  :ID:       6e223491-a0d2-4387-8505-fe4c6029c3ff
+  :END:
+  are, at least in the case of MIDI tiems,
+  edits made from the Arrange View without opening a MIDI editor window.
 * Transport = playback, recording, maybe region-selection, more
   :PROPERTIES:
   :ID:       f3b027ae-6211-41d6-82ee-f1d25482ac2e

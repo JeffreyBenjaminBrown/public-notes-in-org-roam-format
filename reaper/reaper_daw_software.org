@@ -4,25 +4,24 @@
 :END:
 #+title: Reaper (the DAW)
 * refs
+** TODO resume reading in manual
+   right after the gray box at the bottom of
+   chapter 13 (editing MIDI), page 230, section 13.11
+     Navigating the MIDI Editor Main Window
+*** TODO read about macros
+    If they offer an interface like M-x in Emacs,
+    then I can use them when the shorctut I hoped for is unavailable.
+*** Skipped
+    :PROPERTIES:
+    :ID:       963866e1-1a6a-445e-a27a-68de1449dab1
+    :END:
+**** and don't care: chapters 4, 5
+**** TODO (but out of order)
+     chapter 6, FX
 ** the manual on my filesystem
    [[~/many-small/manuals/Reaper/]]
    [[~/many-small/manuals/Reaper/2022-12-18-6BcrMNyU.ReaperUserGuide670d.pdf]]
 ** [[id:963866e1-1a6a-445e-a27a-68de1449dab1][Skipped: sections 4, 5]]
-* TODO resume reading in manual
-  right after the gray box at the bottom of
-  bottom of chapter 7 (editing), page 139, start of section
-    7.31
-    Glue Selected Items
-** TODO read about macros
-   If they offer an interface like M-x in Emacs,
-   then I can use them when the shorctut I hoped for is unavailable.
-** Skipped
-   :PROPERTIES:
-   :ID:       963866e1-1a6a-445e-a27a-68de1449dab1
-   :END:
-*** and don't care: chapters 4, 5
-*** TODO (but out of order)
-    chapter 6, FX
 * TODO [[id:dc2e95b2-e85f-4d60-858a-fa9ff2ac954f][Settings can be backed up.]]
 * TODO [[id:752ec4bb-624f-4161-9624-9fc75dd13517][questions]] about Reaper
 * [[id:c845c381-8b0b-4b7a-82e8-71f70110304e][PITFALLs]] in Reaper

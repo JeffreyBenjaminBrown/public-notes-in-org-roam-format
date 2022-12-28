@@ -4,6 +4,8 @@
 #+title: views and navigation in Reaper
 * PITFALL: [[id:f9078ad5-9518-4672-b11a-4aabaa905e32][Two views of the track controls might be visible at once.]]
 * [[id:6cfece12-9d16-4d5a-a252-862b1457baf9][PITFALL: Themes and Layouts controls *what* is shown, not just how.]]
+* the Arrange View
+** is, I think, the space where clips on tracks are displayed
 * TODO Of these four "view modes" (for track wiring?), not all were introduced before being referred to.
   :PROPERTIES:
   :ID:       a23f3963-7459-43e1-968f-2d3a7b59b64a
@@ -12,9 +14,11 @@
 ** grouping matrix      ???
 ** region render matrix ???
 ** track wiring
-* [[id:b1f54965-a3cd-4195-bcd9-b2aaac40cb6c][mouse scroll|zoom modes]]
+* [[id:a8fd7441-0240-493b-95f8-ecf4c9e996e7][scrolling and zooming]]
 * [[id:a37ed2de-2b22-45ff-a1b3-f91b481f1021][track and time window views]]
 * [[id:05af8ca3-d0f3-48ba-ab2a-07a36f61319f][media item views]]
+* the MIDI editor
+** [[id:c466ef15-7398-4ee3-a6c0-8afb75a59e04][Multiple MIDI items can be open in one MIDI editor window.]]
 * "Docking" and "Floating" are configurable
 ** e.g. whether the transport bar is "Dock"ed
 * "Themes" and "layouts" are deep.

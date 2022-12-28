@@ -3,7 +3,7 @@
 :END:
 #+title: questions about Reaper
 * [[id:cea1e287-9ae8-4145-b1eb-3e969755912f][How is Trimming different from Slip Editing?]]
-* [[id:7ad32d17-22c6-4669-8537-9e26b6428a48][How to defeat things like smart editing.]]
+* [[id:7ad32d17-22c6-4669-8537-9e26b6428a48][How to override things like smart editing.]]
 * [[id:806855a8-3035-489d-8ad5-95c0c7cf169e][The Action Menu appears not to show all shortcuts.]]
 * [[id:1451eea7-a81e-45d1-9c70-92eab4ae7de3][Why is it recommended to disable FIPM when recording takes]]
 * [[id:ea1efd29-be54-4588-936f-af5f05a46dab][What is grouping items for?]]

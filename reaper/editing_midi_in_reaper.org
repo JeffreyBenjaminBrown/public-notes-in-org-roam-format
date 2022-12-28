@@ -1,0 +1,127 @@
+:PROPERTIES:
+:ID:       91cb005e-e87a-42dd-8dc9-ae3c5a094f12
+:ROAM_ALIASES: "MIDI in Reaper"
+:END:
+#+title: editing MIDI in Reaper
+* pages 221-260
+* skipped
+** most of the CC stuff
+** Notation Events
+** Sysex
+** Bank/Program Select
+* PITFALLs
+** [[id:3f037a94-3112-4aa3-8b41-e69cdb579d98][Sync editor transport to project transport]] could be off.
+** [[id:35651a38-7f3e-49cf-8bc8-977a294fe1fe]["CC selection follows note selection"]] could be off.
+** Timebase, tempo, and project-MIDI sync complexities
+   :PROPERTIES:
+   :ID:       ab3b9847-42a0-40e1-a3d1-399adebe7a7c
+   :END:
+   over my head
+*** quote
+    Tip: The View, Piano Roll Timebase command includes the options source beats, project beats and project
+ time. MIDI data is always defined in beat-based terms, but in the time view mode the grid is adjusted to reflect
+ any tempo changes in the project. If there are no tempo changes, the beat and time views will be identical. You
+ also have the option to select Project synced. This synchronizes the timeline of the project and MIDI item
+ together. It also ensures that both windows are synchronized during such actions as zooming and scrolling.
+** "The MIDI Editor follows your Arrange view settings."
+   :PROPERTIES:
+   :ID:       24122df3-a4c5-4f06-abc8-a984accf9faa
+   :END:
+   e.g. whether loop points are linked to the time selection
+** MIDI pitch quantization is an option.
+   :PROPERTIES:
+   :ID:       d774b870-8155-44dd-99b3-c8240ebaa9e0
+   :END:
+   "Enabling the key snap option allows you to select a scale and a chord"
+* Multiple MIDI items can be open in one MIDI editor window.
+  :PROPERTIES:
+  :ID:       c466ef15-7398-4ee3-a6c0-8afb75a59e04
+  :END:
+* [[id:6e223491-a0d2-4387-8505-fe4c6029c3ff]["inline" edits]] are possible
+* A track's controls can be configured to control MIDI properties.
+  By default they control audio properties.
+  See section
+    Using Track Controls with MIDI
+* MIDI Data Sends exist.
+* the MIDI Editor
+** to open it
+   alternatives
+*** select item, then C-M-e
+*** double-click the item
+** has two cursors : "the" cursor, and the "pitch cursor"
+   Both can be nudged, etc.
+** configuring it
+*** which items it contains
+**** default options
+***** clicked-on MIDI item only
+***** all selected MIDI items    <- the default
+***** all MIDI on the samtrack
+***** all MIDI in the project
+**** overriding the default
+     select an item/items and use the right-click context menu
+** the four views
+*** piano roll (default)
+*** [#A] named notes
+**** This permits [[id:f34dfb22-8a4d-47eb-8f05-f0b43be9d774][arbitrary EDO layouts]]
+*** more
+** It has its own Transport Bar.
+** the view of MIDI notes and other MIDI parameters
+*** DONE tags : CC value, CC parameter
+*** how to read it
+    Notes are typically displayed in the big window.
+    Below that is a little "CC lane", by default showing veloity.
+*** how to configure it
+    alternatives
+**** the context menu
+     from right-clicking on the gray bar *above* the CC lane
+**** the widgets on the left side of the CC lane
+     The drop-down menu at the left of the CC lane offers other CC parameters.
+     The small + to the right of that menu permits adding another lane.
+**** color notes/CC by channel : C-S-M-c
+     :PROPERTIES:
+     :ID:       731b6763-14ed-4509-92ae-364996408225
+     :END:
+     jbb-specific, not builtin
+* the MIDI Toolbar
+** = a stretch of icons at the top of the MIDI Editor
+** can be customized
+** PITFALL: Lets you toggle "CC selection follows (MIDI) note selection".
+   :PROPERTIES:
+   :ID:       35651a38-7f3e-49cf-8bc8-977a294fe1fe
+   :END:
+* [#A] the filter window : S-f
+  :PROPERTIES:
+  :ID:       4f7ff877-344d-4e3a-b0db-ae401efe66b5
+  :END:
+** can filter to selected channels
+*** to change channel(s) shown more quickly
+    sometimes the Transport Bar "channels" menu is sufficient.
+    Specifically, it lets you pick All or a single channel.
+** can filter to selected types of events
+** can determine which channel notes are "drawn" onto
+   with the pencil tool
+* [[id:7b545b8e-cbda-46dd-83e5-95171b540b57][how snapping works]] is configurable
+* "default note length" is configurable in (MIDI Editor's) Transport Bar
+  "grid" seems to work fine.
+  I don't understand what the other settings are.
+* Text Events (*aweesome*)
+  :PROPERTIES:
+  :ID:       d6c96acb-3ff8-4654-966a-2bd34f221f63
+  :END:
+** Lets you attach messages to passages.
+** They scroll by in their own "CC Lane" (sic).
+* 14-bit CC values are possible.
+* editing commands, some
+** delete note               : double-click
+** select notes              : *right*-click drag
+** select all notes in range : *right*-click drag *on piano roll*
+** add to selection          : C-M-*right* drag
+** Paste preserving position in measure
+   Pastes the selection to the next measure.
+** Split notes : S
+** Join notes
+** Set note ends to start of next note (legato)
+** Sync editor transport to project transport
+   :PROPERTIES:
+   :ID:       3f037a94-3112-4aa3-8b41-e69cdb579d98
+   :END:

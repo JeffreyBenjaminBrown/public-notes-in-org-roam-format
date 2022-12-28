@@ -1,6 +1,10 @@
 :PROPERTIES:
 :ID:       7b0e278c-0736-4eda-8f7a-a70d856e133a
+:ROAM_ALIASES: "microtonality in Reaper"
 :END:
 #+title: Reaper and microtonality
 * [[id:6809927f-021c-4a4a-8ca1-7d4d02bd1964][Notes and background images can be attached]] to media items.
+* [[id:f34dfb22-8a4d-47eb-8f05-f0b43be9d774][arbitrary EDO layouts for the MIDI editor in Reaper]]
+* [[id:4f7ff877-344d-4e3a-b0db-ae401efe66b5][the filter window]] is useful for the channel-as-octave idiom.
+* [[id:d6c96acb-3ff8-4654-966a-2bd34f221f63][Text Events]] will be useful.
 * BLOCKED [[id:0e6f36d3-2397-4ce9-b8dd-51911cac36dc][the microtonal piano roll feature request I filed for Reaper]]

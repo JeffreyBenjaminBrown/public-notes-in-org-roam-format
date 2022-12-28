@@ -2,15 +2,17 @@
 :ID:       0a895788-7ff0-4527-96ee-120a527f14fe
 :END:
 #+title: editing audio ("editing media items") \ Reaper
-* [[id:46d96a78-589f-4c0d-886a-c852e9030e9e][undo]]
+* essential reading
+  Some kinds of edits are described in these and not this file.
+** [[id:05af8ca3-d0f3-48ba-ab2a-07a36f61319f][media items]]
+** [[id:91cb005e-e87a-42dd-8dc9-ae3c5a094f12][editing MIDI in Reaper]]
 * PITFALL: Media and their envelopes can get out of sync.
   :PROPERTIES:
   :ID:       a864df5e-c735-42bf-980f-56d74f465453
   :END:
   quote (modulo newlines):
   the option "Move envelope points with media items" (toggled on/off by clicking on the toolbar envelope tool) will determine whether ...
-* ESSENTIAL READING: [[id:05af8ca3-d0f3-48ba-ab2a-07a36f61319f][media items]]
-** There are kinds of edits described there and not here.
+* [[id:46d96a78-589f-4c0d-886a-c852e9030e9e][undo]]
 * [[id:78f34326-cc2e-4c26-8f21-feddb161c2d3]["Overlapping Items" in the same track]]
 * [[id:63d1464e-4714-4e75-a538-21aa338d5b53][A whole sequence of [editing] actions can be given a keyboard shortcut.]]
 * [[id:6ba680fe-4512-452b-88fe-5a4b0cc7417a][stereo and channels in Reaper]]
@@ -166,7 +168,7 @@
     The Actions List (chapter 15) include actions to move or copy the contents of a time selection to the
  cursor position. These are Time selection: move contents of time selection to edit cursor (moving later
  items) and Time selection: copy contents of time selection to edit cursor (moving later items).
-** defeating the editing of other selected items when one is edited
+** overriding the editing of other selected items when one is edited
 *** TODO I see how to do this for slip editing, but not in general.
     :PROPERTIES:
     :ID:       7ad32d17-22c6-4669-8537-9e26b6428a48
