@@ -49,7 +49,7 @@
   :PROPERTIES:
   :ID:       c9e830d4-d030-40a8-84cd-6e94bcd4bc30
   :END:
-  If so, that sounds both powerful and fun.
+** TODO play with [[id:8251e005-ab70-4ca0-b440-b706cf3c178b]["note preview" options]]
 * HANDY configuration options, probably
 ** "Use all MIDI inputs for step recording"
    Otherwise I think it only uses keys F1-F12.
@@ -149,9 +149,18 @@
    :END:
 ** [[id:7b545b8e-cbda-46dd-83e5-95171b540b57][how snapping works]]
 *** [[id:b544f0cd-2e3a-4e9c-b9da-f1482b7a3e85][Soft snap notes to other notes]] might be nice.
-** "default note length" is configurable in (MIDI Editor's) Transport Bar
+** "default note length" is configurable in (MIDI Editor) Transport Bar
    "grid" seems to work fine.
    I don't understand what the other settings are.
+** "note preview" options are interesting
+   :PROPERTIES:
+   :ID:       8251e005-ab70-4ca0-b440-b706cf3c178b
+   :END:
+   independent (not mutually exclusive)
+*** Preview notes when inserting or editing
+*** On velocity change
+*** On keyboard action
+*** All selected notes that overlap with selected note
 * filtering
   :PROPERTIES:
   :ID:       4f7ff877-344d-4e3a-b0db-ae401efe66b5
@@ -170,12 +179,6 @@
   :END:
 ** Lets you attach messages to passages.
 ** They scroll by in their own "CC Lane" (sic).
-* "note preview" options are interesting
-  independent (not mutually exclusive)
-** Preview notes when inserting or editing
-** On velocity change
-** On keyboard action
-** All selected notes that overlap with selected note
 * A CC edit can apply to multiple items at once.
   see in manual
     CC events in multiple media items
