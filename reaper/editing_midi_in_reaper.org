@@ -50,7 +50,13 @@
   :ID:       c9e830d4-d030-40a8-84cd-6e94bcd4bc30
   :END:
 ** TODO play with [[id:8251e005-ab70-4ca0-b440-b706cf3c178b]["note preview" options]]
-* HANDY configuration options, probably
+* HANDY things
+** When entering notes, Velocity has hysteresis.
+   :PROPERTIES:
+   :ID:       ff1b707a-5f77-4485-8936-fec7364b9f32
+   :END:
+   "The default Velocity value for notes created in the MIDI Editor is taken from the last selected event"
+** F3 : "panic" : send note-off to all notes
 ** "Use all MIDI inputs for step recording"
    Otherwise I think it only uses keys F1-F12.
    Step recording is non-realtime recording, with playback off.
@@ -133,8 +139,10 @@
     :END:
 * editing commands, some
 ** [[id:6e223491-a0d2-4387-8505-fe4c6029c3ff]["inline" edits]] are possible
-** delete note               : double-click
-** select notes              : *right*-click drag
+** create new note : mouse, or MIDI in, or F1-F12
+*** [[id:ff1b707a-5f77-4485-8936-fec7364b9f32][Velocity has hysteresis.]]
+** delete note     : double-click
+** select notes    : *right*-click drag
 ** moving the edit (time) cursor from the keyboard
    Move edit cursor right by one grid division.
    Move edit cursor left by one grid division.
@@ -189,16 +197,17 @@
   :END:
 ** Lets you attach messages to passages.
 ** They scroll by in their own "CC Lane" (sic).
-* F3 ("panic") : send note-off to all notes
-* when entering notes, Velocity has hysteresis.
-  "The default Velocity value for notes created in the MIDI Editor is taken from the last selected event"
 * CC data
 ** A CC edit (like many other kinds) can apply to multiple items at once.
    see in manual
      CC events in multiple media items
 ** [[id:ced67075-add5-4552-ae2a-ee10e605e90a][CC channels can be named]].
+** 14-bit CC values are possible.
+   :PROPERTIES:
+   :ID:       07d25e19-4a22-4c9e-8c81-49005947f973
+   :END:
 * more possibilities
 ** Retroactive MIDI Recording
    lets you capture something you played while not recording.
 ** MIDI Data Sends
-** 14-bit CC values
+** [[id:07d25e19-4a22-4c9e-8c81-49005947f973][14-bit CC values]]
