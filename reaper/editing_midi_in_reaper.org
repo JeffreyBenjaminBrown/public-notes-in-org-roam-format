@@ -135,6 +135,16 @@
 ** [[id:6e223491-a0d2-4387-8505-fe4c6029c3ff]["inline" edits]] are possible
 ** delete note               : double-click
 ** select notes              : *right*-click drag
+** moving the edit (time) cursor from the keyboard
+   Move edit cursor right by one grid division.
+   Move edit cursor left by one grid division.
+   Move edit cursor right by one pixel.
+   Move edit cursor left by one pixel.
+** moving notes from the keyboard
+   Move selected note(s) down one octave.
+   Move selected note(s) down one semitone.
+   Move selected note(s) up one octave.
+   Move selected note(s) up one semitone.
 ** select all notes in range : *right*-click drag on piano roll
 ** add to selection          : C-M-*right* drag
 ** Paste preserving position in measure
@@ -179,23 +189,13 @@
   :END:
 ** Lets you attach messages to passages.
 ** They scroll by in their own "CC Lane" (sic).
-* A CC edit can apply to multiple items at once.
-  see in manual
-    CC events in multiple media items
-* moving the edit (time) cursor from the keyboard
-  Move edit cursor right by one grid division.
-  Move edit cursor left by one grid division.
-  Move edit cursor right by one pixel.
-  Move edit cursor left by one pixel.
-* moving notes from the keyboard
-  Move selected note(s) down one octave.
-  Move selected note(s) down one semitone.
-  Move selected note(s) up one octave.
-  Move selected note(s) up one semitone.
+* F3 ("panic") : send note-off to all notes
 * when entering notes, Velocity has hysteresis.
   "The default Velocity value for notes created in the MIDI Editor is taken from the last selected event"
-* F3 ("panic") : send note-off to all notes
 * CC data
+** A CC edit (like many other kinds) can apply to multiple items at once.
+   see in manual
+     CC events in multiple media items
 ** [[id:ced67075-add5-4552-ae2a-ee10e605e90a][CC channels can be named]].
 * more possibilities
 ** Retroactive MIDI Recording
