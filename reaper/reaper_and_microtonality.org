@@ -4,6 +4,7 @@
 :END:
 #+title: Reaper and microtonality
 * [[id:6809927f-021c-4a4a-8ca1-7d4d02bd1964][Notes and background images can be attached]] to media items.
+* [[id:08189c80-b8e2-4ee6-a8c5-ff34ea9e6193][Show note names on notes]] is a useful option.
 * [[id:f34dfb22-8a4d-47eb-8f05-f0b43be9d774][arbitrary EDO layouts for the MIDI editor in Reaper]]
 * [[id:4f7ff877-344d-4e3a-b0db-ae401efe66b5][the filter window]] is useful for the channel-as-octave idiom.
 * [[id:d6c96acb-3ff8-4654-966a-2bd34f221f63][Text Events]] will be useful.

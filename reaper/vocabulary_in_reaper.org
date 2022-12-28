@@ -14,7 +14,7 @@
   :PROPERTIES:
   :ID:       6e223491-a0d2-4387-8505-fe4c6029c3ff
   :END:
-  are, at least in the case of MIDI tiems,
+  are, at least in the case of MIDI items,
   edits made from the Arrange View without opening a MIDI editor window.
 * Transport = playback, recording, maybe region-selection, more
   :PROPERTIES:

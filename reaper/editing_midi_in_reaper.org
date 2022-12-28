@@ -3,7 +3,6 @@
 :ROAM_ALIASES: "MIDI in Reaper"
 :END:
 #+title: editing MIDI in Reaper
-* pages 221-260
 * skipped
 ** most of the CC stuff
    including but not limited to
@@ -64,70 +63,75 @@
 ** "Use all MIDI inputs for step recording"
    Otherwise I think it only uses keys F1-F12.
    Step recording is non-realtime recording, with playback off.
-** [[id:5abbd374-d56a-45ac-b3bd-4dd73fe0469d]["named notes" is useful for drum patterns.]]
-** Show note names on notes.
-** useful when drum programming
-*** "Hide unused and unnamed note rows."
-*** "You can change the order in which notes are shown."
-    Hold Ctrl and drag a "pitch".
-* Multiple MIDI items can be open in one MIDI editor window.
-  :PROPERTIES:
-  :ID:       c466ef15-7398-4ee3-a6c0-8afb75a59e04
-  :END:
-  "One MIDI editor per"
-* [[id:6e223491-a0d2-4387-8505-fe4c6029c3ff]["inline" edits]] are possible
-* A track's controls can be configured to control MIDI properties.
-  By default they control audio properties.
-  See section
-    Using Track Controls with MIDI
-* MIDI Data Sends exist.
-* the MIDI Editor
-** to open it
-   alternatives
-*** select item, then C-M-e
-*** double-click the item
-** has two cursors : "the" cursor, and the "pitch cursor"
-   Both can be nudged, etc.
-** configuring it
-*** which items it contains
-**** default options
-***** clicked-on MIDI item only
-***** all selected MIDI items    <- the default
-***** all MIDI on the samtrack
-***** all MIDI in the project
-**** overriding the default
-     select an item/items and use the right-click context menu
-** the four views
-*** piano roll (default)
-*** [#A] named notes and CC (channels?)
-**** The same file can contain note names and CC (channel?) names.
-     :PROPERTIES:
-     :ID:       ced67075-add5-4552-ae2a-ee10e605e90a
-     :END:
-**** This permits [[id:f34dfb22-8a4d-47eb-8f05-f0b43be9d774][arbitrary EDO layouts]]
-**** "useful for drum patterns.
-     :PROPERTIES:
-     :ID:       5abbd374-d56a-45ac-b3bd-4dd73fe0469d
-     :END:
-*** more
-** It has its own Transport Bar.
-** the view of MIDI notes and other MIDI parameters
-*** DONE tags : CC value, CC parameter
-*** how to read it
-    Notes are typically displayed in the big window.
-    Below that is a little "CC lane", by default showing veloity.
-*** how to configure it
+** Multiple MIDI items and/or tracks can show in one MIDI editor window.
+   :PROPERTIES:
+   :ID:       c466ef15-7398-4ee3-a6c0-8afb75a59e04
+   :END:
+   "One MIDI editor per"
+* drum programming
+  useful configuration options for it
+** [[id:15cc20a2-5a31-4a33-a03a-6f89c467f3b2][named notes]]
+** "Hide unused and unnamed note rows."
+** "You can change the order in which notes are shown."
+   Hold Ctrl and drag a "pitch".
+* some interfaces
+** track controls
+   A track's controls can be configured to control MIDI properties.
+   (By default they control audio properties.)
+   See section
+     Using Track Controls with MIDI
+** the MIDI Editor
+*** to open it
     alternatives
-**** the context menu
-     from right-clicking on the gray bar *above* the CC lane
-**** the widgets on the left side of the CC lane
-     The drop-down menu at the left of the CC lane offers other CC parameters.
-     The small + to the right of that menu permits adding another lane.
-**** color notes/CC by channel : C-S-M-c
+**** select item, then C-M-e
+**** double-click the item
+*** has two cursors : "the" cursor, and the "pitch cursor"
+    Both can be nudged, etc.
+*** configuring it
+**** which items it contains
+***** default options
+****** clicked-on MIDI item only
+****** all selected MIDI items    <- the default
+****** all MIDI on the samtrack
+****** all MIDI in the project
+***** overriding the default
+      select an item/items and use the right-click context menu
+*** the four views
+**** piano roll (default)
+**** [#A] named notes (and CC (channels?))
      :PROPERTIES:
-     :ID:       731b6763-14ed-4509-92ae-364996408225
+     :ID:       15cc20a2-5a31-4a33-a03a-6f89c467f3b2
      :END:
-     jbb-specific, not builtin
+***** The same file can contain note names and CC (channel?) names.
+      :PROPERTIES:
+      :ID:       ced67075-add5-4552-ae2a-ee10e605e90a
+      :END:
+***** This permits [[id:f34dfb22-8a4d-47eb-8f05-f0b43be9d774][arbitrary EDO layouts]]
+***** noteworthy options
+****** "Show note names on notes"
+       :PROPERTIES:
+       :ID:       08189c80-b8e2-4ee6-a8c5-ff34ea9e6193
+       :END:
+***** "useful for drum patterns.
+**** more
+*** It has its own Transport Bar.
+*** the view of MIDI notes and other MIDI parameters
+**** DONE tags : CC value, CC parameter
+**** how to read it
+     Notes are typically displayed in the big window.
+     Below that is a little "CC lane", by default showing veloity.
+**** how to configure it
+     alternatives
+***** the context menu
+      from right-clicking on the gray bar *above* the CC lane
+***** the widgets on the left side of the CC lane
+      The drop-down menu at the left of the CC lane offers other CC parameters.
+      The small + to the right of that menu permits adding another lane.
+***** color notes/CC by channel : C-S-M-c
+      :PROPERTIES:
+      :ID:       731b6763-14ed-4509-92ae-364996408225
+      :END:
+      jbb-specific, not builtin
 * the MIDI Toolbar
 ** = a stretch of icons at the top of the MIDI Editor
 ** can be customized
@@ -159,6 +163,7 @@
 ** They scroll by in their own "CC Lane" (sic).
 * 14-bit CC values are possible.
 * editing commands, some
+** [[id:6e223491-a0d2-4387-8505-fe4c6029c3ff]["inline" edits]] are possible
 ** delete note               : double-click
 ** select notes              : *right*-click drag
 ** select all notes in range : *right*-click drag *on piano roll*
@@ -196,5 +201,7 @@
 * F3 ("panic") : send note-off to all notes
 * CC data
 ** [[id:ced67075-add5-4552-ae2a-ee10e605e90a][CC channels can be named]].
-* Retroactive MIDI Recording
-  lets you capture something you played while not recording.
+* more things that exist
+** Retroactive MIDI Recording
+   lets you capture something you played while not recording.
+** MIDI Data Sends
