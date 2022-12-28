@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       890e754a-8677-43f3-92f4-035d0ecd42db
 :END:
-#+title: usage \ Reaper
+#+title: using Reaper
 * user input
 ** [[id:a4d23041-2371-4506-a31d-d08f1726cce9][audio and MIDI IO]]
 ** [[id:d78888f7-5f86-482e-ae3e-7ca15b036e69][mouse and keyboard control]]

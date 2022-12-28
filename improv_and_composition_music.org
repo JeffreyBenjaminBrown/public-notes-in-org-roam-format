@@ -5,6 +5,9 @@
 * TODO mystery: How to jam to Tidal?
   It's so precise, so full-spectrum,
   and the rhythms I like in it are so hard.
+* TODO Try writing/recording melody first.
+* TODO Try fixing a rhythm in the left hand
+* [[id:bfa54465-b028-4ba9-81f2-92984bdba8f8][dense syllables: a spoken notation for music]]
 * Theory: Enjoying the timbre helps me slow down.
   That might be why I play more rhythmically on a guitar than on a keyboard.
   It seems feasible to similarly enjoy Pianoteq.
