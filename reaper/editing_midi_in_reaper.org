@@ -132,13 +132,13 @@
       :ID:       731b6763-14ed-4509-92ae-364996408225
       :END:
       jbb-specific, not builtin
-* the MIDI Toolbar
-** = a stretch of icons at the top of the MIDI Editor
-** can be customized
-** PITFALL: Lets you toggle "CC selection follows (MIDI) note selection".
-   :PROPERTIES:
-   :ID:       35651a38-7f3e-49cf-8bc8-977a294fe1fe
-   :END:
+** the MIDI Toolbar
+*** = a stretch of icons at the top of the MIDI Editor
+*** can be customized
+*** PITFALL: Lets you toggle "CC selection follows (MIDI) note selection".
+    :PROPERTIES:
+    :ID:       35651a38-7f3e-49cf-8bc8-977a294fe1fe
+    :END:
 * [#A] the filter window : S-f
   :PROPERTIES:
   :ID:       4f7ff877-344d-4e3a-b0db-ae401efe66b5
