@@ -131,18 +131,6 @@
     :PROPERTIES:
     :ID:       35651a38-7f3e-49cf-8bc8-977a294fe1fe
     :END:
-* filtering
-  :PROPERTIES:
-  :ID:       4f7ff877-344d-4e3a-b0db-ae401efe66b5
-  :END:
-** open filter window : S-f
-** can filter to selected channels
-*** to change channel(s) shown more quickly
-    sometimes the Transport Bar "channels" menu is sufficient.
-    Specifically, it lets you pick All or a single channel.
-** can filter to selected types of events
-** can determine which channel notes are "drawn" onto
-   with the pencil tool
 * editing commands, some
 ** [[id:6e223491-a0d2-4387-8505-fe4c6029c3ff]["inline" edits]] are possible
 ** delete note               : double-click
@@ -164,6 +152,18 @@
 ** "default note length" is configurable in (MIDI Editor's) Transport Bar
    "grid" seems to work fine.
    I don't understand what the other settings are.
+* filtering
+  :PROPERTIES:
+  :ID:       4f7ff877-344d-4e3a-b0db-ae401efe66b5
+  :END:
+** open filter window : S-f
+** can filter to selected channels
+*** to change channel(s) shown more quickly
+    sometimes the Transport Bar "channels" menu is sufficient.
+    Specifically, it lets you pick All or a single channel.
+** can filter to selected types of events
+** can determine which channel notes are "drawn" onto
+   with the pencil tool
 * Text Events (*aweesome*)
   :PROPERTIES:
   :ID:       d6c96acb-3ff8-4654-966a-2bd34f221f63
