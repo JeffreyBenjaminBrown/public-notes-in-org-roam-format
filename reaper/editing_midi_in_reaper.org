@@ -16,10 +16,10 @@
    This section title appears with a typo (the 7 below) in the manual:
      Working with Multiple MIDI Tracks an7d/or Items
 * PITFALLs
+  :PROPERTIES:
+  :ID:       8ed4c9dd-8441-4a05-acc2-e641be0a5ac6
+  :END:
 ** "Pool MIDI source data when pasting or duplicating media items"
-   :PROPERTIES:
-   :ID:       aacbe243-603f-4d39-959a-f57ee596707d
-   :END:
    means that editing something will also edit clips duplicated from it,
    and *defaults to enabled*.
 ** [[id:25af2475-7c85-461b-93ca-762cd9be3e4f][There are two Actions Lists.]]
@@ -27,9 +27,6 @@
 ** [[id:35651a38-7f3e-49cf-8bc8-977a294fe1fe]["CC selection follows note selection"]] could be off.
 ** "Use the same grid division in arrange view and MIDI editor" could be off.
 ** Timebase, tempo, and project-MIDI sync complexities
-   :PROPERTIES:
-   :ID:       ab3b9847-42a0-40e1-a3d1-399adebe7a7c
-   :END:
    over my head
 *** quote
     Tip: The View, Piano Roll Timebase command includes the options source beats, project beats and project
@@ -38,14 +35,8 @@
  also have the option to select Project synced. This synchronizes the timeline of the project and MIDI item
  together. It also ensures that both windows are synchronized during such actions as zooming and scrolling.
 ** "The MIDI Editor follows your Arrange view settings."
-   :PROPERTIES:
-   :ID:       24122df3-a4c5-4f06-abc8-a984accf9faa
-   :END:
    e.g. whether loop points are linked to the time selection
 ** MIDI pitch quantization is an option.
-   :PROPERTIES:
-   :ID:       d774b870-8155-44dd-99b3-c8240ebaa9e0
-   :END:
    "Enabling the key snap option allows you to select a scale and a chord"
 ** "Chase MIDI note-ons in project playback" is nice.
    With this on, MIDI notes will still be heard,
@@ -67,7 +58,9 @@
    :PROPERTIES:
    :ID:       c466ef15-7398-4ee3-a6c0-8afb75a59e04
    :END:
-   "One MIDI editor per"
+   see the configuration option that begins
+     One MIDI editor per
+** for [[id:7b0e278c-0736-4eda-8f7a-a70d856e133a][microtonality]]
 * drum programming
   useful configuration options for it
 ** [[id:15cc20a2-5a31-4a33-a03a-6f89c467f3b2][named notes]]
@@ -87,15 +80,14 @@
 **** double-click the item
 *** has two cursors : "the" cursor, and the "pitch cursor"
     Both can be nudged, etc.
-*** configuring it
-**** which items it contains
-***** default options
-****** clicked-on MIDI item only
-****** all selected MIDI items    <- the default
-****** all MIDI on the samtrack
-****** all MIDI in the project
-***** overriding the default
-      select an item/items and use the right-click context menu
+*** which items it contains
+**** options
+***** clicked-on MIDI item only
+***** all selected MIDI items    <- the initial default
+***** all MIDI on the same track
+***** all MIDI in the project
+**** overriding the default
+     select an item/items and use the right-click context menu
 *** the four views
 **** piano roll (default)
 **** [#A] named notes (and CC (channels?))
@@ -120,7 +112,7 @@
 **** how to read it
      Notes are typically displayed in the big window.
      Below that is a little "CC lane", by default showing veloity.
-**** how to configure it
+**** ways to configure it
      alternatives
 ***** the context menu
       from right-clicking on the gray bar *above* the CC lane
@@ -135,14 +127,15 @@
 ** the MIDI Toolbar
 *** = a stretch of icons at the top of the MIDI Editor
 *** can be customized
-*** PITFALL: Lets you toggle "CC selection follows (MIDI) note selection".
+*** PITFALL: Mouse can toggle "CC selection follows note selection".
     :PROPERTIES:
     :ID:       35651a38-7f3e-49cf-8bc8-977a294fe1fe
     :END:
-* [#A] the filter window : S-f
+* filtering
   :PROPERTIES:
   :ID:       4f7ff877-344d-4e3a-b0db-ae401efe66b5
   :END:
+** open filter window : S-f
 ** can filter to selected channels
 *** to change channel(s) shown more quickly
     sometimes the Transport Bar "channels" menu is sufficient.
@@ -150,18 +143,18 @@
 ** can filter to selected types of events
 ** can determine which channel notes are "drawn" onto
    with the pencil tool
-* [[id:7b545b8e-cbda-46dd-83e5-95171b540b57][how snapping works]] is configurable
-** [[id:b544f0cd-2e3a-4e9c-b9da-f1482b7a3e85][Soft snap notes to other notes]] seems interesting.
-* "default note length" is configurable in (MIDI Editor's) Transport Bar
-  "grid" seems to work fine.
-  I don't understand what the other settings are.
+* configuration options, some
+** [[id:7b545b8e-cbda-46dd-83e5-95171b540b57][how snapping works]]
+*** [[id:b544f0cd-2e3a-4e9c-b9da-f1482b7a3e85][Soft snap notes to other notes]] might be nice.
+** "default note length" is configurable in (MIDI Editor's) Transport Bar
+   "grid" seems to work fine.
+   I don't understand what the other settings are.
 * Text Events (*aweesome*)
   :PROPERTIES:
   :ID:       d6c96acb-3ff8-4654-966a-2bd34f221f63
   :END:
 ** Lets you attach messages to passages.
 ** They scroll by in their own "CC Lane" (sic).
-* 14-bit CC values are possible.
 * editing commands, some
 ** [[id:6e223491-a0d2-4387-8505-fe4c6029c3ff]["inline" edits]] are possible
 ** delete note               : double-click
@@ -201,7 +194,8 @@
 * F3 ("panic") : send note-off to all notes
 * CC data
 ** [[id:ced67075-add5-4552-ae2a-ee10e605e90a][CC channels can be named]].
-* more things that exist
+* more possibilities
 ** Retroactive MIDI Recording
    lets you capture something you played while not recording.
 ** MIDI Data Sends
+** 14-bit CC values
