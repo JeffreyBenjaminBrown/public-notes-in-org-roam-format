@@ -6,10 +6,24 @@
 * pages 221-260
 * skipped
 ** most of the CC stuff
+   including but not limited to
+*** Using MIDI CC Messages to Control FX Presets
 ** Notation Events
 ** Sysex
 ** Bank/Program Select
+** Quantize
+** Humanize
+** Working with Multiple MIDI Tracks and/or Items
+   This section title appears with a typo (the 7 below) in the manual:
+     Working with Multiple MIDI Tracks an7d/or Items
 * PITFALLs
+** "Pool MIDI source data when pasting or duplicating media items"
+   :PROPERTIES:
+   :ID:       aacbe243-603f-4d39-959a-f57ee596707d
+   :END:
+   means that editing something will also edit clips duplicated from it,
+   and *defaults to enabled*.
+** [[id:25af2475-7c85-461b-93ca-762cd9be3e4f][There are two Actions Lists.]]
 ** [[id:3f037a94-3112-4aa3-8b41-e69cdb579d98][Sync editor transport to project transport]] could be off.
 ** [[id:35651a38-7f3e-49cf-8bc8-977a294fe1fe]["CC selection follows note selection"]] could be off.
 ** "Use the same grid division in arrange view and MIDI editor" could be off.
@@ -37,10 +51,30 @@
 ** "Chase MIDI note-ons in project playback" is nice.
    With this on, MIDI notes will still be heard,
    even if their note-on event is before the start of playback.
+** On the piano roll ruler, visibility of these is toggleable
+   project markers
+   project regions
+   tempo/time signature
+* TODO Is there playback when step recording?
+  :PROPERTIES:
+  :ID:       c9e830d4-d030-40a8-84cd-6e94bcd4bc30
+  :END:
+  If so, that sounds both powerful and fun.
+* HANDY configuration options, probably
+** "Use all MIDI inputs for step recording"
+   Otherwise I think it only uses keys F1-F12.
+   Step recording is non-realtime recording, with playback off.
+** [[id:5abbd374-d56a-45ac-b3bd-4dd73fe0469d]["named notes" is useful for drum patterns.]]
+** Show note names on notes.
+** useful when drum programming
+*** "Hide unused and unnamed note rows."
+*** "You can change the order in which notes are shown."
+    Hold Ctrl and drag a "pitch".
 * Multiple MIDI items can be open in one MIDI editor window.
   :PROPERTIES:
   :ID:       c466ef15-7398-4ee3-a6c0-8afb75a59e04
   :END:
+  "One MIDI editor per"
 * [[id:6e223491-a0d2-4387-8505-fe4c6029c3ff]["inline" edits]] are possible
 * A track's controls can be configured to control MIDI properties.
   By default they control audio properties.
@@ -65,8 +99,16 @@
      select an item/items and use the right-click context menu
 ** the four views
 *** piano roll (default)
-*** [#A] named notes
+*** [#A] named notes and CC (channels?)
+**** The same file can contain note names and CC (channel?) names.
+     :PROPERTIES:
+     :ID:       ced67075-add5-4552-ae2a-ee10e605e90a
+     :END:
 **** This permits [[id:f34dfb22-8a4d-47eb-8f05-f0b43be9d774][arbitrary EDO layouts]]
+**** "useful for drum patterns.
+     :PROPERTIES:
+     :ID:       5abbd374-d56a-45ac-b3bd-4dd73fe0469d
+     :END:
 *** more
 ** It has its own Transport Bar.
 ** the view of MIDI notes and other MIDI parameters
@@ -139,3 +181,20 @@
 * A CC edit can apply to multiple items at once.
   see in manual
     CC events in multiple media items
+* moving the edit (time) cursor from the keyboard
+  Move edit cursor right by one grid division.
+  Move edit cursor left by one grid division.
+  Move edit cursor right by one pixel.
+  Move edit cursor left by one pixel.
+* moving notes from the keyboard
+  Move selected note(s) down one octave.
+  Move selected note(s) down one semitone.
+  Move selected note(s) up one octave.
+  Move selected note(s) up one semitone.
+* when entering notes, Velocity has hysteresis.
+  "The default Velocity value for notes created in the MIDI Editor is taken from the last selected event"
+* F3 ("panic") : send note-off to all notes
+* CC data
+** [[id:ced67075-add5-4552-ae2a-ee10e605e90a][CC channels can be named]].
+* Retroactive MIDI Recording
+  lets you capture something you played while not recording.

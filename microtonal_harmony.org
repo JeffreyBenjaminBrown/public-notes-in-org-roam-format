@@ -2,6 +2,7 @@
 :ID:       9989f701-d223-4775-bcf6-337333063a40
 :END:
 #+title: microtonal harmony
+* RESUME reading these notes [[id:86ec614c-4e4d-4ded-8e11-60caef7ad4c8][here]]
 * about the intervals
 ** the three low-JI whole tones are roughly evenly spaced
 *** the two lowest are 27c apart, the two highest 22c
@@ -20,9 +21,16 @@
 *** do that and the 10:9 sounds great.
 *** root against a different triad
     often sounds much more consonant than root + fifth against non-root triad.
+*** Micro changes to the root are likely to sound better.
+    Better than they would if the 3:2 moved in parallel with the root.
 ** "Dorian-French": 12edo: (-0.5) 9 3' 5'
    It's halfway between Dorian and French.
 ** 1, 7/4, 11/4, 11/4 * 6/5, 11/4 * 5/3
+   :PROPERTIES:
+   :ID:       86ec614c-4e4d-4ded-8e11-60caef7ad4c8
+   :END:
+   41-edo (I believe) equivalent:
+     0 33 19' 30' 8"
 ** 5/6, 1, 5/4, 11/8 : the (?) 11-limit min 6 chord.
 ** dim 7 using 7/6 and 11/8 at 1/1, then just dom 7 at 4/3
 *** In 46-edo
