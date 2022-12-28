@@ -2,43 +2,24 @@
 :ID:       9989f701-d223-4775-bcf6-337333063a40
 :END:
 #+title: microtonal harmony
-* TODO microtonal music theory
-** Drop the 3:2 and the 10:9 sounds great.
+* about the intervals
+** the three low-JI whole tones are roughly evenly spaced
+*** the two lowest are 27c apart, the two highest 22c
+> x = map (round . cents) $ [7/4,16/9,9/5]
+> x
+[9688,9961,10176]
+> tail $ zipWith (-) x (undefined:x)
+[273,215]
+*** in both 41- and 46-edo they're consecutive
+** 24-edo : [[id:1cfa5cfb-c951-4483-bb7a-9f87c908a026][quartertone-free, cluster-free ways to divide a fourth]]
+* chords
+** reasons to drop the 3:2
    :PROPERTIES:
    :ID:       4eb0545a-ac36-4a74-bd12-c429019e231a
    :END:
-** in 41-edo, two vm6 = octave + ^m3
-   :PROPERTIES:
-   :ID:       6ab89e63-8ba0-4d16-8603-6bb58d7e30c0
-   :END:
-*** why that's weird
-    two ordinary m6 = octave + vM3
-      that is, a major 3rd rather than a minor one
-*** that's the octave inverse of [[id:32205cdb-6e91-4e70-bba5-1336e119559c][this]]
-** in 41-edo, two ^M3 = vM6
-   :PROPERTIES:
-   :ID:       32205cdb-6e91-4e70-bba5-1336e119559c
-   :END:
-*** why that's weird
-    Two ordinary M3 = ^m6
-      That is, a minor sixth rather than a major one.
-*** that's the octave inverse of [[id:6ab89e63-8ba0-4d16-8603-6bb58d7e30c0][this]]
-** root against a different triad
-   often sounds much more consonant than root + fifth against non-root triad.
-*** An example in 41-edo
-    this
-      left hand: 0
-      right hand: major triad with root at 34
-    sounds much better than
-      the same thing adding a 24 in the left hand
-* TODO some ways to build scales
-** a stack of the same interval
-** multiple misaligned stacks
-*** e.g. a stack of fifths built from the root, and another from the 13th harmonic
-** the harmonic series
-** modes
-** two nonoverlapping chords
-* TODO nice chords
+*** do that and the 10:9 sounds great.
+*** root against a different triad
+    often sounds much more consonant than root + fifth against non-root triad.
 ** "Dorian-French": 12edo: (-0.5) 9 3' 5'
    It's halfway between Dorian and French.
 ** 1, 7/4, 11/4, 11/4 * 6/5, 11/4 * 5/3
@@ -78,7 +59,37 @@ In 46et it's
    (0 18 28)  (7 18 25)'
 *** (0 11 18 5')
  creates a 25 relationship from 11 to 5'
-* TODO scales
+** 9 11 13 = diminished
+   A little wider than 5 6 7 = 10 12 14
+   For both, the first interval is wider than the second.
+** Septimal dom b9 = dom 7 + very flat 9
+   Start with septimal dom7.
+   Stack another septimal m3 on the top.
+* interval math
+** in 41-edo, two vm6 = octave + ^m3
+   :PROPERTIES:
+   :ID:       6ab89e63-8ba0-4d16-8603-6bb58d7e30c0
+   :END:
+*** why that's weird
+    two ordinary m6 = octave + vM3
+      that is, a major 3rd rather than a minor one
+*** that's the octave inverse of [[id:32205cdb-6e91-4e70-bba5-1336e119559c][this]]
+** in 41-edo, two ^M3 = vM6
+   :PROPERTIES:
+   :ID:       32205cdb-6e91-4e70-bba5-1336e119559c
+   :END:
+*** why that's weird
+    Two ordinary M3 = ^m6
+      That is, a minor sixth rather than a major one.
+*** that's the octave inverse of [[id:6ab89e63-8ba0-4d16-8603-6bb58d7e30c0][this]]
+* scales
+** some ways to build scales
+*** a stack of the same interval
+*** multiple misaligned stacks
+**** e.g. a stack of fifths built from the root, and another from the 13th harmonic
+*** the harmonic series
+*** modes
+*** two nonoverlapping chords
 ** in 46 edo: 0 27 8' + (32: 0 10 27 37)
    = a stack of two fifths from 0 +
      a septimal min 7 from the 13th harmonic
@@ -95,26 +106,9 @@ It's weird because it sounds like a familiar scale with an extra note
   but for both pairs, the second clearly represents a distinct degree
   from the first, because 0 and 18 are such salient notes.)
 ** 9 notes, evenly spaced and harmonic: 0 4 7 11 14 18 21 25 28
-* TODO nice changes
+* changes
 ** two minor chords, descending 4/31 from one to the other
 but holding the fifth degree (18/31) from the first,
 and between them play the dominant (major starting at 18) chord of the first.
 ** in 22-edo, start from septimal min maj 7, then raise 3rd and lower 7th by a microtone many times
    That is, start with 0 5 13 20
-* TODO Just chords
-** 9 11 13 = diminished
-   A little wider than 5 6 7 = 10 12 14
-   For both, the first interval is wider than the second.
-** Septimal dom b9 = dom 7 + very flat 9
-   Start with septimal dom7.
-   Stack another septimal m3 on the top.
-* TODO about the intervals
-** the three low-JI whole tones are roughly evenly spaced
-*** the two lowest are 27c apart, the two highest 22c
-> x = map (round . cents) $ [7/4,16/9,9/5]
-> x
-[9688,9961,10176]
-> tail $ zipWith (-) x (1:x)
-[273,215]
-*** in both 41- and 46-edo they're consecutive
-** [[id:1cfa5cfb-c951-4483-bb7a-9f87c908a026][quartertone-free, cluster-free ways to divide a fourth in 24-edo]]
