@@ -143,18 +143,6 @@
 ** can filter to selected types of events
 ** can determine which channel notes are "drawn" onto
    with the pencil tool
-* configuration options, some
-** [[id:7b545b8e-cbda-46dd-83e5-95171b540b57][how snapping works]]
-*** [[id:b544f0cd-2e3a-4e9c-b9da-f1482b7a3e85][Soft snap notes to other notes]] might be nice.
-** "default note length" is configurable in (MIDI Editor's) Transport Bar
-   "grid" seems to work fine.
-   I don't understand what the other settings are.
-* Text Events (*aweesome*)
-  :PROPERTIES:
-  :ID:       d6c96acb-3ff8-4654-966a-2bd34f221f63
-  :END:
-** Lets you attach messages to passages.
-** They scroll by in their own "CC Lane" (sic).
 * editing commands, some
 ** [[id:6e223491-a0d2-4387-8505-fe4c6029c3ff]["inline" edits]] are possible
 ** delete note               : double-click
@@ -170,6 +158,18 @@
    :PROPERTIES:
    :ID:       3f037a94-3112-4aa3-8b41-e69cdb579d98
    :END:
+* configuration options, some
+** [[id:7b545b8e-cbda-46dd-83e5-95171b540b57][how snapping works]]
+*** [[id:b544f0cd-2e3a-4e9c-b9da-f1482b7a3e85][Soft snap notes to other notes]] might be nice.
+** "default note length" is configurable in (MIDI Editor's) Transport Bar
+   "grid" seems to work fine.
+   I don't understand what the other settings are.
+* Text Events (*aweesome*)
+  :PROPERTIES:
+  :ID:       d6c96acb-3ff8-4654-966a-2bd34f221f63
+  :END:
+** Lets you attach messages to passages.
+** They scroll by in their own "CC Lane" (sic).
 * "note preview" options are interesting
   independent (not mutually exclusive)
 ** Preview notes when inserting or editing
