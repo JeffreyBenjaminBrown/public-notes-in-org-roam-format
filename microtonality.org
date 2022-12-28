@@ -3,16 +3,7 @@
 :END:
 #+TITLE: microtonality
 * [[id:9740fc35-92b5-4285-a6c0-4861c41a28cb][some microtonal musicians]]
-* harmony, maybe 41-edo
-** root against a different triad
-   often sounds much more consonant than root + fifth against non-root triad.
-*** An example in 41-edo
-    this
-      left hand: 0
-      right hand: major triad with root at 34
-    sounds much better than
-      the same thing adding a 24 in the left hand
-* TODO [[id:88a82a79-2482-4ca1-82a3-91848fda271a][add in-between notes to mtv-monome]]
+* [[id:88a82a79-2482-4ca1-82a3-91848fda271a][add in-between notes to mtv-monome]]
 * [[id:ba41a627-bebd-4a9a-a5be-7ed2f50ad170][Terpstra microtonal keyboard online]]
 * [[id:339f3f3a-49c2-4dfd-a66c-de482ccec92a][my introductory microtonal music recommendations]]
 * [[id:94252b7e-c638-434b-a2e4-822d96ef5b07][microtonal polyphonic audio to MIDI: asking Reddit Audio Engineering]]
@@ -20,12 +11,6 @@
 ** [[id:0fb050fc-28b8-48a6-914b-6d5970490d46][microtonal guitar]]
 ** [[id:660cb0bc-e76c-48b6-844a-7ce352dc8067][manual dynamically adjusted EDO (musical instrument idea)]]
 ** [[id:eba57381-b12c-4221-acf0-d0cbad55e224][microtonal synth plugins]]
-* TODO list kinds of harmonic thinking applicable to 46-et
-  by limit
-  by symmetry
-  changing key center
-  by voice
-* TODO misfiled: this is about EDOs more generally
 * stretching octaves
 ** ref
 http://x31eq.com/temper/net.html
@@ -48,100 +33,14 @@ http://x31eq.com/temper/net.html
 * [[id:668d2b62-9e8c-4db9-8bb5-1a552ffa4c33][Bosanquet mapping for equal temperaments]]
 * [[id:80068e27-a77e-4d73-b762-235ec2cc6de4][some edos (equal divisions of the octave)]]
 * microtonal notation
+** [[id:c5ab503b-2182-48d3-a416-5a2a1131f234][41-edo notation]]
 ** [[id:a7586f73-d137-4ed3-8c58-a24675675f60][46-edo notation]]
-* some ways to build scales
-** a stack of the same interval
-** multiple misaligned stacks
-*** e.g. a stack of fifths built from the root, and another from the 13th harmonic
-** the harmonic series
-** modes
-** two nonoverlapping chords
-* nice chords
-** "Dorian-French": 12edo: (-0.5) 9 3' 5'
-   It's halfway between Dorian and French.
-** 1, 7/4, 11/4, 11/4 * 6/5, 11/4 * 5/3
-** 5/6, 1, 5/4, 11/8 : the (?) 11-limit min 6 chord.
-** dim 7 using 7/6 and 11/8 at 1/1, then just dom 7 at 4/3
-*** In 46-edo
-0: 0 10 21 37
-19: 0 15 27 37
-** (1/1: 1, 3/2) + (2*9/7: 1, 3/2, 16/9)
-That is, concurrently
-*** In 46-edo
-(0: 0 27) + (17: 0 17 38)
-** put three equal-spaced notes between 1/1 and 11/8
-and can keep stacking such intervals above the 3/2, for something like a major 7th but denser
-** like 12et (0 7 3' 9pythag' 2''), but pull the root and fifth up 50 cents
-In 46et it's
-0 27 10' 33' 6''
-** in 31-et
-*** 0 18 5' 14'
-*** 0 25 40
-*** wide whole tone: 0 6 11 17 22 28
- subset: 0 11 17 28
-*** 17_ 23_ 0 8 14
- This is symmetric -- -14 -8 0 8 14.
-*** using 0 11 22 as an extension
- 0 18 25+[0,11,22] = [0,18,25,5',16']
-   In 12ET that would be a 7#11.
-   Works with a 3rd of 7 (m3) or 10 (M3).
-*** (0 18 25) + (7' + (0 8 18 28))
- The second chord is a min major 7th starting at 7,
- that is a short minor 3rd above the octave of the power-7 chord below.
- (where a power-7 chord is 0 18 25, i.e. it's got harmonics 3 and 7).
-*** maj 7 under a min 7
- in 12et it would be:
-   (0 7  11)  (3 7  10)'
- In 31et:
-   (0 18 28)  (7 18 25)'
-*** (0 11 18 5')
- creates a 25 relationship from 11 to 5'
-* scales
-** in 46 edo: 0 27 8' + (32: 0 10 27 37)
-   = a stack of two fifths from 0 +
-     a septimal min 7 from the 13th harmonic
-   It has way more chords with a P5 than one might expect,
-   and a 5-limit maj7 from 27.
-** too many: 0 2 6 10 14 18 20 24 27
-How to remember: it includes two stacks of four,
-  one starting at 2, the other at 20.
-It's weird because it sounds like a familiar scale with an extra note
-  between the root and fifth, and another between the fifth and the octave,
-  but it's not clear which one is extra,
-  because they're all pretty evenly spaced.
-  (The intervals that aren't evenly spaced are from 0-2 and from 18-20,
-  but for both pairs, the second clearly represents a distinct degree
-  from the first, because 0 and 18 are such salient notes.)
-** 9 notes, evenly spaced and harmonic: 0 4 7 11 14 18 21 25 28
-* nice changes
-** two minor chords, descending 4/31 from one to the other
-but holding the fifth degree (18/31) from the first,
-and between them play the dominant (major starting at 18) chord of the first.
-** in 22-edo, start from septimal min maj 7, then raise 3rd and lower 7th by a microtone many times
-   That is, start with 0 5 13 20
 * [[id:54dd7d84-d721-4132-9522-aae386f18fdb][Thanos (Kite-Ish) Tunings]]
-* Just chords
-** 9 11 13 = diminished
-   A little wider than 5 6 7 = 10 12 14
-   For both, the first interval is wider than the second.
-** Septimal dom b9 = dom 7 + very flat 9
-   Start with septimal dom7.
-   Stack another septimal m3 on the top.
 * somme surprising linear relationships between edos
   Matrix tunings and the permutation lattice
   John S. Allen
   http://www.bikexprt.com/tunings/tunings3.htm
   (see esp. the picture)
-* about the intervals
-** the three low-JI whole tones are roughly evenly spaced
-*** the two lowest are 27c apart, the two highest 22c
-> x = map (round . cents) $ [7/4,16/9,9/5]
-> x
-[9688,9961,10176]
-> tail $ zipWith (-) x (1:x)
-[273,215]
-*** in both 41- and 46-edo they're consecutive
-** [[id:1cfa5cfb-c951-4483-bb7a-9f87c908a026][quartertone-free, cluster-free ways to divide a fourth in 24-edo]]
 * [[id:4d2aa565-643a-4974-b980-618fc66f8420][my advice re. layouts for small grid controllers]]
 * meh
 ** [[id:57e51492-ac32-4e33-b5b8-9b6eaab4ebb3][some temperament groups with similar (only in Bosanquet?) layouts]]

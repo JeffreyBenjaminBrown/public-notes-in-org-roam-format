@@ -12,6 +12,7 @@
 * PITFALLs
 ** [[id:3f037a94-3112-4aa3-8b41-e69cdb579d98][Sync editor transport to project transport]] could be off.
 ** [[id:35651a38-7f3e-49cf-8bc8-977a294fe1fe]["CC selection follows note selection"]] could be off.
+** "Use the same grid division in arrange view and MIDI editor" could be off.
 ** Timebase, tempo, and project-MIDI sync complexities
    :PROPERTIES:
    :ID:       ab3b9847-42a0-40e1-a3d1-399adebe7a7c
@@ -33,6 +34,9 @@
    :ID:       d774b870-8155-44dd-99b3-c8240ebaa9e0
    :END:
    "Enabling the key snap option allows you to select a scale and a chord"
+** "Chase MIDI note-ons in project playback" is nice.
+   With this on, MIDI notes will still be heard,
+   even if their note-on event is before the start of playback.
 * Multiple MIDI items can be open in one MIDI editor window.
   :PROPERTIES:
   :ID:       c466ef15-7398-4ee3-a6c0-8afb75a59e04
@@ -101,6 +105,7 @@
 ** can determine which channel notes are "drawn" onto
    with the pencil tool
 * [[id:7b545b8e-cbda-46dd-83e5-95171b540b57][how snapping works]] is configurable
+** [[id:b544f0cd-2e3a-4e9c-b9da-f1482b7a3e85][Soft snap notes to other notes]] seems interesting.
 * "default note length" is configurable in (MIDI Editor's) Transport Bar
   "grid" seems to work fine.
   I don't understand what the other settings are.
@@ -125,3 +130,12 @@
    :PROPERTIES:
    :ID:       3f037a94-3112-4aa3-8b41-e69cdb579d98
    :END:
+* "note preview" options are interesting
+  independent (not mutually exclusive)
+** Preview notes when inserting or editing
+** On velocity change
+** On keyboard action
+** All selected notes that overlap with selected note
+* A CC edit can apply to multiple items at once.
+  see in manual
+    CC events in multiple media items

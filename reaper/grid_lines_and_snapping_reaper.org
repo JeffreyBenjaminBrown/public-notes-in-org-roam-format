@@ -35,10 +35,14 @@
   :ID:       7b545b8e-cbda-46dd-83e5-95171b540b57
   :END:
 ** Something like this might also exist for audio clips.
-** the options
+** some options
 *** Always snap notes to the left
-*** Snap notes to end of grid     <- the default
+*** Snap notes to end of grid        <- the default
 *** Snap relative to grid
+*** Soft snap notes to other notes   <- interesting
+    :PROPERTIES:
+    :ID:       b544f0cd-2e3a-4e9c-b9da-f1482b7a3e85
+    :END:
 * Snapping can be overridden sometimes.
   At least when selecting a loop region,
   holding Ctrl while using the mouse overrides snapping.
