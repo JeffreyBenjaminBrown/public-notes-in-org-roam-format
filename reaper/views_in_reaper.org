@@ -4,6 +4,9 @@
 #+title: views and navigation in Reaper
 * PITFALL: [[id:f9078ad5-9518-4672-b11a-4aabaa905e32][Two views of the track controls might be visible at once.]]
 * [[id:6cfece12-9d16-4d5a-a252-862b1457baf9][PITFALL: Themes and Layouts controls *what* is shown, not just how.]]
+* improving visibility
+** disable "show dotted grid lines"
+   in Preferences / Appearance
 * the Arrange View
 ** is, I think, the space where clips on tracks are displayed
 * TODO Of these four "view modes" (for track wiring?), not all were introduced before being referred to.

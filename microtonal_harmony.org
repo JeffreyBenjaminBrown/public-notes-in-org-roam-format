@@ -13,39 +13,25 @@
 [273,215]
 *** in both 41- and 46-edo they're consecutive
 ** 24-edo : [[id:1cfa5cfb-c951-4483-bb7a-9f87c908a026][quartertone-free, cluster-free ways to divide a fourth]]
+* interval math
+** in 41-edo, two vm6 = octave + ^m3
+   :PROPERTIES:
+   :ID:       6ab89e63-8ba0-4d16-8603-6bb58d7e30c0
+   :END:
+*** why that's weird
+    two ordinary m6 = octave + vM3
+      that is, a major 3rd rather than a minor one
+*** that's the octave inverse of [[id:32205cdb-6e91-4e70-bba5-1336e119559c][this]]
+** in 41-edo, two ^M3 = vM6
+   :PROPERTIES:
+   :ID:       32205cdb-6e91-4e70-bba5-1336e119559c
+   :END:
+*** why that's weird
+    Two ordinary M3 = ^m6
+      That is, a minor sixth rather than a major one.
+*** that's the octave inverse of [[id:6ab89e63-8ba0-4d16-8603-6bb58d7e30c0][this]]
 * chords
-** reasons to drop the 3:2
-   :PROPERTIES:
-   :ID:       4eb0545a-ac36-4a74-bd12-c429019e231a
-   :END:
-*** do that and the 10:9 sounds great.
-*** root against a different triad
-    often sounds much more consonant than root + fifth against non-root triad.
-*** Micro changes to the root are likely to sound better.
-    Better than they would if the 3:2 moved in parallel with the root.
-** "Dorian-French": 12edo: (-0.5) 9 3' 5'
-   It's halfway between Dorian and French.
-** 1, 7/4, 11/4, 11/4 * 6/5, 11/4 * 5/3
-   :PROPERTIES:
-   :ID:       86ec614c-4e4d-4ded-8e11-60caef7ad4c8
-   :END:
-   41-edo (I believe) equivalent:
-     0 33 19' 30' 8"
-** 5/6, 1, 5/4, 11/8 : the (?) 11-limit min 6 chord.
-** dim 7 using 7/6 and 11/8 at 1/1, then just dom 7 at 4/3
-*** In 46-edo
-0: 0 10 21 37
-19: 0 15 27 37
-** (1/1: 1, 3/2) + (2*9/7: 1, 3/2, 16/9)
-That is, concurrently
-*** In 46-edo
-(0: 0 27) + (17: 0 17 38)
-** put three equal-spaced notes between 1/1 and 11/8
-and can keep stacking such intervals above the 3/2, for something like a major 7th but denser
-** like 12et (0 7 3' 9pythag' 2''), but pull the root and fifth up 50 cents
-In 46et it's
-0 27 10' 33' 6''
-** in 31-et
+** in 31-edo
 *** 0 18 5' 14'
 *** 0 25 40
 *** wide whole tone: 0 6 11 17 22 28
@@ -67,29 +53,55 @@ In 46et it's
    (0 18 28)  (7 18 25)'
 *** (0 11 18 5')
  creates a 25 relationship from 11 to 5'
+** reasons to drop the 3:2
+   :PROPERTIES:
+   :ID:       4eb0545a-ac36-4a74-bd12-c429019e231a
+   :END:
+*** do that and the 10:9 sounds great.
+*** root against a different triad
+    often sounds much more consonant than root + fifth against non-root triad.
+*** Micro changes to the root are likely to sound better.
+    Better than they would if the 3:2 moved in parallel with the root.
+** "Dorian-French": 12edo: (-0.5) 9 3' 5'
+   It's halfway between Dorian and French.
+** 5/6, 1, 5/4, 11/8 : the (?) 11-limit min 6 chord.
+** dom 7 vvb9 with no root, then dom 7
+*** in JI
+    dim 7 using 7/6 and 11/8 at 1/1, then just dom 7 at 4/3
+*** in 41-edo
+    24: 0  9 19 30
+    0:  0 13 24 33
+*** in 46-edo
+    0: 0 10 21 37
+    19: 0 15 27 37
+** bond ^^root : deeply strange yet not grating
+*** the idea
+    like 12et (0 7 3' 9pythag' 2''), but pull the root and fifth up 50 cents
+*** in 41-edo
+    0 24 29 9' 5"
+*** in 46-edo
+    0 27 10' 33' 6''
+** put three equal-spaced notes between 1/1 and 11/8
+*** and keep going
+    stack more such intervals above the 3/2,
+    for something like a major 7th but denser
+*** in 41-edo
+      7 6  6  5  6  6  5
+    0  7 13 19 24 30 36
 ** 9 11 13 = diminished
    A little wider than 5 6 7 = 10 12 14
    For both, the first interval is wider than the second.
-** Septimal dom b9 = dom 7 + very flat 9
-   Start with septimal dom7.
-   Stack another septimal m3 on the top.
-* interval math
-** in 41-edo, two vm6 = octave + ^m3
-   :PROPERTIES:
-   :ID:       6ab89e63-8ba0-4d16-8603-6bb58d7e30c0
-   :END:
-*** why that's weird
-    two ordinary m6 = octave + vM3
-      that is, a major 3rd rather than a minor one
-*** that's the octave inverse of [[id:32205cdb-6e91-4e70-bba5-1336e119559c][this]]
-** in 41-edo, two ^M3 = vM6
-   :PROPERTIES:
-   :ID:       32205cdb-6e91-4e70-bba5-1336e119559c
-   :END:
-*** why that's weird
-    Two ordinary M3 = ^m6
-      That is, a minor sixth rather than a major one.
-*** that's the octave inverse of [[id:6ab89e63-8ba0-4d16-8603-6bb58d7e30c0][this]]
+** maybe special but not in 41-edo
+*** 1, 7/4, 11/4, 11/4 * 6/5, 11/4 * 5/3
+    :PROPERTIES:
+    :ID:       86ec614c-4e4d-4ded-8e11-60caef7ad4c8
+    :END:
+    41-edo (I believe) equivalent:
+      0 33 19' 30' 8"
+*** (1/1: 1, 3/2) + (2*9/7: 1, 3/2, 16/9)
+    That is, concurrently
+**** In 46-edo
+ (0: 0 27) + (17: 0 17 38)
 * scales
 ** some ways to build scales
 *** a stack of the same interval

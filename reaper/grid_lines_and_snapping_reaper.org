@@ -13,6 +13,9 @@
    :PROPERTIES:
    :ID:       25624515-45b0-4f77-a8fc-18d30cde5abe
    :END:
+** change grid width
+*** I made shortcuts for x2, x3, /2 and /3
+    C-2, C-3, C-S-2 and C-S-3, respectively.
 * grid options
 ** [[id:25624515-45b0-4f77-a8fc-18d30cde5abe][to show their menu : M-l]]
 ** whether various kinds of things snap to the grid
