@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b45af920-ae69-411f-81af-7cd744abacf7
+:END:
+#+title: tour of synonyms
+* purpose
+  Could be useful for overcoming writer's block.
+* the idea
+  "[sound], which is [sound], which is ..."

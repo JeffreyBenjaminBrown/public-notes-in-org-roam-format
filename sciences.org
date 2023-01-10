@@ -31,6 +31,7 @@
 ** [[id:f514b748-c188-4b71-afcd-48206b62a67e][community-building]]
 ** [[id:3570b8e0-1c1b-482c-bbb1-18c0151e2e4f][political science]]
 ** [[id:4d96ed8b-e9d9-4809-b865-49057fba568e][sociology]]
+** [[id:a503a447-3103-42aa-881e-a88382bad92e][gender studies]]
 * [[id:3989a4db-9ec4-43c4-9123-dbc4ebea2378][pseudo-science]]
 * [[id:9b40c46b-bd16-4003-8a9e-763f5a7dbc22][psychology]]
 ** [[id:7c70d045-6b4f-4957-a524-cf4c63204c84][neurology]]

@@ -3,6 +3,7 @@
 :END:
 #+title: 46-edo
 * [[id:7dcff6ba-7086-4c81-bf95-6dc12e8ae897][46-edo is fat-finger friendly with 92-edo.]]
+* TODO [[id:82536be9-c17e-4594-bd29-799cb7ba09f9][isomorphic layout 4\46 x 7\46]]
 * layouts
 ** TODO 5\46 x 2\46: Lumatone-good, 15-lim in 8x4
 *** layout
@@ -150,3 +151,338 @@
    , 21 steps; 11 % 8 ; string 1 ; fret 2
    , 32 steps; 13 % 8 ; string 2 ; fret - 1
    , 42 steps; 15 % 8 ; string 2 ; fret 4
+* searching "by hand" through most smallish tunings
+** TODO 4\46 between strings
+*** 4\46 x 1\46: octave at (11,-2)
+*** 4\46 x 3\46: octave at (10,-2)
+    [ 0  steps; 1 % 1;  string 0;  fret 0
+    , 8  steps; 9 % 8;  string 2;  fret 0
+    , 15 steps; 5 % 4;  string 3;  fret 1
+    , 21 steps; 11 % 8; string 3;  fret 3
+    , 27 steps; 3 % 2;  string 6;  fret 1
+    , 37 steps; 7 % 4;  string 7;  fret 3
+    , 32 steps; 13 % 8; string 8;  fret 0
+    , 42 steps; 15 % 8; string 9;  fret 2
+    , 46 steps; 2 % 1;  string 10; fret 2
+*** 4\46 x 5x46: wide, tight, strange, hard 5-lim triads
+    :PROPERTIES:
+    :ID:       98bbb313-52b5-4353-b56c-a78c6ac131c9
+    :END:
+    Wide as a bosanquet tenth.
+    Weird clumping of harmonics on string 8.
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 15 steps; 5 % 4;  string 0; fret 3
+    , 8  steps; 9 % 8;  string 2; fret 0
+    , 27 steps; 3 % 2;  string 3; fret 3
+    , 21 steps; 11 % 8; string 4; fret 1
+    , 32 steps; 13 % 8; string 8; fret 0
+    , 37 steps; 7 % 4;  string 8; fret 1
+    , 42 steps; 15 % 8; string 8; fret 2
+    , 46 steps; 2 % 1;  string 9; fret 2
+*** TODO [[id:82536be9-c17e-4594-bd29-799cb7ba09f9][isomorphic layout 4\46 x 7\46]]
+*** anything with bigger fret-jumps is horrible
+    I checked through 15\46
+** TODO 5\46 between strings
+*** 5\46 x 1\46: octave at (9,-1)
+*** DONE 5\46 x 2\46: Tight, well-behaved, a bit skew.
+**** I already have this for the Lumatone
+     41edo.7right.3downright.ltn
+**** layout
+     [ 0  steps; 1 % 1;  string 0; fret 0
+     , 8  steps; 9 % 8;  string 0; fret 4
+     , 15 steps; 5 % 4;  string 3; fret 0
+     , 21 steps; 11 % 8; string 3; fret 3
+     , 27 steps; 3 % 2;  string 5; fret 1
+     , 32 steps; 13 % 8; string 6; fret 1
+     , 37 steps; 7 % 4;  string 7; fret 1
+     , 42 steps; 15 % 8; string 8; fret 1
+     , 46 steps; 2 % 1;  string 8; fret 3
+*** TODO 5\46 x 3\46: Tight, flat, many off-axis harmonics
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 8  steps; 9 % 8;  string 1; fret 1
+    , 15 steps; 5 % 4;  string 3; fret 0
+    , 21 steps; 11 % 8; string 3; fret 2
+    , 27 steps; 3 % 2;  string 3; fret 4
+    , 32 steps; 13 % 8; string 4; fret 4
+    , 37 steps; 7 % 4;  string 5; fret 4
+    , 42 steps; 15 % 8; string 6; fret 4
+    , 46 steps; 2 % 1;  string 8; fret 2
+*** 5\46 left x 4\46 down: tight but way diagonal
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 8  steps; 9 % 8;  string 0; fret 2
+    , 21 steps; 11 % 8; string 1; fret 4
+    , 15 steps; 5 % 4;  string 3; fret 0
+    , 27 steps; 3 % 2;  string 3; fret 3
+    , 32 steps; 13 % 8; string 4; fret 3
+    , 37 steps; 7 % 4;  string 5; fret 3
+    , 42 steps; 15 % 8; string 6; fret 3
+    , 46 steps; 2 % 1;  string 6; fret 4
+*** 5\46 left x 6\46 down-right: good but long skew octave
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 15 steps; 5 % 4;  string 3; fret 0
+    , 21 steps; 11 % 8; string 3; fret 1
+    , 27 steps; 3 % 2;  string 3; fret 2
+    , 8  steps; 9 % 8;  string 4; fret -2
+    , 32 steps; 13 % 8; string 4; fret 2
+    , 37 steps; 7 % 4;  string 5; fret 2
+    , 42 steps; 15 % 8; string 6; fret 2
+    , 46 steps; 2 % 1;  string 8; fret 1
+*** 5\46 x 7\46: skew & weird
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 21 steps; 11 % 8; string 0; fret 3
+    , 8  steps; 9 % 8;  string 3; fret -1
+    , 15 steps; 5 % 4;  string 3; fret 0
+    , 27 steps; 3 % 2;  string 4; fret 1
+    , 32 steps; 13 % 8; string 5; fret 1
+    , 46 steps; 2 % 1;  string 5; fret 3 -- octave
+    , 37 steps; 7 % 4;  string 6; fret 1
+    , 42 steps; 15 % 8; string 7; fret 1
+*** 5\46 x 8\46: flat, weird
+    [ 27 steps; 3 % 2;  string -1; fret 4
+    , 0  steps; 1 % 1;  string 0; fret 0
+    , 8  steps; 9 % 8;  string 0; fret 1
+    , 32 steps; 13 % 8; string 0; fret 4
+    , 21 steps; 11 % 8; string 1; fret 2
+    , 37 steps; 7 % 4;  string 1; fret 4
+    , 42 steps; 15 % 8; string 2; fret 4
+    , 15 steps; 5 % 4;  string 3; fret 0
+    , 46 steps; 2 % 1;  string 6; fret 2
+*** 5\46 x 9\46: skew, weird
+    [ 21 steps; 11 % 8; string -3; fret 4
+    , 8  steps; 9 % 8;  string -2; fret 2
+    , 0  steps; 1 % 1;  string 0; fret 0
+    , 27 steps; 3 % 2;  string 0; fret 3
+    , 32 steps; 13 % 8; string 1; fret 3
+    , 37 steps; 7 % 4;  string 2; fret 3
+    , 46 steps; 2 % 1;  string 2; fret 4
+    , 15 steps; 5 % 4;  string 3; fret 0
+    , 42 steps; 15 % 8; string 3; fret 3
+*** TODO 5\46 x 11\46: Tight! But skew & freaky.
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 27 steps; 3 % 2;  string 1; fret 2
+    , 21 steps; 11 % 8; string 2; fret 1
+    , 32 steps; 13 % 8; string 2; fret 2
+    , 15 steps; 5 % 4;  string 3; fret 0
+    , 37 steps; 7 % 4;  string 3; fret 2
+    , 42 steps; 15 % 8; string 4; fret 2
+    , 8  steps; 9 % 8;  string 6; fret -2
+    , 46 steps; 2 % 1;  string 7; fret 1
+*** I checked through x 14\46; it all felt too crazy.
+** TODO 6\46 between strings
+*** TODO 6\46 x 1\46: tight, skew
+    Make frets horizontal, strings vertical
+    (otherwise it's less skew but very wide).
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 8  steps; 9 % 8;  string 1; fret 2
+    , 15 steps; 5 % 4;  string 2; fret 3
+    , 21 steps; 11 % 8; string 3; fret 3
+    , 27 steps; 3 % 2;  string 4; fret 3
+    , 32 steps; 13 % 8; string 5; fret 2
+    , 37 steps; 7 % 4;  string 6; fret 1
+    , 42 steps; 15 % 8; string 7; fret 0
+    , 46 steps; 2 % 1;  string 7; fret 4
+*** 6\46 x 5\46 : flat, disordered
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 15 steps; 5 % 4;  string 0; fret 3
+    , 21 steps; 11 % 8; string 1; fret 3
+    , 27 steps; 3 % 2;  string 2; fret 3
+    , 8  steps; 9 % 8;  string 3; fret -2
+    , 46 steps; 2 % 1;  string 6; fret 2
+    , 32 steps; 13 % 8; string 7; fret -2
+    , 37 steps; 7 % 4;  string 7; fret -1
+    , 42 steps; 15 % 8; string 7; fret 0
+*** 6\46 x 7\46 : no
+*** 6\46 x 11\46: insane
+    The 3:2 spans a bosanquet 11th.
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 46 steps; 2 % 1;  string 4; fret 2
+    , 8  steps; 9 % 8;  string 5; fret -2
+    , 42 steps; 15 % 8; string 7; fret 0
+    , 15 steps; 5 % 4;  string 8; fret -3
+    , 37 steps; 7 % 4;  string 8; fret -1
+    , 21 steps; 11 % 8; string 9; fret -3
+    , 32 steps; 13 % 8; string 9; fret -2
+    , 27 steps; 3 % 2;  string 10; fret -3
+** 7\46 between strings
+*** 7\46 x 1\46: tight, skew, distant 3:2
+    Make frets horizontal and strings slanted, not vertical.
+    (Otherwise it's too skew.)
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 8  steps; 9 % 8;  string 1; fret 1
+    , 15 steps; 5 % 4;  string 2; fret 1
+    , 21 steps; 11 % 8; string 3; fret 0
+    , 27 steps; 3 % 2;  string 4; fret -1
+    , 32 steps; 13 % 8; string 4; fret 4
+    , 37 steps; 7 % 4;  string 5; fret 2
+    , 42 steps; 15 % 8; string 6; fret 0
+    , 46 steps; 2 % 1;  string 6; fret 4
+*** 7\46 x 2\46: tight but bad 5:4
+   [ 0  steps; 1 % 1;  string 0; fret 0
+   , 8  steps; 9 % 8;  string 0; fret 4
+   , 15 steps; 5 % 4;  string 1; fret 4
+   , 21 steps; 11 % 8; string 3; fret 0
+   , 27 steps; 3 % 2;  string 3; fret 3
+   , 32 steps; 13 % 8; string 4; fret 2
+   , 37 steps; 7 % 4;  string 5; fret 1
+   , 42 steps; 15 % 8; string 6; fret 0
+   , 46 steps; 2 % 1;  string 6; fret 2
+*** 7\46 x 3\46: skew, bad 3:5 split
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 8  steps; 9 % 8;  string 2; fret -2
+    , 15 steps; 5 % 4;  string 3; fret -2
+    , 21 steps; 11 % 8; string 3; fret 0
+    , 27 steps; 3 % 2;  string 3; fret 2
+    , 37 steps; 7 % 4;  string 4; fret 3
+    , 32 steps; 13 % 8; string 5; fret -1
+    , 42 steps; 15 % 8; string 6; fret 0
+    , 46 steps; 2 % 1;  string 7; fret -1
+*** 7\46 x 4\46: bad-ish 3:2, bad-ish split from 3:2 to 5:4
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 8  steps; 9 % 8;  string 0; fret 2
+    , 15 steps; 5 % 4;  string 1; fret 2
+    , 27 steps; 3 % 2;  string 1; fret 5
+    , 21 steps; 11 % 8; string 3; fret 0
+    , 37 steps; 7 % 4;  string 3; fret 4
+    , 32 steps; 13 % 8; string 4; fret 1
+    , 42 steps; 15 % 8; string 6; fret 0
+    , 46 steps; 2 % 1;  string 6; fret 1
+*** 7\46 x 5\46: tight, flat, strange
+    [ 0  steps; 1 % 1;  string 0; fret  0
+    , 21 steps; 11 % 8; string 3; fret  0
+    , 8  steps; 9 % 8;  string 4; fret -4
+    , 15 steps; 5 % 4;  string 5; fret -4
+    , 27 steps; 3 % 2;  string 6; fret -3
+    , 32 steps; 13 % 8; string 6; fret -2
+    , 37 steps; 7 % 4;  string 6; fret -1
+    , 42 steps; 15 % 8; string 6; fret  0
+    , 46 steps; 2 % 1;  string 8; fret -2
+*** 7\46 x 6\46: tight, weird, crazy diagonal
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 8  steps; 9 % 8;  string 2; fret -1
+    , 32 steps; 13 % 8; string 2; fret 3
+    , 15 steps; 5 % 4;  string 3; fret -1
+    , 21 steps; 11 % 8; string 3; fret 0
+    , 27 steps; 3 % 2;  string 3; fret 1
+    , 46 steps; 2 % 1;  string 4; fret 3 -- octave here
+    , 42 steps; 15 % 8; string 6; fret 0
+    , 37 steps; 7 % 4;  string 7; fret -2
+*** 7\46 x 8\46: meh
+*** 7\46 x 9\46: too tall (6) and nuts
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 27 steps; 3 % 2;  string 0; fret 3
+    , 32 steps; 13 % 8; string 2; fret 2
+    , 21 steps; 11 % 8; string 3; fret 0
+    , 37 steps; 7 % 4;  string 4; fret 1
+    , 46 steps; 2 % 1;  string 4; fret 2
+    , 8  steps; 9 % 8;  string 5; fret -3
+    , 15 steps; 5 % 4;  string 6; fret -3
+    , 42 steps; 15 % 8; string 6; fret 0
+*** I looked all the way through x 13\46, was unimpressed
+** TODO 8\46 between strings
+*** 8\46 x 1\46: absurdly skew
+    [ 0 steps; 1 % 1; string 0; fret 0
+    , 8 steps; 9 % 8; string 1; fret 0
+    , 15 steps; 5 % 4; string 1; fret 7
+    , 21 steps; 11 % 8; string 2; fret 5
+    , 27 steps; 3 % 2; string 3; fret 3
+    , 32 steps; 13 % 8; string 4; fret 0
+    , 37 steps; 7 % 4; string 4; fret 5
+    , 42 steps; 15 % 8; string 5; fret 2
+    , 46 steps; 2 % 1; string 5; fret 6
+*** TODO 8\46 x 3\46: Bosanquet. Great except bad 5.
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 8  steps; 9 % 8;  string 1; fret 0
+    , 15 steps; 5 % 4;  string 3; fret -3
+    , 21 steps; 11 % 8; string 3; fret -1
+    , 27 steps; 3 % 2;  string 3; fret 1
+    , 32 steps; 13 % 8; string 4; fret 0
+    , 37 steps; 7 % 4;  string 5; fret -1
+    , 46 steps; 2 % 1;  string 5; fret 2
+    , 42 steps; 15 % 8; string 6; fret -2
+*** 8\46 x 5\46: octave s2 f6
+*** 8\46 x 7\46: flat, tight, but impossible 15
+    [ 27 steps; 3 % 2;  string -1; fret 5
+    , 0  steps; 1 % 1;  string 0; fret 0
+    , 21 steps; 11 % 8; string 0; fret 3
+    , 42 steps; 15 % 8; string 0; fret 6
+    , 8  steps; 9 % 8;  string 1; fret 0
+    , 15 steps; 5 % 4;  string 1; fret 1
+    , 37 steps; 7 % 4;  string 2; fret 3
+    , 32 steps; 13 % 8; string 4; fret 0
+    , 46 steps; 2 % 1;  string 4; fret 2
+*** 8\46 x 9\46: flat, tight, bad 5-lim
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 27 steps; 3 % 2;  string 0; fret 3
+    , 8  steps; 9 % 8;  string 1; fret 0
+    , 15 steps; 5 % 4;  string 3; fret -1
+    , 42 steps; 15 % 8; string 3; fret 2
+    , 32 steps; 13 % 8; string 4; fret 0
+    , 21 steps; 11 % 8; string 6; fret -3
+    , 37 steps; 7 % 4;  string 8; fret -3
+    , 46 steps; 2 % 1;  string 8; fret -2
+*** 8\46 x 11\46: flat; tight; crazy; many off-axis
+    [ 0  steps; 1 % 1;  string 0; fret 0
+    , 8  steps; 9 % 8;  string 1; fret 0
+    , 27 steps; 3 % 2;  string 2; fret 1
+    , 46 steps; 2 % 1;  string 3; fret 2 -- octave
+    , 21 steps; 11 % 8; string 4; fret -1
+    , 32 steps; 13 % 8; string 4; fret 0
+    , 15 steps; 5 % 4;  string 6; fret -3
+    , 37 steps; 7 % 4;  string 6; fret -1
+    , 42 steps; 15 % 8; string 8; fret -2
+*** x 13\46
+    :PROPERTIES:
+    :ID:       1418be91-7f84-47a7-a200-cd519d6d96f7
+    :END:
+    [ 46 steps; 2 % 1;  string -4; fret -6
+                        string  9  fret  2
+    , 15 steps; 5 % 4;  string -3; fret -3
+                        string 10; fret 5  -- yuck
+    , 0  steps; 1 % 1;  string 0;  fret 0
+    , 8  steps; 9 % 8;  string 1;  fret 0
+    , 21 steps; 11 % 8; string 1;  fret -1
+    , 42 steps; 15 % 8; string 2;  fret -2
+    , 37 steps; 7 % 4;  string 3;  fret -1
+    , 32 steps; 13 % 8; string 4;  fret 0
+    , 27 steps; 3 % 2;  string 5;  fret 1
+*** TODO x 15\46: unexplored
+** 9\46 between strings: They all seemed to suck.
+** 10\46 between strings: Too thin and tall.
+*
+* DONE searching for tunings with an octave at s9 f2 (looks bare)
+** solve 9x + 2y = 46
+*** if y is positive
+**** y = 1 => 9x = 44, no
+**** y = 2 => 9x = 42, no
+**** y = 3 => 9x = 40, no
+**** y = 4 => 9x = 38, no
+**** y = 5 => 9x = 36 => x = 4 => [[id:98bbb313-52b5-4353-b56c-a78c6ac131c9][4\46 x 5\46]]
+**** y = 6 => 9x = 34, no
+**** y = 7 => 9x = 32, no
+**** y = 8 => 9x = 30, no
+**** y = 9 => 9x = 28, no
+**** y = 10 => 9x = 26, no
+**** y = 11 => 9x = 24, no
+**** y = 12 => 9x = 22, no
+**** y = 13 => 9x = 20, no
+**** y = 14 => 9x = 18 => x = 2 => 2\46 x 14\46 => no, not relatively prime
+**** y = 23 => hell no
+*** if y is negative
+**** y = - 1 => 9x = 48
+**** y = - 2 => 9x = 50
+**** y = - 3 => 9x = 52
+**** y = - 4 => 9x = 54 => x = 6 => no, not relatively prime
+**** y = - 5 => 9x = 56
+**** y = - 6 => 9x = 58
+**** y = - 7 => 9x = 60
+**** y = - 8 => 9x = 62
+**** y = - 9 => 9x = 64
+**** y = -10 => 9x = 66
+**** y = -11 => 9x = 68
+**** y = -12 => 9x = 70
+**** y = -13 => 9x = 72 => x = 8 => [[id:1418be91-7f84-47a7-a200-cd519d6d96f7][8\46 x 13\46]]
+**** y = -14 => 9x = 7
+**** y = -15 => 9x = 7
+**** y = -16 => 9x = 7
+**** y = -17 => 9x = 7
+* searching through backward tunings (bass on the right)

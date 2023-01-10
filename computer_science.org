@@ -4,6 +4,7 @@
 :END:
 #+title: computer science
 * TODO [[id:4bd7f12e-2061-40e9-9e98-683552f40918][contribute to open source projects]]
+* TODO [[id:90b6eed6-9e66-44de-bbfd-dfc0385bfa35][software development advice, excellent]]
 * [[id:bd48b7ca-4620-49a0-b5a5-915205f7e78e][good coding habits]]
 * [[id:599c31f4-ebc6-4f17-bf83-bb7f604feb1b][how to do coding problems fast]]
 * subfields
@@ -16,3 +17,5 @@
 * data structures
 ** [[id:805ec609-79fb-484a-9272-c42de037d1f5][list comprehension]]
 * [[id:4f939263-8a43-42be-98af-5aa3d8854d13][dynamic typing]]
+* surprisingly possible
+** [[id:62247288-ab76-4425-8421-64bee5b5fb05][automatic documentation via constraints]]

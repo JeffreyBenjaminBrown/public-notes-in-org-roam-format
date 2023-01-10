@@ -3,6 +3,7 @@
 :ROAM_ALIASES: Lumatone
 :END:
 #+title: Lumatone (microtonal keyboard)
+* how to [[id:68b3f341-f369-4b6f-841a-b77c37715a86][shear a rectangular grid image to fit the Lumatone hex layout]]
 * [[id:72d5a73b-691f-4034-9552-6f657f549f21][how to pack the Lumatone]]
 * how to [[id:931a102f-b9f3-4628-b239-84ee9a2f217e][Use a USB MIDI keyboard in Linux]].
 * [[id:c22d36ca-944d-431c-bdd3-8b49e1b3ac52][setting up Pianoteq for the Lumatone]]

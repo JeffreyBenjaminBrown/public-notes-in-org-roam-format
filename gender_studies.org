@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       a503a447-3103-42aa-881e-a88382bad92e
+:END:
+#+title: gender studies
+* [[id:111d899b-2204-4fbd-a48c-c2e8ecfa6a24][The correlation between weight and income in rich countries is driven almost entirely by women.]]

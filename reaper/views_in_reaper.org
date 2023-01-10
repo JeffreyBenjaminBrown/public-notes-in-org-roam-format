@@ -1,9 +1,14 @@
 :PROPERTIES:
 :ID:       d2b9b956-5c1b-418a-a447-62811c956654
+:ROAM_ALIASES: "navigation and views in Reaper"
 :END:
 #+title: views and navigation in Reaper
 * PITFALL: [[id:f9078ad5-9518-4672-b11a-4aabaa905e32][Two views of the track controls might be visible at once.]]
 * [[id:6cfece12-9d16-4d5a-a252-862b1457baf9][PITFALL: Themes and Layouts controls *what* is shown, not just how.]]
+* scrubbing
+** Put mouse over playhead triangle.
+** Mouse turns into a white hand.
+** Drag it.
 * improving visibility
 ** disable "show dotted grid lines"
    :PROPERTIES:

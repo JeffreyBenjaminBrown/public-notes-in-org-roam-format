@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       911bfaf0-5d29-40ab-8855-02b1c8f5f4f6
+:END:
+#+title: Pyright
+* https://github.com/microsoft/pyright
+* Appears to beat mypy.
+* Is on HN

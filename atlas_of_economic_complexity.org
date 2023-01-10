@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       639761c7-038b-477d-9f6d-18fc2c054a8e
+:END:
+#+title: Atlas of Economic Complexity
+* Useful for determining what else a country might export profitably, given what it already exports.
+* an MIT-Harvard collaboration

@@ -2,7 +2,11 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
+* see also
+** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 * u
+** TODO [[id:bd98bf35-4b42-4e5c-bf04-21e8f06dfdc8][set Reaper up to use a tablet]]
+** Quiz numbers mod 46 on octaves -1 and 1
 ** TODO Tidal: [[id:f43e3514-fe0a-4218-825b-fc26b5108e32][make bass-drum-key rhythms]]
 ** Finding edo layouts
 *** In both coordinate systems, compute the sum of squared errors.

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       90b6eed6-9e66-44de-bbfd-dfc0385bfa35
+:END:
+#+title: software development advice, excellent
+http://misko.hevery.com/code-reviewers-guide/

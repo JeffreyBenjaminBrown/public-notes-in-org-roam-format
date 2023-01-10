@@ -3,6 +3,11 @@
 :ROAM_ALIASES: "MIDI in Reaper"
 :END:
 #+title: editing MIDI in Reaper
+* u
+** how colors represent channels in the MIDI editor
+   They seem to go R, G, B, repeat.
+** set note lengths to grid size
+** Options / "drawing or selecting a note sets the new note length"
 * skipped
 ** most of the CC stuff
    including but not limited to
@@ -183,7 +188,7 @@
   :PROPERTIES:
   :ID:       4f7ff877-344d-4e3a-b0db-ae401efe66b5
   :END:
-** open filter window : S-f
+** open filter window : 'f'
 ** can filter to selected channels
 *** to change channel(s) shown more quickly
     sometimes the Transport Bar "channels" menu is sufficient.

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       725a8159-a376-4ce1-afbc-a59f7d714716
+:END:
+#+title: legal \ jbb
+* TODO renew passport
+  :PROPERTIES:
+  :ID:       29a9ee3a-7ce8-4c97-8dea-12ea98c1a695
+  :END:
+** Can now renew a US passport online.
+* apply for residency

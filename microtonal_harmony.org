@@ -115,20 +115,21 @@
      a septimal min 7 from the 13th harmonic
    It has way more chords with a P5 than one might expect,
    and a 5-limit maj7 from 27.
-** too many: 0 2 6 10 14 18 20 24 27
-How to remember: it includes two stacks of four,
-  one starting at 2, the other at 20.
-It's weird because it sounds like a familiar scale with an extra note
-  between the root and fifth, and another between the fifth and the octave,
-  but it's not clear which one is extra,
-  because they're all pretty evenly spaced.
-  (The intervals that aren't evenly spaced are from 0-2 and from 18-20,
-  but for both pairs, the second clearly represents a distinct degree
-  from the first, because 0 and 18 are such salient notes.)
-** 9 notes, evenly spaced and harmonic: 0 4 7 11 14 18 21 25 28
+** in 31-edo
+*** too many notes: 0 2 6 10 14 18 20 24 27
+ How to remember: it includes two stacks of four,
+   one starting at 2, the other at 20.
+ It's weird because it sounds like a familiar scale with an extra note
+   between the root and fifth, and another between the fifth and the octave,
+   but it's not clear which one is extra,
+   because they're all pretty evenly spaced.
+   (The intervals that aren't evenly spaced are from 0-2 and from 18-20,
+   but for both pairs, the second clearly represents a distinct degree
+   from the first, because 0 and 18 are such salient notes.)
+*** 9 notes, evenly spaced and harmonic: 0 4 7 11 14 18 21 25 28
 * changes
-** two minor chords, descending 4/31 from one to the other
+** 31-edo: two minor chords, descending 4/31 from one to the other
 but holding the fifth degree (18/31) from the first,
 and between them play the dominant (major starting at 18) chord of the first.
-** in 22-edo, start from septimal min maj 7, then raise 3rd and lower 7th by a microtone many times
+** 22-edo: start from septimal min maj 7, then raise 3rd and lower 7th by a microtone many times
    That is, start with 0 5 13 20

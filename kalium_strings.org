@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       0de5fa0c-4909-4097-8334-d3e7de37bd2f
+:ROAM_ALIASES: "strings for the Stick"
 :END:
 #+title: Kalium strings
   +1 (206) 784-5104

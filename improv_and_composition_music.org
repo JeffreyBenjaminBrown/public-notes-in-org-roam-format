@@ -2,6 +2,7 @@
 :ID:       a2c9fc96-2d00-47bf-88ee-98cc94a3bb58
 :END:
 #+title: improvised multitrack recording (music)
+* TODO try simplifying something to make room for each addition
 * TODO mystery: How to jam to Tidal?
   It's so precise, so full-spectrum,
   and the rhythms I like in it are so hard.

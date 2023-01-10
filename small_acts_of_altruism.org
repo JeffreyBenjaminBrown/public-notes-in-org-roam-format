@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8c536cba-421f-41c9-b40b-6b6f1e15c1d2
+:END:
+#+title: small acts of altruism
+* [[id:d66abbb6-8b73-4cf0-8e22-cb022c906a14][report that horrible driver in Huila]]
+* [[id:ebd2e898-414a-415c-9f60-682fc59e93eb][write about microtonal Reaper on xen wiki]]

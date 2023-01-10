@@ -12,16 +12,4 @@
 * [[id:0ce8bf41-83b4-4cac-b523-96e548ca20fa][URLs]]
 * [[id:cea5135e-4714-4feb-b2fb-2a889b811825][IP address]]
 * [[id:02471ebc-e95c-46b4-b442-7a8fab664576][MAC address]]
-* [[id:c81ed244-5cab-4ef7-86bf-11c351488d78][to delete a network connection from KDE's Network Manager]]
-* to find a machine's IP address
-** Get public ip of this machine
-   curl ifconfig.me
-** Get private ip of this machine
-   ip route get 1.2.3.4 | awk '{print $7}'
-* to check the DNS status of a domain
-  i.e. when its name fails to resolve
-  https://discourse.nixos.org/t/cache-nixos-org-couldnt-connect-to-server-7-because-of-ipv6-from-dns/9921/4
-** cache.nixos.org | DNSViz 1 (though you need quite some DNS understanding to really read that tool)
-** https://status.fastly.com
-** https://health.aws.amazon.com/health/status
-* [[id:1df732d1-184e-45b1-95e5-3680e5f60b8c][how to get IP and MAC addresses in Linux]]
+* [[id:30f6e796-c770-4c6f-9e13-30e893f20be2][internet & Linux]]

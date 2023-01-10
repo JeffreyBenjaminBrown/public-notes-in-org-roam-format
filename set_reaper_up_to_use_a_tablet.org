@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       bd98bf35-4b42-4e5c-bf04-21e8f06dfdc8
+:END:
+#+title: set Reaper up to use a tablet
+* https://biptunia.com/?p=5385
+* You can even set it up to control it remotely from a tablet or phone, so you don’t have to run back and forth from the vocal booth when recording. I use a tablet, has more room to scroll around:

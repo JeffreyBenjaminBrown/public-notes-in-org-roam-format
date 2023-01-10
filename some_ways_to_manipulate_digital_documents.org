@@ -14,6 +14,11 @@ Converting afterward works much worse.
 Convert with `convert` (imagemagick), but concat with `pdftk`.
   Concatenating pdfs with `convert` seems to waste space.
   (Using the same to concatenate non-pdfs into one pdf might be okay.)
+* shear a rectangular grid to fit the Lumatone hex layout
+  :PROPERTIES:
+  :ID:       68b3f341-f369-4b6f-841a-b77c37715a86
+  :END:
+  convert affine.png -affine 1.5,-0.38,-0.3,1,0,0 -transform out.png
 * [[id:514ef602-a034-4bfb-b9dc-f09de9adb639][crop an image in ImageMagick]]
 * how to draw sloppy lines on an image
 ** use GIMP
