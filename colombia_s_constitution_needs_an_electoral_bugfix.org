@@ -2,5 +2,14 @@
 :ID:       9a5bd227-9e5b-4464-ba45-52eea7b510f7
 :END:
 #+title: Colombia's constitution needs an electoral bugfix
-* If anybody can vote for anybody, all it takes is a small clique of people to elect a senator, because most votes go towards the most popular.
-* Instead, each region should have to choose between a small number of candidates, thereby giving the chance to throw out someone corrupt.
+* the problem
+  In Colombia anybody can vote for any candidate in their region for Congress. In regions with more than one representative, this causes a winner-takes-most dynamic for public attention. Most people elected don't have the base of support that they ought to, because they can be elected even with only a tiny fraction of the vote. This is why buying food for a neighborhood on the coast can get you a seat in Congress.
+* the solution
+  Each region should be divided into Congressional districts, such that each voter votes only in their district, and each district sends only one representative to Congress. This would dramatically increase accountability in Congress, because nobody could win while escaping public scrutiny.
+* laws that would have to change
+** source
+   Mariana Matamoros, Whatsapp, <2023-01-10 Tue>
+** it
+   Si tendría que cambiar la constitución
+   y se debería modificar la Ley 5 de 1992
+   esta es la Ley que rige todooo lo que se hace en el congreso
