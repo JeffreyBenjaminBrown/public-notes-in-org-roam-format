@@ -3,6 +3,10 @@
 :ROAM_ALIASES: information epistemology ontology "organizing knowledge"
 :END:
 #+title: knowledge graphs
+* [[id:f9ee18e9-68f2-4f10-b10d-c91186b797e3][Agora (shared knowledge base (protocol))]]
+* WebMention: notify web authors when linking to their work
+  https://www.w3.org/TR/webmention/
+* [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
 * TODO ask for ideas for a [[id:c48cbb26-cdf3-4109-b729-3abd58c2d4bc][social knowledge base app for epistemology]]
 * [[id:25e13f6c-b134-4305-a4d5-327739dd7b8f][some graph databases with Datalog engines]]
 * A thread on resources for learning about how to create an ontology
