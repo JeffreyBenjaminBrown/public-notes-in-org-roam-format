@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       7c28ad7b-347f-49d9-b999-764bf1b9ec73
+:ROAM_ALIASES: "Bogotá restaurants"
+:END:
+#+title: restaurants in Bogotá
+* [[id:cff8a594-c16a-4d23-a17a-f882c220a083][Crepes & Waffles]]
+* [[id:6c80a13f-b198-4827-b613-622a8cc689a3][Curry Masala]]
+* [[id:e75df69c-1c79-4e74-9cf8-23ef3eab95c1][El Corral]]
+* [[id:f1f88342-7fbd-42e5-a81c-1284474e39e3][La Fonda Mexicana]]
+* [[id:5be8705b-653c-4053-8765-c7776569c053][Veggie Beans and Shakes]]
+* DONE and why
+** bad : [[id:bfd0e1a8-c16b-4178-b148-c81387e4c36d][Soy Sushi]]
+** bad : [[id:e1d277a0-0917-4794-855d-126e68c61e95][Ago Sushi]]
+** gone : [[id:9617bd25-c221-4fa7-87fe-3f85e6d72c58][Burgett]]
