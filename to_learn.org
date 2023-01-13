@@ -10,3 +10,4 @@
 * history
 * tech, making stuff
 * current events
+* [[id:f0689a2d-925c-4360-a428-d4f0857b9680][to learn & computer science]]

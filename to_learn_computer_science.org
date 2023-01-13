@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f0689a2d-925c-4360-a428-d4f0857b9680
+:ROAM_ALIASES: "computer science & to learn"
+:END:
+#+title: to learn & computer science
+* [[id:0cbd3c1b-d692-47c7-a209-97287840c296][tests and IO (computer programming)]]
+* [[id:911bfaf0-5d29-40ab-8855-02b1c8f5f4f6][Pyright]] > mypy
+* make.py or shake

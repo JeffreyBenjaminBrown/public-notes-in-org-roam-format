@@ -40,6 +40,7 @@ make changes to a dependent component then quit and reload.
 * testing in Haskell
 ** [[id:2cef696d-5d06-4b95-b22f-94bf819e4f68][QuickCheck and Microspec]]
 ** [[id:f9f18c7f-b96a-4986-b772-23efbcac60cf][HUnit (Haskell testing library)]]
+** [[id:162e24c7-0a09-439f-b3e7-de38af6a9f9e][property-based testing of stateful systems in Haskell]]
 * lenses in Haskell
 ** Generate lenses for third-party libraries in Haskell
    https://ai-jobs.net/?rdt_cid=3040091042633392170

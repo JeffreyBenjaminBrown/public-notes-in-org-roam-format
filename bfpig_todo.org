@@ -2,7 +2,11 @@
 :ID:       efb16b7e-5be1-4990-8f2e-08d17eee3ccd
 :END:
 #+title: BFPIG, TODO
-* secure a space, time
+* TODO secure a space, time
+** TODO leads Sandy got from Facebook
+   https://www.cicce.edu.co/alquiler-de-aulas/
+   https://ins.edu.co/alquiler-de-salones/
+   https://co.linkedin.com/in/alquiler-salones-clases-bogota-283537a0
 ** tentative: last Thursday of the month
 ** DONE cbustaca@javeriana.edu.co
    director of comp sci at PUJ, according to

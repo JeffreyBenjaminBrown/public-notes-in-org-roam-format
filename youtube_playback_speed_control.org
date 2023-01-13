@@ -2,4 +2,5 @@
 :ID:       a2fe56aa-5595-4ef2-8462-7cd7e5cc238d
 :END:
 #+title: Youtube Playback Speed Control (plugin for Chrome)
-https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik
+* DON'T DO IT. Now they want total access to all data.
+  https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik

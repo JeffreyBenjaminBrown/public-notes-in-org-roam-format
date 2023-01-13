@@ -5,6 +5,7 @@
 #+title: computer science
 * TODO [[id:4bd7f12e-2061-40e9-9e98-683552f40918][contribute to open source projects]]
 * TODO [[id:90b6eed6-9e66-44de-bbfd-dfc0385bfa35][software development advice, excellent]]
+* TODO [[id:f0689a2d-925c-4360-a428-d4f0857b9680][to learn & computer science]]
 * [[id:bd48b7ca-4620-49a0-b5a5-915205f7e78e][good coding habits]]
 * [[id:599c31f4-ebc6-4f17-bf83-bb7f604feb1b][how to do coding problems fast]]
 * subfields
