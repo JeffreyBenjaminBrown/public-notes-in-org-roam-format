@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       8a0fbcd5-247f-4619-8b5f-1e6b30de5e1b
+:END:
+#+title: get org-roam on phone
+* installing Linux on Android seems easy
+  and might work better than Termux --
+  e.g. letting me use encfs.
+  https://www.makeuseof.com/tag/how-to-linux-on-android/
+* via Termux
+** PITFALL: Termux must be installed outside of the Play Store.
+   The Play Store version sucks.
+
+   It looks like the Termux Wiki recommends installing it from F-Droid,
+   but when I followed their suggestions,
+   I never seemed to end up using that app.
+   I just downloaded an APK file for Termux and installed it,
+   by clicking on it in Google Files.
+** might need this hack
+   https://github.com/org-roam/org-roam/issues/1605#issuecomment-885997237
+** install org-roam from within Emacs
+** make a .emacs file
+** encrypt the db
+   gpg, encfs not available in Termux
+** clone my git repo
+* PITFALL: Git clone works for http, not weird git@ links.
+  at least in Termux.
+* 8" 2GHz 16GB tablet, $100
+  https://www.amazon.com/Lenovo-Android-Quad-Core-Processor-ZA5G0102US/dp/B08D21Y94K

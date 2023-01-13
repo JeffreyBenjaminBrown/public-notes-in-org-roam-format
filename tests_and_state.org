@@ -3,6 +3,7 @@
 :END:
 #+title: tests and state
 * refs
+** [[id:162e24c7-0a09-439f-b3e7-de38af6a9f9e][property-based testing of stateful systems in Haskell]]
 ** Tweag on testing stateful systems. Hard reading.
 *** part 1
     https://www.tweag.io/blog/2022-01-26-property-based-testing-of-monadic-code/
