@@ -2,11 +2,13 @@
 :ID:       8a0fbcd5-247f-4619-8b5f-1e6b30de5e1b
 :END:
 #+title: get org-roam on phone
+* TODO if Debian Noroot works, delete Termux
+* BLOCKED installing Debian Noroot
 * installing Linux on Android seems easy
   and might work better than Termux --
   e.g. letting me use encfs.
   https://www.makeuseof.com/tag/how-to-linux-on-android/
-* via Termux
+* BLOCKED using Termux
 ** PITFALL: Termux must be installed outside of the Play Store.
    The Play Store version sucks.
 
