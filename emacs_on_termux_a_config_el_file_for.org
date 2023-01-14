@@ -2,12 +2,25 @@
 :ID:       ef70d582-7780-40fc-b205-8df6d11193e7
 :END:
 #+title: emacs on Termux, a config (.el) file for
+
+
+;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;;
+;; ;; ;; ;; ;; TODO  ;; ;; ;; ;; ;; ;; ;; ;;
+;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;;
+
+;; So that copy and paste works from Emacs-in-Bash to other apps.
+;; Requires installing xclip-mode.
+;; (xclip-mode 1)
+
+
+;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;;
+;; ;; ;; ;; ;; primordial  ;; ;; ;; ;; ;; ;;
+;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;;
+
 (require 'use-package)
 (package-initialize)
-(menu-bar-mode -1) ;; Whether to show it. (t for true, -1 for nil.)
 
 (setq package-archives
-      ;; copied from https://babbagefiles.xyz/org-roam-on-android/
       '(("Org"          . "https://orgmode.org/elpa/")
 	("Elpa"         . "https://elpa.gnu.org/packages/")
         ("Melpa Stable" . "https://stable.melpa.org/packages/")
@@ -17,6 +30,20 @@
         ("Melpa"        . 15)
         ("Melpa Stable" . 10)
         ("Elpa"         . 5)))
+
+(menu-bar-mode -1) ;; Whether to show it. (t for true, -1 for nil.)
+(column-number-mode 1)
+(setq kill-whole-line t) ;; cursor at start => C-k kills the newline too
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+(add-hook 'org-mode-hook 'toggle-truncate-lines)
+(put 'narrow-to-region 'disabled nil)
+(put 'downcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
+(put 'scroll-left 'disabled nil)
+(show-paren-mode 1)
+(tool-bar-mode -1) ;; hide some icons I never use
+(load-theme 'manoj-dark)
+(global-auto-revert-mode t) ;; reload files when changed
 
 
 ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;;
