@@ -3,6 +3,7 @@
 :END:
 #+title: health hacks I like
 * TODO [[id:506d431f-c5ac-486a-a7e6-6dfa6c09d69b][? After exercise I want to meditate]]
+* [[id:cf824221-f6b8-4e26-9a76-e382db27ff2c][Delay caffein ingestion in the morning.]]
 * sleep early
   so that I can wake up shortly after the sun rises,
   because I sleep badly when the sun is well up.
