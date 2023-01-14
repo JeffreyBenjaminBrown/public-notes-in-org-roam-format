@@ -2,12 +2,17 @@
 (package-initialize)
 (menu-bar-mode -1) ;; Whether to show it. (t for true, -1 for nil.)
 
-(add-to-list 'package-archives
-    '("gnu" . "http://elpa.gnu.org/packages/") t)
-(add-to-list 'package-archives
-    '("melpa" . "http://melpa.org/packages/") t)
-(add-to-list 'package-archives
-	     '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+(setq package-archives
+      ;; copied from https://babbagefiles.xyz/org-roam-on-android/
+      '(("Org" . "https://orgmode.org/elpa/")
+	("Elpa"         . "https://elpa.gnu.org/packages/")
+        ("Melpa Stable" . "https://stable.melpa.org/packages/")
+        ("Melpa"        . "https://melpa.org/packages/")))
+(setq package-archive-priorities
+      '(("Org" . 20)
+        ("Melpa"        . 15)
+        ("Melpa Stable" . 10)
+        ("Elpa"         . 5)))
 
 (use-package emacsql-sqlite3 :ensure t)
 
@@ -21,7 +26,7 @@
   (after-init . org-roam-mode)
   :custom
   (setq org-roam-db-location (file-truename "~"))
-  (org-roam-directory (file-truename "~//org-roam/")))
+  (org-roam-directory (file-truename "~/org-roam/")))
 
 (setq org-roam-v2-ack t) ;; indicates I migrated
 
