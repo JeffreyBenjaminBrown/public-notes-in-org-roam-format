@@ -32,7 +32,6 @@
 
 
 (org-roam-db-autosync-mode)
-(org-roam-directory "/home/jeff/org-roam")
 
 ;; TODO: A lot of global-set-key commands in this file use the wrong syntax,
 ;; omitting the # symbol. This way works.
