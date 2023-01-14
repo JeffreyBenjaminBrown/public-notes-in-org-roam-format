@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       32e5ffe8-dbc7-4a54-8c0d-e4ad3ddf4722
+:END:
+#+title: How I installed Termux on my phone.
+Use F-Droid, not the Play Store -- the PS version is bad.
+But confusingly, this means just downloading a file from the web
+(maybe from an F-Droid site?)
+and opening it from Google Files on my phone.
+I never had to open (explicitly?) the F-Droid app.

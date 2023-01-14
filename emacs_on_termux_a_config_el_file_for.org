@@ -1,22 +1,29 @@
+:PROPERTIES:
+:ID:       ef70d582-7780-40fc-b205-8df6d11193e7
+:END:
+#+title: emacs on Termux, a config (.el) file for
 (require 'use-package)
 (package-initialize)
 (menu-bar-mode -1) ;; Whether to show it. (t for true, -1 for nil.)
 
 (setq package-archives
       ;; copied from https://babbagefiles.xyz/org-roam-on-android/
-      '(("Org" . "https://orgmode.org/elpa/")
+      '(("Org"          . "https://orgmode.org/elpa/")
 	("Elpa"         . "https://elpa.gnu.org/packages/")
         ("Melpa Stable" . "https://stable.melpa.org/packages/")
         ("Melpa"        . "https://melpa.org/packages/")))
 (setq package-archive-priorities
-      '(("Org" . 20)
+      '(("Org"          . 20)
         ("Melpa"        . 15)
         ("Melpa Stable" . 10)
         ("Elpa"         . 5)))
 
-(use-package emacsql-sqlite3 :ensure t)
 
-;; org-roam
+;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;;
+;; ;; ;; ;; ;; org-roam ;; ;; ;; ;; ;; ;; ;;
+;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;;
+
+(use-package emacsql-sqlite3 :ensure t)
 
 (require 'org-roam)
 (setq org-roam-database-connector 'sqlite3)
@@ -27,10 +34,7 @@
   :custom
   (setq org-roam-db-location (file-truename "~"))
   (org-roam-directory (file-truename "~/org-roam/")))
-
 (setq org-roam-v2-ack t) ;; indicates I migrated
-
-
 (org-roam-db-autosync-mode)
 
 ;; TODO: A lot of global-set-key commands in this file use the wrong syntax,
@@ -61,6 +65,11 @@
           :unnarrowed t)
 ))
 
+
+;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;;
+;; ;; ;; ;; ;; auto-generated ;; ;; ;; ;; ;;
+;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;;
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -73,4 +82,3 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-

@@ -1,30 +1,46 @@
 :PROPERTIES:
 :ID:       8a0fbcd5-247f-4619-8b5f-1e6b30de5e1b
+:ROAM_ALIASES: "Termux and (in it) org-roam on phone"
 :END:
-#+title: get org-roam on phone
-* TODO if Debian Noroot works, delete Termux
-* BLOCKED installing Debian Noroot
-* installing Linux on Android seems easy
-  and might work better than Termux --
-  e.g. letting me use encfs.
-  https://www.makeuseof.com/tag/how-to-linux-on-android/
-* BLOCKED using Termux
-** PITFALL: Termux must be installed outside of the Play Store.
-   The Play Store version sucks.
-
-   It looks like the Termux Wiki recommends installing it from F-Droid,
-   but when I followed their suggestions,
-   I never seemed to end up using that app.
-   I just downloaded an APK file for Termux and installed it,
-   by clicking on it in Google Files.
-** might need this hack
-   https://github.com/org-roam/org-roam/issues/1605#issuecomment-885997237
-** install org-roam from within Emacs
-** make a .emacs file
-** encrypt the db
-   gpg, encfs not available in Termux
-** clone my git repo
-* PITFALL: Git clone works for http, not weird git@ links.
-  at least in Termux.
-* 8" 2GHz 16GB tablet, $100
-  https://www.amazon.com/Lenovo-Android-Quad-Core-Processor-ZA5G0102US/dp/B08D21Y94K
+#+title: org-roam on phone via Termux
+* how I installed it
+** [[id:32e5ffe8-dbc7-4a54-8c0d-e4ad3ddf4722][How I installed Termux on my phone.]]
+** Install some things in top-level Termux.
+   I think running this gets them all.
+   pkg install emacs sqlite curl ripgrep git
+** From Emacs, install use-package.
+   M-x package-install RET use-package RET
+** Restart Emacs with the following minimal config.
+   (require 'use-package)
+   (package-initialize)
+   (setq package-archives
+         ;; copied from https://babbagefiles.xyz/org-roam-on-android/
+         '(("Org"          . "https://orgmode.org/elpa/")
+           ("Elpa"         . "https://elpa.gnu.org/packages/")
+           ("Melpa Stable" . "https://stable.melpa.org/packages/")
+           ("Melpa"        . "https://melpa.org/packages/")))
+   (setq package-archive-priorities
+         '(("Org"          . 20)
+           ("Melpa"        . 15)
+           ("Melpa Stable" . 10)
+           ("Elpa"         . 5)))
+** Install org-roam, maybe other things
+   emacsql
+   emacsql-sqlite3
+** Configure git.
+   git config --global core.editor "emacs -nw --no-init-file"
+   git config --global status.showUntrackedFiles all
+   git config --global init.defaultBranch main
+** Secure a connection to Github.
+   for this I had to generate an ssh token
+   (called ~/.ssh/id_x for some value of x)
+   on the command line,
+   and upload the public side of that to my Github account.
+** Download my repos.
+   Cloning from http or https works,
+   but for pushing and pulling I'll need the ssh addresses instead,
+   which look like
+   git@github.com:JeffreyBenjaminBrown/notes-in-org-format-on-tech
+** Restart Emacs with [[id:ef70d582-7780-40fc-b205-8df6d11193e7][a real config]].
+* The no-root Linux options I tried for Android sucked.
+  Debian noroot is free, mouse doesn't work.

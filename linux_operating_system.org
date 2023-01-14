@@ -9,7 +9,7 @@
 ** [[id:87cf0fc9-fa98-422a-80bf-32f578913a0d][bug: can't type the letter `x` in shell]]
 ** [[id:71f22807-10f3-4d8c-8d6e-3cfdb81b2984][Sign-in / MIT-MAGIC-COOKIE / chpasswd problem]]
 ** [[id:65fa661f-8304-4a1b-b11c-0b927fca356f][how to change the Bash prompt]]
-* [[id:8a0fbcd5-247f-4619-8b5f-1e6b30de5e1b][get Linux (for org-roam) on phone]]
+* [[id:8a0fbcd5-247f-4619-8b5f-1e6b30de5e1b][Termux and (in it) org-roam on phone]]
 * [[id:30f6e796-c770-4c6f-9e13-30e893f20be2][internet & Linux]]
 * [[id:db3603a7-e194-42fe-9b10-4eb915eb0e19][AutoHotKey for Linux]]
 * [[id:529b4f3b-b23d-4780-8d8f-b52c5712adc4][Linux: distributions, desktop environments, window managers]]

@@ -4,6 +4,14 @@
 #+title: org-roam
 * refs
 ** for help : the Discourse group
+* TODO [[id:8a0fbcd5-247f-4619-8b5f-1e6b30de5e1b][get org-roam on phone]]
+* TODO Why this substitution in the org roam elisp config?
+** where I found it
+   https://babbagefiles.xyz/org-roam-on-android/
+** it : (-) is what I had, (+) is what they had
+  - (org-roam-directory "~/org-roam") )
+  + (setq org-roam-db-location (file-truename "~"))
+  + (org-roam-directory (file-truename "~//org-roam/")))
 * TODO [[id:cf6b00e9-ff5c-4cd6-a60f-633b07b340b4][implement graph-aware search for org-roam]]
 * TODO use org-attach (for non-org assets)
 ** how it works
