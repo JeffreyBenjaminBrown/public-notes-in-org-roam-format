@@ -3,8 +3,8 @@
 :ROAM_ALIASES: "Termux and (in it) org-roam on phone"
 :END:
 #+title: org-roam on phone via Termux
-* [[id:ef70d582-7780-40fc-b205-8df6d11193e7][my emacs config]] for it
-* how I installed it
+* [[id:ef70d582-7780-40fc-b205-8df6d11193e7][my emacs config]] for Termux
+* how I installed Termux and things in it
 ** [[id:32e5ffe8-dbc7-4a54-8c0d-e4ad3ddf4722][How I installed Termux on my phone.]]
 ** Install some things in top-level Termux.
    I think running this gets them all.

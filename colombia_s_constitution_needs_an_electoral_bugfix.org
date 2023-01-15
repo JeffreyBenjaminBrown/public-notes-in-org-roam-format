@@ -3,7 +3,11 @@
 :END:
 #+title: Colombia's constitution needs an electoral bugfix
 * the problem
-  In Colombia anybody can vote for any candidate in their region for Congress. In regions with more than one representative, this causes a winner-takes-most dynamic for public attention. Most people elected don't have the base of support that they ought to, because they can be elected even with only a tiny fraction of the vote. This is why buying food for a neighborhood on the coast can get you a seat in Congress.
+  In Colombia anybody can vote for any candidate in their region for Congress.
+  In regions with more than one representative, all the top vote-getters win.
+  Public attention, and hence the majority of votes, focus on the top two or three candidates, even if many more than that will win.
+  Therefore the *majority* of the representatives elected for a region can win with a *very small minority* of voter support.
+  As a result, buying food for a neighborhood can get you a seat in Congress.
 * the solution
   Each region should be divided into Congressional districts, such that each voter votes only in their district, and each district sends only one representative to Congress. This would dramatically increase accountability in Congress, because nobody could win while escaping public scrutiny.
 * laws that would have to change
