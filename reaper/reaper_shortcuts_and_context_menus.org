@@ -54,4 +54,10 @@
    :PROPERTIES:
    :ID:       2a53ddf3-0adb-415a-8f73-121fc5ee8c68
    :END:
+** delete time : C-M-d
+   :PROPERTIES:
+   :ID:       1284643e-cb1a-4a92-bc9d-8280587914ad
+   :END:
+   That's "Time selection: delete contents of time selection (moving later items)"
+*** see also [[id:1128527e-1e74-4fdb-9c27-5f38e4107719][Ripple Editing]]
 ** [[id:731b6763-14ed-4509-92ae-364996408225][color notes/CC by channel : C-S-M-c]]

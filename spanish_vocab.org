@@ -6,33 +6,25 @@
 * TODO read Muy Interesante
   https://www.muyinteresante.es/
 * outer loop
-** last time I reviewed
-   4
-** inner loops
+** BLOCKED last time I reviewed: 5
+* inner loops
 *** odd times: Spanish questions, English answers
-**** last time I reviewed
-     2
+**** last time I reviewed: 3
 **** 1 mod 2
-***** sesudo
-      brainy
 ***** depurar
       alternatives
 ****** to clean
-****** to reinstate someone who's duty was suspended for political reasons
+****** to reinstate someone whose duty was suspended for political reasons
 ****** scrutinize someone for political malfeasance
 ****** purge of dissidents
 ***** quisquillosa
       finnicky
-***** marranada
-      (disrespectfully) a very stupid thing
 ***** menso
       idiot
 ***** rumbo
       course, e.g. "cual es el rumbo de la economía"
 ***** partícipe
       (noun) sharer, enjoyer|user of (e.g. government resources)
-***** doliente
-      responsable (noun)
 ***** casilla
       box
 ***** tufillo
@@ -51,6 +43,12 @@
       orientation, criteria
       ("guideline"?)
 **** 2 mod 4
+***** sesudo
+      brainy
+***** marranada
+      (disrespectfully) a very stupid thing
+***** doliente
+      responsable (noun)
 ***** rendimientos financieros
       financial returns of any kind -- capital gains + dividends
 ***** cafre

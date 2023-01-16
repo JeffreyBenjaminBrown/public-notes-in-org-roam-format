@@ -91,25 +91,9 @@
     Apply snapping (only if snapping is enabled),
     or don't (even if it's enabled).
     Pool MIDI source data, or don't.
-** Ripple Editing
-*** M-p cycles through the three ripple edit modes
-    :PROPERTIES:
-    :ID:       f77581c4-8b47-44ed-a085-68dd4eee56c2
-    :END:
-*** what it is
-    Moves material over to eliminate gaps when regions are deleted.
-*** two alternative varieties
-**** Seal gaps only in the edited track(s?).
-**** Seal gaps in all tracks
-     even when created by only one track, I guess
-*** PITFALLs
-    :PROPERTIES:
-    :ID:       198e7eea-412b-4c3f-80d3-e3dfa1793d27
-    :END:
-**** Ripple editing moves automation and markers too.
-**** If tempo changes at some point in the piece
-     enable "Ripple edit all affects tempo map"
-**** "Locked items" can create weirdness.
+** deleting time
+*** [[id:1128527e-1e74-4fdb-9c27-5f38e4107719][Ripple Editing in Reaper]]
+*** [[id:1284643e-cb1a-4a92-bc9d-8280587914ad][delete time : C-M-d]] (jbb-specific)
 ** trimming
 *** TODO How is Trimming different from Slip Editing?
     :PROPERTIES:
