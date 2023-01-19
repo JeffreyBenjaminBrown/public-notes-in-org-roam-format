@@ -6,11 +6,13 @@
 * TODO read Muy Interesante
   https://www.muyinteresante.es/
 * outer loop
-** BLOCKED last time I reviewed: 5
+** last time I reviewed: 5
 * inner loops
 *** odd times: Spanish questions, English answers
 **** last time I reviewed: 3
 **** 1 mod 2
+***** bono
+      bond (as in Treasury)
 ***** depurar
       alternatives
 ****** to clean
@@ -59,6 +61,8 @@
 **** last time I reviewed
      2
 **** 1 mod 2
+***** bond (as in Treasury)
+      bono
 ***** brainy
       sesudo
 ***** to clean | to purge of dissidents | to (try to?) sanction | to reinstate someone who was sanctioned
