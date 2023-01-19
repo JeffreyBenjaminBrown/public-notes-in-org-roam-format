@@ -4,3 +4,4 @@
 #+title: physics
 * [[id:a9730be0-42bc-49ab-8a0a-f7bfd55c729d][Entropy is not unambiguous]].
 * [[id:5a9e5a9f-8e1b-4487-ba1d-51692d73dd89][astronomy]]
+* [[id:c12af7d9-ebc8-4f22-9d08-f80e27fef540][radiation]]

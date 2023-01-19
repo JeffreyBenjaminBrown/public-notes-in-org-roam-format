@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       323360a3-6047-4bcc-845f-9a7534234a63
+:END:
+#+title: geology
+* [[id:9c231b57-cc93-4e4d-a4bd-b69d447aa8b1][About half of the Earth's internal heat originates from radioactive decay.]]

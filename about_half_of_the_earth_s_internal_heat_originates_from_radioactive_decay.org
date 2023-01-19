@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       9c231b57-cc93-4e4d-a4bd-b69d447aa8b1
+:END:
+#+title: About half of the Earth's internal heat originates from radioactive decay.
+https://en.wikipedia.org/wiki/Earth%27s_internal_heat_budget

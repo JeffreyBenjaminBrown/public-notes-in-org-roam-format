@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       40bd3898-4fc7-4185-a924-c598c7e7baf9
+:END:
+#+title: isomorphic layout 9\46 x 2\46
+* advantages
+** 31-lim in 4x7
+** octave (4,5) = (5,0.5)
+* guitar, what it's like on
+** Duties distributed nicely across strings.
+** a stretch of 7 frets is not hard
+   4 frets in 12-edo
+   is the same distance as
+   7+2/3 frets in 23-edo,
+   so none of these stretches is as hard as
+   1\12 on a standard guitar.
+** Intervals that, deceptively, *can* be played
+*** 7/6: from (3,0) to (5,-4) = 2s -4f
+*** 9/8: from (0,0) to (2,-5) = 2s -5f
+*** 6/5 = 18/15:                2s -3f
+*** 16/15:                      2s -7f
+    the note on the higher string is, intuitively, the higher one
+*** 11/10:                      2s -6f
+* the layout
+  0  steps;  1 % 1;  string 0; fret 0
+  8  steps;  9 % 8;  string 0; fret 4
+  15 steps;  5 % 4;  string 1; fret 3
+  21 steps; 11 % 8;  string 1; fret 6
+  32 steps; 13 % 8;  string 2; fret 7
+  27 steps;  3 % 2;  string 3; fret 0
+  37 steps;  7 % 4;  string 3; fret 5
+  42 steps; 15 % 8;  string 4; fret 3
+  46 steps;  2 % 1;  string 4; fret 5
+
+  4  steps; 17 % 16; string 0; fret 2
+  11 steps; 19 % 16; string 1; fret 1
+  18 steps; 21 % 16; string 2; fret 0
+  24 steps; 23 % 16; string 2; fret 3
+  30 steps; 25 % 16; string 2; fret 6
+  35 steps; 27 % 16; string 3; fret 4
+  39 steps; 29 % 16; string 3; fret 6
+  44 steps; 31 % 16; string 4; fret 4

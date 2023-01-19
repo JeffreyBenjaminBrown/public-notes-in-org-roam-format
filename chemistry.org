@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       c90f7198-2afe-400d-bbc7-8b2f20d8207c
+:END:
+#+title: chemistry
+* [[id:c12af7d9-ebc8-4f22-9d08-f80e27fef540][radiation]]

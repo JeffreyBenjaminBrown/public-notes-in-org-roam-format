@@ -10,6 +10,7 @@
   Non-obvious subdisciplines:
 ** [[id:185827a6-a19a-4da0-a251-897c41ef3a20][biochemistry]] | cell biology
 ** [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
+* [[id:c90f7198-2afe-400d-bbc7-8b2f20d8207c][chemistry]]
 * [[id:001d7913-c431-461c-92ae-a6a39394856c][computer science]]
 * [[id:fc62e211-be72-469f-a543-2950c0e2c975][contrarianism]]
 * [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
@@ -19,6 +20,7 @@
 * [[id:b0709556-766b-4fb1-b42d-7fa320dd387c][estimation]]
 * [[id:8fd004bd-338a-40a0-8634-b22dc7ee3765][finance]]
 * [[id:c0650349-d298-4ede-bad2-704bb4f1296f][geography]]
+* [[id:323360a3-6047-4bcc-845f-9a7534234a63][geology]]
 * [[id:8cd7a9de-4652-4728-b57f-748e61cf94e7][health & medicine]]
 * [[id:d192f9f7-ec93-4c00-984d-b7e332b56ac0][history]]
 * [[id:c563e6be-631d-4f23-923d-050498334e2a][mathematics]]

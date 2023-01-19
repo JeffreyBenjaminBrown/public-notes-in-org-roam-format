@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       c12af7d9-ebc8-4f22-9d08-f80e27fef540
+:END:
+#+title: radiation
+* [[id:9c231b57-cc93-4e4d-a4bd-b69d447aa8b1][About half of the Earth's internal heat originates from radioactive decay.]]
