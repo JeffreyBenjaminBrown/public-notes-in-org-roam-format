@@ -6,7 +6,7 @@
 * TODO read Muy Interesante
   https://www.muyinteresante.es/
 * outer loop
-** last time I reviewed: 5
+** last time I reviewed: 6
 * inner loops
 *** odd times: Spanish questions, English answers
 **** last time I reviewed: 3
@@ -41,9 +41,6 @@
       Slang: Lover.
 ***** pese a que
       although
-***** lineamiento
-      orientation, criteria
-      ("guideline"?)
 **** 2 mod 4
 ***** sesudo
       brainy
@@ -55,31 +52,28 @@
       financial returns of any kind -- capital gains + dividends
 ***** cafre
       bad person
-***** relatoría
-      outline
+***** lineamento
+      outline (both as in plan and as in profile)
 *** even times: English questions, Spanish answers
-**** last time I reviewed
-     2
+**** last time I reviewed: 3
 **** 1 mod 2
+***** to clean | to purge of dissidents | to (try to?) sanction | to reinstate someone who was sanctioned
+      depurar
+***** outline (both as in plan and as in profile)
+      lineamento
+**** 2 mod 4
 ***** bond (as in Treasury)
       bono
 ***** brainy
       sesudo
-***** to clean | to purge of dissidents | to (try to?) sanction | to reinstate someone who was sanctioned
-      depurar
 ***** finnicky
-      quisquillosa
+      quisquilloso
 ***** (disrespectfully) a very stupid thing
       marranada
 ***** Waiter. Slang: Lover.
       mozo
 ***** financial returns of any kind -- capital gains + dividends
       rendimientos financieros
-***** outline
-      relatoría
-**** 2 mod 4
-***** orientation, criteria
-      lineamiento
 **** 4 mod 8
 ***** bad person
       cafre
