@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       de807e7b-854f-4670-a699-f89e1b42c63d
+:END:
+#+title: SymThink
+* TODO suggest to Tom
+** betting markets
+* idea: gamify the discernment of truth
+* scheme, roughly
+** A user posts a question.
+** Users respond with ideas/answers.
+** Users post evidence and arguments for the answers.
+** After a while, a vote is taken.
+* pending ideas
+** Can it be profitable?
+   Organizations could stump up in return for getting questions answered.
+** How to protect from spam?
+   Maybe only (at least very slightly) paid users can vote.
+   Maybe a service like id.me verifies people.

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       044a7113-5ba1-424c-8a28-c9d3e038f650
+:END:
+#+title: downsample images and pdfs with ghostscript
+# This downsamples a color image:
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dDownsampleColorImages=true -dColorImageResolution=140 -dNOPAUSE  -dBATCH -sOutputFile=small.140.pdf input.pdf

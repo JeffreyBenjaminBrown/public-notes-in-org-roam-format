@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       31b5d182-d956-43bc-b673-8d0be7abe913
+:END:
+#+title: Downsample jpegs *before* converting to pdf.
+This keeps the memory footprint small.
+Converting afterward works much worse.
+Convert with `convert` (imagemagick), but concat with `pdftk`.
+  Concatenating pdfs with `convert` seems to waste space.
+  (Using the same to concatenate non-pdfs into one pdf might be okay.)

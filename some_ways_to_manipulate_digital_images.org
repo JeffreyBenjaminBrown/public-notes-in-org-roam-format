@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       b5d11fbe-75dc-4c31-8d0d-c44689328ff1
+:END:
+#+title: some ways to manipulate digital images
+* [[id:5f4cef1e-85a7-44a9-8ffc-e8cbb962090b][PITFALLS when converting (to or from) PDFs]]
+* shear a rectangular grid to fit the Lumatone hex layout
+  :PROPERTIES:
+  :ID:       68b3f341-f369-4b6f-841a-b77c37715a86
+  :END:
+  convert affine.png -affine 1.5,-0.38,-0.3,1,0,0 -transform out.png
+* [[id:514ef602-a034-4bfb-b9dc-f09de9adb639][crop an image in ImageMagick]]
+* how to draw sloppy lines on an image
+** use GIMP
+   Open it in GIMP.
+   Choose the pencil/lapiz tool.
+   Zoom in via the app (not via KDE).
+   Draw with my finger on the HP touchscreen.
+    It's far more precise than the mouse.
+** Edit it in Whatsapp
+* how to format a headshot for a Colombian visa
+  :PROPERTIES:
+  :ID:       53bb194e-7b52-48ad-91a8-1621010c4462
+  :END:
+  Use the Passport Photo Editor app.
+* how to downsample a jpeg
+  First check its dimensions with `file`.
+  Then choose new dimensions, and run
+  `convert input.jpg -resize 600x400\> output.jpg`
+* [[id:1780979c-c765-4e14-9ad5-a72546aea4ab][how to concatenate mixed-format images into a pdf]]
+* [[id:044a7113-5ba1-424c-8a28-c9d3e038f650][downsample images and pdfs with ghostscript]]
+* how to find the dimensions of a pic
+Run "file", look for "height" and "width".
+
+bash$ file contract-1.jpg
+contract-1.jpg: JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=13, height=4032, bps=0, manufacturer=HUAWEI, model=TRT-L53, xresolution=186, yresolution=194, resolutionunit=2, software=TRT-L53C469B196, datetime=2020:08:13 15:56:05, GPS-Data, width=3016], baseline, precision 8, 3016x4032, components 3
+* imagemagick can do [[id:81e38b09-22f1-4ad5-8e16-efad524284db][affine transformations]], e.g. "shear"
+  https://legacy.imagemagick.org/Usage/distorts/affine/#affine_shear
+** tags: matrix, linear, stretch

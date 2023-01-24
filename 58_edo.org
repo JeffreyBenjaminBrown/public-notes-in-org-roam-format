@@ -224,6 +224,18 @@
    , 50 steps; 29 % 16 ; string 4 ; fret - 1
    # , 55 steps; 31 % 16 ; string 3 ; fret 8
 * layouts
+** 7\58 x 3\58: super-wide; bad 5:4
+    0 steps; 01 % 1; string 0; fret  0
+   10 steps; 09 % 8; string 1; fret  1
+   19 steps; 05 % 4; string 1; fret  4
+                     string 4; fret -3
+   27 steps; 11 % 8; string 3; fret  2
+   34 steps; 03 % 2; string 4; fret  2
+   41 steps; 13 % 8; string 5; fret  2
+   47 steps; 07 % 4; string 5; fret  4
+   58 steps; 02 % 1; string 7; fret  3
+   53 steps; 15 % 8; string 8; fret -1
+                     string 5; fret  6
 ** TODO 6\58 x 5\58: good for Lumatone. 23-lim minus 11,19 in 8x3; 23-lim minus 19 in 8x4; 29-lim minus 25 in 8x5
    :PROPERTIES:
    :ID:       a291f843-ee45-40e9-923e-badfe65654a7

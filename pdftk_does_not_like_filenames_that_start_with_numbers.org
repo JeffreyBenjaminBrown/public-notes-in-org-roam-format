@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       aad7fe32-8fc1-465c-905d-8406428768c2
+:END:
+#+title: pdftk does not like filenames that start with numbers
+even if the extensions are alphabetical and preceded by a dot
+e.g. 1.pdf is bad, but d1.pdf is ok

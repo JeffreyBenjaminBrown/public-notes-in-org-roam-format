@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "socializing, systematic"
 :END:
 #+title: systematic socializing
+* [[id:6ed44659-2537-4af6-8b9a-c618fe90714c][alienation]]
 * [[id:30478629-506c-4acf-aec8-b74e977a2234][Keep, and know when to read and modify, files on people]].
 * planning
 ** Know what I'm getting into before accepting an invitation.
