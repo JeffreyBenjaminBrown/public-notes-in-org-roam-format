@@ -58,7 +58,7 @@
    :ID:       4eb0545a-ac36-4a74-bd12-c429019e231a
    :END:
 *** do that and the 10:9 sounds great.
-*** root against a different triad
+*** root against a triad rooted somewhere else
     often sounds much more consonant than root + fifth against non-root triad.
 *** Micro changes to the root are likely to sound better.
     Better than they would if the 3:2 moved in parallel with the root.

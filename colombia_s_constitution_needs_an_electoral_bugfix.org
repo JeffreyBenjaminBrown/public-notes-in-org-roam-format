@@ -2,18 +2,22 @@
 :ID:       9a5bd227-9e5b-4464-ba45-52eea7b510f7
 :END:
 #+title: Colombia's constitution needs an electoral bugfix
-* the problem
-  In Colombia anybody can vote for any candidate in their region for Congress.
-  In regions with more than one representative, all the top vote-getters win.
-  Public attention, and hence the majority of votes, focus on the top two or three candidates, even if many more than that will win.
-  Therefore the *majority* of the representatives elected for a region can win with a *very small minority* of voter support.
-  As a result, buying food for a neighborhood can get you a seat in Congress.
-* the solution
-  Each region should be divided into Congressional districts, such that each voter votes only in their district, and each district sends only one representative to Congress. This would dramatically increase accountability in Congress, because nobody could win while escaping public scrutiny.
-* laws that would have to change
-** source
-   Mariana Matamoros, Whatsapp, <2023-01-10 Tue>
-** it
-   Si tendría que cambiar la constitución
-   y se debería modificar la Ley 5 de 1992
-   esta es la Ley que rige todooo lo que se hace en el congreso
+* why I was wrong
+  I thought that the (say) ten most popular people win out of the (say) three dozen who run. That's not true. If one of them wins overwhelmingly, the votes he receives are redistributed to other members of his party.
+  If voters understand the parties, and the way the voting system works, then this is not unfair. But it does give more responsibility to voters and parties than, say, the US system.
+* WRONG
+** the problem
+   In Colombia anybody can vote for any candidate in their region for Congress.
+   In regions with more than one representative, all the top vote-getters win.
+   Public attention, and hence the majority of votes, focus on the top two or three candidates, even if many more than that will win.
+   Therefore the *majority* of the representatives elected for a region can win with a *very small minority* of voter support.
+   As a result, buying food for a neighborhood can get you a seat in Congress.
+** the solution
+   Each region should be divided into Congressional districts, such that each voter votes only in their district, and each district sends only one representative to Congress. This would dramatically increase accountability in Congress, because nobody could win while escaping public scrutiny.
+** laws that would have to change
+*** source
+    Mariana Matamoros, Whatsapp, <2023-01-10 Tue>
+*** it
+    Si tendría que cambiar la constitución
+    y se debería modificar la Ley 5 de 1992
+    esta es la Ley que rige todooo lo que se hace en el congreso

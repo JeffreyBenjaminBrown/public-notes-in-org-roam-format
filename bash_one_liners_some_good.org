@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       a0dae4cf-8359-49c8-9815-523ac2a49191
+:END:
+#+title: Bash one-liners, some good
+https://muhammadraza.me/2021/Oneliners/

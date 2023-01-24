@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       c2a51944-ffb9-4404-a814-cdfbaa99b1b8
+:END:
+#+title: searching in the shell
+* [[id:ee83ddd1-aeaa-46e9-a6a7-d180ac16471f][grep (command line search utility)]]
+* find, show all file extensions in filetree
+  find . -type f | sed 's/.*\.//' | grep -v "/" | sort | uniq -c
+* find: exclude a type of file
+  use the ! symbol to negate the next option
+  for example, this:
+    find . -type d ! -name "__pycache__"
+  excludes anything called __pycache__
+* `find -exec`: do something to every found result
+** example: copy a file into every folder found
+   find . -type d -exec cp __init__.py {} \;
+* to find all numbers in code
+  In tmux, run
+    egrep "[0-9]+" -r build -r common -r draw -r regime *.py -C 5 --exclude="*test*"
+  and then read that screen. (Dumping it to a file would mean losing the colors,
+  which makes the reading process much slower.)

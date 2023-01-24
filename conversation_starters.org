@@ -16,7 +16,10 @@
 *** What'ssomething you love to do?
 *** What’s a goal you’re pursuing right now?
 *** What’s a challenge you’re facing?
-*** What’s the best change you’ve made during the pandemic?
+*** What’s the best change you’ve made
+    during the pandemic?
+    since getting married?
+    since having kids?
 ** ask them to elaborate
 *** Ask about someone's life stories, decisions
 **** Normally they talk about the recent.

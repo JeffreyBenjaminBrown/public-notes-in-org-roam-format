@@ -4,6 +4,7 @@
 :END:
 #+title: bash (shell)
 * [[id:41078ddd-4ec0-45fe-a799-3f8d00aa81d8][NuShell]]
+* [[id:a0dae4cf-8359-49c8-9815-523ac2a49191][Bash one-liners, some good]]
 * Shell script best practices
 ** https://sharats.me/posts/shell-script-best-practices/
 * [[id:e6dc1949-5024-4fee-b031-7af412353a5e][diff (shell programming concept)]]
@@ -54,23 +55,7 @@
   pandoc -o bugs.pdf bugs.md
   To render beamer-style, add the option `-t beamer`.
   PITFALL: New sections must be preceded by a blank line.
-* search
-** [[id:ee83ddd1-aeaa-46e9-a6a7-d180ac16471f][grep (command line search utility)]]
-** find, show all file extensions in filetree
-   find . -type f | sed 's/.*\.//' | grep -v "/" | sort | uniq -c
-** find: exclude a type of file
-   use the ! symbol to negate the next option
-   for example, this:
-     find . -type d ! -name "__pycache__"
-   excludes anything called __pycache__
-** `find -exec`: do something to every found result
-*** example: copy a file into every folder found
-    find . -type d -exec cp __init__.py {} \;
-** to find all numbers in code
-   In tmux, run
-     egrep "[0-9]+" -r build -r common -r draw -r regime *.py -C 5 --exclude="*test*"
-   and then read that screen. (Dumping it to a file would mean losing the colors,
-   which makes the reading process much slower.)
+* [[id:c2a51944-ffb9-4404-a814-cdfbaa99b1b8][searching in the shell]]
 * [[id:743baaa9-2e98-4bd8-8b7e-ae27c4b0f241][moving and copying files]]
 * [[id:5fabbe1c-91a2-4bca-95e4-6a38a2037e1f][mount or unmount a drive from the command line]]
 * [[id:09d7af48-b851-4f73-b29c-82cd08449437][kill (bash command)]]
