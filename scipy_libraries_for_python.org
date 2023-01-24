@@ -113,6 +113,7 @@
          ) . drop( columns = "level_1" )
                    # the other part of the index is unneeded
 * selection | subsetting | conditioning
+** select_dtypes
 ** pandas.DataFrame.loc
 *** Its arguments are in brackets for some reason.
 *** Its first and potentially only arg specifies rows.
