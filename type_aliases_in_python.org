@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       c804ea2a-2cf3-4a5e-8f43-c504e398fbdf
+:ROAM_ALIASES: "type synonyms in Python"
+:END:
+#+title: type aliases in Python
+* example code
+from typing import List, GenericAlias
+
+x : GenericAlias = List[str]
+y : x = ["hi"]
+* PITFALL w/r/t mypy
+  If mypy doesn't believe `typing` exports `GenericAlias`,
+  the word `GenericAlias` can be omtted from the above
+  (and its accompanying punctuation)
+  and it will typecheck in mypy and continue to function,
+  although from a less beautiful representation.

@@ -3,6 +3,18 @@
 :END:
 #+title: isomorphic layout 4\46 x 7\46
 Flat, tight, easy 5-lim, not too strange.
+* on the Lumatone
+  :PROPERTIES:
+  :ID:       86937286-ae5a-4f3d-82ec-43666ceefd15
+  :END:
+** axes : 4\46 right, 7\46 *down*, 11 downright
+** color-pitch correspondence
+*** as of which commit
+    commit # 5acc1236
+    in repo git@github.com:JeffreyBenjaminBrown/lumatone-isomorphic.git
+    <2023-01-22 Sun>
+*** it
+    A:440 is the green button just right of the white line
 * layout
   [ 0  steps; 1 % 1;  string 0; fret 0
   , 21 steps; 11 % 8; string 0; fret 3

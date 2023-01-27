@@ -41,6 +41,7 @@
 ** [[id:23e33a81-1b9b-4914-822a-c09e033d045a][csvlib (Python library)]]
 ** [[id:e2790daf-d86a-4b1b-994b-792d2ac3b3a6][Hypothesis (python library for property testing)]]
 * solutions
+** [[id:c804ea2a-2cf3-4a5e-8f43-c504e398fbdf][type aliases in Python]] | type synonyms in Python
 ** for scope problems, see [[id:f54893f9-b912-4a71-953d-4f1ed18d0618][closures in Python]]
 ** [[id:ea2298c9-6f5e-49f7-b81b-1374b6764e08][concurrency in Python]]
 ** [[id:e98d0657-b40e-4c06-b8a5-a5a441344eb7][econometrics in Python]]

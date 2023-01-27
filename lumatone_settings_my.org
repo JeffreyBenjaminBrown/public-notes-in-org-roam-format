@@ -3,7 +3,21 @@
 :END:
 #+title: Lumatone settings, my
 * using
-** 1 : 41edo.6right.-1downright.ltn
+**  1-34edo.7right.3downright.ltn
+**  2-41edo.7right.3downright.+9notes.+1channels.ltn
+**  3-46edo.4right.11downright.+29notes.ltn
+*** [[id:86937286-ae5a-4f3d-82ec-43666ceefd15][on the Lumatone]]
+**  4-46edo.4right.11downright.+15notes.ltn
+*** [[id:86937286-ae5a-4f3d-82ec-43666ceefd15][on the Lumatone]]
+**  5-46edo.4right.11downright.+1notes.ltn
+*** [[id:86937286-ae5a-4f3d-82ec-43666ceefd15][on the Lumatone]]
+**  6-24edo.5right.4downright.ltn
+**  7-31edo.5right.3downright.ltn
+**  8-50edo.8right.5downright.ltn
+**  9-53edo.9right.4downright.ltn
+** 10-58edo.6right.11downright.ltn
+* others
+** 41edo.6right.-1downright.ltn
    If I transpose it up 6\41,
    which the MIDI I put in front of Pianoteq does,
    then the way it's colored now,
@@ -14,17 +28,7 @@
 
    That's according to my tuner app.
    I haven't tried the math.
-**  2 : 41edo.6right.-1downright.+22notes.ltn
-**  3 : 58edo.6right.11downright.ltn
-**  4 : 58edo.6right.11downright.+15notes.ltn
-**  5 : 12edo.4right.5downright.+60notes.ltn
-**  6 : 24edo.5right.4downright.ltn
-**  7 : 31edo.5right.3downright.ltn
-**  8 : 46edo.5right.7downright.ltn
-**  9 : 50edo.8right.5downright.ltn
-** 10 : 53edo.9right.4downright.ltn
-* skipping
-  41edo.7right.3downright.+9notes.+1channels.ltn
-  41edo.7right.3downright.ltn
-  50edo.8right.5downright.+20notes.ltn
-  53edo.9right.4downright.+11notes.+1channels.ltn
+** 41edo.7right.3downright.+9notes.+1channels.ltn
+** 41edo.7right.3downright.ltn
+** 50edo.8right.5downright.+20notes.ltn
+** 53edo.9right.4downright.+11notes.+1channels.ltn
