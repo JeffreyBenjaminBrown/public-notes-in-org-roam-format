@@ -51,6 +51,9 @@
 ** C-c C-(f/b): org next/previous same level
 ** Up, down and search work in the minibuffer after M-x.
 * solutions
+** to jump between lines fast
+*** not a great solution : [[id:7168c237-a2a5-477d-a7a2-62ba55b465ce][key-leap (Emacs minor mode)]]
+    Slow, too hard to read.
 ** [[id:b7246e61-fb94-48b1-b34b-2981e60fc860][insert a column of increasing numbers in Emacs]]
 ** to insert (write) date, and maybe time, at point
    :PROPERTIES:

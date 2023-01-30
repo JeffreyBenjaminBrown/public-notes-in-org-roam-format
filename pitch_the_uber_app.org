@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       5f8c9f6b-6992-4bde-a27a-3db3997f3178
+:END:
+#+title: pitch the uber-app
+  I just learned that a friend of mine, Thomas Ford, has been programming a sort of mindmapping tool for public debate. It's a dream I've shared some form of for years. Knowledge graphs are finally becoming popular as tools to help individuals process information, and that's wonderful, but I believe like they could accomplish much more than that.
+
+  My vision for a while has been an open-source, decentralized platform with characteristics of Twitter, Wikipedia and Google. Like Twitter, anybody could publish anything about anything -- but referring to it in a structured way, so that backlinks let a user discover what has been said about something. Like Wikipedia, the platform would be a giant store of information -- but rather than some dictator-editor deciding what is true for any given topic, everything written about the topic would be available. How to filter that information (including which curators to depend on) would be up to the user. Like Google, there would exist tools for searching that ocean of data -- but via an open-source, structured, extensible grammar, rather than something that magically guesses what you want.
+
+  Programmable views would allow users to surface the information they care about -- e.g. "what are my friends saying about soccer today", or "color statements which have been identified as logically fallacious in red", or "only show me content vetted by judges I trust", or "remove from my view anything by authors identified by someone I trust as spammy and/or likely bots".
+
+  Coupled with cryptographic signatures, the ability to discover what has been written about authors would provide a novel incentive for responsible behavior.

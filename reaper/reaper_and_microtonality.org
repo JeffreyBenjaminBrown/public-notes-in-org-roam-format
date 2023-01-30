@@ -4,6 +4,7 @@
 :END:
 #+title: Reaper and microtonality
 * for the channel-as-octave idiom
+** [[id:5333d0f7-f7dd-459c-a2c9-b195ad71c961][intelligent channel manipulations in Reaper]]
 ** [[id:731b6763-14ed-4509-92ae-364996408225][color notes/CC by channel : C-S-M-c]]
 ** [[id:4f7ff877-344d-4e3a-b0db-ae401efe66b5][the filter window]]
 * adding annotations to read when overdubbing

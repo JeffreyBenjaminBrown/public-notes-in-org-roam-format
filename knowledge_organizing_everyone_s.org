@@ -3,6 +3,8 @@
 :ROAM_ALIASES: information epistemology ontology "organizing knowledge"
 :END:
 #+title: knowledge graphs
+* TODO [[id:5f8c9f6b-6992-4bde-a27a-3db3997f3178][pitch the uber-app]]
+* TODO Look for prior art in gameifying knowledge.
 * a "personal Google"
 ** https://www.haystack.it/
 * [[id:05a84243-9dcf-4492-b81e-a48fd2f53b3c][knowledge graphs and/or meditation]]

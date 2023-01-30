@@ -19,3 +19,4 @@
 * [[id:366e649f-c492-4acc-99ae-dc552cd78f25][conversation techniques]]
 * [[id:302dba5a-9298-440a-bbcb-5b96955a5633][Bonding requires activities, not just occasional smalltalk.]]
 * [[id:20f350a4-210c-4c49-af39-391365c5aa39][Everyone needs a fan and a critic.]]
+* [[id:e0306e46-498a-47c1-86d1-d5f36d1b9c0c][How to complain (about people).]]

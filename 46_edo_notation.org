@@ -19,56 +19,77 @@
    filter ((== 7) . fst) paired
    -- see what notes are available within 7 fifths of the origin
    L.sortOn snd $ ( filter ((<= 7) . fst) paired ++ filter ((>= (46-7)) . fst) paired )
-** the map
-   (0,0)     D
-   (29,1)    /D
-   (12,2)    //D=\Eb -- (12,2)
-   (41,3)    Eb
-   (24,4)    \D#=/Eb
-   (7,5)     D#=//Eb -- (7,5)
-   (36,6)    \\E=Fb
-   (19,7)    \E
-   (2,8)     E
-   (31,9)    /E
-   (14,10)   \F
+** TODO pseudocode to generate the note names
+*** label the seven notes A through G.
+    = associate letters to the appropriate integers mod 41
+*** From those seven notes, generate more
+**** Generate sharps
+     by associating, for each "x" in the letters A-G,
+     "x#" to every number that's 5 above
+     the number identified with the letter "x".
+**** Generate double-sharps
+     similar to generating sharps,
+     but 10 rather than 5,
+     and ## rather than #.
+**** Generate flats and double-flats
+     -5 and b, and -10 and bb, respectively.
+*** From the resulting many* notes, generate more
+**** * We now have A-G, A#-G#, A##-G##, Ab-Gbb, and Abb-Gbb
+**** Generate ups
+     by adding 1 to each of those and prepending ^.
+**** Generate downs, double-ups and double-downs
+     similarly
+** the map, ordered by frequency, with D=0
+   The first number in each pair counts fifths.
+   ( 0,0)    D
+   (29,1)    (^D, vvEb)
+   (12,2)    (^^D, vEb)
+   (41,3)    Eb (vvD#)
+   (24,4)    (^Eb, vD#)
+   ( 7,5)    D# (^^Eb, vFb)
+   (36,6)    Fb (^D#, vvE)
+   (19,7)    (^Fb, ^^D#, vE)
+   ( 2,8)    E
+   (31,9)    ^E = vvF
+   (14,10)   ^^E = vF
    (43,11)   F
-   (26,12)   /F
-   (9,13)    E#=//F -- (9,13)
-   (38,14)   \\F#=Gb
-   (21,15)   \F#=/Gb
-   (4,16)    F#
-   (33,17)   /F#
-   (16,18)   \G
+   (26,12)   ^F = vE#
+   ( 9,13)   E# = ^^F
+   (38,14)   Gb = ^E# = vvF#
+   (21,15)   vF# = ^Gb
+   ( 4,16)   F#
+   (33,17)   ^F#
+   (16,18)   vG
    (45,19)   G
-   (28,20)   /G
-   (11,21)   //G=\Ab
-   (40,22)   \\G#=Ab
-   (23,23)   \G#=/Ab
-   (6,24)    G# -- (6,24)
-   (35,25)   /G#=\\A
-   (18,26)   \A
-   (1,27)    A
-   (30,28)   /A
-   (13,29)   \Bb
+   (28,20)   ^G
+   (11,21)   ^^G = vAb
+   (40,22)   vvG# = Ab
+   (23,23)   vG# = ^Ab
+   ( 6,24)   G#
+   (35,25)   ^G# = vvA
+   (18,26)   vA
+   ( 1,27)   A
+   (30,28)   ^A
+   (13,29)   vBb
    (42,30)   Bb
-   (25,31)   \A#=/Bb
-   (8,32)    A#=//Bb -- (8,32)
-   (37,33)   \\B=Cb
-   (20,34)   \B
-   (3,35)    B
-   (32,36)   /B
-   (15,37)   \C
+   (25,31)   vA# = ^Bb
+   ( 8,32)   A# = ^^Bb
+   (37,33)   vvB = Cb
+   (20,34)   vB
+   ( 3,35)   B
+   (32,36)   ^B
+   (15,37)   vC
    (44,38)   C
-   (27,39)   /C
-   (10,40)   //C -- B#, (10,40)
-   (39,41)   \\C#=Db
-   (22,42)   \C#=/Db
-   (5,43)    C# -- (5,43)
-   (34,44)   /C#=\\D
-   (17,45)   \D
+   (27,39)   ^C
+   (10,40)   ^^C -- B#
+   (39,41)   vvC# = Db
+   (22,42)   vC# = ^Db
+   ( 5,43)   C#
+   (34,44)   ^C# = vvD
+   (17,45)   vD
    (46,46)   D
 * noteworthy
-** # and b correspond to 5 degrees of 46-edo
+** # and b (flat) correspond to 5 degrees of 46-edo
 ** pythagorean intervals are notated most easily
 *** without accidentals, major thirds are too big
     For instance, C E G is a Pythagorean C major third.

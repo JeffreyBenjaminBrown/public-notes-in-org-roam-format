@@ -65,6 +65,8 @@
 *** visual-regexp
 *** ov - change text appearance (temporarily, I think)
 * DONE ? gave up on
+** just didn't like it
+*** [[id:7168c237-a2a5-477d-a7a2-62ba55b465ce][key-leap (Emacs minor mode)]]
 ** were of interest but look complex
 *** icicles -- cycle buffers with arrows and tab completion
     but not part of Melpa

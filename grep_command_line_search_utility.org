@@ -9,9 +9,19 @@
   Here A = "aws" and B = "iam"
   grep "aws" -r . -l | xargs grep "iam"
 * grep for within-line disjunction
-** the two tricks, both necessary
-*** grep -E
-*** use single-quotes for the passage
-    so that the | is not interpreted as a pipe
+** tricks, necessary and maybe otherwise
+*** necessary : grep -E
+*** dubious : single-quotes around the regex
+**** details
+     so that the | is not interpreted as a pipe.
+     Someone suggested that somewhere,
+     but in my test it appears not to be true --
+     I can put double-quotes aroudn it and it works perfectly.
+**** a test for whether it is necessary
+***** make a file containing this
+      a
+      b
+***** grep for this
+      grep -E "a|b" -r .
 ** example
    grep -r . -E 'saveStage|to_csv'

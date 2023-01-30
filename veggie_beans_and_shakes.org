@@ -2,4 +2,6 @@
 :ID:       5be8705b-653c-4053-8765-c7776569c053
 :END:
 #+title: Veggie Beans and Shakes
+* TODO how to order from them?
+  I don't see them on Rappi or Didi Food.
 * [[id:353d5b15-7d38-4148-9563-8564e8403fee][Bancolombia calls Veggies Beans and Shakes "Bold.Co"]]

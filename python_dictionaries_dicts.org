@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       5ae0535d-5f21-4a09-8485-0eda8eb4b73a
+:ROAM_ALIASES: "Python dict" "dict \ Python"
 :END:
-#+title: Python dictionaries ("dicts")
+#+title: Python dictionaries
 * [[id:c5146fa1-d833-4018-9b5b-4506044a3a09][Python's 'dict' is a hash table.]]
 * convert dict to list
   Pattern match on dict . items():
@@ -14,12 +15,14 @@
   >>> l = [(1,2),(3,4)]
   >>> { a:b for (a,b) in l }
   {1: 2, 3: 4}
-* merging Python dictionaries
+* merging Python dictionaries (from *within* a dictionary) :  nwrap with **
   :PROPERTIES:
   :ID:       88971f77-9463-446d-a07b-9ff1d0f601df
   :END:
   PITFALL: Later keys clobber earlier ones.
-  { **{1:2}, **{3:4} }
+  { **{1:2, 3:4},
+    5:6,    # NOTE: key-val pairs can be mixed in like this.
+    **{7:8} }
 * map over Python dictionary values
   Use a comprehension:
   { k: f(v)

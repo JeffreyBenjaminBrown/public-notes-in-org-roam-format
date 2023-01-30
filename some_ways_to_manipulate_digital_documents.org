@@ -4,7 +4,7 @@
 :END:
 #+title: some ways to manipulate digital documents
 * [[id:b5d11fbe-75dc-4c31-8d0d-c44689328ff1][some ways to manipulate digital images]]
-* [[id:f3e205be-1323-4ca1-89b9-fc99ab1d8956][some ways to manipulate PDFs]]
+* [[id:f3e205be-1323-4ca1-89b9-fc99ab1d8956][some ways to (create and) manipulate PDFs]]
 * DONE install these
   pdftk, gs, gimp
   and maybe install imagemagick

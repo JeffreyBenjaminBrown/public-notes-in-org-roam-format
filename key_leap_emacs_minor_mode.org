@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       7168c237-a2a5-477d-a7a2-62ba55b465ce
+:END:
+#+title: key-leap (Emacs minor mode)
+* REJECTED : It's too slow, hard to read.
+  The labels are unreadable if the font is big,
+  and they are always three characters long even when that's way too many.
+* purpose : jump between lines fast
+* usage : C-c #
+* https://github.com/MartinRykfors/key-leap

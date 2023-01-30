@@ -2,10 +2,13 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
+* TODO [[id:061b26ef-4cea-4ded-9e5a-6d1d6af2ed72][upgrade Pianoteq from 7 to 8 (free)]]
 * see also
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 * u
 ** TODO [[id:bd98bf35-4b42-4e5c-bf04-21e8f06dfdc8][set Reaper up to use a tablet]]
+** a beautiful 11-limit "minor neutral 7" JI chord
+   play harmonics 6, 9 (3:2), 11 (neutral 7), 14 (septimal m3)
 ** Quiz numbers mod 46 on octaves -1 and 1
 ** TODO Tidal: [[id:f43e3514-fe0a-4218-825b-fc26b5108e32][make bass-drum-key rhythms]]
 ** Finding edo layouts
