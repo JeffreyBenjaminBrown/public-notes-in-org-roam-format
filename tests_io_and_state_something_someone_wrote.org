@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       30c2018d-910a-4b46-bd53-14a8ee584334
+:END:
+#+title: tests, IO and state : something someone wrote
+https://github.com/stevana/property-based-testing-stateful-systems-tutorial/blob/56771f02177c4e2032c28ad1bea8508d8dc0f5f5/docs/Part03SMContractTesting.md

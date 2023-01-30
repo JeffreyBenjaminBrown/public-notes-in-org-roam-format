@@ -14,3 +14,4 @@
 * using NixOS to test systems with networking
   https://nix.dev/tutorials/integration-testing-using-virtual-machines
 * [[id:b279f98b-9c11-4671-9245-11cfa18ba756][unittest.mock (Python library)]] is kind of magical
+* [[id:30c2018d-910a-4b46-bd53-14a8ee584334][tests, IO and state : something someone wrote]]

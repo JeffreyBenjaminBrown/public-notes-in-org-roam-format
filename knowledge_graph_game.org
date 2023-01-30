@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       4770a0d4-1932-403c-a57a-9ae803e8372e
+:END:
+#+title: knowledge graph game
+* TODO Look for prior art in gameifying knowledge | science | debate.
+* TODO [[id:61475b0d-1b21-44ff-8b10-1df2813e9941][talk to people about the knowledge game]]
+* aspects
+** See what is popular among users of certain words
+** If what someone called more convincing seemed less convincing to you, their statements re. convincingness are reduced in your view
+** Explains how and explains why
+*** "x explains how y" helps you understand y.
+*** "x explains why y" helps you believe x.
+**** e.g. relativity explains why GPS works
+** State your beliefs, say when you're serious
+   so that others can search for it
+** X distills a point made by Y
+** ? if someone adds valueless (equivalent to something already there) content
+** Schwa and Gary Fixler
+*** Any econometrician, as they do epistemology
+*** Tony and Eric and Jen Z
+** is equivalent to
+** is clearer than
+   x explains t better than y
+** Own a popular list of jokes
+** Make spammers and bad faith actors identifiable
+** Label good links
+** Label good ideas

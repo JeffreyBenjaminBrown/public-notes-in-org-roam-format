@@ -9,5 +9,6 @@
     https://www.tweag.io/blog/2022-01-26-property-based-testing-of-monadic-code/
 *** part 2
     https://www.tweag.io/blog/2022-10-14-ltl-attacks/
+** [[id:30c2018d-910a-4b46-bd53-14a8ee584334][tests, IO and state : something someone wrote]]
 * "traces" represent state with history
   "It is inconvenient to construct states suitable for testing by hand. An alternative is to build sequences of inputs that can be iterated over the initial state, placing the system in a state we want to test. These sequences of inputs are called traces."
