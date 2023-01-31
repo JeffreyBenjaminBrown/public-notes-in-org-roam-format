@@ -13,7 +13,10 @@
    :PROPERTIES:
    :ID:       7dc33cd5-40bc-421a-aa1d-a40cf0635119
    :END:
-   find . -type f -name '*.py' | xargs etags
+*** normal
+    find . -type f -name '*.py' | xargs etags
+*** fancier
+    find . -type f -name '*.py' | xargs etags_plus
 ** [[id:74d6d7d1-7749-4d60-925d-43958fcd3ee3][testing in Python]]
 ** [[id:780aefb0-ad8f-411b-b716-3e9c3e98cdf8][profiling in Python]]
 ** [[id:b8890c90-7e53-4482-8b3f-1399a28fe92a][virtualenv (Python tool)]]
