@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       5333d0f7-f7dd-459c-a2c9-b195ad71c961
+:END:
+#+title: fast channel manipulations in Reaper
+* refs
+** I asked the forum about this.
+   https://forum.cockos.com/showthread.php?p=2641443#post2641443
+** [[id:c9734ff4-b0a0-4132-9f84-87e78eb67246][bigger piano roll in Reaper, I asked for a]]
+* some channel operations, with keyboard shortcuts
+** "show only channel" X : Shift + (X:int)
+   By default only defined for ten of the 16 channels.
+** increment channel = "set channel lower/higher" : JBB C-S-M-[+-]
+   (that is, every modifier and + or -)
+** "set channel for new events to X" : JBB C-S-M-(X:int)
+   This has the effect of "draw on channel X",
+   plus maybe other effects I'm not seeing.
+* would also be nice : filter view to multiple but not all channels
+  This is possible from the Filter menu,
+  but not from the keyboard.

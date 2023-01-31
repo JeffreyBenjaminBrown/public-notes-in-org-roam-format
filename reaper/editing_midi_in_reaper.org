@@ -4,7 +4,7 @@
 :END:
 #+title: editing MIDI in Reaper
 * u
-** [[id:5333d0f7-f7dd-459c-a2c9-b195ad71c961][intelligent channel manipulations in Reaper]]
+** [[id:5333d0f7-f7dd-459c-a2c9-b195ad71c961][fast channel manipulations in Reaper]] (for the channels-as-octave idiom)
 ** how colors represent channels in the MIDI editor
    They seem to go R, G, B, repeat.
 ** set note lengths to grid size

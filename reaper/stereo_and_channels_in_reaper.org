@@ -8,7 +8,7 @@
   :ID:       1fdafc48-468f-4bc6-a749-52e6c0bf5dcf
   :END:
   e.g. manual section "Item Channel Mode and Channel Mapping"
-* [[id:5333d0f7-f7dd-459c-a2c9-b195ad71c961][intelligent channel manipulations in Reaper]]
+* [[id:5333d0f7-f7dd-459c-a2c9-b195ad71c961][fast channel manipulations in Reaper]]
 * Stereo and even more-multichannel tracks are possible.
   :PROPERTIES:
   :ID:       fca74669-9d61-462a-b9ef-7ca20ffc4801
