@@ -3,5 +3,5 @@
 :END:
 #+title: When giving a function an argument, make sure
 all of them
-* It's used.
-* The specifics of what it abstracts over is now gone.
+* The new argument is used.
+* If it replaces something specific by abstracting over it, the old specific thing should be completely gone.

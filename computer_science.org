@@ -7,6 +7,7 @@
 * TODO [[id:90b6eed6-9e66-44de-bbfd-dfc0385bfa35][software development advice, excellent]]
 * TODO [[id:f0689a2d-925c-4360-a428-d4f0857b9680][to learn & computer science]]
 * [[id:bd48b7ca-4620-49a0-b5a5-915205f7e78e][good coding habits]]
+* [[id:f07ab308-a010-45cb-a39e-a01f0b926c15][pitfalls and responses \ coding]]
 * [[id:599c31f4-ebc6-4f17-bf83-bb7f604feb1b][how to do coding problems fast]]
 * subfields
 ** [[id:e1f7f6e9-3a9a-4804-91f5-7751d7f4e9b8][algorithms]]

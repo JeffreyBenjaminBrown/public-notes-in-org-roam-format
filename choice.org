@@ -4,12 +4,5 @@
 #+title: choice
 * [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
 * [[id:721b9b4d-63cc-473f-8ccb-bfc8d22240d9][ethics]]
-* mental waste
-  :PROPERTIES:
-  :ID:       38394b72-c48b-4871-bf32-d01b7989ca6c
-  :ROAM_ALIASES: OCD
-  :END:
-  = suspected or clearly inefficient uses of my time|mind
-** [[id:d588b701-0384-42b4-975e-bf97ee2e4292][humming]]
-** counting words
+* [[id:74fedaae-4cb2-40f5-bfd0-ee7582f23098][mental waste]]
 * [[id:24169b3e-6d41-48dd-9367-6df7a3565bed][my priorities]]

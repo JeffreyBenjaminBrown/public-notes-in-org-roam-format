@@ -3,13 +3,10 @@
 :ROAM_ALIASES: git
 :END:
 #+title: git (version control software)
-* Check branch before each git session
-  :PROPERTIES:
-  :ID:       ff7ae828-8ded-4916-ae67-551d604e2382
-  :END:
-  Or even before each operation.
 * git add -p
   to cherry-pick the changes in a file to commit
+* good git habits
+** [[id:380d6262-78d1-4811-bc58-f5331c00c7ba][Check the branch before each use of git.]]
 * configure Git so Emacs is the default editor
   :PROPERTIES:
   :ID:       70269641-9c54-4bd8-93f8-6554005a913c

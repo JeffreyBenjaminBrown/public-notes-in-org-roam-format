@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       380d6262-78d1-4811-bc58-f5331c00c7ba
+:END:
+#+title: Check the branch before each use of git.
+At least. Maybe even before each operation.

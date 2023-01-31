@@ -2,6 +2,7 @@
 :ID:       bd48b7ca-4620-49a0-b5a5-915205f7e78e
 :END:
 #+title: good coding habits
+* [[id:380d6262-78d1-4811-bc58-f5331c00c7ba][Check the branch before, at least, each use of git.]]
 * [[id:3d30dc55-ce11-4e46-a149-720a2f5b85d1][When giving a function an argument, make sure]]
 * [[id:1671f11c-9eaf-4d10-baaa-a9088b4a612d][Test web programs from different platforms, internet connections.]]
 * [[id:59478b79-70e8-4422-8ed8-78a62d801a98][Make names long enough]].

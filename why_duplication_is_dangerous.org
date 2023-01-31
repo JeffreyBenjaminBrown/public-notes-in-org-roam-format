@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       dbdc84fc-7cb4-4fa9-99e9-0b8b8f3f8de2
 :END:
-#+title: Why duplication is dangerous.
+#+title: Why code duplication is dangerous.
 * How I lost 2 days of work to a duplication mistake.
   If two functions look very similar,
   that should smell bad for yet another reason:

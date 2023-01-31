@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f07ab308-a010-45cb-a39e-a01f0b926c15
+:END:
+#+title: pitfalls and responses \ coding
+* [[id:91309a6f-d949-4419-ac3f-11668c08d11b][If edits seem to be having no effect, be sure I'm editing the right thing.]]
