@@ -1,0 +1,183 @@
+:PROPERTIES:
+:ID:       c9fe815d-a7cf-4f99-a08d-d48ca97a5bb0
+:END:
+#+title: 80-edo
+By hand, I searched every triple (80 [2-11] [11-29]).
+Good harmonics for everything but 31/16
+  (it's 5c flat, whereas everything else is sharp by at most 6c).
+* TODO COMBO: 80-edo 14s 5f (Bosanquet) + 80-edo 16s 5f
+  :PROPERTIES:
+  :ID:       34b25bc1-cdfb-472d-ad1a-fac2fd07a832
+  :END:
+** pros, cons
+   Bosanquet is friendly to all of the 13-limit sans 5:4
+     plus some of the rest of the 31-limit.
+   16\80 x 5\80 is friendly to all of the 15-limit sans either 13 or 7,
+     plus most of the rest of the 31-limit.
+   Neither gives a good 17/16.
+** layouts
+*** Pr.pPrint $ bestLayout' 29 80 16 5
+   [  0 steps;  1 %  1 ; string 0 ; fret 0
+   , 80 steps;  2 %  1 ; string 5 ; fret 0
+   , 47 steps;  3 %  2 ; string 2 ; fret 3
+   , 26 steps;  5 %  4 ; string 1 ; fret 2
+   , 65 steps;  7 %  4 ; string 5 ; fret - 3
+   , 14 steps;  9 %  8 ; string - 1 ; fret 6
+   , 37 steps; 11 %  8 ; string 2 ; fret 1
+   , 56 steps; 13 %  8 ; string 1 ; fret 8
+   , 73 steps; 15 %  8 ; string 3 ; fret 5
+   ,  7 steps; 17 % 16 ; string 2 ; fret - 5
+   , 20 steps; 19 % 16 ; string 0 ; fret 4
+   , 31 steps; 21 % 16 ; string 1 ; fret 3
+   , 42 steps; 23 % 16 ; string 2 ; fret 2
+   , 52 steps; 25 % 16 ; string 2 ; fret 4
+   , 60 steps; 27 % 16 ; string 5 ; fret - 4
+   , 69 steps; 29 % 16 ; string 4 ; fret 1
+*** Pr.pPrint $ bestLayout' 29 80 14 5 -- Bosanquet
+   [  0 steps;  1 %  1 ; string 0 ; fret 0
+   , 80 steps;  2 %  1 ; string 5 ; fret 2
+   , 47 steps;  3 %  2 ; string 3 ; fret 1
+   , 26 steps;  5 %  4 ; string 4 ; fret - 6
+   , 65 steps;  7 %  4 ; string 5 ; fret - 1
+   , 14 steps;  9 %  8 ; string 1 ; fret 0
+   , 37 steps; 11 %  8 ; string 3 ; fret - 1
+   , 56 steps; 13 %  8 ; string 4 ; fret 0
+   , 73 steps; 15 %  8 ; string 7 ; fret - 5
+   ,  7 steps; 17 % 16 ; string 3 ; fret - 7
+   , 20 steps; 19 % 16 ; string 0 ; fret 4
+   , 31 steps; 21 % 16 ; string 4 ; fret - 5
+   , 42 steps; 23 % 16 ; string 3 ; fret 0
+   , 52 steps; 25 % 16 ; string 3 ; fret 2
+   , 60 steps; 27 % 16 ; string 5 ; fret - 2
+   , 69 steps; 29 % 16 ; string 6 ; fret - 3
+** TODO Would need a convenient way to switch tunings while playing,
+   or to put one tuning on one monome, the other on the other.
+* 80 11s 5f: 9 frets for the 31-limit
+  Octaves at (5,5) and (0,16).
+* TODO Bosanquet, s14 f5: great 29-limt -5 -15 -17
+  :PROPERTIES:
+  :ID:       d3754801-31d5-4879-867f-7bb36a30e6c4
+  :END:
+  Pr.pPrint $ bestLayout' 23 80 14 5
+  Good layout for everything but 5:4, 15:8, 17:16.
+  The 17:16 in 80-edo is < 0.5c off, but plays horribly in this layout.
+* TODO mod 2 skip 13: amazing if you ignore 9 and 17 through 23
+   [ 0 steps; 1 % 1 ; string 0 ; fret 0
+   , 80 steps; 2 % 1 ; string 6 ; fret 1
+   , 47 steps; 3 % 2 ; string 3 ; fret 4
+   , 26 steps; 5 % 4 ; string 2 ; fret 0
+   , 65 steps; 7 % 4 ; string 5 ; fret 0
+   , 14 steps; 9 % 8 ; string 2 ; fret - 6
+   , 37 steps; 11 % 8 ; string 3 ; fret - 1
+   , 56 steps; 13 % 8 ; string 4 ; fret 2
+   , 73 steps; 15 % 8 ; string 5 ; fret 4
+   , 7 steps; 17 % 16 ; string 1 ; fret - 3
+   , 20 steps; 19 % 16 ; string 2 ; fret - 3
+   , 31 steps; 21 % 16 ; string 3 ; fret - 4
+   , 42 steps; 23 % 16 ; string 4 ; fret - 5
+   , 52 steps; 25 % 16 ; string 4 ; fret 0
+   , 60 steps; 27 % 16 ; string 4 ; fret 4
+   , 69 steps; 29 % 16 ; string 5 ; fret 2
+   , 76 steps; 31 % 16 ; string 6 ; fret - 1
+* TODO mod 1 skip 10: max reach 7 frets, octave at (8,0), decent 4:5:6:8
+ 7 steps = 17 % 16: string 1 fret -3 | string 0 fret 7
+20 steps = 19 % 16: string 2 fret 0
+26 steps = 5 % 4:   string 3 fret -4
+37 steps = 11 % 8:  string 4 fret -3
+42 steps = 23 % 16: string 4 fret 2
+47 steps = 3 % 2:   string 5 fret -3
+56 steps = 13 % 8:  string 6 fret -4
+65 steps = 7 % 4:   string 7 fret -5
+69 steps = 29 % 16: string 7 fret -1
+76 steps = 31 % 16: string 8 fret -5 | string 7 fret 6
+80 steps = 2 % 1:   string 8 fret 0
+* TODO mod 1 skip 11: 31-lim 7x9, octave (7,3), good all around
+   [ 0 steps; 1 % 1 ; string 0 ; fret 0
+   , 80 steps; 2 % 1 ; string 7 ; fret 3
+   , 47 steps; 3 % 2 ; string 4 ; fret 3
+   , 26 steps; 5 % 4 ; string 2 ; fret 4
+   , 65 steps; 7 % 4 ; string 6 ; fret - 1
+   , 14 steps; 9 % 8 ; string 1 ; fret 3
+   , 37 steps; 11 % 8 ; string 3 ; fret 4
+   , 56 steps; 13 % 8 ; string 5 ; fret 1
+   , 73 steps; 15 % 8 ; string 7 ; fret - 4
+   , 7 steps; 17 % 16 ; string 1 ; fret - 4
+   , 20 steps; 19 % 16 ; string 2 ; fret - 2
+   , 31 steps; 21 % 16 ; string 3 ; fret - 2
+   , 42 steps; 23 % 16 ; string 4 ; fret - 2
+   , 52 steps; 25 % 16 ; string 5 ; fret - 3
+   , 60 steps; 27 % 16 ; string 5 ; fret 5
+   , 69 steps; 29 % 16 ; string 6 ; fret 3
+   , 76 steps; 31 % 16 ; string 7 ; fret - 1
+* TODO mod 1 skip 9: span 7, octave (9,-1), great 4::8
+ 7 steps = 17 % 16: str 1 fret -2
+20 steps = 19 % 16: str 2 fret  2
+26 steps = 5 % 4:   str 3 fret -1
+37 steps = 11 % 8:  str 4 fret  1
+42 steps = 23 % 16: str 5 fret -3 | str 4 fret 6
+47 steps = 3 % 2:   str 5 fret  2
+56 steps = 13 % 8:  str 6 fret  2
+65 steps = 7 % 4:   str 7 fret  2
+69 steps = 29 % 16: str 8 fret -3 | str 7 fret 6
+76 steps = 31 % 16: str 8 fret  4
+80 steps = 2 % 1:   str 9 fret -1
+* 80 2 13
+       [ 80 steps = 2 % 1 : string 6 fret 1
+       , 47 steps = 3 % 2 : string 3 fret 4
+       , 26 steps = 5 % 4 : string 2 fret 0
+       , 65 steps = 7 % 4 : string 5 fret 0
+       , 37 steps = 11 % 8 : string 3 fret - 1
+       , 56 steps = 13 % 8 : string 4 fret 2
+       , 7 steps = 17 % 16 : string 1 fret - 3
+       , 20 steps = 19 % 16 : string 2 fret - 3
+       , 42 steps = 23 % 16 : string 2 fret 8
+       , 69 steps = 29 % 16 : string 5 fret 2
+       , 76 steps = 31 % 16 : string 6 fret - 1
+* 80 4 11
+       [ 80 steps = 2 % 1 : string 8 fret - 2
+       , 47 steps = 3 % 2 : string 5 fret - 2
+       , 26 steps = 5 % 4 : string 2 fret 1
+       , 65 steps = 7 % 4 : string 7 fret - 3
+       , 37 steps = 11 % 8 : string 3 fret 1
+       , 56 steps = 13 % 8 : string 4 fret 3
+       , 7 steps = 17 % 16 : string 1 fret - 1
+       , 20 steps = 19 % 16 : string 0 fret 5
+       , 42 steps = 23 % 16 : string 2 fret 5
+       , 69 steps = 29 % 16 : string 7 fret - 2
+       , 76 steps = 31 % 16 : string 4 fret 8
+* 80 4 17
+       [ 80 steps = 2 % 1 : string 4 fret 3
+       , 47 steps = 3 % 2 : string 3 fret - 1
+       , 26 steps = 5 % 4 : string 2 fret - 2
+       , 65 steps = 7 % 4 : string 5 fret - 5
+       , 37 steps = 11 % 8 : string 1 fret 5
+       , 56 steps = 13 % 8 : string 4 fret - 3
+       , 7 steps = 17 % 16 : string - 1 fret 6
+       , 20 steps = 19 % 16 : string 0 fret 5
+       , 42 steps = 23 % 16 : string 2 fret 2
+       , 69 steps = 29 % 16 : string 5 fret - 4
+       , 76 steps = 31 % 16 : string 4 fret 2
+* 80 5 16
+       [ 80 steps = 2 % 1 : string 5 fret 0
+       , 47 steps = 3 % 2 : string 2 fret 3
+       , 26 steps = 5 % 4 : string 1 fret 2
+       , 65 steps = 7 % 4 : string 5 fret - 3
+       , 37 steps = 11 % 8 : string 2 fret 1
+       , 56 steps = 13 % 8 : string 1 fret 8
+       , 7 steps = 17 % 16 : string - 3 fret 11
+       , 20 steps = 19 % 16 : string 0 fret 4
+       , 42 steps = 23 % 16 : string 2 fret 2
+       , 69 steps = 29 % 16 : string 4 fret 1
+       , 76 steps = 31 % 16 : string 1 fret 12
+* TODO 80 7 11: beats 80 1 11 on a keyboard
+       [ 80 steps = 2 % 1 : string 6 fret 2
+       , 47 steps = 3 % 2 : string 3 fret 2
+       , 26 steps = 5 % 4 : string 3 fret - 1
+       , 65 steps = 7 % 4 : string 4 fret 3
+       , 37 steps = 11 % 8 : string 4 fret - 1
+       , 56 steps = 13 % 8 : string 7 fret - 3
+       , 7 steps = 17 % 16 : string 0 fret 1
+       , 20 steps = 19 % 16 : string - 2 fret 6
+       , 42 steps = 23 % 16 : string 0 fret 6
+       , 69 steps = 29 % 16 : string 5 fret 2
+       , 76 steps = 31 % 16 : string 5 fret 3

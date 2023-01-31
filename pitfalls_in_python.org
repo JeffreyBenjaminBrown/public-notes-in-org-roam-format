@@ -2,6 +2,8 @@
 :ID:       c2a0f1ef-2a86-4704-84cf-0c974edd237a
 :END:
 #+title: PITFALLs in Python
+* Remember to use "return" when defining a function.
+  Otherwise it's only doing side effects and/or wasting CPU.
 * [[id:8d01221b-6fe3-4c76-83cd-48c8fd9440e5][Dynamic typing makes data builtin data structures slow.]]
 * After moving a class function to open code, change the keyword "self".
   It will be allowed,
