@@ -2,6 +2,8 @@
 :ID:       a0f72fa0-6930-4b6b-a570-93a4748895bb
 :END:
 #+title: concurrent programming
+* Software Transactional Memory
+  is the best way.
 * some vocab
   :PROPERTIES:
   :ID:       0d2d4114-b031-412e-81d7-26bd7c67f7f5

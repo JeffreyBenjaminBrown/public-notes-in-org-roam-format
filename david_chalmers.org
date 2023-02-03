@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       46d23af5-e0eb-4e71-88b7-f84693905d93
+:END:
+#+title: David Chalmers
+* his talk on [[id:44454a37-5875-4709-8534-10f9bfcd1694][consciousness in LLMs]]

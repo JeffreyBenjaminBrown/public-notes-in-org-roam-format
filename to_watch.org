@@ -80,6 +80,8 @@
    Grace, who I met that day, recommended after watching "Everything Everywhere ..."
    Sandy didn't like it.
 * DONE
+** [[id:46d23af5-e0eb-4e71-88b7-f84693905d93][David Chalmers]]
+** [[id:44454a37-5875-4709-8534-10f9bfcd1694][consciousness in LLMs: a talk by David Chalmers]]
 ** "[[id:a35db7a3-3341-46ae-9577-eedfc7f45afd][How to run a tech giant]]"
 ** Love death and robots
    Watched a lot of them. Very hit or miss.

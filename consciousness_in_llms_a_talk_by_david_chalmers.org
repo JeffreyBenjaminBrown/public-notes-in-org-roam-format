@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       44454a37-5875-4709-8534-10f9bfcd1694
+:END:
+#+title: consciousness in LLMs: a talk by David Chalmers
+* ref
+  https://nips.cc/virtual/2022/invited-talk/55867?s=08
+* arguments against = research program for
+  A list of arguments current AI is not conscious
+  (his last slide)
+  is exactly a set of research programs for making conscious AI.
