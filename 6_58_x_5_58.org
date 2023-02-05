@@ -1,0 +1,66 @@
+:PROPERTIES:
+:ID:       beabbc24-aa01-49c4-a4e2-7f610ff2e44f
+:END:
+#+title: 6\58 x 5\58
+* good for Lumatone. 23-lim minus 11,19 in 8x3; 23-lim minus 19 in 8x4; 29-lim minus 25 in 8x5
+* layout
+  00 steps; 01 % 01; string  0;  fret 0
+  05 steps; 17 % 16; string  0;  fret 1
+  10 steps; 09 % 08; string  0;  fret 2
+  14 steps; 19 % 16; string -1;  fret 4
+  19 steps; 05 % 04; string  4;  fret -1
+  23 steps; 21 % 16; string  3;  fret 1
+  27 steps; 11 % 08; string  2;  fret 3
+  30 steps; 23 % 16; string  5;  fret 0
+  34 steps; 03 % 02; string  4;  fret 2
+  37 steps; 25 % 16; string  2;  fret 5
+  41 steps; 13 % 08; string  6;  fret 1
+  44 steps; 27 % 16; string  4;  fret 4
+  47 steps; 07 % 04; string  7;  fret 1
+  50 steps; 29 % 16; string  5;  fret 4
+  53 steps; 15 % 08; string  8;  fret 1
+  55 steps; 31 % 16; string  5;  fret 5
+  58 steps; 02 % 01; string  8;  fret 2
+
+  Since the octave is at (8,2),
+  harmonics 27, 29 and 31 are easier to reach than they appear.
+  (And harmonic 29 blends great with the 17-limit.)
+* TODO how I would map it to the Lumatone
+  Strings obviously increase going rightward horizontal-ish.
+  Frets could either increase going down, or going left-up.
+  If frets increase going down, octaves are nearly perfectly horizontal.
+  Otherwise they are very diagonal, but maybe still playable.
+* picture: the most useful harmonics
+  ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+
+  ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· 1· ·· ·· ·· ·· ·· ·· ·· ··
+
+  ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· 5· 6· 7· ··
+
+  ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· 9· ·· ·· ·· 3· ·· ·· ·· 2·
+
+  ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· 11 ·· ·· ·· ·· ·· ··
+
+  ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+
+  ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· 5· ·· ·· ·· ·· ·· ·· ·· ·· ··
+
+  ·· ·· ·· ·· ·· ·· 1· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+
+  ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· 5· 6· 7· ·· ·· ·· ·· 5' ·· ·· ·· ··
+
+  ·· ·· ·· ·· ·· ·· 9· ·· ·· ·· 3· ·· ·· ·· 2· ·· ·· ·· ·· ·· ·· ·· ··
+
+  ·· ·· ·· ·· ·· ·· ·· ·· 11 ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· 5' 6' 7' ··
+
+  ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· 9' ·· ·· ·· 3' ·· ·· ·· 4·
+
+  ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· 11'·· ·· ·· ·· ·· ··
+
+  ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+
+  ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+* dumb link
+   :PROPERTIES:
+   :ID:       a291f843-ee45-40e9-923e-badfe65654a7
+   :END:

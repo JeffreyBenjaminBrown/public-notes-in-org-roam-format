@@ -240,6 +240,36 @@
    , 50 steps; 29 % 16 ; string 4 ; fret - 1
    # , 55 steps; 31 % 16 ; string 3 ; fret 8
 * layouts
+** TODO 6\58 x 1\58: octave 9-4, height 5, ok 4:5:6:7:8
+   0  steps;  1 % 1; string 0; fret 0
+   58 steps;  2 % 1; string 9; fret 4
+   34 steps;  3 % 2; string 5; fret 4
+   19 steps;  5 % 4; string 3; fret 1
+   47 steps;  7 % 4; string 7; fret 5
+   10 steps;  9 % 8; string 1; fret 4
+   27 steps; 11 % 8; string 4; fret 3
+   41 steps; 13 % 8; string 6; fret 5
+   53 steps; 15 % 8; string 8; fret 5
+** TODO 7\58 x 2\58: oct 8-1, height 5, rough 4:5:6 split,
+   0  steps;  1 % 1; string 0; fret 0
+   58 steps;  2 % 1; string 8; fret 1
+   34 steps;  3 % 2; string 4; fret 3
+   19 steps;  5 % 4; string 3; fret -1
+   47 steps;  7 % 4; string 7; fret -1
+   10 steps;  9 % 8; string 2; fret -2
+   27 steps; 11 % 8; string 3; fret 3
+   41 steps; 13 % 8; string 5; fret 3
+   53 steps; 15 % 8; string 7; fret 2
+** TODO 8\58 x 7\58: octave 9-2, max stretch 6, only 15 is off-axis
+   0 steps; 1 % 1; string 0; fret 0
+   58 steps; 2 % 1; string 9; fret -2
+   34 steps; 3 % 2; string 6; fret -2
+   19 steps; 5 % 4; string 5; fret -3
+   47 steps; 7 % 4; string 5; fret 1
+   10 steps; 9 % 8; string 3; fret -2
+   27 steps; 11 % 8; string 6; fret -3
+   41 steps; 13 % 8; string 6; fret -1
+   53 steps; 15 % 8; string 4; fret 3
 ** 7\58 x 3\58: super-wide; bad 5:4
     0 steps; 01 % 1; string 0; fret  0
    10 steps; 09 % 8; string 1; fret  1
@@ -252,38 +282,18 @@
    58 steps; 02 % 1; string 7; fret  3
    53 steps; 15 % 8; string 8; fret -1
                      string 5; fret  6
-** TODO 6\58 x 5\58: good for Lumatone. 23-lim minus 11,19 in 8x3; 23-lim minus 19 in 8x4; 29-lim minus 25 in 8x5
-   :PROPERTIES:
-   :ID:       a291f843-ee45-40e9-923e-badfe65654a7
-   :END:
-*** layout
-    00 steps; 01 % 01; string  0;  fret 0
-    05 steps; 17 % 16; string  0;  fret 1
-    10 steps; 09 % 08; string  0;  fret 2
-    14 steps; 19 % 16; string -1;  fret 4
-    19 steps; 05 % 04; string  4;  fret -1
-    23 steps; 21 % 16; string  3;  fret 1
-    27 steps; 11 % 08; string  2;  fret 3
-    30 steps; 23 % 16; string  5;  fret 0
-    34 steps; 03 % 02; string  4;  fret 2
-    37 steps; 25 % 16; string  2;  fret 5
-    41 steps; 13 % 08; string  6;  fret 1
-    44 steps; 27 % 16; string  4;  fret 4
-    47 steps; 07 % 04; string  7;  fret 1
-    50 steps; 29 % 16; string  5;  fret 4
-    53 steps; 15 % 08; string  8;  fret 1
-    55 steps; 31 % 16; string  5;  fret 5
-    58 steps; 02 % 01; string  8;  fret 2
-
-    Since the octave is at (8,2),
-    harmonics 27, 29 and 31 are easier to reach than they appear.
-    (And harmonic 29 blends great with the 17-limit.)
-*** TODO how I would map it to the Lumatone
-    Strings obviously increase going rightward horizontal-ish.
-    Frets could either increase going down, or going left-up.
-    If frets increase going down, octaves are nearly perfectly horizontal.
-    Otherwise they are very diagonal, but maybe still playable.
-** TODO 58 f6 s7: octave (4,5), span 5x5, 124c frets
+** 9\58 x 2\58: octave (6,2), 15-lim max stretch 7
+   0  steps;  1 % 1; string 0; fret 0
+   58 steps;  2 % 1; string 6; fret 2
+   34 steps;  3 % 2; string 4; fret -1
+   19 steps;  5 % 4; string 1; fret 5
+   47 steps;  7 % 4; string 5; fret 1
+   10 steps;  9 % 8; string 0; fret 5
+   27 steps; 11 % 8; string 3; fret 0
+   41 steps; 13 % 8; string 5; fret -2
+   53 steps; 15 % 8; string 5; fret 4
+** TODO [[id:beabbc24-aa01-49c4-a4e2-7f610ff2e44f][6\58 x 5\58]]:
+** TODO 7\58 x 6\58: octave (4,5), span 5x5, 124c frets
    Good for a uke, etc.
     ( Edo 58 ; StringGap 7 ; FretGap 6
         [  0 steps;  1 % 1 ; string 0   ; fret 0
@@ -294,7 +304,7 @@
         , 10 steps;  9 % 8 ; string - 2 ; fret 4
         , 27 steps; 11 % 8 ; string 3   ; fret 1
         , 41 steps; 13 % 8 ; string 5   ; fret 1
-** TODO 58 f7 s10: octave (3,4), 13-lim 4x7, 15-lim 6x7, 140c frets
+** TODO 10\58 x 7\58: octave (3,4), 13-lim 4x7, 15-lim 6x7, 140c frets
    Good for a uke, etc.
    ( Edo 58 ; StringGap 10 ; FretGap 7
     [  0 steps;  1 % 1 ; string 0 ; fret 0
@@ -306,7 +316,7 @@
     , 27 steps; 11 % 8 ; string 2 ; fret 1
     , 41 steps; 13 % 8 ; string 2 ; fret 3
     , 53 steps; 15 % 8 ; string 6 ; fret - 1
-** TODO 58 2 15: octave (4,-1), 15-lim 4x8, 31-lim 4x12
+** TODO 15\15 x 2\58: octave (4,-1), 15-lim 4x8, 31-lim 4x12
 *** layout
     0 steps;  1 % 1  ; string 0 ; fret  0
    58 steps;  2 % 1  ; string 4 ; fret -1
@@ -331,7 +341,7 @@
     :END:
     A guitar could use 58 2 15 on the low frets,
     and 58 4 15 on the high ones.
-** TODO 58 4 15: octave (2,7), 15-lim 3x13 or 5x11 (or 3x9 ignoring 9:8)
+** TODO 15\58 x 4\58: octave (2,7), 15-lim 3x13 or 5x11 (or 3x9 ignoring 9:8)
 *** [[id:7ca8eac9-df44-4894-9ada-ade23af32774][pairs well with 58 2 15]]
 *** 17-lim layout: all but 2,7,9, 17 easy
     and 7 is easy once you've located 2, or vice-versa
@@ -367,7 +377,7 @@
     , 44 steps; 27 % 16 ; string 0 ; fret 11
     , 50 steps; 29 % 16 ; string 2 ; fret 5
     , 55 steps; 31 % 16 ; string 1 ; fret 10
-** TODO 58 2 13: octave (4,3), 15-lim 4x7, 31-lim 5x10
+** TODO 13\58 x 2\58: octave (4,3), 15-lim 4x7, 31-lim 5x10
    :PROPERTIES:
    :ID:       3d0440f4-ef24-4ada-b75c-9ba23f7702a1
    :END:
@@ -414,7 +424,7 @@
   the next-best      14c error instead of -7c
   located at         str 4 fret 2
   plays better with harmonics 5, 11, 13, 29 (and the 2nd-best 19 and 23)
-** TODO 58 4 13: 23-limit 6x8, octave (6,-5) or (2,8)
+** TODO 13\58 x 4\58: 23-limit 6x8, octave (6,-5) or (2,8)
    [[id:c9cda248-a07a-49e5-a0b0-e0e4f768d46e][pairs well with 58 2 13]]
    Octave at (4,1.5) reachable with a Whammy pedal.
 *** 17-lim: 2, 13 and 15 span many strings, otherwise decent
@@ -450,7 +460,7 @@
     , 44 steps; 27 % 16 ; string 4 ; fret - 2
     , 50 steps; 29 % 16 ; string 6 ; fret - 7
     , 55 steps; 31 % 16 ; string 3 ; fret 4
-** 58 2 11: horrible major chords
+** 11\58 x 2\58: horrible major chords
  5 steps = 17 % 16 : str 1 fret -3 | str -1 fret 8
 14 steps = 19 % 16 : str 2 fret -4 | str 0 fret 7
 19 steps = 5 % 4   : str 2 fret  4 | str 3 fret -7
@@ -462,7 +472,7 @@
 50 steps = 29 % 16 : str 4 fret 3
 55 steps = 31 % 16 : str 5 fret 0
 58 steps = 2 % 1   : str 6 fret -4
-** TODO 58 3 11: 19-ish frets, 31-lim 5x9
+** TODO 11\58 x 3\58: 19-ish frets, 31-lim 5x9
    :PROPERTIES:
    :ID:       f54b7c5d-4de7-4e43-9f02-7b68e73d1560
    :END:
@@ -488,7 +498,7 @@
     , 44 steps; 27 % 16 ; string 4 ; fret 0
     , 50 steps; 29 % 16 ; string 4 ; fret 2
     , 55 steps; 31 % 16 ; string 5 ; fret 0
-** TODO 58 3 13: 19-ish frets, wide 3/2
+** TODO 13\58 x 3\58: 19-ish frets, wide 3/2
    [  0 steps;  1 % 1 ; string 0 ; fret 0
    , 58 steps;  2 % 1 ; string 4 ; fret 2
    , 34 steps;  3 % 2 ; string 1 ; fret 7
@@ -497,7 +507,7 @@
    , 10 steps;  9 % 8 ; string 1 ; fret - 1
    , 27 steps; 11 % 8 ; string 0 ; fret 9
    , 41 steps; 13 % 8 ; string 2 ; fret 5
-** TODO 58 6 13 : (9 + 2/3)-edo guitar, octave (4,1), pretty tight
+** TODO 13\58 x 6\58: (9 + 2/3)-edo guitar, octave (4,1), pretty tight
     [ 0 steps; 1 % 1 ; string 0 ; fret 0
     , 58 steps; 2 % 1 ; string 4 ; fret 1
     , 34 steps; 3 % 2 ; string 4 ; fret - 3
@@ -515,7 +525,7 @@
     , 44 steps; 27 % 16 ; string 2 ; fret 3
     , 50 steps; 29 % 16 ; string 2 ; fret 4
     , 55 steps; 31 % 16 ; string 1 ; fret 7
-** 58 7 13: 6 string 7 fret 19-limit
+** 13\58 x 7\58: 6 string 7 fret 19-limit
         [ 58 steps = 2 % 1 : string 5 fret - 1
         , 34 steps = 3 % 2 : string 1 fret 3
         , 19 steps = 5 % 4 : string 2 fret - 1
@@ -527,7 +537,7 @@
         , 30 steps = 23 % 16 : string - 2 fret 8
         , 50 steps = 29 % 16 : string - 1 fret 9
         , 55 steps = 31 % 16 : string 1 fret 6
-** 58 s8 f5: octaves at (6,2) and (1,10), 31-lim in 6s x 7f
+** 8\58 x 5\58: octaves at (6,2) and (1,10), 31-lim in 6s x 7f
     [ 0  steps;  1 %  1 ; string 0 ; fret 0
     , 58 steps;  2 %  1 ; string 6 ; fret 2
     , 34 steps;  3 %  2 ; string 3 ; fret 2
