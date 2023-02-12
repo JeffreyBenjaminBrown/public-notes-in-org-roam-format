@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       82536be9-c17e-4594-bd29-799cb7ba09f9
+:ROAM_ALIASES: "7\46d x 4\46r"
 :END:
-#+title: isomorphic layout 4\46 x 7\46
+#+title: isomorphic layout 7\46d x 4\46r
 Flat, tight, easy 5-lim, not too strange.
 * on the Lumatone
   :PROPERTIES:
@@ -15,17 +16,17 @@ Flat, tight, easy 5-lim, not too strange.
     <2023-01-22 Sun>
 *** it
     A:440 is the green button just right of the white line
-* layout
-  [ 0  steps; 1 % 1;  string 0; fret 0
-  , 21 steps; 11 % 8; string 0; fret 3
-                      string 7; fret -1
-  , 8  steps; 9 % 8;  string 2; fret 0
-  , 15 steps; 5 % 4;  string 2; fret 1
-  , 37 steps; 7 % 4;  string 4; fret 3
-  , 27 steps; 3 % 2;  string 5; fret 1
-  , 42 steps; 15 % 8; string 7; fret 2
-  , 32 steps; 13 % 8; string 8; fret 0
-  , 46 steps; 2 % 1;  string 8; fret 2
+* layout of 4\46 x 7\46
+  00 steps; 1 % 1;  string 0; fret 0
+  21 steps; 11 % 8; string 0; fret 3
+                    string 7; fret -1
+  08 steps; 9 % 8;  string 2; fret 0
+  15 steps; 5 % 4;  string 2; fret 1
+  37 steps; 7 % 4;  string 4; fret 3
+  27 steps; 3 % 2;  string 5; fret 1
+  42 steps; 15 % 8; string 7; fret 2
+  32 steps; 13 % 8; string 8; fret 0
+  46 steps; 2 % 1;  string 8; fret 2
 * picture : The most useful harmonics.
 
    ·· ·· ·· ·· ·· ·· ··_11 ·· ·· ··_7  ·· ·· ·· ·· 19 5· ·· ·· 3· ·· 27 ·· ··

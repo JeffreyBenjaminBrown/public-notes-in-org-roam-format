@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       6118a7ad-24d6-447f-947d-30e2e16de96f
+:END:
+#+title: 5\58 x 4\58u
+* octave 10-2, height 4, well-behaved
+* layout
+  0  steps; 1  % 1; string 0;  fret 0
+  10 steps; 9  % 8; string 2;  fret 0
+  19 steps; 5  % 4; string 3;  fret 1
+  27 steps; 11 % 8; string 3;  fret 3
+  34 steps; 3  % 2; string 6;  fret 1
+  41 steps; 13 % 8; string 9;  fret -1
+  47 steps; 7  % 4; string 7;  fret 3
+  53 steps; 15 % 8; string 9;  fret 2
+  58 steps; 2  % 1; string 10; fret 2

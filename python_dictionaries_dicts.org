@@ -28,3 +28,10 @@
   { k: f(v)
     for k, v
     in my_dictionary.items () }
+* dictionary comprehension (with filter)
+  # This evaluates to {1:2}.
+  { k:v
+    for k,v in ( { 1:2,
+                   3:None }
+                 . items() ) # IMPORTANT
+    if not(v is None) }

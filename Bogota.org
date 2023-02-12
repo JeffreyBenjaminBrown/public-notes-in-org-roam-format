@@ -4,6 +4,7 @@
 #+title: Bogotá
 * [[id:7c28ad7b-347f-49d9-b999-764bf1b9ec73][restaurants in Bogotá]]
 * [[id:6b0f52c1-9b63-4f15-9d2c-02cef16f1825][builders in Bogotá]] | contractors (construction, demolition) in Bogotá
+* [[id:42fea591-68ff-46b8-82db-97b2bd714769][lawyers in Bogotá]]
 * hotels in Bogotá
 ** [[id:ce295e0b-599c-4eae-b084-fcf197cef9e8][Hotel Suamox]]
 * [[id:c9111834-29bf-49c6-be86-6b633e21ba04][costureras in Bogotá]]

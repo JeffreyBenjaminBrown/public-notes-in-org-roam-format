@@ -15,6 +15,16 @@
    34 steps;  2 % 1; string  5; fret 2
    24 steps; 13 % 8; string  6; fret 0
    31 steps; 15 % 8; string  6; fret 1
+* 4\34 x 1\34u: octave 8-2, fret height 4
+  00 steps; 1  % 1; string 0; fret 0
+  06 steps; 9  % 8; string 1; fret 2
+  11 steps; 5  % 4; string 3; fret -1
+  16 steps; 11 % 8; string 4; fret 0
+  20 steps; 3  % 2; string 5; fret 0
+  24 steps; 13 % 8; string 6; fret 0
+  27 steps; 7  % 4; string 6; fret 3
+  31 steps; 15 % 8; string 7; fret 3
+  34 steps; 2  % 1; string 8; fret 2
 * TODO 8\34 x -3\34: flat, weird (3:2 at (4,4)), Bosanquet octaves
 ** PITFALL: This layout includes manual mods.
    bestLayout' gives some very vertical positions.
@@ -31,7 +41,8 @@
                         string 5; fret  3
     , 34 steps; 2  % 1; string 2; fret -6
                         string 5; fret  2
-* DONE 7\34 x 3\34: flat*, 15-lim in 4x4, good on Lumatone
+* DONE 7\34r x 3\34dr: flat*, 15-lim in 4x4, good on Lumatone
+** equal to 7\34r x 4\34u
 ** (*) its biggest jump
    (2,-1) to (1,3) = downright 3 and left 1
 ** layout
@@ -47,7 +58,7 @@
    It is the sharp approximation to 7%4.
    The flat, more accurate 7%4
    plays badly with the others.
-* TODO 2\34 x 9\34: 2 at 4:-1, good for guitar
+* TODO 2\34 x 9\34: 2 at 4:-1, beatuiful 4:5:6:7:8, good for guitar
   but Kite seems better without crazy many strings
 ** layout
    0  steps;  1 % 1; string 0; fret 0
@@ -63,6 +74,26 @@
      # at 28 steps, (4,-3) or (2,6)
    31 steps; 15 % 8; string 3; fret 2
    34 steps;  2 % 1; string 4; fret -1
+* 5\34 x 2\34u: octave 8-3, fret height 4
+  00 steps; 1  % 1; string 0; fret 0
+  06 steps; 9  % 8; string 2; fret -2
+  11 steps; 5  % 4; string 3; fret -2
+  16 steps; 11 % 8; string 4; fret -2
+  20 steps; 3  % 2; string 4; fret 0
+  24 steps; 13 % 8; string 6; fret -3
+  27 steps; 7  % 4; string 7; fret -4
+  31 steps; 15 % 8; string 7; fret -2
+  34 steps; 2  % 1; string 8; fret -3
+* 5\34 x 1\34u: octave 7-1, fret height 4, everything but 7:4 near-linear
+  00 steps; 1  % 1; string 0; fret 0
+  06 steps; 9  % 8; string 1; fret 1
+  11 steps; 5  % 4; string 2; fret 1
+  16 steps; 11 % 8; string 3; fret 1
+  20 steps; 3  % 2; string 4; fret 0
+  24 steps; 13 % 8; string 5; fret -1
+  27 steps; 7  % 4; string 6; fret -3
+  31 steps; 15 % 8; string 6; fret 1
+  34 steps; 2  % 1; string 7; fret -1
 * 7\34 x 1\34
   00 steps;  1 % 1; string 0; fret 0
   06 steps;  9 % 8; string 1; fret -1

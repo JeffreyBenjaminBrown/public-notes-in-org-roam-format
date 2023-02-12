@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       be117a75-5f94-49b0-b384-9c73a0e40222
+:END:
+#+title: Topology is global. Geoetry and curvature are local.

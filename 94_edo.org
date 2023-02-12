@@ -9,23 +9,25 @@
    19\94 x 9\94 => easy harmonics 17, 23, unlike Bosanquet
    19\94 x 9\94 => hard harmonics 11, 19, unlike Bosanquet
 * TODO 16\94 x 7\94 = Bosanquet
-  [ 0 steps; 1 % 1 ; string 0 ; fret 0
-  , 94 steps; 2 % 1 ; string 5 ; fret 2
-  , 55 steps; 3 % 2 ; string 3 ; fret 1
-  , 30 steps; 5 % 4 ; string 1 ; fret 2
-  , 76 steps; 7 % 4 ; string 3 ; fret 4
-  , 16 steps; 9 % 8 ; string 1 ; fret 0
-  , 43 steps; 11 % 8 ; string 4 ; fret - 3
-  , 66 steps; 13 % 8 ; string 5 ; fret - 2
-  , 85 steps; 15 % 8 ; string 4 ; fret 3
-  , 8 steps; 17 % 16 ; string 4 ; fret - 8
-  , 23 steps; 19 % 16 ; string 1 ; fret 1
-  , 37 steps; 21 % 16 ; string 1 ; fret 3
-  , 49 steps; 23 % 16 ; string 0 ; fret 7
-  , 61 steps; 25 % 16 ; string 6 ; fret - 5
-  , 71 steps; 27 % 16 ; string 4 ; fret 1
-  , 81 steps; 29 % 16 ; string 2 ; fret 7
-  , 90 steps; 31 % 16 ; string 3 ; fret 6
+** [[id:03917c1e-ebf9-4ecb-84ff-07f5b7a2fd57][The 41-edo and 94-edo Bosanquet layouts are similar in the 15-limit.]]
+** layout
+   00 steps; 1  % 1 ; string 0 ; fret 0
+   16 steps; 9  % 8 ; string 1 ; fret 0
+   30 steps; 5  % 4 ; string 1 ; fret 2
+   43 steps; 11 % 8 ; string 4 ; fret - 3
+   55 steps; 3  % 2 ; string 3 ; fret 1
+   66 steps; 13 % 8 ; string 5 ; fret - 2
+   76 steps; 7  % 4 ; string 3 ; fret 4
+   85 steps; 15 % 8 ; string 4 ; fret 3
+   94 steps; 2  % 1 ; string 5 ; fret 2
+   08 steps; 17 % 16 ; string 4 ; fret - 8
+   23 steps; 19 % 16 ; string 1 ; fret 1
+   37 steps; 21 % 16 ; string 1 ; fret 3
+   49 steps; 23 % 16 ; string 0 ; fret 7
+   61 steps; 25 % 16 ; string 6 ; fret - 5
+   71 steps; 27 % 16 ; string 4 ; fret 1
+   81 steps; 29 % 16 ; string 2 ; fret 7
+   90 steps; 31 % 16 ; string 3 ; fret 6
 * TODO 19\94 x 9\94
 ** the layout
    [ 0 steps; 1 % 1 ; string 0 ; fret 0

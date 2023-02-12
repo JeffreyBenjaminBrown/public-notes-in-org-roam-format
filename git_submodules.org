@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       2a580607-a59b-408d-b27c-b6c4dd94a14b
+:END:
+#+title: git submodules
+* ref
+  https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial
+* To put a git submodule in a git module:
+  git submodule add <path to remote repo> [folder name]
+  git submodule add git@github.com:ofiscal/utilities ofiscal_utils
+* To clone a module with submodules
+  git clone <supermodule>
+    # At this point the submodule folders are empty.
+  git submodule init
+    # The results of this can be seen by running
+    # git config -l
+    # and looking for the word "submodule"
+  git submodule update
+    # checks out the commits specified in the supermodule
+* submodule update vs. submodule add
+  """One major difference between "submodule update" and "submodule add" is that "update" checks out a specific commit, rather than the tip of a branch."""
+* PITFALL: don't use a forward slash after the submodule name
+  when running "git add submodule"
+* PITFALL: Publish submodule changes before supermodule ones.
+* PITFALL: Removing one is tricky.
+  serial
+** Delete the relevant line from the .gitmodules file.
+** Delete the relevant section from .git/config.
+** Run git rm --cached path_to_submodule (no trailing slash).
+** Commit the superproject.
+** Delete the now untracked submodule files.

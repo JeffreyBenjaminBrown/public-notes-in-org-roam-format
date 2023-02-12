@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       03917c1e-ebf9-4ecb-84ff-07f5b7a2fd57
+:END:
+#+title: The 41-edo and 94-edo Bosanquet layouts are similar in the 15-limit.
+Every 15-limit ratio's position in the Bosanquet layout
+is *one of* its positions in the 41-edo layout.

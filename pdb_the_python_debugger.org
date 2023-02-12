@@ -9,22 +9,22 @@ https://docs.python.org/3/library/pdb.html
 ** execution
    Ordered by size:
    The first of these advances the least.
-*** s(tep)
+*** s(tep): next or down
     "Traverse" the current line.
     Stop at the first possible occasion:
       either in a function that is called,
       or on the next line in the current function.
-*** n(ext)
+*** n(ext): next skipping any down
     Continue execution until either
       the next line in the current function is reached,
       or the current function returns.
-*** r(eturn)
+*** r(eturn): up
     Continue execution until the current function returns.
-*** c(ont(inue))
+*** c(ont(inue)
     Continue execution,
     only stop when a breakpoint is encountered.
 ** inspection
-*** l(ist) [first[, last]]
+*** l(ist) [first[, last]]: show code
     List source code for the current file.
 **** With . as argument
      list 11 lines around the current line.
@@ -32,11 +32,11 @@ https://docs.python.org/3/library/pdb.html
      list 11 lines around the current line or continue the previous listing.
 *** a(rgs)
     Print the argument list of the current function.
-*** p expression
+*** p <expr> : evaluate
     Evaluate the expression in the current context and print its value.
 *** pp: like p, but pretty-print
 *** whatis expression
     Print the type of the expression.
-** interact
+** interact: start an interpreter
    Start an interactive interpreter (using the code module) whose global namespace contains all the (global and local) names found in the current scope.
 ** (q)uit

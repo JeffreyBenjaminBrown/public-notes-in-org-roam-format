@@ -4,35 +4,15 @@
 #+title: 46-edo isomorphic layouts
 * [[id:7dcff6ba-7086-4c81-bf95-6dc12e8ae897][46-edo is fat-finger friendly with 92-edo.]]
 * winners & apparent winners
-** for the Lumatone: [[id:82536be9-c17e-4594-bd29-799cb7ba09f9][isomorphic layout 4\46 x 7\46]]
-** for a guitar: [[id:40bd3898-4fc7-4185-a924-c598c7e7baf9][isomorphic layout 9\46 x 2\46]]
+** for the Lumatone
+*** [[id:82536be9-c17e-4594-bd29-799cb7ba09f9][4\46 x 7\46]]: octave 8|2, height 5
+*** [[id:51ca5eaf-93d1-4a91-85cf-53291ec764ba][5\46 x 2\46u]]: octave 8-3, height 4
+*** [[id:91f7ed27-0f42-4a0f-b9d2-fa914f6d74c7][5\46 x 1\46]]: octave 9|1, height 4, very linear
+** TODO for a guitar
+*** TODO look for more
+*** [[id:40bd3898-4fc7-4185-a924-c598c7e7baf9][isomorphic layout 9\46 x 2\46]]
 * layouts
-** TODO 5\46 x 2\46: Lumatone-good, 15-lim in 8x4
-*** layout
-    00 steps; 01 %  1; string 0; fret 0
-    04 steps; 17 % 16; string 0; fret 2
-    08 steps; 09 %  8; string 0; fret 4 | string 2; fret -1
-    11 steps; 19 % 16; string 1; fret 3
-    15 steps; 05 %  4; string 3; fret 0
-    18 steps; 21 % 16; string 2; fret 4 | string 4; fret -1
-    21 steps; 11 %  8; string 3; fret 3 | string 5; fret -2
-    24 steps; 23 % 16; string 4; fret 2
-    27 steps; 03 %  2; string 5; fret 1
-    30 steps; 25 % 16; string 6; fret 0
-    32 steps; 13 %  8; string 6; fret 1
-    35 steps; 27 % 16; string 7; fret 0
-    37 steps; 07 %  4; string 7; fret 1
-    39 steps; 29 % 16; string 7; fret 2
-    42 steps; 15 %  8; string 8; fret 1
-    44 steps; 31 % 16; string 8; fret 2
-    46 steps; 02 %  1; string 8; fret 3
-*** comparison: very similar to [[id:a291f843-ee45-40e9-923e-badfe65654a7][6\58 x 5\58]]
-    On average they both move up 127c each horizontal step.
-    The 46-edo layout has much more convenient 5:4, 3:2 and 9:8.
-    Their 11:8s and 2:1s are very slightly different.
-    Every other harmonic is in the same place.
-    46-edo will require far less transposition, if any.
-    Both are equally horizontal.
+** TODO [[id:51ca5eaf-93d1-4a91-85cf-53291ec764ba][5\46 x 2\46u]]: octave 8-3, 15-lim in 8x4
 ** 9\46 x 1\46: My benchmark, 13- and 31-lim both in 5x7
    0  steps;  1 % 1;  string 0; fret 0
    46 steps;  2 % 1;  string 5; fret 1
@@ -61,17 +41,32 @@
    37 steps;  7 % 4; string 6; fret 1
    42 steps; 15 % 8; string 7; fret 0
    46 steps;  2 % 1; string 7; fret 4
-** TODO 7\46 x 2\46: Lumatone-feasible
+** TODO 11\46 x 2\46: octave 4-1, fret width 8, guitar-good
+   00 steps; 1  % 1; string 0; fret 0
+   08 steps; 9  % 8; string 0; fret 4
+   15 steps; 5  % 4; string 1; fret 2
+   21 steps; 11 % 8; string 1; fret 5
+   27 steps; 3  % 2; string 3; fret -3
+   32 steps; 13 % 8; string 2; fret 5
+   37 steps; 7  % 4; string 3; fret 2
+   42 steps; 15 % 8; string 4; fret -1
+   46 steps; 2  % 1; string 4; fret 1
+** TODO 7\46 x 2\46: octave 6-2, 15-lim in s6 x f4
 *** layout
     0  steps;  1 % 1; string 0; fret 0
     8  steps;  9 % 8; string 0; fret 4
     15 steps;  5 % 4; string 1; fret 4
     21 steps; 11 % 8; string 3; fret 0
+                      string 1; fret 7
     27 steps;  3 % 2; string 3; fret 3
     32 steps; 13 % 8; string 4; fret 2
+                      string 2; fret 9
     37 steps;  7 % 4; string 5; fret 1
+                      string 3; fret 8
     42 steps; 15 % 8; string 6; fret 0
+                      string 4; fret 7
     46 steps;  2 % 1; string 6; fret 2
+                      string 4; fret 9
 *** TODO If the fret axis is down-right, then
     this gives octaves almost a key wider,
     octaves just a hair more diagonal,
@@ -102,20 +97,20 @@
     Minor thirds are a little harder.
     Major chords are much harder.
     It's more confusing than 9\46 x 1\46.
-** TODO 46 5 9: 31-lim in 6x7, 17-lim in 4x6, octave 4-2, 9.2-edo frets; guitar-bad
+** TODO 9\46 x 5\46: 31-lim in 6x7, 17-lim in 4x6, octave 4-2, 9.2-edo frets; guitar-bad
    :PROPERTIES:
    :ID:       d3e9851f-5276-4a8f-9cd8-e9c5417d5940
    :END:
   Guitar-bad because strings have such unequal duties.
   0  steps;  1 % 1 ;  string 0 ;   fret 0
-  46 steps;  2 % 1 ;  string 4 ;   fret 2
-  27 steps;  3 % 2 ;  string 3 ;   fret 0
   15 steps;  5 % 4 ;  string 0 ;   fret 3
-  37 steps;  7 % 4 ;  string 3 ;   fret 2
   8  steps;  9 % 8 ;  string 2 ;   fret - 2
-  21 steps; 11 % 8 ;  string 4 ;   fret - 3
+  27 steps;  3 % 2 ;  string 3 ;   fret 0
   32 steps; 13 % 8 ;  string 3 ;   fret 1
+  37 steps;  7 % 4 ;  string 3 ;   fret 2
   42 steps; 15 % 8 ;  string 3 ;   fret 3
+  21 steps; 11 % 8 ;  string 4 ;   fret - 3
+  46 steps;  2 % 1 ;  string 4 ;   fret 2
   4  steps; 17 % 16 ; string 1 ;   fret - 1
   11 steps; 19 % 16 ; string - 1 ; fret 4
   18 steps; 21 % 16 ; string 2 ;   fret 0
@@ -168,7 +163,7 @@
 *** anything with bigger fret-jumps is horrible
     I checked through 15\46
 ** TODO 5\46 between strings
-*** 5\46 x 1\46: octave at (9,-1)
+*** [[id:91f7ed27-0f42-4a0f-b9d2-fa914f6d74c7][5\46 x 1\46]]: octave 9|1, height 4, very linear
 *** DONE 5\46 x 2\46: Tight, well-behaved, a bit skew.
 **** I already have this for the Lumatone
      41edo.7right.3downright.ltn
@@ -267,15 +262,15 @@
     , 42 steps; 15 % 8; string 7; fret 0
     , 46 steps; 2 % 1;  string 7; fret 4
 *** 6\46 x 5\46 : flat, disordered
-    [ 0  steps; 1 % 1;  string 0; fret 0
-    , 15 steps; 5 % 4;  string 0; fret 3
-    , 21 steps; 11 % 8; string 1; fret 3
-    , 27 steps; 3 % 2;  string 2; fret 3
-    , 8  steps; 9 % 8;  string 3; fret -2
-    , 46 steps; 2 % 1;  string 6; fret 2
-    , 32 steps; 13 % 8; string 7; fret -2
-    , 37 steps; 7 % 4;  string 7; fret -1
-    , 42 steps; 15 % 8; string 7; fret 0
+    00 steps; 1  % 1; string 0; fret 0
+    08 steps; 9  % 8; string 3; fret -2
+    15 steps; 5  % 4; string 0; fret 3
+    21 steps; 11 % 8; string 1; fret 3
+    27 steps; 3  % 2; string 2; fret 3
+    32 steps; 13 % 8; string 2; fret 4
+    37 steps; 7  % 4; string 7; fret -1
+    42 steps; 15 % 8; string 7; fret 0
+    46 steps; 2  % 1; string 6; fret 2
 *** 6\46 x 7\46 : no
 *** 6\46 x 11\46: insane
     The 3:2 spans a bosanquet 11th.

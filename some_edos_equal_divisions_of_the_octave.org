@@ -1310,44 +1310,7 @@ super-narrow fourth (13:10, 454 cents)
 super-wide fourth (11:8)
 the familiar septimal tritone (7:5)
 * [[id:d193c0f1-bafc-489a-be3a-b442d094eb49][41-edo]]
-* 43-edo
-** meantone
-** TODO 43 4 7 (bosanquet)
-   [ 0  steps;  1 % 1 ; string 0 ; fret 0
-   , 43 steps;  2 % 1 ; string 5 ; fret 2
-   , 25 steps;  3 % 2 ; string 3 ; fret 1
-   , 14 steps;  5 % 4 ; string 2 ; fret 0
-   , 35 steps;  7 % 4 ; string 5 ; fret 0
-   , 7  steps;  9 % 8 ; string 1 ; fret 0
-   , 20 steps; 11 % 8 ; string 0 ; fret 5 |
-                        string 4 ; fret -2
-   , 30 steps; 13 % 8 ; string 2 ; fret 4 |
-                        string 6 ; fret -3 |
-         (octave lower) string 1 ; fret -5
-   , 39 steps; 15 % 8 ; string 5 ; fret 1
-** TODO 43 3 8: super-easy, 7 strings 6 frets for 31-lim -17
-   :PROPERTIES:
-   :ID:       b3c76110-40b6-4e2d-a2c5-732e078016d8
-   :END:
-*** 41/3 = 14 + 1/3 frets per octave
-*** octaves at (5,1) and (2,9)
-    the (2,9) octave is almost identical to the Kite guitar (2,-13) unison
-*** *amazing* span
-    13-limit spans only 4 frets.
-    31-limit sans 17 spans 6 frets.
-** 43 2 7: octave area 20, but octave at (5,4)
-** 43 4 7: easy on keybaord
-   Narrow pitch range - octave at (5,1).
-   Wide frets - 10.75 per octave.
-** 43 18 7
-   [ 0 steps;  1 % 1;  string 0; fret 0
-   , 43 steps; 2 % 1;  string 2; fret 1
-   , 25 steps; 3 % 2;  string 1; fret 1
-   , 14 steps; 5 % 4;  string 0; fret 2
-   , 35 steps; 7 % 4;  string 0; fret 5
-   , 7 steps;  9 % 8;  string 0; fret 1
-   , 20 steps; 11 % 8; string -2; fret 8
-   , 30 steps; 13 % 8; string -3; fret 12
+* [[id:1a26d137-549c-42d2-aeba-abbddf4f44da][43-edo]]
 * 44-edo
 ** 44 2 9
          [ 0 steps; 1 % 1 ; string 0 ; fret 0
@@ -1450,38 +1413,7 @@ This is on the Xen Wiki.
 	, 34 steps; 13 % 8 ; string 3 ; fret 2
 	, 44 steps; 15 % 8 ; string 3 ; fret 4
 * [[id:b41446ae-aca2-4b3c-a7b2-c42d16ab206d][50-edo]]
-* 53-edo
-** [[id:d9743c5d-c831-4b0d-ba89-45be1a32d62c][53-edo and 106-edo are fat-finger friendly.]]
-** TODO 53 5 12: 0-area 4x8, or 4x4 without 13
-    , etrArea = 48
-    , etrLayout =
-        [ 0 steps; 1 % 1 ; string 0 ; fret 0
-        , 53 steps; 2 % 1 ; string 4 ; fret 1
-        , 31 steps; 3 % 2 ; string 3 ; fret - 1
-        , 17 steps; 5 % 4 ; string 1 ; fret 1
-        , 43 steps; 7 % 4 ; string 4 ; fret - 1
-        , 9 steps; 9 % 8 ; string 2 ; fret - 3
-        , 24 steps; 11 % 8 ; string 2 ; fret 0
-        , 37 steps; 13 % 8 ; string 1 ; fret 5
-        , 48 steps; 15 % 8 ; string 4 ; fret 0
-** 53 2 11: 0-area 5x6, straight 2:3:9
-       [  0 steps;  1 % 1 ; string 0 ; fret 0
-       , 53 steps;  2 % 1 ; string 5 ; fret - 1
-       , 31 steps;  3 % 2 ; string 3 ; fret - 1
-       , 17 steps;  5 % 4 ; string 1 ; fret 3
-       , 43 steps;  7 % 4 ; string 3 ; fret 5
-       ,  9 steps;  9 % 8 ; string 1 ; fret - 1
-       , 24 steps; 11 % 8 ; string 2 ; fret 1
-       , 37 steps; 13 % 8 ; string 3 ; fret 2
-** 53 3 10: 0-area 5x6, straight 2:5:7:13
-       [  0 steps;  1 % 1 ; string 0 ; fret 0
-       , 53 steps;  2 % 1 ; string 5 ; fret 1
-       , 31 steps;  3 % 2 ; string 4 ; fret - 3
-       , 17 steps;  5 % 4 ; string 2 ; fret - 1
-       , 43 steps;  7 % 4 ; string 4 ; fret 1
-       ,  9 steps;  9 % 8 ; string 0 ; fret 3
-       , 24 steps; 11 % 8 ; string 3 ; fret - 2
-       , 37 steps; 13 % 8 ; string 4 ; fret - 1
+* [[id:2b468264-f8f7-4f76-a713-c7f8a495e261][53-edo]]
 * 55-edo
   :PROPERTIES:
   :ID:       996e6cf6-6d79-4cbf-8219-d3aac08d9eb8

@@ -6,6 +6,27 @@
 * [[id:c5ab503b-2182-48d3-a416-5a2a1131f234][41-edo notation]]
 * [[id:1190dc3c-2977-42e7-892d-72d9031a34bd][41-edo Chapman Stick tunings]]
 * 2d isomorphic layouts
+** [[id:03917c1e-ebf9-4ecb-84ff-07f5b7a2fd57][The 41-edo and 94-edo Bosanquet layouts are similar in the 15-limit.]]
+** 4\41 x 3\41: octave 8-3, fret width 4
+   00 steps; 1  % 1; string 0; fret 0
+   07 steps; 9  % 8; string 1; fret 1
+   13 steps; 5  % 4; string 4; fret -1
+   19 steps; 11 % 8; string 4; fret 1
+   24 steps; 3  % 2; string 6; fret 0
+   29 steps; 13 % 8; string 5; fret 3
+   33 steps; 7  % 4; string 6; fret 3
+   37 steps; 15 % 8; string 7; fret 3
+   41 steps; 2  % 1; string 8; fret 3
+** 6\41 x 1\41: octave 7-1, fret width 4
+   00 steps; 1  % 1; string 0; fret 0
+   07 steps; 9  % 8; string 1; fret 1
+   13 steps; 5  % 4; string 2; fret 1
+   19 steps; 11 % 8; string 3; fret 1
+   24 steps; 3  % 2; string 4; fret 0
+   29 steps; 13 % 8; string 5; fret -1
+   33 steps; 7  % 4; string 6; fret -3
+   37 steps; 15 % 8; string 6; fret 1
+   41 steps; 2  % 1; string 7; fret -1
 ** Kite: 41 13 2
     0 steps;  1 %  1; string 0; fret  0
    41 steps;  2 %  1; string 3; fret  1
@@ -24,7 +45,6 @@
    31 steps; 27 % 16; string 3; fret -4
    35 steps; 29 % 16; string 3; fret -2
    39 steps; 31 % 16; string 3; fret  0
-
 ** Narrow Kite: 41 11 2
 ** [[id:67465b81-c736-4430-bdbd-822106520f1b][Bosanquet: 7\41 x 3\41]]. A bit more* compact, easy 5-limit
 ** TODO [[id:6f359140-7398-4721-b1c3-51a8f7c681d4][6\41 x 1\41]] wide, very short, Lumatone-good

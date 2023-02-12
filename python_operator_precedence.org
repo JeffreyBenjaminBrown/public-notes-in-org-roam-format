@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       99890a4d-1147-42ef-b017-6cf378e4b316
+:END:
+#+title: Python operator precedence
+* (~) before a trail of (.)s binds after all of them.

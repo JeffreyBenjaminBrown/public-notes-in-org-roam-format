@@ -19,3 +19,4 @@
    then that None is probably intended to be interpreted as a list!
 * check for None-ness using "is"
   if x is None: ...
+* [[id:99890a4d-1147-42ef-b017-6cf378e4b316][Python operator precedence]]

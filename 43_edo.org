@@ -1,0 +1,52 @@
+:PROPERTIES:
+:ID:       1a26d137-549c-42d2-aeba-abbddf4f44da
+:END:
+#+title: 43-edo
+* meantone
+* TODO 7\43 x 2\43dr: octave 5-4, *very* short
+** Only 4 tall, and in the downright direction!
+** layout
+   00 steps; 1  % 1; string 0; fret 0
+   07 steps; 9  % 8; string 1; fret 0
+   14 steps; 5  % 4; string 2; fret 0
+   20 steps; 11 % 8; string 2; fret 3
+   25 steps; 3  % 2; string 3; fret 2
+   30 steps; 13 % 8; string 4; fret 1
+   35 steps; 7  % 4; string 5; fret 0
+   39 steps; 15 % 8; string 5; fret 2
+   43 steps; 2  % 1; string 5; fret 4
+* TODO 7\43 x 4\43 (bosanquet)
+  [ 0  steps;  1 % 1 ; string 0 ; fret 0
+  , 43 steps;  2 % 1 ; string 5 ; fret 2
+  , 25 steps;  3 % 2 ; string 3 ; fret 1
+  , 14 steps;  5 % 4 ; string 2 ; fret 0
+  , 35 steps;  7 % 4 ; string 5 ; fret 0
+  , 7  steps;  9 % 8 ; string 1 ; fret 0
+  , 20 steps; 11 % 8 ; string 0 ; fret 5 |
+                       string 4 ; fret -2
+  , 30 steps; 13 % 8 ; string 2 ; fret 4 |
+                       string 6 ; fret -3 |
+        (octave lower) string 1 ; fret -5
+  , 39 steps; 15 % 8 ; string 5 ; fret 1
+* TODO 8\43 x 3\43: super-easy, 7 strings 6 frets for 31-lim -17
+  :PROPERTIES:
+  :ID:       b3c76110-40b6-4e2d-a2c5-732e078016d8
+  :END:
+** 41/3 = 14 + 1/3 frets per octave
+** octaves at (5,1) and (2,9)
+   the (2,9) octave is almost identical to the Kite guitar (2,-13) unison
+** *amazing* span
+   13-limit spans only 4 frets.
+   31-limit sans 17 spans 6 frets.
+* 43 4 7: easy on keybaord
+  Narrow pitch range - octave at (5,1).
+  Wide frets - 10.75 per octave.
+* 43 18 7
+  [ 0 steps;  1 % 1;  string 0; fret 0
+  , 43 steps; 2 % 1;  string 2; fret 1
+  , 25 steps; 3 % 2;  string 1; fret 1
+  , 14 steps; 5 % 4;  string 0; fret 2
+  , 35 steps; 7 % 4;  string 0; fret 5
+  , 7 steps;  9 % 8;  string 0; fret 1
+  , 20 steps; 11 % 8; string -2; fret 8
+  , 30 steps; 13 % 8; string -3; fret 12

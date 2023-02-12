@@ -3,4 +3,5 @@
 :ROAM_ALIASES: Contraloría
 :END:
 #+title: Contraloría (Colombia)
+* [[id:45c9c424-e6ea-4a74-b35f-df614ac0b9b6][more]]
 * [[id:64d9e573-4201-41a3-81e2-deca896a600d][dentistry with the Contraloría]]

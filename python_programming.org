@@ -31,6 +31,7 @@
 ** [[id:f54893f9-b912-4a71-953d-4f1ed18d0618][closures in Python]]
 ** [[id:238e57b1-cb92-481c-8786-7131962b6689][enum types in Python]]
 ** [[id:0ec89580-3ce0-4175-a050-f2ecd9089b0d][sum types in Python]]
+** [[id:99890a4d-1147-42ef-b017-6cf378e4b316][operator precedence]] in Python
 ** some obscure Python syntax
 *** lists can be "multiplied"
     [1]*3 = [1,1,1]

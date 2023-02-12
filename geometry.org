@@ -2,4 +2,23 @@
 :ID:       a82f9347-7e03-4230-b229-beddeb4fea41
 :END:
 #+title: geometry
+* [[id:be117a75-5f94-49b0-b384-9c73a0e40222][Topology is global. Geoetry and curvature are local.]]
 * [[id:431ba8de-5529-4354-b508-ca121423bbca][triangle]]
+* what is a straight line
+  If as a vector initially aligned with a curve is
+  "parallel transported" along that curve,
+  it continues to point along that curve,
+  then the curve is straight; otherwise it isn't.
+* what is a flat space
+  non-obvious equivalents
+** in terms of transport along closed curves
+   If when a vector is parallel transported (completely)
+   around any closed loop,
+   it ends up pointing in the same direction, the space is flat.
+** in terms of parallels
+   If for any two curves and any two starting points,
+   such that the two curves are parallel at those two points,
+   parallel transporting those curves any tiny bit
+   along their respective curves
+   brings them to two more points where they are parallel,
+   then the space is flat.

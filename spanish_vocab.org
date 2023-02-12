@@ -8,9 +8,13 @@
 * outer loop
 ** last time I reviewed: 6
 * inner loops
-*** odd times: Spanish questions, English answers
+*** odd times: Spanish questions (and either language for the answer)
 **** last time I reviewed: 3
 **** 1 mod 2
+***** es como que gente tan descarada... una demanda así [like the Contraloría's against Sandy] no está bien
+      se dan garra
+***** es como lo siento, que embarrada
+      changoz
 ***** bono
       bond (as in Treasury)
 ***** depurar
@@ -54,9 +58,13 @@
       bad person
 ***** lineamento
       outline (both as in plan and as in profile)
-*** even times: English questions, Spanish answers
+*** even times: Spanish answers (and either language for the question)
 **** last time I reviewed: 3
 **** 1 mod 2
+***** se dan garra
+      es como que gente tan descargada... una demanda así [like the Contraloría's against Sandy] no está bien
+***** changoz
+      es como lo siento, que embarrada
 ***** to clean | to purge of dissidents | to (try to?) sanction | to reinstate someone who was sanctioned
       depurar
 ***** outline (both as in plan and as in profile)
