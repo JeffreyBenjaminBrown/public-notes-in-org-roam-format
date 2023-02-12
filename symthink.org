@@ -4,6 +4,17 @@
 #+title: SymThink
 * TODO suggest to Tom
 ** betting markets
+* the SymThink stack
+** Jira
+   for sprints, backlogs
+   "agile"
+** JS, HTML, CSS
+** NodeJS, JS backend
+** StencilJS
+   build your own web components
+** Ionic
+   prebuilt web components
+** Kubernetes, Docker
 * idea: gamify the discernment of truth
 * scheme, roughly
 ** A user posts a question.

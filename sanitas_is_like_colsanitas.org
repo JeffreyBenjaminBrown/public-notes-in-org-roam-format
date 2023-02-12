@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       6dba4f54-c27a-43a6-81cd-ea6fb5af02b9
+:END:
+#+title: Sanitas is like Colsanitas.
+Sanitas is the EPS corresponding to the Colsanitas prepagada.
