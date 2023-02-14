@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       7b66ed16-90b6-496a-9568-e1816c9dbc20
+:END:
+#+title: Obvious-in-retrospect reasons to think the universe is expanding.
+  """The wonder, as Stephen Hawking has noted, is that no one had hit onthe idea of the expanding universe before. A static universe, as should havebeen obvious to Newton and every thinking astronomer since, wouldcollapse in upon itself There was also the problem that if stars had beenburning indefinitely in a static universe they'd have made the wholeintolerably hot—certainly much too hot for the likes of us. An expandinguniverse resolved much of this at a stroke."""

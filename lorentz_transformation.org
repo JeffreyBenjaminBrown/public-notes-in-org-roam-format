@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       e71d736a-37fb-45a8-9b68-f81564d56e0c
+:END:
+#+title: Lorentz transformation
+* It translates between two inertial frames of reference.
+* premises and definitions
+** The frames are inertial.
+   That is, each moves at constant velocity relative to the other.
+** Motion is confined to the x-axis.
+** Coordinates in the two systems are written as (t,x,y,z) and (t',x',y',z').
+** The primed frame is seen from the unprimed frame as moving at speed v along the x-axis.
+** c = the speed of light
+* the equations
+** gamma, the "Lorentz factor"
+   = 1 / sqrt( 1 - v^2 / c^2 )
+   This is 1 for v near 0, and explodes as v approaches c.
+   It makes no sense for v > c.
+** t' = gamma (t - vx / c^2)
+      = (t - vx / c^2) / sqrt ( 1 - v^2 / c^2 )
+*** As v -> 0, t' -> t
+*** As v -> c, t' ->
+** x' = gamma (x - vt)
+** y' = y
+** z' = z
+* some special cases
+** If v is small, and gamma therefore close to 1.
+*** The equation for x' is then the Galilean transformation: x' = x - vt.
+    For instance, the x coordinate of the origin in the unprimed system has a position of -vt in the primed system, since the primed system is moving in the positive direction at speed v.
+*** If x is small too, then t' = t.
+    t' = gamma (t - vx / c^2) = 1 * (t - 0)
+** If v is small but vx is big.
+   gamma = 1 / sqrt( 1 - v^2 / c^2 ) = 1
+   so x' = -vt
+   but t' = t - vx / c^2 < t
+   Thus, for two far-away planets slowly drifting apart, what feels like a second on one planet looks like it took less than a second on the other.
+** If (t,x) = (1,0), v/c is substantial, and gamma therefore big.
+    After an unprimed second, the unprimed origin is at (t,x) = (1,0).
+    t' = gamma * t >> t. That is, what feels like it takes a second in the unprimed system takes much longer in the primed system.
+    x' = gamma * (-v) << (-v). That is, after an unprimed second the primed system sees the unprimed origin as having got much farther than v away.
+    These feel like they might be two sides to the same coin. If the primed system sees time moving much slower in the unprimed system than the unprimed system does, then after a second in the unprimed system, much more than a second has gone by in the primed system, so the unprimed system should feel to the primed system to be much farther than v away.

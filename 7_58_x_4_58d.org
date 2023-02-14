@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       ee333582-5ea6-4495-b003-5ac030dfe9d8
+:END:
+#+title: 7\58 x 4\58d
+* octave 10-3, smart height < 3
+* layout
+  00 steps; 1  % 1; string 0;  fret 0
+  10 steps; 9  % 8; string 2;  fret -1
+  19 steps; 5  % 4; string 5;  fret -4
+  27 steps; 11 % 8; string 5;  fret -2
+  34 steps; 3  % 2; string 6;  fret -2
+  41 steps; 13 % 8; string 7;  fret -2
+  47 steps; 7  % 4; string 9;  fret -4
+  53 steps; 15 % 8; string 11; fret -6
+  58 steps; 2  % 1; string 10; fret -3

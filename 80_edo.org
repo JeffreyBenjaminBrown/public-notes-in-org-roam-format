@@ -121,18 +121,45 @@ Good harmonics for everything but 31/16
 69 steps = 29 % 16: str 8 fret -3 | str 7 fret 6
 76 steps = 31 % 16: str 8 fret  4
 80 steps = 2 % 1:   str 9 fret -1
-* 80 2 13
-       [ 80 steps = 2 % 1 : string 6 fret 1
-       , 47 steps = 3 % 2 : string 3 fret 4
-       , 26 steps = 5 % 4 : string 2 fret 0
-       , 65 steps = 7 % 4 : string 5 fret 0
-       , 37 steps = 11 % 8 : string 3 fret - 1
-       , 56 steps = 13 % 8 : string 4 fret 2
-       , 7 steps = 17 % 16 : string 1 fret - 3
-       , 20 steps = 19 % 16 : string 2 fret - 3
-       , 42 steps = 23 % 16 : string 2 fret 8
-       , 69 steps = 29 % 16 : string 5 fret 2
-       , 76 steps = 31 % 16 : string 6 fret - 1
+* 13\80 x 2\80
+  00 steps; 1  % 1;  string 0; fret  0
+  26 steps; 5  % 4;  string 2; fret  0
+  37 steps; 11 % 8;  string 3; fret -1
+  47 steps; 3  % 2;  string 3; fret  4
+  52 steps; 25 % 16; string 4; fret  0
+  56 steps; 13 % 8;  string 4; fret  2
+  60 steps; 27 % 16; string 4; fret  4
+  65 steps; 7  % 4;  string 5; fret  0
+  69 steps; 29 % 16; string 5; fret  2
+  73 steps; 15 % 8;  string 5; fret  4
+  76 steps; 31 % 16; string 6; fret -1
+  80 steps; 2  % 1;  string 6; fret  1
+
+  07 steps; 17 % 16; string 1; fret -3
+  20 steps; 19 % 16; string 2; fret -3
+  31 steps; 21 % 16; string 3; fret -4
+  42 steps; 23 % 16; string 4; fret -5
+  14 steps; 9  % 8;  string 2; fret -6
+* 11\80 x 7\80
+  00 steps; 1  % 1;  string 0;  fret  0
+  07 steps; 17 % 16; string 0;  fret  1
+  14 steps; 9  % 8;  string 0;  fret  2
+  26 steps; 5  % 4;  string 3;  fret -1
+  37 steps; 11 % 8;  string 4;  fret -1
+  47 steps; 3  % 2;  string 3;  fret  2
+  52 steps; 25 % 16; string 6;  fret -2
+  65 steps; 7  % 4;  string 4;  fret  3
+  69 steps; 29 % 16; string 5;  fret  2
+  73 steps; 15 % 8;  string 6;  fret  1
+  80 steps; 2  % 1;  string 6;  fret  2
+
+  56 steps; 13 % 8;  string 7;  fret -3
+  76 steps; 31 % 16; string 5;  fret  3
+
+  20 steps; 19 % 16; string -2; fret  6
+  31 steps; 21 % 16; string -1; fret  6
+  42 steps; 23 % 16; string 0;  fret  6
+  60 steps; 27 % 16; string 1;  fret  7
 * 80 4 11
        [ 80 steps = 2 % 1 : string 8 fret - 2
        , 47 steps = 3 % 2 : string 5 fret - 2

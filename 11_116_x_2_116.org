@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       70f6be3d-7ec6-4a8e-ba3b-0592a69159ba
+:END:
+#+title: 11\116 x 2\116
+* smart height < 3.5
+* octave 10-3
+* layout
+  000 steps; 1  % 1; string 0;  fret 0
+  020 steps; 9  % 8; string 2;  fret -1
+  037 steps; 5  % 4; string 3;  fret 2
+  053 steps; 11 % 8; string 5;  fret -1
+  068 steps; 3  % 2; string 6;  fret 1
+  081 steps; 13 % 8; string 7;  fret 2
+  094 steps; 7  % 4; string 8;  fret 3
+  105 steps; 15 % 8; string 9;  fret 3
+  116 steps; 2  % 1; string 10; fret 3
