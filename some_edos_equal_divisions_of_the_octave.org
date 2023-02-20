@@ -2,10 +2,16 @@
 :ID:       80068e27-a77e-4d73-b762-235ec2cc6de4
 :END:
 #+title: some edos (equal divisions of the octave)
-* TODO some minimal-height layouts
-** [[id:44847515-dc3f-4017-9c41-8c63d635b7e4][7\60 x 2\60d]]: smart height 4.4, octave 8-2, great dom7
-** [[id:beabbc24-aa01-49c4-a4e2-7f610ff2e44f][6\58 x 5\58]]: smart height 4.4, octave 8-2, rough 2:3:5
-** [[id:70f6be3d-7ec6-4a8e-ba3b-0592a69159ba][11\116 x 2\116]]: smart height 3.5, octave 10-3
+* TODO some layouts with minimal "smart height"
+** where smart height =
+   the maximum of f minus the minimum of f,
+   where f is the signed distance from each note to the root-octave axis.
+   See commit 931c0db7f8f7e3c52b7cf872773445e625b23ac7
+   of git@github.com:JeffreyBenjaminBrown/montevideo
+** [[id:44847515-dc3f-4017-9c41-8c63d635b7e4][7\60 x 2\60d]]: smart 15-height 4.4, octave 8-2, great dom7
+** [[id:beabbc24-aa01-49c4-a4e2-7f610ff2e44f][6\58 x 5\58]]: smart 15-height 4.4, octave 8-2, rough 2:3:5
+** [[id:6b974259-face-4aa0-ae74-1fe034dc3cb2][17\112 x 12\112u]]: smart 15-height 4.4, octave 8-2, rough 2:3:5
+** [[id:70f6be3d-7ec6-4a8e-ba3b-0592a69159ba][11\116 x 2\116]]: smart 15-height 3.5, octave 10-3, rough 2:3:5
 * TODO break 'tuning coverings', 80 and 58 into new files
   This file is so big that execution pauses when I save it.
 * u - "tuning coverings"

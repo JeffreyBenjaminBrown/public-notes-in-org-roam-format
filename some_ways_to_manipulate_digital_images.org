@@ -7,7 +7,33 @@
   :PROPERTIES:
   :ID:       68b3f341-f369-4b6f-841a-b77c37715a86
   :END:
-  convert affine.png -affine 1.5,-0.38,-0.3,1,0,0 -transform out.png
+** the algorithm, I think
+*** Start from the identity
+    convert affine.png -affine 1, 0, 0, 1, 0, 0 -transform out.png
+                               sx rx ry sy tx ty
+*** first scale
+    play with sx until the grid is hexagons
+*** then rotate
+    Computed R*S, where S is the scaling matrix,
+    and R is the rotation matrix:
+    [ cos t, -sin t ]
+    [ sin t,  cos t ]
+** snippets
+   serial, newest on top
+*** trying yet again, <2023-02-20 Mon>
+    convert affine.png -affine 1.0,-0.37,-0.3,1,0,0 -transform out.png
+*** seems to work better now?
+    convert affine.png -affine 1.,-0.3,-0.3,1,0,0 -transform out.png
+*** seemed to work once
+    convert affine.png -affine 1.5,-0.38,-0.3,1,0,0 -transform out.png
+** The 6 parameters to the -affine option
+   are these:
+     sx,rx,ry,sy,tx,ty
+
+  What they mean:
+                                          | sx  rx  0 |
+        | x', y', 1 |  =  | x, y, 1 |  *  | ry  sy  0 |
+                                          | tx  ty  1 |
 * [[id:514ef602-a034-4bfb-b9dc-f09de9adb639][crop an image in ImageMagick]]
 * how to draw sloppy lines on an image
 ** use GIMP

@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       1a1f78e4-649e-450a-8d87-9ed17754f83e
+:END:
+#+title: ask Physics Exchange about the Lorentz transformation
+* TODO first do some research
+I'm not sure I've got this right. First work through the equations in the case where v is big again, and see if that gives t' < t or t' > t.
+* the letter
+# The idea
+
+The special case of the Lorentz transform most commonly examined is the case of two inertial observers flying apart at close to the speed of light. In this case each sees the other's watch going slow.
+
+I'm considering a different special case, of two very distance observers drifting apart slowly. The Lorentz transformation seems to suggest that each will see the other's watch going fast.
+
+
+# The math
+
+I'm using the equations [as given on Wikipedia](https://en.wikipedia.org/wiki/Lorentz_transformation) or various other sources. They describe how to calculate the coordinates in the "primed" system, (t',x',y',z'), from the coordinates in the "unprimed" system (t,x,y,z). If (0,0,0,0) represents the same event in both systems, and if from the unprimed point of view the primed system is moving along the x-axis at velocity v, then:
+```
+gamma = the "Lorentz factor" = 1 / sqrt( 1 - v^2 / c^2 )
+t' = gamma (t - vx / c^2)
+x' = gamma (x - vt)
+y' = y
+z' = z
+```
+
+Consider the case where v is negligible with respect to c, but x is so big that vx is nonetheless a substantial fraction of c^2, and thus t' is roughly `t - vx / c^2`. Since vx is big, this is substantially less than t. Therefore

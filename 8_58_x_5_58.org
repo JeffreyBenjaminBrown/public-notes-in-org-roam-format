@@ -1,33 +1,70 @@
 :PROPERTIES:
 :ID:       c165fad1-7702-4978-a11a-cf542a437534
+:ROAM_ALIASES: "8\58 x 5\58-downright (or 3\58-up)"
 :END:
-#+title: 8\58 x 5\58
+#+title: 8\58 x 3\58-up (or 5\58-downright)
 * advantages
-** octave 6-2
+** octave 8|2
+** 15-lim in 8x6 (and its smart height is even less)
 ** 15-lim in 6s x 6f
 ** 31-lim in 6s x 7f
-* Surprisingly, has a fret width of 6 for both axis mappings.
-  That is, 8\58 right X 5\58 downleft
-  and      8\58 right X 3\58 down
-  both have a "fret" (second axis) width of 6.
-* On the Lumatone, can use the right and downright axes!
-  Means it's shorter.
-* layout of 8\58 x 5\58
-  0  steps; 1  % 1; string 0; fret 0
-  10 steps; 9  % 8; string 0; fret 2
-  19 steps; 5  % 4; string 3; fret -1
-  27 steps; 11 % 8; string 4; fret -1
-  34 steps; 3  % 2; string 3; fret 2
-  41 steps; 13 % 8; string 2; fret 5
-  47 steps; 7  % 4; string 4; fret 3
-  53 steps; 15 % 8; string 6; fret 1
-  58 steps; 2  % 1; string 6; fret 2
+* layout
+** as 8\58 x 5\58
+   0  steps; 1  % 1; string 0; fret 0
+   10 steps; 9  % 8; string 0; fret 2
+   19 steps; 5  % 4; string 3; fret -1
+   27 steps; 11 % 8; string 4; fret -1
+   34 steps; 3  % 2; string 3; fret 2
+   41 steps; 13 % 8; string 2; fret 5
+   47 steps; 7  % 4; string 4; fret 3
+   53 steps; 15 % 8; string 6; fret 1
+   58 steps; 2  % 1; string 6; fret 2
 
-   5 steps; 17 % 16 ; string 0 ; fret 1
-  14 steps; 19 % 16 ; string 3 ; fret - 2
-  23 steps; 21 % 16 ; string 1 ; fret 3
-  30 steps; 23 % 16 ; string 5 ; fret - 2
-  37 steps; 25 % 16 ; string 4 ; fret 1
-  44 steps; 27 % 16 ; string 3 ; fret 4
-  50 steps; 29 % 16 ; string 5 ; fret 2
-  55 steps; 31 % 16 ; string 5 ; fret 3
+    5 steps; 17 % 16 ; string 0 ; fret 1
+   14 steps; 19 % 16 ; string 3 ; fret - 2
+   23 steps; 21 % 16 ; string 1 ; fret 3
+   30 steps; 23 % 16 ; string 5 ; fret - 2
+   37 steps; 25 % 16 ; string 4 ; fret 1
+   44 steps; 27 % 16 ; string 3 ; fret 4
+   50 steps; 29 % 16 ; string 5 ; fret 2
+   55 steps; 31 % 16 ; string 5 ; fret 3
+** pictures
+*** picture, 15-lim
+
+    -- -- 5  11 -- -- -- -- --
+    1  -- -- -- -- -- -- -- --
+    -- -- -- -- -- -- -- 15 --
+    -- -- 9  -- -- 3  -- -- 2
+    -- -- -- -- -- -- -- 7  --
+    -- -- -- -- -- -- -- -- --
+    -- -- -- -- -- -- -- 13 --
+
+*** picture, 31-lim
+
+    -- 19 -- 23 -- -- -- -- --
+    -- -- 5  11 -- -- -- -- --
+    1  -- -- -- -- -- -- -- --
+    -- 17 -- -- -- 25 -- 15 --
+    -- -- 9  -- -- 3  -- 29 2
+    -- -- -- -- 21 -- -- 7  31
+    -- -- -- -- -- -- -- 27 --
+    -- -- -- -- -- -- -- 13 --
+
+*** Best subgroup: 17-lim + 29.
+
+    -- -- 5  11 -- -- -- -- --
+    1  -- -- -- -- -- -- -- --
+    -- 17 -- -- --:25 -- 15 --
+    -- -- 9  -- -- 3  -- 29 2
+    -- -- -- -- 21 -- -- 7  --
+    -- -- -- -- -- -- -- 27 --
+    -- -- -- -- -- -- -- 13 --
+
+    The :25 is the 2nd-best 25,
+    but that's the best one
+    in the context of the others.
+* trivia
+** Surprisingly, has a fret width of 6 for both axis mappings.
+   That is, 8\58 right X 5\58 downleft
+   and      8\58 right X 3\58 down
+   both have a "fret" (second axis) width of 6.

@@ -6,7 +6,7 @@
 * flat meantone system, fantastic at 23-limit
 * layouts
 ** DONE (Right?) : [[id:0c618f96-0f17-479a-a83b-21349f7e87ab][7\50 x 3\50]]
-** 6\50 x 1\50: 31-lim in 8x6, octave 8-2
+** 6\50 x 1\50d: 31-lim in 8x6, octave 8-2
    04 steps; 17 % 16; string 1; fret -2
    16 steps; 5  % 4;  string 3; fret -2
    23 steps; 11 % 8;  string 4; fret -1
@@ -24,6 +24,30 @@
    50 steps; 2  % 1;  string 8; fret 2
    45 steps; 15 % 8;  string 7; fret 3
    40 steps; 7  % 4;  string 6; fret 4
+** 6\50 x 1\50u: octave 9-4, 15-lim smart height 2.84
+*** PITFALL: That's 1\50 in the *up* direction
+*** layout
+
+             11 3  13 -- -- -- -- -- -- -- -- -- 15'--
+
+          5  -- -- -- 7  -- -- 9  -- -- -- -- -- -- 4  --
+
+          -- -- -- -- -- 15 -- -- -- -- -- -- -- -- -- --
+
+       9  -- -- -- -- -- -- 2  -- -- -- -- -- -- -- -- --
+
+    -- -- -- -- -- -- -- -- -- -- -- -- 11'3' 13'-- -- --
+
+    1  -- -- -- -- -- -- -- -- -- -- 5' -- -- -- 7' -- --
+
+          -- -- 11 3  13 -- -- -- -- -- -- -- -- -- 15'--
+
+          -- 5  -- -- -- 7  -- -- 9' -- -- -- -- -- -- 4
+
+          -- -- -- -- -- -- 15 --
+
+          9  -- -- -- -- -- -- 2
+
 ** 7\50 x 2\50: Lumatone-feasible but evil major triad
    0  steps; 1  % 1; string 0; fret 0
    8  steps; 9  % 8; string 2; fret -3

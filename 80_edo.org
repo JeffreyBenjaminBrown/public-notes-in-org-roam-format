@@ -5,6 +5,16 @@
 By hand, I searched every triple (80 [2-11] [11-29]).
 Good harmonics for everything but 31/16
   (it's 5c flat, whereas everything else is sharp by at most 6c).
+* TODO 11\80 x 4\80u
+
+  -- -- -- -- 13 -- -- -- --
+  -- -- -- -- -- -- -- -- --
+  -- -- 5  11 -- -- -- -- --
+  1  -- -- -- -- -- -- -- --
+  -- -- -- -- -- -- -- 15 --
+  -- -- 9  -- -- 3  -- -- 2
+  -- -- -- -- -- -- -- 7  --
+
 * TODO COMBO: 80-edo 14s 5f (Bosanquet) + 80-edo 16s 5f
   :PROPERTIES:
   :ID:       34b25bc1-cdfb-472d-ad1a-fac2fd07a832

@@ -2,6 +2,9 @@
 :ID:       e71d736a-37fb-45a8-9b68-f81564d56e0c
 :END:
 #+title: Lorentz transformation
+* John and I are talking about it here.
+  https://mail.google.com/mail/u/0/#inbox/KtbxLxGLhSqCDmJZBjLnqQRQQWHSKMXxRL
+* TODO [[id:1a1f78e4-649e-450a-8d87-9ed17754f83e][ask Physics Exchange about the Lorentz transformation]]
 * It translates between two inertial frames of reference.
 * premises and definitions
 ** The frames are inertial.

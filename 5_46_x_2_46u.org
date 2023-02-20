@@ -4,24 +4,38 @@
 #+title: 5\46 x 2\46u
 * octave 8-3, 15-lim in 8x4
 * layout
-  00 steps; 01 %  1; string 0; fret 0
-  08 steps; 09 %  8; string 0; fret 4 | string 2; fret -1
-  15 steps; 05 %  4; string 3; fret 0
-  21 steps; 11 %  8; string 3; fret 3 | string 5; fret -2
-  27 steps; 03 %  2; string 5; fret 1
-  32 steps; 13 %  8; string 6; fret 1
-  37 steps; 07 %  4; string 7; fret 1
-  42 steps; 15 %  8; string 8; fret 1
-  46 steps; 02 %  1; string 8; fret 3
+** numbers
+   00 steps; 01 %  1; string 0; fret 0
+   08 steps; 09 %  8; string 0; fret 4 | string 2; fret -1
+   15 steps; 05 %  4; string 3; fret 0
+   21 steps; 11 %  8; string 3; fret 3 | string 5; fret -2
+   27 steps; 03 %  2; string 5; fret 1
+   32 steps; 13 %  8; string 6; fret 1
+   37 steps; 07 %  4; string 7; fret 1
+   42 steps; 15 %  8; string 8; fret 1
+   46 steps; 02 %  1; string 8; fret 3
 
-  04 steps; 17 % 16; string 0; fret 2
-  11 steps; 19 % 16; string 1; fret 3
-  18 steps; 21 % 16; string 2; fret 4 | string 4; fret -1
-  24 steps; 23 % 16; string 4; fret 2
-  30 steps; 25 % 16; string 6; fret 0
-  35 steps; 27 % 16; string 7; fret 0
-  39 steps; 29 % 16; string 7; fret 2
-  44 steps; 31 % 16; string 8; fret 2
+   04 steps; 17 % 16; string 0; fret 2
+   11 steps; 19 % 16; string 1; fret 3
+   18 steps; 21 % 16; string 2; fret 4 | string 4; fret -1
+   24 steps; 23 % 16; string 4; fret 2
+   30 steps; 25 % 16; string 6; fret 0
+   35 steps; 27 % 16; string 7; fret 0
+   39 steps; 29 % 16; string 7; fret 2
+   44 steps; 31 % 16; string 8; fret 2
+** picture
+
+         -- -- 9  -- -- -- -- -- --
+         1  -- -- 5  -- -- -- -- --
+      -- -- -- -- -- -- 3  13 7  15 -- -- -- -- 11
+      -- -- -- -- -- -- -- -- -- -- -- 9' -- -- -- -- -- --
+   15 -- -- -- -- 11 -- -- -- -- 2  -- -- 5' -- -- -- -- --
+   -- -- 9  -- -- -- -- -- -- -- -- -- -- -- -- 3' 13'7' 15'
+   1  -- -- 5  -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+   -- -- -- -- -- 3  13 7  15 -- -- -- -- 11'-- -- -- -- 4
+   -- -- -- -- -- -- -- -- -- -- 9  -- -- -- -- -- --
+   -- -- -- 11 -- -- -- -- 2  -- -- 5  -- --
+
 * comparison: very similar to [[id:a291f843-ee45-40e9-923e-badfe65654a7][6\58 x 5\58]]
   On average they both move up 127c each horizontal step.
   The 46-edo layout has much more convenient 5:4, 3:2 and 9:8.
