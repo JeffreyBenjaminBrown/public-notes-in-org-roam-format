@@ -63,6 +63,22 @@
     The :25 is the 2nd-best 25,
     but that's the best one
     in the context of the others.
+
+*** the entire 15-limit
+**** it
+
+     10 % 9  16 % 13   ---     ---     ---     ---     ---     ---     ---
+     14 % 13 13 % 11 13 % 10 10 % 7  11 % 7  26 % 15   ---     ---     ---
+       ---   8 % 7   5 % 4   18 % 13   ---   5 % 3   24 % 13   ---     ---
+     1 % 1   11 % 10   ---   4 % 3   22 % 15   ---   16 % 9    ---     ---
+       ---   16 % 15 7 % 6   9 % 7     ---   14 % 9  12 % 7  15 % 8    ---
+       ---     ---   9 % 8     ---   15 % 11 3 % 2     ---   20 % 11 2 % 1
+       ---     ---   12 % 11 6 % 5     ---   16 % 11 8 % 5   7 % 4     ---
+       ---     ---     ---   15 % 13 14 % 11 7 % 5   20 % 13 22 % 13 28 % 15
+       ---     ---     ---     ---     ---     ---     ---   18 % 11 9 % 5
+
+**** to shear it
+     convert affine.png -affine 1,-0.5,0.5,4,0,0 -transform out.png
 * trivia
 ** Surprisingly, has a fret width of 6 for both axis mappings.
    That is, 8\58 right X 5\58 downleft
