@@ -2,7 +2,12 @@
 :ID:       6ca4ed6b-7046-4e06-9329-f5fea0511cc2
 :END:
 #+title: to hear (music)
-* Disclosure (pop)
+* Bang on a Can
+  Music organization Hector rec's
+  https://en.m.wikipedia.org/wiki/Bang_on_a_Can
+* Jazz, Hector rec's
+** Emmett Cohen
+** Nicolás Ospina
 * Periphery (Aaron recs)
 * Chon (instrumental rock)
   Aaron rec's

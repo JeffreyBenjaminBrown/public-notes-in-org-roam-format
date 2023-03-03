@@ -15,19 +15,19 @@
    35 steps; 7  % 4; string 5; fret 0
    39 steps; 15 % 8; string 5; fret 2
    43 steps; 2  % 1; string 5; fret 4
-* TODO 7\43 x 4\43 (bosanquet)
+* TODO 7\43 x 4\43 (Bosanquet?)
   [ 0  steps;  1 % 1 ; string 0 ; fret 0
-  , 43 steps;  2 % 1 ; string 5 ; fret 2
-  , 25 steps;  3 % 2 ; string 3 ; fret 1
-  , 14 steps;  5 % 4 ; string 2 ; fret 0
-  , 35 steps;  7 % 4 ; string 5 ; fret 0
   , 7  steps;  9 % 8 ; string 1 ; fret 0
+  , 14 steps;  5 % 4 ; string 2 ; fret 0
   , 20 steps; 11 % 8 ; string 0 ; fret 5 |
                        string 4 ; fret -2
+  , 25 steps;  3 % 2 ; string 3 ; fret 1
   , 30 steps; 13 % 8 ; string 2 ; fret 4 |
                        string 6 ; fret -3 |
         (octave lower) string 1 ; fret -5
+  , 35 steps;  7 % 4 ; string 5 ; fret 0
   , 39 steps; 15 % 8 ; string 5 ; fret 1
+  , 43 steps;  2 % 1 ; string 5 ; fret 2
 * TODO 8\43 x 3\43: super-easy, 7 strings 6 frets for 31-lim -17
   :PROPERTIES:
   :ID:       b3c76110-40b6-4e2d-a2c5-732e078016d8

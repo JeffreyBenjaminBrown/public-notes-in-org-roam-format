@@ -2,6 +2,7 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
+* Practice swing
 * TODO [[id:061b26ef-4cea-4ded-9e5a-6d1d6af2ed72][upgrade Pianoteq from 7 to 8 (free)]]
 * see also
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]

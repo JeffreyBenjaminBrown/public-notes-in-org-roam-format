@@ -23,3 +23,4 @@
 ** [[id:c9e06dae-2822-4de0-9fb4-34eb660c0fd6][Dart]]: supposedly easy cross-platform programming
 ** [[id:d49c9935-eecd-480d-a400-dd2113523911][SQL]]
 ** [[id:ff819483-7934-4d8d-b131-fd30d01a568f][TypeScript]]
+* [[id:0556cb53-4562-471b-8670-b456503f534f][some popular good or maybe-good programming languages]]

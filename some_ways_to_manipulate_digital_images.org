@@ -7,25 +7,38 @@
   :PROPERTIES:
   :ID:       68b3f341-f369-4b6f-841a-b77c37715a86
   :END:
-** the algorithm, I think
-*** Start from the identity
-    convert affine.png -affine 1, 0, 0, 1, 0, 0 -transform out.png
-                               sx rx ry sy tx ty
-*** first scale
-    play with sx until the grid is hexagons
-*** then rotate
-    Computed R*S, where S is the scaling matrix,
-    and R is the rotation matrix:
-    [ cos t, -sin t ]
-    [ sin t,  cos t ]
-** snippets
-   serial, newest on top
-*** trying yet again, <2023-02-20 Mon>
-    convert affine.png -affine 1.0,-0.37,-0.3,1,0,0 -transform out.png
-*** seems to work better now?
-    convert affine.png -affine 1.,-0.3,-0.3,1,0,0 -transform out.png
-*** seemed to work once
-    convert affine.png -affine 1.5,-0.38,-0.3,1,0,0 -transform out.png
+** the math, the right way, I think
+   [[id:15fe1fde-c299-43e1-9c91-24bf56b1bec6][to transform a rectangular grid to a hexagonal one]]
+** my algorithm
+*** start like this
+    a=0.3 # controls the angle of rotation
+    convert affine.png -affine 1,-$a,$a,1,0,0 -transform out.png
+*** adjust the diagonal
+    to stretch in either dimension as necessary,
+    in order to get what look like equilateral triangles
+    from what is rectangles in the input
+*** adjust the angle
+*** repeat until happy
+** earlier, not so useful now
+*** the algorithm, I think
+**** Start from the identity
+     convert affine.png -affine 1, 0, 0, 1, 0, 0 -transform out.png
+				sx rx ry sy tx ty
+**** first scale
+     play with sx until the grid is hexagons
+**** then rotate
+     Computed R*S, where S is the scaling matrix,
+     and R is the rotation matrix:
+     [ cos t, -sin t ]
+     [ sin t,  cos t ]
+*** snippets
+    serial, newest on top
+**** trying yet again, <2023-02-20 Mon>
+     convert affine.png -affine 1.0,-0.37,-0.3,1,0,0 -transform out.png
+**** seems to work better now?
+     convert affine.png -affine 1.,-0.3,-0.3,1,0,0 -transform out.png
+**** seemed to work once
+     convert affine.png -affine 1.5,-0.38,-0.3,1,0,0 -transform out.png
 ** The 6 parameters to the -affine option
    are these:
      sx,rx,ry,sy,tx,ty

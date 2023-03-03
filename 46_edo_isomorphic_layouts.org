@@ -8,16 +8,7 @@
 *** [[id:82536be9-c17e-4594-bd29-799cb7ba09f9][7\46d x 4\46r]]: octave 8|2, height 5
 *** [[id:51ca5eaf-93d1-4a91-85cf-53291ec764ba][5\46 x 2\46u]]: octave 8-3, hella tight, close dups
 *** [[id:91f7ed27-0f42-4a0f-b9d2-fa914f6d74c7][5\46 x 1\46]]: octave 9|1, height 4, very linear
-*** 15\46r x 2\46: octave 8-2, 15-lim smart height 3.4, freaky
-    00 steps; 1  % 1; string 0;  fret 0
-    08 steps; 9  % 8; string 4;  fret 0 -- uf
-    15 steps; 5  % 4; string 0;  fret 1
-    21 steps; 11 % 8; string 3;  fret 1
-    27 steps; 3  % 2; string 6;  fret 1
-    32 steps; 13 % 8; string 1;  fret 2
-    37 steps; 7  % 4; string 11; fret 1 -- WAT
-    42 steps; 15 % 8; string 6;  fret 2
-    46 steps; 2  % 1; string 8;  fret 2
+*** [[id:a697f8c1-63cb-4962-a5a0-784c68539de4][15\46r x 2\46]]: octave 8-2, 15-lim smart height 3.4, freaky
 ** TODO for a guitar
    All of these seem quite feasible.
    My favorite is 11\46 x 2\46.

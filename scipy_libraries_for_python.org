@@ -88,6 +88,8 @@
    :END:
    pd . DataFrame . to_parquet ()
 * mapping
+** PITFALL: don't use the "axis = " keyword when applying to a Series
+   It only makes sense for DataFrames.
 ** to apply a function to each row of a frame
 *** syntax
     hh["months to save for a month"] = hh.apply(
