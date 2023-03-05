@@ -1,0 +1,100 @@
+:PROPERTIES:
+:ID:       1a892bc6-e89d-45bf-bc69-1b4840ef730e
+:END:
+#+title: Lumatone keyboard geometry and physics
+* how to [[id:68b3f341-f369-4b6f-841a-b77c37715a86][shear a rectangular grid image to fit the Lumatone hex layout]]
+* pictures
+** a black and white picture of the key region only, to print
+   :PROPERTIES:
+   :ID:       ccc2e12a-88bf-4f52-88a0-41a632f6c519
+   :END:
+   [[/home/jeff/many-small/manuals/2022-05-18-x0oKUEKe.lumatone-keys.png]]
+*** where I found that
+    https://en.xen.wiki/w/File:Lumatone.svg
+*** some dimensions in it
+    The longest row is 1335 pixels long.
+    The entire image is 1599 pixels across.
+** a picture in color of the full keyboard
+   :PROPERTIES:
+   :ID:       0b1c4b04-5a97-473c-9493-6b335ae89d74
+   :END:
+   [[/home/jeff/many-small/manuals/2022-05-18-9naoYoZG.lumatone-color.jpg]]
+*** where I found that
+    It's currently the cover image in the official Lumatone User Group on Facebook
+*** some dimensions in it
+    The longest row is 602 pixels.
+    The whole keyboard is 811 pixels long.
+* keyboard dimensions, weight
+  cm     : 92   x 35.5  x 4.6
+  inches : 36.2 x 13.98 x 1.81
+  10.8 KG / 23.8 lbs
+* key dimensions
+** a video that gives a sense of geometric scale
+   https://www.youtube.com/watch?v=wswzibUGNeo
+** a rough computation
+   The image I see in the PDF of the manual,
+   appropriately scaled on my screen,
+   is 11.75" across. In reality it's 92 cm across.
+   The longest "horizontal" row of buttons is 8.75 inches across,
+   and has 28 buttons.
+
+   Therefore the longest row of buttons is
+   92 * (8.75 / 11.75) = 68.5 cm across,
+   so each button is
+   68.5 / 28 = 2.45 cm across.
+
+   For the 6\41 x 1\41 layout,
+   ano octave is just under 8 columns across, or
+   8 * 2.45 = 19.6 cm,
+   just a little inside what I can comfortably reach.
+
+   Monome buttons are about 1.44 cm across,
+   so the Lumatone is 2.45 / 1.44 = 1.7 times as big,
+   kind of. The hexagons make it weird.
+
+   On the piano, 28 keys spans 66 cm,
+   so the Lumatone keys are 3% wider (on-axis)
+   than piano keys.
+** a pretty exact computation
+   The Lumatone in reality is 92 cm across.
+   The longest row of buttons, based on the color picture,
+   is 602 / 811 the length of the full keyboard, i.e.
+     ( (602 / 811) * 92 = 68.3 ) cm
+
+   (That implies each key is 68.3 / 28 = 2.44 cm across.)
+
+   In the black and white image of the keys only,
+   the longest row is 1335 / 1599 the length of the full image,
+   so measured across, the full image should be
+     ((1599 / 1335) * 68.3 = 81.8) cm
+*** based on these images
+    [[id:0b1c4b04-5a97-473c-9493-6b335ae89d74][a picture in color]]
+    [[id:ccc2e12a-88bf-4f52-88a0-41a632f6c519][a black and white picture to print]]
+* my reach
+  A function (Haskell)
+  to get the length of a, given SAS and A = 2 pi / 3:
+    a b c = sqrt ( b**2 + c**2 - 2 * b * c * cos (2 * pi / 3) )
+  Multiply that by 2.44 to get the length in cm.
+
+  In brief, my reach per column is:
+    5: past -6 to 4
+    6: past -6 to 3
+    7: past -6 to 2
+    8: past -6 to 0
+    9: from -7 to -2
+
+  If the angle between (5,0) and (5,2) is 120 degrees,
+  then I can reach down on the fourth column to (4,5),
+  up on the fifth column beyond (5,-6),
+  down on the fifth column to (5,4),
+  up on the sixth column past (6,-6)
+  down on the sixth column to (6,3)
+    so I can't quite reach the just major 10th (6,4) in 41-edo,
+  past (7,-6),
+    so I can easily reach the just minor third (7,-1) in 41-edo,
+  to (7,2),
+  past (8,-6),
+   to (8,0),
+  from (9,-7)
+    so I can reach the just major 10th from the other side (9,-3)
+  to (9,-2)
