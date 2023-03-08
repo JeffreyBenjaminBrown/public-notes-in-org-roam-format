@@ -4,6 +4,8 @@
 #+title: Lumatone keyboard geometry and physics
 * how to [[id:68b3f341-f369-4b6f-841a-b77c37715a86][shear a rectangular grid image to fit the Lumatone hex layout]]
 * pictures
+** the key numbers
+   [[~/many-small/music-making/lumatone/2022-08-27-stl4uf7J.one-lumatone-octave.png]]
 ** a black and white picture of the key region only, to print
    :PROPERTIES:
    :ID:       ccc2e12a-88bf-4f52-88a0-41a632f6c519

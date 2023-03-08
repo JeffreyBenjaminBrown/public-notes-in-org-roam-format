@@ -98,3 +98,8 @@
 * aborted
 ** [[id:e997f14b-7bdf-4545-a90e-f64db4e8a5b3][22-edo guitar (shopping)]]
 ** [[id:3c5597b0-3260-44fe-9c49-03a3f791171c][Expression Pedals to USB]]
+** Cam's challenge
+*** in 46-edo, play 0-17-32
+    because it's pretty harmonic (both are flat)
+    and it has the biggest possible vertical range on the Lumatone
+    (in my 4x7 tuning).
