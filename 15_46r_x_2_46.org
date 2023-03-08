@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       a697f8c1-63cb-4962-a5a0-784c68539de4
+:END:
+#+title: 15\46r x 2\46
+* PTIFALL: I think I have this backwards
+* layout
+** numbers
+   00 steps; 1  % 1; string 0;  fret 0
+   08 steps; 9  % 8; string 4;  fret 0 -- uf
+   15 steps; 5  % 4; string 0;  fret 1
+   21 steps; 11 % 8; string 3;  fret 1
+   27 steps; 3  % 2; string 6;  fret 1
+   32 steps; 13 % 8; string 1;  fret 2
+   37 steps; 7  % 4; string 11; fret 1 -- WAT
+   42 steps; 15 % 8; string 6;  fret 2
+   46 steps; 2  % 1; string 8;  fret 2
+** picture
+    00 steps; 1  % 1; string 0;  fret 0
+    08 steps; 9  % 8; string 4;  fret 0 -- uf
+    15 steps; 5  % 4; string 0;  fret 1
+    21 steps; 11 % 8; string 3;  fret 1
+    27 steps; 3  % 2; string 6;  fret 1
+    32 steps; 13 % 8; string 1;  fret 2
+    37 steps; 7  % 4; string 11; fret 1 -- WAT
+    42 steps; 15 % 8; string 6;  fret 2
+    46 steps; 2  % 1; string 8;  fret 2

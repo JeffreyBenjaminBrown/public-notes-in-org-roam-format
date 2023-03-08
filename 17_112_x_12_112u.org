@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       6b974259-face-4aa0-ae74-1fe034dc3cb2
+:END:
+#+title: 17\112 x 12\112u
+* smart height 4.4
+* octave 8-2
+* layout
+  000 steps; 1  % 1;  string 0;  fret 0
+  010 steps; 17 % 16; string 2;  fret 2
+  019 steps; 9  % 8;  string -1; fret -3
+  036 steps; 5  % 4;  string 0;  fret -3 -- doh!
+  044 steps; 21 % 16; string 4;  fret 2
+  051 steps; 11 % 8;  string 3;  fret 0
+  066 steps; 3  % 2;  string 6;  fret 3
+  078 steps; 13 % 8;  string 6;  fret 2
+  085 steps; 27 % 16; string 5;  fret 0
+  090 steps; 7  % 4;  string 6;  fret 1
+  102 steps; 15 % 8;  string 6;  fret 0
+  107 steps; 31 % 16; string 7;  fret 1
+  112 steps; 2  % 1;  string 8;  fret 2
+
+  028 steps; 19 % 16; string 8;  fret 9
+  059 steps; 23 % 16; string 7;  fret 5
+  072 steps; 25 % 16; string 0;  fret -6
+  096 steps; 29 % 16; string 12; fret 9

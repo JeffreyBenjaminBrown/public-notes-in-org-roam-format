@@ -3,10 +3,22 @@
 :END:
 #+title: 58-edo
 * TODO winners
+** TODO [[id:fa82e5ed-e7eb-493f-8643-8d46945352ed][5\58 x 2\58u]]: octaves 10|4 and 12|-1, dense over both axes, smart height 3.15 along 10|4 axis
+** [[id:6b287db0-0723-420c-847e-1d2b873dff63][8\58 x 3\58u]]: octave 8|2, 15-lim 8x6
+   a.k.a. 8\58 x 3\58u
+*** TODO Unify that with this
+    [[id:c165fad1-7702-4978-a11a-cf542a437534][8\58 x 5\58-dr]], octave 6-2, 31-lim in 6x7 (15 in 6x6)
+** [[id:ee333582-5ea6-4495-b003-5ac030dfe9d8][7\58 x 4\58d]]: octave 10-3, smart height < 3
 ** [[id:beabbc24-aa01-49c4-a4e2-7f610ff2e44f][6\58 x 5\58]]: 15-lim 8x4, octave 8-2
-** [[id:c165fad1-7702-4978-a11a-cf542a437534][8\58 x 5\58]]: octave 6-2, 31-lim in 6x7 (15 in 6x6)
 ** [[id:6118a7ad-24d6-447f-947d-30e2e16de96f][5\58 x 4\58u]]: octave 10-2 (flat), height 4, well-behaved
-** [[id:fa82e5ed-e7eb-493f-8643-8d46945352ed][5\58 x 2\58u]]: octaves 10|4 and 12|-1, dense over both axes
+** 7\58 x 3\58: octave 7|3, 15-lim 7x6
+   1  -- -- -- -- -- -- --
+   -- 9  -- -- -- -- -- --
+   -- -- -- 11 3  13 -- --
+   -- -- -- -- -- -- -- 2
+   -- 5  -- -- -- 7  -- --
+   -- -- -- -- -- -- -- --
+   -- -- -- -- -- 15 -- --
 * u
 ** There's a diminished chord that's 13:8 wide in root position.
    0 11 24 35
@@ -245,6 +257,7 @@
    , 50 steps; 29 % 16 ; string 4 ; fret - 1
    # , 55 steps; 31 % 16 ; string 3 ; fret 8
 * layouts
+** TODO [[id:ee333582-5ea6-4495-b003-5ac030dfe9d8][7\58 x 4\58d]]: octave 10-3, smart height < 3
 ** TODO 15\58 x 4\58: octave (2,7), 15-lim 3x13 or 5x11 (or 3x9 ignoring 9:8)
 *** [[id:7ca8eac9-df44-4894-9ada-ade23af32774][pairs well with 58 2 15]]
 *** 17-lim layout: all but 2,7,9, 17 easy
@@ -534,16 +547,24 @@
    53 steps; 15 % 8; string 7; fret 2
 ** TODO [[id:beabbc24-aa01-49c4-a4e2-7f610ff2e44f][6\58 x 5\58]]: 15-lim 8x4, octave 8-2
 ** TODO 6\58 x 1\58: octave 9-4, height 5, ok 4:5:6:7:8, 15-lim 9x5 block
-   0  steps;  1 % 1; string 0; fret 0
-   10 steps;  9 % 8; string 1; fret 4
-                     string 2; fret -2
-   19 steps;  5 % 4; string 3; fret 1
-   27 steps; 11 % 8; string 4; fret 3
-   34 steps;  3 % 2; string 5; fret 4
-   41 steps; 13 % 8; string 6; fret 5
-   47 steps;  7 % 4; string 7; fret 5
-   53 steps; 15 % 8; string 8; fret 5
-   58 steps;  2 % 1; string 9; fret 4
+*** layout, numeric
+    0  steps;  1 % 1; string 0; fret 0
+    10 steps;  9 % 8; string 1; fret 4
+                      string 2; fret -2
+    19 steps;  5 % 4; string 3; fret 1
+    27 steps; 11 % 8; string 4; fret 3
+    34 steps;  3 % 2; string 5; fret 4
+    41 steps; 13 % 8; string 6; fret 5
+    47 steps;  7 % 4; string 7; fret 5
+    53 steps; 15 % 8; string 8; fret 5
+    58 steps;  2 % 1; string 9; fret 4
+*** layout, graphical
+  1  -- -- -- -- -- -- -- -- --
+  -- -- -- 5  -- -- -- -- -- --
+  -- -- -- -- -- -- -- -- -- --
+  -- -- -- -- 11 -- -- -- -- --
+  -- -- -- 9  -- 3  -- -- -- 2
+  -- -- -- -- -- -- 13 7  15 --
 ** TODO [[id:6118a7ad-24d6-447f-947d-30e2e16de96f][5\58 x 4\58u]]: octave 10-2, height 4, well-behaved
 ** [[id:fa82e5ed-e7eb-493f-8643-8d46945352ed][5\58 x 2\58u]]: octaves 10|4 and 12|-1, dense over both axes
 ** 5\58 x 1\58: 15-lim 11x4 block

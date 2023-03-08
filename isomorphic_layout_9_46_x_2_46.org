@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       40bd3898-4fc7-4185-a924-c598c7e7baf9
 :END:
-#+title: isomorphic layout 9\46 x 2\46
+#+title: 9\46 x 2\46 (isomorphic layout)
 * advantages
 ** 31-lim in 4x7
 ** octave (4,5) = (5,0.5)
@@ -12,7 +12,7 @@
    is the same distance as
    7+2/3 frets in 23-edo,
    so none of these stretches is as hard as
-   1\12 on a standard guitar.
+   reaching a b2 on a standard guitar.
 ** Intervals that, deceptively, *can* be played
 *** 7/6: from (3,0) to (5,-4) = 2s -4f
 *** 9/8: from (0,0) to (2,-5) = 2s -5f

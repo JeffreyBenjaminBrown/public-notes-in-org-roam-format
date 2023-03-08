@@ -3,3 +3,4 @@
 :END:
 #+title: chemistry
 * [[id:c12af7d9-ebc8-4f22-9d08-f80e27fef540][radiation]]
+* [[id:d4e00fad-af94-4a9e-a80d-640b295c91b1][Atoms mix thoroughly.]]

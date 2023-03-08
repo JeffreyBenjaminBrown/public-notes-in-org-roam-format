@@ -5,13 +5,40 @@
 * [[id:7dcff6ba-7086-4c81-bf95-6dc12e8ae897][46-edo is fat-finger friendly with 92-edo.]]
 * winners & apparent winners
 ** for the Lumatone
-*** [[id:82536be9-c17e-4594-bd29-799cb7ba09f9][4\46 x 7\46]]: octave 8|2, height 5
-*** [[id:51ca5eaf-93d1-4a91-85cf-53291ec764ba][5\46 x 2\46u]]: octave 8-3, height 4
+*** [[id:82536be9-c17e-4594-bd29-799cb7ba09f9][7\46d x 4\46r]]: octave 8|2, height 5
+*** [[id:51ca5eaf-93d1-4a91-85cf-53291ec764ba][5\46 x 2\46u]]: octave 8-3, hella tight, close dups
 *** [[id:91f7ed27-0f42-4a0f-b9d2-fa914f6d74c7][5\46 x 1\46]]: octave 9|1, height 4, very linear
+*** [[id:a697f8c1-63cb-4962-a5a0-784c68539de4][15\46r x 2\46]]: octave 8-2, 15-lim smart height 3.4, freaky
 ** TODO for a guitar
-*** TODO look for more
-*** [[id:40bd3898-4fc7-4185-a924-c598c7e7baf9][isomorphic layout 9\46 x 2\46]]
+   All of these seem quite feasible.
+   My favorite is 11\46 x 2\46.
+*** [[id:40bd3898-4fc7-4185-a924-c598c7e7baf9][9\46 x 2\46]]: small range, easier than necessary
+*** [[id:f49b51e7-c513-41f7-a895-cd091e3c301d][11\46 x 2\46]]: octave 4|1, max reach 4.2\12, uncrowded
+*** 13\46 x 2\46: octave 4|-3, max reach 5.2\12, easy 7-lim
+**** max reach is across 10 frets of 23-edo
+     which = 10 * 12 / (46/2) = 5.2 frets of 12-edo
+     Unfortunately that's for 4:3, an important interval.
+**** harmonics 9,11 and 13 are all far from 3:2
+**** layout
+     0  steps; 1  % 1; string 0; fret  0
+     8  steps; 9  % 8; string 0; fret  4
+     15 steps; 5  % 4; string 1; fret  1
+     21 steps; 11 % 8; string 1; fret  4
+     27 steps; 3  % 2; string 3; fret -6 -- weird
+     32 steps; 13 % 8; string 2; fret  3
+     37 steps; 7  % 4; string 3; fret -1
+     42 steps; 15 % 8; string 4; fret -5
+     46 steps; 2  % 1; string 4; fret -3
 * layouts
+** 9\46 x 13\46u: weird, super-flat
+*** pic
+    11 -- -- -- -- -- -- -- -- -- -- --
+    9  -- -- -- -- -- -- -- -- -- -- --
+    -- -- -- -- -- -- -- -- -- -- -- --
+    -- -- 1  -- -- 3  -- -- -- -- -- --
+    -- -- -- -- -- -- -- 13 -- -- -- --
+    -- -- -- -- -- -- -- -- -- 7  2  --
+    -- -- -- -- -- -- -- -- 5  -- -- 15
 ** TODO [[id:51ca5eaf-93d1-4a91-85cf-53291ec764ba][5\46 x 2\46u]]: octave 8-3, 15-lim in 8x4
 ** 9\46 x 1\46: My benchmark, 13- and 31-lim both in 5x7
    0  steps;  1 % 1;  string 0; fret 0
@@ -41,16 +68,6 @@
    37 steps;  7 % 4; string 6; fret 1
    42 steps; 15 % 8; string 7; fret 0
    46 steps;  2 % 1; string 7; fret 4
-** TODO 11\46 x 2\46: octave 4-1, fret width 8, guitar-good
-   00 steps; 1  % 1; string 0; fret 0
-   08 steps; 9  % 8; string 0; fret 4
-   15 steps; 5  % 4; string 1; fret 2
-   21 steps; 11 % 8; string 1; fret 5
-   27 steps; 3  % 2; string 3; fret -3
-   32 steps; 13 % 8; string 2; fret 5
-   37 steps; 7  % 4; string 3; fret 2
-   42 steps; 15 % 8; string 4; fret -1
-   46 steps; 2  % 1; string 4; fret 1
 ** TODO 7\46 x 2\46: octave 6-2, 15-lim in s6 x f4
 *** layout
     0  steps;  1 % 1; string 0; fret 0

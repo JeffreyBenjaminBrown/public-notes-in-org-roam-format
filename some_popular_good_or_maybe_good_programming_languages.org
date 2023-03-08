@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       0556cb53-4562-471b-8670-b456503f534f
+:END:
+#+title: some popular good or maybe-good programming languages
+  more popular than Haskell
+* C++
+  1.8 million jobs on Linkedin
+* Go
+  140k jobs on Linkedin --
+  3 times as many jobs as Kotlin on Linkedin,
+  and that's only searching for the term "golang"
+* Rust
+  17k jobs on Linkedin
+  Generics
+  Sum types
+  Iterators (appear equivalent to comprehensions)
+  HKTs
+  Monads
+  Software Transactional Memory
+* Objective-C
+* TODO Kotlin
+  Java-interop
+  good about nullability
+  "Sealed Classes" approximate sum types.
+  generics (type classes with parameters)
+  explicit signatures (optional) including return type
+  good async support
+  Pattern matching. A little verbose, but possible:
+    https://stackoverflow.com/a/32748904/916142
+  mapping, which might be equivalent to comprehensions
+* Scala
+* F#
+* Typescript
+* Prolog
+* Haskell
+  1.4k jobs on Linkedin worldwide

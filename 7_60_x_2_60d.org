@@ -1,0 +1,57 @@
+:PROPERTIES:
+:ID:       44847515-dc3f-4017-9c41-8c63d635b7e4
+:END:
+#+title: 7\60 x 2\60d (isomorphic layout)
+* 15-lim 5x8, octave 8-2, great dom7
+* smart height 4.3
+* 17-lim + 29 layout
+  00 steps; 1  % 1;  string 0; fret 0
+  05 steps; 17 % 16; string 1; fret -1
+  10 steps; 9  % 8;  string 2; fret -2
+  19 steps; 5  % 4;  string 3; fret -1
+  27 steps; 15 % 11; string 3; fret 3 -- the second-best 11:8 is better
+  28 steps; 11 % 8;  string 4; fret 0
+  35 steps; 3  % 2;  string 5; fret 0
+  42 steps; 13 % 8;  string 6; fret 0
+  48 steps; 7  % 4;  string 6; fret 3
+  51 steps; 29 % 16; string 7; fret 1
+  54 steps; 15 % 8;  string 8; fret -1
+  60 steps; 2  % 1;  string 8; fret 2
+* 31-lim layout
+  00 steps; 1  % 1;  string 0; fret 0
+  05 steps; 17 % 16; string 1; fret -1
+  10 steps; 9  % 8;  string 2; fret -2
+  15 steps; 19 % 16; string 1; fret 4
+  19 steps; 5  % 4;  string 3; fret -1
+  24 steps; 21 % 16; string 4; fret -2
+  28 steps; 11 % 8;  string 4; fret 0
+  27 steps; 15 % 11; string 3; fret 3 -- the second-best 11:8 is better
+  31 steps; 23 % 16; string 5; fret -2
+  35 steps; 3  % 2;  string 5; fret 0
+  39 steps; 25 % 16; string 5; fret 2 -- inconsistent!
+  42 steps; 13 % 8;  string 6; fret 0
+  45 steps; 27 % 16; string 5; fret 5
+  48 steps; 7  % 4;  string 6; fret 3
+  51 steps; 29 % 16; string 7; fret 1
+  54 steps; 15 % 8;  string 8; fret -1
+  57 steps; 31 % 16; string 7; fret 4
+  60 steps; 2  % 1;  string 8; fret 2
+* picture
+
+  15_-- -- -- -- -- -- -- 7-
+
+  -- -- 9  -- -- -- -- -- --
+
+  -- 17 -- 5  -- -- -- -- 15 -- -- -- -- -- -- -- 7'
+
+  1  -- -- -- 11 3  13 -- -- -- 9' -- -- -- -- -- --
+
+  -- -- -- -- -- -- -- 29 -- 17 -- 5' -- -- -- -- 15'
+
+  -- -- -- -- -- -- -- -- 2  -- -- -- 11'3' 13'-- --
+
+  -- -- -- -- -- -- 7  -- -- -- -- -- -- -- -- 29'--
+
+			  -- -- -- -- -- -- -- -- 4
+
+			  -- -- -- -- -- -- 7' -- --

@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       15fe1fde-c299-43e1-9c91-24bf56b1bec6
+:END:
+#+title: to transform a rectangular grid to a hexagonal one
+import numpy as np
+from math import sin,cos,pi
+
+
+# TODO : Insert another matrix at the start,
+# which stretches to make the input grid square
+# (as opposed to merely rectangular).
+
+shear = np.array( [ [1,0],
+                    [sin(pi/12),1] ] )
+
+length_sheared_unit_x = np.linalg.norm (
+  np.matmul (
+    shear,
+    np.array( [[1], [0] ] )
+  ) )
+
+squeeze = np.array(
+  [ [ 1 / length_sheared_unit_x, 0 ],
+    [ 0, 1] ] )
+
+angle = pi/24
+rotate = np.array ( [ [ 1, -angle ],
+                      [ angle, 1 ] ] )
+
+rect_to_hex = np.matmul (
+  rotate,
+  np.matmul ( shear,
+              squeeze ) )

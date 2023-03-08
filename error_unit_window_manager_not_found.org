@@ -2,6 +2,7 @@
 :ID:       27ec44e3-e227-489e-8437-36c9f3807fda
 :END:
 #+title: Error: "Unit window-manager not found"
+* PITFALL: This solution can apply even when I don't get the error message in the title.
 * ref (my question on the NixOS Discourse)
   https://discourse.nixos.org/t/fresh-minimal-kde-install-gives-error-unit-window-manager-service-not-found/23093
 * the solution

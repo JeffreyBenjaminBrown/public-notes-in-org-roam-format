@@ -2,7 +2,7 @@
 :ID:       82536be9-c17e-4594-bd29-799cb7ba09f9
 :ROAM_ALIASES: "7\46d x 4\46r"
 :END:
-#+title: isomorphic layout 7\46d x 4\46r
+#+title: 7\46d x 4\46r (isomorphic layout)
 Flat, tight, easy 5-lim, not too strange.
 * on the Lumatone
   :PROPERTIES:

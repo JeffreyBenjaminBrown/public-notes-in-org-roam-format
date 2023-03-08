@@ -1,5 +1,5 @@
 :PROPERTIES:
 :ID:       d3e3d652-353a-4170-b3c8-4c77b2131372
 :END:
-#+title: startling murmurations
+#+title: starling murmurations
 https://www.nytimes.com/2022/04/04/travel/starling-murmurations.html

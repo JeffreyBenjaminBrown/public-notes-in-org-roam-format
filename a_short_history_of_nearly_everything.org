@@ -13,3 +13,5 @@
   "Too poor to pay for college, [the soon-to-be-famous-physicist Albert Michelson] traveled toWashington, D.C., and took to loitering by the front door of the WhiteHouse so that he could fall in beside President Ulysses S. Grant when thePresident emerged for his daily constitutional. (It was clearly a moreinnocent age.) In the course of these walks, Michelson so ingratiated himself tothe President that Grant agreed to secure for him a free place at the U.S.Naval Academy. It was there that Michelson learned his physics."
 * Einstein was indomitable.
   After proving that atoms exist (via Brownian motion predictions) and producing the theory of relativity, he was rejected as a university professor, then rejected as a high school teacher. He continued examining patents and thinking.
+* [[id:7b66ed16-90b6-496a-9568-e1816c9dbc20][Obvious-in-retrospect reasons to think the universe is expanding.]]
+* [[id:d4e00fad-af94-4a9e-a80d-640b295c91b1][Atoms mix thoroughly.]]

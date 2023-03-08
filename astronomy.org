@@ -4,6 +4,7 @@
 #+title: astronomy
 * vocab
 ** AU = [[id:59447811-6e25-45f5-abcd-2a6241dc1cc2][Astronomical Unit]]
+* [[id:7b66ed16-90b6-496a-9568-e1816c9dbc20][Obvious-in-retrospect reasons to think the universe is expanding.]]
 * cool facts
 ** [[id:6b07ee85-287c-40e1-9fd5-3b41519c04a6][The solar system extends far beyond Pluto.]]
 ** [[id:c918667b-d1e8-44e1-ad47-0fec4d4cba84][Radio telescopy is gossamer.]]
