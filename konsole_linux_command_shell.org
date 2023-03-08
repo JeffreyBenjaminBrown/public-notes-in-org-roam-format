@@ -1,13 +1,16 @@
 :PROPERTIES:
 :ID:       f63c9744-3d8b-4ef4-9433-128796588009
+:ROAM_ALIASES: "Konsole"
 :END:
 #+title: Konsole (Linux command shell)
+* shortcuts
+** show/hide menu bar: C-S-m
 * COOL: Blinking text can be disabled.
   Under "edit" (or maybe only "new") "profile",
   under "advanced".
 * config files
 ** master config?
-   ~/.config/konsolerc
+   [[~/.config/konsolerc]]
 ** profile files
 *** user-defined ones
     .local/share/konsole/*.profile
