@@ -19,7 +19,7 @@
    see in manual:
    Creating Custom Action Macros
 * some builtin shortcuts
-** C-p: Preferences (global, I guess)
+** c-p: Preferences (global, I guess)
 ** M-Ret: Project Preferences
 ** [[id:f625c27d-b448-44a8-b667-0faf07543ea3]["basic editing"]] shortcuts
 ** [[id:77f36bf1-3b95-407d-a641-9b61c1756d8c][marker-related shortcuts]]

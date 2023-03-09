@@ -3,6 +3,8 @@
 :END:
 #+title: tmux (software)
 * TODO [[id:f25c0908-bfdc-446d-98dc-c353f204bcc2][show a shorter prompt.]]
+* PITFALL :: tmux + env variables = footgun
+  https://aj.codes/posts/be-careful-using-tmux-and-environment-variables/
 * server, session, window, pane
 ** what they are
    Servers host sessions, which host windows.
