@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       768c1193-5615-436b-b470-7f0983634b59
+:ROAM_ALIASES: unmounting and mounting drives in Linux
 :END:
 #+title: mounting and unmounting drives in Linux
 * mount|unmount a drive from the command line
@@ -17,7 +18,10 @@
    but not manipulable at the above long path.
 * mount|unmount a drive via a GUI
   Use [[id:c2532854-3f04-4267-91ba-062275b3c2ee][gnome-disk-utility]].
-* to find out what preferences are stopping `umount`
-  Alternatives. I had better luck with `lsof`.
-** lsof           /path/to/folder/to/unmount
-** sudo fuser -vm /path/to/folder/to/unmount
+* SOLUTION : to find out what processes are stopping `umount`
+** alternatives
+   I had better luck with `lsof`.
+*** lsof           /path/to/folder/to/unmount
+*** sudo fuser -vm /path/to/folder/to/unmount
+** tags
+   "error unmounting" "target is busy"

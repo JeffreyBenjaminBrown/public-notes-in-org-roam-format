@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       361aa2f3-ae91-42c1-b943-0735eb0983af
+:ROAM_ALIASES: "music fundamentals"
+:END:
+#+title: musical fundamentals
+* parameters
+** number (quantity, count)
+** speed : mean (tempo), std dev (syncopation)
+** pitch : mean, std dev, size of pitch set
+** duration : mean, std dev
+** velocity : mean, std dev
+* objects
+** notes
+** tonal center, chord, scale
+** motif
+   rhythm
+   melody
+   melody modulo rhythm (tone rows)
+** voices
