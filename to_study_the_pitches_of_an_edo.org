@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       d8c61bcd-fd1e-4c7d-9d12-d5e7ff0bdb82
+:END:
+#+title: to study the pitches (of an edo)
+* Randomly generate 3-ish pitches.
+  serial
+** first pick, play a tonal center.
+** try to sing the chord.
+** then play and study it.
+* Practice arithmetic.
+** n + m = _
+   for n, m in [-edo,edo]
+** edo - n = _
+** edo/k - n = _, for some very small k
+   e.g. for 46-edo I'll use k=2;
+   for 87-edo I'd use k=3.
+* ear-train
+  [[~/code/music/montevideo/Montevideo/EarTrain/handy.hs]]

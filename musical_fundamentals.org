@@ -3,17 +3,25 @@
 :ROAM_ALIASES: "music fundamentals"
 :END:
 #+title: musical fundamentals
+* transformations
+** freq (parallelism)
+*** voices, chords in a scale
+*** melodies, chords chromatically
+** time transformations
+*** speed, reverse
+** waves
+*** esp: amplitude, nested
 * parameters
 ** number (quantity, count)
 ** speed : mean (tempo), std dev (syncopation)
 ** pitch : mean, std dev, size of pitch set
 ** duration : mean, std dev
-** velocity : mean, std dev
+** amplitude : mean, std dev
 * objects
-** notes
+** note
 ** tonal center, chord, scale
 ** motif
    rhythm
    melody
    melody modulo rhythm (tone rows)
-** voices
+** voice
