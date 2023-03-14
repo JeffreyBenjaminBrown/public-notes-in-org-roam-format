@@ -3,5 +3,6 @@
 :ROAM_ALIASES: AFD
 :END:
 #+title: Agence Française de Développement
+* [[id:4d2c1c7e-54fd-42be-b46b-cff9a96125b1][AFD people]]
 * [[id:0d8d7d94-72c7-44c5-8dc7-58432c5bec6f][mtg with AFD ("French Development Bank"?), 2022-10-19-ish]]
 * they like [[id:1bfc20ac-3e04-4eca-a82c-be3e04ad7b49][CEQ (method for evaluating fiscal incidence)]]
