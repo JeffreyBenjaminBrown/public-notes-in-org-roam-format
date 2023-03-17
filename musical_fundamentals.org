@@ -11,6 +11,7 @@
 *** speed, reverse
 ** waves
 *** esp: amplitude, nested
+** shock / drift
 * parameters
 ** number (quantity, count)
 ** speed : mean (tempo), std dev (syncopation)

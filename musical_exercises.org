@@ -5,7 +5,6 @@
 #+title: musical exercises
 * [[id:d8c61bcd-fd1e-4c7d-9d12-d5e7ff0bdb82][to study the pitches (of an edo)]]
 * juggle the [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
-* call and repeat across hands
 * build up a chord not knowing what's in it
   rather than aiming for a predetermined target
 * groove, then radical change
@@ -14,6 +13,7 @@
 * rhythm > pitch
 * across hands
 ** call and repeat
+** unisons (octaves)
 ** a single (big) chord, (fast) melody
 ** borrow a finger from one sometimes
 * pedal tones, inc. high ones
