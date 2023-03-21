@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       6a0a3cef-e956-443f-b6e1-58f1a98f3998
+:END:
+#+title: Dunai: reactive monad generalizes many FRP idioms.
+https://hackage.haskell.org/package/dunai

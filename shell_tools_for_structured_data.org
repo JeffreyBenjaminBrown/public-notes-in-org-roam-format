@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       c444f70b-f19a-417c-9064-1f5df4c3d803
+:END:
+#+title: shell tools for structured data
+= tools like grep, sed, awk but for CSV, JSON, more
+* a bunch
+  https://clickhouse.com/blog/extracting-converting-querying-local-files-with-sql-clickhouse-local
+* another bunch
+  https://news.ycombinator.com/item?id=34656022
+* Miller
+  https://github.com/johnkerl/miller

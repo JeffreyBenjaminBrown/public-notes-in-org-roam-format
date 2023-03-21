@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       e5c4db3d-2328-4f79-a2ee-f1f9d2fdfd90
+:END:
+#+title: programming idioms
+* [[id:1effb039-5b2a-4862-9fd1-420af4d6888e][functional reactive programming]]

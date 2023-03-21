@@ -5,6 +5,7 @@
 #+title: bash (shell)
 * [[id:41078ddd-4ec0-45fe-a799-3f8d00aa81d8][NuShell]]
 * [[id:a0dae4cf-8359-49c8-9815-523ac2a49191][Bash one-liners, some good]]
+* [[id:c444f70b-f19a-417c-9064-1f5df4c3d803][shell tools for structured data]]
 * Shell script best practices
 ** https://sharats.me/posts/shell-script-best-practices/
 * [[id:e6dc1949-5024-4fee-b031-7af412353a5e][diff (shell programming concept)]]
