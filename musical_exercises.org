@@ -5,15 +5,21 @@
 #+title: musical exercises
 * [[id:d8c61bcd-fd1e-4c7d-9d12-d5e7ff0bdb82][to study the pitches (of an edo)]]
 * juggle the [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
-* build up a chord not knowing what's in it
-  rather than aiming for a predetermined target
+* across the Lumatone
+** 1 fast bass voice + 2 slow high voices
+** cover the full horizontal range
+** cover the full vertical range
+*** with any number of hands
 * groove, then radical change
-  and while meditating, think of something really different
+  while groove-meditating, think of something really different
 * drift a groove
 * rhythm > pitch
+* blind
+** and two-handed
 * across hands
 ** call and repeat
 ** unisons (octaves)
 ** a single (big) chord, (fast) melody
-** borrow a finger from one sometimes
+** borrow a finger from the other
+** cross hands
 * pedal tones, inc. high ones

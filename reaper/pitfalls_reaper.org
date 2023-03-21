@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       c845c381-8b0b-4b7a-82e8-71f70110304e
+:ROAM_ALIASES: "Reaper pitfalls" "PITFALLS in Reaper"
 :END:
 #+title: pitfalls in Reaper
 * [[id:8ed4c9dd-8441-4a05-acc2-e641be0a5ac6][MIDI pitfalls]]
@@ -11,6 +12,7 @@
   Or maybe they're the same thing,
   but they show different results in those two contexts.
 * [[id:198e7eea-412b-4c3f-80d3-e3dfa1793d27][pitfalls when Ripple Editing]]
+* [[id:25e7f29e-280a-4a80-b0e5-6d28e9ac0cb0][dangerous shortcuts]]
 * Propogating Items means propogating an item's *properties* to other items.
   :PROPERTIES:
   :ID:       21bbb484-4a5a-476f-9130-3714cb9342cf

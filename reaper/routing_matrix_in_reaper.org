@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       91ee26ba-8401-4bbb-baeb-66e7af9959f7
+:ROAM_ALIASES: "routing \ Reaper" "Reaper / routing"
 :END:
 #+title: Routing Matrix \ Reaper
 * [[id:e35457fe-af25-4ea3-924d-a8b39f138a59][M-r : open it]]

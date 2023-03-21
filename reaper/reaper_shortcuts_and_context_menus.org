@@ -6,6 +6,15 @@
 * PITFALL: This list is not complete.
   Better, probably, would be to search these notes by function,
   rather than by shortcut.
+* PITFALL: dangerous shortcuts
+  :PROPERTIES:
+  :ID:       25e7f29e-280a-4a80-b0e5-6d28e9ac0cb0
+  :END:
+** R = toggle repeat
+   This (might have other effects too, but it can)
+   will cause playback to return to the start when "the end" is reached,
+   and "the end" can appear surprisingly random --
+   like, a few seconds after the last time I've recorded to.
 * surprise context menus or windows
 ** [[id:7d05144b-2538-43fa-ad62-6dd6e3090f48][Track Control Panel :: Right-click on the track's Arm button.]]
 ** [[id:356398ef-c121-493e-b920-c70a698df50f][a track's FX and/or plugins :: click its FX button.]]

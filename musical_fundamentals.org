@@ -3,26 +3,39 @@
 :ROAM_ALIASES: "music fundamentals"
 :END:
 #+title: musical fundamentals
-* transformations
-** freq (parallelism)
-*** voices, chords in a scale
-*** melodies, chords chromatically
-** time transformations
-*** speed, reverse
-** waves
-*** esp: amplitude, nested
-** shock / drift
-* parameters
-** number (quantity, count)
-** speed : mean (tempo), std dev (syncopation)
-** pitch : mean, std dev, size of pitch set
-** duration : mean, std dev
-** amplitude : mean, std dev
-* objects
-** note
-** tonal center, chord, scale
-** motif
-   rhythm
-   melody
-   melody modulo rhythm (tone rows)
-** voice
+* the basic elements
+** transformations
+*** freq (parallelism)
+**** voices, chords in a scale
+**** melodies, chords chromatically
+*** time transformations
+**** speed, reverse
+*** waves
+*** shock / drift
+** parameters
+*** number (quantity, count)
+*** speed : mean (tempo), std dev (syncopation)
+*** pitch : mean, std dev, size of pitch set
+*** duration : mean, std dev
+*** amplitude : mean, std dev
+*** timbre
+*** total complexity
+** objects
+*** note
+*** tonal center, chord, scale
+*** motif
+    rhythm
+    melody
+    melody modulo rhythm (tone rows)
+*** voice
+* bundles of elements
+** number of motifs
+** waves in
+*** the number of voices
+*** the complexity of the pitch set
+*** amplitude
+*** which parameters are complex
+** nested waves
+** voices at different amplitudes, speeds
+** uneven but unison rhythm across voices
+** uneven timing for chord progressions
