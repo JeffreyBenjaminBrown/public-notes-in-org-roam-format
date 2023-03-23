@@ -8,3 +8,4 @@
   a label set (for the x-axis) like ["a","b","c","a","b","c"]
   will cause the bar chart to have only three bars, not six,
   even if every other input vector is likewise length six.
+* [[id:ea1b4045-d93a-4ef0-a475-13b675d7fa57][plot multiple series on the same graph in matplotlib]]

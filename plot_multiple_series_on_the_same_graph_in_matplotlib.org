@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       ea1b4045-d93a-4ef0-a475-13b675d7fa57
+:END:
+#+title: plot multiple series on the same graph in matplotlib
+# https://stackoverflow.com/a/22276109/916142
+
+import pandas             as pd
+import numpy              as np
+import matplotlib.pyplot  as plt
+
+t = pd.Series ( np.linspace(0, 10, 21) )
+a = t.apply( pension_public_now )
+b = t.apply( pension_private_now )
+
+plt.plot ( t, a, 'r' )
+plt.plot ( t, b, 'b' )
+plt.savefig( "some pensions.png" )
+plt.close()
