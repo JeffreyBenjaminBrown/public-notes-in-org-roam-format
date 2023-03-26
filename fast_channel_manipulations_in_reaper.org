@@ -7,7 +7,7 @@
    https://forum.cockos.com/showthread.php?p=2641443#post2641443
 ** [[id:c9734ff4-b0a0-4132-9f84-87e78eb67246][bigger piano roll in Reaper, I asked for a]]
 * some channel operations, with keyboard shortcuts
-** "show only channel" X : Shift + (X:int)
+** "show only channel" X = Shift + (X:int)
    By default only defined for ten of the 16 channels.
 ** increment channel = "set channel lower/higher" : JBB C-S-M-[+-]
    (that is, every modifier and + or -)

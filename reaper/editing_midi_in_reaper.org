@@ -1,21 +1,21 @@
 :PROPERTIES:
 :ID:       91cb005e-e87a-42dd-8dc9-ae3c5a094f12
-:ROAM_ALIASES: "MIDI in Reaper" "Reaper / MIDI"
+:ROAM_ALIASES: "Reaper / MIDI"
 :END:
-#+title: editing MIDI in Reaper
+#+title: MIDI in Reaper
 * u
-** [[id:5333d0f7-f7dd-459c-a2c9-b195ad71c961][fast channel manipulations in Reaper]] (for the channels-as-octave idiom)
-** how colors represent channels in the MIDI editor
-   They seem to go R, G, B, repeat.
+** [[id:5333d0f7-f7dd-459c-a2c9-b195ad71c961][fast channel manipulations in Reaper]]
+   esp. useful for the channels-as-octave idiom
+** TODO How do colors represent channels in the MIDI editor?
 ** set note lengths to grid size
 ** Options / "drawing or selecting a note sets the new note length"
-* my feature requests \ MIDI \ Reaper
+* BLOCKED my feature requests \ Reaper
 ** bigger piano roll in Reaper, I asked for a
    :PROPERTIES:
    :ID:       c9734ff4-b0a0-4132-9f84-87e78eb67246
    :END:
    https://forum.cockos.com/showthread.php?t=272533&highlight=channel+octave
-* skipped
+* skipped when reading
 ** most of the CC stuff
    including but not limited to
 *** Using MIDI CC Messages to Control FX Presets
@@ -70,7 +70,7 @@
    "The default Velocity value for notes created in the MIDI Editor is taken from the last selected event"
 ** F3 : "panic" : send note-off to all notes
 ** "Use all MIDI inputs for step recording"
-   Otherwise I think it only uses keys F1-F12.
+   Otherwise I think it only uses the computer keyboard's F1-F12.
    Step recording is non-realtime recording, with playback off.
 ** Multiple MIDI items and/or tracks can show in one MIDI editor window.
    :PROPERTIES:

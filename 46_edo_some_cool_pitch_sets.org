@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       2b0cc874-56b8-4803-b581-329a2f4a04a1
+:END:
+#+title: 46-edo // cool or challenging pitch sets
+* "3,13" whole tone
+  Two stacks of narrow whole tones,
+  mostly separated by fifths:
+  [0]
+  6 13 20 27
+  32 39 46
+* 11-lim dorian #4
+  0 6 12 21 27 33 39
+** modes
+*** code to show modes
+    myPrint $ [mode 46 [0,6,12,21,27,33,39] i | i <- [0..6]]
+*** the modes
+    [0,6,12,21,27,33,39]
+    [0,6,15,21,27,33,40]
+    [0,9,15,21,27,34,40]
+    [0,6,12,18,25,31,37]
+    [0,6,12,19,25,31,40]
+    [0,6,13,19,25,34,40]
+    [0,7,13,19,28,34,40]
+*** noteworthy
+    Somehow no tritones [22-24].
+    Each scale with 27 (3:2) also has 21 (11:8).
+* diminished, augmented, 9-tone

@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "display manager" "window manager" "graphical user interface"
 :END:
 #+title: desktop environment
+* [[id:3a789ae6-2cf5-44ce-a5b5-c7f6b0199d63][if a window in KDE spills off-screen and its title bar is unreachable]]
 * to launch the display manager from a bare xterm
   systemctl start display-manager.service
 * If I can't start the desktop environment but can start a terminal

@@ -10,6 +10,7 @@
 * [[id:9436b2e5-d0b7-461f-ad08-46a43ee825d5][KDE bug: moving apps across activities is complex]]
   Solved in the development branch.
 * solutions
+** [[id:3a789ae6-2cf5-44ce-a5b5-c7f6b0199d63][if a window in KDE spills off-screen and its title bar is unreachable]]
 ** to remove Show Desktop from the Task Switcher
    In KDE's Settings, go to Task Switcher,
    enable Include Show Desktop Icon, save settings,

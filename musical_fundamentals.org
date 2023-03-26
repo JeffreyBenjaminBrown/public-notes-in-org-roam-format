@@ -3,7 +3,10 @@
 :ROAM_ALIASES: "music fundamentals"
 :END:
 #+title: musical fundamentals
-* the basic elements
+* elements
+** transformation parameters
+*** magnitude of change
+*** duration of transformation
 ** transformations
 *** freq (parallelism)
 **** voices, chords in a scale
@@ -12,10 +15,11 @@
 **** speed, reverse
 *** waves
 *** shock / drift
-** parameters
+** object parameters
 *** number (quantity, count)
 *** speed : mean (tempo), std dev (syncopation)
 *** pitch : mean, std dev, size of pitch set
+**** TODO [[id:2b0cc874-56b8-4803-b581-329a2f4a04a1][46-edo / some cool pitch sets]]
 *** duration : mean, std dev
 *** amplitude : mean, std dev
 *** timbre

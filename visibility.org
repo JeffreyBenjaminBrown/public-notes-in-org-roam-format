@@ -2,5 +2,6 @@
 :ID:       a011a389-4309-4a56-9dce-26c54562e469
 :END:
 #+title: visibility
+* [[id:3a789ae6-2cf5-44ce-a5b5-c7f6b0199d63][if a window in KDE spills off-screen and its title bar is unreachable]]
 * [[id:d6e97554-2f16-438b-957d-5c1bf8f45f2b][make the shell font bigger]]
 * [[id:7bd448d1-520c-4781-9ea4-59c70edbc151][screen zoom (computer interface concept)]]

@@ -19,7 +19,10 @@
 * across hands
 ** call and repeat
 ** unisons (octaves)
+   esp. with hands spread wide (2 octaves)
 ** a single (big) chord, (fast) melody
 ** borrow a finger from the other
 ** cross hands
 * pedal tones, inc. high ones
+* TODO memory game
+  increase number of working elements from the [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]

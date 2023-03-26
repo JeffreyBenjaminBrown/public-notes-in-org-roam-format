@@ -4,3 +4,4 @@
 #+title: 46-edo
 * [[id:377e5d41-1a4a-4a14-b2f7-20af822cc352][46-edo isomorphic layouts]]
 * [[id:a7586f73-d137-4ed3-8c58-a24675675f60][46-edo notation]]
+* [[id:2b0cc874-56b8-4803-b581-329a2f4a04a1][46-edo / some cool pitch sets]]

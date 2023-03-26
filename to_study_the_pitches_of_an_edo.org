@@ -19,6 +19,10 @@
      for 87-edo I'd use k=3.
 *** ear-train
     [[~/code/music/montevideo/Montevideo/EarTrain/handy.hs]]
+* study puns
+** the Montevideo command
+   intervals (harmonicLimit' (2 : 23 : [3,5..17])) 46
+** BLOCKED resume at 9
 * random / blind chord
   Build a chord not knowing what's in it,
   rather than aiming for a predetermined target.

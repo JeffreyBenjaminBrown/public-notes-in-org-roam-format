@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       3a789ae6-2cf5-44ce-a5b5-c7f6b0199d63
+:END:
+#+title: if a window spills off-screen and its title bar is unreachable
+use Windows-<direction> to squish it into one side of the screen.
