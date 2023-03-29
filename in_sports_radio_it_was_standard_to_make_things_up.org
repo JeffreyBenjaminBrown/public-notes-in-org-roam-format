@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       e658ce5a-b242-4b0a-b010-e450a9a61787
+:END:
+#+title: In sports radio it was standard to make things up.
+in the 1930s, at least
+* source
+  podcast "The Rest Is History", episode 310:
+  "Ronald Reagan and the American Dream #theRestIsHistory"
+  https://podcastaddict.com/episode/154134482
+** Around 30:00 to 30:30.
+* You got bursts of news over a wire, kept some canned crowd noise at hand, and interpolated whatever you saw fit.
+* Ronald Reagan, like most radio sportscasters, did that.

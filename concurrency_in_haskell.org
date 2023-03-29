@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3b228889-90e2-464f-809a-5fb77fd8262f
+:END:
+#+title: concurrency in Haskell
+* [[id:b76fbd8a-36f5-425f-929e-fc9ed2925248][troupe : an actor model (ala Erlang) for Haskell]]
+* [[id:173d4f0d-b180-423c-9e97-b3c99b9e6e98][Software Transactional Memory]]

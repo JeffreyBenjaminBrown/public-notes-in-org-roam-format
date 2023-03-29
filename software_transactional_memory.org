@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       173d4f0d-b180-423c-9e97-b3c99b9e6e98
+:END:
+#+title: Software Transactional Memory

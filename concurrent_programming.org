@@ -2,8 +2,7 @@
 :ID:       a0f72fa0-6930-4b6b-a570-93a4748895bb
 :END:
 #+title: concurrent programming
-* Software Transactional Memory
-  is the best way.
+* [[id:173d4f0d-b180-423c-9e97-b3c99b9e6e98][Software Transactional Memory]]
 * some vocab
   :PROPERTIES:
   :ID:       0d2d4114-b031-412e-81d7-26bd7c67f7f5
@@ -57,3 +56,4 @@
 ** [[id:c008e013-350c-47c7-9f87-228d1d35b2b3][Erlang (programming language)]]
 *** [[id:8bd1818b-7da8-4c6b-b35e-93f54ef5a0d7][concurrency in Erlang]]
 ** [[id:ea2298c9-6f5e-49f7-b81b-1374b6764e08][concurrency in Python]]
+** [[id:3b228889-90e2-464f-809a-5fb77fd8262f][concurrency in Haskell]]

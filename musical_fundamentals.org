@@ -32,14 +32,14 @@
     melody
     melody modulo rhythm (tone rows)
 *** voice
-* bundles of elements
+* TODO bundles of elements
 ** number of motifs
 ** waves in
 *** the number of voices
-*** the complexity of the pitch set
+*** TODO the complexity of the pitch set
 *** amplitude
-*** which parameters are complex
-** nested waves
+*** TODO which parameters are complex
+** stackd/nested waves
 ** voices at different amplitudes, speeds
-** uneven but unison rhythm across voices
-** uneven timing for chord progressions
+** TODO uneven but unison rhythm across voices
+** TODO uneven timing for chord progressions

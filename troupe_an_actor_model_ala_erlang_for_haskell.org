@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b76fbd8a-36f5-425f-929e-fc9ed2925248
+:END:
+#+title: troupe : an actor model (ala Erlang) for Haskell
+* discussion on Haskell Discourse
+  https://discourse.haskell.org/t/towards-an-actor-framework-for-haskell/5929/18
+* on Github
+** Design Ideas (on the wiki)
+   https://github.com/NicolasT/troupe/wiki/Design-Ideas/
+** Its relation to STM and NFData (on the wiki)
+   https://github.com/NicolasT/troupe/discussions/3

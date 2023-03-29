@@ -10,3 +10,6 @@
 * [[id:c9111834-29bf-49c6-be86-6b633e21ba04][costureras in Bogotá]]
 * [[id:a980ac09-af99-412f-ae7a-2ba4def3f966][finding movers in Bogotá, 2022-09-12]]
 * [[id:d041c2e5-7da3-4ce2-a703-9aa9238ec7b4][instalación de vidrios]] en Bogotá
+* [[id:f0857a0a-ccbc-4126-9bc6-8a421f6eea66][pool halls in Bogotá]]
+  tag billiards
+* [[id:cc5ac46c-c0a9-4af3-9ab4-74c3e2a9cb6c][ping pong in Bogotá]]

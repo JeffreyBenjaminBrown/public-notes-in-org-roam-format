@@ -100,6 +100,7 @@ make changes to a dependent component then quit and reload.
    I solved it by deleting `dist-newstyle/` and rebuilding.
 ** [[id:2a224c00-fb0a-45a4-933b-bdf03d52d9de][random numbers and probability in Haskell]]
 * some Haskell libraries
+** [[id:3b228889-90e2-464f-809a-5fb77fd8262f][concurrency in Haskell]]
 ** [[id:ca586cff-5010-4624-8886-9d53915e5469][Debug.Trace (Haskell library) is magic]]
 ** [[id:3c92b639-c552-42d7-87e2-7fd1cf560f74][System.Random (Haskell library)]]
 ** [[id:2cef696d-5d06-4b95-b22f-94bf819e4f68][QuickCheck (Haskell library)]]

@@ -5,6 +5,10 @@
 #+title: musical exercises
 * [[id:d8c61bcd-fd1e-4c7d-9d12-d5e7ff0bdb82][to study the pitches (of an edo)]]
 * juggle the [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
+* memory games \ music
+** lengthen a motif
+** Increase the number of (interpolated, interspersed) voices
+** increase number of working elements from the [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
 * across the Lumatone
 ** 1 fast bass voice + 2 slow high voices
 ** cover the full horizontal range
@@ -12,17 +16,15 @@
 *** with any number of hands
 * groove, then radical change
   while groove-meditating, think of something really different
-* drift a groove
+* TODO drift a groove
 * rhythm > pitch
 * blind
 ** and two-handed
 * across hands
-** call and repeat
-** unisons (octaves)
+** TODO call and repeat
+** TODO unisons
    esp. with hands spread wide (2 octaves)
 ** a single (big) chord, (fast) melody
-** borrow a finger from the other
-** cross hands
+** share a voice between two hands
+** TODO cross hands
 * pedal tones, inc. high ones
-* TODO memory game
-  increase number of working elements from the [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]

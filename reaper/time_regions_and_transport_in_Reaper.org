@@ -53,6 +53,10 @@
 ** [[id:7561c9ad-d766-4fae-8475-9c6c5947b88f][what moves the "Play cursor"]]
 ** Per-track "playback time offset" can compensate for latency.
 * loops and time selections
+** set time selection to items : jbb "C-S-M t"
+   :PROPERTIES:
+   :ID:       965055f6-6f41-49fe-a00a-b7ef4e5fe225
+   :END:
 ** [[id:8692703b-8f0e-49a8-bcbf-1e83885dd3eb][Time selection has something to do with smart editing.]]
 ** [[id:0aa74865-10a8-437f-8127-73bb5f8bfbb3][looping (the edit) \ Reaper]]
 ** [[id:2f4508ff-27e2-47ed-8b63-0e9de771800f][Time selections can be nudged.]]

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       ea40d7b3-f0e3-4bcf-9765-0e565d065472
+:END:
+#+title: my Reaper data
+* are in this folder
+  /home/jeff/Documents/REAPER Media
+* which includes a `README-jbb.md` file
+  indicating which rendered tracks come from where

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       89b241d2-9f69-4941-ab10-4598e65278cc
+:END:
+#+title: Club de Ping Pong La Decanatura
+Also has foosball.
+* where
+  West side of Cra 13 just south of Cl 45.
+** link
+   https://www.google.com/maps/place/Club+de+Ping+Pong+La+Decanatura/@4.6318129,-74.0710433,16z/data=!4m10!1m2!2m1!1sping+pong!3m6!1s0x8e3f9a2f4a5db973:0xe73bdaa7e6142502!8m2!3d4.6318123!4d-74.0666653!15sCglwaW5nIHBvbmeSARV0YWJsZV90ZW5uaXNfZmFjaWxpdHngAQA!16s%2Fg%2F1ptwf3wvp

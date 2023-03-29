@@ -70,3 +70,5 @@
    That's "Time selection: delete contents of time selection (moving later items)"
 *** see also [[id:1128527e-1e74-4fdb-9c27-5f38e4107719][Ripple Editing]]
 ** [[id:731b6763-14ed-4509-92ae-364996408225][color notes/CC by channel : C-S-M-c]]
+** [[id:60ef28cf-e546-4ff0-b0cc-fde619fd89c9][metronome window shortcut, my : C-S-M m]]
+** [[id:965055f6-6f41-49fe-a00a-b7ef4e5fe225][set time selection to items : jbb "C-S-M t"]]

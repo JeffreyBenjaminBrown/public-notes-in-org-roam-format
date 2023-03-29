@@ -10,6 +10,7 @@
 * [[id:f1f88342-7fbd-42e5-a81c-1284474e39e3][La Fonda Mexicana]]
 * [[id:5be8705b-653c-4053-8765-c7776569c053][Veggie Beans and Shakes]]
 * [[id:070ad01d-2412-4844-ba71-2a75cd5f539a][De Local (restaurant, Bogotá)]]
+* [[id:d34240fb-8863-4161-8db4-4738881b5b13][Salma Falafels (restaurant, Bogotá)]]
 * DONE and why
 ** bad : [[id:bfd0e1a8-c16b-4178-b148-c81387e4c36d][Soy Sushi]]
 ** bad : [[id:e1d277a0-0917-4794-855d-126e68c61e95][Ago Sushi]]

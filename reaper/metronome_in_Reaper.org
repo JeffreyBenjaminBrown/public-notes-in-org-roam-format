@@ -7,3 +7,7 @@
 ** whether to run when recording
 ** where to send the sound
 ** volume of primary and secondary beat
+* metronome shortcut, my : C-S-M m
+  :PROPERTIES:
+  :ID:       60ef28cf-e546-4ff0-b0cc-fde619fd89c9
+  :END:
