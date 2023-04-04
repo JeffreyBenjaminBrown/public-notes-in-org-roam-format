@@ -29,11 +29,15 @@
     or
       git merge remotes/upstream/main
     or something like that
-* to rename a branch locally and upstream
+* to *rename* a branch locally and remotely
 ** git branch -m new-name
 ** git branch -D old-name
 ** git push origin --delete old-name
    where "origin" is the remote repo's local nickname
+* to *delete* a branch locally and remotely
+  # remote_name is probably `origin`
+  git push   -d <remote_name> <branch_name>
+  git branch -d               <branch_name>
 * [[id:2bf0e5bf-4104-45f3-8e1c-e90a36c4314f][git rebase: rewrite history]]
 * to fetch all branches
 ** code
