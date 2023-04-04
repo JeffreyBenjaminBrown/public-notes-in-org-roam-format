@@ -2,6 +2,9 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
+* add to, and ask from my [[id:752ec4bb-624f-4161-9624-9fc75dd13517][questions about Reaper]]
+** Why do notes get grayed out?
+** Why is the octave unpredictable when drawing a note?
 * [[id:4606bf23-6261-4596-95bc-faf1e9d64b3d][musical exercises]]
 * [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
 * practice swing

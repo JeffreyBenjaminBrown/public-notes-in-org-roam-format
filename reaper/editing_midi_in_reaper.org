@@ -57,7 +57,7 @@
    project markers
    project regions
    tempo/time signature
-* TODO Is there playback when step recording?
+* TODO Is there playback when *step* recording?
   :PROPERTIES:
   :ID:       c9e830d4-d030-40a8-84cd-6e94bcd4bc30
   :END:

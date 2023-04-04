@@ -2,7 +2,7 @@
 :ID:       752ec4bb-624f-4161-9624-9fc75dd13517
 :END:
 #+title: questions about Reaper
-* WOULD BE AWESOME: [[id:c9e830d4-d030-40a8-84cd-6e94bcd4bc30][Is there playback when step recording?]]
+* WOULD BE AWESOME: [[id:c9e830d4-d030-40a8-84cd-6e94bcd4bc30][Is there playback when *step* recording?]]
 * [[id:cea1e287-9ae8-4145-b1eb-3e969755912f][How is Trimming different from Slip Editing?]]
 * [[id:7ad32d17-22c6-4669-8537-9e26b6428a48][How to override things like smart editing.]]
 * [[id:806855a8-3035-489d-8ad5-95c0c7cf169e][The Action Menu appears not to show all shortcuts.]]
