@@ -17,3 +17,4 @@
 ** [[id:d8e1e0ce-da00-4e93-8e79-0d5979335977][Piketty, Saez And Zucman, Qje 2018, "Distributional National Accounts: Methods And Estimates For The United States".]]
 ** [[id:915c9717-9f3b-43c3-b9d3-56eb881f8600][Londoño-Vélez And Ávila-Mahecha 2018: "Can Wealth Taxation Work In Developing Countries? Quasi-Experimental Evidence From Colombia"]].
 * [[id:111d899b-2204-4fbd-a48c-c2e8ecfa6a24][The correlation between weight and income in rich countries is driven almost entirely by women.]]
+* When profit margins are thin, the gains from small increases in efficiency can be huge.

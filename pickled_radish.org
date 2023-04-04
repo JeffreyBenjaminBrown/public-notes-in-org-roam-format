@@ -2,7 +2,21 @@
 :ID:       6627ffbd-4691-4afa-bd39-1a97606fbf80
 :END:
 #+title: pickled radish
+* The ones I made <2023-04-02 Sun>
+  Were already tasty in a few hours.
+  I never took them out of the brine,
+  and never boiled the brine.
+  I put the in the fridge after a day,
+  came back to them a week after that.
+  Include no surgar, no herbs.
+  Used what I guessed might be a measuring cup and a teaspoon.
 * recipe
 ** 2 parts water to 1 part vinegar
 ** 1 tsp salt per cup of water
 ** they recommend sugar but meh
+* TODO use herbs
+* TODO mystery : How long to leave in vinegar?
+  Maybe forever?
+  Judging from some cursory online search, it's not clear.
+* TODO mystery : How long to leave outside?
+  Judging from some cursory online search, at most a week.

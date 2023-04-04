@@ -4,10 +4,10 @@
 :END:
 #+title: musical fundamentals
 * elements
-** transformation parameters
+** TODO transformation parameters
 *** magnitude of change
 *** duration of transformation
-** transformations
+** TODO transformations
 *** freq (parallelism)
 **** voices, chords in a scale
 **** melodies, chords chromatically

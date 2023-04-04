@@ -2,4 +2,4 @@
 :ID:       93f782fc-7eee-43d7-aa13-dba99959940c
 :END:
 #+title: Challenger (company, appliance maker)
-* [[id:adbb9cc5-dc10-4d8a-bf4a-a577d6addba9][more]]
+* [[id:363e7958-e56c-477a-8201-262604033497][Challenger, our dishwasher by]]

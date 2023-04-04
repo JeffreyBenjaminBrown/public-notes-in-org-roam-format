@@ -3,7 +3,8 @@
 :ROAM_ALIASES: cooking
 :END:
 #+title: recipes, some
+* [[id:6627ffbd-4691-4afa-bd39-1a97606fbf80][pickled radish]]
 * [[id:b94cfaa7-9184-4cd7-bfbb-fa0de5064435][baked eggplant]]
-* [[id:ec6e5302-6c08-4b18-8f7b-23a2d514a8c4][baked-cauliflower]]
+* [[id:ec6e5302-6c08-4b18-8f7b-23a2d514a8c4][baked cauliflower]]
 * [[id:0382a0b6-82da-4b87-9be1-e302f040a979][cheese]]
 * [[id:f29fbdf5-4d91-401d-a614-d0a63bf201e5][refined coconut oil is better for high heat cooking]]

@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "music exercises"
 :END:
 #+title: musical exercises
+* [[id:aca05102-442c-4cef-a920-905efc362bc2][music to emulate]]
 * [[id:d8c61bcd-fd1e-4c7d-9d12-d5e7ff0bdb82][to study the pitches (of an edo)]]
 * juggle the [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
 * TODO memory games \ music
@@ -10,7 +11,9 @@
 ** Increase the number of (interpolated, interspersed) voices
 ** increase number of working elements from the [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
 * across the Lumatone
-** 1 fast bass voice + 2 slow high voices
+** number of voices X speed X hand
+   e.g.
+     1 fast bass voice + 2 slow high voices
 ** cover the full horizontal range
 ** cover the full vertical range
 *** with any number of hands

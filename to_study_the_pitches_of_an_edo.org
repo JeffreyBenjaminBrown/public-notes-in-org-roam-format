@@ -5,8 +5,9 @@
 * code-led
 ** [[/home/jeff/code/music/jam-quiz/routine.hs]]
 ** procedures, conceptual
-*** Randomly generate 3-ish pitches.
+*** Sing before hearing.
     serial
+**** Randomly generate 3-ish pitches.
 **** first pick, play a tonal center.
 **** try to sing the chord.
 **** then play and study it.
