@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       35667045-1f78-49b6-bb88-ccaae9bf2406
+:END:
+#+title: Reaper / Why does my MIDI view filter shortcut not work?
+https://forum.cockos.com/showthread.php?t=277919
+* SOLUTION, kind of
+  Just create new shortcuts, equal to the old ones.
+  (Note that they will display differently in the action menu --
+  for instance, Shift-1 will display as ! rather than Shift-1.)
+* The problem.
+** for Shift-1
+   The builtin `Shift-1` shortcut is not recognized.
+   (I tried both kinds of 1, numlock and normal,
+   and both kinds of shift, left and right.
+   I did not try an external keyboard with a builtin numeric pad.)
+** other shortcuts are similar
+   Shift-N for all integer N.
+* what I wrote
+  In section 13.16 of the manual (13 = MIDI editing, 16 = using the keyboard) there appears the statement, "Note display can be filtered for channels 1 to 10 using any of the shortcuts Shift 1 thru Shift 0. Shift ` removes the note filter and restores all notes to view."
+  I verified in my MIDI editor action menu that indeed those shortcuts are programmed. But they don't work -- pressing "Shift-1", for instance, does not prevent me from seeing events that are not on channel 1. Running it from the action menu does restrict the view -- I only see blue notes. Similarly, "Shift `" has no effect, but running "Show all channels" from the action menu does restore the complete view.
+  I'm using Reaper v. 6.77. I realize that's not quite the latest version but I'm using NixOS and 6.77 is the latest version available through the NixOS package manager.

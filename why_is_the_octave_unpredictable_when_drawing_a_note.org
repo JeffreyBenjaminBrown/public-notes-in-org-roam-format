@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       82f04965-1118-4943-a8c9-7153ad23e70d
+:END:
+#+title: Why is the octave unpredictable when drawing a note?
+* meh
+  It's not *that* unpredictable,
+  and the [[id:e6453e72-92d2-47b5-ad70-8204b6d95244][shortcut for setting the note to draw to]] seems to work.

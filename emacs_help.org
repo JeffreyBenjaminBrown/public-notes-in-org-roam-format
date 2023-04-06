@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       92505b5e-61fc-494f-a610-9b37a27a6fdd
+:ROAM_ALIASES: "help \ Emacs"
+:END:
+#+title: Emacs / help
+* <C-h ?> lists ways to access the builtin help.
+* <C-h k> lists commands mapped to a "key" (keyboard shortcut)
+  which it prompts for.
+* <C-h k> describes the function
+  the name of which it prompts for.

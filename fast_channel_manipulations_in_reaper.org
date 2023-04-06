@@ -7,9 +7,14 @@
    https://forum.cockos.com/showthread.php?p=2641443#post2641443
 ** [[id:c9734ff4-b0a0-4132-9f84-87e78eb67246][bigger piano roll in Reaper, I asked for a]]
 * some channel operations, with keyboard shortcuts
-** "show only channel" X = Shift + (X:int)
+** (buggy) : "show only channel" X = Shift + (X:int)
    By default only defined for ten of the 16 channels.
+   There's also "show all channels", which is the (~) character (i.e. S-`).
+*** The (mostly harmless) bug : [[id:35667045-1f78-49b6-bb88-ccaae9bf2406][Why do MIDI filter shortcuts not work?]]
 ** increment channel = "set channel lower/higher" : JBB C-S-M-[+-]
+   :PROPERTIES:
+   :ID:       6bdbdb19-eac6-4f56-ba10-23633a68fea6
+   :END:
    (that is, every modifier and + or -)
 ** "set channel for new events to X" : JBB C-S-M-(X:int)
    This has the effect of "draw on channel X",

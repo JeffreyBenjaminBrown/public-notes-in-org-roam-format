@@ -47,6 +47,21 @@
 (global-auto-revert-mode t) ;; reload files when changed
 
 
+(defun jbb-org-open-at-point ()
+  (interactive)
+  (if ;; This if-else clause testing the major mode is basically unnecessary,
+      ;; because `jbb-org-open-at-point`
+      ;; will only be called via the shortcut defined next,
+      ;; which is only available from org-mode.
+      (equal "org-mode" (symbol-name major-mode))
+      (progn (call-interactively 'org-open-at-point)
+	     (delete-other-windows))
+    (message ("jbb-org-open-at-point does nothing outside of org-mode."))
+))
+
+(define-key org-mode-map (kbd "C-c C-o") 'jbb-org-open-at-point)
+
+
 ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;;
 ;; ;; ;; ;; ;; org-roam ;; ;; ;; ;; ;; ;; ;;
 ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;;

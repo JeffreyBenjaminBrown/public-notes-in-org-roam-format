@@ -51,6 +51,7 @@
 ** C-c C-(f/b): org next/previous same level
 ** Up, down and search work in the minibuffer after M-x.
 * solutions
+** [[id:92505b5e-61fc-494f-a610-9b37a27a6fdd][Emacs / help]]
 ** to jump between lines fast
 *** not a great solution : [[id:7168c237-a2a5-477d-a7a2-62ba55b465ce][key-leap (Emacs minor mode)]]
     Slow, too hard to read.
@@ -82,3 +83,21 @@
    emacs -nw --no-init-file
 ** run Emacs without using an init file
    emacs --no-init-file
+** test major mode
+*** PITFALL: It might be better to define the keymap.
+**** why
+     Rather than writing a function that tests the major mode
+     and only works if it's equal to some value,
+     I can define that function globally,
+     and define a keyboard shortcut for it in that major mode.
+**** how
+     (define-key org-mode-map (kbd "C-c C-o") 'jbb-org-open-at-point)
+*** define a function that does nothing outside of some major mode
+    (defun jbb-org-open-at-point ()
+      (interactive)
+      (if ;; Here's the test
+          (equal "org-mode" (symbol-name major-mode))
+          (progn (call-interactively 'org-open-at-point)
+   	      (delete-other-windows))
+	(message ("jbb-org-open-at-point does nothing outside of org-mode."))
+    ))
