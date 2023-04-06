@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       5333d0f7-f7dd-459c-a2c9-b195ad71c961
 :END:
-#+title: fast channel manipulations in Reaper
+#+title: fast MIDI channel manipulations in Reaper
 * refs
 ** I asked the forum about this.
    https://forum.cockos.com/showthread.php?p=2641443#post2641443
