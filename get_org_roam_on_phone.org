@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "Termux and (in it) org-roam on phone"
 :END:
 #+title: org-roam on phone via Termux
+* TODO [[id:0d895250-548c-410a-b1f2-3317e89e9aa5][redefine what clicking does in org-mode]]
 * my Emacs config for Termux
 ** [[id:ef70d582-7780-40fc-b205-8df6d11193e7][the config file]] itself
 ** a script to "install it"
