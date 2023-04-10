@@ -5,6 +5,9 @@
 #+title: views and navigation in Reaper
 * PITFALL: [[id:f9078ad5-9518-4672-b11a-4aabaa905e32][Two views of the track controls might be visible at once.]]
 * [[id:6cfece12-9d16-4d5a-a252-862b1457baf9][PITFALL: Themes and Layouts controls *what* is shown, not just how.]]
+* PITFALL: [[id:4f5504c2-9b5a-48f4-898d-defa6efb705d][accidental change of focused window]]
+* PITFALL: [[id:ea1beefe-1ad4-44fc-b883-58d049b3e5c3][left/right behave differently in arrange view and edit view]]
+* [[id:81e5b0e2-3f7f-45db-bd00-f812e6bf5906][grid lines and snapping \ Reaper]]
 * scrubbing
 ** Put mouse over playhead triangle.
 ** Mouse turns into a white hand.

@@ -155,16 +155,35 @@
 *** [[id:ff1b707a-5f77-4485-8936-fec7364b9f32][Velocity has hysteresis.]]
 ** delete note     : double-click
 ** select notes    : *right*-click drag
-** moving the edit (time) cursor from the keyboard
-   Move edit cursor right by one grid division.
-   Move edit cursor left by one grid division.
-   Move edit cursor right by one pixel.
-   Move edit cursor left by one pixel.
-** moving notes from the keyboard
-   Move selected note(s) down one octave.
-   Move selected note(s) down one semitone.
-   Move selected note(s) up one octave.
-   Move selected note(s) up one semitone.
+** Using the Keyboard (sec. 13.16, p. 237)
+   Basically mix up shift, alt, arrows and numpad arrows.
+*** PITFALL: I don't trust the manual on this.
+    I think the last half of the third table is wrong.
+*** moving the edit cursors
+**** PITFALL: There are, I guess, two of these.
+     A vertical line for time,
+     and a horizontally highlighted pitch.
+**** shortcuts
+     left/right   : Move time  cursor by a grid division.
+     S-left/right : Move time  cursor by a pixel.
+     up/down      : Move pitch cursor by a semitone.
+     M-S-up/down  : Move pitch cursor by an octave.
+*** moving notes
+    PITFALL: These might only work with numpad arrows, not normal ones?
+    Or else the manual is wrong.
+    M-up   : Move selected note(s) up   one octave.
+    M-down : Move selected note(s) down one octave.
+    C-up   : Move selected note(s) up   one semitone.
+    C-down : Move selected note(s) down one semitone.
+*** change note duration
+    There are more ways but this seems like a good spanning set.
+**** move right edge of note to edit cursor : jbb C-S-M-r
+**** "Drawing or selecting a note sets the new note length"
+*** insert note
+**** Insert : insert at mouse
+**** I      : insert at the edit cursor
+*** [[id:8baabb34-721d-4f24-bf3f-7656f15fc4ac][channel operations, some]]
+*** [[id:4408cdc9-5e4a-4680-bb1c-1d3e61c2f5dd][scrolling and zooming with the keyboard]]
 ** select all notes in range : *right*-click drag on piano roll
 ** add to selection          : C-M-*right* drag
 ** Paste preserving position in measure

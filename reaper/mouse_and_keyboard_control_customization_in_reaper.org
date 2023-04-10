@@ -24,8 +24,13 @@
 **** use C for vertical (horiz is the default)
 **** use M for scroll   (zoom  is the default)
 ** with the keyboard
-*** + and -         for zoom
-*** Page Up/Down to for scroll
+   :PROPERTIES:
+   :ID:       4408cdc9-5e4a-4680-bb1c-1d3e61c2f5dd
+   :END:
+*** + and -      : zoom in time
+*** M-up/down    : move view window up/down (in pitch)
+*** Page up/down : zoom in pitch
+    page down = see more, smaller representations
 * adjusting faders
   :PROPERTIES:
   :ID:       e1f175af-4cc4-4929-bd62-5c5b54b411b5

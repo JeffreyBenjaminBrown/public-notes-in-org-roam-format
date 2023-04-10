@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       ad011140-f662-426d-9af1-95ed11ba9512
+:END:
+#+title: How to adjust grid and cursor jump widths in Reaper?
+* ref : asked on forum
+  https://forum.cockos.com/showthread.php?p=2667915#post2667915
+** my original question
+# [maybe a bug] Mismatch between displayed grid size and grid size determining cursor jumps.
+
+There appears to be a maximum *displayed* grid size, which is different from the grid size used to determine cursor jumps. When I call "multiply grid size by 2" after reaching the maximum displayed grid width, the displayed grid does not get bigger, but the amount by which the cursor jumps (pressing left/right) does.
+
+It's confusing that these two different "grid sizes" have the same name. I wish there were no maximum displayed grid size. That way there would be only one thing, "grid size", rather than two different things sharing the same name.

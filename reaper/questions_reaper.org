@@ -2,6 +2,8 @@
 :ID:       752ec4bb-624f-4161-9624-9fc75dd13517
 :END:
 #+title: questions about Reaper
+* TODO [[id:4f5504c2-9b5a-48f4-898d-defa6efb705d][How in Reaper to avoid accidental change of focused windows, and to know when it happened?]]
+* TODO [[id:ad011140-f662-426d-9af1-95ed11ba9512][How to adjust grid and cursor jump widths?]]
 * WOULD BE AWESOME: [[id:c9e830d4-d030-40a8-84cd-6e94bcd4bc30][Is there playback when *step* recording?]]
 * DONE (meh) : [[id:82f04965-1118-4943-a8c9-7153ad23e70d][Why is the octave unpredictable when drawing a note?]]
 * [[id:cea1e287-9ae8-4145-b1eb-3e969755912f][How is Trimming different from Slip Editing?]]

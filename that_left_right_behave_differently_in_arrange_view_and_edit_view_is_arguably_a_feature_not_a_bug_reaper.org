@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ea1beefe-1ad4-44fc-b883-58d049b3e5c3
+:END:
+#+title: That left/right behave differently in arrange view and edit view is arguably a feature, not a bug. \\ Reaper
+* It would be natural for those keys to advance by grid units in the arrange view, just like they do in the MIDI editor view.
+* But were that true, then when focus is secretly on the background arrange view, you could move the cursor and still not know it.

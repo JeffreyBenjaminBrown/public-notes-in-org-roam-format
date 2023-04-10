@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "snapping and grid lines \ Reaper"
 :END:
 #+title: grid lines and snapping \ Reaper
+* TODO [[id:ad011140-f662-426d-9af1-95ed11ba9512][How to adjust grid and cursor jump widths?]]
 * [[id:66758811-617e-4a6f-9368-dd6f653fd5fa][to improve grid line visibility]]
 * grid and snap shortcuts, some
   :PROPERTIES:
