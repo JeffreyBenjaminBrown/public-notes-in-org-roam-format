@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       b5a704f4-384a-41dc-941c-8878850b4302
+:END:
+#+title: Can the focused window always be on top? \ Reaper
+* my post on the forum
+  https://forum.cockos.com/showthread.php?p=2668048#post2668048
+* my original question
+# Keep focused window on top: Possible?
+
+I mostly use two Reaper windows: the Arrange view and the MIDI Edit view. When the edit window is open, it's always on top. Sometimes, for reasons I don't know, the focus switches almost silently from the edit window to the arrange window behind it. (There's a very subtle change of color in the two windows' title bars, which is why I say "almost".)
+
+When the focus changes, I wish the focused window would be brought to the foreground. It does me no good, after all, to have the arrange window focused if it's completely blocked by the edit window.
+
+Is there some way to induce that behavior?
