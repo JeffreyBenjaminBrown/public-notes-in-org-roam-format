@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "Reaper / MIDI"
 :END:
 #+title: MIDI in Reaper
+* BLOCKED [[id:4b707dbe-5c10-438d-9b21-727a4b79accc][Copying MIDI notes changes their lengths! \ Reaper]]
 * u
 ** [[id:5333d0f7-f7dd-459c-a2c9-b195ad71c961][fast channel manipulations in Reaper]]
    esp. useful for the channels-as-octave idiom

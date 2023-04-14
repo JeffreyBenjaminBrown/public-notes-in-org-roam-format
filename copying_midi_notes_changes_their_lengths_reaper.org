@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       4b707dbe-5c10-438d-9b21-727a4b79accc
+:END:
+#+title: Copying MIDI notes changes their lengths! \ Reaper
+https://forum.cockos.com/showthread.php?p=2669281#post2669281

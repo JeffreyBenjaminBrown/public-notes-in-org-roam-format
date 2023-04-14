@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       167a0d6c-2a37-4291-9b6c-def9e3f8d131
+:END:
+#+title: headphones, noise-canceling
+* requirements
+** cancel bass
+** comfortable on a  big head
+** mic for making calls
+** can use a wired connection
+* candidates
+** Bose NC 700 (aka Bose 700)
+** more
+*** PHILIPS PH802: $60, only some say great noise canceling, no size info
+*** listed for best noise canceling
+**** Bang & Olufsen Beoplay H95 (luxury)
+**** Bose Noise Canceling Headphones 700
+**** JBL Tune 750BTNC
+**** Jabra’s Elite 85h (stylish, good battery)
+**** Sennheiser Momentum 4 Wireless (good battery)
+**** Shure AONIC 50 (audiophile)
+**** Sony WH-1000XM3 (budget)
+**** Sony WH-1000XM4
+**** Sony WH-1000XM5 (premium)
+*** listed for best big headphones
