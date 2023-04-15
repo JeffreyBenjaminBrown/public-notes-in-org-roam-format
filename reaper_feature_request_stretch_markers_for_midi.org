@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       bd1d48d6-c221-4051-b1f9-ae26b36ac315
+:END:
+#+title: Reaper feature request: Stretch markers for MIDI
+* ref : my feature request on Reaper forum
+  https://forum.cockos.com/showthread.php?p=2669465#post2669465
+* what I wrote
+** title
+   Stretch markers for MIDI: Argument + easy algorithm.
+** body
+==== Prior art ====
+===================
+I've found some historical disagreement on this forum as to whether they ought to be applicable to MIDI items too -- some people feel stronlgy that they should, others are like what's the big deal. Here is my argument:
+
+==== The benefit ====
+=====================
+Yes, it's true that you can already stretch MIDI items. But what's nice about stretch markers is they reduce the amount of work involved to less than half. Moving a stretch marker to the right has the simultaneous effects of lengthening the things to its left *and* shortening the things to its right. Without a stretch marker you've got to stretch both sides separately -- which means you have to fiddle around to make sure the second operation lines up with the first one.
+
+As someone who records a lot of live MIDI without a click track, this would be a lifesaver for me.
+
+==== The algorithm is easy! ====
+================================
+I have no idea how pitch is stretched. That is some crazy black magic. But stretching MIDI is simple. Let A, B, B' and C be four points in time, with A < C and B and B' between them. Imagine moving a stretch marker from B to B'. (It doesn't matter whether B is less than or greater than B'; the formulas below apply in both cases.)
+
+Any event at time T in the interval AB should be moved to the new time T' = A + (T-A) * (B'-A) / (B-A). Similarly, any event at time S in the interval BC should move to the new time S' = C - (C-S) * (C-B') / (C-B).
+
+==== A deonstration of the algorithm ====
+=========================================
+Let A = 0, B = 10, B' = 15 and C = 20. Then an event at time T=5, since it's between A and B, should move to the new time
+```
+  T' = A + (T-A) * (B'-A) / (B-A)
+     = 0 + (5-0) * (15-0) / (10-0)
+     = 0 + 5 * 15/10
+     = 7.5
+```
+That checks out -- T' = 7.5 is halfway from A to B', just like 5 was halfway from A to B.
+
+Similarly, an event at time S=12, since it's between B and C, should move to the new time
+```
+  S' = C - (C-S) * (C-B') / (C-B)
+     = 20 - (20-12) * (20-15) / (20-10)
+     = 20 - 8 * 5 / 10
+     = 20 - 4
+     = 16
+```
+That checks out too: S is 20% of the way from B to C, and S' is 20% of the way from B' to C.

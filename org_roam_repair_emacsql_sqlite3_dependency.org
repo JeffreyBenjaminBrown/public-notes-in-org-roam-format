@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       ab127568-f5fd-4fa1-9fbd-9d756e26b140
+:END:
+#+title: org-roam / repair `emacsql-sqlite3` dependency
+* ref : my thread on org-roam Discourse
+  https://org-roam.discourse.group/t/emacsql-sqlite3-has-vanished-from-melpa-and-org-roam-cant-run-without-it/3048
+* the problem
+  Melpa deleted the package, which org-roam depends on.
+  They say it's no longer needed in light of EmaccSQL 4, and problematic.

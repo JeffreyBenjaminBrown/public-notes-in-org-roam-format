@@ -1,8 +1,11 @@
+:PROPERTIES:
+:ID:       eaf57880-1c79-49ef-a8b3-b4e106e0ebb4
+:END:
+#+title: ideas for someone else
 * TODO Spotify for the news
   :PROPERTIES:
   :ID:       6dfea625-1204-4980-992c-58c1bd17df81
   :END:
-
 https://news.ycombinator.com/item?id=22178626
 * messaging apps should make it hard to send to the wrong target
 Optionally, enable any of

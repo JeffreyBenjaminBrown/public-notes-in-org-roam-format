@@ -6,7 +6,8 @@
 ** for help : the Discourse group
 ** awesome-org-roam : a curated list of resources
    https://github.com/kot-behemoth/awesome-org-roam
-* TODO [[id:8a0fbcd5-247f-4619-8b5f-1e6b30de5e1b][get org-roam on phone]]
+* BLOCKED [[id:ab127568-f5fd-4fa1-9fbd-9d756e26b140][org-roam / repair `emacsql-sqlite3` dependency]]
+* [[id:8a0fbcd5-247f-4619-8b5f-1e6b30de5e1b][org-roam on phone via Termux]]
 * TODO Why this substitution in the org roam elisp config?
 ** where I found it
    https://babbagefiles.xyz/org-roam-on-android/
