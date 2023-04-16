@@ -4,7 +4,6 @@
 :END:
 #+title: MIDI in Reaper
 * [[id:bd1d48d6-c221-4051-b1f9-ae26b36ac315][Reaper feature request: Stretch markers for MIDI]]
-* BLOCKED [[id:4b707dbe-5c10-438d-9b21-727a4b79accc][Copying MIDI notes changes their lengths! \ Reaper]]
 * u
 ** [[id:5333d0f7-f7dd-459c-a2c9-b195ad71c961][fast channel manipulations in Reaper]]
    esp. useful for the channels-as-octave idiom
@@ -33,6 +32,7 @@
   :PROPERTIES:
   :ID:       8ed4c9dd-8441-4a05-acc2-e641be0a5ac6
   :END:
+** if [[id:4b707dbe-5c10-438d-9b21-727a4b79accc][Copying MIDI notes changes their lengths! \ Reaper]]
 ** "Pool MIDI source data when pasting or duplicating media items"
    means that editing something will also edit clips duplicated from it,
    and *defaults to enabled*.

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       fefc7396-0f9d-4c02-b298-c0111dc175ab
+:END:
+#+title: MIDI controls I would like
+* Two sustain pedals: Add and clear.
+  When `add` is held down, new notes are added.
+  When `clear` is pressed, all held notes are released.
+* octave shift buttons
+** maybe separately for the two halves of the Lumatone
+   But if so, do I want to be able to move the border between them?
+   Also I'll have to choose (and learn( which octave the border falls in.
+* BLOCKED (hard) : Note off is not sent if a key of the same pitch is being held.
+  For this I would need the keys to be distinguishable,
+  which means each must send a unique MIDI message.

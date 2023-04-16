@@ -2,6 +2,7 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
+* TODO [[id:fefc7396-0f9d-4c02-b298-c0111dc175ab][MIDI controls I would like]]
 * [[id:301dba4e-1eac-4a37-ba88-0398f940aba5][musical impoverishment]]
 * [[id:4606bf23-6261-4596-95bc-faf1e9d64b3d][musical exercises]]
 * [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]

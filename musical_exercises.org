@@ -4,10 +4,14 @@
 :END:
 #+title: musical exercises
 * [[id:aca05102-442c-4cef-a920-905efc362bc2][music to emulate]]
-* [[id:d8c61bcd-fd1e-4c7d-9d12-d5e7ff0bdb82][to study the pitches (of an edo)]]
+* TODO sensitivity exercises
+** [[id:d8c61bcd-fd1e-4c7d-9d12-d5e7ff0bdb82][to study the pitches (of an edo)]]
+** vary the size of a change
+   What's a maximal scale change? A minimal velocity change? etc.
 * juggle the [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
 * TODO memory games \ music
-** lengthen a motif
+** complexity waves
+   lengthen and shorten a motif
 ** Increase the number of (interpolated, interspersed) voices
 ** increase number of working elements from the [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
 * across the Lumatone

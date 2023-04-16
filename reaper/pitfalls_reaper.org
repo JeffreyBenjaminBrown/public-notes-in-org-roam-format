@@ -3,7 +3,7 @@
 :ROAM_ALIASES: "Reaper pitfalls" "PITFALLS in Reaper"
 :END:
 #+title: pitfalls in Reaper
-* BUG : [[id:4b707dbe-5c10-438d-9b21-727a4b79accc][Copying MIDI notes changes their lengths! \ Reaper]]
+* if [[id:4b707dbe-5c10-438d-9b21-727a4b79accc][copying MIDI notes changes their lengths! \ Reaper]]
 * [[id:ea1beefe-1ad4-44fc-b883-58d049b3e5c3][left/right behave differently in arrange view and edit view]]
 * [[id:4f5504c2-9b5a-48f4-898d-defa6efb705d][accidental change of focused window]]
 * [[id:8ed4c9dd-8441-4a05-acc2-e641be0a5ac6][MIDI pitfalls]]

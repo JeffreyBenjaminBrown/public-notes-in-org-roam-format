@@ -2,6 +2,7 @@
 :ID:       862a4351-113f-4f86-9029-9dda3d3a781f
 :END:
 #+title: MIDI
+* TODO [[id:fefc7396-0f9d-4c02-b298-c0111dc175ab][MIDI controls I would like]]
 * MIDI CC messages
 ** CC = control *change*
 *** elaboration

@@ -3,6 +3,7 @@
 :ROAM_ALIASES: Lumatone
 :END:
 #+title: Lumatone (microtonal keyboard)
+* TODO [[id:fefc7396-0f9d-4c02-b298-c0111dc175ab][MIDI controls I would like]]
 * [[id:4606bf23-6261-4596-95bc-faf1e9d64b3d][musical exercises]]
 * TODO [[id:061b26ef-4cea-4ded-9e5a-6d1d6af2ed72][upgrade Pianoteq from 7 to 8 (free)]]
 * [[id:1a892bc6-e89d-45bf-bc69-1b4840ef730e][Lumatone keyboard geometry]] (and physics)
