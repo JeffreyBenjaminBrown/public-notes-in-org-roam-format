@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       6ab4d293-1c72-4696-9e5a-458598effc25
+:END:
+#+title: greenhouse effect, planetary
+* [[id:a41e2601-45a3-4ff3-b082-dbef0ca635a6][Ozone is a toxin at low altitudes but at high altitudes it soaks up UV.]]
+* [[id:53b41bec-a01b-46f2-8bc7-3e28d5137e63][CFCs are shockingly effective at warming the climate.]]

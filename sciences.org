@@ -24,6 +24,8 @@
 * [[id:8cd7a9de-4652-4728-b57f-748e61cf94e7][health & medicine]]
 * [[id:d192f9f7-ec93-4c00-984d-b7e332b56ac0][history]]
 * [[id:c563e6be-631d-4f23-923d-050498334e2a][mathematics]]
+* [[id:87e4aa2a-ed78-4fc4-b599-5d61c302ff19][meteorology]]
+  tags: weather, atmosphere
 * business
 ** [[id:620318ba-7a6d-4117-8a6d-341fa999583f][management]]
 * [[id:b31e0b2c-9bce-428a-b96f-832d0ea1e6e7][paleontology]]

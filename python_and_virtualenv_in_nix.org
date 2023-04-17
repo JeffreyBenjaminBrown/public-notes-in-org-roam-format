@@ -15,7 +15,7 @@ https://nixos.wiki/wiki/Python
    serial
 *** maybe write `pip-shell.nix`
 **** purpose
-     It defines things Python libraries and other packages
+     It defines things -- Python libraries and other packages --
      that will be imported from NixOS
      (and they need not part of my NixOS config!),
      rather than installed locally via virtualenv.
@@ -34,7 +34,7 @@ https://nixos.wiki/wiki/Python
      zlib.dev
    ]);
    runScript = "bash";
- }).en
+ }).env
 *** write `requirements.txt`
 **** This defines anything to be installed via virtualenv.
      If installing it via virtualenv doesn't work,
@@ -50,6 +50,7 @@ https://nixos.wiki/wiki/Python
     # Build the environment. Only needed once.
     python -m venv .venv
 
+    PS1="[nix @ \W ] "          # Shorten the prompt
     source .venv/bin/activate
     pip3 install -r requirements.txt
     .... <play with it> ...

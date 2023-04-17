@@ -4,3 +4,5 @@
 #+title: chemistry
 * [[id:c12af7d9-ebc8-4f22-9d08-f80e27fef540][radiation]]
 * [[id:d4e00fad-af94-4a9e-a80d-640b295c91b1][Atoms mix thoroughly.]]
+* [[id:6ab4d293-1c72-4696-9e5a-458598effc25][greenhouse effect, planetary]]
+* [[id:748de63b-d8b5-46ac-8480-ff3dc5f63e5a][Lead is a neurotoxin.]]

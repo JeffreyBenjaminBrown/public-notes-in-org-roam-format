@@ -6,3 +6,4 @@
 * [[id:abf2bab5-3090-4f8d-9ee6-952c298278ac][D Dimer]] results from the breakdown of blood clots.
 * [[id:6422ff08-978c-40b0-b511-e6eef32930ee][cholesterol reduction strategies]]
 * [[id:f4937b79-df37-4992-9c03-8ea1727a696f][Statins interfere with warfarin.]]
+* [[id:529dd278-7287-491f-a6df-501a14c17cfe][toxicology]]

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       529dd278-7287-491f-a6df-501a14c17cfe
+:END:
+#+title: toxicology
+* [[id:748de63b-d8b5-46ac-8480-ff3dc5f63e5a][Lead is a neurotoxin.]]
+* [[id:a41e2601-45a3-4ff3-b082-dbef0ca635a6][Ozone is a toxin at low altitudes but at high altitudes it soaks up UV.]]

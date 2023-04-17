@@ -21,6 +21,7 @@
    Configuring library for jack-0.7.2..
    cabal: The pkg-config package 'jack' version >=0.118 && <1 || >=1.9.8 && <2 is
    required but it could not be found.
+* [[id:fe42e9f1-0611-445b-8891-d3a7d603b921][MIDI via JACK in Python]]
 * questions
 ** How to get the name of the JACK server?
    needed by Sound.JACK.newClient

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       87e4aa2a-ed78-4fc4-b599-5d61c302ff19
+:ROAM_ALIASES: "weather <- meteorology" "atmosphere <- meteorology"
+:END:
+#+title: meteorology
+* [[id:6ab4d293-1c72-4696-9e5a-458598effc25][greenhouse effect, planetary]]

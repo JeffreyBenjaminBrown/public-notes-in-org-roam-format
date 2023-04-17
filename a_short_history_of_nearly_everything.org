@@ -15,3 +15,6 @@
   After proving that atoms exist (via Brownian motion predictions) and producing the theory of relativity, he was rejected as a university professor, then rejected as a high school teacher. He continued examining patents and thinking.
 * [[id:7b66ed16-90b6-496a-9568-e1816c9dbc20][Obvious-in-retrospect reasons to think the universe is expanding.]]
 * [[id:d4e00fad-af94-4a9e-a80d-640b295c91b1][Atoms mix thoroughly.]]
+* [[id:748de63b-d8b5-46ac-8480-ff3dc5f63e5a][Lead is a neurotoxin.]]
+* [[id:a41e2601-45a3-4ff3-b082-dbef0ca635a6][Ozone is a toxin at low altitudes but at high altitudes it soaks up UV.]]
+* [[id:53b41bec-a01b-46f2-8bc7-3e28d5137e63][CFCs are shockingly effective at warming the climate.]]

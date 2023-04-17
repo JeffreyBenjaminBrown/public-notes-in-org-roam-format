@@ -4,17 +4,17 @@
 :END:
 #+title: musical fundamentals
 * elements
-** TODO transformation parameters
+** TODO transformation parameters | patterns
 *** magnitude of change
 *** duration of transformation
+*** waves
+*** shock / drift
 ** TODO transformations
 *** freq (parallelism)
 **** voices, chords in a scale
 **** melodies, chords chromatically
 *** time transformations
 **** speed, reverse
-*** waves
-*** shock / drift
 ** object parameters
 *** number (quantity, count)
 *** speed : mean (tempo), std dev (syncopation)
@@ -22,7 +22,7 @@
 **** TODO [[id:2b0cc874-56b8-4803-b581-329a2f4a04a1][46-edo / some cool pitch sets]]
 *** duration : mean, std dev
 *** amplitude : mean, std dev
-*** timbre
+*** BLOCKED timbre
 *** total complexity
 ** objects
 *** note

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       53b41bec-a01b-46f2-8bc7-3e28d5137e63
+:END:
+#+title: CFCs are shockingly effective at warming the climate.
+* "One pound of CFCs can capture and annihilate seventy thousand pounds of atmospheric [[id:a41e2601-45a3-4ff3-b082-dbef0ca635a6][ozone]]."
+* CFCs last about a hundred years in the atmosphere on average.
+* CFCs are great heat sponges.
+* "A single CFC molecule is about ten thousand times more efficient at exacerbating greenhouse effects than a molecule of carbon dioxide ..."

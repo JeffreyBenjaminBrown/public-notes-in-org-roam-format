@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       fe42e9f1-0611-445b-8891-d3a7d603b921
+:END:
+#+title: MIDI via JACK in Python
+* examples
+  https://jackclient-python.readthedocs.io/en/0.4.0/examples.html

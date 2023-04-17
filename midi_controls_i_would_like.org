@@ -2,6 +2,7 @@
 :ID:       fefc7396-0f9d-4c02-b298-c0111dc175ab
 :END:
 #+title: MIDI controls I would like
+* [[id:fe42e9f1-0611-445b-8891-d3a7d603b921][MIDI via JACK in Python]]
 * Two sustain pedals: Add and clear.
   When `add` is held down, new notes are added.
   When `clear` is pressed, all held notes are released.
