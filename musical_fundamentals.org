@@ -43,3 +43,4 @@
 ** voices at different amplitudes, speeds
 ** TODO uneven but unison rhythm across voices
 ** TODO uneven timing for chord progressions
+** TODO bichords

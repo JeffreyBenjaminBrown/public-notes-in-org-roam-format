@@ -28,6 +28,10 @@
 * blind
 ** and two-handed
 * across hands
+** TODO separation/independence
+   Give adequate attention* to both.
+   * = complexity of rhythm, harmony, dynamics
+       bichords
 ** TODO call and repeat
 ** TODO unisons
    esp. with hands spread wide (2 octaves)
