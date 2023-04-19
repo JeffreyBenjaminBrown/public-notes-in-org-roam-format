@@ -13,6 +13,8 @@
      d2 $ crushbus 1 (segment 128 $ range 6 1.1 (slow 4 saw))
 ** What is the default amplitude?
    0.35?
+* TODO polymeters in Tidal
+  https://club.tidalcycles.org/t/thinking-time-in-addition-vs-division-meshuggah-style-prog-metal-in-tidal/4664/6
 * [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation in Tidalcycles]]
 * voices and signal flow in Tidal
 ** voice names

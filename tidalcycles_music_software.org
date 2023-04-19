@@ -9,6 +9,8 @@
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
 * TODO
+** TODO polymeters in Tidal
+   https://club.tidalcycles.org/t/thinking-time-in-addition-vs-division-meshuggah-style-prog-metal-in-tidal/4664/6
 ** TODO fork the Dirt samples
 *** Rename files.
     Symbolic links don't work.
