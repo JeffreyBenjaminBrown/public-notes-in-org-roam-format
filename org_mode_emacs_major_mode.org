@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       e8133691-f287-48e4-bf5c-059b1bad818a
+:END:
+#+title: org-mode (Emacs major mode)
+* PITFALL: Comments are *not titles*, and not displayed on Github
+  :PROPERTIES:
+  :ID:       12b75ac9-8dcf-4491-9f59-47ce75eadca8
+  :END:
+  unless one views the source.
+  That's true even if there is no space on the line before the #.

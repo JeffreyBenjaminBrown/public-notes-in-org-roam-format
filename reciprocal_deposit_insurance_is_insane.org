@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       e333ab4d-ad98-40dc-a6c7-cab90ed6c950
+:END:
+#+title: Reciprocal deposit insurance is insane.
+* definition : reciprocal deposit insurance
+  is when banks with deposits in excess of the FDIC insured maximum
+  make deposits with each other to get around the limit.

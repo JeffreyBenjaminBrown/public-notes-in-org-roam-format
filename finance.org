@@ -3,3 +3,4 @@
 :END:
 #+title: finance
 * [[id:761a6a1b-d2a8-4f7b-bdb6-ef60958b3920][financial acronyms]]
+* [[id:e333ab4d-ad98-40dc-a6c7-cab90ed6c950][Reciprocal deposit insurance is insane.]]

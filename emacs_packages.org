@@ -8,6 +8,7 @@
    https://github.com/emacs-tw/awesome-emacs
 * packages of interest
 ** important (and maybe easy)
+*** [[id:e8133691-f287-48e4-bf5c-059b1bad818a][org-mode (Emacs major mode)]]
 *** [[id:82065371-8f2a-4193-a76c-d5d73af546ef][csv-mode (Emacs package)]]
 *** [[id:8ed2933a-cfb1-4f34-9e49-e8c0afdd79d4][dired (Emacs package)]]
 *** docker
