@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       bd3b6d2b-6f8b-4dcc-bd52-fe288d3f0a11
+:END:
+#+title: pipe (computer science)
+* [[id:b9e5c45c-93e1-4e40-a47a-6c602607a116][to pipe stdout and stderr]]

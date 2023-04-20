@@ -22,3 +22,5 @@
 * [[id:4f939263-8a43-42be-98af-5aa3d8854d13][dynamic typing]]
 * surprisingly possible
 ** [[id:62247288-ab76-4425-8421-64bee5b5fb05][automatic documentation via constraints]]
+* some concepts from computer science
+** [[id:bd3b6d2b-6f8b-4dcc-bd52-fe288d3f0a11][pipe (computer science)]]

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       1bf0f337-0bf4-42e3-87eb-219548fa6a26
+:END:
+#+title: stderr
+* [[id:b9e5c45c-93e1-4e40-a47a-6c602607a116][to pipe stdout and stderr]]

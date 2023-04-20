@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b9e5c45c-93e1-4e40-a47a-6c602607a116
+:END:
+#+title: to pipe stdout and stderr
+* to the same file
+  command >out 2>&1
+* to distinct files
+  command >out.std 2>out.err

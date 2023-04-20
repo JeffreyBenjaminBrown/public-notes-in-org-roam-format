@@ -10,8 +10,7 @@
 ** https://sharats.me/posts/shell-script-best-practices/
 * [[id:e6dc1949-5024-4fee-b031-7af412353a5e][diff (shell programming concept)]]
 * [[id:65fa661f-8304-4a1b-b11c-0b927fca356f][how to change the Bash prompt]]
-* pipe stdout and stderr to the same file
-  command >out 2>&1
+* [[id:b9e5c45c-93e1-4e40-a47a-6c602607a116][to pipe stdout and stderr]]
 * `cd`, change default target directory
   I don't know,
   but the first line below comes extremely close,
@@ -74,3 +73,8 @@
    id -u username
 * [[id:4f619fa5-d89d-45ea-b742-1834a120c635][shred (Bash command) : delete data for real]]
 * [[id:f202975d-f1f0-4aa7-bcca-f9e6dd26230c][PITFALL: sudo can cause cp (copying) to fail.]]
+* [[id:a42f1f36-c448-46fa-a90b-027fc5acd257][tee (shell command)]]
+* some concepts from Bash
+** [[id:bd3b6d2b-6f8b-4dcc-bd52-fe288d3f0a11][pipe (computer science)]]
+** [[id:1bf0f337-0bf4-42e3-87eb-219548fa6a26][stderr]]
+** [[id:ee89ef03-1e9c-4952-b153-d6888dfd4729][stdout]]
