@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       8712f9db-6f65-456d-bd29-7ad8e269a786
+:END:
+#+title: Xenharmonic Wiki
+https://en.xen.wiki/
+* editing : How to inline monospaced ASCII
+  Indent each line of the entire picture by at least 4 spaces.
+  Each line can include a distinct amount of leading space
+  after those first 4 spaces.

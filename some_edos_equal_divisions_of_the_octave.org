@@ -1292,18 +1292,7 @@ Notice in particular how natural the dominant 9th chord is in root position:
    27 steps;  2 % 1; string 3; fret 1
 ** In the 7-limit it's an extremely sharp system.
 ** [[id:b98176fc-85fb-4274-a248-21ec9ab6a65a][27-edo is fat-finger friendly with 54-edo.]]
-* 31 3 7: An easier Kite-like tuning
-  3 steps = 17 % 16: string 0 fret 1
-  8 steps = 19 % 16: string -1 fret 5
-  10 steps = 5 % 4: string 1 fret 1
-  14 steps = 11 % 8: string 2 fret 0
-  16 steps = 23 % 16: string 1 fret 3
-  18 steps = 3 % 2: string 3 fret -1
-  22 steps = 13 % 8: string 4 fret -2
-  25 steps = 7 % 4: string 4 fret -1
-  27 steps = 29 % 16: string 3 fret 2
-  30 steps = 31 % 16: string 3 fret 3
-  31 steps = 2 % 1: string 4 fret 1
+* [[id:c7a620a4-f012-4a8e-bd19-193c303f0e5c][31-edo]]
 * [[id:7dd9c689-51f9-45da-bbd1-d3068615917a][34-edo]]
 * 37-edo: amazing in no-3 13-limit
 ** Composing without perfect fifths seems like a useful exercise

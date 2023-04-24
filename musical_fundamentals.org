@@ -44,3 +44,4 @@
 ** TODO uneven but unison rhythm across voices
 ** TODO uneven timing for chord progressions
 ** TODO bichords
+** TODO be funky; dance

@@ -3,6 +3,7 @@
 :END:
 #+TITLE: microtonality
 * [[id:9740fc35-92b5-4285-a6c0-4861c41a28cb][some microtonal musicians]]
+* the [[id:8712f9db-6f65-456d-bd29-7ad8e269a786][Xenharmonic Wiki]]
 * [[id:88a82a79-2482-4ca1-82a3-91848fda271a][add in-between notes to mtv-monome]]
 * [[id:ba41a627-bebd-4a9a-a5be-7ed2f50ad170][Terpstra microtonal keyboard online]]
 * [[id:339f3f3a-49c2-4dfd-a66c-de482ccec92a][my introductory microtonal music recommendations]]
