@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8aa2e426-1808-4bf2-9819-9e7ba11810fd
+:END:
+#+title: Android operating system
+* [[id:270fe9f7-a98f-40cd-b215-4cadfbc9f6ea][building apps for Android on NixOS]]
+* [[id:5abd07c8-7b3d-447f-a303-e231c6902dec][thumb-key (keyboard for Android)]]

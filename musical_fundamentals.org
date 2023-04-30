@@ -7,8 +7,8 @@
 ** TODO transformation parameters | patterns
 *** magnitude of change
 *** duration of transformation
+    shock / drift
 *** waves
-*** shock / drift
 ** TODO transformations
 *** freq (parallelism)
 **** voices, chords in a scale
@@ -35,12 +35,14 @@
 * TODO bundles of elements
 ** number of motifs
 ** waves in
-*** the number of voices
+*** TODO the number of voices
 *** TODO the complexity of the pitch set
 *** amplitude
 *** TODO which parameters are complex
 ** stackd/nested waves
 ** voices at different amplitudes, speeds
+** TODO waves of action and peace
+** TODO weird {harmony, ..}
 ** TODO uneven but unison rhythm across voices
 ** TODO uneven timing for chord progressions
 ** TODO bichords

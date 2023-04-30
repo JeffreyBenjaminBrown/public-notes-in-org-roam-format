@@ -7,6 +7,7 @@
 * [[id:4606bf23-6261-4596-95bc-faf1e9d64b3d][musical exercises]]
 * TODO [[id:061b26ef-4cea-4ded-9e5a-6d1d6af2ed72][upgrade Pianoteq from 7 to 8 (free)]]
 * [[id:1a892bc6-e89d-45bf-bc69-1b4840ef730e][Lumatone keyboard geometry]] (and physics)
+** tag pictures images
 * [[id:72d5a73b-691f-4034-9552-6f657f549f21][how to pack the Lumatone]]
 * how to [[id:931a102f-b9f3-4628-b239-84ee9a2f217e][Use a USB MIDI keyboard in Linux]].
 * [[id:c22d36ca-944d-431c-bdd3-8b49e1b3ac52][setting up Pianoteq for the Lumatone]]

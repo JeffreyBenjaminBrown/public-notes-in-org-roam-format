@@ -3,8 +3,8 @@
 :ROAM_ALIASES: Reaper
 :END:
 #+title: Reaper (the DAW)
-* refs
-** TODO resume reading in manual
+* reading the manual
+** TODO RESUME here
    right after the gray box at the bottom of
    chapter 13 (editing MIDI), page 230, section 13.11
      Navigating the MIDI Editor Main Window
@@ -12,16 +12,14 @@
     If they offer an interface like M-x in Emacs,
     then I can use them when the shorctut I hoped for is unavailable.
 *** Skipped
-    :PROPERTIES:
-    :ID:       963866e1-1a6a-445e-a27a-68de1449dab1
-    :END:
 **** and don't care: chapters 4, 5
 **** TODO (but out of order)
      chapter 6, FX
-** the manual on my filesystem
-   [[~/many-small/manuals/Reaper/]]
-   [[~/many-small/manuals/Reaper/2022-12-18-6BcrMNyU.ReaperUserGuide670d.pdf]]
-** [[id:963866e1-1a6a-445e-a27a-68de1449dab1][Skipped: sections 4, 5]]
+* refs
+** in my filesystem
+    [[~/many-small/manuals/Reaper/]]
+    [[~/Documents/REAPER Media]]
+    [[~/.config/REAPER]]
 * PITFALL : The action menu is context-dependent.
   It returns different results if your focus is on the MIDI editor window. Doing that and experimenting with some names that sounded maybe ballpark let me find all the actions.
 * BLOCKED my feature requests

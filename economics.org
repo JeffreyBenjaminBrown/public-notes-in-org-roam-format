@@ -2,6 +2,12 @@
 :ID:       c17782b5-f070-418e-9e04-519f3c7f9a66
 :END:
 #+title: economics
+* TODO study | refresh
+** Current Depth Regression
+   a time-varying measure of the depth of a recession
+** Granger causality
+** Wald test
+** VAR, VECM
 * [[id:465f0ce9-e6e8-4a9f-b290-7290dd914e54][constrained optimization]]
 * [[id:d5710ba5-2a3a-4f7a-80fc-97f7225c3a05][macroeconomics]]
 * [[id:e40de8e8-8eb9-46cc-b175-c2e0c7b6a2a7][stock market, the]]

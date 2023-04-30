@@ -15,7 +15,7 @@
 ** Increase the number of (interpolated, interspersed) voices
 ** increase number of working elements from the [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
 * across the Lumatone
-** number of voices X speed X hand
+** (number of voices X speed) X hand
    e.g.
      1 fast bass voice + 2 slow high voices
 ** cover the full horizontal range

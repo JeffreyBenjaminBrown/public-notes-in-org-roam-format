@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       270fe9f7-a98f-40cd-b215-4cadfbc9f6ea
+:ROAM_ALIASES: "NixOS, building Android apps on" "Android apps, building on NixOS"
+:END:
+#+title: building apps for Android on NixOS
+* path to SDK
+  https://nixos.org/manual/nixpkgs/unstable/#android
+  "ANDROID_SDK_ROOT should point to the Android SDK. In your Nix expressions, this should be ${androidComposition.androidsdk}/libexec/android-sdk"
+
+  I tried just copying these into the default.nix file, no dice:
+
+  buildToolsVersion = "30.0.3";
+  androidComposition = <...>;

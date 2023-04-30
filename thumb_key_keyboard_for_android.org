@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       5abd07c8-7b3d-447f-a303-e231c6902dec
+:END:
+#+title: thumb-key (keyboard for Android)
+* [[id:270fe9f7-a98f-40cd-b215-4cadfbc9f6ea][Android apps, building on NixOS]]
+* installation difficulties
+  Downloaded the .apk from the website.
+  They recommend "using F-Droid",
+  so that it will be updated.
+  I don't find it when I search the F-Droid app, though,
+  so instead I downloaded it from this page --
+  which is F-Droid!
+  https://f-droid.org/en/packages/com.dessalines.thumbkey/
+* how to use it
+** builtin user guide
+   :PROPERTIES:
+   :ID:       0e3d32b0-6f1f-4d27-8cf5-4e68824de55b
+   :END:
+   go to Settings (the top-right button)
+** two helpful screenshots
+   [[/home/jeff/many-small/manuals/thumb-key]]
+** some obscure commands
+*** Delete word = swipe left on backspace
+*** Move cursor = swipe left/right on spacebar
+*** Slide up on # to copy all.
+*** Slide down on # to paste.
+* how to extend it
+  See the README or the [[id:0e3d32b0-6f1f-4d27-8cf5-4e68824de55b][builtin documentation]].

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       f8c3a1f4-a291-41f4-ad86-4d3a3f8b48c5
+:ROAM_ALIASES: "beard trimmer" clippers
+:END:
+#+title: shaver
+* Phillips BT5210 shaver
+** power adaptor
+*** 15 V, 5.4 W
+*** a cheaper clone
+    https://www.amazon.com/Charger-Philips-Norelco-Electric-Multigroom/dp/B08YJMLC9D
+*** the Phillips adaptor for it
+    is called
+    HQ8505

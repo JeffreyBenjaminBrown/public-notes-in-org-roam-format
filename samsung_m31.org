@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       39862c2f-be95-4a38-a1ee-0434c194b4e5
 :END:
-#+title: Samsung M31
+#+title: Samsung M31, my
+* [[id:5abd07c8-7b3d-447f-a303-e231c6902dec][thumb-key (keyboard for Android)]]
 * when I bought it
   Oct 2020
 * average charge speeds

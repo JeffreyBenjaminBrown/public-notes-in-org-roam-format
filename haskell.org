@@ -69,7 +69,9 @@ make changes to a dependent component then quit and reload.
 
    Which abbreviates a frequently used constructor.
    Works in pattern matches too.
-* effects systems in Haskell
+* IO and effects systems in Haskell
+** The Handle pattern simplifies IO in Haskell.
+   https://jaspervdj.be/posts/2018-03-08-handle-pattern.html
 ** how semantics (e.g. order of evaluation) differ across libraries
    "The effect semantics zoo", Alexis King:
    https://github.com/lexi-lambda/eff/blob/8c4df4bf54faf22456354be18095b14825be5e85/notes/semantics-zoo.md
