@@ -5,10 +5,7 @@
 * TODO winners
 ** TODO [[id:490f661e-d80f-4571-be1f-4ec3060f91ce][15\58 x 2\58 (isomorphic pitch layout)]]: octave (4,-1), 15-lim 4x8, 31-lim 4x12
 ** TODO [[id:fa82e5ed-e7eb-493f-8643-8d46945352ed][5\58 x 2\58u]]: octaves 10|4 and 12|-1, dense over both axes, smart height 3.15 along 10|4 axis
-** [[id:6b287db0-0723-420c-847e-1d2b873dff63][8\58 x 3\58u]]: octave 8|2, 15-lim 8x6
-   a.k.a. 8\58 x 3\58u
-*** TODO Unify that with this
-    [[id:c165fad1-7702-4978-a11a-cf542a437534][8\58 x 5\58-dr]], octave 6-2, 31-lim in 6x7 (15 in 6x6)
+** [[id:c165fad1-7702-4978-a11a-cf542a437534][8\58 x 3\58-up (or 5\58-downright)]] octave 8|2, 15-lim 8x6
 ** [[id:ee333582-5ea6-4495-b003-5ac030dfe9d8][7\58 x 4\58d]]: octave 10-3, smart height < 3
 ** [[id:beabbc24-aa01-49c4-a4e2-7f610ff2e44f][6\58 x 5\58]]: 15-lim 8x4, octave 8-2
 ** [[id:6118a7ad-24d6-447f-947d-30e2e16de96f][5\58 x 4\58u]]: octave 10-2 (flat), height 4, well-behaved
