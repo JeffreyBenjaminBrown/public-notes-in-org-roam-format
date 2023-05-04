@@ -6,12 +6,10 @@
 * TODO read Muy Interesante
   https://www.muyinteresante.es/
 * outer loop
-** last time I reviewed: 6
-** odd times: Spanish questions (and either language for the answer)
-*** last time I reviewed: 3
+  last time I reviewed: 7
+** odd outer loop reps: Spanish questions (and either language for answer)
+   last time I reviewed: 4
 *** 1 mod 2
-**** rezago
-     lag
 **** es como que gente tan descarada... una demanda así [like the Contraloría's against Sandy] no está bien
      se dan garra
 **** es como lo siento, que embarrada
@@ -36,8 +34,6 @@
      box
 **** tufillo
      whiff
-**** jefatura
-     leadership
 **** plasmar
      shape     (says the RAE)
      ? portray (says Google)
@@ -47,20 +43,25 @@
 **** pese a que
      although
 *** 2 mod 4
-**** sesudo
-     brainy
-**** marranada
-     (disrespectfully) a very stupid thing
+**** rezago
+     lag (noun)
+**** jefatura
+     leadership
 **** doliente
      responsable (noun)
-**** rendimientos financieros
-     financial returns of any kind -- capital gains + dividends
 **** cafre
      bad person
 **** lineamento
      outline (both as in plan and as in profile)
-** even times: Spanish answers (and either language for the question)
-*** last time I reviewed: 3
+*** 4 mod 8
+**** sesudo
+     brainy
+**** marranada
+     (disrespectfully) a very stupid thing
+**** rendimientos financieros
+     financial returns of any kind -- capital gains + dividends
+** even outer loop reps: Spanish answers (and either language for question)
+   last time I reviewed: 3
 *** 1 mod 2
 **** lag (noun)
      rezago
