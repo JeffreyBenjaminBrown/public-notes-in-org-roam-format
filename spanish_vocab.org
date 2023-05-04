@@ -7,87 +7,86 @@
   https://www.muyinteresante.es/
 * outer loop
 ** last time I reviewed: 6
-* inner loops
-*** odd times: Spanish questions (and either language for the answer)
-**** last time I reviewed: 3
-**** 1 mod 2
-***** rezago
-      lag
-***** es como que gente tan descarada... una demanda así [like the Contraloría's against Sandy] no está bien
-      se dan garra
-***** es como lo siento, que embarrada
-      changoz
-***** bono
-      bond (as in Treasury)
-***** depurar
-      alternatives
-****** to clean
-****** to reinstate someone whose duty was suspended for political reasons
-****** scrutinize someone for political malfeasance
-****** purge of dissidents
-***** quisquillosa
-      finnicky
-***** menso
-      idiot
-***** rumbo
-      course, e.g. "cual es el rumbo de la economía"
-***** partícipe
-      (noun) sharer, enjoyer|user of (e.g. government resources)
-***** casilla
-      box
-***** tufillo
-      whiff
-***** jefatura
-      leadership
-***** plasmar
-      shape     (says the RAE)
-      ? portray (says Google)
-***** mozo
-      Waiter.
-      Slang: Lover.
-***** pese a que
-      although
-**** 2 mod 4
-***** sesudo
-      brainy
-***** marranada
-      (disrespectfully) a very stupid thing
-***** doliente
-      responsable (noun)
-***** rendimientos financieros
-      financial returns of any kind -- capital gains + dividends
-***** cafre
-      bad person
-***** lineamento
-      outline (both as in plan and as in profile)
-*** even times: Spanish answers (and either language for the question)
-**** last time I reviewed: 3
-**** 1 mod 2
-***** lag (noun)
-      rezago
-***** se dan garra
-      es como que gente tan descargada... una demanda así [like the Contraloría's against Sandy] no está bien
-***** changoz
-      es como lo siento, que embarrada
-***** to clean | to purge of dissidents | to (try to?) sanction | to reinstate someone who was sanctioned
-      depurar
-***** outline (both as in plan and as in profile)
-      lineamento
-**** 2 mod 4
-***** bond (as in Treasury)
-      bono
-***** brainy
-      sesudo
-***** finnicky
-      quisquilloso
-***** (disrespectfully) a very stupid thing
-      marranada
-***** Waiter. Slang: Lover.
-      mozo
-***** financial returns of any kind -- capital gains + dividends
-      rendimientos financieros
-**** 4 mod 8
-***** bad person
-      cafre
-***** question mark
-      signo de interrogación
+** odd times: Spanish questions (and either language for the answer)
+*** last time I reviewed: 3
+*** 1 mod 2
+**** rezago
+     lag
+**** es como que gente tan descarada... una demanda así [like the Contraloría's against Sandy] no está bien
+     se dan garra
+**** es como lo siento, que embarrada
+     changoz
+**** bono
+     bond (as in Treasury)
+**** depurar
+     alternatives
+***** to clean
+***** to reinstate someone whose duty was suspended for political reasons
+***** scrutinize someone for political malfeasance
+***** purge of dissidents
+**** quisquillosa
+     finnicky
+**** menso
+     idiot
+**** rumbo
+     course, e.g. "cual es el rumbo de la economía"
+**** partícipe
+     (noun) sharer, enjoyer|user of (e.g. government resources)
+**** casilla
+     box
+**** tufillo
+     whiff
+**** jefatura
+     leadership
+**** plasmar
+     shape     (says the RAE)
+     ? portray (says Google)
+**** mozo
+     Waiter.
+     Slang: Lover.
+**** pese a que
+     although
+*** 2 mod 4
+**** sesudo
+     brainy
+**** marranada
+     (disrespectfully) a very stupid thing
+**** doliente
+     responsable (noun)
+**** rendimientos financieros
+     financial returns of any kind -- capital gains + dividends
+**** cafre
+     bad person
+**** lineamento
+     outline (both as in plan and as in profile)
+** even times: Spanish answers (and either language for the question)
+*** last time I reviewed: 3
+*** 1 mod 2
+**** lag (noun)
+     rezago
+**** se dan garra
+     es como que gente tan descargada... una demanda así [like the Contraloría's against Sandy] no está bien
+**** changoz
+     es como lo siento, que embarrada
+**** to clean | to purge of dissidents | to (try to?) sanction | to reinstate someone who was sanctioned
+     depurar
+**** outline (both as in plan and as in profile)
+     lineamento
+*** 2 mod 4
+**** bond (as in Treasury)
+     bono
+**** brainy
+     sesudo
+**** finnicky
+     quisquilloso
+**** (disrespectfully) a very stupid thing
+     marranada
+**** Waiter. Slang: Lover.
+     mozo
+**** financial returns of any kind -- capital gains + dividends
+     rendimientos financieros
+*** 4 mod 8
+**** bad person
+     cafre
+**** question mark
+     signo de interrogación
