@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3fb52aa0-351c-4d34-997f-5b780fcd7822
+:ROAM_ALIASES: USA
+:END:
+#+title: United States
+* [[id:73d32a36-fda2-4f9c-8ee3-5e7292adffc3][United States government & jbb]]
