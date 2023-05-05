@@ -47,6 +47,8 @@
 ** if there is no window 0, this moves the present window there
    move-window -t 0
 * panes
+** to switch between horizontal and vertical window-splitting
+   M-j <SPC>
 ** to split and move between panes
 *** `M-j h` splits horizontal
 *** `M-j v` splits vertical
