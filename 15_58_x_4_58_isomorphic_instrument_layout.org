@@ -1,0 +1,65 @@
+:PROPERTIES:
+:ID:       60af331b-3593-47af-ad78-21f1ee6ae281
+:END:
+#+title: 15\58 x 4\58 (isomorphic instrument layout)
+octave (2,7), 15-lim 3x13 or 5x11 (or 3x9 ignoring 9:8)
+* as numbers
+** 17-lim layout: all but 2,7,9, 17 easy
+   and 7 is easy once you've located 2, or vice-versa
+   [  0 steps;  1 % 1 ; string 0 ; fret 0
+   , 58 steps;  2 % 1 ; string 2 ; fret 7
+                      = string 6 ; fret - 8
+   , 34 steps;  3 % 2 ; string 2 ; fret 1
+   , 19 steps;  5 % 4 ; string 1 ; fret 1
+   , 47 steps;  7 % 4 ; string 1 ; fret 8
+                      = string 5 ; fret - 7
+   , 10 steps;  9 % 8 ; string 2 ; fret - 5
+                      = string -2  fret 10
+   , 27 steps; 11 % 8 ; string 1 ; fret 3
+   , 41 steps; 13 % 8 ; string 3 ; fret - 1
+   , 53 steps; 15 % 8 ; string 3 ; fret 2
+   , 5 steps; 17 % 16 ; string - 1 fret 5
+** 31-lim layout
+   > Pr.pPrint $ bestLayout' 31 58 15 4
+   [ 0 steps; 1 % 1 ; string 0 ; fret 0
+   , 58 steps; 2 % 1 ; string 2 ; fret 7
+   , 34 steps; 3 % 2 ; string 2 ; fret 1
+   , 19 steps; 5 % 4 ; string 1 ; fret 1
+   , 47 steps; 7 % 4 ; string 1 ; fret 8
+   , 10 steps; 9 % 8 ; string - 2 ; fret 10
+   , 27 steps; 11 % 8 ; string 1 ; fret 3
+   , 41 steps; 13 % 8 ; string 3 ; fret - 1
+   , 53 steps; 15 % 8 ; string 3 ; fret 2
+   , 5 steps; 17 % 16 ; string - 1 ; fret 5
+   , 14 steps; 19 % 16 ; string - 2 ; fret 11
+   , 23 steps; 21 % 16 ; string 1 ; fret 2
+   , 30 steps; 23 % 16 ; string 2 ; fret 0
+   , 37 steps; 25 % 16 ; string 3 ; fret - 2
+   , 44 steps; 27 % 16 ; string 0 ; fret 11
+   , 50 steps; 29 % 16 ; string 2 ; fret 5
+   , 55 steps; 31 % 16 ; string 1 ; fret 10
+* as a picture
+  strings are vertical, spaced 15\58
+  frets are horizontal, spaced 4\58
+
+   1  - 23  -  -  -  -  7  -  5  3  -  -  -  -  -  - 21  - 15  9
+   -  5  3  -  -  -  -  -  - 21  - 15  9  -  -  -  - 11  -  - 19
+   - 21  - 15  9  -  -  -  - 11  -  - 19  - 27  -  -  -  -  -  -
+   - 11  -  - 19  - 27  -  -  -  -  -  -  -  - 17  -  - 29  -  -
+   -  -  -  -  -  -  - 17  -  - 29  -  - 25  -  -  -  -  -  -  -
+   -  - 29  -  - 25  -  -  -  -  -  -  - 13  -  -  -  -  1  - 23
+   -  -  -  -  - 13  -  -  -  -  1  - 23  -  -  -  -  7  -  5  3
+   -  -  1  - 23  -  -  -  -  7  -  5  3  -  -  -  -  -  - 21  -
+   -  7  -  5  3  -  -  -  -  -  - 21  - 15  9  -  -  -  - 11  -
+   -  -  - 21  - 15  9  -  -  -  - 11  -  - 19  - 27  -  -  -  -
+   -  -  - 11  -  - 19  - 27  -  -  -  -  -  -  -  - 17  -  - 29
+  27  -  -  -  -  -  -  -  - 17  -  - 29  -  - 25  -  -  -  -  -
+   - 17  -  - 29  -  - 25  -  -  -  -  -  -  - 13  -  -  -  -  1
+   -  -  -  -  -  -  - 13  -  -  -  -  1  - 23  -  -  -  -  7  -
+   -  -  -  -  1  - 23  -  -  -  -  7  -  5  3  -  -  -  -  -  -
+   -  -  -  7  -  5  3  -  -  -  -  -  - 21  - 15  9  -  -  -  -
+   -  -  -  -  - 21  - 15  9  -  -  -  - 11  -  - 19  - 27  -  -
+   9  -  -  -  - 11  -  - 19  - 27  -  -  -  -  -  -  -  - 17  -
+  19  - 27  -  -  -  -  -  -  -  - 17  -  - 29  -  - 25  -  -  -
+   -  -  - 17  -  - 29  -  - 25  -  -  -  -  -  -  - 13  -  -  -
+   - 25  -  -  -  -  -  -  - 13  -  -  -  -  1  - 23  -  -  -  -
