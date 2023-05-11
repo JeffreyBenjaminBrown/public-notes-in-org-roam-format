@@ -238,6 +238,7 @@
 * layouts
 ** [[id:e5279156-0f56-4f92-83ff-de0b28b04c68][15\58 x 2\58]]
 ** [[id:60af331b-3593-47af-ad78-21f1ee6ae281][15\58 x 4\58]]
+** [[id:2ceb1242-6955-493d-9258-84ec15685f9e][17\58 x 2\58]]
 ** TODO [[id:ee333582-5ea6-4495-b003-5ac030dfe9d8][7\58 x 4\58d]]: octave 10-3, smart height < 3
 ** 13\58 x 7\58: 6 string 7 fret 19-limit
         [ 58 steps = 2 % 1 : string 5 fret - 1
