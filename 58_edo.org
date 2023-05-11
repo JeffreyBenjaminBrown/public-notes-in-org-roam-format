@@ -3,7 +3,6 @@
 :END:
 #+title: 58-edo
 * TODO Lumatone winners
-** TODO [[id:490f661e-d80f-4571-be1f-4ec3060f91ce][15\58 x 2\58 (isomorphic pitch layout)]]: octave (4,-1), 15-lim 4x8, 31-lim 4x12
 ** TODO [[id:fa82e5ed-e7eb-493f-8643-8d46945352ed][5\58 x 2\58u]]: octaves 10|4 and 12|-1, dense over both axes, smart height 3.15 along 10|4 axis
 ** [[id:c165fad1-7702-4978-a11a-cf542a437534][8\58 x 3\58-up (or 5\58-downright)]] octave 8|2, 15-lim 8x6
 ** [[id:ee333582-5ea6-4495-b003-5ac030dfe9d8][7\58 x 4\58d]]: octave 10-3, smart height < 3
