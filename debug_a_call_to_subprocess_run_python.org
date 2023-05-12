@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       5fc6d2b8-df62-4329-9dd1-54653dd0b76d
+:ROAM_ALIASES: "subprocess.run, debugging calls to \ Python"
+:END:
+#+title: debug a call to subprocess.run \ Python
+do in serial
+* When calling it, define the optional arguments stdout and stderr.
+** example
+   sp = subprocess . run (
+       [ "python3.9",
+         "python/requests/main.py", # Run this program.
+         os . path . join (         # Use this config file.
+               "users/", user_hash, "config/config.json" ),
+         "add-to-temp-queue" ],     # Take this action.
+       cwd    = tax_co_root,
+       env    = my_env,
+       stdout = subprocess . PIPE,
+       stderr = subprocess . PIPE )
+* Then inspect sp.stdout and/or sp.stderr.

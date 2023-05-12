@@ -53,4 +53,5 @@
 ** [[id:cec794c0-a02f-467d-bda9-d1065ccfaa0d][reading command-line arguments to Python programs]]
 ** [[id:bd7363b0-401a-498e-9fe3-5d291c955cb3][if (command history|paste|backspace) misbehaves in `conda python3` in Docker]]
 ** [[id:efa6659f-b52a-49ec-af95-503e6428a06d][write to a file in Python]]
+** [[id:5fc6d2b8-df62-4329-9dd1-54653dd0b76d][debug a call to subprocess.run \ Python]]
 * [[id:e4a6a10f-a305-49fa-91b1-08482df14229][the CS skills assessment I wrote, with a moderate focus on Python]]
