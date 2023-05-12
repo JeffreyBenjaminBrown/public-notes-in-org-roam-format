@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       2a435ecf-ddb5-4822-b52f-0667a02ac52c
+:END:
+#+title: Good conversation has lots of doorknobs.
+* refs
+** source
+  https://www.experimental-history.com/p/good-conversations-have-lots-of-doorknobs
+*** gets more information-dense at this passage
+    When done well, both giving and taking create what psychologists call affordances
+** discussion on Hacker News
+   https://news.ycombinator.com/item?id=35874183
+* ideas
+** "Givers" and "takers" are both partly right.

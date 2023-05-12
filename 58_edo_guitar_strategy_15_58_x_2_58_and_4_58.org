@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       ebd9c05f-dd33-4881-8de3-de6c5635f1d1
+:END:
+#+title: 58-edo guitar strategy: 15\58 x {2\58 and 4\58}
+* Use [[id:e5279156-0f56-4f92-83ff-de0b28b04c68][15\58 x 2\58]] for "the first octave".
+  This implies a 29-edo fretboard.
+  29-edo is too tight to use everywhere,
+  but fine in the first octave.
+* Use [[id:60af331b-3593-47af-ad78-21f1ee6ae281][15\58 x 4\58]] in "the second octave".
+  This implies a 14.5-edo fretboard (58/4),
+  which is easily playable in a guitar's second octave.
+** The octave at string 2 fret 7 might look awkward
+   but if this is only used in the second octave,
+   it shouldn't be a problem --
+   7 frets of 14.5-edo in the second octave is narrower than
+   3 frets of 12-edo in the first octave.
+* The transition does not have to be right at the octave.
+  That's why I used quotation marks above.
+  But in reality I should extend the 29-edo
+  as far as I can stand it,
+  and only use 14.5 edo for the rest of the fretboard.
+* An octave fret will result without any tricky tinkering.
+  Having an octave fret makes intonation adjustment easier.
+  Since 2 divides 58,
+  keeping only the even frets in the first octave
+  ensures there will be an octave fret.
+
+  (By contrast, on a 41-edo guitar,
+  keepign the odd frets means you get fret 40 and 42,
+  skipping the octave at 41.
+  I wish I had kept the odd frets instead.)
+* I suspect fret markers that repeat every 5 frets would be simplest.
+  They could be more dense than every five frets --
+  for instance, two dots on every fret equal to 0 mod 5,
+  and one dot on each equal to 2 mod 5.
