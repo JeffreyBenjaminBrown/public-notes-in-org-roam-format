@@ -6,6 +6,7 @@
 ** TODO The `pandera` library implements schemas for Pandas data frames.
 * [[id:b9a516f3-b8fc-4428-9bca-f81c672d5c3a][matplotlib]]
 * [[id:54b1ca58-0de1-49b1-a419-06af3872affa][append to a CSV file using Pandas]]
+* [[id:98556058-2bcf-456d-8401-e57845c717da][append a series as a row to a data frame \ Pandas]]
 * sorting and null/missing values in pandas
 ** null always comes last, regardless of order
 ** code to see it

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       98556058-2bcf-456d-8401-e57845c717da
+:END:
+#+title: append a series as a row to a data frame \ Pandas
+df = pd.DataFrame ( { "a" : ["a","b","c","d"],
+                      "b" : [0., 3., 0.,   5],
+                      "c" : [0., 5., 1.,  66],
+                      "d" : [1.,55.,66.,  77],
+                     } )
+
+s = pd.Series ( { "a" : 1, "b" : 11, "c" : 2, "d" : 22 } )
+
+pd.concat ( [df,
+             pd.DataFrame ( s ) . transpose() ],
+            axis = "rows" )

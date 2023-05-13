@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       36b73f48-b4e8-4484-95ab-f1cc4a27d0c4
+:END:
+#+title: load local modules into the Django shell
+* In tax.co.web, I can load it from both /mnt and /mnt/django
+** from /mnt
+jeff@127:/mnt$ pwd
+/mnt
+jeff@127:/mnt$ ls
+apache2  commands  django  paths  system_specific  tax_co
+jeff@127:/mnt$ python3 django/manage.py shell
+Python 3.9.2 (default, Feb 28 2021, 17:03:44)
+Type 'copyright', 'credits' or 'license' for more information
+IPython 8.13.2 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: import run_make.views.lib as vl
+
+In [2]:
+** from /mnt/django
+jeff@127:/mnt$ cd django/
+jeff@127:/mnt/django$ python3 manage.py shell
+Python 3.9.2 (default, Feb 28 2021, 17:03:44)
+Type 'copyright', 'credits' or 'license' for more information
+IPython 8.13.2 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: import run_make.views.lib as vl
+
+In [2]:
+* I've only got __init__.py files in /mnt/django and below
+  not in /mnt

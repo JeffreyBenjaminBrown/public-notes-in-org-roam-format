@@ -482,3 +482,4 @@ against Django’s authentication backends.
 """
 * solutions
 ** [[id:31aeb236-5ce9-46bc-ba6e-bbe6b5c65e6e][ways to reconcile different versions of Python]]
+** [[id:36b73f48-b4e8-4484-95ab-f1cc4a27d0c4][load local modules into the Django shell]]

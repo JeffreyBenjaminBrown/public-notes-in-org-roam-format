@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       efa6659f-b52a-49ec-af95-503e6428a06d
+:END:
+#+title: write to a file in Python
+* code
+  with open('readme.txt', 'w') as f:
+    f.write('readme')
+* There are other modes
+  like read-only, append-only.
