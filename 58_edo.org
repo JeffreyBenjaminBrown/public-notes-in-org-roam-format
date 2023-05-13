@@ -2,6 +2,7 @@
 :ID:       92c1a793-a03b-4f27-9ca3-743448314c00
 :END:
 #+title: 58-edo
+* [[id:7c52046e-129f-4b0a-adc7-1d69ddd18232][58-edo intervals in the 17-limit + 29 group]]
 * TODO Lumatone winners
 ** TODO [[id:fa82e5ed-e7eb-493f-8643-8d46945352ed][5\58 x 2\58u]]: octaves 10|4 and 12|-1, dense over both axes, smart height 3.15 along 10|4 axis
 ** [[id:c165fad1-7702-4978-a11a-cf542a437534][8\58 x 3\58-up (or 5\58-downright)]] octave 8|2, 15-lim 8x6
