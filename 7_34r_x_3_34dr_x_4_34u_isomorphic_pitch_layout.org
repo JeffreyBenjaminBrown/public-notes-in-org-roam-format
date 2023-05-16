@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       9d39c659-f4d1-41e5-96bd-90d74451c275
+:END:
+#+title: 7\34r x 3\34dr x 4\34u isomorphic pitch layout
+* (*) its biggest jump
+  (2,-1) to (1,3) = downright 3 and left 1
+* layout
+** numbers
+*** the table
+    6  steps;  9 % 8; string 0; fret 2
+    16 steps; 11 % 8; string 1; fret 3
+    11 steps;  5 % 4; string 2; fret -1
+    20 steps;  3 % 2; string 2; fret 2
+    24 steps; 13 % 8; string 3; fret 1
+    28 steps; 16 % 9; string 4; fret 0
+    31 steps; 15 % 8; string 4; fret 1
+    34 steps;  2 % 1; string 4; fret 2
+*** why I'm including 16%9
+    It is the sharp approximation to 7%4.
+    The flat, more accurate 7%4
+    plays badly with the others.
+** picture
+
+  19 -  -  -  -  -  -
+  -  5  23 -  -  -  -
+  1  -  -  -  -  -  -
+  -  17 -  -  13 15 -
+  -  -  9  21 3  7  2  x
+  -  -  -  -  11 -  -
+  x = where the octave would be
+  if the layout were Bosanquet
+
+* resembles my favorite 58-edo layout [[id:c165fad1-7702-4978-a11a-cf542a437534][8\58 x 3\58u x 5\58dr]]

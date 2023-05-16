@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       b9da3b26-d920-4550-b6c8-ef3c8d2930c7
+:END:
+#+title: 2\34 x 11\34 isomorphic pitch layout
+* extremely playable
+** 7 strings covers 2 octaves!
+** close major triad on 3 strings and 2 frets
+* very nearly the Kite tuning
+  Kite's tuning has easier octaves,
+  but makes the weirdest notes much more difficult.
+* picture
+  a 12-string guitar
+
+             headstock
+	     this side
+
+   1  5  -  -  -  -  -  -  3 15 19  -
+   - 21 13  -  -  -  1  5  -  -  -  -
+   -  -  - 17  -  -  - 21 13  -  -  -
+   9  -  -  - 11  7  -  -  - 17  -  -
+  19  -  -  - 23  -  9  -  -  - 11  7
+   -  -  -  -  3 15 19  -  -  - 23  -
+   -  -  1  5  -  -  -  -  -  -  3 15
+   -  -  - 21 13  -  -  -  1  5  -  -
+  11  7  -  -  - 17  -  -  - 21 13  -     treble strings
+  23  -  9  -  -  - 11  7  -  -  - 17     this side
+   3 15 19  -  -  - 23  -  9  -  -  -
+   -  -  -  -  -  -  3 15 19  -  -  -
+  13  -  -  -  1  5  -  -  -  -  -  -
+   - 17  -  -  - 21 13  -  -  -  1  5
+   -  - 11  7  -  -  - 17  -  -  - 21
+   -  - 23  -  9  -  -  - 11  7  -  -
+   -  -  3 15 19  -  -  - 23  -  9  -
+   1  5  -  -  -  -  -  -  3 15 19  -
+   - 21 13  -  -  -  1  5  -  -  -  -
+   -  -  - 17  -  -  - 21 13  -  -  -
+   9  -  -  - 11  7  -  -  - 17  -  -
+
+              saddle
+	     this side

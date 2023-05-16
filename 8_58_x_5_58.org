@@ -8,6 +8,7 @@
 ** 15-lim in 8x6 (and its smart height is even less)
 ** 15-lim in 6s x 6f
 ** 31-lim in 6s x 7f
+** resembles my favorite 34-edo layout, [[id:9d39c659-f4d1-41e5-96bd-90d74451c275][7\34r x 3\34dr x 4\34u]]
 * layout
 ** as 8\58 x 5\58
    0  steps; 1  % 1; string 0; fret 0

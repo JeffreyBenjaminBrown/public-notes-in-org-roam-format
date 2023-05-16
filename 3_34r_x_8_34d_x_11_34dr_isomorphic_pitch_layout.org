@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       7e355157-fe88-4493-a865-d0b1f55031b7
+:END:
+#+title: 3\34r x 8\34d x 11\34dr isomorphic pitch layout
+* somewhat skew
+* compact
+* 3.5-gruop-friendly, and makes avoiding septimal intervals easy
+  It prioritizes harmonics near the root-octave axis well.
+  The most off-axis harmonic is 7,
+  and the least are in the 3.5.17 group.
+* layout (3 right, 8 down, 11 downright)
+
+  1 17  9  -  -  - 23  - 13  7  -  -  -  - 19  5  -  -  3  -  -
+ 19  5  -  -  3  -  -  -  -  -  -  -  - 21 11  -  -  -  - 15  1
+ 11  -  -  -  - 15  1 17  9  -  -  - 23  - 13  7  -  -  -  - 19
+ 13  7 xx  -  -  - 19  5  -  -  3  -  -  -  -  -  -  -  - 21 11
+  -  -  -  -  - 21 11  -  -  -  - 15  1 17  9  -  -  - 23  - 13
+  9  -  -  - 23  - 13  7  - xx  -  - 19  5  -  -  3  -  -  -  -
+  -  -  3  -  -  -  -  -  -  -  - 21 11  -  -  -  - 15  1 17  9
+  -  -  - 15  1 17  9  -  -  - 23  - 13  7  -  - xx  - 19  5  -
+  -  -  -  - 19  5  -  -  3  -  -  -  -  -  -  -  - 21 11  -  -
+  -  -  - 21 11  -  -  -  - 15  1 17  9  -  -  - 23  - 13  7  -
+  -  - 23  - 13  7  -  -  -  - 19  5  -  -  3  -  -  -  -  -  -
+         xx = some keys separated by Bosanquet octaves
