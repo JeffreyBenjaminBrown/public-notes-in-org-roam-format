@@ -3,8 +3,8 @@
 :END:
 #+title: 34-edo isomorphic layouts
 * good for guitar
-** TODO [[id:b9da3b26-d920-4550-b6c8-ef3c8d2930c7][2\34 x 11\34 isomorphic pitch layout]]
-** TODO [[id:cee0762b-e18a-428a-974d-7a1622978018][2\34 x 9\34 isomorphic pitch layout]]
+** TODO [[id:b9da3b26-d920-4550-b6c8-ef3c8d2930c7][2\34 x 11\34]]
+** [[id:cee0762b-e18a-428a-974d-7a1622978018][2\34 x 9\34]]
 * TODO [[id:7e355157-fe88-4493-a865-d0b1f55031b7][3\34r x 8\34d x 11\34dr]]: octave 6-2, 3.5-friendly, 7-suppressing
 * [[id:b46933bf-cadd-40b0-9cd6-f4b0e75aa967][4\34r x 7\34dr]]: *very* flat, Bosanquet octaves
 * 4\34 x 1\34u: octave 8-2, fret height 4

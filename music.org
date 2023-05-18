@@ -2,6 +2,10 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
+* comparing Kite-34 and Kite-41
+  p17_no7 = [1 % 1,2 % 1,3 % 2,5 % 4,9 % 8,11 % 8,13 % 8,15 % 8]
+  myPrint $ map concat $ printLayout (p17_no7 ++ [17/16,23/16]) (show . numerator) 34 (11,2)
+  myPrint $ map concat $ printLayout (p17_no7 ++ [7/4,19/16,29/16,31/16]) (show . numerator) 41 (13,2)
 * [[id:743db5b4-4a06-4d72-8cdc-d3879e375ec9][songs that achieve moods I'd like to be fluent in]]
 * TODO Lumatone 46-edo: alternate the side the blacks are on.
 ** use the newest layout in sample-output/
