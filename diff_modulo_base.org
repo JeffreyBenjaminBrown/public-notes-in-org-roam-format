@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       635a2a66-13f6-40e3-a5f3-ead78eb1e7b9
+:END:
+#+title: diff modulo base
+https://news.ycombinator.com/item?id=35730446
+integrates with Git

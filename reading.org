@@ -14,6 +14,7 @@
    which suggests I believe I should be doing something else.
    (The trick is not, of course, to change my beliefs,
    but rather to act in accordance with them.)
+* [[id:d5585db3-ac97-426f-8455-c7a2b3dcee93][audiobook services]]
 * material to absorb
 ** [[id:2a435ecf-ddb5-4822-b52f-0667a02ac52c][Good conversation has lots of doorknobs.]]
    the discussion on Hacker News

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d5585db3-ac97-426f-8455-c7a2b3dcee93
+:END:
+#+title: audiobook services
+* [[id:6a718fda-1b69-4b72-a476-3e15249aeb0b][Audible (audiobook service)]]
+* [[id:b76378a1-175a-485f-9c6d-f129bf63c6e7][Storytel (audiobook service)]]

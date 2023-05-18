@@ -2,4 +2,7 @@
 :ID:       4bb86100-c882-451b-80fb-827b5fe4ea66
 :END:
 #+title: Spotify
+* spoqify: non-personalized song radio for spotify
+  https://spoqify.com/
+  (Just change one letter in a spotify playlist link.)
 * [[id:da8dc8ff-fa91-4203-aa9d-8e3ba325aebc][fix Spotify on phone]]

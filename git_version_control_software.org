@@ -3,6 +3,7 @@
 :ROAM_ALIASES: git
 :END:
 #+title: git (version control software)
+* [[id:635a2a66-13f6-40e3-a5f3-ead78eb1e7b9][diff modulo base]] (integrates with Git)
 * [[id:2a580607-a59b-408d-b27c-b6c4dd94a14b][git submodules]]: for nesting repositories
 * git add -p
   to cherry-pick the changes in a file to commit

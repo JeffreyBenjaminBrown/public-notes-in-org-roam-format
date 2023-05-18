@@ -2,4 +2,5 @@
 :ID:       e6dc1949-5024-4fee-b031-7af412353a5e
 :END:
 #+title: diff (shell programming concept)
+* [[id:635a2a66-13f6-40e3-a5f3-ead78eb1e7b9][diff modulo base]]
 * [[id:1b920360-8742-4e28-85bb-93ce19723260][When manually restoring the old part of a diff, don't ignore the white text.]]
