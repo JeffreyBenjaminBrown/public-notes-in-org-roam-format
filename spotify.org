@@ -6,3 +6,9 @@
   https://spoqify.com/
   (Just change one letter in a spotify playlist link.)
 * [[id:da8dc8ff-fa91-4203-aa9d-8e3ba325aebc][fix Spotify on phone]]
+* PITFALL: Bancolombia calls Spotify "DLOCAL COLOMBIA SAS".
+  :PROPERTIES:
+  :ID:       33baab5f-0445-4061-838b-a6b437e6c0e5
+  :END:
+  with the "Descripción del Pago" set to Spotify,
+  so probably DLOCAL COLOMBIA SAS is an intermediary.

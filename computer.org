@@ -2,6 +2,7 @@
 :ID:       7c78a3fd-74aa-4358-8977-4ea06aebe168
 :END:
 #+title: computer
+* [[id:3cbe011e-4bf8-4dfe-bc63-486c3f2cf772][computer interface]]
 * [[id:001d7913-c431-461c-92ae-a6a39394856c][computer science]]
 * computer hardware
 ** [[id:e9b1996a-67d3-40a6-b971-8c03e54a1724][disk drives, formats and partitions]]

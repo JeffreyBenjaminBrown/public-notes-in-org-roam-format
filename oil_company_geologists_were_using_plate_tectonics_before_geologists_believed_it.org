@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       c0fb1ca6-ea64-466b-902a-c995d080209b
+:END:
+#+title: Oil company geologists were using plate tectonics before geologists believed it.
+"""
+Interestingly, oil company geologists had known for years that if youwanted to find oil you had to allow for precisely the sort of surface movements that were implied by plate tectonics. But oil geologists didn't write academic papers; they just found oil.
+"""

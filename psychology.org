@@ -2,6 +2,7 @@
 :ID:       9b40c46b-bd16-4003-8a9e-763f5a7dbc22
 :END:
 #+title: psychology
+* [[id:d33fdd39-6933-4de8-abbe-8d0879ec9258][psychology \ jbb]]
 * [[id:9d1cc360-4fce-4cd4-9176-8f12670add90][attention]]
 * [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
 * [[id:73e229ee-a416-41db-a23a-4d960b2e559f][socializing, systematic]]

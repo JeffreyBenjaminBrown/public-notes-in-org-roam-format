@@ -7,3 +7,4 @@
 * some keyboard designs
 ** [[id:23190a98-ca52-42ed-b616-d78c42f8a737][Azeron keypad]]
 ** [[id:b5f64daf-75d4-46c4-a9eb-d17ad82a30e1][split keyboards]]
+* [[id:ee614883-2ac1-48d9-9d7b-ceb1dee1a892][how someone codes without his hands]]

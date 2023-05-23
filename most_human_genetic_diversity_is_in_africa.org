@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b4c79091-6251-4753-abda-83e837a80bbc
+:END:
+#+title: Most human genetic diversity is in Africa.
+The human genetic diversity found outside Africa comes from a relatively narrow group of ancestors that left the continent.
+* ref
+  https://www.economist.com/science-and-technology/2023/05/10/the-human-genome-was-always-a-misnomer

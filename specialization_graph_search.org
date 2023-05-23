@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       655e21ab-5235-4a12-9636-0b04b0a411a4
+:END:
+#+title: specialization & graph search
+* BFS in life is too hard, because life is too broad. DFS seems easier. Pick a couple favorite/most important things, ignore the rest.

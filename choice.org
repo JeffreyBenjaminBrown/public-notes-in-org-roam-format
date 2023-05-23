@@ -2,6 +2,7 @@
 :ID:       4c25a3eb-4f21-4c20-9fee-2a18275ca089
 :END:
 #+title: choice
+* [[id:655e21ab-5235-4a12-9636-0b04b0a411a4][specialization & graph search]]
 * [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
 * [[id:721b9b4d-63cc-473f-8ccb-bfc8d22240d9][ethics]]
 * [[id:74fedaae-4cb2-40f5-bfd0-ee7582f23098][mental waste]]

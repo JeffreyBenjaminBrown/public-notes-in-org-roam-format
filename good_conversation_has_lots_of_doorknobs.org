@@ -4,7 +4,7 @@
 #+title: Good conversation has lots of doorknobs.
 * refs
 ** source
-  https://www.experimental-history.com/p/good-conversations-have-lots-of-doorknobs
+   https://www.experimental-history.com/p/good-conversations-have-lots-of-doorknobs
 *** gets more information-dense at this passage
     When done well, both giving and taking create what psychologists call affordances
 ** discussion on Hacker News

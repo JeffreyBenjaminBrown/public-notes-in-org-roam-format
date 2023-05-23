@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1fd22497-e528-4023-82c9-55666c743747
+:END:
+#+title: Geologists resisted the theory of continental drift heroically.
+"""
+To get around the problems of fossildistributions, they posited ancient "land bridges" wherever they were needed. When an ancient horse named Hipparion was found to have lived in France and Florida at the same time, a land bridge was drawn across the Atlantic. When it was realized that ancient tapirs had existed simultaneously in South America and Southeast Asia a land bridge was drawn there, too. Soon maps of prehistoric seas were almost solid with hypothesized land bridges ...  These connective tendrils had not only conveniently appeared whenever it was necessary to move a living organism from one landmass to another, but then obligingly vanished without leaving a trace of their former existence.
+
+Even land bridges couldn't explain some things. One species of trilo-bite that was well known in Europe was also found to have lived on New-foundland-but only on one side. No one could persuasively explain howit had managed to cross two thousand miles of hostile ocean but thenfailed to find its around the corner of a 200-mile-wide island. Evenwaymore awkwardly anomalous was another species of trilobite found inEurope and the Pacific Northwest but nowhere in between, which wouldhave required not so much a land bridge as a flyover.
+"""

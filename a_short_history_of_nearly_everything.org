@@ -18,3 +18,5 @@
 * [[id:748de63b-d8b5-46ac-8480-ff3dc5f63e5a][Lead is a neurotoxin.]]
 * [[id:a41e2601-45a3-4ff3-b082-dbef0ca635a6][Ozone is a toxin at low altitudes but at high altitudes it soaks up UV.]]
 * [[id:53b41bec-a01b-46f2-8bc7-3e28d5137e63][CFCs are shockingly effective at warming the climate.]]
+* [[id:1fd22497-e528-4023-82c9-55666c743747][Geologists resisted the theory of continental drift heroically.]]
+* [[id:c0fb1ca6-ea64-466b-902a-c995d080209b][Oil company geologists were using the theory before it was accepted.]]
