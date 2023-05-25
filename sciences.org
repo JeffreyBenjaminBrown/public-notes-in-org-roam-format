@@ -12,6 +12,7 @@
 ** [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
 * [[id:c90f7198-2afe-400d-bbc7-8b2f20d8207c][chemistry]]
 * [[id:001d7913-c431-461c-92ae-a6a39394856c][computer science]]
+* [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]]
 * [[id:fc62e211-be72-469f-a543-2950c0e2c975][contrarianism]]
 * [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 * [[id:ccaee22b-2abd-41fa-bc3e-d0b7509600cf][education]]

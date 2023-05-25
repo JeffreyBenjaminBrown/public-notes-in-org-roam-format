@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       c2a51944-ffb9-4404-a814-cdfbaa99b1b8
+:ROAM_ALIASES: "find (Bash tool)"
 :END:
 #+title: searching in the shell
 * [[id:c444f70b-f19a-417c-9064-1f5df4c3d803][shell tools for structured data]] (CSV, JSON, etc.)
@@ -11,6 +12,8 @@
   for example, this:
     find . -type d ! -name "__pycache__"
   excludes anything called __pycache__
+** example: grep in all files except unreadable ones
+   find . -type f -not \( -name "*.csv" -o -name "*.xlsx" -o -name "*.tgz" -o -name "*.zip" -o -name "*.ssv" -o -name "*.sav" -o -name "*.pyc" -o -name "*.pdf" -o -name "*.jpeg" -o -name "*.odt" -o -name "*.pack" -o -name "*.ods" -o -name "*.ipynb" -o -name "*.idx" -o -name "*.docx" -o -name "*.dta" \) -print0 | xargs -0 grep "output/" --color
 * `find -exec`: do something to every found result
 ** example: copy a file into every folder found
    find . -type d -exec cp __init__.py {} \;

@@ -25,8 +25,7 @@
    platform.gcc is now gcc
    platform.kernel* is now linux-kernel.*
 * DONE solutions : errors, and how I solved them
-** How to list all bootable configurations?
-   nix-env --list-generations
+** UNSOLVED: [[id:a3bb6204-5faf-4c16-86b0-f882d330f285][list all bootable configurations \ NixOS]]
 ** How to figure out which package is at fault for an error?
 *** example problem
     Sometimes  I get the error

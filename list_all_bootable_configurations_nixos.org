@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a3bb6204-5faf-4c16-86b0-f882d330f285
+:ROAM_ALIASES: "BIOS, list all bootable configurations \ NixOS" "bootable configurations, list all \ NixOS"
+:END:
+#+title: list all bootable configurations \ NixOS
+* PITFALL: LIES! Doesn't do what I want.
+  Whatever this lists, it's not the number of configs
+  that the BIOS brings up when I reboot the machine.
+* the "solution"
+  nix-env --list-generations

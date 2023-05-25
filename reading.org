@@ -38,7 +38,6 @@
 *** a glowing review of it in El Espectador
     https://www.elespectador.com/opinion/columnistas/hector-abad-faciolince/un-libro-indispensable-column-737009/
 ** [[id:57bda0de-f065-4801-9ef0-f86859318350][some AI learning resources]]
-** [[id:3bd5a869-0c8a-4fb5-8db0-b64cf783592e][Isaac Asimov, The Last Question (short story)]]
 ** La República
    :PROPERTIES:
    :ID:       f9b8a577-563a-47c6-a77f-11892ec5ccd2
@@ -135,5 +134,6 @@
 ** Krugman's NYT email newsletter catalog
    https://www.nytimes.com/column/paul-krugman
 * DONE
+** [[id:3bd5a869-0c8a-4fb5-8db0-b64cf783592e][Isaac Asimov, The Last Questioan (short story)]]
 ** [[id:ec8a113b-44d9-495f-acc9-e6e7c714d5bf][The Economic Organization of a POW Camp, by R. A. Radford]]
 ** "[[id:a35db7a3-3341-46ae-9577-eedfc7f45afd][How to run a tech giant]]"

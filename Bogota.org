@@ -2,6 +2,7 @@
 :ID:       e93ab75c-3c2b-422f-959f-2216de60d4fd
 :END:
 #+title: Bogotá
+* [[id:43042405-4371-4af8-be53-619c9ed078d4][comedy improv teachers in Bogotá]]
 * [[id:7c28ad7b-347f-49d9-b999-764bf1b9ec73][restaurants in Bogotá]]
 * [[id:6b0f52c1-9b63-4f15-9d2c-02cef16f1825][builders in Bogotá]] | contractors (construction, demolition) in Bogotá
 * [[id:42fea591-68ff-46b8-82db-97b2bd714769][lawyers in Bogotá]]
