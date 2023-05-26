@@ -7,4 +7,4 @@
 *     Obvious: They should be sufficiently informative.
 * example
   "Action" turned out to be a worse type name than "ScAction",
-  and renaming took me like 15 minutes.
+  and renaming it took me like 15 minutes.

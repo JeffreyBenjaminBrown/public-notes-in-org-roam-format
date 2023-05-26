@@ -10,7 +10,7 @@
 * know stuff
 ** ideally, have used the language recently
 ** review the language
-   Study the most fundamental tools in the language in question
-   folds and the fundamental typeclasses in Haskell
+   Study the most fundamental tools in the language in question --
+   e.g. folds and the fundamental typeclasses in Haskell.
 ** do problems (in that language)
    Get used to thinking fast about unexpected problems.
