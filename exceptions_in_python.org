@@ -4,3 +4,16 @@
 #+title: exceptions in Python
 * a list of builtin exceptions
   https://docs.python.org/3/library/exceptions.html
+* syntax, or at least most of it
+  try:
+    print(x)
+  except NameError:
+    print("Variable x is not defined")
+  except Exception as c:
+    print(c)
+  except: # This default clause cannot be reached,
+          # because every error inherits from Exception,
+          # but it is syntactically fine.
+    print("Something else went wrong")
+  finally: # executes whether or not an Exception arises.
+    print("The 'try except' is finished")
