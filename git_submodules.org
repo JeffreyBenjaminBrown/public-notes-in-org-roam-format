@@ -4,6 +4,9 @@
 #+title: git submodules
 * ref
   https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial
+* To initialize the submodules in a clone
+  git submodule init
+  git submodule update
 * To put a git submodule in a git module:
   git submodule add <path to remote repo> [folder name]
   git submodule add git@github.com:ofiscal/utilities ofiscal_utils
