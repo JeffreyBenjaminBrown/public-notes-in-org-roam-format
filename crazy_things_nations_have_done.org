@@ -4,3 +4,4 @@
 #+title: crazy things nations have done
 * [[id:4c8f602d-1d50-4dd4-afdd-e6509c84b0c5][dumb decisions by national leaders]]
 * [[id:f427e94a-5c2b-460c-8ca8-b5b6e1eb890e][crazy collective decisions|outcomes]]
+* [[id:4b2e2d65-e997-4757-a334-2e9ac112f4ab][environmental degradation in 20th-century China]]

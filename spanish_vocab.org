@@ -6,7 +6,7 @@
 * TODO read Muy Interesante
   https://www.muyinteresante.es/
 * outer loop
-  last time I reviewed: 7
+  last time I reviewed: 8
 ** odd outer loop reps: Spanish questions (and either language for answer)
    last time I reviewed: 4
 *** 1 mod 2
@@ -61,19 +61,20 @@
 **** rendimientos financieros
      financial returns of any kind -- capital gains + dividends
 ** even outer loop reps: Spanish answers (and either language for question)
-   last time I reviewed: 3
+   last time I reviewed: 5
 *** 1 mod 2
-**** lag (noun)
-     rezago
 **** se dan garra
-     es como que gente tan descargada... una demanda así [like the Contraloría's against Sandy] no está bien
+     es como que gente tan descargada...
+     una demanda así [like the Contraloría's against Sandy] no está bien
 **** changoz
      es como lo siento, que embarrada
 **** to clean | to purge of dissidents | to (try to?) sanction | to reinstate someone who was sanctioned
      depurar
+*** 2 mod 4
+**** lag (noun)
+     rezago
 **** outline (both as in plan and as in profile)
      lineamento
-*** 2 mod 4
 **** bond (as in Treasury)
      bono
 **** brainy
@@ -87,6 +88,7 @@
 **** financial returns of any kind -- capital gains + dividends
      rendimientos financieros
 *** 4 mod 8
+*** 8 mod 16
 **** bad person
      cafre
 **** question mark

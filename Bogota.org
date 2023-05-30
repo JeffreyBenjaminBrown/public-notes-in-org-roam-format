@@ -14,3 +14,4 @@
 * [[id:f0857a0a-ccbc-4126-9bc6-8a421f6eea66][pool halls in Bogotá]]
   tag billiards
 * [[id:cc5ac46c-c0a9-4af3-9ab4-74c3e2a9cb6c][ping pong in Bogotá]]
+* [[id:ef9c3e9a-dc35-4c33-b3e0-10fd29d4c214][health facilities in Bogotá]]

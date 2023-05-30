@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       4b2e2d65-e997-4757-a334-2e9ac112f4ab
+:END:
+#+title: environmental degradation in 20th-century China
+* ref & title (confuses me, not sure who wrote it)
+  BEFORE THEY VANISH
+  Leveraging Charismatic Species for Biodiversity Conservation in China
+  FORESTRY UNDER MAO: 1949 TO 1978
+  https://blogs.ubc.ca/umbreenbutt/forestry-under-agricultural-policy-1949-to-1976
+* quotes
+  Mao Zedong initiated the Great Leap Forward from 1958 to 1961. During this period, large hydropower and irrigation projects were extended throughout the country. The deforestation, erosion and siltation from these projects was immense, and to little national gain. By 1980, and estimated 2,976 dams built during this period had collapsed
+  ...
+  China’s forestry history chronicles “Three Great Cuttings” or “San Da Fa”, campaigns during which communities were mass-mobilized towards deforestation
+  ...
+  Following the pseudo-scientific doctrine of Lysenkoism, it was widely believed that grain could be made to grow anywhere: flood plains, grasslands, steep slopes and sandy beaches (Shapiro 2001). The forested slopes of the northeastern and southwestern provinces paid the price in the Second Great Cutting during the Cultural Revolution of 1966 to 1976. As a result, in the north and northwest, grasslands were opened to the plough and, with or without irrigation, winds eroded the soil and turned farmland into desert. In mountainous areas with slopes over 25 degrees forests were cut down and crops planted in rows down the slope, increasing the rate of erosion (Shapiro 2001).
