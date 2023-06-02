@@ -3,6 +3,8 @@
 :ROAM_ALIASES: information epistemology ontology "organizing knowledge"
 :END:
 #+title: knowledge graphs
+* Sidney is using LinkML
+  "which is quite young but so far wonderful for being able to combine relational data structures with semantic web stuff"
 * [[id:eaf57880-1c79-49ef-a8b3-b4e106e0ebb4][ideas for someone else]]
 * TODO [[id:5f8c9f6b-6992-4bde-a27a-3db3997f3178][pitch the uber-app]]
 * TODO [[id:4770a0d4-1932-403c-a57a-9ae803e8372e][knowledge graph game]]

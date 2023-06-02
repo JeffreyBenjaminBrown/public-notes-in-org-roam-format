@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       31fab723-6cfd-4f19-a61e-4b65100504f8
+:END:
+#+title: abstractions I like \ computer science
+* dependent types
+* albegraic types (sum types, mostly)
+* STM (software transactional memory)
+* reactive programming

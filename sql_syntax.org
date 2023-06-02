@@ -1,0 +1,104 @@
+:PROPERTIES:
+:ID:       11de530f-d0c7-4688-89ae-e5b94b346030
+:END:
+#+title: SQL syntax
+* properties
+** is case-insensitive
+   except when matching strings in WHERE and LIKE clauses.
+** order matters
+   "WHERE" must come before "ORDER BY"
+** comments : /* ... */
+* some keywords and special symbols
+** (*) means "every column"
+** FROM specifies (the) table(s).
+* filtering
+** WHERE filters results.
+   SELECT * FROM person WHERE address_number = 309;
+*** Use AND, OR and parentheses for complex filters.
+    SELECT * FROM person WHERE (address_number = 309 AND id = 80539) OR (address_number = 10);
+** > and < are defined.
+** BETWEEN works for strings, not just numbers.
+*** The tutorial gave this example.
+    SELECT DISTINCT city
+    FROM crime_scene_report
+    WHERE city BETWEEN 'W%' AND 'Z%';
+*** But this (without wildcards) gives the same results.
+    SELECT DISTINCT city
+    FROM crime_scene_report
+    WHERE city BETWEEN 'W' AND 'Z';
+** "regular expressions" & wildcards
+   tag regex
+*** There are only two wildcards.
+**** % in SQL is like ".*" in regular expressions.
+**** _ in SQL is like "." in regular expressions
+*** Use the LIKE keyword (instead of "=") with wildcards.
+    SELECT DISTINCT city
+    FROM crime_scene_report
+    WHERE city LIKE 'I%';
+* sorting
+  SELECT * FROM drivers_license ORDER BY age ASC LIMIT 10
+** ASC = smallest first (the default)
+** DESC = largest first
+* statistics (properties of columns)
+** syntax
+   SELECT max(age) FROM drivers_license;
+** some functions
+   count, min, max, sum, avg
+* aggregation and filtering by group
+  tag groupby
+** syntax
+   select person_id, count(*)
+   from facebook_event_checkin
+   group by person_id
+   having count(*) > 2         /* filters the groups */
+* merge ("join")
+** syntax example
+   SELECT person.name, income.annual_income
+   FROM income
+   JOIN person
+     ON income.ssn = person.ssn
+   WHERE annual_income > 450000
+** default strategy is inner
+   the others are outer, left and right
+** joining more than two tables in one query
+   works the same way
+*** example
+    SELECT name, annual_income as income,
+      gender, eye_color as eyes, hair_color as hair
+    FROM income i
+    JOIN person p
+      ON i.ssn = p.ssn
+    JOIN drivers_license dl
+      ON p.license_id = dl.id
+    WHERE annual_income > 450000
+* use aliases for table and column names
+  SELECT name, annual_income as income,
+    gender, eye_color as eyes, hair_color as hair
+  FROM income i
+  JOIN person p
+    ON i.ssn = p.ssn
+  JOIN drivers_license dl
+    ON p.license_id = dl.id
+  WHERE annual_income > 450000
+* solutions
+** use LIMIT to take the first N results
+   SELECT * FROM person LIMIT 10;
+** Count observations by SELECTing `count(*)`.
+   This returns a one-row, one-column table:
+
+   SELECT count(*) FROM person
+** To show only unique values in a column, qualify its name with `DISTINCT`.
+   SELECT DISTINCT type FROM crime_scene_report;
+** To SELECT multiple columns, separate them with commas.
+   SELECT id, name FROM person LIMIT 10;
+** case-insensitive matching
+   Use LOWER or UPPER:
+
+   SELECT DISTINCT city
+   FROM crime_scene_report
+   WHERE LOWER(city) ='sql city';
+** DONE obvious
+*** To show one column, SELECT the column's name.
+    e.g. if there is a column called "type" in the db "crime_scene_report",
+
+    SELECT type FROM crime_scene_report;

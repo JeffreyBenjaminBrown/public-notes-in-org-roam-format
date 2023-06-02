@@ -2,4 +2,7 @@
 :ID:       d49c9935-eecd-480d-a400-dd2113523911
 :END:
 #+title: SQL
+* [[id:11de530f-d0c7-4688-89ae-e5b94b346030][SQL syntax]]
+* [[id:7c624e6e-91b8-491e-b6ed-007922813c82][database design]]
 * [[id:fcf6b095-f4c2-4f2a-abc2-27922a2d4a25][sqlite]]
+* DONE [[id:0b45e975-7b82-4d49-9b61-5901e27195d3][SQL murder mystery]] (tutorial)

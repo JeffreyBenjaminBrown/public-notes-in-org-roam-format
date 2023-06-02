@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       7c624e6e-91b8-491e-b6ed-007922813c82
+:END:
+#+title: database design
+* primary key
+** = a column that takes a unique value for each observation in a table
+** Not every table needs a primary key
+   unless another table must refer to it.
+* foreign key
+** = a column that refers to the primary key of a different table
+* [[id:a6eff324-9e8b-4b03-bccb-c1da1aecff2c][Entity Relationship Diagram]]

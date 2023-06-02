@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a6eff324-9e8b-4b03-bccb-c1da1aecff2c
+:ROAM_ALIASES: ERD
+:END:
+#+title: Entity Relationship Diagram
+explains how the tables in a DB relate

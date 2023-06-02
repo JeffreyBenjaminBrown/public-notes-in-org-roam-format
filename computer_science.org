@@ -3,6 +3,7 @@
 :ROAM_ALIASES: programming
 :END:
 #+title: computer science
+* [[id:31fab723-6cfd-4f19-a61e-4b65100504f8][abstractions I like \ computer science]]
 * TODO [[id:4bd7f12e-2061-40e9-9e98-683552f40918][contribute to open source projects]]
 * TODO [[id:90b6eed6-9e66-44de-bbfd-dfc0385bfa35][software development advice, excellent]]
 * TODO [[id:f0689a2d-925c-4360-a428-d4f0857b9680][to learn & computer science]]

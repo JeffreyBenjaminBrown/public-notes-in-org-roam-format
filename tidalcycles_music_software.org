@@ -4,6 +4,8 @@
 :END:
 #+title: TidalCycles (music software)
 * refs
+** an explanation of Tidal 2.0
+   https://club.tidalcycles.org/t/tidal-2-0/4247/30?u=jeff_brown
 ** [[id:e3544bcf-ff56-4667-b924-3b7baaea26ac][SuperDirt (plugin for SuperCollider)]]
 ** https://tidalcycles.org/
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]

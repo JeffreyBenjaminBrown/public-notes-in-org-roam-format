@@ -2,6 +2,10 @@
 :ID:       784c0660-a998-4bbf-bc80-c0b46a89a632
 :END:
 #+title: make (build utility)
+* PITFALLs
+** make ignores symlinks!
+   It will treat a target as unbuilt, and thus try to build it,
+   if it is a symlink.
 * `makefile --trace` explains why it wants to rebuild something
   Kind of useless, though -- it only restates the dependency section of the target it wants to rebuild.
   A natural companion to --dry-run.

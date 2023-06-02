@@ -1,0 +1,151 @@
+:PROPERTIES:
+:ID:       0b45e975-7b82-4d49-9b61-5901e27195d3
+:END:
+#+title: SQL murder mystery
+* ref
+  https://mystery.knightlab.com/walkthrough.html
+* dbs
+  get_fit_now_check_in
+  get_fit_now_member
+  interview
+  facebook_event_checkin
+  crime_scene_report
+  person
+  solution
+  income
+  drivers_license
+* The ERD
+  is on this page
+    https://mystery.knightlab.com/walkthrough.html
+  right after this text:
+    Here is the ERD
+* solving it
+** the murder
+*** query to find it
+    SELECT * FROM crime_scene_report
+    WHERE type = 'murder'
+    AND lower(city) = 'sql city';
+*** description
+    Security footage shows that there were 2 witnesses. The first witness lives at the last house on "Northwestern Dr". The second witness, named Annabel, lives somewhere on "Franklin Ave".
+** witnesses
+*** my queries
+    select * from person
+      where address_street_name = "Northwestern Dr"
+      order by "address_number" desc
+      limit 1
+
+    select * from person
+      where address_street_name = "Franklin Ave"
+        and name like "Annabel%"
+      order by "address_number" desc
+      limit 1
+*** who they find
+ id     name    license_id      address_number  address_street_name     ssn
+ 14887  Morty Schapiro  118009  4919    Northwestern Dr 111564949
+ 16371  Annabel Miller  490173  103     Franklin Ave    318771143
+** witness interviews
+*** query
+    select id, name, transcript from interview i
+      join person p
+        on i.person_id = p.id
+      where id = 14887 or id = 16371
+*** results
+ 14887  Morty Schapiro  I heard a gunshot and then saw a man run out. He had a "Get Fit Now Gym" bag. The membership number on the bag started with "48Z". Only gold members have those bags. The man got into a car with a plate that included "H42W".
+
+ 16371  Annabel Miller  I saw the murder happen, and I recognized the killer from my gym when I was working out last week on January the 9th.
+** gym checkins
+*** the last year of data is 2018
+    select membership_id, check_in_date from get_fit_now_check_in
+      order by check_in_date desc
+      limit 1
+
+    membership_id check_in_date
+    NL318             20180212
+*** checkin and member id
+**** query
+     select check_in_date as date,
+            membership_id as mid,
+            person_id as pid
+     from get_fit_now_check_in c
+     join get_fit_now_member m
+       on c.membership_id = m.id
+     where date = 20180109
+       and mid LIKE "48Z%"
+**** result
+     check_in_date      membership_id   person_id
+     20180109   48Z7A   28819
+     20180109   48Z55   67318
+** license plate information
+*** query
+    select id, plate_number from drivers_license
+      where plate_number like "%H42W%"
+*** result
+    id  plate_number
+    183779      H42W0X
+    423327      0H42W2
+    664760      4H42WR
+** the murderer
+*** query
+    select p.id, p.name
+    from person p
+    join drivers_license l
+      on p.license_id = l.id
+    join get_fit_now_member m
+      on p.id = m.person_id
+    where
+      ( l.id = 183779 or
+        l.id = 423327 or
+        l.id = 664760 ) and
+      ( m.id = "48Z7A" or
+        m.id = "48Z55" )
+*** result
+    id          name
+    67318       Jeremy Bowers
+** the murderer's interview
+*** query
+    select transcript from interview i
+      where person_id = 67318
+*** result
+    I was hired by a woman with a lot of money. I don't know her name but I know she's around 5'5" (65") or 5'7" (67"). She has red hair and she drives a Tesla Model S. I know that she attended the SQL Symphony Concert 3 times in December 2017.
+** villain's physical attributes and car
+*** query
+    select p.id, p.name from person p
+    join drivers_license l
+      on p.license_id = l.id
+    where l.height < 68 and
+          l.height > 64 and
+          l.hair_color = "red" and
+          l.car_make = "Tesla" and
+          l.car_model = "Model S"
+*** 3 results
+    id          name
+    78881       Red Korb
+    90700       Regina George
+    99716       Miranda Priestly
+** facebook event formats
+*** event name : SQL Symphony Concert
+    select distinct event_name
+    from facebook_event_checkin
+*** date format : 20170913 (year month day)
+    select date
+    from facebook_event_checkin
+    limit 1
+** people who saw three symphonies that month
+*** query
+    select p.id, p.name, count(*)
+    from facebook_event_checkin f
+    join person p
+      on f.person_id = p.id
+    where date > 20170000 and
+          date < 20180000 and
+          ( person_id = 78881 or
+            person_id = 90700 or
+            person_id = 99716 )
+    group by person_id
+    having count(*) > 2
+*** result
+    id       name                  count(*)
+    99716    Miranda Priestly      3
+** the villain's interview doesn't exist
+   select transcript from interview i
+     where person_id = 99716
