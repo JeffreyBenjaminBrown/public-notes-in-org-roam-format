@@ -2,8 +2,7 @@
 :ID:       d34240fb-8863-4161-8db4-4738881b5b13
 :END:
 #+title: Salma Falafels (restaurant, Bogotá)
-* next time at Salma's Falafels
+* Next time, ask if I can get extra falafel.
   :PROPERTIES:
   :ID:       cfdb030d-0912-4c3b-8ff4-f44073f64897
   :END:
-** Ask if I can get extra falafel.

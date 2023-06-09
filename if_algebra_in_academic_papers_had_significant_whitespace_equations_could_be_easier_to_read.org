@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1c241da8-8364-4e3b-8933-ff10d32d708b
+:END:
+#+title: If algebra in academic papers had significant whitespace, equations could be easier to read and write.
+Mathematical papers and Latex should make whitespace significant in algebra.
+That way we wouldn't need so many and such highly-decorated symbols.
+We could just use a word to say what we're talking about.

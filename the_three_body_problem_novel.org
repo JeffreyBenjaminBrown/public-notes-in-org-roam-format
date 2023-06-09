@@ -3,7 +3,8 @@
 :END:
 #+title: The Three-Body Problem (novel)
 * RESUME at
-  joined for short stints to experience the lifestyle.
+  “Predicting the sun’s motion is only possible in Zhao Ge, for that is where yin and yang
+meet. Only the lots cast there are accurate.”
 * characters
 ** Red Union
 ** Red Guards
@@ -36,7 +37,8 @@
    It was his idea to take her to work
    on the Red Coast national defense project.
 ** Wang Miao
-   professor, "invited" by 2 cops and 2 soldiers to Battle Command Center
+   Professor, "invited" by 2 cops and 2 soldiers to Battle Command Center.
+   Uses handle "Hairen" in the Three Body Problem VR game.
 ** Battle Command Center
    group of military, copes, scientists, a CIA officer, a NATO officer
 ** Shi Qiang
@@ -44,6 +46,7 @@
    then invited him to Battle Command Center.
    Used torture; kicked out of the army.
    Convinced Wang Miao to spy on the Frontiers of Science.
+*** drives a black Volkswagen Santana
 ** Frontiers of Science
    a legal group of influential academics,
    interested in the limits of scientific understanding.
@@ -57,15 +60,29 @@
    Scientist, boyfriend of the late Yang Dong.
 ** Shen Yufei.
    Member of the Frontiers of Science.
+   Wei Cheng's wife.
    "A Japanese physicist of Chinese descent who currently works for a Japanese company here in Beijing," said Wang Miao. She introduced Wang to others.
    Invited Wang Miao to her place when he said he needed help with an unspecified mystery (the numbers counting down on pictures he took).
+   Maybe controls the numbers Wang Miao sees.
 ** Wei Cheng
    Shen Yufei's husband.
    Does mysterious work at home with an expensive workstation.
-** Pan Han,
+** Pan Han
    "One of the most prominent members of the Frontiers of Science."
    "A biologist, he had successfully predicted the birth defects associated with long-term consumption of genetically modified foods ... [and] the ecological disasters that would come with cultivation of genetically modified crops"
    "created China’s first experimental community", Pastoral China, who own no property and subsist on trash
+** King Wen
+   In the 3-body VR game.
+   A "genius", according to Follower of King Wen.
+   Traveling to Zhao Ge to give an accurate calendar to King Zhou.
+** Follower of King Wen
+   In the 3-body VR game.
+   Voluntarily dehydrated,
+   so that Wang Miao and King Wen could carry him to Zhao Ge,
+   rather than die of starvation.
+** King Zhou
+   In the 3-body VR game.
+   A "tyrant", according to King Wen.
 * events
 ** Cultural Revolution
    started in 1966
