@@ -168,7 +168,7 @@
 **** shortcuts
      left/right   : Move time  cursor by a grid division.
      S-left/right : Move time  cursor by a pixel.
-     up/down      : Move pitch cursor by a semitone.
+     S-up/down    : Move pitch cursor by a semitone.
      M-S-up/down  : Move pitch cursor by an octave.
 *** moving notes
     PITFALL: These might only work with numpad arrows, not normal ones?

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       418ec86f-2f42-4e22-bae4-2677f9475ce3
+:END:
+#+title: mp4
+* [[id:31427781-8735-4b8e-a185-a89f955c42ee][how to create an .mp4 from a .wav and a .png]]

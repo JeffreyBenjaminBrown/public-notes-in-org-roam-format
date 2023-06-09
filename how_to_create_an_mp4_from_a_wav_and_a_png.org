@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       31427781-8735-4b8e-a185-a89f955c42ee
+:END:
+#+title: how to create an .mp4 from a .wav and a .png
+* source
+  https://www.bannerbear.com/blog/how-to-convert-audio-to-video-for-youtube-upload-using-ffmpeg/
+* recipe
+  If the input files are called "input.wav" and "input.png", then
+** create an .mp3 from the .wav
+   ffmpeg -i                               \
+       "input.wav"                         \
+       -vn -ar 44100 -ac 2 -b:a 192k       \
+       "audio.mp3"
+** Create the .mp3
+   ffmpeg -loop 1                          \
+       -i ipnut.png                        \
+       -i audio.mp3                        \
+       -c:v libx264                        \
+       -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" \
+       -shortest                           \
+       output.png.mp4

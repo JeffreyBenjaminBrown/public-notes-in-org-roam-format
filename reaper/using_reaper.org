@@ -13,7 +13,7 @@
 ** [[id:f82d4359-a8bb-4b88-b00d-4e9b3d924725][time, regions and transport]]
 ** [[id:0e518fd3-734a-4110-b319-22d6930f6f00][tracks]]
 ** [[id:2a878556-a849-4812-9779-320107cbaf6e][recording (audio & MIDI)]]
-** [[id:0a895788-7ff0-4527-96ee-120a527f14fe][editing media items]] (audio and/or MIDI
+** [[id:0a895788-7ff0-4527-96ee-120a527f14fe][editing media items]] (audio and/or MIDI)
 *** [[id:1e56abb2-a473-4c78-b555-c8ae8cc42528][pitch detection, pitch shift and time stretch in Reaper]]
 *** [[id:91cb005e-e87a-42dd-8dc9-ae3c5a094f12][editing MIDI in Reaper]]
 ** [[id:4174cedc-c3ab-4b1a-ad5b-b9c222a4945c][FX | plugins]]

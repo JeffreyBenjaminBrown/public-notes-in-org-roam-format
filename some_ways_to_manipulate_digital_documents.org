@@ -5,6 +5,7 @@
 #+title: some ways to manipulate digital documents
 * [[id:b5d11fbe-75dc-4c31-8d0d-c44689328ff1][some ways to manipulate digital images]]
 * [[id:f3e205be-1323-4ca1-89b9-fc99ab1d8956][some ways to (create and) manipulate PDFs]]
+* [[id:31427781-8735-4b8e-a185-a89f955c42ee][how to create an .mp4 from a .wav and a .png]]
 * DONE install these
   pdftk, gs, gimp
   and maybe install imagemagick

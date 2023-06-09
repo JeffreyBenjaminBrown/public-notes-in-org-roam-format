@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       0400a382-afe4-4088-92fd-8b3fd85ac8ae
+:ROAM_ALIASES: "play cursor, moving \ Reaper" "Reaper / moving the play cursor"
+:END:
+#+title: moving the play cursor \ Reaper
+* Can configure what moves it
+  :PROPERTIES:
+  :ID:       7561c9ad-d766-4fae-8475-9c6c5947b88f
+  :END:
+  see section "Managing the Play Cursor"
+* if clicking the timeline jumps the cursor to a crazy place
+  :PROPERTIES:
+  :ID:       36305766-334e-461f-8d79-16d54a75d7cb
+  :END:
+  it might be because I'm snapping to a huge grid

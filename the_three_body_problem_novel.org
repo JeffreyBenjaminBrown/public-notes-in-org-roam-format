@@ -3,11 +3,69 @@
 :END:
 #+title: The Three-Body Problem (novel)
 * RESUME at
-  Monsters and Demons who were not intellectuals.
+  joined for short stints to experience the lifestyle.
 * characters
 ** Red Union
+** Red Guards
+   Sided with the government?
+   But wars internally.
 ** April 28 Brigade
    rebels?
+** Ye Zhetai
+   The murdered physics professor.
+** Ye Wenjie
+   Daughter of the murdered physics prof and his prof wife who went crazy.
+** Ye Wenxue
+   Wenjie's sister, who enthusiastically ratted out their father.
+** Bai Mulin
+   Reporter for Great Production News, the [tree-cutting?] corp's newspaper.
+   Gave Silent Spring to Ye Wenjie.
+   Wrote a letter to Beijing explaining the construction corp's destructive consequences, then framed Wenjie for it after she copied it in neat handwriting for him.
+** Ma Gang
+   Big guy, chainsaw operator, proud of the work.
+** Cheng Lihua
+   The military representative from the Intermediate People’s Court.
+   Received Ye Wenjie as prisoner.
+** Political Commissar Lei Zhicheng of Red Coast Base
+   One of the two PLA guys who took Wenjie by helicopter
+   after Cheng Lihua nearly froze her to death.
+** Yang Weining, base chief engineer of Red Coast Base
+   One of the two PLA guys who took Wenjie by helicopter
+   after Cheng Lihua nearly froze her to death.
+   Was one of Ye Zhetai's grad students.
+   It was his idea to take her to work
+   on the Red Coast national defense project.
+** Wang Miao
+   professor, "invited" by 2 cops and 2 soldiers to Battle Command Center
+** Battle Command Center
+   group of military, copes, scientists, a CIA officer, a NATO officer
+** Shi Qiang
+   Rude cop, one of four who questioned Wang Miao,
+   then invited him to Battle Command Center.
+   Used torture; kicked out of the army.
+   Convinced Wang Miao to spy on the Frontiers of Science.
+** Frontiers of Science
+   a legal group of influential academics,
+   interested in the limits of scientific understanding.
+** major general Chang Weisi
+** Yang Dong
+   Young female string theorist, the first whose theories would be
+   tested by Sinotron II.
+   Refuses media interviews.
+   Committed suicide, contemporaneously with numerous other scientists.
+** Ding Yi
+   Scientist, boyfriend of the late Yang Dong.
+** Shen Yufei.
+   Member of the Frontiers of Science.
+   "A Japanese physicist of Chinese descent who currently works for a Japanese company here in Beijing," said Wang Miao. She introduced Wang to others.
+   Invited Wang Miao to her place when he said he needed help with an unspecified mystery (the numbers counting down on pictures he took).
+** Wei Cheng
+   Shen Yufei's husband.
+   Does mysterious work at home with an expensive workstation.
+** Pan Han,
+   "One of the most prominent members of the Frontiers of Science."
+   "A biologist, he had successfully predicted the birth defects associated with long-term consumption of genetically modified foods ... [and] the ecological disasters that would come with cultivation of genetically modified crops"
+   "created China’s first experimental community", Pastoral China, who own no property and subsist on trash
 * events
 ** Cultural Revolution
    started in 1966

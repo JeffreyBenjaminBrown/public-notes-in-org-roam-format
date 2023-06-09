@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       3df2b2f8-026f-4108-a89f-8ac05aba72d2
+:END:
+#+title: Spanish (language)
+* some Spanish-speaking comedians
+** Hassam (Colombian comedian)
+   Jesus. Too hard.
+* [[id:84b6c491-f0b4-44ab-9ffd-cf196d6a0220][Spanish vocabulary]]

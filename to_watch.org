@@ -2,9 +2,6 @@
 :ID:       6338f677-2e09-4202-96bb-d5444247bf7a
 :END:
 #+title: to watch
-* via Cliff, benefits of prolonged fasting
-  https://www.youtube.com/watch?v=EX_kg6Nimbc
-* Hassam (Colombian comedian)
 * Diamantino (movie)
 ** sci-fi or surreal, about a soccer star
 ** David Suarez loved it
@@ -89,6 +86,7 @@
    Grace, who I met that day, recommended after watching "Everything Everywhere ..."
    Sandy didn't like it.
 * DONE
+** [[id:c5555290-51eb-41d3-b3a5-58660af7c2c0][benefits of prolonged (48-72 hr) fasting]]
 ** [[id:44454a37-5875-4709-8534-10f9bfcd1694][consciousness in LLMs: a talk by David Chalmers]]
 ** "[[id:a35db7a3-3341-46ae-9577-eedfc7f45afd][How to run a tech giant]]"
 ** Love death and robots
