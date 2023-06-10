@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       1f44680e-4df0-4bfb-9197-f3afe1c74c90
+:END:
+#+title: 62-edo
+* harmonic theory
+** 62-edo is a great flat system.
+   Every harmonic from 2 through 31 is between .8c sharp and 9.4c flat.
+** 62-edo beats 31-edo even restricting attention to the 13-limit.
+   That's because its 13/8 is flat instead of sharp,
+   both slightly closer to true and playing much better with the others.
+* layouts
+** good for guitar
+*** TODO [[id:fc5d6b28-9d85-42cd-832e-82dbe5d51018][3\62 x 14\62 (isomorphic pitch layout)]]
+** good for lumatone
+*** TODO [[id:4103577a-3599-483a-989c-1e7bce1460b1][9\62r x 1\62u (isomorphic pitch layout)]]
+*** TODO [[id:4adcc5d1-9ee4-435d-9055-e2496af8bb5a][6\62r x 7\62d (isomorphic pitch layout)]]
+**** *Seems* to dominate [[id:70fcb19e-1573-439e-a1eb-b0747977e704][7\62r x 6\62d (isomorphic pitch layout)]]
+     but I'm not sure -- arguably the 5-limit is easier in this one.
+*** [[id:7f7fb31e-9a13-444a-bfde-abfd7d850ef0][7\62 x 2\62 (isomorphic pitch layout)]]

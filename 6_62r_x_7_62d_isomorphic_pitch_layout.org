@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       4adcc5d1-9ee4-435d-9055-e2496af8bb5a
+:END:
+#+title: 6\62r x 7\62d (isomorphic pitch layout)
+* octave at (8,2)
+* *Almost* has a chromatic (1\62) axis.
+  That axis is diagonal in the rectangular picture below,
+  but the "wrong diagonal".
+  When it's mapped to a hexagonal grid,
+  it maps in such a way that the keys on that axis
+  are not adjacent.
+* layout
+ -  -  5  - 23  -  -  7 15  1  -  -  - 21  -  3  -  -  -  -  -
+19  -  -  -  -  -  -  -  -  -  -  -  -  -  - 13  -  -  - 17  9
+ - 11  - 25  -  -  -  -  -  -  5  - 23  -  -  7 15  1  -  -  -
+ -  -  - 27 29 31  -  - 19  -  -  -  -  -  -  -  -  -  -  -  -
+ 3  -  -  -  -  -  -  -  - 11  - 25  -  -  -  -  -  -  5  - 23
+13  -  -  - 17  9  -  -  -  -  - 27 29 31  -  - 19  -  -  -  -
+ 7 15  1  -  -  - 21  -  3  -  -  -  -  -  -  -  - 11  - 25  -
+ -  -  -  -  -  -  -  - 13  -  -  - 17  9  -  -  -  -  - 27 29
+ -  -  -  5  - 23  -  -  7 15  1  -  -  - 21  -  3  -  -  -  -
+ - 19  -  -  -  -  -  -  -  -  -  -  -  -  -  - 13  -  -  - 17
+ -  - 11  - 25  -  -  -  -  -  -  5  - 23  -  -  7 15  1  -  -
