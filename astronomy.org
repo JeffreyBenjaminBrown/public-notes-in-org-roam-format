@@ -13,6 +13,7 @@
 ** [[id:5c4aa81a-3cdf-47b9-a912-56f32e862b93][Astronauts can't drink soda.]]
 ** [[id:c5f987ab-6ae9-460d-a998-b4f43db91640][Ice volcanoes]] exist.
 ** [[id:29905c6e-2c87-4fbc-a57a-50e27225b99b][the scale of outer space]]
+** [[id:53bb14ac-10c1-4143-8068-861d36272115][Photons can take thousands of years to exit the sun.]]
 * a catalog
 ** [[id:753a51a4-a54a-4894-af24-de0517a70c57][the solar system]]
 ** [[id:dd789d5b-45e3-4c8a-b383-f068728ab82a][neutron star]]

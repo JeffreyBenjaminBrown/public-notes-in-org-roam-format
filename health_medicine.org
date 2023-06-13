@@ -1,8 +1,9 @@
 :PROPERTIES:
 :ID:       8cd7a9de-4652-4728-b57f-748e61cf94e7
+:ROAM_ALIASES: "medicine & health"
 :END:
 #+title: health & medicine
-* [[id:c5555290-51eb-41d3-b3a5-58660af7c2c0][benefits of prolonged (48-72 hr) fasting]]
+* [[id:53153c43-2604-4a0c-b227-e2290bb89ab9][fasting]]
 * [[id:185827a6-a19a-4da0-a251-897c41ef3a20][cell biology]]
 * [[id:efac7e01-b51a-4b87-b029-832cdb0bb977][otorhinolaryngology]]
 * [[id:dd2c33b3-21a1-45bd-ab86-c110c40a932f][drugs]]

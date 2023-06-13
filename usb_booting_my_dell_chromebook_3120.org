@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       a6bde52b-3993-4c78-8127-2b85aee5d68a
+:END:
+#+title: USB-booting my Dell Chromebook 3120
+* The nature of the boot image on the USB drive matters.
+** conclusions from what I've tried
+*** signing might matter
+    The Lubuntu one, at least, looks like it was signed --
+    that is, it's provided along with gpg keys --
+    but I did not test the signature.
+*** format might matter
+    My .iso images of Linux were rejected.
+    The .img image of Chromium was accepted.
+** what I've tried
+*** It's accepting an .img image of Chromium.
+*** It's rejected two .iso images of Linux.
+    They were Xubuntu and Lubuntu.
+* how, supposedly
+** PITFALL: Some guides omit the "enable debugging features" part.
+** Enable debugging features.
+   I only managed to do this via a "paperwash",
+   which erases all user data.
+   I got there by running C-S-M-r from the right place --
+   the login screen with my face on it, I think.
+** Enable USB booting.
+   In ChromeOS, after enabling Developer Mode,
+   open crosh (the ChromeOS shell) with C-M-t.
+   It opens in the browser but that's okay.
+   Run "shell" to get a normal shell in it.
+   Run "sudo enable_dev_usb_boot".
+   It should say "successful" and explain how to boot from USB.
+** Reboot, and from the "developer screen" (huh?) press Ctrl-U while the USB drive is plugged in.

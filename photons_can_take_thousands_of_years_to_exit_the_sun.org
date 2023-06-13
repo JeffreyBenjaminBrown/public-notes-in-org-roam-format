@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       53bb14ac-10c1-4143-8068-861d36272115
+:END:
+#+title: Photons can take thousands of years to exit the sun.
+* ref
+  https://www.abc.net.au/science/articles/2012/04/24/3483573.htm#:~:text=A%20photon%20of%20light%20takes,at%20the%20speed%20of%20light.
+* the idea
+  It's not exactly the same photon.
+  In the sun's core, gamma rays exit something,
+  enter something else, and then get re-radiated out again.
+* That chain reaction starts with gamma rays, but they can (and usually do?) then work their way down to lower-energy particles.

@@ -1,10 +1,10 @@
 :PROPERTIES:
 :ID:       4511acb9-5575-4405-b7af-02a346b024e3
 :END:
-#+title: The Three-Body Problem (novel)
-* RESUME at
-  “Predicting the sun’s motion is only possible in Zhao Ge, for that is where yin and yang
-meet. Only the lots cast there are accurate.”
+#+title: The Three-Body Problem, novel by Liu Cixin
+* things I learned
+** [[id:53bb14ac-10c1-4143-8068-861d36272115][Photons can take thousands of years to exit the sun.]]
+** [[id:4b2e2d65-e997-4757-a334-2e9ac112f4ab][environmental degradation in 20th-century China]]
 * characters
 ** Red Union
 ** Red Guards
@@ -16,6 +16,10 @@ meet. Only the lots cast there are accurate.”
    The murdered physics professor.
 ** Ye Wenjie
    Daughter of the murdered physics prof and his prof wife who went crazy.
+   Chose in the 60s to stay forever at Red Coast (military) Base.
+   Yang Dong's mother.
+   Appeared in Beijing at the start of the 90s,
+   where she began teaching astrophysics at Tsinghua.
 ** Ye Wenxue
    Wenjie's sister, who enthusiastically ratted out their father.
 ** Bai Mulin
@@ -27,15 +31,23 @@ meet. Only the lots cast there are accurate.”
 ** Cheng Lihua
    The military representative from the Intermediate People’s Court.
    Received Ye Wenjie as prisoner.
-** Political Commissar Lei Zhicheng of Red Coast Base
+** Lei Zhicheng, Political Commissar of Red Coast Base
    One of the two PLA guys who took Wenjie by helicopter
    after Cheng Lihua nearly froze her to death.
+*** This seems to have been an act designed by Yang and Lei:
+     As Ye Wenjie became important at the base,
+     he went from cold to warm toward her.
 ** Yang Weining, base chief engineer of Red Coast Base
    One of the two PLA guys who took Wenjie by helicopter
    after Cheng Lihua nearly froze her to death.
    Was one of Ye Zhetai's grad students.
    It was his idea to take her to work
    on the Red Coast national defense project.
+*** This seems to have been an act designed by Yang and Lei:
+    He began as Ye Wenjie's only friend at the base,
+    but needed to use her "as a punching bag"
+    to protect his own ideological credentials.
+    Caught Lei Zhicheng telling Ye what the base was for (cooking satellites).
 ** Wang Miao
    Professor, "invited" by 2 cops and 2 soldiers to Battle Command Center.
    Uses handle "Hairen" in the Three Body Problem VR game.
@@ -46,15 +58,16 @@ meet. Only the lots cast there are accurate.”
    then invited him to Battle Command Center.
    Used torture; kicked out of the army.
    Convinced Wang Miao to spy on the Frontiers of Science.
-*** drives a black Volkswagen Santana
+   Drives a black Volkswagen Santana.
 ** Frontiers of Science
    a legal group of influential academics,
    interested in the limits of scientific understanding.
-** major general Chang Weisi
+** Chang Weisi, major general
 ** Yang Dong
+   Ye Wenjie's daughter.
    Young female string theorist, the first whose theories would be
    tested by Sinotron II.
-   Refuses media interviews.
+   Refused media interviews.
    Committed suicide, contemporaneously with numerous other scientists.
 ** Ding Yi
    Scientist, boyfriend of the late Yang Dong.
@@ -62,8 +75,7 @@ meet. Only the lots cast there are accurate.”
    Member of the Frontiers of Science.
    Wei Cheng's wife.
    "A Japanese physicist of Chinese descent who currently works for a Japanese company here in Beijing," said Wang Miao. She introduced Wang to others.
-   Invited Wang Miao to her place when he said he needed help with an unspecified mystery (the numbers counting down on pictures he took).
-   Maybe controls the numbers Wang Miao sees.
+   Invited Wang Miao to her place when he said he needed help with an unspecified mystery (the numbers counting down on pictures he took). Suggested he look at the cosmic microwave background radiation. Said she didn't know what happens when the countdown ends.
 ** Wei Cheng
    Shen Yufei's husband.
    Does mysterious work at home with an expensive workstation.
@@ -71,8 +83,8 @@ meet. Only the lots cast there are accurate.”
    "One of the most prominent members of the Frontiers of Science."
    "A biologist, he had successfully predicted the birth defects associated with long-term consumption of genetically modified foods ... [and] the ecological disasters that would come with cultivation of genetically modified crops"
    "created China’s first experimental community", Pastoral China, who own no property and subsist on trash
-** King Wen
-   In the 3-body VR game.
+** King Wen (game) = Ji Chang (reality)
+   In Wang Miao's first play of the 3-body VR game.
    A "genius", according to Follower of King Wen.
    Traveling to Zhao Ge to give an accurate calendar to King Zhou.
 ** Follower of King Wen
@@ -83,6 +95,26 @@ meet. Only the lots cast there are accurate.”
 ** King Zhou
    In the 3-body VR game.
    A "tyrant", according to King Wen.
+** Fu Xi
+   Man in black in the pyramid next to King Zhou.
+   Trid to calm the sun god with giant pendulums.
+** Sha Ruishan
+   "Astronomer, one of Ye Wenjie’s students."
+   Let Wang Mao see the CMBR, thought it would be nothing, got scared.
+** Xu Bingbing, cop, computer specialist
+   from the Information Security Division.
+   Introduced to Wang Miao by Shi Qiang
+** Mike Evans
+   American, son to a billionaire, inherits most of an oil company.
+   Founder of the ETO.
+   Hid his Adventist nature from Ye Wenjie.
+** ETO = Earth-Trisolaris Organization
+   """
+   The Adventists would like to destroy the human race by means of an alien power;
+   the Redemptionists worship the alien civilization as a god;
+   the Survivors wish to betray other humans to buy their own survival.
+   """
+** Colonel Stanton, US Marine Corp
 * events
 ** Cultural Revolution
    started in 1966
