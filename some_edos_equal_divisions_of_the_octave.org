@@ -989,7 +989,7 @@ Pr.pPrint ( take 30 $ drop 90
 ** TODO [[id:1f784184-6b15-4f5c-8b9a-6ba5d4396c71][109 7 19: 15-lim (+23.31) 0-area 5x7, octave (5,2)]]
    but the thirds are awkward
 ** TODO [[id:f54b7c5d-4de7-4e43-9f02-7b68e73d1560][58 3 11: 31-lim 5x9. Awkward 9%8, 4%3.]]
-** [[id:0a03fd77-89f2-4fdd-b882-ef5b7d4a24d4][62 3 14: 15-lim 0-area 4x7 (or 4x4 without 13), 31-lim 4x11 (or 4x8 without 21.23), balanced octave (4,2)]]
+** TODO [[id:fc5d6b28-9d85-42cd-832e-82dbe5d51018][3\62 x 14\62 (isomorphic pitch layout)]]
 ** [[id:f5f00095-e006-45c5-9b0a-c6a9507a9dd5][135 10 23 15-lim +19.21.27 0-area 5x7, octave (5,2), sans unisons]]
 ** [[id:0460e2ac-6017-4932-814a-70cb14054434][116 11 24: 15-lim 0-area of 3x8, octave (3,4)]]
 ** [[id:f4377552-4437-48a2-abe5-9af484164ec5][87 2 17: 31-lim 5x12; drop 23.29.25.19 to trim 5 frets]]
@@ -1530,53 +1530,7 @@ This is on the Xen Wiki.
 * 60-edo : a great 31-limit flat system
 ** Exception: the 11:8 is 8c sharp.
 ** TODO [[id:44847515-dc3f-4017-9c41-8c63d635b7e4][7\60 x 2\60d]]: 15-lim 5x8, octave 8-2, great dom7
-* 62-edo
-  62 beats 31 in that the 13/8 is flat instead of sharp,
-  a little closer, but playing much better with the others.
-** 62 3 14: 15-lim 0-area 4x7 (or 4x4 without 13), 31-lim 4x11 (or 4x8 without 21.23), balanced octave (4,2)
-   :PROPERTIES:
-   :ID:       0a03fd77-89f2-4fdd-b882-ef5b7d4a24d4
-   :END:
-*** layout sucks
-    The jump from (4:3) to (3:2) is different than the 9:8, and really wide.
-    And the span of an m7 is 5x6. (M7 is much nicer.)
-*** layout
-62 steps; 2  % 1 ;  string 4 ; fret 2
-36 steps; 3  % 2 ;  string 3 ; fret -2
-20 steps; 5  % 4 ;  string 1 ; fret 2
-50 steps; 7  % 4 ;  string 4 ; fret -2
-11 steps; 9  % 8 ;  string 1 ; fret -1
-28 steps; 11 % 8 ;  string 2 ; fret 0
-43 steps; 13 % 8 ;  string 2 ; fret 5
-56 steps; 15 % 8 ;  string 4 ; fret 0
-5  steps; 17 % 16 ; string 1 ; fret -3
-15 steps; 19 % 16 ; string 0 ; fret 5
-24 steps; 21 % 16 ; string 0 ; fret 8
-32 steps; 23 % 16 ; string 1 ; fret 6
-40 steps; 25 % 16 ; string 2 ; fret 4
-47 steps; 27 % 16 ; string 4 ; fret -3
-53 steps; 29 % 16 ; string 4 ; fret -1
-59 steps; 31 % 16 ; string 4 ; fret 1
-** 8\62 x 3\62
-  15 steps; 19 % 16; string 3; fret -3
-  50 steps; 7  % 4;  string 7; fret -2
-
-  00 steps; 1  % 1;  string 0; fret 0
-  05 steps; 17 % 16; string 1; fret -1
-  11 steps; 9  % 8;  string 1; fret 1
-  24 steps; 21 % 16; string 3; fret 0
-  32 steps; 23 % 16; string 4; fret 0
-  40 steps; 25 % 16; string 5; fret 0
-  43 steps; 13 % 8;  string 5; fret 1
-  53 steps; 29 % 16; string 7; fret -1
-  56 steps; 15 % 8;  string 7; fret 0
-  59 steps; 31 % 16; string 7; fret 1
-  62 steps; 2  % 1;  string 7; fret 2
-
-  20 steps; 5  % 4;  string 1; fret 4
-  28 steps; 11 % 8;  string 2; fret 4
-  36 steps; 3  % 2;  string 3; fret 4
-  47 steps; 27 % 16; string 4; fret 5
+* [[id:1f44680e-4df0-4bfb-9197-f3afe1c74c90][62-edo]]
 * 63-edo
 ** 6\63 x 1\63 -- surprisingly, Lumatone-feasible
 *** I can reach an octave!

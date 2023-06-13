@@ -9,7 +9,7 @@
   :END:
 ** Enough to break if they're in bubble wrap.
 * check for [[id:4b63fbab-a664-43e1-9a45-b49b8dbdb4bc][disk errors]]
-* formats: compatibility, capacity, maybe speed
+* disk drive formats: compatibility, capacity, maybe speed
   :PROPERTIES:
   :ID:       8285b7f2-ce8d-4601-9f0a-5c95a11223e4
   :END:

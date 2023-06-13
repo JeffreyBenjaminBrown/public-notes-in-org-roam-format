@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       32a4999b-9793-4d6d-bc53-d6682d78ede8
+:END:
+#+title: LLMs taking jobs, Washington Post, 2023-06-02
+* ref
+  https://www.washingtonpost.com/technology/2023/06/02/ai-taking-jobs
+* The work affected is basically copywriters.
+* my description on Facebook, with quotes from the article
+  On the jobs ChatGPT is destroying.
+
+  "Those who write marketing and social media content are in the first wave of people being replaced with tools such as chatbots ... Experts say that even advanced AI doesn’t match the writing skills of a human: It lacks personal voice and style, and it often churns out wrong, nonsensical or biased answers. But for many companies, the cost-cutting is worth a drop in quality ... High-level legal analysis, creative writing or art may not be as easily replaceable ..."
+
+  The article is mostly panicky. They don't mention that the unemployment rate in now-industrialized countries over the long term don't seem to go much of anywhere, nor the idea that freeing up human labor from repetitive, uncreative writing tasks might be a good thing.
+
+  But this particular technological disruption is much more abrupt than previous ones were. All kinds of governments have for as long as I can remember made all kinds of promises about helping displaced workers reskill and find new jobs, and there are like two countries in the world (Sweden and Norway, I think) that actually do a good job of it.

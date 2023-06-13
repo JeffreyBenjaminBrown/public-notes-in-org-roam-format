@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       bb9b81aa-0750-42ff-a645-57e8b9e00be4
+:END:
+#+title: The Dark Forest, novel by Liu Cixin
+* RESUME at
+  pdf 25
+  Zhang Yuanchao heard someone enter the living room withou
+* Chinese idioms
+** Prefixing "Miao" renders a name affectionately.
+** Prefixing "Lao"  renders a name respectfully.
+* characters
+** Dr. Ye
+** Luo Ji (affectionately "Xiao Luo")
+   Told Ye Wenjie he "went to high school with Yang Dong".
+   Invented cosmic sociology with her help.
+** Yu Wue, commander, captain
+   One of the two commanders of the Tang.
+   Cannot read Zhang Beihai.
+** Zhang Beihai, commander, political commisar
+   One of the two commanders of the Tang.
+   Can read Yu Wue and everyone else easily [believes Yu Wue?].
+   His father was briefly superior office to both him and Yu Wue.
+** _ Raeder, Target Screening Officer
+   working "in the Nuclear Missile Defense Control Room at NORAD"
+** _ Jones, Orbital Monitor
+   working "in the Nuclear Missile Defense Control Room at NORAD"
+** _ Fitzroy, General
+   at NORAD Missile Defense
+** Zhang Yuanchao
+   Retired checmical plant worker.
+   Intentionally politically ignorant until aliens made him care.
+** Yang Jinwen
+   Zhang Yuanchao's neighbor.
+   Cared about politics until the aliens made him fatalistic.
+** Miao Fuquan
+   Zhang Yuanchao's neighbor.
+   Shanxi coal boss.
+** the Second Wallbreaker
+   Talks to the sophon.
+   Prompted by it, plans to carry out a mission against the wallfacer project
+   that Mike Evans tried to issue him.
+* things
+** Tang warship
+   Chinese
+** NORAD Command Center, three hundred meters beneath Cheyenne Mountain near Colorado Springs.
+   for missiles

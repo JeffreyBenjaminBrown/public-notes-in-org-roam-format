@@ -35,8 +35,4 @@
 * [[id:799c16f7-07d2-43d0-b370-d4871807a73b][Default recording behavior]]
 * [[id:d77f251e-aba2-48ac-9b1e-cce5f88f9679][Items and takes can be assigned colors.]]
 * whether to report possible "audio underrun"s
-* Can configure what moves the "Play cursor"
-  :PROPERTIES:
-  :ID:       7561c9ad-d766-4fae-8475-9c6c5947b88f
-  :END:
-  see section "Managing the Play Cursor"
+* configuring what [[id:0400a382-afe4-4088-92fd-8b3fd85ac8ae][moves the play cursor \ Reaper]]

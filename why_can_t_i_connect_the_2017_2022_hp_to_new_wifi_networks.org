@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       92d62054-360b-415f-b203-93b65c31d9d0
+:END:
+#+title: Why can't I connect the 2017/2022 HP to new wifi networks?
+I couldn't, at least, to De Local's, <2023-06-09 Fri>.
