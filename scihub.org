@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       6349ce55-bd67-4f6b-8eba-167bc871003f
+:END:
+#+title: SciHub
+* Currently frozen.
+  No more uploads,
+  due to a years-long ongoing court case in India.

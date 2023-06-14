@@ -3,5 +3,5 @@
 :END:
 #+title: academia
 * [[id:1c241da8-8364-4e3b-8933-ff10d32d708b][If algebra in academic papers had significant whitespace, equations could be easier to read.]]
-* [[id:3a258a06-5242-4b0a-99a2-a083cd52a0ec][Library Genesis]]
+* [[id:43b4da04-7779-4f95-8bc5-371d3b8180f6][file-sharing, some sites]]
 * [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]

@@ -3,7 +3,8 @@
 :ROAM_ALIASES: "efficiency \\ jbb"
 :END:
 #+title: minor life optimizations
-* TODO Use [[id:ef1227a0-6fc0-47ce-8808-d49093efd46f][Nyxt browser]]
+* TODO [[id:41d0f186-1f92-48f0-a135-180f8d2dd9af][True Caller]] to block phone spam
+* TODO [[id:ef1227a0-6fc0-47ce-8808-d49093efd46f][Nyxt browser]]
 * [[id:90466cf1-acba-4f48-86b1-8c197250231c][Sioyek (PDF viewer)]] looks amazing.
 * try orgzly + (syncthing | Dropbox)
 * Vimium: browse the web from the keyboard

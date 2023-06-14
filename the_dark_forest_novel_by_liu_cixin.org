@@ -3,11 +3,13 @@
 :END:
 #+title: The Dark Forest, novel by Liu Cixin
 * RESUME at
-  pdf 25
-  Zhang Yuanchao heard someone enter the living room withou
+  pdf 35
+  e chief of a municipal antiterrorism squad, and now he’s
 * Chinese idioms
 ** Prefixing "Miao" renders a name affectionately.
 ** Prefixing "Lao"  renders a name respectfully.
+* acronyms
+** PDC = Planetary Defense Council
 * characters
 ** Dr. Ye
 ** Luo Ji (affectionately "Xiao Luo")
@@ -32,13 +34,18 @@
 ** Yang Jinwen
    Zhang Yuanchao's neighbor.
    Cared about politics until the aliens made him fatalistic.
-** Miao Fuquan
+** Fuquan _
    Zhang Yuanchao's neighbor.
    Shanxi coal boss.
 ** the Second Wallbreaker
    Talks to the sophon.
    Prompted by it, plans to carry out a mission against the wallfacer project
    that Mike Evans tried to issue him.
+** Shi Qiang
+   Shi Xiaoming's father.
+   works for the PDC's security department.
+** Shi Xiaoming
+   Shi Qiang's son.
 * things
 ** Tang warship
    Chinese

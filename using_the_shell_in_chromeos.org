@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8ffe2384-8b70-4190-8cdc-5bd23a8a4cf2
+:END:
+#+title: using the shell in ChromeOS
+* The useful shell is accessed from a [useless?] one.
+  C-M-t opens the "crosh" (ChromeOS shell) shell.
+  From within that, run "shell" to get a normal Bash shell.
