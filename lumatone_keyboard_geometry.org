@@ -8,7 +8,7 @@
 *** PITFALL: This picture LIES by 1.
 *** the image
     [[~/many-small/music-making/lumatone/2022-08-27-stl4uf7J.one-lumatone-octave.png]]
-** a black and white picture of the key region only, to print
+** a black and white hex diagram of the key region, with no numbers
    :PROPERTIES:
    :ID:       ccc2e12a-88bf-4f52-88a0-41a632f6c519
    :END:

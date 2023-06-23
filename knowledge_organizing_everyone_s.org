@@ -3,6 +3,7 @@
 :ROAM_ALIASES: information epistemology ontology "organizing knowledge"
 :END:
 #+title: knowledge graphs
+* [[id:8b6cc852-4f06-424f-86ec-582b35060f79][The information apocalypse solution I'm hoping for: Sign your writing, hash your citations, back-cite, and know who you're reading.]]
 * Sidney is using LinkML
   "which is quite young but so far wonderful for being able to combine relational data structures with semantic web stuff"
 * [[id:eaf57880-1c79-49ef-a8b3-b4e106e0ebb4][ideas for someone else]]

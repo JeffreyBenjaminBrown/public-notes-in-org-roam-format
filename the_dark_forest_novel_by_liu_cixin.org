@@ -2,26 +2,41 @@
 :ID:       bb9b81aa-0750-42ff-a645-57e8b9e00be4
 :END:
 #+title: The Dark Forest, novel by Liu Cixin
-* RESUME at
-  pdf 35
-  e chief of a municipal antiterrorism squad, and now he’s
 * Chinese idioms
 ** Prefixing "Miao" renders a name affectionately.
 ** Prefixing "Lao"  renders a name respectfully.
+** Prefixing "Xiao" renders a name diminutively.
 * acronyms
 ** PDC = Planetary Defense Council
-* characters
+* characters, in order of appearance
+  see also [[id:4511acb9-5575-4405-b7af-02a346b024e3][The Three-Body Problem]]
+** Chang Weisi
+   Was a general in the previous book.
+   Now commander of the Political Department of the Armed Forces of China.
+   Tasked with engendering faith in the soldiers.
 ** Dr. Ye
 ** Luo Ji (affectionately "Xiao Luo")
+   :PROPERTIES:
+   :ID:       fb8e38f9-848d-4430-85d3-f94fbe2a6904
+   :END:
    Told Ye Wenjie he "went to high school with Yang Dong".
    Invented cosmic sociology with her help.
-** Yu Wue, commander, captain
+   High-roller, academic.
+   Narrowly avoided death by car crash; his freshly-ex girlfriend didn't.
+   Took prisoner by Shi Qiang.
+** Wu Yue, commander, captain
    One of the two commanders of the Tang.
    Cannot read Zhang Beihai.
+   Zhang declared him unfit, due to defeatism, for the Space Force.
+   Then he resigned.
 ** Zhang Beihai, commander, political commisar
-   One of the two commanders of the Tang.
+   Was one of the two commanders of the Tang.
+   Soon moves to the Space Force.
    Can read Yu Wue and everyone else easily [believes Yu Wue?].
    His father was briefly superior office to both him and Yu Wue.
+   Declared Wu Yue unfit for the Space Force.
+   The only political officer to choose to work on
+   plans in the case of high-tech.
 ** _ Raeder, Target Screening Officer
    working "in the Nuclear Missile Defense Control Room at NORAD"
 ** _ Jones, Orbital Monitor
@@ -31,6 +46,12 @@
 ** Zhang Yuanchao
    Retired checmical plant worker.
    Intentionally politically ignorant until aliens made him care.
+   Blew 400,000 yuan (his life savings?) on an "escape fund" for his heirs,
+   right before escape was declared illegal by the UN,
+   with China's hearty agreement.
+** Zhang Yan
+   Zhang Yuanchao's grandson.
+
 ** Yang Jinwen
    Zhang Yuanchao's neighbor.
    Cared about politics until the aliens made him fatalistic.
@@ -42,10 +63,83 @@
    Prompted by it, plans to carry out a mission against the wallfacer project
    that Mike Evans tried to issue him.
 ** Shi Qiang
+   Da Shi from the previous book.
    Shi Xiaoming's father.
-   works for the PDC's security department.
+   Works for the PDC's security department.
 ** Shi Xiaoming
    Shi Qiang's son.
+   Swindled money, including from Zhang Yuanchao, to supposedly
+   send victims'great-grandchildren into space.
+   After prison and hibernation, went into business with Zhang Yan.
+** Zheng _
+   Is SHi Qiang his mentor?
+** Zhang Xiang ("Xiao Zhang")
+   Young soldier on military flight,
+   explaining protocol to Shi Qiang and Luo Ji (buckle up, etc.).
+   5 years later, looks much older, in charge of security at [?]
+** Bai Rong
+   An "author of young-adult novels."
+   Asked Luo Ji to write a novel,
+   whereupon he fell in love with the character he imagined.
+** _ Kent
+   "Liason to the PDC"
+   Old, experienced, decorous.
+   Received Luo Ji from Shi Qiang.
+   Running some kind of conference.
+** _ Say, UN Secretary General
+   Slight Phillipina woman.
+   Announced the Wallfacers.
+** the 4 Wallfacers
+*** Frederick Tyler
+    Former US secretary of defense.
+    Theorized famously that tech reduces the advantages of big countries.
+*** Manuel Rey Diaz
+    President of Venezuela.
+    Through socialism, brought "equality, justice and prosperity" to Venezuela.
+    THe rest of Latam followed suit. The US invaded Venezuela.
+    Through asymmetric warfare (guerillas hidden among ordinary citizens),
+    Venezuela won.
+*** Bill Hines
+    English, refined.
+    Discovered quantum phenomena matter to thought.
+    Later in life was president of the EU.
+*** [[id:fb8e38f9-848d-4430-85d3-f94fbe2a6904][Luo Ji]]
+** _ Garanin
+   Russian. Chair of the PDC when Luo Ji becomes a Wallfacer.
+** Qin Shi Huang
+   Leading in the virtual 3-body world.
+** the 4 Wallbreakers
+   announced by Qin Shi Huang
+*** Von Neumann, assigned to Frederick Tyler
+*** Mozi, assigned to Manuel Rey Diaz
+    Arrogant.
+*** Aristotle, assigned to Bill Hines
+    Arrogant.
+*** "Luo Ji is his own Wallbreaker."
+** Dr. _ Allen
+   Director at Los Alamos.
+** Keiko Yamasuki
+   Married to Bill Hines.
+** Koichi Inoue, defense chief (Japan?)
+** William Cosmo
+   Astrophysicist.
+** Zhuang Yan
+   The woman Shi Qiang found after Luo Ji described her.
+** Ding Yi
+   In the last book, boyfriend of the late Yang Dong.
+   Running a controlled fusion project.
+** Albert Ringier, Hubble II astronomer
+** Kuhn and Robinson
+   Like Ringier and Fitzroy, for whom the new giant telescope is named,
+   the scientist-military pair currently (year 200-ish) running the telescope.
+** Natural Selection's leadership, some of
+*** ex-captain Dongfang Yanxu
+    Captain of the Natural Selection space warship.
+    Tall spaceborn female.
+    Gave temporary control to Zhang Beihai
+*** Acting Captain Zhang Beihai
+*** First  Vice-Captain _ Levine
+*** Second Vice-Captain Akira Inoue
 * things
 ** Tang warship
    Chinese

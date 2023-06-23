@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a5a69d4a-20d2-44e7-94f0-d02636159b86
+:END:
+#+title: aggregate using different stats across columns in Pandas
+( df
+  . groupby ( ["dept code"] )
+  . agg ( { "dept code"  : "first",
+            "muni count" : sum } ) )

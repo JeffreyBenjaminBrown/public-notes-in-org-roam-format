@@ -48,6 +48,7 @@
 ** choose options for the base command
    So far I like
 *** -f : fast, i.e. without writing a ton of zeroes
+**** PITFALL: Available for NTFS and not ExFAT.
 ** base commands to choose from
    Choose based on [[id:8285b7f2-ce8d-4601-9f0a-5c95a11223e4][formats: compatibility, capacity, maybe speed]].
    sudo mkfs.ext4  /dev/sdxnjjj  # ExFAT is the default for Linux.

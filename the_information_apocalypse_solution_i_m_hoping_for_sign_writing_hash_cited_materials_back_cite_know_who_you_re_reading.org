@@ -1,0 +1,58 @@
+:PROPERTIES:
+:ID:       8b6cc852-4f06-424f-86ec-582b35060f79
+:END:
+#+title: The information apocalypse solution I'm hoping for: Sign your writing, hash your citations, back-cite, and know who you're reading.
+* outline
+** As a writer
+*** Sign your statements.
+    If you say something, sign it, so that others know you said it. Crypto is good at this.
+*** Hash your citations.
+    If you cite something, include a hash of it. This way, if the thing you cited is altered, readers can tell that that's not what you were citing. Note that this idea can be applied to audio and video, not just text.
+** As a reader
+*** Read (i.e. consider) citations.
+*** Read (i.e. consider) the sources of evidence you ingest.
+    Don't just find a video and believe it happened. Determine who has claimed to have witnessed those events.
+    For this, a public database of back-references might be helpful. But even without one, a decentralized solution is possible. Writers, whenever they cite something, could simply send their citation (and its context) to the author of the cited material. If the cited author attaches the back-citation to the content that was cited, then anyone who comes across the content can see who has cited it.
+    There is of course the problem that some back-citations will be rejected -- if you cite what I wrote to call it stupid, I am unlikely to want to share that fact with the world. But if what I wrote is sufficiently important, then hopefully someone will waht to host a "nemesis" site, which collects negative citations.
+    A public database of nemesis sites would be helpful.
+*** Read (i.e. consider) the reputations of authors you read.
+    This is nearly the reverse of the last point. When deciding whether to believe what someone has said, consider what else they have said.
+    This is of course a hard problem. An author might be qualified in one area and writing about another. An author's reputation might be damaged for extrinsic (e.g. malice) reasons, rather than intrinsic ones.
+    But a statement's author is too important a context to ignore.
+*** Do cool graph traversal investigations.
+    Determine who someone tends to cite. Identify misinformation cliques -- close-knit collections of liars who all cite each other. Identify readership patterns that make people productive.
+    We have seen how social network information can make a corporation money. As a society, I suspect there is a similar amount of value to be extracted from them.
+* as written for HN
+  https://news.ycombinator.com/item?id=36419864
+** content
+Here's an elaboration of what I mean.
+
+Writers should adopt two habits: (1) Sign your statements. If you say something, sign it, so that others know you said it. Cryptography is good at this. (2) Hash your citations. If you cite something, include a hash of it. This way, if the thing you cited is altered, readers can tell that that's not what you were citing. Note that this idea can be applied to audio and video, not just text.
+
+The rest of the responsibility falls on readers:
+
+(1) Read (i.e. consider) citations.
+
+(2) Read (i.e. consider) the sources of evidence you ingest.
+
+Don't just find a video and believe it happened. Determine who has claimed to have witnessed those events.
+
+For this, a public database of back-references might be helpful. But even without one, a decentralized solution is possible. Writers, whenever they cite something, could simply send their citation (and its context) to the author of the cited material. If the cited author attaches the back-citation to the content that was cited, then anyone who comes across the content can see who has cited it.
+
+There is of course the problem that some back-citations will be rejected -- if you cite what I wrote to call it stupid, I am unlikely to want to share that fact with the world. But if what I wrote is sufficiently important, then hopefully someone will waht to host a "nemesis" site, which collects negative citations.
+
+A public database of nemesis sites would be helpful.
+
+(3) Read (i.e. consider) the reputations of authors you read.
+
+This is nearly the reverse of the previous bullet point. When deciding whether to believe what someone has said, consider what else they have said.
+
+This is of course a hard problem. An author might be qualified in one area and writing about another. An author's reputation might be damaged for extrinsic (e.g. malice) reasons, rather than intrinsic ones.
+
+But a statement's author is too important a context to ignore.
+
+(4) Do cool graph-traversing investigations.
+
+Determine who someone tends to cite. Identify misinformation cliques -- close-knit collections of liars who all cite each other. Identify readership patterns that make people productive.
+
+We have seen how social network information can make a corporation money. As a society, I suspect there is a similar amount of value to be extracted from them.

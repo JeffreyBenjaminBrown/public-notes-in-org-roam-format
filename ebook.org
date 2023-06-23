@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       955459fe-7131-4eb6-8b14-30693681689e
+:END:
+#+title: ebook
+* ebook formats, which (seem to) work best where
+** .epub : good for Kindle and in ReadEra (Android)
+** .mobi : good for Okular (Linux)
+* [[id:26c16e5b-3f26-4101-b9bf-9a23dd93c921][Kindle, Amazon]]
