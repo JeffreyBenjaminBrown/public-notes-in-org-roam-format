@@ -64,6 +64,9 @@
    interested in the limits of scientific understanding.
 ** Chang Weisi, major general
 ** Yang Dong
+   :PROPERTIES:
+   :ID:       47eac742-c6f3-4a25-8754-6df31e7ed94b
+   :END:
    Ye Wenjie's daughter.
    Young female string theorist, the first whose theories would be
    tested by Sinotron II.

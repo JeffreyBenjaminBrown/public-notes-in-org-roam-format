@@ -1292,6 +1292,7 @@ Notice in particular how natural the dominant 9th chord is in root position:
    27 steps;  2 % 1; string 3; fret 1
 ** In the 7-limit it's an extremely sharp system.
 ** [[id:b98176fc-85fb-4274-a248-21ec9ab6a65a][27-edo is fat-finger friendly with 54-edo.]]
+* [[id:5e4745df-4597-4590-9f2e-15fd035ae932][29-edo]]
 * [[id:c7a620a4-f012-4a8e-bd19-193c303f0e5c][31-edo]]
 * [[id:7dd9c689-51f9-45da-bbd1-d3068615917a][34-edo]]
 * [[id:cc55ed71-fd36-415e-9a06-ba997d79ebb6][37-edo]]

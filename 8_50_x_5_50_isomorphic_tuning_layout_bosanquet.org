@@ -1,0 +1,56 @@
+:PROPERTIES:
+:ID:       6eb71ea4-16fa-42ae-bc86-bec472e56931
+:END:
+#+title: 8\50 x 5\50 isomorphic tuning layout (Bosanquet)
+* aspects
+  mandolin-feasible (10-edo)
+  area 6x7 in 31-limit
+  5x4 in 15-limit
+* tag
+  :PROPERTIES:
+  :ID:       018190fb-340f-4e9e-9258-24350eecfc0b
+  :END:
+* diagram
+  MTV> myPrint $ map concat $ printLayout (primesOctave1 29) (show . numerator) 50 (8,5)
+
+
+   1  9  5  - 25  7  -  -  -  -  - 27  - 17 19 21  -  -  -  -  -
+   -  -  -  3  - 15  -  -  -  - 13 29  -  -  -  -  -  -  -  -  -
+   -  - 23  -  -  1  9  5  - 25  7  -  -  -  -  - 27  - 17 19 21
+   - 11  -  -  -  -  -  -  3  - 15  -  -  -  - 13 29  -  -  -  -
+  21  -  -  -  -  -  - 23  -  -  1  9  5  - 25  7  -  -  -  -  -
+   -  -  -  -  -  - 11  -  -  -  -  -  -  3  - 15  -  -  -  - 13
+   - 27  - 17 19 21  -  -  -  -  -  - 23  -  -  1  9  5  - 25  7
+  13 29  -  -  -  -  -  -  -  -  - 11  -  -  -  -  -  -  3  - 15
+   7  -  -  -  -  - 27  - 17 19 21  -  -  -  -  -  - 23  -  -  1
+  15  -  -  -  - 13 29  -  -  -  -  -  -  -  -  - 11  -  -  -  -
+   1  9  5  - 25  7  -  -  -  -  - 27  - 17 19 21  -  -  -  -  -
+   -  -  -  3  - 15  -  -  -  - 13 29  -  -  -  -  -  -  -  -  -
+   -  - 23  -  -  1  9  5  - 25  7  -  -  -  -  - 27  - 17 19 21
+   - 11  -  -  -  -  -  -  3  - 15  -  -  -  - 13 29  -  -  -  -
+  21  -  -  -  -  -  - 23  -  -  1  9  5  - 25  7  -  -  -  -  -
+   -  -  -  -  -  - 11  -  -  -  -  -  -  3  - 15  -  -  -  - 13
+   - 27  - 17 19 21  -  -  -  -  -  - 23  -  -  1  9  5  - 25  7
+  13 29  -  -  -  -  -  -  -  -  - 11  -  -  -  -  -  -  3  - 15
+   7  -  -  -  -  - 27  - 17 19 21  -  -  -  -  -  - 23  -  -  1
+  15  -  -  -  - 13 29  -  -  -  -  -  -  -  -  - 11  -  -  -  -
+   1  9  5  - 25  7  -  -  -  -  - 27  - 17 19 21  -  -  -  -  -
+
+* table
+  00 steps; 01 % 01 ; string 0 ; fret 0
+  04 steps; 17 % 16 ; string 3 ; fret - 4
+  08 steps; 09 % 08 ; string 1 ; fret 0
+  12 steps; 19 % 16 ; string 4 ; fret - 4
+  16 steps; 05 % 04 ; string 2 ; fret 0
+  20 steps; 21 % 16 ; string 5 ; fret - 4
+  23 steps; 11 % 08 ; string 1 ; fret 3
+  26 steps; 23 % 16 ; string 2 ; fret 2
+  29 steps; 03 % 02 ; string 3 ; fret 1
+  32 steps; 25 % 16 ; string 4 ; fret 0
+  35 steps; 13 % 08 ; string 5 ; fret - 1
+  38 steps; 27 % 16 ; string 6 ; fret - 2
+  40 steps; 07 % 04 ; string 5 ; fret 0
+  43 steps; 29 % 16 ; string 6 ; fret - 1
+  45 steps; 15 % 08 ; string 5 ; fret 1
+  48 steps; 31 % 16 ; string 6 ; fret 0
+  50 steps; 02 % 01 ; string 5 ; fret 2

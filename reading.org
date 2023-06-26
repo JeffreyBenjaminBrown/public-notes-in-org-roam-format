@@ -16,7 +16,7 @@
    but rather to act in accordance with them.)
 * [[id:d5585db3-ac97-426f-8455-c7a2b3dcee93][audiobook services]]
 * material to absorb
-** [[id:bb9b81aa-0750-42ff-a645-57e8b9e00be4][The Dark Forest, novel by Liu Cixin]]
+** [[id:0c4d2228-2f6e-47d7-a678-79620ce812dc][Death's End, novel by Liu Cixin]]
 ** [[id:2a435ecf-ddb5-4822-b52f-0667a02ac52c][Good conversation has lots of doorknobs.]]
    the discussion on Hacker News
 ** books Luke loved
@@ -135,6 +135,7 @@
 ** Krugman's NYT email newsletter catalog
    https://www.nytimes.com/column/paul-krugman
 * DONE
+** [[id:bb9b81aa-0750-42ff-a645-57e8b9e00be4][The Dark Forest, novel by Liu Cixin]]
 ** [[id:4511acb9-5575-4405-b7af-02a346b024e3][The Three-Body Problem (novel by Liu Cixin)]]
 ** [[id:3bd5a869-0c8a-4fb5-8db0-b64cf783592e][Isaac Asimov, The Last Questioan (short story)]]
 ** [[id:ec8a113b-44d9-495f-acc9-e6e7c714d5bf][The Economic Organization of a POW Camp, by R. A. Radford]]

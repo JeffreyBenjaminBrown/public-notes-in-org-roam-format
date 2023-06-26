@@ -85,27 +85,7 @@
     and 8 frets in the full 31-limit.
 *** Octaves at (5,0) and (2,10)
     The second is almost exactly the same fret-span as a 12-edo octave: 10/16.3333 - 7/12 = about 0.029.
-** TODO 8\50 x 5\50: Bosanquet, mandolin-feasible (10-edo), area 6x7 in 31-limit, 5x4 in 15-limit, octave (5,2)
-   :PROPERTIES:
-   :ID:       018190fb-340f-4e9e-9258-24350eecfc0b
-   :END:
-   00 steps; 01 % 01 ; string 0 ; fret 0
-   04 steps; 17 % 16 ; string 3 ; fret - 4
-   08 steps; 09 % 08 ; string 1 ; fret 0
-   12 steps; 19 % 16 ; string 4 ; fret - 4
-   16 steps; 05 % 04 ; string 2 ; fret 0
-   20 steps; 21 % 16 ; string 5 ; fret - 4
-   23 steps; 11 % 08 ; string 1 ; fret 3
-   26 steps; 23 % 16 ; string 2 ; fret 2
-   29 steps; 03 % 02 ; string 3 ; fret 1
-   32 steps; 25 % 16 ; string 4 ; fret 0
-   35 steps; 13 % 08 ; string 5 ; fret - 1
-   38 steps; 27 % 16 ; string 6 ; fret - 2
-   40 steps; 07 % 04 ; string 5 ; fret 0
-   43 steps; 29 % 16 ; string 6 ; fret - 1
-   45 steps; 15 % 08 ; string 5 ; fret 1
-   48 steps; 31 % 16 ; string 6 ; fret 0
-   50 steps; 02 % 01 ; string 5 ; fret 2
+** TODO [[id:6eb71ea4-16fa-42ae-bc86-bec472e56931][8\50 x 5\50 (Bosanquet)]]
 ** 7\50 5\50: mandolin-feasible, area 6x4
             [ 0 steps; 1 % 1 ; string 0 ; fret 0
             , 50 steps; 2 % 1 ; string 5 ; fret 3
