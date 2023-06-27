@@ -29,6 +29,10 @@
      37 steps; 7  % 4; string 3; fret -1
      42 steps; 15 % 8; string 4; fret -5
      46 steps; 2  % 1; string 4; fret -3
+* TODO try these
+  PITFALL: They might already be recorded elsewhere in these notes.
+** [[id:32ad2d8b-9f62-429b-8f51-fca2007ac2b2][5\46r x 3\46d x 8\46dr isomorphic instrument layout]]
+** [[id:deaf105a-a10f-449a-b6ec-1afa1a1324b7][6\46r x 1\46u x 5\46dr isomorphic instrument layout]]
 * layouts
 ** 9\46 x 13\46u: weird, super-flat
 *** pic
@@ -194,16 +198,6 @@
      , 37 steps; 7 % 4;  string 7; fret 1
      , 42 steps; 15 % 8; string 8; fret 1
      , 46 steps; 2 % 1;  string 8; fret 3
-*** TODO 5\46 x 3\46: Tight, flat, many off-axis harmonics
-    [ 0  steps; 1 % 1;  string 0; fret 0
-    , 8  steps; 9 % 8;  string 1; fret 1
-    , 15 steps; 5 % 4;  string 3; fret 0
-    , 21 steps; 11 % 8; string 3; fret 2
-    , 27 steps; 3 % 2;  string 3; fret 4
-    , 32 steps; 13 % 8; string 4; fret 4
-    , 37 steps; 7 % 4;  string 5; fret 4
-    , 42 steps; 15 % 8; string 6; fret 4
-    , 46 steps; 2 % 1;  string 8; fret 2
 *** 5\46 left x 4\46 down: tight but way diagonal
     [ 0  steps; 1 % 1;  string 0; fret 0
     , 8  steps; 9 % 8;  string 0; fret 2
@@ -234,16 +228,6 @@
     , 46 steps; 2 % 1;  string 5; fret 3 -- octave
     , 37 steps; 7 % 4;  string 6; fret 1
     , 42 steps; 15 % 8; string 7; fret 1
-*** 5\46 x 8\46: flat, weird
-    [ 27 steps; 3 % 2;  string -1; fret 4
-    , 0  steps; 1 % 1;  string 0; fret 0
-    , 8  steps; 9 % 8;  string 0; fret 1
-    , 32 steps; 13 % 8; string 0; fret 4
-    , 21 steps; 11 % 8; string 1; fret 2
-    , 37 steps; 7 % 4;  string 1; fret 4
-    , 42 steps; 15 % 8; string 2; fret 4
-    , 15 steps; 5 % 4;  string 3; fret 0
-    , 46 steps; 2 % 1;  string 6; fret 2
 *** 5\46 x 9\46: skew, weird
     [ 21 steps; 11 % 8; string -3; fret 4
     , 8  steps; 9 % 8;  string -2; fret 2
