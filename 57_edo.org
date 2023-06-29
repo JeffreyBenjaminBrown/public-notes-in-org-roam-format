@@ -32,7 +32,7 @@
   30 steps = 23 % 16 : string 0   fret 6
   49 steps = 29 % 16 : string 3   fret - 1
   54 steps = 31 % 16 : string 3   fret 0
-* TODO 57 6 13: wider than narrow Kite, 5 fret span in 19-limit, meantone
+* TODO 6\57 x 13\57: wider than narrow Kite, 5 fret span in 19-limit, meantone
   :PROPERTIES:
   :ID:       c2561da4-a80a-4e1e-8f41-dd940e6ecb3c
   :END:
