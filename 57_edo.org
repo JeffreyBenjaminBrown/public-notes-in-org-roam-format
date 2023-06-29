@@ -1,0 +1,74 @@
+:PROPERTIES:
+:ID:       710f274b-5dcc-40e6-b8a0-e903fdafeacf
+:END:
+#+title: 57-edo
+* 57 = 3*19
+* harmonic approximations of 57-edo
+| ratio   |  cents | steps | approx |      error |
+| 3 % 2   |  702.0 |    33 |  694.7 | -7.2181396 |
+| 5 % 4   |  386.3 |    18 |  378.9 |  -7.366333 |
+| 7 % 4   |  968.8 |    46 |  968.4 | -0.4048462 |
+| 11 % 8  |  551.3 |    26 |  547.4 |  -3.949524 |
+| 13 % 8  |  840.5 |    40 |  842.1 |  1.5776367 |
+| 17 % 16 |  105.0 |     5 |  105.3 |  0.3077469 |
+| 19 % 16 |  297.5 |    14 |  294.7 |  -2.776184 |
+| 23 % 16 |  628.3 |    30 |  631.6 |  3.3045654 |
+| 29 % 16 | 1029.6 |    49 | 1031.6 |   2.001709 |
+| 31 % 16 | 1145.0 |    54 | 1136.8 |  -8.193359 |
+| 33 % 32 |   53.3 |     3 |   63.2 |   9.884953 |
+| 37 % 32 |  251.3 |    12 |  252.6 |  1.2875214 |
+| 41 % 32 |  429.1 |    20 |  421.1 |  -8.009735 |
+| 43 % 32 |  511.5 |    24 |  505.3 |  -6.254547 |
+
+* 5\57 x 18\57
+  57 steps =  2 %  1 : string 4   fret - 3
+  33 steps =  3 %  2 : string 1   fret 3
+  18 steps =  5 %  4 : string 1   fret 0
+  46 steps =  7 %  4 : string 2   fret 2
+  26 steps = 11 %  8 : string 2   fret - 2
+  40 steps = 13 %  8 : string 0   fret 8
+  05 steps = 17 % 16 : string 0   fret 1
+  14 steps = 19 % 16 : string - 2 fret 10
+  30 steps = 23 % 16 : string 0   fret 6
+  49 steps = 29 % 16 : string 3   fret - 1
+  54 steps = 31 % 16 : string 3   fret 0
+* TODO 57 6 13: wider than narrow Kite, 5 fret span in 19-limit, meantone
+  :PROPERTIES:
+  :ID:       c2561da4-a80a-4e1e-8f41-dd940e6ecb3c
+  :END:
+** good for keyboards. 9.5 frets per octave.
+   The only way to play a P4 is on the same string.
+** layout
+   57 steps = 2 % 1   : string 3   fret 3
+   33 steps = 3 % 2   : string 3   fret - 1
+   18 steps = 5 % 4   : string 0   fret 3
+   46 steps = 7 % 4   : string 4   fret - 1
+   26 steps = 11 % 8  : string 2   fret 0
+   40 steps = 13 % 8  : string 4   fret - 2
+   5 steps  = 17 % 16 : string - 1 fret 3
+   14 steps = 19 % 16 : string 2   fret - 2
+   30 steps = 23 % 16 : string 0   fret 5
+   49 steps = 29 % 16 : string 1   fret 6
+   54 steps = 31 % 16 : string 0   fret 9
+* TODO 7\57 x 4\57: 31 lim in 9x5 (and better*), octave 7-2 (Lumatone-flat)
+** (*) the better
+   Drop 23 and 25 to reduce height by 1.
+   Drop 17 to reduce width by 1.
+** layout
+ 05 steps; 17 % 16; string -1;  fret  3
+ 00 steps; 1  % 1;  string  0;  fret  0
+ 14 steps; 19 % 16; string  2;  fret  0
+ 18 steps; 5  % 4;  string  2;  fret  1
+ 22 steps; 21 % 16; string  2;  fret  2
+ 26 steps; 11 % 8;  string  2;  fret  3
+ 30 steps; 23 % 16; string  2;  fret  4
+ 10 steps; 9  % 8;  string  2;  fret -1
+ 33 steps; 3  % 2;  string  3;  fret  3
+ 37 steps; 25 % 16; string  3;  fret  4
+ 40 steps; 13 % 8;  string  4;  fret  3
+ 43 steps; 27 % 16; string  5;  fret  2
+ 46 steps; 7  % 4;  string  6;  fret  1
+ 54 steps; 31 % 16; string  6;  fret  3
+ 49 steps; 29 % 16; string  7;  fret  0
+ 57 steps; 2  % 1;  string  7;  fret  2
+ 52 steps; 15 % 8;  string  8;  fret -1

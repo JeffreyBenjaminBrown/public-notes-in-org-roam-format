@@ -1474,59 +1474,7 @@ This is on the Xen Wiki.
       , 9 steps; 9 % 8 ; string 1 ; fret - 2
       , 25 steps; 11 % 8 ; string 2 ; fret - 3
       , 39 steps; 13 % 8 ; string 2 ; fret - 1
-* 57-edo (57 = 3*19)
-** 57 5 18
-   57 steps =  2 %  1 : string 4   fret - 3
-   33 steps =  3 %  2 : string 1   fret 3
-   18 steps =  5 %  4 : string 1   fret 0
-   46 steps =  7 %  4 : string 2   fret 2
-   26 steps = 11 %  8 : string 2   fret - 2
-   40 steps = 13 %  8 : string 0   fret 8
-   05 steps = 17 % 16 : string 0   fret 1
-   14 steps = 19 % 16 : string - 2 fret 10
-   30 steps = 23 % 16 : string 0   fret 6
-   49 steps = 29 % 16 : string 3   fret - 1
-   54 steps = 31 % 16 : string 3   fret 0
-** 57 6 13: wider than narrow Kite, 5 fret span in 19-limit, meantone
-   :PROPERTIES:
-   :ID:       c2561da4-a80a-4e1e-8f41-dd940e6ecb3c
-   :END:
-*** good for keyboards. 9.5 frets per octave.
-    The only way to play a P4 is on the same string.
-*** layout
-  57 steps = 2 % 1   : string 3   fret 3
-  33 steps = 3 % 2   : string 3   fret - 1
-  18 steps = 5 % 4   : string 0   fret 3
-  46 steps = 7 % 4   : string 4   fret - 1
-  26 steps = 11 % 8  : string 2   fret 0
-  40 steps = 13 % 8  : string 4   fret - 2
-  5 steps  = 17 % 16 : string - 1 fret 3
-  14 steps = 19 % 16 : string 2   fret - 2
-  30 steps = 23 % 16 : string 0   fret 5
-  49 steps = 29 % 16 : string 1   fret 6
-  54 steps = 31 % 16 : string 0   fret 9
-** TODO 7\57 x 4\57: 31 lim in 9x5 (and better*), octave 7-2 (Lumatone-flat)
-*** (*) the better
-    Drop 23 and 25 to reduce height by 1.
-    Drop 17 to reduce width by 1.
-*** layout
-  05 steps; 17 % 16; string -1;  fret  3
-  00 steps; 1  % 1;  string  0;  fret  0
-  14 steps; 19 % 16; string  2;  fret  0
-  18 steps; 5  % 4;  string  2;  fret  1
-  22 steps; 21 % 16; string  2;  fret  2
-  26 steps; 11 % 8;  string  2;  fret  3
-  30 steps; 23 % 16; string  2;  fret  4
-  10 steps; 9  % 8;  string  2;  fret -1
-  33 steps; 3  % 2;  string  3;  fret  3
-  37 steps; 25 % 16; string  3;  fret  4
-  40 steps; 13 % 8;  string  4;  fret  3
-  43 steps; 27 % 16; string  5;  fret  2
-  46 steps; 7  % 4;  string  6;  fret  1
-  54 steps; 31 % 16; string  6;  fret  3
-  49 steps; 29 % 16; string  7;  fret  0
-  57 steps; 2  % 1;  string  7;  fret  2
-  52 steps; 15 % 8;  string  8;  fret -1
+* [[id:710f274b-5dcc-40e6-b8a0-e903fdafeacf][57-edo]] (57 = 3*19)
 * [[id:92c1a793-a03b-4f27-9ca3-743448314c00][58-edo]]
 * 60-edo : a great 31-limit flat system
 ** Exception: the 11:8 is 8c sharp.
