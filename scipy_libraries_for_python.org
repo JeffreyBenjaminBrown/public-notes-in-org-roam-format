@@ -4,6 +4,7 @@
 #+title: scipy (libraries for Python)
 * TODO schemas in Pandas
 ** TODO The `pandera` library implements schemas for Pandas data frames.
+* PITFALL: [[id:5f093513-f49c-4536-ae3c-ab25ee2d4a20][Pandas sometimes rounds floats' displayed values, for no reason.]]
 * [[id:b9a516f3-b8fc-4428-9bca-f81c672d5c3a][matplotlib]]
 * [[id:54b1ca58-0de1-49b1-a419-06af3872affa][append to a CSV file using Pandas]]
 * [[id:98556058-2bcf-456d-8401-e57845c717da][append a series as a row to a data frame \ Pandas]]

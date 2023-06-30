@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       5f093513-f49c-4536-ae3c-ab25ee2d4a20
+:END:
+#+title: Pandas sometimes rounds floats' displayed values, for no reason.
+* This might even extend beyond their displayed values,
+  although so far I have found no evidence of that.
+* I can't characterize exactly when, but here's an example:
+In [42]: g22["2_COD_CHIP"].astype(float)
+1         923273444.0
+...
+929019    923273444.0
+Name: 2_COD_CHIP, Length: 929023, dtype: float64
+
+In [41]: g22["2_COD_CHIP"].astype(float).unique()
+Out[41]:
+array([1.11515000e+08, 1.11717000e+08, 1.15252000e+08, ...,
+       9.23273398e+08, 9.23273425e+08, 9.23273444e+08])
