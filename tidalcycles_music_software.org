@@ -117,6 +117,7 @@ or via the menu File > Open startup file
 * the [[id:543397e7-733f-4d56-bf58-35f5e9d83b5e][TidalCycles language]]
 * Tidalcycles: [[id:62d4071a-c7d5-4671-baa5-94b620fe2a77][installing and updating]]
 * how to launch it
+** start qJackCtl
 ** in SCIDE, launch this
    ~/.local/share/SuperCollider/downloaded-quarks/SuperDirt/superdirt_startup.scd
 *** DONE I no longer need to add a line to specify `ugenPluginsPath`.

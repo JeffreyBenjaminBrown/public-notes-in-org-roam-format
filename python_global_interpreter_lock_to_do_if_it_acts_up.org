@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c2cb0852-90d3-40b1-be38-96e66063ae9e
+:ROAM_ALIASES: "Gil \ Python" "GIL \ Python"
+:END:
+#+title: Python global interpreter lock, to do if it acts up
+* https://realpython.com/python-gil/
+* the GIL is causing you problems, here a few approaches you can try:
+  Multi-processing vs multi-threading: The most popular way is to use a multi-processing approach where you use multiple processes instead of threads. Each Python process gets its own Python interpreter and memory space so the GIL won’t be a problem. Python has a multiprocessing module which lets us create processes easily like this:
