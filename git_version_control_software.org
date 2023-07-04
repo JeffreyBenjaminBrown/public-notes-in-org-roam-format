@@ -3,6 +3,7 @@
 :ROAM_ALIASES: git
 :END:
 #+title: git (version control software)
+* [[id:39b1baa1-4108-4aac-a8e0-ec662b531523][fetch all branches \ git]]
 * [[id:92ad6660-1efc-4ba8-b1d1-edddc2b54455][anchor, to create one in Github-flavored markdown]]
 * [[id:635a2a66-13f6-40e3-a5f3-ead78eb1e7b9][diff modulo base]] (integrates with Git)
 * [[id:2a580607-a59b-408d-b27c-b6c4dd94a14b][git submodules]]: for nesting repositories
@@ -37,9 +38,11 @@
 ** git push origin --delete old-name
    where "origin" is the remote repo's local nickname
 * to *delete* a branch locally and remotely
-  # remote_name is probably `origin`
-  git push   -d <remote_name> <branch_name>
-  git branch -d               <branch_name>
+  remote=origin              # or something
+  branch=tricky-feature      # or something
+  git push   -d    $remote $branch
+  git branch -d            $branch
+  git remote prune $remote
 * rewriting the commit history
 ** [[id:2bf0e5bf-4104-45f3-8e1c-e90a36c4314f][git rebase]]
 ** squash the last N commits into a single commit
@@ -47,11 +50,4 @@
    git reset --soft HEAD~$N
    git commit -m "new commit message"
    git push -f
-* to fetch all branches
-** code
-   git branch -r | grep -v '\->' | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
-   git fetch --all
-   git pull --all
-** source
-   https://stackoverflow.com/a/10312587/916142
 * [[id:e6dc1949-5024-4fee-b031-7af412353a5e][diff (shell programming concept)]]
