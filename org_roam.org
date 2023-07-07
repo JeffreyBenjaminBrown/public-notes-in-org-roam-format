@@ -2,6 +2,7 @@
 :ID:       63f366e6-b768-4f3f-9093-a776f2b4e069
 :END:
 #+title: org-roam
+* [[id:6e523ffa-8a57-4f83-877e-b476ccbe5cef][org-roam usage]]
 * refs
 ** for help : the Discourse group
 ** awesome-org-roam : a curated list of resources
@@ -57,36 +58,6 @@
   :END:
   can nonetheless be important, thanks to backlinks
 * installing : [[id:e2a9e2ea-6505-43ff-a3ce-2124518013b2][org-roam in NixOS]]
-* org-roam usage
-** to rename a file in org-roam
-   [[id:b21e2b07-d97f-4135-ae22-8b8737075ce8][Use dired to rename it]].
-** to open something in the backlink buffer in the other window
-   C-u RET
-** to fold/unfold all the backlinks in the org-roam buffer
-   :PROPERTIES:
-   :ID:       001e1870-011f-46ca-b6d1-df4707b53c08
-   :END:
-   C-TAB
-   That's a standard magit-section command. The org-roam (backlink) buffer relies on magit-section.
-   I don't know why there are a few lines of whitespace under each backlink, but this makes them go away.
-** to rebuild the cache
-   M-x -db-s
-** link descriptions are automatically refactored
-*** maybe only in a newer version than the one I use?
-*** this can be disabled:
-https://org-roam.discourse.group/t/links-descriptions-auto-refactoring/710/3?u=jeffbrown
-** DONE (learned) linking to headers
-*** only available in version 1.2
-*** create header, then run `org-roam-store-link` (C-c L)
-*** insert it with org-insert-link                (C-c C-l)
- This is part of org-mode, not org-roam.
-*** this has no link
-** a backlink is not visible until saved
-that is, by saving the file that contains the backlink,
-after creating the backlink
-** To use a weird symbol (e.g. '\' or ',') in an alias
-   Enclose the whole tag in parens.
-   Write '\' as \\.
 * TODO tweak
 ** TODO [[id:0663ea6c-5764-408c-a627-899d5e3108df][use Nix to install org-roam]]
 ** TODO update Docker image for org-roam v. 1.2

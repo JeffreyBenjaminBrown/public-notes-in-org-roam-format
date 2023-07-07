@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       6e523ffa-8a57-4f83-877e-b476ccbe5cef
+:END:
+#+title: org-roam usage
+* to rename a file in org-roam
+  [[id:b21e2b07-d97f-4135-ae22-8b8737075ce8][Use dired to rename it]].
+* to open something in the backlink buffer in the other window
+  C-u RET
+* to fold/unfold all the backlinks in the org-roam buffer
+  :PROPERTIES:
+  :ID:       001e1870-011f-46ca-b6d1-df4707b53c08
+  :END:
+  C-TAB
+  That's a standard magit-section command. The org-roam (backlink) buffer relies on magit-section.
+  I don't know why there are a few lines of whitespace under each backlink, but this makes them go away.
+* to rebuild the cache
+  M-x -db-s
+* link descriptions are automatically refactored
+** maybe only in a newer version than the one I use?
+** this can be disabled:
+https://org-roam.discourse.group/t/links-descriptions-auto-refactoring/710/3?u=jeffbrown
+* TODO (broken) linking to headers
+** only available in version 1.2
+** create header, then run `org-roam-store-link` (C-c L)
+   This no longer exists, as of <2023-07-07 Fri>.
+** insert it with org-insert-link                (C-c C-l)
+This is part of org-mode, not org-roam.
+** this has no link
+* a backlink is not visible until saved
+that is, by saving the file that contains the backlink,
+after creating the backlink
+* To use a weird symbol (e.g. '\' or ',') in an alias
+  Enclose the whole tag in parens.
+  Write '\' as \\.
