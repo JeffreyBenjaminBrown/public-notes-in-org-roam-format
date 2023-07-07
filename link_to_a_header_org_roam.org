@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       8f58be7a-bd39-4f46-88c2-3612c23419a0
+:END:
+#+title: link to a header \ org-roam
+* only available in version 1.2
+* how
+  serial
+** create header, then run `org-store-link` (C-c n l)
+ This is part of org-mode, not org-roam.
+** insert it with org-insert-link                (C-c C-l)
+ This is part of org-mode, not org-roam.
