@@ -3,6 +3,9 @@
 :ROAM_ALIASES: SmSn "Semantic Synchrony (software)"
 :END:
 #+TITLE: smsn
+* PITFALL: repo branch names have changed.
+  Josh explains how to deal with it here:
+  https://mail.google.com/mail/u/0/#inbox/FMfcgzGtvsdfvVSHVXXdpQjWKspHWqSK
 * refs
 ** handy files/folders
 *** ~/Encfs/kb-no-encfs/

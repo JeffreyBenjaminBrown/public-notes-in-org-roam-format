@@ -3,6 +3,7 @@
 :ROAM_ALIASES: information epistemology ontology "organizing knowledge"
 :END:
 #+title: knowledge graphs
+* [[id:f9ee18e9-68f2-4f10-b10d-c91186b797e3][Agora (shared knowledge base (protocol))]]
 * [[id:8b6cc852-4f06-424f-86ec-582b35060f79][The information apocalypse solution I'm hoping for: Sign your writing, hash your citations, back-cite, and know who you're reading.]]
 * Sidney is using LinkML
   "which is quite young but so far wonderful for being able to combine relational data structures with semantic web stuff"
@@ -12,7 +13,6 @@
 * a "personal Google"
 ** https://www.haystack.it/
 * [[id:05a84243-9dcf-4492-b81e-a48fd2f53b3c][knowledge graphs and/or meditation]]
-* [[id:f9ee18e9-68f2-4f10-b10d-c91186b797e3][Agora (shared knowledge base (protocol))]]
 * WebMention: notify web authors when linking to their work
   https://www.w3.org/TR/webmention/
 * [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
