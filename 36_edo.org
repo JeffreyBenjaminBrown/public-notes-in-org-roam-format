@@ -1,0 +1,94 @@
+:PROPERTIES:
+:ID:       8761108e-a980-4734-adea-4076f9512948
+:END:
+#+title: 36-edo
+* harmony
+  only 5/4 and 11/13 are bad
+
+  (3 % 2,702.0,21,700.0,-1.954956)
+  (5 % 4,386.3,12,400.0,13.68631)
+  (7 % 4,968.8,29,966.7,-2.1592407)
+  (11 % 8,551.3,17,566.7,15.348755)
+  (13 % 8,840.5,25,833.3,-7.194336)
+  (17 % 16,105.0,3,100.0,-4.955414)
+  (19 % 16,297.5,9,300.0,2.486969)
+  (23 % 16,628.3,19,633.3,5.05896)
+  (29 % 16,1029.6,31,1033.3,3.7561035)
+* layouts
+  Pr.pPrint $ sortedLayouts 36 (primesOctave1 29)
+** Lumatone layouts
+*** I only considered appropriately wide near-horizontal layouts
+    That is, layouts with (octave string, octave fret)
+    in (6,7,8) x (1,2,3).
+*** ordered by preference after seeing their pictures
+    They're all pretty tight.
+**** 7\36 x -3\36 : octave 6-2
+     myPrint $ map concat $ printLayout (primesOctave1 29) (show . numerator) 36 (7,-3)
+**** 5\36 x 3\36 : octave 6-2
+     myPrint $ map concat $ printLayout (primesOctave1 29) (show . numerator) 36 (5,3)
+**** 5\36 x 1\36 : octave 7-1
+     myPrint $ map concat $ printLayout (primesOctave1 23) (show . numerator) 36 (5,1)
+**** 3\36 x 5\36 : octave 7-3
+     myPrint $ map concat $ printLayout (primesOctave1 23) (show . numerator) 36 (3,5)
+**** 5\36 x -2\36 : octave 8-2
+     myPrint $ map concat $ printLayout (primesOctave1 23) (show . numerator) 36 (5,-2)
+**** 3\36 x 4\36 : octave 8-3
+     myPrint $ map concat $ printLayout (primesOctave1 23) (show . numerator) 36 (3,4)
+*** their relative merits
+**** a 1\36 component makes 72-edo theoretically possible
+     Play a note and the one adjacent to it,
+     and program a MIDI effect that sends their midpoint.
+**** 6-2 octave is obviously rad
+** guitar layouts
+   I only considered 18-edo guitars.
+*** some of them
+**** 11\36 x 2\36
+     367 cents between strings
+     octave at 2 strings &  7 frets ( 4.7\12 frets)
+            at 4 strings & -4 frets (-2.7\12 frets)
+***** layout
+      1  -  - 15  - 23  -  -  - 27
+      -  -  -  -  -  3  -  -  -  7
+      -  -  -  -  5 25  - 19  - 29
+      9 11  - 17 21 13  1  -  - 15
+      - 23  -  -  - 27  -  -  -  -
+      -  3  -  -  -  7  -  -  -  -
+      5 25  - 19  - 29  9 11  - 17 2
+     21 13  1  -  - 15  - 23  -  -
+      - 27  -  -  -  -  -  3  -  -
+      -  7  -  -  -  -  5 25  - 19
+      - 29  9 11  - 17 21 13  1  -
+      - 15  - 23  -  -  - 27  -  -
+      -  -  -  3  -  -  -  7  -  -
+      -  -  5 25  - 19  - 29  9 11
+      - 17 21 13  1  -  - 15  - 23
+      -  -  - 27  -  -  -  -  -  3
+      -  -  -  7  -  -  -  -  5 25
+      - 19  - 29  9 11  - 17 21 13
+      1  -  - 15  - 23  -  -  - 27
+      -  -  -  -  -  3  -  -  -  7
+      -  -  -  -  5 25  - 19  - 29
+**** 9\36 x 2\36 : 9 strings for 2 octaves, but super-easy
+     myPrint $ map concat $ printLayout (primesOctave1 29) (show . numerator) 36 (9,2)
+
+     1 19  - 27  1 19  - 27  1 19  - 27
+     -  -  -  7  -  -  -  7  -  -  -  7
+     -  -  - 29  -  -  - 29  -  -  - 29
+     9  -  - 15  9  -  - 15  9  -  - 15
+     - 11  -  -  - 11  -  -  - 11  -  -
+     - 23  -  -  - 23  -  -  - 23  -  -
+     5  3  - 17  5  3  - 17  5  3  - 17
+    21 25  -  - 21 25  -  - 21 25  -  -
+     - 13  -  -  - 13  -  -  - 13  -  -
+     - 27  1 19  - 27  1 19  - 27  1 19
+     -  7  -  -  -  7  -  -  -  7  -  -
+     - 29  -  -  - 29  -  -  - 29  -  -
+     - 15  9  -  - 15  9  -  - 15  9  -
+     -  -  - 11  -  -  - 11  -  -  - 11
+     -  -  - 23  -  -  - 23  -  -  - 23
+     - 17  5  3  - 17  5  3  - 17  5  3
+     -  - 21 25  -  - 21 25  -  - 21 25
+     -  -  - 13  -  -  - 13  -  -  - 13
+     1 19  - 27  1 19  - 27  1 19  - 27
+     -  -  -  7  -  -  -  7  -  -  -  7
+     -  -  - 29  -  -  - 29  -  -  - 29

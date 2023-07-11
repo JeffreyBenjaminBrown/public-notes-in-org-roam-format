@@ -1295,6 +1295,7 @@ Notice in particular how natural the dominant 9th chord is in root position:
 * [[id:5e4745df-4597-4590-9f2e-15fd035ae932][29-edo]]
 * [[id:c7a620a4-f012-4a8e-bd19-193c303f0e5c][31-edo]]
 * [[id:7dd9c689-51f9-45da-bbd1-d3068615917a][34-edo]]
+* [[id:8761108e-a980-4734-adea-4076f9512948][36-edo]]
 * [[id:cc55ed71-fd36-415e-9a06-ba997d79ebb6][37-edo]]
 * [[id:d193c0f1-bafc-489a-be3a-b442d094eb49][41-edo]]
 * [[id:1a26d137-549c-42d2-aeba-abbddf4f44da][43-edo]]
