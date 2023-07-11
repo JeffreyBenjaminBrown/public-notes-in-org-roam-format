@@ -32,7 +32,23 @@
     melody
     melody modulo rhythm (tone rows)
 *** voice
-* TODO bundles of elements
+* a selection of bundles from those elements, 2023-07-10
+** waves & transformations
+*** amplitude | rhythm | range
+*** speed :: peace | energy
+** complexity : number of
+   chords | notes | durations | motifs
+** pattern duration
+   rhythmically uneven chord changes
+** voices :: unison | notes / hand | call & response
+** mood
+   funk | blues | circus | pop
+   grandeur | wonder | alien | metal | march
+** pitch
+   bichords | pedal note | trills, bends
+   diatonic | symmetric | atonal | 24-tone
+** intuition v. known
+* a selection of bundles from those elements, 2023-04-30
 ** number of motifs
 ** waves in
 *** TODO the number of voices
