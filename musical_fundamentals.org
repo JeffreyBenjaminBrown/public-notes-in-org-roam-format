@@ -42,8 +42,8 @@
    rhythmically uneven chord changes
 ** voices :: unison | notes / hand | call & response
 ** mood
-   funk | blues | grandeur | wonder | circus | pop
-   alien | metal | march | lament
+   funk | blues | circus | pop
+   grandeur | wonder | alien | metal | march
 ** pitch
    bichords | pedal note | trills, bends
    diatonic | symmetric | atonal | 24-tone
