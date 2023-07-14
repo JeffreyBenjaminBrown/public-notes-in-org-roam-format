@@ -3,6 +3,11 @@
 :ROAM_ALIASES: Lumatone
 :END:
 #+title: Lumatone (microtonal keyboard)
+* sysex to change Lumatone key colors
+** gist on Github
+   https://gist.github.com/meta-meta/f331dc60ea5f100985bd6b79290d3e18?fbclid=IwAR0ILUqzFkCDyRvkQ8ygUZj3vRy1jzdnGilu59gsoNuMQBpcsmD9dQ2h0Wg
+** announced on FB
+   https://www.facebook.com/groups/lumatone.keyboard/posts/6086983238077524/
 * TODO [[id:fefc7396-0f9d-4c02-b298-c0111dc175ab][MIDI controls I would like]]
 * [[id:4606bf23-6261-4596-95bc-faf1e9d64b3d][musical exercises]]
 * TODO [[id:061b26ef-4cea-4ded-9e5a-6d1d6af2ed72][upgrade Pianoteq from 7 to 8 (free)]]

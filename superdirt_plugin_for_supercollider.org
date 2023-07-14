@@ -2,6 +2,9 @@
 :ID:       e3544bcf-ff56-4667-b924-3b7baaea26ac
 :END:
 #+title: SuperDirt (plugin for SuperCollider)
+* folders on my system
+  ~/.local/share/SuperCollider/downloaded-quarks/Dirt-Samples/
+  ~/.local/share/SuperCollider/downloaded-quarks/SuperDirt/
 * TODO My question on Tidal Forum about "Metapplicative"
   https://club.tidalcycles.org/t/has-anyone-defined-an-ap-like-function-f-f-a-f-b-f-a-f-b-where-f-pattern/3803/1
 * TODO automatically trim initial silence
