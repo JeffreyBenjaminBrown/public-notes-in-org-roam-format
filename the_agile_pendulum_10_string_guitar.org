@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       07b00128-b5e6-4a34-aafa-23424cdbf1d3
+:END:
+#+title: Agile Pendulum 10-string guitar
+* refs
+** I posted about it on Facebook.
+   https://www.facebook.com/groups/110164742335730/posts/6824218100930327/
+** Rondo sells it
+   https://www.rondomusic.com/Agile_Pendulum_Pro_102730_EB_CA_Blue-Purple.html
+** Agile makes it
+   :PROPERTIES:
+   :ID:       4bcea0f4-c4a9-44c1-974d-378442f5d282
+   :END:
+   https://www.agileguitars.net/models?pgid=kha6zqi5-70d30634-6bf8-4cfe-9ae1-d3036f7fbfab
+* advantages
+** "dual truss rods"
+*** [[id:4bcea0f4-c4a9-44c1-974d-378442f5d282][Agile says]] the truss rods are indeed adjustable.
+** multiscale
+** < 1000 USD
+* Manufacturer Agile is a "house brand" of distributor Rondo.

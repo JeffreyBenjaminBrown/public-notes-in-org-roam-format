@@ -36,6 +36,7 @@
 ** waves & transformations
 *** amplitude | rhythm | range
 *** speed :: peace | energy
+*** *slight* changes
 ** complexity : number of
    chords | notes | durations | motifs
 ** pattern duration

@@ -34,6 +34,9 @@ alternatives
    Run `mark-receiver-buffer` from the buffer running cabal repl.
 
    Once that's done, I can highlight text in any buffer (doesn't have to end in .tidal) and send it to the shell buffer with `send-highlighted-region-to-receiver-buffer`.
+** open a buffer for Tidal code
+   e.g.
+     [[~/code/music/Tidal/tidal+epic/music/simple.hs]]
 * DO NOT use a global Tidal clone and tidal.el from Emacs.
 ** start Tidal: C-c C-s
    This will work, at least, from a file ending in .tidal.
