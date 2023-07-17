@@ -2,6 +2,13 @@
 :ID:       0c4d2228-2f6e-47d7-a678-79620ce812dc
 :END:
 #+title: Death's End, novel by Liu Cixin
+* u from phone
+** Yu Weining, asst chief of PIA
+** Thomas Wade, PIA Chief
+** Mikhail Vadimov
+*** Director of Tech Planning at the PSC Intel agency (PIA)
+** Dr He
+*** Running The Stars Our Destination's branch in Beijing
 * characters
 ** Constantinople, 1453 AD
 *** Emperor Constantine
