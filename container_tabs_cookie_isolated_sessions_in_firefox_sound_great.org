@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b2e2963b-7e70-4df6-a81d-8e16851b229e
+:END:
+#+title: Container tabs (cookie-isolated sessions) in Firefox sound great.
+This permits, e.g., two separate Google accounts open simultaneously.

@@ -2,6 +2,7 @@
 :ID:       0591e33a-f3b2-414a-ac40-c3071348758d
 :END:
 #+title: funny things
+* [[id:9633f527-a653-4ba1-a4ad-8304ea259b8d][Orcas went through a salmon hat fad in 1987.]]
 * [[id:4bee1cff-403d-43e4-a8a6-eb72f573cbfa][enlightenment as betrayal]]
 * [[id:858021f5-8474-4490-b30e-371159e35db6][Consciousness => every moment is amazing.]]
 * [[id:fc62e211-be72-469f-a543-2950c0e2c975][contrarianism]]
