@@ -2,7 +2,16 @@
 :ID:       1e56abb2-a473-4c78-b555-c8ae8cc42528
 :END:
 #+title: pitch detection, pitch shift and time stretch in Reaper
-* Alt-drag will stretch a selection of midi notes.
+* midi stretch \ Reaper
+  :PROPERTIES:
+  :ID:       281dc40c-e003-4192-8e53-ebcb8239a93e
+  :ROAM_ALIASES: "MIDI stretch \ Reaper" "stretching MIDI \ Reaper" "stretching midi \ Reaper"
+  :END:
+** Alt-drag will stretch a selection of midi notes.
+   Drag one side. The other side of the selection stays fixed.
+   Any notes whose start and endpoints are both strictly inside
+   the selection's boundaries will have both endpoints moved.
+** [[id:bd1d48d6-c221-4051-b1f9-ae26b36ac315][Reaper feature request: Stretch markers for MIDI]]
 * Use ReaPitch to make harmonies.
 * Use ReaTune to make pitch corrections.
 * Use "stretch markers" to stretch selected items in sync.

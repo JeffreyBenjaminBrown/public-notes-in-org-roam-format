@@ -3,7 +3,7 @@
 :ROAM_ALIASES: "Reaper / MIDI"
 :END:
 #+title: MIDI in Reaper
-* [[id:bd1d48d6-c221-4051-b1f9-ae26b36ac315][Reaper feature request: Stretch markers for MIDI]]
+* [[id:281dc40c-e003-4192-8e53-ebcb8239a93e][midi stretch]]
 * u
 ** [[id:5333d0f7-f7dd-459c-a2c9-b195ad71c961][fast channel manipulations in Reaper]]
    esp. useful for the channels-as-octave idiom
