@@ -2,6 +2,7 @@
 :ID:       1e56abb2-a473-4c78-b555-c8ae8cc42528
 :END:
 #+title: pitch detection, pitch shift and time stretch in Reaper
+* Alt-drag will stretch a selection of midi notes.
 * Use ReaPitch to make harmonies.
 * Use ReaTune to make pitch corrections.
 * Use "stretch markers" to stretch selected items in sync.

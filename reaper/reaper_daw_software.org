@@ -15,6 +15,7 @@
 **** and don't care: chapters 4, 5
 **** TODO (but out of order)
      chapter 6, FX
+* [[id:890e754a-8677-43f3-92f4-035d0ecd42db][usage \ Reaper]]
 * refs
 ** in my filesystem
     [[~/many-small/manuals/Reaper/]]
@@ -29,4 +30,3 @@
 * TODO [[id:bd98bf35-4b42-4e5c-bf04-21e8f06dfdc8][set Reaper up to use a tablet]]
 * [[id:c845c381-8b0b-4b7a-82e8-71f70110304e][PITFALLs]] in Reaper
 * [[id:f16db74b-368c-4e86-952f-23bcb19169ea][vocab]] in Reaper
-* [[id:890e754a-8677-43f3-92f4-035d0ecd42db][usage \ Reaper]]
