@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       ec28ac27-a789-430f-8fe8-ef815225f2f1
+:END:
+#+title: Contaduría General de la Nación (Colombian government entity)
+* [[id:63d78c3f-8f19-47e0-8aaa-271694612d37][AF]] has Contaduría connections.
