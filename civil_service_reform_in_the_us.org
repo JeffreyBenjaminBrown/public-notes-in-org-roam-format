@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       34fb2b82-ed80-44cf-b305-4f7b5b0e846b
+:END:
+#+title: Civil Service reform in the US
+* ref
+  https://en.wikipedia.org/wiki/Civil_service_reform_in_the_United_States
+* notes
+  The Pendleton Act (1883) "at first ... covered very few jobs but there was a ratchet provision whereby outgoing presidents could lock in their own appointees by converting their jobs to civil service".
+  "After a series of party reversals at the presidential level (in 1884, 1888, 1892, 1896) ... most federal jobs were under civil service."
+  "An unintended result was the shift of the parties to reliance on funding from business, since they could no longer depend on patronage hopefuls"

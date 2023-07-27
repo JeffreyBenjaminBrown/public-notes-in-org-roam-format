@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       5c910e42-39d6-40e9-aa79-739272cd92b1
+:ROAM_ALIASES: "PUJ gym"
+:END:
+#+title: gym \ PUJ
+* things one has to bring to the PUJ gym
+  :PROPERTIES:
+  :ID:       76911194-b002-4637-98f2-a79a0346c4a8
+  :END:
+  athletic clothes
+  bottle of water
+  towel
+  carnet

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       362ce86f-efc2-4b4e-aa2e-036646ca71be
+:END:
+#+title: governance
+* [[id:34fb2b82-ed80-44cf-b305-4f7b5b0e846b][Civil Service reform in the US]]
