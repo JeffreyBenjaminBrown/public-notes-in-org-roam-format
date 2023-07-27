@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "medicine & health"
 :END:
 #+title: health & medicine
+* [[id:daaa2feb-2278-4864-99c3-21c6c7f3f019][exercise]]
 * [[id:53153c43-2604-4a0c-b227-e2290bb89ab9][fasting]]
 * [[id:185827a6-a19a-4da0-a251-897c41ef3a20][cell biology]]
 * [[id:efac7e01-b51a-4b87-b029-832cdb0bb977][otorhinolaryngology]]

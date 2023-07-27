@@ -3,7 +3,6 @@
 :END:
 #+title: small acts of altruism
 * [[id:cf6b00e9-ff5c-4cd6-a60f-633b07b340b4][implement graph-aware search for org-roam]]
-* [[id:d66abbb6-8b73-4cf0-8e22-cb022c906a14][report that horrible driver in Huila]]
 * [[id:ebd2e898-414a-415c-9f60-682fc59e93eb][write about microtonal Reaper on xen wiki]]
 * Real World Haskell code repo: Add the fix I asked for.
   https://github.com/wkoszek/book-real-world-haskell/issues/2

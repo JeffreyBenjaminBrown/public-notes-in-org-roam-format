@@ -3,6 +3,8 @@
 :END:
 #+title: surprising health dangers
 * [[id:9d5f7a3b-0120-44de-bfaa-e189c65c3462][Bug zappers explode the bugs, spread pathogens.]]
+* Don't pee on chlorine!
+  ammonia + chlorine = nerve gas
 * lead poisoning
 ** bright yellow turmeric (curcuma)
 ** artisanal glazed ceramic cookware

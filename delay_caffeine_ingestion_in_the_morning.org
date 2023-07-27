@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       cf824221-f6b8-4e26-9a76-e382db27ff2c
 :END:
-#+title: Delay caffein ingestion in the morning.
+#+title: Delay caffeine ingestion in the morning.
 * what to do
   Wait an hour or two after waking up before ingesting caffeine.
 * why

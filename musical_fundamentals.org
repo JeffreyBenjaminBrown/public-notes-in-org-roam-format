@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "music fundamentals"
 :END:
 #+title: musical fundamentals
+* see also [[id:4606bf23-6261-4596-95bc-faf1e9d64b3d][musical exercises]]
 * elements
 ** TODO transformation parameters | patterns
 *** magnitude of change
@@ -33,22 +34,23 @@
     melody modulo rhythm (tone rows)
 *** voice
 * a selection of bundles from those elements, 2023-07-10
+** forgetten often :: rhythm | accent | cont* theme | 8ve sep
+   \* maybe transformed radically, usually transformed slightly
 ** waves & transformations
 *** amplitude | rhythm | range
 *** speed :: peace | energy
 *** *slight* changes
 **** micro-melody = variation in a narrow frequently ranger
-** complexity : number of
-   chords | notes | durations | motifs
-** pattern duration
-   rhythmically uneven chord changes
+**** micro-rhythm = trills, etc.
+** complexity, number of :: chords | notes | durations | motifs
+** pattern duration -  esp. rhythmically uneven chord changes
 ** voices :: unison | notes / hand | call & response
 ** mood
-   funk | blues | circus | pop
-   grandeur | wonder | alien | metal | march
+*** funk | blues | circus | pop
+*** grandeur | wonder | alien | metal | march
 ** pitch
-   bichords | pedal note | trills, bends
-   diatonic | symmetric | atonal | 24-tone
+*** bichords | pedal note | trills, bends
+*** diatonic | symmetric | atonal | 24-tone
 ** intuition v. known
 * a selection of bundles from those elements, 2023-04-30
 ** number of motifs

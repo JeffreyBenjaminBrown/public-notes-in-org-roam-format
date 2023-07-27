@@ -3,5 +3,7 @@
 :ROAM_ALIASES: MHCP "Ministerio de Hacienda y Crédito Público"
 :END:
 #+title: MinHacienda
-= MHCP
-= Ministerio de Hacienda y Crédito Público
+* a.k.a.
+  = MHCP
+  = Ministerio de Hacienda y Crédito Público
+* [[id:0b5d52f2-a057-4d20-a5a7-edfa2eeb45c6][contacts at MinHacienda]]
