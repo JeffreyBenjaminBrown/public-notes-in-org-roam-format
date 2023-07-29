@@ -1,0 +1,74 @@
+:PROPERTIES:
+:ID:       5e40393b-a042-41d2-ba79-41ab70fc9ba6
+:END:
+#+title: algorithmic music ideas, <2023-07-28 Fri>, take 2
+* TODO mysteries
+** interpreting a melody as samples
+   It's not clear that this should even be done.
+** interpreting a melody as other parameters
+** beat usage
+** transformations
+** avoiding collistions
+** restricting the pitch set over some intervals
+* pitch set
+** definition
+   It is an octave-repeating set of frequencies,
+   represented as a pair (f,rs),
+   where rs is a set of ratios in (1,2)
+   and f is a frequency in hz.
+* melody
+** definition
+   A melody is a piecewise constant map "m"
+   from time to [the integers + the empty set {}].
+   Where m t = {}, the melody is silent.
+   The melody should *probably* be defined with a pitch set ps in mind,
+   as two integers values in the range of m which are equal mod (len ps)
+   result in pitches that are equal modulo octave.
+** usage
+   One defines how a voice "lenses into" a melody "rs"
+   via some base frequency "fv" in Hz.
+   If "ri" = 0 is in "rs", the resulting pitch is f*2**n,
+   where "n" is the integer such that f*2**n is closest to "fv".
+   If "ri" = len rs, the resulting pitch is f*2**(n+1).
+   Etc.
+* a bar = the biggest repeating unit of the meter
+* tempo = what fixes the duration of a bar
+* a meter = a coordinate system for time
+** definition
+*** first, define "homogeneous meter"
+    A homogeneous meter is two lists of integers > 1.
+    The first list [n1, n2 ...] should be interpreted as finite,
+    and indicates that time in that meter
+    is divided into n1 pieces, each of which is divided into n2 pieces, etc.
+    The second list determines how the smallest pieces are divided,
+    and should be interpreted as repeating.
+    It describes the finest level of coordinates.
+    In the simplest case it will be a simple number, probably usually [2].
+    That indicates that all of the smallest subdivisions are binary.
+    If it is instead [2,3], that indicates that the first subdivision
+    after the finite sequence of divisions is binary,
+    then there is a tertiary division, then 2 again, then 3 again,
+    repeating forever.
+*** next define "compound meter"
+    A compound meter is a list of pairs (ti :: Real, hm :: Homog Meter),
+    where the first ti is 0, each subsequent ti is greater than the previous,
+    all are less than 1.
+** usage
+   A moment is specified with a list of integers.
+   The first is unrestricted.
+   The rest are constrained by the meter; they should range from 0 to n-1,
+   where n is the number of divisions at the corresponding level.
+** NUANCE: overflow
+   If a moment is encoded with a value greater than
+   M = the maximum allowed at that subdivision,
+   it should probably decrement itself by M
+   and increment its parent coordinate by 1.
+   If this bumps the moment into the next homogenous meter
+   in a compound meter, its interpretation changes,
+   but the algorithm can continue.
+* a beat = a priority list of moments
+** definition
+   A beat is a list of lists of moments.
+   Earlier lists are higher priority (hence "prior").
+   The moments in each list should be ordered,
+   but no order needs to hold across moments in distinct lists.
