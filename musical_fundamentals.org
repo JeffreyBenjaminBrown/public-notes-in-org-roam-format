@@ -41,7 +41,7 @@
 *** amplitude | rhythm | range
 *** speed :: peace | energy
 *** *slight* changes
-**** micro-melody = variation in a narrow frequently ranger
+**** micro-melody = variation in a narrow frequently range
 **** micro-rhythm = trills, etc.
 ** complexity, number of :: chords | notes | durations | motifs
 ** pattern duration -  esp. rhythmically uneven chord changes
