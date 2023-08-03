@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       57bd013c-e96c-4da2-ab7b-d8aefb611da5
+:END:
+#+title: VelocityIntrvlTbl \ Lumatone
+* TODO try changing it
+** and find a good plugin to view numerical velocity in Reaper in real time
+* what it means
+** This is a list of times, in (we suspect) miliseconds.
+** Each time corresponds to a force threshold.
+   Short time = higher velocity.
