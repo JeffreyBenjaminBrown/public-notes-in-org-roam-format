@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       3ecf152a-e06e-465e-9c51-7bbddeaf07f4
+:ROAM_ALIASES: "Colombian NGOs"
+:END:
+#+title: Colombia's state-adjacent entities
+* PITFALL: Some, but maybe not all, of these are NGOs.
+* [[id:0d5db88b-9776-474b-87a4-ab98d19786c7][Colifri]]
+* [[id:89bfefbd-6ac6-42b0-9f61-e2272d0e830e][Fedesarrollo]]

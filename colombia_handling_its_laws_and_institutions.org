@@ -8,5 +8,6 @@
 * [[id:10ce18c2-bac2-4d74-bbdb-63ed002bdfd0][laws in Colombia]]
 * [[id:2372a506-832e-4235-af0d-10e2e4fdc683][data sets on Colombia]]
 * [[id:acfc9765-2924-4b12-99b0-ad49f676b09f][Colombia's government: entities]]
+* [[id:3ecf152a-e06e-465e-9c51-7bbddeaf07f4][Colombia's state-adjacent entities]]
 * [[id:a4f383e5-0f10-442e-b8f6-7d700ce0b83a][Colombia's government, people I know in]]
 * [[id:2d647146-fb8b-4f82-a34c-74e523a57821][history of municipal finance in Colombia : meeting <2023-05-24 Wed> with Jaime from Banco de la República]]
