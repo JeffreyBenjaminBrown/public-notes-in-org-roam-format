@@ -2,13 +2,13 @@
 :ID:       84b6c491-f0b4-44ab-9ffd-cf196d6a0220
 :END:
 #+title: Spanish vocabulary
-* TODO read [[id:f9b8a577-563a-47c6-a77f-11892ec5ccd2][La República]]
+* TODO read [[id:f9b8a577-563a-47c6-a77f-11892ec5ccd2][La República]], [[id:3d2019c3-635b-48b2-8128-8731562749ef][Dinero]]
 * TODO read Muy Interesante
   https://www.muyinteresante.es/
 * outer loop
-  last time I reviewed: 8
+  last time I reviewed = 9
 ** odd outer loop reps: Spanish questions (and either language for answer)
-   last time I reviewed: 4
+   last time I reviewed = 5
 *** 1 mod 2
 **** prepotente, soberbia
      entitled (as in attitude)
@@ -19,11 +19,12 @@
 **** bono
      bond (as in Treasury)
 **** depurar
-     alternatives
-***** to clean
-***** to reinstate someone whose duty was suspended for political reasons
-***** scrutinize someone for political malfeasance
-***** purge of dissidents
+***** in brief : purge | reinstate | investigate
+***** alternatives
+****** to clean
+****** to reinstate someone whose duty was suspended for political reasons
+****** scrutinize someone for political malfeasance
+****** purge of dissidents
 **** quisquillosa
      finnicky
 **** menso
@@ -39,12 +40,12 @@
 **** plasmar
      shape     (says the RAE)
      ? portray (says Google)
-**** mozo
-     Waiter.
-     Slang: Lover.
 **** pese a que
      although
 *** 2 mod 4
+**** mozo
+     Waiter.
+     Slang: Lover.
 **** rezago
      lag (noun)
 **** jefatura

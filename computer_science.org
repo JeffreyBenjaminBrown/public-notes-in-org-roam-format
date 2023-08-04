@@ -3,6 +3,14 @@
 :ROAM_ALIASES: programming
 :END:
 #+title: computer science
+* subfields
+** [[id:e1f7f6e9-3a9a-4804-91f5-7751d7f4e9b8][algorithms]]
+** [[id:627da2c2-2f34-46ac-a6d3-9c625c4ff31d][artificial intelligence]]
+** [[id:16127b31-70f5-4098-a5c1-1df7cfc93128][bioinformatics]]
+** [[id:9f56873c-b871-49d3-b2ed-93ac63133284][data science]]
+** [[id:5b4adbe5-e24a-4dc5-b9fa-eddb3b178131][state machines]]
+** [[id:73dcc71c-3277-445b-b6ec-05830e955dad][testing (computer science)]]
+** [[id:e5c4db3d-2328-4f79-a2ee-f1f9d2fdfd90][programming idioms]]
 * [[id:31fab723-6cfd-4f19-a61e-4b65100504f8][abstractions I like \ computer science]]
 * TODO [[id:4bd7f12e-2061-40e9-9e98-683552f40918][contribute to open source projects]]
 * TODO [[id:90b6eed6-9e66-44de-bbfd-dfc0385bfa35][software development advice, excellent]]
@@ -10,13 +18,6 @@
 * [[id:bd48b7ca-4620-49a0-b5a5-915205f7e78e][good coding habits]]
 * [[id:f07ab308-a010-45cb-a39e-a01f0b926c15][pitfalls and responses \ coding]]
 * [[id:599c31f4-ebc6-4f17-bf83-bb7f604feb1b][how to do coding problems fast]]
-* subfields
-** [[id:e1f7f6e9-3a9a-4804-91f5-7751d7f4e9b8][algorithms]]
-** [[id:627da2c2-2f34-46ac-a6d3-9c625c4ff31d][artificial intelligence]]
-** [[id:16127b31-70f5-4098-a5c1-1df7cfc93128][bioinformatics]]
-** [[id:5b4adbe5-e24a-4dc5-b9fa-eddb3b178131][state machines]]
-** [[id:73dcc71c-3277-445b-b6ec-05830e955dad][testing (computer science)]]
-** [[id:e5c4db3d-2328-4f79-a2ee-f1f9d2fdfd90][programming idioms]]
 * [[id:e4a6a10f-a305-49fa-91b1-08482df14229][a CS skills assessment, with a moderate focus on Python]]
 * data structures
 ** [[id:805ec609-79fb-484a-9272-c42de037d1f5][list comprehension]]

@@ -8,6 +8,7 @@
 ** Granger causality
 ** Wald test
 ** VAR, VECM
+* [[id:9f56873c-b871-49d3-b2ed-93ac63133284][data science]]
 * [[id:2aafd0d3-96d9-4be2-a2b5-a2dfe15017f7][labor market, the]]
 * [[id:465f0ce9-e6e8-4a9f-b290-7290dd914e54][constrained optimization]]
 * [[id:d5710ba5-2a3a-4f7a-80fc-97f7225c3a05][macroeconomics]]

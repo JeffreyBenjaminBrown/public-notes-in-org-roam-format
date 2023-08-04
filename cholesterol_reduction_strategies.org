@@ -7,6 +7,7 @@
 * Fast sometimes
 * Get sun
 * TODO Avoid these foods
+** TODO if bread, no gluten
 ** meat
 ** dairy
 ** coconut (oil or fruit)
@@ -20,7 +21,6 @@
 ** high-fat foods
 ** alcohol
 *** if alcohol, no fats, esp. fats from meat
-** TODO if bread, no gluten
 ** TODO evitar cerdo, bagre y mariscos
 * Target certain foods
 ** nuts

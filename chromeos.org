@@ -2,6 +2,7 @@
 :ID:       b0b7e71e-eca8-4968-b87c-7fb2e07eb313
 :END:
 #+title: ChromeOS
+* [[id:edcf0ea0-6141-42c6-a663-3115738578f1][jailbreaking a Chromebook]]
 * see also [[id:99ed813a-b5f9-4671-a2dd-4e9d1608411c][Chromium (operating system)]]
 * [[id:a6bde52b-3993-4c78-8127-2b85aee5d68a][USB-booting my Dell Chromebook 3120]]
 * [[id:8ffe2384-8b70-4190-8cdc-5bd23a8a4cf2][using the shell in ChromeOS]]

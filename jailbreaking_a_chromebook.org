@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       edcf0ea0-6141-42c6-a663-3115738578f1
+:END:
+#+title: jailbreaking a Chromebook
+* TODO try Depthboot – Your Chromebook, your way
+  https://eupnea-linux.github.io/
+* TODO Some models (e.g. mine) have customization obstacles.
+  For instance, [[id:26df0a8d-4947-497d-865f-3abcc63430a5][my Chromebook]] seems to have a screw that needs loosening
+  before the OS can be changed.
+* [[id:a6bde52b-3993-4c78-8127-2b85aee5d68a][USB-booting my Dell Chromebook 3120]]

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9f56873c-b871-49d3-b2ed-93ac63133284
+:END:
+#+title: data science
+* a data differ
+  https://blog.marcua.net/2022/02/20/data-diffs-algorithms-for-explaining-what-changed-in-a-dataset.html
