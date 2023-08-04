@@ -2,7 +2,12 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
-* [[id:ca5b629b-c2d2-4fef-9ae9-38ae2ac52bb4][algorithmic music]] ideas
+* TODO merge two docs on algorithmic music
+  from a git merge conflict
+** [[id:ca5b629b-c2d2-4fef-9ae9-38ae2ac52bb4][algorithmic music]] ideas
+** [[id:5e40393b-a042-41d2-ba79-41ab70fc9ba6][algorithmic music ideas, <2023-07-28 Fri>, take 2]]
+* try changing [[id:57bd013c-e96c-4da2-ab7b-d8aefb611da5][VelocityIntrvlTbl \ Lumatone]]
+* [[id:b449bd05-ac06-4548-8982-3a6eb05f5d91][how constraints help \ art]]
 * edit to make everything fast enough
   Use a tempo map.
 * Do more minor transformations to a theme, held longer, make it easier to remember and resurrect the theme later?

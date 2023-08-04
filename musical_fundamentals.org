@@ -34,14 +34,13 @@
     melody modulo rhythm (tone rows)
 *** voice
 * a selection of bundles from those elements, 2023-07-10
-** forgetten often :: rhythm | accent* | cont* theme | 8ve sep
-   Accent the more important beats.
-   Continue themes: maybe transformed radically, and constantly slightly.
+** forgetten often :: rhythm | accent | cont* theme | 8ve sep
+   *Continue themes. Sometimes radically, always slightly.
 ** waves & transformations
 *** amplitude | rhythm | range
 *** speed :: peace | energy
 *** *slight* changes
-**** micro-melody = variation in a narrow frequently ranger
+**** micro-melody = variation in a narrow frequently range
 **** micro-rhythm = trills, etc.
 ** complexity, number of :: chords | notes | durations | motifs
 ** pattern duration -  esp. rhythmically uneven chord changes

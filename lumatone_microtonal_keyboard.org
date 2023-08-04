@@ -3,6 +3,7 @@
 :ROAM_ALIASES: Lumatone
 :END:
 #+title: Lumatone (microtonal keyboard)
+* try changing [[id:57bd013c-e96c-4da2-ab7b-d8aefb611da5][VelocityIntrvlTbl \ Lumatone]]
 * sysex to change Lumatone key colors
 ** gist on Github
    https://gist.github.com/meta-meta/f331dc60ea5f100985bd6b79290d3e18?fbclid=IwAR0ILUqzFkCDyRvkQ8ygUZj3vRy1jzdnGilu59gsoNuMQBpcsmD9dQ2h0Wg
