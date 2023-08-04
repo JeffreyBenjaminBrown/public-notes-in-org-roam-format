@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       ca5b629b-c2d2-4fef-9ae9-38ae2ac52bb4
+:END:
+#+title: algorithmic music
+* goals
+** Share a scale.
+** Share a beat structure.
+** Share a theme, with per-instrument lensing.
+   The simplest lens would be octave transposition.
+   Will probably want to reuse lenses from melody to drums,
+   since they will be tedious to write.
+** Share a transformation.
+   Shared scale transformations will be easiest.
+   Shared beat structure transformations, likely next easiest.
+   Shared theme transformations seem hard.
+** HARD: Avoid melodic collisions.
+   Playing the same note across two voices is actually okay,
+   but notes that differ by one scale step are often not.

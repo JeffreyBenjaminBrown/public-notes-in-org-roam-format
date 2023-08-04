@@ -2,6 +2,7 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
+* [[id:ca5b629b-c2d2-4fef-9ae9-38ae2ac52bb4][algorithmic music]] ideas
 * edit to make everything fast enough
   Use a tempo map.
 * Do more minor transformations to a theme, held longer, make it easier to remember and resurrect the theme later?
