@@ -4,6 +4,7 @@
 #+title: programming languages
 * cool ones
 ** [[id:cacfa0be-acc2-4628-bb21-81feb12ec268][Pharo]] looks amazing
+** [[id:46d56f38-e6a8-43aa-8c74-efccddfb0770][TypeDB]] (hypergraph database)
 ** [[id:8663f460-bf38-4037-9a7f-f5b954639027][Flix]] looks amazing
 ** [[id:8c3a9427-ea28-4d17-bb1f-c27012836646][Glicol (for live coding music & graphs)]]
 *** Optimized for live-coding => ugly syntax.

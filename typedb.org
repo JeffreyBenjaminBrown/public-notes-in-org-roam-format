@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       46d56f38-e6a8-43aa-8c74-efccddfb0770
+:ROAM_ALIASES: "Vaticle makes TypeDB"
+:END:
+#+title: TypeDB
+* RESUME at "Patterns"
+  https://typedb.com/docs/typedb/2.x/fundamentals/patterns
+* refs
+** the *real* docs
+   https://typedb.com/docs/typedb/2.x/overview.html
+** TypeDB Core, installing and launching
+   https://typedb.com/docs/typedb/2.x/installation.html
+** client, installing a
+   https://typedb.com/docs/clients/2.x/clients
+** TypeDB Console, using
+   :PROPERTIES:
+   :ID:       c091cef4-e8d0-4880-96a5-6239c7e07604
+   :END:
+   https://typedb.com/docs/clients/2.x/console
+** the Python client for TypeDB
+   :PROPERTIES:
+   :ID:       2e5e9f7f-69af-46c0-8998-c1d224d205a7
+   :END:
+   https://typedb.com/docs/clients/2.x/python/python-overview
+   See sidebar for tutorial & API reference.
+* PITFALLs
+** Docs use "query" to mean more than read ops.
+* [[id:f027e52d-db16-4f2b-9b71-d904901a38a2][getting started with (i.e. running) TypeDB]]
+* [[id:8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd][TypeDB model and language]]
+* questions about TypeDB
+** If you delete an entity, what happens to the relationships it was in?

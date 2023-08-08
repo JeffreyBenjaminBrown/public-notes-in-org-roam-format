@@ -15,14 +15,11 @@
    (The trick is not, of course, to change my beliefs,
    but rather to act in accordance with them.)
 * [[id:d5585db3-ac97-426f-8455-c7a2b3dcee93][audiobook services]]
-* material to absorb*
-** Stravinsky on creativity and freedom, via Paul E
-   https://keyboardimprov.com/igor-stravinsky-on-creativity-and-freedom/?fbclid=IwAR1zf-XPFK3HS0AetP2o9sAjXSuNqGtX3lNQ-75X7JwNE7pgc-DLveCth38
+* material to absorb
 ** Podcasts rec'd by Juan Felipe
 *** Revisionist history
 *** Cautionary tales
 *** The Listening Service -- on music, rec'd by Juan Felipe
-** [[id:b5d751b6-5f43-491f-8fc7-39b7c190f106][Graph Show interview with Tomas Sabat of TypeDB]]
 ** [[id:0c4d2228-2f6e-47d7-a678-79620ce812dc][Death's End, novel by Liu Cixin]]
 ** [[id:2a435ecf-ddb5-4822-b52f-0667a02ac52c][Good conversation has lots of doorknobs.]]
    the discussion on Hacker News

@@ -1,0 +1,97 @@
+:PROPERTIES:
+:ID:       8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd
+:END:
+#+title: TypeDB model and language
+* the model
+** three top-level abstract classes
+   entity, relationship, attribute
+** "thing" is an invisible even-more-top-level type
+   It is deprecated, and will disappear in future versions of TypeDB.
+   But I (jbb) find it useful for talking about entities, relationships and attributes all at once. When I do I will capitalize the word Thing.
+** The type system consists of three trees.
+** A type is a set of constraints.
+** Its members are not enough to uniquely ID a relation.
+   But its relation type, members and attributes are:
+   "An instance of a relation can be uniquely addressed by a combination of its type, owned attributes, and role players."
+** Things* are said to "own" attributes.
+   but the syntax for creating such "ownership"
+   uses the word "has".
+** Every attribute type has a value type.
+** "An instance of an attribute type can be uniquely addressed by its type and value."
+** Deprecated: Attributes can have attributes.
+   This possibility will disappear.
+* syntax
+** definining relationship types
+   define
+
+   group-membership sub relation,
+     relates user-group,
+     relates group-member;
+
+   user-group sub entity
+     plays group-membership:user-group;
+
+   subject sub entity,
+     plays group-membership:group-member;
+   user sub subject;
+** defining attribute types
+   define
+
+   name sub attribute, value string;
+
+   person sub entity,
+     owns name;
+* Queries
+** A "Query" is any command.
+** "Define" queries modify the schema.
+   They add types and rules.
+** Things can be "undefine"d.
+** "Get" retrieves data.
+   In old docs it is sometimes called "match".
+*** PITFALL: The "get" clause in a Get is optional, but "match" is mandatory.
+*** a match clause
+    match $p isa person, has full-name $f;
+*** a match-get clause
+    # PITFALL: Maybe the first semicolon below should be a comma, or nothing.
+    match $p isa person, has full-name $f;
+    get $p, $f; # This is silly because there's no filtering;
+                # it would be more interesting to return, say, only $f.
+                # But I wanted to show that commas separate the variables.
+*** modifiers
+    Click through from where each is mentioned below for documentation on it.
+    https://typedb.com/docs/typedb/2.x/fundamentals/queries
+**** sort           :: sort the results by a variable
+**** offset + limit :: pagination of results
+**** group          :: group results by a variable
+**** aggregation    :: process results to produce a value for an answer
+** the Insert query
+*** optional "match" clause
+*** "insert" clause with preceding match
+    If a previous match clause binds $p, then this works:
+
+    insert $p has email "email@vaticle.com";
+*** "insert" clause with no preceding match
+    insert $p isa person, has email "email@vaticle.com";
+** Some matches are restricted.
+   For instance, in an insert or a delete, the match can't have any of these:
+
+   Conjunction
+   Disjunction
+   Negation
+   is keyword
+** Update = Delete + Insert
+   match
+     $p isa person, has full-name $n;
+     $n contains "inappropriate word";
+   delete
+     $p has $n;
+   insert
+     $p has full-name "deleted";
+* Patterns
+** definition
+   A pattern is a set of statements.
+   Every statement ends with a semicolon and consists of the following:
+     variables,
+     keywords,
+     types,
+     values.

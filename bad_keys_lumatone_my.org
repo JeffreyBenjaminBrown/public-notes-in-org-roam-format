@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       12131cbb-d86d-4668-a822-6be1ed676de1
+:END:
+#+title: bad keys \\ Lumatone, my
+* how to read these
+  0-indexing everything
+  when negative indexing, -1 means last
+  key 0 is at the top, key -1 is at the bottom
+* the bad keys, and the untested ones
+** column 6, key -2
+** col 8, key -3
+** col 9, key -3
+** col 13, key 0
+** col 14, keys 1, 2
+** skipped everything from the above to the next
+** BLOCKED col 19, key 3 (the really bad one)
+** skipped everything thereafter

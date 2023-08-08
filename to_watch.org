@@ -2,7 +2,12 @@
 :ID:       6338f677-2e09-4202-96bb-d5444247bf7a
 :END:
 #+title: to watch
-* [[id:b5d751b6-5f43-491f-8fc7-39b7c190f106][Graph Show interview with Tomas Sabat of TypeDB]]
+* wanted to watch on HBO; realistic
+** Band of Brothers (paratroopers in WW (2?) )
+    10 episodes
+** Chernobyl
+    5 episodes
+** John Adams (7 episodes)
 * Diamantino (movie)
 ** sci-fi or surreal, about a soccer star
 ** David Suarez loved it

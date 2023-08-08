@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       f027e52d-db16-4f2b-9b71-d904901a38a2
+:END:
+#+title: getting started \ TypeDB
+* choices of clients
+** TypeDB Studio : I couldn't install it.
+** TypeDB Console : Part of TypeDB
+   It's in the Docker container.
+*** [[id:c091cef4-e8d0-4880-96a5-6239c7e07604][online docs]]
+*** some interactive commands
+**** create a db
+     database create name_of_db
+**** modify a db's schema
+     transaction name_of_db schema write
+     define person sub entity;
+     commit
+*** Can execute scripts too.
+    same syntax
+** Python client
+*** my code
+    [[~/code/graphs/TypeDB/python/README.org]]
+*** [[id:2e5e9f7f-69af-46c0-8998-c1d224d205a7][documentation]]
+*** read and write to an existing db called "test"
+with TypeDB.core_client("localhost:1729") as client:
+    with client.session("test", SessionType.DATA) as session:
+        with session.transaction(TransactionType.WRITE) as write_transaction:
+            ## do something
+            write_transaction.commit()
+
+        with session.transaction(TransactionType.READ) as read_transaction:
+            ## do something
+            ## If not using a `with` statement, we must always close the read transaction like so
+            # read_transaction.close()
+            pass
+*** RESUME reading at
+    The section called "Querying" at
+    https://typedb.com/docs/clients/2.x/python/python-tutorial
+** Haskell client in progress
+   https://github.com/typedb-osi/typedb-client-haskell
+* using it from a Docker container
+  https://typedb.com/docs/typedb/2.x/installation.html
+  docker run --name try-typedb -d -v try-typedb-data:/opt/typedb-all-linux/server/data/ -p 1729:1729 --platform linux/amd64 vaticle/typedb:latest
