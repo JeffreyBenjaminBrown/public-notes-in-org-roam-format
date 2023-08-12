@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       9bc9d4ca-c2ec-4ef5-a10b-37a26c94bc09
+:END:
+#+title: potential disasters to review my notes on before inviting
+* [[id:e17f1f19-30af-486f-b5ad-2e1a01d94407][How to prepare for coding interviews]]?
+* [[id:ebfc71c5-86b6-41b2-adb0-75b513cd12dc][moving and movers]]
+* [[id:b5d0332d-c7a5-4f03-bda5-5c1bae785f7d][health dangers]], some surprising

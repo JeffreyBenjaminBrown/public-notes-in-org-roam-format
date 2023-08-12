@@ -3,11 +3,14 @@
 :ROAM_ALIASES: "Vaticle makes TypeDB"
 :END:
 #+title: TypeDB
-* RESUME at "Patterns"
-  https://typedb.com/docs/typedb/2.x/fundamentals/patterns
-* refs
-** the *real* docs
-   https://typedb.com/docs/typedb/2.x/overview.html
+* TODO RESUME at "Inference"
+  https://typedb.com/docs/typedb/2.x/development/infer
+* BLOCKED refs
+** BLOCKED the *real* docs
+*** BLOCKED TypeDB
+    https://typedb.com/docs/typedb/2.x/overview.html
+*** TypeQL
+    https://typedb.com/docs/typeql/2.x/overview
 ** TypeDB Core, installing and launching
    https://typedb.com/docs/typedb/2.x/installation.html
 ** client, installing a
@@ -29,3 +32,26 @@
 * [[id:8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd][TypeDB model and language]]
 * questions about TypeDB
 ** If you delete an entity, what happens to the relationships it was in?
+** Are role declarations not redundant?
+   Each entity declares what roles it can play,
+   and each relation declares what can play its roles.
+   See this [[id:a8f7a99b-ab5f-4aaf-aca9-8e8c27e198d0][example]].
+** When matching a relation, [[id:b1eda685-07ee-4a77-b0c1-875336bec53d][Why must the type of the relation's members be stated?]]
+* TODO report errors and maybe-errors in docs
+** Unfinished sentence: "The first instance og the"
+*** where
+    https://typedb.com/docs/typedb/2.x/fundamentals/patterns
+*** the quote
+    Then the match clause returns all matched combinations, including all permutations: 20 results in total. The first instance og the
+    [and then a new section titled "Variables" begins)
+** Should the "or" clause in the image at the link end in a semicolon?
+   https://typedb.com/docs/typedb/2.x/fundamentals/patterns#_complex_example
+** The syntax laid out for undefining rules makes it appear that the "sub" clause is mandatory, but it is not.
+   :PROPERTIES:
+   :ID:       149fcd59-17f1-4b4d-9f3b-18f8cb66e406
+   :END:
+   https://typedb.com/docs/typedb/2.x/development/schema
+*** For instance, the following undefine query, with no "sub" clause, is valid according to that page.
+    undefine
+
+    item owns tag;

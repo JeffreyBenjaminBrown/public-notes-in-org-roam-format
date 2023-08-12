@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       1671d3e4-5850-429c-85cd-06b46b9ec8de
+:END:
+#+title: fruits with a laxative effect
+* Pitaya
+  When I needed it, two seemed to do the job well,
+  without unpleasant excess effect.
+* Papaya
+* Mango
+* Piña

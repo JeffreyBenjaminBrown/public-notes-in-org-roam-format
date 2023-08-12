@@ -20,6 +20,28 @@
 ** "An instance of an attribute type can be uniquely addressed by its type and value."
 ** Deprecated: Attributes can have attributes.
    This possibility will disappear.
+** A DB is a (data, schema) pair. A TypeDB instance can contain multiple DBs.
+** Like-valued attributes are unique and (if needed) shared.
+   For instance, if "name" is an attribute,
+   there can only be one name equal to Bob,
+   but different people can share it.
+* connections
+** PITFALL: limitatinos
+*** schema integrity enforcement
+    Only one Schema session can be opened.
+    Only one Write transaction in a Schema session can be opened.
+    Opening a Schema session prevents any Data Write transactions.
+    Any Write transaction opened in a Data session prevents us from opening a Schema session.
+*** Schema sessions can't write data. Data sessions can't write schema.
+    But in either, all of the other three options are available.
+*** Time limits
+**** session timeout
+     Servers that don't hear from the client for long enough (the timeout period, I think they called it) close automatically. Clients automatically, periodically ping the server in the background.
+**** transaction time limit
+     Transactions are limited to, by default, 5 minutes. This is to prevent things like memory overruns.
+** TypeDB sessions are ACID-guaranteed "up to snapshot isolation".
+   snapshot isolation:
+     https://typedb.com/docs/typedb/2.x/development/connect#_isolation
 * syntax
 ** definining relationship types
    define
@@ -41,6 +63,97 @@
 
    person sub entity,
      owns name;
+** Multiple "define" statements can be in a single "define" query.
+** defining types
+*** general syntax (applies to any kind of Thing)
+    define
+
+    <label> sub <parent type label>
+	[(, abstract)]
+	[(, owns <attribute type label> [@annotation])...]
+	[(, plays <relation type label>:<role>)...];
+*** special syntax for relations
+**** scheme
+     <label> sub (<relation type label>)
+	[(, abstract)]
+	[(, owns <attribute type label> [@annotation])...]
+	(, relates <role label>) [(, relates <role label>)...] # UNIQUE
+	[(, plays <relation type label>:<role>)...];
+**** the unique part
+     The "relates" clauses overrides an otherwise inherited role.
+*** special syntax for attributes
+**** scheme
+     <label> sub (<abstract attribute type label>)
+     [(, abstract)]
+     , value <value type> [, regex "<regex-expression>"] # UNIQUE
+     [(, owns <attribute type label> [@annotation])...]
+     [(, plays <relation type label>:<role>)...];
+**** the unique parts
+***** "value <value type>" is mandatory.
+***** TODO [, regex "<regex-expression>"]
+*** an example defining all three kinds of Thing
+    :PROPERTIES:
+    :ID:       a8f7a99b-ab5f-4aaf-aca9-8e8c27e198d0
+    :END:
+    define
+
+    object           sub entity;
+    resource         sub object;
+    file             sub resource,
+       owns path,
+       owns size-kb,
+       plays object-ownership:object;
+
+    path             sub attribute, value string;
+    size-kb          sub attribute, value long;
+
+    object-ownership sub relation,
+       relates object;
+*** Aspects of types can be defined without defining the whole type.
+**** [[id:149fcd59-17f1-4b4d-9f3b-18f8cb66e406][see my question about their docs' stated syntax]]
+**** example
+     define
+
+     item owns size;
+** undefining types
+*** scheme
+    undefine
+
+    <label>
+        [sub <parent type label>]
+	[(, owns <attribute type label> [@annotation])...]
+	[(, plays <relation type label>:<role>)...];
+*** PITFALL: [[id:149fcd59-17f1-4b4d-9f3b-18f8cb66e406][The syntax in the docs for undefining rules makes it appear that the "sub" clause is mandatory, but it is not.]]
+*** If deleting part of the schema would render the data valid, it is forbidden.
+    Deleting or modifying the offending data must happen first.
+*** If the "sub" clause is naked, the entire type is deleted.
+*** The "parent" can actually be any ancestor.
+*** If instead there is an "owns" or a "plays" clause, then only that aspect of the type is deleted.
+** defining rules
+   :PROPERTIES:
+   :ID:       c92fe381-482f-47c3-8283-dfa234211c29
+   :END:
+*** scheme
+    define
+
+    rule <rule-label>:
+    when {
+	## the conditions
+    } then {
+	## the conclusion
+    };
+*** PITFALL: The rule-label is unique.
+    "Defining a rule with existing label will rewrite the old rule with the new one."
+** undefining rules
+   undefine
+
+   rule <rule-label>;
+** renaming a type
+   Depends on the client.
+*** in Python
+    https://typedb.com/docs/clients/2.x/python/python-api-ref#_rename_type_label
+** Modify a rule by simply redefining it.
+   It will overwrite the existing rule upon commit.
 * Queries
 ** A "Query" is any command.
 ** "Define" queries modify the schema.
@@ -49,8 +162,22 @@
 ** "Get" retrieves data.
    In old docs it is sometimes called "match".
 *** PITFALL: The "get" clause in a Get is optional, but "match" is mandatory.
+*** scheme
+    match <pattern>
+      [get <variable> [(, <variable>)...];]
+      [sort <variable> [asc|desc];]
+      [offset <value>;]
+      [limit <value>;]
+      [group <variable>;]
+      [count;] | [sum|max|min|mean|median|std <variable>;]
 *** a match clause
     match $p isa person, has full-name $f;
+**** matching a relation
+     $ac (object: $o, action: $a) isa access;
+***** Why must the type of the relation's members be stated?
+      :PROPERTIES:
+      :ID:       b1eda685-07ee-4a77-b0c1-875336bec53d
+      :END:
 *** a match-get clause
     # PITFALL: Maybe the first semicolon below should be a comma, or nothing.
     match $p isa person, has full-name $f;
@@ -67,9 +194,13 @@
 ** the Insert query
 *** optional "match" clause
 *** "insert" clause with preceding match
-    If a previous match clause binds $p, then this works:
+    Any variable referred to by the insert clause
+    must have been defined in the match clause.
 
-    insert $p has email "email@vaticle.com";
+    match
+      $f isa file, has path "README.md";
+    insert
+      $f has size-kb 55;
 *** "insert" clause with no preceding match
     insert $p isa person, has email "email@vaticle.com";
 ** Some matches are restricted.
@@ -79,6 +210,14 @@
    Disjunction
    Negation
    is keyword
+** Delete query syntax
+*** The ddeleted data can be an entity, an ownership, or a relation.
+*** The match clause is mandatory.
+*** an example
+    match
+      $p isa person, has full-name "Bob";
+    delete
+      $p isa person;
 ** Update = Delete + Insert
    match
      $p isa person, has full-name $n;
@@ -88,10 +227,112 @@
    insert
      $p has full-name "deleted";
 * Patterns
-** definition
+** a good example
+   match
+     $f isa file, has size-kb $s;
+     ?mb = $s/1024;
+     ?mb > 1;
+   Each result of this match will include $f, $s and ?mb.
+** syntax
    A pattern is a set of statements.
-   Every statement ends with a semicolon and consists of the following:
+   Every statement ends with a semicolon and consists of:
      variables,
      keywords,
      types,
      values.
+** variables
+*** syntax
+    start with a $ for a "concept variable",
+    or with a ? for a "value variable".
+*** the two kinds
+**** Concept variables are types or instnaces of types.
+     Most variables are these.
+**** Value variables
+***** THey are used for, e.g., arithmetic.
+***** Their scope is limited to the query that defines them.
+** constraints
+   are listed, separated by commas,
+   after a variable is introduced.
+   They can in turn define more variables.
+** Two solutions can overlap in some (but not all) variables.
+   "What if there is one person with the full-name attribute like that, but it has two email attributes? Then TypeDB will find two solutions/answers."
+** operations and functions
+*** The usual comparison operators are available.
+    ==, !=, >, >=, <, and <=
+*** Math operations, in order of precedence.
+    () :: parentheses
+    ^  :: exponentiation
+    *  :: multiplication
+    /  :: division
+    %  :: modulo
+    +  :: addition
+    -  :: subtraction
+*** More functions
+    min
+    max
+    floor
+    ceil
+    round
+    abs
+** logical operations
+   Operate on statements.
+   There are the usual three: negation, conjunction, and disjunction.
+*** syntax
+**** Conjunction is the default. Conjoint statements are separated by ";"s.
+**** Disjunction looks like "{_} or {_}".
+**** Negation looks like "not {_}".
+*** PITFALL: The semicolon rules are kind of strange.
+    Sometimes there's
+    See the image here:
+    https://typedb.com/docs/typedb/2.x/fundamentals/patterns#_complex_example
+** PITFALL: For a time, = will still work for comparison in some situations.
+*** In most, though, it is assignment,
+    and eventually that will be the only possible use.
+*** for mor detail
+    find this quote:
+      In TypeDB version 2.18.0, the = sign as a comparison operator was deprecated
+    on this page:
+      https://typedb.com/docs/typedb/2.x/fundamentals/patterns
+* Inference
+** how they work
+*** For each match of a rule's "condition", the "conclusion" defines temporary data.
+    Inferred results only last as long as the transaction spawning it.
+*** The schema is where rules are defined.
+*** Inference is recursive.
+** [[id:c92fe381-482f-47c3-8283-dfa234211c29][syntax: defining rules]]
+** PITFALL: "The inference option must be enabled".
+** PITFALL: limitations
+*** "All reasoning is done within a dataset of a transaction."
+*** TODO huh? : "When using a disjunction in a rule, the disjunctive parts must be bound by variables outside the or statement. These variables are the only ones permitted in the then clause."
+*** "when" clauses can be multipartite; "then" clauses cannot.
+*** Reads can use inference. Writes cannot.
+*** TODO huh? : abstract types are somewhat available
+**** the limitation
+     "can use abstract types in a rule as long as all the type variables that define which instances to create during materialization are concrete (non-abstract)."
+**** an example
+     define
+
+     abstract-person sub entity, abstract, plays friendship:friend; #abstract
+     friendship sub relation, relates friend;  #non-abstract
+
+     rule concrete-relation-over-abstract-players:
+     when {
+        $x isa abstract-person;
+     } then {
+        (friend: $x) isa friendship;};
+*** Negated variables are unuseable in the "then" clause.
+    "The then clause of a rule must not insert any instance which occurs negated in its when clause or in the when clause of any rule it may trigger. Attempting to define such a rule will throw an error."
+*** Conclusions must respect the schema
+    "e.g., we can’t give an attribute to an instance that can’t own that attribute type"
+** the three kinds of possible conclusions
+   A new relation.
+   Ownership of an attribute defined by its value.
+   Ownership of an attribute defined by a variable.
+* orphaned
+** builtin types
+   https://typedb.com/docs/typedb/2.x/fundamentals/patterns
+   long
+   double
+   boolean
+   string
+   datetime

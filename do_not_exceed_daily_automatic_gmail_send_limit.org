@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       27ce0bd9-cb6c-428a-bdc6-25d69ea66dcc
+:END:
+#+title: Do not exceed daily automatic Gmail send limit.
+* Consider all programs using it.
+  e.g. tax.co, phanaeros

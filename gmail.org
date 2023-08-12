@@ -2,6 +2,7 @@
 :ID:       fa765938-22c7-42cf-9ba6-6d7d732d5a06
 :END:
 #+title: Gmail
+* PITFALL: [[id:27ce0bd9-cb6c-428a-bdc6-25d69ea66dcc][Do not exceed daily automatic Gmail send limit.]]
 * [[id:c5b10311-7fc6-4bec-89a7-ed588a1bed83][using SMTP to control Gmail programmatically]]
 * [[id:c751cca4-afa3-48d8-aa58-b7580c43484e][to delete recent Gmail messages about the spread]]
 * searching with date ranges

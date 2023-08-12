@@ -3,7 +3,7 @@
 :END:
 #+title: moving and movers
 * when moving electric guitars: [[id:c80fe2b7-79ca-47bc-911c-1745ca23beb7][change temp/humidity slowly]]
-* Grill them on what they offer.
+* Grill the movers on what they offer.
 ** Closet-boxes?
    The kind with a bar to hang clothes on.
 ** Plastic to wrap delicates?
@@ -12,8 +12,10 @@
 ** Plastic boxes for fridge contents?
 ** How many people will they send?
    The guys who sent six, and two trucks, got it done in a morning.
+     (Colombia, 2021, Hayuelos to Paulo VI)
    The guys who sent two movers plus one truck and driver took all day,
-   which was a miserable experience.
+     which was a miserable experience.
+     (Colombia, 2022, within Paulo VI)
 * Don't trust them to estimate how much space we'll need.
 ** Encomudanzas underestimated
    the boxes we'd need by a factor of 4,
