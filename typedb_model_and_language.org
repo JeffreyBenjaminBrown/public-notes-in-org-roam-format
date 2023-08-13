@@ -142,6 +142,21 @@
     } then {
 	## the conclusion
     };
+*** example
+**** it
+     rule add-view-permission:
+         when {
+             $modify isa action, has name "modify_file";
+             $view isa action, has name "view_file";
+             $ac_modify (object: $obj, action: $modify) isa access;
+             $ac_view (object: $obj, action: $view) isa access;
+             (subject: $subj, access: $ac_modify) isa permission;
+         } then {
+             (subject: $subj, access: $ac_view) isa permission;
+         };
+**** what it does
+     If someone has modify access,
+     this rule infers that they also have view access.
 *** PITFALL: The rule-label is unique.
     "Defining a rule with existing label will rewrite the old rule with the new one."
 ** undefining rules
@@ -226,6 +241,11 @@
      $p has $n;
    insert
      $p has full-name "deleted";
+** matches are deduplicated
+   If you ask for every name owned by any person,
+   the same name will not appear twice, even if two people have it.
+   If instead you ask for the person and their name,
+   then the name will appear for each such person.
 * Patterns
 ** a good example
    match
@@ -300,6 +320,14 @@
 *** The schema is where rules are defined.
 *** Inference is recursive.
 ** [[id:c92fe381-482f-47c3-8283-dfa234211c29][syntax: defining rules]]
+** syntax: using inference in queries
+*** how depends on the client
+**** in the console
+     transaction typedb data read --infer true
+**** in Python
+     typedb_options = TypeDBOptions.core()  # Initialising a new set of options
+     typedb_options.infer = True  # Enabling inference in this new set of options
+     with session.transaction(TransactionType.READ, typedb_options) as transaction:
 ** PITFALL: "The inference option must be enabled".
 ** PITFALL: limitations
 *** "All reasoning is done within a dataset of a transaction."
@@ -328,6 +356,28 @@
    A new relation.
    Ownership of an attribute defined by its value.
    Ownership of an attribute defined by a variable.
+** explainability
+   TypeDB can explain how it arrives at conclusions using inference.
+   See "explain query" here:
+   https://typedb.com/docs/typedb/2.x/development/infer
+* response formats and "interpretation"
+  https://typedb.com/docs/typedb/2.x/development/response
+  Depends on the client.
+  JSON would seem reasonable, but I skipped this section.
+  I'm not even sure what they mean by "interpretation".
+* query optimization
+  There are more techniques, see "Developing a Query" at
+  https://typedb.com/docs/typedb/2.x/development/best
+** traversal costs, cheapest first
+   Attributes
+   Entities
+   Subtypes
+   Binary relations
+   N-ary relations
+   Rules
+** constraints help
+   "Limit the number of concepts being processed by adding additional constraints to variables in match clauses."
+** Disable inference when it's not needed.
 * orphaned
 ** builtin types
    https://typedb.com/docs/typedb/2.x/fundamentals/patterns

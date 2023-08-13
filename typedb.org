@@ -3,24 +3,24 @@
 :ROAM_ALIASES: "Vaticle makes TypeDB"
 :END:
 #+title: TypeDB
-* TODO RESUME at "Inference"
-  https://typedb.com/docs/typedb/2.x/development/infer
-* BLOCKED refs
-** BLOCKED the *real* docs
-*** BLOCKED TypeDB
-    https://typedb.com/docs/typedb/2.x/overview.html
-*** TypeQL
-    https://typedb.com/docs/typeql/2.x/overview
-** TypeDB Core, installing and launching
-   https://typedb.com/docs/typedb/2.x/installation.html
-** client, installing a
-   https://typedb.com/docs/clients/2.x/clients
-** TypeDB Console, using
+* TODO RESUME at "TypeQL"
+  https://typedb.com/docs/typeql/2.x/overview
+* refs
+** getting started
+*** TypeDB Core, installing and launching
+    https://typedb.com/docs/typedb/2.x/installation.html
+*** client, installing a
+    https://typedb.com/docs/clients/2.x/clients
+** TypeDB
+   https://typedb.com/docs/typedb/2.x/overview.html
+** TypeQL
+   https://typedb.com/docs/typeql/2.x/overview
+** Console
    :PROPERTIES:
    :ID:       c091cef4-e8d0-4880-96a5-6239c7e07604
    :END:
    https://typedb.com/docs/clients/2.x/console
-** the Python client for TypeDB
+** Python client
    :PROPERTIES:
    :ID:       2e5e9f7f-69af-46c0-8998-c1d224d205a7
    :END:
@@ -37,6 +37,10 @@
    and each relation declares what can play its roles.
    See this [[id:a8f7a99b-ab5f-4aaf-aca9-8e8c27e198d0][example]].
 ** When matching a relation, [[id:b1eda685-07ee-4a77-b0c1-875336bec53d][Why must the type of the relation's members be stated?]]
+** Aren't attributes unique per owner?
+   This suggests they aren't:
+   "A person can have more than one attribute of type full-name. Every instance of attribute will get to the results."
+   https://typedb.com/docs/typedb/2.x/development/best
 * TODO report errors and maybe-errors in docs
 ** Unfinished sentence: "The first instance og the"
 *** where

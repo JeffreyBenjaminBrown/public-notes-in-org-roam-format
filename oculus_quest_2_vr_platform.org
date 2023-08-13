@@ -2,7 +2,7 @@
 :ID:       7d829b36-5932-41b0-b697-e9b9c8e8627a
 :ROAM_ALIASES: "Meta Quest 2"
 :END:
-#+title: Oculus Quest 2 (VR platform)
+#+title: Oculus Quest 2
 * PITFALL: Oculus Quest 2 vulnerabilities
   :PROPERTIES:
   :ID:       6245c084-fdb8-4ea6-a998-af585b0524ec
