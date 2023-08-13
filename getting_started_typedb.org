@@ -16,28 +16,7 @@
      commit
 *** Can execute scripts too.
     same syntax
-** Python client
-*** my code
-    [[~/code/graphs/TypeDB/python/README.org]]
-*** [[id:2e5e9f7f-69af-46c0-8998-c1d224d205a7][documentation]]
-*** read and write to an existing db called "test"
-with TypeDB.core_client("localhost:1729") as client:
-  with client.session("test", SessionType.DATA) as session:
-    with session.transaction(TransactionType.WRITE) as write_transaction:
-      ## do something
-      write_transaction.commit()
-
-    with session.transaction(TransactionType.READ) as read_transaction:
-      ## do something
-
-      ## If not using a `with` statement
-      ## must always then close the read transaction, ala:
-      ## read_transaction.close()
-
-      pass
-*** RESUME reading at
-    The section called "Querying" at
-    https://typedb.com/docs/clients/2.x/python/python-tutorial
+** [[id:52393e43-d36a-4d8d-9cc4-f2f379e09eff][TypeDB Python client]]
 ** Haskell client in progress
    https://github.com/typedb-osi/typedb-client-haskell
 * using it from a Docker container
