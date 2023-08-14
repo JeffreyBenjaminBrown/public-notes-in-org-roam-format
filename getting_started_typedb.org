@@ -4,18 +4,7 @@
 #+title: getting started \ TypeDB
 * choices of clients
 ** TypeDB Studio : I couldn't install it.
-** TypeDB Console : Part of TypeDB
-   It's in the Docker container.
-*** [[id:c091cef4-e8d0-4880-96a5-6239c7e07604][online docs]]
-*** some interactive commands
-**** create a db
-     database create name_of_db
-**** modify a db's schema
-     transaction name_of_db schema write
-     define person sub entity;
-     commit
-*** Can execute scripts too.
-    same syntax
+** [[id:a061ed1f-4e6e-4d4f-99c0-8d641d511b23][TypeDB Console]] : Part of TypeDB
 ** [[id:52393e43-d36a-4d8d-9cc4-f2f379e09eff][TypeDB Python client]]
 ** Haskell client in progress
    https://github.com/typedb-osi/typedb-client-haskell

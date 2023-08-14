@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       a061ed1f-4e6e-4d4f-99c0-8d641d511b23
+:END:
+#+title: TypeDB Console
+It's in the Docker container.
+* [[id:c091cef4-e8d0-4880-96a5-6239c7e07604][online docs]]
+* to launch it from bash
+  ./typedb console
+* some interactive commands
+** database create <db>
+** database list
+** database delete <db>
+** database schema <db>
+   prints it
+** modify a db's schema
+   transaction name_of_db schema write
+   define person sub entity;
+   commit
+** transaction <db> (schema⎮data) (read⎮write) [options]
+   Start a transaction.
+   () = mandatory arguments
+   [] = optional arguments
+*** transaction options
+**** ref
+     https://typedb.com/docs/clients/2.x/console#_transaction_options
+**** example: enable inference
+     transaction typedb data read --infer true
+** commit: writes changes *and closes the transaction*
+** close: *discards changes* and closes the transaction
+** rollback: discards changes
+** source <filepath>
+   "Run TypeQL queries in a file, which we can refer to using relative or absolute path."
+* Can execute scripts too.
+  same syntax

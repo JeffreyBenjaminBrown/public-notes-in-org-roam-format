@@ -3,8 +3,11 @@
 :ROAM_ALIASES: "Vaticle makes TypeDB"
 :END:
 #+title: TypeDB
-* TODO RESUME at "TypeQL"
-  https://typedb.com/docs/typeql/2.x/overview
+* TODO RESUME
+** reviewing my notes at [[id:24fc6ad4-88cb-4234-8f4f-5d872d3cea8e][Queries]]
+   working downwards
+** reading the docs at "TypeQL"
+   https://typedb.com/docs/typeql/2.x/overview
 * refs
 ** getting started
 *** TypeDB Core, installing and launching
@@ -30,17 +33,17 @@
 ** Docs use "query" to mean more than read ops.
 * [[id:f027e52d-db16-4f2b-9b71-d904901a38a2][getting started with (i.e. running) TypeDB]]
 * [[id:8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd][TypeDB model and language]]
-* questions about TypeDB
+* TODO experiments to run
 ** If you delete an entity, what happens to the relationships it was in?
-** Are role declarations not redundant?
-   Each entity declares what roles it can play,
-   and each relation declares what can play its roles.
-   See this [[id:a8f7a99b-ab5f-4aaf-aca9-8e8c27e198d0][example]].
-** When matching a relation, [[id:b1eda685-07ee-4a77-b0c1-875336bec53d][Why must the type of the relation's members be stated?]]
-** Aren't attributes unique per owner?
+** Test: are attributes unique per owner?
    This suggests they aren't:
    "A person can have more than one attribute of type full-name. Every instance of attribute will get to the results."
    https://typedb.com/docs/typedb/2.x/development/best
+** Is the optional [[id:fd190477-3cd2-4d53-b9fd-b4b31047bdd4][regex]] part of an attribute definition a constraint?
+** Try [[id:5a099383-736c-47a3-927b-11390ff0dd9e][defining (schema) a standalone]] ownership or role membership.
+   after having defined the relevant types.
+*** then try a parallel insertion
+    (for the data, not the schema)
 * TODO report errors and maybe-errors in docs
 ** Unfinished sentence: "The first instance og the"
 *** where
