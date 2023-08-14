@@ -2,7 +2,21 @@
 :ID:       8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd
 :END:
 #+title: TypeDB model and language
+* weird vocabulary
+** A "Query" is any command.
+** [[id:7eb2ffaa-c82f-4717-b6a4-7095ad5a1e00][The "get" clause in a Get is optional, but "match" is mandatory.]]
+** [[id:756b88b4-5300-44a7-9b7d-154b991e0849][In old docs "get"s are sometimes called "match"es.]]
 * the type system
+** atomic datatypes, not part of the schema
+   :PROPERTIES:
+   :ID:       a825e88d-3815-4400-923d-a579de478811
+   :END:
+   https://typedb.com/docs/typedb/2.x/fundamentals/patterns
+   long
+   double
+   boolean
+   string
+   datetime
 ** The type system consists of three trees.
 *** the three top-level abstract classes
     entity, relationship, attribute
@@ -22,6 +36,11 @@
 ** Things* are said to "own" attributes.
 *** PITFALL: ownership is defined uses the word "has".
 ** Every attribute type has a value type.
+*** chosen, I guess, from the [[id:a825e88d-3815-4400-923d-a579de478811][atomic datatypes]]
+*** TODO Can a user define their own types?
+    :PROPERTIES:
+    :ID:       74db29a4-a21e-467c-8aa4-3cb62e393f41
+    :END:
 ** DEPRECATED: Attributes can have attributes.
    This possibility will disappear.
 * DBs, instances (= servers?), clients and connections
@@ -43,7 +62,9 @@
 ** TypeDB sessions are ACID-guaranteed "up to snapshot isolation".
    snapshot isolation:
      https://typedb.com/docs/typedb/2.x/development/connect#_isolation
-* syntax
+* defining the schema (types and rules)
+** "define" keyword
+   is for changing the schema
 ** defining types
 *** Multiple "define" statements can be in a single "define" query.
 *** definiy any type - syntax always applicable
@@ -134,6 +155,10 @@
     Deleting or modifying the offending data must happen first.
 *** Use the "sub" clause to delete the entire type.
 *** Use an "owns" or a "plays" clause to delete only that schema aspect.
+** renaming a type
+   Depends on the client.
+*** in Python
+    https://typedb.com/docs/clients/2.x/python/python-api-ref#_rename_type_label
 ** defining rules
    :PROPERTIES:
    :ID:       c92fe381-482f-47c3-8283-dfa234211c29
@@ -173,106 +198,106 @@
    undefine
 
    rule <rule-label>;
-** renaming a type
-   Depends on the client.
-*** in Python
-    https://typedb.com/docs/clients/2.x/python/python-api-ref#_rename_type_label
 ** Modify a rule by simply redefining it.
    That overwrites the earlier rule upon commit.
-* Queries
-  :PROPERTIES:
-  :ID:       24fc6ad4-88cb-4234-8f4f-5d872d3cea8e
-  :END:
-** A "Query" is any command.
-** "Define" queries modify the schema.
-   They add types and rules.
-** Things can be "undefine"d.
-** "Get" retrieves data.
-   In old docs it is sometimes called "match".
-*** PITFALL: The "get" clause in a Get is optional, but "match" is mandatory.
-*** scheme
-    match <pattern>
-      [get <variable> [(, <variable>)...];]
-      [sort <variable> [asc|desc];]
-      [offset <value>;]
-      [limit <value>;]
-      [group <variable>;]
-      [count;] | [sum|max|min|mean|median|std <variable>;]
-*** a match clause
+* to "Get" data
+** PITFALL: In old docs "get"s are sometimes called "match"es.
+   :PROPERTIES:
+   :ID:       756b88b4-5300-44a7-9b7d-154b991e0849
+   :END:
+** PITFALL: In a Get clause, "get" is optional, but "match" is mandatory.
+   :PROPERTIES:
+   :ID:       7eb2ffaa-c82f-4717-b6a4-7095ad5a1e00
+   :END:
+** scheme
+   match <pattern>
+     [get <variable> [(, <variable>)...];]
+     [sort <variable> [asc|desc];]
+     [offset <value>;]
+     [limit <value>;]
+     [group <variable>;]
+     [count;] | [sum|max|min|mean|median|std <variable>;]
+** examples
+*** matching an entity
     match $p isa person, has full-name $f;
-**** matching a relation
-     $ac (object: $o, action: $a) isa access;
+*** matching a relation
+    $ac (object: $o, action: $a) isa access;
 *** a match-get clause
     # PITFALL: Maybe the first semicolon below should be a comma, or nothing.
     match $p isa person, has full-name $f;
     get $p, $f; # This is silly because there's no filtering;
                 # it would be more interesting to return, say, only $f.
                 # But I wanted to show that commas separate the variables.
-*** modifiers
-    Click through from where each is mentioned below for documentation on it.
-    https://typedb.com/docs/typedb/2.x/fundamentals/queries
-**** sort           :: sort the results by a variable
-**** offset + limit :: pagination of results
-**** group          :: group results by a variable
-**** aggregation    :: process results to produce a value for an answer
-** the Insert query
-*** optional "match" clause
-*** "insert" clause with preceding match
-    Any variable referred to by the insert clause
-    must have been defined in the match clause.
+** modifiers
+   Click through from where each is mentioned below for documentation on it.
+   https://typedb.com/docs/typedb/2.x/fundamentals/queries
+*** sort           :: sort the results by a variable
+*** offset + limit :: pagination of results
+*** group          :: group results by a variable
+*** aggregation    :: process results to produce a value for an answer
+* to "Insert" data
+** "match" clause is optional
+** "insert" clause with no preceding match
+   insert $p isa person, has email "email@vaticle.com";
+** "insert" clause with preceding match
+   Any variable referred to by the insert clause
+   must have been defined in the match clause.
 
-    match
-      $f isa file, has path "README.md";
-    insert
-      $f has size-kb 55;
-*** "insert" clause with no preceding match
-    insert $p isa person, has email "email@vaticle.com";
-** Some matches are restricted.
-   For instance, in an insert or a delete, the match can't have any of these:
+   match
+     $f isa file, has path "README.md";
+   insert
+     $f has size-kb 55;
+* to "delete" data
+** The deleted data can be an entity, an ownership, or a relation.
+** The match clause is mandatory.
+** an example
+   match
+     $p isa person, has full-name "Bob";
+   delete
+     $p isa person;
+* Update = Delete + Insert
+  match
+    $p isa person, has full-name $n;
+    $n contains "inappropriate word";
+  delete
+    $p has $n;
+  insert
+    $p has full-name "deleted";
+* patterns | matching
+** limitations (ala Datalog)
+   In an insert or a delete, the match can't have any of these:
 
    Conjunction
    Disjunction
    Negation
    is keyword
-** Delete query syntax
-*** The ddeleted data can be an entity, an ownership, or a relation.
-*** The match clause is mandatory.
-*** an example
-    match
-      $p isa person, has full-name "Bob";
-    delete
-      $p isa person;
-** Update = Delete + Insert
-   match
-     $p isa person, has full-name $n;
-     $n contains "inappropriate word";
-   delete
-     $p has $n;
-   insert
-     $p has full-name "deleted";
-** matches are deduplicated
-   If you ask for every name owned by any person,
-   the same name will not appear twice, even if two people have it.
-   If instead you ask for the person and their name,
-   then the name will appear for each such person.
-* Patterns
-** a good example
-   match
-     $f isa file, has size-kb $s;
-     ?mb = $s/1024;
-     ?mb > 1;
-   Each result of this match will include $f, $s and ?mb.
+** what they return
+*** matches are deduplicated
+    If you ask for every name owned by any person,
+    the same name will not appear twice, even if two people have it.
+    If instead you ask for the person and their name,
+    then the name will appear for each such person.
+*** Two solutions can overlap in some (but not all) variables.
+    "What if there is one person with the full-name attribute like that, but it has two email attributes? Then TypeDB will find two solutions/answers."
 ** syntax
-   A pattern is a set of statements.
-   Every statement ends with a semicolon and consists of:
-     variables,
-     keywords,
-     types,
-     values.
+*** formula
+    A pattern is a set of statements.
+    Every statement ends with a semicolon and consists of:
+      variables,
+      keywords,
+      types,
+      values.
+*** example
+    match
+      $f isa file, has size-kb $s;
+      ?mb = $s/1024;
+      ?mb > 1;
+    Each result of this match will include $f, $s and ?mb.
 ** variables
 *** syntax
-    start with a $ for a "concept variable",
-    or with a ? for a "value variable".
+    Variables
+      start with a $ for a "concept variable",
+      or    with a ? for a "value variable".
 *** the two kinds
 **** Concept variables are types or instnaces of types.
      Most variables are these.
@@ -280,14 +305,33 @@
 ***** THey are used for, e.g., arithmetic.
 ***** Their scope is limited to the query that defines them.
 ** constraints
-   are listed, separated by commas,
-   after a variable is introduced.
-   They can in turn define more variables.
-** Two solutions can overlap in some (but not all) variables.
-   "What if there is one person with the full-name attribute like that, but it has two email attributes? Then TypeDB will find two solutions/answers."
+*** are listed, separated by commas, after a variable is introduced.
+*** They can in turn define more variables.
+    :PROPERTIES:
+    :ID:       4470f10a-a037-4c02-98ac-24a0c7299c5c
+    :END:
 ** operations and functions
+*** logic
+    Logical operations operate on statements.
+    There are the usual three: negation, conjunction, and disjunction.
+**** syntax
+***** Conjunction is the default. Conjoint statements are separated by ";"s.
+***** Disjunction looks like "{_} or {_}".
+***** Negation looks like "not {_}".
+**** PITFALL: The semicolon rules are kind of strange.
+     Sometimes there's
+     See the image here:
+     https://typedb.com/docs/typedb/2.x/fundamentals/patterns#_complex_example
 *** The usual comparison operators are available.
     ==, !=, >, >=, <, and <=
+**** PITFALL: For a time, = will still work for comparison in some situations.
+***** In most, though, it is assignment,
+      and eventually that will be the only possible use.
+***** for mor detail
+      find this quote:
+	In TypeDB version 2.18.0, the = sign as a comparison operator was deprecated
+      on this page:
+	https://typedb.com/docs/typedb/2.x/fundamentals/patterns
 *** Math operations, in order of precedence.
     () :: parentheses
     ^  :: exponentiation
@@ -303,47 +347,32 @@
     ceil
     round
     abs
-** logical operations
-   Operate on statements.
-   There are the usual three: negation, conjunction, and disjunction.
-*** syntax
-**** Conjunction is the default. Conjoint statements are separated by ";"s.
-**** Disjunction looks like "{_} or {_}".
-**** Negation looks like "not {_}".
-*** PITFALL: The semicolon rules are kind of strange.
-    Sometimes there's
-    See the image here:
-    https://typedb.com/docs/typedb/2.x/fundamentals/patterns#_complex_example
-** PITFALL: For a time, = will still work for comparison in some situations.
-*** In most, though, it is assignment,
-    and eventually that will be the only possible use.
-*** for mor detail
-    find this quote:
-      In TypeDB version 2.18.0, the = sign as a comparison operator was deprecated
-    on this page:
-      https://typedb.com/docs/typedb/2.x/fundamentals/patterns
-* Inference
+* inference
 ** how they work
 *** For each match of a rule's "condition", the "conclusion" defines temporary data.
     Inferred results only last as long as the transaction spawning it.
 *** The schema is where rules are defined.
 *** Inference is recursive.
+*** Three kinds possible conclusions are possible.
+    A new relation.
+    Ownership of an attribute defined by its value.
+    Ownership of an attribute defined by a variable.
 ** [[id:c92fe381-482f-47c3-8283-dfa234211c29][syntax: defining rules]]
 ** syntax: using inference in queries
-*** how depends on the client
-**** in the console
-     transaction typedb data read --infer true
-**** in Python
-     typedb_options = TypeDBOptions.core()  # Initialising a new set of options
-     typedb_options.infer = True  # Enabling inference in this new set of options
-     with session.transaction(TransactionType.READ, typedb_options) as transaction:
+   depends on the client
+*** in the console
+    transaction typedb data read --infer true
+*** in Python
+    typedb_options = TypeDBOptions.core()  # Initialising a new set of options
+    typedb_options.infer = True  # Enabling inference in this new set of options
+    with session.transaction(TransactionType.READ, typedb_options) as transaction:
 ** PITFALL: "The inference option must be enabled".
 ** PITFALL: limitations
 *** "All reasoning is done within a dataset of a transaction."
 *** TODO huh? : "When using a disjunction in a rule, the disjunctive parts must be bound by variables outside the or statement. These variables are the only ones permitted in the then clause."
 *** "when" clauses can be multipartite; "then" clauses cannot.
 *** Reads can use inference. Writes cannot.
-*** TODO huh? : abstract types are somewhat available
+*** abstract types can be used in conditions but not cconclusions
 **** the limitation
      "can use abstract types in a rule as long as all the type variables that define which instances to create during materialization are concrete (non-abstract)."
 **** an example
@@ -361,10 +390,6 @@
     "The then clause of a rule must not insert any instance which occurs negated in its when clause or in the when clause of any rule it may trigger. Attempting to define such a rule will throw an error."
 *** Conclusions must respect the schema
     "e.g., we can’t give an attribute to an instance that can’t own that attribute type"
-** the three kinds of possible conclusions
-   A new relation.
-   Ownership of an attribute defined by its value.
-   Ownership of an attribute defined by a variable.
 ** explainability
    TypeDB can explain how it arrives at conclusions using inference.
    See "explain query" here:
@@ -387,11 +412,3 @@
 ** constraints help
    "Limit the number of concepts being processed by adding additional constraints to variables in match clauses."
 ** Disable inference when it's not needed.
-* orphaned
-** builtin types
-   https://typedb.com/docs/typedb/2.x/fundamentals/patterns
-   long
-   double
-   boolean
-   string
-   datetime

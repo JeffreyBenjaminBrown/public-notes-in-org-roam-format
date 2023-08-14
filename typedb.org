@@ -4,8 +4,8 @@
 :END:
 #+title: TypeDB
 * TODO RESUME
-** reviewing my notes at [[id:24fc6ad4-88cb-4234-8f4f-5d872d3cea8e][Queries]]
-   working downwards
+** reviewing my notes at
+   working downward
 ** reading the docs at "TypeQL"
    https://typedb.com/docs/typeql/2.x/overview
 * refs
@@ -44,6 +44,9 @@
    after having defined the relevant types.
 *** then try a parallel insertion
     (for the data, not the schema)
+** Try [[id:4470f10a-a037-4c02-98ac-24a0c7299c5c][defining new variables]] in a constraint on an earlier variable.
+* TODO questions
+** [[id:74db29a4-a21e-467c-8aa4-3cb62e393f41][Can a user define their own types?]]
 * TODO report errors and maybe-errors in docs
 ** Unfinished sentence: "The first instance og the"
 *** where
