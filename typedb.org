@@ -3,11 +3,13 @@
 :ROAM_ALIASES: "Vaticle makes TypeDB"
 :END:
 #+title: TypeDB
-* TODO RESUME
-** reviewing my notes at
-   working downward
-** reading the docs at "TypeQL"
-   https://typedb.com/docs/typeql/2.x/overview
+* TODO RESUME | unread
+** reviewing my notes
+*** already reviewed and ordered
+    [[id:8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd][TypeDB model and language]]
+** reading the Python docs at the [[id:efb4ffb5-219b-4e12-acc6-42ffa6edc775][responses section of the API reference]]
+** reading the TypeQL docs at "[[id:9941d24a-fc78-4854-aaef-8493f6ad1da7][Advanced Patterns & Queries]]"
+   (I'm already done with the TypeDB docs.)
 * refs
 ** getting started
 *** TypeDB Core, installing and launching
@@ -18,6 +20,7 @@
    https://typedb.com/docs/typedb/2.x/overview.html
 ** TypeQL
    https://typedb.com/docs/typeql/2.x/overview
+*** [[id:e86f5069-c318-4935-97ae-538da6d431bf][the full TypeQL grammar]]
 ** Console
    :PROPERTIES:
    :ID:       c091cef4-e8d0-4880-96a5-6239c7e07604
@@ -31,9 +34,12 @@
    See sidebar for tutorial & API reference.
 * PITFALLs
 ** Docs use "query" to mean more than read ops.
-* [[id:f027e52d-db16-4f2b-9b71-d904901a38a2][getting started with (i.e. running) TypeDB]]
+* [[id:f027e52d-db16-4f2b-9b71-d904901a38a2][running TypeDB]]
 * [[id:8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd][TypeDB model and language]]
 * TODO experiments to run
+** Roles are inherited, right?
+   That is, I don't have to define that a type can play a role,
+   if I already stated that its parent can.
 ** If you delete an entity, what happens to the relationships it was in?
 ** Test: are attributes unique per owner?
    This suggests they aren't:
@@ -45,6 +51,8 @@
 *** then try a parallel insertion
     (for the data, not the schema)
 ** Try [[id:4470f10a-a037-4c02-98ac-24a0c7299c5c][defining new variables]] in a constraint on an earlier variable.
+** [[id:fa3b7eb8-c4dc-4748-9c6d-e594305ee35c][Python client experiments]]
+** try writing an Emacs client
 * TODO questions
 ** [[id:74db29a4-a21e-467c-8aa4-3cb62e393f41][Can a user define their own types?]]
 * TODO report errors and maybe-errors in docs
@@ -65,3 +73,4 @@
     undefine
 
     item owns tag;
+** The TypeQL docs are almost entirely redundant to the TypeDB docs.

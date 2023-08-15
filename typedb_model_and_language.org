@@ -6,6 +6,14 @@
 ** A "Query" is any command.
 ** [[id:7eb2ffaa-c82f-4717-b6a4-7095ad5a1e00][The "get" clause in a Get is optional, but "match" is mandatory.]]
 ** [[id:756b88b4-5300-44a7-9b7d-154b991e0849][In old docs "get"s are sometimes called "match"es.]]
+* general syntax
+** Whitespace is ignored.
+** Comments start with #, and can begin mid-line.
+** the full TypeQL grammar
+   :PROPERTIES:
+   :ID:       e86f5069-c318-4935-97ae-538da6d431bf
+   :END:
+   https://typedb.com/docs/typeql/2.x/grammar
 * the type system
 ** atomic datatypes, not part of the schema
    :PROPERTIES:
@@ -230,7 +238,9 @@
                 # But I wanted to show that commas separate the variables.
 ** modifiers
    Click through from where each is mentioned below for documentation on it.
-   https://typedb.com/docs/typedb/2.x/fundamentals/queries
+*** PITFALL: docs are redundant; I'm not sure which of these is better
+    https://typedb.com/docs/typedb/2.x/fundamentals/queries
+    https://typedb.com/docs/typeql/2.x/data/get
 *** sort           :: sort the results by a variable
 *** offset + limit :: pagination of results
 *** group          :: group results by a variable
@@ -348,6 +358,9 @@
     round
     abs
 * inference
+** SEE ALSO for more detail
+   including transitivity and Horn logic limitations:
+   https://typedb.com/docs/typeql/2.x/schema/define-rules
 ** how they work
 *** For each match of a rule's "condition", the "conclusion" defines temporary data.
     Inferred results only last as long as the transaction spawning it.
@@ -390,6 +403,9 @@
     "The then clause of a rule must not insert any instance which occurs negated in its when clause or in the when clause of any rule it may trigger. Attempting to define such a rule will throw an error."
 *** Conclusions must respect the schema
     "e.g., we can’t give an attribute to an instance that can’t own that attribute type"
+** PITFALL: infinite loop footgun
+   https://typedb.com/docs/typeql/2.x/fundamentals
+   "It is possible to create a recursive logic in the line of n = n +1 by assigning attribute ownership with the value of a value variable. If triggered, such a rule can run indefinitely while the transaction lasts and can cause an out-of-memory error."
 ** explainability
    TypeDB can explain how it arrives at conclusions using inference.
    See "explain query" here:
@@ -412,3 +428,9 @@
 ** constraints help
    "Limit the number of concepts being processed by adding additional constraints to variables in match clauses."
 ** Disable inference when it's not needed.
+* Advanced Patterns & Queries
+  :PROPERTIES:
+  :ID:       9941d24a-fc78-4854-aaef-8493f6ad1da7
+  :END:
+  unread
+  https://typedb.com/docs/typeql/2.x/data/advanced

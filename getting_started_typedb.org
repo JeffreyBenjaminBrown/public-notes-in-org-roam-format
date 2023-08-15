@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       f027e52d-db16-4f2b-9b71-d904901a38a2
+:ROAM_ALIASES: "running TypeDB"
 :END:
 #+title: getting started \ TypeDB
 * choices of clients
