@@ -49,6 +49,7 @@
     :PROPERTIES:
     :ID:       74db29a4-a21e-467c-8aa4-3cb62e393f41
     :END:
+    Seems kind of a silly idea.
 ** DEPRECATED: Attributes can have attributes.
    This possibility will disappear.
 * DBs, instances (= servers?), clients and connections

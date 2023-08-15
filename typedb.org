@@ -37,24 +37,32 @@
 * [[id:f027e52d-db16-4f2b-9b71-d904901a38a2][running TypeDB]]
 * [[id:8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd][TypeDB model and language]]
 * TODO experiments to run
-** Roles are inherited, right?
+** DONE Roles are inherited.
    That is, I don't have to define that a type can play a role,
    if I already stated that its parent can.
-** If you delete an entity, what happens to the relationships it was in?
-** Test: are attributes unique per owner?
+** DONE If you delete an entity, the relationships it was in persist!
+   with holes
+** DONE Attributes are not unique per owner!
    This suggests they aren't:
    "A person can have more than one attribute of type full-name. Every instance of attribute will get to the results."
    https://typedb.com/docs/typedb/2.x/development/best
-** Is the optional [[id:fd190477-3cd2-4d53-b9fd-b4b31047bdd4][regex]] part of an attribute definition a constraint?
+** Try [[id:4470f10a-a037-4c02-98ac-24a0c7299c5c][defining new variables]] in a constraint on an earlier variable.
 ** Try [[id:5a099383-736c-47a3-927b-11390ff0dd9e][defining (schema) a standalone]] ownership or role membership.
    after having defined the relevant types.
-*** then try a parallel insertion
-    (for the data, not the schema)
-** Try [[id:4470f10a-a037-4c02-98ac-24a0c7299c5c][defining new variables]] in a constraint on an earlier variable.
+*** then try a standalone data insertion of ownership or role membership
+** Is the optional [[id:fd190477-3cd2-4d53-b9fd-b4b31047bdd4][regex]] part of an attribute definition a constraint?
 ** [[id:fa3b7eb8-c4dc-4748-9c6d-e594305ee35c][Python client experiments]]
 ** try writing an Emacs client
 * TODO questions
-** [[id:74db29a4-a21e-467c-8aa4-3cb62e393f41][Can a user define their own types?]]
+** How to enforce attribute uniqueness (various kinds)?
+*** global attribute uniqueness
+    The attribute might uniquely ID its owner.
+*** within-type (and subtypes) attribute uniqueness
+*** within-entity attribute uniqueness
+*** within-type relationship uniqueness defined by members
+    rather than members *and* attributes
+** DONE meh
+*** [[id:74db29a4-a21e-467c-8aa4-3cb62e393f41][Can a user define their own types?]]
 * TODO report errors and maybe-errors in docs
 ** Unfinished sentence: "The first instance og the"
 *** where
