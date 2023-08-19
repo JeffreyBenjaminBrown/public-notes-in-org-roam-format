@@ -19,7 +19,10 @@
   https://stackoverflow.com/questions/9427553/how-to-download-a-file-from-server-using-ssh/9427762#9427762
   or the comment above it.
 ** command to run
-   [For speed, maybe use the AWS EC2 CLI.]
+   For speed, maybe use the AWS EC2 CLI.
+   See my of/ec2 folder for current definitions of the .pem file and the IP address for the remote host.
+
+   scp [options] source.. host
    scp  -i  ~/code/aws/secret/2021-03-24.pem  ubuntu@34.204.60.103://home/ubuntu/amazon.zip .
    scp  -i  ~/code/aws/secret/2021-03-24.pem  ../data/many_tiny ec2-user@34.204.60.103://home/ec2-user
 * [[id:4e174852-e887-4a8b-a2ab-6a9ea6718f31][hibernation for AWS EC2]]
