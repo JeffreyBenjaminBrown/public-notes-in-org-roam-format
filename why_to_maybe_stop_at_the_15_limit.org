@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       9ada996d-8dc9-4e4b-84d0-00a6e22f518e
+:END:
+#+title: why to maybe stop at the 15-limit
+* [[id:9cdeafc9-698c-43b1-b02c-88062ea298dc][Harmonic 23 is not worth it.]]
+* By similar logic, the 19th and 17th aren't worth it.
+* By contrast, harmonic 15 is a full 16.5c from the nearest 13-limit ratio,
+  and in the full 15-limit,
+  no two ratios appear to be nearer than 10 cents to each other.

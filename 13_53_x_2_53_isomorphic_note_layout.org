@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       f6a9543d-5e56-46bc-a3c0-a76dc141b297
+:END:
+#+title: 13\53 x 2\53 (isomorphic note layout)
+* theoretical maximum needed stretch = 589c
+  = (13 * 2) * 12 / 53
+  = 5.886792452830188
+* as table
+  0 steps; 1 % 1; string 0; fret 0
+  9 steps; 9 % 8; string 1; fret -2
+  17 steps; 5 % 4; string 1; fret 2
+  24 steps; 11 % 8; string 2; fret -1
+  31 steps; 3 % 2; string 3; fret -4
+  37 steps; 13 % 8; string 3; fret -1
+  43 steps; 7 % 4; string 5; fret -11
+  48 steps; 15 % 8; string 4; fret -2
+  53 steps; 2 % 1; string 5; fret -6
+* as picture
+  MTV> myPrint $ map concat $ printLayout (primesOctave1 15) (show . numerator) 53 (13,2)
+
+  Cropped result. Stars outside the picture indicate the central root.
+
+                         ***
+  -  -  -  -  -  1  -  -  -  -  -  -  -  -  - 11 13
+  7  -  -  -  -  -  -  -  -  -  -  -  -  1  -  -  -
+  -  -  -  3  -  -  5  -  7  -  -  -  -  -  -  -  -
+  -  -  -  -  -  -  -  -  -  -  -  3  -  -  5  -  7
+  -  9  -  - 15  -  -  -  -  -  -  -  -  -  -  -  -
+  -  - 11 13  -  -  -  -  -  9  -  - 15  -  -  -  -
+  1  -  -  -  -  -  -  -  -  - 11 13  -  -  -  -  -
+  -  -  -  -  -  -  -  -  1  -  -  -  -  -  -  -  - ***
+  -  5  -  7  -  -  -  -  -  -  -  -  -  -  -  -  1
+  -  -  -  -  -  -  3  -  -  5  -  7  -  -  -  -  -
+  -  -  -  -  -  -  -  -  -  -  -  -  -  -  3  -  -
+  -  -  -  -  9  -  - 15  -  -  -  -  -  -  -  -  -
+  -  -  -  -  - 11 13  -  -  -  -  -  9  -  - 15  -
+  -  -  -  1  -  -  -  -  -  -  -  -  - 11 13  -  -
+  -  -  -  -  -  -  -  -  -  -  -  1  -  -  -  -  -

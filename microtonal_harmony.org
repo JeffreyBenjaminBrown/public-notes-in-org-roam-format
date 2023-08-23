@@ -3,6 +3,7 @@
 :END:
 #+title: microtonal harmony
 * RESUME reading these notes [[id:86ec614c-4e4d-4ded-8e11-60caef7ad4c8][here]]
+* [[id:9ada996d-8dc9-4e4b-84d0-00a6e22f518e][why to maybe stop at the 15-limit]]
 * about the intervals
 ** the three low-JI whole tones are roughly evenly spaced
 *** the two lowest are 27c apart, the two highest 22c

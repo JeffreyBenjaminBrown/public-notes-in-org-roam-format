@@ -3,6 +3,10 @@
 :END:
 #+title: 53-edo
 * [[id:d9743c5d-c831-4b0d-ba89-45be1a32d62c][53-edo and 106-edo are fat-finger friendly.]]
+* [[id:1dd86b1f-784e-4c52-a473-dbc034408415][Harmonic theory \ 53-edo]]
+* TODO for Lumatone : [[id:35729ae3-c4d0-40ef-be0e-e7900428c1c9][7\53 x 3\53]]
+** I mapped everything with the octave at 8,1 and 8,3.
+** It's the only one with easy 5-limit triads.
 * 53 5 12: 0-area 4x8, or 4x4 without 13
    , etrArea = 48
    , etrLayout =
@@ -15,6 +19,12 @@
        , 24 steps; 11 % 8 ; string 2 ; fret 0
        , 37 steps; 13 % 8 ; string 1 ; fret 5
        , 48 steps; 15 % 8 ; string 4 ; fret 0
+* TODO for guitar
+** [[id:7d5d41d4-a1bc-48f0-8b18-45077dea08f3][17\53 x 3\53]] *seems* great!?
+** [[id:d77874a9-db54-443e-8701-4f000bdb92b2][14\53 x 3\53]] looks great!
+** [[id:085fc2a1-eb29-4ef3-afbb-97d3b7cdb69f][11\53 x 3\53]] looks great!
+** [[id:f6a9543d-5e56-46bc-a3c0-a76dc141b297][13\53 x 2\53]]
+   15 x 2 and even 17 x 2 also look pretty feasible, but harder.
 * 8\53 x 1\53u: octave 7-3, width 6, well-behaved
   00 steps; 1  % 1; string 0; fret 0
   09 steps; 9  % 8; string 1; fret 1
@@ -25,7 +35,7 @@
   43 steps; 7  % 4; string 6; fret -5
   48 steps; 15 % 8; string 6; fret 0
   53 steps; 2  % 1; string 7; fret -3
-* 53 2 11: 0-area 5x6, straight 2:3:9
+* 11\53 x 2\53: 0-area 5x6, straight 2:3:9
       [  0 steps;  1 % 1 ; string 0 ; fret 0
       , 53 steps;  2 % 1 ; string 5 ; fret - 1
       , 31 steps;  3 % 2 ; string 3 ; fret - 1
@@ -34,7 +44,7 @@
       ,  9 steps;  9 % 8 ; string 1 ; fret - 1
       , 24 steps; 11 % 8 ; string 2 ; fret 1
       , 37 steps; 13 % 8 ; string 3 ; fret 2
-* 53 3 10: 0-area 5x6, straight 2:5:7:13
+* 10\53 x 3\53: 0-area 5x6, straight 2:5:7:13
       [  0 steps;  1 % 1 ; string 0 ; fret 0
       , 53 steps;  2 % 1 ; string 5 ; fret 1
       , 31 steps;  3 % 2 ; string 4 ; fret - 3
@@ -53,27 +63,3 @@
   24 steps; 11 % 8; string 0; fret 6
   37 steps; 13 % 8; string 1; fret 7
   48 steps; 15 % 8; string 4; fret 3
-* TODO 7\53 x 3\53
-** octave 8-1
-** everything but 13:8 pretty close
-** MTV> myPrint $ map concat $ printLayout (primesOctave1 15) (show . numerator) 53 (7,-3)
-1  -  -  -  -  -  -  -  -  -  5 11  3  -  -  -  -  -  -  -  -
--  -  -  -  -  -  -  -  1  -  -  -  -  -  -  -  -  -  5 11  3
--  -  -  -  -  -  -  7  -  -  -  -  -  -  -  -  1  -  -  -  -
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  7  -  -  -  -  -
-- 15  -  9  -  -  - 13  -  -  -  -  -  -  -  -  -  -  -  -  -
--  -  -  -  -  -  -  -  - 15  -  9  -  -  - 13  -  -  -  -  -
--  -  -  -  -  5 11  3  -  -  -  -  -  -  -  -  - 15  -  9  -
--  -  -  1  -  -  -  -  -  -  -  -  -  5 11  3  -  -  -  -  -
--  -  7  -  -  -  -  -  -  -  -  1  -  -  -  -  -  -  -  -  -
--  -  -  -  -  -  -  -  -  -  7  -  -  -  -  -  -  -  -  1  -
--  - 13  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  7  -  -
--  -  -  - 15  -  9  -  -  - 13  -  -  -  -  -  -  -  -  -  -
-5 11  3  -  -  -  -  -  -  -  -  - 15  -  9  -  -  - 13  -  -
--  -  -  -  -  -  -  -  5 11  3  -  -  -  -  -  -  -  -  - 15
--  -  -  -  -  -  1  -  -  -  -  -  -  -  -  -  5 11  3  -  -
--  -  -  -  -  7  -  -  -  -  -  -  -  -  1  -  -  -  -  -  -
--  -  -  -  -  -  -  -  -  -  -  -  -  7  -  -  -  -  -  -  -
--  9  -  -  - 13  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
--  -  -  -  -  -  - 15  -  9  -  -  - 13  -  -  -  -  -  -  -
--  -  -  5 11  3  -  -  -  -  -  -  -  -  - 15  -  9  -  -  -

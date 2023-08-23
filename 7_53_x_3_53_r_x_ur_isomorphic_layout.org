@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       35729ae3-c4d0-40ef-be0e-e7900428c1c9
+:END:
+#+title: 7\53 x 3\53 (r x ur) (isomorphic layout)
+* octave 8-1
+  which is as close to diagonal as is possible in an 8-column layout,
+  given that 8-2 is impossible
+  (because 8x + 2y cannot be equal to an odd number, which 53 is).
+* everything but 13:8 pretty close
+* layout
+  MTV> myPrint $ map concat $ printLayout (primesOctave1 15) (show . numerator) 53 (7,-3)
+
+  Cropped result. Stars outside the picture indicate the central root.
+
+                         ***
+  -  -  -  -  -  1  -  -  -  -  -  -  -  -  -  5 11
+  -  -  -  -  7  -  -  -  -  -  -  -  -  1  -  -  -
+  -  -  -  -  -  -  -  -  -  -  -  -  7  -  -  -  -
+  9  -  -  - 13  -  -  -  -  -  -  -  -  -  -  -  -
+  -  -  -  -  -  - 15  -  9  -  -  - 13  -  -  -  -
+  -  -  5 11  3  -  -  -  -  -  -  -  -  - 15  -  9
+  1  -  -  -  -  -  -  -  -  -  5 11  3  -  -  -  -
+  -  -  -  -  -  -  -  -  1  -  -  -  -  -  -  -  - **
+  -  -  -  -  -  -  -  7  -  -  -  -  -  -  -  -  1
+  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  7  -
+  - 15  -  9  -  -  - 13  -  -  -  -  -  -  -  -  -
+  -  -  -  -  -  -  -  -  - 15  -  9  -  -  - 13  -
+  -  -  -  -  -  5 11  3  -  -  -  -  -  -  -  -  -
+  -  -  -  1  -  -  -  -  -  -  -  -  -  5 11  3  -
+  -  -  7  -  -  -  -  -  -  -  -  1  -  -  -  -  -

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       9ac5ebd7-ad3b-414f-a9e4-9c3cd0c4616a
+:END:
+#+title: some principles some mindmappers visit regularly
+   https://twitter.com/michael_nielsen/status/1615093198808027137
+* http://www.paulgraham.com/vb.html
+* TODO RESUME
+  at first instance of the phrase:
+    you can probably find employers that will waste less of your time.
+* "[bullshit is] the junk food of experience"
+  "addictive but unrewarding pastimes."
+  "Unnecessary meetings"
+  "it's either forced on you, or it tricks you."
+** [jbb] Awareness ought to solve this.
+   Ask frequently whether something is necessary and/or rewarding,
+   and adjust behavior accordingly.

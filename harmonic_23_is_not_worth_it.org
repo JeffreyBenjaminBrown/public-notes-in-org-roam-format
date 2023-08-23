@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       9cdeafc9-698c-43b1-b02c-88062ea298dc
+:END:
+#+title: Harmonic 23 is not worth it.
+* more precisely
+  The 23rd harmonic is not yet, to me,
+  worth distinguishing from 13/9.
+* argument
+MTV> ratioToCents $ 13/9
+636.6176600385357
+MTV> ratioToCents $ 23/16
+628.2743472684156
+MTV> ratioToCents (13/9) - ratioToCents (23/16)
+8.343312770120178

@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       1dd86b1f-784e-4c52-a473-dbc034408415
+:END:
+#+title: Harmonic theory \ 53-edo
+* 10 steps = 226.4 c
+  226.415 c
+* harmonics
+MTV> myPrint $ bests 53
+
+(3 % 2,702.0,31,701.9,-6.817627e-2)
+(5 % 4,386.3,17,384.9,-1.40802)
+(7 % 4,968.8,43,973.6,4.758972)
+(11 % 8,551.3,24,543.4,-7.921692)
+(13 % 8,840.5,37,837.7,-2.791809)
+(17 % 16,105.0,5,113.2,8.252136)
+(19 % 16,297.5,13,294.3,-3.1734009)
+(23 % 16,628.3,28,634.0,5.6879272)
+* how far to take its harmonics
+** It certainly does not reach the 29th harmonic.
+   29 / 16 is indistinguishable from 9 / 5,
+   and terribly approximated.
+** It arguably does not reach the 23rd harmonic.
+   23 / 16 is indistinguishable from 13 / 9,
+   and much worse approximated,
+   though not terribly -- +6c error.
+   Since 13 / 9 is such a weird unfamiliar interval,
+   I'm not sure this should be a concern.
+   Or maybe the more important concer is
+   whether the 23rd harmonic deserves to be considered *ever*.
+   I suspect the answer is no: [[id:9cdeafc9-698c-43b1-b02c-88062ea298dc][harmonic 23 is not worth it.]]
