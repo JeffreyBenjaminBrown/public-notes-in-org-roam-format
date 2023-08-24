@@ -20,7 +20,7 @@
        , 37 steps; 13 % 8 ; string 1 ; fret 5
        , 48 steps; 15 % 8 ; string 4 ; fret 0
 * TODO for guitar
-** [[id:7d5d41d4-a1bc-48f0-8b18-45077dea08f3][17\53 x 3\53]] *seems* great!?
+** TODO WINNER: [[id:7d5d41d4-a1bc-48f0-8b18-45077dea08f3][17\53 x 3\53]] is great!
 ** [[id:d77874a9-db54-443e-8701-4f000bdb92b2][14\53 x 3\53]] looks great!
 ** [[id:085fc2a1-eb29-4ef3-afbb-97d3b7cdb69f][11\53 x 3\53]] looks great!
 ** [[id:f6a9543d-5e56-46bc-a3c0-a76dc141b297][13\53 x 2\53]]
