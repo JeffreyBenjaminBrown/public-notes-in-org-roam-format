@@ -1279,19 +1279,7 @@ Notice in particular how natural the dominant 9th chord is in root position:
    19 steps;  7 % 4; string 4; fret -1
    28 steps;  9 % 8; string 6; fret -2
 
-* 27-edo
-** 8\27 x 3\27: surprisingly compact
-   0  steps;  1 % 1; string 0; fret 0
-   9  steps;  5 % 4; string 0; fret 3
-   12 steps; 11 % 8; string 0; fret 4
-   5  steps;  9 % 8; string 1; fret -1
-   16 steps;  3 % 2; string 2; fret 0
-   19 steps; 13 % 8; string 2; fret 1
-   22 steps;  7 % 4; string 2; fret 2
-   24 steps; 15 % 8; string 3; fret 0
-   27 steps;  2 % 1; string 3; fret 1
-** In the 7-limit it's an extremely sharp system.
-** [[id:b98176fc-85fb-4274-a248-21ec9ab6a65a][27-edo is fat-finger friendly with 54-edo.]]
+* [[id:f3d2ac44-9038-4faa-adf4-f120053f529a][27-edo]]
 * [[id:5e4745df-4597-4590-9f2e-15fd035ae932][29-edo]]
 * [[id:c7a620a4-f012-4a8e-bd19-193c303f0e5c][31-edo]]
 * [[id:7dd9c689-51f9-45da-bbd1-d3068615917a][34-edo]]

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       bf229144-c124-4807-9289-a0924eeb3883
+:END:
+#+title: guitar
+* [[id:f53d79b9-6b3b-4d25-b747-f69344a14808][guitar intonation setup]]
+* [[id:0fb050fc-28b8-48a6-914b-6d5970490d46][microtonal guitar]]
+* [[id:29b8dc74-09ee-418c-9bb8-98bd4a3313b4][luthiers]]
+* [[id:f363d63e-a322-42b3-887c-a5ebf58c3a09][Matthew Auttrey on fretting a guitar]]

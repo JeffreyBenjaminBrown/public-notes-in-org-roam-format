@@ -2,6 +2,8 @@
 :ID:       7d5d41d4-a1bc-48f0-8b18-45077dea08f3
 :END:
 #+title: 17\53 x 3\53 (isomorphic note layout)
+* Matthew Auttrey has made "5 or 6" guitars like this
+  although most of them he then re-fretted for something else.
 * most 15-limit ratios are easy to play
   and for those that aren't, their octaves are
 ** example: 7/6 is hard, but 7/3 is easy

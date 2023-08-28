@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f363d63e-a322-42b3-887c-a5ebf58c3a09
+:END:
+#+title: Matthew Auttrey on fretting a guitar
+* the tools he uses
+  a good fret saw that matches your fret tang, a fret hammer, end nippers for cutting frets the length, a good flat battery file for leveling, a z file to recrown after leveling, a very small file with a safe edge to round the fret ends. 220,320,400 grits, then 0000 steel wool to polish, masking tape to protect the fingerboard.
+* filing
+  The big bastard file is laid on frets, parallel to the string direction and run up or down the length of the neck.
+
+  I mark the crowns of all of the frets with a sharpie before filing, then file until every fret has been touched by the file.

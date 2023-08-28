@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       f53d79b9-6b3b-4d25-b747-f69344a14808
+:END:
+#+title: guitar intonation setup
+* my question about it on Facebook (and many answers)
+  https://www.facebook.com/groups/497105067092502/posts/2881188662017452/
+* Dave Keenan just puts a fixed setforth of 0.5mm on the zero fret
+* Dave Keenan recommends this procedure
+  https://www.proguitar.com/.../intonation/byers-classical
+* tension measurements bu D'Addario, via Dave Keenan
+  https://www.daddario.com/globalassets/pdfs/accessories/tension_chart_13934.pdf?fbclid=IwAR2CJrlyWY7S3xgXQOjcEiemr8gt2hoHMVu6lKG-TQgb5-SZlH45LZXOHlg
+* string tension calculator, via Paul Ehrlich
+  https://wahiduddin.net/calc/calc_guitar_tension_from_size.htm?fbclid=IwAR0nWddUSYPtMfJrWuBe8MUxXqZ89UMkhBLc4_gS62T413cf5Hh0EvRjbtk
+* something I found about "nut setforth"
+  http://www.byersguitars.com/Research/Research.html

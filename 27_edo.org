@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       f3d2ac44-9038-4faa-adf4-f120053f529a
+:END:
+#+title: 27-edo
+* TODO 4\27 x 3\27 x 7\27 (right x down x dr): awesome
+  This is what I put on the Lumatone.
+* [[id:03990581-bbf1-4f70-96a1-48e2e913aa10][8\27 x 3\27]]: compact. Kite-guitar octaves (3,1)
+* In the 7-limit it's an extremely sharp system.
+* [[id:b98176fc-85fb-4274-a248-21ec9ab6a65a][27-edo is fat-finger friendly with 54-edo.]]

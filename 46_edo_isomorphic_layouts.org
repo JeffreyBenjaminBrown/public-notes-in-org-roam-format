@@ -29,11 +29,13 @@
      37 steps; 7  % 4; string 3; fret -1
      42 steps; 15 % 8; string 4; fret -5
      46 steps; 2  % 1; string 4; fret -3
+*** TODO [[id:5c5c009e-ea31-4e37-ad29-5b32133a1768][19\46 x 2\46]] and [[id:d8d9b3b3-e3e7-4abe-858b-e5b68ff1defc][19\46 x 4\46]]
 * TODO try these
   PITFALL: They might already be recorded elsewhere in these notes.
 ** [[id:32ad2d8b-9f62-429b-8f51-fca2007ac2b2][5\46r x 3\46d x 8\46dr isomorphic instrument layout]]
 ** [[id:deaf105a-a10f-449a-b6ec-1afa1a1324b7][6\46r x 1\46u x 5\46dr isomorphic instrument layout]]
 * layouts
+  PIFALL: This list is incomplete -- see elsewhere in this file.
 ** 9\46 x 13\46u: weird, super-flat
 *** pic
     11 -- -- -- -- -- -- -- -- -- -- --
