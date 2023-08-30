@@ -5,7 +5,10 @@
 * good for guitar
 ** TODO [[id:b9da3b26-d920-4550-b6c8-ef3c8d2930c7][2\34 x 11\34]]
 ** [[id:cee0762b-e18a-428a-974d-7a1622978018][2\34 x 9\34]]
-* TODO [[id:7e355157-fe88-4493-a865-d0b1f55031b7][3\34r x 8\34d x 11\34dr]]: octave 6-2, 3.5-friendly, 7-suppressing
+* Lumatone favorites
+** [[id:9d39c659-f4d1-41e5-96bd-90d74451c275][7\34r x 3\34dr x 4\34u]]: flat*, 15-lim in 4x4, good on Lumatone
+** [[id:7e355157-fe88-4493-a865-d0b1f55031b7][3\34r x 8\34d x 11\34dr]]: too skew
+** 5\34r x 4\34d
 * [[id:b46933bf-cadd-40b0-9cd6-f4b0e75aa967][4\34r x 7\34dr]]: *very* flat, Bosanquet octaves
 * 4\34 x 1\34u: octave 8-2, fret height 4
 ** layout
@@ -31,7 +34,7 @@
     9  -  -  23 -  -  -  2  -  19 -  11 3  13 -  -
     5  -  -  -  -  7  15 -  -  -  21 -  -  -  -  -
 
-* 8\34 x -3\34: flat, weird (3:2 at (4,4)), Bosanquet octaves
+* 8\34r x -3\34dr: flat, weird (3:2 at (4,4)), Bosanquet octaves
 ** PITFALL: This layout includes manual mods.
    bestLayout' gives some very vertical positions.
    I put flatter ones.
@@ -47,7 +50,6 @@
                         string 5; fret  3
     , 34 steps; 2  % 1; string 2; fret -6
                         string 5; fret  2
-* DONE [[id:9d39c659-f4d1-41e5-96bd-90d74451c275][7\34r x 3\34dr x 4\34u]]: flat*, 15-lim in 4x4, good on Lumatone
 * 5\34 x 2\34u: octave 8-3, fret height 4
   00 steps; 1  % 1; string 0; fret 0
   06 steps; 9  % 8; string 2; fret -2

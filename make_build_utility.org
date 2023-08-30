@@ -1,14 +1,35 @@
 :PROPERTIES:
 :ID:       784c0660-a998-4bbf-bc80-c0b46a89a632
+:ROAM_ALIASES: Makefile
 :END:
 #+title: make (build utility)
 * PITFALLs
 ** make ignores symlinks!
    It will treat a target as unbuilt, and thus try to build it,
    if it is a symlink.
-* `makefile --trace` explains why it wants to rebuild something
-  Kind of useless, though -- it only restates the dependency section of the target it wants to rebuild.
-  A natural companion to --dry-run.
+* debugging Makefiles
+** "make -d _ | grep remake" recursively explains why it builds what
+*** ref
+    https://stackoverflow.com/questions/48483162/makefile-builds-target-every-time
+*** the idea
+    make -d | grep remake
+
+    You'll probably see something like this:
+
+    No need to remake target `Makefile'.
+        Must remake target `builddir'.
+          No need to remake target `src/s1/x.c'.
+        No need to remake target `obj/src/s1/x.o'.
+      Must remake target `FinalBin'.
+    Must remake target `all'.
+*** PITFALL: Requirements are indented *above* what requires them.
+    For instance, if b.txt depends on a.txt, the output might look like:
+
+     Must remake target 'a.txt'.
+    Must remake target 'b.txt'.
+** `makefile --trace` explains why it wants to rebuild something
+   Kind of useless, though -- it only restates the dependency section of the target it wants to rebuild.
+   A natural companion to --dry-run.
 * draw graph of Makefile dependencies
   See README here:
   https://github.com/ofiscal/tax.co/tree/master/dependencies/README.md

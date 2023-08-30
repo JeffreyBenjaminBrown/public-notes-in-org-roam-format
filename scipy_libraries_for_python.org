@@ -71,9 +71,9 @@
 * [[id:b0b3d876-77a3-4273-963b-7e9cf978183b][quantiles in scipy]]
 * formats
 ** to parse some columns as dates when calling read_csv
-     pd.read_csv (
-       "data/history.csv",
-       parse_dates = [ "time, favorite time" ] )
+   pd.read_csv (
+     "data/history.csv",
+     parse_dates = [ "time, favorite time" ] )
 ** format variables when reading a table from disk
    vat_coicop = pd.read_csv (
      ...
