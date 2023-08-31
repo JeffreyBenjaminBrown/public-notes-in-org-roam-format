@@ -1,12 +1,19 @@
 :PROPERTIES:
 :ID:       784c0660-a998-4bbf-bc80-c0b46a89a632
-:ROAM_ALIASES: Makefile
+:ROAM_ALIASES: Makefile "GNU make"
 :END:
 #+title: make (build utility)
 * PITFALLs
 ** make ignores symlinks!
    It will treat a target as unbuilt, and thus try to build it,
    if it is a symlink.
+* [[id:a2bff01a-db10-4ada-956d-740455840caa][parallel processing in GNU make with a multi-output rule that does not create redundant processes]]
+* options I like
+** -d        # For debugging output: says what needs building, & why.
+** --dry-run # Prints output as usual, but runs no recipes.
+** -j        # Parallelize rules.
+** -O        # "When running multiple jobs in parallel with -j, ensure the  output of each job is collected together"
+** -k        # Keep going with other targets after any fails, if possible.
 * debugging Makefiles
 ** "make -d _ | grep remake" recursively explains why it builds what
 *** ref

@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       a2bff01a-db10-4ada-956d-740455840caa
+:END:
+#+title: parallel processing in GNU make with a multi-output rule that does not create redundant processes
+* ref
+  https://stackoverflow.com/a/47951465/916142
+* the problem
+  If a recipe creates multiple targets,
+  and more than one is stale,
+  and parallel execution (the -j option) is enabled,
+  then make will start multiple instances of that recipe in parallel,
+  one for each stale target.
+* Ironically, it's "supposed" to be impossible.
+  The accepted answer to the question I referenced another answer to
+  is that this is how Make is meant to work.
+* the solution (example)
+** this Makefile
+   all: a b c
+   .INTERMEDIATE: d
+   a: d
+   b: d
+   c: d
+   d: i1 i2
+	   cat i1 i2 > a
+	   cat i1 i2 > b
+	   cat i1 i2 > c
+** has this effect
+   It runs the recipe for d if any of a, b or c
+   is stale (older than either of i1 or i2).
+   And, critically, it does *not* run that recipe more than once
+   when more than one of a, b and c are stale.
