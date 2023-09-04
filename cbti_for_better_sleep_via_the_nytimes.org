@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       514c7bb7-d5ee-4c6c-bd7f-9b55d72dcae4
+:END:
+#+title: CBTI for better sleep, via the NYTimes
+* ref - the article
+  Can’t Sleep? Try This Proven Alternative to Medication.
+  https://www.nytimes.com/2023/08/28/well/mind/insomnia-cognitive-behavioral-therapy.html?smid=nytcore-android-share
+** the relevant subsection
+   Can you try C.B.T.-I. without a provider

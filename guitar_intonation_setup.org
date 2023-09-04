@@ -8,7 +8,7 @@
   https://www.ekips.org/tools/guitar/fretfind2d/?fbclid=IwAR2mkWMZWxY3oDBoegz5ZVcrntsU_TnTiClDdl5ivvFoWz_HMHQ5PEDqngE
 * Dave Keenan just puts a fixed setforth of 0.5mm on the zero fret
 * Dave Keenan recommends this procedure
-  https://www.proguitar.com/.../intonation/byers-classical
+  https://www.proguitar.com/academy/guitar/intonation/byers-classical
 * tension measurements bu D'Addario, via Dave Keenan
   https://www.daddario.com/globalassets/pdfs/accessories/tension_chart_13934.pdf?fbclid=IwAR2CJrlyWY7S3xgXQOjcEiemr8gt2hoHMVu6lKG-TQgb5-SZlH45LZXOHlg
 * string tension calculator, via Paul Ehrlich

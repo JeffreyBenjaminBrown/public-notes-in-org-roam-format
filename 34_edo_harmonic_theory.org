@@ -2,6 +2,15 @@
 :ID:       71b0a271-acc3-465d-893d-d72eac2b7648
 :END:
 #+title: 34-edo harmonic theory
+* 8:7 * 7:6 > 4:3
+  :PROPERTIES:
+  :ID:       12d76fb9-ec45-4ccf-b846-7c563e307931
+  :END:
+  This is strange, but maybe helpful.
+  The best 8:7 is 7\34 ~ 247 cents,
+  and the best 7:6 is 8\34 ~ 282 cents.
+  So sum to a wide fourth,
+  just like 6:5 and 9:8 do.
 * the primes
 | ratio   |  truth | steps | approx |      error |
 | 17 % 16 |  105.0 |     3 |  105.9 |  0.9269409 |

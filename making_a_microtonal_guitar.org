@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       8e161cfb-b4c5-4202-a87e-242b3a25c038
+:END:
+#+title: making a microtonal guitar
+* TODO tell Dave Keenan saddle clearance
+  "above the plane of the fretboard"
+  which probably requires three measurements --
+  at nut, at 12th fret, at bridge.
+* TODO maybe add more frets near nut
+  Don't forget to make it 34-edo near the nut,
+  for an odd number of frets
+  (11 would be appealingly symmetric, given the tuning)
+  so that the octave fret is present.

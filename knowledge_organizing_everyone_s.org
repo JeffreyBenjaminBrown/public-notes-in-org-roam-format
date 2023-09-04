@@ -4,6 +4,7 @@
 :END:
 #+title: knowledge graphs
 * [[id:f9ee18e9-68f2-4f10-b10d-c91186b797e3][Agora (shared knowledge base (protocol))]]
+* [[id:453046af-5fe7-48b1-b3a9-c536c0b3134f][Community Notes on Twitter]] is cool
 * [[id:8b6cc852-4f06-424f-86ec-582b35060f79][The information apocalypse solution I'm hoping for: Sign your writing, hash your citations, back-cite, and know who you're reading.]]
 * Sidney is using LinkML
   "which is quite young but so far wonderful for being able to combine relational data structures with semantic web stuff"

@@ -3,6 +3,22 @@
 :END:
 #+title: 43-edo
 * meantone
+* for guitar
+** 13\43 x 3\43
+*** octave 4 strings -3 frets (2.5\12)
+*** hardest 15-limit intervals (6:5) spans 8 frets (6.7\12)
+** if skipping every other fret, 1 and 5:4 lie on the same string
+   :PROPERTIES:
+   :ID:       88ad2dc1-9da1-4119-82a5-2766bd8b7e2c
+   :END:
+** 11\43 x 2\43
+*** [[id:88ad2dc1-9da1-4119-82a5-2766bd8b7e2c][if skipping every other fret, 1 and 5:4 lie on the same string]]
+*** octaves span 3 strings and 5 frets (2.7\12) along neck
+*** hardest 15-limit intervals (10:9 and 4:3) span 9 frets (5\12)
+** 13\43 x 2\43
+*** [[id:88ad2dc1-9da1-4119-82a5-2766bd8b7e2c][if skipping every other fret, 1 and 5:4 lie on the same string]]
+*** octaves span 3 strings and 2 frets (1.1\12) along neck
+*** hardest 15-limit interval (11:10) spans 10 frets (5.6\12)
 * TODO 7\43 x 2\43dr: octave 5-4, *very* short
 ** Only 4 tall, and in the downright direction!
 ** layout
@@ -15,7 +31,7 @@
    35 steps; 7  % 4; string 5; fret 0
    39 steps; 15 % 8; string 5; fret 2
    43 steps; 2  % 1; string 5; fret 4
-* TODO 7\43 x 4\43 (Bosanquet?)
+* TODO 7\43r x 3\43u 4\43dr (Bosanquet)
   [ 0  steps;  1 % 1 ; string 0 ; fret 0
   , 7  steps;  9 % 8 ; string 1 ; fret 0
   , 14 steps;  5 % 4 ; string 2 ; fret 0

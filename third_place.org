@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7a2d1f58-6218-49f2-bd53-c1272c03a187
+:END:
+#+title: third place
+= A social space, neither home nor work.
+
+https://en.wikipedia.org/wiki/Third_place

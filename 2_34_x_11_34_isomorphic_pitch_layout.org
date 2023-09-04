@@ -3,7 +3,7 @@
 :END:
 #+title: 2\34 x 11\34 isomorphic pitch layout
 * extremely playable
-** 7 strings covers 2 octaves!
+** 7 strings (and 1 fret) covers 2 octaves!
 ** close major triad on 3 strings and 2 frets
 * very nearly the Kite tuning
   Kite's tuning has easier octaves,

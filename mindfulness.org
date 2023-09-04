@@ -3,6 +3,7 @@
 :ROAM_ALIASES: awareness
 :END:
 #+title: mindfulness
+* [[id:c5b7909b-621a-4a43-8641-7b9df357ee36][Second-order awareness seems to be enough.]]
 * [[id:a4270e4e-8cbc-487a-a73b-5a076bd86ce0][Mindfulness is a good response to mental waste.]]
 ** [[id:d588b701-0384-42b4-975e-bf97ee2e4292][humming]]
 * [[id:0334782e-dd39-49e7-b296-ad1375ce404a][meditation => calm purpose]]

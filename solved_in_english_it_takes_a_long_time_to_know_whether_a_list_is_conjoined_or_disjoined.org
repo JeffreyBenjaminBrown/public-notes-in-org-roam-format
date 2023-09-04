@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       ad2723af-3830-472a-af9f-f507d03eab5f
+:END:
+#+title: (solved) In English it takes a long time to know whether a list is conjoined or disjoined.
+* the problem
+  That is, you don't reach the "or" or the "and" until the end of the list.
+* a solution
+  Preface long lists with "all of" or "any of".

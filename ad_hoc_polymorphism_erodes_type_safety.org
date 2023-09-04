@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       65e6d519-5dad-4631-bc25-8a5b83e580c1
+:END:
+#+title: Ad-hoc polymorphism erodes type safety.
+* ref
+  Tom Sydney Kerckhove
+  https://cs-syd.eu/posts/2023-08-25-ad-hoc-polymorphism-erodes-type-safety
+* the idea
+** example
+   Suppose something computes the length of an `[a]`
+   and that `[a]` is then replaced with a `Maybe [a]`.
+   `length` will silently do the wrong thing,
+   now returning 1 or 0 instead of the number of `a`s.
+** in general
+   Ad-hoc polymorphism introduces a footgun when refactoring.
+   Specifically, if a type `a` is replaced by a type `b a`
+   (that's a `b` "containing" an `a`),
+   and both `b` and `a` are members of class `C`,
+   then functions doing stuff to `a` that is possible due to `C`
+   are likely to silently fail,
+   doing that thing to the `b`, instead of to the `a` in the `b`.

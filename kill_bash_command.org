@@ -9,3 +9,7 @@
     ps -ef | grep -i emacs | awk '{print $2}' | xargs kill
 *** use `awk` to stick `kill` in front of each PID, then send to `sh`
     ps -ef | grep "emacs" | awk '{print "kill " $2}' | sh
+* pkill -f : for when a process won't be killed by name
+  [[id:b77f584e-12c1-45dc-a2a8-4ec2c1eb1e6a][Firefox, for instance, is like this.]]
+  In that case use `pkill`.
+    pkill -f firefox

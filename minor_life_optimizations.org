@@ -3,6 +3,11 @@
 :ROAM_ALIASES: "efficiency \\ jbb"
 :END:
 #+title: minor life optimizations
+* TODO Try [[id:8e236d34-8dc8-480c-afa5-f1be01d19357][org-roam-ql]]
+* Keyboard shortcuts for personally frequently-used text.
+  https://github.com/eschluntz/compress
+** TODO Is it private?
+   https://news.ycombinator.com/item?id=37326870
 * [[id:b2e2963b-7e70-4df6-a81d-8e16851b229e][Container tabs (cookie-isolated sessions) in Firefox sound great.]]
 * TODO [[id:41d0f186-1f92-48f0-a135-180f8d2dd9af][True Caller]] to block phone spam
 * TODO [[id:ef1227a0-6fc0-47ce-8808-d49093efd46f][Nyxt browser]]
@@ -23,6 +28,4 @@
 ** shredder
 * TODO [[id:2ff6f8b0-1089-468f-bb3b-86646342fb73][? orderless in Emacs]]
 * [[id:38df06cd-250f-464f-a2cd-5bc6d21f00df][foods I (would) enjoy]]
-* better shoelace knots
-** stabler: https://www.fieggen.com/shoelace/surgeonknot.htm
-** faster: https://www.fieggen.com/shoelace/ianknot.htm
+* [[id:bddfe129-523a-437f-b7d6-42e33a0bb069][better shoelace knots]]

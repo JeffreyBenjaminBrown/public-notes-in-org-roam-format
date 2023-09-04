@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       bddfe129-523a-437f-b7d6-42e33a0bb069
+:END:
+#+title: better shoelace knots
+* stabler: https://www.fieggen.com/shoelace/surgeonknot.htm
+* faster: https://www.fieggen.com/shoelace/ianknot.htm

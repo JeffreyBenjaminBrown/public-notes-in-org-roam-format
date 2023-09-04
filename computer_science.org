@@ -11,6 +11,10 @@
 ** [[id:5b4adbe5-e24a-4dc5-b9fa-eddb3b178131][state machines]]
 ** [[id:73dcc71c-3277-445b-b6ec-05830e955dad][testing (computer science)]]
 ** [[id:e5c4db3d-2328-4f79-a2ee-f1f9d2fdfd90][programming idioms]]
+* type safety
+** [[id:65e6d519-5dad-4631-bc25-8a5b83e580c1][Ad-hoc polymorphism erodes type safety.]]
+** surprisingly possible
+*** [[id:62247288-ab76-4425-8421-64bee5b5fb05][automatic documentation via constraints]]
 * [[id:31fab723-6cfd-4f19-a61e-4b65100504f8][abstractions I like \ computer science]]
 * TODO [[id:4bd7f12e-2061-40e9-9e98-683552f40918][contribute to open source projects]]
 * TODO [[id:90b6eed6-9e66-44de-bbfd-dfc0385bfa35][software development advice, excellent]]
@@ -22,7 +26,5 @@
 * data structures
 ** [[id:805ec609-79fb-484a-9272-c42de037d1f5][list comprehension]]
 * [[id:4f939263-8a43-42be-98af-5aa3d8854d13][dynamic typing]]
-* surprisingly possible
-** [[id:62247288-ab76-4425-8421-64bee5b5fb05][automatic documentation via constraints]]
 * some concepts from computer science
 ** [[id:bd3b6d2b-6f8b-4dcc-bd52-fe288d3f0a11][pipe (computer science)]]

@@ -2,11 +2,12 @@
 :ID:       63f366e6-b768-4f3f-9093-a776f2b4e069
 :END:
 #+title: org-roam
-* [[id:6e523ffa-8a57-4f83-877e-b476ccbe5cef][org-roam usage]]
 * refs
 ** for help : the Discourse group
 ** awesome-org-roam : a curated list of resources
    https://github.com/kot-behemoth/awesome-org-roam
+* TODO Try [[id:8e236d34-8dc8-480c-afa5-f1be01d19357][org-roam-ql]]
+* [[id:6e523ffa-8a57-4f83-877e-b476ccbe5cef][org-roam usage]]
 * BLOCKED [[id:ab127568-f5fd-4fa1-9fbd-9d756e26b140][org-roam / repair `emacsql-sqlite3` dependency]]
 * [[id:8a0fbcd5-247f-4619-8b5f-1e6b30de5e1b][org-roam on phone via Termux]]
 * TODO Why this substitution in the org roam elisp config?

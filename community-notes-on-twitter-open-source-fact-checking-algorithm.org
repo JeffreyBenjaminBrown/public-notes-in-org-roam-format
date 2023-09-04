@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       453046af-5fe7-48b1-b3a9-c536c0b3134f
+:END:
+#+title: Community Notes on Twitter: open-source fact-checking algorithm
+* https://vitalik.ca/general/2023/08/16/communitynotes.html

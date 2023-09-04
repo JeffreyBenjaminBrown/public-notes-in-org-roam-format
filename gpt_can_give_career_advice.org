@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ef2a3f90-a28b-42d6-a38b-9b568f818644
+:END:
+#+title: GPT can give career advice.
+* tell it skills, interests; ask for suggestions
+* ask what people in [job] actually does all day
+* ask how  people in [job] feel about it

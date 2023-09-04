@@ -2,8 +2,12 @@
 :ID:       b9129e83-6421-4f1f-aa3d-577f3e7524ad
 :ROAM_ALIASES: "song ideas"
 :END:
-#+title: poetic ramblings
-* Why it's a good time to [go, look around] outside: It's daytime. I can see. Etc.
-** The sun is warm and I have time.
-* smokiest before passing
-** It's always darkest just before dawn <=> You breathe the worst air right before passing the truck at the front of the queue.
+#+title: poetic ramblings | song ideas
+* TODO Essay first, them song
+* ideas
+** This problem is an opportunity
+** That's not fair, I can handle it
+** Why it's a good time to [go, look around] outside: It's daytime. I can see. Etc.
+*** The sun is warm and I have time.
+** smokiest before passing
+*** It's always darkest just before dawn <=> You breathe the worst air right before passing the truck at the front of the queue.

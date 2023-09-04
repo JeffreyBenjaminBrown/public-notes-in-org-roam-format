@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       e529c4b4-f637-431c-9238-56cf412cf649
+:END:
+#+title: pitch space: a practice curriculum
+* notes
+** random pitch set
+** 5-limit harmony
+*** fudging the circle of fifths
+*** bichords
+*** higher chord extensions
+*** switching between two scales
+** microtonal harmony
+*** neutral 2nd, 3rd
+*** commas
+**** 10:9 v. 9:8
+**** 6:5 v. 32:27
+**** 4:3 v. (6:5 + 9:8 = 27:20)
+**** almost-3:2 and almost-4:3
+     and reasons (e.g. circle of fifths) to play them
+*** intervals smaller than 16:15
+*** microtone transposition
+** symmetric chords -- divide by 3,4
+** symmetric scales -- divide by {5,6,7,8, ?9, 12, edo}
+* hands
+** connecting hands
+*** for a single melody
+*** for a giant chord
+*** cross hands
+*** unison
+*** call and response
+** alternate voicings
+*** unison equivalents
+*** voicings bigger than an octave
+*** non-root bass
+** in one hand: amchor one finger while the others dance
+   on either side, or in the middle

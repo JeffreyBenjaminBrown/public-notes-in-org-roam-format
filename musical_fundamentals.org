@@ -33,6 +33,7 @@
     melody
     melody modulo rhythm (tone rows)
 *** voice
+* [[id:e529c4b4-f637-431c-9238-56cf412cf649][pitch space: a practice curriculum]]
 * a selection of bundles from those elements, 2023-07-10
 ** forgetten often :: rhythm | accent | cont* theme | 8ve sep
    *Continue themes. Sometimes radically, always slightly.
@@ -42,6 +43,7 @@
 *** *slight* changes
 **** micro-melody = variation in a narrow frequently range
 **** micro-rhythm = trills, etc.
+**** swing (micro-rhythm) helps rhythm
 ** complexity, number of :: chords | notes | durations | motifs
 ** pattern duration -  esp. rhythmically uneven chord changes
 ** voices :: unison | notes / hand | call & response

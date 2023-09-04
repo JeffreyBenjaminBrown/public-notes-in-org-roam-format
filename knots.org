@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1b1590ef-a95e-4fdb-9a7c-33a856d11709
+:END:
+#+title: knots
+* animations of knots
+  https://www.animatedknots.com/bowline-knot
+* [[id:bddfe129-523a-437f-b7d6-42e33a0bb069][better shoelace knots]]

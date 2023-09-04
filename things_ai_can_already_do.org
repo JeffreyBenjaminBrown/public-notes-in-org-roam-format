@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       270da54b-eb89-4a12-8bb5-112d6514a013
+:END:
+#+title: things AI can already do
+* [[id:ef2a3f90-a28b-42d6-a38b-9b568f818644][LLMs can give career advice.]]
+* LLMs can describe experiences.
+  e.g. the paperwork that police have to deal with

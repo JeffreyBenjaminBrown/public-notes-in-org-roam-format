@@ -2,6 +2,12 @@
 :ID:       0fb050fc-28b8-48a6-914b-6d5970490d46
 :END:
 #+title: microtonal guitar
+* ONGOING [[id:8e161cfb-b4c5-4202-a87e-242b3a25c038][making a microtonal guitar]]
+* install a guitar bridge where the nut usually is.
+** Problem: interferes with truss rod access
+   unless the truss rod is "heel-adjusted"
+   rather than adjusted from the headstock.
+** Problem: bridges are wider than nuts.
 * [[id:29b8dc74-09ee-418c-9bb8-98bd4a3313b4][luthiers]]
 * [[id:07b00128-b5e6-4a34-aafa-23424cdbf1d3][Agile Pendulum 10-string guitar]] : cheap, dual truss, multiscale
 * [[id:f442a707-fece-493a-acb6-7b1e36ee094d][microtonal Chapman Stick]]

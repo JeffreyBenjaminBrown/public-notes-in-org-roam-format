@@ -2,8 +2,11 @@
 :ID:       7e355157-fe88-4493-a865-d0b1f55031b7
 :END:
 #+title: 3\34r x 8\34d x 11\34dr isomorphic pitch layout
-* awfully skew
-  Chromatic runs are even harder than in 4\46r x 7\46d
+* huge range
+  5 octaves and a whole tone complete,
+  but 7 octaves plus 3:2 from lowest to highest note.
+* very skew
+  Chromatic runs are even harder than in 4\46r x 7\46d.
 * compact, octave 6-2
 * 3.5-friendly, 7-suppressing
   3.5-gruop-friendly, and makes avoiding septimal intervals easy

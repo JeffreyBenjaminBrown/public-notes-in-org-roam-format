@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       bff90e43-e7f0-4502-b5fe-3771016bc8e1
+:END:
+#+title: Firefox (web browser)
+* to kill all Firefox instances
+  :PROPERTIES:
+  :ID:       b77f584e-12c1-45dc-a2a8-4ec2c1eb1e6a
+  :END:
+  pkill -f firefox

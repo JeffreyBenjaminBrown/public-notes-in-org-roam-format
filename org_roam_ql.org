@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       8e236d34-8dc8-480c-afa5-f1be01d19357
+:END:
+#+title: org-roam-ql
+https://github.com/ahmed-shariff/org-roam-ql

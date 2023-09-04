@@ -3,3 +3,4 @@
 :END:
 #+title: topology
 * [[id:be117a75-5f94-49b0-b384-9c73a0e40222][Topology is global. Geoetry and curvature are local.]]
+* [[id:1b1590ef-a95e-4fdb-9a7c-33a856d11709][knots]]
