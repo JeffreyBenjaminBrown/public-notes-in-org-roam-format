@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       01902cc2-c26a-425d-9792-6eb3c5d1d87d
+:END:
+#+title: phone chores
+* Does Bancolombia know I'm in the new condo?
+* [[id:91b030ca-c735-47d0-a153-039e9c2d0699][call to fix closet]]
+* [[id:55289e33-92b8-4b5e-ac20-1404523358ba][call to balance dryer]]
