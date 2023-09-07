@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f6d27810-2ec8-43c9-b4d5-dbf9fe936178
+:END:
+#+title: some resources for learning about how to create an ontology
+https://twitter.com/Mappletons/status/1583350653933748224?t=XAoP8v8ktyZ7xeDf_qfGHA&s=19

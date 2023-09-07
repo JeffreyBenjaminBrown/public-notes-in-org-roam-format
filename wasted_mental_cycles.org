@@ -5,6 +5,7 @@
 #+title: mental waste
 = suspected or clearly inefficient uses of my time|mind
 * [[id:a4270e4e-8cbc-487a-a73b-5a076bd86ce0][Mindfulness is a good response to mental waste.]]
+* [[id:b31e66f1-f3cf-45b8-8414-4313d085bd31][Mapping knowledge seems like a great antidote for obsessive thoughts.]]
 * examples, some of mine
 ** [[id:d588b701-0384-42b4-975e-bf97ee2e4292][humming]]
 ** counting words

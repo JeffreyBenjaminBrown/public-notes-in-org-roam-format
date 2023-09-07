@@ -2,6 +2,7 @@
 :ID:       2b3fb7d3-4273-4aec-8e82-950b5ea94ba9
 :END:
 #+title: Cornershop (delivery app)
+https://cornershopapp.com/en-us/
 * PITFALL: Cornershop tips are called something different, PayU Pagosonline
   :PROPERTIES:
   :ID:       2592b71f-e1e9-4ebf-95de-430de95c6238

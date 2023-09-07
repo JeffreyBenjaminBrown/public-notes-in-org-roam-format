@@ -2,7 +2,7 @@
 :ID:       87b94a7c-60fe-43a9-818e-f08f5f560b70
 :END:
 #+title: big ideas
-* [[id:c5b7909b-621a-4a43-8641-7b9df357ee36][Second-order awareness seems to be enough.]]
+* [[id:9ec55e32-f974-479e-8295-7d9e30156684][awareness]]
+* think about [[id:f4302c48-ab8e-4a6a-920c-46999dc60312][everything]] (personal)
 * TODO Has Agora gotten easier yet?
-* TODO Why not build Hash for TypeDB?
 * TODO [[id:9a5bd227-9e5b-4464-ba45-52eea7b510f7][Colombia's constitution needs an electoral bugfix]]

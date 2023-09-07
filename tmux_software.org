@@ -2,6 +2,7 @@
 :ID:       0c6f257d-a5dc-4c8e-b687-c724f280b695
 :END:
 #+title: tmux (software)
+* TODO [[id:7831b569-3bc5-443d-a57c-880400aaacad][Change the shortcut for restoring or for searching in Tmux]]
 * TODO [[id:f25c0908-bfdc-446d-98dc-c353f204bcc2][show a shorter prompt.]]
 * PITFALL :: tmux + env variables = footgun
   https://aj.codes/posts/be-careful-using-tmux-and-environment-variables/

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       7831b569-3bc5-443d-a57c-880400aaacad
+:END:
+#+title: Change the shortcut for restoring or for searching in Tmux
+because it's too easy to restore instead of searching,
+and thereby lose the history.

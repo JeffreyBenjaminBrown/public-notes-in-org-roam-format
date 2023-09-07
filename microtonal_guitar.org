@@ -3,6 +3,7 @@
 :END:
 #+title: microtonal guitar
 * ONGOING [[id:8e161cfb-b4c5-4202-a87e-242b3a25c038][making a microtonal guitar]]
+* [[id:f53d79b9-6b3b-4d25-b747-f69344a14808][guitar intonation setup]]
 * install a guitar bridge where the nut usually is.
 ** Problem: interferes with truss rod access
    unless the truss rod is "heel-adjusted"

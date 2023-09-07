@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "efficiency \\ jbb"
 :END:
 #+title: minor life optimizations
+* TODO [[id:7831b569-3bc5-443d-a57c-880400aaacad][Change the shortcut for restoring or for searching in Tmux]]
 * TODO Try [[id:8e236d34-8dc8-480c-afa5-f1be01d19357][org-roam-ql]]
 * Keyboard shortcuts for personally frequently-used text.
   https://github.com/eschluntz/compress

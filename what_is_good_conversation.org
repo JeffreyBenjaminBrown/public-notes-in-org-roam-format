@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       de110b55-dcb8-4492-bda9-925f90dc2377
+:END:
+#+title: What *is* good conversation?
+* [[id:366e649f-c492-4acc-99ae-dc552cd78f25][conversation techniques]]

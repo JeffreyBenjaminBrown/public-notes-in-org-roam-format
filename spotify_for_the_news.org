@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       c4b02fe2-6d9b-4d8d-b617-ec59aa79bf73
+:END:
+#+title: Spotify for the news
+https://news.ycombinator.com/item?id=22178626

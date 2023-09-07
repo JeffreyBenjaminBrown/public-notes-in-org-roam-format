@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       23f40301-92d8-48d5-9c5a-d28b334acf02
+:END:
+#+title: Random, motivated, "generous" note navigation seems promising.
+* Don't try to read it all.
+  Don't try to avoid rereading something I've already read, either.
+  It's impossible, and who cares, I read fast.
+  If reading a particular thing is not helpful at the moment,
+  I'll become aware quickly enough and move on.
+* Be goal-driven.
+  Don't read because I'm obligated to read,
+  but because I have some idea what I'm trying to get out of it
+  (although those goals will and should be influenced by the reading).
+* Be aware of costs and benefits.
+  Be aware that I read fast, and that I edit more slowly.
+  (Being aware of the benefits is harder to give precise guidance on.)
+* Trust my past self.
+  Be curious about and generous with my past writing self.
+  I probably wrote interesting, useful things,
+  even if I don't remember that I did.
+  In fact, not remembering is in general optimal:
+  Why bother remembering if I wrote it down,
+  and why write it down if I expected to remember?

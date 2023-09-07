@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       d674bf8d-cd41-47aa-8418-36a74cedd561
+:END:
+#+title: build Hash for TypeDB

@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       784c0660-a998-4bbf-bc80-c0b46a89a632
-:ROAM_ALIASES: Makefile "GNU make"
+:ROAM_ALIASES: Makefile "GNU make" "make"
 :END:
 #+title: make (build utility)
 * PITFALLs

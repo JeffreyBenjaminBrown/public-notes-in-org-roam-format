@@ -1,51 +1,58 @@
 :PROPERTIES:
 :ID:       2ffe190d-718d-4f71-af97-5214ef091045
-:ROAM_ALIASES: information epistemology ontology "organizing knowledge"
+:ROAM_ALIASES: information epistemology "organizing knowledge" mindmapping "knowledge mapping"
 :END:
 #+title: knowledge graphs
-* [[id:f9ee18e9-68f2-4f10-b10d-c91186b797e3][Agora (shared knowledge base (protocol))]]
-* [[id:453046af-5fe7-48b1-b3a9-c536c0b3134f][Community Notes on Twitter]] is cool
-* [[id:8b6cc852-4f06-424f-86ec-582b35060f79][The information apocalypse solution I'm hoping for: Sign your writing, hash your citations, back-cite, and know who you're reading.]]
-* Sidney is using LinkML
-  "which is quite young but so far wonderful for being able to combine relational data structures with semantic web stuff"
-* [[id:eaf57880-1c79-49ef-a8b3-b4e106e0ebb4][ideas for someone else]]
-* TODO [[id:5f8c9f6b-6992-4bde-a27a-3db3997f3178][pitch the uber-app]]
-* TODO [[id:4770a0d4-1932-403c-a57a-9ae803e8372e][knowledge graph game]]
-* a "personal Google"
-** https://www.haystack.it/
-* [[id:05a84243-9dcf-4492-b81e-a48fd2f53b3c][knowledge graphs and/or meditation]]
-* WebMention: notify web authors when linking to their work
-  https://www.w3.org/TR/webmention/
-* [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
-* TODO ask for ideas for a [[id:c48cbb26-cdf3-4109-b729-3abd58c2d4bc][social knowledge base app for epistemology]]
-* [[id:25e13f6c-b134-4305-a4d5-327739dd7b8f][some graph databases with Datalog engines]]
-* A thread on resources for learning about how to create an ontology
-** https://twitter.com/Mappletons/status/1583350653933748224?t=XAoP8v8ktyZ7xeDf_qfGHA&s=19
-* TODO [[id:f9ee18e9-68f2-4f10-b10d-c91186b797e3][Agora (shared knowledge base (cprotocol))]]
-* how to use a knowledge graph
+* see also
+** [[id:97a9d5f6-feae-4d02-8800-41f36dd5f2b8][ontology (computer science)]]
+** [[id:f5d81cd6-dcc9-414b-bf9b-2c7f4ca1cd29][my data]]
+** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
+* TODO \ knowledge graphs
+** [[id:d674bf8d-cd41-47aa-8418-36a74cedd561][build Hash for TypeDB]]
+** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
+** [[id:8c609b95-5f55-4d88-b0fa-b43227577ee7][I want a record of the (org-roam) files I read]]
+** [[id:db1dbf70-abfa-4623-9216-69cfe0ed3c55][logseq-query (query language for logseq-formatted graph data)]]
+** [[id:5f8c9f6b-6992-4bde-a27a-3db3997f3178][pitch the uber-app]]
+** [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
+* problems
+** [[id:eba0ce43-3fb2-4d95-89f2-f5d8cae6f20f][the oldies greatest-hits problem]]
+** [[id:7ba3aeee-378b-41b9-89ef-2658dc19b9ea][conspiracies, Edward Snowden on]]
+* why to map knowledge
+** [[id:f2aa7400-771a-45b1-bbc6-4113cc5dc397][Maybe mindmapping helps me regain sleepiness.]]
+** [[id:b31e66f1-f3cf-45b8-8414-4313d085bd31][Mindmapping seems like a great antidote for obsessive qhoughts.]]
+** [[id:05a84243-9dcf-4492-b81e-a48fd2f53b3c][knowledge graphs and/or meditation]]
+** [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]
+** [[id:14425786-4f89-4fc3-8bf7-9c31ccaba025][Linked data facilitates writing flashcards.]]
+* how to map knowledge (reading & writing)
+** [[id:23f40301-92d8-48d5-9c5a-d28b334acf02][Random, motivated, "generous" note navigation seems promising.]]
+** [[id:05a84243-9dcf-4492-b81e-a48fd2f53b3c][knowledge graphs and/or meditation]]
 ** [[id:15c15ae2-bb60-4f6e-9e6d-e9045f9c0132][Review notes on anything that could be a disaster.]]
 ** [[id:d283b6a3-205b-4a7c-9338-aa458f091691][Use my "prefix-date-uri" script.]]
 ** [[id:801dad54-f3a9-4b27-97f5-3e3ab3b6dbe5][reading and rewriting notes]]
-* [[id:f5d81cd6-dcc9-414b-bf9b-2c7f4ca1cd29][my data]]
-* [[id:4cb72658-2d91-4450-8bd5-54e04d3de051][Some ideas on networking minds from DynoMight.]]
-* [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]
-* [[id:30478629-506c-4acf-aec8-b74e977a2234][how to take notes on people and communication]]
-* [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to avoid losing notes in a knowledge graph]]
-* [[id:14425786-4f89-4fc3-8bf7-9c31ccaba025][Linked data facilitates writing flashcards.]]
-* [[id:eba0ce43-3fb2-4d95-89f2-f5d8cae6f20f][the oldies greatest-hits problem]]
-* TypeDB > Hode
-  https://github.com/vaticle/typedb
-* the Underlay Project at MIT
-  :PROPERTIES:
-  :ID:       786ae678-e723-4c9f-b924-e54d7b3b1837
-  :END:
-  https://notes.knowledgefutures.org/pub/si1okbw9/release/9
-* C2PA: Content Authorship Alliance
-* some knowledge graph tools
+** [[id:30478629-506c-4acf-aec8-b74e977a2234][how to take notes on people and communication]]
+** [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to avoid losing notes in a knowledge graph]]
+* some knowledge-mapping efforts
+** [[id:453046af-5fe7-48b1-b3a9-c536c0b3134f][Community Notes on Twitter]] is cool
+** [[id:f9ee18e9-68f2-4f10-b10d-c91186b797e3][Agora (shared knowledge base (protocol))]]
+** [[id:46d56f38-e6a8-43aa-8c74-efccddfb0770][TypeDB]]
+** LinkML
+   Sidney is using it: "is quite young but so far wonderful for being able to combine relational data structures with semantic web stuff"
+** Haystack: a "personal Google"
+   https://www.haystack.it/
+** WebMention: notify web authors when linking to their work
+   https://www.w3.org/TR/webmention/
+** [[id:25e13f6c-b134-4305-a4d5-327739dd7b8f][some graph databases with Datalog engines]]
+** the Underlay Project at MIT
+   :PROPERTIES:
+   :ID:       786ae678-e723-4c9f-b924-e54d7b3b1837
+   :END:
+   https://notes.knowledgefutures.org/pub/si1okbw9/release/9
+** C2PA: Content Authorship Alliance
 ** [[id:63f366e6-b768-4f3f-9093-a776f2b4e069][org-roam]]
+** [[id:db1dbf70-abfa-4623-9216-69cfe0ed3c55][logseq-query (query language for logseq-formatted graph data)]]
 ** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][smsn]]
 ** [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
-* [[id:7ba3aeee-378b-41b9-89ef-2658dc19b9ea][conspiracies, Edward Snowden on]]
-* why knowledge graphs matter
-* [[id:db1dbf70-abfa-4623-9216-69cfe0ed3c55][logseq-query (query language for logseq-formatted graph data)]]
-* [[id:43b4da04-7779-4f95-8bc5-371d3b8180f6][file-sharing, some sites]]
+** [[id:43b4da04-7779-4f95-8bc5-371d3b8180f6][file-sharing, some sites]]
+* some knowledge mappers
+** [[id:00fb3567-bc87-4196-b817-6cf06319db31][Joshua Shinavier]]
+** [[id:c5950452-7c4c-4419-8a0c-ea571f44df34][Thomas Ford]]

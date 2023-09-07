@@ -6,6 +6,7 @@
 ** for help : the Discourse group
 ** awesome-org-roam : a curated list of resources
    https://github.com/kot-behemoth/awesome-org-roam
+* TODO [[id:8c609b95-5f55-4d88-b0fa-b43227577ee7][I want a record of the (org-roam) files I read]]
 * TODO Try [[id:8e236d34-8dc8-480c-afa5-f1be01d19357][org-roam-ql]]
 * [[id:6e523ffa-8a57-4f83-877e-b476ccbe5cef][org-roam usage]]
 * BLOCKED [[id:ab127568-f5fd-4fa1-9fbd-9d756e26b140][org-roam / repair `emacsql-sqlite3` dependency]]

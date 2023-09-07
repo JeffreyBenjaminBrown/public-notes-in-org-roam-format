@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       97a9d5f6-feae-4d02-8800-41f36dd5f2b8
+:END:
+#+title: ontology (computer science)
+* [[id:f6d27810-2ec8-43c9-b4d5-dbf9fe936178][some resources for learning about how to create an ontology]]
