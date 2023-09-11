@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       625c1390-b4a5-49ee-9558-90eaa7c6f77b
+:ROAM_ALIASES: qjackctl
+:END:
+#+title: QJackCtl
+* using an audio interface through Qjackctl
+** what to do
+   serial
+*** Tell Qjackctl to use it
+    Select it as the input and/or the output source under
+      QJackCtl -> Setup -> Settings -> Advanced.
+    It will be called something like "hw:USB",
+      and if you click on that menu you'll see more detail:
+      hw:USB    Scarlett 2x4 ...
+*** If the end-use application (e.g. Reaper) doesn't do so automatically, use QJackCtl's Graph interface to connect it.
+** PITFALL: In the QJackCtl graph, its audio inpuut and outputs will be called merely "system".
+* channeling MIDI input through QJackCtl
+  serial
+** run `a2jmidid`
+** use `aconnect` to connect the MIDI input to ALSA.
+*** abstract procedure
+**** run `aconnect -i` to see available MIDI (both input and output) ports
+**** connect the input to (one of) the MIDI Through ports.
+*** example
+    [jeff@jbb-hp17:~/bin]$ aconnect -i
+    client 0: 'System' [type=kernel]
+        0 'Timer           '
+        1 'Announce        '
+    client 14: 'Midi Through' [type=kernel]
+        0 'Midi Through Port-0'
+    client 20: 'Lumatone' [type=kernel,card=1]
+        0 'Lumatone MIDI 1 '
+    client 24: 'Scarlett 2i4 USB' [type=kernel,card=2]
+        0 'Scarlett 2i4 USB MIDI 1'
+
+    [jeff@jbb-hp17:~/bin]$ aconnect 20:0 14:0
+
+    [jeff@jbb-hp17:~/bin]$

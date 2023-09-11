@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       be35e8a4-1d63-4464-b43b-fbf49d782a19
+:END:
+#+title: slackening the strings on a Chapman Stick
+* how
+** Don't
+   try to slacken any string completely on the first go.
+** Instead
+   slacken all of them a bit, then slacken all of them some more, etc.
+* why
+  That way no single string is left bearing tons of tension while the others are slackened.

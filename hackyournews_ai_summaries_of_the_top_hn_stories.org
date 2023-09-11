@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       2020f7e8-009c-430e-8147-f54cd57c33a7
+:END:
+#+title: HackYourNews - AI summaries of the top HN stories
+https://hackyournews.com/

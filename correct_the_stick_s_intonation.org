@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       99deae51-1675-490d-93d3-4a33701a4d29
+:END:
+#+title: correct the Stick's intonation
+* how
+** serial
+*** Consult any results already recorded.
+*** one pass
+    serial
+**** Tune stick at low frets.
+     (where low = near nut)
+**** Measure *all* strings at high frets, recording results.
+     (where high = near bridge)
+     Try to quantify how flat/sharp a string is.
+**** Measure all bridge positions (as percentage).
+**** adjust each string that needs it
+***** serial
+****** loosen that string and not the others
+****** adjust the saddle
+****** bring that string roughly back up to pitch
+       I'll tune everything in one go soon;
+       this re-tensioning is just to make sure that
+       loosening the next string doesn't put undue pressure
+       on the still-tight ones.
+***** which direction to move the saddle
+      Making the string longer will flatten the note at the high fret, relative to the one at the low fret.
+**** measure positions again
+*** Make as many passes as necessary.
+** *Record all results*.
+** Associate those results with the string gauges
+   in use at the time.
+* doing it, <2023-09-09 Sat>
+** strings 7-11: good, at least roughly, with a light touch.
+   If I press hard it gets wrong.
+** string 12: a bit sharp
+*** Better than flat!
+    That bridge piece was adjusted as far forward as possible.
+    If it had been flat I'd be out of luck.
+*** PITFALL: In the high region there's a dead fret.
+    The next one sounds.
+    If I test there I'll think it's extremely sharp.
+** string 1: a bit flat

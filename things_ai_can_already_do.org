@@ -5,3 +5,4 @@
 * [[id:ef2a3f90-a28b-42d6-a38b-9b568f818644][LLMs can give career advice.]]
 * LLMs can describe experiences.
   e.g. the paperwork that police have to deal with
+* [[id:2020f7e8-009c-430e-8147-f54cd57c33a7][HackYourNews - AI summaries of the top HN stories]]

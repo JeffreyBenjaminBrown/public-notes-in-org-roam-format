@@ -68,6 +68,8 @@ because in a long list of short items it's hard to see how they line up with the
     :END:
 That is, a folder that Encfs is funneling data into.
 ** inside smsn
+   Visit ~/smsn+/smsn-mode/lisp/commands-only.el
+   to find all commands.
 *** set-source
 **** The move mode command is "s".
 **** How I fixed it

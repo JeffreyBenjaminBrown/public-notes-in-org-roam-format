@@ -3,7 +3,9 @@
 :ROAM_ALIASES: "Chapman Stick"
 :END:
 #+title: (microtonal) Chapman Stick
+* TODO [[id:99deae51-1675-490d-93d3-4a33701a4d29][correct the Stick's intonation]]
 * my [[id:d4b44e86-641a-48b8-bb49-0cb1a3e015d4][strings for the Chapman Stick]]
+* PITFALL: [[id:be35e8a4-1d63-4464-b43b-fbf49d782a19][slackening the strings on a Chapman Stick]]
 * [[id:888eee74-1c22-4750-8922-efaad74206fe][tuning the Chapman Stick]]
 * [[id:dc5b4335-eaec-402b-a8c5-25476c9b0db7][insrance policy for my music gear]]
 * refs
