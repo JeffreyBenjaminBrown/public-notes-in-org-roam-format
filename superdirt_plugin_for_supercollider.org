@@ -5,6 +5,7 @@
 * folders on my system
   ~/.local/share/SuperCollider/downloaded-quarks/Dirt-Samples/
   ~/.local/share/SuperCollider/downloaded-quarks/SuperDirt/
+* [[id:3a0335d8-3e84-4878-8067-62985b2ee12d][software mixer for SuperDirt]]
 * TODO My question on Tidal Forum about "Metapplicative"
   https://club.tidalcycles.org/t/has-anyone-defined-an-ap-like-function-f-f-a-f-b-f-a-f-b-where-f-pattern/3803/1
 * TODO automatically trim initial silence

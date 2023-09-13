@@ -117,6 +117,7 @@ or via the menu File > Open startup file
      e.g. root, chord, scale and "out"
      but maybe finer or coarser
 **** At least one dimension for, roughly, frequency.
+* [[id:3a0335d8-3e84-4878-8067-62985b2ee12d][software mixer for SuperDirt]]
 * the [[id:543397e7-733f-4d56-bf58-35f5e9d83b5e][TidalCycles language]]
 * Tidalcycles: [[id:62d4071a-c7d5-4671-baa5-94b620fe2a77][installing and updating]]
 * how to launch it

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       3a0335d8-3e84-4878-8067-62985b2ee12d
+:END:
+#+title: software mixer for SuperDirt
+https://club.tidalcycles.org/t/the-supedirtmixer-v1-0-is-out-now/4861
