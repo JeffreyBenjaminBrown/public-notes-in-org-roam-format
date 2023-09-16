@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       cad21fc2-6880-48a4-bc98-bd5748a52d4b
+:END:
+#+title: product types in Python
+from dataclasses import dataclass
+
+@dataclass
+class Point:
+    x: float
+    y: float
