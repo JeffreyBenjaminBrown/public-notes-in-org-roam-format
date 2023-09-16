@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       526b3876-94eb-42dd-a618-bd817311bbd8
+:ROAM_ALIASES: "dataclasses in Python"
+:END:
+#+title: pure types in Python
+from dataclasses import dataclass
+
+@dataclass
+class Point:
+  x: float
+  y: float
