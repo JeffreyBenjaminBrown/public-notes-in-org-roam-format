@@ -35,6 +35,7 @@
 ** [[id:526b3876-94eb-42dd-a618-bd817311bbd8][pure types in Python]]
    tag dataclasses
 *** [[id:0ec89580-3ce0-4175-a050-f2ecd9089b0d][sum types in Python]]
+*** [[id:cad21fc2-6880-48a4-bc98-bd5748a52d4b][product types in Python]]
 ** [[id:99890a4d-1147-42ef-b017-6cf378e4b316][operator precedence]] in Python
 ** some obscure Python syntax
 *** lists can be "multiplied"
