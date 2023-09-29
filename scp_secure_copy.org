@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       8485ce2a-ed09-44e8-86b5-b4cde59c90c0
+:END:
+#+title: scp (secure copy)
+* pull
+  scp -i <keyfile> user@host:/remote-path /local/path
+* push
+  scp -i <keyfile> /local/path user@host:/remote-path
+* lately
+  scp -i $JBB_AWS_PEM \
+     /home/jeff/.ssh/id_rsa $JBB_AWS_USER@$JBB_AWS_HOST:~

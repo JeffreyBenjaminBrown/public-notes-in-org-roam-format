@@ -10,7 +10,7 @@
   Otherwise the drum could be damaged.
 * What it sounds like
 ** If the pressure change is not extreme, it sounds like tightening a sheet.
-** If the eustachian tube is sufficiently closed, it sounds like a dolphin.
+** If the eustachian tube is tight, it sounds like a dolphin.
    :PROPERTIES:
    :ID:       7c065e0f-859a-495b-a5b1-69cb069c9e4a
    :END:

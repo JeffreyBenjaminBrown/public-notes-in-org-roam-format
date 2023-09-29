@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       64e4a0e8-1cf3-4edc-9c51-237ad1a8efeb
+:END:
+#+title: find-grep
+= Find files in a folder, grep for a term in them.
+* PITFALL: not just for Emacs
+  It is an Emacs command.
+  But [[id:b0b16d1f-105b-4825-b020-d04cb24d3649][the script it uses]] works in Bash.
+* find-grep for org-roam
+  :PROPERTIES:
+  :ID:       b0b16d1f-105b-4825-b020-d04cb24d3649
+  :END:
+  find -L . -name "*.org" -exec grep --color=auto -nH --null -e expr \{\} +
+** how that differs from standard find-grep
+   -L = follow symlinks
+   no "-type f" clause
+   -name "*.org"

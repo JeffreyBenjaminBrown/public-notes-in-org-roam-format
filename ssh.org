@@ -3,5 +3,7 @@
 :ROAM_ALIASES: "secure shell" SSH
 :END:
 #+title: ssh
+* see also
+** [[id:8485ce2a-ed09-44e8-86b5-b4cde59c90c0][scp (secure copy)]]
 * [[id:7f8f413a-3ddd-4b39-a0a2-6c2d9f7447b3][serving SSH on NixOS]]
 * [[id:f28ddaf7-698b-4d5e-a529-a34bc625f3dd][SSH over HTTPS, how to, for Github or maybe anything]]

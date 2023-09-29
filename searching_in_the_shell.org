@@ -3,6 +3,9 @@
 :ROAM_ALIASES: "find (Bash tool)"
 :END:
 #+title: searching in the shell
+* [[id:64e4a0e8-1cf3-4edc-9c51-237ad1a8efeb][find-grep]]
+* -L : follow symbolic links
+  tag symlink
 * [[id:c444f70b-f19a-417c-9064-1f5df4c3d803][shell tools for structured data]] (CSV, JSON, etc.)
 * [[id:ee83ddd1-aeaa-46e9-a6a7-d180ac16471f][grep (command line search utility)]]
 * find, show all file extensions in filetree

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       cd1ec411-7074-454c-a7f6-5eb3ed14f68b
+:END:
+#+title: alsamixer
+* to cycle through the views
+  use TAB

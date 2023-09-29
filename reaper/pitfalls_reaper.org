@@ -3,6 +3,8 @@
 :ROAM_ALIASES: "Reaper pitfalls" "PITFALLS in Reaper"
 :END:
 #+title: pitfalls in Reaper
+* u
+** BPM interacts with the easily missed "rate" field
 * [[id:36305766-334e-461f-8d79-16d54a75d7cb][if clicking the timeline jumps the cursor to a crazy place]]
 * if [[id:4b707dbe-5c10-438d-9b21-727a4b79accc][copying MIDI notes changes their lengths! \ Reaper]]
 * [[id:ea1beefe-1ad4-44fc-b883-58d049b3e5c3][left/right behave differently in arrange view and edit view]]
