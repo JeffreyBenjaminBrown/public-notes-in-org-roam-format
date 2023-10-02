@@ -2,6 +2,7 @@
 :ID:       7b52eb18-91c5-4f83-be4f-40ff8a918541
 :END:
 #+title: motivation
+* [[id:5599d39f-83c8-4d1f-bf31-304b761e0f69][hope v. fun :: competing hypotheses for motivation]]
 * [[id:e756f326-8f05-44e3-85ee-ffdd54a6082f][life hack : mission => jobhunt]]
 * [[id:655e21ab-5235-4a12-9636-0b04b0a411a4][specialization & graph search]]
 * [[id:40b049b7-ef2a-4eab-a9f8-07ee5841aa86][habit]]

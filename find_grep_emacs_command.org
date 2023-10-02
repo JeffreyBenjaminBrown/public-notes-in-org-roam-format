@@ -10,6 +10,7 @@
   :PROPERTIES:
   :ID:       b0b16d1f-105b-4825-b020-d04cb24d3649
   :END:
+  cd ~/org-roam-search
   find -L . -name "*.org" -exec grep --color=auto -nH --null -e expr \{\} +
 ** how that differs from standard find-grep
    -L = follow symlinks

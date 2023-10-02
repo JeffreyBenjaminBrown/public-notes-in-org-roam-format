@@ -3,6 +3,7 @@
 :END:
 #+title: artificial intelligence
 * [[id:270da54b-eb89-4a12-8bb5-112d6514a013][things AI can already do]]
+* fun idea: [[id:4e7f7f46-802a-4632-9ace-3db0e3577e9d][Use AI to give image vocabulary to the subconscious.]]
 * [[id:32a4999b-9793-4d6d-bc53-d6682d78ede8][LLMs taking jobs, Washington Post, 2023-06-02]]
 * [[id:40a2de02-6388-4795-8280-62f4888cf7b0][AI and understanding]]
 * Current neural networks use far fewer connections and far more data than the human brain.

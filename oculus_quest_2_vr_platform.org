@@ -10,9 +10,10 @@
 ** The lenses are vulnerable to sunlight.
 ** The whole thing is vulnerable to high temperatures.
    Particularly being in a hot car.
-* PITFALL: On bank statement, purchases are gibberish.
+* PITFALL: On bank statement, games show as "Dublin IE".
   When I bought Thrill of the Fight,
   the charge listed as going to "8RRXNDBFF2 Dublin IE".
+  Later, as "MCMBWTBFF2 Dublin IE".
 * [[id:04b961f6-ed58-4bbb-b50b-d06eb542fc38][my first impressiosns of Thrill of the Fight and the Oculus Quest 2]]
 * Quest 2 games for fitness
   :PROPERTIES:
