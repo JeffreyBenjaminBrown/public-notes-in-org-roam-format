@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       24421fdd-ef37-41cd-a3c7-dee5e6330dd2
+:ROAM_ALIASES: NumPy "numpy (Python library)"
+:END:
+#+title: numpy
+* [[id:6a0c6707-29de-4cb4-ba1a-7af6b9077872][times versus numbers in NumPy]]

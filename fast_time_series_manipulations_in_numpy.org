@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       15b05d80-19c5-404f-bf42-6d0cd1166c3f
+:END:
+#+title: fast time series manipulations in NumPy
+* PITFALL: Part of this code is unreadable in org-mode.
+* example code, with comments
+  import numpy as np
+  import pandas as pd
+  from numba import jit
+
+  @jit(nopython=True) # Makes it faster.
+  def change_jit( time, spread ): # These are one-dimensional numpy arrays.
+      res = np.empty( time.shape )
+      res[0] = np.nan
+      for i in range(1, res.shape[0]):
+          # An ordinary for loop. Would be slow in a pandas frame,
+          # but somehow numba magicks it into something fast.
+          res[i] = time[i] / spread[i-1]
+            # A nonsense calculation. The point is you can refer "now" (i)
+            # to "earlier" (i-1) points in the data.
+      return res
+
+  df['test'] = change_jit(
+      * # unpacks each row, delivering it as a separate argument
+      df[[ "time", "spread"]]
+      . values # to get a numpy array, which numba wants
+      . T # so that the rows unpacked by * above are the columns we want in `prices`.
+      )

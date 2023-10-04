@@ -3,7 +3,7 @@
 :END:
 #+title: times versus numbers in NumPy
 * the problem
-  Numpy doesn't like mixing times and non-time floats.
+  NumPy doesn't like mixing times and non-time floats.
 * solutions (alternatives)
 ** use Pandas rather than (directly) NumPy
 ** convert time to float as library writers intended (if they did?)

@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       03c771fd-0df9-45cc-85f6-cce2345c9faf
+:ROAM_ALIASES: Excel
 :END:
 #+title: Excel (spreadsheet software)
 * export an Excel spreadsheet in a format readable by humans and [[id:1a97cb6c-b6ff-4439-9790-ff372bc1ee38][Pandas]]
@@ -12,3 +13,4 @@
     grouped = pd.read_csv (
       "vat-by-coicopunicode.txt",
       sep = "\t" )
+* [[id:78ce741f-4f43-4afb-a360-3a9a7aece724][read_excel (Pandas function)]]

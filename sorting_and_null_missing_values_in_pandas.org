@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       4f2a8ff8-a80c-46f3-9dd0-2505215ad1ba
+:END:
+#+title: sorting and null/missing values in pandas
+* null always comes last, regardless of order
+* code to see it
+  d = pd.DataFrame ( [
+      [np.nan,np.nan,np.nan],
+      [     1,np.nan,np.nan],
+      [     1,     1,np.nan],
+      [     1,     2,np.nan],
+      [     1,     2,1],
+      [     2,np.nan,np.nan],
+      [     2,     1,np.nan],
+      [     2,     2,np.nan],
+      [np.nan,np.nan,np.nan],
+      [     1,np.nan,np.nan],
+      [     1,     1,np.nan],
+      [     1,     2,np.nan],
+      [     1,     2,1],
+      [     2,np.nan,np.nan],
+      [     2,     1,np.nan],
+      [     2,     2,np.nan],
+      ],
+      columns = ["a","b","c"] )
+
+  ( d
+   . sort_values ( ["a","b","c"],
+                  ascending = False ) )

@@ -3,10 +3,11 @@
 :ROAM_ALIASES: avena
 :END:
 #+title: oatmeal
-* 30 g oatmeal to 1 coffee* cup water.
-** (*) I don't know how many cups are in these coffee cups.)
-** elaboration
-   I ended up using those proportions here (Paulo VI),
-   adding oatmeal until it seemed thick enough.
-   It took at least 10 minutes.
-   By that time I was left with only about 2.1 cups of liquid.
+* Someone says 1 oats to 2 water.
+* 1 part oats *in* 3 parts water was too wet.
+** what I tried
+   I filled the French press with 1/3 oats,
+   then fill it to the top with water,
+   while the oats are still in it,
+   such that there's some water in the bottom 1/3
+   where the oats are.

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       dc3abbf8-c31b-4a43-bf04-99f0e0a112d3
+:END:
+#+title: to format some columns when reading a table from disk with read_csv
+* code
+  vat_coicop = pd.read_csv (
+    ...
+    , dtype = {
+        "coicop"          : "int32"
+      , "vat"           : "float32"
+      , "vat frac"      : "float32"
+    } )
+* in tax.co, my `readStage` utility accepts the same kind of argument
+  forwarding it on to pd.read_csv as part of **kwargs.

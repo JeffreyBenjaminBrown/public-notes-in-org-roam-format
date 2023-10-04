@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3934f783-8e35-464f-8e15-f09968eed6c0
+:END:
+#+title: Stir powders into water, rather than just pouring.
+Otherwise a membrane might form around it,
+within which it remains dry.

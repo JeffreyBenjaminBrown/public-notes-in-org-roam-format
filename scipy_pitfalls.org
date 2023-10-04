@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       faf9d8f2-1d0e-464f-bf6c-811d796ee6b2
+:ROAM_ALIASES: "pitfalls in SciPy" "scipy pitfalls" "pitfalls in scipy"
+:END:
+#+title: SciPy pitfalls
+* [[id:4f2a8ff8-a80c-46f3-9dd0-2505215ad1ba][sorting and null/missing values in pandas]]
+* [[id:5f093513-f49c-4536-ae3c-ab25ee2d4a20][Pandas sometimes rounds floats' displayed values, for no reason.]]
+* [[id:d44eae81-496c-4ccd-ba24-9d0f1cf3dcd3][BUG: Non-unique labels cause data truncation in matplotlib.]]
+* [[id:9e5f293c-82c7-4539-8f4a-53b3b67851fe][read_excel counts hidden sheets.]]
+* [[id:767b91d1-ed9d-46c7-b0ac-b93e92875985][Pandas does not verify homogeneity when appending to CSV files.]]
+* [[id:01bca61c-0c14-4b08-ab14-e4bb8cb384b9][Don't use the "axis = " keyword when applying to a Series.]]

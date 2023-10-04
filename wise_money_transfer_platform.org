@@ -3,5 +3,6 @@
 :ROAM_ALIASES: TransferWise
 :END:
 #+title: Wise (money transfer platform)
+* [[id:81111ce7-86b7-4d3b-ac10-540ba69cd426][send money to myself in Colombia via Wise, <2023-10-03 Tue>]]
 * Get 50 British pounds for every 3 people I invite
   https://mail.google.com/mail/u/0/?q=sebastian#inbox/FMfcgzGqQJjLxvpLKKXxtfVsrKfKzJnG

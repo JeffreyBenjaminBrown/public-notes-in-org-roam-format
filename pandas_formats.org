@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       cca852bf-dbac-49a5-83cf-602db6574f77
+:END:
+#+title: Pandas & formats
+* [[id:bcf7d0fb-3579-47eb-8af5-ddd2baac2dc8][to parse some columns as dates when calling read_csv]]
+* [[id:dc3abbf8-c31b-4a43-bf04-99f0e0a112d3][to format some columns when reading a table from disk]]
+* [[id:42538f79-f00b-48c6-adf6-f4ff8d805479][export an Excel spreadsheet in a format readable by humans and Pandas]]
+* Pandas can export to [[id:8475bbbf-efbb-423e-901c-b464e807784c][parquet]].
+  :PROPERTIES:
+  :ID:       5b17456f-7237-48cc-a6a6-7a2dbef33aa3
+  :END:
+  pd . DataFrame . to_parquet ()

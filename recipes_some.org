@@ -1,11 +1,9 @@
 :PROPERTIES:
-:ID:       95fc4b53-483e-475e-a86c-2818c0917166
-:ROAM_ALIASES: cooking
+:ID:       89e80e2c-174a-43aa-9349-4c01ab4b0ed6
 :END:
 #+title: recipes, some
 * [[id:7f410662-ff04-4aac-a679-f1377920d71a][steamed brussel sprouts]] are icredibly easy
 * [[id:6627ffbd-4691-4afa-bd39-1a97606fbf80][pickled radish]]
 * [[id:b94cfaa7-9184-4cd7-bfbb-fa0de5064435][baked eggplant]]
 * [[id:ec6e5302-6c08-4b18-8f7b-23a2d514a8c4][baked cauliflower]]
-* [[id:0382a0b6-82da-4b87-9be1-e302f040a979][cheese]]
-* [[id:f29fbdf5-4d91-401d-a614-d0a63bf201e5][refined coconut oil is better for high heat cooking]]
+* [[id:5e1b3e68-e366-4550-b8cd-5d9bbea54feb][oatmeal]]

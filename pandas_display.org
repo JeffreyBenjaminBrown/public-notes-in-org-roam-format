@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       1bf924f3-f88a-4556-b31b-9bb72e96b7f7
+:END:
+#+title: pandas display
+in text, that is
+* use scientific notation
+  pd.set_option('display.float_format', '{:.2g}'.format)
+* show as many columns as screen permits
+  pd.options.display.width = 5000
+* show lots of rows
+  pd.options.display.min_rows = 500

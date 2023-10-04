@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       7e61cbf8-3dec-4e6d-a594-15600408183c
+:ROAM_ALIASES: Pandas pandas
+:END:
+#+title: Pandas (Python library)
+* TODO schemas in Pandas
+** TODO The `pandera` library implements schemas for Pandas data frames.
+* PITFALL: [[id:5f093513-f49c-4536-ae3c-ab25ee2d4a20][Pandas sometimes rounds floats' displayed values, for no reason.]]
+* functions
+** [[id:78ce741f-4f43-4afb-a360-3a9a7aece724][read_excel]]
+** [[id:5c96fcdb-8f4b-4441-9452-9f00956776a3][read_csv]]
+* solutions
+** [[id:54b1ca58-0de1-49b1-a419-06af3872affa][append to a CSV file]]
+** [[id:98556058-2bcf-456d-8401-e57845c717da][append a series as a row to a data frame \ Pandas]]
+** [[id:4f2a8ff8-a80c-46f3-9dd0-2505215ad1ba][sorting and null/missing values in pandas]]
+** [[id:1bf924f3-f88a-4556-b31b-9bb72e96b7f7][pandas display]]
+** to [[id:a5a69d4a-20d2-44e7-94f0-d02636159b86][aggregate using different stats across columns in Pandas]]
+** [[id:cca852bf-dbac-49a5-83cf-602db6574f77][Pandas & formats]]
+** [[id:fa229129-ee84-4947-9abf-e8d117645f94][mapping in Pandas]]
+   tags apply functor
+** [[id:6c86235c-5b2e-44b2-a481-452886a2b623][selection, subsetting, and conditioning in Pandas]]

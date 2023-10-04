@@ -8,6 +8,7 @@
 ** [[id:f5d81cd6-dcc9-414b-bf9b-2c7f4ca1cd29][my data]]
 ** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
 * TODO \ knowledge graphs
+** [[id:2313fc06-ec79-4a0c-b40c-3367cb4fe19d][Khoj - natural language search engine for org-mode notes]]
 ** [[id:d674bf8d-cd41-47aa-8418-36a74cedd561][build Hash for TypeDB]]
 ** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
 ** [[id:8c609b95-5f55-4d88-b0fa-b43227577ee7][I want a record of the (org-roam) files I read]]

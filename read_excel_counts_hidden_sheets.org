@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       9e5f293c-82c7-4539-8f4a-53b3b67851fe
+:END:
+#+title: read_excel counts hidden sheets.
+The Excel file can include hidden sheets.
+If so, what looks like, e.g.,
+the fourth sheet might actually be the sixth.
+This can look like a bug in read_excel, but it isn't.

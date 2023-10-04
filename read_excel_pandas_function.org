@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       78ce741f-4f43-4afb-a360-3a9a7aece724
+:END:
+#+title: read_excel (Pandas function)
+* PITFALL: [[id:9e5f293c-82c7-4539-8f4a-53b3b67851fe][read_excel counts hidden sheets.]]

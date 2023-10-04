@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       bcf7d0fb-3579-47eb-8af5-ddd2baac2dc8
+:END:
+#+title: to parse some columns as dates when calling read_csv
+pd.read_csv (
+  "data/history.csv",
+  parse_dates = [ "time, favorite time" ] )

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       95fc4b53-483e-475e-a86c-2818c0917166
+:END:
+#+title: cooking
+* [[id:3934f783-8e35-464f-8e15-f09968eed6c0][Stir powders into water, rather than just pouring.]]
+* [[id:f29fbdf5-4d91-401d-a614-d0a63bf201e5][refined coconut oil is better for high heat cooking]]
+* [[id:89e80e2c-174a-43aa-9349-4c01ab4b0ed6][recipes, some]]
+* [[id:0382a0b6-82da-4b87-9be1-e302f040a979][cheese dangers]]
