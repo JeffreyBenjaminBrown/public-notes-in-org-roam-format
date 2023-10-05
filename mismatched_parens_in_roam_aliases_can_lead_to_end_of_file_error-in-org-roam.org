@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       48d43f1e-154d-4a03-a25d-1dec56c79d99
+:END:
+#+title: mismatched parens in ROAM_ALIASES can lead to end-of-file error in org-roam
+* The resulting error looks like this:
+  Error (org-roam): Failed to process /home/jeff/org-roam/pers/see_an_otologo.org with error End of file during parsing, skipping...

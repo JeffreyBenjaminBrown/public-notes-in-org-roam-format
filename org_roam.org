@@ -6,6 +6,7 @@
 ** for help : the Discourse group
 ** awesome-org-roam : a curated list of resources
    https://github.com/kot-behemoth/awesome-org-roam
+* PITFALL: [[id:48d43f1e-154d-4a03-a25d-1dec56c79d99][mismatched parens in ROAM_ALIASES can lead to end-of-file error]]
 * TODO [[id:2313fc06-ec79-4a0c-b40c-3367cb4fe19d][Khoj - natural language search engine for org-mode notes]]
 * TODO [[id:8c609b95-5f55-4d88-b0fa-b43227577ee7][I want a record of the (org-roam) files I read]]
 * TODO Try [[id:8e236d34-8dc8-480c-afa5-f1be01d19357][org-roam-ql]]
