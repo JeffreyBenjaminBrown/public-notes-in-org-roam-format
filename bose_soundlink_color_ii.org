@@ -2,6 +2,7 @@
 :ID:       88a8e98f-3714-4554-878d-acaa5dcbce5d
 :END:
 #+title: Bose Soundlink Color II
+* PITFALL: If it always stutters in Bluetooth mode, [[id:60382a78-8871-4078-a2ca-4a067f227a81][reset it]].
 * manual
   [[~/many-small/belongings/22-02-21-sUh59aky.manual.bose_soundlink_color_ii.pdf]]
 * how to enter stereo mode
@@ -33,3 +34,12 @@
 **** Wait until it says it's in Party (duplicated mono) Mode.
 **** On either, press and holde Bluetooth and + again.
 **** Wait until it says it's in Stereo Mode.
+* how to reset
+  :PROPERTIES:
+  :ID:       60382a78-8871-4078-a2ca-4a067f227a81
+  :END:
+  Hold "aux" ("not bluetooth") and volume down (adjacent)
+  for 10 seconds.
+  It will ask to switch to English halfway through,
+  but keep holding for the 10 seconds,
+  then accept English.

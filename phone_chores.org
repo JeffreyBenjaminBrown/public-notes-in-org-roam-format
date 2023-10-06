@@ -4,4 +4,3 @@
 #+title: phone chores
 * [[id:12b3d37e-8437-46fe-b4c9-6e2e897f180d][repair my closet using its warranty]]
 * Does Bancolombia know I'm in the new condo?
-* [[id:55289e33-92b8-4b5e-ac20-1404523358ba][call to balance dryer]]
