@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       9477cdfa-4010-4fb9-9e94-df6ccf8cb0a2
+:END:
+#+title: All My Stars Aligned, by St. Vincent
+* key
+  Original is in C#.
+  I like it in E^.
+* song
+  [0 maj 7  ]  I read the signs
+  [11 aug b7]  I got all my stars aligned
+  [2 min    ]  My amulets, my charms
+  [7 dom    ]  I set all my false alarms.
+
+  So I'll be someone
+  who won't be forgotten.
+  I've got a question
+  and you've got the answer.
+
+  chorus:
+  I do a dance to make the rain come, [5]
+  smile to keep the sky from falling, [5]
+  down ... [4]
+  Collect the love that I've been given [5]
+  build a nest for us to sleep in [5]
+  here, you know it's real. [0, 10]
+
+  I check my palms, the cracks in the sidewalk,
+  my visions and my dreams, I cross all my fingers,
+  that you'll be someone / who won't be forgotten
+  what was your question? I've got the answer.
+
+  [bridge at 2:30]:
+  [2 james bond]
+  Theere are no signs, there are no stars aligned,
+  no amulets, not a charm, to bring you back to my arms
+  [0, 1, 2]
+  there's just this human heart,
+  it's built with this human flaw,
+  what was your question?
+  [4] love is the answer
+
+  [chorus]

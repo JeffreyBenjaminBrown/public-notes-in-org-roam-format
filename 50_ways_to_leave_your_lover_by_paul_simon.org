@@ -1,0 +1,83 @@
+:PROPERTIES:
+:ID:       3eac83bb-f0e8-4c03-9ff0-e7873428fe16
+:ROAM_ALIASES: "50 ways to leave your lover"
+:END:
+#+title: 50 Ways To Leave Your Lover, by Paul Simon
+* my mod: 50 Amicable Ways To Leave Your Lover
+  [solo drums]
+
+  [0: 0, 10, 8, 7
+      0, 7dom x 3
+      0, 10, 8, 7
+      0, 5m x 3   ]
+  The problem is all inside your head she said to me.
+  The answer is easy if you take it logically.
+  I'd like to help you with your struggle to be free -- There must be
+  50 ways to leave me, lover.
+
+  She said it's really not my habit to intrude -- Furthermore
+  I hope my meaning won't be lost or misconstrued -- but I'll
+  repeat myself at the risk of seeming rude -- There must be
+  50 ways to leave me, lover
+  50 ways to leave me, lover
+
+  [chorus:]
+  [3 dorian: 0, 3, 5, 0]
+  Just slip out the back, Jack. Make a new plan, Stan.
+  You don't need to be coy, Roy. [ Just get yourself free.
+                                 | Just listen to me. ]
+  Hop on the bus, Gus. You don't need to discuss much.
+  Just drop off the key, Lee, and get yourself free.
+
+  [chorus]
+
+  She said it grieves me so to see you in such pain -- I wish there
+  was something I could do to make you smile again -- I said I
+  appreciate that. But I simply could not imagine
+  any of the 50 ways.
+
+  We make each others' lives easy. We never fight -- But feeling
+  how we do for years, that can't be right. And then she
+  kissed me, and I finally saw the light -- There must be
+  50 ways to leave your lover.
+
+  [chorus x 2]
+* the original
+  [solo drums]
+
+  [0: 0, 10, 8, 7
+      0, 7dom x 3
+      0, 10, 8, 7
+      0, 5m x 3   ]
+  The problem is all inside your head she said to me.
+  The answer is easy if you take it logically.
+  I'd like to help you with your struggle to be free -- There must be
+  50 ways to leave your lover.
+
+  She said it's really not my habit to intrude -- Furthermore
+  I hope my meaning won't be lost or misconstrued -- but I'll
+  repeat myself at the risk of being crude -- There must be
+  50 ways to leave your lover
+  50 ways to leave your lover
+
+  [chorus:]
+  [3 dorian: 0, 3, 5, 0]
+  Just slip out the back, jack. Make a new plan, Stan.
+  You don't need to be coy, Roy. [ Just get yourself free.
+                                 | Just listen to me. ]
+  Hop on the bus, Gus. You don't need to discuss much.
+  Just drop off the key, Lee, and get yourself free.
+
+  [chorus]
+
+  She said it grieves me so to see you in such pain -- I wish there
+  was something I could do to make you smile again -- I said I
+  appreciate that; and would you please explain about the
+  50 ways.
+
+  She said why don't we both just sleep on it tonight -- and I
+  believe in the morning you'll begin to see the light -- and then she
+  kissed me, and I realized she probably was right -- There must be
+  50 ways to leave your lover.
+
+  [chorus x 2]

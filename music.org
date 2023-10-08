@@ -3,6 +3,7 @@
 :END:
 #+title: music
 * [[id:8e161cfb-b4c5-4202-a87e-242b3a25c038][making a microtonal guitar]]
+* [[id:1b8a682a-db24-42f7-b79a-c615baac7fed][songs, some]]
 * Bosanquet 43 looks nice -- but guitar not so easy.
 * In 34-edo, [[id:12d76fb9-ec45-4ccf-b846-7c563e307931][8:7 * 7:6 > 4:3]]
 * MIDI pedals and Python / Reaper scripts

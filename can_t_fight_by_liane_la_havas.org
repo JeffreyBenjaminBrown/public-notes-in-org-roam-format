@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       125850b8-dc5b-44da-a5a0-dca02ef499e0
+:END:
+#+title: Can't Fight, by Liane la Havas
+* key
+  original: E^
+* song
+  [verse:]
+  [0, 3]
+  It seems that I won't be warned.
+  And certainly I saw a sign.
+  I raged like a woman scorned,
+  but something about you got me goin'.
+  You're pulling me back and I'm going under.
+
+  [chorus:]
+  [5, 4\0, 2, 7]
+  A kuttke peace, a little love,
+  a little bit, is that enough?
+  I can't fight away this love.
+  I knew that I should give you up.
+  I tried to run but got my heart stuck.
+  I can't fight away this love.
+
+  [verse 2]
+  The things that I want and need
+  they always seem to be at odds with me.
+  Why?
+  When did heaven gt this heavy?
+  Everything's right until it's wrong.
+  But something about you feels like home.
+  Baby you know that you got me goin'
+  You're pulling me back and I'm going under.
+
+  [chorus ...]
