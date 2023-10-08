@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       79431b65-c726-48ee-8613-21e616cc1c0a
+:END:
+#+title: notes from a video on some health recommendations from David Sinclair
+* refs
+** the video
+   https://www.youtube.com/watch?v=pUP0rSIu2TI
+** David Sinclair is a bio-something professor at Harvard.
+** Ellen sent it via Telegram on <2023-10-08 Sun>.
+* good foods
+** dark colorful fruits and vegetables
+   somehow indicates that they have been stressed
+** macha tea
+** spinach
+** olive oil
+* supplements
+** resveritrol (1g / day)
+** NMN
+** metformin
+** Antioxidants don't do much.
+* avoid (and why)
+** glucose, fructose
+*** fruits, esp. fruit juice, spike it
+** put sugar at the end of the meal if having it
+** The liver makes sugar.
+   It takes a few weeks for it to learn that it needs to.
+** good sugar alternatives
+*** monk fruit
+*** stevia
+*** allulose
+    I'm guessing that's what they said. It sounded like "agulose",
+    but Google corrects that to "allulose" when I search for
+    "agulose sugar alternative".
+** bread
+   Bread (or a glass of OJ) delivers lots of sugar.
+   Feels good initially.
+   The body responds with a lot of insulin,
+   which leads to hypoglycemia,
+   which causes hunger, fatigue, shakiness, brain fog.
+*** QUESTION: Is bread particularly bad among starches?
+** meat
+   It raises cholesterol, triglycerides.
+   It causes ageing.
+   Plant proteins have better amino acid profiles.
+** dairy (inc. eggs)
+* intermittent fasting
+** He eats in a 6 hour window each day.
+** If you can't stand it, nuts are a good stopgap.
