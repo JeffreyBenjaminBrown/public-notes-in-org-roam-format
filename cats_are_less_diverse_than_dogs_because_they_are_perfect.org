@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       3ab2a555-3a03-472d-ab60-c8115642d1c0
+:END:
+#+title: Cats are less diverse than dogs, because they are "perfect".
+https://www.scientificamerican.com/article/cats-are-perfect-an-evolutionary-biologist-explains-why/
+
+Disappointing article -- does not explain why they are perfect,
+only that they dominate their particular hypercarnivorous evolutionary niche,
+to the exclusion of some other species that sometimes "try".
+Claims that monitor lizards are similar.
+Both kinds of animal look very similar at widely varying scales.
+Other kinds of animals -- esp. bats, mice, bears --
+that are much more diverse are diverse "because they suck",
+that is, they have not dominated any particular niche.

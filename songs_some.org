@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       1b8a682a-db24-42f7-b79a-c615baac7fed
+:ROAM_ALIASES: "some songs"
 :END:
 #+title: songs, some
 * [[id:3eac83bb-f0e8-4c03-9ff0-e7873428fe16][50 Ways To (Amicably) Leave Your Lover, by Paul Simon]] (with mods)

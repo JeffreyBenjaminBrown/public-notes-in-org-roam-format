@@ -2,6 +2,7 @@
 :ID:       89e80e2c-174a-43aa-9349-4c01ab4b0ed6
 :END:
 #+title: recipes, some
+* [[id:0d037a5d-e027-4b6d-8054-c39aad9bb196][soup]]
 * [[id:7f410662-ff04-4aac-a679-f1377920d71a][steamed brussel sprouts]] are icredibly easy
 * [[id:6627ffbd-4691-4afa-bd39-1a97606fbf80][pickled radish]]
 * [[id:b94cfaa7-9184-4cd7-bfbb-fa0de5064435][baked eggplant]]

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       0d037a5d-e027-4b6d-8054-c39aad9bb196
+:END:
+#+title: soup
+* Everything boils slower in Bogotá.
+* Carrots take a long time to soften.
+  At least in Bogotá.
+  After 40 minutes they were still hard-ish.
+* Small potatoes supposedly take 15-20 minutes.
+* Add olive oil to each bowl separately.
+  Boiling reduces its polyphenol content,
+  and polyphenols are great.
