@@ -1,0 +1,53 @@
+:PROPERTIES:
+:ID:       e117abe5-bc24-46ae-8c6e-cb33a9127df5
+:END:
+#+title: Why isn't nixos-rebuild building anything.
+* ref : my question on the NixOS Discourse site
+  https://discourse.nixos.org/t/nixos-rebuild-not-rebuilding-i-think-no-changes-in-weeks/34056
+* evidence for it
+[jeff@jbb-hp17:~/org-roam-search]$ date
+  Mon Oct  9 04:22:24 PM -05 2023
+
+[jeff@jbb-hp17:~/org-roam-search]$ sudo nixos-rebuild switch                    [sudo] password for jeff:
+  building Nix...
+  building the system configuration...
+  activating the configuration...
+  setting up /etc...
+  reloading user units for jeff...
+  setting up tmpfiles
+
+[jeff@jbb-hp17:~/org-roam-search]$ ls /nix/var/nix/profiles -l
+  total 28
+  lrwxrwxrwx 1 root root   43 Jun 23 14:37 default -> /nix/var/nix/profiles/per-user/root/profile
+  drwxr-xr-x 4 root root 4096 Apr  9  2022 per-user
+  lrwxrwxrwx 1 root root   15 Oct  9 16:18 system -> system-321-link
+  lrwxrwxrwx 1 root root   93 Sep 16 02:16 system-317-link -> /nix/store/x6cp2sq79l6amyhmdmqa6i2yq7max6zs-nixos-system-jbb-hp17-23.11pre525972.ace5093e36ab
+  lrwxrwxrwx 1 root root   93 Sep 19 02:04 system-318-link -> /nix/store/si3f0a68g4932j5pgm8j0710znlp3lck-nixos-system-jbb-hp17-23.11pre526521.970a59bd19ef
+  lrwxrwxrwx 1 root root   93 Sep 22 03:20 system-319-link -> /nix/store/q96vf0gfpxqmdfp13qkrhgpqqar4742y-nixos-system-jbb-hp17-23.11pre527133.5ba549eafcf3
+  lrwxrwxrwx 1 root root   93 Sep 24 13:40 system-320-link -> /nix/store/h3wj4mhck6yhv97i07q83hrwhavl5qkq-nixos-system-jbb-hp17-23.11pre527911.e35dcc04a385
+  lrwxrwxrwx 1 root root   93 Sep 28 06:08 system-321-link -> /nix/store/lrlg1zvrskbn6nrg7g0pr3gsxd6vqfzv-nixos-system-jbb-hp17-23.11pre527911.e35dcc04a385
+  drwxr-xr-x 2 root root 4096 Oct  9 16:18 system-profiles
+
+[jeff@jbb-hp17:~/org-roam-search]$ nix profile history \
+  --profile /nix/var/nix/profiles/system               \
+  --extra-experimental-features nix-command
+  Version 317 (2023-09-16):
+    No changes.
+
+  Version 318 (2023-09-19) <- 317:
+    No changes.
+
+  Version 319 (2023-09-22) <- 318:
+    No changes.
+
+  Version 320 (2023-09-24) <- 319:
+    No changes.
+
+  Version 321 (2023-09-28) <- 320:
+    No changes.
+
+[jeff@jbb-hp17:~/org-roam-search]$
+* solution: update my nix channels
+  sudo nix-channel --update nixos
+    (because "nixos" is the name of the only channel listed
+    when I run `sudo nix-channel --list`)
