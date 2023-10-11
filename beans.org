@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       0cb70005-87b9-43a3-96e8-45906f1561ec
+:END:
+#+title: beans, cooking
+* soak (many variations!)
+  multiple times, lukewarm water, salt, baking soda, vinegar
+** says Stav Kone
+   soak 12 hours, discard;
+   soak another 12, discard;
+   osak lukewarm with baking soda, discard;
+   cook
+** said someone: soak with salt and/or vinegar
+* add [[id:64139dfc-c989-4fce-87a2-c544205de1ef][epazote]]
+* add [[id:c696e936-85a8-4b96-ae4b-cbba6fe64645][saccharomyces boulardii]]

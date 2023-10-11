@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       89e80e2c-174a-43aa-9349-4c01ab4b0ed6
+:ROAM_ALIASES: "some recipes"
 :END:
 #+title: recipes, some
 * [[id:0d037a5d-e027-4b6d-8054-c39aad9bb196][soup]]
@@ -8,3 +9,4 @@
 * [[id:b94cfaa7-9184-4cd7-bfbb-fa0de5064435][baked eggplant]]
 * [[id:ec6e5302-6c08-4b18-8f7b-23a2d514a8c4][baked cauliflower]]
 * [[id:5e1b3e68-e366-4550-b8cd-5d9bbea54feb][oatmeal]]
+* [[id:0cb70005-87b9-43a3-96e8-45906f1561ec][beans]]

@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       e117abe5-bc24-46ae-8c6e-cb33a9127df5
 :END:
-#+title: Why isn't nixos-rebuild building anything.
+#+title: SOLVED: Why isn't nixos-rebuild building anything.
 * ref : my question on the NixOS Discourse site
   https://discourse.nixos.org/t/nixos-rebuild-not-rebuilding-i-think-no-changes-in-weeks/34056
 * evidence for it
