@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c6f64f15-e8f7-4fc9-b099-04b7276bd82b
+:END:
+#+title: strip the file extension from a path \ Python\
+import os
+
+os.path.splitext ( "a/b/c/d.e" )
+('a/b/c/d', '.e')
