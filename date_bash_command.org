@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       fe17325d-eb20-48f6-9526-5961b8689478
+:ROAM_ALIASES:
+:END:
+#+title: date (bash command)
+* show date but not time, with numbers separated by dashes
+  date +"%Y-%m-%d"
+* [[id:6a0c6707-29de-4cb4-ba1a-7af6b9077872][times versus numbers in NumPy]]

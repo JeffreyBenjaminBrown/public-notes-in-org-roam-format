@@ -3,4 +3,5 @@
 :END:
 #+title: saccharomyces boulardii
 * Helpful bacteria.
+* On Amazon but expensive -- $1 USD / pill.
 * Andrew Fenlon rec's adding to beans, to counter flatus.

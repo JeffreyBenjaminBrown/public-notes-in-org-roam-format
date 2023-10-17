@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       a28aa2eb-3a9f-450a-8489-bba3ea3a4cf6
-:ROAM_ALIASES: time
-:END:
-#+title: date
-* show the date without the time in Bash
-  (date +%Y-%m-%d)
-* [[id:6a0c6707-29de-4cb4-ba1a-7af6b9077872][times versus numbers in NumPy]]

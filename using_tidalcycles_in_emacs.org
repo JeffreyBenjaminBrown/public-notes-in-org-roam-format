@@ -24,15 +24,16 @@ alternatives
       (process-send-string my-target "\n"))
     ```
 ** launch a shell in Emacs (`M-x shell`)
-   and within it:
-
+** mark it as the receiving GHCI buffer
+   M-x mark-rec TAB
+** send these commands to it
    cd /home/jeff/code/music/Tidal/tidal+epic # or wherever Tidal's root is
    cabal repl
    :s BootTidal.hs
-** mark it as the receiving GHCI buffer
-   M-x mark-rec TAB
-** to send text from a text buffer to GHCI
-   Once that's done, I can highlight text in any buffer (doesn't have to end in .tidal) and send it to the shell buffer with `send-highlighted-region-to-receiver-buffer`.
+*** how to send text from a text buffer to GHCI
+    Highlight text in any buffer (it doesn't have to end in .tidal)
+    and send it to the shell buffer by running
+    `send-highlighted-region-to-receiver-buffer`.
 ** open a buffer for Tidal code
    e.g.
      [[~/code/music/Tidal/tidal+epic/music/simple.hs]]

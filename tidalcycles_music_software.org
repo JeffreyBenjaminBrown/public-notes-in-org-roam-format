@@ -11,6 +11,7 @@
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
 * TODO
+** TODO [[id:a922b10f-30e2-4720-b1bf-6d934e6e715c][Emacs: switch major modes without losing folding information?]]
 ** TODO [[id:5e40393b-a042-41d2-ba79-41ab70fc9ba6][algorithmic music ideas, <2023-07-28 Fri>, take 2]]
 ** TODO u : a way to print all extant synthdefs and effects
    https://club.tidalcycles.org/t/print-tidals-synths-and-fx/4798

@@ -2,6 +2,19 @@
 :ID:       40bd3898-4fc7-4185-a924-c598c7e7baf9
 :END:
 #+title: 9\46 x 2\46 (isomorphic layout)
+* strings required
+  MTV> 9 * 12 / 46 -- 235 cents per string
+    2.347826086956522
+** 11 strings => range of 1200 + 1148 cents
+   MTV> (11-1) * 9 * 12 / 46 -- 11 strings => almost 2 octaves
+     23.47826086956522
+   MTV> mod ((11-1) * 9) 46 -- string 11 is a fret below the octave
+     44
+** 8 strings => range 1 fret less than 1700 cents
+   MTV> (8-1) * 9 * 12 / 46
+     16.434782608695652
+   MTV> mod ((8-1) * 9) 46
+     17
 * advantages
 ** 31-lim in 4x7
 ** octave (4,5) = (5,0.5)
@@ -20,7 +33,7 @@
 *** 16/15:                      2s -7f
     the note on the higher string is, intuitively, the higher one
 *** 11/10:                      2s -6f
-* the layout
+* layout as table
   0  steps;  1 % 1;  string 0; fret 0
   8  steps;  9 % 8;  string 0; fret 4
   15 steps;  5 % 4;  string 1; fret 3
@@ -39,3 +52,26 @@
   35 steps; 27 % 16; string 3; fret 4
   39 steps; 29 % 16; string 3; fret 6
   44 steps; 31 % 16; string 4; fret 4
+* layout as picture
+  myPrint $ map concat $ printLayout (primesOctave1 23) (show . numerator) 46 (9,2)
+   -  -  -  -  -  -  -  7  1  - 21  3  -  -  9  -  -  -
+   -  -  -  -  - 11  -  -  - 19  -  -  -  -  -  -  -  7
+  23  - 15  -  -  - 13  - 17  -  -  -  -  -  - 11  -  -
+   -  -  -  -  -  -  -  -  -  5 23  - 15  -  -  - 13  -
+   -  7  1  - 21  3  -  -  9  -  -  -  -  -  -  -  -  -
+   -  -  - 19  -  -  -  -  -  -  -  7  1  - 21  3  -  -
+  13  - 17  -  -  -  -  -  - 11  -  -  - 19  -  -  -  -
+   -  -  -  5 23  - 15  -  -  - 13  - 17  -  -  -  -  -
+   -  -  9  -  -  -  -  -  -  -  -  -  -  5 23  - 15  -
+   -  -  -  -  -  7  1  - 21  3  -  -  9  -  -  -  -  -
+   -  -  - 11  -  -  - 19  -  -  -  -  -  -  -  7  1  -
+  15  -  -  - 13  - 17  -  -  -  -  -  - 11  -  -  - 19
+   -  -  -  -  -  -  -  5 23  - 15  -  -  - 13  - 17  -
+   1  - 21  3  -  -  9  -  -  -  -  -  -  -  -  -  -  5
+   - 19  -  -  -  -  -  -  -  7  1  - 21  3  -  -  9  -
+  17  -  -  -  -  -  - 11  -  -  - 19  -  -  -  -  -  -
+   -  5 23  - 15  -  -  - 13  - 17  -  -  -  -  -  - 11
+   9  -  -  -  -  -  -  -  -  -  -  5 23  - 15  -  -  -
+   -  -  -  7  1  - 21  3  -  -  9  -  -  -  -  -  -  -
+   - 11  -  -  - 19  -  -  -  -  -  -  -  7  1  - 21  3
+   -  - 13  - 17  -  -  -  -  -  - 11  -  -  - 19  -  -

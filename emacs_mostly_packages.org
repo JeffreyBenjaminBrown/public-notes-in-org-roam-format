@@ -8,6 +8,7 @@
 * [[id:3a230207-47a8-4dde-af88-2c442f5c51aa][Erlang and Emacs]]
 * some big single-page manuals
   https://www.emacsdocs.org/
+* TODO [[id:a922b10f-30e2-4720-b1bf-6d934e6e715c][Emacs: switch major modes without losing folding information?]]
 * TODO ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * TODO ? orderless in Emacs
   :PROPERTIES:

@@ -3,4 +3,6 @@
 :END:
 #+title: epazote (te mexicano)
 * "Mexican tea."
+* not on Amazon (as tea, at least)
+  there are some pastes and bath salts
 * Matthew Auttrey rec's adding to beans,to counter flatus.

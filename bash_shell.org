@@ -35,46 +35,50 @@
    jeff@jbb-dell:quant$ echo $NONSENSE_WORD # Now it is.
    HTUIOGSHLSDGA:
    jeff@jbb-dell:quant$
-* view a readable diff of two csv files
-  csv-diff file file2 --key="field-name"
-  (This is installed in the Docker image.)
-** or, within python
-   This is buggy, because it uses multiple keys.
-   Instead must create a single composite key.
-     in tax.co, see python/hand_test/composite_index.py
-
-   from csv_diff import load_csv, compare
-   diff = compare(
-     load_csv("data/recip-10/people_3_income_taxish.detail.2018.csv",
-              key=["household","household-member"] ),
-     load_csv("no-dep-exempt/people_3_income_taxish.detail.2018.csv",
-              key=["household","household-member"] ) )
-* create tar.gz archive
-  tar -czvf tarball-of-zipfiles.tar.gz individual-zipfiles/
-* create pdf from markdown
-  pandoc -o bugs.pdf bugs.md
-  To render beamer-style, add the option `-t beamer`.
-  PITFALL: New sections must be preceded by a blank line.
-* [[id:c2a51944-ffb9-4404-a814-cdfbaa99b1b8][searching in the shell]]
-* [[id:743baaa9-2e98-4bd8-8b7e-ae27c4b0f241][moving and copying files]]
-* [[id:5fabbe1c-91a2-4bca-95e4-6a38a2037e1f][mount or unmount a drive from the command line]]
-* [[id:09d7af48-b851-4f73-b29c-82cd08449437][kill (bash command)]]
-* get the absolute path to a file
-  realpath <file>
-* change a user's password
-  sudo passwd <user name>
-* user and group IDs in Linux
-  :PROPERTIES:
-  :ID:       00691b2a-7ecd-4675-aab5-2462243a54f8
-  :END:
-** get a group's id
-   cut -d: -f3 < <(getent group groupname)
-** get a user's id
-   id -u username
-* [[id:4f619fa5-d89d-45ea-b742-1834a120c635][shred (Bash command) : delete data for real]]
 * [[id:f202975d-f1f0-4aa7-bcca-f9e6dd26230c][PITFALL: sudo can cause cp (copying) to fail.]]
-* [[id:a42f1f36-c448-46fa-a90b-027fc5acd257][tee (shell command)]]
 * some concepts from Bash
+** user and group IDs in Linux
+   :PROPERTIES:
+   :ID:       00691b2a-7ecd-4675-aab5-2462243a54f8
+   :END:
+*** get a group's id
+    cut -d: -f3 < <(getent group groupname)
+*** get a user's id
+    id -u username
 ** [[id:bd3b6d2b-6f8b-4dcc-bd52-fe288d3f0a11][pipe (computer science)]]
 ** [[id:1bf0f337-0bf4-42e3-87eb-219548fa6a26][stderr]]
 ** [[id:ee89ef03-1e9c-4952-b153-d6888dfd4729][stdout]]
+* some commands in Bash
+** [[id:fe17325d-eb20-48f6-9526-5961b8689478][date (bash command)]]
+** [[id:09d7af48-b851-4f73-b29c-82cd08449437][kill (bash command)]]
+** passwd : change a user's password
+   sudo passwd <user name>
+** realpath : get the absolute path to a file
+   realpath <file>
+** [[id:4f619fa5-d89d-45ea-b742-1834a120c635][shred (Bash command) : delete data for real]]
+** [[id:a42f1f36-c448-46fa-a90b-027fc5acd257][tee (shell command)]]
+** tar
+*** create tar.gz archive
+    tar -czvf tarball-of-zipfiles.tar.gz individual-zipfiles/
+* some solutions in Bash
+** create pdf from markdown
+   pandoc -o bugs.pdf bugs.md
+   To render beamer-style, add the option `-t beamer`.
+   PITFALL: New sections must be preceded by a blank line.
+** view a readable diff of two csv files
+   csv-diff file file2 --key="field-name"
+   (This is installed in the Docker image.)
+*** or, within python
+    This is buggy, because it uses multiple keys.
+    Instead must create a single composite key.
+      in tax.co, see python/hand_test/composite_index.py
+
+    from csv_diff import load_csv, compare
+    diff = compare(
+      load_csv("data/recip-10/people_3_income_taxish.detail.2018.csv",
+               key=["household","household-member"] ),
+      load_csv("no-dep-exempt/people_3_income_taxish.detail.2018.csv",
+               key=["household","household-member"] ) )
+** [[id:c2a51944-ffb9-4404-a814-cdfbaa99b1b8][searching in the shell]]
+** [[id:743baaa9-2e98-4bd8-8b7e-ae27c4b0f241][moving and copying files]]
+** [[id:5fabbe1c-91a2-4bca-95e4-6a38a2037e1f][mount or unmount a drive from the command line]]

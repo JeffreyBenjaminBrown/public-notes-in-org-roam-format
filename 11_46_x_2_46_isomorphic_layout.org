@@ -2,6 +2,11 @@
 :ID:       f49b51e7-c513-41f7-a895-cd091e3c301d
 :END:
 #+title: 11\46 x 2\46 (isomorphic layout)
+* strings required
+  2.87c per string
+** 7 strings => (1200 + 521) cents, last string at 20 \ 46
+** 9 strings => (1200 + 10.96) cents, last string 42 \ 46
+   and easy-to-play 15ths (double octaves)
 * max reach : from 3:2 to 13:8 (not a critical interval)
   = 8 frets of 23 edo
   = 8 * 12 / (46/2) = 4.2 frets of 12 edo
@@ -22,6 +27,7 @@
 * picture (guitar)
   MTV> myPrint $ map concat $ printLayout (primesOctave1 23) (show . numerator) 46 (11,2)
 
+   0  1  2  3  4  5  6  7  8  9 10 11
   23  -  1 19  -  -  -  -  -  - 15  -
    -  7  -  - 23  -  1 19  -  -  -  -
    -  - 17  5  -  7  -  - 23  -  1 19

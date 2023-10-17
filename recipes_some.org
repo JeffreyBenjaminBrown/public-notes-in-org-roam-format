@@ -10,3 +10,4 @@
 * [[id:ec6e5302-6c08-4b18-8f7b-23a2d514a8c4][baked cauliflower]]
 * [[id:5e1b3e68-e366-4550-b8cd-5d9bbea54feb][oatmeal]]
 * [[id:0cb70005-87b9-43a3-96e8-45906f1561ec][beans]]
+* [[id:44aa00ef-eadf-44e6-8b6a-43406e087028][rice]]
