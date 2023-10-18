@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       16c6f5ee-f0e0-4664-8593-600f51713668
+:END:
+#+title: exiftool
+* [[id:49bb7c1f-6d0a-4c7f-9fa9-3f6430860faa][to get a photo's geolocation]]

@@ -4,6 +4,8 @@
 #+title: Colombia, laws and institutions
 * bureaucracy I have to deal with in Colombia
 ** [[id:f8b5956e-a2f0-42b2-96b4-c05b7eebfb4e][certificado laboral, to find my]]
+* Colombia's government budget
+** TODO [[id:783189af-5163-4167-aa36-5f40e872a5ac][u, meeting notes <2023-09-12 Tue>: legal structure of the budget]]
 * [[id:e006b5d2-a2d5-4266-9321-1901bf762733][lawmaking in Colombia]]
 * [[id:10ce18c2-bac2-4d74-bbdb-63ed002bdfd0][laws in Colombia]]
 * [[id:2372a506-832e-4235-af0d-10e2e4fdc683][data sets on Colombia]]

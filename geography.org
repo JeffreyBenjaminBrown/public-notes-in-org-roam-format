@@ -1,7 +1,9 @@
 :PROPERTIES:
 :ID:       c0650349-d298-4ede-bad2-704bb4f1296f
+:ROAM_ALIASES: geolocation
 :END:
 #+title: geography
+* [[id:49bb7c1f-6d0a-4c7f-9fa9-3f6430860faa][using exiftool to get a photo's geolocation]]
 * online geography games
   :PROPERTIES:
   :ID:       b9db2e1e-6d06-4b7d-b290-d77eb3e9bf22

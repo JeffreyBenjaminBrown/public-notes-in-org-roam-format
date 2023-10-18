@@ -2,6 +2,7 @@
 :ID:       87b94a7c-60fe-43a9-818e-f08f5f560b70
 :END:
 #+title: big ideas
+* Atheist church: I would love to start one.
 * [[id:9ec55e32-f974-479e-8295-7d9e30156684][awareness]]
 * think about [[id:f4302c48-ab8e-4a6a-920c-46999dc60312][everything]] (personal)
 * TODO Has Agora gotten easier yet?

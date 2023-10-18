@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       47883263-5c97-4a23-b19e-d6f592c8ddb2
+:ROAM_ALIASES: "map of air quality in Bogotá" "air quality map of Bogotá"
+:END:
+#+title: Bogotá air quality map
+https://aqicn.org/map/bogota/es/

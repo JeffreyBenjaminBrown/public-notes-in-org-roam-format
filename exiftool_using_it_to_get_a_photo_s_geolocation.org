@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       49bb7c1f-6d0a-4c7f-9fa9-3f6430860faa
+:ROAM_ALIASES: "exiftool + geolocation" "geolocation + exiftool"
+:END:
+#+title: using exiftool to get a photo's geolocation
+exiftool 23.jpg  | grep GPS
