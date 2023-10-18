@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       3df2b2f8-026f-4108-a89f-8ac05aba72d2
+:ROAM_ALIASES: Spanish
 :END:
 #+title: Spanish (language)
 * some Spanish-speaking comedians
