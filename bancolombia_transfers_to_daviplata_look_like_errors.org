@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9044593f-06b3-4fa5-8d86-070c4e4c2bc4
+:END:
+#+title: Bancolombia transfers to Daviplata look like errors.
+Bancolombia shows at least one ID number for the transaction,
+and none of them is the phone number to which one is sending.
