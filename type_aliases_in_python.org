@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       c804ea2a-2cf3-4a5e-8f43-c504e398fbdf
-:ROAM_ALIASES: "type synonyms in Python"
+:ROAM_ALIASES: "type synonyms in Python" "Python / type aliases" "Python / type synonyms"
 :END:
 #+title: type aliases in Python
 * example code
