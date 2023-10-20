@@ -3,12 +3,13 @@
 :ROAM_ALIASES: Emacs
 :END:
 #+title: Emacs (programamble text editor)
+* [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][outline-mode & Haskell]]
 * [[id:19a2966d-79dc-49e9-b7a7-5dea84a19672][PITFALL: Currently (<2022-07-06 Wed>) Python mode can't handle triple quotes. Don't use them for a while.]]
 * [[id:a10a04e8-5b2b-4f75-93ec-f1d2082f2a3c][sexp and list commands in Emacs]]
 * [[id:3a230207-47a8-4dde-af88-2c442f5c51aa][Erlang and Emacs]]
 * some big single-page manuals
   https://www.emacsdocs.org/
-* TODO [[id:a922b10f-30e2-4720-b1bf-6d934e6e715c][Emacs: switch major modes without losing folding information?]]
+* TODO There are [[id:a922b10f-30e2-4720-b1bf-6d934e6e715c][cool tricks buried here]].
 * TODO ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * TODO ? orderless in Emacs
   :PROPERTIES:
