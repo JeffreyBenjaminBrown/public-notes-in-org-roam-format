@@ -2,6 +2,8 @@
 :ID:       64e43ca3-94d7-48f9-b144-d0e75f2e4b3e
 :END:
 #+title: comedy, some good
+* TODO Franko Bonilla, Colombian
+  https://www.youtube.com/@puracomediapapa
 * TODO James Acaster
 * TODO Bill Bailey
 * TODO Phil Wang

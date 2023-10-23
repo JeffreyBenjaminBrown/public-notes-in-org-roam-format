@@ -1,14 +1,14 @@
 :PROPERTIES:
-:ID:       9c31bbf8-2396-4329-a5df-be769f8679b7
-:ROAM_ALIASES: "outline-mode & Haskell" "Haskell & outline-mode"
+:ID:       c5d85324-d51c-4571-801f-b4cf47b1c3bb
+:ROAM_ALIASES: "outline-mode & Python" "Python & outline-mode"
 :END:
-#+title: using Emacs outline-mode for Haskell
+#+title: using Emacs outline-mode for Python
 * FIRST: Evaluate this code.
 ;; This starts outline-minor-mode
 ;; with a regex for Haddock-style headings.
-(haskell-mode)
+(python-mode)
 (outline-minor-mode)
-(setq-local outline-regexp "-- [*]+")
+(setq-local outline-regexp "## [*]+")
 * commands
 ** commands I would use
 outline-cycle
@@ -40,26 +40,26 @@ outline-hide-leaves (C-c @ C-l)
 outline-hide-sublevels (C-c @ C-q)
 outline-show-branches (C-c C-k)
 outline-toggle-children
-* some sample Haddock-commented Haskell
--- Try folding and unfolding this stuff.
+* some sample Haddock-commented Python
+## Try folding and unfolding this stuff.
 
--- * 1
--- ** 11
+## * 1
+## ** 11
       a
--- ** 12
--- * 2
+## ** 12
+## * 2
      a
--- ** 21
--- *** 211
+## ** 21
+## *** 211
        a
--- *** 212
--- ** 22
+## *** 212
+## ** 22
       a
--- * 3
+## * 3
      a
--- ** 31
--- *** 311
+## ** 31
+## *** 311
        a
--- *** 312
--- ** 32
+## *** 312
+## ** 32
       a
