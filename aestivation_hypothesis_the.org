@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       c9bf2432-9be8-4cf6-88fa-527eb9f20a1c
+:END:
+#+title: aestivation hypothesis, the
+A proposed solution to the Fermi paradox:
+Aliens are dormant, waiting for the cold, because it will let them process more information (simulate more worlds, whatever).
+https://en.wikipedia.org/wiki/Aestivation_hypothesis

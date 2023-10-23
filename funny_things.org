@@ -2,6 +2,7 @@
 :ID:       0591e33a-f3b2-414a-ac40-c3071348758d
 :END:
 #+title: funny things
+* The [[id:c9bf2432-9be8-4cf6-88fa-527eb9f20a1c][aestivation hypothesis]] might explain the Fermi paradox.
 * [[id:3ab2a555-3a03-472d-ab60-c8115642d1c0][Cats are less diverse than dogs, because they are "perfect".]]
 * [[id:9633f527-a653-4ba1-a4ad-8304ea259b8d][Orcas went through a salmon hat fad in 1987.]]
 * [[id:4bee1cff-403d-43e4-a8a6-eb72f573cbfa][enlightenment as betrayal]]
