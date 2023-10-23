@@ -6,6 +6,7 @@
 * FIRST: Evaluate this code.
 ;; This starts outline-minor-mode
 ;; with a regex for Haddock-style headings.
+(haskell-mode)
 (outline-minor-mode)
 (setq-local outline-regexp "-- [*]+")
 * commands
