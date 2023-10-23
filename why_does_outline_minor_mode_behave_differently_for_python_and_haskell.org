@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       edfaf962-b66d-4bb9-b618-29f38c21b22d
+:END:
+#+title: outline-minor-mode behaves differently for Python and Haskell
+* on Stack Exchange
+  https://emacs.stackexchange.com/questions/79233/outline-minor-mode-works-for-haskell-but-not-python
+* maybe solved here
+  https://emacs.stackexchange.com/questions/77048/why-doesnt-the-outline-work-with-python/77056#77056
+* the question
+I can use `outline-minor-mode` to fold Haddock-style headings in Haskell code. For instance, consider the following file:
+
+``` haskell
+-- (haskell-mode)
+-- (outline-minor-mode)
+-- (setq-local outline-regexp "-- [*]+")
+
+-- * 1
+-- ** 11
+let this_haskell_variable = 3
+-- ** 12
+-- * 2
+let another_haskell_variable = 4
+```
+
+After evaluating the elisp code at the top of the file and then moving point to the first heading (the line that says "-- * 1"), running `M-x outline-cycle` cycles between different folding states of the subtree below that heading.
+
+Now consider a nearly-identical Python file:
+
+``` python
+## (python-mode)
+## (outline-minor-mode)
+## (setq-local outline-regexp "## [*]+")
+
+## * 1
+## ** 11
+this_python_variable = 3
+## ** 12
+## * 2
+another_python_variable = 4
+```
+
+In this case, after evaluating the elisp code at the top and moving the point to the first heading, `M-x outline-cycle` has no visible effect.
+
+(Side note: It would be more idiomatic to use one # instead of two in the Python code. I tried that, and got the same result. But for demonstration purpposes, I have made the two files as similar as possible.)

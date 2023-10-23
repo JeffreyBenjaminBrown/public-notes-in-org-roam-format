@@ -1,0 +1,65 @@
+:PROPERTIES:
+:ID:       c5d85324-d51c-4571-801f-b4cf47b1c3bb
+:ROAM_ALIASES: "outline-mode & Python" "Python & outline-mode"
+:END:
+#+title: using Emacs outline-mode for Python
+* FIRST: Evaluate this code.
+;; This starts outline-minor-mode
+;; with a regex for Haddock-style headings.
+(python-mode)
+(outline-minor-mode)
+(setq-local outline-regexp "## [*]+")
+* commands
+** commands I would use
+outline-cycle
+(keymap-local-set (kbd "C-c @ ") 'outline-cycle)
+outline-cycle-buffer
+outline-promote (C-c @ C-<)
+outline-demote (C-c @ C->)
+outline-hide-other (C-c @ C-o) ;; where is this in org-mode?
+outline-move-subtree-down (C-c @ C-v)
+outline-move-subtree-up (C-c @ C-^)
+outline-next-visible-heading (C-c @ C-n)
+outline-previous-visible-heading (C-c @ C-p)
+outline-insert-heading (C-c RET)
+outline-mark-subtree (C-c @ @)
+outline-show-all (C-c @ C-a)
+outline-up-heading (C-c @ C-u)
+** commands I doubt I would use
+outline-forward-same-level (C-c C-f)
+outline-backward-same-level (C-c C-b)
+** unclassified
+outline-hide-subtree (C-c @ C-d)
+outline-show-children (C-c @ TAB)
+outline-show-subtree (C-c @ C-s)
+outline-show-entry (C-c @ C-e)
+outline-headers-as-kill
+outline-hide-body (C-c @ C-t)
+outline-hide-entry (C-c @ C-c)
+outline-hide-leaves (C-c @ C-l)
+outline-hide-sublevels (C-c @ C-q)
+outline-show-branches (C-c C-k)
+outline-toggle-children
+* some sample Haddock-commented Python
+## Try folding and unfolding this stuff.
+
+## * 1
+## ** 11
+      a
+## ** 12
+## * 2
+     a
+## ** 21
+## *** 211
+       a
+## *** 212
+## ** 22
+      a
+## * 3
+     a
+## ** 31
+## *** 311
+       a
+## *** 312
+## ** 32
+      a
