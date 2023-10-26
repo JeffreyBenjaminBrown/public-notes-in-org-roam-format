@@ -10,7 +10,14 @@
 ** https://tidalcycles.org/
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
+* TODO extract my changes
+  git log --author="Jeffrey Benjamin Brown" -p
+  Keep them in a way that won't conflict with anyone else's edits.
 * [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][use outline-mode]]
+* TODO What sounds good.
+** Waves of differing durations in a steady hat pulse.
+   s "hc*8" |*| slow 2 (amp "1 0.3")
+            |*| slow 4 (speed "1 1.3 1.5") ]
 * TODO
 ** TODO [[id:5e40393b-a042-41d2-ba79-41ab70fc9ba6][algorithmic music ideas, <2023-07-28 Fri>, take 2]]
 ** TODO u : a way to print all extant synthdefs and effects
