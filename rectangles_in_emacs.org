@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       3d093f8d-9215-4c56-b3e4-eb7a2b8beeee
+:ROAM_ALIASES: "Emacs / rectangles"
+:END:
+#+title: rectangles in Emacs
+* `C-x space` is a better way to delineate rectangles.
+* How to number lines in a rectangle.
+  http://emacsworld.blogspot.com/2012/06/numbering-lines-and-lists-in-emacs.html
+  .   "C-x r N" starts the line at 1.
+  "C-u C-x r N" prompts for a starting value and format.

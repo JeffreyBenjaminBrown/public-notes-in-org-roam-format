@@ -50,7 +50,6 @@
     does anything
 *** works for ertain special characters
     C-x 8 <char>
-** `C-x space` is a better way to delineate rectangles.
 ** Alt-(up / down) : make two paragraphs trade places in Emacs
    similar to org-mode with bullets
 ** M-m: first non-whitespace char in line
@@ -74,10 +73,6 @@
     C-u M-x org-time-stamp ;; writes date and time
 ** [[id:03df14dd-9536-4302-aa53-d51e3d1de100][grepping folders in Emacs]]
 ** [[id:7ca4fa12-5fc2-415c-8d2f-5d6167e8dd95][hide lines programmatically from a file in Emacs]]
-** number lines in a rectangle
-   http://emacsworld.blogspot.com/2012/06/numbering-lines-and-lists-in-emacs.html
-   "C-x r N" starts the line at 1.
-   "C-u C-x r N" prompts for a starting value and format.
 ** [[id:7dc33cd5-40bc-421a-aa1d-a40cf0635119][to tag(build a tags file) python code for use in emacs]]
 ** wrap lines at word boundaries
    M-x visual-line-mode
@@ -107,3 +102,4 @@
    	      (delete-other-windows))
 	(message ("jbb-org-open-at-point does nothing outside of org-mode."))
     ))
+** [[id:3d093f8d-9215-4c56-b3e4-eb7a2b8beeee][rectangles in Emacs]]

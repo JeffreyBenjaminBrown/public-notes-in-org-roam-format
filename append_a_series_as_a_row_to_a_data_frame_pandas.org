@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       98556058-2bcf-456d-8401-e57845c717da
 :END:
-#+title: append a series as a row to a data frame \ Pandas
+#+title: concatenate frames | append rows \\ Pandas
 df = pd.DataFrame ( { "a" : ["a","b","c","d"],
                       "b" : [0., 3., 0.,   5],
                       "c" : [0., 5., 1.,  66],
