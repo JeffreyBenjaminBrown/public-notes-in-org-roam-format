@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       0de92cee-f908-4393-9f87-4cfb675a3bec
+:END:
+#+title: local variable definitions in comprehensions \\ Python
+* Trick: Use "if" and the walrus operator.
+* example
+  In [1]: [ x
+            for y in [1,2]
+            if (x := y+1) ]
+  Out[1]: [2, 3]

@@ -28,6 +28,8 @@
 ** [[id:b8890c90-7e53-4482-8b3f-1399a28fe92a][virtualenv (Python tool)]]
 *** [[id:a44ce4eb-ff38-4ee3-8e72-50f9902ff754][Python and virtualenv in Nix]]
 * the language
+** comprehensions in Python
+*** [[id:0de92cee-f908-4393-9f87-4cfb675a3bec][local variable definitions in comprehensions \\ Python]]
 ** [[id:a6cb3f8e-a4af-4e9c-bb05-42f4f5a2f7f2][exceptions in Python]]
 ** [[id:b702aa8d-ec68-46c1-9f27-c695a96e1c2d][generics in Python]]
    tags abstract type variable
