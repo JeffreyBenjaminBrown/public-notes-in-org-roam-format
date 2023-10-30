@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       63eec882-c8c1-46ae-af8e-a442ca649fe6
+:ROAM_ALIASES: "pans, cast-iron, how to use"
+:END:
+#+title: cast-iron pans, how to use
+* Warm pan slowly.
+* Warm pan from empty (not even oil).
+** heating with oil can damage the oil
+* Use the least temperature that works, which is surprisingly low.
+* Will not need coating, as long as the enamel does not chip.
+* Avoid chipping: Don't tap with metal things, even spoons.
+* Don't make it suddenly cold, i.e. by submerging in water when hot.
+* Dry with a towel; don't leave it wet.
+* Scrape with plastic or wood, never steel (even steel wool).
