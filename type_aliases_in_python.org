@@ -4,9 +4,10 @@
 :END:
 #+title: type aliases in Python
 * example code
-from typing import List, GenericAlias
+from typing import List
+from typing_extensions import TypeAlias
 
-x : GenericAlias = List[str]
+x : TypeAlias = List[str]
 y : x = ["hi"]
 * PITFALL w/r/t mypy
   If mypy doesn't believe `typing` exports `GenericAlias`,
