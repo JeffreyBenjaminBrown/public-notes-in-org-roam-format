@@ -2,13 +2,4 @@
 :ID:       39d675f5-92d0-4777-a55f-8fbdc3c1543b
 :END:
 #+title: magit (Emacs mode)
-* To chang diff options
-  There's another way, but this seems easier.
-** how to change the options
-   serial
-*** Press 'D' to show options.
-*** Press dash and then x, where x is one of the options listed, to toggle it.
-*** Press g to save options and exit.
-** how to see what options are toggled
-*** Press 'D' to show them.
-*** Any that are on will be in bold.
+* [[id:6b8c2c9c-2290-4f85-8278-9af53c57984b][magit & diff // to change options]]
