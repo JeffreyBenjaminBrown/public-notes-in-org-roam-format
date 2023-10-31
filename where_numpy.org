@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       7f78e757-b582-4a52-8046-0d20a78d103a
+:END:
+#+title: where \ Numpy
+* like "if" for vectors, somehow faster than "apply"
+* Example: Set new column "c" same as "a" when "b" is missing, else 10.
+  # Note that this could be done more concisely with `fillna`.
+
+  if True: # imports
+     import numpy as np
+     import pandas as pd
+  z = pd.DataFrame ( { "a" : [1,2     ,3],
+                       "b" : [0,np.nan,0], } )
+  z["c"] = np.where ( z["b"].isnull(), # condition
+                      z["a"],          # used if True  (b is missing)
+                      10 )             # used if False (b is present)
+* PITFALL: an index with holes in it causes errors.
+  That is, an index in which there exist two adjacent values
+  such that the latter is not the former plus 1.
+
+  I can't make a simple example,
+  but there's an example (the only use of `where`,
+  with a big `PITFALL: WTF` comment) in
+    `python/extract_excel/gastos.py`
+  in the project
+    git@github.com:ofiscal/pgn-years.git

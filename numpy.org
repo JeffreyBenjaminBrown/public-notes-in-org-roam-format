@@ -4,3 +4,4 @@
 :END:
 #+title: numpy
 * [[id:6a0c6707-29de-4cb4-ba1a-7af6b9077872][times versus numbers in NumPy]]
+* [[id:7f78e757-b582-4a52-8046-0d20a78d103a][where : modify a column conditional on a boolean column]]

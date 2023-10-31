@@ -20,14 +20,4 @@
   Its input is a list of numbers,
   and its output is a Boolean series shaped like `self`.
 * modify a column conditional on a boolean column
-** np.where(): like "if" for vectors, somehow faster than "apply"
-*** Example: Set z[b] equal to z[c] only where z[b] is missing.
-   if True: # imports
-      import numpy as np
-      import pandas as pd
-   z = pd.DataFrame ( { "a" : [1,1     ,1],
-                        "b" : [2,np.nan,2],
-                        "c" : [3,3     ,3] } )
-   z["b"] = np.where ( z["b"].isnull(),
-                       z["c"],   # used if True
-                       z["b"] )  # used if False
+  [[id:7f78e757-b582-4a52-8046-0d20a78d103a][where \ Numpy]]
