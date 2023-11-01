@@ -103,3 +103,4 @@
 	(message ("jbb-org-open-at-point does nothing outside of org-mode."))
     ))
 ** [[id:3d093f8d-9215-4c56-b3e4-eb7a2b8beeee][rectangles in Emacs]]
+** [[id:3b4440e1-ef04-4637-b22d-cbdb60d58329][switching buffers in Emacs]]

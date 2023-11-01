@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       3b4440e1-ef04-4637-b22d-cbdb60d58329
+:END:
+#+title: switching buffers in Emacs
+* The `iflipb` package
+** Maps switching buffers to `C-TAB` and `C-S-TAB`.
+** Allows customization of which buffers are ignored
+   through the iflipb-*ignore* variables.
+* `C-x <left | right>` switches buffers and is built into emacs.

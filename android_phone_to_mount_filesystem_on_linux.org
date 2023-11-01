@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       0660053e-58a2-43a5-abc1-16b5f193b64f
+:ROAM_ALIASES: "Linux, to mount Android filesystem to"
+:END:
+#+title: Android phone, to mount filesystem to Linux
+serial
+* Visit the Android system in Dolphin.
+* Click "Allow" on the phone.

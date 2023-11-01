@@ -3,6 +3,7 @@
 :ROAM_ALIASES: unmounting and mounting drives in Linux
 :END:
 #+title: mounting and unmounting drives in Linux
+* [[id:0660053e-58a2-43a5-abc1-16b5f193b64f][Android phone, to mount filesystem to Linux]]
 * mount|unmount a drive from the command line
   :PROPERTIES:
   :ID:       5fabbe1c-91a2-4bca-95e4-6a38a2037e1f

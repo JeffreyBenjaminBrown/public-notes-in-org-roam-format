@@ -8,3 +8,9 @@
   :END:
   unless one views the source.
   That's true even if there is no space on the line before the #.
+* code blocks in org-mode
+** Edit with `C-c '`
+** Delineate like this
+#+BEGIN_SRC python
+  x = 3
+#+END_SRC
