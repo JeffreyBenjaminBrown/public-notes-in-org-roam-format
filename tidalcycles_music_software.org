@@ -10,7 +10,14 @@
 ** https://tidalcycles.org/
 ** [[id:4c5c2a9b-0465-4ed5-bde1-df35e96321af][wagsi (music software)]]
    like TidalCycles, ported to PureScript
-* TODO extract my changes
+* TODO learn | solve
+** Other ways to achieve whatever leads me to repeat certain coding patterns
+*** Like always adding a slow speed change to a repeated hat
+** Parameters for sample patterns
+*** Swell?
+* TODO Record solved puzzles
+** Patterns that don't sound good, and simple solutions to it
+* TODO extract my changes in git
   git log --author="Jeffrey Benjamin Brown" -p
   Keep them in a way that won't conflict with anyone else's edits.
 * [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][use outline-mode]]
