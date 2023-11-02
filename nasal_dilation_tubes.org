@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       63d7bf49-f0b8-4dcd-a8f2-cdc9237182ac
+:ROAM_ALIASES: "nose dilation tubes"
+:END:
+#+title: nasal dilation tubes
+* a product
+  https://www.amazon.com/Zircon-Nose-Vents-Ease-Breathing/dp/B08227MQL4/ref=sr_1_5?crid=3QT9273A9MQXL&keywords=Nose+Vents&qid=1698880956&sprefix=nose+vents%2Caps%2C227&sr=8-5#customerReviews
+* The hacker news comment that gave me the idea
+  https://news.ycombinator.com/item?id=38103117
+** The product suggested there is out of stock.
