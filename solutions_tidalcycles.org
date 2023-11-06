@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       8dfe7370-d359-4d4b-99f0-09cd9b0a9822
+:END:
+#+title: solutions \ Tidalcycles
+* default values, and maybe how to change them
+  e.g. amp <- 0.4
+  https://club.tidalcycles.org/t/default-amp-value/4326
+* to add mini-notation parameter functions (ala "pan")
+** edit bin/generate-params.hs
+* [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][outline-mode]] seems handy
+* [[id:3a0335d8-3e84-4878-8067-62985b2ee12d][software mixer for SuperDirt]]
+* a way to print all extant synthdefs and effects
+  tag show list
+  https://club.tidalcycles.org/t/print-tidals-synths-and-fx/4798
