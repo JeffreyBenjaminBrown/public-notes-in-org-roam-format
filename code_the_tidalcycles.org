@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       c9f7ac4f-5f54-4312-b35e-42e9876f034c
+:END:
+#+title: code, the \\ TidalCycles
+* pShift = the rotation function
+* some changes I made
+** parse << and >> as rotation
+   (Type `C-x 8 [<>]` to make those symbols.)
+   9ed6001550d1cc1d741df03e2b06a0035c38d873

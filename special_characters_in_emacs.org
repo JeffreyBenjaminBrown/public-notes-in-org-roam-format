@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       8618f3f0-b5ba-47b2-acb2-82bd9244ad93
+:END:
+#+title: special characters in Emacs
+* « and » : `C-x 8 [<>]`
+* tilde : `C-x 8 ' <vowel>`
+  tag á é í ó ú
+* C-x 8 RET <name of char>
+  does anything
+* works for ertain special characters
+  C-x 8 <char>

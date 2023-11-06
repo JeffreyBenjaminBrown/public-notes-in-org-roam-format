@@ -13,7 +13,7 @@
 * TODO Record solved puzzles
 ** Patterns that don't sound good, and simple solutions to it.
 * TODO extract my changes in git
-  git log --author="Jeffrey Benjamin Brown" -p
+  git log jbb --author="Jeffrey Benjamin Brown" -p
   Keep them in a way that won't conflict with anyone else's edits.
 * TODO [[id:5e40393b-a042-41d2-ba79-41ab70fc9ba6][concepts for Tidal, some high-level musical]]
 * TODO polymeters in Tidal
