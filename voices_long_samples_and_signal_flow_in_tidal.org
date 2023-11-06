@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       5904aac5-da03-4eb2-b4b8-45a09dd3499d
+:END:
+#+title: voices, long samples and signal flow in Tidal
+* voice names
+** There are some "preassigned voices".
+   `d1`, for instance.
+   See BootTidal.hs for their definitions.
+*** PITFALL: [[id:2b81a68f-cfa5-45fc-b61e-3db738463018][Preassigned voices also have voice names.]]
+** Voice names can be dynamic and informative.
+   Rather than use the preassigned voice names like `d1`,
+   one can name patterns as in
+     p 1
+   or
+     p "juliet"
+* [[id:61b787d6-7b06-43c6-8495-b49c3dd90ecf][effects buses in TidalCycles]]
+* mute, solo, umute, unsolo
+  `mute 1` mutes `d1` (which is a synonym for `p 1`).
+  `solo` is similar.
+* [[id:69be0c4b-551a-4c77-9185-84e784c2e4ef][truncating long samples : `cut` and `legato`]]

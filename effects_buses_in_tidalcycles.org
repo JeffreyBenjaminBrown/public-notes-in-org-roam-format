@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       61b787d6-7b06-43c6-8495-b49c3dd90ecf
+:END:
+#+title: effects buses in TidalCycles
+https://club.tidalcycles.org/t/creating-effects-chains-or-audio-buses/3707
+https://github.com/tidalcycles/tidal-doc/issues/66

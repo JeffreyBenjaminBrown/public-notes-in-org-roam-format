@@ -1,0 +1,76 @@
+:PROPERTIES:
+:ID:       c9b50405-11a9-46a2-93f2-d190eaf23389
+:END:
+#+title: mini-notation \ TidalCycles
+* DONE internalized
+** ~ is silence
+** grouping
+*** Each [] lasts as long as a single "event" in a pattern.
+    So in "x [y z]" the x lasts as long as the [y z].
+*** (.) can separate events like [] does.
+    These are equivalent:
+    "x . y z  . a b c"
+    "x  [y z]  [a b c]"
+*** (,) joins events simultaneously
+    Does not work outside of brackets.
+** * = dense, / = sparse
+** x%y : rational number
+** (sample:number) selects the `number`th value of that sample
+* Things in a <> group are cycled through.
+  This plays "bd" every time, "sd" one third of the times, etc:
+    d1 $ s "bd <sd hh cp>"
+* randomness
+** (|) randmonly chooses between things
+   "[a | b] c" always plays c, sometimes plays a.
+** postfix "?" sometimes replaces its argument with silence
+* repeat and/or extend
+** `value!number` creates `number` events of type `value`.
+** `_` extends the duration of the previous event
+   "bd*2 _ sn" = "bd bd sn"
+*** Therefore this divides the first 2 of 5 into 3, and the last 3 of those 5 into 4.
+    "sn:1*3 _ sn:1*4 _ _"
+*** PITFALL : only extends the duration of the previous item *relative to others*.
+    These two patterns sound the same:
+    p 1 $ stack [ "[hh*4]",
+                  "[bd*4] _" ]
+    p 1 $ stack [ "[hh*4]",
+                  "[bd*4]" ]
+    That is, extending the number of time slots occupied by the [bd*4] from 1 to 2 does nothing, because there was previously only one slot, and now there are two.
+
+    However, if there's something else for the bd*4 to vie for space with, then extending its length does have an effect -- hence the following are different.
+    p 1 $ stack [ "[hh*4]",
+                  "~ [bd*4]" ]
+    p 1 $ stack [ "[hh*4]",
+                  "~ [bd*4] _" ]
+** `event@number` makes `event` `number` times longer.
+*** Therefore this divides the first 2 of 5 into 3, and the last 3 of those 5 into 4.
+    "sn:1*3@2 sn:1*4@3"
+* TODO rhythmically complex
+** (n,d) : Euclidean sequence with `n` events over time `d`
+** TODO {pat,pat, ... pat} polymeters
+*** idea
+    The patterns have different durations, but their first-level sub-events all have the same duration.
+*** example
+    In this:
+      d1 $ s "{bd bd:1, cp cp:1 cp:2}"
+    the second sequence takes 1.5 times as long as the first,
+    and the time between bd events is the same as that between cp events.
+*** PITFALL: Speed depends on the number of notes in the first pattern.
+    If the first pattern has more top-level events,
+    then all of them go faster.
+
+    That's because first pattern will take one cycle to repeat.
+    All the others depend on their relationship to it.
+    For instance, in this pattern:
+
+      do setcps 2
+         d1 $ stack
+           [ "{bd, sn:1 ~, ho ~ ~}"
+           , "bleep" ]
+
+    try changing the order of the {..} section.
+** TODO {pat}%number polymeters
+   In
+     d1 $ s "[{bd cp hh}%4, bass]"
+   the bass happens every time four of the sounds from the first pattern
+   have occurred.
