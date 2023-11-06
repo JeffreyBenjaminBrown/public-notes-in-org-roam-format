@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       f67b3ffb-c806-4279-bc8a-f0b35291bf42
+:END:
+#+title: BROKEN: Cannot rebind `C-c @ TAB` in outline-minor-mode
+Emacs won't let me bind `C-c @ TAB` to `outline-cycle` in `outline-minor-mode`. It complains "Lisp error: (error "Key sequence C-c @ TAB starts with non-prefix key C-c @") -- but `C-c @` is bound to nothing.
+
+Some minimal code to reproduce this experience would be the following:
+```
+(outline-minor-mode)
+(setq-local outline-regexp "-- [*]+")
+(setq outline-minor-mode-cycle t)
+```
+
+At this point, by running `C-h k C-c @` you can verify that `C-c @` is bound to nothing. Moreover, if you go on to press `TAB`, you can see that `C-c @ TAB` *is* bound to something. So it's a perfectly good key sequence.
+
+Now try to redefine what it is bound to:
+```
+(define-key org-mode-map (kbd "C-c @ TAB") 'outline-cycle)
+```
+
+and, if your system behaves like mine, you'll get the error.

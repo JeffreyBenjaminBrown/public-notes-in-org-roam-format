@@ -4,7 +4,8 @@
 :END:
 #+title: Emacs / help
 * <C-h ?> lists ways to access the builtin help.
+** PITFALL: [[id:efcf2f86-3b2d-4283-9a88-d90e4f1bb55a][`f` is for some reason not among the options listed by `C-h ?`]]
 * <C-h k> lists commands mapped to a "key" (keyboard shortcut)
   which it prompts for.
-* <C-h k> describes the function
+* <C-h f> describes the function
   the name of which it prompts for.

@@ -12,7 +12,7 @@
 * commands
 ** commands I would use
 outline-cycle
-(keymap-local-set (kbd "C-c @ ") 'outline-cycle)
+(keymap-local-set (kbd "C-c @ TAB") 'outline-cycle)
 outline-cycle-buffer
 outline-promote (C-c @ C-<)
 outline-demote (C-c @ C->)
