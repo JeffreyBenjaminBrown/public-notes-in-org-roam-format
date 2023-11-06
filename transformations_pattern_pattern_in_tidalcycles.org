@@ -1,0 +1,53 @@
+:PROPERTIES:
+:ID:       ae8d6109-5878-4c2e-b2b7-a6aacb980687
+:END:
+#+title: transformations (Pattern -> Pattern) in TidalCycles
+* hurry is like fast, but with a speed transformation
+* iter n : start at different places
+  divide into n, start k/n of the way through over n repetitions for increasing values of k
+* chunk n : apply function at different places
+  Like iter, Divides the cycle into n pieces, and applies the function to the kth piece, incrementing k by one each cycle.
+* palindrome p = p, then reverse p
+  so twice as long as p
+* randomness
+** sometimes, often :: change -> pattern -> pattern
+** irand :: int -> random int from 0 to n-1
+#+BEGIN_SRC haskell
+  d1 $ s "[bd*2 sn:1, [arpy bleep ~]*3]"
+    |* speed (irand 4/4 + 1/6)
+    |* speed ( ( \n -> 2**(log n / log 2) )
+	       $ irand 16 )
+#+END_SRC
+** rand :: random unit float
+#+BEGIN_SRC haskell
+  d1 $ sound "hh*16" # gain (rand/2 + 0.4) # pan rand
+#+END_SRC
+** degradeBy x = drop event with probability x
+#+BEGIN_SRC haskell
+  d1 $ degradeBy 0.3 $ sound "tink*16"
+#+END_SRC
+** ? = degradeBy 0.5 in mini-notation
+* granular effects
+** chop n
+#+begin_src haskell
+  d1 $ chop ((irand 16 + 1) * 64) $ sound "bev"
+#+end_src
+** striate n : "like chop n" (???)
+#+begin_src haskell
+  d1 $ striate 2 $ sound "bev"
+#+end_src
+** randslice n : choose one of n slices randomly
+#+begin_src haskell
+  d1 $ randslice 16 $ sound "numbers*64" |* n (irand 10)
+#+end_src
+** loopAt n : stretch sample to fit n cycles
+#+begin_src haskell
+  d1 $ stack [
+    loopAt 8 $ sound "bev",
+    every 4 (fast 2 . (<~) (1/4))
+      $ slow 4 $ palindrome $ fast 4
+      $ s "bd [sn:1*2 [[hc*2] [bd,lt*2]]/2]/2",
+    slow 4 $ (1/4) <~ s "gabba sn:1"
+      |*| speed "0.5 0.25"
+      |*| amp 0.2 ]
+#+end_src

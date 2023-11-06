@@ -21,8 +21,11 @@
    not making more complex tools.
 ** [[id:5e40393b-a042-41d2-ba79-41ab70fc9ba6][concepts for Tidal, some high-level musical]]
 * [[id:17401bd2-d61a-4a66-87cd-5be12b8d10e6][TODO]]
+** [[id:df2e01d2-1362-48fa-9f09-8d7d70cf31ec][questions about the TidalCycles language]]
+* [[id:27cfbaef-57a6-403a-9e28-b507810cf64c][PITFALLS \ TidalCycles]]
 * [[id:c9f7ac4f-5f54-4312-b35e-42e9876f034c][code, the \\ TidalCycles]]
 * [[id:0ea59083-d5af-42cf-aea8-127c1cf3d7a2][running it]]
 * the [[id:543397e7-733f-4d56-bf58-35f5e9d83b5e][language]]
+** [[id:df2e01d2-1362-48fa-9f09-8d7d70cf31ec][questions about the TidalCycles language]]
 * [[id:8dfe7370-d359-4d4b-99f0-09cd9b0a9822][solutions]]
 * [[id:62d4071a-c7d5-4671-baa5-94b620fe2a77][installing and updating]]

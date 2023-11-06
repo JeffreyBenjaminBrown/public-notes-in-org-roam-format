@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       82eb4202-2da9-43b1-9f89-ab2d3d8fbbd1
+:END:
+#+title: effects in TidalCycles
+* "vowel" is like "s" for filters instead of samples
+  where the filters are named a, e, i, o, and u
+* delay has four parameters
+  d1 $ sound "cp" # delay 0.8 # delaytime (1/6) # delayfeedback 0.6 # lock 1
+  "lock 1" indicates that "the time provided to delaytime is in cycles instead of seconds".
+* reverb has three parameters: dry, room and size
+  d1 $ sound "[~ hh]*2" # dry 0 # room 0.5 # size 0.5
+       |* amp 0.4
+* lo- and hi-pass filters: cutoff and resonance, hcutoff and hresonance
+  reso is in [0,1], cutoff in Hz

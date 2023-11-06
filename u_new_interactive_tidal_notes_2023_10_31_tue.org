@@ -2,53 +2,12 @@
 :ID:       9898e99f-2a15-4085-97de-302f895572c4
 :END:
 #+title: u, new interactive Tidal notes <2023-10-31 Tue>
-* TODO RESUME at `rand` here
-  https://tidalcycles.org/docs/patternlib/tutorials/workshop/
 * TODO mute, solo, umute, unsolo
-  "mute 1" mutes d1 (which is a synonym for p 1)
-  solo is similar
-* PITFALL: Don't bring "structure" from an LFO (e.g. `saw`).
-  Doing so gives it no structure at all --
-  that is, no attacks, no note starts.
-* the symbol "silence" is a pattern
-* "vowel" is like "s" for filters instead of samples
-  where the filters are named a, e, i, o, and u
-* delay has four parameters
-  d1 $ sound "cp" # delay 0.8 # delaytime (1/6) # delayfeedback 0.6 # lock 1
-  "lock 1" indicates that "the time provided to delaytime is in cycles instead of seconds".
-* reverb has three: dry, room and size
-  d1 $ sound "[~ hh]*2" # dry 0 # room 0.5 # size 0.5
-       |* amp 0.4
-* lo- and hi-pass filters: cutoff and resonance, hcutoff and hresonance
-  reso is in [0,1], cutoff in Hz
-* hurry is like fast, but with a speed transformation
-* palindrome = forward, then backwards
-* iter n : start at different places
-  divide into n, start k/n of the way through over n repetitions for increasing values of k
-* chunk n : apply function at different places
-  Like iter, Divides the cycle into n pieces, and applies the function to the kth piece, incrementing k by one each cycle.
+  `mute 1` mutes `d1` (which is a synonym for `p 1`).
+  `solo` is similar.
+* `silence` (the symbol) is a pattern.
 * `run n` gives n events, from 0 to n-1
   d1 $ s "[[bd sn]/2, arpy*2%3]*8" |*| speed (run 8 + 1/2)
-* palindrome p = p, then reverse p
-  so twice as long as p
-* randomness
-** sometimes, often :: change -> pattern -> pattern
-** irand :: int -> random int from 0 to n-1
-#+BEGIN_SRC haskell
-  d1 $ s "[bd*2 sn:1, [arpy bleep ~]*3]"
-    |* speed (irand 4/4 + 1/6)
-    |* speed ( ( \n -> 2**(log n / log 2) )
-	       $ irand 16 )
-#+END_SRC
-** rand :: random unit float
-#+BEGIN_SRC haskell
-  d1 $ sound "hh*16" # gain (rand/2 + 0.4) # pan rand
-#+END_SRC
-** degradeBy x = drop event with probability x
-#+BEGIN_SRC haskell
-  d1 $ degradeBy 0.3 $ sound "tink*16"
-#+END_SRC
-** ? = degradeBy 0.5 in mini-notation
 * truncating long samples
 ** cut n = assign to cut group n (which can be shared with other samples)
 *** simplest demo
@@ -75,47 +34,8 @@
   d1 $ stack [ speed 2 |*| sound "bev ~ bev ~" # legato 8,
 	       speed 0.5 |*| slow 4 (sound "bev ~ bev ~") # cut 1 ]
 #+end_src
-* granular effects
-** chop n
-#+begin_src haskell
-  d1 $ chop ((irand 16 + 1) * 64) $ sound "bev"
-#+end_src
-** striate n : "like chop n" (???)
-#+begin_src haskell
-  d1 $ striate 2 $ sound "bev"
-#+end_src
-** randslice n : choose one of n slices randomly
-#+begin_src haskell
-  d1 $ randslice 16 $ sound "numbers*64" |* n (irand 10)
-#+end_src
-** loopAt n : stretch sample to fit n cycles
-#+begin_src haskell
-  d1 $ stack [
-    loopAt 8 $ sound "bev",
-    every 4 (fast 2 . (<~) (1/4))
-      $ slow 4 $ palindrome $ fast 4
-      $ s "bd [sn:1*2 [[hc*2] [bd,lt*2]]/2]/2",
-    slow 4 $ (1/4) <~ s "gabba sn:1"
-      |*| speed "0.5 0.25"
-      |*| amp 0.2 ]
-#+end_src
-* synths
-#+BEGIN_SRC haskell
-  d1 $ stack [
-    sound (slow 2 "<supersquare superfm superpiano supermandolin>")
-      |*| n "0 4 7"
-      |+| fast 3 (n "[0 3] 7")
-      |*| slow 3 (n "0.5 1 1.5")
-      |* slow 8 (sustain "0.1 0.5")
-      |* fast 1.5 (gain $ tri / 2 + 0.4)
-      |* slow 2 (pan tri)
-      |* slow 4 (distort tri)
-    , jux (slow 2 . (|*| amp 0.5) . ((<~) (1/8)))
-      $ s "bd [sn:1 <lt ht ~ ht*2>]"
-      |* dry 0.7
-    ]
-#+end_src
 * my hz for synths function
+** defining it
 #+begin_src haskell
   let hz :: Pattern p => p Note -> p ValueMap
       hz hzPat = n $ fmap f hzPat where

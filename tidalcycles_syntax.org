@@ -4,7 +4,12 @@
 #+title: TidalCycles language: syntax, functions, signal flow
 * see also
   [[id:8dfe7370-d359-4d4b-99f0-09cd9b0a9822][solutions \ Tidalcycles]]
+* DONE reading
+  https://tidalcycles.org/docs/patternlib/tutorials/workshop/
 * TODO [[id:df2e01d2-1362-48fa-9f09-8d7d70cf31ec][questions about the TidalCycles language]]
+* [[id:82eb4202-2da9-43b1-9f89-ab2d3d8fbbd1][effects in TidalCycles]]
+* [[id:ae8d6109-5878-4c2e-b2b7-a6aacb980687][transformations (Pattern -> Pattern) in TidalCycles]]
+* [[id:ec43fb48-eb6f-4942-bd3e-2aa7a8aa820c][synths in TidalCycles]]
 * [[id:9898e99f-2a15-4085-97de-302f895572c4][u, new interactive Tidal notes <2023-10-31 Tue>]]
 * TODO polymeters in Tidal
   https://club.tidalcycles.org/t/thinking-time-in-addition-vs-division-meshuggah-style-prog-metal-in-tidal/4664/6
@@ -14,10 +19,7 @@
 *** There are some "preassigned voices".
     `d1`, for instance.
     See BootTidal.hs for their definitions.
-**** PITFALL: Preassigned voices also have voice names.
-     The `voice name` for `d1`, for instance, is `1`.
-     Sometimes a preassigned voice needs to be referred to via its name
-     -- e.g. when using `xfade`.
+**** PITFALL: [[id:2b81a68f-cfa5-45fc-b61e-3db738463018][Preassigned voices also have voice names.]]
 *** Voice names can be dynamic and informative.
     Rather than use the preassigned voice names like `d1`,
     one can name patterns as in

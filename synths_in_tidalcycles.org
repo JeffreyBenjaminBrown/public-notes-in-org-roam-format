@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       ec43fb48-eb6f-4942-bd3e-2aa7a8aa820c
+:END:
+#+title: synths in TidalCycles
+#+BEGIN_SRC haskell
+d1 $ stack [
+  sound (slow 2 "<supersquare superfm superpiano supermandolin>")
+    |*| n "0 4 7"
+    |+| fast 3 (n "[0 3] 7")
+    |*| slow 3 (n "0.5 1 1.5")
+    |* slow 8 (sustain "0.1 0.5")
+    |* fast 1.5 (gain $ tri / 2 + 0.4)
+    |* slow 2 (pan tri)
+    |* slow 4 (distort tri)
+  , jux (slow 2 . (|*| amp 0.5) . ((<~) (1/8)))
+    $ s "bd [sn:1 <lt ht ~ ht*2>]"
+    |* dry 0.7
+  ]
+#+end_src
