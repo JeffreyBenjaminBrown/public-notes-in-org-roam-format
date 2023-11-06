@@ -29,3 +29,4 @@
 * polymeters in Tidal
   https://club.tidalcycles.org/t/thinking-time-in-addition-vs-division-meshuggah-style-prog-metal-in-tidal/4664/6
 * [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation in Tidalcycles]]
+* [[id:e0f7b428-c766-418b-96de-0d93a6484138]["state" in Tidal: cycle through a list at each new note]]
