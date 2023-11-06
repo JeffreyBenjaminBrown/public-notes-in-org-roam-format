@@ -1,45 +1,57 @@
 :PROPERTIES:
 :ID:       0ea59083-d5af-42cf-aea8-127c1cf3d7a2
-:ROAM_ALIASES: "TidalCycles in Emacs" "Emacs and TidalCycles"
+:ROAM_ALIASES: "running TidalCycles"
 :END:
-#+title: using TidalCycles in Emacs
-alternatives
-* Use a local Tidal clone from Emacs, without using tidal.el.
-  :PROPERTIES:
-  :ID:       abc74ffc-26f2-4232-98c9-578ae2c97132
-  :END:
-** serial
-*** DONE Define these functions, or something like them:
-    They are defined in my `~/code/git_play/.emacs.d/functions.el` file.
-**** them
-     ```
-     ;; source:
-     ;; https://emacs.stackexchange.com/a/37889
-     (defun mark-receiver-buffer ()
-	(interactive)
-	(setq my-target (buffer-name)))
+#+title: TidalCycles / running
+* launch it
+** start qJackCtl
+** in SCIDE, launch this
+   ~/.local/share/SuperCollider/downloaded-quarks/SuperDirt/superdirt_startup.scd
+*** DONE I no longer need to add a line to specify `ugenPluginsPath`.
+    That's necessary on my system,
+    because sc3-plugins is unable to modify the SC installation
+    to let SC know it exists.
+    [[id:b45a1d6d-3cef-472e-9c4f-44b8296bd17e][Details here]].
+* use it with Emacs
+  alternatives
+** Use a local Tidal clone from Emacs, without using tidal.el.
+   :PROPERTIES:
+   :ID:       abc74ffc-26f2-4232-98c9-578ae2c97132
+   :END:
+*** serial
+**** DONE Define these functions, or something like them:
+     They are defined in my `~/code/git_play/.emacs.d/functions.el` file.
+***** them
+      ```
+      ;; source:
+      ;; https://emacs.stackexchange.com/a/37889
+      (defun mark-receiver-buffer ()
+	 (interactive)
+	 (setq my-target (buffer-name)))
 
-     (defun send-highlighted-region-to-receiver-buffer (beg end)
-       (interactive "r")
-       (process-send-region my-target beg end)
-       (process-send-string my-target "\n"))
-     ```
-*** launch a shell in Emacs (`M-x shell`)
-*** mark it as the receiving GHCI buffer
-    M-x mark-rec TAB
-*** send these commands to it
-    cd /home/jeff/code/music/Tidal/tidal+epic # or wherever Tidal's root is
-    cabal repl
-    :s BootTidal.hs
-*** open a buffer for Tidal code
-    e.g.
-      [[~/code/music/Tidal/tidal+epic/music/simple.hs]]
-** how to send text from a text buffer to GHCI
-   Highlight text in any buffer (it doesn't have to end in .tidal)
-   and send it to the shell buffer by running
-   `send-highlighted-region-to-receiver-buffer`.
-* DO NOT use a global Tidal clone and tidal.el from Emacs.
-** start Tidal: C-c C-s
-   This will work, at least, from a file ending in .tidal.
-** evaluate a line: C-RET
-** evaluate multiple lines: C-c C-e
+      (defun send-highlighted-region-to-receiver-buffer (beg end)
+	(interactive "r")
+	(process-send-region my-target beg end)
+	(process-send-string my-target "\n"))
+      ```
+**** launch a shell in Emacs (`M-x shell`)
+**** mark it as the receiving GHCI buffer
+     M-x mark-rec TAB
+**** send these commands to it
+     cd /home/jeff/code/music/Tidal/tidal+epic # or wherever Tidal's root is
+     cabal repl
+     :s BootTidal.hs
+**** open a buffer for Tidal code
+     e.g.
+       [[~/code/music/Tidal/tidal+epic/music/simple.hs]]
+*** how to send text from a text buffer to GHCI
+    Highlight text in any buffer (it doesn't have to end in .tidal)
+    and send it to the shell buffer by running
+    `send-highlighted-region-to-receiver-buffer`.
+** DO NOT use a global Tidal clone and tidal.el from Emacs.
+*** start Tidal: C-c C-s
+    This will work, at least, from a file ending in .tidal.
+*** evaluate a line: C-RET
+*** evaluate multiple lines: C-c C-e
+* to exit (gracefully)
+  Close SCIDE before closing QjackCtl.
