@@ -10,19 +10,10 @@
 * [[id:82eb4202-2da9-43b1-9f89-ab2d3d8fbbd1][effects in TidalCycles]]
 * [[id:ae8d6109-5878-4c2e-b2b7-a6aacb980687][transformations (Pattern -> Pattern) in TidalCycles]]
 * [[id:ec43fb48-eb6f-4942-bd3e-2aa7a8aa820c][synths in TidalCycles]]
-* [[id:9898e99f-2a15-4085-97de-302f895572c4][u, new interactive Tidal notes <2023-10-31 Tue>]]
-* voices in TidalCycles
-** mute, solo, umute, unsolo
-   `mute 1` mutes `d1` (which is a synonym for `p 1`).
-   `solo` is similar.
-** [[id:69be0c4b-551a-4c77-9185-84e784c2e4ef][truncating long samples : `cut` and `legato`]]
 * elementary patterns
 ** `silence` (the symbol) is a pattern.
 ** `run n` gives n events, from 0 to n-1
    d1 $ s "[[bd sn]/2, arpy*2%3]*8" |*| speed (run 8 + 1/2)
-* TODO polymeters in Tidal
-  https://club.tidalcycles.org/t/thinking-time-in-addition-vs-division-meshuggah-style-prog-metal-in-tidal/4664/6
-* [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation in Tidalcycles]]
 * voices and signal flow in Tidal
 ** voice names
 *** There are some "preassigned voices".
@@ -41,6 +32,10 @@
    :END:
    https://club.tidalcycles.org/t/creating-effects-chains-or-audio-buses/3707
    https://github.com/tidalcycles/tidal-doc/issues/66
+** mute, solo, umute, unsolo
+   `mute 1` mutes `d1` (which is a synonym for `p 1`).
+   `solo` is similar.
+** [[id:69be0c4b-551a-4c77-9185-84e784c2e4ef][truncating long samples : `cut` and `legato`]]
 * TidalCycles "mini-notation"
 ** DONE internalized
 *** ~ is silence

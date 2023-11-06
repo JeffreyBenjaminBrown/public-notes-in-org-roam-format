@@ -26,3 +26,6 @@
      |*| slow 4 (hz "1 2 3 4")
      |+| n "1 2 3 4"
  #+end_src
+* polymeters in Tidal
+  https://club.tidalcycles.org/t/thinking-time-in-addition-vs-division-meshuggah-style-prog-metal-in-tidal/4664/6
+* [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation in Tidalcycles]]
