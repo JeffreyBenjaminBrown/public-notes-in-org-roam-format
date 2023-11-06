@@ -2,8 +2,28 @@
 :ID:       c9f7ac4f-5f54-4312-b35e-42e9876f034c
 :END:
 #+title: code, the \\ TidalCycles
-* pShift = the rotation function
-* some changes I made
+* shift (theirs) | rot (mine) = the rotation function
+  that is, adding or subtracting cyclic time
+* some comments I made for some important and confusing functions
+  are in the history of the `jbb` branch
+* some code I wrote, to rescue
+  from the `jbb` branch
+** all of src/Sound/Tidal/JBB*
+*** string lookup : slk
+    maybe better than the more general `replace` function,
+    due to noise from quotation marks in `replace`.
+*** functions resembling `n`
+    namely "edo" and "hz"
+*** "scale lookup"
+*** "tools for harmony"
+*** "utilities"
 ** parse << and >> as rotation
    (Type `C-x 8 [<>]` to make those symbols.)
-   9ed6001550d1cc1d741df03e2b06a0035c38d873
+*** commits
+    9ed6001550d1cc1d741df03e2b06a0035c38d873
+    73beb12de0571b024030beff8011ab4e15ec4e92
+    7f8fe5ef16f70f4789f819d8925033d965bef15e
+** `meta` and `replace`
+   e7f159756f17a1d96a8fbd4b774f537ee98f8725
+** add parameters to a synth
+   3eb2954317d3be166d2eb3210b3b2f2086833b1d
