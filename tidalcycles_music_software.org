@@ -19,74 +19,8 @@
 ** Simple is fun.
    is making stuff using the simple tools,
    not making more complex tools.
-* TODO learn | solve
-** "sidechain"
-   Where the kick or the snare silences other stuff.
-** chords, scales, melodies
-** Other ways to achieve whatever leads me to repeat certain coding patterns
-*** Like always adding a slow speed change to a repeated hat
-** Parameters for sample patterns
-*** Swell?
-* TODO Record solved puzzles
-** Patterns that don't sound good, and simple solutions to it.
-* TODO extract my changes in git
-  git log --author="Jeffrey Benjamin Brown" -p
-  Keep them in a way that won't conflict with anyone else's edits.
-* TODO
-** TODO [[id:5e40393b-a042-41d2-ba79-41ab70fc9ba6][concepts for Tidal, some high-level musical]]
-** TODO polymeters in Tidal
-   https://club.tidalcycles.org/t/thinking-time-in-addition-vs-division-meshuggah-style-prog-metal-in-tidal/4664/6
-** [[id:f43e3514-fe0a-4218-825b-fc26b5108e32][make bass-drum-key rhythms]]
-** TODO permit line continuations within strings
-   This would be an Emacs fix,
-   not a Haskell fix.
-*** some code that might be close
-(defun send-highlighted-region-to-receiving-ghci-buffer (beg end)
-  (interactive "r")
-  (process-send-string receiving-ghci-buffer ":{\n")
-  ;; (replace-regexp-in-string "a" "b" "ab")
-  ;; (setq message (buffer-substring beg end))
-  ( process-send-string receiving-ghci-buffer
-		       ( replace-regexp-in-string
-			 "\\\n" "" (buffer-substring beg end ) ) )
-  (process-send-string receiving-ghci-buffer "\n:}\n"))
-(global-set-key ( kbd "C-c s")
-		( lambda () (interactive)
-		  (send-highlighted-region-to-receiving-ghci-buffer) ) )
-** TODO the scale stuff is buggy
-   This should result in a monotonic sequence,
-   but does not:
-
-   > map (lke' 12 [0,1]) [-5..5]
-   [-35.0,-36.0,-23.0,-24.0,-11.0,0.0,1.0,12.0,13.0,24.0,25.0]
-*** TODO share the scale stuff
-    ~/code/music/Tidal/tidal+epic/demo/scales.hs
-** TODO open questions, probably
-*** It's so fun sometimes, and so dumb sometimes
-*** I should try 12 tones
-*** The information gets too messy
-**** Entangled, can't separate things, make things depend on other things without a lot of evaluation in different places in the document
-**** Sprawling
-*** I get locked into tiny variations of a pattern that I ought to make bigger, more destructive changes to
-*** My rhythm sucks
-** TODO [[id:25d56fbf-4695-4188-bdef-61d98cc4876a][questions about the language]]
-** TODO easy
-*** warp (swing, etc.)
-**** Define an invertible map g from straight time to warped
-**** To query an arc, query the g-preimage of its endpoints, then apply g to all resulting events
-*** unit-interval Rational patterns
-    No new definitions needed --
-      fmap (/ 10) "0 2 5 10 15"
-    The result can then be multiplied by the number of scale degrees,
-    even as the scale varies.
-    Then quantized to an integer.
-    Then harmony rules applied, ala adjustVoices and avoidDiffsMod.
-*** TODO cover Moon Hooch
-*** There's room for more operators in the mini syntax.
-    Just use two characters.
-*** make variations on `hitspan`
-    using other parameters.
-    `histpan` is a transition function that pans repetitions of a pattern.
+** [[id:5e40393b-a042-41d2-ba79-41ab70fc9ba6][concepts for Tidal, some high-level musical]]
+* [[id:17401bd2-d61a-4a66-87cd-5be12b8d10e6][TODO]]
 * [[id:0ea59083-d5af-42cf-aea8-127c1cf3d7a2][running it]]
 * the [[id:543397e7-733f-4d56-bf58-35f5e9d83b5e][TidalCycles language]]
 * Tidalcycles: [[id:62d4071a-c7d5-4671-baa5-94b620fe2a77][installing and updating]]
