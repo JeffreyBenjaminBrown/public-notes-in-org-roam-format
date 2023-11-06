@@ -2,6 +2,9 @@
 :ID:       070ad01d-2412-4844-ba71-2a75cd5f539a
 :END:
 #+title: De Local (restaurant, Bogotá)
+* hours
+  sábado, domingo y lunes : 8:00 AM a 4:00 PM
+  martes a viernes        : 8:00 AM a 9:00 PM
 * bad dishes
 ** callos
    Had hot dogs (and actual callos, I think).

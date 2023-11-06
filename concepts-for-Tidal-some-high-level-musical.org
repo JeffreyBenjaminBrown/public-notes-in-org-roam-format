@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       5e40393b-a042-41d2-ba79-41ab70fc9ba6
 :END:
-#+title: algorithmic music ideas, <2023-07-28 Fri>, take 2
+#+title: concepts for Tidal, some high-level musical
 * TODO mysteries
 ** interpreting a melody as samples
    It's not clear that this should even be done.
@@ -31,6 +31,22 @@
    where "n" is the integer such that f*2**n is closest to "fv".
    If "ri" = len rs, the resulting pitch is f*2**(n+1).
    Etc.
+* harmony
+** Nudge the continuous frequency measure to align its important notes once quantized.
+** Some voices can use more out notes than others.
+   For instance, perhaps on the downbeat the bass should always be in-chord while the melody need not even be in-scale.
+** Distinguish chord from within scale.
+*** TODO How to use the distinction?
+*** how to represent the distinction
+    alternatives
+**** Give a list of scale indices.
+**** Provide two lists.
+     one of chord notes and one of out-of-chord scale notes.
+** ? multidimensional scale indices
+*** At least one dimension for priority
+    e.g. root, chord, scale and "out"
+    but maybe finer or coarser
+*** At least one dimension for, roughly, frequency.
 * a bar = the biggest repeating unit of the meter
 * tempo = what fixes the duration of a bar
 * a meter = a coordinate system for time

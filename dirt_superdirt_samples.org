@@ -1,0 +1,55 @@
+:PROPERTIES:
+:ID:       5f2bb61b-6528-44d6-9f0c-c95064e87f81
+:ROAM_ALIASES: "SuperDirt | Dirt // samples" "samples \\ SuperDirt | Dirt"
+:END:
+#+title: Dirt | SuperDirt // samples
+* samples I like
+** everything I've put in folders starting j_*
+** obsoleting with my fork (for better names)
+*** bend - crackling percussion
+*** hh:_ - they all seem to be panned to the left
+*** hh:0 - a nice moderate closed hat
+*** hh:1 - a light crash
+*** hh:5 - a decent kick drum
+*** hh:7 - a nice moderate rining hat
+*** hh:8 - a light single tambourine stroke
+*** hh:10 - a light ride
+*** hh:11 - a light snare
+*** voodoo 0 : deep carboy sound
+*** voodoo 3 : shakey sound
+*** voodoo 4 : high carboy sound
+** wind : moogish wind sound
+   mostly rising in pitch as sample index rises
+** gabba:0
+*** TODO : it's too loud
+** fire:0
+   long, ambient
+** wobble
+   heartbeat-like kick
+** v
+** ulgab
+** uxay
+* more samples
+** foo = drumbeats
+* figuring out durations
+** "bev" is 16 seconds long
+* TODO samples I need
+  ride cymbal
+  crash cymbal
+* TODO forking the samples
+** Rename files.
+   Symbolic links don't work.
+** folders I have mined already
+*** hh
+*** bend
+*** 808 (but not all the other 808*)
+*** bleep
+*** foo
+*** gab
+*** gabba
+*** fire
+*** wobble
+*** rides and toms from gretsch
+** files that need volume reduction
+*** at least two in bleep and j_bleep
+*** gabba:0
