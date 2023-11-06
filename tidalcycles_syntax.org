@@ -14,12 +14,12 @@
 ** `silence` (the symbol) is a pattern.
 ** `run n` gives n events, from 0 to n-1
    d1 $ s "[[bd sn]/2, arpy*2%3]*8" |*| speed (run 8 + 1/2)
+** "Oscillators"
+*** range from 0 to 1 (always?)
+*** have a period equal to the unit cycle, I think
+*** there are two random ones : rand and irand
 * [[id:5904aac5-da03-4eb2-b4b8-45a09dd3499d][voices, long samples and signal flow in Tidal]]
 * [[id:c9b50405-11a9-46a2-93f2-d190eaf23389][mini-notation \ TidalCycles]]
-* "Oscillators"
-** range from 0 to 1 (always?)
-** have a period equal to the unit cycle, I think
-** there are two random ones : rand and irand
 * [[id:97077393-00b2-41d1-8fec-7763b936a0f8][non-cyclic time in Tidal]]
 * some TidalCycles functions
 ** listToPat, fromList, fromMaybes and flatpat seem good
