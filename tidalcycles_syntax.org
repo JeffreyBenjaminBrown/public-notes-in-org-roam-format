@@ -4,21 +4,7 @@
 #+title: TidalCycles language: syntax, functions, signal flow
 * see also
   [[id:8dfe7370-d359-4d4b-99f0-09cd9b0a9822][solutions \ Tidalcycles]]
-* TODO questions
-** from list v. Listopat
-#+BEGIN_SRC haskell
-  x = 1
-  y = x + 1
-#+END_SRC
-** Timecat
-** BLOCKED [[id:646fa5cb-e4dc-4cf5-8bfe-345e0f0dbfce][understand Event, part and whole]]
-** [[id:73022421-1840-4f36-9d6c-915d9a1f9e5b][parameters that have no effect]]
-** What's "segment" for?
-   e.g. from here:
-     https://club.tidalcycles.org/t/creating-effects-chains-or-audio-buses/3707/3
-     d2 $ crushbus 1 (segment 128 $ range 6 1.1 (slow 4 saw))
-** What is the default amplitude?
-   0.35?
+* TODO [[id:df2e01d2-1362-48fa-9f09-8d7d70cf31ec][questions about the TidalCycles language]]
 * [[id:9898e99f-2a15-4085-97de-302f895572c4][u, new interactive Tidal notes <2023-10-31 Tue>]]
 * TODO polymeters in Tidal
   https://club.tidalcycles.org/t/thinking-time-in-addition-vs-division-meshuggah-style-prog-metal-in-tidal/4664/6
