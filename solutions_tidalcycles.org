@@ -12,3 +12,17 @@
 * a way to print all extant synthdefs and effects
   tag show list
   https://club.tidalcycles.org/t/print-tidals-synths-and-fx/4798
+* [[id:69be0c4b-551a-4c77-9185-84e784c2e4ef][truncating long samples : `cut` and `legato`]]
+* my hz for synths function
+** defining it
+#+begin_src haskell
+  let hz :: Pattern p => p Note -> p ValueMap
+      hz hzPat = n $ fmap f hzPat where
+	f freq = log freq / log 2 * 12
+#+end_src
+** using it
+ #+begin_src haskell
+   d1 $ s "supersquare"
+     |*| slow 4 (hz "1 2 3 4")
+     |+| n "1 2 3 4"
+ #+end_src

@@ -2,6 +2,7 @@
 :ID:       82eb4202-2da9-43b1-9f89-ab2d3d8fbbd1
 :END:
 #+title: effects in TidalCycles
+* [[id:69be0c4b-551a-4c77-9185-84e784c2e4ef][truncating long samples : `cut` and `legato`]]
 * "vowel" is like "s" for filters instead of samples
   where the filters are named a, e, i, o, and u
 * delay has four parameters

@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       69be0c4b-551a-4c77-9185-84e784c2e4ef
+:END:
+#+title: truncating long samples : `cut` and `legato`
+* cut n = assign to cut group n (which can be shared with other samples)
+** simplest demo
+#+BEGIN_SRC haskell
+d1 $ fast 2 $ sound "bev" # cut 1
+#+end_src
+** interactions
+#+begin_src haskell
+  do setcps 1
+     d1 $ stack [
+       (1/3) <~ (slow 4 $ sound "pebbles ~" |* cut 1),
+       slow 2 $ sound "bev ~" # cut 1
+	 |*| slow 4 (speed $ run 4 / 2 + 0.5),
+       ( slow 2 $ every 2 (fast 2 . (<~) (1/4)) $ fast 2 $
+	 palindrome $ s "[bd bd*2]/2 sn:1*2" )
+       ]
+#+end_src
+*** TODO Question: How are conflicts resolved?
+    If two samples trigger at the same time,
+    which should sound?
+* legato n = play for n cycles
+   Unlike cut groups, this can result in overlap or gaps.
+#+begin_src haskell
+  d1 $ stack [ speed 2 |*| sound "bev ~ bev ~" # legato 8,
+	       speed 0.5 |*| slow 4 (sound "bev ~ bev ~") # cut 1 ]
+#+end_src
