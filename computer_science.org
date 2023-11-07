@@ -22,7 +22,7 @@
 * [[id:bd48b7ca-4620-49a0-b5a5-915205f7e78e][good coding habits]]
 * [[id:f07ab308-a010-45cb-a39e-a01f0b926c15][pitfalls and responses \ coding]]
 * [[id:599c31f4-ebc6-4f17-bf83-bb7f604feb1b][how to do coding problems fast]]
-* [[id:e4a6a10f-a305-49fa-91b1-08482df14229][a CS skills assessment, with a moderate focus on Python]]
+* [[id:31569c10-7b37-4fb0-89b5-522c19b0b184][tests for programmers, some]]
 * data structures
 ** [[id:805ec609-79fb-484a-9272-c42de037d1f5][list comprehension]]
 * [[id:4f939263-8a43-42be-98af-5aa3d8854d13][dynamic typing]]

@@ -2,5 +2,6 @@
 :ID:       9f56873c-b871-49d3-b2ed-93ac63133284
 :END:
 #+title: data science
+* [[id:31569c10-7b37-4fb0-89b5-522c19b0b184][tests for programmers, some]]
 * a data differ
   https://blog.marcua.net/2022/02/20/data-diffs-algorithms-for-explaining-what-changed-in-a-dataset.html
