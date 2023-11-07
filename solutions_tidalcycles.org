@@ -7,7 +7,9 @@
   https://club.tidalcycles.org/t/default-amp-value/4326
 * to add mini-notation parameter functions (ala "pan")
 ** edit bin/generate-params.hs
-* [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][outline-mode]] seems handy
+* organizing Tidal code hierarchically
+** [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][outline-mode]] seems handy but [[id:f67b3ffb-c806-4279-bc8a-f0b35291bf42][it's giving me trouble]].
+** [[id:debbace4-173e-4dd7-99ac-a7a806905640][yasnippet + hide-lines, my hack for Emacs & TidalCycles]]
 * [[id:3a0335d8-3e84-4878-8067-62985b2ee12d][software mixer for SuperDirt]]
 * a way to print all extant synthdefs and effects
   tag show list

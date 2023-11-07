@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       30820f8e-85d1-43c9-89e8-c763b6864d2d
+:END:
+#+title: outline-mode for Emacs
+* [[id:f67b3ffb-c806-4279-bc8a-f0b35291bf42][BROKEN: Cannot rebind `C-c @ TAB` in outline-minor-mode]]
+* [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][outline-mode & Haskell]]
+* [[id:c5d85324-d51c-4571-801f-b4cf47b1c3bb][outline-mode & Python]]
+* [[id:edfaf962-b66d-4bb9-b618-29f38c21b22d][Why does outline-minor-mode behave differently for Python and Haskell?]]

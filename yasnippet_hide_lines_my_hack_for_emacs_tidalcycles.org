@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       debbace4-173e-4dd7-99ac-a7a806905640
+:ROAM_ALIASES: "Emacs & TidalCycles, my hack using yasnippet + hide-lines" "hide-lines + yasnippet, my hack for Emacs & TidalCycles" "TidalCycles & Emacs, my hack using yasnippet + hide-lines"
+:END:
+#+title: yasnippet + hide-lines, my hack for Emacs & TidalCycles
+* Use yasnippet to create BEGIN_SRC / END_SRC brackets.
+  `C-c y` should do it.
+* Use my `org-hide-source-block-delimiters` to hide those brackets.
+* Use `hide-lines-show-all` to show them all again.

@@ -3,11 +3,7 @@
 :ROAM_ALIASES: Emacs
 :END:
 #+title: Emacs (programamble text editor)
-* outline-mode
-** [[id:f67b3ffb-c806-4279-bc8a-f0b35291bf42][BROKEN: Cannot rebind `C-c @ TAB` in outline-minor-mode]]
-** [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][outline-mode & Haskell]]
-** [[id:c5d85324-d51c-4571-801f-b4cf47b1c3bb][outline-mode & Python]]
-** [[id:edfaf962-b66d-4bb9-b618-29f38c21b22d][Why does outline-minor-mode behave differently for Python and Haskell?]]
+* [[id:30820f8e-85d1-43c9-89e8-c763b6864d2d][outline-mode for Emacs]]
 * TODO [[id:f67b3ffb-c806-4279-bc8a-f0b35291bf42][BROKEN: Cannot rebind `C-c @ TAB` in outline-minor-mode]]
 * [[id:19a2966d-79dc-49e9-b7a7-5dea84a19672][PITFALL: Currently (<2022-07-06 Wed>) Python mode can't handle triple quotes. Don't use them for a while.]]
 * [[id:a10a04e8-5b2b-4f75-93ec-f1d2082f2a3c][sexp and list commands in Emacs]]
@@ -102,3 +98,4 @@
     ))
 ** [[id:3d093f8d-9215-4c56-b3e4-eb7a2b8beeee][rectangles in Emacs]]
 ** [[id:3b4440e1-ef04-4637-b22d-cbdb60d58329][switching buffers in Emacs]]
+** [[id:debbace4-173e-4dd7-99ac-a7a806905640][yasnippet + hide-lines, my hack for Emacs & TidalCycles]]
