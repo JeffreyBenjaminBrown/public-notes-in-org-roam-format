@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       9efac453-223b-47c4-8d31-0e5d7702feb9
+:END:
+#+title: install python 3.12 in Ubuntu (in 2023, with default repos at 3.9)
+* Steps I've got, in order of execution, including ones that don't work.
+apt install software-properties-common
+add-apt-repository ppa:deadsnakes/ppa
+
+# Mark deadsnakes repo as trusted.
+# The result should be that when I run this:
+  cat /etc/apt/sources.list.d/deadsnakes-ubuntu-ppa-noble.list
+# I see this
+  deb [trusted=yes] http://ppa.launchpad.net/deadsnakes/ppa/ubuntu noble main
+  # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu noble main
+
+# PROBLEM: My chosen mirror appears to be down.
+# Changing some URL might fix that.
+
+# PROBLEM? Maybe I shouldn't be using "noble" or "main".
+# Try making it look more like the entries in /etc/apt/sources.list
+
+apt update
+  # or maybe
+  # apt update --allow-unauthenticated
+apt install python3.12
+  # apt install python3.12 --allow-unauthenticated
