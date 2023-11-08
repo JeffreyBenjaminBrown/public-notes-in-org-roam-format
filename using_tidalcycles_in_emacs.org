@@ -53,5 +53,6 @@
     This will work, at least, from a file ending in .tidal.
 *** evaluate a line: C-RET
 *** evaluate multiple lines: C-c C-e
+* Use [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][outline-mode]]!
 * to exit (gracefully)
   Close SCIDE before closing QjackCtl.

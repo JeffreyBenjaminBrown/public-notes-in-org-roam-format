@@ -19,6 +19,7 @@
 
     So I have redefined it to insert a new heading,
     like C-RET in org-mode.
+*** PITFALL: Makes new key sequences without unbinding old ones.
 *** them
     (define-key outline-minor-mode-map (kbd "C-c TAB")
       'outline-cycle)
