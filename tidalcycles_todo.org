@@ -2,7 +2,7 @@
 :ID:       17401bd2-d61a-4a66-87cd-5be12b8d10e6
 :END:
 #+title: TidalCycles / TODO
-* [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][outline-mode]] & TidalCycles
+* TODO [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][outline-mode]] & Haskell : I got it working!
 * TODO [[id:df2e01d2-1362-48fa-9f09-8d7d70cf31ec][questions about the TidalCycles language]]
 * TODO solve
 ** "sidechain"

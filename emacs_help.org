@@ -9,3 +9,4 @@
   which it prompts for.
 * <C-h f> describes the function
   the name of which it prompts for.
+* <C-h v> describes a variable
