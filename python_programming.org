@@ -3,6 +3,7 @@
 :ROAM_ALIASES: Python
 :END:
 #+title: Python (programming language)
+* TODO [[id:9efac453-223b-47c4-8d31-0e5d7702feb9][install python 3.12 in Ubuntu (in 2023, with default repos at 3.9)]]
 * TODO study this article on using Python as if it were Rust
   https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html
 * TODO use [[id:911bfaf0-5d29-40ab-8855-02b1c8f5f4f6][Pyright]]
