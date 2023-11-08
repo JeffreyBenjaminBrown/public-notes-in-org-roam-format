@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       31569c10-7b37-4fb0-89b5-522c19b0b184
+:ROAM_ALIASES: "exams for programmers, some" "assessments of programming skills, some"
+:END:
+#+title: tests for programmers, some
+* [[id:e4a6a10f-a305-49fa-91b1-08482df14229][a CS skills assessment, with a moderate focus on Python]]
+* [[id:51c4ebdf-2525-495e-b3d9-0f3650a8adea][a data science skills assessment]]
+* [[id:f92b0b06-c93b-447e-bc3e-ccae6d3193f0][test a CTO]] (incomplete)
