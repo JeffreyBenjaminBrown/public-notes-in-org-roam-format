@@ -3,7 +3,6 @@
 :ROAM_ALIASES: Python
 :END:
 #+title: Python (programming language)
-* TODO [[id:9efac453-223b-47c4-8d31-0e5d7702feb9][install python 3.12 in Ubuntu (in 2023, with default repos at 3.9)]]
 * TODO study this article on using Python as if it were Rust
   https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html
 * TODO use [[id:911bfaf0-5d29-40ab-8855-02b1c8f5f4f6][Pyright]]
@@ -69,3 +68,4 @@
 ** [[id:efa6659f-b52a-49ec-af95-503e6428a06d][write to a file in Python]]
 ** [[id:5fc6d2b8-df62-4329-9dd1-54653dd0b76d][debug a call to subprocess.run \ Python]]
 * [[id:e4a6a10f-a305-49fa-91b1-08482df14229][the CS skills assessment I wrote, with a moderate focus on Python]]
+* NAH [[id:9efac453-223b-47c4-8d31-0e5d7702feb9][install python 3.12 in Ubuntu (in 2023, with default repos at 3.9)]]

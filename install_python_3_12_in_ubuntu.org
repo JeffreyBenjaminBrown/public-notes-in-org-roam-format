@@ -1,10 +1,18 @@
 :PROPERTIES:
 :ID:       9efac453-223b-47c4-8d31-0e5d7702feb9
 :END:
-#+title: install python 3.12 in Ubuntu (in 2023, with default repos at 3.9)
+#+title: install Python 3.12 in Ubuntu (in 2023, with default repos at 3.9)
+* It's too hard. Never mind.
+  I'm using Debian 11.
+  Installing a Python above 3.9 in Debian 11 requires either building from source or using an unusual apt repo. Source looks ugly. Adding apt gives me problems, I think maybe because deadsnakes does not have a repo for Debian 11 ("bullseye").
+  The latest Debian is 12, but for that it's not easy to install Haskell, which I need.
 * Steps I've got, in order of execution, including ones that don't work.
+apt update && apt upgrade -y
 apt install software-properties-common
 add-apt-repository ppa:deadsnakes/ppa
+
+# TEMPORARY, to edit sources
+apt install mg
 
 # Mark deadsnakes repo as trusted.
 # The result should be that when I run this:
