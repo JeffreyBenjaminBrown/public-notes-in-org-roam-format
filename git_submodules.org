@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       2a580607-a59b-408d-b27c-b6c4dd94a14b
+:ROAM_ALIASES: "submodules in git" "Git submodules"
 :END:
 #+title: git submodules
 * ref
