@@ -3,3 +3,7 @@
 :END:
 #+title: rice
 * 1 cup brown rice to 2 cups water
+* took about 1:02* for steam to stop spouting from rice
+  * That's 1:02 after boiling & reducing to min heat.
+  That was 1 of the curvey cups birds-and-leaves cups,
+  which is about 1.25 actual cups.
