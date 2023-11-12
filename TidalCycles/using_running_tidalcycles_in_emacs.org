@@ -41,6 +41,8 @@
      cd /home/jeff/code/music/Tidal/tidal+epic # or wherever Tidal's root is
      cabal repl
      :s BootTidal.hs
+     :s jbb.ghci
+     setcps 1
 **** open a buffer for Tidal code
      e.g.
        [[~/code/music/Tidal/tidal+epic/music/simple.hs]]

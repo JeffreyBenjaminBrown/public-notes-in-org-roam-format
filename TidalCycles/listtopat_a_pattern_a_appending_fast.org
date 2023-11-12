@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       42caa917-9051-4589-94a8-16ca04543b2d
+:END:
+#+title: listToPat : [a] -> Pattern a, appending "fast"

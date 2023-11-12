@@ -2,6 +2,7 @@
 :ID:       ae8d6109-5878-4c2e-b2b7-a6aacb980687
 :END:
 #+title: transformations (Pattern -> Pattern) in TidalCycles
+* BROKEN: [[id:60746819-124f-4157-9f0e-9649183f865a][flatpat :: pattern of lists -> pattern of simultaneous events]]
 * hurry is like fast, but with a speed transformation
 * iter n : start at different places
   divide into n, start k/n of the way through over n repetitions for increasing values of k

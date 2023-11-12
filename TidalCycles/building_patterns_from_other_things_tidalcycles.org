@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       83321a5f-ad1c-4c3c-b071-7923be95992d
+:END:
+#+title: building patterns from (usually) other things \ TidalCycles
+* numeric patterns
+** `run n` gives n events, from 0 to n-1
+   d1 $ s "[[bd sn]/2, arpy*2%3]*8" |*| speed (run 8 + 1/2)
+** BROKEN: [[id:420068e3-f8a8-4d10-9e1b-9cc7b22b0056][scan = a series of `run`s, first of length 1]]
+* patterns from lists
+** fromList :: [a] -> Pattern a, appending "slowly"
+ That is, appending one event from thelist per cycle.
+ #+BEGIN_SRC haskell
+   d1 $ s "sn:1*2" |*| speed (fromList [1,2,3])
+ #+END_SRC
+** fromMaybes :: [Maybe a] -> Pattern a, appending "fast"
+ #+BEGIN_SRC haskell
+   d1 $ s "sn:1*2" |*| speed (fromMaybes [Just 1,Nothing,Just 3])
+ #+END_SRC
+** [[id:60746819-124f-4157-9f0e-9649183f865a][flatpat :: pattern of lists -> pattern of simultaneous events]]
+** BROKEN : [[id:42caa917-9051-4589-94a8-16ca04543b2d][listToPat : [a] -> Pattern a, appending "fast"]]
+   That is, such that the result is a single cycle.

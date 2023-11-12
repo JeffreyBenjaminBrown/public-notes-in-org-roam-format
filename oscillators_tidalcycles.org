@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       77aa1564-6d21-4091-b961-95f66401dc0d
+:END:
+#+title: oscillators \ TidalCycles
+* usually range from 0 to 1 (always?)
+* have a period equal to the unit cycle, I think
+* there are two random ones : rand and irand
