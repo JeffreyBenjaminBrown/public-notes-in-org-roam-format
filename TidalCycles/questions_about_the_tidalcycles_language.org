@@ -2,6 +2,8 @@
 :ID:       df2e01d2-1362-48fa-9f09-8d7d70cf31ec
 :END:
 #+title: questions about the TidalCycles language
+* see also
+** [[id:be0b4af0-6ee5-4673-a905-137782440c51][broken, things that seem \ TidalCycles]]
 * from list v. Listopat
 #+BEGIN_SRC haskell
   x = 1

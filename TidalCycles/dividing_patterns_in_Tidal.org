@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       312aa85f-b9a4-4fd4-bd11-aebfe91ad766
+:END:
+#+title: dividing patterns in Tidal
+* iter :: Pattern Int -> Pattern a -> Pattern a
+** the idea
+   `iter n` divides the pattern into `n` pieces,
+   and first plays them in order,
+   then in order but starting on the 2nd, etc.
+** [[id:e6b5b9c2-7b00-4c64-9096-1b3ca6712cf0][fugue from superimposing a transposed iter on a panning arpeggio]]
+* iter' :: like iter but starts at 0, then n-1, n-2, etc.

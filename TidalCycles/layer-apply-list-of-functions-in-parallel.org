@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       2449b5d4-3e7f-434c-ac4b-b033f3306bf9
+:END:
+#+title: layer : apply list of functions in parallel
+layer :: [a -> Pattern b] -> a -> Pattern b
+#+BEGIN_SRC haskell
+  -- After defining these:
+  p = s "bd sn:1"
+  f = (|* distort 0.2)
+  g = late (1/3) . (|* gain 0.8)
+
+  -- these should be the same.
+  d1 $ layer [f, g] p -- but this isn't defined
+  d1 $ stack [ f p, g p]
+  d1 $ stack $ [f,g] <*> pure p
+#+END_SRC

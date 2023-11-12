@@ -3,7 +3,7 @@
 :ROAM_ALIASES: "outline-mode & Haskell" "Haskell & outline-mode"
 :END:
 #+title: using Emacs outline-mode for Haskell
-* FIRST: Evaluate this code.
+* FIRST: Evaluate this Lisp code from the Haskell code buffer.
 ;; This starts outline-minor-mode
 ;; with a regex for Haddock-style headings.
 (haskell-mode)
@@ -20,11 +20,16 @@
     So I have redefined it to insert a new heading,
     like C-RET in org-mode.
 *** PITFALL: Makes new key sequences without unbinding old ones.
-*** them
+*** These can be evaluated here, rather than from the Haskell buffer.
+*** it
+    (define-key ;; unbind a Haskell-mode sequence I don't use
+     interactive-haskell-mode-map (kbd "C-c TAB") nil)
+
     (define-key outline-minor-mode-map (kbd "C-c TAB")
       'outline-cycle)
-    (define-key outline-minor-mode-map (kbd "C-c <backtab>")
-      'outline-cycle-buffer)           ;; backtab = S-TAB
+
+    (define-key outline-minor-mode-map (kbd "C-c C-<tab>")
+      'outline-cycle-buffer)
     (define-key outline-minor-mode-map (kbd "C-c M-<left>")
       'outline-promote)
     (define-key outline-minor-mode-map (kbd "C-c M-<right>")

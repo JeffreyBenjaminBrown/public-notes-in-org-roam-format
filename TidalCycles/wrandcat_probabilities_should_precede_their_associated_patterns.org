@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       c89a66ce-753b-46ef-b4b9-b61415a0da7c
+:END:
+#+title: wrandcat probabilities should precede their associated patterns.

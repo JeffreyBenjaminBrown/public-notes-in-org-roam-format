@@ -6,13 +6,23 @@
   [[id:8dfe7370-d359-4d4b-99f0-09cd9b0a9822][solutions \ Tidalcycles]]
 * DONE reading
   https://tidalcycles.org/docs/patternlib/tutorials/workshop/
+* some GHCI config for reading these notes
+#+BEGIN_SRC haskell
+:s jbb.ghci
+
+setcps 1
+#+END_SRC
 * TODO [[id:df2e01d2-1362-48fa-9f09-8d7d70cf31ec][questions, language]]
-* [[id:83321a5f-ad1c-4c3c-b071-7923be95992d][elementary patterns]]
+* TODO [[id:be0b4af0-6ee5-4673-a905-137782440c51][broken, things that seem \ TidalCycles]]
+* [[id:83321a5f-ad1c-4c3c-b071-7923be95992d][elementary patterns and operations]]
 * [[id:c9b50405-11a9-46a2-93f2-d190eaf23389][mini-notation]]
 * [[id:5904aac5-da03-4eb2-b4b8-45a09dd3499d][voices, long samples and signal flow]]
-* [[id:82eb4202-2da9-43b1-9f89-ab2d3d8fbbd1][effects]]
+* [[id:556766b2-2b7e-4518-8930-11419a9847ce][joining patterns sequentially]]
+* [[id:562d6768-0321-4cfa-9a3a-4c581b3ed6a5][joining patterns concurrently]]
+* [[id:312aa85f-b9a4-4fd4-bd11-aebfe91ad766][dividing patterns in Tidal]]
 * [[id:ae8d6109-5878-4c2e-b2b7-a6aacb980687][transformations (Pattern -> Pattern)]]
 * [[id:ec43fb48-eb6f-4942-bd3e-2aa7a8aa820c][synths]]
+* [[id:82eb4202-2da9-43b1-9f89-ab2d3d8fbbd1][effects]]
 * [[id:97077393-00b2-41d1-8fec-7763b936a0f8][non-cyclic time]]
 * some TidalCycles functions
 ** listToPat, fromList, fromMaybes and flatpat seem good
@@ -48,8 +58,10 @@
    linger does similarly but repeats the head rather than going silent.
 ** TODO step' is like a sequencer
    This uses 0 to indicate superpiano, 1 for supermandolin.
-   d1 $ s (step' ["superpiano","supermandolin"] "0 1 000 1")
-        |* sustain 4 # n 0
+#+BEGIN_SRC haskell
+  d1 $ s (step ["superpiano","supermandolin"] "0 1 000 1")
+       |* sustain 4 # n 0
+#+END_SRC
 ** `|x|`, `|x` and `x|`, for all x
    On which side the bar lies determines which pattern divides time.
    If it's on both sides, both patterns divide time.
@@ -86,7 +98,7 @@
 ** cut
    Assings the voice to a cut group.
    It will end as soon as anything else in the same cut group starts.
-* [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continus parameter variation]]
+* [[id:e89c67a2-6f94-4466-8451-e7b03066aad1][continuous parameter variation]] (e.g. slide, not oscillators)
 * polyphonic distortion in Tidal
   Probably [[id:d41a981f-1a73-44bf-85fb-f5a80d72bea3][the bus solution]] will do it.
   But see also

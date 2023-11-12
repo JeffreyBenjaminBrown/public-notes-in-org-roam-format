@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       be0b4af0-6ee5-4673-a905-137782440c51
+:END:
+#+title: broken, things that seem \ TidalCycles
+missing or broken (as of <2023-11-11 Sat>)
+* [[id:420068e3-f8a8-4d10-9e1b-9cc7b22b0056][scan = a series of `run`s, first of length 1]]
+* (+) supposedly is the operator for `append`
+But not, at least, in the 1.9-dev branch.
+#+BEGIN_SRC haskell
+  d1 $ s ("bd" + "sn:1")
+#+END_SRC
+* flatpat :: pattern of lists -> pattern of simultaneous events
+#+BEGIN_SRC haskell
+  -- alternates between two major chords an octave apart
+  d1 $ n ( flatpat
+	   $ listToPat [ [0,4,7],
+			 [(-12),(-8),(-5)]])
+    # s "superpiano" # sustain 2
+#+END_SRC
+* [[id:2449b5d4-3e7f-434c-ac4b-b033f3306bf9][layer : apply list of functions in parallel]]

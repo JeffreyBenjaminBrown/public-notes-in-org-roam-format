@@ -13,6 +13,7 @@
      p 1
    or
      p "juliet"
+* [[id:46cc6630-2541-4e3f-b46d-2306b3e3aa7b][silence in Tidal]]
 * [[id:61b787d6-7b06-43c6-8495-b49c3dd90ecf][effects buses in TidalCycles]]
 * mute, solo, umute, unsolo
   `mute 1` mutes `d1` (which is a synonym for `p 1`).

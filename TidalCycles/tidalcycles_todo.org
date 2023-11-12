@@ -2,16 +2,16 @@
 :ID:       17401bd2-d61a-4a66-87cd-5be12b8d10e6
 :END:
 #+title: TidalCycles / TODO
-* TODO [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][outline-mode]] & Haskell : I got it working!
+* ONGOING [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][outline-mode]] & Haskell : I got it working!
 * TODO [[id:df2e01d2-1362-48fa-9f09-8d7d70cf31ec][questions about the TidalCycles language]]
 * TODO solve
-** "sidechain"
-   Where the kick or the snare silences other stuff.
 ** chords, scales, melodies
 ** Other ways to achieve whatever leads me to repeat certain coding patterns
 *** Like always adding a slow speed change to a repeated hat
-** Parameters for sample patterns
+** Parameters for sample (not synth)-based patterns
 *** Swell?
+** "sidechain"
+   Where the kick or the snare silences other stuff.
 * TODO Record solved puzzles
 ** Patterns that don't sound good, and simple solutions to it.
 * TODO extract my changes in git
@@ -55,6 +55,7 @@
 ** My rhythm sucks
 * TODO [[id:25d56fbf-4695-4188-bdef-61d98cc4876a][questions about the language]]
 * TODO easy
+** [[id:c89a66ce-753b-46ef-b4b9-b61415a0da7c][wrandcat probabilities should precede their associated patterns.]]
 ** warp (swing, etc.)
 *** Define an invertible map g from straight time to warped
 *** To query an arc, query the g-preimage of its endpoints, then apply g to all resulting events

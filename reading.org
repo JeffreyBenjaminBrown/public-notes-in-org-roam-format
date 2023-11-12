@@ -16,6 +16,7 @@
    but rather to act in accordance with them.)
 * [[id:d5585db3-ac97-426f-8455-c7a2b3dcee93][audiobook services]]
 * material to absorb
+** Some so-far uninteresting [[id:36f8e3fc-3c72-4588-930d-cdd44878059e][Chat GPT podcast recommendations.]]
 ** TODO (ongoing) : [[id:9ac5ebd7-ad3b-414f-a9e4-9c3cd0c4616a][some principles some mindmappers visit regularly]]
 ** TODO (ongoing) : why behavioral is bs
    https://carcinisation.com/2023/08/22/against-automaticity/

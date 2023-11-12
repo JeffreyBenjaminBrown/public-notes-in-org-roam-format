@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       562d6768-0321-4cfa-9a3a-4c581b3ed6a5
+:END:
+#+title: concurrently joining patterns in Tidal
+* (<>) is the operator
+* stack : [Pattern a] -> Pattern a
+* superimpose :: (Pattern a -> Pattern a) -> Pattern a -> Pattern a
+** [[id:840a9c58-8c07-46ba-a37f-efeb4cb0821e][superimpose a swung echo]]
+#+BEGIN_SRC haskell
+d1 $ superimpose
+      ( late (2/12) .
+	(|* distort 0.3) .
+	(|* speed "[3,5]") .
+	(|* gain 0.7) )
+      $ s "<bd bass> hh sn:1 <<bleep <numbers:1 numbers:2>> hh>" |* slow 16 (speed "[1!3 0.8] [0.7 0.6]")
+#+END_SRC
+** [[id:32c6eb9f-73f8-4ddf-bd20-66fb3b63d4a5][stereo beat with superimposed faster comb]]
+* BROKEN (but achievable*) : [[id:2449b5d4-3e7f-434c-ac4b-b033f3306bf9][layer : apply list of functions in parallel]]
+  * achievable by other means

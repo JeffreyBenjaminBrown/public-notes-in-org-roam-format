@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       420068e3-f8a8-4d10-9e1b-9cc7b22b0056
+:END:
+#+title: scan = a series of `run`s, first of length 1
+These should sound different, shouldn't they?
+#+BEGIN_SRC haskell
+  d1 $ (s "bleep" |*| speed (run 4))
+    <> s "hc*4"
+
+  d1 $ (s "bleep" |*| speed (scan 4))
+    <> s "hc*4"
+#+END_SRC

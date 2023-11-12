@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       e6b5b9c2-7b00-4c64-9096-1b3ca6712cf0
+:END:
+#+title: fugue from superimposing a transposed iter on a panning arpeggio
+#+BEGIN_SRC haskell
+  d1 $ ( (s "bass" |*| speed 3) <>
+	 (s "bass" |*| distort 0.8 |*| gain 0.8) )
+    |*| superimpose ( iter 4 .
+		      slow 2  . every 2 (slow 2) . fast 2 .
+		      late (1/10) . -- 1/12 would be "straight swing"
+		      (|*| speed (4/5)))
+    ( speed ( (run 4 + 4) / 2 )
+      |* pan (slow 4 tri) )
+#+END_SRC

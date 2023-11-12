@@ -1,0 +1,52 @@
+:PROPERTIES:
+:ID:       556766b2-2b7e-4518-8930-11419a9847ce
+:END:
+#+title: sequentially joining patterns in Tidal
+* `cat` = `slowcat` : the sum is longer than the parts
+#+BEGIN_SRC haskell
+  d1 $ stack [ s "bd sn:1",
+	       cat [ s "hh*4", s "hh*3" ] ]
+#+END_SRC
+* `fastcat`: the sum is a single cycle
+#+BEGIN_SRC haskell
+  d1 $ stack [ s "bd sn:1",
+	       fastcat [ s "hh*4", s "hh*3" ] ]
+#+END_SRC
+* `timecat`: like fastcat but with time arguments
+#+BEGIN_SRC haskell
+  d1 $ stack [ s "bd sn:1" |*| amp 0.2,
+	       slow 4 $ timecat [ (1, s "hh*4"),
+				  (3, fast 3 $ s "hh*3") ] ]
+#+END_SRC
+* randcat : like slowcat but random
+#+BEGIN_SRC haskell
+d1 $ stack [ s "bd sn:1",
+             fast 2 $ randcat [ s "hh*4", s "hh*3" ] ]
+#+END_SRC
+* wrandcat : like randcat but with probability arguments
+** demo
+#+BEGIN_SRC haskell
+d1 $ stack [ s "bd sn:1",
+             fast 2 $ wrandcat [ (s "hh*4", 0.2),
+                                 (s "hh*3", 0.8) ] ]
+#+END_SRC
+** TODO [[id:c89a66ce-753b-46ef-b4b9-b61415a0da7c][wrandcat probabilities should precede their associated patterns.]]
+   write "prandcat" for this
+* (fast)append = (fast)cat, but for 2 arguments, no list
+* wedge = timecat but for 1 fraction and 2 signals, no list
+** [[id:c38f063a-7793-46ec-a030-c8efcd4a1cff][slow wave of the `wedge` of two tremoloing samples]]
+* brak : every other cycle, silent first half, then fast 2
+** how it works
+#+BEGIN_SRC haskell
+-- compare:
+p1 = sound "[feel*2 feel:3, hc:3 hc:2 hc:4 ho:1]"
+
+d1 $        p1
+d1 $ brak $ p1
+d1 $ cat $ [ p1, -- another way to say `brak`
+             early (1/4) $ fastcat [silence, p1] ]
+#+END_SRC
+** [[id:f8c27074-18e3-4a16-9e79-e2c48a6a54dd][variations on `brak`]]
+* fromList : [a] -> Pattern a, with duration = length of list
+** listToPat : [a] -> Pattern a, with duration 1
+** fromMaybes :: [Maybe a] -> Pattern a. Like listToPat with silence.

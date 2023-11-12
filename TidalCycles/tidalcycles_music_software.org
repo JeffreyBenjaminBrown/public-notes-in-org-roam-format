@@ -4,6 +4,8 @@
 :END:
 #+title: TidalCycles (music software)
 * refs
+** the community
+   https://club.tidalcycles.org/
 ** an explanation of Tidal 2.0
    https://club.tidalcycles.org/t/tidal-2-0/4247/30?u=jeff_brown
 ** [[id:e3544bcf-ff56-4667-b924-3b7baaea26ac][SuperDirt (plugin for SuperCollider)]]
@@ -29,3 +31,4 @@
 ** [[id:df2e01d2-1362-48fa-9f09-8d7d70cf31ec][questions about the TidalCycles language]]
 * [[id:8dfe7370-d359-4d4b-99f0-09cd9b0a9822][solutions]]
 * [[id:62d4071a-c7d5-4671-baa5-94b620fe2a77][installing and updating]]
+* [[id:9ed4e7b6-2a71-4f34-9ba2-bd4324546b32][my Tidal music, some of]]

@@ -1,11 +1,12 @@
 :PROPERTIES:
 :ID:       83321a5f-ad1c-4c3c-b071-7923be95992d
 :END:
-#+title: elementary patterns \ TidalCycles
-* `silence` (the symbol) is a pattern.
+#+title: elementary patterns and operations \ TidalCycles
+* [[id:46cc6630-2541-4e3f-b46d-2306b3e3aa7b][silence in Tidal]]
 * "Oscillators"
 ** range from 0 to 1 (always?)
 ** have a period equal to the unit cycle, I think
 ** there are two random ones : rand and irand
 * `run n` gives n events, from 0 to n-1
   d1 $ s "[[bd sn]/2, arpy*2%3]*8" |*| speed (run 8 + 1/2)
+* BROKEN: [[id:420068e3-f8a8-4d10-9e1b-9cc7b22b0056][scan = a series of `run`s, first of length 1]]

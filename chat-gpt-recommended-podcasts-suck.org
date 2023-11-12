@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       36f8e3fc-3c72-4588-930d-cdd44878059e
+:END:
+#+title: Chat GPT-recommended podcasts suck, these.
+* its suggestions
+  ordered : interesting-looking first
+** Materia Oscura
+   Description: A podcast that covers a variety of topics, including science, history, and current events, with a focus on providing in-depth and well-researched content.
+** La Nave de los Locos
+   Description: A podcast that covers a wide range of topics, including science, technology, culture, and history. The hosts engage in thoughtful discussions and interviews with experts.
+** Carne de Bit
+   Description: Focuses on technology, science, and their intersection with society. The hosts discuss current events and trends in an engaging and insightful manner.
+** Catástrofe Ultravioleta
+   Description: This podcast explores science and history, delving into various themes and events with a mix of humor and intelligence.
+** Filosofía aquí y ahora
+   Description: This podcast delves into philosophical topics, exploring different branches of philosophy and their relevance to contemporary issues.
+* my question
+  What are some podcasts or podcasters who (1) speak in Spanish, (2) have diverse interests (e.g. science, art, current events, history), and (3) require a lot of intelligence from their listeners?
+  I'm thinking along the lines of Tyler Cowen -- he would be perfect, except he podcasts in English.

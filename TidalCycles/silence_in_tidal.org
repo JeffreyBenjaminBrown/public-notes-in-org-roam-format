@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       46cc6630-2541-4e3f-b46d-2306b3e3aa7b
+:END:
+#+title: silence in Tidal
+* `silence` (the symbol) is a pattern.
+* hush = silence to all voices
+* panic = "super hush" \\ TidalCycles
+Ends patterns *and* kills all synths and samples.

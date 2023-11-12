@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       c38f063a-7793-46ec-a030-c8efcd4a1cff
+:END:
+#+title: slow wave of the `wedge` of two tremoloing samples
+#+BEGIN_SRC haskell
+  d1 $ wedge
+    ( -- The fraction can itself be a signal
+      slow 16 $ tri + 0.2 )
+    (fast 16 $ s "lt")
+    (fast 16 $ rev (s "cp") |*| amp 0.2)
+#+END_SRC
