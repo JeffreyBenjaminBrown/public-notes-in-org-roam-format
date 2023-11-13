@@ -2,6 +2,9 @@
 :ID:       5904aac5-da03-4eb2-b4b8-45a09dd3499d
 :END:
 #+title: voices, long samples and signal flow in Tidal
+* `cps` is a parameter, like `s` or `n` except global.
+  Try it with oscillators (e.g. `saw` below).
+  p "cpsfun" $ s "bd sd(3,8)" # cps (slow 8 $ 0.5 + saw)
 * voice names
 ** There are some "preassigned voices".
    `d1`, for instance.

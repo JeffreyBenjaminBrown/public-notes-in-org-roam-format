@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       fea45c25-3c75-49f1-a9bd-a3815c5a487c
+:END:
+#+title: rand : random unit float \\ Tidal
+#+BEGIN_SRC haskell
+  d1 $ sound "hh*16" # gain (rand/2 + 0.4) # pan rand
+#+END_SRC

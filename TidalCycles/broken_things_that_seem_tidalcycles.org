@@ -3,12 +3,17 @@
 :END:
 #+title: broken, things that seem \ TidalCycles
 missing or broken (as of <2023-11-11 Sat>)
-* [[id:420068e3-f8a8-4d10-9e1b-9cc7b22b0056][scan = a series of `run`s, first of length 1]]
-* (+) supposedly is the operator for `append`
-But not, at least, in the 1.9-dev branch.
-#+BEGIN_SRC haskell
-  d1 $ s ("bd" + "sn:1")
-#+END_SRC
-* [[id:60746819-124f-4157-9f0e-9649183f865a][flatpat :: pattern of lists -> pattern of simultaneous events]]
-* [[id:42caa917-9051-4589-94a8-16ca04543b2d][listToPat : [a] -> Pattern a, appending "fast"]]
-* [[id:2449b5d4-3e7f-434c-ac4b-b033f3306bf9][layer : apply list of functions in parallel]]
+* a partial solution : find them in Sound.Tidal.OldUI
+  Not everything missing is there,
+  but I'm copying some of what is into Sound.Tidal.JBB.
+* the list
+** BROKEN : [[id:420068e3-f8a8-4d10-9e1b-9cc7b22b0056][scan = a series of `run`s, first of length 1]]
+** BROKEN : (+) supposedly is the operator for `append`
+ But not, at least, in the 1.9-dev branch.
+ #+BEGIN_SRC haskell
+   d1 $ s ("bd" + "sn:1")
+ #+END_SRC
+** RECOVERED: [[id:60746819-124f-4157-9f0e-9649183f865a][flatpat :: pattern of lists -> pattern of simultaneous events]]
+** MISSING : [[id:42caa917-9051-4589-94a8-16ca04543b2d][listToPat : [a] -> Pattern a, appending "fast"]]
+** RECOVERED : [[id:2449b5d4-3e7f-434c-ac4b-b033f3306bf9][layer : apply list of functions in parallel]]
+** BROKEN : [[id:4938e0cf-8c59-4482-a948-b599db82e16a][quantise :: (Functor f, RealFrac b) => b -> f b -> f b]]

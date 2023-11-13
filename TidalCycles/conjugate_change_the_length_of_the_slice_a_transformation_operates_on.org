@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       04925b74-8c67-4726-af4b-33f6a649d821
+:END:
+#+title: conjugate : change the length of the slice a transformation operates on
+* PITFALL: The source of truth here is Sound.Tidal.JBB, not these notes.
+  That is, these might get out of date.
+* [[id:d0fe9253-4db6-4f8d-b218-d1d706ae9f87][conjugate a palindrome]]
+* definition
+#+BEGIN_SRC haskell
+  -- | Many transformations operate on a one-cycle object.
+  -- For instance, `palindrome` plays the pattern backward every other cycle.
+  -- `conjugate dur f p` transforms fso that it takes `dur` cycles of `p`,
+  -- rather than one.
+  conjugate :: Pattern p
+	    => p Time -> (p x1 -> p x2) -> p x1 -> p x2
+  conjugate dur f = slow dur . f . fast dur
+#+END_SRC

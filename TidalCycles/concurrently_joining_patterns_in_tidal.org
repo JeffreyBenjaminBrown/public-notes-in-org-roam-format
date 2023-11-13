@@ -15,5 +15,12 @@ d1 $ superimpose
       $ s "<bd bass> hh sn:1 <<bleep <numbers:1 numbers:2>> hh>" |* slow 16 (speed "[1!3 0.8] [0.7 0.6]")
 #+END_SRC
 ** [[id:32c6eb9f-73f8-4ddf-bd20-66fb3b63d4a5][stereo beat with superimposed faster comb]]
-* BROKEN (but achievable*) : [[id:2449b5d4-3e7f-434c-ac4b-b033f3306bf9][layer : apply list of functions in parallel]]
+* [[id:2449b5d4-3e7f-434c-ac4b-b033f3306bf9][layer : apply list of functions in parallel]]
   * achievable by other means
+* `|x|`, `|x` and `x|`, for all x
+  On which side the bar lies determines which pattern divides time.
+  If it's on both sides, both patterns divide time.
+** The examples in the documentation are helpful.
+   https://tidalcycles.org/docs/patternlib/tutorials/pattern_structure
+** Two interesting operators: |> and <|
+   They take values from one side but metric divisions from the other.

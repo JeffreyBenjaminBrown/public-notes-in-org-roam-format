@@ -2,6 +2,7 @@
 :ID:       2449b5d4-3e7f-434c-ac4b-b033f3306bf9
 :END:
 #+title: layer : apply list of functions in parallel
+Resurrected by copying from OldUI.hs into JBB.hs.
 layer :: [a -> Pattern b] -> a -> Pattern b
 #+BEGIN_SRC haskell
   -- After defining these:

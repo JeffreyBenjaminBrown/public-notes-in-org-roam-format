@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       033d8efb-23b7-4097-9dc6-9bce38931c7f
+:END:
+#+title: randomness in TidalCycles
+* random continuous signals
+** [[id:2cdd3ed2-a2fc-4e66-b998-498808d8d2ac][irand : int -> random int from 0 to n-1 \\ Tidal]]
+** [[id:fea45c25-3c75-49f1-a9bd-a3815c5a487c][rand : random unit float \\ Tidal]]
+* random transformations
+** sometimes, often :: change -> pattern -> pattern
+** degradeBy x = drop event with probability x
+ #+BEGIN_SRC haskell
+   d1 $ degradeBy 0.3 $ sound "tink*16"
+ #+END_SRC
+** ? = degradeBy 0.5 in mini-notation

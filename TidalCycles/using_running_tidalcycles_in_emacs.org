@@ -38,11 +38,10 @@
 **** mark it as the receiving GHCI buffer
      M-x mark-rec TAB
 **** send these commands to it
-     cd /home/jeff/code/music/Tidal/tidal+epic # or wherever Tidal's root is
+     cd /home/jeff/code/music/Tidal/tidal+epic
+       # or whatever the root of the Tidal project is
      cabal repl
-     :s BootTidal.hs
-     :s jbb.ghci
-     setcps 1
+     :s BootTidal.hs -- I've modified this to import my own functions too
 **** open a buffer for Tidal code
      e.g.
        [[~/code/music/Tidal/tidal+epic/music/simple.hs]]

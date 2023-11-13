@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       4938e0cf-8c59-4482-a948-b599db82e16a
+:END:
+#+title: quantise n pat : rond values in pat to multiples of n
+quantise :: (Functor f, RealFrac b) => b -> f b -> f b
+Tell it what to round to multiples of.
+* demo
+#+BEGIN_SRC haskell
+  d1 $ s "supersaw*8" |* n (             tri * 5 + 2)
+
+  d1 $ s "supersaw*8" |* n (quantize 1 $ tri * 5 + 2)
+#+END_SRC
+* Why would quantizing `tri` to multiples of 1/10 give a constant waveform?
+#+BEGIN_SRC haskell
+  -- compare
+  d1 $ s "supersaw*12" |* n (                tri)
+  d1 $ s "supersaw*12" |* n (quantize (1/10) tri) -- problem
+#+END_SRC

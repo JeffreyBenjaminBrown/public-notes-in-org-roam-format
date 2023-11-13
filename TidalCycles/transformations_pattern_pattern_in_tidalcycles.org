@@ -2,32 +2,16 @@
 :ID:       ae8d6109-5878-4c2e-b2b7-a6aacb980687
 :END:
 #+title: transformations (Pattern -> Pattern) in TidalCycles
+* there are also some [[id:033d8efb-23b7-4097-9dc6-9bce38931c7f][random ones]]
 * BROKEN: [[id:60746819-124f-4157-9f0e-9649183f865a][flatpat :: pattern of lists -> pattern of simultaneous events]]
+* BROKEN : [[id:4938e0cf-8c59-4482-a948-b599db82e16a][quantise n pat : rond values in pat to multiples of n]]
+* [[id:312aa85f-b9a4-4fd4-bd11-aebfe91ad766][dividing patterns in Tidal]]
 * hurry is like fast, but with a speed transformation
 * iter n : start at different places
   divide into n, start k/n of the way through over n repetitions for increasing values of k
-* chunk n : apply function at different places
-  Like iter, Divides the cycle into n pieces, and applies the function to the kth piece, incrementing k by one each cycle.
 * palindrome p = p, then reverse p
   so twice as long as p
-* randomness
-** sometimes, often :: change -> pattern -> pattern
-** irand :: int -> random int from 0 to n-1
-#+BEGIN_SRC haskell
-  d1 $ s "[bd*2 sn:1, [arpy bleep ~]*3]"
-    |* speed (irand 4/4 + 1/6)
-    |* speed ( ( \n -> 2**(log n / log 2) )
-	       $ irand 16 )
-#+END_SRC
-** rand :: random unit float
-#+BEGIN_SRC haskell
-  d1 $ sound "hh*16" # gain (rand/2 + 0.4) # pan rand
-#+END_SRC
-** degradeBy x = drop event with probability x
-#+BEGIN_SRC haskell
-  d1 $ degradeBy 0.3 $ sound "tink*16"
-#+END_SRC
-** ? = degradeBy 0.5 in mini-notation
+** [[id:d0fe9253-4db6-4f8d-b218-d1d706ae9f87][conjugate a palindrome]]
 * granular effects
 ** chop n
 #+begin_src haskell

@@ -1,7 +1,9 @@
 :PROPERTIES:
 :ID:       77aa1564-6d21-4091-b961-95f66401dc0d
+:ROAM_ALIASES: "continuous signals | oscillators \\\\ TidalCycles"
 :END:
-#+title: oscillators \ TidalCycles
+#+title: oscillators | continuous signals \\ TidalCycles
 * usually range from 0 to 1 (always?)
 * have a period equal to the unit cycle, I think
-* there are two random ones : rand and irand
+* there are also some [[id:033d8efb-23b7-4097-9dc6-9bce38931c7f][random ones]]
+* BROKEN : [[id:4938e0cf-8c59-4482-a948-b599db82e16a][quantise n pat : rond values in pat to multiples of n]]

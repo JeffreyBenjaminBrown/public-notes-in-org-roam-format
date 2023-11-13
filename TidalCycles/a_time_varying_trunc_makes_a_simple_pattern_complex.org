@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       4fb2df22-e3ba-4087-a7be-0e275d4e8828
+:END:
+#+title: A time-varying `trunc` makes a simple pattern complex.
+#+BEGIN_SRC haskell
+  d1 $ s "supersquare"
+    |*| ( juxBy (1/2) ( -- without `early` both voices always coincide in time
+	    rev . early (1/2) . (|+ n 11))
+	  $ early (1/4)
+	  $ trunc (slow 4 $ tri / 2 + 1/2)
+	  $ n (run 16)
+	  |+ n (slow 4 $ tri * (-10) + 10)
+	  |* distort (early 2 $ slow 4 tri)
+	  |* pan (slow 4 tri) )
+#+END_SRC

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2cdd3ed2-a2fc-4e66-b998-498808d8d2ac
+:END:
+#+title: irand : int -> random int from 0 to n-1 \\ Tidal
+#+BEGIN_SRC haskell
+  d1 $ s "[bd*2 sn:1, [arpy bleep ~]*3]"
+    |* speed (irand 4/4 + 1/6)
+    |* speed ( ( \n -> 2**(log n / log 2) )
+	       $ irand 16 )
+#+END_SRC

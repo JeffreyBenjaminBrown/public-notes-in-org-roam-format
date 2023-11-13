@@ -12,23 +12,21 @@
 * [[id:83321a5f-ad1c-4c3c-b071-7923be95992d][building patterns from (usually) other things]]
 * [[id:c9b50405-11a9-46a2-93f2-d190eaf23389][mini-notation]]
 * [[id:77aa1564-6d21-4091-b961-95f66401dc0d][oscillators]]
+* [[id:033d8efb-23b7-4097-9dc6-9bce38931c7f][randomness in TidalCycles]]
 * [[id:5904aac5-da03-4eb2-b4b8-45a09dd3499d][voices, long samples and signal flow]]
 * [[id:556766b2-2b7e-4518-8930-11419a9847ce][joining patterns sequentially]]
 * [[id:562d6768-0321-4cfa-9a3a-4c581b3ed6a5][joining patterns concurrently]]
 * [[id:312aa85f-b9a4-4fd4-bd11-aebfe91ad766][dividing patterns in Tidal]]
-* [[id:ae8d6109-5878-4c2e-b2b7-a6aacb980687][transformations (Pattern -> Pattern)]]
+* [[id:ae8d6109-5878-4c2e-b2b7-a6aacb980687][transformations (Pattern -> Pattern)]], including randomness
+* transforming transformations
+** [[id:04925b74-8c67-4726-af4b-33f6a649d821][conjugate : change the length of the slice a transformation operates on]]
 * [[id:ec43fb48-eb6f-4942-bd3e-2aa7a8aa820c][synths]]
 * [[id:82eb4202-2da9-43b1-9f89-ab2d3d8fbbd1][effects]]
 * [[id:97077393-00b2-41d1-8fec-7763b936a0f8][non-cyclic time]]
 * some TidalCycles functions
-** quantise :: (Functor f, RealFrac b) => b -> f b -> f b
-   Tell it what to round to multiples of.
-#+BEGIN_SRC haskell
-  d1 $ s "supersaw*8" |* n (tri + 2)
-#+END_SRC
 ** TODO every, spread and generally the "conditions" functions are what I want to generalize.
 *** every
-**** ::
+**** its type
      Pattern Int
      -> (Pattern a -> Pattern a)
      -> Pattern a
@@ -51,30 +49,14 @@
      -> Pattern a
      -> Pattern a
 *** TODO within :: Arc -> (Pattern a -> Pattern a) -> Pattern a -> Pattern a
-** trunc and linger are cool
-   trunc takes a fraction in [0,1] and truncates the second argument that way.
-   linger does similarly but repeats the head rather than going silent.
 ** TODO step' is like a sequencer
    This uses 0 to indicate superpiano, 1 for supermandolin.
 #+BEGIN_SRC haskell
   d1 $ s (step ["superpiano","supermandolin"] "0 1 000 1")
        |* sustain 4 # n 0
 #+END_SRC
-** `|x|`, `|x` and `x|`, for all x
-   On which side the bar lies determines which pattern divides time.
-   If it's on both sides, both patterns divide time.
-*** The examples in the documentation are helpful.
-    https://tidalcycles.org/docs/patternlib/tutorials/pattern_structure
-*** Two interesting operators: |> and <|
-    They take values from one side but metric divisions from the other.
-** `panic` is like `hush` but stronger.
-   Even if samples get stuck, this works,
-   because it (very quickly!) resets the synths.
 ** `fix f` applies `f` when specified conditions are met.
    https://userbase.tidalcycles.org/fix
-** `cps` is a parameter, like `s` or `n` except global.
-   Try it with oscillators (e.g. `saw` below).
-   p "cpsfun" $ s "bd sd(3,8)" # cps (slow 8 $ 0.5 + saw)
 ** `timeloop` lets you periodically restart a cycle
    https://club.tidalcycles.org/t/restart-a-polymetric-sequence/3736
 * some effects I like

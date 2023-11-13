@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       d0fe9253-4db6-4f8d-b218-d1d706ae9f87
+:END:
+#+title: conjugate a palindrome
+#+BEGIN_SRC haskell
+  p =  s "[supersquare, bd sn:1 ~ hc]"
+    |*| n (run 6 * 2.5 - 10)
+    |+| n "[0, 7, 14.7 9.7 [17 17.5]*2]"
+
+  d1 $                                    p -- the pattern
+  d1 $               palindrome           p -- palindrome 1 cycle of it
+  d1 $ (slow 2 .     palindrome . fast 2) p -- palindrome 2 cycles of it
+  d1 $ conjugate 2   palindrome           p -- palindrome 2 cycles of it
+#+END_SRC

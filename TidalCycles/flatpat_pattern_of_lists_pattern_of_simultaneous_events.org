@@ -2,6 +2,7 @@
 :ID:       60746819-124f-4157-9f0e-9649183f865a
 :END:
 #+title: flatpat :: pattern of lists -> pattern of simultaneous events
+Resurrected by copying from OldUI.hs into JBB.hs.
 #+BEGIN_SRC haskell
   -- alternates between two major chords an octave apart
   d1 $ n ( flatpat
