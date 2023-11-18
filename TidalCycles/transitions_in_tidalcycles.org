@@ -2,3 +2,90 @@
 :ID:       fff2c33f-2cb1-4c8a-897e-478e8048894e
 :END:
 #+title: transitions in TidalCycles
+* PITFALL: Not available in recent branches
+** BROKEN in the 1.9-dev branch
+   The entire Sound.Tidal.Transitions module is disabled.
+   I tried restoring it and ran into dependency hell.
+** available in 1.8.2
+* xfade : crossfade over 4* beats from one pattern to another
+  *The 4 is specified in BootTidal.hs.
+#+BEGIN_SRC haskell
+d1 $ s "bd(3,8) drum*4"
+
+xfade 1 $ s "arpy*8" # n (run 8)
+#+END_SRC
+* xfadeIn : like xfade, but over a user-defined interval cycles
+** idea
+   `xfadeIn chan ncycles` : is like xfade, but over `ncycles` cycles
+** demo
+#+BEGIN_SRC haskell
+d1 $ s "bd(3,8) drum*4"
+
+xfadeIn 1 8 $ s "arpy*8" # n (run 8)
+#+END_SRC
+* BROKEN : [[id:fc33f73d-63c8-4a7c-85c5-46d8daa6d3b8][anticipateIn : new pattern in n cycles \\ TidalCycles]]
+* `jumpMod id div pat` : change id to pat at next multiple of div
+** demo
+#+BEGIN_SRC haskell
+d1 $ sound "[<bd hc>/2,hh*4]"
+jumpMod 1 8 $ sound "[bd,<hc hh>*8]"
+#+END_SRC
+* jumpMod' id div rem pat` : like jumpMod but when time = rem mod div
+** starting multiple timers at once, with different end times
+#+BEGIN_SRC haskell
+d1 $ sound $ stack
+  [ "[bd*2 bleep sn:1 hc*2]/4"
+  , "gabba/8"
+  , "[~ hh]*4" ]
+
+jumpMod' 1 8 0 $ sound "[bd,<hc hh>*8]"
+
+jumpMod' 1 8 7 $ sound "bd*4"
+
+do setcps 1
+   d1 $ (1/32) <~ ( s "numbers" |*| n (slow 8 $ run 8) )
+   d2 $ s "[gabba/8, bd, hh*4]"
+
+do jumpMod' 2 8 0 $ sound "[bd,<hc hh>*8]"
+   jumpMod' 2 8 7 $ sound "bd*4"
+#+END_SRC
+** PITFALL: Two jumpMod's interact strangely.
+* my jumpMod'' : stackable changes, as long as they are executed in order
+#+BEGIN_SRC haskell
+d1 $ (1/32) <~ ( s "numbers" |*| n (slow 8 $ run 8) )
+
+d2 $ sound $ stack
+  [ "[bd*2 bleep sn:1 hc*2]/4"
+  , "gabba/8"
+  , "[~ hh]*4" ]
+
+do
+   jumpMod'' 2 8 0 $ sound "[bd,<hc hh>*8]"
+   jumpMod'' 2 8 7 $ sound "bd*4"
+#+END_SRC
+* my `sched` and `schod`
+  #+BEGIN_SRC haskell
+  do setcps 1
+     d1 $ s "[bd,numbers]" |* n (slow 8 $ run 8)
+
+     sched 2 [ (2, s "[lt*5]"),
+	       (4, s "[ht*4]"),
+	       (6, s "[hc*3]") ]
+
+     schod 2 8 [ (2, s "[lt*5]"),
+		 (4, s "[ht*4]"),
+		 (6, s "[hc*3]"),
+		 (8, s "~ sn:1" ),
+		 (12, s "~ ~ sn:1" ),
+		 (16, silence) ]
+  #+END_SRC
+* `wait id dur pat` = go silent for dur cycles, then do pat
+#+BEGIN_SRC haskell
+d1 $ sound "[<bd hc>/2,hh*4]"
+
+wait 1 2 $ sound "[bd,<hc hh>*8]"
+#+END_SRC
+* `waitT` : like `wait` but takes a function specifying how to switch
+  can be xfadeIn, clutchIn,
+  supposedly anticipateIn (which is broken for me),
+  maybe others
