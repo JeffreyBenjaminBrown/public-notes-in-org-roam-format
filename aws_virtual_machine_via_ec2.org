@@ -16,7 +16,7 @@
 ** zip them first
    There's big per-file overhead.
 ** some help on SO
-  https://stackoverflow.com/questions/9427553/how-to-download-a-file-from-server-using-ssh/9427762#9427762
+   https://stackoverflow.com/questions/9427553/how-to-download-a-file-from-server-using-ssh/9427762#9427762
   or the comment above it.
 ** command to run
    For speed, maybe use the AWS EC2 CLI.

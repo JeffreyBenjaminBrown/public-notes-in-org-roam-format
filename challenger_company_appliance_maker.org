@@ -3,3 +3,8 @@
 :END:
 #+title: Challenger (company, appliance maker)
 * [[id:363e7958-e56c-477a-8201-262604033497][Challenger, our dishwasher by]]
+* numero radicado para cita <2023-11-16 Thu>
+  46 32 45
+  I had to postpone the cita until <2023-11-18 Sat>.
+  I don't know whether this numero applies to that new cita.
+  They didn't give me another.

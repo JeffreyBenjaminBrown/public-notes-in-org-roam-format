@@ -6,6 +6,8 @@
 * [[id:39b1baa1-4108-4aac-a8e0-ec662b531523][fetch all branches from all remotes \ git]]
 * [[id:92ad6660-1efc-4ba8-b1d1-edddc2b54455][anchor, to create one in Github-flavored markdown]]
 * [[id:635a2a66-13f6-40e3-a5f3-ead78eb1e7b9][diff modulo base]] (integrates with Git)
+* make diff without running through diff-so-fancy
+  git --no-pager diff
 * [[id:2a580607-a59b-408d-b27c-b6c4dd94a14b][git submodules]]: for nesting repositories
 * git add -p
   to cherry-pick the changes in a file to commit

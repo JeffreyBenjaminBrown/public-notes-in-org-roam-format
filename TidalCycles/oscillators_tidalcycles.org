@@ -4,6 +4,9 @@
 :END:
 #+title: oscillators | continuous signals \\ TidalCycles
 * usually range from 0 to 1 (always?)
+* tri, saw (rises), lsaw (falls)
 * have a period equal to the unit cycle, I think
 * there are also some [[id:033d8efb-23b7-4097-9dc6-9bce38931c7f][random ones]]
+* `smooth` makes a pattern continuous.
+  [[id:31e19218-78d1-4b67-a774-f25987f28d3e][an example from the forum]]
 * BROKEN : [[id:4938e0cf-8c59-4482-a948-b599db82e16a][quantise n pat : rond values in pat to multiples of n]]
