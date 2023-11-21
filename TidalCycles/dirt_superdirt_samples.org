@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "SuperDirt | Dirt // samples" "samples \\ SuperDirt | Dirt"
 :END:
 #+title: Dirt | SuperDirt // samples
+~/.local/share/SuperCollider/downloaded-quarks/Dirt-Samples/
 * samples I like
 ** everything I've put in folders starting j_*
 ** obsoleting with my fork (for better names)
