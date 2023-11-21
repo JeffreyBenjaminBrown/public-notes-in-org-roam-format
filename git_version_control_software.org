@@ -40,11 +40,14 @@
 ** git push origin --delete old-name
    where "origin" is the remote repo's local nickname
 * to *delete* a branch locally and remotely
-  remote=origin              # or something
-  branch=tricky-feature      # or something
-  git push   -d    $remote $branch
-  git branch -d            $branch
-  git remote prune $remote
+  # PITFALL: The `prune` step is necessary.
+  # See its comment for why.
+
+  remote=origin               # or something
+  branch=tricky-feature       # or something
+  git push $remote -d $branch # deletes $branch on the remote
+  git branch       -d $branch
+  git remote prune $remote    # drops $branch from local record of remote
 * rewriting the commit history
 ** [[id:2bf0e5bf-4104-45f3-8e1c-e90a36c4314f][git rebase]]
 ** squash the last N commits into a single commit
