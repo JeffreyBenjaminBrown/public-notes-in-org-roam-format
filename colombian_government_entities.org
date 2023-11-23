@@ -9,3 +9,4 @@
 * [[id:8b1bc2be-c656-46db-95b2-53b84dfc34db][Departamento Nacional de Planeacion]]
 * [[id:17967eac-b8a4-4022-bd11-6bd5a47a139e][Dirección de Impuestos y Aduanas Nacional (DIAN)]]
 * [[id:89a88c23-c867-4338-a9dc-c2351259f892][MinHacienda]] = Ministerio de Hacienda y Crédito Público = MHCP
+* [[id:347d1f71-5bb2-4bab-a70d-4bccf22c84e1][Procuraduría]]

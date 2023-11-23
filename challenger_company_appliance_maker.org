@@ -2,7 +2,9 @@
 :ID:       93f782fc-7eee-43d7-aa13-dba99959940c
 :END:
 #+title: Challenger (company, appliance maker)
-* [[id:363e7958-e56c-477a-8201-262604033497][Challenger, our dishwasher by]]
+(601) 425 6240
+* [[id:363e7958-e56c-477a-8201-262604033497][our dishwasher]]
+* [[id:3ee311e3-a84d-4284-828a-dc621f24e87b][water heater, gas, at Paulo VI condo]]
 * numero radicado para cita <2023-11-16 Thu>
   46 32 45
   I had to postpone the cita until <2023-11-18 Sat>.
