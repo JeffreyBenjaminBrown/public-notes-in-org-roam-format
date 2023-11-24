@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9aef6aa2-d59c-4ae7-b9ad-12ddeb32b6f3
+:ROAM_ALIASES: sed
+:END:
+#+title: sed (Bash command)
+* [[id:6ef17c81-f130-45c7-b84b-331d36c669e2][find-sed]]

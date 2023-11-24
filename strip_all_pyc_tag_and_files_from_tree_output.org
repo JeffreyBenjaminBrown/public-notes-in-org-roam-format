@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       54a6795f-1ac7-44f6-a7f9-f56b021364c2
+:ROAM_ALIASES: tree-grep
+:END:
+#+title: Strip all .pyc, TAG and __.*__ files from `tree` output.
+tree | grep -v -e "\.pyc\|__.*__\|TAG"

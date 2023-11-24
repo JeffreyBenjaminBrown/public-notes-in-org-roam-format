@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       26052d1f-2db0-4907-bdd7-703ffbf0c657
+:ROAM_ALIASES: "grep or" "or grep"
+:END:
+#+title: grep for within-line disjunction
+* seems easy now
+** the trick: escape the bar
+   use \|
+   as in "x\|y"
+** example : [[id:54a6795f-1ac7-44f6-a7f9-f56b021364c2][tree-grep for Python code]]
+   Strips all .pyc, TAG and __.*__ files from `tree` output.
+* earlier stuff I wrote
+** tricks, necessary and maybe otherwise
+*** necessary : grep -E
+*** dubious : single-quotes around the regex
+**** details
+     so that the | is not interpreted as a pipe.
+     Someone suggested that somewhere,
+     but in my test it appears not to be true --
+     I can put double-quotes aroudn it and it works perfectly.
+**** a test for whether it is necessary
+***** make a file containing this
+      a
+      b
+***** grep for this
+      grep -E "a|b" -r .
+** example
+   grep -r . -E 'saveStage|to_csv'

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       6ef17c81-f130-45c7-b84b-331d36c669e2
+:END:
+#+title: find-sed
+* find files and replace something in them
+  find .                                                \
+    \( -name "*.py" -o -name "*.md" -o -name "*.org" \) \
+    -print0 | xargs -0 sed -i                           \
+    "s/old_term/new_term/g"
+* find-sed without touching files that don't need modification
+  :PROPERTIES:
+  :ID:       082df322-50bc-4405-b1de-5145abac216f
+  :END:
+  # https://stackoverflow.com/questions/27071019/sed-i-touching-files-that-it-doesnt-change
+  for i in *; do
+    grep mytext $i && sed -i -e 's/mytext/replacement/g' $i;
+  done

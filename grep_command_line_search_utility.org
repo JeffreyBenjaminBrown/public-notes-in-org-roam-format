@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       ee83ddd1-aeaa-46e9-a6a7-d180ac16471f
+:ROAM_ALIASES: grep
 :END:
 #+title: grep (command line search utility)
 * grep excluding nonreadable file types
@@ -8,20 +9,5 @@
   all files containing both A and B, not necessarily on the same line
   Here A = "aws" and B = "iam"
   grep "aws" -r . -l | xargs grep "iam"
-* grep for within-line disjunction
-** tricks, necessary and maybe otherwise
-*** necessary : grep -E
-*** dubious : single-quotes around the regex
-**** details
-     so that the | is not interpreted as a pipe.
-     Someone suggested that somewhere,
-     but in my test it appears not to be true --
-     I can put double-quotes aroudn it and it works perfectly.
-**** a test for whether it is necessary
-***** make a file containing this
-      a
-      b
-***** grep for this
-      grep -E "a|b" -r .
-** example
-   grep -r . -E 'saveStage|to_csv'
+* [[id:26052d1f-2db0-4907-bdd7-703ffbf0c657][grep for within-line disjunction]] (grep or)
+* [[id:54a6795f-1ac7-44f6-a7f9-f56b021364c2][tree-grep]] : Strip some files from `tree` output.
