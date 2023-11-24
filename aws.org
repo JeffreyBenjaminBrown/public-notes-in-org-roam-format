@@ -3,6 +3,7 @@
 :ROAM_ALIASES: AWS
 :END:
 #+title: Amazon Web Services
+* TODO [[id:3b014afa-9eec-4c10-b8a4-bde25d6b9bb0][giving Daniel permissions in AWS]]
 * TODO [[id:98445945-ace4-4c90-bf91-19d32ef4aa5f][Github and AWS CLI slow on Claro Hogar]]
 * TODO refs | URLs
 ** some of my AWS notes
