@@ -3,6 +3,8 @@
 :ROAM_ALIASES: "nose dilation tubes"
 :END:
 #+title: nasal dilation tubes
+* PITFALL: defeats nasal hairs
+  which ought to be filtering the air
 * a product
   https://www.amazon.com/Zircon-Nose-Vents-Ease-Breathing/dp/B08227MQL4/ref=sr_1_5?crid=3QT9273A9MQXL&keywords=Nose+Vents&qid=1698880956&sprefix=nose+vents%2Caps%2C227&sr=8-5#customerReviews
 * The hacker news comment that gave me the idea

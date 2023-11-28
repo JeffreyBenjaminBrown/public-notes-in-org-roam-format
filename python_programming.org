@@ -30,10 +30,13 @@
 * the language
 ** comprehensions in Python
 *** [[id:0de92cee-f908-4393-9f87-4cfb675a3bec][local variable definitions in comprehensions \\ Python]]
+*** [[id:ea372c17-b199-485d-9406-50976b89f6e6][flatten a list using a comprehension in Python]]
 ** [[id:a6cb3f8e-a4af-4e9c-bb05-42f4f5a2f7f2][exceptions in Python]]
 ** [[id:b702aa8d-ec68-46c1-9f27-c695a96e1c2d][generics in Python]]
    tags abstract type variable
 ** [[id:5fe079b2-583f-45da-8e17-fc0879c4a8dc][introspection in Python]]
+** lists in Python
+*** [[id:ea372c17-b199-485d-9406-50976b89f6e6][flatten a list using a comprehension in Python]]
 ** [[id:5ae0535d-5f21-4a09-8485-0eda8eb4b73a][Python dictionaries ("dicts")]]
 *** [[id:88971f77-9463-446d-a07b-9ff1d0f601df][merging Python dictionaries]]
 ** [[id:f54893f9-b912-4a71-953d-4f1ed18d0618][closures in Python]]

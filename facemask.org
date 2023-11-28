@@ -3,6 +3,7 @@
 :ROAM_ALIASES: mask
 :END:
 #+title: facemask
+* [[id:ceebf508-0160-4f7f-a0a1-5643590bfccd][M3 2907 mask, filters for]]
 * really nice disposable N95 facemasks
   As of <2022-07-24 Sun> they cost 17 USD for 10.
   https://www.amazon.com/gp/product/B08YS6WJZ3/ref=ox_sc_act_title_4?smid=A438NCHVIW7NM&psc=1

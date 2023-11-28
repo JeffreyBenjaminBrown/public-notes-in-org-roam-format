@@ -3,4 +3,5 @@
 :END:
 #+title: underwear
 * When buying, ensure
-  they include an escape.
+** They include an escape.
+* TODO How to ensure they don't ride up?

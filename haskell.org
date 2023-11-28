@@ -117,3 +117,4 @@ make changes to a dependent component then quit and reload.
 ** [[id:3c92b639-c552-42d7-87e2-7fd1cf560f74][System.Random (Haskell library)]]
 ** [[id:2cef696d-5d06-4b95-b22f-94bf819e4f68][QuickCheck (Haskell library)]]
 * [[id:ff000aad-c6d6-4abd-83b4-5f216c85879b][Haskell programmers I know]]
+* [[id:4084526f-b399-4c7d-ada1-d99aa1aece16][why I like Haskell]]

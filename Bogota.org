@@ -19,3 +19,5 @@
 * plant sellers in Bogotá
 ** [[id:72c4a9ae-52ae-4a78-be4b-e496db9e036e][Santiago Oruela]]
 * [[id:47883263-5c97-4a23-b19e-d6f592c8ddb2][Bogotá air quality map]]
+* [[id:4a99d06c-a8f7-4104-beab-e9528c2dd25c][Moderatto Home : furniture]]
+  tag muebles

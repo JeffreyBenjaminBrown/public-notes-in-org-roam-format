@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       ea372c17-b199-485d-9406-50976b89f6e6
+:END:
+#+title: flatten a list using a comprehension in Python
+# PITFALL: Order of `for` clauses matters.
+[ item
+  for sublist in [[1,2],
+                  [3,4]]
+  for item in sublist ]

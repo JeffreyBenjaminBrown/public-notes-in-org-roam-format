@@ -10,6 +10,7 @@
 *** Optimized for live-coding => ugly syntax.
     or so it looks
 ** [[id:784007e7-b851-4988-beaa-b8e4a9657357][Haskell]]
+*** [[id:4084526f-b399-4c7d-ada1-d99aa1aece16][why I like Haskell]]
 ** [[id:3924c945-e600-453f-be00-b2fb24d65f17][Go (programming language)]]
 ** [[id:23f1e037-49c2-4fa1-acf6-a42b5703082a][Idris (programming language)]]
 ** Prolog

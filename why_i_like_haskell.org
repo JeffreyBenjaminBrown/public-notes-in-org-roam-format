@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       4084526f-b399-4c7d-ada1-d99aa1aece16
+:END:
+#+title: why I like Haskell
+* purity
+* strict typing
+* immutability
+* the REPL
+  not common in strict languages
+* algebraic data types
+  Sum types are fundamental.
+  It's bizarre that most languages only let you express product types.
+* principled generics
+* typeclasses, which permit avoiding OOP
+* Less syntactic noise.
+  Where Python would have you write "f(a,b)", Haskell just needs "f a b". Where Python wants "def f(x) = return x+1", Haskell just needs "f x = x + 1" -- or, even smaller, "f = (+ 1)". It looks like math. It's way easier to read. That might sound like a minor point, but if you want to do a lot of coding, minor efficiency gains add up to the ability to do things you would never try otherwise because it would take too much time. (This is, by the way, also why keyboard shortcuts are important.)
+* Laziness, which is magic.
+  Lazy languages only evaluate what they need. You can ask for computations that look like impossible monsters, and Haskell will respond faster than would seem physically possible. It's a little confusing at first but laziness, which ostensibly is just to save machine time, can actually save a ton of human time too, because you don't have to say "only evaluate this expression if it's necessary". You can just define the expression, and Haskell will only try to evaluate it if the name you gave it actually ends up being used.
+* friendly lambdas and higher-order programming
+  Lambda expressions and higher-order programming are much friendlier in Haskell. Compare:
+
+``` python
+def f (x,y,z ):
+  return 2x + 3y / z
+
+g = lambda z: f(1,2,z)
+```
+
+``` haskell
+f x y z = 2x + 3y / z
+
+g = \z -> f 1 2 z
+```
+
+Or equivalently and even easier to read:
+``` haskell
+f x y z = 2x + 3y / z
+
+g = f 1 2
+```

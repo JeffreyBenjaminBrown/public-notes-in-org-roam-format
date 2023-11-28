@@ -212,7 +212,7 @@
 *** On velocity change
 *** On keyboard action
 *** All selected notes that overlap with selected note
-* filtering
+* filtering in Reaper
   :PROPERTIES:
   :ID:       4f7ff877-344d-4e3a-b0db-ae401efe66b5
   :END:
