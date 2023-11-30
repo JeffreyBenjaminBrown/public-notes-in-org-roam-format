@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       bf8eaf41-f3ae-4f8c-88bf-9baaed457cc0
+:ROAM_ALIASES: "regular expressions in Emacs" "Emacs regex" "Emacs regular expressions"
+:END:
+#+title: regex in Emacs
+* escape these characters (among others) with one \
+  ( ) |
+* to align all ` as` and ` import` terms in a Python import block
+M-xalign-regex
+ \(as\|import\)
+# The leading space in the above line is important!

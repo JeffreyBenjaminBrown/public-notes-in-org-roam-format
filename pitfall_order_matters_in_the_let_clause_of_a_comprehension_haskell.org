@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       58d58f75-aeff-4cf4-a6cb-9a6401726aec
+:END:
+#+title: PITFALL : order matters in the let clause of a comprehension \\ Haskell
+* example
+ghci> [ z | y <- [[1,2],[3]], z <- y ]
+[1,2,3]
+ghci> [ z | z <- y, y <- [[1,2],[3]] ]
+
+<interactive>:3:12: error: Variable not in scope: y :: [a]
+ghci>

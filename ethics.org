@@ -2,5 +2,6 @@
 :ID:       721b9b4d-63cc-473f-8ccb-bfc8d22240d9
 :END:
 #+title: ethics
+* [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other selves]]
 * [[id:72411da2-cb37-4be4-9746-47758a336240][Be immediately fascinated by (lived) ethical challenges.]]
 * [[id:63c24655-435d-4eca-9724-cb620f2197ee][spirituality = ethics + aesthetics?]]

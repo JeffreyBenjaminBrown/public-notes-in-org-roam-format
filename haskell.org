@@ -42,6 +42,7 @@ loading multiple components as source. Load just one component and when you
 make changes to a dependent component then quit and reload.
 * [[id:cbd1f56f-efef-4302-b309-e21ca0c1b677][how to profile in Haskell]]
 * [[id:ffa6b210-d70c-4445-b0ed-87e3c6da00a7][To use a different version of GHC in Nix]]
+* [[id:aff56e74-c216-42e5-a92b-c6e3793a3d7d][list comprehensions in Haskell]]
 * debugging in Haskell
 ** [[id:ca586cff-5010-4624-8886-9d53915e5469][Debug.Trace.trace (Haskell library) is magic]]
 * testing in Haskell
@@ -92,9 +93,10 @@ make changes to a dependent component then quit and reload.
        pair :: [a]
        pair = [x, x]
    It seems reasonable because it looks like both functions are referring to the same type variable a. However, GHC is actually inserting an implicit forall in both functions. In other words, each function has its own type variable a.
+** [[id:58d58f75-aeff-4cf4-a6cb-9a6401726aec][order matters in the let clause of a comprehension]]
 * solutions
 ** [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][Haskell & outline-mode]]: fold Haddock-style headings
-** [[id:4b8fb6bb-54de-44bc-a9e4-47c39721b371][list comprehensions when I want to bind a variable number of variables]]
+** [[id:4b8fb6bb-54de-44bc-a9e4-47c39721b371][list comprehensions to bind a variable number of variables]]
 ** for space leaks
    [[id:a2c7b53c-4728-407a-8f2e-35d4e0a20138][Making Invalid Laziness Unrepresentable (article)]]
 ** converting to Floating types

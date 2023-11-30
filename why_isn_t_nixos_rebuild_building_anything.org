@@ -2,6 +2,10 @@
 :ID:       e117abe5-bc24-46ae-8c6e-cb33a9127df5
 :END:
 #+title: SOLVED: Why isn't nixos-rebuild building anything.
+* solution: update my nix channels
+  sudo nix-channel --update nixos
+    (because "nixos" is the name of the only channel listed
+    when I run `sudo nix-channel --list`)
 * ref : my question on the NixOS Discourse site
   https://discourse.nixos.org/t/nixos-rebuild-not-rebuilding-i-think-no-changes-in-weeks/34056
 * evidence for it
@@ -47,7 +51,3 @@
     No changes.
 
 [jeff@jbb-hp17:~/org-roam-search]$
-* solution: update my nix channels
-  sudo nix-channel --update nixos
-    (because "nixos" is the name of the only channel listed
-    when I run `sudo nix-channel --list`)

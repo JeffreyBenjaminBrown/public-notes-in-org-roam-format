@@ -2,6 +2,7 @@
 :ID:       f7aafc6b-122b-439b-87f6-b6d8abc6835c
 :END:
 #+title: Internal Family Systems (psychology)
+* [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other selves]]
 * some resources
 ** [[id:650e028b-8662-472f-a81a-437592442862][Internal Family Systems (Ed 2), book]]
    by Richard Schwartz and Martha Sweezy

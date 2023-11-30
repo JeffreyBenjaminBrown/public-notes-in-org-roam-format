@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       aff56e74-c216-42e5-a92b-c6e3793a3d7d
+:END:
+#+title: list comprehensions \ Haskell
+* [[id:58d58f75-aeff-4cf4-a6cb-9a6401726aec][PITFALL : order matters in the let clause of a comprehension \\ Haskell]]
+* [[id:4b8fb6bb-54de-44bc-a9e4-47c39721b371][list comprehensions to bind a variable number of variables]]

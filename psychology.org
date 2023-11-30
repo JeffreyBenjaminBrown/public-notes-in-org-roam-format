@@ -12,4 +12,6 @@
 * [[id:40b049b7-ef2a-4eab-a9f8-07ee5841aa86][habit]]
 * [[id:1dc593e8-0313-4dfd-bc5d-cd7e53f9bfba][high performance (human)]]
 * [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
+* [[id:f7aafc6b-122b-439b-87f6-b6d8abc6835c][Internal Family Systems (psychology)]]
+** [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other selves]]
 * [[id:b268c502-2ebd-4d76-9025-0a4e2806e1d8][Emotions can be decomposed into sensations.]]

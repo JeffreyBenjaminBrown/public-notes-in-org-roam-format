@@ -3,8 +3,6 @@
 :ROAM_ALIASES: NixOS
 :END:
 #+TITLE: NixOS (operating system)
-* nixos-rebuild --keep-failed / -K
-  to avoid re-downloading data the next time I try to rebuild
 * What to do [[id:e117abe5-bc24-46ae-8c6e-cb33a9127df5][if nixos-rebuild isn't building anything]].
 * TODO if Musnix breaks, 2023-08-08 Tue
   it was working when I was building NixOS using Musnix commit

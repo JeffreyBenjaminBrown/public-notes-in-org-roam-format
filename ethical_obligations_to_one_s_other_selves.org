@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       cdf70c35-7f43-46f7-a2d1-2e90d67be278
+:END:
+#+title: ethical obligations to one's other selves
+* source
+  Jeff Sebo, 80,000 Hours podcast episode 177, 2023-11-24-ish
+* quote
+  "my work self and my family self ... the mere fact that they disagree sometimes ... is enough for them to have responsibilities. I should not simply impose my will on my other selves; I should ask what is a fair compromise between us."
+  (imperfect transcript)

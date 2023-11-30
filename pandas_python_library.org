@@ -6,6 +6,7 @@
 * TODO schemas in Pandas
 ** TODO The `pandera` library implements schemas for Pandas data frames.
 * PITFALL: [[id:5f093513-f49c-4536-ae3c-ab25ee2d4a20][Pandas sometimes rounds floats' displayed values, for no reason.]]
+* PITFALL: Regular expression search is not per cell, but per newline-separated string within cell.
 * functions
 ** [[id:78ce741f-4f43-4afb-a360-3a9a7aece724][read_excel]]
 ** [[id:5c96fcdb-8f4b-4441-9452-9f00956776a3][read_csv]]
