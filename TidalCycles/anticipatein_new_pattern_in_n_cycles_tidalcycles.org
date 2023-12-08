@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       fc33f73d-63c8-4a7c-85c5-46d8daa6d3b8
+:END:
+#+title: anticipateIn : new pattern in n cycles \\ TidalCycles
+Works from silence, but if that ID (voice) is already playing something,
+it causes chaos until the new pattern starts.
+#+BEGIN_SRC haskell
+do d1 $ s "bd sn:1"
+   anticipateIn 1 7 $ "bd*4"
+   anticipateIn 1 8 $ "hc(3,8) <lt ht>(3,8)"
+#+END_SRC

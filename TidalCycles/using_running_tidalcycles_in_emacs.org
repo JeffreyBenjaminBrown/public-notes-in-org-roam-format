@@ -43,8 +43,10 @@
      cabal repl
      :s BootTidal.hs -- I've modified this to import my own functions too
 **** open a buffer for Tidal code
-     e.g.
+     e.g. a Haskell file like
        [[~/code/music/Tidal/tidal+epic/music/simple.hs]]
+     or an org file like
+       [[id:ce191e47-8caa-42a7-bc48-67f31e2df2d0][song attempt 1 \ Tidal]]
 *** how to send text from a text buffer to GHCI
     Highlight text in any buffer (it doesn't have to end in .tidal)
     and send it to the shell buffer by running
@@ -54,6 +56,6 @@
     This will work, at least, from a file ending in .tidal.
 *** evaluate a line: C-RET
 *** evaluate multiple lines: C-c C-e
-* Use [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][outline-mode]]!
+* [[id:1f80a0d2-fa15-4825-9234-33ec91bb9f8f][organize code (in a file) hierarchically]]
 * to exit (gracefully)
   Close SCIDE before closing QjackCtl.

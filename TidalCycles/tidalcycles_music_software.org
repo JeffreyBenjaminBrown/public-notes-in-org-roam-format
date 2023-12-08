@@ -14,16 +14,14 @@
    like TidalCycles, ported to PureScript
 ** [[id:3987c7c6-e49e-4751-9efb-599e9cd34467][Yaxu's ongoing remake of Tidal]]
 * big ideas
-** What sounds good.
-*** Waves of differing durations in a steady hat pulse.
-    s "hc*8" |*| slow 2 (amp "1 0.3")
-             |*| slow 4 (speed "1 1.3 1.5") ]
+** [[id:149f2bb5-0314-478d-9016-015c32da83ae][what sounds good in TidalCycles]]
 ** Simple is fun.
    is making stuff using the simple tools,
    not making more complex tools.
 ** [[id:5e40393b-a042-41d2-ba79-41ab70fc9ba6][concepts for Tidal, some high-level musical]]
 * [[id:17401bd2-d61a-4a66-87cd-5be12b8d10e6][TODO]]
 ** [[id:df2e01d2-1362-48fa-9f09-8d7d70cf31ec][questions about the TidalCycles language]]
+* [[id:e6bc4d0e-18ff-4e3d-b569-26e4b5ebbb2d][versions and branches of TidalCycles]]
 * [[id:27cfbaef-57a6-403a-9e28-b507810cf64c][PITFALLS \ TidalCycles]]
 * [[id:c9f7ac4f-5f54-4312-b35e-42e9876f034c][code, the \\ TidalCycles]]
 * [[id:0ea59083-d5af-42cf-aea8-127c1cf3d7a2][running it]] (but not how it works, syntax, etc.)

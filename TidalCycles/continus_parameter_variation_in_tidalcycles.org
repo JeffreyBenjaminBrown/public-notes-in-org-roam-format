@@ -16,6 +16,9 @@
    helps to fix the gaps between notes using "accelerate".
 ** https://club.tidalcycles.org/t/acid-bass-line-or-bass-lines-general
 *** for me to process
+    :PROPERTIES:
+    :ID:       31e19218-78d1-4b67-a774-f25987f28d3e
+    :END:
     "Control buses" let me slide notes, according to @polymoprhic.engine:
 
     d1 $ s "theremin" # freqbus 0 (segment 128 $ smooth "200 200 300 300")

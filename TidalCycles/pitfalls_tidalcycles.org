@@ -7,3 +7,6 @@
 * `reverse` is for lists, `rev` is for signals.
 * [[id:2b81a68f-cfa5-45fc-b61e-3db738463018][Preassigned voices also have voice names.]]
 * [[id:7857c6a5-5778-4b99-af56-8eee6261ed3e][Don't bring "structure" from an LFO (e.g. `saw`).]]
+* numeric types in patterns
+  A pattern with type Fractional a => Pattern a
+  can be used both as floating point numbers or (rational) time values.

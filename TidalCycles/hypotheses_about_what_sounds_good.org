@@ -1,4 +1,21 @@
 :PROPERTIES:
 :ID:       149f2bb5-0314-478d-9016-015c32da83ae
 :END:
-#+title: hypotheses about what sounds good \ TidalCycles
+#+title: what sounds good in TidalCycles
+* Waves of differing durations in a steady hat pulse.
+  s "hc*8" |*| slow 2 (amp "1 0.3")
+           |*| slow 4 (speed "1 1.3 1.5") ]
+* A super wrong-pitched bass drone under something familiar
+  e.g. 10.4\12 under a i-IV
+* TODO hypotheses to test
+** collect changes
+*** determine "I want it to sound more (complex, energetic, punchy, moody) and then make a *lot* of changes to that effect before executing any
+** overwrite timbres
+*** code example
+    const "supersquare" <$> "bd sn"
+*** elaboration
+    Keep one or two main rhythms, the bd-sn and hh patterns.
+    Use them in many voices by overwriting the sample.
+** define some shared modulation curves as patterns
+   The duration (via slow) of each should be defined.
+   Use these "global" modulation curve to coordinate changes different voices.

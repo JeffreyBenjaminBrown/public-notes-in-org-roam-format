@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       e6bc4d0e-18ff-4e3d-b569-26e4b5ebbb2d
+:END:
+#+title: versions and branches of TidalCycles
+  These notes were taken around <2023-11-24 Fri>.
+* useful Bash snippet
+  git log | grep 1.8.1 -C 5
+* each time I have to cherry-pick my changes from jbb-polite
+  git cherry-pick 476d3effe5725b11ec045594c768d6ba90d2a861
+* I'm trying 1.8.2
+  1.8.2 = 860a480adbf9073b3fbeb686293ffef14f98a719
+  git checkout 860a480adbf9073b3fbeb686293ffef14f98a719
+  git branch 1.8.2-jbb-polite
+* I could not get 1.7.10 to work.
+** how it failed
+   Even after disabling a lot of stuff (tests, benchmarks, git repository) in `tidal.cabal` it still said that, `cabal` complains:
+     After searching the rest of the dependency tree exhaustively, these were the goals I've had most trouble fulfilling: template-haskell, pretty, text, tidal-parse
+** why and how I tried it
+   I'm trying 1.7.10, which,
+   if I'm reading the git log correct, is commit
+     c1c16cde0c83a2b9afeaaed05a8a0d64d9a7dd6b
+   @mvdirty recommnded 1.9-dev,
+   but Tidal.Transitions doesn't work in that one.
+   That's because the changelog
+     https://hackage.haskell.org/package/tidal-1.9.4/changelog
+   mentions transitions in 1.7.10.
+   After 1.7.10 comes 1.8.0,
+   which makes me suspect 1.7.10 is stabler.

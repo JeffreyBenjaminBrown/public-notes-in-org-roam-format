@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1f80a0d2-fa15-4825-9234-33ec91bb9f8f
+:END:
+#+title: organizing Tidal code hierarchically (within a file)
+Currently I prefer org-mode.
+* org-mode, [[id:debbace4-173e-4dd7-99ac-a7a806905640][yasnippet + hide-lines, my hack for Emacs & TidalCycles]]
+* [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][outline-mode]] seems handy but [[id:f67b3ffb-c806-4279-bc8a-f0b35291bf42][it's giving me trouble]].

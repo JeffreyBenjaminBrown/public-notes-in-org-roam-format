@@ -7,6 +7,10 @@ missing or broken (as of <2023-11-11 Sat>)
   Not everything missing is there,
   but I'm copying some of what is into Sound.Tidal.JBB.
 * the list
+** BROKEN : [[id:fc33f73d-63c8-4a7c-85c5-46d8daa6d3b8][anticipateIn : new pattern in n cycles \\ TidalCycles]]
+** OBSOLETE? : [[id:fff2c33f-2cb1-4c8a-897e-478e8048894e][transitions]]
+   The entire module is disabled in 1.9-dev.
+   At least some of it (xfade, xfadeIn) works in 1.8.2.
 ** BROKEN : [[id:420068e3-f8a8-4d10-9e1b-9cc7b22b0056][scan = a series of `run`s, first of length 1]]
 ** BROKEN : (+) supposedly is the operator for `append`
  But not, at least, in the 1.9-dev branch.
