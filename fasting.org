@@ -4,6 +4,8 @@
 #+title: fasting
 * [[id:c5555290-51eb-41d3-b3a5-58660af7c2c0][benefits of prolonged (48-72 hr) fasting : video by Dr. Eric Berg]]
 * tricks
+** use green tea when fasting
+   Contains polyphenols, which may promote autophagy.
 ** electrolytes
    Salt is easiest, others are better.
    Make sure it has no calories.
