@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       89aaea56-ab67-44cd-bcdf-90adaa5a4da2
+:END:
+#+title: Nita Farahany says scary neurotech is here, and more is around the corner.
+* ref : full transcript
+  https://80000hours.org/podcast/episodes/nita-farahany-neurotechnology/?utm_campaign=podcast__nita-farahany&utm_source=80000+Hours+Podcast&utm_medium=podcast
+* some good quotes
+  The titles of these passages are not quotes.
+** We can to an extent already do mind reading.
+The researchers had people listen to stories — podcasts, actually; not this one, but other podcasts — and then they had them imagine stories. And they trained their classifier — which is like: here’s the brain image data, and here’s what the person was listening to — and then they took just brain image data and said, “Translate what this person is listening to or what they’re imagining.” And at a really high rate of accuracy — like 80%-plus — were able to decode whole paragraphs of what a person was imagining or thinking.
+** Neuralink offers orders of magnitude more bandwidth than what was used for that.
+Nita Farahany: We’ve talked a little bit about how noisy EEG signal is. If you’re wearing a brain sensor in an everyday device, it has to go from deep within your brain all the way through your skull, and get to the surface — where it’s interacting with muscle twitches and eye blinks and a bunch of other what we call “noise.” If you have electrodes deep inside the brain, you can pick up signals at much greater resolution without all of that noise. So for somebody whose primary way of communicating is getting signal from their brain to their computer, you want the highest resolution that’s possible.
+** Sharing even coarse emotional data is dangerous.
+The kind of scenario that I painted in the book for that was to imagine this: You’ve got your employee who’s wearing these earbuds to take their conference calls and do everything else, right? And there’s asymmetry in information — that is, the employer can see what the person’s brain is doing at any given time, but of course, the employee can’t see what the employer’s brain is doing at any given time.
+
+So the employer calls the employee up and says, “Hey, I wanted to let you know that you did great last quarter, and so you’re going to get a raise. I’m delighted to let you know that you’re going to get a 2% raise in salary.” And the employee’s brain data shows that they are just thrilled. Like, they’re just so happy: “Hooray, I’m getting a 2% raise!” But they know better than to say, “Hooray!” — they know that would give away their negotiating position right away — so they say, “Thanks so much. I was actually hoping for a bigger raise. I was really hoping for 10%.” And while that’s happening, they’re afraid, right? And you register that in the brainwave activity. And the employer says, “I’m going to think about it and I’ll get back to you.”
+
+And then they go and they look at the brain data and they see the person was overjoyed when they got the 2%, and they’re super fearful when they offer the 10%. They have this additional asymmetry of knowledge, which really frustrates freedom of contract. It turns out the employer can easily handle the 10% — they’ve got the funds: their revenue really went up last quarter, they could have easily done it — but they have this information. They come back the next day and they say, “So sorry, we can only afford 2%.” And the person feels relieved, but still content, and the employer walks away having gained a significant advantage from what the brain data revealed.
+** Truckers and others already have their brains monitored.
+   ... company called SmartCap that for more than a decade has been selling an EEG headset — electroencephalography headset — that has basically a headband that can be put into a hard hat or a baseball cap or anything kind of wearable on the head that tracks fatigue levels of employees. This is by looking at their brainwaves, scoring them on a scale of 1 to 5, from like hyper-alert to asleep, and then giving real-time tracking that can be tracked by both the employee but also their manager about what their brain metrics show about whether they’re asleep at the wheel or not.
+
+And this has been used in long-haul trucking and in mining and aviation, and there’s more than 5,000 companies worldwide that have already used SmartCap technologies. That alone, I think, surprises a lot of people: this is already something that’s been around for a decade, right?
+** Some coutnries already use brain monitoring in interrogation.
+With brain data, it’s a little bit different for the context in the UAE, which is that it’s been used as a tool of interrogation. So instead of passive creation of data, a person’s hauled into law enforcement, into the police station, and then they are required to put on a headset, like an EEG headset. Again, these headsets can be like earbuds or headphones, but just imagine a cap that has dry electrodes that are picking up people’s brainwave activities.
+
+Then they’re shown a series of images or read a series of prompts, and the law enforcement are looking for what are called evoked response potentials; they’re looking for automatic reactions in the brain. And here what they’re looking for is recognition — you know, you say a terrorist name that the person shouldn’t know, there’s no context in which they should know it, and they recognise it; their brain shows recognition memory. Or you show them crime scene details and their brain shows recognition memory.
+
+And in the UAE, it’s been used apparently to obtain murder convictions by doing this. Similar technology has been used for years in India.
+** Neural disruption healed at least one person's crippling depression. Other signals could be disrupted.
+There was a patient who was suffering from really severe depression — to the point where she described herself as being terminally ill — and every different kind of treatment had failed for her. Finally, she agreed with her physicians to have electrodes implanted into her brain, and those electrodes were able to trace the specific neuronal firing patterns in her brain when she was experiencing the most severe symptoms of depression. And then were able to, after tracing those, every time that you would have activation of those signals, basically interrupt those signals. So think of it like a pacemaker but for the brain: when a signal goes wrong, it would override it and put that new signal in. And that meant that she now actually has a typical range of emotions, she has been able to overcome depression, she now lives a life worth living.
+
+That’s a great story. But that means we’re down to the point where you could trace specific neuronal firing patterns, and then interrupt and disrupt those patterns. Can we do the same for other kinds of thoughts?"
+** Neurotech firms' cybersecurity sucks balls.
+   [That's not a verbatim quote.]

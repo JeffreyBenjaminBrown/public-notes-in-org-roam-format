@@ -1,0 +1,66 @@
+:PROPERTIES:
+:ID:       a33c81c2-de86-48fd-9341-8baf1ae22033
+:END:
+#+title: uneven rotations in time \ music
+* ref : posted to Tidal discourse
+  https://club.tidalcycles.org/t/generalizing-swing-and-rotating-uneven-rhythms-by-mapping-integers-from-a-latent-space-to-ordinary-time/4991
+* `rot` in Tidal does something like this!
+  For a first (coarsest) grid,
+  operating on ordinary patterns.
+  It's expensive.
+  https://club.tidalcycles.org/t/generalizing-swing-and-rotating-uneven-rhythms-by-mapping-integers-from-a-latent-space-to-time/4991/2
+* the idea
+  Given a subset S of moments in the cycle C,
+  and a mapping M from the event set E into S,
+  a rotation is another mapping from E into S
+  preserving the order of events in M.
+
+  Note that if S is equally spaced in C,
+  then this is no different from ordinary rotation
+  (i.e. the time-series lag and lead operations).
+* example
+  Consider a Euclidean (3,8) rhythm
+  with a kick on the first of those three beats,
+  then two snares.
+  I'd like to be able to rotate those events
+  *aonly among those* three beats -- something like
+    rotate ( bd ~ ~ sn ~ ~ sn ~ )
+           = sn ~ ~ bd ~ ~ sn ~
+* uneven nested-dimensional grid pseudocode
+** tattoos
+*** definition
+    Tattoos are kind of like meters --
+    they say when something might happen,
+    but don't actually map events to those potential times.
+*** one-dimensional integer tattoo
+    Given a metric division (dur :: Int)
+    and a series of values (vs :: [Int]),
+    return a monotonic function (f :: Int -> Int)
+    such that
+      * the domain of f is the set { v + k*dur | k :: int, v in vs }
+      * f 0 = head $ repeat vs
+      * f k = the element of vs' after (f $ k+1), where
+	vs' = vs ++ map (+dur) vs'
+	(This is an inefficient, if elegant, way to implement of vs'.)
+*** one-dimensional real tattoo
+    Like the integer tattoo,
+    most things are still ints,
+    but `dur` is a float (the cycle duration),
+    and `vs` is a list of floats in [0,dur).
+*** two-dimensional real tattoo
+    Suppose
+    dur :: Float
+    v0s :: [ Float ], ordered ascending, in [0,dur)
+    v1s :: [ [ Float ] ],
+      same length as v0s,
+      with the values in the ith list in [v0s !! i, v0s !! i+1).
+    We need to then define a function
+      f :: (Int, Int) -> Float
+      such that f (a,b) is (v0s !! a) + (v1s !! b),
+      but that works even if a > length  v0s
+                          or b > length (v1s !! a)
+* problems
+** performance might be terrible
+** what if I don't want any positions between (k,0) and (k+1,0) for some a?
+* advantages
+** Since the uneven target space (time) is indexed by an even space, rotation through it is (nearly?) as easy as addition in the indexing space.
