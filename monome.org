@@ -4,6 +4,11 @@
 #+title: monome
 * the monome serialosc protocol
   https://monome.org/docs/serialosc/osc/
+* to configure the monome using serialosc
+  Some of how to do this is documented in Montevideo:
+    git@github.com:JeffreyBenjaminBrown/montevideo
+  in this file:
+    Montevideo/Monome/README.md
 * (dis)assembly
 ** PITFALL: Don't make the screws too tight
 A very slight dimpling of the board appears to be okay.
