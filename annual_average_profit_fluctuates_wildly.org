@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       4424e774-84d5-4373-9313-d03ab89b03fd
+:END:
+#+title: Annual average profit fluctuates wildly.
+It's high now, as it was immediately post-WWII -- like 15%. The rest of the time it wandered between 5% and 10%.
