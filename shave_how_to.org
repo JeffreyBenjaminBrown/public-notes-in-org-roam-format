@@ -2,19 +2,31 @@
 :ID:       baaa2807-3778-4099-be02-440a47865eb4
 :END:
 #+title: shave, how to
-serial
-* exfoliate
-  at least if not using badger hair
-* get skin hot
-  I got mixed signals about this -- maybe first get it hot but then cool it down a little, so it's soft but not too soft.
-* use a pre-shave oil
-* apply shave cream
-  :PROPERTIES:
-  :ID:       34d44367-542f-4f94-a0ca-a60b3d46290d
-  :END:
-  (after pre-shave oil) with a wet [[id:8f4026da-4429-4120-9b87-004eb8cc79cc][shaving brush]].
-  This exfoliates.
-* three passes
-  with grain, across grain, against grain
-* Aftershave is to close pores and moisturize.
-  "Feels good".
+* These three tricks seem sufficient.
+  Possibly not all necessary,
+  but when I did them all <2023-12-13 Wed>
+  I didn't get razor burn.
+** First shave with the machine.
+** Keep the razor hot.
+** Reapply shaving cream to a given area after each stroke.
+   A single stroke of the razor requires
+   re-applying shaving cream to that area.
+   Can do multiple strokes before reapplying,
+   but each must be on a different spot.
+* complex notes I took from online
+  serial
+** exfoliate
+   at least if not using badger hair
+** get skin hot
+   I got mixed signals about this -- maybe first get it hot but then cool it down a little, so it's soft but not too soft.
+** use a pre-shave oil
+** apply shave cream
+   :PROPERTIES:
+   :ID:       34d44367-542f-4f94-a0ca-a60b3d46290d
+   :END:
+   (after pre-shave oil) with a wet [[id:8f4026da-4429-4120-9b87-004eb8cc79cc][shaving brush]].
+   This exfoliates.
+** three passes
+   with grain, across grain, against grain
+** Aftershave is to close pores and moisturize.
+   "Feels good".

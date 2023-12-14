@@ -4,6 +4,8 @@
 :END:
 #+title: pdb, the Python debugger
 https://docs.python.org/3/library/pdb.html
+* SOLUTION: for mutli-line input
+  from IPython import embed; embed()
 * set a breakpoint with pdb.set_trace()
 * commands within pdb
 ** execution
