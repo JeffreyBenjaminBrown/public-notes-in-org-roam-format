@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       2b49db8e-8279-42ae-a23c-e3ca35addc39
+:END:
+#+title: Salespeople suck. They *have to* suck.
+* This includes people signing me up for a service,
+  even if they didn't reach out to me.
+* Their incentives are
+  to overpromise, to downplay risks,
+  to dismiss my concerns and
+  reassure me without evidence that I don't have to worry,
+  and to sound like they care about me
+  until the contract is signed.
+* A list of times this has happened.
+** When Daniel at Claro signed me up for fiber optic internet.
+   He assured me Thursday I could have it installed by Saturday,
+   or Monday at the latest. I told him I flew out Thursday.
+   It's Wednesday and they still haven't done it.

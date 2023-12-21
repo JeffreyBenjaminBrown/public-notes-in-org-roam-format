@@ -19,6 +19,7 @@
   but they show different results in those two contexts.
 * [[id:198e7eea-412b-4c3f-80d3-e3dfa1793d27][pitfalls when Ripple Editing]]
 * [[id:25e7f29e-280a-4a80-b0e5-6d28e9ac0cb0][dangerous shortcuts]]
+* [[id:4c1bef5c-e2be-4964-ac55-1c477f956a85][`R` toggles repeat, which is dangerous during recording.]]
 * Propogating Items means propogating an item's *properties* to other items.
   :PROPERTIES:
   :ID:       21bbb484-4a5a-476f-9130-3714cb9342cf

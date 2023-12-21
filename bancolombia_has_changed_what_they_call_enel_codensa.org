@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       1a271abf-d748-415d-9fa6-968bdbbebeea
+:END:
+#+title: Bancolombia has changed what they call Enel-Codensa.
+Now <2023-12-18 Mon> they are called "ENEL COLOMBIA SA ESP".
+They used to be called "A Toda Hora SA".

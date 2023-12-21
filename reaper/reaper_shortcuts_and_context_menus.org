@@ -10,7 +10,10 @@
   :PROPERTIES:
   :ID:       25e7f29e-280a-4a80-b0e5-6d28e9ac0cb0
   :END:
-** R = toggle repeat
+** `R` toggles repeat, which is dangerous during recording.
+   :PROPERTIES:
+   :ID:       4c1bef5c-e2be-4964-ac55-1c477f956a85
+   :END:
    This (might have other effects too, but it can)
    will cause playback to return to the start when "the end" is reached,
    and "the end" can appear surprisingly random --

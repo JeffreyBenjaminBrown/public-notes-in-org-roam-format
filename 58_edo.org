@@ -19,13 +19,7 @@
    -- -- -- -- -- -- -- --
    -- -- -- -- -- 15 -- --
 * [[id:ebd9c05f-dd33-4881-8de3-de6c5635f1d1][58-edo guitar strategy: 15\58 x {2\58 and 4\58}]]
-* u
-** There's a diminished chord that's 13:8 wide in root position.
-   0 11 24 35
-** 7:4 + 5:4 = 13:8 + 4:3
-   i.e.
-   40  + 16  = 35   + 21
-** 3 x 7:6 = 11:8 + 4:3
+* [[id:ee622f95-a99f-4a4b-bb5d-18d48c16b15b][58-edo scales, chords and harmonies]]
 * Almost every interval is within 5 cents of a 15-limit ratio.
   The only exceptions are intervals less than 100 cents and intervals between 300 and 400 cents (or the octave-inverse of those conditions).
 
