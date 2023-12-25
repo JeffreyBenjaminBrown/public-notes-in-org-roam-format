@@ -2,7 +2,7 @@
 :ID:       ee622f95-a99f-4a4b-bb5d-18d48c16b15b
 :END:
 #+title: 58-edo scales, chords and harmonies
-* Two-octave 11-tone whole-tone scale.
+* Two-octave 11-tone whole-tone scale
   Alternate 10\58 and 11\58.
   Repeats every 2 octaves.
   11 tones total.
