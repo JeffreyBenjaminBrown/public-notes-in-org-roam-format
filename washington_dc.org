@@ -3,3 +3,7 @@
 :END:
 #+title: Washington, DC
 * [[id:68e19077-0777-4544-8cba-68738227e560][people I know in Washington, DC]]
+* airports serving Washington, DC
+** [[id:a6aa05cd-c251-45da-8643-b3049a0ea0de][Dulles International Airport]] : IAD, past Reston
+** [[id:66cddc0f-3dfc-4ed9-874b-6002f4adc0cf][Reagan International Airport]] : DCA, between Arlington and Alexandria
+** [[id:2d364c67-f292-4eed-8a06-947ad9bac507][Baltimore/Washington International Thurgood Marshall Airport]] : BWI
