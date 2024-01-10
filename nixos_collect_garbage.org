@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       83b141c3-2ab2-41de-ac02-e1a0e995f574
-:ROAM_ALIASES: "delete NixOS configurations" "NixOS / delete configs"
+:ROAM_ALIASES: "delete NixOS configurations" "NixOS / delete configs" "NixOS / garbage collection"
 :END:
 #+title: garbage collection in NixOS
 * how to collect garbage in NixOS
