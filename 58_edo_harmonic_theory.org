@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       221b6ad3-092d-4674-802c-18458c49ad9b
+:END:
+#+title: 58-edo harmonic theory
+* [[id:7c52046e-129f-4b0a-adc7-1d69ddd18232][58-edo intervals in the 17-limit + 29 group]]
+* [[id:ee622f95-a99f-4a4b-bb5d-18d48c16b15b][58-edo scales, chords and harmonies]]
+* Almost every interval is within 5 cents of a 15-limit ratio.
+  The only exceptions are intervals less than 100 cents and intervals between 300 and 400 cents (or the octave-inverse of those conditions).
+
+                      29-edo is amazing
+  | JI cents | JI ratio | _\29 steps | _\29 cents | _\29 error |
+  |        0 | 1 % 1    |          0 |          0 |          0 |
+  |      128 | 14 % 13  |          3 |       1241 |         -4 |
+  |      165 | 11 % 10  |          4 |       1655 |          1 |
+  |      204 | 9 % 8    |          5 |       2069 |          3 |
+  |      248 | 15 % 13  |          6 |       2483 |          1 |
+  |      289 | 13 % 11  |          7 |       2897 |          0 |
+  |      418 | 14 % 11  |         10 |       4138 |         -4 |
+  |      454 | 13 % 10  |         11 |       4552 |          1 |
+  |      498 | 4 % 3    |         12 |       4966 |         -1 |
+  |      537 | 15 % 11  |         13 |       5379 |          1 |
+  |      583 | 7 % 5    |         14 |       5793 |         -3 |
+* 17-limit + 29th harmonic are all fantastic (sharp)
+  (3 % 2    ,(34, 7034, 14.932749966815209))
+  (5 % 4    ,(19, 3931, 67.89734411027212))
+  (7 % 4    ,(47, 9724, 35.87886634323331))
+  (11 % 8   ,(27, 5586, 73.02747290415664))
+  (13 % 8   ,(41, 8483, 77.48200299654854))
+  (17 % 16  ,( 5, 1034,-15.07133638338314))
+  (19 % 16  ,(14, 2897,-78.57843718509503))
+  (23 % 16  ,(30, 6207,-75.84692096001709))
+  (29 % 16  ,(50,10345, 49.05564467603108))
+  (31 % 16  ,(55,11379,-71.04537981491558))
+  (33 % 32  ,( 3,  621, 87.96022287097264))
+  (37 % 32  ,(12, 2483,-30.681766857741877))
+  (41 % 32  ,(21, 4345, 54.203530789892284))
+  (43 % 32  ,(25, 5172, 57.23673667827279))
+* Harmonics 25-30 are all 3\58 apart
+** 13:17:22 is a stack of 22\58
+** 13:11 = 20:17 = 14\58
+** 27\58 is also 18:13
+*** Not just 11:8
+** 20-22 are all 4\58 apart
+*** Parent is source of the only 8\58 interval
+** Parent implies 6\58 between all n:n+2 for n in 25-28
+*** And some 9\58 and 12\58 intervals, and one 15\58 but that's the familiar 6/5
+** 15-18 are all 5\58 apart
+*** => the two 10\58 intervals

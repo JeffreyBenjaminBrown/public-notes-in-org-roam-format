@@ -14,3 +14,6 @@
 * [[id:dc06c37d-d6a6-4ef1-94de-1616e9c2395e][people at PUJ]]
 * [[id:5ae9b934-f30e-4d99-b48b-cc8f632a3639][people I know through PUJ]]
 * [[id:d10568f9-1e91-41b5-9527-91be1c04867b][people I'm barely connected to but seem interesting]]
+* [[id:3bc0f602-a520-4ce8-9def-7da105fe4145][people I know in the Northeast US]]
+* [[id:d43f9d93-514d-408f-915f-dcae6061c2ed][musicians I know]]
+* [[id:d43f9d93-514d-408f-915f-dcae6061c2ed][artists I know]]

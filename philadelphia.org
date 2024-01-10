@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b4ca7120-18b3-4640-9b85-6255817b1da4
+:END:
+#+title: Philadelphia
+* [[id:b4ce21ae-7b30-4a0e-83c4-040068ff6c11][Philadelphia police department]]

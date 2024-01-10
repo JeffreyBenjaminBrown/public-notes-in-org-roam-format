@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b6e5e581-f851-42ee-a2fd-fc2f462c046e
+:END:
+#+title: aphorisms
+* If you enjoyed wasting the time, you didn't waste it.

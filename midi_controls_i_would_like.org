@@ -7,6 +7,10 @@
   When `add` is held down, new notes are added.
   When `clear` is pressed, all held notes are released.
 * octave shift buttons
+** a solution \\ Lumatone + Pianoteq
+   Juhani Nuorvala got it working:
+   https://m.facebook.com/groups/lumatone.keyboard/permalink/6713925828716592/?mibextid=Nif5oz
+*** CAVEAT: Notes that ring during the switch cannot be muted.
 ** maybe separately for the two halves of the Lumatone
    But if so, do I want to be able to move the border between them?
    Also I'll have to choose (and learn( which octave the border falls in.

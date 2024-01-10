@@ -1,0 +1,464 @@
+:PROPERTIES:
+:ID:       5c50007b-9368-44d8-8301-f1bcf58748ef
+:END:
+#+title: 58-edo isomorphic layouts
+* TODO Lumatone winners
+** TODO [[id:e532f9bb-b7a8-4e7a-9b3d-aff32cb81560][5\58r x 9\58d]]
+** TODO [[id:fa82e5ed-e7eb-493f-8643-8d46945352ed][5\58 x 2\58u]]: octaves 10|4 and 12|-1, dense over both axes, smart height 3.15 along 10|4 axis
+** [[id:c165fad1-7702-4978-a11a-cf542a437534][8\58 x 3\58-up (or 5\58-downright)]] octave 8|2, 15-lim 8x6
+** [[id:ee333582-5ea6-4495-b003-5ac030dfe9d8][7\58 x 4\58d]]: octave 10-3, smart height < 3
+** [[id:beabbc24-aa01-49c4-a4e2-7f610ff2e44f][6\58 x 5\58]]: 15-lim 8x4, octave 8-2
+** [[id:6118a7ad-24d6-447f-947d-30e2e16de96f][5\58 x 4\58u]]: octave 10-2 (flat), height 4, well-behaved
+** 7\58 x 3\58: octave 7|3, 15-lim 7x6
+   1  -- -- -- -- -- -- --
+   -- 9  -- -- -- -- -- --
+   -- -- -- 11 3  13 -- --
+   -- -- -- -- -- -- -- 2
+   -- 5  -- -- -- 7  -- --
+   -- -- -- -- -- -- -- --
+   -- -- -- -- -- 15 -- --
+* [[id:ebd9c05f-dd33-4881-8de3-de6c5635f1d1][58-edo guitar strategy: 15\58 x {2\58 and 4\58}]]
+* TODO maybe there are tunings that aren't part of a tuning covering in my putative list of [[id:46fb64df-7338-4a1b-bb53-22a83eae4928][tuning coverings for 58-edo]]
+* tuning coverings for 58-edo, maybe
+  :PROPERTIES:
+  :ID:       46fb64df-7338-4a1b-bb53-22a83eae4928
+  :END:
+** DONE GOOD 12\58 x 5\58: minimal SSE, 12-ish frets, good all around, and impossibly nice for 17-lim -7
+   For guitar, the major downside is that 6:5 and 1:1 share a string,
+   as do 5:4 and 3:2. That's only a problem for close voicings.
+   [  0 steps;  1 % 1 ;  string 0 ;   fret 0
+   , 58 steps;  2 % 1 ;  string 4 ;   fret 2
+   , 34 steps;  3 % 2 ;  string 2 ;   fret 2
+   , 19 steps;  5 % 4 ;  string 2 ;   fret - 1
+   , 47 steps;  7 % 4 ;  string 1 ;   fret 7
+   , 10 steps;  9 % 8 ;  string 0 ;   fret 2
+   , 27 steps; 11 % 8 ;  string 1 ;   fret 3
+   , 41 steps; 13 % 8 ;  string 3 ;   fret 1
+   , 53 steps; 15 % 8 ;  string 4 ;   fret 1
+   ,  5 steps; 17 % 16 ; string 0 ;   fret 1
+   , 14 steps; 19 % 16 ; string 2 ;   fret - 2
+   , 23 steps; 21 % 16 ; string - 1 ; fret 7
+   , 30 steps; 23 % 16 ; string 0 ;   fret 6
+   , 37 steps; 25 % 16 ; string 1 ;   fret 5
+   , 44 steps; 27 % 16 ; string 2 ;   fret 4
+   , 50 steps; 29 % 16 ; string 5 ;   fret - 2
+   , 55 steps; 31 % 16 ; string 5 ;   fret - 1
+** TODO 13\58 x 6\58: 15-lim minus 9
+   [ 0 steps; 1 % 1 ; string 0 ; fret 0
+   , 58 steps; 2 % 1 ; string 4 ; fret 1
+   , 34 steps; 3 % 2 ; string 4 ; fret - 3
+   , 34 steps; 4 % 3 ; string 0 ; fret 4
+   , 19 steps; 5 % 4 ; string 1 ; fret 1
+   , 47 steps; 7 % 4 ; string 5 ; fret - 3
+   # , 10 steps; 9 % 8 ; string - 2 ; fret 6
+   , 27 steps; 11 % 8 ; string 3 ; fret - 2
+   , 41 steps; 13 % 8 ; string 5 ; fret - 4
+   , 53 steps; 15 % 8 ; string 5 ; fret - 2
+   , 5 steps; 17 % 16 ; string - 1 ; fret 3
+*** more harmonics
+   , 14 steps; 19 % 16 ; string 2 ; fret - 2
+   , 23 steps; 21 % 16 ; string - 1 ; fret 6
+   , 30 steps; 23 % 16 ; string 0 ; fret 5
+   , 37 steps; 25 % 16 ; string 1 ; fret 4
+   , 44 steps; 27 % 16 ; string 2 ; fret 3
+   , 50 steps; 29 % 16 ; string 2 ; fret 4
+   , 55 steps; 31 % 16 ; string 1 ; fret 7
+** TODO 11\58 x 1\58: 17-lim minus (arguably) -11 -17
+   [ 0 steps; 1 % 1 ; string 0 ; fret 0
+   , 58 steps; 2 % 1 ; string 5 ; fret 3
+   , 34 steps; 3 % 2 ; string 3 ; fret 1
+   , 19 steps; 5 % 4 ; string 2 ; fret - 3
+   , 47 steps; 7 % 4 ; string 4 ; fret 3
+   , 10 steps; 9 % 8 ; string 1 ; fret - 1
+   # , 27 steps; 11 % 8 ; string 2 ; fret 5
+   , 41 steps; 13 % 8 ; string 4 ; fret - 3
+   , 53 steps; 15 % 8 ; string 5 ; fret - 2
+** TODO 12\58 x 1\58: 17-lim minus (arguably) 5
+   horrendous 6:5
+   [ 0 steps; 1 % 1 ; string 0 ; fret 0
+   , 58 steps; 2 % 1 ; string 5 ; fret - 2
+   , 34 steps; 3 % 2 ; string 3 ; fret - 2
+   , 19 steps; 5 % 4 ; string 1 ; fret 7
+   , 47 steps; 7 % 4 ; string 4 ; fret - 1
+   , 10 steps; 9 % 8 ; string 1 ; fret - 2
+   , 27 steps; 11 % 8 ; string 2 ; fret 3
+   , 41 steps; 13 % 8 ; string 3 ; fret 5
+   , 53 steps; 15 % 8 ; string 4 ; fret 5
+   , 5 steps; 17 % 16 ; string 0 ; fret 5
+** TODO 10\58 x 1\58: 17-lim, octave 6s -2f
+   [ 0 steps; 1 % 1 ; string 0 ; fret 0
+   , 58 steps; 2 % 1 ; string 6 ; fret - 2
+   , 34 steps; 3 % 2 ; string 3 ; fret 4 -- sucks
+   , 19 steps; 5 % 4 ; string 2 ; fret - 1
+   , 47 steps; 7 % 4 ; string 5 ; fret - 3
+   , 10 steps; 9 % 8 ; string 1 ; fret 0 -- lucky; puts 4:3 next to 3:2
+   , 27 steps; 11 % 8 ; string 3 ; fret - 3
+   , 41 steps; 13 % 8 ; string 4 ; fret 1
+   , 53 steps; 15 % 8 ; string 5 ; fret 3
+** TODO 17\58 x 7\58: 13-lim minus (arguably) 5
+   [ 0 steps; 1 % 1 ; string 0 ; fret 0
+   , 58 steps; 2 % 1 ; string 3 ; fret 1
+   , 34 steps; 3 % 2 ; string 2 ; fret 0
+   # , 19 steps; 5 % 4 ; string 4 ; fret - 7
+   , 47 steps; 7 % 4 ; string 4 ; fret - 3
+   , 10 steps; 9 % 8 ; string 1 ; fret - 1
+   , 27 steps; 11 % 8 ; string 2 ; fret - 1
+   , 41 steps; 13 % 8 ; string 2 ; fret 1
+   # , 53 steps; 15 % 8 ; string 6 ; fret - 7
+   # , 5 steps; 17 % 16 ; string 4 ; fret - 9
+** TODO 17\58 x 10\58: 13-lim -5
+   [ 0 steps; 1 % 1 ; string 0 ; fret 0
+   , 58 steps; 2 % 1 ; string 4 ; fret - 1
+   , 34 steps; 3 % 2 ; string 2 ; fret 0
+   # , 19 steps; 5 % 4 ; string - 3 ; fret 7
+   , 47 steps; 7 % 4 ; string 1 ; fret 3
+   , 10 steps; 9 % 8 ; string 0 ; fret 1
+   , 27 steps; 11 % 8 ; string 1 ; fret 1
+   , 41 steps; 13 % 8 ; string 3 ; fret - 1
+   # , 53 steps; 15 % 8 ; string - 1 ; fret 7
+   # , 5 steps; 17 % 16 ; string 5 ; fret - 8
+** TODO 12\58 x 7\58: 17-lim minus (arguably) 7, octave 6s -2f
+** TODO 11\58 x 2\58: 17-lim, octave 6s -4f
+** DONE BAD 11\58(s) x 3\58(f): 17-lim, difficult 3-limit
+   [ 0 steps; 1 % 1 ; string 0 ; fret 0
+   , 58 steps; 2 % 1 ; string 5 ; fret 1
+   , 34 steps; 3 % 2 ; string 2 ; fret 4
+   , 19 steps; 5 % 4 ; string 2 ; fret - 1
+   , 47 steps; 7 % 4 ; string 4 ; fret 1
+   , 10 steps; 9 % 8 ; string 2 ; fret - 4
+   , 27 steps; 11 % 8 ; string 3 ; fret - 2
+   , 41 steps; 13 % 8 ; string 4 ; fret - 1
+   , 53 steps; 15 % 8 ; string 4 ; fret 3
+   , 5 steps; 17 % 16 ; string 1 ; fret - 2
+** DONE BAD 8\58(s) x 13\58(f): 17-lim -13, octave 4s 2f, bonkers 6:5
+   [ 0 steps; 1 % 1 ; string 0 ; fret 0
+   , 58 steps; 2 % 1 ; string 4 ; fret 2
+   , 34 steps; 3 % 2 ; string 1 ; fret 2
+   , 19 steps; 5 % 4 ; string 4 ; fret - 1
+   , 15 steps; 6 % 5 ; string -3 ; fret 3 -- ack!
+   , 47 steps; 7 % 4 ; string 1 ; fret 3
+   , 10 steps; 9 % 8 ; string - 2 ; fret 2
+   , 27 steps; 11 % 8 ; string 5 ; fret - 1
+   , 41 steps; 13 % 8 ; string - 3 ; fret 5
+     -- 13:8 would look hopelessly disconnected if it weren't for the 6:5
+   , 53 steps; 15 % 8 ; string 5 ; fret 1
+   , 5 steps; 17 % 16 ; string - 1 ; fret 1
+** DONE BAD 11\58(s) x 7\58(f): 17-lim -15 -- horrible
+   [ 0 steps; 1 % 1 ; string 0 ; fret 0
+   , 58 steps; 2 % 1 ; string 4 ; fret 2
+   , 34 steps; 3 % 2 ; string 5 ; fret - 3
+   , 19 steps; 5 % 4 ; string 3 ; fret - 2
+   , 47 steps; 7 % 4 ; string 3 ; fret 2
+   , 10 steps; 9 % 8 ; string - 1 ; fret 3
+   , 27 steps; 11 % 8 ; string 5 ; fret - 4
+   , 41 steps; 13 % 8 ; string 5 ; fret - 2
+   , 53 steps; 15 % 8 ; string 1 ; fret 6
+   , 5 steps; 17 % 16 ; string 3 ; fret - 4
+** 17\58 x 5\58: 17-lim minus 7
+   dominated by 12\58 x 5\58 -- narrower spread
+   [  0 steps;  1 % 1  ; string 0 ; fret 0
+   , 58 steps;  2 % 1  ; string 4 ; fret - 2
+   , 34 steps;  3 % 2  ; string 2 ; fret 0
+   , 19 steps;  5 % 4  ; string 2 ; fret - 3
+   , 47 steps;  7 % 4  ; string 1 ; fret 6
+   , 10 steps;  9 % 8  ; string 0 ; fret 2
+   , 27 steps; 11 % 8  ; string 1 ; fret 2
+   , 41 steps; 13 % 8  ; string 3 ; fret - 2
+   , 53 steps; 15 % 8  ; string 4 ; fret - 3
+   ,  5 steps; 17 % 16 ; string 0 ; fret 1
+** 107\58 x 7\58: 15-lim minus (arguably) 5, octave 3s 4f
+   [ 0 steps; 1 % 1 ; string 0 ; fret 0
+   , 58 steps; 2 % 1 ; string 3 ; fret 4
+   , 34 steps; 3 % 2 ; string 2 ; fret 2
+   , 19 steps; 5 % 4 ; string 4 ; fret - 3
+   , 47 steps; 7 % 4 ; string 4 ; fret 1
+   , 10 steps; 9 % 8 ; string 1 ; fret 0
+   , 27 steps; 11 % 8 ; string 2 ; fret 1
+   , 41 steps; 13 % 8 ; string 2 ; fret 3
+   , 53 steps; 15 % 8 ; string 6 ; fret - 1
+   , 5 steps; 17 % 16 ; string 4 ; fret - 5
+** Pr.pPrint $ bestLayout' 31 58 13 2 : all but 11
+   The diagonal octave is annoying,
+   so I'm calling this dominated by 15x2.
+   [ 0 steps; 1 % 1 ; string 0 ; fret 0
+   , 58 steps; 2 % 1 ; string 4 ; fret 3
+   , 34 steps; 3 % 2 ; string 2 ; fret 4
+   , 19 steps; 5 % 4 ; string 1 ; fret 3
+   , 47 steps; 7 % 4 ; string 3 ; fret 4
+   , 10 steps; 9 % 8 ; string 0 ; fret 5
+   # , 27 steps; 11 % 8 ; string 1 ; fret 7
+   , 41 steps; 13 % 8 ; string 3 ; fret 1
+   # , 53 steps; 15 % 8 ; string 3 ; fret 7
+   # , 5 steps; 17 % 16 ; string - 1 ; fret 9
+   # , 14 steps; 19 % 16 ; string 0 ; fret 7
+   , 23 steps; 21 % 16 ; string 1 ; fret 5
+   , 30 steps; 23 % 16 ; string 2 ; fret 2
+   , 37 steps; 25 % 16 ; string 3 ; fret - 1
+   # , 44 steps; 27 % 16 ; string 2 ; fret 9
+   , 50 steps; 29 % 16 ; string 4 ; fret - 1
+   # , 55 steps; 31 % 16 ; string 3 ; fret 8
+* layouts
+** [[id:e5279156-0f56-4f92-83ff-de0b28b04c68][15\58 x 2\58]]
+** [[id:60af331b-3593-47af-ad78-21f1ee6ae281][15\58 x 4\58]]
+** [[id:2ceb1242-6955-493d-9258-84ec15685f9e][17\58 x 2\58]]
+** TODO [[id:ee333582-5ea6-4495-b003-5ac030dfe9d8][7\58 x 4\58d]]: octave 10-3, smart height < 3
+** 13\58 x 7\58: 6 string 7 fret 19-limit
+        [ 58 steps = 2 % 1 : string 5 fret - 1
+        , 34 steps = 3 % 2 : string 1 fret 3
+        , 19 steps = 5 % 4 : string 2 fret - 1
+        , 47 steps = 7 % 4 : string 2 fret 3
+        , 27 steps = 11 % 8 : string 1 fret 2
+        , 41 steps = 13 % 8 : string 1 fret 4
+        , 5 steps = 17 % 16 : string 2 fret - 3
+        , 14 steps = 19 % 16 : string 0 fret 2
+        , 30 steps = 23 % 16 : string - 2 fret 8
+        , 50 steps = 29 % 16 : string - 1 fret 9
+        , 55 steps = 31 % 16 : string 1 fret 6
+** TODO 13\58 x 6\58: (9 + 2/3)-edo guitar, octave (4,1), pretty tight
+    [ 0 steps; 1 % 1 ; string 0 ; fret 0
+    , 58 steps; 2 % 1 ; string 4 ; fret 1
+    , 34 steps; 3 % 2 ; string 4 ; fret - 3
+    , 19 steps; 5 % 4 ; string 1 ; fret 1
+    , 47 steps; 7 % 4 ; string 5 ; fret - 3
+    , 10 steps; 9 % 8 ; string - 2 ; fret 6
+    , 27 steps; 11 % 8 ; string 3 ; fret - 2
+    , 41 steps; 13 % 8 ; string 5 ; fret - 4
+    , 53 steps; 15 % 8 ; string 5 ; fret - 2
+    , 5 steps; 17 % 16 ; string - 1 ; fret 3
+    , 14 steps; 19 % 16 ; string 2 ; fret - 2
+    , 23 steps; 21 % 16 ; string - 1 ; fret 6
+    , 30 steps; 23 % 16 ; string 0 ; fret 5
+    , 37 steps; 25 % 16 ; string 1 ; fret 4
+    , 44 steps; 27 % 16 ; string 2 ; fret 3
+    , 50 steps; 29 % 16 ; string 2 ; fret 4
+    , 55 steps; 31 % 16 ; string 1 ; fret 7
+** TODO 13\58 x 4\58: 23-limit 6x8, octave (6,-5) or (2,8)
+   [[id:c9cda248-a07a-49e5-a0b0-e0e4f768d46e][pairs well with 58 2 13]]
+   Octave at (4,1.5) reachable with a Whammy pedal.
+*** 17-lim: 2, 13 and 15 span many strings, otherwise decent
+  Pr.pPrint $ bestLayout' 15 58 13 4
+   0 \58; 1 % 1 ;   str 0 ; fr 0
+  58 \58; 2 % 1 ;   str 6 ; fr - 5
+                =   str 2 ; fr 8
+  34 \58; 3 % 2 ;   str 2 ; fr 2
+  19 \58; 5 % 4 ;   str 3 ; fr - 5
+  15 \58; 6 % 5 ;   str -1  fr 7   -- both axes freaky
+                =   str 3   fr - 6 -- nice
+  47 \58; 7 % 4 ;   str 3 ; fr 2
+  10 \58; 9 % 8 ;   str 2 ; fr - 4
+  27 \58; 11 % 8 ;  str 3 ; fr - 3
+  41 \58; 13 % 8 ;  str 5 ; fr - 6
+  53 \58; 15 % 8 ;  str 5 ; fr - 3
+   5 \58; 17 % 16 ; str 1 ; fr - 2
+*** Pr.pPrint $ bestLayout' 31 58 13 4
+    [  0 steps;  1 %  1 ; string 0 ; fret 0
+    , 58 steps;  2 %  1 ; string 6 ; fret - 5 (or s2 f8)
+    , 34 steps;  3 %  2 ; string 2 ; fret 2
+    , 19 steps;  5 %  4 ; string 3 ; fret - 5
+    , 47 steps;  7 %  4 ; string 3 ; fret 2
+    , 10 steps;  9 %  8 ; string 2 ; fret - 4
+    , 27 steps; 11 %  8 ; string 3 ; fret - 3
+    , 41 steps; 13 %  8 ; string 5 ; fret - 6
+    , 53 steps; 15 %  8 ; string 5 ; fret - 3
+    ,  5 steps; 17 % 16 ; string 1 ; fret - 2
+    , 14 steps; 19 % 16 ; string 2 ; fret - 3
+    , 23 steps; 21 % 16 ; string 3 ; fret - 4
+    , 30 steps; 23 % 16 ; string 2 ; fret 1
+    , 37 steps; 25 % 16 ; string 5 ; fret - 7
+    , 44 steps; 27 % 16 ; string 4 ; fret - 2
+    , 50 steps; 29 % 16 ; string 6 ; fret - 7
+    , 55 steps; 31 % 16 ; string 3 ; fret 4
+** TODO 13\58 x 3\58: 19-ish frets, wide 3/2
+   [  0 steps;  1 % 1 ; string 0 ; fret 0
+   , 58 steps;  2 % 1 ; string 4 ; fret 2
+   , 34 steps;  3 % 2 ; string 1 ; fret 7
+   , 19 steps;  5 % 4 ; string 1 ; fret 2
+   , 47 steps;  7 % 4 ; string 2 ; fret 7
+   , 10 steps;  9 % 8 ; string 1 ; fret - 1
+   , 27 steps; 11 % 8 ; string 0 ; fret 9
+   , 41 steps; 13 % 8 ; string 2 ; fret 5
+** TODO 13\58 x 2\58: octave (4,3), 15-lim 4x7, 31-lim 5x10
+   :PROPERTIES:
+   :ID:       3d0440f4-ef24-4ada-b75c-9ba23f7702a1
+   :END:
+*** Lumatone-feasible, sacrificing harmonics 9 and 11
+    It's a strange map from strings-frets to the Lumatone axes:
+    Moving down-right crosses the strings,
+    and moving up crosses the frets.
+    Gives a beautiful 4:5:6:7:8,
+    and 13 is just on the other side of the 2:1 axis.
+*** *awesome*: pairs well with 58 4 13
+    :PROPERTIES:
+    :ID:       c9cda248-a07a-49e5-a0b0-e0e4f768d46e
+    :END:
+    58 2 13 could be used on the low frets,
+    and 58 4 13 on the high ones.
+*** on its own*, the layout is (basically) dominated by 58 2 15
+    This one has a slightly smaller 15-limit brick: 4x7 < 4x8
+    But the other has better octaves and a better 15:8.
+
+    * On its own, that is, as opposed to [[id:c9cda248-a07a-49e5-a0b0-e0e4f768d46e][paired 58 4 13]].
+*** it's a 29-edo guitar, at which point, why not just use 31.
+*** primes through 13 + easy higher primes
+58 steps =  2 % 1  : str 4 fret 3
+34 steps =  3 % 2  : str 2 fret 4
+19 steps =  5 % 4  : str 1 fret 3
+47 steps =  7 % 4  : str 3 fret 4
+27 steps = 11 % 8  : str 3 fret -6 | str 1 fret 7
+  for 58e          : -14c error instead of 7c,
+  located at         str 2 fret 0
+  but 50e plays terribly with other 13-limit harmonics
+41 steps = 13 % 8  : str 3 fret 1
+53 steps = 15 % 8  ; str 3 fret 7
+ 5 steps = 17 % 16 : str 1 fret -4 | str -1 fret 9     -- unavoidably awkward
+14 steps = 19 % 16 : str 0 fret 7
+  for 58h            13c error instead of -8c,
+  located at         str 1 fret 1,
+  plays better with harmonics 5, 11, 13, 29
+30 steps = 23 % 16 : str 2 fret 2
+  the next-best      13c error instead of -8c
+                     str 1 fret 9  | str 3 fret -4
+  plays better with harmonics 5, 11, 13 (and the 2nd-best 19)
+50 steps = 29 % 16 : str 4 fret -1
+55 steps = 31 % 16 : str 5 fret -5 | str 3 fret 8
+  the next-best      14c error instead of -7c
+  located at         str 4 fret 2
+  plays better with harmonics 5, 11, 13, 29 (and the 2nd-best 19 and 23)
+** TODO 11\58 x 3\58: 19-ish frets, 31-lim 5x9
+   :PROPERTIES:
+   :ID:       f54b7c5d-4de7-4e43-9f02-7b68e73d1560
+   :END:
+*** more
+   19.333 frets per octave.
+   Another octave at (1,13). (13 frets ~ 807 cents.)
+   On a keyboard, arguably as compact as the narrow Kite (4 strings 7 frets).
+*** layout
+    [ 0 steps; 1 % 1 ; string 0 ; fret 0
+    , 58 steps; 2 % 1 ; string 5 ; fret 1
+    , 34 steps; 3 % 2 ; string 2 ; fret 4
+    , 19 steps; 5 % 4 ; string 2 ; fret - 1
+    , 47 steps; 7 % 4 ; string 4 ; fret 1
+    , 10 steps; 9 % 8 ; string 2 ; fret - 4
+    , 27 steps; 11 % 8 ; string 3 ; fret - 2
+    , 41 steps; 13 % 8 ; string 4 ; fret - 1
+    , 53 steps; 15 % 8 ; string 4 ; fret 3
+    , 5 steps; 17 % 16 ; string 1 ; fret - 2
+    , 14 steps; 19 % 16 ; string 1 ; fret 1
+    , 23 steps; 21 % 16 ; string 1 ; fret 4
+    , 30 steps; 23 % 16 ; string 3 ; fret - 1
+    , 37 steps; 25 % 16 ; string 2 ; fret 5
+    , 44 steps; 27 % 16 ; string 4 ; fret 0
+    , 50 steps; 29 % 16 ; string 4 ; fret 2
+    , 55 steps; 31 % 16 ; string 5 ; fret 0
+** 11\58 x 2\58: horrible major chords
+ 5 steps = 17 % 16 : str 1 fret -3 | str -1 fret 8
+14 steps = 19 % 16 : str 2 fret -4 | str 0 fret 7
+19 steps = 5 % 4   : str 2 fret  4 | str 3 fret -7
+27 steps = 11 % 8  : str 3 fret -3
+30 steps = 23 % 16 : str 2 fret 4
+34 steps = 3 % 2   : str 4 fret -5
+41 steps = 13 % 8  : str 3 fret 4 | str 5 fret -7
+47 steps = 7 % 4   : str 5 fret -4
+50 steps = 29 % 16 : str 4 fret 3
+55 steps = 31 % 16 : str 5 fret 0
+58 steps = 2 % 1   : str 6 fret -4
+** TODO 10\58 x 7\58: octave (3,4), 13-lim 4x7, 15-lim 6x7, 140c frets
+   Good for a uke, etc.
+   ( Edo 58 ; StringGap 10 ; FretGap 7
+    [  0 steps;  1 % 1 ; string 0 ; fret 0
+    , 58 steps;  2 % 1 ; string 3 ; fret 4
+    , 34 steps;  3 % 2 ; string 2 ; fret 2
+    , 19 steps;  5 % 4 ; string 4 ; fret - 3
+    , 47 steps;  7 % 4 ; string 4 ; fret 1
+    , 10 steps;  9 % 8 ; string 1 ; fret 0
+    , 27 steps; 11 % 8 ; string 2 ; fret 1
+    , 41 steps; 13 % 8 ; string 2 ; fret 3
+    , 53 steps; 15 % 8 ; string 6 ; fret - 1
+** 9\58 x 2\58: octave (6,2), 15-lim max stretch 7
+   0  steps;  1 % 1; string 0; fret 0
+   58 steps;  2 % 1; string 6; fret 2
+   34 steps;  3 % 2; string 4; fret -1
+   19 steps;  5 % 4; string 1; fret 5
+   47 steps;  7 % 4; string 5; fret 1
+   10 steps;  9 % 8; string 0; fret 5
+   27 steps; 11 % 8; string 3; fret 0
+   41 steps; 13 % 8; string 5; fret -2
+   53 steps; 15 % 8; string 5; fret 4
+** TODO 8\58 x 7\58: octave 9-2, max stretch 6, only 15 is off-axis
+   0 steps; 1 % 1; string 0; fret 0
+   58 steps; 2 % 1; string 9; fret -2
+   34 steps; 3 % 2; string 6; fret -2
+   19 steps; 5 % 4; string 5; fret -3
+   47 steps; 7 % 4; string 5; fret 1
+   10 steps; 9 % 8; string 3; fret -2
+   27 steps; 11 % 8; string 6; fret -3
+   41 steps; 13 % 8; string 6; fret -1
+   53 steps; 15 % 8; string 4; fret 3
+** TODO [[id:c165fad1-7702-4978-a11a-cf542a437534][8\58 x 5\58]]: octave 6-2, 31-lim in 6x7 (15 in 6x6)
+** TODO 7\58 x 6\58: octave (4,5), span 5x5, 124c frets
+   Good for a uke, etc.
+    ( Edo 58 ; StringGap 7 ; FretGap 6
+        [  0 steps;  1 % 1 ; string 0   ; fret 0
+        , 58 steps;  2 % 1 ; string 4   ; fret 5
+        , 34 steps;  3 % 2 ; string 4   ; fret 1
+        , 19 steps;  5 % 4 ; string 1   ; fret 2
+        , 47 steps;  7 % 4 ; string 5   ; fret 2
+        , 10 steps;  9 % 8 ; string - 2 ; fret 4
+        , 27 steps; 11 % 8 ; string 3   ; fret 1
+        , 41 steps; 13 % 8 ; string 5   ; fret 1
+** 7\58 x 3\58: super-wide; bad 5:4
+    0 steps; 01 % 1; string 0; fret  0
+   10 steps; 09 % 8; string 1; fret  1
+   19 steps; 05 % 4; string 1; fret  4
+                     string 4; fret -3
+   27 steps; 11 % 8; string 3; fret  2
+   34 steps; 03 % 2; string 4; fret  2
+   41 steps; 13 % 8; string 5; fret  2
+   47 steps; 07 % 4; string 5; fret  4
+   58 steps; 02 % 1; string 7; fret  3
+   53 steps; 15 % 8; string 8; fret -1
+                     string 5; fret  6
+** TODO 7\58 x 2\58: oct 8-1, height 5, rough 4:5:6 split,
+   0  steps;  1 % 1; string 0; fret 0
+   58 steps;  2 % 1; string 8; fret 1
+   34 steps;  3 % 2; string 4; fret 3
+   19 steps;  5 % 4; string 3; fret -1
+   47 steps;  7 % 4; string 7; fret -1
+   10 steps;  9 % 8; string 2; fret -2
+   27 steps; 11 % 8; string 3; fret 3
+   41 steps; 13 % 8; string 5; fret 3
+   53 steps; 15 % 8; string 7; fret 2
+** TODO [[id:beabbc24-aa01-49c4-a4e2-7f610ff2e44f][6\58 x 5\58]]: 15-lim 8x4, octave 8-2
+** TODO 6\58 x 1\58: octave 9-4, height 5, ok 4:5:6:7:8, 15-lim 9x5 block
+*** layout, numeric
+    0  steps;  1 % 1; string 0; fret 0
+    10 steps;  9 % 8; string 1; fret 4
+                      string 2; fret -2
+    19 steps;  5 % 4; string 3; fret 1
+    27 steps; 11 % 8; string 4; fret 3
+    34 steps;  3 % 2; string 5; fret 4
+    41 steps; 13 % 8; string 6; fret 5
+    47 steps;  7 % 4; string 7; fret 5
+    53 steps; 15 % 8; string 8; fret 5
+    58 steps;  2 % 1; string 9; fret 4
+*** layout, graphical
+  1  -- -- -- -- -- -- -- -- --
+  -- -- -- 5  -- -- -- -- -- --
+  -- -- -- -- -- -- -- -- -- --
+  -- -- -- -- 11 -- -- -- -- --
+  -- -- -- 9  -- 3  -- -- -- 2
+  -- -- -- -- -- -- 13 7  15 --
+** TODO [[id:6118a7ad-24d6-447f-947d-30e2e16de96f][5\58 x 4\58u]]: octave 10-2, height 4, well-behaved
+** [[id:fa82e5ed-e7eb-493f-8643-8d46945352ed][5\58 x 2\58u]]: octaves 10|4 and 12|-1, dense over both axes
+** 5\58 x 1\58: 15-lim 11x4 block
+   0  steps;  1 % 1; string  0; fret 0
+   10 steps;  9 % 8; string  2; fret 0
+   19 steps;  5 % 4; string  3; fret 4
+                     string  4; fret -1
+   27 steps; 11 % 8; string  5; fret 2
+   34 steps;  3 % 2; string  6; fret 4
+                     string  7; fret -1
+   41 steps; 13 % 8; string  8; fret 1
+   47 steps;  7 % 4; string  9; fret 2
+   53 steps; 15 % 8; string 10; fret 3
+   58 steps;  2 % 1; string 11; fret 3

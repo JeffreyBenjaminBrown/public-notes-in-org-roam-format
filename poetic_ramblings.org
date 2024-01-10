@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "song ideas"
 :END:
 #+title: poetic ramblings | song ideas
+* see also [[id:b6e5e581-f851-42ee-a2fd-fc2f462c046e][aphorisms]]
 * TODO Essay first, them song
 * ideas
 ** This problem is an opportunity
