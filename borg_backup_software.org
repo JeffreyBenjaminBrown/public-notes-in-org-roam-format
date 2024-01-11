@@ -64,13 +64,14 @@ If I run `borg key change-passphrase` and delete any compromised old copies of t
    a link into something the archive doesn't know about --
    rather than copying the content of the link.
 * borg extract
-  borg extract /path/to/borg/repo::name-of-image [paths]
-    example:
-      REPO=/run/media/jeff/ssd_500g_samsung//borg-repo
-      borg extract $REPO::2022-04-14.hp17 home/jeff/org-roam
-  The paths are optional. If not present, the entire thing is extracted.
-  PITFALL: The paths should not begin with a leading slash.
-    Hence "home/" above, not "/home/".
+** PITFALL: The paths should not begin with a leading slash.
+   Hence "home/" below, not "/home/".
+** syntax
+   borg extract /path/to/borg/repo::name-of-image [paths]
+     example:
+       REPO=/run/media/jeff/ssd_500g_samsung//borg-repo
+       borg extract $REPO::2022-04-14.hp17 home/jeff/org-roam
+   The paths are optional. If not present, the entire thing is extracted.
 * borg list
   borg list /path/to/borg/repo
 * borg recreate
