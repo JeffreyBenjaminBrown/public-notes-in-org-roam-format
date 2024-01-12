@@ -7,5 +7,5 @@
   tag á é í ó ú
 * C-x 8 RET <name of char>
   does anything
-* works for ertain special characters
+* works for certain special characters
   C-x 8 <char>
