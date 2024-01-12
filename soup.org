@@ -2,6 +2,8 @@
 :ID:       0d037a5d-e027-4b6d-8054-c39aad9bb196
 :END:
 #+title: soup
+* quantities : today <2024-01-11 Thu> I'm trying
+  1 big cup (the black and white ones) of lentils
 * Everything boils slower in Bogotá.
 * Carrots take a long time to soften.
   At least in Bogotá.
