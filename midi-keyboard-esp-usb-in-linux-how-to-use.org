@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       931a102f-b9f3-4628-b239-84ee9a2f217e
 :END:
-#+title: Use a USB MIDI keyboard in Linux.
+#+title: MIDI keyboard (esp. USB?) in Linux, how to use
 * steps
   serial
 ** [[id:298bfc3b-b16e-4494-8985-c684ba8b8b91][Disable CPU throttling.]]
