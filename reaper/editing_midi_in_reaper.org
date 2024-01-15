@@ -32,6 +32,7 @@
   :PROPERTIES:
   :ID:       8ed4c9dd-8441-4a05-acc2-e641be0a5ac6
   :END:
+** [[id:b174d6a7-13eb-4c4d-ac18-d1fed5a232bc][MIDI devices are not by default enabled as input in Reaper.]]
 ** if [[id:4b707dbe-5c10-438d-9b21-727a4b79accc][Copying MIDI notes changes their lengths! \ Reaper]]
 ** "Pool MIDI source data when pasting or duplicating media items"
    means that editing something will also edit clips duplicated from it,

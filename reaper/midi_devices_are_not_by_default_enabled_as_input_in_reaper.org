@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       b174d6a7-13eb-4c4d-ac18-d1fed5a232bc
+:END:
+#+title: MIDI devices are not by default enabled as input in Reaper.
+Go to Preferences -> Audio -> MIDI Devices,
+and manually enable each one to be used.

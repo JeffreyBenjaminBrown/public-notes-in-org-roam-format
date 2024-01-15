@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       f2f429b7-c918-4421-a186-b0ab272ca0e2
+:ROAM_ALIASES: "NixOS audio"
 :END:
 #+title: audio in NixOS
 PITFALL: Mostly written while ignorant.

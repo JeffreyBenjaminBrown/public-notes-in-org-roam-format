@@ -2,8 +2,22 @@
 :ID:       0d037a5d-e027-4b6d-8054-c39aad9bb196
 :END:
 #+title: soup
-* quantities : today <2024-01-11 Thu> I'm trying
-  1 big cup (the black and white ones) of lentils
+* TODO use 2 of the giant cups of beans, not 1.
+* TODO soak strategy
+  1 hot
+  2 rinses
+  1 25% vinegar
+  2 rinses
+  1 plain water
+  1 rinse
+* quantities & soak : today <2024-01-11 Thu> I'm trying
+** 1 big cup (the black and white ones) of lentils.
+** soaks
+   1 normal  soak (12 hours)
+   1 hot     soak (12 hours)
+   3 good rinses
+   1 vinegar soak
+     50% vinegar
 * Everything boils slower in Bogotá.
 * Carrots take a long time to soften.
   At least in Bogotá.

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       cae69966-d3eb-4bc5-8593-37eacaf45878
+:END:
+#+title: How did I break a MIDI track in Reaper?
+It won't produce audio.
+It's the first track in my last project from 2023.
+* PITFALL: It's easy to mistake this for a failure of JACK.
+  :PROPERTIES:
+  :ID:       4aa989b6-5e78-42dc-abe7-48dcdf3038ec
+  :END:
+  But JACK is clearly working,
+  because another Reaper project is working,
+  as is SuperCollider --
+  and if I disable one of the wires in the JACK graph,
+  the stereo image is affected as would be expected.

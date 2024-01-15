@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       fa64359c-0ce4-40ab-bff4-1dd67256aea8
+:END:
+#+title: ways to track edit histories in Linux
+* options
+** maybe
+*** auditctl & auditd
+**** man page
+     https://linux.die.net/man/8/auditctl
+**** features
+     You can choose what to record:
+       r=read, w=write, x=execute, a=attribute change
+*** git (or another versioning system)
+** probably not
+*** scss
+    Someone suggested this but I'm not finding information about it.
+** non-options
+*** rcs
+    It's single-user.

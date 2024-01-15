@@ -3,10 +3,14 @@
 :ROAM_ALIASES: Pianoteq
 :END:
 #+title: Pianoteq (soft synth)
-* TODO upgrade Pianoteq from 7 to 8 (free)
-  :PROPERTIES:
-  :ID:       061b26ef-4cea-4ded-9e5a-6d1d6af2ed72
-  :END:
+* TODO IF : I need more Pianoteq code
+  it's in ~/borg-excluded/
+* PITFALL: Pitch bend won't work microtonally.
+  The pitch bend message must belong to the same channel
+  as the notes it is to bend:
+    https://forum.modartt.com/viewtopic.php?id=7698
+  (This could actually be cool sometimes,
+  if I had a way to control that channel.)
 * [[id:c22d36ca-944d-431c-bdd3-8b49e1b3ac52][setting up Pianoteq for the Lumatone]]
 * installing Pianoteq
 ** extract the .7z archive with "7z x <filename>"

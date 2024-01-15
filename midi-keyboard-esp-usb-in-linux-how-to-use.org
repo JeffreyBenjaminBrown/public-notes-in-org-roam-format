@@ -1,7 +1,9 @@
 :PROPERTIES:
 :ID:       931a102f-b9f3-4628-b239-84ee9a2f217e
+:ROAM_ALIASES: "Linux, MIDI keyboards in"
 :END:
-#+title: MIDI keyboard (esp. USB?) in Linux, how to use
+#+title: MIDI keyboard in Linux, how to use
+This might only apply to USB-connected MIDI keyboards.
 * steps
   serial
 ** [[id:298bfc3b-b16e-4494-8985-c684ba8b8b91][Disable CPU throttling.]]
