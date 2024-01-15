@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       2cfdaafa-74d1-499c-9da2-c8880e204fcf
+:END:
+#+title: web programming
+* [[id:95bf37c4-0c3b-4a24-91f5-7b716b5fe14d][Web service errors' effects on the time cost to users resembles those of fractional reserve banking on the money supply.]]
