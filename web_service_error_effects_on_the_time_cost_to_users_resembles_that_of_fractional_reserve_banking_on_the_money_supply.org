@@ -2,6 +2,8 @@
 :ID:       95bf37c4-0c3b-4a24-91f5-7b716b5fe14d
 :END:
 #+title: Web service errors' effects on the time cost to users resembles those of fractional reserve banking on the money supply.
+* I wrote this up in a perhaps easier to read way.
+  https://mail.google.com/mail/u/0/#sent/QgrcJHsbflCSgnNmFQLkrlWmqqWCQPtXfqv
 * the idea
   Suppose there is a 50% failure rate.
   100 users send a solicitud.
