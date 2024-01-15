@@ -3,6 +3,15 @@
 :END:
 #+title: Windows (operating system)
 * The Windows shell app is called 'Powershell'
+* making Windows suck less
+** Prevent Edge tabs appearing individually when pressing Alt-Tab
+   I googled
+     why does alt tab in windows show every Edge tab
+   and found, among much else,
+     https://www.howtogeek.com/696775/how-to-stop-alttab-from-showing-edge-browser-tabs/
+** Disable Cortana
+   It's one of the startup apps,
+   and can be disabled from that list.
 * solutions
 ** How to run Windows 11 and MacOS virtual machines in Linux
    :PROPERTIES:
