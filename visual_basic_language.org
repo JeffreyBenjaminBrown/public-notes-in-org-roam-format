@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       bfa0ec72-df89-455b-bdcc-0bfa16cca0c9
+:END:
+#+title: Visual Basic (language)
+* refs
+  https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/introduction
+* TODO RESUME at
+  General Concepts:
+  https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/general-concepts
+* is "for the Microsoft .NET Framework"
+* two grammars
+** lexical grammar
+*** what that term means
+    defines how characters can be combined to form tokens
+*** ref : all the rules
+    https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/lexical-grammar
+*** some rules
+**** Case is irrelevant.
+**** Line breaks and indentation are irrelevant.
+**** Comments start with ' or REM.
+**** "Type Characters" are single characters used to indicate type.
+     They only identify a subset of the builtin types.
+     I *hope* they are always optional.
+     https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/lexical-grammar
+**** There are many keywords.
+     https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/lexical-grammar
+**** "Nothing" looks like a train wreck.
+     "it does not have a type and is convertible to all types in the type system, including type parameters. When converted to a particular type, it is the equivalent of the default value of that type."
+** syntactic grammar
+*** what that term means
+    defines how tokens can be combined to form programs
+* Preprocessing Directives
+** ref
+   https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/preprocessing-directives
+** things they can do
+   cause conditional compilation,
+   pull one file's text into another,
+   and other dangerous cleverness.
+** to recognize them
+   They might all start with a # symbol.
+* TODO this title is BS : General Concepts
+** Types may contain nested types and type members. Type members are constants, variables, methods, operators, properties, events, enumeration values, and constructors.
