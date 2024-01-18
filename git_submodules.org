@@ -5,6 +5,10 @@
 #+title: git submodules
 * ref
   https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial
+* to avoid a "detached head" in a submodule
+  https://stackoverflow.com/questions/18770545/why-is-my-git-submodule-head-detached-from-master/55570998#55570998
+  add a "update = merge" line to the configuration of that submodule in `.gitmodules`.
+  I'm not sure what that does but I'm about to test it.
 * To initialize the submodules in a clone
   git submodule init
   git submodule update
