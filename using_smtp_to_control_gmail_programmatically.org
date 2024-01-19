@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       c5b10311-7fc6-4bec-89a7-ed588a1bed83
+:END:
+#+title: using SMTP to control Gmail programmatically
+* Sometimes messages don't get delivered.
+** It's always been Gmail's fault.
+   That is, so far, each time it's happened to me.
+** solutions
+*** enable "less secure apps"
+*** 2FA and a special "app key"
+**** the story
+     https://stackoverflow.com/a/60075311/916142
+     I enabled 2-step verification,
+     and then generated a special different password for the same email account,
+     for use with an app.
+     To Google I called the app Phanaeros,
+     but I don't think Gmail actually reads a name of my Python code,
+     which is good because it has none.
+     In the process I had to answer a lot of security emails from Gmail.
+     Some things failed and then,
+     after futzing with security prompts they generated,
+     succeeded on the next try.
+**** the keys it generated
+     [[id:bea0f047-9bb1-469c-a278-1d46890254a6][keys generated for programmatic SMTP control of Gmail on or before <2022-02-17>]]
+* if I see "Temporary failure in name resolution"
+** Rebooting made it go away!
+** the error at length (probably useless to me)
+    Traceback (most recent call last):
+      File "/mnt/tax_co/python/requests/main.py", line 289, in <module>
+	request_handler ()
+      File "/mnt/tax_co/python/requests/main.py", line 273, in request_handler
+	try_to_advance_request_queue ()
+      File "/mnt/tax_co/python/requests/main.py", line 221, in try_to_advance_request_queue
+	advance_request_queue ()
+      File "/mnt/tax_co/python/requests/main.py", line 164, in advance_request_queue
+	python.email.send (
+      File "/mnt/tax_co/python/email.py", line 34, in send
+	server = smtplib . SMTP ( 'smtp.gmail.com',  587 )
+      File "/opt/conda/lib/python3.9/smtplib.py", line 255, in __init__
+	(code, msg) = self.connect(host, port)
+      File "/opt/conda/lib/python3.9/smtplib.py", line 341, in connect
+	self.sock = self._get_socket(host, port, self.timeout)
+      File "/opt/conda/lib/python3.9/smtplib.py", line 312, in _get_socket
+	return socket.create_connection((host, port), timeout,
+      File "/opt/conda/lib/python3.9/socket.py", line 823, in create_connection
+	for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+      File "/opt/conda/lib/python3.9/socket.py", line 954, in getaddrinfo
+	for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+    socket.gaierror: [Errno -3] Temporary failure in name resolution
