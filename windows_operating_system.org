@@ -3,6 +3,10 @@
 :END:
 #+title: Windows (operating system)
 * The Windows shell app is called 'Powershell'
+* WSL = Linux in Windows
+  "Windows subsystem for linux", I think, although that makes no sense.
+* Emacs in WSL
+** set cursor size in WSL, not Emacs
 * making Windows suck less
 ** Prevent Edge tabs appearing individually when pressing Alt-Tab
    I googled
