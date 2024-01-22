@@ -120,16 +120,16 @@
 ** TODO 12\58 x 7\58: 17-lim minus (arguably) 7, octave 6s -2f
 ** TODO 11\58 x 2\58: 17-lim, octave 6s -4f
 ** DONE BAD 11\58(s) x 3\58(f): 17-lim, difficult 3-limit
-   [ 0 steps; 1 % 1 ; string 0 ; fret 0
-   , 58 steps; 2 % 1 ; string 5 ; fret 1
-   , 34 steps; 3 % 2 ; string 2 ; fret 4
-   , 19 steps; 5 % 4 ; string 2 ; fret - 1
-   , 47 steps; 7 % 4 ; string 4 ; fret 1
-   , 10 steps; 9 % 8 ; string 2 ; fret - 4
-   , 27 steps; 11 % 8 ; string 3 ; fret - 2
-   , 41 steps; 13 % 8 ; string 4 ; fret - 1
-   , 53 steps; 15 % 8 ; string 4 ; fret 3
-   , 5 steps; 17 % 16 ; string 1 ; fret - 2
+   [  0 steps ; 1  % 1  ; string 0 ; fret   0
+   , 58 steps ; 2  % 1  ; string 5 ; fret   1
+   , 34 steps ; 3  % 2  ; string 2 ; fret   4
+   , 19 steps ; 5  % 4  ; string 2 ; fret - 1
+   , 47 steps ; 7  % 4  ; string 4 ; fret   1
+   , 10 steps ; 9  % 8  ; string 2 ; fret - 4
+   , 27 steps ; 11 % 8  ; string 3 ; fret - 2
+   , 41 steps ; 13 % 8  ; string 4 ; fret - 1
+   , 53 steps ; 15 % 8  ; string 4 ; fret   3
+   , 5  steps ; 17 % 16 ; string 1 ; fret - 2
 ** DONE BAD 8\58(s) x 13\58(f): 17-lim -13, octave 4s 2f, bonkers 6:5
    [ 0 steps; 1 % 1 ; string 0 ; fret 0
    , 58 steps; 2 % 1 ; string 4 ; fret 2

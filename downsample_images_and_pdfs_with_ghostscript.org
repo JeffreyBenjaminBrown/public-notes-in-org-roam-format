@@ -3,4 +3,4 @@
 :END:
 #+title: downsample images and pdfs with ghostscript
 # This downsamples a color image:
-gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dDownsampleColorImages=true -dColorImageResolution=140 -dNOPAUSE  -dBATCH -sOutputFile=small.140.pdf input.pdf
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dDownsampleColorImages=true -dColorImageResolution=40 -dNOPAUSE  -dBATCH -sOutputFile=small.140.pdf input.pdf
