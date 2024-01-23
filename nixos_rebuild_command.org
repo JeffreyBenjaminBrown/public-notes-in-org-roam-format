@@ -4,7 +4,8 @@
 :END:
 #+title: nixos-rebuild (command)
 * TODO [[id:13b039ff-e492-44ba-8284-a6ed016d9357][system.autoUpgrade slows my system to a crawl]]
-* What to do [[id:e117abe5-bc24-46ae-8c6e-cb33a9127df5][if nixos-rebuild isn't building anything]].
+* [[id:e117abe5-bc24-46ae-8c6e-cb33a9127df5][if nixos-rebuild isn't building anything]]
+  it might be that the channel needs updating.
 * nixos-rebuild --keep-failed / -K
   to avoid re-downloading data the next time I try to rebuild
 * to rebuild NixOS nicely

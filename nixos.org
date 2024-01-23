@@ -3,10 +3,7 @@
 :ROAM_ALIASES: NixOS
 :END:
 #+TITLE: NixOS (operating system)
-* What to do [[id:e117abe5-bc24-46ae-8c6e-cb33a9127df5][if nixos-rebuild isn't building anything]].
-* TODO if Musnix breaks, 2023-08-08 Tue
-  it was working when I was building NixOS using Musnix commit
-  6eb5c1714fbb7622b7270be78243365f9c55c9cb
+* [[id:e1eda15a-df86-4050-b150-e8034ae49019][nixos-rebuild (shell command)]]
 * TODO [[id:13b039ff-e492-44ba-8284-a6ed016d9357][system.autoUpgrade slows my system to a crawl]]
 * [[id:8216a071-2341-4866-a716-54e77baa8f2f][Nix (configuration language)]]
 * REFERENCES
