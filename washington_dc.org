@@ -7,3 +7,8 @@
 ** [[id:a6aa05cd-c251-45da-8643-b3049a0ea0de][Dulles International Airport]] : IAD, past Reston
 ** [[id:66cddc0f-3dfc-4ed9-874b-6002f4adc0cf][Reagan International Airport]] : DCA, between Arlington and Alexandria
 ** [[id:2d364c67-f292-4eed-8a06-947ad9bac507][Baltimore/Washington International Thurgood Marshall Airport]] : BWI
+* DC airport & metro logistics
+  :PROPERTIES:
+  :ID:       2f154e68-7884-4dfe-bad1-ed8f1e24750d
+  :END:
+  Greenbelt (end of _?) and Glenmont (end of red line) are both 20 min from Cliff. DCA and IAD both have metro lines. BWI is 20 min away. Intl through BWI is better, because it has shorter lines.

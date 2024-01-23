@@ -12,7 +12,8 @@
 [jeff@jbb-hp17:~/org-roam-search]$ date
   Mon Oct  9 04:22:24 PM -05 2023
 
-[jeff@jbb-hp17:~/org-roam-search]$ sudo nixos-rebuild switch                    [sudo] password for jeff:
+[jeff@jbb-hp17:~/org-roam-search]$ sudo nixos-rebuild switch
+[sudo] password for jeff:
   building Nix...
   building the system configuration...
   activating the configuration...
