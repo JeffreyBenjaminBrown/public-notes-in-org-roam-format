@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       003cc082-001d-4828-8f01-2b957f996fea
+:END:
+#+title: fun things in Bogotá
+* Paradisco : "hi fi audio bar"
+* [[id:f0857a0a-ccbc-4126-9bc6-8a421f6eea66][pool halls in Bogotá]]
+  tag billiards
+* [[id:cc5ac46c-c0a9-4af3-9ab4-74c3e2a9cb6c][ping pong in Bogotá]]
+* [[id:43042405-4371-4af8-be53-619c9ed078d4][comedy improv teachers in Bogotá]]

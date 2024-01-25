@@ -3,7 +3,7 @@
 :END:
 #+title: Bogotá
 * [[id:63143900-40d2-42c5-8b76-4f5cb7713333][hikes around Bogotá]]
-* [[id:43042405-4371-4af8-be53-619c9ed078d4][comedy improv teachers in Bogotá]]
+* [[id:003cc082-001d-4828-8f01-2b957f996fea][fun things in Bogotá]]
 * [[id:7c28ad7b-347f-49d9-b999-764bf1b9ec73][restaurants in Bogotá]]
 * [[id:6b0f52c1-9b63-4f15-9d2c-02cef16f1825][builders in Bogotá]] | contractors (construction, demolition) in Bogotá
 * [[id:42fea591-68ff-46b8-82db-97b2bd714769][lawyers in Bogotá]]
@@ -12,9 +12,6 @@
 * [[id:c9111834-29bf-49c6-be86-6b633e21ba04][costureras in Bogotá]]
 * [[id:a980ac09-af99-412f-ae7a-2ba4def3f966][finding movers in Bogotá, 2022-09-12]]
 * [[id:d041c2e5-7da3-4ce2-a703-9aa9238ec7b4][instalación de vidrios]] en Bogotá
-* [[id:f0857a0a-ccbc-4126-9bc6-8a421f6eea66][pool halls in Bogotá]]
-  tag billiards
-* [[id:cc5ac46c-c0a9-4af3-9ab4-74c3e2a9cb6c][ping pong in Bogotá]]
 * [[id:ef9c3e9a-dc35-4c33-b3e0-10fd29d4c214][health facilities in Bogotá]]
 * plant sellers in Bogotá
 ** [[id:72c4a9ae-52ae-4a78-be4b-e496db9e036e][Santiago Oruela]]
