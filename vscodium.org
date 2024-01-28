@@ -2,6 +2,6 @@
 :ID:       dba09b25-333d-49b4-b7b2-19eeeb9e7d48
 :END:
 #+title: VSCodium
-* A libre version of VSCode.
+* A libre version of [[id:fbcd02cd-f4d1-48e2-9b7d-46f23db4099f][VSCode]].
 * using it
 ** Command Palette: C-S-p

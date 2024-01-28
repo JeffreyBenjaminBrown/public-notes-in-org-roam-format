@@ -2,9 +2,22 @@
 :ID:       5704b01c-3eaf-4adc-98a8-0c2c6804da08
 :END:
 #+title: air filter
+ https://dynomight.net/better-DIY-air-purifier.html
 * change the prefilter more frequently
 * TODO a quieter, more effective DIY air purifier
-** https://dynomight.net/better-DIY-air-purifier.html
+** refs & my writeup
+*** Dynomight blog post
+    https://dynomight.net/better-DIY-air-purifier.html
+    This is my favorite source. He doesn't just describe how to make it, but why it's both more effective and cheaper than the best commercial air filters. (It's actually slightly less effective at particles less than 2.5 micrometers across, but integrating over all particle sizes it's much better.)
+*** video from NYT
+    https://www.youtube.com/watch?v=FJFdLbpNK4Y
+    Here they use a giant box fan and huge filters, which I imagine is noisy -- at least, my experience with box fans suggests that. But they demonstrate the idea perfectly.
+*** what I buy
+    Four filters for $40, something like this:
+    https://www.amazon.com/AP-1512HH-Replacement-Filter-Purifier-Compatible/dp/B0CPHZ8KBN
+    (That looks like what I buy but the dimensions don't match the image -- in photos the filter is square, but the dimensions say it's 13" by 5". The actual model I've been buying appears no longer to be on Amazon.)
+    Adjustable speed (important for quiet!) duct fan:
+    https://www.amazon.com/gp/product/B0C7Z7PPBH/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 ** in brief
    Sit a duct booster fan on top of a tower of four filters lashed together with bungee cords. Cut out foam or something like that to seal them and make them fit together stably. Pull the air through the filters into the space between them, up and out the filter.
 ** for what fan to buy
