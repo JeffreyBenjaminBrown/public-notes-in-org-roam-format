@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       361aa2f3-ae91-42c1-b943-0735eb0983af
-:ROAM_ALIASES: "music fundamentals"
+:ROAM_ALIASES: "music fundamentals" "fundamentals of music"
 :END:
 #+title: musical fundamentals
 * see also [[id:4606bf23-6261-4596-95bc-faf1e9d64b3d][musical exercises]]
@@ -46,7 +46,7 @@
 **** swing (micro-rhythm) helps rhythm
 ** complexity, number of :: chords | notes | durations | motifs
 ** pattern duration -  esp. rhythmically uneven chord changes
-** voices :: unison | notes / hand | call & response
+** voices :: unison || notes / hand || call & response
 ** mood
 *** funk | blues | circus | pop
 *** grandeur | wonder | alien | metal | march

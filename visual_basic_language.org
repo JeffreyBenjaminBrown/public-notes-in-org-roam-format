@@ -2,11 +2,26 @@
 :ID:       bfa0ec72-df89-455b-bdcc-0bfa16cca0c9
 :END:
 #+title: Visual Basic (language)
-* refs
-  https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/introduction
-* TODO RESUME at
-  General Concepts:
-  https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/general-concepts
+* TODO reading
+** RESUME : language reference
+   I decided it was too detailed and stopped at the
+   "Shadowing" section of the "General Concepts" page:
+     https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/general-concepts
+   The word "shadowing" appears a lot before that section.
+   The section begins with this text:
+     "A derived type shadows the name of an inherited type member by re-declaring it. Shadowing a name does not remove the inherited type"
+* TODO Visual Basic and NixOS
+** Try invoking a shell.nix file.
+   by running `nix-shell` from the folder containing it.
+** TODO Should I use mono5?
+   I'm using mono4 right now,
+   in my ~/code/vb/shell.nix file:
+
+ with import <nixpkgs> { };
+
+ mkShell {
+   buildInputs = [ roslyn mono4 ];
+ }
 * is "for the Microsoft .NET Framework"
 * two grammars
 ** lexical grammar
@@ -40,3 +55,102 @@
    They might all start with a # symbol.
 * TODO this title is BS : General Concepts
 ** Types may contain nested types and type members. Type members are constants, variables, methods, operators, properties, events, enumeration values, and constructors.
+** The definitions in a namespace can be defined in more than one place.
+   e.g. this defines Data.Customer and Data.Order
+
+   Namespace Data
+       Class Customer
+       End Class
+   End Namespace
+
+   Namespace Data
+       Class Order
+       End Class
+   End Namespace
+** overloading
+*** what it is
+    overloading = identically named entities of the same kind in the same declaration space
+*** where it can happen
+    Only methods, operators, instance constructors, and properties may be overloaded.
+*** how it is resolved
+    Overloaded type members must possess unique signatures.
+*** I skipped some of this content in the VB language reference.
+** Shadowing can be resolved through qualification.
+   That is, shadowing of something in an outer scope
+   by something of the same name in an inner scope.
+*** example
+     Here the i in G refers to Test.i
+
+Class Test
+    Private i As Integer = 0
+
+    Sub F()
+        Dim i As Integer = 1
+    End Sub
+
+    Sub G()
+        i = 1
+    End Sub
+End Class
+** inheritance
+*** syntax
+    Class A
+    End Class
+
+    Class B
+	Inherits A
+    End Class
+*** "Object" is the base class.
+    Anything without an explicit base class inherits from it.
+*** An inheritor cannot undefine anything its ancestors define.
+    It can, however, redefine them.
+*** An inheritor can always be cast to its ancestor.
+*** A class cannot inherit from a class nested within it.
+    Example: This is not allowed.
+
+Class A
+    Inherits B.C
+End Class
+
+Class B
+    Inherits A
+
+    Public Class C
+    End Class
+End Class
+*** "MustInherit" classes
+**** PITFALL: They use the word "normal" to mean "not-MustInherit". I'll say "concrete" instead.
+**** are abstract
+     Nothing has this class without one descended from it.
+     However, "It is valid to declare variables of MustInherit classes; such variables can only be assigned Nothing or a value that is of a class derived from the MustInherit class."
+**** PITFALL : Concrete descendents must override everything
+     that any inherited-from MustInherit class defines.
+*** NotInheritable classes
+    duh
+*** Type inheritance must be a tree.
+*** Interface inheritance must be a digraph.
+**** If an interface inherits from two interfaces with like-named fields
+     then the ambiguity must be resolved through qualification,
+     using the CType (dependently-typed?) function.
+***** example
+      Interface IList
+	  Property Count() As Integer
+      End Interface
+
+      Interface ICounter
+	  Sub Count(i As Integer)
+      End Interface
+
+      Interface IListCounter
+	  Inherits IList
+	  Inherits ICounter
+      End Interface
+
+      Module Test
+	  Sub F(x As IListCounter)
+              x.Count(1)                  ' Error, Count is not available.
+              x.Count = 1                 ' Error, Count is not available.
+              CType(x, IList).Count = 1   ' Ok, invokes IList.Count.
+              CType(x, ICounter).Count(1) ' Ok, invokes ICounter.Count.
+	  End Sub
+      End Module
