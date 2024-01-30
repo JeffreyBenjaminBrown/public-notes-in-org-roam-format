@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       0184832b-b8a4-4d8f-9efe-fd04c4c0683a
+:END:
+#+title: list all file extensions in folder and descendents
+find . -type f -name '*.*' | sed 's|.*\.||' | sort -u

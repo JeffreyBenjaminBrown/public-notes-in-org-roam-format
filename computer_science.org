@@ -27,4 +27,5 @@
 ** [[id:805ec609-79fb-484a-9272-c42de037d1f5][list comprehension]]
 * [[id:4f939263-8a43-42be-98af-5aa3d8854d13][dynamic typing]]
 * some concepts from computer science
+** [[id:4f29e189-09c2-48f7-98b4-25cadcd43ccd][file extension]]
 ** [[id:bd3b6d2b-6f8b-4dcc-bd52-fe288d3f0a11][pipe (computer science)]]

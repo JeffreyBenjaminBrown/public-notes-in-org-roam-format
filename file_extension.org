@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       4f29e189-09c2-48f7-98b4-25cadcd43ccd
+:END:
+#+title: file extension
+* [[id:0184832b-b8a4-4d8f-9efe-fd04c4c0683a][list all file extensions in folder and descendents]]

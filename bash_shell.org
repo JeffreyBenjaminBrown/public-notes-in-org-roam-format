@@ -65,6 +65,7 @@
    pandoc -o bugs.pdf bugs.md
    To render beamer-style, add the option `-t beamer`.
    PITFALL: New sections must be preceded by a blank line.
+** [[id:0184832b-b8a4-4d8f-9efe-fd04c4c0683a][list all file extensions in folder and descendents]]
 ** view a readable diff of two csv files
    csv-diff file file2 --key="field-name"
    (This is installed in the Docker image.)
