@@ -17,7 +17,8 @@
 *** time transformations
 **** speed, reverse
 ** object parameters
-*** number (quantity, count)
+*** number :: concurrent | serial
+    = quantity, count
 *** speed : mean (tempo), std dev (syncopation)
 *** pitch : mean, std dev, size of pitch set
 **** TODO [[id:2b0cc874-56b8-4803-b581-329a2f4a04a1][46-edo / some cool pitch sets]]
