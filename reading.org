@@ -16,7 +16,7 @@
    but rather to act in accordance with them.)
 * [[id:d5585db3-ac97-426f-8455-c7a2b3dcee93][audiobook services]]
 * material to absorb
-** Some so-far uninteresting [[id:36f8e3fc-3c72-4588-930d-cdd44878059e][Chat GPT podcast recommendations.]]
+** Diana Uribe history podcast
 ** TODO (ongoing) : [[id:9ac5ebd7-ad3b-414f-a9e4-9c3cd0c4616a][some principles some mindmappers visit regularly]]
 ** TODO (ongoing) : why behavioral is bs
    https://carcinisation.com/2023/08/22/against-automaticity/
@@ -135,6 +135,7 @@
     and that that's what's important for me to know about it.
 ** Krugman's NYT email newsletter catalog
    https://www.nytimes.com/column/paul-krugman
+** DONE Some uninteresting [[id:36f8e3fc-3c72-4588-930d-cdd44878059e][Chat GPT podcast recommendations.]]
 * DONE
 ** [[id:bb9b81aa-0750-42ff-a645-57e8b9e00be4][The Dark Forest, novel by Liu Cixin]]
 ** [[id:4511acb9-5575-4405-b7af-02a346b024e3][The Three-Body Problem (novel by Liu Cixin)]]
