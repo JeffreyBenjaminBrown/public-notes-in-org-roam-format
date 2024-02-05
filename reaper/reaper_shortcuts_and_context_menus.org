@@ -61,6 +61,7 @@
 *** [[id:2937ef5a-d022-421c-84a5-6000966b9dcc][Redo = C-S-z]] (*not* C-y)
     tag undo
 * some shortcuts of mine
+** CSM-T = jbb shortcut, set time selection to items
 ** arm track: C-M-a
 ** show FX: C-f
    :PROPERTIES:

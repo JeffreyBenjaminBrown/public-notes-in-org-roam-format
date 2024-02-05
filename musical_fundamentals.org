@@ -4,13 +4,23 @@
 :END:
 #+title: musical fundamentals
 * see also [[id:4606bf23-6261-4596-95bc-faf1e9d64b3d][musical exercises]]
-* elements
-** TODO transformation parameters | patterns
+* orthogonal sets of elements
+** relationships
+   mostly for voices?
+*** time
+    difference in time = offset
+    difference in "dt/dt" = speed difference
+*** frequency
+    difference in f = register
+    difference in df / dt = range
+*** # of durations
+*** # of themes
+** transformation parameters | patterns
 *** magnitude of change
 *** duration of transformation
     shock / drift
 *** waves
-** TODO transformations
+** transformations
 *** freq (parallelism)
 **** voices, chords in a scale
 **** melodies, chords chromatically
@@ -34,6 +44,29 @@
     melody
     melody modulo rhythm (tone rows)
 *** voice
+* recently exercised sets of those orthogonal sets of elements
+** where "to exercise a set of orthogonal sets" means
+*** definition
+    To, for each pair of elements one from each pair of sets,
+*** example
+    to imagine music corresponding to that pair of elements.
+    For instance, if two of the orthogonal sets were these:
+      {note, voice}
+      {number, speed}
+    then to exercise that pair of sets would be to imagine each of
+      note x number
+      note x speed
+      voice x number
+      voice x speed
+*** PITFALL: even a single outer set of is enough
+    for instance, I might just exercise "relationships",
+    rather than "relationsihps x objects"
+** the history
+   most recent at top
+*** TODO transformation parameters X parameters
+*** relationships
+*** transformations X objects
+*** objects X parameters
 * [[id:e529c4b4-f637-431c-9238-56cf412cf649][pitch space: a practice curriculum]]
 * a selection of bundles from those elements, 2023-07-10
 ** forgetten often :: rhythm | accent | cont* theme | 8ve sep
