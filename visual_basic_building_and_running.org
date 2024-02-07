@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       b7bf04b1-ff9b-47ca-b6b3-28857bb8aa03
+:END:
+#+title: Visual Basic, building and running
+* TODO Visual Basic and NixOS
+** Try invoking a shell.nix file.
+   by running `nix-shell` from the folder containing it.
+** TODO Should I use mono5?
+   I'm using mono4 right now,
+   in my ~/code/vb/shell.nix file:
+
+ with import <nixpkgs> { };
+
+ mkShell {
+   buildInputs = [ roslyn mono4 ];
+ }
+* the `.sln` file is the "solution" file
+  It is unnecessary for building and running a project.
+  "Solution"s are collections of "Projects",
+  which according to MS Copilot (GPT-4 Turbo, I think)
+  as of <2024-02-02 Fri>, represent standalone applications.
+* [[id:5b7611a3-6474-424b-a599-14a84f3f19a0][a minimum viable VB project]]
+* "building it" appears to mean
+  populating bin/ and obj/ folders,
+  creating them if necessary.
+* "running" it will "build" it if it's not already built.
+* building and running within Visual Studio
+** to build
+   :PROPERTIES:
+   :ID:       cf11a69c-eb53-4aae-bc2c-f2188b1363e5
+   :END:
+   Click the name of the project between two triangles at the top
+** to run
+   Click the rightmost of [[id:cf11a69c-eb53-4aae-bc2c-f2188b1363e5][those two triangles]].
+* building and running outside Visual Studio
+  cd <project root>
+  dotnet build .
+  dotnet run .

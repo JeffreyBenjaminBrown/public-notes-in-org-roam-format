@@ -2,183 +2,98 @@
 :ID:       bfa0ec72-df89-455b-bdcc-0bfa16cca0c9
 :END:
 #+title: Visual Basic (language)
-* TODO reading
-** RESUME : language reference
-   I decided it was too detailed and stopped at the
-   "Shadowing" section of the "General Concepts" page:
-     https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/general-concepts
-   The word "shadowing" appears a lot before that section.
-   The section begins with this text:
-     "A derived type shadows the name of an inherited type member by re-declaring it. Shadowing a name does not remove the inherited type"
-* TODO Visual Basic and NixOS
-** Try invoking a shell.nix file.
-   by running `nix-shell` from the folder containing it.
-** TODO Should I use mono5?
-   I'm using mono4 right now,
-   in my ~/code/vb/shell.nix file:
-
- with import <nixpkgs> { };
-
- mkShell {
-   buildInputs = [ roslyn mono4 ];
- }
 * is "for the Microsoft .NET Framework"
-* two grammars
-** lexical grammar
-*** what that term means
-    defines how characters can be combined to form tokens
-*** ref : all the rules
-    https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/lexical-grammar
-*** some rules
-**** Case is irrelevant.
-**** Line breaks and indentation are irrelevant.
-**** Comments start with ' or REM.
-**** "Type Characters" are single characters used to indicate type.
-     They only identify a subset of the builtin types.
-     I *hope* they are always optional.
-     https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/lexical-grammar
-**** There are many keywords.
-     https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/lexical-grammar
-**** "Nothing" looks like a train wreck.
-     "it does not have a type and is convertible to all types in the type system, including type parameters. When converted to a particular type, it is the equivalent of the default value of that type."
-** syntactic grammar
-*** what that term means
-    defines how tokens can be combined to form programs
-* Preprocessing Directives
-** ref
-   https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/preprocessing-directives
-** things they can do
-   cause conditional compilation,
-   pull one file's text into another,
-   and other dangerous cleverness.
-** to recognize them
-   They might all start with a # symbol.
-* TODO this title is BS : General Concepts
-** Types may contain nested types and type members. Type members are constants, variables, methods, operators, properties, events, enumeration values, and constructors.
-** The definitions in a namespace can be defined in more than one place.
-   e.g. this defines Data.Customer and Data.Order
-
-   Namespace Data
-       Class Customer
-       End Class
-   End Namespace
-
-   Namespace Data
-       Class Order
-       End Class
-   End Namespace
-** overloading
-*** what it is
-    overloading = identically named entities of the same kind in the same declaration space
-*** where it can happen
-    Only methods, operators, instance constructors, and properties may be overloaded.
-*** how it is resolved
-    Overloaded type members must possess unique signatures.
-*** I skipped some of this content in the VB language reference.
-** Shadowing can be resolved through qualification.
-   That is, shadowing of something in an outer scope
-   by something of the same name in an inner scope.
-*** example
-     Here the i in G refers to Test.i
-
-Class Test
-    Private i As Integer = 0
-
-    Sub F()
-        Dim i As Integer = 1
-    End Sub
-
-    Sub G()
-        i = 1
-    End Sub
-End Class
-** inheritance
-*** syntax
-    Class A
-    End Class
-
-    Class B
-	Inherits A
-    End Class
-*** "Object" is the base class.
-    Anything without an explicit base class inherits from it.
-*** An inheritor cannot undefine anything its ancestors define.
-    It can, however, redefine them.
-*** An inheritor can always be cast to its ancestor.
-*** A class cannot inherit from a class nested within it.
-    Example: This is not allowed.
-
-Class A
-    Inherits B.C
-End Class
-
-Class B
-    Inherits A
-
-    Public Class C
-    End Class
-End Class
-*** "MustInherit" classes
-**** PITFALL: They use the word "normal" to mean "not-MustInherit". I'll say "concrete" instead.
-**** are abstract
-     Nothing has this class without one descended from it.
-     However, "It is valid to declare variables of MustInherit classes; such variables can only be assigned Nothing or a value that is of a class derived from the MustInherit class."
-**** PITFALL : Concrete descendents must override everything
-     that any inherited-from MustInherit class defines.
-*** NotInheritable classes
-    duh
-*** Type inheritance must be a tree.
-*** Interface inheritance must be a digraph.
-**** If an interface inherits from two interfaces with like-named fields
-     then the ambiguity must be resolved through qualification,
-     using the CType (dependently-typed?) function.
-***** example
-      Interface IList
-	  Property Count() As Integer
-      End Interface
-
-      Interface ICounter
-	  Sub Count(i As Integer)
-      End Interface
-
-      Interface IListCounter
-	  Inherits IList
-	  Inherits ICounter
-      End Interface
-
-      Module Test
-	  Sub F(x As IListCounter)
-              x.Count(1)                  ' Error, Count is not available.
-              x.Count = 1                 ' Error, Count is not available.
-              CType(x, IList).Count = 1   ' Ok, invokes IList.Count.
-              CType(x, ICounter).Count(1) ' Ok, invokes ICounter.Count.
-	  End Sub
-      End Module
-* the `.sln` file is the "solution" file
-  It is unnecessary for building and running a project.
-  "Solution"s are collections of "Projects",
-  which according to MS Copilot (GPT-4 Turbo, I think)
-  as of <2024-02-02 Fri>, represent standalone applications.
-* a minimum viable project
-  At least for `dotnet build` and `dotnet run` to work,
-  it appears to need only two files,
-  which in my project called ConsoleAppTutorial were named
-    Program.vb
-    ConsoleAppTutorial.vbproj
-* building and running
-** "building it" appears to mean
-   populating bin/ and obj/ folders,
-   creating them if necessary.
-** "running" it will "build" it if it's not already built.
-** within Visual Studio
-*** to build
+* TODO reading
+** PAUSED INDEFINITELY : [[id:e3e84f6f-2f97-4be3-a557-ba318369590e][VB language reference, notes from]]
+* TODO learn about
+  testing
+  imports, modules, public and private
+  reading and writing files
+  HTTP
+* TODO questions
+** [[id:e97260ba-3ec5-4dc5-b14e-7d0bbb29062c]["Dim" is used to ... allocate memory?]]
+* [[id:b7bf04b1-ff9b-47ca-b6b3-28857bb8aa03][building and running]]
+* syntax
+** comments
+   are preceded by '
+** keywords
+*** "Dim" is used to ... allocate memory?
     :PROPERTIES:
-    :ID:       cf11a69c-eb53-4aae-bc2c-f2188b1363e5
+    :ID:       e97260ba-3ec5-4dc5-b14e-7d0bbb29062c
     :END:
-    Click the name of the project between two triangles at the top
-*** to run
-    Click the rightmost of [[id:cf11a69c-eb53-4aae-bc2c-f2188b1363e5][those two triangles]].
-** outside Visual Studio
-   cd <project root>
-   dotnet build .
-   dotnet run .
+    It is used for ints and floats, but also lists.
+* builtin types
+** strings
+*** newlines in strings
+    Type a literal newline (press enter) to get a newline.
+*** substitution into a string
+    Console.WriteLine(
+      $"Hello, {name}, on {currentDate:d} at {currentDate:t}")
+** tuples
+*** declare one
+    Dim holiday = (#07/04/2017#, "Independence Day", True)
+*** access an item
+    Items are 1-indexed, using field names "Item1", "Item2", ...
+
+    Console.Write(holiday.Item2)
+** arrays (often conflated with lists)
+*** naming one
+    Dim arr As Integer() = {1, 2, 3}
+    For Each i In arr
+      Console.Write(i)
+    Next
+*** using one without naming it
+    For Each i In {1, 2, 3}
+      Console.Write(i)
+    Next
+** lists
+*** declaring one
+    Dim list As New List (Of Integer) ({1, 2, 5})
+*** looping over one
+    For Each i In list
+      Console.Write(i)
+    Next
+** dictionaries
+*** declare an empty one
+    Dim dict As Dictionary ( Of String, String ) =
+      New Dictionary ( Of String, String )
+*** add key-value pairs to one
+    dict.Add("A", "uppercase letter A")
+*** act conditional on a value existing
+    If values.TryGetValue("c", result ) Then
+      Console.WriteLine("RESULT: {0}", result)
+    End If
+* user-defined types
+Module Program
+
+  Public Structure XY
+    Public x As Integer
+    Public y As Integer
+  End Structure
+
+  Sub Main(args As String())
+     Dim xy As XY
+     xy.x = 111
+     xy.y = 124
+     Console.Write(xy.y)
+     Console.Write("done")
+  End Sub
+
+End Module
+* user-defined functions
+  Function AddNumbers ( ByVal a As Integer,
+                        ByVal b As Integer
+                      ) As Integer
+    Return a + b
+  End Function
+* builtin functions and libraries
+** console IO
+   Dim name = Console.ReadLine()
+   Dim currentDate = DateTime.Now
+   Console.WriteLine(
+     $"Hello, {name}, on {currentDate:d} at {currentDate:t}")
+** time
+   Dim currentDate = DateTime.Now
+   Console.WriteLine(
+     $"The day is {currentDate:d} and the time {currentDate:t}")
+* (.)

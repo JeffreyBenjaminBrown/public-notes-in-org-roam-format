@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       5b7611a3-6474-424b-a599-14a84f3f19a0
+:ROAM_ALIASES: "Visual Basic : a minimum viable project" "minimum viable Visual Basic project"
+:END:
+#+title: minimum viable VB project
+* needs only two files
+** PITFALL: The folder containing them was named ConsoleAppTutorial
+   That might be important.
+** Program.vb
+ Imports System
+
+ Module Program
+     Sub Main(args As String())
+         Console.WriteLine("Hello World!")
+         Console.Write("Please enter your name: ")
+         Dim name = Console.ReadLine()
+         Dim currentDate = DateTime.Now
+         Console.WriteLine($"Hello, {name}, on {currentDate:d} at {currentDate:t}")
+         Console.Write("Press any key to continue...")
+         Console.ReadKey(True)
+     End Sub
+ End Module
+
+** ConsoleAppTutorial.vbproj
+ <Project Sdk="Microsoft.NET.Sdk">
+
+   <PropertyGroup>
+     <OutputType>Exe</OutputType>
+     <RootNamespace>ConsoleAppTutorial</RootNamespace>
+     <TargetFramework>net8.0</TargetFramework>
+   </PropertyGroup>
+
+ </Project>
+* `dotnet build` and `dotnet run` work on this
+* How I made it.
+  Inside Visual Studio, ask for a VB project.

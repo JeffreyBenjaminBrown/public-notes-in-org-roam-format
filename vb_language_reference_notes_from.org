@@ -1,0 +1,144 @@
+:PROPERTIES:
+:ID:       e3e84f6f-2f97-4be3-a557-ba318369590e
+:END:
+#+title: VB language reference, notes from
+* TODO RESUME
+   I decided the reference was too detailed,
+   and stopped at the
+   "Shadowing" section of the "General Concepts" page:
+     https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/general-concepts
+   The word "shadowing" appears a lot before that section.
+   The section begins with this text:
+     "A derived type shadows the name of an inherited type member by re-declaring it. Shadowing a name does not remove the inherited type"
+* two grammars
+** lexical grammar
+*** what that term means
+    defines how characters can be combined to form tokens
+*** ref : all the rules
+    https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/lexical-grammar
+*** some rules
+**** Case is irrelevant.
+**** Line breaks and indentation are irrelevant.
+**** Comments start with ' or REM.
+**** "Type Characters" are single characters used to indicate type.
+     They only identify a subset of the builtin types.
+     I *hope* they are always optional.
+     https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/lexical-grammar
+**** There are many keywords.
+     https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/lexical-grammar
+**** "Nothing" looks like a train wreck.
+     "it does not have a type and is convertible to all types in the type system, including type parameters. When converted to a particular type, it is the equivalent of the default value of that type."
+** syntactic grammar
+*** what that term means
+    defines how tokens can be combined to form programs
+* Preprocessing Directives
+** ref
+   https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/preprocessing-directives
+** things they can do
+   cause conditional compilation,
+   pull one file's text into another,
+   and other dangerous cleverness.
+** to recognize them
+   They might all start with a # symbol.
+* TODO this title is BS : General Concepts
+** Types may contain nested types and type members. Type members are constants, variables, methods, operators, properties, events, enumeration values, and constructors.
+** The definitions in a namespace can be defined in more than one place.
+   e.g. this defines Data.Customer and Data.Order
+
+   Namespace Data
+       Class Customer
+       End Class
+   End Namespace
+
+   Namespace Data
+       Class Order
+       End Class
+   End Namespace
+** overloading
+*** what it is
+    overloading = identically named entities of the same kind in the same declaration space
+*** where it can happen
+    Only methods, operators, instance constructors, and properties may be overloaded.
+*** how it is resolved
+    Overloaded type members must possess unique signatures.
+*** I skipped some of this content in the VB language reference.
+** Shadowing can be resolved through qualification.
+   That is, shadowing of something in an outer scope
+   by something of the same name in an inner scope.
+*** example
+     Here the i in G refers to Test.i
+
+Class Test
+    Private i As Integer = 0
+
+    Sub F()
+        Dim i As Integer = 1
+    End Sub
+
+    Sub G()
+        i = 1
+    End Sub
+End Class
+** inheritance
+*** syntax
+    Class A
+    End Class
+
+    Class B
+	Inherits A
+    End Class
+*** "Object" is the base class.
+    Anything without an explicit base class inherits from it.
+*** An inheritor cannot undefine anything its ancestors define.
+    It can, however, redefine them.
+*** An inheritor can always be cast to its ancestor.
+*** A class cannot inherit from a class nested within it.
+    Example: This is not allowed.
+
+Class A
+    Inherits B.C
+End Class
+
+Class B
+    Inherits A
+
+    Public Class C
+    End Class
+End Class
+*** "MustInherit" classes
+**** PITFALL: They use the word "normal" to mean "not-MustInherit". I'll say "concrete" instead.
+**** are abstract
+     Nothing has this class without one descended from it.
+     However, "It is valid to declare variables of MustInherit classes; such variables can only be assigned Nothing or a value that is of a class derived from the MustInherit class."
+**** PITFALL : Concrete descendents must override everything
+     that any inherited-from MustInherit class defines.
+*** NotInheritable classes
+    duh
+*** Type inheritance must be a tree.
+*** Interface inheritance must be a digraph.
+**** If an interface inherits from two interfaces with like-named fields
+     then the ambiguity must be resolved through qualification,
+     using the CType (dependently-typed?) function.
+***** example
+      Interface IList
+	  Property Count() As Integer
+      End Interface
+
+      Interface ICounter
+	  Sub Count(i As Integer)
+      End Interface
+
+      Interface IListCounter
+	  Inherits IList
+	  Inherits ICounter
+      End Interface
+
+      Module Test
+	  Sub F(x As IListCounter)
+              x.Count(1)                  ' Error, Count is not available.
+              x.Count = 1                 ' Error, Count is not available.
+              CType(x, IList).Count = 1   ' Ok, invokes IList.Count.
+              CType(x, ICounter).Count(1) ' Ok, invokes ICounter.Count.
+	  End Sub
+      End Module
+* (.)

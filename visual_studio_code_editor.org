@@ -6,6 +6,7 @@
 * PITFALL: Different from Visual Studio.
 * there's also a libre version, [[id:dba09b25-333d-49b4-b7b2-19eeeb9e7d48][VSCodium]]
 * some commands
+** C-k C-f : auto-format region
 ** F2 : rename element under cursor throughout project
 ** C-space : list options
 ** C-c : copy line  (when nothing is highlighted)
@@ -20,3 +21,9 @@
 * PITFALL: broken (in Linux?) keyboard shortcuts
   e.g. F8 to jump between syntax errors
 * it integrates with version control
+* solutions | customizations
+** prevent popups
+   Under Tools / Options,
+   search for "auto list members"
+   and disable it.
+   C-space will bring them up when needed.
