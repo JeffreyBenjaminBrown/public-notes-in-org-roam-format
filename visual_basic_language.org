@@ -154,3 +154,31 @@ End Class
               CType(x, ICounter).Count(1) ' Ok, invokes ICounter.Count.
 	  End Sub
       End Module
+* the `.sln` file is the "solution" file
+  It is unnecessary for building and running a project.
+  "Solution"s are collections of "Projects",
+  which according to MS Copilot (GPT-4 Turbo, I think)
+  as of <2024-02-02 Fri>, represent standalone applications.
+* a minimum viable project
+  At least for `dotnet build` and `dotnet run` to work,
+  it appears to need only two files,
+  which in my project called ConsoleAppTutorial were named
+    Program.vb
+    ConsoleAppTutorial.vbproj
+* building and running
+** "building it" appears to mean
+   populating bin/ and obj/ folders,
+   creating them if necessary.
+** "running" it will "build" it if it's not already built.
+** within Visual Studio
+*** to build
+    :PROPERTIES:
+    :ID:       cf11a69c-eb53-4aae-bc2c-f2188b1363e5
+    :END:
+    Click the name of the project between two triangles at the top
+*** to run
+    Click the rightmost of [[id:cf11a69c-eb53-4aae-bc2c-f2188b1363e5][those two triangles]].
+** outside Visual Studio
+   cd <project root>
+   dotnet build .
+   dotnet run .
