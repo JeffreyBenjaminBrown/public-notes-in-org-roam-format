@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       4e3cfc01-d528-49d9-bf3d-858c1979d71c
+:ROAM_ALIASES: "Teams (chat software by Microsoft)"
+:END:
+#+title: Microsoft Teams
+* PITFALL: If no window in browser to enter text appears
+  try entering full-screen mode
+* shortcuts
+** toggle mic: C-S-m
+** toggle camera: C-S-o
+** many more (link)
+   https://techcommunity.microsoft.com/t5/microsoft-teams-blog/top-10-keyboard-shortcuts-to-make-you-a-microsoft-teams-super/ba-p/1384428
+ *
