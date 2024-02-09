@@ -4,6 +4,10 @@
 #+title: csv-mode (Emacs package)
 * csv-align-fields
   makes it readable.
+* csv-set-separator
+  is interactive
+* tab and "backtab" : jump across columns
+  backtab = shift-tab on, at least, windows
 * ? reading nonstandard separators
   I couldn't actually get this to work.
   https://stackoverflow.com/a/55972242/916142

@@ -16,6 +16,8 @@
 * syntax
 ** comments
    are preceded by '
+** import statements
+Imports [ aliasname = ] namespace[.element]
 ** keywords
 *** "Dim" is used to ... allocate memory?
     :PROPERTIES:
