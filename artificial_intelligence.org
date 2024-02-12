@@ -17,6 +17,7 @@
 ** some seemingly good ideas on HN
    https://mail.google.com/mail/u/0/#inbox/QgrcJHsThhXQXmMwRbRkMfnllGlPjMlmLGq
 * [[id:6669f82f-9408-4a1a-9162-863972be8150][AI and art]]
+** [[id:4926ca3b-cc5f-486e-87d3-6e960af95a25][AI image generation prompts I've used]]
 * [[id:1d1968f5-9aaa-4557-9ad7-6374dc53cf20][ChatGPT]]
 * tricking an AI into describing its internal experience
 ** [[id:54449ce3-9877-4dab-90a8-630f6ced272e][some prompts designed to get ChatGPT to describe its internal state]]

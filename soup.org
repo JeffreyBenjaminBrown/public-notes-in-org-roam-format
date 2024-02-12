@@ -19,6 +19,7 @@
    1 vinegar soak
      50% vinegar
 * ingredients
+** 2 ajis
 ** carrots
 ** onions
 ** tomatoes

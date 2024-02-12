@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       4926ca3b-cc5f-486e-87d3-6e960af95a25
+:END:
+#+title: AI image generation prompts I've used
+* abstract gray saxophonist in desert
+** TODO simpler
+  The scene is a dull, drab, flat desert at sunset, low hills and a raised, empty highway in the distance. An abstract gray human in a suit stands in the foreground lower left corner facing right, blowing into a trumpet. A riotous stream of colorful 3-dimensional shapes pours from the bell of the trumpet, spreading out diagonally across the image. The musician leans backward, almost falling over, propelled backward by the stream. Under the stream, a single meerkat stands upright, watching the musician and clapping its tiny hands.
+** complex
+   The scene is a dull, drab, flat desert at sunset, low hills and a raised, empty highway in the distance. An abstract gray human in a suit stands in the foreground lower left corner facing right, blowing into a trumpet. As if it were a cornucopia, from the trumpet's bell tumbles a collection of colorful, diverse objects: dice, dirigible, pineapple, ballerina, warhorse, plunger, pink high heeled shoes. The riotous stream of diverse objects spreads from the trumpet's wide bell upward and to the right, and contrasts sharply with the drab desert and dimming sky. The musician leans back, almost falling over, propelled backward by the stream. Under the stream, a meerkat stands upright, watching the musician and clapping its tiny hands.
+* lounging gods
+** fishing & cell
+   At twilight on a still lake floats a canoe. A man in the boat relaxes with his fishing rod, looking at his cell phone. From the sky above, a goddess watches the man critically. She holds a beam balance in her left hand and some broccoli in her right hand. The dimming sky is fiery orange, and the lake is a calmer purple.
+** fishing & tv
+   At twilight on a still lake float two objects: a small fishing boat and a television. A man in the boat relaxes with his fishing rod, watching the TV. The TV screen displays a boxing match. From the sky above, a goddess watches the man critically. She holds a beam balance in her left hand and some broccoli in her right hand. The dimming sky is fiery orange, and the lake is a calmer purple.
+** desk
+   Below, a healthy, middle-aged man in a bathrobe reclines on his couch. He watches the TV, which displays a chicken on the screen. In the sky above, a goddess watches the man critically. She holds a beam balance in one hand. and holds a stalk of broccoli like a club in her other hand. In the background a reddish-purple galaxy streaks across the black sky.
+** fractals are hard
+   At the bottom center of the image is a small Mandelbrot Earth -- a blue and green fractal with ocean, continents, mountains, etc. Floating above it, four men and women in white robes lounge on clouds, eating grapes, playing the lute and watching the Mandelbrot Earth grow below them. In the background a reddish-purple galaxy streaks across the otherwise black sky.
+** boring
+   In the sky high above the cliffs of a verdant mediterranean shore, on the left, a Greek man in a white robe lounges on a cloud, playing the lute. On the right, across from him on another cloud, a Greek woman reads a scroll. Between them flies a baby holding a bundle of arrows. The style is realistic, heroic.
