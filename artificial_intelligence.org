@@ -21,3 +21,4 @@
 * [[id:1d1968f5-9aaa-4557-9ad7-6374dc53cf20][ChatGPT]]
 * tricking an AI into describing its internal experience
 ** [[id:54449ce3-9877-4dab-90a8-630f6ced272e][some prompts designed to get ChatGPT to describe its internal state]]
+* [[id:250b905a-ec8e-4e60-8348-fbe9fc6a4975][Copilot \\ Github | Microsoft]]
