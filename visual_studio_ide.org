@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9d5f643d-5b42-41cd-8acd-a965e5a11c21
+:END:
+#+title: Visual Studio (IDE)
+* [[id:26404360-653b-408b-a227-2753a7ed0ea3][Azure (cloud environment from Microsoft)]]
+* [[id:819759c4-617d-49f7-8e61-2396f005d1ec][My subscription comes wtih $150 of Azure credits.]]

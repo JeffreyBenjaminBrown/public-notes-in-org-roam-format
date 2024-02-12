@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       26404360-653b-408b-a227-2753a7ed0ea3
+:END:
+#+title: Azure (cloud environment from Microsoft)
+* [[id:819759c4-617d-49f7-8e61-2396f005d1ec][I have $150 of Azure credits.]]

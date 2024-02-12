@@ -3,7 +3,7 @@
 :ROAM_ALIASES: VSCode
 :END:
 #+title: Visual Studio Code (editor)
-* PITFALL: Different from Visual Studio.
+* PITFALL: Different from [[id:9d5f643d-5b42-41cd-8acd-a965e5a11c21][Visual Studio (IDE)]]
 * there's also a libre version, [[id:dba09b25-333d-49b4-b7b2-19eeeb9e7d48][VSCodium]]
 * some commands
 ** C-k C-f : auto-format region
