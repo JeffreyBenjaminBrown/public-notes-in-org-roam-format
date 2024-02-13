@@ -1,6 +1,12 @@
 :PROPERTIES:
 :ID:       9d5f643d-5b42-41cd-8acd-a965e5a11c21
+:ROAM_ALIASES: "Visual Studio"
 :END:
 #+title: Visual Studio (IDE)
-* [[id:250b905a-ec8e-4e60-8348-fbe9fc6a4975][Copilot in Visual Studio, installing]]
+* [[id:250b905a-ec8e-4e60-8348-fbe9fc6a4975][Copilot in Visual Studio]]
+* It won't do bash scripting.
+  Open a file ending in .sh
+    and there's no syntax highlighting.
+  Try o put "#!/bin/bash" at the top
+    and you can't even go to the next line.
 * [[id:819759c4-617d-49f7-8e61-2396f005d1ec][My subscription comes wtih $150 of Azure credits.]]
