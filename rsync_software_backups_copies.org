@@ -12,11 +12,16 @@
   For the same argument without the trailing /,
   rsync will create or populate a subfolder of the same name.
 * PITFALL: the popular `delete` option is dangerous.
+  :PROPERTIES:
+  :ID:       17d985d9-007a-43b7-90f4-a60f2aaeaf70
+  :END:
   It will delete anything in the destination not in the source.
   If there are multiple sources I don't know what it does.
 * how I usually run it
   rsync -av source source ... source destination
   with [[id:0ec81667-d191-498a-b5d1-faadbd48e85d][no trailing slashes]] on any of the sources.
+** PITFALL: This modifies files but deletes nothing
+   because I'm not using [[id:17d985d9-007a-43b7-90f4-a60f2aaeaf70][the scary `delete` option]].
 * useful options
 ** -a : archive mode, "preserve almost everything"
 ** -L : replace symlinks with the original
