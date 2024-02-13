@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c37ed90e-10cb-4254-a575-c472a512e698
+:ROAM_ALIASES: "Internet Information Services"
+:END:
+#+title: IIS (web server from Microsoft)
+* [[id:15c937a9-8dd9-431b-b115-8d34fc654889][IIS & private]]
