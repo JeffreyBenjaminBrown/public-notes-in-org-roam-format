@@ -5,6 +5,7 @@
 * [[id:4926ca3b-cc5f-486e-87d3-6e960af95a25][AI image generation prompts I've used]]
 * [[id:7bde5646-14eb-4dce-a2d1-0d44804b737a][OpenAI Jukebox]]
   closed-source AI for music generation and continuation
+* [[id:02205f39-7f49-4967-be6f-fac639720593][DALL-E 3 by OpenAI]]
 * [[id:b965e4a4-3577-4273-b722-5955666ecd75][Stable Diffusion]]
   open-source AI for text-to-image and related processes
 * Some bad [[id:36f8e3fc-3c72-4588-930d-cdd44878059e][Chat GPT podcast recommendations.]]

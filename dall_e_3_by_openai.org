@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       02205f39-7f49-4967-be6f-fac639720593
+:END:
+#+title: DALL-E 3 by OpenAI
+* how to make local edits using the DALLE-3 API
+  [[/home/jeff/many-small/manuals/OpenAI_API/generate-and-edit]]

@@ -2,6 +2,7 @@
 :ID:       0cb70005-87b9-43a3-96e8-45906f1561ec
 :END:
 #+title: beans, cooking
+* TODO try salt rather than vinegar
 * soak (many variations!)
   multiple times, lukewarm water, salt, baking soda, vinegar
 ** says Stav Kone
