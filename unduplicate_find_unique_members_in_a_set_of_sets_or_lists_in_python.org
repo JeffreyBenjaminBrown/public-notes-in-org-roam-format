@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       0d4d789c-2c9b-4da1-8637-bb6b6389fac7
+:END:
+#+title: unduplicate (find unique members in) a set of sets or lists in Python
+In Python one cannot define sets of sets, nor sets of lists.
+That is because those types are not hashable,
+because they are mutable
+(and mutabted keys would invalidate the hashes).
+Tuples are immutable, though, so sets of tuples are feasible.
+Moreover tuples can be sorted (e.g. `sorted ( (2,1,3) )` ).

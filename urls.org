@@ -7,5 +7,6 @@
   :ID:       3b573192-daa3-48f5-81fc-9f0b97100d78
   :END:
   are the key-value pairs, separated by `&`, that appear after the `?`
-** an example of a URL with query parameters
+** example of a URL with query parameters
    http://example.com/path?name=Branch&products=[Journeys,Email,Universal%20Ads]
+** how to [[id:c311d1f7-0a9d-42c0-a4db-ba6305051902][parse a URL query string in Python]]

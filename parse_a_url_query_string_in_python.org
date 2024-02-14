@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       c311d1f7-0a9d-42c0-a4db-ba6305051902
+:END:
+#+title: parse a URL query string in Python
+* source
+  https://stackoverflow.com/a/21584580
+* code
+  # definitions
+  from urllib import parse
+  url = "http://www.example.org/default.html?ct=32&op=92&item=98"
+  url_parts = ( parse.urlsplit ( url )
+                . query )
+
+  # IO
+  parse.parse_qs         ( url_parts )
+  dict ( parse.parse_qsl ( url_parts ) )
