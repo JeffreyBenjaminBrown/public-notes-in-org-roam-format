@@ -3,6 +3,8 @@
 :END:
 #+title: some ways to (create and) manipulate PDFs
 * [[id:5f4cef1e-85a7-44a9-8ffc-e8cbb962090b][PITFALLS when converting PDFs]]
+* insert text or an image into a PDF
+  use Xournal
 * text or markdown to pdf
   pandoc input.md -o output.pdf
 * to extract tables from PDFs
