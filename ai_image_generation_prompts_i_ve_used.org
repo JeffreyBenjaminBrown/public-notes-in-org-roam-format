@@ -2,6 +2,12 @@
 :ID:       4926ca3b-cc5f-486e-87d3-6e960af95a25
 :END:
 #+title: AI image generation prompts I've used
+* climber (this prompt was fantastic but then I mangled it)
+  Please generate one image:
+
+  In the foreground, a female climber hangs from the corner edge of a sunny mountain cliff. She pulls herself up over the lip and onto the top of the cliff, her athletic body hugging close to its face, the soles of her feet pressed against it for grip. Far below is a highly abstract, cubist, expressionist town -- swirling wavy polygonal houses, cars and trees, all bending and tumbling like a psychedelic ocean.
+  The contrast is important -- there should be a clear separation between foreground and background. In the foreground, the realistic climber climbs a realistic rock face -- but in the background the city is a surreal twisted chaos.
+
 * abstract gray saxophonist in desert
 ** TODO simpler
   The scene is a dull, drab, flat desert at sunset, low hills and a raised, empty highway in the distance. An abstract gray human in a suit stands in the foreground lower left corner facing right, blowing into a trumpet. A riotous stream of colorful 3-dimensional shapes pours from the bell of the trumpet, spreading out diagonally across the image. The musician leans backward, almost falling over, propelled backward by the stream. Under the stream, a single meerkat stands upright, watching the musician and clapping its tiny hands.

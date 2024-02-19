@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       060acc11-5b71-41dd-853e-a86c09487d3c
+:END:
+#+title: Dolphin (file browser)
+* toggle thumbnails with F11

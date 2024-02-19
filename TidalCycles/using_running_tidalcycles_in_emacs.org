@@ -41,7 +41,8 @@
      cd /home/jeff/code/music/Tidal/tidal+epic
        # or whatever the root of the Tidal project is
      cabal repl
-     :s BootTidal.hs -- I've modified this to import my own functions too
+     :s BootTidal.hs
+       -- I've modified this to import my own functions too
 **** open a buffer for Tidal code
      e.g. a Haskell file like
        [[~/code/music/Tidal/tidal+epic/music/simple.hs]]
