@@ -2,6 +2,7 @@
 :ID:       2799b8ed-81a8-4667-b1ca-50414cb112ea
 :END:
 #+title: Google Cloud Platform
+* [[id:062e5320-b241-43ab-831d-60f1c6dbebc9][how I synced to Google Drive before rclone]]
 * Google Cloud Platform sucks.
   :PROPERTIES:
   :ID:       6650da2c-7959-4ff3-a2ed-c94d26266f19

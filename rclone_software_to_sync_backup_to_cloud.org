@@ -72,3 +72,4 @@
    :ID:       fb6790c5-575f-4915-bf5e-87ed3daa50bf
    :END:
    rclone lsf --format t gborg:by-rclone/borg-repo-alt
+* [[id:062e5320-b241-43ab-831d-60f1c6dbebc9][how I synced to Google Drive before rclone]]
