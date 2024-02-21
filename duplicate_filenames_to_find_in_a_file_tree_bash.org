@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       68173f54-884b-45ec-ae49-9e716143f8e5
+:END:
+#+title: duplicate filenames, to find in a file tree \\ Bash
+I only read one solution, described here,
+but the stackoverflow reference has lots of them.
+* source
+  https://stackoverflow.com/questions/16276595/how-to-find-duplicate-filenames-recursively-in-a-given-directory-bash
+* PITFALL: Searches twice.
+* a solution
+#+BEGIN_SRC bash
+#!/bin/sh
+
+dirname=$(pwd)
+find $dirname -type f | sed 's_.*/__' | sort |  uniq -d |
+while read fileName
+do
+    find $dirname -type f | grep "$fileName"
+done
+#+END_SRC bash

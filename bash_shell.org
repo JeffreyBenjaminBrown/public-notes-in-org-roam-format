@@ -61,6 +61,7 @@
 *** create tar.gz archive
     tar -czvf tarball-of-zipfiles.tar.gz individual-zipfiles/
 * some solutions in Bash
+** [[id:68173f54-884b-45ec-ae49-9e716143f8e5][duplicate filenames, to find in a file tree \\ Bash]]
 ** create pdf from markdown
    pandoc -o bugs.pdf bugs.md
    To render beamer-style, add the option `-t beamer`.

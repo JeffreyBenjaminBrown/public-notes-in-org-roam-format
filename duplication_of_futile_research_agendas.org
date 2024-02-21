@@ -4,5 +4,6 @@
 #+title: duplication of futile agendas
 * the problem
   If a project seems feasible until you've invested substantially in it,
-  but then goes nowhere, others are likely to try the same thing.
+  but then goes nowhere and you don't talk about it,
+  others are likely to try the same thing.
 * related: the problem of [[id:941aef35-0419-4a8d-8e80-e4703a1f36dd][losing negative results (scientific publishing problem)]]
