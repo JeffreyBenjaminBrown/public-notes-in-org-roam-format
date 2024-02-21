@@ -3,5 +3,6 @@
 :END:
 #+title: GitHub
 * TODO [[id:98445945-ace4-4c90-bf91-19d32ef4aa5f][Github and AWS CLI slow on Claro Hogar]]
+* [[id:c229a4f7-9c06-4e81-8196-24baff49bbd7][Github & credentials]]
 * [[id:ba84b51c-77a1-4c7b-a958-22e9183c3522][Prevent git credential validators from popping up whenever I deal with a remote on GitHub over HTTP.]]
 * [[id:f28ddaf7-698b-4d5e-a529-a34bc625f3dd][SSH over HTTPS, how to, for Github or maybe anything]]
