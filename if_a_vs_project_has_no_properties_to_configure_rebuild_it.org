@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d2d04c3d-34d3-4264-b292-509cc2566810
+:END:
+#+title: If a VS project "has no properties" to configure, "rebuild" it.
+Even if the build fails,
+it appears to first create a project properties (file?)
+which can then be configured.
