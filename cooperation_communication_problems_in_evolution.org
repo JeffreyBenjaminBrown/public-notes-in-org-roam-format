@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       69ac551e-2605-4d94-b010-b0f1532bd459
+:END:
+#+title: reproduction, cooperation & communication problems in evolution
+* Baby birds squawk to get food from mom
+  increasing predation risk.
+* A fetus have no credible way to signal its resource needs
+  to the mother, who has an interest in her future reproduction
+  that the fetus does not.

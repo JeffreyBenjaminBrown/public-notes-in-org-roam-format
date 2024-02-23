@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       082cfa49-50e3-4332-9072-282b65aad5eb
-:ROAM_ALIASES: "image manipulation" "digital image manipulation" "pdf manipulation" "png manipulation" "jpg manipulation" "jpeg manipulation"
+:ROAM_ALIASES: "image manipulation" "digital image manipulation"
 :END:
 #+title: some ways to manipulate digital documents
 * [[id:b5d11fbe-75dc-4c31-8d0d-c44689328ff1][some ways to manipulate digital images]]
