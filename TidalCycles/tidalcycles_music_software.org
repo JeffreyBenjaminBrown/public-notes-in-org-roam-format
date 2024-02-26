@@ -3,6 +3,8 @@
 :ROAM_ALIASES: TidalCycles
 :END:
 #+title: TidalCycles (music software)
+* TODO RESUME at [[id:d999b705-884d-48bd-ae13-3e4b601502d0][supersaw]]
+  https://tidalcycles.org/docs/reference/synthesizers/
 * refs
 ** the community
    https://club.tidalcycles.org/

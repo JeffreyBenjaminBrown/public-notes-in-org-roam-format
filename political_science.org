@@ -6,4 +6,7 @@
 * [[id:4fb89f39-bbc4-4032-b53a-d480ef792ea4][charter cities in VR]]
 * [[id:9a511696-ace4-4085-bcd2-17c9b05019f2][crazy things nations have done]]
 * [[id:89ad6a40-2a40-4fe9-a630-dc440dec27cf][nationalism & xenophobia]]
-* [[id:362ce86f-efc2-4b4e-aa2e-036646ca71be][governance]]
+* governance
+** [[id:34fb2b82-ed80-44cf-b305-4f7b5b0e846b][Civil Service reform in the US]]
+** [[id:c02cac09-ad20-4a32-a5da-e4a0d901b39c][parliamentary government]]
+** [[id:86dba0b9-a816-4874-bddf-8b20add34e73][head of state vs. head of government]]

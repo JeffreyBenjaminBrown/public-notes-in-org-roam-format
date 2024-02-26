@@ -1,8 +1,10 @@
 :PROPERTIES:
 :ID:       7c28ad7b-347f-49d9-b999-764bf1b9ec73
-:ROAM_ALIASES: "Bogotá restaurants"
+:ROAM_ALIASES: "Bogotá bars and restaurants" "bars and restaurants in Bogotá"
 :END:
-#+title: restaurants in Bogotá
+#+title: restaurants and bars in Bogotá
+* [[id:4223b1b6-2b62-4067-adcc-bddaac620a11][Revellion (bar in Bogotá)]]
+
 * [[id:029e7a57-e916-445e-9cbd-f43bf79ffd42][Aprissa Pizza]]
 * [[id:cff8a594-c16a-4d23-a17a-f882c220a083][Crepes & Waffles]]
 * [[id:6c80a13f-b198-4827-b613-622a8cc689a3][Curry Masala]]

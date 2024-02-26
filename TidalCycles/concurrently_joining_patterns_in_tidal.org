@@ -17,7 +17,7 @@ d1 $ superimpose
 ** [[id:32c6eb9f-73f8-4ddf-bd20-66fb3b63d4a5][stereo beat with superimposed faster comb]]
 * [[id:2449b5d4-3e7f-434c-ac4b-b033f3306bf9][layer : apply list of functions in parallel]]
   * achievable by other means
-* `|x|`, `|x` and `x|`, for all x
+* for various characters x, `|x|`, `|x` and `x|` (e.g. |*|)
   On which side the bar lies determines which pattern divides time.
   If it's on both sides, both patterns divide time.
 ** The examples in the documentation are helpful.

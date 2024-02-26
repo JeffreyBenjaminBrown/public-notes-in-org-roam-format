@@ -2,5 +2,6 @@
 :ID:       bd56c6cd-8dd8-429d-a43a-df7ef9062431
 :END:
 #+title: prompt (interface)
+* [[id:4926ca3b-cc5f-486e-87d3-6e960af95a25][AI image generation prompts I've used]]
 * [[id:65fa661f-8304-4a1b-b11c-0b927fca356f][how to change the Bash prompt]]
 * [[id:f25c0908-bfdc-446d-98dc-c353f204bcc2][I want Tmux to show a shorter prompt.]]

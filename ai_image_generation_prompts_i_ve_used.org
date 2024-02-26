@@ -2,6 +2,27 @@
 :ID:       4926ca3b-cc5f-486e-87d3-6e960af95a25
 :END:
 #+title: AI image generation prompts I've used
+* cleopatra, chimp and slaves
+Giant Cleopatra and a giant glabrous chimpanzee stand together on a pedestal. Below them, groups of small brown-skinned Egyptian laborers carry enormous vegetables toward the pyramids in the distance. It takes three little laborers to carry one broccoli.
+
+The chimp snarls at the laborers below. Cleopatra speaks to the laborers using a megaphone. Cleopatra and the glabrous chimp both sport green and blue body paint. They command the tiny laborers -- Cleopatra says what to do, and the glabrous chimp is her enforcer.
+
+The hot desert sky swirls in a post-impressionist style. Everything else is cubist.
+* flying tug-hippo
+** 1
+   A hippopotamus flies low along an African river. It has great gray wings like a bat, and stretches its stumpy front feet forward as if to increase its speed. A tangle of rope and debris wrapped around its feet trails behind the hippos, the end of it dragging across the water, below and behind the hippo. The tangle is long and heavy, and the hippo's flight gives a sense of struggle and momentum, rising upward diagonally from the river.
+** 2
+   The hippo should be entangled in a bunch of ropes and netting, as if it escaped from a fishing trawler or something. It's a tangled mess, wrapped around the flying hippo's legs and abdomen, and dragging through the water behind the hippo.
+** 3, anew, detailed
+   In the bottom left corner of the image, a barge high with nonsense -- antique bicycles, top hats, cactus, baby bottles, oil paintings, chandeliers, a pinball machine.
+   In the top right corner of the image, a hippo flying rightward. The hippo has wings like a bat.
+   Wrapped around the hippo's body are ropes. At the other end, the ropes attach to the barge. Between the flying hippo and the barge, the ropes are taut, because the flying hippo is pulling the barge through the water. THe ropes wrap around the hippo's body, not its wings -- the wings are free to flap unencumbered.
+   The setting is an African river, running from left to right through the savannah. Aside from the barge, the river is empty and placid. Apart from the hippo, the sky is bright and clear.
+   The feeling is one of struggle. This magical flying hippo ought to be having an incredible time but instead it's being used for hard menial labor, straining against the ropes warpped around its body and the heavy load behind it in the water.
+   Visually, there is a contrast between the soaring hippo -- which is the *only* flying thing in the scene -- and the pile of nonsense tumbled on the barge, weighed down by gravity. The taut ropes connect these two extremes, the hippo's levity and the barge's gravity.
+** 4, no ropes
+   A hippo with wings like a bat flies low over the African savannah.  wide back it carries a barge piled  with nonsense -- antique bicycles, top hats, cactus, baby bottles, oil paintings, chandeliers, a pinball machine, forceps, a plunger.
+   The feeling is one of laborious heavy momentum and velocity. This magical flying hippo ought to be having an incredible time but instead it's being used for hard menial labor, straining for speed against the heavy load of curiosities it carries.
 * u <2024-02-19 Mon>
 ** A muted, dusky pile of abstract houses and offices, expressionistic twisting flying roads and chunky cubist auto parts. They bend and flow into each other as if they were a dreamlike fluid. From the.flowing pile grow three big, vivid, natural trees.Climbing the pile, as if they were bouldering or surfing, are four giant, lanky, yellow, androgynous humanoids -- two male and two female. The style of the urban fluid chaos pile is cubist, expressionistic, surreal, warped -- but the trees and the giant humanoids are realistic.
 ** On the bottom left side of the image, standing on its hind legs, a tiny mouse looks diagonally out across a sunny landscape: desert, forests, mountains, cities and roads, the sea in the distance to one side. Amid a few wispy cirrus clouds hanga a small, strange red and green alien planet. Near the mouse are three tiny objects: a single sea shell, a single penny, and a single mushroom.

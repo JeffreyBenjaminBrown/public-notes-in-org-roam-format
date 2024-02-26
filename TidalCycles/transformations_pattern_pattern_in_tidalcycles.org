@@ -7,8 +7,6 @@
 * BROKEN : [[id:4938e0cf-8c59-4482-a948-b599db82e16a][quantise n pat : rond values in pat to multiples of n]]
 * [[id:312aa85f-b9a4-4fd4-bd11-aebfe91ad766][dividing patterns in Tidal]]
 * hurry is like fast, but with a speed transformation
-* iter n : start at different places
-  divide into n, start k/n of the way through over n repetitions for increasing values of k
 * palindrome p = p, then reverse p
   so twice as long as p
 ** [[id:d0fe9253-4db6-4f8d-b218-d1d706ae9f87][conjugate a palindrome]]
