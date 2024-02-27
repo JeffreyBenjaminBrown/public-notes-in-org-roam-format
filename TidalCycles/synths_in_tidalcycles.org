@@ -172,10 +172,10 @@ d1 $ s "supercomparator" |*| n "-36 -24 -12 0 12 24 36"
   |*| pitch1 -1
 #+END_SRC
 
-* supertron -- good for that one tron sound at least
+* supertron -- thick lows, flutey highs
 ** parameters
 *** voice, -- number of voices
-*** detune, -- hz not logs. Negative values are cool
+*** detune
 *** sustain,
 *** accelerate,
 *** freq, -- nice in low|mid registers
@@ -184,6 +184,7 @@ d1 $ s "supercomparator" |*| n "-36 -24 -12 0 12 24 36"
 setcps 0.4
 
 d1 $ s "supertron" |*| n "-36 -24 -12 0 12 24 36"
+
 d1 $ s "supertron" |*| n "-36 -24 -12 0 12 24 36"
   |*| detune (-16.1)
   |*| voice 4
@@ -197,8 +198,19 @@ d1 $ slow 2 $
   s "supertron" |*| n "-36 -24 -12 0 12 24 36"
   |*| voice 4
   |*| fast 14 (accelerate "-0.05 0.05")
-#+END_SRC
 
+d1 $ s "supertron"
+  |*| fast 2 (n $ "0 3 7" )
+  |*| detune "[0.1,0.2,0.3]" -- parallel detunes sound nuts!
+
+d1 $ s "supertron" -- Busy two-voice harmonies sound djent.
+  |*| fast 2 (let pat = "0 3 7"
+              in n $ stack [ slow (slow 4 "1 4") pat
+                           , fast (slow 8 "1 2")
+                             $ early 0.25 pat ] )
+  |+| n "[-24,-12,-5]"
+  |*| crush 0.3
+#+END_SRC
 * superchip
 ** parameters
 *** slide   = 0, -- linear

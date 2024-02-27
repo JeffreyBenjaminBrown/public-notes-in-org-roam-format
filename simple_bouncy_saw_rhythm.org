@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       39edcf15-4b7a-46a8-bbc0-c401d1b351d0
+:END:
+#+title: simple bouncy saw rhythm
+#+BEGIN_SRC haskell
+d1 $ s "supersaw"
+  |*| n ( let pat = "<-24 -12> 7.02 <9.7 <14.7 15.9> 17.5>"
+          in palindrome $
+             stack [ pat
+                   , palindrome $
+                     early 0.5 $ fast 2 pat ] )
+  |*| semitone 0.3
+  |*| voice 0.3
+#+END_SRC
