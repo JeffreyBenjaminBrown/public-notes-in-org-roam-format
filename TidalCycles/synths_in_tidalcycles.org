@@ -255,80 +255,178 @@ d1 $ s "superchip" |*| fast 4 (n "0 3 <[5 <3 ~>] 7>")
   |*  fast (5/4) (voice "0 0.6") -- above 0.5 kills pitch0
   |*| slide (-0.03) |*| rate 4
 #+END_SRC
-* superpwm -- sounds like "beo"
-  2 oscillators
+* three similar subtractive synths
+** superpwm -- sounds like "beo"
+   2 oscillators
+*** parameters
+**** voice     = 0.5,  -- phase shift rate
+     Around 0.1 sounds like a tame cat.
+     Values around 1 exaggerate the pitch difference in the two signals.
+     Around 10 and above sounds like FM.
+**** semitone  = 12    -- difference in semitones
+**** rate      = 1     -- lfo rate
+**** lfo       = 1     -- lfo effect on filter freq
+**** resonance = 0.2
+**** pitch1    = 1     -- how filter follows fundamental
+**** decay     = 0
+**** sustain   = 1
+*** experiments
+ #+BEGIN_SRC haskell
+ setcps 0.4
+
+ d1 $ s "superpwm" |*| n "-36 -24 -12 0 12 24 36"
+
+ d1 $ slow 2 $
+   s "superpwm" |*| n "-36 -24 -12 0 12 24 36"
+   |*| voice 1
+
+ d1 $ slow 2 $
+   s "superpwm" |*| n "-36 -24 -12 0 12 24"
+   |*| semitone (-10.88)
+   -- |*| rate 33 |*| lfo 55 -- crunchy
+   |*| rate 3 |*| lfo 0.5 -- meow
+
+ d1 $ slow 2 $
+   s "superpwm" |*| n "-36 -24 -12 0 12 24"
+   |*| semitone (-10.88)
+   |*| resonance 0.9 -- bouncy, boioioioioing
+ #+END_SRC
+** supersaw
+   :PROPERTIES:
+   :ID:       d999b705-884d-48bd-ae13-3e4b601502d0
+   :END:
+*** parameters
+**** voice     = 0.5, "relative phase and detune"
+     voice 0 => well-behaved, warm & fuzzy.
+     0.5 => slight detune
+     Big integers, positive or negative,
+     reveal some kind of harmonic relationship.
+**** rate      = 1
+**** decay     = 0
+**** sustain   = 1
+**** semitone  = 12 -- second oscillator
+**** lfo       = 1 -- effect on filter freq
+**** resonance = 0.2
+**** pitch1    = 1
+**** pan
+**** accelerate
+**** freq
+*** experiments
+ #+BEGIN_SRC haskell
+ setcps 0.4
+
+ d1 $ s "supersaw" |*| n "-36 -24 -12 0 12 24 36"
+
+ -- My hearing is confused! That 36 sounds flat on its own.
+ d1 $ s "supersaw" |*| n "[0,24,36]"
+
+ d1 $ s "supersaw" |*| n "-36 -24 -12 0 12 24 36"
+   |*| voice (-12)
+
+ d1 $ s "supersaw" |*| n "-36 -24 -12 0 12 24 36"
+   |*| rate 32 |*| lfo 32 |*| resonance 0.9 -- farty
+   |*| semitone (15.86)
+ #+END_SRC
+*** observations
+    Default timbre is nice low, screechy high.
+
+** supersquare
+*** parameters
+**** voice     = 0.5 : pulse width
+     0.01 = very nasal
+     Symmetric around 0.5
+     Inaudible at 0 or 1.
+     [[id:29480c45-3d45-41bb-a91c-e152a893d6ca][Fun thing to vary quickly]].
+**** decay     = 0
+**** sustain   = 1
+**** semitone  = 12
+**** rate      = 1
+**** resonance = 0.2
+**** lfo       = 1
+**** pitch1    = 1
+**** freq
+**** accelerate
+**** pan
+*** experiments
+ #+BEGIN_SRC haskell
+ setcps 0.4
+
+ d1 $ s "supersquare" |*| n "-36 -24 -12 0 12 24 36"
+
+ d1 $ s "supersquare"
+   |*| n ("0 3 7" |+| "[-36,-24]")
+
+ d1 $ s "supersquare" |*| n "-36 -24 -12 0 12 24 36"
+   |*| voice 0.01
+
+ d1 $ s "supersquare" |*| n "-36 -24 -12 0 12 24 36 0"
+   |*| voice (fast 32 $ "0.01 0.1 0.5 0.2")
+
+ d1 $ slow 2 $
+   s "supersquare" |*| n "-36 -24 -12 0 12 24 36 0"
+   |*| semitone (fast 6 "7.02 9.7 15.9")
+   |*| voice (fast 32 $ "0.01 0.5")
+ #+END_SRC
+**** varying voice (phase width) quickly in a single pitch
+     :PROPERTIES:
+     :ID:       29480c45-3d45-41bb-a91c-e152a893d6ca
+     :END:
+ #+BEGIN_SRC haskell
+ d1 $ s "supersquare" |*| n "-24"
+   |*| voice (fast 16 $ "0.01 0.1 0.5 0.2")
+ #+END_SRC
+*** observations
+    Good low default.
+* superhoover -- thick, fuzzy
 ** parameters
-*** voice     = 0.5,  -- phase shift rate
-    Around 0.1 sounds like a tame cat.
-    Values around 1 exaggerate the pitch difference in the two signals.
-    Around 10 and above sounds like FM.
-*** semitone  = 12    -- difference in semitones
-*** rate      = 1     -- lfo rate
-*** lfo       = 1     -- lfo effect on filter freq
-*** resonance = 0.2
-*** pitch1    = 1     -- how filter follows fundamental
-*** decay     = 0
-*** sustain   = 1
-** experiments
-#+BEGIN_SRC haskell
-setcps 0.4
-
-d1 $ s "superpwm" |*| n "-36 -24 -12 0 12 24 36"
-
-d1 $ slow 2 $
-  s "superpwm" |*| n "-36 -24 -12 0 12 24 36"
-  |*| voice 1
-
-d1 $ slow 2 $
-  s "superpwm" |*| n "-36 -24 -12 0 12 24"
-  |*| semitone (-10.88)
-  -- |*| rate 33 |*| lfo 55 -- crunchy
-  |*| rate 3 |*| lfo 0.5 -- meow
-
-d1 $ slow 2 $
-  s "superpwm" |*| n "-36 -24 -12 0 12 24"
-  |*| semitone (-10.88)
-  |*| resonance 0.9 -- bouncy, boioioioioing
-#+END_SRC
-* supersaw
-  :PROPERTIES:
-  :ID:       d999b705-884d-48bd-ae13-3e4b601502d0
-  :END:
-** parameters
-*** voice     = 0.5, "relative phase and detune"
-    voice 0 => well-behaved, warm & fuzzy.
-    0.5 => slight detune
-    Big integers, positive or negative,
-    reveal some kind of harmonic relationship.
-*** rate      = 1
-*** decay     = 0
-*** sustain   = 1
-*** semitone  = 12 -- second oscillator
-*** lfo       = 1 -- effect on filter freq
-*** resonance = 0.2
-*** pitch1    = 1
+*** slide      = 0 : 0.5 = rise one semitone into the pitch.
+    negative = fall into the pitch.
+*** sustain    = 1
+*** decay      = 0
 *** pan
-*** accelerate
 *** freq
+*** accelerate = 0
 ** experiments
 #+BEGIN_SRC haskell
 setcps 0.4
 
-d1 $ s "supersaw" |*| n "-36 -24 -12 0 12 24 36"
+d1 $ s "superhoover" |*| n "-36 -24 -12 0 12 24 36"
 
--- My hearing is confused! That 36 sounds flat on its own.
-d1 $ s "supersaw" |*| n "[0,24,36]"
-
-d1 $ s "supersaw" |*| n "-36 -24 -12 0 12 24 36"
-  |*| voice (-12)
-
-d1 $ s "supersaw" |*| n "-36 -24 -12 0 12 24 36"
-  |*| rate 32 |*| lfo 32 |*| resonance 0.9 -- farty
-  |*| semitone (15.86)
+d1 $ slow 1 $ s "superhoover"
+  |*| n ("0 2.7 7" )
+  |*| slide (2)
 #+END_SRC
 ** observations
-   Default timbre is nice low, screechy high.
+   Below n = -12, gets pretty muddy.
+* supervibe
+** parameters
+*** velocity   = 1
+*** modamp     = 1
+*** modfreq    = 7.0
+*** detune     = 0
+*** sustain    = 1
+*** decay      = 0
+*** pan
+*** freq
+    Pitch clearly identifiable around n = [-12,48].
+*** accelerate = 0
+** experiments
+#+BEGIN_SRC haskell
+setcps 0.4
 
+d1 $ s "supervibe"
+  |*| n "-36 -24 -12 0 12 24 36 0"
+
+d1 $ s "supervibe"
+  |*| n "-12 0 12 24 36 48"
+
+d1 $ slow 2 $ s "supervibe"
+  |*| n ( let pat = "0 2.7 [5 2.7] 7 [7.7 7] 9.7"
+          in stack [ palindrome $ pat
+                   , slow (3/2) (0.5 <~ pat) - 12
+                   , fast 2 $ palindrome $ pat |+| "14.7 19"
+                   ] )
+#+END_SRC
 * a bunch at once
 #+BEGIN_SRC haskell
 d1 $ stack [
