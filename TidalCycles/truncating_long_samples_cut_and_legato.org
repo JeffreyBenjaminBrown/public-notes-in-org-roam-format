@@ -21,9 +21,14 @@ d1 $ fast 2 $ sound "bev" # cut 1
 *** TODO Question: How are conflicts resolved?
     If two samples trigger at the same time,
     which should sound?
-* legato n = play for n cycles
-   Unlike cut groups, this can result in overlap or gaps.
-#+begin_src haskell
-  d1 $ stack [ speed 2 |*| sound "bev ~ bev ~" # legato 8,
-	       speed 0.5 |*| slow 4 (sound "bev ~ bev ~") # cut 1 ]
-#+end_src
+* legato
+  Unlike cut groups, legato can result in overlap or gaps.
+** two inconsistent descriptions
+*** legato is the "amount of overlap between two adjacent synth sounds. Values less than one (e.g. 0.5) will cut the sound off sooner. Values greater than one (e.g. 1.5) will cut the sound off later"
+    https://tidalcycles.org/docs/reference/audio_effects/
+*** legato n = play for n cycles -- JBB
+** example
+ #+begin_src haskell
+   d1 $ stack [ speed 2 |*| sound "bev ~ bev ~" # legato 8,
+		speed 0.5 |*| slow 4 (sound "bev ~ bev ~") # cut 1 ]
+ #+end_src
