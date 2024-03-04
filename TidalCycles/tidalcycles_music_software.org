@@ -3,8 +3,25 @@
 :ROAM_ALIASES: TidalCycles
 :END:
 #+title: TidalCycles (music software)
-* TODO RESUME at [[id:d999b705-884d-48bd-ae13-3e4b601502d0][supersaw]]
-  https://tidalcycles.org/docs/reference/synthesizers/
+* TODO the variety I want
+** synth timbres --
+   relaxed & thick, hype & thick
+   aliens (FM)
+   relaxed & muted (LPF)
+   random vibrato (program it myself in SuperCollider,
+     using the preexisting terms vibrato and vrate,
+     which might be absent from Tidal but are in SuperDirt's B3)
+** samples
+   wood block
+   kick, snare, hat, tom, crash
+** effects
+** xen rhythm (even simple 40% swing)
+** xen pitch
+** crazy fast, danceable, downbeat, ambient
+** harmony
+** TODO fast transitions
+   The easiest way seems to be to just manually evaluate different regions quickly, assuming Tidal switches fast enough.
+   For this it would help to write an Emacs routine that evaluates everything in the paragraph containing point (the cursor).
 * refs
 ** the community
    https://club.tidalcycles.org/
@@ -23,6 +40,7 @@
 ** [[id:a33c81c2-de86-48fd-9341-8baf1ae22033][uneven rotations in time \ music]]
 ** [[id:5e40393b-a042-41d2-ba79-41ab70fc9ba6][concepts for Tidal, some high-level musical]]
 * TODO Will TLP interfere with the cpufreq changes required here?
+* TODO [[id:8a0faa02-8ae2-4d85-829a-89319b8d54c5][samples I want]]
 * [[id:17401bd2-d61a-4a66-87cd-5be12b8d10e6][TODO]]
 ** [[id:df2e01d2-1362-48fa-9f09-8d7d70cf31ec][questions about the TidalCycles language]]
 * [[id:e6bc4d0e-18ff-4e3d-b569-26e4b5ebbb2d][versions and branches of TidalCycles]]

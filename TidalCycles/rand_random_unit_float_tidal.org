@@ -1,7 +1,14 @@
 :PROPERTIES:
 :ID:       fea45c25-3c75-49f1-a9bd-a3815c5a487c
 :END:
-#+title: rand : random unit float \\ Tidal
+#+title: rand : random float in [0,1] \\ Tidal
+* range appears to be [0,1]
 #+BEGIN_SRC haskell
-  d1 $ sound "hh*16" # gain (rand/2 + 0.4) # pan rand
+d1 $ s "supervibe" |*| n (fast 8 "0 1")
+
+d1 $ s "supervibe*16" |* n rand
+#+END_SRC
+* random pan
+#+BEGIN_SRC haskell
+d1 $ sound "hh*16" # gain (rand/2 + 0.4) # pan rand
 #+END_SRC

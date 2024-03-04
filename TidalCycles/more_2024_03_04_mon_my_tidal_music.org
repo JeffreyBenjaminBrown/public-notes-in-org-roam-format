@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       22eea012-ee84-4923-8ce7-57fa46591578
+:END:
+#+title: more <2024-03-04 Mon> \ my Tidal music
+#+BEGIN_SRC haskell
+setcps 1
+
+globals = (gain 0.5 |*|)
+
+d1 $ s "supervibe"
+  |*| n ( every 4 (0.5 <~)
+          "[0@3 7] [2.7@2 <7 ~>]" )
+
+d1 $ stack
+  [ slow 4 $ s "supersquare"
+    |*| n "0@4 2.7@3 7@2 5.5 ~ [5.5 4.7]"
+    |* fast 2 (voice "0.5 0.1 0.25")
+  , s "bd [<sn <lt ht>> hc ~]" ]
+hush
+#+END_SRC

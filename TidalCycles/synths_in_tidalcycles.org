@@ -2,260 +2,287 @@
 :ID:       ec43fb48-eb6f-4942-bd3e-2aa7a8aa820c
 :END:
 #+title: synths in TidalCycles
-* supergong -- spacey bell-like, choked or ringy
-** parameters
-   ordered (I think) from most to least generic
-
-   voice=0,   -- tone
-   sustain=1, -- not clear how this differs from decay
-   decay=1,   -- not clear how this differs from sustain
-   accelerate,
-   freq,
-   pan,
-** `sustain` seems to determine the ceiling for `decay`
-   If there's little sustain, a long decay won't do much.
-** experiments
+* refs
+  https://tidalcycles.org/docs/reference/synthesizers/
+  [[~/.local/share/SuperCollider/downloaded-quarks/SuperDirt/library/default-synths-extra.scd]]
+** TODO there are a lot more, with provocative names
+   :PROPERTIES:
+   :ID:       f4139caf-9ac9-498a-8cb3-4da8fdac7df4
+   :END:
+   in the docs,
+   and the code might have things not even mentioned in the docs
+* PITFALL: if a parameter isn't defined
+  it can be defined ad-hoc like this:
 #+BEGIN_SRC haskell
-d1 $ slow 3 $ s "supergong" |*| n "-36 -24 -12 0 12 24 36"
-
-d1 $ slow 3 $ s "supergong" |*| n "-36 -24 -12 0 12 24 36"
-  |*| sustain 0.25
-
-d1 $ slow 3 $ s "supergong" |*| n "-36 -24 -12 0 12 24 36"
-  |*| sustain 4
-
-d1 $ slow 3 $ s "supergong" |*| n "-36 -24 -12 0 12 24 36"
-  |*| sustain 4
-  |*| accelerate 1
-
-d1 $ slow 3 $ s "supergong" |*| n "-36 -24 -12 0 12 24 36"
-  |*| sustain 2
-  |*| slow 3 (accelerate "-8 0 8")
-
-d1 $ slow 3 $ s "supergong" |*| n "-36 -24 -12 0 12 24 36"
-  |*| slow 2 (decay "0.5 1.5")
-  |*| slow 4 (sustain "0.5 1.5")
-  |*| accelerate (-0.5)
-
-d1 $ slow 2 $
-  s "supergong" |*| n "-36 -24 -12 0 12 24 36"
-  -- |*| sustain 2
-  -- |*| decay 2
-  |*| slow 5 (voice "-4 -1 0 1 4")
+-- define some parameters supervibe needs
+modamp = pF "modamp"
+modfreq = pF "modfreq"
 #+END_SRC
-* supermandolin -- harsh harpsichord
-** parameters
-   freq,
-   detune=0.2, -- offsets the ?two oscillators' pitches
-   sustain=1,
-   accelerate,
-   pan,
-** experiments
-#+BEGIN_SRC haskell
-d1 $ slow 3 $ s "supermandolin" |*| n "-36 -24 -12 0 12 24 36"
+* TODO [[id:f4139caf-9ac9-498a-8cb3-4da8fdac7df4][there are a lot more, with provocative names]]
+* a partial list
+** supergong -- spacey bell-like, choked or ringy
+*** parameters
+    ordered (I think) from most to least generic
 
-d1 $ slow 3 $ s "supermandolin" |*| n "-36 -24 -12 0 12 24 36"
-  |*| detune 0.1
+    voice=0,   -- tone
+    sustain=1, -- not clear how this differs from decay
+    decay=1,   -- not clear how this differs from sustain
+    accelerate,
+    freq,
+    pan,
+*** `sustain` seems to determine the ceiling for `decay`
+    If there's little sustain, a long decay won't do much.
+*** experiments
+ #+BEGIN_SRC haskell
+ d1 $ slow 3 $ s "supergong" |*| n "-36 -24 -12 0 12 24 36"
 
-d1 $ slow 3 $ s "supermandolin" |*| n "-36 -24 -12 0 12 24 36"
-  |*| sustain 0.25
+ d1 $ slow 3 $ s "supergong" |*| n "-36 -24 -12 0 12 24 36"
+   |*| sustain 0.25
 
-d1 $ slow 3 $ s "supermandolin" |*| n "-36 -24 -12 0 12 24 36"
-  |*| sustain 3
+ d1 $ slow 3 $ s "supergong" |*| n "-36 -24 -12 0 12 24 36"
+   |*| sustain 4
 
-d1 $ slow 3 $ s "supermandolin" |*| n "-36 -24 -12 0 12 24 36"
-  |*| accelerate (-0.25)
-  |*| sustain 3
+ d1 $ slow 3 $ s "supergong" |*| n "-36 -24 -12 0 12 24 36"
+   |*| sustain 4
+   |*| accelerate 1
 
-d1 $ slow 3 $ s "supermandolin" |*| n "-36 -24 -12 0 12 24 36"
-  |*| detune (-0.5)
-  |*| accelerate (-0.25)
-  |*| sustain 3
-#+END_SRC
-** higher pitches are louder
-#+BEGIN_SRC haskell
-d1 $ slow 4 $ s "supermandolin"
-  |*| sustain 8
-  |*| n "[-36,-24,-17,-12,-8.14] [-36,-24,-17] -36"
-#+END_SRC
-** sounds best around [-24,7]
-#+BEGIN_SRC haskell
-d1 $ s "supermandolin"
-  |*| accelerate (-0.1)
-  |*| slow 9 (sustain "0.5 1 2")
-  ,*| n (stack [
-           "<-24 -17 -12> <-9 -6> -5",
-           slow 2 "-9 -5 <0 12> <7 3>"
-           ] )
-#+END_SRC
-* superzow -- phased saws, narrow timbral range
-** parameters
-*** slide   = 1 -- dramatic tone, confusing
-    and it has no obvious effect on perceived pitch
+ d1 $ slow 3 $ s "supergong" |*| n "-36 -24 -12 0 12 24 36"
+   |*| sustain 2
+   |*| slow 3 (accelerate "-8 0 8")
 
-    slide 0 => sinewave-like
-    slide 0.01 => buzzy
-    slide 1 => buzzy
-    slide 10 = bouncy in low resters, singy in higher ones
-    slide 100 = inaudible in low registers, flutelike in high ones
-*** detune  = 1, -- dramatic tone, confusing
-    detune 0 = saw-like
-    Seems to be in a multiple of hertz, not logarithmic.
-*** sustain = 1,
-*** decay   = 0, -- helpful
-*** accelerate,
-    big negative values can kill it
-*** freq,
-*** pan,
-** experiments
-#+BEGIN_SRC haskell
-d1 $ slow 3 $ s "superzow" |*| n "-36 -24 -12 0 12 24 36"
+ d1 $ slow 3 $ s "supergong" |*| n "-36 -24 -12 0 12 24 36"
+   |*| slow 2 (decay "0.5 1.5")
+   |*| slow 4 (sustain "0.5 1.5")
+   |*| accelerate (-0.5)
 
-d1 $ slow 3 $ s "superzow" |*| n "-36 -24 -12 0 12 24 36"
-  |*| slide (-10)
+ d1 $ slow 2 $
+   s "supergong" |*| n "-36 -24 -12 0 12 24 36"
+   -- |*| sustain 2
+   -- |*| decay 2
+   |*| slow 5 (voice "-4 -1 0 1 4")
+ #+END_SRC
+** supermandolin -- harsh harpsichord
+*** parameters
+    freq,
+    detune=0.2, -- offsets the ?two oscillators' pitches
+    sustain=1,
+    accelerate,
+    pan,
+*** experiments
+ #+BEGIN_SRC haskell
+ d1 $ slow 3 $ s "supermandolin" |*| n "-36 -24 -12 0 12 24 36"
 
-d1 $ slow 3 $ s "superzow" |*| n "-36 -24 -12 0 12 24 36"
-  |*| slide 0.01
-  |*| detune 0.1
+ d1 $ slow 3 $ s "supermandolin" |*| n "-36 -24 -12 0 12 24 36"
+   |*| detune 0.1
 
-d1 $ slow 3 $ s "superzow" |*| n "-36 -24 -12 0 12 24 36"
-  |*| slide 1
-  |*| sustain 3
-  |*| decay 1
+ d1 $ slow 3 $ s "supermandolin" |*| n "-36 -24 -12 0 12 24 36"
+   |*| sustain 0.25
 
-d1 $ slow 3 $ s "superzow" |*| n "-36 -24 -12 0 12 24 36"
-  |*| sustain 2
-  |*| decay 0
-  |*| slow 4 (accelerate "0 0.4")
-#+END_SRC
-** observations
-**** The highest pitches are flat.
-**** Higher pitches are louder.
-* supercomparator -- I do not understand
-** params
-*** voice     = 0.5, useful around [0,64]
-    Low pitches seem unaffected.
-    Middle values add noise to middle and high ppitches.
-    High values have very strange effects at high pitches.
-*** rate      = 1,
-*** decay     = 0,
-*** lfo       = 1, -- effect on filter freq
-*** resonance = 0.5, -- filter resonance
-*** pitch1    = 1, -- scaling of filter freq by input pitch
-*** sustain   = 1,
-*** accelerate,
-*** freq,
-*** pan,
-** experiments
-#+BEGIN_SRC haskell
-setcps 0.4
+ d1 $ slow 3 $ s "supermandolin" |*| n "-36 -24 -12 0 12 24 36"
+   |*| sustain 3
 
-d1 $ s "supercomparator" |*| n "-36 -24 -12 0 12 24 36"
+ d1 $ slow 3 $ s "supermandolin" |*| n "-36 -24 -12 0 12 24 36"
+   |*| accelerate (-0.25)
+   |*| sustain 3
 
-d1 $ s "supercomparator" |*| n "-36 -24 -12 0 12 24 36"
-  |*| slow 5 (voice "0 1 4 16 64")
+ d1 $ slow 3 $ s "supermandolin" |*| n "-36 -24 -12 0 12 24 36"
+   |*| detune (-0.5)
+   |*| accelerate (-0.25)
+   |*| sustain 3
+ #+END_SRC
+*** higher pitches are louder
+ #+BEGIN_SRC haskell
+ d1 $ slow 4 $ s "supermandolin"
+   |*| sustain 8
+   |*| n "[-36,-24,-17,-12,-8.14] [-36,-24,-17] -36"
+ #+END_SRC
+*** sounds best around [-24,7]
+ #+BEGIN_SRC haskell
+ d1 $ s "supermandolin"
+   |*| accelerate (-0.1)
+   |*| slow 9 (sustain "0.5 1 2")
+   ,*| n (stack [
+            "<-24 -17 -12> <-9 -6> -5",
+            slow 2 "-9 -5 <0 12> <7 3>"
+            ] )
+ #+END_SRC
+** superzow -- phased saws, narrow timbral range
+*** parameters
+**** slide   = 1 -- dramatic tone, confusing
+     and it has no obvious effect on perceived pitch
 
-d1 $ s "supercomparator" |*| n ("0 1 2" + 48)
-  |*| voice "64" |*| gain 2
+     slide 0 => sinewave-like
+     slide 0.01 => buzzy
+     slide 1 => buzzy
+     slide 10 = bouncy in low resters, singy in higher ones
+     slide 100 = inaudible in low registers, flutelike in high ones
+**** detune  = 1, -- dramatic tone, confusing
+     detune 0 = saw-like
+     Seems to be in a multiple of hertz, not logarithmic.
+**** sustain = 1,
+**** decay   = 0, -- helpful
+**** accelerate,
+     big negative values can kill it
+**** freq,
+**** pan,
+*** experiments
+ #+BEGIN_SRC haskell
+ d1 $ slow 3 $ s "superzow" |*| n "-36 -24 -12 0 12 24 36"
 
-d1 $ s "supercomparator" |*| n "-36 -24 -12 0 12 24 36"
-  |*| voice "4"
-  |*| rate 2
-  |*| lfo 100
-  |*| resonance 0.5
+ d1 $ slow 3 $ s "superzow" |*| n "-36 -24 -12 0 12 24 36"
+   |*| slide (-10)
 
-d1 $ s "supercomparator" |*| n "-36 -24 -12 0 12 24 36"
-  |*| voice 1
-  |*| rate 0.1
-  |*| lfo 10
-  |*| resonance 0.9
-  |*| pitch1 -1
-#+END_SRC
+ d1 $ slow 3 $ s "superzow" |*| n "-36 -24 -12 0 12 24 36"
+   |*| slide 0.01
+   |*| detune 0.1
 
-* supertron -- thick lows, flutey highs
-** parameters
-*** voice, -- number of voices
-*** detune
-*** sustain,
-*** accelerate,
-*** freq, -- nice in low|mid registers
-** experiments
-#+BEGIN_SRC haskell
-setcps 0.4
+ d1 $ slow 3 $ s "superzow" |*| n "-36 -24 -12 0 12 24 36"
+   |*| slide 1
+   |*| sustain 3
+   |*| decay 1
 
-d1 $ s "supertron" |*| n "-36 -24 -12 0 12 24 36"
+ d1 $ slow 3 $ s "superzow" |*| n "-36 -24 -12 0 12 24 36"
+   |*| sustain 2
+   |*| decay 0
+   |*| slow 4 (accelerate "0 0.4")
+ #+END_SRC
+*** observations
+***** The highest pitches are flat.
+***** Higher pitches are louder.
+** supercomparator -- I do not understand
+*** params
+**** voice     = 0.5, useful around [0,64]
+     Low pitches seem unaffected.
+     Middle values add noise to middle and high ppitches.
+     High values have very strange effects at high pitches.
+**** rate      = 1,
+**** decay     = 0,
+**** lfo       = 1, -- effect on filter freq
+**** resonance = 0.5, -- filter resonance
+**** pitch1    = 1, -- scaling of filter freq by input pitch
+**** sustain   = 1,
+**** accelerate,
+**** freq,
+**** pan,
+*** experiments
+ #+BEGIN_SRC haskell
+ setcps 0.4
 
-d1 $ s "supertron" |*| n "-36 -24 -12 0 12 24 36"
-  |*| detune (-16.1)
-  |*| voice 4
+ d1 $ s "supercomparator" |*| n "-36 -24 -12 0 12 24 36"
 
-d1 $ s "supertron" |*| n "-36 -24 -12 0 12 24 36"
-  |*| detune (-16.1)
-  |*| voice 4
-  |*| sustain 0.1
+ d1 $ s "supercomparator" |*| n "-36 -24 -12 0 12 24 36"
+   |*| slow 5 (voice "0 1 4 16 64")
 
-d1 $ slow 2 $
-  s "supertron" |*| n "-36 -24 -12 0 12 24 36"
-  |*| voice 4
-  |*| fast 14 (accelerate "-0.05 0.05")
+ d1 $ s "supercomparator" |*| n ("0 1 2" + 48)
+   |*| voice "64" |*| gain 2
 
-d1 $ s "supertron"
-  |*| fast 2 (n $ "0 3 7" )
-  |*| detune "[0.1,0.2,0.3]" -- parallel detunes sound nuts!
+ d1 $ s "supercomparator" |*| n "-36 -24 -12 0 12 24 36"
+   |*| voice "4"
+   |*| rate 2
+   |*| lfo 100
+   |*| resonance 0.5
 
-d1 $ s "supertron" -- Busy two-voice harmonies sound djent.
-  |*| fast 2 (let pat = "0 3 7"
-              in n $ stack [ slow (slow 4 "1 4") pat
-                           , fast (slow 8 "1 2")
-                             $ early 0.25 pat ] )
-  |+| n "[-24,-12,-5]"
-  |*| crush 0.3
-#+END_SRC
-* superchip
-** parameters
-*** slide   = 0, -- linear
-*** rate    = 1, -- number of slides per note
-*** pitch2  = 2, -- multiple of the base freq in hz
-*** pitch3  = 3, -- multiple of the base freq in hz
-*** voice   = 0, -- weird!
-    "causes variations in the levels of the 3 oscillators"
-    0 seems to be the richest.
-    Above 0.5 kills pitch0.
-    Seeing the definition, values outside of [0,1] still seem useful,
-    but I'm not seeing how in experiments.
-*** sustain = 1,
-*** accelerate,
-*** freq
-    Low ones are nice, warm.
-*** pan,
-** experiments
-#+BEGIN_SRC haskell
-setcps 0.4
+ d1 $ s "supercomparator" |*| n "-36 -24 -12 0 12 24 36"
+   |*| voice 1
+   |*| rate 0.1
+   |*| lfo 10
+   |*| resonance 0.9
+   |*| pitch1 -1
+ #+END_SRC
 
-d1 $ s "superchip" |*| n "-36 -24 -12 0 12 24 36"
+** supertron -- thick lows, flutey highs
+*** parameters
+**** voice, -- number of voices
+**** detune
+**** sustain,
+**** accelerate,
+**** freq, -- nice in low|mid registers
+*** experiments
+ #+BEGIN_SRC haskell
+ setcps 0.4
 
-d1 $ s "superchip" |*| n "-36 -24 -12 0 12 24 36"
-  |*| slide 0.2 |*| rate 4 -- these combine like vibrato
+ d1 $ s "supertron" |*| n "-36 -24 -12 0 12 24 36"
 
-d1 $ s "superchip" |*| n "-36 -24 -12 0 12 24 36"
-  |*| slide 1 |*| rate 3 -- these combine like triplets
+ d1 $ s "supertron"
+   |*| n "-36 -24 -12 0 12 24 36"
+   |*| detune (100)
+   |*| voice 10
 
-d1 $ s "superchip" |*| n "-36 -24 -12 0 12 24 36"
-  |*| sustain 0.5
-  |*| slide 10 |*| rate 3 -- these combine like triplets
-  |*| accelerate (-2) -- this fights the slides
+ d1 $ s "supertron" |*| n "-36 -24 -12 0 12 24 36"
+   |*| detune (-16.1)
+   |*| voice 4
+   |*| sustain 0.1
 
-d1 $ s "superchip" |*| n "-36 -24 -12 0 12 24 36"
-  |*| slide 0.1 |*| rate 3 -- these combine like triplets
-  |*| voice 1
+ d1 $ stack
+   [  s "supertron" |*| gain 0.7
+      |+| slow 4 (n "0 [3 5] 10 [14 7]")
+      |+| fast 1 (n "[-12 0]*2 ~ 0 -12 ~ 0")
+      |*| fast (slow 3 "1 2 4") (gain "0.8 1")
+      |*| fast 4 (accelerate "-0.05 0.05")
+   , palindrome $ brak $ slow (slow 8 "1 2")
+     $ s "bd hc*2 sn hc*2" ]
 
-d1 $ s "superchip" |*| fast 4 (n "0 3 <[5 <3 ~>] 7>")
-  |*  pitch2 (12/5 + 5 * slow 3 tri)
-  |*  pitch3 (3 + 10 * slow 5 tri)
-  |*  fast (5/4) (voice "0 0.6") -- above 0.5 kills pitch0
-  |*| slide (-0.03) |*| rate 4
-#+END_SRC
-* three similar subtractive synths
+ d1 $ slow 2
+   $ s "supertron" |*| (let pat = n "0 1.4 3 7 8.4 10"
+			 in stack [ fast 2 pat,
+				    0.25 <~ (pat - 24) ] )
+
+ d1 $ s "supertron"
+   |*| fast 2 (n $ "0 3 7" )
+   |*| detune "[0.1,0.2,0.3]" -- parallel detunes sound nuts!
+
+ d1 $ s "supertron" -- Busy two-voice harmonies sound djent.
+   |*| fast 2 (let pat = "0 3 7"
+	       in n $ stack [ slow (slow 4 "1 4") pat
+			    , fast (slow 8 "1 2")
+			      $ early 0.25 pat ] )
+   |+| n "[-24,-12,-5]"
+   |*| crush 0.3
+ #+END_SRC
+** superchip
+*** parameters
+**** slide   = 0, -- linear
+**** rate    = 1, -- number of slides per note
+**** pitch2  = 2, -- multiple of the base freq in hz
+**** pitch3  = 3, -- multiple of the base freq in hz
+**** voice   = 0, -- weird!
+     "causes variations in the levels of the 3 oscillators"
+     0 seems to be the richest.
+     Above 0.5 kills pitch0.
+     Seeing the definition, values outside of [0,1] still seem useful,
+     but I'm not seeing how in experiments.
+**** sustain = 1,
+**** accelerate,
+**** freq
+     Low ones are nice, warm.
+**** pan,
+*** experiments
+ #+BEGIN_SRC haskell
+ setcps 0.4
+
+ d1 $ s "superchip" |*| n "-36 -24 -12 0 12 24 36"
+
+ d1 $ s "superchip" |*| n "-36 -24 -12 0 12 24 36"
+   |*| slide 0.2 |*| rate 4 -- these combine like vibrato
+
+ d1 $ s "superchip" |*| n "-36 -24 -12 0 12 24 36"
+   |*| slide 1 |*| rate 3 -- these combine like triplets
+
+ d1 $ s "superchip" |*| n "-36 -24 -12 0 12 24 36"
+   |*| sustain 0.5
+   |*| slide 10 |*| rate 3 -- these combine like triplets
+   |*| accelerate (-2) -- this fights the slides
+
+ d1 $ s "superchip" |*| n "-36 -24 -12 0 12 24 36"
+   |*| slide 0.1 |*| rate 3 -- these combine like triplets
+   |*| voice 1
+
+ d1 $ s "superchip" |*| fast 4 (n "0 3 <[5 <3 ~>] 7>")
+   |*  pitch2 (12/5 + 5 * slow 3 tri)
+   |*  pitch3 (3 + 10 * slow 5 tri)
+   |*  fast (5/4) (voice "0 0.6") -- above 0.5 kills pitch0
+   |*| slide (-0.03) |*| rate 4
+ #+END_SRC
 ** superpwm -- sounds like "beo"
    2 oscillators
 *** parameters
@@ -377,56 +404,77 @@ d1 $ s "superchip" |*| fast 4 (n "0 3 <[5 <3 ~>] 7>")
  #+END_SRC
 *** observations
     Good low default.
-* superhoover -- thick, fuzzy
-** parameters
-*** slide      = 0 : 0.5 = rise one semitone into the pitch.
-    negative = fall into the pitch.
-*** sustain    = 1
-*** decay      = 0
-*** pan
-*** freq
-*** accelerate = 0
-** experiments
-#+BEGIN_SRC haskell
-setcps 0.4
+** superhoover -- thick, fuzzy
+*** parameters
+**** slide      = 0 : 0.5 = rise one semitone into the pitch.
+     negative = fall into the pitch.
+**** sustain    = 1
+**** decay      = 0
+**** pan
+**** freq
+**** accelerate = 0
+*** experiments
+ #+BEGIN_SRC haskell
+ setcps 0.4
 
-d1 $ s "superhoover" |*| n "-36 -24 -12 0 12 24 36"
+ d1 $ s "superhoover" |*| n "-36 -24 -12 0 12 24 36"
 
-d1 $ slow 1 $ s "superhoover"
-  |*| n ("0 2.7 7" )
-  |*| slide (2)
-#+END_SRC
-** observations
-   Below n = -12, gets pretty muddy.
-* supervibe
-** parameters
-*** velocity   = 1
-*** modamp     = 1
-*** modfreq    = 7.0
-*** detune     = 0
-*** sustain    = 1
-*** decay      = 0
-*** pan
-*** freq
-    Pitch clearly identifiable around n = [-12,48].
-*** accelerate = 0
-** experiments
-#+BEGIN_SRC haskell
-setcps 0.4
+ d1 $ slow 1 $ s "superhoover"
+   |*| n ("0 2.7 7" )
+   |*| slide (2)
+ #+END_SRC
+*** observations
+    Below n = -12, gets pretty muddy.
+** supervibe
+*** parameters
+**** velocity   = 1,
+     0 is lowest, negative is louder, 10 squeals
+ #+BEGIN_SRC lisp
+ d1 $ stack [ s "supervibe" |*| n 0
+              |*| velocity "~ -1 0 1 10"
+              |*| amp      "1 1  1 1 0.3"
+            , s "bd" ]
+ #+END_SRC
+**** modamp     = 1 : tremolo strength, good in at least [-8,8]
+     I like negative values better.
+**** modfreq    = 7.0 : tremolo speed
+**** detune     = 0
+**** sustain    = 1
+**** decay      = 0
+**** pan
+**** freq
+     Pitch clearly identifiable around n = [-12,48].
+**** accelerate = 0
+*** experiments
+ #+BEGIN_SRC haskell
+ setcps 0.4
 
-d1 $ s "supervibe"
-  |*| n "-36 -24 -12 0 12 24 36 0"
+ -- -36 is pretty inharmonic
+ d1 $ s "supervibe" |*| n "[-48,-24] -36"
+   |+| ( let pat = "0 7 14"
+         in n $ stack [ slow (3/4) $ pat + 12,
+			pat,
+			slow 2 $ 0.5 <~ (pat + 24) ] )
 
-d1 $ s "supervibe"
-  |*| n "-12 0 12 24 36 48"
+ d1 $ s "supervibe"
+   |*| n "-12 0 12 24 36 48"
 
-d1 $ slow 2 $ s "supervibe"
-  |*| n ( let pat = "0 2.7 [5 2.7] 7 [7.7 7] 9.7"
-          in stack [ palindrome $ pat
-                   , slow (3/2) (0.5 <~ pat) - 12
-                   , fast 2 $ palindrome $ pat |+| "14.7 19"
-                   ] )
-#+END_SRC
+ d1 $ s "supervibe"
+   |*| n (slow 3 "-12 0 12 24 36 48")
+   |* modamp (rand * (-8)) |* modfreq (10 * rand)
+
+ d1 $ stack [ s "supervibe" |*| n 0
+              |*| velocity "~ -1 0 1 10"
+              |*| amp      "1 1  1 1 0.3"
+            , s "bd" ]
+
+ d1 $ slow 2 $ s "supervibe"
+   |*| n ( let pat = "0 2.7 [5 2.7] 7 [7.7 7] 9.7"
+           in stack [ palindrome $ pat
+                    , slow (3/2) (0.5 <~ pat) - 12
+                    , fast 2 $ palindrome $ pat |+| "14.7 19"
+                    ] )
+ #+END_SRC
 * a bunch at once
 #+BEGIN_SRC haskell
 d1 $ stack [

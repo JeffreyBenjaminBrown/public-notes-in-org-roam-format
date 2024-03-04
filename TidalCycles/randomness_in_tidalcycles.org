@@ -4,7 +4,7 @@
 #+title: randomness in TidalCycles
 * random continuous signals
 ** [[id:2cdd3ed2-a2fc-4e66-b998-498808d8d2ac][irand : int -> random int from 0 to n-1 \\ Tidal]]
-** [[id:fea45c25-3c75-49f1-a9bd-a3815c5a487c][rand : random unit float \\ Tidal]]
+** [[id:fea45c25-3c75-49f1-a9bd-a3815c5a487c][rand : random float in [0,1] \\ Tidal]]
 * random transformations
 ** sometimes, often :: change -> pattern -> pattern
 ** degradeBy x = drop event with probability x

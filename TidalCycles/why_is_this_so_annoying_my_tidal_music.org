@@ -1,0 +1,68 @@
+:PROPERTIES:
+:ID:       fccf9a84-f072-4ac6-94cf-c9b4df503a6e
+:END:
+#+title: why is this so annoying? \ my Tidal music
+#+BEGIN_SRC haskell
+setcps 1
+
+globals = (gain 0.5 |*|)
+
+d1 $ globals $ s "supervibe"
+  |*| n (slow 2 "[-12 <-9.3 -6.5>, 0] 7 [3 <1.4 8.4> 7]")
+
+wait 1 1 $ globals $ s "bd ~ hh" |* (palindrome $ pan "0 1")
+
+d1 $ globals $ every 4 (fast $ 3/2) $ stack
+  [ s "bd [<lt ht> <ht lt>] hh" |* (palindrome $ pan "0 1")
+  , s "hc*3" |*| speed (slow 2 "[0.8*3] 1 1.2") ]
+
+d1 $ globals $ stack
+  [ s "bd [<lt ht> <ht lt>] hh" |* (palindrome $ pan "0 1")
+  , s "hc*3" |*| speed (slow 2 "[0.8*3] 1 1.2")
+  , s "supervibe" |*|
+    n (slow 2 "[-12 <-9.3 -6.5>, 0] 7 [3 <1.4 8.4> 7]") ]
+
+d1 $ globals $ stack
+  [ s "supervibe" |*|
+    n (slow 2 "[-12 <-9.3 -6.5>, 0] 7 [3 <1.4 8.4> 7]")
+  , s "gabba" ]
+
+jumpMod 1 4 $
+
+d1 $ globals $ stack
+  [ s "bd [<lt ht> <ht lt>] hh" |* (palindrome $ pan "0 1")
+  , s "hc*3" |*| speed (slow 2 "[0.8*3] 1 1.2")
+  , s "supersaw"
+    |*| n ( every' 4 3 (0.13 <~)
+            $ slow 2 "[-12 ~, 0] <7 ~> [3 <1.4 8.4> 7]" )
+    |+| n (-24)
+    |+| n (slow 4 "0 [3 5]")
+    |+| n (slow 16 "0 3 5 [3 1.4]")
+    |*| lpf 500
+    |*| hpf   (slow 16 "0   0 [300 450 600 750] 0")
+    |*| crush (slow 16 "64 64 4                 64")
+  ]
+
+d1 $ globals $ s "supertron"
+  |*| ( let pat = "0 <2.7 [5 5.5]> <7 9.7>"
+        in n $ stack [ slow 2 $ pat |+| "[0,12]"
+                     , 0.5 <~ pat + 24 ] )
+  |+| n (-24)
+  |+| n (slow 4 "0 [2.7 5]")
+  |* pan (fast (2/3) tri)
+
+d1 $ globals $ stack
+  [ s "bd [<lt ht> <ht lt>] hh" |* (palindrome $ pan "0 1")
+  , s "hc*3 bleep:1"
+    |*| speed (slow 2 "[0.8*3] 1 1.2")
+    |* gain (slow (4/5) "0.7 0.85 1")
+  , s "supertron" |*|
+    n (let pat = "[0 ~, -12] <~ 7> [<2.7 ~> <1.4 8.4> 7]"
+        in stack [ slow 2 $ pat - 12,
+                   pat + 7
+                 ] )
+    |+| n (slow 4 "0 [3 5]")
+    |+| n (slow 16 "0 3 5 3")
+  ]
+  |* squiz (slow 2 "0!3 <1 4>")
+#+END_SRC

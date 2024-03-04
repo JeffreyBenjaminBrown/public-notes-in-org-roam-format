@@ -34,9 +34,15 @@
 ** foo = drumbeats
 * figuring out durations
 ** "bev" is 16 seconds long
-* TODO samples I need
-  ride cymbal
-  crash cymbal
+* TODO samples I want
+  :PROPERTIES:
+  :ID:       8a0faa02-8ae2-4d85-829a-89319b8d54c5
+  :END:
+** ride cymbal
+** crash cymbal
+** rubber band
+*** jaw harp
+** cowbell
 * TODO forking the samples
 ** Rename files.
    Symbolic links don't work.

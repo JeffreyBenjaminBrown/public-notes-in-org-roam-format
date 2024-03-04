@@ -2,6 +2,7 @@
 :ID:       8582cec9-74e2-4664-a6d7-946c2ba240e0
 :END:
 #+title: meditation
+* [[id:34eec7d5-1a87-4de2-a894-e1d58ab0aded][normal life is anti-meditation]]
 * [[id:9d1cc360-4fce-4cd4-9176-8f12670add90][attention]]
 * [[id:0334782e-dd39-49e7-b296-ad1375ce404a][meditation => calm purpose]]
 * [[id:05a84243-9dcf-4492-b81e-a48fd2f53b3c][knowledge graphs and/or meditation]]
