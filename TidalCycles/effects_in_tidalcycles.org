@@ -2,14 +2,113 @@
 :ID:       82eb4202-2da9-43b1-9f89-ab2d3d8fbbd1
 :END:
 #+title: effects in TidalCycles
-* [[id:69be0c4b-551a-4c77-9185-84e784c2e4ef][truncating long samples : `cut` and `legato`]]
-* "vowel" is like "s" for filters instead of samples
-  where the filters are named a, e, i, o, and u
-* delay has four parameters
-  d1 $ sound "cp" # delay 0.8 # delaytime (1/6) # delayfeedback 0.6 # lock 1
-  "lock 1" indicates that "the time provided to delaytime is in cycles instead of seconds".
-* reverb has three parameters: dry, room and size
-  d1 $ sound "[~ hh]*2" # dry 0 # room 0.5 # size 0.5
-       |* amp 0.4
-* lo- and hi-pass filters: cutoff and resonance, hcutoff and hresonance
-  reso is in [0,1], cutoff in Hz
+* refs
+  [[~/.local/share/SuperCollider/downloaded-quarks/SuperDirt/library/default-effects-extra.scd]]
+  https://tidalcycles.org/docs/reference/audio_effects/
+* timbre
+** filters
+*** common to all (I think)
+    reso is in [0,1]
+    cutoff is in Hz
+*** filters
+**** djf : 1-parameter filter, in [0,1]
+     0 = low pass, 1 = high pass
+**** "vowel" is like "s" for filters instead of samples
+     where the filters are named a, e, i, o, and u
+**** low pass filter
+     cutoff / lpf    : cutoff amount in hertz
+     resonance / lpq : from 0 to 1
+**** high pass filter
+     hcutoff / hpf    : cutoff amount in hertz
+     hresonance / hpq : resonance
+**** band pass filter
+     bandf / bpf : center frequency in hertz
+     bandq / bpq : resonance
+**** spectral comb filter
+     comb :: number of teeth and width of the comb filter
+**** spectral HPF : one parameter, "hbrick", in [0,1]
+**** spectral LPF : one parameter, "lbrick", in [0,1]
+** freq shift has absolute and proportional components
+   var shift = freq * fshiftnote + fshift
+** ring mod has a mysterious "slide" parameter
+   ring: modulation amount
+   ringf: modulation frequency
+   ringdf: slide in modulation frequency
+** distortions
+*** distort : 1 parameter
+*** triode : 1 parameter
+*** shape : 1 parameter, in [0,1]
+** squiz : raise pitch by chopping & hurrying chopped bits
+   so it should reduce volume, I guess
+* time
+** delay - can be cps-synced with `lock`
+   d1 $ sound "cp" # delay 0.8 # delaytime (1/6) # delayfeedback 0.6 # lock 1
+*** delay: wet/dry
+*** delaytime / delayt: delay time
+*** delayfeedback / delayfb: feedback amount
+*** lock = 0
+    In {0,1}.
+    0 => delaytime is absolute.
+    1 => delaytime is a multiple of cps.
+** spectral delay
+   :PROPERTIES:
+   :ID:       f963163b-82d2-4cb2-887f-6fe8495e4d05
+   :END:
+   tsdelay = 0.5
+   xsdelay = 0.5
+** reverb
+*** an example
+#+BEGIN_SRC haskell
+d1 $ sound "[~ hh]*2" # dry 0 # room 0.5 # size 0.5
+     |* amp 0.4
+#+END_SRC
+*** parameters
+    dry       :: dry amount
+    room      :: room size
+    size / sz :: metaphor for depth
+* warble
+** leslie (complicated)
+** phaser
+   phasr  | phaserrate  :: speed
+   phasdp | phaserdepth :: depth
+** trem
+   tremdp | tremolodepth :: tremolo depth
+   tremr  | tremolorate  :: tremolo speed
+* envelope
+** ASR envelope
+   attack / att  :: in seconds
+   hold          :: in seconds
+   release / rel :: in seconds
+** [[id:69be0c4b-551a-4c77-9185-84e784c2e4ef][truncating long samples : `cut` and `legato`]]
+* spectral
+** [[id:f963163b-82d2-4cb2-887f-6fe8495e4d05][spectral delay]]
+** spectral freeze ("magnitude freeze" in docs)
+   "freeze" is the only parameter.
+** "smear" : "magnitude smearing"
+** spectral conformer : conformal map
+*** parameters : real & imag
+*** "normally want |a| < 1"
+*** a = 0 should be close to the identity map
+** "enhance"
+   documented only in SuperCollider :
+     https://doc.sccode.org/Classes/PV_SpectralEnhance.html
+* TODO "bins" (in what space?)
+** `binshift` (one parameter)
+   "Shift and scale the position of the bins. Can be used as a very crude frequency shifter/scaler."
+** `scram`
+   "Accepts floats to control the width and placement of the scrambling in the spectrum"
+* dunno
+** crush : in [1,16]
+   "1 for a drastic reduction in bit-depth, 16 for barely no reduction"
+** coarse : "Fake audio resampling"
+   "1 for original, 2 for half, 3 for a third" etc.
+** waveloss : discard some of the wave
+   Silence some fraction of the sections of the wave,
+   which are defined by 0-crossings.
+*** mode     : 1 for deterministic, 2 for random
+*** waveloss : looks like a percentage, 0 to 100
+    It looks like integers will work, maybe not floats,
+    0 gives original signal and 100 discards everything.
+** krush
+   krush   : dry-wet (0 for dry)
+   kcutoff : cutoff of the krush filter
