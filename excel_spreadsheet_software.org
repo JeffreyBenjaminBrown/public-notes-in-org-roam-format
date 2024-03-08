@@ -14,3 +14,8 @@
       "vat-by-coicopunicode.txt",
       sep = "\t" )
 * [[id:78ce741f-4f43-4afb-a360-3a9a7aece724][read_excel (Pandas function)]]
+* to read CSV data in Excel
+  Open the file normally.
+  Highlight all rows.
+  Choose "Data -> Texto en Colomnas".
+  Follow prompts.
