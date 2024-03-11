@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       ed09b165-833a-472d-90d8-fb30f43ee1f1
+:END:
+#+title: Just Breathe, by Pearl Jam
+* selected parts
+** verse
+ Yes, I understand / That every life must end   [0, 7]
+ As we sit alone / I know someday we must go
+ Oh, I'm a lucky man / to count on both hands
+   The ones I love
+ Some folks just have one / Yeah others they got none
+** bridge
+ Stay with me, Let's just breathe [9, 5]
+** chorus
+ Did I say that I need you? [7, 2]
+ Did I say that I want you?
+ Oh, if I didn't, I'm a fool [5, 9]
+ No one knows this more than me [2m, 0\5, 11\7]
+ As I come clean
+** verse 2
+ I wonder every day
+ As I look upon your face
+ Everything you gave
+ And nothing you would take
+** bridge 2
+ Stay with me, oh lord I see [9, 5]
+* two possible orders
+** v, b, c | v2, b2, c
+** v, b, pause| v instr, b2, c| v2, b, c| v instr
+   instr = instrumental

@@ -2,6 +2,12 @@
 :ID:       4926ca3b-cc5f-486e-87d3-6e960af95a25
 :END:
 #+title: AI image generation prompts I've used
+* dancer summons baby
+  Vector graphics style. An Egyptian girl in desert-appropriate clothing dances next to a cauldron from which emerges an adorable, smiling chubby baby in a top hat and a monocle. The dancing girl has summoned the baby. The background is a snowy 16-bit desert with disco lights.
+* digital snowy desert path
+Draw a scene in the style of a vector graphics cinematographic platform game. The view is of a winding path through the hills of a snowy desert, three-dimensionally, toward the horizon. There are a few big, chunky, angular items in the desert: a 3d snow-covered algorithmic cactus with too many branches, a randomly upside-down house, a lizard, and a chubby moustachioed baby. Everything is abstract. exaggeratedly simplified, cubist, extremely low-resolutionn. The shapes fly out from the center of the image, giving a disorienting, vertiginous, explosive feel.
+
+In the background, the sky falls apart into fractal digital noise, like analog video feedback or the logistic map.
 * cleopatra, chimp and slaves
 Giant Cleopatra and a giant glabrous chimpanzee stand together on a pedestal. Below them, groups of small brown-skinned Egyptian laborers carry enormous vegetables toward the pyramids in the distance. It takes three little laborers to carry one broccoli.
 
