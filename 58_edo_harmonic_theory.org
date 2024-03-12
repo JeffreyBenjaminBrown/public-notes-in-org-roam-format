@@ -4,6 +4,11 @@
 #+title: 58-edo harmonic theory
 * [[id:7c52046e-129f-4b0a-adc7-1d69ddd18232][58-edo intervals in the 17-limit + 29 group]]
 * [[id:ee622f95-a99f-4a4b-bb5d-18d48c16b15b][58-edo scales, chords and harmonies]]
+* symmetric chords
+** augmented
+   19 + 21 + 18 = 5/4 + 9/7 + almost 5/4 = 2
+** diminished Starling : 6/5*3 + 7/6 = 2
+** diminished, another great : 7/6 + 6/5 + 7/6 + 11/9 = 2
 * Almost every interval is within 5 cents of a 15-limit ratio.
   The only exceptions are intervals less than 100 cents and intervals between 300 and 400 cents (or the octave-inverse of those conditions).
 

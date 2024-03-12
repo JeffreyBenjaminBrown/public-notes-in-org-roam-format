@@ -1782,6 +1782,13 @@ octave 3:	(-7,34)
     , etrTuning = Edo 65 ; StringGap 11 ; FretGap 8
     , etrArea = 30
 * TODO 72-edo
+** Marvel-compatible = augmented chords are great!
+   (15 / 8)    = (5/4) * (9/7) * (7/6),
+     True in anything consistent in the 15-limit.
+   (65 = 15/8) =     (23 = 5/4) + (26 = 9/7) + (16 = 7/6)
+   (72 = 2/1)  = 2 * (23 = 5/4) + (26 = 9/7)
+     This is an essentially tempered chord,
+     special to 72 and a few others.
 ** 72 27 2: 31-limit sans 21:16 fits in 3x15
    :PROPERTIES:
    :ID:       f1c002e1-f05c-474a-b19c-eec0dee222ee
