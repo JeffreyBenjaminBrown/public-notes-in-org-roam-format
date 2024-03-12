@@ -1,5 +1,15 @@
 :PROPERTIES:
 :ID:       39d675f5-92d0-4777-a55f-8fbdc3c1543b
+:ROAM_ALIASES: magit
 :END:
 #+title: magit (Emacs mode)
 * [[id:6b8c2c9c-2290-4f85-8278-9af53c57984b][magit & diff // to change options]]
+* to save settings (e.g. diff) persistently
+  :PROPERTIES:
+  :ID:       e57211a5-3b1c-450e-a7a7-9ed70f235223
+  :END:
+  https://magit.vc/manual/transient/Saving-Values.html
+** C-x s (transient-set)
+   This command saves the value of the active transient for this Emacs session.
+** C-x C-s (transient-save)
+   Save the value of the active transient persistently across Emacs sessions.

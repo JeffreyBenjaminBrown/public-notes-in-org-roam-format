@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       6b8c2c9c-2290-4f85-8278-9af53c57984b
-:ROAM_ALIASES: diff & magit // to change options
+:ROAM_ALIASES: "diff & magit // to change options"
 :END:
 #+title: magit & diff // to change options
 There's another way, but this seems easier.
@@ -12,3 +12,4 @@ There's another way, but this seems easier.
 * how to see what options are toggled
 ** Press 'D' to show them.
 ** Any that are on will be in bold.
+* [[id:e57211a5-3b1c-450e-a7a7-9ed70f235223][to save settings (e.g. diff) persistently]]
