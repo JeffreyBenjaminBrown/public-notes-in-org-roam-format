@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       f2cb05a8-11e3-4260-94b7-f9033d301698
+:END:
+#+title: documentation testing
+Buenas tardes a todos!
+
+Esto va a sonar como aún otra tarea. Pero sería una manera de liberarnos de muchísimas horas de trabajo aburrido, repetitivo y redundante.
+
+He hablado de la idea con algunos de ustedes, pero hasta ahora me ocurre un nombre para ella, y el nombre me ayudó a cristalizarla en mi mente como un fin factible y valioso.
+
+Los programadores usan pruebas para estar seguro de que sus programas sirven. La documentación es, efectivamente, un programa para el comportamiento. En general tiene fines -- e.g. hacer uno capaz de instalar tal programa. Pero mientras un programa malo causa consecuencias malos al programador -- le rechazan el trabajo, y tiene que mejorarlo -- la documentación mala no trae consecuencias. Me parece por eso que tenemos procesos que, aunque teóricamente están documentados, en la práctica son imposibles de hacer sin la ayuda de algún experto.
+
+Los programas usan lgún pruebas automáticos, que corren cada vez que uno cambia algo. Pruebas de documentación que corren tan frecuentemente no serían factibles de implementar. Pero aún así, me parece que debe haber una frecuencia a la que si valdrían la pena. Como mínimo, debemos probar la documentación -- es decir, intentar que un humano la sigue exitosamente sin la ayuda de ningún experto -- hasta que hemos validado que eso es factible.
+
+Cordiales saludos,
+Jeff

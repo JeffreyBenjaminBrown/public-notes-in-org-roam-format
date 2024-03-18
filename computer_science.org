@@ -15,6 +15,7 @@
 ** [[id:65e6d519-5dad-4631-bc25-8a5b83e580c1][Ad-hoc polymorphism erodes type safety.]]
 ** surprisingly possible
 *** [[id:62247288-ab76-4425-8421-64bee5b5fb05][automatic documentation via constraints]]
+* [[id:f2cb05a8-11e3-4260-94b7-f9033d301698][documentation testing]]
 * [[id:31fab723-6cfd-4f19-a61e-4b65100504f8][abstractions I like \ computer science]]
 * TODO [[id:4bd7f12e-2061-40e9-9e98-683552f40918][contribute to open source projects]]
 * TODO [[id:90b6eed6-9e66-44de-bbfd-dfc0385bfa35][software development advice, excellent]]

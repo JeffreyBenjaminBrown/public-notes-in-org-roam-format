@@ -68,13 +68,19 @@
 *** transformations X objects
 *** objects X parameters
 * [[id:e529c4b4-f637-431c-9238-56cf412cf649][pitch space: a practice curriculum]]
+* relationships (esp. between hands)
+** follows => call & response
+** complicates, simplifies
+** reverses in freq, time
+** same pitches but new rhythm, or vice-versa
+** slower, faster
 * a selection of bundles from those elements, 2023-07-10
 ** forgetten often :: rhythm | accent | cont* theme | 8ve sep
    *Continue themes. Sometimes radically, always slightly.
 ** waves & transformations
 *** amplitude | rhythm | range
 *** speed :: peace | energy
-*** *slight* changes
+*** *slight* changes :: melody, rhythm, meter
 **** micro-melody = variation in a narrow frequently range
 **** micro-rhythm = trills, etc.
 **** swing (micro-rhythm) helps rhythm

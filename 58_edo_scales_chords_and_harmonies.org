@@ -2,6 +2,27 @@
 :ID:       ee622f95-a99f-4a4b-bb5d-18d48c16b15b
 :END:
 #+title: 58-edo scales, chords and harmonies
+* a nice wide whole-tone scale
+** definition
+   diffs  : - 11 - 10 - 11 - 10 - 11 - 5
+   values : 0,  11,  21,  32,  42,  53
+** why it's good
+   it has two 7:8:9 triads (0 11 21 \ 58)
+* symmetric chords
+** augmented
+*** 19 + 21 + 18
+    = 5/4 + 9/7 + almost 5/4
+*** 17 + 19 + 22
+**** decompositions
+     = (11/9 = 16/13)
+     + 5/4
+     + (13/10 = 17/13 = 22/17)
+**** the JI identity
+     ghci> (16/13) * (5/4) * (13/10)
+     2.0
+*** 19*2 + 20
+** diminished Starling : 6/5*3 + 7/6 = 2
+** diminished, another great : 7/6 + 6/5 + 7/6 + 11/9 = 2
 * Two-octave 11-tone whole-tone scale
   Alternate 10\58 and 11\58.
   Repeats every 2 octaves.

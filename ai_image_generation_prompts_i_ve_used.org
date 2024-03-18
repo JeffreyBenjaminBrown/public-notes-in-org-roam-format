@@ -2,6 +2,8 @@
 :ID:       4926ca3b-cc5f-486e-87d3-6e960af95a25
 :END:
 #+title: AI image generation prompts I've used
+* giant with barnacles
+  A giant pirate covered in seaweed and barnacles, wrapped with a thick pet anaconda, drags a couch through a swamp.
 * dancer summons baby
   Vector graphics style. An Egyptian girl in desert-appropriate clothing dances next to a cauldron from which emerges an adorable, smiling chubby baby in a top hat and a monocle. The dancing girl has summoned the baby. The background is a snowy 16-bit desert with disco lights.
 * digital snowy desert path
