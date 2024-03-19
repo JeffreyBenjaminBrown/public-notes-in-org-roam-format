@@ -6,6 +6,8 @@
 ** for help : the Discourse group
 ** awesome-org-roam : a curated list of resources
    https://github.com/kot-behemoth/awesome-org-roam
+* convert org-roam to HTML
+  https://org-roam.discourse.group/t/presenting-hyperorg-version-0-1-0-the-org-to-html-converter/3396
 * The org-roam FAQ links to docs on publishing as HTML.
   :PROPERTIES:
   :ID:       2b5d33de-7b34-4437-87e3-c021f9a93c94
