@@ -2,5 +2,14 @@
 :ID:       92c1a793-a03b-4f27-9ca3-743448314c00
 :END:
 #+title: 58-edo
+* TODO Extend [[id:f0b6f2cc-c365-4463-99ce-a6092752e8fd][HEWM notation]] to include a 2\58 accidental.
+** why it needs extension
+   81:80 = 64:63 = 1\58,
+   so two of the four HEWM accidental distances are equal.
+   In fact so is 65/64, which is the most obvious extension to the 13-limit
+   (it's the distance between 16/13 and 5/4).
+   But it seems worth introducing a new value equal to 2\58,
+   like 27/26 (the difference between a Pyth sixth and 13/8).
+** TODO or maybe I don't understand [[id:35e37588-7a0a-4fe6-a355-60dcec62d47b][what makes a ratio vanish in an edo?]]
 * [[id:221b6ad3-092d-4674-802c-18458c49ad9b][58-edo harmonic theory]]
 * [[id:5c50007b-9368-44d8-8301-f1bcf58748ef][58-edo isomorphic layouts]]

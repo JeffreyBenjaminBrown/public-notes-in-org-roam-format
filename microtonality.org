@@ -2,6 +2,8 @@
 :ID:       97e78830-11c4-4736-afc3-4669fd94ee2e
 :END:
 #+TITLE: microtonality
+* [[id:f0b6f2cc-c365-4463-99ce-a6092752e8fd][HEWM notation]]
+* [[id:35e37588-7a0a-4fe6-a355-60dcec62d47b][what makes a ratio vanish in an edo?]]
 * TODO [[id:187c2035-12ad-401d-b0c3-af4be228652d][easy, fun Haskell for music : find all the easy divisions of an interval]]
 * [[id:9740fc35-92b5-4285-a6c0-4861c41a28cb][some microtonal musicians]]
 * the [[id:8712f9db-6f65-456d-bd29-7ad8e269a786][Xenharmonic Wiki]]

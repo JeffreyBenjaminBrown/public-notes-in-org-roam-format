@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       f0b6f2cc-c365-4463-99ce-a6092752e8fd
+:END:
+#+title: HEWM notation
+* the gist
+lower raise  2,3,5,7,11-monzo       ratio      ~cents
+
+  b    #    [-11  7,  0  0  0>    2187:2048  113.6850061
+  v    ^    [ -5  1,  0  0  1>      33:32     53.2729432
+  <    >    [  6 -2,  0 -1  0>      64:63     27.2640918
+  -    +    [ -4  4, -1  0  0>      81:80     21.5062896
