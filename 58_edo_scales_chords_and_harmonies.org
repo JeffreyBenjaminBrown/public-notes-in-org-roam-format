@@ -2,17 +2,39 @@
 :ID:       ee622f95-a99f-4a4b-bb5d-18d48c16b15b
 :END:
 #+title: 58-edo scales, chords and harmonies
+* subharmonic series
+** 1/[8..13,15] = 5-limit phrygian* but         16/13
+   with 16/9, not 9/5
+** 1/[8..14   ] = 5-limit phrygian* but 8/7 and 16/13
+   with 16/9, not 9/5
+* the [[id:532a43fe-68b9-4f74-a8c6-30bbff67a36c][two-quarters septimal diminished]] chord fits nicely in a just dom7
+  rooted 6\58 below the top note of the neutral 3rd
+* the [[id:fb41534d-1f92-4eb1-b20f-45a96ff21d36][diminished Starling]] chord fits nicely in a dom7 tup3 tup7
+  The root of the lone 7:6 is the third of the dom7 tup3 tup7
+* [[id:46905408-f047-4926-957f-ac01927e22c4][9-based dom7 chord]]
+  That's dom7 with the 3rd and the 7th raised 2\5:
+  0  21   34   49
+  1  9:7  3:2  9:5
+  [1,  9/7,  3/2,  9/5 :: Rational]
+* add 2\58 to the 3rd and 7th degrees of 4:5:6:7
+  :PROPERTIES:
+  :ID:       eb2589d1-309e-4a17-96fe-a1f1c8be06c9
+  :END:
+  to get 1 : 9/7 : 3/2 : 9/5
+  (And remember, [[id:297305db-3682-4373-b8bd-132b389cb1a4][9:5 sounds at least as good as 16:9]])
 * a nice wide whole-tone scale
 ** definition
    diffs  : - 11 - 10 - 11 - 10 - 11 - 5
    values : 0,  11,  21,  32,  42,  53
 ** why it's good
    it has two 7:8:9 triads (0 11 21 \ 58)
+   and a 15:8 (53)
 * symmetric chords
 ** augmented
-*** 19 + 21 + 18
+*** 19 + 21 + 18 > the other ordering
     = 5/4 + 9/7 + almost 5/4
-*** 17 + 19 + 22
+    I'm not sure why I prefer this to the other but I seem to.
+*** 19 + 22 + 17 = the haromic ordering
 **** decompositions
      = (11/9 = 16/13)
      + 5/4
@@ -21,15 +43,25 @@
      ghci> (16/13) * (5/4) * (13/10)
      2.0
 *** 19*2 + 20
-** diminished Starling : 6/5*3 + 7/6 = 2
-** diminished, another great : 7/6 + 6/5 + 7/6 + 11/9 = 2
+** diminished Starling = 6/5*3 + 7/6 = 2
+   :PROPERTIES:
+   :ID:       fb41534d-1f92-4eb1-b20f-45a96ff21d36
+   :END:
+** diminished, two-quarters septimal = 7/6 + 6/5 + 7/6 + 11/9 = 2
+   :PROPERTIES:
+   :ID:       532a43fe-68b9-4f74-a8c6-30bbff67a36c
+   :END:
+* 10-tone scale with P4 and P5
+  notes             P4    P5
+  pitch - 0 6 12 18 24 29 34 40 46 52
+  diff  -  6 6  6  6  5  5  6  6  6
 * Two-octave 11-tone whole-tone scale
   Alternate 10\58 and 11\58.
   Repeats every 2 octaves.
   11 tones total.
 * There's a diminished chord that's 13:8 wide in root position.
-  0 11 24 35
-* 7:4 + 5:4 = 13:8 + 4:3
-  i.e.
-  40  + 16  = 35   + 21
+    13    15    13
+  0    13    28    41
+* 7:4 + 9:7 = 13:8 + 11:8 = 9:4
+  47  + 21  = 41   + 27   = 10'
 * 3 x 7:6 = 11:8 + 4:3

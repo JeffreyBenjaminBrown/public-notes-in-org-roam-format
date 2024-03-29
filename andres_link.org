@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d3a8c63e-f596-4e8d-adc4-3e4a8d2e3e11
+:END:
+#+title: Andrés Link
+* primatologist at Universidad de Los Andes
+* found that [[id:99950a2e-0a0a-441b-a79d-1a90a3ac4e6b][chimps seem to intentionally ferment fruits for later consumption.]]

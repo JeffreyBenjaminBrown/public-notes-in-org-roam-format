@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       bfe139e1-14a4-4538-82d4-ea11f142e0ce
+:END:
+#+title: just intonation
+* [[id:297305db-3682-4373-b8bd-132b389cb1a4][9:5 sounds at least as good as 16:9]]
+* [[id:46905408-f047-4926-957f-ac01927e22c4][9-based dom7 chord]]
+* nice extensions from 7:6
+  11:6 = neutral 7th
+  10:9 = small major 2nd

@@ -45,6 +45,7 @@ http://x31eq.com/temper/net.html
   John S. Allen
   http://www.bikexprt.com/tunings/tunings3.htm
   (see esp. the picture)
+* [[id:bfe139e1-14a4-4538-82d4-ea11f142e0ce][just intonation]]
 * [[id:4d2aa565-643a-4974-b980-618fc66f8420][my advice re. layouts for small grid controllers]]
 * meh
 ** [[id:57e51492-ac32-4e33-b5b8-9b6eaab4ebb3][some temperament groups with similar (only in Bosanquet?) layouts]]

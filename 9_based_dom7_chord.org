@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       46905408-f047-4926-957f-ac01927e22c4
+:END:
+#+title: 9-based dom7 chord \ just intonation
+* = a dom7 chord with the 3rd and 7th raised about 41 cents
+* possible names
+  https://www.facebook.com/groups/497105067092502?multi_permalinks=3032534503549533&hoisted_section_header_type=recently_seen
+** subharmonic dom7
+** Terrain dom7
+* based on the root = 1,  9/7,  3/2,  9/5
+* divided by 9, it's 1/[9,7,6,5]
+* sounds even better with a ninth (9:4)
+  because everything divides a multiple of it
