@@ -6,3 +6,4 @@
 * Does the salad/calentado come with ham?
   It does at Romanotti.
 * Does _ come with fries? Can I substitute for them?
+* Is it on a polluted street?

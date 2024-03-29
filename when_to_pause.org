@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       385a4f63-eaf8-4fe1-b576-0666ea50dde3
+:END:
+#+title: when to pause
+* Ask for more time when an irreversible operation is about to happen.
+  Then use that time to think about how to assure the outcome is okay,
+  or how to gracefully back out.
+* Meditate when I'm not sure my priorities are straight.
+  esp. when I have witnessed injustice or other bad choices in others.
+* [[id:24594f8d-6a90-4fab-8b46-e2c4412e493c][when entering a password feels wrong]]

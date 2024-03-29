@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       bbd1b9de-c855-41d9-8245-797d09790f87
+:END:
+#+title: splash improv
+* might not be the best name
+* the idea
+  Play the rhythms, registers and number of notes that I would like to,
+  disregarding (perhaps to later fix)
+  the precise pitches in those registers.

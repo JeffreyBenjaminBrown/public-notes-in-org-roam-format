@@ -4,6 +4,7 @@
 :END:
 #+title: musical fundamentals
 * see also [[id:4606bf23-6261-4596-95bc-faf1e9d64b3d][musical exercises]]
+* TODO [[id:bbd1b9de-c855-41d9-8245-797d09790f87][splash improv]]
 * orthogonal sets of elements
 ** relationships
    mostly for voices?

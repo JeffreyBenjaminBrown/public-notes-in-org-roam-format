@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "music exercises"
 :END:
 #+title: musical exercises
+* TODO [[id:bbd1b9de-c855-41d9-8245-797d09790f87][splash improv]]
 * [[id:aca05102-442c-4cef-a920-905efc362bc2][music to emulate]]
 * TODO sensitivity exercises
 ** [[id:d8c61bcd-fd1e-4c7d-9d12-d5e7ff0bdb82][to study the pitches (of an edo)]]
