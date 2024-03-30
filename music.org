@@ -2,99 +2,32 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
-* TODO [[id:cae69966-d3eb-4bc5-8593-37eacaf45878][How did I break a MIDI track in Reaper?]]
-* TODO Start from vocal improv melodies.
-  It would be easier to give shape to a song starting from these than from harmonic content.
-  Also, they are consistently very pleasing to me.
-* Study for dance music
-** G Jones, Phace, 2 Fingers
-* bands and songs I would like to cover
-** Cake
-** Pearl Jam
-*** Nothingman
-*** Oceans
-*** Sirens
-*** Just breathe
-** Our house, by CSNY
-** Have you ever seen the rain, creedence Clearwater revival
-** Enjoy the silence by Depeche mode
-** Reprise, Grizzly bear
-** You are the sunshine of my life, Stevie Wonder
-** Let you break my heart again by laufey
-** How deep Is your Love
-** Stay (Bowie)
-** Right direction (Kimbra)
-** Necessary evil, Unknown Mortal Orchestra)
-** Fly as me (Bruno Mars)
-** Can't fight (Havas)
-** Moonchild (KC)
-* [[id:8e161cfb-b4c5-4202-a87e-242b3a25c038][making a microtonal guitar]]
-* [[id:1b8a682a-db24-42f7-b79a-c615baac7fed][songs, some]]
-* Bosanquet 43 looks nice -- but guitar not so easy.
-* In 34-edo, [[id:12d76fb9-ec45-4ccf-b846-7c563e307931][8:7 * 7:6 > 4:3]]
-* MIDI pedals and Python / Reaper scripts
-** pitch shift
-** make up for lack of volume dynamics
-* TODO download latest Pianoteq
-* TODO merge two docs on algorithmic music
-  from a git merge conflict
-** [[id:ca5b629b-c2d2-4fef-9ae9-38ae2ac52bb4][algorithmic music]] ideas
-** [[id:5e40393b-a042-41d2-ba79-41ab70fc9ba6][algorithmic music ideas, <2023-07-28 Fri>, take 2]]
-* try changing [[id:57bd013c-e96c-4da2-ab7b-d8aefb611da5][VelocityIntrvlTbl \ Lumatone]]
-* [[id:b449bd05-ac06-4548-8982-3a6eb05f5d91][how constraints help \ art]]
-* edit to make everything fast enough
-  Use a tempo map.
-* Do more minor transformations to a theme, held longer, make it easier to remember and resurrect the theme later?
+* [[id:1a7c1761-5d28-4b98-a5f0-1d6651cea8f6][music // composition & software]]
+* [[id:5f1ccc68-6200-4b70-b1e4-8e185ea64322][music production and electronics]]
+* music composition and improvisation
+** [[id:1a7c1761-5d28-4b98-a5f0-1d6651cea8f6][music // composition & software]]
+** TODO Start from vocal improv melodies.
+   It would be easier to give shape to a song starting from these than from harmonic content.
+   Also, they are consistently very pleasing to me.
+** TODO merge two docs on algorithmic music
+   from a git merge conflict
+*** [[id:ca5b629b-c2d2-4fef-9ae9-38ae2ac52bb4][algorithmic music]] ideas
+*** [[id:5e40393b-a042-41d2-ba79-41ab70fc9ba6][algorithmic music ideas, <2023-07-28 Fri>, take 2]]
+** [[id:b449bd05-ac06-4548-8982-3a6eb05f5d91][how constraints help \ art]]
+** Do more minor transformations to a theme, held longer, make it easier to remember and resurrect the theme later?
+* [[id:1b8a682a-db24-42f7-b79a-c615baac7fed][songs, bands and styles \\ music making & jbb]]
 * [[id:a2c9fc96-2d00-47bf-88ee-98cc94a3bb58][improvised multitrack recording|composition (music)]]
 * [[id:743db5b4-4a06-4d72-8cdc-d3879e375ec9][songs that achieve moods I'd like to be fluent in]]
-* TODO [[id:fefc7396-0f9d-4c02-b298-c0111dc175ab][MIDI controls I would like]]
 * [[id:67417da7-7dd4-4955-879b-a7699202758d][songs I'm writing]]
 * [[id:301dba4e-1eac-4a37-ba88-0398f940aba5][musical impoverishment]]
 * [[id:4606bf23-6261-4596-95bc-faf1e9d64b3d][musical exercises]]
 * [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
-* practice swing
 * see also
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 * u
-** TODO [[id:bd98bf35-4b42-4e5c-bf04-21e8f06dfdc8][set Reaper up to use a tablet]]
-** a beautiful 11-limit "minor neutral 7" JI chord
-   play harmonics 6, 9 (3:2), 11 (neutral 7), 14 (septimal m3)
-** Quiz numbers mod 46 on octaves -1 and 1
-** TODO Tidal: [[id:f43e3514-fe0a-4218-825b-fc26b5108e32][make bass-drum-key rhythms]]
-** Finding edo layouts
-*** In both coordinate systems, compute the sum of squared errors.
-**** Using the Lesser of the two measures for each interval
-*** Consider two maps from string-fret to Lumatone. The fret axis always goes horiz, and the other either acute or oblique.
-**** That covers all options, right?
-*** For each interval in the 15-limit, find both (only two, right?) ways to play it
-** 41
-*** Peocupine?
-**** This does not have the effect that it does in 22 Ito, where the scale ends up with five major thirds and two minor ones. That's if you only keep the first seven notes.
-**** 5. 11. 17.  22. 28. 33. 39. 3. 9. 15. 20. 26
-*** Check out the untwelve forum.
-*** 0 35 9' 29'
-** Algorithm for selecting scales in 41 Edo
-*** Include in the displayed results the just formula that gave rise to it
-*** From the list of 41 Edo inversions, include only those for which some inversion is within 70 cents of the 12 Ito cord at each note
-*** Choose a familiar 12 Ido cord, such as diminished
-*** Find every inversion of the resulting stacks
-*** Choose pairs of intervals to stack, ordered by simplicity
-*** Declare some intervals off limits
-**** These can still arise from others, but are not themselves building blocks
-*** Compute all the 15 limit intervals
-**** There are at most eight times seven equals 56 of these, but some of them are duplicates.
-*** Further order the results by placing those for which the third interval is also harmonic above the others
 ** melody
 *** Melodic octaves in the bass are cool.
     e.g. 12-edo 0 7 7_ (where postfix _ means an octave below)
-** JI
-*** 39th harmonic = 13 * 3 ~ 343c
-*** 9:7 + 7 = 9:8
-    :PROPERTIES:
-    :ID:       98b32a18-d1ff-4a17-b648-f0859ad8ffd6
-    :END:
-*** multiplicative pitch: 1( 1, 3) + 9:7 (1 5 9) = a nice "maj b6"
-    in part because [[id:98b32a18-d1ff-4a17-b648-f0859ad8ffd6][9:7 + 7 = 9:8]]
 ** chord families I like
 *** the diatonic scales
 *** the symmetric (12-edo) scales
@@ -105,40 +38,15 @@
 *** things with 11:8 or 13:8
 *** close and open voicings
 *** something weird in the bass
-** What is this 72-edo layout Paul Erlich suggested?
-   Look at the image here, then use MTV to figure out what the axes are.
-   https://www.semanticscholar.org/paper/The-Miracle-Temperament-and-Decimal-Keyboard-by-Secor/eab6a60876e19cfedb0cb6dfdc6c8411fb4e7c03
-   https://www.facebook.com/groups/497105067092502/posts/2418837091585947/?comment_id=2421947377941585&reply_comment_id=2543774635758858&notif_id=1658245236030103&notif_t=group_comment_mention
 ** a "substitution sequencer"
    https://llllllll.co/t/lamination/58652
-* [[id:31e37165-32fa-4735-add7-433911de7329][audio plugins]]
-* [[id:f10c8fae-9ff5-44dd-ab56-7df68e81a988][my music gear]]
-* software for [[id:1e62cf8b-c5d2-42a4-b7d1-e3a10f37bee7][remote jamming]]
-* TODO Could you merge 4 launchpads?
-  Some of them are velocity-sensitive.
-  All of them have RGB leds.
-* [[id:8c3a9427-ea28-4d17-bb1f-c27012836646][Glicol (programming language for live coding music & graphs)]]
 * [[id:0fb050fc-28b8-48a6-914b-6d5970490d46][microtonal guitar]]
-* [[id:de30e8da-4c6f-4638-b063-45fb20eb3255][latencytop: a Linux latency monitoring tool]]
-* TODO Be like these bands.
-  minimal, funky
-** Deerhoof
-** Soul Coughing
-** LMFAO
-** Daft Punk
-** Bach
 * /home/jeff/code/music/jam-quiz
 ** includes 24-edo language quiz
 * TODO Apply rhythm to pitch set. Capture pitch set. Capture rhythm. Transpose part of pitch set.
 * [[id:97e78830-11c4-4736-afc3-4669fd94ee2e][microtonality]]
 * [[id:1c6c1f7e-e33c-4342-870d-9029d389f17f][monome]]
-* [[id:2e99f9b7-5784-4e04-a277-9e6e734d1dd2][JACK (audio connection software)]]
-* some audio software by others
-** an EQ for PulseAudio
-   https://github.com/keur/prettyeq
-   https://news.ycombinator.com/item?id=24586239
 * [[id:b8ec037a-fe0a-4567-adff-4e1c01b3aef6][percussion]] | drums
-* [[id:b61142c9-d27f-41f0-b0d6-3f4ef273090a][synthesizer (audio software)]]
 * [[id:debcbfa7-0234-4398-ad2f-0a02c71acde6][using Burnside's lemma to count chords and scales]]
 * [[id:2b02bdc5-1e66-4256-9f08-9e9b4cddc5da][How (unsolved) to rank chords in an EDO by harmonicity]]
 * aborted

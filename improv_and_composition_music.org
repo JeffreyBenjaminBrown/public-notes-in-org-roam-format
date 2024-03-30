@@ -2,62 +2,80 @@
 :ID:       a2c9fc96-2d00-47bf-88ee-98cc94a3bb58
 :END:
 #+title: improvised multitrack recording (music)
-* TODO try simplifying something to make room for each addition
 * TODO mystery: How to jam to Tidal?
   It's so precise, so full-spectrum,
   and the rhythms I like in it are so hard.
-* TODO Try writing/recording melody first.
-* TODO Try fixing a rhythm in the left hand
-* [[id:bfa54465-b028-4ba9-81f2-92984bdba8f8][dense syllables: a spoken notation for music]]
-* Theory: Enjoying the timbre helps me slow down.
+* what to record & process when
+** Record a drum track early, maybe first.
+   If first, maybe TidalCycles.
+** TODO Try writing/recording melody first.
+** TODO try simplifying something to make room for each addition
+** remember to keep the early track simple
+   esp. rhythmically,
+   with lots of silence, for the other to fill
+** TODO composition idea: preliminary *vocal* sketches
+   Sketch the rhythm / timbre vocally before anything else.
+   Paint broad strokes before even getting into (precise) pitch.
+** Listen to & repair each track immediately after recording it.
+   Pay particular attention to the rhythm --
+   if it gets away from the metronome,
+   it'll cause problems for every subsequent voice,
+   so I should probably just delete that part,
+   unless I find a repair that won't screw up the rhythm elsewhere.
+   (Ableton-style stretching would do it.)
+** ? maybe multiple times, review and record instructions before adding a track
+   Analyze, figure out what is needed.
+** I could add further notes to the spoken scale with each track.
+   :PROPERTIES:
+   :ID:       ff5549cb-7d76-41c7-ab5e-9373823fc458
+   :END:
+* how to play
+** TODO Try fixing a rhythm in the left hand
+** TODO try simplifying something to make room for each addition
+** Keep each voice restrained.
+   Need to leave space for subsequent voices.
+   Space in time, space in the scale.
+* speaking instructions
+** [[id:bfa54465-b028-4ba9-81f2-92984bdba8f8][dense syllables: a spoken notation for music]]
+** PITFALL: If using English, recite scale numbers in order.
+   Otherwise, for instance, "30 7" can be confused for "37".
+** Describe more than pitch, both during and ex-post.
+   There's no need to state all of these parameters
+   at each utterance, but they should all be kept in mind:
+
+   { tempo } +
+   (dynamics, note speed, size of pitch set) x (mean, variance)
+** ? some instructions might apply only to the next voice
+   rather than all subsequent voices
+** I don't have to speed-speak the scale.
+   I'm going to edit those vocal instructions anyway.
+** [[id:ff5549cb-7d76-41c7-ab5e-9373823fc458][I could add further notes to the spoken scale with each track.]]
+** some grammar for scales
+*** move x y
+    move a note in the scale
+*** 0 [numbers]
+    redefine the scale entirely at the same tonic
+*** root x
+    move the tonic within the scale,
+    without redefining the scale coordinates.
+
+    For instance, if in C dorian,
+    say "root 2" to now be in D phrygian,
+    and then say "root 0" to go back to C dorian.
+*** "root" and "move" are compatible.
+**** For instance
+     C major
+     root 4    # now I'm in E phrygian
+     move 5 6  # now I'm in E minor
+     root 0    # now I'm in C lydian
+**** root x doesn't make sense if x is not in the scale.
+**** move x y makes sense only if x is in it and y is not.
+**** move 0 1 makes sense, even though it's confusing.
+     For instance, it would change
+     F lydian to F# locrian.
+** State the edo at the start of the track.
+   This way if I pick it up later I'll know what's going on.
+* hypothesis: Enjoying the timbre helps me slow down.
   That might be why I play more rhythmically on a guitar than on a keyboard.
   It seems feasible to similarly enjoy Pianoteq.
   Particularly with a good velocity curve, which I don't feel I have yet.
-* PITFALL: If using English, recite scale numbers in order.
-  Otherwise, for instance, "30 7" can be confused for "37".
-* remember to keep the early track simple
-  esp. rhythmically,
-  with lots of silence, for the other to fill
-* TODO composition idea: preliminary *vocal* sketches
-  Sketch the rhythm / timbre vocally before anything else.
-  Paint broad strokes before even getting into (precise) pitch.
-* Listen to & repair each track immediately after recording it.
-  Pay particular attention to the rhythm --
-  if it gets away from the metronome,
-  it'll cause problems for every subsequent voice,
-  so I should probably just delete that part,
-  unless I find a repair that won't screw up the rhythm elsewhere.
-  (Ableton-style stretching would do it.)
-* Keep each voice restrained.
-  Need to leave space for subsequent voices.
-  Space in time, space in the scale.
-* Speak more than pitch, both during and ex-post.
-  { tempo } +
-  (dynamics, note speed, size of pitch set) x (mean, variance)
-* Analyze tracks, figure out what they need.
-  These could be more of the spoken instructions.
-* ? Plan tracks.
-  Some of the vocal instructions (e.g. pitch set)
-  could be for all voices,
-  while others are just for the next voice.
-  I might listen to what's recorded straight through,
-  including the instructions,
-  until I'm comfortable with what's needed,
-  and only record thereafter.
-* Record a drum track early, maybe first.
-  If first, maybe TidalCycles.
-* I don't have to speed-speak the scale.
-  I'm going to edit those vocal instructions anyway.
-* I could add further notes to the spoken scale with each track.
-* Say "move x y" to move a note in the scale. Say "0 [numbers]" to redefine the scale entirely at the same tonic. Say "root x" to move the tonic within the scale, but without redefining the scale coordinates. For instance, if in C dorian, say "root 2" to now be in D phrygian, and then say "root 0" to go back to C dorian.
-* "root" and "move" are compatible.
-** For instance
-   C major
-   root 4    # now I'm in E phrygian
-   move 5 6  # now I'm in E minor
-   root 0    # now I'm in C lydian
-** root x doesn't make sense if x is not in the scale.
-** move x y makes sense only if x is in it and y is not.
-** move 0 1 makes sense, even though it's confusing.
-* State the edo at the start of the track.
-  This way if I pick it up later I'll know what's going on.

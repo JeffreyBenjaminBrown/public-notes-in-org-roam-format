@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       5f1ccc68-6200-4b70-b1e4-8e185ea64322
+:END:
+#+title: music production and electronics
+* [[id:1a7c1761-5d28-4b98-a5f0-1d6651cea8f6][music // composition & software]]
+* TODO [[id:cae69966-d3eb-4bc5-8593-37eacaf45878][How did I break a MIDI track in Reaper?]]
+* MIDI pedals and Python / Reaper scripts
+** pitch shift
+** make up for lack of volume dynamics
+* TODO download latest Pianoteq
+* try changing [[id:57bd013c-e96c-4da2-ab7b-d8aefb611da5][VelocityIntrvlTbl \ Lumatone]]
+* TODO [[id:fefc7396-0f9d-4c02-b298-c0111dc175ab][MIDI controls I would like]]
+* TODO [[id:bd98bf35-4b42-4e5c-bf04-21e8f06dfdc8][set Reaper up to use a tablet]]
+* [[id:31e37165-32fa-4735-add7-433911de7329][audio plugins]]
+* [[id:f10c8fae-9ff5-44dd-ab56-7df68e81a988][my music gear]]
+* software for [[id:1e62cf8b-c5d2-42a4-b7d1-e3a10f37bee7][remote jamming]]
+* TODO Could you merge 4 launchpads?
+  Some of them are velocity-sensitive.
+  All of them have RGB leds.
+* [[id:8c3a9427-ea28-4d17-bb1f-c27012836646][Glicol (programming language for live coding music & graphs)]]
+* [[id:de30e8da-4c6f-4638-b063-45fb20eb3255][latencytop: a Linux latency monitoring tool]]
+* an EQ for PulseAudio
+  https://github.com/keur/prettyeq
+  https://news.ycombinator.com/item?id=24586239
+* [[id:2e99f9b7-5784-4e04-a277-9e6e734d1dd2][JACK (audio connection software)]]
+* [[id:b61142c9-d27f-41f0-b0d6-3f4ef273090a][synthesizer (audio software)]]

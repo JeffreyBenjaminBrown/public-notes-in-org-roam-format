@@ -3,4 +3,12 @@
 :ROAM_ALIASES: "lifting weights" "weightlifting" "working out" "workouts"
 :END:
 #+title: exercise
+* squats <2024-03-29 Fri>
+  160 reps total:
+  first 20 slow,
+  then sets of 10 fast.
+  I paused 90 seconds between each group of 10.
+  By the end of it, 2 minutes after I had stopped,
+  my pulse was at 90.
+  Toward the end, after each set, my pulse was at least 120.
 * [[id:201e303a-dcc0-4e88-acd1-9329182af5a3][neck exercises]]

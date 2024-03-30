@@ -2,7 +2,48 @@
 :ID:       97e78830-11c4-4736-afc3-4669fd94ee2e
 :END:
 #+TITLE: microtonality
+* u
+** Bosanquet 43 looks nice -- but guitar not so easy.
+** In 34-edo, [[id:12d76fb9-ec45-4ccf-b846-7c563e307931][8:7 * 7:6 > 4:3]]
+** a beautiful 11-limit "minor neutral 7" JI chord
+   play harmonics 6, 9 (3:2), 11 (neutral 7), 14 (septimal m3)
+** Finding edo layouts
+*** In both coordinate systems, compute the sum of squared errors.
+**** Using the Lesser of the two measures for each interval
+*** Consider two maps from string-fret to Lumatone. The fret axis always goes horiz, and the other either acute or oblique.
+**** That covers all options, right?
+*** For each interval in the 15-limit, find both (only two, right?) ways to play it
+** 41
+*** Peocupine?
+**** This does not have the effect that it does in 22 Ito, where the scale ends up with five major thirds and two minor ones. That's if you only keep the first seven notes.
+**** 5. 11. 17.  22. 28. 33. 39. 3. 9. 15. 20. 26
+*** Check out the untwelve forum.
+*** 0 35 9' 29'
+** Algorithm for selecting scales in 41 Edo
+*** Include in the displayed results the just formula that gave rise to it
+*** From the list of 41 Edo inversions, include only those for which some inversion is within 70 cents of the 12 Ito cord at each note
+*** Choose a familiar 12 Ido cord, such as diminished
+*** Find every inversion of the resulting stacks
+*** Choose pairs of intervals to stack, ordered by simplicity
+*** Declare some intervals off limits
+**** These can still arise from others, but are not themselves building blocks
+*** Compute all the 15 limit intervals
+**** There are at most eight times seven equals 56 of these, but some of them are duplicates.
+*** Further order the results by placing those for which the third interval is also harmonic above the others
+** JI
+*** 39th harmonic = 13 * 3 ~ 343c
+*** 9:7 + 7 = 9:8
+    :PROPERTIES:
+    :ID:       98b32a18-d1ff-4a17-b648-f0859ad8ffd6
+    :END:
+*** multiplicative pitch: 1( 1, 3) + 9:7 (1 5 9) = a nice "maj b6"
+    in part because [[id:98b32a18-d1ff-4a17-b648-f0859ad8ffd6][9:7 + 7 = 9:8]]
+** What is this 72-edo layout Paul Erlich suggested?
+   Look at the image here, then use MTV to figure out what the axes are.
+   https://www.semanticscholar.org/paper/The-Miracle-Temperament-and-Decimal-Keyboard-by-Secor/eab6a60876e19cfedb0cb6dfdc6c8411fb4e7c03
+   https://www.facebook.com/groups/497105067092502/posts/2418837091585947/?comment_id=2421947377941585&reply_comment_id=2543774635758858&notif_id=1658245236030103&notif_t=group_comment_mention
 * TODO [[id:63f00b56-75b9-4dd1-8c6a-5da099c66010][tell people when I put up a new microtonal piece]]
+* [[id:8e161cfb-b4c5-4202-a87e-242b3a25c038][making a microtonal guitar]]
 * [[id:f0b6f2cc-c365-4463-99ce-a6092752e8fd][HEWM notation]]
 * [[id:35e37588-7a0a-4fe6-a355-60dcec62d47b][what makes a ratio vanish in an edo?]]
 * TODO [[id:187c2035-12ad-401d-b0c3-af4be228652d][easy, fun Haskell for music : find all the easy divisions of an interval]]

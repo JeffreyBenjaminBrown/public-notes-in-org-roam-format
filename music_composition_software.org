@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1a7c1761-5d28-4b98-a5f0-1d6651cea8f6
+:END:
+#+title: music // composition & software
+* edit to make everything fast enough
+  Use a tempo map.
+* Tidal: [[id:f43e3514-fe0a-4218-825b-fc26b5108e32][make bass-drum-key rhythms]]
+* software for [[id:1e62cf8b-c5d2-42a4-b7d1-e3a10f37bee7][remote jamming]]
