@@ -63,6 +63,19 @@ If I run `borg key change-passphrase` and delete any compromised old copies of t
    `l` is archived as, effectively, a dead link --
    a link into something the archive doesn't know about --
    rather than copying the content of the link.
+** TODO : use include ("pattern") files
+   :PROPERTIES:
+   :ID:       ed35d973-21fd-499f-a548-25a8fadacd41
+   :END:
+   I have not figured out how.
+*** HYPOTHESIS : Could "patterns-from" conflict with "exclude-from"?
+*** include files have a certain syntax:
+    https://borgbackup.readthedocs.io/en/stable/usage/help.html#borg-patterns
+    the most important symbol of which is, I think, '+'.
+*** "patterns-from" might render "exclude-from" redundant
+*** code that seems at least grammatically correct
+    --patterns-from /mnt/d/borg-repo/include.txt \
+    --exclude-from  /mnt/d/borg-repo/exclude.txt
 * borg extract
 ** PITFALL: The paths should not begin with a leading slash.
    Hence "home/" below, not "/home/".

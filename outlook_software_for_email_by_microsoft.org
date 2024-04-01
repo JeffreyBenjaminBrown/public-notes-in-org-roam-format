@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       8f3dc3fd-73d1-401c-b874-d15a9e7d3b80
+:END:
+#+title: Outlook (software for email by Microsoft)
+* PITFALL: [[id:f69c7e43-7dfb-4aac-9f4d-67fc84714a98][uses Spanglish]], not Spanish
+  when configured for Spanish
+* to search for email from me to someone else
+** in English
+   folder:sent                  to:hilton
+** in Spanish
+   carpeta:"elementos enviados" to:hilton
+   carpeta:enviados             to:hilton
+*** PITFALL: Spanglish
+    :PROPERTIES:
+    :ID:       f69c7e43-7dfb-4aac-9f4d-67fc84714a98
+    :END:
