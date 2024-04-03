@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       4caa77ca-9934-413c-a0e3-d98af96a837d
+:END:
+#+title: Outlive (book) by Peter Attia
+* [[id:e2f424e1-f27a-45c2-8d41-cbe212b164dd]["In the late 1970s, the average American adult male weighed 173 pounds. Now ... [it's] nearly 200[.]"]]

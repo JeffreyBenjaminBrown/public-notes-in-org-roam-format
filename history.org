@@ -4,5 +4,6 @@
 #+title: history
 * Remember that people expected a different future.
 ** -- Roy Foster, paraphrased
+* [[id:3117b144-b348-4dc5-825e-d3fc3ef7af26][surprising societal changes]]
 * [[id:839cbd7c-ef14-4bda-bae0-aabdcf8bb32f][Germany after WWI was absurdly chaotic.]]
 * [[id:34fb2b82-ed80-44cf-b305-4f7b5b0e846b][Civil Service reform in the US]]
