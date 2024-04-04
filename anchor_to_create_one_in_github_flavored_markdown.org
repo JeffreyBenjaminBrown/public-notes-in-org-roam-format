@@ -2,4 +2,4 @@
 :ID:       92ad6660-1efc-4ba8-b1d1-edddc2b54455
 :END:
 #+title: anchor, to create one in Github-flavored markdown
-https://gist.github.com/asabaylus/3071099#gistcomment-4585378
+https://gist.github.com/asabaylus/3071099
