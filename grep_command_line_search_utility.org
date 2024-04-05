@@ -3,6 +3,11 @@
 :ROAM_ALIASES: grep
 :END:
 #+title: grep (command line search utility)
+* if grep exits abnormally, try ripgrep (rg)
+  Someone on SO:
+    https://stackoverflow.com/q/45526670/916142
+  believes it can search in different formats
+  (UTF-8, UTF-16, Latin-1) simultaneously.
 * grep excluding nonreadable file types
   find . -type f -not \( -name "*.csv" -o -name "*.xlsx" -o -name "*.tgz" -o -name "*.zip" -o -name "*.ssv" -o -name "*.sav" -o -name "*.pyc" -o -name "*.pdf" -o -name "*.jpeg" -o -name "*.odt" -o -name "*.pack" -o -name "*.ods" -o -name "*.ipynb" -o -name "*.idx" -o -name "*.docx" -o -name "*.dta" \) -print0 | xargs -0 grep "xxx" --color
 * grep for within-file (not within-lilne) conjunction
