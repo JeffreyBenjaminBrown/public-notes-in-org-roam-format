@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       dcf53cef-1bb8-4fe0-a995-02fcabc137d2
+:END:
+#+title: Diabetes grew by almost two orders of magnitude in 82 years.
+* In 1940 it was around 0.3%
+  the famed diabetologist Elliott Joslin estimated that about one person in every three to four hundred was diabetic, representing an enormous increase from just a few decades earlier".
+* In 2023 it's 11% of US adults.

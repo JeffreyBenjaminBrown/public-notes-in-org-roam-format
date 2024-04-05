@@ -3,3 +3,27 @@
 :END:
 #+title: Outlive (book) by Peter Attia
 * [[id:e2f424e1-f27a-45c2-8d41-cbe212b164dd]["In the late 1970s, the average American adult male weighed 173 pounds. Now ... [it's] nearly 200[.]"]]
+* tests Attia rec's
+** DEXA: to know about fat
+   Even in a lean person, visceral (between-organ)
+   fat can be high and dangerous.
+** "I test my patients’ levels of uric acid"
+*** because high levels may promote fat storage.
+*** because it is linked to high blood pressure.
+** "I monitor several biomarkers related to metabolism ...
+   elevated insulin
+   elevated uric acid
+   elevated homocysteine,
+   chronic inflammation
+   even mildly elevated ALT liver enzymes
+   the ratio of triglycerides to HDL cholesterol (it should be less than 2:1 or better yet, less than 1:1)
+   levels of VLDL, a lipoprotein that carries triglycerides
+* insulin
+  is a signal to remove excess glucose from the blood
+  and put it into cells as fat,
+  and also impairs the release of fat-stored energy.
+* [[id:dcf53cef-1bb8-4fe0-a995-02fcabc137d2][Diabetes grew by almost two orders of magnitude in 82 years.]]
+* [[id:17d80aa8-0cbf-4d6d-b923-ec9e19257231][Among animals, fructose is uniquely bad for humans.]]
+* The uric acid we produce from fructose (causes?) our body to store lots of fat, and has (other) harmful effects.
+* Liquid fructose -- even healthy smoothies -- can overwhelm the gut.
+  "[T]he excess is shunted to the liver, where many of those calories are likely to end up as fat."
