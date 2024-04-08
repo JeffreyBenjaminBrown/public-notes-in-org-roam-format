@@ -9,7 +9,13 @@
   :ID:       e57211a5-3b1c-450e-a7a7-9ed70f235223
   :END:
   https://magit.vc/manual/transient/Saving-Values.html
-** C-x s (transient-set)
-   This command saves the value of the active transient for this Emacs session.
-** C-x C-s (transient-save)
-   Save the value of the active transient persistently across Emacs sessions.
+** PITFALL: This seems to need to be done from the *options* menu.
+   That's the thing that comes up in Magit
+   when I press "S-d" (capital d).
+   And once in, saving the changes might just require "x-s",
+   not "C-x C-s" as documented below.
+** read the pitfall, then these
+*** C-x s (transient-set)
+    This command saves the value of the active transient for this Emacs session.
+*** C-x C-s (transient-save)
+    Save the value of the active transient persistently across Emacs sessions.
