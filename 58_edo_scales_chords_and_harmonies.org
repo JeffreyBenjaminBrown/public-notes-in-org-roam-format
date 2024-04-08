@@ -2,6 +2,14 @@
 :ID:       ee622f95-a99f-4a4b-bb5d-18d48c16b15b
 :END:
 #+title: 58-edo scales, chords and harmonies
+* see also [[id:bfe139e1-14a4-4538-82d4-ea11f142e0ce][just intonation]]
+* 9-tone dim scales
+  Repeat 0 8 13 or 0 5 13.
+  It's more symmetric if it starts
+    with a jump of 8 rather than 5 --
+    almost perfectly, the only exception being
+    that the last jump is 6\58 instead of 5\58.
+  Both scales include 52\58.
 * bichords a neutral seventh apart
 ** 0 maj & -7' sept maj
    = 0 maj & 51 [0 21 34]

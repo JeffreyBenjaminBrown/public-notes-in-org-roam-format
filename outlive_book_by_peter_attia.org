@@ -27,3 +27,24 @@
 * The uric acid we produce from fructose (causes?) our body to store lots of fat, and has (other) harmful effects.
 * Liquid fructose -- even healthy smoothies -- can overwhelm the gut.
   "[T]he excess is shunted to the liver, where many of those calories are likely to end up as fat."
+* cholesterol
+** in food, doesn't matter
+   """
+   “There’s no connection whatsoever between cholesterol in food and cholesterol in blood,” [Ancel] Keys said in a 1997 interview.
+   """
+** Is a lipid (a fat)
+** Cholesterol is used by the body to build many things
+* HDL cholesterol is carried by apoA particles, which can cross the endothelium in both directions easily. LDL is carried by apoB, which tends to get stuck in the arterial wall. That's bad, because they get oxidized there, which makes them toxic. This causes atherosclerosis. The oxidation causes them to clump together and stick around.
+* High blood pressure damages the endothelium.
+* Macrophages (immune cells, "big eaters") come to help, eating the LDL. If they eat too much they "blow up into a foam cell"; enough of them that do that will leave a fatty streak visible without a microscope.
+* "cholesterol efflux" : HDL can suck lipid out of a foam cell, cross back into the vein, and deliver the cholesterol to where it's useful.
+* HDL seems to do other good stuff against atherosclerosis.
+  "maintain the integrity of the endothelium, lowering inflammation, and neutralizing or stopping the oxidation of LDL, like a kind of arterial antioxidant."
+* LDL-C is a useful marker for risk, but HDL-C is not so useful for good.
+* Foam cells become the core of atherosclerotic plaque. Smooth muscle cells from the artery go there to secrete a fibrous matrix to contain the foam, like a scar.
+* on tests
+  "a CT angiogram, which I much prefer to a garden-variety calcium scan[*4] because it can also identify the noncalcified or “soft” plaque that precedes calcification.)"
+* stenosis = narrowing of the arterial wall due to plaque
+  First, plaque goes outward, but later it goes inward, blocking traffic.
+* Plaque is only visible on a regular CT scan when it becomes calcified. Calcium goes there to stabilize it -- "like pouring concrete on the Chernobyl reactor"
+* Noncalcified plaques are more dangerous, because they can clot, blocking passage or breaking free and causing heart attack or stroke.
