@@ -48,3 +48,40 @@
   First, plaque goes outward, but later it goes inward, blocking traffic.
 * Plaque is only visible on a regular CT scan when it becomes calcified. Calcium goes there to stabilize it -- "like pouring concrete on the Chernobyl reactor"
 * Noncalcified plaques are more dangerous, because they can clot, blocking passage or breaking free and causing heart attack or stroke.
+* An apoB test is more useful (and rare) than an LDL-C test.
+  "(Don’t be waved off by nonsensical arguments about “cost”: It’s about twenty to thirty dollars.)"
+* High Lp(a) ("l p little a") is very bad, and easily tested.
+  It's a weird lipoprotein with tennis rackets sticking out that collect bad stuff and get stuck in the endothelium.
+  It only needs testing *once*, because it's genetic.
+* "I think you can’t lower apoB and LDL-C too much, provided there are no side effects from treatment."
+  "Many doctors, and in fact many of you reading this, might be shocked to see such a low LDL-C target: 10 to 20 mg/dL?"
+  but there are "scores of studies showing no ill effects from extremely low LDL concentrations."
+* "[W]hile having very low HDL-C is associated with higher risk, it does not appear to be causal. This is why drugs aimed at raising HDL-C have generally failed to reduce risk and events in clinical trials."
+* Keto is chancey.
+  "In my clinical experience, about a third to half of people who consume high amounts of saturated fats (which sometimes goes hand in hand with a ketogenic diet) will experience a dramatic increase in apoB particles" which is bad.
+* cholesterol drugs
+** what they all do
+   serial
+*** "are typically thought of as “cholesterol-lowering” medications, but I think we are better served to think about them in terms of increasing apoB clearance, enhancing the body’s ability to get apoBs out of circulation. That’s really our goal."
+*** "Mostly this is done by amplifying the activity of LDL receptors (LDLR) in the liver, which absorb cholesterol from the bloodstream."
+** statins
+   "inhibit cholesterol synthesis, prompting the liver to increase the expression of LDLR, taking more LDL out of circulation."
+*** TODO why would inhibiting cholesterol synthesis prompt the liver to make more LDLR?
+** which he prefers
+*** a statin or something like it
+    serial
+    "I tend to start with rosuvastatin (Crestor) and only pivot from that if there is some negative effect from the drug (e.g., a symptom or biomarker)."
+    Barring that, "I like to use bempedoic acid (Nexletol)", which is newer.
+*** and pairing with that
+    or both?
+**** either Ezetimibe
+     "Ezetimibe pairs very well with statins because statins, which block cholesterol synthesis, tend to cause the body to reflexively increase cholesterol reabsorption in the gut—exactly the thing that ezetimibe so effectively prevents."
+**** or a PCSK9 inhibitor
+     "statins plus PCSK9 inhibitors is the most powerful pharmacological tool that we have against apoB. Alas, statins do not reduce Lp(a), but PCSK9 inhibitors do in most patients,"
+*** and for triglycerides
+**** "dietary interventions are aimed at reducing triglycerides, but in cases where nutritional changes are insufficient, and in cases where genetics render dietary interventions useless, fibrates are the drug of choice."
+**** "Ethyl eicosapentaenoic acid (Vascepa)" also works
+* "Nearly all adults are coping with some degree of vascular damage, no matter how young and vital they may seem, or how pristine their arteries appear on scans."
+* "When we say LDL or HDL, we are typically referring to a type of particle; when we say LDL-C or HDL-C, we are talking about a laboratory measurement of the concentration of cholesterol within those particles."
+* Why the CT angiogram is worth it
+  "While the CT angiogram costs a bit more, requires IV dye, and exposes the patient to slightly more radiation, I struggle to find credible arguments against its use. Approximately 15 percent of people who have a normal calcium score (0) are still found to have soft plaque or even small calcifications on CT angiograms, and as many as 2 to 3 percent of people with a zero calcium score are found on CT angiogram to have high-risk plaques."
