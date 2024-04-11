@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a866b9ae-1d04-491d-a800-37cccd06e7b5
+:END:
+#+title: Nexxt Home - smart appliance and security
+* to add or cancel cloud service
+  App -> Settings -> Cloud Service
