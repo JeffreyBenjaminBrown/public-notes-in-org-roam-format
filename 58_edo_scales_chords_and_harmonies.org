@@ -3,6 +3,10 @@
 :END:
 #+title: 58-edo scales, chords and harmonies
 * see also [[id:bfe139e1-14a4-4538-82d4-ea11f142e0ce][just intonation]]
+* a very harmonious whole-tone scale
+  [0, 28] x [0, 10, 19]
+  That is, two clusters of [0,10,19]\58.
+  offset by 28\58.
 * 9-tone dim scales
   Repeat 0 8 13 or 0 5 13.
   It's more symmetric if it starts
