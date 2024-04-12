@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       2ef344eb-104c-4b53-bc07-72d61640de9e
+:ROAM_ALIASES: rclone
 :END:
 #+title: rclone (software, to sync backup to cloud)
 * TODO PITFALL: Sometimes the dest swallows the source, sometimes it is made to equal the source. I don't know when.
