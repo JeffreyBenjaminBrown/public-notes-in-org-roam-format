@@ -41,6 +41,8 @@
   :END:
   serial
 ** The disk should not be mounted.
+** Find details of all disks, mounted and unmounted.
+   sudo fdisk -l
 ** define sdxnjjj = the folder correspoonding to the drive,
    where x is probably b, c or d,
          n is probably a small digit or maybe missing
@@ -56,6 +58,9 @@
    sudo mkfs.vfat  /dev/sdxnjjj # FAT32
    sudo mkfs.ntfs  /dev/sdxnjjj # NTFS
    sudo mkfs.exfat /dev/sdxnjjj # ExFAT
+** give it ordinary user permissions
+   mount it, go to its parent folder, and run:
+   sudo chown -R jeff:users <disk_name>
 * delete a partition with fdisk
   serial
 ** The disk should not be mounted.
@@ -73,6 +78,7 @@
 ** `w` : write changes and exit
 ** [[id:4953e1db-1fd6-4b62-b454-617de86117e5][format the new partition]]
 * label a partition
+  tag name rename label relabel
 ** [[id:982f48ba-9ed5-4c21-bcaf-a6b8c3571e85][gnome-disk-utility can do it in some cases.]]
 ** The way to do it depends on the format.
 *** Labeling an ext4 partition with e2label is easy.

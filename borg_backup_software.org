@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       927c1e3d-410e-4556-a1f5-560791950164
+:ROAM_ALIASES: borg
 :END:
 #+title: borg (backup software)
 * TODO asking about changing passphrase in Borg
