@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       2bfde440-de3f-4821-8a9c-7f825c7e9c24
+:END:
+#+title: 3\72 x 11\72 isomorphic layout (harpejji-friendly)
+The harpejji uses 12-edo frets and tunes adjacent strings 2\12 apart.
+If you added quarter-tone frets (so now it's a 24-edo instrument),
+since the interval between adjacent strings is so small,
+it seems like an ideal instrument to try a skip-fret[1] tuning for 72-edo.
+
+For instance, if you tuned the strings 11\72 apart
+(11\72 being 1.84 halftones,
+so just slightly narrower than the usual whole step),
+you get a layout like this:
+
+  Strings are vertical lines.
+  This side is bassier.
+
+   1  -  - 11  -  -  -
+   -  -  -  -  -  7  -
+  17  - 21  - 13  -  2
+   -  -  -  3  -  -  -
+   9  5  -  -  -  - 17
+   -  -  -  -  -  -  -  Frets are horizontal lines.
+  19  -  -  -  -  -  9  This right side is treblier
+   -  -  -  - 15  -  -  (and the left side bassier).
+   -  -  -  -  -  - 19
+   - 23  -  -  -  -  -
+   -  -  -  -  -  -  -
+  11  -  -  -  -  -  -
+
+  This side is treblier.
+
+Just like on the harpejji, octaves span 6 strings,
+although now they span an additional 1\12 (two frets of 24-edo).
+And no interval requires you to reach across more than 5\12 = 10\24 frets.
+(The equivalent figure for a 24-edo guitar in standard tuning is 9\24 frets.)
+
+[1] https://en.xen.wiki/w/Skip_fretting

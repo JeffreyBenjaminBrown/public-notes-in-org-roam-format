@@ -976,7 +976,7 @@ Pr.pPrint ( take 30 $ drop 90
 ** TODO Cam rec's 80-edo [[id:d3754801-31d5-4879-867f-7bb36a30e6c4][Bosanquet, s14 f5: great 29-limt -5 -15 -17]]
 ** TODO [[id:3583c5e5-48b3-4b38-8999-c8693d8bbb59][94 7 16: 15-lim +19.21.27 0-area 5x7, octave (5,2), sans unisons]]
 ** TODO [[id:211b5788-6ee2-4298-8f04-b3d9ed7358a7][90 5 17: 13-lim +19.25.27 5x6, octave (5,1), 31-lim 7x12]]
-** TODO [[id:f1c002e1-f05c-474a-b19c-eec0dee222ee][72 27 2: 31-limit sans 21:16 in 3x15]] (guitar!)
+** TODO [[id:b6bec2d2-a5f8-45e6-8919-e5bba0cc00ff][2\27 x 27\72 isomorphic layout]] : 31-limit sans 21:16 fits in 3x15 (guitar!)
 ** TODO [[id:d45e7329-7321-4e6f-b43e-0ac4fb85ff3b][65 8 11: 15-lim 0-area 5x6, weird backward 5:4, octave (3,4)]]
 ** TODO [[id:c88e7526-3993-4cae-95fb-63102f75d7c0][63 6 13: 10.5-edo frets, 15-lim 0-area 4x8 (4x5 sans 11), balanced octave (3,4)]]
 ** TODO [[id:69766233-ba73-497c-8408-6e6f857119bc][58 5 8: 15-lim 6x6, perfectly (50%) balanced octave]]
@@ -1781,50 +1781,7 @@ octave 3:	(-7,34)
     { etrEdo = 65
     , etrTuning = Edo 65 ; StringGap 11 ; FretGap 8
     , etrArea = 30
-* TODO 72-edo
-** Marvel-compatible = augmented chords are great!
-   (15 / 8)    = (5/4) * (9/7) * (7/6),
-     True in anything consistent in the 15-limit.
-   (65 = 15/8) =     (23 = 5/4) + (26 = 9/7) + (16 = 7/6)
-   (72 = 2/1)  = 2 * (23 = 5/4) + (26 = 9/7)
-     This is an essentially tempered chord,
-     special to 72 and a few others.
-** 72 27 2: 31-limit sans 21:16 fits in 3x15
-   :PROPERTIES:
-   :ID:       f1c002e1-f05c-474a-b19c-eec0dee222ee
-   :END:
-   This is on the Xen Wiki.
-*** tuning the guitar to it
-    Use 218.5 and 224.9 Hz.
-    string 6 = (down F) to string 1 = (Eb)
-**** Why (the math)
-***** 218.5 * 2**(1/24) to 1 decimal place is close to round.
-     > 218.5 * 2**(1/24) :: Float
-     224.90254
-***** Total range will be (4.5\12)*5 = 22.5 \ 12
-      That would give low (E) to high (down Eb),
-      or low (down F) to a high (Eb),
-      or low (F) to high (down E).
-*** where the intervals lie
-   The 13-limit fits in 2x15.
-  0 steps;  1 % 1 ;  string 0 ; fret 0
- 72 steps;  2 % 1 ;  string 2 ; fret 9
- 42 steps;  3 % 2 ;  string 2 ; fret - 6
- 23 steps;  5 % 4 ;  string 1 ; fret - 2
- 58 steps;  7 % 4 ;  string 2 ; fret 2
- 12 steps;  9 % 8 ;  string 0 ; fret 6
- 33 steps; 11 % 8 ;  string 1 ; fret 3
- 50 steps; 13 % 8 ;  string 2 ; fret - 2
- 65 steps; 15 % 8 ;  string 3 ; fret -8
-  6 steps; 17 % 16 ; string 0 ; fret 3
- 18 steps; 19 % 16 ; string 0 ; fret 9
- 28 steps; 21 % 16 ; string 0 ; fret 14 -- or bend at fret 0
-                     string 2 ; fret -13
- 38 steps; 23 % 16 ; string 2 ; fret -8
- 46 steps; 25 % 16 ; string 2 ; fret -4
- 54 steps; 27 % 16 ; string 2 ; fret 0
- 62 steps; 29 % 16 ; string 2 ; fret 4
- 69 steps; 31 % 16 ; string 3 ; fret -6
+* TODO [[id:e3ae3578-53a2-4236-8b77-58a8f2fa9336][72-edo]]
 * 74: super-tight meantone
 Its worst harmonic is 3/2, at -4.7c error.
 > myPrint $ bests 74

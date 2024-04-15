@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       b6bec2d2-a5f8-45e6-8919-e5bba0cc00ff
+:END:
+#+title: 2\27 x 27\72 isomorphic layout
+31-limit sans 21:16 fits in 3x15
+This is on the Xen Wiki.
+* tuning the guitar to it
+  Use 218.5 and 224.9 Hz.
+  string 6 = (down F) to string 1 = (Eb)
+** Why (the math)
+*** 218.5 * 2**(1/24) to 1 decimal place is close to round.
+   > 218.5 * 2**(1/24) :: Float
+   224.90254
+*** Total range will be (4.5\12)*5 = 22.5 \ 12
+    That would give low (E) to high (down Eb),
+    or low (down F) to a high (Eb),
+    or low (F) to high (down E).
+* where the intervals lie
+  The 13-limit fits in 2x15.
+ 0 steps;  1 % 1 ;  string 0 ; fret 0
+72 steps;  2 % 1 ;  string 2 ; fret 9
+42 steps;  3 % 2 ;  string 2 ; fret - 6
+23 steps;  5 % 4 ;  string 1 ; fret - 2
+58 steps;  7 % 4 ;  string 2 ; fret 2
+12 steps;  9 % 8 ;  string 0 ; fret 6
+33 steps; 11 % 8 ;  string 1 ; fret 3
+50 steps; 13 % 8 ;  string 2 ; fret - 2
+65 steps; 15 % 8 ;  string 3 ; fret -8
+ 6 steps; 17 % 16 ; string 0 ; fret 3
+18 steps; 19 % 16 ; string 0 ; fret 9
+28 steps; 21 % 16 ; string 0 ; fret 14 -- or bend at fret 0
+                    string 2 ; fret -13
+38 steps; 23 % 16 ; string 2 ; fret -8
+46 steps; 25 % 16 ; string 2 ; fret -4
+54 steps; 27 % 16 ; string 2 ; fret 0
+62 steps; 29 % 16 ; string 2 ; fret 4
+69 steps; 31 % 16 ; string 3 ; fret -6

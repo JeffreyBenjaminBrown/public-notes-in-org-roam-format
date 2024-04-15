@@ -88,3 +88,55 @@
 ** Why the CT angiogram is worth it
    "While the CT angiogram costs a bit more, requires IV dye, and exposes the patient to slightly more radiation, I struggle to find credible arguments against its use. Approximately 15 percent of people who have a normal calcium score (0) are still found to have soft plaque or even small calcifications on CT angiograms, and as many as 2 to 3 percent of people with a zero calcium score are found on CT angiogram to have high-risk plaques."
 * cells and cancer
+** screen early
+** “liquid biopsies"
+   "can detect trace amounts of cancer-cell DNA via a simple blood test."
+   "cell-free DNA"
+** how cancer cells differ from ordinary ones
+*** they don't stop growing
+    "cancer cells don’t grow faster than their noncancerous counterparts; they just don’t stop growing when they are supposed to"
+*** they metastasize
+    going to where they shouldn't be
+*** they use glucose up to 40 times faster
+    :PROPERTIES:
+    :ID:       4f4f837c-0299-46d1-9a43-882e7599de59
+    :END:
+    and they use it to create energy anaerobically ("anaerobic glycolisis") which is inefficient -- yielding only 2 ATP molecules instead of 36 -- and appears unnecessary since there is plenty of oxygen available to them. But it produces lots of other molecules, whereas aerobic glycolisis only produces ATP, and because cancer has to build new cells, those other byproducts may be the point.
+** chemo & collateral damage
+*** some of the earliest chemotherapy agents, some of which are still in use ... attack the replicative cycle of cells, and because cancer cells are rapidly dividing, the chemo agents harm them more severely than normal cells. But many important noncancerous cells are also dividing frequently, such as those in the lining of the mouth and gut, the hair follicles, and the nails,
+** Metabolic diseases are correlated with cancer.
+*** This is likely related to [[id:4f4f837c-0299-46d1-9a43-882e7599de59][cancer's metabolism]].
+*** Non-subcutaneous fat is a big cancer risk.
+    Dying fat cells secrete inflammatory cytokines,
+    which damage DNA. Many other pathways too.
+*** Insulin enables cancer to grow faster.
+** Muscle doesn't get cancer.
+** Caloric restriction
+*** is effective in mice.
+    Those mice died of cancer at "far lower rates".
+*** Fasting improves chemo targeting.
+    "fasting, or a fasting-like diet, increases the ability of normal cells to resist chemotherapy, while rendering cancer cells more vulnerable to the treatment."
+*** "This flies in the face of traditional" cancer treatment
+    "which is to try to get patients on chemotherapy to eat as much as they can tolerate, typically in the form of high-calorie and even high-sugar diets. The American Cancer Society suggests using ice cream “as a topping on cake.”
+** immunotherapy
+*** one kind
+    "taking T cells from a patient’s blood, then using genetic engineering to add antigen receptors that were specifically targeted to the patient’s tumors."
+*** another: "checkpoint inhibitors"
+    "Instead of activating T cells to go kill the cancer, the checkpoint inhibitors help make the cancer visible to the immune system."
+*** when immunotherapy works, "it really works"
+    "Between 80 and 90 percent of so-called complete responders to immunotherapy remain disease-free fifteen years out. This is extraordinary—far better than the short-term, five-year time horizon at which we typically declare victory in conventional cancer treatment."
+** early detection
+*** why
+    "The ten-year survival rate for patients with metastatic cancer is virtually the same now as it was fifty years ago: zero."
+*** only five kinds of cancer have agreed-on screening methods
+    "Out of dozens of different types of cancers, we have agreed-upon, reliable screening methods for only five: lung (for smokers), breast, prostate, colorectal, and cervical."
+*** False negatives => use multiple kinds of tests.
+*** "blood testing for PSA, prostate-specific antigen, in men"
+**** use multiple kinds of test
+     [not just the level, but also] "PSA velocity (the speed at which PSA has been changing over time), PSA density (PSA value normalized to the volume of the prostate gland), and free PSA (comparing the amount of PSA that is bound versus unbound to carrier proteins in the blood)."
+*** Recommends colonoscopy every 2-3 years.
+    The AMA recommends 10.
+    But they can appear in as little as 6 to 24 months after a normal colonoscopy, and they are unusually easy to treat if caught fast, and are exceptionally deadly -- third out of all cancers, just after lung and breast/prostate for men/women.
+*** ask the doctor before getting a colonoscopy
+    "ask what your endoscopist’s adenoma detection rate (ADR) is. The ADR is the proportion of individuals undergoing a colonoscopy who have one or more adenomas (or colon polyps) detected. The benchmarks for ADR are greater than 30% in men and greater than 20% in women. You should also ask your endoscopist how many perforations he or she has caused, specifically, as well as any other serious complications, like major intestinal bleeding episodes (in a routine screening setting). Another question you should ask is what is your endoscopist’s withdrawal time, defined as the amount of time spent viewing as the colonoscope is withdrawn during a colonoscopy. A longer withdrawal time suggests a more thorough inspection. A 6-minute withdrawal time is currently the standard of care.”
+* TODO Alzheimer's, chapter 9
