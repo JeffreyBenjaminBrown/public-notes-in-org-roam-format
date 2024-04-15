@@ -2,6 +2,15 @@
 :ID:       30f03478-6b0f-4b08-9c47-7a32c3907993
 :END:
 #+title: atheist spirituality
+* u
+** Inner peace
+*** There is a condition of consciousness prior to and unmoved by whether experiences are pleasant or unpleasant
+** Loving kindness, "metta" (in Pali), well-wishing
+** Recognizing automaticitu, momentum in cognition
+** "we too have problems that will not be solved by more thinking."
+*** --Sam Harris, the mystery of being, from his app Waking Up
+** What feels the feeling of being an observer? Is there actually an observer?
+** "I am my remembering self. My experiencing self is like a stranger to me." -- Daniel Kahneman
 * values
 * ethics = values + optimization theory
 ** optimization theory => mortality, an appreciation of
