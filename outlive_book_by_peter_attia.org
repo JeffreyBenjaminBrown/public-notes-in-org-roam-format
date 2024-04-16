@@ -140,3 +140,42 @@
 *** ask the doctor before getting a colonoscopy
     "ask what your endoscopist’s adenoma detection rate (ADR) is. The ADR is the proportion of individuals undergoing a colonoscopy who have one or more adenomas (or colon polyps) detected. The benchmarks for ADR are greater than 30% in men and greater than 20% in women. You should also ask your endoscopist how many perforations he or she has caused, specifically, as well as any other serious complications, like major intestinal bleeding episodes (in a routine screening setting). Another question you should ask is what is your endoscopist’s withdrawal time, defined as the amount of time spent viewing as the colonoscope is withdrawn during a colonoscopy. A longer withdrawal time suggests a more thorough inspection. A 6-minute withdrawal time is currently the standard of care.”
 * TODO Alzheimer's, chapter 9
+* exercise
+** TODO "long, steady endurance training in zone 2"
+** "Typically, someone working at a lower relative intensity will be burning more fat, while at higher intensities they would rely more on glucose"
+** Glucose can be used many ways, but fat can only be converted to energy in mitochondria.
+** "ability to use both fuels, fat and glucose, is called “metabolic flexibility,”"
+** "in zone 2, most of the work is being done by our type 1, or “slow-twitch,” muscle fibers"
+   which are dense with mitochondria
+** fast twitch are more forceful and less efficient, and make more lactate
+** "Lactate itself is not bad"
+   [T]"rained athletes are able to recycle it as a type of fuel. The problem is that lactate becomes lactic acid when paired with hydrogen ions, which is what causes that acute burning you feel in your muscles[*1] during a hard effort."
+** One can define zone 2 in terms of lactate.
+   "San Millán describes zone 2 as the maximum level of effort that we can maintain without accumulating lactate."
+** TODO ? Lactate monitors are commercially available.
+*** the zone 2 lactate goal
+    "is to keep lactate levels constant, ideally between 1.7 and 2.0 millimoles"
+** VO2 max training
+*** once per week is enough
+*** timing
+    Go 4 (actually anywhere from 3 to 8)
+    minutes as fast as is possible.
+    Then 4 minutes at an easy pace,
+    to get pulse "below 100".
+    Repeat that 4 to 6 times.
+*** "make sure that you get as close to fully recovered as possible before beginning the next set"
+** strength training
+*** "it is very difficult to put on muscle mass later in life."
+*** "Strength training, especially with heavy weights, stimulates the growth of bone—more than impact sports such as running"
+*** Carrying exercises are good.
+    Rucking = hiking with a heavy backpack.
+    "(A good goal is to be able to carry one-quarter to one-third of your body weight once you develop enough strength and stamina.[)]"
+*** "Attention to both concentric and eccentric loading for all movements, meaning when our muscles are shortening (concentric) and when they are lengthening (eccentric)."
+    "You don’t need to do this for every rep of every set. Sometimes you just want to focus on moving the weight quickly or moving a heavier load, but make sure at some point in each workout that you are taking the time to cue the eccentric phase of your lifts."
+*** "Pulling motions, at all angles from overhead to in front of you, which also requires grip strength (e.g., pull-ups and rows)."
+*** "Hip-hinging movements, such as the deadlift and squat, but also step-ups, hip-thrusters, and countless single-leg variants of exercises that strengthen the legs, glutes, and lower back."
+*** "One of the standards we ask of our male patients is that they can carry half their body weight in each hand (so full body weight in total) for at least one minute"
+*** farmer's carry form
+    "The most important tip is to keep your shoulder blades down and back, not pulled up or hunched forward."
+*** two-minute dead-hang
+*** "tepping onto and off an eighteen-inch block and taking three full seconds to reach the ground (a forward step down, like descending a very tall step)."
