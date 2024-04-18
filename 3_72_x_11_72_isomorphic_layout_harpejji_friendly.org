@@ -2,7 +2,8 @@
 :ID:       2bfde440-de3f-4821-8a9c-7f825c7e9c24
 :END:
 #+title: 3\72 x 11\72 isomorphic layout (harpejji-friendly)
-The harpejji uses 12-edo frets and tunes adjacent strings 2\12 apart.
+The harpejji uses 12-edo frets
+and tunes adjacent strings 2\12 apart.
 If you added quarter-tone frets (so now it's a 24-edo instrument),
 since the interval between adjacent strings is so small,
 it seems like an ideal instrument to try a skip-fret[1] tuning for 72-edo.
