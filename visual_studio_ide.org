@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "Visual Studio"
 :END:
 #+title: Visual Studio (IDE)
+* [[id:f2e8d756-0c68-48a3-8d86-db4c858bac2b][disable automatic updates in Visual Studio]]
 * [[id:d2d04c3d-34d3-4264-b292-509cc2566810][If a VS project "has no properties" to configure, "rebuild" it.]]
 * [[id:250b905a-ec8e-4e60-8348-fbe9fc6a4975][Copilot in Visual Studio]]
 * It won't do bash scripting.

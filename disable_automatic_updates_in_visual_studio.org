@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f2e8d756-0c68-48a3-8d86-db4c858bac2b
+:END:
+#+title: disable automatic updates in Visual Studio
+* It's under File -> Accounts -> [my] User Account
+  Then search for "update" or "updates".
