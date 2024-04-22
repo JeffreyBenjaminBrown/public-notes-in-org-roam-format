@@ -3,6 +3,7 @@
 :END:
 #+title: moving and movers
 * when moving electric guitars: [[id:c80fe2b7-79ca-47bc-911c-1745ca23beb7][change temp/humidity slowly]]
+* [[id:4146e2ca-8f93-4cd0-8d2e-29f59ce45864][PITFALL: when moving dryer, to maintain sticky feet]]
 * Grill the movers on what they offer.
 ** Closet-boxes?
    The kind with a bar to hang clothes on.
