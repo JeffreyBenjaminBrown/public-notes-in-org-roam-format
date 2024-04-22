@@ -25,7 +25,7 @@
   creating them if necessary.
 * "running" it will "build" it if it's not already built.
 * building and running within Visual Studio
-** to build
+** how to build a project \ Visual Basic
    :PROPERTIES:
    :ID:       cf11a69c-eb53-4aae-bc2c-f2188b1363e5
    :END:

@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       4b5e3a64-7e05-47f4-b59d-1e2c93901ee0
+:END:
+#+title: Claridad (song)
+* V
+** 0 min (twice as long)
+** 2 dim
+** 7 dom7
+* B1
+** 5 min
+** 10 maj
+** 3 maj
+** 4 dim
+** 5 min
+** 5 min
+** 0 min
+** 7 dom7
+* B2
+  These are twice as slow as in B1
+** 5 min
+** 10 maj
+** 3 maj
+** 4 dim
+** 5 min
+** 7 dom7
+* When during a V there's the line "aprendí mi lección, estoy cansado" there's a trailing pause
+* Ends on root (0 min)

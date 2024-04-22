@@ -2,6 +2,7 @@
 :ID:       4caa77ca-9934-413c-a0e3-d98af96a837d
 :END:
 #+title: Outlive (book) by Peter Attia
+* TODO RESUME at ch 13: stability
 * [[id:e2f424e1-f27a-45c2-8d41-cbe212b164dd]["In the late 1970s, the average American adult male weighed 173 pounds. Now ... [it's] nearly 200[.]"]]
 * sugar metabolism
 ** tests Attia rec's
@@ -179,3 +180,26 @@
     "The most important tip is to keep your shoulder blades down and back, not pulled up or hunched forward."
 *** two-minute dead-hang
 *** "tepping onto and off an eighteen-inch block and taking three full seconds to reach the ground (a forward step down, like descending a very tall step)."
+* ch 13 : stability
+** refs | followup
+*** DNS
+    www.rehabps.com
+*** Postural Restoration Institute
+    www.posturalrestoration.com
+*** toe yoga and other videos
+    :PROPERTIES:
+    :ID:       173843e9-c799-4b07-a3ea-9ab61bb0c4e9
+    :END:
+    www.peterattiamd.com/​outlive/​videos
+** "Joint injuries" usually result from "an energy leak".
+** try lifting barefoot
+** toe yoga
+   Manipulate each toe individually.
+   [[id:173843e9-c799-4b07-a3ea-9ab61bb0c4e9][There are videos]].
+** Cat/Cow
+   Inhale on Cow, exhale on Cat.
+   Start both motions from the hips, to the neck.
+   Feel each vertebra.
+** Shoulders should be up and back when under load.
+   "Keeping your arms at your sides, raise your shoulder blades, and then squeeze them back and together; this is retraction, which is where we want them to be when under load."
+** Take video selfies in the gym. Watch them later.

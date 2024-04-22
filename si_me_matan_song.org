@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       678917cf-61dc-49d0-ac6e-00ecc6a68986
+:END:
+#+title: Si Me Matan (song)
+* V
+** 5 maj
+** 6 dim maj7
+** 2 min 7
+** 7 dom7
+* B
+** 2 min
+** 4 min
+*** The end of this is some kind of chromatic transition through 3 back to 2
+** 2 min
+** 7 dom7
+*** On the line "nos quitaron el miedo" this is held for a while
+* Ends on 2 min
