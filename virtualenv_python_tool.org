@@ -3,13 +3,32 @@
 :ROAM_ALIASES: venv
 :END:
 #+title: virtualenv (Python tool)
-* to set up a virtual environment
+* to set up a virtualenv
   :PROPERTIES:
   :ID:       8ab98b85-5ede-4127-890c-76b3d4cb4ef4
   :END:
-  # Any local subfolder can be substituted for .venv below.
+  # Any name (I like "venv" with no dot)
+  # can be substituted for .venv below.
+  # It will become a local subfolder.
   python3 -m venv .venv            # create the environment
   source .venv/bin/activate        # enable ("enter") it
   pip3 install -r requirements.txt # install what's in that file
+* to set up virtualenv inside a Nix shell
+** write a [[id:30ad2e6c-97bf-43e0-b72f-c699353eda2b][Nix shell]] script
+** enter both environments, in sequence
+```bash
+nix-shell pip-shell.nix
+
+# The rest of this is just like it would be without `nix-shell`.
+
+# Build the environment. Only needed once.
+python -m venv venv
+
+PS1="[nix @ \W ] "          # Shorten the prompt
+source venv/bin/activate
+pip3 install  --upgrade -r requirements.txt
+.... <play with it> ...
+deactivate
+```
 * PITFALL: source and "." are synonyms
   Some people use one, some the other.

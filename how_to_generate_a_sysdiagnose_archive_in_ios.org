@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       8bd79a42-901e-4652-a481-88e267865e57
+:END:
+#+title: how to generate a sysdiagnose archive in iOS
+First [[id:721f4c6c-f890-4d96-b1a7-cee09f5eaf75][enable assistive touch]].
+Then add an icon to the assistive touch menu,
+for Analytics.
+Save those changes to the assitive touch menu,
+open the assitive touch button,
+and run "Analytics".
+It might take a few minutes to generate the log.
+Once it exists, it is in Settings -> Security -> Analytics,
+under the name "sysdiagnose" or "sysdiagnose.tar.gz".

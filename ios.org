@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       674f43df-170f-4b43-9310-7cd7d9e266f7
+:ROAM_ALIASES: iPhone iPad
+:END:
+#+title: iOS
+* [[id:721f4c6c-f890-4d96-b1a7-cee09f5eaf75][how to enable/disable Assistive Touch in iOS]]
+* [[id:8bd79a42-901e-4652-a481-88e267865e57][how to generate a sysdiagnose archive in iOS]]
+* [[id:434487ca-c8ac-4944-8628-01d8ba75a9a1][how to mount an iOS device in NixOS]]

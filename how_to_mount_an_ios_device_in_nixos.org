@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       434487ca-c8ac-4944-8628-01d8ba75a9a1
+:END:
+#+title: how to mount an iOS device in NixOS
+* works already in my config
+  mkdir iphone
+  ifuse iphone
+* if I want it to appear automatically in Dolphin
+  then modify my configuration.nix file to include this:
+
+  services.usbmuxd = {
+    enable = true;
+    package = pkgs.usbmuxd2;
+  };
+
+  (It already mentiones services.usbmuxd.)

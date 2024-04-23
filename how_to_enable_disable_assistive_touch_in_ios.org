@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       721f4c6c-f890-4d96-b1a7-cee09f5eaf75
+:END:
+#+title: how to enable/disable Assistive Touch in iOS
+Settings -> Accessibility -> Touch -> AssistiveTouch

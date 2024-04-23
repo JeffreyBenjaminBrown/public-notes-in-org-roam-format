@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       30ad2e6c-97bf-43e0-b72f-c699353eda2b
+:END:
+#+title: Nix shell
+* steps
+  serial
+** Write a shell.nix script.
+   It can actually have any name.
+** Run it with
+   nix-shell shell.nix
+* an example shell.nix script
+  # for python, pip and some other stuff
+  { pkgs ? import <nixpkgs> {} }:
+  (pkgs.buildFHSUserEnv {
+    name = "pipzone";
+    targetPkgs = pkgs: (with pkgs; [
+      glibc
+      python311
+      python311Packages.pip
+      python311Packages.numpy
+      python311Packages.pandas
+      virtualenv
+      zlib
+      zlib.dev
+    ]);
+    runScript = "bash";
+  }).env
