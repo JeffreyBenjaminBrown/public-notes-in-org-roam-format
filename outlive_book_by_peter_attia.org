@@ -24,6 +24,8 @@
    is a signal to remove excess glucose from the blood
    and put it into cells as fat,
    and also impairs the release of fat-stored energy.
+** Putting fat cells into insulin resistant mice cured their insulin resistance
+*** The new cells soak up the excess glucose
 ** [[id:dcf53cef-1bb8-4fe0-a995-02fcabc137d2][Diabetes grew by almost two orders of magnitude in 82 years.]]
 ** [[id:17d80aa8-0cbf-4d6d-b923-ec9e19257231][Among animals, fructose is uniquely bad for humans.]]
 ** The uric acid we produce from fructose (causes?) our body to store lots of fat, and has (other) harmful effects.
