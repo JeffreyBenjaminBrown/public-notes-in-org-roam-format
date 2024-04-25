@@ -123,8 +123,10 @@
   every scale subject to the above two constraints
   with 7 or more notes,
   plus the whole tone scale.
-** The proof, alas, does not fit in the margin of this page.
-   But it's true. I've proved it numerous times, once without even using a computer, and some smart-seeming guy on one of the Xenharmonic music forums on Facebook said the same thing.
+** The proof, alas, does not fit in the margin of my spare time.
+   The proof, that is, that this list exhausts the set of scales I just described.
+
+   But it's true. I've proved it numerous times, once without even using a computer, and some smart-seeming guy on one of the Xenharmonic music forums on Facebook said the same thing. I'm sure that would stand up in court.
 * some handy Haskell code
   If you ever want to compute lots of scale modes,
   then you might find the definition of "mode" below useful.
