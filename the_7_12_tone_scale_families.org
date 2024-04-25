@@ -54,47 +54,47 @@
 *** dorian #7 = ionian b3 = "melodic minor"
     0 2 3 5 7 9 11
 *** phrygian #6 = dorian b2
-    [0,1,3,5,7,9,10]
-*** lydian #5 = [no corresponding flat name]
-    [0,2,4,6,8,9,11]
+    0 1 3 5 7 9 10
+*** lydian #5 = no corresponding flat name
+    0 2 4 6 8 9 11
 *** mixolydian #4 = lydian b7
-    [0,2,4,6,7,9,10]
+    0 2 4 6 7 9 10
 *** aeolian #3 = mixolydian b6
-    [0,2,4,5,7,8,10]
+    0 2 4 5 7 8 10
 *** locrian #2 = aeolian b5
-    [0,2,3,5,6,8,10]
-*** [no corresponding sharp name] = locrian b4
-    [0,1,3,4,6,8,10]
+    0 2 3 5 6 8 10
+*** no corresponding sharp name = locrian b4
+    0 1 3 4 6 8 10
 ** The harmonic minor scale family, in order
 *** aeolian #7 = harmonic minor
-    [0,2,3,5,7,8,11]
+    0 2 3 5 7 8 11
 *** locrian #6
-    [0,1,3,5,6,9,10]
+    0 1 3 5 6 9 10
 *** ionian #5
-    [0,2,4,5,8,9,11]
+    0 2 4 5 8 9 11
 *** dorian #4
-    [0,2,3,6,7,9,10]
+    0 2 3 6 7 9 10
 *** phrygian #3
-    [0,1,4,5,7,8,10]
+    0 1 4 5 7 8 10
 *** lydian #2
-    [0,3,4,6,7,9,11]
+    0 3 4 6 7 9 11
 *** locrian b4 b7
-    [0,1,3,4,6,8,9]
+    0 1 3 4 6 8 9
 ** The harmonic major scale family, in order
 *** ionian b6 = harmonic major
-    [0,2,4,5,7,8,11]
+    0 2 4 5 7 8 11
 *** dorian b5
-    [0,2,3,5,6,9,10]
+    0 2 3 5 6 9 10
 *** phrygian b4
-    [0,1,3,4,7,8,10]
+    0 1 3 4 7 8 10
 *** lydian b3
-    [0,2,3,6,7,9,11]
+    0 2 3 6 7 9 11
 *** mixolydian b2
-    [0,1,4,5,7,9,10]
+    0 1 4 5 7 9 10
 *** lydian #2 #5
-    [0,3,4,6,8,9,11]
+    0 3 4 6 8 9 11
 *** locrian b7
-    [0,1,3,5,6,8,9]
+    0 1 3 5 6 8 9
 ** The diminished scale family
    I'm sticking to conventional names.
    If it were up to me these would be called
