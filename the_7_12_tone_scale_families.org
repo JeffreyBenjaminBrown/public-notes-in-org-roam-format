@@ -29,7 +29,7 @@
   if you prefer you can read `C D Eb F G A Bb`,
   or any number of other equivalent expressions.
 ** The 7 scales of the major scale family, in order
-*** major = ionian
+*** ionian = "major"
     0 2 4 5 7 9 11
 *** dorian
     Start on the 2nd degree of ionian and you get this.
@@ -48,7 +48,7 @@
     0 2 4 6 7 9 11
 *** mixolydian
     0 2 4 5 7 9 10
-*** aeolian
+*** aeolian = "minor"
     0 2 3 5 7 8 10
 *** locrian
     0 1 3 5 6 8 10
