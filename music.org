@@ -3,6 +3,7 @@
 :END:
 #+title: music
 * [[id:e3884e9b-a4ae-4572-8317-7c7030df0b7d][music making, shared]]
+* [[id:69cf0d19-f165-4cc4-8ac8-636b3d7992f6]["the" 7 12-tone scale families]]
 * [[id:1a7c1761-5d28-4b98-a5f0-1d6651cea8f6][music // composition & software]]
 * [[id:5f1ccc68-6200-4b70-b1e4-8e185ea64322][music production and electronics]]
 * music composition and improvisation

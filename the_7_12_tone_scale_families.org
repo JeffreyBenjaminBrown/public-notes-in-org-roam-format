@@ -1,0 +1,133 @@
+:PROPERTIES:
+:ID:       69cf0d19-f165-4cc4-8ac8-636b3d7992f6
+:END:
+#+title: the 7 most important 12-tone scale families
+* why this is good news
+  There are only 7 scale families, and only 33 scales!
+  (I've listed them all below.)
+
+  People think music theory is hard because
+  there are "so many" scales.
+  If you can memorize 33 phone numbers,
+  you can memorize all the important scales.
+* How can I make such an absolutist claim?
+  See the last section of this document for a precise description
+  of the space that this list characterizes.
+
+  I'm not trying to impose a value judgment --
+  or rather, not *my* value judgment.
+  I call these the most important scales
+  because you really have to scour the (12-tone) musical landscape
+  to find music that doesn't fit in them.
+* what I mean by "scale family"
+  A scale family is a set of scales equal modulo transposition.
+  For instance,
+  the major scale is equal to the minor scale modulo transposition,
+  because if you start on the 6th degree of the major scale,
+  you get a minor scale.
+* the 7 families
+** The major scale family
+*** major = ionian
+    0 2 4 5 7 9 11
+*** dorian
+    Start on the 2nd degree of ionian and you get this.
+    0 2 3 5 7 9 10
+*** phrygian
+    Start on the 2nd degree of dorian
+    (or the 3rd degree of ionian, etc.)
+    and you get this.
+    0 2 3 5 7 9 10
+*** lydian
+    I'll stop spelling it out,
+    but the pattern continues.
+    0 2 4 6 7 9 11
+*** mixolydian
+    0 2 4 5 7 9 10
+*** aeolian
+    0 2 3 5 7 8 10
+*** locrian
+    0 1 3 5 6 8 10
+** The melodic minor scale family
+*** dorian #7 = ionian b3 = "melodic minor"
+    0 2 3 5 7 9 11
+*** phrygian #6 = dorian b2
+    [0,1,3,5,7,9,10]
+*** lydian #5 = [no corresponding flat name]
+    [0,2,4,6,8,9,11]
+*** mixolydian #4 = lydian b7
+    [0,2,4,6,7,9,10]
+*** aeolian #3 = mixolydian b6
+    [0,2,4,5,7,8,10]
+*** locrian #2 = aeolian b5
+    [0,2,3,5,6,8,10]
+*** [no corresponding sharp name] = locrian b4
+    [0,1,3,4,6,8,10]
+** The harmonic minor scale family
+*** aeolian #7 = harmonic minor
+    [0,2,3,5,7,8,11]
+*** locrian #6
+    [0,1,3,5,6,9,10]
+*** ionian #5
+    [0,2,4,5,8,9,11]
+*** dorian #4
+    [0,2,3,6,7,9,10]
+*** phrygian #3
+    [0,1,4,5,7,8,10]
+*** lydian #2
+    [0,3,4,6,7,9,11]
+*** locrian b4 b7
+    [0,1,3,4,6,8,9]
+** The harmonic major scale family
+*** ionian b6 = harmonic major
+    [0,2,4,5,7,8,11]
+*** dorian b5
+    [0,2,3,5,6,9,10]
+*** phrygian b4
+    [0,1,3,4,7,8,10]
+*** lydian b3
+    [0,2,3,6,7,9,11]
+*** mixolydian b2
+    [0,1,4,5,7,9,10]
+*** lydian #2 #5
+    [0,3,4,6,8,9,11]
+*** locrian b7
+    [0,1,3,5,6,8,9]
+** The diminished scale family
+*** low diminished
+    0 1 3 4 6 7 9 10
+*** high diminished
+    0 2 3 5 6 8 9 11
+** The augmented scale family
+*** high augmented
+    0 3 4 7 8 11
+*** low augmented
+    0 1 4 5 8 9
+** The whole tone family
+   This family has only one scale.
+   0 2 4 6 8 10
+* the portion of scale-space that this document exhausts
+  These include every symmetric scale with 6 or more tones,
+  and every non-symmetric scale with exactly* 7 tones,
+  subject to two constraints:
+
+  - There cannot be more than two notes
+    in any three consecutive halfsteps
+    (so e.g. B C Db is not allowed).
+  - The interval between any two consecutive notes
+    cannot be greater than 3
+    (so e.g. a jump from Bb to C# is okay,
+    but a jump from Gb to A# is not).
+
+  There exist no non-symmetric scales with more than 7 tones.
+  Therefore this document characterizes
+  every scale subject to the above two constraints
+  with 7 or more notes,
+  plus the whole tone scale.
+** The proof, alas, does not fit in the margin of this page.
+   But it's true. I've proved it numerous times, once without even using a computer, and some smart-seeming guy on one of the Xenharmonic music forums on Facebook said the same thing.
+* some handy Haskell code
+  If you ever want to compute lots of scale modes,
+  then you might find the definition of "mode" below useful.
+
+  shift n l = take (length l) $ drop n $ cycle l
+  mode n scale = (\x -> mod (x - scale !! n) 12) <$> shift n scale
