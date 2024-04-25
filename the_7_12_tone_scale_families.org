@@ -23,8 +23,11 @@
   because if you start on the 6th degree of the major scale,
   you get a minor scale.
 * the 7 scale families
-  There are 4 families with 7 scales, 2 with 2, and 1 with 1.
-  4*7 + 2*2 + 1 = 33.
+  I'm writing these as chromatic formulae rather than using music notation. Music notation is excellent for communicating rhythm and pitch in a small space, but not great for revealing mathematical relationships among scales.
+
+  So, for instance, where I write `0 2 3 5 7 9 10`,
+  if you prefer you can read `C D Eb F G A Bb`,
+  or any number of other equivalent expressions.
 ** The 7 scales of the major scale family, in order
 *** major = ionian
     0 2 4 5 7 9 11
@@ -112,6 +115,7 @@
     0 1 4 5 8 9
 ** The whole tone scale
    This "scale family" has only one scale.
+
    0 2 4 6 8 10
 * the portion of scale-space that this document exhausts
   These include every symmetric scale with 6 or more tones,
