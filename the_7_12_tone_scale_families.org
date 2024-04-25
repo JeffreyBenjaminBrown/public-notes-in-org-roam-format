@@ -96,14 +96,20 @@
 *** locrian b7
     [0,1,3,5,6,8,9]
 ** The diminished scale family
-*** low diminished
+   I'm sticking to conventional names.
+   If it were up to me these would be called
+   "low dim" and "high dim".
+*** half-whole diminished scale
     0 1 3 4 6 7 9 10
-*** high diminished
+*** whole-half diminished scale
     0 2 3 5 6 8 9 11
 ** The augmented scale family
-*** high augmented
+   I'm sticking to conventional names.
+   If it were up to me these would be called
+   "low aug" and "high aug".
+*** the mode that starts with a third
     0 3 4 7 8 11
-*** low augmented
+*** the mode that starts with a second
     0 1 4 5 8 9
 ** The whole tone scale
    This "scale family" has only one scale.
