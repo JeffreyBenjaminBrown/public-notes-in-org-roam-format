@@ -1,8 +1,14 @@
 :PROPERTIES:
 :ID:       4caa77ca-9934-413c-a0e3-d98af96a837d
+:ROAM_ALIASES: "Attia's Outlive (book)"
 :END:
 #+title: Outlive (book) by Peter Attia
 * TODO RESUME at ch 13: stability
+* some medical jaron
+** "nutritional epidemiology" = observational studied in nutrition
+** efficacy vs. effectiveness
+   Efficacy of an intervntion is observed in the lab,
+   effectiveness in the real world.
 * [[id:e2f424e1-f27a-45c2-8d41-cbe212b164dd]["In the late 1970s, the average American adult male weighed 173 pounds. Now ... [it's] nearly 200[.]"]]
 * sugar metabolism
 ** tests Attia rec's
@@ -213,3 +219,9 @@
    "Each time the shoulder joint is subluxed it gnaws away at the labrum and increases the odds for further shoulder instability and pain."
 ** TODO ? use toe-spacers
    "If you really want to go all in on toe yoga, get a set of “toe spacers,” which help restore the toes to a more natural, spread position, particularly in people with bunions or other shoe-related issues. I wear these things around the house a lot."
+* nutrition
+** casts ~ bones :: weird diets ~ nutrition
+   "Wearing a cast on a broken bone will allow it to heal. Wearing a cast on a perfectly normal arm will cause it to atrophy. While this example is obvious, it’s amazing how many people fail to translate it to nutrition. It seems quite clear that a nutritional intervention aimed at correcting a serious problem (e.g., highly restricted diets, even fasting, to treat obesity, NAFLD, and type 2 diabetes) might be different from a nutritional plan calibrated to maintain good health (e.g., balanced diets in metabolically healthy people)."
+** nuts and olive oils might be as effective as statins
+   Result of the PREDIMED experiment in Spain, which was halted prematurely in 2013 due to the dramatic effect.
+   The main problem Attia sees in the study is "performance bias": that the treatment group saw doctors more (to receive olive oil or nuts), which may have changed their behavior.
