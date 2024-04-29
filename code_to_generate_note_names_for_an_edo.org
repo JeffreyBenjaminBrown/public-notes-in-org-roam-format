@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       d471329b-69b4-406e-bf51-f89e9501dbbf
+:END:
+#+title: code to generate note names for an edo
+* PITFALL: Only generates all names if "edo" and "fifth" are relatively prime.
+* Edit the definition of (edo, fifth), then run.
+* code
+import Data.List as L
+myPrint = mapM_ putStrLn . map show
+(edo,fifth) = (58,34) -- MODIFY ME
+fifths = take edo [0..]
+edoSteps = map (flip mod edo . (*fifth)) fifths
+paired = zip fifths edoSteps
+myPrint $ L.sortOn snd paired
+-- see where 7 fifths arrives
+filter ((== 7) . fst) paired
+-- see what notes are available within 7 fifths of the origin
+myPrint $ L.sortOn fst $ ( filter ((<= 7) . fst) paired ++ filter ((>= (edo-7)) . fst) paired )

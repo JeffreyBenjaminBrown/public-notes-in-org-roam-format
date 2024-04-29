@@ -2,6 +2,7 @@
 :ID:       a7586f73-d137-4ed3-8c58-a24675675f60
 :END:
 #+title: 46-edo notation
+* [[id:d471329b-69b4-406e-bf51-f89e9501dbbf][code to generate note names for an edo]]
 * refs
 ** Cam Taylor first explained this to me
    https://www.facebook.com/groups/497105067092502/permalink/2106208506182142/?comment_id=2106280346174958
@@ -10,7 +11,7 @@
   The second counts degrees of 46-edo, from D.
 ** code to generate the parenthetical portion of the map, and more
    import Data.List as L
-   (edo,fifth) = (46,18)
+   (edo,fifth) = (46,27)
    fifths = take edo [0..]
    edoSteps = map (flip mod edo . (*fifth)) fifths
    paired = zip fifths edoSteps

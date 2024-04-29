@@ -3,6 +3,11 @@
 :ROAM_ALIASES: "shell programming" "Bash"
 :END:
 #+title: bash (shell)
+* C-x C-e opens an editor for long commands
+  :PROPERTIES:
+  :ID:       51572b62-3be7-488e-8263-e50d71497484
+  :END:
+  They execute as soon as the editor exits.
 * [[id:41078ddd-4ec0-45fe-a799-3f8d00aa81d8][NuShell]]
 * [[id:a0dae4cf-8359-49c8-9815-523ac2a49191][Bash one-liners, some good]]
 * [[id:c444f70b-f19a-417c-9064-1f5df4c3d803][shell tools for structured data]]

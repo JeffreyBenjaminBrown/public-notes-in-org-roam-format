@@ -225,3 +225,14 @@
 ** nuts and olive oils might be as effective as statins
    Result of the PREDIMED experiment in Spain, which was halted prematurely in 2013 due to the dramatic effect.
    The main problem Attia sees in the study is "performance bias": that the treatment group saw doctors more (to receive olive oil or nuts), which may have changed their behavior.
+** frontload carbs in the day
+   :PROPERTIES:
+   :ID:       4de4c0d1-e619-4a5d-b33c-e123693f07ce
+   :END:
+   "everyone tends to be more insulin sensitive in the morning than in the evening, so it makes sense to front-load our carb consumption earlier in the day."
+** sleep interacts with glucose processing
+   "even one night of horrible sleep cripples our ability to dispose of glucose the next day."
+** TODO ? rice is not so great?
+   "Rice and oatmeal are surprisingly glycemic (meaning they cause a sharp rise in glucose levels), despite not being particularly refined; more surprising is that brown rice is only slightly less glycemic than long-grain white rice."
+** glucose spikes during exercise are normal
+   "Timing, duration, and intensity of exercise matter a lot. In general, aerobic exercise seems most efficacious at removing glucose from circulation, while high-intensity exercise and strength training tend to increase glucose transiently, because the liver is sending more glucose into the circulation to fuel the muscles. Don’t be alarmed by glucose spikes when you are exercising."

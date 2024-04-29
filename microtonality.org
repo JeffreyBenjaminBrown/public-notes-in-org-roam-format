@@ -45,7 +45,6 @@
 * TODO [[id:63f00b56-75b9-4dd1-8c6a-5da099c66010][tell people when I put up a new microtonal piece]]
 * on Xen wiki, document [[id:2bfde440-de3f-4821-8a9c-7f825c7e9c24][3\72 x 11\72]]
 * [[id:8e161cfb-b4c5-4202-a87e-242b3a25c038][making a microtonal guitar]]
-* [[id:f0b6f2cc-c365-4463-99ce-a6092752e8fd][HEWM notation]]
 * [[id:35e37588-7a0a-4fe6-a355-60dcec62d47b][what makes a ratio vanish in an edo?]]
 * TODO [[id:187c2035-12ad-401d-b0c3-af4be228652d][easy, fun Haskell for music : find all the easy divisions of an interval]]
 * [[id:9740fc35-92b5-4285-a6c0-4861c41a28cb][some microtonal musicians]]
@@ -80,6 +79,8 @@ http://x31eq.com/temper/net.html
 * [[id:668d2b62-9e8c-4db9-8bb5-1a552ffa4c33][Bosanquet mapping for equal temperaments]]
 * [[id:80068e27-a77e-4d73-b762-235ec2cc6de4][some edos (equal divisions of the octave)]]
 * microtonal notation
+** [[id:f0b6f2cc-c365-4463-99ce-a6092752e8fd][HEWM notation]]
+** [[id:d471329b-69b4-406e-bf51-f89e9501dbbf][code to generate note names for an edo]]
 ** [[id:c5ab503b-2182-48d3-a416-5a2a1131f234][41-edo notation]]
 ** [[id:a7586f73-d137-4ed3-8c58-a24675675f60][46-edo notation]]
 * [[id:54dd7d84-d721-4132-9522-aae386f18fdb][Thanos (Kite-Ish) Tunings]]
