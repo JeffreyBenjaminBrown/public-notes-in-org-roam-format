@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       36d50f77-24a6-4882-8092-3c7895a01626
+:END:
+#+title: Shared complaints are a conversational black hole. Beware it.
+It's not necessarily bad. It can be good for bonding, and maybe even for finding a solution. But it does have a sort of gravitational pull that can be hard to escape, and should therefore be born in mind if other topics seem more likely to be fruitful.

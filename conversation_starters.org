@@ -5,6 +5,7 @@
 * refs
   https://www.wsj.com/articles/have-better-conversations-with-friendsor-anyone-11658845993?mod=djem10point
 * some principles
+** [[id:36d50f77-24a6-4882-8092-3c7895a01626][Shared complaints are a conversational black hole.]]
 ** [[id:2a435ecf-ddb5-4822-b52f-0667a02ac52c][Doorknobs -- good conversation has lots of.]]
 ** open-ended questions
    rather than ones with yes/no answers
