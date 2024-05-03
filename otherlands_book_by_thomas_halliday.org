@@ -9,7 +9,19 @@
 ** Only 20k years ago (IIRC), as the ice age ended, there were bears 4 meters high, and mastodons.
 ** Animals on islands tend toward a middle size. There aren't enough resources to be huge, and being small makes it hard to store fat, which is necessary because there are for some reason periods of scarcity.
 ** Antlers -- defined by being shed and regrown every year -- require enormous amounts of calcium. Male deer like to position themselves where baby chicks have to cross to get to whatever, so they can eat them.
-* 32 million years ago
+* 32 million years ago, Chile
+** South America was an island continent.
 ** Grass on the world is a recent development.
 ** Plants developed a more efficient way to photosynthesize -- C4 photosynthesis? -- around 3 (10?) million years ago, and animals had to adapt (how?).
 ** The Andes are only 1000 meters high.
+** Grasses tend to populate places with middling rainfall and evaporation.
+   Too little water => desert, scrub. Too much => there's enough water for trees too. But in the middle, the grasses can exploit the water first.
+** Sloths used to be very diverse (in South America then), and most of them on the ground. Their curved claws are good for hanging or gripping without expending energy.
+** "Island rafts" took animals, notably monkeys, from Africa to South America.
+   They are chunks of dirt full of roots, held together, sometimes sporting multiple trees.
+*** TODO Why do they separate from the continent and launch into the ocean?
+* 66 billion years ago, Appalachia (island?) and Florida
+** just after the meteor that killed 3/4 of all species
+** Species with many "cheap" offspring have an advantage in highly variable, unpredictable environments
+** Kangaroo rats only 50 cm from the surface of the earth could survive atomic tests in Nevada in the 60s
+*** TODO How far from the blast center?
