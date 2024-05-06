@@ -236,3 +236,9 @@
    "Rice and oatmeal are surprisingly glycemic (meaning they cause a sharp rise in glucose levels), despite not being particularly refined; more surprising is that brown rice is only slightly less glycemic than long-grain white rice."
 ** glucose spikes during exercise are normal
    "Timing, duration, and intensity of exercise matter a lot. In general, aerobic exercise seems most efficacious at removing glucose from circulation, while high-intensity exercise and strength training tend to increase glucose transiently, because the liver is sending more glucose into the circulation to fuel the muscles. Don’t be alarmed by glucose spikes when you are exercising."
+** "protein is not a primary source of energy"
+   This makes it "Unlike carbs and fat".
+   "If you consume more protein than you can synthesize into lean mass, you will simply excrete the excess in your urine as urea."
+** "he data suggest that for active people with normal kidney function, one gram per pound of body weight per day (or 2.2 g/kg/day)"
+  "The literature suggests that the ideal way to achieve this is by consuming four servings of protein per day, each at ~0.25 g/lb of body weight."
+  "Most people don’t need to worry about consuming too much protein. It would require an overwhelming effort"

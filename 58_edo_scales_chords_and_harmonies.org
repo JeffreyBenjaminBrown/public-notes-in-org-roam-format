@@ -3,18 +3,43 @@
 :END:
 #+title: 58-edo scales, chords and harmonies
 * see also [[id:bfe139e1-14a4-4538-82d4-ea11f142e0ce][just intonation]]
-* a very harmonious whole-tone scale
-  [0, 28] x [0, 10, 19]
-  That is, two clusters of [0,10,19]\58.
-  offset by 28\58.
+* TODO try a neutral aug-ish scale
+** idea
+   repeat [0, x] every 17\58
+     for some value of x
+** code
+:{
+filter (< 58) $
+  take 12 $ -- way more than enough
+  concat [ fmap (+x) $
+           [0,4] | x <- [0,17..] ]
+:}
+* whole-tone scales
+** the most harmonious
+   [0, 28] x [0, 10, 19]
+   That is, two clusters of [0,10,19]\58.
+   offset by 28\58.
+** 7 tones, ends at 54\58
+   9\58 (182 cent) intervals all the way up.
+   Includes the [[id:f5663e9e-0959-42df-8ca2-6290bad6c41b][4-note aug chord that includes 54\58]]
+** septimal: 6 tones, ends at 53\58
+*** definition
+    diffs  : - 11 - 10 - 11 - 10 - 11 - 5
+    values : 0,  11,  21,  32,  42,  53
+*** why it's good
+    it has two 7:8:9 triads (0 11 21 \ 58)
+    and a 15:8 (53)
+* 4-note aug chord including 54\58
+  :PROPERTIES:
+  :ID:       f5663e9e-0959-42df-8ca2-6290bad6c41b
+  :END:
+  18\58 all the way up
 * 9-tone dim scales
   Repeat 0 8 13 or 0 5 13.
-  It's more symmetric if it starts
-    with a jump of 8 rather than 5 --
-    almost perfectly, the only exception being
-    that the last jump is 6\58 instead of 5\58.
-  Both scales include 52\58.
-* bichords a neutral seventh apart
+** Starting with 8 => it includes 34\58.
+** Both scales include 52\58.
+** Both are uniform except where 5\58 and 6\58 meet.
+* bichords a neutral seventh-(ish) apart
 ** 0 maj & -7' sept maj
    = 0 maj & 51 [0 21 34]
    = 0 19 34 51 14' 27'
@@ -23,17 +48,22 @@
    = 0 19 34 51 6' 27'
 ** 0 min & -7' min
    = 0 15 35 51 8' 27'
+** (0 min +42) & (-6 sept min)
+   Here the minor third from 0 also serves
+   as the septimal major third from -6.
 * subharmonic series
 ** 1/[8..13,15] = 5-limit phrygian* but         16/13
    with 16/9, not 9/5
 ** 1/[8..14   ] = 5-limit phrygian* but 8/7 and 16/13
    with 16/9, not 9/5
 * the [[id:532a43fe-68b9-4f74-a8c6-30bbff67a36c][two-quarters septimal diminished]] chord fits nicely in a just dom7
-  rooted 6\58 below the top note of the neutral 3rd
+  Where the dom7 is rooted 6\58 below
+  the top note of the neutral 3rd.
 * the [[id:fb41534d-1f92-4eb1-b20f-45a96ff21d36][diminished Starling]] chord fits nicely in a dom7 tup3 tup7
   The root of the lone 7:6 is the third of the dom7 tup3 tup7
+  (where tup7 means the usual 7th degree +2\58, and tup3 similarly)
 * [[id:46905408-f047-4926-957f-ac01927e22c4][9-based dom7 chord]]
-  That's dom7 with the 3rd and the 7th raised 2\5:
+  That's dom7 with the 3rd and the 7th raised 2\58:
   0  21   34   49
   1  9:7  3:2  9:5
   [1,  9/7,  3/2,  9/5 :: Rational]
@@ -43,13 +73,6 @@
   :END:
   to get 1 : 9/7 : 3/2 : 9/5
   (And remember, [[id:297305db-3682-4373-b8bd-132b389cb1a4][9:5 sounds at least as good as 16:9]])
-* a nice wide whole-tone scale
-** definition
-   diffs  : - 11 - 10 - 11 - 10 - 11 - 5
-   values : 0,  11,  21,  32,  42,  53
-** why it's good
-   it has two 7:8:9 triads (0 11 21 \ 58)
-   and a 15:8 (53)
 * symmetric chords
 ** augmented
 *** 19 + 21 + 18 > the other ordering

@@ -91,3 +91,7 @@ If I run `borg key change-passphrase` and delete any compromised old copies of t
 * borg recreate
   Recreate a backup -- with, say, a different "exclude' pattern.
   https://borgbackup.readthedocs.io/en/stable/usage/recreate.html#borg-recreate
+** example: exclude more files
+   borg recreate /home/jeff/borg-repo-ssd \
+     --exclude-from /home/jeff/excludefile
+   https://github.com/borgbackup/borg/issues/2858
