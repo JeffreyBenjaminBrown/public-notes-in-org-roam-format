@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ac7c4265-d173-4020-9184-0b203554d9f1
+:END:
+#+title: IDs should be UUIDs
+* the main reason
+  Giving them semantic content makes the naming scheme brittle.
+* a side benefit: avoids the [[id:6abbc45b-c279-46d0-9c17-d009612077dd][German tank problem]]

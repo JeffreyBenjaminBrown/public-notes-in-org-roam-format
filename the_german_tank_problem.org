@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       6abbc45b-c279-46d0-9c17-d009612077dd
+:END:
+#+title: German tank problem, the
+* the problem
+  In world war II the Allies were able to estimate the number of tanks that Germany had by using a Bayesian frequentist approach on the serial numbers of the tanks that they destroyed or captured, because those serial numbers came in sequence starting from one
+* more general moral: [[id:ac7c4265-d173-4020-9184-0b203554d9f1][IDs should be UUIDs]]

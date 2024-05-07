@@ -9,6 +9,7 @@
 * [[id:7eb45902-4601-4397-a976-335b448bbdca][group theory]]
 * [[id:465f0ce9-e6e8-4a9f-b290-7290dd914e54][optimization (inc. constrained)]]
 * [[id:23020184-21fa-48a3-8524-c82aae3dfa40][topology]]
+* [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
 * some surprisingly dimension-dependent results
   :PROPERTIES:
   :ID:       7b838adc-843c-4337-981d-6a7b96068831

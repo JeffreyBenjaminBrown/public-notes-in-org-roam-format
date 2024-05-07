@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec
+:END:
+#+title: information theory
+* the [[id:6abbc45b-c279-46d0-9c17-d009612077dd][German tank problem]]

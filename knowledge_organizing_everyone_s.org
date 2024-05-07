@@ -1,8 +1,9 @@
 :PROPERTIES:
 :ID:       2ffe190d-718d-4f71-af97-5214ef091045
-:ROAM_ALIASES: information epistemology "organizing knowledge" mindmapping "knowledge mapping"
+:ROAM_ALIASES: "information mapping" epistemology "organizing knowledge" mindmapping "knowledge mapping"
 :END:
 #+title: knowledge graphs
+* [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
 * see also
 ** [[id:97a9d5f6-feae-4d02-8800-41f36dd5f2b8][ontology (computer science)]]
 ** [[id:f5d81cd6-dcc9-414b-bf9b-2c7f4ca1cd29][my data]]

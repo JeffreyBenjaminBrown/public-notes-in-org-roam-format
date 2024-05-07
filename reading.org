@@ -16,6 +16,8 @@
    but rather to act in accordance with them.)
 * [[id:d5585db3-ac97-426f-8455-c7a2b3dcee93][audiobook services]]
 * material to absorb
+** The dream quest of unknown cadott
+   Novel by Lovecraft, David Suarez's favorite short book.
 ** Diana Uribe history podcast
 ** TODO (ongoing) : [[id:9ac5ebd7-ad3b-414f-a9e4-9c3cd0c4616a][some principles some mindmappers visit regularly]]
 ** TODO (ongoing) : why behavioral is bs
