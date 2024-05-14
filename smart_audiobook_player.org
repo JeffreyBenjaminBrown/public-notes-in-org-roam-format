@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d8dd65f6-1a52-4dfd-8507-7e58107b821e
+:END:
+#+title: Smart Audiobook Player
+for Android
+* [[id:30e7a3a3-f614-4405-a51d-daf22a6ea96a][how to move an audiobook from a computer to Smart Audiobook Player on an Android phone]]

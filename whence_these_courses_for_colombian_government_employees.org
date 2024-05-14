@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       36a70eff-0200-41d1-b062-0a490b8b2198
+:END:
+#+title: Whence these courses for Colombian government employees?
+It's as if someone says "we want our employees to be educated about [x]", but doesn't actually know what they want to be known. So they get someone else to design a course on [x], and the course is a lot of information with zero behavioral implications -- the history of the policies that preceded [x], etc. And the person designing the course seems to be paid by the word, or maybe by the time people spend taking the obligatory course.

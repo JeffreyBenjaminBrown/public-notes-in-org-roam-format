@@ -32,5 +32,5 @@
 *** unison equivalents
 *** voicings bigger than an octave
 *** non-root bass
-** in one hand: amchor one finger while the others dance
+** in one hand: anchor one finger while the others dance
    on either side, or in the middle

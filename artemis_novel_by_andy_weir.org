@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       367a781e-6d8b-4e56-b24c-41fcecd42746
+:END:
+#+title: Artemis (novel) by Andy Weir
+* projectiles land as hard as they are thrown
+  because no air friction

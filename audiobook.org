@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       44f930f9-fc3d-474f-9115-f56fb9268403
+:END:
+#+title: audiobook
+* [[id:d5585db3-ac97-426f-8455-c7a2b3dcee93][audiobook services]]
+* [[id:30e7a3a3-f614-4405-a51d-daf22a6ea96a][how to move an audiobook from a computer to Smart Audiobook Player on an Android cphone]]

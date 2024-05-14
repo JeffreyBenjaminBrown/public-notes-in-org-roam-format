@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       77d3a284-efcd-4497-9f83-5ea2570eecfe
+:END:
+#+title: Why We Sleep
+* [[id:4255d218-f638-43cd-83ed-34cd9dc0b22c][Natural human sleep seems to be biphasic.]]
+* Some major dream categories: Motoric, visual, emotional.

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       d904cdfa-f727-487a-96e7-3cd3ed715e27
+:END:
+#+title: Mercado Libre
+* [[id:6247cf97-e2bf-45c6-9438-9f960280b2e7][Mercado Libre has about 700e3 COP of mine]]
+* PITFALL: Beware refunds.
+  The normal refund procedure takes 3 weeks.
+  However, if I ask to receive the funds as "mercado cash"
+  (or whatever they call it), I can then transfer that money
+  to my bank roughly instantly.
+  Or at least, that was true when I did it around <2024-04-30 Tue>.

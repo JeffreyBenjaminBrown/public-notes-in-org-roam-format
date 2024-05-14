@@ -9,11 +9,31 @@
      for some value of x
 ** code
 :{
-filter (< 58) $
-  take 12 $ -- way more than enough
+filter (< 58) $ -- or maybe 2*58, or even 3*58,
+                -- if the repeating shape is wide
+  take 12 $ -- no scale needs more than 12 notes
   concat [ fmap (+x) $
            [0,4] | x <- [0,17..] ]
 :}
+* maybe the ringiest dim7
+  0 15 28 49
+  That's 6/5 + 7/6 + 9/7
+* a nicer [9\12 - 13\12]-ish interval
+  uses 933 cents for the 9\12,
+  and reaches up 5:4 to 6'\58
+* symmetric-ish scales
+** [0,13] x [0,27,..]
+*** alternates between 13\58 and 14\58
+*** I'm cutting it off after 2 octaves
+*** code
+ :{
+ L.sort $
+ map (flip mod 58) $
+ filter (< (floor $ 2*58)) $
+   take 20 $ -- way more than enough
+   concat [ fmap (+x) $
+            [0,13] | x <- [0,27..] ]
+ :}
 * whole-tone scales
 ** the most harmonious
    [0, 28] x [0, 10, 19]

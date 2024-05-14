@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       30e7a3a3-f614-4405-a51d-daf22a6ea96a
+:END:
+#+title: how to move an audiobook from a computer to Smart Audiobook Player on an Android phone
+* why
+  Copying the folder itself to Google Drive,
+  rather than a zip,
+  means you have to tap lots of individual files,
+  because Google Drive seems not to respect
+  the uploaded folder hierarchy --
+  it just dumps a flat list of files into the cloud.
+* how
+** ASSUMPTION
+   Smart Audio Player uses the Audiobooks folder as its root folder.
+** steps
+*** Zip the needed files into "folder-name.zip".
+*** Upload that to Google Drive.
+*** Download that onto my phone.
+*** Move that file into Audiobooks/ on the phone.
+    There's no need to create a subfolder with a good name.
+*** *Tap the file* and then tap "extract".
+    Strangely, "extract" is not part of the context menu,
+    but tapping the file brings up the option.
+*** This will create a new folder called "folder-name",
+    corresponding to the name of the zip file.
+*** Check the "delete zip file" box before closing.

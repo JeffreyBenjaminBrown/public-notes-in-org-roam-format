@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       07435086-1949-4209-b056-6f104db98730
+:END:
+#+title: What to do when someone at work doesn't respond to a request.
+Wait a while,
+then forward a question about it to their boss,
+CCing them and anyone else who was involved
+in the original discussion.

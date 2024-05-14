@@ -242,3 +242,62 @@
 ** "he data suggest that for active people with normal kidney function, one gram per pound of body weight per day (or 2.2 g/kg/day)"
   "The literature suggests that the ideal way to achieve this is by consuming four servings of protein per day, each at ~0.25 g/lb of body weight."
   "Most people don’t need to worry about consuming too much protein. It would require an overwhelming effort"
+** plant protein is harder to get right
+   (for details search for the phrase "plant protein" in the book)
+** fats
+*** are fuel (like carbs) *and* building blocks (like protein)
+    but they build different stuff
+*** fat + protein can achieve the lion's share of satiety
+*** kinds of fat
+**** SFA (saturated)
+**** MFA (monounsaturated)
+**** PUFA (polyunsaturated
+***** omega 3
+****** marine (EPA, DHA)
+****** nonmarine (ALA)
+***** omega 6
+*** all foods that contain fats typically contain all three categories of fat: PUFA, MUFA, and SFA
+*** the usual behavioral implications
+    [after some chemistry] "Putting all these changes into practice typically means eating more olive oil and avocados and nuts, cutting back on (but not necessarily eliminating) things like butter and lard, and reducing the omega-6-rich corn, soybean, and sunflower oils—while also looking for ways to increase high-omega-3 marine PUFAs from sources such as salmon and anchovies."
+*** MUFA >> PUFA > SFA
+    MUFA seems to be the “best” fat of the bunch (based on PREDIMED and the Lyon Heart study), and after that the meta-analyses suggest PUFA has a slight advantage over SFA.
+*** To make more specific choices than that would require some personal blood testing.
+    "individual factors such as lipid response and measured inflammation"
+*** TODO "almost always need to take EPA and DHA supplements in capsule or oil form."
+** the few clear bad guys
+*** trans fats
+    listed on ingredient labels as “partially hydrogenated vegetable oils” (think: margarine)
+*** fructose-sweetened drinks
+    If there is one type of food that I would eliminate from everyone’s diet if I could, it would be fructose-sweetened drinks, including both sodas and fruit juices, which deliver too much fructose, too quickly, to a gut and liver that much prefer to process fructose slowly. Just eat fruit and let nature provide the right amount of fiber and water.)
+* ch 16 : sleep
+** Deep NREM seems to be more important for brain health than light.
+   In particular, cleaning out amyloid beta and tau.
+** REM seems to have more informational consequences, fewer chemical health ones.
+** TODO drugs
+*** mostly don't work -- they'll induce sleep, but it's bad sleep
+*** TODO trazadone & ashwagandha
+    That side effect is what we want in a sleep medication, especially if it also improves sleep architecture, which is exactly what trazodone does—and most other sleep meds do not.[*4] We typically use it at much lower doses, from one hundred milligrams down to fifty milligrams or even less; the optimal dosing depends on the individual, but the goal is to find the amount that improves their sleep quality without next-day grogginess. (We have also had good results with the supplement ashwagandha.)
+**** TODO trazadone "appears especially helpful for enabling patients to stay asleep and not wake up during the night."
+** TODO try the Pittsburgh Sleep Quality Index
+** TODO reduce light exposure gradually after dusk
+** TODO don't install blue lights at home
+** as opposed to phones and computers, "passive devices such as TV, electronic music players, and, best of all, books were less likely to be associated with poor sleep"
+** "try to keep your bedroom cool"
+   "around sixty-five degrees Fahrenheit seems to be optimal"
+** bathing before bed might help
+   "A warm bath before bed may actually help with this process, not only because the bath itself is relaxing but also because when we get out of the bath and climb into our cool bed, our core temperature drops, which signals to our brain that it is time to fall asleep."
+** wind down at night
+   Don't exercise within 3 hours of bedtime.
+   Don't read the news, work email, other stress-inducing things.
+** TODO meditate right before bed
+** sun at the right time helps
+** questionnaires
+*5 The Pittsburgh Sleep Quality Index questionnaire is available at www.sleep.pitt.edu/​instruments/​#psqi; for a detailed guide to scoring, see Buysse et al. (1989).
+
+*6 The Epworth Sleepiness Scale and its scoring can be viewed at www.cdc.gov/​niosh/​emres/​longhourstraining/​scale.html.
+
+*7 The Insomnia Severity Index and information on its scoring and interpretation are available at www.ons.org/​sites/​default/​files/​InsomniaSeverityIndex_ISI.pdf.
+
+*8 To figure out your sleep chronotype, take the Morningness/Eveningness Questionnaire (MEQ) at https://reference.medscape.com/​calculator/​829/​morningness-eveningness-questionnaire-meq.
+
+*9 The STOP-BANG Questionnaire is available at www.stopbang.ca/​osa/​screening.php.

@@ -2,12 +2,16 @@
 :ID:       23f1e037-49c2-4fa1-acf6-a42b5703082a
 :END:
 #+title: Idris (programming language)
-* TODO RESUME at
+* ONGOING RESUME
+  https://idris2.readthedocs.io/en/latest/tutorial/typesfuns.html#records
+* STALE RESUME at
   in this page:
     https://idris2.readthedocs.io/en/latest/tutorial/multiplicities.html
   find one of these quotes:
     A similar intuition applies for data types.
     data Lin : Type -> Type where
+* The repl is nicer in Emacs!
+  because Emacs provides command history.
 * TODO passages I didn't understand
 ** Are constraints types?
 https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html
@@ -452,3 +456,186 @@ help : a
 
     duplicate : {0 a : _} -> (1 x : a) -> (a, a)
     duplicate :              (1 x : a) -> (a, a)
+* basic human-Idris IO
+** to compile and run
+*** shell
+    # for any values of the strings "input" and "output"
+    # (commonly they will be equal)
+    idris2 input.idr -o output
+    ./build/exec/output
+*** PITFALL: The executable is buried in a subfolder
+    of the folder containingr the source code
+** to type-check a file
+   # shell
+   idris2 --check minimal.idr
+** get help in the repl with :?
+** module names must match filenames
+   just like Haskell
+** definition must precede use
+*** The "mutual" keyword can get around this.
+*** At least for functions and data types,
+    and maybe for more.
+* syntax
+** types
+*** Ptr represents *foreign* pointers
+*** defining types
+**** type names must be uppercase
+**** example
+     data Nat    = Z   | S Nat           -- Natural numbers
+                                         -- (zero and successor)
+     data List a = Nil | (::) a (List a) -- Polymorphic lists
+**** constructors are defined via type signatures
+     data Vect : Nat -> Type -> Type where
+        Nil  : Vect Z a
+        (::) : a -> Vect k a -> Vect (S k) a
+*** function-local type definitions
+foo : Int -> Int
+foo x = case isLT of
+            Yes => x*2
+            No => x*4
+    where
+       data MyLT = Yes | No
+
+       isLT : MyLT
+       isLT = if x < 20 then Yes else No
+** operators
+*** can be defined via type definitions
+    data List a = Nil | (::) a (List a) -- Polymorphic lists
+*** fixity declarations
+    infixr 10 ::
+*** valid operator symbols
+    :+-*\/=.?|&><!@$%^~#
+** functions must be total ("covering") by default
+   but that can be overridden with the "partial" keyword:
+*** syntax
+    partial fromMaybe : Maybe a -> a
+    fromMaybe (Just x) = x
+** holes
+*** Programs with holes are valid!
+*** syntax: denote with a "?" prefix
+    main : IO ()
+    main = putStrLn ?greeting
+*** holes can be type-checked in the REPL
+    Main> :t greeting
+    -------------------------------------
+    greeting : String
+** dependent types
+*** a function can compute a type
+    isSingleton : Bool -> Type
+    isSingleton True = Nat
+    isSingleton False = List Nat
+*** a function in a type signature
+    mkSingle : (x : Bool) -> isSingleton x
+    mkSingle True = 0
+    mkSingle False = []
+** finite sets : the numbers from 0 to n-1
+*** type definitions
+    data Nat    = Z   | S Nat -- Natural numbers
+                              -- (zero and successor)
+    data Fin : Nat -> Type where
+       FZ : Fin (S k) -- the `S` ensures the `Nat` is > 0
+       FS : Fin k -> Fin (S k)
+*** walking through it
+**** `FZ : Fin n` is the zeroth (first) element
+       of the set of n elements.
+**** FS maps from one set to another
+     It takes an element from the set of k elements,
+       and produces an element from the set of k+1 elements.
+**** So consider n = 2.
+     In this case FZ : (Fin 2 = Fin (S 1)),
+       so k = 1.
+     The next element is FS FZ, because
+       FS : Fin k -> Fin (S k)
+          = Fin 1 -> Fin 2
+     The next element cannot exist, because
+       FS (FS (FZ : Fin 1) : Fin 2) : Fin 3
+*** The trick!
+    is that FS maps elements from a smaller set to to a larger one.
+    If FS x has type Fin 3, then x has type Fin 2.
+*** a function that uses it: bounded vector lookup
+    index : Fin n -> Vect n a -> a
+    index FZ     (x :: xs) = x
+    index (FS k) (x :: xs) = index k xs
+**** working through it: n = 2
+#+BEGIN_SRC haskell
+index : Fin 2 -> Vect 2 a -> a
+index FZ     (x :: _) = x
+index (FS FZ) (_ :: xs) = index FZ xs
+#+END_SRC
+** implicit arguments
+*** depend on case and application
+    "Any name beginning with a lower case letter which appears as a parameter or index in a type declaration, which is not applied to any arguments, will always be automatically bound as an implicit argument"
+*** example
+    These are equivalent:
+      index : Fin n -> Vect n a -> a
+      index : forall a, n . Fin n -> Vect n a -> a
+    The a and n are implicit.
+*** they can optionally be provided explicitly
+    e.g. for either of these equivalent definitions:
+      index : Fin n -> Vect n a -> a
+      index : forall a, n . Fin n -> Vect n a -> a
+    we could do this:
+      index {a=Int} {n=2} FZ (2 :: 3 :: Nil)
+    The {} stuff is optional.
+*** arguments in type signatures can be named
+    index : (i : Fin n) -> (xs : Vect n a) -> a
+** TODO ? "mutual" : did not understand most of
+   https://idris2.readthedocs.io/en/latest/tutorial/typesfuns.html#note-declaration-order-and-mutual-blocks
+*** uses a number of terms before defining them
+** laziness
+*** is a primitive but can be thought of like this
+#+BEGIN_SRC idris
+data Lazy : Type -> Type where
+  Delay : (val : a) -> Lazy a
+
+Force : Lazy a -> a
+#+END_SRC
+*** Delay and Force can be left (always?) to the compiler
+    The Idris type checker knows about the Lazy type, and inserts conversions where necessary between Lazy a and a, and vice versa. We can therefore write ifThenElse as follows, without any explicit use of Force or Delay:
+#+BEGIN_SRC idris
+ifThenElse : Bool -> Lazy a -> Lazy a -> a
+ifThenElse True  t e = t
+ifThenElse False t e = e
+#+END_SRC
+*** TODO even functions can (and sometimes should) be marked Lazy
+    maybe : Lazy b -> Lazy (a -> b) -> Maybe a -> b
+                      ^^^^
+** anonymous functions
+   tag lambda expressions
+*** use =>, not ->
+*** arguments may be given explicit types
+    \x : Int => x * 2
+** pairs, tuples and syntactic sugar
+   data Pair a b = MkPair a b
+*** n-tuples are just nested pairs
+    Main> (1,2,3) == (1,(2,3))
+    True
+** dependent pairs
+   data DPair : (a : Type) -> (p : a -> Type) -> Type where
+      MkDPair : {p : a -> Type} -> (x : a) -> p x -> DPair a p
+*** syntactic sugar
+    these equivalent expressions :
+      (x ** p)
+      ( x : a  ** p)
+      ((x : a) ** p)
+    is the type of a pair of A and P, where the name x can occur inside p
+*** an example
+    equivalent
+**** sugared
+     vec : (n : Nat ** Vect n Int)
+     vec = (2 ** [3, 4])
+**** no sugar
+     vec : DPair Nat (\n => Vect n Int)
+     vec = MkDPair 2 [3, 4]
+**** sugar and holes the type checker can fill
+     vec : (n : _ ** Vect n Int)
+     vec = (_ ** [3, 4])
+*** dependent pairs allow unlike types to be collected
+    tag sigma types
+**** example
+     These two values
+       ( 1 ** [1] )
+       (2 ** [1,2])
+     both have type
+       (n ** Vect n Int)
+     even though their second elements have different types.

@@ -2,6 +2,7 @@
 :ID:       e3884e9b-a4ae-4572-8317-7c7030df0b7d
 :END:
 #+title: music making, shared
+* [[id:192a523e-5e8e-4199-a2d0-c22bd86cef12][jazz places in Bogota]]
 * [[id:69cf0d19-f165-4cc4-8ac8-636b3d7992f6]["the" 7 12-tone scale families]]
 * places to do it
 ** Matik Matik does improv sessions
