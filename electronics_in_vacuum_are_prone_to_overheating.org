@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       987f7727-ea22-4fd0-9ea0-3ec1deaf47d6
+:END:
+#+title: Electronics in vacuum are prone to overheating.
+All power used (anywhere) turns into heat.
+It's handy that on Earth the air carries it away.

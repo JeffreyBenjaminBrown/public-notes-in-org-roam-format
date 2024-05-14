@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       fd4f0e29-8a37-4391-968e-5963c978a1d9
+:END:
+#+title: using dotfiles on GitHub:a guide
+https://dotfiles.github.io/

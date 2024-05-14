@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       1d8b31c6-ef8a-4931-be8b-fb1f4c25cce1
+:END:
+#+title: Suction cups don't work in a vacuum.

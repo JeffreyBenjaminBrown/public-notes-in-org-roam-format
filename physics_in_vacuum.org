@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8a936d3c-79ef-4ddd-acf9-a33bddd46d42
+:END:
+#+title: physics in a vacuum
+* [[id:63e3ca27-a579-4a1d-a2ca-5be071d523be][Projectiles in a vacuum land as hard as they are thrown.]]
+* [[id:987f7727-ea22-4fd0-9ea0-3ec1deaf47d6][Electronics in vacuum are prone to overheating.]]
+* [[id:1d8b31c6-ef8a-4931-be8b-fb1f4c25cce1][Suction cups don't work in a vacuum.]]

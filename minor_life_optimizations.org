@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "efficiency \\ jbb"
 :END:
 #+title: minor life optimizations
+* TODO [[id:fd4f0e29-8a37-4391-968e-5963c978a1d9][using dotfiles on GitHub:a guide]]
 * WhatsApp reads audio
 * TODO [[id:2313fc06-ec79-4a0c-b40c-3367cb4fe19d][Khoj - natural language search engine for org-mode notes]]
 * TODO [[id:7831b569-3bc5-443d-a57c-880400aaacad][Change the shortcut for restoring or for searching in Tmux]]
