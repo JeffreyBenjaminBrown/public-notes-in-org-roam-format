@@ -2,6 +2,11 @@
 :ID:       77d3a284-efcd-4497-9f83-5ea2570eecfe
 :END:
 #+title: Why We Sleep
+* REM refines (nightly!) our facial recognition abilities.
+  It's like it goes out of tune.
+  We train on faces seen in the day to keep it tuned.
+  People who go without sleep mistake (photos of)
+  friendly for threatening (but not vice-versa).
 * [[id:4255d218-f638-43cd-83ed-34cd9dc0b22c][Natural human sleep seems to be biphasic.]]
 * Some major dream categories: Motoric, visual, emotional.
 * Dreaming about traumatic events is associated with healing the trauma, even controlling for sleep and dreaming in general

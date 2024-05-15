@@ -2,6 +2,7 @@
 :ID:       2b9e933d-ed88-4792-b80a-a9ff0988a56a
 :END:
 #+title: sleep (biology, personal health)
+* [[id:11e90d17-9bf0-4300-b93c-f1c59a9f958f][how I feel when I've slept better]]
 * [[id:a552cc80-93c7-406e-bade-eb052400512b][sleep \ jbb]]
 * [[id:ccdc6dc7-8166-4243-a8b7-34dc060f128e][co-sleeping]]
 * [[id:d46951af-774d-4083-9a52-4096ba605010][sleep rules]] I try to follow.

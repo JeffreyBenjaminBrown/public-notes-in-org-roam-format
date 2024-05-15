@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       11e90d17-9bf0-4300-b93c-f1c59a9f958f
+:END:
+#+title: how I feel when I've slept better
+* Today <2024-05-15 Wed> I slept 8.5 hours, from 10 pm to 6:30 am,
+  and unusually well despite waking up a lot --
+  maybe because I'm cutting back on caffeine,
+  maybe because I'm getting better at meditating,
+  maybe because I'm taking it more seriously
+    after having almost finished Why We Sleep,
+  maybe because 10 to 6:30 is just a better window than 11 to 7.
+  Today I don't feel (as much?) my usual low-level panic
+  over not having enough time --
+  which fact I continue to consider objectively true,
+  but which accompanying feeling is apparently mutable nonetheless.
