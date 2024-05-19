@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       15c15ae2-bb60-4f6e-9e6d-e9045f9c0132
+:END:
+#+title: When to review my notes.
+* *before* writing to someone I might not remember well
+* If something could be expensive.
+** e.g. when buying something
+* If something could be a disaster.
+  [[id:ebfc71c5-86b6-41b2-adb0-75b513cd12dc][Moving]], for instance, can be a disaster.

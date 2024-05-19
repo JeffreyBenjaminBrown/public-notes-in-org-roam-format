@@ -2,9 +2,19 @@
 :ID:       385a4f63-eaf8-4fe1-b576-0666ea50dde3
 :END:
 #+title: when to pause
-* Ask for more time when an irreversible operation is about to happen.
-  Then use that time to think about how to assure the outcome is okay,
-  or how to gracefully back out.
-* Meditate when I'm not sure my priorities are straight.
-  esp. when I have witnessed injustice or other bad choices in others.
-* [[id:24594f8d-6a90-4fab-8b46-e2c4412e493c][when entering a password feels wrong]]
+* When I'm not sure my priorities are straight, consider meditating (on it).
+  examples
+** when I have witnessed injustice and am tempted to ignore it and get on with my own work
+** when feeling like I'm ignoring something hard for something easy
+* when feeling angry, annoyed or otherwise uncharitable
+** TODO Try pointing out, kindly, how I feel to whoever is pissing me off.
+* when feeling nervous about a decision in progress
+** [[id:24594f8d-6a90-4fab-8b46-e2c4412e493c][when entering a password feels wrong]]
+** Ask for more time when an irreversible operation is about to happen.
+   Then use that time to think about how to assure the outcome is okay,
+   or how to gracefully back out.
+** when feeling pressured into a decision
+   e.g. by salespeople
+* when I notice myself *suppressing* feelings of nervousness
+  e.g. if I'm about to do something that might be stupid,
+  consider in detail the potential negative consequences.

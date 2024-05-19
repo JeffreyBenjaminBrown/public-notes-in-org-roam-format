@@ -4,7 +4,7 @@
 #+title: hikes around Bogotá
 * For the city's (official?) ones, can give someone else's ID.
 * some hikes that PUJ does
-   via Phys ed
+  via Phys ed
 ** Musas de agua
 ** Entre nubes
 ** Cruz Roja

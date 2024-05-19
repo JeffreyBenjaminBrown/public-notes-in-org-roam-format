@@ -3,6 +3,10 @@
 :END:
 #+title: 58-edo scales, chords and harmonies
 * see also [[id:bfe139e1-14a4-4538-82d4-ea11f142e0ce][just intonation]]
+* a sweet septimal scale near 0 2 4.3 6 7 8 11 \ 12
+  0 11 21 30 34 38 52
+  Origin: Think of 11 as the root, and it becomes
+    0  10 19 23 27 41 47
 * TODO try a neutral aug-ish scale
 ** idea
    repeat [0, x] every 17\58
@@ -34,6 +38,8 @@ filter (< 58) $ -- or maybe 2*58, or even 3*58,
    concat [ fmap (+x) $
             [0,13] | x <- [0,27..] ]
  :}
+** [0,29] x [0,7,14,21]
+   The most evenly spaced 8-note scale.
 * whole-tone scales
 ** the most harmonious
    [0, 28] x [0, 10, 19]
@@ -59,18 +65,7 @@ filter (< 58) $ -- or maybe 2*58, or even 3*58,
 ** Starting with 8 => it includes 34\58.
 ** Both scales include 52\58.
 ** Both are uniform except where 5\58 and 6\58 meet.
-* bichords a neutral seventh-(ish) apart
-** 0 maj & -7' sept maj
-   = 0 maj & 51 [0 21 34]
-   = 0 19 34 51 14' 27'
-** 0 maj & -7' sept min
-   = 0 maj & 51 [0 13 34]
-   = 0 19 34 51 6' 27'
-** 0 min & -7' min
-   = 0 15 35 51 8' 27'
-** (0 min +42) & (-6 sept min)
-   Here the minor third from 0 also serves
-   as the septimal major third from -6.
+* [[id:c7d6d174-ba6d-4a09-931d-8aff970281b1][58-edo bichords]] a neutral seventh-(ish) apart
 * subharmonic series
 ** 1/[8..13,15] = 5-limit phrygian* but         16/13
    with 16/9, not 9/5

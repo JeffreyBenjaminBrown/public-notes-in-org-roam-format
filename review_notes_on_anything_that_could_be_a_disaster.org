@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       15c15ae2-bb60-4f6e-9e6d-e9045f9c0132
-:END:
-#+title: Review notes on anything that could be a disaster before doing that.
-* example
-  [[id:ebfc71c5-86b6-41b2-adb0-75b513cd12dc][Moving]], for instance, can be a disaster.

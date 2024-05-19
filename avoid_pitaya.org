@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b19f0058-4e31-493b-aabe-a9923e9bdfbf
+:END:
+#+title: Avoid pitaya.
+Their strength is too variable.
+Twice I've eaten what seemed like a small amount
+and had an explosive, debilitating (2 days) reaction.
