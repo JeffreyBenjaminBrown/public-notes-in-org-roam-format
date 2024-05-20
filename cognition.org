@@ -2,4 +2,5 @@
 :ID:       2daee2c9-6fa3-4192-b8df-37516bcccb62
 :END:
 #+title: cognition
+* [[id:55f2bdf0-1329-4a37-a060-dc2d9af9671a][predictive coding (cognitive science)]]
 * [[id:d424dc9d-aaa6-4d26-accb-4ac85e160c21][cognitive dissonance and commitment (romantic)]]

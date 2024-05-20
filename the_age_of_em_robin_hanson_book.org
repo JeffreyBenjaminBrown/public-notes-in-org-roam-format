@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f7adb1a0-ff20-4dec-912a-fac741b9810f
+:END:
+#+title: The Age of Em, Robin Hanson (book)
+* Whereas brain sizes increased pretty regularly while we were foragers, when we became Farmers they actually shrank. Perhaps because our diets were worse, perhaps because the work was less challenging.

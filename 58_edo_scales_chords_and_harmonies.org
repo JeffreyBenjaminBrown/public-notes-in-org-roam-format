@@ -2,7 +2,16 @@
 :ID:       ee622f95-a99f-4a4b-bb5d-18d48c16b15b
 :END:
 #+title: 58-edo scales, chords and harmonies
-* see also [[id:bfe139e1-14a4-4538-82d4-ea11f142e0ce][just intonation]]
+* see also
+** [[id:bfe139e1-14a4-4538-82d4-ea11f142e0ce][just intonation]]
+** [[id:97e78830-11c4-4736-afc3-4669fd94ee2e][microtonality]]
+* TODO [[id:dd723b43-7f25-4071-a987-de6782fd59b0][When improvising, try pedals in the base and treble. That is, hold either hand fixed while changing the harmonies radically and the other hand]]
+* wide uniform chord : [0,26,52,20',46',14"..]
+* harmonic phrygian #7
+  0 8 15 22 34 39 52
+  This is what you get if you play all the harmonics
+  but replace the 10:9 with 7:6,
+  and start on 5:4 rather than the root.
 * a sweet septimal scale near 0 2 4.3 6 7 8 11 \ 12
   0 11 21 30 34 38 52
   Origin: Think of 11 as the root, and it becomes
@@ -22,7 +31,7 @@ filter (< 58) $ -- or maybe 2*58, or even 3*58,
 * maybe the ringiest dim7
   0 15 28 49
   That's 6/5 + 7/6 + 9/7
-* a nicer [9\12 - 13\12]-ish interval
+* a nicer interval from 9\12 to 13\12 -ish
   uses 933 cents for the 9\12,
   and reaches up 5:4 to 6'\58
 * symmetric-ish scales
@@ -40,6 +49,10 @@ filter (< 58) $ -- or maybe 2*58, or even 3*58,
  :}
 ** [0,29] x [0,7,14,21]
    The most evenly spaced 8-note scale.
+** [0,29] x [0,8,16,24]
+   Start on the last degree,
+   and the result has a perfect fifth
+   and both septimal thirds.
 * whole-tone scales
 ** the most harmonious
    [0, 28] x [0, 10, 19]
@@ -55,61 +68,17 @@ filter (< 58) $ -- or maybe 2*58, or even 3*58,
 *** why it's good
     it has two 7:8:9 triads (0 11 21 \ 58)
     and a 15:8 (53)
-* 4-note aug chord including 54\58
-  :PROPERTIES:
-  :ID:       f5663e9e-0959-42df-8ca2-6290bad6c41b
-  :END:
-  18\58 all the way up
 * 9-tone dim scales
   Repeat 0 8 13 or 0 5 13.
 ** Starting with 8 => it includes 34\58.
 ** Both scales include 52\58.
 ** Both are uniform except where 5\58 and 6\58 meet.
-* [[id:c7d6d174-ba6d-4a09-931d-8aff970281b1][58-edo bichords]] a neutral seventh-(ish) apart
 * subharmonic series
 ** 1/[8..13,15] = 5-limit phrygian* but         16/13
    with 16/9, not 9/5
 ** 1/[8..14   ] = 5-limit phrygian* but 8/7 and 16/13
    with 16/9, not 9/5
-* the [[id:532a43fe-68b9-4f74-a8c6-30bbff67a36c][two-quarters septimal diminished]] chord fits nicely in a just dom7
-  Where the dom7 is rooted 6\58 below
-  the top note of the neutral 3rd.
-* the [[id:fb41534d-1f92-4eb1-b20f-45a96ff21d36][diminished Starling]] chord fits nicely in a dom7 tup3 tup7
-  The root of the lone 7:6 is the third of the dom7 tup3 tup7
-  (where tup7 means the usual 7th degree +2\58, and tup3 similarly)
-* [[id:46905408-f047-4926-957f-ac01927e22c4][9-based dom7 chord]]
-  That's dom7 with the 3rd and the 7th raised 2\58:
-  0  21   34   49
-  1  9:7  3:2  9:5
-  [1,  9/7,  3/2,  9/5 :: Rational]
-* add 2\58 to the 3rd and 7th degrees of 4:5:6:7
-  :PROPERTIES:
-  :ID:       eb2589d1-309e-4a17-96fe-a1f1c8be06c9
-  :END:
-  to get 1 : 9/7 : 3/2 : 9/5
-  (And remember, [[id:297305db-3682-4373-b8bd-132b389cb1a4][9:5 sounds at least as good as 16:9]])
-* symmetric chords
-** augmented
-*** 19 + 21 + 18 > the other ordering
-    = 5/4 + 9/7 + almost 5/4
-    I'm not sure why I prefer this to the other but I seem to.
-*** 19 + 22 + 17 = the haromic ordering
-**** decompositions
-     = (11/9 = 16/13)
-     + 5/4
-     + (13/10 = 17/13 = 22/17)
-**** the JI identity
-     ghci> (16/13) * (5/4) * (13/10)
-     2.0
-*** 19*2 + 20
-** diminished Starling = 6/5*3 + 7/6 = 2
-   :PROPERTIES:
-   :ID:       fb41534d-1f92-4eb1-b20f-45a96ff21d36
-   :END:
-** diminished, two-quarters septimal = 7/6 + 6/5 + 7/6 + 11/9 = 2
-   :PROPERTIES:
-   :ID:       532a43fe-68b9-4f74-a8c6-30bbff67a36c
-   :END:
+* [[id:998b725f-56bd-4d64-93d6-4f9119dbcf10][58-edo chords]]
 * 10-tone scale with P4 and P5
   notes             P4    P5
   pitch - 0 6 12 18 24 29 34 40 46 52
@@ -118,9 +87,6 @@ filter (< 58) $ -- or maybe 2*58, or even 3*58,
   Alternate 10\58 and 11\58.
   Repeats every 2 octaves.
   11 tones total.
-* There's a diminished chord that's 13:8 wide in root position.
-    13    15    13
-  0    13    28    41
 * 7:4 + 9:7 = 13:8 + 11:8 = 9:4
   47  + 21  = 41   + 27   = 10'
 * 3 x 7:6 = 11:8 + 4:3

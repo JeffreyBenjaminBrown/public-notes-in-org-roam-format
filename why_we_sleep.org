@@ -21,3 +21,5 @@
 * Every animal sleeps, even microscopic worms with 300 brain cells.
 * If you go to sleep at a normal time and wake up too early, you lose most of your REM sleep. If you go to sleep late and wake up on time, you lose a disproportionate amount of your nrem sleep. Those are both bad but in different ways.
 * From the inside, performance degradation due to sleep deprivation is hard to measure, and consistently underestimated.
+* Supposedly good to always sleep and wake at same time
+** But keeping the same onset time seems hard for social reasons -- so should I keep the same wakeup time even if the sleep time varies?

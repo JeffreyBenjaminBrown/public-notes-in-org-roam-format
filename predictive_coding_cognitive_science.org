@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       55f2bdf0-1329-4a37-a060-dc2d9af9671a
+:END:
+#+title: predictive coding (cognitive science)
+is the theory that the brain's higher-order models send predictions to lower-level models, and what lower-level models report up is mostly deviations from those predictions.

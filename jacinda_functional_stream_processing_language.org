@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       fced6241-6119-47e9-8b2e-8bc7a7cec730
+:END:
+#+title: Jacinda : functional stream-processing language
+Hopefully more general and uniform than grep, awk, etc.
+https://hackage.haskell.org/package/jacinda
