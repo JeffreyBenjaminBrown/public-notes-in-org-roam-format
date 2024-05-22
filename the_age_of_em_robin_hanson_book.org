@@ -3,3 +3,6 @@
 :END:
 #+title: The Age of Em, Robin Hanson (book)
 * Whereas brain sizes increased pretty regularly while we were foragers, when we became Farmers they actually shrank. Perhaps because our diets were worse, perhaps because the work was less challenging.
+* Faster Ems would have shorter "leashes".
+  Distances from the brain beyond which latency
+  makes it intolerable to put one's body.

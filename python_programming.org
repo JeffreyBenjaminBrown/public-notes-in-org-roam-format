@@ -59,6 +59,7 @@
 ** [[id:23e33a81-1b9b-4914-822a-c09e033d045a][csvlib (Python library)]]
 ** [[id:e2790daf-d86a-4b1b-994b-792d2ac3b3a6][Hypothesis (python library for property testing)]]
 * solutions
+** [[id:5329f542-d070-4f8d-bdb4-a3361147be5b][how to convert an iPython notebook file to plain python]]
 ** [[id:0d4d789c-2c9b-4da1-8637-bb6b6389fac7][unduplicate (find unique members in) a set of sets or lists]]
 ** [[id:c311d1f7-0a9d-42c0-a4db-ba6305051902][parse a URL query string in Python]]
 ** [[id:c804ea2a-2cf3-4a5e-8f43-c504e398fbdf][type aliases in Python]] | type synonyms in Python

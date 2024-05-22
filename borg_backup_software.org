@@ -87,7 +87,10 @@ If I run `borg key change-passphrase` and delete any compromised old copies of t
        borg extract $REPO::2022-04-14.hp17 home/jeff/org-roam
    The paths are optional. If not present, the entire thing is extracted.
 * borg list
-  borg list /path/to/borg/repo
+** list archives in repo
+   borg list /path/to/borg/repo
+** list paths in archive
+   borg list /path/to/borg/repo::archive-name
 * borg recreate
   Recreate a backup -- with, say, a different "exclude' pattern.
   https://borgbackup.readthedocs.io/en/stable/usage/recreate.html#borg-recreate
