@@ -2,132 +2,138 @@
 :ID:       6338f677-2e09-4202-96bb-d5444247bf7a
 :END:
 #+title: to watch
-* Anatomy of a Fall
-  David S. and Juan D. O. both recommend
-* The Beast
-  David S recommends
-* Días Perfectos
-  On appreciating life.
-  Japanese.
-  Viviana (law \ DIAN) recommends.
-* Have You Got It Yet
-  Sid recommends.
-  Best documentary of any kind that he's ever seen.
-  On Syd Barrett (of Pink Floyd).
-* The Orville
-  comedy sci-fi series "with some good insights"
-  Jeremy rec's
-* Cliff sends The Girl Who Wore Freedom
-  about Europeans remembering US soliders' help
-
-  link as shown in Facebook Messenger
-  https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt7347258%2F%3Ffbclid%3DIwAR0sdMCkfWc27_HZYEEDdqOZAYcmvCwgI6RUgGu4WGkGvbhRQ6nByd4c7QY&h=AT1CIGh9vNDMUlewXKyuQ-GYjXwQTq3vKclWp1oYbvoVmvvHPlMALFaWACM9Qt7rKv0dAfREi7vZGAGEBknQtQY3VoWHx4PP1j5Y2EVwFuHMLCj8xjf1shNJP3NE
-* Cliff sends, on biotech, <2023-09-16 Sat>
-  https://mail.google.com/mail/u/0/#inbox/FMfcgzGtwzhRlPRJrZsChJHrxcQcNHXx
-** SynBio for Human Health: Making Biology Easier to Engineer
-   https://www.youtube.com/watch?v=ohWhbftb1xo
-** Ginkgo Ferment 2023
-   https://www.youtube.com/watch?v=E8uc5X0tDBs&t=1006s
-** Ginkgo Ferment 2023: How to predict a revolution w/ Cathy Wood
-   https://www.youtube.com/watch?v=sqcuKn_0mAE
-* LCR on TikTok
-  via Angelica, to Observatorio Sin Jefe
-  https://www.tiktok.com/@luiscarlosrh/video/7264789210584993030?_r=1&_t=8ehcUS9HZlG
-* wanted to watch on HBO; realistic
-** Band of Brothers (paratroopers in WW (2?) )
-    10 episodes
-** Chernobyl
-    5 episodes
-** John Adams (7 episodes)
-* Diamantino (movie)
-** sci-fi or surreal, about a soccer star
-** David Suarez loved it
-* DNA-adjacent biological software
-** https://www.youtube.com/watch?v=Z0TNfysTazc
-** https://www.youtube.com/watch?v=XheAMrS8Q1c
-* The Last Duel
-  "Really great — and probably the most authentic depiction of the Middle Ages I've seen in film." -- @DukakisDude
-* Kingdom of Heaven, director's cut
-  about one of the Crusades
-  history|politics guys on Twitter think it's great
-* Knives Out: comedy murder mystery
-* Bullets over Broadway, black comedy, Woody Allen
-  Brian Florian rec's
-* Photographing Fairies, scifi film
-  Brian Florian rec's
-* sci fi, Brian Ragazzi recommends
-** Rick and Morty, many worlds
-** Invader Zim
+* movies, somewhat ranked
+** The Last Duel
+   "Really great — and probably the most authentic depiction of the Middle Ages I've seen in film." -- @DukakisDude
+** Kingdom of Heaven, director's cut
+   about one of the Crusades
+   history|politics guys on Twitter think it's great
+** Anatomy of a Fall
+   David S. and Juan D. O. both recommend strongly.
+** Have You Got It Yet
+   Sid recommends.
+   Best documentary of any kind that he's ever seen.
+   On Syd Barrett (of Pink Floyd).
+** Diamantino (movie)
+*** sci-fi or surreal, about a soccer star
+*** David Suarez loved it
+** Photographing Fairies, scifi film
+   Brian Florian rec's
+** James Acaster: Cold Lasagne Hate Myself 1999
+   standup comedy
+** The Beast
+   David S recommends
+** Días Perfectos
+   On appreciating life.
+   Japanese.
+   Viviana (law \ DIAN) recommends.
+** Knives Out: comedy murder mystery
+** Bullets over Broadway, black comedy, Woody Allen
+   Brian Florian rec's
+* series
 ** The Orville
-* Tyler Cowen on Adam Smith and Colombia
-  https://www.youtube.com/watch?v=41CGc47MraY
-  Resume at 8:22
-* Scott Pilgrim vs. The World
-  Weird.
-  (Andres?), who I met that day, recommended after watching "Everything Everywhere ..."
-* Undone (series, Amazon Prime)
-  Rabidly rec'd by Dominique Lewis on Facebook.
-* The Americans (series, Netflix)
-  Russian spies
-* Ellen sends how to make a smokeless wood stove
-  https://mail.google.com/mail/u/0/#inbox/FMfcgzGpFgqmWWJBrNjjXstgfpLncrhV
-* [[id:cbaf750e-4098-45bc-9e66-b7d00092faff][Mary Queen of Scots]]
-* TODO Patria, movie about Mexican revolution
-** Cliff rec's
-** There's also a series, probably something else.
-* Cliff on USAID, 53 min
-  https://mail.google.com/mail/u/0/#inbox/FMfcgzGlksCTlffBqjLhQfjmbjKsrSvZ
-* Cliff rec's historical dramas
-  Bolivar
-  The Red Queen
-  The White Queen
-  The Normans
-* Bran rec's Bojack Horseman
-  """
-  It's definitely bleak, but the quality of being amused with its own bleakness starts to change as they develop Bojack's character and he starts realizing that he's been hurting everyone around him and starts to seek redemption. In a nutshell, it's basically about how we must break the cycle of generational trauma and heal so we can stop hurting the people around us...punctuated by animal puns.
-  If I could recommend you watch 3 episodes, they would be in order: The Old Sugarman Place, Time's Arrow, and Free Churro. The first 2 are in season 4 and the final one is in season 5.
-  """
-* Hanna Gadsby: Nanette
-* James Acaster: Cold Lasagne Hate Myself 1999
-* math on Youtube
-  3blue1brown
-  Mathologer
-  Numberphile
-* Sidney's mostly sci-fi TV rec's
-  All 1 season unless noted.
-** Amazon Prime
-*** Electric Dreams, 2015
-    10 PKD stories.
-    Like Black Mirror but more weird, less dark.
-*** Tales from the Loop, 2020
-    The "kids on bikes" genre.
-** Netflix
-*** Dark
-    3 seasons. German. Time travel.
-*** Queen's Gambit
-    About a young chess prodigy in the 80s. Not sci-fi.
-** Hulu
-*** Steven Universe
-    Happy.
-* TODO Uncle Boonmee Who Can Recall His Past Lives
-** available on Netflix
-** description
-   Thai film, weird, complex.
-   Tyler Cowen said maybe the best movie of the last 20 years (in Dec 2021).
-* consciousness => information => the world
-  https://youtu.be/rUfa450m_aQ
-  Via Neil Besel
-* BLOCKED bad reviews
-** Kingsman
+   comedy sci-fi series "with some good insights"
+   Jeremy rec's
+** Band of Brothers (paratroopers in WW (2?) )
+   on HBO, realistic
+   10 episodes
+** Chernobyl
+   on HBO, realistic
+   5 episodes
+** John Adams (7 episodes)
+   on HBO, realistic
+** Undone (series, Amazon Prime)
+   Rabidly rec'd by Dominique Lewis on Facebook.
+** The Americans (series, Netflix)
+   Russian spies
+* u
+** Cliff sends The Girl Who Wore Freedom
+   about Europeans remembering US soliders' help
+
+   link as shown in Facebook Messenger
+   https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt7347258%2F%3Ffbclid%3DIwAR0sdMCkfWc27_HZYEEDdqOZAYcmvCwgI6RUgGu4WGkGvbhRQ6nByd4c7QY&h=AT1CIGh9vNDMUlewXKyuQ-GYjXwQTq3vKclWp1oYbvoVmvvHPlMALFaWACM9Qt7rKv0dAfREi7vZGAGEBknQtQY3VoWHx4PP1j5Y2EVwFuHMLCj8xjf1shNJP3NE
+** Cliff sends, on biotech, <2023-09-16 Sat>
+   https://mail.google.com/mail/u/0/#inbox/FMfcgzGtwzhRlPRJrZsChJHrxcQcNHXx
+*** SynBio for Human Health: Making Biology Easier to Engineer
+    https://www.youtube.com/watch?v=ohWhbftb1xo
+*** Ginkgo Ferment 2023
+    https://www.youtube.com/watch?v=E8uc5X0tDBs&t=1006s
+*** Ginkgo Ferment 2023: How to predict a revolution w/ Cathy Wood
+    https://www.youtube.com/watch?v=sqcuKn_0mAE
+** LCR on TikTok
+   via Angelica, to Observatorio Sin Jefe
+   https://www.tiktok.com/@luiscarlosrh/video/7264789210584993030?_r=1&_t=8ehcUS9HZlG
+** DNA-adjacent biological software
+*** https://www.youtube.com/watch?v=Z0TNfysTazc
+*** https://www.youtube.com/watch?v=XheAMrS8Q1c
+** sci fi, Brian Ragazzi recommends
+*** Rick and Morty, many worlds
+*** Invader Zim
+*** The Orville
+** Tyler Cowen on Adam Smith and Colombia
+   https://www.youtube.com/watch?v=41CGc47MraY
+   Resume at 8:22
+** Scott Pilgrim vs. The World
    Weird.
-   Grace, who I met that day, recommended after watching "Everything Everywhere ..."
-   Sandy didn't like it.
-* DONE
-** [[id:c5555290-51eb-41d3-b3a5-58660af7c2c0][benefits of prolonged (48-72 hr) fasting]]
-** [[id:44454a37-5875-4709-8534-10f9bfcd1694][consciousness in LLMs: a talk by David Chalmers]]
-** "[[id:a35db7a3-3341-46ae-9577-eedfc7f45afd][How to run a tech giant]]"
-** Love death and robots
-   Watched a lot of them. Very hit or miss.
-   5-10 minute scifi shorts, very high-quality animttion.
-   Adrian rec's highly.
-   On Netflix.
+   (Andres?), who I met that day, recommended after watching "Everything Everywhere ..."
+** Ellen sends how to make a smokeless wood stove
+   https://mail.google.com/mail/u/0/#inbox/FMfcgzGpFgqmWWJBrNjjXstgfpLncrhV
+** [[id:cbaf750e-4098-45bc-9e66-b7d00092faff][Mary Queen of Scots]]
+** TODO Patria, movie about Mexican revolution
+*** Cliff rec's
+*** There's also a series, probably something else.
+** Cliff on USAID, 53 min
+   https://mail.google.com/mail/u/0/#inbox/FMfcgzGlksCTlffBqjLhQfjmbjKsrSvZ
+** Cliff rec's historical dramas
+   Bolivar
+   The Red Queen
+   The White Queen
+   The Normans
+** Bran rec's Bojack Horseman
+   """
+   It's definitely bleak, but the quality of being amused with its own bleakness starts to change as they develop Bojack's character and he starts realizing that he's been hurting everyone around him and starts to seek redemption. In a nutshell, it's basically about how we must break the cycle of generational trauma and heal so we can stop hurting the people around us...punctuated by animal puns.
+   If I could recommend you watch 3 episodes, they would be in order: The Old Sugarman Place, Time's Arrow, and Free Churro. The first 2 are in season 4 and the final one is in season 5.
+   """
+** Hanna Gadsby: Nanette
+** math on Youtube
+   3blue1brown
+   Mathologer
+   Numberphile
+** Sidney's mostly sci-fi TV rec's
+   All 1 season unless noted.
+*** Amazon Prime
+**** Electric Dreams, 2015
+     10 PKD stories.
+     Like Black Mirror but more weird, less dark.
+**** Tales from the Loop, 2020
+     The "kids on bikes" genre.
+*** Netflix
+**** Dark
+     3 seasons. German. Time travel.
+**** Queen's Gambit
+     About a young chess prodigy in the 80s. Not sci-fi.
+*** Hulu
+**** Steven Universe
+     Happy.
+** TODO Uncle Boonmee Who Can Recall His Past Lives
+*** available on Netflix
+*** description
+    Thai film, weird, complex.
+    Tyler Cowen said maybe the best movie of the last 20 years (in Dec 2021).
+** consciousness => information => the world
+   https://youtu.be/rUfa450m_aQ
+   Via Neil Besel
+** BLOCKED bad reviews
+*** Kingsman
+    Weird.
+    Grace, who I met that day, recommended after watching "Everything Everywhere ..."
+    Sandy didn't like it.
+** DONE
+*** [[id:c5555290-51eb-41d3-b3a5-58660af7c2c0][benefits of prolonged (48-72 hr) fasting]]
+*** [[id:44454a37-5875-4709-8534-10f9bfcd1694][consciousness in LLMs: a talk by David Chalmers]]
+*** "[[id:a35db7a3-3341-46ae-9577-eedfc7f45afd][How to run a tech giant]]"
+*** Love death and robots
+    Watched a lot of them. Very hit or miss.
+    5-10 minute scifi shorts, very high-quality animttion.
+    Adrian rec's highly.
+    On Netflix.
