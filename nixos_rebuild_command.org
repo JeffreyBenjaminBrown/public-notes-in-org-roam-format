@@ -8,6 +8,8 @@
   it might be that the channel needs updating.
 * nixos-rebuild --keep-failed / -K
   to avoid re-downloading data the next time I try to rebuild
+* to rebuild but not switch
+  sudo nixos-rebuild test
 * to rebuild NixOS nicely
   :PROPERTIES:
   :ID:       5d575d7a-e417-4807-813b-61bea82e9cff

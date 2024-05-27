@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       a6fa386a-1ebc-458e-ade3-434e26041b38
+:ROAM_ALIASES: WSL "Linux in Windows" "Windows, running Linux on"
+:END:
+#+title: WSL = Linux in Windows
+* if I don't have internet access from within it
+  it might be that my computer is only permitted to connect
+  through a proxy, in which case I'll need to
+  [[id:bbae8005-b7ad-45a2-b095-7ea2f2efa403][configure Linux (in this case WSL) to use an internet proxy.]]

@@ -6,3 +6,5 @@
 * Faster Ems would have shorter "leashes".
   Distances from the brain beyond which latency
   makes it intolerable to put one's body.
+* Dense solutions of bacteria have been shown to eliminate the viscosity of the water they are in
+  By coordinating their tails.

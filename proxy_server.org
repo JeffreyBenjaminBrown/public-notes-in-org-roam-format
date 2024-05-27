@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b938ba93-afa3-4e5a-8587-5a02573caad2
+:END:
+#+title: proxy server
+* [[id:bbae8005-b7ad-45a2-b095-7ea2f2efa403][How to configure Linux to use an internet proxy via cntlm.]]

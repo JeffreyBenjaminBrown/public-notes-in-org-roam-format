@@ -3,7 +3,8 @@
 :ROAM_ALIASES: "Attia's Outlive (book)"
 :END:
 #+title: Outlive (book) by Peter Attia
-* TODO RESUME at ch 13: stability
+* TODO RESUME at
+  This is also what makes it difficult to offer blanket advice
 * some medical jaron
 ** "nutritional epidemiology" = observational studied in nutrition
 ** efficacy vs. effectiveness

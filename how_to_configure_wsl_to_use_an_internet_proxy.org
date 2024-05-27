@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       bbae8005-b7ad-45a2-b095-7ea2f2efa403
+:ROAM_ALIASES: "cntlm for Linux in Windows"
+:END:
+#+title: How to configure Linux to use an internet proxy via cntlm.
+* source
+  https://askubuntu.com/a/1134913/570593
+* recipe
+  serial
+** install cntlm
+   Download the latest .deb package from ubuntu.com.
+** configure most of /etc/cntlm.conf
+   Domain = get it from my admin
+   User = "
+   Proxy = x.x.x.x:8080
+     # where each x is a number;
+     # get it from my admin
+   NoProxy = ...
+     # The admin might have a list of exceptions.
+     # If not, probably can leave this at its default value.
+   Listen = 3128
+** see if that works
+   run
+     cntlm -M http://www.google.com
+   It should prompt me for an invisible password,
+   and then connect.
+** give it password hashes
+   run
+     cntlm -H
+   It should prompt me for an invisible password,
+   and then display more text to copy into cntlm.conf
+** restart cntlm
+*** on ordinary Linux, I think, do this
+    sudo systemctl restart cntlm
+*** in WSL
+    sudo service cntlm restart
+** export http_proxy and https_proxy
+   export http_proxy=http://localhost:3128/
+   export https_proxy=http://localhost:3128/

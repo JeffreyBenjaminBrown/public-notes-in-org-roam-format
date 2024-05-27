@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       72dbd648-4b69-4b8a-b72d-680fd85f78e4
+:END:
+#+title: Harmonics 3 and 7 chain together with difficulty.
+* I think there are two reasons
+** Because 7:4 is so close to 10:9.
+** Because 3 is so strong.
+* No other pair seems to fight like that.
+  64:49, for instance, is about 3 times farther from 5:4 = 40:32
+  than 10:9 is to 7:4.

@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       633a97c0-7510-4940-9e60-ce4b3a7eafeb
+:END:
+#+title: An Immense World (book) by Ed Yong
+* We have taste receptors in our gut to detect sweet, and in our lungs to detect bitter.
+* It would be something to expect that bees evolve their eyes to see what's on plants. In fact it's the reverse. Plants put out Spectra for which the bees arrangement of color receptors is optimal, and those color receptors were like that before the plants.
+* Among animals, seeing ultraviolet is the norm.
+* There are some squirrel monkeys that in many cases are colorblind, but some of the females have tri-color vision. The dichromats are better at spotting insects, which use red and green colors to blend into the plant background.** Mirrors at the back of some animals eyes give them two chances to catch each photon.
+* Animals have vastly different frame rates. For people it's around 60 hz. For killer flies it's upward of 350. For sharks, five. Formalisks, around half of a Hertz.
+* Bird's eyes specialize. One side is better for recognizing food, and the other for threats. More generally, one is for familiar patterns, and the other for unfamiliar ones.
+* Eagles and other raptors of prey have two focal areas in each eye, one straight in front and the other off at a 45° angle. The angled one is more precise. That's why they descend in a spiral to catch prey. It's the only way they can keep the prey in that best area of vision
+* The acute zone of birds eyes do not overlap. Therefore, to investigate something in detail, they have to look sideways, using one eye at a time.
+* Mallards can see in all directions at once. That's because their eyes are so far apart.
+* There's a trade off between visual acuity and sensitivity to light. Lions, at 13 cycles per degree, are just above the threshold for being legally blind in humans, which is 10 cycles per degree. But they can hunt at night. Eagles and other birds of prey are the only species with better acuity than humans, around twice ours measured by cycles per degree. None of them is nocturnal.
+* Jumping spiders have separate sets of eyes for tracking motion and for recognizing patterns
+* , at least some kinds, will drag living other ants to the pile of dead ants if they have the smell of dead ant on them, even if they're moving.
+* Pure carnivores like cats have mostly lost their sense of taste for sugar
+* Insects taste with their feet.
+* The US army tried to develop a stink bomb to disperse crowds, but they could not find a universally disgusting smell
+* When elephants greet each other after a long absence they vigorously shit and piss, smell each other, more

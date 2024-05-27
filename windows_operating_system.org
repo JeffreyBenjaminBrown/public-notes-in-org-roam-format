@@ -3,11 +3,13 @@
 :END:
 #+title: Windows (operating system)
 * The Windows shell app is called 'Powershell'
-* WSL = Linux in Windows
-  "Windows subsystem for linux", I think, although that makes no sense.
+* [[id:a6fa386a-1ebc-458e-ade3-434e26041b38][WSL = Linux in Windows]]
 * Emacs in WSL
 ** set cursor size in WSL, not Emacs
-* making Windows suck less
+* Windows config | making Windows suck less
+  :PROPERTIES:
+  :ID:       fbc5cb10-6368-4768-9c30-57be49a7e2d2
+  :END:
 ** Prevent Edge tabs appearing individually when pressing Alt-Tab
    I googled
      why does alt tab in windows show every Edge tab
@@ -17,6 +19,7 @@
    It's one of the startup apps,
    and can be disabled from that list.
 * solutions
+** [[id:fbc5cb10-6368-4768-9c30-57be49a7e2d2][Windows config | making Windows suck less]]
 ** to invert colors in Windows
    C-M-i
 *** PITFALL: Works it's in Spanish. Might differ in English.
