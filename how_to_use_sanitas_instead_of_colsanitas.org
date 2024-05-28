@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2ce8cc5f-bd86-4403-bbcf-bc7ee77c0067
+:END:
+#+title: how to use Sanitas instead of Colsanitas
+* *might* be slower service
+* how
+  serial
+** Go to the Maria Paula bot on Whatsapp.
+** Select Autorizaciones
+** Select Radicar una Autorización
+** When they point out I might not need autorización, ask for it anyway
+   The trick is that without autorización,
+   I'll be using Colsanitas,
+   but with it, Sánitas.

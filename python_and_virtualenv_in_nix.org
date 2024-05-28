@@ -2,56 +2,69 @@
 :ID:       a44ce4eb-ff38-4ee3-8e72-50f9902ff754
 :END:
 #+title: Python and virtualenv in Nix
-https://nixos.wiki/wiki/Python
-* my favorite way to use Python in NixOS: use both nix and virtualenv
-** why it's my favorite way
-   Going fully Nix went badly for me,
-   because some packages were not yet defined in python310Packages.
+https://wiki.nixos.org/wiki/Python
+* the recommended way
+  seems quite easy if everything is already packaged for Nix.
+  It's listed first in the wiki.
+* the easiest, not space-efficient way
+  nix-shell -p python3 --command "python -m venv .venv --copies"
+  PS1="[nix @ \W ] "   # Shorten the prompt
+  source .venv/bin/activate
+  pip3 install  --upgrade -r requirements.txt
+  # ... use it ...
+  deactivate
+* stale
+** old wiki
+   https://nixos.wiki/wiki/Python
+** used to be my favorite way to use Python in NixOS: use both nix and virtualenv
+*** why it's my favorite way
+    Going fully Nix went badly for me,
+    because some packages were not yet defined in python310Packages.
 
-   And going fully virtualenv is known to fail sometimes,
-   because it can somehow need things it doesn't have access to --
-   even, I guess, if they're part of the active top-level NixOS config.
-** how
-   serial
-*** maybe write `pip-shell.nix`
-**** purpose
-     It defines things -- Python libraries and other packages --
-     that will be imported from NixOS
-     (and they need not part of my NixOS config!),
-     rather than installed locally via virtualenv.
-**** an example
- { pkgs ? import <nixpkgs> {} }:
- (pkgs.buildFHSUserEnv {
-   name = "pipzone";
-   targetPkgs = pkgs: (with pkgs; [
-     glibc
-     python310
-     python310Packages.pip
-     python310Packages.numpy
-     python310Packages.pandas
-     virtualenv
-     zlib
-     zlib.dev
-   ]);
-   runScript = "bash";
- }).env
-*** write `requirements.txt`
-**** This defines anything to be installed via virtualenv.
-     If installing it via virtualenv doesn't work,
-     try putting it instead in `pip-shell.nix`.
-**** This needn't be in the top folder of the project.
-     E.g. a nicer place for it is the `python/` subfolder.
-*** use the environment(s)
-    # If I wrote a `pip-shell.nix` file, use it to create a Nix shell.
-    nix-shell pip-shell.nix
+    And going fully virtualenv is known to fail sometimes,
+    because it can somehow need things it doesn't have access to --
+    even, I guess, if they're part of the active top-level NixOS config.
+*** how
+    serial
+**** maybe write `pip-shell.nix`
+***** purpose
+      It defines things -- Python libraries and other packages --
+      that will be imported from NixOS
+      (and they need not part of my NixOS config!),
+      rather than installed locally via virtualenv.
+***** an example
+  { pkgs ? import <nixpkgs> {} }:
+  (pkgs.buildFHSUserEnv {
+    name = "pipzone";
+    targetPkgs = pkgs: (with pkgs; [
+      glibc
+      python310
+      python310Packages.pip
+      python310Packages.numpy
+      python310Packages.pandas
+      virtualenv
+      zlib
+      zlib.dev
+    ]);
+    runScript = "bash";
+  }).env
+**** write `requirements.txt`
+***** This defines anything to be installed via virtualenv.
+      If installing it via virtualenv doesn't work,
+      try putting it instead in `pip-shell.nix`.
+***** This needn't be in the top folder of the project.
+      E.g. a nicer place for it is the `python/` subfolder.
+**** use the environment(s)
+     # If I wrote a `pip-shell.nix` file, use it to create a Nix shell.
+     nix-shell pip-shell.nix
 
-    # The rest of this is just like it would be without `nix-shell`.
+     # The rest of this is just like it would be without `nix-shell`.
 
-    # Build the environment. Only needed once.
-    python -m venv .venv
+     # Build the environment. Only needed once.
+     python -m venv .venv
 
-    PS1="[nix @ \W ] "          # Shorten the prompt
-    source .venv/bin/activate
-    pip3 install  --upgrade -r requirements.txt
-    .... <play with it> ...
-    deactivate
+     PS1="[nix @ \W ] "          # Shorten the prompt
+     source .venv/bin/activate
+     pip3 install  --upgrade -r requirements.txt
+     .... <play with it> ...
+     deactivate
