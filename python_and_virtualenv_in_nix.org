@@ -1,18 +1,23 @@
 :PROPERTIES:
 :ID:       a44ce4eb-ff38-4ee3-8e72-50f9902ff754
+:ROAM_ALIASES: "virtualenv for Python in Nix" "Nix shell for Python virtualenv"
 :END:
 #+title: Python and virtualenv in Nix
 https://wiki.nixos.org/wiki/Python
+* see also [[id:30ad2e6c-97bf-43e0-b72f-c699353eda2b][Nix shell scripts]]
 * the recommended way
   seems quite easy if everything is already packaged for Nix.
   It's listed first in the wiki.
-* the easiest, not space-efficient way
-  nix-shell -p python3 --command "python -m venv .venv --copies"
-  PS1="[nix @ \W ] "   # Shorten the prompt
-  source .venv/bin/activate
-  pip3 install  --upgrade -r requirements.txt
-  # ... use it ...
-  deactivate
+* BLOCKED the easiest, not space-efficient way
+  I can't import Pandas this way --
+  it depends on a missing C library.
+** to activate it
+   nix-shell -p python3 --command "python -m venv .venv --copies"
+   PS1="[nix @ \W ] "   # Shorten the prompt
+   source .venv/bin/activate
+   pip3 install  --upgrade -r requirements.txt
+** to deactivate it
+   deactivate
 * stale
 ** old wiki
    https://nixos.wiki/wiki/Python
