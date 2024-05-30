@@ -4,6 +4,13 @@
 :END:
 #+title: musical exercises
 * TODO [[id:bbd1b9de-c855-41d9-8245-797d09790f87][splash improv]]
+* TODO break patterns
+** slow weird harmony
+   Carefully, slowly, pick tones I would never pick.
+** fast weird hands
+   Quickly, use patterns in my hands that I would never use,
+   or that I would never use that quickly,
+   even if the notes are "wrong".
 * [[id:aca05102-442c-4cef-a920-905efc362bc2][music to emulate]]
 * TODO sensitivity exercises
 ** [[id:d8c61bcd-fd1e-4c7d-9d12-d5e7ff0bdb82][to study the pitches (of an edo)]]
