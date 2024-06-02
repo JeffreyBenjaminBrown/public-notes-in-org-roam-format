@@ -40,11 +40,11 @@
    "[T]he excess is shunted to the liver, where many of those calories are likely to end up as fat."
 * heart, veins and cholesterol
 ** cholesterol
-*** in food, doesn't matter
+*** Cholesterol is a lipid (a fat).
+*** In food, cholesterol doesn't matter.
     """
     “There’s no connection whatsoever between cholesterol in food and cholesterol in blood,” [Ancel] Keys said in a 1997 interview.
     """
-*** Is a lipid (a fat)
 *** Cholesterol is used by the body to build many things
 ** HDL cholesterol is carried by apoA particles, which can cross the endothelium in both directions easily. LDL is carried by apoB, which tends to get stuck in the arterial wall. That's bad, because they get oxidized there, which makes them toxic. This causes atherosclerosis. The oxidation causes them to clump together and stick around.
 ** High blood pressure damages the endothelium.
