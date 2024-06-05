@@ -65,6 +65,11 @@
   First check its dimensions with `file`.
   Then choose new dimensions, and run
   `convert input.jpg -resize 600x400\> output.jpg`
+#+BEGIN_SRC bash
+for i in *.jpg; do
+  convert $i -resize 1020x765\> $i.small.jpg
+done
+#+END_SRC
 * [[id:1780979c-c765-4e14-9ad5-a72546aea4ab][how to concatenate mixed-format images into a pdf]]
 * [[id:044a7113-5ba1-424c-8a28-c9d3e038f650][downsample images and pdfs with ghostscript]]
 * how to find the dimensions of a pic

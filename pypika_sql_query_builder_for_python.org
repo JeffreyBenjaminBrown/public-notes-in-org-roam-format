@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f3edced7-7558-4894-86f5-6859faf0078a
+:ROAM_ALIASES: "SQL query building in Python , a library for : PyPika" "Python , SQL query building in , a library for : PyPika"
+:END:
+#+title: PyPika : SQL query builder for Python

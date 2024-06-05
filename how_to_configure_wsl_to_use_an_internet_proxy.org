@@ -7,33 +7,38 @@
   https://askubuntu.com/a/1134913/570593
 * recipe
   serial
-** install cntlm
-   Download the latest .deb package from ubuntu.com.
-** configure most of /etc/cntlm.conf
-   Domain = get it from my admin
-   User = "
-   Proxy = x.x.x.x:8080
-     # where each x is a number;
-     # get it from my admin
-   NoProxy = ...
-     # The admin might have a list of exceptions.
-     # If not, probably can leave this at its default value.
-   Listen = 3128
-** see if that works
-   run
-     cntlm -M http://www.google.com
-   It should prompt me for an invisible password,
-   and then connect.
-** give it password hashes
-   run
-     cntlm -H
-   It should prompt me for an invisible password,
-   and then display more text to copy into cntlm.conf
-** restart cntlm
-*** on ordinary Linux, I think, do this
-    sudo systemctl restart cntlm
-*** in WSL
-    sudo service cntlm restart
-** export http_proxy and https_proxy
-   export http_proxy=http://localhost:3128/
-   export https_proxy=http://localhost:3128/
+** once, supposedly
+*** install cntlm
+    Download the latest .deb package from ubuntu.com.
+*** configure most of /etc/cntlm.conf
+    Domain = get it from my admin
+    User = "
+    Proxy = x.x.x.x:8080
+      # where each x is a number;
+      # get it from my admin
+    NoProxy = ...
+      # The admin might have a list of exceptions.
+      # If not, probably can leave this at its default value.
+    Listen = 3128
+*** see if that works
+    run
+      cntlm -M http://www.google.com
+    It should prompt me for an invisible password,
+    and then connect.
+*** give it password hashes
+    run
+      cntlm -H
+    It should prompt me for an invisible password,
+    and then display more text to copy into cntlm.conf
+** every time, maybe
+   :PROPERTIES:
+   :ID:       a3f15502-03f3-4b45-a8ad-d24f2a784fc6
+   :END:
+*** restart cntlm
+**** on ordinary Linux, I think, do this
+     sudo systemctl restart cntlm
+**** in WSL
+     sudo service cntlm restart
+*** export http_proxy and https_proxy
+    export http_proxy=http://localhost:3128/
+    export https_proxy=http://localhost:3128/

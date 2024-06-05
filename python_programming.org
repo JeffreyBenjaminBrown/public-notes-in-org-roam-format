@@ -58,6 +58,7 @@
 ** [[id:4f41726e-6865-4329-91c2-9f8716a5ba06][filelock (Python library)]]
 ** [[id:23e33a81-1b9b-4914-822a-c09e033d045a][csvlib (Python library)]]
 ** [[id:e2790daf-d86a-4b1b-994b-792d2ac3b3a6][Hypothesis (python library for property testing)]]
+** [[id:f3edced7-7558-4894-86f5-6859faf0078a][PyPika : SQL query builder for Python]]
 * solutions
 ** [[id:5329f542-d070-4f8d-bdb4-a3361147be5b][how to convert an iPython notebook file to plain python]]
 ** [[id:0d4d789c-2c9b-4da1-8637-bb6b6389fac7][unduplicate (find unique members in) a set of sets or lists]]

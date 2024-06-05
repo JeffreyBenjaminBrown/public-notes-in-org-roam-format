@@ -2,6 +2,7 @@
 :ID:       d5710ba5-2a3a-4f7a-80fc-97f7225c3a05
 :END:
 #+title: macroeconomics
+* [[id:423db924-54ca-4edf-8a91-36c606c5fd9f][inflation's weird effects in Austria post-WWI]]
 * [[id:4424e774-84d5-4373-9313-d03ab89b03fd][Annual average profit fluctuates wildly.]]
 * [[id:b4ead8e8-2891-489b-b8cf-f39e29232aaa][Earnings calls permit something resembling collusion.]]
 * industrial policy

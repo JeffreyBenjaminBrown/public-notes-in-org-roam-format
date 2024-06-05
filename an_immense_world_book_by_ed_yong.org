@@ -2,6 +2,35 @@
 :ID:       633a97c0-7510-4940-9e60-ce4b3a7eafeb
 :END:
 #+title: An Immense World (book) by Ed Yong
+* Dolphins can distinguish barrels of different types of metal, or containing different liquids, or of thicknesses that differ by the width of a human hair. Humans don't have equipment that can do that
+* A sperm whale clicks at 236 decibels
+** Scientists calibrate the equipment they use to measure those clicks by throwing cherry bombs into the water
+* Bat sonar is unbelievable.
+** There was more to it, I didn't take notes during the chapter because the amazing facts came so fast
+** They screech at, in some cases, $130 decibels. In order not to death in themselves, they squeeze their eardrums closed in time with the screeches. Which is incredible in particular because those screeches can be, when they need maximum resolution at a close distance, at a frequency of 200 HZ. Sorry, that's not the frequency of each individual screech, but rather they make 200 distinct screeches in one second. That is the fastest muscle control of any mammal. Sonar dies out with distance relatively quickly, so they see so to speak only on the order of 10 m away. An insect against the wall will reflect sound roughly like the wall does, which is a form of camouflage. To defeat it, the bat will hover in the plane that a leaf defines, so that the sound bounces off the insect on the leaf and not the leaf itself.
+* Small animals have an especially good reason to hear higher frequencies. Since their ears are closer together, lower frequencies are indistinguishable in direction.
+* Some kinds of whales produce a frequency loud enough to be heard everywhere in the world, in the ocean anyway.
+** On the other hand, the wavelengths are so long that the signals from the whales ears would sound identical, which makes it hard to imagine that they are determining the direction from which those waves came.
+*** And only the males sing.
+** And they make the same low frequency like sonar, at regular intervals, coming in on the beat after coming up for air. It's not clear whether they use the echoes from these to math the service of the ocean, but they act like they know that surface. And if you were going to design a system to do that, you would come up with something similar. It's important for the delay to be predictable in sonar, because it can take so long for the sound to come back. For instance, a signal arriving from 1500 miles away would have taken about half an hour.
+* Over 10 milliseconds, a thousand Hertz and 1,050 Hertz are indistinguishable in frequency, although something about them differs that is detectable by birds.
+** This illustrates a general trade-off between pitch detection and temporal resolution
+* Don't get a frogs make a whining sound punctuated sometimes by what are called chucks. The chucks are, apparently, sexy. Frogs who don't Chuck are not chosen by females. Sometimes a female will body slam a male until he makes a Chuck sound.
+* All mammals have two ears that are pretty similar. But insects have separately evolved ears 19 different times, just about everywhere on their bodies. It's easy for that to happen in insects, because they have lots of cells that are specialized for detecting loud changes? And all that happens to happen is for some of those cells to become more sensitive.
+* The kangaroo rat has a gigantic middle ear, bigger than its brain, which it uses to amplify the frequency of owl flight. It can also hear a rattlesnake strike, in time to jump up turn around and kick the snake in the face to get away.
+* When pray caught in a spider web stops moving, the spider can find it by plucking the web and listening to the vibrations
+* Three bones in the middle ear that detects sound used to be jaw bones
+* An ant lion is covered in bristles that can detect vibrations of less than a nanometer
+* There's a kind of cave fish that has lost its lateral line almost completely, and instead it's body is covered with what look like little joysticks, and are actually teeth. These it uses as sensors, because they cave it lives in floods so strongly that the other sensors that other fish use would be overwhelmed. It uses its mouth to sucker onto the wall and wait out the flood
+* Blind fish can still school. They use their lateral lines to detect changes in water pressure, which allows them to detect even stationary objects
+* The wake of a fish will persist in the water for several minutes, and a seal can track it from 200 yd, using its whiskers. Their eyesight is not good.
+* Seals contract the wake of an object while blindfolded.
+* What looks to us like useless nibbling in many animals, such as mice and manatees, is not in fact based around taste, but rather touch, particularly via whisking. Whiskers come in different resolution, and mice will focus on things by turning the high-resolution whiskers toward them.
+* Some animals can sense via touch at a distance. They use currents in water. This lets them find a clam buried in dirt.
+* Mallard ducks use the sensitivity of their bills to do the equivalent of draining a bowl of grape nuts and gravel of the grape nuts and not the gravel.
+* Warm blooded creatures are uniquely easy for parasites to recognize and track. And blood is extremely nutritious, and nearly sterile.
+* Fire chaser Beatles look for Forest fires. When they find one, they have an orgy. The females then lay their eggs, and the young hatch to an oasis of plants unable to defend themselves and a lack of predators who were put off by the smoke earlier
+* A flies apparently random wandering is guided largely by its attempt to stay in a narrow temperature band of air
 * We have taste receptors in our gut to detect sweet, and in our lungs to detect bitter.
 * It would be something to expect that bees evolve their eyes to see what's on plants. In fact it's the reverse. Plants put out Spectra for which the bees arrangement of color receptors is optimal, and those color receptors were like that before the plants.
 * Among animals, seeing ultraviolet is the norm.

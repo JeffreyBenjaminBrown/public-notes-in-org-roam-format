@@ -42,6 +42,7 @@
    Look at the image here, then use MTV to figure out what the axes are.
    https://www.semanticscholar.org/paper/The-Miracle-Temperament-and-Decimal-Keyboard-by-Secor/eab6a60876e19cfedb0cb6dfdc6c8411fb4e7c03
    https://www.facebook.com/groups/497105067092502/posts/2418837091585947/?comment_id=2421947377941585&reply_comment_id=2543774635758858&notif_id=1658245236030103&notif_t=group_comment_mention
+* [[id:74c694c4-847f-4b1a-bc7a-665d836b8d6c][François Chagnon's online ear training app]]
 * TODO When improvising, try pedals in the base and treble. That is, hold either hand fixed while changing the harmonies radically and the other hand
   :PROPERTIES:
   :ID:       dd723b43-7f25-4071-a987-de6782fd59b0

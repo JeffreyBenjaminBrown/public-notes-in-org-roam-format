@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       931a102f-b9f3-4628-b239-84ee9a2f217e
-:ROAM_ALIASES: "Linux, MIDI keyboards in"
+:ROAM_ALIASES: "Linux, MIDI keyboards in" "aconnect"
 :END:
 #+title: MIDI keyboard in Linux, how to use
 This might only apply to USB-connected MIDI keyboards.

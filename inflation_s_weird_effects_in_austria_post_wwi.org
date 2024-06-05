@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       423db924-54ca-4edf-8a91-36c606c5fd9f
+:END:
+#+title: inflation's weird effects in Austria post-WWI
+* currency arbitrage
+After WWI, unemployed English people came to Austria to live on their unemployment benefits in the best hotels. Inflation was faster initially in Austria than in Germany, so even Germans did something like that. Then customs started confiscating anything Austrian before it could be taken from the country. But they could not confiscate the beer a German had already drunk, so Germans flooded the bars and drank to excess. Then the crown (Austrian) stabilized and the mark (German) accelerated its inflation, and the action in the "beer war" moved across the border.
+* rent control + hyperinflation => effectively free rent for most of the country

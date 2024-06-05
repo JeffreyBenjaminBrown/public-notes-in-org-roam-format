@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       eba4ebb6-97ef-4750-9da4-63eac262820a
+:END:
+#+title: ear training
+* [[id:74c694c4-847f-4b1a-bc7a-665d836b8d6c][François Chagnon's online ear training app]]

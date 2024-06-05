@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       c9dc221f-56cc-439c-bd1c-1f0e4bfb95a3
-:ROAM_ALIASES: "CPU throttling, how to disable"
+:ROAM_ALIASES: "CPU throttling, how to disable" "cpufreq-set"
 :END:
 #+title: disable CPU throttling for each core
 * how to do it

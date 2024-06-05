@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       14cb4309-9afa-405a-942f-a743e5a9fd9f
+:END:
+#+title: The Knowledge: How to Rebuild Our World from Scratch (book), by Lewis Dartnell
+* TODO RESUME at
+  The post-apocalyptic world is therefore likely to experience a rise in sea level of several meters
+* steel expands as it rusts, rupturing the concrete from the inside
+  as mildly acidic rainwater soaks through, and humic acids released by rotting vegetation seep into the concrete foundations, the embedded steel begins to rust inside the structures
+* Freezeing and thawing wears down mountains.
+  just like pavement -- water gets into cracks and freezes, expanding to make more cracks
+* Genetic analyses suggest that the Maoris and (more interestingly) most Native Americans descend from a founding population on the order of 140 people, around half of them female.
+* "the observation that first hinted at the deep coupling between electricity and magnetism [was] the twitching of compass needles left next to a wire carrying current
+* "One of the major catalysts for the Renaissance in the fifteenth and sixteenth centuries was the trickle of ancient learning back into Western Europe."
+  "Much of this knowledge, lost with the fall of the Roman Empire, was preserved and propagated by Arab scholars carefully translating and copying texts; other manuscripts were rediscovered by European scholars."
+* [[id:953797b4-486c-4563-9c1e-9c6294f26890][The Meiji Restoration was a blistering industrialization.]]
