@@ -1,23 +1,84 @@
 :PROPERTIES:
 :ID:       c69d9939-32d6-4b6d-937c-9faeeb26858a
 :END:
-#+title: balanced vehicle routing
-* Proceed until improving swaps are sufficiently ineffective
-* If everything is assigned, look for an improving swap
-** Among all of those potential swaps, make the best one
-** Now the problem divides into two cases.
-*** For the other case, find the two closest sites such that one partner works at 1:00 and the other works at the other
-**** Select the better one
-**** Compare that outcome to the outcome in which the work of the more heavily burdened worker is entirely transferred to the less heavily burdened worker
-**** Find the optimal number of jobs to transfer from the more heavily burdened worker to the less heavily burdened if they both go there
-*** In one case, the two partners already share a site.
-**** In this case, it should be straightforward to determine the optimal number of jobs at that site to transfer from the more burdened worker to the less burdened
-** For each potential partner, find the two closest sites such that one is assigned to one partner and one to the other partner.
-** After choosing a target, consider all of the n- 1 potential partners in the swap
-** Alternate between targeting the most burdened and the least burdened inspector
-* If all cities are assigned, but someone has no assignment
-** Find the site where the people assigned to it have the highest number of jobs per worker, and add the new worker
-* If not all cities are assigned to someone
-** Find the city furthest from any of the cities that are assigned to someone, and assign that to someone new if possible. Otherwise assign it to the same person who has the nearest already assigned City
-* If no city is assigned to anybody
-** Find the city that is furthest from all others, and give that entirely to somebody
+#+title: balanced vehicle routing : a greedy solution
+* problem statement
+  There are W agents, S sites and J jobs. All are identical.
+  Each job requires the same number of minutes to complete,
+  and is located at one of the sites.
+  The time distances between sites vary, but are fixed in time.
+  The goal is to assign every job to an agents,
+  minimizing C_bar + (k * J) * I, where
+    C_bar = average time spent working across all agents
+    I = some measure of inequality
+  We must scale I by some constant -- here k*J --
+  to make inequality and average cost comparable.
+  I'll define k and J below.
+* definitions and formulas
+** a "vacancy"
+   Indicates either a job without an agent assigned to it,
+   or an agent with no jobs assigned to them.
+   The first steps of the algorithm eliminate all vacancies,
+   in both agents and jobs.
+** an "improvement"
+   is a change that reduces the value of
+     C_bar + k * J * I
+   where k is an arbitrary (tuned) constant,
+   and J (recall) is the number of jobs to do.
+   We scale by J because otherwise,
+   when there are more jobs to do,
+   the effective relative weight of inequality
+   in the optimization would fall.
+   (Ideally we would scale by the optimal minimum average cost,
+   but that cannot be known.)
+* uncertainties
+** Maybe not all n-1 potential swaps should be considered.
+   It seems expensive.
+   A simpler strategy would be to simply consider swaps at random.
+* choices
+** inequality measure
+*** I will start with the Hoover coefficient,
+    because it is easiest to compute.
+    It might be that some other measure (e.g. Gini) works better.
+*** formula
+    (1/2) average absolute deviation from mean time
+    / total time
+*** ref
+    https://en.wikipedia.org/wiki/Hoover_index#Computation
+** k
+   the degree to which equality matters in our optimization,
+   relative to total cost.
+   Bear in mind that inequality measures typically vary from 0 to 1.
+** the stop rule
+   "n swap attempts have passed without seeing an improvement" might fail to swap.
+   "n swap attempts have passed without seeing an improvement of more than p%" would never fail to stop.
+* algorithm
+  serial
+** If no site is assigned to anybody
+*** Identify the site that is farthest from all others.
+*** Assign every job at that site to someone.
+    I will call this "assigning the site to that person".
+** If not all sites are assigned to someone
+*** Identify the site furthest from any of the sites that are assigned to someone.
+*** Assign that to someone new if possible.
+*** Otherwise, assign it to the same person to whom the nearest already-assigned site is assigned.
+** If all sites are assigned, but someone has no assignment
+*** Find the site where the people assigned to it have the highest number of jobs per worker, and add the new worker.
+    Redivide the jobs so that they are as equal as possible among the workers assigned to that site.
+** Once there are no "vacancies", look for improving swaps.
+   Serial
+   Do this repeatedly.
+*** Choose someone (the "swap target") to find swaps for.
+    Cycle between targeting the most burdened, the least burdened, and a random agent.
+*** Consider all of the n-1 potential partners in the swap.
+*** For each potential partner, find the two closest sites such that one is assigned to one partner and one to the other partner.
+*** Now the problem divides into two cases.
+**** In one case, the two partners already share a site.
+     If they share more than one, pick one at random.
+     Determine the optimal number of jobs at that site to transfer from the more burdened worker to the less burdened. Often this will be a corner case.
+**** In the other case, find the two closest sites such that one partner works at one and the other works at the other. Call these two sites H and L -- H being the site assigned to the the worker with the higher burden, and L the other one.
+     Consider what would happen if instead they shared H. Now this reduces to the first case -- find the optimal way to split H between them.
+*** Among all of those potential swaps, make the best one.
+** Impose a stop rule.
+   "n swap attempts have passed without seeing an improvement" might fail to swap.
+   "n swap attempts have passed without seeing an improvement of more than p%" would never fail to stop.
