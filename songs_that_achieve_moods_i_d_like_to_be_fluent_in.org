@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       743db5b4-4a06-4d72-8cdc-d3879e375ec9
-:ROAM_ALIASES: "music & mood" "mood & music"
-:END:
-#+title: songs that achieve moods I'd like to be fluent in
-* grandeur
-** "Carne" by Losonouncane
-** "That Girl" by Stevie Wonder

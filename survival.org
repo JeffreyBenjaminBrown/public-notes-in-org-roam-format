@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       eee99297-dca7-4b61-97d5-a42148e43d5d
+:END:
+#+title: survival
+* [[id:8134adc0-af1c-407e-9909-a9f42ea4dedb][Hoots are efficient in a forest.]]

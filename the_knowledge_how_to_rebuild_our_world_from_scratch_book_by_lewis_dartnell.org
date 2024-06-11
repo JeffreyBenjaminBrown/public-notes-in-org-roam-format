@@ -4,6 +4,20 @@
 #+title: The Knowledge: How to Rebuild Our World from Scratch (book), by Lewis Dartnell
 * TODO RESUME at
   The post-apocalyptic world is therefore likely to experience a rise in sea level of several meters
+* An inverter converts DC to AC
+* An alternative design of rechargeable lead-acid battery, known as a deep cycle, discharges at a much slower rate and can have almost its entire capacity repeatedly drained and recharged without problems
+* A car alternator provides a steady 12v across it's terminals no matter how fast it spins.
+* Car batteries "are easily damaged if persistently allowed to discharge by more than about 5 percent."
+* Although the potency of a pharmaceutical will decline as the active ingredient in the tablet chemically degrades, there’s no great risk that it’ll harm you.
+* [after cleaning it] pull the lips of the injury together and administer the superglue only along the surface to bridge the gap and hold it closed.
+* Antibiotics marketed for farm and pet animals, and even for fish aquariums, are exactly the same as for humans
+* Gasoline goes bad! Oxidation makes a gummy residue, and condensation permits mold to grow. These can be filtered.
+* [not exposed to] moisture and oxygen), so unmilled whole wheat grains remain good for decades
+* Just a few drops of a 5 percent liquid bleach solution that has sodium hypochlorite listed as the main active ingredient will disinfect a whole liter of water in an hour.
+* some plastic can be re-molded
+  "thermosetting plastics and thermosoftening plastics (or simply thermoplastics). Thermosetting plastics are nigh on impossible to recycle: when heated they decompose into a complex mixture of different organic compounds, many pretty noxious. Thermoplastics, however, once cleaned, can be melted and re-formed into new products."
+  "the quality of plastic products degrades with exposure to sunlight and the oxygen in the air, and they become weaker and more brittle each time they are recycled."
+* Without light, algae won't grow in water.
 * steel expands as it rusts, rupturing the concrete from the inside
   as mildly acidic rainwater soaks through, and humic acids released by rotting vegetation seep into the concrete foundations, the embedded steel begins to rust inside the structures
 * Freezeing and thawing wears down mountains.

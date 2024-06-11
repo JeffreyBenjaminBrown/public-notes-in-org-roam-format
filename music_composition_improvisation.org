@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       3122b24d-3a03-43e6-ae58-e2247d51a1b6
+:END:
+#+title: music // composition & improvisation
+* see also
+** [[id:1a7c1761-5d28-4b98-a5f0-1d6651cea8f6][music // composition & software]]
+* [[id:bbd1b9de-c855-41d9-8245-797d09790f87][splash improv | action painting]]
+* TODO Start from vocal improv melodies.
+  It would be easier to give shape to a song starting from these than from harmonic content.
+  Also, they are consistently very pleasing to me.
+* TODO merge two docs on algorithmic music
+  from a git merge conflict
+** [[id:ca5b629b-c2d2-4fef-9ae9-38ae2ac52bb4][algorithmic music]] ideas
+** [[id:5e40393b-a042-41d2-ba79-41ab70fc9ba6][algorithmic music ideas, <2023-07-28 Fri>, take 2]]
+* [[id:b449bd05-ac06-4548-8982-3a6eb05f5d91][how constraints help \ art]]
+* [[id:bcb1bf60-ce8a-4741-9df6-988922056f75][Use small transformations for stability & memory. \\ music]]

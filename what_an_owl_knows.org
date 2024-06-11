@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       c27b0546-3132-4bbe-8b91-ce853e8431c3
+:END:
+#+title: What an Owl Knows (book)
+* [[id:8134adc0-af1c-407e-9909-a9f42ea4dedb][Hoots are efficient in a forest.]]

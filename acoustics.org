@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       a0ec8a7c-dce1-4259-94f5-634e66424c72
+:END:
+#+title: acoustics
+* [[id:8134adc0-af1c-407e-9909-a9f42ea4dedb][Hoots are efficient in a forest.]]

@@ -1,7 +1,25 @@
 :PROPERTIES:
 :ID:       627da2c2-2f34-46ac-a6d3-9c625c4ff31d
+:ROAM_ALIASES: "machine learning" ML AI
 :END:
 #+title: artificial intelligence
+* machine learning, notes from Google's crash course
+** L2 loss = squared loss = squared error
+** MSE = average of squared loss
+** gradient descent
+*** procedure
+**** compute the gradient of y w/r/t x
+**** adjust by some multiple of that and repeat
+**** hopefully approaches a local zero of the gradient
+*** learning rate = size of steps in gradient descent
+*** if a GD model overshoots
+    try reducing the "learning rate" "by an order of magnitude"
+* graphics cards
+** some recommendations
+   https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/#Raw_Performance_Ranking_of_GPUs
+** the best cheap ones on that list
+   GTX 1060: $130
+   RTX 3050: $175
 * [[id:270da54b-eb89-4a12-8bb5-112d6514a013][things AI can already do]]
 * fun idea: [[id:4e7f7f46-802a-4632-9ace-3db0e3577e9d][Use AI to give image vocabulary to the subconscious.]]
 * [[id:32a4999b-9793-4d6d-bc53-d6682d78ede8][LLMs taking jobs, Washington Post, 2023-06-02]]

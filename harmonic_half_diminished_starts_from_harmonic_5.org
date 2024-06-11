@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       68aa693f-5eea-4c77-aef0-4c9996ebece8
+:END:
+#+title: harmonic half-diminished starts from harmonic 5
+5:6:7:9:11:13
+= half-dim + sharp n2 + (13:5 = 454c)

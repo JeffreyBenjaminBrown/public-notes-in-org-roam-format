@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       c69d9939-32d6-4b6d-937c-9faeeb26858a
+:END:
+#+title: balanced vehicle routing
+* Proceed until improving swaps are sufficiently ineffective
+* If everything is assigned, look for an improving swap
+** Among all of those potential swaps, make the best one
+** Now the problem divides into two cases.
+*** For the other case, find the two closest sites such that one partner works at 1:00 and the other works at the other
+**** Select the better one
+**** Compare that outcome to the outcome in which the work of the more heavily burdened worker is entirely transferred to the less heavily burdened worker
+**** Find the optimal number of jobs to transfer from the more heavily burdened worker to the less heavily burdened if they both go there
+*** In one case, the two partners already share a site.
+**** In this case, it should be straightforward to determine the optimal number of jobs at that site to transfer from the more burdened worker to the less burdened
+** For each potential partner, find the two closest sites such that one is assigned to one partner and one to the other partner.
+** After choosing a target, consider all of the n- 1 potential partners in the swap
+** Alternate between targeting the most burdened and the least burdened inspector
+* If all cities are assigned, but someone has no assignment
+** Find the site where the people assigned to it have the highest number of jobs per worker, and add the new worker
+* If not all cities are assigned to someone
+** Find the city furthest from any of the cities that are assigned to someone, and assign that to someone new if possible. Otherwise assign it to the same person who has the nearest already assigned City
+* If no city is assigned to anybody
+** Find the city that is furthest from all others, and give that entirely to somebody

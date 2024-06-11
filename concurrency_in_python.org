@@ -6,7 +6,10 @@
   Subclass threading.Thread,
   define "run()" in the class definition,
   and then run its "start()" method (not, strangely, the "run()" method).
-* example
+* Threads cannot be unsafely terminated
+  # except with a little hacking:
+  # https://stackoverflow.com/questions/323972/is-there-any-way-to-kill-a-thread
+
   from time import sleep
   from threading import Thread
 
@@ -22,5 +25,18 @@
     mt.start()
     print("go() quitting now.")
     return 1
+* Processes can be unsafely terminated.
+  from time import sleep
+  from multiprocessing import Process
 
-  x = go()
+  class MyProcess (Process):
+    def run(self):
+      while True:
+        print("I'm the MyProcess.")
+        sleep (0.5)
+
+  def go():
+    mt = MyProcess()
+    mt.start()
+    sleep(2)
+    mt.terminate()
