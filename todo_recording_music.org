@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       bd4cc7de-0fd4-4aaf-b478-2eed42cf803a
+:END:
+#+title: TODO & recording \\ music
+* [[id:60ba9c52-ad26-4031-933f-9b75121457b2][Remember to keep earlier tracks simpler.]]

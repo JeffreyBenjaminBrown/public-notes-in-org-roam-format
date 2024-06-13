@@ -2,7 +2,15 @@
 :ID:       bfe139e1-14a4-4538-82d4-ea11f142e0ce
 :END:
 #+title: just intonation
+* 39th harmonic = 13 * 3 ~ 343c
+* 9:7 + 7 = 9:8
+  :PROPERTIES:
+  :ID:       98b32a18-d1ff-4a17-b648-f0859ad8ffd6
+  :END:
+* multiplicative pitch: 1( 1, 3) + 9:7 (1 5 9) = a nice "maj b6"
+  in part because [[id:98b32a18-d1ff-4a17-b648-f0859ad8ffd6][9:7 + 7 = 9:8]]
 * [[id:72dbd648-4b69-4b8a-b72d-680fd85f78e4][Harmonics 3 and 7 chain together with difficulty.]]
+* [[id:68aa693f-5eea-4c77-aef0-4c9996ebece8][harmonic half-diminished starts from harmonic 5]]
 * 7/6 : 7/4 as 9/7 : 12/7
 * [[id:297305db-3682-4373-b8bd-132b389cb1a4][9:5 sounds at least as good as 16:9]]
 * [[id:46905408-f047-4926-957f-ac01927e22c4][9-based dom7 chord]]

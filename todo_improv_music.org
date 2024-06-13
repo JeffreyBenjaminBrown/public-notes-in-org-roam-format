@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       622380e5-1a51-4fc3-81e0-096fac60f020
+:END:
+#+title: TODO & improv \\ music
+* [[id:bcb1bf60-ce8a-4741-9df6-988922056f75][Use small transformations for stability & memory.]]
+* [[id:bbd1b9de-c855-41d9-8245-797d09790f87][splash improv | action painting]]
+* vary the bass: no roots or fifths
+  Try simply moving the pedal to another note in the scale,
+  and play some interval that isn't a fifth.
+* vary the chord over a fixed bass
+* fix a (bass or both hands) rhythm
+* parameters to remember to vary
+** # of voices -- try waves in this
+** rhythm & dynamics
+*** ~4 Hz dynamics figures
+    a tiny rhythm to nest into bigger ones
+*** uneven chord progression rhythms
+** duration : note, theme
+** complexity : pitch set, rhythm, theme
+** density (silence)
+** register
+** hand independence
+*** unison, parallel, timeshared voice, echo
+** big & small changes

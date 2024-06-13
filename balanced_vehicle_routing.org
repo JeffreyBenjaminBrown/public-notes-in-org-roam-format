@@ -40,8 +40,8 @@
 *** I will start with the Hoover coefficient,
     because it is easiest to compute.
     It might be that some other measure (e.g. Gini) works better.
-*** formula
-    (1/2) average absolute deviation from mean time
+*** formula (Hoover inequality)
+    (1/2) sum of absolute deviation from mean time
     / total time
 *** ref
     https://en.wikipedia.org/wiki/Hoover_index#Computation
@@ -54,7 +54,7 @@
    "n swap attempts have passed without seeing an improvement of more than p%" would never fail to stop.
 * algorithm
   serial
-** If no site is assigned to anybody
+** If nothing is assigned to anybody
 *** Identify the site that is farthest from all others.
 *** Assign every job at that site to someone.
     I will call this "assigning the site to that person".

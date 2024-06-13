@@ -5,7 +5,7 @@
 * see also
 ** [[id:bfe139e1-14a4-4538-82d4-ea11f142e0ce][just intonation]]
 ** [[id:97e78830-11c4-4736-afc3-4669fd94ee2e][microtonality]]
-* TODO [[id:dd723b43-7f25-4071-a987-de6782fd59b0][When improvising, try pedals in the base and treble. That is, hold either hand fixed while changing the harmonies radically and the other hand]]
+* [[id:68aa693f-5eea-4c77-aef0-4c9996ebece8][harmonic half-diminished starts from harmonic 5]]
 * nice sept min maj7 : 0 13 34 52
   maybe because 52 + 19 = 13'
 * wide uniform chord : [0,26,52,20',46',14"..]

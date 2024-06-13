@@ -2,7 +2,6 @@
 :ID:       1a7c1761-5d28-4b98-a5f0-1d6651cea8f6
 :END:
 #+title: music // composition & software
-* edit to make everything fast enough
-  Use a tempo map.
+* [[id:9c8229e5-69c4-43e1-94a8-4ea473daf2f5][Use a tempo map to make everything fast enough.]]
 * Tidal: [[id:f43e3514-fe0a-4218-825b-fc26b5108e32][make bass-drum-key rhythms]]
 * software for [[id:1e62cf8b-c5d2-42a4-b7d1-e3a10f37bee7][remote jamming]]

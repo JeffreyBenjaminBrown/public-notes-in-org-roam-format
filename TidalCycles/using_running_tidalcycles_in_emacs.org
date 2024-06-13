@@ -37,6 +37,7 @@
 **** launch a shell in Emacs (`M-x shell`)
 **** mark it as the receiving GHCI buffer
      M-x mark-rec TAB
+     mark-receiving-ghci-buffer
 **** send these commands to it
      cd /home/jeff/code/music/Tidal/tidal+epic
        # or whatever the root of the Tidal project is

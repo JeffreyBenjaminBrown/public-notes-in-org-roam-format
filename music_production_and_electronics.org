@@ -14,9 +14,6 @@
 * [[id:31e37165-32fa-4735-add7-433911de7329][audio plugins]]
 * [[id:f10c8fae-9ff5-44dd-ab56-7df68e81a988][my music gear]]
 * software for [[id:1e62cf8b-c5d2-42a4-b7d1-e3a10f37bee7][remote jamming]]
-* TODO Could you merge 4 launchpads?
-  Some of them are velocity-sensitive.
-  All of them have RGB leds.
 * [[id:8c3a9427-ea28-4d17-bb1f-c27012836646][Glicol (programming language for live coding music & graphs)]]
 * [[id:de30e8da-4c6f-4638-b063-45fb20eb3255][latencytop: a Linux latency monitoring tool]]
 * an EQ for PulseAudio
@@ -24,3 +21,8 @@
   https://news.ycombinator.com/item?id=24586239
 * [[id:2e99f9b7-5784-4e04-a277-9e6e734d1dd2][JACK (audio connection software)]]
 * [[id:b61142c9-d27f-41f0-b0d6-3f4ef273090a][synthesizer (audio software)]]
+* TODO Apply rhythm to pitch set. Capture pitch set. Capture rhythm. Transpose part of pitch set.
+* DONE obsoleted by Lumatone
+** Could you merge 4 launchpads?
+   Some of them are velocity-sensitive.
+   All of them have RGB leds.

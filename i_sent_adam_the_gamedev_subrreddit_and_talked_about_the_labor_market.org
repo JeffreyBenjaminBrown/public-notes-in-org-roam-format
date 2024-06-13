@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       4ef253ed-5660-4920-a51f-198f9bef14b0
+:END:
+#+title: I sent Adam the gamedev subrreddit and talked about the labor market
+Hi Adam! How are you?
+
+Cliff told me you're considering video game development. I've known three people in video game development. One of them, Bernie Frieden, a graphics developer (not an artist) started at Bungee in 1997, worked like crazy, and became famous. Now he's too cool to return my messages. My other two are both miserable; they say the job is nothing like what they expected when they were studying for it. They say it's so competitive -- that is, so many people want jobs in gaming -- that the companies don't have to pay them well and ask them to work too much.
+
+One of those two is an artist, the other a developer. The artist says she sees work being gobbled up by AI, which keeps getting better at art.
+
+I don't know how normal my friends' stories are, so I looked online, and found that there's a subreddit devoted to video game dev. I ran a search for all the posts with the word "job" in it (to focus on posts about the life, rather than the technology, of a game developer). Here's that search:
+
+https://www.reddit.com/r/gamedev/search/?q=job&type=link&cId=f1626bde-41f8-40cf-811c-331ee9baa73f&iId=e3949bf2-43f9-4e2e-a982-52e03a662c18
+
+Some of these people are artists, some are coders, some are both. But they're all talking about their experience in the industry, and I think you might find it useful. I haven't read much of it myself, so I don't know what you'll find.
+
+I hope the result isn't depressing. But always it's better to know the truth than to be armed only with one's imagination. What I can say that's hopeful is that even if AI is gobbling up art jobs, it appears to be a long way from gobbling up programmer jobs. There are certain kinds of understanding that will always be useful. Economics is the study of how to make choices -- it's not even about money, really -- and it applies to everything. Programming is used everywhere. Math is used everywhere. Writing is used everywhere. So if you're good at any of that stuff, someone will always need your help.
+
+I know you don't check Whatsapp much so I'll mention to Cliff that I sent you this message.

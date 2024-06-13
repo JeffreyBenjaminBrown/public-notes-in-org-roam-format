@@ -35,10 +35,13 @@
 ** Moonchild (KC)
 * danceable electronic to study/emulate
 ** G Jones, Phace, 2 Fingers
-* TODO Be like these bands.
-  minimal, funky
-** Deerhoof
-** Soul Coughing
-** LMFAO
-** Daft Punk
-** Bach
+* TODO feels to learn
+** minimal, funky
+*** Deerhoof
+*** Soul Coughing
+*** LMFAO
+*** Daft Punk
+*** Bach
+** grandeur
+*** "Carne" by Losonouncane
+*** "That Girl" by Stevie Wonder

@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       9c8229e5-69c4-43e1-94a8-4ea473daf2f5
+:END:
+#+title: Use a tempo map to make everything fast enough.

@@ -2,9 +2,12 @@
 :ID:       e3884e9b-a4ae-4572-8317-7c7030df0b7d
 :END:
 #+title: music making, shared
+* ideas I'm likely to want to share
+** [[id:69cf0d19-f165-4cc4-8ac8-636b3d7992f6]["the" 7 12-tone scale families]]
+** [[id:339f3f3a-49c2-4dfd-a66c-de482ccec92a][my introductory microtonal music recommendations]]
 * [[id:192a523e-5e8e-4199-a2d0-c22bd86cef12][jazz places in Bogota]]
-* [[id:69cf0d19-f165-4cc4-8ac8-636b3d7992f6]["the" 7 12-tone scale families]]
 * places to do it
 ** Matik Matik does improv sessions
 ** Diosa Cervecería (Teusaquillo) has a Tuesday jazz jam
 * [[id:bbd1b9de-c855-41d9-8245-797d09790f87][splash improv]]
+* software for [[id:1e62cf8b-c5d2-42a4-b7d1-e3a10f37bee7][remote jamming]]

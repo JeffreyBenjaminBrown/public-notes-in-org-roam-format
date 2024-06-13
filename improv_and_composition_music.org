@@ -10,9 +10,7 @@
    If first, maybe TidalCycles.
 ** TODO Try writing/recording melody first.
 ** TODO try simplifying something to make room for each addition
-** remember to keep the early track simple
-   esp. rhythmically,
-   with lots of silence, for the other to fill
+** [[id:60ba9c52-ad26-4031-933f-9b75121457b2][Remember to keep earlier tracks simpler. \\ recording improv]]
 ** TODO composition idea: preliminary *vocal* sketches
    Sketch the rhythm / timbre vocally before anything else.
    Paint broad strokes before even getting into (precise) pitch.
@@ -30,7 +28,6 @@
    :ID:       ff5549cb-7d76-41c7-ab5e-9373823fc458
    :END:
 * how to play
-** TODO Try fixing a rhythm in the left hand
 ** TODO try simplifying something to make room for each addition
 ** Keep each voice restrained.
    Need to leave space for subsequent voices.

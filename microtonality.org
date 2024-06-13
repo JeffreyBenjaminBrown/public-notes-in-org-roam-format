@@ -30,23 +30,11 @@
 *** Compute all the 15 limit intervals
 **** There are at most eight times seven equals 56 of these, but some of them are duplicates.
 *** Further order the results by placing those for which the third interval is also harmonic above the others
-** JI
-*** 39th harmonic = 13 * 3 ~ 343c
-*** 9:7 + 7 = 9:8
-    :PROPERTIES:
-    :ID:       98b32a18-d1ff-4a17-b648-f0859ad8ffd6
-    :END:
-*** multiplicative pitch: 1( 1, 3) + 9:7 (1 5 9) = a nice "maj b6"
-    in part because [[id:98b32a18-d1ff-4a17-b648-f0859ad8ffd6][9:7 + 7 = 9:8]]
 ** What is this 72-edo layout Paul Erlich suggested?
    Look at the image here, then use MTV to figure out what the axes are.
    https://www.semanticscholar.org/paper/The-Miracle-Temperament-and-Decimal-Keyboard-by-Secor/eab6a60876e19cfedb0cb6dfdc6c8411fb4e7c03
    https://www.facebook.com/groups/497105067092502/posts/2418837091585947/?comment_id=2421947377941585&reply_comment_id=2543774635758858&notif_id=1658245236030103&notif_t=group_comment_mention
 * [[id:74c694c4-847f-4b1a-bc7a-665d836b8d6c][François Chagnon's online ear training app]]
-* TODO When improvising, try pedals in the base and treble. That is, hold either hand fixed while changing the harmonies radically and the other hand
-  :PROPERTIES:
-  :ID:       dd723b43-7f25-4071-a987-de6782fd59b0
-  :END:
 * TODO [[id:63f00b56-75b9-4dd1-8c6a-5da099c66010][tell people when I put up a new microtonal piece]]
 * on Xen wiki, document [[id:2bfde440-de3f-4821-8a9c-7f825c7e9c24][3\72 x 11\72]]
 * [[id:8e161cfb-b4c5-4202-a87e-242b3a25c038][making a microtonal guitar]]

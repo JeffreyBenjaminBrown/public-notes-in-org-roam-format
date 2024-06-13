@@ -102,7 +102,7 @@
 *** TODO the complexity of the pitch set
 *** amplitude
 *** TODO which parameters are complex
-** stackd/nested waves
+** stacked/nested waves
 ** voices at different amplitudes, speeds
 ** TODO waves of action and peace
 ** TODO weird {harmony, ..}
