@@ -19,9 +19,9 @@ Economics aims to find the optimal solution to a problem -- not just an okay str
 * The astounding scope of economics
 Econometrics revolutionized baseball (as depicted in the movie Moneyball).
 
-Economics and game theory (which was first a branch of pure math) have had a strong influence on how countries "use" (mostly by holding, not launching) military weapons. What if your enemy might be crazy? WHen should you act like you might be crazy? (The predictions of the simplest model of this situation, the game Chicken, are strikingly close to what we see when animals are aggressive.)
+Economics and game theory (which was first a branch of pure math) have had a strong influence on how countries "use" (mostly by holding, not launching) military weapons. What if your enemy might be crazy? When should you act like you might be crazy? (The predictions of the simplest model of this situation, the game Chicken, are strikingly close to what we see when animals are aggressive.)
 
-Why are voters so dumb? Are there voting mechanisms that work better than what we've got? (Yes, there are.)
+Why do voters seem to make such bad decisions? Are there voting mechanisms that work better than what we've got? (Yes, there are.)
 
 What happens if it's legal to sell your own kidneys? If it isn't, how can we match kidney donors to kidney recipients anyway? (An economist, Alvin Roth, won the Nobel Prize for finding a good way to do that.)
 
