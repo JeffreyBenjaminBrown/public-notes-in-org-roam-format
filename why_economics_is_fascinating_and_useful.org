@@ -17,9 +17,9 @@ We don't even always assume people make the best decision possible, based on the
 Economics aims to find the optimal solution to a problem -- not just an okay strategy, but the literally, mathematically provably best strategy. This is useful not just to figure out what you should do, but to know what other people are likely to do, if they know what they are doing.
 
 * The astounding scope of economics
-Econometrics revolutionized baseball (as depicted in the movie Moneyball).
+Econometrics revolutionized baseball (as depicted in the movie Moneyball, which is pretty cool).
 
-Economics and game theory (which was first a branch of pure math) have had a strong influence on how countries "use" (mostly by holding, not launching) military weapons. What if your enemy might be crazy? When should you act like you might be crazy? (The predictions of the simplest model of this situation, the game Chicken, are strikingly close to what we see when animals are aggressive.)
+Economics and game theory (which was first a branch of pure math) have had a strong influence on how countries "use" (mostly by holding, not launching) military weapons. What if your enemy might be crazy? When would a non-crazy person want to act crazy? (A simple model of this situation, the game Chicken, produces predictions that are strikingly close to what we see in aggression in animals.)
 
 Why do voters seem to make such bad decisions? Are there voting mechanisms that work better than what we've got? (Yes, there are.)
 
