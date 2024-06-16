@@ -3,6 +3,7 @@
 :ROAM_ALIASES: Emacs
 :END:
 #+title: Emacs (programamble text editor)
+* [[id:80be0156-3e35-499e-a14b-9aa5803e715f][making big programs in Emacs]]
 * [[id:30820f8e-85d1-43c9-89e8-c763b6864d2d][outline-mode for Emacs]]
 * TODO [[id:f67b3ffb-c806-4279-bc8a-f0b35291bf42][BROKEN: Cannot rebind `C-c @ TAB` in outline-minor-mode]]
 * [[id:19a2966d-79dc-49e9-b7a7-5dea84a19672][PITFALL: Currently (<2022-07-06 Wed>) Python mode can't handle triple quotes. Don't use them for a while.]]

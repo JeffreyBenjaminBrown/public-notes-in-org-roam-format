@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       7cf89cef-158c-4893-8654-71b1bfb5201d
+:END:
+#+title: TypeDB in Docker, running
+* refs
+  https://typedb.com/docs/typedb/2.x/installation.html
+* to start it
+** the command
+   docker run               \
+     --name typedb          \
+     -d                     \
+     -v typedb-data:/opt/   \
+     -p 1729:1729           \
+     --platform linux/amd64 \
+     vaticle/typedb:latest
+** PITFALL: uses global Docker memory
+*** what it does
+    The line
+	-v typedb-data:/opt/
+    in the above command causes a folder called `typedb-data`
+    to be created in
+      /var/lib/docker/volumes
+    rather than the folder from where the command is run.
+*** what I want instead
+    is to use a folder in my home directory of my choosing.
+    I can't figure out how to do that --
+    if I changed "typedb-data" to "./typedb-data"
+    or "/home/jeff/typedb-data"
+    I get an error like this:
+      docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: "/opt/typedb-all-linux-x86_64/typedb": stat /opt/typedb-all-linux-x86_64/typedb: no such file or directory:  unknown.

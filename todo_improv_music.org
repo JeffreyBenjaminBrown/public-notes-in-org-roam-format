@@ -10,14 +10,15 @@
 * vary the chord over a fixed bass
 * fix a (bass or both hands) rhythm
 * parameters to remember to vary
-** # of voices -- try waves in this
+** # of voices | density (inc. silence)
+   try waves in this
 ** rhythm & dynamics
-*** ~4 Hz dynamics figures
+*** ~1 Hz dynamics figures
     a tiny rhythm to nest into bigger ones
 *** uneven chord progression rhythms
 ** duration : note, theme
+   in notes, duration is independent of rhythm
 ** complexity : pitch set, rhythm, theme
-** density (silence)
 ** register
 ** hand independence
 *** unison, parallel, timeshared voice, echo

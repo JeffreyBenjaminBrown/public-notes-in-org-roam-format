@@ -11,6 +11,7 @@
 ** reading the TypeQL docs at "[[id:9941d24a-fc78-4854-aaef-8493f6ad1da7][Advanced Patterns & Queries]]"
    (I'm already done with the TypeDB docs.)
 * TODO [[id:d674bf8d-cd41-47aa-8418-36a74cedd561][build Hash for TypeDB]]
+* TODO build [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode in TypeDB and Emacs]]
 * refs
 ** getting started
 *** TypeDB Core, installing and launching
@@ -26,7 +27,7 @@
    :PROPERTIES:
    :ID:       c091cef4-e8d0-4880-96a5-6239c7e07604
    :END:
-   https://typedb.com/docs/clients/2.x/console
+   https://typedb.com/docs/manual/console
 ** Python client
    :PROPERTIES:
    :ID:       2e5e9f7f-69af-46c0-8998-c1d224d205a7

@@ -1,0 +1,83 @@
+:PROPERTIES:
+:ID:       5346e42f-5cf6-4af9-8efa-564cd350e104
+:ROAM_ALIASES: Hode3
+:END:
+#+title: Hode in TypeDB and Emacs (plans)
+* ONGOING top of mind
+** parsing in Python
+   I like the look of these:
+     https://pypi.org/project/parsita/ -- my favorite, judging the docs
+     https://github.com/vlasovskikh/funcparserlib
+     https://pypi.org/project/parsy/
+   and at least the spirit behind
+     https://pypi.org/project/parsec/
+** Emacs dev handbook
+   https://github.com/alphapapa/emacs-package-dev-handbook
+** interpreting JSON in Emacs
+   The regular Emacs as packaged on Nix has no JSON support.
+   Does Doom Emacs?
+   https://github.com/doomemacs/doomemacs
+** What guarantees uniqueness in TypeDB?
+   There seems to be an automatically-created "iid" field.
+** Asking about state in Emacs
+   https://www.reddit.com/r/emacs/comments/1dgxlmh/where_do_you_keep_state_when_writing_a_big_emacs/
+*** someone rec's
+    Sticking things in symbols' property lists with put (and later retrieving those values with get) can work nicely sometimes.
+    Maybe a hash map.
+*** someone else rec's
+    Private variables would be typically hode-state--* (too dashes). Public names are usually single-dashed.
+
+    If you have a bunch of internal variables representing some state, I don't think you should be shy of using structures (with defstruct) or classes. Defstruct is convenient since you get bunch of default methods so you don't have to type them yourself.
+*** another
+    buffer overlay
+    text properties
+    fields in text/buffers
+    anything about the buffer variable and storage systems
+** [[id:80be0156-3e35-499e-a14b-9aa5803e715f][making big programs in Emacs]]
+* What is the minimum extensible product?
+** First just the "is in some sense child of" relationship.
+** From Emacs you can
+*** search for text and be rewarded with candidate nodes
+*** fold and unfold children
+*** change node text
+*** add children
+*** delete child relationships
+*** delete whole nodes
+    with warnings about how many children it has,
+    and how many will be orphaned
+** Use Emacs, Python and TypeDB
+** Emacs writes Python programs and writes buffers to files, which Python and maybe TypeDB can read
+** Python writes programs for TypeDB, reads the results, and writes instructions for Emacs to update
+** Mostly Python, not Emacs, keeps track of what things mean.
+   Emacs has hidden text that says which text corresponds to which graph object.
+   But Python has the representation of the buffer -- what search was run, which nodes are children of what, etc.
+   Emacs updates by reading a file Python produces, and hiding appropriate text.
+* good ideas
+** Run Docker *in* Emacs!
+*** In a separate buffer.
+*** Send commands to it via my mark-rec-buf command.
+* IO
+** run a TypeDB script in Docker, outputting to a text file
+** Associate regions of Emacs buffer to TypeDB objects.
+** Communicate between Emacs and TypeDB.
+   Maybe just write TypeDB shell scripts automatically in TypeDB,
+   run them in the Docker container, write to a file,
+   and read that file in Emacs.
+** Communicate between Emacs and Docker.
+   Maybe use the TypeDB Python driver,
+   installed via pip,
+   in the same Docker container that runs TypeDB.
+* later
+** It would be nice if it could be WYSIWYG
+*** It can't, but at least some items could be feline able as editable
+**** When edited, one would have to choose whether they are replacing that thing with a new thing, or changing that thing in every other place it appears too
+** I'll need to choose some important relationships and types
+*** Types
+**** Source (of information)
+**** Verb
+**** Noun
+*** Relationships
+**** Source considers information to be of quality
+**** Does
+** Each buffer will need a data model
+*** Wherever the cursor is must correspond to an object meaningful in the graph, which means the buffer must have hidden data relating the text to graph objects

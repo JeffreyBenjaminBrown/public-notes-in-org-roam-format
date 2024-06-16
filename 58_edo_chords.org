@@ -3,11 +3,13 @@
 :END:
 #+title: 58-edo chords
 * [[id:c7d6d174-ba6d-4a09-931d-8aff970281b1][58-edo bichords]]
-* 4-note aug chord including 54\58
-  :PROPERTIES:
-  :ID:       f5663e9e-0959-42df-8ca2-6290bad6c41b
-  :END:
-  18\58 all the way up
+* aug
+** [[id:9dfbaf8e-3458-44b2-82f6-8e4c04126bd2][agumented chord from harmonic dorian]]
+** 4-note aug chord including 54\58
+   :PROPERTIES:
+   :ID:       f5663e9e-0959-42df-8ca2-6290bad6c41b
+   :END:
+   18\58 all the way up
 * diminished chords
 ** the [[id:532a43fe-68b9-4f74-a8c6-30bbff67a36c][two-quarters septimal diminished]] chord fits nicely in a just dom7
    Where the dom7 is rooted 6\58 below

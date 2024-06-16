@@ -2,56 +2,28 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
-* [[id:e3884e9b-a4ae-4572-8317-7c7030df0b7d][music making, shared]]
-* [[id:69cf0d19-f165-4cc4-8ac8-636b3d7992f6]["the" 7 12-tone scale families]]
-* [[id:1a7c1761-5d28-4b98-a5f0-1d6651cea8f6][music // composition & software]]
-* [[id:5f1ccc68-6200-4b70-b1e4-8e185ea64322][music production and electronics]]
-* music composition and improvisation
-** [[id:bbd1b9de-c855-41d9-8245-797d09790f87][splash improv]]
-** [[id:1a7c1761-5d28-4b98-a5f0-1d6651cea8f6][music // composition & software]]
-** TODO Start from vocal improv melodies.
-   It would be easier to give shape to a song starting from these than from harmonic content.
-   Also, they are consistently very pleasing to me.
-** TODO merge two docs on algorithmic music
-   from a git merge conflict
-*** [[id:ca5b629b-c2d2-4fef-9ae9-38ae2ac52bb4][algorithmic music]] ideas
-*** [[id:5e40393b-a042-41d2-ba79-41ab70fc9ba6][algorithmic music ideas, <2023-07-28 Fri>, take 2]]
-** [[id:b449bd05-ac06-4548-8982-3a6eb05f5d91][how constraints help \ art]]
-** Do more minor transformations to a theme, held longer, make it easier to remember and resurrect the theme later?
-* [[id:1b8a682a-db24-42f7-b79a-c615baac7fed][songs, bands and styles \\ music making & jbb]]
-* [[id:a2c9fc96-2d00-47bf-88ee-98cc94a3bb58][improvised multitrack recording|composition (music)]]
-* [[id:743db5b4-4a06-4d72-8cdc-d3879e375ec9][songs that achieve moods I'd like to be fluent in]]
-* [[id:67417da7-7dd4-4955-879b-a7699202758d][songs I'm writing]]
-* [[id:301dba4e-1eac-4a37-ba88-0398f940aba5][musical impoverishment]]
-* [[id:4606bf23-6261-4596-95bc-faf1e9d64b3d][musical exercises]]
-* [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
 * see also
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
-* u
-** melody
-*** Melodic octaves in the bass are cool.
-    e.g. 12-edo 0 7 7_ (where postfix _ means an octave below)
-** chord families I like
-*** the diatonic scales
-*** the symmetric (12-edo) scales
-**** aug maj7 9 lives here
-**** dim maj7 9 lives here
-**** whole tone
-*** whole, dim, aug, quartal
-*** things with 11:8 or 13:8
-*** close and open voicings
-*** something weird in the bass
-** a "substitution sequencer"
-   https://llllllll.co/t/lamination/58652
+* [[id:622380e5-1a51-4fc3-81e0-096fac60f020][TODO & improv \\ music]]
+* [[id:bd4cc7de-0fd4-4aaf-b478-2eed42cf803a][TODO & recording \\ music]]
+* [[id:46510917-a6b6-442b-aed1-8b64bf6bfb77][TODO & editing \\ music]]
+* [[id:a7c0c661-120a-4e78-9c55-bd2a718a3503][pitch]]
+** [[id:97e78830-11c4-4736-afc3-4669fd94ee2e][microtonality]]
+* [[id:e3884e9b-a4ae-4572-8317-7c7030df0b7d][music making, shared]]
+* [[id:1a7c1761-5d28-4b98-a5f0-1d6651cea8f6][composition & software]]
+* [[id:5f1ccc68-6200-4b70-b1e4-8e185ea64322][production and electronics]]
+* [[id:3122b24d-3a03-43e6-ae58-e2247d51a1b6][composition & improvisation]]
+* [[id:1b8a682a-db24-42f7-b79a-c615baac7fed][songs, bands and styles (to play)]]
+* [[id:a2c9fc96-2d00-47bf-88ee-98cc94a3bb58][improvised multitrack recording|composition (music)]]
+* [[id:67417da7-7dd4-4955-879b-a7699202758d][songs I'm writing]]
+* [[id:4606bf23-6261-4596-95bc-faf1e9d64b3d][exercises]]
+* [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
 * [[id:0fb050fc-28b8-48a6-914b-6d5970490d46][microtonal guitar]]
 * /home/jeff/code/music/jam-quiz
 ** includes 24-edo language quiz
-* TODO Apply rhythm to pitch set. Capture pitch set. Capture rhythm. Transpose part of pitch set.
-* [[id:97e78830-11c4-4736-afc3-4669fd94ee2e][microtonality]]
-* [[id:1c6c1f7e-e33c-4342-870d-9029d389f17f][monome]]
 * [[id:b8ec037a-fe0a-4567-adff-4e1c01b3aef6][percussion]] | drums
-* [[id:debcbfa7-0234-4398-ad2f-0a02c71acde6][using Burnside's lemma to count chords and scales]]
-* [[id:2b02bdc5-1e66-4256-9f08-9e9b4cddc5da][How (unsolved) to rank chords in an EDO by harmonicity]]
+* [[id:301dba4e-1eac-4a37-ba88-0398f940aba5][musical impoverishment]]
+* [[id:1c6c1f7e-e33c-4342-870d-9029d389f17f][monome]]
 * aborted
 ** [[id:e997f14b-7bdf-4545-a90e-f64db4e8a5b3][22-edo guitar (shopping)]]
 ** [[id:3c5597b0-3260-44fe-9c49-03a3f791171c][Expression Pedals to USB]]

@@ -37,6 +37,7 @@
 ** [[id:5fe079b2-583f-45da-8e17-fc0879c4a8dc][introspection in Python]]
 ** lists in Python
 *** [[id:ea372c17-b199-485d-9406-50976b89f6e6][flatten a list using a comprehension in Python]]
+    tag nested lists
 ** [[id:5ae0535d-5f21-4a09-8485-0eda8eb4b73a][Python dictionaries ("dicts")]]
 *** [[id:88971f77-9463-446d-a07b-9ff1d0f601df][merging Python dictionaries]]
 ** [[id:f54893f9-b912-4a71-953d-4f1ed18d0618][closures in Python]]

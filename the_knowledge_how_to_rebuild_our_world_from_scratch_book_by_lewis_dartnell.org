@@ -4,6 +4,33 @@
 #+title: The Knowledge: How to Rebuild Our World from Scratch (book), by Lewis Dartnell
 * TODO RESUME at
   The post-apocalyptic world is therefore likely to experience a rise in sea level of several meters
+* agriculture
+** threshing
+*** is separating grain from the rest of the plant
+*** the simplest way is to [beat it]
+    lay the harvest out on a clean floor and beat it with a flail—a long handle with one or more shorter sticks attached at the end with leather or chain hinges
+** after threshing, winnow
+*** "his threshing process leaves all the grain mixed in with the empty husks, and you must now separate the wheat from the chaff"
+*** "your low-tech option is to simply toss the threshed material into the air on a windy day—the lighter chaff and straw are carried a short distance away on the breeze and the dense grain falls more or less straight back down. Modern machinery creates its own artificial wind"
+** we’ve distorted their biology so much that they are now as reliant upon us for their survival as we are upon them for our own. Every crop we grow today ...
+** cereal crops are all grasses
+   even corn
+** Legumes, unlike other crops, put nitrogen back into the ground.
+   And they include alfalfa, clover and peanuts.
+** "a crop rotation [of] several stages" "breaks the cycle of diseases and pests"
+   In Britain, the cycle
+     legumes, wheat, root crops, barley
+   worked best. This is the "Nortfolk four-course rotation".
+** "with a root vegetable, you can plant a crop and still be able to rip out weeds between the rows"
+** "the adoption of the humble turnip and other root crops for fodder heralded a revolution in medieval agriculture. Not only are these more effective than grazing for fattening up livestock over the summer, but they also provide a reliable energy-rich feed throughout the winter."
+   Before their introduction, every late autumn medieval Europe witnessed the mass slaughter of livestock, as there was simply insufficient food to keep the animals from starving before spring.
+** human waste as fertilizer requires treatment
+   "you can’t start gleefully smearing untreated sewage across crops you intend to eat later: you’ll simply complete the life cycle of numerous human pathogens and trigger widespread outbreaks of disease."
+   Urine should be separated from feces, as it "is sterile and so can be diluted and applied directly to the land."
+** Composting produces heat that kills parasites.
+** bioreactors are not high-tech
+   "In a compost heap the objective is to keep everything well aerated so that oxygen-needing bacteria and fungi can readily decompose the matter. But if instead you hold the waste in a closed vessel, blocking oxygen from getting in, anaerobic bacteria thrive and partly convert the organic material into flammable methane gas."
+   This was common in Europe in WWII.
 * An inverter converts DC to AC
 * An alternative design of rechargeable lead-acid battery, known as a deep cycle, discharges at a much slower rate and can have almost its entire capacity repeatedly drained and recharged without problems
 * A car alternator provides a steady 12v across it's terminals no matter how fast it spins.

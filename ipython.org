@@ -2,6 +2,7 @@
 :ID:       16d00d68-7fd9-418f-a342-41702a106c3e
 :END:
 #+title: iPython
+* [[id:5329f542-d070-4f8d-bdb4-a3361147be5b][how to convert an iPython notebook file to plain python]]
 * PITFALL: Might need Jupyter to do certain things.
   For instance,
   the easiest way to convert iPython notebooks

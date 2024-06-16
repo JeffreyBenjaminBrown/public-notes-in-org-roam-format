@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       437537a9-277d-4c61-a13b-f18170c3ba56
+:END:
+#+title: why economics is fascinating and useful
+Economics is not about money. It is a method for finding the best solution to a problem (constrained optimization), and for determining what effects things have on the world (econometrics).
+
+Usually the problems are decisions that humans face, although economic ideas turn out to be useful in biology too -- animal and plant behavior, and evolutionary theory. Usually the econometrics studies are about whether something works -- whether a government program helps people, whether a corporate project would make money, etc. But it turns out to be useful in all sorts of other fields, perhaps most notably medicine -- does a surgerical intervention work? How many people do we need to try this drug on to be convinced it does what we hoped?
+
+There are other disciplines that study problems humans face, too -- sociology or political science, for example. But economics is unique in its generality and its rigor.
+
+* The generality of economics
+In the last section I' wil list cool problems economics has contributed to. First I need to say that economics in the abstract makes literally zero assumptions about human nature. We do not assume people are greedy -- rather, we analyze what happens if they are. We also analyze what happens if they care about other people, to varying degrees. We do not assume people have all the information they need to make their decisions -- rather, we analyze what happens if they do, and what happens if they don't.
+
+We don't even always assume people make the best decision possible, based on the information they have. The field of behavioral economics is all about deviations from optimal decisions -- those that are likely based on the limits of a brain, and those that we observe in the world.
+
+* The rigor of economics
+Economics aims to find the optimal solution to a problem -- not just an okay strategy, but the literally, mathematically provably best strategy. This is useful not just to figure out what you should do, but to know what other people are likely to do, if they know what they are doing.
+
+* The astounding scope of economics
+Economics revolutionized baseball (as depicted in the movie Moneyball).
+
+Economics has a lot to say about the (highly imperfect) process through which companies and workers find each other. Much of this theory happens to be applicable to finding a mate.
+
+Economics and game theory (which was first a branch of pure math) have had a strong influence on how countries "use" (mostly by holding and hoping to never need to launch) military weapons. What if your enemy might be crazy? WHen should you act like you might be crazy? (The predictions of the simplest model of this situation, the game Chicken, are strikingly close to what we actually see in the distribution of aggressive members of a species.)
+
+What happens if it's legal to sell your own kidneys? If it isn't, how can we match kidney donors to kidney recipients anyway? (An economist, Alvin Roth, won the Nobel Prize for finding a good way to do that.)
+
+Why is buying a used car so hard? Economics not only has the answer, but also offers strategies for not getting ripped off.
+
+Why is insurance so expensive? Economics not only has the answer, but also offers strategies for making it cheaper -- some of which made it into Obamacare.
+
+I'm bored so I'll stop here but this list could be dozens of times longer.

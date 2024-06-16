@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       2c85ada9-2b40-4159-97ed-a12449ea7438
+:END:
+#+title: harmonic augmneted 7th chords based on 8:10:13
+The central triad in all three chords is 8:10:13,
+but each uses a different 7th degree,
+to come as close as possible to the familiar aug7
+(without straying into high harmonics).
+
+Some of the intervals are listed below in terms of cents.
+
+The inversions:
+8  : 10 : 13 : 14 ~ aug 7
+10 : 13 : 16 : 18 ~ aug 7
+13 : 16 : 20 : 24 ~ aug neutral 7
+
+The thirds:
+10 :  8 ~ 386 cents
+13 : 10 ~ 454 cents
+16 : 13 ~ 359 cents
+
+The sevenths (as reduced fractions):
+7  : 4  ~ 969 cents
+9  : 5  ~ 1018 cents
+24 : 13 ~ 1061 cents

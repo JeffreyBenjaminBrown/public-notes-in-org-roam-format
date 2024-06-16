@@ -1,10 +1,15 @@
 :PROPERTIES:
 :ID:       a061ed1f-4e6e-4d4f-99c0-8d641d511b23
+ROAM_ALIASES: "TypeDB scripting"
 :END:
 #+title: TypeDB Console
 It's in the Docker container.
 * [[id:c091cef4-e8d0-4880-96a5-6239c7e07604][online docs]]
 * to launch it from bash
+  # This assumes one is where one starts after running the usual
+  #   docker exec -it typedb bash
+  # which is
+  #   /opt/typedb-all-linux-x86_64
   ./typedb console
 * some interactive commands
 ** database create <db>
@@ -31,4 +36,6 @@ It's in the Docker container.
 ** source <filepath>
    "Run TypeQL queries in a file, which we can refer to using relative or absolute path."
 * Can execute scripts too.
-  same syntax
+** Uses the same syntax.
+** doing it (from Bash)
+   typedb console --script=path_to_script

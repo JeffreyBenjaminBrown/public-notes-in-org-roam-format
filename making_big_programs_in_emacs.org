@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       80be0156-3e35-499e-a14b-9aa5803e715f
+:END:
+#+title: big programs in Emacs, managing
+* would be good to read the entire Emacs Lisp manual
+  https://www.gnu.org/software/emacs/manual/elisp.html
+* the Emacs manual section on managing big programs
+  https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Maintaining
+* handy project-aware commands
+** "current project" can be defined by the Git folder structure
+   or else by EDE, which who cares what that is.
+   It ignores .gitignored files
+** C-x p g : match a regexp in all files of this project
+** C-x p r : query-replace a regexp in all files of this project
+** C-x p d : dired to the project's root

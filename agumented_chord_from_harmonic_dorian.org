@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       9dfbaf8e-3458-44b2-82f6-8e4c04126bd2
+:END:
+#+title: agumented 7th chords based on 9:11:13 (harmonic dorian)
+Interestingly, none of these chords has a 5:4,
+but they all sound closer to augmneted than anything else to me
+(Jeff Brown).
+Some of the intervals are listed below in terms of cents.
+
+The central triad in all three chords is 7:9:11,
+but each uses a different 7th degree,
+to come as close as possible to aug7
+(without straying into high harmonics).
+
+The inversions:
+7  : 9  : 11 : 13 ~ aug #7
+9  : 11 : 14 : 16 ~ aug 7
+11 : 14 : 18 : 20 ~ aug ^7
+
+The thirds:
+9  : 7  ~ 435 cents
+11 : 9  ~ 347 cents
+14 : 11 ~ 418 cents
+
+The sevenths:
+16 : 9  ~ 996 cents
+20 : 11 ~ 1035 cents
+13 : 7  ~ 1072 cents

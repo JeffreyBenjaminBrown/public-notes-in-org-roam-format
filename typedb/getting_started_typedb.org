@@ -9,6 +9,4 @@
 ** [[id:52393e43-d36a-4d8d-9cc4-f2f379e09eff][TypeDB Python client]]
 ** Haskell client in progress
    https://github.com/typedb-osi/typedb-client-haskell
-* using it from a Docker container
-  https://typedb.com/docs/typedb/2.x/installation.html
-  docker run --name try-typedb -d -v try-typedb-data:/opt/typedb-all-linux/server/data/ -p 1729:1729 --platform linux/amd64 vaticle/typedb:latest
+* [[id:7cf89cef-158c-4893-8654-71b1bfb5201d][TypeDB in Docker, running]]
