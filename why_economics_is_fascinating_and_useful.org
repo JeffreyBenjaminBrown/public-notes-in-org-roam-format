@@ -17,13 +17,17 @@ We don't even always assume people make the best decision possible, based on the
 Economics aims to find the optimal solution to a problem -- not just an okay strategy, but the literally, mathematically provably best strategy. This is useful not just to figure out what you should do, but to know what other people are likely to do, if they know what they are doing.
 
 * The astounding scope of economics
-Economics revolutionized baseball (as depicted in the movie Moneyball).
+Econometrics revolutionized baseball (as depicted in the movie Moneyball).
 
-Economics has a lot to say about the (highly imperfect) process through which companies and workers find each other. Much of this theory happens to be applicable to finding a mate.
+Economics and game theory (which was first a branch of pure math) have had a strong influence on how countries "use" (mostly by holding, not launching) military weapons. What if your enemy might be crazy? WHen should you act like you might be crazy? (The predictions of the simplest model of this situation, the game Chicken, are strikingly close to what we see when animals are aggressive.)
 
-Economics and game theory (which was first a branch of pure math) have had a strong influence on how countries "use" (mostly by holding and hoping to never need to launch) military weapons. What if your enemy might be crazy? WHen should you act like you might be crazy? (The predictions of the simplest model of this situation, the game Chicken, are strikingly close to what we actually see in the distribution of aggressive members of a species.)
+Why are voters so dumb? Are there voting mechanisms that work better than what we've got? (Yes, there are.)
 
 What happens if it's legal to sell your own kidneys? If it isn't, how can we match kidney donors to kidney recipients anyway? (An economist, Alvin Roth, won the Nobel Prize for finding a good way to do that.)
+
+Why is corruption so difficult to eradicate? What kinds of corruption are there? (Lots, and different strategies apply to each.) Does a country need to manufacture stuff in order to become rich? There's a whole subfield about this, called development economics.
+
+And there's labor economics! It studies how companies and workers find each other, how they interact, and why and how they separate. (Much of this theory also happens to be applicable to finding a mate.) Why do some people make more money at the same job? Why do some bosses seem to know less than their employees? What are they likely not to tell you about the job when you're interviewing? (The fact that most students choose a career before looking at labor economics is completely bonkers to me.)
 
 Why is buying a used car so hard? Economics not only has the answer, but also offers strategies for not getting ripped off.
 
