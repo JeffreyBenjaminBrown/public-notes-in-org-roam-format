@@ -4,6 +4,21 @@
 #+title: The Knowledge: How to Rebuild Our World from Scratch (book), by Lewis Dartnell
 * TODO RESUME at
   The post-apocalyptic world is therefore likely to experience a rise in sea level of several meters
+* u, from LI, recursively backward
+** Nowadays, the function of a plow is to carefully scoop up the uppermost layer of soil across an entire field and flip it upside down, crumbling it slightly. The primary aim of this process is weed control
+** Tillage is the name for all the mechanical effort you need to put into loosening hard soil, controlling weeds, and preparing a receptive layer of topsoil (tilth) for sowing the seeds.
+** Different plants prefer different soil compositions
+** The ideal kind of soil for farming is known as loam and is a balanced mixture of roughly 40 percent sand, 40 percent silt, and 20 percent clay
+** It’s easy to get a visual check on soil composition.
+*** (search for that phrase)
+** farming is a process that transforms oil into food—with some input from sunshine—and consumes around ten calories of fossil fuel energy for every calorie of food actually eaten.
+*** The production of fertilizers, pesticides, herbicides, and the running of farm equipment all use fossil fuels
+** Farming hurts soil by fefinition
+*** Because we don't die on that soil
+**** particularly with modern sewage systems—our waste is treated to kill harmful bacteria and then discharged into rivers or seas—agriculture today is an efficient pipeline for stripping nutrients from the land and flushing them into the ocean
+**** Even if you spread much of the leftover vegetative matter back onto the fields, you’ve still removed the portion actually eaten, and year after year the land is steadily depleted. So the very nature of farming necessitates that you are progressively removing mineral nutrients, bleeding the soil of its vitality
+** such as wheat and maize have been optimized for the production of nutrition and are now poorly adapted for life without us
+*** they do not “breed true,” and so new hybrid seeds must be bought to plant each year. What you really want to gather in the immediate aftermath, therefore, are heirloom crops: traditional varieties that can be reliably propagated from one year to the nex
 * agriculture
 ** threshing
 *** is separating grain from the rest of the plant

@@ -3,7 +3,10 @@
 :ROAM_ALIASES: Hode3
 :END:
 #+title: Hode in TypeDB and Emacs (plans)
-* ONGOING top of mind
+* TODO FIRST : try the Python interface
+* u - was top of mind
+** Asking TypeDB: Sort on transitive partially applied rels?
+   https://forum.typedb.com/t/can-typedb-sort-on-ideally-multiple-transitive-partially-applied-relationships/521
 ** parsing in Python
    I like the look of these:
      https://pypi.org/project/parsita/ -- my favorite, judging the docs
@@ -34,7 +37,20 @@
     fields in text/buffers
     anything about the buffer variable and storage systems
 ** [[id:80be0156-3e35-499e-a14b-9aa5803e715f][making big programs in Emacs]]
-* What is the minimum extensible product?
+** an Emacs note project to study
+   https://github.com/ahyatt/ekg
+* MEP, easier than the [[id:cfddefd6-b369-4ae0-bc6d-e047b75d4aeb][MVEP]]: Python queries, print to screen.
+** How to extend it to involve Emacs
+   Emacs reads the file as Python updates it.
+   The user does not edit the file directly,
+   but can fold, unfold, etc. directly from the text,
+   and enter Hash-like commands into a separate buffer.
+   The file includes very brief URIs, their visibility togglable,
+   allowing users to refer to nodes quickly.
+* Minimum viable extensible product
+  :PROPERTIES:
+  :ID:       cfddefd6-b369-4ae0-bc6d-e047b75d4aeb
+  :END:
 ** First just the "is in some sense child of" relationship.
 ** From Emacs you can
 *** search for text and be rewarded with candidate nodes
@@ -52,6 +68,19 @@
    Emacs has hidden text that says which text corresponds to which graph object.
    But Python has the representation of the buffer -- what search was run, which nodes are children of what, etc.
    Emacs updates by reading a file Python produces, and hiding appropriate text.
+* useful libraries
+** graphs in Python: cycle detection, topo sort
+*** packaged for NixOS
+**** igraph
+**** altgraph : a fork of graphtheory, version 0.17.4
+     :PROPERTIES:
+     :ID:       a0cdc132-2328-4cea-8779-434e1830c1d7
+     :END:
+     https://pypi.org/project/altgraph/
+*** not packaged for NixOS
+**** graphtheory : version 1.0.3, not packaged
+     but see [[id:a0cdc132-2328-4cea-8779-434e1830c1d7][altgraph]]
+     https://pypi.org/project/graphtheory/
 * good ideas
 ** Run Docker *in* Emacs!
 *** In a separate buffer.

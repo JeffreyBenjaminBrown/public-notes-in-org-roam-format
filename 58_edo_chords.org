@@ -10,6 +10,24 @@
    :ID:       f5663e9e-0959-42df-8ca2-6290bad6c41b
    :END:
    18\58 all the way up
+* dom7
+** 13-ish dom7 : 0 22 34 49
+   49 - 22 = 27
+   Sounds to me even better than [[id:8721ea2c-aa85-4fab-a755-1d5893228c36][0 21 34 49]].
+** [[id:46905408-f047-4926-957f-ac01927e22c4][9-based dom7 chord]]
+   :PROPERTIES:
+   :ID:       8721ea2c-aa85-4fab-a755-1d5893228c36
+   :END:
+   That's dom7 with the 3rd and the 7th raised 2\58:
+   0  21   34   49
+   1  9:7  3:2  9:5
+   [1,  9/7,  3/2,  9/5 :: Rational]
+*** add 2\58 to the 3rd and 7th degrees of 4:5:6:7
+    :PROPERTIES:
+    :ID:       eb2589d1-309e-4a17-96fe-a1f1c8be06c9
+    :END:
+    to get 1 : 9/7 : 3/2 : 9/5
+    (And remember, [[id:297305db-3682-4373-b8bd-132b389cb1a4][9:5 sounds at least as good as 16:9]])
 * diminished chords
 ** the [[id:532a43fe-68b9-4f74-a8c6-30bbff67a36c][two-quarters septimal diminished]] chord fits nicely in a just dom7
    Where the dom7 is rooted 6\58 below
@@ -31,17 +49,6 @@
       13    14    13    13
     0    13    27    41    53
 	       11:8  13:8  15:8
-* [[id:46905408-f047-4926-957f-ac01927e22c4][9-based dom7 chord]]
-  That's dom7 with the 3rd and the 7th raised 2\58:
-  0  21   34   49
-  1  9:7  3:2  9:5
-  [1,  9/7,  3/2,  9/5 :: Rational]
-** add 2\58 to the 3rd and 7th degrees of 4:5:6:7
-   :PROPERTIES:
-   :ID:       eb2589d1-309e-4a17-96fe-a1f1c8be06c9
-   :END:
-   to get 1 : 9/7 : 3/2 : 9/5
-   (And remember, [[id:297305db-3682-4373-b8bd-132b389cb1a4][9:5 sounds at least as good as 16:9]])
 * symmetric chords
 ** augmented
 *** 19 + 21 + 18 > the other ordering

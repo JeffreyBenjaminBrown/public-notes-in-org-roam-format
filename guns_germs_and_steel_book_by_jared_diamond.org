@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2391129a-aec3-4f3d-b1f5-bb86a6d46aa8
+:END:
+#+title: Guns, Germs and Steel - book by Jared Diamond
+* transferred from LI, recursively reversed
+** There's not a bright line between hunter-gathering and farming
+*** Farmers were less healthy and worked harder, as a fraction of the day.
+*** And of course a population could do both.
+*** Hunter-gatherers traded with farmers in the Americas and Africa. In many cases they chose to continue hunter-gathering even though they understood farming
+*** Hunter-gatherers would clear competing plants to allow the ones they wanted to grow to grow, and take only the part of the plant that let it live, so that it could keep growing, and aerate the soil when they took something out of it. At least some hunter-gatherers did all of these things. The only thing left that they would need to do in order to qualify as farmers is to transplant the seeds intentionally
+** Other kinds of specialization also require that kind of food surplus. Scribes, in particular, enhanced productivity enormously by preserving more information than would otherwise be possible
+** Classes of political elites seem only to exist where there is the capacity to store food, that is, in agricultural societies. Which are also much more dense
+** Hunter-gatherers reproduce around every 4 years, whereas people in farming societies do it about every two years. This is likely because hunter-gatherers have to be able to carry their children, so they can only afford to have one tiny child at a time.
+** In Australia all the megafauna went extinct right around when humans arrived, so there was nothing to domesticate.
