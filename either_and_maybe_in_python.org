@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       b73f1363-5dfa-43a8-9899-77ca2870924f
+:END:
+#+title: either and maybe in Python
+* I like the pymonad library:
+  https://github.com/jasondelaat/pymonad
+** At least for maybe and either, it has no dependencies.
+   It wasn't packaged for NixOS,
+   so I just copied the relevant moduls it wholesale,
+   and had no problems.
+** demonstrating the syntax
+   This test works -- and more importantly,
+   if I swap the terms Left and Right, mypy complains.
+
+   def test_either_type_signatures ():
+     # This is designed to be "tested" with mypy, not pytest.
+     # I just want to make sure the type signature is accepted.
+     def f (b : bool) -> Either [ int, str ]:
+       if b: return Left (1)
+       else: return Right ("hello!")

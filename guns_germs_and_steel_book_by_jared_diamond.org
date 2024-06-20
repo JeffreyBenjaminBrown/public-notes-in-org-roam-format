@@ -2,6 +2,8 @@
 :ID:       2391129a-aec3-4f3d-b1f5-bb86a6d46aa8
 :END:
 #+title: Guns, Germs and Steel - book by Jared Diamond
+* The peas we domesticated descend from the few mutants whose pods didn't explode.
+  Other plants are like that, too.
 * transferred from LI, recursively reversed
 ** There's not a bright line between hunter-gathering and farming
 *** Farmers were less healthy and worked harder, as a fraction of the day.
