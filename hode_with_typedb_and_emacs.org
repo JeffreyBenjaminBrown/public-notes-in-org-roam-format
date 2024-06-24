@@ -39,6 +39,7 @@
 ** [[id:80be0156-3e35-499e-a14b-9aa5803e715f][making big programs in Emacs]]
 ** an Emacs note project to study
    https://github.com/ahyatt/ekg
+* TODO [[id:a933cfca-255e-4b95-9e0b-ea19cb723bc2][Contribute a topological sort on partially ordered relations to TypeDB]]
 * MEP, easier than the [[id:cfddefd6-b369-4ae0-bc6d-e047b75d4aeb][MVEP]]: Python queries, print to screen.
 ** How to extend it to involve Emacs
    Emacs reads the file as Python updates it.

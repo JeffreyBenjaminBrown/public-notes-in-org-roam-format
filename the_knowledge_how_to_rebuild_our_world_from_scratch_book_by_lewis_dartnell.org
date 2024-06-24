@@ -5,6 +5,7 @@
 * TODO RESUME at
   Preparation of Cereals
 * u, from LI, recursively backward
+** Turnip, as well as other fodder crops like rutabaga, kale, and kohlrabi, are biennial plants, which means they can be left in the ground over winter and plucked out to feed cattle when needed.
 ** Nowadays, the function of a plow is to carefully scoop up the uppermost layer of soil across an entire field and flip it upside down, crumbling it slightly. The primary aim of this process is weed control
 ** Tillage is the name for all the mechanical effort you need to put into loosening hard soil, controlling weeds, and preparing a receptive layer of topsoil (tilth) for sowing the seeds.
 ** Different plants prefer different soil compositions

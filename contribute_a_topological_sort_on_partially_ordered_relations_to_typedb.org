@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       a933cfca-255e-4b95-9e0b-ea19cb723bc2
+:END:
+#+title: Contribute a topological sort on partially ordered relations to Typedb

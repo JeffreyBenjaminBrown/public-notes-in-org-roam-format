@@ -4,6 +4,8 @@
 #+title: music
 * see also
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
+* Ideas for Pianoteq guitar aftertouch and vel curve
+** https://www.facebook.com/share/p/qKJSeBo3f777HnEq/?mibextid=oFDknk
 * [[id:622380e5-1a51-4fc3-81e0-096fac60f020][TODO & improv \\ music]]
 * [[id:bd4cc7de-0fd4-4aaf-b478-2eed42cf803a][TODO & recording \\ music]]
 * [[id:46510917-a6b6-442b-aed1-8b64bf6bfb77][TODO & editing \\ music]]
