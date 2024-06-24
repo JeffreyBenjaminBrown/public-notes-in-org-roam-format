@@ -3,7 +3,7 @@
 :END:
 #+title: The Knowledge: How to Rebuild Our World from Scratch (book), by Lewis Dartnell
 * TODO RESUME at
-  The post-apocalyptic world is therefore likely to experience a rise in sea level of several meters
+  Preparation of Cereals
 * u, from LI, recursively backward
 ** Nowadays, the function of a plow is to carefully scoop up the uppermost layer of soil across an entire field and flip it upside down, crumbling it slightly. The primary aim of this process is weed control
 ** Tillage is the name for all the mechanical effort you need to put into loosening hard soil, controlling weeds, and preparing a receptive layer of topsoil (tilth) for sowing the seeds.
@@ -19,7 +19,29 @@
 **** Even if you spread much of the leftover vegetative matter back onto the fields, you’ve still removed the portion actually eaten, and year after year the land is steadily depleted. So the very nature of farming necessitates that you are progressively removing mineral nutrients, bleeding the soil of its vitality
 ** such as wheat and maize have been optimized for the production of nutrition and are now poorly adapted for life without us
 *** they do not “breed true,” and so new hybrid seeds must be bought to plant each year. What you really want to gather in the immediate aftermath, therefore, are heirloom crops: traditional varieties that can be reliably propagated from one year to the nex
+* preserving food
+** Sugar preserves by reducing water availability.
+   "many other foodstuffs are also preserved by low water availability. Large amounts of dissolved compounds like sugars make a solution very concentrated, which acts to draw water out of microbial cells and stop all but the hardiest strains from growing. This is exactly the principle behind jams:"
+** to make sugar
+   sugar can be extracted from tropical sugar cane or the root of the temperate-growing sugar beet by trickling water through the crushed plant to dissolve the sugar and then recovering the crystals of it by drying
+** "The opposite approach [to, say, pickling], preserving food with alkalinity, is much less prevalent because it saponifies the fats—see soap-making in Chapter 5—and so grossly changes the flavor and texture of the food."
+** Whirling a bucket is enough to centrifuge the "buttermlik" from the (rest of the?) milk.
+   Or let it sit somewhere cool for around a day.
+** Butter is buttermilk fat separated from the water, with salt added.
+   The process of churning is simply to get the droplets of fat to stick together and exclude the remaining fluid, or buttermilk. This can be achieved by rolling a jar back and forth across the floor, or shaking it, but a more effective post-apocalyptic makeshift solution would be to use an electric drill with a paint-stirring paddle. Strain the butter out of the buttermilk, add salt for preservation, and then knead it until all the water has been squeezed out and the salt mixed throughout.
+** In temperate climes, salt costs energy.
+   But if it's hot you can just sit saltwater, and if it's cold enough, frozen saltwater will be a layer of ice above a layer of brine.
+** Cheese dominates yogurt and butter for preservation.
+   Yogurt and butter are stable for a few days to around a month, respectively, whereas cheese can safely preserve the nutrients of milk for many months: it is the perfect rickets-busting storage medium.
+** to make cheese, the crucial point is dessication
+   "is to preserve the nutrients in milk by removing its water component. Rennin, an enzyme from the first stomach of a calf, is used to break down the proteins in milk and so curdle it. The curds are strained off and pressed into a solid lump, which is then allowed to mature"
 * agriculture
+** Bread crust, like searing on steak, is also a result of the Mallard reaction.
+** Bone meal (crushed, boiled bones) makes good fertilizer.
+   It has lots of phosphorus, which plants need.
+   Treating it with sulfuric acid makes it easier for them to use.
+** compost uses aerobic bacteria
+   which is why it needs turning.
 ** threshing
 *** is separating grain from the rest of the plant
 *** the simplest way is to [beat it]

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       fdd9c67e-63c9-4372-b742-4396a83c8a60
+:END:
+#+title: dictionary comprehensions in Python
+> { k:v+1 for k,v in {1:2}.items() }
+
+{1: 3}

@@ -3,6 +3,10 @@
 :ROAM_ALIASES: "music exercises"
 :END:
 #+title: musical exercises
+* TODO the "sound good" constraint
+  Keep the rhythm, don't do anything so complex that it drags.
+  Keep it melodic. Classical-sounding chord changes.
+    Only the melody gets extremely microtonal sometimes.
 * TODO [[id:bbd1b9de-c855-41d9-8245-797d09790f87][splash improv]]
 * TODO break patterns
 ** slow weird harmony

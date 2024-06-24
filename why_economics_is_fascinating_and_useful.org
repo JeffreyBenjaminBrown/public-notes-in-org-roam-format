@@ -2,6 +2,7 @@
 :ID:       437537a9-277d-4c61-a13b-f18170c3ba56
 :END:
 #+title: why economics is fascinating and useful
+* Introduction
 Economics is not about money. It is a method for finding the best solution to a problem (constrained optimization), and for determining what effects things have on the world (econometrics).
 
 Usually the problems are decisions that humans face, although economic ideas turn out to be useful in biology too -- animal and plant behavior, and evolutionary theory. Usually the econometrics studies are about whether something works -- whether a government program helps people, whether a corporate project would make money, etc. But it turns out to be useful in all sorts of other fields, perhaps most notably medicine -- does a surgerical intervention work? How many people do we need to try this drug on to be convinced it does what we hoped?
@@ -34,3 +35,7 @@ Why is buying a used car so hard? Economics not only has the answer, but also of
 Why is insurance so expensive? Economics not only has the answer, but also offers strategies for making it cheaper -- some of which made it into Obamacare.
 
 I'm bored so I'll stop here but this list could be dozens of times longer.
+
+* suggestions
+** [[id:ec8a113b-44d9-495f-acc9-e6e7c714d5bf][The Economic Organization of a POW Camp, by R. A. Radford]]
+   https://fermatslibrary.com/s/the-economic-organization-of-a-pow-camp

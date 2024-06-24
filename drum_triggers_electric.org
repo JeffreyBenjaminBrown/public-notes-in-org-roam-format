@@ -2,6 +2,9 @@
 :ID:       dd7017ff-63a5-4014-887b-81cc4820940c
 :END:
 #+title: drum triggers, electric
+* Roland V-Drums TD-02kv, 600 USD on Sweetwater
+  Has a snare.
+  Is the second-cheapest. (The cheapest has no snare.)
 * Roland HPD-20 (hand drum)
   = The circular, divided electric drum pad Bran owns and likes.
   He says only five of the surfaces are top-quality.
