@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       e17c1d58-9843-4d9e-a2a8-49dda972c6aa
+:END:
+#+title: markdown to pdf, how to convert
+* this worked <2024-06-26 Wed>
+  pandoc --pdf-engine=pdfroff --output=README.pdf README.md
+* this may have worked in the past
+  pandoc input.md -o output.pdf

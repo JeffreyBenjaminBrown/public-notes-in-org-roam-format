@@ -2,7 +2,6 @@
 :ID:       5abd07c8-7b3d-447f-a303-e231c6902dec
 :END:
 #+title: thumb-key (keyboard for Android)
-* [[id:270fe9f7-a98f-40cd-b215-4cadfbc9f6ea][Android apps, building on NixOS]]
 * installation difficulties
   Downloaded the .apk from the website.
   They recommend "using F-Droid",
@@ -26,3 +25,4 @@
 *** Slide down on # to paste.
 * how to extend it
   See the README or the [[id:0e3d32b0-6f1f-4d27-8cf5-4e68824de55b][builtin documentation]].
+* [[id:270fe9f7-a98f-40cd-b215-4cadfbc9f6ea][Android apps, building on NixOS]]

@@ -3,7 +3,7 @@
 :END:
 #+title: The Knowledge: How to Rebuild Our World from Scratch (book), by Lewis Dartnell
 * TODO RESUME at
-  Preparation of Cereals
+  society could end up taking very different paths
 * u, from LI, recursively backward
 ** Turnip, as well as other fodder crops like rutabaga, kale, and kohlrabi, are biennial plants, which means they can be left in the ground over winter and plucked out to feed cattle when needed.
 ** Nowadays, the function of a plow is to carefully scoop up the uppermost layer of soil across an entire field and flip it upside down, crumbling it slightly. The primary aim of this process is weed control
@@ -21,6 +21,18 @@
 ** such as wheat and maize have been optimized for the production of nutrition and are now poorly adapted for life without us
 *** they do not “breed true,” and so new hybrid seeds must be bought to plant each year. What you really want to gather in the immediate aftermath, therefore, are heirloom crops: traditional varieties that can be reliably propagated from one year to the nex
 * preserving food
+** Canning with pressure is especially effective.
+   For the safest preservation, food that isn’t already acidic or pickled should be pressure-canned, exposing it to temperatures above the normal boiling point, as this completely sterilizes the contents and kills even temperature-resistant spores of microbes like those responsible for botulism.
+** the reason that we use tin cans, or at least tin-coated steel, today is that this is one of the few metals that will not corrode with the acidity of foods
+** regardless of the nutrient source, alcohol from fermentation can only reach a concentration of around 12 percent before the yeast cells essentially poison themselves with their own ethanol excretion.
+** Soaking grass seeds in water makes them germinate, breaking down their starch into sugars.
+** starch is a chain of sugar subunits
+** how to isolate yeast for baking
+   Make up a mixture of one cup of flour (whole-grain is best for this initial process) and half to two-thirds of a cup of water; cover and allow it to sit in a warm place. Check after twelve hours for signs of growth and fermentation, such as bubbles forming. If none are apparent, stir and wait another half day. Once you get fermentation, throw half of the culture away and replace with fresh flour and water in the same proportions, repeating this refill twice a day. This gives the culture more nutrients to reproduce and continually doubles the size of the microbial territory to expand into. After about a week, once you have a healthy-smelling culture reliably growing and frothing after every replenishment, like a microbial pet thriving on the feed left in its bowl, you are ready to extract some of the dough and bake bread.
+   ...
+   Your resultant sourdough is not a pure culture of a single isolate, but actually a balanced community of lactobacillus bacteria, able to break down the complex storage molecules of the grain, and yeast living on the byproducts of the lactobacilli and releasing carbon dioxide gas to leaven the bread
+** basic bread
+   is ludicrously simple: grind some grass seeds into a powdery flour, mix with water into a pasty dough, then roll out and cook slowly, perhaps even just on a hot stone by the fire. This makes an unleavened flatbread,
 ** Sugar preserves by reducing water availability.
    "many other foodstuffs are also preserved by low water availability. Large amounts of dissolved compounds like sugars make a solution very concentrated, which acts to draw water out of microbial cells and stop all but the hardiest strains from growing. This is exactly the principle behind jams:"
 ** to make sugar

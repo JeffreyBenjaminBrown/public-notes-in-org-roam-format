@@ -3,6 +3,9 @@
 :END:
 #+title: air filter, homemade
 A quieter, more effective DIY air purifier.
+* TODO try taping only the joins
+  With enough hands,
+  there's no need to tape along the top and bottom.
 * in brief
   Cut a hole in some cardboard. Sit a duct fan on top of it, blowing up, pulling air up through the hole. Sit that whole thing on top of a tower of four filters tied or taped together somehow.
 * refs & my writeup

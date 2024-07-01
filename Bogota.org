@@ -2,6 +2,7 @@
 :ID:       e93ab75c-3c2b-422f-959f-2216de60d4fd
 :END:
 #+title: Bogotá
+* [[id:192a523e-5e8e-4199-a2d0-c22bd86cef12][jazz places in Bogota]]
 * [[id:63143900-40d2-42c5-8b76-4f5cb7713333][hikes around Bogotá]]
 * [[id:003cc082-001d-4828-8f01-2b957f996fea][fun things in Bogotá]]
 * [[id:7c28ad7b-347f-49d9-b999-764bf1b9ec73][restaurants in Bogotá]]
@@ -22,4 +23,3 @@
 ** [[id:0ae27b38-459a-40c7-8b45-24f43cc9dc5b][Noelia Zuluaga]]
 * optical | optometry in Bogotá
 ** Óptica Barcelona : cra 10 & cl 19
-* [[id:192a523e-5e8e-4199-a2d0-c22bd86cef12][jazz places in Bogota]]

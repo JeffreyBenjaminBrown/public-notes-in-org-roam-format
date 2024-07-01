@@ -2,4 +2,9 @@
 :ID:       3b636b7e-cae9-447b-bccd-b7169eeef5d9
 :END:
 #+title: markdown
+* [[id:e17c1d58-9843-4d9e-a2a8-49dda972c6aa][markdown to pdf, how to convert]]
+* markdown headings
+  Bigger headings should carry *fewer* leading # marks.
 * [[id:92ad6660-1efc-4ba8-b1d1-edddc2b54455][anchor, to create one in Github-flavored markdown]]
+* linking to another local file in Github markdown
+  En [otro documento](./algoritmo.md) describo el algoritmo.

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       587aa3a0-f1cb-4f70-b80a-f783e38610e2
+:END:
+#+title: Python environments in DataBricks include silent imports.
+* DataBricks silenciosamente define algunas cosas importantes
+Cuando entras a un workspace, esas cosas ya están definidas,
+pero si quieres referir a ellas desde un módulo,
+toca evaluar
+```
+from databricks.sdk.runtime import *
+```
+antes de usar las referencias.
+
+En particular, eso define `spark` y `dbutils`.
+No sé qué son pero son necesarios para hacer conecciones --
+como se muestra, por ejemplo, en `radar_y_hive_metastore.py`.

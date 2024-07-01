@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       fa74bd6c-11a0-4859-92c8-d447ca004dbb
+:END:
+#+title: Lifespan podcast, w/ Matthew LaPlante & David Sinclair
+* on ageing and skin
+** [[id:cb6c8110-8966-4c1a-9564-12b8f4e237de][To slow (undo?) skin damage, the Lifespan podcast recommend vitamin C, hyaluronic acid.]]
+* [[id:9f85966e-0302-4d8f-9100-33f35f9af9f1][In "ex-differentiation", cells de-specialize.]]
+  Sinclair coined the term.

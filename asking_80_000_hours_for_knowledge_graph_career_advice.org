@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       c47efc79-1d88-4b58-9a72-b698d6516911
+:END:
+#+title: asking 80,000 Hours for knowledge graph career advice
+I wrote a spiel, then looked at their application.
+It had no place for the spiel.
+* my unused spiel
+Hi,
+
+I've been an avid fan of the podcast for a few years. My biggest concern for the world is democratic epistemology. People can find arguments now to justify any kind of belief, and I know a few smart people who believe absurd things.
+
+For fifteen years I've wanted to produce a knowledge graph tool that would make it easier for people to make sense of complex information: A knowledge graph editor in which queries about first-order queries ("Show me things Dave has said") and second-order ones ("Show me things Dave has said that any of the people I trust, or any of the people they trust, have marked as contradicting something else Dave said") are equally easy to run.
+
+I'm a 45-year-old software developer. I know all of three people in Silicon Valley. For the tool I'm describing to get off the ground it would have to not just exist (I did that[1]!) but be user friendly (I did not do that) and get linked into a social network. I realize it's a long shot.
+
+But more generally I'd like to contribute somehow to solving what I consider our crisis of democratic epistemology.
+
+I have a master's degree in economics, and have been coding for 28 years. I was the CTO of a small economic think tank in Bogotá for 6 years. Now I work for the tax authority here, doing cybersecurity and automation. I'm happy to pivot to areas I have little experience in.
+
+[1] https://github.com/JeffreyBenjaminBrown/hode
+* career paths I envision
+As a fluently bilingual coder living in Latin America,  my path of least resistance is to stay here, hopping jobs per whateve rmy friends (mostly people in academics and government) point me at, like I've been doing. I loved being the CTO of the Observatorio Fiscal (a small economic think tank at Universidad Javeriana), and I love being part of Colombia's government now, even if the bureaucracy can be infuriating.
+
+But I'm extremely flexible. I have no kids and my wife and I are separated. Here I earn something like 45,000 USD after taxes. I don't feel compelled to make a lot of money, and I'm perfectly willing to do something I know very little about if I think it's more important than whatever I was doing before.
+* my involvement in effective altruism
+I can't confidently claim the highest effectiveness, but I've been an altruist for my entire career. I studied economics not for any career vision but because it seemed important. My first job out of grad school was at a health economics consulting firm, which seemed really helpful for a while but as I got to know how the sausage was made I grew disillusioned. They paid me enough that I could spend the next few years trying to develop knowledge management software that I thought might help what I considered (and still consider) our crisis of democratic epistemlogy. I made some software that did most of what I initially envisioned[1], but it was so user-hostile that not even I wanted to use it. (I want to try again but it's slow going, coding in my spare time after coding all day at work.)
+
+I ran out of money, and a friend asked me to be the CTO of a little think tank in Colombia studying how the government taxes and spends. We did really great work; prior to us, nobody independent of the government analyzed its finances. I'm proud of it. Now he and I both work in government. He rocketed from economics professor to minister in my first four years here. I eventually followed him to the tax authority, where today I'm helping the government stay afloat.
+
+Over the years I've given haphazardly to charities, based mostly on GiveWell's recommendations. This year it was to a group of lawyers suing on behalf of chickens in the US that you recommended on the podcast. But I haven't tried to make lots of money, and I haven't given a lot away.
+
+[1] https://github.com/JeffreyBenjaminBrown/hode

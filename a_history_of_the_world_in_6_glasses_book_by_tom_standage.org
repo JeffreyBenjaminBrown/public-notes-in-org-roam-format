@@ -2,5 +2,23 @@
 :ID:       459b1c6f-3d13-46e2-a37a-05b10bd458cb
 :END:
 #+title: A History of the World in 6 Glasses (book) by Tom Standage
+* Coca-Cola started as a patent medicine, about which people could claim anything legally. But that limited its market, so then it started being marketed as simply a refreshing drink
+* Tea has phenolics which kill bacteria even without boiling, and it doesn't spoil like beer
+* Coffee slows the rate at which alcohol is removed from the blood
+* Until coffee around the 1700s, the only drink that was safe was alcohol.
+* Just a spirits store for longer than wine, wine stores for longer than beer.  Also, if I'm remembering it correctly and should believe chat gpt, wine was used to sterilize wounds, but beer wasn't. Indeed beer can't, although it would be safer to wash a wound with beer than to wash it with crap ancient water.
+* Around (1730?) 80% of New England's exports were rum.
+  They imported French molasses. This incensed British sugar producers, who got a law passed that levied a prohibitive import tax on foreign molasses. The Americans ignored the law -- Britain didn't make enough molasses and it was worse. This precedent led the Americans to ignore other British laws, and was a big step toward the revolution.
+* British sailors brank rum with lemon. French ones drank wine and got scurvy.
+  British sailors thereby became known as limies.
+* Spirits were important for seafaring.
+  They needed soemthing to disinfect the water.
+  Wine would spoil.
+* Rum was given to slaves.
+  It served many purposes:
+  to weed out the weak,
+  to addict them,
+  to serve as "wages" they could drink or barter for food.
+* A (Greek? Roman?) shipwreck discovered millenia later carried the volume of 333,000 bottles of wine.
 * Grain made us settle before we could farm.
   In the Fertile Crescent, a family working for (three?) weeks could harvest enough grain to feed themselves for a year, if they stored it.
