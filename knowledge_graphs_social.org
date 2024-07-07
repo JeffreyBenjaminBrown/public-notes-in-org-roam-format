@@ -3,7 +3,10 @@
 :END:
 #+title: knowledge graphs & social
 * [[id:c47efc79-1d88-4b58-9a72-b698d6516911][asking 80,000 Hours for knowledge graph career advice]]
-* Chatgpt on graph people
+* letters, in order
+** [[id:52b1118f-05ee-42a7-b999-ebf2a378a4c1][letter to Shorenstein Center]], <2024-07-01 Mon>
+* fix up my LinkedIn profile and add it to the blur
+* some places that might care
 ** improving AI accuracy
 *** **Truth-Aware Context Selection (TACS)**: This project, hosted on GitHub, focuses on mitigating the hallucinations of large language models by selecting context based on its truthfulness. The tool performs truth detection on the context and constructs corresponding attention masks to filter out untruthful information. This project includes a GUI interface for easier interaction and evaluation of context truthfulness [[❞]](https://github.com/ictnlp/TACS).
 *** **Context Recall by Ragas*
@@ -22,14 +25,20 @@
     [DFRLab](https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/)
 *** **MediaWise**: A project of the Poynter Institute aimed at teaching digital literacy and fact-checking skills to various demographics, including teens and seniors, to help them better navigate misinformation online.
     [MediaWise](https://www.poynter.org/mediawise/)
+** TODO IARPA
+   https://www.iarpa.gov/index.php/research-programs/create
+   https://www.iarpa.gov/
 ** TODO using AI to find disinformation
 *** TODO **World Economic Forum Initiatives**
     The WEF highlights the need for technology-based detection systems to combat deepfakes and disinformation. These systems use machine learning, neural networks, and forensic analysis to identify inconsistencies in digital content, helping to verify the authenticity of media and prevent the spread of fake news [[❞]](https://www.weforum.org/agenda/2024/02/4-ways-to-future-proof-against-deepfakes-in-2024-and-beyond/).
 ** TODO academic
-*** TODO **The Shorenstein Center on Media, Politics and Public Policy**
+*** BLOCKED **The Shorenstein Center on Media, Politics and Public Policy**
     Based at Harvard Kennedy School, this center conducts research on the intersection of media, politics, and public policy, including the study of misinformation and its impacts.
     [Shorenstein Center](https://shorensteincenter.org/)
 **** [[id:52b1118f-05ee-42a7-b999-ebf2a378a4c1][letter to Shorenstein Center]]
+**** I've only sent to Max Boland so far.
+     <2024-07-01 Mon>
+     Max Boland <maxboland@hks.harvard.edu>
 *** TODO **Data & Society**: A research institute that studies the social implications of data-centric technologies and automation, including how disinformation spreads on social media platforms.
     [Data & Society](https://datasociety.net/)
 *** TODO **The Credibility Coalition**: An interdisciplinary community committed to improving information ecosystems and fostering digital literacy. They focus on developing standards and tools for assessing the credibility of online information.
@@ -38,3 +47,22 @@
     [Hoaxy](https://hoaxy.iuni.iu.edu/)
 *** **The Oxford Internet Institute**: Part of the University of Oxford, this institute conducts research on the social implications of the internet, including studies on the spread of misinformation and fake news.
     [Oxford Internet Institute](https://www.oii.ox.ac.uk/)
+*
+** u
+*** TODO Center for Applied Rationality
+    https://rationality.org/
+*** Open Philanthropy
+    They might have more relevant pages than this one:
+    https://www.openphilanthropy.org/grants/university-of-pennsylvania-philip-tetlocks-making-conversations-smarter-faster-forecasting-project/
+*** https://ourworldindata.org/
+*** https://www.hypermind.com/
+    about forecasting, but might care
+*** Ops, Info & Decisions at Wharton
+    https://oid.wharton.upenn.edu/
+*** Decision Science at Duke
+    https://areas.fuqua.duke.edu/decision-sciences/
+*** Decision Science at Booth (Chicago)
+    https://www.chicagobooth.edu/research/roman
+*** Good Judgment
+    forecasting
+    https://goodjudgment.com/
