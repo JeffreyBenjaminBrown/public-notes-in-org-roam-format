@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       4f6e7dfd-2b17-474b-9126-714bfb76156e
+:END:
+#+title: mutual recursion: an easy example
+Imagine a set of nested Russian dolls, some red and some blue.
+Opening the red ones is a different skill, "openRed()",
+from opening the blue ones, "openBlue()".
+To find what's at the center of such a set,
+one passes the object back and forth
+between openRed() and openBlue()
+until they have all been opened.

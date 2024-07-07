@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       a061ed1f-4e6e-4d4f-99c0-8d641d511b23
-ROAM_ALIASES: "TypeDB scripting"
+:ROAM_ALIASES: "TypeDB scripting"
 :END:
 #+title: TypeDB Console
 It's in the Docker container.

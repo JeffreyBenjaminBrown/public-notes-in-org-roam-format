@@ -37,7 +37,7 @@
    See sidebar for tutorial & API reference.
 * PITFALLs
 ** Docs use "query" to mean more than read ops.
-* [[id:f027e52d-db16-4f2b-9b71-d904901a38a2][running TypeDB]]
+* [[id:f027e52d-db16-4f2b-9b71-d904901a38a2][running TypeDB]] | getting started
 * [[id:8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd][TypeDB model and language]]
 * TODO experiments to run
 ** DONE Roles are inherited.

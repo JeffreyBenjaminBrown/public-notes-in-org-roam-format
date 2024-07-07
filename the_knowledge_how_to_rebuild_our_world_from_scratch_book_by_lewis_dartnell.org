@@ -20,6 +20,10 @@
 **** Even if you spread much of the leftover vegetative matter back onto the fields, you’ve still removed the portion actually eaten, and year after year the land is steadily depleted. So the very nature of farming necessitates that you are progressively removing mineral nutrients, bleeding the soil of its vitality
 ** such as wheat and maize have been optimized for the production of nutrition and are now poorly adapted for life without us
 *** they do not “breed true,” and so new hybrid seeds must be bought to plant each year. What you really want to gather in the immediate aftermath, therefore, are heirloom crops: traditional varieties that can be reliably propagated from one year to the nex
+* a familiar fridge
+  Evaporation (e.g. boiling) requires/draws heat from its environment. Do that on the inside, and then condense on the outside, and the inside gets cool and the tube exports heat to the outside (through black radiator fins).
+* a low-tech fridge
+  The Zeer pot, common in Africa, consists of a lidded clay tub inside an unglazed larger one, with the gap between them filled with damp sand. As the moisture evaporates it draws heat out of the inner container, lowering its temperature, so the Zeer pot can postpone the spoilage of fruits or vegetables at market by a week or more.
 * preserving food
 ** Canning with pressure is especially effective.
    For the safest preservation, food that isn’t already acidic or pickled should be pressure-canned, exposing it to temperatures above the normal boiling point, as this completely sterilizes the contents and kills even temperature-resistant spores of microbes like those responsible for botulism.

@@ -10,3 +10,5 @@
 ** Haskell client in progress
    https://github.com/typedb-osi/typedb-client-haskell
 * [[id:7cf89cef-158c-4893-8654-71b1bfb5201d][TypeDB in Docker, running]]
+* [[id:a061ed1f-4e6e-4d4f-99c0-8d641d511b23][TypeDB Console]]
+  tag scripting
