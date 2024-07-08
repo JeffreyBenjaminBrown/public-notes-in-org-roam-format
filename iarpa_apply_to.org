@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       1ed6a36f-2f63-4b11-b73f-d5eb3a0b9279
+:END:
+#+title: IARPA, apply to
+https://www.iarpa.gov/
+* how to apply
+  https://www.iarpa.gov/who-we-are/become-a-pm
+* a project of theirs near mine
+  https://www.iarpa.gov/index.php/research-programs/create
+* email
+  dni-iarpa-info@iarpa.

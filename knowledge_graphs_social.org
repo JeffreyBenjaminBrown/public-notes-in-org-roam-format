@@ -25,9 +25,7 @@
     [DFRLab](https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/)
 *** **MediaWise**: A project of the Poynter Institute aimed at teaching digital literacy and fact-checking skills to various demographics, including teens and seniors, to help them better navigate misinformation online.
     [MediaWise](https://www.poynter.org/mediawise/)
-** TODO IARPA
-   https://www.iarpa.gov/index.php/research-programs/create
-   https://www.iarpa.gov/
+** TODO [[id:1ed6a36f-2f63-4b11-b73f-d5eb3a0b9279][IARPA, apply to]]
 ** TODO using AI to find disinformation
 *** TODO **World Economic Forum Initiatives**
     The WEF highlights the need for technology-based detection systems to combat deepfakes and disinformation. These systems use machine learning, neural networks, and forensic analysis to identify inconsistencies in digital content, helping to verify the authenticity of media and prevent the spread of fake news [[❞]](https://www.weforum.org/agenda/2024/02/4-ways-to-future-proof-against-deepfakes-in-2024-and-beyond/).
