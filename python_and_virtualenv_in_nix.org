@@ -20,7 +20,7 @@ https://wiki.nixos.org/wiki/Python
    deactivate
 * stale
 ** old wiki
-   https://nixos.wiki/wiki/Python
+   https://wiki.nixos.org/wiki/Python
 ** used to be my favorite way to use Python in NixOS: use both nix and virtualenv
 *** why it's my favorite way
     Going fully Nix went badly for me,
