@@ -3,7 +3,19 @@
 :ROAM_ALIASES: Hode3
 :END:
 #+title: Hode in TypeDB and Emacs (plans)
-* TODO FIRST : try the Python interface
+* TODO alternatives for first
+** try the Python interface
+** make an Emacs program that stores state as an argument
+   change state in response to user commands -- up | down
+   state is a number
+   redraw buffer based on state changes -- number move
+** Emacs redraw buffer to reflect changes to a file
+** Emacs draw invisible coordinate characters, track cursor in them
+** Emacs send commands to Python to change a file
+** Authors will want multiple identities
+   "Me speaking on behalf of organization", "me speaking only for myself".
+* [[id:fb83f180-cb75-4180-ab9c-eb555f8ecc1b][fun interesting relationships \ Hode]]
+* [[id:80be0156-3e35-499e-a14b-9aa5803e715f][making big programs in Emacs]]
 * u - was top of mind
 ** Asking TypeDB: Sort on transitive partially applied rels?
    https://forum.typedb.com/t/can-typedb-sort-on-ideally-multiple-transitive-partially-applied-relationships/521
@@ -36,7 +48,6 @@
     text properties
     fields in text/buffers
     anything about the buffer variable and storage systems
-** [[id:80be0156-3e35-499e-a14b-9aa5803e715f][making big programs in Emacs]]
 ** an Emacs note project to study
    https://github.com/ahyatt/ekg
 * TODO [[id:a933cfca-255e-4b95-9e0b-ea19cb723bc2][Contribute a topological sort on partially ordered relations to TypeDB]]

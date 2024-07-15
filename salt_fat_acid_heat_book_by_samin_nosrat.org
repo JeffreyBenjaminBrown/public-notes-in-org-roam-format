@@ -1,0 +1,82 @@
+:PROPERTIES:
+:ID:       379f1fcc-f657-4f81-b11c-3d06e7367ab6
+:END:
+#+title: Salt, Fat, Acid, Heat (book) by Samin Nosrat
+* salt
+** The three major questions: When? How much? In what form?
+   Form includes cheese, etc.
+** Salt unlocks other flavors.
+*** "Salt to taste" doesn't (only) mean "make it as salty as you want it"
+    but means "salt it until the combination of all the other tastes is right".
+*** Salt masks bitterness and other unpleasant things
+    more effectively than sugar!
+** Salt + time = different
+   A little salt on meat left for a while while distribute throughout, drawing water out, but also breaking down proteins so that they can be wetter when served. Cook unsalted meat for too long and it gets dry quickly. That's because the intact proteins coil and squeeze out water.
+** Seafood can't take as much salt.
+   Things like thick tuna steaks can be salted 30 min before cooking. Flaky fish, 15 minutes.
+   Other seafood should only be salted just before cooking.
+** Salt won't dissolve in fat without water.
+   But most kitchen fats have some.
+   Salt them early, or add vinegar or lemon to get the salt to diffuse fast.
+** Fattier meat has less capacity to absorb fat.
+   In isolation, the fat of perfectly salted prosciutto will taste bland, and the lean part will taste too salty.
+** Salt decreases egg cooking time.
+   That's because it lowers the temperature at which proteins denature and (after that) coagulate (join to their neighbors to form new structures).
+** Salt & vegetables
+   Salt the water they are cooked in generously.
+   Salt plants with big watery cells (zuchini, tomato, eggplan) in advance of grilling, roasting. But pat them dry before cooking, because the salt keeps pulling out water.
+   Don't salt plants too early -- 15 minutes before cooking is usually enough. Else they become dry.
+   Wait to add salt to mushrooms until they've just started to brown. (ChatGPT explains, "If mushrooms release their water too early, they end up steaming in their own juices rather than browning.")
+** Don't oversalt water that will all be absorbed.
+   e.g. pasta water is very different from rice water
+** Salt strengthens gluten.
+** When there's no salt in veggie water, the water draws their solutes (minerals, sugars) out.
+** Simmering potatoes in salted water before roasting salts them from the inside out, uniformly.
+** Be satisfied with the mix of other (salty) ingredients before adding salt crystals.
+   For instance, maybe it needs more cheese or anchovies, which are themselves salty.
+** Strategies for oversalted food.
+   Balance it with acid or fat.
+   Cook it with a bland thing -- unseasoned veggies, pasta.
+   Shred it and use it in something else.
+   (She lists more.)
+* fat | oil
+** Olive oil flavor depends on geography.
+   Coastal : Mild, ?buttery.
+   Hot hills : spicy, acidic.
+** Add flavors (e.g. garlic) directly to the oil.
+   Do that because fat aids the transmission of flavor.
+** textures
+*** crisp
+    Requires the water in cells to evaporate, so the cooking temp must be > 212 F. This requires all of the food to be close to the pan, or fat.
+** Some foods sponge fat.
+   Mushrooms, eggplant. They need lots, or they'll burn.
+** Other foods release fat.
+   Bacon.
+** Preheat pan to minimize time fat spends against metal.
+*** why
+    It deteriorates, making it both unhealthy and unpleasant.
+    GPT: "it can oxidize, become rancid, form harmful trans fats, polymerize, and contribute to the formation of acrylamides"
+*** how
+    The pan should be hot enough that the oil immediately shimmers and ripples when added.
+    Water flicked on it should (at least gently) crackle.
+*** exceptions: things that burn
+    Garlic and butter burn at high temps.
+    They should be cooked in oil slowly.
+** Food sticks to cold pans more than to hot ones.
+* acid
+** Acid makes things take longer to soften.
+*** A pinch of baking soda can undo this effect in beans.
+    Wait until the beans are soft before adding acidic onions.
+*** => Cook the onions before adding the rest of a soup.
+    Especially acidic things like red wine that it might have.
+** Acid softens, then toughens meats, in a sense cooking them.
+*** why
+    That's because it denatures the proteins, which come apart, then coagulate along different lines.
+*** therefore
+    Add it to meats only just before cooking.
+** Acid dulls green colors.
+   This is a reason to dress salads as late as possible.
+* spices
+** Grind them fresh, like coffee.
+* beans
+** Cooking with hard water can harden beans.

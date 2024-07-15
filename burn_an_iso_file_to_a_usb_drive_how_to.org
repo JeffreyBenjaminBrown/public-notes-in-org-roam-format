@@ -13,6 +13,6 @@
     sudo dd if=/path/to/the.iso of=/dev/sdxxx bs=1M
   Example:
     sudo dd \
-      if=/home/jeff/linux-distros/nixos-plasma5-21.11.334027.e34c5379866-x86_64-linux.iso \
-      of=/dev/sdb \
+      if=/home/jeff/excluded-from-borg/xubuntu-24.04-desktop-amd64.iso \
+      of=/dev/sda \
       bs=1M

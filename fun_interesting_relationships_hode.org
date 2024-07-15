@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       fb83f180-cb75-4180-ab9c-eb555f8ecc1b
+:END:
+#+title: fun interesting relationships \ Hode
+* [subject] do [verb] (opt: to [argument]) under [condition]
+  Condition must include time, e.g. past, future, ongoing;
+  can include other qualifiers.
+* maybe [statement]
+* not [statement]
+* it seems [statement]
+  Implicitly, any such statement is an "it seems _ to [author]" statement.
+* [statement] suggests [conclusion]]
+* [statement] helps explain [statement]
+* [person] wrote [statement]
+* [statement] explains [argument]
+* [statement] follows [statement]
+* [statement] is part of [statement]
+  "[_statement follows _statement] is part of [_statement]"
+  can be used to represent multi-step arguments, recipes, stories
+* [member] is in [category]
+* [category] is subset of [bigger category]
+* [action] achieves [condition]
+* [condition] is goal of [agent]
+  agents and authors will likely overlap
