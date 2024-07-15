@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       800dc290-b007-4401-a6cf-3ecd5a6a49be
+:END:
+#+title: threads in Emacs
+* Mutexes and condition variables
+  are alternative ways of coordinating threads

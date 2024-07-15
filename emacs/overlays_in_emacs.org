@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       91deff58-ad2e-4e16-878a-b59836c027f4
+:END:
+#+title: overlays in Emacs
+* applies to a specified range of the buffer
+* contains a property list

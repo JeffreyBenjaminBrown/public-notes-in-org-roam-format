@@ -1,0 +1,80 @@
+:PROPERTIES:
+:ID:       716a8b8c-28b0-4cb4-83f2-b784b00ff8cc
+:END:
+#+title: Evaluation in Emacs
+* setting and evaluating symbols
+(setq a 123)
+     ⇒ 123
+
+(eval 'a)
+     ⇒ 123
+
+a
+     ⇒ 123
+* self-evaluating symbols
+** why they are special
+   They always evaluate to themselves,
+   and cannot be bound to something else.
+** instances
+*** nil and t
+*** anything that starts with ":"
+*** vectors
+    These are lists in square brackets [].
+* evaluating a "nonempty list form"
+** The first element is not evaluated, and determines tje form's kind.
+   The first step in evaluating a nonempty list is to examine its first element. This element alone determines what kind of form the list is and how the rest of the list is to be processed.
+** If the first element of the list is a symbol
+*** then that element is evaluated
+    potentially many times, until arriving at a non-symbol.
+*** what it evaluates to can be
+**** a Lisp function (a lambda expression)
+**** a byte-code function
+**** a primitive function
+**** a Lisp macro
+**** a special form
+**** an autoload object
+* lambda syntax
+  (funcall (lambda (arg) (do-something-to arg))
+          '(1 2 3))
+* PITFALL: Macro calls look like ordinary function calls.
+  The difference is just that they are defined with defmacro,
+  rather than defun.
+* special forms
+  https://www.gnu.org/software/emacs/manual/html_node/elisp/Special-Forms.html
+** Most special forms define control structures or perform variable bindings.
+   Functions can't do those things.
+** Each has its own rules for which arguments are evaluated.
+** *instances*
+*** quote
+**** Prevents its list argument from being evaluated.
+**** Has the shorthand of a leading quote outside of the list.
+**** Can be nested
+     Just as 'foo evaluates to foo,
+     ''foo evaluates to 'foo.
+**** PITFALL : Dangerous?
+     Although the expressions (list '+ 1 2) and '(+ 1 2) both yield lists equal to (+ 1 2), the former yields a freshly-minted mutable list whereas the latter yields a list built from conses that might be shared and should not be modified.
+*** *more*
+**** and
+**** catch
+**** cond
+**** condition-case
+**** defconst
+**** defvar
+**** function
+**** if
+**** interactive
+**** lambda
+**** let
+**** let*
+**** or
+**** prog1
+**** prog2
+**** progn
+**** save-current-buffer
+**** save-excursion
+**** save-restriction
+**** setq
+**** setq-default
+**** unwind-protect
+**** while
+** can be tested for with `special-form-p`

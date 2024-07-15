@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       47586438-b964-4841-967f-539f91937926
+:END:
+#+title: circular lists in Emacs
+https://www.gnu.org/software/emacs/manual/html_node/elisp/Circular-Objects.html
