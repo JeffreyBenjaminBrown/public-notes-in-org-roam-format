@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       3ee08b1e-7266-4c60-a629-869dd4af35e9
+:END:
+#+title: In Emacs, commands and functions are different.
+"The special form interactive turns a Lisp function into a command."

@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       4703ee65-2ac7-43cc-958c-b8a4e763b7de
+:END:
+#+title: variables in Emacs
+* define a global variable
+** `defvar` : the default
+** `defcustom` : define a customizable variable
+** `defconst` : define not-really "constants"
+   `defconst` informs human readers that you do not intend to change the value of a variable.
+   Emacs does not raise an error if you actually change it.
+   "The difference between defconst and defvar is mainly a matter of intent".
+* set a variable (global or local)
+  :PROPERTIES:
+  :ID:       ee61d402-bdf4-4125-938b-e092abdeee9e
+  :END:
+  (setq x 'value)
+** PITFALL: `setq` affects the "current binding".
+   :PROPERTIES:
+   :ID:       019a8819-f7ce-4f90-b5ee-d44eaf06864d
+   :END:
+   The current binding is the nearest (not shadowed) one.
+   "If a local binding is in effect, using setq on the local variable stores the specified value in the local binding", doing nothing to the global binding.
+* Emacs is moving toward lexical scoping from dynamic scoping.
+* `let` varieties
+** let: : binds all variables without reference to the others
+   If one seems to refer to another, it actually refers to whatever value that other will end up shadowing in the "let body".
+** let* : any variable can refer to earlier ones
+** letrec : ???
+* unbind a value with `makunbound`
+  tag : delete
+** PIFALL: Not a typo.
+   It seems like they should have written "makeunbound",
+   but they didn't.
+* `boundp` : test for boundness
+* some name conventions to indicate the type of a variable
+  https://www.gnu.org/software/emacs/manual/html_node/elisp/Tips-for-Defining.html
+* PITFALL: [[id:36d7cc29-d0a8-4053-9c0a-c2e5ec1551d3][Avoid half-initialized values. \ Emacs]]
+* referring to values only defined at runtime
+  "Occasionally, you may want to reference a variable which is only determined at run time. In that case, you cannot specify the variable name in the text of the program. You can use the symbol-value function to extract the value."
+* computing the symbol (as well as the value) to set at runtime
+  `set` rather than `setq`.
+  https://www.gnu.org/software/emacs/manual/html_node/elisp/Setting-Variables.html
+* [[id:ce23c9b1-9a53-4866-8b9b-bcc9be6cab6f][Modifications to a variable can trigger functions in Emacs.]]
+* PITFALL: [[id:8236121d-48c9-4165-a59a-e9c568240d17][Scoping rules seem complicated in Emacs.]]
+* some kinds of variable scopes
+  Each easy to find in manual.
+  Sometimes these terms are hyphenated, sometimes not,
+  inconsistently.
+** [[id:a5312c1b-175d-417c-a491-fce412d32042][buffer-local variables]]
+** file local variables
+** directory local variables
+** connection local variables
+* aliases : variables with multiple names
+  "make two variables synonyms, so that both variables always have the same value, and changing either one also changes the other."
+* There are "variables with restricted values".
+* "generalized variables"
+  e.g. "the second value in this list"
+** `setf (car a) b`
+** One can "define new forms that setf can operate on."

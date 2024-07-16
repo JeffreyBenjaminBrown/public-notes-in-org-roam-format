@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a5312c1b-175d-417c-a491-fce412d32042
+:END:
+#+title: buffer-local variables in Emacs
+* make-local-variable
+  affects just the current buffer
+* make-variable-buffer-local
+  :PROPERTIES:
+  :ID:       16e057da-0373-440b-a7db-839375a531e0
+  :END:
+  marks the variable as automatically buffer-local

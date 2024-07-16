@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       36d7cc29-d0a8-4053-9c0a-c2e5ec1551d3
+:END:
+#+title: Avoid half-initialized values in Emacs.
+https://www.gnu.org/software/emacs/manual/html_node/elisp/Tips-for-Defining.html
+* quote
+When defining and initializing a variable that holds a complicated value (such as a syntax table for a major mode), it’s best to put the entire computation of the value into the defvar, like this:
+
+(defvar my-major-mode-syntax-table
+  (let ((table (make-syntax-table)))
+    (modify-syntax-entry ?# "<" table)
+    …
+    table)
+  docstring)
+
+This method has several benefits. First, if the user quits while loading the file, the variable is either still uninitialized or initialized properly, never in-between. If it is still uninitialized, reloading the file will initialize it properly. Second, reloading the file once the variable is initialized will not alter it; that is important if the user has changed its value. Third, evaluating the defvar form with C-M-x will reinitialize the variable completely.

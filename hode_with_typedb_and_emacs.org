@@ -5,15 +5,15 @@
 #+title: Hode in TypeDB and Emacs (plans)
 * TODO alternatives for first
 ** try the Python interface
-** make an Emacs program that stores state as an argument
-   change state in response to user commands -- up | down
-   state is a number
-   redraw buffer based on state changes -- number move
-** Emacs redraw buffer to reflect changes to a file
-** Emacs draw invisible coordinate characters, track cursor in them
+** Emacs
+** Emacs draw invisible coordinate characters, track cursor in them.
 ** Emacs send commands to Python to change a file
-** Authors will want multiple identities
-   "Me speaking on behalf of organization", "me speaking only for myself".
+** DONE Get name of file visited by buffer.
+   (buffer-file-name)
+** DONE Automatic! Redraw buffer to reflect changes to file.
+   And fast!
+** DONE Store app state in a buffer-local variable.
+   Search for "buffer-local variable" in `io_tests.el`.
 * [[id:fb83f180-cb75-4180-ab9c-eb555f8ecc1b][fun interesting relationships \ Hode]]
 * [[id:80be0156-3e35-499e-a14b-9aa5803e715f][making big programs in Emacs]]
 * u - was top of mind
@@ -50,6 +50,8 @@
     anything about the buffer variable and storage systems
 ** an Emacs note project to study
    https://github.com/ahyatt/ekg
+** Authors will want multiple identities
+   "Me speaking on behalf of organization", "me speaking only for myself".
 * TODO [[id:a933cfca-255e-4b95-9e0b-ea19cb723bc2][Contribute a topological sort on partially ordered relations to TypeDB]]
 * MEP, easier than the [[id:cfddefd6-b369-4ae0-bc6d-e047b75d4aeb][MVEP]]: Python queries, print to screen.
 ** How to extend it to involve Emacs

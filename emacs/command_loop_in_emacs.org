@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       b1253493-8a71-4d48-b0d1-c4bbc7f78c6a
+:END:
+#+title: command loop in Emacs
+* what it does
+  reads key sequences, executes their definitions, and displays the results
+* Prior to each execution is creates an undo boundary.
+  "Emacs runs undo-boundary to create an undo boundary. See Maintaining Undo Lists."
+* PITFALL: [[id:3ee08b1e-7266-4c60-a629-869dd4af35e9][In Emacs, commands and functions are different.]]
+* prefix arguments
+** what I think these are
+  arguments entered interactively before the command is called

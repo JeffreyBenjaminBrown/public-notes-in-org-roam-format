@@ -5,9 +5,11 @@
 * RESUME reading at
   The section called "Querying" at
   https://typedb.com/docs/clients/2.x/python/python-tutorial
+* refs
+  https://typedb.com/docs/clients/2.x/python/python-overview
+  See sidebar for tutorial & API reference.
 * my code
   [[~/code/graphs/TypeDB/python/README.org]]
-* [[id:2e5e9f7f-69af-46c0-8998-c1d224d205a7][documentation]]
 * TODO experiments
   :PROPERTIES:
   :ID:       fa3b7eb8-c4dc-4748-9c6d-e594305ee35c

@@ -53,6 +53,8 @@
 ** C-c C-(f/b): org next/previous same level
 ** Up, down and search work in the minibuffer after M-x.
 * solutions
+** another view of the same buffer : "indirect buffer"
+   Has a separate point, separate markers, etc. but same text.
 ** to disable blinking cursor
    (setq visible-cursor nil) ;; Dumb name! It just stops blinking.
 ** [[id:92505b5e-61fc-494f-a610-9b37a27a6fdd][Emacs / help]]

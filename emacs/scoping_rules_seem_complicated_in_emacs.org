@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       8236121d-48c9-4165-a59a-e9c568240d17
+:END:
+#+title: Scoping rules seem complicated in Emacs.
+https://www.gnu.org/software/emacs/manual/html_node/elisp/Variable-Scoping.html

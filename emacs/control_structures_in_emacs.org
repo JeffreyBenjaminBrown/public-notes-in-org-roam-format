@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       8a17a4ad-1e1f-4b21-905e-9ca211dba612
+:END:
+#+title: control structures in Emacs
+* Sequential evaluation
+** Sometimes it's implicit
+   In many contexts, e.g. a function body, it is implicit.
+   Otherwise it requires an explicit `progn`.
+* Conditionals
+  https://www.gnu.org/software/emacs/manual/html_node/elisp/Conditionals.html
+** if, when and unless
+   when is if without else.
+   unless is if without then.
+** cond and pcase
+   `cond` is for case statements.
+   `pcase` generalizes `cond` with pattern-matching.
+* *skipped*
+** Iteration
+** Generators
+** Nonlocal Exits

@@ -30,11 +30,6 @@
    :END:
    https://typedb.com/docs/manual/console
 ** Python client
-   :PROPERTIES:
-   :ID:       2e5e9f7f-69af-46c0-8998-c1d224d205a7
-   :END:
-   https://typedb.com/docs/clients/2.x/python/python-overview
-   See sidebar for tutorial & API reference.
 * PITFALLs
 ** Docs use "query" to mean more than read ops.
 * [[id:f027e52d-db16-4f2b-9b71-d904901a38a2][running TypeDB]] | getting started

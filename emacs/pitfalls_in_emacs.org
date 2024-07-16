@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       8ab91ced-7ba8-430d-a7dd-809b5395b2e0
+:END:
+#+title: PITFALLs in programming Emacs
+* [[id:ae01ac3a-977a-482f-911a-7fd2b21deeea][Evaluation and mutability are hairy. Sequence matters.]]
+* [[id:019a8819-f7ce-4f90-b5ee-d44eaf06864d][`setq` affects the nearest (not shadowed) binding.]]
+* [[id:36d7cc29-d0a8-4053-9c0a-c2e5ec1551d3][Avoid half-initialized values. \ Emacs]]
+* [[id:8236121d-48c9-4165-a59a-e9c568240d17][Scoping rules seem complicated in Emacs.]]
+* [[id:3ee08b1e-7266-4c60-a629-869dd4af35e9][In Emacs, commands and functions are different.]]
+* [[id:23933641-348f-4311-b1c8-a14aa708c8e1][The current buffer is not necessarily displauyed.]]

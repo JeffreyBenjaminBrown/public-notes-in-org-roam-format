@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       23933641-348f-4311-b1c8-a14aa708c8e1
+:END:
+#+title: The current buffer is not necessarily displauyed in Emacs.
+https://www.gnu.org/software/emacs/manual/html_node/elisp/Current-Buffer.html
+It is just the one that Lisp functions target.
+`current-buffer` returns it.
+`set-buffer` changes it.

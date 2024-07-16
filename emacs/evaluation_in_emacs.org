@@ -2,6 +2,15 @@
 :ID:       716a8b8c-28b0-4cb4-83f2-b784b00ff8cc
 :END:
 #+title: Evaluation in Emacs
+* refs
+** Emacs manual chapter on evaluation
+   https://www.gnu.org/software/emacs/manual/html_node/elisp/index.html#toc-Evaluation-1
+* PITFALL: Evaluation and mutability are hairy. Sequence matters.
+  :PROPERTIES:
+  :ID:       ae01ac3a-977a-482f-911a-7fd2b21deeea
+  :END:
+  https://www.gnu.org/software/emacs/manual/html_node/elisp/Mutability.html
+** [[id:135364d7-a287-43fa-ab79-5b61a2b7435f][PITFALL : Quotes have weird mutability implications.]]
 * setting and evaluating symbols
 (setq a 123)
      ⇒ 123
@@ -11,6 +20,7 @@
 
 a
      ⇒ 123
+* [[id:ce23c9b1-9a53-4866-8b9b-bcc9be6cab6f][Modifications to a variable can trigger functions in Emacs.]]
 * self-evaluating symbols
 ** why they are special
    They always evaluate to themselves,
@@ -51,8 +61,17 @@ a
 **** Can be nested
      Just as 'foo evaluates to foo,
      ''foo evaluates to 'foo.
-**** PITFALL : Dangerous?
+**** PITFALL : Quotes have weird mutability implications.
+     :PROPERTIES:
+     :ID:       135364d7-a287-43fa-ab79-5b61a2b7435f
+     :END:
      Although the expressions (list '+ 1 2) and '(+ 1 2) both yield lists equal to (+ 1 2), the former yields a freshly-minted mutable list whereas the latter yields a list built from conses that might be shared and should not be modified.
+*** backquote
+    is like quote but with new new abilities
+**** escape parts of the list so that they are evaluated
+**** splice an evaluated list into the backquoted one
+     such that the result is a list all at one level,
+     not a nested one
 *** *more*
 **** and
 **** catch
@@ -78,3 +97,5 @@ a
 **** unwind-protect
 **** while
 ** can be tested for with `special-form-p`
+* laziness
+  is easy to find in the manual

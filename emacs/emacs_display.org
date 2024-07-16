@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0215c65a-227a-4222-bdc2-9b7a766e3366
+:END:
+#+title: Emacs display
+* 41.1 Refreshing screen
+* 41.2 Forcing redisplay
