@@ -6,8 +6,11 @@
   The section called "Querying" at
   https://typedb.com/docs/clients/2.x/python/python-tutorial
 * refs
-  https://typedb.com/docs/clients/2.x/python/python-overview
-  See sidebar for tutorial & API reference.
+** Documentation: https://pypi.org/project/typedb-driver/
+   See sidebar for tutorial & API reference.
+** On Github
+   https://github.com/vaticle/typedb-driver/tree/development/python
+   PITFALL: That's a subfolder of their general "drivers" repo.
 * my code
   [[~/code/graphs/TypeDB/python/README.org]]
 * TODO experiments

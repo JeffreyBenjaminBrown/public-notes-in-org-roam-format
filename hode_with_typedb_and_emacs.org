@@ -5,11 +5,11 @@
 #+title: Hode in TypeDB and Emacs (plans)
 * TODO alternatives for first
 ** try the Python interface
-** Emacs
 ** Emacs draw invisible coordinate characters, track cursor in them.
-** Emacs send commands to Python to change a file
+** Emacs send commands to Python to change a file.
 ** DONE Get name of file visited by buffer.
    (buffer-file-name)
+** DONE Sidestepped via Docker : Package TypeDB for NixOS.
 ** DONE Automatic! Redraw buffer to reflect changes to file.
    And fast!
 ** DONE Store app state in a buffer-local variable.

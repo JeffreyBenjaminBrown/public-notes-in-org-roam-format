@@ -29,11 +29,11 @@
    :ID:       c091cef4-e8d0-4880-96a5-6239c7e07604
    :END:
    https://typedb.com/docs/manual/console
-** Python client
 * PITFALLs
 ** Docs use "query" to mean more than read ops.
-* [[id:f027e52d-db16-4f2b-9b71-d904901a38a2][running TypeDB]] | getting started
-* [[id:8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd][TypeDB model and language]]
+* [[id:f027e52d-db16-4f2b-9b71-d904901a38a2][running it]] | getting started
+* [[id:8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd][model and language]]
+* [[id:52393e43-d36a-4d8d-9cc4-f2f379e09eff][Python client]]
 * TODO experiments to run
 ** DONE Roles are inherited.
    That is, I don't have to define that a type can play a role,
