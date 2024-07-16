@@ -3,6 +3,7 @@
 :ROAM_ALIASES: Lumatone
 :END:
 #+title: Lumatone (microtonal keyboard)
+* [[id:bb22c6e3-cd16-4e22-85ef-cd83ee03c7fa][collect data to adjust velocity curve]]
 * TODO [[id:12131cbb-d86d-4668-a822-6be1ed676de1][bad keys \\ Lumatone, my]]
 * try changing [[id:57bd013c-e96c-4da2-ab7b-d8aefb611da5][VelocityIntrvlTbl \ Lumatone]]
 * sysex to change Lumatone key colors

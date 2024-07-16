@@ -4,6 +4,7 @@
 #+title: music
 * see also
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
+* TODO [[id:bb22c6e3-cd16-4e22-85ef-cd83ee03c7fa][collect data to adjust velocity curve]]
 * Ideas for Pianoteq guitar aftertouch and vel curve
 ** https://www.facebook.com/share/p/qKJSeBo3f777HnEq/?mibextid=oFDknk
 * [[id:622380e5-1a51-4fc3-81e0-096fac60f020][TODO & improv \\ music]]

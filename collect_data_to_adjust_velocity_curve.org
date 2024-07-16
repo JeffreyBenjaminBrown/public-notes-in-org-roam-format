@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       bb22c6e3-cd16-4e22-85ef-cd83ee03c7fa
+:END:
+#+title: collect data to adjust velocity curve
+Record a sweep of midi velocity.
+See where it's dense and sparse.
+I don't have to play sequentially from soft to loud;
+I just have to try to get a good dispersion of velocity values,
+and then see where they bunch or are sparse.

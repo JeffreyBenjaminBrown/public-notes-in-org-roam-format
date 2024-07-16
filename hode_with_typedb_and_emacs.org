@@ -14,6 +14,10 @@
    And fast!
 ** DONE Store app state in a buffer-local variable.
    Search for "buffer-local variable" in `io_tests.el`.
+* u
+** It would be useful if authors could say of each other's statements things like this made me laugh, this surprised me, this I agree with.
+*** Also this needs evidence, or a conclusion, or suggestions for further reading. I don't know whether those should be private or public.
+** Let people log their queries globally. The register analyzes what people are trying to know, and uses that to determine what relationships to prompt for
 * [[id:fb83f180-cb75-4180-ab9c-eb555f8ecc1b][fun interesting relationships \ Hode]]
 * [[id:80be0156-3e35-499e-a14b-9aa5803e715f][making big programs in Emacs]]
 * u - was top of mind

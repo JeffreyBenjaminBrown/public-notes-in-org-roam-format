@@ -7,3 +7,24 @@
   Excellence meaning it plays to (perhaps building)
   the person's strengths.
 * A job ad should both encourage people who would be a good fit and discourage people who wouldn't.
+* For distributed teams it should be a norm that if a discussion is about work, it should be moved to a channel where all relevant people can contribute
+* A leader should withhold their opinion until the end of a meeting
+* A new leader can be set up with social capital by setting them up for early wins.
+* Tell the people they will lead directly before telling the rest of the organization that a new leadership position is being created and filled
+* Henry Ford said if I had asked people what they wanted, they would have said faster Horses.
+* Hiring doesn't end at hiring, it ends at onboarding, integration
+* Standardized processes are good
+** But they should not be burdensome. Some units will need to do some things differently from others.
+** They reduce cognitive load
+* Transparency
+** Waiting too long to tell someone something can make them angry and distrustful
+** But it should be clear what kinds of information reach whom, under what circumstances
+** Not everything should be shared with everyone (immediately or even at all)
+***  to avoid wasting both time and (if it's bad news) emotional resources
+* Have goals and metrics at different time scales
+** Qualitative goals and even metrics are useful, if something is hard to quantify
+* Say what you think you can't
+* Goals should have completion targets. If the target is less than 100%, people should know whatbrewards await I'd they surpass the minimum target
+* Everyone should know what the goals of their unit are, and how they fit into those of the super unit, for units of any scale
+* Decide how often who reports what to who
+* Clear ownership avoids blame-shifting

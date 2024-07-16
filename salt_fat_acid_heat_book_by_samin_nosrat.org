@@ -2,6 +2,13 @@
 :ID:       379f1fcc-f657-4f81-b11c-3d06e7367ab6
 :END:
 #+title: Salt, Fat, Acid, Heat (book) by Samin Nosrat
+* u
+** Every emotion has a particular zone of temperature outside of which it breaks
+** Emotions work best at room temperature. An egg from the fridge is too cold.
+** An emulsifier permits emulsion, that is, let's fat coexist mingled up in water
+** Try to season (salt) from within
+*** It diffuser faster with heat
+*** Water helps it get into tough stuff
 * salt
 ** The three major questions: When? How much? In what form?
    Form includes cheese, etc.
