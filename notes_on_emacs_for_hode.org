@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       572d6341-4aa9-4d8e-9a28-11d8fc527f25
+:END:
+#+title: notes on Emacs for Hode
+* Invisible
+** buffer-invisibility-spec
+*** Setting this variable makes it buffer-local.
+** In the simplest case, any non-nil invisible property makes a character invisible. This is the default case—if you don’t alter the default value of buffer-invisibility-spec, this is how the invisible property works. You should normally use t as the value of the invisible property if you don’t plan to set buffer-invisibility-spec yourself.
+
+          More generally, you can use the variable buffer-invisibility-spec to control which values of the invisible property make text invisible. This permits you to classify the text into different subsets in advance, by giving them different invisible values, and subsequently make various subsets visible or invisible by changing the value of buffer-invisibility-spec.
+
+          ...
+
+          Setting buffer-invisibility-spec is very fast, much faster than scanning all the text in the buffer looking for properties to change
+** the invisible property. This can be either a text property (see Text Properties) or an overlay property (see Overlays).
+* Maybe enter does more than insert a character in a shell buffer
+** Check it with C-h k RET
+** Chatgpt says it calls comint-send-input.
+* Cursor
+** Excursions
+*** If you only need to save and restore the identity of the current buffer, use save-current-buffer or with-current-buffer instead (see The Current Buffer). If you need to save or restore window configurations, see the forms described in Window Configurations and in Frame Configurations.
+*** Excursions
+              It is often useful to move point temporarily within a localized portion of the program. This is called an excursion, and it is done with the save-excursion special form. This construct remembers the initial identity of the current buffer, and its value of point, and restores them after the excursion completes. It is the standard way to move point within one part of a program and avoid affecting the rest of the program,
+** The section on cursor motion includes wats to define what a word is
+*** For instance:
+
+              User Option: words-include-escapes ¶
+              This variable affects the behavior of forward-word and backward-word, and everything that uses them. If it is non-nil, then characters in the escape and character-quote syntax classes count as part of words. Otherwise, they do not.
+** To evaluate point to a number
+*** (point)
+                   ⇒ 175
+** point is a number no less than 1, and no greater than the buffer size plus 1
+** Usually terminals display the cursor over the character that immediately follows point
+** See also Defining and Using Fields
+** Functions that expect an argument to be a position (an integer), but accept a marker as a substitute, normally ignore which buffer the marker points into; they convert the marker to an integer, and use that integer, exactly as if you had passed the integer as the argument, even if the marker points to the wrong buffer
+** a position identifies the place between two characters (or before the first character, or after the last character), so we can speak of the character before or after a given position. However, we often speak of the character “at” a position, meaning the character after that position

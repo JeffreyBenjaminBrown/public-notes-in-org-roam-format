@@ -4,6 +4,10 @@
 :END:
 #+title: Python dictionaries
 * [[id:c5146fa1-d833-4018-9b5b-4506044a3a09][Python's 'dict' is a hash table.]]
+* get key for minimum value in dictionary
+>>> d = {320: 1, 321: 0, 322: 3}
+>>> min(d, key=d.get)
+321
 * convert dict to list
   Pattern match on dict . items():
   [ (k, v)

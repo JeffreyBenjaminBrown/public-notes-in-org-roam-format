@@ -3,6 +3,7 @@
 :END:
 #+title: big programs in Emacs, managing
 * [[id:8ab91ced-7ba8-430d-a7dd-809b5395b2e0][PITFALLs in programming Emacs]]
+* u, [[id:572d6341-4aa9-4d8e-9a28-11d8fc527f25][notes on Emacs for Hode]]
 * TODO my questions
 ** What is the event loop?
    When can I have Emacs respond to user input? Is there a callback I can call every time the user presses anything, and another to call every time a file changes?

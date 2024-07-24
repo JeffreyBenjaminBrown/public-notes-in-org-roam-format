@@ -2,6 +2,16 @@
 :ID:       cec794c0-a02f-467d-bda9-d1065ccfaa0d
 :END:
 #+title: reading command-line arguments to Python programs
+* one argument
+import sys
+
+# Why these don't work as a (_ if _ else _) expression,
+# I don't know.
+if len (sys.argv) >= 2:
+  # Before this one is listed the program name.
+  filename = sys.argv[1]
+else: filename = input ()
+* any number of arguments
 import sys
 
 if True:

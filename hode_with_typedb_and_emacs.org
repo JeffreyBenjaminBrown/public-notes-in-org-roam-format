@@ -3,6 +3,7 @@
 :ROAM_ALIASES: Hode3
 :END:
 #+title: Hode in TypeDB and Emacs (plans)
+* [[id:572d6341-4aa9-4d8e-9a28-11d8fc527f25][notes on Emacs for Hode]]
 * TODO alternatives for first
 ** try the Python interface
 ** Emacs draw invisible coordinate characters, track cursor in them.

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       139d0b93-df67-4139-96dd-ed82a2a4a1da
+:END:
+#+title: what David Sinclair would have me monitor
+glucose
+pulse/heart
+inflamation (CRP molecule - c-reactive protein)
+cortisol
+lactate
+blood oxygen

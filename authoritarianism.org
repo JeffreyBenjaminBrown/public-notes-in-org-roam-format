@@ -1,6 +1,5 @@
 :PROPERTIES:
-:ID:       20ebcfbb-fd3b-4ef2-9689-761d65cfb558
+:ID:       7af66981-1b1f-4861-81f1-5d9f0cbcb00f
 :END:
-#+title: China
-* [[id:4b2e2d65-e997-4757-a334-2e9ac112f4ab][environmental degradation in 20th-century China]]
+#+title: authoritarianism
 * [[id:3b8f34a8-4b25-474c-b2a6-47c7edf619aa][HickVision, security camera manufacturer in China, explicitly advertises a Uyghur detection function.]]
