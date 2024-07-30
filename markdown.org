@@ -8,3 +8,11 @@
 * [[id:92ad6660-1efc-4ba8-b1d1-edddc2b54455][anchor, to create one in Github-flavored markdown]]
 * linking to another local file in Github markdown
   En [otro documento](./algoritmo.md) describo el algoritmo.
+* lists
+** labeled or not
+*** without labels
+    use *, - or +
+*** with labels
+    use "1. " (the space matters)
+** indentation matters
+   In either case (labeled or not).

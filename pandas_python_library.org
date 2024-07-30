@@ -20,3 +20,6 @@
 ** [[id:fa229129-ee84-4947-9abf-e8d117645f94][mapping in Pandas]]
    tags apply functor
 ** [[id:6c86235c-5b2e-44b2-a481-452886a2b623][selection, subsetting, and conditioning in Pandas]]
+** index of maximum|minimum value in series
+   df["column name"] . idxmax ()
+   notice the "x" in "idxmax"

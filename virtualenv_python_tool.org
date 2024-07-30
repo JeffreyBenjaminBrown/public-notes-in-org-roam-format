@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       b8890c90-7e53-4482-8b3f-1399a28fe92a
-:ROAM_ALIASES: venv
+:ROAM_ALIASES: venv virtualenv
 :END:
 #+title: virtualenv (Python tool)
 * to set up a virtualenv

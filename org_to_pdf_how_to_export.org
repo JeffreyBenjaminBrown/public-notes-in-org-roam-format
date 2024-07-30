@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       82f83486-bbc2-41d8-bcf8-8203059cffcd
+:END:
+#+title: org to pdf, how to export
+serial
+* first export to markdown from emacs:
+  alternatives
+** TODO - org-export-as-markdown
+*** why
+    Creates a buffer with the markdown content.
+    Handy because I'm likely to want to edit it to delete the TOC.
+*** process
+**** Run that.
+**** Fix underscores.
+     In the buffer, delete every </sub>, and replace every <sub> with _.
+** NAH - org-export-to-markdown
+   creates a file with a different extension
+* then see [[id:e17c1d58-9843-4d9e-a2a8-49dda972c6aa][markdown to pdf, how to convert]]

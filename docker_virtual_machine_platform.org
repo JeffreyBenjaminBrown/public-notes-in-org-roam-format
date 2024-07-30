@@ -9,9 +9,22 @@
 ** to run the script at /path/to/script
    docker exec -it tax.co.web bash /path/to/script
    Will be run from the container's default folder.
+* pitfalls
+** The `source` command is not available by default.
+   :PROPERTIES:
+   :ID:       34ea75fa-7f37-426c-87af-cfcf5fbfe5aa
+   :END:
+   But it can be made available by changing the shell:
+
+   SHELL ["/bin/bash", "-c"] # `source` below fails without this.
+   RUN python3 -m venv /root/.venv              && \
+       source          /root/.venv/bin/activate && \
+       pip3 install -r /root/requirements-for-pip.txt
 * solutions
 ** running [[id:7cf89cef-158c-4893-8654-71b1bfb5201d][TypeDB in Docker]]
 ** [[id:bd7363b0-401a-498e-9fe3-5d291c955cb3][if keyboard input* misbehaves in `conda python3` in Docker]]
    * e.g. command history (up), paste, backspace
 ** to execute a script in a running Docker container
    use [[id:e0b24368-4470-412b-b8f4-f5767d93c76a][docker exec]]
+** if pip install does not work
+   it might be because [[id:34ea75fa-7f37-426c-87af-cfcf5fbfe5aa][`source` is not available by default]]

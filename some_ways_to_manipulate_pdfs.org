@@ -10,6 +10,7 @@
    Tools (M-t) -> Image (i Enter)
    Then click where I want the top left corner,
      and drag the bottom right one.
+* [[id:82f83486-bbc2-41d8-bcf8-8203059cffcd][org to pdf, how to export]]
 * text or [[id:e17c1d58-9843-4d9e-a2a8-49dda972c6aa][markdown to pdf, how to convert]]
 * to extract tables from PDFs
 ** [[id:6f854ffc-8eb8-4ac8-823c-fd8b61f90562][Tabula (software to extract tables from PDFs)]]

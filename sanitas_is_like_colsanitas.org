@@ -4,3 +4,6 @@
 #+title: Sanitas is like Colsanitas.
 Sanitas is the EPS corresponding to the Colsanitas prepagada.
 * [[id:2ce8cc5f-bd86-4403-bbcf-bc7ee77c0067][how to use Sanitas instead of Colsanitas]]
+* numbers & whatsapp
+  Sanitas (human): 601 375 9000
+  Sanitas Ana Maria (bot): 320 255 0525
