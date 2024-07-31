@@ -3,6 +3,8 @@
 :END:
 #+title: Haskell
 * u
+** ghciwatch reloads modified files
+   https://mercury.com/blog/announcing-ghciwatch
 ** Simulated IO for Haskell
    https://engineering.iog.io/2023-04-14-io-sim-annoucement/
 ** https://nicolast.github.io/development/testing-concurrent-code-using-dejafu/

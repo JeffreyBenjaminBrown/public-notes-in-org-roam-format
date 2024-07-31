@@ -12,7 +12,12 @@ serial
 *** process
 **** Run that.
 **** Fix underscores.
-     In the buffer, delete every </sub>, and replace every <sub> with _.
+     alternatives
+***** fast: sed
+sed -i "s/<\/sub>//g" el_trabajo_que_entrego_dian.md
+sed -i "s/<sub>/_/g"  el_trabajo_que_entrego_dian.md
+***** slow: interactive
+      In the buffer, delete every </sub>, and replace every <sub> with _.
 ** NAH - org-export-to-markdown
    creates a file with a different extension
 * then see [[id:e17c1d58-9843-4d9e-a2a8-49dda972c6aa][markdown to pdf, how to convert]]
