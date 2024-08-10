@@ -13,6 +13,4 @@
     insert-line-after-point,
     increment-line-at-point.
   Each line begins as the int 0.
-* TODO Where will point go?
-  If the document is rewritten,
-  will point revert to the start of it?
+* TODO Where will point go when Python rewrites the doc?

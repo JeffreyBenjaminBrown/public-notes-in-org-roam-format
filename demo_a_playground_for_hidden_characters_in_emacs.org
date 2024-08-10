@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       40b1ac24-e73c-4299-84bf-9c925d93517e
+:END:
+#+title: demo : a playground for hidden characters in Emacs
+* How to use this
+  Copy the document into an empty doc for easy numbers,
+  such that 1 is the first character of that doc.
+  Each digit in that text represents the last of its position --
+  for instance the 0 is at position 10.
+  Try evaluating each of the commands below, individually,
+  in various orders, futzing with the numbers.
+* The document
+123
+5678
+0
+123
+
+(put-text-property 6 8 'invisible 'hode-id)
+(put-text-property 6 8 'invisible nil)
+(next-single-property-change 7 'invisible)
+(previous-single-property-change 7 'invisible)

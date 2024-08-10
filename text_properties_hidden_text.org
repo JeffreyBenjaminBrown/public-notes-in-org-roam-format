@@ -20,18 +20,43 @@
    :ID:       1df09291-386b-4cf9-bf4d-68768d2b31a2
    :END:
    https://www.gnu.org/software/emacs/manual/html_node/elisp/Property-Search.html
-* some functions
-  docs: [[id:f73009cb-b872-49a3-a397-1b109a613bcc][examining text properties]]
-** get-text-property
-    Gets the property at a character.
-** text-properties-at
-   the entire property list of the character
+* [[id:40b1ac24-e73c-4299-84bf-9c925d93517e][demo : hidden character playground in Emacs]]
+* assignment
+  docs: [[id:4e5aa8bf-566b-4f85-b561-cf0304c816ae][changing text properties]]
+** put-text-property start end prop value
+   Clobbers any earlier value under prop.
+** add-text-properties start end props
+   Clobbers any earlier values under those props, but not others.
+** remove-text-properties start end props
+   PITFALL: The props argument is weird. See docs.
+** remove-list-of-text-properties start end list-of-properties
+** set-text-properties start end props
+   completely replaces the property list
+** propertize string &rest properties
+   returns a copy of string
+   with the text properties properties added.
+* examining properties
+** PITfALL: refs are mixed up
+   Some things that ought to be in "examining" are in "search'.
+   [[id:f73009cb-b872-49a3-a397-1b109a613bcc][examining text properties]]
+   [[id:1df09291-386b-4cf9-bf4d-68768d2b31a2][search based on text properties]]
+** examine a character
+*** look at a character
+*** get-text-property
+     Gets the property at a character.
+*** text-properties-at
+    the entire property list of the character
+** test a range of text
+   these are in the wrong place: [[id:1df09291-386b-4cf9-bf4d-68768d2b31a2][search based on text properties]]
+*** text-property-any start end prop value
+    returns non-nil if at least one character between start and end has a property prop whose value is value
+*** text-property-not-all start end prop value
+    returns non-nil if at least one character between start and end does not have a property prop with value value
 ** default-text-properties
 ** object-intervals
    I don't understand but maybe useful.
    https://www.gnu.org/software/emacs/manual/html_node/elisp/Examining-Properties.html
-* search
-  docs: [[id:1df09291-386b-4cf9-bf4d-68768d2b31a2][search based on text properties]]
+* searching for properties
 ** "These functions do not move point"
    "instead, they return a position" ... "between two characters with different properties"
 ** search for *any* kind of change
@@ -47,22 +72,3 @@
     Search for the next region of text whose property prop is a match for value (which defaults to nil), according to predicate.
 *** text-property-search-backward
     similar to -forward
-** test a range of text
-*** text-property-any start end prop value
-    returns non-nil if at least one character between start and end has a property prop whose value is value
-*** text-property-not-all start end prop value
-    returns non-nil if at least one character between start and end does not have a property prop with value value
-* assignment
-  docs: [[id:4e5aa8bf-566b-4f85-b561-cf0304c816ae][changing text properties]]
-** put-text-property start end prop value
-   Clobbers any earlier value under prop.
-** add-text-properties start end props
-   Clobbers any earlier values under those props, but not others.
-** remove-text-properties start end props
-   PITFALL: The props argument is weird. See docs.
-** remove-list-of-text-properties start end list-of-properties
-** set-text-properties start end props
-   completely replaces the property list
-** propertize string &rest properties
-   returns a copy of string
-   with the text properties properties added.
