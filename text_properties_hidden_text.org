@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       493cafdc-71f1-4205-81ba-1f2e9b911f0c
+:END:
+#+title: text properties & hidden text
+* TODO [[id:5aada471-bf64-4e6e-911d-292c4a7eb77c][try invisible characters \ Hode]]
+* refs
+** examining text properties
+   https://www.gnu.org/software/emacs/manual/html_node/elisp/Examining-Properties.html
+** changing text properties
+   https://www.gnu.org/software/emacs/manual/html_node/elisp/Changing-Properties.html
+** search based on text properties
+   https://www.gnu.org/software/emacs/manual/html_node/elisp/Property-Search.html
+* some functions
+** get-text-property
+    Gets the property at a character.
+** text-properties-at
+   the entire property list of the character
+** default-text-properties
+** object-intervals
+   I don't understand but maybe useful.
+   https://www.gnu.org/software/emacs/manual/html_node/elisp/Examining-Properties.html
+* search
+** "These functions do not move point"
+   "instead, they return a position" ... "between two characters with different properties"
+** next-property-change pos
+   scans the text forward from position pos in the string or buffer object until it finds a change in *any* text property
+   "returns the position of the first character beyond pos whose properties are not identical to ..."

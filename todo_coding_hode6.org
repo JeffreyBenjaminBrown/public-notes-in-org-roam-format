@@ -3,63 +3,7 @@
 :ROAM_ALIASES: "Hode6 coding, TODO"
 :END:
 #+title: TODO coding Hode6
-* try invisible characters
-** plan
-   Python keeps a list of (id, int) pairs,
-   which represent the document.
-   It writes to a file, where the id is invisible,
-   at the start of each line.
-   Emacs reads the file, displays it accordingly.
-   I write three Emacs functions:
-     delete-line-at-point,
-     insert-line-after-point,
-     increment-line-at-point.
-   Each line begins as the int 0.
-** TODO Where will point go?
-   If the document is rewritten,
-   will point revert to the start of it?
-* try Python and TypeDB
-  Don't bother trying to integrate Emacs initially;
-  just do these things from Python.
-*** Create an "expression" type.
-    Has at least an ID and text.
-*** Create a "child of" relationship template.
-*** Create a simple tree of expressions.
-    As simple as this 7-node tree,
-    where prefixes are parents:
-    A AA AB AAA AAB ABA ABB
-*** Query for the children of some node in the tree.
-    Should be a middle node.
-*** Query for the kinds of relationships.
-*** Save graph. Restore from new Docker container.
-*** Delete an expression.
-*** Create a new type in an existing graph.
-*** Create a new kind of relationship in an existing graph.
-* TODO ? persistent data insanity
-** It can wait.
-   The way it is is strange,
-   but I'm not sure I'll ever need to change it.
-** the problem
-*** there are two `typedb-all-linux-x86_64/` folders on my system
-*** this one has no data in server/data/, which is what I expected
-    /var/lib/docker/overlay2/64b314c449c5dbe3461d2f898ba73aa783949c3b4d36c950ffefdca2c28dfd77/diff/opt/typedb-all-linux-x86_64/server/data
-*** but this one silently mounts and persists data!
-    /var/lib/docker/volumes/typedb-data/_data/typedb-all-linux-x86_64/server/data
-** TODO try movig /opt/typedb*
-   See if moving /opt/typedb* to another folder
-   prevents it from persisting data.
-* BLOCKED bifurcate hode-start
-**** BLOCKED because this is only really needed if
-** DONE test function arguments in Elisp
-(defun metafunc (func)
-  (funcall func 1))
-
-( message ( number-to-string
-            ( metafunc ( lambda (arg)
-                         ( + 1 arg)))))
-** write a `hode-start` with a program argument
-   For stuff do run after starting the container,
-   before starting TypeDB.
-** `hode-start-fresh` = (hode-start nil)
-** `hode-restart` = (hode-start (load saved data on host))
-** `hode-write-db-to-host`
+* [[id:5aada471-bf64-4e6e-911d-292c4a7eb77c][try invisible characters \ Hode]]
+* [[id:215bd079-8522-4489-aa19-9aa9efdc4fec][try Python and TypeDB \ Hode]]
+* TODO ? [[id:2e092160-cb83-4bce-8ffb-cc2264270c0b][persistent Docker data insanity \ Hode]]
+* BLOCKED [[id:3e0477c2-7b4d-45d9-90ff-ad1ea2231773][bifurcate hode-start to start from scratch or not]]

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       3e0477c2-7b4d-45d9-90ff-ad1ea2231773
+:END:
+#+title: bifurcate hode-start to start from scratch or not
+**** BLOCKED because this is only really needed if I solve the  [[id:2e092160-cb83-4bce-8ffb-cc2264270c0b][persistent Docker data insanity]] problem
+     which I might not need to do
+* write a `hode-start` with a program argument
+  For stuff do run after starting the container,
+  before starting TypeDB.
+* `hode-start-fresh` = (hode-start nil)
+* `hode-restart` = (hode-start (load saved data on host))
+* `hode-write-db-to-host`
+* DONE test [[id:ed824eee-35cd-4310-9a1c-311ef1f0dc7e][higher-order functions in Emacs Lisp]]

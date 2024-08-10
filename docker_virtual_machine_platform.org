@@ -2,6 +2,7 @@
 :ID:       1b73c5f1-5708-4875-9b85-b2eea26187e0
 :END:
 #+title: Docker (virtual machine platform)
+* TODO what the heck ? [[id:2e092160-cb83-4bce-8ffb-cc2264270c0b][persistent Docker data insanity \ Hode]]
 * docker exec
   :PROPERTIES:
   :ID:       e0b24368-4470-412b-b8f4-f5767d93c76a

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ed824eee-35cd-4310-9a1c-311ef1f0dc7e
+:END:
+#+title: higher-order functions in Emacs Lisp
+(defun apply-to-one (func)
+  (funcall func 1))
+
+( message ( number-to-string
+            ( apply-to-one ( lambda (arg)
+                             ( + 1 arg ) ) ) ) )

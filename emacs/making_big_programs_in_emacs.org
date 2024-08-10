@@ -34,6 +34,7 @@
 ** Appendix D: Tips and conventions
 ** Appendix G: Standard keymaps
 ** Appendix H: Standard hooks
+* [[id:493cafdc-71f1-4205-81ba-1f2e9b911f0c][text properties & hidden text]]
 * [[id:716a8b8c-28b0-4cb4-83f2-b784b00ff8cc][Evaluation in Emacs]]
 * [[id:91deff58-ad2e-4e16-878a-b59836c027f4][overlays]]
 * [[id:47586438-b964-4841-967f-539f91937926][circular lists]]
@@ -65,10 +66,4 @@
 ** C-x p g : match a regexp in all files of this project
 ** C-x p r : query-replace a regexp in all files of this project
 ** C-x p d : dired to the project's root
-* higher-order functions
-(defun apply-to-one (func)
-  (funcall func 1))
-
-( message ( number-to-string
-            ( apply-to-one ( lambda (arg)
-                             ( + 1 arg ) ) ) ) )
+* [[id:ed824eee-35cd-4310-9a1c-311ef1f0dc7e][higher-order functions in Emacs Lisp]]
