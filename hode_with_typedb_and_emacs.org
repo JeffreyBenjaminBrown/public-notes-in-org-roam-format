@@ -1,20 +1,10 @@
 :PROPERTIES:
 :ID:       5346e42f-5cf6-4af9-8efa-564cd350e104
-:ROAM_ALIASES: Hode3
+:ROAM_ALIASES: Hode6
 :END:
 #+title: Hode in TypeDB and Emacs (plans)
+* [[id:d3d6e611-2c5c-4779-8417-70e2b58519c1][TODO coding Hode6]]
 * [[id:572d6341-4aa9-4d8e-9a28-11d8fc527f25][notes on Emacs for Hode]]
-* TODO alternatives for first
-** try the Python interface
-** Emacs draw invisible coordinate characters, track cursor in them.
-** Emacs send commands to Python to change a file.
-** DONE Get name of file visited by buffer.
-   (buffer-file-name)
-** DONE Sidestepped via Docker : Package TypeDB for NixOS.
-** DONE Automatic! Redraw buffer to reflect changes to file.
-   And fast!
-** DONE Store app state in a buffer-local variable.
-   Search for "buffer-local variable" in `io_tests.el`.
 * u
 ** It would be useful if authors could say of each other's statements things like this made me laugh, this surprised me, this I agree with.
 *** Also this needs evidence, or a conclusion, or suggestions for further reading. I don't know whether those should be private or public.
@@ -100,10 +90,6 @@
 **** graphtheory : version 1.0.3, not packaged
      but see [[id:a0cdc132-2328-4cea-8779-434e1830c1d7][altgraph]]
      https://pypi.org/project/graphtheory/
-* good ideas
-** Run Docker *in* Emacs!
-*** In a separate buffer.
-*** Send commands to it via my mark-rec-buf command.
 * IO
 ** run a TypeDB script in Docker, outputting to a text file
 ** Associate regions of Emacs buffer to TypeDB objects.

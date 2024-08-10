@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       80be0156-3e35-499e-a14b-9aa5803e715f
+:ROAM_ALIASES: "Emacs Lisp" ELisp elisp
 :END:
 #+title: big programs in Emacs, managing
 * [[id:8ab91ced-7ba8-430d-a7dd-809b5395b2e0][PITFALLs in programming Emacs]]
@@ -64,3 +65,10 @@
 ** C-x p g : match a regexp in all files of this project
 ** C-x p r : query-replace a regexp in all files of this project
 ** C-x p d : dired to the project's root
+* higher-order functions
+(defun apply-to-one (func)
+  (funcall func 1))
+
+( message ( number-to-string
+            ( apply-to-one ( lambda (arg)
+                             ( + 1 arg ) ) ) ) )

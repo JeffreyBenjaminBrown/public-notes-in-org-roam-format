@@ -14,8 +14,14 @@ serial
 **** Fix underscores.
      alternatives
 ***** fast: sed
+****** a dumb way
 sed -i "s/<\/sub>//g" el_trabajo_que_entrego_dian.md
 sed -i "s/<sub>/_/g"  el_trabajo_que_entrego_dian.md
+****** TODO a smarter way, incomplete
+       See [[id:60aea897-9405-4de9-8f1d-273458113f7b][sed only in lines containing pattern]]
+       So in my case it would be
+         sed -i "/^\*\** / s/<\/sub>//g" filename.md
+         sed -i "/^\*\** / s/<sub>/_/g"  filename.md
 ***** slow: interactive
       In the buffer, delete every </sub>, and replace every <sub> with _.
 ** NAH - org-export-to-markdown

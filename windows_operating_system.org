@@ -11,13 +11,23 @@
   :ID:       fbc5cb10-6368-4768-9c30-57be49a7e2d2
   :END:
 ** Prevent Edge tabs appearing individually when pressing Alt-Tab
-   I googled
-     why does alt tab in windows show every Edge tab
-   and found, among much else,
-     https://www.howtogeek.com/696775/how-to-stop-alttab-from-showing-edge-browser-tabs/
+*** source
+    I googled
+      why does alt tab in windows show every Edge tab
+    and found, among much else,
+      https://www.howtogeek.com/696775/how-to-stop-alttab-from-showing-edge-browser-tabs/
+*** recipe
+    Windows Settings
+    System -> Multitasking
+    Scroll to "Pressing Alt-Tab shows" and click
+    Select "Open Windows Only"
 ** Disable Cortana
    It's one of the startup apps,
    and can be disabled from that list.
+** Reverse scroll direction
+   Settings -> Touchpad -> Scroll & Zoom
+** Disable "S-Mode" to be able to install things
+   requires browsing; complicated
 * solutions
 ** [[id:fbc5cb10-6368-4768-9c30-57be49a7e2d2][Windows config | making Windows suck less]]
 ** to invert colors in Windows

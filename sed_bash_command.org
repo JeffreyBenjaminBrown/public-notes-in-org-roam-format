@@ -4,3 +4,4 @@
 :END:
 #+title: sed (Bash command)
 * [[id:6ef17c81-f130-45c7-b84b-331d36c669e2][find-sed]]
+* [[id:60aea897-9405-4de9-8f1d-273458113f7b][sed only in lines containing pattern]]

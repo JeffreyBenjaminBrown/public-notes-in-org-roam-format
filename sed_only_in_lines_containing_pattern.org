@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       60aea897-9405-4de9-8f1d-273458113f7b
+:END:
+#+title: sed only in lines containing pattern
+sed -i "/PATTERN/ s/before/after/g" filename.md
+* source
+  https://askubuntu.com/questions/1378870/apply-sed-operations-only-to-lines-beginning-with-a-particular-string

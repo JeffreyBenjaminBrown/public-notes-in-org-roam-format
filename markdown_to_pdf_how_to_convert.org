@@ -5,4 +5,4 @@
 * this worked <2024-06-26 Wed>
   pandoc --pdf-engine=pdfroff --output=README.pdf README.md
 * this may have worked in the past
-  pandoc input.md -o output.pdf
+  pandoc input.md -o output.pdf --pdf-engine=pdfroff

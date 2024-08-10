@@ -2,6 +2,9 @@
 :ID:       8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd
 :END:
 #+title: TypeDB model and language
+* refs
+** [[id:e86f5069-c318-4935-97ae-538da6d431bf][the full TypeQL grammar]]
+** [[id:b3f2aede-5b0c-492c-b55c-e876bc257ffc][a scheme definition example for all three kinds of Thing]]
 * weird vocabulary
 ** A "Query" is any command.
 ** [[id:7eb2ffaa-c82f-4717-b6a4-7095ad5a1e00][The "get" clause in a Get is optional, but "match" is mandatory.]]
@@ -13,7 +16,8 @@
    :PROPERTIES:
    :ID:       e86f5069-c318-4935-97ae-538da6d431bf
    :END:
-   https://typedb.com/docs/typeql/2.x/grammar
+*** MAYBE https://typedb.com/docs/typeql/keywords
+    THe original page is gone, but maybe this is its replacement.
 * the type system
 ** atomic datatypes, not part of the schema
    :PROPERTIES:
@@ -33,7 +37,7 @@
     But I (jbb) find it useful for talking about entities, relationships and attributes all at once. When I do I will capitalize the word Thing.
 ** A type is a set of constraints.
 ** identity
-*** Its type and members are not enough to uniquely ID a relation.
+*** To uniquely ID a relation., its type and members are not enough.
     Its attributes are also needed.
     "An instance of a relation can be uniquely addressed by a combination of its type, owned attributes, and role players."
 *** "An instance of an attribute type can be uniquely addressed by its type and value."
@@ -42,9 +46,11 @@
      there can only be one name equal to Bob,
      but different people can share it.
 ** Things* are said to "own" attributes.
-*** PITFALL: ownership is defined uses the word "has".
+*** Ownership is defined using keywords "has" and "owns".
+    "has" in an object definition,
+    "owns" in a type definition.
 ** Every attribute type has a value type.
-*** chosen, I guess, from the [[id:a825e88d-3815-4400-923d-a579de478811][atomic datatypes]]
+*** Chosen, I guess, from the [[id:a825e88d-3815-4400-923d-a579de478811][atomic datatypes]].
 *** TODO Can a user define their own types?
     :PROPERTIES:
     :ID:       74db29a4-a21e-467c-8aa4-3cb62e393f41
@@ -53,30 +59,40 @@
 ** DEPRECATED: Attributes can have attributes.
    This possibility will disappear.
 * DBs, instances (= servers?), clients and connections
-** A DB is a (data, schema) pair.
+** A DB is a (schema, data) pair.
 ** A TypeDB instance can contain multiple DBs.
 ** PITFALL: connection limitatinos
 *** schema integrity enforcement
-    Only one Schema session can be opened.
-    Only one Write transaction in a Schema session can be opened.
-    Opening a Schema session prevents any Data Write transactions.
-    Any Write transaction opened in a Data session prevents us from opening a Schema session.
-*** Schema sessions can't write data. Data sessions can't write schema.
+    Only one Schema session can be open.
+    Only one Write transaction in a Schema session can be open.
+    An open Schema session precludes
+    opening a Data Write transaction, and vice-versa.
+*** Schema sessions can't write data, and Data sessions can't write schemas.
     But in either, all of the other three options are available.
-*** Time limits
+*** time limits
 **** session timeout
      Servers that don't hear from the client for long enough (the timeout period, I think they called it) close automatically. Clients automatically, periodically ping the server in the background.
 **** transaction time limit
      Transactions are limited to, by default, 5 minutes. This is to prevent things like memory overruns.
 ** TypeDB sessions are ACID-guaranteed "up to snapshot isolation".
    snapshot isolation:
-     https://typedb.com/docs/typedb/2.x/development/connect#_isolation
-* defining the schema (types and rules)
+   https://typedb.com/docs/home/acid#_isolation
+* types and rules : defining schema
 ** "define" keyword
    is for changing the schema
 ** defining types
+*** Types can be extended.
+    :PROPERTIES:
+    :ID:       5a099383-736c-47a3-927b-11390ff0dd9e
+    :END:
+    Aspects of types can be defined,
+    without redefining the whole type.
+**** [[id:149fcd59-17f1-4b4d-9f3b-18f8cb66e406][see my question about their docs' stated syntax]]
+**** example
+     # Here `item` already exists.
+     define item owns size;
 *** Multiple "define" statements can be in a single "define" query.
-*** definiy any type - syntax always applicable
+*** define any type - syntax always applicable
     define
 
     <label> sub <parent type label>
@@ -84,20 +100,24 @@
 	[(, owns <attribute type label> [@annotation])...]
 	[(, plays <relation type label>:<role>)...];
 *** definining relationship types
-**** scheme
+**** the unique part
+     The "relates" clause overrides an otherwise inherited role.
+**** grammar, mostly the same as for any type
      <label> sub (<relation type label>)
 	[(, abstract)]
 	[(, owns <attribute type label> [@annotation])...]
 	(, relates <role label>) [(, relates <role label>)...] # UNIQUE
 	[(, plays <relation type label>:<role>)...];
-**** the unique part
-     The "relates" clauses overrides an otherwise inherited role.
 **** example
+     :PROPERTIES:
+     :ID:       443636d0-3091-43ce-8323-bfbeabbca6fe
+     :END:
      define
 
+     # This paragraph: the part unique to relations.
      group-membership sub relation,
-       relates user-group,   # UNIQUE
-       relates group-member; # UNIQUE
+       relates user-group,
+       relates group-member;
 
      user-group sub entity
        plays group-membership:user-group;
@@ -105,7 +125,8 @@
      subject sub entity,
        plays group-membership:group-member;
      user sub subject;
-**** note: Relationship definitions do not specify what types can be members.
+**** PITFALL: Relationship definitions do not specify what types can be members.
+     That's defined in statments that define entities.
 *** special syntax for attributes
 **** scheme
      <label> sub (<abstract attribute type label>)
@@ -122,11 +143,14 @@
        owns name;
 **** the unique parts
 ***** "value <value type>" is mandatory.
-***** TODO [, regex "<regex-expression>"]
+***** TODO ? Meaning of [, regex "<regex-expression>"] in grammar
       :PROPERTIES:
       :ID:       fd190477-3cd2-4d53-b9fd-b4b31047bdd4
       :END:
 *** an example defining all three kinds of Thing
+    :PROPERTIES:
+    :ID:       b3f2aede-5b0c-492c-b55c-e876bc257ffc
+    :END:
     define
 
     object           sub entity;
@@ -141,15 +165,6 @@
 
     object-ownership sub relation,
        relates object;
-*** Aspects of types can be defined without defining the whole type.
-    :PROPERTIES:
-    :ID:       5a099383-736c-47a3-927b-11390ff0dd9e
-    :END:
-**** [[id:149fcd59-17f1-4b4d-9f3b-18f8cb66e406][see my question about their docs' stated syntax]]
-**** example
-     define
-
-     item owns size;
 ** undefining types
 *** scheme
     undefine
@@ -209,6 +224,12 @@
    rule <rule-label>;
 ** Modify a rule by simply redefining it.
    That overwrites the earlier rule upon commit.
+** TODO Do rules change the data?
+   :PROPERTIES:
+   :ID:       20855a07-2d9c-4e23-9549-39375709c188
+   :END:
+   That is, do they record their results on extant data once,
+   or do they run every time a relevant query is made?
 * to "Get" data
 ** PITFALL: In old docs "get"s are sometimes called "match"es.
    :PROPERTIES:

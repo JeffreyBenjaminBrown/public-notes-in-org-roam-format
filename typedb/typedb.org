@@ -31,9 +31,21 @@
    https://typedb.com/docs/manual/console
 * PITFALLs
 ** Docs use "query" to mean more than read ops.
+** "fetch" and "get" do different things!
+   I don't understand the difference, but here are examples:
+
+     tx.query.get (
+       "match $n isa note; get $n;" )
+     tx.query.fetch (
+       "match $p isa person; fetch $p: name;")
 * [[id:f027e52d-db16-4f2b-9b71-d904901a38a2][running it]] | getting started
 * [[id:8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd][model and language]]
 * [[id:52393e43-d36a-4d8d-9cc4-f2f379e09eff][Python client]]
+* solutions
+** to get the whole graph
+match
+  $x isa $t;
+get $x;
 * TODO experiments to run
 ** DONE Roles are inherited.
    That is, I don't have to define that a type can play a role,
@@ -59,6 +71,7 @@
 *** within-entity attribute uniqueness
 *** within-type relationship uniqueness defined by members
     rather than members *and* attributes
+** [[id:20855a07-2d9c-4e23-9549-39375709c188][Do rules change the data?]]
 ** DONE meh
 *** [[id:74db29a4-a21e-467c-8aa4-3cb62e393f41][Can a user define their own types?]]
 * TODO report errors and maybe-errors in docs
