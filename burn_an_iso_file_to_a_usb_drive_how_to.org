@@ -2,17 +2,12 @@
 :ID:       7a132233-bf78-4b3a-b191-0d79915612c7
 :END:
 #+title: burn an .iso file to a USB drive, how to
-* how
-  Use lsblk to determine which drive it is.
-  Make sure it's not mounted.
-  Don't write to a partition (e.g. sdb1);
-    rather, write to the drive completely (sdb).
-  Then:
-    # PITFALL: This won't work, because sdxxx does not exist.
-    # Put something sensible there (see above).
-    sudo dd if=/path/to/the.iso of=/dev/sdxxx bs=1M
-  Example:
-    sudo dd \
-      if=/home/jeff/excluded-from-borg/xubuntu-24.04-desktop-amd64.iso \
-      of=/dev/sda \
-      bs=1M
+serial
+* Use lsblk to determine which drive it is.
+* Make sure it's not mounted.
+* Be sure not to write to a partition (e.g. sdb1).
+  Rather, write to the drive completely (sdb).
+* Write it.
+  sudo dd if=/path/to/the.iso of=/dev/sdxxx bs=1M
+** PITFALL: `sdxxx` doesn't exist. That's intentional.
+   Change `sdxxx` to something sensible like `sda`.

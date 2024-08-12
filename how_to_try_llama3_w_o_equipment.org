@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       c2a00707-b8a2-4a27-99a6-8459979aa6de
+:END:
+#+title: how to try Llama3 w/o equipment
+* via Daniel Duque
+* how
+import transformers
+import torch
+
+model_id = "meta-llama/Meta-Llama-3-8B"
+
+pipeline = transformers.pipeline(
+pipeline("Hey how are you doing today?")
+Este es el ejemplo del pipeline
+https://huggingface.co/meta-llama/Meta-Llama-3-8B
+La página por si quieres ver el modelo y aja

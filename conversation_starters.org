@@ -4,6 +4,20 @@
 #+title: conversation techniques
 * refs
   https://www.wsj.com/articles/have-better-conversations-with-friendsor-anyone-11658845993?mod=djem10point
+* Efficient conversation has goals.
+** what I want to know about people
+*** what do they care about
+*** what can they do
+**** what do they know
+*** who do they know
+** what I want people to know about me
+*** What I offer them.
+**** What I've done.
+**** Who I know.
+*** What I care about.
+*** They like hearing me talk.
+**** Be funny.
+**** Be interesting *to them*.
 * some principles
 ** [[id:36d50f77-24a6-4882-8092-3c7895a01626][Shared complaints are a conversational black hole.]]
 ** [[id:2a435ecf-ddb5-4822-b52f-0667a02ac52c][Doorknobs -- good conversation has lots of.]]

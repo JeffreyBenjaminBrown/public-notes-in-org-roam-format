@@ -2,6 +2,8 @@
 :ID:       385a4f63-eaf8-4fe1-b576-0666ea50dde3
 :END:
 #+title: when to pause
+* When tempted to ignore pain,
+  stop to consider the stakes.
 * When I'm not sure my priorities are straight, consider meditating (on it).
   examples
 ** when I have witnessed injustice and am tempted to ignore it and get on with my own work

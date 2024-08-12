@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "machine learning" ML AI
 :END:
 #+title: artificial intelligence
+* [[id:c2a00707-b8a2-4a27-99a6-8459979aa6de][how to try Llama3 w/o equipment]]
 * machine learning, notes from Google's crash course
 ** L2 loss = squared loss = squared error
 ** MSE = average of squared loss

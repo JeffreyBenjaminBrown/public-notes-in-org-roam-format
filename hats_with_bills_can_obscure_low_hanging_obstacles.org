@@ -2,3 +2,4 @@
 :ID:       599c1a2d-0b45-4969-a9d0-ab00b3584fce
 :END:
 #+title: Hats with bills can obscure low-hanging obstacles.
+* => Take them off indoors.

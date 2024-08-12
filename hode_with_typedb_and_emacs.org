@@ -4,6 +4,15 @@
 :END:
 #+title: Hode in TypeDB and Emacs (plans)
 * [[id:d3d6e611-2c5c-4779-8417-70e2b58519c1][TODO coding Hode6]]
+* sharing it
+** [[id:9ac529d9-c76d-44b9-b68c-2ab06a6c5e59][knowledge graphs & social]]
+** Daniel D wants it.
+** Brian may not have known what to do with it.
+** Argdown people would like Hode
+   https://argdown.org/syntax/#statement-titles
+** coders to ask about Hode
+   All the tech bosses.
+   Josh, Elliot.
 * [[id:572d6341-4aa9-4d8e-9a28-11d8fc527f25][notes on Emacs for Hode]]
 * u
 ** It would be useful if authors could say of each other's statements things like this made me laugh, this surprised me, this I agree with.
