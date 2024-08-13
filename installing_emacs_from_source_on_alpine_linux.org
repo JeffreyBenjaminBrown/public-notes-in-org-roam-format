@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       be39ef3b-ca29-4651-9399-0d522617999d
+:END:
+#+title: installing Emacs from source on Alpine Linux
+**** PITFALL: Not ncessary.
+     Someone said this had to be done from source.
+     It doesn't. If you enable the community repository
+     for Alpine packages, Emacs is available that way.
+** ref
+   https://ipv6.rs/tutorial/Alpine_Linux_Latest/GNU_Emacs/
+** PITFALL: Does not mention all the apk-installable requirements.
+   sudo apk add build-base texinfo ncurses-dev gnutls
+** TODO It's not recognizing that gnutls is installed.
+   Hack: run it like this:
+     ./configure --with-gnutls=ifavailable

@@ -4,6 +4,8 @@
 #+title: conversation techniques
 * refs
   https://www.wsj.com/articles/have-better-conversations-with-friendsor-anyone-11658845993?mod=djem10point
+** Increasing intimacy of questions -- 36 fast friends something.
+   https://ggia.berkeley.edu/practice/36_questions_for_increasing_closeness
 * Efficient conversation has goals.
 ** what I want to know about people
 *** what do they care about
@@ -19,6 +21,10 @@
 **** Be funny.
 **** Be interesting *to them*.
 * some principles
+** Prove that you are listening.
+   Ask good questions, make good comparisons,
+   simply repeat key points, etc.
+*** Ask a question, repeat their answer in my own words, ask if I got it right.
 ** [[id:36d50f77-24a6-4882-8092-3c7895a01626][Shared complaints are a conversational black hole.]]
 ** [[id:2a435ecf-ddb5-4822-b52f-0667a02ac52c][Doorknobs -- good conversation has lots of.]]
 ** open-ended questions

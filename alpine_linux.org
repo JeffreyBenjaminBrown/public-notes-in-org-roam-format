@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       1172b5a4-b919-4534-9030-595ca2151409
+:END:
+#+title: Alpine Linux
+* PITFALL: Don't update packages installed from source via apk!
+  I [[id:be39ef3b-ca29-4651-9399-0d522617999d][installed Emacs]] that way.
+* TODO Emacs packages aren't installing.
+  `org-roam` isn't even in the package list.
+* installing packages
+** how
+   serial
+*** su
+*** apk update
+*** apk add package-name
+** enable community packages
+   :PROPERTIES:
+   :ID:       29a3cd90-08ae-4750-84fb-98f46421a2c3
+   :END:
+   Edit
+     /etc/apk/repositories
+   and uncomment the line with the community repo.
+* initial set up
+  serial
+** [[id:29a3cd90-08ae-4750-84fb-98f46421a2c3][enable community packages]]
+** install some packages
+   apk add wpa_supplicant font-terminus encfs emacs sudo
+** make the font bigger
+   setfont /usr/share/consolefonts/ter-v32.psf.gz
+** TODO wifi
+*** I had to use wpa_supplicant, not iwd
+    https://wiki.alpinelinux.org/wiki/Wi-Fi
+    Supposedly iwd is better, but apk didn't find the package.
+* [[id:be39ef3b-ca29-4651-9399-0d522617999d][installing Emacs from source on Alpine Linnux]]
+* to mount a USB drive
+  serial
+** fdisk -l will list drives
+** find or make an appropriate folder to mount to
+** from *outside* the folder, run
+     mount /dev/sdXN target/
+   where X is probably a low letter,
+   N is probably a low integer,
+   and target/ is the folder to mount to.
