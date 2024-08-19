@@ -4,17 +4,18 @@
 #+title: try Python and TypeDB \ Hode
 Don't bother trying to integrate Emacs initially;
 just do these things from Python.
-* Create an "expression" type.
-  Has at least an ID and text.
-* Create a "child of" relationship template.
-* Create a simple tree of expressions.
-  As simple as this 7-node tree,
-  where prefixes are parents:
-  A AA AB AAA AAB ABA ABB
-* Query for the children of some node in the tree.
-  Should be a middle node.
-* Query for the kinds of relationships.
-* Save graph. Restore from new Docker container.
-* Delete an expression.
-* Create a new type in an existing graph.
-* Create a new kind of relationship in an existing graph.
+* to make
+** Create an "expression" type.
+   Has at least an ID and text.
+** Create a "child of" relationship template.
+** Create a simple tree of expressions.
+   As simple as this 7-node tree,
+   where prefixes are parents:
+   A AA AB AAA AAB ABA ABB
+** Query for the children of some node in the tree.
+   Should be a middle node.
+** Query for the kinds of relationships.
+** Save graph. Restore from new Docker container.
+** Delete an expression.
+** Create a new type in an existing graph.
+** Create a new kind of relationship in an existing graph.
