@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       266c6ad8-3694-4cb0-a85f-5388d36dcd7f
+:END:
+#+title: I coded a useful demo of hidden text in Emacs.
+git@github.com:JeffreyBenjaminBrown/hode6.git
+commit d3642162abf6e4567808b3d743856c8b11180f03
+src/demo/invis/

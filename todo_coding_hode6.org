@@ -3,7 +3,7 @@
 :ROAM_ALIASES: "Hode6 coding, TODO"
 :END:
 #+title: TODO coding Hode6
-* [[id:5aada471-bf64-4e6e-911d-292c4a7eb77c][try invisible characters \ Hode]]
 * [[id:215bd079-8522-4489-aa19-9aa9efdc4fec][try Python and TypeDB \ Hode]]
 * TODO ? [[id:2e092160-cb83-4bce-8ffb-cc2264270c0b][persistent Docker data insanity \ Hode]]
 * BLOCKED [[id:3e0477c2-7b4d-45d9-90ff-ad1ea2231773][bifurcate hode-start to start from scratch or not]]
+* DONE [[id:5aada471-bf64-4e6e-911d-292c4a7eb77c][try invisible characters \ Hode]]

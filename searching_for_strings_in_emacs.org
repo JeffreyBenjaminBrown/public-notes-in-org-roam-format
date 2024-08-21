@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       44cc8ea9-33e7-411d-a98a-e66616f652e1
+:END:
+#+title: searching for strings in Emacs
+* search-forward string &optional limit noerror count
+  Moves point to end of string, and returns position.
+  If noerror is t, and the string is not found,
+  search-forward returns nil and does nothing.
+* search-backward string &optional limit noerror count
+  is like search-forward, but looks backward,
+  and leaves point at the *start* of the match.

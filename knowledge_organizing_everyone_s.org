@@ -28,6 +28,7 @@
 ** [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]
 ** [[id:14425786-4f89-4fc3-8bf7-9c31ccaba025][Linked data facilitates writing flashcards.]]
 * how to map knowledge (reading & writing)
+** [[id:5cfb00c4-3302-4b47-8ee0-1814d5869937][Don't restart from scratch.]]
 ** [[id:5b7900ff-1792-47d1-a55a-8435f8766baf][Don't build premature structure when mapping knowledge.]]
 ** [[id:23f40301-92d8-48d5-9c5a-d28b334acf02][Random, motivated, "generous" note navigation seems promising.]]
 ** [[id:05a84243-9dcf-4492-b81e-a48fd2f53b3c][knowledge graphs and/or meditation]]

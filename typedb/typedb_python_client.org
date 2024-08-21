@@ -6,6 +6,7 @@
 * RESUME reading at
   The section called "Querying" at
   https://typedb.com/docs/clients/2.x/python/python-tutorial
+  DEAD LINK.
 * refs
 ** Documentation: https://pypi.org/project/typedb-driver/
    See sidebar for tutorial & API reference.

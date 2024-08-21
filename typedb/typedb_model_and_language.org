@@ -58,6 +58,7 @@
     Seems kind of a silly idea.
 ** DEPRECATED: Attributes can have attributes.
    This possibility will disappear.
+* [[id:554a3af4-ab2f-4a5f-a217-7a9269f47609][UIDs in TypeDB]]
 * DBs, instances (= servers?), clients and connections
 ** A DB is a (schema, data) pair.
 ** A TypeDB instance can contain multiple DBs.

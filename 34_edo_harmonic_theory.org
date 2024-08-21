@@ -28,7 +28,6 @@
 | 37 % 32 |  251.3 |     7 |  247.1 | -4.2852325 |
 | 41 % 32 |  429.1 |    12 |  423.5 |  -5.532959 |
 | 43 % 32 |  511.5 |    14 |  494.1 | -17.400055 |
-
 * most of the intervals
 MTV> intervals (harmonicLimit' [2,3,5,11,13,15,17,23]) 34
 | ratio   |  truth | steps | approx |       error |

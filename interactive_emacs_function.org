@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       816771b0-0729-407e-80b6-a9eb279ef5da
+:END:
+#+title: interactive ( Emacs function )
+* The interactive prompt uses special syntax to specify type.
+  :PROPERTIES:
+  :ID:       88e755e2-bc2f-43ce-a0b4-cc7885aa39cc
+  :END:
+** The first character of the prompt indicates the type of the user input.
+*** n = number
+*** s = string
+*** There might be others.
+** examples
+ (defun print-number-squared (number)
+   "Prompt the user for a NUMBER and print its square."
+   (interactive "nEnter a number: ") ;; note the leading `n`
+   (message "The square of %d is: %d" number (* number number)))
+
+ (defun print-string-unchanged (str)
+   "Prompt the user for a string and print it."
+   (interactive "sEnter a string: ") ;; note the leading `s`
+   (message "You wrote: %s" str))

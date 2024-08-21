@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       2ccc7273-4501-45a2-99bd-ea891696c1e1
+:END:
+#+title: source (Bash command)
+* If running `source` from within a script does not have the intended effect
+  :PROPERTIES:
+  :ID:       f6ed5c60-9229-4ae2-aec1-3bb9446d5e1c
+  :END:
+  Try running the script by calling
+    . ./script.sh
+  rather than
+    ./script.sh
+  This makes its effects persist in the callilng shell.

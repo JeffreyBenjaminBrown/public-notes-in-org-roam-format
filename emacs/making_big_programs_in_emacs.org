@@ -36,6 +36,7 @@
 ** Appendix H: Standard hooks
 * [[id:493cafdc-71f1-4205-81ba-1f2e9b911f0c][text properties & hidden text]]
 * [[id:716a8b8c-28b0-4cb4-83f2-b784b00ff8cc][Evaluation in Emacs]]
+* [[id:44cc8ea9-33e7-411d-a98a-e66616f652e1][searching for strings in Emacs]]
 * [[id:91deff58-ad2e-4e16-878a-b59836c027f4][overlays]]
 * [[id:47586438-b964-4841-967f-539f91937926][circular lists]]
 ** "circular objects", but they all look like lists to me.
@@ -67,3 +68,8 @@
 ** C-x p r : query-replace a regexp in all files of this project
 ** C-x p d : dired to the project's root
 * [[id:ed824eee-35cd-4310-9a1c-311ef1f0dc7e][higher-order functions in Emacs Lisp]]
+* solutions
+** prompt the user for function input
+*** [[id:88e755e2-bc2f-43ce-a0b4-cc7885aa39cc][The interactive prompt uses special syntax to specify type.]]
+** join paths in filesystem
+   (file-name-concat &args)

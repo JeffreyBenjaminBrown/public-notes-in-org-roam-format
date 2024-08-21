@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       6e08e25e-347c-4926-9336-cfa533b0a106
+:END:
+#+title: 48 3 14: 16-edo guitar
+* awkward 5:4, 13-lim 3x7, octave (3,2)
+* stats
+etrTuning = Edo 48 ; StringGap 14 ; FretGap 3
+etrArea = 35
+etrLayout =
+  [ 0 steps; 1 % 1 ; string 0 ; fret 0
+  , 48 steps; 2 % 1 ; string 3 ; fret 2
+  , 28 steps; 3 % 2 ; string 2 ; fret 0
+  , 15 steps; 5 % 4 ; string 0 ; fret 5
+  , 39 steps; 7 % 4 ; string 3 ; fret - 1
+  , 8 steps; 9 % 8 ; string 1 ; fret - 2
+  , 22 steps; 11 % 8 ; string 2 ; fret - 2
+  , 34 steps; 13 % 8 ; string 2 ; fret 2

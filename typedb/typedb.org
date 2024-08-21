@@ -41,6 +41,11 @@
        "match $n isa note; get $n;" )
      tx.query.fetch (
        "match $p isa person; fetch $p: name;")
+** The official Docker image is too old for the Python driver.
+   That is, the most recent Python it makes available (via apt)
+   is one for which no TypeDB Python driver exists.
+   I solved this by building a new Docker image,
+   using Ubuntu, that installs TypeDB via apt.
 * [[id:f027e52d-db16-4f2b-9b71-d904901a38a2][running it]] | getting started
 * [[id:8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd][model and language]]
 * [[id:52393e43-d36a-4d8d-9cc4-f2f379e09eff][Python client]]

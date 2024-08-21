@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       554a3af4-ab2f-4a5f-a217-7a9269f47609
+:END:
+#+title: UIDs in TypeDB
+https://forum.typedb.com/t/given-the-iid-of-something-in-the-graph-how-to-retrieve-it/558
+
+In TypeDB 3.0, the IID (or maybe it will have a different name -- see below) might become immutable and remain user-facing.
+
+In TypeDB 2.0, there is an "iid" ("internal ID") field,
+but it is mutable. It is user-facing only through deprecated, undocumented functions like "iid". They recommend implementing my own immutable ID field if I want such a field.

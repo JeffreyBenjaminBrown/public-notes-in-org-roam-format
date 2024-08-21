@@ -7,9 +7,13 @@
 * my current Lumatone layout bank settings
   1   : 24-edo
   2   : 31-edo
-  3,4 : 34-edo, two different layouts (not just colors)
+  3   : 34-edo, might be wrong layout
+  4   : 36-edo
   5   : 41-edo
-  6-9 : ???
+  6   : 43-edo
+  7   : 46-edo
+  8   : 48-edo
+  9   : 46-edo, I think -- OUT OF ORDER
   10  : 58-edo
 * TODO [[id:12131cbb-d86d-4668-a822-6be1ed676de1][bad keys \\ Lumatone, my]]
 * try changing [[id:57bd013c-e96c-4da2-ab7b-d8aefb611da5][VelocityIntrvlTbl \ Lumatone]]

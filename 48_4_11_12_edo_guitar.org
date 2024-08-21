@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       0e3cd667-214d-44f9-859e-c7594ffe9e90
+:END:
+#+title: 48 4 11: 12-edo guitar
+etrTuning = Edo 48 ; StringGap 11 ; FretGap 4
+etrArea = 42
+etrLayout =
+  [ 0 steps; 1 % 1 ; string 0 ; fret 0
+  , 48 steps; 2 % 1 ; string 4 ; fret 1
+  , 28 steps; 3 % 2 ; string 0 ; fret 7                            , 15 steps; 5 % 4 ; string 1 ; fret 1
+  , 39 steps; 7 % 4 ; string 1 ; fret 7
+  , 8 steps; 9 % 8 ; string 0 ; fret 2
+  , 22 steps; 11 % 8 ; string 2 ; fret 0
+  , 34 steps; 13 % 8 ; string 2 ; fret 3
+  , 44 steps; 15 % 8 ; string 4 ; fret 0

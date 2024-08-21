@@ -4,9 +4,13 @@
 #+title: try Python and TypeDB \ Hode
 Don't bother trying to integrate Emacs initially;
 just do these things from Python.
+* to learn
+** BLOCKED Will TypeDB let me query by iid?
+   Asking on forum:
+   https://forum.typedb.com/t/given-the-iid-of-something-in-the-graph-how-to-retrieve-it/558
 * to make
 ** Create an "expression" type.
-   Has at least an ID and text.
+   Two fields: UID and text.
 ** Create a "child of" relationship template.
 ** Create a simple tree of expressions.
    As simple as this 7-node tree,

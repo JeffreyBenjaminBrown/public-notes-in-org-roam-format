@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       5cfb00c4-3302-4b47-8ee0-1814d5869937
+:END:
+#+title: Don't restart from scratch.
+Whenever writing notes for any type of work, think about what category it belongs in, and whether I've already written notes about that category. This prevents me from half-assing a project by only doing what's in my mind at the moment.

@@ -3,6 +3,7 @@
 :ROAM_ALIASES: venv virtualenv
 :END:
 #+title: virtualenv (Python tool)
+* [[id:f6ed5c60-9229-4ae2-aec1-3bb9446d5e1c][to run `source ./yadda_/yadda_/activate` from a script]]
 * to set up a virtualenv
   :PROPERTIES:
   :ID:       8ab98b85-5ede-4127-890c-76b3d4cb4ef4
