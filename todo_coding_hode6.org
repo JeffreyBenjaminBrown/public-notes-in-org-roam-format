@@ -3,8 +3,8 @@
 :ROAM_ALIASES: "Hode6 coding, TODO"
 :END:
 #+title: TODO coding Hode6
+* [[id:c9b14325-eb94-4147-b366-27f81136de9e][manipulate Hode model from Emacs]]
 * [[id:215bd079-8522-4489-aa19-9aa9efdc4fec][try Python and TypeDB]]
-* [[id:dcc91291-e679-4a97-b954-11d617f4e729][try recoloring bullets in Emacs]]
 * TODO ? [[id:2e092160-cb83-4bce-8ffb-cc2264270c0b][persistent Docker data insanity]]
 * BLOCKED [[id:3e0477c2-7b4d-45d9-90ff-ad1ea2231773][bifurcate hode-start to start from scratch or not]]
 * DONE [[id:5aada471-bf64-4e6e-911d-292c4a7eb77c][try invisible characters]]

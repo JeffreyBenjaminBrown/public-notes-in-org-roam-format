@@ -4,27 +4,37 @@
 #+title: try Python and TypeDB \ Hode
 Don't bother trying to integrate Emacs initially.
 Just do these things from Python.
-* to make
-** DONE Create a UID field.
+* advanced, to do once I have Emacs interactivity
+** Save graph. Restore from new Docker container.
+** readable import/export format
+*** Export graph to readable text.
+**** [[id:4de226b4-1ab3-4410-ab14-1c092d1c4d32][In Bash, how to write the schema to a file.]]
+*** Import the graph from readable text.
+*** Make the diff readable.
+    This could simply involve substituting
+    (or adding) the text fields
+    wherever the UID fields appear.
+** extend schema interactively
+*** Create a new type in an existing graph.
+*** Create a new kind of relationship in an existing graph.
+** Query interactively for the kinds of entities, relations.
+* DONE
+** Create a UID field.
    Mark it "unique".
-** DONE Create an "expression" type.
+** Create an "expression" type.
    Two fields: UID and text.
-** DONE Create a "child of" relationship template.
-** DONE Create a simple tree of expressions.
+** Create a "child of" relationship template.
+** Create a simple tree of expressions.
    As simple as this 7-node tree,
    where prefixes are parents:
    A AA AB AAA AAB ABA ABB
-** DONE Query for the children of some node in the tree.
+** Query for the children of some node in the tree.
    Should be a middle node.
-** DONE Success: Make a type with _ and - in the name.
+** Success: Make a type with _ and - in the name.
    => I can use _s to indicate holes in a relation.
-** TODO Delete an expression.
+** Delete an expression.
 tdb.data_delete ( # TRICKY: Delete requires a seemingly-redundant second "isa" clause.
   hd.DB_NAME,
   " ".join ( [
     "match $n isa note, has uid '_:i=,9aBa8C5jMmd';"
     "delete $n isa note;" ] ) )
-** Query for the kinds of entities, relations.
-** Save graph. Restore from new Docker container.
-** Create a new type in an existing graph.
-** Create a new kind of relationship in an existing graph.

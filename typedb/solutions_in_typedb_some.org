@@ -21,6 +21,9 @@
 * to get the entire schema
   alternatives
 ** In Bash, write it to a file.
+   :PROPERTIES:
+   :ID:       4de226b4-1ab3-4410-ab14-1c092d1c4d32
+   :END:
    From the root of the TypeDB installation, run
 
      ./typedb console --command="database schema db-name" \

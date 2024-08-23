@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       c9b14325-eb94-4147-b366-27f81136de9e
+:END:
+#+title: manipulate Hode model from Emacs
+* notes in isolation
+** show search results
+*** `M-x hode-search`
+*** type search term
+*** Hode view shows search results.
+** bullet color indicates presence in or absense from graph
+*** Objects in the graph are preceded by a green bullet.
+    Later this appearance can be customizable.
+*** Objects not in the graph are preceded by a gray bullet. They can span many lines.
+** `M-x hode-bullet` creates a new gray bullet.
+   gray = not in the graph yet
+   Always at the start of the line.
+** `M-x hode-insert-note` creates a new note
+** `M-x hode-save-note` changes the text of the note
+   It reads the invisible UID to see what it is,
+   It finds the earliest bullet on this or a preceding line,
+   and goes to the next bullet or the end of the buffer.
+   If the early bullet indicates the text is not in the graph, it might add a new note to the graph. But if the text is identical to that of something already in the graph, it first prompts asking whether to create a new note. If not, this note is replaced with that one.
+** MAYBE green bullets should not be deletable
+   nor the newline preceding them.
+   Instead call a function to get rid of them,
+   like `hode-delete-from-view`
+   or `hode-delete-note`.
+* arrows
+** visit a note's targets
+   to see all the targets it points as an arrow source to
+** insert into a note's targets
+   First do this without ordering.
+** order a note's targets
+   Create a lot of ternary "_ follows _ under _" relationships.
+   Then insert by simply editing two of them.
+*** PIFALL: Requires topo sort from Python.
+    TypeDB can't topo sort yet.
+** similarly in the other direction
+*** visit a note's sources
+*** insert into a note's sources
+*** order a note's sources
+* MAYBE [[id:dcc91291-e679-4a97-b954-11d617f4e729][try recoloring bullets in Emacs]]

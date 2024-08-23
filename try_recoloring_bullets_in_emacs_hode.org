@@ -2,6 +2,9 @@
 :ID:       dcc91291-e679-4a97-b954-11d617f4e729
 :END:
 #+title: try recoloring bullets in Emacs \ Hode
+**** BLOCKED maybe not necessary
+Rather than constantly testing whether the user just wrote a bullet, it seems easier to use a function like `M-x hode-bullet` which inserts a bullet where needed.
+* some code ChatGPT suggested
 #+BEGIN_SRC elisp
 (defun my-check-and-color ()
   "Check the preceding two characters and recolor if they match a specific pattern, only in a specific buffer."
