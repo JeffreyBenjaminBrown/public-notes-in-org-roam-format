@@ -2,24 +2,29 @@
 :ID:       215bd079-8522-4489-aa19-9aa9efdc4fec
 :END:
 #+title: try Python and TypeDB \ Hode
-Don't bother trying to integrate Emacs initially;
-just do these things from Python.
-* to learn
-** BLOCKED Will TypeDB let me query by iid?
-   Asking on forum:
-   https://forum.typedb.com/t/given-the-iid-of-something-in-the-graph-how-to-retrieve-it/558
+Don't bother trying to integrate Emacs initially.
+Just do these things from Python.
 * to make
-** Create an "expression" type.
+** DONE Create a UID field.
+   Mark it "unique".
+** DONE Create an "expression" type.
    Two fields: UID and text.
-** Create a "child of" relationship template.
-** Create a simple tree of expressions.
+** DONE Create a "child of" relationship template.
+** DONE Create a simple tree of expressions.
    As simple as this 7-node tree,
    where prefixes are parents:
    A AA AB AAA AAB ABA ABB
-** Query for the children of some node in the tree.
+** DONE Query for the children of some node in the tree.
    Should be a middle node.
-** Query for the kinds of relationships.
+** DONE Success: Make a type with _ and - in the name.
+   => I can use _s to indicate holes in a relation.
+** TODO Delete an expression.
+tdb.data_delete ( # TRICKY: Delete requires a seemingly-redundant second "isa" clause.
+  hd.DB_NAME,
+  " ".join ( [
+    "match $n isa note, has uid '_:i=,9aBa8C5jMmd';"
+    "delete $n isa note;" ] ) )
+** Query for the kinds of entities, relations.
 ** Save graph. Restore from new Docker container.
-** Delete an expression.
 ** Create a new type in an existing graph.
 ** Create a new kind of relationship in an existing graph.

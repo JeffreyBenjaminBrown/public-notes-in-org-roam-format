@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       dcc91291-e679-4a97-b954-11d617f4e729
+:END:
+#+title: try recoloring bullets in Emacs \ Hode
+#+BEGIN_SRC elisp
+(defun my-check-and-color ()
+  "Check the preceding two characters and recolor if they match a specific pattern, only in a specific buffer."
+  (when (string= (buffer-name) "target-buffer")
+    (let ((pattern "xy")
+          (face 'font-lock-warning-face))
+      (save-excursion
+        (when
+            (and
+             (>= (point) 2)
+             (string=
+              (buffer-substring-no-properties
+               (- (point) 2) (point))
+              pattern))
+          (put-text-property
+           (- (point) 2) (point) 'face face))))))
+
+( add-hook  'post-command-hook  'my-check-and-color  nil
+  t ;; makes the hook buffer-local
+  )
+#+END_SRC

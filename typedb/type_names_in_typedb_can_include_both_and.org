@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       20a6738c-2ac1-4264-989a-dc082a1c4d13
+:END:
+#+title: Type names in TypeDB can include both - and _.
+* => They can be used to indicate holes or types in relations.
+  alternatives
+** Use _ as space and use - to indicate relation holes.
+   Example: -_would_give_-_to_-
+** Use _ as space and wrap types in -.
+   as in -subj-_did_-verb-_to_-direct_obj-_with_-indirect_obj-

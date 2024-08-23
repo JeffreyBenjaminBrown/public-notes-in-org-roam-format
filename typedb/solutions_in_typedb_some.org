@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       e5ccf6d2-5593-4826-9842-be9e4ccf66aa
+:ROAM_ALIASES: "TypeDB solutions, some"
+:END:
+#+title: solutions in TypeDB, some
+* pattern-match relationship members in matches
+  match $a (source:$s, target:$t) isa arrow;
+  fetch $t:text;
+* multiple matches, some referring to others, before a fetch
+  match $s isa note, has uid 5;
+        $a(source:$s,target:$t) isa arrow;
+  fetch $t:text;
+* to get all instantiated types
+  match $x isa $t; get $t;
+* to get all types
+  match $x sub $y; get $x;
+* to get all subtypes of a type (including itself)
+  match $x sub relation; get $x;
+* to get all the data (not the schema)
+  match $x isa $t; get $x
+* to get the entire schema
+  alternatives
+** In Bash, write it to a file.
+   From the root of the TypeDB installation, run
+
+     ./typedb console --command="database schema db-name" \
+       > output-filename.schema
+** From within the TypeDB console, print it to screen.
+   database schema db-name

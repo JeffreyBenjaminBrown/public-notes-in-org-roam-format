@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       8b6e8ffc-e7ec-4c17-946b-23a73b51f3bd
 :END:
-#+title: TypeDB model and language
+#+title: TypeDB model, syntax, language
 * refs
 ** [[id:e86f5069-c318-4935-97ae-538da6d431bf][the full TypeQL grammar]]
 ** [[id:b3f2aede-5b0c-492c-b55c-e876bc257ffc][a scheme definition example for all three kinds of Thing]]
@@ -12,6 +12,7 @@
 * general syntax
 ** Whitespace is ignored.
 ** Comments start with #, and can begin mid-line.
+** [[id:20a6738c-2ac1-4264-989a-dc082a1c4d13][Type names in TypeDB can include both - and _.]]
 ** the full TypeQL grammar
    :PROPERTIES:
    :ID:       e86f5069-c318-4935-97ae-538da6d431bf
@@ -29,7 +30,14 @@
    boolean
    string
    datetime
-** The type system consists of three trees.
+** The type system *supposedly* consists of three trees.
+*** PITFALL: I see two more type categories, Role and RootThing
+ConceptMap { map: {"x": EntityType(EntityType { label: "entity", is_root: true, is_abstract: true })}, explainables: Explainables { relations: {}, attributes: {}, ownerships: {} } },
+ConceptMap { map: {"x": RoleType(RoleType { label: ScopedLabel { scope: "relation", name: "role" }, is_root: true, is_abstract: true })}, explainables: Explainables { relations: {}, attributes: {}, ownerships: {} } },
+ConceptMap { map: {"x": AttributeType(AttributeType { label: "text", is_root: false, is_abstract: false, value_type: String })}, explainables: Explainables { relations: {}, attributes: {}, ownerships: {} } },
+ConceptMap { map: {"x": RootThingType(RootThingType)}, explainables: Explainables { relations: {}, attributes: {}, ownerships: {} } },
+ConceptMap { map: {"x": RelationType(RelationType { label: "relation", is_root: true, is_abstract: true })}, explainables: Explainables { relations: {}, attributes: {}, ownerships: {} } },
+
 *** the three top-level abstract classes
     entity, relationship, attribute
 *** "thing" is an invisible even-more-top-level type
@@ -231,6 +239,29 @@
    :END:
    That is, do they record their results on extant data once,
    or do they run every time a relevant query is made?
+* to "Insert" data
+** "match" clause is optional
+** "insert" clause with no preceding match
+   insert $p isa person, has email "email@vaticle.com";
+** "insert" clause with preceding match
+   Any variable referred to by the insert clause
+   must have been defined in the match clause.
+
+   match
+     $f isa file, has path "README.md";
+   insert
+     $f has size-kb 55;
+* to "delete" data
+** The deleted data can be an entity, an ownership, or a relation.
+** The match clause is mandatory.
+** PITFALL: The `delete` statement needs an `isa` clause.
+   It's not obvious to me why that should be needed.
+   It doesn't help narrow down what you're deleting.
+** an example
+   match
+     $p isa person, has full-name "Bob";
+   delete
+     $p isa person;
 * to "Get" data
 ** PITFALL: In old docs "get"s are sometimes called "match"es.
    :PROPERTIES:
@@ -268,26 +299,6 @@
 *** offset + limit :: pagination of results
 *** group          :: group results by a variable
 *** aggregation    :: process results to produce a value for an answer
-* to "Insert" data
-** "match" clause is optional
-** "insert" clause with no preceding match
-   insert $p isa person, has email "email@vaticle.com";
-** "insert" clause with preceding match
-   Any variable referred to by the insert clause
-   must have been defined in the match clause.
-
-   match
-     $f isa file, has path "README.md";
-   insert
-     $f has size-kb 55;
-* to "delete" data
-** The deleted data can be an entity, an ownership, or a relation.
-** The match clause is mandatory.
-** an example
-   match
-     $p isa person, has full-name "Bob";
-   delete
-     $p isa person;
 * Update = Delete + Insert
   match
     $p isa person, has full-name $n;
