@@ -4,8 +4,15 @@
 :END:
 #+title: Hode in TypeDB and Emacs (plans)
 * [[id:d3d6e611-2c5c-4779-8417-70e2b58519c1][TODO coding Hode6]]
+* to learn, context
+** NVivo
+   Stats software for qualitative analysis.
+   Ana V says it's popular.
 * sharing it
 ** [[id:9ac529d9-c76d-44b9-b68c-2ab06a6c5e59][knowledge graphs & social]]
+** The exclusivity of science publications is problematic.
+** It should be possible to see who defames, who trolls, who spams.
+** Wikipedia is an inspiration.
 ** Daniel D wants it.
 ** Brian may not have known what to do with it.
 ** Argdown people would like Hode

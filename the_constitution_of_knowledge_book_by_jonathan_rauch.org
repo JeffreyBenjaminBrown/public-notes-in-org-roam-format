@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3a301def-9a9b-4c2c-8bcd-aa55ae98b650
+:END:
+#+title: The Constitution of Knowledge, book by Jonathan Rauch
+* [[id:02523cb7-a3e3-4b6f-a0f6-91c581f94adb][Science advances through falsification, not verification.]]
+* [[id:e37fb79d-d86e-42e3-bd4e-cc17037370cc][Science is at root a social process.]]
+* You can call something true if it is falsifiable and has stood up to attempts to falsify it.

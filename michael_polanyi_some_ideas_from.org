@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b368aeae-4301-4404-b30e-c72fbffdbff8
+:END:
+#+title: Michael Polanyi, some ideas from
+* [[id:e37fb79d-d86e-42e3-bd4e-cc17037370cc][Science is at root a social process.]]
+* [[id:f511db82-1ecb-457e-888f-e5dbe149eff8][Our tools mediate our understanding of the world.]]
+* [[id:d29d97b5-eed1-4a84-a845-63a94d1f8264][We know more than we can tell.]]

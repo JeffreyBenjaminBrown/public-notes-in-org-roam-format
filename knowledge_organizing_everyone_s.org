@@ -4,6 +4,8 @@
 :END:
 #+title: knowledge graphs
 * [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
+* [[id:02523cb7-a3e3-4b6f-a0f6-91c581f94adb][Science advances through falsification, not verification.]]
+* [[id:e37fb79d-d86e-42e3-bd4e-cc17037370cc][Science is at root a social process.]]
 * [[id:9ac529d9-c76d-44b9-b68c-2ab06a6c5e59][knowledge graphs & social]]
 * see also
 ** [[id:97a9d5f6-feae-4d02-8800-41f36dd5f2b8][ontology (computer science)]]

@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       1a892bc6-e89d-45bf-bc69-1b4840ef730e
-:ROAM_ALIASES: "Lumatone pictures"
+:ROAM_ALIASES: "Lumatone pictures images"
 :END:
 #+title: Lumatone keyboard geometry and physics
 * how to [[id:68b3f341-f369-4b6f-841a-b77c37715a86][shear a rectangular grid image to fit the Lumatone hex layout]]

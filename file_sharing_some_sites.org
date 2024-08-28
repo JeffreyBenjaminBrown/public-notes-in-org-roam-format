@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       43b4da04-7779-4f95-8bc5-371d3b8180f6
+:ROAM_ALIASES: "file sharing" "filesharing"
 :END:
 #+title: file-sharing, some sites
 * [[id:3a258a06-5242-4b0a-99a2-a083cd52a0ec][Library Genesis]]

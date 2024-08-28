@@ -30,7 +30,7 @@
 *** I had to use wpa_supplicant, not iwd
     https://wiki.alpinelinux.org/wiki/Wi-Fi
     Supposedly iwd is better, but apk didn't find the package.
-* [[id:be39ef3b-ca29-4651-9399-0d522617999d][installing Emacs from source on Alpine Linnux]]
+* [[id:be39ef3b-ca29-4651-9399-0d522617999d][installing Emacs from source on Alpine Linux]]
 * to mount a USB drive
   serial
 ** fdisk -l will list drives

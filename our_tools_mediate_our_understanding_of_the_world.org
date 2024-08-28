@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f511db82-1ecb-457e-888f-e5dbe149eff8
+:ROAM_ALIASES: "indwelling"
+:END:
+#+title: Our tools mediate our understanding of the world.
+Polanyi called this "indwelling".

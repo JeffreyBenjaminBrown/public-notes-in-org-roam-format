@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       02523cb7-a3e3-4b6f-a0f6-91c581f94adb
+:END:
+#+title: Science advances through falsification, not verification.
+* Indeed, verification is impossible.
+* This was Karl Popper's most influential idea.

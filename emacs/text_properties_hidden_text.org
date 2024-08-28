@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       493cafdc-71f1-4205-81ba-1f2e9b911f0c
+:ROAM_ALIASES: "hidden text & text properties in Emacs" "Emacs / hidden text & text properties" "read-only , hidden text , text properties \ in Emacs"
 :END:
-#+title: text properties & hidden text
+#+title: text properties , read-only , hidden text \ in Emacs
 * TODO [[id:5aada471-bf64-4e6e-911d-292c4a7eb77c][try invisible characters \ Hode]]
 * refs
 ** [[id:266c6ad8-3694-4cb0-a85f-5388d36dcd7f][I coded a useful demo of hidden text in Emacs.]]
@@ -21,6 +22,14 @@
    :ID:       1df09291-386b-4cf9-bf4d-68768d2b31a2
    :END:
    https://www.gnu.org/software/emacs/manual/html_node/elisp/Property-Search.html
+* read-only
+** make a region read-only
+   (put-text-property start end 'read-only t))
+** PITFALL: Can make it impossible to append characters.
+   If the last character of the line is read-only,
+   the only way to append text is from the next line.
+   If that next line also begins read-only,
+   or does not exist, there's no way.
 * [[id:40b1ac24-e73c-4299-84bf-9c925d93517e][demo : hidden character playground in Emacs]]
 * assignment
   docs: [[id:4e5aa8bf-566b-4f85-b561-cf0304c816ae][changing text properties]]
