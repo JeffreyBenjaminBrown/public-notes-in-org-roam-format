@@ -13,60 +13,45 @@ If that's not enough, check out the docs/ folder.
 * context | thinking about \\ Hode
 ** [[id:f511db82-1ecb-457e-888f-e5dbe149eff8][Our tools mediate our understanding of the world.]]
 * [[id:2b735c4f-b4d9-4d7d-9155-b650d90a2c4a][defunct : coding Hode in Haskell]]
-* TODO big-think
-** non-technical problems with Hode
-   :PROPERTIES:
-   :ID:       78f08663-9236-486e-8343-2d1798bc5994
-   :END:
-*** Hode is hard
+* non-technical problems with Hode
+  :PROPERTIES:
+  :ID:       78f08663-9236-486e-8343-2d1798bc5994
+  :END:
+** Hode is hard
 I got a lot of interest on Reddit Haskell (at least 85 net upvotes),
 but no follow-up. I think the documentation scared them away.
-**** TODO Add a quick-start guide to Hode.
-     :PROPERTIES:
-     :ID:       16331ee3-3b35-4cc0-8a21-5ee56e814c61
-     :END:
-*** Advancing Hode depends on attracting Haskellers.
-*** It's hard to judge without an interesting graph.
-**** would help: smsn
-*** Who cares?
-**** TODO Projects with extremely similar goals
-***** "Knowledge Representation" research community
+*** TODO Add a quick-start guide to Hode.
+    :PROPERTIES:
+    :ID:       16331ee3-3b35-4cc0-8a21-5ee56e814c61
+    :END:
+** Advancing Hode depends on attracting Haskellers.
+** It's hard to judge without an interesting graph.
+*** would help: smsn
+** Am I stumped as a user?
+The number of ways to represent something is huge. Paralyzingly huge.
+* Who cares?
+** TODO Projects with extremely similar goals
+*** "Knowledge Representation" research community
 https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning
-***** Agora
- Extremely similar goals, envisioned user experience.
- https://flancia.org/agora/
-***** Perkeep
- Extremely similar goals.
- https://perkeep.org/
-***** Cyc
+*** Agora
+Extremely similar goals, envisioned user experience.
+https://flancia.org/agora/
+*** Perkeep
+Extremely similar goals.
+https://perkeep.org/
+*** Cyc
 knowledge base for AI
 https://en.wikipedia.org/wiki/Cyc
-**** TODO websites for announcing stuff
+** TODO websites for announcing stuff
 https://app.ryeboard.com/card/92672dba-a4a8-4be0-88db-b4feca771afa
 https://news.ycombinator.com/item?id=21812786
-**** "convergence"
- https://link.springer.com/article/10.1007/s11051-019-4638-7?wt_mc=Internal.Event.1.SEM.ArticleAuthorIncrementalIssue&utm_source=ArticleAuthorIncrementalIssue&utm_medium=email&utm_content=AA_en_06082018&ArticleAuthorIncrementalIssue_20191108&fbclid=IwAR08OarPih1ava0yDKrM_PK07xLSZ2ZSV_bzmvukc7RpNzQQHNzvRa8qxs8
-**** fake news
- https://www.fakerfact.org/about
-**** "navigating digital information"
- https://www.youtube.com/watch?v=M5YKW6fhlss&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU&index=11
-**** distributed search
-*** Am I stumped as a user?
- The number of ways to represent something is huge. Paralyzingly huge.
-** soft
-*** if I'm ambivalent about (currently) implementing a fewature
- Use the software, wait for a use case to arise,
- document the use case under the "todo" item.
-** representing things
-*** unordered "set tplts" of variable size
-As in "A + B + ... = C", or "A & B & ... => X"
-*** anticipate whether a sub-expression will be "needed"
-where "needed" can be
-  searched for
-  needed for readability
-*** name conflicts
-It would be better if distinct things could share a name.
-** types?
+** "convergence"
+https://link.springer.com/article/10.1007/s11051-019-4638-7?wt_mc=Internal.Event.1.SEM.ArticleAuthorIncrementalIssue&utm_source=ArticleAuthorIncrementalIssue&utm_medium=email&utm_content=AA_en_06082018&ArticleAuthorIncrementalIssue_20191108&fbclid=IwAR08OarPih1ava0yDKrM_PK07xLSZ2ZSV_bzmvukc7RpNzQQHNzvRa8qxs8
+** fake news
+https://www.fakerfact.org/about
+** "navigating digital information"
+https://www.youtube.com/watch?v=M5YKW6fhlss&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU&index=11
+** distributed search
 * TODO user-friendliness
 ** TODO crawling within an Expr
 up|down to enclosing keyword (/hash, etc)
