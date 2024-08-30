@@ -10,6 +10,10 @@ If that's not enough, check out the docs/ folder.
 ** [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
 * tools for Hode
 ** [[id:42458f39-c09a-4af4-82da-1bd74967b046][Yi is a Haskell library for building text editors.]]
+** ? someone wrote a tree editor
+https://cs-syd.eu/posts/2019-06-28-microsmos
+and then a forest editor:
+https://cs-syd.eu/posts/2019-08-28-millismos
 * context | thinking about \\ Hode
 ** [[id:f511db82-1ecb-457e-888f-e5dbe149eff8][Our tools mediate our understanding of the world.]]
 * [[id:2b735c4f-b4d9-4d7d-9155-b650d90a2c4a][defunct : coding Hode in Haskell]]
@@ -24,7 +28,6 @@ but no follow-up. I think the documentation scared them away.
     :PROPERTIES:
     :ID:       16331ee3-3b35-4cc0-8a21-5ee56e814c61
     :END:
-** Advancing Hode depends on attracting Haskellers.
 ** It's hard to judge without an interesting graph.
 *** would help: smsn
 ** Am I stumped as a user?
@@ -52,141 +55,8 @@ https://www.fakerfact.org/about
 ** "navigating digital information"
 https://www.youtube.com/watch?v=M5YKW6fhlss&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU&index=11
 ** distributed search
-* TODO user-friendliness
-** TODO crawling within an Expr
-up|down to enclosing keyword (/hash, etc)
-up|down to nearest higher binop (#, |, etc)
-up|down, multipurpose
-  this kind goes to either of the two previous kinds of things
-left|right in same level
-** TODO a regex index
-** TODO If there's a cycle, announce it everywhere
-at the top of every window except the Error window.
-** TODO edit a PTree
-*** Annotate things.
-*** delete parent from any PTree
-and move children up to where it was
-** TODO wrapping is buggy
-*** example
-For instance, the display of this (at address 153 in jbb/)
-   ###re ##solve tmux #has-problem sometimes the status bar is cluttered ##by keep only window names ###note-that status-right #can put any label at the right of the status bar, e.g. the current time.
-includes a 121-character-long line.
-*** todo ? distance to wrap should shrink with columns, indentation
-*** todo ? temp fix: allow user to change wrap length
-** TODO ? offer to delete orphaned nodes
-If a member of something deleted is not remember of anything else, ask whether to delete it, too -- and recurse.
-** TODO copy to clipboard: buggy on Nix
-On Nix it represents newlines the wrong way.
-** TODO shortcut: copy address
-** TODO ? back-references for searches encoded as Exprs
-When a new node is added that matches an extant search,
-the search will find it, but (without further work)
-it will not find the search as a neighbor.
-** TODO ? wart: monodirectionality in `reachable`
-It can accept multiple `Tplt`s to search along,
-but only a single `SearchDir`.
-** safer open and save
-To write, first run `git status`.
-If anything is modified, ask "are you sure? Your repo has uncommitted changes; saving this data might clobber them."
-
-If it's not a repo, ask, "Are you sure you don't want to turn that data into a Git repo first?"
-** document the precedence order of the language
-and mention that you can use parens liberally to make it more obvious
-** show path to here
-(Not a big deal because the cursor path is remembered.)
-Add a toggleable window above the Results window.
-* TODO HExpr: extend HMember and HInvolves
-** implement HMember-Star
-which searches to arbitrary depth
-** Permit them to be inside `HEval`s
-Involves does not play nicely with pathsToIts.
-Even the Involves that only goes 1 layer deep is confusing.
-Once it is implemented, Paths needs to not be integers lists;
-they will have to be lists of (Integer | Wildcard),
-where a Wildcard stands for "any number could go here".
-* PIFALLs | warts
-** TODO searching for a Tplt with empty-string separators
-One needs to represent the empty separator as \"\", as in this:
-   Right r = nInserts (mkRslt mempty) [ "0 # 1", "1 # 2" ]
-   t = nFind r "/t /_ \"\" /_"
-** in Qseq
-*** PITFALL: varTestlike ForSomes do not store what they find in the Subst
- unlike testlike and findlike queries
-*** PITFALL: Each mapping in a CondElts can be represented many ways, depending on whether they key is included.
- The current idiom is to leave the key out. But -- you could describe a CondElts this way:
-  x=1 if (a=1    ) or (b=1    )
- or equivalently, this way:
-  x=1 if (a=1,x=1) or (b=1,x=1)
- or this way:
-  x=1 if (a=1    ) or (b=1,x=1)
- etc.
-*** PITFALL: The empty set is nonsense in a CondElts
- type CondElts = Map Elt (Set Subst)
-   -- ^ Uses `Set` because multiple `Subst`s might obtain the same `Elt`.
-   -- PITFALL: If Elt is possible without any other bindings, then
-   -- the `Set` should include `M.empty`. If the `Set` is `S.empty`,
-   -- it is as if that `Elt` is not in the `Map`.
-*** PITFALL: Don't let keys collide in a CondElts
- If a=1 or a=2 can both lead to b=1, it's tempting to write this:
-   (p :: Possible) =
-     M.fromList [ (a, ...)
-                , (b, M.fromList [ (1, S.singleton $ M.singleton a 1)
-                                 , (1, S.singleton $ M.singleton a 2) ] ) ]
- when it ought to be this:
-   (p :: Possible) =
-     M.fromList [ (a, ...)
-                , (b, M.fromList [ (1, S.fromList [ M.singleton a 1
-                                                  , M.singleton a 2 ] ) ] ) ]
-*** PITFALL : mkVTestIO' : naming error => silent failure
- see the comment leading its definition
-* might come back to haunt me
-** pExprIsSpecific should address PDiff, PAnd, POr
-*** where it is used
- In pRelToHExpr, only specific things can be converted.
- In pMapToHMap, only specific things are retained.
-*** how to do it, I think
- if anything in a POr is not specific, then it is not
- if anything in a PAnd is specific, then it is
- if both parts of a Diff are specific, then it is
-   Theoretically, the part being subtracted could be vague.
-   But that's not how it's implemented -- both parts have to be found,
-   then the one is subtracted from the other.
-* video
-Use screenkey to show key presses:
-   https://gitlab.com/wavexx/screenkey#installation-and-basic-usage
-and SimpleScreenRecorder.
-Audio interface: remember to select both input and output devices.
-* coder-friendliness
-** to include arity in the a node's type
-see digraphs-with-text/gadt.hs
-** TODO simplify result of nPExpr
-e.g. if q = "/trr 1 #< (/it= 0 | 2)", then
-nPExpr q = Right ( PRel $ PNonRel $ ...
-** TODO ? separate State and UIState, and use State in NoUI
-type ColumnProps = Map HExpr Int
-data OtherProps = OtherProps {
-  _folded :: Bool -- ^ whether the ViewExprNode's children are hidden
-  } deriving (Show, Eq, Ord)
-data St = St {
-    _searchBuffers          :: Maybe (Porest Buffer)
-  , _columnHExprs           :: [HExpr]
-  , _appRslt                :: Rslt
-  }
-** wart: ifLefts and LeftStrings
-*** could be replaced with Data.Validation
-which comes with toEither and fromEither
-https://www.reddit.com/r/haskellquestions/comments/d4f6px/class_should_apply_to_a_functor_only_when_its/
-*** LeftStrings could be more polymorphic
-https://www.reddit.com/r/haskellquestions/comments/d4f6px/class_should_apply_to_a_functor_only_when_its/
-** wart ? HExpr and PExpr are complex and nearly isomorphic
-** wart: RsltViewTree is not natural
-*** the root
-The root is supposed to only be a Query,
-but that is permitted elsewhere.
-The root information is(will be) duplicated by the buffer.
-*** the alternation is not enforced
-It should be that each ViewResult can only have a Host or Members as a child,
-and vice-versa.
+* [[id:663aa255-2dc7-4fdc-89bf-43e392d7cdc1][instructional videos for software, how to make]]
+* -- to "coding Hode in Haskell, defunct"
 * TODO views
 ** TODO marking things in a tree
 *** buffer nicknames
@@ -449,6 +319,7 @@ a map from Addr to Set Role
 ** stale ? To avoid redundant tree-climbing
 Recursive calls to a function that evaluates something at an ExprImg by first evaluating it along each of its branches could be expensive.
 It could be avoided by making the ImgExpr abstract, a functor over some parameter a that is paired with each constructor.
+* -- to "coding Hode in Haskell, defunct"
 * ? safety, speed
 ** TODO add tests
 tag untested
@@ -459,10 +330,6 @@ test hMatches and hLookup (in Hode.Hash.HLookup)
 ** To use GHC 8.10's newer garbage collector
 https://well-typed.com/blog/2019/10/nonmoving-gc-merge/
 Our new collector has been merged to GHC’s master branch and will be present in GHC 8.10.1. For a program to use the concurrent non-moving collector it must be compiled with GHC’s -threaded flag and invoked with the +RTS -xn runtime system flag.
-** ? someone wrote a tree editor
-https://cs-syd.eu/posts/2019-06-28-microsmos
-and then a forest editor:
-https://cs-syd.eu/posts/2019-08-28-millismos
 ** TODO ? use lists rather than sets until needed
 e.g. in HExprToAddrs, or the RLookup functions.
 That is, unless set fusion works as well.

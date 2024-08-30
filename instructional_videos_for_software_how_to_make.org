@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       663aa255-2dc7-4fdc-89bf-43e392d7cdc1
+:ROAM_ALIASES: "videos, instructional, for software, how to make"
+:END:
+#+title: instructional videos for software, how to make
+* Use screenkey and SimpleScreenRecorder
+  Screenkey is to show key presses:
+  https://gitlab.com/wavexx/screenkey#installation-and-basic-usage
+* Audio interface
+  remember to select both input and output devices.

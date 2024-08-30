@@ -260,3 +260,134 @@ They can be templates, if they have the same arity.
 unless maybe it's a long phrase
 PITFALL: But don't delete the empty string.
          Or maybe the need for the empty string is obsolete?
+* TODO user-friendliness
+** TODO crawling within an Expr
+up|down to enclosing keyword (/hash, etc)
+up|down to nearest higher binop (#, |, etc)
+up|down, multipurpose
+  this kind goes to either of the two previous kinds of things
+left|right in same level
+** TODO a regex index
+** TODO If there's a cycle, announce it everywhere
+at the top of every window except the Error window.
+** TODO edit a PTree
+*** Annotate things.
+*** delete parent from any PTree
+and move children up to where it was
+** TODO wrapping is buggy
+*** example
+For instance, the display of this (at address 153 in jbb/)
+   ###re ##solve tmux #has-problem sometimes the status bar is cluttered ##by keep only window names ###note-that status-right #can put any label at the right of the status bar, e.g. the current time.
+includes a 121-character-long line.
+*** todo ? distance to wrap should shrink with columns, indentation
+*** todo ? temp fix: allow user to change wrap length
+** TODO ? offer to delete orphaned nodes
+If a member of something deleted is not remember of anything else, ask whether to delete it, too -- and recurse.
+** TODO copy to clipboard: buggy on Nix
+On Nix it represents newlines the wrong way.
+** TODO shortcut: copy address
+** TODO ? back-references for searches encoded as Exprs
+When a new node is added that matches an extant search,
+the search will find it, but (without further work)
+it will not find the search as a neighbor.
+** TODO ? wart: monodirectionality in `reachable`
+It can accept multiple `Tplt`s to search along,
+but only a single `SearchDir`.
+** safer open and save
+To write, first run `git status`.
+If anything is modified, ask "are you sure? Your repo has uncommitted changes; saving this data might clobber them."
+
+If it's not a repo, ask, "Are you sure you don't want to turn that data into a Git repo first?"
+** document the precedence order of the language
+and mention that you can use parens liberally to make it more obvious
+** show path to here
+(Not a big deal because the cursor path is remembered.)
+Add a toggleable window above the Results window.
+* TODO HExpr: extend HMember and HInvolves
+** implement HMember-Star
+which searches to arbitrary depth
+** Permit them to be inside `HEval`s
+Involves does not play nicely with pathsToIts.
+Even the Involves that only goes 1 layer deep is confusing.
+Once it is implemented, Paths needs to not be integers lists;
+they will have to be lists of (Integer | Wildcard),
+where a Wildcard stands for "any number could go here".
+* PIFALLs | warts
+** TODO searching for a Tplt with empty-string separators
+One needs to represent the empty separator as \"\", as in this:
+   Right r = nInserts (mkRslt mempty) [ "0 # 1", "1 # 2" ]
+   t = nFind r "/t /_ \"\" /_"
+** in Qseq
+*** PITFALL: varTestlike ForSomes do not store what they find in the Subst
+ unlike testlike and findlike queries
+*** PITFALL: Each mapping in a CondElts can be represented many ways, depending on whether they key is included.
+ The current idiom is to leave the key out. But -- you could describe a CondElts this way:
+  x=1 if (a=1    ) or (b=1    )
+ or equivalently, this way:
+  x=1 if (a=1,x=1) or (b=1,x=1)
+ or this way:
+  x=1 if (a=1    ) or (b=1,x=1)
+ etc.
+*** PITFALL: The empty set is nonsense in a CondElts
+ type CondElts = Map Elt (Set Subst)
+   -- ^ Uses `Set` because multiple `Subst`s might obtain the same `Elt`.
+   -- PITFALL: If Elt is possible without any other bindings, then
+   -- the `Set` should include `M.empty`. If the `Set` is `S.empty`,
+   -- it is as if that `Elt` is not in the `Map`.
+*** PITFALL: Don't let keys collide in a CondElts
+ If a=1 or a=2 can both lead to b=1, it's tempting to write this:
+   (p :: Possible) =
+     M.fromList [ (a, ...)
+                , (b, M.fromList [ (1, S.singleton $ M.singleton a 1)
+                                 , (1, S.singleton $ M.singleton a 2) ] ) ]
+ when it ought to be this:
+   (p :: Possible) =
+     M.fromList [ (a, ...)
+                , (b, M.fromList [ (1, S.fromList [ M.singleton a 1
+                                                  , M.singleton a 2 ] ) ] ) ]
+*** PITFALL : mkVTestIO' : naming error => silent failure
+ see the comment leading its definition
+* might come back to haunt me
+** pExprIsSpecific should address PDiff, PAnd, POr
+*** where it is used
+ In pRelToHExpr, only specific things can be converted.
+ In pMapToHMap, only specific things are retained.
+*** how to do it, I think
+ if anything in a POr is not specific, then it is not
+ if anything in a PAnd is specific, then it is
+ if both parts of a Diff are specific, then it is
+   Theoretically, the part being subtracted could be vague.
+   But that's not how it's implemented -- both parts have to be found,
+   then the one is subtracted from the other.
+* coder-friendliness
+** to include arity in the a node's type
+see digraphs-with-text/gadt.hs
+** TODO simplify result of nPExpr
+e.g. if q = "/trr 1 #< (/it= 0 | 2)", then
+nPExpr q = Right ( PRel $ PNonRel $ ...
+** TODO ? separate State and UIState, and use State in NoUI
+type ColumnProps = Map HExpr Int
+data OtherProps = OtherProps {
+  _folded :: Bool -- ^ whether the ViewExprNode's children are hidden
+  } deriving (Show, Eq, Ord)
+data St = St {
+    _searchBuffers          :: Maybe (Porest Buffer)
+  , _columnHExprs           :: [HExpr]
+  , _appRslt                :: Rslt
+  }
+** wart: ifLefts and LeftStrings
+*** could be replaced with Data.Validation
+which comes with toEither and fromEither
+https://www.reddit.com/r/haskellquestions/comments/d4f6px/class_should_apply_to_a_functor_only_when_its/
+*** LeftStrings could be more polymorphic
+https://www.reddit.com/r/haskellquestions/comments/d4f6px/class_should_apply_to_a_functor_only_when_its/
+** wart ? HExpr and PExpr are complex and nearly isomorphic
+** wart: RsltViewTree is not natural
+*** the root
+The root is supposed to only be a Query,
+but that is permitted elsewhere.
+The root information is(will be) duplicated by the buffer.
+*** the alternation is not enforced
+It should be that each ViewResult can only have a Host or Members as a child,
+and vice-versa.
+* _ for insertion _
