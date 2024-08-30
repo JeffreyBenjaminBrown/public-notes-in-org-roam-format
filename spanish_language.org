@@ -3,6 +3,11 @@
 :ROAM_ALIASES: Spanish
 :END:
 #+title: Spanish (language)
+* i, y and ll are potentially all different!
+** according to this, ll and y both appear to be like the Hngarian gy
+   except a trailing y is pronounced i
+   https://www.youtube.com/watch?v=kFpimuSe_1c
+** and according to the DLE, yeismo (pronouncing both like y) is dominant but not universal
 * some Spanish-speaking comedians
 ** Hassam (Colombian comedian)
    Jesus. Too hard.

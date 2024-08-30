@@ -54,6 +54,8 @@ make changes to a dependent component then quit and reload.
 * lenses in Haskell
 ** Generate lenses for third-party libraries in Haskell
    https://ai-jobs.net/?rdt_cid=3040091042633392170
+** `partsOf` is cool
+https://www.reddit.com/r/haskellquestions/comments/bz5dmp/how_to_implement_b_a_a_a_b_b/
 * Haskell stuff I'd like to use
 ** [[id:6a0a3cef-e956-443f-b6e1-58f1a98f3998][Dunai: reactive monad generalizes many FRP idioms.]]
 ** Dunai: a reactive monad generalizes many FRP idioms
