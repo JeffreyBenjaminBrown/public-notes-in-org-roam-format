@@ -1,10 +1,12 @@
 :PROPERTIES:
 :ID:       fb83f180-cb75-4180-ab9c-eb555f8ecc1b
+:ROAM_ALIASES: "relationships \ Hode" "Hode relationships"
 :END:
 #+title: fun interesting relationships \ Hode
 * [subject] do [verb] (opt: to [argument]) under [condition]
   Condition must include time, e.g. past, future, ongoing;
   can include other qualifiers.
+* [subject] stands to benefit if [statement] is true
 * maybe [statement]
 * not [statement]
 * it seems [statement]

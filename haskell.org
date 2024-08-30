@@ -113,6 +113,11 @@ make changes to a dependent component then quit and reload.
    It happened when I ran `cabal repl`.
    I solved it by deleting `dist-newstyle/` and rebuilding.
 ** [[id:2a224c00-fb0a-45a4-933b-bdf03d52d9de][random numbers and probability in Haskell]]
+** PTIFALL: stack gchi: if no libraries are available
+ https://github.com/commercialhaskell/stack/issues/5037
+ This will load all non-broken modules when some are broken.
+   stack exec -- ghci -Wall
+   :l Hode.Hode
 * some Haskell libraries
 ** Charts in Haskell
    https://np.reddit.com/r/haskell/comments/12dcap5/announcing_prettychart01/
