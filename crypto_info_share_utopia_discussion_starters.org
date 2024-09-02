@@ -1,0 +1,91 @@
+:PROPERTIES:
+:ID:       a6704f74-f587-42b9-a01b-f935e77fd506
+:END:
+#+title: crypto info-and-art sharing utopia discussion starters
+* TODO [[id:c7223b24-b896-45f4-bc1f-40ba0804f76d][Make my knowledge graph exportable.]]
+  and share notes like this one
+* the problems I feel like it could help
+** People get misled online.
+** People can mislead online.
+** A single person can pose as many people.
+   By programming robots or hiring propaganda mouthpieces.
+** People get paid too little for making others laugh, cry.
+   Consumers clearly get a lot out of that kind of thing.
+** People can rob others' jokes, songs, etc.
+   If jokes were signed onto the blockchain, with good robots,
+   they could be immediately translated into every language,
+   thereby denying translators the opportunity to leech,
+   and hopefully rewarding whoever made the joke first.
+
+   How to protect songs is not as obvious.
+   Maybe the robots similarly do a good job
+   translating the essence of the song into another genre,
+   set of instruments, etc.,
+   and target the best-for-that-person version of the song
+   at every person.
+   But the artist would be giving up a lot of creative control.
+   Maybe better the artist could modify those translations easily
+   by talking to the AI.
+** Inequality is too extreme.
+   A certain degree of it seems to motivate performance.
+** Robots should be recognized as one identity.
+   Otherwise, if accounts are power, some people have a disproportionate amount.
+*** specifically
+    A network of like-controled entities should be represented as one voice. And perhaps even a network of entities only speaking roughly as one voice could be understood in terms of those constituent identities (coherent wills).
+*** equivalently
+    Robot will should be clear.
+    Or maybe just will.
+** Anyone should be free to report the truth.
+*** Not all speech need be free -- e.g. calls to violence -- but reporting of facts should be.
+    Constitutional lawyers could contribute to the utopia.
+*** This means anonymity must be possible.
+    Otherwise people could punish you outside of the network,
+    in meat-space, for reporting on their crimes.
+*** It would be nice if someone anonymous could nonetheless live on their wealth from the network.
+    But this could incentivize liars to spread lies,
+    if the lies were popular enough to pay for.
+    This might be better solved by intra-personal norms,
+    and if so, immediately raises the question:
+    How can a network teach good manners and good epistemology
+    to its members?
+* contributors of ideas
+** abogados
+** cientificos
+** periodistas
+** economistas
+** crypto people
+* What relationships should be easy to search along?
+** as a
+*** researcher
+**** learning history
+***** including extremely recent history, i.e. news
+**** learning diplomacy
+*** art critic
+** some ideas
+*** causes
+*** assumes
+*** is equivalent to
+     ("is same issue as")
+*** feels like
+*** feels better than
+    Intereseting applied to art. Maybe even interesting as applied to whole fields of study, at least for purposes of learning to converse pleasingly.
+*** is more interesting than
+*** signed by
+    Boolean map from signatures onto statements,
+    reversible any number of times, but with history.
+*** learned _ on [date]
+    This might be a good way for apparent flip-flops
+    to prove their sincerity when they change opinion.
+    It might be implicit, from "read about _ on [date]"
+    or even "contributed a novel explanation of _ on [date]"
+* resources
+** How many ideas you get to sign onto.
+* Robots could collapse a chorus of the same argument into one voice.
+  Not by hiding information, but by making it easy to navigate, easy to read fast. The voice could even have a chanter count. Or a chant frequency graph over all accounts.
+* Maybe talk not about accounts but signatures.
+* Robots could mine history to attribute non-new statements to historical figures.
+  This would transform the gold-rush "be the first to copy this thing Socrates said into the graph" into a more useful "add to the existing body of human knowledge in a way others want to keep".
+* ugly
+** Use punishment in the constitution?
+   The ultimate punishment would be excommunication. Of course they could use another signature, and maybe not be recognized as the same person, but their stuff would probably be redistributed if there is finite property. (Alternatively it could vanish, but if it's effectively money, then that's equivalent to redistribution where the wealthy get more of the exiled's former stuff.)
+   Other sorts of collective punishments would be possible. Maybe for small violations one has to wear a Dork badge for a week, and people can anonymously point out during that week when they're being a dork.

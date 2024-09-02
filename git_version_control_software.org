@@ -11,7 +11,7 @@
    git reset HEAD~
 ** what it does is cool
    It downgrades the most recent changes from committed to unstaged.
-* [[id:92ad6660-1efc-4ba8-b1d1-edddc2b54455][anchor, to create one in Github-flavored markdown]]
+* [[id:92ad6660-1efc-4ba8-b1d1-edddc2b54455][anchors and links in Github-flavored markdown]]
 * [[id:635a2a66-13f6-40e3-a5f3-ead78eb1e7b9][diff modulo base]] (integrates with Git)
 * make diff without running through diff-so-fancy
   git --no-pager diff

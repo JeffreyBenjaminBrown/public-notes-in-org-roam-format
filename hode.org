@@ -5,6 +5,8 @@
 * Hode development & social
 ** [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
 * tools for Hode
+** WordNet seems useful.
+   "where nodes represent words, and edges represent relationships like synonymy, antonymy, hypernymy (is-a relationships), hyponymy (type-of relationships), and meronymy (part-whole relationships)." -- ChatGPT 4o, <2024-08-31 Sat>
 ** [[id:42458f39-c09a-4af4-82da-1bd74967b046][Yi is a Haskell library for building text editors.]]
 ** ? someone wrote a tree editor
 https://cs-syd.eu/posts/2019-06-28-microsmos
@@ -12,6 +14,7 @@ and then a forest editor:
 https://cs-syd.eu/posts/2019-08-28-millismos
 * context | thinking about \\ Hode
 ** [[id:f511db82-1ecb-457e-888f-e5dbe149eff8][Our tools mediate our understanding of the world.]]
+** [[id:9d074ed1-9683-448d-8041-b14364c6a6b2][notes from Eli on "fractal democracy", Eos, Cardano]]
 * [[id:2b735c4f-b4d9-4d7d-9155-b650d90a2c4a][defunct : coding Hode in Haskell]]
 * non-technical problems with Hode
   :PROPERTIES:

@@ -2,6 +2,8 @@
 :ID:       8582cec9-74e2-4664-a6d7-946c2ba240e0
 :END:
 #+title: meditation
+* [[id:39029f2f-0f39-49fd-b6ad-e8be09859729][Effort and observation are somewhat disjunctive.]]
+* [[id:3fcb7f4f-4016-4991-8edc-5146cddfdace][Breath is a special focus, because it is semi-voluntary.]]
 * [[id:34eec7d5-1a87-4de2-a894-e1d58ab0aded][normal life is anti-meditation]]
 * [[id:9d1cc360-4fce-4cd4-9176-8f12670add90][attention]]
 * [[id:0334782e-dd39-49e7-b296-ad1375ce404a][meditation => calm purpose]]

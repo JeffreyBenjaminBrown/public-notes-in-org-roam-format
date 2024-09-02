@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       9d074ed1-9683-448d-8041-b14364c6a6b2
+:END:
+#+title: notes from Eli on "fractal democracy", Eos, Cardano
+* puma : community currency in Spain
+  600 people
+  a ledger, no physical tokens (afaict)
+  fiar = lend
+* the protocol eli showed us is up on 3 communities in Eos
+* intends to solve
+** rational ignorance
+** incumbent advantage
+* fractal democracy (current name)
+  eli prefers fractal governance
