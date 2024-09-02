@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       4bf9081d-e4f6-497d-b80d-34bf28bb6e6a
+:END:
+#+title: Wikipedia's governance principles
+as described in Rauch's The Constitution of Knowledge
+* Fallibilism
+* Objectivity
+  "truth is public, not individual; it is what we persuade each other we know, not what you or I claim to know."
+* Disconfirmation
+  "we hunt for truth by correcting errors"
+* Accoutnability
+* Pluralism
+  "we neutralize our biases by pitting them against each other"
+* Civility
+* Professionalism
+  "credentials, expertise, and track record count"
+* Institutionalism
+* No bullshitting
+  "we are here to be truthful, not to entertain or advertise or anything else. Accuracy is job one."
