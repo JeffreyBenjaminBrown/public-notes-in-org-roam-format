@@ -3,5 +3,6 @@
 :END:
 #+title: In a car, where to keep phone and why?
 * Keep it on me, not in the door.
+  If I'm going to revise the seat, then under my leg is safe.
 * I left it in the door once.
   I wasn't even in much of a hurry.

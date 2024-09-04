@@ -2,7 +2,8 @@
 :ID:       dde6522f-6bd1-489b-bd82-5c3315f54ca6
 :END:
 #+title: How to think using spaced repetition.
-* tags :: [[id:a5b74e88-c524-4f89-b29d-1bc324a77369][spaced repetition]]
+* see also
+  my notes for [[id:a5b74e88-c524-4f89-b29d-1bc324a77369][spaced repetition]]
 * Let it provide prompts for writing and thinking.
 * After processing a prompt, mark it "fruitful" or not.
   If fruitful, it comes up again more quickly.
