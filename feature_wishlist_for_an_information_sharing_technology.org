@@ -4,3 +4,7 @@
 #+title: feature wishlist for an information-sharing technology
 * [[id:e9e5ff31-0dc8-49c7-9ed3-69f59741ef0b][Anonymous sharing should be possible.]]
 * automatic translation
+* [[id:a7ea1aee-cefe-4634-97b0-880054f11cc4][healthy interactions across different ccommunities]]
+* personal internet crawling
+  This poses a coordination problem. For many people to redundantly scour the same websites would waste their effort and potentially cripple the websites.
+  It also poses a trust problem. Someone might claim to have scoured information for me, but not done so, because they don't want me to know it.

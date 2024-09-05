@@ -4,19 +4,14 @@
 #+TITLE: Hode
 * also to file
 ** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
-* later if at all
-** Forced mixing of political views?
-** Breadcrumbs: Starting from nothing, what can you believe?
-*** Make paths through subjects (math, etc.), explaining how to check each claim.
-** Belong to multiple communities, each with their own currency, and you can exchange one for the other. In this way communities can gobble each other, in a way that enables algorithms that people enjoy more to dominate.
-** Pull your resources with friends to scour the internet in a particular way.
-** The resources available for contribution are computation, memory, data transfer (to and from their own systems) and maybe money. And owning a share of the network means owning exactly those. Maybe there should be multiple currencies for each network, e.g. a memory one, a computation one, etc.
+** [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode6]]
 * see also
 ** [[id:b37024f7-716b-4748-9a33-d35e75f4ede1][epistemology]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
 * sharing Hode's development process
 ** [[id:14970dcf-abd4-47d3-a5d3-b93a090e280d][people, communities who are or might be interested in Hode]]
 ** [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
+** my [[id:9ac529d9-c76d-44b9-b68c-2ab06a6c5e59][outreach efforts for Hode]]
 * prior art to investigate
 ** [[id:e7798f00-df21-49f4-bb26-632011facbb7][Twitter wanted to switch the weight of subscriptions from people to topics.]]
 ** [[id:2cd835d3-a30b-4fcf-9772-9bc70512d7f2][Facebook implemented an oversight board.]]
@@ -30,39 +25,13 @@
 * tools for Hode
 ** [[id:31a087fe-bbc4-41e2-963c-7c8ae757aa34][WordNet]] : nodes are words, and edges include is-a, has-a, etc.
 ** dubious
-*** [[id:9d074ed1-9683-448d-8041-b14364c6a6b2][notes from Eli on "fractal democracy", Eos, Cardano]]
 *** [[id:42458f39-c09a-4af4-82da-1bd74967b046][Yi is a Haskell library for building text editors.]]
 *** ? someone wrote a tree editor
     https://cs-syd.eu/posts/2019-06-28-microsmos
     and then a forest editor:
     https://cs-syd.eu/posts/2019-08-28-millismos
-* [[id:1369d33e-8671-40ed-8401-4bf7597202c1][feature wishlist for the coommunity]]
+* [[id:1369d33e-8671-40ed-8401-4bf7597202c1][outcome wishlist for the coommunity]]
 * [[id:1c1415bc-64d2-4cb3-9c65-b9b617d0777e][feature wishlist for the technology]]
 * [[id:2b735c4f-b4d9-4d7d-9155-b650d90a2c4a][defunct : coding Hode in Haskell]]
-* Who cares?
-** Library and Archival Sciences
-   Offray suggests:
-   https://mail.google.com/mail/u/0/#inbox/FMfcgzQVxtrHThcSnZcsdhQnSnCRxqrT
-** TODO Projects with extremely similar goals
-*** "Knowledge Representation" research community
-https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning
-*** Agora
-Extremely similar goals, envisioned user experience.
-https://flancia.org/agora/
-*** Perkeep
-Extremely similar goals.
-https://perkeep.org/
-*** Cyc
-knowledge base for AI
-https://en.wikipedia.org/wiki/Cyc
-** TODO websites for announcing stuff
-https://app.ryeboard.com/card/92672dba-a4a8-4be0-88db-b4feca771afa
-https://news.ycombinator.com/item?id=21812786
-** "convergence"
-https://link.springer.com/article/10.1007/s11051-019-4638-7?wt_mc=Internal.Event.1.SEM.ArticleAuthorIncrementalIssue&utm_source=ArticleAuthorIncrementalIssue&utm_medium=email&utm_content=AA_en_06082018&ArticleAuthorIncrementalIssue_20191108&fbclid=IwAR08OarPih1ava0yDKrM_PK07xLSZ2ZSV_bzmvukc7RpNzQQHNzvRa8qxs8
-** fake news
-https://www.fakerfact.org/about
-** "navigating digital information"
-https://www.youtube.com/watch?v=M5YKW6fhlss&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU&index=11
-** distributed search
 * [[id:663aa255-2dc7-4fdc-89bf-43e392d7cdc1][instructional videos for software, how to make]]
+* dubious : [[id:bc0ba15e-6be8-4c0a-851c-0660c70de2b4][information sharing and cryptocurrency]]

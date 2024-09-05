@@ -1,12 +1,12 @@
 :PROPERTIES:
 :ID:       1369d33e-8671-40ed-8401-4bf7597202c1
 :END:
-#+title: feature wishlist for an information-sharing coommunity
-* Why I call these "features" of the community.
-  They cannot be implemented in code.
-  They depend on how people behave.
+#+title: outcome wishlist for an information-sharing coommunity
+* Some, maybe all, of these depend on people more than code.
+  That is, they depend on how people behave.
 * the list
 ** [[id:e9e5ff31-0dc8-49c7-9ed3-69f59741ef0b][Anonymous sharing should be possible.]]
 ** Telling the truth should be safe.
 ** Honestly reporting your feelings should be safe.
    Right? Even if your feelings suck? How else would they improve?
+* [[id:a7ea1aee-cefe-4634-97b0-880054f11cc4][healthy interactions across different communities]]

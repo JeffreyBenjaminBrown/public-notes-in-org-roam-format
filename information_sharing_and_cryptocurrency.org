@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       bc0ba15e-6be8-4c0a-851c-0660c70de2b4
+:END:
+#+title: information sharing and cryptocurrency
+These ideas are still vague,
+and I don't know whether they are relevant to Hode.
+* cryptocurrency Darwinism
+  Belong to multiple communities, each with their own currency, and you can exchange one for the other. In this way communities can gobble each other, in a way that enables algorithms that people enjoy more to dominate.
+* resource catalog
+  The physical-ish resources available for contribution are computation, memory, data transfer (to and from their own systems) and maybe money. Owning a share of the network means owning exactly those. Maybe there should be multiple currencies for each network, e.g. a memory one, a computation one, etc.
+* [[id:9d074ed1-9683-448d-8041-b14364c6a6b2][notes from Eli on "fractal democracy", Eos, Cardano]]
