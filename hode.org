@@ -25,7 +25,6 @@
    For instance, when psychology was more homogeneous, it was widely accepted that homosexuality was an illness.
 ** [[id:4bf9081d-e4f6-497d-b80d-34bf28bb6e6a][Wikipedia's governance principles]]
 ** [[id:3a301def-9a9b-4c2c-8bcd-aa55ae98b650][The Constitution of Knowledge, by Jonathan Rauch]]
-
 * Hode development & social
 ** [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
 * tools for Hode
