@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       d42c4051-e2b2-4f9e-ad1f-d86babf9116b
+:END:
+#+title: queries Hode would make possible
+* Does [author] ever produce content with no political slant?"
+* alternate orders for the same data
+  Ordered by chapter in source text,
+  by topic,
+  by urgency (perhaps inferred from number of TODO items contained),
+  by beginner-friendliness (perhaps inferred from the amount of knowledge it depends on),
+  etc.

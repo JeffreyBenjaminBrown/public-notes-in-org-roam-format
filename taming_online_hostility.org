@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       8cd426c4-6469-4589-846b-652c860a0025
+:END:
+#+title: taming online hostility
+* A private dislike button, between the reader and the author.
+  This could be implemented in any social media app.
+  But Hode would make it easy for the commenter to explain why they dislike it, and for the receiving author to run queries to understand the totality of criticisms of something they have written, or even of everything they have written at once.
+* [[id:b4f50204-91c4-42ca-9474-001b8cbdc161][cancel culture & Hode]]

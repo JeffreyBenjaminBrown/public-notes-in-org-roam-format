@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b7c849c9-67a7-4e01-998b-ce5c06bd4d6a
+:END:
+#+title: Circles of publication intimacy could protect people from cancellation.
+* the idea
+  Your (casual, Twitter-like) publications would be on a timer. First they go out to the people you trust to read what you write in good faith. If one of them sees you writing, e.g., a joke that could sink your career, they could tell you about it.
+  If reading history is public, the publication conditions could be made yet more precise: "Don't share this to the wider public until at least five of my inner circle have read it, and a day has passed without anyone telling me it's a dumb idea."
+* citation
+  This might be an idea Jonathan Rauch describes in [[id:320e7816-f54b-49d5-a894-440117a1ce9f][The Constitution of Knowledge]].

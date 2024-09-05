@@ -2,7 +2,9 @@
 :ID:       b4f50204-91c4-42ca-9474-001b8cbdc161
 :END:
 #+title: cancel culture & Hode
+This problem seems hard. These are ideas, not a full solution.
 * Cancel culture exploits the internet.
 * Hode should be robust to it.
   Hode will make it easy to record data about people.
   This cuts both ways. It's easy to find offensive things someone has said, but it's also easy to find context. Maybe they have since learned, and the data trail proves it. Maybe they were taken out of context.
+* [[id:b7c849c9-67a7-4e01-998b-ce5c06bd4d6a][Circles of publication intimacy could protect people from cancellation.]]

@@ -2,25 +2,35 @@
 :ID:       fb83f180-cb75-4180-ab9c-eb555f8ecc1b
 :ROAM_ALIASES: "relationships \ Hode" "Hode relationships"
 :END:
-#+title: fun interesting relationships \ Hode
-* [subject] do [verb] (opt: to [argument]) under [condition]
-  Condition must include time, e.g. past, future, ongoing;
-  can include other qualifiers.
-* [subject] stands to benefit if [statement] is true
-* maybe [statement]
-* not [statement]
-* it seems [statement]
-  Implicitly, any such statement is an "it seems _ to [author]" statement.
-* [statement] suggests [conclusion]]
-* [statement] helps explain [statement]
-* [person] wrote [statement]
-* [statement] explains [argument]
-* [statement] follows [statement]
-* [statement] is part of [statement]
-  "[_statement follows _statement] is part of [_statement]"
-  can be used to represent multi-step arguments, recipes, stories
-* [member] is in [category]
-* [category] is subset of [bigger category]
-* [action] achieves [condition]
-* [condition] is goal of [agent]
-  agents and authors will likely overlap
+#+title: relationships worth recording
+* the list
+** [subject] do [verb] (opt: to [argument]) under [condition]
+   Condition must include time, e.g. past, future, ongoing;
+   can include other qualifiers.
+** [subject] stands to benefit if [statement] is true
+** [author] believes [statement]
+** maybe [statement]
+** not [statement]
+** it seems [statement]
+   Implicitly, any such statement is an "it seems _ to [author]" statement.
+** [statement] suggests [conclusion]]
+** [statement] helps explain [statement]
+** [person] wrote [statement]
+** [statement] explains [argument]
+** [statement] follows [statement]
+** [statement] is part of [statement]
+   "[_statement follows _statement] is part of [_statement]"
+   can be used to represent multi-step arguments, recipes, stories
+** [member] is in [category]
+** [category] is subset of [bigger category]
+** [action] achieves [condition]
+** [condition] is goal of [agent]
+   agents and authors will likely overlap
+* some observations on the list
+** "is true" and "is false" are better unbundled.
+   "_ is true" is really a bundle of
+   "[author] believes [statement]"
+   and some set of "[evidence] supports [statement]" statements.
+** "[author x] suspects ([author y] believes [statement])"
+   is just a nesting of two relationships,
+   but could be particularly useful.

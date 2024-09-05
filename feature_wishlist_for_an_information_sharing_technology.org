@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       1c1415bc-64d2-4cb3-9c65-b9b617d0777e
+:END:
+#+title: feature wishlist for an information-sharing technology
+* [[id:e9e5ff31-0dc8-49c7-9ed3-69f59741ef0b][Anonymous sharing should be possible.]]
+* automatic translation

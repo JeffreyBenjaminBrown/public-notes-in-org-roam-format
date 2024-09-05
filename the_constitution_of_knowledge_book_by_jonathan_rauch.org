@@ -5,4 +5,10 @@
 * [[id:4bf9081d-e4f6-497d-b80d-34bf28bb6e6a][Wikipedia's governance principles]]
 * [[id:02523cb7-a3e3-4b6f-a0f6-91c581f94adb][Science advances through falsification, not verification.]]
 * [[id:e37fb79d-d86e-42e3-bd4e-cc17037370cc][Science is at root a social process.]]
+* [[id:41b66489-cb83-4730-be90-2c3284b9bbfb][Diversity of opinion makes objectivity easier.]]
 * You can call something true if it is falsifiable and has stood up to attempts to falsify it.
+* to link into this file
+  :PROPERTIES:
+  :ID:       320e7816-f54b-49d5-a894-440117a1ce9f
+  :END:
+  without polluting the ancestor space of this file

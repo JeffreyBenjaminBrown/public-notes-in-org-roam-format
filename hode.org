@@ -2,36 +2,30 @@
 :ID:       d5a5a3ff-977a-405b-8660-264fb4e974a3
 :END:
 #+TITLE: Hode
-* u <2024-09-02 Mon>
-** ForcEd mixing of political views?
-** Breadcrumbs: starting from
-        nothing, what can you believe?
+* also to file
+** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
+* later if at all
+** Forced mixing of political views?
+** Breadcrumbs: Starting from nothing, what can you believe?
 *** Make paths through subjects (math, etc.), explaining how to check each claim.
-** Be able to make queries like "does this person only produce content with a political slant?"
-** Twitter tried deemphasizing followed count and letting people subscribe to tópica rather than people
-** Facebook tried the oversight board.
-** Along with like button, true/false buttons
-** Warn friends, appointed as one of their editors, if a joke seems dangerous
-** A private dislike button
 ** Belong to multiple communities, each with their own currency, and you can exchange one for the other. In this way communities can gobble each other, in a way that enables algorithms that people enjoy more to dominate.
 ** Pull your resources with friends to scour the internet in a particular way.
-** Intimacy is permissions
-** For people to record "you seem to believe _" could be helpful to you, as well as to them.
 ** The resources available for contribution are computation, memory, data transfer (to and from their own systems) and maybe money. And owning a share of the network means owning exactly those. Maybe there should be multiple currencies for each network, e.g. a memory one, a computation one, etc.
-** Someone should be able to say how they honestly feel
-** Can a bot lens the discussion into Spanish? I know smart Spanish speaking lawyers, journalists, etc.
-** Diversity of opinion makes objectivity easier.
-   For instance, when psychology was more homogeneous, it was widely accepted that homosexuality was an illness.
-** [[id:4bf9081d-e4f6-497d-b80d-34bf28bb6e6a][Wikipedia's governance principles]]
-** [[id:3a301def-9a9b-4c2c-8bcd-aa55ae98b650][The Constitution of Knowledge, by Jonathan Rauch]]
 * see also
 ** [[id:b37024f7-716b-4748-9a33-d35e75f4ede1][epistemology]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
 * sharing Hode's development process
 ** [[id:14970dcf-abd4-47d3-a5d3-b93a090e280d][people, communities who are or might be interested in Hode]]
 ** [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
+* prior art to investigate
+** [[id:e7798f00-df21-49f4-bb26-632011facbb7][Twitter wanted to switch the weight of subscriptions from people to topics.]]
+** [[id:2cd835d3-a30b-4fcf-9772-9bc70512d7f2][Facebook implemented an oversight board.]]
 * [[id:97c7fdde-181b-4a9e-b210-cc380b8afb8b][Hode usage and gameification]]
 * [[id:ec977e2d-46b9-455f-8be0-fb3eaba4c2ca][problems Hode might help]]
+* things Hode would enable
+** [[id:d42c4051-e2b2-4f9e-ad1f-d86babf9116b][queries Hode would make possible]]
+** [[id:fb83f180-cb75-4180-ab9c-eb555f8ecc1b][relationships worth recording]]
+** [[id:87573557-33fa-4aae-93e9-7f99ffb5c9ed][circles of publication intimacy]]
 * [[id:fbb345d3-1e65-414a-8e68-23c225d51f4d][problems with Hode]]
 * tools for Hode
 ** [[id:31a087fe-bbc4-41e2-963c-7c8ae757aa34][WordNet]] : nodes are words, and edges include is-a, has-a, etc.
@@ -42,6 +36,8 @@
     https://cs-syd.eu/posts/2019-06-28-microsmos
     and then a forest editor:
     https://cs-syd.eu/posts/2019-08-28-millismos
+* [[id:1369d33e-8671-40ed-8401-4bf7597202c1][feature wishlist for the coommunity]]
+* [[id:1c1415bc-64d2-4cb3-9c65-b9b617d0777e][feature wishlist for the technology]]
 * [[id:2b735c4f-b4d9-4d7d-9155-b650d90a2c4a][defunct : coding Hode in Haskell]]
 * Who cares?
 ** Library and Archival Sciences
@@ -70,10 +66,3 @@ https://www.fakerfact.org/about
 https://www.youtube.com/watch?v=M5YKW6fhlss&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU&index=11
 ** distributed search
 * [[id:663aa255-2dc7-4fdc-89bf-43e392d7cdc1][instructional videos for software, how to make]]
-* TODO collect use cases
-** view notes from a text ordered by source text or topic
-** collective note taking
-https://blogs.agu.org/geoedtrek/2016/12/28/collaborative-note-taking/
-** google isn't that great
-https://news.ycombinator.com/item?id=21515181
-https://stratechery.com/2019/the-google-squeeze/

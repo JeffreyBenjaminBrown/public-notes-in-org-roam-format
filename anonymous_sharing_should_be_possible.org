@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e9e5ff31-0dc8-49c7-9ed3-69f59741ef0b
+:END:
+#+title: Anonymous sharing should be possible.
+* It is not feasible if a user reveals identifying information.
+  On joining the community,
+  the user could be given the option to learn how to do that.
+* It is necessary because bad actors can punish good actors
+ in meat-space, if they know who they are.

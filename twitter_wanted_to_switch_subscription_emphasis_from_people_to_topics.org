@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       e7798f00-df21-49f4-bb26-632011facbb7
+:END:
+#+title: Twitter wanted to switch the weight of subscriptions from people to topics.
+* source
+  Jack Dorsey (ex-CEO) told Sam Harris this on Harris's podcast before the year 2024 (there's only one such interview).
+* more context
+  Their desire to do this followed their recognition that
+  there's something toxic about follower count.
+* TODO So what happened?
