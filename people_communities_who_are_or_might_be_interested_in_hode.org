@@ -2,6 +2,7 @@
 :ID:       14970dcf-abd4-47d3-a5d3-b93a090e280d
 :END:
 #+title: people, communities who are or might be interested in Hode
+Basically, truth-seekers.
 * lawyers
 * journalists
 * scientists
@@ -9,6 +10,12 @@
   FDA, EPA
 * government data providers
   BLS, Census Bureau
+* econometricians
+  they do epistemology
+* finance
+  They already use TypeDB.
+* biotech
+  They already use TypeDB.
 * cyber security folk
 * [[id:edaf398a-06e7-4c52-b14e-09886de45870][the author of Dynomight]]
 * [[id:137f0054-ea3a-4252-afb0-c7e0e214b2e6][friends interested in Hode]]

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       ec977e2d-46b9-455f-8be0-fb3eaba4c2ca
+:END:
+#+title: problems Hode might help
+* problems that do not appear hard
+** [[id:0abadd88-94f3-4b54-9329-8952c3690739][Build your own recommendation algorithm.]]
+* problems that appear hard
+** [[id:b4f50204-91c4-42ca-9474-001b8cbdc161][cancel culture & Hode]]

@@ -3,7 +3,6 @@
 :END:
 #+TITLE: Hode
 * u <2024-09-02 Mon>
-** Cancel culture exploits the internet. It would be good if hod were difficult to exploit in similar ways.
 ** ForcEd mixing of political views?
 ** Breadcrumbs: starting from
         nothing, what can you believe?
@@ -28,10 +27,11 @@
 * see also
 ** [[id:b37024f7-716b-4748-9a33-d35e75f4ede1][epistemology]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
-* Hode development & social
+* sharing Hode's development process
 ** [[id:14970dcf-abd4-47d3-a5d3-b93a090e280d][people, communities who are or might be interested in Hode]]
 ** [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
-* problems (in society) for Hode to address
+* [[id:97c7fdde-181b-4a9e-b210-cc380b8afb8b][Hode usage and gameification]]
+* [[id:ec977e2d-46b9-455f-8be0-fb3eaba4c2ca][problems Hode might help]]
 * [[id:fbb345d3-1e65-414a-8e68-23c225d51f4d][problems with Hode]]
 * tools for Hode
 ** [[id:31a087fe-bbc4-41e2-963c-7c8ae757aa34][WordNet]] : nodes are words, and edges include is-a, has-a, etc.

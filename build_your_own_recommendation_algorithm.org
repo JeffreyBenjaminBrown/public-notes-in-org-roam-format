@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       0abadd88-94f3-4b54-9329-8952c3690739
+:END:
+#+title: Build your own recommendation algorithm.
+* why this would be better than corporate solutions
+** privacy
+   Recommendation services learn a lot about you.
+** transparency
+   You know why you get what you get.
+** control
+   You know how to change what you get.
+** better potential fit
+   You know what you want better than recommendation services can.
+* The data required are not complex.
+* The data required are
+** Which movie is about what.
+** Who is interested in what.
+   To find people with common interests.
+** Who judges which movie how.
+   This could even be implicit, in the case of songs,
+   from the number of listens.
+   Judgments could be numerical or verbal.
+   Verbal judgments could be AI-translated into numerical ones.
+   With enough verbal judgments, one could query based on keywords,
+   or more precisely on equivalence classes of statements like
+   "[content] helped me learn _".
+** What you think of critics.
+   Of two critics who share your interests,
+   one is likely more deserving of your attention than another.
+   This you can record personally,
+   without having to share it to them.

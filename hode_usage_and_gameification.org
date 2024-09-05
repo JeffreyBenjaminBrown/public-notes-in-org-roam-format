@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       97c7fdde-181b-4a9e-b210-cc380b8afb8b
+:END:
+#+title: Hode usage and gameification
+* [[id:8b6cc852-4f06-424f-86ec-582b35060f79][The information apocalypse solution I'm hoping for: Sign your writing, hash your citations, back-cite, and know who you're reading.]]
+* [[id:4770a0d4-1932-403c-a57a-9ae803e8372e][knowledge graph game]]
+* ask for ideas for a [[id:c48cbb26-cdf3-4109-b729-3abd58c2d4bc][social knowledge base app for epistemology]]

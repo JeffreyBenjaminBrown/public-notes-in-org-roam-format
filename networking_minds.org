@@ -4,8 +4,6 @@
 #+title: networking minds
 * [[id:f9ee18e9-68f2-4f10-b10d-c91186b797e3][Agora (shared knowledge base (protocol))]]
 * [[id:4cb72658-2d91-4450-8bd5-54e04d3de051][Some ideas on networking minds from DynoMight.]]
-* [[id:8b6cc852-4f06-424f-86ec-582b35060f79][The information apocalypse solution I'm hoping for: Sign your writing, hash your citations, back-cite, and know who you're reading.]]
-* [[id:4770a0d4-1932-403c-a57a-9ae803e8372e][knowledge graph game]]
-* ask for ideas for a [[id:c48cbb26-cdf3-4109-b729-3abd58c2d4bc][social knowledge base app for epistemology]]
+* [[id:97c7fdde-181b-4a9e-b210-cc380b8afb8b][Hode usage and gameification]]
 * [[id:c4b02fe2-6d9b-4d8d-b617-ec59aa79bf73][Spotify for the news]]
 * [[id:65f970d7-8b4c-43be-bcd3-6956f06238d3][Messaging apps should make it hard to send to the wrong target.]]
