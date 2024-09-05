@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       31a087fe-bbc4-41e2-963c-7c8ae757aa34
+:END:
+#+title: WordNet
+"nodes represent words, and relationshipss include synonymy, antonymy, hypernymy (is-a relationships), hyponymy (type-of relationships), and meronymy (part-whole relationships)." -- ChatGPT 4o, <2024-08-31 Sat>

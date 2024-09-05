@@ -17,7 +17,7 @@
     A public database of nemesis sites would be helpful.
 *** Read (i.e. consider) the reputations of authors you read.
     This is nearly the reverse of the last point. When deciding whether to believe what someone has said, consider what else they have said.
-    This is of course a hard problem. An author might be qualified in one area and writing about another. An author's reputation might be damaged for extrinsic (e.g. malice) reasons, rather than intrinsic ones.
+    This is of course a hard problem. An author might be qualified in one area and writing about another. An author's reputation might be damaged for reasons irrelevant to their expertise on a topic.
     But a statement's author is too important a context to ignore.
 *** Do cool graph traversal investigations.
     Determine who someone tends to cite. Identify misinformation cliques -- close-knit collections of liars who all cite each other. Identify readership patterns that make people productive.

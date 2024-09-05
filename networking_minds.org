@@ -8,7 +8,4 @@
 * [[id:4770a0d4-1932-403c-a57a-9ae803e8372e][knowledge graph game]]
 * ask for ideas for a [[id:c48cbb26-cdf3-4109-b729-3abd58c2d4bc][social knowledge base app for epistemology]]
 * [[id:c4b02fe2-6d9b-4d8d-b617-ec59aa79bf73][Spotify for the news]]
-* messaging apps should make it hard to send to the wrong target
-  Optionally, enable any of
-- ask sender to verify the recipient(s) before sending
-- use recipient as background (lightly) to message while writing it
+* [[id:65f970d7-8b4c-43be-bcd3-6956f06238d3][Messaging apps should make it hard to send to the wrong target.]]
