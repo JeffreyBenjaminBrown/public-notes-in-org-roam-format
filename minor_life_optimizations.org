@@ -4,6 +4,7 @@
 :END:
 #+title: minor life optimizations
 * Broadcast lists on WhatsApp
+* [[id:3d34d3bd-4fd7-4d4c-9cb6-486b7a03000f][Ley Dejen de Fregar]]
 * [[id:fced6241-6119-47e9-8b2e-8bc7a7cec730][Jacinda : functional stream-processing language]]
 * TODO [[id:fd4f0e29-8a37-4391-968e-5963c978a1d9][using dotfiles on GitHub:a guide]]
 * WhatsApp reads audio

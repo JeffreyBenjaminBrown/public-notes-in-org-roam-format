@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       3d34d3bd-4fd7-4d4c-9cb6-486b7a03000f
+:ROAM_ALIASES: "Ley 2300 de 2023" "Registro Nacional de Números Excluidos (RNE)"
+:END:
+#+title: Ley Dejen de Fregar
+* about it
+  Formally, the Ley 2300 de 2023.
+  Establishes the Registro Nacional de Números Excluidos (RNE).
+* my Colombia do-not-call list confirmation
+  https://mail.google.com/mail/u/0/#search/tigo/FMfcgzQVxlMlvRVslFjQnZkCLbGqhplc

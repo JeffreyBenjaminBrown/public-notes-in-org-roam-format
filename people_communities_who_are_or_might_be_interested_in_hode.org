@@ -101,6 +101,7 @@ https://www.fakerfact.org/about
 ** "navigating digital information"
 https://www.youtube.com/watch?v=M5YKW6fhlss&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU&index=11
 ** distributed search
+** enthusiasts for [[id:ce68f01a-0392-460d-a43d-1e0465355ad2][preregistration]]
 * Peter Eckersly at EFF and his collaborators
 ** find his cauthors on Arxiv
 ** Daniel Dewey rec's

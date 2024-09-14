@@ -3,7 +3,6 @@
 :END:
 #+title: knowledge graph game
 * TODO Look for prior art in gameifying knowledge | science | debate.
-* TODO [[id:61475b0d-1b21-44ff-8b10-1df2813e9941][talk to people about the knowledge game]]
 * aspects
 ** See what is popular among users of certain words.
 ** If what someone called more convincing seemed less convincing to you, their statements re. convincingness are reduced in your view

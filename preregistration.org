@@ -13,4 +13,4 @@
 ** solves the [[id:ccc083c0-4785-447c-9f24-f9780b8d1445][duplication of futile research agendas]]
 ** can't cherry-pick regressions
 ** can't adjust a treatment mid-experiment
-** journals can accept before knowing the results, eliminating bias
+** Journals can accept before knowing the results, eliminating bias.

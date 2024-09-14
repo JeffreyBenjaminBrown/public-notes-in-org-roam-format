@@ -4,8 +4,8 @@
 #+title: why knowledge graphs matter
 * Users control their own views.
 ** against The Feed Algorithm
-   Rather than being only ever fed their
-   (altorithmically often destructive, and always dumb) "feed".
+   Rather than only seeing their opaque algorithmic,
+   often destructive, and usually at least somewhat dumb "feed".
 ** Cut through spam.
    identify bots and (human-powered) comment farms,
    through a collective identification effort.
@@ -17,4 +17,5 @@
 *** Quicker publishing (like Twitter or ArXiV)
 *** solves the problem of [[id:941aef35-0419-4a8d-8e80-e4703a1f36dd][losing negative results (scientific publishing problem)]]
 *** don't duplicate effort
+    In particular, if crawling bots recognize statement equivalence, this would permit a fact-checker to simultaneously debunk myriad voicings of a false claim. All of them, if the crawling were sufficiently extensive and the equivalence recognition sufficiently robust.
 *** lets you see what kinds of research have proven too hard to finish.

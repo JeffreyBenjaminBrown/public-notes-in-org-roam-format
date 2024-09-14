@@ -3,7 +3,9 @@
 :ROAM_ALIASES: "meditation and/or knowledge graphs"
 :END:
 #+title: knowledge graphs and/or meditation
-* Meditating without writing is also great.
+* caveat
+  Meditating without writing is also great.
+  But this is about doing both.
 * mindmaps and meditation
   My path to mental health involved, oddly enough, knowledge graphs. I had a practice that blended meditation, writing, reading other peoples' stuff, reading my own notes, and refactoring my notes. Those sound like different activities but they're really all on a continuous spectrum. As you read or listen to someone, you're taking notes in your head. As you refactor your notes, you'll find ways of expressing something so much more concisely that it qualifies as insight, not just rewording. Determining that some notes belong in the same category, and then putting that category into words, is as often a within-the-brain process as it is an on-paper (on-screen) one.
 

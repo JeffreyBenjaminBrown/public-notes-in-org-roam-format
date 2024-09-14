@@ -99,6 +99,8 @@ https://www.reddit.com/r/haskellquestions/comments/bz5dmp/how_to_implement_b_a_a
    It seems reasonable because it looks like both functions are referring to the same type variable a. However, GHC is actually inserting an implicit forall in both functions. In other words, each function has its own type variable a.
 ** [[id:58d58f75-aeff-4cf4-a6cb-9a6401726aec][order matters in the let clause of a comprehension]]
 * solutions
+** [[id:197807cc-30bd-42bb-8659-5dfea74c8630][read and write files]]
+** [[id:624cbe18-81b7-4f45-b0cf-7f1f371bf12e][regular expressions]]
 ** [[id:9c31bbf8-2396-4329-a5df-be769f8679b7][Haskell & outline-mode]]: fold Haddock-style headings
 ** [[id:4b8fb6bb-54de-44bc-a9e4-47c39721b371][list comprehensions to bind a variable number of variables]]
 ** for space leaks

@@ -2,5 +2,5 @@
 :ID:       eba0ce43-3fb2-4d95-89f2-f5d8cae6f20f
 :END:
 #+title: the oldies greatest-hits problem
-* "There's a centralization of what we take from the past because the present is so crowded." -- TC, while being interviewed by Patrick Collison
+* "There's a centralization of what we take from the past because the present is so crowded." -- Tyler Cowen, when interviewed by Patrick Collison
   That is, the music, literature, etc. that people know about from past periods is dominated by biggest-hit players like The Beatles or Tolstoy.

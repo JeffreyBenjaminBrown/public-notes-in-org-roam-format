@@ -12,3 +12,5 @@
   try linking to a heading in a file from within that file,
   or within another file.
   What if two headings share the same text?
+* once my notes are linkable online
+  tell Nicole

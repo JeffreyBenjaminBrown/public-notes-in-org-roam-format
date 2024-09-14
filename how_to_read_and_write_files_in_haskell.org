@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       197807cc-30bd-42bb-8659-5dfea74c8630
+:END:
+#+title: how to read and write files in Haskell
+module ReadAndWrite where
+
+import System.IO (readFile, writeFile)
+
+
+readFile_andProveIt :: IO ()
+readFile_andProveIt = do
+    content <- readFile "./wrote.md"
+    putStr content
+
+writeFile_destructive :: IO ()
+writeFile_destructive = do
+    let content = "This is the new new content for the file."
+    writeFile "./wrote.md" content
+    putStrLn "File written successfully."

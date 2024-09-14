@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       624cbe18-81b7-4f45-b0cf-7f1f371bf12e
+:END:
+#+title: regular expressions in Haskell
+module Text where
+
+import           Text.Regex
+
+
+-- ^ The symbols ^ and $ work as expected.
+match_demo :: [Maybe [String]]
+match_demo = map (matchRegex (mkRegex "^hello$"))
+  [" hello",
+   "hello ",
+   "hello" ]
+
+-- ^ The list is of subexpression matches, i.e. capture groups,
+-- which are denoted by parentheses.
+match_capture_demo :: Maybe [String]
+match_capture_demo = matchRegex
+                     (mkRegex "([a-z]+)([0-9]+)([a-z]+)")
+                     "aaa123zzz"
