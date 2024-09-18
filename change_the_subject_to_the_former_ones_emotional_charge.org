@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       7f5e04f5-5247-49e8-b7af-82aa99f4c511
+:ROAM_ALIASES: "change the subject to the former ones emotional charge"
+:END:
+#+title: If someone gets mad, etc. for reasons that appear unfounded, change the subject to that.
+* example conversation
+  "I feel [afraid of x]"."
+  "[Gets mad]".
+  "Why are you mad? I'm just saying how I feel."
+* the idea
+  Often my tendency is to simply make a note of how they feel,
+  but continue on-topic.
+  But how they feel has become more important.

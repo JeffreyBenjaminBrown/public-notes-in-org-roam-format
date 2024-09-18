@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a3f94fe0-8a8f-45d2-8b57-1f24a81d7b91
+:END:
+#+title: movie reviews, recent
+* Late Night With the Devil
+  Stellar reviews.
+* DONE I Am Still
+  Child abuse. Blech.

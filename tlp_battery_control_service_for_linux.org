@@ -2,6 +2,7 @@
 :ID:       5489c6d6-d479-417d-8d51-703cac8675d2
 :END:
 #+title: TLP (battery control service for Linux)
+* TODO [[id:c50227a3-419c-482e-8f55-80d97178e1db][Use TLP to control laptop charging.]]
 * PITFALL: I don't think this will work for my computers.
   It's designed for Thinkpads.
 * TLP in NixOS

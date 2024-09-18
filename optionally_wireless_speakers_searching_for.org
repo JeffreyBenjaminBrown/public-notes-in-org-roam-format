@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       6d8f24fd-eeee-495c-ba3a-101db1f7b03d
+:END:
+#+title: optionally-wireless speakers, searching for
+* maybe
+** Rocksteady Stadium 2
+*** BLOCKED I asked about latency when connected via cable.
+    on Amazon
+*** link
+    https://www.amazon.com/Rocksteady-Stadium-Speakers-Immersive-connectible/dp/B0D89MLWFV/ref=sr_1_1?crid=2ED07PCVX5NRG&dib=eyJ2IjoiMSJ9.qE0oLT8yw3jgikPoj0OBCHOrOxhlwhpJ-zIsnR5Uneh75hs9d-bv5febu6LJMMebVFAIPvp_DRio87xoQR3_Yxn6rWuiH54CiBQtyOlkO3OEuu3lidwexm_Ytyw3-Og2i0KtdiepEhbMFNnQAuJ20h5SlMYnb0_8UtQz2DwZODj6M-1Zp0G9OrWqWrs5JYNB.acgoelIe_jEHB8IGnCZwr4BVqhxRV38CjyBWtOKF_RI&dib_tag=se&keywords=rocksteady+stadium+2&qid=1726406257&sprefix=pair+of+two+bluetooth+speakers+with+optional+audio+cable+connection%2Caps%2C726&sr=8-1
+*** 250 for 2 speakers, 400 for 2 speakers + sub
+* rejected
+** [[id:47f2d0f7-f069-4a65-9593-ab69859925b9][Edifier 1280DB stereo bluetooth speakers]]
+   or something better
+* TODO
+** TODO Is it *completely* wireless?
+   At least one speaker pair was called wireless
+   but needed a connection between the speakers and to the wall.
+** TODO Does it accept a cable input?
+** TODO Will there be a lag for cable input?
+   if only one speaker accepts a cable,
+   and transmits to the other one via bluetooth,
+   lag seems likely.

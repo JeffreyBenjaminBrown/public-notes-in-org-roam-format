@@ -2,6 +2,10 @@
 :ID:       47f2d0f7-f069-4a65-9593-ab69859925b9
 :END:
 #+title: Edifier 1280DB stereo bluetooth speakers
+**** LIES. Called "wireless" but isn't.
+     One speaker needs a power connection,
+     and the other needs an audio input from the first.
+* TODO does it accept a cable input?
 * DRAWBACK : cannot integrate with a subwoofer
 * specs
   https://www.amazon.com/Edifier-R1280DB-Bluetooth-Bookshelf-Speakers/dp/B0719C132V/ref=sxin_16_pa_sp_search_thematic-asin_sspa

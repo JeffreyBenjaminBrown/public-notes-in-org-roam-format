@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       19a452f8-ce50-44d8-9587-14c9b69696ee
+:END:
+#+title: Consentomatic: Fill in consent forms automatically.
+* https://consentomatic.au.dk/
+* It's discussed on Hacker News:
+  https://news.ycombinator.com/item?id=41479882
+* why I haven't installed it (yet?)
+** It probably wants a lot of browser permissions.
+** Firefox says it's owned by a university,
+   but I don't know what that guarantees.

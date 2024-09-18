@@ -2,6 +2,24 @@
 :ID:       d5a5a3ff-977a-405b-8660-264fb4e974a3
 :END:
 #+TITLE: Hode
+* u <2024-09-16 Mon>
+** Problems to solve
+*** So, maybe, could being able to share half-finished thoughts in a way others can contribute meaningfully to (mind maps)
+*** Scientists feel so much pressure to produce results that they have no time to think
+**** Some sort of publication import-based revenue sharing might help
+** My homework
+*** Reach out to who DD said
+*** Try Mastodon
+*** Make knowledge graph shareable
+** Elevator pitch
+*** Data we want and can't get right now would be easy to collect with internet-enabled AI.
+*** Certain data about authors should be easy to query.
+**** Namely, again, the data available to a user.
+*** Any kind of question about the data available to a user should be easy to state, to parse, and to contribute answers to.
+*** Feed algorithms should be created and chosen by users.
+*** Twitter etc., Google, YouTube and Wikipedia should all be one thing.
+** Is it legal to make a free Facebook client?
+** When you and put something, Hode should parse it automatically into elements, display the elements with IDs next to each one, and let you quickly add more relationships between those elements.
 * also to file
 ** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
 ** [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode6]]

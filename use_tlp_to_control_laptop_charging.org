@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       c50227a3-419c-482e-8f55-80d97178e1db
+:END:
+#+title: Use TLP to control laptop charging.
+**** TODO
+* hasn't worked
+  I tried to put these settings right after the line
+    powerManagement.enable = true;
+    but it generates errors.
+* the settings
+  services.tlp = {
+        enable = true;
+        settings = {
+         START_CHARGE_THRESH_BAT0 = 75;
+         STOP_CHARGE_THRESH_BAT0  = 80;
+
+#          CPU_SCALING_GOVERNOR_ON_AC    = "performance";
+#          CPU_SCALING_GOVERNOR_ON_BAT   = "powersave";
+#          CPU_ENERGY_PERF_POLICY_ON_BAT = "power";
+#          CPU_ENERGY_PERF_POLICY_ON_AC  = "performance";
+
+#          CPU_MIN_PERF_ON_AC            = 0;
+#          CPU_MAX_PERF_ON_AC            = 100;
+#          CPU_MIN_PERF_ON_BAT           = 0;
+#          CPU_MAX_PERF_ON_BAT           = 20;
+        };
+  };
+* ChatGPT says I could also use
+  acpi_call
+  upower
+  fuck with the BIOS
