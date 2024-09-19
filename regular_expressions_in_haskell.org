@@ -9,7 +9,7 @@ import           Text.Regex
 
 -- ^ The symbols ^ and $ work as expected.
 match_demo :: [Maybe [String]]
-match_demo = map (matchRegex (mkRegex "^hello$"))
+match_demo = map (matchRegex $ mkRegex "^hello$")
   [" hello",
    "hello ",
    "hello" ]

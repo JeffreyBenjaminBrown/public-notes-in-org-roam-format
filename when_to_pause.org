@@ -2,6 +2,8 @@
 :ID:       385a4f63-eaf8-4fe1-b576-0666ea50dde3
 :END:
 #+title: when to pause
+* see also
+  [[id:15c15ae2-bb60-4f6e-9e6d-e9045f9c0132][When to review my notes]] on something.
 * When tempted to ignore pain,
   stop to consider the stakes.
 * When I'm not sure my priorities are straight, consider meditating (on it).
@@ -20,3 +22,4 @@
 * when I notice myself *suppressing* feelings of nervousness
   e.g. if I'm about to do something that might be stupid,
   consider in detail the potential negative consequences.
+* when feeling pressured (e.g. by salespeople)
