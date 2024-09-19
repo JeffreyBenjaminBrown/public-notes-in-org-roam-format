@@ -20,7 +20,7 @@
 ** Waiting too long to tell someone something can make them angry and distrustful
 ** But it should be clear what kinds of information reach whom, under what circumstances
 ** Not everything should be shared with everyone (immediately or even at all)
-***  to avoid wasting both time and (if it's bad news) emotional resources
+*** to avoid wasting both time and (if it's bad news) emotional resources
 * Have goals and metrics at different time scales
 ** Qualitative goals and even metrics are useful, if something is hard to quantify
 * Say what you think you can't
