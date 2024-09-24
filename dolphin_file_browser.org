@@ -3,3 +3,4 @@
 :END:
 #+title: Dolphin (file browser)
 * toggle thumbnails with F11
+* create a symlink with Ctrl-Shift-drag

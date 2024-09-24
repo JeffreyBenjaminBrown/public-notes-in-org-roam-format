@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       5f3ea5e8-ba24-430b-addc-0acd74dbfe52
+:ROAM_ALIASES: "drum synth"
 :END:
 #+title: percussive physical modeling software
 ordered by preference
