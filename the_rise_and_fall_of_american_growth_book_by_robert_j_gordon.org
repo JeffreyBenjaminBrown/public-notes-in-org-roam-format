@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       5013ad27-c8f7-404b-bdcb-cb5c95cdca08
+:END:
+#+title: The Rise and Fall of American Growth (book) by Robert J. Gordon
+* The automobile was basically developed in Europe.
+  America was exceptional at popularizing it, not inventing it.
+* [[id:65e4e90a-ffd5-43b9-9d2c-d9f386b42cd6][Houses used to be so cold that people tried to use the kitchen for everything.]]
+* [[id:263fa231-f8ed-4c32-9ba7-219849406ccf][In the 1800s people in the US had basically zero free time.]]
+* Bicycles triggered the shift from long to short skirts.
+* Dangerously flammable sewer gases used to rise into homes.
+* [[id:855273d6-62fb-40e4-9163-b71468fc32bf][Cans were revolutionary.]]
+* [[id:b1e3e205-5abd-4cc1-b6d4-b8c0f46a96f9][Screen doors were an important hygiene innovation.]]
+* [[id:44c4ba19-10b9-4928-af26-7fa2cf03d56b][Horseshit was an incredibly big problem.]]

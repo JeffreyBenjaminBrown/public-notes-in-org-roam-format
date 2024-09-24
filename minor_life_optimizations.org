@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "efficiency \\ jbb"
 :END:
 #+title: minor life optimizations
+* "Atkinson Hyperlegible" font
 * [[id:c50227a3-419c-482e-8f55-80d97178e1db][Use TLP to control laptop charging.]]
 * [[id:19a452f8-ce50-44d8-9587-14c9b69696ee][Consentomatic: Fill in consent forms automatically.]]
 * Broadcast lists on WhatsApp
