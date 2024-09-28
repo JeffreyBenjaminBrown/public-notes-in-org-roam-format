@@ -3,16 +3,19 @@
 :END:
 #+TITLE: Hode
 * u <2024-09-16 Mon>
-** Problems to solve
-*** So, maybe, could being able to share half-finished thoughts in a way others can contribute meaningfully to (mind maps)
-*** Scientists feel so much pressure to produce results that they have no time to think
-**** Some sort of publication import-based revenue sharing might help
-** My homework
+** benefits
+*** Being able to share half-finished thoughts in a way others can contribute meaningfully to.
+** problems to solve
+*** Scientists feel so much pressure to produce results that they have no time to think.
+**** Some sort of publication import-based revenue sharing might help.
+** my homework
 *** Reach out to who DD said
 *** Try Mastodon
-*** Make knowledge graph shareable
-** Elevator pitch
-*** Data we want and can't get right now would be easy to collect with internet-enabled AI.
+** components
+*** Distributed, AI-assisted crawling, indexing.
+    Some kind of hub would share what people are indexing
+    (to the extent that they make it public),
+    to avoid duplication of effort.
 *** Certain data about authors should be easy to query.
 **** Namely, again, the data available to a user.
 *** Any kind of question about the data available to a user should be easy to state, to parse, and to contribute answers to.

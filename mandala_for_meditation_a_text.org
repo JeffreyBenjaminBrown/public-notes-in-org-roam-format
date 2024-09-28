@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       8fe523d8-06f0-4bef-969d-3d106596d694
+:END:
+#+title: mandala for meditation, a text
+* internal
+  All seem willed, except
+  observation and certain wants like hunger.
+** observation
+** want
+** will
+** memory
+** emotion
+** imagination
+* touch
+** pressure
+** temperature
+** proprioception
+** gravity, acceleration
+* people
+** empathy
+** well-wishing
+* anything
+** is time-bounded
+** is observed unbidden
+** is a narrative
+   even the self

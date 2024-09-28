@@ -6,7 +6,7 @@
 * example conversation
   "I feel [afraid of x]"."
   "[Gets mad]".
-  "Why are you mad? I'm just saying how I feel."
+  "Are you mad? I'm just saying how I feel."
 * the idea
   Often my tendency is to simply make a note of how they feel,
   but continue on-topic.

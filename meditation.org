@@ -2,6 +2,7 @@
 :ID:       8582cec9-74e2-4664-a6d7-946c2ba240e0
 :END:
 #+title: meditation
+* [[id:8fe523d8-06f0-4bef-969d-3d106596d694][mandala for meditation, a text]]
 * [[id:39029f2f-0f39-49fd-b6ad-e8be09859729][Effort and observation are somewhat disjunctive.]]
 * [[id:3fcb7f4f-4016-4991-8edc-5146cddfdace][Breath is a special focus, because it is semi-voluntary.]]
 * [[id:20498902-7288-4d65-bc57-76f1d5d35138][Mindfulness, particularly awe, in romance sounds amazing.]]
