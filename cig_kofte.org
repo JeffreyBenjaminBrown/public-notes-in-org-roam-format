@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       56ff1d98-6092-4100-bb8d-ee826f30f251
+:ROAM_ALIASES: "çiğ köfte"
+:END:
+#+title: cig kofte
+* Is made from meat or (recently more popular) lentils.
+* Is not cooked! Just rubbed at length in spices and other things.
+* Dangerous. Avoid.
+  [[id:c0476faa-58f7-4b49-9acc-0dfb515bfe2d][Gives me enormous nasty farts in under three hours.]]
+  I know because I unwittingly verified the next day,
+  having taken some home the night before.
