@@ -2,6 +2,10 @@
 :ID:       5013ad27-c8f7-404b-bdcb-cb5c95cdca08
 :END:
 #+title: The Rise and Fall of American Growth (book) by Robert J. Gordon
+* Credit offered a huge advantage to white farmers over black ones.
+* Maritime and life insurance date back to the Phoenicians.
+* Before refrigeration, cattle had to be driven in death marches to the cities to be sold.
+* Deaths caused in America by railroads from 1998 to sorry 1898 to 1900, that is 3 years, were equal to the losses incurred by the British army during the Boer War, of the same duration.
 * The automobile was basically developed in Europe.
   America was exceptional at popularizing it, not inventing it.
 * [[id:65e4e90a-ffd5-43b9-9d2c-d9f386b42cd6][Houses used to be so cold that people tried to use the kitchen for everything.]]

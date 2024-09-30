@@ -14,6 +14,7 @@
 ** [[id:3924c945-e600-453f-be00-b2fb24d65f17][Go (programming language)]]
 ** [[id:23f1e037-49c2-4fa1-acf6-a42b5703082a][Idris (programming language)]]
 ** Prolog
+** [[id:07d8ccba-bc9a-49ed-b2c9-0aa9d0a2f8e0][Mercury (programming language)]] - like Prolog but strict & pure
 ** [[id:46736b7c-2aea-4b54-bbcf-eeb10330f29f][Datalog]]
 *** [[id:87872121-b3f2-49f0-a0b4-2301843c9412][Cozo (graph db with Datalog query language)]]
 ** [[id:b46f994e-d01e-4b2f-903d-4f6a967dc68a][Hamler (programming language)]]

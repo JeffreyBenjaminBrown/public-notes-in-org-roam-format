@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       354c825c-1ee8-4a13-9f90-e059fe90ec7b
+:END:
+#+title: The Economist (magazine)
+* problems with their app
+  to report whenever they survey me
+** Hostile UI
+*** Not being able to see the subheading without clicking
+*** Having to cycle around to change the speed
+** The audio. Buggy, laggy, awkward.
+   Sometimes it won't load a new story after playing though the previous one if the screen is dark, but "remembers to" as soon as I open and look at the app. This is after having downloaded the entire issue.
+
+   If you press the speed change button one too many times, you have to press it seven more times to cycle all the way back around to normal speed -- assuming the app registers each press, which it can take fifteen seconds of waiting to determine.
+
+   Sometimes the audio stops, reports "an error occurred, please try again", and trying again doesn't work (even after rebooting the whole phone), but reinstalling does.
+
+   Sometimes the audio for one particular article is broken but for the others it still works.
+
+   Podcast Addict is free and suffers none of these problems.

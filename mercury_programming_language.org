@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       07d8ccba-bc9a-49ed-b2c9-0aa9d0a2f8e0
+:END:
+#+title: Mercury (programming language)
+* Like Prolog, but compiled, statically typed, and pure
+  (and therefore safer and faster).
+* Expresses IO purely, using linear types
+  by threading a "world" value through the execution chain.

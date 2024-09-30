@@ -15,3 +15,6 @@
 ** After `ether` is the MAC address.
    Those, uniquely, are formatted like `f0:d5:bf:01:6e:13`.
    That's six pairs of hex digits.
+** PITFALL: "docker" isn't the device!
+   Although it has an ethernet address
+   -- which seems weird to me.
