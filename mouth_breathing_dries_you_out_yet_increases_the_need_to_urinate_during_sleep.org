@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       3ef52b56-0c52-4ef4-8ebb-ee6177b59068
+:END:
+#+title: Mouth breathing dries you out, yet increases the need to urinate during sleep.
+* why
+  During the deepest stages of sleep the pituitary gland releases vasopresin, an anti-diuretic, making cells store more water. Apnea reduces the amount of deep sleep.
+* source
+  Breath (book) by James Nestor

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       588c9e19-447c-40ac-b894-070fed44b887
+:END:
+#+title: Audible Spanish books, most of, a search
+"la" and "de" both work. "el" is much fewer.
+
+Here is "la". To use "de", replace both instances of the string "la" in the URL with "de".
+
+https://www.audible.com/search?audible_programs=20956260011&audible_programs=21487975011&feature_six_browse-bin=18685609011&feature_twelve_browse-bin=18685552011&k=la&keywords=la&ref_pageloadid=PCnERjNNUZDdMGwy&pf_rd_p=daf0f1c8-2865-4989-87fb-15115ba5a6d2&pf_rd_r=7KP29H56XP52E7DPQFWK&pageLoadId=rLWmvvol8xkJS4gU&creativeId=9648f6bf-4f29-4fb4-9489-33163c0bb63e&ref=a_search_l1_feature_twelve_browse-bin_0

@@ -2,6 +2,8 @@
 :ID:       2b0cc874-56b8-4803-b581-329a2f4a04a1
 :END:
 #+title: 46-edo // cool or challenging pitch sets
+* an extremely harmonic diminished-sounding 7-tone scale
+  rise alternating 3\ and 9\46
 * "3,13" whole tone
   Two stacks of narrow whole tones,
   mostly separated by fifths:

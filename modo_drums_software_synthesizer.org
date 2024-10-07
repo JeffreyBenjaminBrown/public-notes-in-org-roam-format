@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       444e2bc9-79df-44c8-bafb-b4590fc1f8d0
+:END:
+#+title: Modo Drums (software synthesizer)
+alternatives
+* WORKED: download Modo Drums online
+  bypassing their Product Manager
+** as suggested here
+   https://linuxmusicians.com/viewtopic.php?p=163631#p163631
+* MAYBE IMPOSSIBLE : install via the Product Manager
+  This is the way IK Multimedia  seem to prefer.
+** installing it
+*** problem with Product Manager path
+    It wants this path to exist:
+      C:\users\jeff\Documents\IK Multimedia\IK Product Manager
+    One strange thing is that
+      /home/jeff/.wine/drive_c/users/jeff/Documents
+    is actually a symlink to the non-Wine folder
+      /home/jeff/Documents
+    Another is that when I created
+      /home/jeff/Documents/IK Multimedia/IK Product Manager
+    it still claimed not to see the path.
+*** this attempted solution failed
+    In the installer I'm changing the path to
+      /home/jeff/.wine/drive_c/users/jeff/ik_product_manager
+    which exists and uses no symlink.
+*** a non-Wine path did not work either
+    In the path picker in the installer, I navigate to
+      ~/Documents/IK Multimedia
+    which then is displayed as
+      Z:\home\jeff\Documents\IK Multimedia
+*** not even the path to the folder where it's installed worked!
+    something like C:/../Program Files/../IK Product Manager/downloads/
+    I created the last part of that path, the downloads/ folder.
+    And it had *disappeared* after I rebooted and reran Wine.
+*** rebooting and trying C:\users\jeff\ik_product_manager again
+    The last part of that path has been chmodded to +777.
+** ask LinuxMusicians forum
+I have Wine and winetricks installed, in NixOS.
+I downloaded IK Multimedia's "ProductManager_1_1_5",
+and ran the installer using wine.
+It seemed to work, because now there are a lot of files at
+  `/home/jeff/.wine/drive_c/Program Files/IK Multimedia/IK Product Manager`
+But when I try to install MODO Drums, no matter what download path I choose, I get an error like
+```
+  The volume/disk where the software download path
+C:\users\jeff\ik_product_manager
+you've selected should be does not exist. Please close this window to select a new path in preferences. (code: 2110)
+```

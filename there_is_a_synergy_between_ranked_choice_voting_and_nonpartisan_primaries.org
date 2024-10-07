@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       7e201b55-6f38-4f8e-a6bd-8531a94b47f9
+:END:
+#+title: There is a synergy between ranked choice voting and nonpartisan primaries.
+A nonpartisan primary ensures that candidates at that stage have an incentive to appeal to everyone.

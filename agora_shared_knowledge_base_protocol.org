@@ -2,7 +2,8 @@
 :ID:       f9ee18e9-68f2-4f10-b10d-c91186b797e3
 :END:
 #+title: Agora (shared knowledge base (protocol))
-* my latest problem
+* <2024-10-06 Sun> trying with Flancian's Dockerfile
+* <2022-03-28 Mon> my latest problem
 ** refs
 *** my NixOS experiments on github
     https://github.com/JeffreyBenjaminBrown/nixos-experiments/tree/agora-problems/agora-problems

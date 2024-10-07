@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       0e111da3-d218-4b9b-9f3e-b4d5d61cf5e2
+:END:
+#+title: Breath (book) by James Nestor
+* references
+** exercises in the book start just after 6:46:54
+** exercises as videos at mrJamesNestor.com/breath
+* unskeptical notes from the book
+  early pages at bottom
+** Someone ran an experiment where they gave some animals the same food but wet so that it was soft. No other difference, and the treatment group got sick.
+** In the chapter on chewing he talks about a technique called mewing, perhaps developed by someone named Mike mew, definitely Mike something, which can be found on YouTube and has a lot of fans.
+** Occasional "breath fasting" is good
+** Breathing slow is helpful.
+*** Something special about taking 11 second breath cycles
+** Slow breaths with complete exhales reduce cardio load.
+** The larynx in most species is higher. That's good for making choking difficult, as the larynx controls whether things go from the mouth to the stomach or the lungs. But we needed more space in our mouths in order to speak better
+*** "works as a valve to shuttle food into the stomach and protect us from inhaling it"
+** Short flat noses are more useful in hot and humid environments, for efficiency. In colder and dryer climates, a longer and skinnier nose is useful to warm the air and I guess moisten it.
+** [[id:3ef52b56-0c52-4ef4-8ebb-ee6177b59068][Mouth breathing dries you out, yet increases the need to urinate during sleep.]]
+* parts I doubt
+  These claims were not central to the book.
+** That the left and right nostrils have different functions.
+   He claimed there was a study by some California university that corroborated it, but didn't give details.
+   It's also claimed in some Ayurvedic lit.
+** That electrons can be equated with life energy.
+   IIRC this was an idea from a nobel prize-winning Hungarian.

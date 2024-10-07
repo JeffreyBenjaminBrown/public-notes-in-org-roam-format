@@ -4,3 +4,4 @@
 #+title: audio in Linux
 * see also [[id:f2f429b7-c918-4421-a186-b0ab272ca0e2][audio in NixOS]]
 * [[id:625c1390-b4a5-49ee-9558-90eaa7c6f77b][qjackctl]]
+* [[id:f4e27e60-7c30-4cb4-8092-389c0512910c][how to use a Windows-only plugin in Linux]]

@@ -11,3 +11,5 @@
 ** [[id:34fb2b82-ed80-44cf-b305-4f7b5b0e846b][Civil Service reform in the US]]
 ** [[id:c02cac09-ad20-4a32-a5da-e4a0d901b39c][parliamentary government]]
 ** [[id:86dba0b9-a816-4874-bddf-8b20add34e73][head of state vs. head of government]]
+* voting
+** [[id:7e201b55-6f38-4f8e-a6bd-8531a94b47f9][There is a synergy between ranked choice voting and nonpartisan primaries.]]

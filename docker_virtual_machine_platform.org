@@ -29,3 +29,5 @@
    use [[id:e0b24368-4470-412b-b8f4-f5767d93c76a][docker exec]]
 ** if pip install does not work
    it might be because [[id:34ea75fa-7f37-426c-87af-cfcf5fbfe5aa][`source` is not available by default]]
+** To quickly edit a Docker-locked file from the host system
+   https://stackoverflow.com/a/26915343

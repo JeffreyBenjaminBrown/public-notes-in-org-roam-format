@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       f4e27e60-7c30-4cb4-8092-389c0512910c
+:ROAM_ALIASES: yabridge yabridgectl
+:END:
+#+title: how to use a Windows-only plugin in Linux
+This applies at least to VST plugins,
+but I suspect it works for other formats, too.
+* [[id:51358dbf-6c5c-42a2-b44e-76128b763857][PITFALL: `yabridgectl sync` might need redoing for new .]]
+* steps, in serial
+** install Wine, and maybe other things
+   e.g. winetricks
+** install a "bridge"
+   "yabridge" might be easiest.
+   There are a few.
+** install the plugin in Wine
+   ChatGPT suggests running the following (from Bash?):
+     wine setup_vst.exe
+   Choose a target folder like
+     ~/.wine/drive_c/Program Files/VSTPlugins
+** inform the bridge of the new plugin
+*** If using yabridge, run `yabridgectl sync`
+**** PITFALL: This might need to be done each time I add a VST.
+     :PROPERTIES:
+     :ID:       51358dbf-6c5c-42a2-b44e-76128b763857
+     :END:
+** choose a VST host to run on Linux
+   e.g. a DAW like Reaper
+** add the Wine VST folder to what the VST host scans

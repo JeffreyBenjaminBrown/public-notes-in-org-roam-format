@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b74547ef-a908-4121-a990-fbca942ca1e0
+:END:
+#+title: Wine (Windows emulator for Linux)
+* [[id:444e2bc9-79df-44c8-bafb-b4590fc1f8d0][Modo Drums (software synthesizer)]]
+* it needs configuration (once) after installation
+  Just run "winecfg" from Bash.

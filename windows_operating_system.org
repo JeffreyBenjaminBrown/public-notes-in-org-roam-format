@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       6ac17a73-3658-48c2-b2a8-a75f3a2a1b85
+:ROAM_ALIASES: Windows
 :END:
 #+title: Windows (operating system)
 * The Windows shell app is called 'Powershell'
@@ -62,3 +63,4 @@
    :ID:       bbd54726-2e3f-45cc-9940-78079e06347b
    :END:
    It can log keyboard input.
+* [[id:b74547ef-a908-4121-a990-fbca942ca1e0][Wine]] (Windows emulator for Linux)

@@ -15,5 +15,7 @@
 * installing Pianoteq
 ** extract the .7z archive with "7z x <filename>"
    (not "7z e" like I expected).
+** I'm using the LV2i format
+   Can't remember why I didn't choose VST.
 * Solved problems
 ** [[id:298bfc3b-b16e-4494-8985-c684ba8b8b91][Pianoteq seems to be getting low priority.]]

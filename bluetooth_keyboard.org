@@ -2,7 +2,11 @@
 :ID:       235406f7-1846-47ea-805c-dcd97d3e363b
 :END:
 #+title: Bluetooth keyboard purchase plans
-* 10 USD, simple
-  https://a.co/d/79OCkvJ
-* 34 USD, with built-in phone stand
-  https://a.co/d/139vOlG
+* requirements
+  small (folding?)
+  built-in stand for phone
+* options
+** 10 USD, simple
+   https://a.co/d/79OCkvJ
+** 34 USD, with built-in phone stand
+   https://a.co/d/139vOlG
