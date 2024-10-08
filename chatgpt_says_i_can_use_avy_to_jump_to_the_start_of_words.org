@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       ea81b91a-59f1-4de3-af92-558a828294b3
+:END:
+#+title: ChatGPT says I can use 'avy' to jump to the start of words.
+If you're comfortable using packages, avy is a powerful navigation tool that can jump to any visible word or character on the screen.
+
+Use avy-goto-word-1 to jump to the beginning of a word by typing:
+
+    (global-set-key (kbd "C-c j") 'avy-goto-word-1)
+
+With avy, you can quickly jump to the start of a word and avoid the need for typical search behavior.

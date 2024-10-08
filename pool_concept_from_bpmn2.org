@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2b1a0da9-2f2a-4a73-94f5-23fe0455b492
+:END:
+#+title: pool (concept from BPMN2)
+* what I gather from talking to ChatGPT
+  There's a 1-to-1 correspondence between pools and agencies.
+  The pool could be more simply called "that agency's data".
+  The pools talk to each other.
+* William Acosta's explanation
+  Pool es un concepto de la notación de modelado de procesos BPMN2 que es con lo que se modelan las rutas de los inversionistas, en BPMN2 se refiere a espacios organizacionales como áreas o a diferentes entidades (empresas), sirve para identificar que las comunicaciones entre pools requerirán mecanismos de interoperabilidad. En la VUI existe el pool principal donde se modela la ruta del inversionista y los pools de las entidades prestadoras de los trámites.
