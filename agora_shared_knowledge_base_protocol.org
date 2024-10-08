@@ -3,6 +3,8 @@
 :END:
 #+title: Agora (shared knowledge base (protocol))
 * <2024-10-06 Sun> trying with Flancian's Dockerfile
+  This seems to show how to launch:
+  https://github.com/flancian/agora/blob/master/Agora%20architecture.md
 * <2022-03-28 Mon> my latest problem
 ** refs
 *** my NixOS experiments on github

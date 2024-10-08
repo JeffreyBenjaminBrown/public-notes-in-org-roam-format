@@ -3,6 +3,8 @@
 :ROAM_ALIASES: "Bogotá bars and restaurants" "bars and restaurants in Bogotá"
 :END:
 #+title: restaurants and bars in Bogotá
+* near MinCIT
+** DONE [[id:96990aa2-79ea-4a17-abeb-bd799a8c4899][Solar del Brevo]]: too salty
 * [[id:4223b1b6-2b62-4067-adcc-bddaac620a11][Revellion (bar in Bogotá)]]
 
 * [[id:029e7a57-e916-445e-9cbd-f43bf79ffd42][Aprissa Pizza]]
