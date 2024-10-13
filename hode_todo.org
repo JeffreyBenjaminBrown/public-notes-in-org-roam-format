@@ -5,6 +5,9 @@
 * also to file
 ** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
 ** [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode6]]
+* prior art to investigate
+** [[id:e7798f00-df21-49f4-bb26-632011facbb7][Twitter wanted to switch the weight of subscriptions from people to topics.]]
+** [[id:2cd835d3-a30b-4fcf-9772-9bc70512d7f2][Facebook implemented an oversight board.]]
 * Reach out to who DD suggested.
 * Try Mastodon.
 * Is it legal to make a free Facebook client?

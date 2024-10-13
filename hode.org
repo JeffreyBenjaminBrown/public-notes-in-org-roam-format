@@ -6,15 +6,12 @@
 ** [[id:b37024f7-716b-4748-9a33-d35e75f4ede1][epistemology]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
 * [[id:29903b27-2b73-4a1b-a8d8-257c219fe70e][an introductory sketch of Hode]]
+* [[id:ec977e2d-46b9-455f-8be0-fb3eaba4c2ca][problems Hode might help]]
 * sharing Hode's development process
 ** [[id:14970dcf-abd4-47d3-a5d3-b93a090e280d][people, communities who are or might be interested in Hode]]
 ** [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
 ** my [[id:9ac529d9-c76d-44b9-b68c-2ab06a6c5e59][outreach efforts for Hode]]
-* prior art to investigateu
-** [[id:e7798f00-df21-49f4-bb26-632011facbb7][Twitter wanted to switch the weight of subscriptions from people to topics.]]
-** [[id:2cd835d3-a30b-4fcf-9772-9bc70512d7f2][Facebook implemented an oversight board.]]
 * [[id:97c7fdde-181b-4a9e-b210-cc380b8afb8b][Hode usage and gameification]]
-* [[id:ec977e2d-46b9-455f-8be0-fb3eaba4c2ca][problems Hode might help]]
 * [[id:e2911eb2-2d2f-4f8b-9de8-31356bb89df1][things Hode would enable]]
 * [[id:fbb345d3-1e65-414a-8e68-23c225d51f4d][problems with Hode]]
 * tools for Hode
