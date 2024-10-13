@@ -22,8 +22,8 @@
     https://cs-syd.eu/posts/2019-06-28-microsmos
     and then a forest editor:
     https://cs-syd.eu/posts/2019-08-28-millismos
-* [[id:1369d33e-8671-40ed-8401-4bf7597202c1][outcome wishlist for the coommunity]]
-* [[id:1c1415bc-64d2-4cb3-9c65-b9b617d0777e][feature wishlist for the technology]]
+* [[id:1369d33e-8671-40ed-8401-4bf7597202c1][outcome goals for the coommunity]]
+* [[id:1c1415bc-64d2-4cb3-9c65-b9b617d0777e][feature goals for the technology]]
 * [[id:2b735c4f-b4d9-4d7d-9155-b650d90a2c4a][defunct : coding Hode in Haskell]]
 * [[id:663aa255-2dc7-4fdc-89bf-43e392d7cdc1][instructional videos for software, how to make]]
 * dubious : [[id:bc0ba15e-6be8-4c0a-851c-0660c70de2b4][information sharing and cryptocurrency]]

@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       1369d33e-8671-40ed-8401-4bf7597202c1
 :END:
-#+title: outcome wishlist for an information-sharing coommunity
+#+title: outcome goals for an information-sharing coommunity
 * [[id:e9e5ff31-0dc8-49c7-9ed3-69f59741ef0b][Anonymous sharing should be possible.]]
 * [[id:a7ea1aee-cefe-4634-97b0-880054f11cc4][healthy interactions across different ccommunities]]
 * Some, maybe all, of these depend on people more than code.

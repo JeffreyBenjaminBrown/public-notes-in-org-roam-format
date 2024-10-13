@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       1c1415bc-64d2-4cb3-9c65-b9b617d0777e
 :END:
-#+title: feature wishlist for an information-sharing technology
+#+title: feature goals for an information-sharing technology
 * automatic parsing from NL to graph
   When you input a statement,
   Hode should parse it automatically into elements,
