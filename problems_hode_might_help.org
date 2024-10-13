@@ -2,7 +2,8 @@
 :ID:       ec977e2d-46b9-455f-8be0-fb3eaba4c2ca
 :END:
 #+title: problems Hode might help
-* [[id:4de638f4-5126-4b4d-9754-25a3f76cf24d][collective, emergent curricula]]
+* Making search better.
+* Taming online misinformation.
 * [[id:0abadd88-94f3-4b54-9329-8952c3690739][Build your own recommendation algorithm.]]
 * [[id:635cf3cc-8ccd-477a-b5dd-475b6230e2ab][Publication in science is too much work.]]
 * [[id:8cd426c4-6469-4589-846b-652c860a0025][taming online hostility]]

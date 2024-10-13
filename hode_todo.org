@@ -8,6 +8,14 @@
 * prior art to investigate
 ** [[id:e7798f00-df21-49f4-bb26-632011facbb7][Twitter wanted to switch the weight of subscriptions from people to topics.]]
 ** [[id:2cd835d3-a30b-4fcf-9772-9bc70512d7f2][Facebook implemented an oversight board.]]
-* Reach out to who DD suggested.
-* Try Mastodon.
-* Is it legal to make a free Facebook client?
+* [[id:9ac529d9-c76d-44b9-b68c-2ab06a6c5e59][outreach]]
+* coding Hode
+** tools for Hode
+*** [[id:31a087fe-bbc4-41e2-963c-7c8ae757aa34][WordNet]] : nodes are words, and edges include is-a, has-a, etc.
+*** dubious
+**** [[id:42458f39-c09a-4af4-82da-1bd74967b046][Yi is a Haskell library for building text editors.]]
+**** ? someone wrote a tree editor
+     https://cs-syd.eu/posts/2019-06-28-microsmos
+     and then a forest editor:
+     https://cs-syd.eu/posts/2019-08-28-millismos
+** [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode in TypeDB and Emacs (plans)]]

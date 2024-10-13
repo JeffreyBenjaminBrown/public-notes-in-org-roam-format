@@ -8,20 +8,9 @@
 * [[id:29903b27-2b73-4a1b-a8d8-257c219fe70e][an introductory sketch of Hode]]
 * [[id:ec977e2d-46b9-455f-8be0-fb3eaba4c2ca][problems Hode might help]]
 * sharing Hode's development process
-** [[id:14970dcf-abd4-47d3-a5d3-b93a090e280d][people, communities who are or might be interested in Hode]]
-** [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
-** my [[id:9ac529d9-c76d-44b9-b68c-2ab06a6c5e59][outreach efforts for Hode]]
 * [[id:97c7fdde-181b-4a9e-b210-cc380b8afb8b][Hode usage and gameification]]
 * [[id:e2911eb2-2d2f-4f8b-9de8-31356bb89df1][things Hode would enable]]
 * [[id:fbb345d3-1e65-414a-8e68-23c225d51f4d][problems with Hode]]
-* tools for Hode
-** [[id:31a087fe-bbc4-41e2-963c-7c8ae757aa34][WordNet]] : nodes are words, and edges include is-a, has-a, etc.
-** dubious
-*** [[id:42458f39-c09a-4af4-82da-1bd74967b046][Yi is a Haskell library for building text editors.]]
-*** ? someone wrote a tree editor
-    https://cs-syd.eu/posts/2019-06-28-microsmos
-    and then a forest editor:
-    https://cs-syd.eu/posts/2019-08-28-millismos
 * [[id:1369d33e-8671-40ed-8401-4bf7597202c1][outcome goals for the coommunity]]
 * [[id:1c1415bc-64d2-4cb3-9c65-b9b617d0777e][feature goals for the technology]]
 * [[id:2b735c4f-b4d9-4d7d-9155-b650d90a2c4a][defunct : coding Hode in Haskell]]

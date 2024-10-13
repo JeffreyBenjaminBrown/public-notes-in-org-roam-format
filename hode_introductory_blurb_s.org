@@ -11,8 +11,4 @@
 ** data exploration platforms (Tableau)
 * The data structure and query language would make it special.
   It would allow people to easily record not just statements, but statements about other peoples' statements, in a structure that permitted queries more advanced than what search engines enable currently. For instance, "Show me statements made about topic X by authors X and Y that coincide -- that is, X and Y have both said the same thing about it."
-* problems I think it could help with
-** Taming online hostility.
-** Taming online misinformation.
-** Making search better.
-** Creating emergent crowd-sourced curricula.
+* [[id:ec977e2d-46b9-455f-8be0-fb3eaba4c2ca][problems Hode might help]]
