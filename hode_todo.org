@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       3b8d3bb0-b32d-41c5-a548-ce93bea8d150
+:END:
+#+title: Hode & TODO
+* also to file
+** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
+** [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode6]]
+* Reach out to who DD suggested.
+* Try Mastodon.
+* Is it legal to make a free Facebook client?

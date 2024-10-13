@@ -2,46 +2,20 @@
 :ID:       d5a5a3ff-977a-405b-8660-264fb4e974a3
 :END:
 #+TITLE: Hode
-* u <2024-09-16 Mon>
-** benefits
-*** Being able to share half-finished thoughts in a way others can contribute meaningfully to.
-** problems to solve
-*** Scientists feel so much pressure to produce results that they have no time to think.
-**** Some sort of publication import-based revenue sharing might help.
-** my homework
-*** Reach out to who DD said
-*** Try Mastodon
-** components
-*** Distributed, AI-assisted crawling, indexing.
-    Some kind of hub would share what people are indexing
-    (to the extent that they make it public),
-    to avoid duplication of effort.
-*** Certain data about authors should be easy to query.
-**** Namely, again, the data available to a user.
-*** Any kind of question about the data available to a user should be easy to state, to parse, and to contribute answers to.
-*** Feed algorithms should be created and chosen by users.
-*** Twitter etc., Google, YouTube and Wikipedia should all be one thing.
-** Is it legal to make a free Facebook client?
-** When you and put something, Hode should parse it automatically into elements, display the elements with IDs next to each one, and let you quickly add more relationships between those elements.
-* also to file
-** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
-** [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode6]]
 * see also
 ** [[id:b37024f7-716b-4748-9a33-d35e75f4ede1][epistemology]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
+* [[id:29903b27-2b73-4a1b-a8d8-257c219fe70e][an introductory sketch of Hode]]
 * sharing Hode's development process
 ** [[id:14970dcf-abd4-47d3-a5d3-b93a090e280d][people, communities who are or might be interested in Hode]]
 ** [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
 ** my [[id:9ac529d9-c76d-44b9-b68c-2ab06a6c5e59][outreach efforts for Hode]]
-* prior art to investigate
+* prior art to investigateu
 ** [[id:e7798f00-df21-49f4-bb26-632011facbb7][Twitter wanted to switch the weight of subscriptions from people to topics.]]
 ** [[id:2cd835d3-a30b-4fcf-9772-9bc70512d7f2][Facebook implemented an oversight board.]]
 * [[id:97c7fdde-181b-4a9e-b210-cc380b8afb8b][Hode usage and gameification]]
 * [[id:ec977e2d-46b9-455f-8be0-fb3eaba4c2ca][problems Hode might help]]
-* things Hode would enable
-** [[id:d42c4051-e2b2-4f9e-ad1f-d86babf9116b][queries Hode would make possible]]
-** [[id:fb83f180-cb75-4180-ab9c-eb555f8ecc1b][relationships worth recording]]
-** [[id:87573557-33fa-4aae-93e9-7f99ffb5c9ed][circles of publication intimacy]]
+* [[id:e2911eb2-2d2f-4f8b-9de8-31356bb89df1][things Hode would enable]]
 * [[id:fbb345d3-1e65-414a-8e68-23c225d51f4d][problems with Hode]]
 * tools for Hode
 ** [[id:31a087fe-bbc4-41e2-963c-7c8ae757aa34][WordNet]] : nodes are words, and edges include is-a, has-a, etc.
@@ -56,3 +30,4 @@
 * [[id:2b735c4f-b4d9-4d7d-9155-b650d90a2c4a][defunct : coding Hode in Haskell]]
 * [[id:663aa255-2dc7-4fdc-89bf-43e392d7cdc1][instructional videos for software, how to make]]
 * dubious : [[id:bc0ba15e-6be8-4c0a-851c-0660c70de2b4][information sharing and cryptocurrency]]
+* [[id:3b8d3bb0-b32d-41c5-a548-ce93bea8d150][Hode & TODO]]

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       635cf3cc-8ccd-477a-b5dd-475b6230e2ab
+:END:
+#+title: Publication in science is too much work.
+* see also
+** [[id:1ad54594-b32d-4c20-871d-698240c3c6b4][more easily sharing and building on others' ideas with Hode]]
+* Scientists feel so much pressure to produce results that they have no time to think.
+** Some sort of publication import-based revenue sharing might help.
+** ArXiV helped with this.

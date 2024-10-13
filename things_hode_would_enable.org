@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       e2911eb2-2d2f-4f8b-9de8-31356bb89df1
+:END:
+#+title: things Hode would enable
+* [[id:1ad54594-b32d-4c20-871d-698240c3c6b4][more easily sharing and building on others' ideas with Hode]]
+* [[id:d42c4051-e2b2-4f9e-ad1f-d86babf9116b][queries Hode would make possible]]
+* [[id:fb83f180-cb75-4180-ab9c-eb555f8ecc1b][relationships worth recording]]
+* [[id:87573557-33fa-4aae-93e9-7f99ffb5c9ed][circles of publication intimacy]]

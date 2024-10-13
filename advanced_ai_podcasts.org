@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       6808ac44-7ba2-43f5-81c9-f314af96c2c6
+:END:
+#+title: advanced AI podcasts
+* rec's frmo ChatGPT
+** Machine Learning Street Talk
+   This podcast is known for advanced and thoughtful discussions on machine learning, AI theory, ethics, and developments in the field. The hosts and guests dive deep into technical concepts and cutting-edge research, making it perfect for those familiar with the basics who want more advanced content.
+** Lex Fridman Podcast
+   While Lex Fridman covers a wide range of topics, his episodes on AI and machine learning often feature in-depth, technical conversations with leading researchers in the field. He has interviewed figures like Yoshua Bengio, Elon Musk, and Sam Altman, focusing on both theoretical and applied AI.
+** TWIML AI (This Week in Machine Learning & AI)
+   This podcast dives into technical aspects of machine learning, featuring interviews with researchers and practitioners. They cover state-of-the-art research, technical advancements, and real-world applications of AI, making it a good source of more advanced content.
+** The Gradient Podcast
+   The Gradient Podcast focuses on discussions with AI researchers and engineers, exploring both technical and societal implications of AI. It's aimed at people with some familiarity with AI, offering in-depth analysis of recent trends and breakthroughs.
+** AI Alignment Podcast (Future of Life Institute)
+   If you're interested in more technical and philosophical discussions about AI safety, alignment, and long-term implications, this podcast brings in experts to discuss advanced topics related to ensuring AI benefits humanity.
+** DeepMind: The Podcast
+   While less frequent, episodes from DeepMind feature deep dives into cutting-edge AI research. The discussions often get into technical details that are great for those looking for more advanced content.

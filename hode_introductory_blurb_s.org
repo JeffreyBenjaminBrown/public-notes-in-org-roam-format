@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       29903b27-2b73-4a1b-a8d8-257c219fe70e
+:END:
+#+title: Hode introductory blurb(s)
+* what it would be like
+  It would be an open-source (not for profit, nor controlled by any central authority), distributed system combining features of all of the following kinds of applications:
+** knowledge-sharing platforms (Wikipedia, Elsevier)
+** content-sharing platforms (Youtube, Twitter)
+** search engines (Google)
+** configurable editors (Emacs, VSCode)
+** data exploration platforms (Tableau)
+* The data structure and query language would make it special.
+  It would allow people to easily record not just statements, but statements about other peoples' statements, in a structure that permitted queries more advanced than what search engines enable currently. For instance, "Show me statements made about topic X by authors X and Y that coincide -- that is, X and Y have both said the same thing about it."
+* problems I think it could help with
+** Taming online hostility.
+** Taming online misinformation.
+** Making search better.
+** Creating emergent crowd-sourced curricula.

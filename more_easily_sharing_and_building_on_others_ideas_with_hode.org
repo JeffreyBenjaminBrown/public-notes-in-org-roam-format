@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1ad54594-b32d-4c20-871d-698240c3c6b4
+:END:
+#+title: more easily sharing and building on others' ideas with Hode
+* see also
+** [[id:635cf3cc-8ccd-477a-b5dd-475b6230e2ab][Publication in science is too much work.]]
+* Being able to share half-finished thoughts in a way others can contribute meaningfully to.
