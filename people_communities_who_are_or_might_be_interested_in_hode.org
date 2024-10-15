@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       14970dcf-abd4-47d3-a5d3-b93a090e280d
+:ROAM_ALIASES: "Hode, people interested (or maybe so) in"
 :END:
 #+title: people, communities who are or might be interested in Hode
 Basically, truth-seekers.

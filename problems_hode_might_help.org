@@ -2,14 +2,16 @@
 :ID:       ec977e2d-46b9-455f-8be0-fb3eaba4c2ca
 :END:
 #+title: problems Hode might help
-* Making search better.
+* [[id:d9296505-2d29-4755-afc4-9c3b17cfcee4][commercial "free" internet search engines suck]]
 * Taming online misinformation.
+* [[id:0f24ae95-1cb8-4f53-8c5a-fce76563ce8f][how to trust an anonymous source]]
 * [[id:0abadd88-94f3-4b54-9329-8952c3690739][Build your own recommendation algorithm.]]
-* [[id:635cf3cc-8ccd-477a-b5dd-475b6230e2ab][Publication in science is too much work.]]
+* [[id:635cf3cc-8ccd-477a-b5dd-475b6230e2ab][Scientific publication is too hard and too exclusive.]]
 * [[id:8cd426c4-6469-4589-846b-652c860a0025][taming online hostility]]
 * [[id:b4f50204-91c4-42ca-9474-001b8cbdc161][cancel culture & Hode]]
 * TODO merge these notes
-** collective note taking
+** [[id:b810eec1-847b-4cbe-a2d8-cd628eb9a95c][Hode vs. those applications individually.]]
+** collective note taking [dead link]
    https://blogs.agu.org/geoedtrek/2016/12/28/collaborative-note-taking/
 ** google isn't that great
    https://news.ycombinator.com/item?id=21515181

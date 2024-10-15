@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       d9296505-2d29-4755-afc4-9c3b17cfcee4
+:ROAM_ALIASES: "search engines suck, and Hode could help" "Hode vs. commercial search engines"
+:END:
+#+title: commercial "free" internet search engines suck
+* caveats
+** They don't *entirely* suck, obviously.
+   What e.g. Google provides did change the world, and I'm glad. But we can do better.
+** Paid search engines might not suffer the incentive problem described below.
+   But they would still be subject to the language problem.
+** Distributing the work of indexing the internet might be hard.
+   I have not studied it yet.
+* the problem with free commercial search engines (e.g. Google)
+** an incentive problem
+   They make their money from ads.
+   If they gave you what you were looking for immediately, you would not get sidetracked by ads, and they would not make money. So they prefer to let you flail around for a while.
+** a language problem
+   What you hand Google is not exactly a bag of words, but it's close. You give them some terms, and they try to find articles "close" to those terms, in some space they have mapped. Certain queries are hopeless -- for instance, "Show me statements made by [author 1] and [author 2, who tends to disagree with author 1] regarding [issue] that agree."
+* Hode would solve both
+** There would be no ads.
+   As a free, open-source, distributed sharing solution, nobody would own Hode, and no single member would be responsible for search results. No member would therefore benefit from injecting ads or otherwise [[id:aa65d20e-1cdd-4b42-8a24-08b2baf59e58][enshittifying]] search results.
+** [[id:d42c4051-e2b2-4f9e-ad1f-d86babf9116b][Hode's query language would permit intricate structured queries.]]

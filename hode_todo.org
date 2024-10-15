@@ -5,11 +5,16 @@
 * also to file
 ** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
 ** [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode6]]
-* prior art to investigate
+* notes to expand
+** [[id:d42c4051-e2b2-4f9e-ad1f-d86babf9116b][Hode's query language would permit intricate structured queries.]]
+* prior art to investigate and/or try (more)
+** Mastodon
+** [[id:2313fc06-ec79-4a0c-b40c-3367cb4fe19d][Khoj - natural language search engine for org-mode notes]]
+** [[id:db1dbf70-abfa-4623-9216-69cfe0ed3c55][logseq-query (query language for logseq-formatted graph data)]]
 ** [[id:e7798f00-df21-49f4-bb26-632011facbb7][Twitter wanted to switch the weight of subscriptions from people to topics.]]
 ** [[id:2cd835d3-a30b-4fcf-9772-9bc70512d7f2][Facebook implemented an oversight board.]]
-* [[id:9ac529d9-c76d-44b9-b68c-2ab06a6c5e59][outreach]]
 * coding Hode
+** [[id:aef27d75-d7c3-4182-aa86-51edcc522b4c][why Hode is feasible]]
 ** tools for Hode
 *** [[id:31a087fe-bbc4-41e2-963c-7c8ae757aa34][WordNet]] : nodes are words, and edges include is-a, has-a, etc.
 *** dubious
@@ -19,3 +24,5 @@
      and then a forest editor:
      https://cs-syd.eu/posts/2019-08-28-millismos
 ** [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode in TypeDB and Emacs (plans)]]
+* [[id:9ac529d9-c76d-44b9-b68c-2ab06a6c5e59][outreach]]
+** [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]

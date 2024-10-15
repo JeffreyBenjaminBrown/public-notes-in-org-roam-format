@@ -2,13 +2,10 @@
 :ID:       29903b27-2b73-4a1b-a8d8-257c219fe70e
 :END:
 #+title: Hode introductory blurb(s)
-* what it would be like
-  It would be an open-source (not for profit, nor controlled by any central authority), distributed system combining features of all of the following kinds of applications:
-** knowledge-sharing platforms (Wikipedia, Elsevier)
-** content-sharing platforms (Youtube, Twitter)
-** search engines (Google)
-** configurable editors (Emacs, VSCode)
-** data exploration platforms (Tableau)
+* [[id:d38cfd40-25df-4662-a455-b926aa449dfa][Hode would resemble a mix of familiar applications.]]
+* [[id:b810eec1-847b-4cbe-a2d8-cd628eb9a95c][Why not just use those apps that already exist?]]
+* [[id:aef27d75-d7c3-4182-aa86-51edcc522b4c][why Hode is feasible]]
 * The data structure and query language would make it special.
   It would allow people to easily record not just statements, but statements about other peoples' statements, in a structure that permitted queries more advanced than what search engines enable currently. For instance, "Show me statements made about topic X by authors X and Y that coincide -- that is, X and Y have both said the same thing about it."
 * [[id:ec977e2d-46b9-455f-8be0-fb3eaba4c2ca][problems Hode might help]]
+* [[id:e2911eb2-2d2f-4f8b-9de8-31356bb89df1][things Hode would enable]]

@@ -3,7 +3,7 @@
 :END:
 #+title: advanced AI podcasts
 * rec's frmo ChatGPT
-** Machine Learning Street Talk
+** MEH : Machine Learning Street Talk
    This podcast is known for advanced and thoughtful discussions on machine learning, AI theory, ethics, and developments in the field. The hosts and guests dive deep into technical concepts and cutting-edge research, making it perfect for those familiar with the basics who want more advanced content.
 ** Lex Fridman Podcast
    While Lex Fridman covers a wide range of topics, his episodes on AI and machine learning often feature in-depth, technical conversations with leading researchers in the field. He has interviewed figures like Yoshua Bengio, Elon Musk, and Sam Altman, focusing on both theoretical and applied AI.

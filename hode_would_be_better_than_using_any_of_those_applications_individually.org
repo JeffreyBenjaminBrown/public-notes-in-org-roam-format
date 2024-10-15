@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b810eec1-847b-4cbe-a2d8-cd628eb9a95c
+:END:
+#+title: Hode would be better than using any of those applications individually.
+* [[id:d9296505-2d29-4755-afc4-9c3b17cfcee4][Google has an incentive to suck.]]
+* No content-sharing platform permits deep structured queries.
+* A query cannot be run across all those platforms at once.
+* Feed algorithms are poisonous.
+* Science publishing is too expensive -- in labor for the writers, in money for the readers.
+* Transparency would help with the bot problem.
+* Ads are annoying.

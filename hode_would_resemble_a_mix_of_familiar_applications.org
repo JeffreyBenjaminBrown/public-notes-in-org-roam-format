@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       d38cfd40-25df-4662-a455-b926aa449dfa
+:END:
+#+title: Hode would resemble a mix of familiar applications.
+It would be an open-source (not for profit, nor controlled by any central authority), distributed system combining features of all of the following kinds of applications:
+* knowledge-sharing platforms (Wikipedia, Elsevier)
+* content-sharing platforms (Twitter, Youtube, SoundCloud)
+* search engines (Google)
+* configurable editors (Emacs, VSCode)
+* data exploration platforms (Tableau)

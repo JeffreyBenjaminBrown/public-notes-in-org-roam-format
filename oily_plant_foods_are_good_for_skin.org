@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       7a893f59-470b-4845-9bb5-43a5ae8a6054
+:END:
+#+title: Oily plant foods are good for skin.
+* PITFALL: [[id:a9b00a40-d165-45a4-a511-bd9b19e82f87][Beware the caveat.]]
+* Flaxseeds, chia seeds, walnuts have omega-3 (part of fish oil).
+** HOWEVER, by weight, they are much less effective than fish oil.
+   :PROPERTIES:
+   :ID:       a9b00a40-d165-45a4-a511-bd9b19e82f87
+   :END:
+  They contain ALA (alpha-linoleic acid),
+  which the body converts into DHA and EPA.
+  On a per-ounce basis, fish oil is 10 to 20 times more efficient
+  at delivering EPA, and around 100 times (!) more efficient
+  at delivering DHA.
+** Flaxseeds are by far the most ALA-dense.
+* Avocados, nuts and seeds have other good fats.

@@ -7,3 +7,4 @@
   tag "shashibo cube" "magic cube"
   https://www.facebook.com/share/v/wFcHqga2gJ4tGJCH/?mibextid=oFDknk
 * anything with magnets, lenses or interchangeable parts
+* Euler disk

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       aa65d20e-1cdd-4b42-8a24-08b2baf59e58
+:END:
+#+title: enshittification
+* https://en.wikipedia.org/wiki/Enshittification
+* quoting Wikipedia
+  "... is a pattern in which online products and services decline in quality. Initially, vendors create high-quality offerings to attract users, then they degrade those offerings to better serve business customers, and finally degrade their services to users and business customers to maximize profits for shareholders.
+
+  Writer Cory Doctorow coined the [term]".

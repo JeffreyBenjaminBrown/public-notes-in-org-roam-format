@@ -10,14 +10,9 @@
 ** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
 ** [[id:f5d81cd6-dcc9-414b-bf9b-2c7f4ca1cd29][my data]]
 * TODO \ knowledge graphs
-** [[id:2313fc06-ec79-4a0c-b40c-3367cb4fe19d][Khoj - natural language search engine for org-mode notes]]
 ** build [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode with TypeDB and Emacs]]
 ** [[id:d674bf8d-cd41-47aa-8418-36a74cedd561][build Hash for TypeDB]]
-** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
 ** [[id:8c609b95-5f55-4d88-b0fa-b43227577ee7][I want a record of the (org-roam) files I read]]
-** [[id:db1dbf70-abfa-4623-9216-69cfe0ed3c55][logseq-query (query language for logseq-formatted graph data)]]
-** [[id:5f8c9f6b-6992-4bde-a27a-3db3997f3178][pitch the uber-app]]
-** [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
 * problems
 ** [[id:eba0ce43-3fb2-4d95-89f2-f5d8cae6f20f][the oldies greatest-hits problem]]
 * why to map knowledge

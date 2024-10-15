@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       aef27d75-d7c3-4182-aa86-51edcc522b4c
+:END:
+#+title: why Hode is feasible
+In [[id:d38cfd40-25df-4662-a455-b926aa449dfa][what Hode would be like]] are listed five kinds of platforms that Hode would combine into a single experience. It sounds amibitious. It is. But it is at least technically feasible.
+* the sharing
+Two of those kinds of platforms are really shades of the same thing:
+Knowledge-sharing platforms like Wikipedia or Elsevier (a collection of academic journals) and content-sharing platforms like Twitter, Youtube or Soundcloud. They let people publish stuff that other people can view. A distributed service like Youtube is a nontrivial technical problem, because Youtube has a lot of capacity and bandwidth, and ordinary users don't. But Hode would not need to host video or audio. Its users only need to be able to share text, because the text can turn refer to audiovisual content hosted elsewhere. Established file-sharing protocols like bittorrent already share data like all of Game of Thrones in HD; tweets and papers would be nothing in comparison.
+* the viewing and editing
+The configurable editor and data exploration platforms are also different shades of the same thing: An app that lets you view and edit data. An editor (which is also a viewer) for Hode does not have to be built from scratch; there exist a number of fantastic extensible open-source editors.
+* the data representation and search
+That leaves only the search engine aspect. This is the really innovative part of Hode: It would use a hypergraph database to structure the data, such that users can query the data in much more specific, controllable ways than current "bag-of-words" search engines permit. There is fortunately a killer open-source hypergraph database, TypeDB (https://typedb.com/), available for the backend, and my own Hash language (https://github.com/JeffreyBenjaminBrown/hode/blob/master/docs/hash/the-hash-language.md) provides a friendly DSL for querying hypergraph data.
+
+Deep queriability would enable a wealth of applications currently infeasible, as described in [[id:ec977e2d-46b9-455f-8be0-fb3eaba4c2ca][problems Hode might solve (or at least help)]] and [[id:e2911eb2-2d2f-4f8b-9de8-31356bb89df1][things Hode would enable]].
+
+That queriability assumes the existence of the hypergraph data. This is where I got stuck when I stopped developing a previous version of Hode in 2021: Once I had a working editor -- after coding a backend like TypeDB, but not nearly as awesome -- I realized that translating from natural language into the hypergraph representation was hard. Figuring out how to express each statement was so slow that not even I wanted to use the product, let alone anyone else.
+
+But Microsoft recently created and open-sourced GraphRAG, which uses AI to generate a knowledge graph representation of a body of natural language. GraphRAG solves a much harder problem than I needed: It turns an entire corpus of natural language text -- a bunch of papers, for instance. I haven't coded the solution, but by comparison, extracting hypergraph representations of individual sentences in natural language s be simple.

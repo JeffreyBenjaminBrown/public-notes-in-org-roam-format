@@ -1,9 +1,16 @@
 :PROPERTIES:
 :ID:       635cf3cc-8ccd-477a-b5dd-475b6230e2ab
 :END:
-#+title: Publication in science is too much work.
-* see also
-** [[id:1ad54594-b32d-4c20-871d-698240c3c6b4][more easily sharing and building on others' ideas with Hode]]
-* Scientists feel so much pressure to produce results that they have no time to think.
-** Some sort of publication import-based revenue sharing might help.
-** ArXiV helped with this.
+#+title: Scientific publication is too hard and too exclusive. Hode could help.
+* problems with scientific publication
+** Scientists feel so much pressure to publish that they have no time to think.
+*** ArXiV helped somewhat.
+    Scientists can now publish on ArXiV, both usefully diffusing their ideas and getting useful feedback, before having jumped through the hurdles a journal asked for.
+** Much of the public, and even much of academia, feels excluded fro the scientific discussion.
+   In general, even the published article is behind a steep paywall. But even for open-access journals, everything leading up to the final publication is private information -- rarefied discussions between a handful of (in the context of their domain) powerful people.
+   The public's justified sense of isolation from that process is bad for democracy. Science is one of our very few [[id:3a301def-9a9b-4c2c-8bcd-aa55ae98b650][pillars of collective truth]]. A sizeable chunk of the populace has no faith in any of those pillars, and that is dangerous.
+* how Hode could help
+** Publishing in Hode would be as easy as Twitter, let alone  ArXiV.
+* other ideas that might help
+** In a peer-to-peer network, some kind of revenue sharing based on publication import might help.
+   This might be feasible if the filesharing were [[id:a6704f74-f587-42b9-a01b-f935e77fd506][integrated into a cryptocurrency]].

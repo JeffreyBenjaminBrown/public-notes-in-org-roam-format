@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       0f24ae95-1cb8-4f53-8c5a-fce76563ce8f
+:END:
+#+title: anonymity, trust and Hode
+* the problem
+** Anonymity is sometimes important.
+   There exist important truths that will not be reported unless they can be reported anonymously.
+** Anonymous sources are hard to trust.
+   One has to know a lot about the anonymous source before one can trust them. But anonymity is inherently a limit on what one can know about the source. In general, all we can know about them is what they have published.
+* how Hode could help
+  Hode provides a query language that makes it easy to collect data about a source -- not just what they've said, but what they've said about what, how those statements relate to other sources, what they've said about other sources, what those sources have said about them, what other kinds of (public) communication those supporting sources share with who, etc.
+  These are the kinds of vetting that newspapers have to do when deciding whether to use testimony from anynomous sources. Many newspapers do amazing work, but their resources are limited.
+  Hode won't make any more information available, but it could automate aspects of investigation that would otherwise be prohibitively time-consuming.

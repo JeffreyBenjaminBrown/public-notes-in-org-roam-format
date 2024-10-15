@@ -15,7 +15,3 @@ https://dynomight.net/2020/09/29/doing-discourse-better-stuff-i-wish-i-knew/
 ** Quality signals and heavy moderation.
    "In most fields there is a fairly clear status hierarchy. The moderators (reviewers/editors) at top journals spend a lot of effort moderating, and are very picky about what they accept. This provides strong signaling for the papers that are accepted."
 ** External incentives to publish in top journals.
-* These suggest Dynomight's [[id:44bee99b-e740-418c-964a-83bdcaf63661][would like Hode]].
-  :PROPERTIES:
-  :ID:       edaf398a-06e7-4c52-b14e-09886de45870
-  :END:
