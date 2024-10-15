@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "machine learning" ML AI
 :END:
 #+title: artificial intelligence
+* [[id:877127b6-092e-4f78-8f53-6bab35be593e][compression, superposition and interpretability in AI]]
 * [[id:6808ac44-7ba2-43f5-81c9-f314af96c2c6][advanced AI podcasts]]
 * ChatGPT is good at producing metaphors, says Nate Silver.
 * [[id:c2a00707-b8a2-4a27-99a6-8459979aa6de][how to try Llama3 w/o equipment]]

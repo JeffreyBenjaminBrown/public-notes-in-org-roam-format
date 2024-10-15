@@ -8,6 +8,7 @@
 * TODO James Acaster
 * TODO Bill Bailey
 * TODO Phil Wang
+* Ian Edwards
 * Jim Jeffries
   The Australian guy with the bit about guns in the US.
 * Norm MacDonald

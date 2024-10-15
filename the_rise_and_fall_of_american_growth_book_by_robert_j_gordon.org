@@ -2,6 +2,7 @@
 :ID:       5013ad27-c8f7-404b-bdcb-cb5c95cdca08
 :END:
 #+title: The Rise and Fall of American Growth (book) by Robert J. Gordon
+* TODO RESUME at 17:09
 * Credit offered a huge advantage to white farmers over black ones.
 * Maritime and life insurance date back to the Phoenicians.
 * Before refrigeration, cattle had to be driven in death marches to the cities to be sold.
