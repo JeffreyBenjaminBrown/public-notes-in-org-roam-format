@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ab073ab4-fcb5-4068-82cb-76edd15a7a6e
+:END:
+#+title: Handling pressure is a superset of disaster preparedness.
+* example
+  A doctor's appointment might not have a high disaster potential, but because I can't easily see them again, I have to make sure to do everything I need while I'm there.

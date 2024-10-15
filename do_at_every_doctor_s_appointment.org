@@ -7,3 +7,4 @@ ask (them to)
 * Send me the orders electronically, not just as paper.
 * Be sure I can read what they wrote.
   Even if it's typed out, I might not understand.
+* Ask for a way to contact them if I get confused.
