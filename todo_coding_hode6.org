@@ -1,9 +1,0 @@
-:PROPERTIES:
-:ID:       d3d6e611-2c5c-4779-8417-70e2b58519c1
-:ROAM_ALIASES: "Hode6 coding, TODO"
-:END:
-#+title: TODO coding Hode6
-* [[id:c9b14325-eb94-4147-b366-27f81136de9e][manipulate Hode model from Emacs]]
-* [[id:215bd079-8522-4489-aa19-9aa9efdc4fec][try Python and TypeDB]]
-* TODO ? [[id:2e092160-cb83-4bce-8ffb-cc2264270c0b][persistent Docker data insanity]]
-* BLOCKED [[id:3e0477c2-7b4d-45d9-90ff-ad1ea2231773][bifurcate hode-start to start from scratch or not]]

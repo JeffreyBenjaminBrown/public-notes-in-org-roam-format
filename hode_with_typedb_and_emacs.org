@@ -3,7 +3,11 @@
 :ROAM_ALIASES: Hode6
 :END:
 #+title: Hode in TypeDB and Emacs (plans)
-* [[id:d3d6e611-2c5c-4779-8417-70e2b58519c1][TODO coding Hode6]]
+* TODO
+** [[id:c9b14325-eb94-4147-b366-27f81136de9e][manipulate Hode model from Emacs]]
+** [[id:215bd079-8522-4489-aa19-9aa9efdc4fec][try Python and TypeDB]]
+** TODO ? [[id:2e092160-cb83-4bce-8ffb-cc2264270c0b][persistent Docker data insanity]]
+** BLOCKED [[id:3e0477c2-7b4d-45d9-90ff-ad1ea2231773][bifurcate hode-start to start from scratch or not]]
 * [[id:a34ae775-86ed-4233-9a6a-55fccd284f0e][notes from meeting Daniel Dewey at 80k Hours]]
 * to learn, context
 ** [[id:9d074ed1-9683-448d-8041-b14364c6a6b2][notes from Eli on "fractal democracy", Eos, Cardano]]
