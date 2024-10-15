@@ -5,6 +5,7 @@
 * also to file
 ** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
 ** [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode6]]
+** [[id:d41fab82-8312-469f-8fd7-d162d8731190][unfiled, Hode or adjacent]]
 * notes to expand
 ** [[id:d42c4051-e2b2-4f9e-ad1f-d86babf9116b][Hode's query language would permit intricate structured queries.]]
 * prior art to investigate and/or try (more)

@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       d41fab82-8312-469f-8fd7-d162d8731190
+:END:
+#+title: unfiled, Hode or adjacent
+* Is it legal to make a free Facebook client?
+* [[id:a6704f74-f587-42b9-a01b-f935e77fd506][crypto info-and-art sharing utopia discussion starters]]
+* against cancel culture
+  Hode could permit anyone not just to publish anything (they already can), but to quantify the extent to which opinion mobilized against them is informed or uninformed, diverse or concentrated, human or robot, fact-based or ad-hominem, etc.
+* TODO ? for more propaganda ammo
+  find a list of issues that bother the left and the right,
+  and see whether Hode addresses any of them.
+* Jack Dorsey (on Sam Harris's podcast, 2019) thought the information problem would be won by product design, not policy design.
+* The exclusivity of science publications is problematic.
+* It should be possible to see who defames, who trolls, who spams.
+* Wikipedia is an inspiration.
+* Brian may not have known what to do with it.
+* Argdown people would like Hode
+  https://argdown.org/syntax/#statement-titles
+* coders to ask about Hode
+  All the tech bosses.
+  Josh, Elliot.
