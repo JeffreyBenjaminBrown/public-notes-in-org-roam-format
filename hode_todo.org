@@ -10,8 +10,8 @@
 ** Finding equivalent statements
    using ontologies
 ** Signatures could be dated if Hode used some kind of immutable record like a blockchain
-** How to make the index redundant, robust to deletion of people going offline
-** Attention mechanism across statements
+** How to make the index redundant, robust to deletion of people going offline.
+** Attention mechanism across statements.
 * notes to expand
 ** [[id:d42c4051-e2b2-4f9e-ad1f-d86babf9116b][Hode's query language would permit intricate structured queries.]]
 * prior art to investigate and/or try (more)

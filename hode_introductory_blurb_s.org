@@ -2,6 +2,10 @@
 :ID:       29903b27-2b73-4a1b-a8d8-257c219fe70e
 :END:
 #+title: Hode introductory blurb(s)
+* extremely short blurbs
+  These descriptions overlap.
+** [[id:ee8ecb15-832c-410f-8eed-f097baaba85e][Hode in under 295 characters, for the Mercatus Center]]
+** [[id:c913fad2-0de2-4876-9923-9181b5bf479b][Hode in under 700 characters]]
 * [[id:d38cfd40-25df-4662-a455-b926aa449dfa][Hode would resemble a mix of familiar applications.]]
 * [[id:b810eec1-847b-4cbe-a2d8-cd628eb9a95c][Why not just use those apps that already exist?]]
 * [[id:aef27d75-d7c3-4182-aa86-51edcc522b4c][why Hode is feasible]]

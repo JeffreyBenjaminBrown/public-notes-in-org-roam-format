@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6
+:END:
+#+title: Hode, pitching to the Mercatus Center
+* what they ask
+** the relevant part of my background
+The first part of the proposal should be about you. Tell us your personal story, and how it relates to what you wish to do. We probably don't care much about your formal education, credentials, or awards, unless they're particularly germane to who you are or your idea. Do tell us your background briefly, but credentials are not what will impress us.
+** a mainstream belief I hold
+Second, what is one mainstream or "consensus" view that you absolutely agree with? (This is our version of a "trick" question, reversing the now-fashionable contrarianism.)
+** the idea: what's new in it, what it solves, maybe budget stuff
+The third part should be about your idea. Convince us that this is a great idea worth investing in, and tell us what is new or unusual in your vision and understanding. What's the problem you intend to solve? If you have a ballpark budget (with revenue sources and expenses), let us know the bare basics now; we won't hold you to it strictly.
+* my response
+** About me
+I am an economist, software architect and data engineer. I have worked at the CBO, in health economics consulting, in a tiny university think tank at Javeriana University in Bogotá, and lately in the Colombian government.
+
+I have been an enthusiastic user of knowledge mapping software for more than twenty years. I feel about it like Feynman felt about taking notes: It does not just help me think; it is how I think. And not just for technical topics, but for creative and emotional work, too. (It can resemble journaling, if journals admitted hyperlinks.)
+
+In the first year of the economics PhD program at Michigan State I was part of a study group that would share notes and work through problems at the end of each day. The immense power of sharing ideas with even a small number of people (most days we were between 3 and 7 people) was a revelation to me that I still marvel at 17 years later.
+** A mainstream belief I hold
+Our chief truth-seeking institutions are science, journalism, law and government. It is critical that they function well, and critical that they be widely understood and trusted.
+** My proposal
+For historical reasons I will call the project Hode.
+
+*** the architecture of Hode
+Hode would be a protocol for sharing, indexing and querying data. As a protocol, anyone could create a client for it, but creating at least one such client will be part of the initial work.
+
+The most unusual aspect of Hode is the data structure it would use. Search engines typically associate some key phrases with a website. There might be many such phrases, but they have little structure beyond "these words are in this article".
+
+To explain how Hode would improve on that I have to explain what hypergraph data is. A hypergraph data store is a collection of things, some of which are relationships. Relationships can hold any number of members (not just two, as in an ordinary knowledge graph), and those members can themselves be relationships. Thus hypergraph data can naturally correspond to natural language. For instance, "ostriches can't fly because they are too heavy" is a "because" relationship between two relationships. All language can be represented as such nested relationships.
+
+The advantage of doing so is that it permits precise, structured queries. Today we give a pile of words to a search engine and hoping it comes back with something relevant. With Hode we could make queries like, "Show me events in LA on my calendar to which Shawn is invited," "Show me statements made by [author] and [author who typically disagrees with the first] that agree on [topic]," "Show me diet recommendations from vegan weightlifters that don't involve beans" -- literally any conceivable query could be expressed and, if the index were sufficiently complete, answered deterministically.
+
+Hypergraph data stores are only just gaining popularity, but TypeDB (the company) provides a powerful open-source one (also called TypeDB). And I happen to have already written a good hypergraph query language:
+
+https://github.com/JeffreyBenjaminBrown/hode/blob/master/docs/hash/the-hash-language.md
+
+Creating the index remains an open problem. But there is plenty of prior art to draw on. Ontology software have been around for decades. There exist numerous solutions for parsing natural language into syntax trees. Microsoft recently open-sourced GraphRAG, which translates a numbmer of documents into a knowledge graph.
+
+Distributing the index is also an open problem. Sharing data per se is not -- hundreds of petabytes of data, mostly multimedia, are estimated to be available through BitTorrent. The index, by contrast, would just be text -- but it would still be a lot of text. It would therefore be important to coordinate different users' indexing to minimize redundant effort (subject to a robustness constraint). Moreover, some sort of mechanism for determining which relationships deserve to be encoded where would be needed.
+
+I believe the shared index will be the major challenge. By contrast, I expect writing a basic client should be a relatively straightforward matter of writing an Emacs extension.
+*** what Hode would enable
+*** why it's feasible
+**** needn't host more than text, at least to start
+**** needn't host many users to be useful

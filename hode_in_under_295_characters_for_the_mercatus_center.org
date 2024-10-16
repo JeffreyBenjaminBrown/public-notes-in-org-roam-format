@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       ee8ecb15-832c-410f-8eed-f097baaba85e
+:END:
+#+title: Hode in under 295 characters, for the Mercatus Center
+Google, Tableau, Elsevier, Twitter etc. would be better as one open federated protocol. A hypergraph data structure, rather than plain text, would permit precise querying, providing defenses against misinformation, trolling, and cancelation, new tools for science and journalism, and more.

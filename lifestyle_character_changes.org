@@ -2,6 +2,7 @@
 :ID:       4dd0aeea-1613-4121-ad8d-00f6d0ed4f4c
 :END:
 #+title: lifestyle/character changes under consideration
+* [[id:172dd7c3-7090-4ecc-841d-7342e96b4b9c][Reduce to one meat per day.]]
 * Go to the US.
 * More Hode, less spmething.
 * TODO consider job effects on character

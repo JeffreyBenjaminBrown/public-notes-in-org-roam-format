@@ -2,6 +2,7 @@
 :ID:       7863cf17-0940-4663-82b2-2a22b3878f1c
 :END:
 #+title: funding Hode
+* [[id:c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6][Hode, pitching to the Mercatus Center]]
 * grants | funders for Hode
 ** DARPA
 ** prototype fund: https://prototypefund.de/en/

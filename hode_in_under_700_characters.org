@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       c913fad2-0de2-4876-9923-9181b5bf479b
+:END:
+#+title: Hode in under 700 characters
+Web search, data exploration applications (e.g. Tableau), journalism, academic publishing and social media could all be better as a single, open-source, free, federated protocol. Moreover, representing that data as a hypergraph, rather than plain text, would permit deeper and more precise queries.
+
+The resulting transparency could help with a number of social problems: taming online misinformation, trolling and cancel culture; identifying propoganda networks; bringing non-experts closer to processes like science and journalism (without getting in their way); and allowing users to design and share their own (presumably more benign) recommendation algorithms, among others.
