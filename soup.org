@@ -12,11 +12,11 @@
 * 2 big cups of beans seems about right
 * ingredients
 ** 2 ajis
-** carrots
-** onions
-** tomatoes
-** celery
-** potatoes
+** zanahoria
+** cebolla
+** tomate
+** apio
+** papa
 * Everything boils slower in Bogotá.
 * Carrots take a long time to soften.
   At least in Bogotá.

@@ -11,6 +11,8 @@
 ** Y Combinator has an "Apply as a Non-profit" button
 ** A small European fund https://prototypefund.de/en/
    $50K Euro grants
+** some money for FLOSS
+   https://floss.fund/blog/announcing-floss-fund/
 * tailor its described purpose to the funder
   Don't talk about everything it can do, much less all the ways it works. Talk about how it can achieve things a specific funder wants.
 * domains where Hode could usefully apply
