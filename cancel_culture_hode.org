@@ -8,3 +8,5 @@ This problem seems hard. These are ideas, not a full solution.
   Hode will make it easy to record data about people.
   This cuts both ways. It's easy to find offensive things someone has said, but it's also easy to find context. Maybe they have since learned, and the data trail proves it. Maybe they were taken out of context.
 * [[id:b7c849c9-67a7-4e01-998b-ce5c06bd4d6a][Circles of publication intimacy could protect people from cancellation.]]
+* unfiled
+  Hode could permit anyone not just to publish anything (they already can), but to quantify the extent to which opinion mobilized against them is informed or uninformed, diverse or concentrated, human or robot, fact-based or ad-hominem, etc.
