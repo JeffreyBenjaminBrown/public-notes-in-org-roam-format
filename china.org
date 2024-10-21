@@ -4,3 +4,4 @@
 #+title: China
 * [[id:4b2e2d65-e997-4757-a334-2e9ac112f4ab][environmental degradation in 20th-century China]]
 * [[id:3b8f34a8-4b25-474c-b2a6-47c7edf619aa][HickVision, security camera manufacturer in China, explicitly advertises a Uyghur detection function.]]
+* [[id:0b2a7ebf-4fc3-4a82-9fd9-6d0a63087392][Mao Zedong]]

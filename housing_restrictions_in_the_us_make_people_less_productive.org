@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       54e2ee61-09b3-40fc-a2b5-99233f8a6d58
+:END:
+#+title: Housing restrictions in the US make people less productive.
+* when
+  At least they have since around 2000 until now, 20024,
+  if I remember correclty.
+* the logic
+  They are worst in the highest productivity areas, and cause people toovr to placed where their productivity is lower -- the reverse of what happened historically. Estimates are that the country would be ten to 20 % richer without them.
+  -- Bryan Caplan, Dwarkesh podcast, episode 1

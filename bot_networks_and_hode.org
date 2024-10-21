@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       4a1e55d3-8b8f-48e1-9a69-9e2c03f79029
+:ROAM_ALIASES: "bot networks, and how Hode might help"
+:END:
+#+title: Hode vs. bot networks
+Various kinds of agencies (social media platforms, cybersecurity companies, academia, media watchdogs and others) recognize bot networks through a number of techniques: Analyzing timing and coordination, measuring who they interact with and how, linguistic analysis, and others.
+
+Hode would make such work easier, by providing a unified query framework for all of that information. It could be especially effective if the index saved relationships like "_ testifies that _ is human".
+
+Hode's transparency would, of course, also help an adversary determine how to act more human. I'm no security expert, but my suspicion is that no matter how they camouflage themselves, there will be data distinguishing bots from ordinary users, because if they behaved just like ordinary users, controlling them would not benefit the controlling actor.
+
+FOSS software, and in particular Linux, are predominant on servers. It's not a perfect analogy, but security through transparency has a good track record.

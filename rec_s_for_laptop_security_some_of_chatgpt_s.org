@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       6cf0904a-5895-4d7f-a73e-5efd376767db
+:END:
+#+title: rec's for laptop security, some of ChatGPT's
+* motivation: considering buying a Chinese laptop
+* the recs
+Reinstall Firmware/BIOS: If you're highly concerned about firmware-level vulnerabilities, consider flashing the BIOS with a known clean version from Lenovo's official website after purchase.
+
+Use Open Source Firmware: Some laptops support open-source firmware like Coreboot, which replaces the proprietary BIOS/UEFI and offers greater transparency.

@@ -11,6 +11,7 @@
 * [[id:437537a9-277d-4c61-a13b-f18170c3ba56][why economics is fascinating and useful]]
 * [[id:9f56873c-b871-49d3-b2ed-93ac63133284][data science]]
 * [[id:2aafd0d3-96d9-4be2-a2b5-a2dfe15017f7][labor market, the]]
+* [[id:7326b79b-7332-4ed9-955c-85bb39946fe9][housing market, the]]
 * [[id:465f0ce9-e6e8-4a9f-b290-7290dd914e54][constrained optimization]]
 * [[id:d5710ba5-2a3a-4f7a-80fc-97f7225c3a05][macroeconomics]]
 * [[id:e40de8e8-8eb9-46cc-b175-c2e0c7b6a2a7][stock market, the]]
@@ -27,3 +28,4 @@
 ** [[id:915c9717-9f3b-43c3-b9d3-56eb881f8600][Londoño-Vélez And Ávila-Mahecha 2018: "Can Wealth Taxation Work In Developing Countries? Quasi-Experimental Evidence From Colombia"]].
 * [[id:111d899b-2204-4fbd-a48c-c2e8ecfa6a24][The correlation between weight and income in rich countries is driven almost entirely by women.]]
 * When profit margins are thin, the gains from small increases in efficiency can be huge.
+* [[id:45c36ce4-a8ae-41b1-9cee-1da7dc529993][reproduction and discount rates]]

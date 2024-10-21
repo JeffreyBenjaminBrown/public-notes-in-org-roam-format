@@ -15,12 +15,6 @@
    https://floss.fund/blog/announcing-floss-fund/
 * tailor its described purpose to the funder
   Don't talk about everything it can do, much less all the ways it works. Talk about how it can achieve things a specific funder wants.
-* domains where Hode could usefully apply
-** search
-*** the fake news problem
-*** (academic) research
-** social networking (ala Wikipedia + Twitter)
-** AI
 * elevator pitch
 Even the elevator pitch for why it's valuable is kind of complicated, but here's that:
 
@@ -30,5 +24,4 @@ Relationships in Hode can have any number of members (not just two, like in a gr
 
 Examples of important and irreducibly higher-order relationships include:
 
-- Conditionality and causality: (subject <verb> object) <if | because> (subject <verb> object)
-- Argument: (subject <verb> object) <supports | proves | contradicts ...> (subject <verb> object)
+[[id:fb83f180-cb75-4180-ab9c-eb555f8ecc1b][relationships for Hode]]

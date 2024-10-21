@@ -1,8 +1,11 @@
 :PROPERTIES:
 :ID:       4770a0d4-1932-403c-a57a-9ae803e8372e
+:ROAM_ALIASES: "knowledge base curation, gameifying" "graph game" "gameifying knowledge graphs"
 :END:
-#+title: knowledge graph game
-* TODO Look for prior art in gameifying knowledge | science | debate.
+#+title: gameifying knowledge base curation
+* see also [[id:fb83f180-cb75-4180-ab9c-eb555f8ecc1b][relationships worth recording]]
+* TODO Look for prior art
+  gameifying knowledge, science, debate
 * aspects
 ** See what is popular among users of certain words.
 ** If what someone called more convincing seemed less convincing to you, their statements re. convincingness are reduced in your view

@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       81c54411-a20f-4fed-9a6c-67049153f761
+:END:
+#+title: better AI via Hode

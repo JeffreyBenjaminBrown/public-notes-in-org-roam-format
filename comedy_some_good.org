@@ -3,36 +3,41 @@
 :ROAM_ALIASES: "comics I like, some" "comedians I like, some"
 :END:
 #+title: comedy, some good
-* TODO Franko Bonilla, Colombian
-  https://www.youtube.com/@puracomediapapa
-* TODO James Acaster
-* TODO Bill Bailey
-* TODO Phil Wang
-* Ian Edwards
-* Jim Jeffries
   The Australian guy with the bit about guns in the US.
-* Norm MacDonald
-* Louis Katz
-* Eliza Schlesinger
-* Bill Burr the comedian
-* Greer Barnes
+* Aaron Chen
+* Adam Ray
 * Alec Flynn
-* Jason Cheny
-* Marcelo Hernandez
+* Bill Bailey
+* Bill Burr
+* Brian Posehn
+* Cam Bertrand
+* Chad Daniels
+* Demetrio Martín
 * Django Gold
+* Eliza Schlesinger
+* Eva Evans
+* Franko Bonilla (Colombian)
+  https://www.youtube.com/@puracomediapapa
+* Gabriel Rutledge
+* Gavin Matts
+* Greer Barnes
+* Ian Edwards
+* James Acaster
+* Jason Cheny
+* Jim Jeffries
+* Josh Johnson
+* Louis Katz
+* Marcelo Hernandez
 * Michael Longfellow
 * Mike Baldwin
-* Demetrio Martín
+* Mike Vecchione
 * Mine Hammock
-* Eva Evans
-* Cam Bertrand
-* Ryan Goodcase
-* Gabriel Rutledge
-* Josh Johnson
-* Gavin Matts
-* Zoltan Kaszas
-* Nate Bergatze
-* Aaron Chen
 * Mohanad Elshieky
-* Adam Ray
-* Brian Posehn
+* Nate Bergatze
+* Neil Brennan
+* Norm MacDonald
+* Pat Burtscher
+* Phil Wang
+* Ryan Goodcase
+* Shane Gillis
+* Zoltan Kaszas

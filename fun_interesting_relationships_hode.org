@@ -3,28 +3,38 @@
 :ROAM_ALIASES: "relationships \ Hode" "Hode relationships"
 :END:
 #+title: relationships worth recording
-* the list
-** [subject] do [verb] (opt: to [argument]) under [condition]
-   Condition must include time, e.g. past, future, ongoing;
-   can include other qualifiers.
-** [subject] stands to benefit if [statement] is true
-** [author] believes [statement]
-** maybe [statement]
-** not [statement]
-** it seems [statement]
-   Implicitly, any such statement is an "it seems _ to [author]" statement.
-** [statement] suggests [conclusion]]
-** [statement] helps explain [statement]
-** [person] wrote [statement]
+* an incomplete list
+  surely incomplete
+** [subject] <does|did|will do> [verb] (opt: to [argument]) under [condition]
+   The three tenses could be unified,
+   reducing three kinds of relationships to one,
+   by making the tense (time) a mandatory condition,
+   whereas others would be optional.
+** conditionals & cause:
+*** [statement] if [statement]
+*** [statement] because [statement]
+** argument and inference
+*** [statement] <supports | helps explain | proves | contradicts | implies ...> [statement]
+** understanding people and their projects
+*** [agent | project] stands to benefit if [statement]
+*** [agent] believes [statement]
+*** [person] wrote [statement]
+** logic
+*** maybe [statement]
+    Implicitly, by writing "maybe x", one is saying
+    "the possibility of x is worth considering".
+*** not [statement]
+*** it seems [statement]
+    Implicitly, any such statement is an "it seems _ to [author]" statement.
 ** [statement] explains [argument]
-** [statement] follows [statement]
+** [statement] follows [statement] in [explanation, story, etc.]
 ** [statement] is part of [statement]
    "[_statement follows _statement] is part of [_statement]"
    can be used to represent multi-step arguments, recipes, stories
 ** [member] is in [category]
 ** [category] is subset of [bigger category]
-** [action] achieves [condition]
-** [condition] is goal of [agent]
+** [action] results in [condition]
+** [agent] wants [condition]
    agents and authors will likely overlap
 * some observations on the list
 ** "is true" and "is false" are better unbundled.

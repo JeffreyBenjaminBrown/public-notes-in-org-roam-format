@@ -14,7 +14,9 @@
 * [[id:1c1415bc-64d2-4cb3-9c65-b9b617d0777e][feature goals for the technology]]
 * [[id:663aa255-2dc7-4fdc-89bf-43e392d7cdc1][instructional videos for software, how to make]]
 * [[id:3b8d3bb0-b32d-41c5-a548-ce93bea8d150][Hode & TODO]]
-* dubious
+* unsolved
+** [[id:4770a0d4-1932-403c-a57a-9ae803e8372e][gameifying knowledge base curation]]
 ** [[id:bc0ba15e-6be8-4c0a-851c-0660c70de2b4][information sharing and cryptocurrency]]
-** [[id:fbb345d3-1e65-414a-8e68-23c225d51f4d][problems with Hode]]
-* DONE [[id:2b735c4f-b4d9-4d7d-9155-b650d90a2c4a][abandoned : coding Hode in Haskell]]
+* DONE
+** [[id:fbb345d3-1e65-414a-8e68-23c225d51f4d][problems I saw in Hode when I quit the version I was working on in 2021]]
+** [[id:2b735c4f-b4d9-4d7d-9155-b650d90a2c4a][abandoned : coding Hode in Haskell]]

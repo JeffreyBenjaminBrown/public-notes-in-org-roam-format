@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       45c36ce4-a8ae-41b1-9cee-1da7dc529993
+:END:
+#+title: reproduction and discount rates
+"When trading resources for a parent now vs. for a child a generation from now, it matters that a child shares only half a parent's genes." -- Robin Hanson, "Is a singularity around the corner?", http://mason.gmu.edu/~rhanson/fastgrow.html
+
+(1/2) ^ (1/30) = 0.977, which is pretty close to the discount rate (2%-ish) we observe in people.

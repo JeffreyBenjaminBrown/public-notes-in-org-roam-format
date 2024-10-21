@@ -1,12 +1,8 @@
 :PROPERTIES:
 :ID:       fbb345d3-1e65-414a-8e68-23c225d51f4d
 :END:
-#+title: problems with Hode
+#+title: problems I saw in Hode when I quit the version I was working on in 2021
 * non-technical problems with Hode
-** old link
-   :PROPERTIES:
-   :ID:       78f08663-9236-486e-8343-2d1798bc5994
-   :END:
 ** Hode is hard
 I got a lot of interest on Reddit Haskell (at least 85 net upvotes),
 but no follow-up. I think the documentation scared them away.

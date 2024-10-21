@@ -9,6 +9,9 @@
 * [[id:d38cfd40-25df-4662-a455-b926aa449dfa][Hode would resemble a mix of familiar applications.]]
 * [[id:b810eec1-847b-4cbe-a2d8-cd628eb9a95c][Why not just use those apps that already exist?]]
 * [[id:aef27d75-d7c3-4182-aa86-51edcc522b4c][why Hode is feasible]]
+* potential objections
+** Would Hode reduce privacy?
+** Would AI companies snaffle user data from Hode?
 * The data structure and query language would make it special.
   It would allow people to easily record not just statements, but statements about other peoples' statements, in a structure that permitted queries more advanced than what search engines enable currently. For instance, "Show me statements made about topic X by authors X and Y that coincide -- that is, X and Y have both said the same thing about it."
 * [[id:ec977e2d-46b9-455f-8be0-fb3eaba4c2ca][problems Hode might help]]

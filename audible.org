@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       6a718fda-1b69-4b72-a476-3e15249aeb0b
+:ROAM_ALIASES: "Audible"
 :END:
 #+title: Audible (audiobook service)
 * TODO [[id:588c9e19-447c-40ac-b894-070fed44b887][Audible Spanish books, most of, a search]]
