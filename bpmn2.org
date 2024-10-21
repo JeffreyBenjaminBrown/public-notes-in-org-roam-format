@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ebc00445-22d7-4c05-9c25-fb3b48fb282c
+:ROAM_ALIASES: "Business Process Modeling and Notation 2"
+:END:
+#+title: BPMN2
+* a BPMN2 tutorial
+  https://www.processmaker.com/es/blog/bpmn-2-0-tutorial-and-examples/
