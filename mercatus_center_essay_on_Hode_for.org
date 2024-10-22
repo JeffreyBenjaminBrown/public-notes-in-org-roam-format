@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6
 :END:
-#+title: Hode, pitching to the Mercatus Center
+#+title: Mercatus Center, essay on Hode for
 * what they ask
 ** the relevant part of my background
 The first part of the proposal should be about you. Tell us your personal story, and how it relates to what you wish to do. We probably don't care much about your formal education, credentials, or awards, unless they're particularly germane to who you are or your idea. Do tell us your background briefly, but credentials are not what will impress us.
