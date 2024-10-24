@@ -10,49 +10,98 @@ Second, what is one mainstream or "consensus" view that you absolutely agree wit
 ** the idea: what's new in it, what it solves, maybe budget stuff
 The third part should be about your idea. Convince us that this is a great idea worth investing in, and tell us what is new or unusual in your vision and understanding. What's the problem you intend to solve? If you have a ballpark budget (with revenue sources and expenses), let us know the bare basics now; we won't hold you to it strictly.
 * my response
-** About me
+** about me
 I am an economist, software architect and data engineer. I have worked at the CBO, in health economics consulting, in a tiny university think tank at Javeriana University in Bogotá, and lately in the Colombian government.
 
 I have been an enthusiastic user of knowledge mapping software for more than twenty years. I feel about it like Feynman felt about taking notes: It does not just help me think; it is how I think. And not just for technical topics, but for creative and emotional work, too. (It can resemble journaling, if journals admitted hyperlinks.)
 
 In the first year of the economics PhD program at Michigan State I was part of a study group that would share notes and work through problems at the end of each day. The immense power of sharing ideas with even a small number of people (most days we were between 3 and 7 people) was a revelation to me that I still marvel at 17 years later.
-** A mainstream belief I hold
+** a mainstream belief I hold
 Our chief truth-seeking institutions are science, journalism, law and government. It is critical that they function well, and critical that they be widely understood and trusted.
-** My proposal
-For historical reasons I will call the project Hode. (That stands for Higher Order Data Editor -- an ambition which is now a proper subset of the project.)
+** my proposal
+For historical reasons I call the project Hode. (That stands for Higher Order Data Editor -- an ambition which is now a proper subset of Hode.)
 
-*** the architecture of Hode
-Hode would be a protocol for sharing, indexing and querying data. As a protocol, anyone will be free to design their own client for it, but creating at least one such client would be part of the initial work. There will be no client-server distinction; every client would also be a server.
+In the tweet I gave a glimpse of what Hode would make possible. I'll elaborate on that here, but first want to explain how it would work.
 
-The most unusual aspect of Hode is the data structure it would use. Search engines typically associate some key phrases with a document or website. There might be many such phrases, and they might be chosen cleverly, but once those key phrases are chosen they have little meaning in the index beyond "these words appear in that article".
+*** the architecture of Hode in brief
+Hode will be a protocol for sharing, indexing and querying data, and a client for creating, sharing and viewing it. (As a protocol, anyone will be free to build other clients for it.) There will be no client-server distinction; every client will also be a server.
 
-To explain how Hode would improve on that "bag of words" paradigm, I must describe hypergraph data. A hypergraph data store is a collection of things, some of which are relationships. Relationships can hold any number of members, and those members can themselves be relationships. (In computer science, hypergraphs generalize graphs: a graph is just a hypergraph in which all relationships are binary and no relationship is a member of another relationship.)
+In brief, Hode will be a framework for writing, publishing, indexing and querying distributed natural language content. The index will be distributed, and built cooperatively by users. Users will be able to query personal and public content in a unified fashion.
 
-Hypergraph data can naturally reflect the structure of ordinary speech. For instance, "Sam gave the ball to Paul because Paul said 'over here'" is a "because" relationship between a ternary relationship (_ gave _ to _) and a binary one (_ said _). All language can be represented as such nested relationships. And representing it that way enables a deeper kind of search.
+Architecturally, the major ideas in Hode all predate it, and many of them have been made into popular services:
 
-Today we give a pile of words to a search engine and hope it comes back with something relevant. Properly structured hypergraph data, by contrast, permits the kind of query you might believe only intelligent agents capable of answering: "Show me events in LA on my calendar to which Shawn is invited," "Show me statements made by [author] and [author who typically disagrees with the first] that agree on [topic]," "Show me diet recommendations from vegan weightlifters that don't involve beans", etc., etc. Literally any conceivable query can be expressed as a hypergraph query, and (if the index is sufficiently thorough) answered transparently, deterministically, and completely. This transparency stands in sharp contrast to the oracular nature of responses from LLMs.
+- the personal knowledge base (OneNote, Evernote)
+- online publishing (X, Wikipedia, Elsevier)
+- search (Google, Apple Spotlight)
+- federated sharing (BitTorrent, Mastodon)
+- automated document crawling and language parsing
+- the hypergraph data store
 
-I will delve more into the architecture in the Feasibility section of this proposal. First I want to talk about some reasons we should want to enable such queries.
-*** what Hode would enable
-*** why it's feasible
+My claim is that Hode will be able to provide a better experience than each of the services listed above.
+
+I will address more potential objections later, but I must immediately address one you might already have in mind: Hode does not need to be popular, let alone to displace any of those services, before it can be useful. Even a single user will benefit from being able to query a hypergraph index of their data. A small team will derive even greater benefit -- be they poets collaborating, shareholders arguing, or coworkers sharing work. Like many apps, the value of Hode will scale disproportionately with its user base, but it does not require network effects to be valuable.
+
+**** the hypergraph index
+The core idea of Hode is that building a distributed hypergraph index of natural language data, and providing a user-friendly way to query it, would permit users to do for themselves an enormous amount of work they currently pay others to do worse.
+
+A hypergraph data store is a collection of things, some of which are relationships. The relationships can hold any number of members, and those members can themselves be relationships. (In computer science, hypergraphs generalize graphs: Any graph is a hypergraph in which all relationships are binary and no relationship is a member of another relationship.)
+
+Hypergraph data can precisely and naturally reflect the structure of ordinary speech. For instance, "Sam threw the ball to Paul because Paul said 'over here'" is a "because" relationship between a ternary relationship (_ gave _ to _) and a binary one (_ said _). All language can be represented as such nested relationships -- and doing that enables a deeper kind of search.
+
+Ordinary search engines associate some key phrases with a document or website. There might be many such phrases, and they might be chosen cleverly. But once those key phrases are chosen, they have little meaning in the index beyond "these words appear in this article". (Search engines also compute relevance. So far I have nothing novel to contribute to that computation.)
+
+Today we give a "bag of words" to a search engine, and hope it comes back with something relevant. Properly structured hypergraph data, by contrast, permits the kind of query you might believe only intelligent agents capable of answering:
+
+- Social media feed algorithm: "Show me things friends have published online, ordered by recency, excluding sports and anything that Mom thought was sad."
+
+- Productivity tricks: "Show me all of my emails that discuss any of the events on Shawn's calendar." "Show me which projects this project is blocking, and which projects are in turn blocked by those, recursively as far as the data permit." ""Show me diet recommendations from vegan weightlifters that don't involve beans."
+
+- Verification: "Show me statements by authors I trust regarding [topic]." "Show me instances users have found in which [author] contradicts themselves." "Show me pairs of posts in which [author] and [author] agree on [topic]."
+
+Any conceivable query can be expressed as a hypergraph query, and (if the index is sufficiently thorough) can be answered transparently, deterministically, and completely. (That transparency and determinism stand in noteworthy contrast to the oracular nature of responses from both search engines and large language models.)
+
+In a later section I will operationalize the promises of this section. Before that I want to explain why it is a good idea.
+
+*** some capabilities Hode will enable
+**** search better
+Before AI, no document search tool understood much about the documents it had indexed. That situation has , running an AI locally on your own machine ... TODO ... but the AI can still give wrong or incomplete answers. And in fact it *must* give incomplete answers sometimes, because it contains much less information than the space of all expressible queries.
+**** build your own social media feed
+***** cooperative writing
+**** defend against online misinformation and hostility
+**** socially transparent discovery and reasoning
+     science, law, journalism
+     journalism encompasses things like labor statistics
+**** emergent curricula
+**** verifiable AI dicta
+*** u
 **** needn't host more than text, at least to start
 **** needn't host many users to be useful
-**** u
-Hypergraph data stores are only recently gaining popularity, but TypeDB (the company) provides a powerful open-source one (also called TypeDB). And I happen to have already written a user-friendly hypergraph query language:
+*** well-established tech to draw on
+**** TypeDB
+Hypergraph data stores are only recently gaining popularity, but TypeDB (the company) provides a powerful open-source one (also called TypeDB).
+**** Hash
+I have already written a user-friendly hypergraph query language:
 
 https://github.com/JeffreyBenjaminBrown/hode/blob/master/docs/hash/the-hash-language.md
+**** Emacs
+Creating a basic client to be a relatively straightforward exercise in extending Emacs (a free, open-source programmable text editor that began in the 70s, with an enthusiastic user base that includes myself).
+**** sharing data
+Hundreds of petabytes of data, mostly multimedia, are estimated to be available through BitTorrent.
+*** unsolved problems
+**** building the index
+Building the index remains an open problem, but there is plenty of neighboring research to draw on. Ontology software has been around for decades, allowing computers to match specific cases to more general patterns. These allow the indexer, once it has recorded that mammals breathe oxygen, to forego indexing the fact that cats and buffalo also breathe oxygen. There exist numerous solutions for parsing natural language into syntax trees. Microsoft recently open-sourced GraphRAG, which translates a numbmer of documents into a knowledge graph. How to decide what information to index is not obvious, but having made that choice, actually building the index will not require any radically new ideas.
+**** distributing the index
+Distributing the index is also an open problem. The index, by contrast, will merely be text -- but it will still be a lot of text. It will therefore be important to coordinate different users' indexing efforts, to minimize redundant work (subject to some robustness constraint).
 
-Creating the index remains an open problem, but there is plenty of neighboring research to draw on. Ontology software has been around for decades, allowing computers to match specific cases to more general patterns. These allow the indexer, once it has recorded that mammals breathe oxygen, to forego indexing the fact that cats and buffalo also breathe oxygen. There exist numerous solutions for parsing natural language into syntax trees. Microsoft recently open-sourced GraphRAG, which translates a numbmer of documents into a knowledge graph. How to decide what information to index is not obvious, but having made that choice, actually building the index will not require any radically new ideas.
-
-Distributing the index is also an open problem. Sharing data per se is not -- hundreds of petabytes of data, mostly multimedia, are estimated to be available through BitTorrent. The index, by contrast, would merely be text -- but it would still be a lot of text. It would therefore be important to coordinate different users' indexing efforts, to minimize redundant work (subject to some robustness constraint).
-
-Choosing what to index, and sharing that work among members, will be the major challenge. By contrast, I expect creating a basic client to be a relatively straightforward exercise in extending Emacs (a free, open-source programmable text editor that began in the 70s, with an enthusiastic user base that includes myself).
+Choosing what to index, and sharing that work among members, will be the major challenge.
+**** distributing a query
+**** gameifying commentary
 *** What about money?
-Incorporating money into Hode might be helpful. These ideas are incohate, and not critical to the proposal, but they would be exciting if they panned out.
+Incorporating money into Hode might be helpful. These ideas are incohate, and not critical to the proposal, but they will be exciting if they panned out.
 
 The two standard monetization strategies for online services would not work well. (A subscriber model would limit participation, which would limit its usefulness. And an ad-based model is infeasible because it is a protocol -- anyone could make client that filters ads away.)
 
 But Hode could be grafted onto a cryptocurrency.
 **** reward creators
-**** pay for bandwidth and storage
 **** permit immutable records
+**** pay for bandwidth and storage

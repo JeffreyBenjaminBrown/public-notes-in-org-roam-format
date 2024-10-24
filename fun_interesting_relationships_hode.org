@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       fb83f180-cb75-4180-ab9c-eb555f8ecc1b
-:ROAM_ALIASES: "relationships \ Hode" "Hode relationships"
+:ROAM_ALIASES: "relationships for Hode" "Hode relationships"
 :END:
 #+title: relationships worth recording
 * an incomplete list

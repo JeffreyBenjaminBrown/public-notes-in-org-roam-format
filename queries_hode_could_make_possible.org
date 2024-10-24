@@ -2,10 +2,17 @@
 :ID:       d42c4051-e2b2-4f9e-ad1f-d86babf9116b
 :END:
 #+title: queries Hode would make possible
-* Does [author] ever produce content with no political slant?"
-* alternate orders for the same data
-  Ordered by chapter in source text,
-  by topic,
-  by urgency (perhaps inferred from number of TODO items contained),
-  by beginner-friendliness (perhaps inferred from the amount of knowledge it depends on),
-  etc.
+very incomplete list
+* for education
+** If someone understands [set of statements], what else would they have to understand before they could understand [narrative | conclusion | experimental result].
+** Order [collection of statements] according to [their presentation in a certain book | the amount of prerequisite knowledge required].
+* for management
+** Order [collection of statements] by urgency as identified by [collection of authors].
+   Should those authors' judgments be collectively contradictory,
+   the authors' could be ordered lexicographically,
+   and then the content sorted topologically within those orders.
+** Display everything required by [project], and everything required by those requirements, recursively until they bottom out.
+** Find the intersection of the times that [set of people] are free on their calendars.
+* for identifying bots and trolls
+** To what degree do [set of authors'] posts align [politically, temporally]?
+** Does [author] engage meaningfully with [collection of known human authors]?

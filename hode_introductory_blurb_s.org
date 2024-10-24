@@ -12,7 +12,8 @@
 * potential objections
 ** Would Hode reduce privacy?
 ** Would AI companies snaffle user data from Hode?
-* The data structure and query language would make it special.
-  It would allow people to easily record not just statements, but statements about other peoples' statements, in a structure that permitted queries more advanced than what search engines enable currently. For instance, "Show me statements made about topic X by authors X and Y that coincide -- that is, X and Y have both said the same thing about it."
+* Hode's data structure and query language are novel.
+  The query language, as far as I know, is entirely novel. The hyperdata structure has found some use in biotech and finance, but so far not in social media, and certainly not in a user-facing way.
+  The hypergraph would allow people to easily record not just statements, but statements about statements, in a structure that permits queries more advanced than what search engines enable currently. For instance, "Show me statements made about topic X by authors X and Y that coincide -- that is, X and Y have both said the same thing about it."
 * [[id:ec977e2d-46b9-455f-8be0-fb3eaba4c2ca][problems Hode might help]]
 * [[id:e2911eb2-2d2f-4f8b-9de8-31356bb89df1][things Hode would enable]]
