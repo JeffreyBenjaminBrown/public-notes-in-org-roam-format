@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b42b683b-b034-4c10-8f8a-1a574668f149
+:END:
+#+title: How to respond to invitations to meetings?
+* Ask for an agenda, and read it and respond early, before saying yes to a meeting.
+* why
+  Even though I won't say no,
+  this gives an opportunity to say what I don't need to know.
+  It's easier (psychologically) for them to omit that content
+  if they haven't yet planned in detail how to present it,
+  and it's kinder with their time.

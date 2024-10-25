@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       8cef4ef9-e532-43d6-acc1-390fac29232b
+:END:
+#+title: Is there not a standard automated practice for recognizing when a website has changed its data requirements?
+* ChatGPT offers some good ideas
+  Versioning: Many APIs use versioning to manage changes. If the API you're consuming implements versioning, you can continue to use the older version while adapting to the new one.
+
+  Automated Testing: Implementing automated tests, including integration tests that check for API responses, can help catch issues when the API changes. Continuous integration (CI) practices can ensure that tests run regularly.
+
+  Monitoring and Alerts: Use monitoring tools to track API responses and performance. Setting up alerts for unexpected changes in response structures or status codes can help you react before users encounter issues.
+
+  Schema Validation: Tools like JSON Schema or OpenAPI Specification (formerly Swagger) can be used to define the expected structure of API responses. Validating responses against these schemas can catch discrepancies early.
+
+  Documentation and Change Logs: Regularly review the documentation and change logs of the API provider. Many services announce breaking changes, deprecated features, or updates, allowing you to prepare for necessary adjustments.
+
+  API Gateway: Implementing an API gateway can help manage requests to external services and handle changes in a more controlled manner. It can also allow you to abstract away changes in the underlying API.
+
+  Fallback Mechanisms: Consider implementing fallback mechanisms or error handling strategies that can provide alternative responses when encountering errors due to API changes.
+
+  Collaboration: If possible, establish a communication channel with the API provider. Some services offer support or partnership programs that can give you advance notice of upcoming changes.

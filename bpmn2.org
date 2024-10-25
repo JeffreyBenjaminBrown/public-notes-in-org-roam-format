@@ -5,3 +5,7 @@
 #+title: BPMN2
 * a BPMN2 tutorial
   https://www.processmaker.com/es/blog/bpmn-2-0-tutorial-and-examples/
+* notation
+** A circle is a user choice.
+   They can choose multiple things.
+   So said Alvaro, <2024-10-24 Thu>, at [[id:8d27cb78-b591-4238-9221-55f0f1691d84][this meeting]].
