@@ -64,9 +64,11 @@ In a later section I will operationalize the promises of this section. Before th
 
 *** some capabilities Hode will enable
 **** search better
-Before AI, no document search tool understood much about the documents it had indexed. That situation has , running an AI locally on your own machine ... TODO ... but the AI can still give wrong or incomplete answers. And in fact it *must* give incomplete answers sometimes, because it contains much less information than the space of all expressible queries.
+Before AI, no document search tool understood much about the documents it had indexed. For searching a handful[[context window]] of journal articles, that situation has improved greatly with the recent advent of LLMs. For bigger searches, though, we still must use an explicit, deterministic index. And even for questions an LLM can answer, the LLM's answers are necessarily lossy, and (so far) necessarily opaque.
+
+Hode will permit queries that even the best search engines, let alone the search functions on social media platforms, cannot begin to understand: "Show me articles that either cite [source] or cite something that cites [source]." "Show me posts from [person] on which [person] commented." "Show me articles on my hard drive that mention the use of a reducing agent (regardless of whether the article uses that term[[ontology for reducing agent]])."
 **** build your own social media feed
-***** cooperative writing
+As mentioend earlier, users could easily program their own social media feeds. Those feeds would be free of ads. They would also (presumably) not be designed to maximize engagement, which would mitigate much of the psychological harm (e.g. addiction) and social harm (e.g. viral hate) social media currently suffers.
 **** defend against online misinformation and hostility
 **** socially transparent discovery and reasoning
      science, law, journalism
@@ -105,3 +107,7 @@ But Hode could be grafted onto a cryptocurrency.
 **** reward creators
 **** permit immutable records
 **** pay for bandwidth and storage
+** footnotes
+[[context window]] As of October 2024, the largest AI context window is that of Gemini 1.5, which is around a million tokens. If we assume 400 words per page, 1.3 tokens per word, and 30 pages per article, then the context window can hold fewer than 65 articles.
+
+[[ontology for reducing agent]] Using the hypergraph index in conjunction with an ontology will permit searching for instances of any term belonging to a class -- so, in this example, articles mentioning the use of "oxalic acid" would make it intof the search results if the ontology included the fact that it is a reducing agent.

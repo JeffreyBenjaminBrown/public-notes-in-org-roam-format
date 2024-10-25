@@ -5,6 +5,5 @@
 ask (them to)
 * [[id:fc82ceb7-1d84-4e4c-8eca-8a0fc8847db6][In what order should I do what doctors prescribe?]]
 * Send me the orders electronically, not just as paper.
-* Be sure I can read what they wrote.
-  Even if it's typed out, I might not understand.
+* Be sure I understand what they wrote | typed.
 * Ask for a way to contact them if I get confused.
