@@ -1,8 +1,9 @@
 :PROPERTIES:
 :ID:       e76bfca8-f61d-45a2-908f-bad416a7c304
-:ROAM_ALIASES: git
+:ROAM_ALIASES: git Git
 :END:
 #+title: git (version control software)
+* [[id:d9bcb1ce-15b1-4880-a2b2-d9a0d0fed37c][one-page introduction to Git that I wrote for a coworker]]
 * show all commits by an author
   git log --author="Jeffrey Benjamin Brown"
 * [[id:39b1baa1-4108-4aac-a8e0-ec662b531523][fetch all branches from all remotes \ git]]

@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       d9bcb1ce-15b1-4880-a2b2-d9a0d0fed37c
+:END:
+#+title: one-page introduction to Git that I wrote for a coworker
+Aunque Git es algo usado en general solamente por los prorgamadores, no es difícil. Solamente involucra un número de pasos fuera de lo normal cuando alguien está haciendo un backup.
+
+(1) Instalar Git en to máquina.
+(2) Correr `git init` (por la linea de comandos) desde la carpeta en tu computador que quieres mantener versionado. Esto prepara tu repositorio local, donde vas a guardar las diferentes versiones de la carpeta.
+(3) Correr `git status` desde la carpeta para ver cuáles archivos ya son parte del commit. Esto te muestra los archivos que no son parte del repositorio, y los que ya son pero que han sido modificados desde la última vez que fueron grabados.
+(4) Correr `git diff` para ver qué ha cambiado desde la última vez que corriste `git commit`. (La primera vez que haces esto, te va a simplemente reportar que todo lo que tiene la carpeta está fuera del repositorio.)
+(5) Correr `git add x` desde esa carpeta, donde `x` es el nombre de un archivo, para agregar ese archivo a los que van a ser parte del próximo versión de la carpeta en el repositorio.
+(6) Correr `git commit` para hacer el "commit" -- es decir, crear una nueva versión de la carpeta en el repositorio. Cuando haces esto, te va a pedir un mensaje describiendo los cambios.
+
+Repitiendo los pasos 3 a 6, creas versiones de la carpeta locales en el "repositorio local" de Git -- es decir, el que está ubicado en tu computador.
+
+Git es distinto a GitHub. Git no necesita GitHub; puede usar otros sitios para el almacenamiento en nube. Pero Github es el más conocido.
+
+Para guardar un imagen de tu repositorio en Github, toca hacer un poco más:
+
+(1) Crear una cuenta con Github (grátis).
+(2) Desde tu cuenta en Github, crear un nuevo "repositorio".
+(3) Una vez haces eso, GitHub te va a mostrar los comandos que puedes correr para hacer un espejo de tu imagen local en Github. Toca correr esos comandos desde la carpeta local.
+
+Una vez haces eso, cada vez que quieres actualizar el imagen en la nube, solamente toca correr "git push" desde la carpeta local. (Pero esto solamente tendrá un efecto si has hecho más commits desde la última vez que corriste "git push".=
+
+Tal vez suena como mucho trabajo. Las ventajas son mínimo estas dos:
+
+(1) Tienes una copia en la nube de cada versión de la carpeta.
+(2) Puedes ver la historia de los cambios en esa carpeta, de manera entendible (asumiendo que los archivos son de text y no de otros formatos como imagenes o Word). Y aún si algunos archivos tienen formatos no amigables para crear un "diff" (diferencia legible entre dos versiones de un documento), tus comentarios en cada commit te indican qué cambió, al menos en terminos gruesos.
+
+Hay otras maneras de hacer versionamiento pero Git es, por mucho, el más popular. Es capaz de mucho más que he descrito, y hay un montón de materiales instructivas en linea -- tantas que ChatGPT te puede en general decir cómo hacer cualquiera cosa que podría ocurrirte.
