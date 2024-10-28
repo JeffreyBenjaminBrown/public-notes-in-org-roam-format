@@ -1,8 +1,8 @@
 :PROPERTIES:
 :ID:       514fe55a-d22c-4e6a-9b0f-3a01a89742db
+:ROAM_ALIASES: "pressure: anticipate and handle"
 :END:
 #+title: high-pressure situtations, and how to handle them
-* TODO merge this with a similar note elsewhere
 * situations
 ** meeting new people
 ** job interview
