@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       2808c8a7-fadc-4a03-ae74-fad7a5691ed4
+:END:
+#+title: Functional Programming in Lean - book by David Thrane Christiansen
+2023
+https://lean-lang.org/functional_programming_in_lean/title.html

@@ -4,6 +4,7 @@
 #+title: music
 * see also
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
+* [[id:3178090b-f91f-4975-b3c1-02f966270252][karaoke songs I can sing]]
 * TODO [[id:bb22c6e3-cd16-4e22-85ef-cd83ee03c7fa][collect data to adjust velocity curve]]
 * [[id:01104862-9949-4373-a7d3-5472596d0f99][music and consciousness]]
 * Ideas for Pianoteq guitar aftertouch and vel curve

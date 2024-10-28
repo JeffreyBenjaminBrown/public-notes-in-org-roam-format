@@ -9,6 +9,10 @@ The first part of the proposal should be about you. Tell us your personal story,
 Second, what is one mainstream or "consensus" view that you absolutely agree with? (This is our version of a "trick" question, reversing the now-fashionable contrarianism.)
 ** the idea: what's new in it, what it solves, maybe budget stuff
 The third part should be about your idea. Convince us that this is a great idea worth investing in, and tell us what is new or unusual in your vision and understanding. What's the problem you intend to solve? If you have a ballpark budget (with revenue sources and expenses), let us know the bare basics now; we won't hold you to it strictly.
+* TODO RESUME [[id:17304c66-b4cf-400b-8532-7dd3d40d8b56][here]]
+* TODO check before publishing
+** Do the footnotes make sense?
+** Are bullets formatted correctly?
 * my response
 ** about me
 I am an economist, software architect and data engineer. I have worked at the CBO, in health economics consulting, in a tiny university think tank at Javeriana University in Bogotá, and lately in the Colombian government.
@@ -63,16 +67,33 @@ Any conceivable query can be expressed as a hypergraph query, and (if the index 
 In a later section I will operationalize the promises of this section. Before that I want to explain why it is a good idea.
 
 *** some capabilities Hode will enable
-**** search better
-Before AI, no document search tool understood much about the documents it had indexed. For searching a handful[[context window]] of journal articles, that situation has improved greatly with the recent advent of LLMs. For bigger searches, though, we still must use an explicit, deterministic index. And even for questions an LLM can answer, the LLM's answers are necessarily lossy, and (so far) necessarily opaque.
+**** better search
+Before AI, no document search tool understood much about the documents it had indexed. With the recent advent of LLMs, for the speecial case of querying a handful[[context window]] of journal articles, that situation has improved greatly. For bigger searches, though, there is no good alternative to an explicit, legible, deterministic index. (And even for questions an LLM can answer, the LLM's knowledge is necessarily lossy, and its reasoning process opaque.)
 
-Hode will permit queries that even the best search engines, let alone the search functions on social media platforms, cannot begin to understand: "Show me articles that either cite [source] or cite something that cites [source]." "Show me posts from [person] on which [person] commented." "Show me articles on my hard drive that mention the use of a reducing agent (regardless of whether the article uses that term[[ontology for reducing agent]])."
+An explicit hypergraph database, paired with an intuitive query language, will permit queries that even the best search engine cannot begin to parse. A few examples:
+
+- "articles that either cite [source] or cite something that cites [source]"
+- "posts from [person] on which [person] commented"
+- "articles on my hard drive that mention any chemical in the blood of any mammal". (Since Hode will incorporate an ontology into the index, the user would not need to provide an explicit list of mammals chemicals.)
 **** build your own social media feed
-As mentioend earlier, users could easily program their own social media feeds. Those feeds would be free of ads. They would also (presumably) not be designed to maximize engagement, which would mitigate much of the psychological harm (e.g. addiction) and social harm (e.g. viral hate) social media currently suffers.
+Users could easily program their own social media feeds in Hode. Those feeds would (presumably, usually) not be designed to maximize engagement, which would mitigate much of the psychological harm (e.g. addiction) and social harm (e.g. viral hate) social media currently suffers.
+
+Moreover, the ease of customization would be unprecedented -- as in the example mentioned earlier: "things friends have published, ordered by recency, excluding sports commentary and anything that Mom thought was sad."
 **** defend against online misinformation and hostility
+     :PROPERTIES:
+     :ID:       17304c66-b4cf-400b-8532-7dd3d40d8b56
+     :END:
+Lies and hostility might be inherent to human nature, but technology can reduce both their incidence and their harm.
+***** tracing sources
+A good deal of online misinformation is copied and forwarded unchanged, but with no attribution. Some part of the fight against misinformation involves tracking down their origins. The hypergraph index would be, in part, a searchable public history of those exchanges, and thus could make those investigations easier.
+***** mapping arguments, recognizing equivalence and novelty
 **** socially transparent discovery and reasoning
-     science, law, journalism
-     journalism encompasses things like labor statistics
+***** areas
+      science, law, journalism
+      journalism encompasses things like labor statistics
+***** methods
+****** the journal review process could be public
+       Although it could still be done in private.
 **** emergent curricula
 **** verifiable AI dicta
 *** u

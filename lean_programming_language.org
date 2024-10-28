@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       784a15c2-5ecf-4772-8d8f-f616103f3df5
+:END:
+#+title: Lean - programming language
+* [[id:2808c8a7-fadc-4a03-ae74-fad7a5691ed4][Functional Programming in Lean - book by David Thrane Christiansen]]
+* gets rave reviews from Haskellers
+* noteworthy features
+  more here: https://lean-lang.org/about/
+** dependent types
+** strict evaluation
+** multithreading
+** theorem proving
+** macros
+* seems to have become general lately
+  with an initial focus on theorem proving
+* born in 2013
