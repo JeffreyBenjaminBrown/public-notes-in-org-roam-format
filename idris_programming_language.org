@@ -2,6 +2,8 @@
 :ID:       23f1e037-49c2-4fa1-acf6-a42b5703082a
 :END:
 #+title: Idris (programming language)
+* TODO small example programs in Idris, inc. Space Invaders
+  https://github.com/idris-hackers/idris-demos/tree/master
 * ONGOING RESUME
   https://idris2.readthedocs.io/en/latest/tutorial/typesfuns.html#records
 * STALE RESUME at

@@ -3,7 +3,9 @@
 :END:
 #+title: Lean - programming language
 * [[id:2808c8a7-fadc-4a03-ae74-fad7a5691ed4][Functional Programming in Lean - book by David Thrane Christiansen]]
-* gets rave reviews from Haskellers
+* gets rave reviews from a lot of Haskellers
+  but not all, particularly AntC2
+* [[id:59222678-8e41-4816-b5e5-f86e2461ecca][a way to simplify some call sites in Lean]]
 * noteworthy features
   more here: https://lean-lang.org/about/
 ** dependent types

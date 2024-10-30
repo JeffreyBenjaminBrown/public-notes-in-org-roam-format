@@ -8,3 +8,5 @@
 * [[id:87573557-33fa-4aae-93e9-7f99ffb5c9ed][circles of publication intimacy]]
 * [[id:4de638f4-5126-4b4d-9754-25a3f76cf24d][collective, emergent curricula]]
 * [[id:81c54411-a20f-4fed-9a6c-67049153f761][better AI]]
+* recognize argument equivalence, argument classes
+  argument classes: A collection of relationships like "[person] witnessed [event]" could be collapsed to a number of witnesses, obviating the need to read a lot of very similar statements.

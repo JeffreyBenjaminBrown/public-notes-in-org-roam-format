@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       23be090c-234e-4bc2-9bf2-31b23eb0357f
+:END:
+#+title: VLC Media Player - application
+* shortcuts
+** speed up: ]
+** speed down: [

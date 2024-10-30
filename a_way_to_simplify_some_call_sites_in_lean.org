@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       59222678-8e41-4816-b5e5-f86e2461ecca
+:END:
+#+title: a way to simplify some call sites in Lean
+read the headlines below in order before their content
+* in the thread here
+  https://discourse.haskell.org/t/the-future-of-dependent-haskell/10614/64
+* AntC2 described this problem
+```
+def length (α : Type) (xs : List α) ...
+
+... => Nat.succ (length α ys)
+```
+
+Whether or not an explicit binding point for the α in the signature would be useful (Haskell has forall), why the f*** would I want to encumber every call to length with a type application when length‘s argument ys gives the type?
+* and Ei30metry responded with a solution
+You can make α an implicit parameter by wrapping it inside curly-braces instead of parenthesis.
+
+```
+def myLength {α : Type} (xs : List α) :=
+  match xs with
+    | []      => 0
+    | _ :: ys => 1 + myLength ys
+```
