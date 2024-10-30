@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       538dc9f8-3d2b-4aca-9884-1eb697a8b7b4
+:END:
+#+title: Improv on who or what leads.
+* In all cases, it is a lag structure, a fundamental metaparameter.
+* three cases
+** can be done as a single player
+   Example: Sometimes the thing you are playing now is an echo of the melody you were playing a bar ago, with different rhythm. In that case the impulse originates from the earlier melody, not the earlier rhythm.
+** can be done as a group, individually
+   In this case each person individually hears themselves following something (which changes over time), without trying to coordinate that with the others.
+** can be done as a group, coordinated
+   This might require explicit signals to coordinate, but might not.

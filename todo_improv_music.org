@@ -2,6 +2,7 @@
 :ID:       622380e5-1a51-4fc3-81e0-096fac60f020
 :END:
 #+title: TODO & improv \\ music
+* [[id:538dc9f8-3d2b-4aca-9884-1eb697a8b7b4][Improv on who leads.]]
 * alternate two simple motifs in unlike domains
 ** One could be as simple as three ascending pitches, and the other a simple rhythm.
 * [[id:bcb1bf60-ce8a-4741-9df6-988922056f75][Use small transformations for stability & memory.]]
