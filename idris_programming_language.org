@@ -125,12 +125,7 @@ help : a
    isSingleton False = List Nat
 ** Names can be overloaded.
    Note that we have [in the declaration of Vector] used the same constructor names as for List. Ad-hoc name overloading such as this is accepted by Idris, provided that the names are declared in different namespaces
-** I don't understand The Finite Sets
-   https://idris2.readthedocs.io/en/latest/tutorial/typesfuns.html#the-finite-sets
-*** What they're for.
-    Natural numbers have a lower bound and no upper bound.
-    Finite sets, based on natural numbers, have both.
-*** But what imposes the upper bound?
+** [[id:6c3994a6-6d2a-4b25-850e-4b9113317a74][finite sets (in Idris)]]
 ** Implicit args and naming
 *** Implicit arguments, given with the forall declaration, are not given in applications of index; their values can be inferred from the types of the Fin n and Vect n a arguments. Any name beginning with a lower case letter which appears as a parameter or index in a type declaration, which is not applied to any arguments, will always be automatically bound as an implicit argument; this is why data type names cannot begin with a lower case letter. Implicit arguments can still be given explicitly in applications, using {a=value} and {n=value}, for example:
 

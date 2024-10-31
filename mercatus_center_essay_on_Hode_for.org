@@ -83,7 +83,7 @@ Moreover, the ease of customization would be unprecedented -- as in the example 
      :PROPERTIES:
      :ID:       17304c66-b4cf-400b-8532-7dd3d40d8b56
      :END:
-Lies and hostility might be inherent to human nature, but technology can reduce both their incidence and their harm.
+Misinformation and hostility might be inherent to human nature, but technology can reduce both their incidence and their harm.
 ***** tracing sources
 A good deal of online misinformation is copied and forwarded unchanged, but with no attribution. Some part of the fight against misinformation involves tracking down their origins. The hypergraph index would be, in part, a searchable public history of those exchanges, and thus could make those investigations easier.
 ***** mapping arguments, recognizing equivalence and novelty

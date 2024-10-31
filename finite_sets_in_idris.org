@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       6c3994a6-6d2a-4b25-850e-4b9113317a74
+:END:
+#+title: finite sets (in Idris)
+* ref
+https://idris2.readthedocs.io/en/latest/tutorial/typesfuns.html#the-finite-sets
+* type def
+Fin : Nat -> Type where
+  FZ : Fin (S k)
+  FS : Fin k -> Fin (S k)
+* explanation
+  Remember that Z : Nat is usually interpreted as 0, not 1.
+  FZ is a member of Fin k for all k such that Fin k exists.
+  Fin Z is empty, because Fin Z cannot be represented as Fin (S k) for any k : Nat.
+  Next consider Fin 1: FZ is a member. There could be another member FS (FZ : Fin k) : Fin 1 if there were some k such that S k = 1 and FZ : Fin k. But that would require k = Z, and as shown above, Fin Z is empty.
+ and that's all, because there is no k : Nat for which (S k) = 1. (Right? Or am I off by one?)
+  Next consider Fin 2: FZ is a member, and FS (FZ : Fin 1) is a member. That's all.
+  Etc. That's why each Fin k has exactly k members.
