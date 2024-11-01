@@ -9,7 +9,6 @@ The first part of the proposal should be about you. Tell us your personal story,
 Second, what is one mainstream or "consensus" view that you absolutely agree with? (This is our version of a "trick" question, reversing the now-fashionable contrarianism.)
 ** the idea: what's new in it, what it solves, maybe budget stuff
 The third part should be about your idea. Convince us that this is a great idea worth investing in, and tell us what is new or unusual in your vision and understanding. What's the problem you intend to solve? If you have a ballpark budget (with revenue sources and expenses), let us know the bare basics now; we won't hold you to it strictly.
-* TODO RESUME [[id:17304c66-b4cf-400b-8532-7dd3d40d8b56][here]]
 * TODO check before publishing
 ** Do the footnotes make sense?
 ** Are bullets formatted correctly?
@@ -27,14 +26,14 @@ For historical reasons I call the project Hode. (That stands for Higher Order Da
 *** Hode would unify much of our data, and how we process it.
 Two simple claims are the basis for this proposal: (1) Many of the ways we process and share data can be unified, and (2) doing so would bring a slew of benefits, from individual productivity and well-being to the collective search for truth.
 
-The two major novelties of Hode will be its hypergraph index and query language. The hypergraph index -- and good free software for representing it already exists[[TypeDB]] -- will permit extremely different kinds of knowledge to be integrated into a single database. The query language, a working but incomplete prototype of which already exists[[Hash]], will let a user express many of the kinds of queries we are used to executing in specialized applications:
+The two major novelties of Hode will be its hypergraph index and query language. The hypergraph index (and good free software for representing it already exists[[TypeDB]]) will permit extremely different kinds of knowledge to be integrated into a single database. The query language (a working but incomplete prototype of which already exists[[Hash]]) will let a user express many of the kinds of queries we are used to executing in specialized applications:
 
 - "What's on my calendar?"
 - "What are my friends posting online?"
 - "Where's that document on my hard drive?"
 - "Where can I read online about [topic]?"
 
-Together they will permit cross-cutting queries that nothing available to the general public currently permits:
+Together, the index and query language will permit cross-cutting queries that nothing available to the general public currently permits:
 
 - "Where did [rumor] first appear online?"
 - "Who has publicly written anything equivalent to any of my own private ideas?"
@@ -42,28 +41,34 @@ Together they will permit cross-cutting queries that nothing available to the ge
 - "On the websites cited by those of my friends who post pro-[political candidate] content online, who are the top advertisers?"
 
 The extreme expressivity of the query language, and the extremely broad nature of the index, will permit a wide variety of desirable applications. Before getting to those I must briefly describe Hode's architecture.
-*** an initial, brief description of Hode's architecture
-Hode will be a protocol for sharing, indexing and querying natural language content, and a client for sharing, querying and viewing it. (As a protocol, anyone will be free to build other clients for it.)
+*** a tiny sketch of Hode's architecture
+Hode will be an open protocol for creating and querying a distributed index of natural language content. The project will initially launch with only one client, but because the protocol will be open, anyone will be free to build other clients.
 
-There will be no client-server distinction; every client will also be a server. Together, these clients will host the (single, unified, distributed) hypergraph index, continuously building it and responding to each others' queries about it. However, privacy need not be sacrificed in order to particpate; access controls will allow users to search their own private data alongside the public index.
+There will be no client-server distinction; every client will also be a server. Together, the clients will host a (single) distributed hypergraph index, continuously building it and responding to each others' queries about it.
 
-Aside the index and query language, all the important architectural ideas in Hode predate it, and have been made into more popular services than appear in the following list:
+Aside the index and query language, all the important architectural ideas in Hode predate it, and most have already been made into popular services:
 
 - the personal knowledge base (OneNote, Evernote)
 - online publishing (X, Wikipedia, Elsevier)
 - search (Google, Apple Spotlight)
 - federated sharing (BitTorrent, Mastodon)
 - automated crawling and parsing of documents (Google, GraphRAG)
+- the ontology
+**** Sidenote: Hode will not sacrifice user privacy
+Access controls will allow users to search their own private data alongside the public index. (Of course, nobody without access to suchprivate data can assist the effort to index it.)
 **** Sidenote: Hode does not need scale in order to be useful.
 I will address more potential objections later, but I must immediately address one a reader might already be considering: Hode does not need to be at all popular, let alone to displace any of the above wildly-popular services, before it can be useful. Even a single user will benefit from being able to query a hypergraph index of their data. A small team would derive greater benefit yet -- be they poets collaborating, shareholders arguing, or coworkers sharing work. Like many apps, the value of Hode will scale disproportionately with its user base, but it does not require network effects to be valuable.
+
+In particular, Hode does not require an enormous amount of content, along the lines of Facebook or X, in order to be useful. In fact Hode would not host "content" per se at all, apart from the index itself, which would refer to content hosted elsewhere. Thus rather than competing with them, Hode will in fact benefit from the scale of bigger competitors.
+**** the ontology
 **** the hypergraph index
 A hypergraph data store is a collection of things, some of which are relationships. The relationships can hold any number of members, and those members can themselves be relationships. (In computer science, hypergraphs generalize graphs: Any graph is a hypergraph in which all relationships are binary and no relationship is a member of another relationship.)
 
 Hypergraph data can precisely and naturally reflect the structure of ordinary speech. For instance, "Sam threw the ball to Paul because Paul said 'over here'" is a "because" relationship between a ternary relationship "gave-to" relationship and a binary "said" relationship. All language can be represented as such nested relationships, and language so represented can be searched more intelligently.
 
 Ordinary search engines associate some key phrases with a document or website. There might be many such phrases, and they might be chosen cleverly. But once those key phrases are chosen, they have little meaning in the index beyond "these words appear in this article". (Search engines also rank search results. Hode will in some cases have to do similarly, but that's out of scope for this high-level proposal.)
-**** precise querying
-We are used to giving a "bag of words" to a search engine, and hoping it comes back with something useful. Appropriate hypergraph data, by contrast, permits the kind of precise query nobody in the general public can run for themselves:
+***** The hypergraph index will permit precise querying.
+A majority of humanity is now accustomed to giving a "bag of words" to a search engine, and hoping it comes back with something useful. Appropriate hypergraph data, by contrast, permits the kind of precise query nobody in the general public can run for themselves:
 
 - A social media feed algorithm: "Things friends have published online, ordered by recency, excluding anything about sports unless it involves statistics, and excluding anything Mom thought was sad."
 
@@ -73,6 +78,11 @@ We are used to giving a "bag of words" to a search engine, and hoping it comes b
 
 Any conceivable query can be expressed as a hypergraph query, and (if the index is sufficiently thorough) can be answered transparently, deterministically, and completely -- characteristics that stand in noteworthy contrast to the oracular nature of responses from both private search engines and large language models.
 *** some things Hode will enable
+**** defense against online misinformation
+Misinformation and hostility might be inherent to human nature, but technology can reduce both their incidence and their harm.
+***** mapping arguments, recognizing equivalence and novelty
+***** tracing provenance
+A substantial part of the fight against online misinformation has involved tracking down its origins. With scale, the hypergraph index would permit a single provenance query to collect such information, without requiring a different query method for every medium (as is the case currently).
 **** better search
 Before AI, no document search tool understood much about the documents it had indexed. With the recent advent of LLMs, for the speecial case of querying a handful[[context window]] of journal articles, that situation has improved greatly. For bigger searches, though, there is no good alternative to an explicit, legible, deterministic index. (And even for questions an LLM can answer, the LLM's knowledge is necessarily lossy, and its reasoning process opaque.)
 
@@ -86,14 +96,6 @@ Users could easily program their own social media feeds in Hode. Those feeds wou
 
 Moreover, the ease of customization would be unprecedented -- as in the example mentioned earlier: "things friends have published, ordered by recency, excluding sports commentary and anything that Mom thought was sad."
 **** improve the usefulness of information, and defend against misinformation
-***** mapping arguments, recognizing equivalence and novelty
-**** defend against online misinformation and hostility
-     :PROPERTIES:
-     :ID:       17304c66-b4cf-400b-8532-7dd3d40d8b56
-     :END:
-Misinformation and hostility might be inherent to human nature, but technology can reduce both their incidence and their harm.
-***** tracing sources
-A good deal of online misinformation is copied and forwarded unchanged, but with no attribution. Some part of the fight against misinformation involves tracking down their origins. The hypergraph index would be, in part, a searchable public history of those exchanges, and thus could make those investigations easier.
 ***** mapping arguments, recognizing equivalence and novelty
 **** socially transparent discovery and reasoning
 ***** areas
