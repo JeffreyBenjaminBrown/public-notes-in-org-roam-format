@@ -1,9 +1,9 @@
 :PROPERTIES:
 :ID:       d9bcb1ce-15b1-4880-a2b2-d9a0d0fed37c
-:ROAM_ALIASES: "introduction to Git" "Git introduction"
+:ROAM_ALIASES: "introduction to Git" "Git introduction" "introduction to git" "git introduction"
 :END:
-#+title: an introduction to Git
-* a conceptual one, pretty good
+#+title: some introductions to Git
+* a conceptual one
 When you run `git init` in a folder, you turn that folder into a git "repository", by creating a hidden folder called `.git/` (folders starting with "." are hidden by default, at least on Linux, although easy to see if you ask to see them). `.git/` contains, as far as I know, two things: the full repository history, and a "staging area".
 
 Staging is the word git uses for "preparing the next commit". A commit is a set of changes, along with a message. When you first initialize the repo, it has no content. But once you've run `git add [filename]` at least once, you'll have added file content to the staging area, ready to commit. Now you can run `git commit` to create a commit. It will prompt you for a commit message, describing how the changes you've staged will alter the repository.
@@ -18,6 +18,8 @@ You don't have to, but it's usually a good idea to sync your local repository to
 
 When you create a new repository on Github, it will show you some code which, when executed, will sync your local repository to it. The cloud-based copy of your repo is called the `remote` (as opposed to the `local`). The command `git remote` is for connecting your local repo to remote ones. Usually you just set it up at the birth of the repo, and from then on forget about it, except that you'll often be using `git push` and `git pull` to communicate between them.
 
+Your "remote" (copy of the) repository need not actually be remote -- it could just be a different spot (presumably one you don't touch directly, only through git) on your hard drive. And there are other services resembling Github with various pros and cons -- more privacy, no AI training based on your data, etc. (Github is free, definitely the most popular, and maybe the easiest option.)
+
 git permits branching, with the command `git branch`. First you'll be working on a branch called (usually) `main`. You can create a new branch by running `git branch [branch name]`. Work on the new branch will not change the old branch. Once you finish the work and believe it's good, you can incorporate it back into the main branch (or into some other branch!) by using `git merge`.
 
 If you're not starting a new repo but rather working on something that already exists, you can "clone" it to your local machine by running `git clone`. This is handy not just for working with collaborators but, again, for working on the same code from different computers.
@@ -29,7 +31,7 @@ If you're not starting a new repo but rather working on something that already e
 There are a million little tricks that help but aren't necessary. The `.gitignore` file, for instance, lets you explain that you don't want certain files listed in `git status`, and you don't want them to be part of the repository either. There's a way in `git log` to show only when files were added but not modified. You can filter the log by author. You can add all modified files at once with `git add -u`. Etc, etc. If you feel like something is unnecessarily dumb or slow, there's probably a way around it.
 
 I think those are all the concepts.
-* a procedural one, pretty incomplete
+* a very incomplete procedural one
 Aunque Git es algo usado en general solamente por los prorgamadores, no es difícil. Solamente involucra un número de pasos fuera de lo normal cuando alguien está haciendo un backup.
 
 (1) Instalar Git en to máquina.
@@ -45,7 +47,7 @@ Git es distinto a GitHub. Git no necesita GitHub; puede usar otros sitios para e
 
 Para guardar un imagen de tu repositorio en Github, toca hacer un poco más:
 
-(1) Crear una cuenta con Github (grátis).
+(1) Crear una cuenta con Github (gratis).
 (2) Desde tu cuenta en Github, crear un nuevo "repositorio".
 (3) Una vez haces eso, GitHub te va a mostrar los comandos que puedes correr para hacer un espejo de tu imagen local en Github. Toca correr esos comandos desde la carpeta local.
 
