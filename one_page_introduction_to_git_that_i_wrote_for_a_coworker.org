@@ -1,7 +1,31 @@
 :PROPERTIES:
 :ID:       d9bcb1ce-15b1-4880-a2b2-d9a0d0fed37c
+:ROAM_ALIASES: "introduction to Git" "Git introduction"
 :END:
-#+title: one-page introduction to Git that I wrote for a coworker
+#+title: an introduction to Git
+* a conceptual one, pretty good
+When you run `git init` in a folder, you turn that folder into a git "repository", by creating a hidden folder called `.git/` (folders starting with "." are hidden by default, at least on Linux, although easy to see if you ask to see them). `.git/` contains, as far as I know, two things: the full repository history, and a "staging area".
+
+Staging is the word git uses for "preparing the next commit". A commit is a set of changes, along with a message. When you first initialize the repo, it has no content. But once you've run `git add [filename]` at least once, now you can run `git commit` to create a commit. It will prompt you for a commit message, describing how the changes you've staged will alter the repository.
+
+There are two more commands for preparing a commit: `git mv` (move or rename the file) and `git rm` (delete the file). They're straightforward.
+
+You don't have to, but it's usually a good idea to sync your local repository to a remote one. These are identical up to a point, but your local one will have new changes, until you "push" (by running "git push") those changes to the off-site copy. Similarly, you can "pull" changes from the off-site repository to your local machine. If your local machine is the only source of changes then there will never be new information to pull, but you might use multiple machines, or you might work with collaborators.
+
+When you create a new repository on Github, it will show you some code which, when executed, will sync your local repository to it. The cloud-based copy of your repo is called the `remote` (as opposed to the `local`). The command `git remote` is for connecting your local repo to remote ones. Usually you just set it up at the birth of the repo, and from then on forget about it, except that you'll often be using `git push` and `git pull` to communicate between them.
+
+git permits branching, with the command `git branch`. First you'll be working on a branch called (usually) `main`. You can create a new branch by running `git branch [branch name]`. Work on the new branch will not change the old branch. Once you finish the work and believe it's good, you can incorporate it back into the main branch (or into some other branch!) by using `git merge`.
+
+If you're not starting a new repo but rather working on something that already exists, you can "clone" it to your local machine by running `git clone`. This is handy not just for working with collaborators but, again, for working on the same code from different computers.
+
+`git log` lets you see the history of the code, in varying levels of detail. By default it just gives you the (random) commit id, the name of the author, the date, and the commit message, but you can ask to see the entire "diff" -- that is, all the changes made.
+
+`git diff` shows you the difference between the state of the repo as of the last commit and the current state given the changes you've made and haven't committed. Actually that's just what it shows by default; you can also ask for the difference between two commits, and you can narrow it down to subfolders or individual files.
+
+`git rebase` is complicated. Try to avoid it.
+
+I think those are all the concepts.
+* a procedural one, pretty incomplete
 Aunque Git es algo usado en general solamente por los prorgamadores, no es difícil. Solamente involucra un número de pasos fuera de lo normal cuando alguien está haciendo un backup.
 
 (1) Instalar Git en to máquina.
