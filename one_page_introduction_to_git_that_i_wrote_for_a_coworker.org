@@ -6,7 +6,11 @@
 * a conceptual one, pretty good
 When you run `git init` in a folder, you turn that folder into a git "repository", by creating a hidden folder called `.git/` (folders starting with "." are hidden by default, at least on Linux, although easy to see if you ask to see them). `.git/` contains, as far as I know, two things: the full repository history, and a "staging area".
 
-Staging is the word git uses for "preparing the next commit". A commit is a set of changes, along with a message. When you first initialize the repo, it has no content. But once you've run `git add [filename]` at least once, now you can run `git commit` to create a commit. It will prompt you for a commit message, describing how the changes you've staged will alter the repository.
+Staging is the word git uses for "preparing the next commit". A commit is a set of changes, along with a message. When you first initialize the repo, it has no content. But once you've run `git add [filename]` at least once, you'll have added file content to the staging area, ready to commit. Now you can run `git commit` to create a commit. It will prompt you for a commit message, describing how the changes you've staged will alter the repository.
+
+You'll often want to see what's in the staging area, what files havenot been tracked, what files have already been tracked but have changes that have not been committed yet, etc. The commands `git status` and `git diff` are for this. `status` just gives a list of files worth thinking about. (Anything you committed and have not changed since will not show up in `git status`.)
+
+`git diff` shows you the difference between the state of the repo as of the last commit and the current state given the changes you've made and haven't committed. Actually that's just what it shows by default; you can also ask for the difference between two commits, and you can narrow it down to subfolders or individual files.
 
 There are two more commands for preparing a commit: `git mv` (move or rename the file) and `git rm` (delete the file). They're straightforward.
 
@@ -20,9 +24,9 @@ If you're not starting a new repo but rather working on something that already e
 
 `git log` lets you see the history of the code, in varying levels of detail. By default it just gives you the (random) commit id, the name of the author, the date, and the commit message, but you can ask to see the entire "diff" -- that is, all the changes made.
 
-`git diff` shows you the difference between the state of the repo as of the last commit and the current state given the changes you've made and haven't committed. Actually that's just what it shows by default; you can also ask for the difference between two commits, and you can narrow it down to subfolders or individual files.
-
 `git rebase` is complicated. Try to avoid it.
+
+There are a million little tricks that help but aren't necessary. The `.gitignore` file, for instance, lets you explain that you don't want certain files listed in `git status`, and you don't want them to be part of the repository either. There's a way in `git log` to show only when files were added but not modified. You can filter the log by author. You can add all modified files at once with `git add -u`. Etc, etc. If you feel like something is unnecessarily dumb or slow, there's probably a way around it.
 
 I think those are all the concepts.
 * a procedural one, pretty incomplete
