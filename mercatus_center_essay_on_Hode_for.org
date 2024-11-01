@@ -15,17 +15,16 @@ The third part should be about your idea. Convince us that this is a great idea 
 ** Are bullets formatted correctly?
 * my response
 ** about me
-I am an economist, software architect and data engineer. I have worked at the CBO, in health economics consulting, in a tiny university think tank at Javeriana University in Bogotá, and lately in the Colombian government.
+I am an economist, software architect and data engineer. I have worked at the CBO, in health economics consulting, at a small university think tank, and most recently in the Colombian government.
 
-I have been an enthusiastic user of knowledge mapping software for more than twenty years. I feel about it like Feynman felt about taking notes: It does not just help me think; it is how I think. And not just for technical topics, but for creative and emotional work, too. (It can resemble journaling, if journals admitted hyperlinks.)
+I have used knowledge mapping software enthusiastically for more than twenty years, swapping to a more expressive app each time (three) I found one. Within a year of starting, knowledge mapping had become an integral part of my thought process.
 
-In the first year of the economics PhD program at Michigan State I was part of a study group that would share notes and work through problems at the end of each day. The immense power of sharing ideas with even a small number of people (most days we were between 3 and 7 people) was a revelation to me that I still marvel at 17 years later.
+In the first year of the economics PhD program at Michigan State, in 2006, I was part of a study group that would share notes and work through problems at the end of each day. The power of sharing and collectively working through ideas among even a small number of people (most days we were between 3 and 7) was a revelation to me that I still marvel at.
 ** a mainstream belief I hold
 Our chief truth-seeking institutions are science, journalism, law and government. It is critical that they function well, and critical that they be widely understood and trusted.
 ** my proposal
 For historical reasons I call the project Hode. (That stands for Higher Order Data Editor -- an ambition which is now a proper subset of Hode.)
-
-*** Hode would work by unifying data and how we process it.
+*** Hode would unify much of our data, and how we process it.
 Two simple claims are the basis for this proposal: (1) Many of the ways we process and share data can be unified, and (2) doing so would bring a slew of benefits, from individual productivity and well-being to the collective search for truth.
 
 The two major novelties of Hode will be its hypergraph index and query language. The hypergraph index -- and good free software for representing it already exists[[TypeDB]] -- will permit extremely different kinds of knowledge to be integrated into a single database. The query language, a working but incomplete prototype of which already exists[[Hash]], will let a user express many of the kinds of queries we are used to executing in specialized applications:
