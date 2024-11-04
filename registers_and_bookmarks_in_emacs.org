@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       19f1effe-2776-48af-8cc7-32eca1b432f7
+:END:
+#+title: registers and bookmarks in Emacs
+* ref
+  https://www.math.utah.edu/docs/info/emacs_14.html
+* "Registers are like bookmarks, but persistent."
+* The names of registers are single characters.
+* store position in register
+  Place cursor somewhere and run C-x r <SPC> <name>,
+  where <name> is a character.
+* jump to the position stored in a register
+  C-x r j <name>
