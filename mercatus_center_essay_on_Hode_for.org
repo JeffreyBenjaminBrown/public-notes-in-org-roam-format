@@ -22,18 +22,22 @@ In the first year of the economics PhD program at Michigan State, in 2006, I was
 ** a mainstream belief I hold
 Our chief truth-seeking institutions are science, journalism, law and government. It is critical that they function well, and critical that they be widely understood and trusted.
 ** my proposal
-For historical reasons I call the project Hode. (That stands for Higher Order Data Editor -- an ambition which is now a proper subset of Hode.)
-*** Hode would unify much of our data, and how we process it.
-Two simple claims are the basis for this proposal: (1) Many of the ways we process and share data can be unified, and (2) doing so would bring a slew of benefits, from individual productivity and well-being to the collective search for truth.
+*** [[id:f5052dcf-20b5-48f7-85bb-478b16700b7a][stashed unused text]]
+*** introduction
+Many of the ways we process and share data can be unified. Doing so would bring a slew of benefits, from individual productivity and well-being to the collective search for truth.
 
-The two major novelties of Hode will be its hypergraph index and query language. The hypergraph index (and good free software for representing it already exists[[TypeDB]]) will permit extremely different kinds of knowledge to be integrated into a single database. The query language (a working but incomplete prototype of which already exists[[Hash]]) will let a user express many of the kinds of queries we are used to executing in specialized applications:
+This proposal is to create a protocol for building, distributing and querying a hypergraph index. I will call the project Shyg (for "Shared HYperGraph"). The hypergraph data structure, described later, permits a deep semantic of the content of natural language documents. So too, of course, does natural language itself, but the hypergraph is searchable in a way ordinary text is not.
+
+Participants in Shyg would run daemons to crawl and index the part of the public internet they considered most worth indexing, as well as their own private content. A simple query language would permit them to fetch relevant portions of the indexed data.
+
+Shyg will let users express many of the kinds of queries we are used to executing in specialized, usually proprietary, applications:
 
 - "What's on my calendar?"
 - "What are my friends posting online?"
-- "Where's that document on my hard drive?"
+- "Where is [document] on my hard drive?"
 - "Where can I read online about [topic]?"
 
-Together, the index and query language will permit cross-cutting queries that nothing available to the general public currently permits:
+Moreover, Shyg will permit cross-cutting queries that nothing available to the general public currently permits:
 
 - "Where did [rumor] first appear online?"
 - "Who has publicly written anything equivalent to any of my own private ideas?"
