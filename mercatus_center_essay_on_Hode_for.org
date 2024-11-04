@@ -26,6 +26,10 @@ Moreover, Shyg will permit cross-cutting queries that nothing available to the g
 
 The extreme expressivity of the query language, and the extremely broad nature of the index, will permit a wide variety of desirable applications. I will describe some of what Shyg would enable in more detail, and then describe its architecture.
 * some things Shyg will enable
+** build your own social media feed
+Users could easily program their own social media feeds in Shyg. Those feeds would (presumably, usually) not be designed to maximize engagement, which would reduce some of the psychological and social harms social media currently produces.
+
+Moreover, the degree and ease of customization would be unprecedented -- e.g. "things friends have published, ordered by recency, excluding sports commentary and anything that Mom thought was sad" would be a trivial query.
 ** better search
 Today, search results are often not what the user hoped.
 
@@ -48,14 +52,8 @@ The Shyg index will include a continuously growing ontology. Therefore a user as
 One difficult aspect of navigating online information is that much of it is redundant. Language is full of synonyms and equivalent grammatical structures. Moreover, many statements are obvious implications of others, and do not need to be separately recorded. For instance, if you have recorded that mammals are warm-blooded and cats are mammals, then you need not separately record that cats are warm-blooded.
 
 The Shyg index, with its ontology, will permit a user to reduce the complexity of search results by imposing uniqueness constraints on them. One could, for instance, ask for weightlifting exercises that target the hamstrings, and get a short list, rather than hundreds of thousands of websites.
-** defense against online misinformation
-*** mapping arguments, recognizing equivalence and novelty
-*** tracing provenance
-A substantial part of the fight against online misinformation has involved tracking down its origins. With scale, the hypergraph index would permit a single provenance query to collect such information, without requiring a different query method for every medium (as is the case currently).
-** build your own social media feed
-Users could easily program their own social media feeds in Shyg. Those feeds would (presumably, usually) not be designed to maximize engagement, which would mitigate much of the psychological harm (e.g. addiction) and social harm (e.g. viral hate) social media currently suffers.
-
-Moreover, the ease of customization would be unprecedented -- as in the example mentioned earlier: "things friends have published, ordered by recency, excluding sports commentary and anything that Mom thought was sad."
+** defending against misinformation by tracing provenance
+A substantial part of the fight against online misinformation has involved tracking down its origins. This is tedious manual labor, but it does not need to be. Simple NLP could recognize when one document cites another even before the present era of LLMs. By incorporating citation relationships into the index, and by using the ontology to recognize equivalent forms of the same statement, a Shyg user could trace the history of a claim backward. The query could be executed once, via a single medium (the Shyg index), rather than requiring a separate query in each new domain encountered (e.g. a newspaper, then a social media site, then someone's blog, etc.)
 ** improve the usefulness of information, and defend against misinformation
 *** mapping arguments, recognizing equivalence and novelty
 ** socially transparent discovery and reasoning
