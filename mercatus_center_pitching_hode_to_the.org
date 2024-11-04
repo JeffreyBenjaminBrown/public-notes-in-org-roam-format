@@ -3,4 +3,23 @@
 :END:
 #+title: Mercatus Center, pitching Hode to the
 * [[id:ee8ecb15-832c-410f-8eed-f097baaba85e][Hode in under 295 characters, for the Mercatus Center]]
-* [[id:c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6][Mercatus Center, essay on Hode for]]
+* what they ask
+** the relevant part of my background
+The first part of the proposal should be about you. Tell us your personal story, and how it relates to what you wish to do. We probably don't care much about your formal education, credentials, or awards, unless they're particularly germane to who you are or your idea. Do tell us your background briefly, but credentials are not what will impress us.
+** a mainstream belief I hold
+Second, what is one mainstream or "consensus" view that you absolutely agree with? (This is our version of a "trick" question, reversing the now-fashionable contrarianism.)
+** the idea: what's new in it, what it solves, maybe budget stuff
+The third part should be about your idea. Convince us that this is a great idea worth investing in, and tell us what is new or unusual in your vision and understanding. What's the problem you intend to solve? If you have a ballpark budget (with revenue sources and expenses), let us know the bare basics now; we won't hold you to it strictly.
+* responses
+** about me
+I am an economist, software architect and data engineer. I have worked at the CBO, in health economics consulting, at a small university think tank, and most recently in the Colombian government.
+
+I have used knowledge mapping software enthusiastically for more than twenty years, swapping to a more expressive app each time (three) I found one. Within a year of starting, knowledge mapping had become an integral part of my thought process.
+
+In the first year of the economics PhD program at Michigan State, in 2006, I was part of a study group that would share notes and work through problems at the end of each day. The power of sharing and collectively working through ideas among even a small number of people (most days we were between 3 and 7) was a revelation to me that I still marvel at.
+** a mainstream belief I hold
+Our chief truth-seeking institutions are science, journalism, law and government. It is critical that they function well, and critical that they be widely understood and trusted.
+** [[id:c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6][Mercatus Center, essay on Hode for]]
+* TODO check before publishing
+** Do the footnotes make sense?
+** Are bullets formatted correctly?
