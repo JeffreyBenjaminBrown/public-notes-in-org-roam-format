@@ -44,59 +44,31 @@ Moreover, Shyg will permit cross-cutting queries that nothing available to the g
 - "Who has emailed me a calendar invitation that I accepted?"
 - "On the websites cited by those of my friends who post pro-[political candidate] content online, who are the top advertisers?"
 
-The extreme expressivity of the query language, and the extremely broad nature of the index, will permit a wide variety of desirable applications. Before getting to those I must briefly describe Hode's architecture.
-*** a tiny sketch of Hode's architecture
-Hode will be an open protocol for creating and querying a distributed index of natural language content. The project will initially launch with only one client, but because the protocol will be open, anyone will be free to build other clients.
-
-There will be no client-server distinction; every client will also be a server. Together, the clients will host a (single) distributed hypergraph index, continuously building it and responding to each others' queries about it.
-
-Aside the index and query language, all the important architectural ideas in Hode predate it, and most have already been made into popular services:
-
-- the personal knowledge base (OneNote, Evernote)
-- online publishing (X, Wikipedia, Elsevier)
-- search (Google, Apple Spotlight)
-- federated sharing (BitTorrent, Mastodon)
-- automated crawling and parsing of documents (Google, GraphRAG)
-- the ontology
-**** Sidenote: Hode will not sacrifice user privacy
-Access controls will allow users to search their own private data alongside the public index. (Of course, nobody without access to suchprivate data can assist the effort to index it.)
-**** Sidenote: Hode does not need scale in order to be useful.
-I will address more potential objections later, but I must immediately address one a reader might already be considering: Hode does not need to be at all popular, let alone to displace any of the above wildly-popular services, before it can be useful. Even a single user will benefit from being able to query a hypergraph index of their data. A small team would derive greater benefit yet -- be they poets collaborating, shareholders arguing, or coworkers sharing work. Like many apps, the value of Hode will scale disproportionately with its user base, but it does not require network effects to be valuable.
-
-In particular, Hode does not require an enormous amount of content, along the lines of Facebook or X, in order to be useful. In fact Hode would not host "content" per se at all, apart from the index itself, which would refer to content hosted elsewhere. Thus rather than competing with them, Hode will in fact benefit from the scale of bigger competitors.
-**** the ontology
-**** the hypergraph index
-A hypergraph data store is a collection of things, some of which are relationships. The relationships can hold any number of members, and those members can themselves be relationships. (In computer science, hypergraphs generalize graphs: Any graph is a hypergraph in which all relationships are binary and no relationship is a member of another relationship.)
-
-Hypergraph data can precisely and naturally reflect the structure of ordinary speech. For instance, "Sam threw the ball to Paul because Paul said 'over here'" is a "because" relationship between a ternary relationship "gave-to" relationship and a binary "said" relationship. All language can be represented as such nested relationships, and language so represented can be searched more intelligently.
-
-Ordinary search engines associate some key phrases with a document or website. There might be many such phrases, and they might be chosen cleverly. But once those key phrases are chosen, they have little meaning in the index beyond "these words appear in this article". (Search engines also rank search results. Hode will in some cases have to do similarly, but that's out of scope for this high-level proposal.)
-***** The hypergraph index will permit precise querying.
-A majority of humanity is now accustomed to giving a "bag of words" to a search engine, and hoping it comes back with something useful. Appropriate hypergraph data, by contrast, permits the kind of precise query nobody in the general public can run for themselves:
-
-- A social media feed algorithm: "Things friends have published online, ordered by recency, excluding anything about sports unless it involves statistics, and excluding anything Mom thought was sad."
-
-- Productivity tricks: "All of my emails that discuss any of the events (visible to me) on Shawn's calendar." "Projects I work on blocked by projects Shawn works on." ""Diet recommendations from vegan athletes that don't involve beans."
-
-- Verification: "Content by authors I trust regarding [topic]." "Instances users have found in which [author] contradicts themselves." "Pairs of posts in which [author] and [author] agree on [topic]."
-
-Any conceivable query can be expressed as a hypergraph query, and (if the index is sufficiently thorough) can be answered transparently, deterministically, and completely -- characteristics that stand in noteworthy contrast to the oracular nature of responses from both private search engines and large language models.
-*** some things Hode will enable
-**** defense against online misinformation
-Misinformation and hostility might be inherent to human nature, but technology can reduce both their incidence and their harm.
-***** mapping arguments, recognizing equivalence and novelty
-***** tracing provenance
-A substantial part of the fight against online misinformation has involved tracking down its origins. With scale, the hypergraph index would permit a single provenance query to collect such information, without requiring a different query method for every medium (as is the case currently).
+The extreme expressivity of the query language, and the extremely broad nature of the index, will permit a wide variety of desirable applications. I will describe some of those, and then describe Hode's architecture.
+*** some things Shyg will enable
 **** better search
-Before AI, no document search tool understood much about the documents it had indexed. With the recent advent of LLMs, for the speecial case of querying a handful[[context window]] of journal articles, that situation has improved greatly. For bigger searches, though, there is no good alternative to an explicit, legible, deterministic index. (And even for questions an LLM can answer, the LLM's knowledge is necessarily lossy, and its reasoning process opaque.)
+Before AI, no document search tool understood much about the documents it had indexed. With the recent advent of LLMs, for the special case of querying a handful[[context window]] of journal articles, that situation has improved -- but for bigger searches, there is still no good alternative to an explicit, legible, deterministic index. (And even for questions an LLM can answer, its knowledge is necessarily lossy, and its reasoning opaque.)
 
 An explicit hypergraph database, paired with an intuitive query language, will permit queries that even the best search engine cannot begin to parse. A few examples:
 
 - "articles that either cite [source] or cite something that cites [source]"
 - "posts from [person] on which [person] commented"
-- "articles on my hard drive that mention any chemical in the blood of any mammal". (Since Hode will incorporate an ontology into the index, the user would not need to provide an explicit list of mammals chemicals.)
+- "articles on my hard drive that mention any chemical in the blood of any mammal".
+
+That last query will be made possible with the help of an ontology. An ontology can be thought of as a collection of relationships like "everything in [category] is in [bigger category]" (e.g. squirrels are mammals) or "everything in [category] contains something in [category]" (e.g. cars have wheels). Since the Shyg index will include an (evolving) ontology, a user issuing the above query would not need to provide an explicit list of mammals or chemicals.
+**** recognizing equivalent and related statements
+One difficult aspect of navigating online information is that so much of it is redundant. Language is full of synonyms and equivalent grammar structures. Moreover, many statements are obvious implications of others, and do not need to be separately recorded. For instance, if you know mammals are warm-blooded, and you know cats are mammals, then you need not separately record that cats are warm-blooded.
+
+The Shyg index (including its ontology, as described under "better search") will permit a user to reduce the complexity of search results by imposing uniqueness constraints on them. One could, for instance, ask for weightlifting exercises that target the hamstrings, and get a short list, rather than hundreds of thousands of websites.
+**** defense against online misinformation
+Misinformation and hostility might be inherent to human nature, but Shyg could reduce both their incidence and their harm.
+
+This would be
+***** mapping arguments, recognizing equivalence and novelty
+***** tracing provenance
+A substantial part of the fight against online misinformation has involved tracking down its origins. With scale, the hypergraph index would permit a single provenance query to collect such information, without requiring a different query method for every medium (as is the case currently).
 **** build your own social media feed
-Users could easily program their own social media feeds in Hode. Those feeds would (presumably, usually) not be designed to maximize engagement, which would mitigate much of the psychological harm (e.g. addiction) and social harm (e.g. viral hate) social media currently suffers.
+Users could easily program their own social media feeds in Shyg. Those feeds would (presumably, usually) not be designed to maximize engagement, which would mitigate much of the psychological harm (e.g. addiction) and social harm (e.g. viral hate) social media currently suffers.
 
 Moreover, the ease of customization would be unprecedented -- as in the example mentioned earlier: "things friends have published, ordered by recency, excluding sports commentary and anything that Mom thought was sad."
 **** improve the usefulness of information, and defend against misinformation
@@ -110,6 +82,50 @@ Moreover, the ease of customization would be unprecedented -- as in the example 
        Although it could still be done in private.
 **** emergent curricula
 **** verifiable AI dicta
+*** a tiny sketch of Shyg's architecture
+Shyg will be an open protocol for creating and querying a distributed index of natural language content. The project will initially launch with only one client, but because the protocol will be open, anyone will be free to build other clients.
+
+There will be no client-server distinction; every client will also be a server. Together, the clients will host a (single) distributed hypergraph index, continuously building it and responding to each others' queries about it.
+
+All the important architectural ideas in Shyg predate it. Most have already been made into numerous popular services:
+
+- the personal knowledge base (OneNote, Evernote, ...)
+- online publishing (X, Wikipedia, Elsevier, ...)
+- search (Google, Apple Spotlight, ...)
+- federated sharing (BitTorrent, Mastodon, ...)
+- automated crawling and parsing of documents (Google, GraphRAG, ...)
+
+And even the obscure technical parts have already been implemented:
+
+- the ontology (WordNet, DBpedia, ...)
+- the hypergraph index (TypeDB, HypergraphDB, ...)
+- a simple hypergraphdb query language (Hash)
+
+That last component, Hash, I wrote myself[[Hash]]. I intend to implement it in TypeQL, the query language for TypeDB. Unlike TypeQL, Hash resembles natural language.
+**** Sidenote: Shyg will not sacrifice user privacy
+Access controls will allow users to search their own private data alongside the public index. (Of course, nobody without access to suchprivate data can assist the effort to index it.)
+**** Sidenote: Shyg does not need scale in order to be useful.
+I will address more potential objections later, but I must immediately address one a reader might already be considering: Shyg does not need to be at all popular, let alone to displace any of the above wildly-popular services, before it can be useful. Even a single user will benefit from being able to query a hypergraph index of their data. A small team would derive greater benefit yet -- be they poets collaborating, shareholders arguing, or coworkers sharing work. Like many apps, the value of Shyg will scale disproportionately with its user base, but it does not require network effects to be valuable.
+
+In particular, Shyg does not require an enormous amount of content, along the lines of Facebook or X, in order to be useful. In fact Shyg would not host "content" per se at all, apart from the index itself, which would refer to content hosted elsewhere. Thus rather than competing with them, Shyg will in fact benefit from the scale of bigger competitors.
+**** the ontology
+An ontology is a formal description of knowledge. The first was made in 1947. It is is-a and has-a relationships, and maybe others.
+**** the hypergraph index
+A hypergraph data store is a collection of things, some of which are relationships. The relationships can hold any number of members, and those members can themselves be relationships. (In computer science, hypergraphs generalize graphs: Any graph is a hypergraph in which all relationships are binary and no relationship is a member of another relationship.)
+
+Hypergraph data can precisely and naturally reflect the structure of ordinary speech. For instance, "Sam threw the ball to Paul because Paul said 'over here'" is a "because" relationship between a ternary relationship "gave-to" relationship and a binary "said" relationship. All language can be represented as such nested relationships, and language so represented can be searched more intelligently.
+
+Ordinary search engines associate some key phrases with a document or website. There might be many such phrases, and they might be chosen cleverly. But once those key phrases are chosen, they have little meaning in the index beyond "these words appear in this article". (Search engines also rank search results. Shyg will in some cases have to do similarly, but that's out of scope for this high-level proposal.)
+***** The hypergraph index will permit precise querying.
+A majority of humanity is now accustomed to giving a "bag of words" to a search engine, and hoping it comes back with something useful. Appropriate hypergraph data, by contrast, permits the kind of precise query nobody in the general public can run for themselves:
+
+- A social media feed algorithm: "Things friends have published online, ordered by recency, excluding anything about sports unless it involves statistics, and excluding anything Mom thought was sad."
+
+- Productivity tricks: "All of my emails that discuss any of the events (visible to me) on Shawn's calendar." "Projects I work on blocked by projects Shawn works on." ""Diet recommendations from vegan athletes that don't involve beans."
+
+- Verification: "Content by authors I trust regarding [topic]." "Instances users have found in which [author] contradicts themselves." "Pairs of posts in which [author] and [author] agree on [topic]."
+
+Any conceivable query can be expressed as a hypergraph query, and (if the index is sufficiently thorough) can be answered transparently, deterministically, and completely -- characteristics that stand in noteworthy contrast to the oracular nature of responses from both private search engines and large language models.
 *** u
 **** needn't host more than text, at least to start
 **** needn't host many users to be useful
@@ -135,11 +151,11 @@ Choosing what to index, and sharing that work among members, will be the major c
 **** distributing a query
 **** gameifying commentary
 *** What about money?
-Incorporating money into Hode might be helpful. These ideas are incohate, and not critical to the proposal, but they will be exciting if they panned out.
+Incorporating money into Shyg might be helpful. These ideas are incohate, and not critical to the proposal, but they will be exciting if they panned out.
 
 The two standard monetization strategies for online services would not work well. (A subscriber model would limit participation, which would limit its usefulness. And an ad-based model is infeasible because it is a protocol -- anyone could make client that filters ads away.)
 
-But Hode could be grafted onto a cryptocurrency.
+But Shyg could be grafted onto a cryptocurrency.
 **** reward creators
 **** permit immutable records
 **** pay for bandwidth and storage
