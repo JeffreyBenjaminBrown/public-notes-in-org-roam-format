@@ -7,5 +7,5 @@
 * A query cannot be run across all those platforms at once.
 * Social media feed algorithms are poisonous.
 * Science publishing is too expensive -- in labor for the writers, in money for the readers.
-* Transparency would help with the bot problem.
+* [[id:4a1e55d3-8b8f-48e1-9a69-9e2c03f79029][Transparency would help with the bot problem]].
 * Ads are annoying.

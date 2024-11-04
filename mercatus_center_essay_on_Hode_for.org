@@ -30,7 +30,7 @@ The extreme expressivity of the query language, and the extremely broad nature o
 Users could easily program their own social media feeds in Shyg. Those feeds would (presumably, usually) not be designed to maximize engagement, which would reduce some of the psychological and social harms social media currently produces.
 
 Moreover, the degree and ease of customization would be unprecedented -- e.g. "things friends have published, ordered by recency, excluding sports commentary and anything that Mom thought was sad" would be a trivial query.
-** better search
+** search better
 Today, search results are often not what the user hoped.
 
 Part of the problem is due to advertising incentives. A commercial search engine profits by forcing users to wade through a few sites full of ads before finding the answer. Shyg will of course obviate those problems.
@@ -48,23 +48,19 @@ The last query mentioned will be made possible with the help of an ontology. An 
 Synonymy are antonymy are two ontological relationships familiar from grade school. Two that aren't are colloquially called is-a and has-a. Is-a relationships are of the form "everything in [category] is in [bigger category]" -- for instance, squirrels are mammals. Has-a relationships are of the form "everything in [category] contains something in [category]" -- for instance, cars have wheels.
 
 The Shyg index will include a continuously growing ontology. Therefore a user asking for "articles that mention any chemical in the blood of any mammal" will not need to provide an explicit list of mammals or chemicals.
-** reducing complexity by recognizing statement equivalence
+** reduce complexity by recognizing statement equivalence
 One difficult aspect of navigating online information is that much of it is redundant. Language is full of synonyms and equivalent grammatical structures. Moreover, many statements are obvious implications of others, and do not need to be separately recorded. For instance, if you have recorded that mammals are warm-blooded and cats are mammals, then you need not separately record that cats are warm-blooded.
 
 The Shyg index, with its ontology, will permit a user to reduce the complexity of search results by imposing uniqueness constraints on them. One could, for instance, ask for weightlifting exercises that target the hamstrings, and get a short list, rather than hundreds of thousands of websites.
-** defending against misinformation by tracing provenance
+** defend against misinformation by tracing provenance
 A substantial part of the fight against online misinformation has involved tracking down its origins. This is tedious manual labor, but it does not need to be. Simple NLP could recognize when one document cites another even before the present era of LLMs. By incorporating citation relationships into the index, and by using the ontology to recognize equivalent forms of the same statement, a Shyg user could trace the history of a claim backward. The query could be executed once, via a single medium (the Shyg index), rather than requiring a separate query in each new domain encountered (e.g. a newspaper, then a social media site, then someone's blog, etc.)
-** improve the usefulness of information, and defend against misinformation
-*** mapping arguments, recognizing equivalence and novelty
-** socially transparent discovery and reasoning
-*** areas
-    science, law, journalism
-    journalism encompasses things like labor statistics
-*** methods
-**** the journal review process could be public
-     Although it could still be done in private.
-** emergent curricula
-** verifiable AI dicta
+** [[id:4a1e55d3-8b8f-48e1-9a69-9e2c03f79029][bot networks and Hode]]
+** improve the effectiveness of, and collective faith in, epistemic institutions, by making epistemology transparent
+   [[id:635cf3cc-8ccd-477a-b5dd-475b6230e2ab][Scientific publication is too hard and too exclusive.]]
+** Anticipating all the ways Shyg could be used is impossible.
+A huge proportion of what we do with computers is simply retrieving information. Giving users control over what can be retrieved (i.e. what gets indexed), and a good language for retrieving it, will surely enable uses I have not imagined.
+
+So rather than trying to enumerate them, let's turn to Shyg's architecture.
 * a tiny sketch of Shyg's architecture
 Shyg will be an open protocol for creating and querying a distributed index of natural language content. The project will initially launch with only one client, but because the protocol will be open, anyone will be free to build other clients.
 

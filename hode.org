@@ -7,6 +7,7 @@
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
 ** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
 * [[id:29903b27-2b73-4a1b-a8d8-257c219fe70e][an introductory sketch of Hode]]
+* Golden Retriever would be a funny name.
 * [[id:ec977e2d-46b9-455f-8be0-fb3eaba4c2ca][problems Hode might help]]
 * [[id:97c7fdde-181b-4a9e-b210-cc380b8afb8b][Hode usage and gameification]]
 * [[id:e2911eb2-2d2f-4f8b-9de8-31356bb89df1][things Hode would enable]]
