@@ -2,7 +2,11 @@
 :ID:       44aa00ef-eadf-44e6-8b6a-43406e087028
 :END:
 #+title: rice
-* 1 cup brown rice to 2 cups water
+* proportions
+  PITFALL: water scales nonlinearly with rice!
+** 1 cup brown rice, 2 cups water
+** 2 cup brown rice, 3 cups water, biggest meas. spoon of salt
+   I think that's a tablespoon.
 * took about 1:02* for steam to stop spouting from rice
   * That's 1:02 after boiling & reducing to min heat.
   That was 1 of the curvey cups birds-and-leaves cups,
