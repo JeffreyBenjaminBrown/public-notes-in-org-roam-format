@@ -42,6 +42,7 @@ It is for this reason that a majority of humanity is now accustomed to giving a 
 - "articles that either cite [source] or cite something that cites [source]"
 - "posts from [person] on which [person] commented"
 - "articles that mention any chemical in the blood of any mammal"
+*** TODO mention that no explicit query language is typically revealed to the user for fear of scaring away dumb people.
 *** Sidenote: ontologies
 The last query mentioned will be made possible with the help of an ontology. An ontology is a collection of relationships intended to help make sense of the world. There is no consensus on which kinds of relationships an ontology needs to include, but some examples should convey the idea.
 

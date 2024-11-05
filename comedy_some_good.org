@@ -3,7 +3,6 @@
 :ROAM_ALIASES: "comics I like, some" "comedians I like, some"
 :END:
 #+title: comedy, some good
-  The Australian guy with the bit about guns in the US.
 * Aaron Chen
 * Adam Ray
 * Alec Flynn
@@ -13,19 +12,22 @@
 * Cam Bertrand
 * Chad Daniels
 * Demetrio Martín
+* Derek stroup
+* Dina Hashem
 * Django Gold
 * Eliza Schlesinger
 * Eva Evans
-* Franko Bonilla (Colombian)
-  https://www.youtube.com/@puracomediapapa
+* Francis Ellis
+* Franko Bonilla (Colombian) - https://www.youtube.com/@puracomediapapa
 * Gabriel Rutledge
 * Gavin Matts
 * Greer Barnes
 * Ian Edwards
 * James Acaster
 * Jason Cheny
-* Jim Jeffries
+* Jim Jeffries - Australian with the bit about guns in the US.
 * Josh Johnson
+* Leslie Liao
 * Louis Katz
 * Marcelo Hernandez
 * Michael Longfellow
