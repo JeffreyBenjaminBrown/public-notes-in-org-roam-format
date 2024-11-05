@@ -5,11 +5,18 @@
 #+title: high-pressure situtations, and how to handle them
 * situations
 ** meeting new people
+** contacting someone I might not remember well
 ** job interview
+   [[id:e17f1f19-30af-486f-b5ad-2e1a01d94407][how to prepare for coding interviews]]
 ** appointments that are brief and hard to follow up on
    doctors, famous or hard-to-reach people
-** moving
+** vacations
+   for the same reason as doctors
+** [[id:ebfc71c5-86b6-41b2-adb0-75b513cd12dc][moving and movers]]
 ** big purchases
+*** Know the product, the options.
+*** Be ready to indignantly refuse a pushy salesperson.
+    Do get angry. They really deserve it.
 * to handle
 ** study up
 ** be in top form

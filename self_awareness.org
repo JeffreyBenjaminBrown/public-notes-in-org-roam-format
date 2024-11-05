@@ -2,5 +2,7 @@
 :ID:       cc3f38e2-b1cf-4a76-9abb-eb31daf514de
 :END:
 #+title: self-awareness
-* [[id:27533eec-38f1-4f4a-8ffb-5125d99c0f78][My smile feels anxious, even when it looks genuine to me.]]
 * [[id:71dc8ea7-cbd0-4fc5-8514-e0617b422569][Study your pains.]]
+* jbb-specific
+** [[id:27533eec-38f1-4f4a-8ffb-5125d99c0f78][My smile feels anxious, even when it looks genuine to me.]]
+** [[id:d1f5961f-225c-4c6d-a4dc-2d0c93a8169d][My pain tolerance is dangerously high.]]

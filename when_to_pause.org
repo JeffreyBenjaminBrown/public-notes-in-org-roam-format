@@ -3,7 +3,7 @@
 :END:
 #+title: when to pause
 * see also
-  [[id:15c15ae2-bb60-4f6e-9e6d-e9045f9c0132][When to review my notes]] on something.
+  [[id:514fe55a-d22c-4e6a-9b0f-3a01a89742db][high-pressure situations to review notes before]]
 * When I'm not sure my priorities are straight, consider meditating (on it).
   examples
 ** when I have witnessed injustice and am tempted to ignore it and get on with my own work
