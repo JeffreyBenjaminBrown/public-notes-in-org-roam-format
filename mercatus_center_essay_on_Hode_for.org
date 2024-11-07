@@ -3,8 +3,8 @@
 :END:
 #+title: Mercatus Center, essay on Shyg for
 * [[id:f5052dcf-20b5-48f7-85bb-478b16700b7a][stashed unused text]]
-* TODO resume [[id:819f1b3b-1ba4-4ed2-9632-e80fbb6f5094][here]]
-* introduction
+* TODO resume [[id:1b650239-587e-4503-883c-b51d1df886e9][here]]
+* introduction, ending with an overview of the essay
 Many of the ways we process and share data can be unified. Doing so would bring a slew of benefits, from individual productivity and well-being to the collective search for truth.
 
 This proposal is to create a protocol for building, distributing and querying a hypergraph index. I will call the project Shyg (for "Shared HYperGraph"). The hypergraph data structure, described later, permits a deep semantic representation of the content of natural language documents. So too, of course, does natural language itself, but the hypergraph is searchable in ways that ordinary text is not, and the kinds of questions it can answer is extensible in ways that even the more common graph database is not.
@@ -25,7 +25,7 @@ Moreover, Shyg will permit cross-cutting queries that nothing available to the g
 - "Who has emailed me a calendar invitation that I accepted?"
 - "On the websites cited by those of my friends who post pro-[political candidate] content online, who are the top advertisers?"
 
-The extreme expressivity of the query language, and the extremely broad nature of the index, will permit a wide variety of desirable applications. In the next section I will describe some of them in more detail, and in the process introduce some of Shyg's key architectural ideas. After that I will focus on Shyg's interface and architecture. I will finish by describing the work that needs to be done, including questions I do not yet have an answer to.
+The extreme expressivity of the query language, and the extremely broad nature of the index, will permit a wide variety of desirable applications. In the next section I will describe some of them in more detail, and in the process introduce some of Shyg's key architectural ideas. In the section after that, I will focus on Shyg's interface and architecture. Last I will tackle the question of feasibility, including open questions. (And there are footnotes after that.)
 * some things Shyg will enable
 ** build your own social media feed
 Users could easily program their own social media feeds in Shyg. Those feeds would (presumably, usually) not be designed to maximize engagement, which would reduce some of the psychological and social harm social media currently causes.
@@ -137,40 +137,43 @@ Traditional indexes merely anticipate which terms a user will search for, and in
 
 And neither will Shyg -- but it will operate as if it did. Because it can represent arbitrarily higher-order data -- statements about statements about statements, as far as its users decide to go -- it will able to build up the response to unanticipated high-order queries from indexed primitives.
 * feasibility
-* well-established tech to draw on
-** TypeDB
+  :PROPERTIES:
+  :ID:       1b650239-587e-4503-883c-b51d1df886e9
+  :END:
+** well-established tech to draw on
+*** TypeDB
 Hypergraph data stores are only recently gaining popularity, but TypeDB (the company) provides a powerful open-source one (also called TypeDB).
-** Hash
+*** Hash
 I have already written a user-friendly hypergraph query language:
 
 https://github.com/JeffreyBenjaminBrown/hode/blob/master/docs/hash/the-hash-language.md
-** Emacs
+*** Emacs
 Creating a basic client to be a relatively straightforward exercise in extending Emacs (a free, open-source programmable text editor that began in the 70s, with an enthusiastic user base that includes myself).
-** sharing data
+*** sharing data
 Hundreds of petabytes of data, mostly multimedia, are estimated to be available through BitTorrent.
-* unsolved problems
-** building the index
+** unsolved problems
+*** building the index
 Building the index remains an open problem, but there is plenty of neighboring research to draw on. Ontology software has been around for decades, allowing computers to match specific cases to more general patterns. These allow the indexer, once it has recorded that mammals breathe oxygen, to forego indexing the fact that cats and buffalo also breathe oxygen. There exist numerous solutions for parsing natural language into syntax trees. Microsoft recently open-sourced GraphRAG, which translates a numbmer of documents into a knowledge graph. How to decide what information to index is not obvious, but having made that choice, actually building the index will not require any radically new ideas.
-*** relevance
-*** governance: deciding together what to index
-    :PROPERTIES:
-    :ID:       7bab5f8e-adac-4923-96a2-e154b2caf648
-    :END:
-** distributing the index
+**** relevance
+**** governance: deciding together what to index
+     :PROPERTIES:
+     :ID:       7bab5f8e-adac-4923-96a2-e154b2caf648
+     :END:
+*** distributing the index
 Distributing the index is also an open problem. The index, by contrast, will merely be text -- but it will still be a lot of text. It will therefore be important to coordinate different users' indexing efforts, to minimize redundant work (subject to some robustness constraint).
 
 Choosing what to index, and sharing that work among members, will be the major challenge.
-** distributing a query
-** gameifying commentary
-* What about money?
+*** distributing a query
+*** gameifying commentary
+** What about money?
 Incorporating money into Shyg might be helpful. These ideas are incohate, and not critical to the proposal, but they will be exciting if they panned out.
 
 The two standard monetization strategies for online services would not work well. (A subscriber model would limit participation, which would limit its usefulness. And an ad-based model is infeasible because it is a protocol -- anyone could make client that filters ads away.)
 
 But Shyg could be grafted onto a cryptocurrency.
-*** reward creators
-*** permit immutable records
-*** pay for bandwidth and storage
+**** reward creators
+**** permit immutable records
+**** pay for bandwidth and storage
 * footnotes
 [[TypeDB]] https://typedb.com/
 
