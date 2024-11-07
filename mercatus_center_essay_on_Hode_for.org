@@ -60,7 +60,7 @@ Various kinds of agencies (social media platforms, cybersecurity companies, acad
 
 Shyg would make such work easier, by providing a unified public database and query framework for all of that information.
 
-As we will see below when focusing on architecture, members of the Shyg network will be able to choose what kinds of information to index. Recogniztion of bots in Shyg could be particularly facilitated if the index stored relationships like "[author] cites [different author]" and "[author] claims that [different author] is human". It seems likely that some portion of the Shyg community would choose to include such information in the index.
+As we will see below when focusing on its [[id:a73b9f5a-bf5b-41af-b612-6427857a1133][architecture]], members of the Shyg network will be able to choose what kinds of information to index. Recogniztion of bots in Shyg could be particularly facilitated if the index stored relationships like "[author] cites [different author]" and "[author] claims that [different author] is human". It seems likely that some portion of the Shyg community would choose to include such information in the index.
 ** improve the effectiveness of, and collective faith in, epistemic institutions, by making epistemology transparent
 The epistemic institutions underpinning the modern social order are science, journalism, law and government[[Rauch, Constitution of Knowledge]]. They devote substantial resources to determining what is true and making it known. They have always been an elite, and never entirely popular -- but until recently, have been nearly incontestable. The internet has created competing entities: communities of "alternative facts". This epistemic fracturing is dangerous.
 
@@ -74,6 +74,9 @@ A huge proportion of what we do with computers is retrieve information. Giving u
 
 So rather than trying to enumerate more of them, let's turn to Shyg's architecture.
 * a sketch of Shyg's architecture
+  :PROPERTIES:
+  :ID:       a73b9f5a-bf5b-41af-b612-6427857a1133
+  :END:
 ** Shyg will be a distributed hypergraph index and query protocol.
 Shyg will be an open protocol for creating and querying a distributed index of natural language content. The project will initially launch with one client, but because the protocol will be open, anyone will be free to build other clients.
 
@@ -124,16 +127,16 @@ Appropriate hypergraph data, by contrast, permits the kind of precise query nobo
 - Verification: "Content by authors I trust regarding [topic]." "Instances users have found in which [author] contradicts themselves." "Pairs of posts in which [author] and [author] agree on [topic]."
 
 Any conceivable query can be expressed as a hypergraph query, and (if the index is sufficiently thorough) can be answered transparently, deterministically, and completely -- characteristics that stand in noteworthy contrast to the oracular nature of responses from both private search engines and large language models.
-* how Shyg would improve discoverability
-  :PROPERTIES:
-  :ID:       819f1b3b-1ba4-4ed2-9632-e80fbb6f5094
-  :END:
-It will surely be a long time, if ever, before Shyg has indexed as much of the internet as Google. Despite that, over the portion of the internet that Shyg's users choose (see "governance", below) to index, Shyg will be able to answer queries that no other search engine would permit.
+** how Shyg would improve discoverability
+   :PROPERTIES:
+   :ID:       819f1b3b-1ba4-4ed2-9632-e80fbb6f5094
+   :END:
+It will surely be a long time, if ever, before Shyg has indexed as much of the internet as Google has. Nevertheless, over the portion of the internet that Shyg's users choose to index (see "[[id:7bab5f8e-adac-4923-96a2-e154b2caf648][governance]]", below), Shyg will be able to answer queries that no other search engine would permit. This is because both the hypergraph index and the language for querying it will be more expressive than anything that has come before.
 
-More precisely, non-hypergraph search engines would have to anticipate the entire category in order to index it, whereas Shyg would not, because a Shyg user could build the category up from indexed primitives.)
-* u
-** needn't host more than text, at least to start
-** needn't host many users to be useful
+Traditional indexes merely anticipate which terms a user will search for, and index those. They do not permit users to specify relationships between the terms when executing a search. They do not even try to anticipate the combinatorial explosion of ways a user could relate search terms.
+
+And neither will Shyg -- but it will operate as if it did. Because it can represent arbitrarily higher-order data -- statements about statements about statements, as far as its users decide to go -- it will able to build up the response to unanticipated high-order queries from indexed primitives.
+* feasibility
 * well-established tech to draw on
 ** TypeDB
 Hypergraph data stores are only recently gaining popularity, but TypeDB (the company) provides a powerful open-source one (also called TypeDB).
@@ -150,6 +153,9 @@ Hundreds of petabytes of data, mostly multimedia, are estimated to be available 
 Building the index remains an open problem, but there is plenty of neighboring research to draw on. Ontology software has been around for decades, allowing computers to match specific cases to more general patterns. These allow the indexer, once it has recorded that mammals breathe oxygen, to forego indexing the fact that cats and buffalo also breathe oxygen. There exist numerous solutions for parsing natural language into syntax trees. Microsoft recently open-sourced GraphRAG, which translates a numbmer of documents into a knowledge graph. How to decide what information to index is not obvious, but having made that choice, actually building the index will not require any radically new ideas.
 *** relevance
 *** governance: deciding together what to index
+    :PROPERTIES:
+    :ID:       7bab5f8e-adac-4923-96a2-e154b2caf648
+    :END:
 ** distributing the index
 Distributing the index is also an open problem. The index, by contrast, will merely be text -- but it will still be a lot of text. It will therefore be important to coordinate different users' indexing efforts, to minimize redundant work (subject to some robustness constraint).
 
