@@ -3,7 +3,7 @@
 :END:
 #+title: Mercatus Center, essay on Shyg for
 * TODO fix references (search for "[[")
-* TODO resume [[id:f1128fb8-848d-4ed9-affd-a0ed19516422][here]]
+* TODO resume [[id:d0793049-9dd4-4e21-8610-0384f08ccb93][here]]
 * [[id:f5052dcf-20b5-48f7-85bb-478b16700b7a][stashed unused text]]
 * introduction
 Many of the ways we process and share data can be unified. Doing so will bring a slew of benefits, from individual productivity and well-being to the collective search for truth.
@@ -33,6 +33,9 @@ Users could easily program their own social media feeds in Shyg. Those feeds wil
 
 Moreover, the degree and ease of customization in those feeds will be unprecedented. For instance, "things my friends have published, ordered by recency, excluding sports commentary and anything that Mom thought was sad", will be a trivial query. Or (useful for people famous on the internet): "responses to my posts, ordered by the responder's follower count, minus anything ad-hominem".
 ** Search better.
+   :PROPERTIES:
+   :ID:       6d320931-c091-470b-a0ff-7467327060ed
+   :END:
 Thirty-ish years after the introduction of internet search engines, their results are often still not what the user hoped.
 
 Part of this problem comes from advertising incentives. A commercial search engine profits by forcing its users to wade through a few sites full of ads before finding the answer. Shyg will of course not do that.
@@ -73,9 +76,6 @@ Shyg will not only improve the truth-seeking experience between opponents, but a
 ** Anticipating all the ways Shyg could be used is impossible.
 A huge proportion of what we do with computers is retrieve information. Giving users more access to that data, and more control when they try to retrieve it, will surely enable uses I have not imagined.
 * a sketch of Shyg's architecture
-  :PROPERTIES:
-  :ID:       a73b9f5a-bf5b-41af-b612-6427857a1133
-  :END:
 ** Shyg will be a distributed hypergraph index and query protocol.
 Shyg will be an open protocol for creating and querying a distributed index of natural language content. The project will initially launch with one client, but because the protocol will be open, anyone will be free to build other clients.
 
@@ -112,8 +112,11 @@ Synonymy are antonymy are two ontological relationships familiar from grade scho
 
 Two less familiar ontological relationships are subsumption ("is-a") and meronymy ("has-a"). Subsumption relationships take the form "everything in [category] is in [bigger category]" -- for instance, a squirrel is a mammal. Meronymy relationships are of the form "everything in [category] contains something in [category]" -- for instance, a car has an engine.
 
-As described in the "search better" section earlier in this document, inclusion of an ontology in (or, more accurately, continuously incorporating ontological relationships into) the Shyg index will allow users to search across large categories without having to specify every member of each category.
+As described above in "[[id:6d320931-c091-470b-a0ff-7467327060ed][search better]]", inclusion of an ontology in (or, more accurately, continuously incorporating ontological relationships into) the Shyg index will allow users to search across large categories without having to specify every member of each category.
 ** the hypergraph index
+   :PROPERTIES:
+   :ID:       d0793049-9dd4-4e21-8610-0384f08ccb93
+   :END:
 A hypergraph data store is a collection of things, some of which are relationships. The relationships can hold any number of members, and those members can themselves be relationships. (In computer science, hypergraphs generalize graphs: Any graph is a hypergraph in which all relationships are binary and no relationship is a member of another relationship.)
 
 Hypergraph data can precisely and naturally reflect the structure of ordinary speech. For instance, "Sam threw the ball to Paul because Paul said 'over here'" is a "because" relationship between a ternary relationship "gave-to" relationship and a binary "said" relationship. All language can be represented as such nested relationships, and language so represented can be searched more intelligently.
