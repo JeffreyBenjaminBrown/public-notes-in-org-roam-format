@@ -3,7 +3,6 @@
 :END:
 #+title: Mercatus Center, essay on Shyg for
 * [[id:f5052dcf-20b5-48f7-85bb-478b16700b7a][stashed unused text]]
-* TODO resume [[id:1b650239-587e-4503-883c-b51d1df886e9][here]]
 * introduction, ending with an overview of the essay
 Many of the ways we process and share data can be unified. Doing so would bring a slew of benefits, from individual productivity and well-being to the collective search for truth.
 
@@ -96,7 +95,7 @@ And even the more obscure technical parts of Shyg have existing implementions:
 - the hypergraph index (TypeDB, HypergraphDB, ...)
 - a simple hypergraph query language (Hash)
 
-That last component, Hash, I wrote myself[[Hash]], albeit without support for federated queries. I intend to rewrite it it in TypeQL, the query language for TypeDB. Unlike TypeQL, Hash resembles natural language.
+That last component, Hash[[Hash]], I wrote myself, albeit without support for federated queries. I intend to rewrite it it in TypeQL, the query language for TypeDB[[TypeDB]]. Unlike TypeQL, Hash resembles natural language.
 ** Sidenote: Shyg will not sacrifice user privacy
 Access controls will allow users to search their own private data alongside the public index. Data can be private to a single person or to a group. Of course, nobody without access to such private data can assist the owners' effort to index it.
 ** Sidenote: Shyg does not need scale in order to be useful.
@@ -137,50 +136,62 @@ Traditional indexes merely anticipate which terms a user will search for, and in
 
 And neither will Shyg -- but it will operate as if it did. Because it can represent arbitrarily higher-order data -- statements about statements about statements, as far as its users decide to go -- it will able to build up the response to unanticipated high-order queries from indexed primitives.
 * feasibility
-  :PROPERTIES:
-  :ID:       1b650239-587e-4503-883c-b51d1df886e9
-  :END:
+Shyg will be built from preexisting technology, which I will begin this section by describing. But there are a few questions I have not yet solved regarding how to use that technology. The hardest of these is determining what to index, distributing the index among users, and cooperating to process queries. (There are more open questions, which I will describe as well, but they are neither as difficult nor as important.)
 ** well-established tech to draw on
 *** TypeDB
-Hypergraph data stores are only recently gaining popularity, but TypeDB (the company) provides a powerful open-source one (also called TypeDB).
+TypeDB, the company, provides a powerful open-source hypergraph database, also called TypeDB[[TypeDB]], and a query language for it called TypeQL. The query language is designed for coders, but that's okay, because another part of Shyg's stack will be:
 *** Hash
-I have already written a user-friendly hypergraph query language:
-
-https://github.com/JeffreyBenjaminBrown/hode/blob/master/docs/hash/the-hash-language.md
+Hash[[Hash]] is an open-source, user-friendly query language resembling natural language. I implemented it in Haskell a few years ago. I will rewrite it in TypeQL.
 *** Emacs
-Creating a basic client to be a relatively straightforward exercise in extending Emacs (a free, open-source programmable text editor that began in the 70s, with an enthusiastic user base that includes myself).
-*** sharing data
-Hundreds of petabytes of data, mostly multimedia, are estimated to be available through BitTorrent.
-** unsolved problems
-*** building the index
-Building the index remains an open problem, but there is plenty of neighboring research to draw on. Ontology software has been around for decades, allowing computers to match specific cases to more general patterns. These allow the indexer, once it has recorded that mammals breathe oxygen, to forego indexing the fact that cats and buffalo also breathe oxygen. There exist numerous solutions for parsing natural language into syntax trees. Microsoft recently open-sourced GraphRAG, which translates a numbmer of documents into a knowledge graph. How to decide what information to index is not obvious, but having made that choice, actually building the index will not require any radically new ideas.
-**** relevance
-**** governance: deciding together what to index
-     :PROPERTIES:
-     :ID:       7bab5f8e-adac-4923-96a2-e154b2caf648
-     :END:
-*** distributing the index
-Distributing the index is also an open problem. The index, by contrast, will merely be text -- but it will still be a lot of text. It will therefore be important to coordinate different users' indexing efforts, to minimize redundant work (subject to some robustness constraint).
+Emacs is an open-source, programmable text editor born in the 70s, with an enthusiastic user base that includes myself. Extedning ("writing a package for") Emacs to permit users to query a database is ground that has been well trodden: sql-mode, org-mode, "resilient" (for querying NoSQL databases), and many other packages do it. I will write another one.
+*** crawling the web and users' own private data
+The Shyg index will require crawling the web. There exist numerous popular web-scraping frameworks. Shyg would use one of them.
 
-Choosing what to index, and sharing that work among members, will be the major challenge.
-*** distributing a query
-*** gameifying commentary
-** What about money?
-Incorporating money into Shyg might be helpful. These ideas are incohate, and not critical to the proposal, but they will be exciting if they panned out.
+It will also require, for those users who want to do so, "crawling" their own data. This obviously doesn't even require a web framework, just the ability to read files. There already exists open-source code, such as Apache Tika, for parsing a wide variety of document formats (like PDF and Word, which will be particularly important).
+*** parsing natural language content
+The ordinary text ingested by Shyg will need to be transformed into hypergraph data. This is a parsing problem. Fortunately, there are several high-quality, open-source tools for parsing natural language into syntax trees in a context-aware manner. (Context matters because, for instance, pronouns and the passive voice will be encountered.) The SpaCy Python library is probably the most well-known, but there are many, including some that use transformers (which have been popularized by recent large language models).
+*** communication between users
+The number of internet communication protocols is big: TCP/IP, FTP, SSH, WebSocket, BitTorrent. It will take a little study to pick one (or maybe a couple -- e.g. perhaps BitTorrent for massive data transfers and SSH for individual queries and responses). Shyg won't have to roll its own. It will, of course, have to implement its own protocol on top of a preexisting one, but that should not be hard.
+** unsolved and important problems
+*** determining what to index, and in how much detail
+This involves three choices: (1) Which documents to parse, (2) which relationships from those scanned documents to record, and (3) compression, addressed after them.
 
-The two standard monetization strategies for online services would not work well. (A subscriber model would limit participation, which would limit its usefulness. And an ad-based model is infeasible because it is a protocol -- anyone could make client that filters ads away.)
+There is a sense in which Shyg will be smaller than one might expeect. This is because representing a statement in Shyg will use less space than representing it in natural language, for a few reasons:
 
-But Shyg could be grafted onto a cryptocurrency.
-**** reward creators
-**** permit immutable records
-**** pay for bandwidth and storage
+- Thanks to the ontology, the Shyg index will not need room for all recorded statements, just all equivalent statements. So, for instance, once the index has recorded that mammals breathe oxygen, it will not need to separately record that mice breathe oxygen.
+
+- Elements of the graph -- be they atomic elements like "The Statue of Liberty", statements of fact like "oil and water do not mix at room temperature", or even higher-order relationships -- will be referred to by their address in the index, which will require many fewer characters. By contrast, in natural language they cannot be uniquely identified without either (usually) a lot of context or (rarely) an extremely long-winded name. For instance, "The Statue of Liberty sculpture that France gave the US in 1886" narrows it down to one candidate, but "The Statue of Liberty" could refer to one of five albums or dozens of painting that Google turns up when I look.
+
+Still, the constraints of space, time and energy will prevent Shyg from recording everything users might want to record.
+
+Users will therefore have to prioritize certain kinds of relationships. I expect generating a consensus on which relationships matter to be a hard problem. It combines game theory and information theory. (Representing the categories of relationships will, fortunately, not be difficult -- the query language is ideally suited to that task.)
+
+Regarding the choice of what to scan, surely users would want to include they themselves read. Beyond that, it will be a community decision.
+**** compressing the index
+The ontology will permit compression in the index. For instance, if a collection of facts of the form "<instance of a primate> eats <instance of a species>" gets too big, the information could be reduced to "the collection of species (known to the Shyg index) that primates eat conists of [set of species]".
+
+This kind of compression will be necessary. Determining how much to compress which relationships will be another tricky governance question. Again, the solution will be easily expressible in the query language, but that alone does not imply it will be easy to find.
+*** the free rider problem
+Scanning the web, hosting the index, and responding to queries will require computing resources. If users are not rewarded for doing these things, they may not. This suggests that the priority given to a query (remember, users answer each others' queries given the part of the database they host) should depend on the query issuer's contributions to the community.
+
+Also, since users can go offline, the index will need some redundancy.
+
+I expect that designing governance mechanisms for such details will be detailed but not fiendish.
+*** distributing queries
+Because the index will be bigger than any one user's system, queries will need to be answered by the community. Merely getting this done does not seem too hard, but optimizing the process will be. In a naive implementation, every query would be processed by every user. It would be smarter, though, to cache popular results, and to shard the index such that certain users specialized in certain kinds of queries -- but, again, with enough redundancy that queries are not halted when certain users go offline.
+** fun optinoal problems
+Shyg would work without solutions to these problems, but solutions might be feasible and valuable.
+*** gameifying discovery
+Shyg's automatic crawling will turn up mountains of data, but it won't find everything. Sometimes an offhand comment by someone on the internet -- e.g. "[post by author] contradicts [earlier post by same author]". It might be feasible to implement incentives that lead users to generate the kind of data that they or others find most valuable.
+*** incorporating money
+Incorporating money into Shyg might be helpful.
+
+The two standard monetization strategies for monetizing online services would not work well. A subscriber model would limit participation in Shyg, and an ad-based model is infeasible because Shyg is an open protocol. (Anyone could make a client that filters out ads.)
+
+But perhaps Shyg could be grafted onto a cryptocurrency. Doing so might make it easier to allocate the relevant resources (storage, bandwidth and compute), and perhaps even to reward creators. It could also permit immutable data records, which would address the annoying problem of online content that vanishees when it becomes popular and gets its author in trouble.
 * footnotes
 [[TypeDB]] https://typedb.com/
 
 [[Hash]] https://github.com/JeffreyBenjaminBrown/hode/blob/master/docs/hash/the-hash-language.md
 
-[[context window]] As of October 2024, the largest AI context window is that of Gemini 1.5, which is around a million tokens. If we assume 400 words per page, 1.3 tokens per word, and 30 pages per article, then the context window can hold fewer than 65 articles.
-
-[[ontology for reducing agent]] Using the hypergraph index in conjunction with an ontology will permit searching for instances of any term belonging to a class -- so, in this example, articles mentioning the use of "oxalic acid" would make it intof the search results if the ontology included the fact that it is a reducing agent.
-
-[[Rauch, Constitution of Knowledge]] Jonathan Rauch, The Constitution of Knowledge
+[[Rauch, Constitution of Knowledge]] The Constitution of Knowledge (book), by Jonathan Rauch, 2021.
