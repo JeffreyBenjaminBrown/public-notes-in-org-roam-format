@@ -232,11 +232,11 @@ This program is, at least so far, entirely a public good; I don't see a path to 
 
 A fellowship or a grant would both be great. In my wildest dreams this becomes a popular open source project with lots of contributors, which suggests it would be better to develop it where there are a lot of coders who might be interested in and capable of helping.
 
-In tamer dreams that are still pretty wild to me, I have enough money to support myself and two other programmers: a networking expert and a natural language expert. I suspect it will be hard to find labor willing to work for as little as I am. I would either have to pay them twice what I would be earning, or try to recruit students, or both.
+In tamer dreams that are still pretty wild to me, I have enough money to support myself and two other programmers: a networking specialist and a natural language specialist. I suspect it will be hard to find other engineers willing to work for as little as I am. I would either have to pay them twice what I would be earning, or try to recruit students, or both.
 
-If I could work on this full time for a year I think I could make an offline prototype. If I had two years I think I could make an online one. I could live on $50,000 a year in the US doing this, or $30,000 in Latin America. My lifestyle is nothing fancy. My savings would quickly vanish if I tried to live on them for this, so I am unwilling to do that.
+If I could work on this full time for a year I think I could make an offline prototype. If I had two years I think I could make an online one. If I were working with others that time would be reduced, albeit less than a linear model would suggest -- maybe halved if we were three people. But the probability of success would rise (from an already high base) and the quality of the result would rise substantially.
 
-I live in Colombia, but I have been using a work visa. If I stopped working for a Colombian employer I could only stay here until next August. Without a visa I can only be here six months out of any year, but I think I could bounce around between Latin American countries indefinitely.
+My lifestyle is not fancy. I could get by on $50,000 a year in a small town in the US doing this, or $30,000 in Latin America. I live in Colombia, but I don't have residency. If I stopped working for a Colombian employer I could only stay here until August 2025 when my visa expires. Without a visa I can only be here six months out of any year, but I think I could bounce around Latin America indefinitely.
 * footnotes
 ** the TypeDB hypergraph database
    :PROPERTIES:
