@@ -2,24 +2,9 @@
 :ID:       f5052dcf-20b5-48f7-85bb-478b16700b7a
 :END:
 #+title: stashed unused text
-* cite TypeDB
-The hypergraph index (and good free software for representing it already exists[[TypeDB]]) will permit extremely different kinds of knowledge to be integrated into a single database.
-* cite Hash
-The query language (a working but incomplete prototype of which already exists[[Hash]]) will let a user express many of the kinds of queries we are used to executing in specialized applications:
-* AI for small search
-Before AI, no document search tool understood much about the documents it had indexed. With the recent advent of LLMs, for the special case of querying a handful[[context window]] of journal articles, that situation has improved -- but for bigger searches, there is still no good alternative to an explicit, legible, deterministic index. (And even for questions an LLM can answer, its knowledge is necessarily lossy, and its reasoning opaque.)
-* improving argument by recognizing equivalent and related staements
-The ontology will permit Shyg to recognize, not just equivalent statements, but related statements.
-*** mapping arguments, recognizing equivalence and novelty
-* data, metadata and provenance queries
+* data vs. metadata, and provenance queries
   In traditional data structures there is a sharp distinction between data and metadata. What an author said is data; who they are, when they said it, and who they cited are metadata. In the hypergraph database, there is no such distinction. As a result, it is easy to mix questions about provenance and questions about content in the same query.
 * more things Shyg will enable
-** socially transparent discovery and reasoning
-*** areas
-    science, law, journalism
-    journalism encompasses things like labor statistics
-*** methods
-**** the journal review process could be public
-     Although it could still be done in private.
+** the journal review process could be public
+   Although it could still be done in private.
 ** emergent curricula
-** verifiable AI dicta
