@@ -3,7 +3,7 @@
 :END:
 #+title: Mercatus Center, essay on Shyg for
 * a note on format
-If you are reading this in text and wish you could jump around the document using hyperlinks, there is an online version at https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/mercatus_center_essay_on_Hodea_for.org.
+If you are reading this in text and wish you could jump around the document using hyperlinks, there is an online version at https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/mercatus_center_essay_on_shyg_for.org
 * introduction
 Many of the ways we process and share data can be unified. Doing so will bring a slew of benefits, from individual productivity and well-being to the collective search for truth.
 
@@ -228,13 +228,15 @@ But perhaps Shyg could be grafted onto a cryptocurrency. A uniform, fungible uni
 *** using Shyg to improve AI
 There are already efforts to incorporate structured data into AI, in the form of graph databases. Two goals of these efforts are to make AI reasoning more transparent and to make AI responses more verifiable. Shyg is unique among databases in that, were it legible to an AI, that AI would have access to information of arbitrarily high order.
 * budget
-If I could work on this full time for a year I think I could make an offline prototype. If I had two years I think I could make an online one. I could live on $50,000 a year in the US doing this, or $30,000 in Colombia. My lifestyle is nothing fancy. My savings would quickly vanish if I tried to live on them for this, so I am unwilling to do that.
+This program is, at least so far, entirely a public good; I don't see a path to profitability.
 
-In my wildest dreams I have enough money to support myself and two other programmers: a networking expert and a natural language expert. I suspect it will be hard to find labor willing to work for as little as I am. I would either have to pay them twice what I would be earning, or try to recruit students, or both. This program is, at least so far, entirely a public good; I don't see a path to profitability.
+A fellowship or a grant would both be great. In my wildest dreams this becomes a popular open source project with lots of contributors, which suggests it would be better to develop it where there are a lot of coders who might be interested in and capable of helping.
 
-I live in Colombia, but I have been using a work visa. If I stopped working for a Colombian employer I could only stay here until next August.
+In tamer dreams that are still pretty wild to me, I have enough money to support myself and two other programmers: a networking expert and a natural language expert. I suspect it will be hard to find labor willing to work for as little as I am. I would either have to pay them twice what I would be earning, or try to recruit students, or both.
 
-I'm open to the idea of a fellowship rather than a grant.
+If I could work on this full time for a year I think I could make an offline prototype. If I had two years I think I could make an online one. I could live on $50,000 a year in the US doing this, or $30,000 in Latin America. My lifestyle is nothing fancy. My savings would quickly vanish if I tried to live on them for this, so I am unwilling to do that.
+
+I live in Colombia, but I have been using a work visa. If I stopped working for a Colombian employer I could only stay here until next August. Without a visa I can only be here six months out of any year, but I think I could bounce around between Latin American countries indefinitely.
 * footnotes
 ** the TypeDB hypergraph database
    :PROPERTIES:
