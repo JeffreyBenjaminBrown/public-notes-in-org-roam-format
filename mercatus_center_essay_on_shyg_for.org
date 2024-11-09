@@ -3,7 +3,7 @@
 :END:
 #+title: Mercatus Center, essay on Shyg for
 * a note on format
-If you are reading this in text and wish you could jump around the document using hyperlinks, there is an online version at https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/mercatus_center_essay_on_shyg_for.org
+If you are reading this in plain text, and wish you could jump around the document using hyperlinks, an online version that permits doing so can be found at https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/mercatus_center_essay_on_shyg_for.org
 * introduction
 Many of the ways we process and share data can be unified. Doing so will bring a slew of benefits, from individual productivity and well-being to the collective search for truth.
 
