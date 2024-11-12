@@ -2,6 +2,7 @@
 :ID:       bfe139e1-14a4-4538-82d4-ea11f142e0ce
 :END:
 #+title: just intonation
+* trippy cluster : [[id:fd013c9a-dfd5-4a1f-9de8-be19bb21daca][root, root minus sept m3, root minus sept M3]]
 * [[id:9dfbaf8e-3458-44b2-82f6-8e4c04126bd2][agumented 7th chords from 7:9:11 (harmonic dorian)]]
 * [[id:2c85ada9-2b40-4159-97ed-a12449ea7438][augmneted 7th chords from 8:10:13]]
 * [[id:68aa693f-5eea-4c77-aef0-4c9996ebece8][harmonic half-diminished starts from harmonic 5]]
@@ -13,9 +14,8 @@
 * multiplicative pitch: 1( 1, 3) + 9:7 (1 5 9) = a nice "maj b6"
   in part because [[id:98b32a18-d1ff-4a17-b648-f0859ad8ffd6][9:7 + 7 = 9:8]]
 * [[id:72dbd648-4b69-4b8a-b72d-680fd85f78e4][Harmonics 3 and 7 chain together with difficulty.]]
+* [[id:3e05334b-e737-4914-bbe6-aedf31e1b827][the sound from ~9\12 to ~13\12 can be improved]]
 * 7/6 : 7/4 as 9/7 : 12/7
 * [[id:297305db-3682-4373-b8bd-132b389cb1a4][9:5 sounds at least as good as 16:9]]
 * [[id:46905408-f047-4926-957f-ac01927e22c4][9-based dom7 chord]]
-* nice extensions from 7:6
-  11:6 = neutral 7th
-  10:9 = small major 2nd
+* [[id:29f64058-c7e5-48d0-a16f-c22d4ebd38a8][some intervals 7:6 plays well with]]

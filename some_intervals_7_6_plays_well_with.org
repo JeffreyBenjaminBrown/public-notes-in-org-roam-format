@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       29f64058-c7e5-48d0-a16f-c22d4ebd38a8
+:END:
+#+title: some intervals 7:6 plays well with
+* 11:6 = neutral 7th
+  Each column in the following represents the same pitch:
+  1  6  7    11
+     1  7:6  11:6
+* 10:9 = small major 2nd
+  Each column in the following represents the same pitch:
+  1  6  5:3   7
+     1  10:9  7:6

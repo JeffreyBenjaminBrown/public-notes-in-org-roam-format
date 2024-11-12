@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       fd013c9a-dfd5-4a1f-9de8-be19bb21daca
+:END:
+#+title: root, root minus sept m3, root minus sept M3
+= a trippy cluster
+* in JI it's [7:9, 6:7, 1]
+* [7:9, 6:7, 1] = [0,7,17] \ 46
+  :PROPERTIES:
+  :ID:       da07b936-245d-4693-8f36-38a89f54b25c
+  :END:
+* [7:9, 6:7, 1] = [0, 8, 21] \ 58
+  :PROPERTIES:
+  :ID:       81ca0486-bd78-4353-afea-a5251f9aad00
+  :END:

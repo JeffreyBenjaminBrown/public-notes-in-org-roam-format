@@ -4,6 +4,11 @@
 #+title: music
 * see also
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
+* TODO Why not play a MIDI sampler live?
+  The monome probably does it.
+  I don't need to be able to adjust anything about the loop.
+  Also maybe other Linux software.
+  ChatGPT would probably know.
 * [[id:538dc9f8-3d2b-4aca-9884-1eb697a8b7b4][Improv on who or what leads.]]
 * [[id:3178090b-f91f-4975-b3c1-02f966270252][karaoke songs I can sing]]
 * TODO [[id:bb22c6e3-cd16-4e22-85ef-cd83ee03c7fa][collect data to adjust velocity curve]]

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       3e05334b-e737-4914-bbe6-aedf31e1b827
+:END:
+#+title: the sound from ~9\12 to ~13\12 can be improved
+That is, improved relative to 12-edo.
+* The two ways listed below, for two different edos, are very different.
+  One spans 5:4, the other 9:7.
+* in 46-edo, use 5:3 + 9:7 = 13:6
+  :PROPERTIES:
+  :ID:       ef2fb6af-3443-4aea-9e02-046ce03ad5aa
+  :END:
+  major 6 chord + 13:6
+  = 0  15  27  34  5'
+  => these gaps:
+     15  12  7   17
+                 ^
+	  surprisingly nice
+* in 58-edo, use 12:7 + 5:4 = 28:13
+  :PROPERTIES:
+  :ID:       492bf0d5-654a-4531-bfec-48d357b14fbe
+  :END:
+  uses 933 cents for the 9\12,
+  and reach up 5:4 to 6'\58

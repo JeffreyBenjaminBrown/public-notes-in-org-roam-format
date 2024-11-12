@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       de3e5175-e9f9-4017-971b-1a6a7a8db476
+:END:
+#+title: dependent types in Haskell
+* ref: these notes are from
+  https://discourse.haskell.org/t/the-future-of-dependent-haskell/10614
+* a definition of what it is for DH to be ‘finished’
+  Π-types and function promotion
+* Hasochism: DT in Haskell in 2013
+  https://homepages.inf.ed.ac.uk/slindley/papers/hasochism.pdf
