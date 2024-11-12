@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       3bde6ef6-eef8-4b4b-a575-5d56aeb40237
+:END:
+#+title: Christine on Hode
+* TODO See who people get grants from.
+* entities
+** Center for the Informed Public.
+** UW: Joe Tennis, Jevin West; look at what they've been doing.
+*** Emily Bender: linugistics, UW, affiliated with the info school.
+    Runs linguistic lab.
+    Value-sensitive design lab.
+** the power houses of information schools
+   UW, UNC Chapel Hill, U Illinois, UC Berkeley
+** Information sciences.
+** Linguistics depts.
+* buzzwords
+** democratizing information
+** democratizing access
+** informed public
+** rumor > misinformation
+   Misinformation attributes intent, so UW changed that
+   in some organization's name(s) to "rumor".

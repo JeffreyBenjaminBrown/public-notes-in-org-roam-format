@@ -3,6 +3,7 @@
 :END:
 #+title: Hode & TODO
 * also to file
+** [[id:3bde6ef6-eef8-4b4b-a575-5d56aeb40237][Christine on Hode]]
 ** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
 ** [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode6]]
 ** [[id:d41fab82-8312-469f-8fd7-d162d8731190][unfiled, Hode or adjacent]]
