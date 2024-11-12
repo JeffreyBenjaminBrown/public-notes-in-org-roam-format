@@ -1,24 +1,26 @@
 :PROPERTIES:
 :ID:       e1eda15a-df86-4050-b150-e8034ae49019
-:ROAM_ALIASES: "nixos-rebuild"
+:ROAM_ALIASES: "nixos-rebuild" "rebuild NixOS"
 :END:
 #+title: nixos-rebuild (command)
-* in brief
-  alternatives
-** as a single command (which saves a password entry)
-   sudo bash -c "nix-channel --update nixos && nixos-rebuild switch"
-** as two separate commands
-   sudo nix-channel --update nixos
-   sudo nixos-rebuild switch
-* TODO [[id:13b039ff-e492-44ba-8284-a6ed016d9357][system.autoUpgrade slows my system to a crawl]]
-* [[id:e117abe5-bc24-46ae-8c6e-cb33a9127df5][if nixos-rebuild isn't building anything]]
-  it might be that the channel needs updating.
-* nixos-rebuild --keep-failed / -K
-  to avoid re-downloading data the next time I try to rebuild
-* to rebuild but not switch
-  sudo nixos-rebuild test
-* to rebuild NixOS nicely
-  :PROPERTIES:
-  :ID:       5d575d7a-e417-4807-813b-61bea82e9cff
-  :END:
-  sudo nice -n 19 nixos-rebuild switch
+* what I always use
+** how to do it
+   # Chaining with && reduces the time spent entering a password.
+   sudo bash -c "nix-channel --update nixos \
+     && nixos-rebuild switch"
+** when I last did it
+   <2024-11-10 Sun>
+* what I almost never read
+** [[id:13b039ff-e492-44ba-8284-a6ed016d9357][system.autoUpgrade slows my system to a crawl]]
+** [[id:e117abe5-bc24-46ae-8c6e-cb33a9127df5][if nixos-rebuild isn't building anything]]
+   it might be that the channel needs updating.
+** nixos-rebuild --keep-failed / -K
+   to avoid re-downloading data the next time I try to rebuild
+** to rebuild but not switch
+   sudo nixos-rebuild test
+** to rebuild NixOS nicely
+   :PROPERTIES:
+   :ID:       5d575d7a-e417-4807-813b-61bea82e9cff
+   :END:
+   # IIRC this doesn't work, bafflingly.
+   sudo nice -n 19 nixos-rebuild switch
