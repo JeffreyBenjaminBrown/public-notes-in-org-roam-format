@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       103aef8f-254d-496c-8453-71342a43a727
+:END:
+#+title: implicit arguments in Idris
+* an unedited but more recent quote, <2024-11-13 Wed>
+  Let us take a closer look at the type of index:
+
+  index : Fin n -> Vect n a -> a
+  It takes two arguments, an element of the finite set of n elements, and a vector with n elements of type a. But there are also two names, n and a, which are not declared explicitly. These are implicit arguments to index. We could also write the type of index as:
+
+  index : {a:Type} -> {n:Nat} -> Fin n -> Vect n a -> a
+  Implicit arguments, given in braces {} in the type declaration, are not given in applications of index; their values can be inferred from the types of the Fin n and Vect n a arguments. Any name beginning with a lower case letter which appears as a parameter or index in a type declaration, which is not applied to any arguments, will always be automatically bound as an implicit argument. Implicit arguments can still be given explicitly in applications, using {a=value} and {n=value}, for example:
+
+  index {a=Int} {n=2} FZ (2 :: 3 :: Nil)
+*** Furthermore, {} can be used to pattern match on the left hand side, i.e. {var = pat} gets an implicit variable and attempts to pattern match on “pat”; For example:
+
+           isEmpty : Vect n a -> Bool
+           isEmpty {n = Z} _   = True
+           isEmpty {n = S k} _ = False
+* some well-edited notes that might be stale
+** depend on case and application
+   "Any name beginning with a lower case letter which appears as a parameter or index in a type declaration, which is not applied to any arguments, will always be automatically bound as an implicit argument"
+** example
+   These are equivalent:
+     index : Fin n -> Vect n a -> a
+     index : forall a, n . Fin n -> Vect n a -> a
+   The a and n are implicit.
+** they can optionally be provided explicitly
+   e.g. for either of these equivalent definitions:
+     index : Fin n -> Vect n a -> a
+     index : forall a, n . Fin n -> Vect n a -> a
+   we could do this:
+     index {a=Int} {n=2} FZ (2 :: 3 :: Nil)
+   The {} stuff is optional.
+** arguments in type signatures can be named
+   index : (i : Fin n) -> (xs : Vect n a) -> a

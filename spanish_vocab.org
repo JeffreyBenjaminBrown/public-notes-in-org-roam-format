@@ -5,6 +5,11 @@
 * TODO read [[id:f9b8a577-563a-47c6-a77f-11892ec5ccd2][La República]], [[id:3d2019c3-635b-48b2-8128-8731562749ef][Dinero]]
 * TODO read Muy Interesante
   https://www.muyinteresante.es/
+* new
+** poner la cachucha de _
+   put on the hat of, take on the identity of
+** tomar la batuta
+   take the baton, become the leader
 * outer loop
   last time I reviewed = 9
 ** u

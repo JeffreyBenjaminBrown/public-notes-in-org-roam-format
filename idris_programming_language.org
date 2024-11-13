@@ -559,23 +559,7 @@ index : Fin 2 -> Vect 2 a -> a
 index FZ     (x :: _) = x
 index (FS FZ) (_ :: xs) = index FZ xs
 #+END_SRC
-** implicit arguments
-*** depend on case and application
-    "Any name beginning with a lower case letter which appears as a parameter or index in a type declaration, which is not applied to any arguments, will always be automatically bound as an implicit argument"
-*** example
-    These are equivalent:
-      index : Fin n -> Vect n a -> a
-      index : forall a, n . Fin n -> Vect n a -> a
-    The a and n are implicit.
-*** they can optionally be provided explicitly
-    e.g. for either of these equivalent definitions:
-      index : Fin n -> Vect n a -> a
-      index : forall a, n . Fin n -> Vect n a -> a
-    we could do this:
-      index {a=Int} {n=2} FZ (2 :: 3 :: Nil)
-    The {} stuff is optional.
-*** arguments in type signatures can be named
-    index : (i : Fin n) -> (xs : Vect n a) -> a
+** [[id:103aef8f-254d-496c-8453-71342a43a727][implicit arguments in Idris]]
 ** TODO ? "mutual" : did not understand most of
    https://idris2.readthedocs.io/en/latest/tutorial/typesfuns.html#note-declaration-order-and-mutual-blocks
 *** uses a number of terms before defining them
