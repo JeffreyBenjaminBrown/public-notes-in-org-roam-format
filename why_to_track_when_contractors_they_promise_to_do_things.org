@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       9521f459-3d21-43e7-bec6-1b76f2ef297d
+:END:
+#+title: Why to track when and how contractors promise things.
+It feels like after they say when they'll do something -- lately, show us evidence that a tool works -- and the time comes, they either say they'll do it later, or say they already did it.
+
+I therefore have to remember when they promised to do it, and try to hold them to it.
+
+This is particularly challenging because they don't act antagonistic. They act like colleagues, as if I can trust them because our interests are aligned, when they are not.
+
+The problem reveals an interesting anti-legalistic aspect of how I (and, I believe, other colleagues who have repeatedly run into this problem) think: When we talk about an issue with someone, and come to an agreement on what to do about it, I don't seem to actually record the minutiae of what will be done. I instead update my model of the other person, such that they now are aware of the problem I was aware of, and that they plan to solve it and prove they have done so, in good faith.

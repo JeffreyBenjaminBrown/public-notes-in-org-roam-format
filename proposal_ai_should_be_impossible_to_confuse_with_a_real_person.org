@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       23122de2-d48a-487d-82f4-984b5e5cfab6
+:END:
+#+title: "Proposal: ... [AI] should be impossible to confuse with a real person."
+"For a chatbot, why not give them the speech patterns of a fusty butler, like C3-P0? Or that autotuned audio burr when speaking that we use to signify a robot."

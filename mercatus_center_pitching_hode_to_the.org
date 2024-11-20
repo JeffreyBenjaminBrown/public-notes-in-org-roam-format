@@ -2,6 +2,7 @@
 :ID:       de60b7a7-d32d-4773-a26d-bf18ae12336b
 :END:
 #+title: Mercatus Center, pitching Hode to the
+* TODO mention improving on X/Wikipedia/Elsevier
 * [[id:ee8ecb15-832c-410f-8eed-f097baaba85e][Hode in under 295 characters, for the Mercatus Center]]
 * what they ask
 ** the relevant part of my background
@@ -34,7 +35,7 @@ In the first year of the economics PhD program at Michigan State, in 2006, I was
     thinking about what problems data can solve
 ** a mainstream belief I hold
 Our chief institutions for determining what is true are science, journalism, law and government. It is critical that they function well, and equally critical that they be widely understood and trusted.
-** [[id:c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6][Mercatus Center, essay on Hode for]]
+** [[id:c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6][Mercatus Center, essay on Hode ofor]]
 *** TODO Fix references (search for "[[")
-*** TODO What about Wikipedia?
+*** TODO What about X/Wikipedia/Elsevier?
 *** [[id:f5052dcf-20b5-48f7-85bb-478b16700b7a][stashed unused text]]

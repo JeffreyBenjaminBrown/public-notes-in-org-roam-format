@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d445d624-ae41-46a7-9ccb-1368f6289de0
+:END:
+#+title: Boris the Brave on AI: "junk personalities", and a proposal for protecting ourselves from them
+* source
+  https://www.boristhebrave.com/2024/11/15/an-uncanny-moat/
+* ideas
+** [[id:ad722b2a-0910-410c-adec-b3c2aab23cec][AI junk personalities: a concern]]
+** [[id:23122de2-d48a-487d-82f4-984b5e5cfab6]["Proposal: ... [AI] should be impossible to confuse with a real person."]]

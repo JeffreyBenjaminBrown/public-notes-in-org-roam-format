@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       5a71f136-d3b0-499a-9596-f0110f77609e
+:ROAM_ALIASES: "IDB in Bogotá" "IDB in Bogota"
+:END:
+#+title: BID en Bogotá
+* address
+  Carrera 7 # 71 - 21
+  Torre B Piso 20

@@ -2,5 +2,5 @@
 :ID:       ee8ecb15-832c-410f-8eed-f097baaba85e
 :END:
 #+title: Hode in under 295 characters, for the Mercatus Center
-* 291 characters
-  Google, Tableau, Elsevier, X etc. could be dominated by a single open federated protocol. Hypergraph data, instead of plain text, would permit precise querying -- giving new tools for science, journalism and education, defenses against misinformation, trolling, and cancelation, and more.
+* 287 characters
+  Google, Tableau, Elsevier, X etc. could be dominated by a single open federated protocol. Hypergraph data, instead of plain text, would permit precise querying -- giving new tools for science, journalism and education, defenses against misinformation, trolling and cancelation, and more.

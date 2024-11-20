@@ -4,6 +4,11 @@
 #+title: music
 * see also
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
+* TODO reach into higher extensions
+  Usually I'll do like 1 3 5, 3 5 7, 5 7 9,
+  and then walk back down, keep futzing around with those notes.
+  I could keep going into much higher octaves.
+* TODO Make each note count -- each micro-rhtyhm and micro-accent.
 * TODO Why not play a MIDI sampler live?
   The monome probably does it.
   I don't need to be able to adjust anything about the loop.

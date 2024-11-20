@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       69a80e78-6388-4fb3-9457-5d53538762d9
+:END:
+#+title: Backblaze B2
+* difference between Backblaze ("B") and Backblaze B2 ("BB2")
+** B is for personal computers, flat $7/mo.
+** BB2 is like S3
+   Less user-friendly, more powerful.
+   $1 / 200 GB.
+   Pay only for what you use, but that  includes bandwidth.
+* It's easy to use rclone to backup Google Cloud *into* BB2.
