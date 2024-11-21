@@ -3,6 +3,7 @@
 :ROAM_ALIASES: geolocation
 :END:
 #+title: geography
+* [[id:8c5c4e64-a684-4f32-bf1f-cdf974d51666][Bhutan is weird!]]
 * [[id:49bb7c1f-6d0a-4c7f-9fa9-3f6430860faa][using exiftool to get a photo's geolocation]]
 * online geography games
   :PROPERTIES:

@@ -4,8 +4,14 @@
 #+title: How to respond to invitations to meetings?
 * Ask for an agenda, read it and respond, early.
 * why
-  Even if I say yes,
-  this gives an opportunity to say what I don't need to know.
-  It's easier (psychologically) for them to omit that content
-  if they haven't yet planned in detail how to present it,
-  and it's kinder with their time.
+  multiple reasons
+** Lets me ditch, or help them reduce its scope.
+   Even if I say yes,
+   this gives an opportunity to say what I don't need to know.
+   It's easier (psychologically) for them to omit that content
+   if they haven't yet planned in detail how to present it,
+   and it's kinder with their time.
+** Lets me help them focus it
+   at least in the event that it's entirely for me
+   -- which has happened at least once in a way that
+   took me by surprise.

@@ -7,18 +7,22 @@
 The Freakonomics podcast recently (today is <2024-11-19 Tue>) did four episodes on the marijuana industry.
 
 The first episode was mostly medical, esp. comparing it to alcohol. The second is about the business. Each is something like half an hour.
-* notes
-** recently became more popular than alcohol
+* recently became more popular than alcohol
 There are more (they said "far more" at least once, but I think most times they just said "more") daily marijuana users in the US than daily drinkers now, and the median age of a user is 35 ("no longer a young person's drug").
-** doing it legally is crazy expensive
+* doing it legally is crazy expensive
 Anyone who sells cannabis can't deduct business expenses for tax purposes, so the effective *federal only* tax rate is around 70%!
 
 Only 25% of legal dispensaries make a profit! The cost advantage of illegal operations goes way beyond the 70%+ tax advantage -- it also includes things like social security payments to employees and compliance with the Americans with Disabilities Act. ("They're making me put wheelchair ramps all over my farm!")
-** illegal marijuana
-*** It looks like legal marijuana.
+* illegal marijuana
+** It looks like legal marijuana.
 Illegal vendors are impossible to distinguish from legal ones unless you ask to see their license. Cops have given up on shutting them down for some reason.
-*** It is dangerous.
-**** It is not tested.
+** It is dangerous.
+*** It is not tested.
 Legal vendors have to test the shit out of their marijuana -- someone said it cost him hundreds of thousands of dollars a year. It can get ruined by, say, neighboring farms spraying pesticides into the wind.
-**** There are legal incentives to make it bad.
+*** There are legal incentives to make it bad.
 Some law makes specifically delta-9-thc the illegal one. So breeders found ways to make delta-10, delta-8, or other compounds in abundance, the health effects of which are unknown.
+* reason to doubt it has as-yet-undiscovered health effects: other countries
+  That such effects exist is sometimes claimed by people who
+  think its federal illegality has prevented them from being found.
+  But it's legal in Canada, Germany, Israel and other countries,
+  and they haven't found them either.
