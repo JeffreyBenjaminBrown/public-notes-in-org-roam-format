@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       25e163b0-9f00-4f46-bd03-4d0265b7e06a
+:ROAM_ALIASES: "embryo selection => variability > average fitness"
+:END:
+#+title: The ability to select embryos will incentivize increasing variability in the fitness of each, rather than maximizing average fitness.

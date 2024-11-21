@@ -2,6 +2,7 @@
 :ID:       974d25f4-56a0-4dd9-a066-7790dd40d0f7
 :END:
 #+title: biology
+* [[id:25e163b0-9f00-4f46-bd03-4d0265b7e06a][embryo selection => variability > average fitness]]
 * [[id:b6b05dc0-b157-455e-a7b2-3a1959fe1957][animals]]
 * sub-disciplines
 ** [[id:16127b31-70f5-4098-a5c1-1df7cfc93128][bioinformatics]]

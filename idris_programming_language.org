@@ -154,6 +154,16 @@ help : a
    :ID:       ca34f4aa-a82e-4943-b57a-5d698258753f
    :END:
 *** https://idris2.readthedocs.io/en/latest/tutorial/typesfuns.html#laziness
+*** can (often? always?) be implemented by simply changing type
+**** data Lazy : Type -> Type where
+                 Delay : (val : a) -> Lazy a
+
+            Force : Lazy a -> a
+            A value of type Lazy a is unevaluated until it is forced by Force. The Idris type checker knows about the Lazy type, and inserts conversions where necessary between Lazy a and a, and vice versa. We can therefore write ifThenElse as follows, without any explicit use of Force or Delay:
+
+            ifThenElse : Bool -> Lazy a -> Lazy a -> a
+            ifThenElse True  t e = t
+            ifThenElse False t e = e
 ** any [overloaded] implementation of the names Nil and :: can be written in list form.
 *** Similarly, any implementation of the names Lin and :< can be written in snoc-list form:
 ** Anonymous functions (lambda expressions)
@@ -472,6 +482,9 @@ help : a
 *** The "mutual" keyword can get around this.
 *** At least for functions and data types,
     and maybe for more.
+* codata
+  It permits infinite data types, but not mutually recursive ones.
+  I didn't understand it.
 * syntax
 ** types
 *** Ptr represents *foreign* pointers
