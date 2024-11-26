@@ -1,16 +1,8 @@
 :PROPERTIES:
 :ID:       daaa2feb-2278-4864-99c3-21c6c7f3f019
-:ROAM_ALIASES: "lifting weights" "weightlifting" "working out" "workouts"
+:ROAM_ALIASES: "lifting weights" "weightlifting" "working out" "workouts" "fitness"
 :END:
 #+title: exercise
+* [[id:b24215c5-beab-427e-9ff1-8d92ea2d1159][mobility exercises]]
+** maybe stale: [[id:201e303a-dcc0-4e88-acd1-9329182af5a3][neck exercises]]
 * [[id:83cd9fdf-04fe-4f2d-8013-c0e4d7c3e8df][climbing (sport) & jbb]]
-* squats <2024-03-29 Fri>
-  160 reps total:
-  first 20 slow,
-  then sets of 10 fast.
-  I paused 90 seconds between each group of 10.
-  By the end of it, 2 minutes after I had stopped,
-  my pulse was at 90.
-  Toward the end, after each set, my pulse was at least 120.
-* [[id:201e303a-dcc0-4e88-acd1-9329182af5a3][neck exercises]]
-* [[id:b24215c5-beab-427e-9ff1-8d92ea2d1159][mobility exercises for the spine]] = most of my mobility exercises

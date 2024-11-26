@@ -7,6 +7,10 @@
 ** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
 ** [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode6]]
 ** [[id:d41fab82-8312-469f-8fd7-d162d8731190][unfiled, Hode or adjacent]]
+* mention to Mercatus
+  Market power in giant indices.
+  Knowledge is an underprovided public good.
+  Taming online hostility.
 * Steve Hsu says Pagerank is"totally deprecated".
 ** Minute 46 of first appearance on Dwarkesh
 * graphics, tangibility for hypergraph

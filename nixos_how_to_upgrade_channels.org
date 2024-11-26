@@ -19,13 +19,13 @@
   sudo nix-channel --remove nixos
     # Do this if it's already set.
   sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
-  sudo nix-channel --add https://nixos.org/channels/nixos-24.05 nixos
+  sudo nix-channel --add https://nixos.org/channels/nixos-24.11 nixos
     # nixos here is a channel alias
   sudo nix-channel --list
   sudo nix-channel --update nixos
     # nixos here is a channel alias
   sudo nixos-rebuild switch --upgrade
-  sudo nixos-rebuild switch --upgrade --profile-name "unstable, first try"
+  sudo nixos-rebuild switch --upgrade --profile-name "24.11, first try"
 * How I went from 19.09 to 20.03.
   :PROPERTIES:
   :ID:       a93f1341-2849-4dcc-80f1-4393b334ea38
