@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       dbd98c22-bc19-4626-8601-eed6cbfb612a
+:ROAM_ALIASES: "Bogotá weather : almost realtime sky view"
+:END:
+#+title: weather in Bogotá : an almost-realtime sky view
+https://www.windy.com/-Webcams-Localidad-Teusaquillo/webcams/1617613529?4.631,-74.069,16

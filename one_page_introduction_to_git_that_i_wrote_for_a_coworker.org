@@ -1,9 +1,28 @@
 :PROPERTIES:
 :ID:       d9bcb1ce-15b1-4880-a2b2-d9a0d0fed37c
-:ROAM_ALIASES: "introduction to Git" "Git introduction" "introduction to git" "git introduction"
+:ROAM_ALIASES: "introduction to Git" "Git introduction" "introduction to git" "git introduction" "version control introduction" "introduction to version control"
 :END:
-#+title: some introductions to Git
-* a conceptual one
+#+title: introduction to version control, especially Git
+* why to use version control
+(Git is one version control system. There are others.)
+** You will need to resurrect old versions of the code.
+At some point you will need to study an earlier version of your code. It happens to everybody, no matter how smart they are, no matter how thorough their plans. When it happens, you will wish you had a verbal record of what distinguishes one version of the code from the next. The "git comment" which you are forced to write every time you "git commit" a set of changes to your code is good for this.
+
+You won't just want any old version of the code. You'll want a very specific version of the code, after a bunch of good changes, and before some bad change. Without version control, you might have some old versions, with some informative names like "version 1" and 'version 2". But with version control you'll actually be able to determine the difference between snapshots of the code, and isolate exactly the one you want.
+** You will need to study changes in order to hunt bugs.
+Something will break. When it does, you'll want to be able to isolate the code that broke. It may have broken months ago. Without a version control history, you'll have to compare the code as it exists now to the code as it existed at some random point in history. Even for a small codebase, isolating the relevant difference can be unbelievably difficult.
+
+By contrast, with version control, rather than comparing two monoliths, you can isolate a narrow set of changes -- maybe only a few lines -- that are responsible for the break. (This assumes you use your version control software correctly -- that is, your commits are frequent, small and described well in the git comment.)
+** You will need to study changes in order to learn how things work.
+One of the best ways to onboard a new coder into a project is to show them a git commit that accomplishes (as every commit should) some well-defined task. Without version control, you won't be able to isolate the changes that accomplished something, and you won't easily be able to say what any change was for.
+
+This is also useful for "onboarding" your future self, once you've forgotten how the code works -- which can take less than a month.
+** You will want to advance different kinds of changes simultaneously, without breaking anything.
+Suppose you, a single coder, want to add concurrency and a user interface to your database program. Given some working base version of your code, version control lets you work on both extensions at once, in separate workspaces called "branches". They will not get in each others' way. Errors from one branch cannot be mistaken for errors from the other branch.
+
+This becomes even more useful when multiple people are working on the code at once. The main branch never needs to suffer temporary changes that put it in a non-functional state, because those non-functional states only ever happen in other branches. And nobody needs to get confused by someone else's incomplete work, because they are never exposed to it.
+* how to use git
+** a conceptual introduction to git
 When you run `git init` in a folder, you turn that folder into a git "repository", by creating a hidden folder called `.git/` (folders starting with "." are hidden by default, at least on Linux, although easy to see if you ask to see them). `.git/` contains, as far as I know, two things: the full repository history, and a "staging area".
 
 Staging is the word git uses for "preparing the next commit". A commit is a set of changes, along with a message. When you first initialize the repo, it has no content. But once you've run `git add [filename]` at least once, you'll have added file content to the staging area, ready to commit. Now you can run `git commit` to create a commit. It will prompt you for a commit message, describing how the changes you've staged will alter the repository.
@@ -31,7 +50,7 @@ If you're not starting a new repo but rather working on something that already e
 There are a million little tricks that help but aren't necessary. The `.gitignore` file, for instance, lets you explain that you don't want certain files listed in `git status`, and you don't want them to be part of the repository either. You can ask for the history (in `git log`) of a specific file, rather than the whole repo. There's a way in `git log` to show only when files were added but not modified. You can filter the log by author. You can add all modified files at once with `git add -u`. Etc, etc. If you feel like something is unnecessarily dumb or slow, there's probably a way around it.
 
 Those might be all the important concepts.
-* a very incomplete procedural one
+** a very incomplete procedural introduction to git
 Aunque Git es algo usado en general solamente por los prorgamadores, no es difícil. Solamente involucra un número de pasos fuera de lo normal cuando alguien está haciendo un backup.
 
 (1) Instalar Git en to máquina.

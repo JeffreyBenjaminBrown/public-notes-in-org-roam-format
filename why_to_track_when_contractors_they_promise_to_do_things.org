@@ -2,6 +2,12 @@
 :ID:       9521f459-3d21-43e7-bec6-1b76f2ef297d
 :END:
 #+title: Why to track when and how contractors promise things.
+* behavioral implications
+** Don't take someone who says "I will do it" at their word.
+** Record what they promised, and when.
+** Put it in writing that they recognize the promise.
+** Schedule (personally) when to follow up.
+* story, explanation
 It feels like after they say when they'll do something -- lately, show us evidence that a tool works -- and the time comes, they either say they'll do it later, or say they already did it.
 
 I therefore have to remember when they promised to do it, and try to hold them to it.
