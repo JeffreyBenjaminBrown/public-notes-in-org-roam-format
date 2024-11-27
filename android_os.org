@@ -1,9 +1,11 @@
 :PROPERTIES:
 :ID:       8aa2e426-1808-4bf2-9819-9e7ba11810fd
+:ROAM_ALIASES: Android
 :END:
 #+title: Android operating system
 * to prevent the battery from charging past 80%
 ** The choice is called Battery Protection, and the value Max.
+* [[id:3543400a-f02c-40a7-b6f1-254578bc2857][do-not-distub mode on phone, how to use]]
 * [[id:270fe9f7-a98f-40cd-b215-4cadfbc9f6ea][building apps for Android on NixOS]]
 * [[id:5abd07c8-7b3d-447f-a303-e231c6902dec][thumb-key (keyboard for Android)]]
 * [[id:0660053e-58a2-43a5-abc1-16b5f193b64f][Android, to mount filesystem on Linux]]

@@ -4,6 +4,8 @@
 #+title: do at every doctor's appointment
 ask (them to)
 * [[id:fc82ceb7-1d84-4e4c-8eca-8a0fc8847db6][In what order should I do what doctors prescribe?]]
-* Send me the orders electronically, not just as paper.
-* Be sure I understand what they wrote | typed.
+* legibility
+** Send me the orders electronically, not just as paper.
+** Be sure I understand their handwriting.
+** Be sure I understand the words.
 * Ask for a way to contact them if I get confused.

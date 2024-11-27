@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       3b8d3bb0-b32d-41c5-a548-ce93bea8d150
+:ROAM_ALIASES: "TODO & Hode"
 :END:
 #+title: Hode & TODO
 * also to file
@@ -11,6 +12,7 @@
   Market power in giant indices.
   Knowledge is an underprovided public good.
   Taming online hostility.
+* look into "open science"
 * Steve Hsu says Pagerank is"totally deprecated".
 ** Minute 46 of first appearance on Dwarkesh
 * graphics, tangibility for hypergraph
