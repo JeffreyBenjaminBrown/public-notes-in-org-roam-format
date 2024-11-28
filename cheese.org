@@ -18,7 +18,7 @@ apply the first diff in the branch called
     pulseaudio # I'm just guessing I need this; nobody said so
 **** audio.nix: I added these lines
     # For feeding the mic into Cheese (for webcam videos)
-    # Was suggested here: https://nixos.wiki/wiki/PulseAudio
+    # Was suggested here: https://wiki.nixos.org/wiki/PulseAudio
     # PITFALL: This borks much of my audio setup.
     hardware.pulseaudio.enable = true;
 * use lsof to check what processes (esp. pulseaudio, alsamixer) are using sound devices
@@ -28,6 +28,6 @@ sudo lsof /dev/snd/*
 to connect mic to Cheese
 https://www.youtube.com/watch?v=M0B0-SilJw4
 ** Pulse Audio on NixOS wiki
-https://nixos.wiki/wiki/PulseAudio
+https://wiki.nixos.org/wiki/PulseAudio
 ** Pulse Audio on Arch wiki
 https://wiki.archlinux.org/index.php/PulseAudio
