@@ -4,6 +4,8 @@
 #+title: Mercatus Center, pitching Hode to the
 * TODO mention improving on X/Wikipedia/Elsevier
 * [[id:ee8ecb15-832c-410f-8eed-f097baaba85e][Hode in under 295 characters, for the Mercatus Center]]
+* [[id:9eeea922-4545-4302-9b15-412b1e71ef86][Hode as quickly as possible]]
+  not something Mercatus asked for
 * what they ask
 ** the relevant part of my background
 The first part of the proposal should be about you. Tell us your personal story, and how it relates to what you wish to do. We probably don't care much about your formal education, credentials, or awards, unless they're particularly germane to who you are or your idea. Do tell us your background briefly, but credentials are not what will impress us.

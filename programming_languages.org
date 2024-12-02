@@ -2,6 +2,7 @@
 :ID:       d73993b4-9c64-4365-8300-bb7b1e6e439b
 :END:
 #+title: programming languages
+Both categories are incomplete and should overlap.
 * cool ones
 ** [[id:784a15c2-5ecf-4772-8d8f-f616103f3df5][Lean - programming language]]
 ** [[id:cacfa0be-acc2-4628-bb21-81feb12ec268][Pharo]] looks amazing
@@ -12,7 +13,7 @@
     or so it looks
 ** [[id:784007e7-b851-4988-beaa-b8e4a9657357][Haskell]]
 *** [[id:4084526f-b399-4c7d-ada1-d99aa1aece16][why I like Haskell]]
-** [[id:3924c945-e600-453f-be00-b2fb24d65f17][Go (programming language)]]
+** [[id:3924c945-e600-453f-be00-b2fb24d65f17][Go]] and [[id:0f5264a6-d638-4ba2-8604-28f024216d34][Borgo]]
 ** [[id:23f1e037-49c2-4fa1-acf6-a42b5703082a][Idris (programming language)]]
 ** Prolog
 ** [[id:07d8ccba-bc9a-49ed-b2c9-0aa9d0a2f8e0][Mercury (programming language)]] - like Prolog but strict & pure

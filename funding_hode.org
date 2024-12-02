@@ -3,6 +3,7 @@
 :END:
 #+title: funding Hode
 * [[id:de60b7a7-d32d-4773-a26d-bf18ae12336b][Mercatus Center, pitching Hode to the]]
+* [[id:9eeea922-4545-4302-9b15-412b1e71ef86][Shyg as quickly as possible]]
 * grants | funders for Hode
 ** DARPA
 ** prototype fund: https://prototypefund.de/en/

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       9eeea922-4545-4302-9b15-412b1e71ef86
+:END:
+#+title: Shyg as quickly as possible
+Shyg, which stands for Shared HyperGraph, would be a federated index of content online, and some software for building it, querying it and displaying the results.
+
+Even with a user base of only one user, indexing only their own data, it would permit useful queries not currently possible.
+
+TODO EXAMPLE: I have a note on temporarily boosting the immune system by moving to a lower elevation. I would like to be able to search for "strategies for illness" and find it. The ontology would make this possible.
+
+Another is "Identify passages in the indexed documents that mention any chemical in the blood of any mammal." The index will include an ontology, and thus permit the user to make this query without needing to list chemicals or mammals. The ontology will also facilitate more efficient storage of data.
+
+A small group of non-programmers indexing their shared data in Shyg could collaborate in ways not currently possible, like "fetch every question addressed to me in any of the documents whose incompleteness is blocking anyone else."
+
+If it could read a social network like Mastodon, programming

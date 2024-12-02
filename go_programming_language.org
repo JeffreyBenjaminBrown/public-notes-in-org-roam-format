@@ -1,8 +1,10 @@
 :PROPERTIES:
 :ID:       3924c945-e600-453f-be00-b2fb24d65f17
+:ROAM_ALIASES: Go
 :END:
 #+title: Go (programming language)
 * refs
+** [[id:0f5264a6-d638-4ba2-8604-28f024216d34][Borgo is an improved Go.]]
 ** the Go docs
    https://golang.org/doc/
 ** [[id:6da96e36-5198-4bd8-8741-eb2072106318][Search for packages or symbols.]]

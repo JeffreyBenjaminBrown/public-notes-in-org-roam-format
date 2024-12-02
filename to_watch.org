@@ -3,6 +3,9 @@
 :END:
 #+title: to watch
 * movies, somewhat ranked
+** Argo
+   True story, about rescuing Americans from Tehran using a movie.
+   Excellent critical response.
 ** The Last Duel
    "Really great — and probably the most authentic depiction of the Middle Ages I've seen in film." -- @DukakisDude
 ** Kingdom of Heaven, director's cut

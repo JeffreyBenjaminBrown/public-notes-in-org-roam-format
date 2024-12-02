@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       0f5264a6-d638-4ba2-8604-28f024216d34
+:ROAM_ALIASES: "Borgo (programming language)" "Borgo"
+:END:
+#+title: Borgo is an improved Go.
+* ref
+https://borgo-lang.github.io/#concurrency-goroutines
+* improvements
+** algebraic data types
+** no null values
+   except where interop imports one from normal Go
+** more
