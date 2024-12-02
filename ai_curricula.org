@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a6989768-c749-40a9-a531-46116a9438ec
+:END:
+#+title: AI curricula
+* someon's
+  https://news.ycombinator.com/item?id=42256093
+* Not the poster you responded to but I learned quite a bit from kaggle too.
+  I started from scratch, spent 2-4 hrs per day for 6 months & won a silver in a kaggle NLP competition.  Now I use some of it now but not all of it. More than that, I'm quite comfortable with models, understand the costs/benefits/implications etc. I started with Andrew Ng's intro courses, did a bit of fastai, did Karpathy's Zero to Hero fully, all of Kaggle's courses & a few other such things. Kagglers share excellent notebooks and I found them v helpful. Overall I highly recommend this route of learning.
