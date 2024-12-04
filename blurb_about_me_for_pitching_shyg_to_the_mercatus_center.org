@@ -2,10 +2,10 @@
 :ID:       71df8a76-f0ed-48d3-935b-99a4f0b3994c
 :END:
 #+title: blurb about me, for pitching Shyg to the Mercatus Center
-I am a software architect, data engineer and economist. I have worked at the Congressional Budget Office, in health economics consulting, at a small university think tank, and for the Colombian government, most recently as an advisor to Colombia's Minister of Commerce.
+I am a software architect, data dscientist and economist. I have worked at the US Congressional Budget Office, in health economics consulting, at a small university think tank, and for the Colombian government, most recently as an advisor to Colombia's Minister of Commerce.
 
-I have used knowledge mapping software enthusiastically for more than twenty years, swapping apps each time I found a better one. Within perhaps only weeks of starting, knowledge mapping had become an integral part of my thought process. I am the second developer (of only two) to work on the smsn-mode package[1] extending Emacs to use the Semantic Synchrony knowledge graph.
+I have used knowledge mapping software enthusiastically for more than twenty years, swapping apps each time I found a better one. Within perhaps only weeks of starting, knowledge mapping had become an integral part of my thought process. I am the second developer (of only two) to work on the smsn-mode package[1] extending Emacs for use with the Semantic Synchrony knowledge graph.
 
-In the first year of the economics PhD program at Michigan State, in 2006, I was part of a study group that would share notes and work through problems at the end of each day. The power of sharing and collectively working through ideas among even a small number of people (most days we were between 3 and 7) was a revelation to me that I still marvel at.
+As a PhD student I was part of a study group that would share notes and work through problems at the end of each day. The power of sharing and collectively working through ideas among even a small number of people (most days we were between 3 and 7) was a revelation to me that I still marvel at. It is part of the reason I believe a shared knowledge graph could be immensely powerful even at a very small scale.
 
 [1] https://github.com/synchrony/smsn-mode

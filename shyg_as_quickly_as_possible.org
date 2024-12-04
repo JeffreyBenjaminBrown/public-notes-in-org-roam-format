@@ -2,14 +2,39 @@
 :ID:       9eeea922-4545-4302-9b15-412b1e71ef86
 :END:
 #+title: Shyg as quickly as possible
+* What this essay is
+This essay is intended to give you a rough idea of what Shyg would be and why it would be valuable. (Valuable to society, that is -- I'm not convinced it can be monetized.) It is brief, to avoid losing your interest, but it includes a number of hyperlinks to portions of [[id:c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6][this more in-depth (5,000 words) essay on Shyg]].
+
+Blue text, even if it appears in a title, represents a hyperlink.
+* What Shyg would be
 Shyg, which stands for Shared HyperGraph, would be a federated index of content online, and some software for building it, querying it and displaying the results.
 
+Here is [[id:a1f04e1e-9d39-43a7-a384-a575a57968df][a deeper overview of Shyg's architecture]].
+* Shyg would be valuable at small scales.
 Even with a user base of only one user, indexing only their own data, it would permit useful queries not currently possible.
 
-TODO EXAMPLE: I have a note on temporarily boosting the immune system by moving to a lower elevation. I would like to be able to search for "strategies for illness" and find it. The ontology would make this possible.
+As an example, in my public knowledge graph, I have a note about traveling to a lower elevation as a strategy for temporarily enhancing one's immune system. I would like to be able to search for "strategies for dealing with illnesses" and find it. But the article includes neither the word "illness" nor the word "strategy", but rather "a way to fight infection".
 
-Another is "Identify passages in the indexed documents that mention any chemical in the blood of any mammal." The index will include an ontology, and thus permit the user to make this query without needing to list chemicals or mammals. The ontology will also facilitate more efficient storage of data.
+If the article were indexed in Shyg, the search would nonetheless be feasible. This is because the Shyg hypergraph will begin with (and continually grow) an ontology.
 
-A small group of non-programmers indexing their shared data in Shyg could collaborate in ways not currently possible, like "fetch every question addressed to me in any of the documents whose incompleteness is blocking anyone else."
+Or to take another exmaple of solo uses of Shyg, one could issue a query to "identify passages in the indexed documents that mention any chemical in the blood of any mammal". The ontology will permit the user to sidestep the prohibitively tedious step of listing every chemical and every mammal.
 
-If it could read a social network like Mastodon, programming
+(The Shyg ontology will also facilitate more efficient storage of data, as described [[id:b227c68b-cd5e-4f1e-a903-e1619ffafa63][here]].)
+
+A small group of non-programmers indexing their shared data in Shyg could collaborate in ways not currently possible, like "fetch every question addressed to me in any of the documents whose incompleteness is blocking anyone else," or "For every attachment to every email in which I asked a question, provide a list of everyone who was invited to a meeting in which that document featured".
+* Shyg would be extremely valuable at larger scales.
+** search better
+Shyg would enable a better search experience. Proprietary search engines suffer from a number of incentive problems: The provider is motivated to prevent the user from seeing too much of their data, or from finding the solution to their question immediately, and ads get in the way. But just as fundamentally, search engines have no formal grammar. They try to guess the user's intention from natural-ish language, which puts a hard limit on the complexity of the query that can be expressed. Shyg would overcome all of these barriers
+** write your own social media feed
+If it could read a social network like Mastodon, programming your own social media feed would be trivial: "Show me everything my friends have posted, ordered by recently," or "do that, but skip anything about baseball and anything that Mom thought was sad." (Batched lazy evaluation would transparently prevent queries with big payloads from swamping someone's bandwidth.)
+
+Programming your own social media feed in an open system like Mastodon is already possible, but only for programmers. By contrast, the query language Shyg will use -- [[https://github.com/JeffreyBenjaminBrown/hode/blob/master/docs/hash/the-hash-language.md][which already exists]], although I intend to extend it -- is simple enough for non-programmers to express detailed queries in.
+** [[id:d1088c1a-c4b8-446e-823e-a571461ff5db][Defend against misinformation.]]
+** [[id:bb0eb8e2-2877-4f37-ae16-8e7fbeb36158][Defend against bot networks.]]
+** Provide simplifying views of complex information.
+   A common and miserable experience for people who become (even if only briefly) famous on the internet is to need to wade through a torrent of hostile and nearly information-free responses to find the few useful ones. Many simply give up and don't read their responses at all.
+   But by indexing the responses with Shyg, and viewing them through an appropriate query -- perhaps something like "filter out all ad-hominem statements, and for equivalent statements, show only one representative, accompanied by the number of authors who said that" -- an otherwise unwieldy and distressing river of feedback could be made useful and benign.
+   Describing how much difference to tolerate before classifying two statements as distinct will, admittedly, require an understanding of the ontology and the query language that most users will not have. But as soon as anyone publishes the details of such a query, everyone will be able to use it.
+** [[id:644d95f3-315a-40d4-86e4-e6094fe0d30b][Facilitate open science.]]
+* If you'd like more information
+  please, let me know what you think of [[id:b3b34f14-5215-4f40-93c8-c235ddfd25ca][the longer writeup]]!

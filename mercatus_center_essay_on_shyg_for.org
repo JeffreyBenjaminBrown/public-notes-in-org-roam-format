@@ -65,14 +65,23 @@ One difficult aspect of navigating online information is that much of it is redu
 
 The Shyg index, with its ontology, will permit a user to reduce the complexity of search results by imposing uniqueness constraints on them. One could, for instance, ask for weightlifting exercises that target the hamstrings, and receive a short list of exercises, rather than millions of websites.
 ** Defend against misinformation by tracing provenance.
+   :PROPERTIES:
+   :ID:       d1088c1a-c4b8-446e-823e-a571461ff5db
+   :END:
 Some of the fight against online misinformation has involved tracking down its origins. This is tedious manual labor, and it does not need to be. Simple NLP could recognize when one document cites another even before the present era of LLMs. By incorporating citation relationships into the index, and by using the ontology to recognize equivalent forms of the same statement, a Shyg user could trace the history of a claim backward. The query would need to be executed only once, via a single medium (Shyg), rather than requiring a separate query in each new domain encountered (e.g. one query for the newspaper, another for a social media site the newspaper had quoted, etc.)
 ** Recognize bot networks through multi-faceted queries.
+   :PROPERTIES:
+   :ID:       bb0eb8e2-2877-4f37-ae16-8e7fbeb36158
+   :END:
 Various kinds of agencies (social media platforms, cybersecurity companies, academia, media watchdogs ...) periodically must try to recognize bot networks. The techniques they use include analyzing timing and coordination, linguistic analysis, and analyzing bots' interactions with other users, and more.
 
 Shyg will make such work easier, by providing a unified public database and query framework for all of that information.
 
 As we will see below when focusing on its [[id:a73b9f5a-bf5b-41af-b612-6427857a1133][architecture]], members of the Shyg network will be able to choose what kinds of information to index. Recogniztion of bots in Shyg could be particularly facilitated if the index stored relationships like "[author] cites [different author]" or "[author] claims that [different author] is human". It seems likely that some portion of the Shyg community will choose to include such information in the index.
 ** Improve the effectiveness of epistemic institutions, and the collective faith in them, by making epistemology more transparent.
+   :PROPERTIES:
+   :ID:       644d95f3-315a-40d4-86e4-e6094fe0d30b
+   :END:
 The epistemic institutions underpinning the modern social order -- [[id:79935e6e-8f9e-4206-81f4-7fc4ecfdae55][science, journalism, law and government]] -- devote substantial resources to determining what is true and making it known. These institutions have always been an elite, and never entirely popular, but until recently, they were nearly incontestable. The internet has democratized the search for truth, and some of the effects of that have clearly been good. But it has also dangerously fractured our epistemology into separate communities.
 
 Shyg will be agnostic about which community is correct on which issue. It will simply index their work. But it will index them all the same way, and permit queries that traverse them all at once. This will make every epistemic community more trasnparent, to itself and to the others. To the extent that communities of "alternate facts" arise from a sense of alienation from the traditional instutitions, this alone will be helpful.
