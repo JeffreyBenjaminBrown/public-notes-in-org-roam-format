@@ -9,7 +9,7 @@ Blue text, even where it appears in a title, represents a hyperlink.
 * What Shyg would be
 Shyg, which stands for Shared HyperGraph, would be a federated index of content online, and some software for building it, querying it and displaying the results.
 
-Here is [[id:a1f04e1e-9d39-43a7-a384-a575a57968df][a deeper overview of Shyg's architecture]].
+For more detail, here is [[id:a1f04e1e-9d39-43a7-a384-a575a57968df][an overview of Shyg's architecture]].
 * Shyg would be valuable even at small scales.
 ** Shyg at the scale of a single user
 Even with a user base of only one user, indexing only their own data, it would permit useful queries not currently possible.
@@ -29,7 +29,7 @@ Shyg would enable a better search experience. Proprietary search engines suffer 
 ** write your own social media feed
 If it could read a social network like Mastodon, programming your own social media feed would be trivial: "Show me everything my friends have posted, ordered by recently," or "do that, but skip anything about baseball and anything that Mom thought was sad." (Batched lazy evaluation would transparently prevent queries with big payloads from swamping someone's bandwidth.)
 
-Programming your own social media feed in an open system like Mastodon is already possible, but only for programmers. By contrast, the query language Shyg will use -- [[https://github.com/JeffreyBenjaminBrown/hode/blob/master/docs/hash/the-hash-language.md][which already exists]], although I intend to extend it -- is simple enough for non-programmers to express detailed queries in.
+Programming your own social media feed in an open system like Mastodon is already possible, but only for programmers. By contrast, the query language Shyg will use, Hash -- [[https://github.com/JeffreyBenjaminBrown/hode/blob/master/docs/hash/the-hash-language.md][which already exists]], although I intend to improve it -- is simple enough for non-programmers to express detailed queries in.
 ** [[id:d1088c1a-c4b8-446e-823e-a571461ff5db][Defend against misinformation.]]
 ** [[id:bb0eb8e2-2877-4f37-ae16-8e7fbeb36158][Defend against bot networks.]]
 ** Provide simplifying views of complex information.
