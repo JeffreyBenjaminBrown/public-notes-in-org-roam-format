@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       5b9a8412-6ad4-453f-b7dd-386c3a33b0e6
+:END:
+#+title: KDE in Nix, a project for configuring
+https://github.com/nix-community/plasma-manager

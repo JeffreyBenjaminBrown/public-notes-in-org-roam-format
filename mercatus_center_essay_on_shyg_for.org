@@ -51,10 +51,13 @@ It is for this reason that a majority of humanity is now accustomed to giving a 
 - "articles that either cite [source] or cite something that cites [source]"
 - "posts from [person] on which [person] commented"
 - "articles that mention any chemical in the blood of any mammal"
-*** Sidenote: the ontology
+*** Sidenote: how an ontology will help
+    :PROPERTIES:
+    :ID:       0f4c43f7-2a52-4a2c-97b1-93a2cdf5e108
+    :END:
 The last query mentioned will be made possible with the help of an ontology. Later this proposal describes [[id:7fa7c37d-117b-4893-b6cb-5550d52d7fb1][ontologies in more detail]] later, but in brief, an ontology is a collection of relationships intended to help understand the world's categories.
 
-One kind of relationship in an ontology is called subsumption, or informally, "is-a". A cat is a feline, which is a mammal, which is an animal, which is an organism. (That chain skips some intermediate levels.) Subsumption is a transitive relationship, so the preceding chain implies that cats are organisms.
+One kind of relationship in an ontology is called subsumption, or informally, "is-a". A cat is a feline, which is a mammal, which is an animal, which is an organism. (That chain skips some intermediate levels.) Subsumption is a transitive relationship, so the preceding chain of relationships from cats to organisms implies that cats are organisms.
 
 The Shyg index will include a continuously growing ontology. Therefore a user asking for "articles that mention any chemical in the blood of any mammal" will not need to provide an explicit list of mammals or chemicals.
 ** Reduce complexity by recognizing statement equivalence.

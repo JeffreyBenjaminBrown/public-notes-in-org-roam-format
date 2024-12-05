@@ -3,7 +3,8 @@
 :END:
 #+title: amazing music
 * Orquesta Típica Fernández Fierro
-  Modern tango, 12-piece band (4 bandoneones, no drums)
+  Modern tango, 12-piece band (4 bandoneones, no drums).
+  But they've basically only got one song.
 * Mezerg: Drums under feet, keys or theremin under hands
 * Joseph Najnudel made that awesome 19-edo music
   We're connected on Facebook.

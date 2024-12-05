@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       caefb984-a505-49ac-b6ce-c0307b38b3e4
+:END:
+#+title: communication
+* [[id:eebbe152-9051-4935-8ae2-294147fc7ab1][charitable interpretation and redundancy in language]]

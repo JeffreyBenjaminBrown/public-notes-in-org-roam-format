@@ -3,24 +3,25 @@
 :END:
 #+title: Shyg as quickly as possible
 * What this essay is
-This essay is intended to give you a rough idea of what Shyg would be and why it would be valuable. (Valuable to society, that is -- I'm not convinced it can be monetized.) It is brief, to avoid losing your interest, but it includes a number of hyperlinks to portions of [[id:c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6][this more in-depth (5,000 words) essay on Shyg]].
+This essay is intended to give a rough idea of what Shyg would do and why it would be good for society. (I'm not convinced it can be monetized.) It is brief, to avoid losing your interest, but it includes a number of hyperlinks to portions of [[id:c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6][this more in-depth (5,000 words) essay on Shyg]]. This article does not go into architectural details; that one does.
 
-Blue text, even if it appears in a title, represents a hyperlink.
+Blue text, even where it appears in a title, represents a hyperlink.
 * What Shyg would be
 Shyg, which stands for Shared HyperGraph, would be a federated index of content online, and some software for building it, querying it and displaying the results.
 
 Here is [[id:a1f04e1e-9d39-43a7-a384-a575a57968df][a deeper overview of Shyg's architecture]].
-* Shyg would be valuable at small scales.
+* Shyg would be valuable even at small scales.
+** Shyg at the scale of a single user
 Even with a user base of only one user, indexing only their own data, it would permit useful queries not currently possible.
 
 As an example, in my public knowledge graph, I have a note about traveling to a lower elevation as a strategy for temporarily enhancing one's immune system. I would like to be able to search for "strategies for dealing with illnesses" and find it. But the article includes neither the word "illness" nor the word "strategy", but rather "a way to fight infection".
 
-If the article were indexed in Shyg, the search would nonetheless be feasible. This is because the Shyg hypergraph will begin with (and continually grow) an ontology.
+If the article were indexed in Shyg, the search would nonetheless be feasible, because Shyg will include an ontology, and will use it to execute searches. (If you're reading this, chances are good you already know why an ontology would help, but just in case, [[id:0f4c43f7-2a52-4a2c-97b1-93a2cdf5e108][here's the idea]].)
 
 Or to take another exmaple of solo uses of Shyg, one could issue a query to "identify passages in the indexed documents that mention any chemical in the blood of any mammal". The ontology will permit the user to sidestep the prohibitively tedious step of listing every chemical and every mammal.
 
-(The Shyg ontology will also facilitate more efficient storage of data, as described [[id:b227c68b-cd5e-4f1e-a903-e1619ffafa63][here]].)
-
+The Shyg ontology will also facilitate more efficient storage of data, as described [[id:b227c68b-cd5e-4f1e-a903-e1619ffafa63][here]].
+** Shyg at the scale of a handful of people
 A small group of non-programmers indexing their shared data in Shyg could collaborate in ways not currently possible, like "fetch every question addressed to me in any of the documents whose incompleteness is blocking anyone else," or "For every attachment to every email in which I asked a question, provide a list of everyone who was invited to a meeting in which that document featured".
 * Shyg would be extremely valuable at larger scales.
 ** search better
@@ -37,4 +38,4 @@ Programming your own social media feed in an open system like Mastodon is alread
    Describing how much difference to tolerate before classifying two statements as distinct will, admittedly, require an understanding of the ontology and the query language that most users will not have. But as soon as anyone publishes the details of such a query, everyone will be able to use it.
 ** [[id:644d95f3-315a-40d4-86e4-e6094fe0d30b][Facilitate open science.]]
 * If you'd like more information
-  please, let me know what you think of [[id:b3b34f14-5215-4f40-93c8-c235ddfd25ca][the longer writeup]]!
+  -- in particular, if you'd like to know how Shyg would accomplish these things, not just why -- here's that [[id:b3b34f14-5215-4f40-93c8-c235ddfd25ca][longer writeup]] again.

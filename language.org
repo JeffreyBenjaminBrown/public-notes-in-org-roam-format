@@ -1,9 +1,11 @@
 :PROPERTIES:
 :ID:       c543ecbc-9af5-4a9f-a7b2-fce74104c5cc
+:ROAM_ALIASES: linguistics
 :END:
 #+title: language
 * some languages I like
 ** Toki Pona, a natural language with on the order of 150 words.
+* [[id:eebbe152-9051-4935-8ae2-294147fc7ab1][charitable interpretation and redundancy in language]]
 * [[id:d73993b4-9c64-4365-8300-bb7b1e6e439b][programming languages]]
 * the Sapir-Whorf hypothesis: language influences thought.
   https://en.wikipedia.org/wiki/Linguistic_relativity

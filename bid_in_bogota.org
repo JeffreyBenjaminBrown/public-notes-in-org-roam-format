@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "IDB in Bogotá" "IDB in Bogota"
 :END:
 #+title: BID en Bogotá
+* [[id:76083009-a19a-4b2c-8cbc-7e856fec1f6b][BID & MinCIT]]
 * address
   Carrera 7 # 71 - 21
   Torre B Piso 20

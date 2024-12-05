@@ -2,8 +2,15 @@
 :ID:       2b49db8e-8279-42ae-a23c-e3ca35addc39
 :END:
 #+title: Salespeople suck. They *have to* suck.
-* This includes people signing me up for a service,
-  even if they didn't reach out to me.
+* DONE context, internalized
+** caveat: not exactly, necessarily, or consciously evil
+   Just behaving that way.
+   Who knows what's going on in someone's head.
+** This happens for Darwinian reasons.
+   Non-evil salespeople are less successful, hence weeded out.
+* They include people who didn't reach out to me.
+  e.g. people signing me up for a service,
+  and perhaps anyone a salesperson is likely to refer me to.
 * Their incentives are
   to overpromise, to downplay risks,
   to dismiss my concerns and

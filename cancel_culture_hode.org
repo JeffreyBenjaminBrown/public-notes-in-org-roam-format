@@ -3,7 +3,6 @@
 :END:
 #+title: online cancel culture & Hode
 Herein I describe how Hode could ameliorate the problem in which someone gets in trouble for something they said online. I admit that cancel culture is more general than online cancel culture.
-
 * Hode would make it easier to forgive.
   Hode would make it easy to find context. Maybe the offensive quote makes sense as part of the larger passage it was taken from. Maybe author has since learned better, and their data trail proves it. Maybe the offensive implications of what they said are contradicted by other things they have said. If the index included "_ implies belief in _" relationships, queries to unearth such evidence would not be difficult to formulate.
 * Hode would make it easier to detect astroturfed attacks.

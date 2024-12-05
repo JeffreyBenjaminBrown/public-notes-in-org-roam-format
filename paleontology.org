@@ -4,6 +4,7 @@
 #+title: paleontology
 * see also
 ** [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
+* [[id:0b73af18-a796-4b09-970f-6ed94638c376][All natural coal is 300 million to 360 million years old.]]
 * [[id:21c0316a-09ad-4525-827d-420295ae515e][Australia had even crazier wildlife just before humans.]]
 * [[id:1985262c-1d79-47af-9526-c78a7a709ab8][The Americas had crazy wildlife just before humans.]]
 * [[id:456e16f8-2af2-4751-aab8-174a95bbb7da][Humans spread from Alaska to all of the Americas in 4k years.]]
