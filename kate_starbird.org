@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       67c70129-b00a-4bca-9f1f-c2e4f5c40581
+:END:
+#+title: Kate Starbird
+* I sent a [[id:2a980e88-c526-4c3d-8c56-a59c11678e92][letter to Kate Starbird on Shyg]].
+* professor in three schools at UW
+  These are the in which they appear on her bio.
+** main school
+   Human Centered Design & Engineering
+** adjunct at
+   Computer Science
+   Information School
+* some interests stated in her bio
+** the spread of disinformation [esp. in disaster contexts?]
+** abuse and manipulation of and through [online] platforms
+** the consequent erosion of trust in information
+* [[id:a3629d85-3cc4-44b4-8c21-6a7a99a17342][some of Kate Starbird's research near my interests]]

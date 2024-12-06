@@ -4,7 +4,7 @@
 #+title: Christine on Hode
 * TODO See who people get grants from.
 * entities
-** Center for the Informed Public.
+** Center for an Informed Public.
 ** [[id:1f1c42de-584a-4643-96d2-3044c674cef1][Jevin West, Professor at the Info School at UW]]
 ** UW: Joe Tennis, Jevin West; look at what they've been doing.
 *** Emily Bender: linugistics, UW, affiliated with the info school.
