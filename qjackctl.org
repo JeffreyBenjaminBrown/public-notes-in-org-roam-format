@@ -3,6 +3,7 @@
 :ROAM_ALIASES: qjackctl
 :END:
 #+title: QJackCtl
+* [[id:f3700976-96b6-4917-9aa5-83903c0c2de5][QJackCtl having no effect on `jack_bufsize`.]]
 * using an audio interface through Qjackctl
 ** what to do
    serial

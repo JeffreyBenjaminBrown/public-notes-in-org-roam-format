@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       f3700976-96b6-4917-9aa5-83903c0c2de5
+:END:
+#+title: QJackCtl having no effect on `jack_bufsize`.
+* posted to NixOS Discourse
+  https://discourse.nixos.org/t/jack-buffer-size-unaffected-by-changes-made-in-qjackctl/57170
+* `jack_bufsize` can be run from the shell, and always gives 1024.
+  regardless of how I change it in QJackCtl.
+* Yet QJackCtl does control other things -- namely the signal graph.

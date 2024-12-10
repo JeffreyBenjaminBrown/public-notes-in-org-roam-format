@@ -1,0 +1,152 @@
+:PROPERTIES:
+:ID:       54b4541e-2e41-4515-b97c-a9d00c16b0bd
+:END:
+#+title: audio plugin scanning problem : manually installed ones found, Nix-built ones not found
+* a solution?
+  :PROPERTIES:
+  :ID:       86128580-cc10-4279-87b6-8c869dc44b8e
+  :END:
+I don't know why this worked, but I echoed LV2_PATH to screen in Bash, replaced each : with a ;, replaced the Reaper LV2 scanning path (in Reaper > Preferences > Plugins > LV2/CLAP), and rescanned. Now it finds drumgizmo.
+* the discussion
+  https://discourse.nixos.org/t/manually-installed-audio-plugins-found-but-nix-built-ones-not-found/57149
+* my question (posted)
+Hello dear NixOS community,
+
+There are a number of audio plugins packaged for NixOS. I want to use one: the LV2 plugin `drumgizmo`. It's included in my configuration package list, which build successfully, but Reaper does not find it when it rescans for plugins.
+
+My `~/.lv2` folder contains the Pianoteq plugin (built manually) and the drumgizmo plugin (built by Nix):
+```
+[jeff@jbb-hp24-oled:~/.lv2]$ ls -l
+total 12
+lrwxrwxrwx  1 jeff users   60 Dec  8 12:07  drumgizmo -> /nix/store/n0jx8jsabagydbbbmvax4hv9m77ddc0n-drumgizmo-0.9.20
+drwxr-xr-x  2 jeff users 4096 Aug 10  2023 'Pianoteq 8.lv2'
+```
+
+I know Reaper is scanning that folder, because when I set the Reaper .lv2 pathlist to empty, it does not find Pianoteq, but when I set it to "~/.lv2;" it does.
+
+I thought maybe there was a permissions problem so I copied everything in the drumgizmo store path to a new folder `~/.lv2/drumgizmo-writeable`, ran `chmod -R 777" on all of that stuff, and rescanned again from Reaper. Still no dice.
+
+Any ideas?
+
+
+# A nuance: `symlinkJoin` in my package list
+I didn't mention this above because it seems likely irrelevant for solving this problem, but I build drumgizmo inside a symlinkJoin expression:
+```
+{
+  environment.systemPackages =
+    with pkgs; [
+    ...
+    (symlinkJoin {
+      name = "jbb-plugins"; # my initials are JBB
+      paths = [
+        drumgizmo
+	...
+```
+
+I first tried symlinking the entire `jbb-plugins/` store path into `~/.lv2` and rescanning, but when I do I get the same result -- Reaper only finds Pianoteq. That was what led me to try linking directly to the `drumgizmo` store path in `~/.lv2`.
+
+
+# In case it helps: The Pianoteq and drumgizmo folder contents
+```
+s[jeff@jbb-hp24-oled:~/.lv2]$ tree drumgizmo-writeable/ Pianoteq\ 8.lv2/
+drumgizmo-writeable/
+├── bin
+│   ├── dgvalidator
+│   └── drumgizmo
+├── lib
+│   └── lv2
+│       └── drumgizmo.lv2
+│           ├── drumgizmo.so
+│           └── manifest.ttl
+└── share
+    └── man
+        └── man1
+            ├── dgvalidator.1.gz
+            ├── dgvalidator.fr.1.gz
+            ├── drumgizmo.1.gz
+            └── drumgizmo.fr.1.gz
+Pianoteq 8.lv2/
+├── dsp.ttl
+├── manifest.ttl
+├── Pianoteq_8.so
+└── ui.ttl
+
+9 directories, 12 files
+```
+* my first response to polygon
+Thanks for responding, Polygon! Is your config online? If it helps, here's mine:
+```
+https://github.com/JeffreyBenjaminBrown/nixos-experiments/tree/5751ecde294f8409253762d6ea4ba8eff0786d31/config
+```
+That's a permalink to the latest, still-experimental commit that includes the part of your code that didn't yield a conflict with musnix for me, described below.
+
+# Futzing with paths
+musnix already defines `LV2_PATH = makePluginPath "lv2";`, which yields a conflict when I try using your `LV2_PATH = "/run/current-system/sw/lib/lv2";`. (It has a bunch of similar definitions:
+```
+DSSI_PATH   = makePluginPath "dssi";
+LADSPA_PATH = makePluginPath "ladspa";
+LV2_PATH    = makePluginPath "lv2";
+LXVST_PATH  = makePluginPath "lxvst";
+VST_PATH    = makePluginPath "vst";
+VST3_PATH   = makePluginPath "vst3";
+```
+)
+
+I don't understand it, but I added your
+```
+pathsToLink = [
+  "/lib/vst2" "/lib/vst3" "/lib/clap" "lib/lv2" ];
+```
+to my config and rebuilt.
+
+When I evaluate LV2_PATH in Bash I see
+```
+[jeff@jbb-hp24-oled:~]$ echo $LV2_PATH
+/home/jeff/.nix-profile/lib/lv2:/run/current-system/sw/lib/lv2:/etc/profiles/per-user/jeff/lib/lv2:/home/jeff/.lv2
+```
+
+# No stable/unstable mixing.
+I don't even know how to mix stable and unstable packages. All my packages are from nixpkgs 24.11.
+
+# ldd results
+```
+[jeff@jbb-hp24-oled:~/.lv2/drumgizmo/lib/lv2/drumgizmo.lv2]$ ldd drumgizmo.so
+        linux-vdso.so.1 (0x00007f7250727000)
+        libX11.so.6 => /nix/store/ikjw6a952jd9wn5k06mkj710xzabssr0-libX11-1.8.10/lib/libX11.so.6 (0x00007f725040f000)
+        libXext.so.6 => /nix/store/d5y0sl4vwsb9m99r18zh1mx4fw9y70g6-libXext-1.3.6/lib/libXext.so.6 (0x00007f72503fa000)
+        libsndfile.so.1 => /nix/store/v3mh7x9nhnicg7mkb1r1xmcjjkpyflr3-libsndfile-1.2.2/lib/libsndfile.so.1 (0x00007f725036d000)
+        libpthread.so.0 => /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libpthread.so.0 (0x00007f7250368000)
+        libatomic.so.1 => /nix/store/ybjcla5bhj8g1y84998pn4a2drfxybkv-gcc-13.3.0-lib/lib/../lib64/libatomic.so.1 (0x00007f725035b000)
+        librt.so.1 => /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/librt.so.1 (0x00007f7250356000)
+        libstdc++.so.6 => /nix/store/ybjcla5bhj8g1y84998pn4a2drfxybkv-gcc-13.3.0-lib/lib/../lib64/libstdc++.so.6 (0x00007f7250000000)
+        libm.so.6 => /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libm.so.6 (0x00007f725026f000)
+        libc.so.6 => /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libc.so.6 (0x00007f724fe07000)
+        libgcc_s.so.1 => /nix/store/ybjcla5bhj8g1y84998pn4a2drfxybkv-gcc-13.3.0-lib/lib/../lib64/libgcc_s.so.1 (0x00007f724fde2000)
+        libxcb.so.1 => /nix/store/w63ks7mg1dsgm2gg302ss70wpq7g0l4d-libxcb-1.17.0/lib/libxcb.so.1 (0x00007f724fdb6000)
+        libFLAC.so.12 => /nix/store/9nk7ym5kg8rf3v3rxw7yxfbckk120h99-flac-1.4.3/lib/libFLAC.so.12 (0x00007f724fd34000)
+        libvorbis.so.0 => /nix/store/bnl8rhs4324hpzk6ik5c4wnz4dz89smg-libvorbis-1.3.7/lib/libvorbis.so.0 (0x00007f724fcf9000)
+        libvorbisenc.so.2 => /nix/store/bnl8rhs4324hpzk6ik5c4wnz4dz89smg-libvorbis-1.3.7/lib/libvorbisenc.so.2 (0x00007f724fc4d000)
+        libopus.so.0 => /nix/store/8000ndhxf2ppjw91r3r25dr9yhvjgy8w-libopus-1.5.2/lib/libopus.so.0 (0x00007f724fbe5000)
+        libogg.so.0 => /nix/store/j2h0qmkjw72p6nh27ii97r9wq042l4ca-libogg-1.3.5/lib/libogg.so.0 (0x00007f724fbda000)
+        libmpg123.so.0 => /nix/store/yv263ja8gcwsi2hfzqf32rsy5qjhz8r7-libmpg123-1.32.8/lib/libmpg123.so.0 (0x00007f724fb7b000)
+        libmp3lame.so.0 => /nix/store/qa6xya7klldgfhmjvlspg35xb3srgdqm-lame-3.100-lib/lib/libmp3lame.so.0 (0x00007f724fb01000)
+        /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib64/ld-linux-x86-64.so.2 (0x00007f7250729000)
+        libXau.so.6 => /nix/store/ighb6h0x1nv14ap2fj0j3bqdn0x3xra4-libXau-1.0.11/lib/libXau.so.6 (0x00007f7250264000)
+        libXdmcp.so.6 => /nix/store/8jqc1bpk99jgib12wgpdjmnbndrmg7vz-libXdmcp-1.1.5/lib/libXdmcp.so.6 (0x00007f724faf9000)
+        libmvec.so.1 => /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libmvec.so.1 (0x00007f724fa00000)
+```
+
+```
+[jeff@jbb-hp24-oled:~/.lv2/Pianoteq 8.lv2]$ ldd Pianoteq_8.so
+        linux-vdso.so.1 (0x00007f0c45704000)
+        librt.so.1 => /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/librt.so.1 (0x00007f0c456f9000)
+        libdl.so.2 => /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libdl.so.2 (0x00007f0c456f4000)
+        libfreetype.so.6 => not found
+        libstdc++.so.6 => not found
+        libm.so.6 => /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libm.so.6 (0x00007f0c42b19000)
+        libmvec.so.1 => /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libmvec.so.1 (0x00007f0c42a20000)
+        libgcc_s.so.1 => /nix/store/2d5spnl8j5r4n1s4bj1zmra7mwx0f1n8-xgcc-13.3.0-libgcc/lib/libgcc_s.so.1 (0x00007f0c456cd000)
+        libpthread.so.0 => /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libpthread.so.0 (0x00007f0c456c8000)
+        libc.so.6 => /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib/libc.so.6 (0x00007f0c42827000)
+        /nix/store/wn7v2vhyyyi6clcyn0s9ixvl7d4d87ic-glibc-2.40-36/lib64/ld-linux-x86-64.so.2 (0x00007f0c45706000)
+```

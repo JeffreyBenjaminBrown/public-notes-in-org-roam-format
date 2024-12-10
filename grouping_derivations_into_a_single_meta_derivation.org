@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       6eac4dc3-8186-412b-ad20-1f8f8166dbb4
+:END:
+#+title: grouping NixOS derivations into a single meta-derivation
+* ref
+  https://discourse.nixos.org/t/where-can-i-locate-all-my-downloaded-lv2-ladspa-and-etc/31810
+* the trick: symlinkJoin
+# in packages.nix:
+#+BEGIN_SRC nix
+{ pkgs, ... }:
+
+{
+  environment.systemPackages =
+    with pkgs; [
+      ...
+      (symlinkJoin {
+        name = "jbb-plugins";
+        paths = [
+          drumgizmo
+	        ...
+          ] } ) ] }
+#+END_SRC
+* what it does
+  It will install the contained packages (e.g. drumgizmo above)
+  normally, but also create a "metapackage"
+  containing each package listed in the `symlinkJoin` statement.
+  By listing this metapackage,
+  rather than the entire `/nix/store` path,
+  one can save software that searches for plugins (like Reaper)
+  a lot of time.

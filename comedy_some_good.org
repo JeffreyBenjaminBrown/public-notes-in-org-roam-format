@@ -9,6 +9,8 @@
 * Bill Bailey
 * Bill Burr
 * Brian Posehn
+* Brian Regan
+* Bryan Callen
 * Cam Bertrand
 * Chad Daniels
 * Demetrio Martín
@@ -40,7 +42,9 @@
 * Nate Bergatze
 * Neil Brennan
 * Norm MacDonald
+* Orny Adams
 * Pat Burtscher
+* Pete Holmes
 * Phil Wang
 * Ryan Goodcase
 * Shane Gillis

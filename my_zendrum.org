@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       739604d0-beb9-43b7-82ee-824e21b2b541
+:ROAM_ALIASES: "Zendrum, my"
+:END:
+#+title: my Zendrum
+* key assignments
+  each row's associated MIDI notes are written left to right
+** top row (5)
+   88 91 93 96 98
+** next (5)
+   76 79 81 84 86
+** middle row (6)
+   62 64 67 69 72 74
+** next (5)
+   50 52 55 57 60
+** bottom row (6)
+   36 38 40 43 45 48
+* Zendrum latency battle <2024-12-09 Mon>
+  Recording the MIDI from it and the Lumatone simultaneously,
+  what feel like simultaneous finger presses are recorded that way, too. The biggest discrepancy I saw was 0.02 seconds, but most were 0 seconds to two decimal places.

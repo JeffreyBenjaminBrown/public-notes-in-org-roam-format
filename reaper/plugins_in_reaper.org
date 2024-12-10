@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       53710a45-f8f9-40b2-a4eb-9555b8b3437a
+:END:
+#+title: plugins in Reaper
+* my procedure
+Open Preferences (Ctrl-P),
+and go to Plugins.
+Each "path" (to VST, to LV2, etc.) is a semicolon-separated list of paths.
+Many or all of them should be, or should at least include, the paths in the corresponding Bash variable, as in
+#+BEGIN_SRC bash
+[jeff@jbb-hp24-oled:~]$ echo $LV2_PATH
+/home/jeff/.nix-profile/lib/lv2:/run/current-system/sw/lib/lv2:/etc/profiles/per-user/jeff/lib/lv2:/home/jeff/.lv2
+#+END_SRC
+Then I should click "rescan plugins".
+* If it doesn't work, [[id:86128580-cc10-4279-87b6-8c869dc44b8e][this might help]].

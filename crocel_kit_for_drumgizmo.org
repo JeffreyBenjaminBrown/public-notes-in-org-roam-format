@@ -1,0 +1,69 @@
+:PROPERTIES:
+:ID:       e8059c91-1b6a-4676-8a60-9376002811f3
+:END:
+#+title: Crocel kit for drumgizmo
+* layouts
+** my first layout for it
+       CrL CrLS   CrR   CrRS CrRX
+     ChR  T1    T2   FT1   FT2
+   HC  HS    HO   HCNP  HP   HPH
+     R    SRest SRim SRimS S
+   ChL SpL   SpR  RB    KL   KR
+** 2nd
+|      |       | crl |    | spl |    | spr |      | srims |      | HCNP |
+|      | kl    |     | t2 |     | HS |     | ft2  |       | crls |      |
+| crrx |       | t1  |    | HC  |    | HO  |      | crr   |      | CHL  |
+|      | srest |     | RB |     | S  |     | SRIM |       | crrs |      |
+| HPH  |       | ft1 |    | R   |    | KR  |      | HP    |      | CHR  |
+* notes on the drums
+  intended for laying them out better
+** the choked crashes are fixed-duration
+** in freq, CrX < CrL < CrR
+	<map note="88" instr="CrashL"/>
+	<map note="91" instr="CrashLStopped"/>
+	<map note="93" instr="CrashR"/>
+	<map note="96" instr="CrashRStopped"/>
+	<map note="98" instr="CrashRXtra"/>
+
+	<map note="76" instr="ChinaR"/>
+	<map note="79" instr="Tom1"/>
+	<map note="81" instr="Tom2"/>
+	<map note="84" instr="FTom1"/>
+	<map note="86" instr="FTom2"/>
+
+	<map note="62" instr="HihatClosed"/>
+	<map note="64" instr="HihatSemiOpen"/>
+	<map note="67" instr="HihatOpen"/>
+	<map note="69" instr="HihatClosedNoPedal"/>
+	<map note="72" instr="HihatPedal"/>
+	<map note="74" instr="HihatPedalHit"/>
+
+	<map note="50" instr="RideR"/>
+	<map note="52" instr="SnareRest"/>
+	<map note="55" instr="SnareRimShot"/>
+	<map note="57" instr="SnareRim"/>
+	<map note="60" instr="Snare"/>
+
+	<map note="36" instr="ChinaL"/>
+	<map note="38" instr="SplashL"/>
+	<map note="40" instr="SplashR"/>
+	<map note="43" instr="RideRBell"/>
+	<map note="45" instr="KDrumL"/>
+	<map note="48" instr="KDrumR"/>
+** the toms all feel pretty similar
+** the hats
+*** HP cuts off the others.
+*** in duration, HC < HS < HO
+*** HS and HCNP are pretty similar.
+*** HPH is a nice ringing opening with little attack.
+** the snares
+*** SRest is part of a roll.
+*** SRimS is very quiet.
+*** SRim pops.
+** in freq, ChL > ChR, and they're very different
+   ChR is big and grandiose.
+   ChL is like "that's all folks".
+** in freq, SpL < SpR, but they're pretty similar
+** I really like the ride bell.
+** the two kicks are equivalent
+   so just keep them far apart

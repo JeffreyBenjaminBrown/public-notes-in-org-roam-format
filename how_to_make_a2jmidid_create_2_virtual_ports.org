@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       984c7ad4-2d1a-4d91-88d0-7e01ab56489f
+:END:
+#+title: how to make a2jmidid create 2 virtual ports
+* WORKS: a procedural solution
+  sudo modprobe -r snd-seq-dummy && \
+    sleep 1                      && \
+    sudo modprobe  snd-seq-dummy ports=2
+* FAILS: a declarative (NixOS) solution
+  # ChatGPT said this would let me skip running
+  #   sudo modprobe -r snd-seq-dummy
+  #   sudo modprobe snd-seq-dummy ports=2
+  # to make 2 virtual ports available through a2jmidid,
+  # rather than one. It doesn't work.
+  boot.kernelModules = [ "snd-seq-dummy" ];
+  boot.extraModprobeConfig = ''
+    options snd_seq_midi max_midi_devs=2
+  '';

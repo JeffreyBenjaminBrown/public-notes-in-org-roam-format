@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       66cdac41-b6a3-4323-8e9b-25c82248aec5
+:END:
+#+title: ask if Modo Drums will authenticate
+* ref : my forum post
+  https://forum.ikmultimedia.com/viewtopic.php?f=39&t=35639
+* the first message I sent
+** subject
+ How does authentication work outside of the product manager?
+** body
+ Hi,
+
+ I cannot use the product manager, but I am able to download Modo Drums directly from "My Products", under "Past Releases". I got the free version this way, and I love it, so now I want to buy it. But I don't see any place to enter an authentication code. How does authentication work? If I buy it and re-download it the same way, will the version I download that way be unlocked? Or can it only be unlocked through the Product Manager?
+
+ (My current version blasts white noise periodically and has most of the kits unlocked; I believe the white noise is to encourage me to get the full version. It's certainly having that effect, anyway.)
+
+ Thank you,
+ Jeff
+* The Product Manager is the only way.
+  According to the first reply,
+  which didn't sound like someone who works there.

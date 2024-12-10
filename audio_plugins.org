@@ -1,8 +1,15 @@
 :PROPERTIES:
 :ID:       31e37165-32fa-4735-add7-433911de7329
+:ROAM_ALIASES: "plugins, audio"
 :END:
 #+title: audio plugins
+* TODO [[id:54b4541e-2e41-4515-b97c-a9d00c16b0bd][audio plugin scanning problem : manually installed ones found, but Nix-built ones not found]]
+* [[id:6eac4dc3-8186-412b-ad20-1f8f8166dbb4][grouping NixOS derivations into a single meta-derivation]]
 * some formats
 ** [[id:3b1c4800-713a-41a5-9a65-55d83b51d03d][VST]]
 ** [[id:4d78f358-0dec-4a05-a271-96e51b05f780][LV2]]
 * [[id:a6ccbff6-5998-405f-b19f-44d29c36af2d][PD can be used as a plugin]]
+* some instances
+** [[id:c26a1bef-4c24-4b9d-9c11-603c8064f142][Drumgizmo]]
+** [[id:444e2bc9-79df-44c8-bafb-b4590fc1f8d0][Modo Drums]]
+** [[id:50c474b4-6dad-4c00-83a8-52a4830e72f2][Pianoteq]]

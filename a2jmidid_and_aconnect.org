@@ -14,3 +14,11 @@
 *** At least this time <2022-09-28 Wed>, it was [[id:db6ef5ff-4276-4bbd-b008-4c1db7255e27][a bad USB cable]].
 ** the solution
    Use a better USB cable, throw out the bad one.
+* PITFALL: The Qjackctl graph does not show the implicit connection from the "MIDI Through" to the "a2j".
+  The external MIDI devices connect to the MIDI Through,
+  and the a2j connects to the DAW.
+* [[id:984c7ad4-2d1a-4d91-88d0-7e01ab56489f][how to make a2jmidid create 2 virtual ports]]
+  # in brief
+  sudo modprobe -r snd-seq-dummy && \
+    sleep 1                      && \
+    sudo modprobe  snd-seq-dummy ports=2

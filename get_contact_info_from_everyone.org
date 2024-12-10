@@ -2,4 +2,8 @@
 :ID:       7e6112c1-bf30-42b8-9402-a5213144db66
 :END:
 #+title: Get contact info from everyone!
+* why from everyone
 If in a group we start exchanging contact info, get it from everyone, unless they indicate otherwise. The cost is low and the expected gain is huge (even when a nonzero payoff is unlikely). Some people may feel slighted if they aren't included, even if I didn't initiate the exchange.
+* why in both directions
+  If only I have theirs, burden of first recontact is mine.
+  If only they have mine, it looks like I might not actually care.
