@@ -2,8 +2,65 @@
 :ID:       f3700976-96b6-4917-9aa5-83903c0c2de5
 :END:
 #+title: QJackCtl having no effect on `jack_bufsize`.
-* posted to NixOS Discourse
-  https://discourse.nixos.org/t/jack-buffer-size-unaffected-by-changes-made-in-qjackctl/57170
-* `jack_bufsize` can be run from the shell, and always gives 1024.
-  regardless of how I change it in QJackCtl.
-* Yet QJackCtl does control other things -- namely the signal graph.
+**** SOLVED: See the [[id:fdbfeed9-027f-4b12-8e82-83c8ca07f3fa][NixOS Discourse]] and/or [[id:9c927378-3c03-4f54-b28a-0300559d8b57][Reddit]] links.
+Each has information not in the other,
+but the Discourse chat has more.
+**** TODO Record information from those chats here.
+* refs
+** posted to NixOS Discourse
+   :PROPERTIES:
+   :ID:       fdbfeed9-027f-4b12-8e82-83c8ca07f3fa
+   :END:
+   https://discourse.nixos.org/t/jack-buffer-size-unaffected-by-changes-made-in-qjackctl/57170
+** posted to Reddit
+   :PROPERTIES:
+   :ID:       9c927378-3c03-4f54-b28a-0300559d8b57
+   :END:
+   https://www.reddit.com/r/NixOS/comments/1hbhyw2/audio_how_to_change_jack_buffer_size_qjackctl/
+** PipeWire offers an `extraconfig.jack` option
+   https://search.nixos.org/options?channel=24.11&show=services.pipewire.extraConfig.jack
+*** declared here
+    https://github.com/NixOS/nixpkgs/blob/nixos-unstable/nixos/modules/services/desktops/pipewire/pipewire.nix
+** NixOS wiki on PipeWire
+   https://wiki.nixos.org/wiki/PipeWire
+** NixOS wiki on JACK
+   https://nixos.wiki/wiki/JACK
+* observations & problem
+** Run from the shell, `jack_bufsize` always gives 1024.
+   regardless of how I change it in QJackCtl.
+** QJackCtl does control other things -- namely the signal graph.
+** Setting JACK buffer size under PipeWire makes Reaper and Chrome silent, but aplay still makes noise.
+*** I've tried the first (jack = ) or both (jack =  and pipewire =) of these passages.
+    extraConfig = {
+      jack = {
+        "10-clock-rate" = {
+          "jack.properties" = {
+            "node.latency" = "64/48000";
+            "node.rate" = "1/48000";
+            "node.lock-quantum" = true;
+          };
+        };
+      };
+
+      pipewire = {
+        "10-clock-rate" = {
+          "context.properties" = {
+            "default.clock.rate" = 48000;
+            "default.clock.allowed-rates" = [
+              44100
+              48000
+            ];
+
+            "default.clock.quantum" = 256;
+            "default.clock.min-quantum" = 16;
+            "default.clock.max-quantum" = 8192;
+          };
+        };
+*** In both cases
+    (at least if I then start up everything gently -- having killed a2jmidid and qjackctl, I restart the former, then the latter)
+    Reaper acts like it's playing -- the playhead moves, and the volume meter dances -- but no sound comes out of the speakers. Youtube still makes sound. And if I rebuild the config again without either of the offending passages, Reaper plays normally -- but with the lag I'm trying to get rid of.
+* hypotheses
+** I can configure JACK bufsize through Nix, via PipeWire.
+   specifically through the option
+     extraconfig.jack
+** I just need to manually configure QJackCtl.
