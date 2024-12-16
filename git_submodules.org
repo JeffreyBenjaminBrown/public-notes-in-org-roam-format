@@ -30,6 +30,14 @@
     # checks out the commits specified in the supermodule
 * submodule update vs. submodule add
   """One major difference between "submodule update" and "submodule add" is that "update" checks out a specific commit, rather than the tip of a branch."""
+* PITFALL: Before adding a submodule, make it not a subfolder.
+Suppose Bigger contains Smaller, both are git repos,
+and I want Smaller to be a submodule of Bigger.
+The easiest way is to move Smaller outside of Bigger (as a backup),
+run `git submodule add` (described elsewhere in this file),
+and re-download Smaller.
+
+There are ways to avoid re-downloading, but they suck.
 * PITFALL: don't use a forward slash after the submodule name
   when running "git add submodule"
 * PITFALL: Publish submodule changes before supermodule ones.
