@@ -2,19 +2,15 @@
 :ID:       e8059c91-1b6a-4676-8a60-9376002811f3
 :END:
 #+title: Crocel kit for drumgizmo
+* refs
+** I'm keeping kits (including the layouts I make for them) here
+   ~/excluded-from-borg/drums/
 * layouts
-** my first layout for it
-       CrL CrLS   CrR   CrRS CrRX
-     ChR  T1    T2   FT1   FT2
-   HC  HS    HO   HCNP  HP   HPH
-     R    SRest SRim SRimS S
-   ChL SpL   SpR  RB    KL   KR
-** 2nd
-|      |       | crl |    | spl |    | spr |      | srims |      | HCNP |
-|      | kl    |     | t2 |     | HS |     | ft2  |       | crls |      |
-| crrx |       | t1  |    | HC  |    | HO  |      | crr   |      | CHL  |
-|      | srest |     | RB |     | S  |     | SRIM |       | crrs |      |
-| HPH  |       | ft1 |    | R   |    | KR  |      | HP    |      | CHR  |
+I was keeping them here as text depictions,
+but that was dumb, because I need a single source of truth.
+So to see what one is like, just load it and try it out.
+It should have a comment on the intended orientation of the Zendrum,
+if it's one of the three unusual-looking ones.
 * notes on the drums
   intended for laying them out better
 ** the choked crashes are fixed-duration

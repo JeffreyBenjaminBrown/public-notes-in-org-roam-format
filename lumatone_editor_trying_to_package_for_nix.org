@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       0dd241ad-4b3c-4f9c-b9a3-8a50296b2622
+:END:
+#+title: Lumatone Editor, trying to package for Nix
+**** SOLVED : I used Docker and nix-shell
+     Even that way is not obvious.
+     https://www.github.com/JeffreyBenjaminBrown/Lumatone-Editor-for-NixOS
+* an old Git repo of the editor
+This lacks the ability to connect to the Lumatone.
+It is by Hans Straub.
+The newer version is by Vincenzo something.
+https://github.com/hsstraub/TerpstraSysEx.2014/blob/master/Scripts/install.sh
+* just building the binary
+Had to chmod +777 the downlaoded executable,
+and run nix-build on the default.nix package I made.
+* It uses Jucer (shell command `juceaide`) to build.
+* BLK_DATE Problem: The Jucer file is for Jucer version 6, and Jucer 7 can't read it.
+* DONE can't: trying without juce
+** how I was doing it
+Made a shell.nix file (at the top of the repo).
+Ran nix-shell (from there).
+Put the cmake file ChatGPT suggested.
+mkdir build && cd build
+make -j$(nproc)
+** why it failed
+Juce is required by the source code itself --
+it's included in the header for Main.h.
+* TODO maybe restore
+** in <JUCERPROJECT ...
+   headerPath="../../../JUCE/modules"
+* TODO maybe remove
+  useLocalCopy
+  useGlobalPath
+* asked Lumatone Facebook if anyone has built it with Jucer 7
+Hello dear Lumatone community,
+
+I'm trying to package the Lumatone Editor[1] for NixOS, a flavor of Linux for which the existing packaging scripts don't work. I need to build it from scratch. I am therefore trying to run the .jucer file, but it appears to have been made for Jucer version 6. Version 7, the only one available for NixOS, is unable to parse the .jucer file.
+
+Has anyone built it with Jucer version 7? I've had no luck. It looks like the changes from 6 to 7 imply needing not just to change Lumatone's source code, but to regenerate JuceHeader.h, which requires running CMake, and the repo includes no CMake configuration. I tried making one but I really don't get it.
+
+[1] https://github.com/hsstraub/TerpstraSysEx.2014/blob/master/Scripts/install.sh

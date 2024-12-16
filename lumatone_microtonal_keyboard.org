@@ -6,9 +6,9 @@
 * [[id:fd2e8ff9-ea08-4226-a25d-fe785292b93d][Paul Christian's webapp lights up enharmonic notes on a Lumatone.]]
 * [[id:bb22c6e3-cd16-4e22-85ef-cd83ee03c7fa][collect data to adjust velocity curve]]
 * my current Lumatone layout bank settings
-  1   : 24-edo
-  2   : 31-edo
-  3   : 34-edo, might be wrong layout
+  1   : 12-edo, 5 right 6 downright
+  2   : 12-edo, 4 right 5 downright
+  3   : 19-edo, 6 right 7 downright (4 black)
   4   : 36-edo
   5   : 41-edo
   6   : 43-edo
@@ -36,6 +36,7 @@
 * to use the Lumatone Editor on NixOS
 ** TODO [[id:d75016c1-5be8-49b8-a4a1-4a5136be39e7][Do I need a `shell.nix`?]]
 ** [[id:0950e66f-a5ae-4fd3-99e0-76d5cc4a1c2d][run a static binary on NixOS]]
+** [[id:0dd241ad-4b3c-4f9c-b9a3-8a50296b2622][Lumatone Editor, trying to package for Nix]]
 * some patches online at PatchStorage
   https://patchstorage.com/requests/lumatone/#comment-5421
 ** a Facebook thread about them

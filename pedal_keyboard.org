@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9235c590-2978-4e82-9af4-024c7b296ce2
+:ROAM_ALIASES: "keys for feet" "foot keyboard" "feet, keyboard for" "organ pedals"
+:END:
+#+title: pedal keyboard
+* Studiologic MP-117 MIDI
+  Apparently still being produced, unlike some others.
+  Velocity sensitive, 17 keys, looks heavy duty.
+  $849 before shipping, $260 shipping to Colombia.
+  SweetWater estimates 0 tax (implausible).

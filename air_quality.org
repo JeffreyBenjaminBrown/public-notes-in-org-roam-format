@@ -3,5 +3,5 @@
 :END:
 #+title: air quality
 * a [[id:47883263-5c97-4a23-b19e-d6f592c8ddb2][map of air quality in Bogotá]]
-* gas stoves: [[id:813e02f8-b151-4b7a-94ce-4adb03adff82][The Atlantic says they are unhealthy.]]
+* gas stoves : [[id:813e02f8-b151-4b7a-94ce-4adb03adff82][The Atlantic says they are unhealthy.]]
 * [[id:5704b01c-3eaf-4adc-98a8-0c2c6804da08][air filter]]

@@ -40,6 +40,7 @@
 * /home/jeff/code/music/jam-quiz
 ** includes 24-edo language quiz
 * [[id:b8ec037a-fe0a-4567-adff-4e1c01b3aef6][percussion]] | drums
+* [[id:9235c590-2978-4e82-9af4-024c7b296ce2][pedal keyboard]]
 * [[id:301dba4e-1eac-4a37-ba88-0398f940aba5][musical impoverishment]]
 * [[id:1c6c1f7e-e33c-4342-870d-9029d389f17f][monome]]
 * aborted
