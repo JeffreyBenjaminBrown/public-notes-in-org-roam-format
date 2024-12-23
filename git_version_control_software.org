@@ -43,10 +43,17 @@
       git merge remotes/upstream/main
     or something like that
 * to *rename* a branch locally and remotely
-** git branch -m new-name
-** git branch -D old-name
-** git push origin --delete old-name
-   where "origin" is the remote repo's local nickname
+  old_name=main # or something
+  new_name=kde  # or something
+  git push origin $new_name
+  DO MANUAL STUFF HERE
+    # Go to Github online, find the repo, go to Settings > Branches,
+    # and change the default branch.
+    # This is only possible when Github knows multiple branches,
+    # hence the earlier `push` command.
+  git branch -m $old_name $new_name
+  git push origin --delete $old_name
+    # where "origin" is the remote repo's local nickname
 * to *delete* a branch locally and remotely
 ** how
    # PITFALL: The `prune` step is necessary.

@@ -4,6 +4,7 @@
 :END:
 #+title: artificial intelligence
 * [[id:a6989768-c749-40a9-a531-46116a9438ec][AI curricula]]
+* [[id:4fb2560f-c884-440f-8e00-d4a962e4aa63][AI, UBI, democracy : some of my thoughts on, <2024-12-23 Mon>]]
 * [[id:ad722b2a-0910-410c-adec-b3c2aab23cec][AI junk personalities: a concern]]
 * [[id:23122de2-d48a-487d-82f4-984b5e5cfab6]["Proposal: ... [AI] should be impossible to confuse with a real person."]]
 * [[id:877127b6-092e-4f78-8f53-6bab35be593e][compression, superposition and interpretability in AI]]

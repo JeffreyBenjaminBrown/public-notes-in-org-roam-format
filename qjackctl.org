@@ -15,33 +15,6 @@
       hw:USB    Scarlett 2x4 ...
 *** If the end-use application (e.g. Reaper) doesn't do so automatically, use QJackCtl's Graph interface to connect it.
 ** PITFALL: In the QJackCtl graph, its audio inpuut and outputs will be called merely "system".
-** With extraconfig specifying pipewire buffer = 32 but no jack stuff, Reaper plays back fine.
-       pipewire = {
-         "10-clock-rate" = {
-           "context.properties" = {
-             "default.clock.rate" = 48000;
-             "default.clock.allowed-rates" = [
-               # 44100
-               48000
-             ];
-
-             "default.clock.quantum" = 32;
-             "default.clock.min-quantum" = 16;
-             "default.clock.max-quantum" = 8192;
-           };
-         };
-** And it still works if I then, on top of the small pipewire buffer, explicitly specify a 1024 JACK buffer
-       jack = {
-         "10-clock-rate" = {
-           "jack.properties" = {
-             "node.latency" = "1024/48000";
-             "node.rate" = "1/48000";
-           };
-         };
-       };
-** Ooh, 512 works too!
-** Even 128 works! But not perfectly reliably.
-** 32 doesn't.
 * channeling MIDI input through QJackCtl
   serial
 ** run `a2jmidid`

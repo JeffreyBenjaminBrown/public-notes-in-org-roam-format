@@ -3,15 +3,24 @@
 :ROAM_ALIASES: "nixos-rebuild" "rebuild NixOS"
 :END:
 #+title: nixos-rebuild (command)
-* what I always use
+* to name the profile
+  sudo nixos-rebuild switch --profile-name SOME_NAME
+* managing profiles and generations
+  tag configurations configs
+** list them
+   ls /boot/loader/entries
+** changing their names, descriptions
+   sudo mg /boot/loader/entries/[entry].conf
+   maybe add a description
+** to delete them from /boot/loader/entries
+   easiest: run emacs with sudo and use dired
+* what I use weekly
 ** how to do it
    # Chaining with && reduces the time spent entering a password.
    sudo bash -c "nix-channel --update nixos \
      && nixos-rebuild switch"
 ** when I last did it
    <2024-11-10 Sun>
-* to name the profile
-  sudo nixos-rebuild switch --profile-name SOME_NAME
 * more options
 ** [[id:13b039ff-e492-44ba-8284-a6ed016d9357][system.autoUpgrade slows my system to a crawl]]
 ** [[id:e117abe5-bc24-46ae-8c6e-cb33a9127df5][if nixos-rebuild isn't building anything]]

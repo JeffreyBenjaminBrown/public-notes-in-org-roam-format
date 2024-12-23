@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       4fb2560f-c884-440f-8e00-d4a962e4aa63
+:END:
+#+title: AI, UBI, democracy: thoughts on, <2024-12-23 Mon>
+The latest publicly available model from OpenAI, o1-pro, is not just informed, but — if (among others) this medical researcher who was given access to it is to be believed — insightful at a Ph.D. level. In the tweet below he gives an example of the new model's output. I'm no biologist but it appears to be shockingly deep, and he says it is.
+
+https://x.com/DeryaTR_/status/1870570750945673343
+
+I googled the researcher. The lab he works at is real and famous, and the Twitter account is in fact his, because he links to it[1] from his bio at the lab. He could be getting paid off to say glowing things, but taking that reputational risk does not seem to be in OpenAI's interest.
+
+On Friday, OpenAI revealed a better model that's not yet public.
+
+Most of the tech twitterati I follow now expect artificial general intelligence by 2030. Which will mean artificial superintelligence (ASI) a few months after that, because it will work on itself, much faster than humans can -- not just because it thinks faster, but because it can be duplicated far more cheaply than we can produce human AI researchers.
+
+I'm giving ASI by 2030 at least 50/50 odds.
+
+Our democratic order has been underpinned by the masses being economically relevant. The masses might stop being so. (Rentier states like Russia or Iran are useful counterexamples.) We'll either see a UBI or an extremly unequal technocratic dystopia, or both. People lucky enough to own capital will be able to use AI to run it. Others will be like the Guatemalan women I remember on mountainsides in my youth, trying to scratch out a living selling the stuff they could make, which nobody really needed.
+
+I can hardly think about anything else.
+
+
+[1] He actually links to a dead Twitter account which redirects the viewer to the account in question. I'll say that counts.

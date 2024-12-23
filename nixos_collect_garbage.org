@@ -13,4 +13,30 @@
     # keep the last week
   sudo nix-collect-garbage -d
     # keep only latest config
+* how to delete profiles when some are named
+  # Delete the garbage profiles.
+  # PITFALL: This doesn't delete all profiles, which is good.
+  # Among maybe a few others,
+  # it leaves this important one untouched:
+  #   /nix/var/nix/profiles/system-profiles/system
+  sudo rm /nix/var/nix/profiles/system-profiles/*
+
+  # Rebuild my profiles (BEFORE collecting garbage!)
+  cd ~/nix/jbb/
+  ./bash/rebuild.sh
+
+  # Delete old generations
+  sudo nix-env -p /nix/var/nix/profiles/system \
+    --delete-generations +1
+
+  sudo nix-collect-garbage -d
+
+  # Rebuild boot menu
+  sudo nixos-rebuild boot
+
+  # Verify there's only one generation left
+  sudo nix-env -p /nix/var/nix/profiles/system --list-generations
+
+  # List boot configs
+  ls /boot/loader/entries
 * [[id:e265ce08-8128-4b53-9b8c-5416fed8e0bd][NixOS garbage collection problem: My system bloats.]]

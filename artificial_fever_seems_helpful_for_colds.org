@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       74a9512e-3f82-46db-b438-144853cc5606
+:END:
+#+title: Artificial fever seems helpful for colds.
+* definition
+  "Artificial fever" is too extreme a term, but something more precise would be harder to remember. I merely kept myself just under the threshold for sweating for a couple days.
+* theoretical argument
+  Various sources online say that viruses have a hard time reproducing at the high end of human body temperatures.
+* my experience
+  I seemed to recover faster than I normally do.
+  In particular I skipped the usually later (last?)
+  congested-lungs phase.

@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       2fe2dc4c-e28f-4486-8c56-a3474770624c
+:END:
+#+title: Dynamic Infant Industry Protection in a Small Open Economy: A Melitz-Style Model with Learning-by-Doing - paper by Gustav P. Trommer, 2024
+After "understanding it", below, there is "judging it".
+**** bastard
+     After I blew at least an hour on it, LCR revealed that he had whipped this off with ChatGPT o1 in 20 minutes.
+* understanding it
+** variables
+*** i = the variety (of product?), in [0,1]
+*** i = a firm, too
+**** TODO huh? Is there a 1-1 correspondence between firms and varieties, with no two firms making the same variety?
+*** tau_t = the tarrif at time t
+*** T = a time after with the tariff = 0
+    but it can be 0 before that, too
+*** sigma = elasticity of substitution > 1
+*** Omega_t = available varieties at time t
+*** omega = an index over varieties
+*** q_t (w) = consumption of w at time t
+*** q_(i,t) = firm i's output at time t
+*** Q_t = utility
+*** P_t = "ideal price index"
+*** f_D = fixed cost to produce for the domestic market
+*** f_E = entry cost to "draw a productivity"
+*** theta = productivity, drawn randomly per firm
+*** G(theta) = the distribution of theta
+*** c (theta) = marginal cost = w/theta
+*** w = wage
+    "later normalized to 1"
+*** p* = exogenous world price
+*** (1 + tau_t) p* = imported price
+*** alpha > 0
+*** beta > 0
+*** theta_(i,t+1) = theta_(i,t) + alpha(q_(i,t))^beta
+** idea
+*** draw productivity, then choose whether to produce
+    some of the firms pay f_E each period,
+    then decide whether to produce
+* judging it
+** Weird that they assume a single sector.
+** Weird that it's critical the elasticity of substitution be > 1.
+   If it's not, the exponent in equation (1) is negative, which implies consumers are happier with less stuff.
+   Also weird if one considers this in the context of an industry like steel, for which the demand seems surely inelastic -- steel is important because it doesn't have good substitutes.
+** conclusion
+   It would take me a long time to check their solutions but they are what I would expect -- a solution should exist, and under their assumption the firms will learn more by having more opportunity to produce.
+   The structure of learning seems plausible. Initially I was skeptical of the idea that a firm would learn as much selling at a high price as they would selling from a low price, but in both conditions their incentive is to reduce costs as much as possible.
+   The relationship of firms and countries to products, though, is strange to me. The utility function treats all varieties as equal. If I am to understand that these are not varieties of a single product, but rather all the products in the world, then consumers can substitute for steel with apples, which is bizarre.
+   But my biggest gripe is that the tariff is protecting every good at once -- it doesn't depend on i. That makes no sense to me. It's not like a universal tariff makes more business opportunities. It makes inputs more expensive; if anything, the country is able to do less when it has a universal tariff. But supposing (as they do) it doesn't cause any businesses to fold. Those businesses were going to be doing something either way, so I don't see how the tariff helps them learn.

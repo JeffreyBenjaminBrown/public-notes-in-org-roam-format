@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       67a19539-15f7-45b7-a324-5d1f5f28b5d6
+:END:
+#+title: Xfce
+* TODO in Xfce
+  :PROPERTIES:
+  :ID:       21ad11dd-5933-49c3-810f-f75b0f87cd34
+  :END:
+** Why does it keep forgetting [[id:e17f6449-0f0d-437f-968f-620016d96752][the Claro password]]?
+*** see also [[id:536dfe54-2086-43e3-b87f-3f7cfd4283fd][nmcli]]
+** Tmux modifiers blocked by preassigned Alt shortcuts in terminal.
+* for wifi
+  so far using [[id:536dfe54-2086-43e3-b87f-3f7cfd4283fd][ncli]]
+* to use native screen zoom
+  Alt-scroll
+* to invert colors
+  So far I only have a global solution,
+  these two scripts:
+    colors-invert.sh   # runs `xcalib -invert -alter`
+    colors-normal.sh   # runs `xcalib -clear`

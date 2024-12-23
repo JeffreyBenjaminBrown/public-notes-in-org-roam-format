@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       536dfe54-2086-43e3-b87f-3f7cfd4283fd
+:END:
+#+title: nmcli
+nmcli device wifi list
+nmcli device wifi rescan
+nmcli device wifi      \
+      connect "<SSID>" \
+      password "<password>"
