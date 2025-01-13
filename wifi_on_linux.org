@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       6a67b40f-8acb-4b98-a4ac-8515d8f91a09
+:ROAM_ALIASES: "network connections in Linux" "connecting to networks on Linux"
+:END:
+#+title: wifi on Linux
+* if connecting does automatically not bring me to a "captive portal" to accept terms of use
+  try visiting an http (not https) site, e.g.
+    http://sfvlug.org

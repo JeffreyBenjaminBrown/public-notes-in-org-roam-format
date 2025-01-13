@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "some recipes"
 :END:
 #+title: recipes, some
+* [[id:cbde87ec-7af0-43a7-bb56-db7391519077][giardiniera, recipe(s) via Christine]]
 * [[id:0d037a5d-e027-4b6d-8054-c39aad9bb196][soup]]
 * [[id:7f410662-ff04-4aac-a679-f1377920d71a][steamed brussel sprouts]] are icredibly easy
 * [[id:6627ffbd-4691-4afa-bd39-1a97606fbf80][pickled radish]]

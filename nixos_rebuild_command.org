@@ -18,9 +18,10 @@
 ** how to do it
    # Chaining with && reduces the time spent entering a password.
    sudo bash -c "nix-channel --update nixos \
-     && nixos-rebuild switch"
+     && cd ~/nix/jbb/
+     && ./bash/rebuild-branches.sh"
 ** when I last did it
-   <2024-11-10 Sun>
+   <2025-01-09 Thu>
 * more options
 ** [[id:13b039ff-e492-44ba-8284-a6ed016d9357][system.autoUpgrade slows my system to a crawl]]
 ** [[id:e117abe5-bc24-46ae-8c6e-cb33a9127df5][if nixos-rebuild isn't building anything]]

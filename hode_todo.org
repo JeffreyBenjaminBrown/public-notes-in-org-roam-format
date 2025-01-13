@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "TODO & Hode"
 :END:
 #+title: Hode & TODO
+* Challenge VC people to host a contest to make the thing I want
 * It will require some good human data to train an AI to create semantic hypergraph edges from natural language data.
 * [[id:0c54873a-18a1-405a-a2c6-9228aec0a40b][Josh and Sid on Shyg]]: cite theirs, others' work
 * also to file

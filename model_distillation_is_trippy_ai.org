@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       a58dd943-d555-4984-8eeb-229568bf4c38
+:END:
+#+title: Model distillation is trippy. \ AI
+* Jack Morris on Twitter
+** his summary
+method 1
+- train small model M1 on dataset D
+
+method 2 (distillation)
+- train large model L on D
+- train small model M2 to mimic output of L
+- M2 will outperform M1
+** source
+   https://x.com/jxmnop/status/1877761437931581798
+   jack morris (@jxmnop) on X
+* the paper he cites
+  https://arxiv.org/abs/1503.02531
+  Distilling the Knowledge in a Neural Network (2015)

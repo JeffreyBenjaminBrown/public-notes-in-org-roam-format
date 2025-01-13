@@ -2,6 +2,8 @@
 :ID:       1afd9486-967e-41b3-8ece-80f1a4552df6
 :END:
 #+title: people I know
+* [[id:4417e1cc-c15d-44fa-94f2-503945dcffc8][MinCIT lunch people]]
+* [[id:aabbe89f-f6a3-4fb8-a723-eec4cbeaa362][ping pong etc. , people I organize]] with
 * [[id:857fa6c3-1cd5-4bc0-bac2-62e95f6e5b16][people I (would) like having lunch with at PUJ]]
 * [[id:496901b2-113d-45aa-8fcf-b355dccfdb8d][people I know in Austin]]
 * [[id:a4f383e5-0f10-442e-b8f6-7d700ce0b83a][people I know in Colombia's government]]

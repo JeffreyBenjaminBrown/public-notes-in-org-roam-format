@@ -2,5 +2,7 @@
 :ID:       31092f77-9546-481c-b77a-725197b6e3ec
 :END:
 #+title: Bancolombia statements call Tigo "UNE" or "UNE - EPM Telecomuni" or "WOMPI SAS"
+* lately <2025-01-10 Fri> it's WOMPI
+* older
 Sometimes that's UNE EPM Telecomunicaciones,
 but the serviciospse and bancolombia emails just show UNE.

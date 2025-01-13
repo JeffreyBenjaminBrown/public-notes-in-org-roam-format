@@ -23,7 +23,7 @@
 
   # Rebuild my profiles (BEFORE collecting garbage!)
   cd ~/nix/jbb/
-  ./bash/rebuild.sh
+  ./bash/rebuild-branches.sh
 
   # Delete old generations
   sudo nix-env -p /nix/var/nix/profiles/system \

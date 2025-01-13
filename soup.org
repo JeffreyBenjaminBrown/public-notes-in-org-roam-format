@@ -2,6 +2,29 @@
 :ID:       0d037a5d-e027-4b6d-8054-c39aad9bb196
 :END:
 #+title: soup
+* writeup
+** soak the beans
+I like to do a hot soak with baking soda, then another hot soak to clear out the baking soda (so it doesn't interact with the baking soda to create sodium acetate, a salt), then a third hot soak with vinegar. Do whatever part of this you want. In detail:
+
+Each hot soak involves boiling the beans for 4 minutes, then letting them sit around a few hours. If adding baking soda, use an absurdly small amount, maybe a quarter of a teaspoon. If adding vinegar, add maybe a cup. Any vinegar will do; I like apple cider.
+
+If you've only got time for one of those, do the baking soda hot soak. But then change the water twice, to get rid of the baking soda before cooking. (That is, throw out the water with baking soda, then fill with water and swish around to get residual baking soda, then throw that out also, and now you can add the water you'll cook it in.)
+** cook
+The measurements are not very important -- if you end up with more carrot or whatever, enjoy it!
+
+2 or 3 cups beans
+Probably 1 carrot, maybe 2
+An onion
+A tomato or two
+Some celery -- I use 2 big, um, "branches"?
+A potato or two
+Half a teaspoon of salt?
+
+Cut them into pieces as big as you're comfortable eating. This saves you preparation time.
+
+Boil until it seems good. Maybe half an hour, maybe two hours. In my case it's more like two hours, but water boils colder in Bogotá.
+
+Once you think it's done, but while it's still hot, add more salt if you think it's needed. The heat will help distribute the salt evenly.
 * TODO soak strategy
   1 hot
   2 rinses
@@ -12,6 +35,10 @@
 * TODO SHELL THE BEANS during soaking.
   Today I've had two bowls and no gas.
   After each soak, mush them around with my hands to get more shells off, and then pour off the water until just before beans start coming out (the shells float).
+* TODO determine appropriate salt
+** <2025-01-08 Wed> 1/2 a tablespoon of chunky sea salt
+   I don't think it was enough.
+   (But that's with rice at least mostly unsalted, maybe entirely.)
 * 2 big cups of beans seems about right
 * ingredients
 ** 2 ajis, picados en pedazos muy pequeños
