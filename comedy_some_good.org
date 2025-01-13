@@ -29,10 +29,12 @@
 * Ian Edwards
 * James Acaster
 * Jason Cheny
+* Jeffrey Scheen
 * Jim Jeffries - Australian with the bit about guns in the US.
 * Josh Johnson
 * Leslie Liao
 * Louis Katz
+* Maddie Wiener
 * Marcelo Hernandez
 * Michael Longfellow
 * Mike Baldwin

@@ -3,6 +3,8 @@
 :END:
 #+title: do at every doctor's appointment
 ask (them to)
+* have notes to work through
+  because I won't have their attention for long
 * [[id:fc82ceb7-1d84-4e4c-8eca-8a0fc8847db6][In what order should I do what doctors prescribe?]]
 * legibility
 ** Send me the orders electronically, not just as paper.
