@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       20e80f60-2119-488c-bc6b-b54957101153
+:ROAM_ALIASES: "Notion"
+:END:
+#+title: Notion (productivity software)
+* calls (called?) itself "a second brain"
+* notes, tasks, scheduling, boards, calendars, wikis
+* lately talks a lot about its AI integrations (<2025-01-14 Tue>)

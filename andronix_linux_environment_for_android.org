@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       05d01ae3-fcc9-474f-80f2-bc0fa47896d3
+:ROAM_ALIASES: Andronix
+:END:
+#+title: Andronix (Linux environment for Android)
+* see also
+** [[id:8a0fbcd5-247f-4619-8b5f-1e6b30de5e1b][org-roam on phone via Termux]]
+* The graphical environment does not seem to work.
+  I've been starting it with vncserver-start
+  VNC serves a graphical environment
+  that can be read from a remote desktop app.
+  Running the command seems to bring me into Ubuntu,
+  nested within Termux.
+  I've then been using Emacs from inside that Ubuntu,
+  rather than using the GUI.
+  It runs for a little while, then crashes.
+  But I don't need it anyway.
+* to start it
+  From Termux, run ./start-andronix.sh.
+  "Start Ubuntu XFCE Modded OS by running ./start-andronix.sh."

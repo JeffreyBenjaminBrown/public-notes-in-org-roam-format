@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "machine learning" ML AI
 :END:
 #+title: artificial intelligence
+* [[id:1dc02dc9-ec85-4f58-8348-0973579824ee][I used AI to help decide not to send a message.]]
 * [[id:a58dd943-d555-4984-8eeb-229568bf4c38][Model distillation is trippy. \ AI]]
 * [[id:4437ea38-3502-48cb-bb91-2560ab15aebc][I talked to o1 about consciousness in AI.]]
 * [[id:a6989768-c749-40a9-a531-46116a9438ec][AI curricula]]

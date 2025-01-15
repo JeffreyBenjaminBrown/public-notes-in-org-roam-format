@@ -1,17 +1,20 @@
 :PROPERTIES:
 :ID:       8a0fbcd5-247f-4619-8b5f-1e6b30de5e1b
-:ROAM_ALIASES: "Termux and (in it) org-roam on phone"
+:ROAM_ALIASES: "Termux" "Termux and (in it) org-roam on phone"
 :END:
 #+title: org-roam on phone via Termux
+* see also
+  [[id:05d01ae3-fcc9-474f-80f2-bc0fa47896d3][Andronix (Linux environment for Android)]]
 * TODO [[id:0d895250-548c-410a-b1f2-3317e89e9aa5][redefine what clicking does in org-mode]]
 * my Emacs config for Termux
 ** [[id:ef70d582-7780-40fc-b205-8df6d11193e7][the config file]] itself
-** a script to "install it"
+** use `sed -e "1,4d"` to "install" it
 *** what I mean by "install it"
     i.e. to copy the code from it,
     excluding its PROPERTIES folder and title, to my user folder.
 *** the script (one line)
-    sed -e "1,4d" ~/org-roam/tech/emacs_on_termux_a_config_el_file_for.org > ~/.emacs
+    # the sed "script" `1,4d` deletes lines 1 through 4
+    sed -e "1,4d" ~/org-roam/tech/emacs/emacs_on_termux_a_config_el_file_for.org > ~/.emacs
 * how I installed Termux and things in it
 ** [[id:32e5ffe8-dbc7-4a54-8c0d-e4ad3ddf4722][How I installed Termux on my phone.]]
 ** Install some things in top-level Termux.
