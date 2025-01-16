@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       63b967c0-56a4-488e-a409-df41dab563f2
+:ROAM_ALIASES: "CONPES"
+:END:
+#+title: Consejo Nacional de Política Económica y Social
+* = "the highest advisory body for government planning and economic policy"
+  quoting ChatGPT
+* "Un CONPES" is also used to refer to documents issued by it.
+* who does it
+  The National Planning Department (DNP) drafts the CONPES documents in collaboration with other government entities.
+  These are reviewed and approved by the Council of Ministers and the President of the Republic, ensuring alignment with national priorities.

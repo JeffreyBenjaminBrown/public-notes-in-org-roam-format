@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f34291ad-83e6-468a-9df6-34e7beca6a3c
+:END:
+#+title: Plan Anual de Adquisición \ Colombian government
+* a.k.a. PAA
+* what it is
+  It's a budget document, published yearly by each agency --
+  but it doesn't describe their entire budget.
+  It excludes operations (utility bills etc.),
+  salaries and benefits, among other things.

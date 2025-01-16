@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       301e296b-4189-4039-8a62-539d6651d6a9
+:END:
+#+title: music communication
+* TODO collect notes from similar
+* Would forward and backward be good vocabu?

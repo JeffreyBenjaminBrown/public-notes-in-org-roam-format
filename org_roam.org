@@ -68,6 +68,9 @@
   :END:
   can nonetheless be important, thanks to backlinks
 * installing : [[id:e2a9e2ea-6505-43ff-a3ce-2124518013b2][org-roam in NixOS]]
+* to visit a node given its ID (and no link, name or alias)
+  M-x org-id-goto
+  then paste the ID
 * TODO tweak
 ** TODO [[id:0663ea6c-5764-408c-a627-899d5e3108df][use Nix to install org-roam]]
 ** TODO update Docker image for org-roam v. 1.2
