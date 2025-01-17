@@ -5,6 +5,18 @@
 #+title: Andronix (Linux environment for Android)
 * see also
 ** [[id:8a0fbcd5-247f-4619-8b5f-1e6b30de5e1b][org-roam on phone via Termux]]
+* TODO delete my phone-based Discord account
+  so I can associate the phone with my gmail account,
+  which I need to do to use the Andronix discord server
+* TODO ask about Termux storage permissions
+Hello,
+
+I'm trying now to install the modded Ubuntu XFCE from Andronix. When I copy that long `curl` command into Termux, the command tells me to give Termux storage permission. But when I find the App Permissions widget for Termux, I see that Notifications are allowed and Microphone is not, and no other permissions are made available. I can choose to give it Microphone permission from there. But Storage is not one of the options.
+
+I'm using a Samsung A15 running Android 14. I installed Termux via the Google Play Store, because when I tried to install from F-Droid it said my version of Android (version 14) was too new. Then I installed Andronix (also from the Play Store, for no good reason).
+
+Thank you,
+Jeff
 * getting data into it
 ** If it's not set up, run termux-setup-storage
    from within Termux:
