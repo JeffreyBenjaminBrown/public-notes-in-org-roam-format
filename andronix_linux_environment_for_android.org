@@ -5,6 +5,13 @@
 #+title: Andronix (Linux environment for Android)
 * see also
 ** [[id:8a0fbcd5-247f-4619-8b5f-1e6b30de5e1b][org-roam on phone via Termux]]
+* getting data into it
+** If it's not set up, run termux-setup-storage
+   from within Termux:
+   https://docs.andronix.app/troubleshoot/internal-storage
+** That should create a folder called ~/storage/
+   which provides access to (I guess) the phone's root storage --
+   Documents, Downloads etc. are subfolders.
 * The graphical environment does not seem to work.
   I've been starting it with vncserver-start
   VNC serves a graphical environment
