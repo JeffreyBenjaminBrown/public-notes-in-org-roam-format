@@ -1,5 +1,5 @@
 :PROPERTIES:
 :ID:       ad722b2a-0910-410c-adec-b3c2aab23cec
 :END:
-#+title: AI junk personalities: a concern
+#+title: AI junk (as in food) personalities: a concern
 "My model is something like junk food. Food scientists can now make food hyper-palatable. Optimization for that often incidentally drives out other properties like healthiness. Similarly, we’ll see the rise of junk personalities -- fawning and two-dimensional, without presenting the same challenges as flawed real people."

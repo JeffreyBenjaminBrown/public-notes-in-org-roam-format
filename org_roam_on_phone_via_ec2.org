@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       343a82a7-e007-4623-968b-8359234695a9
+:ROAM_ALIASES: "EC2 org-roam Termux phone" "Termux EC2 org-roam phone" "phone Termux EC2 org-roam"
+:END:
+#+title: org-roam on phone via EC2 and Termux
+* how I set up Termux
+** be sure it has storage access
+** copy my data onto my phone
+   and from Termux, copy it into native Termux disk space
+** pkg install openssh
+** [[id:5868db37-b75b-4491-9846-813659fbc5c3][create a connection script]]
+* how I set up the EC2 instance
+** I used a Debian t3.micro w/ 8 GB storage
+   It doesn't give 750 free hours like t2.micro,
+   but over a year it's at least 10 dollars cheaper,
+   and after that should be 20.
+** sudo apt install -y git zip unzip encfs snap sqlite3 gcc tree
+** snap install emacs --classic
+** add snap installations to PATH
+   # append this line to ~/.profile
+   PATH=$PATH:/snap/bin
+** [[id:2612af7a-5401-44aa-ad29-1089fffd48e1][copy my data there]]
+** in Emacs, install some packages
+   M-x package-list-packages
+   use-package
+   org-roam
+   emacsql
+* [[id:862398bf-7c9c-4062-a2f2-3c22b1498ee0][Put a .pem key in ~/.ssh that AWS knows about. (AWS can make one.)]]
+* [[id:5868db37-b75b-4491-9846-813659fbc5c3][the command to connect]]

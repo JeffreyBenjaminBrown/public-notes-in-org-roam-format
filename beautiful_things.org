@@ -2,9 +2,12 @@
 :ID:       de98c3eb-27ba-4a51-9875-9af3c6e2c2dd
 :END:
 #+title: beautiful things
-* [[id:d3e3d652-353a-4170-b3c8-4c77b2131372][startling murmurations]]
+* [[id:d3e3d652-353a-4170-b3c8-4c77b2131372][starling murmurations]]
 * [[id:7faf1c3e-510c-4073-99e0-a764db062772][The storm at the heart of the Milky Way galaxy.]]
 * [[id:464172c4-0de9-4556-b25c-16add32f2a3a][a sliding cross section of columns packed in 3d along 7 directions]]
 * [[id:f927cc31-1266-4352-978a-b0e00fb806a8][amazing music]]
 * [[id:182dd8be-1e10-4479-b252-e338af38729f][amazing videos]]
 * [[id:12364cd8-bc33-482b-84ca-0df360d428c3][a giant marble quarry]]
+* and probably
+** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][injustice vanishing]]
+** [[id:0c237b5f-6a18-4f3b-901d-6db58b41a32a][Many who are first shall be last ...]]

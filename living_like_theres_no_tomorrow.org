@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       c0d17892-182e-45f8-b86d-a5a5b3bba61e
+:ROAM_ALIASES: "fast night fantasy"
+:END:
+#+title: living like there's no tomorrow
+* caveat
+  These thoughts are kind of half-baked.
+  But there's a real thing here --
+  if not a game-theoretic optimum, at least a cultural gestalt,
+  evident in all kinds of music and movies.
+* defining it
+** damn the consequences
+** dance the night away
+* arguments for it
+  against its opposite, at least
+** [[id:51f4281a-6b3b-4c0a-a38f-7b32eda8a7b7][Thinking about heaven does not seem like heaven.]]
+** [[id:5a49b82d-9b09-4f5a-ae80-6c6595d46ae1][Practice and resume-building suck.]]
+* behavioral implications
+** Choose friends over work.
+** [[id:de26311c-9b4b-48f4-afa1-c7a680f73b30][Don't beat around the bush.]]
+** [[id:94560eb7-3ea1-4098-9107-e083459de5cc][lust as correct]]

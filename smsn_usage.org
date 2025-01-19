@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       070bb337-befd-493a-97e6-4c23c7727b60
+:END:
+#+title: smsn usage
+* [[id:ef82d33a-a1dd-40bc-bab4-2621fc4249c8][Semantic Synchrony and Git: the commit-push cycle]]
+* outside smsn
+** build the Dockerfile
+   :PROPERTIES:
+   :ID:       ba1a3e6f-0407-4004-8aa0-7333b0673b42
+   :END:
+*** build the .jar natively, copy it to docker-smsn
+ Run this from the root folder of the smsn/ code:
+   gradle :smsn-server:shadowJar
+ Somehwere, that will build a file that matches this regex:
+   smsn-server-*-all.jar
+ Copy that to be a sibling of the Dockerfile.
+** launch SmSn
+*** sequentially
+**** docker run
+     docker run -it --name smsn \
+       -v ~/Encfs/kb-no-encfs:/mnt/smsn-data \
+       -p 8183:8182 -d -h 127.0.0.1 \
+       jeffreybbrown/smsn-develop:gs_3.2.5
+
+     docker exec -it smsn bash
+     ./start-smsn.sh
+**** PITFALL: then enter the Docker container and run `start`
+*** TODO PITFALL: Docker won't mount an Encfs sink
+    :PROPERTIES:
+    :ID:       8ed67ee7-e7ec-453d-a40e-283105c7fe8f
+    :END:
+That is, a folder that Encfs is funneling data into.
+* inside smsn
+  Visit ~/smsn+/smsn-mode/lisp/commands-only.el
+  to find all commands.
+** set-source
+*** The move mode command is "s".
+*** How I fixed it
+(It wasn't working for a while.)
+It started working once I fixed smsn.yaml and updated smsn-mode.
+** visit note by id
+   C-c o
+   smsn-open-note-prompt
+** Write vCs: C-c C-w c

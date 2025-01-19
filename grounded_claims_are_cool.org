@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       ccc1c640-f36e-47de-b417-a12ea267f0a2
+:ROAM_ALIASES: "grounded claims"
+:END:
+#+title: "Grounded claims" are cool.
+* definition
+** notes sufficient for academic use
+** with references, evidence, maybe motivation, context
+* or barring that, at least
+  give enough detail so that a reader can probably follow your train of thought.
+* ref, where I saw the idea
+  https://notes.andymatuschak.org/z8D1DJ4663xTUx2P3ztA8hM5FsmtbYmgRfPnC

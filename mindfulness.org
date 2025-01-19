@@ -3,6 +3,10 @@
 :ROAM_ALIASES: awareness
 :END:
 #+title: mindfulness
+* and maybe
+** imagine [[id:20498902-7288-4d65-bc57-76f1d5d35138][mindfulness, awe, in romance]]
+* [[id:a8760812-f098-4e39-aa4c-9d69a2e1fcba][Mindfulness and being single seem hard to square.]]
+* [[id:6b47aadf-dab4-4984-8d79-b7269b79e1d2][Comedy and mindfulness seem hard to square.]]
 * mindfulness reminders
 ** perception
 ** mind
@@ -12,8 +16,7 @@
 * [[id:54a69ba6-725c-4398-b342-b9a18e197c72][Music in my head < music of the senses.]]
 * [[id:e2052311-6e8b-4070-9632-131a51831548][Commitment to memory is somewhat voluntary.]]
 * Be aware of the emotional valence that thoughts carry.
-* "Thoughts become like thieves entering an empty house. There's nothing for them to steal."
-** Sam Harris quoting a ?Buddhist text.
+* [[id:f93c56c3-4bbc-458c-a366-2ea0e150556b]["Thoughts become like thieves entering an empty house. There's nothing for them to steal."]]
 * TODO [[id:8c609b95-5f55-4d88-b0fa-b43227577ee7][I want a record of the (org-roam) files I read]]
 * [[id:c5b7909b-621a-4a43-8641-7b9df357ee36][Second-order awareness seems to be enough.]]
 * [[id:a4270e4e-8cbc-487a-a73b-5a076bd86ce0][Mindfulness is a good response to mental waste.]]
@@ -22,3 +25,4 @@
 * [[id:ae8760d6-8320-46ba-8ed3-81b02e5fbcff][Meditation can take courage.]]
 * [[id:8024d6d8-9304-423b-88c4-8ecc408d4cc6][Awareness of pain feels better than unawareness of it.]]
 * [[id:858021f5-8474-4490-b30e-371159e35db6][Every moment is amazing.]]
+* [[id:c774af85-7ad0-4762-b28c-5e02d4881c8b][After filing something, know the whole note it went into.]]

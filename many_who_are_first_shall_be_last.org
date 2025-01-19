@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0c237b5f-6a18-4f3b-901d-6db58b41a32a
+:END:
+#+title: Many who are first shall be last, and many who are last shall be first.
+* Jesus said this (Matthew 19:30).
+* [[id:e56730b1-eb61-48a1-8bce-85cd8c180a46][In a to-do list, should "maybe" come first or last?]]

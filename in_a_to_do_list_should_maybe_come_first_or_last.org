@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       e56730b1-eb61-48a1-8bce-85cd8c180a46
+:END:
+#+title: In a to-do list, should "maybe" come first or last?
+* see also [[id:ac81d8d8-4a61-4a38-ba3c-981a2148d484][in-tree promotion]]
+* bearing in mind the child and grandchild nodes' motivaional effects in a reader
+  That is, a list of familiar chores
+  might tempt the reader to skip the whole topic,
+  whereas highlighting a less tested (riskier) proposition
+  might motivate the reader to delve in.
+
+  On the other hand, if one is sure one will tackl the project,
+  it is likely better to start with obvious tasks.

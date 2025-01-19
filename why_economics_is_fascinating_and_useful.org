@@ -2,6 +2,7 @@
 :ID:       437537a9-277d-4c61-a13b-f18170c3ba56
 :END:
 #+title: why economics is fascinating and useful
+Economics is the study of choice. It is as fundamental as mathematics. It applies to every effort.
 * Introduction
 Economics is not about money. It is a method for finding the best solution to a problem (constrained optimization), and for determining what effects things have on the world (econometrics).
 

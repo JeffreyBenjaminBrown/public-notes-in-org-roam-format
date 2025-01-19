@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       5599d39f-83c8-4d1f-bf31-304b761e0f69
+:END:
+#+title: hope v. fun : competing hypotheses for motivation
+* Hope and fun blur together via time preference.
+** illustration
+   It's fun to rollerskate because you hope, and it'll probably be true, that pushing this way will make you go that.
+   Maybe conversely, iff you're sufficiently convinced of a far-off hope, pushing for it is fun.
+** Complication: It's especially fun to succeed when you didn't expect to.
+   Although getting there seems usually not fun.
+* [[id:4c1f8594-bafc-4e60-8672-a3be9133b0bb][hope v. fun : competing hypotheses for why I've been so productive lately, <2023-09-27 Wed>]]

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       1f204410-71e5-4fcc-9e8d-a67777d881e1
+:END:
+#+title: smsn todo
+* TODO rebuild docker image with iproute2
+Dockerfile is already modified (but not committed) for that.
+* TODO get metadata working too
+It should include list-of-repositoroies.txt.
+I should move files on each cycle so that it includes activity.log.
+* TODO clean SmSn for others
+** update docker-smsn repo
+** update docker image(s)
+** document how to [[id:ba1a3e6f-0407-4004-8aa0-7333b0673b42][build the Dockerfile]]
+* TODO change smsn
+** the RH column should be on the left instead
+because in a long list of short items it's hard to see how they line up with the RH

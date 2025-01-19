@@ -2,6 +2,7 @@
 :ID:       c17782b5-f070-418e-9e04-519f3c7f9a66
 :END:
 #+title: economics
+* [[id:d3acd62f-8bf7-472b-8adb-b16329f2b2b3][behavioral manipulations]]
 * TODO study | refresh
 ** Current Depth Regression
    a time-varying measure of the depth of a recession
@@ -18,9 +19,9 @@
 * [[id:a3a46b4d-29b5-48dc-876f-64fe91bb02ef][political economy]]
 * development economics
 ** [[id:262774ed-45f0-4846-9029-fb33fe19fc90][Dani Rodrik on why manufacturing is special]]
-* some market failures
+* market failure
 ** [[id:ae713b0d-f687-4d52-ad67-64c777e64d58][The market for printers seems broken.]]
-* some unintended policy consequences
+* unintended policy consequences
 ** [[id:30298122-ef45-4038-81f5-0b80dcb21548][Forced savings can lower someone's total income.]]
 * some papers
 ** [[id:ec8a113b-44d9-495f-acc9-e6e7c714d5bf][The Economic Organization of a POW Camp, by R. A. Radford]]

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       c774af85-7ad0-4762-b28c-5e02d4881c8b
+:END:
+#+title: After filing something, know the whole note it went into.
+* definition | clarification
+  i.e. if I haven't read it recently, read it.
+* why
+  Otherwise I might be building up pointless notes --
+  either wasting my time by writing things I won't read,
+  or wasting my time by not reading valuable things.

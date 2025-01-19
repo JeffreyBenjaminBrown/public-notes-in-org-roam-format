@@ -4,7 +4,7 @@
 #+title: The Economic Organization of a POW Camp, by R. A. Radford
 * ref
   https://fermatslibrary.com/s/the-economic-organization-of-a-pow-camp
-* It's in Germany in WWII.
+* Set in Germany in WWII.
 * noteworthy
 ** People relied on and hated middlemen, except when they fulfilled across-time (rather than spot) contracts that were obviously risky.
 ** Everyone had an idea what the just price was, but nobody could explain why.

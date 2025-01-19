@@ -1,7 +1,11 @@
 :PROPERTIES:
 :ID:       e756f326-8f05-44e3-85ee-ffdd54a6082f
 :END:
-#+title: life hack : mission => jobhunt
+#+title: life hack ? mission => jobhunt
+* the idea
 Unless I'm looking for jobs I care about,
 I won't engage in the jobhunt.
 So don't even try to look for other kinds.
+* hasn't worked so far for me
+  No matter how strongly I feel about any cause -- and I do --
+  nothing seems to motivate me to look for jobs when I've got one.

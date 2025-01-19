@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       d3acd62f-8bf7-472b-8adb-b16329f2b2b3
+:END:
+#+title: behavioral manipulations
+* [[id:be4b304a-f08c-46b0-8954-8618b68b3dc7][Trivial prompts are powerful.]]
