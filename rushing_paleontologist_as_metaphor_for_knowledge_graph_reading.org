@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       5498fb6a-fcf2-49e4-a6d0-aa30a615301d
+:END:
+#+title: rushing paleontologist as metaphor for knowledge graph reading
+* clarification
+  scanning a lot of area, being selective about what they delve into
+* source
+  [[id:59e80c44-dec3-4dd7-bdbd-49c92118fb0e][Your Inner Fish , book by Neil Shubin]]

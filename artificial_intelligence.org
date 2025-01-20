@@ -5,6 +5,7 @@
 #+title: artificial intelligence
 * [[id:9739cf28-dad5-4061-8367-7f77cc166700][UBI]]
 ** [[id:d8ea04df-1949-4e59-9717-45e524560232][People as rich as rockstars without anyone poor.]]
+* [[id:35aac482-e906-456a-89db-48a54cb4f020][robots in response to loneliness]]
 * [[id:1dc02dc9-ec85-4f58-8348-0973579824ee][I used AI to help decide not to send a message.]]
 * [[id:a58dd943-d555-4984-8eeb-229568bf4c38][Model distillation is trippy. \ AI]]
 * [[id:4437ea38-3502-48cb-bb91-2560ab15aebc][I talked to o1 about consciousness in AI.]]

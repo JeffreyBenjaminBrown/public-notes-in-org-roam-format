@@ -19,6 +19,7 @@
   :PROPERTIES:
   :ID:       7b2cd1a3-bac4-4057-90e3-a2698a2fdefb
   :END:
+** consider a [[id:5498fb6a-fcf2-49e4-a6d0-aa30a615301d][rushing paleontologist]]
 ** Know when to read it. Treat them like Google.
    When you have an itch to do anything, part of scratching it should be to look in your notes for anything you've already written on it before.
 ** Consult the upper onotology, too.

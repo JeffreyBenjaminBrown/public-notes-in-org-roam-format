@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       35aac482-e906-456a-89db-48a54cb4f020
+:END:
+#+title: robots as a response to loneliness
+* could be counterproductive in the long term
+  even if helpful in the short-term
+** Parasocial relationships with care robots [could] worsen loneliness in the long term if the robots take the place of interaction with humans, Kathryn Muyskens, from the NUS Centre for Biomedical Ethics in Singapore, told Rest of World.
+*** https://restofworld.org/2025/singapore-ai-eldercare-tools/

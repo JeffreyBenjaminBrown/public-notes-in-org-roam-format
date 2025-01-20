@@ -1,8 +1,12 @@
 :PROPERTIES:
 :ID:       d8ea04df-1949-4e59-9717-45e524560232
 :END:
-#+title: People as rich as rockstars without anyone poor.
+#+title: people (some) as rich as rockstars, without anyone being poor
 via a UBI
+* People whose wealth
 * Give everyone enough money to support 20 people.
 * People who get popular could still experience millioaire-ness.
 ** And getting rich that way would feel better than through ruthlessness.
+* Note that popularity is not, so far, as profitable as industry.
+  i.e. Taylor Swift is estimated to have 1.6 billion dollars
+  (per Forbes), while Elon Musk "has" 434 billion.

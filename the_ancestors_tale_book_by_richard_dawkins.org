@@ -2,6 +2,7 @@
 :ID:       9b515a91-3b63-4838-8799-701788944ecd
 :END:
 #+title: The Ancestors' Tale - book by Richard Dawkins
+* [[id:f5d0329f-49c6-42f5-80f5-863fc4f052e9][ring species]]
 * Population density means parasites need to care less about host survival.
   => more diseases in agricultural societies
 * Hunter gatherers appear to have caused a lot of extinction.

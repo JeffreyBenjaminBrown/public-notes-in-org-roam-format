@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       f5d0329f-49c6-42f5-80f5-863fc4f052e9
+:END:
+#+title: ring species
+* definition
+  A pair of distinct (that is, they cannot interbreed) species
+  in the same place,
+  such that there exists a continuous chain of animals,
+  pairwise able to reproduce,
+  leading (presumably far away before coming back)
+  from one species to the other.
