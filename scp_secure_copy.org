@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       8485ce2a-ed09-44e8-86b5-b4cde59c90c0
+:ROAM_ALIASES: scp
 :END:
-#+title: scp (secure copy)
+#+title: scp ( secure copy , shell command )
 * pull
   scp -i <keyfile> user@host:/remote-path /local/path
 * push

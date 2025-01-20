@@ -6,6 +6,7 @@
 ** [[id:b37024f7-716b-4748-9a33-d35e75f4ede1][epistemology]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
 ** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
+* [[id:af35bd7c-4d89-4af9-9706-a884792609ed][mind map merge , Josh]]
 * [[id:ac81d8d8-4a61-4a38-ba3c-981a2148d484][in-tree promotion]]
 * [[id:29903b27-2b73-4a1b-a8d8-257c219fe70e][an introductory sketch of Hode]]
 * Golden Retriever would be a funny name.

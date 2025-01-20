@@ -17,9 +17,9 @@
 * what I use weekly
 ** how to do it
    # Chaining with && reduces the time spent entering a password.
-   sudo bash -c "nix-channel --update nixos \
-     && cd ~/nix/jbb/
-     && ./bash/rebuild-branches.sh"
+   sudo nix-channel --update nixos
+   cd ~/nix/jbb/
+   sudo ./bash/rebuild-branches.sh
 ** when I last did it
    <2025-01-09 Thu>
 * more options

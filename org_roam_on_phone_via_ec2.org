@@ -19,7 +19,28 @@
 ** add snap installations to PATH
    # append this line to ~/.profile
    PATH=$PATH:/snap/bin
+** backup the .ssh/ folder
+   cp -r .ssh dot-ssh/
+*** PITFALL: Without this, I can't connect to the instance.
+    :PROPERTIES:
+    :ID:       895553c7-1ed4-469f-9e92-0531dcaafcc8
+    :END:
 ** [[id:2612af7a-5401-44aa-ad29-1089fffd48e1][copy my data there]]
+*** the idea
+    All of ~/.ssh (minus the .pem file to connect to EC2).
+    All of /home/jeff/ugh/une/org-roam
+      PITFALL: Copying individual pieces of it didn't work,
+      but copying it as a whole did.
+*** the bash command
+    zip -r to-ec2.zip              \
+      /home/jeff/ugh/une/org-roam/ \
+      /home/jeff/ugh/une/text-in-git/code-ish/ssh-dot/
+** move that data into place
+** copy the backed-up .ssh content back into .ssh
+*** cp ~/dot-ssh/* ~/.ssh
+    This overwrites some data I copied from my laptop,
+    which appears not to matter.
+*** [[id:895553c7-1ed4-469f-9e92-0531dcaafcc8][why]]
 ** in Emacs, install some packages
    M-x package-list-packages
    use-package

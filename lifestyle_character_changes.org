@@ -4,6 +4,7 @@
 :END:
 #+title: lifestyle | character changes under consideration
 * [[id:172dd7c3-7090-4ecc-841d-7342e96b4b9c][Reduce to one meat per day.]]
+* Computer work seems to need sobriety.
 * Replace the excess muscle with parties.
 * Go to the US.
 * More Hode, less spmething.
