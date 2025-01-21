@@ -2,7 +2,7 @@
 :ID:       514fe55a-d22c-4e6a-9b0f-3a01a89742db
 :ROAM_ALIASES: "pressure: anticipate and handle"
 :END:
-#+title: high-pressure situtations, and how to handle them
+#+title: high-pressure situations, and how to handle them
 * situations
 ** meeting new people
 *** esp. parties

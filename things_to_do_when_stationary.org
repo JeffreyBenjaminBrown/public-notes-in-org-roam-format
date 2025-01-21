@@ -4,3 +4,5 @@
 #+title: things to do when stationary
 * stretch
 * stand on one foot
+* call someone
+* meditate
