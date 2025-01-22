@@ -2,6 +2,7 @@
 :ID:       63143900-40d2-42c5-8b76-4f5cb7713333
 :END:
 #+title: hikes around Bogotá
+* [[id:067cac8b-92b3-4936-bfd6-cf68fb8a3821][hikes in the Bogota Cerros app: when they become available]]
 * The app is called Caminos Cerros Orientales.
 * For the city's (official?) ones, can give someone else's ID.
 * some hikes that PUJ does
