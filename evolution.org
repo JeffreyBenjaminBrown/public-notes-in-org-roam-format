@@ -2,6 +2,7 @@
 :ID:       3b1ec239-3bdf-4d05-a300-3494971e39e9
 :END:
 #+title: evolution
+* [[id:b5524772-97ee-4df6-b209-c4accb7dfe2f][Some sea mammals forgot how to smell.]]
 * [[id:69ac551e-2605-4d94-b010-b0f1532bd459][reproduction, cooperation & communication problems in evolution]]
 * [[id:3ab2a555-3a03-472d-ab60-c8115642d1c0][Cats are less diverse than dogs, because they are "perfect".]]
 * [[id:09b82f96-2866-4f7a-81e1-c692f8ce77cb][Standing => narrow hips => humans give birth early => prolonged infancy.]]

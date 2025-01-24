@@ -6,6 +6,10 @@
 ** [[id:b37024f7-716b-4748-9a33-d35e75f4ede1][epistemology]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
 ** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
+* expressivity voids , observed
+** [[id:895c50e4-60a7-4c7e-bcb5-092e1224f33e][options perpetually under considearation]]
+   I would like to put multiple orders on the options,
+   and compare them.
 * share git history views
   motivation : Use TypeDB to make something simple but useful.
   Haven't figured it out yet.

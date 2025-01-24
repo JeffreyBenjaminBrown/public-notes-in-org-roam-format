@@ -2,5 +2,6 @@
 :ID:       59e80c44-dec3-4dd7-bdbd-49c92118fb0e
 :END:
 #+title: Your Inner Fish , book by Neil Shubin
+* [[id:b5524772-97ee-4df6-b209-c4accb7dfe2f][Some sea mammals forgot how to smell.]]
 * the common limb structure
   All vertebrates that came from (but aren't) fish have the same structure for their limbs: one bone, then two bones, then a bunch of lumpy things, and then digits. Even whales have little stubbly legs and feet, inside their bellies.

@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       b5524772-97ee-4df6-b209-c4accb7dfe2f
+:END:
+#+title: Some sea mammals forgot how to smell.
+* sources
+** The gist comes from Your Inner Fish by Neil Shubin.
+** But the details here are mostly from ChatGPT.
+   I remembered the gist but these details are from ChatGPT,
+   mostly verbatim outside of the headlines,
+   and extending somewhat beyond what the book said.
+* the facts, I hope
+** It depends on whether they ever return to land.
+Other aquatic mammals, such as seals and sea lions, retain some olfactory abilities because they still come ashore and have a more direct connection between their noses and the brain.
+
+Cetaceans (whales, dolphins, and porpoises), however, have evolved to be fully aquatic and have no use for a sense of smell in their daily lives.
+** cetacions
+Dolphins' ancestors, when adapting to aquatic life, experienced a gradual degeneration of the olfactory system, resulting in:
+
+- The loss of olfactory nerves (which are responsible for transmitting smell signals to the brain).
+- The disappearance of olfactory bulbs, which are key brain structures that process smell.
+
+The dolphin’s blowhole is designed for efficient breathing, not olfaction.
+
+- It features a specialized muscular flap that tightly seals the blowhole to prevent water entry while swimming.
+- Air passes through quickly and does not interact with any sensory tissue that could detect odor molecules.
+
+Unlike land animals, dolphins cannot inhale through their mouths, which further limits any potential alternate pathway for smell detection.
