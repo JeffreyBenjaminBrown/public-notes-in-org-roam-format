@@ -93,7 +93,7 @@ But beyond that, argument within and between the communities will become more ef
 
 Shyg will not only improve the truth-seeking experience between opponents, but also between collaborators. Citation trees could be traced across every site Shyg has indexed in a single query. Semantic hypergraph queries will make it possible to identify research -- from peer-reviewed publications to half-finished musings on a blog -- in niches too specific for non-hypergraph search engines to represent (see [[id:819f1b3b-1ba4-4ed2-9632-e80fbb6f5094][how Shyg will improve discoverability]]). Interesting insights that would otherwise only be read by a few followers could, through semantic search, be discoverable by others later -- specifically, more easily discoverable than an ordinary bag-of-words search engine would permit.
 ** Anticipating all the ways Shyg could be used is impossible.
-A huge proportion of what we do with computers is retrieve information. Giving users more access to that data, and more control when they try to retrieve it, will enable uses I have not imagined. (And the above list does not exhaust even what I have imagined.)
+A huge proportion of what we do with computers is retrieve information. Giving users more access to that data, and more control when they try to retrieve it, will enable uses I have not imagined.
 * an overview of Shyg's architecture
   :PROPERTIES:
   :ID:       a1f04e1e-9d39-43a7-a384-a575a57968df
@@ -242,13 +242,13 @@ There are already efforts to incorporate structured data into AI, in the form of
 * budget
 This program is, at least so far, entirely a public good; I don't see a path to profitability.
 
-A fellowship or a grant would both be great. In my wildest dreams this becomes a popular open source project with lots of contributors, which suggests it would be better to develop it where there are a lot of coders who might be interested in and capable of helping.
+A fellowship or a grant would both be great. Ideally it would become a popular open source project, with many contributors. Aiming for that suggests it would be better to develop it where there are a lot of coders who might be interested in and capable of helping.
 
-In tamer dreams that are still pretty wild to me, I have enough money to support myself and two other programmers: a networking specialist and a natural language specialist. I suspect it will be hard to find other engineers willing to work for as little as I am. I would either have to pay them twice what I would be earning, or try to recruit students, or both.
+In a year working alone I think I could make an offline prototype sufficient to attract other open-source contributors. But ideally, I would receive funding for myself and two other programmers: a web backend developer and a natural language specialist. In that case I think we would still take a year to make something interesting, but it would be more interesting.
 
-If I could work on this full time for a year I think I could make an offline prototype. If I had two years I think I could make an online one. If I were working with others that time would be reduced, albeit less than a linear model would suggest -- maybe halved if we were three people. But the probability of success would rise (from an already high base) and the quality of the result would rise substantially.
+My lifestyle is not fancy. I could get by on $40,000/year in the US, or $30,000 in Latin America. I am a US citizen currently living in Colombia without residency. I don't have residency, but I could bounce around between Latin American countries for years.
 
-My lifestyle is not fancy. I could get by on $50,000 a year in a small town in the US doing this, or $30,000 in Latin America. I live in Colombia, but I don't have residency. If I stopped working for a Colombian employer I could only stay here until August 2025 when my visa expires. Without a visa I can only be here six months out of any year, but I think I could bounce around Latin America indefinitely.
+I suspect it will be hard to find other engineers willing to work for as little as I am. I would either have to pay them twice what I would be earning, or recruit students, or both.
 * footnotes
 ** the TypeDB hypergraph database
    :PROPERTIES:
