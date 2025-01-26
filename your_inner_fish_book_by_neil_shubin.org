@@ -2,6 +2,21 @@
 :ID:       59e80c44-dec3-4dd7-bdbd-49c92118fb0e
 :END:
 #+title: Your Inner Fish , book by Neil Shubin
+* "Talking did not come cheap."
+** We use the same hole to talk, eat and breathe.
+*** => choking hazard
+** Apnea only happens in humans (and pugs?).
+   Stuff in our throats got soft in order to permit speech.
+* Returning blood from the feet is somewhat elaborate.
+** Blood pressure is higher in arteries than in the veins.
+** Valves in leg veins prevent blood going backward.
+** The leg muscles move the blood back up when we walk.
+** If the blood pools in the veins, it can cause the valves to fail.
+   This is called varicose veins.
+   They swell and take tortuous paths.
+** Too much sitting can cause hemmorhoids.
+   Blood pools in the veins around the rectum.
+** TODO [[id:ebaee383-c333-4bd6-914e-a46c96e99651][Sitting on soft things is particularly bad?]]
 * [[id:b5524772-97ee-4df6-b209-c4accb7dfe2f][Some sea mammals forgot how to smell.]]
 * the common limb structure
   All vertebrates that came from (but aren't) fish have the same structure for their limbs: one bone, then two bones, then a bunch of lumpy things, and then digits. Even whales have little stubbly legs and feet, inside their bellies.

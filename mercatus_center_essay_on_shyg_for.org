@@ -3,20 +3,20 @@
 :END:
 #+title: Mercatus Center, essay on Shyg for
 * a note on format
-If you are reading this in plain text, and wish you could jump around the document using hyperlinks, an online version that permits doing so can be found at https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/mercatus_center_essay_on_shyg_for.org
+If you are reading this in plain text, and wish you could jump around the document using the hyperlinks in it, an online version that permits doing so can be found at https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/mercatus_center_essay_on_shyg_for.org.
 * introduction
 Many of the ways we process and share data can be unified. Doing so will bring a slew of benefits, from individual productivity and well-being to the collective search for truth.
 
-This proposal is to create a protocol for building, distributing and querying a hypergraph index. I will call the project Shyg (for "Shared HYperGraph"). The hypergraph data structure, described later, permits a deep semantic representation of the content of natural language documents. So too, of course, does natural language itself, but the hypergraph permits complex semantic search in ways that neither ordinary text nor even semantic (non-hypergraph) graph databases, do not.
+This proposal is to create a protocol for building, distributing and querying a hypergraph index. I will call the project Shyg (for "Shared HYperGraph"). The hypergraph data structure, described later, permits a deep semantic representation of the content of natural language documents. So too, of course, does natural language itself, but the hypergraph permits deep semantic search in ways that neither ordinary text nor even semantic (non-hypergraph) graph databases do.
 
-Participants in Shyg will run daemons to crawl and index the part of the public internet they considered most worth indexing, as well as their own private content. A simple query language will permit them to fetch relevant portions of the indexed data.
+Participants in Shyg will run daemons to crawl and index the parts of the public internet they considered most worth indexing, as well as their own private content. A simple query language will permit them to fetch relevant portions of the indexed data.
 
-That is all Shyg will do -- build an index and let users query it. But the result will let users express many of the kinds of queries we are today accustomed to executing in specialized, usually proprietary, applications:
+That is all Shyg will do -- build an index and let users query it. But the result will let users express many of the kinds of queries we are today accustomed to executing only in specialized, usually proprietary, applications:
 
-- "What's on my calendar?"
+- "What sources satisfying [condition] can I read about [topic]?"
 - "What are my friends posting online?"
+- "What's on my calendar?"
 - "Where is [document] on my hard drive?"
-- "Where can I read about [topic]?"
 
 More importantly, Shyg will permit cross-cutting queries that nothing available to the general public currently permits:
 
@@ -25,7 +25,7 @@ More importantly, Shyg will permit cross-cutting queries that nothing available 
 - "Who has emailed me a calendar invitation that I accepted?"
 - "On the websites cited by those of my friends who post pro-[political candidate] content online, who are the top advertisers?"
 * an overview of this propsal
-The extreme expressivity of the query language, and the extremely broad nature of the index, will permit a wide variety of desirable applications. In the next section I will describe [[id:b3b34f14-5215-4f40-93c8-c235ddfd25ca][some potential applications]], and in the process, introduce some of Shyg's key architectural ideas. Then I will describe [[id:a1f04e1e-9d39-43a7-a384-a575a57968df][Shyg's architecture]]. After that I will examine Shyg's [[id:1aced678-ca00-4f07-9890-708584914048][feasibility]], including open questions. Last, I will describe in embarrassingly little detail the project's budget requirements. (And then there are footnotes.)
+The extreme expressivity of the query language, and the extremely broad nature of the index, will permit a wide variety of desirable applications. In the next section I will sketch [[id:b3b34f14-5215-4f40-93c8-c235ddfd25ca][some potential applications]], and in the process, introduce some of Shyg's key architectural ideas. Then I will describe [[id:a1f04e1e-9d39-43a7-a384-a575a57968df][Shyg's architecture]]. After that I will examine Shyg's technical and economic [[id:1aced678-ca00-4f07-9890-708584914048][feasibility]], including open questions. Last, I will describe in the project's budget requirements. (And then there are footnotes.)
 
 If the promises in the first section seem outlandish, perhaps consider skipping to the [[id:a1f04e1e-9d39-43a7-a384-a575a57968df][architecture section]] to see how I plan to do it. And if the architectural overview seems too easy, perhaps consider skipping to the [[id:1aced678-ca00-4f07-9890-708584914048][feasibility section]], where I describe plainly the hard problems I foresee.
 * some things Shyg will enable
@@ -35,7 +35,7 @@ If the promises in the first section seem outlandish, perhaps consider skipping 
 ** Build your own social media feed.
 Users could easily program their own social media feeds in Shyg. Those feeds will (presumably, usually) not be designed to maximize engagement, which will reduce some of the psychological and social harm social media currently causes.
 
-Moreover, the degree and ease of customization in those feeds will be unprecedented. For instance, "things my friends have published, ordered by recency, excluding sports commentary and anything that Mom thought was sad", will be a trivial query. Or (useful for people famous on the internet): "responses to my posts, ordered by the responder's follower count, minus anything ad-hominem".
+Moreover, the degree and ease of customization in those feeds will be unprecedented. For instance, "things my friends have published, ordered by recency, excluding sports commentary and anything that Mom thought was sad", will be a trivial query. Or (useful for internet-famous people): "responses to my posts, ordered by the responder's follower count, minus anything ad-hominem".
 ** Search better.
    :PROPERTIES:
    :ID:       6d320931-c091-470b-a0ff-7467327060ed
@@ -44,9 +44,9 @@ Thirty-ish years after the introduction of internet search engines, their result
 
 Part of this problem comes from advertising incentives. A commercial search engine profits by forcing its users to wade through a few sites full of ads before finding the answer. Shyg will of course not do that.
 
-But the problem with existing, commercial search engines goes further. They closely guard the secrets of how data is represented and how queries are executed. (It is, after all, the source of their market power.) In the early days of search, the data model was extremely simple: Just associate some keywords with a page. With the popularization of natural language processing, knowledge graphs and, lately, artificial intelligence, search indices have grown more complex, and reflect more of the semantic content of the objects they index. But users do not know what specific information gets indexed, and even if they did, a formal query language is not made available to them.
+But the problem with existing search engines goes further. They closely guard the secrets of how their data is represented and how queries are executed. In the early days of search, the data model was simple: Associate some keywords with a page. With the popularization of natural language processing, knowledge graphs and, lately, artificial intelligence, search indices have grown more complex, and reflect more of the semantic content of the objects they index. But users do not know what specific information gets indexed, must less have a say in that choice -- and even if they did, a formal query language is not made available to them.
 
-It is for this reason that a majority of humanity is now accustomed to giving a "bag of words" to a search engine, and hoping it correctly guesses what they meant. By contrast, an explicit hypergraph database, paired with an intuitive query language, will permit queries that even the best existing search engines cannot begin to parse:
+Instead, a majority of humanity is now accustomed to giving a "bag of words" to a search engine, and hoping it correctly guesses their intent. By contrast, an explicit hypergraph database, paired with an intuitive query language, will permit queries that even the best existing search engines simply cannot understand:
 
 - "articles that either cite [source] or cite something that cites [source]"
 - "posts from [person] on which [person] commented"
@@ -55,9 +55,9 @@ It is for this reason that a majority of humanity is now accustomed to giving a 
     :PROPERTIES:
     :ID:       0f4c43f7-2a52-4a2c-97b1-93a2cdf5e108
     :END:
-The last query mentioned will be made possible with the help of an ontology. Later this proposal describes [[id:7fa7c37d-117b-4893-b6cb-5550d52d7fb1][ontologies in more detail]] later, but in brief, an ontology is a collection of relationships intended to help understand the world's categories.
+The last query mentioned will be made possible with the help of an ontology. Later this proposal describes the term [[id:7fa7c37d-117b-4893-b6cb-5550d52d7fb1][in more detail]], but in brief, an ontology is a collection of relationships intended to help understand the world's categories.
 
-One kind of relationship in an ontology is called subsumption, or informally, "is-a". A cat is a feline, which is a mammal, which is an animal, which is an organism. (That chain skips some intermediate levels.) Subsumption is a transitive relationship, so the preceding chain of relationships from cats to organisms implies that cats are organisms.
+One kind of relationship in an ontology is called subsumption, or informally, "is-a". A cat is a feline, which is a mammal, which is an animal, which is an organism. (That chain skips some intermediate levels.) Subsumption is a transitive relationship, so the preceding chain of relationships implies that cats are organisms.
 
 The Shyg index will include a continuously growing ontology. Therefore a user asking for "articles that mention any chemical in the blood of any mammal" will not need to provide an explicit list of mammals or chemicals.
 ** Reduce complexity by recognizing statement equivalence.
@@ -71,27 +71,27 @@ The Shyg index, with its ontology, will permit a user to reduce the complexity o
    :PROPERTIES:
    :ID:       d1088c1a-c4b8-446e-823e-a571461ff5db
    :END:
-Some of the fight against online misinformation has involved tracking down its origins. This is tedious manual labor, and it does not need to be. Simple NLP could recognize when one document cites another even before the present era of LLMs. By incorporating citation relationships into the index, and by using the ontology to recognize equivalent forms of the same statement, a Shyg user could trace the history of a claim backward. The query would need to be executed only once, via a single medium (Shyg), rather than requiring a separate query in each new domain encountered (e.g. one query for the newspaper, another for a social media site the newspaper had quoted, etc.)
+Some of the fight against online misinformation involves tracking down its origins. This is tedious manual labor, and does not need to be. Simple NLP could recognize when one document cites another even before LLMs. By including citation relationships into the index, and by using the ontology to recognize equivalent forms of the same statement, a Shyg user could trace the history of a claim backward. The query would need to be executed only once, via a single medium (Shyg), rather than requiring a separate query in each new domain encountered (e.g. one query for the newspaper, another for a social media site the newspaper had quoted, etc.)
 ** Recognize bot networks through multi-faceted queries.
    :PROPERTIES:
    :ID:       bb0eb8e2-2877-4f37-ae16-8e7fbeb36158
    :END:
-Various kinds of agencies (social media platforms, cybersecurity companies, academia, media watchdogs ...) periodically must try to recognize bot networks. The techniques they use include analyzing timing and coordination, linguistic analysis, and analyzing bots' interactions with other users, and more.
+Various kinds of agencies (social media platforms, cybersecurity companies, academia, media watchdogs ...) try to recognize bot networks. The techniques they use include analyzing timing and coordination, linguistic analysis, analyzing bots' interactions with other users, and more.
 
 Shyg will make such work easier, by providing a unified public database and query framework for all of that information.
 
-As we will see below when focusing on its [[id:a73b9f5a-bf5b-41af-b612-6427857a1133][architecture]], members of the Shyg network will be able to choose what kinds of information to index. Recogniztion of bots in Shyg could be particularly facilitated if the index stored relationships like "[author] cites [different author]" or "[author] claims that [different author] is human". It seems likely that some portion of the Shyg community will choose to include such information in the index.
+As we will see below when focusing on its [[id:a1f04e1e-9d39-43a7-a384-a575a57968df][architecture]], members of the Shyg network will be able to choose what kinds of information to index. Recognizing bots in Shyg could be particularly facilitated by storing relationships like "[author] cites [different author]" or "[author] claims that [different author] is human". It seems likely that some portion of the Shyg community will choose to include such information in the index.
 ** Improve the effectiveness of epistemic institutions, and the collective faith in them, by making epistemology more transparent.
    :PROPERTIES:
    :ID:       644d95f3-315a-40d4-86e4-e6094fe0d30b
    :END:
-The epistemic institutions underpinning the modern social order -- [[id:79935e6e-8f9e-4206-81f4-7fc4ecfdae55][science, journalism, law and government]] -- devote substantial resources to determining what is true and making it known. These institutions have always been an elite, and never entirely popular, but until recently, they were nearly incontestable. The internet has democratized the search for truth, and some of the effects of that have clearly been good. But it has also dangerously fractured our epistemology into separate communities.
+The epistemic institutions underpinning the modern social order -- [[id:79935e6e-8f9e-4206-81f4-7fc4ecfdae55][science, journalism, law and government]] -- devote substantial resources to determining what is true and making it known. These institutions have always been an elite, and never entirely popular, but until recently, they were nearly incontestable. The internet has democratized the search for truth, and some of the effects of that have clearly been good. But it has also dangerously fractured our epistemic work into separate communities.
 
-Shyg will be agnostic about which community is correct on which issue. It will simply index their work. But it will index them all the same way, and permit queries that traverse them all at once. This will make every epistemic community more trasnparent, to itself and to the others. To the extent that communities of "alternate facts" arise from a sense of alienation from the traditional instutitions, this alone will be helpful.
+Shyg will be agnostic about which community is correct on which issue. It will simply index their work. But it will index them all the same way, and permit queries that traverse them all at once. This will make every epistemic community more trasnparent, to itself and to the others. To the extent that communities of "alternate facts" arise from a sense of alienation from the traditional instutitions, this integration should be helpful.
 
-But beyond that, argument within and between the communities will become more effective. Queries like "what kinds of evidence has been provided for [statement]", together with the [[id:e185e848-ea55-4eec-9dba-d0cf9d893731][ontology-enabled uniqueness constraints]] described earlier, could reveal otherwise hopelessly extensive fronts of argument to consist of a small number of ideas. And with ad-hominem arguments easier to filter out (perhaps responding to them automatically with "that is ad-hominem"), their effectiveness will fall, and with it the incentive to use them. (It will not fall to zero for as long as some of the incentive lies in in-group signalling, but it will fall.)
+But beyond that, argument within and between the communities will become more effective. Queries like "what kinds of evidence has been provided for [statement]", together with the [[id:e185e848-ea55-4eec-9dba-d0cf9d893731][ontology-enabled uniqueness constraints]] described earlier, could reveal otherwise hopelessly extensive fronts of argument to consist of a small number of ideas. And with ad-hominem and other dumb arguments easier to filter out (perhaps responding to them automatically with "that argument is ad-hominem"), their effectiveness will fall, and with it the incentive to use them. (It will not fall to zero for as long as some of their incentive lies in in-group signalling, but it will fall.)
 
-Shyg will not only improve the truth-seeking experience between opponents, but also between collaborators. Citation trees could be traced across every site Shyg had indexed in a single query. Semantic hypergraph queries will make it possible to identify research -- from peer-reviewed publications to half-finished musings on a blog -- in niches too specific for non-hypergraph search engines to represent (see [[id:819f1b3b-1ba4-4ed2-9632-e80fbb6f5094][how Shyg will improve discoverability]]). Interesting insights that would otherwise only be read by a few followers could, through semantic search, be discoverable by others later -- specifically, more easily discoverable than an ordinary bag-of-words search engine would permit.
+Shyg will not only improve the truth-seeking experience between opponents, but also between collaborators. Citation trees could be traced across every site Shyg has indexed in a single query. Semantic hypergraph queries will make it possible to identify research -- from peer-reviewed publications to half-finished musings on a blog -- in niches too specific for non-hypergraph search engines to represent (see [[id:819f1b3b-1ba4-4ed2-9632-e80fbb6f5094][how Shyg will improve discoverability]]). Interesting insights that would otherwise only be read by a few followers could, through semantic search, be discoverable by others later -- specifically, more easily discoverable than an ordinary bag-of-words search engine would permit.
 ** Anticipating all the ways Shyg could be used is impossible.
 A huge proportion of what we do with computers is retrieve information. Giving users more access to that data, and more control when they try to retrieve it, will enable uses I have not imagined. (And the above list does not exhaust even what I have imagined.)
 * an overview of Shyg's architecture

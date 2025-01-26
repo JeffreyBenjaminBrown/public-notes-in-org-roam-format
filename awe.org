@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b745d109-6d7f-4638-beab-97bd26c8a936
+:END:
+#+title: awe
+* some awe-inspiring things
+** [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
+** [[id:c73ee824-eb2b-43f4-8ead-32d9d62ddc75][death]]
+* maybe see also
+** [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]
