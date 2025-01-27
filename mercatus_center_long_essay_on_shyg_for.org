@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6
 :END:
-#+title: Mercatus Center, essay on Shyg for
+#+title: Mercatus Center, long (5600 words) essay on Shyg for
 * a note on format
 If you are reading this in plain text, and wish you could jump around the document using the hyperlinks in it, an online version that permits doing so can be found at https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/mercatus_center_essay_on_shyg_for.org.
 * introduction
@@ -33,9 +33,14 @@ If the promises in the first section seem outlandish, perhaps consider skipping 
   :ID:       b3b34f14-5215-4f40-93c8-c235ddfd25ca
   :END:
 ** Build your own social media feed.
+   :PROPERTIES:
+   :ID:       a5d2c48c-976c-41de-abd1-9bc8ffcbf040
+   :END:
 Users could easily program their own social media feeds in Shyg. Those feeds will (presumably, usually) not be designed to maximize engagement, which will reduce some of the psychological and social harm social media currently causes.
 
 Moreover, the degree and ease of customization in those feeds will be unprecedented. For instance, "things my friends have published, ordered by recency, excluding sports commentary and anything that Mom thought was sad", will be a trivial query. Or (useful for internet-famous people): "responses to my posts, ordered by the responder's follower count, minus anything ad-hominem".
+
+A Shyg-powered social media feed could incorporate content from all kinds of different sources -- traditional social media sites, blogs, traditional news media, personal web pages, periodic firmk financial statements, etc.
 ** Search better.
    :PROPERTIES:
    :ID:       6d320931-c091-470b-a0ff-7467327060ed
@@ -239,6 +244,16 @@ The two standard monetization strategies for online services would not work well
 But perhaps Shyg could be grafted onto a cryptocurrency. A uniform, fungible unit of account could make it easier to allocate the relevant resources (storage, bandwidth and compute), and perhaps even to reward creators. A blockchain could also facilitate immutable records, which would address the annoying problem of online content that vanishes after it becomes popular.
 *** using Shyg to improve AI
 There are already efforts to incorporate structured data into AI, in the form of graph databases. Two goals of these efforts are to make AI reasoning more transparent and to make AI responses more verifiable. Shyg is unique among databases in that, were it legible to an AI, that AI would have access to information of arbitrarily high order.
+** the path to growth
+As mentioned earlier, [[id:f1128fb8-848d-4ed9-affd-a0ed19516422][Shyg does not need scale in order to be useful]]. It will, however, require some proselytizing to build the initial user base. If they will find it sufficiently useful and/or fun, they will tell others.
+*** where I would advertise Shyg initially
+Rauch's four pillars of epistemology -- scholarship, law, government and journalism -- all have good reason to want Shyg to exist. Incorporating their data into the Shyg index would permit precise, complex queries beyond anything offered by the bag-of-word search engines common in at least academia and law. (I don't know what internal search is like at news publishers. It might be better than the bag-of-words approach, but I am quite certain they are not using hypergraph search.)
+
+There exists an online culture of "productivity enthusiasts" interested in knowledge graph tools like Obsidian, Notion, Roam, org-roam or OneNote. They would be a natural target audience. Their public and private notes could be incorporated into Shyg without even requiring a change of interface (although writing each adaptor will be a separate coding project).
+
+A large number of "ordinary internet users" are concerned with open data, data sovereignty and decentralization. Shyg plays to all three interests -- it is massively open and decentralized, but also allows people to keep separate private indices. Much of this audience is in search of a better social media experience. As described in [[id:a5d2c48c-976c-41de-abd1-9bc8ffcbf040][build your own social media feed]], Shyg could provide a unified, ad-free, psychologically non-manipulative interface for all sorts of online content, including but not limited to social media.
+
+Microsoft's open source release of GraphRAG last year spurred great interest in incorporating graph data structures into large language models. Hypergraphs are even more expressive than graphs. Some programmers might be motivated to try Shyg in order to generate and structure data for their AIs.
 * budget
 This program is, at least so far, entirely a public good; I don't see a path to profitability.
 
@@ -249,6 +264,16 @@ In a year working alone I think I could make an offline prototype sufficient to 
 My lifestyle is not fancy. I could get by on $40,000/year in the US, or $30,000 in Latin America. I am a US citizen currently living in Colombia without residency. I don't have residency, but I could bounce around between Latin American countries for years.
 
 I suspect it will be hard to find other engineers willing to work for as little as I am. I would either have to pay them twice what I would be earning, or recruit students, or both.
+* mopping up: the remaining questions you asked
+** As yet I have no support.
+   Not even informally.
+** I would work on Shyg full-time.
+** I've worked on the idea for years.
+   Be forewarned: This is not an exciting story.
+   The idea started for me in maybe 2005. I stopped working in 2014 to work on something resembling it full-time. Before I had something I felt good about, I met Joshua Shinavier, whose Semantic Synchrony ("SmSn") dominated mine, so I joined him to work on that. SmSn is a beautiful personal knowledge graph system, but so complex that to my knowledge nobody but Josh uses it. (I used it myself for a few years, then switched to org-roam, which is less expressive but friendlier.)
+   After that I wrote Hode, an personal hypergraph knowledge base, rolling the database from scratch in Haskell. I also made a lot of noise about the effort online. The result was an application with a cool interface and a lousy database. Fortunately, TypeDB then came along and filled the database niche -- they offer a hypergraph database powerful enough to have seen some adoption in biotech and finance.
+   Outside of the database, the major innovation in Hode was its query language, [[id:c62f00f7-4e2a-4a58-80d7-9996ea27372d][Hash]], which I intend to use (with some extension) in Shyg.
+   The sharing and web-crawling aspects of Shyg are not something I have tried to code yet. (I have done some internet programming, though. After building a tax microsimulation of Colombia for the Observatorio Fiscal at Javeriana University, I put it online. I ran it on an AWS EC2 instance at Javeriana's expense so that anybody could visit and simulate the effects of tax proposals. Also I spent two years as the founding CTO of a tiny fintech startup running crypto arbitrage, in my spare time. We even made a profit, but not enough to justify the time commitment.)
 * footnotes
 ** the TypeDB hypergraph database
    :PROPERTIES:

@@ -1,0 +1,47 @@
+:PROPERTIES:
+:ID:       24eaa5b0-164b-4701-9518-74c4c46eb4b3
+:END:
+#+title: Mercatus Center, short essay on Shyg for
+This brief essay includes hyperlinks to sections of [[id:c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6][a more in-depth (5,000 words) project description]].
+* Who am I
+I am a programmer, data scientist and economist. Among other employers, I've worked for the Congressional Budget Office and a similar think tank in Colombia. I have been an enthusiastic user of knowledge mapping software for decades, and have written software for doing that.
+* A mainstream belief I hold
+Our chief institutions for determining what is true are science, journalism, law and government. It is critical that they function well, and equally critical that they be widely understood and trusted.
+* What Shyg would be
+Shyg, which stands for Shared HyperGraph, would be a federated index of content online, and some software for building it, querying it and displaying the results. Users would run Shyg in the background on their computers to create a map of what information can be found online where, and how it relates to other information. They would query it to find data.
+
+Shyg will use a hypergraph database, which permits greater expressivity than traditional graph databases.
+* Shyg would be valuable at small scales.
+** Shyg at the scale of a single user
+Shyg will permit users to traverse their own data batter.
+
+For instance, I have a note about traveling to a lower elevation as a strategy for temporarily enhancing one's immune system. I would like to be able to search for "strategies for dealing with illnesses" and find it. But the article includes neither the word "illness" nor the word "strategy", but rather "a way to fight infection". If the article were indexed in Shyg, that search would nonetheless find it.
+
+As another example, one could issue a query to "identify passages in the indexed documents that mention any chemical in the blood of any mammal". Shyg's [[id:0f4c43f7-2a52-4a2c-97b1-93a2cdf5e108][ontology]] will permit the user to sidestep the prohibitively tedious step of listing every chemical and every mammal.
+
+The Shyg ontology will also facilitate more efficient storage of data, as described [[id:b227c68b-cd5e-4f1e-a903-e1619ffafa63][here]].
+** Shyg at the scale of a handful of people
+A small group of non-programmers indexing their shared data in Shyg could process their own data in ways not currently possible. One could, for example, "list everyone who was at [meeting] and has viewed [document]", or, "fetch every question addressed to me in any of the documents whose incompleteness is blocking anyone else".
+* Shyg would be valuable at larger scales.
+** Search better.
+Shyg would enable a better search experience. Proprietary search engines suffer incentive problems: The provider is motivated to prevent the user from seeing too much of their data, or from finding the solution to their question before seeing a few ads. Moreover, search engines have no formal grammar. They try to guess the user's intention from natural language, which limits the complexity of the query a user can be express. Shyg would overcome all of these barriers.
+** Write your own social media feed.
+Programming your own social media feed would be trivial: "Show me everything my friends have posted, ordered by recently, omitting anything about baseball and anything that Mom thought was sad." A Shyg-powered social media feed could select content from unlike sources -- traditional social media, blogs, news, quarterly reports to shareholders, etc.
+
+Programming your own social media feed in an open system like Mastodon is already possible, but only for programmers. By contrast, the query language Shyg will use, Hash -- [[https://github.com/JeffreyBenjaminBrown/hode/blob/master/docs/hash/the-hash-language.md][which already exists]], although I intend to extend it -- is simple enough for non-programmers to express detailed queries in.
+** Defend against misinformation.
+Some of the fight against online misinformation involves tracking down its origins. This is tedious manual labor, but does not need to be. Simple NLP could recognize when one document cites another even before LLMs. By including citation relationships into the index, and by using the ontology to recognize equivalent forms of the same statement, a Shyg user could trace the history of a claim backward. The query would need to be executed only once, via a single medium (Shyg), rather than requiring a separate query in each new domain encountered (e.g. one query for the newspaper, another for a social media site the newspaper had quoted, etc.)
+** Recognize bot networks.
+Social media platforms, cybersecurity firms, academics, media watchdogs and others frequently try to recognize bot networks, by analyzing timing and coordination, linguistics, interactions with users, and more.
+
+Shyg's [[id:a1f04e1e-9d39-43a7-a384-a575a57968df][architecture]] will permit members to choose what kinds of information to index. Storing relationships like "[author] cites [different author]" or "[author] claims that [different author] is human" will facilitate the recognition of bots, by providing a unified public database and query framework for the information.
+** Provide simplifying views of complex information.
+Extracting substantive information from discussions on social media is often made difficult by an abundance of irrelevant noise, especially hostility. By indexing those discussions in Shyg, and viewing them through an appropriate query -- perhaps something like "filter out all ad-hominem statements, and for equivalent statements, show only one representative, accompanied by the number of authors who said that" -- an otherwise unwieldy and unpleasant river of feedback could become a helpful pool of data.
+** Improve how society determines what is true.
+Shyg will be agnostic about which community is correct on which issue. It will simply index their work -- all in the same way, permitting queries that traverse them all at once. This will make every epistemic community more trasnparent, to itself and to the others. To the extent that communities of "alternate facts" arise from a sense of alienation from traditional instutitions, this integration should help.
+
+But beyond that, argument within and between the communities will become more effective. Queries like "what kinds of evidence has been provided for [statement]", together with the [[id:e185e848-ea55-4eec-9dba-d0cf9d893731][ontology-enabled uniqueness constraints]] described earlier, will reveal otherwise hopelessly extensive fronts of argument to consist of a small number of ideas. And with fallacies and distractions easier to filter out, their effectiveness will fall, and with it the incentive to use them.
+
+Shyg will not only improve the truth-seeking experience between opponents, but also between collaborators. Citation trees could be traced across every site Shyg has indexed in a single query. Semantic hypergraph queries will make it possible to identify research -- from peer-reviewed publications to half-finished musings on a blog -- in niches too specific for non-hypergraph search engines to represent (see [[id:819f1b3b-1ba4-4ed2-9632-e80fbb6f5094][how Shyg will improve discoverability]]). Interesting insights that would otherwise only be read by a few followers could, through semantic search, be discoverable by others later -- specifically, more easily discoverable than an ordinary bag-of-words search engine would permit.
+* If you'd like more information
+-- in particular, if you'd like to know how Shyg would accomplish these things, not just why -- here's that [[id:b3b34f14-5215-4f40-93c8-c235ddfd25ca][longer writeup]] again.
