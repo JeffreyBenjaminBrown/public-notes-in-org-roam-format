@@ -39,9 +39,7 @@ For more detail see how Shyg [[id:819f1b3b-1ba4-4ed2-9632-e80fbb6f5094][will imp
 ** Shyg at the scale of a single user
 Shyg will permit users to traverse their data batter.
 
-For instance, I have a note about traveling to a lower elevation as a strategy for temporarily enhancing one's immune system. I would like to be able to search for "strategies for dealing with illnesses" and find it. But the article includes neither the word "illness" nor the word "strategy", but rather "a way to fight infection". If the article were indexed in Shyg, that search would nonetheless find it.
-
-(True, I could ask AI to do that. But AI responses so far have limited reliability, zero transparency, and a context window of at most a few million tokens.)
+For instance, I have a note about traveling to a lower elevation as a strategy for temporarily enhancing one's immune system. I cannot search for "strategies for dealing with illnesses" and find it, because the note includes neither the word "illness" nor the word "strategy". Instead it includes "a way to fight infection". If it were indexed in Shyg, that search would work.
 
 As another example, one could issue a query to "identify passages in the indexed documents that mention any chemical in the blood of any mammal". Shyg's [[id:0f4c43f7-2a52-4a2c-97b1-93a2cdf5e108][ontology]] will permit the user to sidestep the prohibitively tedious step of listing every chemical and every mammal.
 ** Shyg at the scale of a handful of people
