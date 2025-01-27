@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6
 :END:
-#+title: Mercatus Center, long (5300 words) essay on Shyg for
+#+title: Shyg in 5300 words
 * a note on format
 If you are reading this in plain text, and wish you could jump around the document using the hyperlinks in it, an online version that permits doing so can be found at https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/mercatus_center_essay_on_shyg_for.org.
 * introduction
