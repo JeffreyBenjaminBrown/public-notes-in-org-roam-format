@@ -2,10 +2,7 @@
 :ID:       9eeea922-4545-4302-9b15-412b1e71ef86
 :END:
 #+title: Shyg as quickly as possible
-* What this essay is
-This essay is intended to give a rough idea of what Shyg would do and why it would be good for society. (I'm not convinced it can be monetized.) It is brief, to avoid losing your interest, but it includes a number of hyperlinks to portions of [[id:c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6][this more in-depth (5,000 words) essay on Shyg]]. This article does not go into architectural details; that one does.
-
-Blue text, even where it appears in a title, represents a hyperlink.
+This brief essay includes hyperlinks to portions of [[id:c7f3da3a-4a8a-4e1a-b6ee-aebe11bc86d6][this more in-depth (5,000 words) essay on Shyg]]. This article does not go into architectural details; that one does.
 * What Shyg would be
 Shyg, which stands for Shared HyperGraph, would be a federated index of content online, and some software for building it, querying it and displaying the results.
 
