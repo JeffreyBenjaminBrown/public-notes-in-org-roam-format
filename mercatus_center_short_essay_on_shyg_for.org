@@ -8,7 +8,7 @@ I am a programmer, data scientist and economist. I've worked for the Congression
 * A mainstream belief I hold
 Our chief institutions for determining what is true are science, journalism, law and government. It is critical that they function well, and that they be widely understood and trusted.
 * What Shyg would be
-Shyg ("Shared HyperGraph"), would be a federated index of content online, and some software for building it, querying it and displaying the results. Users would run Shyg in the background on their computers to create a map of what information can be found online where, and how it relates to other information. They would query it to find data.
+Shyg ("Shared HyperGraph") would be a federated index of content online, and some software for building it, querying it and displaying the results. Users would run Shyg in the background on their computers to create a map of what information can be found online where, and how it relates to other information. They would query it to find data.
 
 Shyg will use a hypergraph database, which permits greater expressivity than traditional graph databases.
 * Why make Shyg
@@ -22,18 +22,18 @@ Many users want a feed they control, ad-free and devoid of engagement-maximizing
 Programming your own social media feed in Shyg would be trivial. For instance the query, "Show me everything anyone on [list] has posted, ordered by recency, omitting anything about sports," would do it. Moreover a Shyg-powered social media feed could incorporate content from many sources -- traditional social media, blogs, news, quarterly shareholder reports, etc.
 
 Programming your own social media feed in a system like Mastodon is already possible for programmers. But the query language Shyg will use, Hash -- [[https://github.com/JeffreyBenjaminBrown/hode/blob/master/docs/hash/the-hash-language.md][which already exists]], although I intend to extend it -- is simple enough for non-programmers to express detailed queries in.
-*** Defend against misinformation.
-Some of the fight against online misinformation involves tracing its origins. This is tedious manual labor, and need not be. Simple NLP could recognize citations even before LLMs. By including citation relationships in the index, and using the ontology to recognize equivalent forms of the same statement, a Shyg user could trace the history of a claim backward. A single query would suffice, whereas today one must make a separate query for each link from one domain to another (e.g. one query for the newspaper, another for a social media site the newspaper had quoted, then a new query when that site refers back to the newspaper ...)
-*** Recognize bot networks.
-Social media platforms, cybersecurity firms, academics, media watchdogs and others frequently try to identify bot networks, by analyzing timing and coordination, linguistics, interactions with users, and more.
-
-Shyg will permit users to choose the kinds of information to index. Storing citation relationships, and relationships like "[author] claims that [different author] is human" will facilitate the recognition of bots, by providing a unified public database and query framework for the information.
 *** Provide simplifying views of complex information.
 Extracting the substantive information from discussions on social media can be made difficult by irrelevant noise, especially hostility. By indexing those discussions in Shyg, and viewing them through an appropriate query -- perhaps something like "filter out all ad-hominem statements, and for equivalent statements, show only one representative" -- an otherwise unwieldy and unpleasant river of feedback could be made helpful.
 *** Improve how society determines truth.
 Shyg will be agnostic about which community is correct on which issue. It will simply index their work -- but all of it in the same way, permitting queries that traverse them all at once. Every epistemic community will become more trasnparent. To the extent that communities of "alternate facts" arise from a sense of alienation from traditional instutitions, this integration should help.
 
 But beyond that, argument within and between the communities will become more effective. Queries like "what kinds of evidence has been provided for [statement]", together with [[id:e185e848-ea55-4eec-9dba-d0cf9d893731][ontology-enabled uniqueness constraints]], will reveal otherwise hopelessly extensive fronts of argument to consist of a small number of ideas. And with fallacies and distractions easier to filter out, their effectiveness will fall, and with it the incentive to use them.
+*** Defend against misinformation.
+Some of the fight against online misinformation involves tracing its origins. This is tedious manual labor, and need not be. Simple NLP could recognize citations even before LLMs. By including citation relationships in the index, and using the ontology to recognize equivalent forms of the same statement, a Shyg user could trace the history of a claim backward. A single query would suffice, whereas today one must make a separate query for each link from one domain to another (e.g. one query for the newspaper, another for a social media site the newspaper had quoted, then a new query when that site refers back to the newspaper ...)
+*** Recognize bot networks.
+Social media platforms, cybersecurity firms, academics, media watchdogs and others frequently try to identify bot networks, by analyzing timing and coordination, linguistics, interactions with users, and more.
+
+Shyg will permit users to choose the kinds of information to index. Storing citation relationships, and relationships like "[author] claims that [different author] is human" will facilitate the recognition of bots, by providing a unified public database and query framework for the information.
 ** Shyg at the scale of a single user
 Shyg will permit users to traverse their data batter.
 
