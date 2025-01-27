@@ -13,18 +13,7 @@ Shyg ("Shared HyperGraph"), would be a federated index of content online, and so
 Shyg will use a hypergraph database, which permits greater expressivity than traditional graph databases.
 * why make Shyg
 Shyg will be valuable even at small scales, so it will not need a huge advertising push like social media sites do. I will address its value at large scales first, because it is fantastic.
-** Shyg would be valuable at small scales.
-*** Shyg at the scale of a single user
-Shyg will permit users to traverse their data batter.
-
-For instance, I have a note about traveling to a lower elevation as a strategy for temporarily enhancing one's immune system. I would like to be able to search for "strategies for dealing with illnesses" and find it. But the article includes neither the word "illness" nor the word "strategy", but rather "a way to fight infection". If the article were indexed in Shyg, that search would nonetheless find it.
-
-(True, I could ask AI to do that. But AI responses so far have limited reliability, zero transparency, and a context window of at most a few million tokens.)
-
-As another example, one could issue a query to "identify passages in the indexed documents that mention any chemical in the blood of any mammal". Shyg's [[id:0f4c43f7-2a52-4a2c-97b1-93a2cdf5e108][ontology]] will permit the user to sidestep the prohibitively tedious step of listing every chemical and every mammal.
-*** Shyg at the scale of a handful of people
-A small group of non-programmers indexing their shared data in Shyg could process their data in ways not currently possible. One could, for example, "list everyone who was at [meeting] and has viewed [document]", or, "fetch every question addressed to me in any of the documents whose incompleteness is blocking anyone else".
-** Shyg at large scales.
+** Shyg at large scales
 *** Search better.
 Proprietary search engine providers keep most of their data a secret, and benefit if the user must see a few ads before finding their answer. Moreover, with no formal grammar, search engines simply guess the user's intention, limiting the potential complexity of a query. Shyg would overcome all of these problems.
 *** Write your own social media feed.
@@ -47,6 +36,16 @@ Shyg will be agnostic about which community is correct on which issue. It will s
 But beyond that, argument within and between the communities will become more effective. Queries like "what kinds of evidence has been provided for [statement]", together with [[id:e185e848-ea55-4eec-9dba-d0cf9d893731][ontology-enabled uniqueness constraints]], will reveal otherwise hopelessly extensive fronts of argument to consist of a small number of ideas. And with fallacies and distractions easier to filter out, their effectiveness will fall, and with it the incentive to use them.
 
 For more detail see how Shyg [[id:819f1b3b-1ba4-4ed2-9632-e80fbb6f5094][will improve discoverability]] and [[id:644d95f3-315a-40d4-86e4-e6094fe0d30b][improve the effectiveness of epistemic institutions]].
+** Shyg at the scale of a single user
+Shyg will permit users to traverse their data batter.
+
+For instance, I have a note about traveling to a lower elevation as a strategy for temporarily enhancing one's immune system. I would like to be able to search for "strategies for dealing with illnesses" and find it. But the article includes neither the word "illness" nor the word "strategy", but rather "a way to fight infection". If the article were indexed in Shyg, that search would nonetheless find it.
+
+(True, I could ask AI to do that. But AI responses so far have limited reliability, zero transparency, and a context window of at most a few million tokens.)
+
+As another example, one could issue a query to "identify passages in the indexed documents that mention any chemical in the blood of any mammal". Shyg's [[id:0f4c43f7-2a52-4a2c-97b1-93a2cdf5e108][ontology]] will permit the user to sidestep the prohibitively tedious step of listing every chemical and every mammal.
+** Shyg at the scale of a handful of people
+A small group of non-programmers indexing their shared data in Shyg could process their data in ways not currently possible. One could, for example, "list everyone who was at [meeting] and has viewed [document]", or, "fetch every question addressed to me in any of the documents whose incompleteness is blocking anyone else".
 * Path to sustainability
 Shyg is sustainable if and when people find it sufficiently valuable to keep using it. If it gains widespread adoption, its usefulness to epistemic institutions (law, government, journalism, academia) will, I believe, guarantee funding for what little changes are needed. Getting to that point will require convincing people to try it at a small scale.
 
