@@ -30,9 +30,9 @@ Programming your own social media feed in an open system like Mastodon is alread
 ** [[id:d1088c1a-c4b8-446e-823e-a571461ff5db][Defend against misinformation.]]
 ** [[id:bb0eb8e2-2877-4f37-ae16-8e7fbeb36158][Defend against bot networks.]]
 ** Provide simplifying views of complex information.
-   A common and miserable experience for people who become (even if only briefly) famous on the internet is to need to wade through a torrent of hostile and nearly information-free responses to find the few useful ones. Many simply give up and don't read their responses at all.
-   But by indexing the responses with Shyg, and viewing them through an appropriate query -- perhaps something like "filter out all ad-hominem statements, and for equivalent statements, show only one representative, accompanied by the number of authors who said that" -- an otherwise unwieldy and distressing river of feedback could be made useful and benign.
-   Describing how much difference to tolerate before classifying two statements as distinct will, admittedly, require an understanding of the ontology and the query language that most users will not have. But as soon as anyone publishes the details of such a query, everyone will be able to use it.
+A common and miserable experience for people who become (even if only briefly) famous on the internet is to need to wade through a torrent of hostile and nearly information-free responses to find the few useful ones. Many simply give up and don't read their responses at all.
+But by indexing the responses with Shyg, and viewing them through an appropriate query -- perhaps something like "filter out all ad-hominem statements, and for equivalent statements, show only one representative, accompanied by the number of authors who said that" -- an otherwise unwieldy and distressing river of feedback could be made useful and benign.
+Describing how much difference to tolerate before classifying two statements as distinct will, admittedly, require an understanding of the ontology and the query language that most users will not have. But as soon as anyone publishes the details of such a query, everyone will be able to use it.
 ** [[id:644d95f3-315a-40d4-86e4-e6094fe0d30b][Facilitate open science.]]
 * If you'd like more information
-  -- in particular, if you'd like to know how Shyg would accomplish these things, not just why -- here's that [[id:b3b34f14-5215-4f40-93c8-c235ddfd25ca][longer writeup]] again.
+-- in particular, if you'd like to know how Shyg would accomplish these things, not just why -- here's that [[id:b3b34f14-5215-4f40-93c8-c235ddfd25ca][longer writeup]] again.
