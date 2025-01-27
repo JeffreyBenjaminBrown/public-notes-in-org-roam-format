@@ -11,7 +11,7 @@ Our chief institutions for determining what is true are science, journalism, law
 Shyg ("Shared HyperGraph"), would be a federated index of content online, and some software for building it, querying it and displaying the results. Users would run Shyg in the background on their computers to create a map of what information can be found online where, and how it relates to other information. They would query it to find data.
 
 Shyg will use a hypergraph database, which permits greater expressivity than traditional graph databases.
-* why make Shyg
+* Why make Shyg
 Shyg will be valuable even at small scales, so it will not need a huge advertising push like social media sites do. I will address its value at large scales first, because it is fantastic.
 ** Shyg at large scales
 *** Search better.
