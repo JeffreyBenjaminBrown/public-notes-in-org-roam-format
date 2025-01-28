@@ -2,12 +2,17 @@
 :ID:       e3884e9b-a4ae-4572-8317-7c7030df0b7d
 :END:
 #+title: music making, shared
+* [[id:1896c1b6-11a5-4a10-a350-1713acbbd6c6][kindness in perception]]
+* TODO music to program
+** [[id:fd8606cc-e6e6-441c-88f8-93a8cc4c0d30][Play another's states; time and loop them.]]
+** [[id:fe3446d1-cb5b-496a-aa4f-3d85fcac7f6b][Rearrange supercollider and play tidal realtime from MIDI input.]]
+* [[id:bbd1b9de-c855-41d9-8245-797d09790f87][splash improv]]
 * ideas I'm likely to want to share
 ** [[id:69cf0d19-f165-4cc4-8ac8-636b3d7992f6]["the" 7 12-tone scale families]]
 ** [[id:339f3f3a-49c2-4dfd-a66c-de482ccec92a][my introductory microtonal music recommendations]]
-* [[id:192a523e-5e8e-4199-a2d0-c22bd86cef12][jazz places in Bogota]]
-* places to do it
-** Matik Matik does improv sessions
-** Diosa Cervecería (Teusaquillo) has a Tuesday jazz jam
-* [[id:bbd1b9de-c855-41d9-8245-797d09790f87][splash improv]]
-* software for [[id:1e62cf8b-c5d2-42a4-b7d1-e3a10f37bee7][remote jamming]]
+* some music logistics
+** software for [[id:1e62cf8b-c5d2-42a4-b7d1-e3a10f37bee7][remote jamming]]
+** [[id:192a523e-5e8e-4199-a2d0-c22bd86cef12][jazz places in Bogota]]
+** places to do it
+*** Matik Matik does improv sessions
+*** Diosa Cervecería (Teusaquillo) has a Tuesday jazz jam

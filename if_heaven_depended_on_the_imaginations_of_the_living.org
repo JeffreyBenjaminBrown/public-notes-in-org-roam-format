@@ -2,9 +2,9 @@
 :ID:       dc4e7bea-8019-4dbe-bfe7-e58783e676c4
 :END:
 #+title: if heaven depended on the imaginations of the living
-* prior art
+* justification
   Neil Gaiman's novel "American Gods" is kind of this idea.
 * clarification
   The idea being something like,
-  when you imagine what the dead would say to you,
+  when you imagine what the dead would say,
   they live on -- not metaphorically, but consciously.

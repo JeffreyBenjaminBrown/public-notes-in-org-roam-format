@@ -1,5 +1,11 @@
 :PROPERTIES:
 :ID:       067cac8b-92b3-4936-bfd6-cf68fb8a3821
 :END:
-#+title: hikes in the Bogota Cerros app , when they become available
-* Not Wednesday morning
+#+title: hikes in the Bogota Cerros app : when they become available
+Each time I tested all five hikes of interest
+-- the four at La Vieja and the one at La Aguadora.
+* Not Monday at 10:30 am or 9:30 pm
+* Not Sunday at noon or 10 pm
+* Not Friday morning
+* Not Thursday morning or evening
+* Not Wednesday morning or evening

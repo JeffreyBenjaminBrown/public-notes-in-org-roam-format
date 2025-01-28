@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       2b15a3ec-086b-4c66-af57-a03e706e1d84
+:END:
+#+title: happiness
+* priavte \ jbb
+** [[id:0c752253-4f22-44a8-8509-dd37c3ba5a8a][social \ jbb]]
+** [[id:c48c126f-c92a-48ac-bff0-28933edf859f][creative \ jbb]]
+* [[id:2e75b219-6f4c-427f-9f61-13f618fd0e80][safety]]
+* [[id:a4fdc0d7-8ad9-471c-a559-7bd932b0f486][headspace]]
+* [[id:53459f63-5cb9-4332-a7cd-9cdf9f8743fd][fulfillment]]
+* [[id:a04c2b66-35bd-45f6-8dfa-5513ffe36a9c][introspect & reprogram]]
+* [[id:2b9554b2-640c-454e-ad13-bbb5419c8b53][Ambi Comunidad]]
+* [[id:13aba0e9-33c1-4f2b-906c-4ab3ab683522][emotional ambition]]
+* [[id:b2c221c4-2ece-4334-a7a7-2bf6876128f5][leisure v. labor]]
+* [[id:87b94a7c-60fe-43a9-818e-f08f5f560b70][big ideas]]

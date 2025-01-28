@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d2faa803-4b32-4ada-b4ee-212d07b028a5
+:END:
+#+title: romance
+* has two senses in English
+** the pursuit of romantic love
+** a sense of awe
+* [[id:890d9101-09c6-48f0-be54-e4e74a0ec961][romance + surprise]]

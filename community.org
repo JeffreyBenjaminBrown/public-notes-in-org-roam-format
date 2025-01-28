@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       4e748426-9ff0-4e7b-8192-b582a2ae7f95
+:END:
+#+title: community
+* [[id:2e75b219-6f4c-427f-9f61-13f618fd0e80][safety]]
+* [[id:f514b748-c188-4b71-afcd-48206b62a67e][community-building]]
+* [[id:12039f3b-10ed-488f-a2d3-d934aba4f022][embarrassing ambitions & community]]

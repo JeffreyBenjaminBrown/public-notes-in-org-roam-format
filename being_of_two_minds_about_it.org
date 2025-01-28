@@ -1,4 +1,7 @@
 :PROPERTIES:
 :ID:       42837d1b-0ddb-4bef-8387-93f429055208
+:ROAM_ALIASES: doublethink
 :END:
 #+title: being of two minds about something
+* etymology
+  From 1984 (book) by George Orwell.

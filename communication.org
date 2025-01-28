@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       caefb984-a505-49ac-b6ce-c0307b38b3e4
+:ROAM_ALIASES: "expression , how to"
 :END:
 #+title: communication
 * [[id:de26311c-9b4b-48f4-afa1-c7a680f73b30][Don't beat around the bush.]]

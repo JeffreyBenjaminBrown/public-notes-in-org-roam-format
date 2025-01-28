@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       6a13fd91-56f5-4cd9-93e7-e6935598ca66
+:END:
+#+title: English has a lot of words for {calm, ...}.
+* calm
+* dispute
+* invective
+* lazy

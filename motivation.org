@@ -1,11 +1,21 @@
 :PROPERTIES:
 :ID:       7b52eb18-91c5-4f83-be4f-40ff8a918541
+:ROAM_ALIASES: "ambition"
 :END:
 #+title: motivation
+* see also [[id:5ef1c402-43f5-47d6-ba00-1c8fbed27f7f][ambition]]
+* [[id:f66f6227-f85a-431b-906e-15af2d356d7e][motivation + time]]
+* [[id:040aefe7-c512-4ad9-a811-9b5950b44579][Fulfillment is "merely" the other side of hunger.]]
 * [[id:5599d39f-83c8-4d1f-bf31-304b761e0f69][hope v. fun :: competing hypotheses for motivation]]
 * [[id:655e21ab-5235-4a12-9636-0b04b0a411a4][specialization & graph search]]
 * [[id:40b049b7-ef2a-4eab-a9f8-07ee5841aa86][habit]]
 * [[id:0334782e-dd39-49e7-b296-ad1375ce404a][meditation => calm purpose]]
 * [[id:37425792-b489-4936-a7cf-1fbfabd75bea][Patience is a form of courage.]]
+* some ambitions
+** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
+** [[id:4e748426-9ff0-4e7b-8192-b582a2ae7f95][community]]
+** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
+** [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]
+* [[id:72cbafe2-fab2-413f-b78e-ff81f94c3599][embarrassing ambitions]]
 * dubious
 ** [[id:e756f326-8f05-44e3-85ee-ffdd54a6082f][life hack ? mission => jobhunt]]

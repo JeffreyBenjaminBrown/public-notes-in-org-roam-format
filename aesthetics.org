@@ -2,4 +2,4 @@
 :ID:       efead690-715e-4243-9dd9-9f6a53566263
 :END:
 #+title: aesthetics
-* [[id:63c24655-435d-4eca-9724-cb620f2197ee][spirituality = ethics + aesthetics?]]
+* [[id:f6dcf7b1-006b-4477-9366-872a570edb83][spirituality + aesthetics]]

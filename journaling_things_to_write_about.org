@@ -8,6 +8,7 @@ in the Waking Up app.
 ** Describe what I perceive, and how I perceive it
 *** How do feelings interact with those perceptions?
 *** Where does my attention go, or avoid?
+    [[id:2741003a-955b-4d4e-a7d1-152e7cbdd8db][Wants push and pull at attention.]]
 ** How does it benefit me or others, or fail to do so?
 ** What would people be most surprised to learn
 ** Implications for what I want

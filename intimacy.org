@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7c1233c5-02e7-451e-9265-fe35fe97855c
+:END:
+#+title: intimacy
+* [[id:42c3b5b2-ed45-4419-a6e5-9ab3f797da8d][Intimacy is permissions.]]
+* [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety v. surprise]]
+* [[id:2b15a3ec-086b-4c66-af57-a03e706e1d84][happiness]]

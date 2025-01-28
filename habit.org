@@ -2,6 +2,7 @@
 :ID:       40b049b7-ef2a-4eab-a9f8-07ee5841aa86
 :END:
 #+title: habit
+* [[id:c6eb0f31-04b3-4552-b52d-6bbaae98f34d][perception]]
 * [[id:d63a84ca-2d5a-46c7-867d-02ff9ec8edaf][Trivial inconveniences can be good or bad.]]
 * [[id:be4b304a-f08c-46b0-8954-8618b68b3dc7][Trivial invitations are powerful.]]
 * [[id:74fedaae-4cb2-40f5-bfd0-ee7582f23098][mental waste]]

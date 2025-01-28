@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       fd8606cc-e6e6-441c-88f8-93a8cc4c0d30
+:END:
+#+title: Play another's states; time and loop them.
+* problem : requires a realtime-playable display
+* the idea
+  A player plays a series of notes|chords|timbres|textures.
+    Some are simultaneous.
+  They sound immediately only in that player's headphones.
+  The drummer receives a live playable scrolling feed
+  of what the other has played.
+  Images of chords should convey all necessary information to reconstruct the chord in visibly recognizable form.
+  The drummer can also play a start and end time, and then hit a go button to trigger that whole passage, maybe as a loop.

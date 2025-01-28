@@ -1,7 +1,12 @@
 :PROPERTIES:
 :ID:       92cb5b77-ce0e-4e11-8e9e-3be146688fcf
+:ROAM_ALIASES: "humor"
 :END:
 #+title: comedy
+* [[id:ccae4c2d-ee71-4c9c-acea-99074df994da][expression]]
+* [[id:06e57867-5a5f-462b-b963-56ffa719c9b8][surprise]]
+* [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety v. surprise]]
 * [[id:6b47aadf-dab4-4984-8d79-b7269b79e1d2][Comedy and mindfulness seem hard to square.]]
-* [[id:64e43ca3-94d7-48f9-b144-d0e75f2e4b3e][comedy, some good]]
-* [[id:43042405-4371-4af8-be53-619c9ed078d4][comedy improv teachers in Bogotá]]
+* comedy , consuming and practicing
+** [[id:64e43ca3-94d7-48f9-b144-d0e75f2e4b3e][comedy, some good]]
+** [[id:43042405-4371-4af8-be53-619c9ed078d4][comedy improv teachers in Bogotá]]

@@ -3,6 +3,7 @@
 :END:
 #+title: science
 * [[id:c35ab968-7056-40fa-8816-ea16d5c88f6d][a list of sciences]]
-* [[id:b9c7b7e6-9849-4a24-984d-b2e2e749d81a][methods and institutions for science and research]]
+* science , how
+** [[id:b9c7b7e6-9849-4a24-984d-b2e2e749d81a][methods and institutions for science and research]]
 * problems in science
 ** [[id:635cf3cc-8ccd-477a-b5dd-475b6230e2ab][Publication in science is too much work.]]
