@@ -6,10 +6,8 @@
 ** [[id:b37024f7-716b-4748-9a33-d35e75f4ede1][epistemology]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
 ** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
-* expressivity voids , observed
-** [[id:895c50e4-60a7-4c7e-bcb5-092e1224f33e][options perpetually under considearation]]
-   I would like to put multiple orders on the options,
-   and compare them.
+* [[id:f8a53f00-6a18-4c44-b318-bdd411466005][Write the app data-first.]]
+* [[id:37f7be50-9b2c-4426-b288-e83225b6d5d8][expressivity voids , observed]]
 * share git history views
   motivation : Use TypeDB to make something simple but useful.
   Haven't figured it out yet.
@@ -23,6 +21,7 @@
 * Golden Retriever would be a funny name.
 * [[id:ec977e2d-46b9-455f-8be0-fb3eaba4c2ca][problems Hode might help]]
 * [[id:97c7fdde-181b-4a9e-b210-cc380b8afb8b][Hode usage and gameification]]
+* [[id:fb83f180-cb75-4180-ab9c-eb555f8ecc1b][relationships worth recording]]
 * [[id:e2911eb2-2d2f-4f8b-9de8-31356bb89df1][things Hode would enable]]
 * [[id:1369d33e-8671-40ed-8401-4bf7597202c1][outcome goals for the coommunity]]
 * [[id:1c1415bc-64d2-4cb3-9c65-b9b617d0777e][feature goals for the technology]]

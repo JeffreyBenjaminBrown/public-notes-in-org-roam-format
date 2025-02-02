@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "surprise + romance"
 :END:
 #+title: romance + surprise
+* [[id:692f7cf2-5d80-4bf2-bbd3-59db334b00c3][How radically different would we be?]]
 * Surprise seems inherent to romance
   because it requires getting to know someone.
 * Surprising gestures are often interpreted as romantic.

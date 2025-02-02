@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       0f31baae-03ab-490a-81f5-dadc80d75866
+:END:
+#+title: BlueSky social media platform
+* [[id:79771929-6e42-44f6-8591-64ffb015084a][BlueSky , friends on]]

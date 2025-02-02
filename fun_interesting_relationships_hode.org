@@ -5,6 +5,7 @@
 #+title: relationships worth recording
 * an incomplete list
   surely incomplete
+** [author] would like to know _
 ** [subject] <does|did|will do> [verb] (opt: to [argument]) under [condition]
    The three tenses could be unified,
    reducing three kinds of relationships to one,

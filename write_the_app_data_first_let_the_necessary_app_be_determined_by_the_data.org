@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f8a53f00-6a18-4c44-b318-bdd411466005
+:END:
+#+title: Write the app data-first.
+Let the necessary app be determined by the data.

@@ -2,6 +2,8 @@
 :ID:       de98c3eb-27ba-4a51-9875-9af3c6e2c2dd
 :END:
 #+title: beautiful things
+* [[id:379e34b6-6b0d-4e66-b0ca-fdcf01a8bb95][low-dimensional metaphors]]
+* [[id:ba91e3ad-997a-4b4e-9ed4-43324b94f10f][computational efficiency]]
 * [[id:d3e3d652-353a-4170-b3c8-4c77b2131372][starling murmurations]]
 * [[id:7faf1c3e-510c-4073-99e0-a764db062772][The storm at the heart of the Milky Way galaxy.]]
 * [[id:464172c4-0de9-4556-b25c-16add32f2a3a][a sliding cross section of columns packed in 3d along 7 directions]]

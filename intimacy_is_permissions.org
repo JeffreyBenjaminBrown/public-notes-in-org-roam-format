@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       42c3b5b2-ed45-4419-a6e5-9ab3f797da8d
 :END:
-#+title: Intimacy is permissions.
+#+title: intimate permission
 * It's qualitative, not quantitative.
   Some people have permission to make fun of you.
   Some people have permission to read your private

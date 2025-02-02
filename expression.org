@@ -6,5 +6,7 @@
 * [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
 * [[id:7c1233c5-02e7-451e-9265-fe35fe97855c][intimacy]]
 * [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]]
+* [[id:e8594ff4-8ca0-44ea-a349-f16163c376a7][irony]]
 * [[id:b22c1e2a-7fa6-4f02-b2a6-cc99219fe533][Words are more specific than music.]]
 * [[id:6a13fd91-56f5-4cd9-93e7-e6935598ca66][English has a lot of words for {calm, ...}.]]
+* [[id:37f7be50-9b2c-4426-b288-e83225b6d5d8][expressivity voids , observed]]

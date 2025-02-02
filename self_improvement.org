@@ -2,5 +2,7 @@
 :ID:       a7404dc2-004e-43d5-b8c6-862601cd2c03
 :END:
 #+title: self-improvement
+* [[id:fea693ce-0ef6-4535-9d8d-7e150ac6480e][things I want to know, that I could easily look up]]
+* [[id:28e96d3a-9cf7-4151-bf43-e155a739d568][I want to become more comfortable with rejection.]]
 * see also
 ** [[id:a9ab0de0-a5e2-4f71-9298-f183ae4bb58e][self-improvement \\ personal / jbb]]

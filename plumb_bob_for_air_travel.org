@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       e5f2402f-22ee-495c-8f6a-aeaa2fdf2471
+:END:
+#+title: plumb bob for air travel
+* to determine when we start descending
+* BLK_DATE assuming that would work
+  asked Josh on Facebook:
+  https://web.facebook.com/joshua.shinavier/posts/10161356406474810

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ba91e3ad-997a-4b4e-9ed4-43324b94f10f
+:END:
+#+title: computational efficiency
+* [[id:8265f779-a67c-40ff-8370-a842d00ee0e6][sound and visuals that illustrate sorting algorithms]]
+* [[id:191c16c8-215b-4a38-b257-83e0d7ace714][If there weren't nearly enough atoms to actually constitute everything you experienced, and instead they hopped from object to object.]]

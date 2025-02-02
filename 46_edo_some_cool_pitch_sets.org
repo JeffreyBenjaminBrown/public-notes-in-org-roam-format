@@ -3,7 +3,7 @@
 :END:
 #+title: 46-edo // cool or challenging pitch sets
 * TODO [[id:7fa71293-fe2f-4ddd-af25-87f0a8aadccf][RESUME here]]
-* I like 2-blimping scales.
+* I like 2-limping scales.
   I like scales with alternating step sizes.
 * [[id:68aa693f-5eea-4c77-aef0-4c9996ebece8][harmonic half-diminished starts from harmonic 5]]
 * [[id:29f64058-c7e5-48d0-a16f-c22d4ebd38a8][some intervals 7:6 plays well with]]

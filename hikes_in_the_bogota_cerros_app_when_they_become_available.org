@@ -4,6 +4,7 @@
 #+title: hikes in the Bogota Cerros app : when they become available
 Each time I tested all five hikes of interest
 -- the four at La Vieja and the one at La Aguadora.
+* Not Tuesday 7:40 am
 * Not Monday at 10:30 am or 9:30 pm
 * Not Sunday at noon or 10 pm
 * Not Friday morning
