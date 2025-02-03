@@ -4,3 +4,4 @@
 #+title: energy , personal
 * [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
 * [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][Living like there's no tomorrow]].
+* [[id:5dda3731-264a-44f0-87f6-90a680fd3402][Goal can affect energy profoundly.]]
