@@ -5,6 +5,7 @@
 #+title: relationships worth recording
 * an incomplete list
   surely incomplete
+** that someone's edits on a topic were accepted by another for their version of that topic
 ** [author] would like to know _
 ** [subject] <does|did|will do> [verb] (opt: to [argument]) under [condition]
    The three tenses could be unified,
