@@ -3,4 +3,11 @@
 :ROAM_ALIASES: "universal serial bus"
 :END:
 #+title: USB
+* USB dimensions
+** USB-A: old, big, rectangular
+** USB-C: 8.4 x 2.6 mm, symmetrical
+** USB-micro: 6.85 x 1.8 mm, asymmetric
+   :PROPERTIES:
+   :ID:       721e3d45-65eb-43f3-8ea0-b84a20c8b304
+   :END:
 * [[id:db6ef5ff-4276-4bbd-b008-4c1db7255e27][A bad USB cable can look like a software problem.]]

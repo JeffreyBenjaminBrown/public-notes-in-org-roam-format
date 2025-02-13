@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       888790ee-68e3-4255-a7db-6156a6a8fbe3
+:END:
+#+title: how to use the internet in China
+* Andrew F recommends
+  use Google fi which works in china
+  but you should use expressvpn or similar to access american sites
