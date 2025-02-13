@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       bac1d103-661e-41a6-a375-e5eb5bf400f9
+:END:
+#+title: Push notes at every commit!
+* motivating story
+  <2025-02-12 Wed> I blew at least two hours trying to recover
+  from a git disaster. I managed.
+  But the stakes would have been lower
+  had I been pushing more frequently --
+  I almost lost a week of work.
