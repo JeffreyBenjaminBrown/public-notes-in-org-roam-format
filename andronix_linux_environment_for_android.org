@@ -5,6 +5,8 @@
 #+title: Andronix (Linux environment for Android)
 * see also
 ** [[id:8a0fbcd5-247f-4619-8b5f-1e6b30de5e1b][org-roam on phone via Termux]]
+* seems to suck
+** Maybe that's because it just hasn't caught up to Android 14.
 * TODO delete my phone-based Discord account
   so I can associate the phone with my gmail account,
   which I need to do to use the Andronix discord server

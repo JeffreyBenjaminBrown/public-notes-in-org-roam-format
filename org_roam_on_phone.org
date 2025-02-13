@@ -2,13 +2,6 @@
 :ID:       f58610bf-d53b-42e6-873c-1bcd04dbc34e
 :END:
 #+title: org-roam on phone
-* alternatives, comparing
-** Running Linux natively on the phone would be faster.
-** But [[id:9dae1e9a-de96-4285-97bb-787073e6f48b][Andronix seems to suck.]]
-* alternatives
-** [[id:343a82a7-e007-4623-968b-8359234695a9][org-roam on phone via EC2 and Termux]]
-** [[id:05d01ae3-fcc9-474f-80f2-bc0fa47896d3][Andronix]] seems to suck.
-   :PROPERTIES:
-   :ID:       9dae1e9a-de96-4285-97bb-787073e6f48b
-   :END:
-*** Maybe that's because it just hasn't caught up to Android 14.
+* SOLVED : [[id:343a82a7-e007-4623-968b-8359234695a9][org-roam on phone via EC2 and Termux]]
+* The alternative, [[id:05d01ae3-fcc9-474f-80f2-bc0fa47896d3][Andronix]], seems to suck.
+** Too bad, because running Linux natively on the phone would be faster and free.

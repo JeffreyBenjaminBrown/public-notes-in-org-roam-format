@@ -6,9 +6,11 @@ Each time I tested all five hikes of interest
 -- the four at La Vieja and the one at La Aguadora.
 * Not Tuesday 7:40 am
 * Not Monday at 10:30 am or 9:30 pm
-  or 10:44 am a different week
+** nor 10:44 am a different week
+** nor 12:19 pm the week after that <2025-02-10 Mon>
 * Not Sunday at noon or 10 pm
   or 11 pm the next week
+  or 1 pm the week after that
 * Not Friday morning
 * Not Thursday morning or evening
 * Not Wednesday morning or evening

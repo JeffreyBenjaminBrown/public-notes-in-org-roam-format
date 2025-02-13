@@ -4,6 +4,8 @@
 #+title: love , (mostly?) romantic ,, public notes on
 * to read
 ** ONGOING [[id:8840a676-3937-4443-b35b-faca20fe35c1][Couplehood (book)]]
+* [[id:a55842c2-536e-4581-b04b-026715e646d1][love & responsibility]]
+* [[id:d0999d21-8eb2-4d35-abf4-0812e6a4131a][Sacrifices are proof of love.]]
 * [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]
 * [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][kindness]]
 * [[id:7884d437-6065-4e05-bf06-e2a0771cf507][love + magic]]

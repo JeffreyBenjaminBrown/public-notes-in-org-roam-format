@@ -2,6 +2,7 @@
 :ID:       8bcfda55-5ab3-4083-9a37-2a01eb216dc4
 :END:
 #+title: quantum physics
+* [[id:b8e13c7a-a5ad-4049-adc0-5325eb0f5116][Feel the multiverse.]]
 * to learn it
 ** Quantum Country, a free online interative platform
 https://quantum.country/

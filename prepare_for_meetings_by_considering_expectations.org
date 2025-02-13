@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       56df17f4-9bbe-4cec-bfaf-213d115aea17
+:END:
+#+title: Prepare for meetings by considering expectations.
+Consider who expects me to know what.

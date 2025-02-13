@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f34fb596-71fa-4327-97d8-c49302bd40b0
+:END:
+#+title: Genome , book by Matt Ridley
+* The Congo River divides chimpanzees from their sister species, the bonobos.
+* A lot of genetic disorders arise from genes that are helpful if you only have one of them.
+** For instance, the gene which if you have two of it causes often fatal sickle cell anemia, has few side effects and protects you from malaria if you only have one of it.
+* The Y chromosome collects genes that are helpful to males and harmful to females, and the X does the reverse.

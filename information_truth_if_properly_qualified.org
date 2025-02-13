@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       49a03bb3-7d57-4e38-89a5-93074d8fd152
+:END:
+#+title: Information (all of it!) is truth, if properly qualified.
+* "So-and-so said [it]" rather than merely [it].
+* "[statement] cites [source] and I verified it"

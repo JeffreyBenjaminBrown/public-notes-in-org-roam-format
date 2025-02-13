@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       2a675d23-842e-485a-afe9-a3d28bbaa2fe
+:END:
+#+title: fun times to say "that is a complete sentence"
+Or "those are true facts".
+* A sentences that remains true under multiple interpretable referents.

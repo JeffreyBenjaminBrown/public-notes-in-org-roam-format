@@ -2,4 +2,6 @@
 :ID:       2e76a07c-c6b4-4d05-968e-0bdd20ee4230
 :END:
 #+title: freedom v. commitment
+* [[id:e6aa1c14-0ae0-45bc-9cb4-7e614f8bccca][improvisation]]
 * [[id:d424dc9d-aaa6-4d26-accb-4ac85e160c21][cognitive dissonance and commitment (romantic)]]
+* [[id:f4078373-73fe-43a5-8906-dfb993a0b15e][Oulipo : freedom and inspiration via constraints]]

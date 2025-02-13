@@ -7,6 +7,7 @@
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
 ** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
 * [[id:f8a53f00-6a18-4c44-b318-bdd411466005][Write the app data-first.]]
+* [[id:49a03bb3-7d57-4e38-89a5-93074d8fd152][Information (all of it) is truth ,, if properly qualified.]]
 * [[id:37f7be50-9b2c-4426-b288-e83225b6d5d8][expressivity voids , observed]]
 * share git history views
   motivation : Use TypeDB to make something simple but useful.

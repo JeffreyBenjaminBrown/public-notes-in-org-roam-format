@@ -3,6 +3,7 @@
 :END:
 #+title: awe
 * some awe-inspiring things
+** [[id:97129402-46bc-41ea-91f6-6a7faae61a79][I am nothing before the world.]]
 ** [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
 ** [[id:c73ee824-eb2b-43f4-8ead-32d9d62ddc75][death]]
 ** [[id:f6dcf7b1-006b-4477-9366-872a570edb83][spirituality + aesthetics]]

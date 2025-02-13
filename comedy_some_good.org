@@ -13,6 +13,7 @@
 * Bryan Callen
 * Cam Bertrand
 * Chad Daniels
+* Daniel Simonsen
 * Demetrio Martín
 * Derek stroup
 * Dina Hashem

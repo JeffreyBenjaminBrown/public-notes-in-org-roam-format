@@ -26,6 +26,14 @@ I'd like to change the password that encrypts my current Borg repo. I've read th
 If I run `borg key change-passphrase` and delete any compromised old copies of the repo, will new copies of the repo still be readable by someone who has the old password and not the new one?
 
 [1] https://borgbackup.readthedocs.io/en/stable/usage/key.html
+* path grammar
+** example covering everything I need, with explanations.
+   sh:/home/jeff/Documents/REAPER Media/**/*.[wW][aA][vV]$
+*** This line can be included directly in the exclude file
+    Not every line of that file need be preceded with `sh:`.
+*** The `sh:` indicates that it's "shell syntax" (for regex).
+*** The `/**/` matches 0 or more levels of folder.
+*** The [wW][aA]vV] covers .wav, .Wav, .WAV, etc.
 * keyfiles and passphrases
 ** the idea
    If the repo is encoded with keyfiles,

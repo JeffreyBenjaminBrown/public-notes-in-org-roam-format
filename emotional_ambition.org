@@ -5,8 +5,10 @@
 * It seems right to have them.
   To want, for instance, deeper relationships,
   or to be moved to tears by art.
+* instances
+** [[id:b236df4e-956c-49f7-b694-da598ccae237][peace with death]]
+** [[id:c5b7909b-621a-4a43-8641-7b9df357ee36][Second-order awareness.]]
+** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love , public notes on]]
+** [[id:792aec5d-797b-4ff7-bc48-ea814d22c4a1][wonder]]
 * [[id:763e96f9-b1eb-4e0a-b7a7-04917a32f097][Happiness must be a priority.]]
-* [[id:c5b7909b-621a-4a43-8641-7b9df357ee36][Second-order awareness.]]
-* [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love , public notes on]]
-* [[id:792aec5d-797b-4ff7-bc48-ea814d22c4a1][wonder]]
 * [[id:b268c502-2ebd-4d76-9025-0a4e2806e1d8][Emotions can be decomposed into sensations.]]

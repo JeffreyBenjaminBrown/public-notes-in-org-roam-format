@@ -1,0 +1,312 @@
+:PROPERTIES:
+:ID:       c32b9041-ee81-4b97-a592-07918981b332
+:END:
+#+title: spaced repetition & vocab
+* last review: 3
+* 1 mod 2
+** wanton
+   deliberate and unprovoked
+** voluble
+   fluent, talkative
+* 2 mod 4
+** insouciant
+   carefree, with overtones of irresponsibility
+
+   From french "souci": concern or worry.
+     Root also of "solicit" and "solicitous".
+** stint (v.)
+   to be thrifty
+   "She never stints on quality when buying ingredients."
+   "He stinted himself on sleep to finish the project."
+   "He never stints when it comes to helping his friends."
+   "She stinted her children nothing."
+* 4 mod 8
+** allay
+   diminish or put at rest (a fear, concern, etc.)
+** bumptious
+   Offensively self-assertive; pushy
+** contumacious
+   rebellious
+
+   from Latin "tumēre": "to swell" or "to be puffed up".
+
+   Tumor – A swelling or growth (from tumēre).
+   Tumescent – Swollen or puffed up.
+   Tumult – A noisy disturbance or uprising (possibly linked to tumēre in the sense of something surging or swelling).
+   Contumacy – Stubborn refusal to obey authority (a noun form closely related to contumacious).
+   Contumely – Insolent or scornful language or treatment (derived from the same root, indicating arrogance or defiance).
+** garrulous
+   talkative, especially on trivial matters
+** effrontery
+   Shameless boldness; impudence.
+   (Etymology: Face-first.)
+** esurient
+   hungry, greedy
+** admonition
+   a firm warning or reprimand
+   ("admonish")
+** supercilious
+   arrogant (in appearance or behavior)
+** penurious
+   1 - very poor
+   2 - stingy
+** officious
+   Aggressively authoritative in offering help or advice, especially re. trivial matters
+** pusillanimous
+   afraid
+** adumbration
+   1 - the act of giving the main facts and not the details about something, or something that gives these main facts:
+   2 - foreshadowing
+** solicitous
+   characterized by or showing interest or concern
+** descry
+   to glimpse
+   From "cry". Related words:
+   Decry, cry.
+** reprobate
+   sinful, depraved
+** rueful
+   causing sorrow or pity
+** salacious
+   lustful; sexually indecent
+** temerity
+   excessive confidence or boldness; audacity
+** vainglorious
+   excessive, pretentious
+** welter
+   Turmoil (noun); to roll, tumble, or toss about (verb)
+** whet
+   sharpen or stimulate
+** effulgent
+   shining brightly; radiant
+** reliquaries
+   a container for holy relics
+** quisling
+   traitor
+** simony
+   the buying or selling of religious or sacred objects or privileges
+** burgeon
+   To grow forth; to send out buds
+** calumniate
+   To make false and malicious statements about; to slander
+   ("calumny")
+** countenance
+   n. face, facial expression
+   v. accept, support, approve
+** guileless
+   without deceit
+** halcyon
+   1 - calm                                                   (said the GRE book)
+   2 - of a past time that was idyllically happy and peaceful (said Google)
+** impecunious
+   without money, broke ("pecuniary")
+** importune
+   harass (someone) persistently for or to do something.
+** impugn
+   1 - dispute the truth, validity, or honesty of (a statement or motive)
+   2 - call into question
+** insensible
+   1 - unaware of or indifferent to
+   2 - unconscious, esp. intoxicated
+** intimate (v)
+   to communicate something indirectly or delicately,
+   or to make something known
+** inure
+   To harden or toughen by use, exercise, or exposure
+** invidious
+   envious
+** irascible
+   easily angered
+** licentious
+   Unrestrained by laws or rules, especially those related to sexuality
+** malingerer
+   One who feigns illness to escape duty
+** mealymouthed
+   afraid to speak frankly or straightforwardly.
+** parsimonious
+   stingy
+** perfidy
+   treachery, betrayal
+** phlegmatic
+   Slow moving; not easily roused to feeling or emotion
+** plumb
+   1 - To make vertical.
+   2 - To reach the deepest point.
+** recondite
+   (of a subject or knowledge) little known; abstruse
+** solecism
+   noun
+   - a grammatical mistake in speech or writing.
+   - a breach of good manners; an instance of incorrect behaviour.
+** cacology
+   The use of bad or incorrect language.
+** craven
+   afraid
+** didactic
+   for purposes of teaching
+** diffident
+   lacking confidence
+** divest
+   To strip; to deprive, often in terms of property
+** elegy v. eulogy
+   eulogy : a speech that praises a person, esp. the dead
+   elegy : a poem that expresses sorrow, esp. for the dead
+** ennui
+   boredom
+** equable
+   1 - Varying little.
+   2 - Even-tempered.
+** expatiate
+   To speak or write at some length on a given topic or theme
+** expiation
+   The means by which atonement or reparation is made
+** phylactery
+   a religious amulet, or a box for one
+** ardor
+   passion ("ardent")
+** fulminate
+   1 - express vehement protest
+   2 - explode violently or flash like lightning
+** prescience
+   foreknowledge
+** propitious
+   presenting favorable conditions
+** protean
+   changeable (esp. in shape)
+** recant
+   to formally withdraw a statement
+   (think "renounce")
+** restive
+   restless, resentful
+** salubrious
+   healthful
+** secrete
+   - produce and discharge
+   - hide (transitive)
+** sedulous
+   persistent (in effort)
+   from latin "sed" = to sit
+   ala sedate, sedentary, session, supercede
+** sinuous
+   curving in and out
+** spate
+   secondary: a sudden outpowering or (literal) flood in a river
+** specious
+   seemingly reasonable but incorrect
+** supine
+   on one's back, face up
+** sybarite
+   someone devoted to luxury and pleasure
+** tawdry
+   showy in a cheap way
+** tendentious
+   expressing or intending to promote a particular cause or point of view, especially a controversial one
+** titular
+   kaving the title but not the usual accompanying power
+** truculent
+   eager or quick to argue or fight; aggressively defiant
+** tyro
+   beginner, novice
+** urbane
+   refined, courteous, polite
+** vantage
+   a place that offers a good view or advantageous position
+** vapid
+   dull, bland, lifeless
+** variegated
+   - many-colored
+   - marked by variety
+** vicissitude
+   change of circumstances
+** winsome
+   attractive, charming
+** wreak
+   inflict
+** yore
+   time past
+** cadge
+   ask for or obtain
+   (something to which one is not strictly entitled)
+* 8 mod 16
+** portend
+   foretell
+** paean | peon
+*** paean : a song, hymn or written work of praise
+*** peon : low-class worker or slave
+** bowdlerize
+   To remove the indecent words from something.
+** abeyance
+   State of suspension; temporary inaction
+** reproof
+   an expression of blame or disapproval.
+** endemic
+   - (of a disease) regularly occurring within an area or community. "areas where malaria is endemic"
+   - (of a plant or animal) native and restricted to a certain place.
+** archipelago
+   A large group of islands
+** stolid
+   calm, dependable, and showing little emotion or animation
+** coda
+   Concluding section of a musical or literary piece; something that summarizes
+** cohort
+   can also mean "companion"
+** commensurate
+   Corresponding in amount, quality, or degree
+** consummate
+   v. to bring to completion
+   a. showing great skill and flair
+** abstruse
+   difficult to understand; obscure.
+** ignominious
+   Shameful, disgraceful ("ignominy")
+** impenitent
+   Not feeling regret about one’s sins
+** indigent
+   Lacking necessities, such as food, clothing, and shelter
+** inexorable
+   Not subject to change; not able to be persuaded or convinced
+** insipid
+   1 - bland
+   2 - uninspired
+** jingoism
+   Professing one’s patriotism loudly and excessively
+** laconic
+   concise
+** mendicant
+   A beggar or homeless person
+** moribund
+   Near death or extinction
+** obdurate
+   stubborn
+** obsequious
+   Servile; ready to serve
+** pathos
+   rousing emotion or sympathy
+** loquacious
+   talkative, maybe too much
+** adage
+   proverb
+** felicitous
+   1 - well chosen or suited to the circumstances.
+   2 - pleasing and fortunate.
+   3 - lucky
+** desultory
+   Aimless; haphazard
+** diatribe
+   Bitter or malicious criticism
+** aphorism
+   pithy observation containing a general truth
+** enervate
+   weaken
+** engender
+   cause, give rise to
+** exigency
+   urgent situation
+** extenuating
+   The state of explaining or justifying in order to lessen the seriousness of an action
+** extirpate
+   To root out; to eradicate
+** gainsay
+   To contradict or oppose
+** malapropism
+   the mistaken use of a word in place of a similar-sounding one, often with an amusing effect (e.g. ‘dance a flamingo ’ instead of flamenco ).

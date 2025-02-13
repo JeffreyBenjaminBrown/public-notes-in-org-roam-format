@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       984c7ad4-2d1a-4d91-88d0-7e01ab56489f
+:ROAM_ALIASES: "a2jmidid : make 2 virtual ports"
 :END:
 #+title: how to make a2jmidid create 2 virtual ports
 * WORKS: a procedural solution

@@ -3,3 +3,4 @@
 :END:
 #+title: discipline
 * [[id:e0a738a1-6bcc-4995-9c58-472f85432140][Intentionally seek out things that are hard.]]
+* [[id:5a49b82d-9b09-4f5a-ae80-6c6595d46ae1][Practice and resume-building suck.]]

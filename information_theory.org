@@ -3,3 +3,4 @@
 :END:
 #+title: information theory
 * the [[id:6abbc45b-c279-46d0-9c17-d009612077dd][German tank problem]]
+* [[id:49a03bb3-7d57-4e38-89a5-93074d8fd152][information = truth ,, if properly qualified]]

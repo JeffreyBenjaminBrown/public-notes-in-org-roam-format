@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       3dcae04e-a146-4865-8e89-d9bc8bceca8a
+:END:
+#+title: HEPA filters are oriented. The rougher side is for the incoming air.

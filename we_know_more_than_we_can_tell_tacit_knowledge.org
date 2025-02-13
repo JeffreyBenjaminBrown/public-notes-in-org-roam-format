@@ -5,3 +5,4 @@
 #+title: We know more than we can tell.
 * Examples: riding a bicycle, recognizing a face.
 * Polanyi called this "tacit knowledge".
+* [[id:2a675d23-842e-485a-afe9-a3d28bbaa2fe][fun times to say "that is a complete sentence"]]
