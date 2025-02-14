@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3cc52030-7085-4633-9158-88b6c92872a8
+:END:
+#+title: cold email advice
+* Some from 80k Hours
+  https://80000hours.org/articles/email-scripts
