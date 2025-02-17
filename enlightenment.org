@@ -3,7 +3,9 @@
 :ROAM_ALIASES: "enlightenment, visions of"
 :END:
 #+title: enlightenment
-* [[id:4bee1cff-403d-43e4-a8a6-eb72f573cbfa][enlightenment as betrayal]], a pulling-out of the rug from under
-* [[id:594672a6-5eec-4ba3-aa30-1298ecbe65bf][a paradise dependent on tacit knowledge]]
 * [[id:8647bcfc-d5ef-45c3-b6ad-fc7789f0fad2][forgiveness, inc. self-forgiveness]]
 * [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness]]
+* ? [[id:5565fa65-7508-41f4-bfc3-04053399bfcd][maximum enlightenment]]
+* [[id:e8594ff4-8ca0-44ea-a349-f16163c376a7][ironic]] conditions for it
+** [[id:594672a6-5eec-4ba3-aa30-1298ecbe65bf][a paradise dependent on tacit knowledge]]
+** [[id:4bee1cff-403d-43e4-a8a6-eb72f573cbfa][enlightenment as betrayal]], a pulling-out of the rug from under

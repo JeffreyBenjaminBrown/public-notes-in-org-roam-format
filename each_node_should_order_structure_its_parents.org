@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       9b247ad4-a606-4bd4-a5a6-df297d91e262
+:END:
+#+title: Each node should [order, structure] its parents.
+* motivation
+  I'm likely to dive into the first parents I see first,
+  and searching kind of depth-first,
+  never return to read the other parents.
+* simple case: order them
+** Each would keep an ordered list of parents.
+** Some of those listed parents will be absent in the graph.
+*** The user could choose how to see this property.
+    alternatives
+**** as a single "some parents are missing" parent
+     always above or below
+**** HARD : a "parent missing" label at every relevant position
+*** HARD : the order between them could be inferred from other nodes
+** Some of the parents in the graph will not be listed.
+   There could be a single "unlisted parents" category,
+   mixed in with the parents in the stored on-node list of parents.
+   This would let the user decide where unlisted parents appear in the list of parents. (Their order within that category would be undefined.)
+* more complex case: group them

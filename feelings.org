@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       e3f2958a-c686-4c2a-934b-530fcd681a42
+:END:
+#+title: feelings
+* [[id:dca72b0d-ee2c-4666-8e87-4cf5bf58da98][emotional free lunches]]
+* [[id:8b0040c0-243b-43d4-8cc8-e9b3ffb35180][comfort]]
+* [[id:a890ee05-e949-4690-b152-7fe13e35dcc5][bitterness]]
+* [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]

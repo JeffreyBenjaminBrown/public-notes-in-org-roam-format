@@ -1,5 +1,7 @@
 :PROPERTIES:
 :ID:       7884d437-6065-4e05-bf06-e2a0771cf507
+:ROAM_ALIASES: "magic + love"
 :END:
 #+title: love + magic
 * [[id:06e57867-5a5f-462b-b963-56ffa719c9b8][surprise]]
+* [[id:27481367-d7b7-479c-9cd9-d78edabe949b][if you had a really epic missing half]]

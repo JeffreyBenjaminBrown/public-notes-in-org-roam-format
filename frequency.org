@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       cb9fc0dd-9f72-4f52-9a46-84123b4f971e
+:END:
+#+title: frequency
+* Keep these notes surprising.
+* [[id:82fbcfc0-61ea-4f30-82e5-3eb5148a16cf][emotion & frequency]]
+* dubious
+** social Nyquist invisibility

@@ -1,0 +1,122 @@
+:PROPERTIES:
+:ID:       66a0b19d-a524-4ad0-b920-65fc701f78c4
+:END:
+#+title: exploring the org-roam db
+* to view it
+** from Bash
+   evaluate `sqlite3 org-roam.db` in bash
+** from Emacs
+*** Evaluate my code at
+    ~/hodal/osc-gen/main.el
+*** then run a query like [[id:14f2fdb7-25cd-4f69-abe6-c228d7f49ec7][one of these]]
+* some queries
+  :PROPERTIES:
+  :ID:       14f2fdb7-25cd-4f69-abe6-c228d7f49ec7
+  :END:
+** five things
+   (org-roam-db-query-to-buffer
+     [:select [id title file properties] :from nodes :limit 5])
+** view a non-title node, internal to a file
+      (org-roam-db-query-to-buffer
+	 [:select [id title file level pos todo priority scheduled deadline properties olp]
+          :from nodes
+	 :where (= id "e663a892-7596-49c4-8b2e-d9fd9efb6cb2")])
+** view a title node
+      (org-roam-db-query-to-buffer
+	 [:select [id title file level pos todo priority scheduled deadline properties olp]
+          :from nodes
+	 :where (= id "ef673990-4aa1-466f-ac5f-f0296b02e716")])
+** some links
+   (org-roam-db-query-to-buffer
+     [:select [pos source dest type properties]
+      :from links :limit 5])
+** some files
+   (org-roam-db-query-to-buffer
+     [:select [file title hash atime mtime]
+      :from files :limit 5])
+* TODO
+** View some rows of each table.
+   And see how they respond to tweaks in files.
+* PITFALL: `title` fields ignore links.
+  If a headline's text includes a link, it is stripped of its id and brackets. But that information can be recovered from the ITEM property. Here is an example property dump from the `nodes` table:
+  ((CATEGORY . health_personal_project)
+   (ID . e663a892-7596-49c4-8b2e-d9fd9efb6cb2)
+   (BLOCKED . )
+   (FILE . /home/jeff/org-roam/personal/health_personal_project.org)
+   (PRIORITY . B)
+   (ITEM . see [[id:8642dd92-9550-476e-b4e8-0dd5a3e04a74][dermatologist]] about itchy spot on arm))
+  But that ITEM property appears to usually be absent -- because, I imagine, you can usually retrieve it from the title.
+* schemas
+  There are seven tables.
+** .schema files
+*** Interestingly, ID is not a property here.
+    The nodes table must link into it, not vice-versa.
+*** TODO How are the times used?
+    Somehow the times are used to determine when to see if t he hash has changed. If it has, the file is reparsed and the tables are updated accordingly.
+*** code
+    CREATE TABLE files (
+      file UNIQUE PRIMARY KEY, -- a fully qualified path
+      title ,
+      hash NOT NULL,
+      atime NOT NULL, -- TODO what is `atime` for? ChatGPT guesses it is the access time, as would I, but who cares about that?
+      mtime NOT NULL);
+** .schema nodes <- primary
+   CREATE TABLE nodes (
+     id NOT NULL PRIMARY KEY,
+     file NOT NULL,
+     level NOT NULL, -- 1 = top, 2 = subheadline, etc.
+     pos NOT NULL, -- (goto-char this) puts point at line start.
+                   -- This is 1 if the node is a whole file.
+     todo , -- string; might be TODO, DONE, etc (or nil).
+     priority ,
+     scheduled text,
+     deadline text,
+     title , -- does not include TODO etc.
+     properties ,
+     olp ,
+     FOREIGN KEY (file) REFERENCES files (file)
+       ON DELETE CASCADE);
+** .schema links
+   CREATE TABLE links (
+     pos NOT NULL, -- Where in the emitting file to find the link.
+                   -- Identifies its first '[' character.
+     source NOT NULL, -- the file that emits (& contains) the link
+     dest NOT NULL, -- the file that receives the link
+     type NOT NULL, -- "id" = org-roam, "https", etc.
+     properties NOT NULL,
+     FOREIGN KEY (source) REFERENCES nodes (id)
+       ON DELETE CASCADE);
+** [#B] I don't think I'll use the rest.
+*** .schema aliases
+    CREATE TABLE aliases (
+      node_id NOT NULL,
+      alias ,
+      FOREIGN KEY (node_id)
+	REFERENCES nodes (id) -- `nodes` is another table.
+	ON DELETE CASCADE);   -- If a node in `nodes` is deleted, delete all references to it in `aliases`.
+      -- Effectively, each row in aliases says, “This alias belongs to node_id, which is a record in the nodes table.”
+    CREATE INDEX alias_node_id ON aliases (node_id );
+      -- Makes finding every `alias` for a given `node_id` fast.
+*** .schema citations
+    CREATE TABLE citations (
+      node_id NOT NULL,
+      cite_key NOT NULL,
+      pos NOT NULL,
+      properties,
+      FOREIGN KEY (node_id) REFERENCES nodes (id)
+	ON DELETE CASCADE);
+*** .schema refs -- empty for me?
+    CREATE TABLE refs (
+      node_id NOT NULL,
+      ref NOT NULL,
+      type NOT NULL,
+      FOREIGN KEY (node_id) REFERENCES nodes (id)
+	ON DELETE CASCADE);
+    CREATE INDEX refs_node_id ON refs (node_id );
+*** .schema tags
+    CREATE TABLE tags (
+      node_id NOT NULL,
+      tag ,
+      FOREIGN KEY (node_id) REFERENCES nodes (id)
+	ON DELETE CASCADE);
+    CREATE INDEX tags_node_id ON tags (node_id );

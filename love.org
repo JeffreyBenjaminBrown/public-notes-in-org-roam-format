@@ -1,11 +1,13 @@
 :PROPERTIES:
 :ID:       a4897164-eb28-4c26-8f26-c8ac98f2db16
 :END:
-#+title: love , (mostly?) romantic ,, public notes on
-* to read
-** ONGOING [[id:8840a676-3937-4443-b35b-faca20fe35c1][Couplehood (book)]]
+#+title: love ,, brotherly & romantic
+* [[id:059f1add-e1e1-4124-bab6-5d270e0332e7][Imaginative hope is funny]] in a love-seeking context.
+* caveat
+  These notes might skew toward romance.
 * [[id:a55842c2-536e-4581-b04b-026715e646d1][love & responsibility]]
-* [[id:d0999d21-8eb2-4d35-abf4-0812e6a4131a][Sacrifices are proof of love.]]
+* [[id:a003eba1-b71e-404e-b811-a95cb98bcb14][duh]]
+** [[id:d0999d21-8eb2-4d35-abf4-0812e6a4131a][Sacrifices are a way to prove love.]]
 * [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]
 * [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][kindness]]
 * [[id:7884d437-6065-4e05-bf06-e2a0771cf507][love + magic]]
@@ -16,6 +18,11 @@
 ** [[id:20498902-7288-4d65-bc57-76f1d5d35138][mindfulness and awe in romance]]
 ** [[id:2c1bd3f0-53c1-433a-8001-62815389593c][comedy in romance]]
 ** [[id:13aba0e9-33c1-4f2b-906c-4ab3ab683522][emotional ambition]]
-* [[id:42c3b5b2-ed45-4419-a6e5-9ab3f797da8d][Intimacy is permissions.]]
+* love & intimacy
+** [[id:42c3b5b2-ed45-4419-a6e5-9ab3f797da8d][Intimacy is permissions.]]
+** [[id:141d7c71-d118-4511-96fe-a9061dc2af55][Lessons about intimacy are funny.]]
+* [[id:33e547f5-0346-4fd8-b480-62a821a48d1c][Teasing can be fun.]]
 * [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][living like there's no tomorrow]]
-* It's weird that [[id:83896131-4896-40a6-b109-f83c5337d48c][to be motivated to seek love feels bad]].
+* [[id:83896131-4896-40a6-b109-f83c5337d48c][Does being motivated to seek love feel bad?]]
+* to read
+** ONGOING [[id:8840a676-3937-4443-b35b-faca20fe35c1][Couplehood (book)]]
