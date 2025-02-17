@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       255a4912-7dbf-47f4-bff3-3917432616ef
+:END:
+#+title: taste (as in style)
+* see also [[id:8747b78b-32e2-408c-9e49-4e760e4aa921][style]]
+* [[id:1714269c-56fc-4c72-9faa-eebf49c6a07f][musical responsibility]]
+* [[id:ff5f634a-f8fa-482c-95a7-6be10e55e58d][comic responsibility]]

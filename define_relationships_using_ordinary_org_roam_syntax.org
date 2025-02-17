@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       562876f3-9608-4ebe-9ab1-f119188ffa32
+:END:
+#+title: Define relationships using ordinary org-roam syntax.
+* relationship files
+  Not all relationships need have an associated file. For those that do, the file can suggest how to type the relationship.
+* This properties syntax might be sufficient.
+** it
+   relation name,
+   relates [in order | no order] : [node_id]
+** how it naturally represents the current org-roam syntax
+   relation name : "",
+   relates [in order] : length 2 [node_id]
+* Lack of typing seems okay.
+  People must be able to record whatever they want regardless.
+  Some attention mechanism -- count likes? "this is true"s, "this helped me"s, etc?
+* Autocomplete to suggest other relation names would be good.
+  Match on any of the terms rather than all of them,
+  and order by estimated relevance.
+* Order becomes harder in the hypergraph.
+** A node's author may want to order the contents of related nodes when viewed through it.
+* A TypeDB representation of it seems very natural.
+** There are only nodes.
+** The simplest, arbitrary text, are atoms.
+*** TODO Should distinct atoms with the same text be possible?
+    Within one person's work, I'm guessing no.
+** An n-item relationship is represented as an (n+2)-ary relationship involving a relationship name, a boolean for order, and the nodes.
+* How to show that information?
+** "inline" or "whole readable expression" property
+*** definition
+    for some reason I did this twice
+**** This property would represent one of two states for the node:
+***** Divide the node in the view across separate lines by relation name and members.
+***** Represent the node as a sequence on one line, by substituting the members into the relationship template.
+**** a restatement
+     node = {inline as whole expression : bool,
+             ...},
+     = whether to inline a node as a whole readable expression, or break it across lines
+*** This property would be saved across sessions.

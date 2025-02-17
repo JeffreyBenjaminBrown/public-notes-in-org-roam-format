@@ -1,8 +1,10 @@
 :PROPERTIES:
 :ID:       0e9ffac9-3b18-45fb-9a16-75d54cb43316
+:ROAM_ALIASES: "sexiness"
 :END:
 #+title: attractiveness
-* Is this different from [[id:3b8f63eb-cd16-4206-b98b-198262bd102c][sexiness]]?
+* see also
+** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
 * [[id:059f1add-e1e1-4124-bab6-5d270e0332e7][Imaginative hope is funny.]]
 * Ideally it is kept in (perceptible) check.
   For at least some of its elements [interested],
@@ -14,6 +16,11 @@
 ** happy
 ** moderately persuadable
 ** funny
-   There are moments where one shouldn't,
-   and moments where it is unlimited.
 ** [[id:d7a402d9-94a1-4db7-8b62-fad22d211f74][teasing]]
+* [[id:e3f7d448-2b88-41bb-ac5b-44cdb34c0828][Sexiness does not feel obligated.]]
+* Sexiness is confident.
+** Sexiness is confident about who (including nobody) to share what with.
+* Gravity when appropriate is sexy.
+* It is self-aware.
+* It is [joking, restrained, serious, unconvinced] when appropriate.
+** It is not too visibly [happy, interested] too often.

@@ -4,8 +4,13 @@
 #+title: duh
 * justification
   seems like it might become a fun collection
+* So far, these seem like ideas for which it might be a personal decision when to decide you have handled them sufficiently.
 * instances
 **** how to read it
      look parentward from its children
+** [[id:6c5de1a3-8072-4f6c-a5a2-8f693c34101a][I see somewhat past myself.]]
 ** [[id:e38be3e1-5e14-47f9-84e9-6d5da8e4b8fe][Negative emotions can cause positive qualities.]]
 ** [[id:d0999d21-8eb2-4d35-abf4-0812e6a4131a][Sacrifices are proof of love.]]
+** [[id:8b9a976f-2587-4c9f-95a9-eae483550d7b][pain]]
+*** [[id:71dc8ea7-cbd0-4fc5-8514-e0617b422569][Study your pains.]]
+** [[id:42e09516-0163-4c6a-bd03-ef9b3f10fb95][valuable things that do not guarantee pride]]

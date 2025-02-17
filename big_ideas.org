@@ -3,7 +3,7 @@
 :END:
 #+title: big ideas | ideas to evangelize
 * [[id:dea50354-cdfe-47c8-8f15-043c70d66da0][high terms]]
-* [[id:437537a9-277d-4c61-a13b-f18170c3ba56][why economics is fascinating and useful]]
+* [[id:437537a9-277d-4c61-a13b-f18170c3ba56][Economics is fascinating and useful.]]
 * [[id:4dd0aeea-1613-4121-ad8d-00f6d0ed4f4c][lifestyle/character changes under consideration]]
 * [[id:30f03478-6b0f-4b08-9c47-7a32c3907993][atheist spirituality]]
 * [[id:4a68de20-5a78-4360-94a1-ba01e090df19][a few causes important to me]]

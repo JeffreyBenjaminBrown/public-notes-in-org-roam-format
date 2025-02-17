@@ -23,4 +23,5 @@
 * [[id:2daee2c9-6fa3-4192-b8df-37516bcccb62][cognition]]
 * [[id:3b8f63eb-cd16-4206-b98b-198262bd102c][sexiness]], [[id:0e9ffac9-3b18-45fb-9a16-75d54cb43316][attractiveness]]
 * [[id:5fe70812-fd17-4692-aa21-61a55c80ea71][nostalgia]]
+* [[id:255a4912-7dbf-47f4-bff3-3917432616ef][taste (as in style)]]
 * [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]

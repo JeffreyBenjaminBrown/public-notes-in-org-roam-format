@@ -2,7 +2,12 @@
 :ID:       e3f2958a-c686-4c2a-934b-530fcd681a42
 :END:
 #+title: feelings
+* TODO list more preexisting notes here
+* [[id:82fbcfc0-61ea-4f30-82e5-3eb5148a16cf][emotion & frequency]]
 * [[id:dca72b0d-ee2c-4666-8e87-4cf5bf58da98][emotional free lunches]]
 * [[id:8b0040c0-243b-43d4-8cc8-e9b3ffb35180][comfort]]
 * [[id:a890ee05-e949-4690-b152-7fe13e35dcc5][bitterness]]
 * [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
+* [[id:dc735cdb-6166-4f57-b7aa-b537b1ecb98f][lost]]
+* [[id:ee3db6a1-1143-439c-8912-10fb2a4d3b8d][numbness]]
+* [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]

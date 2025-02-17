@@ -2,6 +2,6 @@
 :ID:       4af09a9a-af4b-4213-b570-bda5c17e7547
 :END:
 #+title: confidence
-* [[id:33e547f5-0346-4fd8-b480-62a821a48d1c][Teasing can be fun.]]
+* [[id:33e547f5-0346-4fd8-b480-62a821a48d1c][Teasing can be bonding.]]
 * [[id:6de03e24-7211-4346-9383-64ded344e366][Confidence is comfortable.]]
 ** [[id:e3f7d448-2b88-41bb-ac5b-44cdb34c0828][Sexiness does not feel obligated.]]

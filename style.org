@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8747b78b-32e2-408c-9e49-4e760e4aa921
+:END:
+#+title: style
+* see also [[id:255a4912-7dbf-47f4-bff3-3917432616ef][taste]]
+* [[id:6de03e24-7211-4346-9383-64ded344e366][Confidence is comfortable.]]

@@ -2,5 +2,6 @@
 :ID:       50132c61-a3f9-4e28-bdbd-e2d0e6f35f28
 :END:
 #+title: emotion
+* [[id:b52cc97b-b236-42df-bd3a-93d5e012e416][Feel accurate emotions.]]
 * [[id:ce6ab269-6c12-4600-b7b5-2eff96732133][Anger can usefully displace fear.]]
 * [[id:b01bfc2f-fb9d-4d70-afc8-093b1933d47c][Refuse to feel something and you are cut off from the people who do.]]

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       6340db44-bfb6-46e7-b28f-1d4f4553ba4c
+:END:
+#+title: Venezuela's collapse and exporters in Colombia
+* = notes on a paper by Carlos Hernandez ad MinCIT
+* Colombian manufacturers exported to Veneuela.
+* Chavez started a boycott of Colombian goods in 2009.
+* Venezuela (continued? started?) collapsing thereafter.
+* Colombian exporters exposed to V shrank and stayed that way, but (total country?) productivity did not [change? go off-trend?].

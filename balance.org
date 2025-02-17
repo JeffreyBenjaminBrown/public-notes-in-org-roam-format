@@ -1,8 +1,8 @@
 :PROPERTIES:
 :ID:       6e44fba3-c51d-430c-81ac-bd91e8db773b
-:ROAM_ALIASES: peace
+:ROAM_ALIASES: peace balance
 :END:
-#+title: balance
+#+title: balance | peace
 * [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility seems more compatible with peace than pride does.]]
 * Balance seems like an avenue to peace (with oneself).
   That is, if I know my choices thread the needle well,
@@ -18,3 +18,4 @@
 * maybe see also
 ** [[id:5fb0c3e5-a80d-46be-b5c6-26accde35bb3][marbling , sign]]
 * [[id:b236df4e-956c-49f7-b694-da598ccae237][peace with death]]
+* [[id:8b0040c0-243b-43d4-8cc8-e9b3ffb35180][comfort]]

@@ -3,3 +3,4 @@
 :END:
 #+title: bitterness
 * [[id:c761004f-75ae-4472-ac58-98c54ed8ea72][comedy & bitter]]
+* [[id:47219dfb-019d-440c-a99f-952f53500a2c][Having come so close is bitter.]]

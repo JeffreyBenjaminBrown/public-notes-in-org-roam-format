@@ -4,5 +4,4 @@
 #+title: frequency
 * Keep these notes surprising.
 * [[id:82fbcfc0-61ea-4f30-82e5-3eb5148a16cf][emotion & frequency]]
-* dubious
-** social Nyquist invisibility
+* [[id:c97e87f7-2b1a-4033-bfae-9409f2f39009][fantasies about complexity hidden in frequency]]

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       34e03fd6-963b-451c-85c8-b8063518e597
+:END:
+#+title: moderation
+* [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][Neither too much work nor too much play.]]
+* [[id:0099068b-7ef0-4413-b3aa-18997353baa4][Neither overshare nor undershare.]]

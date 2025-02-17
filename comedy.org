@@ -3,15 +3,23 @@
 :ROAM_ALIASES: "humor"
 :END:
 #+title: comedy
+* [[id:ff5f634a-f8fa-482c-95a7-6be10e55e58d][comic responsibility]]
+* [[id:dab9c4a0-5337-4360-8da0-58a77f1276f3][enthusiasm]]
+** [[id:4837bd81-52cf-489f-9543-cf1f5b57df2b][Enthusiasm is funnier.]]
+* [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+* [[id:352ecbf2-b8c1-45c7-992f-ba94f1fce185][comedy & optimism]]
 * [[id:ccae4c2d-ee71-4c9c-acea-99074df994da][expression]]
 * [[id:06e57867-5a5f-462b-b963-56ffa719c9b8][surprise]]
 * [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety v. surprise]]
 * [[id:e8594ff4-8ca0-44ea-a349-f16163c376a7][irony]]
 ** [[id:8f6e74cd-0a1a-48c6-8acf-d16f8efe54b2][death & irony]]
 * [[id:6b47aadf-dab4-4984-8d79-b7269b79e1d2][Comedy and mindfulness seem hard to square.]]
-* [[id:e8d19251-0c54-4b82-943d-584a1d84bb73][transcendence & fallenness]]
 * [[id:b7fb17cd-88af-4d9c-8b9c-e704558d03a2][Past anxieties are more universally funny.]]
 * comedy , consuming and practicing
 ** [[id:64e43ca3-94d7-48f9-b144-d0e75f2e4b3e][comedy, some good]]
 ** [[id:43042405-4371-4af8-be53-619c9ed078d4][comedy improv teachers in Bogotá]]
 * [[id:2a675d23-842e-485a-afe9-a3d28bbaa2fe][fun times to say "that is a complete sentence"]]
+* [[id:8ee8cecd-e8fd-47d2-846f-aa5853f55d96][comedy + death]]
+* [[id:e8d19251-0c54-4b82-943d-584a1d84bb73][transcendence & fallenness]]
+* [[id:c761004f-75ae-4472-ac58-98c54ed8ea72][comedy & bitter]]
+* [[id:495c9bf1-5010-47b0-806f-66342648ecba][comedy & disaster]]

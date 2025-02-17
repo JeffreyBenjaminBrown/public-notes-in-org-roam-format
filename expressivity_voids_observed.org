@@ -2,4 +2,30 @@
 :ID:       37f7be50-9b2c-4426-b288-e83225b6d5d8
 :END:
 #+title: expressivity voids , observed
+* A node like x&y should be listed as an ancestor at the same level as and before x and y.
+* How to share information among people with private information.
+* a file "x & y" , if linked to files x and y, can define [a] relationship between them
 * [[id:895c50e4-60a7-4c7e-bcb5-092e1224f33e][options perpetually under considearation]]
+* In a words graph, backward seems a better label for that direction of reading than upward.
+* [[id:9b247ad4-a606-4bd4-a5a6-df297d91e262][Each node should [order, structure] its parents.]]
+* a how_to_read property
+  example
+** Mercy is a form of [[id:6e537826-402f-4254-a40a-652b31e2390a][transcendence]].
+   :PROPERTIES:
+   :HOW_TO_READ: "remind viewer to look rootward"
+   :ID:       5b9caf47-ff2f-4821-8476-2dee77d51ec4
+   :END:
+* DONE motivations for oscillable generations view
+** The existence of [nodes in list below] makes me want to see "backward" through two levels of graph relatives from the node.
+*** one and why
+**** [[id:a14dd16c-0b3d-4b6f-ae1d-3dc3094155c5][immortality through identity loss & private jbb]]
+**** why
+     it somehow obscures what I can normally see behind a privacy graph edge (jump).
+*** a second and why
+**** This very [[id:37f7be50-9b2c-4426-b288-e83225b6d5d8][expressivity voids , observed]] file.
+* this quote
+** it
+   [[id:a55842c2-536e-4581-b04b-026715e646d1][love & responsibility]] (fun!)
+** the expressivity trick
+   warn the user that there's enjoyable stuff in there,
+   lest they assume it's a bummer and skip it
