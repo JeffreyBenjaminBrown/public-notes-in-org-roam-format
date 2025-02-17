@@ -1,5 +1,5 @@
 :PROPERTIES:
 :ID:       28f244af-3876-4302-8aa6-4e2306024149
 :END:
-#+title: Hegelian synthesis is a fun knowledge graph trick.
+#+title: Hegelian synthesis is a powerful knowledge graph trick.
 * Upon creating a node "a & b", make a and b both parents to it, and then think of some third place it also belongs.

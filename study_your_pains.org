@@ -2,8 +2,9 @@
 :ID:       71dc8ea7-cbd0-4fc5-8514-e0617b422569
 :END:
 #+title: Study your pains.
-* caveats
+* Sometimes, probably, it is most helpful to dwell on the pain.
+* It seems a real, irrational impulse to be averse to it.
+  I seem to have an impulse to give up on experiences I find painful, which has sometimes proven a shockingly bad idea after I though hard about them.
+* [[id:a003eba1-b71e-404e-b811-a95cb98bcb14][duh]] : caveats
 ** Seeking pain for the sake of study is, of course, dumb.
 ** Some painful things can and should be avoided, and need not be analyzed beyond that.
-* the idea
-  I seem to have an impulse to give up on experiences I find painful, which has sometimes proven a shockingly bad idea after I though hard about them.

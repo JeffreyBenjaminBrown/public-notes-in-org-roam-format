@@ -2,5 +2,7 @@
 :ID:       512f112a-218b-4a0e-9be1-9786661b1968
 :END:
 #+title: imminence
+* [[id:dc735cdb-6166-4f57-b7aa-b537b1ecb98f][lost]] (feeling)
 * [[id:73a7935c-5309-46e7-84e1-fb4c292f7ad0][See through illusory opportunities.]]
 * [[id:b3ec25ba-75fa-413d-ad2f-a3c738a2d339][We say we're ending it and can't.]]
+* [[id:47219dfb-019d-440c-a99f-952f53500a2c][Having felt so close is bitter.]]

@@ -2,6 +2,7 @@
 :ID:       575ab579-f773-49af-80e4-19569e36aa14
 :END:
 #+title: sports
+* [[id:47219dfb-019d-440c-a99f-952f53500a2c][Having come so close is bitter.]]
 * [[id:e658ce5a-b242-4b0a-b010-e450a9a61787][In sports radio it was standard to make things up.]]
 * hard to explain
 ** [[id:d66c723a-8c27-4163-89e9-9abefad9537f][spacetime probability flag painting as a sport]]

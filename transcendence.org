@@ -1,9 +1,19 @@
 :PROPERTIES:
 :ID:       6e537826-402f-4254-a40a-652b31e2390a
+:ROAM_ALIASES: redemption
 :END:
 #+title: transcendence
+* = aliases
+  redemption
 * [[id:040aefe7-c512-4ad9-a811-9b5950b44579][Fulfillment is the other side of hunger.]]
+* [[id:495c9bf1-5010-47b0-806f-66342648ecba][comedy & disaster]]
+* [[id:0ec34098-ed89-4dcd-a057-2699e6bf216c][mercy]]
+** [[id:5b9caf47-ff2f-4821-8476-2dee77d51ec4][Mercy is a form of transcendence.]]
 * [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
 * [[id:9bc3df29-2c80-4743-a0d0-98b5ff1f6b16][I hope death is the supreme irony.]]
 * [[id:e8d19251-0c54-4b82-943d-584a1d84bb73][transcendence & fallenness]]
 * [[id:8647bcfc-d5ef-45c3-b6ad-fc7789f0fad2][forgiveness]]
+* [[id:5c946bce-fb70-45f0-8efe-24b9077b0501][happy alone first]]
+* [[id:6c5de1a3-8072-4f6c-a5a2-8f693c34101a][I see somewhat past myself.]]
+* art about it
+** [[id:27481367-d7b7-479c-9cd9-d78edabe949b][if you had a really epic missing half]]

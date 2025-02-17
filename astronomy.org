@@ -19,3 +19,6 @@
 ** [[id:753a51a4-a54a-4894-af24-de0517a70c57][the solar system]]
 ** [[id:dd789d5b-45e3-4c8a-b383-f068728ab82a][neutron star]]
 ** [[id:fd9de01f-1dea-4e18-ab1c-7b6ba779e914][supernova]]
+* art involving astronomy
+** [[id:cce4d64c-1ea8-44bc-9153-fca322beddbd][astronomy through an economic space]]
+** [[id:aa2771cc-1a69-482d-9b40-61efd56063eb][irreversible transitions in knowing]], passing like comets

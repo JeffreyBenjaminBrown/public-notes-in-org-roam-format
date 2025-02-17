@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "play v. work"
 :END:
 #+title: Neither too much work nor too much play.
+* [[id:ff5f634a-f8fa-482c-95a7-6be10e55e58d][Comic responsibility]] seems hard to see in this light.
 * TODO unify with [[id:b2c221c4-2ece-4334-a7a7-2bf6876128f5][leisure v. labor]]
 * If one expects to die and does not know when, and if one dislikes the work, the balance should shift toward more play over time.
 * If it's to attract other people, don't overprove yourself -- in particular, at undue expense to the time building the relationships that the proof is aimed at.

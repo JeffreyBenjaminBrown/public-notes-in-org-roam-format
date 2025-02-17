@@ -6,6 +6,8 @@
 ** [[id:b37024f7-716b-4748-9a33-d35e75f4ede1][epistemology]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
 ** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
+* TODO MVP : [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
+* [[id:562876f3-9608-4ebe-9ab1-f119188ffa32][Define relationships using ordinary org-roam syntax.]]
 * [[id:3cc52030-7085-4633-9158-88b6c92872a8][cold email advice]]
 * [[id:f8a53f00-6a18-4c44-b318-bdd411466005][Write the app data-first.]]
 * [[id:49a03bb3-7d57-4e38-89a5-93074d8fd152][Information (all of it) is truth ,, if properly qualified.]]

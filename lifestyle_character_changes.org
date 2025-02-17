@@ -3,6 +3,8 @@
 :ROAM_ALIASES: "changes under consideration, lifestyle | character" "character | lifestyle changes under consideration"
 :END:
 #+title: lifestyle | character changes under consideration
+* Be [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][funnier]].
+* [[id:62693433-3e22-4624-b229-002f7d2d9332][Dream more accurately]].
 * [[id:172dd7c3-7090-4ecc-841d-7342e96b4b9c][Reduce to one meat per day.]]
 * Computer work seems to need sobriety.
 * Replace the excess muscle with parties.

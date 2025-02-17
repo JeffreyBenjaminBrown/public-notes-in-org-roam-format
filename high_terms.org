@@ -2,6 +2,7 @@
 :ID:       dea50354-cdfe-47c8-8f15-043c70d66da0
 :END:
 #+title: high terms
+* [[id:720f5a80-ba0a-4f12-888f-7adb38e2009f][spiritual healing]]
 * [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][high tensions]]
 * [[id:ccae4c2d-ee71-4c9c-acea-99074df994da][expression]]
 * [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
@@ -20,3 +21,6 @@
 * [[id:512f112a-218b-4a0e-9be1-9786661b1968][imminence]]
 * [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
 * [[id:2daee2c9-6fa3-4192-b8df-37516bcccb62][cognition]]
+* [[id:3b8f63eb-cd16-4206-b98b-198262bd102c][sexiness]], [[id:0e9ffac9-3b18-45fb-9a16-75d54cb43316][attractiveness]]
+* [[id:5fe70812-fd17-4692-aa21-61a55c80ea71][nostalgia]]
+* [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]

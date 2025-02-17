@@ -4,3 +4,5 @@
 #+title: optimism
 * [[id:72411da2-cb37-4be4-9746-47758a336240][Be immediately fascinated by (lived) ethical challenges.]]
 * [[id:1896c1b6-11a5-4a10-a350-1713acbbd6c6][kindness in perception]]
+* [[id:352ecbf2-b8c1-45c7-992f-ba94f1fce185][comedy & optimism]]
+** [[id:059f1add-e1e1-4124-bab6-5d270e0332e7][Creative hope is funny.]]

@@ -5,6 +5,7 @@
 * see also
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 ** [[id:f582adf8-17e3-429f-ad70-c1243694d0ea][poems]]
+* [[id:e86385c5-1302-47f9-b657-307d3e1849b3][sample chords to keys]]
 * [[id:62e3c8b4-3b9c-477e-838e-dcb67a3ad2d4][multitracking with Bran <2025-02-09 Sun>]]
 * Does what I recorded with Vanessa sound good?
 * Felipe Ojeda plays violin!
@@ -57,3 +58,5 @@
     because it's pretty harmonic (both are flat)
     and it has the biggest possible vertical range on the Lumatone
     (in my 4x7 tuning).
+* dubious
+** When there's a surprise minor third, I like it not in the bass.

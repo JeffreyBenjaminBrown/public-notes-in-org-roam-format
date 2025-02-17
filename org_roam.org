@@ -6,6 +6,7 @@
 ** for help : the Discourse group
 ** awesome-org-roam : a curated list of resources
    https://github.com/kot-behemoth/awesome-org-roam
+* [[id:66a0b19d-a524-4ad0-b920-65fc701f78c4][exploring the org-roam db]]
 * some handy URLs
   https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/
 * [[id:f58610bf-d53b-42e6-873c-1bcd04dbc34e][org-roam on phone]]

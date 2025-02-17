@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "thinking, learning, understanding" "understanding, thinking, learning"
 :END:
 #+title: learning, thinking, understanding
+* [[id:28f244af-3876-4302-8aa6-4e2306024149][Hegelian synthesis is a powerful knowledge graph trick.]]
 * [[id:40a2de02-6388-4795-8280-62f4888cf7b0][AI and understanding]]
 * [[id:9607095a-d876-425f-b06a-25a02a9b83f2][animals and understanding]]
 * [[id:dde6522f-6bd1-489b-bd82-5c3315f54ca6][How to think using spaced repetition.]]

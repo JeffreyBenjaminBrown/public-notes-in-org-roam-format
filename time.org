@@ -11,3 +11,6 @@
 * [[id:b2c221c4-2ece-4334-a7a7-2bf6876128f5][leisure v. labor]]
 * [[id:575ab579-f773-49af-80e4-19569e36aa14][sports]]
 * [[id:512f112a-218b-4a0e-9be1-9786661b1968][imminence]]
+* art about spacetime
+** [[id:6f008b2d-17ed-4a0e-bc85-40ce8968c5e5][lost in time]]
+** [[id:d66c723a-8c27-4163-89e9-9abefad9537f][spacetime probability flag painting as a sport]]

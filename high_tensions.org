@@ -2,6 +2,11 @@
 :ID:       158fbd89-4564-4cf2-a997-ff9fa1ce7987
 :END:
 #+title: high tensions
-* [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility seems more compatible with peace than pride does.]]
-* [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]
-* [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety v. surprise]]
+* [[id:34e03fd6-963b-451c-85c8-b8063518e597][Moderation]] may in some cases be the solution.
+* instances
+** [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility seems more compatible with peace than pride does.]]
+** [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Is humility at odds with ambition?]]
+** [[id:a8760812-f098-4e39-aa4c-9d69a2e1fcba][Mindfulness and being single seem hard to square.]]
+** [[id:6b47aadf-dab4-4984-8d79-b7269b79e1d2][Comedy and mindfulness seem hard to square.]]
+** [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]
+** [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety v. surprise]]

@@ -4,7 +4,13 @@
 :END:
 #+title: motivation
 * [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Is humility at odds with ambition?]]
-* [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][discipline]]
+* instances
+** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
+** [[id:5327d2ce-1764-4bef-8959-aa8b5c478575][I want to know peoples' deepest motivations.]]
+** [[id:94560eb7-3ea1-4098-9107-e083459de5cc][lust]]
+** [[id:1d2b7fa8-e4f3-4e96-9b20-24901b7be28a][immortality]]
+* methods
+** [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][discipline]]
 * [[id:f66f6227-f85a-431b-906e-15af2d356d7e][motivation + time]]
 * [[id:fe0d6967-d5e2-4859-bd1c-8a487bd7d0a1][motivations for planning social stuff]]
 * [[id:040aefe7-c512-4ad9-a811-9b5950b44579][Fulfillment is "merely" the other side of hunger.]]
@@ -22,3 +28,4 @@
 * [[id:5dda3731-264a-44f0-87f6-90a680fd3402][Goal can affect energy profoundly.]]
 * dubious
 ** [[id:e756f326-8f05-44e3-85ee-ffdd54a6082f][life hack ? mission => jobhunt]]
+** [[id:c9f48f52-2646-4f54-9c72-b03d05e616d3][Pursuing _ as if it could make one's entire life worth it.]]

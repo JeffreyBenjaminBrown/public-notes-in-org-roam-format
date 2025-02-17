@@ -8,7 +8,7 @@
   But there's a real thing here --
   if not a game-theoretic optimum, at least a cultural gestalt,
   evident in all kinds of music and movies.
-* defining it
+* associated feelings
 ** damn the consequences
 ** dance the night away
 * arguments for it
@@ -25,3 +25,6 @@
 * [[id:32ba8739-6f88-4c13-8aad-882601213a98][A spirit must be heard into the whispers.]]
 * [[id:3fea916e-26ed-441c-883c-e642b205bf05][All that matters is how we make each other feel.]]
 * [[id:344a5d25-70e4-487d-a802-24c64ace3637][Living for the moment feels like a tricky kind of creativity.]]
+* near it
+** [[id:3227574f-2ef9-4c1a-a675-5caf064ef9c6][living for the sleep]]
+** [[id:c9f48f52-2646-4f54-9c72-b03d05e616d3][Pursuing _ as if it could make one's entire life worth it.]]
