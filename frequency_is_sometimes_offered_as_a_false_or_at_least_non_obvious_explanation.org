@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c73a2101-5ca7-45a0-ab85-51ad3953523c
+:END:
+#+title: Frequency is sometimes offered as a dubious explanation.
+= either false or at least non-obvious
+* "Just do it when the time is right," as if that explains how.

@@ -8,5 +8,6 @@
 * [[id:12039f3b-10ed-488f-a2d3-d934aba4f022][embarrassing ambitions & community]]
 * empty ponzi scheme advice
 * [[id:cb9fc0dd-9f72-4f52-9a46-84123b4f971e][frequency]]
-** "Just do it when the time is right," as if that explains how.
+** [[id:c73a2101-5ca7-45a0-ab85-51ad3953523c][Frequency is sometimes offered as a dubious explanation.]]
 ** [[id:82fbcfc0-61ea-4f30-82e5-3eb5148a16cf][emotion & frequency]]
+** [[id:c97e87f7-2b1a-4033-bfae-9409f2f39009][fantasies about complexity hidden in frequency]]
