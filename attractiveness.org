@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       0e9ffac9-3b18-45fb-9a16-75d54cb43316
+:END:
+#+title: attractiveness
+* Is this different from [[id:3b8f63eb-cd16-4206-b98b-198262bd102c][sexiness]]?
+* [[id:059f1add-e1e1-4124-bab6-5d270e0332e7][Imaginative hope is funny.]]
+* Ideally it is kept in (perceptible) check.
+  For at least some of its elements [interested],
+  it should not [be? demonstrate] too much of that,
+  and perhaps can be maximal nonetheless (happy, funny).
+* elements
+** [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][confident]]
+** [[id:9ec55e32-f974-479e-8295-7d9e30156684][aware]]
+** happy
+** moderately persuadable
+** funny
+   There are moments where one shouldn't,
+   and moments where it is unlimited.
+** [[id:d7a402d9-94a1-4db7-8b62-fad22d211f74][teasing]]
