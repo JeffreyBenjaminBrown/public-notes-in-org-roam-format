@@ -2,6 +2,7 @@
 :ID:       8ab91ced-7ba8-430d-a7dd-809b5395b2e0
 :END:
 #+title: PITFALLs in programming Emacs
+* [[id:c7d6ff6a-5fb3-4603-99df-395e68e8350e][Scalar and list placeholders are different in Emacs Lisp.]]
 * [[id:ae01ac3a-977a-482f-911a-7fd2b21deeea][Evaluation and mutability are hairy. Sequence matters.]]
 * [[id:019a8819-f7ce-4f90-b5ee-d44eaf06864d][`setq` affects the nearest (not shadowed) binding.]]
 * [[id:36d7cc29-d0a8-4053-9c0a-c2e5ec1551d3][Avoid half-initialized values. \ Emacs]]

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       c7d6ff6a-5fb3-4603-99df-395e68e8350e
+:END:
+#+title: Scalar and list placeholders are different in Emacs Lisp.
+Maybe. So says ChatGPT.
+
+EmacSQL distinguishes between scalar placeholders (like $1) and list placeholders. When you want to substitute a list of values (as with an IN clause), you should use $l1 (note the lowercase "l" before the 1) instead of $1. So your query should be:
