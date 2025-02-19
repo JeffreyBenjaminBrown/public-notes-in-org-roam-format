@@ -5,6 +5,7 @@
 * [[id:11de530f-d0c7-4688-89ae-e5b94b346030][SQL syntax]]
 * [[id:7c624e6e-91b8-491e-b6ed-007922813c82][database design]]
 * [[id:fcf6b095-f4c2-4f2a-abc2-27922a2d4a25][sqlite]]
+* [[id:a2ea1a5a-2975-422a-a2af-95aeed0cf297][using SQL in Emacs Lisp]]
 * SQL games
 ** More! https://datalemur.com/blog/games-to-learn-sql
 ** https://lost-at-sql.therobinlord.com/game-page/chapter-1

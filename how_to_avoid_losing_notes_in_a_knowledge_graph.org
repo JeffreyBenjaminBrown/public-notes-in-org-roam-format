@@ -2,6 +2,8 @@
 :ID:       9e45ccd9-d6e0-4870-8f13-cc11135334d0
 :END:
 #+title: how to avoid losing notes in a knowledge graph
+* TODO How should your knowledge graph prompt you to read?
+** That is, outside of it, other people's work
 * [[id:ce9e0a8d-19fa-48eb-9d0e-6cedcb0fdc99][notes, how to take]]
 * file each new note well, although not excessively
 ** choose its parents well

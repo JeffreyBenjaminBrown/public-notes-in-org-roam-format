@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       a2ea1a5a-2975-422a-a2af-95aeed0cf297
+:END:
+#+title: using SQL in Emacs Lisp
+* Positional substitution is to avoid clobbering column names.
+  example
+** This works.
+(defun get-parents (origin)
+  "In the table returned,
+each row is something in the org-roam graph linking to `origin`."
+  (org-roam-db-query
+   [:select [source title]
+            :from links
+            :inner-join nodes :on (= source id)
+            :where (and (= type "id")
+                        (= dest $s1))] ;; PITFALL: mind the s in $s1
+   origin))
+** But changing its last two lines to this breaks it.
+   (= dest origin))]))
