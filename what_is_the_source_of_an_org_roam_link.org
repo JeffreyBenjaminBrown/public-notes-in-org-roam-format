@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f717dba9-1d33-4206-97da-b252e303113a
+:END:
+#+title: What is the source of an org-roam link?
+Is it the file, or the nearest org parent headline with an ID?
