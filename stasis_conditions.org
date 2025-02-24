@@ -1,7 +1,11 @@
 :PROPERTIES:
 :ID:       9f9db3c1-0220-463f-829b-60ede4d8593f
+:ROAM_ALIASES: stuck
 :END:
 #+title: stasis conditions
+* TODO I have experienced more, surely.
+  What combinations of conditions have made me feel stuck,
+  in the past and maybe now?
 * instances
 ** [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
    because It forces one to work too much on other stuff

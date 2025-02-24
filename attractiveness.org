@@ -24,5 +24,6 @@
 ** Sexiness is confident about who (including nobody) to share what with.
 * Gravity when appropriate is sexy.
 * It is self-aware.
+* It [[id:92354831-6ca0-455b-b87e-0ae639bc651b][knows what to keep private.]]
 * It is [joking, restrained, serious, unconvinced] when appropriate.
 ** It is not too visibly [happy, interested] too often.

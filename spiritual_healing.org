@@ -5,5 +5,6 @@
 * Psychotherapy could do it.
 * [[id:b0edbce5-7036-4d32-8266-be8e061fb06c][It would require imagination.]]
 * instances
+** [[id:92354831-6ca0-455b-b87e-0ae639bc651b][Know what to keep private.]]
 ** [[id:e3f7d448-2b88-41bb-ac5b-44cdb34c0828][Sexiness does not feel obligated.]]
-** [[id:5c946bce-fb70-45f0-8efe-24b9077b0501][happy alone first]]
+** [[id:5c946bce-fb70-45f0-8efe-24b9077b0501][Happy alone first]]

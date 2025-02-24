@@ -11,6 +11,7 @@
 * [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]
 * [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][kindness]]
 * [[id:7884d437-6065-4e05-bf06-e2a0771cf507][love + magic]]
+* [[id:25a8f428-8d2a-414b-a3e2-07ea4f7000fd][love + optimism]]
 * [[id:170688b3-4d53-41d3-986b-b8c32468bac8][love + broken]]
 * goals
 ** [[id:4e748426-9ff0-4e7b-8192-b582a2ae7f95][community]]
