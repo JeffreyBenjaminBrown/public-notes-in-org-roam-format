@@ -1,4 +1,7 @@
 :PROPERTIES:
 :ID:       e024e38a-6f93-4717-aa53-cfea0501b7d9
 :END:
-#+title: The courage to not know what to do.
+#+title: the courage to venture where ignorant
+* It is needed.
+  Take on the situations in which you feel ill-prepared --
+  perhaps by preparing.

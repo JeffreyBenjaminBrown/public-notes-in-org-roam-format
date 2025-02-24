@@ -4,6 +4,7 @@
 #+title: self-improvement
 * [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
 * [[id:fea693ce-0ef6-4535-9d8d-7e150ac6480e][things I want to know, that I could easily look up]]
-* [[id:28e96d3a-9cf7-4151-bf43-e155a739d568][I want to become more comfortable with rejection.]]
+* [[id:13aba0e9-33c1-4f2b-906c-4ab3ab683522][emotional ambition]]
 * see also
 ** [[id:a9ab0de0-a5e2-4f71-9298-f183ae4bb58e][self-improvement \\ personal / jbb]]
+** [[id:a963e722-1f05-46e1-a9f5-d5f874b71f8f][self-criticism]]

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       cb677df3-25f0-4cca-8365-1bca9ec8dd7d
+:END:
+#+title: Recognize when something you accomplished was hard.
+* a justification
+  Recognizing the distinction seems useful
+  for directing efforts at self-improvement.

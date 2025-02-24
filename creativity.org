@@ -2,7 +2,10 @@
 :ID:       23f44ea1-7b89-4cdf-954d-770ca1483264
 :END:
 #+title: creativity
-* [[id:344a5d25-70e4-487d-a802-24c64ace3637][Living for the moment feels like a tricky kind of creativity.]]
+* see also [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
+* motivations for study
+** [[id:b0edbce5-7036-4d32-8266-be8e061fb06c][Spiritual healing would require imagination.]]
+** [[id:344a5d25-70e4-487d-a802-24c64ace3637][Living for the moment seems to require creativity.]]
 * [[id:776b4780-a8b8-42af-ba5a-b3703a2fc248][Creating can take courage.]]
 * [[id:c48c126f-c92a-48ac-bff0-28933edf859f][creative \ jbb]]
 * [[id:b45af920-ae69-411f-81af-7cd744abacf7][tour of synonyms]]

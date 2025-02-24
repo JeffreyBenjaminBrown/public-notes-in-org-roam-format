@@ -2,6 +2,8 @@
 :ID:       2b15a3ec-086b-4c66-af57-a03e706e1d84
 :END:
 #+title: happiness
+* [[id:763e96f9-b1eb-4e0a-b7a7-04917a32f097][Happiness must be a priority.]]
+* [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]
 * [[id:2e75b219-6f4c-427f-9f61-13f618fd0e80][safety]]
 * [[id:a4fdc0d7-8ad9-471c-a559-7bd932b0f486][headspace]]
 * [[id:53459f63-5cb9-4332-a7cd-9cdf9f8743fd][fulfillment]]

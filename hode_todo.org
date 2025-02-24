@@ -47,3 +47,4 @@
 ** [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode in TypeDB and Emacs (plans)]]
 * [[id:9ac529d9-c76d-44b9-b68c-2ab06a6c5e59][outreach]]
 ** [[id:7863cf17-0940-4663-82b2-2a22b3878f1c][funding Hode]]
+* DONE ? [[id:2300b57d-8741-4762-9f24-851657d0c413][transparent privacy]]

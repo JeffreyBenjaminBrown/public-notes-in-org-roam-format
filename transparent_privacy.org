@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       2300b57d-8741-4762-9f24-851657d0c413
+:END:
+#+title: transparent privacy
+* the problem
+** I would like to be able to say, for a node in the knowledge graph, "Unfold (in-place?) these private ideas at the same level as the public ones when viewing the contents of this public node," but in the org-roam representation, have buried those nodes as subheadlines under a "private" headline.
+* an easier solution: Don't write "private" in my files.
+  The filesystem and git already keeps track of that distinction.
+  Anyone reading my notes just won't see that stuff.

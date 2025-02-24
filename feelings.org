@@ -12,3 +12,5 @@
 * [[id:ee3db6a1-1143-439c-8912-10fb2a4d3b8d][numbness]]
 * [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
 * [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
+* [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]
+* [[id:05d467c3-fffd-457a-af5c-099f49b4b179][desperation and despair]]

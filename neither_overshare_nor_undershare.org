@@ -2,6 +2,6 @@
 :ID:       0099068b-7ef0-4413-b3aa-18997353baa4
 :END:
 #+title: Neither overshare nor undershare.
-* Perhaps surprisingly, the same person can make both mistakes.
+* I make both errors.
 ** I have been unable to say important things, like I love you.
-** And yet I have also often said too much.
+** I have often said too much.

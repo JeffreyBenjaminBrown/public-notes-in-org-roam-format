@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       4b54cd5e-2159-414f-95a8-6da7ca18095a
+:END:
+#+title: Some things take courage to share.
+* instances
+** some feelings
+*** [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]
+*** [[id:05d467c3-fffd-457a-af5c-099f49b4b179][desperation]]
+*** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
+** some beliefs
+** what you are
+*** [[id:776b4780-a8b8-42af-ba5a-b3703a2fc248][creativity]]

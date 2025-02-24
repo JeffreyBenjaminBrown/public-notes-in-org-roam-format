@@ -1,7 +1,0 @@
-:PROPERTIES:
-:ID:       b2c221c4-2ece-4334-a7a7-2bf6876128f5
-:ROAM_ALIASES: "labor v. leisure"
-:END:
-#+title: leisure v. labor
-* TODO unify with [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]
-* [[id:f2541cb6-35b4-4e5e-b81d-436da41f6277][In addition to behavior, maybe even perception exhibits a leisure-labor tradeoff.]]

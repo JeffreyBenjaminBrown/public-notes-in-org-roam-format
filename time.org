@@ -5,6 +5,7 @@
 #+title: time
 * [[id:36d2d810-4be1-4c0c-a979-bd756bf29220][consciousness]]
 * [[id:f66f6227-f85a-431b-906e-15af2d356d7e][motivation + time]]
+* [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]
 * [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
 * [[id:2741003a-955b-4d4e-a7d1-152e7cbdd8db][Attention goes to wants.]]
 * [[id:40b049b7-ef2a-4eab-a9f8-07ee5841aa86][habit]]

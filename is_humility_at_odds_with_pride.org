@@ -3,3 +3,4 @@
 :END:
 #+title: Is humility at odds with pride?
 * [[id:afd8c176-4ba7-4dcd-becb-ba8c29f18ebb][One can be proud without being self-satisfied.]]
+* [[id:2503d292-bce0-4352-94fb-545a8e079788][They are both funny.]]
