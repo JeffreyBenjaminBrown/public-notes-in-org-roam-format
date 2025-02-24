@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       6c837a2c-76aa-44c1-a190-e976f158fb52
+:END:
+#+title: Fix unwanted properties problem in org-roam.
+* refs
+** a second, very brief discussion
+   https://org-roam.discourse.group/t/org-store-link-changed-behavior-stopped-storing-org-roam-links/3747/2
+** TODO the first discussion : add link to
+* upshot
+  In the first thread, this seemed to have solved it:
+    +'(org-id-link-to-org-use-id nil)
+    -'(org-id-link-to-org-use-id t)
+  Indeed it made the unwanted properties drawers go away,
+  when making a new file with the highlighted text as its title
+  (C-c n i = org-roam-node-insert).
+  But that breaks the functionality of
+  adding an ID to a headline
+  (C-c C-l = org-insert-link).
+  Instead it just generates an ordinary org-mode link.

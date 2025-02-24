@@ -34,7 +34,7 @@
   # Rebuild boot menu
   sudo nixos-rebuild boot
 
-  # Verify there's only one generation left
+  # Verify there's only one generation left -- but it's always two
   sudo nix-env -p /nix/var/nix/profiles/system --list-generations
 
   # List boot configs

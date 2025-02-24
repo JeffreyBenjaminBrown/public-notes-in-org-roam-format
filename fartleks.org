@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       dc63b8e2-f13a-4618-a591-6e65a17cc824
+:END:
+#+title: fartleks
+* refs
+  :PROPERTIES:
+  :ID:       6f089c82-fda0-4066-806e-2e7b47ff2873
+  :END:
+  There's a Post Reports (by the Washington Post)
+  podcast from 2025 Feb 17 about them.
+* They are like HIIT, but easier.
+* The idea : Vary the pace during cardio.
+  If jogging, pick an item somewhere,
+  and jog faster until reaching it.

@@ -6,6 +6,8 @@
 ** for help : the Discourse group
 ** awesome-org-roam : a curated list of resources
    https://github.com/kot-behemoth/awesome-org-roam
+* TODO [[id:6c837a2c-76aa-44c1-a190-e976f158fb52][Fix unwanted properties problem in org-roam.]]
+* TODO [[id:263529c4-8072-4548-8a55-036992f5e75a][Investigate these handy-looking org-roam commands.]]
 * PITFALL: If a file is has a new and unsaved link, the file won't show up in the linked-to file's backlinks.
 * [[id:66a0b19d-a524-4ad0-b920-65fc701f78c4][exploring the org-roam db]]
 * some handy URLs
