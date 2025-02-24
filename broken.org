@@ -2,6 +2,7 @@
 :ID:       73dc7e2a-29d8-4cdb-9471-5d058bc31f9f
 :END:
 #+title: brokenness
+* [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
 * [[id:b4fa4d1e-ceb5-4058-9813-7e144dab2cb7][fallenness]]
 * [[id:6e537826-402f-4254-a40a-652b31e2390a][transcendance]]
 ** [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
