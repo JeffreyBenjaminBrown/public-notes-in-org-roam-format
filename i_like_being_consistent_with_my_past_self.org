@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       da1795b5-9bc3-4f3b-a00a-3fe3e3134f30
+:END:
+#+title: I like behaving in a manner consistent with my past self.
+* to a surprising degree
+  Even when I think I have a rational case for breaking with it,
+  I like being consistent with it.

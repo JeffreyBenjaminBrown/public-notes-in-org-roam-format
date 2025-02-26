@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "efficiency \\ jbb"
 :END:
 #+title: minor life optimizations
+* [[id:51e8e65f-1f82-4c79-8d8b-613eb785b79f][Use chatgpt-shell (it covers other providers) for Emacs.]]
 * carpeta segura de samsung
   A virtual phone within your phone, with a second password.
 * [[id:6cf0904a-5895-4d7f-a73e-5efd376767db][rec's for laptop security, some of ChatGPT's]]
