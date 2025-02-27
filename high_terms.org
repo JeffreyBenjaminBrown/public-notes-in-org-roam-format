@@ -2,13 +2,25 @@
 :ID:       dea50354-cdfe-47c8-8f15-043c70d66da0
 :END:
 #+title: high terms
-* [[id:720f5a80-ba0a-4f12-888f-7adb38e2009f][spiritual healing]]
 * [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][high tensions]]
+* [[id:720f5a80-ba0a-4f12-888f-7adb38e2009f][spiritual healing]]
+* [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]
 * interpersonal
 ** [[id:ccae4c2d-ee71-4c9c-acea-99074df994da][expression]]
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 ** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
 ** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
+* phenomena | characteristics
+** [[id:37a304ca-f34a-4d52-afb8-f953d21a1bcf][spacetime]]
+** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
+** [[id:12fda009-a653-4cb3-a201-544d69190de6][secrets]]
+** [[id:512f112a-218b-4a0e-9be1-9786661b1968][imminence]]
+** [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
+** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
+** [[id:1dc593e8-0313-4dfd-bc5d-cd7e53f9bfba][high performance (human)]]
+* feelings
+** [[id:5fe70812-fd17-4692-aa21-61a55c80ea71][nostalgia]]
+* [[id:adb0b318-fcee-43f7-99b6-b5a4a6bc887e][why did I like]]
 * skills
 ** [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
 ** [[id:40b049b7-ef2a-4eab-a9f8-07ee5841aa86][habit]]
@@ -18,14 +30,3 @@
 ** [[id:2daee2c9-6fa3-4192-b8df-37516bcccb62][cognition]]
 ** [[id:3b8f63eb-cd16-4206-b98b-198262bd102c][sexiness]], [[id:0e9ffac9-3b18-45fb-9a16-75d54cb43316][attractiveness]]
 ** [[id:255a4912-7dbf-47f4-bff3-3917432616ef][taste (as in style)]]
-* phenomena | characteristics
-** [[id:37a304ca-f34a-4d52-afb8-f953d21a1bcf][spacetime]]
-** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
-** [[id:12fda009-a653-4cb3-a201-544d69190de6][secrets]]
-** [[id:512f112a-218b-4a0e-9be1-9786661b1968][imminence]]
-** [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
-** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
-* feelings
-** [[id:5fe70812-fd17-4692-aa21-61a55c80ea71][nostalgia]]
-* [[id:adb0b318-fcee-43f7-99b6-b5a4a6bc887e][why did I like]]
-* [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]
