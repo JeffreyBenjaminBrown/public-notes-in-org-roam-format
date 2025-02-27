@@ -4,6 +4,20 @@
 #+title: exploring the org-roam db
 * PITFALL: [[id:c7d6ff6a-5fb3-4603-99df-395e68e8350e][Scalar and list placeholders are different in Emacs Lisp.]]
 * TODO [[id:f717dba9-1d33-4206-97da-b252e303113a][What is the source of an org-roam link?]]
+* discoveries
+  See [[id:6bdfeb49-c365-45de-92fe-98b179cedbd3][OGTF-a]] for the work.
+** In `nodes`, `pos`
+   is the first character of the line.
+** In `links`, `pos`
+   is the first character of the link.
+   It is relative to the file containing the link.
+** Headlines with IDs are not considered linked to from the containing file with an ID.
+   This makes sense -- it means `links` really tracks only links,
+   which you can jump like hypertext,
+   and not org-mode containment.
+** To get the real text of a node, including links, find the ITEM property in the `proerties` column of `nodes`.
+** Links anywhere in the subtree below a node call that node the source
+   but the `pos` is still relative to the file containing the node.
 * to view it
 ** from Bash
    evaluate `sqlite3 org-roam.db` in bash
