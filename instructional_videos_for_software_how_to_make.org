@@ -3,8 +3,10 @@
 :ROAM_ALIASES: "videos, instructional, for software, how to make"
 :END:
 #+title: instructional videos for software, how to make
-* Use screenkey and SimpleScreenRecorder
+* PITFALL: [[id:5286bdd4-e318-4f0d-b94b-430184f1432e][Cheese does not capture the screen.]]
+* Use Screenkey and SimpleScreenRecorder
   Screenkey is to show key presses:
   https://gitlab.com/wavexx/screenkey#installation-and-basic-usage
 * Audio interface
   remember to select both input and output devices.
+** TODO in what app?

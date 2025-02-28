@@ -2,6 +2,7 @@
 :ID:       9b40c46b-bd16-4003-8a9e-763f5a7dbc22
 :END:
 #+title: psychology
+* Does the plethora of words in a language for a topic correlate with national attitudes?
 * [[id:d33fdd39-6933-4de8-abbe-8d0879ec9258][psychology \ jbb]]
 * [[id:9d1cc360-4fce-4cd4-9176-8f12670add90][attention]]
 * [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness]]

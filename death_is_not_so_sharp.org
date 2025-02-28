@@ -2,6 +2,11 @@
 :ID:       a8d26591-06a2-4cbd-9fe1-068b487dd2e7
 :END:
 #+title: bounds on the effect of death on the still living
+* see also
+** [[id:a8d26591-06a2-4cbd-9fe1-068b487dd2e7][death]]
+** [[id:abb4ed18-7bcb-4865-93a1-2591ceb0c8ea][enlightenment]]
+** [[id:ae1c3cf8-c982-4d1b-8d32-6ffc54f22a2c][projection & imagination]]
+** [[id:4782ccbb-be03-4823-8dfb-29f80f31a548][after|beyond-life fantasies]]
 * You "merely" stop getting new information from them.
   Okay, also they're done processing --
   unless that's just in your world, not theirs.
