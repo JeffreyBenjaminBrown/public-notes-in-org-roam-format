@@ -2,6 +2,7 @@
 :ID:       1dc593e8-0313-4dfd-bc5d-cd7e53f9bfba
 :END:
 #+title: high performance (human)
+* see also [[id:3c4b895b-9cf0-444c-b4d1-b4b3cae52960][human potential]]
 * [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
 * [[id:158a85d7-e2ba-446b-98cf-669801db0024][Athletes are best at 85%.]]
 * [[id:72405a71-167b-4cc8-af40-2df2a0d3e6e6][To know you waste time on something is an opportunity.]]

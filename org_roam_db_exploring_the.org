@@ -3,7 +3,6 @@
 :END:
 #+title: exploring the org-roam db
 * PITFALL: [[id:c7d6ff6a-5fb3-4603-99df-395e68e8350e][Scalar and list placeholders are different in Emacs Lisp.]]
-* TODO [[id:f717dba9-1d33-4206-97da-b252e303113a][What is the source of an org-roam link?]]
 * discoveries
   See [[id:6bdfeb49-c365-45de-92fe-98b179cedbd3][OGTF-a]] for the work.
 ** In `nodes`, `pos`

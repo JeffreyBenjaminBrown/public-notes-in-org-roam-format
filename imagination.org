@@ -2,7 +2,10 @@
 :ID:       cc3843e9-5283-4a1e-b6ba-e58ec5026dbd
 :END:
 #+title: imagination
+* see also
+** [[id:3c4b895b-9cf0-444c-b4d1-b4b3cae52960][human potential]]
+** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
+** [[id:8d5c9418-f228-4595-b423-05acd9921b10][optimism]]
 * [[id:b0edbce5-7036-4d32-8266-be8e061fb06c][Spiritual healing would require imagination.]]
-* see also [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 * fantasy
 ** [[id:dc4e7bea-8019-4dbe-bfe7-e58783e676c4][if heaven depended on the imaginations of the living]]
