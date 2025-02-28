@@ -2,7 +2,7 @@
 :ID:       0224f2ae-1ce8-4019-8ebf-240379a10fad
 :END:
 #+title: cheese (videoconference softwrae)
-* PITFALL! I use a different NixOS config to use it
+* PITFALL: I use a different NixOS config to use it
 For my regular, non-pulseaudio build, these lines are commented out.
 ** to build NixOS this way
 *** the hopefully easiest way
@@ -21,6 +21,7 @@ apply the first diff in the branch called
     # Was suggested here: https://nixos.wiki/wiki/PulseAudio
     # PITFALL: This borks much of my audio setup.
     hardware.pulseaudio.enable = true;
+* PITFALL: [[id:5286bdd4-e318-4f0d-b94b-430184f1432e][Cheese does not capture the screen.]]
 * use lsof to check what processes (esp. pulseaudio, alsamixer) are using sound devices
 sudo lsof /dev/snd/*
 * references

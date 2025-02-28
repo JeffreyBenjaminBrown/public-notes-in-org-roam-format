@@ -4,14 +4,10 @@
 :END:
 #+title: balance | peace
 * [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility seems more compatible with peace than pride does.]]
+* [[id:2993e63f-bbc3-4c4e-9068-8f175e1a5710][Balance seems like vacuous advice.]]
 * Balance seems like an avenue to peace (with oneself).
   That is, if I know my choices thread the needle well,
   I will feel good about them.
-** Is this vacuous?
-   Any problem without a corner solution
-   can be framed as a question of
-   "not too much, not too little"
-   in a few dimensions.
 * [[id:0099068b-7ef0-4413-b3aa-18997353baa4][Neither overshare nor undershare.]]
 * [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][Neither too much work nor too much play.]]
 * [[id:68459e09-6698-4e47-a961-067d1828513b][As a stress management technique, belief in heaven is sad, even terrifying.]]

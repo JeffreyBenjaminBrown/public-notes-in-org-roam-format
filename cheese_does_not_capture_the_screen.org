@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       5286bdd4-e318-4f0d-b94b-430184f1432e
+:END:
+#+title: Cheese does not capture the screen.
