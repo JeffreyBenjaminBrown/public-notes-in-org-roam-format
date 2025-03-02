@@ -3,41 +3,92 @@
 :ROAM_ALIASES: "relationships for Hode" "Hode relationships"
 :END:
 #+title: relationships worth recording
-* an incomplete list
-  surely incomplete
-** that someone's edits on a topic were accepted by another for their version of that topic
-** [author] would like to know _
-** [subject] <does|did|will do> [verb] (opt: to [argument]) under [condition]
-   The three tenses could be unified,
-   reducing three kinds of relationships to one,
-   by making the tense (time) a mandatory condition,
-   whereas others would be optional.
-** conditionals & cause:
-*** [statement] if [statement]
-*** [statement] because [statement]
-** argument and inference
-*** [statement] <supports | helps explain | proves | contradicts | implies ...> [statement]
-** understanding people and their projects
-*** [agent | project] stands to benefit if [statement]
-*** [agent] believes [statement]
-*** [person] wrote [statement]
-** logic
-*** maybe [statement]
-    Implicitly, by writing "maybe x", one is saying
-    "the possibility of x is worth considering".
-*** not [statement]
-*** it seems [statement]
-    Implicitly, any such statement is an "it seems _ to [author]" statement.
-** [statement] explains [argument]
-** [statement] follows [statement] in [explanation, story, etc.]
-** [statement] is part of [statement]
-   "[_statement follows _statement] is part of [_statement]"
-   can be used to represent multi-step arguments, recipes, stories
-** [member] is in [category]
-** [category] is subset of [bigger category]
-** [action] results in [condition]
-** [agent] wants [condition]
-   agents and authors will likely overlap
+* instances
+  The title of each child applies in its entirety
+  to each grandchild.
+** valuable both to reader and writer
+*** about them
+    They would need conscious user participation
+    and are whole sentences,
+    and seem clearly useful to both enough authors and readers.
+*** them
+**** [author] {believes, suspects} _
+***** justification
+      Some authors clearly want to make their beliefs known,
+      and readers could benefit by seeing the distinction
+      between beliefs and things that might not be.
+***** suspects ~ "it seems"
+      This could be a private category.
+**** _ serves to illuminate _
+     It might be important that the relationship
+     {supports | helps explain | proves | contradicts}
+     be specified no further.
+     That's because, for someone who believe the first _,
+     if the second contradicted it,
+     contradiction could be aggregated in the view
+     it serves to illuminate,
+     thus preventing undue avoidance.
+**** [author] wants [condition]
+**** _ enjoyed reading _
+     Would be useful for guiding the view.
+**** [term] and [term] are equivalent.
+**** user-defined relationships
+** relationships good for voting
+*** Rank these things.
+    e.g. rank the things you would like to see extended,
+    inc. maybe sometimes specifically by anyone who believes _
+*** these things
+**** [author] would like to know [(aspect of) topic] (from _)
+     Clearly wanted by authors,
+     and readers could profit by seeing and answering well.
+**** _ would like _ to read/watch _ (and state they did)
+*** not to include : _ dodges the request to write about _
+    Just ask them to write about another thing,
+    maybe very related (more specific) to the last question.
+** extractable programmatically
+*** [author] wrote _
+** at least somewhat extractable programmatically
+*** _ involves _
+    Generate automatically from the title:
+    _ involves [{verb, noun, ...} equivalence class], etc.
+*** _ {if, because} _
+** that have no pressing need; technical, not fun for mass voters
+   a.k.a. garbage
+   This itself might be a good category to have.
+*** that someone's edits on a topic were accepted by another for their version of that topic
+*** [subject] <does|did|will do> [verb] (opt: to [argument]) under [condition]
+    The three tenses could be unified,
+    reducing three kinds of relationships to one,
+    by making the tense (time) a mandatory condition,
+    whereas others would be optional.
+*** _ is [how to execute plan]
+*** seems distasteful : [agent | project] stands to benefit if [statement]
+    I already represent "if".
+    Having a separate, visible-to-the-user category like
+    _ stands to benefit from _
+    seems like premature optimization at bbest,
+    maybe no time to use.
+** u
+*** logic
+**** maybe [statement]
+     Implicitly, by writing "maybe x", one is saying
+     "the possibility of x is worth considering".
+**** not [statement]
+**** it seems [statement]
+     Implicitly, any such statement is an "it seems _ to [author]" statement.
+*** [statement] explains [argument]
+*** [statement] follows [statement] in [explanation, story, etc.]
+*** [statement] is part of [statement]
+    "[_statement follows _statement] is part of [_statement]"
+    can be used to represent multi-step arguments, recipes, stories
+*** [member] is in [category]
+*** [category] is subset of [bigger category]
+*** [action] results in [condition]
+* goals of the list
+** Users should enjoy using it to better understand what they have written.
+** Users should want to use each new symbol.
+* inherent limitations
+** A symbol made available to a user, unless voters have induced them to explicitly answer about a place where it might apply, can only symbolize "this or maybe not this".
 * some observations on the list
 ** "is true" and "is false" are better unbundled.
    "_ is true" is really a bundle of
