@@ -2,10 +2,17 @@
 :ID:       91dc626c-36e2-4dc6-9c4f-fdea453c838e
 :END:
 #+title: humility
-* [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
-* [[id:99f26fdf-e619-4680-a5e1-29624bbdc857][romantic compliments]]
-* [[id:2503d292-bce0-4352-94fb-545a8e079788][Humility and pride are both funny.]]
-* [[id:97129402-46bc-41ea-91f6-6a7faae61a79][I am nothing before the world.]]
-* [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility feels more peaceful than pride does.]]
-* [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Is humility at odds with ambition?]]
+* [[id:e9ac21ef-aa15-4c6a-9157-f0a79f0851a1][Courage v. humility]] is a fun balance.
+** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
+* humility & pride
+** [[id:2503d292-bce0-4352-94fb-545a8e079788][Humility and pride are both funny.]]
+** [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility feels more peaceful than pride does.]]
 * [[id:32c0cf3d-7d97-4615-a7c9-85aab49875ed][Is humility at odds with pride?]]
+* humility & peace
+** [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility feels more peaceful than pride does.]]
+* [[id:99f26fdf-e619-4680-a5e1-29624bbdc857][romantic compliments]]
+* humility & ambition
+** [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Is humility at odds with ambition?]]
+* intense humility
+** [[id:97129402-46bc-41ea-91f6-6a7faae61a79][I am nothing before the world.]]
+** [[id:c7dba9db-c335-45e0-ba71-198460a3a3da][self-sacrifice]]

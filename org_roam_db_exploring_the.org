@@ -2,6 +2,8 @@
 :ID:       66a0b19d-a524-4ad0-b920-65fc701f78c4
 :END:
 #+title: exploring the org-roam db
+* scratch work
+  (get-parents-as-sql "66a0b19d-a524-4ad0-b920-65fc701f78c4")
 * PITFALL: [[id:c7d6ff6a-5fb3-4603-99df-395e68e8350e][Scalar and list placeholders are different in Emacs Lisp.]]
 * discoveries
   See [[id:6bdfeb49-c365-45de-92fe-98b179cedbd3][OGTF-a]] for the work.

@@ -7,7 +7,6 @@
 ** imagine [[id:20498902-7288-4d65-bc57-76f1d5d35138][mindfulness, awe, in romance]]
 * [[id:62693433-3e22-4624-b229-002f7d2d9332][dreaming]]
   Seems watseful to spend so long that way and not remember.
-* [[id:71dc8ea7-cbd0-4fc5-8514-e0617b422569][Study your pains?]]
 * [[id:08dc2cef-0fdd-418c-8bee-4a4594d188a0]["Do your own thinking" is a great response to the urge to surf (too excess) as an anonymous reader|listener|viewer.]]
 * [[id:a8760812-f098-4e39-aa4c-9d69a2e1fcba][Mindfulness and being single seem hard to square.]]
 * [[id:6b47aadf-dab4-4984-8d79-b7269b79e1d2][Comedy and mindfulness seem hard to square.]]
@@ -30,3 +29,5 @@
 * [[id:8024d6d8-9304-423b-88c4-8ecc408d4cc6][Awareness of pain feels better than unawareness of it.]]
 * [[id:858021f5-8474-4490-b30e-371159e35db6][Every moment is amazing.]]
 * [[id:c774af85-7ad0-4762-b28c-5e02d4881c8b][After filing something, know the whole note it went into.]]
+* never sure
+** [[id:71dc8ea7-cbd0-4fc5-8514-e0617b422569][Study your pains?]]

@@ -1,6 +1,5 @@
 :PROPERTIES:
-:ID:       6b99c80c-1e4f-4356-ae35-b7b393ecb72d
+:ID:       ed2e83cd-85ed-408a-bc28-21c8d4272f68
 :END:
-#+title: transgender
+#+title: respect
 * [[id:e2f20c35-7aa6-43ad-b579-075adc81c7d2][The more general takeaway from the transgender debate would seem to be not to try to change what someone wants.]]
-* [[id:fea64283-c47b-4a3d-b252-c9e5f728b774][What "to be a woman" means seems irrelevant.]]

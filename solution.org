@@ -4,7 +4,11 @@
 #+title: solution
 * [[id:9f9db3c1-0220-463f-829b-60ede4d8593f][stasis conditions]]
 * [[id:3443228c-ca26-44cb-ba73-f33ee2de1078][complementarity]]
-* some interesting solutions
-** [[id:e3f7d448-2b88-41bb-ac5b-44cdb34c0828][Sexiness does not feel obligated.]]
-** [[id:5c946bce-fb70-45f0-8efe-24b9077b0501][happy alone first]]
+* some interesting ones
 ** [[id:b288df19-c02e-42fa-a4b6-4cd3c0162e52][self-respect]]
+*** [[id:e3f7d448-2b88-41bb-ac5b-44cdb34c0828][Sexiness does not feel obligated.]]
+** [[id:5c946bce-fb70-45f0-8efe-24b9077b0501][happy alone first]]
+* art involving it
+** [[id:27481367-d7b7-479c-9cd9-d78edabe949b][if you had a really epic missing half]]
+* defineable in terms of it
+** [[id:e9684dbd-465b-4dc6-af7a-7fc30eecfdf0][optimism + solution = transcendence]]

@@ -2,6 +2,9 @@
 :ID:       c73ee824-eb2b-43f4-8ead-32d9d62ddc75
 :END:
 #+title: death
+* see also
+  [[id:a9730be0-42bc-49ab-8a0a-f7bfd55c729d][Entropy seems not unambiguous.]]
+* [[id:9d3a6c74-b537-45c2-be1f-5810374851e8][Mortality should impact one's priorities.]]
 * [[id:a8d26591-06a2-4cbd-9fe1-068b487dd2e7][bounds on the effect of death on the still living]]
 * [[id:30952056-8521-470b-81bf-2e50f7d9d5e0][heaven]]
 * [[id:8f6e74cd-0a1a-48c6-8acf-d16f8efe54b2][death & irony]]

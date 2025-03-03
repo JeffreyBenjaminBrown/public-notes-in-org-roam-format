@@ -2,3 +2,4 @@
 :ID:       1d2db651-b907-42a8-922f-11a77c55d5c0
 :END:
 #+title: I want my models of others to be more interesting and varied.
+* [[id:0f31ed8f-a1fe-42ef-baaf-ebc0d27b2794][some models of others]]

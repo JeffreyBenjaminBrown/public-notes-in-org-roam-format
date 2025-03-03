@@ -4,6 +4,7 @@
 :END:
 #+title: preregistration
 * a.k.a. "pre-analysis plan"
+* democracy : [[id:9a31c168-6e07-41c9-9c9c-4734f5eaca81][Preregister your cabinet, heads of departments, etc.]]
 * https://en.wikipedia.org/wiki/Preregistration_(science)
 * TODO read Ed Miguel's work on preregistration
 * Seems to solve even more problems than you might think.

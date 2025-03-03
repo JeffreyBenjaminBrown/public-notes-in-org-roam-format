@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       dbd8e69f-2a09-4edc-b52d-14be842a54de
+:ROAM_ALIASES: voting
+:END:
+#+title: democracy
+* [[id:9a31c168-6e07-41c9-9c9c-4734f5eaca81][Preregister your cabinet, heads of departments, etc.]]
+* [[id:7e201b55-6f38-4f8e-a6bd-8531a94b47f9][There is a synergy between ranked choice voting and nonpartisan primaries.]]

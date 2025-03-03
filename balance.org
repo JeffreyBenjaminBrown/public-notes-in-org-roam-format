@@ -3,15 +3,22 @@
 :ROAM_ALIASES: peace balance
 :END:
 #+title: balance | peace
-* [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility seems more compatible with peace than pride does.]]
-* [[id:2993e63f-bbc3-4c4e-9068-8f175e1a5710][Balance seems like vacuous advice.]]
-* Balance seems like an avenue to peace (with oneself).
-  That is, if I know my choices thread the needle well,
-  I will feel good about them.
-* [[id:0099068b-7ef0-4413-b3aa-18997353baa4][Neither overshare nor undershare.]]
-* [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][Neither too much work nor too much play.]]
+* justifying the equation
+** Balance seems like an avenue to peace (with oneself).
+   That is, if I know my choices thread the needle well,
+   I will feel good about them.
+* some balances
+** [[id:e9ac21ef-aa15-4c6a-9157-f0a79f0851a1][courage v. humility]]
+** [[id:b236df4e-956c-49f7-b694-da598ccae237][peace with death]]
+** [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility seems more compatible with peace than pride does.]]
+* some forms of peace
+** [[id:b288df19-c02e-42fa-a4b6-4cd3c0162e52][self-respect]]
+* aspects
+** [[id:8b0040c0-243b-43d4-8cc8-e9b3ffb35180][comfort]]
+** [[id:2993e63f-bbc3-4c4e-9068-8f175e1a5710][Balance seems like vacuous advice.]]
+* [[id:0099068b-7ef0-4413-b3aa-18997353baa4][sharing]]
+* [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][work v. _]]
 * [[id:68459e09-6698-4e47-a961-067d1828513b][As a stress management technique, belief in heaven is sad, even terrifying.]]
 * maybe see also
 ** [[id:5fb0c3e5-a80d-46be-b5c6-26accde35bb3][marbling , sign]]
-* [[id:b236df4e-956c-49f7-b694-da598ccae237][peace with death]]
-* [[id:8b0040c0-243b-43d4-8cc8-e9b3ffb35180][comfort]]
+* [[id:08dc2cef-0fdd-418c-8bee-4a4594d188a0]["Do your own thinking" is a great response to the urge to surf (too excess) as an anonymous reader|listener|viewer.]]

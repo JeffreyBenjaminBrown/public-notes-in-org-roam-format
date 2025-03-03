@@ -4,6 +4,6 @@
 :END:
 #+title: play v. work
 * [[id:ff5f634a-f8fa-482c-95a7-6be10e55e58d][Comic responsibility]] seems hard to see in this light.
-* If one expects to die and does not know when, and if one dislikes the work, the balance should shift toward more play over time.
-* If it's to attract other people, don't overprove yourself -- in particular, at undue expense to the time building the relationships that the proof is aimed at.
+* [[id:4e919cdd-8549-4a5b-b9aa-f85ed3f6a7df][death => play]]
+* [[id:e5ee5341-7ca0-4aaf-9a76-e8d5c5e352ec][proving yourself v. enjoying others]]
 * [[id:f2541cb6-35b4-4e5e-b81d-436da41f6277][In addition to behavior, maybe even perception exhibits a leisure-labor tradeoff.]]

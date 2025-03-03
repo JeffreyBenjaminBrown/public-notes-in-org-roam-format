@@ -4,7 +4,8 @@
 #+title: duh
 * justification
   seems like it might become a fun collection
-* So far, these seem like ideas for which it might be a personal decision when to decide you have handled them sufficiently.
+* judgment of the collection that might not apply now that it has grown
+** So far, these seem like ideas for which it might be a personal decision when to decide you have handled them sufficiently.
 * instances
 **** how to read it
      look parentward from its children
@@ -14,6 +15,6 @@
 ** [[id:8b9a976f-2587-4c9f-95a9-eae483550d7b][pain]]
 *** [[id:71dc8ea7-cbd0-4fc5-8514-e0617b422569][Study your pains.]]
 ** [[id:42e09516-0163-4c6a-bd03-ef9b3f10fb95][valuable things that do not guarantee pride]]
-* written since then
 ** [[id:2993e63f-bbc3-4c4e-9068-8f175e1a5710][Can be both moderation and corner solutions.]]
    see also [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+** [[id:73a7935c-5309-46e7-84e1-fb4c292f7ad0][See through illusory opportunities.]]
