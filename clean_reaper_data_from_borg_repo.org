@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       61f661d1-a518-4846-8452-358d17a01508
+:END:
+#+title: Clean Reaper data from borg repo.
+* the problem
+  This line appears not to work in ~/bin/exclude-for-borg.txt:
+    sh:/home/jeff/Documents/REAPER Media/**/*.[wW][aA][vV]$
+* the goal
+  Don't use borg for .wav (and .mp3?) files from there.
+  Instead, rclone the whole thing into the SSD.

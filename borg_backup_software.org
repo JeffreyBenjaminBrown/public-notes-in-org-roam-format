@@ -98,7 +98,12 @@ If I run `borg key change-passphrase` and delete any compromised old copies of t
 ** list archives in repo
    borg list /path/to/borg/repo
 ** list paths in archive
-   borg list /path/to/borg/repo::archive-name
+*** list all archives
+    borg list /path/to/borg/repo
+*** list all paths in archive
+    borg list /path/to/borg/repo::archive-name
+*** list all paths under path in archive
+    borg list /path/to/borg/repo::archive-name /path/in/archive
 * borg recreate
   Recreate a backup -- with, say, a different "exclude' pattern.
   https://borgbackup.readthedocs.io/en/stable/usage/recreate.html#borg-recreate
