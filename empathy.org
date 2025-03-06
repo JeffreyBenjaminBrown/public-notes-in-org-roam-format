@@ -3,5 +3,7 @@
 :END:
 #+title: empathy
 * = What do I not know about others?
+* [[id:fa615844-39a9-4f57-8758-4fea2dcdec31][people as priority]]
+** [[id:3fea916e-26ed-441c-883c-e642b205bf05][All that matters is how we make each other feel.]]
 * [[id:5327d2ce-1764-4bef-8959-aa8b5c478575][I want to know peoples' deepest motivations.]]
 * [[id:b01bfc2f-fb9d-4d70-afc8-093b1933d47c][Refuse to feel something and you are cut off from the people who do.]]

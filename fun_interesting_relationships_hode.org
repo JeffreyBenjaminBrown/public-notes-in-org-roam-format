@@ -88,6 +88,19 @@
      Implicitly, any such statement is an "it seems _ to [author]" statement.
 *** causation
 **** [action] results in [condition]
+** relationships I find useful
+*** defining it
+*** instances of it
+*** usage
+*** motivation(s)
+*** observations, history, stories involving, evidence for
+*** fantasy
+*** mysteries | problems | pitfalls (warnings)
+*** todo (opportunities) | blocked (on _) | done | abandoned
+*** justification (for writing about it)
+*** refs. to learn about it
+*** how to read [passage]
+*** unsure (for atoms and relationships)
 * goals of the relationship set
 ** Users should enjoy using it to better understand what they have written.
 ** Users should want to use each new symbol.

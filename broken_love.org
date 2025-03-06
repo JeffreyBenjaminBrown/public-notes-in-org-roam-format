@@ -3,8 +3,7 @@
 :END:
 #+title: broken love
 * justification
-** Pop culture is full of claims that (essentially) irrationality is built into love.
-   So many songs have a lyric like "(this) love is crazy".
+** [[id:83df927b-4768-43c4-b6d0-1634fc1007dd][Pop culture is full of claims that (essentially) irrationality is built into love.]]
 * a rational irrationality story
 ** It might be just that finding a really good fit is so hard that we often settle for less and then have to engage in [[id:42837d1b-0ddb-4bef-8387-93f429055208][doublethink]].
 ** Settling seems easier if one is not conscious of it.

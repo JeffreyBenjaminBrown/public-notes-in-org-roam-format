@@ -4,3 +4,4 @@
 #+title: antinormativity
 = Doing the wrong thing, because it is wrong, so others see it.
 * It is surprisingly real.
+* see also [[id:fc62e211-be72-469f-a543-2950c0e2c975][contrarianism]]

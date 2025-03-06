@@ -2,4 +2,7 @@
 :ID:       059f1add-e1e1-4124-bab6-5d270e0332e7
 :END:
 #+title: Creative hope is funny.
+* contexts in which it is
+** In a love-seeking context.
+** When the odds of success are low.
 * [[id:ea22ffac-c852-44f2-bdab-4fcaa10eb1e8]["[gratitude to a third party]" "I'm not sure you realize how many people would do that for you."]]

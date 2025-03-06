@@ -4,6 +4,7 @@
 #+title: duh
 * justification
   seems like it might become a fun collection
+* [[id:a0068478-08be-477c-8826-d4bffd3b3af7][cope (noun) , not obviously helpful]]
 * judgment of the collection that might not apply now that it has grown
 ** So far, these seem like ideas for which it might be a personal decision when to decide you have handled them sufficiently.
 * instances

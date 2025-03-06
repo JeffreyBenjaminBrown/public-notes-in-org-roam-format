@@ -22,6 +22,10 @@
        source          /root/.venv/bin/activate && \
        pip3 install -r /root/requirements-for-pip.txt
 * solutions
+** if permissions get weird
+   Include this line in the `docker run` command:
+     -u $(id -u):$(id -g)
+   That way the Docker container will have the same permissions, user and group as the user who launches it.
 ** running [[id:7cf89cef-158c-4893-8654-71b1bfb5201d][TypeDB in Docker]]
 ** [[id:bd7363b0-401a-498e-9fe3-5d291c955cb3][if keyboard input* misbehaves in `conda python3` in Docker]]
    * e.g. command history (up), paste, backspace

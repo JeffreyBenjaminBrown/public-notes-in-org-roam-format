@@ -3,7 +3,8 @@
 :ROAM_ALIASES: "fast night fantasy"
 :END:
 #+title: living like there's no tomorrow
-* caveat
+* Thinking about this can feel unpleasant.
+* justification
   These thoughts are kind of half-baked.
   But there's a real thing here --
   if not a game-theoretic optimum, at least a cultural gestalt,

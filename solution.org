@@ -2,6 +2,8 @@
 :ID:       b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8
 :END:
 #+title: solution
+* see also
+** [[id:594df21f-51c9-485c-85a1-cf943f325219][irratinoality , inconsistency]]
 * [[id:9f9db3c1-0220-463f-829b-60ede4d8593f][stasis conditions]]
 * [[id:3443228c-ca26-44cb-ba73-f33ee2de1078][complementarity]]
 * some interesting ones

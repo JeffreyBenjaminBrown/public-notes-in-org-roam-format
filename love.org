@@ -2,9 +2,9 @@
 :ID:       a4897164-eb28-4c26-8f26-c8ac98f2db16
 :END:
 #+title: love ,, brotherly & romantic & self-respect
-* u
-** [[id:e5ee5341-7ca0-4aaf-9a76-e8d5c5e352ec][proving yourself v. enjoying others]]
-* [[id:059f1add-e1e1-4124-bab6-5d270e0332e7][Imaginative hope is funny]] in a love-seeking context.
+* [[id:f23de8b3-b50b-408b-bc7e-48dc50418155][love & overload]]
+* [[id:e5ee5341-7ca0-4aaf-9a76-e8d5c5e352ec][proving yourself v. enjoying others]]
+* [[id:059f1add-e1e1-4124-bab6-5d270e0332e7][Imaginative hope is funny]]
 * caveat
   These notes might skew toward romance.
 * [[id:a55842c2-536e-4581-b04b-026715e646d1][love & responsibility]] (fun!)

@@ -3,6 +3,12 @@
 :END:
 #+title: exploring the org-roam db
 * scratch work
+  (org-roam-db-query (sql-vector-to-get-parents)
+    ;; a file
+    "66a0b19d-a524-4ad0-b920-65fc701f78c4")
+  (org-roam-db-query (sql-vector-to-get-parents)
+    ;; child of an interior node
+    "e16a716d-7359-4c7b-b04e-026e73f8d54d")
   (get-parents-as-sql "66a0b19d-a524-4ad0-b920-65fc701f78c4")
 * PITFALL: [[id:c7d6ff6a-5fb3-4603-99df-395e68e8350e][Scalar and list placeholders are different in Emacs Lisp.]]
 * discoveries
@@ -65,80 +71,4 @@
    But that ITEM property appears to usually be absent -- because, I imagine, you can usually retrieve it from the title.
 ** [[id:bc728b0c-b110-4781-87ea-ef511ab7be09][The `properties` field in the `links` table does this too.]]
    And I'm not sure how to recover the links in that case.
-* schemas
-  There are seven tables.
-** .schema files
-*** Interestingly, ID is not a property here.
-    The nodes table must link into it, not vice-versa.
-*** TODO How are the times used?
-    Somehow the times are used to determine when to see if t he hash has changed. If it has, the file is reparsed and the tables are updated accordingly.
-*** code
-    CREATE TABLE files (
-      file UNIQUE PRIMARY KEY, -- a fully qualified path
-      title ,
-      hash NOT NULL,
-      atime NOT NULL, -- TODO what is `atime` for? ChatGPT guesses it is the access time, as would I, but who cares about that?
-      mtime NOT NULL);
-** .schema nodes <- primary
-   CREATE TABLE nodes (
-     id NOT NULL PRIMARY KEY,
-     file NOT NULL,
-     level NOT NULL, -- 1 = top, 2 = subheadline, etc.
-     pos NOT NULL, -- (goto-char this) puts point at line start.
-                   -- This is 1 if the node is a whole file.
-     todo , -- string; might be TODO, DONE, etc (or nil).
-     priority ,
-     scheduled text,
-     deadline text,
-     title , -- does not include TODO etc.
-     properties ,
-     olp ,
-     FOREIGN KEY (file) REFERENCES files (file)
-       ON DELETE CASCADE);
-** .schema links
-   :PROPERTIES:
-   :ID:       bc728b0c-b110-4781-87ea-ef511ab7be09
-   :END:
-   CREATE TABLE links (
-     pos NOT NULL, -- Where in the emitting file to find the link.
-                   -- Identifies its first '[' character.
-     source NOT NULL, -- the file that emits (& contains) the link
-     dest NOT NULL, -- the file that receives the link
-     type NOT NULL, -- "id" = org-roam, "https", etc.
-     properties NOT NULL, -- PITFALL: Contains the text of the node (under ":outline"), but obliterates links.
-     FOREIGN KEY (source) REFERENCES nodes (id)
-       ON DELETE CASCADE);
-** [#B] I don't think I'll use these other four.
-*** .schema aliases
-    CREATE TABLE aliases (
-      node_id NOT NULL,
-      alias ,
-      FOREIGN KEY (node_id)
-	REFERENCES nodes (id) -- `nodes` is another table.
-	ON DELETE CASCADE);   -- If a node in `nodes` is deleted, delete all references to it in `aliases`.
-      -- Effectively, each row in aliases says, “This alias belongs to node_id, which is a record in the nodes table.”
-    CREATE INDEX alias_node_id ON aliases (node_id );
-      -- Makes finding every `alias` for a given `node_id` fast.
-*** .schema citations
-    CREATE TABLE citations (
-      node_id NOT NULL,
-      cite_key NOT NULL,
-      pos NOT NULL,
-      properties,
-      FOREIGN KEY (node_id) REFERENCES nodes (id)
-	ON DELETE CASCADE);
-*** .schema refs -- empty for me?
-    CREATE TABLE refs (
-      node_id NOT NULL,
-      ref NOT NULL,
-      type NOT NULL,
-      FOREIGN KEY (node_id) REFERENCES nodes (id)
-	ON DELETE CASCADE);
-    CREATE INDEX refs_node_id ON refs (node_id );
-*** .schema tags
-    CREATE TABLE tags (
-      node_id NOT NULL,
-      tag ,
-      FOREIGN KEY (node_id) REFERENCES nodes (id)
-	ON DELETE CASCADE);
-    CREATE INDEX tags_node_id ON tags (node_id );
+* [[id:179412a6-0c6b-4207-b682-f4199f4b4b70][schemas of the org-roam db tables]]

@@ -4,13 +4,17 @@
 :END:
 #+title: motivation
 * see also [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope]]
+* [[id:0201e93c-bf0e-475c-9d03-be09f4c408b4][cognitive states|skills I want]]
 * [[id:9d3a6c74-b537-45c2-be1f-5810374851e8][Mortality should impact one's priorities.]]
 * [[id:49b8cd32-e3b3-435b-bdad-26fb3e1ac82c][the infinite nature of want]]
 * [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Is humility at odds with ambition?]]
 * instances
 ** [[id:1d2db651-b907-42a8-922f-11a77c55d5c0][I want my models of others to be more interesting and varied.]]
 ** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
-** [[id:5327d2ce-1764-4bef-8959-aa8b5c478575][I want to know peoples' deepest motivations.]]
+** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love ,, brotherly & romantic & self-respect]]
+** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
+*** [[id:5327d2ce-1764-4bef-8959-aa8b5c478575][I want to know peoples' deepest motivations.]]
+** [[id:890d9101-09c6-48f0-be54-e4e74a0ec961][romance + surprise]]
 ** [[id:94560eb7-3ea1-4098-9107-e083459de5cc][lust]]
 ** [[id:1d2b7fa8-e4f3-4e96-9b20-24901b7be28a][immortality]]
 * methods

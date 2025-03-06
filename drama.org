@@ -2,5 +2,6 @@
 :ID:       4ff751ef-1d5b-4df7-89ed-69adb2c46fd4
 :END:
 #+title: drama
+* [[id:575ab579-f773-49af-80e4-19569e36aa14][sports]]
 * [[id:6e537826-402f-4254-a40a-652b31e2390a][transcendence]]
 ** [[id:cdec0e7c-02e8-43c0-a8ff-7de3d3c338ef][to escape what seems inevitable]]

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       3574a0fe-7a7a-4620-aa28-e32b9ac548bc
+:END:
+#+title: broken promises
+* it [[id:3c04ac36-3739-4fb2-a997-860797e365a7][ + irratinoality , inconsistency = imminence]]
