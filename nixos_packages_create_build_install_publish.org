@@ -4,7 +4,7 @@
 #+title: NixOS packages: find, create, build, install, uninstall, publish
 * refs
 ** u
-   https://nixos.wiki/wiki/Nixpkgs/Create_and_debug_packages
+   https://wiki.nixos.org/wiki/Nixpkgs/Create_and_debug_packages
    https://nixos.org/nixos/manual/index.html#sec-custom-packages
 ** NixOS manual / quick start to adding a package
    https://nixos.org/manual/nixpkgs/stable/#chap-quick-start
