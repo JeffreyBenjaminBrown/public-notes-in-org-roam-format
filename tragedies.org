@@ -2,4 +2,5 @@
 :ID:       1259195a-a1a7-4249-b026-adaaa92f5e7e
 :END:
 #+title: tragedies
+* [[id:77451ff4-9aa5-47d6-bfd7-af3a3a77f80a][the tragedy of the commons]]
 * [[id:69ac551e-2605-4d94-b010-b0f1532bd459][cooperation & communication problems in evolution]]

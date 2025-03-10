@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       77451ff4-9aa5-47d6-bfd7-af3a3a77f80a
+:END:
+#+title: the tragedy of the commons
+* [[id:c4acaf15-5b92-4d86-858d-6e6ea407a6ca][Preferring AI to forums harms the internet to the benefit of the involved parties.]]

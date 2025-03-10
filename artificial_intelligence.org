@@ -3,13 +3,11 @@
 :ROAM_ALIASES: "machine learning" ML AI
 :END:
 #+title: artificial intelligence
-* TODO [[id:51e8e65f-1f82-4c79-8d8b-613eb785b79f][Use chatgpt-shell (it covers other providers) for Emacs.]]
-* [[id:df53e56c-d5bd-46ab-8bfc-925c68223f12][AIs finetuned on insecure code become antinormative.]]
-* [[id:9739cf28-dad5-4061-8367-7f77cc166700][UBI]]
-** [[id:d8ea04df-1949-4e59-9717-45e524560232][People as rich as rockstars without anyone poor.]]
-* [[id:ee47b13c-f35c-445d-8236-704dc8495862][model collapse]]
-* [[id:35aac482-e906-456a-89db-48a54cb4f020][robots in response to loneliness]]
-* [[id:1dc02dc9-ec85-4f58-8348-0973579824ee][I used AI to help decide not to send a message.]]
+* [[id:62d7c9c4-2022-4391-9770-cbd185d0becb][using AI]]
+* [[id:af4b9da0-9605-46c0-9822-68f252ec7276][accomplished by AI]] | things AI can do
+* [[id:40a2de02-6388-4795-8280-62f4888cf7b0][AI and understanding]]
+* [[id:6c837a6a-7964-42b0-a307-e27f61a64c6e][AI alignment]]
+* [[id:c9b9959d-5837-4e9b-803a-82abd6084987][AI and society]]
 * [[id:a58dd943-d555-4984-8eeb-229568bf4c38][Model distillation is trippy. \ AI]]
 * [[id:4437ea38-3502-48cb-bb91-2560ab15aebc][I talked to o1 about consciousness in AI.]]
 * [[id:a6989768-c749-40a9-a531-46116a9438ec][AI curricula]]
@@ -40,7 +38,6 @@
 * [[id:270da54b-eb89-4a12-8bb5-112d6514a013][things AI can already do]]
 * fun idea: [[id:4e7f7f46-802a-4632-9ace-3db0e3577e9d][Use AI to give image vocabulary to the subconscious.]]
 * [[id:32a4999b-9793-4d6d-bc53-d6682d78ede8][LLMs taking jobs, Washington Post, 2023-06-02]]
-* [[id:40a2de02-6388-4795-8280-62f4888cf7b0][AI and understanding]]
 * Current neural networks use far fewer connections and far more data than the human brain.
 * TODO some learning resources
   :PROPERTIES:

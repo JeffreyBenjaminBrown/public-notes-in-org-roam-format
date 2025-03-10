@@ -40,6 +40,11 @@ This might only apply to USB-connected MIDI keyboards.
    For example, to a DAW.
 * PITFALLs
 ** Each MIDI Through has two halves, the in and the out. Sometimes it can be confusing which you're referring to.
+** If the keyboard is not visible* upon plugging in
+*** I might need to restart my computer.
+    (*) via `aconnect -i` or in the QJackCtl graph.
+    This happpened <2025-03-07 Fri>.
+*** I might have a bad cable.
 ** `a2jmidid` might create more than one port. I'm not sure how it knows how many to create.
 ** If the keyboard shows up in the QJackCtl signal graph, it can be connected that way. Otherwise, connecting it requires `aconnect`.
    :PROPERTIES:

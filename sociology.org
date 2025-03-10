@@ -2,6 +2,7 @@
 :ID:       4d96ed8b-e9d9-4809-b865-49057fba568e
 :END:
 #+title: sociology
+* [[id:c9b9959d-5837-4e9b-803a-82abd6084987][AI and society]]
 * [[id:3117b144-b348-4dc5-825e-d3fc3ef7af26][surprising societal changes]]
 * [[id:b7ca4b89-b7fa-4960-9178-2212825a59ca][opting out of immediate spatial reality]]
 * [[id:f427e94a-5c2b-460c-8ca8-b5b6e1eb890e][crazy collective decisions|outcomes]]

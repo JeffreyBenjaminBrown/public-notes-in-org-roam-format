@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       c4acaf15-5b92-4d86-858d-6e6ea407a6ca
+:END:
+#+title: Preferring AI to forums harms the public internet, to the benefit of the involved parties.
+* I have noticed myself more reluctant to post questions to the internet, now that I can ask an AI. It's faster.

@@ -2,6 +2,7 @@
 :ID:       66a0b19d-a524-4ad0-b920-65fc701f78c4
 :END:
 #+title: exploring the org-roam db
+* [[id:179412a6-0c6b-4207-b682-f4199f4b4b70][schemas of the org-roam db tables]]
 * scratch work
   (org-roam-db-query (sql-vector-to-get-parents)
     ;; a file
@@ -71,4 +72,3 @@
    But that ITEM property appears to usually be absent -- because, I imagine, you can usually retrieve it from the title.
 ** [[id:bc728b0c-b110-4781-87ea-ef511ab7be09][The `properties` field in the `links` table does this too.]]
    And I'm not sure how to recover the links in that case.
-* [[id:179412a6-0c6b-4207-b682-f4199f4b4b70][schemas of the org-roam db tables]]

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       af4b9da0-9605-46c0-9822-68f252ec7276
+:ROAM_ALIASES: "things AI can do"
+:END:
+#+title: accomplished by AI
+* [[id:1dc02dc9-ec85-4f58-8348-0973579824ee][I used AI to help decide not to send a message.]]
+* [[id:10abf2b9-281b-4491-a839-c37c51282f8d][relationship advice]]

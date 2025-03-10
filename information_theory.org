@@ -4,6 +4,7 @@
 :END:
 #+title: information theory
 * [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
+* [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][understanding, thinking, learning]]
 * [[id:49a03bb3-7d57-4e38-89a5-93074d8fd152][information = truth ,, if properly qualified]]
 * [[id:262cb4a6-23fd-4622-9e1b-b0fe8888876b][the onlgine echo chamber effect]]
 * [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]

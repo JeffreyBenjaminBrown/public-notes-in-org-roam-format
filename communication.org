@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "expression , how to"
 :END:
 #+title: communication
+* [[id:84e77d86-2b69-4f18-a1e4-110d17026c16][It's fun to determine when sending a picture conveys more and/or better information (than words).]]
 * [[id:de26311c-9b4b-48f4-afa1-c7a680f73b30][Don't beat around the bush.]]
 * [[id:0099068b-7ef0-4413-b3aa-18997353baa4][Neither overshare nor undershare.]]
 * [[id:3b8b9e73-2244-4e2f-a05c-ea6f5895b861][Communication contains musical responsibilities.]]

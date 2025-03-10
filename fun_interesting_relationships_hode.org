@@ -35,8 +35,9 @@
 **** _ enjoyed reading _
      Would be useful for guiding the view.
 **** [term] and [term] are equivalent.
-**** [#B] user-defined relationships
-     To facilitate a user's use of their own data.
+** perhaps to introduce only after voting
+*** user-defined relationships
+    Each would have at least been considered useful by some author.
 ** valuable if there is voting
 *** Rank these things.
     e.g. rank the things you would like to see extended,

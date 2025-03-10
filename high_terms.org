@@ -13,6 +13,7 @@
 ** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
 * phenomena | characteristics
 ** [[id:37a304ca-f34a-4d52-afb8-f953d21a1bcf][spacetime]]
+** [[id:5a5ae8a2-fd35-457f-bb36-4cad26c0454d][nature]]
 ** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
 ** [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]]
 ** [[id:12fda009-a653-4cb3-a201-544d69190de6][secrets]]

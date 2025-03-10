@@ -21,7 +21,7 @@
    cd ~/nix/jbb/
    ./bash/rebuild-branches.sh
 ** when I last did it
-   <2025-03-03 Mon>
+   <2025-03-09 Sun>
 ** DONE if that makes my config read-only
    cd ~/nix/jbb/config
    sudo chown jeff *

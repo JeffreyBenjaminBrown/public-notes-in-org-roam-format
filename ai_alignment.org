@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       6c837a6a-7964-42b0-a307-e27f61a64c6e
+:END:
+#+title: AI alignment
+* [[id:df53e56c-d5bd-46ab-8bfc-925c68223f12][AIs finetuned on insecure code become antinormative.]]
