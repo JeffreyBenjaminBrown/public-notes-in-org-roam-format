@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       3832e900-6e8b-4ba6-9994-20fac036c68b
 :END:
-#+title: Take notes on questions I have asked, before being answered.
+#+title: Take notes on questions I have asked, before even being answered.
 * what to record
   What I asked, when, who and via what medium.
 * why

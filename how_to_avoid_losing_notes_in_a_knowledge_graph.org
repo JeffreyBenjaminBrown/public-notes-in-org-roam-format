@@ -26,7 +26,9 @@
 ** Know when to read it. Treat them like Google.
    When you have an itch to do anything, part of scratching it should be to look in your notes for anything you've already written on it before.
 ** Consult the upper onotology, too.
-   Often the parents of the note you're reading are relevant.
-   Check them out.
+*** the idea
+    Check out notes that link to what you're reading.
+*** why
+    When you visited the current file -- say, "how to program in Python" -- it's likely not because doing that was your motivation per se, but rather some bigger project was, like "programming". And the latter probably links to the former. Looking "upward" will bring it into view, and thereby both remind you of your larger purpose(s) and of context and methods relevant to those purposes.
 * learn to search your notes
   If the note exists, usually it's not hard to find -- even if you didn't curate its parents well, you can grep your folder for relevant terms.

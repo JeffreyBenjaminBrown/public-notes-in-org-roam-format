@@ -3,4 +3,6 @@
 :END:
 #+title: My pain tolerance is dangerously high.
 * It's possible to feel only moderately uncomfortable while in fact I am injuring myself.
-* example: [[id:fb0a64df-e368-464e-b0d9-99215eb4616d][Don't lean my arm on a sharp top of a chair.]]
+* example
+** [[id:fb0a64df-e368-464e-b0d9-99215eb4616d][Don't lean my arm on a sharp top of a chair.]]
+** [[id:d04f4941-ea2c-4343-a57d-6adeb4fc39ed][Check for bleeding when sufficiently bumped.]]
