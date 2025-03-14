@@ -2,10 +2,12 @@
 :ID:       e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec
 :ROAM_ALIASES: information
 :END:
-#+title: information theory
+#+title: information , about
+* [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
 * [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
 * [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][understanding, thinking, learning]]
 * [[id:49a03bb3-7d57-4e38-89a5-93074d8fd152][information = truth ,, if properly qualified]]
-* [[id:262cb4a6-23fd-4622-9e1b-b0fe8888876b][the onlgine echo chamber effect]]
+* [[id:d012e5a4-c33c-496f-841f-a0db90d8c1e6][errors]]
 * [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]
-* [[id:5cd6dc01-74f4-4363-9b3c-fa297d795040][identifiers]]
+* [[id:c543ecbc-9af5-4a9f-a7b2-fce74104c5cc][language]]
+* [[id:7ea32dd5-3ad2-4de1-851b-a3a8d7f88711][uncertainty | ignorance]]

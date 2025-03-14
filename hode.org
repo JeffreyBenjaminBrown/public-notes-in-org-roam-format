@@ -2,10 +2,25 @@
 :ID:       d5a5a3ff-977a-405b-8660-264fb4e974a3
 :END:
 #+TITLE: Hode
+* bring in
+** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
+** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][SmSn]]
+* pitching it
+** Don't mention hypergaph v. graph. Just call it a graph. The important thing is to be able to connect stuff as if in space rather than on a line.
+* capabilities
+** join SmSN, org-roam
+*** make a minimal model that can support them, plus the (untyped) user-defined relatinoship on n items and a label
+** permit someone online to judge your notes
+*** This would require identity management.
+    The simplest form would simply be "choose a name nobody else will choose".
 * see also
 ** [[id:b37024f7-716b-4748-9a33-d35e75f4ede1][epistemology]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
 ** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
+* There should be bubble actions.
+  Nested circles of "I think this word is like that word", so that someone could filter what they see that way.
+  They could be as vaguely personal categories as negative/positive. Different peoples' could differ a lot, with perfect validity. One could choose to see an equivalence class [on (term)] the way the majority see it, once (if you wanted) there was a sufficiently large majority who had voted.
+* [[id:3ffa3b8d-64b4-4805-9a10-4f3db3d9f56c][Who is where to me? What information do I [share, have in common, ?associate ..] with who?]]
 * TODO MVP : [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
 * [[id:119cd4eb-25a8-41fd-a763-0368bb2e53e6][graph voting]]
 * share subcategories useful for a topic

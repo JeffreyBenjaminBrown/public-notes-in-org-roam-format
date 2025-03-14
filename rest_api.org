@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       fd81c79e-2f0b-49cf-b387-4cba1e5e0a85
+:END:
+#+title: REST API
+* [[id:c632bb06-65b6-44f7-89b9-31831288f571][Consider using a REST API rather than an FFI in Emacs.]]

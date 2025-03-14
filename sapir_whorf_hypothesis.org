@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       060458c5-e565-4975-a5df-9140b3f02338
+:END:
+#+title: Sapir-Whorf hypothesis
+* = (definition on Wikipedia, omitting)
+* Does the plethora of words in a language for a topic correlate with national attitudes?

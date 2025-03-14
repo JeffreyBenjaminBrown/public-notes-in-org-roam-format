@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       03e9f0a1-cbe5-40b0-b46c-c716cf2029a3
+:ROAM_ALIASES: "method | optimization"
+:END:
+#+title: optimization | method
+* [[id:465f0ce9-e6e8-4a9f-b290-7290dd914e54][how]]
+* [[id:18b442b7-427d-4057-8fb7-e5b715e955f5][justice & accounting]]
+* [[id:0c399e74-6d5e-4f0a-95e5-331a7239b19d][elegance = constrained optimization]]

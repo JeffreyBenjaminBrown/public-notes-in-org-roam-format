@@ -12,6 +12,13 @@
     are whole sentences,
     and seem clearly useful to both enough authors and readers.
 *** these
+**** _ considers _ [adjective]
+***** useful values for the adjective
+****** surprising
+       {surprising, beautiful, of no consequence (if | to _) ...}
+****** beautiful
+****** of no consequence ( if | to _ )
+       This would be useful as a filter.
 **** [author] {believes, suspects, suspects not, believes not} _
 ***** justification
       Some authors clearly want to make their beliefs known,

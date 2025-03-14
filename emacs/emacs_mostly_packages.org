@@ -4,6 +4,11 @@
 :END:
 #+title: Emacs (programamble text editor)
 * TODO [[id:ea81b91a-59f1-4de3-af92-558a828294b3][ChatGPT says I can use 'avy' to jump to the start of words.]]
+* Emacs FFIs
+** [[id:c632bb06-65b6-44f7-89b9-31831288f571][Consider using a REST API rather than an FFI in Emacs.]]
+** [[id:1c905ed6-fbc3-4e99-97b8-dd73c7ab6a13][Emacs FFI to C++]]
+** [[id:7dc80212-9f73-4b89-b013-fd8b40d72021][The Emacs FFI to C is very inconvenient.]]
+** [[id:959a778f-4e9a-4f41-91ac-278f6d3883e1][haskell-emacs]] has bit-rotted.
 * [[id:19f1effe-2776-48af-8cc7-32eca1b432f7][registers and bookmarks in emacs]]
 * [[id:80be0156-3e35-499e-a14b-9aa5803e715f][making big programs in Emacs]]
 * [[id:30820f8e-85d1-43c9-89e8-c763b6864d2d][outline-mode for Emacs]]

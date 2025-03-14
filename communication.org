@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "expression , how to"
 :END:
 #+title: communication
+* [[id:508f4247-41b1-476a-afd7-c15cbc9e460a][hypothesis : Try seeing the lenses that disagreements imply.]]
 * [[id:84e77d86-2b69-4f18-a1e4-110d17026c16][It's fun to determine when sending a picture conveys more and/or better information (than words).]]
 * [[id:de26311c-9b4b-48f4-afa1-c7a680f73b30][Don't beat around the bush.]]
 * [[id:0099068b-7ef0-4413-b3aa-18997353baa4][Neither overshare nor undershare.]]

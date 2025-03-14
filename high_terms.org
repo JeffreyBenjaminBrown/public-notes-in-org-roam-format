@@ -3,7 +3,9 @@
 :END:
 #+title: high terms
 * [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope(s)]]
+* [[id:ce2d269b-5029-435e-abf7-d33a984ca8cc][phenomena | conditions]] ,, experiential
 * [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][high tensions]]
+* [[id:03e9f0a1-cbe5-40b0-b46c-c716cf2029a3][optimization | method]]
 * [[id:720f5a80-ba0a-4f12-888f-7adb38e2009f][spiritual healing]]
 * interpersonal
 ** [[id:ccae4c2d-ee71-4c9c-acea-99074df994da][expression]]
@@ -12,6 +14,7 @@
 ** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
 ** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
 * phenomena | characteristics
+** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
 ** [[id:37a304ca-f34a-4d52-afb8-f953d21a1bcf][spacetime]]
 ** [[id:5a5ae8a2-fd35-457f-bb36-4cad26c0454d][nature]]
 ** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
@@ -22,6 +25,7 @@
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
 ** [[id:1dc593e8-0313-4dfd-bc5d-cd7e53f9bfba][high performance (human)]]
 ** [[id:2ef9af0e-4244-4d92-b141-c0aea60f7d9a][fantasy]]
+** [[id:a9704106-6ea1-40b8-8127-fa2e88d82bae][beauty]]
 * feelings
 ** [[id:5fe70812-fd17-4692-aa21-61a55c80ea71][nostalgia]]
 * [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]

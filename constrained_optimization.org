@@ -2,6 +2,6 @@
 :ID:       465f0ce9-e6e8-4a9f-b290-7290dd914e54
 :ROAM_ALIASES: "optimization (inc. constrained)"
 :END:
-#+title: constrained optimization
+#+title: how to do constrained optimization
 * Lagrange multiplier intuition
 ** https://twitter.com/page_eco/status/1590706196155346944?t=tfs1TgJIerb7_W-RJUaUiw&s=19

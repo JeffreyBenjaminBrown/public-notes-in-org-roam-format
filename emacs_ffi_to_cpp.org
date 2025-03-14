@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       1c905ed6-fbc3-4e99-97b8-dd73c7ab6a13
+:END:
+#+title: Emacs FFI to C++
+[[/home/jeff/code/emacs-ffi-to-cpp]]
+git@github.com:JeffreyBenjaminBrown/emacs-ffi-to-cpp.git

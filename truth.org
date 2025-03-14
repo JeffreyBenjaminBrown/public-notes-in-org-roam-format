@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       976655e8-af87-4967-a2ce-b03a1e57a400
+:END:
+#+title: truth
+* [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]

@@ -9,6 +9,8 @@
 ** [[id:97a9d5f6-feae-4d02-8800-41f36dd5f2b8][ontology (computer science)]]
 ** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
 ** [[id:f5d81cd6-dcc9-414b-bf9b-2c7f4ca1cd29][my data]]
+* [[id:e4963ae5-c8ed-4cca-939b-9c1c97b68e39][reluctance to start an enjoyable thing]]
+  Mindmapping is like swimming in this sense.
 * TODO \ knowledge graphs
 ** build [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode with TypeDB and Emacs]]
 ** [[id:d674bf8d-cd41-47aa-8418-36a74cedd561][build Hash for TypeDB]]

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       959a778f-4e9a-4f41-91ac-278f6d3883e1
+:END:
+#+title: haskell-emacs
+**** DON'T -- it's old, unmaintained, already kind of broken
+* = an Emacs package for Haskell interop
+* to call Haskell code from Emacs
+** have some Haskell code in a folder in `~/.emacs.d/` like this
+   /home/foo/.emacs.d/haskell/Matrix.hs
+** run `M-x haskell-emacs-init`
+** now call functions in Emacs like this
+   (Matrix.identity 3)

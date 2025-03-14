@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       d012e5a4-c33c-496f-841f-a0db90d8c1e6
+:END:
+#+title: errors
+* [[id:262cb4a6-23fd-4622-9e1b-b0fe8888876b][the online echo chamber effect]]

@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "humor"
 :END:
 #+title: comedy
+* see also [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling a higher force]]
 * [[id:ff5f634a-f8fa-482c-95a7-6be10e55e58d][comic responsibility]]
 * [[id:dab9c4a0-5337-4360-8da0-58a77f1276f3][enthusiasm]]
 ** [[id:4837bd81-52cf-489f-9543-cf1f5b57df2b][Enthusiasm is funnier.]]

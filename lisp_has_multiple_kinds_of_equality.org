@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       4f3fe5e3-c7a1-4f31-989b-4b4360fdc67a
+:END:
+#+title: Lisp has multiple kinds of equality.
+**** There are probably more.
+* (=) is for numbers.
+* (eq) works for numbers but is more general.

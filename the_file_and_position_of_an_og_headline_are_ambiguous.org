@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       c7701798-8fdc-4cb5-806b-d8e57bbc682e
+:END:
+#+title: the file and position of an og-headline are ambiguous
+* features from the brain dump
+** each og-headline is a headline in a file or a file title
+   Associate a line number to it, therefore, in both cases.
+** relationships it can hold to its children include
+   og-child is its (linear, tree) org-ancestor
+     In this case they are in the same file.
+   og-child is its (linear, tree) org-child
+     In this case they are in the same file.
+   og-child is a link to it
+   og-child is (some kind of) og-child of a hidden link to it
+** the bullet should indicate
+*** whether an og-parent node is hidden
+*** whether it is from a different file as the og-parent
+*** how many org-children it has
+*** how many links lead to it
+*** whether it is an org file or an org headline
+* brain dump
+  If an og-headline HO represents a headline HN with an ID (corresponding to node N), then one kind of og-child for HO is a child or parent of HN.
+  There might also be links to HN in a headline HL of another file. HN might be one of multiple links in HL. If HL is top-level in file F, and contains no other link or text, then in the osc-gen view one could put the title of F as a view-child of HO, omitting the text of HN (because it's equal to F). But if the text of HN is not equal to F, then it would be more complete to put "as [text of HN]" as an og-child of HO.
+  That "mid-generation" node ought to be hideable; that it is hidden would show up as part of the bullet of F.
+  Also the fact that HL has children ought to be visible from og-mode..
+  If HL is not top-level, then the ancestor path from it to its host file's title ought to appear below HL in the og-view. Again if HL duplicates the title of HO, it could be omitted.
+  Each time an og-headline represents a new file, its bullet should indicate that, and some command should permit folding and unfolding whether underneath that headline (in open text) appears the name of the file it represents a line from.

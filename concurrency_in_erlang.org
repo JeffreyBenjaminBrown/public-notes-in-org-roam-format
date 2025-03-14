@@ -4,7 +4,7 @@
 #+title: concurrency in Erlang
 * some vocab
 ** [[id:0d2d4114-b031-412e-81d7-26bd7c67f7f5][some concurrent programming vocab]]
-* errors
+* Erlang , errors in
   :PROPERTIES:
   :ID:       f68891f2-deaf-47f7-9f8e-ed2ff9f69811
   :END:
@@ -218,7 +218,7 @@
 *** Killing a function kills its subfunctions.
     This includes functions it runs via `apply`,
     but not functions it `spawns` -- the latter are separate processes.
-** signals
+** Erlang , signals in
    :PROPERTIES:
    :ID:       b5343c52-fe16-4579-8ac1-7567ed0db8c5
    :END:

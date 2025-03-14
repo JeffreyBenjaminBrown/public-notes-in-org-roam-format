@@ -4,4 +4,4 @@
 #+title: Scalar and list placeholders are different in Emacs Lisp.
 Maybe. So says ChatGPT.
 
-EmacSQL distinguishes between scalar placeholders (like $1) and list placeholders. When you want to substitute a list of values (as with an IN clause), you should use $l1 (note the lowercase "l" before the 1) instead of $1. So your query should be:
+"EmacSQL distinguishes between scalar placeholders (like $1) and list placeholders. When you want to substitute a list of values (as with an IN clause), you should use $l1 (note the lowercase "l" before the 1) instead of $1. So your query should be ..."

@@ -4,6 +4,8 @@
 #+title: solution
 * see also
 ** [[id:594df21f-51c9-485c-85a1-cf943f325219][irratinoality , inconsistency]]
+* [[id:03e9f0a1-cbe5-40b0-b46c-c716cf2029a3][optimization | method]]
+* [[id:f027def3-c2df-41bd-9841-bc1d9f437396][synthesis ( ala Hegel )]]
 * [[id:9f9db3c1-0220-463f-829b-60ede4d8593f][stasis conditions]]
 * [[id:3443228c-ca26-44cb-ba73-f33ee2de1078][complementarity]]
 * some interesting ones

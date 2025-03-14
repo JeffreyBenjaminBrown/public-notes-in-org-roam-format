@@ -2,7 +2,9 @@
 :ID:       e31ef49a-1cc3-417f-b1db-3d9f5c258abd
 :END:
 #+title: empathy
-* = What do I not know about others?
+* = understanding people
+* hard question : What do I not know about others?
+* [[id:508f4247-41b1-476a-afd7-c15cbc9e460a][hypothesis : Try seeing the lenses disagreements imply.]]
 * [[id:fa615844-39a9-4f57-8758-4fea2dcdec31][people as priority]]
 ** [[id:3fea916e-26ed-441c-883c-e642b205bf05][All that matters is how we make each other feel.]]
 * [[id:5327d2ce-1764-4bef-8959-aa8b5c478575][I want to know peoples' deepest motivations.]]

@@ -13,3 +13,4 @@
 * [[id:84b6c491-f0b4-44ab-9ffd-cf196d6a0220][Spanish vocabulary]]
 * advantages and disadvantages of specific natural languages
 ** [[id:ad2723af-3830-472a-af9f-f507d03eab5f][(solved) In English it takes a long time to know whether a list is conjoined or disjoined.]]
+* [[id:5cd6dc01-74f4-4363-9b3c-fa297d795040][identifier symbols]]

@@ -3,13 +3,15 @@
 :END:
 #+title: beautiful things
 * [[id:379e34b6-6b0d-4e66-b0ca-fdcf01a8bb95][low-dimensional metaphors]]
-* [[id:ba91e3ad-997a-4b4e-9ed4-43324b94f10f][computational efficiency]]
-* [[id:d3e3d652-353a-4170-b3c8-4c77b2131372][starling murmurations]]
 * [[id:7faf1c3e-510c-4073-99e0-a764db062772][The storm at the heart of the Milky Way galaxy.]]
 * [[id:464172c4-0de9-4556-b25c-16add32f2a3a][a sliding cross section of columns packed in 3d along 7 directions]]
-* [[id:f927cc31-1266-4352-978a-b0e00fb806a8][amazing music]]
-* [[id:182dd8be-1e10-4479-b252-e338af38729f][amazing videos]]
-* [[id:12364cd8-bc33-482b-84ca-0df360d428c3][a giant marble quarry]]
+* art
+** [[id:f927cc31-1266-4352-978a-b0e00fb806a8][amazing music]]
+** [[id:182dd8be-1e10-4479-b252-e338af38729f][amazing videos]]
+* tech
+** [[id:d3e3d652-353a-4170-b3c8-4c77b2131372][starling murmurations]]
+** [[id:12364cd8-bc33-482b-84ca-0df360d428c3][a giant marble quarry]]
+** [[id:ba91e3ad-997a-4b4e-9ed4-43324b94f10f][computational efficiency]]
 * not sure
 ** [[id:02044a73-6c5b-482d-91f2-c21a872a3ba2][Error would, if it spiraled, not spiral inward to a focus.]]
 ** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][injustice vanishing]]

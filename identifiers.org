@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       5cd6dc01-74f4-4363-9b3c-fa297d795040
-:ROAM_ALIASES: "identifiers"
+:ROAM_ALIASES: "identifiers | symbols"
 :END:
-#+title: identifier symbols
+#+title: symbols | identifiers
 * The [[id:6abbc45b-c279-46d0-9c17-d009612077dd][German tank problem]] provides one motivation for nonserial IDs.

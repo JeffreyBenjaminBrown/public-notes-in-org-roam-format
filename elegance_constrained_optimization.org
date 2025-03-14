@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0c399e74-6d5e-4f0a-95e5-331a7239b19d
+:END:
+#+title: elegance = constrained optimization
+That is, everything elegant (that I can think of)
+is a good solution to a constrained optimization problem.

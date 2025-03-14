@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       ce2d269b-5029-435e-abf7-d33a984ca8cc
+:ROAM_ALIASES: "phenomena" "conditions"
+:END:
+#+title: experiential :: phenomena | conditions
+* [[id:a9704106-6ea1-40b8-8127-fa2e88d82bae][beauty]]
+* power
+* laughter
+* charity
+* [[id:03e9f0a1-cbe5-40b0-b46c-c716cf2029a3][method | optimization]]
+* art
+* dance
+* nature
+* [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
+* sleep
+* [[id:976655e8-af87-4967-a2ce-b03a1e57a400][truth]]
+* [[id:7ea32dd5-3ad2-4de1-851b-a3a8d7f88711][uncertainty | ignorance]]
+* [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
