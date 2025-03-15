@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       6c76685a-da5b-49e5-b3cd-fc7c552b6ca1
+:END:
+#+title: Rust (programming language)
+* [[id:88f580b2-b7a3-478d-9894-dbafebd2fc9e][TypeDB via Rust]]

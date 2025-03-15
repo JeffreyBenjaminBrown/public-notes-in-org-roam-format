@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       88f580b2-b7a3-478d-9894-dbafebd2fc9e
+:END:
+#+title: TypeDB via Rust
+* online
+  https://github.com/JeffreyBenjaminBrown/typedb-via-rust
+* on my machine
+  [[~/code/rust-for-typedb/]]

@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "Vaticle makes TypeDB"
 :END:
 #+title: TypeDB
+* [[id:88f580b2-b7a3-478d-9894-dbafebd2fc9e][TypeDB via Rust]]
 * TODO RESUME | unread
 ** reviewing my notes
 *** already reviewed and ordered

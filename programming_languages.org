@@ -26,6 +26,7 @@ Both categories are incomplete and should overlap.
 ** [[id:7d6fb4d3-b3c4-4da3-9478-c8c711886710][Nickel (configuration language)]]
 * useful ones
 ** [[id:c9e06dae-2822-4de0-9fb4-34eb660c0fd6][Dart]]: supposedly easy cross-platform programming
+** [[id:6c76685a-da5b-49e5-b3cd-fc7c552b6ca1][Rust]]
 ** [[id:d49c9935-eecd-480d-a400-dd2113523911][SQL]]
 ** [[id:ff819483-7934-4d8d-b131-fd30d01a568f][TypeScript]]
 * [[id:0556cb53-4562-471b-8670-b456503f534f][some popular good or maybe-good programming languages]]

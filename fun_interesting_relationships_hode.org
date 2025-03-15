@@ -12,7 +12,7 @@
     are whole sentences,
     and seem clearly useful to both enough authors and readers.
 *** these
-**** _ considers _ [adjective]
+**** _ considers _ ef[adjective]
 ***** useful values for the adjective
 ****** surprising
        {surprising, beautiful, of no consequence (if | to _) ...}

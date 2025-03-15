@@ -8,7 +8,7 @@
 * laughter
 * charity
 * [[id:03e9f0a1-cbe5-40b0-b46c-c716cf2029a3][method | optimization]]
-* art
+* [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
 * dance
 * nature
 * [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
