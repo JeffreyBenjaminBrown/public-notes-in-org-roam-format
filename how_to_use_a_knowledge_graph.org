@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       9e45ccd9-d6e0-4870-8f13-cc11135334d0
 :END:
-#+title: how to avoid losing notes in a knowledge graph
+#+title: how to use a knowledge graph
 * hypothesis : when lost, look back at your reading history
 * TODO How should your knowledge graph prompt you to read?
 ** That is, outside of it, other people's work
@@ -19,6 +19,7 @@
   Even if you perfectly anticipate and curate the set Y when you create the new note, it's possible that you won't look up anything in Y for a long time. That's fine! Continuing the above example, suppose the note you wrote was about love and how to avoid burnout at work, and you put it under those two things, and then never looked at those two things. That means those two things weren't an issue for you.
 * [[id:801dad54-f3a9-4b27-97f5-3e3ab3b6dbe5][I like reading and rewriting my notes.]]
 * [[id:28f244af-3876-4302-8aa6-4e2306024149][Hegelian synthesis is a fun knowledge graph trick.]]
+* [[id:2a1c0d5e-81ac-46a8-a349-f3715428ac4e][promote "_ feels _" notes : a generalization of trigger warnings]]
 * how to read a knowledge graph
   :PROPERTIES:
   :ID:       7b2cd1a3-bac4-4057-90e3-a2698a2fdefb
