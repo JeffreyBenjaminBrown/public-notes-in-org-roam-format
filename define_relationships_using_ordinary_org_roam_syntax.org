@@ -2,6 +2,10 @@
 :ID:       562876f3-9608-4ebe-9ab1-f119188ffa32
 :END:
 #+title: Define relationships using ordinary org-roam syntax.
+This seems hard, and these thoughts are incomplete.
+* Autocomplete to suggest other relation names would be good.
+  Match on any of the terms rather than all of them,
+  and order by estimated relevance.
 * relationship files
   Not all relationships need have an associated file. For those that do, the file can suggest how to type the relationship.
 * This properties syntax might be sufficient.
@@ -14,9 +18,6 @@
 * Lack of typing seems okay.
   People must be able to record whatever they want regardless.
   Some attention mechanism -- count likes? "this is true"s, "this helped me"s, etc?
-* Autocomplete to suggest other relation names would be good.
-  Match on any of the terms rather than all of them,
-  and order by estimated relevance.
 * Order becomes harder in the hypergraph.
 ** A node's author may want to order the contents of related nodes when viewed through it.
 * A TypeDB representation of it seems very natural.

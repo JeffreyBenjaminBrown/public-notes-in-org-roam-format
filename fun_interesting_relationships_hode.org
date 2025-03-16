@@ -26,7 +26,7 @@
       between beliefs and things that might not be.
 ***** suspects ~ "it seems"
       This could be a private category.
-**** ([author] says) _ serves to illuminate _
+**** ([author] says) _ illuminates _
 ***** why no more specific than "illuminates"
       It might be helpful that the relationship
       {supports | helps explain | proves | contradicts}
@@ -58,7 +58,7 @@
      Just ask them to write about another thing,
      maybe very related (more specific) to the last question.
 ** extractable programmatically
-*** _ wrote _
+*** _ wrote _ (at time _)
 ** somewhat extractable programmatically
 *** _ involves | is about _
     Generate automatically from the title:
@@ -112,8 +112,8 @@
 * goals of the relationship set
 ** Users should enjoy using it to better understand what they have written.
 ** Users should want to use each new symbol.
-* inherent limitations
-** A symbol made available to a user, unless voters have induced them to explicitly answer about a place where it might apply, can only symbolize "this or maybe not this".
+** It should be extensible, needn't be complete.
+** It should be representable in a human-readable way.
 * further observations
 ** "is true" and "is false" are better unbundled.
    "_ is true" is really a bundle of
@@ -122,3 +122,5 @@
 ** "[author x] suspects ([author y] believes [statement])"
    is just a nesting of two relationships,
    but could be particularly useful.
+* DONE obvious : inherent limitations
+** A symbol made available to a user, unless voters have induced them to explicitly answer about a place where it might apply, can only symbolize "this or maybe not this".

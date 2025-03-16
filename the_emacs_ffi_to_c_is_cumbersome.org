@@ -1,6 +1,10 @@
 :PROPERTIES:
 :ID:       7dc80212-9f73-4b89-b013-fd8b40d72021
 :END:
-#+title: The Emacs FFI to C is cumbersome.
-That's because strings in C require manual memory management,
-and Emacs is all strings.
+#+title: Emacs FFI to C
+* it's cumbersome
+  That's because strings in C require manual memory management,
+  and Emacs is all strings.
+* but here's some code
+** in my filesystem
+   [[~/code/emacs-ffi-to-c]]

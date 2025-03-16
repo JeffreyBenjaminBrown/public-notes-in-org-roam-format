@@ -4,6 +4,7 @@
 :END:
 #+title: people, communities who are or might be interested in Hode
 Basically, truth-seekers.
+* [[id:137f0054-ea3a-4252-afb0-c7e0e214b2e6][friends interested in Hode]]
 * demographics (vague, big)
 ** lawyers
 ** journalists
@@ -111,7 +112,7 @@ https://www.youtube.com/watch?v=M5YKW6fhlss&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCH
 ** Daniel Dewey rec's
 * Ethan Perez
 ** Daniel Dewey rec's
+* [[id:4d3b3efd-41a9-49a9-be5a-740d83b15ac9][Flancian, the person who made Agora]]
 * [[id:edaf398a-06e7-4c52-b14e-09886de45870][the author of Dynomight]]
-* [[id:137f0054-ea3a-4252-afb0-c7e0e214b2e6][friends interested in Hode]]
 * [[id:e7798f00-df21-49f4-bb26-632011facbb7][Twitter wanted to switch the weight of subscriptions from people to topics.]]
 * [[id:2cd835d3-a30b-4fcf-9772-9bc70512d7f2][Facebook implemented an oversight board.]]

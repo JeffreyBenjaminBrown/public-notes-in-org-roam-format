@@ -5,6 +5,60 @@
 * bring in
 ** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
 ** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][SmSn]]
+* probing capabilities
+** DONE URI schemes' robustness to huge popularity.
+*** The org-roam URI scheme is quite robust.
+    Each URI has 32 hex characters,
+    so 16^32 = 3.4e38 unique values.
+    If each of the 8e9 people on earth had 100,000 notes,
+    there would be 8e14 notes.
+    The probability (use the birthday formula) of a collision
+    would be about 1 in a billion.
+*** The SmSN URI scheme is not.
+    It only (52*2 + 10)^16 = 4e28 unique URIs.
+    If everyone had 100,000 notes as above,
+    there would almost certainly be a collision.
+** DONE Do TypeDB from Rust in Docker
+   TypeDB has no C++ driver yet.
+** DONE Call C++ from Emacs
+   [[/home/jeff/code/emacs-ffi-to-cpp]]
+** DONE Read the org-roam db from C++
+   [[/home/jeff/code/cpp-for-org-roam-db]]
+* naming the app
+  "Why"
+* minimal hode building on org-roam and smsn
+** capabilities
+*** Make visible a count of each node's descendents.
+*** Links have two kinds of descendents: in this file and in the linked-to file.
+*** Parent relationships can also traverse multiple org- (within-file implicit tree) links.
+*** Order is hard.
+**** Disagreements about order might be hard.
+** data model
+*** Links can be used as relationships by preceding with a keyword likee ~via.
+*** Notes can have non-headline text.
+*** Any node N can be used as a relationship.
+    by making it an org-roam mid-generation,
+    and prefixing the link to N (after the bullet) with "~".
+*** Have different views of the same nodes.
+*** Perhaps in one file (i.e. view from a topic) one should be able to link to a path descending in another file.
+    e.g. under "humility", might link to "courage > thinigs that require it"
+    this link could be written "things that require courage", and indeed that could be the default name of the path "courage > things that require it". The link might appear from the view of the "humility" file as a single headline, but with some symbol indicating it is a path in another file, rather than a file itself
+*** ? For order, each note should have, for every POV from which it might be seen, a list of children.
+    arguments for and against
+**** PRO: Makes diffs highly readable:
+     If a top-level headline is moved, its children stay fixed.
+     There is only a one-line insertion and a one-line deletion.
+     This is particularly important if users receive pull requests:
+     they won't want to read complex diffs.
+**** CON: Makes files hard to read without special software.
+** things to be able to see
+*** From file F, if F links to node N, see that N also links to F.
+*** nah
+**** From link L in file F, if L links to node N, and L has children in F, show that N has children not shown in F.
+* methods + demo code
+** [[id:66a0b19d-a524-4ad0-b920-65fc701f78c4][exploring the org-roam db]]
+** Emacs org-mode column view
+   https://www.gnu.org/software/emacs/manual/html_node/org/Column-View.html
 * pitching it
 ** Don't mention hypergaph v. graph. Just call it a graph. The important thing is to be able to connect stuff as if in space rather than on a line.
 * capabilities
@@ -51,6 +105,8 @@
 * unsolved
 ** [[id:4770a0d4-1932-403c-a57a-9ae803e8372e][gameifying knowledge base curation]]
 ** [[id:bc0ba15e-6be8-4c0a-851c-0660c70de2b4][information sharing and cryptocurrency]]
+* art about it
+** [[id:2faccb5e-d642-4d15-83fa-9d4b7b315880][Hode not as app but as perceptual lens]].
 * DONE
 ** [[id:fbb345d3-1e65-414a-8e68-23c225d51f4d][problems I saw in Hode when I quit the version I was working on in 2021]]
 ** [[id:2b735c4f-b4d9-4d7d-9155-b650d90a2c4a][abandoned : coding Hode in Haskell]]

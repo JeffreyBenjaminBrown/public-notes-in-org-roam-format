@@ -2,19 +2,34 @@
 :ID:       37f7be50-9b2c-4426-b288-e83225b6d5d8
 :END:
 #+title: expressivity voids , observed
-* A node like x&y should be listed as an ancestor at the same level as and before x and y.
+* PITFALL: Without being extremely explicit, these notes can turn out to be indecipherable.
+  For example, what did I mean by each of the following?
+** A node like x&y should be listed as an ancestor at the same level as and before x and y.
+** [[id:895c50e4-60a7-4c7e-bcb5-092e1224f33e][options perpetually under considearation]]
+** a how_to_read property
+   example
+*** Mercy is a form of [[id:6e537826-402f-4254-a40a-652b31e2390a][transcendence]].
+    :PROPERTIES:
+    :HOW_TO_READ: "remind viewer to look rootward"
+    :ID:       5b9caf47-ff2f-4821-8476-2dee77d51ec4
+    :END:
+* "_ would place _ distant from _" (in the view)
+* relation type visible only after target of connection
+** a note in which I wanted to do this
+   :PROPERTIES:
+   :ID:       c0dc4e33-707e-4e4d-a6e4-baa7ffec1474
+   :END:
+   #+title: gender
+  * [[id:1b7e7dee-5266-4f53-861f-9104c170d016][Gender is a form of guidance.]]
+  ** [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling a higher [ force | power | principle ]​]]
+** what in that note I wish I could express
+   In "gender" it's more important that the parent headline be visible than its child, but the child connects the two.
+** Conversely, sometimes you want the category to come first.
+   more often, I think
 * How to share information among people with private information.
 * a file "x & y" , if linked to files x and y, can define [a] relationship between them
-* [[id:895c50e4-60a7-4c7e-bcb5-092e1224f33e][options perpetually under considearation]]
 * In a words graph, backward seems a better label for that direction of reading than upward.
 * [[id:9b247ad4-a606-4bd4-a5a6-df297d91e262][Each node should [order, structure] its parents.]]
-* a how_to_read property
-  example
-** Mercy is a form of [[id:6e537826-402f-4254-a40a-652b31e2390a][transcendence]].
-   :PROPERTIES:
-   :HOW_TO_READ: "remind viewer to look rootward"
-   :ID:       5b9caf47-ff2f-4821-8476-2dee77d51ec4
-   :END:
 * DONE motivations for oscillable generations view
 ** The existence of [nodes in list below] makes me want to see "backward" through two levels of graph relatives from the node.
 *** one and why
@@ -23,9 +38,12 @@
      it somehow obscures what I can normally see behind a privacy graph edge (jump).
 *** a second and why
 **** This very [[id:37f7be50-9b2c-4426-b288-e83225b6d5d8][expressivity voids , observed]] file.
-* this quote
-** it
-   [[id:a55842c2-536e-4581-b04b-026715e646d1][love & responsibility]] (fun!)
-** the expressivity trick
-   warn the user that there's enjoyable stuff in there,
-   lest they assume it's a bummer and skip it
+* content highlights : a generalization of trigger warnings
+  should bind closely to the object of the warning,
+  perhaps even preceding it.
+** example : The opposite of a trigger warning.
+*** it
+    [[id:a55842c2-536e-4581-b04b-026715e646d1][love & responsibility]] (fun!)
+*** the expressivity trick
+    warn the user that there's enjoyable stuff in there,
+    lest they assume it's a bummer and skip it

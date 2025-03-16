@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       027ddceb-9faf-4ed6-97c6-ee505c92dea4
+:END:
+#+title: org-tidy-mode
+* on Github
+  https://github.com/jxq0/org-tidy
+* simple usage
+  `M-x org-tidy-mode` completely hides all properties drawers.
+  Calling it again undoes that.
+* it can be auto-loaded
+  as described in its README

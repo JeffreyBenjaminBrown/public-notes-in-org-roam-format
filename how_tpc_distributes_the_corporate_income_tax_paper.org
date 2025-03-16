@@ -2,7 +2,8 @@
 :ID:       dfb5198f-b392-4903-be09-bfa7217212cc
 :END:
 #+title: How TPC Distributes the Corporate Income Tax (paper)
-~/of/papers/How-TPC-...
+was saved as
+  ~/of/papers/How-TPC-...
 * vocab
 ** CIT = corporate income tax
 ** LR, SR = short run, long run

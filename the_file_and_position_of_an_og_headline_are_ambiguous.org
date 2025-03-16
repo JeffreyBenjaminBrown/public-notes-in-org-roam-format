@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       c7701798-8fdc-4cb5-806b-d8e57bbc682e
 :END:
-#+title: the file and position of an og-headline are ambiguous
+#+title: the file and position of an osc-gen-headline are ambiguous
 * features from the brain dump
 ** each og-headline is a headline in a file or a file title
    Associate a line number to it, therefore, in both cases.

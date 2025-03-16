@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8932d308-fbc2-4315-ade1-f1f6e1ec5921
+:END:
+#+title: cooperation
+* There is [[id:4bc52dda-fa45-4312-aa88-05071bf35289][cooperation across species]].
+* [[id:59825cfe-9f13-49b0-a5c5-7648e39d02d7][help & gender]]

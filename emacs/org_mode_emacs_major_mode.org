@@ -14,4 +14,5 @@
 #+BEGIN_SRC python
   x = 3
 #+END_SRC
+* to completely hide all properties drawers : `[[id:027ddceb-9faf-4ed6-97c6-ee505c92dea4][org-tidy-mode]]`
 * [[id:82f83486-bbc2-41d8-bcf8-8203059cffcd][org to pdf, how to export]]

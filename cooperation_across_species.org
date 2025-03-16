@@ -2,4 +2,4 @@
 :ID:       4bc52dda-fa45-4312-aa88-05071bf35289
 :END:
 #+title: cooperation across species
-* Groupers cooperate with other species, by pointing, to hunt with in coral.
+* Groupers cooperate with other species, by pointing, to hunt within coral.
