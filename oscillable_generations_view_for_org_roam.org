@@ -1,0 +1,167 @@
+:PROPERTIES:
+:ID:       41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3
+:END:
+#+title: oscillable generations view for org-roam
+* TODO problems
+** The sources view of a relationship "template" node might get cluttered.
+*** the problem
+    If a link to a relationship node is used as a headline to indicate that the headline is a relationship between its parent and its children, the view of that relationship's sources will be cluttered by such instances, burying those nodes that are actually *about* the relatinoship in a sea of things that reveal little about it.
+    Here by relationship template I mean a file such as "see also" that explains what the "see also" relationship means, and links to which are used in other files to organize that file, rather than to say anything about the nature of "seeing also".
+*** candidate solutions
+**** mark links to relationship templates with something like a leading ~
+     Indicate whenever a link to that relationship is being used as a relationship.
+***** problem: Many such indicators would have to be written.
+**** mark links to relationship templates with something to indicate that it is *not* being used as a link
+     This would require much less effort on the part of the user.
+** If a target has many source links, categorizing them makes looking sourceward easier.
+   A simple solution:
+   When viewing link sources, show the whole path from the source node to the source link (which is an org-descendent of the node). Where two such paths are textually the same, merge them.
+*** example
+**** the "backward" view
+     * [target node] = apples
+       looking at its link sources
+     ** uses
+     *** [source node] = apple strudel
+     *** [source node] = apple cider vinegar
+**** the corresponding forward views
+     * [source node] = apple strudel
+     ** uses
+     *** [target node] = apples
+
+     * [source node] = apple cider vinegar
+     ** uses
+     *** [target node] = apples
+** the parent file should be obvious
+   Each node in the osc-gen buffer should therefore
+   recognize which ancestor it is being viewed from, if any,
+   so that edits correspond to that ancestor.
+   Any such node can switch the viewpoint on its view-children.
+** transclusion
+*** how
+    Keep multiple buffers viewing each onto multiple texts.
+    All text has a property indicating what parent it came from,
+    nil for top-level ones (which should be visibly top-level),
+    and each parent has a property of how it generated its children.
+*** The error "are you sure you want to save after external change"
+**** elaboration
+     are you sure you want to save
+     (this buffer that you abandoned for another for a while)
+     now that it's been changed (by something you did while away)
+     would be important if the previously-viewed buffer could be left unsaved.
+*** problem : how to map character position in the view back to the file for edits
+**** easier solution
+     visit the file to edit, then rerender the region in osc-gen
+**** hard solution
+     Keep track of the position of the last character of the transcluding parent headline, and subtract that from current position, then add to position of headline in the target file corresponding to the transcluding headline.
+** DONE obvious
+*** not all view-children of a headline need bear the same relationship to it
+*** the relationship to a view-parent should be obvious
+** TODO fetching children is not so easy
+*** the problem
+    It will require tracking a correspondence between
+    headlines in the osc-gen view and
+    lines in containing files,
+    because not every headline has an ID.
+*** ? solution
+    If a node in the OG view has an ID, that's its hidden info.
+    If it has none, its hidden info is
+      the ID of the file containing it, and
+      the line number it lies on.
+** changing the bullet
+*** Vertical banners seem preferable to horizontal ones, given space constraints.
+    Only sufficiently complex messages would need horizontal ones.
+* TODO changes | features
+** Each og-headline is a headline in a file or a file title.
+   Thus to know what it means,
+   I must associate a file and position to it in either case.
+** the bullet should indicate
+*** whether an og-parent node is hidden
+*** whether it is from a different file as the og-parent
+*** how many org-children it has
+*** how many links lead to it
+*** whether it is an org file or an org headline
+*** Whether the link text is equal to the target's title.
+** [[id:54cd30f3-b696-4017-a02e-4e5b17ab1553][a format friendlier for reading diffs than org-roam's]]
+** Separate the model from the controller.
+   This is a problem in my Emacs technique.
+** Use a Haskell JSON server to query the org-roam db.
+   Then parse the JSON text into hash tables in Emacs.
+   This avoids having to remember what list indexes represent.
+** Indicate a headline is [file | non-file node | plain text]
+** ? Count things.
+** From file F, if F links to node N, show if N also links to F.
+   Use the "left right arrow" symbol ↔
+   (`C-x 8 RET left right ar RET")
+* OBSOLETE somewhat : initial specification
+** vocab
+*** (graph-)leafward, (graph-)rootward
+    seems preferable, given org-roam context, to these alternatives
+**** leafward = from titles to headlines, headlines to subheadlines
+**** alternatives
+***** contents, containers
+***** children, parents
+***** forward, backward
+*** screen-leafward, screen-rootward
+*** leafward in-file path (LIFP)
+    is the path from a title to a node,
+    if that node is in that file.
+** top-level osc-gen view headlines are arbitrary
+   Tthe user can copy anything there. Redundantly, even.
+** toggle view direction
+   If not announced with a vertical one-character banner,
+   the toward-subheadlines direction means "toward descendents".
+** reorder nodes
+   has no effect outside of the view, but if the view is sufficiently malleable it might be kept around a long time.
+** unfold [containers, contents, file path] of a node
+*** This can be done multiple times under a node.
+*** Multiple of those things can be shown under it.
+*** If roots and leaves are shown, the roots are announced with ^.
+*** LIFPs are announced by "<" and read backward.
+**** Each item in that path with an ID is announced with E, not <.
+***** Therefore there's always at least one E.
+      The last line in the path is always announced with E,
+      because it's the title of some file.
+***** (I'd like a horizontally bisected < but that doesn't exist.)
+**** Further indent each successive node in a LIFP.
+     This way distinct LIFPs containing the spawning node
+     are easily visually separated despite abutting.
+***** [[id:8bb37edb-557e-492b-adc1-4337fd0a409e][LATER : Save characters by indenting less.]]
+** copy subtree of view
+** paste subtree at top level
+   It may have come from the edit view.
+** go between ordinary tree and osc-gen tree views of node
+   This should not replace the old view,
+   just add to it.
+* can wait, if ever
+** ? Would it not be better to simply curate each view, including the viewpoint's parents?
+   Doing that would mean having, each time another link is made to it, to decide whether to include a backlink, and how to file it.
+** Would it hurt to introduce Hash into how nodes are tabled?
+   e.g. if a title was "a & b", they would be associated with a
+   relationship, undefined but someone can write about it
+   (giving the relationship the title "_ & _").
+   Upon exploration you could see generic things that apply to your accreted definitions of &, as well as to specifically "a & b".
+** [[id:562876f3-9608-4ebe-9ab1-f119188ffa32][Define relationships using ordinary org-roam syntax.]]
+** [[id:9b247ad4-a606-4bd4-a5a6-df297d91e262][Each node should [order, structure] its parents.]]
+** view traversal history
+   Integrate with Git?
+** permit and save groupings of parents
+   e.g. some could be grouped under "obvious" and collapsed.
+** save orderings of parents
+   Just one list of parents,
+   including an entry for "unknown parents".
+** recompute buffer
+   :PROPERTIES:
+   :ID:       503f3b54-d79f-4d2d-a1bb-b00d38e0ada6
+   :END:
+   Needed when data is edited.
+   Should be cheap, run often.
+   Requires storing origins of nodes.
+** Invisibily record node origin in buffer
+   With these the program could know the relationship between each headline and its rootward and leafward neighbors in the view.
+** I could save some characters on screen by indenting less.
+   :PROPERTIES:
+   :ID:       8bb37edb-557e-492b-adc1-4337fd0a409e
+   :END:
+   For instance in a LIFP, maybe only the first line in a contiguous series of lines without IDs needs to be indented.
+** A top line in buffer: Source of its top-level headlines.
+** Ideally the user could write in the descentward views.
