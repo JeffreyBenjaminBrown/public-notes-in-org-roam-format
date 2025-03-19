@@ -2,9 +2,19 @@
 :ID:       c774af85-7ad0-4762-b28c-5e02d4881c8b
 :END:
 #+title: After filing something, know the whole note it went into.
-* definition | clarification
-  i.e. if I haven't read it recently, read it.
+* clarification & elaboration
+  i.e. if you haven't read one of the files linking into where you just wrote, do so.
 * why
   Otherwise I might be building up pointless notes --
   either wasting my time by writing things I won't read,
   or wasting my time by not reading valuable things.
+* arguments over it
+** CON: maybe just a volume thing
+   This might be good mostly because it increases the volume read,
+   and other graph strategies for doing that would be as effective.
+** PRO: looking up is natural when unfocused
+   But if you're somewhere and feeling aimless, then looking up,
+   into the files that justify the current one's existence,
+   does seem like a natural response.
+** PRO: polite if sharing notes
+   Which, in a sense with one's past selves, one always is.

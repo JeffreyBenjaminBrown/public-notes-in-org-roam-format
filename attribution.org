@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       786eebcb-c64d-4cf4-8448-76def28fd7e0
+:ROAM_ALIASES: "theory of mind"
+:END:
+#+title: attribution
+* = attributing qualities to a person
+* [[id:2e6e41ec-87fd-4f79-9162-0114e61497ac][Everything one does is intentional, but every effect they have cannot.]]

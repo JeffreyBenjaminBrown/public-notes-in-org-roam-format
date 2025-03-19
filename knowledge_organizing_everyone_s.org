@@ -30,7 +30,7 @@
 ** [[id:05a84243-9dcf-4492-b81e-a48fd2f53b3c][knowledge graphs and/or meditation]]
 ** [[id:514fe55a-d22c-4e6a-9b0f-3a01a89742db][Review notes before any high-pressure situation.]]
 ** [[id:d283b6a3-205b-4a7c-9338-aa458f091691][Use my "prefix-date-uri" script.]]
-** [[id:801dad54-f3a9-4b27-97f5-3e3ab3b6dbe5][reading and rewriting notes]]
+** [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to use a knowledge graph]]
 ** [[id:30478629-506c-4acf-aec8-b74e977a2234][how to take notes on people and communication]]
 ** [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to avoid losing notes in a knowledge graph]]
 * some knowledge-mapping efforts

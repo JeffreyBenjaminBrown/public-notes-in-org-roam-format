@@ -5,6 +5,7 @@
 * qualities one might owe oneself
 ** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
 ** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
+** [[id:00965683-24d4-4725-9ecb-58b960925c6a][independence]]
 ** [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][peace]]
 ** [[id:720f5a80-ba0a-4f12-888f-7adb38e2009f][spiritual healing]]
 ** [[id:a963e722-1f05-46e1-a9f5-d5f874b71f8f][self-criticism]]
@@ -15,3 +16,4 @@
 * duh
 ** [[id:763e96f9-b1eb-4e0a-b7a7-04917a32f097][Happiness must be a priority.]]
 ** [[id:92354831-6ca0-455b-b87e-0ae639bc651b][Know what to keep private.]]
+* [[id:13e24c8b-c45a-4448-a3a8-8b1ae529f092][fast medium experience]]

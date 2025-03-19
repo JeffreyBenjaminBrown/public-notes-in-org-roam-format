@@ -2,6 +2,7 @@
 :ID:       721b9b4d-63cc-473f-8ccb-bfc8d22240d9
 :END:
 #+title: ethics
+* = FEELS like an angry subject
 * [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other selves]]
 * [[id:72411da2-cb37-4be4-9746-47758a336240][Be immediately fascinated by (lived) ethical challenges.]]
 * [[id:db3854bf-7176-4772-aa3b-a93e30882a6d][spirituality + ethics]]

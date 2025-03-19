@@ -8,7 +8,7 @@
 * [[id:40a2de02-6388-4795-8280-62f4888cf7b0][AI and understanding]]
 * [[id:9607095a-d876-425f-b06a-25a02a9b83f2][animals and understanding]]
 * [[id:dde6522f-6bd1-489b-bd82-5c3315f54ca6][How to think using spaced repetition.]]
-* Why and how to [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult your notes]].
+* Why and how to [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][use a knowledge graph]].
 * [[id:c3d3f28c-5892-4deb-86dd-e8f490a24b1d][collective understanding]]
 * [[id:84e77d86-2b69-4f18-a1e4-110d17026c16][It's fun to determine when sending a picture conveys more and/or better information (than words).]]
 * [[id:609378d9-85be-4edf-bcd7-724356ad3cb8][preconceptions]]

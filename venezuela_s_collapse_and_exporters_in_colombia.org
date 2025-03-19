@@ -2,8 +2,38 @@
 :ID:       6340db44-bfb6-46e7-b28f-1d4f4553ba4c
 :END:
 #+title: Venezuela's collapse and exporters in Colombia
-* = notes on a paper by Carlos Hernandez ad MinCIT
-* Colombian manufacturers exported to Veneuela.
-* Chavez started a boycott of Colombian goods in 2009.
-* Venezuela (continued? started?) collapsing thereafter.
-* Colombian exporters exposed to V shrank and stayed that way, but (total country?) productivity did not [change? go off-trend?].
+* = notes on a paper presented at MinCIT by Nicolas something, prof at Los Andes
+* from the abstract
+** Colombian manufacturers exported to Veneuela.
+** Chavez started a boycott of Colombian goods in 2009.
+** Venezuela (continued? started?) collapsing thereafter.
+** Colombian exporters exposed to V shrank and stayed that way, but (total country?) productivity did not [change? go off-trend?].
+* data sources
+** EAM (encuesta nacional manufacturas)
+** DIAN (for exports -- destination, volume, date, more)
+* time windows
+  pre-treatment: 2005–2008
+  post-treatment: 2009–2018 (after the Venezuelan import ban)
+* some history
+** 1999: Chavez gains power
+** 2003: Chavez introduces price controls, currency exchange restrictions
+** Chavez's goals and results with the import restrictions (the focus of the paper)
+*** goals: food sovereignty and reduce dependency on foreign goods
+*** effect: shortages, more
+* sectors
+** Textiles and clothing were hit hard.
+* criticisms
+** Why assign an arbitrary cutoff?
+*** elaboration
+    Why discrete diff-in-diff, rather than treat a firm's export share to Venezuela as a continuous variable, which it is?
+** endogeneity problem
+*** the problem
+    Firms lower in productivity or foresight might be the ones most likely to (still) trade with Venezuela when the measurement of their export share to Venezuela was made.
+*** it affects both diff-in-diff and continuous approaches
+* questions
+** What year do they use to determine export share?
+** How much DIAN data was invalid?
+   i.e. no country or nonpositive value
+** How did productivity vary across firms?
+** Is it legally hard to start exporting to a new country?
+** TODO What distinguished exporters to Venezuela from others?

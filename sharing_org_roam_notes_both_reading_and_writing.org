@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       dc937226-1a31-4d76-b4c2-702c28a43482
+:END:
+#+title: sharing org-roam notes , both reading and writing
+* attaching judgments to notes
+** representation
+*** Each user could have a "considers [quality]" file, for various qualities.
+    Each link in such a file would be one that the user has judged to have that quality.
+    These files could get very long.
+    The user could, if they want, organize them with plain text,
+    but any link they included would be interpreted
+    as another object of judgment.
+*** Users should be able to provide justifications, context for their judgments.
+    This implies perhaps making each judgment into its own file.
+** Could only be (easily) applied to nodes, not plain text lines.
+** Judging something should be easy.
+   Having to remember the name of the file with the judgments, save a link, visit it and store the link might be cumbersome.
+** A user should be notified when another judges or otherwise (effectively) writes about something of theirs.
+* Diffs, esp. of pull requests, should be readable.
+  This suggests [[id:54cd30f3-b696-4017-a02e-4e5b17ab1553][leaving the org-roam format]].
+* Sharing write permissions to a file seems hard.

@@ -2,14 +2,16 @@
 :ID:       d2faa803-4b32-4ada-b4ee-212d07b028a5
 :END:
 #+title: romance
-* see also [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling a higher force]]
+* see also
+** [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling a higher force]]
+** [[id:9d700d59-a464-4741-b7a1-d952db174456][separation]]
 * has two senses in English
 ** the pursuit of romantic love
 ** a sense of awe
 * Humility leads to peace in the face of rejectino.
 * =? hoped-for [mate, permanence] choice
 * [[id:890d9101-09c6-48f0-be54-e4e74a0ec961][romance + surprise]]
-* [[id:9d700d59-a464-4741-b7a1-d952db174456][parting]]
 * [[id:fc237236-d3ef-4c05-a169-2ab33d7e59a4][romance + tragedy]]
 * [[id:3443228c-ca26-44cb-ba73-f33ee2de1078][complementarity schemes]]
 * [[id:51e9546b-1dd1-4b60-9591-b7bf8ed3cc6a][humility in romance]]
+* [[id:d2c78541-6092-49c0-9cb2-e3cefdc24b71][flirtation]]

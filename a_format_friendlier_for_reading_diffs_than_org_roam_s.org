@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       54cd30f3-b696-4017-a02e-4e5b17ab1553
+:END:
+#+title: a format friendlier for reading diffs than org-roam's
+* the idea
+** Each file is a flat org-file.
+   Flat = only level-1 headlines.
+** Headlines can be
+   alternatives
+*** plain text
+*** links to another file F "in" the host file H
+    :PROPERTIES:
+    :ID:       54f597a8-c9ea-4873-8385-22e82c9d9de6
+    :END:
+    Such a file F extends the view from H,
+    and is not necessarily meaningful outside of the context of F.
+    If a yet further nested file G is a child of F,
+    I that file too should be considered to be "in" H, not F.
+*** links to another stand-alone file.
+** The view from standalone file F
+   :PROPERTIES:
+   :ID:       228029c2-ea1c-4f18-b5e4-975989fca3be
+   :END:
+   transcludes through all of the files "in" it.
+* Downside: This makes the org files hard to read without special software.
+  It's not rocket science, but it's tedious:
+  [[id:228029c2-ea1c-4f18-b5e4-975989fca3be][The view from standalone file F]] can require traversing more files than F itself.
+* Motivation: Why this makes diffs easy to read.
+  Each move is just a single insertion-deletion pair,
+  rather than a whole lot of contiguous
+* Question: What's a good term for [[id:54f597a8-c9ea-4873-8385-22e82c9d9de6][files "within" files]]?

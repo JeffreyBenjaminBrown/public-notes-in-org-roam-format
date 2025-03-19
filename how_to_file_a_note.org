@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       1989f694-7acc-433f-aae6-7e7146abd9cc
+:END:
+#+title: how to file a note
+* Create some links to it.
+  When I write a note I try to figure out everything it bears on -- what it's about, what projects it would help, what it has implications for the truth or falsity of, etc. Call that set X. I then filter that set to those things I actually care enough about to bother keeping track of them. (For instance, maybe the note has implications for love, but I don't care; if so, love is in X but not Y.)
+
+  The difference between X and Y depends on the speed with which I can create a note, and the cost of comitting to maintaining it over time. Org-roam, fortunately, makes the first pretty low, and my own habits make the cost of the second pretty low, so often in my case X == Y.
+
+  For each thing in Y, I then link to the new note. If that thing in Y doesn't yet exist, I make it.
+* Anticipate synonyms.
+  Synonyms prevent something of a problem. I often search for "belongings" and then remember "oh yeah, I call those possessions". The ROAM_ALIASES field helps for that.

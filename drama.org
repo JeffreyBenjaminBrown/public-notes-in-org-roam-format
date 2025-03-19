@@ -2,6 +2,7 @@
 :ID:       4ff751ef-1d5b-4df7-89ed-69adb2c46fd4
 :END:
 #+title: drama
+* [[id:aabbe81f-1a56-4483-aad9-1b937f56dd7a][Sometimes the rhythm is to marinate in someone's words.]]
 * [[id:575ab579-f773-49af-80e4-19569e36aa14][sports]]
 * [[id:6e537826-402f-4254-a40a-652b31e2390a][transcendence]]
 ** [[id:cdec0e7c-02e8-43c0-a8ff-7de3d3c338ef][to escape what seems inevitable]]

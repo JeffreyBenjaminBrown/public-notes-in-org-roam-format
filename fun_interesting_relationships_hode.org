@@ -12,7 +12,7 @@
     are whole sentences,
     and seem clearly useful to both enough authors and readers.
 *** these
-**** _ considers _ ef[adjective]
+**** _ considers _ [adjective]
 ***** useful values for the adjective
 ****** surprising
        {surprising, beautiful, of no consequence (if | to _) ...}
@@ -42,6 +42,8 @@
 **** _ enjoyed reading _
      Would be useful for guiding the view.
 **** [term] and [term] are equivalent.
+**** _ grounds _
+     It sounds better than "justifies", "clarifies", "elaborates".
 ** perhaps to introduce only after voting
 *** user-defined relationships
     Each would have at least been considered useful by some author.

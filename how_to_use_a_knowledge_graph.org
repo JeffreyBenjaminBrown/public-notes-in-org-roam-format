@@ -1,30 +1,43 @@
 :PROPERTIES:
 :ID:       9e45ccd9-d6e0-4870-8f13-cc11135334d0
+:ROAM_ALIASES: "how to use a knowledge graph"
 :END:
-#+title: how to use a knowledge graph
-* hypothesis : when lost, look back at your reading history
-* TODO How should your knowledge graph prompt you to read?
-** That is, outside of it, other people's work
-* [[id:ce9e0a8d-19fa-48eb-9d0e-6cedcb0fdc99][notes, how to take]]
-* file each new note well, although not excessively
-** choose its parents well
-   When I write a note I try to figure out everything it bears on -- what it's about, what projects it would help, what it has implications for the truth or falsity of, etc. Call that set X. I then filter that set to those things I actually care enough about to bother keeping track of them. (For instance, maybe the note has implications for love, but I don't care; if so, love is in X but not Y.)
-
-   The difference between X and Y depends on the speed with which I can create a note, and the cost of comitting to maintaining it over time. Org-roam, fortunately, makes the first pretty low, and my own habits make the cost of the second pretty low, so often in my case X == Y.
-
-   For each thing in Y, I then link to the new note. If that thing in Y doesn't yet exist, I make it.
-** anticipate synonyms
-   Synonyms prevent something of a problem. I often search for "belongings" and then remember "oh yeah, I call those possessions". The ROAM_ALIASES field helps for that.
+#+title: using a knowledge graph
+* TODO merge
+** [[id:ce9e0a8d-19fa-48eb-9d0e-6cedcb0fdc99][notes, how to take]]
+** [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult your notes : why and how]]
+* processing
+** TODO How should your knowledge graph prompt you to read?
+*** That is, outside of it, other people's work
+* seem to help
+** When lost, look back at your reading history.
+* [[id:1989f694-7acc-433f-aae6-7e7146abd9cc][how to file a note]]
 * Don't worry about losing conscious track of any note -- losing track is, in fact, critical to successful usage of a knowledge graph.
   Even if you perfectly anticipate and curate the set Y when you create the new note, it's possible that you won't look up anything in Y for a long time. That's fine! Continuing the above example, suppose the note you wrote was about love and how to avoid burnout at work, and you put it under those two things, and then never looked at those two things. That means those two things weren't an issue for you.
-* [[id:801dad54-f3a9-4b27-97f5-3e3ab3b6dbe5][I like reading and rewriting my notes.]]
+reading and rewriting my notes
+* Be clear on the purpose.
+  Shuffling mindmaps is not something I do for the mindmap's sake!
+  It is how I think.
+* Remember that I like rewriting my notes.
+  :PROPERTIES:
+  :ID:       2597d25f-e6f5-488e-aa52-277dd287526b
+  :END:
+  For some reason this is hard.
+  I learn the lesson repeatedly, and it surprises me each time.
+** Maybe the question is *when* do I like it?
+   :PROPERTIES:
+   :ID:       99721b37-30b0-4475-81fa-42b6f67e6ec8
+   :END:
+   Do I like it when it's productive?
+   Do I know when it's productive?
+   Do I like reading/organizing a topic when I've been procrastinating the topic? (I think so.)
 * [[id:28f244af-3876-4302-8aa6-4e2306024149][Hegelian synthesis is a fun knowledge graph trick.]]
 * [[id:2a1c0d5e-81ac-46a8-a349-f3715428ac4e][promote "_ feels _" notes : a generalization of trigger warnings]]
 * how to read a knowledge graph
   :PROPERTIES:
   :ID:       7b2cd1a3-bac4-4057-90e3-a2698a2fdefb
   :END:
-** consider a [[id:5498fb6a-fcf2-49e4-a6d0-aa30a615301d][rushing paleontologist]]
+** Read like a [[id:5498fb6a-fcf2-49e4-a6d0-aa30a615301d][rushing paleontologist]].
 ** Know when to read it. Treat them like Google.
    When you have an itch to do anything, part of scratching it should be to look in your notes for anything you've already written on it before.
 ** Consult the upper onotology, too.

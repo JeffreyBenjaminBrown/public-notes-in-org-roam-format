@@ -4,7 +4,8 @@
 :END:
 #+title: information , about
 * [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
-* [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
+* [[id:9d700d59-a464-4741-b7a1-d952db174456][separation]]
+* ? [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]] (Maybe bring its contents here.)
 * [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][understanding, thinking, learning]]
 * [[id:49a03bb3-7d57-4e38-89a5-93074d8fd152][information = truth ,, if properly qualified]]
 * [[id:d012e5a4-c33c-496f-841f-a0db90d8c1e6][errors]]

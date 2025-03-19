@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       2a1c0d5e-81ac-46a8-a349-f3715428ac4e
+:END:
+#+title: promote "_ feels _" notes : a generalization of trigger warnings
+should bind closely to the object of the warning,
+perhaps even preceding it.
+* example : The opposite of a trigger warning.
+** it
+   [[id:a55842c2-536e-4581-b04b-026715e646d1][love & responsibility]] (fun!)
+** the expressivity trick
+   warn the user that there's enjoyable stuff in there,
+   lest they assume it's a bummer and skip it
+* another example
+  ** #+title: ethics
+  * = FEELS like an angrey subject

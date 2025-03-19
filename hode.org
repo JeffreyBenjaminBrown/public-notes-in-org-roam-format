@@ -2,9 +2,14 @@
 :ID:       d5a5a3ff-977a-405b-8660-264fb4e974a3
 :END:
 #+TITLE: Hode
-* bring in
-** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
+* see also
+  TODO : merge with
 ** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][SmSn]]
+** [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to use a knowledge graph]]
+* TODO [[id:02216718-4464-4017-93ec-942545f7376c][make the org-mode diff easier to read]]
+* [[id:2a1c0d5e-81ac-46a8-a349-f3715428ac4e][promote "_ feels _" notes : a generalization of trigger warnings]]
+* [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
+* [[id:dc937226-1a31-4d76-b4c2-702c28a43482][sharing org-roam notes , both reading and writing]]
 * probing capabilities
 ** DONE URI schemes' robustness to huge popularity.
 *** The org-roam URI scheme is quite robust.

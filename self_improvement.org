@@ -2,6 +2,7 @@
 :ID:       a7404dc2-004e-43d5-b8c6-862601cd2c03
 :END:
 #+title: self-improvement
+* [[id:cd31d188-3857-469e-8af8-07ce8d4242d9][intuition]]
 * [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]] and [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
 * [[id:fea693ce-0ef6-4535-9d8d-7e150ac6480e][things I want to know, that I could easily look up]]
 * [[id:13aba0e9-33c1-4f2b-906c-4ab3ab683522][emotional ambition]]

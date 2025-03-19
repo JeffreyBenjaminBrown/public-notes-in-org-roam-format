@@ -2,6 +2,7 @@
 :ID:       37f7be50-9b2c-4426-b288-e83225b6d5d8
 :END:
 #+title: expressivity voids , observed
+* TODO give examples of [[id:67cc1b2b-4ec5-4012-9756-dcaafdabb41c][judiciously deleting Platonic linking nodes.]]
 * PITFALL: Without being extremely explicit, these notes can turn out to be indecipherable.
   For example, what did I mean by each of the following?
 ** A node like x&y should be listed as an ancestor at the same level as and before x and y.
@@ -38,12 +39,3 @@
      it somehow obscures what I can normally see behind a privacy graph edge (jump).
 *** a second and why
 **** This very [[id:37f7be50-9b2c-4426-b288-e83225b6d5d8][expressivity voids , observed]] file.
-* content highlights : a generalization of trigger warnings
-  should bind closely to the object of the warning,
-  perhaps even preceding it.
-** example : The opposite of a trigger warning.
-*** it
-    [[id:a55842c2-536e-4581-b04b-026715e646d1][love & responsibility]] (fun!)
-*** the expressivity trick
-    warn the user that there's enjoyable stuff in there,
-    lest they assume it's a bummer and skip it

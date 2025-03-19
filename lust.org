@@ -2,5 +2,10 @@
 :ID:       a30e5cb0-eb09-4e20-bb17-3872ab4d4a1c
 :END:
 #+title: lust
-* [[id:d4b3a89a-3bbe-48d0-80c3-04a375ef4fb4][Lust can feel like mind-rot.]]
-* [[id:94560eb7-3ea1-4098-9107-e083459de5cc][Lust can feel correct.]]
+* [[id:c9f48f52-2646-4f54-9c72-b03d05e616d3][Choosing | pursuing [experience] as if it could make one's entire life worth it.]]
+* Is lust inherently ambivalent?
+  :PROPERTIES:
+  :ID:       61a8b391-c284-484a-a74f-13cd4e8c203c
+  :END:
+** [[id:d4b3a89a-3bbe-48d0-80c3-04a375ef4fb4][Lust can feel like mind-rot.]]
+** [[id:94560eb7-3ea1-4098-9107-e083459de5cc][Lust can feel correct.]]

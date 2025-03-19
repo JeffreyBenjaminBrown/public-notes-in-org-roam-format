@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       ccc1c640-f36e-47de-b417-a12ea267f0a2
-:ROAM_ALIASES: "grounded claims"
+:ROAM_ALIASES: "grounded claims" "grounding"
 :END:
 #+title: "Grounded claims" are cool.
 * definition

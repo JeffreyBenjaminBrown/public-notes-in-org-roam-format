@@ -4,20 +4,19 @@
 :END:
 #+title: notes , taking and reading
 * TODO
-** TODO read, if I haven't already, about evergreen note practice
+** merge : [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][how to use a knowledge graph]]
+** read, if I haven't already, about evergreen note practice
 see the list under "Implementing an evergreen note practice" here:
 https://notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C
 ** [[id:bc0e8f6e-3883-4e1c-b945-b7ea3a4d3214][pages from Andy Matuschak's knowledge graph with links I haven't gotten to]]
-** remember the [[id:5fd28fa4-a109-4f3a-8296-01a3cf5351aa][maybe good principles]]
-* maybe good principles
+* helpful principles
   :PROPERTIES:
   :ID:       5fd28fa4-a109-4f3a-8296-01a3cf5351aa
   :END:
 ** If it seems too far-out to share, [[id:ccc1c640-f36e-47de-b417-a12ea267f0a2][ground the claim]].
-** Never have a hidden category.
-   i.e. never skip a category, leave a grandchild unlabeled in its grandparent
-   Why: omitting levels in the ontology can lead to unreadably long, flat documents.
-** [[id:c774af85-7ad0-4762-b28c-5e02d4881c8b][After filing something, know the whole note it went into.]]
+** [[id:67cc1b2b-4ec5-4012-9756-dcaafdabb41c][Judiciously delete Platonic linking nodes.]]
+* maybe helpful
+** ? [[id:c774af85-7ad0-4762-b28c-5e02d4881c8b][After filing something, know the whole note it went into.]]
 ** Read fast, some things just above zero time-weight.
 ** A negative is often equivalent to a more specific positive.
    [[id:d53dd756-cc2f-43f9-a919-5f39810e642c][example]] (of "Note titles should be positive and specific.")

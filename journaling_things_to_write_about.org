@@ -4,6 +4,7 @@
 #+title: journaling : things to write about
 From the series on journaling for [personal change?]
 in the Waking Up app.
+* my state relative to each of the people I care about
 * My secrets
 ** Describe what I perceive, and how I perceive it
 *** How do feelings interact with those perceptions?

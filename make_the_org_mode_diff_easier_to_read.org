@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       02216718-4464-4017-93ec-942545f7376c
+:END:
+#+title: make the org-mode diff easier to read
+* divide* the space by some characteristics
+  *as in quotient space, modulo
+** normalize any passage
+** trim whitespace from edges
+** if a line has exactly one org-roam link, count it as a diff-brother to other such lines
+   a diff-brother being a deletion or insertion that looks like it might correspond

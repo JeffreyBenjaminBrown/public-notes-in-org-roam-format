@@ -3,7 +3,8 @@
 :END:
 #+title: when to pause
 * see also
-  [[id:514fe55a-d22c-4e6a-9b0f-3a01a89742db][high-pressure situations to review notes before]]
+** [[id:514fe55a-d22c-4e6a-9b0f-3a01a89742db][high-pressure situations to review notes before]]
+** [[id:cd31d188-3857-469e-8af8-07ce8d4242d9][intuition]]
 * When I'm not sure my priorities are straight, consider meditating (on it).
   examples
 ** when I have witnessed injustice and am tempted to ignore it and get on with my own work
@@ -23,3 +24,5 @@
    consider in detail the potential negative consequences.
 ** when tempted to ignore pain,
    stop to consider the stakes.
+* when I find myself justifying myself
+** [[id:3d951fea-8c4b-4576-a712-39ac27cfc9d3][Notice when I think, while writing something, "true enough".]]

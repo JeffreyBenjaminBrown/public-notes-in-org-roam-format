@@ -3,3 +3,4 @@
 :END:
 #+title: music & consciousness
 * [[id:39029f2f-0f39-49fd-b6ad-e8be09859729][Effort and observation are somewhat disjunctive.]]
+* [[id:681da8ea-6f33-4f55-9d47-67256f576955][Music illuminates (the?) infinite nature of want.]]
