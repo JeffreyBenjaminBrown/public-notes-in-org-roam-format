@@ -13,6 +13,7 @@
 * Does plumbing my (recent) memory lead to less happy memories?
 ** [[id:85508f6f-946f-4474-9952-f25c25450f1c][It happened today]].
 * [[id:d19de124-694d-46e2-9bfd-f04c0f145adb][experience]]
+* [[id:86373005-c939-4627-b848-1610fccda8bd][neuroplasticity]]
 * [[id:9ec55e32-f974-479e-8295-7d9e30156684][mindfulness]]
 * [[id:04eae9c6-72e1-4251-9f12-a761a7f62692][spirituality]]
 * [[id:4c25a3eb-4f21-4c20-9fee-2a18275ca089][choice]]

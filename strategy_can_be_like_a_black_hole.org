@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f5ad67bc-fdc9-402c-89a0-d103797241ca
+:END:
+#+title: Strategy can be like a black hole.
+* Because most domains are too complex to perfectly strategize.
+* Solution: recognize opportunity cost of further improving one's strategy.

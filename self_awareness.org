@@ -3,9 +3,11 @@
 :END:
 #+title: self-awareness
 * TODO [[id:b320a662-84df-473c-b05b-5a477caa764b][journaling : things to write about]]
+* [[id:06b856e9-50fb-4025-9276-cd0b2b945fa8][Knowing how self and other feel can both be tricky.]]
 * [[id:da1795b5-9bc3-4f3b-a00a-3fe3e3134f30][I like behaving in a manner consistent with my past self.]]
 * [[id:71dc8ea7-cbd0-4fc5-8514-e0617b422569][Study your pains.]]
-* jbb-specific
+* personal
 ** [[id:27533eec-38f1-4f4a-8ffb-5125d99c0f78][My smile feels anxious, even when it looks genuine to me.]]
 ** [[id:d1f5961f-225c-4c6d-a4dc-2d0c93a8169d][My pain tolerance is dangerously high.]]
 ** [[id:6ffe216b-b02d-43f3-aadf-88b9eeadc15e][How do I keep getting talked into watching horror films?]]
+** [[id:dc356f64-de3a-4f70-b0cc-c5660d47ec9e][things I have wnated to but not expressed]]

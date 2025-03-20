@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9afa2ad3-a0e0-46b0-93a4-00dc76ff25e1
+:END:
+#+title: adventure
+* [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]
+* [[id:86373005-c939-4627-b848-1610fccda8bd][neuroplasticity]]

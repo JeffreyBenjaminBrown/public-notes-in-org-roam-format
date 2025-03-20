@@ -6,7 +6,15 @@
   TODO : merge with
 ** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][SmSn]]
 ** [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to use a knowledge graph]]
+* u
+** Each topic is a perspective. Each subfile is a sub-perspective.
+** Should read the git diff and make it possible to see easily where a node was moved of it was deleted from a file
+** Are any of the relationships more than binary in a way that could not be easily handled by making the third and other members of the relationship into properties instead?
+** A view of a relationship
+*** Would look like a file with two top-level headlines equal to the two members of the relationship, and below each, a view child indicating its relationship to the other from its point of view
+
 * TODO [[id:02216718-4464-4017-93ec-942545f7376c][make the org-mode diff easier to read]]
+* [[id:3ddd4a73-22df-4df2-a004-1a0a5d8be27e][Einstein's Olympian Society]]
 * [[id:2a1c0d5e-81ac-46a8-a349-f3715428ac4e][promote "_ feels _" notes : a generalization of trigger warnings]]
 * [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
 * [[id:dc937226-1a31-4d76-b4c2-702c28a43482][sharing org-roam notes , both reading and writing]]

@@ -2,6 +2,7 @@
 :ID:       c17782b5-f070-418e-9e04-519f3c7f9a66
 :END:
 #+title: economics
+* see also [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
 * [[id:d3acd62f-8bf7-472b-8adb-b16329f2b2b3][behavioral manipulations]]
 * TODO study | refresh
 ** Current Depth Regression
@@ -31,3 +32,4 @@
 * When profit margins are thin, the gains from small increases in efficiency can be huge.
 * [[id:45c36ce4-a8ae-41b1-9cee-1da7dc529993][reproduction and discount rates]]
 * [[id:6340db44-bfb6-46e7-b28f-1d4f4553ba4c][Venezuela's collapse and exporters in Colombia]]
+* [[id:ca914723-3d15-4080-a795-733bb0818802][The Paradox of Choice - book by Barry Schwartz]]

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8d624422-f901-4208-aaa7-bbbc6f1f5ba1
+:END:
+#+title: life
+* transclude: [[id:c73ee824-eb2b-43f4-8ead-32d9d62ddc75][death]]
+* [[id:44d3d9e4-0781-4476-9989-0e9f4a5b4d09][If life is change, then to not change (much) is to be (near) death.]]

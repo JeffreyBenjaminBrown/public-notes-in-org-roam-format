@@ -1,5 +1,7 @@
 :PROPERTIES:
 :ID:       aa364e41-1550-4f82-95ba-6f63368388e8
+:ROAM_ALIASES: overwhelm stress
 :END:
 #+title: overload
 * [[id:f23de8b3-b50b-408b-bc7e-48dc50418155][love & overload]]
+* [[id:140dac3d-ea32-4902-8de9-518917eeb9df][In monogamy the stakes are overwhelming relative to polyamory.]]

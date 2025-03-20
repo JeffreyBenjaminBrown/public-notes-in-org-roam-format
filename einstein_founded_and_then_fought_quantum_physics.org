@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       a21d4697-958f-43d7-8c3b-09da0a1eb00f
+:END:
+#+title: Einstein founded and then fought quantum physics.
+* Einstein's paper on Brownian motion was foundational to quantum mechanics, but he spent the second half of his career fighting the idea that God plays dice.

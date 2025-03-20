@@ -29,6 +29,7 @@
 * Gavin Matts
 * Greer Barnes
 * Ian Edwards
+* Ian karmel
 * James Acaster
 * Jason Cheny
 * Jeffrey Scheen
@@ -38,6 +39,8 @@
 * Louis Katz
 * Maddie Wiener
 * Marcelo Hernandez
+* Marie Faustin
+* Matthew Broussard
 * Michael Longfellow
 * Mike Baldwin
 * Mike Vecchione
@@ -51,5 +54,6 @@
 * Pete Holmes
 * Phil Wang
 * Ryan Goodcase
+* Ryan Long
 * Shane Gillis
 * Zoltan Kaszas

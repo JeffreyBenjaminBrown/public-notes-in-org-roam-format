@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ae840a61-4f9e-42db-a602-d45ac01529b3
+:END:
+#+title: Albert Einstein
+* [[id:a21d4697-958f-43d7-8c3b-09da0a1eb00f][Einstein founded and then fought quantum physics.]]
+* [[id:3ddd4a73-22df-4df2-a004-1a0a5d8be27e][Einstein's Olympian Society]]
