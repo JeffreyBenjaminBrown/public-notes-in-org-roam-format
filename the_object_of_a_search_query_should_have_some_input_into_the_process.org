@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       7b5ddfdb-e004-4989-84f1-241a6a5f5166
+:END:
+#+title: The object of a search query should have some input into the process.
+* Make it collapsible but maybe always visible in the search.
+* Maybe only attach it to a certain kind of statement about them.
+  e.g. defense against rumors, without actively spreading them.
+** problem: This requires recognizing statement equivalence.
