@@ -1,14 +1,20 @@
 :PROPERTIES:
 :ID:       667bf4ea-d99d-41bb-98a9-368a86877e3e
 :END:
-#+title: why knowledge graphs matter
-* Users control their own views.
-** against The Feed Algorithm
-   Rather than only seeing their opaque algorithmic,
-   often destructive, and usually at least somewhat dumb "feed".
-** Cut through spam.
-   identify bots and (human-powered) comment farms,
-   through a collective identification effort.
+#+title: why open knowledge graphs matter
+* bring in [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
+* Users could control their own views.
+** duh
+*** against The Feed Algorithm
+    Rather than only seeing their opaque algorithmic,
+    often destructive, and usually at least somewhat dumb "feed".
+* Users could search better.
+  They needn't but can learn a search language.
+* Users could curate their view of each Platonic topic.
+  I believe we should journal and meditate.
+  Knowledge mapping is similar to them, and permits accretion.
+* [[id:e0126566-b5b3-4408-aec9-448cbe3bc59d][Data providers should see what data people need from them.]]
+* [[id:7b5ddfdb-e004-4989-84f1-241a6a5f5166][The object person of a search should have some input into the process.]]
 * Users can query to judge sources.
 ** The viewer can see what they themselves, or others, have marked as false among a writer's earlier posts, and the evidence for or against.
 * science, how distributed knowledge graphs could help
@@ -19,3 +25,10 @@
 *** don't duplicate effort
     In particular, if crawling bots recognize statement equivalence, this would permit a fact-checker to simultaneously debunk myriad voicings of a false claim. All of them, if the crawling were sufficiently extensive and the equivalence recognition sufficiently robust.
 *** lets you see what kinds of research have proven too hard to finish.
+* hypothetical
+** Cut through spam.
+   Crowdsource the identification of bots and (human-powered)
+   content farms.
+   By contrast, if a single provider controls all data and traffic,
+   there is an incentive to let them exist,
+   or at least fight them less than is socially optimal.

@@ -5,6 +5,7 @@
 #+title: attractiveness
 * see also
 ** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
+** [[id:3a009c94-db3a-4707-933b-e6c9ba4d4fee][social skills]] , personal
 * [[id:a8760812-f098-4e39-aa4c-9d69a2e1fcba][Square mindfulness and being alone.]]
 * [[id:4ec07465-7323-47c3-a8b4-8d81f383b119][Flirt before proposing anything.]]
 * [[id:28e96d3a-9cf7-4151-bf43-e155a739d568][Be comfortable with rejection.]]

@@ -47,3 +47,11 @@ reading and rewriting my notes
     When you visited the current file -- say, "how to program in Python" -- it's likely not because doing that was your motivation per se, but rather some bigger project was, like "programming". And the latter probably links to the former. Looking "upward" will bring it into view, and thereby both remind you of your larger purpose(s) and of context and methods relevant to those purposes.
 * learn to search your notes
   If the note exists, usually it's not hard to find -- even if you didn't curate its parents well, you can grep your folder for relevant terms.
+* [[id:5cfb00c4-3302-4b47-8ee0-1814d5869937][Don't restart from scratch.]]
+* [[id:5b7900ff-1792-47d1-a55a-8435f8766baf][Don't build premature structure when mapping knowledge.]]
+* [[id:23f40301-92d8-48d5-9c5a-d28b334acf02][Random, motivated, "generous" note navigation seems promising.]]
+* [[id:05a84243-9dcf-4492-b81e-a48fd2f53b3c][knowledge graphs and/or meditation]]
+* [[id:514fe55a-d22c-4e6a-9b0f-3a01a89742db][Review notes before any high-pressure situation.]]
+* [[id:d283b6a3-205b-4a7c-9338-aa458f091691][Use my "prefix-date-uri" script.]]
+* [[id:30478629-506c-4acf-aec8-b74e977a2234][how to take notes on people and communication]]
+* [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to avoid losing notes in a knowledge graph]]

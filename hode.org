@@ -4,9 +4,13 @@
 #+TITLE: Hode
 * see also
   TODO : merge with
-** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][SmSn]]
 ** [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to use a knowledge graph]]
+** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][SmSn]]
+** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
 * u
+** build [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode with TypeDB and Emacs]]
+** [[id:d674bf8d-cd41-47aa-8418-36a74cedd561][build Hash for TypeDB]]
+** [[id:8c609b95-5f55-4d88-b0fa-b43227577ee7][I want a record of the (org-roam) files I read]]
 ** Each topic is a perspective. Each subfile is a sub-perspective.
 ** Should read the git diff and make it possible to see easily where a node was moved of it was deleted from a file
 ** Are any of the relationships more than binary in a way that could not be easily handled by making the third and other members of the relationship into properties instead?

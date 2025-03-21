@@ -12,3 +12,4 @@
 * [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]
 * [[id:c543ecbc-9af5-4a9f-a7b2-fce74104c5cc][language]]
 * [[id:7ea32dd5-3ad2-4de1-851b-a3a8d7f88711][uncertainty | ignorance]]
+* [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]

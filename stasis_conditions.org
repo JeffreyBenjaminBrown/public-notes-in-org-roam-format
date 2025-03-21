@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       9f9db3c1-0220-463f-829b-60ede4d8593f
-:ROAM_ALIASES: stuck
+:ROAM_ALIASES: equilibrium
 :END:
 #+title: stasis conditions
 * TODO I have experienced more, surely.

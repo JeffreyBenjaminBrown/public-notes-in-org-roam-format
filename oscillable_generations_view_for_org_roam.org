@@ -2,7 +2,16 @@
 :ID:       41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3
 :END:
 #+title: oscillable generations view for org-roam
+* to make git commits easier
+** Record whether the buffer has seen only movements.
+   easy
+** Keep an edit history.
+   serial
+*** Delete corresponding pairs of inverses (insert-delete).
+*** Show the git diff in order of edits, but able to jump to the corresponding element(s) of any [line added or dropped].
 * TODO problems
+** I would like the visible name of a private link to depend on whether the view has access to the private repo.
+   Seems like the name of it if you have access has to be kept in the private repo. Thus nodes should under some circumstances dictate what other nodes call them.
 ** The sources view of a relationship "template" node might get cluttered.
 *** the problem
     If a link to a relationship node is used as a headline to indicate that the headline is a relationship between its parent and its children, the view of that relationship's sources will be cluttered by such instances, burying those nodes that are actually *about* the relatinoship in a sea of things that reveal little about it.
@@ -74,6 +83,7 @@
 ** Each og-headline is a headline in a file or a file title.
    Thus to know what it means,
    I must associate a file and position to it in either case.
+** optionally attach disambiguating arrows to pronouns
 ** the bullet should indicate
 *** whether an og-parent node is hidden
 *** whether it is from a different file as the og-parent

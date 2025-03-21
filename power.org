@@ -3,6 +3,7 @@
 :END:
 #+title: power
 * see also [[id:c17782b5-f070-418e-9e04-519f3c7f9a66][economics]]
+* [[id:1dc593e8-0313-4dfd-bc5d-cd7e53f9bfba][high performance (human)]]
 * [[id:37d29425-987b-45b9-b93f-97ab536f1259][Causally, power dictates feelings, but experientially, feelings precede economics.]]
 * art about it
 ** [[id:67833732-61f3-4d0b-a2db-25dae1daff2e][to channel each of one's atoms into an expression at some time]]

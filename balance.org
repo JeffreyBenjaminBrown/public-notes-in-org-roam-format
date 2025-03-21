@@ -3,6 +3,7 @@
 :ROAM_ALIASES: peace balance
 :END:
 #+title: balance | peace
+* see also [[id:9f9db3c1-0220-463f-829b-60ede4d8593f][stasis conditions]]
 * justifying the equation
 ** Balance seems like an avenue to peace (with oneself).
    That is, if I know my choices thread the needle well,
