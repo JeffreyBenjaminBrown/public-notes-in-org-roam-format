@@ -1,7 +1,9 @@
 :PROPERTIES:
 :ID:       158fbd89-4564-4cf2-a997-ff9fa1ce7987
 :END:
-#+title: high tensions
+#+title: tensions
+* see also
+  [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][balance]] [[id:9f9db3c1-0220-463f-829b-60ede4d8593f][equilibrium]]
 * instances
 ** [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility seems more compatible with peace than pride does.]]
 ** [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Is humility at odds with ambition?]]
