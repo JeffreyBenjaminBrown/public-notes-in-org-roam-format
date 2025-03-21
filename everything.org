@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       dea50354-cdfe-47c8-8f15-043c70d66da0
 :END:
-#+title: high terms
+#+title: everything
 * [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope(s)]]
 * [[id:ce2d269b-5029-435e-abf7-d33a984ca8cc][phenomena | conditions]] ,, experiential
 * [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][high tensions]]
