@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       816bb2e3-64c6-4632-96c8-54ac642d7d43
+:END:
+#+title: Don't overweight your first impressions. Beware that others will.
+* "When we know little about someone we tend to overweight that information, rather than postponing judgment and trying to find out more."
+  -- [[id:5a4ce61c-534e-4b19-b4a5-9dc225c7436e][Modern Romance: An Investigation - book by Aziz Ansari and Eric Klinenberg]]

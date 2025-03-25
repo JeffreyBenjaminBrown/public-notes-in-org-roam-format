@@ -3,6 +3,9 @@
 :ROAM_ALIASES: geolocation
 :END:
 #+title: geography
+* see also
+** [[id:b31e0b2c-9bce-428a-b96f-832d0ea1e6e7][paleontology]]
+** [[id:323360a3-6047-4bcc-845f-9a7534234a63][geology]]
 * [[id:8c5c4e64-a684-4f32-bf1f-cdf974d51666][Bhutan is weird!]]
 * [[id:49bb7c1f-6d0a-4c7f-9fa9-3f6430860faa][using exiftool to get a photo's geolocation]]
 * online geography games

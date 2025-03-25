@@ -3,4 +3,4 @@
 :END:
 #+title: transgender
 * [[id:e2f20c35-7aa6-43ad-b579-075adc81c7d2][The more general takeaway from the transgender debate would seem to be not to try to change what someone wants.]]
-* [[id:fea64283-c47b-4a3d-b252-c9e5f728b774][What "to be a woman" means seems irrelevant.]]
+* [[id:fea64283-c47b-4a3d-b252-c9e5f728b774]["To be a [woman]" seems meaningless without a specific context.]]

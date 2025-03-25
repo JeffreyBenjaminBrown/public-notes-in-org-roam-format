@@ -16,12 +16,14 @@
    easiest: run emacs with sudo and use dired
 * what I use weekly
 ** how to do it
+   FIRST: Verify I'm on a good wifi conncetion.
+
    # Chaining with && reduces the time spent entering a password.
    sudo nix-channel --update nixos
    cd ~/nix/jbb/
    ./bash/rebuild-branches.sh
 ** when I last did it
-   <2025-03-20 Thu>
+   <2025-03-25 Tue>
 ** DONE if that makes my config read-only
    cd ~/nix/jbb/config
    sudo chown jeff *

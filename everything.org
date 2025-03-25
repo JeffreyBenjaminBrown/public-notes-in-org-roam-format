@@ -28,7 +28,7 @@
 ** [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][charity]]
 ** [[id:682c092d-0e94-4095-b03f-dae9aa245619][utopia , perfect experience]]
 * environment
-** [[id:37a304ca-f34a-4d52-afb8-f953d21a1bcf][spacetime]]
+** [[id:1e0eb0bc-1d40-4a78-9c81-dbcef73d005e][spacetime]]
 ** [[id:512f112a-218b-4a0e-9be1-9786661b1968][imminence]]
 ** [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
 ** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
