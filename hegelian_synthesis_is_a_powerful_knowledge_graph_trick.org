@@ -3,3 +3,4 @@
 :END:
 #+title: Hegelian synthesis is a powerful knowledge graph trick.
 * Upon creating a node "a & b", make a and b both parents to it, and then think of some third place it also belongs.
+* see also [[id:1a8ddfa4-0522-4c92-948a-21a97a277bcf][fusion]]

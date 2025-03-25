@@ -1,4 +1,0 @@
-:PROPERTIES:
-:ID:       508f4247-41b1-476a-afd7-c15cbc9e460a
-:END:
-#+title: hypothesis : Try seeing the lenses that disagreements imply.

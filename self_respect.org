@@ -1,11 +1,11 @@
 :PROPERTIES:
 :ID:       b288df19-c02e-42fa-a4b6-4cd3c0162e52
 :END:
-#+title: self-respect
+#+title: self-respect | independence
+* [[id:4abd453b-9fd0-4c54-b897-e2d104cb2c33][humility v. self-respect]]
 * qualities one might owe oneself
 ** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
 ** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
-** [[id:00965683-24d4-4725-9ecb-58b960925c6a][independence]]
 ** [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][peace]]
 ** [[id:720f5a80-ba0a-4f12-888f-7adb38e2009f][spiritual healing]]
 ** [[id:a963e722-1f05-46e1-a9f5-d5f874b71f8f][self-criticism]]
@@ -17,3 +17,5 @@
 ** [[id:763e96f9-b1eb-4e0a-b7a7-04917a32f097][Happiness must be a priority.]]
 ** [[id:92354831-6ca0-455b-b87e-0ae639bc651b][Know what to keep private.]]
 * [[id:13e24c8b-c45a-4448-a3a8-8b1ae529f092][fast medium experience]]
+* Should help to [[id:a8760812-f098-4e39-aa4c-9d69a2e1fcba][square mindfulness and being single.]]
+* [[id:08dc2cef-0fdd-418c-8bee-4a4594d188a0]["Do your own thinking" is a great response to the urge to surf (to excess) as an anonymous reader|listener|viewer.]]

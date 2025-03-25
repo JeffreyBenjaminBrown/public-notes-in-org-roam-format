@@ -9,21 +9,24 @@
 ** [[id:97a9d5f6-feae-4d02-8800-41f36dd5f2b8][ontology (computer science)]]
 ** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
 ** [[id:f5d81cd6-dcc9-414b-bf9b-2c7f4ca1cd29][my data]]
-* [[id:e4963ae5-c8ed-4cca-939b-9c1c97b68e39][reluctance to start an enjoyable thing]]
-  Mindmapping is like swimming in this sense.
-* problems
-** [[id:eba0ce43-3fb2-4d95-89f2-f5d8cae6f20f][the oldies greatest-hits problem]]
 * why to map knowledge
-** [[id:f2aa7400-771a-45b1-bbc6-4113cc5dc397][Maybe mindmapping helps me regain sleepiness.]]
-** [[id:b31e66f1-f3cf-45b8-8414-4313d085bd31][Mindmapping seems like a great antidote for obsessive thoughts.]]
-** [[id:05a84243-9dcf-4492-b81e-a48fd2f53b3c][knowledge graphs and/or meditation]]
+** [[id:65f7223e-3193-4b1a-8681-eac83ccbdd76][Mindmapping is psychologically healthy.]]
+** TODO Open knowledge bases are more just.
+** TODO Knowledge bases are useful.
 ** [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]
 ** [[id:14425786-4f89-4fc3-8bf7-9c31ccaba025][Linked data facilitates writing flashcards.]]
+* [[id:92293ba8-f8eb-484d-9fcd-021380aef200][how to record videos]]
+* [[id:42c0417d-b530-4d90-94eb-8ca2e540de17][Notes can be shared to less expressive systems at best with difficulty.]]
 * [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to use a knowledge graph]]
 * systems, projects
+** favorites
+*** [[id:46d56f38-e6a8-43aa-8c74-efccddfb0770][TypeDB]]
+*** [[id:63f366e6-b768-4f3f-9093-a776f2b4e069][org-roam]]
+*** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][smsn]]
+*** [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
+*** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
 ** [[id:453046af-5fe7-48b1-b3a9-c536c0b3134f][Community Notes on Twitter]] is cool
 ** [[id:f9ee18e9-68f2-4f10-b10d-c91186b797e3][Agora (shared knowledge base (protocol))]]
-** [[id:46d56f38-e6a8-43aa-8c74-efccddfb0770][TypeDB]]
 ** LinkML
    Sidney is using it: "is quite young but so far wonderful for being able to combine relational data structures with semantic web stuff"
 ** Haystack: a "personal Google"
@@ -37,11 +40,12 @@
    :END:
    https://notes.knowledgefutures.org/pub/si1okbw9/release/9
 ** C2PA: Content Authorship Alliance
-** [[id:63f366e6-b768-4f3f-9093-a776f2b4e069][org-roam]]
 ** [[id:db1dbf70-abfa-4623-9216-69cfe0ed3c55][logseq-query (query language for logseq-formatted graph data)]]
-** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][smsn]]
-** [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
 ** [[id:43b4da04-7779-4f95-8bc5-371d3b8180f6][file-sharing, some sites]]
-* some knowledge mappers
+* problems, mysteries
+** [[id:eba0ce43-3fb2-4d95-89f2-f5d8cae6f20f][the oldies greatest-hits problem]]
+** [[id:e4963ae5-c8ed-4cca-939b-9c1c97b68e39][reluctance to start an enjoyable thing]]
+   Mindmapping is like swimming in this sense.
+* people
 ** [[id:00fb3567-bc87-4196-b817-6cf06319db31][Joshua Shinavier]]
 ** [[id:c5950452-7c4c-4419-8a0c-ea571f44df34][Thomas Ford]]

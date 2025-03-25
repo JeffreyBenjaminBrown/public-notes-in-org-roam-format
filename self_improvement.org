@@ -4,11 +4,11 @@
 #+title: self-improvement
 * [[id:cd31d188-3857-469e-8af8-07ce8d4242d9][intuition]]
 * [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]] and [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
-* [[id:fea693ce-0ef6-4535-9d8d-7e150ac6480e][things I want to know, that I could easily look up]]
 * [[id:13aba0e9-33c1-4f2b-906c-4ab3ab683522][emotional ambition]]
-* [[id:636d3275-7997-4503-9769-37cdb51722e2][I wish what pain I experience were more useful.]]
+* [[id:720f5a80-ba0a-4f12-888f-7adb38e2009f][spiritual healing]]
 * [[id:3a009c94-db3a-4707-933b-e6c9ba4d4fee][social skills]]
-* [[id:1d2db651-b907-42a8-922f-11a77c55d5c0][I want my models of others to be more interesting and varied.]]
+** [[id:786eebcb-c64d-4cf4-8448-76def28fd7e0][attribution]]
+* [[id:636d3275-7997-4503-9769-37cdb51722e2][I wish pain were more useful.]]
 * [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
 * [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love ,, brotherly & romantic & self-respect]]
 * [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
@@ -16,6 +16,7 @@
 * [[id:890d9101-09c6-48f0-be54-e4e74a0ec961][romance + surprise]]
 * [[id:94560eb7-3ea1-4098-9107-e083459de5cc][lust]]
 * [[id:1d2b7fa8-e4f3-4e96-9b20-24901b7be28a][immortality]]
+* [[id:fea693ce-0ef6-4535-9d8d-7e150ac6480e][things I want to know, that I could easily look up]]
 * see also
-** [[id:a9ab0de0-a5e2-4f71-9298-f183ae4bb58e][self-improvement \\ personal / jbb]]
+** [[id:a9ab0de0-a5e2-4f71-9298-f183ae4bb58e][self-improvement , personal]]
 ** [[id:a963e722-1f05-46e1-a9f5-d5f874b71f8f][self-criticism]]

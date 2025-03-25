@@ -2,7 +2,7 @@
 :ID:       77aa1564-6d21-4091-b961-95f66401dc0d
 :ROAM_ALIASES: "continuous signals | oscillators \\\\ TidalCycles"
 :END:
-#+title: oscillators | continuous signals \\ TidalCycles
+#+title: TidalCycles // oscillators | continuous signals
 * usually range from 0 to 1 (always?)
 * tri, saw (rises), lsaw (falls)
 * have a period equal to the unit cycle, I think

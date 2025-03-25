@@ -4,5 +4,7 @@
 :END:
 #+title: attribution
 * = attributing qualities to a person
-* [[id:2e6e41ec-87fd-4f79-9162-0114e61497ac][Everything one does is intentional, but every effect they have cannot.]]
+* ambitions for
+** [[id:1d2db651-b907-42a8-922f-11a77c55d5c0][I want my models of others to be more interesting and varied.]]
 * [[id:06b856e9-50fb-4025-9276-cd0b2b945fa8][Knowing how self and other feel can both be tricky.]]
+* [[id:2e6e41ec-87fd-4f79-9162-0114e61497ac][Everything one does is intentional, but every effect they have cannot be.]]

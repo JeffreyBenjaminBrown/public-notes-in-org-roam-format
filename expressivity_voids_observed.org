@@ -2,25 +2,35 @@
 :ID:       37f7be50-9b2c-4426-b288-e83225b6d5d8
 :END:
 #+title: expressivity voids , observed
-* TODO give examples of [[id:67cc1b2b-4ec5-4012-9756-dcaafdabb41c][judiciously deleting Platonic linking nodes.]]
-* PITFALL: Without being extremely explicit, these notes can turn out to be indecipherable.
-  For example, what did I mean by each of the following?
-** A node like x&y should be listed as an ancestor at the same level as and before x and y.
-** [[id:895c50e4-60a7-4c7e-bcb5-092e1224f33e][options perpetually under considearation]]
-** a how_to_read property
-   example
-*** Mercy is a form of [[id:6e537826-402f-4254-a40a-652b31e2390a][transcendence]].
-    :PROPERTIES:
-    :HOW_TO_READ: "remind viewer to look rootward"
-    :ID:       5b9caf47-ff2f-4821-8476-2dee77d51ec4
-    :END:
-* "_ would place _ distant from _" (in the view)
+* [[id:e6e855d9-f2e8-456e-87d7-e82379ead9f1][which others is a parent to _'s children]]
+* [[id:54df8e37-fec5-4bab-a148-1140f770e2fc][Represent, record, or suggest moves.]]
+* I wish editing this list in one place edited it everywhere.
+** [[id:bf73fa6f-cd1a-4237-8bdb-7a98025cf226][wholeness]]  [[id:24fcf76a-fafa-4cb2-8312-43719f7aa207][fission]]  [[id:1a8ddfa4-0522-4c92-948a-21a97a277bcf][fusion]]  [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
+* PITFALL: Without being extremely explicit, notes on this can turn out to be indecipherable.
+** solved
+*** represent unordered subsets, and connect every relationship to the subset consisting of its members
+    If there is only one populated relationship with those members, this relationship could be skipped.
+*** When relating x&y to the view z*, x&y should be listed as an ancestor at the same level as and before x and y.
+    Note that z might include x or y.
+**** Better: Just show x & y, but make it clear when each subexpression exists.
+     This should apply to any function (e.g. "x || y & z", and make visible all relationships involving those things. (This might be represented by connecting the set {x y z} automatically to each subset if that subset itself includes any relations*
+     (*) that have been written
+** examples
+   what did I mean by each of the following?
+*** When relating x&y to z, x&y should be listed as an ancestor at the same level as and before x and y.
+*** [[id:895c50e4-60a7-4c7e-bcb5-092e1224f33e][options perpetually under considearation]]
+*** a how_to_read property
+    example (unfold the properties to see)
+**** Mercy is a form of [[id:6e537826-402f-4254-a40a-652b31e2390a][transcendence]].
+     :PROPERTIES:
+     :HOW_TO_READ: "remind viewer to look rootward"
+     :ID:       5b9caf47-ff2f-4821-8476-2dee77d51ec4
+     :END:
 * relation type visible only after target of connection
 ** a note in which I wanted to do this
    :PROPERTIES:
    :ID:       c0dc4e33-707e-4e4d-a6e4-baa7ffec1474
    :END:
-   #+title: gender
   * [[id:1b7e7dee-5266-4f53-861f-9104c170d016][Gender is a form of guidance.]]
   ** [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling a higher [ force | power | principle ]​]]
 ** what in that note I wish I could express
@@ -30,6 +40,7 @@
 * How to share information among people with private information.
 * a file "x & y" , if linked to files x and y, can define [a] relationship between them
 * In a words graph, backward seems a better label for that direction of reading than upward.
+* TODO give examples of [[id:67cc1b2b-4ec5-4012-9756-dcaafdabb41c][judiciously deleting Platonic linking nodes.]]
 * [[id:9b247ad4-a606-4bd4-a5a6-df297d91e262][Each node should [order, structure] its parents.]]
 * DONE motivations for oscillable generations view
 ** The existence of [nodes in list below] makes me want to see "backward" through two levels of graph relatives from the node.
@@ -39,3 +50,7 @@
      it somehow obscures what I can normally see behind a privacy graph edge (jump).
 *** a second and why
 **** This very [[id:37f7be50-9b2c-4426-b288-e83225b6d5d8][expressivity voids , observed]] file.
+* solved
+** Bad idea: "[author] would place _ distant from _ (in [view])"
+   That binds the two _s as tightly as possible, one hop.
+*** Probably better: [[id:54df8e37-fec5-4bab-a148-1140f770e2fc][Represent, record, or suggest moves.]]

@@ -1,5 +1,9 @@
 :PROPERTIES:
 :ID:       9d3a6c74-b537-45c2-be1f-5810374851e8
 :END:
-#+title: Mortality should impact one's priorities.
-* [[id:4e919cdd-8549-4a5b-b9aa-f85ed3f6a7df][death => play]]
+#+title: mortality pressure
+* Doing the wrong thing should be uncomfortable.
+* [[id:763e96f9-b1eb-4e0a-b7a7-04917a32f097][Happiness must be a priority.]]
+** [[id:dae618bd-8f97-44ef-b22b-f72adef57bc8][play]]
+* duh
+** Mortality should impact one's priorities.

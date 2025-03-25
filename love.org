@@ -4,9 +4,6 @@
 #+title: love ,, brotherly & romantic & self-respect
 * [[id:f23de8b3-b50b-408b-bc7e-48dc50418155][love & overload]]
 * [[id:e5ee5341-7ca0-4aaf-9a76-e8d5c5e352ec][proving yourself v. enjoying others]]
-* [[id:059f1add-e1e1-4124-bab6-5d270e0332e7][Imaginative hope is funny]]
-* caveat
-  These notes might skew toward romance.
 * [[id:a55842c2-536e-4581-b04b-026715e646d1][love & responsibility]] (fun!)
 * [[id:a003eba1-b71e-404e-b811-a95cb98bcb14][duh]]
 ** [[id:d0999d21-8eb2-4d35-abf4-0812e6a4131a][Sacrifices are a way to prove love.]]
@@ -14,6 +11,7 @@
 * [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][kindness]]
 * [[id:7884d437-6065-4e05-bf06-e2a0771cf507][love + magic]]
 * [[id:25a8f428-8d2a-414b-a3e2-07ea4f7000fd][love + optimism]]
+** [[id:059f1add-e1e1-4124-bab6-5d270e0332e7][Imaginative hope is funny]]
 * [[id:170688b3-4d53-41d3-986b-b8c32468bac8][love + broken]]
 * goals
 ** [[id:4e748426-9ff0-4e7b-8192-b582a2ae7f95][community]]

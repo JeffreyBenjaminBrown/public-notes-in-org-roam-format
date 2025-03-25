@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       e6e855d9-f2e8-456e-87d7-e82379ead9f1
+:END:
+#+title: show cotargeters
+* TODO generalizations
+* TODO remove parent-child language
+* how to show them
+** Sometimes put the child view-under both parents.
+*** elaboration
+    Definitely at least sometimes,
+    each coparent should show between
+    the initial parent and its children.
+*** the initial parent should then come first
+    to be shared by all its coparents in a later view-generation
+** But sometimes that is not screen-efficient
+*** a(the?) case
+    If a single child has many parents,
+    it would be duplicated under each coparent.
+    Better in that case to show the coparents as
+    view-children of the child.
+** This implies some kind of tradeoff to optimize.

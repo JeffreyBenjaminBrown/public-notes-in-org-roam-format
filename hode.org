@@ -2,11 +2,13 @@
 :ID:       d5a5a3ff-977a-405b-8660-264fb4e974a3
 :END:
 #+TITLE: Hode
-* see also
+* TODO + see also
   TODO : merge with
+** [[id:9c5619e5-81ad-4a67-9705-e4761bdd6839][shareable knowledge gardens]]
+** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
+** [[id:63f366e6-b768-4f3f-9093-a776f2b4e069][org-roam]]
 ** [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to use a knowledge graph]]
 ** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][SmSn]]
-** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
 * u
 ** build [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode with TypeDB and Emacs]]
 ** [[id:d674bf8d-cd41-47aa-8418-36a74cedd561][build Hash for TypeDB]]
@@ -16,11 +18,12 @@
 ** Are any of the relationships more than binary in a way that could not be easily handled by making the third and other members of the relationship into properties instead?
 ** A view of a relationship
 *** Would look like a file with two top-level headlines equal to the two members of the relationship, and below each, a view child indicating its relationship to the other from its point of view
-
+* Private additional notes on a topic ought to explain how to modify the public view of it.
+  This way the public view would not need to be cluttered with (potentially suspicion-inducing) links to private notes.
+  But in this case changes to the public note become more difficult to integrate into one's mixed public-private view of it. For instance, what if your view includes a private grandchild and they remove its grandparent? Maybe they accounted well for all the other contents of the change but not yours. You ought to be able to see that their change affects private nodes they could not have taken into consideration. That said, their change is likely to suggest a way to resituate the orphaned private node.
 * TODO [[id:02216718-4464-4017-93ec-942545f7376c][make the org-mode diff easier to read]]
 * [[id:3ddd4a73-22df-4df2-a004-1a0a5d8be27e][Einstein's Olympian Society]]
 * [[id:2a1c0d5e-81ac-46a8-a349-f3715428ac4e][promote "_ feels _" notes : a generalization of trigger warnings]]
-* [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
 * [[id:dc937226-1a31-4d76-b4c2-702c28a43482][sharing org-roam notes , both reading and writing]]
 * probing capabilities
 ** DONE URI schemes' robustness to huge popularity.
@@ -92,7 +95,6 @@
   Nested circles of "I think this word is like that word", so that someone could filter what they see that way.
   They could be as vaguely personal categories as negative/positive. Different peoples' could differ a lot, with perfect validity. One could choose to see an equivalence class [on (term)] the way the majority see it, once (if you wanted) there was a sufficiently large majority who had voted.
 * [[id:3ffa3b8d-64b4-4805-9a10-4f3db3d9f56c][Who is where to me? What information do I [share, have in common, ?associate ..] with who?]]
-* TODO MVP : [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
 * [[id:119cd4eb-25a8-41fd-a763-0368bb2e53e6][graph voting]]
 * share subcategories useful for a topic
 * [[id:562876f3-9608-4ebe-9ab1-f119188ffa32][Define relationships using ordinary org-roam syntax.]]

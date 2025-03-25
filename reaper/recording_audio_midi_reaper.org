@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       2a878556-a849-4812-9779-320107cbaf6e
 :END:
-#+title: recording (audio & MIDI) \ Reaper
+#+title: recording ( audio & MIDI ) \ Reaper
 * skipped in manual
 ** Recording a Track’s Output (as opposed to its input)
 ** Recording FX Bus Output

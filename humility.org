@@ -2,6 +2,8 @@
 :ID:       91dc626c-36e2-4dc6-9c4f-fdea453c838e
 :END:
 #+title: humility
+* see also [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
+* [[id:4abd453b-9fd0-4c54-b897-e2d104cb2c33][humility v. self-respect]]
 * [[id:e9ac21ef-aa15-4c6a-9157-f0a79f0851a1][Courage v. humility]] is a fun balance.
 ** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
 ** [[id:51e9546b-1dd1-4b60-9591-b7bf8ed3cc6a][humility in romance]]

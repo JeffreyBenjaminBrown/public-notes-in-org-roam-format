@@ -1,23 +1,36 @@
 :PROPERTIES:
 :ID:       6e44fba3-c51d-430c-81ac-bd91e8db773b
-:ROAM_ALIASES: peace balance
+:ROAM_ALIASES: peace balance equilibrium
 :END:
-#+title: balance | peace
-* see also [[id:9f9db3c1-0220-463f-829b-60ede4d8593f][stasis conditions]]
-* justifying the equation
+#+title: balance | peace | equilibrium
+* TODO bring in [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+* see also
+** [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
+** [[id:1a9a90c1-ddfd-446b-ab69-f7be0db3ca10][solitude]]
+* elaboration
 ** Balance seems like an avenue to peace (with oneself).
    That is, if I know my choices thread the needle well,
    I will feel good about them.
+* some personal equilibria
+  :PROPERTIES:
+  :ID:       8fbf1144-b206-478c-af83-840e1499cd6e
+  :END:
+** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
+** [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
+   because _ forces one to work too much on other stuff
+*** biological necessity does
+** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
+** [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][work-life balance]]
 * some balances
 ** [[id:e9ac21ef-aa15-4c6a-9157-f0a79f0851a1][courage v. humility]]
 ** [[id:b236df4e-956c-49f7-b694-da598ccae237][peace with death]]
 ** [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility seems more compatible with peace than pride does.]]
+** [[id:0099068b-7ef0-4413-b3aa-18997353baa4][sharing]]
 * some forms of peace
 ** [[id:b288df19-c02e-42fa-a4b6-4cd3c0162e52][self-respect]]
 * aspects
 ** [[id:8b0040c0-243b-43d4-8cc8-e9b3ffb35180][comfort]]
 ** [[id:2993e63f-bbc3-4c4e-9068-8f175e1a5710][Balance seems like vacuous advice.]]
-* [[id:0099068b-7ef0-4413-b3aa-18997353baa4][sharing]]
 * [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][work v. _]]
 * [[id:68459e09-6698-4e47-a961-067d1828513b][As a stress management technique, belief in heaven is sad, even terrifying.]]
 * maybe see also

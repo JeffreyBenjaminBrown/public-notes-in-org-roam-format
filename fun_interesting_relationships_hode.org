@@ -6,6 +6,18 @@
 * instances
   The title of each child applies in its entirety
   to each grandchild.
+** "_ {evinces, is implied by, ...} [statement, possibly a relationship]"
+   When the object (the second member) is a relationship,
+   this seems not extremely easy to represent.
+*** one approach : an org-child "evidence for it" refers not to its parent, but to its entire ancestry -- why its parent is where it is in the file
+**** example
+   * bread
+   ** needs
+   *** yeast
+   **** evidence for it
+	without yeast it won't rise
+   *** flour
+   *** ...
 ** valuable both to reader and writer
 *** about these
     They would need conscious user participation,

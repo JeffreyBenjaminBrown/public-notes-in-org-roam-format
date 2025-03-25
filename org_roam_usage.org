@@ -20,6 +20,6 @@ https://org-roam.discourse.group/t/links-descriptions-auto-refactoring/710/3?u=j
 * a backlink is not visible until saved
 that is, by saving the file that contains the backlink,
 after creating the backlink
-* To use a weird symbol (e.g. '\' or ',') in an alias
+* to use a weird symbol (e.g. '\' or ',') in an alias
   Enclose the whole tag in parens.
   Write '\' as \\.

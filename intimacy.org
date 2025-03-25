@@ -2,6 +2,9 @@
 :ID:       7c1233c5-02e7-451e-9265-fe35fe97855c
 :END:
 #+title: intimacy
+* 36 questions for increasing closeness
+  These are famous.
+  https://ggia.berkeley.edu/practice/36_questions_for_increasing_closeness
 * [[id:4b54cd5e-2159-414f-95a8-6da7ca18095a][Some things take courage to share.]]
 * [[id:d29d97b5-eed1-4a84-a845-63a94d1f8264][tacit knowledge]]
 * [[id:42c3b5b2-ed45-4419-a6e5-9ab3f797da8d][intimate permission]]

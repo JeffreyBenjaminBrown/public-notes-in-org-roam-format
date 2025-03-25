@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       ecd50397-0277-4dfe-9821-b511fbc4d063
+:END:
+#+title: Permit two users' views of a topic to diverge, yet still share diffs involving it.

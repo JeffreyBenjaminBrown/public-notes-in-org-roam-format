@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       54df8e37-fec5-4bab-a148-1140f770e2fc
+:END:
+#+title: Represent, record, or suggest changes.
+* some kinds of changes
+** A difference between two {lists, sets}.
+** Creations and deletions of relationships
+* Other relevant changes should easy to view from one change.
+  That is, regardless of the kind of change (list, graph, ...)
+  if it involved expression E then it is easy to see all the change.
+  If those changes are all visible from a given context,
+  make that clear too, and make them viewable within it
+  (like a git diff of a passage of org-roam text).

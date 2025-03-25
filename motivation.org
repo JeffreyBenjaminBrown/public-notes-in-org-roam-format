@@ -6,12 +6,12 @@
 * see also
 ** [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope]]
 ** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
-* [[id:543d4a74-b24c-41d3-b93d-79d9c86eadf3][Partial completion is of almost no value in many projects.]]
+* how to construct it
+** [[id:543d4a74-b24c-41d3-b93d-79d9c86eadf3][Partial completion is of almost no value in many projects.]]
 * [[id:2e6e41ec-87fd-4f79-9162-0114e61497ac][Everything I do is intentional, but every effect I have cannot.]]
 * [[id:e4963ae5-c8ed-4cca-939b-9c1c97b68e39][reluctance to start an enjoyable thing]]
 * [[id:0201e93c-bf0e-475c-9d03-be09f4c408b4][cognitive states|skills I want]]
-* maybe (not | no longer) consciously
-** [[id:9d3a6c74-b537-45c2-be1f-5810374851e8][Mortality should impact one's priorities.]]
+* ? internalize [[id:9d3a6c74-b537-45c2-be1f-5810374851e8][mortality pressure]]
 * [[id:49b8cd32-e3b3-435b-bdad-26fb3e1ac82c][the infinite nature of want]]
 * [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Is humility at odds with ambition?]]
 * [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]

@@ -2,4 +2,4 @@
 :ID:       8b1a3596-d6ad-4200-8d42-31b15742926d
 :END:
 #+title: Intimacy is near aloneness.
-* [[id:5c946bce-fb70-45f0-8efe-24b9077b0501][happy alone first]]
+* maybe [[id:5c946bce-fb70-45f0-8efe-24b9077b0501][find happiness alone first]]

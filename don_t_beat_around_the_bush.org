@@ -3,6 +3,6 @@
 :END:
 #+title: Don't beat around the bush.
 * see also [[id:4ec07465-7323-47c3-a8b4-8d81f383b119][Flirt before proposing anything.]]
-* Ask potential partners of interest whether they're looking too, early.
+* Ask potential partners whether they're interested, early.
   Seems true in every domain -- research partners, musicians, etc.
   Except maybe in espionage.

@@ -2,20 +2,20 @@
 :ID:       05a84243-9dcf-4492-b81e-a48fd2f53b3c
 :ROAM_ALIASES: "meditation and/or knowledge graphs"
 :END:
-#+title: knowledge graphs and/or meditation
+#+title: Mindmapping resembles meditation and journaling.
 * caveat
   Meditating without writing is also great.
   But this is about doing both.
 * mindmaps and meditation
-  My path to mental health involved, oddly enough, knowledge graphs. I had a practice that blended meditation, writing, reading other peoples' stuff, reading my own notes, and refactoring my notes. Those sound like different activities but they're really all on a continuous spectrum. As you read or listen to someone, you're taking notes in your head. As you refactor your notes, you'll find ways of expressing something so much more concisely that it qualifies as insight, not just rewording. Determining that some notes belong in the same category, and then putting that category into words, is as often a within-the-brain process as it is an on-paper (on-screen) one.
+  My path to mental health has involved knowledge graphs. My practice blends meditation, writing, reading other peoples' stuff, reading my own notes, and refactoring my notes. Those sound like different activities but they occupy a continuous spectrum. As you read or listen to someone, you're taking notes in your head. As you refactor your notes, you'll find ways of expressing something so much more concisely that it qualifies as insight, not just rewording. Determining that some notes belong in the same category, and then putting that category into words, is as often a within-the-brain process as it is an on-paper (on-screen) one.
 
-  Sometimes I'd ponder heavy questions like love, purpose, responsibility, the nature of pleasure, etc. Sometimes I'd just be writing about whatever I'd been listening to that seemed interesting. It wasn't a directed process; I wasn't trying to achieve anything, just to witness, understand and record. But the process really changed me. I used to be angry and annoying. Now I'm annoying in a fun way!
+  Sometimes I ponder heavy questions like love, purpose, responsibility, the nature of pleasure, etc. Sometimes I just write about whatever I've been listening to that seemed interesting. It isn't a directed process; I wasn't trying to achieve anything, just to witness, understand and record. But the process has changed me. I used to be angry and annoying. Now I'm fun.
 
-  I'd be meditating, and if I had an idea that seemed worth writing down, I'd write it down. And then if I wasn't sure where to put it, I'd stare at my mindmap and refactor it until I had a good place for it. In that process I might read something else that seemed worth thinking about, and I'd stop writing and think about it.
+  I'll meditate, and if I have an idea that seems worth recording, I write it down. And then if I'm not sure where to put it, I'll stare at my mindmap and refactor it until I have a good place for it. In that process I might read something else that seems worth thinking about, and I'll stop writing and think about it.
 
-  Oh also, in meditation itself there are a lot of states on a similar kind of spectrum. There's awareness before words. There's putting things into words (or seeing them be verbalized without any effort). Verbalization resembles writing -- it makes it easier to remember stuff. Recall is a separate thing. Etc.
+  In meditation itself there are many states on a similar kind of spectrum. There's awareness before words. There's putting things into words (or seeing them be verbalized without any effort). Verbalization resembles writing -- it makes it easier to remember stuff. Recall is a separate thing. Etc.
 
-  I didn't have any plan. I'd just let myself get batted from one state to the next by the wind.
-* theory: read notes before rearranging
-  Otherwise the buildup is certainly daunting.
-  Maybe it is one way or the other, but worth a shot.
+  One need not have any plan before meditate-graphing. I suspect in fact it's better not to. Just let yourself get batted from one state to the next -- by your own mind, by your environment, and by your notes.
+* mindmaps versus journaling
+  Journaling is linear: a list of stories. Journaling is a good way of recording your history, but not a great way to accrete a collection of knowledge.
+  A mindmap is hyperlinked and searchable. Links to topics relevant to the topic in view are typically also in view. One session mindmapping builds on all the previous. The result is surprisingly powerful, for two reasons: One, we tend to discount how similarly clever our prior selves were. Two, those selves have spent so much time processing the world that we simply can't remember, without written aids, all the good ideas they have had.

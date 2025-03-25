@@ -3,5 +3,6 @@
 :END:
 #+title: reluctance to start an enjoyable thing
 * elaboration
-  Many things are like swimming. For some dumb reason I'm reluctant to start and then enjoy it once I'm in.
+  Many things are like swimming. For some dumb reason,
+  I'm reluctant to start, despite knowing I enjoy it once I do.
 * Is it fear or laziness?

@@ -3,14 +3,14 @@
 :END:
 #+title: why open knowledge graphs matter
 * bring in [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
-* Users could control their own views.
+* Users can control their own views.
 ** duh
 *** against The Feed Algorithm
     Rather than only seeing their opaque algorithmic,
     often destructive, and usually at least somewhat dumb "feed".
-* Users could search better.
+* Users can search better.
   They needn't but can learn a search language.
-* Users could curate their view of each Platonic topic.
+* Users can curate their view of each Platonic topic.
   I believe we should journal and meditate.
   Knowledge mapping is similar to them, and permits accretion.
 * [[id:e0126566-b5b3-4408-aec9-448cbe3bc59d][Data providers should see what data people need from them.]]

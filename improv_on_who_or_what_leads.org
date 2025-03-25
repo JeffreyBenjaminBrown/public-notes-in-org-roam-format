@@ -3,10 +3,14 @@
 :END:
 #+title: Improv on who or what leads.
 * In all cases, it is a lag structure, a fundamental metaparameter.
-* three cases
+* three cases in music
 ** can be done as a single player
    Example: Sometimes the thing you are playing now is an echo of the melody you were playing a bar ago, with different rhythm. In that case the impulse originates from the earlier melody, not the earlier rhythm.
 ** can be done as a group, individually
    In this case each person individually hears themselves following something (which changes over time), without trying to coordinate that with the others.
 ** can be done as a group, coordinated
    This might require explicit signals to coordinate, but might not.
+* a case : mindmapping
+  :PROPERTIES:
+  :ID:       b3783193-5288-4336-8a99-d58a545bb4b2
+  :END:

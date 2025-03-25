@@ -1,0 +1,149 @@
+:PROPERTIES:
+:ID:       9c5619e5-81ad-4a67-9705-e4761bdd6839
+:END:
+#+title: shareable knowledge gardens
+An app to build.
+* spec
+** data transition
+*** Translate org-roam into it, a more expressive system.
+    I don't believe anything I express in org-roam cannot be expressed in it.
+*** Translate smsn into it
+    It would be easy, and I want that data.
+** representation
+*** IDs must proliferate, relative to org-roam.
+    I don't see how to proliferate IDs if diffs are to be readable.
+    Every element of a list involved in any other relationship
+    (which includes having plain non-link text view-children)
+    must have an ID, so that it can be moved.
+*** Anything with a title can have an optional alias field.
+*** file types
+**** orgish
+***** fields
+      address
+      context address (empty for context=top-level nodes)
+      title
+      list of nodes
+**** relation type
+***** fields
+****** address
+****** definition
+       :PROPERTIES:
+       :ID:       cfa775eb-9107-430a-a32c-228901d0f494
+       :END:
+       "[agent] knows [agent]", "_ needs _", etc.
+******* Can be typed or not.
+******* This should probably define the default name
+	but the relation can have aliases.
+****** other data, like an orgish file
+***** problem: It might be confusing that brackets are also [[id:91606c6f-0b09-4cb1-b4fe-81ca72a3f6ce][used to indicate links]].
+**** relationship
+***** fields
+      address
+      relations type address
+      members
+***** problem: permits invalid type
+      The relation type must correspond to the number of members.
+***** justification
+      If you create a relationship involving x and y,
+      it automatically becomes visible from x and y,
+      rather than requiring the user to visit them and link to it.
+      (The user could still explicitly place it in either view,
+      and maybe give different or additional link text.)
+*** Titles can include links.
+    This is like creating a single-use relation type.
+    Just like relatinoships with permanent types,
+    this is useful because it automatically creates links
+    to the items referenced in the title,
+    rather than requiring the user to do that.
+** views
+*** kinds of data visible from a topic
+**** The available curated views of it.
+     These ought to be mergeable.
+     For instance,
+     if the private file on a has child b with grandchild c,
+     and the public file on a has child b with grandchild c',
+     the merge would contain a single child b with grandchildren c and c'.
+**** The relationships it is in.
+***** Speecial kind: Links to it.
+**** Parts of the git diff involving it.
+*** That relationships exist involving N not recorded in N can be seen from N.
+**** wordier definition
+     If node N is in relationship R,
+     R might be part of N's contents (recursively), or not.
+     If not, the fact that things like R exist
+     should be visible from a view of N.
+**** Indeed N need contain no curated content at all.
+     In this case the only information visible from it
+     are the relationships involving it.
+*** The view of a recursive note must transclude.
+*** Lists and sets can be shown on one line or across multiple.
+** viewing diffs
+*** Diffs within a list or set are simple.
+    At the file level they look the same.
+*** Group [passages of a diff in a graph] by link IDs.
+*** The view of a recursive note's diff should transclude.
+    Branches in which no changes happen can be folded.
+*** Permit jumping to corresponding insertions/deletions.
+**** definition
+     Where a node is deleted or inserted,
+     add an indicator if either has also happened elsewhere.
+**** Maybe even two indicators.
+     One counting that addresses appearances
+     in other diff actions in this context (node | top-level file),
+     the other in other contexts.
+** sharing views
+*** privacy
+    For each of one's public notes, one can have a private copy,
+    defined as a diff from the public one.
+    For each private note, one can attach a default public name,
+    for use in links to it.
+*** Subscribe one of your notes to one of someone else's.
+    This identifies the other's note as useful to your own,
+    perhaps because they are about the same topic.
+*** how to pull changes from a corresponding note of someone else
+**** modifications to elements not in the puller's graph
+     are presumably to elements the puller refused earlier.
+     (Otherwise the modifications would not appear on its own,
+     but rather as part of an insertion.)
+     Therefore these modifications need not be shown.
+**** to pull an insertion of a node into another
+     Show it as an insertion immediately after
+     the latest common member of
+     the two notes prior to the insertion.
+**** to pull a deletion of a node from another
+     The position of the deleted node is irrelevant.
+     Just show it being deleted from the host node.
+**** Changes to a relationship are easy.
+     The user should, however, get the option to keep both --
+     the relationship before the change, and the relationship after.
+     They would be two distinct relationships,
+     and the user would have to decide how to edit the links
+     to either of them --
+     the pullee's data does not recognize the distinction.
+**** TODO what about changes to other fields?
+     If the title is edited, accept or not.
+     If the title is later changed again,
+     just show it again (the newer value) to the subscriber;
+     don't try to record the fact that they already diverged.
+** search
+   Can be just like org-roam search,
+   except one needn't start with the first word.
+   Order results by title length,
+   and if the title includes links,
+   show them, rather than showing the whole title as one link.
+* nested link syntax
+** a solution: wrap all links in brackets
+   :PROPERTIES:
+   :ID:       91606c6f-0b09-4cb1-b4fe-81ca72a3f6ce
+   :END:
+*** example
+**** for          titles with links
+     [humility] engenders [peace]
+**** for links to titles with links
+     [[humility] engenders [peace]]
+*** problem: It might be confusing that brackets are also used to indicate member types in [[id:cfa775eb-9107-430a-a32c-228901d0f494][relation type definitions]].
+* problems
+** I'm not sure about lists and sets as titles.
+** I'm not sure about files that are sets rather than lists.
+* later
+** Permit unsubscription in a branch of a subscribed file.

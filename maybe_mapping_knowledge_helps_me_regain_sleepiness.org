@@ -4,4 +4,4 @@
 #+title: Maybe mapping knowledge helps me regain sleepiness.
 After only spending half an hour [[id:2ffe190d-718d-4f71-af97-5214ef091045][mindmapping]] circa <2023-09-06 Wed>,
 I wanted to go back to bed.
-But I didn't fall to sleep at all quickly thereafter.
+On the other hand, I didn't fall to sleep at all quickly thereafter.

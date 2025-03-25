@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       f2e39601-d7a2-46e1-b18f-a1287aa94262
+:END:
+#+title: Anything duplicated on screen should be a separate color.
+* = so that it's easy to recognize
+* plan
+  Ideally, keep a list of addresses on screen, with a count next to each. If the count reaches 0, remove it from the list. If a new address is written, add it to the list. If the count is above 1, color it "duplicated".
+  When the list changes, compute its diff, and unless the change was a count-reduction or a deletion, rescan the buffer to recolor any address whose state in the list changed. Actually scanning the whole buffer is not always necessary. If a count initially > 1 rises, only recolor the line containing the address that was just written. And if count rises to 1, again, nothing to recolor. But if it rises from 1 to 2, then the earlier instance of that address must be found elsewhere in the buffer.
+* newish abilities involved
+** Recognize when a regex is completed.
+*** Hopefully there's a preexisting function for this.
+*** the problem
+    Would not want this to slow down, say, the act of pasting in a lot of text. If at each inserted character a path backward from it had to be searched fresh, they could take a long time. Although maybe not because it won't usually take long to prove it's not matching the regex in question, since that regex is a random URI. But still that's like a function call and at least one list hop for each character inserted.

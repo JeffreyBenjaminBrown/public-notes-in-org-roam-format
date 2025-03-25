@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       572d6341-4aa9-4d8e-9a28-11d8fc527f25
 :END:
-#+title: notes on Emacs for Hode
+#+title: Emacs programming for knowledge graphs
 * Invisible
 ** buffer-invisibility-spec
 *** Setting this variable makes it buffer-local.

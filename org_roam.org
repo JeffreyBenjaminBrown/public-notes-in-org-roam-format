@@ -13,9 +13,44 @@
       git@github.com:JeffreyBenjaminBrown/public_notes_with_github-navigable_links.git
 ***** link for browsing humans
       https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/
-* TODO [[id:6c837a2c-76aa-44c1-a190-e976f158fb52][Fix unwanted properties problem in org-roam.]]
-* TODO [[id:263529c4-8072-4548-8a55-036992f5e75a][Investigate these handy-looking org-roam commands.]]
-* PITFALL: If a file is has a new and unsaved link, the file won't show up in the linked-to file's backlinks.
+* TODO
+** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
+** [[id:3da96e05-1bfc-4034-8be6-ff9ed4534bca][make git commits of org-roam data easier]]
+** [[id:6c837a2c-76aa-44c1-a190-e976f158fb52][Fix unwanted properties problem in org-roam.]]
+** [[id:8c609b95-5f55-4d88-b0fa-b43227577ee7][I want a record of the (org-roam) files I visit]].
+* problems that require coding
+** I would like the visible name of a private link to depend on whether the view has access to the private repo.
+   Seems like the name of it if you have access has to be kept in the private repo. Thus nodes should under some circumstances dictate what other nodes call them.
+** The sources view of a relationship "template" node might get cluttered.
+*** the problem
+    If a link to a relationship node is used as a headline to indicate that the headline is a relationship between its parent and its children, the view of that relationship's sources will be cluttered by such instances, burying those nodes that are actually *about* the relatinoship in a sea of things that reveal little about it.
+    Here by relationship template I mean a file such as "see also" that explains what the "see also" relationship means, and links to which are used in other files to organize that file, rather than to say anything about the nature of "seeing also".
+*** candidate solutions
+**** mark links to relationship templates with something like a leading ~
+     Indicate whenever a link to that relationship is being used as a relationship.
+***** problem: Many such indicators would have to be written.
+**** mark links to relationship templates with something to indicate that it is *not* being used as a link
+     This would require much less effort on the part of the user.
+** If a target has many source links, categorizing them would make looking sourceward easier.
+   A simple solution:
+   When viewing link sources, show the whole path from the source node to the source link (which is an org-descendent of the node). Where two such paths are textually the same, merge them.
+*** example
+**** the "backward" view
+     * [target node] = apples
+       looking at its link sources
+     ** uses
+     *** [source node] = apple strudel
+     *** [source node] = apple cider vinegar
+**** the corresponding forward views
+     * [source node] = apple strudel
+     ** uses
+     *** [target node] = apples
+
+     * [source node] = apple cider vinegar
+     ** uses
+     *** [target node] = apples
+* [[id:263529c4-8072-4548-8a55-036992f5e75a][Some handy-looking org-roam commands.]]
+* PITFALL: If a file is has a new and unsaved link, the org-roam db does not know about it.
 * its architecture
 ** [[id:66a0b19d-a524-4ad0-b920-65fc701f78c4][exploring the org-roam db]]
 ** [[id:179412a6-0c6b-4207-b682-f4199f4b4b70][schemas of the org-roam db tables]]
@@ -30,7 +65,6 @@
   :END:
 * PITFALL: [[id:48d43f1e-154d-4a03-a25d-1dec56c79d99][mismatched parens in ROAM_ALIASES can lead to end-of-file error]]
 * TODO [[id:2313fc06-ec79-4a0c-b40c-3367cb4fe19d][Khoj - natural language search engine for org-mode notes]]
-* TODO [[id:8c609b95-5f55-4d88-b0fa-b43227577ee7][I want a record of the (org-roam) files I read]]
 * TODO Try [[id:8e236d34-8dc8-480c-afa5-f1be01d19357][org-roam-ql]]
 * [[id:6e523ffa-8a57-4f83-877e-b476ccbe5cef][org-roam usage]]
 * BLOCKED [[id:ab127568-f5fd-4fa1-9fbd-9d756e26b140][org-roam / repair `emacsql-sqlite3` dependency]]
@@ -61,6 +95,7 @@
 *** It puts the title line in the wrong place.
 * TODO ? [[id:31c4c9f3-fb7a-4028-b84a-8406d0e91f48][org-drill does spaced repetition]]
 * [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]
+* [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to use a knowledge graph]]
 * TODO search libraries for org-roam
   :PROPERTIES:
   :ID:       e5140b84-d5da-482d-a9fa-eff7e3c9dd26
@@ -71,7 +106,6 @@
    https://github.com/natask/org-roam-search
 * TODO ? [[id:b7c89ebb-2ff1-40a9-867e-48594ecd06c1][org-to-listing-it can't handle non-bullets]]
 * [[id:2aef3e2d-4518-4d44-ba76-93feeb0fc981][org-roam v2 migration, my story]]
-* [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to avoid losing notes in a knowledge graph]]
 * PITFALL: move org-roam files [[id:b21e2b07-d97f-4135-ae22-8b8737075ce8][using dired]]
   This causes updates to the org-roam db.
   Maybe other Emacs file-moving facilities (e.g. neotree)

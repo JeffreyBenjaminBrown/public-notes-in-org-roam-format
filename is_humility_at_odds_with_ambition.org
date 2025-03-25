@@ -3,3 +3,5 @@
 :END:
 #+title: Is humility at odds with ambition?
 * [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility feels more peaceful than pride does.]]
+* Humility makes it easier to try new things, release stale projects.
+* Humility makes it easier to make small contributions to huge important projects, rather than bigger-looking contributions to less important projects.

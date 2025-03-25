@@ -1,23 +1,28 @@
 :PROPERTIES:
 :ID:       b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8
+:ROAM_ALIASES: optimization solution
 :END:
-#+title: solution
+#+title: solution | optimization
 * see also
 ** [[id:594df21f-51c9-485c-85a1-cf943f325219][irratinoality , inconsistency]]
-* [[id:465f0ce9-e6e8-4a9f-b290-7290dd914e54][how]]
+** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
+* etymology
+** Solution     suggests discrete possibility spaces.
+** Optimization suggests continuous choice.
+* technical
+** [[id:465f0ce9-e6e8-4a9f-b290-7290dd914e54][how to do constrained optimization]]
 * [[id:f5ad67bc-fdc9-402c-89a0-d103797241ca][Strategy can be like a black hole.]]
 * [[id:18b442b7-427d-4057-8fb7-e5b715e955f5][justice & accounting]]
 * [[id:0c399e74-6d5e-4f0a-95e5-331a7239b19d][elegance = constrained optimization]]
-* [[id:2e6e41ec-87fd-4f79-9162-0114e61497ac][Everything I do is intentional, but every effect I have cannot.]]
-* Optimization suggests continuous choice. Solution suggests discrete possibility spaces.
 * [[id:f027def3-c2df-41bd-9841-bc1d9f437396][synthesis ( ala Hegel )]]
 * [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][balance]]
 * [[id:3443228c-ca26-44cb-ba73-f33ee2de1078][complementarity]]
 * some interesting ones
+** [[id:de26311c-9b4b-48f4-afa1-c7a680f73b30][Don't beat around the bush.]]
+** [[id:4ec07465-7323-47c3-a8b4-8d81f383b119][Flirt before proposing anything.]]
 ** [[id:b288df19-c02e-42fa-a4b6-4cd3c0162e52][self-respect]]
 *** [[id:e3f7d448-2b88-41bb-ac5b-44cdb34c0828][Sexiness does not feel obligated.]]
 ** [[id:5c946bce-fb70-45f0-8efe-24b9077b0501][find happiness alone first]]
-** [[id:00965683-24d4-4725-9ecb-58b960925c6a][independence]]
 * art involving it
 ** [[id:27481367-d7b7-479c-9cd9-d78edabe949b][if you had a really epic missing half]]
 * defineable in terms of it

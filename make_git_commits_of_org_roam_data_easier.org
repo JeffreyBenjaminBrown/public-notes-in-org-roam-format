@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       3da96e05-1bfc-4034-8be6-ff9ed4534bca
+:END:
+#+title: make git commits of org-roam data easier
+alternatives
+* Easy : Record whether the buffer has seen only movements.
+* Better : Keep an edit history.
+  steps, serial
+** Delete corresponding pairs of inverses (insert-delete).
+** Show the git diff in order of edits, but able to jump to the corresponding element(s) of any [line added or dropped].

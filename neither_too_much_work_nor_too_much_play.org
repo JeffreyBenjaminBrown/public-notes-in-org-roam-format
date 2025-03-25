@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       e32322dd-0ae6-4c7c-a619-a32accac8763
-:ROAM_ALIASES: "Neither too much work nor too much play."
+:ROAM_ALIASES: "Neither too much work nor too much play." "work-life balance"
 :END:
 #+title: play v. work
 * [[id:ff5f634a-f8fa-482c-95a7-6be10e55e58d][Comic responsibility]] seems hard to see in this light.

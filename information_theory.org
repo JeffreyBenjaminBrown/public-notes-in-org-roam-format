@@ -3,6 +3,12 @@
 :ROAM_ALIASES: information
 :END:
 #+title: information , about
+* some kinds
+** [[id:12fda009-a653-4cb3-a201-544d69190de6][secrets]]
+** [[id:e3f2958a-c686-4c2a-934b-530fcd681a42][feelings]]
+*** [[id:636d3275-7997-4503-9769-37cdb51722e2][Pain is exactly sometimes a learning experience.]]
+** [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
+** [[id:2ef9af0e-4244-4d92-b141-c0aea60f7d9a][fantasy]]
 * [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
 * [[id:9d700d59-a464-4741-b7a1-d952db174456][separation]]
 * ? [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]] (Maybe bring its contents here.)
@@ -12,4 +18,10 @@
 * [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]
 * [[id:c543ecbc-9af5-4a9f-a7b2-fce74104c5cc][language]]
 * [[id:7ea32dd5-3ad2-4de1-851b-a3a8d7f88711][uncertainty | ignorance]]
-* [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
+* [[id:8bf642b8-c720-475d-9972-ff7d5553ff10][wholeness fission fusion emptiness]]
+* technical
+** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
+** [[id:299fd87e-de56-4671-b51f-e3554ba7dd95][logic, formal]]
+** [[id:e96d2789-d51c-4960-9b51-e9c1e5eed304][logic programming]]
+* art about it
+** [[id:a6a2d6e5-0559-46cc-accc-aac52efcb918][Abstract genes would be cool.]]

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       92293ba8-f8eb-484d-9fcd-021380aef200
+:END:
+#+title: how to record knowledge graph videos
+* Run the mic and talk to myself. Review with audio track, delete accordingly.
+* Don't render audio in final video product.
+  Or else add subtitles.
+* Delete resulting audio file after.
+  Or else compress.

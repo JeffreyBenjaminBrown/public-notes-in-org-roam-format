@@ -2,44 +2,42 @@
 :ID:       41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3
 :END:
 #+title: oscillable generations view for org-roam
-* to make git commits easier
-** Record whether the buffer has seen only movements.
-   easy
-** Keep an edit history.
-   serial
-*** Delete corresponding pairs of inverses (insert-delete).
-*** Show the git diff in order of edits, but able to jump to the corresponding element(s) of any [line added or dropped].
+* refs
+** systems ,, favorite | relevant
+*** [[id:572d6341-4aa9-4d8e-9a28-11d8fc527f25][Emacs programming for knowledge graphs]]
+*** [[id:46d56f38-e6a8-43aa-8c74-efccddfb0770][TypeDB]]
+*** [[id:63f366e6-b768-4f3f-9093-a776f2b4e069][org-roam]]
+*** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][smsn]]
+*** [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
+** projects, adjacent
+*** [[id:3da96e05-1bfc-4034-8be6-ff9ed4534bca][make git commits of org-roam data easier]]
+** code of latest interest
+   ~/hodal/docker-typedb-rust
+   ~/hodal/typedb-via-rust
+   ~/hodal/rust-server-to-emacs
+** functions of latest interest
+   get-the-in-file-ancestor-path ()
+   disguise-org-headline ()
+   org-roam-db-query (query &rest args)
+   insert-graph-parents-as-subheadlines ()
+* Feasible in a month of spare time: osc-gen with the following features, released ugly.
+  at least three of the following
+** FIRST: Make osc-gen commands safe from a normal org-roam view.
+   Add an invisible property that a line was created by osc-gen.
+   Color lines by osc-gen recognizably, so users can know if osc-gen text (which presumably is usually intended to be only temporary) is present. Pause the usual org color scheme when osc-gen text is visible if necessary -- i.e. if the osc-gen color is in the scheme. Link colors will also need to be clear.
+   Include invisible text on each line that says "<by osc-gen>". include a manual command to automatically delete the osc-gen text. if the user forgets, they'll still get a second chance, by seeing "<by osc-gen>" in the git diff.
+** [[id:e6e855d9-f2e8-456e-87d7-e82379ead9f1][show cotargeters]]
+** [[id:f2e39601-d7a2-46e1-b18f-a1287aa94262][Anything duplicated on screen should be a separate color.]]
+** DONE insert targeters
+* TODO NEXT integrate Rust
+** query the org-roam db with Rust
+   so that it becomes extensible to TypeDB
+** DONE talk to a Rust server from Emacs
+   ~/hodal/rust-server-to-emacs
 * TODO problems
-** I would like the visible name of a private link to depend on whether the view has access to the private repo.
-   Seems like the name of it if you have access has to be kept in the private repo. Thus nodes should under some circumstances dictate what other nodes call them.
-** The sources view of a relationship "template" node might get cluttered.
-*** the problem
-    If a link to a relationship node is used as a headline to indicate that the headline is a relationship between its parent and its children, the view of that relationship's sources will be cluttered by such instances, burying those nodes that are actually *about* the relatinoship in a sea of things that reveal little about it.
-    Here by relationship template I mean a file such as "see also" that explains what the "see also" relationship means, and links to which are used in other files to organize that file, rather than to say anything about the nature of "seeing also".
-*** candidate solutions
-**** mark links to relationship templates with something like a leading ~
-     Indicate whenever a link to that relationship is being used as a relationship.
-***** problem: Many such indicators would have to be written.
-**** mark links to relationship templates with something to indicate that it is *not* being used as a link
-     This would require much less effort on the part of the user.
-** If a target has many source links, categorizing them makes looking sourceward easier.
-   A simple solution:
-   When viewing link sources, show the whole path from the source node to the source link (which is an org-descendent of the node). Where two such paths are textually the same, merge them.
-*** example
-**** the "backward" view
-     * [target node] = apples
-       looking at its link sources
-     ** uses
-     *** [source node] = apple strudel
-     *** [source node] = apple cider vinegar
-**** the corresponding forward views
-     * [source node] = apple strudel
-     ** uses
-     *** [target node] = apples
-
-     * [source node] = apple cider vinegar
-     ** uses
-     *** [target node] = apples
+** I want to use a different language for most of the logic.
+   Haskell if I won't extend using TypeDB.
+   Otherwise Rust.
 ** the parent file should be obvious
    Each node in the osc-gen buffer should therefore
    recognize which ancestor it is being viewed from, if any,
@@ -83,25 +81,24 @@
 ** Each og-headline is a headline in a file or a file title.
    Thus to know what it means,
    I must associate a file and position to it in either case.
-** optionally attach disambiguating arrows to pronouns
 ** the bullet should indicate
 *** whether an og-parent node is hidden
 *** whether it is from a different file as the og-parent
+*** [file | non-file node | plain text]
 *** how many org-children it has
 *** how many links lead to it
-*** whether it is an org file or an org headline
-*** Whether the link text is equal to the target's title.
-** [[id:54cd30f3-b696-4017-a02e-4e5b17ab1553][a format friendlier for reading diffs than org-roam's]]
+*** whether link text is equal to target's title
 ** Separate the model from the controller.
    This is a problem in my Emacs technique.
 ** Use a Haskell JSON server to query the org-roam db.
    Then parse the JSON text into hash tables in Emacs.
    This avoids having to remember what list indexes represent.
-** Indicate a headline is [file | non-file node | plain text]
 ** ? Count things.
+** [[id:54cd30f3-b696-4017-a02e-4e5b17ab1553][a format friendlier for reading diffs than org-roam's]]
 ** From file F, if F links to node N, show if N also links to F.
    Use the "left right arrow" symbol ↔
    (`C-x 8 RET left right ar RET")
+** optionally attach disambiguating arrows to pronouns
 * OBSOLETE somewhat : initial specification
 ** vocab
 *** (graph-)leafward, (graph-)rootward

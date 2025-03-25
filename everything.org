@@ -2,24 +2,31 @@
 :ID:       dea50354-cdfe-47c8-8f15-043c70d66da0
 :END:
 #+title: everything
-* [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope(s)]]
+* projects
+** [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope(s)]]
+*** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
+** [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]
+*** [[id:720f5a80-ba0a-4f12-888f-7adb38e2009f][spiritual healing]]
 * [[id:ce2d269b-5029-435e-abf7-d33a984ca8cc][phenomena | conditions]] ,, experiential
-* [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]
-* [[id:03e9f0a1-cbe5-40b0-b46c-c716cf2029a3][optimization | method]]
-* [[id:720f5a80-ba0a-4f12-888f-7adb38e2009f][spiritual healing]]
+* [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][energy]] | power | force | work
+** [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]s, some interesting
+* problematic
+** [[id:a30e5cb0-eb09-4e20-bb17-3872ab4d4a1c][lust]]
+** [[id:cc103b68-6b43-483f-88a7-e724fdf853b7][fascism]]
 * interpersonal
 ** [[id:ccae4c2d-ee71-4c9c-acea-99074df994da][expression]]
 ** [[id:ed2e83cd-85ed-408a-bc28-21c8d4272f68][respect]]
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 ** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
 ** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
-* values
+* values, ideals
 ** [[id:8d624422-f901-4208-aaa7-bbbc6f1f5ba1][life]]
 ** [[id:9afa2ad3-a0e0-46b0-93a4-00dc76ff25e1][adventure]]
 ** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
 ** [[id:5a5ae8a2-fd35-457f-bb36-4cad26c0454d][nature]]
 ** [[id:a9704106-6ea1-40b8-8127-fa2e88d82bae][beauty]]
 ** [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][charity]]
+** [[id:682c092d-0e94-4095-b03f-dae9aa245619][utopia , perfect experience]]
 * environment
 ** [[id:37a304ca-f34a-4d52-afb8-f953d21a1bcf][spacetime]]
 ** [[id:512f112a-218b-4a0e-9be1-9786661b1968][imminence]]
@@ -29,9 +36,6 @@
 ** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
 ** [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]]
 * [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
-** [[id:12fda009-a653-4cb3-a201-544d69190de6][secrets]]
-** [[id:2ef9af0e-4244-4d92-b141-c0aea60f7d9a][fantasy]]
-* [[id:e3f2958a-c686-4c2a-934b-530fcd681a42][feelings]]
 * [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]
 * [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]]
 * skills
