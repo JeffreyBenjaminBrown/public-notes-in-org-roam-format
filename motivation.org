@@ -1,8 +1,8 @@
 :PROPERTIES:
 :ID:       7b52eb18-91c5-4f83-be4f-40ff8a918541
-:ROAM_ALIASES: "ambition"
+:ROAM_ALIASES: motivation ambition
 :END:
-#+title: motivation
+#+title: motivation | ambition
 * see also
 ** [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope]]
 ** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
