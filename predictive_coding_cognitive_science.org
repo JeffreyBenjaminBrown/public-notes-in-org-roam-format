@@ -3,8 +3,8 @@
 :ROAM_ALIASES: "predictive coding"
 :END:
 #+title: predictive coding ( cognitive science )
-* =
-  the theory that the brain's higher-order models send predictions to lower-level models, and what lower-level models report up is mostly deviations from those predictions.
-* implication
-** Changing your models changes your perceptions.
-   or at least reaches in that direction
+* = the theory that
+  the brain's higher-order models send predictions to lower-level models, and what lower-level models report up is mostly deviations from those predictions.
+* implication: Changing your models changes your perceptions.
+  or at least reaches in that direction
+  (that is, from the higher-level models to the lower-level input).

@@ -4,8 +4,7 @@
 #+title: time as an illusion
 * justification
   Various mystical traditions have claimed that time is an illusion.
-  (In these notes I am not making that claim,
-  merely exploring the association.)
+  (I am not making that claim.)
 * in the physics sense
 ** The past and future are as real and forever as the present.
 * in the mystical sense

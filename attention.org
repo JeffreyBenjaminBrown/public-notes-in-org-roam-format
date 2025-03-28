@@ -3,5 +3,5 @@
 :END:
 #+title: attention
 * [[id:c6eb0f31-04b3-4552-b52d-6bbaae98f34d][perception]]
-* [[id:2741003a-955b-4d4e-a7d1-152e7cbdd8db][Attention goes to wants.]]
 * [[id:8d5c9418-f228-4595-b423-05acd9921b10][optimism]]
+* [[id:2741003a-955b-4d4e-a7d1-152e7cbdd8db][Wants pull at attention, which we sometimes fight.]]

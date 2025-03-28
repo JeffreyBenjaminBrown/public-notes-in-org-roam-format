@@ -13,6 +13,7 @@
       git@github.com:JeffreyBenjaminBrown/public_notes_with_github-navigable_links.git
 ***** link for browsing humans
       https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/
+* PITFALL: [[id:0650c92d-963b-4070-984f-4737e29a7f03][Brackets inside an org link seem to confuse GitHub.]]
 * TODO
 ** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
 ** [[id:3da96e05-1bfc-4034-8be6-ff9ed4534bca][make git commits of org-roam data easier]]

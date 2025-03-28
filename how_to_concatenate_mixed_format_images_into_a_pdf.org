@@ -3,10 +3,12 @@
 :END:
 #+title: how to concatenate mixed-format images into a pdf
 * via imagemagick (preferred)
-  Once, it had memory and resolution problems.
-  But the last time I tried it worked fine,
-  joining .jpg files into a pdf.
-  convert x.pdf y.bmp z.png output.pdf
+** how
+   magick x.pdf y.bmp z.png output.pdf
+** more
+   Once, it had memory and resolution problems.
+   But the last time I tried it worked fine,
+   joining .jpg files into a pdf.
 * via pdfunite
   Part of the poppler-utils package.
   pdfunite 1.pdf 2.pdf output.pdf

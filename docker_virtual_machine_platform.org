@@ -22,6 +22,11 @@
        source          /root/.venv/bin/activate && \
        pip3 install -r /root/requirements-for-pip.txt
 * solutions
+** Docker / to reduce space usage
+   :PROPERTIES:
+   :ID:       d623ee48-2989-4802-82f9-3d51ddf45c19
+   :END:
+   docker system prune
 ** if permissions get weird
    Include this line in the `docker run` command:
      -u $(id -u):$(id -g)
