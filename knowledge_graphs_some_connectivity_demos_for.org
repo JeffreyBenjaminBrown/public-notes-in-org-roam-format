@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1f76cbed-d2c5-4522-89e2-1de946d5dc99
+:END:
+#+title: knowledge graphs, some connectivity demos for
+~/hodal/docker-typedb-rust
+~/hodal/typedb-via-rust
+~/hodal/rust-server-to-emacs

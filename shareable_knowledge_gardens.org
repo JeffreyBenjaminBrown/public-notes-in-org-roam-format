@@ -2,10 +2,71 @@
 :ID:       9c5619e5-81ad-4a67-9705-e4761bdd6839
 :END:
 #+title: shareable knowledge gardens
-An app to build.
+= an app to build
 * Claim: Shared note-taking is not currently feasible.
+* [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][knowledge graphs, some connectivity demos for]]
+* path to program it
+  serial
+** demo Tantivy (search engine) for Rust
+   Rust-native
+   ChatGPT and Claude both recommend.
+   In second place both recommend Meilisearch.
+** the simplest data model that permits Emacs interop
+   Just flat org files.
+   Won't even need to start with all fields --
+   with titles and contents, testing should work.
+** Import and index some org data.
+   Deal with links in titles.
+   Don't search a repo's .git folder.
+** fetch a node (in its context) from Emacs
+   Send the ID from Emacs.
+   Build the buffer in Rust --
+   a tree of headlines, with colors and hidden text.
+   Show it in Emacs.
+** search for a title from Emacs
+   Build a document of search results in Rust.
+   Titles are visible, IDs are not.
+   The user can visit any of them.
+** edit a node from Emacs
+*** idea
+    Its hidden properties include ID and source file.
+    Editing it in Emacs changes its color to "changed, not saved".
+    Some command permits one to save all "changed, not saved" nodes in the context.
+*** make "flat-visiting" an edited file possible
+    If a parent loses children,
+    that's different from editing its title.
+    But using the same indicator for both is fine,
+    if the user can visit the edited file
+    to see what changed.
+    Show the file in read-only mode,
+    hiding its IDs just like in its context.
+    This makes the two easy to compare.
+** implement multiple repositories
+   Put a config file in the root folder.
+   Each repo is given a path relative to the root,
+   a color-background pair for its data
+   (which the user can use to make private data obvious),
+   and a name for who wrote it.
+   Red on green is reserved for system-provided text.
+** implement comment files
+   Private and public comment files are equivalent.
+   The only difference is that data from private repos
+   can be in a different color.
+   Each repo is color-configurable.
+   Comments on a file are shown as its grandchildren,
+   under a mediating child called "& by [author]".
+** implement [[id:35e8d4f2-db4e-4dea-a005-7d33dfdc6e9b][subscription]]
+** implement [[id:c03da915-2187-43a4-ace1-8d93438c967f][cloning]]
+** implement backward view
+   "show links|references to this node",
+   including subscriptions, unsubscriptions.
+   Make displaying link source repo optional.
+* architectural principles
+** Avoid use complex data structures in Emacs.
+   Emacs seems best for buffer text.
+   That text's properties can encode anything I need.
+   All other logic, including types, should be in Rust.
 * MVEP : features and usage
-** TODO Is it extensible to links in titles?
 ** format
 *** "hypertext" = text that can contain links
 *** "flat org with subscriptions and private commentary"
@@ -15,16 +76,17 @@ An app to build.
 **** about the name
      It's like org files, but each tree is represented as a collection of flat (only top-level headlines) org files.
 **** definition : fields
-***** format
+***** format (is one of the fields)
       In case I want to add more later.
       Can be an integer referring to an enum file.
 ***** Org-style text.
-***** Optional ID for what it comments on.
-      Its comments are shown as a grandchild of what it comments on, mediated by the child "& private".
-***** IDs for every node in it.
+***** Optional ID for its context.
+      Each file either is a top-level context,
+      or refers to one.
+***** Optional indicator for if the file comments on its context.
+      If so, its comments are shown as a grandchild of what it comments on, mediated by the child "& private" (for private comments) or else "commentary by [author]".
+***** A list of nodes with IDs and hypertext.
       This makes fine-grained unsubscription feasible.
-***** ID for context, or else top-level.
-***** Each file either is a context or refers to one.
 ***** [[id:9f6101cc-2eca-4f96-aea7-6f341034e592][subscription data]]
 **** subscription data
      :PROPERTIES:
@@ -68,8 +130,20 @@ An app to build.
      They should have more fields --
      at least unsubscriptions.
 **** later make them [[id:38d2c92e-3ba0-46ca-bf32-756d59bea448][diffs]]
-** [[id:9f6101cc-2eca-4f96-aea7-6f341034e592][subscription]]
+** subscription
+   :PROPERTIES:
+   :ID:       35e8d4f2-db4e-4dea-a005-7d33dfdc6e9b
+   :END:
+*** [[id:9f6101cc-2eca-4f96-aea7-6f341034e592][data model]]
+*** display
+    Subscriptions in a file are shown as its grandchildren,
+    each reading "[note] by [author]",
+    under a mediating child that reads "subscriptions".
+*** [[id:79db50b5-4bfc-497c-8e19-10fc7f6e4ffd][Subscribed content is filtered.]]
 ** cloning
+   :PROPERTIES:
+   :ID:       c03da915-2187-43a4-ace1-8d93438c967f
+   :END:
 *** how
     If you like a branch of someone's thoughts,
     clone the whole thing.
@@ -92,7 +166,10 @@ An app to build.
    Making every node have an ID makes this easier.
    Indicate for each node what foreign nodes it is subscribed to.
    Indicate for each context what foreign nodes it has been unsubscribed from, and which have been incorporated into it. Unsubscribed-from nodes are never shown. Incorporated nodes are omitted from the view of foreign data because they now appear somewhere the user considers more appropriate.
-** how to show foreign data
+** how to show (and filter) foreign data
+   :PROPERTIES:
+   :ID:       79db50b5-4bfc-497c-8e19-10fc7f6e4ffd
+   :END:
    Don't show foreign-made changes to foreign data. Too hard.
    Instead just show their data as it stands, given your subscriptions and incorporations.
    For any domestic node with subscriptions, show a "subscribed to" child. Its children are foreign files, and its grandchildren are their "filtered content". The filtered content exclude any nodes to which any other node in that context subscribes (because they should be shown there instead), and omits any unsubscribed-from nodes.

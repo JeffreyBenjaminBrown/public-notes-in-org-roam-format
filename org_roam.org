@@ -9,12 +9,17 @@
 ** my org-roam repos
 *** public
 **** with Github formatted links
+***** link for browsing humans
+      https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/everything.org
 ***** git remote
       git@github.com:JeffreyBenjaminBrown/public_notes_with_github-navigable_links.git
-***** link for browsing humans
-      https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/
-* PITFALL: [[id:0650c92d-963b-4070-984f-4737e29a7f03][Brackets inside an org link seem to confuse GitHub.]]
-* TODO
+* PITFALLs
+** [[id:0650c92d-963b-4070-984f-4737e29a7f03][Brackets inside an org link seem to confuse GitHub.]]
+
+* TODO problems I could maybe fix
+** [[id:83997957-6b2f-4f18-9aa2-7f166109dce4][Search should not require knowing the first word.]]
+** [[id:0650c92d-963b-4070-984f-4737e29a7f03][Brackets inside an org link seem to confuse GitHub.]]
+* TODO projects
 ** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
 ** [[id:3da96e05-1bfc-4034-8be6-ff9ed4534bca][make git commits of org-roam data easier]]
 ** [[id:6c837a2c-76aa-44c1-a190-e976f158fb52][Fix unwanted properties problem in org-roam.]]

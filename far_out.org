@@ -3,10 +3,11 @@
 :END:
 #+title: far out
 * [[id:720f5a80-ba0a-4f12-888f-7adb38e2009f][spiritual healing]]
-* likely impractical questions
-** [[id:7e2dcbef-0109-4366-b5cb-1de892768996][In what space would genes embed, if both were voluntary lenses?]]
-* fantasy
+* fantasy, conceivable
 ** [[id:01f18a09-d0d8-4927-b3bb-e60d1ed98cfa][to get so old before becoming young again]]
 ** [[id:cce4d64c-1ea8-44bc-9153-fca322beddbd][astronomy through an economic space]]
-** [[id:9e284bc3-8b7e-405e-ba71-b8f4311bd2c6][if philosophy battled the patriarchy , in everyone's mind]]
-** [[id:30367e75-1d0e-4698-bba6-3dbeaee17a0a][guantum , trans-societal]]
+** [[id:9e284bc3-8b7e-405e-ba71-b8f4311bd2c6][if philosophy battled the patriarchy, in everyone's mind]]
+** [[id:30367e75-1d0e-4698-bba6-3dbeaee17a0a][guantum, trans-societal]]
+** [[id:61e06b71-319e-4011-a9ef-1c1025b67f49][Hilbert-scoliosis]]
+* impractical questions
+** [[id:7e2dcbef-0109-4366-b5cb-1de892768996][In what space would genes embed, if both were voluntary lenses?]]

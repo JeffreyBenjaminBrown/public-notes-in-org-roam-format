@@ -6,9 +6,14 @@
   TODO : merge with
 ** [[id:9c5619e5-81ad-4a67-9705-e4761bdd6839][shareable knowledge gardens]]
 ** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
-** [[id:63f366e6-b768-4f3f-9093-a776f2b4e069][org-roam]]
+** the TODO items in [[id:63f366e6-b768-4f3f-9093-a776f2b4e069][org-roam]] (inc. extend)
 ** [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to use a knowledge graph]]
 ** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][SmSn]]
+** [[id:adb6d4a3-e7db-4880-b757-67bbe4fb425a][features I want]]
+* see also
+** [[id:b37024f7-716b-4748-9a33-d35e75f4ede1][epistemology]]
+** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
+** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
 * u
 ** build [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode with TypeDB and Emacs]]
 ** [[id:d674bf8d-cd41-47aa-8418-36a74cedd561][build Hash for TypeDB]]
@@ -87,10 +92,6 @@
 ** permit someone online to judge your notes
 *** This would require identity management.
     The simplest form would simply be "choose a name nobody else will choose".
-* see also
-** [[id:b37024f7-716b-4748-9a33-d35e75f4ede1][epistemology]]
-** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
-** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
 * There should be bubble actions.
   Nested circles of "I think this word is like that word", so that someone could filter what they see that way.
   They could be as vaguely personal categories as negative/positive. Different peoples' could differ a lot, with perfect validity. One could choose to see an equivalence class [on (term)] the way the majority see it, once (if you wanted) there was a sufficiently large majority who had voted.

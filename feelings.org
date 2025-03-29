@@ -3,6 +3,7 @@
 :END:
 #+title: feelings
 * TODO list more preexisting notes under [[id:2370c5e8-e713-4d6f-8d6c-32f9b55523e1][instances]]
+* [[id:4569aa13-9b2b-4f60-b85d-a4bf4913edc9][& private]]
 * [[id:82fbcfc0-61ea-4f30-82e5-3eb5148a16cf][emotion & frequency]]
 * [[id:dca72b0d-ee2c-4666-8e87-4cf5bf58da98][emotional free lunches]]
 * [[id:06b856e9-50fb-4025-9276-cd0b2b945fa8][Knowing how self and other feel can both be tricky.]]
@@ -19,5 +20,5 @@
 ** [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
 ** [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]
 ** [[id:05d467c3-fffd-457a-af5c-099f49b4b179][desperation and despair]]
-** [[id:a30e5cb0-eb09-4e20-bb17-3872ab4d4a1c][lust]]
 ** [[id:5fe70812-fd17-4692-aa21-61a55c80ea71][nostalgia]]
+** [[id:186371b0-e1eb-4a62-9354-f76fb3f63bbd][pleasure]]

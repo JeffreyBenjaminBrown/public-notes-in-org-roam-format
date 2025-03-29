@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       adb6d4a3-e7db-4880-b757-67bbe4fb425a
+:END:
+#+title: features I want
+* lists and sets
+** and maybe a generalization containing both
+** [[id:b88b2b9c-b219-493b-a4a6-d3c709a6cb7b][this org-roam approximation of it]]
+** why
+*** search for them by any member
+    Permit searching for any collection,
+    rather than | in addition to
+    specifally list, set, etc.,
+    because you might not remember how
+    you saved the collection.
+*** recognize overlap, duplication automatically
+    Don't permit duplication.
+    Report overlap.

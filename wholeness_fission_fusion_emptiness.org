@@ -3,7 +3,11 @@
 :END:
 #+title: a file for the node wholeness fission fusion emptiness
 Notes should be to the below, not the above.
-* I wish editing this list in one place edited the text of links to it correspondingly.
+* [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]] : I wish editing this file in one place edited the text of links to it correspondingly.
+  :PROPERTIES:
+  :ID:       b88b2b9c-b219-493b-a4a6-d3c709a6cb7b
+  :END:
+  allowing a user to find it by searching for any of them
 * [[id:bf73fa6f-cd1a-4237-8bdb-7a98025cf226][wholeness]]  [[id:24fcf76a-fafa-4cb2-8312-43719f7aa207][fission]]  [[id:1a8ddfa4-0522-4c92-948a-21a97a277bcf][fusion]]  [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]] , the list
   :PROPERTIES:
   :ID:       fcc04ddf-843f-4953-b23c-b525a9d6d652
