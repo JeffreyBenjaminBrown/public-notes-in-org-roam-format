@@ -4,12 +4,11 @@
 #+title: shareable knowledge gardens
 An app to build.
 * Claim: Shared note-taking is not currently feasible.
-* problems
 * MVEP : features and usage
 ** TODO Is it extensible to links in titles?
 ** format
 *** "hypertext" = text that can contain links
-*** "flat org with subscriptions"
+*** "flat org with subscriptions and private commentary"
     :PROPERTIES:
     :ID:       08d6887d-8a86-4906-8ab3-6d93217de0fd
     :END:
@@ -20,9 +19,10 @@ An app to build.
       In case I want to add more later.
       Can be an integer referring to an enum file.
 ***** Org-style text.
-***** IDs for every node.
+***** Optional ID for what it comments on.
+      Its comments are shown as a grandchild of what it comments on, mediated by the child "& private".
+***** IDs for every node in it.
       This makes fine-grained unsubscription feasible.
-***** IDs for anything linked to.
 ***** ID for context, or else top-level.
 ***** Each file either is a context or refers to one.
 ***** [[id:9f6101cc-2eca-4f96-aea7-6f341034e592][subscription data]]
@@ -35,7 +35,14 @@ An app to build.
 ***** Incorporated nodes for every context (top) node.
       In a context, "incorporated nodes" are foreign nodes in subscribed-to contexts which have been "placed" -- subscribed to, merged with -- in the domestic context. These are special because, like the unsubscribed-from nodes, they don't need to be shown in any view dedicated to foreign data.
 **** Use json to make it easily extensible to including org-style properties like aliases.
-**** It's extensible to lists, sets and relations.
+**** feasible extensions
+     :PROPERTIES:
+     :ID:       81d2fea0-f1b1-48a8-9934-5f09f5a5a3a0
+     :END:
+***** "default link text" field
+****** => default public name for links to a private note
+***** "search aliases" field
+***** lists, sets and relations.
      If I want to later add lists, for instance,
      the flat org files will be able to contain those,
      and vice versa.
@@ -43,13 +50,6 @@ An app to build.
      by default it searches for
      terms in titles and lists together,
      but the user can narrow it to, e.g., just titles.
-**** likely extensions
-     :PROPERTIES:
-     :ID:       81d2fea0-f1b1-48a8-9934-5f09f5a5a3a0
-     :END:
-***** "default link text" field
-****** => default public name for links to a private note
-***** "search aliases" field
 **** obvious: fields
 ***** f for format
 ****** an integer referring to an extensible* enum file
@@ -80,8 +80,7 @@ An app to build.
 *** why
     They might delete it,
     so a reference to their work could break.
-** search
-   both optional: title, author
+** search over title, author
 ** data import
 *** org-roam import seems one-way
     I don't believe anything I express in org-roam cannot be expressed in it.
