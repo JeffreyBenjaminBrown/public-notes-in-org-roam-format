@@ -3,147 +3,216 @@
 :END:
 #+title: shareable knowledge gardens
 An app to build.
-* spec
-** data transition
-*** Translate org-roam into it, a more expressive system.
-    I don't believe anything I express in org-roam cannot be expressed in it.
-*** Translate smsn into it
-    It would be easy, and I want that data.
-** representation
-*** IDs must proliferate, relative to org-roam.
-    I don't see how to proliferate IDs if diffs are to be readable.
-    Every element of a list involved in any other relationship
-    (which includes having plain non-link text view-children)
-    must have an ID, so that it can be moved.
-*** Anything with a title can have an optional alias field.
-*** file types
-**** orgish
-***** fields
-      address
-      context address (empty for context=top-level nodes)
-      title
-      list of nodes
-**** relation type
-***** fields
-****** address
-****** definition
-       :PROPERTIES:
-       :ID:       cfa775eb-9107-430a-a32c-228901d0f494
-       :END:
-       "[agent] knows [agent]", "_ needs _", etc.
-******* Can be typed or not.
-******* This should probably define the default name
-	but the relation can have aliases.
-****** other data, like an orgish file
-***** problem: It might be confusing that brackets are also [[id:91606c6f-0b09-4cb1-b4fe-81ca72a3f6ce][used to indicate links]].
-**** relationship
-***** fields
-      address
-      relations type address
-      members
-***** problem: permits invalid type
-      The relation type must correspond to the number of members.
-***** justification
-      If you create a relationship involving x and y,
-      it automatically becomes visible from x and y,
-      rather than requiring the user to visit them and link to it.
-      (The user could still explicitly place it in either view,
-      and maybe give different or additional link text.)
-*** Titles can include links.
+* Claim: Shared note-taking is not currently feasible.
+* problems
+** Someone might delete a node, so keep a copy.
+*** suggests version-controlling your copy of their data
+    even if they don't
+** nested links -- links in titles
+*** the idea
     This is like creating a single-use relation type.
     Just like relatinoships with permanent types,
     this is useful because it automatically creates links
     to the items referenced in the title,
     rather than requiring the user to do that.
-** views
-*** kinds of data visible from a topic
-**** The available curated views of it.
-     These ought to be mergeable.
-     For instance,
-     if the private file on a has child b with grandchild c,
-     and the public file on a has child b with grandchild c',
-     the merge would contain a single child b with grandchildren c and c'.
-**** The relationships it is in.
-***** Speecial kind: Links to it.
-**** Parts of the git diff involving it.
-*** That relationships exist involving N not recorded in N can be seen from N.
-**** wordier definition
-     If node N is in relationship R,
-     R might be part of N's contents (recursively), or not.
-     If not, the fact that things like R exist
-     should be visible from a view of N.
-**** Indeed N need contain no curated content at all.
-     In this case the only information visible from it
-     are the relationships involving it.
-*** The view of a recursive note must transclude.
-*** Lists and sets can be shown on one line or across multiple.
-** viewing diffs
-*** Diffs within a list or set are simple.
-    At the file level they look the same.
-*** Group [passages of a diff in a graph] by link IDs.
-*** The view of a recursive note's diff should transclude.
-    Branches in which no changes happen can be folded.
-*** Permit jumping to corresponding insertions/deletions.
-**** definition
-     Where a node is deleted or inserted,
-     add an indicator if either has also happened elsewhere.
-**** Maybe even two indicators.
-     One counting that addresses appearances
-     in other diff actions in this context (node | top-level file),
-     the other in other contexts.
-** sharing views
-*** privacy
-    For each of one's public notes, one can have a private copy,
-    defined as a diff from the public one.
-    For each private note, one can attach a default public name,
-    for use in links to it.
-*** Subscribe one of your notes to one of someone else's.
-    This identifies the other's note as useful to your own,
-    perhaps because they are about the same topic.
-*** how to pull changes from a corresponding note of someone else
-**** modifications to elements not in the puller's graph
-     are presumably to elements the puller refused earlier.
-     (Otherwise the modifications would not appear on its own,
-     but rather as part of an insertion.)
-     Therefore these modifications need not be shown.
-**** to pull an insertion of a node into another
-     Show it as an insertion immediately after
-     the latest common member of
-     the two notes prior to the insertion.
-**** to pull a deletion of a node from another
-     The position of the deleted node is irrelevant.
-     Just show it being deleted from the host node.
-**** Changes to a relationship are easy.
-     The user should, however, get the option to keep both --
-     the relationship before the change, and the relationship after.
-     They would be two distinct relationships,
-     and the user would have to decide how to edit the links
-     to either of them --
-     the pullee's data does not recognize the distinction.
-**** TODO what about changes to other fields?
-     If the title is edited, accept or not.
-     If the title is later changed again,
-     just show it again (the newer value) to the subscriber;
-     don't try to record the fact that they already diverged.
+*** a representation: wrap all links in brackets
+    :PROPERTIES:
+    :ID:       91606c6f-0b09-4cb1-b4fe-81ca72a3f6ce
+    :END:
+**** example
+***** for          titles with links
+      [humility] engenders [peace]
+***** for links to titles with links
+      [[humility] engenders [peace]]
+**** problem: It might be confusing that brackets are also used to indicate member types in [[id:cfa775eb-9107-430a-a32c-228901d0f494][relation type definitions]].
+*** search over titles that include links
+    Order results by title length,
+    and if the title includes links,
+    show them, rather than showing the whole title as one link.
+* MVEP : features and usage
+** TODO Is it extensible to links in titles?
+** format
+*** "hypertext" = text that can contain links
+*** "flat org with subscriptions"
+    :PROPERTIES:
+    :ID:       08d6887d-8a86-4906-8ab3-6d93217de0fd
+    :END:
+**** about the name
+     It's like org files, but each tree is represented as a collection of flat (only top-level headlines) org files.
+**** definition : fields
+***** format
+      In case I want to add more later.
+      Can be an integer referring to an enum file.
+***** Org-style text.
+***** IDs for every node.
+      This makes fine-grained unsubscription feasible.
+***** IDs for anything linked to.
+***** ID for context, or else top-level.
+***** Each file either is a context or refers to one.
+***** [[id:9f6101cc-2eca-4f96-aea7-6f341034e592][subscription data]]
+**** subscription data
+     :PROPERTIES:
+     :ID:       9f6101cc-2eca-4f96-aea7-6f341034e592
+     :END:
+***** Subscribed-to foreign nodes for every node.
+***** Unsubscribed-from nodes for every context (top) node.
+***** Incorporated nodes for every context (top) node.
+      In a context, "incorporated nodes" are foreign nodes in subscribed-to contexts which have been "placed" -- subscribed to, merged with -- in the domestic context. These are special because, like the unsubscribed-from nodes, they don't need to be shown in any view dedicated to foreign data.
+**** Use json to make it easily extensible to including org-style properties like aliases.
+**** It's extensible to lists, sets and relations.
+     If I want to later add lists, for instance,
+     the flat org files will be able to contain those,
+     and vice versa.
+     And it's easy to modify the search function --
+     by default it searches for
+     terms in titles and lists together,
+     but the user can narrow it to, e.g., just titles.
+**** likely extensions
+     :PROPERTIES:
+     :ID:       81d2fea0-f1b1-48a8-9934-5f09f5a5a3a0
+     :END:
+***** "default link text" field
+****** => default public name for links to a private note
+***** "search aliases" field
+**** obvious: fields
+***** f for format
+****** an integer referring to an extensible* enum file
+       extensible by those building the program
+***** cx for context, an optional ID
+***** tx for title, a string
+***** cn for content, an optional list
+      Optional because the text might be its own file
+      just for the sake of having an ID to link to.
+***** id for id, a string with requirements
+***** anything else goes but won't be read at MVP launch
+*** private commentary files refer to public files
+**** Initially, just make them lists.
+     Show all the private commentary as a child
+     "& private" of the commented-on node.
+     They should have more fields --
+     at least unsubscriptions.
+**** later make them [[id:38d2c92e-3ba0-46ca-bf32-756d59bea448][diffs]]
+** sharing = [[id:9f6101cc-2eca-4f96-aea7-6f341034e592][subscription]]
 ** search
-   Can be just like org-roam search,
-   except one needn't start with the first word.
-   Order results by title length,
-   and if the title includes links,
-   show them, rather than showing the whole title as one link.
-* nested link syntax
-** a solution: wrap all links in brackets
+   both optional: title, author
+** data import
+*** org-roam import seems one-way
+    I don't believe anything I express in org-roam cannot be expressed in it.
+*** smsn interchange could be two-way
+    There is a natural map in both directions.
+    Only from smsn into SKG would be 1-to-1 (lossless).
+** how to represent subscriptions
+   Subscription is like merging.
+   Making every node have an ID makes this easier.
+   Indicate for each node what foreign nodes it is subscribed to.
+   Indicate for each context what foreign nodes it has been unsubscribed from, and which have been incorporated into it. Unsubscribed-from nodes are never shown. Incorporated nodes are omitted from the view of foreign data because they now appear somewhere the user considers more appropriate.
+** how to show foreign data
+   Don't show foreign-made changes to foreign data. Too hard.
+   Instead just show their data as it stands, given your subscriptions and incorporations.
+   For any domestic node with subscriptions, show a "subscribed to" child. Its children are foreign files, and its grandchildren are their "filtered content". The filtered content exclude any nodes to which any other node in that context subscribes (because they should be shown there instead), and omits any unsubscribed-from nodes.
+   Incorporation, merging and subscription are all so far words for the same thing.
+** later ? [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][backlinks view]]
+* non-obvious implied features
+** Sharing and version control are independent.
    :PROPERTIES:
-   :ID:       91606c6f-0b09-4cb1-b4fe-81ca72a3f6ce
+   :ID:       8faa302a-2a07-4cc9-8741-86a4e6b69f78
    :END:
-*** example
-**** for          titles with links
-     [humility] engenders [peace]
-**** for links to titles with links
-     [[humility] engenders [peace]]
-*** problem: It might be confusing that brackets are also used to indicate member types in [[id:cfa775eb-9107-430a-a32c-228901d0f494][relation type definitions]].
-* problems
-** I'm not sure about lists and sets as titles.
-** I'm not sure about files that are sets rather than lists.
-* later
-** Permit unsubscription in a branch of a subscribed file.
+   No need to look at diffs to think about sharing.
+** Children stored separately from position.
+** Subscriptions can be public and private.
+** Unsubscriptions could I think be public and private.
+   The trick: In a public context the privately unsubscribed-from nodes should not show up.
+** Public subscriptions to private nodes reveal almost nothing.
+   They reveal the fact of their existence,
+   but not what they unsubscribe to -- not even its repo.
+* do later
+** smart diff traversal
+   treating nodes as first class entities,
+   able to jump easily from any [change involving a node] to any of its brethren in an equivalence class, where equivalence is modulo insertion or deletion, modulo link text and any other links present in the same node, and modulo appearance as base content, subscription or unsubscription.
+** smart diff view
+   Transclude to see all insertions and deletions in a context.
+** [[id:81d2fea0-f1b1-48a8-9934-5f09f5a5a3a0][extend the file format]]
+** report references to a user's data
+   The app should make it easy to see where
+   a foreign repo refers to yours.
+** Permit people to share their subscriptions with each other.
+** A public notes repo should be configurable to contain only one commit.
+   If so, it is the latest of a corresponding private repo.
+** "flat org diff" : for private lenses onto public [[id:08d6887d-8a86-4906-8ab3-6d93217de0fd][flat-org]] files
+   :PROPERTIES:
+   :ID:       38d2c92e-3ba0-46ca-bf32-756d59bea448
+   :END:
+   Each FOD file corresponds to an FO file.
+   Each line of an FOD can have an "elder brother" ID, its own ID, and hypertext content.
+   If the first line of an FOD has no elder brother ID, it is listed before all the FO's content in the merged FOD-FO view.
+   If any other line of an FOD has no elder brother ID, it is listed right after the preceding element of the FOD in the merged view.
+   Any FOD line with an FO elder brother is listed right after the elder brother in the merged view.
+** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view]]
+** transclusion
+** show foreign moves of incorporated=merged=subscribed-to nodes
+   If they moved something but you merged it with something of your own, maybe don't show the move, because you already placed it and you're already tracking it.
+** relationships and types thereof
+*** relationship type
+**** fields
+***** address
+***** definition
+      :PROPERTIES:
+      :ID:       cfa775eb-9107-430a-a32c-228901d0f494
+      :END:
+      "[agent] knows [agent]", "_ needs _", etc.
+****** Can be typed or not.
+****** This should probably define the default name
+       but the relation can have aliases.
+***** other data, like an orgish file
+**** problem: It might be confusing that brackets are also [[id:91606c6f-0b09-4cb1-b4fe-81ca72a3f6ce][used to indicate links]].
+*** relationship
+**** fields
+     address
+     relations type address
+     members
+**** problem: permits invalid type
+     The relation type must correspond to the number of members.
+**** justification
+     If you create a relationship involving x and y,
+     it automatically becomes visible from x and y,
+     rather than requiring the user to visit them and link to it.
+     (The user could still explicitly place it in either view,
+     and maybe give different or additional link text.)
+* fun to explain
+** public privacy and private privacy
+   The user can insert a link to a private file anywhere, and the link might be public or not. When not, it is instead part of a corresponding file in their private repository, which refers to the public repository context that it modifies.
+* earlier work
+** subscription model, I think needlessly complex
+   You can subscribe any node in your graph to any node(s) in another's. Upon doing so you can then decide how to merge them, associating context-descendents in your context with ones in context(s) of theirs, and unsubscribing to branches not of interest (in your context).
+   Unsubscriptions can be invisible or visible: "remove all content descending from here, and make here invisible" or just the first of those two things. It should be visibly obvious that visible unsubscribed nodes are unsubscribed.
+   The user can attach their own context to a subscription. (This generalizes how a link can appear with non-link text in the same expression.) They could attach it in-line as text visibly not imported from the subscription, or (obviously) as descendent graph content if there's enough to warrant (in the user's eyes) structuring.
+** spec
+*** representation
+**** IDs must proliferate, relative to org-roam.
+     I don't see how to proliferate IDs if diffs are to be readable.
+     Every element of a list involved in any other relationship
+     (which includes having plain non-link text view-children)
+     must have an ID, so that it can be moved.
+**** Anything with a title can have an optional alias field.
+*** views
+**** kinds of data visible from a topic
+***** The available curated views of it.
+      These ought to be mergeable.
+      For instance,
+      if the private file on a has child b with grandchild c,
+      and the public file on a has child b with grandchild c',
+      the merge would contain a single child b with grandchildren c and c'.
+***** The relationships it is in.
+****** Speecial kind: Links to it.
+***** Parts of the git diff involving it.
+**** That relationships exist involving N not recorded in N can be seen from N.
+***** wordier definition
+      If node N is in relationship R,
+      R might be part of N's contents (recursively), or not.
+      If not, the fact that things like R exist
+      should be visible from a view of N.
+***** Indeed N need contain no curated content at all.
+      In this case the only information visible from it
+      are the relationships involving it.
+**** The view of a recursive note must transclude.
+**** Lists and sets can be shown on one line or across multiple.
