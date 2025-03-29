@@ -5,30 +5,6 @@
 An app to build.
 * Claim: Shared note-taking is not currently feasible.
 * problems
-** Someone might delete a node, so keep a copy.
-*** suggests version-controlling your copy of their data
-    even if they don't
-** nested links -- links in titles
-*** the idea
-    This is like creating a single-use relation type.
-    Just like relatinoships with permanent types,
-    this is useful because it automatically creates links
-    to the items referenced in the title,
-    rather than requiring the user to do that.
-*** a representation: wrap all links in brackets
-    :PROPERTIES:
-    :ID:       91606c6f-0b09-4cb1-b4fe-81ca72a3f6ce
-    :END:
-**** example
-***** for          titles with links
-      [humility] engenders [peace]
-***** for links to titles with links
-      [[humility] engenders [peace]]
-**** problem: It might be confusing that brackets are also used to indicate member types in [[id:cfa775eb-9107-430a-a32c-228901d0f494][relation type definitions]].
-*** search over titles that include links
-    Order results by title length,
-    and if the title includes links,
-    show them, rather than showing the whole title as one link.
 * MVEP : features and usage
 ** TODO Is it extensible to links in titles?
 ** format
@@ -92,7 +68,18 @@ An app to build.
      They should have more fields --
      at least unsubscriptions.
 **** later make them [[id:38d2c92e-3ba0-46ca-bf32-756d59bea448][diffs]]
-** sharing = [[id:9f6101cc-2eca-4f96-aea7-6f341034e592][subscription]]
+** [[id:9f6101cc-2eca-4f96-aea7-6f341034e592][subscription]]
+** cloning
+*** how
+    If you like a branch of someone's thoughts,
+    clone the whole thing.
+    Each file in the clone is automatically subscribed
+    to the file it was cloned from
+    (each of which can be undone,
+    in the same fine-grained way as manual subscriptions).
+*** why
+    They might delete it,
+    so a reference to their work could break.
 ** search
    both optional: title, author
 ** data import
@@ -126,6 +113,27 @@ An app to build.
    They reveal the fact of their existence,
    but not what they unsubscribe to -- not even its repo.
 * do later
+** nested links -- links in titles
+*** the idea
+    This is like creating a single-use relation type.
+    Just like relatinoships with permanent types,
+    this is useful because it automatically creates links
+    to the items referenced in the title,
+    rather than requiring the user to do that.
+*** a representation: wrap all links in brackets
+    :PROPERTIES:
+    :ID:       91606c6f-0b09-4cb1-b4fe-81ca72a3f6ce
+    :END:
+**** example
+***** for          titles with links
+      [humility] engenders [peace]
+***** for links to titles with links
+      [[humility] engenders [peace]]
+**** problem: It might be confusing that brackets are also used to indicate member types in [[id:cfa775eb-9107-430a-a32c-228901d0f494][relation type definitions]].
+*** search over titles that include links
+    Order results by title length,
+    and if the title includes links,
+    show them, rather than showing the whole title as one link.
 ** smart diff traversal
    treating nodes as first class entities,
    able to jump easily from any [change involving a node] to any of its brethren in an equivalence class, where equivalence is modulo insertion or deletion, modulo link text and any other links present in the same node, and modulo appearance as base content, subscription or unsubscription.
