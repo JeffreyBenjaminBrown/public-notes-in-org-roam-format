@@ -21,6 +21,7 @@
 ** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
 * values, ideals
 ** [[id:8d624422-f901-4208-aaa7-bbbc6f1f5ba1][life]]
+** [[id:10f35302-f321-48ac-b3bb-cbc6647e7575][trust]]
 ** [[id:9afa2ad3-a0e0-46b0-93a4-00dc76ff25e1][adventure]]
 ** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
 ** [[id:5a5ae8a2-fd35-457f-bb36-4cad26c0454d][nature]]
@@ -39,6 +40,7 @@
 * [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]
 * [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]]
 * skills
+** [[id:10f35302-f321-48ac-b3bb-cbc6647e7575][trust]]
 ** [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
 ** [[id:40b049b7-ef2a-4eab-a9f8-07ee5841aa86][habit]]
 ** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]

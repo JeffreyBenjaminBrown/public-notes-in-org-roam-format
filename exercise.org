@@ -3,6 +3,10 @@
 :ROAM_ALIASES: "lifting weights" "weightlifting" "working out" "workouts" "fitness"
 :END:
 #+title: exercise
+* some leg routines, no equipment needed
+** https://www.facebook.com/share/r/1BXcdyx3ag/
+** https://www.facebook.com/share/r/1E9dCYqs68/
+** https://www.facebook.com/share/r/1512Gy4FWd/
 * [[id:dc63b8e2-f13a-4618-a591-6e65a17cc824][Fartleks]] are good.
 * maybe buy a [[id:79816c6a-92e4-4ef1-89b7-3db5e9b879f1][ring to work out hips]] at work
 * [[id:b24215c5-beab-427e-9ff1-8d92ea2d1159][mobility exercises]]

@@ -2,14 +2,14 @@
 :ID:       5c1dc0d8-b3a2-4dae-9c2d-7bda2d9789c0
 :END:
 #+title: dance
-* how to do it
+* methods
 ** Use momentum to save energy.
 ** Vary durations.
 ** Freeze sometimes.
 ** Vary the spotlit muscle.
 ** Match the duty cycle of a one muscle to a voice in the music.
    while others stay full duty
-* dancing in social context
-** [[id:7144052f-385b-4059-a86f-7c2851367bcc][Dance is a cheap date.]]
-** A cold club would be better.
-   I sweat.
+* some dances
+** a cool floaty dance
+   https://www.facebook.com/share/r/1DUuuiQ8mD/
+* [[id:d083cf2b-8860-4817-b8db-9205cf15de24][& private]]

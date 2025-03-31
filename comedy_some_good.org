@@ -7,6 +7,7 @@
 * Adam Ray
 * Alec Flynn
 * Aparna Nancherla
+* Atsuko Okatsuka
 * Bill Bailey
 * Bill Burr
 * Brian Posehn
@@ -28,6 +29,7 @@
 * Eva Evans
 * Francis Ellis
 * Franko Bonilla (Colombian) - https://www.youtube.com/@puracomediapapa
+* Gabby Bryan
 * Gabriel Rutledge
 * Gavin Matts
 * Greer Barnes
@@ -59,4 +61,5 @@
 * Ryan Goodcase
 * Ryan Long
 * Shane Gillis
+* Zak Toscani
 * Zoltan Kaszas

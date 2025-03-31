@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       98b506be-8548-43b1-bed8-2aa947a47c2c
+:END:
+#+title: demographics
+* [[id:a690aaee-78a6-4b07-8b62-3c60e27b2341][In 2025 62% of Americans identify as Christian.]]

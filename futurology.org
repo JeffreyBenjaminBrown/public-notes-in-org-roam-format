@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       151d4d55-acd6-4f8c-90f6-f7a219e0b04a
+:END:
+#+title: futurology
+* [[id:c9b9959d-5837-4e9b-803a-82abd6084987][AI and society]]
+* [[id:1666231e-31a2-48bd-97c0-8854166885f2][Later, humanity will be more absorbed into our robots as we are today in cell phones.]]

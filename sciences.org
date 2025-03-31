@@ -21,6 +21,7 @@
 * [[id:ddbe49f8-bc88-4bee-8404-87c79a5d1073][environmental sustainability]]
 * [[id:b0709556-766b-4fb1-b42d-7fa320dd387c][estimation]]
 * [[id:8fd004bd-338a-40a0-8634-b22dc7ee3765][finance]]
+* [[id:151d4d55-acd6-4f8c-90f6-f7a219e0b04a][futurology]]
 * [[id:c0650349-d298-4ede-bad2-704bb4f1296f][geography]]
 * [[id:323360a3-6047-4bcc-845f-9a7534234a63][geology]]
 * [[id:8cd7a9de-4652-4728-b57f-748e61cf94e7][health & medicine]]
@@ -44,5 +45,6 @@
 * [[id:3989a4db-9ec4-43c4-9123-dbc4ebea2378][pseudo-science]]
 * [[id:9b40c46b-bd16-4003-8a9e-763f5a7dbc22][psychology]]
 ** [[id:7c70d045-6b4f-4957-a524-cf4c63204c84][neurology]]
+* [[id:336572ab-f513-4051-b75d-2a307392e54b][religion]]
 * [[id:9619c955-6dbe-4001-ba8f-00421984aca3][systematization]]
 * [[id:b9f666f2-0035-42df-b674-86049697e9e0][war]], a.k.a. defense

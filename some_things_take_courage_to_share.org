@@ -5,7 +5,7 @@
 * instances
 ** feelings
 *** [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]
-*** [[id:05d467c3-fffd-457a-af5c-099f49b4b179][desperation]]
+*** [[id:05d467c3-fffd-457a-af5c-099f49b4b179][desperation]], maybe [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]] more generally
 *** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
 ** ? beliefs
 *** [[id:49583939-99f0-462a-8152-3aed9b0de39a][If you're embarrassed to share your beliefs, something is wrong.]]

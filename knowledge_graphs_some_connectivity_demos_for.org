@@ -5,3 +5,4 @@
 ~/hodal/docker-typedb-rust
 ~/hodal/typedb-via-rust
 ~/hodal/rust-server-to-emacs
+~/hodal/title-search

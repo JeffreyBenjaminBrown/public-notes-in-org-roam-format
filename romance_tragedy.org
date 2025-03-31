@@ -2,4 +2,5 @@
 :ID:       fc237236-d3ef-4c05-a169-2ab33d7e59a4
 :END:
 #+title: romance + tragedy
+* [[id:cfb978fb-1478-446e-9545-92a6fd17ac50][Beware encouragement of bad behavior.]]
 * [[id:b73e838b-17fb-4048-aacb-9d0f1fac3a9b][to appreciate someone without expressing it]]

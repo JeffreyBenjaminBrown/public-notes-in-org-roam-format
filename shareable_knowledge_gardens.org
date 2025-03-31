@@ -4,13 +4,14 @@
 #+title: shareable knowledge gardens
 = an app to build
 * Claim: Shared note-taking is not currently feasible.
+* Claim: Communicating diffs is helpful.
+  and this would do it automatically
 * [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][knowledge graphs, some connectivity demos for]]
-* path to program it
-  serial
-** demo Tantivy (search engine) for Rust
-   Rust-native
-   ChatGPT and Claude both recommend.
-   In second place both recommend Meilisearch.
+* TODO a path to program it
+   serial
+** DONE hand-code a title search engine
+   Tantivy, an excellent Rust library for that,
+   gave me problems.
 ** the simplest data model that permits Emacs interop
    Just flat org files.
    Won't even need to start with all fields --
@@ -263,6 +264,10 @@
      (The user could still explicitly place it in either view,
      and maybe give different or additional link text.)
 * fun to explain
+** Each note is a collection of notes.
+** Containment and linking are different.
+   A context is a note contained in no other note.
+   But a context, like any other note, can be linked to.
 ** public privacy and private privacy
    The user can insert a link to a private file anywhere, and the link might be public or not. When not, it is instead part of a corresponding file in their private repository, which refers to the public repository context that it modifies.
 * earlier work

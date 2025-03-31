@@ -2,14 +2,14 @@
 :ID:       b9775088-1bd9-490f-a062-c6cfd189b65d
 :ROAM_ALIASES: energy power force work
 :END:
-#+title: energy power force work
-* see also [[id:c17782b5-f070-418e-9e04-519f3c7f9a66][economics]]
+#+title: energy
 * [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
 * [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][balance]]
 * [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]] - includes some interesting ones
 * [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
 * [[id:1dc593e8-0313-4dfd-bc5d-cd7e53f9bfba][high performance (human)]]
 * [[id:a7f710b4-8981-4dec-8567-28a646da19ba][influence, social]]
+* ? [[id:c17782b5-f070-418e-9e04-519f3c7f9a66][economics]]
 * art about it
 ** [[id:37d29425-987b-45b9-b93f-97ab536f1259][Causally, power dictates feelings, but experientially, feelings precede economics.]]
 ** [[id:67833732-61f3-4d0b-a2db-25dae1daff2e][to channel each of one's atoms into an expression at some time]]

@@ -7,3 +7,4 @@
 * [[id:f41ebf0b-159e-467c-b772-8413864e21c5][Is VR associated with bradilalia? Asking academics.]]
 * [[id:90a3dbca-a755-42ab-9110-933971b5c94e][some convenient cognitive tests]]
 * [[id:c5c48790-ad82-4586-b955-9cc19cbd58cb][Neurologically, seeing resembles constrained dreaming.]]
+* [[id:b6ccadbc-e439-4815-8c90-c30f3fa9a2b8][There is backprop* in single biological neurons.]]

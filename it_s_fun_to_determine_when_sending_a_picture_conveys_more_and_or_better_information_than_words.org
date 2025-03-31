@@ -1,4 +1,6 @@
 :PROPERTIES:
 :ID:       84e77d86-2b69-4f18-a1e4-110d17026c16
 :END:
-#+title: It's fun to determine when sending a picture conveys more and/or better information (than words).
+#+title: Sometimes a picture is better.
+* It's fun to determine when*, and saves you time.
+  (*) when it conveys more or better information

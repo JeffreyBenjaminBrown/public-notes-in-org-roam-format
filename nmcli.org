@@ -2,8 +2,16 @@
 :ID:       536dfe54-2086-43e3-b87f-3f7cfd4283fd
 :END:
 #+title: nmcli
+* commands I'm using lately
+** connect
+   nmcli connection up "Jeff's Galaxy"
+   nmcli connection up WIFI_MOVILES_MINCIT
+   nmcli connection up MCIT-INVITADOS
+*** for more wifi connections
+    see /etc/NetworkManager/system-connections
+** others
+nmcli radio wifi on
+nmcli device set wlan0 managed yes # maybe change wlan0
 nmcli device wifi list
 nmcli device wifi rescan
-nmcli device wifi      \
-      connect "<SSID>" \
-      password "<password>"
+nmcli device wifi connect "SSID_NAME" password "PASSWORD"

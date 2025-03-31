@@ -3,3 +3,50 @@
 :END:
 #+title: Rust (programming language)
 * [[id:88f580b2-b7a3-478d-9894-dbafebd2fc9e][TypeDB via Rust]]
+* initialize a project
+** shell.nix
+*** PITFALL: Docker is easier
+**** elaboration
+     and some of my code is already
+     made to work in this image:
+     jeffreybbrown/hode:2025-03-13.rust-no-python
+**** why
+     Tantivy, for instance, I could not use in NixOS.
+*** how
+{ pkgs ? import <nixpkgs> {} }:
+
+pkgs.mkShell {
+  buildInputs = with pkgs; [
+    # Rust development
+    rustc
+    cargo
+    rustfmt
+    clippy
+
+    # Required for Tantivy
+    pkg-config
+    openssl
+    openssl.dev
+  ];
+
+  # Environment variables
+  shellHook = ''
+    export RUST_BACKTRACE=1
+    export PKG_CONFIG_PATH="${pkgs.openssl.dev}/lib/pkgconfig:$PKG_CONFIG_PATH"
+  '';
+}
+** cargo init --bin .
+** edit cargo.toml
+[dependencies]
+tantivy = "0.22"
+** cargo build
+** cargo run
+* to build or run something other than main
+  cargo {run, build} --bin executable-name
+  where executable-name is defined in a bin passage,
+  for instance
+#+BEGIN_SRC toml
+[[bin]] # more bin sections can be added
+name = "not-main"
+path = "not-main.rs"
+#+END_SRC

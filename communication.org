@@ -6,10 +6,10 @@
 * see also
 ** [[id:cbef2e05-df7f-4b7c-a1dc-5cb2166975d8][sharing]]
 ** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
-* [[id:84e77d86-2b69-4f18-a1e4-110d17026c16][It's fun to determine when sending a picture conveys more and/or better information (than words).]]
+* [[id:f8a1040d-ef6f-4819-9f96-421a06182502][etiquette, information processing optimization]]
 * [[id:de26311c-9b4b-48f4-afa1-c7a680f73b30][Don't beat around the bush.]]
 * [[id:0099068b-7ef0-4413-b3aa-18997353baa4][Neither overshare nor undershare.]]
+* [[id:90e8a304-8144-4cae-8f2a-cbe04e7f5e17][Complimenting seems hard.]]
 * [[id:3b8b9e73-2244-4e2f-a05c-ea6f5895b861][Communication contains musical responsibilities.]]
 * [[id:eebbe152-9051-4935-8ae2-294147fc7ab1][charitable interpretation and redundancy in language]]
 * [[id:366e649f-c492-4acc-99ae-dc552cd78f25][conversation techniques]]
-* [[id:90e8a304-8144-4cae-8f2a-cbe04e7f5e17][Complimenting seems hard.]]
