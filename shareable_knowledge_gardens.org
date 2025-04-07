@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       9c5619e5-81ad-4a67-9705-e4761bdd6839
+:ROAM_ALIASES: "skg" "SKG"
 :END:
 #+title: shareable knowledge gardens
 = an app to build
@@ -7,6 +8,11 @@
 * Claim: Communicating graph diffs is helpful.
   and this would do it automatically
 * [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][knowledge graphs, some connectivity demos for]]
+* TODO Not every headline should be searchable.
+  By default they should be,
+  but the user should be able to turn that off.
+* TODO The merge of two nodes should have both IDs.
+  This preserves backlink and subscription integrity.
 * TODO make export to org-roam easy too
   not just import from
 * TODO a path to program it
@@ -228,6 +234,8 @@
    They reveal the fact of their existence,
    but not what they unsubscribe to -- not even its repo.
 * do later
+** [[id:c679b07c-3bc5-46c4-aa76-bbdc0dd10464][fix backlinnks when merging]]
+** [[id:99ae154c-5dfc-4a95-9bdf-af09159c6da4][merges have subscription consequences]]
 ** nested links -- links in titles
 *** the idea
     This is like creating a single-use relation type.

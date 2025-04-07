@@ -2,6 +2,7 @@
 :ID:       adb6d4a3-e7db-4880-b757-67bbe4fb425a
 :END:
 #+title: features I want
+* [[id:c679b07c-3bc5-46c4-aa76-bbdc0dd10464][fix backlinnks when merging]]
 * lists and sets
 ** and maybe a generalization containing both
 ** [[id:b88b2b9c-b219-493b-a4a6-d3c709a6cb7b][this org-roam approximation of it]]

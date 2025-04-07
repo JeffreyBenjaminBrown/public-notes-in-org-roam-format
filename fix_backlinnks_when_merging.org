@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c679b07c-3bc5-46c4-aa76-bbdc0dd10464
+:END:
+#+title: fix backlinnks when merging
+when merging n into m,
+change all links to n into links to m
