@@ -17,7 +17,8 @@
 ** [[id:0650c92d-963b-4070-984f-4737e29a7f03][Brackets inside an org link seem to confuse GitHub.]]
 
 * TODO problems I could maybe fix
-** [[id:83997957-6b2f-4f18-9aa2-7f166109dce4][Search should not require knowing the first word.]]
+** use [[id:546150de-cba8-43c2-ad44-9fa9a27e1e94][orderless completion for the Emacs minibuffer]]
+*** [[id:83997957-6b2f-4f18-9aa2-7f166109dce4][Search should not require knowing the first word.]]
 ** [[id:0650c92d-963b-4070-984f-4737e29a7f03][Brackets inside an org link seem to confuse GitHub.]]
 * TODO projects
 ** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]

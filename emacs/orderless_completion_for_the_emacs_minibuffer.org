@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       546150de-cba8-43c2-ad44-9fa9a27e1e94
+:END:
+#+title: orderless completion for the Emacs minibuffer
+* who referred me
+  https://github.com/org-roam/org-roam/issues/2515#issuecomment-2763074111
+* the package
+  https://github.com/oantolin/orderless

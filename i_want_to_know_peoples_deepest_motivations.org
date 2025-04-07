@@ -2,5 +2,7 @@
 :ID:       5327d2ce-1764-4bef-8959-aa8b5c478575
 :END:
 #+title: I want to know peoples' deepest motivations.
-What people believe they are on this earth to do.
-Learn that about someone as fast as possible.
+* definition
+  What people believe they are on this earth to do.
+  Learn that about someone as fast as possible.
+* => Remember to ask!

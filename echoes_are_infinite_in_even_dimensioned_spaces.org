@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2401bd30-54f4-4b09-845a-ce624918922c
+:END:
+#+title: Echoes are infinite in even-dimensioned spaces.
+* pond ripples v. chirps
+Drop a rock into a pond,
+and without friction its surface would ripple forever.
+
+But chirp, and barring any important collisions,
+the sound only passes a listener once.

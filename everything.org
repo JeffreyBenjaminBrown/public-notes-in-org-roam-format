@@ -20,6 +20,7 @@
 ** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
 ** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
 * values, ideals
+** merge: [[id:0201e93c-bf0e-475c-9d03-be09f4c408b4][cognitive states|skills I want]]
 ** [[id:8d624422-f901-4208-aaa7-bbbc6f1f5ba1][life]]
 ** [[id:10f35302-f321-48ac-b3bb-cbc6647e7575][trust]]
 ** [[id:9afa2ad3-a0e0-46b0-93a4-00dc76ff25e1][adventure]]
@@ -40,6 +41,11 @@
 * [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]
 * [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]]
 * skills
+** something can be part skill, part not
+*** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
+** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
+** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]]
+** [[id:5c1dc0d8-b3a2-4dae-9c2d-7bda2d9789c0][dance]]
 ** [[id:10f35302-f321-48ac-b3bb-cbc6647e7575][trust]]
 ** [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
 ** [[id:40b049b7-ef2a-4eab-a9f8-07ee5841aa86][habit]]

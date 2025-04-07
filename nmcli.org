@@ -7,6 +7,7 @@
    nmcli connection up "Jeff's Galaxy"
    nmcli connection up WIFI_MOVILES_MINCIT
    nmcli connection up MCIT-INVITADOS
+   nmcli connection up CLARO-5669
 *** for more wifi connections
     see /etc/NetworkManager/system-connections
 ** others

@@ -33,7 +33,7 @@
 ** query the org-roam db with Rust
    so that it becomes extensible to TypeDB
 ** DONE talk to a Rust server from Emacs
-   ~/hodal/rust-server-to-emacs
+   ~/hodal/serve-rust-to-emacs
 * TODO problems
 ** I want to use a different language for most of the logic.
    Haskell if I won't extend using TypeDB.

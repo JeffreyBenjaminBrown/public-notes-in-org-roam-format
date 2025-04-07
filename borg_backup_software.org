@@ -40,6 +40,20 @@ If I run `borg key change-passphrase` and delete any compromised old copies of t
    then it can only be used by someone with the keys,
    and with the *passphrase to use those keys*.
 ** backup keys with `borg key export`
+* export BORG_PASSPHRASE
+  export BORG_PASSPHRASE=<insert password here>>
+  From a shell in which that is run,
+  borg will not need to prompt for a passphrase every time I run it.
+* borg mount - AWESOME for inspection
+  mkdir /tmp/borg # a destination folder, with ordinary permissions
+
+  borg mount "$borg_ssd"::2022-04-21.hp17 /tmp/borg
+
+  # Now look around.
+  Use du to check file sizes, just like it was a normal folder -- even though it has almost no data.
+
+  # unmount it
+  fusermount -u some-folder
 * how to test a copy of a borg repo
 ** the problem
    I copied the borg dir to a USB drive,
@@ -105,9 +119,40 @@ If I run `borg key change-passphrase` and delete any compromised old copies of t
 *** list all paths under path in archive
     borg list /path/to/borg/repo::archive-name /path/in/archive
 * borg recreate
+** idea
   Recreate a backup -- with, say, a different "exclude' pattern.
+** refs
   https://borgbackup.readthedocs.io/en/stable/usage/recreate.html#borg-recreate
+  https://github.com/borgbackup/borg/issues/2858
 ** example: exclude more files
-   borg recreate /home/jeff/borg-repo-ssd \
-     --exclude-from /home/jeff/excludefile
-   https://github.com/borgbackup/borg/issues/2858
+   :PROPERTIES:
+   :ID:       a723c225-dd11-4039-9224-a2dabc158022
+   :END:
+*** human-readable notes
+**** DONE: Recreated ~/borg-repo-ssd on <2025-03-31 Mon>
+**** NEXT: Do the same to the repo on the HDD.
+**** PITFALL: Copy it locally first.
+     Even locally it takes hours.
+**** PROBLEM: When moving the repo to a different disk,
+     I haven't been able to get past Borg's security checks.
+**** IDEA
+     edit /home/jeff/.cache/borg/43a56878b0607ac798dc2c85312111391736de70ab21d33c675569a1724cf643/config
+     I found the repo ID by running
+       borg config path-to-repo ID
+     Might also want to use
+       BORG_RELOCATED_REPO_ACCESS_IS_OK=yes
+     as suggested here:
+       https://github.com/borgbackup/borg/issues/1426
+*** scripting
+    borg_hdd=/home/jeff/borg-sandbox/borg-repo-hdd
+    export BORG_PASSPHRASE=[[Write password here.]]
+
+    for archive in $(borg list --short "$borg_hdd"); do
+      echo "Recreating $archive..."
+      borg recreate "$borg_hdd"::"$archive"                \
+	--exclude-from /home/jeff/bin/exclude-for-borg.txt \
+	--stats --verbose || break
+	# `|| break` stops the process if something fails
+    done
+    borg compact "$borg_hdd"
+    export BORG_PASSPHRASE=""

@@ -2,3 +2,7 @@
 :ID:       ff5f634a-f8fa-482c-95a7-6be10e55e58d
 :END:
 #+title: comic responsibility
+* elaboration
+  Don't miss a good opportunity for a joke.
+  Recognize when {someone, a situation} needs a joke.
+  Recognize when it would be better not to.

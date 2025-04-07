@@ -3,3 +3,4 @@
 :END:
 #+title: acoustics
 * [[id:8134adc0-af1c-407e-9909-a9f42ea4dedb][Hoots are efficient in a forest.]]
+* [[id:2401bd30-54f4-4b09-845a-ce624918922c][Echoes are infinite in even-dimensioned spaces.]]

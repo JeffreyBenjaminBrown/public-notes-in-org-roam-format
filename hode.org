@@ -2,7 +2,7 @@
 :ID:       d5a5a3ff-977a-405b-8660-264fb4e974a3
 :END:
 #+TITLE: Hode
-* TODO + see also
+* TODO related | sub-projects
   TODO : merge with
 ** [[id:9c5619e5-81ad-4a67-9705-e4761bdd6839][shareable knowledge gardens]]
 ** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]

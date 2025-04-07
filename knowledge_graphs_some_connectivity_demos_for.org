@@ -2,7 +2,11 @@
 :ID:       1f76cbed-d2c5-4522-89e2-1de946d5dc99
 :END:
 #+title: knowledge graphs, some connectivity demos for
-~/hodal/docker-typedb-rust
-~/hodal/typedb-via-rust
-~/hodal/rust-server-to-emacs
-~/hodal/title-search
+* ~/hodal/docker-typedb-rust
+  git@github.com:JeffreyBenjaminBrown/docker-typedb-rust.git
+* ~/hodal/typedb-via-rust
+  git@github.com:JeffreyBenjaminBrown/typedb-via-rust.git
+* ~/hodal/serve-rust-to-emacs
+  git@github.com:JeffreyBenjaminBrown/serve-rust-to-emacs.git
+* ~/hodal/title-search
+  git@github.com:JeffreyBenjaminBrown/title-search-via-rust.git

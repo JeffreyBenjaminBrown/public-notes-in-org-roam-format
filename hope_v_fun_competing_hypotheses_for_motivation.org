@@ -2,6 +2,8 @@
 :ID:       5599d39f-83c8-4d1f-bf31-304b761e0f69
 :END:
 #+title: hope v. fun : competing hypotheses for motivation
+* more definition
+  a game that's too hard isn't fun
 * Hope and fun blur together via time preference.
 ** illustration
    It's fun to rollerskate because you hope, and it'll probably be true, that pushing this way will make you go that.

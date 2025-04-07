@@ -3,22 +3,41 @@
 :END:
 #+title: shareable knowledge gardens
 = an app to build
-* Claim: Shared note-taking is not currently feasible.
-* Claim: Communicating diffs is helpful.
+* Claim: Shared note-taking is not yet feasible.
+* Claim: Communicating graph diffs is helpful.
   and this would do it automatically
 * [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][knowledge graphs, some connectivity demos for]]
+* TODO make export to org-roam easy too
+  not just import from
 * TODO a path to program it
    serial
 ** DONE hand-code a title search engine
    Tantivy, an excellent Rust library for that,
    gave me problems.
-** the simplest data model that permits Emacs interop
+*** Deal with links in titles.
+** DONE the simplest data model
    Just flat org files.
    Won't even need to start with all fields --
    with titles and contents, testing should work.
-** Import and index some org data.
-   Deal with links in titles.
-   Don't search a repo's .git folder.
+** ONGOING Import and index some org data.
+*** Is it reasonable to have Tantivy and TypeDB index?
+    Tantivy is good for text search.
+    Maybe TypeDB could hold that data too, but meh.
+*** DONE Should Tantivy index IDs, too?
+    I will need some index from IDs to path.
+    Might as well be TypeDB.
+*** TypeDB will track the rest of the data.
+    type :: Mandatory [ basenode, <more later> ]
+    id :: ID # mandatory
+    context :: ID # optional
+    comments on context :: Optional (of Unit type)
+    path :: Path # mandatory
+    contains :: <Relation>
+    subscribes to :: <Relation>
+*** ? Integrate :: Tantivy index , ?complete SKG format.
+*** a TypeDB index
+    see [[id:3b95b70c-8d77-45e3-8a75-1fcc80dd0b06][format]]
+*** Don't search a repo's .git folder.
 ** fetch a node (in its context) from Emacs
    Send the ID from Emacs.
    Build the buffer in Rust --
@@ -67,8 +86,11 @@
    Emacs seems best for buffer text.
    That text's properties can encode anything I need.
    All other logic, including types, should be in Rust.
-* MVEP : features and usage
-** format
+* features and usage
+** skg format
+   :PROPERTIES:
+   :ID:       3b95b70c-8d77-45e3-8a75-1fcc80dd0b06
+   :END:
 *** "hypertext" = text that can contain links
 *** "flat org with subscriptions and private commentary"
     :PROPERTIES:
@@ -85,7 +107,15 @@
       Each file either is a top-level context,
       or refers to one.
 ***** Optional indicator for if the file comments on its context.
-      If so, its comments are shown as a grandchild of what it comments on, mediated by the child "& private" (for private comments) or else "commentary by [author]".
+****** if node N comments on its context node, then N is shown as a second or later generation of the context
+       Perhaps as a grandchild,
+       mediated by the child "& private"
+       (for private comments) or else
+       "commentary by [author]".
+****** why
+       M is probably in a different repo --
+       either [this one is private and yours, and that one is public and yours],
+       or that one is not owned by who owns N.
 ***** A list of nodes with IDs and hypertext.
       This makes fine-grained unsubscription feasible.
 ***** [[id:9f6101cc-2eca-4f96-aea7-6f341034e592][subscription data]]
@@ -94,9 +124,13 @@
      :ID:       9f6101cc-2eca-4f96-aea7-6f341034e592
      :END:
 ***** Subscribed-to foreign nodes for every node.
-***** Unsubscribed-from nodes for every context (top) node.
-***** Incorporated nodes for every context (top) node.
-      In a context, "incorporated nodes" are foreign nodes in subscribed-to contexts which have been "placed" -- subscribed to, merged with -- in the domestic context. These are special because, like the unsubscribed-from nodes, they don't need to be shown in any view dedicated to foreign data.
+***** globally unsubscribed nodes
+      "Never show me those nodes, in any context."
+***** locally unsubscribed nodes
+      If N subscribes to S, and S contains T,
+      N can unsubscribe from T *as content of* S.
+      This is useful if T is subscribed to elsewhere.
+      In particular, if you see something of someone's that you like, but you want to put it somewhere else, this is how you do that.
 **** Use json to make it easily extensible to including org-style properties like aliases.
 **** feasible extensions
      :PROPERTIES:
@@ -135,6 +169,7 @@
    :PROPERTIES:
    :ID:       35e8d4f2-db4e-4dea-a005-7d33dfdc6e9b
    :END:
+*** if somone changes a title, be able to include that alternate title as another title
 *** [[id:9f6101cc-2eca-4f96-aea7-6f341034e592][data model]]
 *** display
     Subscriptions in a file are shown as its grandchildren,
@@ -155,6 +190,9 @@
 *** why
     They might delete it,
     so a reference to their work could break.
+*** use a different ID
+    This way the clonee can follow the cloner's work,
+    and vice-versa.
 ** search over title, author
 ** data import
 *** org-roam import seems one-way

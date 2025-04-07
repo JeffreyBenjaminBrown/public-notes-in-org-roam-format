@@ -1,10 +1,10 @@
 :PROPERTIES:
 :ID:       1e0eb0bc-1d40-4a78-9c81-dbcef73d005e
-:ROAM_ALIASES: spacetime
+:ROAM_ALIASES: time
 :END:
-#+title: time
+#+title: spacetime
 * [[id:36d2d810-4be1-4c0c-a979-bd756bf29220][consciousness]]
-* Time is inherent to so many concepts.
+* Time is inherent to practically [[id:dea50354-cdfe-47c8-8f15-043c70d66da0][everything]].
 ** [[id:f66f6227-f85a-431b-906e-15af2d356d7e][motivation + time]]
 * [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]
 * [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
@@ -12,7 +12,9 @@
 * [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]
 * [[id:575ab579-f773-49af-80e4-19569e36aa14][sports]]
 * [[id:512f112a-218b-4a0e-9be1-9786661b1968][imminence]]
+* [[id:e54b0669-aa26-45cf-a5fa-6bb41f871790][Time is time's initial/foundational conditions.]]
+* technical
+** [[id:2401bd30-54f4-4b09-845a-ce624918922c][Echoes are infinite in even-dimensioned spaces.]]
 * art about spacetime
 ** [[id:6f008b2d-17ed-4a0e-bc85-40ce8968c5e5][lost in time]]
 ** [[id:d66c723a-8c27-4163-89e9-9abefad9537f][spacetime probability flag painting as a sport]]
-* [[id:e54b0669-aa26-45cf-a5fa-6bb41f871790][Time is time's initial/foundational conditions.]]

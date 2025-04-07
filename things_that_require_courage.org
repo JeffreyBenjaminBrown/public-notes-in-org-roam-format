@@ -3,9 +3,6 @@
 :END:
 #+title: things that require courage
 * [[id:28e96d3a-9cf7-4151-bf43-e155a739d568][Be comfortable with rejection.]]
-  :PROPERTIES:
-  :ID:       0c8a234f-7f9a-4856-b64a-2c5c2ef724d7
-  :END:
 * [[id:4426dfa6-0b7b-4dd1-945b-ce7217687033][merely shifting attention]]
 * [[id:d0f40687-987b-4fa5-97ae-7d03315484d9][being still]]
 * [[id:ae8760d6-8320-46ba-8ed3-81b02e5fbcff][meditation]]

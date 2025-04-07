@@ -15,3 +15,5 @@
 *** recognize overlap, duplication automatically
     Don't permit duplication.
     Report overlap.
+* large uniform trees
+  Each tree having the same rules -- series like "content, linkers ...", and generalizations thereof.

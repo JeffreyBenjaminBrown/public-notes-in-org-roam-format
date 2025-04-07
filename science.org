@@ -7,3 +7,4 @@
 ** [[id:b9c7b7e6-9849-4a24-984d-b2e2e749d81a][methods and institutions for science and research]]
 * problems in science
 ** [[id:635cf3cc-8ccd-477a-b5dd-475b6230e2ab][Publication in science is too much work.]]
+* [[id:d779aeab-0662-4142-ae65-2ddbf3cef5c5][academia]]

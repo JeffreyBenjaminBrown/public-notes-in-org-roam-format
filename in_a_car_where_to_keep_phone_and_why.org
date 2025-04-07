@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       3e711fd4-5c2c-410e-b2bb-9873c82d8ef3
 :END:
-#+title: In a car, where to keep phone and why?
+#+title: In a car (service), where to keep phone and why?
 * Keep it on me, not in the door.
   If I'm going to revise the seat, then under my leg is safe.
 * I left it in the door once.

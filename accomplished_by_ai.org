@@ -3,5 +3,9 @@
 :ROAM_ALIASES: "things AI can do"
 :END:
 #+title: accomplished by AI
-* [[id:1dc02dc9-ec85-4f58-8348-0973579824ee][I used AI to help decide not to send a message.]]
-* [[id:10abf2b9-281b-4491-a839-c37c51282f8d][relationship advice]]
+* social skills
+  :PROPERTIES:
+  :ID:       370fc155-72ba-4394-b3cd-92186871ab29
+  :END:
+** [[id:1dc02dc9-ec85-4f58-8348-0973579824ee][I used AI to help decide not to send a message.]]
+** [[id:10abf2b9-281b-4491-a839-c37c51282f8d][relationship advice]]

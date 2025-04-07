@@ -2,5 +2,6 @@
 :ID:       83997957-6b2f-4f18-9aa2-7f166109dce4
 :END:
 #+title: Search should not require knowing the first word. \ org-roam
+* solution ? [[id:546150de-cba8-43c2-ad44-9fa9a27e1e94][orderless completion for the Emacs minibuffer]]
 * raised on Github
   https://github.com/org-roam/org-roam/issues/2515
