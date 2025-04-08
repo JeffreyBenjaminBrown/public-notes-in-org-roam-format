@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f739e243-936f-4d42-9675-2fa49a63f233
+:END:
+#+title: robotics
+* [[id:488ab5a4-620e-4617-859a-427342082a89][Monoculture is friendlier to automation.]]
+* [[id:35aac482-e906-456a-89db-48a54cb4f020][robots as a response to loneliness]]

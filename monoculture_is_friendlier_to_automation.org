@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       488ab5a4-620e-4617-859a-427342082a89
+:END:
+#+title: Monoculture is friendlier to automation.
+Harvesting a polyculture garden, for instance,
+is an unsolved problem in robotics.

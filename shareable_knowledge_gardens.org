@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       9c5619e5-81ad-4a67-9705-e4761bdd6839
-:ROAM_ALIASES: "skg" "SKG"
+:ROAM_ALIASES: "skg"
 :END:
 #+title: shareable knowledge gardens
 = an app to build

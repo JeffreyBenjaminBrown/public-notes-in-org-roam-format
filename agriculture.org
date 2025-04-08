@@ -2,4 +2,5 @@
 :ID:       4a5a8778-2f0d-4e7d-bb16-cabbe02cb03d
 :END:
 #+title: agriculture
+* [[id:488ab5a4-620e-4617-859a-427342082a89][Monoculture is friendlier to automation.]]
 * [[id:1db6ec66-b1ff-4c2f-8a1f-348c4d93b302][Humanity appears to have passed "peak agricultural land".]]

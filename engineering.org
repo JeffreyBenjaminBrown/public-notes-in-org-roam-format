@@ -2,6 +2,8 @@
 :ID:       9229a918-375c-4e1b-b775-bf5da596a371
 :END:
 #+title: engineering
+* [[id:f739e243-936f-4d42-9675-2fa49a63f233][robotics]]
+* [[id:627da2c2-2f34-46ac-a6d3-9c625c4ff31d][artificial intelligence]]
 * [[id:eddb757b-52df-4214-86e3-2fca4953e2be][shade balls and resevoirs]]
 * [[id:12364cd8-bc33-482b-84ca-0df360d428c3][a giant marble quarry]]
 * [[id:e1e6dbe9-dbcf-47ae-9ee3-da3d97461e6a][leveling]]
