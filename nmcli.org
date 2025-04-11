@@ -6,10 +6,13 @@
 ** connect
    nmcli connection up "Jeff's Galaxy"
    nmcli connection up WIFI_MOVILES_MINCIT
+     can ssh to github
    nmcli connection up MCIT-INVITADOS
    nmcli connection up CLARO-5669
 *** for more wifi connections
     see /etc/NetworkManager/system-connections
+** see what's connected
+   nmcli connection show --active
 ** others
 nmcli radio wifi on
 nmcli device set wlan0 managed yes # maybe change wlan0

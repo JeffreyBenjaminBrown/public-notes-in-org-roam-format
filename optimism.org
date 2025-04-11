@@ -3,11 +3,12 @@
 :END:
 #+title: optimism
 * see also [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
-* [[id:72411da2-cb37-4be4-9746-47758a336240][Be immediately fascinated by (lived) ethical challenges.]]
+* [[id:22b23bc3-4ca0-4683-a794-521661c55c56][why did these thoughts not even occur to me]] , personal
 * [[id:1896c1b6-11a5-4a10-a350-1713acbbd6c6][kindness in perception]]
 * [[id:352ecbf2-b8c1-45c7-992f-ba94f1fce185][comedy & optimism]]
 ** [[id:059f1add-e1e1-4124-bab6-5d270e0332e7][Creative hope is funny.]]
 * some optimistic art
 ** [[id:faeccdfe-a61f-4ac1-8bdd-70059de42e8b][Masterful chess in a plane some can't even see.]]
-* [[id:e9684dbd-465b-4dc6-af7a-7fc30eecfdf0][optimism + solution = transcendence]]
+* [[id:e9684dbd-465b-4dc6-af7a-7fc30eecfdf0][optimism + solution -> transcendence]]
 * [[id:b50ee198-3deb-4bbd-96b1-f670beb01082][highly disperse positive emotional gambles]]
+* [[id:72411da2-cb37-4be4-9746-47758a336240][Be immediately fascinated by (lived) ethical challenges.]]

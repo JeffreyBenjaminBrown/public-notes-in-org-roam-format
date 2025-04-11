@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       87d365fa-5581-4d30-a77c-b9f43b1736a3
+:END:
+#+title: longevity
+* It would be funny if it were [[id:2ecf9f86-4369-428f-b775-134eda3a1d1a][not something you get by trying]].

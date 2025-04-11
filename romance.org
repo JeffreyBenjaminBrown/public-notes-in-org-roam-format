@@ -2,6 +2,7 @@
 :ID:       d2faa803-4b32-4ada-b4ee-212d07b028a5
 :END:
 #+title: romance
+* TODO merge with [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
 * see also
 ** [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling a higher force]]
 ** [[id:9d700d59-a464-4741-b7a1-d952db174456][separation]]
@@ -23,3 +24,4 @@
 * [[id:fcc04ddf-843f-4953-b23c-b525a9d6d652][wholeness  fission  fusion  emptiness]]
 * art about it
 ** [[id:a6a2d6e5-0559-46cc-accc-aac52efcb918][Abstract genes would be cool.]]
+* [[id:89a7a71d-6a22-4431-a794-d89253e524a2][love & exclusion]]

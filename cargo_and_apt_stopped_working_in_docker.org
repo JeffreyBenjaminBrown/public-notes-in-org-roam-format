@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       b91d42ba-f87b-4bad-960b-2e1d467bee26
+:END:
+#+title: cargo and apt stopped working in Docker, could not connect
+* solution : just reboot my machine
+  That worked, anyway, on <2025-04-07 Mon>
+* strategies that worked
+I tried replacing http: with https: in ubuntu.sources:
+
+ sed -i 's|: http://|: https://|g' ubuntu.sources

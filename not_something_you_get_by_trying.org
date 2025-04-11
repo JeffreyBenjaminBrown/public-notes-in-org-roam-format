@@ -2,3 +2,5 @@
 :ID:       2ecf9f86-4369-428f-b775-134eda3a1d1a
 :END:
 #+title: Not something you get by trying.
+* [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
+* [[id:87d365fa-5581-4d30-a77c-b9f43b1736a3][longevity]]

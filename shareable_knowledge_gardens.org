@@ -8,6 +8,12 @@
 * Claim: Communicating graph diffs is helpful.
   and this would do it automatically
 * [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][knowledge graphs, some connectivity demos for]]
+* moving is like deletion
+  If a node is absent from a view,
+  the reason is one or the other.
+  If that were tracked, one could verify integrity.
+* TODO TypeDB must know about links
+  in both title and *body*
 * TODO Not every headline should be searchable.
   By default they should be,
   but the user should be able to turn that off.
@@ -26,13 +32,7 @@
    Won't even need to start with all fields --
    with titles and contents, testing should work.
 ** ONGOING Import and index some org data.
-*** Is it reasonable to have Tantivy and TypeDB index?
-    Tantivy is good for text search.
-    Maybe TypeDB could hold that data too, but meh.
-*** DONE Should Tantivy index IDs, too?
-    I will need some index from IDs to path.
-    Might as well be TypeDB.
-*** TypeDB will track the rest of the data.
+*** DONE TypeDB will track the rest of the data.
     type :: Mandatory [ basenode, <more later> ]
     id :: ID # mandatory
     context :: ID # optional

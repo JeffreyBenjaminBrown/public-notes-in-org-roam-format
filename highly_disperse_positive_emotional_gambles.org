@@ -2,6 +2,9 @@
 :ID:       b50ee198-3deb-4bbd-96b1-f670beb01082
 :END:
 #+title: highly disperse positive emotional gambles
+* Falling in love is like this.
+* if your gradient of maximum ascent wavered, crazy
+  even slightly, if in a big outcome space
 * if the kinds of happiness among the possible outcomes vary sufficiently widely, then
 ** some of them might be difficult to recognize or understand
 ** the potential for disappointment will be large, even if every option is good

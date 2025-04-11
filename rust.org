@@ -2,6 +2,8 @@
 :ID:       6c76685a-da5b-49e5-b3cd-fc7c552b6ca1
 :END:
 #+title: Rust (programming language)
+* u
+** solved: [[id:b91d42ba-f87b-4bad-960b-2e1d467bee26][cargo and apt stopped working in Docker, could not connect]]
 * [[id:88f580b2-b7a3-478d-9894-dbafebd2fc9e][TypeDB via Rust]]
 * initialize a project
 ** shell.nix
