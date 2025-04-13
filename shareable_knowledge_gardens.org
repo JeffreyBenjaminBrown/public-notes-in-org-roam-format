@@ -5,18 +5,11 @@
 #+title: shareable knowledge gardens
 = an app to build
 * Claim: Shared note-taking is not yet feasible.
-* Claim: Communicating graph diffs is helpful.
-  and this would do it automatically
 * [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][knowledge graphs, some connectivity demos for]]
 * moving is like deletion
   If a node is absent from a view,
   the reason is one or the other.
   If that were tracked, one could verify integrity.
-* TODO TypeDB must know about links
-  in both title and *body*
-* TODO Not every headline should be searchable.
-  By default they should be,
-  but the user should be able to turn that off.
 * TODO The merge of two nodes should have both IDs.
   This preserves backlink and subscription integrity.
 * TODO make export to org-roam easy too
@@ -31,24 +24,11 @@
    Just flat org files.
    Won't even need to start with all fields --
    with titles and contents, testing should work.
-** ONGOING Import and index some org data.
-*** DONE TypeDB will track the rest of the data.
-    type :: Mandatory [ basenode, <more later> ]
-    id :: ID # mandatory
-    context :: ID # optional
-    comments on context :: Optional (of Unit type)
-    path :: Path # mandatory
-    contains :: <Relation>
-    subscribes to :: <Relation>
-*** ? Integrate :: Tantivy index , ?complete SKG format.
-*** a TypeDB index
-    see [[id:3b95b70c-8d77-45e3-8a75-1fcc80dd0b06][format]]
-*** Don't search a repo's .git folder.
 ** fetch a node (in its context) from Emacs
-   Send the ID from Emacs.
-   Build the buffer in Rust --
-   a tree of headlines, with colors and hidden text.
-   Show it in Emacs.
+    Send the ID from Emacs.
+    Build the buffer in Rust --
+    a tree of headlines, with colors and hidden text.
+    Show it in Emacs.
 ** search for a title from Emacs
    Build a document of search results in Rust.
    Titles are visible, IDs are not.
@@ -87,6 +67,11 @@
    "show links|references to this node",
    including subscriptions, unsubscriptions.
    Make displaying link source repo optional.
+** implement merging
+   Links to the merged node will not need updating!
+   Add the smaller node's ID list into the larger one's,
+   join their unindexed text,
+   and join and uniquify all their lists.
 * architectural principles
 ** Avoid use complex data structures in Emacs.
    Emacs seems best for buffer text.
@@ -234,6 +219,11 @@
    They reveal the fact of their existence,
    but not what they unsubscribe to -- not even its repo.
 * do later
+** Don't search a repo's .git folder.
+** ? Integrate :: Tantivy index , ?complete SKG format.
+** Not every headline should be searchable.
+   By default they should be,
+   but the user should be able to turn that off.
 ** [[id:c679b07c-3bc5-46c4-aa76-bbdc0dd10464][fix backlinnks when merging]]
 ** [[id:99ae154c-5dfc-4a95-9bdf-af09159c6da4][merges have subscription consequences]]
 ** nested links -- links in titles
