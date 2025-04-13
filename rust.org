@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       6c76685a-da5b-49e5-b3cd-fc7c552b6ca1
+:ROAM_ALIASES: "cargo (Rust tool)" "rust (programming language)"
 :END:
 #+title: Rust (programming language)
 * u
