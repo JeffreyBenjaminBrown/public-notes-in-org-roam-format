@@ -6,212 +6,80 @@
 = an app to build
 * Claim: Shared note-taking is not yet feasible.
 * [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][knowledge graphs, some connectivity demos for]]
-* moving is like deletion
-  If a node is absent from a view,
-  the reason is one or the other.
-  If that were tracked, one could verify integrity.
-* TODO The merge of two nodes should have both IDs.
-  This preserves backlink and subscription integrity.
-* TODO make export to org-roam easy too
-  not just import from
-* TODO a path to program it
-   serial
-** DONE hand-code a title search engine
-   Tantivy, an excellent Rust library for that,
-   gave me problems.
-*** Deal with links in titles.
-** DONE the simplest data model
-   Just flat org files.
-   Won't even need to start with all fields --
-   with titles and contents, testing should work.
-** fetch a node (in its context) from Emacs
-    Send the ID from Emacs.
-    Build the buffer in Rust --
-    a tree of headlines, with colors and hidden text.
-    Show it in Emacs.
-** search for a title from Emacs
-   Build a document of search results in Rust.
-   Titles are visible, IDs are not.
-   The user can visit any of them.
-** edit a node from Emacs
-*** idea
-    Its hidden properties include ID and source file.
-    Editing it in Emacs changes its color to "changed, not saved".
-    Some command permits one to save all "changed, not saved" nodes in the context.
-*** make "flat-visiting" an edited file possible
-    If a parent loses children,
-    that's different from editing its title.
-    But using the same indicator for both is fine,
-    if the user can visit the edited file
-    to see what changed.
-    Show the file in read-only mode,
-    hiding its IDs just like in its context.
-    This makes the two easy to compare.
-** implement multiple repositories
-   Put a config file in the root folder.
-   Each repo is given a path relative to the root,
-   a color-background pair for its data
-   (which the user can use to make private data obvious),
-   and a name for who wrote it.
-   Red on green is reserved for system-provided text.
-** implement comment files
-   Private and public comment files are equivalent.
-   The only difference is that data from private repos
-   can be in a different color.
-   Each repo is color-configurable.
-   Comments on a file are shown as its grandchildren,
-   under a mediating child called "& by [author]".
-** implement [[id:35e8d4f2-db4e-4dea-a005-7d33dfdc6e9b][subscription]]
-** implement [[id:c03da915-2187-43a4-ace1-8d93438c967f][cloning]]
-** implement backward view
-   "show links|references to this node",
-   including subscriptions, unsubscriptions.
-   Make displaying link source repo optional.
-** implement merging
-   Links to the merged node will not need updating!
-   Add the smaller node's ID list into the larger one's,
-   join their unindexed text,
-   and join and uniquify all their lists.
-* architectural principles
-** Avoid use complex data structures in Emacs.
-   Emacs seems best for buffer text.
-   That text's properties can encode anything I need.
-   All other logic, including types, should be in Rust.
-* features and usage
-** skg format
-   :PROPERTIES:
-   :ID:       3b95b70c-8d77-45e3-8a75-1fcc80dd0b06
-   :END:
-*** "hypertext" = text that can contain links
-*** "flat org with subscriptions and private commentary"
-    :PROPERTIES:
-    :ID:       08d6887d-8a86-4906-8ab3-6d93217de0fd
-    :END:
-**** about the name
-     It's like org files, but each tree is represented as a collection of flat (only top-level headlines) org files.
-**** definition : fields
-***** format (is one of the fields)
-      In case I want to add more later.
-      Can be an integer referring to an enum file.
-***** Org-style text.
-***** Optional ID for its context.
-      Each file either is a top-level context,
-      or refers to one.
-***** Optional indicator for if the file comments on its context.
-****** if node N comments on its context node, then N is shown as a second or later generation of the context
-       Perhaps as a grandchild,
-       mediated by the child "& private"
-       (for private comments) or else
-       "commentary by [author]".
-****** why
-       M is probably in a different repo --
-       either [this one is private and yours, and that one is public and yours],
-       or that one is not owned by who owns N.
-***** A list of nodes with IDs and hypertext.
-      This makes fine-grained unsubscription feasible.
-***** [[id:9f6101cc-2eca-4f96-aea7-6f341034e592][subscription data]]
-**** subscription data
-     :PROPERTIES:
-     :ID:       9f6101cc-2eca-4f96-aea7-6f341034e592
-     :END:
-***** Subscribed-to foreign nodes for every node.
-***** globally unsubscribed nodes
-      "Never show me those nodes, in any context."
-***** locally unsubscribed nodes
-      If N subscribes to S, and S contains T,
-      N can unsubscribe from T *as content of* S.
-      This is useful if T is subscribed to elsewhere.
-      In particular, if you see something of someone's that you like, but you want to put it somewhere else, this is how you do that.
-**** Use json to make it easily extensible to including org-style properties like aliases.
-**** feasible extensions
-     :PROPERTIES:
-     :ID:       81d2fea0-f1b1-48a8-9934-5f09f5a5a3a0
-     :END:
-***** "default link text" field
-****** => default public name for links to a private note
-***** "search aliases" field
-***** lists, sets and relations.
-     If I want to later add lists, for instance,
-     the flat org files will be able to contain those,
-     and vice versa.
-     And it's easy to modify the search function --
-     by default it searches for
-     terms in titles and lists together,
-     but the user can narrow it to, e.g., just titles.
-**** obvious: fields
-***** f for format
-****** an integer referring to an extensible* enum file
-       extensible by those building the program
-***** cx for context, an optional ID
-***** tx for title, a string
-***** cn for content, an optional list
-      Optional because the text might be its own file
-      just for the sake of having an ID to link to.
-***** id for id, a string with requirements
-***** anything else goes but won't be read at MVP launch
-*** private commentary files refer to public files
-**** Initially, just make them lists.
-     Show all the private commentary as a child
-     "& private" of the commented-on node.
-     They should have more fields --
-     at least unsubscriptions.
-**** later make them [[id:38d2c92e-3ba0-46ca-bf32-756d59bea448][diffs]]
-** subscription
-   :PROPERTIES:
-   :ID:       35e8d4f2-db4e-4dea-a005-7d33dfdc6e9b
-   :END:
-*** if somone changes a title, be able to include that alternate title as another title
-*** [[id:9f6101cc-2eca-4f96-aea7-6f341034e592][data model]]
-*** display
-    Subscriptions in a file are shown as its grandchildren,
-    each reading "[note] by [author]",
-    under a mediating child that reads "subscriptions".
-*** [[id:79db50b5-4bfc-497c-8e19-10fc7f6e4ffd][Subscribed content is filtered.]]
-** cloning
-   :PROPERTIES:
-   :ID:       c03da915-2187-43a4-ace1-8d93438c967f
-   :END:
-*** how
-    If you like a branch of someone's thoughts,
-    clone the whole thing.
-    Each file in the clone is automatically subscribed
-    to the file it was cloned from
-    (each of which can be undone,
-    in the same fine-grained way as manual subscriptions).
-*** why
-    They might delete it,
-    so a reference to their work could break.
-*** use a different ID
-    This way the clonee can follow the cloner's work,
-    and vice-versa.
-** search over title, author
-** data import
-*** org-roam import seems one-way
-    I don't believe anything I express in org-roam cannot be expressed in it.
-*** smsn interchange could be two-way
-    There is a natural map in both directions.
-    Only from smsn into SKG would be 1-to-1 (lossless).
-** how to represent subscriptions
-   Subscription is like merging.
-   Making every node have an ID makes this easier.
-   Indicate for each node what foreign nodes it is subscribed to.
-   Indicate for each context what foreign nodes it has been unsubscribed from, and which have been incorporated into it. Unsubscribed-from nodes are never shown. Incorporated nodes are omitted from the view of foreign data because they now appear somewhere the user considers more appropriate.
-** how to show (and filter) foreign data
-   :PROPERTIES:
-   :ID:       79db50b5-4bfc-497c-8e19-10fc7f6e4ffd
-   :END:
-   Don't show foreign-made changes to foreign data. Too hard.
-   Instead just show their data as it stands, given your subscriptions and incorporations.
-   For any domestic node with subscriptions, show a "subscribed to" child. Its children are foreign files, and its grandchildren are their "filtered content". The filtered content exclude any nodes to which any other node in that context subscribes (because they should be shown there instead), and omits any unsubscribed-from nodes.
-   Incorporation, merging and subscription are all so far words for the same thing.
-** later ? [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][backlinks view]]
+* problems
+** [[id:83f4b23d-1f74-4dbb-9e22-2b121043362a][the two-nodes-with-the-same-ID problem]]
+** [[id:7350d543-80b9-4bdb-8ca6-7e1ebc689373][What about skipped org-bullet levels?]]
+** Anticipate a recursive containment relationship?
+   = What to do if one tries to view an infinite (therefore non-tree, with a containment cycle) file?
+** [[id:5eba18fb-8524-4073-b23c-b6fe5aa153f1][interactions between links, subscriptions and comments]]
+* tasks left
+** distinguish comments, subscriptions in .skg format
+** [[id:55919485-3477-485f-8174-c021f5f57708][a new subscription model]]
+** Emacs build an s-exp.
+** Rust act on an s-exp.
+*** [[id:e707ded7-ff36-41cf-8ae1-672ab78e30d4][saving should bring a new document from Rust]], invisibly
+*** complain about multiple containment
+    If any of the nodes received (even the root!)
+    is already contained in something in the graph,
+    complain.
+*** Orphaned content becomes uncontained, not deleted.
+** [[id:ab19097e-522f-4a88-ab9c-32b58fe38212][search for a title from Emacs]]
+** comment files
+*** when fetching a document, check whether each node has a comment
+    and if so, display that as a first subnode,
+    called "comments by: [author]"
+*** Enable editing, somewhat.
+    The title, "comments by: [author]" cannot be changed.
+    But the comments themselves can be.
+** metadata files for repos
+   giving a name for the author,
+   and a color for the data.
+   Call it skg-shared-knowledge-graph-metadata.toml,
+   so that it won't clobber someone else's file.
+** user-friendliness in Emacs
+*** [[id:48940ef8-f7fb-47bd-ab96-20f30eb2831b][skg's own copy/paste mechanisms]]
+*** visibly different bullets have addresses
+*** title, author
+*** make the buffer flatter
+**** elaboration
+     The title and, under it, metadata
+     should be a special first-level node,
+     first among its siblings.
+**** [[id:1f87487f-af4a-4a32-84eb-da742b0a3f2e][an org-branch can be read-only and foldable]]
+*** show number (and kind?) of upstream nodes
+    links
+    subscriptions, unsubscriptions
+*** show an I for "intermediating"
+    Describes the relationship between N's parent
+    and N's children, when it is not the standard one.
+** operations
+*** [[id:9301546a-f6d7-42ce-9034-8e3e0bc5536e][skg : merging two nodes]]
+*** "ignore" a node
+    If node N subscribes to node S,
+    any content-descendent of S can be ignored from N,
+    not just S's immediate (first generation of) content.
+    Or maybe just ignore globally.
+*** "incorporate" a node
+    This causes it to be ignored
+    from its initial subscriber,
+    but subscribed to somewhere else.
+*** subscribe to a node
+** a backward view
+*** should be through at least three relations
+    contains, subscribes, links to
+** import/export*
+*** export to org-roam
+    would make people more willing to try skg
+** persist TypeDB data
+   consider too how Tantivy data is persisted
+** make aware of git diff
 * non-obvious implied features
 ** Sharing and version control are independent.
    :PROPERTIES:
    :ID:       8faa302a-2a07-4cc9-8741-86a4e6b69f78
    :END:
    No need to look at diffs to think about sharing.
-** Children stored separately from position.
+** Child content stored separately from child position.
 ** Subscriptions can be public and private.
 ** Unsubscriptions could I think be public and private.
    The trick: In a public context the privately unsubscribed-from nodes should not show up.
@@ -219,12 +87,34 @@
    They reveal the fact of their existence,
    but not what they unsubscribe to -- not even its repo.
 * do later
+** automate the test of recursive_s_expression_from_node
+*** in tests/content_view.rs
+*** currently it prints to screen
+** graph constraints
+*** test each constraint of the schema
+    Some violations might not be representable in the .skg format.
+*** Can a file include multiple comments_on properties?
+    It shouldn't.
+*** `contains` should be acyclic
+    The TypeDB AI says I can use `distinct` instead,
+    but the docs on `distinct` don't suggest that's true.
+*** Ttest that all IDs are distinct in the repo.
+    maybe in Rust, not TypeDB
+** unify Tantivy and TypeDB indexation
+*** If `titles` were the first field in the .skg format
+    then the Tantivy indexing would need to read less
+** [[id:2608f577-ab0a-4df7-9eba-b6f3042abbde][Is this how to write cardinality constraints on roles?]]
+** later: track edit times for nodes on screen
+   :PROPERTIES:
+   :ID:       14321c6f-679e-406e-8076-cc58a8eaf9f1
+   :END:
+   Don't save a file if all of its (first-generation) content is older on screen than on disk.
+   When first put on screen, each headline should be given the age of the source file.
 ** Don't search a repo's .git folder.
 ** ? Integrate :: Tantivy index , ?complete SKG format.
 ** Not every headline should be searchable.
    By default they should be,
    but the user should be able to turn that off.
-** [[id:c679b07c-3bc5-46c4-aa76-bbdc0dd10464][fix backlinnks when merging]]
 ** [[id:99ae154c-5dfc-4a95-9bdf-af09159c6da4][merges have subscription consequences]]
 ** nested links -- links in titles
 *** the idea
@@ -259,6 +149,7 @@
 ** Permit people to share their subscriptions with each other.
 ** A public notes repo should be configurable to contain only one commit.
    If so, it is the latest of a corresponding private repo.
+** later ? [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][osc-gen style backlinks view]]
 ** "flat org diff" : for private lenses onto public [[id:08d6887d-8a86-4906-8ab3-6d93217de0fd][flat-org]] files
    :PROPERTIES:
    :ID:       38d2c92e-3ba0-46ca-bf32-756d59bea448
@@ -268,8 +159,6 @@
    If the first line of an FOD has no elder brother ID, it is listed before all the FO's content in the merged FOD-FO view.
    If any other line of an FOD has no elder brother ID, it is listed right after the preceding element of the FOD in the merged view.
    Any FOD line with an FO elder brother is listed right after the elder brother in the merged view.
-** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view]]
-** transclusion
 ** show foreign moves of incorporated=merged=subscribed-to nodes
    If they moved something but you merged it with something of your own, maybe don't show the move, because you already placed it and you're already tracking it.
 ** relationships and types thereof
@@ -306,6 +195,11 @@
    But a context, like any other note, can be linked to.
 ** public privacy and private privacy
    The user can insert a link to a private file anywhere, and the link might be public or not. When not, it is instead part of a corresponding file in their private repository, which refers to the public repository context that it modifies.
+* architectural principles
+** Avoid complex data structures in Emacs.
+   Emacs seems best for buffer text.
+   That text's properties can encode anything I need.
+   All other logic, including types, should be in Rust.
 * earlier work
 ** subscription model, I think needlessly complex
    You can subscribe any node in your graph to any node(s) in another's. Upon doing so you can then decide how to merge them, associating context-descendents in your context with ones in context(s) of theirs, and unsubscribing to branches not of interest (in your context).
@@ -341,3 +235,4 @@
       are the relationships involving it.
 **** The view of a recursive note must transclude.
 **** Lists and sets can be shown on one line or across multiple.
+*** [[id:60ac4c5c-fca6-4943-86ee-8f8f9011eaa6][skg : cloning seems unnecessary]]
