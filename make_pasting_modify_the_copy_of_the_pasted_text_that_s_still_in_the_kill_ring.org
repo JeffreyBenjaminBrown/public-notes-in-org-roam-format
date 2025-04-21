@@ -1,0 +1,56 @@
+:PROPERTIES:
+:ID:       0b6321e4-d215-489c-8cd6-067baf9eb1ce
+:END:
+#+title: Make pasting modify the copy of the pasted text that's still in the kill ring.
+* change the `id` property to `voided-id`
+  This way if someone gets confused,
+  they can find that property,
+  and then find the bullet that's using that ID.
+* why
+  That way I could paste it first with IDs,
+  then strip the IDs from the copy of it in the kill ring.
+* It looks possible.
+** Q
+In Emacs, if I cut a string using (say) C-w, it goes to the kill-ring, yes? And if I then paste it (C-y), a copy of it stays in the kill-ring, yes?
+
+In the minor mode (extension of org-mode) that I'm making, I would like pasting it to affect the copy of it that's still in the kill ring. Specifically, if the text I copied had an "id" property, then when I paste it, it should retain that property, but should lose it in the kill-ring, such that if I later paste the same string, it will not have an ID.
+
+Is this possible?
+** A, Claude
+(defun my-org-mode-yank-advice (orig-fun &rest args)
+  "Advice to run before `yank` that handles ID properties in pasted text.
+After pasting text with an ID property, removes that property from the kill-ring."
+  ;; Call the original yank function
+  (apply orig-fun args)
+
+  ;; Check if the yanked text had an ID property
+  (let* ((start (mark t))
+         (end (point))
+         (id-prop (when start (get-text-property start 'id))))
+
+    ;; If we found an ID property in the yanked text
+    (when id-prop
+      ;; Get current kill-ring entry (what we just yanked)
+      (let* ((last-yank (car kill-ring))
+             ;; Create a copy without the ID property
+             (modified-yank (copy-sequence last-yank)))
+
+        ;; Remove the ID property from the copy
+        (remove-text-properties 0 (length modified-yank) '(id nil) modified-yank)
+
+        ;; Replace the entry in the kill-ring
+        (setcar kill-ring modified-yank)))))
+
+(define-minor-mode my-org-extension-mode
+  "Minor mode extending org-mode with special ID handling."
+  :lighter " MyOrg"
+  (if my-org-extension-mode
+      ;; Enable the mode
+      (advice-add 'yank :around #'my-org-mode-yank-advice)
+    ;; Disable the mode
+    (advice-remove 'yank #'my-org-mode-yank-advice)))
+* how I would modify the suggestion
+  It assumes we only ever yank the last thing in the kill-ring.
+  But yanking with a prefix argument yanks older entries.
+  One approach would be to think about those prefix arguments.
+  An easier one would be to strip the "id" property from everything in the kill ring -- but only if that "id" value is equal to the "id" of the yanked text.

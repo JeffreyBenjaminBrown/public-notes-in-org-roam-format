@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       48940ef8-f7fb-47bd-ab96-20f30eb2831b
+:END:
+#+title: skg's own copy/paste mechanisms
+alternatives
+* I prefer
+** [[id:0b6321e4-d215-489c-8cd6-067baf9eb1ce][Make pasting modify the copy of the pasted text that's still in the kill ring.]]
+* but there's also
+** ordinary copy/paste omits bullets; special one doesn't, but copies to a nonstandard buffer
+*** permitted actions
+**** ordinary cut/copy/paste : omits bullet (not link) IDs
+     Omit IDs from cut portions so that they can't be
+     pasted multiple times, which would cause invalid state.
+**** prepend [link to here] to link queue
+**** paste from link queue
+     This need not remove the link from the queue.
+**** cut selection, prepending to node queue
+**** paste selection from node queue
+*** why one cannot copy a headline with its ID
+    Doing so would not make sense -- the ID corresponds
+    to a single unique place in the graph.
+    To have two copies of it would mean to have
+    the same node in two different relatinoship states --
+    states relative to the rest of the graph.

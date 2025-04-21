@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       83f4b23d-1f74-4dbb-9e22-2b121043362a
+:END:
+#+title: the two-nodes-with-the-same-ID problem
+* why it arises
+  The user will be free to cut and then paste twice.
+* TODO a solution : [[id:48940ef8-f7fb-47bd-ab96-20f30eb2831b][skg's own copy/paste mechanisms]]
+* worse solutions
+** a solution : use a (ID, container's ID) pair
+*** elaboration
+    The content of node N would be a property not of an ID, but an (ID of N, ID of container of N) pair. That is, the same node could have different content, depending on where it is.
+*** an advantage: This way duplicate IDs are not invalid.
+*** complication: (ID, container's ID) is ambiguous if the container contains two copies of the same node
+    This could be solved with a third identifier, that node's position relative to the copies of it among its container's contents.
+** a solution : confront the user about duplicates
+   If the duplicate node has non-containment relationships,
+   one instance of it will need to be chosen as the (say)
+   linked-to or commented-on node.
+   For each of the others one can choose
+   whether to duplicate only the text,
+   or to be a link to the original.

@@ -1,0 +1,51 @@
+:PROPERTIES:
+:ID:       2608f577-ab0a-4df7-9eba-b6f3042abbde
+:END:
+#+title: Is this how to write cardinality constraints on roles in TypeDB?
+i.e. is this diff a good idea
+* why I thought that
+Somewhere in the docs it seemed to indicate that if you want to indicate that an entity can, for a certain kind of role, play that role in only one relationship, you attach that information to the entity definition, not the relationship definition. (But I haven't thought of anything else that one could possibly mean by attaching it to the relationship definition, if not to apply that rule to all entities that can play the role.)
+* the diff
+jeff 2025-04-18 12:03:14 ~/hodal/skg$ git --no-pager diff
+diff --git a/schema.tql b/schema.tql
+index f4eb5ed..66b043d 100644
+--- a/schema.tql
++++ b/schema.tql
+@@ -7,10 +7,10 @@ define
+     owns id @key,
+     owns path @unique,
+     plays contains:container,
+-    plays contains:contained,
++    plays contains:contained @card(1..1),
+     plays links_to:source,
+     plays links_to:dest,
+-    plays comments_on:commenter,
++    plays comments_on:commenter @card(1..1),
+     plays comments_on:commentee,
+     plays subscribes:subscriber,
+     plays subscribes:subscribee,
+@@ -21,20 +21,20 @@ define
+   entity extra_id,
+     # A typical node only has one id, its primary key. But when nodes are merged, `extra_id` is used to associate more than one id with the merge result. The naming is a little awkward, because an `extra_id` is not itself an `id`; rather, it has an `id` field.
+     owns id @key,
+-    plays has_extra_id:extra_id;
++    plays has_extra_id:extra_id @card(0..1);
+
+   relation has_extra_id,
+     relates node,
+-    relates extra_id @card(1..1);
++    relates extra_id;
+
+   relation contains,
+     relates container,
+-    relates contained @card(1..1);
++    relates contained;
+   relation links_to,
+     relates source,
+     relates dest;
+   relation comments_on,
+-    relates commenter @card(1..1),
++    relates commenter,
+     relates commentee;
+   relation subscribes,
+     relates subscriber,

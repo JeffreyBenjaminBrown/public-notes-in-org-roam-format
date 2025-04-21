@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       7350d543-80b9-4bdb-8ca6-7e1ebc689373
+:END:
+#+title: skg : What about skipped org-bullet levels?
+I do this in my own notes.
+They will probably need to be represented as if
+they had been promoted to the highest level possible.
+They could have "FIRST" prepended to the top headline.

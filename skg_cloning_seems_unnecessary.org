@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       60ac4c5c-fca6-4943-86ee-8f8f9011eaa6
+:END:
+#+title: skg : cloning seems unnecessary
+* definition
+** cloning involves recursive subscription
+   One can clone someone else's docuemnt, or part of it.
+   Suppose one clones D.
+   This creates a node D' in one's graph, subscribed to D,
+   whose initial contents are clones of the contents of D.
+* two differences between cloning and mere subscription
+** it's recursive
+** a clone has initial contents; a pure subscriber does not
+* TODO How do cloning and links interact?
+  If author A links in document D from N to M (also in D),
+  and author A' clones D to D',
+  should the clone M' of M link to N, or to its clone N'?
+* TODO How to cloning and comments interact?

@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       5eba18fb-8524-4073-b23c-b6fe5aa153f1
+:END:
+#+title: skg : interactions between links, subscriptions and comments
+* subscriptions and links
+  A node N somewhere in a subscribed-to document
+  might have a link L that points to destination D.
+  If N is incorporated into the user's own graph,
+  L will by default remain unchanged.
+  But if the user has any node D' that subscribes to D,
+  that fact will be visible when they visit D,
+  and they can replace any link to D with one to D'.
+
+  There might be multiple nodes in their graph
+  that subscribe to D.
+  All should be equally viable
+  as replacement destinations in links to D.
+* subscriptions and comments
+** Comments work on both sides of a subscription.
+   If node N in graph G subscribes to node S in graph H,
+   both N and S can have comments attached.
+   Even if all of S's content is incorporated into G,
+   N is still subscribed to S,
+   so the comment will still be visible there.
+   Comments on some content descendent C of S,
+   once C has been incorporated into G,
+   will be visible not from S,
+   but from wherever it was incorporated.
+** A subscribed-to node can be visited outright.
+   That is, rather than through one's subscription to it.
+   From this view, all comments are visible,
+   as well as content ignored by one's subscription(s).
+* comments and links : no interesting interactions
+  You can link to your stuff, or someone else's,
+  be it an ordinary node or a comment.
+  Links are created in text, in the title or the body.
+  You can comment on things with or without links.

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e707ded7-ff36-41cf-8ae1-672ab78e30d4
+:END:
+#+title: saving should send from Emacs to Rust, and then Rust should return a new document
+* why
+  After saving, bullets that had no ID now have one.
+* how
+  Rust would assign IDs to new headlines that lack them.
+  Rust will need to know what lines are unfolded, and where point is, in order to restore that state.
