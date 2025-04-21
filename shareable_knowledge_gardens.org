@@ -6,15 +6,27 @@
 = an app to build
 * Claim: Shared note-taking is not yet feasible.
 * [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][knowledge graphs, some connectivity demos for]]
+* promoting (duplicates)
+** [[id:170e4f79-4f5e-49a6-9ce1-8e42c0332100][the meaning of sharing in a knowledge graph]]
 * problems
+** private lenses onto your public notes
+   would be just like subscriptions.
+   Could even be a private lens onto a public subscription.
+** [[id:170e4f79-4f5e-49a6-9ce1-8e42c0332100][the meaning of sharing in a knowledge graph]]
 ** [[id:83f4b23d-1f74-4dbb-9e22-2b121043362a][the two-nodes-with-the-same-ID problem]]
 ** [[id:7350d543-80b9-4bdb-8ca6-7e1ebc689373][What about skipped org-bullet levels?]]
 ** Anticipate a recursive containment relationship?
    = What to do if one tries to view an infinite (therefore non-tree, with a containment cycle) file?
 ** [[id:5eba18fb-8524-4073-b23c-b6fe5aa153f1][interactions between links, subscriptions and comments]]
 * tasks left
-** distinguish comments, subscriptions in .skg format
-** [[id:55919485-3477-485f-8174-c021f5f57708][a new subscription model]]
+** introduce the "replaces view of" relationship
+** a user config file
+*** include for each repo
+    Path to repo.
+    Author-repo shorthand.
+    Owned by user (bool).
+    Color.
+    Privacy level (for filtering, later).
 ** Emacs build an s-exp.
 ** Rust act on an s-exp.
 *** [[id:e707ded7-ff36-41cf-8ae1-672ab78e30d4][saving should bring a new document from Rust]], invisibly
@@ -31,11 +43,6 @@
 *** Enable editing, somewhat.
     The title, "comments by: [author]" cannot be changed.
     But the comments themselves can be.
-** metadata files for repos
-   giving a name for the author,
-   and a color for the data.
-   Call it skg-shared-knowledge-graph-metadata.toml,
-   so that it won't clobber someone else's file.
 ** user-friendliness in Emacs
 *** [[id:48940ef8-f7fb-47bd-ab96-20f30eb2831b][skg's own copy/paste mechanisms]]
 *** visibly different bullets have addresses
@@ -49,7 +56,7 @@
 *** show number (and kind?) of upstream nodes
     links
     subscriptions, unsubscriptions
-*** show an I for "intermediating"
+*** show an "I" for "intermediating"
     Describes the relationship between N's parent
     and N's children, when it is not the standard one.
 ** operations
@@ -73,6 +80,9 @@
 ** persist TypeDB data
    consider too how Tantivy data is persisted
 ** make aware of git diff
+*** track the last-read commit
+    When you read someone's note, you can tell your subscription "I am up to date on this", and it stores the commit that applied when you said that. The next time you look at it, if it has been updated, it uses the diff between the earlier version and the latest to show what's changed.
+*** be able to construct a whole document from either commit
 * non-obvious implied features
 ** Sharing and version control are independent.
    :PROPERTIES:
@@ -86,10 +96,11 @@
 ** Public subscriptions to private nodes reveal almost nothing.
    They reveal the fact of their existence,
    but not what they unsubscribe to -- not even its repo.
-* do later
+* cleaning
 ** automate the test of recursive_s_expression_from_node
 *** in tests/content_view.rs
 *** currently it prints to screen
+* do later
 ** graph constraints
 *** test each constraint of the schema
     Some violations might not be representable in the .skg format.

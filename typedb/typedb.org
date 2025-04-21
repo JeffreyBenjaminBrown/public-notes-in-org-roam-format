@@ -3,6 +3,8 @@
 :ROAM_ALIASES: "Vaticle makes TypeDB"
 :END:
 #+title: TypeDB
+* TODO ask TypeDB forum
+** [[id:2608f577-ab0a-4df7-9eba-b6f3042abbde][Is this how I should write cardinality constraints on roles?]]
 * [[id:88f580b2-b7a3-478d-9894-dbafebd2fc9e][TypeDB via Rust]]
 * TODO RESUME | unread
 ** reviewing my notes

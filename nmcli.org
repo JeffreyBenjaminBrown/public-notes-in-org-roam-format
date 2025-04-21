@@ -14,7 +14,7 @@
 ** see what's connected
    nmcli connection show --active
 ** others
-nmcli radio wifi on
+nmcli radio wifi on # or off
 nmcli device set wlan0 managed yes # maybe change wlan0
 nmcli device wifi list
 nmcli device wifi rescan
