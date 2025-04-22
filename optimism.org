@@ -2,9 +2,9 @@
 :ID:       8d5c9418-f228-4595-b423-05acd9921b10
 :END:
 #+title: optimism
-* see also [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 * [[id:22b23bc3-4ca0-4683-a794-521661c55c56][why did these thoughts not even occur to me]] , personal
-* [[id:1896c1b6-11a5-4a10-a350-1713acbbd6c6][kindness in perception]]
+* [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
+** [[id:1896c1b6-11a5-4a10-a350-1713acbbd6c6][kindness in perception]]
 * [[id:352ecbf2-b8c1-45c7-992f-ba94f1fce185][comedy & optimism]]
 ** [[id:059f1add-e1e1-4124-bab6-5d270e0332e7][Creative hope is funny.]]
 * some optimistic art

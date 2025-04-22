@@ -7,9 +7,26 @@
 *** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
 ** [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]
 ** [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
+* [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information , about]]
 * [[id:ce2d269b-5029-435e-abf7-d33a984ca8cc][phenomena | conditions]] ,, experiential
-* [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][energy]] | power | force | work
-** [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]s, some interesting
+  :PROPERTIES:
+  :ID:       ce2d269b-5029-435e-abf7-d33a984ca8cc
+  :ROAM_ALIASES: "phenomena" "conditions" "experiential :: penomena, conditions"
+  :END:
+** A phenomenon need have no predictive power.
+   examples
+*** [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
+** instances
+*** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]] | laughter
+*** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
+*** [[id:5c1dc0d8-b3a2-4dae-9c2d-7bda2d9789c0][dance]]
+*** [[id:5a5ae8a2-fd35-457f-bb36-4cad26c0454d][nature]]
+*** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
+*** [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep]]
+*** [[id:7ea32dd5-3ad2-4de1-851b-a3a8d7f88711][uncertainty | ignorance]]
+*** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
+*** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][energy]] | power | force | work
+**** [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]s, some interesting
 * problematic
 ** [[id:cd9b2ff2-52b5-437d-882d-a625c360dd3f][& personal]]
 ** [[id:cc103b68-6b43-483f-88a7-e724fdf853b7][fascism]]

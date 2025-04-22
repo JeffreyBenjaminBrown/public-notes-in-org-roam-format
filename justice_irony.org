@@ -3,3 +3,4 @@
 :END:
 #+title: justice & irony
 * [[id:c7dba9db-c335-45e0-ba71-198460a3a3da][self-sacrifice]]
+* [[id:c3a62ad1-d09d-4e79-8547-af725870e380][a justice for the destitute]]

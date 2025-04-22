@@ -1,16 +1,1 @@
-:PROPERTIES:
-:ID:       ce2d269b-5029-435e-abf7-d33a984ca8cc
-:ROAM_ALIASES: "phenomena" "conditions"
-:END:
 #+title: experiential :: phenomena | conditions
-* A phenomenon need have no predictive power.
-  examples
-** [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
-* [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]] | laughter
-* [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
-* [[id:5c1dc0d8-b3a2-4dae-9c2d-7bda2d9789c0][dance]]
-* [[id:5a5ae8a2-fd35-457f-bb36-4cad26c0454d][nature]]
-* [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
-* [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep]]
-* [[id:7ea32dd5-3ad2-4de1-851b-a3a8d7f88711][uncertainty | ignorance]]
-* [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]

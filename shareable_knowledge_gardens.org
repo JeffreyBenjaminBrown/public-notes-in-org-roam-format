@@ -4,11 +4,15 @@
 :END:
 #+title: shareable knowledge gardens
 = an app to build
+* refs
+** the code on github
+   https://github.com/JeffreyBenjaminBrown/skg
 * Claim: Shared note-taking is not yet feasible.
 * [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][knowledge graphs, some connectivity demos for]]
 * promoting (duplicates)
 ** [[id:170e4f79-4f5e-49a6-9ce1-8e42c0332100][the meaning of sharing in a knowledge graph]]
 * problems
+** must understand what edits will be allowed from Emacs before I can specify what Rust sends
 ** private lenses onto your public notes
    would be just like subscriptions.
    Could even be a private lens onto a public subscription.

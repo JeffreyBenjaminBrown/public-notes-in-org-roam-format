@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       7e2dcbef-0109-4366-b5cb-1de892768996
+:END:
+#+title: In what space would genes embed, if both were voluntary lenses?
+* what I meant
+  if both space and genes were voluntary lenses
+* alternative meanings also possibly cool
+  If two genes were?
+  If genes and embedding were?
+  If space and embedding were?
+* generalizations of voluntary lens
+  voluntary lens
+  property of some {logic, universe}
+* generalizations of the whole statement
+** To what extent would genes be visible in a single universe grown from multiple minds?
+   In this case a gene mind be a {many-to-one function, weighted bipartite graph} from traits in the minds to traits of the universe.

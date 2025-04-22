@@ -16,6 +16,7 @@
 * Cam Bertrand
 * Chad Daniels
 * Cory Rodríguez
+* Craig P Conant
 * Dan Soder
 * Daniel Simonsen
 * Daniel Sloss
