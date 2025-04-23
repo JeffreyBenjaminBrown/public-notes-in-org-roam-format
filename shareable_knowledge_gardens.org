@@ -2,12 +2,12 @@
 :ID:       9c5619e5-81ad-4a67-9705-e4761bdd6839
 :ROAM_ALIASES: "skg"
 :END:
-#+title: shareable knowledge gardens
-= an app to build
-* refs
-** the code on github
-   https://github.com/JeffreyBenjaminBrown/skg
+#+title: shareable knowledge gardens (skg)
+* = an app being built here
+  https://github.com/JeffreyBenjaminBrown/skg
+** The README there might be the best introduction to skg.
 * Claim: Shared note-taking is not yet feasible.
+* What would it take to make this interesting enough for others to want to code it with me?
 * [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][knowledge graphs, some connectivity demos for]]
 * promoting (duplicates)
 ** [[id:170e4f79-4f5e-49a6-9ce1-8e42c0332100][the meaning of sharing in a knowledge graph]]
@@ -23,7 +23,6 @@
    = What to do if one tries to view an infinite (therefore non-tree, with a containment cycle) file?
 ** [[id:5eba18fb-8524-4073-b23c-b6fe5aa153f1][interactions between links, subscriptions and comments]]
 * tasks left
-** introduce the "replaces view of" relationship
 ** a user config file
 *** include for each repo
     Path to repo.
@@ -31,38 +30,31 @@
     Owned by user (bool).
     Color.
     Privacy level (for filtering, later).
-** Emacs build an s-exp.
-** Rust act on an s-exp.
+** Emacs build an s-exp for Rust.
+** Rust acts on the s-exp from Emacs.
 *** [[id:e707ded7-ff36-41cf-8ae1-672ab78e30d4][saving should bring a new document from Rust]], invisibly
-*** complain about multiple containment
-    If any of the nodes received (even the root!)
-    is already contained in something in the graph,
-    complain.
 *** Orphaned content becomes uncontained, not deleted.
 ** [[id:ab19097e-522f-4a88-ab9c-32b58fe38212][search for a title from Emacs]]
-** comment files
-*** when fetching a document, check whether each node has a comment
-    and if so, display that as a first subnode,
-    called "comments by: [author]"
-*** Enable editing, somewhat.
-    The title, "comments by: [author]" cannot be changed.
-    But the comments themselves can be.
-** user-friendliness in Emacs
-*** [[id:48940ef8-f7fb-47bd-ab96-20f30eb2831b][skg's own copy/paste mechanisms]]
-*** visibly different bullets have addresses
-*** title, author
-*** make the buffer flatter
-**** elaboration
-     The title and, under it, metadata
-     should be a special first-level node,
-     first among its siblings.
-**** [[id:1f87487f-af4a-4a32-84eb-da742b0a3f2e][an org-branch can be read-only and foldable]]
-*** show number (and kind?) of upstream nodes
-    links
-    subscriptions, unsubscriptions
-*** show an "I" for "intermediating"
-    Describes the relationship between N's parent
-    and N's children, when it is not the standard one.
+** visibly different bullets have addresses
+** show title, author; unfold for metadata
+** make the buffer flatter
+*** elaboration
+    The title and, under it, metadata
+    should be a special first-level node,
+    first among its siblings.
+*** [[id:1f87487f-af4a-4a32-84eb-da742b0a3f2e][an org-branch can be read-only and foldable]]
+** complain about multiple containment on save
+   If any of the nodes received (even the root!)
+   is already contained in something in the graph,
+   complain.
+*** first make it difficult, maybe impossible
+** [[id:48940ef8-f7fb-47bd-ab96-20f30eb2831b][skg's own copy/paste mechanisms]]
+** show number (and kind?) of upstream nodes
+   links
+   subscriptions, unsubscriptions
+** show an "I" for "intermediating"
+   Describes the relationship between N's parent
+   and N's children, when it is not the standard one.
 ** operations
 *** [[id:9301546a-f6d7-42ce-9034-8e3e0bc5536e][skg : merging two nodes]]
 *** "ignore" a node
@@ -87,6 +79,25 @@
 *** track the last-read commit
     When you read someone's note, you can tell your subscription "I am up to date on this", and it stores the commit that applied when you said that. The next time you look at it, if it has been updated, it uses the diff between the earlier version and the latest to show what's changed.
 *** be able to construct a whole document from either commit
+** views to navigate a diff of someone's graph
+   at two different commits
+*** from the high level: a list of all involved nodes,
+    probably with statistics for each:
+    new, deleted, moved
+    change in in-link, out-link counts
+    change in content volume
+*** from the perspeective of a node that in both commits
+ it is every node that changed
+ {new, moved there, moved away, deleted}.
+ Deleted things can be seen the way they were.
+ Moved things can be seen in both ways.
+ New things just have an indicator that they are new.
+*** from the perspective of a new node
+    it should show which of its contents are new,
+    and which were brought in.
+*** from the perspective of a deleted node
+    we should see its former contents,
+    and have access to what became of them
 * non-obvious implied features
 ** Sharing and version control are independent.
    :PROPERTIES:
@@ -105,6 +116,16 @@
 *** in tests/content_view.rs
 *** currently it prints to screen
 * do later
+** ? comment files
+*** why not
+    Subscription lenses seem to make it unnecessary.
+*** how
+**** when fetching a document, check whether each node has a comment
+     and if so, display that as a first subnode,
+     called "comments by: [author]"
+**** Enable editing, somewhat.
+     The title, "comments by: [author]" cannot be changed.
+     But the comments themselves can be.
 ** graph constraints
 *** test each constraint of the schema
     Some violations might not be representable in the .skg format.

@@ -66,24 +66,5 @@
    To incorporate a branch B of foreign content C
    is to link to it,
    and maybe to ignore it when in the context of C.
-* views to navigate a diff of someone's graph
-  at two different commits
-** from the high level: a list of all involved nodes,
-   probably with statistics for each:
-   new, deleted, moved
-   change in in-link, out-link counts
-   change in content volume
-** from the perspeective of a node that in both commits
-it is every node that changed
-{new, moved there, moved away, deleted}.
-Deleted things can be seen the way they were.
-Moved things can be seen in both ways.
-New things just have an indicator that they are new.
-** from the perspective of a new node
-   it should show which of its contents are new,
-   and which were brought in.
-** from the perspective of a deleted node
-   we should see its former contents,
-   and have access to what became of them
 * views to relate your graph to another's
   Unnecessary?
