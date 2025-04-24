@@ -28,213 +28,213 @@
    = What to do if one tries to view an infinite (therefore non-tree, with a containment cycle) file?
 ** [[id:5eba18fb-8524-4073-b23c-b6fe5aa153f1][interactions between links, subscriptions and comments]]
 * tasks left
-* to replace org-roam (in my own usage)
-** Have Emacs build an s-exp for Rust.
-** Have Rust act on the s-exp from Emacs.
-*** [[id:e707ded7-ff36-41cf-8ae1-672ab78e30d4][saving should bring a new document from Rust]], invisibly
-*** Orphaned content becomes uncontained, not deleted.
-** [[id:ab19097e-522f-4a88-ab9c-32b58fe38212][search for a title from Emacs]]
-** persist TypeDB data
-   consider too how Tantivy data is persisted
-** import/export*
-*** export to org-roam
-    would make people more willing to try skg
-** indicators
-*** bullets with addresses look different
-*** show number (and kind?) of upstream nodes
-    links
-    subscriptions, unsubscriptions
-*** show an "I" for "intermediating"
-    Describes the relationship between N's parent
-    and N's children, when it is not the standard one.
-** [[id:48940ef8-f7fb-47bd-ab96-20f30eb2831b][skg's own copy/paste mechanisms]]
-** BLK_DATE complain about multiple containment on save
-*** the idea
-    If any of the nodes received (even the root!)
-    is already contained in something in the graph,
-    complain.
-*** first [[id:48940ef8-f7fb-47bd-ab96-20f30eb2831b][make it difficult, maybe impossible]]
-q** a backward view
-*** should be through at least three relations
-    contains, subscribes, links to
-* for sharing & privacy
-** a user config file
-*** include for each repo
-    Path to repo.
-    Author-repo shorthand.
-    Owned by user (bool).
-    Color.
-    Privacy level (for filtering, later).
-** [[id:858cfdcd-1d7a-4707-a5dc-837c7c13e2d4][fetching a skg document (with sharing)]]
-** saving (with sharing)
-   Emacs's s-exp for Rust should elicit
-   appropriate changes regarding foreign nodes.
-** operations on nodes
-*** [[id:9301546a-f6d7-42ce-9034-8e3e0bc5536e][merging two nodes]]
-*** "ignore" a node
-**** what it means
-    If node N subscribes to node S,
-    any content-descendent of S can be ignored from N,
-    not just S's immediate (first generation of) content.
-    Or maybe just ignore globally.
-**** when it happens
-     When the user deletes from or moves from
-     foreign content.
-*** "incorporate" a node
-**** what it means
-    This causes it to be ignored
-    from its initial subscriber,
-    but subscribed to somewhere else.
-**** when it happens
-     When foreign node F contains G,
-     and G is moved.
-*** subscribe to a node
-**** when it happens
-     Invisibly, when someone modifies a foreign node.
-     Explicitly, when someone adds a subscription.
-** metadata, flatter buffer
-*** elaboration
-    The title and, under it, metadata (author, ...)
-    should be a special first-level node,
-    first among its siblings.
-*** [[id:1f87487f-af4a-4a32-84eb-da742b0a3f2e][an org-branch can be read-only and foldable]]
-* diffs
-** make aware of git diff
-*** track the last-read commit
-    When you read someone's note, you can tell your subscription "I am up to date on this", and it stores the commit that applied when you said that. The next time you look at it, if it has been updated, it uses the diff between the earlier version and the latest to show what's changed.
-*** be able to construct a whole document from either commit
-** views to navigate a diff of someone's graph
-   at two different commits
-*** from the high level: a list of all involved nodes,
-    probably with statistics for each:
-    new, deleted, moved
-    change in in-link, out-link counts
-    change in content volume
-*** from the perspeective of a node that in both commits
- it is every node that changed
- {new, moved there, moved away, deleted}.
- Deleted things can be seen the way they were.
- Moved things can be seen in both ways.
- New things just have an indicator that they are new.
-*** from the perspective of a new node
-    it should show which of its contents are new,
-    and which were brought in.
-*** from the perspective of a deleted node
-    we should see its former contents,
-    and have access to what became of them
-* do later
-** ? comment files
-*** why not
-    Subscription lenses seem to make it unnecessary.
-*** how
-**** when fetching a document, check whether each node has a comment
-     and if so, display that as a first subnode,
-     called "comments by: [author]"
-**** Enable editing, somewhat.
-     The title, "comments by: [author]" cannot be changed.
-     But the comments themselves can be.
-** graph constraints
-*** test each constraint of the schema
-    Some violations might not be representable in the .skg format.
-*** Can a file include multiple comments_on properties?
-    It shouldn't.
-*** `contains` should be acyclic
-    The TypeDB AI says I can use `distinct` instead,
-    but the docs on `distinct` don't suggest that's true.
-*** Ttest that all IDs are distinct in the repo.
-    maybe in Rust, not TypeDB
-** unify Tantivy and TypeDB indexation
-*** If `titles` were the first field in the .skg format
-    then the Tantivy indexing would need to read less
-** [[id:2608f577-ab0a-4df7-9eba-b6f3042abbde][Is this how to write cardinality constraints on roles?]]
-** later: track edit times for nodes on screen
-   :PROPERTIES:
-   :ID:       14321c6f-679e-406e-8076-cc58a8eaf9f1
-   :END:
-   Don't save a file if all of its (first-generation) content is older on screen than on disk.
-   When first put on screen, each headline should be given the age of the source file.
-** Don't search a repo's .git folder.
-** ? Integrate :: Tantivy index , ?complete SKG format.
-** Not every headline should be searchable.
-   By default they should be,
-   but the user should be able to turn that off.
-** [[id:99ae154c-5dfc-4a95-9bdf-af09159c6da4][merges have subscription consequences]]
-** nested links -- links in titles
-*** the idea
-    This is like creating a single-use relation type.
-    Just like relatinoships with permanent types,
-    this is useful because it automatically creates links
-    to the items referenced in the title,
-    rather than requiring the user to do that.
-*** a representation: wrap all links in brackets
+** to replace org-roam (in my own usage)
+*** Have Emacs build an s-exp for Rust.
+*** Have Rust act on the s-exp from Emacs.
+**** [[id:e707ded7-ff36-41cf-8ae1-672ab78e30d4][saving should bring a new document from Rust]], invisibly
+**** Orphaned content becomes uncontained, not deleted.
+*** [[id:ab19097e-522f-4a88-ab9c-32b58fe38212][search for a title from Emacs]]
+*** persist TypeDB data
+    consider too how Tantivy data is persisted
+*** import/export*
+**** export to org-roam
+     would make people more willing to try skg
+*** indicators
+**** bullets with addresses look different
+**** show number (and kind?) of upstream nodes
+     links
+     subscriptions, unsubscriptions
+**** show an "I" for "intermediating"
+     Describes the relationship between N's parent
+     and N's children, when it is not the standard one.
+*** [[id:48940ef8-f7fb-47bd-ab96-20f30eb2831b][skg's own copy/paste mechanisms]]
+*** BLK_DATE complain about multiple containment on save
+**** the idea
+     If any of the nodes received (even the root!)
+     is already contained in something in the graph,
+     complain.
+**** first [[id:48940ef8-f7fb-47bd-ab96-20f30eb2831b][make it difficult, maybe impossible]]
+ q** a backward view
+**** should be through at least three relations
+     contains, subscribes, links to
+** for sharing & privacy
+*** a user config file
+**** include for each repo
+     Path to repo.
+     Author-repo shorthand.
+     Owned by user (bool).
+     Color.
+     Privacy level (for filtering, later).
+*** [[id:858cfdcd-1d7a-4707-a5dc-837c7c13e2d4][fetching a skg document (with sharing)]]
+*** saving (with sharing)
+    Emacs's s-exp for Rust should elicit
+    appropriate changes regarding foreign nodes.
+*** operations on nodes
+**** [[id:9301546a-f6d7-42ce-9034-8e3e0bc5536e][merging two nodes]]
+**** "ignore" a node
+***** what it means
+     If node N subscribes to node S,
+     any content-descendent of S can be ignored from N,
+     not just S's immediate (first generation of) content.
+     Or maybe just ignore globally.
+***** when it happens
+      When the user deletes from or moves from
+      foreign content.
+**** "incorporate" a node
+***** what it means
+     This causes it to be ignored
+     from its initial subscriber,
+     but subscribed to somewhere else.
+***** when it happens
+      When foreign node F contains G,
+      and G is moved.
+**** subscribe to a node
+***** when it happens
+      Invisibly, when someone modifies a foreign node.
+      Explicitly, when someone adds a subscription.
+*** metadata, flatter buffer
+**** elaboration
+     The title and, under it, metadata (author, ...)
+     should be a special first-level node,
+     first among its siblings.
+**** [[id:1f87487f-af4a-4a32-84eb-da742b0a3f2e][an org-branch can be read-only and foldable]]
+** diffs
+*** make aware of git diff
+**** track the last-read commit
+     When you read someone's note, you can tell your subscription "I am up to date on this", and it stores the commit that applied when you said that. The next time you look at it, if it has been updated, it uses the diff between the earlier version and the latest to show what's changed.
+**** be able to construct a whole document from either commit
+*** views to navigate a diff of someone's graph
+    at two different commits
+**** from the high level: a list of all involved nodes,
+     probably with statistics for each:
+     new, deleted, moved
+     change in in-link, out-link counts
+     change in content volume
+**** from the perspeective of a node that in both commits
+  it is every node that changed
+  {new, moved there, moved away, deleted}.
+  Deleted things can be seen the way they were.
+  Moved things can be seen in both ways.
+  New things just have an indicator that they are new.
+**** from the perspective of a new node
+     it should show which of its contents are new,
+     and which were brought in.
+**** from the perspective of a deleted node
+     we should see its former contents,
+     and have access to what became of them
+** do later
+*** ? comment files
+**** why not
+     Subscription lenses seem to make it unnecessary.
+**** how
+***** when fetching a document, check whether each node has a comment
+      and if so, display that as a first subnode,
+      called "comments by: [author]"
+***** Enable editing, somewhat.
+      The title, "comments by: [author]" cannot be changed.
+      But the comments themselves can be.
+*** graph constraints
+**** test each constraint of the schema
+     Some violations might not be representable in the .skg format.
+**** Can a file include multiple comments_on properties?
+     It shouldn't.
+**** `contains` should be acyclic
+     The TypeDB AI says I can use `distinct` instead,
+     but the docs on `distinct` don't suggest that's true.
+**** Ttest that all IDs are distinct in the repo.
+     maybe in Rust, not TypeDB
+*** unify Tantivy and TypeDB indexation
+**** If `titles` were the first field in the .skg format
+     then the Tantivy indexing would need to read less
+*** [[id:2608f577-ab0a-4df7-9eba-b6f3042abbde][Is this how to write cardinality constraints on roles?]]
+*** later: track edit times for nodes on screen
     :PROPERTIES:
-    :ID:       91606c6f-0b09-4cb1-b4fe-81ca72a3f6ce
+    :ID:       14321c6f-679e-406e-8076-cc58a8eaf9f1
     :END:
-**** example
-***** for          titles with links
-      [humility] engenders [peace]
-***** for links to titles with links
-      [[humility] engenders [peace]]
-**** problem: It might be confusing that brackets are also used to indicate member types in [[id:cfa775eb-9107-430a-a32c-228901d0f494][relation type definitions]].
-*** search over titles that include links
-    Order results by title length,
-    and if the title includes links,
-    show them, rather than showing the whole title as one link.
-** smart diff traversal
-   treating nodes as first class entities,
-   able to jump easily from any [change involving a node] to any of its brethren in an equivalence class, where equivalence is modulo insertion or deletion, modulo link text and any other links present in the same node, and modulo appearance as base content, subscription or unsubscription.
-** smart diff view
-   Transclude to see all insertions and deletions in a context.
-** [[id:81d2fea0-f1b1-48a8-9934-5f09f5a5a3a0][extend the file format]]
-** report references to a user's data
-   The app should make it easy to see where
-   a foreign repo refers to yours.
-** Permit people to share their subscriptions with each other.
-** A public notes repo should be configurable to contain only one commit.
-   If so, it is the latest of a corresponding private repo.
-** later ? [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][osc-gen style backlinks view]]
-** "flat org diff" : for private lenses onto public [[id:08d6887d-8a86-4906-8ab3-6d93217de0fd][flat-org]] files
-   :PROPERTIES:
-   :ID:       38d2c92e-3ba0-46ca-bf32-756d59bea448
-   :END:
-   Each FOD file corresponds to an FO file.
-   Each line of an FOD can have an "elder brother" ID, its own ID, and hypertext content.
-   If the first line of an FOD has no elder brother ID, it is listed before all the FO's content in the merged FOD-FO view.
-   If any other line of an FOD has no elder brother ID, it is listed right after the preceding element of the FOD in the merged view.
-   Any FOD line with an FO elder brother is listed right after the elder brother in the merged view.
-** show foreign moves of incorporated=merged=subscribed-to nodes
-   If they moved something but you merged it with something of your own, maybe don't show the move, because you already placed it and you're already tracking it.
-** relationships and types thereof
-*** relationship type
-**** fields
-***** address
-***** definition
-      :PROPERTIES:
-      :ID:       cfa775eb-9107-430a-a32c-228901d0f494
-      :END:
-      "[agent] knows [agent]", "_ needs _", etc.
-****** Can be typed or not.
-****** This should probably define the default name
-       but the relation can have aliases.
-***** other data, like an orgish file
-**** problem: It might be confusing that brackets are also [[id:91606c6f-0b09-4cb1-b4fe-81ca72a3f6ce][used to indicate links]].
-*** relationship
-**** fields
-     address
-     relations type address
-     members
-**** problem: permits invalid type
-     The relation type must correspond to the number of members.
-**** justification
-     If you create a relationship involving x and y,
-     it automatically becomes visible from x and y,
-     rather than requiring the user to visit them and link to it.
-     (The user could still explicitly place it in either view,
-     and maybe give different or additional link text.)
-* cleaning
-** automate the test of recursive_s_expression_from_node
-*** in tests/content_view.rs
-*** currently it prints to screen
+    Don't save a file if all of its (first-generation) content is older on screen than on disk.
+    When first put on screen, each headline should be given the age of the source file.
+*** Don't search a repo's .git folder.
+*** ? Integrate :: Tantivy index , ?complete SKG format.
+*** Not every headline should be searchable.
+    By default they should be,
+    but the user should be able to turn that off.
+*** [[id:99ae154c-5dfc-4a95-9bdf-af09159c6da4][merges have subscription consequences]]
+*** nested links -- links in titles
+**** the idea
+     This is like creating a single-use relation type.
+     Just like relatinoships with permanent types,
+     this is useful because it automatically creates links
+     to the items referenced in the title,
+     rather than requiring the user to do that.
+**** a representation: wrap all links in brackets
+     :PROPERTIES:
+     :ID:       91606c6f-0b09-4cb1-b4fe-81ca72a3f6ce
+     :END:
+***** example
+****** for          titles with links
+       [humility] engenders [peace]
+****** for links to titles with links
+       [[humility] engenders [peace]]
+***** problem: It might be confusing that brackets are also used to indicate member types in [[id:cfa775eb-9107-430a-a32c-228901d0f494][relation type definitions]].
+**** search over titles that include links
+     Order results by title length,
+     and if the title includes links,
+     show them, rather than showing the whole title as one link.
+*** smart diff traversal
+    treating nodes as first class entities,
+    able to jump easily from any [change involving a node] to any of its brethren in an equivalence class, where equivalence is modulo insertion or deletion, modulo link text and any other links present in the same node, and modulo appearance as base content, subscription or unsubscription.
+*** smart diff view
+    Transclude to see all insertions and deletions in a context.
+*** [[id:81d2fea0-f1b1-48a8-9934-5f09f5a5a3a0][extend the file format]]
+*** report references to a user's data
+    The app should make it easy to see where
+    a foreign repo refers to yours.
+*** Permit people to share their subscriptions with each other.
+*** A public notes repo should be configurable to contain only one commit.
+    If so, it is the latest of a corresponding private repo.
+*** later ? [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][osc-gen style backlinks view]]
+*** "flat org diff" : for private lenses onto public [[id:08d6887d-8a86-4906-8ab3-6d93217de0fd][flat-org]] files
+    :PROPERTIES:
+    :ID:       38d2c92e-3ba0-46ca-bf32-756d59bea448
+    :END:
+    Each FOD file corresponds to an FO file.
+    Each line of an FOD can have an "elder brother" ID, its own ID, and hypertext content.
+    If the first line of an FOD has no elder brother ID, it is listed before all the FO's content in the merged FOD-FO view.
+    If any other line of an FOD has no elder brother ID, it is listed right after the preceding element of the FOD in the merged view.
+    Any FOD line with an FO elder brother is listed right after the elder brother in the merged view.
+*** show foreign moves of incorporated=merged=subscribed-to nodes
+    If they moved something but you merged it with something of your own, maybe don't show the move, because you already placed it and you're already tracking it.
+*** relationships and types thereof
+**** relationship type
+***** fields
+****** address
+****** definition
+       :PROPERTIES:
+       :ID:       cfa775eb-9107-430a-a32c-228901d0f494
+       :END:
+       "[agent] knows [agent]", "_ needs _", etc.
+******* Can be typed or not.
+******* This should probably define the default name
+        but the relation can have aliases.
+****** other data, like an orgish file
+***** problem: It might be confusing that brackets are also [[id:91606c6f-0b09-4cb1-b4fe-81ca72a3f6ce][used to indicate links]].
+**** relationship
+***** fields
+      address
+      relations type address
+      members
+***** problem: permits invalid type
+      The relation type must correspond to the number of members.
+***** justification
+      If you create a relationship involving x and y,
+      it automatically becomes visible from x and y,
+      rather than requiring the user to visit them and link to it.
+      (The user could still explicitly place it in either view,
+      and maybe give different or additional link text.)
+** cleaning
+*** automate the test of recursive_s_expression_from_node
+**** in tests/content_view.rs
+**** currently it prints to screen
 * non-obvious implied features
 ** Sharing and version control are independent.
    :PROPERTIES:
