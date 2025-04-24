@@ -5,7 +5,7 @@
 * translate the s-exp into a Vector<OrgBranch>
   Maybe ID
   headline
-  unindexed_text
+  body
   list of org-branches
 * Rust modifies the filetree.
 ** PITFALL: work rootward
@@ -16,7 +16,7 @@
    update the file. Otherwise don't touch it
    (to avoid updating its timestamp).
 ** new files
-   If anything was missing a bullet, give it an ID.
+   If any heading was missing an ID, give it one.
    Create it in the filetree.
    Update its ID in the Vector<OrgBranch>.
 * Keep a list of files modified and added.

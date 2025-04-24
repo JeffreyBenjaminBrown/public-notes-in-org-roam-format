@@ -10,12 +10,13 @@
 *** The README there might be the best introduction to skg.
 ** [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][connectivity demos]] for knowledge graphs
 * Motivation: Shared note-taking is not yet feasible.
-* TODO Rush to [[id:3b01c240-8eae-41df-acac-e9a870adc4a3][where I can use it for my own data]].
-** that seems better than this
-*** What would it take to make this interesting enough for others to want to code it with me?
-* TODO Anticipate getting architecturally stuck.
-  For instance, if I implement fetch and save without sharing,
-  will it be hard to introduce sharing?
+* TODO conceptual
+** Rush to [[id:3b01c240-8eae-41df-acac-e9a870adc4a3][where I can use it for my own data]].
+*** that seems better than this
+**** Rush to make this interesting enough for others to want to code it with me.
+** Anticipate getting architecturally stuck.
+   For instance, if I implement fetch and save without sharing,
+   will it be hard to introduce sharing?
 * problems
 ** must understand what edits will be allowed from Emacs before I can specify what Rust sends
 ** private lenses onto your public notes
@@ -27,7 +28,7 @@
 ** Anticipate a recursive containment relationship?
    = What to do if one tries to view an infinite (therefore non-tree, with a containment cycle) file?
 ** [[id:5eba18fb-8524-4073-b23c-b6fe5aa153f1][interactions between links, subscriptions and comments]]
-* tasks left
+* TODO tasks left
 ** to replace org-roam (in my own usage)
    :PROPERTIES:
    :ID:       3b01c240-8eae-41df-acac-e9a870adc4a3
