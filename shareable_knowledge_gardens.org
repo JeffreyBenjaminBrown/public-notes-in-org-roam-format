@@ -3,16 +3,19 @@
 :ROAM_ALIASES: "skg"
 :END:
 #+title: shareable knowledge gardens (skg)
-* = an app being built here
-  https://github.com/JeffreyBenjaminBrown/skg
-** The README there might be the best introduction to skg.
-* Claim: Shared note-taking is not yet feasible.
+= an app I am building
+* refs
+** on Github
+   https://github.com/JeffreyBenjaminBrown/skg
+*** The README there might be the best introduction to skg.
+* Motivation: Shared note-taking is not yet feasible.
 * TODO Rush to where I can use it for my own data.
 ** that seems better than this
 *** What would it take to make this interesting enough for others to want to code it with me?
+* TODO Anticipate getting architecturally stuck.
+  For instance, if I implement fetch and save without sharing,
+  will it be hard to introduce sharing?
 * [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][knowledge graphs, some connectivity demos for]]
-* promoting (duplicates)
-** [[id:170e4f79-4f5e-49a6-9ce1-8e42c0332100][the meaning of sharing in a knowledge graph]]
 * problems
 ** must understand what edits will be allowed from Emacs before I can specify what Rust sends
 ** private lenses onto your public notes
@@ -25,20 +28,25 @@
    = What to do if one tries to view an infinite (therefore non-tree, with a containment cycle) file?
 ** [[id:5eba18fb-8524-4073-b23c-b6fe5aa153f1][interactions between links, subscriptions and comments]]
 * tasks left
-* to replace org-roam (in my usage)
-** Emacs build an s-exp for Rust.
-** Rust acts on the s-exp from Emacs.
+* to replace org-roam (in my own usage)
+** Have Emacs build an s-exp for Rust.
+** Have Rust act on the s-exp from Emacs.
 *** [[id:e707ded7-ff36-41cf-8ae1-672ab78e30d4][saving should bring a new document from Rust]], invisibly
 *** Orphaned content becomes uncontained, not deleted.
 ** [[id:ab19097e-522f-4a88-ab9c-32b58fe38212][search for a title from Emacs]]
+** persist TypeDB data
+   consider too how Tantivy data is persisted
+** import/export*
+*** export to org-roam
+    would make people more willing to try skg
 ** indicators
+*** bullets with addresses look different
 *** show number (and kind?) of upstream nodes
     links
     subscriptions, unsubscriptions
 *** show an "I" for "intermediating"
     Describes the relationship between N's parent
     and N's children, when it is not the standard one.
-** visibly different bullets have addresses
 ** [[id:48940ef8-f7fb-47bd-ab96-20f30eb2831b][skg's own copy/paste mechanisms]]
 ** BLK_DATE complain about multiple containment on save
 *** the idea
@@ -46,14 +54,9 @@
     is already contained in something in the graph,
     complain.
 *** first [[id:48940ef8-f7fb-47bd-ab96-20f30eb2831b][make it difficult, maybe impossible]]
-** a backward view
+q** a backward view
 *** should be through at least three relations
     contains, subscribes, links to
-** import/export*
-*** export to org-roam
-    would make people more willing to try skg
-** persist TypeDB data
-   consider too how Tantivy data is persisted
 * for sharing & privacy
 ** a user config file
 *** include for each repo
@@ -62,22 +65,33 @@
     Owned by user (bool).
     Color.
     Privacy level (for filtering, later).
-** fetching the document (with sharing)
-   Rust's s-exp for Emacs acts on all relations.
+** [[id:858cfdcd-1d7a-4707-a5dc-837c7c13e2d4][fetching a skg document (with sharing)]]
 ** saving (with sharing)
-   Emacs's s-exp for Rust elicits appropriate changes regarding foreign nodes.
+   Emacs's s-exp for Rust should elicit
+   appropriate changes regarding foreign nodes.
 ** operations on nodes
 *** [[id:9301546a-f6d7-42ce-9034-8e3e0bc5536e][merging two nodes]]
 *** "ignore" a node
+**** what it means
     If node N subscribes to node S,
     any content-descendent of S can be ignored from N,
     not just S's immediate (first generation of) content.
     Or maybe just ignore globally.
+**** when it happens
+     When the user deletes from or moves from
+     foreign content.
 *** "incorporate" a node
+**** what it means
     This causes it to be ignored
     from its initial subscriber,
     but subscribed to somewhere else.
+**** when it happens
+     When foreign node F contains G,
+     and G is moved.
 *** subscribe to a node
+**** when it happens
+     Invisibly, when someone modifies a foreign node.
+     Explicitly, when someone adds a subscription.
 ** metadata, flatter buffer
 *** elaboration
     The title and, under it, metadata (author, ...)
@@ -108,23 +122,6 @@
 *** from the perspective of a deleted node
     we should see its former contents,
     and have access to what became of them
-* non-obvious implied features
-** Sharing and version control are independent.
-   :PROPERTIES:
-   :ID:       8faa302a-2a07-4cc9-8741-86a4e6b69f78
-   :END:
-   No need to look at diffs to think about sharing.
-** Child content stored separately from child position.
-** Subscriptions can be public and private.
-** Unsubscriptions could I think be public and private.
-   The trick: In a public context the privately unsubscribed-from nodes should not show up.
-** Public subscriptions to private nodes reveal almost nothing.
-   They reveal the fact of their existence,
-   but not what they unsubscribe to -- not even its repo.
-* cleaning
-** automate the test of recursive_s_expression_from_node
-*** in tests/content_view.rs
-*** currently it prints to screen
 * do later
 ** ? comment files
 *** why not
@@ -234,6 +231,23 @@
      rather than requiring the user to visit them and link to it.
      (The user could still explicitly place it in either view,
      and maybe give different or additional link text.)
+* cleaning
+** automate the test of recursive_s_expression_from_node
+*** in tests/content_view.rs
+*** currently it prints to screen
+* non-obvious implied features
+** Sharing and version control are independent.
+   :PROPERTIES:
+   :ID:       8faa302a-2a07-4cc9-8741-86a4e6b69f78
+   :END:
+   No need to look at diffs to think about sharing.
+** Child content stored separately from child position.
+** Subscriptions can be public and private.
+** Unsubscriptions could I think be public and private.
+   The trick: In a public context the privately unsubscribed-from nodes should not show up.
+** Public subscriptions to private nodes reveal almost nothing.
+   They reveal the fact of their existence,
+   but not what they unsubscribe to -- not even its repo.
 * fun to explain
 ** Each note is a collection of notes.
 ** Containment and linking are different.
@@ -246,39 +260,5 @@
    Emacs seems best for buffer text.
    That text's properties can encode anything I need.
    All other logic, including types, should be in Rust.
-* earlier work
-** subscription model, I think needlessly complex
-   You can subscribe any node in your graph to any node(s) in another's. Upon doing so you can then decide how to merge them, associating context-descendents in your context with ones in context(s) of theirs, and unsubscribing to branches not of interest (in your context).
-   Unsubscriptions can be invisible or visible: "remove all content descending from here, and make here invisible" or just the first of those two things. It should be visibly obvious that visible unsubscribed nodes are unsubscribed.
-   The user can attach their own context to a subscription. (This generalizes how a link can appear with non-link text in the same expression.) They could attach it in-line as text visibly not imported from the subscription, or (obviously) as descendent graph content if there's enough to warrant (in the user's eyes) structuring.
-** spec
-*** representation
-**** IDs must proliferate, relative to org-roam.
-     I don't see how to proliferate IDs if diffs are to be readable.
-     Every element of a list involved in any other relationship
-     (which includes having plain non-link text view-children)
-     must have an ID, so that it can be moved.
-**** Anything with a title can have an optional alias field.
-*** views
-**** kinds of data visible from a topic
-***** The available curated views of it.
-      These ought to be mergeable.
-      For instance,
-      if the private file on a has child b with grandchild c,
-      and the public file on a has child b with grandchild c',
-      the merge would contain a single child b with grandchildren c and c'.
-***** The relationships it is in.
-****** Speecial kind: Links to it.
-***** Parts of the git diff involving it.
-**** That relationships exist involving N not recorded in N can be seen from N.
-***** wordier definition
-      If node N is in relationship R,
-      R might be part of N's contents (recursively), or not.
-      If not, the fact that things like R exist
-      should be visible from a view of N.
-***** Indeed N need contain no curated content at all.
-      In this case the only information visible from it
-      are the relationships involving it.
-**** The view of a recursive note must transclude.
-**** Lists and sets can be shown on one line or across multiple.
-*** [[id:60ac4c5c-fca6-4943-86ee-8f8f9011eaa6][skg : cloning seems unnecessary]]
+* nah
+** [[id:60ac4c5c-fca6-4943-86ee-8f8f9011eaa6][cloning seems unnecessary]]
