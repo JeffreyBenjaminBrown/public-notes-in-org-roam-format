@@ -8,14 +8,14 @@
 ** on Github
    https://github.com/JeffreyBenjaminBrown/skg
 *** The README there might be the best introduction to skg.
+** [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][connectivity demos]] for knowledge graphs
 * Motivation: Shared note-taking is not yet feasible.
-* TODO Rush to where I can use it for my own data.
+* TODO Rush to [[id:3b01c240-8eae-41df-acac-e9a870adc4a3][where I can use it for my own data]].
 ** that seems better than this
 *** What would it take to make this interesting enough for others to want to code it with me?
 * TODO Anticipate getting architecturally stuck.
   For instance, if I implement fetch and save without sharing,
   will it be hard to introduce sharing?
-* [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][knowledge graphs, some connectivity demos for]]
 * problems
 ** must understand what edits will be allowed from Emacs before I can specify what Rust sends
 ** private lenses onto your public notes
@@ -29,10 +29,10 @@
 ** [[id:5eba18fb-8524-4073-b23c-b6fe5aa153f1][interactions between links, subscriptions and comments]]
 * tasks left
 ** to replace org-roam (in my own usage)
-*** Have Emacs build an s-exp for Rust.
-*** Have Rust act on the s-exp from Emacs.
-**** [[id:e707ded7-ff36-41cf-8ae1-672ab78e30d4][saving should bring a new document from Rust]], invisibly
-**** Orphaned content becomes uncontained, not deleted.
+   :PROPERTIES:
+   :ID:       3b01c240-8eae-41df-acac-e9a870adc4a3
+   :END:
+*** [[id:129f20c9-adf5-43dc-933a-3bc21babe152][Have Rust act on the s-exp from Emacs.]]
 *** [[id:ab19097e-522f-4a88-ab9c-32b58fe38212][search for a title from Emacs]]
 *** persist TypeDB data
     consider too how Tantivy data is persisted

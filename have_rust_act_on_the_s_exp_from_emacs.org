@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       129f20c9-adf5-43dc-933a-3bc21babe152
+:END:
+#+title: Have Rust act on the s-exp from Emacs.
+* translate the s-exp into a Vector<OrgBranch>
+  Maybe ID
+  headline
+  unindexed_text
+  list of org-branches
+* Rust modifies the filetree.
+** PITFALL: work rootward
+   This has to be done starting from the leaves.
+   Their containers cannot be modified until they exist.
+** updates
+   If any of the text or content has changed,
+   update the file. Otherwise don't touch it
+   (to avoid updating its timestamp).
+** new files
+   If anything was missing a bullet, give it an ID.
+   Create it in the filetree.
+   Update its ID in the Vector<OrgBranch>.
+* Keep a list of files modified and added.
+* Update TypeDB
+  Include each new file,
+  and update each file whose
+  content *or links* has changed.
+* [[id:e707ded7-ff36-41cf-8ae1-672ab78e30d4][saving should bring a new document from Rust]]
+  invisibly
+* Orphaned content becomes uncontained, not deleted.
