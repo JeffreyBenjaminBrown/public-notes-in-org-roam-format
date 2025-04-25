@@ -3,17 +3,22 @@
 :END:
 #+title: nmcli
 * commands I'm using lately
-** connect
-   nmcli connection up "Jeff's Galaxy"
-   nmcli connection up WIFI_MOVILES_MINCIT
-     can ssh to github
-   nmcli connection up MCIT-INVITADOS
-   nmcli connection up CLARO-5669
+** to connect
+*** some connections
+**** nmcli connection up "Jeff's Galaxy"
+     can't do cargo (rust)
+**** nmcli connection up WIFI_MOVILES_MINCIT
+     can ssh to github,
+     can't do cargo (rust)
+     can't do apt (ubuntu, debian)
+**** nmcli connection up MCIT-INVITADOS
+     can't do cargo (rust)
+**** nmcli connection up CLARO-5669
 *** for more wifi connections
     see /etc/NetworkManager/system-connections
-** see what's connected
+** to see what's connected
    nmcli connection show --active
-** others
+** other commands
 nmcli radio wifi on # or off
 nmcli device set wlan0 managed yes # maybe change wlan0
 nmcli device wifi list

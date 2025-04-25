@@ -2,11 +2,7 @@
 :ID:       129f20c9-adf5-43dc-933a-3bc21babe152
 :END:
 #+title: Have Rust act on the s-exp from Emacs.
-* translate the s-exp into a Vector<OrgBranch>
-  Maybe ID
-  headline
-  body
-  list of org-branches
+* DONE Translate an s-exp into a Vector<OrgBranch>
 * Rust modifies the filetree.
 ** PITFALL: work rootward
    This has to be done starting from the leaves.
