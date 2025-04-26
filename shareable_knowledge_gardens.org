@@ -35,8 +35,6 @@
    :END:
 *** [[id:129f20c9-adf5-43dc-933a-3bc21babe152][Have Rust act on the s-exp from Emacs.]]
 *** [[id:ab19097e-522f-4a88-ab9c-32b58fe38212][search for a title from Emacs]]
-*** persist TypeDB data
-    consider too how Tantivy data is persisted
 *** import/export*
 **** export to org-roam
      would make people more willing to try skg
@@ -99,6 +97,10 @@
      should be a special first-level node,
      first among its siblings.
 **** [[id:1f87487f-af4a-4a32-84eb-da742b0a3f2e][an org-branch can be read-only and foldable]]
+*** allow publishing online
+    Make a page for each node.
+    For each uncontained node, the page should be saved in text from a recursive traversal, with anchors to anything that needs it. (My org-roam publishing code makes github-style anchors.)
+    Generate for each node an initial "nodes linking here" branch, and a second "nodes subscribing here" branch. Private nodes should be excluded from this public view of the public notes. (They could be included in a private view of the public notes.)
 ** diffs
 *** make aware of git diff
 **** track the last-read commit
