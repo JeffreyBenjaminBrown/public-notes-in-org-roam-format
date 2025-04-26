@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       99d42cca-e03f-4d44-b383-4cf5107bfeff
+:END:
+#+title: hope & ambition
+* [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope]]
+* [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][ambition]]
+* [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][realism]]
+* Hope encompasses more, but no motivation is free of hope.
+* [[id:05d467c3-fffd-457a-af5c-099f49b4b179][despair]]
+** "[[id:44c42ad0-82ec-4e72-a728-eb894d8d8aaa][with great need comes an unusually wide range of ideas]]"
+* Some hopes are false.

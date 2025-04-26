@@ -7,7 +7,7 @@
 ** Vary durations.
 ** Freeze sometimes.
 ** Vary the spotlit muscle.
-** Match the duty cycle of a one muscle to a voice in the music.
+** Match one muscle's duty cycle to a musical voice.
    while others stay full duty
 * some dances
 ** a cool floaty dance

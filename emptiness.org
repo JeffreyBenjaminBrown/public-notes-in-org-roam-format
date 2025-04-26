@@ -2,3 +2,4 @@
 :ID:       337b7071-a7ce-4451-9f2e-4f57e0ccdc06
 :END:
 #+title: emptiness
+* emptinesss [[id:fcc04ddf-843f-4953-b23c-b525a9d6d652][is somehow near wholeness]]

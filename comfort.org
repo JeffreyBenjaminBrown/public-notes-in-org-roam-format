@@ -2,5 +2,6 @@
 :ID:       8b0040c0-243b-43d4-8cc8-e9b3ffb35180
 :END:
 #+title: comfort
+* [[id:f532dbb0-3a30-4692-b657-2213898787e8][courage vs. comfort]]
 * [[id:6de03e24-7211-4346-9383-64ded344e366][Confidence is comfortable.]]
-* [[id:4426dfa6-0b7b-4dd1-945b-ce7217687033][Merely shifting attention can require courage.]]
+* [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][balance | peace | equilibrium]]

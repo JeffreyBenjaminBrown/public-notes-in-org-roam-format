@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ffaffb1d-45c9-405b-a20a-e0be65cb2ab6
+:END:
+#+title: workaholism & insecurity
+* [[id:c393e966-36a8-498a-b44e-0667903191f8][workaholism]]
+* [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]

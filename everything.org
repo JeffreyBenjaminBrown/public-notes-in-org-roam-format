@@ -2,12 +2,30 @@
 :ID:       dea50354-cdfe-47c8-8f15-043c70d66da0
 :END:
 #+title: everything
-* projects
-** [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope(s)]]
-*** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
-** [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]
-** [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
 * [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information , about]]
+** [[id:36d2d810-4be1-4c0c-a979-bd756bf29220][consciousness]]
+* [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope(s)]]
+* some [[id:50132c61-a3f9-4e28-bdbd-e2d0e6f35f28][feelings]]
+  :PROPERTIES:
+  :ID:       2370c5e8-e713-4d6f-8d6c-32f9b55523e1
+  :END:
+** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]] (all kinds)
+** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
+** [[id:186371b0-e1eb-4a62-9354-f76fb3f63bbd][pleasure]]
+** [[id:b745d109-6d7f-4638-beab-97bd26c8a936][awe]]
+** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
+** [[id:237c52c1-7bca-4b83-8b6b-b64ffe209438][awkwardness]]
+** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
+** [[id:dc735cdb-6166-4f57-b7aa-b537b1ecb98f][lost]]
+** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
+** [[id:5fe70812-fd17-4692-aa21-61a55c80ea71][nostalgia]]
+** ugly ones
+*** [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
+*** [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]
+*** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
+*** [[id:8b9a976f-2587-4c9f-95a9-eae483550d7b][pain]]
+*** [[id:a890ee05-e949-4690-b152-7fe13e35dcc5][bitterness]]
+*** [[id:ee3db6a1-1143-439c-8912-10fb2a4d3b8d][numbness]]
 * [[id:ce2d269b-5029-435e-abf7-d33a984ca8cc][phenomena | conditions]] ,, experiential
   :PROPERTIES:
   :ID:       ce2d269b-5029-435e-abf7-d33a984ca8cc
@@ -29,13 +47,14 @@
 **** [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]s, some interesting
 * problematic
 ** [[id:cd9b2ff2-52b5-437d-882d-a625c360dd3f][& personal]]
-** [[id:cc103b68-6b43-483f-88a7-e724fdf853b7][fascism]]
+** [[id:5357b637-c959-455f-b171-429390edbc04][conflict]]
+*** [[id:cc103b68-6b43-483f-88a7-e724fdf853b7][fascism]]
 * interpersonal
+** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
+** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
 ** [[id:ccae4c2d-ee71-4c9c-acea-99074df994da][expression]]
 ** [[id:ed2e83cd-85ed-408a-bc28-21c8d4272f68][respect]]
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
-** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
-** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
 * values, ideals
 ** merge: [[id:0201e93c-bf0e-475c-9d03-be09f4c408b4][cognitive states|skills I want]]
 ** [[id:8d624422-f901-4208-aaa7-bbbc6f1f5ba1][life]]
@@ -46,14 +65,14 @@
 ** [[id:a9704106-6ea1-40b8-8127-fa2e88d82bae][beauty]]
 ** [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][charity]]
 ** [[id:682c092d-0e94-4095-b03f-dae9aa245619][utopia , perfect experience]]
+** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
+** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
+** [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]]
 * environment
 ** [[id:1e0eb0bc-1d40-4a78-9c81-dbcef73d005e][spacetime]]
 ** [[id:512f112a-218b-4a0e-9be1-9786661b1968][imminence]]
 ** [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
 ** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
-* [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
-** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
-** [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]]
 * [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
 * [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]
 * [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]]

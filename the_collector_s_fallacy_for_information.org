@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       84a8e1b0-baa5-4435-a564-a921e45e24de
+:END:
+#+title: the collector's fallacy (for information)
+* source
+  https://zettelkasten.de/posts/collectors-fallacy
+* Knowing about something is not knowing it.
+* Suggests keeping a to-read pile is not helpful.
+** "Do or do not, there is only now."
+* How much effort to put into categorization?
+  Refiling?

@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       543d4a74-b24c-41d3-b93d-79d9c86eadf3
 :END:
-#+title: Partial completion is of almost no value in many projects.
+#+title: Partial completion can be of almost no value.
 * elaboration
   Often it makes the difference between the project's payoff being net positive and net negative.
 * instances

@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "fast night fantasy"
 :END:
 #+title: living like there's no tomorrow
+* [[id:40170cc5-53d7-4172-8e71-f3393a349d38][? Don't hold on to freedom.]]
 * Thinking about this can feel unpleasant.
 * justification
   These thoughts are kind of half-baked.
@@ -31,3 +32,4 @@
 ** [[id:3227574f-2ef9-4c1a-a675-5caf064ef9c6][living for the sleep]]
 ** [[id:c9f48f52-2646-4f54-9c72-b03d05e616d3][Pursuing _ as if it could make one's entire life worth it.]]
 * [[id:13e24c8b-c45a-4448-a3a8-8b1ae529f092][fast medium experience]]
+* [[id:84a8e1b0-baa5-4435-a564-a921e45e24de][the collector's fallacy (for information)]]

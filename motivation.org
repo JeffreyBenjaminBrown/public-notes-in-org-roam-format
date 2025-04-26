@@ -4,9 +4,12 @@
 :END:
 #+title: motivation | ambition
 * see also
-** [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope]]
 ** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
+* [[id:99d42cca-e03f-4d44-b383-4cf5107bfeff][hope & ambition]]
+* [[id:3459fbda-0e97-4c14-9f0a-9b507d1e759c][instances]]
+* [[id:eb3a4394-3274-4834-8a80-823b0849106f][unseriousness , a form of inconsistency]]
 * [[id:a27f2004-c6e1-4833-9b15-be68554f20f0][Recognize fear in your aversions.]]
+* [[id:eb4f95a0-22ac-4f8a-a149-5c1cd569db3c][Save the world.]]
 * how to construct it
 ** [[id:543d4a74-b24c-41d3-b93d-79d9c86eadf3][Partial completion is of almost no value in many projects.]]
 * [[id:2e6e41ec-87fd-4f79-9162-0114e61497ac][Everything I do is intentional, but every effect I have cannot.]]
@@ -28,11 +31,6 @@
 * [[id:40b049b7-ef2a-4eab-a9f8-07ee5841aa86][habit]]
 * [[id:0334782e-dd39-49e7-b296-ad1375ce404a][meditation => calm purpose]]
 * [[id:37425792-b489-4936-a7cf-1fbfabd75bea][Patience is a form of courage.]]
-* some ambitions
-** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
-** [[id:4e748426-9ff0-4e7b-8192-b582a2ae7f95][community]]
-** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
-** [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]
 * [[id:72cbafe2-fab2-413f-b78e-ff81f94c3599][embarrassing ambitions]]
 * [[id:5dda3731-264a-44f0-87f6-90a680fd3402][Goal can affect energy profoundly.]]
 * [[id:afd8c176-4ba7-4dcd-becb-ba8c29f18ebb][One can be proud without being self-satisfied.]]

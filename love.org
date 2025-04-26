@@ -2,7 +2,10 @@
 :ID:       a4897164-eb28-4c26-8f26-c8ac98f2db16
 :END:
 #+title: love ,, brotherly & romantic & self-respect
-* TODO ? merge with [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]
+* see also
+** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
+** [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]
+** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
 * [[id:f23de8b3-b50b-408b-bc7e-48dc50418155][love & overload]]
 * [[id:e5ee5341-7ca0-4aaf-9a76-e8d5c5e352ec][proving yourself v. enjoying others]]
 * [[id:a55842c2-536e-4581-b04b-026715e646d1][love & responsibility]] (fun!)

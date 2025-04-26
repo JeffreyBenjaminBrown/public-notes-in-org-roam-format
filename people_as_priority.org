@@ -3,3 +3,4 @@
 :END:
 #+title: people as priority
 * [[id:3fea916e-26ed-441c-883c-e642b205bf05][All that matters is how we make each other feel.]]
+* [[id:ffaffb1d-45c9-405b-a20a-e0be65cb2ab6][workaholism & insecurity]]

@@ -2,3 +2,6 @@
 :ID:       004af7c1-02db-4545-8691-f00135b9ed48
 :END:
 #+title: gratitude
+* People say gratitude exercises work.
+  Thinking of things to be grateful for
+  makes them happier.

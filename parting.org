@@ -1,7 +1,0 @@
-:PROPERTIES:
-:ID:       9d700d59-a464-4741-b7a1-d952db174456
-:END:
-#+title: separation
-* [[id:aabbe81f-1a56-4483-aad9-1b937f56dd7a][Sometimes the rhythm is to marinate in someone's words.]]
-* [[id:b3ec25ba-75fa-413d-ad2f-a3c738a2d339][We say we're ending it and can't.]]
-* [[id:fdaa5e7d-d36f-40b2-acb1-dd9f75823f7f][If going to break up, doing it earlier is kinder.]]

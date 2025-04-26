@@ -5,12 +5,12 @@
 #+title: information , about
 * some kinds
 ** [[id:12fda009-a653-4cb3-a201-544d69190de6][secrets]]
-** [[id:e3f2958a-c686-4c2a-934b-530fcd681a42][feelings]]
-*** [[id:636d3275-7997-4503-9769-37cdb51722e2][Pain is exactly sometimes a learning experience.]]
+** [[id:50132c61-a3f9-4e28-bdbd-e2d0e6f35f28][emotion]]
+*** [[id:636d3275-7997-4503-9769-37cdb51722e2][Pain is only sometimes a learning experience.]]
 ** [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
 ** [[id:2ef9af0e-4244-4d92-b141-c0aea60f7d9a][fantasy]]
 * [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
-* [[id:9d700d59-a464-4741-b7a1-d952db174456][separation]]
+* [[id:24fcf76a-fafa-4cb2-8312-43719f7aa207][separation | fission]]
 * ? [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]] (Maybe bring its contents here.)
 * [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][understanding, thinking, learning]]
 * [[id:49a03bb3-7d57-4e38-89a5-93074d8fd152][information = truth ,, if properly qualified]]

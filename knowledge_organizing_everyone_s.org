@@ -20,6 +20,7 @@
 * [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to use a knowledge graph]]
 * systems, projects
 ** favorites
+*** [[id:9c5619e5-81ad-4a67-9705-e4761bdd6839][shareable knowledge gardens (skg)]]
 *** [[id:46d56f38-e6a8-43aa-8c74-efccddfb0770][TypeDB]]
 *** [[id:63f366e6-b768-4f3f-9093-a776f2b4e069][org-roam]]
 *** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][smsn]]

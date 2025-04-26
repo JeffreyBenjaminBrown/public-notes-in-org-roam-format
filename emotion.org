@@ -2,6 +2,12 @@
 :ID:       50132c61-a3f9-4e28-bdbd-e2d0e6f35f28
 :END:
 #+title: emotion
+* [[id:82fbcfc0-61ea-4f30-82e5-3eb5148a16cf][emotion & frequency]]
+* [[id:dca72b0d-ee2c-4666-8e87-4cf5bf58da98][emotional free lunches]]
+* [[id:06b856e9-50fb-4025-9276-cd0b2b945fa8][Knowing how self and other feel can both be tricky.]]
+* [[id:2370c5e8-e713-4d6f-8d6c-32f9b55523e1][instances]]
+* [[id:b268c502-2ebd-4d76-9025-0a4e2806e1d8][Emotions can be decomposed into sensations.]]
 * [[id:b52cc97b-b236-42df-bd3a-93d5e012e416][Feel accurate emotions.]]
 * [[id:ce6ab269-6c12-4600-b7b5-2eff96732133][Anger can usefully displace fear.]]
 * [[id:b01bfc2f-fb9d-4d70-afc8-093b1933d47c][Refuse to feel something and you are cut off from the people who do.]]
+* [[id:4569aa13-9b2b-4f60-b85d-a4bf4913edc9][& private]]

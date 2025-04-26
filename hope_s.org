@@ -2,8 +2,19 @@
 :ID:       55a3533c-da70-445b-bd9a-0b950f52b85d
 :END:
 #+title: hope
-* see also [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][ambition]]
-* instances
+* [[id:99d42cca-e03f-4d44-b383-4cf5107bfeff][& ambition]]
+* instances \ hope
+  :PROPERTIES:
+  :ID:       3459fbda-0e97-4c14-9f0a-9b507d1e759c
+  :END:
 ** [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]
 ** [[id:c3d3f28c-5892-4deb-86dd-e8f490a24b1d][collective understanding]]
-** [[id:afecc0bb-68d0-4bc5-a656-f277a9a830db][justice & irony]]
+** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
+** [[id:4e748426-9ff0-4e7b-8192-b582a2ae7f95][community]]
+** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
+** dubious
+*** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
+*** [[id:afecc0bb-68d0-4bc5-a656-f277a9a830db][justice & irony]]
+*** [[id:eb4f95a0-22ac-4f8a-a149-5c1cd569db3c][Save the world.]]
+* [[id:f532dbb0-3a30-4692-b657-2213898787e8][courage vs. comfort]]
+* [[id:22b23bc3-4ca0-4683-a794-521661c55c56][why did these thoughts not even occur to me]] , personal

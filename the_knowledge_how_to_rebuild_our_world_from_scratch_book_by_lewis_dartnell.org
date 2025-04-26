@@ -2,6 +2,10 @@
 :ID:       14cb4309-9afa-405a-942f-a743e5a9fd9f
 :END:
 #+title: The Knowledge: How to Rebuild Our World from Scratch (book), by Lewis Dartnell
+* link for references :: The Knowledge: How to Rebuild Our World from Scratch (book), by Lewis Dartnell
+  :PROPERTIES:
+  :ID:       55dd37d6-32d3-445d-a389-298db33178bc
+  :END:
 * TODO RESUME at
   society could end up taking very different paths
 * <2024-09-16 Mon>

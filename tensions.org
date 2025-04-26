@@ -3,6 +3,7 @@
 :END:
 #+title: tension
 * instances
+** [[id:5357b637-c959-455f-b171-429390edbc04][conflict]]
 ** [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility seems more compatible with peace than pride does.]]
 ** [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Is humility at odds with ambition?]]
 ** [[id:a8760812-f098-4e39-aa4c-9d69a2e1fcba][Mindfulness and being single seem hard to square.]]

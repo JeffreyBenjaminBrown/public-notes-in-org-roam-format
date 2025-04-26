@@ -2,6 +2,8 @@
 :ID:       9b40c46b-bd16-4003-8a9e-763f5a7dbc22
 :END:
 #+title: psychology
+* [[id:c393e966-36a8-498a-b44e-0667903191f8][workaholism]]
+* [[id:70642496-6430-451d-9053-e5993891d2e6][neuroticism]]
 * [[id:d33fdd39-6933-4de8-abbe-8d0879ec9258][psychology \ jbb]]
 * [[id:a4fdc0d7-8ad9-471c-a559-7bd932b0f486][cognition]]
 * [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]

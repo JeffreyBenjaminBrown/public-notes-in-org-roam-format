@@ -4,3 +4,5 @@
 #+title: surprise
 * [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety v. surprise]]
 * [[id:890d9101-09c6-48f0-be54-e4e74a0ec961][romance + surprise]]
+* [[id:3117b144-b348-4dc5-825e-d3fc3ef7af26][surprising societal changes]]
+* [[id:b5d0332d-c7a5-4f03-bda5-5c1bae785f7d][surprising health dangers]]
