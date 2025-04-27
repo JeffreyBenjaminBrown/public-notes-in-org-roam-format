@@ -3,7 +3,7 @@
 :END:
 #+title: Have Rust act on the s-exp from Emacs.
 * DONE Translate an s-exp into a Vector<OrgBranch>
-* Persist the DBs (TypeDB, Tantivy) only slightly.
+* Persist the DBs (TypeDB, Tantivy) while skg runs.
 ** within the lifetime of the program
    While the Rust server is running, Tantivy and TypeDB should keep running too, and should only reread any file once it has changed.
 ** but not across Docker instances

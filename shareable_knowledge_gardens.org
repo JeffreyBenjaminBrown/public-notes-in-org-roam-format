@@ -125,6 +125,10 @@
 **** from the perspective of a deleted node
      we should see its former contents,
      and have access to what became of them
+** more views I would like
+*** link-siblings
+    From file F, if file G contains a link to F,
+    show the siblings of the node with that link.
 ** do later
 *** ? comment files
 **** why not

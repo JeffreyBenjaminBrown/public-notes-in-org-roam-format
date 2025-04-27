@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       06e57867-5a5f-462b-b963-56ffa719c9b8
+:ROAM_ALIASES: novelty
 :END:
 #+title: surprise
 * [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety v. surprise]]

@@ -5,6 +5,7 @@
 #+title: motivation | ambition
 * see also
 ** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
+* TODO ? [[id:9bc2145f-4e0c-4b5d-bbbe-d30b753826fb][my motivations]] (personal)
 * [[id:99d42cca-e03f-4d44-b383-4cf5107bfeff][hope & ambition]]
 * [[id:3459fbda-0e97-4c14-9f0a-9b507d1e759c][instances]]
 * [[id:eb3a4394-3274-4834-8a80-823b0849106f][unseriousness , a form of inconsistency]]
