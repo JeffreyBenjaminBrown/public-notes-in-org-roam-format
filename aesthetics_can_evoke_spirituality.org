@@ -3,5 +3,7 @@
 :ROAM_ALIASES: "spirituality + aesthetics" "aesthetics + spirituality"
 :END:
 #+title: Aesthetics can evoke spirituality.
-Walking through crazy architecture or a museum feels spiritual.
+* [[id:efead690-715e-4243-9dd9-9f6a53566263][aesthetics]]
+* [[id:04eae9c6-72e1-4251-9f12-a761a7f62692][spirituality]]
+* Walking through crazy architecture or a museum feels spiritual.
 I can't justify the relationship but it's striking.

@@ -16,9 +16,8 @@
    easiest: run emacs with sudo and use dired
 * what I use weekly
 ** how to do it
-   FIRST: Verify I'm on a good wifi conncetion.
+   verify good wifi conncetion first
 
-   # Chaining with && reduces the time spent entering a password.
    sudo nix-channel --update nixos
    cd ~/nix/jbb/
    ./bash/rebuild-branches.sh
