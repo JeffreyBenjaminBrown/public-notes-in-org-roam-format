@@ -2,7 +2,7 @@
 :ID:       99d42cca-e03f-4d44-b383-4cf5107bfeff
 :END:
 #+title: hope & ambition
-* [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope]]
+* [[id:b29b28ac-ab9a-4aac-b002-5a8991855adb][Hope is a skill.]]
 * [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][ambition]]
 * [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][realism]]
 * Hope encompasses more, but no motivation is free of hope.

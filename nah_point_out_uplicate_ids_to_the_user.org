@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       37e943fc-ff8e-4284-8033-e18f47bd7313
+:END:
+#+title: NAH - Point out uplicate IDs to the user.
+way too hard
+* two kinds of duplicate IDs
+** from duplicate nodes
+** from duplicate `contains` references
+* two opportunities for duplication
+** when loading from files to TypeDB
+** when saving from Emacs
+* resolution
+  If saving, during the reconciliation process,
+  permit the user to write the current invalid state
+  to disk anyway. Resolution will continue on load,
+  hopefully with no changes needed.
+
+  When saving to and loading from disk,
+  for each duplicated ID,
+  give every entity using that ID a new, unique ID,
+  and a `duplicate_id` relationship to an `extra_id`.
+
+  Leave unchanged `contains` references to dup IDs,
+  and links to them.
+
+  Build the graph.
+
+  Provide a list of duplicated IDs to the user.
+  If the user clicks on one,
+  provide a list of nodes referred to by it,
+  a list of nodes that contain it,
+  and a list of links to it.
+  The three lists can be in three two org branches.
+
+  The user can visit each spot.
+  Nodes with duplicate IDs are uncontained.
+  Containers with contents duplicated
+  (there or elsewhere) show only `dup ID <ID`
+  where a duplicate ID was saved.
+
+  The user can also batch-query the nodes in each list,
+  to show their forward- and backward-views
+  (backward views of nodes using dup IDs being empty).
+
+  The user should choose one of them to have the dup ID,
+  because outside repositories might link to it.

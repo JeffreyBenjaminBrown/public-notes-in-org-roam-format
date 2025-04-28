@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       4aaa0364-f6de-425a-b942-8c0e3d9eb13c
+:ROAM_ALIASES: "reevaluation scheduling"
+:END:
+#+title: scheduling reevaluation
+* source
+  someone on the 80k podcast
+  (which somewhere online is transcribed to text),
+  2025/04/24
+  who called the idea "reevaluation points".
+* why
+  By fixing a time at which you will reconsider whether something is a good idea, you both ensure that you'll eventually do that, and free yourself from the constant nagging feeling that maybe now is the time.
+* counterargument
+  Why not do it right away? If you feel nagged about it, that's a problem -- either your intuition is wrong, or it's not. Either way it seems worth paying attention.

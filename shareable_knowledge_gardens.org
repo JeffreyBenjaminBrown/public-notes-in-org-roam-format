@@ -23,7 +23,6 @@
    would be just like subscriptions.
    Could even be a private lens onto a public subscription.
 ** [[id:170e4f79-4f5e-49a6-9ce1-8e42c0332100][the meaning of sharing in a knowledge graph]]
-** [[id:83f4b23d-1f74-4dbb-9e22-2b121043362a][the two-nodes-with-the-same-ID problem]]
 ** [[id:7350d543-80b9-4bdb-8ca6-7e1ebc689373][What about skipped org-bullet levels?]]
 ** Anticipate a recursive containment relationship?
    = What to do if one tries to view an infinite (therefore non-tree, with a containment cycle) file?
@@ -33,29 +32,30 @@
    :PROPERTIES:
    :ID:       3b01c240-8eae-41df-acac-e9a870adc4a3
    :END:
+*** solve [[id:83f4b23d-1f74-4dbb-9e22-2b121043362a][the two-nodes-with-the-same-ID problem]]
 *** [[id:129f20c9-adf5-43dc-933a-3bc21babe152][Have Rust act on the s-exp from Emacs.]]
 *** [[id:ab19097e-522f-4a88-ab9c-32b58fe38212][search for a title from Emacs]]
 *** import/export*
 **** export to org-roam
      would make people more willing to try skg
 *** indicators
-**** bullets with addresses look different
-**** show number (and kind?) of upstream nodes
-     links
-     subscriptions, unsubscriptions
+**** bullets with addresses should look different
+**** [[id:09c6e6a7-7a76-4bf2-a0a1-de4032734871][show number and kind of upstream nodes]]
 **** show an "I" for "intermediating"
+     :PROPERTIES:
+     :ID:       43bacc05-9e01-485c-8f95-8be18d6a7508
+     :END:
      Describes the relationship between N's parent
      and N's children, when it is not the standard one.
-*** [[id:48940ef8-f7fb-47bd-ab96-20f30eb2831b][skg's own copy/paste mechanisms]]
-*** BLK_DATE complain about multiple containment on save
-**** the idea
-     If any of the nodes received (even the root!)
-     is already contained in something in the graph,
-     complain.
-**** first [[id:48940ef8-f7fb-47bd-ab96-20f30eb2831b][make it difficult, maybe impossible]]
- q** a backward view
+** a backward view
 **** should be through at least three relations
      contains, subscribes, links to
+**** use intermediating nodes, with [[id:43bacc05-9e01-485c-8f95-8be18d6a7508][indicators]]
+     three kinds:
+***** "these link to it"
+***** "these subscribe to it"
+***** "these contain it"
+      maybe with a warning if multiple
 ** for sharing & privacy
 *** a user config file
 **** include for each repo

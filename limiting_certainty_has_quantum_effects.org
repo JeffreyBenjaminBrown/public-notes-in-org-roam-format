@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       5a52fd0b-cd38-450a-a44b-9643c17c7352
+:END:
+#+title: Limiting certainty has quantum effects.

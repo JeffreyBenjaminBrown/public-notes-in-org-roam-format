@@ -4,18 +4,98 @@
 #+title: the two-nodes-with-the-same-ID problem
 * why it arises
   The user will be free to cut and then paste twice.
-* TODO a solution : [[id:48940ef8-f7fb-47bd-ab96-20f30eb2831b][skg's own copy/paste mechanisms]]
-* worse solutions
-** a solution : use a (ID, container's ID) pair
-*** elaboration
-    The content of node N would be a property not of an ID, but an (ID of N, ID of container of N) pair. That is, the same node could have different content, depending on where it is.
-*** an advantage: This way duplicate IDs are not invalid.
-*** complication: (ID, container's ID) is ambiguous if the container contains two copies of the same node
-    This could be solved with a third identifier, that node's position relative to the copies of it among its container's contents.
-** a solution : confront the user about duplicates
-   If the duplicate node has non-containment relationships,
-   one instance of it will need to be chosen as the (say)
-   linked-to or commented-on node.
-   For each of the others one can choose
-   whether to duplicate only the text,
-   or to be a link to the original.
+* solution : Just permit duplicate IDs.
+** further definition
+   The same branch can show up in multiple places.
+** TODO mandatory, immediate
+*** handle infinite documents
+**** the problem
+     When Rust constructs a document,
+     my algorithm was to include all content,
+     recursively. But if content is not unique,
+     something can be its own child.
+**** solution
+     Fetching it in context should therefore
+     keep a list of visited nodes,
+     and not recurse into content when they reappear,
+     reporting "duplicated with content elsewhere".
+*** handle documents with no (single) root
+**** the problem
+     When a user asks to see a node in context,
+     the plan before I decided to permit dup IDs
+     was to climb the single chain of containers
+     until reaching an uncontained node,
+     and make that the root of the displayed document.
+     But now a path might fork and might cycle.
+**** solution
+***** If the container path is unique and ends
+      then the previous solution works:
+      Don't present options;
+      just open the root container,
+      and focus on the requested content.
+***** otherwise
+      If the data is not too explosive,
+      tha app can display a "container view"
+      the same way it shows an infinite "content view":
+      forking as is natural,
+      and discontinuing recursion into the containers of
+      any node for which that has already been done
+      earlier in the buffer
+      (so displaying it again, but not its contents).
+
+      So display that, and permit the user
+      to select a content view
+      from any node in the container view.
+*** present link target options
+    To follow a link with multiple targets,
+    a page is returned with links to each,
+    and an explanatory banner that the ID was duplicated.
+** later
+*** handle popular (across-person) nodes
+**** the problem
+     If a node ID were duplicated enough times,
+     the menu of targets for a link with that ID
+     could become unreadable.
+**** solution
+     Include the author's nickname in the link.
+*** automate the resolution of multiple containment
+    The user can assign a new, unique ID
+    to any of those results, after which
+    they will not show up in that link's targets.
+    Its contents will still be duplicates -- that is,
+    contained in multiple places -- but can be deleted,
+    or themselves given unique IDs.
+* DONE too hard -- for user, coder or both
+** [[id:3aaf11eb-f051-45cd-ba72-55d86deaef5e][NAH - track paths, not just IDs]]
+** [[id:37e943fc-ff8e-4284-8033-e18f47bd7313][Point out uplicate IDs to the user.]]
+** [[id:0b6321e4-d215-489c-8cd6-067baf9eb1ce][Make pasting modify the copy of the pasted text that's still in the kill ring.]]
+** ordinary copy/paste omits bullets; special one doesn't, but copies to a nonstandard buffer
+*** permitted actions
+**** ordinary cut/copy/paste : omits bullet (not link) IDs
+     Omit IDs from cut portions so that they can't be
+     pasted multiple times, which would cause invalid state.
+**** prepend [link to here] to link queue
+**** paste from link queue
+     This need not remove the link from the queue.
+**** cut selection, prepending to node queue
+**** paste selection from node queue
+*** why one cannot copy a headline with its ID
+    Doing so would not make sense -- the ID corresponds
+    to a single unique place in the graph.
+    To have two copies of it would mean to have
+    the same node in two different relatinoship states --
+    states relative to the rest of the graph.
+** worse ideas, or the same but written worse
+*** a solution : use a (ID, container's ID) pair
+**** elaboration
+     The content of node N would be a property not of an ID, but an (ID of N, ID of container of N) pair. That is, the same node could have different content, depending on where it is.
+**** an advantage: This way duplicate IDs are not invalid.
+**** complication: (ID, container's ID) is ambiguous if the container contains two copies of the same node
+     This could be solved with a third identifier, that node's position relative to the copies of it among its container's contents.
+*** a solution : confront the user about duplicates
+    If the duplicate node has non-containment relationships,
+    one instance of it will need to be chosen as the (say)
+    linked-to or commented-on node.
+    For each of the others one can choose
+    whether to duplicate only the text,
+    or to be a link to the original.

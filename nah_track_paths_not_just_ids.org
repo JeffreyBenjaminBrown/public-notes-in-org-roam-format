@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       3aaf11eb-f051-45cd-ba72-55d86deaef5e
+:END:
+#+title: NAH - track paths, not just IDs
+too hard
+* the idea : ID uniquely identifies tree position only for uncontained nodes.
+  Complicate the data to simplify the experience.
+* details
+  Suppose N0 is uncontained, and N1 is in N0.
+  N1 has a section marked "under N0",
+  which has its own ID distinct from N1's,
+  and which can have contents.
+
+  Links to N1 in N0 are not simply to N1's ID,
+  but to the pair (N1's ID, N1-in-N0's section ID).
+
+  N0 is not allowed to contain N1 more than once.
+  This is easy to recognize,
+  and easy for the user to fix when it is reported.
+
+  Suppose N1 is duplicated in M0.
+  It should now contain a second section, "under M0",
+  again with a section ID.
+
+  If N1 was instead moved to M0,
+  then upon saving, the system can see
+  that N1 is only contained in one place.
+  It can then rename the `under N0` section to `under M0`,
+  without changing that section ID
+  (and thus preserving all links to it).
+* TODO case: recursive duplication

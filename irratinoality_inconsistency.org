@@ -2,6 +2,7 @@
 :ID:       594df21f-51c9-485c-85a1-cf943f325219
 :END:
 #+title: irratinoality , inconsistency
+* [[id:4aaa0364-f6de-425a-b942-8c0e3d9eb13c][scheduling reevaluation]]
 * it [[id:3c04ac36-3739-4fb2-a997-860797e365a7][+ broken promises = perpetual imminence]]
 * [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other selves]]
 * [[id:eb3a4394-3274-4834-8a80-823b0849106f][unseriousness , a form of inconsistency]]

@@ -2,7 +2,9 @@
 :ID:       55a3533c-da70-445b-bd9a-0b950f52b85d
 :END:
 #+title: hope
-* [[id:99d42cca-e03f-4d44-b383-4cf5107bfeff][& ambition]]
+* [[id:99d42cca-e03f-4d44-b383-4cf5107bfeff][hope & ambition]]
+** [[id:b29b28ac-ab9a-4aac-b002-5a8991855adb][Hope is a skill.]]
+* [[id:3fc5e1c7-4539-4861-bb5c-de055da413eb][hope & jobhunting]]
 * instances \ hope
   :PROPERTIES:
   :ID:       3459fbda-0e97-4c14-9f0a-9b507d1e759c
@@ -17,4 +19,3 @@
 *** [[id:afecc0bb-68d0-4bc5-a656-f277a9a830db][justice & irony]]
 *** [[id:eb4f95a0-22ac-4f8a-a149-5c1cd569db3c][Save the world.]]
 * [[id:f532dbb0-3a30-4692-b657-2213898787e8][courage vs. comfort]]
-* [[id:22b23bc3-4ca0-4683-a794-521661c55c56][why did these thoughts not even occur to me]] , personal

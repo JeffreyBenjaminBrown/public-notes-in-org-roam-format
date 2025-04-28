@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       09c6e6a7-7a76-4bf2-a0a1-de4032734871
+:END:
+#+title: show number and kind of upstream nodes
+* three things to count
+** containers, if multiple
+   exclude the current org-predecessors
+** links
+** subscriptions
+   unsubscriptions seem irrelevant
+* display the counts in "CSV" format
+  so if only the third is present,
+  the "three" numbers would read ",,x"
