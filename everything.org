@@ -56,7 +56,15 @@
 ** [[id:ed2e83cd-85ed-408a-bc28-21c8d4272f68][respect]]
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 * values, ideals
-** merge: [[id:0201e93c-bf0e-475c-9d03-be09f4c408b4][cognitive states|skills I want]]
+  :PROPERTIES:
+  :ID:       69fbc526-ebce-4872-afad-5d094bcbf088
+  :END:
+** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
+** [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][peace]]
+** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][humor]]
+** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
+** [[id:b745d109-6d7f-4638-beab-97bd26c8a936][awe]]
+** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
 ** [[id:8d624422-f901-4208-aaa7-bbbc6f1f5ba1][life]]
 ** [[id:10f35302-f321-48ac-b3bb-cbc6647e7575][trust]]
 ** [[id:9afa2ad3-a0e0-46b0-93a4-00dc76ff25e1][adventure]]
