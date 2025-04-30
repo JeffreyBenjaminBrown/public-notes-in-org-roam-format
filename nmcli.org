@@ -12,7 +12,9 @@
      can't do cargo (rust)
      can't do apt (ubuntu, debian)
 **** nmcli connection up MCIT-INVITADOS
-     can't do cargo (rust)
+     can't do Git
+     can do cargo (as of <2025-04-29 Tue>;
+                   earlier it couldn't)
 **** nmcli connection up CLARO-5669
 *** for more wifi connections
     see /etc/NetworkManager/system-connections

@@ -4,12 +4,20 @@
 :END:
 #+title: shareable knowledge gardens (skg)
 = an app I am building
+* goal
+  Una app para compartir notas. Imagínate que puedas mirar algo escrito por alguien y cambiar su forma, creando tu propio lente hacia un tema, y puedes compartir también lentes, todo siendo la misma forma de información.
+
+  Sería como social media, pero en vez de compartir cosas que desaparecen, juntos construiríamos nuestros mundos de ideas permanentes.
 * refs
 ** on Github
    https://github.com/JeffreyBenjaminBrown/skg
 *** The README there might be the best introduction to skg.
 ** [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][connectivity demos]] for knowledge graphs
+* Use pattern might be more important than medium.
+  First take notes on what someone wrote.
+  Then disperse them, carrying citations.
 * Motivation: Shared note-taking is not yet feasible.
+** citation would be immediate
 * TODO conceptual
 ** Rush to [[id:3b01c240-8eae-41df-acac-e9a870adc4a3][where I can use it for my own data]].
 *** that seems better than this
@@ -18,6 +26,7 @@
    For instance, if I implement fetch and save without sharing,
    will it be hard to introduce sharing?
 * problems
+** what if everyone can write their lens onto wikipedia
 ** must understand what edits will be allowed from Emacs before I can specify what Rust sends
 ** private lenses onto your public notes
    would be just like subscriptions.

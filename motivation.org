@@ -5,6 +5,8 @@
 #+title: motivation | ambition
 * see also
 ** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
+* [[id:d7729777-c201-4244-a1a2-02372a6e6196][motivation & pride]]
+* [[id:69fbc526-ebce-4872-afad-5d094bcbf088][values, ideals]]
 * TODO ? [[id:9bc2145f-4e0c-4b5d-bbbe-d30b753826fb][my motivations]] (personal)
 * [[id:99d42cca-e03f-4d44-b383-4cf5107bfeff][hope & ambition]]
 * [[id:3459fbda-0e97-4c14-9f0a-9b507d1e759c][instances]]
@@ -35,6 +37,7 @@
 * [[id:72cbafe2-fab2-413f-b78e-ff81f94c3599][embarrassing ambitions]]
 * [[id:5dda3731-264a-44f0-87f6-90a680fd3402][Goal can affect energy profoundly.]]
 * [[id:afd8c176-4ba7-4dcd-becb-ba8c29f18ebb][One can be proud without being self-satisfied.]]
+* [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][fear of God]]
 * dubious
 ** [[id:e756f326-8f05-44e3-85ee-ffdd54a6082f][life hack ? mission => jobhunt]]
 ** [[id:c9f48f52-2646-4f54-9c72-b03d05e616d3][Pursuing _ as if it could make one's entire life worth it.]]

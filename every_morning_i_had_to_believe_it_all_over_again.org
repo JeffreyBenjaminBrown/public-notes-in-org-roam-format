@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       909110c5-0b44-437c-99e0-34a4018f8cfd
+:END:
+#+title: Every morning I had to believe it all over again.
+* source
+  Ursula K Le Guin, The Left Hand of Darkness (book).
+  It's something the protagonist said about the cold.

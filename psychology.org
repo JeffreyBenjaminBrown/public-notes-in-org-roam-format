@@ -2,24 +2,30 @@
 :ID:       9b40c46b-bd16-4003-8a9e-763f5a7dbc22
 :END:
 #+title: psychology
-* [[id:c393e966-36a8-498a-b44e-0667903191f8][workaholism]]
-* [[id:70642496-6430-451d-9053-e5993891d2e6][neuroticism]]
-* [[id:d33fdd39-6933-4de8-abbe-8d0879ec9258][psychology \ jbb]]
-* [[id:a4fdc0d7-8ad9-471c-a559-7bd932b0f486][cognition]]
-* [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
-** [[id:39029f2f-0f39-49fd-b6ad-e8be09859729][Effort and observation are somewhat disjunctive.]]
-* [[id:786eebcb-c64d-4cf4-8448-76def28fd7e0][attribution]] | theory of mind
-* [[id:73e229ee-a416-41db-a23a-4d960b2e559f][socializing, systematic]]
-* [[id:a7f710b4-8981-4dec-8567-28a646da19ba][influence]]
-* [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
-* [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
-* [[id:13aba0e9-33c1-4f2b-906c-4ab3ab683522][emotional ambition]]
-* [[id:40b049b7-ef2a-4eab-a9f8-07ee5841aa86][habit]]
+* TODO merge with
+** [[id:a4fdc0d7-8ad9-471c-a559-7bd932b0f486][headspace]]
+* universal phenomena
+** [[id:89a0b4e8-897e-4dea-8bf8-05bbe1c234c1][habituation]]
+** [[id:a4fdc0d7-8ad9-471c-a559-7bd932b0f486][cognition]]
+** [[id:786eebcb-c64d-4cf4-8448-76def28fd7e0][attribution]] | theory of mind
+** [[id:40b049b7-ef2a-4eab-a9f8-07ee5841aa86][habit]]
+* errors
+** [[id:70642496-6430-451d-9053-e5993891d2e6][neuroticism]]
+** [[id:c393e966-36a8-498a-b44e-0667903191f8][workaholism]]
+* my own [[id:d33fdd39-6933-4de8-abbe-8d0879ec9258][psychology]] (personal)
+* skills
+** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
+** [[id:13aba0e9-33c1-4f2b-906c-4ab3ab683522][emotional ambition]]
+** [[id:73e229ee-a416-41db-a23a-4d960b2e559f][socializing, systematic]]
+** [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
+*** [[id:39029f2f-0f39-49fd-b6ad-e8be09859729][Effort and observation are somewhat disjunctive.]]
+** [[id:a7f710b4-8981-4dec-8567-28a646da19ba][influence]]
+** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
+** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 * [[id:1dc593e8-0313-4dfd-bc5d-cd7e53f9bfba][high performance (human)]]
-* [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
-* [[id:f7aafc6b-122b-439b-87f6-b6d8abc6835c][Internal Family Systems (psychology)]]
-** [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other selves]]
-* [[id:b268c502-2ebd-4d76-9025-0a4e2806e1d8][Emotions can be decomposed into sensations.]]
+* theories, frameworks
+** [[id:f7aafc6b-122b-439b-87f6-b6d8abc6835c][Internal Family Systems (psychology)]]
+*** [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other selves]]
 * [[id:25208ca0-d3ee-42d7-94a4-7177ba9da01f][In animals, boldness ~ rigidity, while shyness ~ sociability ~ creativity.]]
 * no consequence to me
 ** [[id:060458c5-e565-4975-a5df-9140b3f02338][Sapir-Whorf hypothesis]]

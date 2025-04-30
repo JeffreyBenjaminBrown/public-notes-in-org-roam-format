@@ -4,7 +4,7 @@
 #+title: the two-nodes-with-the-same-ID problem
 * why it arises
   The user will be free to cut and then paste twice.
-* solution : Just permit duplicate IDs.
+* TODO solution : Just permit duplicate IDs.
 ** further definition
    The same branch can show up in multiple places.
 ** TODO mandatory, immediate

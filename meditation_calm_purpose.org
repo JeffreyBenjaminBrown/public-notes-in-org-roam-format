@@ -1,7 +1,11 @@
 :PROPERTIES:
 :ID:       0334782e-dd39-49e7-b296-ad1375ce404a
 :END:
-#+title: meditation => calm purpose
-Meditation helps me know what to do.
-It's not deliberative. It's intuitive, immediate.
+#+title: inner peace => calm purpose
+* elaboration
+  Peace clarifies the mind -- perception, self-awareness
+  -- thus making prioritization easier.
+  Stated negatively, to lack inner peace is dysfunctional.
+* It's intuitive and immediate, not deliberative.
+* personal
 When I had to do something hard (divorce), it helped a lot. I had to be sure I wanted to, and calming the mind made it obvious.

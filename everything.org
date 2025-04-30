@@ -5,9 +5,11 @@
 * [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information , about]]
 ** [[id:36d2d810-4be1-4c0c-a979-bd756bf29220][consciousness]]
 * values, ideals
-  :PROPERTIES:
-  :ID:       69fbc526-ebce-4872-afad-5d094bcbf088
-  :END:
+:PROPERTIES:
+:ID:       69fbc526-ebce-4872-afad-5d094bcbf088
+:ROAM_ALIASES: ideals values
+:END:
+** [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]]
 ** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
 ** [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][peace]]
 ** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][humor]]

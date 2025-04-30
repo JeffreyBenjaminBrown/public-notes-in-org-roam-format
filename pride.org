@@ -3,9 +3,26 @@
 :ROAM_ALIASES: ego pride
 :END:
 #+title: pride | ego
+* [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][fear of God]]
 * it & [[id:a963e722-1f05-46e1-a9f5-d5f874b71f8f][self-criticism]]
 ** [[id:564189da-b150-4890-9c48-601b231f5586][Wouldn't effective pride play at the border with self-criticism?]]
 ** [[id:5daba6c9-195b-4b4c-be8c-3298010c9d43][Is pride actually productive, or could it be separated from self-criticism?]]
+* Pride plugs one's perceptions.
+* Can be pleasant or not, healthy or not.
+  And I think those correlate the way one would hope.
+* High self-esteem was considered bad in Biblical times, but low self-esteem, only recently.
+* [[id:92abdd76-cc43-45b1-b86f-03cc919c94c0][pride & drama]]
+* [[id:d7729777-c201-4244-a1a2-02372a6e6196][motivation & pride]]
+* [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]]
+* It is social.
+** One can make another proud.
+** One can be proud to be in a group.
+* ? Wikipedia called maliciousness a form of pride
+  <2025-04-29 Tue> in the section on humility
+* "Pride leads to every other vice."
+   C. S. Lewis (2001). Mere Christianity. Zondervan. ISBN 978-0-06-065292-0.[page needed]
+   is the citation on Wikipedia,
+   where I read the quote, <2025-04-29 Tue>
 * [[id:390cee26-7766-4cbe-98ae-455f29c3254a][Sacrifice your ego to a higher cause.]]
 * [[id:cb677df3-25f0-4cca-8365-1bca9ec8dd7d][Recognize when something you accomplished was hard.]]
 * [[id:0e9ffac9-3b18-45fb-9a16-75d54cb43316][attractiveness]]

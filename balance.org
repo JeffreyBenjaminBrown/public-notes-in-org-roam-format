@@ -1,8 +1,8 @@
 :PROPERTIES:
 :ID:       6e44fba3-c51d-430c-81ac-bd91e8db773b
-:ROAM_ALIASES: peace balance equilibrium
+:ROAM_ALIASES: peace balance equilibrium "social harmony"
 :END:
-#+title: balance | peace | equilibrium
+#+title: balance | peace | equilibrium | harmony
 * TODO bring in [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
 * see also
 ** [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]

@@ -3,9 +3,8 @@
 :END:
 #+title: perception
 * [[id:9d1cc360-4fce-4cd4-9176-8f12670add90][attention]]
-* Know when you are [[id:42837d1b-0ddb-4bef-8387-93f429055208][of two minds about something]].
+* [[id:7ab03ad0-c357-446c-81a3-1a0c619e7ffe][trainable perceptual skills]]
 * [[id:f2541cb6-35b4-4e5e-b81d-436da41f6277][In addition to behavior, even perception seems to exhibit a leisure-labor tradeoff.]]
-* [[id:1896c1b6-11a5-4a10-a350-1713acbbd6c6][kindness in perception]]
 * [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
 * [[id:298b99de-d219-48bc-abd5-0e89530cc9fa][Identify with something beyond the self.]]
 * [[id:55f2bdf0-1329-4a37-a060-dc2d9af9671a][predictive coding]]

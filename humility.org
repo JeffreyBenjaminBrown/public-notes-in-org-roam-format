@@ -3,6 +3,18 @@
 :END:
 #+title: humility
 * see also [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
+* Accurately perceiving oneself makes humility easier.
+* Humility permits seeing some category of good things.
+  or the reverse -- seeing them permits humility
+* adjacent qualities that are not values
+  meekness
+  submissiveness
+  shyness
+  shame
+* "a non-imposing mentality"
+  -- wikipedia on humility <2025-04-29 Tue>
+* temperance of the (consciousness of) self
+** "Not thinking less of yourself, but of yourself less."
 * [[id:4abd453b-9fd0-4c54-b897-e2d104cb2c33][humility v. self-respect]]
 * [[id:e9ac21ef-aa15-4c6a-9157-f0a79f0851a1][Courage v. humility]] is a fun balance.
 ** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
@@ -12,10 +24,12 @@
 * [[id:c4b72622-b3ef-417e-9567-19ffe1ee87ea][& pride]] (big!)
 * humility & peace
 ** [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility feels more peaceful than pride does.]]
+* [[id:2503d292-bce0-4352-94fb-545a8e079788][Humility and pride are both funny.]]
 * [[id:99f26fdf-e619-4680-a5e1-29624bbdc857][romantic compliments]]
 * humility & ambition
 ** [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Is humility at odds with ambition?]]
 * intense humility
 ** [[id:97129402-46bc-41ea-91f6-6a7faae61a79][I am nothing before the world.]]
 ** [[id:c7dba9db-c335-45e0-ba71-198460a3a3da][self-sacrifice]]
+* [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][fear of God]]
 * [[id:ac5de538-7ff8-4db1-834e-5d4cfd594b12][Giving up can require courage and humility.]]

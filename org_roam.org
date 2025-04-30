@@ -14,8 +14,10 @@
 ***** git remote
       git@github.com:JeffreyBenjaminBrown/public_notes_with_github-navigable_links.git
 * PITFALLs
+** Adding aliases to properties buckets fails
+   if the bucket is indented.
+   At least that happens to [[id:69fbc526-ebce-4872-afad-5d094bcbf088][values, ideals]] in [[id:dea50354-cdfe-47c8-8f15-043c70d66da0][everything]].
 ** [[id:0650c92d-963b-4070-984f-4737e29a7f03][Brackets inside an org link seem to confuse GitHub.]]
-
 * TODO problems I could maybe fix
 ** use [[id:546150de-cba8-43c2-ad44-9fa9a27e1e94][orderless completion for the Emacs minibuffer]]
 *** [[id:83997957-6b2f-4f18-9aa2-7f166109dce4][Search should not require knowing the first word.]]

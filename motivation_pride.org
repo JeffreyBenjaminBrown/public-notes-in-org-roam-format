@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d7729777-c201-4244-a1a2-02372a6e6196
+:END:
+#+title: motivation & pride
+* [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
+* [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
+* Pride can motivate [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][altruism]].

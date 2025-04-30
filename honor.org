@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       2bf0c161-5014-4291-8db5-70801e8a8a65
+:END:
+#+title: honor
+* neighbors
+** TODO hyperlink these
+** honesty
+** compassion
+** justice
+*** fidelity
+** chivalry
+** moderation
+*** humility
+** reputation
+** power
+** valor
+** chastity
+** [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]]

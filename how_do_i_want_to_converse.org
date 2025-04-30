@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       601503c7-222c-4885-8981-2cbfa31b9a92
+:END:
+#+title: How do I want to converse?
+* be
+** see [[id:69fbc526-ebce-4872-afad-5d094bcbf088][values, ideals]]
+** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humble]]
+** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][funny]]
+** [[id:004af7c1-02db-4545-8691-f00135b9ed48][grateful]]
+* learn
+** [[id:5327d2ce-1764-4bef-8959-aa8b5c478575][I want to know peoples' deepest motivations.]]
