@@ -17,3 +17,4 @@
 ** [[id:c02cac09-ad20-4a32-a5da-e4a0d901b39c][parliamentary government]]
 ** [[id:86dba0b9-a816-4874-bddf-8b20add34e73][head of state vs. head of government]]
 * [[id:dbd8e69f-2a09-4edc-b52d-14be842a54de][democracy]]
+* [[id:21577208-ba52-4105-8884-355fa27f128f][public influence]]

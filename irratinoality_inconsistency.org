@@ -1,7 +1,12 @@
 :PROPERTIES:
 :ID:       594df21f-51c9-485c-85a1-cf943f325219
+:ROAM_ALIASES: inconsistency irratinoality
 :END:
 #+title: irratinoality , inconsistency
+* [[id:dcbdb66e-55cb-46ce-af74-97aa841ddda7][irratinoality & ethics]]
+* [[id:c893937e-bca4-4a77-aa6c-ad481bf1d042][the limits of logic]]
+* [[id:74a00d03-5790-4851-b52e-6d2108eabfef][irresponsibility]]
+* [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][living like there's no tomorrow]]
 * [[id:4aaa0364-f6de-425a-b942-8c0e3d9eb13c][scheduling reevaluation]]
 * it [[id:3c04ac36-3739-4fb2-a997-860797e365a7][+ broken promises = perpetual imminence]]
 * [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other selves]]

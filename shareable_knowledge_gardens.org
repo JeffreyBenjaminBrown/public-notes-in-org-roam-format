@@ -4,6 +4,11 @@
 :END:
 #+title: shareable knowledge gardens (skg)
 = an app I am building
+* innovations truly in reach
+** [[id:2cacb9e0-074a-4ae7-a889-b170a355923f][simple text tree graph relations]]
+** Extract the punctuation one tends toward automatically.
+   e.g. start with & and two words,
+   using (path to) parent if absent
 * goal
   Una app para compartir notas. Imagínate que puedas mirar algo escrito por alguien y cambiar su forma, creando tu propio lente hacia un tema, y puedes compartir también lentes, todo siendo la misma forma de información.
 
@@ -13,6 +18,8 @@
    https://github.com/JeffreyBenjaminBrown/skg
 *** The README there might be the best introduction to skg.
 ** [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][connectivity demos]] for knowledge graphs
+* make knowable to the user
+** [[id:2cacb9e0-074a-4ae7-a889-b170a355923f]["It, this and these" make tree relationships easy.]]
 * Use pattern might be more important than medium.
   First take notes on what someone wrote.
   Then disperse them, carrying citations.
@@ -26,6 +33,7 @@
    For instance, if I implement fetch and save without sharing,
    will it be hard to introduce sharing?
 * problems
+** [[id:003d273d-4162-415b-b27a-217b1ae739e9][precise sharing, implementing in skg]]
 ** what if everyone can write their lens onto wikipedia
 ** must understand what edits will be allowed from Emacs before I can specify what Rust sends
 ** private lenses onto your public notes
@@ -36,35 +44,40 @@
 ** Anticipate a recursive containment relationship?
    = What to do if one tries to view an infinite (therefore non-tree, with a containment cycle) file?
 ** [[id:5eba18fb-8524-4073-b23c-b6fe5aa153f1][interactions between links, subscriptions and comments]]
+* BLK_DATE easy wishes
+** That I could fluff up a bare context that has links.
+** That I could show the path from here to root.
+   when it is offscreen
+** Order by last time read.
+*** see also
+**** PageRank
+**** [[id:a5b74e88-c524-4f89-b29d-1bc324a77369][spaced repetition]]
+*** more generally, order by a function of
+**** when last read
+**** when the things *in* it were last read
+     ? use something like PageRank
+**** how many times they have been read
+**** size of sets: content, links, containers, backlinks
+**** maybe more things
 * TODO tasks left
+** [[id:129f20c9-adf5-43dc-933a-3bc21babe152][Have Rust act on the s-exp from Emacs.]]
+** [[id:7b2499c4-4c93-44dc-83b1-0a4b9175d6a8][backward view \ skg]]
+** solve the [[id:83f4b23d-1f74-4dbb-9e22-2b121043362a][two nodes with the same ID problem]]
 ** to replace org-roam (in my own usage)
    :PROPERTIES:
    :ID:       3b01c240-8eae-41df-acac-e9a870adc4a3
    :END:
-*** solve [[id:83f4b23d-1f74-4dbb-9e22-2b121043362a][the two-nodes-with-the-same-ID problem]]
-*** [[id:129f20c9-adf5-43dc-933a-3bc21babe152][Have Rust act on the s-exp from Emacs.]]
 *** [[id:ab19097e-522f-4a88-ab9c-32b58fe38212][search for a title from Emacs]]
 *** import/export*
 **** export to org-roam
      would make people more willing to try skg
-*** indicators
-**** bullets with addresses should look different
-**** [[id:09c6e6a7-7a76-4bf2-a0a1-de4032734871][show number and kind of upstream nodes]]
-**** show an "I" for "intermediating"
-     :PROPERTIES:
-     :ID:       43bacc05-9e01-485c-8f95-8be18d6a7508
-     :END:
-     Describes the relationship between N's parent
-     and N's children, when it is not the standard one.
-** a backward view
-**** should be through at least three relations
-     contains, subscribes, links to
-**** use intermediating nodes, with [[id:43bacc05-9e01-485c-8f95-8be18d6a7508][indicators]]
-     three kinds:
-***** "these link to it"
-***** "these subscribe to it"
-***** "these contain it"
-      maybe with a warning if multiple
+*** [[id:ec4a7b9d-bf43-4379-9eb0-a3314ba12f20][indicators for node headings in trees]]
+*** a visits history
+    A map from node ids to lists of times,
+    or a list of (ID, time) visits.
+    Look at (recency, number of visits) plots of IDs.
+    Translate Josh's format into mine, or use his.
+    Ask what visualizations of it he uses.
 ** for sharing & privacy
 *** a user config file
 **** include for each repo
@@ -139,6 +152,8 @@
     From file F, if file G contains a link to F,
     show the siblings of the node with that link.
 ** do later
+*** [[id:2cacb9e0-074a-4ae7-a889-b170a355923f]["It, this and these" make tree relationships easy.]]
+*** put your own order on common categories: further definition, instances, ...
 *** ? comment files
 **** why not
      Subscription lenses seem to make it unnecessary.
@@ -247,6 +262,17 @@
       rather than requiring the user to visit them and link to it.
       (The user could still explicitly place it in either view,
       and maybe give different or additional link text.)
+*** phone audio interface
+    It would speak using a special syntax.
+    You would need commands to navigate and shape tree,
+    follow links and backlinnks,
+    and dictate nodes.
+    Would just need an AI to transcribe,
+    code to recognize initial and terminal commands,
+    code to separate those from the ordinary text between them,
+    and code to render as Emacs.
+** An "order" (priority to reader) property makes sense common to the same nodes in different contexts.
+   Esp. if they are common rel nodes like "instances".
 ** cleaning
 *** automate the test of recursive_s_expression_from_node
 **** in tests/content_view.rs

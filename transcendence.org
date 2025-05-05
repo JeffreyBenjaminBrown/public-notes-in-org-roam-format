@@ -5,6 +5,10 @@
 #+title: transcendence
 * = aliases
   redemption
+* neighbors
+** [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurdity]]
+** [[id:6fa4cc1e-d4a8-4127-bf28-9e43aab75df8][dissociation]]
+** [[id:e8594ff4-8ca0-44ea-a349-f16163c376a7][irony]]
 * [[id:f027def3-c2df-41bd-9841-bc1d9f437396][synthesis ( ala Hegel )]]
 * [[id:cdec0e7c-02e8-43c0-a8ff-7de3d3c338ef][to escape what seems inevitable]]
 * see also [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
@@ -25,3 +29,4 @@
 ** [[id:73a7935c-5309-46e7-84e1-fb4c292f7ad0][See through illusory opportunities.]]
 * [[id:e9684dbd-465b-4dc6-af7a-7fc30eecfdf0][optimism + solution = transcendence]]
 * [[id:60369835-80af-42f3-9de5-95736ce9b0ee][holiness]]
+* [[id:cf3d9e97-2c7a-4c2c-a6d3-33ea4dab2654][if karmic justice let one transcend fear of mortality]]

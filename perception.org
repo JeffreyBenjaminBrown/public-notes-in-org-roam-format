@@ -2,7 +2,11 @@
 :ID:       c6eb0f31-04b3-4552-b52d-6bbaae98f34d
 :END:
 #+title: perception
+* [[id:7b24e00d-6acb-4723-9267-6a9935dddacd][Truth is an assumed property of one universe.]]
+* [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][There is only now.]]
 * [[id:9d1cc360-4fce-4cd4-9176-8f12670add90][attention]]
+* [[id:4c25a3eb-4f21-4c20-9fee-2a18275ca089][volition]]
+** [[id:6b340387-efbd-4959-a785-5ac196310c62][Free will seems illusory.]]
 * [[id:7ab03ad0-c357-446c-81a3-1a0c619e7ffe][trainable perceptual skills]]
 * [[id:f2541cb6-35b4-4e5e-b81d-436da41f6277][In addition to behavior, even perception seems to exhibit a leisure-labor tradeoff.]]
 * [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]

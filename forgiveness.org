@@ -2,4 +2,5 @@
 :ID:       8647bcfc-d5ef-45c3-b6ad-fc7789f0fad2
 :END:
 #+title: forgiveness, inc. self-forgiveness
+* TODO merge [[id:0ec34098-ed89-4dcd-a057-2699e6bf216c][mercy]]
 * [[id:58aa2e6d-e07c-4adb-bc53-c9a569084529][If your time, energy and/or information were not enough, it's not your fault.]]

@@ -9,6 +9,8 @@
 *** [[id:636d3275-7997-4503-9769-37cdb51722e2][Pain is only sometimes a learning experience.]]
 ** [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
 ** [[id:2ef9af0e-4244-4d92-b141-c0aea60f7d9a][fantasy]]
+** [[id:2549e02a-fb43-484c-9d92-27b094a5e67c][beliefs]]
+** [[id:f995e767-4eef-4f80-90b5-3af572f39622][preferences]]
 * [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
 * [[id:24fcf76a-fafa-4cb2-8312-43719f7aa207][separation | fission]]
 * ? [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]] (Maybe bring its contents here.)

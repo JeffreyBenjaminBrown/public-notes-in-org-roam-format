@@ -6,6 +6,8 @@
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 ** [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]
 ** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
+* [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][presence]]
+** [[id:d060b13a-7452-4837-8d9b-11f2f48b71a4][presence & sharing]]
 * [[id:f23de8b3-b50b-408b-bc7e-48dc50418155][love & overload]]
 * [[id:e5ee5341-7ca0-4aaf-9a76-e8d5c5e352ec][proving yourself v. enjoying others]]
 * [[id:a55842c2-536e-4581-b04b-026715e646d1][love & responsibility]] (fun!)
@@ -27,7 +29,6 @@
 ** [[id:42c3b5b2-ed45-4419-a6e5-9ab3f797da8d][Intimacy is permissions.]]
 ** [[id:141d7c71-d118-4511-96fe-a9061dc2af55][Lessons about intimacy are funny.]]
 * [[id:33e547f5-0346-4fd8-b480-62a821a48d1c][Teasing can be bonding.]]
-* [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][living like there's no tomorrow]]
 * [[id:83896131-4896-40a6-b109-f83c5337d48c][Does being motivated to seek love feel bad?]]
 * to read
 ** ONGOING [[id:8840a676-3937-4443-b35b-faca20fe35c1][Couplehood (book)]]

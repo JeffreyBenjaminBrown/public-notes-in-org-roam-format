@@ -3,3 +3,4 @@
 :END:
 #+title: kindness in perception
 * This is a creative act.
+* [[id:8647bcfc-d5ef-45c3-b6ad-fc7789f0fad2][forgiveness, inc. self-forgiveness]]

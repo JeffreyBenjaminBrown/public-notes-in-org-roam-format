@@ -2,7 +2,12 @@
 :ID:       667bf4ea-d99d-41bb-98a9-368a86877e3e
 :END:
 #+title: why open knowledge graphs matter
-* bring in [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
+* TODO merge with notes on
+  [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
+  [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]] (application)
+* Your writing knows things you don't.
+  Just like anything,
+  you lose ideas after enough time, unless revising them.
 * Users can control their own views.
 ** duh
 *** against The Feed Algorithm

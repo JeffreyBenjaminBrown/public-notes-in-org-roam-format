@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       cf3d9e97-2c7a-4c2c-a6d3-33ea4dab2654
+:ROAM_ALIASES: karma
+:END:
+#+title: There is no time, only karma.
+* More precisely, karma is more fundamental.
+* karma ~ consequences
+* technical
+** [[id:e54b0669-aa26-45cf-a5fa-6bb41f871790][Time is time's initial/foundational conditions.]]

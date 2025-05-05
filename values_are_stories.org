@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       97565ea6-dddf-416c-a1fb-98bce5ec3c8c
+:END:
+#+title: Values are stories.

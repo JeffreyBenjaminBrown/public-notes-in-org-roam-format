@@ -14,8 +14,8 @@
 ** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
 ** [[id:4e748426-9ff0-4e7b-8192-b582a2ae7f95][community]]
 ** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
+** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
+** [[id:682c092d-0e94-4095-b03f-dae9aa245619][utopia , perfect experience]]
 ** dubious
 *** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
-*** [[id:afecc0bb-68d0-4bc5-a656-f277a9a830db][justice & irony]]
-*** [[id:eb4f95a0-22ac-4f8a-a149-5c1cd569db3c][Save the world.]]
 * [[id:f532dbb0-3a30-4692-b657-2213898787e8][courage vs. comfort]]

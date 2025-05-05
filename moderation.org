@@ -9,4 +9,5 @@
 * [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
 * [[id:cbef2e05-df7f-4b7c-a1dc-5cb2166975d8][sharing]]
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
-* Resist peer pressure.
+* [[id:1d8be58f-a579-4e4c-a145-8c349db58514][Resist peer pressure.]]
+* [[id:98f315c7-7404-40cd-ac56-2c9040a29421][Be gentle without saying why.]]

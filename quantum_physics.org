@@ -9,3 +9,7 @@ https://quantum.country/
 *** with, supposedly, good feedback, "metacognitive supports"
 says Andy Matuschak, somewhere in his online knowledgde graph
 https://notes.andymatuschak.org/
+* far-out
+** "topness is preserved under strong and electromagnetic interactions, but not under weak interaction"
+** Truth, a quantum flavor, is the difference between the number of top quarks and that of top antiquarks.
+   The last two words are funny if you see them as a way of escaping the concept of bottomness.

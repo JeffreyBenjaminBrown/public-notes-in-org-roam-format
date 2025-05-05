@@ -2,4 +2,5 @@
 :ID:       6c5de1a3-8072-4f6c-a5a2-8f693c34101a
 :END:
 #+title: One sees somewhat past oneself.
-* The limits of what I can see are defined by my self.
+* The limits of what one can see are defined by the self.
+* [[id:6b340387-efbd-4959-a785-5ac196310c62][Free will seems (mostly) illusory.]]

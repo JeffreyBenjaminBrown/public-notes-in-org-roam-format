@@ -1,15 +1,14 @@
 :PROPERTIES:
 :ID:       c0d17892-182e-45f8-b86d-a5a5b3bba61e
-:ROAM_ALIASES: "fast night fantasy"
+:ROAM_ALIASES: "fast night fantasy" "living like there's no tomorrow" "There is only now."
 :END:
-#+title: living like there's no tomorrow
+#+title: presence
+Thinking about these notes can feel unpleasant.
+* = ideally an algorithm, at least a culture
+  evident in all kinds of music and movies
+* [[id:dd04d72b-8f97-4fc7-92d8-1858c5323428][presennce & rationality]]
+* [[id:d060b13a-7452-4837-8d9b-11f2f48b71a4][presence & sharing]]
 * [[id:40170cc5-53d7-4172-8e71-f3393a349d38][? Don't hold on to freedom.]]
-* Thinking about this can feel unpleasant.
-* justification
-  These thoughts are kind of half-baked.
-  But there's a real thing here --
-  if not a game-theoretic optimum, at least a cultural gestalt,
-  evident in all kinds of music and movies.
 * associated feelings
 ** damn the consequences
 ** dance the night away

@@ -9,30 +9,40 @@
 :ID:       69fbc526-ebce-4872-afad-5d094bcbf088
 :ROAM_ALIASES: ideals values
 :END:
-** [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]]
-** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
-** [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][peace]]
-** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][humor]]
-** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
-** [[id:b745d109-6d7f-4638-beab-97bd26c8a936][awe]]
-** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
-** [[id:8d624422-f901-4208-aaa7-bbbc6f1f5ba1][life]]
-** [[id:10f35302-f321-48ac-b3bb-cbc6647e7575][trust]]
-** [[id:9afa2ad3-a0e0-46b0-93a4-00dc76ff25e1][adventure]]
-** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
-** [[id:5a5ae8a2-fd35-457f-bb36-4cad26c0454d][nature]]
-** [[id:a9704106-6ea1-40b8-8127-fa2e88d82bae][beauty]]
-** [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][charity]]
-** [[id:682c092d-0e94-4095-b03f-dae9aa245619][utopia , perfect experience]]
-** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
-** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
-** [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]]
-** [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+** = a valued set of skills & properties of situations
+** TODO merge [[id:245776bb-6704-44a1-be58-6cd962912937][<2025-05-05 Mon> notes from Wikipedia]]
+** [[id:97565ea6-dddf-416c-a1fb-98bce5ec3c8c][Values are stories.]]
+** instances \ values
+*** [[id:ff3b637a-ad1c-4381-afa7-570fc76b650d][self-confidence]]
+*** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
+*** [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]]
+*** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
+*** [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][peace]]
+*** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][humor]]
+*** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
+*** [[id:b745d109-6d7f-4638-beab-97bd26c8a936][awe]]
+*** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
+*** [[id:8d624422-f901-4208-aaa7-bbbc6f1f5ba1][life]]
+*** [[id:10f35302-f321-48ac-b3bb-cbc6647e7575][trust]]
+*** [[id:9afa2ad3-a0e0-46b0-93a4-00dc76ff25e1][adventure]]
+*** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
+*** [[id:5a5ae8a2-fd35-457f-bb36-4cad26c0454d][nature]]
+*** [[id:a9704106-6ea1-40b8-8127-fa2e88d82bae][beauty]]
+*** [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][charity]]
+*** [[id:682c092d-0e94-4095-b03f-dae9aa245619][utopia , perfect experience]]
+*** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
+*** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
+*** [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]]
+*** [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+*** the [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]
+** anti-values
+*** [[id:74a00d03-5790-4851-b52e-6d2108eabfef][irresponsibility]]
+*** [[id:1d8be58f-a579-4e4c-a145-8c349db58514][peer pressure]]
 * [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope(s)]]
-* some [[id:50132c61-a3f9-4e28-bdbd-e2d0e6f35f28][feelings]]
-  :PROPERTIES:
-  :ID:       2370c5e8-e713-4d6f-8d6c-32f9b55523e1
-  :END:
+* [[id:50132c61-a3f9-4e28-bdbd-e2d0e6f35f28][feelings]] / instances
+:PROPERTIES:
+:ID:       2370c5e8-e713-4d6f-8d6c-32f9b55523e1
+:END:
 ** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]] (all kinds)
 ** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
 ** [[id:186371b0-e1eb-4a62-9354-f76fb3f63bbd][pleasure]]
@@ -43,22 +53,24 @@
 ** [[id:dc735cdb-6166-4f57-b7aa-b537b1ecb98f][lost]]
 ** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
 ** [[id:5fe70812-fd17-4692-aa21-61a55c80ea71][nostalgia]]
-** ugly ones
+** [#B] ugly ones
 *** [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
 *** [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]
 *** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
 *** [[id:8b9a976f-2587-4c9f-95a9-eae483550d7b][pain]]
 *** [[id:a890ee05-e949-4690-b152-7fe13e35dcc5][bitterness]]
 *** [[id:ee3db6a1-1143-439c-8912-10fb2a4d3b8d][numbness]]
-* [[id:ce2d269b-5029-435e-abf7-d33a984ca8cc][phenomena | conditions]] ,, experiential
-  :PROPERTIES:
-  :ID:       ce2d269b-5029-435e-abf7-d33a984ca8cc
-  :ROAM_ALIASES: "phenomena" "conditions" "experiential :: penomena, conditions"
-  :END:
+*** [[id:7aa2d6f7-c262-4f85-926b-7cbbeec02f38][greed]]
+* stories
+:PROPERTIES:
+:ID:       ce2d269b-5029-435e-abf7-d33a984ca8cc
+:ROAM_ALIASES: "phenomena" "conditions" "experiential :: penomena, conditions"
+:END:
 ** A phenomenon need have no predictive power.
    examples
 *** [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
 ** instances
+*** [[id:97565ea6-dddf-416c-a1fb-98bce5ec3c8c][values are stories]]
 *** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]] | laughter
 *** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
 *** [[id:5c1dc0d8-b3a2-4dae-9c2d-7bda2d9789c0][dance]]

@@ -2,6 +2,8 @@
 :ID:       129f20c9-adf5-43dc-933a-3bc21babe152
 :END:
 #+title: Have Rust act on the s-exp from Emacs.
+OBSOLETE -- see TODO.org in the project for
+plans that are more complete and concise.
 * DONE Translate an s-exp into a Vector<OrgBranch>
 * Persist the DBs (TypeDB, Tantivy) while skg runs.
 ** within the lifetime of the program

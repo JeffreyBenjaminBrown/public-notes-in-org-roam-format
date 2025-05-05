@@ -2,6 +2,7 @@
 :ID:       f532dbb0-3a30-4692-b657-2213898787e8
 :END:
 #+title: courage vs. comfort
+* [[id:a27f2004-c6e1-4833-9b15-be68554f20f0][Recognize fear in your aversions.]]
 * [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
 * [[id:8b0040c0-243b-43d4-8cc8-e9b3ffb35180][comfort]]
 * [[id:4426dfa6-0b7b-4dd1-945b-ce7217687033][Merely shifting attention can require courage.]]

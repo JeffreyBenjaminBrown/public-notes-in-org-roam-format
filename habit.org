@@ -3,6 +3,7 @@
 :END:
 #+title: habit
 * [[id:45b75c40-a3af-4be4-b6a4-9d9f6aba1d74][& personal]]
+* [[id:5194fc12-7197-448e-9e42-4fe3872bd8ed][Fawning can be a trauma response.]]
 * [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][discipline]]
 * [[id:c6eb0f31-04b3-4552-b52d-6bbaae98f34d][perception]]
 * [[id:d63a84ca-2d5a-46c7-867d-02ff9ec8edaf][Trivial inconveniences can be good or bad.]]

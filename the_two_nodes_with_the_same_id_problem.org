@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       83f4b23d-1f74-4dbb-9e22-2b121043362a
 :END:
-#+title: the two-nodes-with-the-same-ID problem
+#+title: two nodes with the same ID problem \ skg
 * why it arises
   The user will be free to cut and then paste twice.
 * TODO solution : Just permit duplicate IDs.
@@ -34,18 +34,22 @@
       just open the root container,
       and focus on the requested content.
 ***** otherwise
-      If the data is not too explosive,
-      tha app can display a "container view"
-      the same way it shows an infinite "content view":
-      forking as is natural,
-      and discontinuing recursion into the containers of
-      any node for which that has already been done
-      earlier in the buffer
-      (so displaying it again, but not its contents).
+****** temporary solution
+       Report that it has no unique root container.
+       Fetch it and its content, ignoring its container(s).
+****** BLK_DATE better solution: backward view
+       If the data is not too explosive,
+       tha app can display a "container view"
+       the same way it shows an infinite "content view":
+       forking as is natural,
+       and discontinuing recursion into the containers of
+       any node for which that has already been done
+       earlier in the buffer
+       (so displaying it again, but not its contents).
 
-      So display that, and permit the user
-      to select a content view
-      from any node in the container view.
+       So display that, and permit the user
+       to select a content view
+       from any node in the container view.
 *** present link target options
     To follow a link with multiple targets,
     a page is returned with links to each,

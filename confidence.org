@@ -1,7 +1,14 @@
 :PROPERTIES:
 :ID:       4af09a9a-af4b-4213-b570-bda5c17e7547
+:ROAM_ALIASES: "self-confidence"
 :END:
 #+title: confidence
+* Confidence seems more important than courage.
+  :PROPERTIES:
+  :ID:       9c44b2d0-e6e1-41d3-bb18-37679027e7a9
+  :END:
+  Ideally, surely,
+  one's measures of self and risk should be accurate.
 * see also
 *** [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]
 * [[id:33e547f5-0346-4fd8-b480-62a821a48d1c][Teasing can be bonding.]]

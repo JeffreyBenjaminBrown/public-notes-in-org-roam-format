@@ -2,3 +2,4 @@
 :ID:       eb4f95a0-22ac-4f8a-a149-5c1cd569db3c
 :END:
 #+title: Save the world.
+* [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]

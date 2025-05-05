@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       7b2499c4-4c93-44dc-83b1-0a4b9175d6a8
+:END:
+#+title: backward view \ skg
+* should be through at least three relations
+  contains, subscribes, links to
+* generate intermediating relation headings
+** with [[id:ec4a7b9d-bf43-4379-9eb0-a3314ba12f20][indicators]] and in the system font
+** three kinds:
+*** "these link to it"
+*** "these subscribe to it"
+*** "these contain it"
+    maybe with a warning if multiple

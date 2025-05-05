@@ -2,9 +2,12 @@
 :ID:       492bfe8d-77f0-4aa2-bb33-df9fa984f0ea
 :END:
 #+title: courage
+* [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][confidence]]
+* [[id:9c44b2d0-e6e1-41d3-bb18-37679027e7a9][Confidence seems more important than courage.]]
 * courage & humility
 ** [[id:e9ac21ef-aa15-4c6a-9157-f0a79f0851a1][courage v. humility]]
 ** [[id:2997228e-82aa-4b95-a2eb-2eff33fb0702][hypothesis : Everything that requires courage requires humility.]]
+* [[id:75d26e15-7a43-42bc-987e-e30d59e5bc94][Courage can rely on reason.]]
 * [[id:6a18d9b1-930f-4f5d-88e4-ba90c019c5dd][things that require courage]]
 * [[id:f532dbb0-3a30-4692-b657-2213898787e8][courage vs. comfort]]
 * [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]

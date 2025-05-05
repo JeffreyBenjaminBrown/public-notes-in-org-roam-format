@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       d012e5a4-c33c-496f-841f-a0db90d8c1e6
 :END:
-#+title: errors
+#+title: errors \ information
 * [[id:262cb4a6-23fd-4622-9e1b-b0fe8888876b][the online echo chamber effect]]
 * [[id:84a8e1b0-baa5-4435-a564-a921e45e24de][the collector's fallacy (for information)]]

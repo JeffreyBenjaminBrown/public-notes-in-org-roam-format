@@ -4,5 +4,9 @@
 :END:
 #+title: wholeness
 * see also [[id:1a9a90c1-ddfd-446b-ab69-f7be0db3ca10][solitude]]
+* integrity
+** [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][consistency]]
+** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
+* holism
 * To select is to reject (others).
 * [[id:543d4a74-b24c-41d3-b93d-79d9c86eadf3][Partial completion is of almost no value in many projects.]]

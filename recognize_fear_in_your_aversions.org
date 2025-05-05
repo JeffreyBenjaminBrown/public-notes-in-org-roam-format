@@ -3,3 +3,6 @@
 :END:
 #+title: Recognize fear in your aversions.
 * Some are obvious, but some of mine I don't understand.
+* things to recognize the discomfort of
+** [[id:7988aebf-5802-461e-85d5-2a44018a16d4][cowardly aversion]]
+** chronically ignoring a more important challenge

@@ -2,17 +2,17 @@
 :ID:       2bf0c161-5014-4291-8db5-70801e8a8a65
 :END:
 #+title: honor
+* [[id:1d8be58f-a579-4e4c-a145-8c349db58514][Resist peer pressure.]]
 * neighbors
-** TODO hyperlink these
-** honesty
+** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
 ** compassion
-** justice
-*** fidelity
+** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
+*** [[id:89a7a71d-6a22-4431-a794-d89253e524a2][devotion]]
 ** chivalry
-** moderation
-*** humility
+** [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+*** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
 ** reputation
-** power
-** valor
+** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
+** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
 ** chastity
 ** [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]]

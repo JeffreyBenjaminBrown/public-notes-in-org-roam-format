@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       5d06a355-657f-44c4-84be-cae4ed93a28a
+:ROAM_ALIASES: rationality
+:END:
+#+title: logic
+* =? finding truth + motivation
+* [[id:299fd87e-de56-4671-b51f-e3554ba7dd95][formal logic]]
+* [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][optimization]]
+* truth
+  :PROPERTIES:
+  :ID:       bc43658e-65f6-4038-99bc-3278efa7cac2
+  :END:
+** [[id:7b24e00d-6acb-4723-9267-6a9935dddacd][Truth is an assumed property of one universe.]]
+* the limits of logic
+  :PROPERTIES:
+  :ID:       c893937e-bca4-4a77-aa6c-ad481bf1d042
+  :END:
+** [[id:dd04d72b-8f97-4fc7-92d8-1858c5323428][presennce v. rationality]]
+** incompleteness theorems
+* [[id:75d26e15-7a43-42bc-987e-e30d59e5bc94][Courage can rely on reason.]]
+* [[id:7b24e00d-6acb-4723-9267-6a9935dddacd][Truth is an assumed property of one universe.]]

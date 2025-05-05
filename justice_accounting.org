@@ -3,3 +3,4 @@
 :ROAM_ALIASES: karma
 :END:
 #+title: justice & accounting
+* [[id:cf3d9e97-2c7a-4c2c-a6d3-33ea4dab2654][There is no time, only karma.]]

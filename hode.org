@@ -1,9 +1,9 @@
 :PROPERTIES:
 :ID:       d5a5a3ff-977a-405b-8660-264fb4e974a3
+:ROAM_ALIASES: Hode
 :END:
-#+TITLE: Hode
-* TODO related | sub-projects
-  TODO : merge with
+#+TITLE: Hode (application)
+* TODO : merge with
 ** [[id:9c5619e5-81ad-4a67-9705-e4761bdd6839][shareable knowledge gardens]]
 ** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][oscillable generations view for org-roam]]
 ** the TODO items in [[id:63f366e6-b768-4f3f-9093-a776f2b4e069][org-roam]] (inc. extend)
@@ -15,6 +15,7 @@
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
 ** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
 * u
+** "bootstrap" would be a cool name.
 ** build [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode with TypeDB and Emacs]]
 ** [[id:d674bf8d-cd41-47aa-8418-36a74cedd561][build Hash for TypeDB]]
 ** [[id:8c609b95-5f55-4d88-b0fa-b43227577ee7][I want a record of the (org-roam) files I read]]

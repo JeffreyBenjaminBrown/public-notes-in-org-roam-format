@@ -4,15 +4,19 @@
 :END:
 #+title: spacetime
 * [[id:36d2d810-4be1-4c0c-a979-bd756bf29220][consciousness]]
-* Time is inherent to practically [[id:dea50354-cdfe-47c8-8f15-043c70d66da0][everything]].
+* [[id:97565ea6-dddf-416c-a1fb-98bce5ec3c8c][Values are stories.]]
+* causation
+* timelessness
 ** [[id:f66f6227-f85a-431b-906e-15af2d356d7e][motivation + time]]
+** Time *seems* inherent to practically [[id:dea50354-cdfe-47c8-8f15-043c70d66da0][everything]].
+** [[id:cf3d9e97-2c7a-4c2c-a6d3-33ea4dab2654][There is no time, only karma.]]
+** [[id:e54b0669-aa26-45cf-a5fa-6bb41f871790][Time is time's initial/foundational conditions.]]
 * [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]
 * [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
 * [[id:40b049b7-ef2a-4eab-a9f8-07ee5841aa86][habit]]
 * [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]
 * [[id:575ab579-f773-49af-80e4-19569e36aa14][sports]]
 * [[id:512f112a-218b-4a0e-9be1-9786661b1968][imminence]]
-* [[id:e54b0669-aa26-45cf-a5fa-6bb41f871790][Time is time's initial/foundational conditions.]]
 * technical
 ** [[id:2401bd30-54f4-4b09-845a-ce624918922c][Echoes are infinite in even-dimensioned spaces.]]
 * art about spacetime

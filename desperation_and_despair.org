@@ -1,10 +1,11 @@
 :PROPERTIES:
 :ID:       05d467c3-fffd-457a-af5c-099f49b4b179
-:ROAM_ALIASES: desperation despair
+:ROAM_ALIASES: desperation despair depression
 :END:
-#+title: desperation and despair
+#+title: desperation | despair | depression
 * [[id:99d42cca-e03f-4d44-b383-4cf5107bfeff][hope & ambition]]
-* "[[id:44c42ad0-82ec-4e72-a728-eb894d8d8aaa][with great need comes an unusually wide range of ideas]]"
-* Process more and do less when hope is less certain.
-  "rational depression"
-  processing = thinking, talking, studying
+* rational depression
+** = a focus on processing* over action
+   Process more and do less when hope is less certain.
+   (*) processing = thinking, talking, studying
+** "[[id:44c42ad0-82ec-4e72-a728-eb894d8d8aaa][with great need comes an unusually wide range of ideas]]"

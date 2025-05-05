@@ -2,6 +2,7 @@
 :ID:       682c092d-0e94-4095-b03f-dae9aa245619
 :END:
 #+title: utopia , perfect experience
+* [[id:eb4f95a0-22ac-4f8a-a149-5c1cd569db3c][Save the world.]]
 * defining it
 ** a sketch
    sovereign {minds, experiences} free to differ maximally, yet sharing one universe

@@ -2,4 +2,5 @@
 :ID:       86373005-c939-4627-b848-1610fccda8bd
 :END:
 #+title: neuroplasticity
+* [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]
 * [[id:44d3d9e4-0781-4476-9989-0e9f4a5b4d09][If life is change, then to not change (much) is to be (near) death.]]

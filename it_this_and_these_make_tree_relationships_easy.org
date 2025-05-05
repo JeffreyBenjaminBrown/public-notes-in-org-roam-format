@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       2cacb9e0-074a-4ae7-a889-b170a355923f
+:ROAM_ALIASES: "It, this and these make tree relationships easy."
+:END:
+#+title: "It, this and these" make tree relationships easy.
+* vocab
+  A relationship is an instance of a relation.
+* the three pronouns
+** it = parent
+** this = single child
+** these = children
+* [[id:2323989f-faf4-480b-845a-7e15356e5683][rel nodes are marked RN]]
+  where N is an integer, the relationship's arity
+* the idea
+  If N and M are in a relationship,
+  show it as "it (parent) [needs, ..] this (child)",
+  with one child, and a system-colored R for relationship.
+  For the reverse, say "this [needs, ..] it".
+  The user can place that wherever they want in each.
+  If it's not placed in the other,
+  it shows up in "auto",
+  a branch whose order they can choose.
+* rel. nodes are special in backward view
+  A rel node will be a child of a very large number of
+  nodes in which it is used as a rel
+  (and a few in which as an entity).
+  From context N, if rel R connects A to B,
+  looking backward from B will show R reversed,
+  and under that show only A,
+  not the other things R is connected to.
+* Relationships can be described.
+** example 1
+   * humanity
+   ** R2 it as this
+   *** fallen
+   *** R1 about it
+   **** Nodes like this are about the as-relationship
+        from orange to color
+   **** this one is like that one
+        the other generations in this example aren't
+   **** To be extra sure this example is understood,
+        the node titled "R1 about it" is about
+        the node titled "R2 it as this",
+        that is, is about "as" relationship
+        from humanity to fallen.
+** example 2, building on the first
+   * humanity
+   ** R2 it as this
+   *** fallen
+   *** [link to not-really-an-id][1] R1 about it
+
+   * [node with not-really-an-id][1] about considering humanity as fallen
+   ** it as this
+   *** [not-really-an-id][1] about it
+   *** color
+** Such "about" relationship nodes might only make sense when used to describe a relationship.
+* Relationships can be inlined.
+  If they are nested, use brackets for clarity.
+  If one is given a title, that could take precedence over the automatically-generated inline representation.

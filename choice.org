@@ -1,7 +1,9 @@
 :PROPERTIES:
 :ID:       4c25a3eb-4f21-4c20-9fee-2a18275ca089
+:ROAM_ALIASES: choice volition
 :END:
-#+title: choice
+#+title: choice | volition
+* [[id:6b340387-efbd-4959-a785-5ac196310c62][Free will seems illusory.]]
 * [[id:fa615844-39a9-4f57-8758-4fea2dcdec31][people as priority]]
 * [[id:655e21ab-5235-4a12-9636-0b04b0a411a4][specialization & graph search]]
 * [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]

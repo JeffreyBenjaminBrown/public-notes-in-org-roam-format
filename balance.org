@@ -3,7 +3,8 @@
 :ROAM_ALIASES: peace balance equilibrium "social harmony"
 :END:
 #+title: balance | peace | equilibrium | harmony
-* TODO bring in [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+* TODO merge with [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+* [[id:2f3c6dae-ded0-43f0-8b3d-0e9d095d8904][Could appreciating drama help one cope with stress?]]
 * see also
 ** [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
 ** [[id:1a9a90c1-ddfd-446b-ab69-f7be0db3ca10][solitude]]

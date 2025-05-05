@@ -3,7 +3,8 @@
 :END:
 #+title: Choosing | pursuing [experience] as if it could make one's entire life worth it.
 * instances of the "_"
-** adventure sports
+** adventure
+   sports
 ** art
 ** perfection
 *** of self
@@ -13,4 +14,4 @@
 ** sex
 ** power
 ** justice
-*** if perfect justice let us escape fear of mortality
+*** [[id:cf3d9e97-2c7a-4c2c-a6d3-33ea4dab2654][if recognizing karmic justice let one transcend fear of mortality]]

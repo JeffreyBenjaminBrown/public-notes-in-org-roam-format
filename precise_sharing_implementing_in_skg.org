@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       003d273d-4162-415b-b27a-217b1ae739e9
+:END:
+#+title: precise sharing, implementing in skg
+* making data available precisely*
+  (*) across receivers and across the data
+** noe solution is provided by USB sticks
+   If you have a USB stick,
+   you can do this.
+
+   Direct file transfer would let you be more selective.
+   If there are broken links they could send you requests for further access.
+** another: make a repo for you & each of those you share privately with
+   that, plus a public and private repo,
+   are all you would need.
+   Your shared private repos can be single-commit,
+   hence small.
+** For either solution, who a file is shared with could be a property of the file.
+** Enforcing confidentiality seems impossible.
+   If you give someone information, they have it.
+   They can tell someone it came from you.
+   If you don't want them to be able to do that,
+   you'll have to avoid giving it to them.
+* precise subscription
