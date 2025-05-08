@@ -4,8 +4,12 @@
 :END:
 #+title: desperation | despair | depression
 * [[id:99d42cca-e03f-4d44-b383-4cf5107bfeff][hope & ambition]]
-* rational depression
+* rational temporary depression
+  :PROPERTIES:
+  :ID:       c045bfc7-96d5-417f-97f4-70337b3132ea
+  :END:
 ** = a focus on processing* over action
    Process more and do less when hope is less certain.
    (*) processing = thinking, talking, studying
 ** "[[id:44c42ad0-82ec-4e72-a728-eb894d8d8aaa][with great need comes an unusually wide range of ideas]]"
+** information processing & drug use & retreat

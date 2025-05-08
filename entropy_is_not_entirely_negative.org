@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a9730be0-42bc-49ab-8a0a-f7bfd55c729d
+:END:
+#+title: Entropy is not entirely negative.
+A universe with too little entropy,
+like a giant crystal, would be boring.

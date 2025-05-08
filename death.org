@@ -3,8 +3,9 @@
 :END:
 #+title: death
 * see also
-  [[id:a9730be0-42bc-49ab-8a0a-f7bfd55c729d][Entropy seems not unambiguous.]]
-  [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep]]
+** [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
+** [[id:a9730be0-42bc-49ab-8a0a-f7bfd55c729d][Entropy is not entirely negative.]]
+** [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep]]
 * [[id:9d3a6c74-b537-45c2-be1f-5810374851e8][mortality pressure]]
 * [[id:a8d26591-06a2-4cbd-9fe1-068b487dd2e7][bounds on the effect of death on the still living]]
 * [[id:30952056-8521-470b-81bf-2e50f7d9d5e0][heaven]]

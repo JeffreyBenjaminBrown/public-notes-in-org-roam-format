@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       7dd8d9fd-8e7f-4719-a547-554eb182beb1
+:END:
+#+title: rescue smsn into org
+* understand SmSn data
+  in universal:
+  grep for each line that starts with @
+  keep only the first word (stop at whitespace)
+  uniquify
+* build org files
+  Build trees from every uncontained node.
+  Where they overlap, pick one ancestor
+  at random to be the context.
+  Once a context is fat (easiest measure: max # of nodes),
+  remove it from the pool of containers.

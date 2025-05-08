@@ -3,6 +3,7 @@
 :END:
 #+title: self-awareness
 * TODO [[id:b320a662-84df-473c-b05b-5a477caa764b][journaling : things to write about]]
+* Be accurate about how much power you have.
 * [[id:06b856e9-50fb-4025-9276-cd0b2b945fa8][Knowing how self and other feel can both be tricky.]]
 * [[id:da1795b5-9bc3-4f3b-a00a-3fe3e3134f30][I like behaving in a manner consistent with my past self.]]
 * [[id:71dc8ea7-cbd0-4fc5-8514-e0617b422569][Study your pains.]]

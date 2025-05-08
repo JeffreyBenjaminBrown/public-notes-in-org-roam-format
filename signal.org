@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       724e6628-a0ab-465d-a897-daa769e15e8a
+:ROAM_ALIASES: Signal
+:END:
+#+title: Signal (messaging app)
+* KDE password store workaround
+  # Run this in a shell. It opens the GUI.
+  signal-desktop --password-store=kwallet5

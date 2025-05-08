@@ -25,6 +25,7 @@
     https://github.com/synchrony/smsn-mode/wiki/Command-reference
 *** installing smsn
     https://github.com/synchrony/smsn/wiki/Installation
+* TODO [[id:7dd8d9fd-8e7f-4719-a547-554eb182beb1][rescue smsn into org]]
 * [[id:667bf4ea-d99d-41bb-98a9-368a86877e3e][why knowledge graphs matter]]
 * [[id:1f204410-71e5-4fcc-9e8d-a67777d881e1][smsn todo]]
 * [[id:070bb337-befd-493a-97e6-4c23c7727b60][smsn usage]]

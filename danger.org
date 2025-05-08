@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       60db77a9-dc3c-43f9-add5-dc5b1a45f593
+:END:
+#+title: danger
+* [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
+* [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
+* [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]]

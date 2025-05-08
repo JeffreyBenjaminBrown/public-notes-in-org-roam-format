@@ -3,7 +3,7 @@
 :END:
 #+title: physics
 * [[id:a0ec8a7c-dce1-4259-94f5-634e66424c72][acoustics]]
-* [[id:a9730be0-42bc-49ab-8a0a-f7bfd55c729d][Entropy is not unambiguous]].
+* [[id:a9730be0-42bc-49ab-8a0a-f7bfd55c729d][Entropy is not entirely negative.]]
 * [[id:8a936d3c-79ef-4ddd-acf9-a33bddd46d42][on the moon | in a vacuum]]
 * [[id:5a9e5a9f-8e1b-4487-ba1d-51692d73dd89][astronomy]]
 * [[id:c12af7d9-ebc8-4f22-9d08-f80e27fef540][radiation]]

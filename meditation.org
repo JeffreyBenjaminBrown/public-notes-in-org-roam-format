@@ -2,6 +2,7 @@
 :ID:       8582cec9-74e2-4664-a6d7-946c2ba240e0
 :END:
 #+title: meditation
+* [[id:a8461f62-4a68-4a26-a9d4-a063baf1d3d5][Presence obliterates micro-optimizations.]]
 * [[id:9d1cc360-4fce-4cd4-9176-8f12670add90][attention]]
 * [[id:7ab03ad0-c357-446c-81a3-1a0c619e7ffe][trainable perceptual skills]]
 * [[id:54a69ba6-725c-4398-b342-b9a18e197c72][Music in my head < music of the senses.]]

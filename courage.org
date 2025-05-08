@@ -11,3 +11,4 @@
 * [[id:6a18d9b1-930f-4f5d-88e4-ba90c019c5dd][things that require courage]]
 * [[id:f532dbb0-3a30-4692-b657-2213898787e8][courage vs. comfort]]
 * [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
+* [[id:a8461f62-4a68-4a26-a9d4-a063baf1d3d5][Presence obliterates micro-optimizations.]]

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       efd9d055-de2d-4604-9d0c-ec24361e3297
+:END:
+#+title: negativity
+* [[id:6b3b81b1-5984-4980-87b5-e5dd7cc3abce][why to study it]]
+* [[id:4c283fc1-95f4-48b5-9fc4-6bc471ff4241][Valence is not always obvious.]]
+* instances \ negativity
+** [[id:eabe22b3-ed71-4c11-9ac3-2a673226a5d1][anger]]
+** [[id:c73ee824-eb2b-43f4-8ead-32d9d62ddc75][death]]
+** [[id:05d467c3-fffd-457a-af5c-099f49b4b179][depression]]
+** [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
+** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]

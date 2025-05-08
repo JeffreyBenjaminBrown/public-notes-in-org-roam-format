@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       21f5e38c-9389-419b-a278-7f01802227ea
+:END:
+#+title: cognitive overlap
+* across persons
+  is high-dimensional
+** beliefs
+** preferences
+** habits
+** values
+** feelings
+* across ideas
+** feelings
+*** valence
+** elements
+** constraints
+** purpose
+** what who thinks of the idea

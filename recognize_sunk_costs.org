@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       413c6cce-ae3d-42c2-b2c8-c0b71ddbd935
+:ROAM_ALIASES: "sunk costs"
+:END:
+#+title: Recognize sunk costs.
