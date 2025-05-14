@@ -5,12 +5,15 @@
 #+title: motivation | ambition
 * see also
 ** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
+* anti-neighbors
+** the [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]
 * [[id:d7729777-c201-4244-a1a2-02372a6e6196][motivation & pride]]
 * [[id:69fbc526-ebce-4872-afad-5d094bcbf088][values, ideals]]
 * TODO ? [[id:9bc2145f-4e0c-4b5d-bbbe-d30b753826fb][my motivations]] (personal)
 * [[id:99d42cca-e03f-4d44-b383-4cf5107bfeff][hope & ambition]]
 * [[id:3459fbda-0e97-4c14-9f0a-9b507d1e759c][instances]]
-* [[id:eb3a4394-3274-4834-8a80-823b0849106f][unseriousness , a form of inconsistency]]
+* [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][seriousness]]
+** [[id:eb3a4394-3274-4834-8a80-823b0849106f][unseriousness , a form of inconsistency]]
 * [[id:a27f2004-c6e1-4833-9b15-be68554f20f0][Recognize fear in your aversions.]]
 * [[id:eb4f95a0-22ac-4f8a-a149-5c1cd569db3c][Save the world.]]
 * how to construct it

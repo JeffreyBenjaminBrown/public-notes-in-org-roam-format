@@ -3,6 +3,7 @@
 :END:
 #+title: ethics
 * = FEELS like an angry subject
+* [[id:31b4c38c-5885-4895-ae33-85cb4fb93b86][immaturity]]
 * [[id:dcbdb66e-55cb-46ce-af74-97aa841ddda7][irratinoality & ethics]]
 * [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other (across time) selves]]
 * [[id:72411da2-cb37-4be4-9746-47758a336240][Be immediately fascinated by (lived) ethical challenges.]]

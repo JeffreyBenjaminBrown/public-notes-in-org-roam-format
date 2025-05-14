@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       78800196-3115-4ffb-b949-ac83bef44448
+:ROAM_ALIASES: "find-name-dired"
+:END:
+#+title: how to find a file recursively via regex in Emacs
+* find-name-dired

@@ -1,13 +1,23 @@
 :PROPERTIES:
 :ID:       cc3f38e2-b1cf-4a76-9abb-eb31daf514de
+:ROAM_ALIASES: self-awareness self-consciousness
 :END:
-#+title: self-awareness
+#+title: self-awareness + self-consciousness
+* see also [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
+* [[id:7524f42b-9db0-4531-a21d-57df5954a34e][Knowledge graphs enhance self-awareness.]]
+* self-consciousness
+** That it feels bad is weird, because self-awareness is good.
+   :PROPERTIES:
+   :ID:       911e181e-7e6e-4cb2-9ee2-c7bf6071ad10
+   :END:
+** [[id:237c52c1-7bca-4b83-8b6b-b64ffe209438][awkwardness]]
 * TODO [[id:b320a662-84df-473c-b05b-5a477caa764b][journaling : things to write about]]
 * Be accurate about how much power you have.
 * [[id:06b856e9-50fb-4025-9276-cd0b2b945fa8][Knowing how self and other feel can both be tricky.]]
 * [[id:da1795b5-9bc3-4f3b-a00a-3fe3e3134f30][I like behaving in a manner consistent with my past self.]]
 * [[id:71dc8ea7-cbd0-4fc5-8514-e0617b422569][Study your pains.]]
 * [[id:2e6e41ec-87fd-4f79-9162-0114e61497ac][Everything one does is intentional, but every effect one has cannot.]]
+* [[id:cc950648-3cf1-46f6-94dc-5703b818e6a3][Unawareness (esp. feigned) of self can be funny.]]
 * personal
 ** [[id:27533eec-38f1-4f4a-8ffb-5125d99c0f78][My smile feels anxious, even when it looks genuine to me.]]
 ** [[id:d1f5961f-225c-4c6d-a4dc-2d0c93a8169d][My pain tolerance is dangerously high.]]

@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       902b3bbb-54eb-4a8c-916f-a2bcaa36225b
+:ROAM_ALIASES: absurd ridiculous
+:END:
+#+title: absurd | ridiculous
+* neighbors
+** existentialism
+** nihilism
+** contradiction
+** bad reasoning | irrationality
+** Dadaism
+** surrealism
+* absurdism, the philosophy
+** is diverse, and hsots some (to me) dumb ideas
+   like moral nihilism
+** [[id:744d2b36-74fb-4781-a436-c1e05874424a][Absurdism posits that existence is meaningless, but does not assign a valence to that fact.]]
+* [[id:e0ef4020-146f-4a10-9785-5d60900dd16c][absurd & conflict]]
+* [[id:d3ec5d13-3bb8-4104-8436-10c04c96724c][absurd & irony]]
+* [[id:fbf10600-8c8b-425c-aa46-0a1233ed4786][absurd * privacy]]
+* can lead to existential crises
+  a common theme in writing on the absurd
+* [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaninglessness | pointlessness]]
+** [[id:512026a4-8cd8-4735-88cd-aa3601ab32bb][Pointlessness is funny.]]
+* [[id:1c0b4006-a457-4d8b-ac62-77b853cc074f][Recognizing absurdity facilitates humility.]]
+* [[id:d681ff79-1acc-4f25-ac06-e6fedda67de9][Absurdity and seriousness are in tension.]]
+* [[id:9477d65d-3ea3-462f-9a18-1971ed7c35f5][Absurdity takes a broad perspective to be recognized.]]
+* "[[id:184a0ae5-595e-4208-92f9-0ef577f6564f][boldness is seldom without some absurdity]]"
+* in advertising
+  "the presence or absence of an absurd image was found to moderate negative attitudes toward products and increase product recognition"
+  -- https://en.wikipedia.org/wiki/Absurdity, <2025-05-13 Tue>
+* [[id:0cfdd6d1-c4ec-44b7-9855-ee917806ac11][incongruity]]
+** [[id:efead690-715e-4243-9dd9-9f6a53566263][aesthetics]]
+* [[id:635a5922-bdc6-4350-8e80-80d181fc8646][Inferiority can be funny.]]
+* absurd ideas
+  in the aesthetic, not the philosophical, sense
+** [[id:4dc21a1a-cf5d-48d9-9297-05af7c7618e5][labor v. capital]]
+** [[id:5954f6bc-e0cb-4084-96f8-935d6edf1913][if music was a scam]]

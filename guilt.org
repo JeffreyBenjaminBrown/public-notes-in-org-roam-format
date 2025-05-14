@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       b18fb650-5941-448f-b8ff-f1929dad2951
+:ROAM_ALIASES: guilt shame
+:END:
+#+title: guilt + shame
+* comes from believing one has broken a code of conduct, perhaps not one's own
+* guilt v. shame
+** different origins
+*** Shame comes from a violation of social norms (perceived to be) known by the group.
+*** Guilt is endogenous from the individual.
+** different scopes
+*** Shame is about the person.
+*** Guilt is about an act.
+** "Shame can almost be described as looking at yourself unfavorably through the eyes of others."
+* responses
+** [[id:2337a584-9297-4087-9664-a10dbeeafca3][confession]]
+** "denial by overcompensation"
+   :PROPERTIES:
+   :ID:       abf86c03-3938-4662-ac31-aaecfc5a9526
+   :END:
+   Such a response misses the point by changing the subject,
+   rather than addressing the guilt-inducing conflict.
+** [[id:467bfe91-983e-4572-8722-9ce29adb16fe][repression]]
+** [[id:3e052011-070e-49ec-8550-91ee40d9943f][projection]]
+** [[id:ec35b479-a37e-498d-a81f-b898c4a51552][self-harm]]
+   "It was found that self-punishment did not occur if people had an opportunity to compensate the victim of their transgression." -- the wikipedia article on guilt
+* neighbors
+** [[id:da59dd81-02a6-4bd6-a0d6-ea9973f46377][anxiety]]
+* is [[id:911e181e-7e6e-4cb2-9ee2-c7bf6071ad10][self-conscious]]
+* is absent in psychopaths

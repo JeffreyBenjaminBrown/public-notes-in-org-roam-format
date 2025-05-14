@@ -19,7 +19,11 @@
      keep a list of visited nodes,
      and not recurse into content when they reappear,
      reporting "duplicated with content elsewhere".
-*** handle documents with no (single) root
+*** BLK_DATE handle documents with no (single) root
+    :PROPERTIES:
+    :ID:       10561715-048f-4a0e-ae25-3daae054c8ce
+    :END:
+**** blocked on [[id:32b73b61-95d8-4358-9dab-a4352f4a6c1e][backward view]]
 **** the problem
      When a user asks to see a node in context,
      the plan before I decided to permit dup IDs

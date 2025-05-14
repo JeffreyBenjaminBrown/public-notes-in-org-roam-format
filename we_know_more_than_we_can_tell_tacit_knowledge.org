@@ -1,8 +1,11 @@
 :PROPERTIES:
 :ID:       d29d97b5-eed1-4a84-a845-63a94d1f8264
-:ROAM_ALIASES: "tacit knowledge"
+:ROAM_ALIASES: "We know more than we can tell." "tacit knowledge"
 :END:
-#+title: We know more than we can tell.
+#+title: inherently tacit knowledge
+* "Tacit" can be conflated with "incommunicable".
+  Tacit is closer to "not communicated".
 * Examples: riding a bicycle, recognizing a face.
 * Polanyi called this "tacit knowledge".
 * [[id:2a675d23-842e-485a-afe9-a3d28bbaa2fe][fun times to say "that is a complete sentence"]]
+* ? [[id:e5146f0b-4cf4-4684-aeb3-cd218fa5ac86][inherently incommunicable social knowledge]]

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       683f8add-cd50-4966-bfe1-3b276867be4b
+:END:
+#+title: Minoxidil, low dose, oral, for hair
+* 0.25 mg, which is 140th of a standard 10 mg pill, according to chat gpt. 140th is the ratio of the pill needed to the pill given according to the New York times article on minoxidil.

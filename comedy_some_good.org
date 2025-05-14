@@ -6,6 +6,7 @@
 * Aaron Chen
 * Adam Ray
 * Alec Flynn
+* Allie Pearse
 * Aparna Nancherla
 * Atsuko Okatsuka
 * Bill Bailey
@@ -35,6 +36,7 @@
 * Gavin Matts
 * Gina Brillon
 * Greer Barnes
+* Greg Warren
 * Ian Edwards
 * Ian karmel
 * James Acaster
@@ -42,7 +44,9 @@
 * Jeffrey Scheen
 * Jim Jeffries - Australian with the bit about guns in the US.
 * Josh Johnson
+* Kelsey Cook
 * Leslie Liao
+* Liz Miele
 * Louis Katz
 * Maddie Wiener
 * Marcelo Hernandez
@@ -60,6 +64,7 @@
 * Pat Burtscher
 * Pete Holmes
 * Phil Wang
+* Ruby Setnik
 * Ryan Goodcase
 * Ryan Long
 * Shane Gillis

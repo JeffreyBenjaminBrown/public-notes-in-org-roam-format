@@ -8,5 +8,6 @@
 * [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love , (mostly romantic?) ,, public notes on]]
 * power
 ** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
-** God
-** church, state
+** [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][God]]
+** [[id:336572ab-f513-4051-b75d-2a307392e54b][religion]]
+** [[id:3570b8e0-1c1b-482c-bbb1-18c0151e2e4f][state]]

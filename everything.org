@@ -18,6 +18,7 @@
 *** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
 *** [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]]
 *** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
+*** [[id:d7d8d66e-24b4-4f53-aa98-0d6707b26254][patience]]
 *** [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][peace]]
 *** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][humor]]
 *** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
@@ -34,10 +35,11 @@
 *** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
 *** [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]]
 *** [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
-** ? \ instances \ values
+** [[id:5fb0c3e5-a80d-46be-b5c6-26accde35bb3][ambiguous valence]] \ instances \ values
+*** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
+*** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
 *** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
 *** the [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]
-*** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
 *** fame
 ** anti-values
 *** [[id:74a00d03-5790-4851-b52e-6d2108eabfef][irresponsibility]]
@@ -58,6 +60,7 @@
 ** [[id:dc735cdb-6166-4f57-b7aa-b537b1ecb98f][lost]]
 ** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
 ** [[id:5fe70812-fd17-4692-aa21-61a55c80ea71][nostalgia]]
+** [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][seriousness]]
 ** [#B] ugly ones
 *** [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
 *** [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]
@@ -86,9 +89,11 @@
 *** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
 *** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][energy]] | power | force | work
 **** [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]s, some interesting
+*** the [[id:c0670a96-666b-4ebb-a2a6-42e83067f39d][sublime]]
+*** [[id:3a21903e-c17b-491d-a093-b49b5a38794d][blindness]]
 * problematic
 ** [[id:cd9b2ff2-52b5-437d-882d-a625c360dd3f][& personal]]
-** [[id:5357b637-c959-455f-b171-429390edbc04][conflict]]
+** [[id:5357b637-c959-455f-b171-429390edbc04][conflict]] | struggle
 *** [[id:cc103b68-6b43-483f-88a7-e724fdf853b7][fascism]]
 * interpersonal
 ** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]

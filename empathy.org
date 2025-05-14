@@ -16,3 +16,4 @@
   :END:
 * [[id:bf74717d-69b2-475b-af1a-d3100628e733][honesty v. empathy]]
 * [[id:5194fc12-7197-448e-9e42-4fe3872bd8ed][Fawning can be a trauma response.]]
+* [[id:878a9741-379c-45ef-b886-460ece8783c6][empathy & private]]

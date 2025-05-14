@@ -5,3 +5,4 @@
 #+title: uncertainty | ignorance
 * [[id:6fd90f9d-1841-4bb0-8107-e37aa644dc72][Uncertainty is easiest to reduce when it's high.]]
 * [[id:5a52fd0b-cd38-450a-a44b-9643c17c7352][Limiting certainty has quantum effects.]]
+* [[id:d06e3817-bc26-4dbd-8b1f-80093032e35a][Loss of innocence ~ loss of ignorance.]]

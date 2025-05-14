@@ -3,3 +3,4 @@
 :ROAM_ALIASES: "ethics + spirituality"
 :END:
 #+title: spirituality + ethics
+* [[id:fe6020ff-3dfe-40ed-8724-e226eef4694a][fear of God : useful]]

@@ -2,6 +2,9 @@
 :ID:       7dd8d9fd-8e7f-4719-a547-554eb182beb1
 :END:
 #+title: rescue smsn into org
+* [[id:aae78160-aab9-4355-ab41-93a2108798e0][Will updating my SmSN notes be hard with Skg?]]
+* TODO take data source into account when building docs
+  All nodes in a doc must belong to the same repo.
 * understand SmSn data
   in universal:
   grep for each line that starts with @

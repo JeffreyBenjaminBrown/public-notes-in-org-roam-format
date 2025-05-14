@@ -53,3 +53,10 @@ tantivy = "0.22"
 name = "not-main"
 path = "not-main.rs"
 #+END_SRC
+* Prefix an argument that is not modified with &.
+  This means the function is passed a reference,
+  which is efficient,
+  and is not allowed to modify it,
+  which is safe.
+  Also, the caller can continue to use the argument,
+  whereas without the & it would be unable to.

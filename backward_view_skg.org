@@ -3,7 +3,7 @@
 :END:
 #+title: backward view \ skg
 * should be through at least three relations
-  contains, subscribes, links to
+  contains, subscribes, hyperlinks to
 * generate intermediating relation headings
 ** with [[id:ec4a7b9d-bf43-4379-9eb0-a3314ba12f20][indicators]] and in the system font
 ** three kinds:

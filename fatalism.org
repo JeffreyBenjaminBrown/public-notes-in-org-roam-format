@@ -2,6 +2,8 @@
 :ID:       f1a5c61e-6aa2-4a74-9113-2404c8d6f674
 :END:
 #+title: fatalism
+* TODO ? merge [[id:05d467c3-fffd-457a-af5c-099f49b4b179][despair]]
+* [[id:06425bc4-741c-42f8-b365-4a21ea1ccf08][idealism ! fatalism]]
 * [[id:c045bfc7-96d5-417f-97f4-70337b3132ea][rational temporary depression]]
 * subjugation to destiny
 * [[id:846f7aa9-2ca4-45af-88f3-522376a33e9b][powerlessness <-> fatalism]]

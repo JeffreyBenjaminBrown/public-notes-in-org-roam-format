@@ -5,6 +5,6 @@
 * instances
 ** [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]
 ** [[id:86373005-c939-4627-b848-1610fccda8bd][neuroplasticity]]
-** [[id:45a85bc9-1018-40c8-83e7-75a850e520c8][freaky]] social relations
+** [[id:7c1233c5-02e7-451e-9265-fe35fe97855c][intimacy]]
 * tensions
 ** [[id:79e4ff95-ba24-43c1-8298-e4a1372070e8][maturity & adventure]]

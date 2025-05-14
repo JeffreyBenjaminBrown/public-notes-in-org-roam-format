@@ -2,6 +2,8 @@
 :ID:       4ff751ef-1d5b-4df7-89ed-69adb2c46fd4
 :END:
 #+title: drama
+* [[id:41cb54f4-d51b-4e5c-b8b6-264c9a4c6f78][A good story has positive and negative shocks.]]
+** [[id:5fb0c3e5-a80d-46be-b5c6-26accde35bb3][valence, emotional marbled]]
 * [[id:2f3c6dae-ded0-43f0-8b3d-0e9d095d8904][Could appreciating drama help one cope with stress?]]
 * [[id:92abdd76-cc43-45b1-b86f-03cc919c94c0][drama & pride]]
 * [[id:aabbe81f-1a56-4483-aad9-1b937f56dd7a][Sometimes the rhythm is to marinate in someone's words.]]
@@ -9,3 +11,5 @@
 * [[id:6e537826-402f-4254-a40a-652b31e2390a][transcendence]]
 ** [[id:cdec0e7c-02e8-43c0-a8ff-7de3d3c338ef][to escape what seems inevitable]]
 * the [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]
+* [[id:b209b769-d2e1-4a76-a538-0e6d498e911d][(performative) imagination & religion]]
+* [[id:47cb3eb0-06c1-48a6-8084-9ab9190b0495][hardship]]

@@ -10,6 +10,7 @@
 * TODO [[id:a04c2b66-35bd-45f6-8dfa-5513ffe36a9c][introspect & reprogram]]
 * [[id:50132c61-a3f9-4e28-bdbd-e2d0e6f35f28][emotion]]
 * [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
+* [[id:c05702ea-69af-4972-8b15-f74455f2123c][psychological development]]
 * Does plumbing my (recent) memory lead to less happy memories?
 ** [[id:85508f6f-946f-4474-9952-f25c25450f1c][It happened today]].
 * [[id:d19de124-694d-46e2-9bfd-f04c0f145adb][experience]]

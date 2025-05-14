@@ -1,8 +1,17 @@
 :PROPERTIES:
 :ID:       5357b637-c959-455f-b171-429390edbc04
+:ROAM_ALIASES: conflict struggle
 :END:
-#+title: conflict
+#+title: conflict | struggle
+* the difference
+  Struggle need involve only one agent
+  (v. the environment),
+  whereas conflict needs two.
+* see also [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]
+* [[id:e0ef4020-146f-4a10-9785-5d60900dd16c][absurd & conflict​]]
 * Good assertiveness is moved by circumstance, not sought.
+  assertiveness being against other people, but
+  creativity with the environment is to be encouraged.
 * [[id:508f4247-41b1-476a-afd7-c15cbc9e460a][Empathize before confronting.]]
 * [[id:2f2948f4-86eb-4122-a258-18691fd01861][I let monogamy -- entirely in my head -- prevent me from getting peoples' numbers.]]
 * [[id:cc103b68-6b43-483f-88a7-e724fdf853b7][fascism]]

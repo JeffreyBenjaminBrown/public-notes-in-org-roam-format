@@ -2,4 +2,6 @@
 :ID:       10f35302-f321-48ac-b3bb-cbc6647e7575
 :END:
 #+title: trust
-* see also [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
+* see also
+** [[id:7c1233c5-02e7-451e-9265-fe35fe97855c][intimacy]]
+** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]

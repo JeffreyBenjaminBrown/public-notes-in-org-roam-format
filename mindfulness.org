@@ -3,8 +3,6 @@
 :ROAM_ALIASES: awareness mindfulness
 :END:
 #+title: mindfulness | awareness
-* and maybe
-** imagine [[id:20498902-7288-4d65-bc57-76f1d5d35138][mindfulness, awe, in romance]]
 * [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
 * [[id:62693433-3e22-4624-b229-002f7d2d9332][dreaming]]
   Seems watseful to spend so long that way and not remember.
@@ -31,5 +29,8 @@
 * [[id:8024d6d8-9304-423b-88c4-8ecc408d4cc6][Awareness of pain feels better than unawareness of it.]]
 * [[id:858021f5-8474-4490-b30e-371159e35db6][Every moment is amazing.]]
 * [[id:c774af85-7ad0-4762-b28c-5e02d4881c8b][After filing something, know the whole note it went into.]]
+* [[id:9477d65d-3ea3-462f-9a18-1971ed7c35f5][Absurdity takes a broad perspective to be recognized.]]
+* and maybe
+** imagine [[id:20498902-7288-4d65-bc57-76f1d5d35138][mindfulness, awe, in romance]]
 * never sure
 ** [[id:71dc8ea7-cbd0-4fc5-8514-e0617b422569][Study your pains?]]

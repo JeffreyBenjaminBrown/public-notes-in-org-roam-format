@@ -6,6 +6,9 @@
 * TODO merge
 ** [[id:ce9e0a8d-19fa-48eb-9d0e-6cedcb0fdc99][notes, how to take]]
 ** [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult your notes : why and how]]
+* [[id:61f58054-3032-4e45-bfda-dbc278c040d7][graph writing = priority choice]]
+  When (on average) working on this topic I want
+  these ideas visible in this order.
 * [[id:84a8e1b0-baa5-4435-a564-a921e45e24de][the collector's fallacy (for information)]]
 * more reasons to classify a node once created
   In the class you might have a synonym.

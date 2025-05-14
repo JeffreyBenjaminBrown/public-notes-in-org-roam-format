@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       7524f42b-9db0-4531-a21d-57df5954a34e
+:END:
+#+title: Knowledge graphs enhance self-awareness.
+* Know what you perceive, imagine, know, enjoy, on a per-topic basis.
+* The data accumulated from your past writings quickly becomes overwhelmingly greater, in terms of information volume and time density, than what your mind can conjure de-novo without reference to written materials.

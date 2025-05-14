@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       dccc0ff5-4152-45b8-811d-7b237d38dbba
+:END:
+#+title: abstract art
+* Abstract art makes a good [[id:dbc70d46-50bc-45bd-b2e9-7b805edf40ed][tattoo]].
+  because it loses little when the skin stretches
+** [[id:dbc70d46-50bc-45bd-b2e9-7b805edf40ed][get a tattoo]]
+* Cataloguing the fundamental possibilities of a medium seems fun.
+  e.g. for pen on paper:
+    line, arc, texture, polygon, overlap, ...

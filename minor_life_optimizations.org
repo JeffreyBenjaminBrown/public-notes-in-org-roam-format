@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "efficiency \\ jbb"
 :END:
 #+title: minor life optimizations
+* [[id:dbc70d46-50bc-45bd-b2e9-7b805edf40ed][get a tattoo]]
 * Robovac for windows
 * [[id:51e8e65f-1f82-4c79-8d8b-613eb785b79f][Use chatgpt-shell (it covers other providers) for Emacs.]]
 * carpeta segura de samsung

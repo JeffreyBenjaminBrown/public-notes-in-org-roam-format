@@ -16,3 +16,5 @@
 ** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
 ** chastity
 ** [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]]
+* opposing concepts
+** [[id:80c58445-b82e-4023-99b7-ff44ee9096ea][betrayal]]

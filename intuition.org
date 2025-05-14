@@ -3,3 +3,4 @@
 :END:
 #+title: intuition
 * [[id:3d951fea-8c4b-4576-a712-39ac27cfc9d3][Notice when I think, while writing something, "true enough".]]
+* The intuition recognizes [[id:0cfdd6d1-c4ec-44b7-9855-ee917806ac11][incongruity]].

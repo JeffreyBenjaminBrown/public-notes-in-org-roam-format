@@ -4,3 +4,6 @@
 #+title: religion
 * [[id:a690aaee-78a6-4b07-8b62-3c60e27b2341][In 2025 62% of Americans identify as Christian.]]
 * [[id:850ead1e-7554-4d3b-a629-c103b539e5eb][Potential prophets everywhere, with no claim to permanence.]]
+* [[id:b209b769-d2e1-4a76-a538-0e6d498e911d][imagination & religion]]
+* religious imagery
+** [[id:5455234f-3ee7-4700-b605-3ee08bc23f1e][fallen angel]]

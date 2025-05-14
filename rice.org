@@ -4,6 +4,7 @@
 #+title: rice
 * proportions
   PITFALL: water scales nonlinearly with rice!
+** <2025-05-10 Sat> I tried a teaspoon with 3 cups rice.
 ** 1 cup brown rice, 2 cups water
 ** 2 cup brown rice, 3 cups water, biggest meas. spoon of salt
    I think that's a tablespoon.

@@ -6,6 +6,10 @@
 ** [[id:3c4b895b-9cf0-444c-b4d1-b4b3cae52960][human potential]]
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 ** [[id:8d5c9418-f228-4595-b423-05acd9921b10][optimism]]
+** [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurdity]]
 * [[id:b0edbce5-7036-4d32-8266-be8e061fb06c][Spiritual healing would require imagination.]]
 * [[id:2ef9af0e-4244-4d92-b141-c0aea60f7d9a][fantasy]]
 * [[id:70642496-6430-451d-9053-e5993891d2e6][neuroticism]]
+* [[id:b209b769-d2e1-4a76-a538-0e6d498e911d][imagination & religion]]
+* [[id:f4078373-73fe-43a5-8906-dfb993a0b15e][Oulipo : freedom and inspiration via constraints]]
+* "[[id:184a0ae5-595e-4208-92f9-0ef577f6564f][boldness is seldom without some absurdity]]"

@@ -3,6 +3,7 @@
 :END:
 #+title: humility
 * see also [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
+* [[id:1c0b4006-a457-4d8b-ac62-77b853cc074f][Recognizing absurdity facilitates humility.]]
 * Accurately perceiving oneself makes humility easier.
 * Humility permits seeing some category of good things.
   or the reverse -- seeing them permits humility
@@ -33,3 +34,10 @@
 ** [[id:c7dba9db-c335-45e0-ba71-198460a3a3da][self-sacrifice]]
 * [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][fear of God]]
 * [[id:ac5de538-7ff8-4db1-834e-5d4cfd594b12][Giving up can require courage and humility.]]
+* [[id:3987d04f-c539-4f73-916f-6a44bc0df7cd][Humility -> courage -> peace.]]
+* [[id:4616df20-0eeb-4014-8f0d-04c14dcef195][Humility -> confession -> peace.]]
+* [[id:3319db7f-b283-41ef-a849-c2bace4599de][Betrayal can be an inaccurately self-centered frame.]]
+* [[id:635a5922-bdc6-4350-8e80-80d181fc8646][Inferiority can be funny.]]
+* [[id:74af98fa-20f2-44ae-9e93-8f73f666724a][Alone, we often forget ourselves.]]
+* [[id:8142a014-8dba-4c24-bc51-8f8a2e24ce5e][humility => freedom]]
+* Humility facilitates recognizing the [[id:c0670a96-666b-4ebb-a2a6-42e83067f39d][sublime]].

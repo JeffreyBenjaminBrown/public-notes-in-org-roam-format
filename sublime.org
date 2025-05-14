@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       c0670a96-666b-4ebb-a2a6-42e83067f39d
+:END:
+#+title: sublime
+* some contexts it is applied to
+  health
+  ethics
+  intellect
+  metaphysics
+  aesthetics
+  spirituality
+  art
+  rhetoric
+* is often contrasted with beauty
+** Burke argues they are mutually exclusive.
+** Kant says beauty has clear boundaries, while the sublime does not.
+* Kant catalogued three kinds
+** the noble
+** the splendid
+** the terrifying
+   hurricanes
+* Mario Costa catalogued it by media
+** natural
+** metropolitan-industrial
+** technological
+* is salient in limit-situations in life
+  birth, marriage, death, ..
+** ref
+   "Tsang Lap Chuen presents the notion of limit-situations in life as being central to the human experience"
+* is salient at [[id:37f7be50-9b2c-4426-b288-e83225b6d5d8][the limits of expression]]
+  although it can at least sometimes be verbalized.
+** Jadranka Skorin-Kapov writes about the connection.
+   'in The Intertwining of Aesthetics and Ethics: Exceeding of Expectations, Ecstasy, Sublimity[27] argues for sublimity as the common root to aesthetics and ethics, "The origin of surprise is the break (the pause, the rupture) between one's sensibility and one's powers of representation"'

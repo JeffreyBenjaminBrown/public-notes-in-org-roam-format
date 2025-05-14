@@ -3,4 +3,9 @@
 :END:
 #+title: dissociation
 * [[id:2f3c6dae-ded0-43f0-8b3d-0e9d095d8904][Could appreciating drama help one cope with stress?]]
+* ways to dissociate
+** to forget oneself
+** to suspend judgment
+   moral, aesthetic
+** to feel [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaninglessness]]
 * [[id:15dc6043-cb8f-4202-8d56-7e7b1dac59f8][dissociative fantasies]], private

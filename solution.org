@@ -5,8 +5,10 @@
 #+title: solution | optimization
 * see also
 ** [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][realism]]
-** [[id:594df21f-51c9-485c-85a1-cf943f325219][irratinoality , inconsistency]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
+* anti-neighbors
+** [[id:594df21f-51c9-485c-85a1-cf943f325219][irratinoality , inconsistency]]
+** [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaninglessness | pointlessness]]
 * etymology
 ** Solution     suggests discrete possibility spaces.
 ** Optimization suggests continuous choice.

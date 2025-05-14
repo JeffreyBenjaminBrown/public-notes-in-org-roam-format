@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       fbf10600-8c8b-425c-aa46-0a1233ed4786
+:END:
+#+title: absurdity & privacy
+* The majority of absurd content is imagined and not expressed.
+* Even for shared absurdity, interpretations and reactions vary much more widely than for more common phenomena.
+  And much of those interpretations and reactions
+  are inexpressible, even if we had time to try.
+* [[id:0e1142bd-6f47-4112-b0a0-a862b7a1d192][not obviously good]]

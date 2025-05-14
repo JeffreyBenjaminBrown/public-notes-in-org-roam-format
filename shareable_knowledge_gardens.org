@@ -4,35 +4,31 @@
 :END:
 #+title: shareable knowledge gardens (skg)
 = an app I am building
-* innovations truly in reach
-** [[id:2cacb9e0-074a-4ae7-a889-b170a355923f][simple text tree graph relations]]
-** Extract the punctuation one tends toward automatically.
-   e.g. start with & and two words,
-   using (path to) parent if absent
-* goal
-  Una app para compartir notas. Imagínate que puedas mirar algo escrito por alguien y cambiar su forma, creando tu propio lente hacia un tema, y puedes compartir también lentes, todo siendo la misma forma de información.
-
-  Sería como social media, pero en vez de compartir cosas que desaparecen, juntos construiríamos nuestros mundos de ideas permanentes.
 * refs
 ** on Github
    https://github.com/JeffreyBenjaminBrown/skg
 *** The README there might be the best introduction to skg.
 ** [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][connectivity demos]] for knowledge graphs
-* make knowable to the user
-** [[id:2cacb9e0-074a-4ae7-a889-b170a355923f]["It, this and these" make tree relationships easy.]]
-* Use pattern might be more important than medium.
-  First take notes on what someone wrote.
-  Then disperse them, carrying citations.
-* Motivation: Shared note-taking is not yet feasible.
-** citation would be immediate
-* TODO conceptual
-** Rush to [[id:3b01c240-8eae-41df-acac-e9a870adc4a3][where I can use it for my own data]].
-*** that seems better than this
-**** Rush to make this interesting enough for others to want to code it with me.
-** Anticipate getting architecturally stuck.
-   For instance, if I implement fetch and save without sharing,
-   will it be hard to introduce sharing?
+* motivation
+** Shared note-taking is not yet feasible.
+** innovations in reach
+*** [[id:2cacb9e0-074a-4ae7-a889-b170a355923f][simple relations]]
+* architecture
+** kinds of links
+*** Use "link" to mean multiple kinds of relationship.
+*** instances
+**** hyperlinks to
+**** contains
+     = tree|document structure
+**** overrides
+**** subscribes to
+*** [[id:61f58054-3032-4e45-bfda-dbc278c040d7][Most of them express priority.]]
+** Avoid complex data structures in Emacs.
+   Emacs seems best for buffer text.
+   That text's properties can encode anything I need.
+   All other logic, including types, should be in Rust.
 * problems
+** Citation is tedious.
 ** [[id:003d273d-4162-415b-b27a-217b1ae739e9][precise sharing, implementing in skg]]
 ** what if everyone can write their lens onto wikipedia
 ** must understand what edits will be allowed from Emacs before I can specify what Rust sends
@@ -44,40 +40,30 @@
 ** Anticipate a recursive containment relationship?
    = What to do if one tries to view an infinite (therefore non-tree, with a containment cycle) file?
 ** [[id:5eba18fb-8524-4073-b23c-b6fe5aa153f1][interactions between links, subscriptions and comments]]
-* BLK_DATE easy wishes
-** That I could fluff up a bare context that has links.
-** That I could show the path from here to root.
-   when it is offscreen
-** Order by last time read.
-*** see also
-**** PageRank
-**** [[id:a5b74e88-c524-4f89-b29d-1bc324a77369][spaced repetition]]
-*** more generally, order by a function of
-**** when last read
-**** when the things *in* it were last read
-     ? use something like PageRank
-**** how many times they have been read
-**** size of sets: content, links, containers, backlinks
-**** maybe more things
+* TODO conceptual
+** ? Rush to where I can use it for my own data.
+*** That seems better than rushing to make it interesting enough for others to want to code it with me.
+** Anticipate getting architecturally stuck.
+   For instance, if I implement fetch and save without sharing,
+   will it be hard to introduce sharing?
 * TODO tasks left
-** [[id:129f20c9-adf5-43dc-933a-3bc21babe152][Have Rust act on the s-exp from Emacs.]]
 ** [[id:7b2499c4-4c93-44dc-83b1-0a4b9175d6a8][backward view \ skg]]
+   This blocks [[id:10561715-048f-4a0e-ae25-3daae054c8ce][handling documents with no (single) root]].
+** [[id:7dd8d9fd-8e7f-4719-a547-554eb182beb1][rescue smsn into org]]
+** [[id:18047d85-01cc-4323-bcc0-27c24524dc98][graph merges, e.g. merges of whole repos of nodes]]
+** [[id:129f20c9-adf5-43dc-933a-3bc21babe152][Have Rust act on the s-exp from Emacs.]]
 ** solve the [[id:83f4b23d-1f74-4dbb-9e22-2b121043362a][two nodes with the same ID problem]]
-** to replace org-roam (in my own usage)
-   :PROPERTIES:
-   :ID:       3b01c240-8eae-41df-acac-e9a870adc4a3
-   :END:
-*** [[id:ab19097e-522f-4a88-ab9c-32b58fe38212][search for a title from Emacs]]
-*** import/export*
-**** export to org-roam
-     would make people more willing to try skg
-*** [[id:ec4a7b9d-bf43-4379-9eb0-a3314ba12f20][indicators for node headings in trees]]
-*** a visits history
-    A map from node ids to lists of times,
-    or a list of (ID, time) visits.
-    Look at (recency, number of visits) plots of IDs.
-    Translate Josh's format into mine, or use his.
-    Ask what visualizations of it he uses.
+** [[id:ab19097e-522f-4a88-ab9c-32b58fe38212][search for a title from Emacs]]
+** import/export*
+*** export to org-roam
+    would make people more willing to try skg
+** [[id:ec4a7b9d-bf43-4379-9eb0-a3314ba12f20][indicators for node headings in trees]]
+** a visits history
+   A map from node ids to lists of times,
+   or a list of (ID, time) visits.
+   Look at (recency, number of visits) plots of IDs.
+   Translate Josh's format into mine, or use his.
+   Ask what visualizations of it he uses.
 ** for sharing & privacy
 *** a user config file
 **** include for each repo
@@ -189,7 +175,7 @@
 *** Not every headline should be searchable.
     By default they should be,
     but the user should be able to turn that off.
-*** [[id:99ae154c-5dfc-4a95-9bdf-af09159c6da4][merges have subscription consequences]]
+*** [[id:bc8fd4c3-0566-400c-96a8-0f4632e7fd1c][merging graph nodes]]
 *** nested links -- links in titles
 **** the idea
      This is like creating a single-use relation type.
@@ -277,6 +263,24 @@
 *** automate the test of recursive_s_expression_from_node
 **** in tests/content_view.rs
 **** currently it prints to screen
+* BLK_DATE easy wishes
+** That I could fluff up a bare context that has links.
+** That I could show the path from here to root.
+   when it is offscreen
+** Order by last time read.
+*** see also
+**** PageRank
+**** [[id:a5b74e88-c524-4f89-b29d-1bc324a77369][spaced repetition]]
+*** more generally, order by a function of
+**** when last read
+**** when the things *in* it were last read
+     ? use something like PageRank
+**** how many times they have been read
+**** size of sets: content, links, containers, backlinks
+**** maybe more things
+** Extract the punctuation I tend toward automatically.
+   e.g. start with & and two words,
+   using (path to) parent if absent
 * non-obvious implied features
 ** Sharing and version control are independent.
    :PROPERTIES:
@@ -292,15 +296,10 @@
    but not what they unsubscribe to -- not even its repo.
 * fun to explain
 ** Each note is a collection of notes.
-** Containment and linking are different.
+** Containment and hyperlinks are different.
    A context is a note contained in no other note.
    But a context, like any other note, can be linked to.
 ** public privacy and private privacy
    The user can insert a link to a private file anywhere, and the link might be public or not. When not, it is instead part of a corresponding file in their private repository, which refers to the public repository context that it modifies.
-* architectural principles
-** Avoid complex data structures in Emacs.
-   Emacs seems best for buffer text.
-   That text's properties can encode anything I need.
-   All other logic, including types, should be in Rust.
 * nah
 ** [[id:60ac4c5c-fca6-4943-86ee-8f8f9011eaa6][cloning seems unnecessary]]

@@ -2,7 +2,10 @@
 :ID:       8647bcfc-d5ef-45c3-b6ad-fc7789f0fad2
 :END:
 #+title: forgiveness, inc. self-forgiveness
-* TODO merge [[id:0ec34098-ed89-4dcd-a057-2699e6bf216c][mercy]]
+* Forgiveness is a form of [[id:6e537826-402f-4254-a40a-652b31e2390a][transcendence]].
+  :PROPERTIES:
+  :ID:       5b9caf47-ff2f-4821-8476-2dee77d51ec4
+  :END:
 * [[id:58aa2e6d-e07c-4adb-bc53-c9a569084529][If your time, energy and/or information were not enough, it's not your fault.]]
 * rational fatalist forgiveness
   :PROPERTIES:
@@ -12,3 +15,5 @@
 ** You'll be better off as a friend of the wrongdoer.
    Forgiveness in these conditions would be optimal if
    the world also would be better off.
+* see also
+** [[id:4db238a2-d921-4383-9e18-76b93e80f67f][apology]]

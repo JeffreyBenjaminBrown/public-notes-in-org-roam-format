@@ -3,7 +3,9 @@
 :ROAM_ALIASES: desperation despair depression
 :END:
 #+title: desperation | despair | depression
+* TODO ? merge [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
 * [[id:99d42cca-e03f-4d44-b383-4cf5107bfeff][hope & ambition]]
+* [[id:744d2b36-74fb-4781-a436-c1e05874424a][Absurdity is not necessarily unpleasant.]]
 * rational temporary depression
   :PROPERTIES:
   :ID:       c045bfc7-96d5-417f-97f4-70337b3132ea

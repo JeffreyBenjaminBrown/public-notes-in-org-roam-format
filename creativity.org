@@ -3,6 +3,7 @@
 :END:
 #+title: creativity
 * see also [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
+* can require [[id:9503e93c-e13f-4be2-ad59-66350feeb21f][privacy]]
 * motivations for study
 ** [[id:b0edbce5-7036-4d32-8266-be8e061fb06c][Spiritual healing would require imagination.]]
 ** [[id:344a5d25-70e4-487d-a802-24c64ace3637][Living for the moment seems to require creativity.]]
@@ -10,3 +11,4 @@
 * [[id:c48c126f-c92a-48ac-bff0-28933edf859f][creative \ jbb]]
 * [[id:b45af920-ae69-411f-81af-7cd744abacf7][tour of synonyms]]
 * [[id:6669f82f-9408-4a1a-9162-863972be8150][AI and art]]
+* [[id:2ac7f271-eea5-4d23-852f-798322eff6e2][metaphor]]

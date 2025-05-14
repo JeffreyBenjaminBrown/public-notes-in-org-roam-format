@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       bc8fd4c3-0566-400c-96a8-0f4632e7fd1c
+:END:
+#+title: merging graph nodes
+* see also
+** [[id:18047d85-01cc-4323-bcc0-27c24524dc98][graph merges, e.g. merges of whole repos of nodes]]
+* [[id:99ae154c-5dfc-4a95-9bdf-af09159c6da4][merges have subscription consequences]]
+* [[id:774a1e57-db8a-431b-808a-283204744200][Merges should be recorded via extra_id.]]

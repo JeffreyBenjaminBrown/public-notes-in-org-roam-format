@@ -15,8 +15,14 @@
   :PROPERTIES:
   :ID:       c893937e-bca4-4a77-aa6c-ad481bf1d042
   :END:
+** see also
+*** [[id:37f7be50-9b2c-4426-b288-e83225b6d5d8][expressivity voids]] | the limits of expression
+*** the [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]
 ** [[id:dd04d72b-8f97-4fc7-92d8-1858c5323428][presennce v. rationality]]
-** incompleteness theorems
+** [[id:e5146f0b-4cf4-4684-aeb3-cd218fa5ac86][tacit social knowledge]]
+** [[id:8142349d-b141-4083-8f60-4e75b5c807fc][incompleteness theorems]]
 * [[id:75d26e15-7a43-42bc-987e-e30d59e5bc94][Courage can rely on reason.]]
 * [[id:7b24e00d-6acb-4723-9267-6a9935dddacd][Truth is an assumed property of one universe.]]
 * [[id:c045bfc7-96d5-417f-97f4-70337b3132ea][rational depression]]
+* technical
+** [[id:c563e6be-631d-4f23-923d-050498334e2a][mathematics]]

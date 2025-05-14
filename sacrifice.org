@@ -2,5 +2,6 @@
 :ID:       c893b584-5741-4987-876f-52bfa6c399b1
 :END:
 #+title: sacrifice
+* [[id:06425bc4-741c-42f8-b365-4a21ea1ccf08][idealism ! fatalism]]
 * [[id:390cee26-7766-4cbe-98ae-455f29c3254a][Sacrifice your ego to a higher cause.]]
 * [[id:d0999d21-8eb2-4d35-abf4-0812e6a4131a][Sacrifices are a way to evidence love.]]

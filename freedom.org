@@ -3,5 +3,9 @@
 :END:
 #+title: freedom
 * [[id:2e76a07c-c6b4-4d05-968e-0bdd20ee4230][freedom v. commitment]]
+* freedom & forgiveness
 * [[id:4c25a3eb-4f21-4c20-9fee-2a18275ca089][volition]]
 ** [[id:6b340387-efbd-4959-a785-5ac196310c62][Free will seems illusory.]]
+* [[id:c9f0f297-7959-4c4a-bc91-160d861e3344][confession & liberation]]
+* [[id:744d2b36-74fb-4781-a436-c1e05874424a][Recognizing the absurd can be freeing.]]
+* [[id:8142a014-8dba-4c24-bc51-8f8a2e24ce5e][humility => freedom]]

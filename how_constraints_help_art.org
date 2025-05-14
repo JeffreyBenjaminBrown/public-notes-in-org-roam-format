@@ -2,9 +2,11 @@
 :ID:       b449bd05-ac06-4548-8982-3a6eb05f5d91
 :END:
 #+title: how constraints help \ art
+* [[id:f4078373-73fe-43a5-8906-dfb993a0b15e][Oulipo : freedom and inspiration via constraints]]
 * a discussion on [Xenharmonic Alliance: Off-Topic \ Facebook]
   https://www.facebook.com/groups/xenharmonicOT/posts/6360497437353139
-* the idea
-  They lead you to focus on things you don't normally.
-  For instance, sticking to one scale leads me to put more study into
-  "juicing" each voice -- rhythm, duration, accents, decorations.
+** the idea
+   They lead you to focus on things you don't normally.
+   For instance, sticking to one scale leads me to
+   "juicing" other parameters harder --
+   rhythm, duration, accents, decorations, voice independence.

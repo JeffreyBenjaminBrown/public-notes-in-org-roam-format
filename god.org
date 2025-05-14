@@ -2,9 +2,6 @@
 :ID:       16a6b4bc-5bd8-4089-b2cb-9d25cd04c670
 :END:
 #+title: God
-* fear of God
-** "The fear of the Lord is the beginning of knowledge: but fools despise wisdom and instruction."
-*** source
-    Proverbs, The Bible (KJV)
-*** thoughts
-    Various useful fears could substitute for The Lord in this sense -- of social ostracism, inner self-loathing, etc. To bundle them together into a single thing and call it (some aspect of, e.g. the wrath of) God seems useful even if there is no conscious entity experiencing or steering the bundle. God would be a kind of vector sum of the motivations imposed by various aspects of reality -- a vector worth following.
+* [[id:fe6020ff-3dfe-40ed-8724-e226eef4694a][fear of God : useful]]
+* [[id:2ea1bfbb-d135-44bb-a8ab-36e59c33aed0][God as metaphor]]
+* [[id:b209b769-d2e1-4a76-a538-0e6d498e911d][imagination & religion]]

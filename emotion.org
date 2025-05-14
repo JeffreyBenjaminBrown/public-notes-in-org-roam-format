@@ -4,14 +4,6 @@
 :END:
 #+title: emotion
 * [[id:2370c5e8-e713-4d6f-8d6c-32f9b55523e1][instances]] \ feelings
-* Valence is not always obvious.
-  :PROPERTIES:
-  :ID:       4c283fc1-95f4-48b5-9fc4-6bc471ff4241
-  :END:
-  examples
-** [[id:60db77a9-dc3c-43f9-add5-dc5b1a45f593][danger]]
-** [[id:a30e5cb0-eb09-4e20-bb17-3872ab4d4a1c][lust]]
-** the [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]
 * [[id:82fbcfc0-61ea-4f30-82e5-3eb5148a16cf][emotion & frequency]]
 * [[id:dca72b0d-ee2c-4666-8e87-4cf5bf58da98][emotional free lunches]]
 * [[id:06b856e9-50fb-4025-9276-cd0b2b945fa8][Knowing how self and other feel can both be tricky.]]
@@ -22,4 +14,5 @@
 * [[id:75d26e15-7a43-42bc-987e-e30d59e5bc94][[Courage] can rely on reason.]]
 ** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]], too
 * [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
+* [[id:461ac824-69d6-4b73-bbe8-ee3e41bdc915][Art highlights extremes.]]
 * [[id:4569aa13-9b2b-4f60-b85d-a4bf4913edc9][& private]]

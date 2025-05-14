@@ -114,3 +114,4 @@
 ** [[id:3d093f8d-9215-4c56-b3e4-eb7a2b8beeee][rectangles in Emacs]]
 ** [[id:3b4440e1-ef04-4637-b22d-cbdb60d58329][switching buffers in Emacs]]
 ** [[id:debbace4-173e-4dd7-99ac-a7a806905640][yasnippet + hide-lines, my hack for Emacs & TidalCycles]]
+** [[id:78800196-3115-4ffb-b949-ac83bef44448][find (recursively) a filename via regex]]

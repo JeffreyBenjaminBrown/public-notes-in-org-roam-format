@@ -1,26 +1,32 @@
 :PROPERTIES:
 :ID:       e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec
-:ROAM_ALIASES: information
+:ROAM_ALIASES: information knowledge
 :END:
-#+title: information , about
+#+title: information | knowledge
+* [[id:2ac7f271-eea5-4d23-852f-798322eff6e2][metaphor]]
+* motivation (for keeping a note about information)
+** [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]]
+** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
 * some kinds
-** [[id:12fda009-a653-4cb3-a201-544d69190de6][secrets]]
 ** [[id:50132c61-a3f9-4e28-bdbd-e2d0e6f35f28][emotion]]
 *** [[id:636d3275-7997-4503-9769-37cdb51722e2][Pain is only sometimes a learning experience.]]
 ** [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
 ** [[id:2ef9af0e-4244-4d92-b141-c0aea60f7d9a][fantasy]]
 ** [[id:2549e02a-fb43-484c-9d92-27b094a5e67c][beliefs]]
 ** [[id:f995e767-4eef-4f80-90b5-3af572f39622][preferences]]
-* [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
+** [[id:12fda009-a653-4cb3-a201-544d69190de6][secrets]]
+* anti-neighbors
+** [[id:d012e5a4-c33c-496f-841f-a0db90d8c1e6][errors]]
+** [[id:3a21903e-c17b-491d-a093-b49b5a38794d][blindness]]
+** [[id:7ea32dd5-3ad2-4de1-851b-a3a8d7f88711][uncertainty | ignorance]]
 * [[id:24fcf76a-fafa-4cb2-8312-43719f7aa207][separation | fission]]
 * ? [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]] (Maybe bring its contents here.)
 * [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][understanding, thinking, learning]]
 * [[id:49a03bb3-7d57-4e38-89a5-93074d8fd152][information = truth ,, if properly qualified]]
-* [[id:d012e5a4-c33c-496f-841f-a0db90d8c1e6][errors]]
 * [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]
 * [[id:c543ecbc-9af5-4a9f-a7b2-fce74104c5cc][language]]
-* [[id:7ea32dd5-3ad2-4de1-851b-a3a8d7f88711][uncertainty | ignorance]]
 * [[id:8bf642b8-c720-475d-9972-ff7d5553ff10][wholeness fission fusion emptiness]]
+* [[id:461ac824-69d6-4b73-bbe8-ee3e41bdc915][Art highlights extremes.]]
 * technical
 ** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
 ** [[id:299fd87e-de56-4671-b51f-e3554ba7dd95][logic, formal]]

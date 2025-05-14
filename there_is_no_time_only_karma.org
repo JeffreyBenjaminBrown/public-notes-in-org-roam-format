@@ -3,7 +3,10 @@
 :ROAM_ALIASES: karma
 :END:
 #+title: There is no time, only karma.
-* More precisely, karma is more fundamental.
-* karma ~ consequences
+* defining , attempts at
+** More precisely, karma is more fundamental.
+** [[id:865222da-06c9-4714-8b22-72ffd3187993][Karma is inseperable from population details.]]
+*** [[id:5f647d47-1610-4e3c-8b2a-9b3b251eb351][Causation is who?]]
+** karma ~ consequences
 * technical
 ** [[id:e54b0669-aa26-45cf-a5fa-6bb41f871790][Time is time's initial/foundational conditions.]]

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       4dc21a1a-cf5d-48d9-9297-05af7c7618e5
+:ROAM_ALIASES: "capital v. labor"
+:END:
+#+title: labor v. capital
+* Labor has to unionize against capital, because capital is locally oligopolistic.
+  yet it sells to [a global audience in perfect competition, that can't bargain]
+** Therefore artist labels should prevent entry, so they can compete with the few distributors.
+* Spotify is like an artists' charity that makes a ton of money.
+* Distributors should not just reward creators with a big fraction, but should also (if I'm right about creators' preferences) make the pay structure more progressive.
+  I assume the artists' ex-ante preferences are more important than what they feel after their reward for distribution has been determined.
+* Artists vs. distributors who own infrastructure.

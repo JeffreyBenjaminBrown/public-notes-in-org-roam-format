@@ -1,0 +1,107 @@
+:PROPERTIES:
+:ID:       18047d85-01cc-4323-bcc0-27c24524dc98
+:END:
+#+title: graph merges, e.g. merges of whole repos of nodes
+* INITIAL: PITFALLs in language
+** The term "merge" can be confusing, because
+   in some contexts below,
+   the object of the "merge" is a pair of nodes,
+   while in others it is a pair of repos containing many nodes.
+* the merge/update/subscribe procedure
+** The user can choose to prefer a side, and with what consequences.
+   :PROPERTIES:
+   :ID:       378df588-4f93-4a31-b6e8-3bed79976e8e
+   :END:
+   The updating user might prefer a side only for purposes
+   of defining what it means for a node "to have vanished".
+
+   Beyond that, they could choose to automatically delete
+   graph targets (references) or content (imports)
+   that vanished in the preferred
+   or even to also (but not to only)
+   delete a whole node automatically
+   if it is only in the less-preferred data.
+** for new (i.e. only in the preferred graph) nodes
+   just accept them
+*** because meh
+    The user could be given a choice
+    but it seems like an unimportant freedom.
+** for links common to both versions of a node
+   accept the preferred graph's order change
+*** because meh
+    The user could be given a choice
+    but it seems like an unimportant freedom.
+** for title and text content changes
+   resolve by hand
+** [#B] for deleted nodes
+*** [[id:378df588-4f93-4a31-b6e8-3bed79976e8e][the user can choose to prefer a side, and with what consequences]]
+*** Define "vanish" to exclude nodes added to the less-preferred data.
+    If the preferred data is a newer version of the older,
+    and if the user modified the less-preferred data
+    before merging it with the preferred,
+    they will want to consider only nodes that were present
+    in the old data before it was modified,
+    when defining whether something "vanished".
+*** the user can choose to automate some resolutions
+    either for vanishing nodes, or for those and also vanishing links
+**** if they choose to vet the vanishing of whole nodes
+     rather than just accepting it, then
+     for a node that vanishes entirely,
+     it should be convenient to see nodes that had linked to it,
+     and to search for things it might have been replaced with.
+**** if they choose to vet the vanishing of links
+     They should see whether the deleted link's target
+     is linked to from anywhere else.
+** for [[id:67bdcd4c-2f10-4e6d-afc8-d721bf746a8b][nodes that were merged or split]] in the preferred data
+   Either accept the preferred data's representation, or
+*** it should be convenient to see
+**** a set difference for the links from the merged node and the union of the two nodes that were merged
+**** a similar set difference for the links into the three nodes
+     the three = the merged node and the two that were merged
+** for [[id:61f58054-3032-4e45-bfda-dbc278c040d7][links]] only in the preferred data
+   They can be put in a separate, special branch,
+   "also from [preferred source]",
+   In it, they appear in the order they appear in the preferred source,
+   but without the links that are already in this context
+   outside the special branch.
+
+   The user can merge the nodes from the special branch
+   into the other branches,
+   at which point they disappear from the special branch.
+   If they merge them all, the empty special branch disappears.
+* the interface
+** the title, when focused on
+*** a false branch appears offering a diff view of its title text before and after
+    :PROPERTIES:
+    :ID:       f95ad464-adf8-4b6f-897e-8c666aae5240
+    :END:
+    colored to make clear (ala diff-so-fancy)
+    what is common and what is only in one of them
+** the text content, when focused on
+   gets the same [[id:f95ad464-adf8-4b6f-897e-8c666aae5240][treatemnt as the title (when focused on)]]
+** the tree content, when focused on
+*** if the node is not involved (lately, this commit) in a merge/split
+**** links from it that were moved but are still in the same list
+     :PROPERTIES:
+     :ID:       995c3b70-fc5d-4105-8c9e-163406882cff
+     :END:
+***** should be visibly indicated
+      only at the new position,
+      by a not very attention-getting color.
+***** should permit the user to see where they were
+      but put that behind a keystroke,
+      to not obscure more important aspects of the diff
+**** links that vanish
+***** should be in red
+***** should permit the user to create an "other sources" branch
+      Seeing what still links to [what the deleted link targeted]
+      can reassure the user that the deletion is good.
+**** new nodes
+***** should be in green
+*** if the node is involved (lately, this commit) in a merge or split
+**** INITIAL: vocab
+     Of the two datasets, call the one in which they were merged M,
+     and the one in which they were separate S.
+**** a generated "sources" branch
+     of the data conflict view of the mereged nodes
+     contains a sub-branch for the two repos being merged

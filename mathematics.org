@@ -3,6 +3,7 @@
 :END:
 #+title: mathematics
 * [[id:a82f9347-7e03-4230-b229-beddeb4fea41][geometry]]
+* [[id:8142349d-b141-4083-8f60-4e75b5c807fc][incompleteness theorems]]
 * [[id:20fc15fe-5108-406b-bd01-585ab491ae32][linear algebra]]
 * [[id:299fd87e-de56-4671-b51f-e3554ba7dd95][logic, formal]]
 * [[id:05e27068-7ab8-4c26-9a83-3cf1b64d1e68][combinatorics]]

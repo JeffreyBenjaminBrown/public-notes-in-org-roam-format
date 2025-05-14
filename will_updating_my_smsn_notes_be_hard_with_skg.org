@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       aae78160-aab9-4355-ab41-93a2108798e0
+:END:
+#+title: Will updating my SmSN notes be hard with Skg?
+* [[id:61f58054-3032-4e45-bfda-dbc278c040d7][some vocab]]
+* It seems to be easier* than [[id:18047d85-01cc-4323-bcc0-27c24524dc98][graph, that is multi-node, merges]]
+  (*) Easier because one can ignore the branch in that note
+  about nodes that were mergeed or divided.
+* TODO But what if I want to push back to smsn?

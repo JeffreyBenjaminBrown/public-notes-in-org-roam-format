@@ -4,3 +4,6 @@
 #+title: errors \ information
 * [[id:262cb4a6-23fd-4622-9e1b-b0fe8888876b][the online echo chamber effect]]
 * [[id:84a8e1b0-baa5-4435-a564-a921e45e24de][the collector's fallacy (for information)]]
+* [[id:dc06fe20-a388-4856-ac4f-fca5e76d7f9f][to be fixed less firmly in time]]
+* [[id:227c3af6-14fc-42b2-a1ff-76313149a746][denial]]
+* [[id:467bfe91-983e-4572-8722-9ce29adb16fe][repression (psychology)]]

@@ -3,10 +3,20 @@
 :END:
 #+title: negativity
 * [[id:6b3b81b1-5984-4980-87b5-e5dd7cc3abce][why to study it]]
-* [[id:4c283fc1-95f4-48b5-9fc4-6bc471ff4241][Valence is not always obvious.]]
+* [[id:5fb0c3e5-a80d-46be-b5c6-26accde35bb3][sign marbling]]
+** [[id:4c283fc1-95f4-48b5-9fc4-6bc471ff4241][Emotional valence is not always obvious.]]
 * instances \ negativity
 ** [[id:eabe22b3-ed71-4c11-9ac3-2a673226a5d1][anger]]
 ** [[id:c73ee824-eb2b-43f4-8ead-32d9d62ddc75][death]]
 ** [[id:05d467c3-fffd-457a-af5c-099f49b4b179][depression]]
 ** [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
 ** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
+** [[id:b18fb650-5941-448f-b8ff-f1929dad2951][guilt]]
+** [[id:f7def45b-9007-4021-8f2e-c02d48d352d3][remorse and regret]]
+* responses
+** [[id:4db238a2-d921-4383-9e18-76b93e80f67f][apology]]
+** [[id:467bfe91-983e-4572-8722-9ce29adb16fe][repression]], a response to many of them
+** [[id:3e052011-070e-49ec-8550-91ee40d9943f][projection (error)]]
+** [[id:ec35b479-a37e-498d-a81f-b898c4a51552][self-harm]]
+** [[id:227c3af6-14fc-42b2-a1ff-76313149a746][denial]]
+** [[id:04fc0958-39b6-450b-8880-a794f2d2bf63][rationalization]]

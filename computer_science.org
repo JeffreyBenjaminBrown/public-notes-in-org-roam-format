@@ -33,3 +33,4 @@
 * some concepts from computer science
 ** [[id:4f29e189-09c2-48f7-98b4-25cadcd43ccd][file extension]]
 ** [[id:bd3b6d2b-6f8b-4dcc-bd52-fe288d3f0a11][pipe (computer science)]]
+* [[id:974cd67d-8c30-414d-aeb0-f832a21e08b4][calculations , some cool]] (if infeasible)

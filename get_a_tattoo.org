@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       dbc70d46-50bc-45bd-b2e9-7b805edf40ed
+:ROAM_ALIASES: "tattoo, get a"
+:END:
+#+title: get a tattoo
+* Two sets of 3 nearly-parallel lines at an angle, kind of aligned in their lengths, the two sets intersecting.
+* A wireframe box with one edge and one face that would have been connected to that edge missing.
+  Thus permitting one to see inside it.
+  The edge can be floating nearby.
+  The box should be not quite right angles.

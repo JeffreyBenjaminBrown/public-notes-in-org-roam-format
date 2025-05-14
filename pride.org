@@ -4,10 +4,11 @@
 :END:
 #+title: pride | ego
 * [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][fear of God]]
+* [[id:abf86c03-3938-4662-ac31-aaecfc5a9526]["denial by overcompensation"]]
 * it & [[id:a963e722-1f05-46e1-a9f5-d5f874b71f8f][self-criticism]]
 ** [[id:564189da-b150-4890-9c48-601b231f5586][Wouldn't effective pride play at the border with self-criticism?]]
 ** [[id:5daba6c9-195b-4b4c-be8c-3298010c9d43][Is pride actually productive, or could it be separated from self-criticism?]]
-* Pride plugs one's perceptions.
+* [[id:37d98532-edf4-4a7c-8cd2-4df99f967b44][Pride blinds.]]
 * Can be pleasant or not, healthy or not.
   And I think those correlate the way one would hope.
 * High self-esteem was considered bad in Biblical times, but low self-esteem, only recently.

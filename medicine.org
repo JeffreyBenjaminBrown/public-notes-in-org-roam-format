@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       dd2c33b3-21a1-45bd-ab86-c110c40a932f
 :END:
-#+title: drugs
+#+title: drugs (medicine)
 * [[id:56f38282-0eb1-41b1-bcf3-ee09c4c10ed9][when to buy drugs at Colsubsidio]]
 * [[id:f359aef3-0438-487f-b062-896937de6372][warfarin]]
 * [[id:f8399762-9772-4257-8439-4e466f7b1ff2][Flonase (allergy medication)]]

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       4db238a2-d921-4383-9e18-76b93e80f67f
+:END:
+#+title: apology
+* see also
+** [[id:8647bcfc-d5ef-45c3-b6ad-fc7789f0fad2][forgiveness]]
+** [[id:2337a584-9297-4087-9664-a10dbeeafca3][confession]]
+* effective ones expressing [[id:f7def45b-9007-4021-8f2e-c02d48d352d3][remorse]] include
+  per some people cited in the Wikipedia article
+** the story, including the apologizer's role
+** acknowledgement of the harm done
+** acceptance of responsibility

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       61f58054-3032-4e45-bfda-dbc278c040d7
+:END:
+#+title: Structure, hyperlinks and subscriptions all express priority.
+* the priorities they express
+** when one adds (import, tree, document) structure
+   In a topic's tree, when you add data, you are saying:
+
+   "When (on average) working on this topic,
+   I want these ideas visible in (on average) this order."
+** when one adds hyperlinks
+   When you link some text to another node, you are saying:
+
+   "_ is so relevant to [x] that it deserves to be easily visited from [x]".
+** when one adds a subscription
+   "[subscribed to] is worth being aware of from [subscriber]"

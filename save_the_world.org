@@ -3,3 +3,4 @@
 :END:
 #+title: Save the world.
 * [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
+* [[id:4dc21a1a-cf5d-48d9-9297-05af7c7618e5][labor v. capital]]
