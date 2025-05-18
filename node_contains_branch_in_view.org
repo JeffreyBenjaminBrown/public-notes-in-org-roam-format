@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       6ed5be66-787c-479c-8119-cb340a80d72a
+:END:
+#+title: [node] contains [branch] in [view]: plans for Skg
+* the replacement to make
+  [host] contains [branch] ->
+  [host] contains [branch] when seen from [perspective]
+
+  Each bracketed role is played by a single node ID.
+* file representation
+** First node = view. Call it V.
+** Second node, or first if there's only one = the containing node.
+** List of contained nodes.
+   Any of these contents might also be a view.
+   Suppose one is, and call it W.
+   In the same tree that V spawned,
+   the user can view the contents of W from its perspective,
+   alongside its contents from V's (or one or the other).
+* emacs representation
+** Each heading has two IDs: self and perspective
+   perpsective = from host onto self
+** If the ID pair is duplicated in saved text, warn and only save one.
+** Announce it if the perspective from self to host differs from that of host to host's host.x
+** Branches can bear different relationships to host.
+   When there are multiple kinds of branches from a single host,
+   group them with descriptive intermediating headings.

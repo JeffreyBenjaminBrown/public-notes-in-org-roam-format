@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       97cfad8a-0d5e-4fca-915b-c6b13ac8b788
+:ROAM_ALIASES: fear vulnerability
 :END:
-#+title: fear
+#+title: fear | vulnerability
 * [[id:5194fc12-7197-448e-9e42-4fe3872bd8ed][Fawning can be a trauma response.]]
 * [[id:a27f2004-c6e1-4833-9b15-be68554f20f0][Recognize fear in your aversions.]]
 * Fear can rationally lead to [[id:05d467c3-fffd-457a-af5c-099f49b4b179][desperation and despair]].

@@ -13,6 +13,7 @@
 ** TODO merge [[id:245776bb-6704-44a1-be58-6cd962912937][<2025-05-05 Mon> notes from Wikipedia]]
 ** [[id:97565ea6-dddf-416c-a1fb-98bce5ec3c8c][Values are stories.]]
 ** instances \ values
+*** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 *** [[id:a1487b9c-70d9-493a-b61e-e512def4a0d5][freedom]]
 *** [[id:ff3b637a-ad1c-4381-afa7-570fc76b650d][self-confidence]]
 *** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]

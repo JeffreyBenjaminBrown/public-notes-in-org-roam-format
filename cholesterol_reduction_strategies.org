@@ -7,6 +7,9 @@
 * Fast sometimes
 * Get sun
 * TODO Avoid these foods
+  :PROPERTIES:
+  :ID:       d8ccc0a4-ef6a-4d0e-a392-e1d7da2844c1
+  :END:
 ** TODO if bread, no gluten
 ** meat
 ** dairy

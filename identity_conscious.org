@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       880c2596-e4da-486d-863d-6daff64ca89c
+:ROAM_ALIASES: "conscious identity" "self"
+:END:
+#+title: identity , conscious
+* in-links
+** [[id:47cb3eb0-06c1-48a6-8084-9ab9190b0495][hardship]]
+*** [[id:ec35b479-a37e-498d-a81f-b898c4a51552][self-harm]]
+** [[id:43ab15d1-1fc8-4fe6-b8b3-43fccf941563][recording too much]]
+* [[id:7aa2d6f7-c262-4f85-926b-7cbbeec02f38][acquisitiveness]]
+* [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness]]
+* [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness + self-consciousness]]
+* [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][self-confidence]]
+* [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-consciousness]]
+* [[id:a963e722-1f05-46e1-a9f5-d5f874b71f8f][self-criticism]]
+* [[id:4b9ebd95-fda4-4b60-a8bd-497513ffccaf][self-criticism & jbb]]
+* [[id:ec35b479-a37e-498d-a81f-b898c4a51552][self-harm]]
+* [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]
+* [[id:a9ab0de0-a5e2-4f71-9298-f183ae4bb58e][self-improvement \\ personal]]
+* [[id:5ea91604-78e0-43e8-a309-b2e7a0cc6eb2][self-replicating robots]]
+* [[id:b288df19-c02e-42fa-a4b6-4cd3c0162e52][self-respect | independence]]
+* [[id:c7dba9db-c335-45e0-ba71-198460a3a3da][self-sacrifice]]
+* [[id:ee0e7d70-20c9-4af2-8e01-c8e03255c8d8][self-abnegation]]
+** [[id:ee0e7d70-20c9-4af2-8e01-c8e03255c8d8][self-abnegation | austerity | asceticism]]

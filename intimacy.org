@@ -2,7 +2,7 @@
 :ID:       7c1233c5-02e7-451e-9265-fe35fe97855c
 :END:
 #+title: intimacy
-* is grounded in [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]], [[id:10f35302-f321-48ac-b3bb-cbc6647e7575][trust]] and [[id:9503e93c-e13f-4be2-ad59-66350feeb21f][privacy]]
+* is grounded in [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][vulnerability]], [[id:10f35302-f321-48ac-b3bb-cbc6647e7575][trust]] and [[id:9503e93c-e13f-4be2-ad59-66350feeb21f][privacy]]
 * 36 questions for increasing closeness
   These are famous.
   https://ggia.berkeley.edu/practice/36_questions_for_increasing_closeness
@@ -18,3 +18,5 @@
 * [[id:141d7c71-d118-4511-96fe-a9061dc2af55][Lessons about intimacy are funny.]]
 * [[id:2982d50a-86bb-4f7b-a72b-80497313d4e3][Sharing emotions I feel vulnerable about is intense.]]
 * [[id:d7a402d9-94a1-4db7-8b62-fad22d211f74][teasing]]
+* [[id:749e5df3-0edd-4be5-b742-52d6d1c7f773][if an app had to take off in our minds]]
+* [[id:55c4978f-fc00-460d-95d8-43185241d1cc][extreme otherness]]

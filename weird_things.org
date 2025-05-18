@@ -1,7 +1,20 @@
 :PROPERTIES:
 :ID:       4017c25d-ec4d-4f41-aaed-e3be02dba620
+:ROAM_ALIASES: weird
 :END:
-#+title: weird things
+#+title: weirdness
+* new
+** [[id:8ceffe3f-cc4d-48f8-87b9-ebe2a247c710][ownserhip is weird \ tax.co]]
+* [[id:55c4978f-fc00-460d-95d8-43185241d1cc][extreme otherness]]
+* [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
+** [[id:48d21443-3ce5-4ce2-b164-d48cac9e22f5][psychedelics as mushroom survival strategy]]
+* Its [[id:4c283fc1-95f4-48b5-9fc4-6bc471ff4241][emotional valence is not obvious.]]
+* exceptions
+  :PROPERTIES:
+  :ID:       5e606792-9005-4e92-8112-8c64ac6caf59
+  :END:
+** [[id:0e1adba0-130b-4101-9f31-4f482ff133f3][exceptions I had to add to Java \ SYGA]]
+* [[id:7c1233c5-02e7-451e-9265-fe35fe97855c][intimacy]]
 * [[id:9a511696-ace4-4085-bcd2-17c9b05019f2][crazy things nations have done]]
 * [[id:0785a86f-14e9-4dff-901a-16c7aa487140][people who are good at weird stuff]]
 * [[id:9c57f5b0-7dbe-46c7-91dd-b44209d40336][Seals make what sounds like experimental electronic music.]]
@@ -13,3 +26,5 @@
 * [[id:09b82f96-2866-4f7a-81e1-c692f8ce77cb][Standing => narrow hips => humans give birth early => prolonged infancy.]]
 * [[id:f1ac5423-6341-4eeb-9b7f-41e5050dd179][Human foragers may have been smarter than us.]]
 * [[id:b6868add-aa4b-4b83-8a5b-dfea2aec27e0][Isaac Newton]]
+* extreme communication
+** from extremely different worlds

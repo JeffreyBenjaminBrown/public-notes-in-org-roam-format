@@ -1,10 +1,14 @@
 :PROPERTIES:
 :ID:       7b52eb18-91c5-4f83-be4f-40ff8a918541
-:ROAM_ALIASES: motivation ambition
+:ROAM_ALIASES: motivation ambition voluntarity
 :END:
-#+title: motivation | ambition
+#+title: motivation | ambition | voluntarity
 * see also
 ** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
+* ease
+** [[id:1eb17267-8251-4bf3-8f58-5cbec72ea187]["You can have this as much as you take it."]]
+* motivation ! identity
+* [[id:880c2596-e4da-486d-863d-6daff64ca89c][identity , conscious]]
 * anti-neighbors
 ** the [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]
 * [[id:d7729777-c201-4244-a1a2-02372a6e6196][motivation & pride]]

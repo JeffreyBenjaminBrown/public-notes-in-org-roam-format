@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       9b40c46b-bd16-4003-8a9e-763f5a7dbc22
+:ROAM_ALIASES: psych
 :END:
 #+title: psychology
 * TODO merge with
@@ -16,6 +17,8 @@
 ** [[id:604e2666-dbfb-4de7-82a1-ceae26d81069][obsessive-compulsive behavior]]
 ** [[id:3e052011-070e-49ec-8550-91ee40d9943f][projection]]
 ** [[id:227c3af6-14fc-42b2-a1ff-76313149a746][denial]]
+* disorders
+** [[id:f532d19a-40a9-4a6d-9492-f0cdfdc23dea][PTSD]]
 * my own [[id:d33fdd39-6933-4de8-abbe-8d0879ec9258][psychology]] (personal)
 * skills
 ** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
@@ -31,5 +34,6 @@
 ** [[id:f7aafc6b-122b-439b-87f6-b6d8abc6835c][Internal Family Systems (psychology)]]
 *** [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other selves]]
 * [[id:25208ca0-d3ee-42d7-94a4-7177ba9da01f][In animals, boldness ~ rigidity, while shyness ~ sociability ~ creativity.]]
+* [[id:b4149ba9-8047-4efc-b19a-2f3dcb628cb2][moral injury]]
 * no consequence to me
 ** [[id:060458c5-e565-4975-a5df-9140b3f02338][Sapir-Whorf hypothesis]]

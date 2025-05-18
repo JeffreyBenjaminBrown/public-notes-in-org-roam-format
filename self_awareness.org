@@ -3,8 +3,12 @@
 :ROAM_ALIASES: self-awareness self-consciousness
 :END:
 #+title: self-awareness + self-consciousness
-* see also [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
-* [[id:7524f42b-9db0-4531-a21d-57df5954a34e][Knowledge graphs enhance self-awareness.]]
+* ways to know
+  :PROPERTIES:
+  :ID:       9fc09f11-ef5b-475d-a885-f0fd0b667178
+  :END:
+** see also [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
+** [[id:7524f42b-9db0-4531-a21d-57df5954a34e][Knowledge graphs enhance self-awareness.]]
 * self-consciousness
 ** That it feels bad is weird, because self-awareness is good.
    :PROPERTIES:

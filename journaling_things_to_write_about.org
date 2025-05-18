@@ -1,23 +1,25 @@
 :PROPERTIES:
 :ID:       b320a662-84df-473c-b05b-5a477caa764b
 :END:
-#+title: journaling : things to write about
+#+title: journaling
+* [[id:43ab15d1-1fc8-4fe6-b8b3-43fccf941563][recording too much]]
+* things to write about
 From the series on journaling for [personal change?]
 in the Waking Up app.
-* my state relative to each of the people I care about
-* My secrets
-** Describe what I perceive, and how I perceive it
-*** How do feelings interact with those perceptions?
-*** Where does my attention go, or avoid?
-    [[id:2741003a-955b-4d4e-a7d1-152e7cbdd8db][Wants pull at attention, which we sometimes fight.]]
-** How does it benefit me or others, or fail to do so?
-** What would people be most surprised to learn
-** Implications for what I want
-** What they suggest about how I feel about the people I hide them from
-** What are they
-* Try describing me to a hypothetical stranger I don't care about impressing.
-** Then consider how what I've left out suggests blind spots, and how they might affect me.
-** Only 4 or 5 sentences.
-** [[id:3e3f7daa-1c86-4cb4-9010-59cd6e8080a4][<2025-02-26 Wed>: trying it]]
-* How I have been perceived
-* Roles I play
+** my state relative to each of the people I care about
+** My secrets
+*** Describe what I perceive, and how I perceive it
+**** How do feelings interact with those perceptions?
+**** Where does my attention go, or avoid?
+     [[id:2741003a-955b-4d4e-a7d1-152e7cbdd8db][Wants pull at attention, which we sometimes fight.]]
+*** How does it benefit me or others, or fail to do so?
+*** What would people be most surprised to learn
+*** Implications for what I want
+*** What they suggest about how I feel about the people I hide them from
+*** What are they
+** Try describing me to a hypothetical stranger I don't care about impressing.
+*** Then consider how what I've left out suggests blind spots, and how they might affect me.
+*** Only 4 or 5 sentences.
+*** [[id:3e3f7daa-1c86-4cb4-9010-59cd6e8080a4][<2025-02-26 Wed>: trying it]]
+** How I have been perceived
+** Roles I play

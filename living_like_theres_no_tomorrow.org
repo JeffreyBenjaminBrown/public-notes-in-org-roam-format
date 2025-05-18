@@ -33,3 +33,4 @@ Thinking about these notes can feel unpleasant.
 ** [[id:c9f48f52-2646-4f54-9c72-b03d05e616d3][Pursuing _ as if it could make one's entire life worth it.]]
 * [[id:13e24c8b-c45a-4448-a3a8-8b1ae529f092][fast medium experience]]
 * [[id:84a8e1b0-baa5-4435-a564-a921e45e24de][the collector's fallacy (for information)]]
+* [[id:43ab15d1-1fc8-4fe6-b8b3-43fccf941563][recording too much]]

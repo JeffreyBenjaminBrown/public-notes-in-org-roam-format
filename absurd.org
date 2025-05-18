@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       902b3bbb-54eb-4a8c-916f-a2bcaa36225b
-:ROAM_ALIASES: absurd ridiculous
+:ROAM_ALIASES: absurd absurdity ridiculous
 :END:
 #+title: absurd | ridiculous
 * neighbors
@@ -14,6 +14,15 @@
 ** is diverse, and hsots some (to me) dumb ideas
    like moral nihilism
 ** [[id:744d2b36-74fb-4781-a436-c1e05874424a][Absurdism posits that existence is meaningless, but does not assign a valence to that fact.]]
+* absurdity v. drama
+  :PROPERTIES:
+  :ID:       daad763d-ae3f-4817-b02a-bf2a4e80f721
+  :ROAM_ALIASES: "drama v. absurdity"
+  :END:
+** [[id:8c655869-1805-4eb2-ae83-d53b51e14b88][There can be no surprise without expectation.]]
+* [[id:3e105c37-33ff-4692-a194-2f51d79ccc5d][There are always so many things that I love.]]
+* absurd & death
+** [[id:6d34c425-e68d-41d0-b090-ae3ecac39c83][Find peace with death while avoiding it.]]
 * [[id:e0ef4020-146f-4a10-9785-5d60900dd16c][absurd & conflict]]
 * [[id:d3ec5d13-3bb8-4104-8436-10c04c96724c][absurd & irony]]
 * [[id:fbf10600-8c8b-425c-aa46-0a1233ed4786][absurd * privacy]]

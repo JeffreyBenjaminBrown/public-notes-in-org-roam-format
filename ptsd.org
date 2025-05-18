@@ -1,0 +1,47 @@
+:PROPERTIES:
+:ID:       f532d19a-40a9-4a6d-9492-f0cdfdc23dea
+:END:
+#+title: PTSD
+* symptoms
+** disturbing thoughts, feelings, dreams
+** negative reactions to trauma-related cues
+** attempts to avoid trauma-related cues
+   inc. discussing or thinking about it
+** augmented fight-or-flight response
+** [[id:22f1e371-0000-482b-b14f-04d0db176072][dissociative amnesia]]
+* some surprising triggers
+** [[id:b4149ba9-8047-4efc-b19a-2f3dcb628cb2][moral injury]]
+** extreme weather
+** miscarriage and even successful childbirth
+** experiences in psychiatric hospitals
+** experiences with police
+** embarrassment due to psychotic behavior
+** fear of or actual loss of control
+* a surprising therapy
+** play therapy (for children)
+* common comorbidities
+** tinnitus ("strongly associated")
+** difficulty regulatinng emotions
+   esp. outbursts
+** substance-use disorders
+* primary treatments
+** counselling
+** medication - less effective
+* "Peritraumatic dissociation" predicts it.
+  "fairly consistent predictive indicator of the development of PTSD"
+* In the US, 9% of people develop it at some point in their lives.
+  <2025-05-15 Thu>, Wikipedia on PTSD
+* Young children are surprisingly resistant to it.
+  "Young children are less likely to show distress, but instead may express their memories through play."
+  Wikipedia on PTSD,  <2025-05-15 Thu>
+* "in the absence of therapy, symptoms may continue for decades"
+* Social support matters.
+** Having a good support network helps.
+** "The likelihood of sustained severe symptoms is also higher if people around the survivor ignore (or are ignorant of) the rape or blame the rape survivor."
+* Most trauma does not lead to it.
+  In one study the most predictive situation was sexual assault on a woman, and even it only resulted in PTSD 19% of the time.
+* It is both over- and under-reported.
+  Over-reported for benefits.
+  Under-reported for stigma, etc.
+* Preemptive "psychological debriefing" seems not to work and might be harmful.
+  "meant to allow individuals to directly confront the event and share their feelings with the counselor and to help structure their memories of the event"

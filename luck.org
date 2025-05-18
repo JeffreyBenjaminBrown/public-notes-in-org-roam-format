@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       94ad699e-517a-4424-b3bf-7a0f0427f385
+:ROAM_ALIASES: luck blessedness
 :END:
-#+title: luck
+#+title: luck | blessedness
 * Luck can be a valid observation of someone's history.
   :PROPERTIES:
   :ID:       4c92fdab-f573-4a6f-b83e-00eb798b3b60

@@ -3,6 +3,7 @@
 :ROAM_ALIASES: guilt shame
 :END:
 #+title: guilt + shame
+* triggered by [[id:b4149ba9-8047-4efc-b19a-2f3dcb628cb2][moral injury]]
 * comes from believing one has broken a code of conduct, perhaps not one's own
 * guilt v. shame
 ** different origins

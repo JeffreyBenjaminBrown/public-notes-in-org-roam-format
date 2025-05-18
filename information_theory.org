@@ -3,6 +3,9 @@
 :ROAM_ALIASES: information knowledge
 :END:
 #+title: information | knowledge
+* [[id:880c2596-e4da-486d-863d-6daff64ca89c][identity , conscious]]
+* [[id:4017c25d-ec4d-4f41-aaed-e3be02dba620][weirdness]]
+* [[id:9fc09f11-ef5b-475d-a885-f0fd0b667178][ways to know]]
 * [[id:2ac7f271-eea5-4d23-852f-798322eff6e2][metaphor]]
 * motivation (for keeping a note about information)
 ** [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]]

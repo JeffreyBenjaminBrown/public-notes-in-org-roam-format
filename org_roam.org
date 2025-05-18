@@ -2,7 +2,7 @@
 :ID:       63f366e6-b768-4f3f-9093-a776f2b4e069
 :END:
 #+title: org-roam
-* refs
+* refs - [[id:748043b9-7f9b-4700-af31-6655da12b4b4][I always go here]]
 ** for help : the Discourse group
 ** awesome-org-roam : a curated list of resources
    https://github.com/kot-behemoth/awesome-org-roam
@@ -10,6 +10,9 @@
 *** public
 **** with Github formatted links
 ***** link for browsing humans
+      :PROPERTIES:
+      :ID:       748043b9-7f9b-4700-af31-6655da12b4b4
+      :END:
       https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/everything.org
 ***** git remote
       git@github.com:JeffreyBenjaminBrown/public_notes_with_github-navigable_links.git
