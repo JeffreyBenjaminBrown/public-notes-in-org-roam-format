@@ -11,6 +11,14 @@
 ** [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][connectivity demos]] for knowledge graphs
 * [[id:6ed5be66-787c-479c-8119-cb340a80d72a][[node] contains [branch] in [view]​]]
 * TODO tasks left
+** A clone should not duplicate the title and body from the original when they are equal.
+   Instead those fields should give the ID of the original.
+
+   So the type of the title and body fields must change,
+   from String to
+     type NodeText =
+         NodeTextDuplicates {id   : ID}
+       | NodeTextIs         {text : String}
 ** [[id:7b2499c4-4c93-44dc-83b1-0a4b9175d6a8][backward view \ skg]]
    This blocks [[id:10561715-048f-4a0e-ae25-3daae054c8ce][handling documents with no (single) root]].
 ** [[id:7dd8d9fd-8e7f-4719-a547-554eb182beb1][rescue smsn into org]]
