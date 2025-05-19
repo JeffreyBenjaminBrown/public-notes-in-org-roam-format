@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       7b2499c4-4c93-44dc-83b1-0a4b9175d6a8
 :END:
-#+title: backward view \ skg
+#+title: skg / backward view
 * should be through at least three relations
   contains, subscribes, hyperlinks to
 * generate intermediating relation headings
