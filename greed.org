@@ -3,4 +3,5 @@
 :ROAM_ALIASES: acquisitiveness greed
 :END:
 #+title: acquisitiveness | greed
+* [[id:4ac50bea-31ef-415c-8328-22f3693d2da6][Don't miss your life trying to get a better one.]]
 * [[id:357a78c5-f0e8-4811-9f1e-e7d56ac797cd][How different are lust and greed?]]

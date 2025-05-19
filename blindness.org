@@ -1,9 +1,17 @@
 :PROPERTIES:
 :ID:       3a21903e-c17b-491d-a093-b49b5a38794d
+:ROAM_ALIASES: blindness ignorance uncertainty
 :END:
-#+title: blindness
+#+title: blindness | ignorance | uncertainty
+* [[id:6fd90f9d-1841-4bb0-8107-e37aa644dc72][Uncertainty is easiest to reduce when it's high.]]
+* [[id:5a52fd0b-cd38-450a-a44b-9643c17c7352][Limiting certainty has quantum effects.]]
+* [[id:d06e3817-bc26-4dbd-8b1f-80093032e35a][Loss of innocence ~ loss of ignorance.]]
 * [[id:37d98532-edf4-4a7c-8cd2-4df99f967b44][Pride blinds.]]
 * [[id:467bfe91-983e-4572-8722-9ce29adb16fe][repression (psychology)]]
 * [[id:227c3af6-14fc-42b2-a1ff-76313149a746][denial]]
+* darkness
+** [[id:4858b083-0138-426d-b12c-b36bfe513f26][shyness]]
+** [[id:fa784e79-3a44-4080-b525-c109e4b2075c][mistakes and lies in romance]]
+** [[id:73814ab3-4ee8-4d8a-8092-b2d1abd42eb8][dark complexity]]
 * weird
 ** [[id:5a437aa6-03b7-4633-97b4-204bf487ec6f][to control the world through selective (and probably diminishing) blindness]]

@@ -19,6 +19,11 @@
 ** [[id:059f1add-e1e1-4124-bab6-5d270e0332e7][Imaginative hope is funny]]
 * [[id:170688b3-4d53-41d3-986b-b8c32468bac8][love + broken]]
 * [[id:89a7a71d-6a22-4431-a794-d89253e524a2][love & exclusion]]
+* love & peace -> monogamy
+  :PROPERTIES:
+  :ID:       77bf63a4-6e87-41c0-8d97-327285715d49
+  :END:
+** [[id:4ac50bea-31ef-415c-8328-22f3693d2da6][Don't miss your life trying to get a better one.]]
 * goals
 ** [[id:4e748426-9ff0-4e7b-8192-b582a2ae7f95][community]]
 ** [[id:890d9101-09c6-48f0-be54-e4e74a0ec961][romance + surprise]]

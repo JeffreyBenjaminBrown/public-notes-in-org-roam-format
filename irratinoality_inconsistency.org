@@ -3,6 +3,7 @@
 :ROAM_ALIASES: inconsistency irratinoality
 :END:
 #+title: irratinoality , inconsistency
+* [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][Commitment]] is hard.
 * [[id:dcbdb66e-55cb-46ce-af74-97aa841ddda7][irratinoality & ethics]]
 * [[id:c893937e-bca4-4a77-aa6c-ad481bf1d042][the limits of logic]]
 * [[id:74a00d03-5790-4851-b52e-6d2108eabfef][irresponsibility]]
@@ -10,4 +11,3 @@
 * [[id:4aaa0364-f6de-425a-b942-8c0e3d9eb13c][scheduling reevaluation]]
 * it [[id:3c04ac36-3739-4fb2-a997-860797e365a7][+ broken promises = perpetual imminence]]
 * [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other selves]]
-* [[id:eb3a4394-3274-4834-8a80-823b0849106f][unseriousness , a form of inconsistency]]

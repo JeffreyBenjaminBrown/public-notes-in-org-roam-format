@@ -16,8 +16,7 @@
 * TODO ? [[id:9bc2145f-4e0c-4b5d-bbbe-d30b753826fb][my motivations]] (personal)
 * [[id:99d42cca-e03f-4d44-b383-4cf5107bfeff][hope & ambition]]
 * [[id:3459fbda-0e97-4c14-9f0a-9b507d1e759c][instances]]
-* [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][seriousness]]
-** [[id:eb3a4394-3274-4834-8a80-823b0849106f][unseriousness , a form of inconsistency]]
+* [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]] is hard
 * [[id:a27f2004-c6e1-4833-9b15-be68554f20f0][Recognize fear in your aversions.]]
 * [[id:eb4f95a0-22ac-4f8a-a149-5c1cd569db3c][Save the world.]]
 * how to construct it
@@ -46,6 +45,7 @@
 * [[id:5dda3731-264a-44f0-87f6-90a680fd3402][Goal can affect energy profoundly.]]
 * [[id:afd8c176-4ba7-4dcd-becb-ba8c29f18ebb][One can be proud without being self-satisfied.]]
 * [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][fear of God]]
+* [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][realism]]
 * dubious
 ** [[id:e756f326-8f05-44e3-85ee-ffdd54a6082f][life hack ? mission => jobhunt]]
 ** [[id:c9f48f52-2646-4f54-9c72-b03d05e616d3][Pursuing _ as if it could make one's entire life worth it.]]

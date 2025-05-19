@@ -303,9 +303,4 @@
 * nah
 ** [[id:60ac4c5c-fca6-4943-86ee-8f8f9011eaa6][cloning seems unnecessary]]
 * [[id:da0e89a7-0e9d-41da-8c2d-ec4ab2e37c2b][embarrassing]]
-* to sam harris, nathan macintosh
-  Should I keep this a secret? Ask you to share it?
-** I want what you want -- social informational justice and creativity.
-** I ask something that is cheap specifically for someone of your interests and fame. I would thank you publicly.
-** I am making the app Skg for it and need help. People who care about what you care about might be able to help me build it if you asked.
-** Please read about it. It is a simple novel writing program with societal implications.
+* [[id:b1c2091b-7441-4459-b49e-fac3fe1ed918][skg outreach]]

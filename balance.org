@@ -4,13 +4,13 @@
 :END:
 #+title: balance | peace | equilibrium | harmony
 * TODO merge with [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
-* [[id:2f3c6dae-ded0-43f0-8b3d-0e9d095d8904][Could appreciating drama help one cope with stress?]]
 * see also
 ** [[id:bf73fa6f-cd1a-4237-8bdb-7a98025cf226][wholeness]]  [[id:24fcf76a-fafa-4cb2-8312-43719f7aa207][fission]]  [[id:1a8ddfa4-0522-4c92-948a-21a97a277bcf][fusion]]  [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
 ** [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]
 ** [[id:1a9a90c1-ddfd-446b-ab69-f7be0db3ca10][solitude]]
-* elaboration
-** Balance seems like an avenue to peace (with oneself).
+* peace in oneself
+** [[id:2f3c6dae-ded0-43f0-8b3d-0e9d095d8904][Could appreciating drama help one cope with stress?]]
+** Balance seems like an avenue to it.
    That is, if I know my choices thread the needle well,
    I will feel good about them.
 * some personal equilibria
@@ -19,8 +19,7 @@
   :END:
 ** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
 ** [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
-   because _ forces one to work too much on other stuff
-*** biological necessity does
+   because {biological necessity, ..} forces one to work too much on other stuff
 ** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
 ** [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][work-life balance]]
 * some balances
@@ -42,4 +41,13 @@
 * [[id:1948b463-df60-40b6-b6f8-1bc25b648775][weird awkward nonresponse]]
 * [[id:4616df20-0eeb-4014-8f0d-04c14dcef195][Humility -> confession -> peace.]]
 * [[id:3987d04f-c539-4f73-916f-6a44bc0df7cd][Humility -> courage -> peace.]]
+* [[id:77bf63a4-6e87-41c0-8d97-327285715d49][love & peace -> monogamy]]
+* [[id:b403942c-942b-4b79-9c39-b5d77142bf33][marijuana ! peace]]
+* peace & realism
+  :PROPERTIES:
+  :ID:       cab92776-7a82-42a6-903e-14c102873c6e
+  :END:
+** [[id:e7fd04ae-edf7-46a9-944b-8e9c215415c4][Give up on dumb dreams.]]
+** [[id:690c551b-43f9-4913-9a2d-9dfd51dd8ba5][prayer v. peace]]
+** [[id:c393e966-36a8-498a-b44e-0667903191f8][workaholism]]
 * [[id:911a611d-3b66-4d61-9f1a-6749cb09af71][& private]]

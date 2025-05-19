@@ -3,5 +3,6 @@
 :END:
 #+title: workaholism
 * [[id:ffaffb1d-45c9-405b-a20a-e0be65cb2ab6][workaholism & insecurity]]
+* [[id:4ac50bea-31ef-415c-8328-22f3693d2da6][Don't miss your life trying to get a better one.]]
 * I hide from social opportunities in my work. But is my work for anything but social opportunity?
   Is it just a question of time horizons? And if so, is my preference/are my needs beyond my control?

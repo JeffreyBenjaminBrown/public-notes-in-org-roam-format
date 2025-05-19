@@ -2,3 +2,4 @@
 :ID:       dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996
 :END:
 #+title: realism
+* [[id:cab92776-7a82-42a6-903e-14c102873c6e][peace & realism]]

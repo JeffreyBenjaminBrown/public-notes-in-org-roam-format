@@ -3,6 +3,7 @@
 :END:
 #+title: fatalism
 * TODO ? merge [[id:05d467c3-fffd-457a-af5c-099f49b4b179][despair]]
+* [[id:cab92776-7a82-42a6-903e-14c102873c6e][peace & realism]]
 * [[id:06425bc4-741c-42f8-b365-4a21ea1ccf08][idealism ! fatalism]]
 * [[id:c045bfc7-96d5-417f-97f4-70337b3132ea][rational temporary depression]]
 * subjugation to destiny

@@ -21,7 +21,6 @@
 * anti-neighbors
 ** [[id:d012e5a4-c33c-496f-841f-a0db90d8c1e6][errors]]
 ** [[id:3a21903e-c17b-491d-a093-b49b5a38794d][blindness]]
-** [[id:7ea32dd5-3ad2-4de1-851b-a3a8d7f88711][uncertainty | ignorance]]
 * [[id:24fcf76a-fafa-4cb2-8312-43719f7aa207][separation | fission]]
 * ? [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]] (Maybe bring its contents here.)
 * [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][understanding, thinking, learning]]

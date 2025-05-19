@@ -8,7 +8,12 @@ Thinking about these notes can feel unpleasant.
   evident in all kinds of music and movies
 * [[id:a8461f62-4a68-4a26-a9d4-a063baf1d3d5][Presence obliterates micro-optimizations.]]
 * [[id:dd04d72b-8f97-4fc7-92d8-1858c5323428][presennce & rationality]]
-* [[id:d060b13a-7452-4837-8d9b-11f2f48b71a4][presence & sharing]]
+* presence & sharing
+:PROPERTIES:
+:ID:       d060b13a-7452-4837-8d9b-11f2f48b71a4
+:END:
+** [[id:98f315c7-7404-40cd-ac56-2c9040a29421][Be gentle without saying why.]]
+** [[id:8111ad4a-2b92-4899-beca-3a66b6cb3ce9][Being present with someone is special.]]
 * [[id:40170cc5-53d7-4172-8e71-f3393a349d38][? Don't hold on to freedom.]]
 * associated feelings
 ** damn the consequences
@@ -34,3 +39,7 @@ Thinking about these notes can feel unpleasant.
 * [[id:13e24c8b-c45a-4448-a3a8-8b1ae529f092][fast medium experience]]
 * [[id:84a8e1b0-baa5-4435-a564-a921e45e24de][the collector's fallacy (for information)]]
 * [[id:43ab15d1-1fc8-4fe6-b8b3-43fccf941563][recording too much]]
+* Don't miss your life trying to get a better one.
+  :PROPERTIES:
+  :ID:       4ac50bea-31ef-415c-8328-22f3693d2da6
+  :END:

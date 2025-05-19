@@ -5,7 +5,7 @@
 * [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
 * [[id:b745d109-6d7f-4638-beab-97bd26c8a936][awe]]
 * [[id:7884d437-6065-4e05-bf06-e2a0771cf507][love + magic]]
-* [[id:12039f3b-10ed-488f-a2d3-d934aba4f022][embarrassing ambitions & community]]
+* [[id:72cbafe2-fab2-413f-b78e-ff81f94c3599][embarrassing ambitions & community]]
 * empty ponzi scheme advice
 * [[id:cb9fc0dd-9f72-4f52-9a46-84123b4f971e][frequency]]
 ** [[id:c73a2101-5ca7-45a0-ab85-51ad3953523c][Frequency is sometimes offered as a dubious explanation.]]

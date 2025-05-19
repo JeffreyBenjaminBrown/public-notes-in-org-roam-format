@@ -86,7 +86,6 @@
 *** [[id:5a5ae8a2-fd35-457f-bb36-4cad26c0454d][nature]]
 *** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
 *** [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep]]
-*** [[id:7ea32dd5-3ad2-4de1-851b-a3a8d7f88711][uncertainty | ignorance]]
 *** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
 *** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][energy]] | power | force | work
 **** [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]s, some interesting
