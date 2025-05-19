@@ -9,8 +9,8 @@
    https://github.com/JeffreyBenjaminBrown/skg
 *** The README there might be the best introduction to skg.
 ** [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][connectivity demos]] for knowledge graphs
-* [[id:6ed5be66-787c-479c-8119-cb340a80d72a][[node] contains [branch] in [view]​]]
 * TODO tasks left
+** should I ? [[id:6ed5be66-787c-479c-8119-cb340a80d72a][[node] contains [branch] in [view]​]]
 ** A clone should not duplicate the title and body from the original when they are equal.
    Instead those fields should give the ID of the original.
 
@@ -302,5 +302,5 @@
    The user can insert a link to a private file anywhere, and the link might be public or not. When not, it is instead part of a corresponding file in their private repository, which refers to the public repository context that it modifies.ost.
 * nah
 ** [[id:60ac4c5c-fca6-4943-86ee-8f8f9011eaa6][cloning seems unnecessary]]
-* [[id:da0e89a7-0e9d-41da-8c2d-ec4ab2e37c2b][embarrassing]]
 * [[id:b1c2091b-7441-4459-b49e-fac3fe1ed918][skg outreach]]
+* [[id:da0e89a7-0e9d-41da-8c2d-ec4ab2e37c2b][embarrassing]]
