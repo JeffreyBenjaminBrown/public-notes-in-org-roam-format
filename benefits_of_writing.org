@@ -1,0 +1,119 @@
+:PROPERTIES:
+:ID:       ccbda321-ebfd-4255-a24f-f79c871c0144
+:END:
+#+title: why to { map concepts | write }
+* [[id:02b8e2a9-29e2-491a-beb0-27efa7ffcbf0][AI prompt]]
+* Why and how Tweag (the company) blogs
+  https://www.tweag.io/blog/2025-05-15-why-we-blog/
+* it's easy
+** Mapping concepts is easier than traditional writing.
+   Mapping concepts can be done with only two operations:
+- Collect and write down ideas you come across. Using full sentences is not even necessary.
+- Connect the things you wrote down.
+   Uuncountable people have done this on paper, hand-drawing lines to show how phrases are related. Notably, cinema often depicts the story's most critical thinking this way.
+   Fortunately, concept mapping requires neither dramatic tension nor inspiration. Its true power lies in the unpredictable consequences of a big, diverse accretion of ideas. And you don't have to collect for very long before the collection is big enough to surprise you.
+** It doesn't require fancy words. Rather, the opposite.
+   Sontag, Aurelius, Russell, Orwell
+** Writing is more productive when you don't know what you're trying to say.
+*** "When you’re writing, you’re trying to find out something which you don’t know."
+    -- James Baldwin, in a 1984 interview with The Paris Review)
+* it pays off, and it's fun
+** Writing itself helps you understand what you write.
+   This is only the first payoff.
+*** quotes
+    “Everything is vague to a degree you do not realize till you have tried to make it precise.” --Bertrand Russell, in The Philosophy of Logical Atomism (1918). (See also George Orwell, Richard Feynman and others.)
+    “I write entirely to find out what I’m thinking, what I’m looking at, what I see and what it means.” --Joan Didion, in Why I Write (1976). (See also Karl Popper, James Baldwin and others.)
+*** why it happens
+    Having to choose words forces one to be precise, and reveals when one's does not understand. Having to write down the logic prevents one from skipping steps, revealing hidden assumptions.
+** Writing clarifies perception.
+   It forces a particular quality of attention that led to understanding.
+** Writing exposes evil.
+   Evil hides in complicated, unclear language.
+   In Eichmann in Jerusalem (1963), Hannah Arendt describes how uncritical reliance on stock phrases and bureaucratic jargon permitted Eichmann to engineer the Holocaust without confronting the true nature of his actions. George Orwell blasted euphemisms like "pacification", which encompassed bombing Vietnamese villages. (Or consider the more modern "enhanced interrogation" euphemism for torture.)
+   By engaging carefully with words ourselves, we immunize ourselves from the sloppy thinking of others.
+** Writing what feel like scattered thoughts and looking at them elicits the discovery of deeper principles.
+   Marcus Aurelius wrote about this experience.
+** Mapping concepts will surprise you.
+** The ideas you come back to will surprise you.
+** Writing lets you think faster and wider. Dynamic trees are more natural than static text.
+   A topic can be just a title, like "peace", in which case looking at that document is a kind of focused meditation,  keeping the idea of peace in mental focus.
+   But a topic can also be a more fleshed-out tree of ideas. The tree lets you hide and unhide ("fold and unfold") the contents of branches, so each time you look at it can be a different experience.
+** Meditation is writing.
+THe value of meditation is to change the information in your head. That information is easier to study, understand, and reshape if you externalize it into a medium (be it paper or an app) that lets you see more ideas at once.
+* things it lets you do
+** confront painful truths
+   "Not everything that is faced can be changed, but nothing can be changed until it is faced." --Baldwin, hopefully
+** face your contradictions and complexities
+   give some personal examples
+** Send your thoughts through time. More importantly, receive them. Your past self is smarter and more different than you remember.
+   Speak to your far-future self. Let your ideas be easily copied and shared by others. Like James Baldwin said, write to change the world, knowing full well you can't.
+   For Sontag, writing wasn't just expression but a way of participating in the highest human conversations across time.
+** expand your aesthetic sensitivity
+   Sontag thought writing (in the reporting sense) does this.
+** understand and construct the self
+*** Joan Didion: "I write entirely to find out what I'm thinking, what I'm looking at, what I see and what it means. What I want and what I fear."
+*** Aurelius used his writings to remind himself of his ethical aspirations.
+*** Expressive writing improves self-coherence, mood.
+    James Pennebaker
+    Just writing 15-20 minutes a day for 3-4 days.
+    Build self-coherence from chaotic experience.
+    Improved mood, even if the writing was stressful.
+    Permits rational analysis by creating distance.
+*** Create meaning from suffering.
+    --Baldwin, hopefully (not verbatim)
+* harder to use
+** recombination & invention
+*** Coleridge’s “interweaving fibres” metaphor: notes fertilise each other.
+*** Umberto Eco’s indexing of sources for novels; new plots emerge from cross-category collisions.
+*** Luhmann calculated his slip-box produced ~6 new paper ideas per session.
+** dialogue with the future & with others
+*** Sontag → writing joins “the great conversation” across centuries.
+*** Baldwin → address the reader you hope exists; writing as world-change attempt.
+*** Mary Shelley editing Percy’s marginalia years later: texts become conversation across time.
+** therapeutic / meditative use
+*** Aurelius & Buddhist gathas: scripted reflection tames rumination.
+*** Modern “morning pages” (Julia Cameron) clear mental cache, freeing working memory.
+*** CBT worksheets show that externalising automatic thoughts weakens their grip.
+** precision of language trains precision of thought
+*** Confucius (“rectification of names”): social order begins with correct terms.
+** possible extensions for the essay
+*** contrast with passive highlight-and-forget reading; graphs demand active transformation.
+*** ethics: a transparent, link-rich knowledge base is harder to manipulate than black-box AI output.
+** external memory & cumulative creativity
+*** Seneca & the commonplace book tradition: capture quotes → recombine later.
+Related to atomism.
+
+The commonplace book tradition, which flowered from the Renaissance through the Enlightenment, formalized this habit: scholars, scientists, and writers (like Erasmus, Locke, and later Jefferson) maintained books where they copied out striking quotes, facts, and observations under thematic headings. The goal was not just storage but future recombination—to support new essays, lectures, treatises, and decisions.
+*** Niklas Luhmann’s Zettelkasten: slip-box links create “a thinking partner” that suggests new ideas.
+*** Vannevar Bush (“As We May Think”) → associative trails anticipate hypertext.
+*** Contemporary software engineers using personal knowledge graphs cite the same network effect.
+*** Key point: the larger and more interlinked the graph, the more unexpected the emergent paths.
+** writing as responsibility
+*** Solzhenitsyn → writing the gulag record as “testimony against forgetting.”
+*** Writing to bear witness is a responsibility and a form of resistance.
+    Claude says James Baldwin said
+** Claude on Joan Didion
+*** write to create a coherent self in an incoherent world
+*** The notebook was both training ground and mirror.
+*** writing forced a particular quality of attention that led to understanding
+*** often wrote about not understanding her own behavior or reactions until she examined them in writing.
+    She used writing to figure out why she had done or felt certain things. The act of describing her actions often revealed unconscious patterns or motivations.
+* Claude thought it had exhausted its thoughts on
+** Claude on Bertrand Russell
+*** He famously said that if you can't explain something simply, you probably don't understand it yourself.
+*** believed that writing out an argument in full revealed logical gaps or contradictions that weren't apparent when you just thought through problems mentally. The act of writing was a form of intellectual quality control.
+*** challenge your assumptions, change yourself
+    Russell used writing to question his own assumptions and beliefs. He would often write out the strongest possible case for views he opposed, which sometimes led him to revise or abandon positions he had previously held. Writing became a tool for intellectual honesty and self-correction.
+*** Precision in Language as Training for Precision in Thought
+    Didion thought this too. Having to choose the word for something trains the mind to make fine distinctions.
+* Bertrand Russell
+** "Russell believed that writing for understanding was both an intellectual responsibility and a practical necessity."
+** "the effort to express ideas clearly forces one to confront gaps in one's own understanding."
+* Goerge Orwell
+** Simplifying {others and your own} tatements can reveal ugliness, evil.
+   "unclear writing was often a way of avoiding uncomfortable truths. In "Politics and the English Language," he argued that political writing was deliberately obscure because clear language would reveal the ugliness of certain policies. For Orwell, forcing yourself to write clearly was a way to confront what you actually believed."
+** Language controls, to some extent, reality. If you are not choosing the words you use to frame the world, you're using someone else's frame.
+** "believed there was something important about the physical difficulty of writing - how it forced you to consider whether each sentence was really worth the effort. This friction helped eliminate lazy thinking."
+* how to do it
+** atomism
+** make connections clear
