@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       d4df3ea1-f333-4dd8-a208-907d176dbadb
+:ROAM_ALIASES: "assumption vertigo"
+:END:
+#+title: epistemological overload
+* synonyms, neighbors, prior art
+** [[id:b9e9171a-4c58-4e25-a4cd-53f974701891][Kierkegard's dizziness of freedom]]
+** Cartesian doubt
+   Descartes' methodical questioning of all beliefs until reaching bedrock
+** Phenomenological reduction
+   Husserl's "bracketing" of assumptions about the natural world
+** Existentialist anxiety
+   the vertigo of confronting radical freedom and groundlessness
+** Cognitive vertigo
+   sometimes used in psychology and philosophy
+** Epistemic anxiety
+   the distress of uncertainty about knowledge
+** Sartre on the "anguish" of recognizing our radical freedom
+** Nietzsche on the "abyss" gazing back
+** Buddhist groundlessness

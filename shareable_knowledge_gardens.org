@@ -5,10 +5,71 @@
 #+title: shareable knowledge gardens (skg)
 = an app in progress
 * refs
-** The readme on Github is clearer.
+** The readme on Github is clearer than these notes.
    https://github.com/JeffreyBenjaminBrown/skg
-*** The README there might be the best introduction to skg.
+   and might be the best introduction to Skg.
 ** [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][connectivity demos]] for knowledge graphs
+* divide docs
+** why I want Skg
+*** choose your guides
+We waste so much information. So many have found the answer to what ails you, maybe always. We could choose our deepest guides, people claiming or linking to ideas, on a per-topic basis.
+*** why to record trust relationships with statements
+* explain how to read a tree
+  Each node is about the parent.
+  Like how chapter titles relate to book titles --
+  it's not fixed, everyone's work is different.
+  But you can make a simple sentence involving the two.
+* pre-content: more faithful representation of org data
+  for when first line not top
+** incomplete
+** paragraph
+   The sequence of contents from any branch actually goes in both directions. We usually only count in the positive direction, but if the first heading contained is deeply indented, it can be a negatively ordered "pre-content" of the later bigger brother which is still not as big as the original branch point.
+** examples & riddles
+*** pre-brothers
+    :PROPERTIES:
+    :ID:       be010589-7246-45de-a895-29363be86e56
+    :END:
+    What is the relationship between b and c here? Should b and c both be considered pre-content of d, with b coming first?
+    * origin
+    **** a
+    *** b
+    *** c
+    ** d
+*** Giving each first brother an optional pre-content list would preserve the topology.
+    Each pre-content could be an unfoldable tree, just as org-mode permits.
+    The display always shows the pre-content (at least folded) if it shows the content.
+** purpose
+   My purpose when I indent a first branch too far
+   is to clarify that it should be read ahead of everything else.
+** does this preserve all the info
+** what pre-content is in org-mode
+   Let "top-level" among a set of subheadings with a common parent heading P
+   mean being indented one more space than P.
+   Even if P has descendents, there need not be any top-level ones.
+   Let the higheset among a set of descendents of P
+   be those with the fewest number W of asterisks.
+   If there are descendents of P,
+   then there is a first highest descendent of P.
+   Call it F.
+   If any descendent of P comes before F,
+   then the series including F and all its highest-level siblings
+   has pre-content.
+** and what about the origin's body?
+   From org-mode to skg, the body of a container is also effectively pre-content to all its descendents, even the pre-content.
+** how to parse an org file
+   From the top, repeat this:
+*** Find the next heading, H.
+** Very explicit
+*** enough, I think, to infer the algorithm
+    Each(this "each" is more general than necessary) node
+    may have, in addition to content, pre-content.
+    The order the pre-content displays is the same one org-mode shows (see [[id:be010589-7246-45de-a895-29363be86e56][pre-brothers]] example).
+*** It captures the topology but not the measure.
+    The exact number of asterisks in an org-mode bullet will not be reconstructible, because (at least as I use it) pre-content indented slightly means the same thing as pre-content indented a lot.
+** to get the measure too
+   Could treat the level of indentation of pre-content as
+   the importance of reading it before the content,
+   an integer >= 1.
 * TODO tasks left
 ** should I ? [[id:6ed5be66-787c-479c-8119-cb340a80d72a][[node] contains [branch] in [view]​]]
 ** A clone should not duplicate the title and body from the original when they are equal.
@@ -304,3 +365,4 @@
 ** [[id:60ac4c5c-fca6-4943-86ee-8f8f9011eaa6][cloning seems unnecessary]]
 * [[id:b1c2091b-7441-4459-b49e-fac3fe1ed918][skg outreach]]
 * [[id:da0e89a7-0e9d-41da-8c2d-ec4ab2e37c2b][embarrassing]]
+* [[id:edb446e2-fdf0-4917-ae6c-e4afd912499e][Am I being realistic?]]

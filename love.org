@@ -19,7 +19,7 @@
 ** [[id:059f1add-e1e1-4124-bab6-5d270e0332e7][Imaginative hope is funny]]
 * [[id:170688b3-4d53-41d3-986b-b8c32468bac8][love + broken]]
 * [[id:89a7a71d-6a22-4431-a794-d89253e524a2][love & exclusion]]
-* love & peace -> monogamy
+* ??? love & peace -> monogamy
   :PROPERTIES:
   :ID:       77bf63a4-6e87-41c0-8d97-327285715d49
   :END:
@@ -37,3 +37,5 @@
 * [[id:83896131-4896-40a6-b109-f83c5337d48c][Does being motivated to seek love feel bad?]]
 * to read
 ** ONGOING [[id:8840a676-3937-4443-b35b-faca20fe35c1][Couplehood (book)]]
+* far out
+** [[id:5c6f0b02-71bd-4e22-bd5f-036f88425a42][Help someone find home, peace.]]

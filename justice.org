@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d
+:ROAM_ALIASES: "justice"
+:END:
+#+title: justice
+Remember, notes should be surprising.
+* evil
+:PROPERTIES:
+:ID:       aa879d13-804f-4de3-b9fc-a3e7c774969e
+:END:
+** [[id:bc89fad0-c79c-4725-bb24-32d1cef10578][cowardice => evil]]
+** [[id:3fdb250d-fc7d-4b1f-becf-1d7996a9e480][laziness => evil]]
+* [[id:5357b637-c959-455f-b171-429390edbc04][conflict]]
+* [[id:afecc0bb-68d0-4bc5-a656-f277a9a830db][justice & irony]]
+* [[id:18b442b7-427d-4057-8fb7-e5b715e955f5][justice & accounting]] = karma
+* [[id:9739cf28-dad5-4061-8367-7f77cc166700][UBI]]
+* [[id:49583939-99f0-462a-8152-3aed9b0de39a][If you're embarrassed to share your beliefs, something is wrong.]]
+** [[id:cc103b68-6b43-483f-88a7-e724fdf853b7][fascism]]-adjacent
+* [[id:7ccb8ee3-dd58-4abb-88ed-9bd62f00038e][justice & fantasy]]
+* internalized
+** [[id:a8d26591-06a2-4cbd-9fe1-068b487dd2e7][Death is not so sharp.]]
+* see also [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling a higher force]]
+* far out
+** [[id:e54b0669-aa26-45cf-a5fa-6bb41f871790][Time is time's initial/foundational conditions.]]
+** [[id:c3a62ad1-d09d-4e79-8547-af725870e380][a cognitive justice for the destitute]]

@@ -23,12 +23,13 @@
 * Daniel Simonsen
 * Daniel Sloss
 * Demetrio Martín
-* Derek stroup
+* Derek Stroup
 * Dina Hashem
 * Django Gold
 * Drew Dunn
 * Eliza Schlesinger
 * Emily Catalano
+* Emmanuel Sonubi
 * Eva Evans
 * Francis Ellis
 * Franko Bonilla (Colombian) - https://www.youtube.com/@puracomediapapa
@@ -45,6 +46,8 @@
 * Jeffrey Scheen
 * Jim Jeffries - Australian with the bit about guns in the US.
 * Josh Johnson
+* Josh Mandi
+* Kelsey Cook
 * Kelsey Cook
 * Leslie Liao
 * Liz Miele
@@ -64,10 +67,12 @@
 * Orny Adams
 * Pat Burtscher
 * Pete Holmes
+* Pete Lee -- "surprisingly straight"
 * Phil Wang
 * Ruby Setnik
 * Ryan Goodcase
 * Ryan Long
 * Shane Gillis
+* Trae Crowder -- Southern
 * Zak Toscani
 * Zoltan Kaszas

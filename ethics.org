@@ -3,6 +3,7 @@
 :END:
 #+title: ethics
 * = FEELS like an angry subject
+* [[id:5e3a5ad9-f733-45fe-a7f1-55dcc0ce2bed][Direct attention well.]]
 * [[id:31b4c38c-5885-4895-ae33-85cb4fb93b86][immaturity]]
 * [[id:dcbdb66e-55cb-46ce-af74-97aa841ddda7][irratinoality & ethics]]
 * [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other (across time) selves]]

@@ -7,6 +7,12 @@
 ** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
 * ease
 ** [[id:1eb17267-8251-4bf3-8f58-5cbec72ea187]["You can have this as much as you take it."]]
+* humility & ambition
+  :PROPERTIES:
+  :ID:       af7c9428-198d-428b-be12-1e6e21033dfb
+  :END:
+** Humility *is* an ambition.
+** [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Are they at odds?]]
 * motivation ! identity
 * [[id:880c2596-e4da-486d-863d-6daff64ca89c][identity , conscious]]
 * anti-neighbors
@@ -27,7 +33,6 @@
 * ? internalize [[id:9d3a6c74-b537-45c2-be1f-5810374851e8][mortality pressure]]
 * [[id:49b8cd32-e3b3-435b-bdad-26fb3e1ac82c][the infinite nature of want]]
 ** [[id:a30e5cb0-eb09-4e20-bb17-3872ab4d4a1c][lust | insatiability]]
-* [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Is humility at odds with ambition?]]
 * [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]
 * [[id:d51ef069-e7f3-4ea5-8f0d-c3bbd2f18857][Moral and morally motivated are distinct qualities.]]
 * methods
@@ -49,3 +54,4 @@
 * dubious
 ** [[id:e756f326-8f05-44e3-85ee-ffdd54a6082f][life hack ? mission => jobhunt]]
 ** [[id:c9f48f52-2646-4f54-9c72-b03d05e616d3][Pursuing _ as if it could make one's entire life worth it.]]
+* [[id:473fe333-3e14-4f42-a3d7-e62bdfdfd093][questions from an LLM as will to live]]

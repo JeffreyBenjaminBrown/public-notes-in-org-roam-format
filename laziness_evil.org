@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       3fdb250d-fc7d-4b1f-becf-1d7996a9e480
+:END:
+#+title: laziness => evil
+* [[id:c78901bb-6c97-4400-8e20-a11a3acd4df2][Eichmann only ever used the language supplied to him by the German government to think about his work.]]

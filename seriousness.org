@@ -4,6 +4,11 @@
 :END:
 #+title: seriousness, commitment, and their opposites
 = a form of inconsistency
+* laziness
+  :PROPERTIES:
+  :ID:       d5e61945-b23c-48b6-9eea-018a3da2d50a
+  :END:
+** [[id:3fdb250d-fc7d-4b1f-becf-1d7996a9e480][laziness => evil]]
 * How to distinguish between unseriousness, overcommitment and fluctuating beliefs?
   :PROPERTIES:
   :ID:       a06497e3-d06c-45a1-811f-f1d8e7bd877b

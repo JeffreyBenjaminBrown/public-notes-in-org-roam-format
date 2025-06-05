@@ -1,9 +1,12 @@
 :PROPERTIES:
 :ID:       0986826a-b056-4973-8927-40ec18a78c5f
+:ROAM_ALIASES: "I love _" "loves"
 :END:
 #+title: things I like
-* [[id:b6b05dc0-b157-455e-a7b2-3a1959fe1957][animals]]
+* [[id:b6b05dc0-b157-455e-a7b2-3a1959fe1957][animals]], biodiversity
+* [[id:5d18cfd8-a35f-475d-aa33-83ad8b2b1ec7][density of information]]
 * [[id:792aec5d-797b-4ff7-bc48-ea814d22c4a1][wonder]]
+* [[id:3e92ff4d-195a-4121-aa6c-13b83b303391][music]]
 * [[id:4bf34033-e7c1-495b-b2f0-dc426543fb5c][good news]]
 * [[id:de98c3eb-27ba-4a51-9875-9af3c6e2c2dd][beautiful things]]
 * [[id:0591e33a-f3b2-414a-ac40-c3071348758d][funny things]]

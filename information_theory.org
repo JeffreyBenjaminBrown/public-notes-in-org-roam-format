@@ -4,6 +4,22 @@
 :END:
 #+title: information | knowledge
 * [[id:880c2596-e4da-486d-863d-6daff64ca89c][identity , conscious]]
+* bias
+  :PROPERTIES:
+  :ID:       27e8eac8-c5aa-464b-b34e-44589338931b
+  :END:
+** [[id:7a0295d0-a82c-4d1f-8ee3-dad17b554e9f][cynicism]]
+** [[id:8d5c9418-f228-4595-b423-05acd9921b10][optimism]]
+* contradiction
+  :PROPERTIES:
+  :ID:       7abaf6b7-7c59-4744-bddb-8a3bdfb11d8d
+  :END:
+** Your bad and good feelings toward something can both be real.
+* [[id:e66faca5-8154-4852-9fe1-22c7815fdb6f][biodiversity]]
+* density of information
+  :PROPERTIES:
+  :ID:       5d18cfd8-a35f-475d-aa33-83ad8b2b1ec7
+  :END:
 * [[id:4017c25d-ec4d-4f41-aaed-e3be02dba620][weirdness]]
 * [[id:9fc09f11-ef5b-475d-a885-f0fd0b667178][ways to know]]
 * [[id:2ac7f271-eea5-4d23-852f-798322eff6e2][metaphor]]
@@ -29,6 +45,7 @@
 * [[id:c543ecbc-9af5-4a9f-a7b2-fce74104c5cc][language]]
 * [[id:8bf642b8-c720-475d-9972-ff7d5553ff10][wholeness fission fusion emptiness]]
 * [[id:461ac824-69d6-4b73-bbe8-ee3e41bdc915][Art highlights extremes.]]
+* [[id:d4df3ea1-f333-4dd8-a208-907d176dbadb][epistemological overload]]
 * technical
 ** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
 ** [[id:299fd87e-de56-4671-b51f-e3554ba7dd95][logic, formal]]

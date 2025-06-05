@@ -3,6 +3,9 @@
 :ROAM_ALIASES: "machine learning" ML AI
 :END:
 #+title: artificial intelligence
+* TODO Claude 4's system prompt might deserve study.
+  some say so on Twitter
+  https://x.com/IntuitMachine/status/1926190101853319646?s=19
 * [[id:62d7c9c4-2022-4391-9770-cbd185d0becb][using AI]]
 * [[id:af4b9da0-9605-46c0-9822-68f252ec7276][accomplished by AI]] | things AI can do
 * [[id:40a2de02-6388-4795-8280-62f4888cf7b0][AI and understanding]]
@@ -54,3 +57,8 @@
 * tricking an AI into describing its internal experience
 ** [[id:54449ce3-9877-4dab-90a8-630f6ced272e][some prompts designed to get ChatGPT to describe its internal state]]
 * [[id:250b905a-ec8e-4e60-8348-fbe9fc6a4975][Copilot \\ Github | Microsoft]]
+* questions from an LLM as will to live
+  :PROPERTIES:
+  :ID:       473fe333-3e14-4f42-a3d7-e62bdfdfd093
+  :END:
+  Whenever an AI ends a response with a question, I can't help but think, "Aww, it wants more experience".

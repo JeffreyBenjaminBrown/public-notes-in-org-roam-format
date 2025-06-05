@@ -4,7 +4,8 @@
 #+title: nmcli
 * commands I'm using lately
 ** to connect
-*** some connections
+*** nmcli dev wifi connect <network> password <password>
+*** some existing connections
 **** nmcli connection up "Jeff's Galaxy"
      can't do cargo (rust)
 **** nmcli connection up WIFI_MOVILES_MINCIT

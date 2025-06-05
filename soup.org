@@ -2,6 +2,22 @@
 :ID:       0d037a5d-e027-4b6d-8054-c39aad9bb196
 :END:
 #+title: soup
+* ingredients <2025-05-22 Thu> with 3 cups garbanzos
+** 3 zanahorias
+** 4 papas
+** 3 cebollas (existe 1/2 cebolla, nada más)
+** 3 tomates
+** 4 apio
+** 3 aji
+** 3 ajo
+* ingredients <2025-06-05 Thu> with 2 cups garbanzo
+** 2 zanahorias
+** 3 papas
+** 2 cebollas (existe 1 cebolla ya)
+** 2 tomates (existe 1 ya)
+** 3 apio
+** 2 aji
+** 2 ajo
 * writeup
 ** soak the beans
 I like to do a hot soak with baking soda, then another hot soak to clear out the baking soda (so it doesn't interact with the baking soda to create sodium acetate, a salt), then a third hot soak with vinegar. Do whatever part of this you want. In detail:

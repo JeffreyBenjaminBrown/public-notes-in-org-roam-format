@@ -3,9 +3,16 @@
 :ROAM_ALIASES: "fast night fantasy" "living like there's no tomorrow" "There is only now."
 :END:
 #+title: presence
-Thinking about these notes can feel unpleasant.
 * = ideally an algorithm, at least a culture
   evident in all kinds of music and movies
+* [[id:00afd42e-f682-4447-b034-2f863cb4ac69][presence & personal]]
+* presence & courage
+:PROPERTIES:
+:ID:       8adf528a-1c95-4e60-a620-6e8d365e0507
+:ROAM_ALIASES: "courage & presence"
+:END:
+** Introduce yourself, get someone's number, etc. while there's still time.
+* [[id:b5c9ebb3-57c2-4516-8db2-53ddae6dc140][right to feel, act on, and forget]]
 * [[id:a8461f62-4a68-4a26-a9d4-a063baf1d3d5][Presence obliterates micro-optimizations.]]
 * [[id:dd04d72b-8f97-4fc7-92d8-1858c5323428][presennce & rationality]]
 * presence & sharing

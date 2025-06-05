@@ -100,10 +100,11 @@
 ** bioreactors are not high-tech
    "In a compost heap the objective is to keep everything well aerated so that oxygen-needing bacteria and fungi can readily decompose the matter. But if instead you hold the waste in a closed vessel, blocking oxygen from getting in, anaerobic bacteria thrive and partly convert the organic material into flammable methane gas."
    This was common in Europe in WWII.
-* An inverter converts DC to AC
-* An alternative design of rechargeable lead-acid battery, known as a deep cycle, discharges at a much slower rate and can have almost its entire capacity repeatedly drained and recharged without problems
-* A car alternator provides a steady 12v across it's terminals no matter how fast it spins.
-* Car batteries "are easily damaged if persistently allowed to discharge by more than about 5 percent."
+* electricity
+** An inverter converts DC to AC
+** An alternative design of rechargeable lead-acid battery, known as a deep cycle, discharges at a much slower rate and can have almost its entire capacity repeatedly drained and recharged without problems
+** A car alternator provides a steady 12v across it's terminals no matter how fast it spins.
+** Car batteries "are easily damaged if persistently allowed to discharge by more than about 5 percent."
 * Although the potency of a pharmaceutical will decline as the active ingredient in the tablet chemically degrades, there’s no great risk that it’ll harm you.
 * [after cleaning it] pull the lips of the injury together and administer the superglue only along the surface to bridge the gap and hold it closed.
 * Antibiotics marketed for farm and pet animals, and even for fish aquariums, are exactly the same as for humans

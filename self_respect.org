@@ -2,6 +2,7 @@
 :ID:       b288df19-c02e-42fa-a4b6-4cd3c0162e52
 :END:
 #+title: self-respect | independence
+* [[id:5e3a5ad9-f733-45fe-a7f1-55dcc0ce2bed][Direct attention well.]]
 * [[id:4abd453b-9fd0-4c54-b897-e2d104cb2c33][humility v. self-respect]]
 * qualities one might owe oneself
 ** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]

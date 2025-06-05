@@ -4,5 +4,6 @@
 :END:
 #+title: overload
 * [[id:f23de8b3-b50b-408b-bc7e-48dc50418155][love & overload]]
+* [[id:d4df3ea1-f333-4dd8-a208-907d176dbadb][epistemological overload]]
 * [[id:140dac3d-ea32-4902-8de9-518917eeb9df][In monogamy the stakes are overwhelming relative to polyamory.]]
 * [[id:a06497e3-d06c-45a1-811f-f1d8e7bd877b][distinguish ?? unseriousness, overcommitment, fluctuating beliefs]]

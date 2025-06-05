@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       25793e77-ebb6-43c5-a34c-ab08c69f18a2
+:END:
+#+title: Eichman in Jerusalem, book by Hanah Arendt
+* [[id:91b5b933-912d-4686-8cb3-bdf2255d2085][pride => stupidity]]
+* [[id:bc89fad0-c79c-4725-bb24-32d1cef10578][cowardice => evil]]
+* [[id:3fdb250d-fc7d-4b1f-becf-1d7996a9e480][laziness => evil]]
+** [[id:c78901bb-6c97-4400-8e20-a11a3acd4df2][Eichmann only ever used the language supplied to him by the German government to think about his work.]]

@@ -14,6 +14,8 @@
 ** [[id:97565ea6-dddf-416c-a1fb-98bce5ec3c8c][Values are stories.]]
 ** instances \ values
 *** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
+*** [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]]
+*** [[id:1a7a3ff7-e499-40fa-b81b-f06563bcb11e][flexibility]]
 *** [[id:a1487b9c-70d9-493a-b61e-e512def4a0d5][freedom]]
 *** [[id:ff3b637a-ad1c-4381-afa7-570fc76b650d][self-confidence]]
 *** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
@@ -43,9 +45,16 @@
 *** the [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]
 *** fame
 ** anti-values
+   :PROPERTIES:
+   :ID:       157ed249-caa2-4b5c-af8d-9aaa51c93a04
+   :END:
+*** [[id:7a0295d0-a82c-4d1f-8ee3-dad17b554e9f][cynicism]]
+*** [[id:aa879d13-804f-4de3-b9fc-a3e7c774969e][evil]]
 *** [[id:74a00d03-5790-4851-b52e-6d2108eabfef][irresponsibility]]
-*** [[id:1d8be58f-a579-4e4c-a145-8c349db58514][peer pressure]]
 *** [[id:efd9d055-de2d-4604-9d0c-ec24361e3297][negativity]] , esp. negative feelings & experiences
+*** [[id:1d8be58f-a579-4e4c-a145-8c349db58514][peer pressure]]
+*** [[id:91b5b933-912d-4686-8cb3-bdf2255d2085][pride => stupidity]]
+*** [[id:312b1964-390a-4fbd-ac3b-ebe4797cd821][stupidity]]
 * [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope(s)]]
 * [[id:50132c61-a3f9-4e28-bdbd-e2d0e6f35f28][feelings]] / instances
 :PROPERTIES:

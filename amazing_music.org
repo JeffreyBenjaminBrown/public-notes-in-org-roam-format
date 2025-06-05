@@ -2,6 +2,7 @@
 :ID:       f927cc31-1266-4352-978a-b0e00fb806a8
 :END:
 #+title: amazing music
+* djrum, not on Spotify, electronica from sid's friend 'bex naj'
 * Fuego Lento : salsa song by Mario Ortiz
 * Orquesta Típica Fernández Fierro
   Modern tango, 12-piece band (4 bandoneones, no drums).
