@@ -17,90 +17,49 @@
    disguise-org-headline ()
    org-roam-db-query (query &rest args)
    insert-graph-parents-as-subheadlines ()
-* Feasible in a month of spare time: osc-gen with the following features, released ugly.
-  at least three of the following
-** FIRST: Make osc-gen commands safe from a normal org-roam view.
-   Add an invisible property that a line was created by osc-gen.
-   Color lines by osc-gen recognizably, so users can know if osc-gen text (which presumably is usually intended to be only temporary) is present. Pause the usual org color scheme when osc-gen text is visible if necessary -- i.e. if the osc-gen color is in the scheme. Link colors will also need to be clear.
-   Include invisible text on each line that says "<by osc-gen>". include a manual command to automatically delete the osc-gen text. if the user forgets, they'll still get a second chance, by seeing "<by osc-gen>" in the git diff.
-** [[id:e6e855d9-f2e8-456e-87d7-e82379ead9f1][show cotargeters]]
-** [[id:f2e39601-d7a2-46e1-b18f-a1287aa94262][Anything duplicated on screen should be a separate color.]]
-** A color distinguishes not repeated things, but the first tail of each such set.
-   The idea being you're most interested in knowing you've seen something already.
-   And maybe that first instance of it should include a count of how many time it is repeated in this context.
-** DONE insert targeters
-* TODO NEXT integrate Rust
-** query the org-roam db with Rust
-   so that it becomes extensible to TypeDB
-** DONE talk to a Rust server from Emacs
-   ~/hodal/serve-rust-to-emacs
-* TODO problems
-** I want to use a different language for most of the logic.
-   Haskell if I won't extend using TypeDB.
-   Otherwise Rust.
-** the parent file should be obvious
-   Each node in the osc-gen buffer should therefore
-   recognize which ancestor it is being viewed from, if any,
-   so that edits correspond to that ancestor.
-   Any such node can switch the viewpoint on its view-children.
-** transclusion
-*** how
-    Keep multiple buffers viewing each onto multiple texts.
-    All text has a property indicating what parent it came from,
-    nil for top-level ones (which should be visibly top-level),
-    and each parent has a property of how it generated its children.
-*** The error "are you sure you want to save after external change"
-**** elaboration
-     are you sure you want to save
-     (this buffer that you abandoned for another for a while)
-     now that it's been changed (by something you did while away)
-     would be important if the previously-viewed buffer could be left unsaved.
-*** problem : how to map character position in the view back to the file for edits
-**** easier solution
-     visit the file to edit, then rerender the region in osc-gen
-**** hard solution
-     Keep track of the position of the last character of the transcluding parent headline, and subtract that from current position, then add to position of headline in the target file corresponding to the transcluding headline.
-** DONE obvious
-*** not all view-children of a headline need bear the same relationship to it
-*** the relationship to a view-parent should be obvious
-** TODO fetching mixed link descendents | graph descendents is not obvious
-*** the problem
-    It will require tracking a correspondence between
-    headlines in the osc-gen view and
-    lines in containing files,
-    because not every headline has an ID.
-*** ? solution
-    If a node in the OG view has an ID, that's its hidden info.
-    If it has none, its hidden info is
-      the ID of the file containing it, and
-      the line number it lies on.
-** changing the bullet
-*** Vertical banners seem preferable to horizontal ones, given space constraints.
-    Only sufficiently complex messages would need horizontal ones.
-* TODO changes | features
-** Each og-headline is a headline in a file or a file title.
-   Thus to know what it means,
-   I must associate a file and position to it in either case.
-** the bullet should indicate
-*** whether an og-parent node is hidden
-*** whether it is from a different file as the og-parent
-*** [file | non-file node | plain text]
-*** how many org-children it has
-*** how many links lead to it
-*** whether link text is equal to target's title
+* TODO first MEP: [[id:7d610433-1fb7-4a84-8903-1a7f9212a4a7][backlinks in forward-view]]
+* remember
+** This is so feasible!
+** List future features to verify extensibility.
+   Before implementing a feature F,
+   verify that for every future feature G,
+   the path from F to G is clear.
+** Don't implement [[id:217a4c60-458b-4a06-8627-6eeb2bc1771e][save-terminality]].
+** Cut myself some slack.
+*** It's okay to release it with unused info.
+    For instance the screen could include info about how to reconstruct it even though it doesn't permit saving.
+* problems
+** [[id:c48a9e5c-24c4-430e-9f75-ae8848387f71][glyphs could be redundant to properties]]
+** [[id:58ffe371-fdf8-427f-a462-4f674315b9b5][osc-gen: conflicts from external edits]]
+** language choice
+*** AI might be even better at Haskell.
+    It's quieter, easier to reason about.
+*** Use Python to get help.
+    I can keep others' submissions functional.
+*** Use Rust for extensibiilty to TypeDB.
+**** query the org-roam db with Rust
+     so that it becomes extensible to TypeDB
+**** DONE talk to a Rust server from Emacs
+     ~/hodal/serve-rust-to-emacs
+*** NOPE Generate Python with Haskell.
+    Nothing good comes up fast
+    on Hackage, Google or ChatGPT.
 ** Separate the model from the controller.
-   This is a problem in my Emacs technique.
-** Use a Haskell JSON server to query the org-roam db.
-   Then parse the JSON text into hash tables in Emacs.
-   This avoids having to remember what list indexes represent.
-** ? Count things.
-** [[id:54cd30f3-b696-4017-a02e-4e5b17ab1553][a format friendlier for reading diffs than org-roam's]]
-** From file F, if F links to node N, show if N also links to F.
-   Use the "left right arrow" symbol ↔
-   (`C-x 8 RET left right ar RET")
-** optionally attach disambiguating arrows to pronouns
-* OBSOLETE somewhat : initial specification
-** vocab
+   Keep as much logic out of Emacs as possible.
+** architectural choices
+*** Use a JSON server to query the org-roam db.
+* primitives
+** path to host file
+** link set
+   :PROPERTIES:
+   :ID:       15bcbd93-f639-4c41-a123-593209f861bd
+   :END:
+   = links in heading, body, descendents
+   or any subset thereof
+** link relationship
+** content relationship
+** [[id:29673a41-5ac5-4058-af3a-0868ff7b2573][glyphs]]
+** vocab, not entirely obsolete
 *** (graph-)leafward, (graph-)rootward
     seems preferable, given org-roam context, to these alternatives
 **** leafward = from titles to headlines, headlines to subheadlines
@@ -112,63 +71,84 @@
 *** leafward in-file path (LIFP)
     is the path from a title to a node,
     if that node is in that file.
-** top-level osc-gen view headlines are arbitrary
-   Tthe user can copy anything there. Redundantly, even.
-** toggle view direction
-   If not announced with a vertical one-character banner,
-   the toward-subheadlines direction means "toward descendents".
-** reorder nodes
-   has no effect outside of the view, but if the view is sufficiently malleable it might be kept around a long time.
-** unfold [containers, contents, file path] of a node
-*** This can be done multiple times under a node.
-*** Multiple of those things can be shown under it.
-*** If roots and leaves are shown, the roots are announced with ^.
-*** LIFPs are announced by "<" and read backward.
-**** Each item in that path with an ID is announced with E, not <.
-***** Therefore there's always at least one E.
-      The last line in the path is always announced with E,
-      because it's the title of some file.
-***** (I'd like a horizontally bisected < but that doesn't exist.)
-**** Further indent each successive node in a LIFP.
-     This way distinct LIFPs containing the spawning node
-     are easily visually separated despite abutting.
-***** [[id:8bb37edb-557e-492b-adc1-4337fd0a409e][LATER : Save characters by indenting less.]]
-** copy subtree of view
-** paste subtree at top level
-   It may have come from the edit view.
-** go between ordinary tree and osc-gen tree views of node
-   This should not replace the old view,
-   just add to it.
-* can wait, if ever
-** ? Would it not be better to simply curate each view, including the viewpoint's parents?
-   Doing that would mean having, each time another link is made to it, to decide whether to include a backlink, and how to file it.
-** Would it hurt to introduce Hash into how nodes are tabled?
+* features, immediate
+** [[id:162be6d0-208c-4eec-9886-aa0f368fdda2][backlinks in forward-view]]
+** native ancestry in forward-view
+   Very similar to [[id:7d610433-1fb7-4a84-8903-1a7f9212a4a7][backlinks in forward-view]].
+   The only difference is that
+   those are paths in other files,
+   whereas this is in the current file.
+** hide ordinary file-content from view
+*** Indicate that it was hidden
+    either with a glyph in its parent,
+    or with a single branch that replaces
+    the many that were hidden.
+*** Obviates a harder feature: [[id:217a4c60-458b-4a06-8627-6eeb2bc1771e][save-terminality]]
+** [[id:e6e855d9-f2e8-456e-87d7-e82379ead9f1][show cotargeters, coancestors]]
+** [[id:f2e39601-d7a2-46e1-b18f-a1287aa94262][Make duplication in a buffer visibly obvious.]]
+** [[id:09302ec4-f993-4b1c-bc1e-633f47274c7a][osc-gen: content context switching]]
+** [[id:ab34f3a5-6945-458d-ac4d-964e9220608f][Save file or all files in buffer.]]
+** ancestry context switching
+   :PROPERTIES:
+   :ID:       d7ba0584-6df0-4c75-96c8-5758b9934e35
+   :END:
+*** what it would look like
+    * grandchild
+      * } child ;; "}" indicates reverse containment
+        * }I parent ;; I indicates has ID but is not file.
+          * } more of the ancestry
+            * }F The "F"ile containing them.
+              ;; Here begins the "recursion".
+              ;; Give this the ID "f1".
+              * R references to it ;; R indicates this is an intermediating relationship heading, not itself a heading in any .org file.
+                * a heading with a [link to F1]
+                  * } bla ...
+                    * }F a file
+                * another heading with a [link to F1]
+                  * } bla ...
+                    * }F another file
+** prevent [[id:5a749f75-cfab-4a80-9413-bd877e18f6bd][conflicts from external edits]]
+** save views
+   That is, don't just save to each file in the view,
+   but save the view itself.
+   Try to make the view robust to changes
+   in the files it views.
+* features, later
+** toggle ancestry between full and only nodes with IDs
+   When the ancestry is "collapsed",
+   any hidden (that is, without IDs) headings
+   are represented as an ellipsis prefix
+   in the first displayed node that file-contains them.
+** Make a new PROPERTY, "comments on".
+*** definition
+    If N comments on M, then Ms content displays
+    an addition "comments from [author]" branch.
+** Make a new PROPERTY, "overrides".
+   See skg. This seems hard.
+** Links to foreign headings with no ID.
+*** Awkward but doable.
+*** how
+    Link should include the repo, commit, file, line number, and (ordinary) label. Would be a new link format.
+    If the commit is old, that should be announced visibly, and user can follow to old or new.
+    If new has a heading with the same text, jump to it. If not, can search the text of new by similarity (in the embedding sense) to the now-disappeared heading.
+** Show [[id:15bcbd93-f639-4c41-a123-593209f861bd][link set]] nieghbors.
+*** = Show nodes containing subsets of or overlapping the link set.
+*** Maybe don't show all overlapping sets.
+    Start from subsets of size n-1,
+    maybe then show n-2,
+    but stop before reaching 1.
+** [[id:8f3c4737-c315-40b3-935e-b8f205cb7601][enable sharing]]
+** [[id:562876f3-9608-4ebe-9ab1-f119188ffa32][Define relationships using ordinary org-roam syntax.]]
+** view traversal history
+   Integrate with Git?
+** [[id:9b247ad4-a606-4bd4-a5a6-df297d91e262][Each node could [order, structure] its parents.]]
+** Introduce Hash into how nodes are tabled.
    e.g. if a title was "a & b", they would be associated with a
    relationship, undefined but someone can write about it
    (giving the relationship the title "_ & _").
    Upon exploration you could see generic things that apply to your accreted definitions of &, as well as to specifically "a & b".
-** [[id:562876f3-9608-4ebe-9ab1-f119188ffa32][Define relationships using ordinary org-roam syntax.]]
-** [[id:9b247ad4-a606-4bd4-a5a6-df297d91e262][Each node should [order, structure] its parents.]]
-** view traversal history
-   Integrate with Git?
-** permit and save groupings of parents
-   e.g. some could be grouped under "obvious" and collapsed.
-** save orderings of parents
-   Just one list of parents,
-   including an entry for "unknown parents".
-** recompute buffer
-   :PROPERTIES:
-   :ID:       503f3b54-d79f-4d2d-a1bb-b00d38e0ada6
-   :END:
-   Needed when data is edited.
-   Should be cheap, run often.
-   Requires storing origins of nodes.
-** Invisibily record node origin in buffer
-   With these the program could know the relationship between each headline and its rootward and leafward neighbors in the view.
-** I could save some characters on screen by indenting less.
-   :PROPERTIES:
-   :ID:       8bb37edb-557e-492b-adc1-4337fd0a409e
-   :END:
-   For instance in a LIFP, maybe only the first line in a contiguous series of lines without IDs needs to be indented.
-** A top line in buffer: Source of its top-level headlines.
-** Ideally the user could write in the descentward views.
+** [[id:54cd30f3-b696-4017-a02e-4e5b17ab1553][a format friendlier for reading diffs than org-roam's]]
+** attach disambiguating arrows to pronouns
+   "it" could have an up-left arrow,
+   "these" could have a down-right arrow,
+   etc.

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       217a4c60-458b-4a06-8627-6eeb2bc1771e
+:END:
+#+title: NAH : save-terminality for osc-gen
+* the idea
+  A heading can be marked save-terminal,
+  whereupon modifications to its view-content
+  will not affect its tree-content.
+* the motivation
+  You might be primarily interested in things other than its file-content, and want to delete that file-content from its view-content.
+* why it's hard
+  What if the user moves the branch whose view-content is not to affect its file-content?

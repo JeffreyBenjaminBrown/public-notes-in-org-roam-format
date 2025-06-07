@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       09302ec4-f993-4b1c-bc1e-633f47274c7a
+:END:
+#+title: osc-gen: content context switching
+* alt id
+ :PROPERTIES:
+ :ID:       5209f8b0-c00c-43a1-9cbc-345f7f9c090d
+ :END:
+* definition
+  Show (eventually [[id:ab34f3a5-6945-458d-ac4d-964e9220608f::+title: osc-gen: Save file or all files in buffer.][saveable]]) content from multiple files in one buffer.
+  If a node has links to nodes N0 .. Nn, each can become one of its children as a new "content context".
+  Each new content context Ni is preceded by an X, and its view-content is the file-content of Ni.
+* a context should not serve double-duty as content
+  If file F contains heading H with link L to file G,
+  then in order to view the L context there,
+  make a new, separate heading "X G"
+  for the new context.
+  "X G" should be a view-child of H.
+  This probably duplicates some text (the label in L and the title of G), but it clarifies what gets saved where.
+  If that duplicated text is long, the user can choose to disguise its second appearance with a short label ("it" would work if there's only one link in H, or an integer corresponding to the link's order in H if there are many).

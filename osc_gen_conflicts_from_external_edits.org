@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       58ffe371-fdf8-427f-a462-4f674315b9b5
+:END:
+#+title: osc-gen: conflicts from external edits
+* = conflicts from editing content in multiple places
+* see also
+** [[id:f2e39601-d7a2-46e1-b18f-a1287aa94262][Make duplication in a buffer visibly obvious.]]
+* solutions
+** Easy: Warn user if content from the same file is in multiple buffers, or even twice in the same buffer.
+   :PROPERTIES:
+   :ID:       5a749f75-cfab-4a80-9413-bd877e18f6bd
+   :END:
+   Let them disable saving to one of those views of it,
+   while permitting edits to the rest of that buffer.
+** Bigger, still incomplete solution: Compare edit times.
+   Keep a "last saved" time for each buffer.
+   Each time a buffer is switched to,
+   check the edit times of each file in it,
+   and report if any has been changed.
+** Hard: How to rebuild a buffer after foreign edits?

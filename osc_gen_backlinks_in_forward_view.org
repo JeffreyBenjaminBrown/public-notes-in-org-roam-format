@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       162be6d0-208c-4eec-9886-aa0f368fdda2
+:END:
+#+title: osc-gen: backlinks in forward-view
+* alt id for this file
+ :PROPERTIES:
+ :ID:       7d610433-1fb7-4a84-8903-1a7f9212a4a7
+ :END:
+* TODO Is it extensible to [[id:5209f8b0-c00c-43a1-9cbc-345f7f9c090d][content file switching]]?
+* Ordinary tree content appears as normal.
+* Backlinks can be added as non-saved view content.
+  They can be safely mangled,
+  because they are ignored on saving.
+* [[id:d7ba0584-6df0-4c75-96c8-5758b9934e35][how to show ancestry recursion]]

@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       ab34f3a5-6945-458d-ac4d-964e9220608f
+:END:
+#+title: osc-gen: Save file or all files in buffer.
+* Only hard once there is [[id:5209f8b0-c00c-43a1-9cbc-345f7f9c090d][content context switching]].
+* motivation
+  Would probably greatly boost useability and adoption --
+  I would be reluctant to use the product without it,
+  and others will be more skeptical than me.
+* algorithm
+** Before saving, a property should record provenance.
+   Provenance = why each content node is on the screen
+   = the content context that can claim it.
+** Saving each [[id:5209f8b0-c00c-43a1-9cbc-345f7f9c090d][content context]] separately.
+   serial
+*** Dump context into a new buffer.
+*** strip other contexts
+    This content context might contain others.
+    They can be ignored while saving it.
+*** strip non-file-conent content
+*** strip intermediating "content" relationship hedings
+    if there are any.
+    Promoting their content up a level
+*** Then save normally.

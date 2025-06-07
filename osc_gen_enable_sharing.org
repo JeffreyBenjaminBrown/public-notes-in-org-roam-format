@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       8f3c4737-c315-40b3-935e-b8f205cb7601
+:END:
+#+title: osc-gen: enable sharing
+* Add a (commit and repo)* column to the nodes db
+  (*) actually no repo column but a commit-repo table too
+* some redundant notes
+** 1
+   Everyone has to keep a repo with every snapshot they've seen of someone else's notes. The simplest but less space-efficient way would be to clone the whole history.
+   Links to someone's data can either encode the source commit, or (better) their org-roam db can encode the most recent commit of every id. Either of these permits them to delete links without breaking your references to their data.
+** A
+   To modify, keep a map (table) from commit ids to repos,
+   and add a "latest commit" column to the nodes table.

@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       29673a41-5ac5-4058-af3a-0868ff7b2573
+:END:
+#+title: osc-gen glyphs
+* definition
+  a 1-char symbol in a node, before but not part of a heading
+  shown in a separate "system" font
+* TODO problems
+** glyphs could be redundant to properties
+   :PROPERTIES:
+   :ID:       c48a9e5c-24c4-430e-9f75-ae8848387f71
+   :END:
+   Ideally the properties would *show* as those 1-character symbols,
+   without the 1-character symbols being a separate part of the text.
+* instances
+** "}" is a good [[id:d7ba0584-6df0-4c75-96c8-5758b9934e35][prefix for part of an ancestry]].
+   to indicate that view-content file-contains its view-container.
+** "T" = saving in this file terminates at this branch.
+   If the node showing "T" has tree content,
+   the user can edit or delete that content on-screen,
+   and it will not affect the tree when the view is saved.
+** I = has an ID but is not a file
+** F = is a file
+** link bidirectionality
+   If F links to G and vice-versa,
+   that should be visible from either link.
+   Use the "left right arrow" symbol ↔
+   (`C-x 8 RET left right ar RET")
+** number of file branches
+** number of links to it
+** whether a link's label equals its target's title
+   Such an indicator would prefix the link itself.
