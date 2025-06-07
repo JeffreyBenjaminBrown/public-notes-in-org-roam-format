@@ -20,3 +20,5 @@
    mixed in with the parents in the stored on-node list of parents.
    This would let the user decide where unlisted parents appear in the list of parents. (Their order within that category would be undefined.)
 * more complex case: group them
+  e.g. some could be grouped under "obvious"
+  and collapsed by default

@@ -9,6 +9,21 @@
    https://github.com/JeffreyBenjaminBrown/skg
    and might be the best introduction to Skg.
 ** [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][connectivity demos]] for knowledge graphs
+* fun-looking screenshots of mindmapping
+  [[../media-public/mindmapping is fun.png][presence, monogamy, peace]]
+** maybe caveat with [[id:0425cc36-0ce3-4fe9-8cb8-6456db3d0897][comparison to academia]]
+* comparing skg to academia
+  :PROPERTIES:
+  :ID:       0425cc36-0ce3-4fe9-8cb8-6456db3d0897
+  :END:
+** Mindmapping is opposite to academia.
+   It is thinking without specialization, with complete freedom.
+** Mindmapping can look distant from work.
+   Thinking about a lot of things you can't change can look impractical. The change is in you.
+* Simplify the Emacs transmission.
+  Just send the text with its properties. Let Rust figure out everything else. It will no longer be procedural, subjeect to cursor and other errors.
+* Emacs should offer making properties visible and editable directly.
+* For links to be together in a node is for them to share the view from that node.
 * divide docs
 ** why I want Skg
 *** choose your guides
@@ -71,7 +86,7 @@ We waste so much information. So many have found the answer to what ails you, ma
    the importance of reading it before the content,
    an integer >= 1.
 * TODO tasks left
-** should I ? [[id:6ed5be66-787c-479c-8119-cb340a80d72a][[node] contains [branch] in [view]​]]
+** should I ? [[id:6ed5be66-787c-479c-8119-cb340a80d72a][node contains branch in view]]
 ** A clone should not duplicate the title and body from the original when they are equal.
    Instead those fields should give the ID of the original.
 

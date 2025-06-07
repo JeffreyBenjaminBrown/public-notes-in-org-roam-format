@@ -27,5 +27,5 @@
   [[id:228029c2-ea1c-4f18-b5e4-975989fca3be][The view from standalone file F]] can require traversing more files than F itself.
 * Motivation: Why this makes diffs easy to read.
   Each move is just a single insertion-deletion pair,
-  rather than a whole lot of contiguous
+  consisting of just two lines in the diff.
 * Question: What's a good term for [[id:54f597a8-c9ea-4873-8385-22e82c9d9de6][files "within" files]]?

@@ -1,9 +1,8 @@
 :PROPERTIES:
 :ID:       e6e855d9-f2e8-456e-87d7-e82379ead9f1
 :END:
-#+title: show cotargeters
-* TODO generalizations
-* TODO remove parent-child language
+#+title: show cotargeters, coancestors
+* TODO Generalizatie further?
 * how to show them
 ** Sometimes put the child view-under both parents.
 *** elaboration

@@ -3,9 +3,14 @@
 :END:
 #+title: Anything duplicated on screen should be a separate color.
 * = so that it's easy to recognize
-* plan
+* see also
+** [[id:58ffe371-fdf8-427f-a462-4f674315b9b5][conflicts from external edits]]
+* a plan
   Ideally, keep a list of addresses on screen, with a count next to each. If the count reaches 0, remove it from the list. If a new address is written, add it to the list. If the count is above 1, color it "duplicated".
   When the list changes, compute its diff, and unless the change was a count-reduction or a deletion, rescan the buffer to recolor any address whose state in the list changed. Actually scanning the whole buffer is not always necessary. If a count initially > 1 rises, only recolor the line containing the address that was just written. And if count rises to 1, again, nothing to recolor. But if it rises from 1 to 2, then the earlier instance of that address must be found elsewhere in the buffer.
+* A color might sometimes distinguish not repeated things, but the first tail of each such set.
+  The idea being you're most interested in knowing you've seen something already.
+  And maybe that first instance of it should include a count of how many time it is repeated in this context.
 * newish abilities involved
 ** Recognize when a regex is completed.
 *** Hopefully there's a preexisting function for this.
