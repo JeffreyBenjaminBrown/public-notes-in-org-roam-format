@@ -4,6 +4,7 @@
 :END:
 #+title: logic
 * =? finding truth + motivation
+* [[id:195f4d81-c0ff-4e61-9218-8a1a633db798][emotional logic]]
 * [[id:299fd87e-de56-4671-b51f-e3554ba7dd95][formal logic]]
 * [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][optimization]]
 * truth
@@ -21,7 +22,6 @@
 ** [[id:dd04d72b-8f97-4fc7-92d8-1858c5323428][presennce v. rationality]]
 ** [[id:e5146f0b-4cf4-4684-aeb3-cd218fa5ac86][tacit social knowledge]]
 ** [[id:8142349d-b141-4083-8f60-4e75b5c807fc][incompleteness theorems]]
-* [[id:75d26e15-7a43-42bc-987e-e30d59e5bc94][Courage can rely on reason.]]
 * [[id:7b24e00d-6acb-4723-9267-6a9935dddacd][Truth is an assumed property of one universe.]]
 * [[id:c045bfc7-96d5-417f-97f4-70337b3132ea][rational depression]]
 * technical

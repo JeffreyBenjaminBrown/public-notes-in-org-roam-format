@@ -10,6 +10,7 @@
 ** [[id:f927cc31-1266-4352-978a-b0e00fb806a8][amazing music]]
 ** [[id:182dd8be-1e10-4479-b252-e338af38729f][amazing videos]]
 * tech
+** [[id:1406b2b1-a640-4d59-be69-a06a401e3f95][some computer science failures]]
 ** [[id:d3e3d652-353a-4170-b3c8-4c77b2131372][starling murmurations]]
 ** [[id:12364cd8-bc33-482b-84ca-0df360d428c3][a giant marble quarry]]
 ** [[id:ba91e3ad-997a-4b4e-9ed4-43324b94f10f][computational efficiency]]

@@ -2,11 +2,20 @@
 :ID:       720f5a80-ba0a-4f12-888f-7adb38e2009f
 :END:
 #+title: spiritual healing
+* recent, unmerged
+** [[id:890fc33b-1247-459a-980f-6b3163f9bc1d][To focus on feelings feels paychedelic.]]
+* instances
+** [[id:b288df19-c02e-42fa-a4b6-4cd3c0162e52][self-respect]]
+*** [[id:e3f7d448-2b88-41bb-ac5b-44cdb34c0828][Sexiness does not feel obligated.]]
+** [[id:92354831-6ca0-455b-b87e-0ae639bc651b][Know what to keep private.]]
+** [[id:5c946bce-fb70-45f0-8efe-24b9077b0501][Happy alone first]]
+* What if we already [[id:f4d489d8-3687-4377-8394-4d1aa16d8782][see through the bias]] I want to solve?
+  :PROPERTIES:
+  :ID:       66378a3b-2439-4401-9773-460a8d4011bd
+  :END:
+* Do the gains from sharing mindmaps not vastly outweigh my doing more of it alone?
+  Is it not irrationally short-termist of me to do so much of the latter rather than more of the former?
 * Psychotherapy does it sometimes.
 ** Sessions with priests, too.
 * [[id:08dc2cef-0fdd-418c-8bee-4a4594d188a0]["Do your own thinking" is a great response to the urge to surf (too excess) as an anonymous reader|listener|viewer.]]
 * [[id:b0edbce5-7036-4d32-8266-be8e061fb06c][It would require imagination.]]
-* instances
-** [[id:92354831-6ca0-455b-b87e-0ae639bc651b][Know what to keep private.]]
-** [[id:e3f7d448-2b88-41bb-ac5b-44cdb34c0828][Sexiness does not feel obligated.]]
-** [[id:5c946bce-fb70-45f0-8efe-24b9077b0501][Happy alone first]]

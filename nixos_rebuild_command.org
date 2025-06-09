@@ -18,10 +18,9 @@
 ** how to do it
    verify good wifi conncetion first
 
-   sudo nix-channel --update nixos
-   cd ~/nix/jbb/
-   ./bash/rebuild-branches.sh
-   git push origin kde xfce
+   ~/nix/jbb/bash/rebuild-branches.sh
+   # AWAITS : Is `nix-channel update` working, or should I run it here, before the above script, like before?
+   # AWAITS : If the above works, commit the new rebuild-branches script.
 ** DONE if that makes my config read-only
    cd ~/nix/jbb/config
    sudo chown jeff *

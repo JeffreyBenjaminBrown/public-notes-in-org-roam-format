@@ -1,5 +1,10 @@
 :PROPERTIES:
 :ID:       337b7071-a7ce-4451-9f2e-4f57e0ccdc06
+:ROAM_ALIASES: emptiness vacuousness
 :END:
-#+title: emptiness
+#+title: emptiness | vacuousness
 * emptinesss [[id:fcc04ddf-843f-4953-b23c-b525a9d6d652][is somehow near wholeness]]
+* Why does "desire is infinite" feel vacuous?
+  :PROPERTIES:
+  :ID:       23bba9c1-1bbe-417a-9a45-e9eb577dc778
+  :END:

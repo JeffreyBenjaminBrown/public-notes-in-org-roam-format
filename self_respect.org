@@ -2,6 +2,12 @@
 :ID:       b288df19-c02e-42fa-a4b6-4cd3c0162e52
 :END:
 #+title: self-respect | independence
+* Cut yourself some slack.
+  :PROPERTIES:
+  :ID:       5f213eb6-8631-4c84-83fa-77a94f8a1fc2
+  :END:
+** Trust your prior choices, feelings.
+** Accept that you are [[id:594df21f-51c9-485c-85a1-cf943f325219][irrational]].
 * [[id:5e3a5ad9-f733-45fe-a7f1-55dcc0ce2bed][Direct attention well.]]
 * [[id:4abd453b-9fd0-4c54-b897-e2d104cb2c33][humility v. self-respect]]
 * qualities one might owe oneself
@@ -20,3 +26,5 @@
 * [[id:13e24c8b-c45a-4448-a3a8-8b1ae529f092][fast medium experience]]
 * Should help to [[id:a8760812-f098-4e39-aa4c-9d69a2e1fcba][square mindfulness and being single.]]
 * [[id:08dc2cef-0fdd-418c-8bee-4a4594d188a0]["Do your own thinking" is a great response to the urge to surf (to excess) as an anonymous reader|listener|viewer.]]
+* [[id:92354831-6ca0-455b-b87e-0ae639bc651b][Know what to keep private.]]
+  Both for oneself and for others.

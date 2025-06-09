@@ -13,3 +13,8 @@
 * [[id:3b8b9e73-2244-4e2f-a05c-ea6f5895b861][Communication contains musical responsibilities.]]
 * [[id:eebbe152-9051-4935-8ae2-294147fc7ab1][charitable interpretation and redundancy in language]]
 * [[id:366e649f-c492-4acc-99ae-dc552cd78f25][conversation techniques]]
+* Did playing poker help me understand how to talk?
+  :PROPERTIES:
+  :ID:       49b25a29-788c-4b7b-a869-333435a7b646
+  :END:
+** [[id:826d25ae-b544-4ad7-80fb-74f366bd3973][Every word should have a purpose.]]

@@ -1,8 +1,14 @@
 :PROPERTIES:
 :ID:       594df21f-51c9-485c-85a1-cf943f325219
-:ROAM_ALIASES: inconsistency irratinoality
+:ROAM_ALIASES: inconsistency irrationality
 :END:
-#+title: irratinoality , inconsistency
+#+title: irrationality | inconsistency
+* justifications for it
+** non-monomania | experience as motivation
+   One maximizes no single objective function.
+   And some acts are for the experience, not the outcome.
+** context sensitivity
+   All of what you do depends on what you are aware of, and some acts might contradict others taken while aware of other things.
 * [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][Commitment]] is hard.
 * [[id:dcbdb66e-55cb-46ce-af74-97aa841ddda7][irratinoality & ethics]]
 * [[id:c893937e-bca4-4a77-aa6c-ad481bf1d042][the limits of logic]]

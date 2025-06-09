@@ -10,6 +10,16 @@
 ** [[id:4837bd81-52cf-489f-9543-cf1f5b57df2b][Enthusiasm is funnier.]]
 * [[id:57988979-26d7-43d9-863f-14d1e21b5f2f][Contrast can be funny.]]
 * [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+* comedy & drama
+  :PROPERTIES:
+  :ID:       7439dc05-bd70-4cf8-9337-6fc31058f71b
+  :END:
+** Drama can be a great time for comedy.
+*** "You destroy [with a joke] every drama I'm working on."
+    :PROPERTIES:
+    :ID:       131ef0c5-2dc7-4e5f-a364-ece1a125bab6
+    :END:
+**** we both laughed hysterically
 * [[id:352ecbf2-b8c1-45c7-992f-ba94f1fce185][comedy & optimism]]
 * [[id:ccae4c2d-ee71-4c9c-acea-99074df994da][expression]]
 * [[id:06e57867-5a5f-462b-b963-56ffa719c9b8][surprise]]

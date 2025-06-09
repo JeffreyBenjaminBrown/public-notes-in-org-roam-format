@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "medicine & health"
 :END:
 #+title: health & medicine
+* ?technical
 * [[id:792e3508-665d-4b39-82b6-b702cf45cb56][skin health]]
 * [[id:daaa2feb-2278-4864-99c3-21c6c7f3f019][exercise]]
 * [[id:53153c43-2604-4a0c-b227-e2290bb89ab9][fasting]]

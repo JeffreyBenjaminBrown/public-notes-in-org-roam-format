@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       d3da70ea-0752-403d-a8eb-ebda828b7b7d
+:END:
+#+title: desire
+* Often its object assuages one anxiety and provides* another.
+  :PROPERTIES:
+  :ID:       c89ef761-2f1b-4840-89c5-6725354cf356
+  :END:
+  (*) among other things
+** examples
+*** drugs
+*** romantic love
+* lust | insatiability
+  :PROPERTIES:
+  :ID:       da2624c0-ca3a-4a8f-bb6b-e2f2d803f2ba
+  :END:
+** the infinite nature of want
+:PROPERTIES:
+:ID:       49b8cd32-e3b3-435b-bdad-26fb3e1ac82c
+:END:
+*** [[id:23bba9c1-1bbe-417a-9a45-e9eb577dc778][Why does this feel vacuous?]]
+*** [[id:681da8ea-6f33-4f55-9d47-67256f576955][Music illuminates (the?) infinite nature of want.]]
+** [[id:c9f48f52-2646-4f54-9c72-b03d05e616d3][Choosing | pursuing [experience] as if it could make one's entire life worth it.]]
+** Is lust inherently ambivalent?
+   :PROPERTIES:
+   :ID:       61a8b391-c284-484a-a74f-13cd4e8c203c
+   :END:
+*** [[id:d4b3a89a-3bbe-48d0-80c3-04a375ef4fb4][Lust can feel like mind-rot.]]
+*** [[id:94560eb7-3ea1-4098-9107-e083459de5cc][Lust can feel correct.]]
+** [[id:357a78c5-f0e8-4811-9f1e-e7d56ac797cd][How different are lust and greed?]]

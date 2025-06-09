@@ -1,13 +1,19 @@
 :PROPERTIES:
 :ID:       6e44fba3-c51d-430c-81ac-bd91e8db773b
-:ROAM_ALIASES: peace balance equilibrium "social harmony"
+:ROAM_ALIASES: peace balance equilibrium "social harmony" relax
 :END:
-#+title: balance | peace | equilibrium | harmony
+#+title: balance | peace | equilibrium | harmony | relax
 * TODO merge with [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
 * see also
 ** [[id:bf73fa6f-cd1a-4237-8bdb-7a98025cf226][wholeness]]  [[id:24fcf76a-fafa-4cb2-8312-43719f7aa207][fission]]  [[id:1a8ddfa4-0522-4c92-948a-21a97a277bcf][fusion]]  [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
 ** [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]
 ** [[id:1a9a90c1-ddfd-446b-ab69-f7be0db3ca10][solitude]]
+** [[id:d3da70ea-0752-403d-a8eb-ebda828b7b7d][desire]]
+** [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][acceptance | realism]]
+* Recognize [[id:27e8eac8-c5aa-464b-b34e-44589338931b][bias]], in oneself and others.
+  :PROPERTIES:
+  :ID:       f4d489d8-3687-4377-8394-4d1aa16d8782
+  :END:
 * peace in oneself
 ** [[id:2f3c6dae-ded0-43f0-8b3d-0e9d095d8904][Could appreciating drama help one cope with stress?]]
 ** Balance seems like an avenue to it.

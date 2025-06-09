@@ -2,6 +2,11 @@
 :ID:       b5c9ebb3-57c2-4516-8db2-53ddae6dc140
 :END:
 #+title: right to feel, act on, and forget
+* elaboration \ definition
 Some things clearly are.
 
 If more pains (broadly speaking -- fear, guilt, etc.) were like this, it seems like we would be both more functional and happier.
+* the condition
+  If, upon what one believes is sufficient examination, the memory does not usefully add to one's prior information -- in particular, it implies no changes to one's habits -- then forgetting is probably costless. Or near-forgetting, where one simply increments one's count of experiences like the one to be otherwise forgotten. (A single experience could in this way increment multiple counts, since it has multiple aspects.)
+* I feared for my health, took a nap, feel good* now.
+  i.e. health seems good now

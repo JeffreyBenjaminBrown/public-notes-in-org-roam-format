@@ -2,6 +2,12 @@
 :ID:       da59dd81-02a6-4bd6-a0d6-ea9973f46377
 :END:
 #+title: anxiety
+* insecurity
+* Drawing pictures with AI makes me feel like life is too short.
+  :PROPERTIES:
+  :ID:       adad0052-a974-4a8a-a0c0-f969a692a7a1
+  :END:
+** If I could inpaint this would likely be solved.
 * [[id:b9e9171a-4c58-4e25-a4cd-53f974701891][Kierkegard's dizziness of freedom]]
 * Paul Tillich's categories
 ** "ontic": fate & death

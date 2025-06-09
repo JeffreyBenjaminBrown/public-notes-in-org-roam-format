@@ -3,7 +3,15 @@
 :ROAM_ALIASES: feelings
 :END:
 #+title: emotion
+* recent, unmerged
+** [[id:890fc33b-1247-459a-980f-6b3163f9bc1d][To focus on feelings feels paychedelic.]]
 * [[id:2370c5e8-e713-4d6f-8d6c-32f9b55523e1][instances]] \ feelings
+* emotional logic, methods
+  :PROPERTIES:
+  :ID:       195f4d81-c0ff-4e61-9218-8a1a633db798
+  :END:
+** [[id:d7d8d66e-24b4-4f53-aa98-0d6707b26254][patience]]
+** [[id:75d26e15-7a43-42bc-987e-e30d59e5bc94][Courage can rely on reason.]]
 * [[id:82fbcfc0-61ea-4f30-82e5-3eb5148a16cf][emotion & frequency]]
 * [[id:dca72b0d-ee2c-4666-8e87-4cf5bf58da98][emotional free lunches]]
 * [[id:06b856e9-50fb-4025-9276-cd0b2b945fa8][Knowing how self and other feel can both be tricky.]]

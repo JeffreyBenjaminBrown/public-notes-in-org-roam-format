@@ -2,11 +2,17 @@
 :ID:       7b52eb18-91c5-4f83-be4f-40ff8a918541
 :ROAM_ALIASES: motivation ambition voluntarity
 :END:
-#+title: motivation | ambition | voluntarity
+#+title: motivation | ambition | voluntarity | intention
 * see also
 ** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
 * ease
 ** [[id:1eb17267-8251-4bf3-8f58-5cbec72ea187]["You can have this as much as you take it."]]
+* Every word should have a purpose.
+  :PROPERTIES:
+  :ID:       826d25ae-b544-4ad7-80fb-74f366bd3973
+  :END:
+** And the purpose should involve the listener.
+   That is, if some passage is present only because I feel like earlier or later passages motivate it, but it does not serve the listener, axe it.
 * humility & ambition
   :PROPERTIES:
   :ID:       af7c9428-198d-428b-be12-1e6e21033dfb
@@ -31,8 +37,7 @@
 * [[id:e4963ae5-c8ed-4cca-939b-9c1c97b68e39][reluctance to start an enjoyable thing]]
 * [[id:0201e93c-bf0e-475c-9d03-be09f4c408b4][cognitive states|skills I want]]
 * ? internalize [[id:9d3a6c74-b537-45c2-be1f-5810374851e8][mortality pressure]]
-* [[id:49b8cd32-e3b3-435b-bdad-26fb3e1ac82c][the infinite nature of want]]
-** [[id:a30e5cb0-eb09-4e20-bb17-3872ab4d4a1c][lust | insatiability]]
+* [[id:d3da70ea-0752-403d-a8eb-ebda828b7b7d][desire]]
 * [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]
 * [[id:d51ef069-e7f3-4ea5-8f0d-c3bbd2f18857][Moral and morally motivated are distinct qualities.]]
 * methods

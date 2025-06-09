@@ -3,10 +3,39 @@
 :ROAM_ALIASES: unity
 :END:
 #+title: wholeness
-* see also [[id:1a9a90c1-ddfd-446b-ab69-f7be0db3ca10][solitude]]
+* see also
+** [[id:1a9a90c1-ddfd-446b-ab69-f7be0db3ca10][solitude]]
+** [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][presence]]
+* Our only judges are each other.
+  :PROPERTIES:
+  :ID:       585b7a0d-4fc6-497b-b20d-0fc19ed9daa7
+  :END:
+* [[id:5f213eb6-8631-4c84-83fa-77a94f8a1fc2][Cut yourself some slack.]]
 * integrity
 ** [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][consistency]]
 ** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
 * holism
 * To select is to reject (others).
 * [[id:543d4a74-b24c-41d3-b93d-79d9c86eadf3][Partial completion is of almost no value in many projects.]]
+* [[id:0425cc36-0ce3-4fe9-8cb8-6456db3d0897][comparing skg to academia]]
+* Be, not do.
+** Demonstrate, don't {explain | work toward it}.
+* bias toward wholeness
+  :PROPERTIES:
+  :ID:       49e77457-b0c2-4ffd-b70b-6c6203ad0a6e
+  :END:
+** would be interesting
+** some could be computationally efficient
+* The seeds of your own healing might be in you.
+* simplicity ~ universality
+  :PROPERTIES:
+  :ID:       1ac6e5dd-4846-4af1-8981-0a5d1782ef1d
+  :END:
+* Being is more universal than doing.
+  Everything that does, does uniquely.
+  But everything that is, is similarly.
+* If you can't tell your story, something is wrong.
+  :PROPERTIES:
+  :ID:       68c52fdf-eb5c-4d51-a147-a3450fe42661
+  :END:
+* [[id:db9aedb6-b2cd-4516-8a25-2870a76b3b42][& personal]]

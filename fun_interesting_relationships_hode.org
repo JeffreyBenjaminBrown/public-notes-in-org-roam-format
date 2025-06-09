@@ -3,6 +3,8 @@
 :ROAM_ALIASES: "relationships for Hode" "Hode relationships"
 :END:
 #+title: relationships worth recording
+* Use capital letters for the members, lowercase for the relationship template.
+  The result is easy to automatically parse for relationships.
 * instances
   The title of each child applies in its entirety
   to each grandchild.

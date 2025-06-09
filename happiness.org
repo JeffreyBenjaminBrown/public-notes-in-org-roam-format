@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       2b15a3ec-086b-4c66-af57-a03e706e1d84
+:ROAM_ALIASES: happiness
 :END:
-#+title: happiness
+#+title: joy
 * [[id:763e96f9-b1eb-4e0a-b7a7-04917a32f097][Happiness must be a priority.]]
 * [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]
 * [[id:2e75b219-6f4c-427f-9f61-13f618fd0e80][safety]]
@@ -18,3 +19,6 @@
 * priavte \ jbb
 ** [[id:0c752253-4f22-44a8-8509-dd37c3ba5a8a][social \ jbb]]
 ** [[id:c48c126f-c92a-48ac-bff0-28933edf859f][creative \ jbb]]
+* fantasy
+** I would be happier in a world where muscle density varied widely.
+   Shoulderpads could hide weapons.

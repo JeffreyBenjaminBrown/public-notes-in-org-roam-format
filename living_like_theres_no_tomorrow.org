@@ -12,6 +12,7 @@
 :ROAM_ALIASES: "courage & presence"
 :END:
 ** Introduce yourself, get someone's number, etc. while there's still time.
+* [[id:51cfa59e-4138-4d2d-8cae-5dbad26b78ad][sharing v. presence]]
 * [[id:b5c9ebb3-57c2-4516-8db2-53ddae6dc140][right to feel, act on, and forget]]
 * [[id:a8461f62-4a68-4a26-a9d4-a063baf1d3d5][Presence obliterates micro-optimizations.]]
 * [[id:dd04d72b-8f97-4fc7-92d8-1858c5323428][presennce & rationality]]
@@ -50,3 +51,5 @@
   :PROPERTIES:
   :ID:       4ac50bea-31ef-415c-8328-22f3693d2da6
   :END:
+* [[id:585b7a0d-4fc6-497b-b20d-0fc19ed9daa7][Our only judges are each other.]]
+* [[id:66378a3b-2439-4401-9773-460a8d4011bd][What if we already see through the bias I want to solve?]]

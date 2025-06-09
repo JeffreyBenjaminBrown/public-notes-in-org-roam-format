@@ -6,6 +6,7 @@
 * TODO Claude 4's system prompt might deserve study.
   some say so on Twitter
   https://x.com/IntuitMachine/status/1926190101853319646?s=19
+* [[id:adad0052-a974-4a8a-a0c0-f969a692a7a1][Drawing pictures with AI makes me feel like life is too short.]]
 * [[id:62d7c9c4-2022-4391-9770-cbd185d0becb][using AI]]
 * [[id:af4b9da0-9605-46c0-9822-68f252ec7276][accomplished by AI]] | things AI can do
 * [[id:40a2de02-6388-4795-8280-62f4888cf7b0][AI and understanding]]

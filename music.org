@@ -2,6 +2,8 @@
 :ID:       3e92ff4d-195a-4121-aa6c-13b83b303391
 :END:
 #+title: music
+* recent notes without integration
+** [[id:773f61b4-85a4-4322-8279-5a358e6f2707][if music was a scam]]
 * see also
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]

@@ -2,6 +2,7 @@
 :ID:       4ff751ef-1d5b-4df7-89ed-69adb2c46fd4
 :END:
 #+title: drama
+* [[id:7439dc05-bd70-4cf8-9337-6fc31058f71b][comedy & drama]]
 * [[id:41cb54f4-d51b-4e5c-b8b6-264c9a4c6f78][A good story has positive and negative shocks.]]
 ** [[id:5fb0c3e5-a80d-46be-b5c6-26accde35bb3][valence, emotional marbled]]
 * [[id:2f3c6dae-ded0-43f0-8b3d-0e9d095d8904][Could appreciating drama help one cope with stress?]]

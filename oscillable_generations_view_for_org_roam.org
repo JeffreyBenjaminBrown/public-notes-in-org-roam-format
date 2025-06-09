@@ -17,6 +17,10 @@
    disguise-org-headline ()
    org-roam-db-query (query &rest args)
    insert-graph-parents-as-subheadlines ()
+* Contribute to org-roam.
+** preserve frames when following link
+   Splitting a buffer and then following a link should let you visit only from that view, not both.
+* Can group the ancestries and the in-this-path to a node under a "contexts" view-branch.
 * TODO first MEP: [[id:7d610433-1fb7-4a84-8903-1a7f9212a4a7][backlinks in forward-view]]
 * remember
 ** This is so feasible!
@@ -152,3 +156,4 @@
    "it" could have an up-left arrow,
    "these" could have a down-right arrow,
    etc.
+* [[id:eb54aa0e-a503-44f8-a8a5-8e0ab30e6994][rename it]]

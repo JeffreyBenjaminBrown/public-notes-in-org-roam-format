@@ -2,4 +2,8 @@
 :ID:       227c3af6-14fc-42b2-a1ff-76313149a746
 :END:
 #+title: denial
-* [[id:abf86c03-3938-4662-ac31-aaecfc5a9526]["denial by overcompensation"]]
+* ? a definition
+  Work on a doomed method toward some desired solution.
+  Note that this does not imply the solution itself is doomed.
+* some kinds
+** [[id:abf86c03-3938-4662-ac31-aaecfc5a9526]["denial by overcompensation"]]

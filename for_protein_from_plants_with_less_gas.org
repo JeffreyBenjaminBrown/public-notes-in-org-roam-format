@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       083ad7c4-7dc1-42c1-a3cb-b275f6e45bdd
+:END:
+#+title: for protein from plants with less gas
+* Hemp, chia and pumpkin seeds
+  are borderline complete proteins,
+  hemp best among them.
+  Other nuts and seeds are less complete.
+* Buckwheat or amaranth.
+  Those, plus quinoa which I can't eat, are the plant-based sources of lysine (the limiting factor that generally prevents nuts from being complete) that I haven't tried (in decades).

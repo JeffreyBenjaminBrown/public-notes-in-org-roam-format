@@ -2,8 +2,8 @@
 :ID:       681da8ea-6f33-4f55-9d47-67256f576955
 :END:
 #+title: Music illuminates (the?) infinite nature of want.
+* see [[id:49b8cd32-e3b3-435b-bdad-26fb3e1ac82c][the infinite nature of want]]
 * elaboration
 I want to hear more.
 I want to play more.
 No matter how much of those things I do.
-* see [[id:49b8cd32-e3b3-435b-bdad-26fb3e1ac82c][the infinite nature of want]]

@@ -1,7 +1,9 @@
 :PROPERTIES:
 :ID:       a1487b9c-70d9-493a-b61e-e512def4a0d5
+:ROAM_ALIASES: freedom independence
 :END:
-#+title: freedom
+#+title: freedom | independence
+* [[id:f4d489d8-3687-4377-8394-4d1aa16d8782][Recognize bias.]]
 * [[id:2e76a07c-c6b4-4d05-968e-0bdd20ee4230][freedom v. commitment]]
 * freedom & forgiveness
 * [[id:4c25a3eb-4f21-4c20-9fee-2a18275ca089][volition]]

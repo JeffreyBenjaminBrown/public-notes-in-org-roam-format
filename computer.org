@@ -2,6 +2,7 @@
 :ID:       7c78a3fd-74aa-4358-8977-4ea06aebe168
 :END:
 #+title: computer
+* [[id:1406b2b1-a640-4d59-be69-a06a401e3f95][Failures in computer science can be beautiful.]]
 * [[id:3cbe011e-4bf8-4dfe-bc63-486c3f2cf772][computer interface]]
 * [[id:001d7913-c431-461c-92ae-a6a39394856c][computer science]]
 * computer hardware

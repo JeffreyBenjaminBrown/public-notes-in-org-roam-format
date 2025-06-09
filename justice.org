@@ -10,7 +10,10 @@ Remember, notes should be surprising.
 :END:
 ** [[id:bc89fad0-c79c-4725-bb24-32d1cef10578][cowardice => evil]]
 ** [[id:3fdb250d-fc7d-4b1f-becf-1d7996a9e480][laziness => evil]]
+** Is (entirely?) an inequitable utility function over others' utility functions.
+   esp. of the in-group's v. the out-group's
 * [[id:5357b637-c959-455f-b171-429390edbc04][conflict]]
+* [[id:585b7a0d-4fc6-497b-b20d-0fc19ed9daa7][Our only judges are each other.]]
 * [[id:afecc0bb-68d0-4bc5-a656-f277a9a830db][justice & irony]]
 * [[id:18b442b7-427d-4057-8fb7-e5b715e955f5][justice & accounting]] = karma
 * [[id:9739cf28-dad5-4061-8367-7f77cc166700][UBI]]
@@ -23,3 +26,5 @@ Remember, notes should be surprising.
 * far out
 ** [[id:e54b0669-aa26-45cf-a5fa-6bb41f871790][Time is time's initial/foundational conditions.]]
 ** [[id:c3a62ad1-d09d-4e79-8547-af725870e380][a cognitive justice for the destitute]]
+** [[id:f714e415-5a58-4627-b27f-4ca5d35bf847][In Switzerland, bribes paid abroad were not only legal b
+ut tax deductible until around 2015.]]
