@@ -4,6 +4,7 @@
 :END:
 #+title: emptiness | vacuousness
 * emptinesss [[id:fcc04ddf-843f-4953-b23c-b525a9d6d652][is somehow near wholeness]]
+* [[id:8c655869-1805-4eb2-ae83-d53b51e14b88][There can be no surprise without expectation.]]
 * Why does "desire is infinite" feel vacuous?
   :PROPERTIES:
   :ID:       23bba9c1-1bbe-417a-9a45-e9eb577dc778
