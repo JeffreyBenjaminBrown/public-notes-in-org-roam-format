@@ -25,7 +25,8 @@
 * [[id:512f112a-218b-4a0e-9be1-9786661b1968][imminence]]
 * technical
 ** [[id:2401bd30-54f4-4b09-845a-ce624918922c][Echoes are infinite in even-dimensioned spaces.]]
+* [[id:31b4c38c-5885-4895-ae33-85cb4fb93b86][immaturity]]
 * art about spacetime
 ** [[id:6f008b2d-17ed-4a0e-bc85-40ce8968c5e5][lost in time]]
 ** [[id:d66c723a-8c27-4163-89e9-9abefad9537f][spacetime probability flag painting as a sport]]
-* [[id:31b4c38c-5885-4895-ae33-85cb4fb93b86][immaturity]]
+** [[id:865d7578-c0f2-434a-8961-cc6449d2bf56][choosing to share a time dimension with someone]]
