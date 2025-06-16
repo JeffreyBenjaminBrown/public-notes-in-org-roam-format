@@ -51,6 +51,7 @@
    :END:
 *** [[id:7a0295d0-a82c-4d1f-8ee3-dad17b554e9f][cynicism]]
 *** [[id:aa879d13-804f-4de3-b9fc-a3e7c774969e][evil]]
+*** [[id:748ef797-bf79-4211-b333-d99c448444d9][hate]]
 *** [[id:74a00d03-5790-4851-b52e-6d2108eabfef][irresponsibility]]
 *** [[id:efd9d055-de2d-4604-9d0c-ec24361e3297][negativity]] , esp. negative feelings & experiences
 *** [[id:1d8be58f-a579-4e4c-a145-8c349db58514][peer pressure]]

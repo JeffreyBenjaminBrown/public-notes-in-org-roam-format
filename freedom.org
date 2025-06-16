@@ -4,6 +4,11 @@
 :END:
 #+title: freedom | independence
 * [[id:f4d489d8-3687-4377-8394-4d1aa16d8782][Recognize bias.]]
+* liberation via humility
+  :PROPERTIES:
+  :ID:       7c318a41-49c5-46bd-82ae-3f6a518346cd
+  :END:
+  As in, "I don't need to also be good at guitar."
 * [[id:2e76a07c-c6b4-4d05-968e-0bdd20ee4230][freedom v. commitment]]
 * freedom & forgiveness
 * [[id:4c25a3eb-4f21-4c20-9fee-2a18275ca089][volition]]

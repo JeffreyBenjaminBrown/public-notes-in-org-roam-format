@@ -10,12 +10,16 @@
 :PROPERTIES:
 :ID:       31893ab1-1167-4d60-ac5a-4e55eb2d7968
 :END:
+** some interesting contexts for it
+*** epistemology
+*** consciousness
 ** Some psychoactives seem to impose an interiority bias.
    :PROPERTIES:
    :ID:       3c0de83f-b2fd-4662-884e-e8e3c1664080
    :END:
    Toward processing and the self,
    away from physical action and therefore others.
+** Cognition is a form of interiority.
 * Our only judges are each other.
   :PROPERTIES:
   :ID:       585b7a0d-4fc6-497b-b20d-0fc19ed9daa7

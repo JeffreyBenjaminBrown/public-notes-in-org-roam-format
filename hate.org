@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       748ef797-bf79-4211-b333-d99c448444d9
+:END:
+#+title: hate
+* Hate might serve a useful prioritization function.
+  :PROPERTIES:
+  :ID:       0c52e523-c39b-412a-87fe-1f7bf796220a
+  :END:
+  If, from an intellectual point of view, there is too much to do, a visceral sense of what *really* bothers you could help you choose among those potential focii.

@@ -2,6 +2,28 @@
 :ID:       1d0e24bc-a169-4f35-93de-aa3866c910f3
 :END:
 #+title: Colombia
-* [[id:c558d4f5-b34a-4e76-9ca5-efb5e73c23b2][international shipping into Colombia]]
-* [[id:e9c13a84-0151-4df5-bb49-af5e4bda6ab0][finding postal|zip codes in Colombia]]
+* problems Colombia faces
+  :PROPERTIES:
+  :ID:       2d2a69b3-e0b4-4f90-90ea-0481c6f88ecd
+  :END:
+** unsustainable borrowing
+*** [[id:ef203c83-8ee7-440f-a898-9e4e85bd9719][Laberinto Fiscal by Oliver Pardo]]
+** little respect for or faith in law, government
+** large illegal money flows, with violence
+** lack of transparency
+*** Nobody knows spending by project.
+    The top-level record of government spending only records who received what money, not how they spent it.
+*** Changes to the DNP are made behind closed doors.
+**** Each one's vote is already decided before the public debate begins.
+     :PROPERTIES:
+     :ID:       bc6e8cc0-eced-4688-943a-4b4385c7a32e
+     :END:
+***** TODO fact-check this
+      see backlinks
+**** Congresspeople thus can't take overt credit for its results.
+**** This removes their incentive to get stuff for their constitutents, and replaces it with a big bribery potential.
+     And the bribery potential seems only to be captured by a small minority of the politicians involved. [[CITATION NEEDED]]
 * [[id:63060749-a410-4311-a6fe-b8e172e2d34b][Colombia, laws and institutions]]
+* useful if you live here
+** [[id:c558d4f5-b34a-4e76-9ca5-efb5e73c23b2][international shipping into Colombia]]
+** [[id:e9c13a84-0151-4df5-bb49-af5e4bda6ab0][finding postal|zip codes in Colombia]]

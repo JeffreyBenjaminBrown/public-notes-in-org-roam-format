@@ -2,6 +2,12 @@
 :ID:       41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3
 :END:
 #+title: oscillable generations view for org-roam
+* Are wishes interesting?
+  I have a lot of wishes in a few files:
+
+oscillable_generations_view_for_org_roam.org
+shareable_knowledge_gardens.org
+hode.org
 * refs
 ** systems ,, favorite | relevant
 *** [[id:572d6341-4aa9-4d8e-9a28-11d8fc527f25][Emacs programming for knowledge graphs]]
@@ -17,10 +23,20 @@
    disguise-org-headline ()
    org-roam-db-query (query &rest args)
    insert-graph-parents-as-subheadlines ()
+* to get a sense of the mass of a content tree
+  out-links in contents
+  number of contents
 * Contribute to org-roam.
 ** preserve frames when following link
    Splitting a buffer and then following a link should let you visit only from that view, not both.
 * Can group the ancestries and the in-this-path to a node under a "contexts" view-branch.
+* Indicate an intermediate heading is optional.
+  That it describes the relationship,
+  and does not stand on its own.
+  (In most cases I expect the latter to be,
+  more specifically, that the elements are more interesting
+  than (except perhaps the first time)
+  the relationship label without members.)
 * TODO first MEP: [[id:7d610433-1fb7-4a84-8903-1a7f9212a4a7][backlinks in forward-view]]
 * remember
 ** This is so feasible!
@@ -90,8 +106,7 @@
 *** Obviates a harder feature: [[id:217a4c60-458b-4a06-8627-6eeb2bc1771e][save-terminality]]
 ** [[id:e6e855d9-f2e8-456e-87d7-e82379ead9f1][show cotargeters, coancestors]]
 ** [[id:f2e39601-d7a2-46e1-b18f-a1287aa94262][Make duplication in a buffer visibly obvious.]]
-** [[id:09302ec4-f993-4b1c-bc1e-633f47274c7a][osc-gen: content context switching]]
-** [[id:ab34f3a5-6945-458d-ac4d-964e9220608f][Save file or all files in buffer.]]
+** [[id:09302ec4-f993-4b1c-bc1e-633f47274c7a][content context switching]]
 ** ancestry context switching
    :PROPERTIES:
    :ID:       d7ba0584-6df0-4c75-96c8-5758b9934e35
@@ -117,6 +132,7 @@
    but save the view itself.
    Try to make the view robust to changes
    in the files it views.
+** indicate repo in link
 * features, later
 ** toggle ancestry between full and only nodes with IDs
    When the ancestry is "collapsed",

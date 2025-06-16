@@ -22,3 +22,8 @@
 * fantasy
 ** I would be happier in a world where muscle density varied widely.
    Shoulderpads could hide weapons.
+* Joys are immortal.
+  :PROPERTIES:
+  :ID:       1a59f217-71bd-4ccc-8d6a-a63f9c823378
+  :END:
+** For every time, there is a later time during which {dance, music, art} is {fun, deeply symbolic, ..}.

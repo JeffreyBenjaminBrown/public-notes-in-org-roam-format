@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b9a4a087-3ca4-4c87-923d-a3f06fa2d5a2
+:END:
+#+title: Exporting industries face more competitive pressure.
+* the idea
+  Small countries have problems with competition just due to population size. (Hell, even the US does.) But businesses in export sectors are competing with the entire world, so they become disproportionately more efficient.
+* source
+  Ken Rogoff, while being interviewed by Dwarkesh Patel,
+  on the latter's podcast, circa <2025-06-13 Fri>.

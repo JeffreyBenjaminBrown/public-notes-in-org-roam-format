@@ -1,14 +1,21 @@
 :PROPERTIES:
 :ID:       b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8
-:ROAM_ALIASES: optimization solution
+:ROAM_ALIASES: optimization solution productivity
 :END:
-#+title: solution | optimization
+#+title: solution | optimization | productivity
 * see also
 ** [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][realism]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
+* flow, the mental state
+  :PROPERTIES:
+  :ID:       dd74aa97-289b-4fad-9540-6a7445e1484c
+  :END:
+** Music is better for flow than podcasts.
+   Music lets you move between intellectually demanding tasks and easy ones without interrupting the stream.
 * anti-neighbors
 ** [[id:594df21f-51c9-485c-85a1-cf943f325219][irrationality , inconsistency]]
 ** [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaninglessness | pointlessness]]
+* [[id:7c318a41-49c5-46bd-82ae-3f6a518346cd][liberation via humility]]
 * etymology
 ** Solution     suggests discrete possibility spaces.
 ** Optimization suggests continuous choice.
@@ -31,3 +38,5 @@
 ** [[id:27481367-d7b7-479c-9cd9-d78edabe949b][if you had a really epic missing half]]
 * defineable in terms of it
 ** [[id:e9684dbd-465b-4dc6-af7a-7fc30eecfdf0][optimism + solution = transcendence]]
+* [[id:5ca1fc76-8dd7-4305-ac97-c4dfe9fb3610][competition]]
+* [[id:0c52e523-c39b-412a-87fe-1f7bf796220a][Hate might serve a useful prioritization function.]]

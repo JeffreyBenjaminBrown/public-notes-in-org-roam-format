@@ -3,6 +3,7 @@
 :END:
 #+title: spiritual healing
 * recent, unmerged
+** I want to be vegetarian.
 ** [[id:890fc33b-1247-459a-980f-6b3163f9bc1d][To focus on feelings feels paychedelic.]]
 * instances
 ** [[id:b288df19-c02e-42fa-a4b6-4cd3c0162e52][self-respect]]

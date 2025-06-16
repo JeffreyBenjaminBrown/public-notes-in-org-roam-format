@@ -3,6 +3,8 @@
 :ROAM_ALIASES: energy power force work
 :END:
 #+title: energy
+* [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][God]]
+* [[id:9d724e6d-d4ca-4245-97c9-f8102ee2d31c][public image]] | fame
 * [[id:4dc21a1a-cf5d-48d9-9297-05af7c7618e5][labor v. capital]]
 * [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
 * [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][balance]]

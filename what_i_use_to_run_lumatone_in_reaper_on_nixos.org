@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       e5fb5a80-228b-4753-819a-b2f1517a0101
+:ROAM_ALIASES: "Lumatone : What I use to run in Reaper on NixOS." "Reaper : What I use to play Lumatone on NixOS." "NixOS : What I use to use the Lumatone in Reaper."
+:END:
+#+title: What I use to run Lumatone in Reaper on NixOS.
+* As of <2025-06-12 Thu> the elements below are more than sufficient.
+  `cpufreq-set` is not necessary.
+* elements
+** [[id:c9dc221f-56cc-439c-bd1c-1f0e4bfb95a3][cpufreq-set]]
+** [[id:45d42ea4-4f2e-446a-93f1-2c9c0e67a677][a2jmidid]]
+** [[id:625c1390-b4a5-49ee-9558-90eaa7c6f77b][QJackCtl]]

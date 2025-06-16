@@ -2,7 +2,14 @@
 :ID:       62d7c9c4-2022-4391-9770-cbd185d0becb
 :END:
 #+title: using AI
-* [[id:e3dd1412-8802-4d9e-8fac-6af57248247d][how to use agentic coding tools]]
+* techniques
+** Ask the LLM to write a plan for how to change each file first.
+** explain changes
+   If I change something, unless its purpose is obvious,
+   add an explanatory comment.
+   Otherwise Claude might think it's unnecessary and remove it.
+* TODO HYPOTHESIS: push back, treat it like a person
+  light chastisement
 * some tools
 ** Trae: free AI for coding that Tomás likes
    https://www.trae.ai

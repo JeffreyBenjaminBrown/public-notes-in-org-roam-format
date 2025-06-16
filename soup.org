@@ -13,8 +13,8 @@
 * ingredients <2025-06-05 Thu> with 2 cups garbanzo
 ** 2 zanahorias
 ** 3 papas
-** 2 cebollas (existe 1 cebolla ya)
-** 2 tomates (existe 1 ya)
+** 2 cebollas
+** 2 tomates
 ** 3 apio
 ** 2 aji
 ** 2 ajo

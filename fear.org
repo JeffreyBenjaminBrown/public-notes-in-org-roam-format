@@ -1,8 +1,9 @@
 :PROPERTIES:
 :ID:       97cfad8a-0d5e-4fca-915b-c6b13ac8b788
-:ROAM_ALIASES: fear vulnerability
+:ROAM_ALIASES: fear vulnerability daring
 :END:
-#+title: fear | vulnerability
+#+title: fear | vulnerability | daring
+* [[id:17762c0f-5024-43de-af31-1626cf9a9b28][It's right to spend non-uniformly over time.]]
 * [[id:5194fc12-7197-448e-9e42-4fe3872bd8ed][Fawning can be a trauma response.]]
 * [[id:a27f2004-c6e1-4833-9b15-be68554f20f0][Recognize fear in your aversions.]]
 * things to fear

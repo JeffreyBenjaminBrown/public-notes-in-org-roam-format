@@ -5,6 +5,8 @@
 * TODO merge with notes on
   [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
   [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]] (application)
+* Org etc. are a futuristic, artistic way to organize thought.
+** The artistic part is the freedom one enjoys/confronts when choosing the categories and other structure of a tree.
 * [[id:7524f42b-9db0-4531-a21d-57df5954a34e][Knowledge graphs enhance self-awareness.]]
 * Knowledge graphs are attention-efficient.
 * Your writing knows things you don't.

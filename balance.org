@@ -2,7 +2,7 @@
 :ID:       6e44fba3-c51d-430c-81ac-bd91e8db773b
 :ROAM_ALIASES: peace balance equilibrium "social harmony" relax
 :END:
-#+title: balance | peace | equilibrium | harmony | relax
+#+title: balance | peace | equilibrium | harmony | relax | calm
 * TODO merge with [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
 * see also
 ** [[id:bf73fa6f-cd1a-4237-8bdb-7a98025cf226][wholeness]]  [[id:24fcf76a-fafa-4cb2-8312-43719f7aa207][fission]]  [[id:1a8ddfa4-0522-4c92-948a-21a97a277bcf][fusion]]  [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
@@ -49,6 +49,7 @@
 * [[id:4616df20-0eeb-4014-8f0d-04c14dcef195][Humility -> confession -> peace.]]
 * [[id:3987d04f-c539-4f73-916f-6a44bc0df7cd][Humility -> courage -> peace.]]
 * [[id:77bf63a4-6e87-41c0-8d97-327285715d49][love & peace -> monogamy]]
+* [[id:3601d1d0-a760-4220-81e1-e909d640b452][humility & calm]]
 * [[id:b403942c-942b-4b79-9c39-b5d77142bf33][marijuana ! peace]]
 * peace & realism
   :PROPERTIES:
@@ -58,3 +59,4 @@
 ** [[id:690c551b-43f9-4913-9a2d-9dfd51dd8ba5][prayer v. peace]]
 ** [[id:c393e966-36a8-498a-b44e-0667903191f8][workaholism]]
 * [[id:911a611d-3b66-4d61-9f1a-6749cb09af71][& private]]
+* [[id:d023bd33-fd94-44d4-982d-675b79c2ee03][Relaxed sports would be fun.]]

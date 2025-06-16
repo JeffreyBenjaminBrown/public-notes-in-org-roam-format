@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       68918035-691a-415b-9b9a-2674ba051462
+:END:
+#+title: single branch representation for org-files
+* open node from db as single branch
+  The title is the heading,
+  the first properties bucket is placed after it,
+  and all content follows.
+* save single branch as file (or as a node in one)
+  The filepath will need to be looked up in the db.

@@ -3,6 +3,7 @@
 :ROAM_ALIASES: Lumatone
 :END:
 #+title: Lumatone (microtonal keyboard)
+* [[id:e5fb5a80-228b-4753-819a-b2f1517a0101][What I use to run Lumatone in Reaper on NixOS.]]
 * [[id:fd2e8ff9-ea08-4226-a25d-fe785292b93d][Paul Christian's webapp lights up enharmonic notes on a Lumatone.]]
 * [[id:bb22c6e3-cd16-4e22-85ef-cd83ee03c7fa][collect data to adjust velocity curve]]
 * my current Lumatone layout bank settings

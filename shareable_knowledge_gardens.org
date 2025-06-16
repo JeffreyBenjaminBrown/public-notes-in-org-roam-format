@@ -9,9 +9,16 @@
    https://github.com/JeffreyBenjaminBrown/skg
    and might be the best introduction to Skg.
 ** [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][connectivity demos]] for knowledge graphs
+* u
+** "vote someone off the island", hide them from your view
+   It might be easier for the person hidden to learn from it
+   if they did not by default see who had hidden them,
+   but they did see how many people.
 * fun-looking screenshots of mindmapping
   [[../media-public/mindmapping is fun.png][presence, monogamy, peace]]
 ** maybe caveat with [[id:0425cc36-0ce3-4fe9-8cb8-6456db3d0897][comparison to academia]]
+* very important not to order some sets of alternatives
+** provide a randomize function for each set of branches
 * comparing skg to academia
   :PROPERTIES:
   :ID:       0425cc36-0ce3-4fe9-8cb8-6456db3d0897

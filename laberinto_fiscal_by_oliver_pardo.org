@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       ef203c83-8ee7-440f-a898-9e4e85bd9719
+:END:
+#+title: Laberinto Fiscal by Oliver Pardo
+* problems
+** too much spend
+   El gasto público aumentó del 15-17% del PIB antes de la pandemia al 20% en 2020, y para 2024 se mantenía en casi 19% del PIB.
+** too little revenue
+   los ingresos tributarios no han logrado aumentar significativamente, oscilando entre el 13% y 14.5% del PIB a pesar de múltiples reformas tributarias.
+** the resulting gap
+*** Déficit fiscal: 6.7% del PIB en 2024
+*** Deuda pública: 59% del PIB
+    cerca de máximos históricos
+** Principales responsables del aumento
+*** Subsidio a combustibles (FEPC): 1.2% del PIB en 2024
+*** Transferencias de salud: aumentaron 0.7 puntos del PIB
+*** Pensiones: crecieron 0.4 puntos del PIB
+*** Pago de intereses: subió de 2.9% a 4.4% del PIB
+** beneficios tributarios (exenciones)
+   = un gasto fiscal de 8.8% del PIB
+* terms
+** CARF
+   Currently, the Colombian government can present overly optimistic revenue projections in its budget. CARF (Autonomous Committee of the Fiscal Rule) reviews these projections but its opinion is not binding. The proposal is to make CARF's validation mandatory - meaning the government couldn't use inflated revenue estimates unless CARF approves them. This would prevent the practice of balancing budgets with unrealistic income projections.
+** Pérdidas de apropiación
+   Under current rules, if budgeted funds aren't spent by year-end, they're lost. This creates perverse incentives for agencies to rush spending in December just to avoid losing the money.
+   The reform would change how these mechanisms work to improve fiscal efficiency and reduce wasteful year-end spending.
+3. "Congelar vigencias futuras de inversión"

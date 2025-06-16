@@ -26,14 +26,13 @@
 *** if alcohol, no fats, esp. fats from meat
 ** TODO evitar cerdo, bagre y mariscos
 * Target certain foods
-** nuts
+** nuts, dried fruits
 ** oatmeal
 ** apples
 ** brussel sprouts
 ** fish
 ** una harina por comida
    says Dra. Majjul
-** between meals : nuts, dried fruits
 ** good harinas: arroz, papa, platano, yuca, guatila, maiz, avena
    there's a panaderia called "El Mejor Pan de Colombia",
    Cl 148 & Av 19, venden sin glutenes

@@ -6,6 +6,15 @@
 * TODO merge
 ** [[id:ce9e0a8d-19fa-48eb-9d0e-6cedcb0fdc99][notes, how to take]]
 ** [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult your notes : why and how]]
+** which one
+*** There should always be a "recent, unmerged, serial as written" bucket at the end of the sorted list, to put new things without having to disturb train of thought elsewhere.
+*** Always append at the end, and order from the top.
+    And mark the last node to be ordered.
+    More generally, keep a list of line unmbers when nodes were visited in each file. A frequent enough git commit history would have this property.
+** the u bucket
+*** automatically add a "new & unmerged" bucket at the {bottom for others, top for the author} of each list
+**** they should be orderable by age*
+     (*) and maybe by other things
 * Maybe don't start new roots.
   Rather start from inside a document,
   and then maybe add contexts and separate it.

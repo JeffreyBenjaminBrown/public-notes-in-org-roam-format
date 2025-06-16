@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       fdb0dda4-749a-462f-8dbf-e15e1c98242b
+:END:
+#+title: consensual biographical publication algorithm
+* if the subject agrees to publication, publish
+* if not, submit to a panel of judges, selected beforehand, to decide whether to publish
+  at the subject's death at the latest

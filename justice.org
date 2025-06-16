@@ -12,6 +12,10 @@ Remember, notes should be surprising.
 ** [[id:3fdb250d-fc7d-4b1f-becf-1d7996a9e480][laziness => evil]]
 ** Is (entirely?) an inequitable utility function over others' utility functions.
    esp. of the in-group's v. the out-group's
+* justice through silence
+  :PROPERTIES:
+  :ID:       bff8a56f-6735-4775-8060-f942ea1c0a54
+  :END:
 * [[id:5357b637-c959-455f-b171-429390edbc04][conflict]]
 * [[id:585b7a0d-4fc6-497b-b20d-0fc19ed9daa7][Our only judges are each other.]]
 * [[id:afecc0bb-68d0-4bc5-a656-f277a9a830db][justice & irony]]
@@ -23,6 +27,8 @@ Remember, notes should be surprising.
 * internalized
 ** [[id:a8d26591-06a2-4cbd-9fe1-068b487dd2e7][Death is not so sharp.]]
 * see also [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling a higher force]]
+* inequality
+** [[id:f0553af1-9f6c-468d-b69b-aa5c8e4c02d8][never seeing friends except {with, via} one's spouse]]
 * far out
 ** [[id:e54b0669-aa26-45cf-a5fa-6bb41f871790][Time is time's initial/foundational conditions.]]
 ** [[id:c3a62ad1-d09d-4e79-8547-af725870e380][a cognitive justice for the destitute]]

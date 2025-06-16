@@ -4,6 +4,7 @@
 :END:
 #+title: Reaper (the DAW)
 * TODO [[id:cae69966-d3eb-4bc5-8593-37eacaf45878][How did I break a MIDI track in Reaper?]]
+* [[id:e5fb5a80-228b-4753-819a-b2f1517a0101][What I use to run Lumatone in Reaper on NixOS.]]
 * [[id:53710a45-f8f9-40b2-a4eb-9555b8b3437a][plugins in Reaper]]
 * reading the manual
 ** TODO RESUME here

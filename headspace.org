@@ -1,18 +1,19 @@
 :PROPERTIES:
 :ID:       a4fdc0d7-8ad9-471c-a559-7bd932b0f486
-:ROAM_ALIASES: cognition
+:ROAM_ALIASES: headspace
 :END:
-#+title: headspace
+#+title: cognition
 * [[id:cd31d188-3857-469e-8af8-07ce8d4242d9][intuition]]
 * [[id:9d1cc360-4fce-4cd4-9176-8f12670add90][attention]]
 * [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness]]
 * [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][learning, thinking and understanding]]
 * TODO [[id:a04c2b66-35bd-45f6-8dfa-5513ffe36a9c][introspect & reprogram]]
+* [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
 * [[id:50132c61-a3f9-4e28-bdbd-e2d0e6f35f28][emotion]]
 * [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
 * [[id:c05702ea-69af-4972-8b15-f74455f2123c][psychological development]]
 * Does plumbing my (recent) memory lead to less happy memories?
-** [[id:85508f6f-946f-4474-9952-f25c25450f1c][It happened today]].
+** [[id:85508f6f-946f-4474-9952-f25c25450f1c][It happened 2022 01 12]].
 * [[id:d19de124-694d-46e2-9bfd-f04c0f145adb][experience]]
 * [[id:86373005-c939-4627-b848-1610fccda8bd][neuroplasticity]]
 * [[id:9ec55e32-f974-479e-8295-7d9e30156684][mindfulness]]
@@ -21,3 +22,4 @@
 * [[id:efead690-715e-4243-9dd9-9f6a53566263][aesthetics]]
 * [[id:bbc9f812-cf95-45a3-b93f-4ad93a565510][mental health and fitness]]
 * [[id:c5c48790-ad82-4586-b955-9cc19cbd58cb][Neurologically, seeing resembles constrained dreaming.]]
+* [[id:bbc9f812-cf95-45a3-b93f-4ad93a565510][mental health and fitness]]

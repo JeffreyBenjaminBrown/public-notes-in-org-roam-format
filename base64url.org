@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       80dcecf9-ef3b-43a8-9538-1c7929a19887
+:ROAM_ALIASES: base64url
+:END:
+#+title: base64url format for numbers
+* what it is
+** Uses 64 "vanilla" characters to encode numbers.
+** where "vanilla" means
+   they don't screw up filenames or URLs
+* the characters used
+  capital and lowercase letters (26*2)
+  alphanum (10)
+  underscore and dash (2)

@@ -3,7 +3,20 @@
 :END:
 #+title: economics
 * see also [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
+* competition
+  :PROPERTIES:
+  :ID:       5ca1fc76-8dd7-4305-ac97-c4dfe9fb3610
+  :END:
+** [[id:b9a4a087-3ca4-4c87-923d-a3f06fa2d5a2][Exporting industries face more competitive pressure.]]
+* contracts
+** [[id:fdb0dda4-749a-462f-8dbf-e15e1c98242b][consensual biographical publication algorithm]]
+* game theory
+** [[id:fdb0dda4-749a-462f-8dbf-e15e1c98242b][consensual biographical publication algorithm]]
 * [[id:d3acd62f-8bf7-472b-8adb-b16329f2b2b3][behavioral manipulations]]
+* industrial organization
+** [[id:8b59ff98-9481-49a7-94d6-50ea53ba80b1][China "tolerates" Apple because Apple teaches Chinese businesses.]]
+* development economics
+** [[id:8b59ff98-9481-49a7-94d6-50ea53ba80b1][China "tolerates" Apple because Apple teaches Chinese businesses.]]
 * TODO study | refresh
 ** Current Depth Regression
    a time-varying measure of the depth of a recession
@@ -36,3 +49,4 @@
 * [[id:7c4262aa-8bc1-4fbe-bdf9-01c72abf55e2][inflation, monetary]]
 * [[id:ab6d3f05-20a6-49a1-a9e8-7dfa71f69c2d][Markets price in that there will be a deal. Trump sees that and feels no pressure to make a deal.]]
 * [[id:4dc21a1a-cf5d-48d9-9297-05af7c7618e5][Distributors own infrastructure.]]
+* [[id:cceaebad-351c-4e99-bbaf-0c7a564f6fa3][art / economics]]

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       8b59ff98-9481-49a7-94d6-50ea53ba80b1
+:END:
+#+title: China "tolerates" Apple because Apple teaches Chinese businesses.
+* the idea
+Apple's margins started low but ran up to 25% while its suppliers had margins of 1%. Xi Xinping railed against them in 2013, and China mooted forcing Apple to run a joint venture 50/50 with the Chinese state. When that happens, the Chinese are soon able to run the entire business model themselves, so Apple pushed back. It explained that they teach all kinds of firms how to build all kinds of things. Those Chinese then go on to start lots of other businesses, making other kinds of products. The guest on the podcast said it is amounts to a transfer more valuable than that of the Marshall Plan. China desisted.
+* source
+  Patrick McGee, a reporter at the Financial Times
+  on the Odd Lots podcast, June 2: "Why it's so hard for apple to move production from China to India"

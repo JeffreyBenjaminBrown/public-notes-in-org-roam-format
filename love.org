@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       a4897164-eb28-4c26-8f26-c8ac98f2db16
+:ROAM_ALIASES: love
 :END:
 #+title: love ,, brotherly & romantic & self-respect
 * see also
@@ -39,3 +40,11 @@
 ** ONGOING [[id:8840a676-3937-4443-b35b-faca20fe35c1][Couplehood (book)]]
 * far out
 ** [[id:5c6f0b02-71bd-4e22-bd5f-036f88425a42][Help someone find home, peace.]]
+* marriage
+** [[id:77e1c6b5-9d38-4979-b8fa-18da08aa234d][Modern Love by David Bowie is about marriage.]]
+** never seeing friends except {with, via} one's spouse
+   :PROPERTIES:
+   :ID:       f0553af1-9f6c-468d-b69b-aa5c8e4c02d8
+   :END:
+* [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagine]] love
+** ? [[id:e9743e42-5837-495c-8876-47b36b93c974][imagined heartbreak]]

@@ -2,6 +2,7 @@
 :ID:       682c092d-0e94-4095-b03f-dae9aa245619
 :END:
 #+title: utopia , perfect experience
+* [[id:d023bd33-fd94-44d4-982d-675b79c2ee03][Relaxed sports would be fun.]]
 * [[id:eb4f95a0-22ac-4f8a-a149-5c1cd569db3c][Save the world.]]
 * defining it
 ** a sketch
@@ -16,4 +17,5 @@
 ** If the [adjective needed, can feel like the entire world] were entirely yours but a [[id:18b442b7-427d-4057-8fb7-e5b715e955f5][karmic accounting]] was nonetheless just.
 * could be better than the current regime
 * [[id:1eb17267-8251-4bf3-8f58-5cbec72ea187]["You can have this as much as you take it."]]
+* [[id:693609dd-82ed-4749-9cde-ef03cdfc4562][walking office work exercise utopia]]
 * [[id:45e6c544-0888-4dbb-acc9-9f235a63b1d1][& personal]]

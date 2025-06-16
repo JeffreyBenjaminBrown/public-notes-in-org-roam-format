@@ -2,7 +2,18 @@
 :ID:       8475bbbf-efbb-423e-901c-b464e807784c
 :END:
 #+title: parquet (file format)
-* Each line is a column, rather than a row.
-* It's much smaller than CSV
-  according to someone on HN, at least.
+* pros and cons
+** advantages, from Wikipedia
+*** Column-wise compression is efficient in storage space
+*** Encoding and compression techniques specific to the type of data in each column can be used
+*** Queries that fetch specific column values need not read the entire row, thus improving performance
+** disadvantage: not human-readable
+** "The industry standard" for compressed tabular data.
+   said ChatGPT
+* a less efficient but human-readable alternative
+  Just keep a folder for each table,
+  with a file for each column.
+  Each such file has two columns:
+  an index (ideally in [[id:80dcecf9-ef3b-43a8-9538-1c7929a19887][base64url]]),
+  and the data of interest.
 * [[id:5b17456f-7237-48cc-a6a6-7a2dbef33aa3][Pandas can export to parquet.]]

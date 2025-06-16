@@ -9,6 +9,7 @@
    And some acts are for the experience, not the outcome.
 ** context sensitivity
    All of what you do depends on what you are aware of, and some acts might contradict others taken while aware of other things.
+* [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]]
 * [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][Commitment]] is hard.
 * [[id:dcbdb66e-55cb-46ce-af74-97aa841ddda7][irratinoality & ethics]]
 * [[id:c893937e-bca4-4a77-aa6c-ad481bf1d042][the limits of logic]]
@@ -17,3 +18,10 @@
 * [[id:4aaa0364-f6de-425a-b942-8c0e3d9eb13c][scheduling reevaluation]]
 * it [[id:3c04ac36-3739-4fb2-a997-860797e365a7][+ broken promises = perpetual imminence]]
 * [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other selves]]
+* oscillating beliefs
+** How might beliefs oscillate?
+*** Whether a future would be good.
+*** Whether a method is feasible.
+    inc. pyschological feasibility --
+    i.e. that it will be pursued with enough vigor
+** What sets of (inconsistent, interacting) strategies could oscillating beliefs generate?

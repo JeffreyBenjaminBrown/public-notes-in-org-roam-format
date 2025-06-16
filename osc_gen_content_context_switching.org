@@ -18,3 +18,6 @@
   "X G" should be a view-child of H.
   This probably duplicates some text (the label in L and the title of G), but it clarifies what gets saved where.
   If that duplicated text is long, the user can choose to disguise its second appearance with a short label ("it" would work if there's only one link in H, or an integer corresponding to the link's order in H if there are many).
+* tasks
+** [[id:68918035-691a-415b-9b9a-2674ba051462][single branch representation for org-files]]
+** [[id:ab34f3a5-6945-458d-ac4d-964e9220608f][Save file or all files in buffer.]]
