@@ -2,4 +2,5 @@
 :ID:       3c4b895b-9cf0-444c-b4d1-b4b3cae52960
 :END:
 #+title: human potential
+* [[id:ac9caea1-3d84-41eb-afc9-16018c542f16][sermons]]
 * [[id:18e41034-379e-45c6-9cc7-d82859f6c566][A brief period of intense prayer sometimes changes a life.]]

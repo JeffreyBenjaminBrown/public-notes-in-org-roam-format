@@ -3,4 +3,5 @@
 :END:
 #+title: hardship
 * [[id:ee0e7d70-20c9-4af2-8e01-c8e03255c8d8][self-abnegation]]
+** [[id:880c2596-e4da-486d-863d-6daff64ca89c][self]]
 * [[id:5357b637-c959-455f-b171-429390edbc04][conflict | struggle]]

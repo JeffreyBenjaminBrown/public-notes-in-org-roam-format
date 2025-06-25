@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       1dc593e8-0313-4dfd-bc5d-cd7e53f9bfba
+:ROAM_ALIASES: "performance, high"
 :END:
 #+title: high performance (human)
 * see also [[id:3c4b895b-9cf0-444c-b4d1-b4b3cae52960][human potential]]
@@ -8,3 +9,9 @@
 * [[id:73c06579-6cc8-47eb-9e60-511bfdad4cfe][some productivity secrets]]
   kind of obvious
 * [[id:74fedaae-4cb2-40f5-bfd0-ee7582f23098][mental waste]]
+* human-population-level superintellgence \ fantasy
+  :PROPERTIES:
+  :ID:       655f20f5-85bc-4dbd-ac6c-96735a0c202e
+  :END:
+** With better information tech, and with willingness to concurrently explore many ideas none of which has an obvious material payoff in isolation, so many minds could grow so far.
+   It's not clear anyone has had this yet.

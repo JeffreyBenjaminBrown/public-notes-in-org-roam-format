@@ -7,6 +7,10 @@
 * [[id:508f4247-41b1-476a-afd7-c15cbc9e460a][Empathize before confronting.]]
 * [[id:fa615844-39a9-4f57-8758-4fea2dcdec31][people as priority]]
 * [[id:5327d2ce-1764-4bef-8959-aa8b5c478575][I want to understand our cognitive differences.]]
+* I want to know what people imagine.
+  :PROPERTIES:
+  :ID:       aa7d8bec-8ad4-4bf3-802f-3e8a38063c3e
+  :END:
 * [[id:21f5e38c-9389-419b-a278-7f01802227ea][cognitive overlap]]
 * [[id:b01bfc2f-fb9d-4d70-afc8-093b1933d47c][Refuse to feel something and you are cut off from the people who do.]]
 * [[id:84e77d86-2b69-4f18-a1e4-110d17026c16][It's fun to determine when sending a picture conveys more and/or better information (than words).]]
@@ -17,3 +21,9 @@
 * [[id:bf74717d-69b2-475b-af1a-d3100628e733][honesty v. empathy]]
 * [[id:5194fc12-7197-448e-9e42-4fe3872bd8ed][Fawning can be a trauma response.]]
 * [[id:878a9741-379c-45ef-b886-460ece8783c6][empathy & private]]
+* empathy & humility
+  :PROPERTIES:
+  :ID:       5b4f6b7b-1ebc-4f14-9102-6dec0e3b15c8
+  :END:
+** Understand how everyone is stuck to the degree I understand my own.
+** [[id:c238024d-5dfc-4df3-aae1-acef3d8b90bd][Excise my urge to change others.]]

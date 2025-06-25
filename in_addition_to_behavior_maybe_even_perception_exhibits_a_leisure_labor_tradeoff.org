@@ -4,4 +4,4 @@
 #+title: There seems to be a labor-leisure tradeoff in perception, not just behavior.
 For instance, meditation feels good,
 and seems hard to square with at least certain kinds of focus.
-(Although I do think such squaring is possible -- just hard.)
+(Such squaring might still be possible, just hard.)

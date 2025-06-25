@@ -62,6 +62,7 @@
 :PROPERTIES:
 :ID:       2370c5e8-e713-4d6f-8d6c-32f9b55523e1
 :END:
+** [[id:2b15a3ec-086b-4c66-af57-a03e706e1d84][joy]]
 ** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]] (all kinds)
 ** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
 ** [[id:186371b0-e1eb-4a62-9354-f76fb3f63bbd][pleasure]]

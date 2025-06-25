@@ -38,6 +38,7 @@
    e.g. start with mundane stuff, like vacation plans
 ** show appreciation
 * some conversation starters
+** [[id:aa7d8bec-8ad4-4bf3-802f-3e8a38063c3e][what do you (often, in _ situation) imagine]]
 ** ask them (implicitly) to analyze
 *** What'ssomething you love to do?
 *** What’s a goal you’re pursuing right now?

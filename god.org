@@ -3,6 +3,7 @@
 :END:
 #+title: God
 * [[id:fe6020ff-3dfe-40ed-8724-e226eef4694a][fear of God : useful]]
+* [[id:183c76a6-24f3-4b5d-9ffb-8ddb7964993d][God as imaginary emotional support pet with real effects.]]
 * [[id:2ea1bfbb-d135-44bb-a8ab-36e59c33aed0][God as metaphor]]
 * [[id:b209b769-d2e1-4a76-a538-0e6d498e911d][imagination & religion]]
 * [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]

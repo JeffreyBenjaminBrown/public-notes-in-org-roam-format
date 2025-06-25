@@ -2,6 +2,10 @@
 :ID:       8647bcfc-d5ef-45c3-b6ad-fc7789f0fad2
 :END:
 #+title: forgiveness, inc. self-forgiveness
+* humility -> forgiveness -> freedom
+  :PROPERTIES:
+  :ID:       26290712-1bf6-4d1a-bac6-37b9ea24e574
+  :END:
 * Forgiveness is a form of [[id:6e537826-402f-4254-a40a-652b31e2390a][transcendence]].
   :PROPERTIES:
   :ID:       5b9caf47-ff2f-4821-8476-2dee77d51ec4

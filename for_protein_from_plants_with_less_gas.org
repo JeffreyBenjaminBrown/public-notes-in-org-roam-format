@@ -2,6 +2,12 @@
 :ID:       083ad7c4-7dc1-42c1-a3cb-b275f6e45bdd
 :END:
 #+title: for protein from plants with less gas
+* translations
+  hemp seeds - semillas de cáñamo
+  chia seeds - semillas de chía (or just "chía")
+  pumpkin seeds - semillas de calabaza (or "pepitas")
+  buckwheat - trigo sarraceno (or "alforfón")
+  amaranth - amaranto
 * Hemp, chia and pumpkin seeds
   are borderline complete proteins,
   hemp best among them.

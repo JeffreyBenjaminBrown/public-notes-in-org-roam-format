@@ -3,28 +3,39 @@
 :END:
 #+title: humility
 * see also [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
-* [[id:1c0b4006-a457-4d8b-ac62-77b853cc074f][Recognizing absurdity facilitates humility.]]
-* Accurately perceiving oneself makes humility easier.
-* Humility permits seeing some category of good things.
-  or the reverse -- seeing them permits humility
-* adjacent qualities that are not values
-  meekness
-  submissiveness
-  shyness
-  shame
-* "a non-imposing mentality"
-  -- wikipedia on humility <2025-04-29 Tue>
-* temperance of the (consciousness of) self
-** "Not thinking less of yourself, but of yourself less."
-* humility & calm
-  :PROPERTIES:
-  :ID:       3601d1d0-a760-4220-81e1-e909d640b452
-  :END:
-** It seems easier to sleep humble than proud.
-* [[id:4abd453b-9fd0-4c54-b897-e2d104cb2c33][humility v. self-respect]]
-* [[id:e9ac21ef-aa15-4c6a-9157-f0a79f0851a1][Courage v. humility]] is a fun balance.
-** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
-** [[id:51e9546b-1dd1-4b60-9591-b7bf8ed3cc6a][humility in romance]]
+* definition & methods
+** "a non-imposing mentality"
+   -- wikipedia on humility <2025-04-29 Tue>
+** temperance of the (consciousness of) self
+*** "Not thinking less of yourself, but of yourself less."
+* motivations
+** Humility permits seeing some category of good things.
+   :PROPERTIES:
+   :ID:       de7ca1ee-39a8-46d4-bfa4-c6096ce60303
+   :END:
+   or the reverse -- seeing them permits humility
+*** [[id:5ac5c7eb-d7b0-4b7f-b12d-543e75e16f4f][Humility contravenes useless desires to punish.]]
+** Humility seems calming.
+   :PROPERTIES:
+   :ID:       3601d1d0-a760-4220-81e1-e909d640b452
+   :END:
+*** It seems easier to sleep humble than proud.
+* [[id:5b4f6b7b-1ebc-4f14-9102-6dec0e3b15c8][empathy & humility]]
+* adjacent non-values
+** meekness
+** [[id:aaed11f4-a8c9-4743-9a8e-23e3ae162e89][submissiveness]]
+** [[id:4858b083-0138-426d-b12c-b36bfe513f26][shyness]]
+** [[id:b18fb650-5941-448f-b8ff-f1929dad2951][shame]]
+* methods
+** [[id:1c0b4006-a457-4d8b-ac62-77b853cc074f][Recognizing absurdity facilitates humility.]]
+** Accurately perceiving oneself makes humility easier.
+* equilibrium
+** [[id:de7ca1ee-39a8-46d4-bfa4-c6096ce60303][Humility permits seeing some category of good things.]]
+* tensions
+** [[id:4abd453b-9fd0-4c54-b897-e2d104cb2c33][humility v. self-respect]]
+** [[id:e9ac21ef-aa15-4c6a-9157-f0a79f0851a1][Courage v. humility]] is a fun balance.
+*** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
+*** [[id:51e9546b-1dd1-4b60-9591-b7bf8ed3cc6a][humility in romance]]
 * [[id:e73d3fdc-9c61-4e4e-8e58-66efbbae67c4][Humility feeds good.]]
 * [[id:2997228e-82aa-4b95-a2eb-2eff33fb0702][hypothesis : Everything that requires courage requires humility.]]
 * [[id:c4b72622-b3ef-417e-9567-19ffe1ee87ea][& pride]] (big!)
@@ -46,3 +57,21 @@
 * [[id:74af98fa-20f2-44ae-9e93-8f73f666724a][Alone, we often forget ourselves.]]
 * [[id:8142a014-8dba-4c24-bc51-8f8a2e24ce5e][humility => freedom]]
 * Humility facilitates recognizing the [[id:c0670a96-666b-4ebb-a2a6-42e83067f39d][sublime]].
+* forgiveness & humility
+  :PROPERTIES:
+  :ID:       34185cff-e65f-407c-9f79-8fd9cfc201d4
+  :END:
+** Humility countervails a useless desire to punish.
+   :PROPERTIES:
+   :ID:       5ac5c7eb-d7b0-4b7f-b12d-543e75e16f4f
+   :END:
+*** A useless desire to punish often springs from ego.
+    [[id:de7ca1ee-39a8-46d4-bfa4-c6096ce60303][It can require humility to recognize]] that doing so is not in one's interest, or within one's power.
+*** Not that all desires to punish are useless.
+    For instance, truly dangerous people should be prevented from doing further harm, and their example can usefully motivate others to behave.
+* Humility might make room for greater optimism.
+  :PROPERTIES:
+  :ID:       5566a377-6479-4f61-8b72-553c5c9697cd
+  :END:
+  e.g. society-scale
+* [[id:f95a0c86-497b-4f4d-b02e-83384955b42b][You don't have to promise more than you offer.]]

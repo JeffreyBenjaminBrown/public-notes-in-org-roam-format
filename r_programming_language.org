@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       9b55640c-c187-4e34-b36d-2c6d7cda52b3
+:ROAM_ALIASES: R
+:END:
+#+title: R (programming language)
+* grouping code
+** {} can be used to create a code block, ala Lisp's `progn`
+   Variables defined in a code block are available outside of it.
+** `local()` is similar, but does not leak variable names.

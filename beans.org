@@ -3,6 +3,17 @@
 :END:
 #+title: beans, cooking
 * TODO try salt rather than vinegar
+* what I do
+** boil 4 minutes with baking soda
+** let cool at least 4 hours (can be 24, 48, whatever)
+** drain water
+** "rinse" = add new water, swish around, drain water
+** new water, boil with nothing, let cool
+** rinse
+** new water, boil with vinegar, let cool
+** rinse
+** new water, boil with nothing, let cool
+** rinse
 * soak (many variations!)
   multiple times, lukewarm water, salt, baking soda, vinegar
 ** says Stav Kone

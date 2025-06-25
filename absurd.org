@@ -4,12 +4,13 @@
 :END:
 #+title: absurd | ridiculous
 * neighbors
+** [[id:7abaf6b7-7c59-4744-bddb-8a3bdfb11d8d][contradiction]]
 ** existentialism
 ** nihilism
-** contradiction
 ** bad reasoning | irrationality
 ** Dadaism
 ** surrealism
+* [[id:2d6d5616-2f98-4b5f-8999-382b5371514a][One's sense of the absurd is personal.]]
 * absurdism, the philosophy
 ** is diverse, and hsots some (to me) dumb ideas
    like moral nihilism

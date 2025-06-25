@@ -6,6 +6,8 @@
 * see also
 ** [[id:cbef2e05-df7f-4b7c-a1dc-5cb2166975d8][sharing]]
 ** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
+* [[id:51cfa59e-4138-4d2d-8cae-5dbad26b78ad][sharing v. presence]]
+** [[id:c6eb0f31-04b3-4552-b52d-6bbaae98f34d][perception]]
 * [[id:f8a1040d-ef6f-4819-9f96-421a06182502][etiquette, information processing optimization]]
 * [[id:de26311c-9b4b-48f4-afa1-c7a680f73b30][Don't beat around the bush.]]
 * [[id:0099068b-7ef0-4413-b3aa-18997353baa4][Neither overshare nor undershare.]]
@@ -18,3 +20,5 @@
   :ID:       49b25a29-788c-4b7b-a869-333435a7b646
   :END:
 ** [[id:826d25ae-b544-4ad7-80fb-74f366bd3973][Every word should have a purpose.]]
+* [[id:5ddd7d5d-2c98-4f47-bd5f-3c38629ec4ea][negotiation]]
+* [[id:ac9caea1-3d84-41eb-afc9-16018c542f16][sermons]]

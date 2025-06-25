@@ -3,6 +3,7 @@
 :ROAM_ALIASES: programming
 :END:
 #+title: computer science
+* rather than "pitfall", write "danger"
 * TODO ? Just looks nice: Like make, but with completion at the command line, other improvements.
 ** https://github.com/casey/just
 * [[id:4f6e7dfd-2b17-474b-9126-714bfb76156e][mutual recursion: an easy example]]

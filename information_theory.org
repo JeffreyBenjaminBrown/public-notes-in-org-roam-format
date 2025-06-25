@@ -4,6 +4,8 @@
 :END:
 #+title: information | knowledge
 * [[id:880c2596-e4da-486d-863d-6daff64ca89c][identity , conscious]]
+* [[id:c893937e-bca4-4a77-aa6c-ad481bf1d042][the limits of logic | information]]
+* [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
 * [[id:fb83f180-cb75-4180-ab9c-eb555f8ecc1b][relationships worth recording]]
 * Opposites are near.
   that is, conceptually near to each other
@@ -23,8 +25,9 @@
   :PROPERTIES:
   :ID:       7abaf6b7-7c59-4744-bddb-8a3bdfb11d8d
   :END:
-** Your bad and good feelings toward something can both be real.
 ** see also [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]
+** Your bad and good feelings toward something can both be real.
+** [[id:b6ae22e1-5d46-4770-83a5-a1b4740f0ecb][The US feels robbed from its investments in China but does not want China to reciprocate.]]
 * mystery
   :PROPERTIES:
   :ID:       e428428f-c7cf-406e-b4ef-fa3ff5b17d5a
@@ -62,6 +65,7 @@
 * [[id:8bf642b8-c720-475d-9972-ff7d5553ff10][wholeness fission fusion emptiness]]
 * [[id:461ac824-69d6-4b73-bbe8-ee3e41bdc915][Art highlights extremes.]]
 * [[id:d4df3ea1-f333-4dd8-a208-907d176dbadb][epistemological overload]]
+* [[id:bda3d113-8968-4cbf-aedb-775df4b5e713][transparency]]
 * technical
 ** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
 ** [[id:299fd87e-de56-4671-b51f-e3554ba7dd95][logic, formal]]

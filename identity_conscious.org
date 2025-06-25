@@ -5,10 +5,14 @@
 #+title: identity , conscious
 * in-links
 ** [[id:47cb3eb0-06c1-48a6-8084-9ab9190b0495][hardship]]
-*** [[id:ec35b479-a37e-498d-a81f-b898c4a51552][self-harm]]
-** [[id:43ab15d1-1fc8-4fe6-b8b3-43fccf941563][recording too much]]
+* u
+** [[id:6b340387-efbd-4959-a785-5ac196310c62][Free will seems illusory, or redefine the self.]]
+** [[id:2d6d5616-2f98-4b5f-8999-382b5371514a][One's sense of the absurd is personal.]]
+* Selfward is sometimes the least educational choice.
+  :PROPERTIES:
+  :ID:       a39b2ed1-188e-4d65-95f7-d1a4dacc6437
+  :END:
 * [[id:7aa2d6f7-c262-4f85-926b-7cbbeec02f38][acquisitiveness]]
-* [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness]]
 * [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness + self-consciousness]]
 * [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][self-confidence]]
 * [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-consciousness]]

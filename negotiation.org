@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       5ddd7d5d-2c98-4f47-bd5f-3c38629ec4ea
+:ROAM_ALIASES: bargaining
+:END:
+#+title: negotiation
+* [[id:eef5b6f0-8565-4035-a7a7-ff48e48445a7][Make an offer you might enjoy before giving up on someone.]]
+* see also [[id:6ca119e0-3810-4b73-b9fe-a705001608fe][social separation]]
+* [[id:3924ea50-e63a-4326-a73b-698fe1be58e5][negotiation & private]]

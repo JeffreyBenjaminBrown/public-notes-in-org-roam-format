@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       53459f63-5cb9-4332-a7cd-9cdf9f8743fd
-:END:
-#+title: fulfillment
-* [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
-* [[id:040aefe7-c512-4ad9-a811-9b5950b44579][Fulfillment is "merely" the other side of hunger.]]

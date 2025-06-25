@@ -4,10 +4,11 @@
 :END:
 #+title: irrationality | inconsistency
 * justifications for it
+** [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][learning, thinking, understanding]]
 ** non-monomania | experience as motivation
    One maximizes no single objective function.
    And some acts are for the experience, not the outcome.
-** context sensitivity
+** [(memory) context] sensitivity
    All of what you do depends on what you are aware of, and some acts might contradict others taken while aware of other things.
 * [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]]
 * [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][Commitment]] is hard.

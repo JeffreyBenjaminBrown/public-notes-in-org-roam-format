@@ -15,6 +15,16 @@
 *** automatically add a "new & unmerged" bucket at the {bottom for others, top for the author} of each list
 **** they should be orderable by age*
      (*) and maybe by other things
+* An "about the order of these branches" branch, first among them.
+** technical
+*** Generalization: A leading "about this tree's structure" branch.
+    But I'm not sure I would use that freedom.
+* A valid read technique is to read the whole file before deciding which links to follow.
+* a read-write equilibrium
+** good arrangement requires knowing how you read, and vice-versa
+   e.g. if you know you'll read from the top down and from root to leaves, then your choices of what is how high, what is nested, and what is behind a link are all important.
+* Can there be a read algorithm? To [[id:5e3a5ad9-f733-45fe-a7f1-55dcc0ce2bed][direct attention well]]?
+* ? Give everything a context.
 * Maybe don't start new roots.
   Rather start from inside a document,
   and then maybe add contexts and separate it.

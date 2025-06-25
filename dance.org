@@ -2,6 +2,9 @@
 :ID:       5c1dc0d8-b3a2-4dae-9c2d-7bda2d9789c0
 :END:
 #+title: dance
+* see also
+** [[id:2b15a3ec-086b-4c66-af57-a03e706e1d84][joy]]
+** [[id:c0aab161-bd95-4ede-b211-458ac934369b][musical responsibility]]
 * methods
 ** Use momentum to save energy.
 ** Vary durations.

@@ -2,7 +2,8 @@
 :ID:       ff5f634a-f8fa-482c-95a7-6be10e55e58d
 :END:
 #+title: comic responsibility
-* elaboration
-  Don't miss a good opportunity for a joke.
-  Recognize when {someone, a situation} needs a joke.
-  Recognize when it would be better not to.
+* methods / some kinds
+** [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+*** ? [[id:39167703-f685-4afb-9017-ca41caee0796][Recognize when it would be better not to [make a joke].]]
+** Don't miss a good opportunity for a joke.
+** Recognize when {someone, a situation} needs a joke.

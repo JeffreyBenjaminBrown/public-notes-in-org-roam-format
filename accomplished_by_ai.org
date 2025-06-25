@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "things AI can do"
 :END:
 #+title: accomplished by AI
+* AI seems great for nutritional advice.
 * social skills & AI
   :PROPERTIES:
   :ID:       370fc155-72ba-4394-b3cd-92186871ab29

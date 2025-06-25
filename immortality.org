@@ -10,3 +10,7 @@
 * immortality & art
 ** [[id:c02897ca-3e00-4adb-be30-78b7cba4fe39][sleep as immortality]]
 * [[id:1a59f217-71bd-4ccc-8d6a-a63f9c823378][Joys are immortal.]]
+* See how _ will outlive you.
+  :PROPERTIES:
+  :ID:       458f53a7-2dc6-4dfb-8443-a8831b3cbfa9
+  :END:

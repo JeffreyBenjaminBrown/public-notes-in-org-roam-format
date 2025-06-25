@@ -1,10 +1,14 @@
 :PROPERTIES:
 :ID:       b7f1bb10-4fbf-4e10-8aac-b04923ad468e
+:ROAM_ALIASES: transparency
 :END:
 #+title: honesty
+* Transparency is stronger than honesty.
+  One can be honest while withholding important things.
 * neighbors
 ** sincerity
 ** authenticity
 * [[id:bf74717d-69b2-475b-af1a-d3100628e733][honesty v. empathy]]
 * [[id:79397c4c-4523-4d7c-950b-bd6cf1c2f861][If you're embarrassed to share your beliefs, something is wrong.]]
 * [[id:68c52fdf-eb5c-4d51-a147-a3450fe42661][If you can't tell your story, something is wrong.]]
+* [[id:bda3d113-8968-4cbf-aedb-775df4b5e713][transparency]]
