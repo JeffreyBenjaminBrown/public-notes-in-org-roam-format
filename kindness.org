@@ -6,7 +6,9 @@
 * a universal baseline love
 * [[id:1896c1b6-11a5-4a10-a350-1713acbbd6c6][kindness in perception]]
 * [[id:f1d1cd54-177d-46db-b799-4e34d1fa5774][If we were (reasonable?) we would give (everything?) away.]]
-* [[id:eebbe152-9051-4935-8ae2-294147fc7ab1][charitable interpretation and redundancy in language]]
+** [[id:328db101-ef24-4e86-8746-4d594d41656b][Jaime Garzon's recklessness]]
 * [[id:298b99de-d219-48bc-abd5-0e89530cc9fa][Identify with something beyond the self.]]
 * [[id:fdaa5e7d-d36f-40b2-acb1-dd9f75823f7f][If going to break up, doing it earlier is kinder.]]
 * [[id:5cdc3669-4df4-46d1-996d-2d4f9fd7a8d1][poverty]]
+* technical & linguistic
+** [[id:eebbe152-9051-4935-8ae2-294147fc7ab1][charitable interpretation and redundancy in language]]

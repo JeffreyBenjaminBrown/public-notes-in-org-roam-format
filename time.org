@@ -20,7 +20,6 @@
 * [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]
 * [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
 * [[id:40b049b7-ef2a-4eab-a9f8-07ee5841aa86][habit]]
-* [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]
 * [[id:575ab579-f773-49af-80e4-19569e36aa14][sports]]
 * [[id:512f112a-218b-4a0e-9be1-9786661b1968][imminence]]
 * technical
@@ -30,3 +29,4 @@
 ** [[id:6f008b2d-17ed-4a0e-bc85-40ce8968c5e5][lost in time]]
 ** [[id:d66c723a-8c27-4163-89e9-9abefad9537f][spacetime probability flag painting as a sport]]
 ** [[id:865d7578-c0f2-434a-8961-cc6449d2bf56][choosing to share a time dimension with someone]]
+* [[id:2fe71561-4999-4224-aafb-5a5cc65e4ed0][It feels good to be consistent with one's past decisions.]]

@@ -8,6 +8,11 @@
   :END:
 ** Trust your prior choices, feelings.
 ** Accept that you are [[id:594df21f-51c9-485c-85a1-cf943f325219][irrational]].
+* You don't have to promise more than you offer.
+  :PROPERTIES:
+  :ID:       f95a0c86-497b-4f4d-b02e-83384955b42b
+  :END:
+** e.g. [[id:89a7a71d-6a22-4431-a794-d89253e524a2][monogamy]]
 * [[id:5e3a5ad9-f733-45fe-a7f1-55dcc0ce2bed][Direct attention well.]]
 * [[id:4abd453b-9fd0-4c54-b897-e2d104cb2c33][humility v. self-respect]]
 * qualities one might owe oneself

@@ -4,3 +4,4 @@
 :END:
 #+title: patience v. courage
 * It is possible to mistake cowardice for patience, and vice-versa.
+** "is that patience courageous or cowardly?"

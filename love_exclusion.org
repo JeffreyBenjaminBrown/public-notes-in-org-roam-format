@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       89a7a71d-6a22-4431-a794-d89253e524a2
-:ROAM_ALIASES: devotion fidelity "love & exclusion" "exclusion & love"
+:ROAM_ALIASES: devotion fidelity "love & exclusion" "exclusion & love" monogamy
 :END:
 #+title: love & exclusion = devotion
 * neighbors

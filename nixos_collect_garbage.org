@@ -21,6 +21,8 @@
   #   /nix/var/nix/profiles/system-profiles/system
   sudo rm /nix/var/nix/profiles/system-profiles/*
 
+  Be sure I'm on a good wifi connection.
+
   # Rebuild my profiles (BEFORE collecting garbage!)
   cd ~/nix/jbb/
   ./bash/rebuild-branches.sh

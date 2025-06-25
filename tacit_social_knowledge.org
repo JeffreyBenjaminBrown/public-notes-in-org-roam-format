@@ -2,7 +2,15 @@
 :ID:       e5146f0b-4cf4-4684-aeb3-cd218fa5ac86
 :END:
 #+title: inherently tacit social knowledge
-* example
-  As if somehow you and your friend recognize,
-  maybe only for the time being,
-  that you are alien visitors.
+* motivation and caveat
+** So much can come from feeling it, yet it is perhaps inherently impossible to verify.
+* examples
+** what the song means in your group of listeners
+   Especially good paired with conversation.
+** channeling alien visitors
+   :PROPERTIES:
+   :ID:       2b9a4f55-fea4-46e3-a56b-98dfe2da4610
+   :END:
+   As if somehow you and your friend recognize,
+   maybe only for the time being,
+   that you {are, speak silently on behalf of}  alien visitors.

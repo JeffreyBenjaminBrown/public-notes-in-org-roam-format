@@ -11,3 +11,9 @@
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 * [[id:1d8be58f-a579-4e4c-a145-8c349db58514][Resist peer pressure.]]
 * [[id:98f315c7-7404-40cd-ac56-2c9040a29421][Be gentle without saying why.]]
+* Recognize when it would be better not to [make a {joke,pass}].
+  :PROPERTIES:
+  :ID:       39167703-f685-4afb-9017-ca41caee0796
+  :END:
+* [[id:bb1e7ff9-7b57-4ab2-976c-a3ef4ad41ba1][flirting through dance at a rock concert]]
+* [[id:c091416d-a789-46d4-bb10-f64c2156a469][Moderation can feel like contradiction.]]

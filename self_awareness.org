@@ -8,7 +8,7 @@
   :ID:       9fc09f11-ef5b-475d-a885-f0fd0b667178
   :END:
 ** see also [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
-** [[id:7524f42b-9db0-4531-a21d-57df5954a34e][Knowledge graphs enhance self-awareness.]]
+** I believe [[id:7524f42b-9db0-4531-a21d-57df5954a34e][knowledge graphs enhance self-awareness.]]
 * self-consciousness
 ** That it feels bad is weird, because self-awareness is good.
    :PROPERTIES:
@@ -26,4 +26,4 @@
 ** [[id:27533eec-38f1-4f4a-8ffb-5125d99c0f78][My smile feels anxious, even when it looks genuine to me.]]
 ** [[id:d1f5961f-225c-4c6d-a4dc-2d0c93a8169d][My pain tolerance is dangerously high.]]
 ** [[id:6ffe216b-b02d-43f3-aadf-88b9eeadc15e][How do I keep getting talked into watching horror films?]]
-** [[id:dc356f64-de3a-4f70-b0cc-c5660d47ec9e][things I have wnated to but not expressed]]
+** [[id:dc356f64-de3a-4f70-b0cc-c5660d47ec9e][things I have wanted to but not expressed]]

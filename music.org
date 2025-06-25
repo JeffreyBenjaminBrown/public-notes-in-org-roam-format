@@ -6,6 +6,17 @@
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 ** [[id:f582adf8-17e3-429f-ad70-c1243694d0ea][poems]]
+* my playlists
+:PROPERTIES:
+:ID:       74329979-8166-4617-aaad-0a0294b87b78
+:ROAM_ALIASES: "playlists, my"
+:END:
+** blues
+   any song in it can be any subset of
+*** blues (style)
+*** blues (mood)
+*** wistful
+** ? rename spooky to include circus
 * [[id:1714269c-56fc-4c72-9faa-eebf49c6a07f][music of social experience]]
 ** [[id:1714269c-56fc-4c72-9faa-eebf49c6a07f][musical responsibility]]
 * [[id:01104862-9949-4373-a7d3-5472596d0f99][music and consciousness]]

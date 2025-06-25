@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "Neither too much work nor too much play." "work-life balance" "labor v. leisure" "leisure v. labor" "work v. play"
 :END:
 #+title: play v. work
+* Both express [[id:2b15a3ec-086b-4c66-af57-a03e706e1d84][joy]].
 * [[id:ff5f634a-f8fa-482c-95a7-6be10e55e58d][Comic responsibility]] puts them in tension.
 * [[id:4e919cdd-8549-4a5b-b9aa-f85ed3f6a7df][death => play]]
 * [[id:e5ee5341-7ca0-4aaf-9a76-e8d5c5e352ec][proving yourself v. enjoying others]]

@@ -3,8 +3,16 @@
 :ROAM_ALIASES: "fast night fantasy" "living like there's no tomorrow" "There is only now."
 :END:
 #+title: presence
-* = ideally an algorithm, at least a culture
-  evident in all kinds of music and movies
+* It is at least a culture.
+  One evident in all kinds of music and movies.
+* Is there an algorithm?
+* escapism
+  :PROPERTIES:
+  :ID:       8df78d26-cbc1-4f00-abfc-d552a1cb9192
+  :END:
+** see also [[id:6fa4cc1e-d4a8-4127-bf28-9e43aab75df8][dissociation]]
+* opposites
+** [[id:e5ee5341-7ca0-4aaf-9a76-e8d5c5e352ec][proving yourself v. enjoying others]]
 * [[id:00afd42e-f682-4447-b034-2f863cb4ac69][presence & personal]]
 * presence & courage
 :PROPERTIES:

@@ -11,7 +11,7 @@
 ** [[id:d060b13a-7452-4837-8d9b-11f2f48b71a4][presence & sharing]]
 * [[id:f23de8b3-b50b-408b-bc7e-48dc50418155][love & overload]]
 * [[id:e5ee5341-7ca0-4aaf-9a76-e8d5c5e352ec][proving yourself v. enjoying others]]
-* [[id:a55842c2-536e-4581-b04b-026715e646d1][love & responsibility]] (fun!)
+* [[id:a55842c2-536e-4581-b04b-026715e646d1][duty]] (fun!)
 * [[id:a003eba1-b71e-404e-b811-a95cb98bcb14][duh]]
 ** [[id:d0999d21-8eb2-4d35-abf4-0812e6a4131a][Sacrifices are a way to prove love.]]
 * [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][kindness]]
@@ -48,3 +48,9 @@
    :END:
 * [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagine]] love
 ** ? [[id:e9743e42-5837-495c-8876-47b36b93c974][imagined heartbreak]]
+* love & contradiction
+  :PROPERTIES:
+  :ID:       a942649d-3e3f-45d6-b47a-9f14d9d2aff4
+  :END:
+** [[id:bb1e7ff9-7b57-4ab2-976c-a3ef4ad41ba1][flirting through dance at a rock concert]]
+* [[id:3ec95610-04af-44a5-a702-9fce30b70970][independence & love]]

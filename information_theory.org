@@ -26,6 +26,11 @@
   :ID:       7abaf6b7-7c59-4744-bddb-8a3bdfb11d8d
   :END:
 ** see also [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]
+** Moderation can feel like contradiction.
+   :PROPERTIES:
+   :ID:       c091416d-a789-46d4-bb10-f64c2156a469
+   :END:
+*** e.g. [[id:bb1e7ff9-7b57-4ab2-976c-a3ef4ad41ba1][flirting through dance at a rock concert]]
 ** Your bad and good feelings toward something can both be real.
 ** [[id:b6ae22e1-5d46-4770-83a5-a1b4740f0ecb][The US feels robbed from its investments in China but does not want China to reciprocate.]]
 * mystery

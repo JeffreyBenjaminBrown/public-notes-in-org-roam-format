@@ -11,3 +11,10 @@
 ** [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][God]]
 ** [[id:336572ab-f513-4051-b75d-2a307392e54b][religion]]
 ** [[id:3570b8e0-1c1b-482c-bbb1-18c0151e2e4f][state]]
+* mysticism & fantasy
+  :PROPERTIES:
+  :ID:       ae69df7f-d35e-4262-81b4-0d60fa4adfed
+  :END:
+  phrases that sound mystical and Chinese to me
+** Don't believe the sun. It's not time to stop work yet.
+** See how _ will [[id:458f53a7-2dc6-4dfb-8443-a8831b3cbfa9][outlive]] you.

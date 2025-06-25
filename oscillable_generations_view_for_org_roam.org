@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3
+:ROAM_ALIASES: "osc-gen"
 :END:
 #+title: oscillable generations view for org-roam
 * Are wishes interesting?
@@ -23,6 +24,7 @@ hode.org
    disguise-org-headline ()
    org-roam-db-query (query &rest args)
    insert-graph-parents-as-subheadlines ()
+* Sort by product of accumulated unsorted notes and last time sorted.
 * to get a sense of the mass of a content tree
   out-links in contents
   number of contents

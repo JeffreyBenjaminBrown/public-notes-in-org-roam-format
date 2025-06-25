@@ -75,3 +75,5 @@
   :END:
   e.g. society-scale
 * [[id:f95a0c86-497b-4f4d-b02e-83384955b42b][You don't have to promise more than you offer.]]
+* funny
+** [[id:1367f49d-3473-4325-a9d0-ee840c4fe0c7][to be miraculous without being a prick about it]]

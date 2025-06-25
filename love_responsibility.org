@@ -1,11 +1,12 @@
 :PROPERTIES:
 :ID:       a55842c2-536e-4581-b04b-026715e646d1
-:ROAM_ALIASES: "responsibility & love"
+:ROAM_ALIASES: "responsibility & love" "love & responsibility" duty
 :END:
-#+title: love & responsibility
+#+title: duty
 * [[id:ff5f634a-f8fa-482c-95a7-6be10e55e58d][comic responsibility]]
 * [[id:1714269c-56fc-4c72-9faa-eebf49c6a07f][musical responsibility]]
 * [[id:3fea916e-26ed-441c-883c-e642b205bf05][All that matters is how we make each other feel.]]
+* [[id:39167703-f685-4afb-9017-ca41caee0796][Recognize when it would be better not to [make a {joke,pass}].]]
 * I still care, and she (usually?) knows it.
   :PROPERTIES:
   :ID:       d14881a6-61da-4513-9d3f-6d78a6882874

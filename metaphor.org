@@ -2,4 +2,4 @@
 :ID:       2ac7f271-eea5-4d23-852f-798322eff6e2
 :END:
 #+title: metaphor
-* [[id:2ea1bfbb-d135-44bb-a8ab-36e59c33aed0][God as metaphor for religious community]]
+* [[id:2ea1bfbb-d135-44bb-a8ab-36e59c33aed0][God as metaphor for {community, conscience}.]]

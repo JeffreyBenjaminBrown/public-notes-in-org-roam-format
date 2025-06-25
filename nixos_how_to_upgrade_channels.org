@@ -3,6 +3,7 @@
 :END:
 #+title: NixOS channels, and upgrading them
 * PITFALL: [[id:1f2b24c4-6d74-4fe5-9b09-5536667d759f][nixos-unstable means lots of rebuilding]]
+* [[id:f7233ca8-08a7-446a-baab-92b64c469f75][It seems easy lately.]]
 * "upgrading NixOS" seems (lately = 21.11) to mean only "switching channels"
 ** evidence
    https://discourse.nixos.org/t/21-11-has-been-released/16353/7?u=jeffreybenjaminbrown
@@ -54,3 +55,10 @@
 **** sudo nix-channel --update
 *** rebuild
     sudo nixos-rebuild --upgrade boot
+* How I went from 24.11 to 25.05 -- easy!
+  :PROPERTIES:
+  :ID:       f7233ca8-08a7-446a-baab-92b64c469f75
+  :END:
+sudo nix-channel --add https://channels.nixos.org/nixos-25.05 nixos
+sudo nixos-rebuild switch --upgrade
+then fix the config for renamed packages
