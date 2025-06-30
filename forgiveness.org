@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       8647bcfc-d5ef-45c3-b6ad-fc7789f0fad2
+:ROAM_ALIASES: forgiveness
 :END:
 #+title: forgiveness, inc. self-forgiveness
 * humility -> forgiveness -> freedom

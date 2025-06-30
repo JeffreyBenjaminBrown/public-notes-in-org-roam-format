@@ -7,7 +7,7 @@
    :PROPERTIES:
    :ID:       690c551b-43f9-4913-9a2d-9dfd51dd8ba5
    :END:
-*** To confront [tragedy, stress, death] asking God for exceptional would seem to make finding peace harder.
+*** To confront [tragedy, stress, death] asking God for special treatment would seem to make finding peace harder.
 *** [[id:e7fd04ae-edf7-46a9-944b-8e9c215415c4][Give up on dumb dreams.]]
 * [[id:ac9caea1-3d84-41eb-afc9-16018c542f16][sermons]]
 * [[id:a690aaee-78a6-4b07-8b62-3c60e27b2341][In 2025 62% of Americans identify as Christian.]]
@@ -15,3 +15,4 @@
 * [[id:b209b769-d2e1-4a76-a538-0e6d498e911d][imagination & religion]]
 * religious imagery
 ** [[id:5455234f-3ee7-4700-b605-3ee08bc23f1e][fallen angel]]
+** [[id:6daa665c-e4f9-4c61-ac51-3897b04c98a6][St. Peter]]

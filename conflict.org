@@ -7,7 +7,9 @@
   Struggle need involve only one agent
   (v. the environment),
   whereas conflict needs two.
-* see also [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]
+* see also
+** [[id:b9f666f2-0035-42df-b674-86049697e9e0][defense]]
+** [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]
 * [[id:e0ef4020-146f-4a10-9785-5d60900dd16c][absurd & conflict​]]
 * [[id:a51d5b7e-4fc5-47bc-a9ca-2524ba9acace][Good assertiveness is moved by circumstance, not sought.]]
 * [[id:508f4247-41b1-476a-afd7-c15cbc9e460a][Empathize before confronting.]]

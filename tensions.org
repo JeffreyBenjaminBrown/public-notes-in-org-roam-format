@@ -3,16 +3,18 @@
 :END:
 #+title: tension
 * see also [[id:7abaf6b7-7c59-4744-bddb-8a3bdfb11d8d][contradiction]]
+* facts
+** [[id:84282174-0a55-4597-ba14-42448dc9bf98][Death is a part of life, but there is only now.]]
+** [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility seems more compatible with peace than pride does.]]
+** [[id:6b47aadf-dab4-4984-8d79-b7269b79e1d2][Squaring comedy and mindfulness seems hard, and good.]]
 * collections of values plausibly in tension
   :PROPERTIES:
   :ID:       19a9138f-231e-459f-8207-ad51441be07b
   :END:
-** disciplined, relaxed, gentle, assertive
+** [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][disciplined]], [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][relaxed]], [[id:fdef41e8-3218-4964-be4b-12cb86c722a1][gentle]], [[id:1767a293-ee6a-47b7-b9b8-e8b2f05dd87f][assertive]]
 ** [[id:51cfa59e-4138-4d2d-8cae-5dbad26b78ad][sharing v. presence]]
 ** [[id:5801add6-9aaf-4f60-9354-f4aadfa5e7d2][patience v. courage]]
-** [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility seems more compatible with peace than pride does.]]
 ** [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Is humility at odds with ambition?]]
-** [[id:6b47aadf-dab4-4984-8d79-b7269b79e1d2][Comedy and mindfulness seem hard to square.]]
 ** [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]] | work-life balance
 ** [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety v. surprise]]
 ** [[id:564189da-b150-4890-9c48-601b231f5586][pride & self-criticism]]

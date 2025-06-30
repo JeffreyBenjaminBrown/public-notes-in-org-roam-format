@@ -4,6 +4,11 @@
 :END:
 #+title: balance | peace | equilibrium | harmony | relax | calm
 * TODO merge with [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+* peace v. motivation
+  :PROPERTIES:
+  :ID:       c2decf8f-87a5-41e0-86c6-a5633566acc6
+  :END:
+** [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
 * see also
 ** [[id:bf73fa6f-cd1a-4237-8bdb-7a98025cf226][wholeness]]  [[id:24fcf76a-fafa-4cb2-8312-43719f7aa207][fission]]  [[id:1a8ddfa4-0522-4c92-948a-21a97a277bcf][fusion]]  [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
 ** [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]
@@ -41,24 +46,24 @@
 ** [[id:2993e63f-bbc3-4c4e-9068-8f175e1a5710][Balance seems like vacuous advice.]]
 * [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][work v. _]]
 * [[id:68459e09-6698-4e47-a961-067d1828513b][As a stress management technique, belief in heaven is sad, even terrifying.]]
-* maybe see also
-** [[id:5fb0c3e5-a80d-46be-b5c6-26accde35bb3][marbling , sign]]
+* [[id:5fb0c3e5-a80d-46be-b5c6-26accde35bb3][Accept emotional marbling.]]
 * [[id:08dc2cef-0fdd-418c-8bee-4a4594d188a0]["Do your own thinking" is a great response to the urge to surf (too excess) as an anonymous reader|listener|viewer.]]
 * [[id:e1d6664c-9b8d-434a-808d-18d06757d217][Nature has balance.]]
-* [[id:1948b463-df60-40b6-b6f8-1bc25b648775][weird awkward nonresponse]]
-* [[id:4616df20-0eeb-4014-8f0d-04c14dcef195][Humility -> confession -> peace.]]
 * [[id:3987d04f-c539-4f73-916f-6a44bc0df7cd][Humility -> courage -> peace.]]
-* [[id:77bf63a4-6e87-41c0-8d97-327285715d49][love & peace -> monogamy]]
-* [[id:3601d1d0-a760-4220-81e1-e909d640b452][humility & calm]]
+* [[id:3601d1d0-a760-4220-81e1-e909d640b452][Humility is calming.]]
 * [[id:b403942c-942b-4b79-9c39-b5d77142bf33][marijuana ! peace]]
 * peace & realism
   :PROPERTIES:
   :ID:       cab92776-7a82-42a6-903e-14c102873c6e
   :END:
 ** [[id:e7fd04ae-edf7-46a9-944b-8e9c215415c4][Give up on dumb dreams.]]
-** [[id:690c551b-43f9-4913-9a2d-9dfd51dd8ba5][prayer v. peace]]
+** [[id:b0a80dfd-0fbf-4ba7-b9b7-6ec65d2619fa][Overoptimisation impedes mental peace.]]
+** [[id:690c551b-43f9-4913-9a2d-9dfd51dd8ba5][prayer (of special pleading) v. peace]]
 ** [[id:c393e966-36a8-498a-b44e-0667903191f8][workaholism]]
+* tensions
+** [[id:d023bd33-fd94-44d4-982d-675b79c2ee03][Relaxed sports would be fun.]]
+* peace with other people
+** [[id:c238024d-5dfc-4df3-aae1-acef3d8b90bd][Excise my urge to change others.]]
+** [[id:77bf63a4-6e87-41c0-8d97-327285715d49][love & peace -> monogamy]]
+** [[id:4616df20-0eeb-4014-8f0d-04c14dcef195][Humility -> confession -> peace.]]
 * [[id:911a611d-3b66-4d61-9f1a-6749cb09af71][& private]]
-* [[id:d023bd33-fd94-44d4-982d-675b79c2ee03][Relaxed sports would be fun.]]
-* [[id:b0a80dfd-0fbf-4ba7-b9b7-6ec65d2619fa][overoptimisation v. mental peace]]
-* [[id:c238024d-5dfc-4df3-aae1-acef3d8b90bd][Excise my urge to change others.]]

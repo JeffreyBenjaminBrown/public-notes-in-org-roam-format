@@ -28,3 +28,4 @@
   :ID:       2d6d5616-2f98-4b5f-8999-382b5371514a
   :END:
 ** = an intimate thing to reveal
+* [[id:1ba589c3-00f6-45a8-b5f3-e6c697e89030][light comedic belligerence]]

@@ -9,6 +9,7 @@
 * art
 ** [[id:f927cc31-1266-4352-978a-b0e00fb806a8][amazing music]]
 ** [[id:182dd8be-1e10-4479-b252-e338af38729f][amazing videos]]
+** [[id:07cb146d-a7cb-4118-8650-e0005f931aa4][Death as memory loss is beautiful.]]
 * tech
 ** [[id:1406b2b1-a640-4d59-be69-a06a401e3f95][some computer science failures]]
 ** [[id:d3e3d652-353a-4170-b3c8-4c77b2131372][starling murmurations]]

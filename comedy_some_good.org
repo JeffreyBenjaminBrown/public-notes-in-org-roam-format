@@ -48,6 +48,7 @@
 * Jason Cheny
 * Jeffrey Scheen
 * Jim Jeffries - Australian with the bit about guns in the US.
+* Josef Anolin - blocked an imaginary bullet
 * Josh Johnson
 * Josh Mandi
 * Kelsey Cook

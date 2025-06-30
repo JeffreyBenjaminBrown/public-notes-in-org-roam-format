@@ -3,6 +3,9 @@
 :ROAM_ALIASES: "how to use a knowledge graph" "how to knowledge graph"
 :END:
 #+title: using a knowledge graph
+* "How to use knowledge"?
+* Sermons repeat. Branch lists could repeat, or more generally include musical instructions.
+** Scalars like "mass" or "value".
 * TODO merge
 ** [[id:ce9e0a8d-19fa-48eb-9d0e-6cedcb0fdc99][notes, how to take]]
 ** [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult your notes : why and how]]

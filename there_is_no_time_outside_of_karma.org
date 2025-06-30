@@ -2,7 +2,7 @@
 :ID:       cf3d9e97-2c7a-4c2c-a6d3-33ea4dab2654
 :ROAM_ALIASES: karma
 :END:
-#+title: There is no time, only karma.
+#+title: There is no time outside of karma.
 * defining , attempts at
 ** More precisely, karma is more fundamental.
 ** [[id:865222da-06c9-4714-8b22-72ffd3187993][Karma is inseperable from population details.]]

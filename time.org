@@ -4,13 +4,11 @@
 :END:
 #+title: spacetime
 * [[id:36d2d810-4be1-4c0c-a979-bd756bf29220][consciousness]]
-* [[id:97565ea6-dddf-416c-a1fb-98bce5ec3c8c][Values are stories.]]
-* causation ! fatalism
+* self across time
   :PROPERTIES:
-  :ID:       a5a9da3b-02f3-487b-b8f1-bcfb96c3aa0d
+  :ID:       1fc13c21-8d83-43ec-b386-e87fc501ec8b
   :END:
-  Fatalism is that a terminal state is fixed.
-  Causation is that past affects future locally.
+* [[id:97565ea6-dddf-416c-a1fb-98bce5ec3c8c][Values are stories.]]
 * timelessness
 ** [[id:f66f6227-f85a-431b-906e-15af2d356d7e][motivation + time]]
 ** Time *seems* inherent to practically [[id:dea50354-cdfe-47c8-8f15-043c70d66da0][everything]].

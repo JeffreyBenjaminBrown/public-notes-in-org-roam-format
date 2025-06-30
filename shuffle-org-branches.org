@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       66df35f1-5cd7-4c3f-bfc8-26ea873b1fc2
+:END:
+#+title: shuffle branch list \ org mode
+* what I would like
+** Highlight all branches sibling to the current heading.
+   That is, not just the headings, but their content too.
+** perform [[id:361fb584-4c17-4c1c-b6db-2153489f70ad][random branch sort]] on that
+* close but not it : (defun highlight-sibling-region ()
+  "Highlight region from first child to end of all children under current parent."
+  (interactive)
+  (save-excursion
+    (let (start-pos end-pos)
+      (org-up-heading-safe) ;; Go to parent
+      ( save-excursion ;; put end right before the next node that is
+                       ;; at parent's level or lower (nearer root)
+        (org-flag-subtree t) ;; Fold
+        (org-next-visible-heading 1)
+        (setq end-pos (1- (point))) )
+      ;; After that excursion we should be back at the parent, right?
+      ( progn ;; Get to parent's first child
+        (org-flag-subtree nil) ;; unfold tree
+        (org-next-visible-heading 1)
+        (setq start-pos (point)) )
+      (goto-char start-pos)
+      (push-mark end-pos t t) ) ) )

@@ -1,6 +1,41 @@
 :PROPERTIES:
 :ID:       262826ac-648b-40a6-b0b5-0644ef17a3a8
+:ROAM_ALIASES: patience discipline self-control
 :END:
-#+title: discipline
-* [[id:e0a738a1-6bcc-4995-9c58-472f85432140][Intentionally seek out things that are hard.]]
+#+title: discipline | patience | self-control
+* extra ID
+:PROPERTIES:
+:ID:       d7d8d66e-24b4-4f53-aa98-0d6707b26254
+:END:
+* see also
+** [[id:ee0e7d70-20c9-4af2-8e01-c8e03255c8d8][austerity]]
+** [[id:9ec55e32-f974-479e-8295-7d9e30156684][mindfulness]]
+** [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][peace]]
+** [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
+** [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
+** [[id:31b4c38c-5885-4895-ae33-85cb4fb93b86][immaturity]]
+* [[id:5801add6-9aaf-4f60-9354-f4aadfa5e7d2][patience v. courage]]
+* technical strategies
+** [[id:e0a738a1-6bcc-4995-9c58-472f85432140][Intentionally seek out things that are hard.]]
+** Make hard things easier.
+   A comfortable chair, exercise breaks, etc.
+** [[id:d59f21b1-2b7d-40e7-8f98-739c366b8280][Beware perfectionism.]]
+*** [[id:5f213eb6-8631-4c84-83fa-77a94f8a1fc2][Cut yourself some slack.]]
+* emotional strategies
+** not just enduring trials, but cheerfully so
+   "Patience, in Hindu philosophy, is the cheerful endurance of trying conditions"
+   --Wikipedia on patience, <2025-06-29 Sun>
+** [[id:cd9ea78e-bc53-426e-9011-70a5d8d1ccde][trust in God | fate]]
+** Patience relies on internal rewards.
+   One must feel good doing hard work with no immediate external payoff.
+   Therefore the payoff must be internal.
+* interpersonal patience
+** emotional control even under criticism or attack
+   "In Buddhism, patience [includes] not returning harm"
+   -- Wikipedia on patience, <2025-06-29 Sun>
+** View encounters with difficult people as valuable training.
+   "Tibetan Buddhist Thubten Zopa recommended that people train in forbearance by taking advantage of encounters with difficult people"
+   -- Wikipedia on patience <2025-06-29 Sun>
+* Self-control might be trainable like a muscle.
 * [[id:5a49b82d-9b09-4f5a-ae80-6c6595d46ae1][Practice and resume-building suck.]]
+* [[id:bb4d7add-0f2d-4367-89da-429dbf550a8b][Train the awareness to be unmoved by temptation.]]

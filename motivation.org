@@ -5,6 +5,7 @@
 #+title: motivation | ambition | voluntarity | intention
 * see also
 ** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
+* [[id:c2decf8f-87a5-41e0-86c6-a5633566acc6][peace v. motivation]]
 * ease
 ** [[id:1eb17267-8251-4bf3-8f58-5cbec72ea187]["You can have this as much as you take it."]]
 * Every word should have a purpose.

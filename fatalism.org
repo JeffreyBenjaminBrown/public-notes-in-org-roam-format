@@ -2,15 +2,15 @@
 :ID:       f1a5c61e-6aa2-4a74-9113-2404c8d6f674
 :END:
 #+title: fatalism
+* = belief that something is inevitable
+* [[id:413c6cce-ae3d-42c2-b2c8-c0b71ddbd935][Recognize sunk costs.]]
 * TODO ? merge [[id:05d467c3-fffd-457a-af5c-099f49b4b179][despair]]
 * [[id:cab92776-7a82-42a6-903e-14c102873c6e][peace & realism]]
 * [[id:06425bc4-741c-42f8-b365-4a21ea1ccf08][idealism ! fatalism]]
-* [[id:c045bfc7-96d5-417f-97f4-70337b3132ea][rational temporary depression]]
 * subjugation to destiny
 * [[id:846f7aa9-2ca4-45af-88f3-522376a33e9b][powerlessness <-> fatalism]]
 * art, sport, video games
   Fatalism does not define them,
   but it encourages them.
 * [[id:831e6de2-9288-4fec-8a26-b3e6530a9067][rational fatalist forgiveness]]
-* [[id:a5a9da3b-02f3-487b-b8f1-bcfb96c3aa0d][causation ! fatalism]]
-* [[id:413c6cce-ae3d-42c2-b2c8-c0b71ddbd935][Recognize sunk costs.]]
+* [[id:c045bfc7-96d5-417f-97f4-70337b3132ea][rational temporary depression]]

@@ -2,9 +2,12 @@
 :ID:       de26311c-9b4b-48f4-afa1-c7a680f73b30
 :END:
 #+title: Don't beat around the bush.
-* see also
-** [[id:4ec07465-7323-47c3-a8b4-8d81f383b119][Flirt before proposing anything.]]
-** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
 * Ask potential partners whether they're interested, early.
   Seems true in every domain -- research partners, musicians, etc.
   Except maybe in espionage.
+* why
+** Time is limited.
+** Waiting suggests less genuine interest.
+* see also
+** [[id:4ec07465-7323-47c3-a8b4-8d81f383b119][Flirt before proposing anything.]]
+** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]

@@ -54,3 +54,9 @@
   :END:
 ** [[id:bb1e7ff9-7b57-4ab2-976c-a3ef4ad41ba1][flirting through dance at a rock concert]]
 * [[id:3ec95610-04af-44a5-a702-9fce30b70970][independence & love]]
+* universal baseline love
+  :PROPERTIES:
+  :ID:       e65f32b5-ae35-4276-82b9-35700627788d
+  :END:
+** love without fascination
+** love with the [[id:a1487b9c-70d9-493a-b61e-e512def4a0d5][freedom to leave]]

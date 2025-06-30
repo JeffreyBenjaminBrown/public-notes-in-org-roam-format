@@ -61,7 +61,7 @@
   :END:
 * [[id:585b7a0d-4fc6-497b-b20d-0fc19ed9daa7][Our only judges are each other.]]
 * [[id:66378a3b-2439-4401-9773-460a8d4011bd][What if we already see through the bias I want to solve?]]
-* It's right to spend non-uniformly over time.
+* It is right to spend non-uniformly over time.
   :PROPERTIES:
   :ID:       17762c0f-5024-43de-af31-1626cf9a9b28
   :END:

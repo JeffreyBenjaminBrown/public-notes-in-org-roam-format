@@ -3,17 +3,18 @@
 :ROAM_ALIASES: moderation restraint temperance
 :END:
 #+title: moderation | restraint | temperance
-* [[id:feb8cb2a-b057-48dd-836b-99985d9e7338][subtlety]]
-* discretion
-* [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][work-life balance]]
-* [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
-* [[id:cbef2e05-df7f-4b7c-a1dc-5cb2166975d8][sharing]]
-** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
+* [[id:c091416d-a789-46d4-bb10-f64c2156a469][Moderation can feel like contradiction.]]
+* [[id:a2329b60-bbcf-4291-b636-9820ddaa02f7][Honor your word. Do not give it lightly.]]
 * [[id:1d8be58f-a579-4e4c-a145-8c349db58514][Resist peer pressure.]]
 * [[id:98f315c7-7404-40cd-ac56-2c9040a29421][Be gentle without saying why.]]
 * Recognize when it would be better not to [make a {joke,pass}].
   :PROPERTIES:
   :ID:       39167703-f685-4afb-9017-ca41caee0796
   :END:
+* [[id:feb8cb2a-b057-48dd-836b-99985d9e7338][subtlety]]
+* discretion
+* [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][work-life balance]]
+* [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
+* [[id:cbef2e05-df7f-4b7c-a1dc-5cb2166975d8][sharing]]
+** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 * [[id:bb1e7ff9-7b57-4ab2-976c-a3ef4ad41ba1][flirting through dance at a rock concert]]
-* [[id:c091416d-a789-46d4-bb10-f64c2156a469][Moderation can feel like contradiction.]]

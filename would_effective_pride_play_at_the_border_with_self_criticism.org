@@ -2,6 +2,8 @@
 :ID:       564189da-b150-4890-9c48-601b231f5586
 :END:
 #+title: Wouldn't effective pride play at the border with self-criticism?
+* If you are proud most of the time, have you not set the achievement bar too low?
+** related: [[id:17762c0f-5024-43de-af31-1626cf9a9b28][It is right to spend non-uniformly over time.]]
 * justification
   A rational, useful sense of pride would seem to require
   identifying feasible dimensions for self-improvement.

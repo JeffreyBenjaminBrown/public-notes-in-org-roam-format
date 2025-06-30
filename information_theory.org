@@ -83,3 +83,6 @@
    :END:
 *** example: Being unable to close the read-write loop.
     of an editor
+* [[id:b42295fe-fa45-4285-836c-a9af2dd064cd][living metaphor]]
+* Dubious content should perhaps come with a warning.
+  But also maybe not, to keep you on your toes.

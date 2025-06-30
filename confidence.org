@@ -15,6 +15,9 @@
 * [[id:6de03e24-7211-4346-9383-64ded344e366][Confidence is comfortable.]]
 ** [[id:e3f7d448-2b88-41bb-ac5b-44cdb34c0828][Sexiness does not feel obligated.]]
 * assertiveness
+  :PROPERTIES:
+  :ID:       1767a293-ee6a-47b7-b9b8-e8b2f05dd87f
+  :END:
 ** Good assertiveness is moved by circumstance, not sought.
    :PROPERTIES:
    :ID:       a51d5b7e-4fc5-47bc-a9ca-2524ba9acace

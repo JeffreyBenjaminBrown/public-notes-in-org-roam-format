@@ -5,7 +5,6 @@
 #+title: mindfulness | awareness
 * [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
 * [[id:62693433-3e22-4624-b229-002f7d2d9332][dreaming]]
-  Seems watseful to spend so long that way and not remember.
 * via self-respect
 ** [[id:08dc2cef-0fdd-418c-8bee-4a4594d188a0]["Do your own thinking" is a great response to the urge to surf (to excess) as an anonymous reader|listener|viewer.]]
 * [[id:a8760812-f098-4e39-aa4c-9d69a2e1fcba][Mindfulness and being single seem hard to square.]]
@@ -34,3 +33,9 @@
 ** imagine [[id:20498902-7288-4d65-bc57-76f1d5d35138][mindfulness, awe, in romance]]
 * never sure
 ** [[id:71dc8ea7-cbd0-4fc5-8514-e0617b422569][Study your pains?]]
+* Train to be unmoved by temptation.
+  :PROPERTIES:
+  :ID:       bb4d7add-0f2d-4367-89da-429dbf550a8b
+  :END:
+  'training the awareness to be like a "block of wood" when attracted by vices such as pride or lust'
+  <2025-06-28 Sat> https://en.wikipedia.org/wiki/Conscience, in a part on Buddhism

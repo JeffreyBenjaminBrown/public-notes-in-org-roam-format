@@ -13,11 +13,12 @@
 ** TODO merge [[id:245776bb-6704-44a1-be58-6cd962912937][<2025-05-05 Mon> notes from Wikipedia]]
 ** [[id:97565ea6-dddf-416c-a1fb-98bce5ec3c8c][Values are stories.]]
 ** instances \ values
+*** [[id:a41f56f0-6dcd-42af-8395-28c305ff493c][leadership]]
 *** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 *** [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]]
 *** [[id:1a7a3ff7-e499-40fa-b81b-f06563bcb11e][flexibility]]
 *** [[id:a1487b9c-70d9-493a-b61e-e512def4a0d5][freedom]]
-*** [[id:ff3b637a-ad1c-4381-afa7-570fc76b650d][self-confidence]]
+*** [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][confidence]]
 *** [[id:8cd7a9de-4652-4728-b57f-748e61cf94e7][health]]
 *** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
 *** [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]]
@@ -104,10 +105,11 @@
 **** [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]s, some interesting
 *** the [[id:c0670a96-666b-4ebb-a2a6-42e83067f39d][sublime]]
 *** [[id:3a21903e-c17b-491d-a093-b49b5a38794d][blindness]]
-* problematic
+* problems
 ** [[id:cd9b2ff2-52b5-437d-882d-a625c360dd3f][& personal]]
 ** [[id:5357b637-c959-455f-b171-429390edbc04][conflict]] | struggle
 *** [[id:cc103b68-6b43-483f-88a7-e724fdf853b7][fascism]]
+** [[id:2ae9e648-aafa-4135-8360-fecac8ecdc1c][distant powers & problems]]
 * interpersonal
 ** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
 ** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
@@ -123,8 +125,13 @@
 * [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]
 * [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]]
 * skills
+:PROPERTIES:
+:ID:       31567641-6ef2-4ca5-9608-5adfe10e5b8e
+:END:
 ** something can be part skill, part not
 *** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
+** [[id:a41f56f0-6dcd-42af-8395-28c305ff493c][leadership]]
+** [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][kindness]]
 ** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
 ** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]]
 ** [[id:5c1dc0d8-b3a2-4dae-9c2d-7bda2d9789c0][dance]]

@@ -14,6 +14,7 @@
   is still 9.7.30 (the latest) or has been reverted.
   If it's still the latest, report in the email thread:
   https://mail.google.com/mail/u/0/#search/emacs/KtbxLwHDlBhxgWHWJhHQxnpRtVMLkWqffL
+* [[id:d19c12c9-9fdf-4289-8330-6ff172972f3f][how to sort branches in org-mode]]
 * code blocks in org-mode
 ** Edit with `C-c '`
 ** Delineate like this

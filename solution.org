@@ -7,6 +7,12 @@
 ** [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][realism]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
 * [[id:b0a80dfd-0fbf-4ba7-b9b7-6ec65d2619fa][overoptimisation v. mental peace]]
+* Beware perfectionism.
+  :PROPERTIES:
+  :ID:       d59f21b1-2b7d-40e7-8f98-739c366b8280
+  :END:
+** = Don't make the perfect the enemy of the good.
+** [[id:b0a80dfd-0fbf-4ba7-b9b7-6ec65d2619fa][overoptimisation v. mental peace]]
 * flow, the mental state
   :PROPERTIES:
   :ID:       dd74aa97-289b-4fad-9540-6a7445e1484c

@@ -3,9 +3,16 @@
 :END:
 #+title: honor
 * [[id:1d8be58f-a579-4e4c-a145-8c349db58514][Resist peer pressure.]]
+* Honor your word. Do not give it lightly.
+  :PROPERTIES:
+  :ID:       a2329b60-bbcf-4291-b636-9820ddaa02f7
+  :END:
+** [[id:5d29ffa5-0c60-4243-801c-043f717c7f9a][Know what I'm getting into before accepting an invitation.]]
+* [[id:5dab1f33-780f-447c-b594-327c9f3ac0df][Lead by example.]]
 * neighbors
+** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
 ** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
-** compassion
+** [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][kindness]]
 ** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
 *** [[id:89a7a71d-6a22-4431-a794-d89253e524a2][devotion]]
 ** chivalry

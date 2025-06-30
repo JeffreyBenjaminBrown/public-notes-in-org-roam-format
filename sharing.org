@@ -3,10 +3,11 @@
 :END:
 #+title: sharing
 * [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
-* Balance helps Sharing.
+* Balance* clarifies how much to share.
   :PROPERTIES:
   :ID:       0099068b-7ef0-4413-b3aa-18997353baa4
   :END:
+** (*) balance against the other's sharing
 ** {Share, invite, ...} in proportion to what others share.
 ** Feel neither withdrawn nor overexposed.
 * sharing v. presence

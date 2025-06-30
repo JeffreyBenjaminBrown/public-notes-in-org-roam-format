@@ -9,6 +9,9 @@
 * [[id:30478629-506c-4acf-aec8-b74e977a2234][Keep, and know when to read and modify, files on people]].
 * planning
 ** Know what I'm getting into before accepting an invitation.
+   :PROPERTIES:
+   :ID:       5d29ffa5-0c60-4243-801c-043f717c7f9a
+   :END:
    e.g. when invited to a video call,
    know who else is invited -- journalists? politicians?
 * outreach

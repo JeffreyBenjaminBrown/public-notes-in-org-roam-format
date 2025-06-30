@@ -15,7 +15,7 @@
    :END:
    or the reverse -- seeing them permits humility
 *** [[id:5ac5c7eb-d7b0-4b7f-b12d-543e75e16f4f][Humility contravenes useless desires to punish.]]
-** Humility seems calming.
+** Humility is calming.
    :PROPERTIES:
    :ID:       3601d1d0-a760-4220-81e1-e909d640b452
    :END:
@@ -77,3 +77,4 @@
 * [[id:f95a0c86-497b-4f4d-b02e-83384955b42b][You don't have to promise more than you offer.]]
 * funny
 ** [[id:1367f49d-3473-4325-a9d0-ee840c4fe0c7][to be miraculous without being a prick about it]]
+* [[id:b0cc1399-7e8d-4a7f-b388-04c505ca198a][? humility -> generosity]]

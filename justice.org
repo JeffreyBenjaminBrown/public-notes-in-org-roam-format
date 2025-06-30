@@ -4,6 +4,8 @@
 :END:
 #+title: justice
 Remember, notes should be surprising.
+* judgment
+** Some refuse to hear it.
 * evil
 :PROPERTIES:
 :ID:       aa879d13-804f-4de3-b9fc-a3e7c774969e

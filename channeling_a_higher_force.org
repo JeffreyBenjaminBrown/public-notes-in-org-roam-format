@@ -5,6 +5,7 @@
 * elaboration
   finding a higher power, guiding principle in something
 * some higher powers
+** [[id:99295d00-8cfa-4c7f-98af-ad1a41b4abc9][conscience]]
 ** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][humor]]
 ** [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]
 ** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]

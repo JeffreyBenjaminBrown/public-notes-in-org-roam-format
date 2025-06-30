@@ -1,6 +1,10 @@
 :PROPERTIES:
 :ID:       b9f666f2-0035-42df-b674-86049697e9e0
-:ROAM_ALIASES: defense "national defense"
+:ROAM_ALIASES: war "national defense"
 :END:
-#+title: war
+#+title: defense
 * [[id:db8d0ef0-1518-4c69-9cfe-99d1bc4d2cd1][Recent changes in weapons technology have tilted the odds in war in favor of defenders.]]
+* [[id:5d29ffa5-0c60-4243-801c-043f717c7f9a][Know what I'm getting into before accepting an invitation.]]
+** [[id:a2329b60-bbcf-4291-b636-9820ddaa02f7][Honor your word. Do not give it lightly.]]
+*** [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]]
+* [[id:1767a293-ee6a-47b7-b9b8-e8b2f05dd87f][assertiveness]]

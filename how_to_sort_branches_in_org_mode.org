@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       d19c12c9-9fdf-4289-8330-6ff172972f3f
+:END:
+#+title: how to sort branches in org-mode
+* C-c ^ = org-sort
+  then choose 'a' for alphanum, etc.
+* random branch sort
+  :PROPERTIES:
+  :ID:       361fb584-4c17-4c1c-b6db-2153489f70ad
+  :END:
+Define something like this:
+  (defun my-org-random-sort ()
+    (random 1000))
+Highlight the branches to sort.
+  Their subbranches will not be reordered.
+Then run:
+  C-c ^ f my-org-random-sort
+  (C-c ^ = org-sort)

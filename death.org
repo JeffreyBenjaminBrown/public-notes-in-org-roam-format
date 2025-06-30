@@ -3,6 +3,7 @@
 :END:
 #+title: death
 * see also
+** [[id:bf73fa6f-cd1a-4237-8bdb-7a98025cf226][wholeness]]
 ** [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
 ** [[id:a9730be0-42bc-49ab-8a0a-f7bfd55c729d][Entropy is not entirely negative.]]
 ** [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep]]
@@ -18,8 +19,7 @@
 ** [[id:b928ca41-2cf7-47bb-be26-2ee550574d94][subsistence]]
 ** [[id:1d2b7fa8-e4f3-4e96-9b20-24901b7be28a][immortality]]
 * [[id:45453411-d9e4-4562-aebb-0030ddf1dced][hell]]
-* & art|fantasy
-** [[id:e8db50df-3e19-4d1e-9808-6f7c0c56035e][Death as conceptual bankruptcy.]]
-** [[id:15dc6043-cb8f-4202-8d56-7e7b1dac59f8][dissociative fantasies]]
+* [[id:15dc6043-cb8f-4202-8d56-7e7b1dac59f8][dissociative fantasies]]
+* [[id:dd5b4336-de4b-4fc9-8119-0c9285240925][information death]]
 * u
 ** mobility problems

@@ -1,8 +1,9 @@
 :PROPERTIES:
 :ID:       41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3
-:ROAM_ALIASES: "osc-gen"
+:ROAM_ALIASES: "osc-gen" "osc gen"
 :END:
 #+title: oscillable generations view for org-roam
+* [[id:66df35f1-5cd7-4c3f-bfc8-26ea873b1fc2][shuffle branch list]]
 * Are wishes interesting?
   I have a lot of wishes in a few files:
 
