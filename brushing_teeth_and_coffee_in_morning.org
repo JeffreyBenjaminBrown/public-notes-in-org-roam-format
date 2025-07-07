@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       9f807823-4d91-48eb-b7fe-896faf96d28b
+:END:
+#+title: brushing teeth and coffee in morning
+* Solution: Brush immediately on waking
+  Since I wait an hour before drinking coffee,
+  this alone solves the problem.
+* Half-measur: rinse a lot
+  Rinse mouth with water
+    before and after coffee, and
+    after brushing.
+* Bad: Coffee right after brushing.
+  The acid can damage the teeth more easily, because
+    1 - no protective saliva buffer
+    2 - the toothpaste raises the pH of the teeth
+* Worst: Brush right after coffee.
+  The coffee softens the enamel.

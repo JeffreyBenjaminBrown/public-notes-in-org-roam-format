@@ -9,9 +9,24 @@
    https://github.com/JeffreyBenjaminBrown/skg
    and might be the best introduction to Skg.
 ** [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][connectivity demos]] for knowledge graphs
+* show how many [children] it has in a [neighboring branch]
+** the idea
+       * experiences
+       ** sacrifice
+       ** thinking about something completely different
+       ** being damaged by someone else's assumption
+       ** a completely left-field idea that pays off spectacularly
+       * encourage
+       ** humility
+       ** optimism
+          # here I would like to be able to show a 1 count, for the left-field child of "experiences"
+** [[id:dec78208-aed2-4c2d-b23a-d7af870b91a7][source]]
+* Share Skg to everyone who uses those tools.
+  TypeDB, Rust, Emacs
 * Am I afraid of it?
 * how I think one most naturally uses punctuation
 ** () is optional, whereas [] and {} are mandatory but perhaps holding disjunctive options
+* glyph ?-> herald
 * u
 ** "vote someone off the island", hide them from your view
    It might be easier for the person hidden to learn from it

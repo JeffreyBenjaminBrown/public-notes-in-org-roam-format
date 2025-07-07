@@ -4,6 +4,29 @@
 :END:
 #+title: using a knowledge graph
 * "How to use knowledge"?
+* responsibilities
+** Responsibilities to yourself
+*** If you (habitually) write to it, revise it.
+**** A note accreted to and then observed as a collection might reveal itself to be a bad idea this way.
+     How that happens is fun, and probably worth understanding.
+*** Write diverse things.
+**** topic
+**** kind of analysis: goal, methods, consequence, level of abstraction
+*** Qualify your opinions.
+    Some things you believe. These can go without a herald.
+    If it's a suspicion, or something you doubt, etc. make that clear.
+*** Employ atomicity.
+    in Andy Matuschak's sense
+*** Provide enough context.
+    Many (most interesting?) two-member labeled relationships illuminate more than three concepts.
+*** Aim for universality, at least sometimes.
+    More universal = more people who might find the idea useful.
+*** Dare to record your insights.
+    In short time, revising them will surprise you.
+** Responsibilities to others.
+*** Dare to imagine others want your insights.
+*** Dare to imagine you need others' insights.
+*** Download, read and link to other peoples' notes.
 * Sermons repeat. Branch lists could repeat, or more generally include musical instructions.
 ** Scalars like "mass" or "value".
 * TODO merge

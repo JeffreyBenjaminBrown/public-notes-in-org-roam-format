@@ -4,6 +4,7 @@
 :END:
 #+title: energy
 * [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][God]]
+* [[id:21577208-ba52-4105-8884-355fa27f128f][public influence]]
 * [[id:c893937e-bca4-4a77-aa6c-ad481bf1d042][the limits of logic | information | expression]]
 * [[id:21577208-ba52-4105-8884-355fa27f128f][public image | fame | public influence]]
 * [[id:4dc21a1a-cf5d-48d9-9297-05af7c7618e5][labor v. capital]]

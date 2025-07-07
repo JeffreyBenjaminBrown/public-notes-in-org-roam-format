@@ -6,6 +6,7 @@
 * [[id:cd31d188-3857-469e-8af8-07ce8d4242d9][intuition]]
 * [[id:9d1cc360-4fce-4cd4-9176-8f12670add90][attention]]
 * [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness]]
+* [[id:2ef9af0e-4244-4d92-b141-c0aea60f7d9a][fantasy]]
 * [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][learning, thinking and understanding]]
 * TODO [[id:a04c2b66-35bd-45f6-8dfa-5513ffe36a9c][introspect & reprogram]]
 * [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]

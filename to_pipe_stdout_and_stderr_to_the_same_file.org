@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       b9e5c45c-93e1-4e40-a47a-6c602607a116
+:ROAM_ALIASES: "pipe stdout and stderr"
 :END:
 #+title: to pipe stdout and stderr
 * to the same file

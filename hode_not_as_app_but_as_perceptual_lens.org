@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       2faccb5e-d642-4d15-83fa-9d4b7b315880
 :END:
-#+title: Hode not as app but as perceptual lens
+#+title: Hode not as app but as perceptual lens -- we already do that with each others' information
 If rather than write Hode, I had to see the world that way, thereby changing radically my experience.
 
 People ('s models) share concepts, and differ in concepts. But so far I see only one world.

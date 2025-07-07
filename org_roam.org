@@ -16,6 +16,7 @@
       https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/everything.org
 ***** git remote
       git@github.com:JeffreyBenjaminBrown/public_notes_with_github-navigable_links.git
+* [[id:4822cf1d-6e75-422e-81b2-c0a38f5aaa83][org-roam can be cross-published to Agora]]
 * PITFALLs
 ** Adding aliases to properties buckets fails
    if the bucket is indented.

@@ -1,0 +1,72 @@
+:PROPERTIES:
+:ID:       679a4dda-608f-469b-885d-25a5f1aeec76
+:END:
+#+title: Docker can interfere with WiFi access
+* <2025-07-01 Tue>: report, with solutions
+** This report is mostly ChatGPT
+It's probably too long.
+But I was there and it seems accurate.
+** the problem
+Docker was blocking access to the WiFi network's captive portal (the web page that you’re forced to see before you can access the internet on a public or restricted network).
+*** details
+Docker automatically created an internal virtual network (br-...) using the IP range 172.18.0.0/16. But the MinCIT Invitados WiFi network also uses the 172.18.x.x range, including 172.18.0.248, the captive portal’s login address.
+
+Because Docker registered a more general route (172.18.0.0/16) via its own internal bridge, any attempt to reach the real 172.18.0.x addresses got routed to Docker instead of the WiFi interface. Firefox couldn’t connect to the captive portal, even though the network was working and my phone could connect.
+** Why this broke things
+Docker sets up default subnets for its internal containers unless told otherwise.
+
+If one of these subnets overlaps with a real external network, Docker’s route takes priority.
+
+As a result, traffic meant for the WiFi network gets misrouted to Docker, and fails silently.
+** Solution: Tell Docker to use a different subnet
+There are at least two ways to fix it:
+*** Global method (system-wide, persistent):
+Tell Docker to stop using 172.18.0.0/16 globally by editing or creating this file:
+
+/etc/docker/daemon.json
+
+And adding:
+
+{
+  "default-address-pools": [
+    {
+      "base": "172.31.0.0/16",
+      "size": 24
+    }
+  ]
+}
+
+Then restart Docker:
+
+sudo systemctl restart docker
+
+    This changes the default subnet for all future Docker networks, across all projects. Existing networks stay as they are unless recreated.
+*** Local method (project-specific, what I did):
+I modified the docker-compose.yml file to tell Docker Compose to use a safe, non-conflicting subnet just for that project:
+
+networks:
+  default:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.31.0.0/24
+
+Then I recreated the containers and network:
+
+docker compose down
+docker compose up -d
+
+    This changes the subnet only for that Compose project, avoiding interference with real-world WiFi networks like MinCIT Invitados.
+** how to diagnose in future
+If your laptop suddenly can’t load captive portal pages (even though you’re assigned a valid IP), and the IP range starts with 172.x.x.x, check if Docker is hijacking the route.
+
+Run:
+  ip route
+
+Look for a line like:
+  172.18.0.0/16 dev br-xxxxxxxx proto kernel scope link src 172.18.0.1
+
+If that appears and overlaps with your real network, Docker is the problem. Either delete that route temporarily:
+  sudo ip route del 172.18.0.0/16 dev br-xxxxxxxx
+
+Or fix the subnet assignment permanently (globally or per-project) as shown above.

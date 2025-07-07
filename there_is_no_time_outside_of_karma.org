@@ -10,3 +10,9 @@
 ** karma ~ consequences
 * technical
 ** [[id:e54b0669-aa26-45cf-a5fa-6bb41f871790][Time is time's initial/foundational conditions.]]
+* [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]
+** evil-looking benevolent paternalistic coincidence
+   :PROPERTIES:
+   :ID:       2048d60f-627f-4768-ae73-0832612f96df
+   :END:
+   You might have a simple economic story for why someone did something {selfish, stupid, malevolent}. Their "higher self", meanwhile, chose those actions benevolently for you, bearing in mind its inifinitely complex ramifications -- who you would meet, what concepts and feelings you would encounter -- while making a face like "take that you little bastard".

@@ -1,7 +1,14 @@
 :PROPERTIES:
 :ID:       f9ee18e9-68f2-4f10-b10d-c91186b797e3
+:ROAM_ALIASES: Agora
 :END:
 #+title: Agora (shared knowledge base (protocol))
+* org-roam user @doubleloop (Neil) cross-publishes to Agora
+  :PROPERTIES:
+  :ID:       4822cf1d-6e75-422e-81b2-c0a38f5aaa83
+  :END:
+  He said so here:
+  https://org-roam.discourse.group/t/rg-roam-minimal-org-roam-with-zero-config-no-sql-depends-only-on-ripgrep/3803/16
 * <2024-10-06 Sun> trying with Flancian's Dockerfile
   This seems to show how to launch:
   https://github.com/flancian/agora/blob/master/Agora%20architecture.md

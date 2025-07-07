@@ -2,6 +2,7 @@
 :ID:       1b73c5f1-5708-4875-9b85-b2eea26187e0
 :END:
 #+title: Docker (virtual machine platform)
+* PITFALL: [[id:679a4dda-608f-469b-885d-25a5f1aeec76][Docker can interfere with WiFi access]]
 * TODO what the heck ? [[id:2e092160-cb83-4bce-8ffb-cc2264270c0b][persistent Docker data insanity \ Hode]]
 * docker exec
   :PROPERTIES:

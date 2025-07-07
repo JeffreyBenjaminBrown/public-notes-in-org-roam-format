@@ -2,7 +2,20 @@
 :ID:       0cb70005-87b9-43a3-96e8-45906f1561ec
 :END:
 #+title: beans, cooking
-* TODO try salt rather than vinegar
+* was great, 2 big cups garbanzos <2025-06-30 Mon>
+** garbanzos :: 2 big white cups = maybe 3.9 cups
+** 2 tbsp vinegar per cup of beans
+   16 tbsp = 1 cup
+** 2 tbsp big-crystal salt
+   the biggest measuring spoon, which is bigger than my "tablespoons for the table"
+** 4 carrots
+** 2 onion
+** 4 apio
+** 4 ají
+** 2 tomates
+** 6 pedacitos de ajo
+** hierbas
+** 4 papas
 * what I do
 ** boil 4 minutes with baking soda
 ** let cool at least 4 hours (can be 24, 48, whatever)

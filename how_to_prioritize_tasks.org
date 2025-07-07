@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       a91350ce-7a84-4be6-a4f3-6c174ae8abea
+:ROAM_ALIASES: prioritization
+:END:
+#+title: how to prioritize tasks
+* the three questions
+** What is its deadline?
+** How much does it pay off?
+*** Will it help with other priorities?
+** What does it cost?
+*** Time
+*** Money & other resources
+*** Psychic/emotional budget
+*** Political capital
+* difficulty: probability
+  Costs, benefits and even deadlines
+  are usually probability distributions,
+  not fixed scalar values.

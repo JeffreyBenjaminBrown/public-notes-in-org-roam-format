@@ -2,6 +2,7 @@
 :ID:       c6eb0f31-04b3-4552-b52d-6bbaae98f34d
 :END:
 #+title: perception
+* [[id:f3b1cc7c-1799-4a88-827c-1b81d5786109][bearing witness]]
 * [[id:7b24e00d-6acb-4723-9267-6a9935dddacd][Truth is an assumed property of one universe.]]
 * [[id:f4d489d8-3687-4377-8394-4d1aa16d8782][Recognize bias.]]
 * [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][There is only now.]]

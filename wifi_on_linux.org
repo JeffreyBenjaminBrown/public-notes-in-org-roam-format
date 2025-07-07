@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "network connections in Linux" "connecting to networks on Linux"
 :END:
 #+title: wifi on Linux
-* if connecting does automatically not bring me to a "captive portal" to accept terms of use
+* PITFALL: [[id:679a4dda-608f-469b-885d-25a5f1aeec76][Docker can interfere with WiFi access]]
+* if connecting does not automatically bring me to a "captive portal" to accept terms of use
   try visiting an http (not https) site, e.g.
     http://sfvlug.org
