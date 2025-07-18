@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       d1fba1a6-848f-4ab7-8626-c192dc259c42
+:ROAM_ALIASES: sanctity holiness purity innocence veneration
+:END:
+#+title: sanctity | holiness | purity | innocence | veneration
+* another ID
+  :PROPERTIES:
+  :ID:       60369835-80af-42f3-9de5-95736ce9b0ee
+  :END:
+* qualities
+** something one dares not criticize
+** something one dares not put into words
+** something doomed, which one nonetheless struggles to preserve
+* [[id:ea992d45-a415-45e5-8d8a-0171f42b1e17][sex & holiness]]
+* [[id:f3b1cc7c-1799-4a88-827c-1b81d5786109][bearing witness]]

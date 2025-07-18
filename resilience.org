@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       7dd67daf-1939-48eb-875a-fd68362f7c59
+:END:
+#+title: resilience
+* [[id:0c575dde-46fd-4fcd-a9a7-1fb95ce42858][Detachment]] can help.

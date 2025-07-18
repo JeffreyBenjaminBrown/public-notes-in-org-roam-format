@@ -1,0 +1,60 @@
+:PROPERTIES:
+:ID:       38f010f2-efde-4bd1-9c5d-96af6a4d839f
+:ROAM_ALIASES: "permanent notes, my"
+:END:
+#+title: my permanent notes
+* It seems like short files should not be listed here.
+  The time it would cost to consult the list to see if I have read it
+  is not worth the gain.
+* TODO algorithm for this file
+  serial
+** First, don't put anything here until I have read it whole.
+** Collect here until the collection is big enough to be interesting.
+** After a commit to public/, move these.
+   Move them to permanent/, and commit both.
+* TODO read completely
+** mindfulness
+** humility
+** peace
+** volition
+** sexiness
+* DONE read completely
+  append to the end of this list
+** public/humility_seems_more_compatible_with_peace_than_pride_does.org
+** public/hope_ambition.org
+** public/safety.org
+** public/cognitive_dissonance_and_commitment_romantic.org
+** public/freedom.org
+** public/hope_s.org
+** public/courage_vs_comfort.org
+** public/confidence.org
+** public/things_that_require_courage.org
+** public/courage.org
+** public/freedom_v_commitment.org
+** public/neither_too_much_work_nor_too_much_play.org
+** public/play_fun.org
+** personal/pleasure.org
+** public/sanctity_purity_innocence.org
+** public/sublime.org
+** public/awe.org
+** public/etiquette_information_processing_optimization.org
+** public/bearing_witness.org
+** public/etiquette_information_processing_optimization.org
+** public/communication.org
+** public/sharing.org
+** public/cognitive_overlap.org
+** public/empathy.org
+** public/attention.org
+** public/trainable_perceptual_skills.org
+** public/meditation.org
+** public/optimism.org
+** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]] (not a whole file)
+** public/perception.org
+** public/emotional_ambition.org
+** public/heaven.org
+** personal/projection_imagination.org
+** public/imagination.org
+** public/safety_v_surprise.org
+** public/creativity.org
+** public/moderation.org
+** public/discipline.org

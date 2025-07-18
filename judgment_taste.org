@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       255a4912-7dbf-47f4-bff3-3917432616ef
+:ROAM_ALIASES: style judgment taste wisdom
+:END:
+#+title: judgment | wisdom | taste
+* [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
+* [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]]
+* [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]]
+* [[id:1714269c-56fc-4c72-9faa-eebf49c6a07f][musical responsibility]]
+* [[id:ff5f634a-f8fa-482c-95a7-6be10e55e58d][comic responsibility]]
+* not clearly operationalizable
+** [[id:9627caa5-b77e-40b5-a260-70d83c1b6926][A spirit has to get into the whispers.]]
+** [[id:b8e13c7a-a5ad-4049-adc0-5325eb0f5116][Feel the multiverse.]]

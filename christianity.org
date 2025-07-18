@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       2114e604-f248-4b2d-a17e-5e97821302ae
+:END:
+#+title: Christianity
+* TODO Try starting from one of the gospels.
+* major themes
+** sacrifice
+** family
+** ethics
+** reward
+** ? art
+** [[id:a04116d1-bd1a-4370-b036-1cbab3492281][submission to a higher power]]
+*** [[id:18aa053b-e4d9-44fd-952e-d105383c4b8f][Isaiah 64:8 ESV, "we are your clay"]]

@@ -1,0 +1,119 @@
+:PROPERTIES:
+:ID:       52e2587c-3485-45cb-9456-d2c9746b2c4d
+:END:
+#+title: dependency inversion
+* ref
+** Marco Perone's blog post about it.
+   https://marcosh.github.io/post/2025/07/09/decoupling-from-dependencies.html
+** Marco's GitHub
+   https://github.com/marcosh
+* It's possible when
+** your code calls a library.
+* minimal code example, with one function
+** a foreign library
+#+BEGIN_SRC haskell
+module Foreign where
+
+data Foo = Foo {..}
+
+bar :: Foo -> WhatBarReturns
+  -- TODO: What about IO?
+  --       What if the return value needs decoding?
+bar = ...
+#+END_SRC
+** our domain
+#+BEGIN_SRC haskell
+module Domain where
+
+data OurOwnFoo = OurOwnFoo {..}
+
+data OurOwnBar = OurOwnBar
+  {ourOwnBar :: OurOwnFoo -> WhatBarReturns}
+#+END_SRC
+** (one of) our implemntation(s)
+#+BEGIN_SRC haskell
+module Implementation where
+
+import Domain
+
+encode :: OurOwnFoo -> Foo
+decode :: Foo -> OurOwnFoo -- Might not need this. Note that decoding is often an operation that can fail.
+
+ourOwnBarImplementation :: OurOwnBar
+ourOwnBarImplementation = OurOwnBar $ bar . encodeFoo
+#+END_SRC
+*** There could be more implementations
+    if, for example, different foreign libraries were available for the same role.
+** an "application" that imports both
+#+BEGIN_SRC haskell
+module Application where
+
+import Domain
+import Implementation -- which in turn imports Foreign
+
+applicationBar :: OurOwnFoo -> WhatBarReturns
+applicationBar = ourOwnBar ourOwnBarImplementation
+#+END_SRC
+* minimal code example, with two functions
+** a foreign library
+#+BEGIN_SRC haskell
+module Foreign where
+
+data Foo = Foo {..}
+
+bar :: Foo -> WhatBarReturns
+  -- TODO: What about IO?
+  --       What if the return value needs decoding?
+bar = ...
+
+baz :: Foo -> WhatBazReturns
+baz = ...
+#+END_SRC
+** our domain
+#+BEGIN_SRC haskell
+module Domain where
+
+data OurOwnFoo = OurOwnFoo {..}
+
+data OurOwnFooLib = OurOwnFooLib
+  {ourOwnBar :: OurOwnFoo -> WhatBarReturns,
+   ourOwnBaz :: OurOwnFoo -> WhatBazReturns}
+#+END_SRC
+** (one of) our implemntation(s)
+#+BEGIN_SRC haskell
+module Implementation where
+
+import Domain
+
+encode :: OurOwnFoo -> Foo
+decode :: Foo -> OurOwnFoo -- Might not need this. Note that decoding is often an operation that can fail.
+
+outOwnFooLibImplementation :: OurOwnFooLib
+outOwnFooLibImplementation = OurOwnFooLib {
+  owrOwnBar = bar . encodeFoo,
+  owrOwnBaz = baz . encodeFoo }
+#+END_SRC
+** an "application" that imports both
+#+BEGIN_SRC haskell
+module Application where
+
+import Domain
+import Implementation -- which in turn imports Foreign
+
+applicationBar :: OurOwnFoo -> WhatBarReturns
+applicationBar = ourOwnBar outOwnFooLibImplementation
+
+applicationBaz :: OurOwnFoo -> WhatBazReturns
+applicationBaz = ourOwnBaz outOwnFooLibImplementation
+#+END_SRC
+* in words
+** Represent your own data how you like, not how the library does.
+** DON'T write direct functions from your data calling library code
+   i.e. from your kind of data to the effects the library has
+** Instead write
+*** your own data representation
+*** how to encode your own into the library's representation
+* motivations
+** represent your data your way
+** ? facilitates extending/changing functionality
+** facilitates making mocks for unit tests

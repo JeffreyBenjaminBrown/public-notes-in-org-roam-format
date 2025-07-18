@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       27e8eac8-c5aa-464b-b34e-44589338931b
+:END:
+#+title: bias
+* [[id:c965b462-f44e-4389-bcd3-98ea04d4b6aa][Art can resist preconception.]]
+* instances
+** [[id:7a0295d0-a82c-4d1f-8ee3-dad17b554e9f][cynicism]]
+** [[id:ee0e7d70-20c9-4af2-8e01-c8e03255c8d8][self-abnegation]]
+** [[id:8d5c9418-f228-4595-b423-05acd9921b10][optimism]]
+** design, artistic [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][style]]
+*** [[id:461ac824-69d6-4b73-bbe8-ee3e41bdc915][extremes, corner solutions !! balances, chaotic equilibria]]
+*** [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]ness
+*** [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]]tic effect
+** [[id:aa879d13-804f-4de3-b9fc-a3e7c774969e][evil]]
+** [[id:31893ab1-1167-4d60-ac5a-4e55eb2d7968][interiority]]
+** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][toward action]]
+** [[id:49e77457-b0c2-4ffd-b70b-6c6203ad0a6e][bias toward wholeness]]

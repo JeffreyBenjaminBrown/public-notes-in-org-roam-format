@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d4040ce4-85fd-4c3e-a059-3cef7162cd3f
+:END:
+#+title: collectivism
+* [[id:c3d3f28c-5892-4deb-86dd-e8f490a24b1d][collective understanding]]
+* [[id:c17c3c90-4467-4b16-bd5c-0f35e7af1e0f][collective action and spillover when fighting inflation]]
+* [[id:4e748426-9ff0-4e7b-8192-b582a2ae7f95][community]]
+* [[id:9e634618-e4d6-4842-94ac-98c377fb8c40][Some play is collective and some is individualist.]]

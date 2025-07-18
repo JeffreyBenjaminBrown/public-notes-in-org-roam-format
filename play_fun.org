@@ -1,0 +1,50 @@
+:PROPERTIES:
+:ID:       dae618bd-8f97-44ef-b22b-f72adef57bc8
+:ROAM_ALIASES: play fun improvisation
+:END:
+#+title: play | fun | improvisation
+* definitional
+** It is intrinsically motivated.
+* some aspects
+** [[id:06e57867-5a5f-462b-b963-56ffa719c9b8][novelty]]
+** [[id:3f4d6eb9-0de1-46a1-ba51-9673a2790821][challenge]]
+** [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]], [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][learning]]
+** Some has {more, explicit} structure.
+** Some is clearly a state apart.
+** Some is collective and some is individualist.
+   :PROPERTIES:
+   :ID:       9e634618-e4d6-4842-94ac-98c377fb8c40
+   :END:
+* some kinds
+** mimicry
+   :PROPERTIES:
+   :ID:       69742fd4-42e3-455a-9676-b22df32f814e
+   :END:
+*** to learn to be like {a parent}
+*** as a joke
+** pretense
+** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][thrill]]-seeking
+** body play
+*** literal: experiments with one's own body
+    "an infant explores the ways in which his or her body works and interacts with the world" -- wikipedia on play <2025-07-09 Wed>
+*** generalized: experiment to see what a system is capable of
+** playing with the game's definition
+* some tensions
+** serious play
+   :PROPERTIES:
+   :ID:       411ba191-4092-431f-a8b0-eabd8b6814cf
+   :END:
+*** [[id:dd74aa97-289b-4fad-9540-6a7445e1484c][flow, the mental state]]
+** time to play
+   :PROPERTIES:
+   :ID:       79f13632-7772-47ff-a39d-ef8dd9816d6c
+   :END:
+** [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]
+** [[id:2e76a07c-c6b4-4d05-968e-0bdd20ee4230][freedom v. commitment]]
+* Get over [[id:b885a77c-d3f5-41af-80ae-8baaf6ae0743][feeling like I forgot my homework]].
+* [[id:e024e38a-6f93-4717-aa53-cfea0501b7d9][the courage to venture where ignorant]]
+* Mammals and birds do it "most noticeably".
+  -- wikipedia on play <2025-07-08 Tue>
+* "Play is explicitly recognized in Article 31 of the Convention on the Rights of the Child" by the UN
+  wikipedia on play, <2025-07-09 Wed>
+* Synthesize [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety and surprise]].
