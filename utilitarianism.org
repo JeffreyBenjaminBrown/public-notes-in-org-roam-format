@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       2e7ad54f-9838-43b5-acf9-d6f99d53d61f
+:END:
+#+title: utilitarianism
+* the axiom
+  Anyone's happiness is good, and their unhappiness bad --
+  i.e. to be striven for and against respectively.
+* There are, of course, tradeoffs.
+  Some unhappiness can result from a good thing.
+* Summing utility across people is hard.
+** and yet
+   it is possible to identify kinds of selfishness that roughly everyone agrees are evil

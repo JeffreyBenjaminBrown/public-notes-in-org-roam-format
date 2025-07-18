@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2549e02a-fb43-484c-9d92-27b094a5e67c
+:END:
+#+title: beliefs
+* beliefs that matter
+  :PROPERTIES:
+  :ID:       7ab90926-6a0b-48e8-9e2c-7e9c9682d9a4
+  :END:
+** I am safe.
+** I have enough.
+** I love others.
+** I need others.
+* axiomatic moral certainties
+** [[id:2e7ad54f-9838-43b5-acf9-d6f99d53d61f][utilitarianism]]

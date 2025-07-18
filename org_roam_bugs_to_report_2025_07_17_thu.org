@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       d38e25a4-cd59-4131-b6cb-bed9d52d3420
+:END:
+#+title: org-roam bugs to report <2025-07-17 Thu>
+* missing backlink
+  Sometimes a link does not show up in the backlinks,
+  even though I can follow it in the forward direction,
+  and even after syncing the db (`org-roam-db-sync`).
+* aliases in internal nodes triggers "wrong side of point", can't save
+  I put this on the Discourse but maybe it belongs on GitHub.
+  https://org-roam.discourse.group/t/adding-aliases-to-internal-nodes-causes-wrong-side-of-point-error/3827

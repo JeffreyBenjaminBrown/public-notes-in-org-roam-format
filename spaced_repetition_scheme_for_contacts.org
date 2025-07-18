@@ -1,0 +1,79 @@
+:PROPERTIES:
+:ID:       b714a097-50de-4c2a-99cd-79ccc50035c6
+:END:
+#+title: an idea : spaced repetition for contacts
+* see also
+** [[id:a5b74e88-c524-4f89-b29d-1bc324a77369][spaced repetition]]
+** [[id:a009221e-1063-4172-9fc7-b191d625dabe][my data for this]] (personal)
+* TODO understand
+** At least 3 aspects are relevant to optimal frequency.
+*** when last contacted
+*** their EX to me
+*** my EX to them
+*** ? how much time they have
+    this seems subsumable into "my EX to them"
+** I can bounce people around the lists while reading them, even if nothing has happened between me and them.
+   This relaxes some of the responsibility that might otherwise fall on
+   assigning an appropriate score|category after meeting someone.
+* data structures
+  alternatives
+** some categories
+*** followed through on a commitment
+*** committed
+    to something, e.g. lunch
+*** responded positively
+*** invited, no response
+*** AWAITS invited twice, no response
+*** DONE responded negatively
+** no categories, just numbers
+*** use the spaced rep pattern
+*** bounce people up or down just based on whether I want to see them more or less
+* algorithm
+** guidelines, abstract
+*** I can see who likes me.
+    Be aware of it, and choose who to see based on it.
+*** Frequency of contact should be inversely proportional to my EX to them.
+**** Therefore keep them ordered.
+*** Include everyone for whom my EX of meeting them is high.
+*** Record dates of contact, short summaries.
+**** or perhaps this should go in the file on the person
+     to not make the spaced rep hugely cluttered
+*** Extend set of categories in either direction.
+*** Different people get different kinds of invitations.
+    Just say hi to people lowest on the list
+      -- an oblique invitation to talk.
+    Invite people highest on the list to travel.
+** mechanics
+*** Sort by joint* expected value of next encounter.
+    :PROPERTIES:
+    :ID:       54501aeb-3f7f-46e3-86ad-8af6b44691ef
+    :END:
+    (*) joint = summing across parties
+*** Randomize any list before reading from the top.
+*** Keep it loose, fun.
+    Move and select names however I want;
+    there need be no articulable algorithm.
+*** Could do the spaced rep pattern.
+    1 2 1 3 1 2 1 4
+    1 2 1 3 1 2 1 5
+    1 2 1 3 1 2 1 4
+    1 2 1 3 1 2 1 6 ...
+* problems
+** More categories matter.
+*** examples
+**** by activity
+***** lovers
+***** good talkers
+***** fun people
+**** who pairs well with who
+**** out of my league | out of their league
+**** how well I know them, and vice-versa
+*** what to do about it
+    To clutter a spaced rep scheme with that much info
+    seems unhelpful. Simple numeric categories,
+    like I use for internalizing information,
+    seem like they would handle all those cases fine,
+    in a unified structure.
+** Can a single ranking on people suffice?
+   I actually think so -- at least for the fixed question
+   "Who do I want to spend more time with?"

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       7cc0b99e-d0a0-4a3f-bcd0-f529a67855e8
+:END:
+#+title: outreach
+* see also
+** [[id:a009221e-1063-4172-9fc7-b191d625dabe][spaced repetition for contacts : practicing]]
+** [[id:db1d9d10-2cba-438c-a13e-60923111ee48][outbox]]
+* its nature
+** [[id:6e0b2662-85e7-447f-b5d8-6e533b2d3189][Outreach to [men] is just as hard. Everyone's busy.]]
+* mechanics
+** [[id:7e6112c1-bf30-42b8-9402-a5213144db66][Get contact info from everyone!]]
+*** [[id:f2fde5ec-df2c-4273-8850-0927e353f87e][It's okay to use a little time/processing to plan your speech at the end asking for everyone's number.]]
+** opening lines
+*** smile
+*** "Hi, I'm (name)."
+*** "Hi. I don't know anyone here. Do you want to talk (for a while)?"
+*** "I think you're really {brilliant, attractive, ...}. Would you like to talk?"

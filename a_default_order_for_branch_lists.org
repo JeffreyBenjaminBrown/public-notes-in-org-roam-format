@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       cf2e9be0-dd55-4f08-84fd-7d456faee1a1
+:ROAM_ALIASES: "hypothesis: default order for branch lists"
+:END:
+#+title: default order for branch lists: a hypothesis
+* a tentative order
+** is
+   Definitional.
+   But some things can only be (easily?) defined through examples.
+** is not
+   also somewhat definitional
+** is near
+** observations | manifestations
+   e.g. in society
+** qualities
+   Should these go under "is"?
+** sources
+** effects
+** mechanisms
+*** methods
+** fantasy | art
+** maybe
+*** theory
+*** ...
+** private to [person]
+   always a hyperlink,
+   usually without content
+   (but linking to something with content).
+* pitfalls
+** Must know as a reader that maybe includes theory without needing to show its other contents.

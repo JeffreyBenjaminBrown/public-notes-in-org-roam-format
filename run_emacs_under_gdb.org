@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       b2f2afd9-4d20-454f-9c61-8974ef675c24
+:ROAM_ALIASES: "GDB, how to run Emacs under" "Emacs & GDB" "GDB & Emacs" "emacs & gdb" "gdb & emacs"
+:END:
+#+title: run Emacs under GDB
+* TODO problem | ask
+** When it crashed, I could not type anything into GDB. I had to run `pkill -f emacs`, whereupon GDB itself quit, so I could not ask for debugging information.
+* how to do it
+  In a shell, type
+    gdb emacs
+  Then in gdb, type
+    run
+* how to get debugging info once Emacs crashes
+  Execute this in GDB (which will still be running):
+    thread apply all bt

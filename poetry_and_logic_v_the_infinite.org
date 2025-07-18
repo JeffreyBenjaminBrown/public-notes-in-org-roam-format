@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       7ae561f9-6dfb-4ebb-b95d-af26876a854a
+:END:
+#+title: poetry and logic v. the infinite
+* a quote from GK Chesterton
+  "Poetry is sane because it floats easily in an infinite sea; reason seeks to cross the infinite sea, and so make it finite. The result is mental exhaustion, like the physical exhaustion of Mr. Holbein. To accept everything is an exercise, to understand everything a strain. The poet only desires exaltation and expansion, a world to stretch himself in. The poet only asks to get his head into the heavens. It is the logician who seeks to get the heavens into his head. And it is his head that splits."

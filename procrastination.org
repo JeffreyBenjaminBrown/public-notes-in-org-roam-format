@@ -1,0 +1,71 @@
+:PROPERTIES:
+:ID:       9e963f80-8904-496b-b04d-47b8f25ca827
+:END:
+#+title: procrastination
+* sources for these notes
+** reading Wikipedia on it, <2025-07-14 Mon>
+** myself
+* a definition
+  "counterproductive, needless, and delaying"
+* mechanisms
+** sources fot it, potential
+*** fear of reducing one's self-worth
+**** Wikipedia says procrastination is associated with
+***** depression
+***** low self-esteem
+***** guilt
+***** feelings of inadequacy
+*** perfectionism
+**** which is ironic
+     :PROPERTIES:
+     :ID:       3d8a51e1-3b02-4511-9e65-281d03919b7d
+     :END:
+**** procrastination <- (perfectionism ~ failure)
+     :PROPERTIES:
+     :ID:       7e7aaa55-ba8c-4a23-a75a-2f0ded32292f
+     :END:
+     "Perfectionism is a common cause for procrastination because pursuing unattainable goals (perfection) usually results in failure."
+** Anxiety could have its or its opposite effect.
+*** "Anxiety is just as likely to induce people to start working early as late."
+    Wikipedia on it <2025-07-14 Mon>
+** It puts short-term emotion over accomplishment.
+*** But ironically, it doesn't feel good.
+    :PROPERTIES:
+    :ID:       1530447d-6fa3-4749-aa08-edf6f1c4f75c
+    :END:
+*** support
+    "Negative coping responses of procrastination tend to be avoidant or emotional rather than task-oriented or focused on problem-solving."
+** It reduces stress and cognitive dissonance.
+** "Coping responses of procrastinators include":
+*** avoidance, distraction
+*** denial
+*** irrelevant favorable comparisons
+    "Compared to _ I'm doing fine."
+*** valorization
+    "Look what I got done (while I should have been _)!"
+*** blame
+*** humor
+** [[id:93d35586-c1ee-42b0-9bdd-2070b7cdbb3b][hedonism ~ fatalism]]
+* It is ironic.
+  :PROPERTIES:
+  :ID:       25cf2802-ff12-4556-95ea-c3c215d8e043
+  :END:
+  in at least two ways
+** [[id:1530447d-6fa3-4749-aa08-edf6f1c4f75c::But ironically, it doesn't feel good.][It's ironic that procrastination doesn't feel good.]]
+** [[id:3d8a51e1-3b02-4511-9e65-281d03919b7d][It's ironic that perfectionism can lead to procrastination.]]
+* solutions
+** CBT helps.
+   "Cognitive behavioural therapy identifies thoughts surrounding activities, labels some of them as dysfunctional, corrects them, and then seeks to associate the corrected thoughts with actions."
+** "Awareness of habits and thoughts that lead to procrastinating."
+** cherish small successes
+** [[id:f42d66cf-99e2-4538-8979-8814eb875871][A good work-life balance, ironically, improves productivity.]]
+* Appropriate waiting can look similar.
+** for other issues to calm down
+*** Denial would be to do this when in fact they won't calm down.
+    :PROPERTIES:
+    :ID:       e9fd0cf4-ce16-48a0-92f0-02c6a9095bce
+    :END:
+** for the right opportunity
+** for more information
+* Pigeons procrastinate.
+  "There are experiments finding clear evidence for "procrastination" among pigeons, which show that pigeons tend to choose a complex but delayed task rather than an easy but hurry-up one."
