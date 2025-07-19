@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       dae618bd-8f97-44ef-b22b-f72adef57bc8
-:END:
-#+title: play
-* [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]

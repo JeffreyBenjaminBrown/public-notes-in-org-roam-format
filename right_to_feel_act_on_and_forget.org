@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       b5c9ebb3-57c2-4516-8db2-53ddae6dc140
 :END:
-#+title: right to feel, act on, and forget
+#+title: right to feel, act on, and then {relax your grip on, forget}
 * elaboration \ definition
 Some things clearly are.
 

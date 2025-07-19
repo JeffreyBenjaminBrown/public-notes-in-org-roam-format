@@ -2,5 +2,6 @@
 :ID:       b5d402b8-0f44-4c9d-a307-445f2fe1a0af
 :END:
 #+title: learn what people will accept, and see past it
+* TODO What did I mean by this?
 * This is about knowing, not doing.
 * I think I do a lot of this.

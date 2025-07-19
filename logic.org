@@ -3,23 +3,34 @@
 :ROAM_ALIASES: rationality
 :END:
 #+title: logic
+* star-system and interstar-system
 * =? finding truth + motivation
-* [[id:594df21f-51c9-485c-85a1-cf943f325219][irrationality]]
-* [[id:195f4d81-c0ff-4e61-9218-8a1a633db798][emotional logic]]
-* [[id:299fd87e-de56-4671-b51f-e3554ba7dd95][formal logic]]
-* [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][optimization]]
-* truth
+* [[id:9fc09f11-ef5b-475d-a885-f0fd0b667178][ways to know]]
+* truth & the flavor of truth
   :PROPERTIES:
   :ID:       bc43658e-65f6-4038-99bc-3278efa7cac2
   :END:
+** [[id:e66faca5-8154-4852-9fe1-22c7815fdb6f][biodiversity]]
 ** [[id:7b24e00d-6acb-4723-9267-6a9935dddacd][Truth is an assumed property of one universe.]]
-* the limits of logic | information | expression
+** [[id:461ac824-69d6-4b73-bbe8-ee3e41bdc915][extremes, corner solutions !! balances, chaotic equilibria]]
+** Opposites are near.
+   that is, conceptually near to each other
+** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
+** [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]-ness
+** [[id:e8594ff4-8ca0-44ea-a349-f16163c376a7][irony]]
+* [[id:195f4d81-c0ff-4e61-9218-8a1a633db798][emotional logic]]
+* [[id:a1487b9c-70d9-493a-b61e-e512def4a0d5][freedom | independence]]
+* [[id:594df21f-51c9-485c-85a1-cf943f325219][consistency | irrationality]]
+** [[id:2fe71561-4999-4224-aafb-5a5cc65e4ed0][Consistency feels good.]]
+* [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][optimization]]
+* the limits of logic | information | expression | calculation
 :PROPERTIES:
 :ID:       c893937e-bca4-4a77-aa6c-ad481bf1d042
 :ROAM_ALIASES: "limits of logic | information | expression"
 :END:
 ** see also
 *** the [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]
+*** [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
 ** [[id:dd04d72b-8f97-4fc7-92d8-1858c5323428][presence v. rationality]]
 ** [[id:e5146f0b-4cf4-4684-aeb3-cd218fa5ac86][tacit social knowledge]]
 ** [[id:c7473ba8-d513-43f1-a25a-9dc05a1e0e44][things maybe only expressible through art]]
@@ -27,11 +38,15 @@
 *** [[id:37f7be50-9b2c-4426-b288-e83225b6d5d8][expressivity voids]] | the limits of expression
 *** [[id:8142349d-b141-4083-8f60-4e75b5c807fc][incompleteness theorems]]
 * [[id:7b24e00d-6acb-4723-9267-6a9935dddacd][Truth is an assumed property of one universe.]]
-* consistency
-** Strategy assumes consistency.
-** It feels good to be consistent with, rely on, one's past decisions.
-   :PROPERTIES:
-   :ID:       2fe71561-4999-4224-aafb-5a5cc65e4ed0
-   :END:
 * technical
+  so far technical and meh
 ** [[id:c563e6be-631d-4f23-923d-050498334e2a][mathematics]]
+** [[id:299fd87e-de56-4671-b51f-e3554ba7dd95][formal logic]]
+* [[id:d1fba1a6-848f-4ab7-8626-c192dc259c42][sanctity | purity | innocence]]
+* [[id:1b4a962e-2549-4d7f-bf5c-a5d03767ac42][skepticism]]
+* [[id:fb83f180-cb75-4180-ab9c-eb555f8ecc1b][relationships worth recording]]
+* Does each person always do what seems best?
+  :PROPERTIES:
+  :ID:       0397c4d0-955f-4f50-a35b-f2a6a94b3d88
+  :END:
+  to them at the time

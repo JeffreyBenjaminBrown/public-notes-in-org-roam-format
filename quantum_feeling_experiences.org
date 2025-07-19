@@ -3,7 +3,7 @@
 :END:
 #+title: quantum feeling experiences
 * [[id:30367e75-1d0e-4698-bba6-3dbeaee17a0a][& private]]
-** [[id:61e06b71-319e-4011-a9ef-1c1025b67f49][Hilbert-scoliosis]]
+* [[id:61e06b71-319e-4011-a9ef-1c1025b67f49][Hilbert-scoliosis]]
 * [[id:3ca9c565-64f9-4bc4-8186-516c5a9b7875][A shared "Are you there?"]]
 * [[id:90e8a304-8144-4cae-8f2a-cbe04e7f5e17][Complimenting seems hard.]]
 * [[id:53dda740-648e-46bb-b6fc-13a0b5aac100][Like that scene in court in A Few Good Men, "The truth is not enough!"]]

@@ -16,6 +16,7 @@
   :PROPERTIES:
   :ID:       8bfda5c9-c1d5-433d-ade1-7e2dad8a895d
   :END:
+** [[id:cb2a0e54-f486-494d-a961-0c461134378c][Taking something for granted makes creativity hard.]]
 * [[id:7aa2d6f7-c262-4f85-926b-7cbbeec02f38][acquisitiveness]]
 * [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness + self-consciousness]]
 * [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][self-confidence]]

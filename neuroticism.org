@@ -3,4 +3,6 @@
 :END:
 #+title: neuroticism
 * =? unhealthy [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
+* [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
 * [[id:2f2948f4-86eb-4122-a258-18691fd01861][I let monogamy -- entirely in my head -- prevent me from getting peoples' numbers.]]
+* [[id:7e7aaa55-ba8c-4a23-a75a-2f0ded32292f][procrastination <- (perfectionism ~ failure)]]

@@ -1,8 +1,8 @@
 :PROPERTIES:
 :ID:       c0d17892-182e-45f8-b86d-a5a5b3bba61e
-:ROAM_ALIASES: "fast night fantasy" "living like there's no tomorrow" "There is only now."
+:ROAM_ALIASES: "fast night fantasy" "living like there's no tomorrow" "There is only now." presence impermanence
 :END:
-#+title: presence
+#+title: presence | impermanence
 * It is at least a culture.
   One evident in all kinds of music and movies.
 * Is there an algorithm?
@@ -11,6 +11,12 @@
   :ID:       8df78d26-cbc1-4f00-abfc-d552a1cb9192
   :END:
 ** see also [[id:6fa4cc1e-d4a8-4127-bf28-9e43aab75df8][dissociation]]
+** [[id:68459e09-6698-4e47-a961-067d1828513b][As a stress management technique, belief in heaven is sad, even terrifying.]]
+** Vanish into being a silent ironic background.
+   :PROPERTIES:
+   :ID:       98bdb71b-4362-40cf-b793-679cda4020fa
+   :END:
+** [[id:fe258286-aa99-4a38-8ddf-512a965e56c2][At any second able to think your way out.]]
 * opposites
 ** [[id:e5ee5341-7ca0-4aaf-9a76-e8d5c5e352ec][proving yourself v. enjoying others]]
 * [[id:00afd42e-f682-4447-b034-2f863cb4ac69][presence & personal]]
@@ -66,3 +72,10 @@
   :ID:       17762c0f-5024-43de-af31-1626cf9a9b28
   :END:
 ** to risk running down your savings when the strategy makes sense
+* [[id:218a6d41-d17e-4036-b145-60c7541ec312][So much depends on interpretation.]]
+* "You only live once," has a strange logic.
+  :PROPERTIES:
+  :ID:       e0046043-26d0-4978-89c2-0a0643bb1249
+  :END:
+** It can be good, encouraging honor, courage.
+** It can also lead to recklessness.

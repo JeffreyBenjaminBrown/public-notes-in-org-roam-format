@@ -3,3 +3,4 @@
 :END:
 #+title: Mindfulness and being single seem hard to square.
 * [[id:445aa1d0-cb65-4619-b38e-5e09a58d352c][Thinking about love makes me feel like I'm missing something.]]
+* [[id:77bf63a4-6e87-41c0-8d97-327285715d49][love & peace -> monogamy]]

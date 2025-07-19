@@ -20,6 +20,7 @@
   :END:
 ** Music is better for flow than podcasts.
    Music lets you move between intellectually demanding tasks and easy ones without interrupting the stream.
+** [[id:8111ad4a-2b92-4899-beca-3a66b6cb3ce9][Being present with someone is special.]]
 * anti-neighbors
 ** [[id:594df21f-51c9-485c-85a1-cf943f325219][irrationality , inconsistency]]
 ** [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaninglessness | pointlessness]]
@@ -48,3 +49,7 @@
 ** [[id:e9684dbd-465b-4dc6-af7a-7fc30eecfdf0][optimism + solution = transcendence]]
 * [[id:5ca1fc76-8dd7-4305-ac97-c4dfe9fb3610][competition]]
 * [[id:0c52e523-c39b-412a-87fe-1f7bf796220a][Hate might serve a useful prioritization function.]]
+* [[id:148bc3d3-2903-47a1-849d-869b31e9e922][Do I oversave and underspend?]]
+* [[id:543d4a74-b24c-41d3-b93d-79d9c86eadf3][investment payoffs ::: continuous v. lumpy, delayed]]
+* [[id:9e963f80-8904-496b-b04d-47b8f25ca827][procrastination]]
+* [[id:17762c0f-5024-43de-af31-1626cf9a9b28][It is right to spend non-uniformly over time.]]

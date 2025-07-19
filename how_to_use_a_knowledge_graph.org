@@ -58,6 +58,9 @@
 **** Dare to imagine others want your insights.
 **** Dare to imagine you need others' insights.
 **** Download, read and link to other peoples' notes.
+** less (than hypotheses)
+*** Sermons repeat. Branch lists could repeat, or more generally include musical instructions.
+**** Scalars like "mass" or "value".
 * aspirations
 ** Discover the ant algorithm.
 * u
@@ -76,8 +79,11 @@
 ** My "technical" label seems ambiguous.
    It could be about mechanisms with or without associated goals.
    Maybe I should split it into "mech" and "use".
-* Sermons repeat. Branch lists could repeat, or more generally include musical instructions.
-** Scalars like "mass" or "value".
+** An "about the order of these branches" branch, first among them.
+*** possibilities include "serial", "alternatives", ..
+    alternatives perhaps unordered, or ordered by likelihood, ..
+*** Generalization: A branch about a tree's structure.
+    But I'm not sure I would use that freedom.
 * TODO merge
 ** [[id:ce9e0a8d-19fa-48eb-9d0e-6cedcb0fdc99][notes, how to take]]
 ** [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult your notes : why and how]]
@@ -90,11 +96,9 @@
 *** automatically add a "new & unmerged" bucket at the {bottom for others, top for the author} of each list
 **** they should be orderable by age*
      (*) and maybe by other things
-* An "about the order of these branches" branch, first among them.
-** technical
-*** Generalization: A leading "about this tree's structure" branch.
-    But I'm not sure I would use that freedom.
 * A valid read technique is to read the whole file before deciding which links to follow.
+  Has the advantage (?) of making it possible to know what you read, which might make it easier to review more of your graph.
+  Has the disadvantage of slowing down how fast you move across files, by forcing a complete read of each before moving on.
 * a read-write equilibrium
 ** good arrangement requires knowing how you read, and vice-versa
    e.g. if you know you'll read from the top down and from root to leaves, then your choices of what is how high, what is nested, and what is behind a link are all important.
@@ -106,6 +110,8 @@
 ** not sure
    Should everything new graft onto a historical context,
    even if one is always in easy reach?
+* Maybe always read backlinks* before reading content.
+  (*) their titles, that is
 * [[id:61f58054-3032-4e45-bfda-dbc278c040d7][graph writing = priority choice]]
   When (on average) working on this topic I want
   these ideas visible in this order.

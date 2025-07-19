@@ -1,8 +1,16 @@
 :PROPERTIES:
 :ID:       cc387929-e03c-40fb-80b6-5f8f2dafa96d
-:ROAM_ALIASES: pointlessness meaninglessness
+:ROAM_ALIASES: meaning meaninglessness pointlessness
 :END:
-#+title: meaninglessness | pointlessness
+#+title: meaning
+* see also [[id:fe424d05-686c-4c3e-9609-b913cf329024][philosophy]]
 * Mmeaning depends on the observer.
 * [[id:dccc0ff5-4152-45b8-811d-7b237d38dbba][abstract art]]
 * [[id:512026a4-8cd8-4735-88cd-aa3601ab32bb][Pointlessness is funny.]]
+* So much depends on interpretation.
+  :PROPERTIES:
+  :ID:       218a6d41-d17e-4036-b145-60c7541ec312
+  :END:
+** and hence on facial expressions, and hence on presence
+   Meeting in preson matters, in part, because so much depends on facial cues, which you can't simulate in your imagination on a call.
+* [[id:4ab66dd2-71c7-4afe-a7ee-bd6b34b6fc8d][Art is a floor on freedom.]]

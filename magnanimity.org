@@ -2,13 +2,26 @@
 :ID:       f8ec8fd3-c9f2-4272-ab41-be9aa687d141
 :END:
 #+title: magnanimity
-* A strange, ancient idea, a mix of belligerence, pride and healthy qualities.
+* An ancient and, to me, strange bundle of qualities.
+* components
+** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
+** honesty and (emotional) transparency
+** courtesy, but belligerence when appropriate
+** having noble purpose, being principled
+** refusal to be petty
+** [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][generosity]]
+* should be [[id:34e03fd6-963b-451c-85c8-b8063518e597][tempered]]
+** [[id:35fde333-e3d2-47ba-acf9-95a572868d22][Too much of it is vanity, but too little is also bad.]]
 * Aristotle on it
+  according to Wikipedia
 ** "haughty towards men of position and fortune, but courteous towards those of moderate station"
 ** "open both in love and in hate"
 ** "not bear a grudge"
    Don't punch up for the sake of punching,
    do it only as it's warranted.
 ** Too much of it is vanity, but too little is also bad.
+   :PROPERTIES:
+   :ID:       35fde333-e3d2-47ba-acf9-95a572868d22
+   :END:
 * see also
 ** [[id:1ba589c3-00f6-45a8-b5f3-e6c697e89030][light belligerence \ comedy]]

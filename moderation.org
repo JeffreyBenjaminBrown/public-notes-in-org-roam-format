@@ -3,14 +3,21 @@
 :ROAM_ALIASES: moderation restraint temperance
 :END:
 #+title: moderation | restraint | temperance
+* to [[id:dae618bd-8f97-44ef-b22b-f72adef57bc8][play]] when appropriate
+  :PROPERTIES:
+  :ID:       77f2a3f7-0689-4ece-bf28-a7e708c6a84b
+  :END:
 * [[id:c091416d-a789-46d4-bb10-f64c2156a469][Moderation can feel like contradiction.]]
 * [[id:a2329b60-bbcf-4291-b636-9820ddaa02f7][Honor your word. Do not give it lightly.]]
 * [[id:1d8be58f-a579-4e4c-a145-8c349db58514][Resist peer pressure.]]
 * [[id:98f315c7-7404-40cd-ac56-2c9040a29421][Be gentle without saying why.]]
-* Recognize when it would be better not to [make a {joke,pass}].
-  :PROPERTIES:
-  :ID:       39167703-f685-4afb-9017-ca41caee0796
-  :END:
+* comedic restraint
+** Recognize when it would be better not to make a joke.
+   :PROPERTIES:
+   :ID:       7be4b170-3339-441e-853a-7d4e2176d821
+   :END:
+* intimate restraint
+** Recognize when it would be better not to [[id:d2c78541-6092-49c0-9cb2-e3cefdc24b71][flirt]].
 * [[id:feb8cb2a-b057-48dd-836b-99985d9e7338][subtlety]]
 * discretion
 * [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][work-life balance]]
@@ -18,3 +25,8 @@
 * [[id:cbef2e05-df7f-4b7c-a1dc-5cb2166975d8][sharing]]
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 * [[id:bb1e7ff9-7b57-4ab2-976c-a3ef4ad41ba1][flirting through dance at a rock concert]]
+* [[id:74163f93-bafb-4115-ae63-dbb2915650df][How fast to offer?]]
+* Restraint requires self-awareness.
+  :PROPERTIES:
+  :ID:       d7568934-fe2e-4606-b96d-be8d7f6b50c8
+  :END:

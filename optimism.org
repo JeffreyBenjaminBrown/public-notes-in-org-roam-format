@@ -2,7 +2,12 @@
 :ID:       8d5c9418-f228-4595-b423-05acd9921b10
 :END:
 #+title: optimism
-* see also [[id:682c092d-0e94-4095-b03f-dae9aa245619][utopia , perfect experience]]
+* see also
+** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
+** [[id:b745d109-6d7f-4638-beab-97bd26c8a936][awe | wonder]]
+** [[id:682c092d-0e94-4095-b03f-dae9aa245619][utopia , perfect experience]]
+* Can (should?) be informed by the [[id:bc43658e-65f6-4038-99bc-3278efa7cac2][flavor of truth]].
+** e.g. [[id:e66faca5-8154-4852-9fe1-22c7815fdb6f][biodiversity]]
 * [[id:22b23bc3-4ca0-4683-a794-521661c55c56][why did these thoughts not even occur to me]] , personal
 * [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 ** [[id:1896c1b6-11a5-4a10-a350-1713acbbd6c6][kindness in perception]]
@@ -16,3 +21,11 @@
 * [[id:693609dd-82ed-4749-9cde-ef03cdfc4562][walking office work exercise utopia]]
 * [[id:ec3a872c-5382-4d04-b9b4-717aa3bbc84e][Imagine a like-minded dance partner.]]
 * [[id:5566a377-6479-4f61-8b72-553c5c9697cd][Humility might make room for greater optimism.]]
+* Compartmentalize the bad. Think of the good in other contexts.
+  :PROPERTIES:
+  :ID:       39cf29f5-d7b2-415b-ace0-1b8f878df8df
+  :END:
+  "Optimistic people compartmentalize helplessness, whereas pessimistic people assume that failure in one area of life means failure in life as a whole. Optimistic people also allow good events to brighten every area of their lives rather than just the particular area in which the event occurred."
+  Wikipedia on learned optimism, <2025-07-09 Wed>:
+    https://en.wikipedia.org/wiki/Learned_optimism
+* [[id:24fbeda3-d801-4593-9c67-d1f30445fd97][abundance]]

@@ -2,6 +2,12 @@
 :ID:       e7a68f0b-f932-4978-9636-88a4ecbe639c
 :END:
 #+title: art
+* TODO Art is not always for pleasure.
+  :PROPERTIES:
+  :ID:       fe4939fe-8b94-4b78-914f-f2b83d7ff9f4
+  :END:
+  It can help someone understand.
+  It can help someone grieve.
 * [[id:5ad13966-5348-4957-9d50-14f394b276ac][some private art]]
 * [[id:c7473ba8-d513-43f1-a25a-9dc05a1e0e44][things maybe only expressible through art]]
 * some kinds

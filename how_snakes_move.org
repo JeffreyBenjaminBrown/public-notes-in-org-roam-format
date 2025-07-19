@@ -1,15 +1,16 @@
 :PROPERTIES:
 :ID:       da215312-ab85-4760-8799-63090c7f48ac
 :END:
-#+title: how snakes move
-* a source
-** https://m.youtube.com/watch?v=7-AKPFiIEEw&pp=0gcJCfwAo7VqN5tD
-* Rectilinear: depends on loose belly skin
-* Sidewinding
-** Good for when surface is hard to grip, sand, ice
-** Lateral displacement, but they turn the head to look in the direction of movement
-** Is like walking. They pick parta of themselves up, using three anchor point feet.
-* Concettina
-** Acordion
-* Serpentine -- push off something, looks magic
-** Consider a point where the snake bends, the tailward part extending off to the right, and the headward part also extending off to the right, at roughly 90° to each other. Headward of the bend, the snake can push off of the contact made at the bend, straightening itself to move farther in the headward direction.
+#+title: snakes
+* how snakes move
+** a source
+*** https://m.youtube.com/watch?v=7-AKPFiIEEw&pp=0gcJCfwAo7VqN5tD
+** Rectilinear: depends on loose belly skin
+** Sidewinding
+*** Good for when surface is hard to grip, sand, ice
+*** Lateral displacement, but they turn the head to look in the direction of movement
+*** Is like walking. They pick parta of themselves up, using three anchor point feet.
+** Concettina
+*** Acordion
+** Serpentine -- push off something, looks magic
+*** Consider a point where the snake bends, the tailward part extending off to the right, and the headward part also extending off to the right, at roughly 90° to each other. Headward of the bend, the snake can push off of the contact made at the bend, straightening itself to move farther in the headward direction.

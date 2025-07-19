@@ -1,8 +1,7 @@
 :PROPERTIES:
 :ID:       3a009c94-db3a-4707-933b-e6c9ba4d4fee
 :END:
-#+title: social skills \ jbb
-* TODO merge [[id:73e229ee-a416-41db-a23a-4d960b2e559f][systematic socializing]]
+#+title: social skills
 * understanding people
 ** [[id:786eebcb-c64d-4cf4-8448-76def28fd7e0][attribution]]
 ** [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness]]
@@ -10,15 +9,23 @@
 *** [[id:638f74e7-a56b-494b-9863-345b25b02da8][If I only want to be with someone with others, or vice-versa, recognize it.]]
 *** [[id:1a7a3ff7-e499-40fa-b81b-f06563bcb11e][flexibility]]
 ** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
-* feelings
+* feelings, problematic
+** [[id:6dcc3016-fb6b-4718-9098-f508fe0b1639][social anxieties]]
+** [[id:6ed44659-2537-4af6-8b9a-c618fe90714c][alienation]]
+** [[id:237c52c1-7bca-4b83-8b6b-b64ffe209438][awkwardness]]
+* feelings, more
 ** [[id:8adf528a-1c95-4e60-a620-6e8d365e0507][presence & courage]]
+** [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][confidence]]
+*** [[id:532d78ce-a09a-4d02-94c0-65354605bb9e][Rejection is succcess.]]
 ** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
 ** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
-** [[id:6dcc3016-fb6b-4718-9098-f508fe0b1639][social anxieties]]
+** [[id:bda3d113-8968-4cbf-aedb-775df4b5e713][transparency]]
+** [[id:b9f666f2-0035-42df-b674-86049697e9e0][caution]]
 * mysteries
 ** [[id:826b7dbe-1532-480c-92b4-182475947d20][Why am I sluggish to respond to warmth (smiles, etc)?]]
 ** [[id:490e46a1-4bb6-4376-a9b8-dd0edbbfd51e][social problems]], personal
 * mechanisms
+** [[id:dae618bd-8f97-44ef-b22b-f72adef57bc8][play]]
 ** [[id:cbef2e05-df7f-4b7c-a1dc-5cb2166975d8][sharing]]
 ** [[id:0e9ffac9-3b18-45fb-9a16-75d54cb43316][attractiveness]]
 ** [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
@@ -31,9 +38,5 @@
 * social skills and power
 ** [[id:07435086-1949-4209-b056-6f104db98730][What to do when someone at work doesn't respond to a request.]]
 ** horrible [[id:e4a8cea1-c2ed-4948-87c1-a8a545a78fa5][lessons from getting banned from Microtonal Guitarist]]
-* TODO file elsewhere : technical
-** In a bus, before sealing myself into my chair, know who is on it.
-   And during the ride think about them, perhaps to get their number.
-** [[id:7ac060da-9f65-4861-975b-d44d10623a46][On a schedule, calling is better than being called.]]
 * DONE abandonded
 ** [[id:30478629-506c-4acf-aec8-b74e977a2234][how to take notes on people and communication]]

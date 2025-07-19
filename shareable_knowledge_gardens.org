@@ -9,33 +9,46 @@
    https://github.com/JeffreyBenjaminBrown/skg
    and might be the best introduction to Skg.
 ** [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][connectivity demos]] for knowledge graphs
-* show how many [children] it has in a [neighboring branch]
-** the idea
-       * experiences
-       ** sacrifice
-       ** thinking about something completely different
-       ** being damaged by someone else's assumption
-       ** a completely left-field idea that pays off spectacularly
-       * encourage
-       ** humility
-       ** optimism
-          # here I would like to be able to show a 1 count, for the left-field child of "experiences"
-** [[id:dec78208-aed2-4c2d-b23a-d7af870b91a7][source]]
-* Share Skg to everyone who uses those tools.
-  TypeDB, Rust, Emacs
-* Am I afraid of it?
-* how I think one most naturally uses punctuation
-** () is optional, whereas [] and {} are mandatory but perhaps holding disjunctive options
-* glyph ?-> herald
-* u
-** "vote someone off the island", hide them from your view
-   It might be easier for the person hidden to learn from it
-   if they did not by default see who had hidden them,
-   but they did see how many people.
-* A user should be able to share which of another's data they have referred to (inc. subscription) even if they unwilling to share any data beyond that.
-* TODO THEORY : to get over the order problem in branch lists
-  maybe [theory, ..], is, is not, is near, _, methods, & [person]
-  know as a reader that maybe includes theory without needing to show its other contents
+* see also
+** [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to use a knowledge graph]]
+* Just show mindmapping working. Youtube.
+* wish, very practical
+** I wish when I move a branch but none of its subbranches, when I see the missing data in the diff, I can immediately see from the same context what new parent(s) it has.
+* refactoring ideas
+** ? try [[id:52e2587c-3485-45cb-9456-d2c9746b2c4d][dependency inversion]]
+* kinds of queries
+** show how many [children] it has in a [neighboring branch]
+*** the idea
+        * experiences
+        ** sacrifice
+        ** thinking about something completely different
+        ** being damaged by someone else's assumption
+        ** a completely left-field idea that pays off spectacularly
+        * encourage
+        ** humility
+        ** optimism
+           # here I would like to be able to show a 1 count, for the child of "experiences" that starts "a completely left-field ..."
+*** [[id:dec78208-aed2-4c2d-b23a-d7af870b91a7][source]]
+* heralds
+** When reading about N, I would like to see that L which links to N has tree-content.
+* user experience
+** the experience of being hidden
+*** mitigation ? anonymize hiders
+    For the person hidden to learn from it,
+    it might be easier, for ego-defensive reasons,
+    if they did not by default see who had hidden them,
+    but they did see how many people.
+    (They could still find out if they wanted.
+    Preventing them from being able to find out would be hard.)
+*** problem : could feel scary, humiliating
+    Like being voted off the island.
+** gradations of publication
+*** A user should be able to share which of another's data they have referred to (inc. subscription) even if they unwilling to share any data beyond that.
+* sharing skg
+** Share Skg to everyone who uses those tools.
+   TypeDB, Rust, Emacs
+* skg & my own psychology
+** Am I afraid of it?
 * undredactive titles of links
   like roam_aliases but only visible to the user
 * fun-looking screenshots of mindmapping
@@ -412,3 +425,5 @@ We waste so much information. So many have found the answer to what ails you, ma
 * [[id:b1c2091b-7441-4459-b49e-fac3fe1ed918][skg outreach]]
 * [[id:da0e89a7-0e9d-41da-8c2d-ec4ab2e37c2b][embarrassing]]
 * [[id:edb446e2-fdf0-4917-ae6c-e4afd912499e][Am I being realistic?]]
+* ONGOING
+** replace the word glyph with herald

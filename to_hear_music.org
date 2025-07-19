@@ -2,6 +2,9 @@
 :ID:       6ca4ed6b-7046-4e06-9329-f5fea0511cc2
 :END:
 #+title: to hear (music)
+* Composers with uncanny senses of pitch
+** Peter Edveurge
+** George Benjamin
 * TODO Epic Rap Battles of History
   e.g. Santa Claus vs. Moses
 * TODO Sister Christian (song)

@@ -1,5 +1,5 @@
 :PROPERTIES:
 :ID:       dd04d72b-8f97-4fc7-92d8-1858c5323428
 :END:
-#+title: presennce & rationality
+#+title: presence & rationality
 * [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other (across time) selves]]

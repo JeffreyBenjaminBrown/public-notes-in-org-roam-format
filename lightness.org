@@ -1,7 +1,12 @@
 :PROPERTIES:
 :ID:       bc330f51-3f45-47df-95c2-6fa24e4a8a9f
+:ROAM_ALIASES: lightness arbitrariness
 :END:
-#+title: lightness
+#+title: lightness | arbitrariness
+* definition (weak)
+** arbitrariness
+** ease of change
+** lack of guidance
 * things that have it
 ** [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaning]]
 *** maybe because it is symbolic

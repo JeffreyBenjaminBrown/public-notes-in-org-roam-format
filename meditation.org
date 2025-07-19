@@ -2,6 +2,7 @@
 :ID:       8582cec9-74e2-4664-a6d7-946c2ba240e0
 :END:
 #+title: meditation
+* [[id:0334782e-dd39-49e7-b296-ad1375ce404a][Calming the mind eases choice.]]
 * [[id:a8461f62-4a68-4a26-a9d4-a063baf1d3d5][Presence obliterates micro-optimizations.]]
 * [[id:9d1cc360-4fce-4cd4-9176-8f12670add90][attention]]
 * [[id:7ab03ad0-c357-446c-81a3-1a0c619e7ffe][trainable perceptual skills]]
@@ -9,6 +10,8 @@
 * [[id:39029f2f-0f39-49fd-b6ad-e8be09859729][Effort and observation are somewhat disjunctive.]]
 * [[id:fcc04ddf-843f-4953-b23c-b525a9d6d652][wholeness  fission  fusion  emptiness]]
 * [[id:20498902-7288-4d65-bc57-76f1d5d35138][Mindfulness, particularly awe, in romance sounds amazing.]]
+* [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][peace]]
+* [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep (biology, personal health)]]
 * dubious
 ** [[id:abb4ed18-7bcb-4865-93a1-2591ceb0c8ea][visions of enlightenment]]
 ** [[id:3fcb7f4f-4016-4991-8edc-5146cddfdace][Breath is a special focus, because it is semi-voluntary.]]
@@ -16,4 +19,3 @@
 * technical
 ** [[id:05a84243-9dcf-4492-b81e-a48fd2f53b3c][knowledge graphs and/or meditation]]
 ** [[id:8fe523d8-06f0-4bef-969d-3d106596d694][mandala for meditation, a text]]
-* [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep (biology, personal health)]]

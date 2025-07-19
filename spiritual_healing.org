@@ -2,8 +2,10 @@
 :ID:       720f5a80-ba0a-4f12-888f-7adb38e2009f
 :END:
 #+title: spiritual healing
+* see [[id:bf73fa6f-cd1a-4237-8bdb-7a98025cf226][wholeness]]
 * recent, unmerged
 ** I want to be vegetarian.
+** [[id:8142a014-8dba-4c24-bc51-8f8a2e24ce5e][humility => freedom]]
 ** [[id:890fc33b-1247-459a-980f-6b3163f9bc1d][To focus on feelings feels paychedelic.]]
 * instances
 ** [[id:b288df19-c02e-42fa-a4b6-4cd3c0162e52][self-respect]]

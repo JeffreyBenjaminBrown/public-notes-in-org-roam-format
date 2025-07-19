@@ -2,24 +2,49 @@
 :ID:       16a6b4bc-5bd8-4089-b2cb-9d25cd04c670
 :END:
 #+title: God
-* [[id:fe6020ff-3dfe-40ed-8724-e226eef4694a][fear of God : useful]]
-* [[id:183c76a6-24f3-4b5d-9ffb-8ddb7964993d][God as imaginary emotional support pet with real effects.]]
-* [[id:2ea1bfbb-d135-44bb-a8ab-36e59c33aed0][God as metaphor]]
-* [[id:b209b769-d2e1-4a76-a538-0e6d498e911d][imagination & religion]]
-* [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
-* [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck | blessedness]]
-* salvation
-  :PROPERTIES:
-  :ID:       b37e198b-0e15-4263-be53-cc29c827448e
-  :END:
-  is a balance of power
-** Seek salvation for all, but don't (try to) be the savior.
-   both for humility and because
-   we know what happens to saviors
-* [[id:8a2e7933-9234-4010-80bb-67ba5b98489b][some extreme karmic balances]]
+* see also [[id:cd9ea78e-bc53-426e-9011-70a5d8d1ccde][fate]]
+* definitions of God
+** an alien power
+** a|the best path
+** that* which knows|judges all
+   :PROPERTIES:
+   :ID:       4ca39b8b-fdb7-437e-a8fe-d28a928d8923
+   :END:
+   (*) assumes not just that such a thing exists,
+       but that only one does
+** a|the origin of information
+* God in the brain
+** [[id:2ea1bfbb-d135-44bb-a8ab-36e59c33aed0][God as metaphor]]
+** [[id:fe6020ff-3dfe-40ed-8724-e226eef4694a][fear of God : useful]]
+** [[id:99295d00-8cfa-4c7f-98af-ad1a41b4abc9][conscience]]
+*** [[id:0397c4d0-955f-4f50-a35b-f2a6a94b3d88][Does each person always do what seems best?]]
+** [[id:b209b769-d2e1-4a76-a538-0e6d498e911d][imagination & religion]]
+*** [[id:3151d7aa-df49-4f99-834c-6edfffc31131][fantasies about the nature of power]]
+* neighbors
+** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
+** [[id:2549e02a-fb43-484c-9d92-27b094a5e67c][belief]]
+** [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
+*** blessedness
+    :PROPERTIES:
+    :ID:       4689657c-c00a-4204-bb65-6afb8ed863c3
+    :END:
+** [[id:cd9ea78e-bc53-426e-9011-70a5d8d1ccde][fate]]
+* God & drama
+** salvation
+   :PROPERTIES:
+   :ID:       b37e198b-0e15-4263-be53-cc29c827448e
+   :END:
+   is a balance of power
+*** Seek salvation for all, but don't (try to) be the savior.
+    both for humility, and because
+    we know what happens to saviors.
+** [[id:8a2e7933-9234-4010-80bb-67ba5b98489b][some extreme karmic balances]]
+* God & uniqueness
+** consider the language of [[id:4ca39b8b-fdb7-437e-a8fe-d28a928d8923][that* which knows|judges all]]
 * fantasy
 ** lords of kinds
    :PROPERTIES:
    :ID:       29617650-2f29-402e-b198-9c423b32bd52
    :END:
 *** e.g. when the lord of winds is around, things get chaotic; when the lord of jokes, comedic ...
+** [[id:183c76a6-24f3-4b5d-9ffb-8ddb7964993d][God as imaginary emotional support pet with real effects.]]

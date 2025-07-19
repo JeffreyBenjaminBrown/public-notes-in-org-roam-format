@@ -7,14 +7,23 @@
   :PROPERTIES:
   :ID:       9fc09f11-ef5b-475d-a885-f0fd0b667178
   :END:
-** see also [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
+** [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
+** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
 ** I believe [[id:7524f42b-9db0-4531-a21d-57df5954a34e][knowledge graphs enhance self-awareness.]]
-* self-consciousness
-** That it feels bad is weird, because self-awareness is good.
+* [[id:6dcc3016-fb6b-4718-9098-f508fe0b1639][social anxieties]]
+* social | self-consciousness
+  :PROPERTIES:
+  :ID:       4edebed8-031e-4e3b-b73f-48becb4a3e70
+  :END:
+** Confront your self-consciousness.
    :PROPERTIES:
    :ID:       911e181e-7e6e-4cb2-9ee2-c7bf6071ad10
    :END:
+   If self-consciousness is functional,
+   it must be that we have something to gain when we feel it
+   by focusing on (looking for how to improve) the self.
 ** [[id:237c52c1-7bca-4b83-8b6b-b64ffe209438][awkwardness]]
+** [[id:638f74e7-a56b-494b-9863-345b25b02da8][If I only want to be with someone with others, or vice-versa, recognize it.]]
 * TODO [[id:b320a662-84df-473c-b05b-5a477caa764b][journaling : things to write about]]
 * Be accurate about how much power you have.
 * [[id:06b856e9-50fb-4025-9276-cd0b2b945fa8][Knowing how self and other feel can both be tricky.]]
@@ -22,8 +31,10 @@
 * [[id:71dc8ea7-cbd0-4fc5-8514-e0617b422569][Study your pains.]]
 * [[id:2e6e41ec-87fd-4f79-9162-0114e61497ac][Everything one does is intentional, but every effect one has cannot.]]
 * [[id:cc950648-3cf1-46f6-94dc-5703b818e6a3][Unawareness (esp. feigned) of self can be funny.]]
+* [[id:d7568934-fe2e-4606-b96d-be8d7f6b50c8][Restraint requires self-awareness.]]
+** [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
+* [[id:49583939-99f0-462a-8152-3aed9b0de39a][If you're embarrassed to share your beliefs, something is wrong.]]
 * personal
-** [[id:27533eec-38f1-4f4a-8ffb-5125d99c0f78][My smile feels anxious, even when it looks genuine to me.]]
+** [[id:6dcc3016-fb6b-4718-9098-f508fe0b1639][social anxieties]]
 ** [[id:d1f5961f-225c-4c6d-a4dc-2d0c93a8169d][My pain tolerance is dangerously high.]]
 ** [[id:6ffe216b-b02d-43f3-aadf-88b9eeadc15e][How do I keep getting talked into watching horror films?]]
-** [[id:dc356f64-de3a-4f70-b0cc-c5660d47ec9e][things I have wanted to but not expressed]]

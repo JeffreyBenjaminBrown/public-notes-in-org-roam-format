@@ -4,5 +4,14 @@
 :END:
 #+title:  gentleness
 * ? definition
-  Seems to be kindness-motivated restraint of power.
+  Seems to be [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][kindness]]-motivated [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]] of [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]].
 * [[id:98f315c7-7404-40cd-ac56-2c9040a29421][Be gentle without saying why.]]
+* Judge gently.
+  :PROPERTIES:
+  :ID:       921b89d8-b9b2-48ac-905a-8f146312262c
+  :END:
+** elaboration
+   Both words in "Judge gently" are imperative:
+   One should judge, and one should be gentle in it.
+** [[id:2e6e41ec-87fd-4f79-9162-0114e61497ac][Everything one does is intentional, but every effect they have cannot be.]]
+** [[id:585b7a0d-4fc6-497b-b20d-0fc19ed9daa7][Our only judges are each other.]]

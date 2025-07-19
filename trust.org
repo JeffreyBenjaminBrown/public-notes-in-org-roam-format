@@ -6,7 +6,9 @@
 ** [[id:7c1233c5-02e7-451e-9265-fe35fe97855c][intimacy]]
 ** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
 ** [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
-* trust in God | fate
+* [[id:1b4a962e-2549-4d7f-bf5c-a5d03767ac42][skepticism]]
+* fate
   :PROPERTIES:
   :ID:       cd9ea78e-bc53-426e-9011-70a5d8d1ccde
   :END:
+** [[id:10f35302-f321-48ac-b3bb-cbc6647e7575][trust]] in God

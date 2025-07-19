@@ -3,3 +3,5 @@
 :END:
 #+title: resilience
 * [[id:0c575dde-46fd-4fcd-a9a7-1fb95ce42858][Detachment]] can help.
+* Framing can help.
+** e.g. [[id:532d78ce-a09a-4d02-94c0-65354605bb9e][Rejection is succcess.]]

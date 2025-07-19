@@ -3,6 +3,15 @@
 :ROAM_ALIASES: "thinking, learning, understanding" "understanding, thinking, learning"
 :END:
 #+title: learning, thinking, understanding
+* ways to know | understand
+  :PROPERTIES:
+  :ID:       9fc09f11-ef5b-475d-a885-f0fd0b667178
+  :END:
+** [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
+** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
+** [[id:2ac7f271-eea5-4d23-852f-798322eff6e2][metaphor]]
+** technology
+*** I believe [[id:7524f42b-9db0-4531-a21d-57df5954a34e][knowledge graphs enhance self-awareness.]]
 * [[id:57988979-26d7-43d9-863f-14d1e21b5f2f][Contrast can be funny.]]
 * [[id:28f244af-3876-4302-8aa6-4e2306024149][Hegelian synthesis is a powerful knowledge graph trick.]]
 * [[id:40a2de02-6388-4795-8280-62f4888cf7b0][AI and understanding]]
@@ -13,3 +22,5 @@
 * [[id:84e77d86-2b69-4f18-a1e4-110d17026c16][It's fun to determine when sending a picture conveys more and/or better information (than words).]]
 * [[id:609378d9-85be-4edf-bcd7-724356ad3cb8][preconceptions]]
 * [[id:a39b2ed1-188e-4d65-95f7-d1a4dacc6437][selfward as the least learning experience]]
+* DONE internalized
+** [[id:636d3275-7997-4503-9769-37cdb51722e2][Pain is only sometimes a learning experience.]]

@@ -15,12 +15,14 @@
   :PROPERTIES:
   :ID:       533caf9a-c819-47cb-9504-b5e8d50fb87b
   :END:
+** [[id:6dcc3016-fb6b-4718-9098-f508fe0b1639][social anxieties]]
 ** [[id:8bfda5c9-c1d5-433d-ade1-7e2dad8a895d][entitlement]]
 ** [[id:70642496-6430-451d-9053-e5993891d2e6][neuroticism]]
 ** [[id:c393e966-36a8-498a-b44e-0667903191f8][workaholism]]
 ** [[id:604e2666-dbfb-4de7-82a1-ceae26d81069][obsessive-compulsive behavior]]
 ** [[id:3e052011-070e-49ec-8550-91ee40d9943f][projection]]
 ** [[id:227c3af6-14fc-42b2-a1ff-76313149a746][denial]]
+** [[id:9e963f80-8904-496b-b04d-47b8f25ca827][procrastination]]
 * disorders
 ** [[id:4f7c0f4a-c0b3-4d10-893f-fe46d5f8a032][manifestations of fear]]
 ** [[id:f532d19a-40a9-4a6d-9492-f0cdfdc23dea][PTSD]]

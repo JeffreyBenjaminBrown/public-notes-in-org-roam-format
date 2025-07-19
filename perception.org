@@ -14,3 +14,11 @@
 * [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
 * [[id:298b99de-d219-48bc-abd5-0e89530cc9fa][Identify with something beyond the self.]]
 * [[id:55f2bdf0-1329-4a37-a060-dc2d9af9671a][predictive coding]]
+* Art can resist preconception.
+  :PROPERTIES:
+  :ID:       c965b462-f44e-4389-bcd3-98ea04d4b6aa
+  :END:
+** a quote
+   "We rarely look at the real world", according to game designer Raph Koster, "we instead recognize something we have chunked, and leave it at that. [...] One might argue that the essence of much of art is in forcing us to see things as they really are rather than as we assume them to be". --Wikipedia on fun, <2025-07-09 Wed>
+   https://en.wikipedia.org/wiki/Fun
+* [[id:cb2a0e54-f486-494d-a961-0c461134378c][Taking something for granted impedes creativity.]]

@@ -4,17 +4,26 @@
 :END:
 #+title: seriousness, commitment, and their opposites
 = a form of inconsistency
+* definitional
+** sobriety
+** constancy
 * laziness
   :PROPERTIES:
   :ID:       d5e61945-b23c-48b6-9eea-018a3da2d50a
   :END:
 ** [[id:3fdb250d-fc7d-4b1f-becf-1d7996a9e480][laziness => evil]]
+* [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
+* [[id:a55842c2-536e-4581-b04b-026715e646d1][duty]]
 * How to distinguish between unseriousness, overcommitment and fluctuating beliefs?
   :PROPERTIES:
   :ID:       a06497e3-d06c-45a1-811f-f1d8e7bd877b
   :END:
 * [[id:543d4a74-b24c-41d3-b93d-79d9c86eadf3][Partial completion can be of almost no value.]]
-* [[id:f2c76e9e-7883-49f5-83bb-6078c62e15da][Am I serious about the knowledge graph project.]]
+* [[id:f2c76e9e-7883-49f5-83bb-6078c62e15da][Am I serious about the knowledge graph project?]]
 * [[id:d681ff79-1acc-4f25-ac06-e6fedda67de9][Absurdity and seriousness are in tension.]]
 * implies a willingness to endure [[id:47cb3eb0-06c1-48a6-8084-9ab9190b0495][hardship]]
+* [[id:d4e706ce-5421-45c3-8073-f80078b6bad6][Between making a plan and meeting, keep touching base.]]
+* [[id:7e6112c1-bf30-42b8-9402-a5213144db66][Get contact info from everyone!]]
 * not vacillating between choices
+* [[id:ea703938-f201-4f3b-ac07-e4c8b688e9de][Speeches at beginnings and ending are important.]]
+* [[id:a0c904be-fc80-4196-99f6-809f9ba4b44f][fliration v. commitment]]

@@ -3,12 +3,14 @@
 :END:
 #+title: self-improvement
 * goals
+** [[id:a9c646cb-09bd-4337-8b80-79d73ad2bcd2][felt personality deficits]]
 ** [[id:cd31d188-3857-469e-8af8-07ce8d4242d9][intuition]]
 ** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]] and [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
 ** [[id:13aba0e9-33c1-4f2b-906c-4ab3ab683522][emotional ambition]]
 ** [[id:720f5a80-ba0a-4f12-888f-7adb38e2009f][spiritual healing]]
 ** [[id:3a009c94-db3a-4707-933b-e6c9ba4d4fee][social skills]]
 *** [[id:786eebcb-c64d-4cf4-8448-76def28fd7e0][attribution]]
+** [[id:7ab03ad0-c357-446c-81a3-1a0c619e7ffe][trainable perceptual skills]]
 * dubious as goals
 ** [[id:636d3275-7997-4503-9769-37cdb51722e2][I wish pain were more useful.]]
 * To focus on feelings feels paychedelic.

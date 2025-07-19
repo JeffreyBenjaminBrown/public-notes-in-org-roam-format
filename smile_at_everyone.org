@@ -3,3 +3,6 @@
 :END:
 #+title: Smile at everyone!
 At least on first seeing them.
+* [[id:2b15a3ec-086b-4c66-af57-a03e706e1d84][joy]]
+* [[id:8d5c9418-f228-4595-b423-05acd9921b10][optimism]]
+* [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][self-confidence]]

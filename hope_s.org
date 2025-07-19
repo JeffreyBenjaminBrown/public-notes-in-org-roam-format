@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       55a3533c-da70-445b-bd9a-0b950f52b85d
+:ROAM_ALIASES: motivations
 :END:
 #+title: hope
 * [[id:99d42cca-e03f-4d44-b383-4cf5107bfeff][hope & ambition]]
@@ -9,18 +10,27 @@
   :PROPERTIES:
   :ID:       3459fbda-0e97-4c14-9f0a-9b507d1e759c
   :END:
-** [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]
-** [[id:c3d3f28c-5892-4deb-86dd-e8f490a24b1d][collective understanding]]
-** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
-** [[id:4e748426-9ff0-4e7b-8192-b582a2ae7f95][community]]
-** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
-** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
-** [[id:682c092d-0e94-4095-b03f-dae9aa245619][utopia , perfect experience]]
-** dubious
+** terminal ones
+*** [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]
+**** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
+*** [[id:a1487b9c-70d9-493a-b61e-e512def4a0d5][freedom]]
+*** [[id:b745d109-6d7f-4638-beab-97bd26c8a936][awe]]
+**** [[id:b0ee873b-f076-4c7e-a1e1-8aa03bdaee35][I want to amaze, and to be amazed by others.]]
+*** [[id:c3d3f28c-5892-4deb-86dd-e8f490a24b1d][collective understanding]]
+*** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
+*** [[id:4e748426-9ff0-4e7b-8192-b582a2ae7f95][community]]
+*** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
+**** I want them not only as a means but as an end.
+*** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
+*** [[id:682c092d-0e94-4095-b03f-dae9aa245619][utopia , perfect experience]]
 *** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
-** strange
-*** Excise my urge to change others.
-    :PROPERTIES:
-    :ID:       c238024d-5dfc-4df3-aae1-acef3d8b90bd
-    :END:
+** terminal negative ones -- hopes for the removal of
+*** [[id:8b9a976f-2587-4c9f-95a9-eae483550d7b][pain]]
+*** [[id:9140d17d-528b-45cd-aa6b-2876f3a15b00][loneliness]]
+*** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
+** intermediate ones
+*** [[id:8cd7a9de-4652-4728-b57f-748e61cf94e7][health]]
+*** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
+*** [[id:6cc406fa-3f78-48e3-8eea-2d18cc20b6bf][money]]
+*** [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
 * [[id:f532dbb0-3a30-4692-b657-2213898787e8][courage vs. comfort]]

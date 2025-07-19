@@ -7,6 +7,14 @@
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 ** [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]
 ** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
+* relationships
+** bonding
+   :PROPERTIES:
+   :ID:       2b6c63e7-80fe-4561-a9c0-50656b3d6a83
+   :END:
+*** [[id:302dba5a-9298-440a-bbcb-5b96955a5633][Bonding requires activities, not just occasional smalltalk.]]
+** some kinds
+*** [[id:20f350a4-210c-4c49-af39-391365c5aa39][Everyone needs a fan and a critic.]]
 * [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][presence]]
 ** [[id:d060b13a-7452-4837-8d9b-11f2f48b71a4][presence & sharing]]
 * [[id:f23de8b3-b50b-408b-bc7e-48dc50418155][love & overload]]

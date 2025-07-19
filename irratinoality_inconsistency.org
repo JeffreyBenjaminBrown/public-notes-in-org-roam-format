@@ -1,8 +1,8 @@
 :PROPERTIES:
 :ID:       594df21f-51c9-485c-85a1-cf943f325219
-:ROAM_ALIASES: inconsistency irrationality
+:ROAM_ALIASES: consistency inconsistency irrationality
 :END:
-#+title: irrationality | inconsistency
+#+title: consistency | irrationality
 * justifications for it
 ** [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][learning, thinking, understanding]]
 ** non-monomania | experience as motivation
@@ -10,7 +10,23 @@
    And some acts are for the experience, not the outcome.
 ** [(memory) context] sensitivity
    All of what you do depends on what you are aware of, and some acts might contradict others taken while aware of other things.
-* [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]]
+* [[id:e4963ae5-c8ed-4cca-939b-9c1c97b68e39][reluctance to start an enjoyable thing]]
+* For beliefs re. payoffs to often change radically looks irrational.
+  :PROPERTIES:
+  :ID:       6b2b8e6d-44d5-409a-8669-065374eb1c5f
+  :END:
+** [[id:ee055cdf-8ed1-473f-a440-379c7ea8966c][Mine do.]]
+* Politics are irrational.
+  :PROPERTIES:
+  :ID:       183704bd-596f-472b-ab53-9e7af0e50fab
+  :END:
+** [[id:b6ae22e1-5d46-4770-83a5-a1b4740f0ecb][The US feels robbed from its investments in China but does not want China to reciprocate.]]
+* Consistency feels good.
+  :PROPERTIES:
+  :ID:       2fe71561-4999-4224-aafb-5a5cc65e4ed0
+  :END:
+  Relying on one's past decisions.
+* Inconsistency makes strategy difficult.
 * [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][Commitment]] is hard.
 * [[id:dcbdb66e-55cb-46ce-af74-97aa841ddda7][irratinoality & ethics]]
 * [[id:c893937e-bca4-4a77-aa6c-ad481bf1d042][the limits of logic]]
@@ -32,3 +48,5 @@
     Approaching one love until its imminence causes fear, then switching, thus drawing all of them closer concurrently(interleaving).
 *** Each approach reveals new information.
 * [[id:4f7c0f4a-c0b3-4d10-893f-fe46d5f8a032][manifestations of fear]]
+* technical
+** [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]]

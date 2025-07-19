@@ -2,6 +2,8 @@
 :ID:       62d7c9c4-2022-4391-9770-cbd185d0becb
 :END:
 #+title: using AI
+* A simple correction can put it over the top.
+** example: [[id:36ecb2c0-9ed0-44fb-af44-a93e72df48f8][the lion papaya portrait]]
 * techniques
 ** Ask the LLM to write a plan for how to change each file first.
 ** explain changes

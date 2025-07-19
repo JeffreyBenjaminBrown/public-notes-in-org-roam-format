@@ -2,7 +2,7 @@
 :ID:       6972d099-7ff6-47ba-ac67-1898ef5fd549
 :END:
 #+title: science
-* [[id:c35ab968-7056-40fa-8816-ea16d5c88f6d][a list of sciences]]
+* a list of [[id:c35ab968-7056-40fa-8816-ea16d5c88f6d][sciences, fields of study, schools of thought]]
 * science , how
 ** [[id:b9c7b7e6-9849-4a24-984d-b2e2e749d81a][methods and institutions for science and research]]
 ** [[id:efd65f91-09ea-43d3-a894-7a23c2b7ef58][Understanding novel ideas requires imagination.]]

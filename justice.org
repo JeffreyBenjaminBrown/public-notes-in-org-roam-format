@@ -10,6 +10,10 @@ Remember, notes should be surprising.
 :PROPERTIES:
 :ID:       aa879d13-804f-4de3-b9fc-a3e7c774969e
 :END:
+** evil v. {self-awareness, true joy}
+   :PROPERTIES:
+   :ID:       a23ea954-0bb7-40c1-b42c-ef051cf0918b
+   :END:
 ** corruption
    :PROPERTIES:
    :ID:       ea8796f8-7f12-4cef-bba4-367f668ea978
@@ -26,15 +30,15 @@ Remember, notes should be surprising.
 ** The black kids who did not respond to white taunts shortly after Brown v. Board.
 ** Nonresponse from a wounded lover.
 * [[id:5357b637-c959-455f-b171-429390edbc04][conflict]]
-* [[id:585b7a0d-4fc6-497b-b20d-0fc19ed9daa7][Our only judges are each other.]]
+* [[id:921b89d8-b9b2-48ac-905a-8f146312262c][Judge gently.]]
 * [[id:afecc0bb-68d0-4bc5-a656-f277a9a830db][justice & irony]]
 * [[id:18b442b7-427d-4057-8fb7-e5b715e955f5][justice & accounting]] = karma
 * [[id:9739cf28-dad5-4061-8367-7f77cc166700][UBI]]
 * [[id:49583939-99f0-462a-8152-3aed9b0de39a][If you're embarrassed to share your beliefs, something is wrong.]]
 ** [[id:cc103b68-6b43-483f-88a7-e724fdf853b7][fascism]]-adjacent
-* [[id:7ccb8ee3-dd58-4abb-88ed-9bd62f00038e][justice & fantasy]]
-* internalized
+* [[id:ee3db6a1-1143-439c-8912-10fb2a4d3b8d][numbness]]
 ** [[id:a8d26591-06a2-4cbd-9fe1-068b487dd2e7][Death is not so sharp.]]
+* [[id:7ccb8ee3-dd58-4abb-88ed-9bd62f00038e][justice & fantasy]]
 * see also [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling a higher force]]
 * inequality
 ** [[id:f0553af1-9f6c-468d-b69b-aa5c8e4c02d8][never seeing friends except {with, via} one's spouse]]

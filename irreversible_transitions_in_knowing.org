@@ -3,4 +3,4 @@
 :END:
 #+title: irreversible transitions in knowing
 * [[id:dfa2dace-2441-460a-a25f-32fc2233cf08][Secrets can be obscure without hiding.]]
-* [[id:5565fa65-7508-41f4-bfc3-04053399bfcd][maximum enlightenment]]
+* [[id:abb4ed18-7bcb-4865-93a1-2591ceb0c8ea][enlightenment]]

@@ -2,6 +2,10 @@
 :ID:       0d037a5d-e027-4b6d-8054-c39aad9bb196
 :END:
 #+title: soup
+* herbs Yeni put <2025-07-09 Wed>
+** 1 "tbsp" cilantro
+** 1 "tbsp" mint ("inojo")
+** 2 "tbsp" basil ("albahaca")
 * ingredients <2025-05-22 Thu> with 3 cups garbanzos
 ** 3 zanahorias
 ** 4 papas

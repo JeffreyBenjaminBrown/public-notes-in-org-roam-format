@@ -4,9 +4,19 @@
 #+title: poverty
 * [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
 * [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][charity]]
-* [[id:a71544ad-52ba-4626-9bf1-8f2f480c2575][To vow poverty because even then you have a mind-blowingly hard time being humble.]]
+* [[id:5357b637-c959-455f-b171-429390edbc04][struggle]]
 * robbing the poor
   :PROPERTIES:
   :ID:       d81efdd0-7665-42d6-a065-1f4992fcacae
   :END:
 ** In places in Colombia where people rely on the state for some of the meals for their kids, contractors supposedly buy [tiny portions, spoiled food] to pocket the difference.
+* far out
+** [[id:a71544ad-52ba-4626-9bf1-8f2f480c2575][To vow poverty because even then you have a mind-blowingly hard time being humble.]]
+* poverty & mental health
+  :PROPERTIES:
+  :ID:       06e66ee3-e8b1-421f-bbf8-c31d5586792f
+  :END:
+** Money and safety let you think about other stuff.
+   :PROPERTIES:
+   :ID:       5b6cb0ed-3a3a-4a58-afb5-a1eae4fae934
+   :END:

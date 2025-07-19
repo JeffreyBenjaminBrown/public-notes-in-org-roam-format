@@ -29,3 +29,4 @@
   :END:
 ** = an intimate thing to reveal
 * [[id:1ba589c3-00f6-45a8-b5f3-e6c697e89030][light comedic belligerence]]
+* [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]

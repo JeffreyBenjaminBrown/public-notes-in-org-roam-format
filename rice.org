@@ -4,6 +4,7 @@
 #+title: rice
 * proportions
   PITFALL: water scales nonlinearly with rice!
+** <2025-07-10 Thu> trying 10 ml salt
 ** <2025-07-05 Sat> trying 1/2 tbsp* of salt
    (*) literally, via that-sized measuring spoon
 ** 1 cup brown rice, 2 cups water

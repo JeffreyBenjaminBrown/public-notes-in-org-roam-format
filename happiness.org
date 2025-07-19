@@ -3,8 +3,8 @@
 :ROAM_ALIASES: happiness fulfillment
 :END:
 #+title: joy
-* [[id:a4fdc0d7-8ad9-471c-a559-7bd932b0f486][headspace]]
-* kinds
+* TODO merge with [[id:186371b0-e1eb-4a62-9354-f76fb3f63bbd][pleasure]]
+* kinds & sources
 ** gratitude
    :PROPERTIES:
    :ID:       004af7c1-02db-4545-8691-f00135b9ed48
@@ -12,11 +12,11 @@
 *** People say gratitude exercises work.
     Thinking of things to be grateful for
     makes them happier.
-** wonder
-   :PROPERTIES:
-   :ID:       792aec5d-797b-4ff7-bc48-ea814d22c4a1
-   :END:
-*** [[id:858021f5-8474-4490-b30e-371159e35db6][Consciousness => every moment is amazing.]]
+*** [[id:39cf29f5-d7b2-415b-ace0-1b8f878df8df][Compartmentalize the bad. Think of the good in other contexts.]]
+** [[id:b745d109-6d7f-4638-beab-97bd26c8a936][awe | wonder]]
+** [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][presence]]
+** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
+*** But [[id:fe4939fe-8b94-4b78-914f-f2b83d7ff9f4][art is not always for pleasure.]]
 * nearby [[id:50132c61-a3f9-4e28-bdbd-e2d0e6f35f28][feelings]]
 ** [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope]]
 ** [[id:2e75b219-6f4c-427f-9f61-13f618fd0e80][safety]]
@@ -26,7 +26,6 @@
 ** [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]] (both express joy)
 ** [[id:e5ee5341-7ca0-4aaf-9a76-e8d5c5e352ec][proving yourself v. enjoying others]]
 ** [[id:040aefe7-c512-4ad9-a811-9b5950b44579][joy v. hunger]]
-* [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
 * [[id:a04c2b66-35bd-45f6-8dfa-5513ffe36a9c][introspect & reprogram]]
 * [[id:13aba0e9-33c1-4f2b-906c-4ab3ab683522][emotional ambition]]
 * [[id:b2c221c4-2ece-4334-a7a7-2bf6876128f5][leisure v. labor]]
@@ -45,3 +44,5 @@
   :ID:       1a59f217-71bd-4ccc-8d6a-a63f9c823378
   :END:
 ** For every time, there is a later time during which {dance, music, art} is {fun, deeply symbolic, ..}.
+* Joy might be hereditary.
+  source: "Biological Connection to the Feeling of Happiness". Journal of Clinical and Diagnostic Research. 1 October 2020.

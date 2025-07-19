@@ -5,21 +5,33 @@
 #+title: motivation | ambition | voluntarity | intention
 * see also
 ** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
-* [[id:c2decf8f-87a5-41e0-86c6-a5633566acc6][peace v. motivation]]
-* ease
+** [[id:4c25a3eb-4f21-4c20-9fee-2a18275ca089][volition]]
+* [[id:0c575dde-46fd-4fcd-a9a7-1fb95ce42858][detachment]]
+** [[id:20d36ee8-6f26-47ff-88cb-d85711027510][calm under stress]]
+* [[id:c2decf8f-87a5-41e0-86c6-a5633566acc6][peaceful motivation]]
+* [[id:55071d76-3912-49aa-a575-b739910768b5][Can a verbal lens help?]]
+* judgments and taste for interior* solutions
+  (*) not corner
 ** [[id:1eb17267-8251-4bf3-8f58-5cbec72ea187]["You can have this as much as you take it."]]
 * Every word should have a purpose.
   :PROPERTIES:
   :ID:       826d25ae-b544-4ad7-80fb-74f366bd3973
   :END:
 ** And the purpose should involve the listener.
-   That is, if some passage is present only because I feel like earlier or later passages motivate it, but it does not serve the listener, axe it.
+** Although there is no duty to the notes themselves, but kind of.
+   One bears no duty apart from that due the reader,
+   but taking all likely readers into account might feel like that.
 * humility & ambition
   :PROPERTIES:
   :ID:       af7c9428-198d-428b-be12-1e6e21033dfb
   :END:
 ** Humility *is* an ambition.
 ** [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Are they at odds?]]
+* Humility is socially efficient.
+  :PROPERTIES:
+  :ID:       f40c0af7-94de-46ea-be79-5e6e512a5092
+  :END:
+** Humility facilitates making small contributions to important projects, rather than important-looking contributions to lesser projects.
 * motivation ! identity
 * [[id:880c2596-e4da-486d-863d-6daff64ca89c][identity , conscious]]
 * anti-neighbors
@@ -62,3 +74,8 @@
 ** [[id:c9f48f52-2646-4f54-9c72-b03d05e616d3][Pursuing _ as if it could make one's entire life worth it.]]
 * [[id:473fe333-3e14-4f42-a3d7-e62bdfdfd093][questions from an LLM as will to live]]
 * [[id:a51d5b7e-4fc5-47bc-a9ca-2524ba9acace][Good assertiveness is moved by circumstance, not sought.]]
+* challenge
+  :PROPERTIES:
+  :ID:       3f4d6eb9-0de1-46a1-ba51-9673a2790821
+  :END:
+* [[id:532d78ce-a09a-4d02-94c0-65354605bb9e][Rejection is succcess.]]

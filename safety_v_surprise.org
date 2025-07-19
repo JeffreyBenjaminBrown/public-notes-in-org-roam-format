@@ -3,3 +3,9 @@
 :ROAM_ALIASES: "surprise v. safety"
 :END:
 #+title: safety v. surprise
+* They *seem* in tension.
+* some things are better with both
+** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
+*** [[id:dae618bd-8f97-44ef-b22b-f72adef57bc8][improvisation]]
+** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
+** [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][learning]]

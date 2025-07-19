@@ -1,8 +1,15 @@
 :PROPERTIES:
 :ID:       543d4a74-b24c-41d3-b93d-79d9c86eadf3
 :END:
-#+title: Partial completion can be of almost no value.
-* elaboration
-  Often it makes the difference between the project's payoff being net positive and net negative.
-* instances
-** a Ph.D.
+#+title: investment payoffs ::: continuous v. lumpy, delayed
+* the idea
+** Some investments have continuous payoffs
+   which are function of how long they have been going (and hence in part on how early you started).
+** Others have discrete ("lumpy") payoffs
+   which are unreachable without sufficient investment.
+** Some are mixed.
+* implication: Partial completion can be of almost no value.
+** elaboration
+   Often it makes the difference between the project's payoff being net positive and net negative.
+** instances
+*** a Ph.D.

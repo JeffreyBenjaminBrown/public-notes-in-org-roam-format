@@ -12,6 +12,7 @@
   :ID:       19a9138f-231e-459f-8207-ad51441be07b
   :END:
 ** [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][disciplined]], [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][relaxed]], [[id:fdef41e8-3218-4964-be4b-12cb86c722a1][gentle]], [[id:1767a293-ee6a-47b7-b9b8-e8b2f05dd87f][assertive]]
+** [[id:411ba191-4092-431f-a8b0-eabd8b6814cf][serious play]]
 ** [[id:51cfa59e-4138-4d2d-8cae-5dbad26b78ad][sharing v. presence]]
 ** [[id:5801add6-9aaf-4f60-9354-f4aadfa5e7d2][patience v. courage]]
 ** [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Is humility at odds with ambition?]]
@@ -20,7 +21,11 @@
 ** [[id:564189da-b150-4890-9c48-601b231f5586][pride & self-criticism]]
 ** [[id:4abd453b-9fd0-4c54-b897-e2d104cb2c33][humility v. self-respect]]
 ** [[id:d06e3817-bc26-4dbd-8b1f-80093032e35a][innocence v. wisdom]]
+** [[id:dd04d72b-8f97-4fc7-92d8-1858c5323428][presence & rationality]]
+** [[id:b37e198b-0e15-4263-be53-cc29c827448e][salvation]]
+** [[id:a23ea954-0bb7-40c1-b42c-ef051cf0918b][evil v. {self-awareness, true joy}]]
 * (more) instances
+** [[id:411ba191-4092-431f-a8b0-eabd8b6814cf][serious play]]
 ** [[id:5357b637-c959-455f-b171-429390edbc04][conflict]] and struggle
 ** [[id:237c52c1-7bca-4b83-8b6b-b64ffe209438][awkwardness]]
 ** [[id:c89ef761-2f1b-4840-89c5-6725354cf356][Desire's object can assuage one anxiety and stoke another.]]

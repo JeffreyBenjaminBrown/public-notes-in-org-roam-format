@@ -13,7 +13,16 @@
 ** After a commit to public/, move these.
    Move them to permanent/, and commit both.
 * TODO read completely
+** mental health
+*** personal/mysteries_problems.org
+*** [[id:f56bfee4-14df-41dd-aad1-1a16c79f8b3a][mental health \ jbb]]
+*** personal/self_improvement_jbb.org
+** wholeness
+** everything [[id:3a009c94-db3a-4707-933b-e6c9ba4d4fee][social skills]] links to
+** [[id:73e229ee-a416-41db-a23a-4d960b2e559f][systematic socializing]]
+** [[id:f56bfee4-14df-41dd-aad1-1a16c79f8b3a][mental health & personal]]
 ** mindfulness
+** weirdness
 ** humility
 ** peace
 ** volition
@@ -58,3 +67,14 @@
 ** public/creativity.org
 ** public/moderation.org
 ** public/discipline.org
+** public/utilitarianism.org
+** public/tacit_social_knowledge.org
+** [[id:c893937e-bca4-4a77-aa6c-ad481bf1d042][the limits of logic | information | expression | calculation]] (not a whole file)
+** public/conflict.org
+** public/kindness.org
+** personal/fission_psychic.org
+** public/social_skills.org
+** public/procrastination.org
+** public/fear.org
+** public/god.org
+** public/utopia.org
