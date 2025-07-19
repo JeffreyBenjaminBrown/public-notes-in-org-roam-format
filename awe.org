@@ -1,7 +1,13 @@
 :PROPERTIES:
 :ID:       b745d109-6d7f-4638-beab-97bd26c8a936
+:ROAM_ALIASES: awe wonder amazement
 :END:
-#+title: awe
+#+title: awe | wonder
+* another ID
+  :PROPERTIES:
+  :ID:       792aec5d-797b-4ff7-bc48-ea814d22c4a1
+  :END:
+* [[id:858021f5-8474-4490-b30e-371159e35db6][Consciousness => every moment is amazing.]]
 * some awe-inspiring things
 ** [[id:97129402-46bc-41ea-91f6-6a7faae61a79][I am nothing before the world.]]
 *** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
@@ -10,6 +16,12 @@
 ** [[id:f6dcf7b1-006b-4477-9366-872a570edb83][spirituality + aesthetics]]
 ** [[id:0b195a47-ed58-48c8-833b-c1c3e95bf628][the suffering it took to create humanity]]
 * [[id:60369835-80af-42f3-9de5-95736ce9b0ee][holiness]]
+* I want to amaze, and to be amazed by others.
+  :PROPERTIES:
+  :ID:       b0ee873b-f076-4c7e-a1e1-8aa03bdaee35
+  :END:
+  And to help them amaze themselves,
+  and to be so helped.
 * maybe see also
 ** the [[id:c0670a96-666b-4ebb-a2a6-42e83067f39d][sublime]]
 ** [[id:6fa4cc1e-d4a8-4127-bf28-9e43aab75df8][dissociation]]
@@ -17,3 +29,4 @@
 ** [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]
 ** [[id:efead690-715e-4243-9dd9-9f6a53566263][aesthetics]]
 ** the [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]
+** [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][seriousness]]

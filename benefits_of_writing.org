@@ -2,6 +2,8 @@
 :ID:       ccbda321-ebfd-4255-a24f-f79c871c0144
 :END:
 #+title: why to { map concepts | write }
+* Know what you know about something.
+  What you experience, remember, believe, wish to know; what effect you think it has, what others believe about it ...
 * Wise people have believed that everyone should,
   They wrote that writing improves perception, thinking, memory, self-awareness and comprehension of others (including resisting bad power structures), among other benefits.
 ** Joan Didion

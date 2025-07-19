@@ -13,13 +13,6 @@
 ** [[id:d7d8d66e-24b4-4f53-aa98-0d6707b26254][patience]]
 ** [[id:75d26e15-7a43-42bc-987e-e30d59e5bc94][Courage can rely on reason.]]
 * [[id:82fbcfc0-61ea-4f30-82e5-3eb5148a16cf][emotion & frequency]]
-* transparency
-  :PROPERTIES:
-  :ID:       bda3d113-8968-4cbf-aedb-775df4b5e713
-  :END:
-** emotional transparency
-** motivational transparency
-   e.g. disclosing conflicts of interest
 * [[id:dca72b0d-ee2c-4666-8e87-4cf5bf58da98][emotional free lunches]]
 * [[id:06b856e9-50fb-4025-9276-cd0b2b945fa8][Knowing how self and other feel can both be tricky.]]
 * [[id:b268c502-2ebd-4d76-9025-0a4e2806e1d8][Emotions can be decomposed into sensations.]]

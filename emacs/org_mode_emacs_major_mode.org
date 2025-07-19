@@ -8,6 +8,7 @@
   :END:
   unless one views the source.
   That's true even if there is no space on the line before the #.
+* [[id:38f010f2-efde-4bd1-9c5d-96af6a4d839f][my permanent notes]]
 * TODO If I see that "wrong side of point" error again
   see if my version of org-mode
   ("org" in pack-l-p, updated procedurally)

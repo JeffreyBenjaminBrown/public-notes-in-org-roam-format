@@ -2,7 +2,10 @@
 :ID:       6b340387-efbd-4959-a785-5ac196310c62
 :END:
 #+title: Free will seems (mostly) illusory, or redefine the self.
-* Do I choose any of these?
+* Solution: I am the deterministic choice process,
+  and would be even if I could see all of its parts and their effects.
+* Deliberation
+  Do I choose any of these?
 ** thought
    a little
 ** attention
@@ -13,5 +16,3 @@
    It feels like I choose these,
    but they arise from the others,
    which it feels like I (at least mostly) don't.
-* I am the deterministic choice process,
-  and would be even if I could see all of its parts and their effects.

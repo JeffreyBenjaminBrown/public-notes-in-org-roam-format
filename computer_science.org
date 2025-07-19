@@ -3,6 +3,10 @@
 :ROAM_ALIASES: programming
 :END:
 #+title: computer science
+* SOLID
+** D = [[id:52e2587c-3485-45cb-9456-d2c9746b2c4d][dependency inversion]]
+* some CS papers I would like read
+** https://x.com/Franc0Fernand0/status/1945447159739924706?s=19
 * rather than "pitfall", write "danger"
 * TODO ? Just looks nice: Like make, but with completion at the command line, other improvements.
 ** https://github.com/casey/just
@@ -35,3 +39,4 @@
 ** [[id:4f29e189-09c2-48f7-98b4-25cadcd43ccd][file extension]]
 ** [[id:bd3b6d2b-6f8b-4dcc-bd52-fe288d3f0a11][pipe (computer science)]]
 * [[id:974cd67d-8c30-414d-aeb0-f832a21e08b4][calculations , some cool]] (if infeasible)
+* [[id:d64ec5df-18d1-4a91-bda2-05bed28fc5a9][danger & programming]]

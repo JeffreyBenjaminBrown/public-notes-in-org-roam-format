@@ -4,6 +4,6 @@
 #+title: comic responsibility
 * methods / some kinds
 ** [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
-*** ? [[id:39167703-f685-4afb-9017-ca41caee0796][Recognize when it would be better not to [make a joke].]]
+*** [[id:7be4b170-3339-441e-853a-7d4e2176d821][Recognize when it would be better not to make a joke.]]
 ** Don't miss a good opportunity for a joke.
 ** Recognize when {someone, a situation} needs a joke.

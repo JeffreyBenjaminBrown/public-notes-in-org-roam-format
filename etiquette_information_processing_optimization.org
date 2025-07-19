@@ -2,5 +2,6 @@
 :ID:       f8a1040d-ef6f-4819-9f96-421a06182502
 :END:
 #+title: etiquette, information processing optimization
+* [[id:de26311c-9b4b-48f4-afa1-c7a680f73b30][Don't beat around the bush.]]
 * [[id:ae2773c2-61d9-4970-b934-d5f360350cfe][Don't go on about a topic if the listener is already on a blocker about it you sent.]]
 * [[id:84e77d86-2b69-4f18-a1e4-110d17026c16][Sometimes a picture is better.]]

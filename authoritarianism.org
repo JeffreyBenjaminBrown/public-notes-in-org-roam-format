@@ -8,6 +8,7 @@
 :ID:       cc103b68-6b43-483f-88a7-e724fdf853b7
 :END:
 * near it
+** [[id:ba15c32b-c09d-4943-8f0a-c853a67c81f3][patriarchy]]
 ** [[id:7b24e00d-6acb-4723-9267-6a9935dddacd][Truth is an assumed property of one universe.]]
 ** [[id:49583939-99f0-462a-8152-3aed9b0de39a][If you're embarrassed to share your beliefs, something is wrong.]]
 ** [[id:9280fc45-6730-40cc-b088-c53a2f589ccd][If you didn't have to feel pressured most of the time, but did have to act that way.]]

@@ -2,8 +2,7 @@
 :ID:       492bfe8d-77f0-4aa2-bb33-df9fa984f0ea
 :END:
 #+title: courage
-* [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][confidence]]
-* [[id:9c44b2d0-e6e1-41d3-bb18-37679027e7a9][Confidence seems more important than courage.]]
+* [[id:9c44b2d0-e6e1-41d3-bb18-37679027e7a9][Confidence + realism > courage.]]
 * [[id:3987d04f-c539-4f73-916f-6a44bc0df7cd][Humility -> courage -> peace.]]
 * courage & humility
 ** [[id:e9ac21ef-aa15-4c6a-9157-f0a79f0851a1][courage v. humility]]
@@ -16,6 +15,7 @@
 * "[[id:184a0ae5-595e-4208-92f9-0ef577f6564f][boldness is seldom without some absurdity]]"
 * [[id:5801add6-9aaf-4f60-9354-f4aadfa5e7d2][patience v. courage]]
 * [[id:8adf528a-1c95-4e60-a620-6e8d365e0507][courage & presence]]
+* [[id:e0046043-26d0-4978-89c2-0a0643bb1249]["You only live once," has a strange logic.]]
 * anti-neighbors
 ** cowardice
    :PROPERTIES:

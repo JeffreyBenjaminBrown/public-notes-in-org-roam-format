@@ -4,12 +4,16 @@
 #+title: creativity
 * see also [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
 * can require [[id:9503e93c-e13f-4be2-ad59-66350feeb21f][privacy]]
+* Taking something for granted impedes creativity.
+  :PROPERTIES:
+  :ID:       cb2a0e54-f486-494d-a961-0c461134378c
+  :END:
 * [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety v. surprise]]
-* motivations for study
+* reasons to study it
 ** [[id:b0edbce5-7036-4d32-8266-be8e061fb06c][Spiritual healing would require imagination.]]
 ** [[id:344a5d25-70e4-487d-a802-24c64ace3637][Living for the moment seems to require creativity.]]
 * [[id:776b4780-a8b8-42af-ba5a-b3703a2fc248][Creating can take courage.]]
-* [[id:c48c126f-c92a-48ac-bff0-28933edf859f][creative \ jbb]]
+* [[id:c48c126f-c92a-48ac-bff0-28933edf859f][creative efforts \ jbb]]
 * [[id:2ac7f271-eea5-4d23-852f-798322eff6e2][metaphor]]
 * methods
 ** [[id:b45af920-ae69-411f-81af-7cd744abacf7][tour of synonyms]]

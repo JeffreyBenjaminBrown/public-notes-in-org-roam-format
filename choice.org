@@ -3,6 +3,7 @@
 :ROAM_ALIASES: choice volition
 :END:
 #+title: choice | volition
+* see also [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 * [[id:6b340387-efbd-4959-a785-5ac196310c62][Free will seems illusory.]]
 * [[id:fa615844-39a9-4f57-8758-4fea2dcdec31][people as priority]]
 * [[id:655e21ab-5235-4a12-9636-0b04b0a411a4][specialization & graph search]]
@@ -15,3 +16,4 @@
   :ID:       b0a80dfd-0fbf-4ba7-b9b7-6ec65d2619fa
   :END:
   Rather than maximize whatever the object of thought is, maximize terminating the thought well enough. That is, sacrifice the last, costliest gains one could have gotten from further optimizing, in return for the mental space to think about other stuff.
+* [[id:9e963f80-8904-496b-b04d-47b8f25ca827][procrastination]]

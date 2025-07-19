@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       bc330f51-3f45-47df-95c2-6fa24e4a8a9f
+:END:
+#+title: lightness
+* things that have it
+** [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaning]]
+*** maybe because it is symbolic
+** [[id:4c25a3eb-4f21-4c20-9fee-2a18275ca089][volition]]
+** [[id:c543ecbc-9af5-4a9f-a7b2-fce74104c5cc][language]]

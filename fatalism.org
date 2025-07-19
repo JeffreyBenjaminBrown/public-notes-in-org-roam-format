@@ -3,6 +3,7 @@
 :END:
 #+title: fatalism
 * = belief that something is inevitable
+* see also [[id:cd9ea78e-bc53-426e-9011-70a5d8d1ccde][fate]]
 * [[id:413c6cce-ae3d-42c2-b2c8-c0b71ddbd935][Recognize sunk costs.]]
 * TODO ? merge [[id:05d467c3-fffd-457a-af5c-099f49b4b179][despair]]
 * [[id:cab92776-7a82-42a6-903e-14c102873c6e][peace & realism]]
@@ -14,3 +15,4 @@
   but it encourages them.
 * [[id:831e6de2-9288-4fec-8a26-b3e6530a9067][rational fatalist forgiveness]]
 * [[id:c045bfc7-96d5-417f-97f4-70337b3132ea][rational temporary depression]]
+* [[id:93d35586-c1ee-42b0-9bdd-2070b7cdbb3b][hedonism ~ fatalism]]

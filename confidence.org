@@ -3,7 +3,7 @@
 :ROAM_ALIASES: "self-confidence"
 :END:
 #+title: confidence
-* Confidence seems more important than courage.
+* Confidence + realism > courage.
   :PROPERTIES:
   :ID:       9c44b2d0-e6e1-41d3-bb18-37679027e7a9
   :END:
@@ -24,3 +24,10 @@
    :END:
    assertiveness being against other people, but
    creativity with the environment is to be encouraged.
+* [[id:93f4a8c2-9138-401e-91c7-c90582dd1c08][It's okay to ask whether a relationship {exists, is exclusive}.]]
+* Rejection is succcess.
+  :PROPERTIES:
+  :ID:       532d78ce-a09a-4d02-94c0-65354605bb9e
+  :END:
+  If I am never rejected, I am not reaching out enough.
+  Rejection does not imply they dislike me; they're probably flattered and|or wish they could take the opportunity.

@@ -3,23 +3,33 @@
 :ROAM_ALIASES: peace balance equilibrium "social harmony" relax
 :END:
 #+title: balance | peace | equilibrium | harmony | relax | calm
-* TODO merge with [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
-* peace v. motivation
-  :PROPERTIES:
-  :ID:       c2decf8f-87a5-41e0-86c6-a5633566acc6
-  :END:
-** [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
 * see also
 ** [[id:bf73fa6f-cd1a-4237-8bdb-7a98025cf226][wholeness]]  [[id:24fcf76a-fafa-4cb2-8312-43719f7aa207][fission]]  [[id:1a8ddfa4-0522-4c92-948a-21a97a277bcf][fusion]]  [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
+** [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][presence]]
 ** [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]
 ** [[id:1a9a90c1-ddfd-446b-ab69-f7be0db3ca10][solitude]]
 ** [[id:d3da70ea-0752-403d-a8eb-ebda828b7b7d][desire]]
 ** [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][acceptance | realism]]
-* Recognize [[id:27e8eac8-c5aa-464b-b34e-44589338931b][bias]], in oneself and others.
+** [[id:ee3db6a1-1143-439c-8912-10fb2a4d3b8d][numbness]]
+* TODO merge with [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+* [[id:20d36ee8-6f26-47ff-88cb-d85711027510][calm under stress]]
+* [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]]
+** peaceful motivation
+   :PROPERTIES:
+   :ID:       c2decf8f-87a5-41e0-86c6-a5633566acc6
+   :END:
+*** [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
+*** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
+* Recognize [[id:27e8eac8-c5aa-464b-b34e-44589338931b][bias]], in yourself and others.
   :PROPERTIES:
   :ID:       f4d489d8-3687-4377-8394-4d1aa16d8782
   :END:
+** Recognizing your own biases is freeing.
+** Recognizing others' biases is a step toward freedom from them.
+   toward preventing the other from,
+   whether intentional or not, harming you
 * peace in oneself
+** detachment
 ** [[id:2f3c6dae-ded0-43f0-8b3d-0e9d095d8904][Could appreciating drama help one cope with stress?]]
 ** Balance seems like an avenue to it.
    That is, if I know my choices thread the needle well,
@@ -66,4 +76,9 @@
 ** [[id:c238024d-5dfc-4df3-aae1-acef3d8b90bd][Excise my urge to change others.]]
 ** [[id:77bf63a4-6e87-41c0-8d97-327285715d49][love & peace -> monogamy]]
 ** [[id:4616df20-0eeb-4014-8f0d-04c14dcef195][Humility -> confession -> peace.]]
+* [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][presence | impermanence]]
 * [[id:911a611d-3b66-4d61-9f1a-6749cb09af71][& private]]
+* reciprocity
+  :PROPERTIES:
+  :ID:       5ffd0819-1aae-4aac-9008-1acd99a12f25
+  :END:

@@ -3,9 +3,17 @@
 :ROAM_ALIASES: emptiness vacuousness
 :END:
 #+title: emptiness | vacuousness
+* [[id:bc330f51-3f45-47df-95c2-6fa24e4a8a9f][lightness]]
 * emptinesss [[id:fcc04ddf-843f-4953-b23c-b525a9d6d652][is somehow near wholeness]]
 * [[id:8c655869-1805-4eb2-ae83-d53b51e14b88][There can be no surprise without expectation.]]
 * Why does "desire is infinite" feel vacuous?
   :PROPERTIES:
   :ID:       23bba9c1-1bbe-417a-9a45-e9eb577dc778
   :END:
+* ? fullness in emptiness
+  :PROPERTIES:
+  :ID:       4ff292ec-befe-4272-9dd7-740d6970fe32
+  :END:
+** "Does light go backward?"
+   How real, how present, is the low-entropy origin of the universe?
+** See the unbeings not being.

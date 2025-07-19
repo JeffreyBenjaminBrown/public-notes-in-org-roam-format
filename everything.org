@@ -10,10 +10,16 @@
 :ROAM_ALIASES: ideals values
 :END:
 ** = a valued set of skills & properties of situations
-** TODO merge [[id:245776bb-6704-44a1-be58-6cd962912937][<2025-05-05 Mon> notes from Wikipedia]]
 ** [[id:97565ea6-dddf-416c-a1fb-98bce5ec3c8c][Values are stories.]]
-** instances \ values
+** Values determine [[id:ed2e83cd-85ed-408a-bc28-21c8d4272f68][respect]].
+*** What we respect depends on our values.
+*** Who we respect depends on* what we think their values are.
+    (*) among other things
+** clear values (instances)
+*** [[id:327f86a7-36d9-47a1-9be2-78fb41d52175][order]]
 *** [[id:a41f56f0-6dcd-42af-8395-28c305ff493c][leadership]]
+*** [[id:0c575dde-46fd-4fcd-a9a7-1fb95ce42858][detachment]]
+*** [[id:7dd67daf-1939-48eb-875a-fd68362f7c59][resilience]]
 *** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 *** [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]]
 *** [[id:1a7a3ff7-e499-40fa-b81b-f06563bcb11e][flexibility]]
@@ -40,12 +46,23 @@
 *** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
 *** [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]]
 *** [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
-** [[id:5fb0c3e5-a80d-46be-b5c6-26accde35bb3][ambiguous valence]] \ instances \ values
+*** [[id:26172a65-6277-4cf9-a31e-325e29ee52b5][egalitarianism]]
+*** [[id:70d54c92-a5d4-4207-b07b-debe62c5db71][extroversion]]
+*** [[id:dae618bd-8f97-44ef-b22b-f72adef57bc8][fun]]
+*** [[id:1b4a962e-2549-4d7f-bf5c-a5d03767ac42][skepticism]]
+** [[id:5fb0c3e5-a80d-46be-b5c6-26accde35bb3][ambiguous]] values
 *** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
+*** [[id:83c7d5bd-c7c1-487a-aaba-75c5a2a79507][loyalty]]
 *** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
 *** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
 *** the [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]
 *** fame
+*** [[id:d1fba1a6-848f-4ab7-8626-c192dc259c42][sanctity | purity | innocence]]
+*** [[id:5ffd0819-1aae-4aac-9008-1acd99a12f25][reciprocity]]
+*** [[id:d76a35dd-8f17-4afb-8287-526e2a2384c0][individualism]]
+*** [[id:d4040ce4-85fd-4c3e-a059-3cef7162cd3f][collectivism]]
+*** [[id:26172a65-6277-4cf9-a31e-325e29ee52b5][universalism]]
+*** [[id:cd678fad-e062-4657-aea3-1023a438b951][tradition, stability, constancy]]
 ** anti-values
    :PROPERTIES:
    :ID:       157ed249-caa2-4b5c-af8d-9aaa51c93a04
@@ -63,21 +80,23 @@
 :PROPERTIES:
 :ID:       2370c5e8-e713-4d6f-8d6c-32f9b55523e1
 :END:
-** [[id:2b15a3ec-086b-4c66-af57-a03e706e1d84][joy]]
-** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]] (all kinds)
-** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
-** [[id:186371b0-e1eb-4a62-9354-f76fb3f63bbd][pleasure]]
-** [[id:d3da70ea-0752-403d-a8eb-ebda828b7b7d][desire]]
-** [[id:b745d109-6d7f-4638-beab-97bd26c8a936][awe]]
-** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
-** [[id:237c52c1-7bca-4b83-8b6b-b64ffe209438][awkwardness]]
-** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
-** [[id:dc735cdb-6166-4f57-b7aa-b537b1ecb98f][lost]]
-** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
-** [[id:5fe70812-fd17-4692-aa21-61a55c80ea71][nostalgia]]
-** [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][seriousness]]
-** [#B] ugly ones
+** nice ones
+*** [[id:2b15a3ec-086b-4c66-af57-a03e706e1d84][joy]]
+*** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]] (all kinds)
+*** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
+*** [[id:186371b0-e1eb-4a62-9354-f76fb3f63bbd][pleasure]]
+*** [[id:d3da70ea-0752-403d-a8eb-ebda828b7b7d][desire]]
+*** [[id:b745d109-6d7f-4638-beab-97bd26c8a936][awe]]
+*** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
+*** [[id:237c52c1-7bca-4b83-8b6b-b64ffe209438][awkwardness]]
+*** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
+*** [[id:dc735cdb-6166-4f57-b7aa-b537b1ecb98f][lost]]
+*** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
+*** [[id:5fe70812-fd17-4692-aa21-61a55c80ea71][nostalgia]]
+*** [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][seriousness]]
 *** [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
+** [#B] ugly ones
+*** [[id:9140d17d-528b-45cd-aa6b-2876f3a15b00][loneliness]]
 *** [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]
 *** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
 *** [[id:8b9a976f-2587-4c9f-95a9-eae483550d7b][pain]]
@@ -93,6 +112,7 @@
    examples
 *** [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
 ** instances
+*** [[id:ed75b1e5-4e6e-41a8-85cd-379161aa16e6][fate]]
 *** [[id:97565ea6-dddf-416c-a1fb-98bce5ec3c8c][values are stories]]
 *** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]] | laughter
 *** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]

@@ -19,3 +19,4 @@
 * [[id:17a7509c-9f40-4fb8-995f-3a8878c773c9][Intermittent fasting]] should reduce tooth rot.
 * [[id:cf824221-f6b8-4e26-9a76-e382db27ff2c][Delay caffein ingestion in the morning.]]
 * [[id:65b38a3d-59b2-4b05-a596-8e218a6a7d6a][Bubonic plague is free to be unusually lethal in humans.]]
+* [[id:da215312-ab85-4760-8799-63090c7f48ac][how snakes move]]

@@ -46,3 +46,12 @@
 * [[id:0cfdd6d1-c4ec-44b7-9855-ee917806ac11][incongruity]]
 * [[id:635a5922-bdc6-4350-8e80-80d181fc8646][Inferiority can be funny.]]
 * [[id:cc950648-3cf1-46f6-94dc-5703b818e6a3][Unawareness (esp. feigned) of self can be funny.]]
+* [[id:69742fd4-42e3-455a-9676-b22df32f814e][mimicry]]
+* funny as dares
+  :PROPERTIES:
+  :ID:       ff70ec1d-dcee-4c7e-9e41-885f2cca3dad
+  :END:
+** "You don't know (metaphorical) cookies!"
+** "Let's fall in love."
+* [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]ity
+** [[id:512026a4-8cd8-4735-88cd-aa3601ab32bb][Pointlessness can be funny.]]

@@ -7,7 +7,19 @@
 ** [[id:255a4912-7dbf-47f4-bff3-3917432616ef][taste (as in style)]]
 ** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
 ** [[id:3a009c94-db3a-4707-933b-e6c9ba4d4fee][social skills]] , personal
-* [[id:feb8cb2a-b057-48dd-836b-99985d9e7338][subtlety]]
+* qualities
+** [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness]]
+** [[id:feb8cb2a-b057-48dd-836b-99985d9e7338][subtlety]]
+* defensive
+** [[id:816bb2e3-64c6-4632-96c8-54ac642d7d43][Beware overweighting of first impressions, in yourself and others.]]
+* methods
+** [[id:2bcde31f-6002-4df1-812c-242f6110d6b3][Smile at everyone!]]
+** [[id:77f2a3f7-0689-4ece-bf28-a7e708c6a84b][play when appropriate]]
+* calm under stress
+  :PROPERTIES:
+  :ID:       20d36ee8-6f26-47ff-88cb-d85711027510
+  :END:
+  seems cool iff one's actions take the stress seriously enough
 * [[id:f95a0c86-497b-4f4d-b02e-83384955b42b][You don't have to promise more than you offer.]]
 * [[id:6de03e24-7211-4346-9383-64ded344e366][Confidence is comfortable.]]
 * [[id:a8760812-f098-4e39-aa4c-9d69a2e1fcba][Square mindfulness and being alone.]]
@@ -30,7 +42,6 @@
 * Sexiness is confident.
 ** Sexiness is confident about who (including nobody) to share what with.
 * Gravity when appropriate is sexy.
-* It is self-aware.
 * It [[id:92354831-6ca0-455b-b87e-0ae639bc651b][knows what to keep private.]]
 * It is [joking, restrained, serious, unconvinced] when appropriate.
 ** It is not too visibly [happy, interested] too often.

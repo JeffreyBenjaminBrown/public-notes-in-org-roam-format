@@ -7,20 +7,43 @@
 ** [[id:cbef2e05-df7f-4b7c-a1dc-5cb2166975d8][sharing]]
 ** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
 ** [[id:21577208-ba52-4105-8884-355fa27f128f][public influence]]
-* [[id:51cfa59e-4138-4d2d-8cae-5dbad26b78ad][sharing v. presence]]
-** [[id:c6eb0f31-04b3-4552-b52d-6bbaae98f34d][perception]]
-* [[id:f8a1040d-ef6f-4819-9f96-421a06182502][etiquette, information processing optimization]]
-* [[id:de26311c-9b4b-48f4-afa1-c7a680f73b30][Don't beat around the bush.]]
-* [[id:0099068b-7ef0-4413-b3aa-18997353baa4][Neither overshare nor undershare.]]
-* [[id:90e8a304-8144-4cae-8f2a-cbe04e7f5e17][Complimenting seems hard.]]
-* [[id:3b8b9e73-2244-4e2f-a05c-ea6f5895b861][Communication contains musical responsibilities.]]
-* [[id:eebbe152-9051-4935-8ae2-294147fc7ab1][charitable interpretation and redundancy in language]]
-* [[id:366e649f-c492-4acc-99ae-dc552cd78f25][conversation techniques]]
-* Did playing poker help me understand how to talk?
-  :PROPERTIES:
-  :ID:       49b25a29-788c-4b7b-a869-333435a7b646
-  :END:
-** [[id:826d25ae-b544-4ad7-80fb-74f366bd3973][Every word should have a purpose.]]
+* good advice
+** Prove that you are listening.
+   Ask good questions, make good comparisons,
+   simply repeat key points, etc.
+*** Ask a question, repeat their answer in my own words, ask if I got it right.
+** [[id:36d50f77-24a6-4882-8092-3c7895a01626][Shared complaints are a conversational black hole.]]
+** [[id:2a435ecf-ddb5-4822-b52f-0667a02ac52c][Doorknobs -- good conversation has lots of.]]
+** Ask open-ended questions.
+   rather than (only) ones with yes/no answers
+** Share first. Become more intimate, slowly.
+*** example
+    start with mundane stuff, like vacation plans
+*** shades of tit-for-tat
+    the economic strategy for the repeated prisoner's dilemma
+** Show appreciation.
+** [[id:ea703938-f201-4f3b-ac07-e4c8b688e9de][Speeches at beginnings and ending are important.]]
+** [[id:f8a1040d-ef6f-4819-9f96-421a06182502][etiquette, information processing optimization]]
+* tensions
+** [[id:51cfa59e-4138-4d2d-8cae-5dbad26b78ad][sharing v. presence]]
+*** [[id:c6eb0f31-04b3-4552-b52d-6bbaae98f34d][perception]]
+** [[id:35e62792-6cce-404a-807f-c0e74c8b41da][Does efficient conversation have (conscious) goals?]]
+** [[id:0099068b-7ef0-4413-b3aa-18997353baa4][Neither overshare nor undershare.]]
+** [[id:90e8a304-8144-4cae-8f2a-cbe04e7f5e17][Is complimenting hard?]]
+* impediments
+** [[id:4edebed8-031e-4e3b-b73f-48becb4a3e70][self-consciousness]]
+* mechanisms
+** [[id:3b8b9e73-2244-4e2f-a05c-ea6f5895b861][Communication contains musical opportunities.]]
+** [[id:366e649f-c492-4acc-99ae-dc552cd78f25][conversation techniques]]
+** Did playing poker help me understand how to talk?
+   :PROPERTIES:
+   :ID:       49b25a29-788c-4b7b-a869-333435a7b646
+   :END:
+*** [[id:826d25ae-b544-4ad7-80fb-74f366bd3973][Every word should have a purpose.]]
 * [[id:5ddd7d5d-2c98-4f47-bd5f-3c38629ec4ea][negotiation]]
 * [[id:ac9caea1-3d84-41eb-afc9-16018c542f16][sermons]]
 * [[id:f3b1cc7c-1799-4a88-827c-1b81d5786109][bearing witness]]
+* technical
+** [[id:eebbe152-9051-4935-8ae2-294147fc7ab1][charitable interpretation and redundancy in language]]
+** [[id:bba21091-bbfa-4749-b929-0ac844934e62][whether to send a message to a group]]
+*** [[id:2285e62f-1ae9-4b2b-b3b0-cf9d973c6534][organizing people]]

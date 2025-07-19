@@ -1,36 +1,55 @@
 :PROPERTIES:
 :ID:       97cfad8a-0d5e-4fca-915b-c6b13ac8b788
-:ROAM_ALIASES: fear vulnerability daring danger
+:ROAM_ALIASES: fear vulnerability daring danger thrill freaky
 :END:
-#+title: fear | vulnerability | daring | danger
+#+title: fear | vulnerability | daring | danger | thrill | freaky
 * see also
+** [[id:5357b637-c959-455f-b171-429390edbc04][conflict]]
 ** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
 ** [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]]
 ** [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][living like there's no tomorrow]]
-* [[id:17762c0f-5024-43de-af31-1626cf9a9b28][It is right to spend non-uniformly over time.]]
-* insecurity
-:PROPERTIES:
-:ID:       28181732-11ed-4a6a-a998-84d40d32affb
-:END:
-= a feeling of being insufficient or unworthy
-** [[id:ffaffb1d-45c9-405b-a20a-e0be65cb2ab6][workaholism & insecurity]]
-* [[id:a27f2004-c6e1-4833-9b15-be68554f20f0][Recognize fear in your aversions.]]
+* good advice
+** [[id:a27f2004-c6e1-4833-9b15-be68554f20f0][Recognize fear in your aversions.]]
+** [[id:17762c0f-5024-43de-af31-1626cf9a9b28][It is right to spend non-uniformly over time.]]
+*** daring
+** lesser
+*** [[id:f2fde5ec-df2c-4273-8850-0927e353f87e][It's okay to use a little time/processing to plan your speech at the end asking for everyone's number.]]
+* cool stories
+** [[id:328db101-ef24-4e86-8746-4d594d41656b][Jaime Garzon's recklessness]].
 * things to fear
-** [[id:7af66981-1b1f-4861-81f1-5d9f0cbcb00f][authoritarianism]]
 ** [[id:cfb978fb-1478-446e-9545-92a6fd17ac50][encouraging bad behavior]]
 ** [[id:655f20f5-85bc-4dbd-ac6c-96735a0c202e][human superintellgence]]
+** [[id:7af66981-1b1f-4861-81f1-5d9f0cbcb00f][authoritarianism]]
 * manifestations of fear
   :PROPERTIES:
   :ID:       4f7c0f4a-c0b3-4d10-893f-fe46d5f8a032
   :END:
-  so far all rational ones
-** shyness
-   :PROPERTIES:
-   :ID:       4858b083-0138-426d-b12c-b36bfe513f26
-   :END:
-*** [[id:bb1e7ff9-7b57-4ab2-976c-a3ef4ad41ba1][flirting through dance at a rock concert]]
-** [[id:05d467c3-fffd-457a-af5c-099f49b4b179][desperation and despair]]
-** [[id:5194fc12-7197-448e-9e42-4fe3872bd8ed][Fawning can be a trauma response.]]
-* [[id:f2fde5ec-df2c-4273-8850-0927e353f87e][It's okay to use a little time/processing to plan your speech at the end asking for everyone's number.]]
-* [[id:328db101-ef24-4e86-8746-4d594d41656b][Jaime Garzon's recklessness]]
-* In my code, "pitfall" could be more clearly expressed as "danger".
+** rational ones
+*** shyness
+    :PROPERTIES:
+    :ID:       4858b083-0138-426d-b12c-b36bfe513f26
+    :END:
+**** [[id:bb1e7ff9-7b57-4ab2-976c-a3ef4ad41ba1][flirting through dance at a rock concert]]
+*** [[id:05d467c3-fffd-457a-af5c-099f49b4b179][desperation and despair]]
+*** [[id:5194fc12-7197-448e-9e42-4fe3872bd8ed][Fawning can be a trauma response.]]
+** rationality questionable
+*** insecurity (self-image)
+    :PROPERTIES:
+    :ID:       28181732-11ed-4a6a-a998-84d40d32affb
+    :END:
+  = a feeling of being insufficient or unworthy
+**** [[id:ffaffb1d-45c9-405b-a20a-e0be65cb2ab6][insecurity => workaholism]]
+**** Whether this is rational depends on a somewhat [[id:bc330f51-3f45-47df-95c2-6fa24e4a8a9f][arbitrary]] judgment call.
+* fear & poverty & mental health
+** [[id:5b6cb0ed-3a3a-4a58-afb5-a1eae4fae934][Money and safety let you think about other stuff.]]
+* [[id:e0046043-26d0-4978-89c2-0a0643bb1249]["You only live once," has a strange logic.]]
+* suspicion
+  :PROPERTIES:
+  :ID:       46a127d8-3832-4312-817c-6bfa2dc87d39
+  :END:
+** [[id:2f2948f4-86eb-4122-a258-18691fd01861][I let monogamy -- entirely in my head -- prevent me from getting peoples' numbers.]]
+* danger & programming
+  :PROPERTIES:
+  :ID:       d64ec5df-18d1-4a91-bda2-05bed28fc5a9
+  :END:
+** In code, "pitfall" could be more clearly expressed as "danger".

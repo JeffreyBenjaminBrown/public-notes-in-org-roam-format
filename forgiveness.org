@@ -7,7 +7,11 @@
   :PROPERTIES:
   :ID:       26290712-1bf6-4d1a-bac6-37b9ea24e574
   :END:
-* Forgiveness is a form of [[id:6e537826-402f-4254-a40a-652b31e2390a][transcendence]].
+** Self-forgiveness is a strange kind of humility.
+   :PROPERTIES:
+   :ID:       ec4c1f30-249d-406d-acfb-1c69e68405ec
+   :END:
+* {Forgiveness, mercy} is a form of [[id:6e537826-402f-4254-a40a-652b31e2390a][transcendence]].
   :PROPERTIES:
   :ID:       5b9caf47-ff2f-4821-8476-2dee77d51ec4
   :END:
@@ -17,7 +21,7 @@
   :ID:       831e6de2-9288-4fec-8a26-b3e6530a9067
   :END:
 ** [[id:413c6cce-ae3d-42c2-b2c8-c0b71ddbd935][Recognize sunk costs.]]
-** You'll be better off as a friend of the wrongdoer.
+** You'll (usually) be better off as a friend of the wrongdoer.
    Forgiveness in these conditions would be optimal if
    the world also would be better off.
 * see also
