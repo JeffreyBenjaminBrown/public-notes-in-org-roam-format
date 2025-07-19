@@ -3,9 +3,58 @@
 :ROAM_ALIASES: "how to use a knowledge graph" "how to knowledge graph"
 :END:
 #+title: using a knowledge graph
-* "How to use knowledge"?
-* responsibilities
-** Responsibilities to yourself
+* problems
+** doubt
+   (and rebuttal)
+*** This note is, in part, "how to curate knowledge".
+    Some kind of Godelian limit would seem to apply.
+    But still plenty of helpful mechanism can be described.
+** Does [[id:8e2c3a3f-f0e1-46f3-af4c-a265312346ca][the stress of integration]] prevent me from reading my graph?
+** Context-switching makes reading a backlinks menu hard.
+   Unlike reading content,
+   each (in general) item in a list of backlinks
+   requires a context switch.
+* good advice
+** Appreciate how suprising the content behind any link can be.
+   Surprisingly often, even for things I wrote,
+   I am surprised at how different following the link was from my expecation.
+*** example(s)
+    [[id:fe6020ff-3dfe-40ed-8724-e226eef4694a][fear of God : useful]]
+** Remember that something's content is not always elaboration.
+   Remember this when deciding whether to follow a hyperlink.
+   The content targeted by the link
+   might veer offf in completely unexpected directions,
+   (even if you took the note!)
+   and often includes counterexamples, caveats, nuances.
+* hypotheses
+** Appending seems usually better.
+*** the idea
+    Adding a new note to the end seems better than adding to the start.
+    That's because you're going to read the note from top to bottom.
+    If new things go to the top you might never find the old things.
+*** exceptions
+**** clarifying how to read the rest of the file
+**** sure that the new thing is more valuable than what it buries
+* aspirations
+** Discover the ant algorithm.
+* u
+** interpretations of punctuation
+*** () is optional, whereas [] and {} are mandatory but perhaps holding disjunctive options
+** ordering branches
+   schemes
+*** bubble up from the bottom until indifferent
+    Add a new idea to the bottom of the list, then raise it,
+    until it's not obviously better than the thing above it.
+*** ideas about being > ideas about doing
+    This is a spectrum, not a binary.
+    This pattern, like any pattern,
+    will likely manifest fractally throughout the tree.
+*** [[id:cf2e9be0-dd55-4f08-84fd-7d456faee1a1][a tentative universal order for branch lists]]
+** My "technical" label seems ambiguous.
+   It could be about mechanisms with or without associated goals.
+   Maybe I should split it into "mech" and "use".
+* writing duties
+** Duties to yourself
 *** If you (habitually) write to it, revise it.
 **** A note accreted to and then observed as a collection might reveal itself to be a bad idea this way.
      How that happens is fun, and probably worth understanding.
@@ -23,7 +72,7 @@
     More universal = more people who might find the idea useful.
 *** Dare to record your insights.
     In short time, revising them will surprise you.
-** Responsibilities to others.
+** Duties to others.
 *** Dare to imagine others want your insights.
 *** Dare to imagine you need others' insights.
 *** Download, read and link to other peoples' notes.
@@ -111,5 +160,5 @@ reading and rewriting my notes
 * [[id:05a84243-9dcf-4492-b81e-a48fd2f53b3c][knowledge graphs and/or meditation]]
 * [[id:514fe55a-d22c-4e6a-9b0f-3a01a89742db][Review notes before any high-pressure situation.]]
 * [[id:d283b6a3-205b-4a7c-9338-aa458f091691][Use my "prefix-date-uri" script.]]
-* [[id:30478629-506c-4acf-aec8-b74e977a2234][how to take notes on people and communication]]
 * [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to avoid losing notes in a knowledge graph]]
+* [[id:7ae561f9-6dfb-4ebb-b95d-af26876a854a][poetry and logic v. the infinite]]

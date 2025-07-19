@@ -4,7 +4,7 @@
 :END:
 #+title: accomplished by AI
 * AI seems great for nutritional advice.
-* social skills & AI
+* AI accomplishments / social skills
   :PROPERTIES:
   :ID:       370fc155-72ba-4394-b3cd-92186871ab29
   :END:
