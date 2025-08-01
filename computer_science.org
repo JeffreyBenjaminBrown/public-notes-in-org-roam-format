@@ -3,14 +3,19 @@
 :ROAM_ALIASES: programming
 :END:
 #+title: computer science
-* SOLID
-** D = [[id:52e2587c-3485-45cb-9456-d2c9746b2c4d][dependency inversion]]
-* some CS papers I would like read
-** https://x.com/Franc0Fernand0/status/1945447159739924706?s=19
-* rather than "pitfall", write "danger"
-* TODO ? Just looks nice: Like make, but with completion at the command line, other improvements.
-** https://github.com/casey/just
-* [[id:4f6e7dfd-2b17-474b-9126-714bfb76156e][mutual recursion: an easy example]]
+* s
+** to read : by others on it
+*** https://x.com/Franc0Fernand0/status/1945447159739924706?s=19
+** Some things are right to forget.
+** [[id:52e2587c-3485-45cb-9456-d2c9746b2c4d][dependency inversion]]
+** code, the language of
+*** Rather than "pitfall", write "danger".
+** tools
+*** "just" improves on "make"
+    with completion at the command line,
+    and other improvements.
+**** https://github.com/casey/just
+** [[id:4f6e7dfd-2b17-474b-9126-714bfb76156e][mutual recursion: an easy example]]
 * subfields
 ** [[id:e1f7f6e9-3a9a-4804-91f5-7751d7f4e9b8][algorithms]]
 ** [[id:627da2c2-2f34-46ac-a6d3-9c625c4ff31d][artificial intelligence]]

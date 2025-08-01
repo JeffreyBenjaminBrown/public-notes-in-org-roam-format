@@ -7,12 +7,14 @@
 * [[id:b6b05dc0-b157-455e-a7b2-3a1959fe1957][animals]]
 * sub-disciplines
 ** [[id:16127b31-70f5-4098-a5c1-1df7cfc93128][bioinformatics]]
-** [[id:b4a6ab65-7303-49c6-8acd-4bcb5a68f7f8][human anatomy]]
+** [[id:7669abd1-2539-4768-ae39-1825ced6bc86][humanity]]
 ** [[id:3b1ec239-3bdf-4d05-a300-3494971e39e9][evolution]]
 ** [[id:185827a6-a19a-4da0-a251-897c41ef3a20][cell biology]]
 ** [[id:7c70d045-6b4f-4957-a524-cf4c63204c84][neurology]]
-* [[id:17d80aa8-0cbf-4d6d-b923-ec9e19257231][Among animals, fructose is uniquely bad for humans.]]
 * [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep]]
+* organs
+** [[id:cfb0b93a-3c93-4ddc-8753-787ab12ccbe4][ear]]
+** [[id:cb0e6796-84f7-40fa-8da3-370b3fec50cf][nose]]
 * [[id:6912dba3-ec0c-4a90-97c1-d8dd74496166][easy macroscopic DIY medicine]]
 * [[id:5c4aa81a-3cdf-47b9-a912-56f32e862b93][Astronauts can't drink soda.]]
 * [[id:a02564b3-091d-46fa-aefa-6e5252b2fd63][Why humans babies suck.]]
@@ -20,3 +22,8 @@
 * [[id:cf824221-f6b8-4e26-9a76-e382db27ff2c][Delay caffein ingestion in the morning.]]
 * [[id:65b38a3d-59b2-4b05-a596-8e218a6a7d6a][Bubonic plague is free to be unusually lethal in humans.]]
 * [[id:da215312-ab85-4760-8799-63090c7f48ac][how snakes move]]
+* humanity
+** organs
+*** [[id:cfb0b93a-3c93-4ddc-8753-787ab12ccbe4][ear (human organ)]]
+*** [[id:cb0e6796-84f7-40fa-8da3-370b3fec50cf][nose (human organ)]]
+** [[id:17d80aa8-0cbf-4d6d-b923-ec9e19257231][Among animals, fructose is uniquely bad for humans.]]

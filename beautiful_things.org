@@ -24,3 +24,6 @@
 ** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][injustice vanishing]]
 ** [[id:0c237b5f-6a18-4f3b-901d-6db58b41a32a][Many who are first shall be last ...]]
 ** [[id:6f008b2d-17ed-4a0e-bc85-40ce8968c5e5][lost in time]]
+* [[id:0c399e74-6d5e-4f0a-95e5-331a7239b19d][elegance = constrained optimization]]
+* [[id:de98c3eb-27ba-4a51-9875-9af3c6e2c2dd][instances]]
+* [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]]

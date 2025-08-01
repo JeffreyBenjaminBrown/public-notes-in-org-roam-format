@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       a9704106-6ea1-40b8-8127-fa2e88d82bae
-:END:
-#+title: beauty
-* [[id:0c399e74-6d5e-4f0a-95e5-331a7239b19d][elegance = constrained optimization]]
-* [[id:de98c3eb-27ba-4a51-9875-9af3c6e2c2dd][instances]]

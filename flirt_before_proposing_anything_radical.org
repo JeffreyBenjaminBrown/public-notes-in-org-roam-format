@@ -2,6 +2,8 @@
 :ID:       4ec07465-7323-47c3-a8b4-8d81f383b119
 :END:
 #+title: Flirt before proposing anything radical.
-* Why?
-  I don't know, but it is the done thing, and feels correct.
+* "Flirt, don't blurt."
+* [[id:5e46e9cf-b0fb-4967-b84c-040c8441f74c][why flirting is subtle]]
+  It is the done thing, and feels correct,
+  but I don't know.
 * see also [[id:de26311c-9b4b-48f4-afa1-c7a680f73b30][Don't beat around the bush.]]

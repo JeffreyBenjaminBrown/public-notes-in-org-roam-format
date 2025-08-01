@@ -7,6 +7,8 @@
    https://marcosh.github.io/post/2025/07/09/decoupling-from-dependencies.html
 ** Marco's GitHub
    https://github.com/marcosh
+* its fame
+** It's the I in SOLID.
 * It's possible when
 ** your code calls a library.
 * minimal code example, with one function

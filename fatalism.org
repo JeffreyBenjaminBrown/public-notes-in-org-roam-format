@@ -2,8 +2,12 @@
 :ID:       f1a5c61e-6aa2-4a74-9113-2404c8d6f674
 :END:
 #+title: fatalism
-* = belief that something is inevitable
-* see also [[id:cd9ea78e-bc53-426e-9011-70a5d8d1ccde][fate]]
+* definition(s)
+** a belief that something is inevitable
+** Commitment to an unsatisfying but not-worst strategy.
+* see also
+** [[id:cd9ea78e-bc53-426e-9011-70a5d8d1ccde][fate]]
+** [[id:27f9e7f9-f2d4-48f2-80f9-d3443080681f][nihilism]]
 * [[id:413c6cce-ae3d-42c2-b2c8-c0b71ddbd935][Recognize sunk costs.]]
 * TODO ? merge [[id:05d467c3-fffd-457a-af5c-099f49b4b179][despair]]
 * [[id:cab92776-7a82-42a6-903e-14c102873c6e][peace & realism]]

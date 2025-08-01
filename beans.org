@@ -2,6 +2,29 @@
 :ID:       0cb70005-87b9-43a3-96e8-45906f1561ec
 :END:
 #+title: beans, cooking
+* making it this time, <2025-07-28 Mon>
+** preparing the beans
+*** amount of and which beans
+    2.5 big white cups (so almost 5 real cups)
+    maybe 25% garbanzo, 75% red beans
+*** baking soda
+    1 flat teaspoon from the heavy silverware
+*** 3 10-minute boils
+    rinsing twice after the first boil (with baking soda),
+    but only once after the other two boils (without it).
+** other ingredients
+   aquí "tasa" quiere decir "tasa de medición" -- las metales
+*** al estar terminando los frijoles, 10 tbsp vinagre
+    10 tbsp = 5/8 tasa de medición
+*** 2 tbsp de la sal, cristales grandes
+*** 3 zanahoria
+*** 2 cebolla
+*** 4 apio
+*** 4 ají
+*** 2 tomates
+*** 6 pedacitos de ajo
+*** 4 papas
+*** hierbas
 * was great, 2 big cups garbanzos <2025-06-30 Mon>
 ** garbanzos :: 2 big white cups = maybe 3.9 cups
 ** 2 tbsp vinegar per cup of beans

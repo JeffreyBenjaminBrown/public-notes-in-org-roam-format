@@ -2,6 +2,7 @@
 :ID:       e7a68f0b-f932-4978-9636-88a4ecbe639c
 :END:
 #+title: art
+* see also [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 * TODO Art is not always for pleasure.
   :PROPERTIES:
   :ID:       fe4939fe-8b94-4b78-914f-f2b83d7ff9f4
@@ -28,3 +29,4 @@
   :PROPERTIES:
   :ID:       4ab66dd2-71c7-4afe-a7ee-bd6b34b6fc8d
   :END:
+* [[id:6669f82f-9408-4a1a-9162-863972be8150][AI and art]]

@@ -3,6 +3,9 @@
 :ROAM_ALIASES: forgiveness
 :END:
 #+title: forgiveness, inc. self-forgiveness
+* Its generalization* is cool.
+  namely:
+  [[id:f1ef6548-3323-4be1-b3c2-8cb38aec7b21][Generalizing, forgiveness is a way to reconceive of a relationship.]]
 * humility -> forgiveness -> freedom
   :PROPERTIES:
   :ID:       26290712-1bf6-4d1a-bac6-37b9ea24e574

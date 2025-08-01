@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       2dfb86be-9eb5-4262-a9b7-a48fa0f9ac58
+:END:
+#+title: merging in a knowledge graph
+* Automating this is feasible as an org-roam extension.

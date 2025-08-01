@@ -13,3 +13,4 @@
 * => emotional robustness to setbacks
 * [[id:5599d39f-83c8-4d1f-bf31-304b761e0f69][hope v. fun : competing hypotheses for motivation]]
 * [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][presence | impermanence]]
+* [[id:7aef35f2-43a8-4376-b31a-379da833254e][stoicism]]

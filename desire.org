@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       d3da70ea-0752-403d-a8eb-ebda828b7b7d
+:ROAM_ALIASES: passion lust desire
 :END:
-#+title: desire
+#+title: passion
 * Often its object assuages one anxiety and provides* another.
   :PROPERTIES:
   :ID:       c89ef761-2f1b-4840-89c5-6725354cf356
@@ -28,3 +29,4 @@
 *** [[id:d4b3a89a-3bbe-48d0-80c3-04a375ef4fb4][Lust can feel like mind-rot.]]
 *** [[id:94560eb7-3ea1-4098-9107-e083459de5cc][Lust can feel correct.]]
 ** [[id:357a78c5-f0e8-4811-9f1e-e7d56ac797cd][How different are lust and greed?]]
+* [[id:171d333c-3222-46a4-8e09-241c0b3062d3][to feel owed more adventures by {reality, oneself}]]

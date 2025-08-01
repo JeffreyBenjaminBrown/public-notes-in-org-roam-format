@@ -7,9 +7,6 @@
 * Fast sometimes
 * Get sun
 * TODO Avoid these foods
-  :PROPERTIES:
-  :ID:       d8ccc0a4-ef6a-4d0e-a392-e1d7da2844c1
-  :END:
 ** TODO if bread, no gluten
 ** meat
 ** dairy
@@ -26,6 +23,9 @@
 *** if alcohol, no fats, esp. fats from meat
 ** TODO evitar cerdo, bagre y mariscos
 * Target certain foods
+  :PROPERTIES:
+  :ID:       d8ccc0a4-ef6a-4d0e-a392-e1d7da2844c1
+  :END:
 ** nuts, dried fruits
 ** oatmeal
 ** apples

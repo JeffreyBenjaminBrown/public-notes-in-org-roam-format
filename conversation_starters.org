@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       366e649f-c492-4acc-99ae-dc552cd78f25
+:ROAM_ALIASES: "conversation starters" "revealing questions"
 :END:
-#+title: conversation starters, some
+#+title: conversation starters | revealing questions
 * refs
   https://www.wsj.com/articles/have-better-conversations-with-friendsor-anyone-11658845993?mod=djem10point
 ** Increasing intimacy of questions -- 36 fast friends something.
@@ -9,8 +10,31 @@
    Praised by The Economist, others.
 ** [[/home/jeff/Books/Can-I-Ask-You-A-Personal-Question.2015.Jon-Steele.epub][Can I Ask You a Personal Question, by Jon Steele]]
 ** Can I Ask You a Question, by Amanda Levitt
+* AI prompt for more instances
+I would like to have some questions that help me understand someone's brain fast -- their values, their beliefs, their emotional valence(s) in different situations, etc. Some favorites follow. Can you think of others?
 * instances
-** What's something you once did that you would never do now? What's the most recent such thing?
+** Smile.
+   This alone can induce the other to start a conversation.
+** "Hi, I'm (name)."
+** state interest
+*** "Hi. I don't know anyone here. Do you want to talk (for a while)?"
+*** "I think you're really {brilliant, attractive, ...}. Would you like to talk?"
+** superpower
+*** “If you woke up tomorrow and money was no object, how would you spend your day?”
+*** “If you had the power to fix one global problem instantly, which would it be and why?”
+*** “You get one year to learn any skill with guaranteed success—what do you choose?”
+** ambition
+*** “If you had to choose between a guaranteed, comfortable life or taking a big gamble for the chance of incredible success, which would you pick?”
+*** How would you behave if you faced the trolley problem?
+** inner change
+*** “Name one belief or opinion you used to hold strongly but have since changed your mind about—what shifted for you?”
+*** What's something you once did that you would never do now? What's the most recent such thing?
+** one emotion
+*** “If you could choose a single emotion to experience for the rest of your life—but only that emotion—what would it be?”
+** loyalty
+*** “You see your close friend cheating on a major exam that could change their life. Do you intervene, report them, or look the other way?”
+** zeal
+   "Would you live forever if you could?"
 ** [[id:aa7d8bec-8ad4-4bf3-802f-3e8a38063c3e][what do you (often, in _ situation) imagine]]
 ** ask them (implicitly) to analyze
 *** What'ssomething you love to do?
@@ -26,4 +50,4 @@
 *** Tell me about your hometown.
 *** Say more about your day.
 *** Explain your work to me.
-** (in response to a raised eyebrow): Tell me about that look.
+** (in response to a raised eyebrow): "Tell me about that look."

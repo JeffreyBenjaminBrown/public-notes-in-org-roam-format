@@ -4,6 +4,7 @@
 #+title: awkwardness
 * see also
 ** [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-consciousness]]
+** [[id:2337a584-9297-4087-9664-a10dbeeafca3][confession]]
 * [[id:1948b463-df60-40b6-b6f8-1bc25b648775][weird awkward nonresponse]]
 * [[id:0a3333bc-3692-409b-9ba6-2b2c41ea9324][Awkwardness is funny.]]
 * oversharing
@@ -18,3 +19,5 @@
   is weird because you're not supposed to look at the other,
   but rather at the stage.
   To me it feels shy, borderline autistic.
+* some personal awkward experiences
+** [[id:84556ccf-71cb-4557-b557-a572085f2ec9][<2025-07-22 Tue> C's confession]]

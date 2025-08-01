@@ -3,14 +3,55 @@
 :ROAM_ALIASES: "lifting weights" "weightlifting" "working out" "workouts" "fitness"
 :END:
 #+title: exercise
-* some leg routines, no equipment needed
-** https://www.facebook.com/share/r/1BXcdyx3ag/
-** https://www.facebook.com/share/r/1E9dCYqs68/
-** https://www.facebook.com/share/r/1512Gy4FWd/
+* [[id:0d7a27cc-5912-4423-981c-c4c030098037][weight]]
+* some exercises, by area
+** cosmetic, safe to skip
+*** shrugs
+*** lateral raises
+    standing upright, lifting weights from hips outward
+    until the body forms a T
+** legs
+*** squats
+*** cossacks
+*** hip thrusts
+    face up, neck and arms on couch, feet on floor,
+    lift hips from floor, squeezing glutes at top
+*** skater jumps | lateral bounds
+*** some videos of some routines, no equipment needed
+**** https://www.facebook.com/share/r/1BXcdyx3ag/
+**** https://www.facebook.com/share/r/1E9dCYqs68/
+**** https://www.facebook.com/share/r/1512Gy4FWd/
+** back
+*** Bent over reverse flies
+**** Which also gets the shoulders
+*** Deadlifts
+*** rows, inverted if I can
+** chest
+*** deficit pushups
+    With the hands on plates, so that you can go down further.
+    A bar won't work for that.
+*** surplus pushups
+    The opposite of deficit push-ups, where the feet are elevated.
+    I invented the name.
+*** archer pushups
+    Going back and forth between one hand and the other.
+*** Deficit and surplus pushups render ordinary ones redundant.
+** shoulders
+*** overhead press
+*** bent over reverse flies
+    :PROPERTIES:
+    :ID:       9c95daac-848c-4880-bb96-45e653b8e404
+    :END:
+    Also gets back.
+    One-handed if lower-back needs the support.
+*** bent over rotator cuff extensions
 * [[id:dc63b8e2-f13a-4618-a591-6e65a17cc824][Fartleks]] are good.
-* maybe buy a [[id:79816c6a-92e4-4ef1-89b7-3db5e9b879f1][ring to work out hips]] at work
 * [[id:b24215c5-beab-427e-9ff1-8d92ea2d1159][mobility exercises]]
 ** maybe stale: [[id:201e303a-dcc0-4e88-acd1-9329182af5a3][neck exercises]]
 * [[id:83cd9fdf-04fe-4f2d-8013-c0e4d7c3e8df][climbing (sport) & jbb]]
 * fantasy
 ** [[id:693609dd-82ed-4749-9cde-ef03cdfc4562][walking office work exercise utopia]]
+* nah
+** goofy workout equipment
+*** a [[id:79816c6a-92e4-4ef1-89b7-3db5e9b879f1][ring to work out hips]] while seated
+    Standing is better.

@@ -11,8 +11,11 @@
   :ID:       1ba589c3-00f6-45a8-b5f3-e6c697e89030
   :END:
 ** Requires sufficient [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][self-confidence]] from both parties.
-** Trust might not be required but surely helps.
+** [[id:d8d3de1c-12fc-4848-9618-f3924c2edc3d][Trust might not be required but surely helps.]]
+* trust
+** [[id:d8d3de1c-12fc-4848-9618-f3924c2edc3d][Trust might not be required but surely helps.]]
 * [[id:dab9c4a0-5337-4360-8da0-58a77f1276f3][enthusiasm]]
+** Sometimes {[[id:dab9c4a0-5337-4360-8da0-58a77f1276f3][enthusiasm]], [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]} is funny.
 ** [[id:4837bd81-52cf-489f-9543-cf1f5b57df2b][Enthusiasm is funnier.]]
 * [[id:57988979-26d7-43d9-863f-14d1e21b5f2f][Contrast can be funny.]]
 * [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
@@ -55,4 +58,5 @@
 ** "Let's fall in love."
 * [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]ity
 ** [[id:512026a4-8cd8-4735-88cd-aa3601ab32bb][Pointlessness can be funny.]]
+* [[id:65dc22b6-1e38-43f0-aa4d-9d1f1f4a0e14][partial logic]]
 * [[id:823f3fab-787b-44f2-800e-d9260c1ec14c][Trying to hide an orgasm is funny.]]

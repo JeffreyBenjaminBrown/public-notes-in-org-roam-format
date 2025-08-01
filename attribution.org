@@ -3,10 +3,14 @@
 :ROAM_ALIASES: "theory of mind"
 :END:
 #+title: attribution
-* = attributing qualities to a person
+* definition(s)
+** attributing qualities to a person
+** theory of mind
 * qualities to know
 ** "[person] is easy to talk to (about (_ | anything))"
 ** "[person] wants to spend more time with me"
+* Choices are objective but preferences are hypothetical.
+  Even in oneself.
 * [[id:1d2db651-b907-42a8-922f-11a77c55d5c0][I want my models of others to be more interesting and varied.]]
 * [[id:816bb2e3-64c6-4632-96c8-54ac642d7d43][Beware overweighting of first impressions, in yourself and others.]]
 * [[id:06b856e9-50fb-4025-9276-cd0b2b945fa8][Knowing how self and other feel can both be tricky.]]

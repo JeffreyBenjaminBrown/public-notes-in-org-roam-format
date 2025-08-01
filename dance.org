@@ -5,6 +5,7 @@
 * see also
 ** [[id:2b15a3ec-086b-4c66-af57-a03e706e1d84][joy]]
 ** [[id:c0aab161-bd95-4ede-b211-458ac934369b][musical responsibility]]
+** [[id:cbef2e05-df7f-4b7c-a1dc-5cb2166975d8][sharing]]
 * methods
 ** Use momentum to save energy.
 ** Vary durations.
@@ -12,9 +13,15 @@
 ** Vary the spotlit muscle.
 ** Match one muscle's duty cycle to a musical voice.
    while others stay full duty
-* some dances
+* instances, concrete
 ** a cool floaty dance
    https://www.facebook.com/share/r/1DUuuiQ8mD/
 ** something to study
    https://www.facebook.com/share/r/1FscJoSycB/
+* instances, abstract
+** [[id:441ca283-d501-46e8-ac74-03de482a3e0f][star-system and interstar-system]]
+** catcher
+   :PROPERTIES:
+   :ID:       58a3b3ce-dc2c-4699-9dcf-37e10a84544d
+   :END:
 * [[id:d083cf2b-8860-4817-b8db-9205cf15de24][& private]]
