@@ -8,6 +8,8 @@
    because my code uses it, at least when spawning threads
 ** RESUME in ch 17 at
    https://doc.rust-lang.org/book/ch17-02-concurrency-with-async.html
+* TODO questions
+** What is `impl` for?
 * tooling
 ** SOLVED [[id:b91d42ba-f87b-4bad-960b-2e1d467bee26][cargo and apt stopped working in Docker, could not connect]]
 ** how to initialize a project
@@ -58,6 +60,211 @@
  path = "not-main.rs"
  #+END_SRC
 * language
+** Enums are sum types.
+*** define and use constructors
+#+BEGIN_SRC rust
+    enum IpAddr {
+        V4(u8, u8, u8, u8),
+        V6(String),
+    }
+    let home = IpAddr::V4(127, 0, 0, 1);
+    let loopback = IpAddr::V6(String::from("::1"));
+#+END_SRC
+*** Fields can optionally be named.
+**** PITFALL: Use braces, not parens, if naming fields.
+**** example
+#+BEGIN_SRC rust
+enum Message {
+    Quit,
+    Move { x: i32, y: i32 },
+    Write(String),
+    ChangeColor(i32, i32, i32),
+}
+#+end_src
+*** can define a struct for each variant
+#+BEGIN_SRC rust
+struct Ipv4Addr {
+    // --snip--
+}
+
+struct Ipv6Addr {
+    // --snip--
+}
+
+enum IpAddr {
+    V4(Ipv4Addr),
+    V6(Ipv6Addr),
+}
+#+END_SRC
+** `match` keyword
+*** `match`
+**** example
+#+begin_src rust
+enum Coin {
+    Penny,
+    Nickel,
+    Dime,
+    Quarter {state : State},
+}
+fn value_in_cents(coin: Coin) -> u8 {
+    match coin {
+        Coin::Penny => 1,
+        Coin::Nickel => 5,
+        Coin::Dime => 10,
+        Coin::Quarter(state) => {
+            println!("State quarter from {state:?}!");
+            25 } } }
+#+end_src
+**** The last, default, catch-all case is written `_`.
+*** `if let` is shorthand for `match` with just one special case.
+**** the idea
+     These are equivalent.
+***** via match
+ let config_max = Some(3u8);
+ match config_max {
+     Some(max) => println!("The maximum is configured to be {max}"),
+     _ => (), }
+***** if let
+ let config_max = Some(3u8);
+ if let Some(max) = config_max {
+     println!("The maximum is configured to be {max}");
+ }
+**** `if let else` permits a default case to be included.
+     Without an else clause,
+     the default result is to do nothing.
+*** `let else` is shorthand for `match` that exits if no match
+**** the idea
+is that the match persists throughout the body of the function,
+without needing extra wrapping braces.
+In some cases this improves readability.
+**** syntax
+#+BEGIN_SRC rust
+fn describe_state_quarter(coin: Coin) -> Option<String> {
+  let Coin::Quarter(state) = coin else {
+    return None; };
+  if state.existed_in(1900) {
+    Some(format!("{state:?} is pretty old, for America!"))
+  } else {
+    Some(format!("{state:?} is relatively new."))
+  } }
+#+END_SRC
+** errors
+*** Result<T,E> is for recoverable errors.
+**** [[id:8d275d24-2e2e-41bc-ba01-ed8ed5108f35][`main` can return () or Result.]]
+**** There are functions for converting between Option and Result.
+     :PROPERTIES:
+     :ID:       63244e01-3a24-4f81-8cdb-4a97187b3146
+     :END:
+*** `panic!`, a macro, is for unrecoverable errors.
+**** default behavior
+     "By default, these panics will print a failure message, unwind, clean up the stack, and quit."
+**** Optionally, can "unwind" down the call stack.
+*** `Result` and `panic!` are often mixed.
+#+BEGIN_SRC rust
+use std::fs::File;
+
+fn main() {
+  let greeting_file_result = File::open("hello.txt");
+
+  let greeting_file = match greeting_file_result {
+    Ok(file) => file,
+    Err(error) => panic!( // here
+      "Problem opening the file: {error:?}"),
+  };
+}
+#+end_src
+*** Match on different kinds of errors using `error.kind()`.
+**** using `match`
+#+begin_src rust
+use std::fs::File;
+use std::io::ErrorKind;
+
+fn main() {
+  let greeting_file_result = File::open("hello.txt");
+
+  let greeting_file = match greeting_file_result {
+    Ok(file) => file,
+    Err(error) => match error.kind() {
+      ErrorKind::NotFound => match File::create("hello.txt") {
+        Ok(fc) => fc,
+        Err(e) => panic!("Problem creating the file: {e:?}"),
+      },
+      _ => {
+        panic!("Problem opening the file: {error:?}");
+      }
+    },
+  };
+}
+#+end_src
+**** `unwrap` functions can be more concise
+***** `unwrap` calls `panic!` on errors.
+#+begin_src rust
+use std::fs::File;
+
+fn main() {
+    let greeting_file = File::open("hello.txt").unwrap();
+}
+#+end_src
+***** `expect` is like `unwrap` stated positively.
+#+begin_src rust
+use std::fs::File;
+
+fn main() {
+    let greeting_file = File::open("hello.txt")
+        .expect("hello.txt should be included in this project");
+}
+#+end_src
+***** `unwrap_or_else` calls a lambda on errors.
+#+begin_src rust
+use std::fs::File;
+use std::io::ErrorKind;
+
+fn main() {
+    let greeting_file = File::open("hello.txt").unwrap_or_else(|error| {
+        if error.kind() == ErrorKind::NotFound {
+            File::create("hello.txt").unwrap_or_else(|error| {
+                panic!("Problem creating the file: {error:?}");
+            })
+        } else {
+            panic!("Problem opening the file: {error:?}");
+        }
+    });
+}
+#+end_src
+*** The ? operator concisely propagates errors to callers.
+**** REQUIREMENT: Errors must be convertible.
+If ? is used to return an error,
+that error must be convertible to the kind of error
+in the function's return type of the function using the ?.
+This is achieved by implementing `From<io::Error>`,
+i.e. writing a passage that starts `impl From<io::Error>`.
+**** It returns the errors and executes no more of the function.
+**** syntax | example
+#+begin_src rust
+use std::fs::File;
+use std::io::{self, Read};
+
+fn read_username_from_file() -> Result<String, io::Error> {
+    let mut username_file = File::open("hello.txt")?;
+    let mut username = String::new();
+    username_file.read_to_string(&mut username)?;
+    Ok(username)
+}
+#+end_src
+**** ? can be chained
+#+begin_src rust
+use std::fs::File;
+use std::io::{self, Read};
+
+fn read_username_from_file() -> Result<String, io::Error> {
+    let mut username = String::new();
+    File::open("hello.txt")?.read_to_string(&mut username)?; // here
+    Ok(username) }
+#+end_src
+*** ? also applies to Options.
+    :PROPERTIES:
+    :ID:       86b2d12c-8e17-4388-a543-3f5709f5e484
+    :END:
 ** Prefix an argument that is not modified with &.
    This means the function is passed a reference,
    which is efficient,
@@ -65,9 +272,6 @@
    which is safe.
    Also, the caller can continue to use the argument,
    whereas without the & it would be unable to.
-** the ? operator unwraps a Result.
-   If it's Ok(val), it returns the value (val, which is the TcpListener).
-   If it's Err(err), it early-returns from the function with Err(err).
 ** unary prefix & creates a reference
    if    typedb_driver :  Arc<TypeDBDriver>
    then &typedb_driver : &Arc<TypeDBDriver>
@@ -335,6 +539,25 @@
           .map(|title| title.inner_html());
       (url, title)
   }
+** some fast ways to do some things
+*** read a file to a string
+#+begin_src rust
+use std::fs;
+use std::io;
+
+fn read_username_from_file() -> Result<String, io::Error> {
+    fs::read_to_string("hello.txt") }
+#+end_src
+** orphans
+*** Options
+**** [[id:86b2d12c-8e17-4388-a543-3f5709f5e484][? also applies to Options.]]
+**** [[id:63244e01-3a24-4f81-8cdb-4a97187b3146][There are functions for converting between Option and Result.]]
+*** `main` can return {(), Result, more}.
+    :PROPERTIES:
+    :ID:       8d275d24-2e2e-41bc-ba01-ed8ed5108f35
+    :END:
+    "The main function may return any types that implement the std::process::Termination trait, which contains a function report that returns an ExitCode"
+*** `return` is not needed for a function's last expression.
 * using it with other systems
 ** [[id:88f580b2-b7a3-478d-9894-dbafebd2fc9e][TypeDB via Rust]]
 * DONE solved
