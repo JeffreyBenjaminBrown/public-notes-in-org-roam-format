@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       3844ba4b-ad9b-4ff5-aa09-528d62ff9d7f
+:END:
+#+title: randomize the order of some org branches, how to
+(progn
+
+  (defun jbb-shuffle-list (list)
+    "Return a shuffled copy of LIST."
+    (let ((vec (vconcat list)))
+      (cl-loop for i from (1- (length vec)) downto 1
+               do (cl-rotatef (aref vec i)
+                              (aref vec (random (1+ i)))))
+      (append vec nil) ;; convert back to list
+      ))
+
+  (defun shuffle-lines-in-region (beg end)
+    "Shuffle the lines in the selected region, extending to full lines."
+    (interactive "r")
+    (save-excursion
+      (let* ((beg-line (progn (goto-char beg) (line-beginning-position)))
+             (end-line (progn (goto-char end)
+                              (if (eq end (line-beginning-position))
+                                  end
+                                (line-end-position))))
+             (lines (split-string (buffer-substring-no-properties beg-line end-line) "\n" t)))
+        (setq lines (jbb-shuffle-list lines))
+        (delete-region beg-line end-line)
+        (goto-char beg-line)
+        (insert (mapconcat 'identity lines "\n"))
+        (insert "\n") ;; Ensures trailing newline
+        ) ) )
+)
