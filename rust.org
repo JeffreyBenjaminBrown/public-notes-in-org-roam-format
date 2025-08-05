@@ -60,6 +60,7 @@
  path = "not-main.rs"
  #+END_SRC
 * language
+** Structs are product types.
 ** Enums are sum types.
 *** define and use constructors
 #+BEGIN_SRC rust
@@ -265,6 +266,16 @@ fn read_username_from_file() -> Result<String, io::Error> {
     :PROPERTIES:
     :ID:       86b2d12c-8e17-4388-a543-3f5709f5e484
     :END:
+** generics, traits, lifetimes
+*** to define a generic function
+    Use a type parameter (like T)
+    and usually a trait (like PartialOrd).
+#+begin_src rust
+fn largest<T : std::cmp::PartialOrd>
+  (list: &[T])
+   -> &T
+{ ... }
+#+end_src
 ** Prefix an argument that is not modified with &.
    This means the function is passed a reference,
    which is efficient,
