@@ -1,9 +1,26 @@
 :PROPERTIES:
 :ID:       5d06a355-657f-44c4-84be-cae4ed93a28a
-:ROAM_ALIASES: rationality
+:ROAM_ALIASES: rationality logic order
 :END:
-#+title: logic
+#+title: logic | order
+* reconception
+** objects to reconceive
+*** the self
+*** one's relationship to another
+**** That should likely precede reconceiving of the other, if the latter ever.
+**** Generalizing, [[id:8647bcfc-d5ef-45c3-b6ad-fc7789f0fad2][forgiveness]] is a way to reconceive a relationship.
+     :PROPERTIES:
+     :ID:       f1ef6548-3323-4be1-b3c2-8cb38aec7b21
+     :END:
+*** a problem
+*** a joy
+* endogeneity
+** [[id:5e99170f-6c38-4705-bf3d-1b2cb9b95123][Escape yourself.]]
 * star-system and interstar-system
+  :PROPERTIES:
+  :ID:       441ca283-d501-46e8-ac74-03de482a3e0f
+  :END:
+** points of individuality tracing through a continuum together
 * =? finding truth + motivation
 * [[id:9fc09f11-ef5b-475d-a885-f0fd0b667178][ways to know]]
 * truth & the flavor of truth
@@ -50,3 +67,8 @@
   :ID:       0397c4d0-955f-4f50-a35b-f2a6a94b3d88
   :END:
   to them at the time
+* partial logic
+  :PROPERTIES:
+  :ID:       65dc22b6-1e38-43f0-aa4d-9d1f1f4a0e14
+  :END:
+** "I am only two branches of the metaphor."

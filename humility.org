@@ -3,6 +3,7 @@
 :END:
 #+title: humility
 * see also [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
+* Humility does need a counterpoint like [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]].
 * definition & methods
 ** Humility liberates oneself and others from oneself.
    They become free of your {biases} when you become humble.

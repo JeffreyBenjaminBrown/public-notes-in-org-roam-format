@@ -1,5 +1,15 @@
 :PROPERTIES:
 :ID:       2aafd0d3-96d9-4be2-a2b5-a2dfe15017f7
 :END:
-#+title: labor market, the
+#+title: labor
+* see also
+** [[id:5357b637-c959-455f-b171-429390edbc04][conflict]]
+   Labor is fighty.
+* markets
+  :PROPERTIES:
+  :ID:       25ad86bb-571c-4a03-8324-817a4f5b9aff
+  :END:
+* [[id:4dc21a1a-cf5d-48d9-9297-05af7c7618e5][labor v. capital]]
+* [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][labor v. leisure]]
 * [[id:32a4999b-9793-4d6d-bc53-d6682d78ede8][LLMs taking jobs, Washington Post, 2023-06-02]]
+* [[id:1b4a962e-2549-4d7f-bf5c-a5d03767ac42][skepticism]]

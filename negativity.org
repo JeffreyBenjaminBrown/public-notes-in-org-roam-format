@@ -20,3 +20,18 @@
 ** [[id:ec35b479-a37e-498d-a81f-b898c4a51552][self-harm]]
 ** [[id:227c3af6-14fc-42b2-a1ff-76313149a746][denial]]
 ** [[id:04fc0958-39b6-450b-8880-a794f2d2bf63][rationalization]]
+* nihilism
+  :PROPERTIES:
+  :ID:       27f9e7f9-f2d4-48f2-80f9-d3443080681f
+  :END:
+** materialism
+   :PROPERTIES:
+   :ID:       f9097e8f-68bd-47c8-b9d6-5deec9bfdfb3
+   :END:
+** => [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
+** objects
+   = things people are nihilistic about
+*** morality
+*** knowledge
+*** meaning | fulfillment
+*** politics

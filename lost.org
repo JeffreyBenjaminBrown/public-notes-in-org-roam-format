@@ -2,4 +2,17 @@
 :ID:       dc735cdb-6166-4f57-b7aa-b537b1ecb98f
 :END:
 #+title: lost
-* [[id:6f008b2d-17ed-4a0e-bc85-40ce8968c5e5][lost in time]]
+* lost in [[id:1e0eb0bc-1d40-4a78-9c81-dbcef73d005e][time]]
+  :PROPERTIES:
+  :ID:       6f008b2d-17ed-4a0e-bc85-40ce8968c5e5
+  :END:
+** Groundhog Day
+** the psychedelic experience
+** [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
+** [[id:d4df3ea1-f333-4dd8-a208-907d176dbadb][epistemological overload]]
+* too far away
+  :PROPERTIES:
+  :ID:       fb946f5d-2eeb-490a-bd86-61661343ed55
+  :END:
+** [[id:dd2c33b3-21a1-45bd-ab86-c110c40a932f][drugs]]
+** [[id:abb4ed18-7bcb-4865-93a1-2591ceb0c8ea][enlightenment]]

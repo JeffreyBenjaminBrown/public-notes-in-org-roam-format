@@ -6,14 +6,10 @@
 ** [[id:a009221e-1063-4172-9fc7-b191d625dabe][spaced repetition for contacts : practicing]]
 ** [[id:db1d9d10-2cba-438c-a13e-60923111ee48][outbox]]
 * good advice
-** Don't get discouraged by a failure fraction.
+** Be positively encouraged by the failure fraction.
+   "Every rejection is an accomplishment."
    It's natural that not everyone has the time, imagination, or fit (with my interests) to sustain an interesting conversation. If I never run into disinterest I'm not reaching out enough. And if I do it doesn't mean they dislike me; they're probably flattered and|or wish they could take the opportunity.
 ** [[id:7e6112c1-bf30-42b8-9402-a5213144db66][Get contact info from everyone!]]
 *** [[id:f2fde5ec-df2c-4273-8850-0927e353f87e][It's okay to use a little time/processing to plan your speech at the end asking for everyone's number.]]
-* mechanics
-** [[id:6e0b2662-85e7-447f-b5d8-6e533b2d3189][Outreach to [men] is just as hard. Everyone's busy.]]
-** opening lines
-*** smile
-*** "Hi, I'm (name)."
-*** "Hi. I don't know anyone here. Do you want to talk (for a while)?"
-*** "I think you're really {brilliant, attractive, ...}. Would you like to talk?"
+* [[id:366e649f-c492-4acc-99ae-dc552cd78f25][conversation starters]]
+* [[id:6e0b2662-85e7-447f-b5d8-6e533b2d3189][Outreach to [men] is just as hard. Everyone's busy.]]

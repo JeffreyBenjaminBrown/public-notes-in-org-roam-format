@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       d19c12c9-9fdf-4289-8330-6ff172972f3f
+:ROAM_ALIASES: "sort in org-mode"
 :END:
 #+title: how to sort branches in org-mode
 Highlight the branches to sort.
@@ -15,5 +16,6 @@ Define something like this:
     (random 1000))
 Highlight the branches to sort.
 Then run:
-  C-c ^ f my-org-random-sort
-  (C-c ^ = org-sort)
+  C-c ^ f               ;; C-c ^ = org-sort
+  my-org-random-sort
+  RET

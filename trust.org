@@ -12,3 +12,7 @@
   :ID:       cd9ea78e-bc53-426e-9011-70a5d8d1ccde
   :END:
 ** [[id:10f35302-f321-48ac-b3bb-cbc6647e7575][trust]] in God
+* Trust facilitates many things.
+  :PROPERTIES:
+  :ID:       d8d3de1c-12fc-4848-9618-f3924c2edc3d
+  :END:

@@ -2,8 +2,11 @@
 :ID:       e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae
 :END:
 #+title: networking minds
-* [[id:f9ee18e9-68f2-4f10-b10d-c91186b797e3][Agora (shared knowledge base (protocol))]]
+* see also
+** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
+** [[id:cbef2e05-df7f-4b7c-a1dc-5cb2166975d8][sharing]]
 * [[id:4cb72658-2d91-4450-8bd5-54e04d3de051][Some ideas on networking minds from DynoMight.]]
 * [[id:97c7fdde-181b-4a9e-b210-cc380b8afb8b][Hode usage and gameification]]
 * [[id:c4b02fe2-6d9b-4d8d-b617-ec59aa79bf73][Spotify for the news]]
-* [[id:65f970d7-8b4c-43be-bcd3-6956f06238d3][Messaging apps should make it hard to send to the wrong target.]]
+* [[id:f9ee18e9-68f2-4f10-b10d-c91186b797e3][Agora (shared knowledge base (protocol))]]
+** someone else's code I failed to join

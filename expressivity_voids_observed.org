@@ -2,7 +2,6 @@
 :ID:       37f7be50-9b2c-4426-b288-e83225b6d5d8
 :END:
 #+title: expressivity voids , observed linguistic
-* [[id:44bc4752-1a92-42d9-94d6-0c0793142e5e][_]] (link would be recorded there but that's public)
 * [[id:c7473ba8-d513-43f1-a25a-9dc05a1e0e44][things maybe only expressible through art]]
 * I want to use quotation marks to indicate that I read it and it can be looked up, because citation is too slow.
 * [[id:e6e855d9-f2e8-456e-87d7-e82379ead9f1][which others is a parent to _'s children]]

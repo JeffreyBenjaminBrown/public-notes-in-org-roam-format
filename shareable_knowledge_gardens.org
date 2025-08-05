@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       9c5619e5-81ad-4a67-9705-e4761bdd6839
-:ROAM_ALIASES: "skg"
+:ROAM_ALIASES: skg
 :END:
 #+title: shareable knowledge gardens (skg)
 = an app in progress
@@ -9,28 +9,97 @@
    https://github.com/JeffreyBenjaminBrown/skg
    and might be the best introduction to Skg.
 ** [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][connectivity demos]] for knowledge graphs
+* The honorable thing to do would be to write a Haskell TypeDB driver.
+* [[id:b91c26e8-54cb-4192-8509-4482c9f60cd6][the TypeDB Python driver]]
+* TODO looks like a great idea
+** [[id:8e4ed00c-a6b6-4bce-8574-f399de72121e][Expose TypeDB querying to the user.]]
 * see also
 ** [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to use a knowledge graph]]
-* Just show mindmapping working. Youtube.
-* wish, very practical
-** I wish when I move a branch but none of its subbranches, when I see the missing data in the diff, I can immediately see from the same context what new parent(s) it has.
+** [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
+** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][osc-gen]]
+* evangelism
+** If you feel special and want more you should want skg.
+   read as a whole; the last is conclusion
+*** Do yuo feel smarter than others?
+*** Do you believe you could write
+    down a good fraction of the ideas responsible for the difference?
+*** Do you believe if others did it could make you far more powerful?
+** Just show mindmapping working. Youtube.
+* Do I fear human superintelligence?
+* motivating pains
+** {Org} files are too fare apart.
+   Transitions between files are too stark.
+   A person should choose the structure of how their attention forks,
+   easily maintain two contexts in view at once.
+* Label the relationship differently from a different member.
+** be able to
+   probably often the single label best serves all members
+* The Ctrl-Tab ordering of buffers should be robust to moving the cursor but not {saving?}.
+* [[id:e81824c5-81bc-4a91-8221-0042c24cf2e1][Illumination is a knowledge graph property.]]
+* wishes
+** merging
+** Expose TypeDB querying to the user.
+   :PROPERTIES:
+   :ID:       8e4ed00c-a6b6-4bce-8574-f399de72121e
+   :END:
+** kinds of queries
+*** show how many [children] it has in a [neighboring branch]
+**** the idea
+         * experiences
+         ** sacrifice
+         ** thinking about something completely different
+         ** being damaged by someone else's assumption
+         ** a completely left-field idea that pays off spectacularly
+         * encourage
+         ** humility
+         ** optimism
+            # here I would like to be able to show a 1 count, for the child of "experiences" that starts "a completely left-field ..."
+**** [[id:dec78208-aed2-4c2d-b23a-d7af870b91a7][source]]
+*** diff query
+**** I wish when I move a branch but none of its subbranches, when I see the missing data in the diff, I can immediately see from the same context what new parent(s) it has.
+* diff experience
+** Switch your view of the graph to diff view.
+** It compares to the last git commit.
+** For every node you visit, you see and can visit
+*** in green things added and in red things removed.
+*** its backlinks are also (by default) shown, the same way
+    at least five colors
+**** red backlinks are collections that no longer exist
+**** green backlinks are new ones
+**** gray backlinks are unchanged
+**** *another* color for backlinks that were moved among siblings
+**** something to indicate that a removed backlink was replaced by a less direct path
+*** even something deleted can be visited, to show
+**** what it was connected to last time
+**** what has happened to those things, if anything
 * refactoring ideas
 ** ? try [[id:52e2587c-3485-45cb-9456-d2c9746b2c4d][dependency inversion]]
-* kinds of queries
-** show how many [children] it has in a [neighboring branch]
-*** the idea
-        * experiences
-        ** sacrifice
-        ** thinking about something completely different
-        ** being damaged by someone else's assumption
-        ** a completely left-field idea that pays off spectacularly
-        * encourage
-        ** humility
-        ** optimism
-           # here I would like to be able to show a 1 count, for the child of "experiences" that starts "a completely left-field ..."
-*** [[id:dec78208-aed2-4c2d-b23a-d7af870b91a7][source]]
 * heralds
-** When reading about N, I would like to see that L which links to N has tree-content.
+  :PROPERTIES:
+  :ID:       28d61c54-d474-4828-8ef9-e83b25c12ae8
+  :END:
+** properties to herald
+*** LWC : link with content
+**** definition
+     LWC is true of N if and only if
+     at least one node with branches links to N.
+**** why
+     Such branches under L
+***** When reading about N, I would like to see that there exists L which links to N yet contains branches from the title with the link.
+      And then be able to request a view-branch containing all such L.
+** Herald that caveats exist.
+* Indicate over which branches some variable definitions apply to.
+  e.g. definining the string X and then marking in which nodes X might be used to mean that. They don't have to be used in all the nodes so marked.
+* A generalization into punctuation: Make comments about the meaning of a pair of braces.
+* it vs. that
+** "that" can be used to change the subject to a nearer ancestor.
+   After which point it would be referred to as "it",
+   enabling further changes of subject.
+** example use case
+   You might list a topic, within the topic ("it") a caveat,
+   and within  the caveat's contents refer to the caveat as "that".
+** ? problem : when a branch changes the subject, do other branches?
+   I think not.
 * user experience
 ** the experience of being hidden
 *** mitigation ? anonymize hiders

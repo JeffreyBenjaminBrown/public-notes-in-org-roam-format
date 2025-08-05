@@ -4,6 +4,10 @@
 :END:
 #+title: spacetime
 * [[id:36d2d810-4be1-4c0c-a979-bd756bf29220][consciousness]]
+* Place presumes reality.
+  :PROPERTIES:
+  :ID:       f03e7e08-129d-4269-ae9a-00cd3df52df3
+  :END:
 * self across time
   :PROPERTIES:
   :ID:       1fc13c21-8d83-43ec-b386-e87fc501ec8b
@@ -28,3 +32,13 @@
 ** [[id:d66c723a-8c27-4163-89e9-9abefad9537f][spacetime probability flag painting as a sport]]
 ** [[id:865d7578-c0f2-434a-8961-cc6449d2bf56][choosing to share a time dimension with someone]]
 * [[id:2fe71561-4999-4224-aafb-5a5cc65e4ed0][It feels good to be consistent with one's past decisions.]]
+* change
+  :PROPERTIES:
+  :ID:       ab10e995-a889-4408-8f5c-16f3aeea3d75
+  :END:
+** [[id:09fd57db-4e26-4e5f-962b-2ed21ecca04b][incrementalism]]
+** [[id:55c4978f-fc00-460d-95d8-43185241d1cc][radical $ otherness | difference]]
+* legend
+  :PROPERTIES:
+  :ID:       acd7d143-7459-4771-925f-317bbaceaca6
+  :END:

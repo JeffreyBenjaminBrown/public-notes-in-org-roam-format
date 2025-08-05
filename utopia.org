@@ -2,6 +2,7 @@
 :ID:       682c092d-0e94-4095-b03f-dae9aa245619
 :END:
 #+title: utopia , perfect experience
+* see also [[id:30952056-8521-470b-81bf-2e50f7d9d5e0][heaven]]
 * [[id:d023bd33-fd94-44d4-982d-675b79c2ee03][Relaxed sports would be fun.]]
 * [[id:eb4f95a0-22ac-4f8a-a149-5c1cd569db3c][Save the world.]]
 * [[id:8647bcfc-d5ef-45c3-b6ad-fc7789f0fad2][forgiveness, inc. self-forgiveness]]

@@ -14,6 +14,10 @@
    Unlike reading content,
    each (in general) item in a list of backlinks
    requires a context switch.
+* It's hard to include "human" in my tree.
+  I really want it to be a tag that doesn't interfere with the tree.
+* ? tags v. nodes
+** Should tags be different from nodes? How different would tag nodes be from other nodes?
 * good advice
 ** Appreciate how suprising the content behind any link can be.
    Surprisingly often, even for things I wrote,
@@ -21,11 +25,15 @@
 *** example(s)
     [[id:fe6020ff-3dfe-40ed-8724-e226eef4694a][fear of God : useful]]
 ** Remember that something's content is not always elaboration.
-   Remember this when deciding whether to follow a hyperlink.
-   The content targeted by the link
-   might veer offf in completely unexpected directions,
-   (even if you took the note!)
-   and often includes counterexamples, caveats, nuances.
+*** the idea
+    Remember this when deciding whether to follow a hyperlink.
+    The content targeted by the link
+    might veer offf in completely unexpected directions,
+    (even if you took the note!)
+    and often includes counterexamples, caveats, nuances.
+*** heralds would help
+* Maybe what I should mindmap most is my practical notes.
+  remember to look up from each
 * hypotheses
 ** Appending seems usually better.
 *** the idea
@@ -168,3 +176,15 @@ reading and rewriting my notes
 * [[id:d283b6a3-205b-4a7c-9338-aa458f091691][Use my "prefix-date-uri" script.]]
 * [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to avoid losing notes in a knowledge graph]]
 * [[id:7ae561f9-6dfb-4ebb-b95d-af26876a854a][poetry and logic v. the infinite]]
+* two maybe-peer ?s and a burial
+** deliberation
+*** the lead ? and the trailing ?
+**** first = big
+**** last = read last sometimes but nearly first others
+**** first and last in a branch list
+     The big ? is conceptual, the little ? unsure about and maybe worth the highlight of being last. But if it's last there should be a garbage nearby.
+** conclusion
+   The ? near (at?) the top of the branch list is conceptual, fundamental in a way that could if understood upset the order of the other branches.
+   The ? near the bottom, if any, is dubious but worth the highlight. It can also be a dubious branch of the early ? branch.
+   There should be a "bury" branch near the end. Not everything deleted has to go there but probably a lot should, because maybe we'll have the processing power to incorporate all the data including those burials.
+* [[id:934b7b55-f1d8-43f7-9649-f745d0d3b54c][Making playlists resembles note-taking.]]

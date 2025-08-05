@@ -5,6 +5,11 @@
 #+title: Rust (programming language)
 * u
 ** solved: [[id:b91d42ba-f87b-4bad-960b-2e1d467bee26][cargo and apt stopped working in Docker, could not connect]]
+* TODO READ | RESUME
+** ch. 16, concurrency
+   because my code uses it, at least when spawning threads
+** RESUME in ch 17 at
+   https://doc.rust-lang.org/book/ch17-02-concurrency-with-async.html
 * [[id:88f580b2-b7a3-478d-9894-dbafebd2fc9e][TypeDB via Rust]]
 * initialize a project
 ** shell.nix
@@ -60,3 +65,274 @@ path = "not-main.rs"
   which is safe.
   Also, the caller can continue to use the argument,
   whereas without the & it would be unable to.
+* the ? operator unwraps a Result.
+  If it's Ok(val), it returns the value (val, which is the TcpListener).
+  If it's Err(err), it early-returns from the function with Err(err).
+* unary prefix & creates a reference
+  if    typedb_driver :  Arc<TypeDBDriver>
+  then &typedb_driver : &Arc<TypeDBDriver>
+* An Arc is not cloned from another Arc
+  nor from what an Arc refers to,
+  but from a reference to an Arc.
+** example
+  let typedb_driver       : Arc<TypeDBDriver> =
+    initialize_typedb();
+  let typedb_driver_clone : Arc<TypeDBDriver> =
+    Arc::clone( &typedb_driver );
+* String literals are static.
+* Static objects are copied rather than moved into "move closures".
+* the stack and the heap
+** The stack is a LIFO store.
+** The heap is pointed-to memory.
+   The memory allocator assigns to each pointer
+   a certain region of the heap.
+** Pushing to the stack is faster than allocating (on the heap).
+** Accessing the stack is faster than accessing the heap.
+** Functions accordion the stack.
+   Each function call pushes variables to the stack --
+     local ones, and arguments.
+   When it returns, what it pushed pops off.
+* ownership
+** Ownership is for managing the heap.
+** Each value has exactly one owner at any time.
+** When an owner goes out of scope, its values are dropped.
+** Strings and ownership
+*** A String is mutable. A string literal (&'static str) is not.
+*** String::from creates Strings from string literals
+    let strLiteral: &'static str = "string literal";
+    let strFigurative: String = String::from(strLiteral);
+*** 'drop' is called on it when a variable goes out of scope.
+    The `drop` implementation depends on the type
+    from which it is called.
+** Integers and Strings are copied differently.
+*** syntax
+    let x = 5;
+    let y = x;
+    let s1 = String::from("hello");
+    let s2 = s1;
+*** The copied String became invalid.
+    After the line
+      let s2 = s1;
+    Rust considers s1 no longer valid.
+*** Why the copied integer did not.
+    "types such as integers that have a known size at compile time are stored entirely on the stack, so copies of the actual values are quick to make."
+** Automatic copies are always shallow, cheap.
+   "there's a design choice that’s implied by [the ownership model]: Rust will never automatically create “deep” copies of your data. Therefore, any automatic copying can be assumed to be inexpensive in terms of runtime performance."
+** Cloning is deep.
+** the Copy trait
+   "Rust has a special annotation called the Copy trait that we can place on types that are stored on the stack, as integers are ... If a type implements the Copy trait, variables that use it do not move, but rather are trivially copied, making them still valid after assignment to another variable."
+** Copy and Drop are mutually exclusive traits.
+** Nothing of variable size can implement Copy.
+** non-Copy variables can only be used once in a function!
+   That's me talking; I might be wrong. But see this from the docs:
+*** from the docs
+fn main() {
+    let s =
+      String::from("hello"); // s comes into scope
+
+    takes_ownership(s);      // s's value moves into the function...
+                             // ... and so is no longer valid here
+
+    let x = 5;               // x comes into scope
+
+    makes_copy(x);           // because i32 implements the Copy trait,
+                             // x does NOT move into the function,
+    println!("{}", x);       // so it's okay to use x afterward
+} // Here, x goes out of scope, then s.
+  // Because s's value was moved, no heap memory is freed.
+
+fn takes_ownership(some_string: String) { // some_string comes into scope
+    println!("{some_string}");
+} // Here, some_string goes out of scope and `drop` is called.
+  // The backing heap memory is freed.
+
+fn makes_copy(some_integer: i32) { // some_integer comes into scope
+    println!("{some_integer}");
+} // Here, some_integer goes out of scope.
+  // No heap memory is freed.
+** When a function returns, its result is moved to its caller.
+* concurrency
+** Threads are inside processes.
+** Done or not, a spawn ends when the `main` that spawned it does.
+** TRICKY: OS threads and Rust threads might correspond, or not.
+   In the std lib, they correspond 1:1,
+   but other crates can use other models.
+** Order of execution across threads is undefined.
+** Use JoinHandle.join() to ensure a thread finishes.
+*** thread::spawn returns a JoinHandle<T>.
+*** join() blocks the (caller?) until the joining thread completes.
+*** example
+use std::thread;
+use std::time::Duration;
+
+fn main() {
+    let handle = thread::spawn(|| {
+        for i in 1..10 {
+            println!("hi number {i} from the spawned thread!");
+            thread::sleep(Duration::from_millis(1));
+        }
+    });
+
+    for i in 1..5 {
+        println!("hi number {i} from the main thread!");
+        thread::sleep(Duration::from_millis(1));
+    }
+
+    handle.join().unwrap(); }
+* (&), (*), references and borrowing
+** References are safer than pointers.
+   "Unlike a pointer, a reference is guaranteed to point to a valid value of a particular type for the life of that reference."
+** borrowing = creating a reference
+** mutating borrowed things
+*** cannot be done by default
+*** to do it, create a "mutable reference"
+*** syntax : use &mut rather than &
+*** example
+fn main() {
+    let mut s = String::from("hello");
+
+    change(&mut s);
+}
+
+fn change(some_string: &mut String) {
+    some_string.push_str(", world");
+}
+** While a mutable reference to x exists, no other reference* to x can exist.
+   (*) regardless of mutability
+*** why
+    Users of an immutable reference don’t expect the value to suddenly change out from under them!
+*** nuance: things go out of scope at their last use, even before that context ends
+**** example: This is fine
+     let mut s = String::from("hello");
+
+     let r1 = &s; // no problem
+     let r2 = &s; // no problem
+     println!("{r1} and {r2}");
+     // Variables r1 and r2 will not be used after this point.
+
+     let r3 = &mut s; // no problem
+     println!("{r3}");
+** Write &x to create a reference to x.
+** Write *r to dereference r.
+** References can be passed without changing ownership of the referent.
+   fn main() {
+       let s1 = String::from("hello");
+
+       let len = calculate_length(&s1);
+
+       println!("The length of '{s1}' is {len}.");
+   }
+
+   fn calculate_length(s: &String) -> usize {
+       s.len()
+   }
+** When a reference goes out of scope, its referent can persist.
+** A String is itself a pointer, so an &String is a reference to a pointer.
+* async, await, Futures and Streams
+** Async is for [[id:c7224417-dcc0-40e1-ad5b-4d2cf94c4c1f][concurrency, not parallelism]].
+** Technically, all functions are blocking.
+   "However, the term blocking is usually reserved for function calls that interact with files, the network, or other resources on the computer, because those are the cases where an individual program would benefit from the operation being non-blocking."
+** a "future" =
+*** = a value of a type implementing the Future trait
+*** = a value that may not be ready now but will become ready at some point in the future
+** "async" = "can be paused, resumed".
+   can apply to blocks and functions
+** "await" = "here this async thing can be paused, resumed"
+** Appending `.await` transforms a Future<T> into a T.
+** "polling" = checking whether a future is available yet
+** some important crates
+*** futures
+    "The futures crate is an official home for Rust experimentation for async code, and it’s actually where the Future trait was originally designed."
+*** tokio ("io")
+    "Tokio is the most widely used async runtime in Rust today, especially for web application."
+*** trpl ("the rust programming language")
+    Educational.
+    Re-exports some things from futures and tokio.
+** "futures are lazy"
+   "they don’t do anything until you ask them to with the await keyword"
+** the "runtime"
+*** Async code must be run from a "runtime".
+    e.g. the function `trpl::run()`.
+    `.await` cannot be used in `main` except within a runtime.
+**** example
+ #+BEGIN_SRC rust
+ fn main() {
+     let args: Vec<String> = std::env::args().collect();
+
+     trpl::run(async {
+         let url = &args[1];
+         match page_title(url).await {
+             Some(title) => println!("The title for {url} was {title}"),
+             None => println!("{url} had no title"),
+         } } ) }
+ #+END_SRC
+*** Each await hands control back to the runtime.
+"Each await point—that is, every place where the code uses the await keyword—represents a place where control is handed back to the runtime."
+** async hides an implicit Future
+   "writing async fn is equivalent to writing a function that returns a future of the return type"
+*** example: these are equivalent
+**** with async
+ #+BEGIN_SRC rust
+ use trpl::Html;
+
+ async fn page_title(url: &str) -> Option<String> {
+   let response = trpl::get(url).await;
+   // The Response object only has 3 things:: HTTP status code (200, etc.), Response headers, connection to stream. The data has not been streamed yet, which is why the next variable also uses `.await`.
+   let response_text = response.text().await;
+   Html::parse(&response_text)
+     .select_first("title")
+     .map(|title_element| title_element.inner_html()) }
+ #+END_SRC
+**** without it
+ #+BEGIN_SRC rust
+ use std::future::Future;
+ use trpl::Html;
+
+ fn page_title(url: &str) ->
+ impl Future<Output = Option<String>> {
+   async move {
+     let text = trpl::get(url).await.text().await;
+     Html::parse(&text)
+       .select_first("title")
+       .map(|title| title.inner_html()) } }
+ #+END_SRC
+** Two futures can be raced.
+*** example
+**** providence
+     this uses the `race` function from `trpl`, which is probably re-exported from something fundamental
+**** Note that the futures are still wrapped.
+     Neither `title_fut_1` nor `title_fut_2` in the code below
+     is unwrapped using `await`. Both are instead
+     passed as futures to `race`.
+**** the code
+ use trpl::{Either, Html};
+
+ fn main() {
+     let args: Vec<String> = std::env::args().collect();
+
+     trpl::run(async {
+         let title_fut_1 = page_title(&args[1]);
+         let title_fut_2 = page_title(&args[2]);
+
+         let (url, maybe_title) =
+             match trpl::race(title_fut_1, title_fut_2).await {
+                 Either::Left(left) => left,
+                 Either::Right(right) => right,
+             };
+
+         println!("{url} returned first");
+         match maybe_title {
+             Some(title) => println!("Its page title is: '{title}'"),
+             None => println!("Its title could not be parsed."),
+         }
+     })
+ }
+
+ async fn page_title(url: &str) -> (&str, Option<String>) {
+     let text = trpl::get(url).await.text().await;
+     let title = Html::parse(&text)
+         .select_first("title")
+         .map(|title| title.inner_html());
+     (url, title)
+ }
+* _temp

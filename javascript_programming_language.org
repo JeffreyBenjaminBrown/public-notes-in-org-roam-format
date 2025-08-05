@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       f9cd3a15-4683-4bf1-b5c2-2344c22cf712
+:ROAM_ALIASES: npm
 :END:
 #+title: Javascript (programming language)
 * loops in Javascript
@@ -59,3 +60,5 @@
       document . body . appendChild ( in2 )
     </script>
   </body>
+* npm
+** [[id:0c1ac91a-76eb-4e0c-9cc0-64dbc25418af][Installing [Claude] via npm globally, bypassing NixOS.]]

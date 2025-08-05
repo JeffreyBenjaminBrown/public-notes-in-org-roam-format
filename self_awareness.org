@@ -34,7 +34,9 @@
 * [[id:d7568934-fe2e-4606-b96d-be8d7f6b50c8][Restraint requires self-awareness.]]
 ** [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
 * [[id:49583939-99f0-462a-8152-3aed9b0de39a][If you're embarrassed to share your beliefs, something is wrong.]]
+* [[id:18eb5d5a-d546-40f1-96f9-bb56bc11eea0][authenticity]]
 * personal
 ** [[id:6dcc3016-fb6b-4718-9098-f508fe0b1639][social anxieties]]
 ** [[id:d1f5961f-225c-4c6d-a4dc-2d0c93a8169d][My pain tolerance is dangerously high.]]
 ** [[id:6ffe216b-b02d-43f3-aadf-88b9eeadc15e][How do I keep getting talked into watching horror films?]]
+** [[id:1d9e50a1-d08b-4ab3-a7d4-0af923454ba7][funny tradeoffs in my life]]

@@ -3,6 +3,8 @@
 :ROAM_ALIASES: "osc-gen" "osc gen"
 :END:
 #+title: oscillable generations view for org-roam
+* rebuild the ddatabase in TypeDB
+  The DB does not have to understand everything about the file.
 * [[id:66df35f1-5cd7-4c3f-bfc8-26ea873b1fc2][shuffle branch list]]
 * Are wishes interesting?
   I have a lot of wishes in a few files:
@@ -25,6 +27,7 @@ hode.org
    disguise-org-headline ()
    org-roam-db-query (query &rest args)
    insert-graph-parents-as-subheadlines ()
+* [[id:2dfb86be-9eb5-4262-a9b7-a48fa0f9ac58][merging in a knowledge graph]]
 * Sort by product of accumulated unsorted notes and last time sorted.
 * to get a sense of the mass of a content tree
   out-links in contents

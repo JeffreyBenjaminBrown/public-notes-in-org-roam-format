@@ -2,3 +2,7 @@
 :ID:       b403942c-942b-4b79-9c39-b5d77142bf33
 :END:
 #+title: marijuana ! peace
+* Does marijuana [[id:7277993c-6202-4c73-b69a-56e18eb55a4e][illuminate]], clarify the nature of, peace?
+  :PROPERTIES:
+  :ID:       5c4a39db-f118-4a62-b401-1af2e27adf30
+  :END:

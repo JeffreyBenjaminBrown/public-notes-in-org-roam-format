@@ -10,6 +10,9 @@
 ** having noble purpose, being principled
 ** refusal to be petty
 ** [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][generosity]]
+* is* separate from
+  (*) surprisingly
+** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
 * should be [[id:34e03fd6-963b-451c-85c8-b8063518e597][tempered]]
 ** [[id:35fde333-e3d2-47ba-acf9-95a572868d22][Too much of it is vanity, but too little is also bad.]]
 * Aristotle on it
@@ -25,3 +28,6 @@
    :END:
 * see also
 ** [[id:1ba589c3-00f6-45a8-b5f3-e6c697e89030][light belligerence \ comedy]]
+** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][daring]]
+* [[id:171d333c-3222-46a4-8e09-241c0b3062d3][to feel owed more adventures by {reality, oneself}]]
+* [[id:acd7d143-7459-4771-925f-317bbaceaca6][legend]]

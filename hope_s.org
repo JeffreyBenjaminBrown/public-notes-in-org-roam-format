@@ -21,6 +21,7 @@
 *** [[id:4e748426-9ff0-4e7b-8192-b582a2ae7f95][community]]
 *** [[id:2ffe190d-718d-4f71-af97-5214ef091045][knowledge graphs]]
 **** I want them not only as a means but as an end.
+*** [[id:18eb5d5a-d546-40f1-96f9-bb56bc11eea0][authenticity]]
 *** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
 *** [[id:682c092d-0e94-4095-b03f-dae9aa245619][utopia , perfect experience]]
 *** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
@@ -33,4 +34,6 @@
 *** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
 *** [[id:6cc406fa-3f78-48e3-8eea-2d18cc20b6bf][money]]
 *** [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
+* anti-values
+** [[id:27f9e7f9-f2d4-48f2-80f9-d3443080681f][nihilism]]
 * [[id:f532dbb0-3a30-4692-b657-2213898787e8][courage vs. comfort]]

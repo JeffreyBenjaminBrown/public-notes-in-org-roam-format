@@ -1,14 +1,8 @@
 :PROPERTIES:
 :ID:       16127b31-70f5-4098-a5c1-1df7cfc93128
-:ROAM_ALIASES: "algorithms for DNA sequencing"
+:ROAM_ALIASES: "algorithms for DNA sequencing" genetics
 :END:
 #+title: bioinformatics
-* a JHU course
-http://www.langmead-lab.org/teaching-materials/
-** finished
-I finished the Coursera videos.
-** resume here
-https://www.youtube.com/watch?v=hLsrPsFHPcQ
 * [[id:a1d4888a-53dc-4559-bd21-081b287e22c4][2nd Gen DNA Sequencing]]
 ** [[id:87f4f1e8-bf6b-4bd3-89ff-bb431bcc94fc][We are aiming for longer reads.]]
 * [[id:e08a10f3-06c1-4997-923c-7c1a6b051e76][The FASTQ Format (Genetics)]]
@@ -16,3 +10,11 @@ https://www.youtube.com/watch?v=hLsrPsFHPcQ
 * [[id:b38b3415-5459-4b9d-a290-6be345ebb471][Repetitive sequences make DNA sequencing difficult.]]
 * TODO things I didn't understand
 ** [[id:d404ba22-f828-4f95-be6c-8b64fe7ed7b7][Using Dynamic Programming For Approximate Matching]]
+* sources
+  and state of completion in them
+** a JHU course
+ http://www.langmead-lab.org/teaching-materials/
+*** finished
+ I finished the Coursera videos.
+*** resume here
+ https://www.youtube.com/watch?v=hLsrPsFHPcQ

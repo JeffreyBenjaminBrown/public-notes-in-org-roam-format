@@ -1,7 +1,9 @@
 :PROPERTIES:
 :ID:       dd8238af-6bce-4242-ab4d-b531190092f4
+:ROAM_ALIASES: xfce
 :END:
 #+title: xfce (desktop environment)
+* TODO merge [[id:67a19539-15f7-45b7-a324-5d1f5f28b5d6][Xfce]]
 * PITFALL, DEALBREAKER: screen zoom is buggy
   If you zoom into somoething (settings, say)
   and then open a subwindow (languages, say)
@@ -17,3 +19,4 @@
    :END:
    pkill xfce4-panel
 ** [[id:448597aa-1570-45b7-8c16-8c5e132f43a6][using xmonad and xfce in NixOS]]
+* [[id:21ad11dd-5933-49c3-810f-f75b0f87cd34][TODO in Xfce]]

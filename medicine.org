@@ -1,7 +1,12 @@
 :PROPERTIES:
 :ID:       dd2c33b3-21a1-45bd-ab86-c110c40a932f
 :END:
-#+title: drugs (medicine)
-* [[id:56f38282-0eb1-41b1-bcf3-ee09c4c10ed9][when to buy drugs at Colsubsidio]]
-* [[id:f359aef3-0438-487f-b062-896937de6372][warfarin]]
-* [[id:f8399762-9772-4257-8439-4e466f7b1ff2][Flonase (allergy medication)]]
+#+title: drugs
+* some legal pharmaceuticals
+** [[id:56f38282-0eb1-41b1-bcf3-ee09c4c10ed9][when to buy drugs at Colsubsidio]]
+** [[id:f359aef3-0438-487f-b062-896937de6372][warfarin]]
+** [[id:f8399762-9772-4257-8439-4e466f7b1ff2][Flonase (allergy medication)]]
+* [[id:fb946f5d-2eeb-490a-bd86-61661343ed55][too far away]]
+** [[id:dc735cdb-6166-4f57-b7aa-b537b1ecb98f][lost]]
+* Drugs as a sense of place is frustrating.
+** [[id:f03e7e08-129d-4269-ae9a-00cd3df52df3][Place presumes reality.]]

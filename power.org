@@ -3,12 +3,17 @@
 :ROAM_ALIASES: energy power force work
 :END:
 #+title: energy
-* [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][God]]
-* [[id:21577208-ba52-4105-8884-355fa27f128f][public influence]]
-* [[id:c893937e-bca4-4a77-aa6c-ad481bf1d042][the limits of logic | information | expression]]
-* [[id:21577208-ba52-4105-8884-355fa27f128f][public image | fame | public influence]]
-* [[id:4dc21a1a-cf5d-48d9-9297-05af7c7618e5][labor v. capital]]
-* [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
+* etymology
+** Power implies choice; energy only possibility.
+* kinds
+** [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][God]]
+** [[id:21577208-ba52-4105-8884-355fa27f128f][public influence]]
+** [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]]
+*** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
+    Logic impels energy, and among logic, solutions especially.
+** [[id:2aafd0d3-96d9-4be2-a2b5-a2dfe15017f7][labor]] and [[id:5357b637-c959-455f-b171-429390edbc04][conflict]]
+** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
+* [[id:c893937e-bca4-4a77-aa6c-ad481bf1d042][the limits of logic]]
 * [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][balance]]
 * [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]] - includes some interesting ones
 * [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
@@ -34,3 +39,9 @@
 * [[id:3151d7aa-df49-4f99-834c-6edfffc31131][fantasies about strange kinds of power]]
 * packing
 ** [[id:98bdb71b-4362-40cf-b793-679cda4020fa][Vanish into being a silent ironic background.]]
+* capital
+  :PROPERTIES:
+  :ID:       64ed9a2e-b6fb-4ec3-80a9-abbfece6697c
+  :END:
+** [[id:4dc21a1a-cf5d-48d9-9297-05af7c7618e5][labor v. capital]]
+** [[id:627da2c2-2f34-46ac-a6d3-9c625c4ff31d][artificial intelligence]]

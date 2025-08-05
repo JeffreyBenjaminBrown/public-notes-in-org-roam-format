@@ -4,3 +4,4 @@
 #+title: life
 * transclude: [[id:c73ee824-eb2b-43f4-8ead-32d9d62ddc75][death]]
 * [[id:44d3d9e4-0781-4476-9989-0e9f4a5b4d09][If life is change, then to not change (much) is to be (near) death.]]
+* [[id:7d7ed8fa-a321-41f6-9699-c3eb0398841f][competition among games]]

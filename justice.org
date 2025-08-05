@@ -23,6 +23,10 @@ Remember, notes should be surprising.
 ** [[id:3fdb250d-fc7d-4b1f-becf-1d7996a9e480][laziness => evil]]
 ** Is (entirely?) an inequitable utility function over others' utility functions.
    esp. of the in-group's v. the out-group's
+** cruelty
+   :PROPERTIES:
+   :ID:       02f3df7f-03ca-4db9-a37a-b88451a397d5
+   :END:
 * justice through silence
   :PROPERTIES:
   :ID:       bff8a56f-6735-4775-8060-f942ea1c0a54

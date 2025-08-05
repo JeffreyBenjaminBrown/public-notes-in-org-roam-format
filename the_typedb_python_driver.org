@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b91c26e8-54cb-4192-8509-4482c9f60cd6
+:ROAM_ALIASES: "TypeDB Python driver, the"
+:END:
+#+title: the TypeDB Python driver
+* ref
+  https://github.com/typedb/typedb-driver/tree/master/python
+  /home/jeff/hodal/typedb-driver/python

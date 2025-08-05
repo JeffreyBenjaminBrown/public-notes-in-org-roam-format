@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       c2a51944-ffb9-4404-a814-cdfbaa99b1b8
-:ROAM_ALIASES: "searching in the shell"
+:ROAM_ALIASES: "searching in the shell" find
 :END:
 #+title: find (shell command)
 * rga: ripgrep, but it searches lots of formats at once
@@ -29,3 +29,6 @@
     egrep "[0-9]+" -r build -r common -r draw -r regime *.py -C 5 --exclude="*test*"
   and then read that screen. (Dumping it to a file would mean losing the colors,
   which makes the reading process much slower.)
+* to find a disjunction of patterns
+  tag or
+  find . -type f \( -name "*.hs" -o -name "*.rs" \)

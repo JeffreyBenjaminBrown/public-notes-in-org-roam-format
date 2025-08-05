@@ -29,3 +29,4 @@
   Wikipedia on learned optimism, <2025-07-09 Wed>:
     https://en.wikipedia.org/wiki/Learned_optimism
 * [[id:24fbeda3-d801-4593-9c67-d1f30445fd97][abundance]]
+* [[id:945b43e1-5df9-44a0-ad6c-0fedd11ab8ae][It can facilitate compromise.]]

@@ -72,6 +72,7 @@
   :ID:       17762c0f-5024-43de-af31-1626cf9a9b28
   :END:
 ** to risk running down your savings when the strategy makes sense
+** but this might be [[id:b5c9ebb3-57c2-4516-8db2-53ddae6dc140][right to forget]]
 * [[id:218a6d41-d17e-4036-b145-60c7541ec312][So much depends on interpretation.]]
 * "You only live once," has a strange logic.
   :PROPERTIES:
@@ -79,3 +80,4 @@
   :END:
 ** It can be good, encouraging honor, courage.
 ** It can also lead to recklessness.
+* [[id:9e98f2e3-4e64-4dce-a8a7-c31cc9e58f92][all sentient beings already have a pure Buddha-essence within themselves]]

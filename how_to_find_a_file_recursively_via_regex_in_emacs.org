@@ -4,3 +4,4 @@
 :END:
 #+title: how to find a file recursively via regex in Emacs
 * find-name-dired
+* project-find-regexp

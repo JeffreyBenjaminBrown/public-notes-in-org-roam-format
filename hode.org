@@ -10,16 +10,50 @@
 ** [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to use a knowledge graph]]
 ** [[id:55dae027-0053-4557-ba7e-2a36ef679cb4][SmSn]]
 ** [[id:adb6d4a3-e7db-4880-b757-67bbe4fb425a][features I want]]
+** build [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode with TypeDB and Emacs]]
 * see also
 ** [[id:b37024f7-716b-4748-9a33-d35e75f4ede1][epistemology]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information theory]]
 ** [[id:e7c3c0cb-4db7-4a4c-89b9-666e91ec67ae][networking minds]]
-* u
-** "bootstrap" would be a cool name.
-** build [[id:5346e42f-5cf6-4af9-8efa-564cd350e104][Hode with TypeDB and Emacs]]
-** [[id:d674bf8d-cd41-47aa-8418-36a74cedd561][build Hash for TypeDB]]
-** [[id:8c609b95-5f55-4d88-b0fa-b43227577ee7][I want a record of the (org-roam) files I read]]
-** Each topic is a perspective. Each subfile is a sub-perspective.
+* ONGOING s : * regroup {these files}* by fundamentals
+  (*) these files include
+  Hode, Skg, osc-gen, ?org
+** ?
+*** How do perspectives relate?
+**** began from
+***** Each topic is a perspective. Each subfile is a sub-perspective.
+** view options
+** Distinguish syntactic debt repayment from other children.
+*** why
+    Sometimes a branch is different from the others in that it explains, and is likely necessary for understanding, some of the syntax in the title of the node containing it.
+*** specific view required
+    It would be sufficient to use a "SDR" (syntactic debt repayment) tag that renders in a different color.
+** heralds can be multi-character
+** It is unambiguous as long as
+   as long as the characters are all the same color,
+   and different from the default.
+** Each herald should have a color.
+   Two of the same color, if adjacent, should be separated by space.
+** expressivity
+   keywords
+*** alias
+*** public default title
+    from a private node
+*** message to fellow reader
+    private to the two of them by default
+*** describe searches
+**** [[id:d674bf8d-cd41-47aa-8418-36a74cedd561][build Hash for TypeDB]]
+** control
+*** [[id:65f970d7-8b4c-43be-bcd3-6956f06238d3][Make it hard to send to the wrong target.]]
+*** writer controlling the read pattern
+**** if a kind of backlink could be marked worthless in that direction
+*** sometimes impose reminders on the reader
+**** each new node in an outbox automatically begins "dear [reader's name]"
+*** reader and writer must coordinate
+** record automatically
+*** [[id:8c609b95-5f55-4d88-b0fa-b43227577ee7][record what I read]]
+** project names
+*** bootstrap
 ** Should read the git diff and make it possible to see easily where a node was moved of it was deleted from a file
 ** Are any of the relationships more than binary in a way that could not be easily handled by making the third and other members of the relationship into properties instead?
 ** A view of a relationship

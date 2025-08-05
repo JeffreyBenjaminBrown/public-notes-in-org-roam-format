@@ -6,6 +6,15 @@
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 ** [[id:f582adf8-17e3-429f-ad70-c1243694d0ea][poems]]
+* Greet loved ones early.
+  :PROPERTIES:
+  :ID:       3c53b1de-0ff9-471a-b390-10f1f7b92506
+  :END:
+* internal monologue & music (violin)
+  :PROPERTIES:
+  :ID:       37c33db9-46b0-441d-b83e-bbd9168b1586
+  :END:
+** A violin is a good model for the internal monologue because it can play without a pause for breath for a very long time.
 * [[id:5ffd0819-1aae-4aac-9008-1acd99a12f25][reciprocity]]
 * my playlists
 :PROPERTIES:
@@ -17,7 +26,15 @@
 *** blues (style)
 *** blues (mood)
 *** wistful
+** drama includes lucha, daily struggle
 ** ? rename spooky to include circus
+** Maybe each playlist captures a moment and one should not try to move it from there.
+** not just "is", but "want to retain"
+*** To categorize (if at all), ask not just what a song is but what I want to keep from it.
+**** This resembles note-taking.
+     :PROPERTIES:
+     :ID:       934b7b55-f1d8-43f7-9649-f745d0d3b54c
+     :END:
 * [[id:1714269c-56fc-4c72-9faa-eebf49c6a07f][music of social experience]]
 ** [[id:1714269c-56fc-4c72-9faa-eebf49c6a07f][musical responsibility]]
 * [[id:01104862-9949-4373-a7d3-5472596d0f99][music and consciousness]]

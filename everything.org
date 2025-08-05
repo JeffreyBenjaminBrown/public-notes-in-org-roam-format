@@ -28,7 +28,7 @@
 *** [[id:de98c3eb-27ba-4a51-9875-9af3c6e2c2dd][beauty]]
 **** [[id:5a5ae8a2-fd35-457f-bb36-4cad26c0454d][nature]]
 ***** [[id:8d624422-f901-4208-aaa7-bbbc6f1f5ba1][life]]
-**** [[id:327f86a7-36d9-47a1-9be2-78fb41d52175][order | logic]]
+**** [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][order | logic]]
 **** [[id:a1487b9c-70d9-493a-b61e-e512def4a0d5][freedom]]
 **** [[id:8cd7a9de-4652-4728-b57f-748e61cf94e7][health]]
 **** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]] and [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]

@@ -28,3 +28,5 @@
 * [[id:98f315c7-7404-40cd-ac56-2c9040a29421][Be gentle without saying why.]]
 * [[id:f3b1cc7c-1799-4a88-827c-1b81d5786109][bearing witness]]
 * [[id:e0046043-26d0-4978-89c2-0a0643bb1249]["You only live once," has a strange logic.]]
+* [[id:18eb5d5a-d546-40f1-96f9-bb56bc11eea0][authenticity]]
+* [[id:12fda009-a653-4cb3-a201-544d69190de6][Hide]] and [[id:cbef2e05-df7f-4b7c-a1dc-5cb2166975d8][share]] the right things.

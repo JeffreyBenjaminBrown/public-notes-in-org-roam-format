@@ -3,5 +3,7 @@
 :END:
 #+title: nature
 * = an ill-defined and popular ideal
-* see also [[id:1e0eb0bc-1d40-4a78-9c81-dbcef73d005e][spacetime]]
+* see also
+** [[id:1e0eb0bc-1d40-4a78-9c81-dbcef73d005e][spacetime]]
+** [[id:8d624422-f901-4208-aaa7-bbbc6f1f5ba1][life]]
 * [[id:e1d6664c-9b8d-434a-808d-18d06757d217][Nature exhibits balance.]]

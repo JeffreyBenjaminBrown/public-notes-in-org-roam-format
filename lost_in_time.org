@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       6f008b2d-17ed-4a0e-bc85-40ce8968c5e5
-:END:
-#+title: lost in time
-* Groundhog Day
-* the psychedelic experience
-* [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
-* [[id:d4df3ea1-f333-4dd8-a208-907d176dbadb][epistemological overload]]

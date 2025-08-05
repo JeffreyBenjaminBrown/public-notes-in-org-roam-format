@@ -2,6 +2,7 @@
 :ID:       67a19539-15f7-45b7-a324-5d1f5f28b5d6
 :END:
 #+title: Xfce
+* TODO merge [[id:dd8238af-6bce-4242-ab4d-b531190092f4][xfce (desktop environment)]]
 * TODO in Xfce
   :PROPERTIES:
   :ID:       21ad11dd-5933-49c3-810f-f75b0f87cd34

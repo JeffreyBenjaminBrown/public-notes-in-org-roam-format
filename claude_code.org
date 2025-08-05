@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       f6695616-b2cc-438f-bab7-bcfe45ecd888
+:END:
+#+title: Claude Code
+* how to install it via npm globally, bypassing NixOS
+  :PROPERTIES:
+  :ID:       0c1ac91a-76eb-4e0c-9cc0-64dbc25418af
+  :END:
+  mkdir -p ~/.npm-global
+  npm config set prefix ~/.npm-global
+  export PATH="$HOME/.npm-global/bin:$PATH"
+  echo 'export PATH="$HOME/.npm-global/bin:$PATH"' >> ~/.bashrc  # or .zshrc
+  npm install -g claude

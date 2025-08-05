@@ -53,3 +53,11 @@
 * [[id:543d4a74-b24c-41d3-b93d-79d9c86eadf3][investment payoffs ::: continuous v. lumpy, delayed]]
 * [[id:9e963f80-8904-496b-b04d-47b8f25ca827][procrastination]]
 * [[id:17762c0f-5024-43de-af31-1626cf9a9b28][It is right to spend non-uniformly over time.]]
+* compromise
+  :PROPERTIES:
+  :ID:       2de14a2f-0ad7-4851-be44-1324730239b2
+  :END:
+** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][Creative]] [[id:8d5c9418-f228-4595-b423-05acd9921b10][optimism]] can help.
+   :PROPERTIES:
+   :ID:       945b43e1-5df9-44a0-ad6c-0fedd11ab8ae
+   :END:

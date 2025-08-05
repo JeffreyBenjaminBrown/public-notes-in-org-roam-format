@@ -2,7 +2,7 @@
 :ID:       5e46e9cf-b0fb-4967-b84c-040c8441f74c
 :END:
 #+title: why flirting is subtle
-* It is subtile in people, but overt in other animals.
+* It is subtle in people, but overt in other animals.
 * plausible deniability or even inisibility to third parties
   "According to Gersick and colleagues, signaling interest can be socially costly, such as risking existing friendship or affect social reputation.[17] The costs associated with interest signaling may be magnified in humans compared to the animal world, as the existence of language means information can circulate much further. ... maintaining plausible deniability to reduce social costs."
   -- Wikipedia <2025-03-19 Wed>

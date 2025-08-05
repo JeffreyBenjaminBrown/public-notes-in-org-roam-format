@@ -4,6 +4,7 @@
 :END:
 #+TITLE: NixOS (operating system)
 * see also [[id:8216a071-2341-4866-a716-54e77baa8f2f][Nix]]
+* [[id:0c1ac91a-76eb-4e0c-9cc0-64dbc25418af][Installing Claude Code globally, bypassing NixOS.]]
 * [[id:6eac4dc3-8186-412b-ad20-1f8f8166dbb4][grouping NixOS derivations into a single meta-derivation]]
 * [[id:e1eda15a-df86-4050-b150-e8034ae49019][nixos-rebuild (shell command)]]
 * TODO [[id:13b039ff-e492-44ba-8284-a6ed016d9357][system.autoUpgrade slows my system to a crawl]]

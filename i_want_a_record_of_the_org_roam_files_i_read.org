@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       8c609b95-5f55-4d88-b0fa-b43227577ee7
 :END:
-#+title: I want a record of the (org-roam) files I read
+#+title: I want a record of {what, the org-roam files} I read.
 * why
   so I can remember them, roughly.
   I can look at the git status.
