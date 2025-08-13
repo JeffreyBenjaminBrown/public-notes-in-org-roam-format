@@ -4,12 +4,13 @@
 :END:
 #+title: Rust (programming language)
 * TODO READ | RESUME
+** next section: https://doc.rust-lang.org/book/ch15-00-smart-pointers.html
 ** ch. 16, concurrency
    because my code uses it, at least when spawning threads
 ** RESUME in ch 17 at
    https://doc.rust-lang.org/book/ch17-02-concurrency-with-async.html
-* TODO questions
-** What is `impl` for?
+* TODO ? skipped
+** [[id:489d77e6-1fca-4772-8d1b-71ec872aa0c1][lifetime elision rules]]
 * tooling
 ** SOLVED [[id:b91d42ba-f87b-4bad-960b-2e1d467bee26][cargo and apt stopped working in Docker, could not connect]]
 ** how to initialize a project
@@ -60,6 +61,61 @@
  path = "not-main.rs"
  #+END_SRC
 * language
+** keywords
+*** `impl` is for class methods and trait implementations.
+**** using it for a class method
+#+begin_src rust
+#[derive(Debug)]
+struct Rectangle {
+    width: u32,
+    height: u32,
+}
+
+impl Rectangle {
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+}
+
+fn main() {
+    let rect1 = Rectangle {
+        width: 30,
+        height: 50,
+    };
+
+    println!(
+        "The area of the rectangle is {} square pixels.",
+        rect1.area()
+    );
+}
+#+end_src
+**** using it for a trai implementations
+#+begin_src rust
+#[derive(Debug)]
+struct Rectangle {
+    width: u32,
+    height: u32,
+}
+
+impl Rectangle {
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+}
+
+fn main() {
+    let rect1 = Rectangle {
+        width: 30,
+        height: 50,
+    };
+
+    println!(
+        "The area of the rectangle is {} square pixels.",
+        rect1.area()
+    );
+}
+#+end_src
+*** [[id:89ebb171-bc6c-4ff2-80ae-fa8215e32f18][`move` in closures]]
 ** Structs are product types.
 ** Enums are sum types.
 *** define and use constructors
@@ -267,15 +323,351 @@ fn read_username_from_file() -> Result<String, io::Error> {
     :ID:       86b2d12c-8e17-4388-a543-3f5709f5e484
     :END:
 ** generics, traits, lifetimes
-*** to define a generic function
-    Use a type parameter (like T)
-    and usually a trait (like PartialOrd).
+*** generics
+**** Generics are free!
+     They impose no performance penalty.
+**** a generic function
+     Use a type parameter (like T)
+     and usually a trait (like PartialOrd).
+ #+begin_src rust
+ fn largest<T : std::cmp::PartialOrd>
+   (list: &[T])
+    -> &T
+ { ... }
+ #+end_src
+**** a generic product type
+ #+begin_src rust
+ struct Point<T> {
+     x: T,
+     y: T,
+ }
+ fn main() {
+     let integer = Point { x: 5, y: 10 };
+     let float = Point { x: 1.0, y: 4.0 };
+ }
+ #+end_src
+**** a generic method implementation
+ #+begin_src rust
+ struct Point<T> {
+     x: T,
+     y: T,
+ }
+
+ impl<T> Point<T> {
+     fn x(&self) -> &T {
+         &self.x
+     }
+ }
+
+ fn main() {
+     let p = Point { x: 5, y: 10 };
+
+     println!("p.x = {}", p.x());
+ }
+ #+end_src
+**** a method implementation for an instance of a generic type
+ #+begin_src rust
+ impl Point<f32> { // only for `Point` with type parameter `f32`
+     fn distance_from_origin(&self) -> f32 {
+         (self.x.powi(2) + self.y.powi(2)).sqrt()
+     }
+ }
+ #+end_src
+**** a method implementation can introduce type parameters beyond those of the type whose behavior it extends
+     Below, the `mixup` function introduces X2 and Y2,
+     only to extend the functionality of Point<X1, Y1>.
+ #+begin_src rust
+ struct Point<X1, Y1> {
+     x: X1,
+     y: Y1,
+ }
+
+ impl<X1, Y1> Point<X1, Y1> {
+     fn mixup<X2, Y2>(self, other: Point<X2, Y2>) -> Point<X1, Y2> {
+         Point {
+             x: self.x,
+             y: other.y,
+         }
+     }
+ }
+
+ fn main() {
+     let p1 = Point { x: 5, y: 10.4 };
+     let p2 = Point { x: "Hello", y: 'c' };
+
+     let p3 = p1.mixup(p2);
+
+     println!("p3.x = {}, p3.y = {}", p3.x, p3.y);
+ }
+ #+end_src
+*** traits and trait bounds
+**** Traits group method signatures.
+**** an example trait definition and implementation
+     :PROPERTIES:
+     :ID:       ea9c1172-b277-401a-b5a9-56eaba82c9f6
+     :END:
 #+begin_src rust
-fn largest<T : std::cmp::PartialOrd>
-  (list: &[T])
-   -> &T
-{ ... }
+pub trait Summary {
+  fn summarize(&self) // uses & because we should call summarize from a *reference to* the implementing type
+               -> String;
+  // there can be more method signatures here
+}
+
+pub struct NewsArticle {
+  pub headline: String,
+  pub location: String,
+  pub author: String,
+  pub content: String,
+}
+
+impl Summary for NewsArticle {
+  fn summarize(&self) -> String {
+    format!("{}, by {} ({})",
+            self.headline, self.author, self.location) } }
 #+end_src
+**** Traits are not entirely open.
+***** the restriction
+      "... can’t implement external traits on external types. For example, we can’t implement the Display trait on Vec<T> within our aggregator crate because Display and Vec<T> are both defined in the standard library and aren’t local to our aggregator crate"
+***** why
+      "Without the rule, two crates could implement the same trait for the same type, and Rust wouldn’t know which implementation to use."
+**** default implementations
+***** Traits can have default implementations.
+#+begin_src rust
+pub trait Summary {
+    fn summarize(&self) -> String {
+        String::from("(Read more...)")
+    } }
+#+end_src
+***** "Default implementations can call other methods in the same trait, even if those other methods don’t have a default implementation."
+***** "it isn’t possible to call the default implementation from an overriding implementation of that same method"
+**** trait methods and ownership
+     A trait method defined for `self` rather than `&self` will consume `self`.
+***** example
+#+begin_src rust
+pub trait Into<T> {
+    fn into(self) -> T;  // Takes ownership, consumes self
+}
+#+end_src
+***** counterexample
+#+begin_src rust
+pub trait Summary {
+  fn summarize
+    (&self) // uses & because we should call summarize from a *reference to* the implementing type
+     -> String;
+}
+#+end_src
+**** `impl <trait>` v. `trait bound` syntax in signatures
+     These are equivalent.
+***** `impl <trait>` syntax
+#+begin_src rust
+pub fn notify(item: &impl Summary) {
+    println!("Breaking news! {}", item.summarize());
+}
+#+end_src
+***** trait bound syntax
+#+begin_src rust
+pub fn notify
+  <T: Summary> // NOTE: absent from the other one
+  (item: &T) {
+    println!("Breaking news! {}", item.summarize());
+}
+#+end_src
+**** Use + to specify multiple conditions on an argument.
+pub fn notify(item: &(impl Summary + Display)) {
+pub fn notify<T: Summary + Display>(item: &T) {
+**** Use `where` to clean up signatures with complex trait bounds.
+     equivalent alternatives
+***** without `where`
+#+begin_src rust
+fn some_function
+  <T: Display + Clone,
+   U: Clone + Debug>
+  (t: &T, u: &U) -> i32 {
+#+end_src
+***** with `where`
+#+begin_src rust
+fn some_function
+  <T, U>
+  (t: &T, u: &U) -> i32
+where
+    T: Display + Clone,
+    U: Clone + Debug,
+{
+#+end_src
+*** a generic function with a trait bound
+#+begin_src rust
+pub fn notify(item: &impl Summary) {
+    println!("Breaking news! {}", item.summarize());
+}
+#+end_src
+*** lifetimes
+**** scope, lifetimes and dangling pointers : an error
+     :PROPERTIES:
+     :ID:       ed5db272-e8a4-4367-9510-f6cf1e2d6c49
+     :END:
+#+begin_src rust
+fn main() {
+    let r;
+    {
+        let x = 5;
+        r = &x; // Since there's no `let` on this line,
+                // this refers to the same `r` as earlier.
+    } // x is now out of scope,
+      // so r is a dangling pointer.
+    println!("r: {r}");
+}
+#+end_src
+**** the borrow checker
+***** its logic
+****** Loans are invalid if the borrower outlives the lender.
+***** its goals
+****** prevent dangling pointers
+**** lifetime parameters | lifetime specifiers
+***** some vocab
+****** input lifetimes
+       = lifetimes on function or method parameters
+****** output lifetimes
+       = lifetimes on return values
+***** syntax
+#+begin_src rust
+&i32        // a reference
+&'a i32     // a reference with an explicit lifetime
+&'a mut i32 // a mutable reference with an explicit lifetime
+#+end_src
+***** example usage
+****** code
+#+begin_src rust
+fn longest
+  <'a>
+  (x: &'a str, y: &'a str)
+   -> &'a str
+{ if x.len() > y.len() { x } else { y } }
+#+end_src
+****** practical interpretation
+"the concrete lifetime that is substituted for 'a is the part of the scope of x that overlaps with the scope of y."
+***** Type definitions can need lifetime specifiers.
+      The type definition itself, not an instantiation of it.
+****** the condition
+       "you need to specify lifetime parameters for functions or structs that use references"
+****** example
+******* code
+#+begin_src rust
+struct ImportantExcerpt<'a> {
+    part: &'a str,
+}
+
+fn main() {
+    let novel = String::from("Call me Ishmael. Some years ago...");
+    let first_sentence = novel.split('.').next().unwrap();
+    let i = ImportantExcerpt {
+        part: first_sentence,
+    };
+}
+#+end_src
+******* interpretation
+       This annotation means an instance of ImportantExcerpt can’t outlive the reference it holds in its part field.
+***** Sometimes the compiler can infer lifetimes.
+      It uses "lifetime elision rules" for this.
+      These let the coder omit some lifetime annotations.
+**** TODO ? I skipped some of this content.
+     :PROPERTIES:
+     :ID:       489d77e6-1fca-4772-8d1b-71ec872aa0c1
+     :END:
+     Mostly what was about lifetime rules.
+     https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html#thinking-in-terms-of-lifetimes
+**** 'static => "lifetime could be the entire program duration"
+***** All string literals are static.
+***** Can be a bad temptation.
+      "Most of the time, an error message suggesting the 'static lifetime results from attempting to create a dangling reference or a mismatch of the available lifetimes. In such cases, the solution is to fix those problems, not to specify the 'static lifetime."
+*** syntax: using them all together
+#+begin_src rust
+use std::fmt::Display;
+
+fn longest_with_an_announcement<'a, T>(
+    x: &'a str,
+    y: &'a str,
+    ann: T,
+) -> &'a str
+where
+    T: Display,
+{
+    println!("Announcement! {ann}");
+    if x.len() > y.len() { x } else { y }
+}
+#+end_src
+** closures
+*** basic syntax
+#+begin_src rust
+fn main() {
+    let list = vec![1, 2, 3];
+    let only_borrows = || println!("From closure: {list:?}");
+    only_borrows();
+}
+#+end_src
+*** `move` in closures
+    :PROPERTIES:
+    :ID:       89ebb171-bc6c-4ff2-80ae-fa8215e32f18
+    :END:
+    "to force the closure to take ownership of the values it uses in the environment even though the body of the closure doesn’t strictly need ownership, you can use the move keyword before the parameter list."
+*** type signatures for closures
+**** are optional unless the compiler gets confused
+**** syntax example
+#+begin_src rust
+let expensive_closure = |num: u32| -> u32 {
+        println!("calculating slowly...");
+        thread::sleep(Duration::from_secs(2));
+        num
+    };
+#+end_src
+*** Brackets might be optional.
+    They are optional if the body only has one expression.
+*** Closures capture values from their environment in three ways
+    just like a function
+**** borrowing immutably
+**** borrowing mutably
+**** taking ownership
+*** (usually) invisible traits are applied to closures
+**** FnOnce
+     All closures implement this.
+     "applies to closures that can be called once. All closures implement at least this trait because all closures can be called. A closure that moves captured values out of its body will only implement FnOnce and none of the other Fn traits, because it can only be called once."
+**** FnMut
+     "applies to closures that don’t move captured values out of their body, but that might mutate the captured values. These closures can be called more than once."
+**** Fn
+     "applies to closures that don’t move captured values out of their body and that don’t mutate captured values, as well as closures that capture nothing from their environment. These closures can be called more than once without mutating their environment, which is important in cases such as calling a closure multiple times concurrently."
+** iterators
+*** basic example
+#+begin_src rust
+let v1 = vec![1, 2, 3];
+let v1_iter = v1.iter();
+for val in v1_iter {
+  println!("Got: {val}");
+}
+#+end_src
+*** They all mutate, but it's not always marked.
+    For instance, when an iterator is passed to a for loop,
+    the for loop takes ownership, and makes its own mutable copy.
+    Therefore the original iterator need not be marked `mut`.
+*** iterating over immutable, owned and mutable values
+**** `iter` returns immutable references.
+**** `into_iter` returns owned values.
+**** `iter_mut` returns mutable references.
+*** consuming and iterator adapters
+**** consuming adapter
+     "Methods that call next are called consuming adapters because calling them uses up the iterator."
+**** iterator adapters
+     These produce different iterators,
+     and don’t consume the iterator.
+**** consuming a map uses both kinds
+#+begin_src rust
+let v1: Vec<i32> = vec![1, 2, 3];
+let v2: Vec<_> =
+  v1.iter()
+  .map(|x| x + 1) // produces a new iterator
+  .collect(); // consumes the iterator, producing a collection
+assert_eq!(v2, vec![2, 3, 4]);
+#+end_src
+** scope
+*** [[id:ed5db272-e8a4-4367-9510-f6cf1e2d6c49][scope, lifetimes and dangling pointers]]
 ** Prefix an argument that is not modified with &.
    This means the function is passed a reference,
    which is efficient,

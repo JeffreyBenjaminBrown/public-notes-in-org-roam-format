@@ -79,3 +79,4 @@
   :ID:       3f4d6eb9-0de1-46a1-ba51-9673a2790821
   :END:
 * [[id:532d78ce-a09a-4d02-94c0-65354605bb9e][Rejection is succcess.]]
+* Treat changes, not just end states, as goals

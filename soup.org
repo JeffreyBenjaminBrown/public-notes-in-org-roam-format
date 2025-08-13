@@ -12,7 +12,7 @@
 ** 3 cebollas (existe 1/2 cebolla, nada más)
 ** 3 tomates
 ** 4 apio
-** 3 aji
+** 5 aji
 ** 3 ajo
 * ingredients <2025-06-05 Thu> with 2 cups garbanzo
 ** 2 zanahorias

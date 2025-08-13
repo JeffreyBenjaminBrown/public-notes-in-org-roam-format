@@ -11,6 +11,7 @@
   :PROPERTIES:
   :ID:       19a9138f-231e-459f-8207-ad51441be07b
   :END:
+** [[id:1767a293-ee6a-47b7-b9b8-e8b2f05dd87f][assertiveness]] and [[id:b9f666f2-0035-42df-b674-86049697e9e0][caution]] without [[id:eabe22b3-ed71-4c11-9ac3-2a673226a5d1][anger]] or [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]
 ** [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][disciplined]], [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][relaxed]], [[id:fdef41e8-3218-4964-be4b-12cb86c722a1][gentle]], [[id:1767a293-ee6a-47b7-b9b8-e8b2f05dd87f][assertive]]
 ** [[id:411ba191-4092-431f-a8b0-eabd8b6814cf][serious play]]
 ** [[id:51cfa59e-4138-4d2d-8cae-5dbad26b78ad][sharing v. presence]]
