@@ -3,15 +3,6 @@
 :ROAM_ALIASES: "osc-gen" "osc gen"
 :END:
 #+title: oscillable generations view for org-roam
-* rebuild the ddatabase in TypeDB
-  The DB does not have to understand everything about the file.
-* [[id:66df35f1-5cd7-4c3f-bfc8-26ea873b1fc2][shuffle branch list]]
-* Are wishes interesting?
-  I have a lot of wishes in a few files:
-
-oscillable_generations_view_for_org_roam.org
-shareable_knowledge_gardens.org
-hode.org
 * refs
 ** systems ,, favorite | relevant
 *** [[id:572d6341-4aa9-4d8e-9a28-11d8fc527f25][Emacs programming for knowledge graphs]]
@@ -27,6 +18,15 @@ hode.org
    disguise-org-headline ()
    org-roam-db-query (query &rest args)
    insert-graph-parents-as-subheadlines ()
+* rebuild the ddatabase in TypeDB
+  The DB does not have to understand everything about the file.
+* [[id:66df35f1-5cd7-4c3f-bfc8-26ea873b1fc2][shuffle branch list]]
+* Are wishes interesting?
+  I have a lot of wishes in a few files:
+
+oscillable_generations_view_for_org_roam.org
+shareable_knowledge_gardens.org
+hode.org
 * [[id:2dfb86be-9eb5-4262-a9b7-a48fa0f9ac58][merging in a knowledge graph]]
 * Sort by product of accumulated unsorted notes and last time sorted.
 * to get a sense of the mass of a content tree

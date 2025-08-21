@@ -3,6 +3,7 @@
 :ROAM_ALIASES: rationality logic order
 :END:
 #+title: logic | order
+* see also [[id:001d7913-c431-461c-92ae-a6a39394856c][processing]]
 * reconception
 ** objects to reconceive
 *** the self

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       0de6a57e-7d2d-41f3-a776-e53ac67ba727
+:END:
+#+title: When my answer feels glib, try commiserating, focusing on them.
+If someone complains, and I find myself explaining how I successfully handle that situation, but their complaint is one I share, make it clear that I do.

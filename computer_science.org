@@ -1,8 +1,9 @@
 :PROPERTIES:
 :ID:       001d7913-c431-461c-92ae-a6a39394856c
-:ROAM_ALIASES: programming
+:ROAM_ALIASES: development programming processing "computer science"
 :END:
-#+title: computer science
+#+title: processing | development
+* [[id:35fc7de0-cbbf-466f-80ee-3f7d5eb3d806][sleep as processing]]
 * s
 ** to read : by others on it
 *** https://x.com/Franc0Fernand0/status/1945447159739924706?s=19
@@ -16,6 +17,9 @@
     and other improvements.
 **** https://github.com/casey/just
 ** [[id:4f6e7dfd-2b17-474b-9126-714bfb76156e][mutual recursion: an easy example]]
+* Like growing a tree vertically before horizontally, rush to integration.
+  For instance, in SKG there is a server and a client. I tried to make the API handle more complexity than necessary when receiving the document from Emacs -- it would convey the cursor position, the folded state, maybe other stuff. That was unnecessary, and made closing the cycle difficult.
+  More generally, ask what the bare minimum necessary would be to get the app's parts to work together. Find a way to make that *extensible* in the later directions I want, but don't actually extend in those directions before integrating. Even if the app would be absolute garbage without a given feature, if the feature is not necessary for integration, leave it out until after integration works.
 * subfields
 ** [[id:e1f7f6e9-3a9a-4804-91f5-7751d7f4e9b8][algorithms]]
 ** [[id:627da2c2-2f34-46ac-a6d3-9c625c4ff31d][artificial intelligence]]

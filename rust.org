@@ -668,6 +668,81 @@ assert_eq!(v2, vec![2, 3, 4]);
 #+end_src
 ** scope
 *** [[id:ed5db272-e8a4-4367-9510-f6cf1e2d6c49][scope, lifetimes and dangling pointers]]
+** smart pointers
+*** references & smart pointers
+**** Both are pointers.
+**** ownership
+***** References only borrow.
+***** Smart pointers can own.
+**** [[id:401c33ce-2d69-4c28-9b27-ca7fcc85ba22][The Deref trait]] abstracts over both.
+     although not all smart pointers implement it
+*** instances
+**** String
+**** Vec<T>
+**** Box<T>
+***** purpose
+      "allow you to store data on the heap rather than the stack"
+      "What remains on the stack is the pointer to the heap data."
+***** They incur no overhead beyond using the heap.
+      which, recall, is slower than the stack
+***** motivating situations
+****** finessing unknown size
+******* elaboration
+        "When you have a type whose size can’t be known at compile time and you want to use a value of that type in a context that requires an exact size"
+******* example: cons lists
+******** will not compile
+         enum List {
+           Cons(i32, List),
+           Nil,
+         }
+******** will compile
+         enum List {
+             Cons(i32, Box<List>),
+             Nil,
+         }
+****** avoiding copies
+       "When you have a large amount of data and you want to transfer ownership but ensure the data won’t be copied when you do so"
+****** generics
+       "When you want to own a value and you care only that it’s a type that implements a particular trait rather than being of a specific type"
+***** deallocation
+      "when a box goes out of scope, as b does at the end of main, it will be deallocated ... [and so will] the data it points to"
+*** are usually structs
+*** the Deref trait
+    :PROPERTIES:
+    :ID:       401c33ce-2d69-4c28-9b27-ca7fcc85ba22
+    :END:
+**** lets you customize the dereference (asterisk) operator
+**** example
+     struct MyBox<T>(T);
+
+     impl<T> MyBox<T> {
+         fn new(x: T) -> MyBox<T> {
+             MyBox(x)
+         }
+     }
+
+     use std::ops::Deref;
+
+     impl<T> Deref for MyBox<T> {
+         type Target = T; // `Target` is part of the `deref` signature
+                          // `Target` is an "associated type".
+
+         fn deref(&self) -> &Self::Target {
+             &self.0
+         }
+     }
+**** Confusingly, "the deref method returns a reference to a value".
+***** why
+      Otherwise ownership would move out of `self`.
+***** how it desugars
+      If y is a weird boxy type implementing deref,
+      then *y desugars to *(deref(y)),
+      where the second * is the ordinary deref op for ordinary refs.
+*** TODO skipped
+**** Deref coercion
+**** the Drop trait
+**** Rc<T>, the reference-counted smart pointer
+**** RefCell<T> and the Interior Mutability Pattern
 ** Prefix an argument that is not modified with &.
    This means the function is passed a reference,
    which is efficient,
@@ -789,7 +864,8 @@ assert_eq!(v2, vec![2, 3, 4]);
 ** (&), (*), references and borrowing
 *** References are safer than pointers.
     "Unlike a pointer, a reference is guaranteed to point to a valid value of a particular type for the life of that reference."
-*** borrowing = creating a reference
+*** & = the borrow operator. Borrowing = creating a reference.
+*** * = the dereference operator.
 *** mutating borrowed things
 **** cannot be done by default
 **** to do it, create a "mutable reference"

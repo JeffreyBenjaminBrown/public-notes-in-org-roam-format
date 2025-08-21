@@ -9,8 +9,14 @@
    https://github.com/JeffreyBenjaminBrown/skg
    and might be the best introduction to Skg.
 ** [[id:1f76cbed-d2c5-4522-89e2-1de946d5dc99][connectivity demos]] for knowledge graphs
-* The honorable thing to do would be to write a Haskell TypeDB driver.
 * [[id:b91c26e8-54cb-4192-8509-4482c9f60cd6][the TypeDB Python driver]]
+* omits-some-content herald: "{+"
+  :PROPERTIES:
+  :ID:       324f020b-1145-4279-a87a-02c96dce7a30
+  :END:
+  This indicates that Rust should treat any org-children that look like content as content,
+  but should not delete the node's contains relationship to anything that doesn't appear as an org-child.
+  (The easiest implementation of this would be to ignore order. Anything that would become new content on saving can be placed at the end of the content list.)
 * TODO looks like a great idea
 ** [[id:8e4ed00c-a6b6-4bce-8574-f399de72121e][Expose TypeDB querying to the user.]]
 * see also
@@ -42,6 +48,17 @@
    :PROPERTIES:
    :ID:       8e4ed00c-a6b6-4bce-8574-f399de72121e
    :END:
+*** checking compatibility with the (Emacs-Rust) API
+**** How the user represents a query is independent of the API.
+**** How the query results are shown
+     They can be placed anywhere.
+     A herald reveals the headline as collecting a query.
+     A child marked query-text has a body equal to the query.
+     The results are the other branches.
+**** How the query results are saved
+     They aren't. But as usual, if a query result is edited
+     (in its text or content) that can be saved normally.
+     They initially appear with the [[id:324f020b-1145-4279-a87a-02c96dce7a30][omits-some-content herald]].
 ** kinds of queries
 *** show how many [children] it has in a [neighboring branch]
 **** the idea
@@ -494,5 +511,24 @@ We waste so much information. So many have found the answer to what ails you, ma
 * [[id:b1c2091b-7441-4459-b49e-fac3fe1ed918][skg outreach]]
 * [[id:da0e89a7-0e9d-41da-8c2d-ec4ab2e37c2b][embarrassing]]
 * [[id:edb446e2-fdf0-4917-ae6c-e4afd912499e][Am I being realistic?]]
+* Sound effects for events would be cool.
+** elaboration | definition
+   The user could "make their own game",
+   assign sound effects to different graph events.
+** example events, all social
+*** someone did something* with your node
+**** referenced
+**** subscribed
+**** described
+**** asked about
+**** used as a realtionship
+*** The sound effect could also depend on how subscribed-to the place they did that is.
+    and recursively -- a calculation comparable to pagerank
+** ? Could similar events be enjoyably defined for one's own notes?
+   Is there an algorithm for thinking in a graph?
 * ONGOING
 ** replace the word glyph with herald
+* ABANDONED
+** Write a Haskell TypeDB driver.
+   Would be honorable, but looks hard --
+   the Rust driver is enormous.
