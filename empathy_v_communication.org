@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       0de6a57e-7d2d-41f3-a776-e53ac67ba727
+:ROAM_ALIASES: "communication v. empathy"
+:END:
+#+title: empathy v. communication
+* When my story feels stale, focus on my audience.
+  If it is a story I have repeated often,
+  I often feel a tedious obligation to attend to it,
+  that would feel better both for me and, surely, my audience,
+  if I paid more attention to them --
+  maybe particularly the implications of telling it to them.
+* When my answer feels glib, try commiserating, focusing on them.
+If someone complains, and I find myself explaining how I successfully handle that situation, but their complaint is one I share, make it clear that I do.

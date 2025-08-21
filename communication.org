@@ -25,6 +25,7 @@
 ** [[id:ea703938-f201-4f3b-ac07-e4c8b688e9de][Speeches at beginnings and ending are important.]]
 ** [[id:f8a1040d-ef6f-4819-9f96-421a06182502][etiquette, information processing optimization]]
 * tensions
+** [[id:0de6a57e-7d2d-41f3-a776-e53ac67ba727][empathy v. communication]]
 ** [[id:51cfa59e-4138-4d2d-8cae-5dbad26b78ad][sharing v. presence]]
 *** [[id:c6eb0f31-04b3-4552-b52d-6bbaae98f34d][perception]]
 ** [[id:35e62792-6cce-404a-807f-c0e74c8b41da][Does efficient conversation have (conscious) goals?]]
