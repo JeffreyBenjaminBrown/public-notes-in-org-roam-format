@@ -3,20 +3,111 @@
 :ROAM_ALIASES: "how to use a knowledge graph" "how to knowledge graph"
 :END:
 #+title: using a knowledge graph
+* helpful principles
+  :PROPERTIES:
+  :ID:       5fd28fa4-a109-4f3a-8296-01a3cf5351aa
+  :END:
+** If it seems too far-out to share, [[id:ccc1c640-f36e-47de-b417-a12ea267f0a2][ground the claim]].
+** [[id:67cc1b2b-4ec5-4012-9756-dcaafdabb41c][Judiciously delete Platonic linking nodes.]]
+* maybe helpful
+** ? [[id:c774af85-7ad0-4762-b28c-5e02d4881c8b][After filing something, know the whole note it went into.]]
+** Read fast, some things just above zero time-weight.
+** A negative is often equivalent to a more specific positive.
+   [[id:d53dd756-cc2f-43f9-a919-5f39810e642c][example]] (of "Note titles should be positive and specific.")
+** If I find myself stuck trying to place it perfectly, move on.
+   It's in there, after all.
+* how
+** [[id:ccc1c640-f36e-47de-b417-a12ea267f0a2]["Grounded claims" are cool.]]
+** dubious - the para method
+ https://fortelabs.co/blog/para/
+*** stands for "projects, areas (of responsibility), resources, archives"
+ I would just say "responsibilities" instead of "areas (of responsibility)"
+*** archives are inactive things from the other three categories
+*** areas v. projects
+**** to have an area is to (try to) maintain a standard
+ e.g. health, finance, spouse
+**** projects belong to areas, and are supposed to end
+*** Seeing projects come and go helps [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]].
+** evergreen notes
+*** file by concept > file by {resource, project, event ...}
+** Note titles should be positive and specific.
+*** example
+    :PROPERTIES:
+    :ID:       d53dd756-cc2f-43f9-a919-5f39810e642c
+    :END:
+    "X doesn't work" can often be replaced with "Y requires Z".
+*** Negative titles are less actionable.
+** Note titles should be complete sentences (when possible).
+   :PROPERTIES:
+   :ID:       3305442a-e435-4f84-a403-9509963497b7
+   :END:
+   It increases the likelihood that they are atomic.
+** notes should be surprising
+ https://notes.andymatuschak.org/z4KZ9973AoHhvM9Pj5Qrds48JXNbMEwVJmVRw
+** Often link targets deeper into a tree are better.
+   :PROPERTIES:
+   :ID:       46b695c5-617e-47a8-b699-ef2b7ec29e81
+   :END:
+*** the idea
+    Knowing A is related to X is good.
+    But if X is a long passage,
+    it's more helpful for A to link to a specific part of X,
+    and for that part of X to be visible from A.
+*** source: Andy Matuschak calls this "fine-grained association".
+    https://notes.andymatuschak.org/z68tVM68dEAuH4acs7HY6K76tTVzBdoBGKMZB
+** maybe ?? Use backlinks to define notes extrinsically
+   :PROPERTIES:
+   :ID:       edca15b1-37f9-46ec-bb32-8a3090242b0d
+   :END:
+   even before they have any intrinsic content.
+*** ref, where I got the idea
+    https://notes.andymatuschak.org/z2newCwFfd6iZFyf9bgspkbyt1G8wbQxJVgTK
+* why
+** Use notes to avoid preconceived conclusions.
+   Writing an essay top-down implies the writer decides the conclusion first, and then tries to argue it. That's absurd!
+   https://notes.andymatuschak.org/z6Mx6PrJjGCf2akGM9pvoZ5Nk3EozcZcc9zHx
+** Externalizing ideas frees working memory, enhances focus.
+https://notes.andymatuschak.org/z6C5H4eYH2A4omfNLuUcDiKibQ1hZG2RGNZ97
+** passive reading|listening is (usually?) wasteful
+   Think, ask questions about it, write, investigate other branches;
+   don't feel obligated to keep following
+   someone else's train of thought.
+*** a reference with other refrences
+ https://notes.andymatuschak.org/zX1WtJ4ouE8sjN1NgWHsGVg8ZnVfp5Kz74Vs
+*** 100% reading, 0% processing => nowhere
+ Schopenhauer saw this:
+ "whoever reads very much and almost the whole day, but in between recovers by thoughtless pastime, gradually loses the ability to think on his own ...
+ constant reading immediately taken up again in every free moment is even more mentally paralysing than constant manual labour, since in the latter we can still muse about our own thoughts. But just as a coiled spring finally loses its elasticity through the sustained pressure of a foreign body, so too the mind through the constant force of other people’s thoughts."
+** The returns to well-linked notes compound.
+   => Notes work that feels like a waste of time might not be.
+* open questions
+** [[id:e56730b1-eb61-48a1-8bce-85cd8c180a46][In a to-do list, should "maybe" come first or last?]]
 * problems
-** doubt
+** What would Godel say?
+   :PROPERTIES:
+   :ID:       d7c3b236-06f8-48e4-8c42-39313737aa65
+   :END:
    (and rebuttal)
-*** This note is, in part, "how to curate knowledge".
+*** How to knowledge graph is largely how to curate knowledge.
     Some kind of Godelian limit would seem to apply.
     But still plenty of helpful mechanism can be described.
+*** Can there be a read algorithm? To [[id:5e3a5ad9-f733-45fe-a7f1-55dcc0ce2bed][direct attention well]]?
 ** Does [[id:8e2c3a3f-f0e1-46f3-af4c-a265312346ca][the stress of integration]] prevent me from reading my graph?
+   :PROPERTIES:
+   :ID:       320e5181-cf0d-48bf-b024-d0e6c4c309c2
+   :END:
+*** Someone said [[id:8e2c3a3f-f0e1-46f3-af4c-a265312346ca][the stress of integration]] is important.
 ** Context-switching makes reading a backlinks menu hard.
+   :PROPERTIES:
+   :ID:       610bb7e7-98a5-451e-90d8-3db74a648b81
+   :END:
    Unlike reading content,
    each (in general) item in a list of backlinks
    requires a context switch.
-* Would it be smart to map the day at each day's start?
-* It's hard to include "human" in my tree.
-  I really want it to be a tag that doesn't interfere with the tree.
+** [[id:ec4fab64-a155-47d4-80a5-46959c987934][Do I fear human superintelligence?]]
+* dubious methods
+** Would it be smart to map the day at each day's start?
+*** [[id:c73a2101-5ca7-45a0-ab85-51ad3953523c][Frequency is sometimes offered as an explanation.]]
 * ? tags v. nodes
 ** Should tags be different from nodes? How different would tag nodes be from other nodes?
 * good advice
@@ -35,15 +126,20 @@
 *** heralds would help
 * Maybe what I should mindmap most is my practical notes.
   remember to look up from each
-* hypotheses
-** Appending seems usually better.
-*** the idea
+* The writer guides the reader.
+  :PROPERTIES:
+  :ID:       e114b8ed-e85c-41f3-b972-45b23ab5b8d5
+  :END:
+** Is appending usually better than prepending?
+   alternative | competing strategies
+*** add to the bottom, if you'll read from the top, to read it all
     Adding a new note to the end seems better than adding to the start.
     That's because you're going to read the note from top to bottom.
     If new things go to the top you might never find the old things.
-*** exceptions
-**** clarifying how to read the rest of the file
-**** sure that the new thing is more valuable than what it buries
+*** clarify early (at the top) to the reader how to read the file
+*** Place writing believing it deserves to obscure what it obscures.
+** a record of where the cursor has been would help
+* hypotheses
 ** writing duties
 *** Duties to yourself
 **** If you (habitually) write to it, revise it.
@@ -53,8 +149,8 @@
 ***** topic
 ***** kind of analysis: goal, methods, consequence, level of abstraction
 **** Qualify your opinions.
-     Some things you believe. These can go without a herald.
-     If it's a suspicion, or something you doubt, etc. make that clear.
+     Some things you believe. These can go unqualified.
+     But if it's a suspicion, something you doubt, etc. make that clear.
 **** Employ atomicity.
      in Andy Matuschak's sense
 **** Provide enough context.
@@ -71,10 +167,12 @@
 *** Sermons repeat. Branch lists could repeat, or more generally include musical instructions.
 **** Scalars like "mass" or "value".
 * aspirations
-** Discover the ant algorithm.
+** Discover an ant-like algorithm.
 * u
 ** interpretations of punctuation
 *** () is optional, whereas [] and {} are mandatory but perhaps holding disjunctive options
+*** add a comma to indicate plurality, even if there is only one member
+    singleton (without a comma) lists and sets seem equivalent
 ** ordering branches
    schemes
 *** bubble up from the bottom until indifferent
@@ -93,28 +191,15 @@
     alternatives perhaps unordered, or ordered by likelihood, ..
 *** Generalization: A branch about a tree's structure.
     But I'm not sure I would use that freedom.
-* TODO merge
-** [[id:ce9e0a8d-19fa-48eb-9d0e-6cedcb0fdc99][notes, how to take]]
-** [[id:7b2cd1a3-bac4-4057-90e3-a2698a2fdefb][consult your notes : why and how]]
-** which one
-*** There should always be a "recent, unmerged, serial as written" bucket at the end of the sorted list, to put new things without having to disturb train of thought elsewhere.
-*** Always append at the end, and order from the top.
-    And mark the last node to be ordered.
-    More generally, keep a list of line unmbers when nodes were visited in each file. A frequent enough git commit history would have this property.
-** the u bucket
-*** automatically add a "new & unmerged" bucket at the {bottom for others, top for the author} of each list
-**** they should be orderable by age*
-     (*) and maybe by other things
 * A valid read technique is to read the whole file before deciding which links to follow.
   Has the advantage (?) of making it possible to know what you read, which might make it easier to review more of your graph.
   Has the disadvantage of slowing down how fast you move across files, by forcing a complete read of each before moving on.
 * a read-write equilibrium
 ** good arrangement requires knowing how you read, and vice-versa
    e.g. if you know you'll read from the top down and from root to leaves, then your choices of what is how high, what is nested, and what is behind a link are all important.
-* Can there be a read algorithm? To [[id:5e3a5ad9-f733-45fe-a7f1-55dcc0ce2bed][direct attention well]]?
 * ? Give everything a context.
 * Maybe don't start new roots.
-  Rather start from inside a document,
+  Instead, start from inside a document,
   and then maybe add contexts and separate it.
 ** not sure
    Should everything new graft onto a historical context,
@@ -133,10 +218,11 @@
 *** That is, outside of it, other people's work
 * seem to help
 ** When lost, look back at your reading history.
+* *_processing_*
 * [[id:1989f694-7acc-433f-aae6-7e7146abd9cc][how to file a note]]
-* Don't worry about losing conscious track of any note -- losing track is, in fact, critical to successful usage of a knowledge graph.
+* losing track of notes is optimal
+  Don't worry about losing conscious track of any note -- losing track is, in fact, critical to successful usage of a knowledge graph.
   Even if you perfectly anticipate and curate the set Y when you create the new note, it's possible that you won't look up anything in Y for a long time. That's fine! Continuing the above example, suppose the note you wrote was about love and how to avoid burnout at work, and you put it under those two things, and then never looked at those two things. That means those two things weren't an issue for you.
-reading and rewriting my notes
 * Be clear on the purpose.
   Shuffling mindmaps is not something I do for the mindmap's sake!
   It is how I think.
@@ -151,7 +237,7 @@ reading and rewriting my notes
    :ID:       99721b37-30b0-4475-81fa-42b6f67e6ec8
    :END:
    Do I like it when it's productive?
-   Do I know when it's productive?
+   Do I know    when it's productive?
    Do I like reading/organizing a topic when I've been procrastinating the topic? (I think so.)
 * [[id:28f244af-3876-4302-8aa6-4e2306024149][Hegelian synthesis is a fun knowledge graph trick.]]
 * [[id:2a1c0d5e-81ac-46a8-a349-f3715428ac4e][promote "_ feels _" notes : a generalization of trigger warnings]]
@@ -173,9 +259,9 @@ reading and rewriting my notes
 * [[id:5b7900ff-1792-47d1-a55a-8435f8766baf][Don't build premature structure when mapping knowledge.]]
 * [[id:23f40301-92d8-48d5-9c5a-d28b334acf02][Random, motivated, "generous" note navigation seems promising.]]
 * [[id:05a84243-9dcf-4492-b81e-a48fd2f53b3c][knowledge graphs and/or meditation]]
+** Having a goal can be good, but so can letting the reading knock you about.
 * [[id:514fe55a-d22c-4e6a-9b0f-3a01a89742db][Review notes before any high-pressure situation.]]
 * [[id:d283b6a3-205b-4a7c-9338-aa458f091691][Use my "prefix-date-uri" script.]]
-* [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to avoid losing notes in a knowledge graph]]
 * [[id:7ae561f9-6dfb-4ebb-b95d-af26876a854a][poetry and logic v. the infinite]]
 * two maybe-peer ?s and a burial
 ** deliberation
@@ -189,3 +275,19 @@ reading and rewriting my notes
    The ? near the bottom, if any, is dubious but worth the highlight. It can also be a dubious branch of the early ? branch.
    There should be a "bury" branch near the end. Not everything deleted has to go there but probably a lot should, because maybe we'll have the processing power to incorporate all the data including those burials.
 * [[id:934b7b55-f1d8-43f7-9649-f745d0d3b54c][Making playlists resembles note-taking.]]
+* to-merge buckets
+** which one
+*** There should always be a "recent, unmerged, serial as written" bucket at the end of the sorted list, to put new things without having to disturb train of thought elsewhere.
+*** Always append at the end, and order from the top.
+    And mark the last node to be ordered.
+    More generally, keep a list of line unmbers when nodes were visited in each file. A frequent enough git commit history would have this property.
+** the u bucket
+*** automatically add a "new & unmerged" bucket at the {bottom for others, top for the author} of each list
+**** they should be orderable by age*
+     (*) and maybe by other things
+* by Andy Matuschak
+  either I liked or I wanted to read
+** read, if I haven't already, about evergreen note practice
+see the list under "Implementing an evergreen note practice" here:
+https://notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C
+** [[id:bc0e8f6e-3883-4e1c-b945-b7ea3a4d3214][pages from Andy Matuschak's knowledge graph with links I haven't gotten to]]

@@ -12,8 +12,8 @@
 ** CON: maybe just a volume thing
    This might be good mostly because it increases the volume read,
    and other graph strategies for doing that would be as effective.
-** PRO: looking up is natural when unfocused
-   But if you're somewhere and feeling aimless, then looking up,
+** PRO: looking containerward is natural when unfocused
+   But if you're somewhere and feeling aimless, then looking containerward,
    into the files that justify the current one's existence,
    does seem like a natural response.
 ** PRO: polite if sharing notes

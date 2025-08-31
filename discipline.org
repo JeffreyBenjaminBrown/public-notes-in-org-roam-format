@@ -14,6 +14,10 @@
 ** [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
 ** [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
 ** [[id:31b4c38c-5885-4895-ae33-85cb4fb93b86][immaturity]]
+* Know what is badass to sacrifice in the short term.
+  :PROPERTIES:
+  :ID:       9395f417-7e64-461f-ac7e-f7a95ce8d683
+  :END:
 * [[id:5801add6-9aaf-4f60-9354-f4aadfa5e7d2][patience v. courage]]
 * technical strategies
 ** [[id:e0a738a1-6bcc-4995-9c58-472f85432140][Intentionally seek out things that are hard.]]

@@ -8,6 +8,10 @@
 * instances
   The title of each child applies in its entirety
   to each grandchild.
+** attribution : [author] said _
+   Make these easy to create quickly,
+   without unduly distorting the view,
+   to encourage more citation.
 ** "_ {evinces, is implied by, ...} [statement, possibly a relationship]"
    When the object (the second member) is a relationship,
    this seems not extremely easy to represent.
@@ -20,7 +24,8 @@
 	without yeast it won't rise
    *** flour
    *** ...
-** valuable both to reader and writer
+** [[id:2a1c0d5e-81ac-46a8-a349-f3715428ac4e]["_ feels _" notes : a generalization of trigger warnings]]
+** instances ^ valuable both to reader and writer
 *** about these
     They would need conscious user participation,
     are whole sentences,
@@ -82,6 +87,7 @@
 *** [member] is in [category]
 *** [category] is subset of [bigger category]
 *** _ {if, because} _
+** [writer] trusts {principle, author,}
 ** no pressing need; technical, not fun for mass voters
    a.k.a. garbage
    This itself might be a good category to have.

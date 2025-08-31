@@ -2,69 +2,70 @@
 :ID:       170e4f79-4f5e-49a6-9ce1-8e42c0332100
 :END:
 #+title: the meaning of sharing in a knowledge graph
-* Need a "replaces my view of" relationship.
-  Specifically "replaces my view of".
-  It won't often be, but can be one-to-many -- that is,
-  for multiple nodes of others,
-  a node of mine could replace my view of theirs.
-  Especially if I merge two foreign nodes.
-* Is the diff problem for people the same as the diff problem across time?
-  You'll want to see how someone's subscription(s) to your node differ(s) from your node.
-* to tamper with is to duplicate the top layer of
-** the idea
-   A subscription can just link to what's subscribed to,
-   *if* its contents should be shown as-is.
-   But if someone wants to do anything with that content,
-   they'll have to reproduce the whole (flat) list,
-   as a list of subscriptions.
-** why
-   This way you can change their order.
-   You can create a category and stuff some of them in it.
-** representation
-   A link to a foreign node is a subscription.
-   If the subscriber changes their view
-   of the foreign node,
-   the subscriber's graph gains a "subscription" node,
-   which can reorder the foreign content.
-   The subscription node is just an ordinary node,
-   but it is created subscribing to the foreign node.
-** rendering
-   A node N with subscriptions is shown such that
-   its first child is called "subscriptions",
-   in the system font.
-   Children of that represent each subscription,
-   and children of those things (so level-3 in org-mode)
-   are their content.
-   After that top-level "subscriptions" of N
-   are all the ordinary contents of N.
+* SOLVED
+  The solution is (the collection of all three relationship) subscribes, hides-from-subscriptions and overrides-view-of.
+* processing
+** Need a "replaces my view of" relationship.
+   Specifically "replaces my view of".
+   It won't often be, but can be one-to-many -- that is,
+   for multiple nodes of others,
+   a node of mine could replace my view of theirs.
+   Especially if I merge two foreign nodes.
+** to tamper with is to duplicate the top layer of
+*** the idea
+    A subscription can just link to what's subscribed to,
+    *if* its contents should be shown as-is.
+    But if someone wants to do anything with that content,
+    they'll have to reproduce the whole (flat) list,
+    as a list of subscriptions.
+*** why
+    This way you can change their order.
+    You can create a category and stuff some of them in it.
+*** representation
+    A link to a foreign node is a subscription.
+    If the subscriber changes their view
+    of the foreign node,
+    the subscriber's graph gains a "subscription" node,
+    which can reorder the foreign content.
+    The subscription node is just an ordinary node,
+    but it is created subscribing to the foreign node.
+*** rendering
+    A node N with subscriptions is shown such that
+    its first child is called "subscriptions",
+    in the system font.
+    Children of that represent each subscription,
+    and children of those things (so level-3 in org-mode)
+    are their content.
+    After that top-level "subscriptions" of N
+    are all the ordinary contents of N.
 
-   If someone "promotes" a node P from a subscription S
-   into the ordinary content of N,
-   then S can be given an "ignores P" attribute,
-   and what looks like P becomes a subscription to P.
-** file representation
-   When saving, if a subscription node is about to be created, the system should determine whether, in fact, anything changed there. If it has the same content as the thing it is subscribed to, in the same order, then probably a node moved into and then out of it, so it doesn't actually need to be written.
-** operations
-*** move (already discussed)
-*** merge
-    The result should subscribe to any foreign node
-    that was part of the merge. Maybe both were foreign.
-*** split
-    In splitting a foreign node,
-    either or both results can subscribe to the original.
-* Should you be able to insert content below a (link to a) subscription?
-* Subscription is links to outside.
-  Subscription isn't a new kind of relationship,
-  just a new kind of link target --
-  one you don't control.
-* You can redefine how you see another's graph.
-** BLK_DATE In full generality this is a hard problem.
-   I'd like to be able to reshape someone's notes
-   to suit my needs when viewing them.
-** A simpler case: Incorporate and ignore.
-   Two kinds of ignore: In a document, and globally.
-   To incorporate a branch B of foreign content C
-   is to link to it,
-   and maybe to ignore it when in the context of C.
-* views to relate your graph to another's
-  Unnecessary?
+    If someone "promotes" a node P from a subscription S
+    into the ordinary content of N,
+    then S can be given an "ignores P" attribute,
+    and what looks like P becomes a subscription to P.
+*** file representation
+    When saving, if a subscription node is about to be created, the system should determine whether, in fact, anything changed there. If it has the same content as the thing it is subscribed to, in the same order, then probably a node moved into and then out of it, so it doesn't actually need to be written.
+*** operations
+**** move (already discussed)
+**** merge
+     The result should subscribe to any foreign node
+     that was part of the merge. Maybe both were foreign.
+**** split
+     In splitting a foreign node,
+     either or both results can subscribe to the original.
+** Should you be able to insert content below a (link to a) subscription?
+** Subscription is links to outside.
+   Subscription isn't a new kind of relationship,
+   just a new kind of link target --
+   one you don't control.
+** You can redefine how you see another's graph.
+*** BLK_DATE In full generality this is a hard problem.
+    I'd like to be able to reshape someone's notes
+    to suit my needs when viewing them.
+*** A simpler case: Incorporate and ignore.
+    Two kinds of ignore: In a document, and globally.
+    To incorporate a branch B of foreign content C
+    is to link to it,
+    and maybe to ignore it when in the context of C.
+** views to relate your graph to another's
+   Unnecessary?

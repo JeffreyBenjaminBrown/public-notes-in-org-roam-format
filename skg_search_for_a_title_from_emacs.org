@@ -1,7 +1,0 @@
-:PROPERTIES:
-:ID:       ab19097e-522f-4a88-ab9c-32b58fe38212
-:END:
-#+title: skg : search for a title from Emacs
-Build a document of search results in Rust.
-Titles are visible, IDs are not.
-The user can visit any of them.

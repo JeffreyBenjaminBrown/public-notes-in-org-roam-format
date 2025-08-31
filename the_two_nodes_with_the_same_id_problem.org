@@ -19,41 +19,6 @@
      keep a list of visited nodes,
      and not recurse into content when they reappear,
      reporting "duplicated with content elsewhere".
-*** BLK_DATE handle documents with no (single) root
-    :PROPERTIES:
-    :ID:       10561715-048f-4a0e-ae25-3daae054c8ce
-    :END:
-**** blocked on [[id:32b73b61-95d8-4358-9dab-a4352f4a6c1e][backward view]]
-**** the problem
-     When a user asks to see a node in context,
-     the plan before I decided to permit dup IDs
-     was to climb the single chain of containers
-     until reaching an uncontained node,
-     and make that the root of the displayed document.
-     But now a path might fork and might cycle.
-**** solution
-***** If the container path is unique and ends
-      then the previous solution works:
-      Don't present options;
-      just open the root container,
-      and focus on the requested content.
-***** otherwise
-****** temporary solution
-       Report that it has no unique root container.
-       Fetch it and its content, ignoring its container(s).
-****** BLK_DATE better solution: backward view
-       If the data is not too explosive,
-       tha app can display a "container view"
-       the same way it shows an infinite "content view":
-       forking as is natural,
-       and discontinuing recursion into the containers of
-       any node for which that has already been done
-       earlier in the buffer
-       (so displaying it again, but not its contents).
-
-       So display that, and permit the user
-       to select a content view
-       from any node in the container view.
 *** present link target options
     To follow a link with multiple targets,
     a page is returned with links to each,

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       cadd9321-1784-4d73-96a2-326d30329c38
+:END:
+#+title: labeled relationships in skg
+* create the relation
+  It has n fields -- binary ones have 2, etc.
+  Each fields can include a type specification.
+  It has aliases.
+* instantiate a relation among a node's contents
+  When a user instantiates a relationship, it is as a node. Its text includes placeholders for each member, which indicates the member's type if it was specified, and otherwise _.
+  The relationship can refer to its parent as [it], to all of its children as [these], and to other things via ordinary hyperlinks. It needn't refer to either [it] or [these].
+  Difficulty: If it refers to [these] should it create one relationship to the collection of them as a whole, or should it create a relationship to each of them individually? Maybe use {these} and [these] to distinguish.
+  The relation is ordered among its parents' contents wherever the writer puts it. It becomes unordered content (which appears like unsubscribed content) of the other members. The user can order it, and (again just like subscriptions) if moving it from unordered content to the ordered content empties an intermediating "unordered content" branch, then that "unordered content" branch disappears.
+* maybe form DAGs on the relations
+  Eventually, relations could themselves form DAGs, e.g. via specialization ("is a kind of"). (Specialization might more specifically form a tree.)
+* even content relationships can be labeled
+  This is strange, because I don't think TypeDB wants me to refer explicitly to the internal ID of the content relationship. But I can nonetheless refer to it as (something like) an "isa contains (id of x,id of y)". To describe something about the relationship "X contains Y", where Y is an org-child of X, I would have to put the description in an org-child of Y. Maybe the containment relationship could be referred to as [there because], or even more explicitly, [it's there because].

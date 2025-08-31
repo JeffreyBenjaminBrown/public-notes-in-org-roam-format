@@ -12,12 +12,12 @@
 ** is near
 ** observations | manifestations
    e.g. in society
-** qualities
+** would include qualities
    Should these go under "is"?
-** sources
-** effects
 ** mechanisms
 *** methods
+** sources
+** effects
 ** fantasy | art
 ** maybe
 *** theory

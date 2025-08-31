@@ -9,8 +9,6 @@
 ** it = parent
 ** this = single child
 ** these = children
-* [[id:2323989f-faf4-480b-845a-7e15356e5683][rel nodes are marked RN]]
-  where N is an integer, the relationship's arity
 * the idea
   If N and M are in a relationship,
   show it as "it (parent) [needs, ..] this (child)",

@@ -7,6 +7,15 @@
 * definitional
 ** sobriety
 ** constancy
+* It requires [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][confidence]] in the decision.
+  :PROPERTIES:
+  :ID:       2c35520b-d5d2-4b23-8cfd-0843bb10103f
+  :END:
+  belief in the correctness of one's choices|projects
+* It causes feelings of [[id:2e75b219-6f4c-427f-9f61-13f618fd0e80][safety]], progress, [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaning]], [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]].
+  :PROPERTIES:
+  :ID:       f39c559d-1283-43fb-a140-3bb26c3bc6a0
+  :END:
 * laziness
   :PROPERTIES:
   :ID:       d5e61945-b23c-48b6-9eea-018a3da2d50a

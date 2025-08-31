@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       051dc64d-f930-4959-82e6-3372ef9bdec5
+:END:
+#+title: history of graph operations
+* the data structure
+  A map from node ids to lists of times,
+  or a list of (ID, time) visits.
+  Look at (recency, number of visits) plots of IDs.
+  Translate Josh's format into mine, or use his.
+  Ask what visualizations of it he uses.
+* The Ctrl-Tab ordering of buffers should be robust to moving the cursor but not {saving?}.
+* distance from awareness : scalar
+** elaboration
+   Project each node's {distance in time,hops,} from my awareness onto a scalar.
+** an incomplete method
+   Keep a running count of which node the cursor was on. That can provide one dimension. But a node that is graph-close to another node in that list is only <some measure> farther from the user than the other node.
+* a record of where the cursor has been
+  :PROPERTIES:
+  :ID:       bc9c9f43-a4e7-436d-a662-dcb895f2467d
+  :END:
+** It would help avoid over-reading the head relative to the tail.
+   of a branch list
+* Order by last time read.
+** see also
+*** PageRank
+*** [[id:a5b74e88-c524-4f89-b29d-1bc324a77369][spaced repetition]]
+** more generally, order by a function of
+*** when last read
+*** when the things *in* it were last read
+    ? use something like PageRank
+*** how many times they have been read
+*** size of sets: content, links, containers, backlinks
+*** maybe more things
