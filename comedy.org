@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       92cb5b77-ce0e-4e11-8e9e-3be146688fcf
-:ROAM_ALIASES: "humor"
+:ROAM_ALIASES: humor
 :END:
 #+title: comedy
 * see also [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling a higher force]]

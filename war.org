@@ -3,7 +3,6 @@
 :ROAM_ALIASES: war "national defense" caution
 :END:
 #+title: defense | caution
-* [[id:db8d0ef0-1518-4c69-9cfe-99d1bc4d2cd1][Recent changes in weapons technology have tilted the odds in war in favor of defenders.]]
 * Know what I'm getting into before accepting an invitation.
   :PROPERTIES:
   :ID:       5d29ffa5-0c60-4243-801c-043f717c7f9a
@@ -15,3 +14,5 @@
 ** In a bus, before sealing myself into my chair, know who is on it.
    And during the ride think about them, perhaps to get their number.
 ** [[id:7ac060da-9f65-4861-975b-d44d10623a46][On a schedule, calling is better than being called.]]
+* [[id:1b4a962e-2549-4d7f-bf5c-a5d03767ac42][skepticism]]
+* [[id:db8d0ef0-1518-4c69-9cfe-99d1bc4d2cd1][War favors defense lately (2022).]]

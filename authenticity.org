@@ -3,6 +3,11 @@
 :END:
 #+title: authenticity
 * = congruity between beliefs, wishes and actions
+* Authenticity opposes conformity.
+:PROPERTIES:
+:ID:       7a8f0a9a-45c0-4624-a441-eeff41747607
+:ROAM_ALIASES: "Conformity opposes authenticity."
+:END:
 * neighbors
 ** [[id:cd31d188-3857-469e-8af8-07ce8d4242d9][intuition]]
 ** [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness]]

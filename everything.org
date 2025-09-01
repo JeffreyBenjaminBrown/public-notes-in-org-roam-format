@@ -16,15 +16,18 @@
    :END:
 ** Values determine [[id:ed2e83cd-85ed-408a-bc28-21c8d4272f68][respect]].
 *** What we respect depends on our values.
-*** Who we respect depends on* what we think their values are.
-    (*) among other things
+*** Who we respect depends on {what we think their values are,}.
 ** clear values (instances)
+*** about this collection
+**** Fun and beauty overlap even more than I've recorded..
 *** [[id:dae618bd-8f97-44ef-b22b-f72adef57bc8][fun]]
-**** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][humor]]
+**** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]]
 **** [[id:9afa2ad3-a0e0-46b0-93a4-00dc76ff25e1][adventure]]
 **** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][thrill]]
+***** [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]]
 **** [[id:4ac3616a-5baf-46b6-ba87-d2baccedcae0][games]]
-**** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]]
+**** [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][order | logic]]
+**** [[id:a1487b9c-70d9-493a-b61e-e512def4a0d5][freedom]]
 *** [[id:de98c3eb-27ba-4a51-9875-9af3c6e2c2dd][beauty]]
 **** [[id:5a5ae8a2-fd35-457f-bb36-4cad26c0454d][nature]]
 ***** [[id:8d624422-f901-4208-aaa7-bbbc6f1f5ba1][life]]
@@ -111,6 +114,7 @@
 *** [[id:5fe70812-fd17-4692-aa21-61a55c80ea71][nostalgia]]
 *** [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][seriousness]]
 *** [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
+*** [[id:d3da70ea-0752-403d-a8eb-ebda828b7b7d][passion]]
 ** [#B] ugly ones
 *** [[id:9140d17d-528b-45cd-aa6b-2876f3a15b00][loneliness]]
 *** [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]
@@ -128,6 +132,7 @@
    examples
 *** [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
 ** instances
+*** [[id:021bc0fa-7ec5-4f31-8156-9bcf18a2f4af][endogeneity]]
 *** [[id:ed75b1e5-4e6e-41a8-85cd-379161aa16e6][fate]]
 *** [[id:97565ea6-dddf-416c-a1fb-98bce5ec3c8c][Values are stories.]]
 *** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]] | laughter
@@ -147,6 +152,7 @@
 ** [[id:5357b637-c959-455f-b171-429390edbc04][conflict]] | struggle
 *** [[id:cc103b68-6b43-483f-88a7-e724fdf853b7][fascism]]
 ** [[id:2ae9e648-aafa-4135-8360-fecac8ecdc1c][distant powers & problems]]
+* [[id:880c2596-e4da-486d-863d-6daff64ca89c][self]]
 * interpersonal
 ** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
 ** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
@@ -160,7 +166,6 @@
 ** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
 * [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
 * [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]
-* [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]]
 * skills
 :PROPERTIES:
 :ID:       31567641-6ef2-4ca5-9608-5adfe10e5b8e

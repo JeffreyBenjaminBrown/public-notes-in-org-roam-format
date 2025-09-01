@@ -1,8 +1,8 @@
 :PROPERTIES:
 :ID:       2208f9f5-43be-49d4-99c0-d803f8c3e44e
-:ROAM_ALIASES: ego pride
+:ROAM_ALIASES: ego pride "self-esteem"
 :END:
-#+title: pride | ego
+#+title: pride | ego | self-esteem
 * [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][fear of God]]
 * [[id:8bfda5c9-c1d5-433d-ade1-7e2dad8a895d][entitlement]]
 * pride => stupidity

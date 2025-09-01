@@ -1,6 +1,9 @@
 :PROPERTIES:
 :ID:       db8d0ef0-1518-4c69-9cfe-99d1bc4d2cd1
 :END:
-#+title: Recent changes in weapons technology have tilted the odds in war in favor of defenders.
+#+title: War favors defense lately (2022).
+Recent changes in weapons technology have tilted the odds in war in favor of defenders.
+
 https://www.theatlantic.com/ideas/archive/2022/05/ukraine-russia-putin-war/638423/
+
 "... the improvement of defensive firepower has made forward movement very difficult, changing the balance of modern warfare very much against the attacker."

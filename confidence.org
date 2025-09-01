@@ -14,16 +14,7 @@
 * [[id:33e547f5-0346-4fd8-b480-62a821a48d1c][Teasing can be bonding.]]
 * [[id:6de03e24-7211-4346-9383-64ded344e366][Confidence is comfortable.]]
 ** [[id:e3f7d448-2b88-41bb-ac5b-44cdb34c0828][Sexiness does not feel obligated.]]
-* assertiveness
-  :PROPERTIES:
-  :ID:       1767a293-ee6a-47b7-b9b8-e8b2f05dd87f
-  :END:
-** Good assertiveness is moved by circumstance, not sought.
-   :PROPERTIES:
-   :ID:       a51d5b7e-4fc5-47bc-a9ca-2524ba9acace
-   :END:
-   assertiveness being against other people, but
-   creativity with the environment is to be encouraged.
+* [[id:1767a293-ee6a-47b7-b9b8-e8b2f05dd87f][assertiveness]]
 * [[id:93f4a8c2-9138-401e-91c7-c90582dd1c08][It's okay to ask whether a relationship {exists, is exclusive}.]]
 * Rejection is succcess.
   :PROPERTIES:

@@ -94,15 +94,15 @@
 *** kinds of queries
 **** show how many [children] it has in a [neighboring branch]
 ***** the idea
-          * experiences
-          ** sacrifice
-          ** thinking about something completely different
-          ** being damaged by someone else's assumption
-          ** a completely left-field idea that pays off spectacularly
-          * encourage
-          ** humility
-          ** optimism
-             # here I would like to be able to show a 1 count, for the child of "experiences" that starts "a completely left-field ..."
+      * experiences
+      ** sacrifice
+      ** thinking about something completely different
+      ** being damaged by someone else's assumption
+      ** a completely left-field idea that pays off spectacularly
+      * encourage
+      ** humility
+      ** optimism
+         # here I would like to be able to show a 1 count, for the child of "experiences" that starts "a completely left-field ..."
 ***** [[id:dec78208-aed2-4c2d-b23a-d7af870b91a7][source]]
 *** kinds of views
 **** show|hide {intermediating relationships = relationship labels,}
@@ -134,7 +134,11 @@
 *** [[id:61f58054-3032-4e45-bfda-dbc278c040d7][(All?) the fundamental relations express priority.]]
 ** pressing*
    * = org-roam transplant first needs
+*** [[id:c7c81ed5-20f6-4b6b-a147-edd8175d3cca][skg : tree API, toward a more expressive]]
 *** aliases
+    :PROPERTIES:
+    :ID:       b72d4277-eced-48b9-85da-b917d9a4aad4
+    :END:
 **** require [[id:e1566a13-c246-4cb5-ac0c-3f510c82201e][deeper org interpretation]]
 **** like titles, known to tantivy and not typedb
 **** show aliases associated with hyperlink
@@ -152,9 +156,14 @@
      but should not delete the node's contains relationship to anything that doesn't appear as an org-child.
      (The easiest implementation of this would be to ignore order. Anything that would become new content on saving can be placed at the end of the content list.)
 **** intermediating metadata branches
-     A node N can have an org-child I, such that the org-children D of I are data about N.
-     Each D can be hypertext, with (often exactly) one ID. If there is and ID, probably, the ID is what has a programmatic effect, but its label can help a user understand how it is being used.
-**** Saving should not obliterate non-content relationships.
+     :PROPERTIES:
+     :ID:       722f7290-991c-4549-a9b8-88cc6d158ff4
+     :END:
+***** the idea
+      A node N can have an org-child I, such that the org-children D of I are data about N.
+      Each D can be hypertext, with (often exactly) one ID. If there is and ID, probably, the ID is what has a programmatic effect, but its label can help a user understand how it is being used.
+***** needed for [[id:b72d4277-eced-48b9-85da-b917d9a4aad4][{aliases]], subscriptions,}
+**** Fix: Saving obliterates non-content relationships.
 *** multi repo
 *** make links
     The choice of what to call the link should be offered when the link is placed, not when its id is selected. That way the menu of aliases can depend on the place.
@@ -165,6 +174,9 @@
       The text above the first root can indicate what the buffer is.
 *** non-content views
 **** bounded containerward dag view
+     :PROPERTIES:
+     :ID:       0254b98c-30e6-49de-af3f-c17871c356da
+     :END:
      Within a {tree, scope} there can be more than one path containerward from a node to the root. To see it, draw each of its containers and an org-child, and recursively, but provide a termination on the node right before the root rather than wasting space repeating the root a lot.
 **** containerward cyclic view
      Draw org-descendents containerward until at the first repeat, or just before.
