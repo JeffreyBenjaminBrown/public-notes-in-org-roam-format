@@ -4,6 +4,7 @@
 :END:
 #+title: absurd | ridiculous
 * neighbors
+** [[id:757da17b-b577-4ae2-ae2e-f52e099e5f65][surreal]]
 ** [[id:7abaf6b7-7c59-4744-bddb-8a3bdfb11d8d][contradiction]]
 ** existentialism
 ** nihilism

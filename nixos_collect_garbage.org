@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       83b141c3-2ab2-41de-ac02-e1a0e995f574
-:ROAM_ALIASES: "delete NixOS configurations" "NixOS / delete configs" "NixOS / garbage collection" "delete NixOS configs"
+:ROAM_ALIASES: "delete old NixOS configurations" "NixOS / delete configs" "NixOS / garbage collection" "delete NixOS configs"
 :END:
 #+title: garbage collection in NixOS
 * how to collect garbage in NixOS
@@ -24,8 +24,7 @@
   Be sure I'm on a good wifi connection.
 
   # Rebuild my profiles (BEFORE collecting garbage!)
-  cd ~/nix/jbb/
-  ./bash/rebuild-branches.sh
+  ~/nix/jbb/bash/rebuild-branches.sh
 
   # Delete old generations
   sudo nix-env -p /nix/var/nix/profiles/system \

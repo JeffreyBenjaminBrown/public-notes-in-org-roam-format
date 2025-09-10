@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       8bf642b8-c720-475d-9972-ff7d5553ff10
 :END:
-#+title: a file for the node wholeness fission fusion emptiness
+#+title: wholeness fission fusion emptiness // a no-links title for
 Notes should be to the below, not the above.
 * [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]] : I wish editing this file in one place edited the text of links to it correspondingly.
   :PROPERTIES:

@@ -4,6 +4,12 @@
 #+title: Bogotá
 * where to dispose of used cooking oil in Bogotá
   https://bogota.gov.co/mi-ciudad/habitat/puntos-autorizados-para-llevar-el-aceite-de-cocina-usado-en-bogota
+* cool music in Bogotá
+  tags: bar club
+** Asilo: weird music, punk elevtronica
+** Matik Matik: Javier recommended; Aysegul and I went
+** Smoky Molly
+*** Bar for jazz in El Centro
 * [[id:dbd98c22-bc19-4626-8601-eed6cbfb612a][weather in Bogotá : almost realtime sky view]]
 * [[id:7c1c4880-a682-425d-8da8-ec6ed950f19f][water rationing in Bogotá]]
 * [[id:192a523e-5e8e-4199-a2d0-c22bd86cef12][jazz places in Bogota]]

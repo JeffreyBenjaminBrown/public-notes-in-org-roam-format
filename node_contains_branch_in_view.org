@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       6ed5be66-787c-479c-8119-cb340a80d72a
+:ROAM_ALIASES: "ternary rather than binary containment relationship"
 :END:
 #+title: node contains branch in view: rel for Skg
 * the replacement to make

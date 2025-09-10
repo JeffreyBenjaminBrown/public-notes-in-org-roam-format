@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       eb706dfe-6881-42e1-b182-e606aef28129
+:END:
+#+title: recursion schemes
+* can be done in Rust
+  :PROPERTIES:
+  :ID:       4df374c9-658c-440b-b520-2298f316c176
+  :END:
+  https://www.tweag.io/blog/2025-04-10-rust-recursion-schemes/
+  if not (judging from the code; I haven't read the article)
+  represented as higher functions

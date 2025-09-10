@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       d0faf3c9-0a96-46e9-b5c3-e5c29db88cb9
+:END:
+#+title: repeated nodes in a view \ skg
+* TODO 'repeats' heralds should correspond to 'first' heralds
+  So that one knows the thing marked first will be repeated,
+  and can easily see from one of the repeated ones what is repeated.
+* TODO Rebuild `repeated` each time the document is rebuilt.
+    That is, the fourth step of the following is important.
+- Rust creates the flag, sends it to Emacs.
+- Emacs preserves it, sends it back to Rust.
+- Rust uses it to update the graph.
+- Rust then discards it and re-derives it from the data.
+* DONE Why Emacs and Rust both need the `repeated` field.
+  When a document is created, `repeated` is sent to Emacs so that it knows to font the repeats differently from the original.
+  It should be sent back to Rust to know whether to disregard a node's data. The user might move a node marked `repeated` to before the first (reference) node with that ID. Retaining this field permits Rust to know which one is the reference node.

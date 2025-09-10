@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       53ccfd23-a434-44b6-8610-166116b22214
+:END:
+#+title: communication tech for voters
+Building on Rodolfo's WhatsApp group idea, I can imagine that we need to set up the right discourse environment for participants. Even if there were an established collection of personality cults for other candidates, a collection of WhatsApp group structures that made people think with {honesty? courage? peer pressure to be {ethical? kind}} about political ideas (rather than people) might be more powerful.

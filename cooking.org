@@ -3,6 +3,7 @@
 :END:
 #+title: cooking
 * [[id:9b6e0646-c3a7-49e9-a3fa-d94721062713][asparagus]]
+* [[id:eb59613b-87d4-4b24-8e5c-be43090989f3][pineapple cheese salad <2025-09-07 Sun>]]
 * Add extra salt to the rice, if at all.
   before (re-)heating the rice,
   and stir the salted rice before adding the other food.

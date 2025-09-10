@@ -9,3 +9,4 @@
 * problems in science
 ** [[id:635cf3cc-8ccd-477a-b5dd-475b6230e2ab][Publication in science is too much work.]]
 * [[id:d779aeab-0662-4142-ae65-2ddbf3cef5c5][academia]]
+* [[id:a5b5621c-70f4-44e8-9420-b732c26e2e13][scientific agent loop]]

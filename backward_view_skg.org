@@ -1,13 +1,66 @@
 :PROPERTIES:
 :ID:       7b2499c4-4c93-44dc-83b1-0a4b9175d6a8
+:ROAM_ALIASES: "skg / backward view" "containerward view \ skg"
 :END:
-#+title: skg / backward view
-* should be through at least three relations
-  contains, subscribes, hyperlinks to
-* generate intermediating relation headings
-** with [[id:ec4a7b9d-bf43-4379-9eb0-a3314ba12f20][indicators]] and in the system font
-** three kinds:
-*** "these link to it"
-*** "these subscribe to it"
-*** "these contain it"
-    maybe with a warning if multiple
+#+title: skg / containerward view
+* four kinds:
+** "these link to it"
+   :PROPERTIES:
+   :ID:       1778f2e9-e25f-43be-9362-abd43b0d4241
+   :END:
+** "these contain it"
+   maybe with a warning if multiple
+** "these containers link to it"
+   :PROPERTIES:
+   :ID:       59e54472-f770-437d-bc36-323928dd3352
+   :END:
+   from their title|body, not their contents
+*** definition
+    A node N is marked "linked to in container"
+    if there exists another node C with nonempty contents,
+    such that a link to N is in C's title.
+    It can be heralded LC-n where n is the number of such links;
+    LC would mean LC-1.
+*** TODO decide
+    :PROPERTIES:
+    :ID:       43a6a0e2-d2bd-414c-a92c-e1c309622c6e
+    :END:
+    whether this count will be included in the count of [[id:1778f2e9-e25f-43be-9362-abd43b0d4241][things that link to it]].
+*** why
+    Such branches under L
+**** When reading about N, I would like to see that there exists L which links to N yet contains branches from the title with the link.
+     And then be able to request a view-branch containing all such L.
+** "these subscribe to it"
+* containerward cyclic view
+  Draw org-descendents containerward until at the first repeat, or just before.
+  If at, draw that one with a "red repeats" herald, and the first (which gets repeated) with a green FIRST herald.
+  If just before, indicate with a herald the node hopping to which would have closed it.
+* UI
+** add a herald for the number of containers, omitted if 1
+   :PROPERTIES:
+   :ID:       ac671944-2cb9-41b0-abbc-43dfe8a5377b
+   :END:
+   A uniform language for
+     roots               (C0)
+     multi-parent things (Cn where n>2)
+** show link sources as org children
+    heralded L or some other linky symbol
+** show containers as org children
+    the containment relation heralded as }
+** show containerward path
+   Unfurls until the first node it would reach with
+   anything but one container.
+   If that first not-once-contained null has mutliple containers,
+   unfurls that last one's many containers as its org-children,
+   then stops (unfurling = recursing).
+* later
+** generate intermediating relation headings
+*** e.g. "[it] needs [these]"
+*** with
+** omit the root if it's repeated
+   :PROPERTIES:
+   :ID:       0254b98c-30e6-49de-af3f-c17871c356da
+   :END:
+   e.g. if it's the root of the current view
+*** elaboration
+    Within a {tree, scope} there can be more than one path containerward from a node to the root. To see it, draw each of its containers and an org-child, and recursively, but provide a termination on the node right before the root rather than wasting space repeating the root a lot.

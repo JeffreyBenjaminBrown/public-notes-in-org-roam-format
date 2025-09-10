@@ -5,6 +5,7 @@
 #+title: artificial intelligence
 * TODO What happens if you ask it to report confidence intervals* with every answer?
   (*) even informal ones, like "I'm not sure, I suspect, I believe ..." could be interesting -- maybe making the advice more useful if they are accurate, maybe triggering an interesting self-reflection in the AI.
+* [[id:a6a297c8-2a24-4308-9ad9-39c91365f79d][how I like AI to format my code]]
 * [[id:62d7c9c4-2022-4391-9770-cbd185d0becb][using AI]]
 * [[id:b191f19f-8c05-4572-8383-a05dc9a6bf1e][my custom instructions for AI]]
 * TODO Claude 4's system prompt might deserve study.
@@ -67,3 +68,4 @@
   :END:
   Whenever an AI ends a response with a question, I can't help but think, "Aww, it wants more experience".
 * [[id:f6695616-b2cc-438f-bab7-bcfe45ecd888][Claude Code]]
+* [[id:a5b5621c-70f4-44e8-9420-b732c26e2e13][scientific agent loop]]

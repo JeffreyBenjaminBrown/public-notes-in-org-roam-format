@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       81e3cc91-3f45-458b-9709-07d2d681ed4d
+:END:
+#+title: ripgrep
+* options
+** to show only filenames, not lines
+   -l, --files-with-matches
+       Print only  the paths  with at least  one match  and suppress
+       match contents.
+
+       This overrides --files-without-match.

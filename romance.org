@@ -2,18 +2,25 @@
 :ID:       d2faa803-4b32-4ada-b4ee-212d07b028a5
 :END:
 #+title: romance
-* TODO merge with [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
 * see also
 ** [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling a higher force]]
 ** [[id:24fcf76a-fafa-4cb2-8312-43719f7aa207][separation]]
 ** [[id:b288df19-c02e-42fa-a4b6-4cd3c0162e52][self-respect]]
 ** [[id:5c1dc0d8-b3a2-4dae-9c2d-7bda2d9789c0][dance]]
-* some linguistics
-** "romance" has two senses in English
+** TODO merge with [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
+* linguistics nearby
+** romance
+   has two senses in English
 *** the pursuit of romantic love
 *** a sense of awe
-** Mate has two meanings (romance and chess), but both can mean "select future equilibrium".
-* Humility leads to peace in the face of rejectino.
+** mate
+   has two meanings (romance and chess),
+   but both can mean "select future equilibrium".
+* Humility -> courage \\ in romance.
+  :PROPERTIES:
+  :ID:       f329d7f2-43c2-40b6-913b-c380d488935a
+  :END:
+** Humility -> peace in the face of rejectino.
 * =? hoped-for [mate, permanence] choice
 * [[id:cfb978fb-1478-446e-9545-92a6fd17ac50][Beware encouragement of bad behavior.]]
 * [[id:890d9101-09c6-48f0-be54-e4e74a0ec961][romance + surprise]]

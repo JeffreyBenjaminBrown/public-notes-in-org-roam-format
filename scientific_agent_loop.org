@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a5b5621c-70f4-44e8-9420-b732c26e2e13
+:END:
+#+title: scientific agent loop
+* Tell it to collect hypotheses, rank them in terms of which one would produce the most information, run that experiment or ask that question, and then repeat
+* https://arxiv.org/abs/2508.21184

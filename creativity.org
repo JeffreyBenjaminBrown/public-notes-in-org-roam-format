@@ -4,6 +4,8 @@
 #+title: creativity
 * see also [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
 * can require [[id:9503e93c-e13f-4be2-ad59-66350feeb21f][privacy]]
+* [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][Humility]] aids creativity.
+  It lets you change, let go of things.
 * Taking something for granted impedes creativity.
   :PROPERTIES:
   :ID:       cb2a0e54-f486-494d-a961-0c461134378c

@@ -1,0 +1,52 @@
+:PROPERTIES:
+:ID:       4bf53fb8-abb2-4bd2-9b56-d2374fbb931d
+:END:
+#+title: skg // sharing & privacy
+* multi repo
+* a user config file
+** include for each repo
+   Path to repo.
+   Author-repo shorthand.
+   Owned by user (bool).
+   Color.
+   Privacy level (for filtering, later).
+* [[id:858cfdcd-1d7a-4707-a5dc-837c7c13e2d4][fetching a skg document (with sharing)]]
+* saving (with sharing)
+  Emacs's s-exp for Rust should elicit
+  appropriate changes regarding foreign nodes.
+* operations on nodes
+** [[id:9301546a-f6d7-42ce-9034-8e3e0bc5536e][merging two nodes]]
+** "ignore" a node
+*** what it means
+   If node N subscribes to node S,
+   any content-descendent of S can be ignored from N,
+   not just S's immediate (first generation of) content.
+   Or maybe just ignore globally.
+*** when it happens
+    When the user deletes from or moves from
+    foreign content.
+** "incorporate" a node
+*** what it means
+   This causes it to be ignored
+   from its initial subscriber,
+   but subscribed to somewhere else.
+*** when it happens
+    When foreign node F contains G,
+    and G is moved.
+** subscribe to a node
+*** when it happens
+    Invisibly, when someone modifies a foreign node.
+    Explicitly, when someone adds a subscription.
+* metadata, flatter buffer
+** elaboration
+   The title and, under it, metadata (author, ...)
+   should be a special first-level node,
+   first among its siblings.
+** [[id:1f87487f-af4a-4a32-84eb-da742b0a3f2e][an org-branch can be read-only and foldable]]
+* allow publishing online
+  Make a page for each node.
+  For each uncontained node, the page should be saved in text from a recursive traversal, with anchors to anything that needs it. (My org-roam publishing code makes github-style anchors.)
+  Generate for each node an initial "nodes linking here" branch, and a second "nodes subscribing here" branch. Private nodes should be excluded from this public view of the public notes. (They could be included in a private view of the public notes.)
+* [[id:5eba18fb-8524-4073-b23c-b6fe5aa153f1][interactions between links, subscriptions and comments]]
+* show foreign moves of incorporated=merged=subscribed-to nodes
+  If they moved something but you merged it with something of your own, maybe don't show the move, because you already placed it and you're already tracking it.

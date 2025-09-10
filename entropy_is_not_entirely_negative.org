@@ -1,9 +1,12 @@
 :PROPERTIES:
 :ID:       a9730be0-42bc-49ab-8a0a-f7bfd55c729d
+:ROAM_ALIASES: entropy
 :END:
-#+title: Entropy is not entirely negative.
-* Too much order is too simple.
-  A universe with too little entropy,
-  like a giant crystal, would be boring.
-* With fixed entropy there could be no life.
-  Even writing eternal books would increase entropy.
+#+title: entropy
+* Entropy is not entirely negative.
+** Too much order is too simple.
+   A universe with too little entropy,
+   like a giant crystal, would be boring.
+** With fixed entropy there could be no life.
+   Even writing eternal books would increase entropy.
+* [[id:8bcfda55-5ab3-4083-9a37-2a01eb216dc4][quantum physics]]

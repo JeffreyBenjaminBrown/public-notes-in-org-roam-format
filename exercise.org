@@ -4,6 +4,12 @@
 :END:
 #+title: exercise
 * [[id:0d7a27cc-5912-4423-981c-c4c030098037][weight]]
+* reps to do
+  The optimum depends on the exercise.
+** Heavy compounds (deadlift, row, press): 6–10 reps.
+** Bodyweight pulling (pull-ups): up to 12 reps.
+** Leg balance work (lunges, Cossacks): 8–12 reps.
+** Shoulder isolations (flies, rotator cuff): 12–20 reps.
 * some exercises, by area
 ** cosmetic, safe to skip
 *** shrugs

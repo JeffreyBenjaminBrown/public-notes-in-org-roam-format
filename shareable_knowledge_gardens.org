@@ -35,6 +35,7 @@
      It is thinking without specialization, with complete freedom.
 **** Mindmapping can look distant from work.
      Thinking about a lot of things you can't change can look impractical. The change is in you.
+* Should the nodes that shout 'read me first' be marked 'readme'?
 * motivation and soul-searching for skg
 ** [[id:320e5181-cf0d-48bf-b024-d0e6c4c309c2][Do I fear personal integration?]]
 ** Do I fear human superintelligence?
@@ -67,9 +68,10 @@
    That text's properties can encode anything I need.
    All other logic, including types, should be in Rust.
 ** ?
-*** Not every headline should be searchable.
-    By default they should be,
-    but the user should be able to turn that off.
+*** formalize the translation from emacs to graph operations
+    Haskellers might want to help.
+*** What would help me feel less dumb with my notes?
+**** a [[id:59e54472-f770-437d-bc36-323928dd3352][linked to in container]] herald
 *** Help [[id:e114b8ed-e85c-41f3-b972-45b23ab5b8d5][the writer guide the reader]].
 *** [[id:051dc64d-f930-4959-82e6-3372ef9bdec5][history of graph operations]]
 *** user-defined relation*s
@@ -92,20 +94,7 @@
       (in its text or content) that can be saved normally.
       They initially appear with the [[id:324f020b-1145-4279-a87a-02c96dce7a30][omits-some-content herald]].
 *** kinds of queries
-**** show how many [children] it has in a [neighboring branch]
-***** the idea
-      * experiences
-      ** sacrifice
-      ** thinking about something completely different
-      ** being damaged by someone else's assumption
-      ** a completely left-field idea that pays off spectacularly
-      * encourage
-      ** humility
-      ** optimism
-         # here I would like to be able to show a 1 count, for the child of "experiences" that starts "a completely left-field ..."
-***** [[id:dec78208-aed2-4c2d-b23a-d7af870b91a7][source]]
-*** kinds of views
-**** show|hide {intermediating relationships = relationship labels,}
+*** show|hide {intermediating relationships = relationship labels,}
 *** [[id:37f7be50-9b2c-4426-b288-e83225b6d5d8][expressivity]]
 **** [[id:c2a174fd-9d12-4764-92e8-c9cbfa46f12e][bracket grammar]]
 *** blurring the nlp-graph distinction
@@ -126,96 +115,92 @@
 **** Extract the punctuation I tend toward automatically.
      e.g. start with & and two words,
      using (path to) parent if absent
-*** user obligation : [[id:83f4b23d-1f74-4dbb-9e22-2b121043362a][no two nodes with the same ID]]
 *** share order across contexts
     An "order" (priority to reader) property makes sense common to the same nodes in different contexts.
     Esp. if they are common rel nodes like "instances".
-*** [[id:5eba18fb-8524-4073-b23c-b6fe5aa153f1][interactions between links, subscriptions and comments]]
 *** [[id:61f58054-3032-4e45-bfda-dbc278c040d7][(All?) the fundamental relations express priority.]]
+*** nested links -- links in titles
+**** the idea
+     This is like creating a single-use relation type.
+     Just like relatinoships with permanent types,
+     this is useful because it automatically creates links
+     to the items referenced in the title,
+     rather than requiring the user to do that.
+**** a representation: wrap all links in brackets
+     :PROPERTIES:
+     :ID:       91606c6f-0b09-4cb1-b4fe-81ca72a3f6ce
+     :END:
+***** example
+****** for          titles with links
+       [humility] engenders [peace]
+****** for links to titles with links
+       [[humility] engenders [peace]]
+***** problem: It might be confusing that brackets are also used to indicate member types in [[id:cfa775eb-9107-430a-a32c-228901d0f494][relation type definitions]].
+**** search over titles that include links
+     Order results by title length,
+     and if the title includes links,
+     show them, rather than showing the whole title as one link.
+*** [[id:4df374c9-658c-440b-b520-2298f316c176][recursion schemes in Rust]]
+*** [[id:4df374c9-658c-440b-b520-2298f316c176][recursion schemes can be done in Rust]]
 ** pressing*
    * = org-roam transplant first needs
-*** [[id:c7c81ed5-20f6-4b6b-a147-edd8175d3cca][skg : tree API, toward a more expressive]]
-*** aliases
-    :PROPERTIES:
-    :ID:       b72d4277-eced-48b9-85da-b917d9a4aad4
-    :END:
-**** require [[id:e1566a13-c246-4cb5-ac0c-3f510c82201e][deeper org interpretation]]
-**** like titles, known to tantivy and not typedb
-**** show aliases associated with hyperlink
-**** group title (alias) search results by common id
-***** title search over aliases should return id, title pairs, sort results on (id, title) in that order, and present both or group aliases as org-children of IDs so that it's visibly clear whether any two search results go to the same or different places
-*** deeper org interpretation
-    :PROPERTIES:
-    :ID:       e1566a13-c246-4cb5-ac0c-3f510c82201e
-    :END:
-**** omits-some-content herald: "{+"
+*** [#B] easy
+**** The root Emacs sends Rust should not need an id
+**** skg, deletion in
+     :PROPERTIES:
+     :ID:       fb72f38e-bef6-4de9-a29b-00f0e46afbbb
+     :END:
+     The user can add a "delete" (when saving) tag to the metadata.
+     They will probably want to bury most of the nodes so marked underneath one such node, to avoid clutter.
+**** make links
+     The choice of what to call the link should be offered when the link is placed, not when its id is selected. That way the menu of aliases can depend on the place.
+**** from title search to content view
+***** plans, maybe obvious
+****** Title search should yield an org-buffer with headings.
+       Each hit should be a root.
+       The text above the first root can indicate what the buffer is.
+**** hide content | omits-some-content herald: "{+"
      :PROPERTIES:
      :ID:       324f020b-1145-4279-a87a-02c96dce7a30
      :END:
      This indicates that Rust should treat any org-children that look like content as content,
      but should not delete the node's contains relationship to anything that doesn't appear as an org-child.
      (The easiest implementation of this would be to ignore order. Anything that would become new content on saving can be placed at the end of the content list.)
-**** intermediating metadata branches
+**** [[id:d0faf3c9-0a96-46e9-b5c3-e5c29db88cb9][repeated nodes in a view \ skg]]
+**** herald more properties
      :PROPERTIES:
-     :ID:       722f7290-991c-4549-a9b8-88cc6d158ff4
+     :ID:       28d61c54-d474-4828-8ef9-e83b25c12ae8
      :END:
-***** the idea
-      A node N can have an org-child I, such that the org-children D of I are data about N.
-      Each D can be hypertext, with (often exactly) one ID. If there is and ID, probably, the ID is what has a programmatic effect, but its label can help a user understand how it is being used.
-***** needed for [[id:b72d4277-eced-48b9-85da-b917d9a4aad4][{aliases]], subscriptions,}
-**** Fix: Saving obliterates non-content relationships.
-*** multi repo
-*** make links
-    The choice of what to call the link should be offered when the link is placed, not when its id is selected. That way the menu of aliases can depend on the place.
-*** from title search to content view
-**** plans, maybe obvious
-***** Title search should yield an org-buffer with headings.
-      Each hit should be a root.
-      The text above the first root can indicate what the buffer is.
-*** non-content views
-**** bounded containerward dag view
-     :PROPERTIES:
-     :ID:       0254b98c-30e6-49de-af3f-c17871c356da
-     :END:
-     Within a {tree, scope} there can be more than one path containerward from a node to the root. To see it, draw each of its containers and an org-child, and recursively, but provide a termination on the node right before the root rather than wasting space repeating the root a lot.
-**** containerward cyclic view
-     Draw org-descendents containerward until at the first repeat, or just before.
-     If at, draw that one with a "red repeats" herald, and the first (which gets repeated) with a green FIRST herald.
-     If just before, indicate with a herald the node hopping to which would have closed it.
-*** heralds
-    :PROPERTIES:
-    :ID:       28d61c54-d474-4828-8ef9-e83b25c12ae8
-    :END:
-**** properties to herald
-***** LWC : link with content
-****** definition
-       LWC is true of N if and only if
-       at least one node with branches links to N.
-****** why
-       Such branches under L
-******* When reading about N, I would like to see that there exists L which links to N yet contains branches from the title with the link.
-        And then be able to request a view-branch containing all such L.
-**** Herald that caveats exist.
-**** [[id:09c6e6a7-7a76-4bf2-a0a1-de4032734871][show number and kind of upstream nodes]]
-*** 'repeat's in a view
-**** 'repeats' heralds should correspond to 'first' heralds
-**** Rebuild `repeated` each time the document is rebuilt.
-     That is, the fourth step of the following is important.
- - Rust creates the flag, sends it to Emacs.
- - Emacs preserves it, sends it back to Rust.
- - Rust uses it to update the graph.
- - Rust then discards it and re-derives it from the data.
-**** Why Emacs and Rust both need the `repeated` field.
-     When a document is created, `repeated` is sent to Emacs so that it knows to font the repeats differently from the original.
-     It should be sent back to Rust to know whether to disregard a node's data. The user might move a node marked `repeated` to before the first (reference) node with that ID. Retaining this field permits Rust to know which one is the reference node.
-
+***** [[id:09c6e6a7-7a76-4bf2-a0a1-de4032734871][show number and kind of upstream nodes]]
+****** [[id:ac671944-2cb9-41b0-abbc-43dfe8a5377b][the number of containers, omitted if 1]]
+***** later
+****** Herald that caveats exist.
+****** show how many [children] it has in a [neighboring branch]
+******* the idea
+        * experiences
+        ** sacrifice
+        ** thinking about something completely different
+        ** being damaged by someone else's assumption
+        ** a completely left-field idea that pays off spectacularly
+        * encourage
+        ** humility
+        ** optimism
+           # here I would like to be able to show a 1 count, for the child of "experiences" that starts "a completely left-field ..."
+******* [[id:dec78208-aed2-4c2d-b23a-d7af870b91a7][source]]
+**** org buffers with multiple roots
+***** immediate fix: track the root, re-request it
+***** bigger fix: consider multiple roots
+      Rather passing around only a single list of FileNodes,
+      pair that with a list of root IDs.
+**** [[id:bc8fd4c3-0566-400c-96a8-0f4632e7fd1c][merging graph nodes]]
+*** [[id:7b2499c4-4c93-44dc-83b1-0a4b9175d6a8][containerward view]]
 *** [[id:96b1ca65-3afd-4840-8d84-a0642b1a1b4e][diffs in skg]]
-*** deletion
-    The user can add a "delete" (when saving) tag to the metadata.
-    They will probably want to bury most of the nodes so marked underneath one such node, to avoid clutter.
-** transfer org-roam to skg
-*** [[id:c0465799-391d-446f-a957-28ff65d72e10][parsing initial super-indented org-children in org-roam data]]
+*** [[id:4bf53fb8-abb2-4bd2-9b56-d2374fbb931d][skg // sharing & privacy]]
+*** transfer org-roam to skg
+**** [[id:c0465799-391d-446f-a957-28ff65d72e10][parsing initial super-indented org-children in org-roam data]]
 ** ? before I can responsibly release it
+*** to document
+**** user obligation : [[id:83f4b23d-1f74-4dbb-9e22-2b121043362a][no two nodes with the same ID]]
 *** enable export to org-roam
     so nobody's data gets stuck in it
 ** the social experience
@@ -231,161 +216,98 @@
      Like being voted off the island.
 *** gradations of publication
 **** A user should be able to share which of another's data they have referred to (inc. subscription) even if they unwilling to share any data beyond that.
+*** [[id:91025e2c-2a28-4627-a25b-609de0030752][Sound effects for events would be cool.]]
 ** later
    Have [[id:9395f417-7e64-461f-ac7e-f7a95ce8d683][patience, these are badass to sacrifice in the short term]].
-*** technical, not difficult
-**** [[id:bc8fd4c3-0566-400c-96a8-0f4632e7fd1c][merging graph nodes]]
-**** merging
+*** [#B] technical, not difficult
 **** a link could have a personal and public title
      that is, not the target, which obviously can have lots of both,
      but rather the apearance of the link source depends on context --
      whether the user is in public or personal mode
-**** org buffers with multiple roots
-***** immediate fix: track the root, re-request it
-***** bigger fix: consider multiple roots
-      Rather passing around only a single list of FileNodes,
-      pair that with a list of root IDs.
 **** randomize order of equivalents
 **** strange views
 ***** merge link-siblings
       From file F, if file G contains a link to F,
       show the siblings of the node with that link.
-*** u
-**** [[id:7b2499c4-4c93-44dc-83b1-0a4b9175d6a8][backward view \ skg]]
-**** should I ? [[id:6ed5be66-787c-479c-8119-cb340a80d72a][node contains branch in view]]
-**** A clone should not duplicate the title and body from the original when they are equal.
-     Instead those fields should give the ID of the original.
-
-     So the type of the title and body fields must change,
-     from String to
-       type NodeText =
-           NodeTextDuplicates {id   : ID}
-         | NodeTextIs         {text : String}
-**** [[id:7dd8d9fd-8e7f-4719-a547-554eb182beb1][rescue smsn into org]]
-**** [[id:18047d85-01cc-4323-bcc0-27c24524dc98][graph merges, e.g. merges of whole repos of nodes]]
-**** for sharing & privacy
-***** a user config file
-****** include for each repo
-       Path to repo.
-       Author-repo shorthand.
-       Owned by user (bool).
-       Color.
-       Privacy level (for filtering, later).
-***** [[id:858cfdcd-1d7a-4707-a5dc-837c7c13e2d4][fetching a skg document (with sharing)]]
-***** saving (with sharing)
-      Emacs's s-exp for Rust should elicit
-      appropriate changes regarding foreign nodes.
-***** operations on nodes
-****** [[id:9301546a-f6d7-42ce-9034-8e3e0bc5536e][merging two nodes]]
-****** "ignore" a node
-******* what it means
-       If node N subscribes to node S,
-       any content-descendent of S can be ignored from N,
-       not just S's immediate (first generation of) content.
-       Or maybe just ignore globally.
-******* when it happens
-        When the user deletes from or moves from
-        foreign content.
-****** "incorporate" a node
-******* what it means
-       This causes it to be ignored
-       from its initial subscriber,
-       but subscribed to somewhere else.
-******* when it happens
-        When foreign node F contains G,
-        and G is moved.
-****** subscribe to a node
-******* when it happens
-        Invisibly, when someone modifies a foreign node.
-        Explicitly, when someone adds a subscription.
-***** metadata, flatter buffer
-****** elaboration
-       The title and, under it, metadata (author, ...)
-       should be a special first-level node,
-       first among its siblings.
-****** [[id:1f87487f-af4a-4a32-84eb-da742b0a3f2e][an org-branch can be read-only and foldable]]
-***** allow publishing online
-      Make a page for each node.
-      For each uncontained node, the page should be saved in text from a recursive traversal, with anchors to anything that needs it. (My org-roam publishing code makes github-style anchors.)
-      Generate for each node an initial "nodes linking here" branch, and a second "nodes subscribing here" branch. Private nodes should be excluded from this public view of the public notes. (They could be included in a private view of the public notes.)
-**** later still
-***** [[id:2cacb9e0-074a-4ae7-a889-b170a355923f]["It, this and these" make tree relationships easy.]]
-***** put your own order on common categories: further definition, instances, ...
-***** ? comment files
-****** why not
-       Subscription lenses seem to make it unnecessary.
-****** how
-******* when fetching a document, check whether each node has a comment
-        and if so, display that as a first subnode,
-        called "comments by: [author]"
-******* Enable editing, somewhat.
-        The title, "comments by: [author]" cannot be changed.
-        But the comments themselves can be.
-***** graph constraints
-****** test each constraint of the schema
-       Some violations might not be representable in the .skg format.
-****** Can a file include multiple comments_on properties?
-       It shouldn't.
-****** `contains` should be acyclic
-       The TypeDB AI says I can use `distinct` instead,
-       but the docs on `distinct` don't suggest that's true.
-****** Ttest that all IDs are distinct in the repo.
-       maybe in Rust, not TypeDB
-***** unify Tantivy and TypeDB indexation
-****** If `titles` were the first field in the .skg format
-       then the Tantivy indexing would need to read less
+*** share a participatory website requiring no installation
+    The user can write in yours even without having installed anything on theirs. They can login with a pseudonym of their choosing, move stuff around, add things, label things. They get their view onto my data, and can show it to others. They can't delete things, and when they rename something its original title becomes an alias, but they can create name clashes to try to bury it.
+*** [[id:6ed5be66-787c-479c-8119-cb340a80d72a][ternary rather than binary containment relationship]]
+*** [[id:7dd8d9fd-8e7f-4719-a547-554eb182beb1][rescue smsn into org]]
+*** [[id:18047d85-01cc-4323-bcc0-27c24524dc98][graph merges, e.g. merges of whole repos of nodes]]
+*** later still
+**** [[id:2cacb9e0-074a-4ae7-a889-b170a355923f]["It, this and these" make tree relationships easy.]]
+**** put your own order on common categories: further definition, instances, ...
+**** ? comment files
+***** why not
+      Subscription lenses seem to make it unnecessary.
+***** how
+****** when fetching a document, check whether each node has a comment
+       and if so, display that as a first subnode,
+       called "comments by: [author]"
+****** Enable editing, somewhat.
+       The title, "comments by: [author]" cannot be changed.
+       But the comments themselves can be.
+**** graph constraints
+***** test each constraint of the schema
+      Some violations might not be representable in the .skg format.
+***** Can a file include multiple comments_on properties?
+      It shouldn't.
+***** `contains` should be acyclic
+      The TypeDB AI says I can use `distinct` instead,
+      but the docs on `distinct` don't suggest that's true.
+***** Ttest that all IDs are distinct in the repo.
+      maybe in Rust, not TypeDB
 ***** [[id:2608f577-ab0a-4df7-9eba-b6f3042abbde][Is this how to write cardinality constraints on roles?]]
-***** later: track edit times for nodes on screen
-      :PROPERTIES:
-      :ID:       14321c6f-679e-406e-8076-cc58a8eaf9f1
-      :END:
-      Don't save a file if all of its (first-generation) content is older on screen than on disk.
-      When first put on screen, each headline should be given the age of the source file.
-***** Don't search a repo's .git folder.
-***** ? Integrate :: Tantivy index , ?complete SKG format.
-***** nested links -- links in titles
-****** the idea
-       This is like creating a single-use relation type.
-       Just like relatinoships with permanent types,
-       this is useful because it automatically creates links
-       to the items referenced in the title,
-       rather than requiring the user to do that.
-****** a representation: wrap all links in brackets
-       :PROPERTIES:
-       :ID:       91606c6f-0b09-4cb1-b4fe-81ca72a3f6ce
-       :END:
-******* example
-******** for          titles with links
-         [humility] engenders [peace]
-******** for links to titles with links
-         [[humility] engenders [peace]]
-******* problem: It might be confusing that brackets are also used to indicate member types in [[id:cfa775eb-9107-430a-a32c-228901d0f494][relation type definitions]].
-****** search over titles that include links
-       Order results by title length,
-       and if the title includes links,
-       show them, rather than showing the whole title as one link.
-***** A public notes repo should be configurable to contain only one commit.
-      If so, it is the latest of a corresponding private repo.
-***** show foreign moves of incorporated=merged=subscribed-to nodes
-      If they moved something but you merged it with something of your own, maybe don't show the move, because you already placed it and you're already tracking it.
-***** phone audio interface
-      It would speak using a special syntax.
-      You would need commands to navigate and shape tree,
-      follow links and backlinnks,
-      and dictate nodes.
-      Would just need an AI to transcribe,
-      code to recognize initial and terminal commands,
-      code to separate those from the ordinary text between them,
-      and code to render as Emacs.
-**** what did I mean
-***** report where a new root matches earlier words
-      and synonyms
+**** Don't search a repo's .git folder.
+**** A public notes repo should be configurable to contain only one commit.
+     If so, it is the latest of a corresponding private repo.
+**** phone audio interface
+     It would speak using a special syntax.
+     You would need commands to navigate and shape tree,
+     follow links and backlinnks,
+     and dictate nodes.
+     Would just need an AI to transcribe,
+     code to recognize initial and terminal commands,
+     code to separate those from the ordinary text between them,
+     and code to render as Emacs.
+**** Not every headline should be searchable.
+     By default they should be,
+     but the user should be able to turn that off.
+*** what did I mean
+**** report where a new root matches earlier words
+     and synonyms
+*** Sound effects for events would be cool.
+    :PROPERTIES:
+    :ID:       91025e2c-2a28-4627-a25b-609de0030752
+    :END:
+**** elaboration | definition
+     The user could "make their own game",
+     assign sound effects to different graph events.
+**** example events, all social
+***** someone did something* with your node
+****** referenced
+****** subscribed
+****** described
+****** asked about
+****** used as a realtionship
+***** The sound effect could also depend on how subscribed-to the place they did that is.
+      and recursively -- a calculation comparable to pagerank
+**** ? Could similar events be enjoyably defined for one's own notes?
+     Is there an algorithm for thinking in a graph?
+*** Auto-parse notes with punctuation grammar.
+    Between any two periods, where neither is part of a large punctuation block,
+    Divide first on the punctuation symbol with fewer repeats, where for instance // and ->-> have an equal number.
+    Divide recursively until at "no-punctuation atoms". If an atom doesn't exist, make it. If there were brackets around an atom, remove them. If the atom was part of a list in the brackets before outer punctuation, create similar relationships for each member. Then create the meta-relationships, the 2-meta-relationships, etc. until consuming the "no isolated periods" sentence.
+    Preserve the original text from which the relationships were made. The user can change the parse, e.g. that a period should have bound first rather than last, by adding brackets with a number between the first two, which are different in case they will need a precedence. () has precedence 1, (( )) precedence 2, ([ ]) also precedence 2, but (0( )) has precedence 0, and precedence can go negative.
+    Would I have a use for ([ )]?
 ** outreach / [[id:b06251ae-3ed5-4805-a5f4-d98557fa7754][explaining skg]]
 ** outreach / [[id:0ec06d86-92c1-4690-ab27-eaa1520aaf8e][non-obvious implied features]]
 ** dubious
 *** ? try [[id:52e2587c-3485-45cb-9456-d2c9746b2c4d][dependency inversion]]
 ** abandoned
 *** [[id:b91c26e8-54cb-4192-8509-4482c9f60cd6][the TypeDB Python driver]]
+** DONE , mostly
+*** [[id:b72d4277-eced-48b9-85da-b917d9a4aad4][aliases]]
 ** DONE ? unifications
 *** private lens onto your public notes ~ subscription
     They would work the same way.
@@ -438,24 +360,9 @@
 *** Public subscriptions to private nodes reveal almost nothing.
     They reveal the fact of their existence,
     but not what they unsubscribe to -- not even its repo.
-* nah
-** [[id:60ac4c5c-fca6-4943-86ee-8f8f9011eaa6][cloning seems unnecessary]]
 * [[id:da0e89a7-0e9d-41da-8c2d-ec4ab2e37c2b][embarrassing]]
-* Sound effects for events would be cool.
-** elaboration | definition
-   The user could "make their own game",
-   assign sound effects to different graph events.
-** example events, all social
-*** someone did something* with your node
-**** referenced
-**** subscribed
-**** described
-**** asked about
-**** used as a realtionship
-*** The sound effect could also depend on how subscribed-to the place they did that is.
-    and recursively -- a calculation comparable to pagerank
-** ? Could similar events be enjoyably defined for one's own notes?
-   Is there an algorithm for thinking in a graph?
+* NAH
+** [[id:60ac4c5c-fca6-4943-86ee-8f8f9011eaa6][cloning seems unnecessary]]
 * ONGOING
 ** replace the word glyph with herald
 * ABANDONED

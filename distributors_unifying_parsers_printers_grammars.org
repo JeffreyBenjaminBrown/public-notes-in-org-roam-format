@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8c7a55ef-702d-4db9-bede-66ea56a0d97d
+:END:
+#+title: Distributors: Unifying Parsers, Printers & Grammars
+by Eitan Chatav
+https://github.com/morphismtech/distributors/blob/main/blog.md

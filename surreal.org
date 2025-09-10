@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       757da17b-b577-4ae2-ae2e-f52e099e5f65
+:END:
+#+title: surreal
+* "Have you tried looking away and then looking back at it?"
+  -- the computer tech in Alice in Wonderland

@@ -2,7 +2,12 @@
 :ID:       6ca4ed6b-7046-4e06-9329-f5fea0511cc2
 :END:
 #+title: to hear (music)
+* Gojira - someone said they're like Mastodon
+* Samuel Barber's Nocturnes
+* Beat : KC + Tool + Steve Vai
 * Composers with uncanny senses of pitch
+  according to a composer Tyler Cowen interviewed,
+  circa <2025-08-25 Mon>
 ** Peter Edveurge
 ** George Benjamin
 * TODO Epic Rap Battles of History

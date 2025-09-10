@@ -6,6 +6,14 @@
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 ** [[id:f582adf8-17e3-429f-ad70-c1243694d0ea][poems]]
+* To learn two voice harmonies, ear train them, 12 tones, at eandom
+** Once that's good, try three pair, or two threes, etc.
+** Play two tones, then two different tones.
+*** In the first pair play one first, and call that zero.
+* How many things are there for two voices to do? In 7 notes? Modulo all time but past, present and future?
+  Consider all the start positions.
+  For each, consider the potential moves of either.
+  For each, consider the other's available responses.
 * Greet loved ones early.
   :PROPERTIES:
   :ID:       3c53b1de-0ff9-471a-b390-10f1f7b92506
