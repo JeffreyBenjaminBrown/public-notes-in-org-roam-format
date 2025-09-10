@@ -43,7 +43,17 @@ Remember, notes should be surprising.
 * [[id:ee3db6a1-1143-439c-8912-10fb2a4d3b8d][numbness]]
 ** [[id:a8d26591-06a2-4cbd-9fe1-068b487dd2e7][Death is not so sharp.]]
 * [[id:7ccb8ee3-dd58-4abb-88ed-9bd62f00038e][justice & fantasy]]
-* see also [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling a higher force]]
+* see also
+** [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling a higher force]]
+** [[id:ceb94f7b-a3a8-4d3e-9497-d3916b992b0c][temptation]]
+** crime
+   :PROPERTIES:
+   :ID:       41e9042a-86a2-45cd-b4d9-a5e5fb6aaf44
+   :END:
+*** theft
+    :PROPERTIES:
+    :ID:       10628eae-815f-4e71-a9bf-eb99acc50d54
+    :END:
 * inequality
 ** [[id:f0553af1-9f6c-468d-b69b-aa5c8e4c02d8][never seeing friends except {with, via} one's spouse]]
 * far out
