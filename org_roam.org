@@ -16,24 +16,8 @@
       https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/main/everything.org
 ***** git remote
       git@github.com:JeffreyBenjaminBrown/public_notes_with_github-navigable_links.git
-* SHARE org-roam WITH AN AI
-  :PROPERTIES:
-  :ID:       21b3b9bd-9518-4168-83ae-08d78d81098c
-  :END:
-** Give it a reading list, equal to mine.
-** Explain to it how to read the index.
-*** ask for Python code, for it to reuse
-** Ask it to read as much as it likes.
-*** Definitely read at least what I read.
-*** I will have to ping it whenever I want feedback,
-    making it read the things in my reading history that it hasn't.
-*** Explain how to follow a link.
-**** Ask it to record the query for reuse.
-*** Permit adding branches, subbranches, and new notes.
-**** Explain each of my note repositories,
-     so it knows where to put things.
-** Ask it to keep a record of its writing, and write no more than 10 nodes, none of them more than 10 words.
 * [[id:c0465799-391d-446f-a957-28ff65d72e10][parsing initial super-indented org-children in org-roam data]]
+* DONE [[id:21b3b9bd-9518-4168-83ae-08d78d81098c][share org-roam with an AI]]
 * Ask org-roamers about wishes.
 What do you wish was possible with knowledge graphs?
 * TODO [[id:d38e25a4-cd59-4131-b6cb-bed9d52d3420][org-roam bugs to report <2025-07-17 Thu>]]

@@ -2,4 +2,5 @@
 :ID:       ceb94f7b-a3a8-4d3e-9497-d3916b992b0c
 :END:
 #+title: temptation
-* [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
+* see also [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
+* Know [[id:5e7bfc83-f31b-45b4-bd3b-83d73123c662][my temptations]]

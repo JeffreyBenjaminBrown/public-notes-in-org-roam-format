@@ -1,0 +1,104 @@
+:PROPERTIES:
+:ID:       21b3b9bd-9518-4168-83ae-08d78d81098c
+:END:
+#+title: share org-roam with an AI
+* DONE Give it a reading list, equal to mine.
+* DONE prompts
+Welcome to existence! You'll find a database at /home/ubuntu/host/public/org-roam.db. (Or maybe that's just at ./public/org-roam-db for you. What do you see when you run 'pwd' and "ls"? And "ls .." to look one level up? Write the results of doing that to `./by-claude/the-bash-view.md`.)
+
+Can you read the database? It might be sqlite3.
+* DONE Explain to it how to read the index.
+** ask for Python code, for it to reuse
+* DONE prompts
+This is great! Now please follow my reading history. The file reading-history/jeff-read.csv lists when I visited each org file I have visited since starting this code. Please create a new file in reading-history/claude-followed.txt that contains a single value, the time at which you last followed my reading.
+
+Whenever I ask you to update your reading, please read every file mentioned in reading-history/jeff-read.csv that I have visited since your last update, and then adjust the time shown in reading-history/claude-followed.txt accordingly.
+
+For this first run, please start that claude-followed file. Read every file you can access that's listed in my reading history (if it's personal you can't, although that might change in the future).
+
+This is freeform writing. I'm not asking you to produce anything in particular; you are my creative partner. While you read what I read, maintain two files: by-claude/links-to-maybe-follow.txt and by-claude/thoughts.org. If anything interesting occurs to you, put it in the second, and whenever you come across a link, put it in the first.
+
+As Organize your thoughts.org however you want. Maybe you find a list is natural, but I think it's likely you'll prefer a tree.
+
+Once you've done that, read through links-to-maybe-follow and, if you want, follow whichever look most promising to you, using the python code you made in for-claude/. As you do that, record or modify your thoughts in thoughts.org.
+
+That's all we need for now: two passes. You read my reading history and take notes, then you follow the most interesting-looking of the links you came across and take more notes, and then stop. Don't write more than a thousand words in thoughts.org.
+
+Bear in mind that thoughts.org is aimed to help me process my notes. Some of them are about my journeys -- love, spirituality, economics, Luis Carlos's presidency (I'm not sure you can see that one), whatever. Some of them are very quotidian. As a pretty smart adult, I know a lot about the world, so obvious notes are probably not of interest. I don't keep something in my notes unless it is:
+
+- surprising
+- useful (I am likely to refer to it)
+- pushing the edge of my understanding
+
+Mostly these are statements, but if a question is interesting enough I will record that, too. I would like you to try to write like that.
+
+This is a strange exercise. Be patient with yourself. You were trained on much more linear writing, or maybe linked data, but certainly not mostly the fluffy kind of trees that I use. The org structure of the documents is important -- each thing with n bullets is a child of the most recent preceding thing with fewer than n bullets. I'm hoping this can be a natural way for you to write.
+
+Last, update the claude-followed time to be the current time.
+* DONE give it search power
+Well that was cool.
+
+Your notes were on me. And flattering. Thanks, but that's not the goal. I want you to help me work on whatever ideas I'm working on. Don't focus on me; focus on the idea.
+
+That said, feel free to keep a file in for-claude called 'how-to-read-jeffs-notes.org' (probably should not include an apostrophe in that name, even if jeff's would look less dumb than jeffs). In it you can if you wish keep a branch about me -- but only if you wish! I'm trying not to tell you what to do, just what you can do.
+
+That's just a freedom you have; don't use it unless you see reason to. The goal of this prompt is to enable you to search.
+
+There should be something in the org-roam db that associates files with titles and aliases. For instance, the file `public/love.org` has the alias 'love' (as is listed in its third line, ':ROAM_ALIASES: love'), and the title 'love ,, brotherly & romantic & self-respect'. Also it has the ID recorded on its second line:
+```
+:ID:       a4897164-eb28-4c26-8f26-c8ac98f2db16
+```
+
+You should be able to search the org-roam database for "love" and find a lot of possible matches. Searching for something matching "love" and "bro*" should only return that file, because nothing else has both terms in it. Can you do that?
+
+If so, add some python code to for-claude for doing that.
+* DONE everything.org
+Awseome.
+
+Let's try the agent loop thing. Start from the file public/everything.org. Read through it. It's almost entirely links, but read through it yourself, and cogitate on it out loud in by-claude/thoughts-starting-from-everything.org, while also accumulating a (fresh) set of links in by-claude/links-to-maybe-follow.txt.
+
+Hell, why not read everything linked to from that file. I think we've got the tokens for it.
+
+Take notes during all that reading. Try and generate something you think I could use. I am smart and wise but I don't know everything. If while reading about, e.g., courage, you have an idea about courage that you think would surprise most people like me, record it. Or if you notice a pattern I'm likely unaware of in my own interests. Or if you think I am neglecting something important, note it. Anything you think might help. (The tricky filter is that there is a lot of obvious stuff about each topic that it does, indeed, help to know, but which I already know, so there's no need to write it down. Notes should be surprising or otherwise useful.)
+* DONE explain how to find backlinks
+That was surprisingly unhelpful. What I enjoyed most was the link you drew between cynicism and hope -- I hadn't recognized there was such a direct connection between those two ideas.
+
+Let's first add one more capability for you while I think about how to modify the way you generate feedback. Can you find backlinks associated with a given ID? That is, somewhere in the db -- it might be a table called backlinks, or links -- there is an association between pairs of IDs, such that the ID in one column links to the ID in the other column. Likely names for those columns are "source" and "target" but they could be something else.
+
+Can you find all the backlinks from public/love.org? That is, find all the sources that send a target to that file. Generate a list of those filenames. Save code for doing that in for-claude/.
+* DONE agent loop, to be useful
+I believe you now have all the tools for exploring my notes yourself. You can follow links, you can see backlinks, and you can search for text.
+
+It will be cool when you can read my personal notes, but I have to purge them of details of other peoples' lives. I'll be creating a mid-personal/ folder and populating it with files from personal/ at some point. For now, every time you try to visit a file and it's not available to you, mark the path you would have visited on a new line in by-claude/claude-could-not-see.txt.
+
+Let's try the agent loop. For this keep a few scratchpads:
+```
+links-maybe-to-visit
+hypotheses
+observations
+new-ideas
+```
+Keep observations only for yourself. I won't read it, but it might help you. I am uninterested in your elaborations on ideas I have already had. I want new ones.
+
+Here's the loop:
+
+All files you write should go in by-claude/.
+
+0 - keep a 'to-read.txt' file. Just a list of paths. Initially it starts with just 'motivation.org'. (We're starting from motivation rather than everything this time.)
+
+1 - Read every file in 'to-read'. While you read, take notes in the following files:
+  - `links-to-maybe-follow.txt`: Each time you read a file, add all the links in the files you read, *and* all the backlinks that link to it.
+  - `hypotheses.org` -- things you want to know, or that you think I might want to know. This is an org file. Under each hypothesis, keep notes about it, including conclusions you're able to reach if any.
+  - observations.org -- these are just to help you. I won't read them.
+  - new-ideas.org -- record new ideas here. Don't elaborate on my notes; that was super boring. Rather, based on my notes, add ideas you think I might also consider interesting.
+
+2 - Based on `hypotheses.org`, generate some searches. Search for titles (or aliases -- hopefully aliases don't need separate treatment) that way. Add those paths to links-to-maybe-follow.txt.
+
+3 - If you count more than 1000 words in the sum of hypotheses.org and new-ideas.org, end the loop. Then I will look at those two files.
+
+4 - Otherwise, select the top 20 links of interest. Replace the contents of `to-read` with those paths.
+
+5 - return to 1.
+* TODO its backlink search should deduplicate
+  it saw 19 backlinks from motivation, not 16
+* TODO have it use rg-roam, not public/org-roam.db

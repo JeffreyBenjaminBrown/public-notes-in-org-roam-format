@@ -10,6 +10,7 @@
 ** [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
 ** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
 ** I believe [[id:7524f42b-9db0-4531-a21d-57df5954a34e][knowledge graphs enhance self-awareness.]]
+* Know [[id:5e7bfc83-f31b-45b4-bd3b-83d73123c662][my temptations]]
 * [[id:6dcc3016-fb6b-4718-9098-f508fe0b1639][social anxieties]]
 * social | self-consciousness
   :PROPERTIES:

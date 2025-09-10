@@ -3,6 +3,8 @@
 :ROAM_ALIASES: "fast night fantasy" "living like there's no tomorrow" "There is only now." presence impermanence
 :END:
 #+title: presence | impermanence
+* neighbors
+** [[id:9ec55e32-f974-479e-8295-7d9e30156684][awareness]]
 * It is at least a culture.
   One evident in all kinds of music and movies.
 * Is there an algorithm?
