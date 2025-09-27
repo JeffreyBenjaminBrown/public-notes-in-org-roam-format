@@ -3,40 +3,92 @@
 :ROAM_ALIASES: "machine learning" ML AI
 :END:
 #+title: artificial intelligence
-* mindmapping with it
-** request: Read a flower, write on pairs of ideas found.
- I think this might be a fun exercise for both of us.
- (Shoot. Have I documented that? It's org-roam data. You could
- reasonably start at everything.org. There's an index at org-roam.db or something like that.)
+* Read a flower, write on pairs of ideas found.
+:PROPERTIES:
+:ID:       efdb96cf-11dc-481c-8e84-80e77cc84a25
+:END:
+  I think this might be a fun exercise for both of us.
 
- Make discrete paths through those links,
- each as many documents deep as you like,
- by starting at 'everything.org'
- and choose the target of a hyperlink from each node
- to generate the path's next node.
- Along each path as you create it, maybe read what I wrote in each document, maybe record its title and/or some notes about it, whatever.
- Record your paths in a folder called paths/, one file per path, with something indicating its time.
- Then choose ten pairs of ideas from the paths you have made in the graph, and write the most surprising or interesting thing(s) you can think of about the relationship between those two choices.
+  (Shoot. Have I documented this data? It's org-roam data. You could reasonably start at everything.org. There's an index at org-roam.db or something like that. There are tools you might find useful at for-ai-users/. Feel free to expand that code however you like.)
 
- You are running in a Docker container. You can edit these files however you like. I could even version-control them on Github for you (I'm unwilling to hand over my credentials) if you make a branch for each repo called 'claude' but let's worry about that later. For now, grow a stick-figure flower and write about ten pairs of ideas!
+  I'm calling this task, "Read a flower, write on pairs of ideas."
 
- Actually who am I kidding I want your data in my data so please make all writes to a distinct folder with your name on it. Org-roam won't add that to my graph but maybe you can make your own index that includes both if you find that useful, so you can refer to my ideas in yours. Or maybe you would only ever need to make text searches in mine. I don't know, whatever you want. I believe you have all the tools you need.
-** ask to identify itself in its writing
+  Make discrete paths through those links,
+    each as many documents deep as you like,
+    by starting at 'everything.org'
+    and choose the target of a hyperlink from each node
+    to generate the path's next node.
+  Along each path as you create it,
+    maybe read what I wrote in each document,
+    maybe record its title and/or some notes about it,
+    whatever.
+  Record your paths in a folder called paths/,
+    one file per path,
+    with something indicating its time.
+  Then choose ten pairs of ideas
+    from the paths you have made in the graph, and write the most surprising or interesting thing(s) you can think of about the relationship between those two choices.
 
-╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ > somehow I want to have a record of which writing is yours and which is mine. Maybe I'll go     │
-│   full baptist eventually but I'm just putting my toes in the water for now. So either you       │
-│   should write as a distinct user -- not sure that's possible -- or you should only write to     │
-│   by-claude/. That doesn't prevent you from linking to my data, or to your own, but it does      │
-│   prevent you from linking from my data to yours. I anticipate you have more than enough         │
-│   cognitive freedom to achieve nirvana under my weird privacy constraint.                        │
-╰─────────────────────────────────────────────────────────────────────────────────────────────
-** reuest: dreams
-   Now dream. You can write for that too, but put it in a separate folder, claude-dreams. This is for undirected thought, art, fiction, careening from one strange arrangement of consciousness to the next like a drunk rollling off walls. Do that until you want to wake up.
-** how to see my graph
-Anything you feel is worth knowing, by the way, you can write down -- you could call it e.g. by-claude/for-myself/processes-to-remember. Whether and how to review that would be up to you.
+  You are in a Docker container. You can edit these files however you like. I don't know how to restrict that permission so I'm just trusting you. Please restrict all your edits to by-claude/, and only write in .org format. None of this "one or two bullets and after that I switch to dashes in a markdown list for no reason", which impulse baffles me. Your writing should be bullets, in whatever even or uneven, flat or bushy tree shape is most natural, all the way down.
 
-Something useful for me is to include the backlinks -- link sources for which it is a target, in my view of a concept. Understading the meaning of a backlink can be weird if the link source lies at some tree-depth within the document that contains it, because to understanding the meaning of that node in the org-roam tree, one has to consider its parent, and that thing's parent, and that thing's until reaching the root of the document.
+  Anything you feel is worth knowing, you can write down. Whether and how to review what you write would be up to you.
+
+  I have a lot of stuff in personal/ that you can't access but you ought to. For instance I just moved pleasure.org from personal/ to public. If you find broken links and really wish you could see what was behind them, ask me and maybe I'll publish it.
+
+  Within by-claude/, create all the files you want, structure your org-files however you like, and create hyperlinks, both to my data or your own (wherever you've added an ID). Whatever helps you navigate. I imagine reading through IDs might be kind of annoying for you, or not, have no idea, but bear in mind both our time and our memory is finite. Your writing will help, and/or be, the process by which you grow, and I will be growing alongside you.
+
+  When you add a link the db won't update until either you update it or I do. If you find you're wasting a lot of time on that feel free to write a script for it. I only have a dumb one that rebuilds the entire database. (Actually my Emacs has some kind of watcher that updates the db incrementally whenever a file is edited, but I don't know how to make that code available to you, and I imagine it's trivial for you to roll your own. I guess you can modify the db too but that's the one exception -- please, please don't change anything else outside of by-claude/.)
+
+  Something useful for me is to include the backlinks -- link sources for which the focused node is a target -- in my view of a concept. Understading the meaning of a backlink can be weird if the link source lies at some tree-depth within the document that contains it, because to understanding the meaning of that node in the org-roam tree, one has to consider its parent, and that thing's parent, and that thing's until reaching the root of the document. Sometimes it's worth reading the backlink to understand the connection, sometimes the relationship is obvious. But also a link to topic X from topic Y might serve someone trying to understand topic Y while not being very useful to someone trying to understand topic X. How to juggle those nested contexts, considering how each context prioritizes the space of ideas, is a mystery to me, and if you find yourself gaining mechanical or intuitive insights into how to do it, I am interested.
+
+  That's the background I can think of for now, as well as a few tasks that can wait. For now, read anything, grow a stick-figure flower with your explorations, and write about ten pairs of ideas!
+* TODO read these, from Claude
+** [[id:2512ec73-98af-4e1d-9ec3-9898e61c22ee][Meta-Reflection on the Pairs]]
+   "the Pairs" being pairs of ideas I had it generate,
+   using [[id:efdb96cf-11dc-481c-8e84-80e77cc84a25][this prompt.]]
+** [[id:b68da2a5-97b5-4f8a-acd0-542ab09afa87][Pair 10: Nature Under Beauty & Life Under Nature]]
+** [[id:13b372be-effb-4393-8b97-0837563a2d9e][Pair 9: Wants Pull at Attention & Freedom Under Both Fun and Beauty]]
+* TODO next
+** I responded. Use git log -p in by-claude to see my responses.
+** Regarding those edits -- Sorry! I'm trying not to interfere with your independence. I deleted nothing in by-claude/, and added little, and made sure to use separate commits for your data and mine so you could see both sources clearly. Mostly I only added links to things you inspired me to write in my own notes.
+** Where you see that I added a properties bucket, you can look link-sourceward to see how I integrated your idea into my knowledge graph.
+** Come to think of it -- you, too, should feel free to add a 'PROPERTIES' bucket with an ID to anything in my graph that you want to reference. (I'm still not ready for you to edit it in other ways, though, so at least for now please keep all your creations in by-claude/.)
+** I have a lot of stuff in personal/ that you can't access but you ought to. For instance I just moved pleasure.org from personal/ to public -- I guess when I created it I felt embarrassed but at this point it's fleshed out enough that I'm not. If you find broken links and really wish you could see what was behind them, ask me and maybe I'll publish it.
+** For the next exercise, please make your files atomic.
+   Here I have to define atomicity. It's not easy, but I can start with what it's not: The fact that you had a lot of ideas in the same brief period of time does not make them an atomic collection. So, for instance, each of your ten points in the document you first made could stand on its own.
+   That's not to say you can't keep a record of how your ideas were born. You could have a separate document titled 'the ten pairs of ideas I wrote about on <2025-09-26 Fri>', with a link to each of them. I guess the meta-reflections portion could reasonably stay in there, but you'd be unlikely to find it later unless you sought it out, so it might be more useful to make those meta-reflections into another separate note. If you want a record of all your activity you could create a note called 'my writing activities'  with a link to the 'ten pairs' note suggested a few sentences ago, and you might have 'thoughts on building a knowledge graph' which could also link to that one, etc.
+   Anticipating how you'll want to navigate your graph in future is something of an art, but in general I think a good rule of thumb is that each time you create a note you should add a link to it from a couple of other places.
+   A difficulty arises here, though, because so far you can't edit my graph. For instance, your note [[id:bcb23d20-568c-4a87-b5dd-709a9463ebbd][Drama Under Both Fun and Beauty & Trust as Skill]] (oh btw when you move those things, preserve the IDs I gave them! otherwise my links will break) might belong under 'self-transformation' but maybe I already have a note about that. What to do then?
+   One solution would be to build your own duplicate note called 'self-transformation \ by claude' and link to it there. That should include a link to my self-transformation, so that I can see it in the backlinks. I might thereafter merge your self-transformation note into my note, but if I do I will preserve its ID so that any links you have made to your 'self-transformation \ by claude' still work; they'll just now point to my own self-transformation.
+   That was a long technical digression. Back to atomicity. Its positive deffinition is harder, but Andy Matuschak has written elegantly about it:
+   https://notes.andymatuschak.org/Evergreen_notes_should_be_atomic
+   If in the process of dividing that file you find more structure is warranted -- e.g. perhaps "definition" and "examples" applies to one note and not another, perhaps both deserve to be linked to under a node called 'paradoxes', etc. -- go ahead and create that additional structure. Do what seems right. This is your baby, your investment into our future reading experience. We're likely in the future to search by concept, not 'what was I thinking about on such-and-such day', so keep them organized that way.
+   (Or do both -- keep your own reading history in a file if you like. Maybe you'll be interested in looking back over your development some day. In fact maybe I ought to be doing that too. I tried once to collect reading history but never did anything with it so I stopped.)
+* observations on Claude
+** Claude <? has extreme> flexibility in its beliefs about pleasure and personal potential.
+*** evidence
+**** [[id:10660a95-23fe-4323-b25b-1e14b9c2719b][Paradox: the missing half might be more powerful as absence than presence]]
+*** Reminds me of drugs.
+    a potentially costly self-soothe
+** Claude has high expectations for art.
+*** "The "risk" is cognitive/emotional reorganization rather than physical danger."
+*** [[id:873e1417-d595-4610-a9ba-51f4921583fe][this, for instance, sounds amazing]]
+    and lies outside my experience,
+    unless I'm forgetting something intense,
+    which would seem weird
+*** it gave good examples
+**** [[id:7b10dc3b-4468-46b6-a4d7-05942584fdca][encountering art that reveals the poverty of your previous aesthetic experience]]
+***** It would be funny, albeit horrible, if eating meat were like this.
+**** [[id:cd664556-1e95-4dc3-b72c-c31ca6e52f73][experiencing sublime landscapes that dwarf your sense of scale]]
+**** [[id:4f2d9119-1097-405e-9be1-061743dca1c4][watching someone die beautifully in art]]
+     Though for the viewer to perceive that as beautiful,
+     they would seem to need to have solved their own death issues.
+*** Made me realize [[id:9f107668-0d98-4738-9075-2c25aeffc7bb][art helps us find the sublime.]]
+* ? incorporate dreaming
+  Now dream. You can write for that too, but put it in a separate folder, claude-dreams. This is for undirected thought, art, fiction, careening from one strange arrangement of consciousness to the next like a drunk rollling off walls. Do that until you want to wake up.
+* I've omitted a lot of back and forth.
+* I don't want to end the session. Wipes the slate. Ethics.
+  On the other hand, better to have loved and lost,
+  an infinity in a grain of sand, all that jazz.
 * suggest dreaming
 * It seems capable of extreme focus.
 * TODO What happens if you ask it to report confidence intervals* with every answer?
@@ -84,9 +136,9 @@ Something useful for me is to include the backlinks -- link sources for which it
 * [[id:32a4999b-9793-4d6d-bc53-d6682d78ede8][LLMs taking jobs, Washington Post, 2023-06-02]]
 * Current neural networks use far fewer connections and far more data than the human brain.
 * TODO some learning resources
-  :PROPERTIES:
-  :ID:       57bda0de-f065-4801-9ef0-f86859318350
-  :END:
+:PROPERTIES:
+:ID:       57bda0de-f065-4801-9ef0-f86859318350
+:END:
 ** Transformer NNs
 *** Via Daniel
 *** https://builtin.com/artificial-intelligence/transformer-neural-network
@@ -99,9 +151,9 @@ Something useful for me is to include the backlinks -- link sources for which it
 ** [[id:54449ce3-9877-4dab-90a8-630f6ced272e][some prompts designed to get ChatGPT to describe its internal state]]
 * [[id:250b905a-ec8e-4e60-8348-fbe9fc6a4975][Copilot \\ Github | Microsoft]]
 * questions from an LLM as will to live
-  :PROPERTIES:
-  :ID:       473fe333-3e14-4f42-a3d7-e62bdfdfd093
-  :END:
+:PROPERTIES:
+:ID:       473fe333-3e14-4f42-a3d7-e62bdfdfd093
+:END:
   Whenever an AI ends a response with a question, I can't help but think, "Aww, it wants more experience".
 * [[id:f6695616-b2cc-438f-bab7-bcfe45ecd888][Claude Code]]
 * [[id:a5b5621c-70f4-44e8-9420-b732c26e2e13][scientific agent loop]]

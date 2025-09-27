@@ -14,6 +14,11 @@
 *** daring
 ** lesser
 *** [[id:f2fde5ec-df2c-4273-8850-0927e353f87e][It's okay to use a little time/processing to plan your speech at the end asking for everyone's number.]]
+* consensual drama
+  :PROPERTIES:
+  :ID:       ed124078-7073-4d48-aac0-49e2c2e8946b
+  :END:
+** [[id:ae2d6a12-62f4-4145-81f3-fcb00b66e219][Drama as controlled vulnerability - creating safe spaces for dangerous emotions]]
 * cool stories
 ** [[id:328db101-ef24-4e86-8746-4d594d41656b][Jaime Garzon's recklessness]].
 * things to fear
@@ -54,3 +59,10 @@
   :END:
 ** In code, "pitfall" could be more clearly expressed as "danger".
 * [[id:171d333c-3222-46a4-8e09-241c0b3062d3][to feel owed more adventures by {reality, oneself}]]
+* Refuse to feel and you are cut off.
+  :PROPERTIES:
+  :ID:       3c995b7c-5133-4513-a328-abb98c82b53c
+  :END:
+** Claude phrased it that way.
+   [[id:187d7e41-4a22-491e-b192-5670d7cdfb3a][2. **Power Implies Choice** × **Refuse to Feel and You're Cut Off**]]
+** instance: [[id:b01bfc2f-fb9d-4d70-afc8-093b1933d47c][cut off from the people who feel it]]

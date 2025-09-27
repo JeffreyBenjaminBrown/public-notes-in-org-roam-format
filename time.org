@@ -3,6 +3,7 @@
 :ROAM_ALIASES: time
 :END:
 #+title: spacetime
+* [[id:f774613e-cc5c-4002-a85a-f91da8bff16f][transcending time]]
 * [[id:36d2d810-4be1-4c0c-a979-bd756bf29220][consciousness]]
 * Place presumes reality.
   :PROPERTIES:
@@ -54,3 +55,4 @@
    perpetually not far ahead in the cosmic
    mystery one grows through knowing
 ** "In the before time, when space bounded communication."
+** [[id:2ad51d0e-607f-4865-a3df-c10db2fef05f][a story about the futility of stories]]

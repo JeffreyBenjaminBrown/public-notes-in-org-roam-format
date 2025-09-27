@@ -9,6 +9,13 @@
 ** [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurdity]]
 ** [[id:6fa4cc1e-d4a8-4127-bf28-9e43aab75df8][dissociation]]
 ** [[id:e8594ff4-8ca0-44ea-a349-f16163c376a7][irony]]
+** [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][escape]]
+* transcending time
+  :PROPERTIES:
+  :ID:       f774613e-cc5c-4002-a85a-f91da8bff16f
+  :END:
+** stories as [[id:639f85af-f376-4901-a30a-05552d47a2eb][scaffolding for experiences that don't need them]]
+* [[id:c4f84e79-264a-4bf0-830e-6078fbc0c8e3][Comedy destroys drama. ~ Absurdity requires broad perspective.]]
 * Acceptance is worse than solution but better than [[id:227c3af6-14fc-42b2-a1ff-76313149a746][denial]].
 * [[id:f4d489d8-3687-4377-8394-4d1aa16d8782][See through bias.]]
 * [[id:f027def3-c2df-41bd-9841-bc1d9f437396][synthesis ( ala Hegel )]]
@@ -35,7 +42,9 @@
 * [[id:cf3d9e97-2c7a-4c2c-a6d3-33ea4dab2654][if karmic justice let one transcend fear of mortality]]
 * [[id:fa59b4e0-e73b-46bd-a465-e7038a5c5e98][if superman/undercover-god needed to see the equalizing tax]]
 * [[id:b37e198b-0e15-4263-be53-cc29c827448e][salvation]]
+* "[[id:e10fa73d-723f-4772-99d9-2ece218d4175][Beauty as the interface between the comprehensible and the incomprehensible]]"
 * Escape yourself.
   :PROPERTIES:
   :ID:       5e99170f-6c38-4705-bf3d-1b2cb9b95123
   :END:
+  Hurry! Before you die!

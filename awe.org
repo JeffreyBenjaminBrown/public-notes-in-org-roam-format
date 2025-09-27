@@ -22,8 +22,13 @@
   :END:
   And to help them amaze themselves,
   and to be so helped.
+* "[[id:e10fa73d-723f-4772-99d9-2ece218d4175][Beauty as the interface between the comprehensible and the incomprehensible]]"
+  :PROPERTIES:
+  :ID:       6b0f461e-9591-402e-8372-ef3692eeaf02
+  :END:
 * maybe see also
 ** the [[id:c0670a96-666b-4ebb-a2a6-42e83067f39d][sublime]]
+** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
 ** [[id:6fa4cc1e-d4a8-4127-bf28-9e43aab75df8][dissociation]]
 ** [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]
 ** [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]

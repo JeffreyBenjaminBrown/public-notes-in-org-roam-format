@@ -1,10 +1,11 @@
 :PROPERTIES:
 :ID:       c0d17892-182e-45f8-b86d-a5a5b3bba61e
-:ROAM_ALIASES: "fast night fantasy" "living like there's no tomorrow" "There is only now." presence impermanence
+:ROAM_ALIASES: "fast night fantasy" "living like there's no tomorrow" "There is only now." presence impermanence escape
 :END:
-#+title: presence | impermanence
+#+title: presence | impermanence | escape
 * neighbors
 ** [[id:9ec55e32-f974-479e-8295-7d9e30156684][awareness]]
+* [[id:5e99170f-6c38-4705-bf3d-1b2cb9b95123][Escape yourself.]]
 * It is at least a culture.
   One evident in all kinds of music and movies.
 * Is there an algorithm?

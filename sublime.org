@@ -3,6 +3,10 @@
 :END:
 #+title: sublime
 * TODO I still don't even know what this is.
+* Art helps us find the sublime.
+  :PROPERTIES:
+  :ID:       9f107668-0d98-4738-9075-2c25aeffc7bb
+  :END:
 * some contexts it is applied to
   health
   ethics

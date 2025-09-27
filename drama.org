@@ -3,6 +3,21 @@
 :END:
 #+title: drama
 * [[id:7439dc05-bd70-4cf8-9337-6fc31058f71b][comedy & drama]]
+* drama outside of art
+** some safe kinds
+*** intense conversation
+*** group therapy
+*** group improv
+** intimate conflicts
+   :PROPERTIES:
+   :ID:       32e92093-c0de-47e2-8a8d-30e9a2838896
+   :END:
+   As a behavior, would seem of [[id:5fb0c3e5-a80d-46be-b5c6-26accde35bb3][marbled value]]:
+   some intimate conflicts are horrible,
+   some are beautiful memories,
+   and some have even been beautiful to me in the moment.
+   If there is a good kind of intimate conflict,
+   it requires an intense and strange kind of trust.
 * [[id:41cb54f4-d51b-4e5c-b8b6-264c9a4c6f78][A good story has positive and negative shocks.]]
 ** [[id:5fb0c3e5-a80d-46be-b5c6-26accde35bb3][valence, emotional marbled]]
 * [[id:2f3c6dae-ded0-43f0-8b3d-0e9d095d8904][Could appreciating drama help one cope with stress?]]

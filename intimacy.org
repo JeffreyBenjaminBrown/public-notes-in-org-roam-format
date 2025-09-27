@@ -4,6 +4,7 @@
 #+title: intimacy
 * recent, unintegrated
 ** [[id:92354831-6ca0-455b-b87e-0ae639bc651b][Know what to keep private.]]
+* [[id:32e92093-c0de-47e2-8a8d-30e9a2838896][intimate conflicts]]
 * is grounded in [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][vulnerability]], [[id:10f35302-f321-48ac-b3bb-cbc6647e7575][trust]] and [[id:9503e93c-e13f-4be2-ad59-66350feeb21f][privacy]]
 * 36 questions for increasing closeness
   These are famous.

@@ -7,6 +7,12 @@
 ** [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
 ** [[id:a9730be0-42bc-49ab-8a0a-f7bfd55c729d][Entropy is not entirely negative.]]
 ** [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep]]
+** [[id:b449bd05-ac06-4548-8982-3a6eb05f5d91][how constraints help \ art]]
+* Ideally the beauty of [[id:ba91e3ad-997a-4b4e-9ed4-43324b94f10f][computational efficiency]] would be part of it.
+  :PROPERTIES:
+  :ID:       b4b36a36-9b44-4e1b-a9a8-84aef2e25b12
+  :END:
+** If there were a [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][God]], how would it forget me.
 * transcending it
 ** [[id:b5c9ebb3-57c2-4516-8db2-53ddae6dc140][right to feel, act on, and then relax your grip on]]
 * [[id:9d3a6c74-b537-45c2-be1f-5810374851e8][mortality pressure]]
@@ -20,6 +26,7 @@
 ** [[id:1d2b7fa8-e4f3-4e96-9b20-24901b7be28a][immortality]]
 * [[id:45453411-d9e4-4562-aebb-0030ddf1dced][hell]]
 * [[id:15dc6043-cb8f-4202-8d56-7e7b1dac59f8][dissociative fantasies]]
+** [[id:5e99170f-6c38-4705-bf3d-1b2cb9b95123][Escape yourself.]]
 * [[id:dd5b4336-de4b-4fc9-8119-0c9285240925][information death]]
 * u
 ** mobility problems

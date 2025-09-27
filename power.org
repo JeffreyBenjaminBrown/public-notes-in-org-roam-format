@@ -45,3 +45,7 @@
   :END:
 ** [[id:4dc21a1a-cf5d-48d9-9297-05af7c7618e5][labor v. capital]]
 ** [[id:627da2c2-2f34-46ac-a6d3-9c625c4ff31d][artificial intelligence]]
+* There is power in [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][vulnerability]].
+  :PROPERTIES:
+  :ID:       6ff890e1-5267-4b4a-8e88-8ea92decaa34
+  :END:
