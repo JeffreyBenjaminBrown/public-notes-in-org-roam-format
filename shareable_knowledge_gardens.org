@@ -35,6 +35,9 @@
      It is thinking without specialization, with complete freedom.
 **** Mindmapping can look distant from work.
      Thinking about a lot of things you can't change can look impractical. The change is in you.
+* likely heralds
+  make available to user
+  question
 * Should the nodes that shout 'read me first' be marked 'readme'?
 * motivation and soul-searching for skg
 ** [[id:320e5181-cf0d-48bf-b024-d0e6c4c309c2][Do I fear personal integration?]]
@@ -62,6 +65,8 @@
 **** example : It's hard to include "human" in my tree.
      I really want it to be a tag that doesn't interfere with the tree.
 ** [[id:edb446e2-fdf0-4917-ae6c-e4afd912499e][Am I being realistic?]]
+* Have you been collecting data for a future explosion*?
+  explosive integration experioence?
 * technical
 ** PITFALL | REMEMBER : Avoid complex data structures in Emacs.
    Emacs seems best for buffer text.
@@ -94,7 +99,7 @@
       (in its text or content) that can be saved normally.
       They initially appear with the [[id:324f020b-1145-4279-a87a-02c96dce7a30][omits-some-content herald]].
 *** kinds of queries
-*** show|hide {intermediating relationships = relationship labels,}
+*** show|hide {intermediating relationships = relationship labels)
 *** [[id:37f7be50-9b2c-4426-b288-e83225b6d5d8][expressivity]]
 **** [[id:c2a174fd-9d12-4764-92e8-c9cbfa46f12e][bracket grammar]]
 *** blurring the nlp-graph distinction
@@ -140,12 +145,11 @@
      Order results by title length,
      and if the title includes links,
      show them, rather than showing the whole title as one link.
-*** [[id:4df374c9-658c-440b-b520-2298f316c176][recursion schemes in Rust]]
 *** [[id:4df374c9-658c-440b-b520-2298f316c176][recursion schemes can be done in Rust]]
 ** pressing*
    * = org-roam transplant first needs
 *** [#B] easy
-**** The root Emacs sends Rust should not need an id
+**** The root Emacs sends Rust should not need an id.
 **** skg, deletion in
      :PROPERTIES:
      :ID:       fb72f38e-bef6-4de9-a29b-00f0e46afbbb
@@ -199,10 +203,7 @@
 *** transfer org-roam to skg
 **** [[id:c0465799-391d-446f-a957-28ff65d72e10][parsing initial super-indented org-children in org-roam data]]
 ** ? before I can responsibly release it
-*** to document
-**** user obligation : [[id:83f4b23d-1f74-4dbb-9e22-2b121043362a][no two nodes with the same ID]]
-*** enable export to org-roam
-    so nobody's data gets stuck in it
+*** document user obligation : [[id:83f4b23d-1f74-4dbb-9e22-2b121043362a][no two nodes with the same ID]]
 ** the social experience
 *** the social experience of being hidden
 **** mitigation ? anonymize hiders
@@ -229,6 +230,9 @@
 ***** merge link-siblings
       From file F, if file G contains a link to F,
       show the siblings of the node with that link.
+**** the 'repeated' warning should be in a system font
+     I might need Emacs to generate it.
+     Currently Rust sends it as body text.
 *** share a participatory website requiring no installation
     The user can write in yours even without having installed anything on theirs. They can login with a pseudonym of their choosing, move stuff around, add things, label things. They get their view onto my data, and can show it to others. They can't delete things, and when they rename something its original title becomes an alias, but they can create name clashes to try to bury it.
 *** [[id:6ed5be66-787c-479c-8119-cb340a80d72a][ternary rather than binary containment relationship]]
@@ -306,8 +310,6 @@
 *** ? try [[id:52e2587c-3485-45cb-9456-d2c9746b2c4d][dependency inversion]]
 ** abandoned
 *** [[id:b91c26e8-54cb-4192-8509-4482c9f60cd6][the TypeDB Python driver]]
-** DONE , mostly
-*** [[id:b72d4277-eced-48b9-85da-b917d9a4aad4][aliases]]
 ** DONE ? unifications
 *** private lens onto your public notes ~ subscription
     They would work the same way.
@@ -374,3 +376,4 @@
 ** Simplify the Emacs transmission.
    Just send the text with its properties. Let Rust figure out everything else. It will no longer be procedural, subjeect to cursor and other errors.
 ** [[id:170e4f79-4f5e-49a6-9ce1-8e42c0332100][the meaning of sharing in a knowledge graph]]
+** [[id:b72d4277-eced-48b9-85da-b917d9a4aad4][aliases]]

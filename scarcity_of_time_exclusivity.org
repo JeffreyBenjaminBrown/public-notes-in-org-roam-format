@@ -1,4 +1,6 @@
 :PROPERTIES:
 :ID:       b6ae0064-80b2-498b-bf66-b2b128d16b83
 :END:
-#+title: scarcity of time -> exclusivity
+#+title: scarcity
+* It is all constraints.
+* [[id:9d3a6c74-b537-45c2-be1f-5810374851e8][mortality pressure]]

@@ -12,6 +12,8 @@
 ** [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][acceptance | realism]]
 ** [[id:ee3db6a1-1143-439c-8912-10fb2a4d3b8d][numbness]]
 * TODO merge with [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+* Claude suggests [[id:c6d7e8b1-9c49-4d58-b4ec-2d660de58169][strategic under-optimization]].
+** feels like slack
 * Is peace compatible with (consciously) optimizing peace?
 * [[id:20d36ee8-6f26-47ff-88cb-d85711027510][calm under stress]]
 * [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]]

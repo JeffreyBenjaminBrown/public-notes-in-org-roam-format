@@ -21,6 +21,5 @@
   for this the cursor position as an integer can be saved,
   rather than associated to an id
 * DONE permit the user to fetch aliases for the current heading
-* group title (alias) search results by common id
+* DONE group title (alias) search results by common id
 ** title search over aliases should return id, title pairs, sort results on (id, title) in that order, and present both or group aliases as org-children of IDs so that it's visibly clear whether any two search results go to the same or different places
-* show aliases associated with hyperlink

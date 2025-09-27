@@ -5,7 +5,7 @@
 * a list of [[id:c35ab968-7056-40fa-8816-ea16d5c88f6d][sciences, fields of study, schools of thought]]
 * science , how
 ** [[id:b9c7b7e6-9849-4a24-984d-b2e2e749d81a][methods and institutions for science and research]]
-** [[id:efd65f91-09ea-43d3-a894-7a23c2b7ef58][Understanding novel ideas requires imagination.]]
+** [[id:efd65f91-09ea-43d3-a894-7a23c2b7ef58][Understanding novel ideas requires imagination.]] and [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
 * problems in science
 ** [[id:635cf3cc-8ccd-477a-b5dd-475b6230e2ab][Publication in science is too much work.]]
 * [[id:d779aeab-0662-4142-ae65-2ddbf3cef5c5][academia]]

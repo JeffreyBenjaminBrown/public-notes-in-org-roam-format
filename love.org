@@ -3,16 +3,26 @@
 :ROAM_ALIASES: love
 :END:
 #+title: love ,, brotherly & romantic & self-respect
-* see also
+* components $$of love $as skill
+  = components of (love as skill)
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 ** [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]
 ** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
+* obligations
+** Take someone appropriately seriously.
+   :PROPERTIES:
+   :ID:       fee7b5b8-cd1a-4180-8cef-bbabb0fa4bd7
+   :END:
+*** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
+*** [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
+*** [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]] & [[id:a55842c2-536e-4581-b04b-026715e646d1][duty]]
 * relationships
 ** bonding
    :PROPERTIES:
    :ID:       2b6c63e7-80fe-4561-a9c0-50656b3d6a83
    :END:
-*** [[id:302dba5a-9298-440a-bbcb-5b96955a5633][Bonding requires activities, not just occasional smalltalk.]]
+*** [[id:302dba5a-9298-440a-bbcb-5b96955a5633][Bonding requires activities?]]
+    with rebuttal
 ** some kinds
 *** [[id:20f350a4-210c-4c49-af39-391365c5aa39][Everyone needs a fan and a critic.]]
 * [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][presence]]

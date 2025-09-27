@@ -3,3 +3,7 @@
 :END:
 #+title: education
 * [[id:44adfb1a-1616-4639-b3cf-542a3507bbae][Scripted schooling is effective.]]
+* Learning processes are interesting.
+  :PROPERTIES:
+  :ID:       2668c748-5d51-48e5-b0ef-86757aa01f4a
+  :END:

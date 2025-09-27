@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "responsibility & love" "love & responsibility" duty responsibility
 :END:
 #+title: duty
+* merge : [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]]
 * [[id:ff5f634a-f8fa-482c-95a7-6be10e55e58d][comic responsibility]]
 * [[id:1714269c-56fc-4c72-9faa-eebf49c6a07f][musical responsibility]]
 * [[id:3fea916e-26ed-441c-883c-e642b205bf05][All that matters is how we make each other feel.]]

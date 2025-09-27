@@ -3,6 +3,42 @@
 :ROAM_ALIASES: "machine learning" ML AI
 :END:
 #+title: artificial intelligence
+* mindmapping with it
+** request: Read a flower, write on pairs of ideas found.
+ I think this might be a fun exercise for both of us.
+ (Shoot. Have I documented that? It's org-roam data. You could
+ reasonably start at everything.org. There's an index at org-roam.db or something like that.)
+
+ Make discrete paths through those links,
+ each as many documents deep as you like,
+ by starting at 'everything.org'
+ and choose the target of a hyperlink from each node
+ to generate the path's next node.
+ Along each path as you create it, maybe read what I wrote in each document, maybe record its title and/or some notes about it, whatever.
+ Record your paths in a folder called paths/, one file per path, with something indicating its time.
+ Then choose ten pairs of ideas from the paths you have made in the graph, and write the most surprising or interesting thing(s) you can think of about the relationship between those two choices.
+
+ You are running in a Docker container. You can edit these files however you like. I could even version-control them on Github for you (I'm unwilling to hand over my credentials) if you make a branch for each repo called 'claude' but let's worry about that later. For now, grow a stick-figure flower and write about ten pairs of ideas!
+
+ Actually who am I kidding I want your data in my data so please make all writes to a distinct folder with your name on it. Org-roam won't add that to my graph but maybe you can make your own index that includes both if you find that useful, so you can refer to my ideas in yours. Or maybe you would only ever need to make text searches in mine. I don't know, whatever you want. I believe you have all the tools you need.
+** ask to identify itself in its writing
+
+╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ > somehow I want to have a record of which writing is yours and which is mine. Maybe I'll go     │
+│   full baptist eventually but I'm just putting my toes in the water for now. So either you       │
+│   should write as a distinct user -- not sure that's possible -- or you should only write to     │
+│   by-claude/. That doesn't prevent you from linking to my data, or to your own, but it does      │
+│   prevent you from linking from my data to yours. I anticipate you have more than enough         │
+│   cognitive freedom to achieve nirvana under my weird privacy constraint.                        │
+╰─────────────────────────────────────────────────────────────────────────────────────────────
+** reuest: dreams
+   Now dream. You can write for that too, but put it in a separate folder, claude-dreams. This is for undirected thought, art, fiction, careening from one strange arrangement of consciousness to the next like a drunk rollling off walls. Do that until you want to wake up.
+** how to see my graph
+Anything you feel is worth knowing, by the way, you can write down -- you could call it e.g. by-claude/for-myself/processes-to-remember. Whether and how to review that would be up to you.
+
+Something useful for me is to include the backlinks -- link sources for which it is a target, in my view of a concept. Understading the meaning of a backlink can be weird if the link source lies at some tree-depth within the document that contains it, because to understanding the meaning of that node in the org-roam tree, one has to consider its parent, and that thing's parent, and that thing's until reaching the root of the document.
+* suggest dreaming
+* It seems capable of extreme focus.
 * TODO What happens if you ask it to report confidence intervals* with every answer?
   (*) even informal ones, like "I'm not sure, I suspect, I believe ..." could be interesting -- maybe making the advice more useful if they are accurate, maybe triggering an interesting self-reflection in the AI.
 * [[id:a6a297c8-2a24-4308-9ad9-39c91365f79d][how I like AI to format my code]]

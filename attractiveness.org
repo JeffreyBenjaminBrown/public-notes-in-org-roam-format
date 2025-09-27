@@ -7,6 +7,7 @@
 ** [[id:255a4912-7dbf-47f4-bff3-3917432616ef][taste (as in style)]]
 ** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
 ** [[id:3a009c94-db3a-4707-933b-e6c9ba4d4fee][social skills]] , personal
+** [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling]] and [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
 * qualities
 ** [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness]]
 ** [[id:feb8cb2a-b057-48dd-836b-99985d9e7338][subtlety]]
@@ -47,3 +48,13 @@
 ** It is not too visibly [happy, interested] too often.
 * [[id:5b403f88-13ea-4855-b16d-65fd6a752d58][feminine finesse]]
 * [[id:94560eb7-3ea1-4098-9107-e083459de5cc][lust as correct]]
+* "It just feels unsexy" can be sufficient explanation.
+  :PROPERTIES:
+  :ID:       13bace3c-fdba-40a6-a70f-749d99d28877
+  :END:
+* Sexiness is a minefield.
+** claude: [[id:acf93a8a-1e7c-4bc3-a712-cca457cc0967][The "Sexiness Constraint" as an optimization framework]]
+   <2025-09-26 Fri>
+** lots of stuff to avoid doing
+** Maybe balanced against that negativity, the stuff *to* do feels like magic, channeling.
+*** Like neo seeing through the matrix, the bad nothing before the good.
