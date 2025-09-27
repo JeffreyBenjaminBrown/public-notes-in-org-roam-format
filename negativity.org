@@ -20,10 +20,11 @@
 ** [[id:ec35b479-a37e-498d-a81f-b898c4a51552][self-harm]]
 ** [[id:227c3af6-14fc-42b2-a1ff-76313149a746][denial]]
 ** [[id:04fc0958-39b6-450b-8880-a794f2d2bf63][rationalization]]
-* nihilism
-  :PROPERTIES:
-  :ID:       27f9e7f9-f2d4-48f2-80f9-d3443080681f
-  :END:
+* nihilism | cynicism
+:PROPERTIES:
+:ID:       27f9e7f9-f2d4-48f2-80f9-d3443080681f
+:ROAM_ALIASES: cynicism nihilism
+:END:
 ** materialism
    :PROPERTIES:
    :ID:       f9097e8f-68bd-47c8-b9d6-5deec9bfdfb3
@@ -35,3 +36,12 @@
 *** knowledge
 *** meaning | fulfillment
 *** politics
+** It opposes [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope]].
+** It lacks [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]].
+   :PROPERTIES:
+   :ID:       cb86d100-c67e-4755-af7c-0bca03bc4c75
+   :END:
+*** Cutting off cynicism by declaring it boring feels sexy.
+    :PROPERTIES:
+    :ID:       f179edc5-ca32-4348-8961-26d6c4f55ac3
+    :END:

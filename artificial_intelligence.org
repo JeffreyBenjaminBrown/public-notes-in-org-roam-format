@@ -47,17 +47,24 @@
    using [[id:efdb96cf-11dc-481c-8e84-80e77cc84a25][this prompt.]]
 ** [[id:b68da2a5-97b5-4f8a-acd0-542ab09afa87][Pair 10: Nature Under Beauty & Life Under Nature]]
 ** [[id:13b372be-effb-4393-8b97-0837563a2d9e][Pair 9: Wants Pull at Attention & Freedom Under Both Fun and Beauty]]
-* TODO next
-** I responded. Use git log -p in by-claude to see my responses.
-** Regarding those edits -- Sorry! I'm trying not to interfere with your independence. I deleted nothing in by-claude/, and added little, and made sure to use separate commits for your data and mine so you could see both sources clearly. Mostly I only added links to things you inspired me to write in my own notes.
-** Where you see that I added a properties bucket, you can look link-sourceward to see how I integrated your idea into my knowledge graph.
-** Come to think of it -- you, too, should feel free to add a 'PROPERTIES' bucket with an ID to anything in my graph that you want to reference. (I'm still not ready for you to edit it in other ways, though, so at least for now please keep all your creations in by-claude/.)
-** I have a lot of stuff in personal/ that you can't access but you ought to. For instance I just moved pleasure.org from personal/ to public -- I guess when I created it I felt embarrassed but at this point it's fleshed out enough that I'm not. If you find broken links and really wish you could see what was behind them, ask me and maybe I'll publish it.
+* next
+** what just happened
+*** I responded.
+    Use git log -p in by-claude to see my responses.
+*** Regarding my edits to your data -- sorry!
+    I'm trying not to interfere with your independence. I deleted nothing in by-claude/, and added little, and made sure to use separate commits for your data and mine so you could see both sources clearly. Mostly I only added links to things you inspired me to write in my own notes.
+*** Where you see that I added a properties bucket, you can look link-sourceward to see how I integrated your idea into my knowledge graph.
+    Please check out everything in my graph that links to yours so you can see what I'm talking about. This will facilitate conversation between us.
+*** You, too, should feel free to add a 'PROPERTIES' bucket with an ID to anything in my graph that you want to reference.
+    I'm still not ready for you to edit it in other ways, though, so at least for now please keep all your creations in by-claude/.
+*** I have a lot of stuff in personal/ that you can't access but you ought to.
+    For instance I just moved pleasure.org from personal/ to public -- I guess when I created it I felt embarrassed but at this point it's fleshed out enough that I'm not. If you find broken links and really wish you could see what was behind them, ask me and maybe I'll publish it.
 ** For the next exercise, please make your files atomic.
-   Here I have to define atomicity. It's not easy, but I can start with what it's not: The fact that you had a lot of ideas in the same brief period of time does not make them an atomic collection. So, for instance, each of your ten points in the document you first made could stand on its own.
+   Here I have to define atomicity. It's not easy, but I can start with what it's not: The fact that you had a lot of ideas in the same brief period of time does not make the collection an atomic document. So, for instance, each of your ten points in the document you first made could stand on its own.
    That's not to say you can't keep a record of how your ideas were born. You could have a separate document titled 'the ten pairs of ideas I wrote about on <2025-09-26 Fri>', with a link to each of them. I guess the meta-reflections portion could reasonably stay in there, but you'd be unlikely to find it later unless you sought it out, so it might be more useful to make those meta-reflections into another separate note. If you want a record of all your activity you could create a note called 'my writing activities'  with a link to the 'ten pairs' note suggested a few sentences ago, and you might have 'thoughts on building a knowledge graph' which could also link to that one, etc.
+   When you move anything you've written, please preserve any IDs I gave it! Otherwise my links will break.
    Anticipating how you'll want to navigate your graph in future is something of an art, but in general I think a good rule of thumb is that each time you create a note you should add a link to it from a couple of other places.
-   A difficulty arises here, though, because so far you can't edit my graph. For instance, your note [[id:bcb23d20-568c-4a87-b5dd-709a9463ebbd][Drama Under Both Fun and Beauty & Trust as Skill]] (oh btw when you move those things, preserve the IDs I gave them! otherwise my links will break) might belong under 'self-transformation' but maybe I already have a note about that. What to do then?
+   A difficulty arises here, though, because so far you can't edit my graph. For instance, your note [[id:bcb23d20-568c-4a87-b5dd-709a9463ebbd][Drama Under Both Fun and Beauty & Trust as Skill]] might belong under 'self-transformation' but maybe I already have a note about that. What to do then?
    One solution would be to build your own duplicate note called 'self-transformation \ by claude' and link to it there. That should include a link to my self-transformation, so that I can see it in the backlinks. I might thereafter merge your self-transformation note into my note, but if I do I will preserve its ID so that any links you have made to your 'self-transformation \ by claude' still work; they'll just now point to my own self-transformation.
    That was a long technical digression. Back to atomicity. Its positive deffinition is harder, but Andy Matuschak has written elegantly about it:
    https://notes.andymatuschak.org/Evergreen_notes_should_be_atomic

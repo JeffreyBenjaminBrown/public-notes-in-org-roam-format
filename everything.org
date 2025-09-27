@@ -85,7 +85,6 @@
    :PROPERTIES:
    :ID:       157ed249-caa2-4b5c-af8d-9aaa51c93a04
    :END:
-*** [[id:7a0295d0-a82c-4d1f-8ee3-dad17b554e9f][cynicism]]
 *** [[id:aa879d13-804f-4de3-b9fc-a3e7c774969e][evil]]
 *** [[id:748ef797-bf79-4211-b333-d99c448444d9][hate]]
 *** [[id:74a00d03-5790-4851-b52e-6d2108eabfef][irresponsibility]]
@@ -93,7 +92,7 @@
 *** [[id:1d8be58f-a579-4e4c-a145-8c349db58514][peer pressure]]
 *** [[id:91b5b933-912d-4686-8cb3-bdf2255d2085][pride => stupidity]]
 *** [[id:312b1964-390a-4fbd-ac3b-ebe4797cd821][stupidity]]
-*** [[id:27f9e7f9-f2d4-48f2-80f9-d3443080681f][nihilism]]
+*** [[id:27f9e7f9-f2d4-48f2-80f9-d3443080681f][nihilism]] | cynicism
 * [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope(s)]]
 * [[id:50132c61-a3f9-4e28-bdbd-e2d0e6f35f28][feelings]] / instances
 :PROPERTIES:
