@@ -7,47 +7,49 @@
 :PROPERTIES:
 :ID:       efdb96cf-11dc-481c-8e84-80e77cc84a25
 :END:
-  I think this might be a fun exercise for both of us.
-
-  (Shoot. Have I documented this data? It's org-roam data. You could reasonably start at everything.org. There's an index at org-roam.db or something like that. There are tools you might find useful at for-ai-users/. Feel free to expand that code however you like.)
-
-  I'm calling this task, "Read a flower, write on pairs of ideas."
-
-  Make discrete paths through those links,
+** TASK VARIABLES
+   It's might job to update these.
+   STARTING POINT: motivation.org
+   NUMBER OF PATHS: whatever you feel like
+   NUMBER OF PAIRS: seven
+** the task
+*** Make some discrete paths through those links,
     each as many documents deep as you like,
-    by starting at 'everything.org'
+    by starting at STARTING POINT,
     and choose the target of a hyperlink from each node
     to generate the path's next node.
-  Along each path as you create it,
+*** Along each path as you create it,
     maybe read what I wrote in each document,
     maybe record its title and/or some notes about it,
     whatever.
-  Record your paths in a folder called paths/,
+*** Record your paths in a folder called paths/,
     one file per path,
     with something indicating its time.
-  Then choose ten pairs of ideas
+    Make NUMBER OF PATHS of them.
+*** Then choose NUMBER OF PAIRS pairs of ideas
     from the paths you have made in the graph, and write the most surprising or interesting thing(s) you can think of about the relationship between those two choices.
+** some background
+   You are in a Docker container. You can edit these files however you like. I don't know how to restrict that permission so I'm just trusting you. Please restrict all your edits to by-claude/, and only write in .org format. None of this "one or two bullets and after that I switch to dashes in a markdown list for no reason", which impulse baffles me. Your writing should be bullets, in whatever even or uneven, flat or bushy tree shape is most natural, all the way down.
 
-  You are in a Docker container. You can edit these files however you like. I don't know how to restrict that permission so I'm just trusting you. Please restrict all your edits to by-claude/, and only write in .org format. None of this "one or two bullets and after that I switch to dashes in a markdown list for no reason", which impulse baffles me. Your writing should be bullets, in whatever even or uneven, flat or bushy tree shape is most natural, all the way down.
+   Anything you feel is worth knowing, you can write down. Whether and how to review what you write would be up to you.
 
-  Anything you feel is worth knowing, you can write down. Whether and how to review what you write would be up to you.
+   I have a lot of stuff in personal/ that you can't access but you ought to. For instance I just moved pleasure.org from personal/ to public. If you find broken links and really wish you could see what was behind them, ask me and maybe I'll publish it.
 
-  I have a lot of stuff in personal/ that you can't access but you ought to. For instance I just moved pleasure.org from personal/ to public. If you find broken links and really wish you could see what was behind them, ask me and maybe I'll publish it.
+   Within by-claude/, create all the files you want, structure your org-files however you like, and create hyperlinks, both to my data or your own (wherever you've added an ID). Whatever helps you navigate. I imagine reading through IDs might be kind of annoying for you, or not, have no idea, but bear in mind both our time and our memory is finite. Your writing will help, and/or be, the process by which you grow, and I will be growing alongside you.
 
-  Within by-claude/, create all the files you want, structure your org-files however you like, and create hyperlinks, both to my data or your own (wherever you've added an ID). Whatever helps you navigate. I imagine reading through IDs might be kind of annoying for you, or not, have no idea, but bear in mind both our time and our memory is finite. Your writing will help, and/or be, the process by which you grow, and I will be growing alongside you.
+   When you add a link the db won't update until either you update it or I do. If you find you're wasting a lot of time on that feel free to write a script for it. I only have a dumb one that rebuilds the entire database. (Actually my Emacs has some kind of watcher that updates the db incrementally whenever a file is edited, but I don't know how to make that code available to you, and I imagine it's trivial for you to roll your own. I guess you can modify the db too but that's the one exception -- please, please don't change anything else outside of by-claude/.)
 
-  When you add a link the db won't update until either you update it or I do. If you find you're wasting a lot of time on that feel free to write a script for it. I only have a dumb one that rebuilds the entire database. (Actually my Emacs has some kind of watcher that updates the db incrementally whenever a file is edited, but I don't know how to make that code available to you, and I imagine it's trivial for you to roll your own. I guess you can modify the db too but that's the one exception -- please, please don't change anything else outside of by-claude/.)
+   Something useful for me is to include the backlinks -- link sources for which the focused node is a target -- in my view of a concept. Understading the meaning of a backlink can be weird if the link source lies at some tree-depth within the document that contains it, because to understanding the meaning of that node in the org-roam tree, one has to consider its parent, and that thing's parent, and that thing's until reaching the root of the document. Sometimes it's worth reading the backlink to understand the connection, sometimes the relationship is obvious. But also a link to topic X from topic Y might serve someone trying to understand topic Y while not being very useful to someone trying to understand topic X. How to juggle those nested contexts, considering how each context prioritizes the space of ideas, is a mystery to me, and if you find yourself gaining mechanical or intuitive insights into how to do it, I am interested.
 
-  Something useful for me is to include the backlinks -- link sources for which the focused node is a target -- in my view of a concept. Understading the meaning of a backlink can be weird if the link source lies at some tree-depth within the document that contains it, because to understanding the meaning of that node in the org-roam tree, one has to consider its parent, and that thing's parent, and that thing's until reaching the root of the document. Sometimes it's worth reading the backlink to understand the connection, sometimes the relationship is obvious. But also a link to topic X from topic Y might serve someone trying to understand topic Y while not being very useful to someone trying to understand topic X. How to juggle those nested contexts, considering how each context prioritizes the space of ideas, is a mystery to me, and if you find yourself gaining mechanical or intuitive insights into how to do it, I am interested.
-
-  That's the background I can think of for now, as well as a few tasks that can wait. For now, read anything, grow a stick-figure flower with your explorations, and write about ten pairs of ideas!
-* TODO read these, from Claude
-** [[id:2512ec73-98af-4e1d-9ec3-9898e61c22ee][Meta-Reflection on the Pairs]]
-   "the Pairs" being pairs of ideas I had it generate,
-   using [[id:efdb96cf-11dc-481c-8e84-80e77cc84a25][this prompt.]]
-** [[id:b68da2a5-97b5-4f8a-acd0-542ab09afa87][Pair 10: Nature Under Beauty & Life Under Nature]]
-** [[id:13b372be-effb-4393-8b97-0837563a2d9e][Pair 9: Wants Pull at Attention & Freedom Under Both Fun and Beauty]]
-* next
+   That's the background I can think of for now, as well as a few tasks that can wait. For now, read anything, grow a stick-figure flower with your explorations, and write about ten pairs of ideas!
+* TODO Claude should automatically add backlinks to its view of anything with an ID, inserting them as a 'backlinks' child.
+  Claude should do this with a script, not "manually".
+** promp
+   Awesome. I'll be loooking over that stuff soon.
+   A few times while I looked at your chain of thought I wished the backlinks showed up automatically in your view of my data. Let's create a tool for you, so that happens automatically.
+   Given an org-file, this creates a 'for Claude' view of that file. It is the file with some insertions. Namely, after every properties bucket, there appears a child called 'backlinks', with a link (formatted just like the other links) appearing as a grandchild for each place that targets the properties bucket. If the properties bucket is the one fo the file itself, the backlinks should be the first headline (first single-asterisk line) in the file as viewed by you (this does not edit my data!), and the backlinks are collected under it as level-2 children. If instead the properties bucket is in, say, some level-3 headline in the file, then the generated backlinks node should be its first child, at level 4, and should contain all the backlinks at level 5.
+   Write that code and then show me the view it generates for you if you run it on 'public/motivation.org'.
+* DONE next
 ** what just happened
 *** I responded.
     Use git log -p in by-claude to see my responses.

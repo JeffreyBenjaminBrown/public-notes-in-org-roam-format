@@ -23,9 +23,6 @@
    One bears no duty apart from that due the reader,
    but taking all likely readers into account might feel like that.
 * humility & ambition
-  :PROPERTIES:
-  :ID:       af7c9428-198d-428b-be12-1e6e21033dfb
-  :END:
 ** Humility *is* an ambition.
 ** [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Are they at odds?]]
 * Humility is socially efficient.
