@@ -2,6 +2,7 @@
 :ID:       8d5c9418-f228-4595-b423-05acd9921b10
 :END:
 #+title: optimism
+* MERGE: [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope]]
 * see also
 ** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
 ** [[id:b745d109-6d7f-4638-beab-97bd26c8a936][awe | wonder]]

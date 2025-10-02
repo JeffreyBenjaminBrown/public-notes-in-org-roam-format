@@ -12,6 +12,8 @@
   :ID:       cd9ea78e-bc53-426e-9011-70a5d8d1ccde
   :END:
 ** [[id:10f35302-f321-48ac-b3bb-cbc6647e7575][trust]] in God
+** [[id:9dfe3d8a-f236-4390-9c37-2cedbe6e96c9][futility | pessimism]]
+** [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope]]
 * Trust facilitates many things.
   :PROPERTIES:
   :ID:       d8d3de1c-12fc-4848-9618-f3924c2edc3d

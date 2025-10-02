@@ -11,9 +11,15 @@
 ** [[id:d3da70ea-0752-403d-a8eb-ebda828b7b7d][desire]]
 ** [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][acceptance | realism]]
 ** [[id:ee3db6a1-1143-439c-8912-10fb2a4d3b8d][numbness]]
-* TODO merge with [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
-* Claude suggests [[id:c6d7e8b1-9c49-4d58-b4ec-2d660de58169][strategic under-optimization]].
-** feels like slack
+* I regret not being sufficiently relaxed.
+  :PROPERTIES:
+  :ID:       36822452-1306-402a-b914-d91e605e78e5
+  :END:
+** My going to lunch would have mean a lot to her.
+   :PROPERTIES:
+   :ID:       6f18380e-5fb5-44cd-8333-81fff7978442
+   :END:
+* [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
 * Is peace compatible with (consciously) optimizing peace?
 * [[id:20d36ee8-6f26-47ff-88cb-d85711027510][calm under stress]]
 * [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]]
@@ -85,3 +91,4 @@
   :PROPERTIES:
   :ID:       5ffd0819-1aae-4aac-9008-1acd99a12f25
   :END:
+* [[id:7122ba5b-76b3-44a0-bf03-700779bb32e4][double negative]]

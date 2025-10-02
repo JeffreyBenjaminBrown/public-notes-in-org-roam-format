@@ -5,6 +5,8 @@
 #+title: presence | impermanence | escape
 * neighbors
 ** [[id:9ec55e32-f974-479e-8295-7d9e30156684][awareness]]
+** [[id:80cfe814-fcc1-485b-955d-4a76fdef71e1][constraint]]
+* [[id:826b7dbe-1532-480c-92b4-182475947d20][Why am I sluggish to respond to warmth (smiles, etc)?]]
 * [[id:5e99170f-6c38-4705-bf3d-1b2cb9b95123][Escape yourself.]]
 * It is at least a culture.
   One evident in all kinds of music and movies.
@@ -84,3 +86,4 @@
 ** It can be good, encouraging honor, courage.
 ** It can also lead to recklessness.
 * [[id:9e98f2e3-4e64-4dce-a8a7-c31cc9e58f92][all sentient beings already have a pure Buddha-essence within themselves]]
+* [[id:39eb81c5-a014-4f7e-9f66-317e501b1f6e][emotional moderation]]

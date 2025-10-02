@@ -3,6 +3,8 @@
 :ROAM_ALIASES: Python
 :END:
 #+title: Python (programming language)
+* uv : better than pup, pyenc, ven, etc.
+  Brian or Arian recommended it.
 * TODO study this article on using Python as if it were Rust
   https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html
 * TODO use [[id:911bfaf0-5d29-40ab-8855-02b1c8f5f4f6][Pyright]]

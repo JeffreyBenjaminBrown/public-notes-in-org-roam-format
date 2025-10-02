@@ -32,3 +32,12 @@
 * [[id:daad763d-ae3f-4817-b02a-bf2a4e80f721][absurdity v. drama]]
 ** [[id:8c655869-1805-4eb2-ae83-d53b51e14b88][There can be no surprise without expectation.]]
 * [[id:acd7d143-7459-4771-925f-317bbaceaca6][legend]]
+* self-defeat
+  :PROPERTIES:
+  :ID:       40a6f0fe-373e-4cc8-94e5-744f54e4fecf
+  :END:
+** The (star student)'s attempt to stand out alienates the very people they intend to impress.
+   :PROPERTIES:
+   :ID:       c25ab406-f73f-405a-98b3-f98e1ee4c0f2
+   :END:
+   We the Jury, a passage in the grandmother's voice, paraphrased.

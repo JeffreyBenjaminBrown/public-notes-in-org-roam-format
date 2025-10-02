@@ -59,10 +59,3 @@
   :END:
 ** In code, "pitfall" could be more clearly expressed as "danger".
 * [[id:171d333c-3222-46a4-8e09-241c0b3062d3][to feel owed more adventures by {reality, oneself}]]
-* Refuse to feel and you are cut off.
-  :PROPERTIES:
-  :ID:       3c995b7c-5133-4513-a328-abb98c82b53c
-  :END:
-** Claude phrased it that way.
-   [[id:187d7e41-4a22-491e-b192-5670d7cdfb3a][2. **Power Implies Choice** × **Refuse to Feel and You're Cut Off**]]
-** instance: [[id:b01bfc2f-fb9d-4d70-afc8-093b1933d47c][cut off from the people who feel it]]

@@ -9,6 +9,122 @@
    because my code uses it, at least when spawning threads
 ** RESUME in ch 17 at
    https://doc.rust-lang.org/book/ch17-02-concurrency-with-async.html
+* TODO u, notes from studying on phone
+** Why can this closure use v without having received it as an argument?
+use std::thread;
+
+fn main() {
+    let v = vec![1, 2, 3];
+
+    let handle = thread::spawn(move || {
+        println!("Here's a vector: {v:?}");
+    });
+
+    handle.join().unwrap();
+}
+** Channels are directional
+*** To make one
+**** use std::sync::mpsc;
+
+               fn main() {
+                   let (tx, rx) = mpsc::channel();
+               }
+*** mpsc stands for multiple producer, single consumer.
+*** Send from.a.spawn to main thread
+**** use std::sync::mpsc;
+               use std::thread;
+
+               fn main() {
+                   let (tx, rx) = mpsc::channel();
+
+                   thread::spawn(move || {
+                       let val = String::from("hi");
+                       tx.send(val).unwrap();
+                   });
+
+                   let received = rx.recv().unwrap();
+                   println!("Got: {received}");
+               }
+*** recv blocks. try_recv really urns immediately,with success if a message is available
+** I got partway through 16-2, then deleted it somehow
+** more async
+*** Iterate over messages received from a channel
+**** Wait but that code is bad.
+***** And if the sending block uses 'move' then the tx will disappear once it finishes, which finally permits the Rx side to complete
+***** let tx_fut = async {
+                               let vals = vec![
+                                   String::from("hi"),
+                                   String::from("from"),
+                                   String::from("the"),
+                                   String::from("future"),
+                               ];
+
+                               for val in vals {
+                                   tx.send(val).unwrap();
+                                   trpl::sleep(Duration::from_millis(500)).await;
+                               }
+                           };
+
+                           let rx_fut = async {
+                               while let Some(value) = rx.recv().await {
+                                   println!("received '{value}'");
+                               }
+                           };
+
+                           trpl::join(tx_fut, rx_fut).await;
+***** To get the behavior we want, where the sleep delay happens between each message, we need to put the tx and rx operations in their own async blocks
+**** The rx.recv call produces a future, which we await. The runtime will pause the future until it is ready. Once a message arrives, the future will resolve to Some(message) as many times as a message arrives. When the channel closes, regardless of whether any messages have arrived, the future will instead resolve to None to indicate that there are no more values and thus we should stop polling—that is, stop awaiting.
+**** let (tx, mut rx) = trpl::channel();
+
+                       let vals = vec![
+                           String::from("hi"),
+                           String::from("from"),
+                           String::from("the"),
+                           String::from("future"),
+                       ];
+
+                       for val in vals {
+                           tx.send(val).unwrap();
+                           trpl::sleep(Duration::from_millis(500)).await;
+                       }
+
+                       while let Some(value) = rx.recv().await {
+                           println!("received '{value}'");
+                       }
+*** "run" dictates where you decide to block on some async code
+**** Note: Because all of this async code runs in an async block in a trpl::run call, everything within it can avoid blocking. However, the code outside it will block on the run function returning. That’s the whole point of the trpl::run function: it lets you choose where to block on some set of async code, and thus where to transition between sync and async code. In most async runtimes, run is actually named block_on for exactly this reason.
+*** To ensure main waits for a spawn to finish
+**** let handle = trpl::spawn_task(async {
+                           for i in 1..10 {
+                               println!("hi number {i} from the first task!");
+                               trpl::sleep(Duration::from_millis(500)).await;
+                           }
+                       });
+
+                       for i in 1..5 {
+                           println!("hi number {i} from the second task!");
+                           trpl::sleep(Duration::from_millis(500)).await;
+                       }
+
+                       handle.await.unwrap();
+*** Await in The following says the other thread can go once this is reached?
+**** use std::time::Duration;
+
+               fn main() {
+                   trpl::run(async {
+                       trpl::spawn_task(async {
+                           for i in 1..10 {
+                               println!("hi number {i} from the first task!");
+                               trpl::sleep(Duration::from_millis(500)).await;
+                           }
+                       });
+
+                       for i in 1..5 {
+                           println!("hi number {i} from the second task!");
+                           trpl::sleep(Duration::from_millis(500)).await;
+                       }
+                   });
+               }
 * TODO ? skipped
 ** [[id:489d77e6-1fca-4772-8d1b-71ec872aa0c1][lifetime elision rules]]
 * tooling

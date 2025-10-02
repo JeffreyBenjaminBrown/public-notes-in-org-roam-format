@@ -5,7 +5,13 @@
 #+title: emotion
 * recent, unmerged
 ** [[id:890fc33b-1247-459a-980f-6b3163f9bc1d][To focus on feelings feels paychedelic.]]
+* [[id:39eb81c5-a014-4f7e-9f66-317e501b1f6e][emotional moderation]]
 * [[id:2370c5e8-e713-4d6f-8d6c-32f9b55523e1][instances]] \ feelings
+* I yearn for intensity.
+  :PROPERTIES:
+  :ID:       ec129fe3-4389-487d-a50a-71a4b6ad6b24
+  :END:
+** [[id:3317d5a8-7f68-42eb-8aeb-d257b1ecff30][awake as a thin top]]
 * emotional logic, methods
   :PROPERTIES:
   :ID:       195f4d81-c0ff-4e61-9218-8a1a633db798

@@ -19,6 +19,7 @@
 ** [[id:e66faca5-8154-4852-9fe1-22c7815fdb6f][biodiversity]]
 ** [[id:e8594ff4-8ca0-44ea-a349-f16163c376a7][irony]]
 * unknowing
+** MERGE : [[id:3a21903e-c17b-491d-a093-b49b5a38794d][uncertainty]]
 ** doubts | hopes ,, epic
 *** [[id:6b340387-efbd-4959-a785-5ac196310c62][Free will (only) seems illusory.]]
 *** [[id:ba15c32b-c09d-4943-8f0a-c853a67c81f3][patriarchy]]
@@ -29,22 +30,11 @@
 **** [[id:9bc3df29-2c80-4743-a0d0-98b5ff1f6b16][I hope death is the supreme irony.]]
 *** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
 *** politics
+*** [[id:e293717f-27f0-47ed-be87-3e800afa6373][my doubts, personal]]
 ** [[id:27e8eac8-c5aa-464b-b34e-44589338931b][bias]]
 ** [[id:5954f6bc-e0cb-4084-96f8-935d6edf1913][scam | espionage]]
 ** [[id:c893937e-bca4-4a77-aa6c-ad481bf1d042][the limits of logic | information]]
-** contradiction
-   :PROPERTIES:
-   :ID:       7abaf6b7-7c59-4744-bddb-8a3bdfb11d8d
-   :END:
-*** see also
-**** [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]
-**** [[id:e8594ff4-8ca0-44ea-a349-f16163c376a7][irony]]
-*** Moderation can feel like contradiction.
-    :PROPERTIES:
-    :ID:       c091416d-a789-46d4-bb10-f64c2156a469
-    :END:
-**** e.g. [[id:bb1e7ff9-7b57-4ab2-976c-a3ef4ad41ba1][flirting through dance while watching the stage]]
-*** [[id:3fc56ebe-6405-476b-8270-7449ed75a413][Know and accept your contradictions, or change.]]
+** [[id:7abaf6b7-7c59-4744-bddb-8a3bdfb11d8d][contradiction | paradox]]
 ** mystery
    :PROPERTIES:
    :ID:       e428428f-c7cf-406e-b4ef-fa3ff5b17d5a
@@ -88,3 +78,6 @@
 ** [[id:dc735cdb-6166-4f57-b7aa-b537b1ecb98f][lost]]
 ** [[id:06e57867-5a5f-462b-b963-56ffa719c9b8][surprise]]
 ** [[id:e8594ff4-8ca0-44ea-a349-f16163c376a7][irony]]
+* [[id:a5f67f09-b1a6-49cc-a922-4c02885339a0][mortality pressure as reason for leisure]]
+* Eye contact is (infinite recursive) common knowledge.
+  You know they see you, you know they know it, ...

@@ -8,6 +8,9 @@
 ** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
 ** [[id:3a009c94-db3a-4707-933b-e6c9ba4d4fee][social skills]] , personal
 ** [[id:a04116d1-bd1a-4370-b036-1cbab3492281][channeling]] and [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
+   :PROPERTIES:
+   :ID:       e5694e0e-368e-4118-b19b-864671dcce0e
+   :END:
 * qualities
 ** [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness]]
 ** [[id:feb8cb2a-b057-48dd-836b-99985d9e7338][subtlety]]
@@ -56,6 +59,8 @@
 ** claude: [[id:acf93a8a-1e7c-4bc3-a712-cca457cc0967][The "Sexiness Constraint" as an optimization framework]]
    <2025-09-26 Fri>
 ** lots of stuff to avoid doing
-** Maybe balanced against that negativity, the stuff *to* do feels like magic, channeling.
-*** Like neo seeing through the matrix, the bad nothing before the good.
+** Maybe balanced against that negativity, the stuff *to* do feels like [[id:e5694e0e-368e-4118-b19b-864671dcce0e][magic, channeling]].
+*** Like Neo seeing through the matrix, the bad nothing before the good.
 * [[id:f179edc5-ca32-4348-8961-26d6c4f55ac3][Cutting off cynicism by declaring it boring feels sexy.]]
+* [[id:0180e344-0ac2-403c-8266-62cdd2e22068][reveal gradually]]
+* [[id:d5e61945-b23c-48b6-9eea-018a3da2d50a][laziness]]

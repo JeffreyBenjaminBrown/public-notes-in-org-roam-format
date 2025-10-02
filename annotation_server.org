@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       2daed6f3-a2e8-4f95-905e-52ecb5e6e4ee
+:END:
+#+title: annotation server
+These allow one website to comment on another,
+such that subscribed readers
+can see those annotations from their target.

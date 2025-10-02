@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c84d8ff7-030f-4ff1-9bdd-380f5304b235
+:END:
+#+title: make org-mode indentation changes less noisy
+* goal
+Can Emacs be configured such that if I change the indentation of headlines, and any of a headline's text body text was aligned to start before the first character (excluding the asterisks and whitespace thereafter) of the headline, then that headline's body text will not change its indentation?

@@ -8,13 +8,17 @@
 ** [[id:b288df19-c02e-42fa-a4b6-4cd3c0162e52][self-respect]]
 ** [[id:5c1dc0d8-b3a2-4dae-9c2d-7bda2d9789c0][dance]]
 ** TODO merge with [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
+* [#A] an important linguistic note
+  One sense of romance, as in "romancing the throne",
+  is simply trying to become close to someone.
 * linguistics nearby
 ** romance
-   has two senses in English
-*** the pursuit of romantic love
-*** a sense of awe
+   has numerous senses in English
+*** intimacy
+*** pursuit
+*** awe
 ** mate
-   has two meanings (romance and chess),
+   as a verb, has two meanings (from romance and from chess)
    but both can mean "select future equilibrium".
 * Humility -> courage \\ in romance.
   :PROPERTIES:

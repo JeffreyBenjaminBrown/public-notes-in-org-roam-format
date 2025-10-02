@@ -7,6 +7,9 @@
   :PROPERTIES:
   :ID:       77f2a3f7-0689-4ece-bf28-a7e708c6a84b
   :END:
+* interesting kinds
+** [[id:39eb81c5-a014-4f7e-9f66-317e501b1f6e][emotional moderation]]
+** [[id:9bfea9d6-eb20-47b4-b6f0-ea09b4524a12][moderation of optimization]]
 * [[id:c091416d-a789-46d4-bb10-f64c2156a469][Moderation can feel like contradiction.]]
 * [[id:a2329b60-bbcf-4291-b636-9820ddaa02f7][Honor your word. Do not give it lightly.]]
 * [[id:1d8be58f-a579-4e4c-a145-8c349db58514][Resist peer pressure.]]
@@ -30,3 +33,4 @@
   :PROPERTIES:
   :ID:       d7568934-fe2e-4606-b96d-be8d7f6b50c8
   :END:
+* [[id:24d6df8e-d78e-46da-9261-1994c62e5061][Is too much self-awareness bad?]]

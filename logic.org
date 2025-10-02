@@ -72,9 +72,10 @@
   :END:
 ** "I am only two branches of the metaphor."
 * endogeneity
-  :PROPERTIES:
-  :ID:       021bc0fa-7ec5-4f31-8156-9bcf18a2f4af
-  :END:
+:PROPERTIES:
+:ID:       021bc0fa-7ec5-4f31-8156-9bcf18a2f4af
+:ROAM_ALIASES: boostrap ouroboros Ouroboros
+:END:
 ** [[id:5e99170f-6c38-4705-bf3d-1b2cb9b95123][Escape yourself.]]
 ** [[id:69231ffa-db6f-4df7-b663-9e6ef7582a05][It grew from itself, explaining as it handed time to the next generation, "There are glitches that let you see the future."]]
 * [[id:a5b5621c-70f4-44e8-9420-b732c26e2e13][scientific agent loop]]

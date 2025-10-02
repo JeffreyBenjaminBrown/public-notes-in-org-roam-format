@@ -4,7 +4,9 @@
 #+title: irony
 * see also
 ** [[id:7abaf6b7-7c59-4744-bddb-8a3bdfb11d8d][contradiction]]
+** [[id:1259195a-a1a7-4249-b026-adaaa92f5e7e][tragedies]]
 * [[id:dfa2dace-2441-460a-a25f-32fc2233cf08][Secrets can be obscure without hiding.]]
+* [[id:40a6f0fe-373e-4cc8-94e5-744f54e4fecf][self-defeat]]
 * [[id:b73e838b-17fb-4048-aacb-9d0f1fac3a9b][to appreciate someone without expressing it]]
 * [[id:afecc0bb-68d0-4bc5-a656-f277a9a830db][justice & irony]]
 * [[id:d3ec5d13-3bb8-4104-8436-10c04c96724c][absurdity & irony]]

@@ -3,10 +3,12 @@
 :ROAM_ALIASES: freedom independence
 :END:
 #+title: freedom | independence
+* [[id:80cfe814-fcc1-485b-955d-4a76fdef71e1][constraint]]
 * Freedom > independence.
   Independence is that your choices are not impinged by someone.
   Freedom is about the set of possible choices.
   e.g. [[id:4ab66dd2-71c7-4afe-a7ee-bd6b34b6fc8d][in the worst case only art]].
+* [[id:413c6cce-ae3d-42c2-b2c8-c0b71ddbd935][Recognize sunk costs.]]
 * [[id:4ab66dd2-71c7-4afe-a7ee-bd6b34b6fc8d][Art is a floor on freedom.]]
 * [[id:2e75b219-6f4c-427f-9f61-13f618fd0e80][safety]]
 * a few kinds
@@ -35,6 +37,7 @@
   :END:
 ** to offer and receive love without having to promise, or wanting a promise of, even a likelihood of exclusivity
 * against [[id:ba15c32b-c09d-4943-8f0a-c853a67c81f3][patriarchy]]
+* [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
 * far out
 ** [[id:a71544ad-52ba-4626-9bf1-8f2f480c2575][To vow poverty because even then you have a mind-blowingly hard time being humble.]]
 ** At any second able to think your way out.

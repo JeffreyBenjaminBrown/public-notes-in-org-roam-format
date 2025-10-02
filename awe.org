@@ -3,10 +3,15 @@
 :ROAM_ALIASES: awe wonder amazement
 :END:
 #+title: awe | wonder
-* another ID
+* extra ID
   :PROPERTIES:
   :ID:       792aec5d-797b-4ff7-bc48-ea814d22c4a1
   :END:
+* neighbor: [[id:3a21903e-c17b-491d-a093-b49b5a38794d][confusion]]
+** "[[id:e10fa73d-723f-4772-99d9-2ece218d4175][Beauty as the interface between the comprehensible and the incomprehensible]]"
+   :PROPERTIES:
+   :ID:       6b0f461e-9591-402e-8372-ef3692eeaf02
+   :END:
 * [[id:858021f5-8474-4490-b30e-371159e35db6][Consciousness => every moment is amazing.]]
 * some awe-inspiring things
 ** [[id:97129402-46bc-41ea-91f6-6a7faae61a79][I am nothing before the world.]]
@@ -22,10 +27,6 @@
   :END:
   And to help them amaze themselves,
   and to be so helped.
-* "[[id:e10fa73d-723f-4772-99d9-2ece218d4175][Beauty as the interface between the comprehensible and the incomprehensible]]"
-  :PROPERTIES:
-  :ID:       6b0f461e-9591-402e-8372-ef3692eeaf02
-  :END:
 * maybe see also
 ** the [[id:c0670a96-666b-4ebb-a2a6-42e83067f39d][sublime]]
 ** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]

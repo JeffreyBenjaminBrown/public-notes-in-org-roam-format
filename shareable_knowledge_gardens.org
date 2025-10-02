@@ -12,6 +12,8 @@
    :PROPERTIES:
    :ID:       9cd06bec-49d2-49fa-8d2b-59ff0cffde46
    :END:
+*** if another in the see-also contains this one, maybe can omit it
+    or let it be seen through the containing link
 ** [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
 ** [[id:41844d8a-f352-4e2d-8ba3-3c83b2dd2ac3][osc-gen]]
 ** DONE FOR NOW : reviewed <2025-08-30 Sat>
@@ -20,6 +22,8 @@
     :PROPERTIES:
     :ID:       1df9170f-7044-488f-bf66-5a2c38f309d3
     :END:
+* Some graphs do not want to pollute what they link to
+  by being in the backlinks view.
 * refs
 ** mine for others
 *** The readme on Github is clearer than these notes.
@@ -35,10 +39,80 @@
      It is thinking without specialization, with complete freedom.
 **** Mindmapping can look distant from work.
      Thinking about a lot of things you can't change can look impractical. The change is in you.
-* likely heralds
-  make available to user
-  question
-* Should the nodes that shout 'read me first' be marked 'readme'?
+* unsorted
+** Link content filters because, e.g., the ternary shows-because relationship.
+*** the shows-because relationship
+    A shows B because B contains C.
+*** the filter
+    I want a container A with a link to B to have an optional filter onto B's content, such that what passes the filter shows as B's content.
+*** The ternary nature of the relationship can usually be disregarded.
+    One could simply talk about the link source showing some of the link content.
+    This only becomes a ternary relationship when we consider that the link
+    is only meaningful in relation to its context A.
+    That ternary nature *does* need explicit representation in TypeDB
+    if the user wants the filter to depend on which of multiple containers
+    the link appears in. That's a violation of the expected use.
+    It's also unnecessary. Multiple nodes whose content is that link
+    can instead be made, and I think they probably should.
+    If viewing their distinct content at once is desired,
+    it's easy to collect all links with the same target in one view.
+** Children where they shouldn't belong should be handed to a node more containerward.
+   e.g. children of an alias.
+   rather than being ignored
+** The pre-indendation, like the body, means "blocks children for reader".
+*** [[id:93eeb370-9f9c-4375-957d-91aab39007ee][It's simpler than it looks.]]
+*** two org passages that parse equivalently
+**** Punchline: Some information can be discarded.
+     :PROPERTIES:
+     :ID:       93eeb370-9f9c-4375-957d-91aab39007ee
+     :END:
+**** the two passages
+***** uniform pre-indentation
+      * 1
+        body
+      *** 2
+      *** 3
+      ** 4
+***** jagged pre-indendation
+      * 1
+        body
+      **** 2     # Too many stars! The extra is ignored.
+      *** 3
+      ** 4
+**** what they both parse to
+      * 1
+      ** BLOCKING READER body
+      ** BLOCKING READER 2
+      ** BLOCKING READER 3
+      ** 4
+**** If someone cuts one and then pastes it away from the blockers
+***** Emacs will have to say something.
+***** It would be cool if the blocking herald
+      flashed a few times and then disappeared.
+*** how
+    How they should parse: The body is the first child. The child headline after it is the second child. Only its title blocks reading the list of children; the rest of it can be folded, and it can have tree content (unlike the org-body). So on for each of the others. If the level of pre-indentation changes, there is no change in its treatment.
+*** Requires reader cooperation!
+*** herald 'u'?
+** ~ should be 'is very fundamentall related to'
+*** could use ~~ for less so
+*** Any instance of either could be refined using more characters later.
+** Will need "show all relationships".
+*** ~}, ~aliases, ..
+    prefixed heralds with (~) for 'non-content relationship' midparent.
+    where ~x means 'in relation x to parent'
+** likely heralds
+   make available to user
+   question
+** Have you been collecting data for a future explosion*?
+   explosive integration experioence?
+** Backlinks should be absorbable into content
+*** why
+    Backlinks are relationships as yet
+    unclassified from the target's perspective.
+*** how
+    whereupon they show up no longer as backlinks,
+    or at least all that have been absorbed into content
+    show in the backlinks in a folded branch called that.
 * motivation and soul-searching for skg
 ** [[id:320e5181-cf0d-48bf-b024-d0e6c4c309c2][Do I fear personal integration?]]
 ** Do I fear human superintelligence?
@@ -65,16 +139,19 @@
 **** example : It's hard to include "human" in my tree.
      I really want it to be a tag that doesn't interfere with the tree.
 ** [[id:edb446e2-fdf0-4917-ae6c-e4afd912499e][Am I being realistic?]]
-* Have you been collecting data for a future explosion*?
-  explosive integration experioence?
 * technical
 ** PITFALL | REMEMBER : Avoid complex data structures in Emacs.
    Emacs seems best for buffer text.
    That text's properties can encode anything I need.
    All other logic, including types, should be in Rust.
+    These allow one website to comment on another,
+    such that subscribed readers
+    can see those annotations from their target.
 ** ?
 *** formalize the translation from emacs to graph operations
     Haskellers might want to help.
+*** cyclic subscriptions
+    They do not seem problematic!
 *** What would help me feel less dumb with my notes?
 **** a [[id:59e54472-f770-437d-bc36-323928dd3352][linked to in container]] herald
 *** Help [[id:e114b8ed-e85c-41f3-b972-45b23ab5b8d5][the writer guide the reader]].
@@ -146,6 +223,7 @@
      and if the title includes links,
      show them, rather than showing the whole title as one link.
 *** [[id:4df374c9-658c-440b-b520-2298f316c176][recursion schemes can be done in Rust]]
+*** cool idea: [[id:2daed6f3-a2e8-4f95-905e-52ecb5e6e4ee][annotation server]]
 ** pressing*
    * = org-roam transplant first needs
 *** [#B] easy
@@ -158,11 +236,6 @@
      They will probably want to bury most of the nodes so marked underneath one such node, to avoid clutter.
 **** make links
      The choice of what to call the link should be offered when the link is placed, not when its id is selected. That way the menu of aliases can depend on the place.
-**** from title search to content view
-***** plans, maybe obvious
-****** Title search should yield an org-buffer with headings.
-       Each hit should be a root.
-       The text above the first root can indicate what the buffer is.
 **** hide content | omits-some-content herald: "{+"
      :PROPERTIES:
      :ID:       324f020b-1145-4279-a87a-02c96dce7a30
@@ -192,6 +265,9 @@
            # here I would like to be able to show a 1 count, for the child of "experiences" that starts "a completely left-field ..."
 ******* [[id:dec78208-aed2-4c2d-b23a-d7af870b91a7][source]]
 **** org buffers with multiple roots
+     :PROPERTIES:
+     :ID:       ba8fbc06-bb9c-4d69-bb1c-34cd1f80fdf4
+     :END:
 ***** immediate fix: track the root, re-request it
 ***** bigger fix: consider multiple roots
       Rather passing around only a single list of FileNodes,
@@ -304,6 +380,7 @@
     Divide recursively until at "no-punctuation atoms". If an atom doesn't exist, make it. If there were brackets around an atom, remove them. If the atom was part of a list in the brackets before outer punctuation, create similar relationships for each member. Then create the meta-relationships, the 2-meta-relationships, etc. until consuming the "no isolated periods" sentence.
     Preserve the original text from which the relationships were made. The user can change the parse, e.g. that a period should have bound first rather than last, by adding brackets with a number between the first two, which are different in case they will need a precedence. () has precedence 1, (( )) precedence 2, ([ ]) also precedence 2, but (0( )) has precedence 0, and precedence can go negative.
     Would I have a use for ([ )]?
+*** [[id:c84d8ff7-030f-4ff1-9bdd-380f5304b235][make org-mode indentation changes less noisy]]
 ** outreach / [[id:b06251ae-3ed5-4805-a5f4-d98557fa7754][explaining skg]]
 ** outreach / [[id:0ec06d86-92c1-4690-ab27-eaa1520aaf8e][non-obvious implied features]]
 ** dubious

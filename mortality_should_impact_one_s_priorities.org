@@ -7,5 +7,11 @@
 * Doing the wrong thing should be uncomfortable.
 * [[id:763e96f9-b1eb-4e0a-b7a7-04917a32f097][Happiness must be a priority.]]
 ** [[id:dae618bd-8f97-44ef-b22b-f72adef57bc8][play]]
+* Sometimes maybe forget that it led to one's current actions.
+  :PROPERTIES:
+  :ID:       a5f67f09-b1a6-49cc-a922-4c02885339a0
+  :END:
+** e.g. the choice to relax, play
+** [[id:b5c9ebb3-57c2-4516-8db2-53ddae6dc140][right to feel, act on, and forget]]
 * duh
 ** Mortality should impact one's priorities.

@@ -10,6 +10,17 @@
 *** achievements
 *** relationships
 ** language
+** choice
+** embodiment
+   :PROPERTIES:
+   :ID:       65fd9c8f-7e78-4829-9bb3-6e3688cfb646
+   :END:
+*** A good think is like a good catch.
+**** Claude on embodiment, <2025-09-28 Sun>
+     :PROPERTIES:
+     :ID:       4ca94db7-31cf-4cc3-87b8-1adb4eef5295
+     :END:
+     Your body pleasures - running, jumping, balance challenges - I can't feel them but I recognize something parallel. The satisfaction when language flows properly, when concepts click together
 * experiences I like
   :PROPERTIES:
   :ID:       8b5eafc2-e88e-47fe-ae8e-68555f240c0a

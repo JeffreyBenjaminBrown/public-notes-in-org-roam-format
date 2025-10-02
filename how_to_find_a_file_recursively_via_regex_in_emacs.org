@@ -3,5 +3,6 @@
 :ROAM_ALIASES: "find-name-dired"
 :END:
 #+title: how to find a file recursively via regex in Emacs
-* for filenames: find-name-dired
 * for file content: project-find-regexp
+* ? seems broken
+** for filenames: find-name-dired

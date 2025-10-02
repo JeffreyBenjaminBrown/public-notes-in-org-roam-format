@@ -6,3 +6,6 @@
 * [[id:d5798b5d-f47e-49da-8df2-0a2d5f675b3a][Is human nature irrelevant?]]
 * [[id:2d9f3e3e-065f-4256-915a-84711832da5c][scientifically meaningless questions]]
 * [[id:eb5b3bb1-891b-4a2c-a861-474a311e7275][Philosophy seems useless to me.]]
+* (? symbolic) errors
+** Treating terms like questions, problems.
+** Treating answers like questions.

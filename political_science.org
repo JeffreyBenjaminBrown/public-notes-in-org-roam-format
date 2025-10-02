@@ -19,3 +19,5 @@
 * [[id:dbd8e69f-2a09-4edc-b52d-14be842a54de][democracy]]
 * [[id:21577208-ba52-4105-8884-355fa27f128f][public influence]]
 * [[id:183704bd-596f-472b-ab53-9e7af0e50fab][Politics are irrational.]]
+* centrism
+** [[id:f8b696de-11f0-4ff1-b597-b8e17ea0e575][Rates of support for political violence on the left and the right are equally low.]]

@@ -133,3 +133,13 @@
 **** considerable number of other axiomatic bases for PC, each having all the above properties, are known. The task of proving that they have these properties belongs to metalogic.
 **** PM is the system of PC developed by Whitehead and Russell
 **** It is strongly complete if the addition to it (as an extra axiom) of any WFF whatever that is not already a theorem would make the system inconsistent. Finally, an axiom or transformation rule is independent (in a given axiomatic system) if it cannot be derived from the remainder of the axiomatic basis (or—which comes to the same thing—if its omission from the basis would make the derivation of certain theorems impossible). It can, moreover, be shown that PM is consistent and strongly complete and that each of its axioms and transformation rules is independent
+* paraconsistent logics
+** meh
+   The idea looks unsatisfying and hard to use.
+** what it means
+   I say "logics" because there seem to be competing theories,
+   none widely accepted.
+   Paraconsistent logic weaken the rules of inference,
+   so that A ^ -A does not imply anything,
+** motivation
+   It allows one to reason from inconsistent premises.

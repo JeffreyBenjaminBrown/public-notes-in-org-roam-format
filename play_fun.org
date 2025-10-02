@@ -48,3 +48,14 @@
 * "Play is explicitly recognized in Article 31 of the Convention on the Rights of the Child" by the UN
   wikipedia on play, <2025-07-09 Wed>
 * Synthesize [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety and surprise]].
+* gambling
+  :PROPERTIES:
+  :ID:       195adeee-dc48-4aa1-9e88-0c33a225b583
+  :END:
+** aspects
+*** [[id:3a21903e-c17b-491d-a093-b49b5a38794d][uncertainty]]
+*** [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope]]
+*** [[id:9dfe3d8a-f236-4390-9c37-2cedbe6e96c9][futility | pessimism]]
+*** [[id:8b0040c0-243b-43d4-8cc8-e9b3ffb35180][comfort]]
+    The promise of it.
+    Easy money.

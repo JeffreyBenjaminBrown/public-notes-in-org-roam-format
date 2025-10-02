@@ -6,6 +6,10 @@
 ** [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-consciousness]]
 ** [[id:2337a584-9297-4087-9664-a10dbeeafca3][confession]]
 * [[id:1948b463-df60-40b6-b6f8-1bc25b648775][weird awkward nonresponse]]
+* It signals misaligned models between people.
+  :PROPERTIES:
+  :ID:       39fea08a-b96f-4ce9-8610-be077be5f70c
+  :END:
 * [[id:0a3333bc-3692-409b-9ba6-2b2c41ea9324][Awkwardness is funny.]]
 * oversharing
 ** see also [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]

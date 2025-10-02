@@ -20,6 +20,10 @@
 ** [[id:ec35b479-a37e-498d-a81f-b898c4a51552][self-harm]]
 ** [[id:227c3af6-14fc-42b2-a1ff-76313149a746][denial]]
 ** [[id:04fc0958-39b6-450b-8880-a794f2d2bf63][rationalization]]
+* futility | pessimism
+  :PROPERTIES:
+  :ID:       9dfe3d8a-f236-4390-9c37-2cedbe6e96c9
+  :END:
 * nihilism | cynicism
 :PROPERTIES:
 :ID:       27f9e7f9-f2d4-48f2-80f9-d3443080681f
@@ -45,3 +49,14 @@
     :PROPERTIES:
     :ID:       f179edc5-ca32-4348-8961-26d6c4f55ac3
     :END:
+** It fuels [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][ego]]tism.
+* double negative
+  :PROPERTIES:
+  :ID:       7122ba5b-76b3-44a0-bf03-700779bb32e4
+  :END:
+** Neither the rich nor the poor can know how the other feels.
+*** [[id:7028da5f-ca11-4d40-9228-4c5f3816db68][And yet we are one.]]
+** Microdefenses seem helpful, yet microaggressions I don't see.
+   Surely a function of who I'm with,
+   more than that I don't bring them out in people
+   (or cause them to suppress them).

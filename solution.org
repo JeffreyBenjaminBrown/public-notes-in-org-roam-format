@@ -6,8 +6,14 @@
 * see also
 ** [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][realism]]
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
+* [[id:195adeee-dc48-4aa1-9e88-0c33a225b583][gambling]]
 * [[id:a91350ce-7a84-4be6-a4f3-6c174ae8abea][how to prioritize tasks]]
-* [[id:b0a80dfd-0fbf-4ba7-b9b7-6ec65d2619fa][overoptimisation v. mental peace]]
+* moderation of optimization
+  :PROPERTIES:
+  :ID:       9bfea9d6-eb20-47b4-b6f0-ea09b4524a12
+  :END:
+** feels like slack
+** [[id:b0a80dfd-0fbf-4ba7-b9b7-6ec65d2619fa][overoptimisation v. mental peace]]
 * Beware perfectionism.
   :PROPERTIES:
   :ID:       d59f21b1-2b7d-40e7-8f98-739c366b8280
@@ -21,6 +27,7 @@
 ** Music is better for flow than podcasts.
    Music lets you move between intellectually demanding tasks and easy ones without interrupting the stream.
 ** [[id:8111ad4a-2b92-4899-beca-3a66b6cb3ce9][Being present with someone is special.]]
+** [[id:24d6df8e-d78e-46da-9261-1994c62e5061][Is too much self-awareness bad?]]
 * anti-neighbors
 ** [[id:594df21f-51c9-485c-85a1-cf943f325219][irrationality , inconsistency]]
 ** [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaninglessness | pointlessness]]

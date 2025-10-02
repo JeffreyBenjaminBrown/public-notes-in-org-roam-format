@@ -16,7 +16,9 @@
     :END:
 **** It comes too much at the exclusion of friends.
 **** It is too revealing.
+**** It can make the world seem ugly or scary to her.
 *** Don't reveal where I live, just invite somewhere.
+*** how to invite people [[id:36bab949-7b71-4761-953f-f9e8e8e16fe2][to campaign events]]
 ** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
 * problems | constraints
 ** [[id:9d3a6c74-b537-45c2-be1f-5810374851e8][mortality pressure]] -> exclusivity
@@ -62,8 +64,17 @@
 :ID:       09fd57db-4e26-4e5f-962b-2ed21ecca04b
 :ROAM_ALIASES: gradualism incrementalism
 :END:
-** [[id:6bf97be0-39be-4748-b44e-d9f67667009f][Don't reveal a common interest too soon if there is prejudice.]]
+** reveal gradually
+   :PROPERTIES:
+   :ID:       0180e344-0ac2-403c-8266-62cdd2e22068
+   :END:
+*** [[id:6bf97be0-39be-4748-b44e-d9f67667009f][Don't reveal a common interest too soon if there is prejudice.]]
+*** Don't collapse the discovery experience.
+    i.e. don't state too much detail up front.
 * appreciative, not pursuant
+  :PROPERTIES:
+  :ID:       65135c08-8490-4046-bf07-c3eaf15c76e4
+  :END:
 * Its [[id:2668c748-5d51-48e5-b0ef-86757aa01f4a][learning processes are interesting.]]
 ** "socialization" = learning social skills
 * DONE abandonded

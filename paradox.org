@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       7abaf6b7-7c59-4744-bddb-8a3bdfb11d8d
+:ROAM_ALIASES: contradiction paradox
+:END:
+#+title: contradiction | paradox
+* MERGE: [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]
+* see also
+** [[id:e8594ff4-8ca0-44ea-a349-f16163c376a7][irony]]
+* Moderation can feel like contradiction.
+  :PROPERTIES:
+  :ID:       c091416d-a789-46d4-bb10-f64c2156a469
+  :END:
+** e.g. [[id:bb1e7ff9-7b57-4ab2-976c-a3ef4ad41ba1][flirting through dance while watching the stage]]
+* [[id:3fc56ebe-6405-476b-8270-7449ed75a413][Know and accept your contradictions, or change.]]
+* [[id:9bfea9d6-eb20-47b4-b6f0-ea09b4524a12][moderation of optimization]]

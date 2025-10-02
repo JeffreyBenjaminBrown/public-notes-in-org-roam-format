@@ -2,7 +2,7 @@
 :ID:       7b2499c4-4c93-44dc-83b1-0a4b9175d6a8
 :ROAM_ALIASES: "skg / backward view" "containerward view \ skg"
 :END:
-#+title: skg / containerward view
+#+title: skg / backward views
 * four kinds:
 ** "these link to it"
    :PROPERTIES:

@@ -3,6 +3,10 @@
 :ROAM_ALIASES: Emacs
 :END:
 #+title: Emacs (programamble text editor)
+* TODO bugs I've run into
+** TODO collect here
+** strategies
+*** [[id:b2f2afd9-4d20-454f-9c61-8974ef675c24][run Emacs under GDB]]
 * PITFALL: Variable names in a function carry into a function it calls, if that called function has no definition to mask the name.
 * [[id:3844ba4b-ad9b-4ff5-aa09-528d62ff9d7f][randomize the order of some org branches, how to]]
 * [[id:b2f2afd9-4d20-454f-9c61-8974ef675c24][run Emacs under GDB]]

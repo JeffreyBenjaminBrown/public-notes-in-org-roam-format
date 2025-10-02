@@ -4,6 +4,8 @@
 :END:
 #+title: diffs in skg
 = git diff views, both personal and when viewing others' data
+* When deleted siblings went to a new common place,
+  the diff view should group those deletions under a midparent indicating the new common parent
 * "flat org diff" : for private lenses onto public [[id:08d6887d-8a86-4906-8ab3-6d93217de0fd][flat-org]] files
   :PROPERTIES:
   :ID:       38d2c92e-3ba0-46ca-bf32-756d59bea448

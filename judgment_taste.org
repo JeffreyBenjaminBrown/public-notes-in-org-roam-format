@@ -3,6 +3,7 @@
 :ROAM_ALIASES: style judgment taste wisdom
 :END:
 #+title: judgment | wisdom | taste
+* [[id:27e8eac8-c5aa-464b-b34e-44589338931b][bias]]
 * [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
 * [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]]
 * [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]]

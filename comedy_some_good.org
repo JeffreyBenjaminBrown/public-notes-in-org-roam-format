@@ -90,6 +90,7 @@
 * Ryan Long
 * Shane Gillis
 * Simeon Goodson
+* Steven Wright - dry one liners, Parker rec'd
 * Tan Barbaclo - my mom is turning into me
 * Tatiana Frank
 * Trae Crowder -- Southern

@@ -10,6 +10,13 @@
 ** [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
 ** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
 ** I believe [[id:7524f42b-9db0-4531-a21d-57df5954a34e][knowledge graphs enhance self-awareness.]]
+* Is too much self-awareness bad?
+  :PROPERTIES:
+  :ID:       24d6df8e-d78e-46da-9261-1994c62e5061
+  :END:
+** [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+** Self-consciousness (bad) differs from excess self-awareness.
+   One can be self-conscious without being self-aware.
 * Know [[id:5e7bfc83-f31b-45b4-bd3b-83d73123c662][my temptations]]
 * [[id:6dcc3016-fb6b-4718-9098-f508fe0b1639][social anxieties]]
 * social | self-consciousness

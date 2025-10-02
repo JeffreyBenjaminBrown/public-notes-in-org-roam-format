@@ -3,6 +3,7 @@
 :ROAM_ALIASES: patience discipline self-control
 :END:
 #+title: discipline | patience | self-control
+* merge: [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]] [[id:a55842c2-536e-4581-b04b-026715e646d1][duty]] [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]] [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][discipline]]
 * extra ID
 :PROPERTIES:
 :ID:       d7d8d66e-24b4-4f53-aa98-0d6707b26254
@@ -45,3 +46,8 @@
 * [[id:bb4d7add-0f2d-4367-89da-429dbf550a8b][Train the awareness to be unmoved by temptation.]]
 * [[id:c2decf8f-87a5-41e0-86c6-a5633566acc6][peaceful motivation]]
 * [[id:7aef35f2-43a8-4376-b31a-379da833254e][stoicism]]
+* erotic patience
+  :PROPERTIES:
+  :ID:       f26aa8fe-1dde-4024-82ec-20b247aab0f7
+  :END:
+** [[id:0180e344-0ac2-403c-8266-62cdd2e22068][reveal gradually]]

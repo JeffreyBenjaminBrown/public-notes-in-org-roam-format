@@ -4,3 +4,8 @@
 #+title: romance + tragedy
 * [[id:cfb978fb-1478-446e-9545-92a6fd17ac50][Beware encouragement of bad behavior.]]
 * [[id:b73e838b-17fb-4048-aacb-9d0f1fac3a9b][to appreciate someone without expressing it]]
+* desire without empathy
+  :PROPERTIES:
+  :ID:       656d79c9-941c-45f4-b3e4-4941ceca580d
+  :END:
+** [[id:c25ab406-f73f-405a-98b3-f98e1ee4c0f2][The (star student)'s attempt to stand out alienates the very people they intend to impress.]]

@@ -6,6 +6,10 @@
 ** [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
 ** [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]] (application)
 ** [[id:31341f45-3d93-4f9c-88c6-70990e0f05e4][why write]]
+* u
+** You should think in writing. And you should merge your writing with others's.
+* counterarguments
+** [[id:24d6df8e-d78e-46da-9261-1994c62e5061][Is too much self-awareness bad?]]
 * Org etc. are a futuristic, artistic way to organize thought.
 ** The artistic part is the freedom one enjoys/confronts when choosing the categories and other structure of a tree.
 * [[id:7524f42b-9db0-4531-a21d-57df5954a34e][Knowledge graphs enhance self-awareness.]]

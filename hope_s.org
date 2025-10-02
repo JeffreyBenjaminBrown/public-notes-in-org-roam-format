@@ -3,6 +3,7 @@
 :ROAM_ALIASES: motivations
 :END:
 #+title: hope
+* MERGE: [[id:8d5c9418-f228-4595-b423-05acd9921b10][optimism]]
 * [[id:99d42cca-e03f-4d44-b383-4cf5107bfeff][hope & ambition]]
 ** [[id:b29b28ac-ab9a-4aac-b002-5a8991855adb][Hope is a skill.]]
 * [[id:3fc5e1c7-4539-4861-bb5c-de055da413eb][hope & jobhunting]]

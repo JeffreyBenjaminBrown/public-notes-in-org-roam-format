@@ -3,6 +3,19 @@
 :END:
 #+title: empathy
 * = understanding people
+* The best art for studying empathy, probably, are novels with a diverse. realistic set of characters.
+  :PROPERTIES:
+  :ID:       cd901214-ae81-4976-a44c-e9a528e133f7
+  :END:
+** candidates
+*** Middlemarch by George Elliot
+*** more by Robert Rothstein
+* I have never seen evil that could not be explained with some degree of love.
+  :PROPERTIES:
+  :ID:       13b7c3bb-a47f-4dc6-9a76-8f443e417b44
+  :END:
+  Although in some cases the explanation seemed easily falsifiable,
+  and I did not try.
 * hard question : What do I not know about others?
 * [[id:508f4247-41b1-476a-afd7-c15cbc9e460a][Empathize before (and while!) confronting.]]
 * [[id:fa615844-39a9-4f57-8758-4fea2dcdec31][people as priority]]
@@ -26,3 +39,6 @@
 ** [[id:c238024d-5dfc-4df3-aae1-acef3d8b90bd][Excise my urge to change others.]]
 * [[id:0de6a57e-7d2d-41f3-a776-e53ac67ba727][empathy v. communication]]
 * [[id:786eebcb-c64d-4cf4-8448-76def28fd7e0][attribution]]
+* [[id:39fea08a-b96f-4ce9-8610-be077be5f70c][Awkwardness signals misaligned models between people.]]
+* empathy & music
+** [[id:f5b7d005-e73e-4a3a-9d51-e4abc1ba8efb][(rap) battles with mimicry]]

@@ -28,3 +28,5 @@
 * useful if you live here
 ** [[id:c558d4f5-b34a-4e76-9ca5-efb5e73c23b2][international shipping into Colombia]]
 ** [[id:e9c13a84-0151-4df5-bb49-af5e4bda6ab0][finding postal|zip codes in Colombia]]
+* places I want to go
+** [[id:b63461e2-6a04-420b-96f9-3d854186a85d][Leticia, trip planned <2025-04-12 Sat>]]

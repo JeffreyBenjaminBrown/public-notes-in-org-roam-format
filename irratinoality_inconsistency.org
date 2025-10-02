@@ -10,6 +10,7 @@
    And some acts are for the experience, not the outcome.
 ** [(memory) context] sensitivity
    All of what you do depends on what you are aware of, and some acts might contradict others taken while aware of other things.
+* [[id:49128bc1-c962-4873-9b41-f9c67c1224b4][Sometimes I feel like Im' making a mistake.]]
 * [[id:e4963ae5-c8ed-4cca-939b-9c1c97b68e39][reluctance to start an enjoyable thing]]
 * For beliefs re. payoffs to often change radically looks irrational.
   :PROPERTIES:

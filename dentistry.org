@@ -2,5 +2,11 @@
 :ID:       fab126ab-39d1-4171-a946-ac9bf92ebec4
 :END:
 #+title: dentistry
-* [[id:bcbbc912-275d-46d5-9634-7486cbe4f1a0][Dr. Pelaez (dentist)]]
-* [[id:64d9e573-4201-41a3-81e2-deca896a600d][dentistry with the Contraloría]]
+* Chew hard foods.
+  :PROPERTIES:
+  :ID:       548799f0-8cbd-4bf7-b131-c5281c1aadc6
+  :END:
+  ChatGPT agrees with James Nestor that it has good effects.
+* providers
+** [[id:bcbbc912-275d-46d5-9634-7486cbe4f1a0][Dr. Pelaez (dentist)]]
+** [[id:64d9e573-4201-41a3-81e2-deca896a600d][dentistry with the Contraloría]]
