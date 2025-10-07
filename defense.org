@@ -20,3 +20,8 @@
 * Deception and uncertainty can both explain question-dodging.
 ** [[id:5ab7ee1e-1742-44a6-8ef7-b49ad0cbab1a][intent as posterior construction]]
 *** [[id:bc97d5f4-5538-4310-8edb-e056c613215b][Someone's undecidedness on a sensitive topic could be honest cowardice.]]
+* In conversation, don't let the subject change so fast it confuses.
+  :PROPERTIES:
+  :ID:       f7f3be5e-0901-4892-bd12-fb3821ed308a
+  :END:
+  inc. confusing myself

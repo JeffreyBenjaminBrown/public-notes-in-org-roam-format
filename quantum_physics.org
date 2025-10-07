@@ -3,6 +3,14 @@
 :END:
 #+title: quantum physics
 * [[id:5a52fd0b-cd38-450a-a44b-9643c17c7352][Limiting certainty has quantum effects.]]
+* "ordinary scales"
+** Classical mech is an approx to quantum valid at ordinary scales.
+* wave-particle duality
+** ?~ quantization
+* quantized things
+** energy
+** momentum
+** angular momentum
 * to learn it
 ** Quantum Country, a free online interative platform
 https://quantum.country/
@@ -14,3 +22,19 @@ https://notes.andymatuschak.org/
 ** "topness is preserved under strong and electromagnetic interactions, but not under weak interaction"
 ** Truth, a quantum flavor, is the difference between the number of top quarks and that of top antiquarks.
    The last two words are funny if you see them as a way of escaping the concept of bottomness.
+* uncertainty principle
+Much of this is what I could glean talking to Claude.
+** ? a statement of it
+"there is a limit to the precision with which certain pairs of physical properties, such as position and momentum, can be simultaneously known"
+** It's a limit not just on knowledge, but on information itself.
+   It looks like a limit on the knowability of now,
+   but in fact it is a limit to the information now has --
+   e.g. the particle doesn't "have" both values.
+* Measurements ?change the world.
+** alternative interpretations
+*** the Copenhagen interpretation
+**** Measurements change the wave function. It evolves deterministically only between measurements.
+*** the many-worlds interpretation
+    The wave function only evolves continuously and deterministically,
+    but measurements move you across branches.
+** The wave function is deterministic, but it only gives probabilities for measurements, and they (seem to?) change it.

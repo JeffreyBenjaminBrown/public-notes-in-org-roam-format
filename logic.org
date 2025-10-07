@@ -28,12 +28,14 @@
   :END:
 ** [[id:e66faca5-8154-4852-9fe1-22c7815fdb6f][biodiversity]]
 ** [[id:7b24e00d-6acb-4723-9267-6a9935dddacd][Truth is an assumed property of one universe.]]
-** [[id:461ac824-69d6-4b73-bbe8-ee3e41bdc915][extremes, corner solutions !! balances, chaotic equilibria]]
-** Opposites are near.
-   that is, conceptually near to each other
-** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
-** [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]-ness
-** [[id:e8594ff4-8ca0-44ea-a349-f16163c376a7][irony]]
+** [[id:06e57867-5a5f-462b-b963-56ffa719c9b8][surprise]]
+*** [[id:e8594ff4-8ca0-44ea-a349-f16163c376a7][irony]]
+*** [[id:461ac824-69d6-4b73-bbe8-ee3e41bdc915][extremes, corner solutions !! balances, chaotic equilibria]]
+*** Opposites are near.
+    that is, conceptually near to each other
+*** [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]-ness
+** [[id:18eb5d5a-d546-40f1-96f9-bb56bc11eea0][authenticity]]
+*** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
 * [[id:195f4d81-c0ff-4e61-9218-8a1a633db798][emotional logic]]
 * [[id:a1487b9c-70d9-493a-b61e-e512def4a0d5][freedom | independence]]
 * [[id:594df21f-51c9-485c-85a1-cf943f325219][consistency | irrationality]]

@@ -3,6 +3,7 @@
 :ROAM_ALIASES: moderation restraint temperance
 :END:
 #+title: moderation | restraint | temperance
+* [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][discipline]]
 * to [[id:dae618bd-8f97-44ef-b22b-f72adef57bc8][play]] when appropriate
   :PROPERTIES:
   :ID:       77f2a3f7-0689-4ece-bf28-a7e708c6a84b
@@ -34,3 +35,4 @@
   :ID:       d7568934-fe2e-4606-b96d-be8d7f6b50c8
   :END:
 * [[id:24d6df8e-d78e-46da-9261-1994c62e5061][Is too much self-awareness bad?]]
+* [[id:ec12ed79-2c56-4053-b335-d47dd867e3cc][Unwanted attention is a neighbor of brutality.]]

@@ -93,6 +93,7 @@
 *** [[id:91b5b933-912d-4686-8cb3-bdf2255d2085][pride => stupidity]]
 *** [[id:312b1964-390a-4fbd-ac3b-ebe4797cd821][stupidity]]
 *** [[id:27f9e7f9-f2d4-48f2-80f9-d3443080681f][nihilism]] | cynicism
+*** [[id:9548d89f-13c8-444d-b290-cfc25b86cea7][violence]]
 * [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope(s)]]
 * [[id:50132c61-a3f9-4e28-bdbd-e2d0e6f35f28][feelings]] / instances
 :PROPERTIES:

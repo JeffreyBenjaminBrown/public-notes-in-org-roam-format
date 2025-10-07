@@ -10,3 +10,4 @@
 * [[id:7b0081ed-b28f-430a-9264-981ec04f5464][relativity]]
 ** the [[id:e71d736a-37fb-45a8-9b68-f81564d56e0c][Lorentz transformation]]
 * [[id:8bcfda55-5ab3-4083-9a37-2a01eb216dc4][quantum physics]]
+* Torque is change in angular momentum.

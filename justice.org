@@ -6,6 +6,14 @@
 Remember, notes should be surprising.
 * judgment
 ** Some refuse to hear it.
+* Thinking about who deserves what could be a bad smell.
+  :PROPERTIES:
+  :ID:       5b78b44a-f120-4c53-b8f7-c9638287563d
+  :END:
+** Ignoring it or recognize it?
+** Probably best to keep private, at least usually.
+** Even if recognized, probably best not usually used to inform decisions.
+   No vigilante justice.
 * evil
 :PROPERTIES:
 :ID:       aa879d13-804f-4de3-b9fc-a3e7c774969e
@@ -61,3 +69,4 @@ Remember, notes should be surprising.
 ** [[id:c3a62ad1-d09d-4e79-8547-af725870e380][a cognitive justice for the destitute]]
 ** [[id:f714e415-5a58-4627-b27f-4ca5d35bf847][In Switzerland, bribes paid abroad were not only legal b
 ut tax deductible until around 2015.]]
+** [[id:44ab3398-1386-4164-813a-d11462ccb427][Magnanimity is related to justice, like what you owe yourself.]]

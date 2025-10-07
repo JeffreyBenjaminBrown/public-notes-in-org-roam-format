@@ -5,6 +5,7 @@
 #+title: enlightenment
 * an awesome{terrifying,} infinite patience
   confidence in (the permanence of) the true self
+* [[id:15dc6043-cb8f-4202-8d56-7e7b1dac59f8][dissociative fantasies]]
 * [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][There is only now.]]
 * [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
 * [[id:c893937e-bca4-4a77-aa6c-ad481bf1d042][the limits of logic]]

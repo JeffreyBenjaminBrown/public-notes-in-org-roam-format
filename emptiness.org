@@ -35,3 +35,7 @@
 ** is described in physics and some religions
 ** fantasy : An equidistant laughter vector space.
    each laugh a vector, they kind of balance
+* insignificance
+  :PROPERTIES:
+  :ID:       628efefb-3691-4767-89e2-a5696221b3d9
+  :END:

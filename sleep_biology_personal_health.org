@@ -13,6 +13,9 @@
    :END:
    To undesrtand sleep in oneself is to understand what processes would run outside of the waking conscious (identity) state.
 ** Rhythm helps sleep.
+   :PROPERTIES:
+   :ID:       8afbd202-a45d-49b5-9d5c-e10097081437
+   :END:
 *** Days that [[id:858ef1cd-4cd3-44bd-8dfe-15aa30a581f5][unwind]].
 ** [[id:ccdc6dc7-8166-4243-a8b7-34dc060f128e][Co-sleeping]] seems intriguing in this context.
 ** feelings behind going to sleep early

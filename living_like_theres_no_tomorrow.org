@@ -6,6 +6,7 @@
 * neighbors
 ** [[id:9ec55e32-f974-479e-8295-7d9e30156684][awareness]]
 ** [[id:80cfe814-fcc1-485b-955d-4a76fdef71e1][constraint]]
+* [[id:5b78b44a-f120-4c53-b8f7-c9638287563d][Thinking about who deserves what could be a bad smell.]]
 * [[id:826b7dbe-1532-480c-92b4-182475947d20][Why am I sluggish to respond to warmth (smiles, etc)?]]
 * [[id:5e99170f-6c38-4705-bf3d-1b2cb9b95123][Escape yourself.]]
 * It is at least a culture.

@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       db33e272-2aa4-4394-87a9-f7d42ffa78bf
+:END:
+#+title: link content filters \ skg
+* example motivation
+  [[id:33d5cd4e-8a0c-48f0-85c2-467db86e1862][the ternary shows-because relationship]]
+* the filter
+  I want a container A with a link to B to have an optional filter onto B's content, such that what passes the filter shows as B's content.
+* The ternary nature of the relationship can somewhat be forgotten
+  by the reader, or borne sub- or at least less consciously.
+** elaboration
+   One could simply talk about the link source showing some of the link content.
+   This only becomes a ternary relationship when we consider that the link
+   is only meaningful in relation to its context A.
+   That ternary nature *does* need explicit representation in TypeDB
+   if the user wants the filter to depend on which of multiple containers
+   the link appears in. That's a violation of the expected use.
+   It's also unnecessary. Multiple nodes whose content is that link
+   can instead be made, and I think they probably should.
+   If viewing their distinct content at once is desired,
+   it's easy to collect all links with the same target in one view.

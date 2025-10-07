@@ -8,6 +8,7 @@
 * instances
   The title of each child applies in its entirety
   to each grandchild.
+**  [[id:33d5cd4e-8a0c-48f0-85c2-467db86e1862][the ternary shows-because relationship]]
 ** attribution : [author] said _
    Make these easy to create quickly,
    without unduly distorting the view,

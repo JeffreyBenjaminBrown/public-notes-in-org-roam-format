@@ -9,7 +9,7 @@
   :END:
   The sudo is important -- otherwise lots of stuff survives.
 
-  sudo nix-collect-garbage --delete-older-than 10d
+  sudo nix-collect-garbage --delete-older-than 3d
     # keep the last week
   sudo nix-collect-garbage -d
     # keep only latest config

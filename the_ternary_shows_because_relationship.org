@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       33d5cd4e-8a0c-48f0-85c2-467db86e1862
+:ROAM_ALIASES: "shows-because (relationship)" "shows-because (relationship)"
+:END:
+#+title: the ternary shows-because relationship
+A shows B because B contains C.

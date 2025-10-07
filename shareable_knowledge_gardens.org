@@ -22,6 +22,7 @@
     :PROPERTIES:
     :ID:       1df9170f-7044-488f-bf66-5a2c38f309d3
     :END:
+* [[id:52d94126-fcee-4cf7-86f5-1c205b928d55][presenting data]]
 * Some graphs do not want to pollute what they link to
   by being in the backlinks view.
 * refs
@@ -40,60 +41,17 @@
 **** Mindmapping can look distant from work.
      Thinking about a lot of things you can't change can look impractical. The change is in you.
 * unsorted
-** Link content filters because, e.g., the ternary shows-because relationship.
-*** the shows-because relationship
-    A shows B because B contains C.
-*** the filter
-    I want a container A with a link to B to have an optional filter onto B's content, such that what passes the filter shows as B's content.
-*** The ternary nature of the relationship can usually be disregarded.
-    One could simply talk about the link source showing some of the link content.
-    This only becomes a ternary relationship when we consider that the link
-    is only meaningful in relation to its context A.
-    That ternary nature *does* need explicit representation in TypeDB
-    if the user wants the filter to depend on which of multiple containers
-    the link appears in. That's a violation of the expected use.
-    It's also unnecessary. Multiple nodes whose content is that link
-    can instead be made, and I think they probably should.
-    If viewing their distinct content at once is desired,
-    it's easy to collect all links with the same target in one view.
-** Children where they shouldn't belong should be handed to a node more containerward.
-   e.g. children of an alias.
-   rather than being ignored
-** The pre-indendation, like the body, means "blocks children for reader".
-*** [[id:93eeb370-9f9c-4375-957d-91aab39007ee][It's simpler than it looks.]]
-*** two org passages that parse equivalently
-**** Punchline: Some information can be discarded.
-     :PROPERTIES:
-     :ID:       93eeb370-9f9c-4375-957d-91aab39007ee
-     :END:
-**** the two passages
-***** uniform pre-indentation
-      * 1
-        body
-      *** 2
-      *** 3
-      ** 4
-***** jagged pre-indendation
-      * 1
-        body
-      **** 2     # Too many stars! The extra is ignored.
-      *** 3
-      ** 4
-**** what they both parse to
-      * 1
-      ** BLOCKING READER body
-      ** BLOCKING READER 2
-      ** BLOCKING READER 3
-      ** 4
-**** If someone cuts one and then pastes it away from the blockers
-***** Emacs will have to say something.
-***** It would be cool if the blocking herald
-      flashed a few times and then disappeared.
-*** how
-    How they should parse: The body is the first child. The child headline after it is the second child. Only its title blocks reading the list of children; the rest of it can be folded, and it can have tree content (unlike the org-body). So on for each of the others. If the level of pre-indentation changes, there is no change in its treatment.
-*** Requires reader cooperation!
-*** herald 'u'?
-** ~ should be 'is very fundamentall related to'
+** What could I charge for that only businesses would care about?
+** explaining it to others
+*** Skg is for knowledge. It lets you collect, organize, navigate (read), share and integrate knowledge across people. It expects user to colect knowledge; without that it is no use.
+** [[id:db33e272-2aa4-4394-87a9-f7d42ffa78bf][link content filters \ skg]]
+** better save
+*** Pass awkward contents upward.
+    Children where they shouldn't belong should be handed to a node more containerward.
+    e.g. children of an alias.
+    rather than being ignored
+** [[id:2e231498-7191-45de-84b5-5790f331af5c][blocks  for reader (relationship)]]
+** ~ should be 'is fundamentallu related to'
 *** could use ~~ for less so
 *** Any instance of either could be refined using more characters later.
 ** Will need "show all relationships".
@@ -113,6 +71,11 @@
     whereupon they show up no longer as backlinks,
     or at least all that have been absorbed into content
     show in the backlinks in a folded branch called that.
+** user obligations and suggestions
+*** Review your collections.
+*** Collect thoughts.
+*** Make at least three links to anything you hope to keep.
+*** Horizontal and vertical relationships need not be reciprocal.
 * motivation and soul-searching for skg
 ** [[id:320e5181-cf0d-48bf-b024-d0e6c4c309c2][Do I fear personal integration?]]
 ** Do I fear human superintelligence?

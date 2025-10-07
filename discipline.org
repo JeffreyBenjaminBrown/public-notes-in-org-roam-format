@@ -3,7 +3,7 @@
 :ROAM_ALIASES: patience discipline self-control
 :END:
 #+title: discipline | patience | self-control
-* merge: [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]] [[id:a55842c2-536e-4581-b04b-026715e646d1][duty]] [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]] [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][discipline]]
+* TODO MERGE: [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]] [[id:a55842c2-536e-4581-b04b-026715e646d1][duty]] [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]] [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][discipline]]
 * extra ID
 :PROPERTIES:
 :ID:       d7d8d66e-24b4-4f53-aa98-0d6707b26254
@@ -15,6 +15,7 @@
 ** [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
 ** [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
 ** [[id:31b4c38c-5885-4895-ae33-85cb4fb93b86][immaturity]]
+* [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
 * Know what is badass to sacrifice in the short term.
   :PROPERTIES:
   :ID:       9395f417-7e64-461f-ac7e-f7a95ce8d683

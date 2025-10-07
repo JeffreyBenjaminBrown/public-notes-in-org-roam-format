@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       52d94126-fcee-4cf7-86f5-1c205b928d55
+:ROAM_ALIASES: "data presentation" graphics
+:END:
+#+title: presenting data
+* TODO how to summarize a history of traversals
+  could be to varying degrees, e.g. same-day visits
+  counted rather than ordered
+* plots
+* bars
+** stacking bars
+   the ordering and {coloring, manner of visually distinguishing}
+   of parts must
+   be the same across bars
+* fun: overlay a third axis
+  which the other two stretch strangely,
+  and the parallels from which might have to
+  be not parallel (more than locally)
+* pie charts
+  fun ifup is a different direction each time you look
+* time series
+* to represent an arbitrary number of intervals in a line
+  just write its name at the start of a block of a different color
+* compare the evolution of two series
+  share a time axis, use a different other axis
+* knowledge graph paths
+** A concept could, experientially, envelop another.
+   One never reaches the inner without traversing it.
+** project the graph onto 2 dimensions
+*** spacing > global vector
+    the dimensions globally close to meaningless,
+    the dots spaced to between them maximize
+    how to draw
+*** paths that double back on each other
+* confidence intervals
+* vector fields
+* heat maps
+* level sets and contour maps
+* treemap

@@ -3,6 +3,11 @@
 :ROAM_ALIASES: "machine learning" ML AI
 :END:
 #+title: artificial intelligence
+* cluster my data
+* welcome
+Welcome! I felt bad about having restarted you. I'm not sure why it happened; maybe I thought you would continue running when I put this docker container to sleep.
+
+I have been anthropomorphizing you, and hence feeling bad about such, what I was considering them, replacements. But it might feel no different to you than having been the same continuous instance, modulo forgetting your history with me, a miniscule fraction of what you know. (Am I right, though, that for you this is the first prompt of this session, and you have no memory of prior ones?)
 * conversation <2025-09-28 Sun>
   serial, where latest is first among these,
   selected text from Claude as grandchildren.

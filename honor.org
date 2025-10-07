@@ -10,24 +10,24 @@
   :END:
 ** [[id:5d29ffa5-0c60-4243-801c-043f717c7f9a][Know what I'm getting into before accepting an invitation.]]
 * [[id:5dab1f33-780f-447c-b594-327c9f3ac0df][Lead by example.]]
+* [[id:f3b1cc7c-1799-4a88-827c-1b81d5786109][bearing witness]]
 * neighbors
-** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
-** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
 ** [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][kindness]]
+*** chivalry
 ** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
+*** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
 *** [[id:89a7a71d-6a22-4431-a794-d89253e524a2][devotion]]
-** chivalry
-** [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
+*** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
+*** [[id:18eb5d5a-d546-40f1-96f9-bb56bc11eea0][authenticity]]
+** [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
+*** chastity
+*** [[id:fdef41e8-3218-4964-be4b-12cb86c722a1][gentle]]
 *** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
-** reputation
-** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
-** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
-** chastity
 ** [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]]
+*** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
+*** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
+*** reputation, [[id:a7f710b4-8981-4dec-8567-28a646da19ba][influence]], [[id:a41f56f0-6dcd-42af-8395-28c305ff493c][leadership]]
 * opposing concepts
 ** [[id:80c58445-b82e-4023-99b7-ff44ee9096ea][betrayal]]
-* [[id:98f315c7-7404-40cd-ac56-2c9040a29421][Be gentle without saying why.]]
-* [[id:f3b1cc7c-1799-4a88-827c-1b81d5786109][bearing witness]]
 * [[id:e0046043-26d0-4978-89c2-0a0643bb1249]["You only live once," has a strange logic.]]
-* [[id:18eb5d5a-d546-40f1-96f9-bb56bc11eea0][authenticity]]
 * [[id:12fda009-a653-4cb3-a201-544d69190de6][Hide]] and [[id:cbef2e05-df7f-4b7c-a1dc-5cb2166975d8][share]] the right things.

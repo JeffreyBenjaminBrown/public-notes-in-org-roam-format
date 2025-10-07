@@ -47,3 +47,4 @@
     Offer to a few people in private who I think might have trouble making it to reimburse their expenses.
 ** [[id:94e3193b-d8de-4f12-85b5-731de5266b9d][inviting people I'm on the fence about]]
 * [[id:e0306e46-498a-47c1-86d1-d5f36d1b9c0c][How to complain (about people).]]
+* [[id:52d94126-fcee-4cf7-86f5-1c205b928d55][presenting data]]

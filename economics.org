@@ -3,6 +3,7 @@
 :END:
 #+title: economics
 * see also [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
+* [[id:52d94126-fcee-4cf7-86f5-1c205b928d55][presenting data]]
 * contracts
 ** [[id:fdb0dda4-749a-462f-8dbf-e15e1c98242b][consensual biographical publication algorithm]]
 * competition

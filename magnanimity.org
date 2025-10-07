@@ -5,10 +5,14 @@
 * see also
 ** [[id:1ba589c3-00f6-45a8-b5f3-e6c697e89030][light belligerence \ comedy]]
 ** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][daring]]
+* Magnanimity is related to justice, like what you owe yourself.
+  :PROPERTIES:
+  :ID:       44ab3398-1386-4164-813a-d11462ccb427
+  :END:
 * An ancient and, to me, strange bundle of qualities.
 * components
 ** [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
-** honesty and (emotional) transparency
+** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]] and (emotional) transparency
 ** courtesy, but belligerence when appropriate
 ** having noble purpose, being principled
 ** refusal to be petty
