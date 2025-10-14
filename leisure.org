@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9ec03762-a2ef-4777-a9af-762c7a819c2c
+:END:
+#+title: leisure
+* [[id:dae618bd-8f97-44ef-b22b-f72adef57bc8][play]]
+* [[id:dae618bd-8f97-44ef-b22b-f72adef57bc8][fun]]
+* [[id:195adeee-dc48-4aa1-9e88-0c33a225b583][gambling]]
+* [[id:2e75b219-6f4c-427f-9f61-13f618fd0e80][safety]]
+* [[id:8b0040c0-243b-43d4-8cc8-e9b3ffb35180][comfort]]
+* [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]]

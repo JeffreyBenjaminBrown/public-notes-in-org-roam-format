@@ -1,0 +1,92 @@
+:PROPERTIES:
+:ID:       6d031428-eea3-4019-8122-80bd5fa6f9d4
+:END:
+#+title: rebuild buffer in Rust with the same structure \ skg
+* to know
+** Most of the API can be left alone.
+*** where orgnodes are built
+**** save_buffer
+**** containerward_view
+     Document that if you haven't saved the buffer,
+     the retrieved view won't include any changes
+     that that saved buffer would cause.
+**** node_aliases
+     Document that if you haven't saved the buffer,
+     the retrieved aliases won't include any changes
+     that that saved buffer would cause.
+**** single_root_view
+*** Only save_buffer needs changing for now.
+* beware
+** preceding conflicting edits
+   This guards against the possibility
+   that the user saved some of this data differently elsewhere,
+   after this data was rendered.
+* method
+** non-Content children
+*** are not dedup'd from content
+    This means that they can't be used when saving
+    to determine their parent's contents, either.
+*** are rendered before (above) content
+*** can be content nonetheless
+    For instance one of the parent's container's might be its child,
+    with relToOrgParent=Container,
+    even though it is also Content.
+** some metadata fields
+*** DONE id : obvious
+*** DONE relToOrgParent : revised, casing on current relToOrgParent
+*** DONE cycle: computed anew considering the whole buffer
+*** DONE focused: bool, retained
+*** DONE folded: bool, retained
+*** DONE mightContainMore: retained
+*** DONE repeat: computed anew considering the whole buffer
+*** DONE toDelete: false for anything to be built
+** case on each reltoorgparent
+*** for Content children
+**** replace/supplement Content by reading
+     If the parent node is not mightcontainmore,
+     replace them all from disk,
+     preceded by non-content nodes
+     (which probably all retain their previous order).
+**** two cases for each Content child
+***** it's still content
+      For each formerly-and-still-content child,
+      if it was present in the saved image,
+      although its order among its brothers may have changed,
+      restore its content,
+      because it might have containerward paths, aliases, etc.
+      that would otherwise not be rendered.
+***** it's no longer content
+      If something that was content is no longer content,
+      change its relationship to None.
+      (It will thus be rendered before the content,
+      just like everything else that is not content.)
+*** for Container children
+    verify the containment relatinoship for each to its parent.
+    If it still exists, rebuild it in order.
+    Otherwise, leave it in place but change its heralds --
+    mark it None (no relation to parent).
+*** for an AliasCol
+    In the output rebuild its children from scratch,
+    and don't iterate in the input into the AliasCol's children.
+*** for a SearchResult
+    Change its name reltoorgparent to None.
+*** for a None
+* retain metadata when replacing (node & proper subset of buffer)
+  When a backview replaces text,
+  it should retain the origin headline's
+  relationship to its org-parent.
+* retain focus, folding on save
+** for folding, see elisp/skg-org-fold.rs
+** `org_from_node_recursive` should use its `focus` argument.
+   This seems easy.
+** will have to treat focus similar to folding
+*** in brief
+    Emacs receives it from Rust, uses it, discards it,
+    then recomputes it before sending to Rust.
+*** in detail with correspondences to folding functions
+**** Upon receiving from Rust, use it.
+     (like skg-fold-marked-headlines)
+**** After using it, remove it from the metadata.
+     (like skg-remove-folded-markers).
+**** Add it back to the metadata before sending from Emacs to Rust.
+     (like skg-add-folded-markers)

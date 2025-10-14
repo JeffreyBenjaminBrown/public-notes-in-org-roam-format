@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       d53f4de6-8b81-4168-a6ce-a1cf8b015fbf
+:END:
+#+title: rush to integration
+* definition-ish
+** Get all you need for a working experience,
+   before complicating any of the components.
+** geometric metaphor
+*** Like growing a tree in one dimension before the other.
+* applies to coding
+For instance, in SKG there is a server and a client. I tried to make the API handle more complexity than necessary when receiving the document from Emacs -- it would convey the cursor position, the folded state, maybe other stuff. That was unnecessary, and made closing the cycle difficult.
+
+More generally, ask what the bare minimum necessary would be to get the app's parts to work together. Find a way to make that *extensible* in the later directions I want, but don't actually extend in those directions before integrating. Even if the app would be absolute garbage without a given feature, if the feature is not necessary for integration, leave it out until after integration works.
+* might apply to [[id:9cd06bec-49d2-49fa-8d2b-59ff0cffde46][knowledge graphs]]
+* might apply to [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]

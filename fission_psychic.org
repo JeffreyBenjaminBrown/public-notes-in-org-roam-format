@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       24fcf76a-fafa-4cb2-8312-43719f7aa207
+:ROAM_ALIASES: separation fission
+:END:
+#+title: separation | fission
+* [[id:2d37b3c9-3829-4604-899f-b6dec304691c][ritual of forgetting]]
+* fission = becoming separated
+* across-person separation
+  :PROPERTIES:
+  :ID:       6ca119e0-3810-4b73-b9fe-a705001608fe
+  :ROAM_ALIASES: "social separation"
+  :END:
+** magic
+*** [[id:aabbe81f-1a56-4483-aad9-1b937f56dd7a][Sometimes the rhythm is to marinate in someone's words.]]
+*** [[id:b3ec25ba-75fa-413d-ad2f-a3c738a2d339][We say we're ending it and can't.]]
+** [[id:5ddd7d5d-2c98-4f47-bd5f-3c38629ec4ea][negotiation]]
+** [[id:33686d10-7115-4325-84e7-ec9eba554703][private && separation | fission]]
+* within-person separation
+** [[id:1fc13c21-8d83-43ec-b386-e87fc501ec8b][self across time]]
+** [[id:42837d1b-0ddb-4bef-8387-93f429055208][being of two minds about something]]
+** [[id:594df21f-51c9-485c-85a1-cf943f325219][irrationality , inconsistency]]
+* tech
+** [[id:ecd50397-0277-4dfe-9821-b511fbc4d063][Permit two users' views of a topic to diverge, yet still share diffs involving it.]]
