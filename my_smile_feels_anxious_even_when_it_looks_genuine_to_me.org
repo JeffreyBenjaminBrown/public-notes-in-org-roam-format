@@ -1,4 +1,7 @@
 :PROPERTIES:
 :ID:       27533eec-38f1-4f4a-8ffb-5125d99c0f78
 :END:
-#+title: My smile feels anxious, even when it looks genuine to me.
+#+title: My smile feels {anxious | forced | ..} even when it looks genuine to me.
+Not sure there are others for the brackets.
+It used to feel anxious, today <2025-10-13 Mon> it doesn't,
+but it does feel forced.

@@ -5,6 +5,7 @@
 #+title: love & exclusion = devotion
 * neighbors
 ** obedience
+** [[id:aaed11f4-a8c9-4743-9a8e-23e3ae162e89][submissiveness]]
 * "Me tienes que hacer adicto a eso!"
 * [[id:8dcfdbd6-26f4-4217-8dfa-bbb1b59cd125][the "Are you ever sad after I leave?" convesrsation]]
 * [[id:b6ae0064-80b2-498b-bf66-b2b128d16b83][scarcity of time -> exclusivity]]

@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       3d30dc55-ce11-4e46-a149-720a2f5b85d1
 :END:
-#+title: When giving a function an argument, make sure
+#+title: When giving a function an argument, make sure ...
 all of them
 * The new argument is used.
 * If it replaces something specific by abstracting over it, the old specific thing should be completely gone.

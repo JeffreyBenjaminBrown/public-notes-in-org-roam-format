@@ -3,6 +3,8 @@
 :END:
 #+title: empathy
 * = understanding people
+* ? Even if it cannot be addressed directly, comment on it artistically.
+  comedy, drama, metaphor, mimicry
 * The best art for studying empathy, probably, are novels with a diverse. realistic set of characters.
   :PROPERTIES:
   :ID:       cd901214-ae81-4976-a44c-e9a528e133f7

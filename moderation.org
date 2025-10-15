@@ -4,6 +4,12 @@
 :END:
 #+title: moderation | restraint | temperance
 * [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][discipline]]
+* When unsure whether to disclose, investigate instead.
+  :PROPERTIES:
+  :ID:       0435db00-fca3-42df-8f7f-7800c931566c
+  :END:
+  [[id:d2c78541-6092-49c0-9cb2-e3cefdc24b71][Flirt]]; test how the other would feel.
+** [[id:106c88d8-fd66-4849-98be-33dc99a2c053][example]]
 * to [[id:dae618bd-8f97-44ef-b22b-f72adef57bc8][play]] when appropriate
   :PROPERTIES:
   :ID:       77f2a3f7-0689-4ece-bf28-a7e708c6a84b
@@ -36,3 +42,4 @@
   :END:
 * [[id:24d6df8e-d78e-46da-9261-1994c62e5061][Is too much self-awareness bad?]]
 * [[id:ec12ed79-2c56-4053-b335-d47dd867e3cc][Unwanted attention is a neighbor of brutality.]]
+* [[id:0f0efb2e-ec94-4206-86c9-a5de72c7db2c][gradual disclosure]]

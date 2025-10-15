@@ -23,5 +23,6 @@
 * [[id:609378d9-85be-4edf-bcd7-724356ad3cb8][preconceptions]]
 * [[id:a39b2ed1-188e-4d65-95f7-d1a4dacc6437][selfward as the least learning experience]]
 * see also [[id:d6138579-73e2-4a9c-9fd2-6c5087b71e80][questions, about]]
+* [[id:39fea08a-b96f-4ce9-8610-be077be5f70c][Awkwardness signals misaligned models between people.]]
 * DONE internalized
 ** [[id:636d3275-7997-4503-9769-37cdb51722e2][Pain is only sometimes a learning experience.]]

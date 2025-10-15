@@ -2,6 +2,7 @@
 :ID:       bbc9f812-cf95-45a3-b93f-4ad93a565510
 :END:
 #+title: mental health and fitness
+* [[id:720f5a80-ba0a-4f12-888f-7adb38e2009f][psychological healing]]
 * [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][balance]]
 * [[id:50132c61-a3f9-4e28-bdbd-e2d0e6f35f28][emotion]]
 * [[id:0334782e-dd39-49e7-b296-ad1375ce404a][meditation => calm purpose]]

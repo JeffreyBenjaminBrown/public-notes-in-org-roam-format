@@ -2,12 +2,13 @@
 :ID:       d3da70ea-0752-403d-a8eb-ebda828b7b7d
 :ROAM_ALIASES: passion lust desire
 :END:
-#+title: passion
-* Often its object assuages one anxiety and provides* another.
+#+title: passion | lust | desire
+* Desire can be a treadmill.
   :PROPERTIES:
   :ID:       c89ef761-2f1b-4840-89c5-6725354cf356
   :END:
   (*) among other things
+** Often its object assuages one anxiety and provides* another.
 ** examples
 *** drugs
 *** romantic love

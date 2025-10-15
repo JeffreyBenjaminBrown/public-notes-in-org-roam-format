@@ -3,6 +3,10 @@
 :END:
 #+title: God
 * see also [[id:cd9ea78e-bc53-426e-9011-70a5d8d1ccde][fate]]
+* Maybe it's good that you can have no such assurance.
+  :PROPERTIES:
+  :ID:       16f3e60f-085b-4d45-9df9-811decc1c077
+  :END:
 * definitions of God
 ** an alien power
 ** a|the best path

@@ -10,6 +10,9 @@
 ** [[id:3f4d6eb9-0de1-46a1-ba51-9673a2790821][challenge]]
 ** [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]], [[id:79287a5a-dd30-4de7-bce9-3d02fc6c858a][learning]]
 ** Some has {more, explicit} structure.
+   :PROPERTIES:
+   :ID:       89149823-b765-4deb-95f9-b4ecc812927d
+   :END:
 ** Some is clearly a state apart.
 ** Some is collective and some is individualist.
    :PROPERTIES:
@@ -22,13 +25,22 @@
    :END:
 *** to learn to be like {a parent}
 *** as a joke
-** pretense
+** [[id:7abaf6b7-7c59-4744-bddb-8a3bdfb11d8d][paradox]]
+** shared imagination
+*** pretense
+    :PROPERTIES:
+    :ID:       cd5ba89f-6812-4a0c-ae33-fae42227c922
+    :END:
+**** [[id:d3da70ea-0752-403d-a8eb-ebda828b7b7d][lust]]
 ** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][thrill]]-seeking
 ** body play
-*** literal: experiments with one's own body
-    "an infant explores the ways in which his or her body works and interacts with the world" -- wikipedia on play <2025-07-09 Wed>
 *** generalized: experiment to see what a system is capable of
+*** biological: experiments with one's own
+    "an infant explores the ways in which his or her body works and interacts with the world" -- wikipedia on play <2025-07-09 Wed>
 ** playing with the game's definition
+   :PROPERTIES:
+   :ID:       653e5d6c-0e7b-486a-8d89-531a1be7acd0
+   :END:
 * some tensions
 ** serious play
    :PROPERTIES:

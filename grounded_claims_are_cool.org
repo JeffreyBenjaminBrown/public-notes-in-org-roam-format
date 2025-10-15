@@ -3,6 +3,8 @@
 :ROAM_ALIASES: "grounded claims" "grounding"
 :END:
 #+title: "Grounded claims" are cool.
+This applies to speech too,
+although I think it was conceived as a writing technique.
 * definition
 ** notes sufficient for academic use
 ** with references, evidence, maybe motivation, context

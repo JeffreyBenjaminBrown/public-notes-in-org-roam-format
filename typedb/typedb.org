@@ -3,6 +3,11 @@
 :ROAM_ALIASES: "Vaticle makes TypeDB"
 :END:
 #+title: TypeDB
+* refs
+** language guide
+   https://typedb.com/docs/typeql-reference/
+** gallery
+   https://typedb.com/features
 * to run an interactive session
   typedb console \
     --address http://localhost:1729 \

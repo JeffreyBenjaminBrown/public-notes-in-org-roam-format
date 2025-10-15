@@ -41,3 +41,4 @@
    :ID:       c25ab406-f73f-405a-98b3-f98e1ee4c0f2
    :END:
    We the Jury, a passage in the grandmother's voice, paraphrased.
+* [[id:15a1c3ea-304a-4b6f-9095-f82a62bc35ab][phase transitions & timing]]

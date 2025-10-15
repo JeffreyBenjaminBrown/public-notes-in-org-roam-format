@@ -3,12 +3,13 @@
 :ROAM_ALIASES: transparency
 :END:
 #+title: honesty
-* Transparency is stronger than honesty.
-  One can be honest while withholding important things.
+* [[id:bda3d113-8968-4cbf-aedb-775df4b5e713][transparency]]
+** Transparency is stronger than honesty.
+   One can be honest while withholding important things.
 * neighbors
 ** sincerity
 ** [[id:18eb5d5a-d546-40f1-96f9-bb56bc11eea0][authenticity]]
+** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][vulnerability]]
 * [[id:bf74717d-69b2-475b-af1a-d3100628e733][honesty v. empathy]]
 * [[id:79397c4c-4523-4d7c-950b-bd6cf1c2f861][If you're embarrassed to share your beliefs, something is wrong.]]
 * [[id:68c52fdf-eb5c-4d51-a147-a3450fe42661][If you can't tell your story, something is wrong.]]
-* [[id:bda3d113-8968-4cbf-aedb-775df4b5e713][transparency]]

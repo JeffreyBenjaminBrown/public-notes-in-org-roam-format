@@ -3,7 +3,7 @@
 :END:
 #+title: religion
 * prayer
-** prayer v. ([[id:cab92776-7a82-42a6-903e-14c102873c6e][peace & realism]])
+** prayer (as in special pleading) v. ([[id:cab92776-7a82-42a6-903e-14c102873c6e][peace & realism]])
    :PROPERTIES:
    :ID:       690c551b-43f9-4913-9a2d-9dfd51dd8ba5
    :END:

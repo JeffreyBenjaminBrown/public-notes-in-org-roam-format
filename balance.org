@@ -15,7 +15,7 @@
   :PROPERTIES:
   :ID:       36822452-1306-402a-b914-d91e605e78e5
   :END:
-** My going to lunch would have mean a lot to her.
+** My going to lunch would have mean a lot to [redacted].
    :PROPERTIES:
    :ID:       6f18380e-5fb5-44cd-8333-81fff7978442
    :END:
@@ -38,7 +38,7 @@
    toward preventing the other from,
    whether intentional or not, harming you
 * peace in oneself
-** detachment
+** [[id:0c575dde-46fd-4fcd-a9a7-1fb95ce42858][detachment]]
 ** [[id:2f3c6dae-ded0-43f0-8b3d-0e9d095d8904][Could appreciating drama help one cope with stress?]]
 ** Balance seems like an avenue to it.
    That is, if I know my choices thread the needle well,
@@ -49,7 +49,8 @@
   :END:
 ** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
 ** [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
-   because {biological necessity, ..} forces one to work too much on other stuff
+   because {biological necessity, ..}
+   forces one to work too much on other stuff
 ** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
 ** [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][work-life balance]]
 * some balances
@@ -77,7 +78,7 @@
   :END:
 ** [[id:e7fd04ae-edf7-46a9-944b-8e9c215415c4][Give up on dumb dreams.]]
 ** [[id:b0a80dfd-0fbf-4ba7-b9b7-6ec65d2619fa][Overoptimisation impedes mental peace.]]
-** [[id:690c551b-43f9-4913-9a2d-9dfd51dd8ba5][prayer (of special pleading) v. peace]]
+** [[id:690c551b-43f9-4913-9a2d-9dfd51dd8ba5][prayer (as in special pleading) v. peace]]
 ** [[id:c393e966-36a8-498a-b44e-0667903191f8][workaholism]]
 * tensions
 ** [[id:d023bd33-fd94-44d4-982d-675b79c2ee03][Relaxed sports would be fun.]]

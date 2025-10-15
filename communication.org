@@ -51,3 +51,5 @@
 *** [[id:2285e62f-1ae9-4b2b-b3b0-cf9d973c6534][organizing people]]
 * [[id:f7f3be5e-0901-4892-bd12-fb3821ed308a][Don't let the subject change so fast it confuses.]]
 * [[id:0ac0126a-b8cc-44ac-8dd9-68c70c2a8c2a][Patience and gratitude => good listener.]]
+* If it seems too far-out to share, [[id:ccc1c640-f36e-47de-b417-a12ea267f0a2][ground the claim]].
+* [[id:bef20c9d-ecd5-4ea5-ae9b-acf8a7fc0285][Declarative > imperative, in communication as in CS.]]

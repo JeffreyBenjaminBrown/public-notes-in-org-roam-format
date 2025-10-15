@@ -3,6 +3,7 @@
 :ROAM_ALIASES: freedom independence
 :END:
 #+title: freedom | independence
+* see also [[id:b288df19-c02e-42fa-a4b6-4cd3c0162e52][self-respect | independence]]
 * [[id:80cfe814-fcc1-485b-955d-4a76fdef71e1][constraint]]
 * Freedom > independence.
   Independence is that your choices are not impinged by someone.

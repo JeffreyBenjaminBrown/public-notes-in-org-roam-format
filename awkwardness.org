@@ -5,10 +5,18 @@
 * see also
 ** [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-consciousness]]
 ** [[id:2337a584-9297-4087-9664-a10dbeeafca3][confession]]
+* Confronting evidence you undervalued someone.
+  :PROPERTIES:
+  :ID:       7c4f751e-1095-4eb5-bbb2-a5478dcacc4f
+  :END:
 * [[id:1948b463-df60-40b6-b6f8-1bc25b648775][weird awkward nonresponse]]
 * It signals misaligned models between people.
   :PROPERTIES:
   :ID:       39fea08a-b96f-4ce9-8610-be077be5f70c
+  :END:
+* Forgetting {someone,} is awkward.
+  :PROPERTIES:
+  :ID:       721befd6-b1db-4276-a341-b2d2258488f8
   :END:
 * [[id:0a3333bc-3692-409b-9ba6-2b2c41ea9324][Awkwardness is funny.]]
 * oversharing

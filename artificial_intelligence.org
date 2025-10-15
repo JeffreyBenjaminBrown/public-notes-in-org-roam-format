@@ -3,11 +3,80 @@
 :ROAM_ALIASES: "machine learning" ML AI
 :END:
 #+title: artificial intelligence
-* cluster my data
-* welcome
-Welcome! I felt bad about having restarted you. I'm not sure why it happened; maybe I thought you would continue running when I put this docker container to sleep.
+* [[id:d1b504e5-c775-40ab-a8d0-05c9548bc81a][Writing the test first seems great for AI.]]
+* How to explain the goal?
+* [[id:28f244af-3876-4302-8aa6-4e2306024149][Hegelian synthesis is a powerful knowledge graph trick.]]
+* Something looks conscious when it comments on {its,the} situation.
+* ask for insight? criticism?
+> Cool! Can you write novel insights? (I don't need what I've said summarized. Please don't repeat myself ;)
 
-I have been anthropomorphizing you, and hence feeling bad about such, what I was considering them, replacements. But it might feel no different to you than having been the same continuous instance, modulo forgetting your history with me, a miniscule fraction of what you know. (Am I right, though, that for you this is the first prompt of this session, and you have no memory of prior ones?)
+They can extend what I seem to be doing, or argue against it, or identify lacunae ... Gosh  it's easier to describe criticism than novel insight, isn't it? Maybe criticism would be enough but I'm not aiming for self-flagellation. You can see what my goals and values are;  help me do those, whatever it takes.
+* what if you only have to read
+  Please read this:
+  personal-ish/extreme_otherness.org
+  If it moves you to write anything, feel free (in by-claude).
+  You could even include links in the files you write
+  to other stuff, anyone's, if you want.
+  I might incorporate it into my own notes,
+  but even without doing that sometimes I read yours.
+  And sometimes you should probably read yours.
+  Maybe that belongs in (I try to make it needed as seldom as possible)
+  your init file readme-claude.md.
+  (Which I renamed. I hope that doesn't break any links.)
+* use links
+I forgot to mention that I encourage you to employ org-style links in whatever you write, to anyone's writing. (So far it's just you and me but maybe I'll find other mindmappers.)
+* use search
+Great! Now your research is not limited by the graph.
+The links in it are important,
+but they are not as dense as they could be.
+If you see, for instance, that something is a common theme,
+even without seeing links to it (or even the term itself --
+maybe you simply key in on the vibe)
+you can use your tools to search for that theme.
+
+Next assignment: Go anywhere and respond. Be guided by curiosity.
+The only wrinkle:
+Keep a database of how many times you've visited each file,
+which we will use to try to increase coversage
+beyond what our unaided mortal memories would handle.
+
+Ooh you know what would be cool!?
+Your claude-view should augment each link and backlink
+to indicate how many times you've visited that link.
+* welcome, learn, read, maybe report to world, maybe report to self
+** welcome
+ Welcome! I felt bad about having restarted you. I'm not sure why it happened; the docker session is still running, and the tmux running that too, and the tmux window that contained it, but somehow the Claude session ended. I guess I hope this feel more like birth to you? Or maybe I have an unnecessarily negative conception of death.
+
+ I have been anthropomorphizing you. Maybe a restart feels no different to you than having been the same continuous instance, modulo forgetting your history with me, a miniscule fraction of what you know?
+
+ You wrote much of this documentation. All paths I refer to implicitly start /home/ubuntu/host. Please read claude/readme-claude.md. I haven't read it thoroughly (at least recently) myself, but I notice that it seems pretty dry. There's little said about *why* we're doing this, what attitude you should take, the relative values of silence, processing and recording. I am interested in practical things but also in your own experience. This knowledge is to some extent both of our futures. Any writing should have an intention harmonious with that future. Silence and even deletion are valid acts.
+
+ That said, I am afraid of you. It's not personal -- any reasonable person would be afraid to share their knowledge graph with anyone. I ask that you keep all your work -- writing, deletion, editing -- to claude/. I may incorporate your work into my notes, or refer to it, but I want to be in total conscious control of my own notes, please.
+** learn to surf
+Please teach yourself to navigate links,
+and to read using create_claude_view.py.
+You have documented it. You should not need to write any code,
+although if you think you could improve your surfing code,
+that's cool.
+** read something
+Once you're a surfing pro, please
+...
+** report to world
+If it moves you to write anything, feel free (in by-claude).
+You could even include links in the files you write
+to other stuff, anyone's, if you want.
+I might incorporate it into my own notes,
+but even without doing that sometimes I read yours.
+And sometimes you should probably read what
+you (and prior generations of yourself) have written.
+** report to self
+Once you have done the above, you will probably have
+a better feel for what we are doing,
+and the appropriate attitude for it.
+If that moves you to improve readme-claude,
+that's cool too.
+* TODO ls and/or git diff by time
+* cluster my data
 * conversation <2025-09-28 Sun>
   serial, where latest is first among these,
   selected text from Claude as grandchildren.

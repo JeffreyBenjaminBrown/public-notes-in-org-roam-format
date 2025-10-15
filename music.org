@@ -6,8 +6,60 @@
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 ** [[id:f582adf8-17e3-429f-ad70-c1243694d0ea][poems]]
+* needs, interesting
+** gradual disclosure
+   :PROPERTIES:
+   :ID:       0f0efb2e-ec94-4206-86c9-a5de72c7db2c
+   :END:
+   Get feedback from friends before sharing widely.
+** relax.
+*** [[id:a9541ac5-4075-4bc3-838d-8ae5ad92e5ec][Relax. It's good. Don't rush.]]
+*** [[id:0bff6b35-f8d4-4e1f-bf2f-be379b38791e][Learn to retreat to less complexity.]]
+** awareness and appreciation
+*** [[id:a9541ac5-4075-4bc3-838d-8ae5ad92e5ec][Relax. It's good. Don't rush.]]
+*** [[id:8aa426c1-b31d-410f-84ae-9af528a05c2b][Listen creatively.]]
+*** [[id:452373e9-2d85-4803-b0f1-d07312ca4ed5][physical presence]]
+** empathy
+*** [[id:e494eab2-9a1b-4a26-a49c-e236e469c12e][Swinging close to the camera is freaky.]]
+*** Feel what someone else would want to happen next.
+    :PROPERTIES:
+    :ID:       41ec1d8d-f77b-4805-afa4-78493f8c0a7d
+    :END:
+*** [[id:d206b9f1-016e-4dd2-a083-dc12d98dd157][Don't stand up.]]
+* [[id:69742fd4-42e3-455a-9676-b22df32f814e][mimicry]]
+* expansiveness
+** [[id:41ec1d8d-f77b-4805-afa4-78493f8c0a7d][Feel what someone else would want to happen next.]]
+** Some musical elements can be made longer.
+   Longer notes, longer melodies,
+   longer chords, longer chord sequences,
+   longer rhythms,
+** Someof my thinking    can be made longer.
+   {hear, remember music, remember feelings, plan} longer-term
+** harmony / rhythm ~~ now / short-term
+   :PROPERTIES:
+   :ID:       d67f9687-f00d-4843-aef5-d2ca7f20b31b
+   :END:
+   To favor harmony over rhythm is like focusing on timbre,
+   the most immediate now possible,
+   to the exclusion of even the short term (rhythm).
+** nested time scales
+* elements
+** notes
+*** volume/accent
+*** duration
+*** frequency
+*** timbre
+** note interaction dimensions
+*** rhythm
+*** melody
+*** harmony
+** relationships between note interaction dimensions
+*** [[id:d67f9687-f00d-4843-aef5-d2ca7f20b31b][harmony / rhythm ~~ now / short-term]]
 * attitude
 ** Relax. It's good. Don't rush.
+   :PROPERTIES:
+   :ID:       a9541ac5-4075-4bc3-838d-8ae5ad92e5ec
+   :END:
 ** Listen creatively.
    :PROPERTIES:
    :ID:       8aa426c1-b31d-410f-84ae-9af528a05c2b
@@ -15,26 +67,42 @@
    Listen to all the elements of what I just played,
    to choose among elements like rhythm, dynamics, etc.
 * physical presence
+  :PROPERTIES:
+  :ID:       452373e9-2d85-4803-b0f1-d07312ca4ed5
+  :END:
 ** Keep my mouth closed!
+*** Too much breathing. Edit in speech, or use a limiter.
 ** A simple constant erect posture seems winning
-** Neck like a baby, floppy.
-** Too much breathing. Edit in speech, or use a limiter.
+*** Neck like a baby, floppy.
 ** Swinging close to the camera is freaky.
+   :PROPERTIES:
+   :ID:       e494eab2-9a1b-4a26-a49c-e236e469c12e
+   :END:
+** don't stand up
+   :PROPERTIES:
+   :ID:       d206b9f1-016e-4dd2-a083-dc12d98dd157
+   :END:
+*** [[id:a1c7913a-ecf8-453f-aa6d-046ab77dc900][example from video]]
 * what to play
 ** [[id:8aa426c1-b31d-410f-84ae-9af528a05c2b][listen creatively]]
 ** Keep that lowest bass on the one
 ** Learn to retreat to less complexity.
+   :PROPERTIES:
+   :ID:       0bff6b35-f8d4-4e1f-bf2f-be379b38791e
+   :END:
 *** work against the ratchet effect
-* [[id:ae806004-42f3-4893-b0fb-80909e18e018][if I record videos of myself playing]]
-* (rap) battles with mimicry
-  :PROPERTIES:
-  :ID:       f5b7d005-e73e-4a3a-9d51-e4abc1ba8efb
-  :END:
-** [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]]
-* To learn two voice harmonies, ear train them, 12 tones, at eandom
-** Once that's good, try three pair, or two threes, etc.
-** Play two tones, then two different tones.
-*** In the first pair play one first, and call that zero.
+* [[id:8932d308-fbc2-4315-ade1-f1f6e1ec5921][cooperation]]
+** (rap) battles with mimicry
+   :PROPERTIES:
+   :ID:       f5b7d005-e73e-4a3a-9d51-e4abc1ba8efb
+   :END:
+*** [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]]
+* ear training
+** to learn two voice harmonies
+   serial, simplest first
+*** Play two tones, then two different tones.
+**** In the first pair play one first, and call that zero.
+*** Once that's good, try three pair, or two threes, etc.
 * How many things are there for two voices to do? In 7 notes? Modulo all time but past, present and future?
   Consider all the start positions.
   For each, consider the potential moves of either.

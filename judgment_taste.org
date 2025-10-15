@@ -7,6 +7,7 @@
 * [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
 * [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]]
 * [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]]
+* [[id:efead690-715e-4243-9dd9-9f6a53566263][aesthetics]]
 * [[id:1714269c-56fc-4c72-9faa-eebf49c6a07f][musical responsibility]]
 * [[id:ff5f634a-f8fa-482c-95a7-6be10e55e58d][comic responsibility]]
 * not clearly operationalizable

@@ -18,3 +18,5 @@
   :ID:       ac047f28-c302-427c-80cc-d6501408ca3a
   :END:
 * [[id:bc4c06c2-10d3-4efd-8287-1482c1d97574][UFOs]]
+* camouflage as metaphor
+** changing colors to blend into the background, look farther away

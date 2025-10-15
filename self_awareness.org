@@ -44,6 +44,9 @@
 * [[id:49583939-99f0-462a-8152-3aed9b0de39a][If you're embarrassed to share your beliefs, something is wrong.]]
 * [[id:18eb5d5a-d546-40f1-96f9-bb56bc11eea0][authenticity]]
 * Know what you forget.
+  :PROPERTIES:
+  :ID:       beec07b6-b719-4141-90cf-4e1f1a7ed20f
+  :END:
 ** [[id:e6d7cb3c-cd67-49f7-ac8e-09c4b6ca81e7][I forgoet emotional healing.]]
 * personal
 ** [[id:6dcc3016-fb6b-4718-9098-f508fe0b1639][social anxieties]]

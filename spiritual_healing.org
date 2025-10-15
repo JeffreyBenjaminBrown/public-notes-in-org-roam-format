@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       720f5a80-ba0a-4f12-888f-7adb38e2009f
+:ROAM_ALIASES: "spiritual healing" "healing, mental"
 :END:
-#+title: spiritual healing
+#+title: psychological healing
 * see [[id:bf73fa6f-cd1a-4237-8bdb-7a98025cf226][wholeness]]
 * recent, unmerged
 ** I want to be vegetarian.
@@ -24,3 +25,4 @@
 * [[id:08dc2cef-0fdd-418c-8bee-4a4594d188a0]["Do your own thinking" is a great response to the urge to surf (too excess) as an anonymous reader|listener|viewer.]]
 * [[id:b0edbce5-7036-4d32-8266-be8e061fb06c][It would require imagination.]]
 * [[id:e6d7cb3c-cd67-49f7-ac8e-09c4b6ca81e7][I forgoet emotional healing.]]
+* Get over [[id:b885a77c-d3f5-41af-80ae-8baaf6ae0743][feeling like I forgot my homework]].

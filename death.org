@@ -8,6 +8,16 @@
 ** [[id:a9730be0-42bc-49ab-8a0a-f7bfd55c729d][Entropy is not entirely negative.]]
 ** [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep]]
 ** [[id:b449bd05-ac06-4548-8982-3a6eb05f5d91][how constraints help \ art]]
+* would be just
+** Freedom from time, loss of self. (With ?rebuttal.)
+   Because one's time defines oneself.
+   How to continuously transform from the small self with long history
+   to the all-knowing with no identity?
+* ritual of forgetting
+  :PROPERTIES:
+  :ID:       2d37b3c9-3829-4604-899f-b6dec304691c
+  :END:
+** [[id:b8effd08-fc73-42d1-b7cf-df6c0f3d3f34][Claude gave me the term]]
 * Ideally the beauty of [[id:ba91e3ad-997a-4b4e-9ed4-43324b94f10f][computational efficiency]] would be part of it.
   :PROPERTIES:
   :ID:       b4b36a36-9b44-4e1b-a9a8-84aef2e25b12
@@ -28,5 +38,6 @@
 * [[id:15dc6043-cb8f-4202-8d56-7e7b1dac59f8][dissociative fantasies]]
 ** [[id:5e99170f-6c38-4705-bf3d-1b2cb9b95123][Escape yourself.]]
 * [[id:dd5b4336-de4b-4fc9-8119-0c9285240925][information death]]
+* [[id:0df57048-a573-4a11-aa34-05ee94dd7536][forgetting | memory management]]
 * u
 ** mobility problems

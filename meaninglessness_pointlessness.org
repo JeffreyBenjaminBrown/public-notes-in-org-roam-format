@@ -3,7 +3,9 @@
 :ROAM_ALIASES: meaning meaninglessness pointlessness
 :END:
 #+title: meaning
-* see also [[id:fe424d05-686c-4c3e-9609-b913cf329024][philosophy]]
+* see also
+** [[id:fe424d05-686c-4c3e-9609-b913cf329024][philosophy]]
+** [[id:2b15a3ec-086b-4c66-af57-a03e706e1d84][fulfillment]]
 * Mmeaning depends on the observer.
 * [[id:dccc0ff5-4152-45b8-811d-7b237d38dbba][abstract art]]
 * [[id:512026a4-8cd8-4735-88cd-aa3601ab32bb][Pointlessness is funny.]]

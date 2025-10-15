@@ -4,6 +4,9 @@
 #+title: love + optimism
 * see also [[id:8d5c9418-f228-4595-b423-05acd9921b10][optimism]]
 * ways to be fascinated someone
+  :PROPERTIES:
+  :ID:       e86192e0-3c23-460d-85c3-fc4e66f5c553
+  :END:
 ** with what they know
 ** with how they see the world
 ** with their ongoing story

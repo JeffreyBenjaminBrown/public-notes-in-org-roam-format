@@ -5,7 +5,7 @@
 * TODO 'repeats' heralds should correspond to 'first' heralds
   So that one knows the thing marked first will be repeated,
   and can easily see from one of the repeated ones what is repeated.
-* TODO Rebuild `repeated` each time the document is rebuilt.
+* DONE Rebuild `repeated` each time the document is rebuilt.
     That is, the fourth step of the following is important.
 - Rust creates the flag, sends it to Emacs.
 - Emacs preserves it, sends it back to Rust.

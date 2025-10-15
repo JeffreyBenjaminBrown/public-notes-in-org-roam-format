@@ -2,6 +2,7 @@
 :ID:       492bfe8d-77f0-4aa2-bb33-df9fa984f0ea
 :END:
 #+title: courage
+* [[id:72411da2-cb37-4be4-9746-47758a336240][Be fascinated by (lived) ethical challenges.]]
 * [[id:9c44b2d0-e6e1-41d3-bb18-37679027e7a9][Confidence + realism > courage.]]
 * [[id:3987d04f-c539-4f73-916f-6a44bc0df7cd][Humility -> courage -> peace.]]
 * courage & humility
@@ -26,3 +27,4 @@
    :PROPERTIES:
    :ID:       aaed11f4-a8c9-4743-9a8e-23e3ae162e89
    :END:
+*** [[id:a04116d1-bd1a-4370-b036-1cbab3492281][submission to a higher {force | power | principle}]]

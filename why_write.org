@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "write, why to"
 :END:
 #+title: why write
+* Writing something you will read moves your life path.
 * Writing makes us immortal, in two ways.
 ** know where you are
    A thousand, a trillion years could have the information content of one night of focused thinking and observation. There are only two things to change, the sensations and the ideas in one's experience. And of those we can see farther, be infinitely more, in the ideas. Deeply knowing the nature of (your) experience, by having written about and studied it. And that can go unpredictably, inconceivably farther still by sharing the project with even a few interested seekers.

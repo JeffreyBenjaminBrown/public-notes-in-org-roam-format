@@ -18,6 +18,9 @@ Remember, notes should be surprising.
 :PROPERTIES:
 :ID:       aa879d13-804f-4de3-b9fc-a3e7c774969e
 :END:
+** How do I avoid it so completely?
+   If I am unique in that, I fail to empathize,
+   to properly imagine someone else's experience.
 ** evil v. {self-awareness, true joy}
    :PROPERTIES:
    :ID:       a23ea954-0bb7-40c1-b42c-ef051cf0918b
@@ -59,9 +62,6 @@ Remember, notes should be surprising.
    :ID:       41e9042a-86a2-45cd-b4d9-a5e5fb6aaf44
    :END:
 *** theft
-    :PROPERTIES:
-    :ID:       10628eae-815f-4e71-a9bf-eb99acc50d54
-    :END:
 * inequality
 ** [[id:f0553af1-9f6c-468d-b69b-aa5c8e4c02d8][never seeing friends except {with, via} one's spouse]]
 * far out

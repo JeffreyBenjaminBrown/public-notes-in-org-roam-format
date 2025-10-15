@@ -22,8 +22,9 @@
     :PROPERTIES:
     :ID:       1df9170f-7044-488f-bf66-5a2c38f309d3
     :END:
+* [[id:f3644edd-b358-4053-a906-b4306dd52244][maybe rush to integration]]
 * [[id:52d94126-fcee-4cf7-86f5-1c205b928d55][presenting data]]
-* Some graphs do not want to pollute what they link to
+* Some nodes do not want to pollute what they link to
   by being in the backlinks view.
 * refs
 ** mine for others
@@ -41,6 +42,30 @@
 **** Mindmapping can look distant from work.
      Thinking about a lot of things you can't change can look impractical. The change is in you.
 * unsorted
+** untapped meaning in my org notes
+*** idea
+   In a 3-node chain of descents, which is the middle word?
+   When viewing an intermediating term from its own perspective,
+   have a distinct branch called "intermediations".
+   Each intermediation has two children:
+   ```
+     * intermediator
+       [syntax $of the intermediator]
+     ** [a role from that syntax]
+     ** [the other role from that syntax]
+   ```
+   and the descendency order exists at least descending from a.
+   If it exists descending from b as well,
+   a herald should indicate that.
+*** problem
+*** asymmetry
+    Perhaps no single relation is sufficient,
+    because the relation used from b's perspective relating it to a
+    is not the one used from a to relate it to b.
+*** intermediator not always intermediating
+    What if a member exists between the three,
+    where the intermediator is not between the other two,
+    but rather one of the other two?
 ** What could I charge for that only businesses would care about?
 ** explaining it to others
 *** Skg is for knowledge. It lets you collect, organize, navigate (read), share and integrate knowledge across people. It expects user to colect knowledge; without that it is no use.
@@ -58,9 +83,6 @@
 *** ~}, ~aliases, ..
     prefixed heralds with (~) for 'non-content relationship' midparent.
     where ~x means 'in relation x to parent'
-** likely heralds
-   make available to user
-   question
 ** Have you been collecting data for a future explosion*?
    explosive integration experioence?
 ** Backlinks should be absorbable into content
@@ -190,8 +212,8 @@
 ** pressing*
    * = org-roam transplant first needs
 *** [#B] easy
-**** The root Emacs sends Rust should not need an id.
-**** skg, deletion in
+**** new empty buffer
+**** DONE deletion \ skg
      :PROPERTIES:
      :ID:       fb72f38e-bef6-4de9-a29b-00f0e46afbbb
      :END:
@@ -199,35 +221,16 @@
      They will probably want to bury most of the nodes so marked underneath one such node, to avoid clutter.
 **** make links
      The choice of what to call the link should be offered when the link is placed, not when its id is selected. That way the menu of aliases can depend on the place.
-**** hide content | omits-some-content herald: "{+"
+**** DONE hide content | omits-some-content herald: "{+"
      :PROPERTIES:
      :ID:       324f020b-1145-4279-a87a-02c96dce7a30
      :END:
      This indicates that Rust should treat any org-children that look like content as content,
      but should not delete the node's contains relationship to anything that doesn't appear as an org-child.
      (The easiest implementation of this would be to ignore order. Anything that would become new content on saving can be placed at the end of the content list.)
-**** [[id:d0faf3c9-0a96-46e9-b5c3-e5c29db88cb9][repeated nodes in a view \ skg]]
-**** herald more properties
-     :PROPERTIES:
-     :ID:       28d61c54-d474-4828-8ef9-e83b25c12ae8
-     :END:
-***** [[id:09c6e6a7-7a76-4bf2-a0a1-de4032734871][show number and kind of upstream nodes]]
-****** [[id:ac671944-2cb9-41b0-abbc-43dfe8a5377b][the number of containers, omitted if 1]]
-***** later
-****** Herald that caveats exist.
-****** show how many [children] it has in a [neighboring branch]
-******* the idea
-        * experiences
-        ** sacrifice
-        ** thinking about something completely different
-        ** being damaged by someone else's assumption
-        ** a completely left-field idea that pays off spectacularly
-        * encourage
-        ** humility
-        ** optimism
-           # here I would like to be able to show a 1 count, for the child of "experiences" that starts "a completely left-field ..."
-******* [[id:dec78208-aed2-4c2d-b23a-d7af870b91a7][source]]
-**** org buffers with multiple roots
+**** DONE [[id:d0faf3c9-0a96-46e9-b5c3-e5c29db88cb9][repeated nodes in a view \ skg]]
+**** [[id:28d61c54-d474-4828-8ef9-e83b25c12ae8][herald more properties \ skg]]
+**** DONE org buffers with multiple roots
      :PROPERTIES:
      :ID:       ba8fbc06-bb9c-4d69-bb1c-34cd1f80fdf4
      :END:
@@ -235,8 +238,9 @@
 ***** bigger fix: consider multiple roots
       Rather passing around only a single list of FileNodes,
       pair that with a list of root IDs.
-**** [[id:bc8fd4c3-0566-400c-96a8-0f4632e7fd1c][merging graph nodes]]
+*** [[id:6d031428-eea3-4019-8122-80bd5fa6f9d4][rebuild buffer in Rust with the same structure \ skg]]
 *** [[id:7b2499c4-4c93-44dc-83b1-0a4b9175d6a8][containerward view]]
+*** [[id:bc8fd4c3-0566-400c-96a8-0f4632e7fd1c][merging graph nodes]]
 *** [[id:96b1ca65-3afd-4840-8d84-a0642b1a1b4e][diffs in skg]]
 *** [[id:4bf53fb8-abb2-4bd2-9b56-d2374fbb931d][skg // sharing & privacy]]
 *** transfer org-roam to skg
@@ -272,6 +276,18 @@
 **** the 'repeated' warning should be in a system font
      I might need Emacs to generate it.
      Currently Rust sends it as body text.
+*** Graph development histories might be interesting.
+**** And interpolations.
+*** Plan tours?
+    :PROPERTIES:
+    :ID:       437a5820-8a4e-4a96-ab45-c0936b390cd6
+    :END:
+    { in the knowledge graph,
+      of mental states, }
+    like musical scales
+**** [[id:a67cad81-1bf5-442b-a149-4d819e050f00][Claude suggested, kind of]]
+*** Optimize for serendipity?
+**** [[id:c46df20a-8bd3-4d69-877e-229f8c487e94][Claude]]'s idea
 *** share a participatory website requiring no installation
     The user can write in yours even without having installed anything on theirs. They can login with a pseudonym of their choosing, move stuff around, add things, label things. They get their view onto my data, and can show it to others. They can't delete things, and when they rename something its original title becomes an alias, but they can create name clashes to try to bury it.
 *** [[id:6ed5be66-787c-479c-8119-cb340a80d72a][ternary rather than binary containment relationship]]

@@ -3,6 +3,12 @@
 :ROAM_ALIASES: generosity charity
 :END:
 #+title: kindness
+* care
+  :PROPERTIES:
+  :ID:       e8c7577d-224a-4c79-89fc-2939fd51fdfc
+  :END:
+** caring v. doing
+** [[id:d14881a6-61da-4513-9d3f-6d78a6882874][I still care, and _ (usually?) knows it.]]
 * [[id:e65f32b5-ae35-4276-82b9-35700627788d][universal baseline love]]
 * ? humility -> generosity
   :PROPERTIES:

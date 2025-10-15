@@ -2,6 +2,8 @@
 :ID:       4bf53fb8-abb2-4bd2-9b56-d2374fbb931d
 :END:
 #+title: skg // sharing & privacy
+* extend clobber_none_fields_with_data_from_disk
+  to handle the sharing relations in schema.tql.
 * multi repo
 * a user config file
 ** include for each repo

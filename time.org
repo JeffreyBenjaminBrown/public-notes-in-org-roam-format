@@ -35,6 +35,7 @@
 ** [[id:69231ffa-db6f-4df7-b663-9e6ef7582a05][It grew from itself, explaining as it handed time to the next generation, "There are glitches that let you see the future."]]
 ** [[id:a7a2be95-44cd-4c98-9288-a5183d180d89][Were time illusory, rust (in skill) would be a weird act.]]
 * [[id:2fe71561-4999-4224-aafb-5a5cc65e4ed0][It feels good to be consistent with one's past decisions.]]
+* [[id:9f74807c-ead0-4459-b2ad-91164a8af775][Not enough time to properly love everyone I love.]]
 * change
   :PROPERTIES:
   :ID:       ab10e995-a889-4408-8f5c-16f3aeea3d75
@@ -56,3 +57,4 @@
    mystery one grows through knowing
 ** "In the before time, when space bounded communication."
 ** [[id:2ad51d0e-607f-4865-a3df-c10db2fef05f][a story about the futility of stories]]
+* [[id:668cc49f-2760-4629-890d-235c0836b560][transcend time]]

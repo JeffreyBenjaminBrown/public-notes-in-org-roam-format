@@ -2,6 +2,7 @@
 :ID:       1767a293-ee6a-47b7-b9b8-e8b2f05dd87f
 :END:
 #+title: assertiveness
+* [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][confidence]]
 * The good kind is moved by circumstance, not sought.
   :PROPERTIES:
   :ID:       a51d5b7e-4fc5-47bc-a9ca-2524ba9acace
@@ -25,3 +26,5 @@
   :PROPERTIES:
   :ID:       54108e6f-bda4-40c3-b7f7-a961be388bbb
   :END:
+* [[id:21c17436-a858-47e7-8c00-a93b0abba31f][Sexiness is confident about who (including nobody) to share what with.]]
+* [[id:f179edc5-ca32-4348-8961-26d6c4f55ac3][Cutting off cynicism by declaring it boring feels sexy.]]

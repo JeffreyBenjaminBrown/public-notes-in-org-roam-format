@@ -56,6 +56,7 @@
 * [[id:49a03bb3-7d57-4e38-89a5-93074d8fd152][information = truth ,, if properly qualified]]
 * [[id:c543ecbc-9af5-4a9f-a7b2-fce74104c5cc][language]]
 * [[id:8bf642b8-c720-475d-9972-ff7d5553ff10][wholeness fission fusion emptiness]]
+* [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
 * [[id:461ac824-69d6-4b73-bbe8-ee3e41bdc915][Art highlights extremes.]]
 * [[id:d4df3ea1-f333-4dd8-a208-907d176dbadb][epistemological overload]]
 * [[id:bda3d113-8968-4cbf-aedb-775df4b5e713][transparency]]
@@ -80,5 +81,13 @@
 ** [[id:06e57867-5a5f-462b-b963-56ffa719c9b8][surprise]]
 ** [[id:e8594ff4-8ca0-44ea-a349-f16163c376a7][irony]]
 * [[id:a5f67f09-b1a6-49cc-a922-4c02885339a0][mortality pressure as reason for leisure]]
-* Eye contact is (infinite recursive) common knowledge.
-  You know they see you, you know they know it, ...
+* common knowledge
+  :PROPERTIES:
+  :ID:       23fd4cce-55ec-4b7f-b781-596045f727ae
+  :END:
+** Eye contact is (infinite recursive) common knowledge.
+   You know they see you, you know they know it, ...
+** I still care, and _ (usually?) knows it.
+   :PROPERTIES:
+   :ID:       d14881a6-61da-4513-9d3f-6d78a6882874
+   :END:

@@ -5,6 +5,7 @@
 #+title: psychology
 * TODO merge with
 ** [[id:a4fdc0d7-8ad9-471c-a559-7bd932b0f486][headspace]]
+* [[id:720f5a80-ba0a-4f12-888f-7adb38e2009f][psychological healing]]
 * universal phenomena
 ** [[id:89a0b4e8-897e-4dea-8bf8-05bbe1c234c1][habituation]]
 ** [[id:a4fdc0d7-8ad9-471c-a559-7bd932b0f486][cognition]]

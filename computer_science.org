@@ -5,12 +5,26 @@
 #+title: processing | development
 * [[id:9503e93c-e13f-4be2-ad59-66350feeb21f][privacy]] & [[id:a7f710b4-8981-4dec-8567-28a646da19ba][influence]]
 ** [[id:5b78b44a-f120-4c53-b8f7-c9638287563d][Thinking about who deserves what could be a bad smell.]]
-* [[id:35fc7de0-cbbf-466f-80ee-3f7d5eb3d806][sleep as processing]]
-* [[id:52d94126-fcee-4cf7-86f5-1c205b928d55][presenting data]]
+* > CS
+  = applicable outside of, CS
+** [[id:35fc7de0-cbbf-466f-80ee-3f7d5eb3d806][sleep as processing]]
+** forgetting | memory management
+   :PROPERTIES:
+   :ID:       0df57048-a573-4a11-aa34-05ee94dd7536
+   :END:
+*** [[id:a5b74e88-c524-4f89-b29d-1bc324a77369][spaced repetition]]
+*** [[id:b5c9ebb3-57c2-4516-8db2-53ddae6dc140][right to feel, act on, and then {relax your grip on, forget}]]
+*** [[id:43ab15d1-1fc8-4fe6-b8b3-43fccf941563][recording too much]] \ awkward
+*** [[id:2d37b3c9-3829-4604-899f-b6dec304691c][ritual of forgetting]]
+*** [[id:beec07b6-b719-4141-90cf-4e1f1a7ed20f][Know what you forget.]]
+**** [[id:e6d7cb3c-cd67-49f7-ac8e-09c4b6ca81e7][I forgoet emotional healing.]]
+*** [[id:721befd6-b1db-4276-a341-b2d2258488f8][Forgetting {someone,} is awkward.]]
+** [[id:d53f4de6-8b81-4168-a6ce-a1cf8b015fbf][Rush to integration.]]
+** [[id:52d94126-fcee-4cf7-86f5-1c205b928d55][presenting data]]
+** [[id:73dcc71c-3277-445b-b6ec-05830e955dad][testing (computer science)]]
 * s
 ** to read : by others on it
 *** https://x.com/Franc0Fernand0/status/1945447159739924706?s=19
-** Some things are right to forget.
 ** [[id:52e2587c-3485-45cb-9456-d2c9746b2c4d][dependency inversion]]
 ** code, the language of
 *** Rather than "pitfall", write "danger".
@@ -22,9 +36,6 @@
 ** [[id:4f6e7dfd-2b17-474b-9126-714bfb76156e][mutual recursion: an easy example]]
 * over my head but cool
 ** [[id:8c7a55ef-702d-4db9-bede-66ea56a0d97d][Distributors: Unifying Parsers, Printers & Grammars]]
-* Like growing a tree vertically before horizontally, rush to integration.
-  For instance, in SKG there is a server and a client. I tried to make the API handle more complexity than necessary when receiving the document from Emacs -- it would convey the cursor position, the folded state, maybe other stuff. That was unnecessary, and made closing the cycle difficult.
-  More generally, ask what the bare minimum necessary would be to get the app's parts to work together. Find a way to make that *extensible* in the later directions I want, but don't actually extend in those directions before integrating. Even if the app would be absolute garbage without a given feature, if the feature is not necessary for integration, leave it out until after integration works.
 * subfields
 ** [[id:e1f7f6e9-3a9a-4804-91f5-7751d7f4e9b8][algorithms]]
 ** [[id:627da2c2-2f34-46ac-a6d3-9c625c4ff31d][artificial intelligence]]
@@ -40,6 +51,7 @@
 * [[id:f2cb05a8-11e3-4260-94b7-f9033d301698][documentation testing]]
 * [[id:31fab723-6cfd-4f19-a61e-4b65100504f8][abstractions I like \ computer science]]
 * TODO [[id:4bd7f12e-2061-40e9-9e98-683552f40918][contribute to open source projects]]
+* Code review is a thing people at Google have written about.
 * TODO [[id:90b6eed6-9e66-44de-bbfd-dfc0385bfa35][software development advice, excellent]]
 * TODO [[id:f0689a2d-925c-4360-a428-d4f0857b9680][to learn & computer science]]
 * [[id:bd48b7ca-4620-49a0-b5a5-915205f7e78e][good coding habits]]

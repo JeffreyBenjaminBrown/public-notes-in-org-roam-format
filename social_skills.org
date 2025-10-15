@@ -2,6 +2,7 @@
 :ID:       3a009c94-db3a-4707-933b-e6c9ba4d4fee
 :END:
 #+title: social skills
+* Praise publicly.
 * instances | components
 ** [[id:721b9b4d-63cc-473f-8ccb-bfc8d22240d9][ethics]]
 ** [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]]

@@ -2,6 +2,7 @@
 :ID:       39eb81c5-a014-4f7e-9f66-317e501b1f6e
 :END:
 #+title: emotional moderation
+* [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]]
 * pros and cons
   Not sure I want or need it.
   But being distracted from the present by bigger plans
@@ -9,6 +10,6 @@
 * mu
   Intensity alone says little about an experience.
 * I do yearn for intensity.
-* Learn to be [[id:65135c08-8490-4046-bf07-c3eaf15c76e4][appreciative, not pursuant]]
+* Learn to be [[id:65135c08-8490-4046-bf07-c3eaf15c76e4][appreciative, not pursuant]].
 * [[id:627da2c2-2f34-46ac-a6d3-9c625c4ff31d][Claude]] pointed out I might need it.
 ** ? [[id:56e40bd7-de55-4cf9-8c6c-78d0a45665ab][The Missing Middle of Social Energy]]

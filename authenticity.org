@@ -12,6 +12,7 @@
 ** [[id:cd31d188-3857-469e-8af8-07ce8d4242d9][intuition]]
 ** [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-awareness]]
 ** [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]]
+** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
 * [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][Realism]] helps it.
 * anti-values
 ** [[id:2de14a2f-0ad7-4851-be44-1324730239b2][compromise]]

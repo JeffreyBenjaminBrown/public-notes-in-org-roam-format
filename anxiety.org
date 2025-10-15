@@ -10,11 +10,11 @@
 ** If I could inpaint this would likely be solved.
 * [[id:b9e9171a-4c58-4e25-a4cd-53f974701891][Kierkegard's dizziness of freedom]]
 * Paul Tillich's categories
-** "ontic": fate & death
+** "ontic": [[id:cd9ea78e-bc53-426e-9011-70a5d8d1ccde][fate]] & [[id:c73ee824-eb2b-43f4-8ead-32d9d62ddc75][death]]
 ** moral
 ** spiritual
 * Tillich thought anxiety was part of the human condition.
   to be accepted, not fought
 * [[id:b18fb650-5941-448f-b8ff-f1929dad2951][guilt]]
 * [[id:b7fb17cd-88af-4d9c-8b9c-e704558d03a2][Past anxieties are more universally funny.]]
-* [[id:27533eec-38f1-4f4a-8ffb-5125d99c0f78][My smile feels anxious, even when it looks genuine to me.]]
+* [[id:27533eec-38f1-4f4a-8ffb-5125d99c0f78][My smile feels [bad], even when it looks genuine to me.]]

@@ -31,8 +31,9 @@
 * [[id:28e96d3a-9cf7-4151-bf43-e155a739d568][Be comfortable with rejection.]]
 * [[id:059f1add-e1e1-4124-bab6-5d270e0332e7][Imaginative hope is funny.]]
 * Ideally it is kept in (perceptible) check.
-  For at least some of its elements [interested],
-  it should not [be? demonstrate] too much of that,
+  For at least some of its elements,
+  attractiveness should not [be? demonstrate]
+  too much of that element,
   and perhaps can be maximal nonetheless (happy, funny).
 * elements
 ** [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][confident]]
@@ -45,6 +46,9 @@
 * [[id:90e8a304-8144-4cae-8f2a-cbe04e7f5e17][Complimenting seems hard.]]
 * Sexiness is confident.
 ** Sexiness is confident about who (including nobody) to share what with.
+   :PROPERTIES:
+   :ID:       21c17436-a858-47e7-8c00-a93b0abba31f
+   :END:
 * Gravity when appropriate is sexy.
 * It [[id:92354831-6ca0-455b-b87e-0ae639bc651b][knows what to keep private.]]
 * It is [joking, restrained, serious, unconvinced] when appropriate.

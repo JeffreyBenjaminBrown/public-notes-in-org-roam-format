@@ -4,3 +4,4 @@
 #+title: aesthetics
 * [[id:f6dcf7b1-006b-4477-9366-872a570edb83][spirituality + aesthetics]]
 * [[id:0cfdd6d1-c4ec-44b7-9855-ee917806ac11][incongruity]]
+* [[id:57988979-26d7-43d9-863f-14d1e21b5f2f][Contrast can be funny.]]

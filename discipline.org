@@ -15,7 +15,6 @@
 ** [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
 ** [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
 ** [[id:31b4c38c-5885-4895-ae33-85cb4fb93b86][immaturity]]
-* [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
 * Know what is badass to sacrifice in the short term.
   :PROPERTIES:
   :ID:       9395f417-7e64-461f-ac7e-f7a95ce8d683
@@ -47,6 +46,7 @@
 * [[id:bb4d7add-0f2d-4367-89da-429dbf550a8b][Train the awareness to be unmoved by temptation.]]
 * [[id:c2decf8f-87a5-41e0-86c6-a5633566acc6][peaceful motivation]]
 * [[id:7aef35f2-43a8-4376-b31a-379da833254e][stoicism]]
+** [[id:0c575dde-46fd-4fcd-a9a7-1fb95ce42858][Detachment]] is functional.
 * erotic patience
   :PROPERTIES:
   :ID:       f26aa8fe-1dde-4024-82ec-20b247aab0f7

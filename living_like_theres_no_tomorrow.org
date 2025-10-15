@@ -6,6 +6,11 @@
 * neighbors
 ** [[id:9ec55e32-f974-479e-8295-7d9e30156684][awareness]]
 ** [[id:80cfe814-fcc1-485b-955d-4a76fdef71e1][constraint]]
+* Do you multitask, or pay attention to every channel through which another might be speaking?
+  :PROPERTIES:
+  :ID:       ddf22725-9353-4923-9787-16fac6c79467
+  :END:
+  Is multitasking like $ listening to something faster than true.
 * [[id:5b78b44a-f120-4c53-b8f7-c9638287563d][Thinking about who deserves what could be a bad smell.]]
 * [[id:826b7dbe-1532-480c-92b4-182475947d20][Why am I sluggish to respond to warmth (smiles, etc)?]]
 * [[id:5e99170f-6c38-4705-bf3d-1b2cb9b95123][Escape yourself.]]
@@ -73,12 +78,18 @@
   :END:
 * [[id:585b7a0d-4fc6-497b-b20d-0fc19ed9daa7][Our only judges are each other.]]
 * [[id:66378a3b-2439-4401-9773-460a8d4011bd][What if we already see through the bias I want to solve?]]
-* It is right to spend non-uniformly over time.
+* transcend time
   :PROPERTIES:
-  :ID:       17762c0f-5024-43de-af31-1626cf9a9b28
+  :ID:       668cc49f-2760-4629-890d-235c0836b560
   :END:
-** to risk running down your savings when the strategy makes sense
-** but this might be [[id:b5c9ebb3-57c2-4516-8db2-53ddae6dc140][right to forget]]
+** It is right to spend non-uniformly over time.
+   :PROPERTIES:
+   :ID:       17762c0f-5024-43de-af31-1626cf9a9b28
+   :END:
+*** to risk running down your savings when the strategy makes sense
+*** but this might be [[id:b5c9ebb3-57c2-4516-8db2-53ddae6dc140][right to forget]]
+** "I'd rather have a good dead dad than a bad alive dad."
+   In this sense, the good dad transcends time.
 * [[id:218a6d41-d17e-4036-b145-60c7541ec312][So much depends on interpretation.]]
 * "You only live once," has a strange logic.
   :PROPERTIES:
