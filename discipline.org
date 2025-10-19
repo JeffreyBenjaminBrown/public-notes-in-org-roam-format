@@ -3,7 +3,7 @@
 :ROAM_ALIASES: patience discipline self-control
 :END:
 #+title: discipline | patience | self-control
-* TODO MERGE: [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]] [[id:a55842c2-536e-4581-b04b-026715e646d1][duty]] [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]] [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][discipline]]
+* TODO MERGE: [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]] [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]] [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][discipline]]
 * extra ID
 :PROPERTIES:
 :ID:       d7d8d66e-24b4-4f53-aa98-0d6707b26254

@@ -1,4 +1,0 @@
-:PROPERTIES:
-:ID:       941e3b08-069c-4a84-a052-76b302af98cd
-:END:
-#+title: service

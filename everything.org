@@ -42,7 +42,7 @@
 **** [[id:2aafd0d3-96d9-4be2-a2b5-a2dfe15017f7][labor]]
 ***** [[id:1b4a962e-2549-4d7f-bf5c-a5d03767ac42][skepticism]]
 ***** [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]]
-**** [[id:941e3b08-069c-4a84-a052-76b302af98cd][service]]
+**** [[id:e8c7577d-224a-4c79-89fc-2939fd51fdfc][care]]
 **** [[id:a41f56f0-6dcd-42af-8395-28c305ff493c][leadership]]
 **** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
 **** [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][charity]]

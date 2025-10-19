@@ -5,7 +5,7 @@
 #+title: meaning
 * see also
 ** [[id:2b15a3ec-086b-4c66-af57-a03e706e1d84][fulfillment]]
-** [[id:941e3b08-069c-4a84-a052-76b302af98cd][service]]
+** [[id:e8c7577d-224a-4c79-89fc-2939fd51fdfc][care]]
 ** [[id:fe424d05-686c-4c3e-9609-b913cf329024][philosophy]]
 ** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
 * Mmeaning depends on the observer.
