@@ -21,16 +21,7 @@
    This guards against the possibility
    that the user saved some of this data differently elsewhere,
    after this data was rendered.
-* method
-** children whose treatment is not Content
-*** are *not* dedup'd from content
-    This means that they can't be used when saving
-    to determine their parent's contents, either.
-*** are rendered before (above) content
-*** can be content nonetheless
-    For instance one of the parent's container's might be its child,
-    with treatment=Container,
-    even though it is also Content.
+* TODO recompute some metadata
 ** metadata fields to retain unchanged
 *** id
 *** treatment
@@ -41,6 +32,16 @@
 *** cycle: computed anew considering the whole buffer
 *** focused: might be passed up from an alias
 *** toDelete: false for anything to be built
+* DONE method
+** children whose treatment is not Content
+*** are *not* dedup'd from content
+    This means that they can't be used when saving
+    to determine their parent's contents, either.
+*** are rendered before (above) content
+*** can be content nonetheless
+    For instance one of the parent's container's might be its child,
+    with treatment=Container,
+    even though it is also Content.
 ** case on each treatment
 *** for Content children
 **** replace/supplement Content by reading
@@ -67,9 +68,6 @@
     If the focus is in an alias, hand it up to the AliasCol.
 *** for a ParentIgnores
     process it normally, just without affecting the parent
-* retain treatment (and any other metadata?) when replacing (node & proper subset of buffer)
-  When a backview replaces text,
-  it should retain the origin headline's treatment.
 * retain focus, folding on save
 ** for folding, see elisp/skg-org-fold.rs
 ** `org_from_node_recursive` should use its `focus` argument.

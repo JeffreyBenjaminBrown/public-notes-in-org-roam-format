@@ -248,14 +248,6 @@
      omit when possible, which is usually
 **** override the ordinary save command
 *** [[id:6d031428-eea3-4019-8122-80bd5fa6f9d4][rebuild buffer in Rust with the same structure \ skg]]
-*** link-sourceward view
-    serial
-**** generalize the Rust backpath rendering function
-     Takes a lambda involving (probably)
-       path_to_end_cycle_and_or_branches,
-     and a starting level.
-     The lambda can drop the first member of the path, or not.
-**** then eliminate further redundancy, if any
 *** [[id:7b2499c4-4c93-44dc-83b1-0a4b9175d6a8][backward views]]
 *** [[id:bc8fd4c3-0566-400c-96a8-0f4632e7fd1c][merging graph nodes]]
 *** [[id:96b1ca65-3afd-4840-8d84-a0642b1a1b4e][diffs in skg]]

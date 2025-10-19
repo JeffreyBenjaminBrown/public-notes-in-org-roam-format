@@ -3,6 +3,14 @@
 :ROAM_ALIASES: "skg / backward view" "containerward view \ skg"
 :END:
 #+title: skg / backward views
+* TODO serial
+** generalize the Rust backpath rendering function
+   Takes a lambda involving (probably)
+     path_to_end_cycle_and_or_branches,
+   and a starting level.
+   The lambda can drop the first member of the path, or not.
+** then eliminate further redundancy, if any
+** implement link-sourceward view
 * four kinds:
 ** "these link to it"
    :PROPERTIES:
