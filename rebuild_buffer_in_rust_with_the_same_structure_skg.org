@@ -21,17 +21,19 @@
    This guards against the possibility
    that the user saved some of this data differently elsewhere,
    after this data was rendered.
-* TODO recompute some metadata
+* DONE recompute some metadata
 ** metadata fields to retain unchanged
 *** id
-*** treatment
 *** folded
 *** mightContainMore
+*** toDelete
+    it will already be false for everything in the tree
 ** metadata fields to recompute
+*** treatment
 *** repeat
-*** cycle: computed anew considering the whole buffer
 *** focused: might be passed up from an alias
-*** toDelete: false for anything to be built
+*** cycle: computed anew considering the whole buffer
+*** relationships
 * DONE method
 ** children whose treatment is not Content
 *** are *not* dedup'd from content
@@ -68,18 +70,11 @@
     If the focus is in an alias, hand it up to the AliasCol.
 *** for a ParentIgnores
     process it normally, just without affecting the parent
-* retain focus, folding on save
-** for folding, see elisp/skg-org-fold.rs
-** `org_from_node_recursive` should use its `focus` argument.
+* TODO retain focus, folding on save
+  :PROPERTIES:
+  :ID:       25bea258-98e5-4154-b787-98acf64e8ff6
+  :END:
+** focus
+   `org_from_node_recursive` should use its `focus` argument.
    This seems easy.
-** will have to treat focus similar to folding
-*** in brief
-    Emacs receives it from Rust, uses it, discards it,
-    then recomputes it before sending to Rust.
-*** in detail with correspondences to folding functions
-**** Upon receiving from Rust, use it.
-     (like skg-fold-marked-headlines)
-**** After using it, remove it from the metadata.
-     (like skg-remove-folded-markers).
-**** Add it back to the metadata before sending from Emacs to Rust.
-     (like skg-add-folded-markers)
+** folding : use elisp/skg-org-fold.el

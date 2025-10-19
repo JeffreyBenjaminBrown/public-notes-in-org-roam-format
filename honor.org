@@ -3,6 +3,20 @@
 :END:
 #+title: honor
 * merge: [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]] [[id:a55842c2-536e-4581-b04b-026715e646d1][duty]] [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]] [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][discipline]]
+* duties
+** [[id:941e3b08-069c-4a84-a052-76b302af98cd][service]]
+*** [[id:e8c7577d-224a-4c79-89fc-2939fd51fdfc][care]]
+** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
+** [[id:a1487b9c-70d9-493a-b61e-e512def4a0d5][independence]]
+*** [[id:1d8be58f-a579-4e4c-a145-8c349db58514][Resist peer pressure.]]
+** [[id:b9f666f2-0035-42df-b674-86049697e9e0][defense | caution]]
+*** [[id:f88bacfa-67ba-4020-8a3e-87a02bded425][Safeguard the culture.]]
+** [[id:ff5f634a-f8fa-482c-95a7-6be10e55e58d][comic responsibility]]
+** [[id:1714269c-56fc-4c72-9faa-eebf49c6a07f][musical responsibility]]
+** [[id:4ec07465-7323-47c3-a8b4-8d81f383b119][Flirt before proposal.]]
+** [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
+*** [[id:39167703-f685-4afb-9017-ca41caee0796][Recognize when it would be better not to [make a {joke,pass}].]]
+* [[id:eabe22b3-ed71-4c11-9ac3-2a673226a5d1][anger]]
 * [[id:1d8be58f-a579-4e4c-a145-8c349db58514][Resist peer pressure.]]
 * Honor your word. Do not give it lightly.
   :PROPERTIES:

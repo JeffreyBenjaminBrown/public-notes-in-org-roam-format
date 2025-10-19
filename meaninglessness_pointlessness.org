@@ -4,8 +4,10 @@
 :END:
 #+title: meaning
 * see also
-** [[id:fe424d05-686c-4c3e-9609-b913cf329024][philosophy]]
 ** [[id:2b15a3ec-086b-4c66-af57-a03e706e1d84][fulfillment]]
+** [[id:941e3b08-069c-4a84-a052-76b302af98cd][service]]
+** [[id:fe424d05-686c-4c3e-9609-b913cf329024][philosophy]]
+** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
 * Mmeaning depends on the observer.
 * [[id:dccc0ff5-4152-45b8-811d-7b237d38dbba][abstract art]]
 * [[id:512026a4-8cd8-4735-88cd-aa3601ab32bb][Pointlessness is funny.]]
@@ -16,3 +18,4 @@
 ** and hence on facial expressions, and hence on presence
    Meeting in preson matters, in part, because so much depends on facial cues, which you can't simulate in your imagination on a call.
 * [[id:4ab66dd2-71c7-4afe-a7ee-bd6b34b6fc8d][Art is a floor on freedom.]]
+* [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]] and [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]]

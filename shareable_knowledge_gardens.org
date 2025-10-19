@@ -385,6 +385,42 @@
 *** private lens onto your public notes ~ subscription
     They would work the same way.
     Could even be a private lens onto a public subscription.
+* shine-through at a link
+** definition
+*** precise definition -- at least of a special case
+    :PROPERTIES:
+    :ID:       dfa3372a-3dea-4c26-8a12-31ffba86ab3c
+    :END:
+    when a tree has
+      a node S (for source)
+        that has (maybe among other links)
+        a link L to node T (for target)
+          (T maybe needing to be part of a different tree),
+    and S contains S'
+    and T contains T'
+      such that S' links to T'
+*** vague definition
+**** example: a link to [[id:538d409f-9808-40ac-ae3b-1c34f5613c01][fantasy]] under which something from fantasy shines through
+**** it is the "_ from _  visible from _ through _"
+** motivation
+*** it's nice to write
+    If S is not a containment root,
+    the reason S links to T can often be clarified
+    by including a link recursively contained in S
+    to something recursively contained in T.
+    (There might be other reasons to do it, too.)
+*** it's hard to read
+    Currently nothing indicates the
+    [[id:dfa3372a-3dea-4c26-8a12-31ffba86ab3c][relationship between S and S']].
+** to decide
+*** Can S or T have multiple links?
+*** Can there be more distance between S and S'?
+*** Can there be more distance between T and T'?
+** TODO needs heralding
+   herald at [[id:dfa3372a-3dea-4c26-8a12-31ffba86ab3c][the linking node S']],
+   indicating the relationship between
+     (its immediate container? some containment predecessor?)
+     and its link target
 * [[id:b1c2091b-7441-4459-b49e-fac3fe1ed918][skg outreach]]
 ** explaining skg
    :PROPERTIES:

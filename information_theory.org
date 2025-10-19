@@ -4,6 +4,7 @@
 :END:
 #+title: information | knowledge
 * [[id:880c2596-e4da-486d-863d-6daff64ca89c][identity , conscious]]
+* [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaning]]
 * [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]] | finding truth
 * some kinds
 ** [[id:2549e02a-fb43-484c-9d92-27b094a5e67c][beliefs]]

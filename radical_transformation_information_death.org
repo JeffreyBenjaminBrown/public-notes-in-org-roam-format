@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "information death"
 :END:
 #+title: radical transformation , information death
+* see also [[id:0df57048-a573-4a11-aa34-05ee94dd7536][forgetting | memory management]]
 * [[id:07cb146d-a7cb-4118-8650-e0005f931aa4][Death as memory loss is beautiful.]]
 * [[id:e8db50df-3e19-4d1e-9808-6f7c0c56035e][Death as conceptual bankruptcy.]]
 * sharing referential slip
