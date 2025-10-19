@@ -3,65 +3,69 @@
 :ROAM_ALIASES: "how to use a knowledge graph" "how to knowledge graph"
 :END:
 #+title: using a knowledge graph
-* helpful principles
-  :PROPERTIES:
-  :ID:       5fd28fa4-a109-4f3a-8296-01a3cf5351aa
-  :END:
-** If it seems too far-out to share, [[id:ccc1c640-f36e-47de-b417-a12ea267f0a2][ground the claim]].
+* good notes
+** sufficient comprehensibility
+*** If it seems too far-out to share, [[id:ccc1c640-f36e-47de-b417-a12ea267f0a2][ground the claim]].
 ** [[id:67cc1b2b-4ec5-4012-9756-dcaafdabb41c][Judiciously delete Platonic linking nodes.]]
-* maybe helpful
-** ? [[id:c774af85-7ad0-4762-b28c-5e02d4881c8b][After filing something, know the whole note it went into.]]
-** Read fast, some things just above zero time-weight.
-** A negative is often equivalent to a more specific positive.
-   [[id:d53dd756-cc2f-43f9-a919-5f39810e642c][example]] (of "Note titles should be positive and specific.")
-** If I find myself stuck trying to place it perfectly, move on.
-   It's in there, after all.
-* how
-** [[id:ccc1c640-f36e-47de-b417-a12ea267f0a2]["Grounded claims" are cool.]]
-** dubious - the para method
- https://fortelabs.co/blog/para/
-*** stands for "projects, areas (of responsibility), resources, archives"
- I would just say "responsibilities" instead of "areas (of responsibility)"
-*** archives are inactive things from the other three categories
-*** areas v. projects
-**** to have an area is to (try to) maintain a standard
- e.g. health, finance, spouse
-**** projects belong to areas, and are supposed to end
-*** Seeing projects come and go helps [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]].
-** evergreen notes
-*** file by concept > file by {resource, project, event ...}
-** Note titles should be positive and specific.
-*** example
+** specificity
+*** Titles should (usually?) be positive and specific.
+    Because a positive title (usually?) contains more information.
+**** example
+     :PROPERTIES:
+     :ID:       d53dd756-cc2f-43f9-a919-5f39810e642c
+     :END:
+     "X doesn't work" can often be replaced with "Y requires Z".
+*** Often link targets deeper into a tree are better.
     :PROPERTIES:
-    :ID:       d53dd756-cc2f-43f9-a919-5f39810e642c
+    :ID:       46b695c5-617e-47a8-b699-ef2b7ec29e81
     :END:
-    "X doesn't work" can often be replaced with "Y requires Z".
-*** Negative titles are less actionable.
-** Note titles should be complete sentences (when possible).
-   :PROPERTIES:
-   :ID:       3305442a-e435-4f84-a403-9509963497b7
-   :END:
-   It increases the likelihood that they are atomic.
-** notes should be surprising
- https://notes.andymatuschak.org/z4KZ9973AoHhvM9Pj5Qrds48JXNbMEwVJmVRw
-** Often link targets deeper into a tree are better.
-   :PROPERTIES:
-   :ID:       46b695c5-617e-47a8-b699-ef2b7ec29e81
-   :END:
-*** the idea
-    Knowing A is related to X is good.
-    But if X is a long passage,
-    it's more helpful for A to link to a specific part of X,
-    and for that part of X to be visible from A.
-*** source: Andy Matuschak calls this "fine-grained association".
-    https://notes.andymatuschak.org/z68tVM68dEAuH4acs7HY6K76tTVzBdoBGKMZB
-** maybe ?? Use backlinks to define notes extrinsically
+**** the idea
+     Knowing A is related to X is good.
+     But if X is a long passage,
+     it's more helpful for A to link to a specific part of X,
+     and for that part of X to be visible from A.
+**** source
+     Andy Matuschak calls this "fine-grained association".
+     https://notes.andymatuschak.org/z68tVM68dEAuH4acs7HY6K76tTVzBdoBGKMZB
+*** Note titles that arecomplete sentences are good.
+    :PROPERTIES:
+    :ID:       3305442a-e435-4f84-a403-9509963497b7
+    :END:
+    It increases the likelihood that they are atomic.
+** Evergreen notes are good.
+*** file by concept > file by {resource, project, event ...}
+** Notes should be surprising.
+   https://notes.andymatuschak.org/z4KZ9973AoHhvM9Pj5Qrds48JXNbMEwVJmVRw
+** Use backlinks to define notes extrinsically.
    :PROPERTIES:
    :ID:       edca15b1-37f9-46ec-bb32-8a3090242b0d
    :END:
-   even before they have any intrinsic content.
+   even before a note has any intrinsic content,
+   it gives information by relating the things that link to it.
 *** ref, where I got the idea
     https://notes.andymatuschak.org/z2newCwFfd6iZFyf9bgspkbyt1G8wbQxJVgTK
+* reading
+** processing order
+*** ? [[id:c774af85-7ad0-4762-b28c-5e02d4881c8b][After filing something, know the whole note it went into.]]
+** ? read fast
+   some things just above zero time-weight
+** expect to be surproised
+*** Appreciate how suprising the content behind any link can be.
+    Surprisingly often, even for things I wrote,
+    I am surprised at how different following the link was from my expecation.
+**** example(s)
+     [[id:fe6020ff-3dfe-40ed-8724-e226eef4694a][fear of God : useful]]
+*** Something's content is not always elaboration.
+**** the idea
+     Remember this when deciding whether to follow a hyperlink.
+     The content targeted by the link
+     might veer offf in completely unexpected directions,
+     (even if you took the note!)
+     and often includes counterexamples, caveats, nuances.
+**** heralds would help
+* triage
+** If I find myself stuck trying to place it perfectly, move on.
+   It's in there, after all.
 * why
 ** Use notes to avoid preconceived conclusions.
    Writing an essay top-down implies the writer decides the conclusion first, and then tries to argue it. That's absurd!
@@ -71,7 +75,7 @@ https://notes.andymatuschak.org/z6C5H4eYH2A4omfNLuUcDiKibQ1hZG2RGNZ97
 ** passive reading|listening is (usually?) wasteful
    Think, ask questions about it, write, investigate other branches;
    don't feel obligated to keep following
-   someone else's train of thought.
+   someone else's sequence of thoughts.
 *** a reference with other refrences
  https://notes.andymatuschak.org/zX1WtJ4ouE8sjN1NgWHsGVg8ZnVfp5Kz74Vs
 *** 100% reading, 0% processing => nowhere
@@ -105,25 +109,6 @@ https://notes.andymatuschak.org/z6C5H4eYH2A4omfNLuUcDiKibQ1hZG2RGNZ97
    each (in general) item in a list of backlinks
    requires a context switch.
 ** [[id:ec4fab64-a155-47d4-80a5-46959c987934][Do I fear human superintelligence?]]
-* dubious methods
-** Would it be smart to map the day at each day's start?
-*** [[id:c73a2101-5ca7-45a0-ab85-51ad3953523c][Frequency is sometimes offered as an explanation.]]
-* ? tags v. nodes
-** Should tags be different from nodes? How different would tag nodes be from other nodes?
-* good advice
-** Appreciate how suprising the content behind any link can be.
-   Surprisingly often, even for things I wrote,
-   I am surprised at how different following the link was from my expecation.
-*** example(s)
-    [[id:fe6020ff-3dfe-40ed-8724-e226eef4694a][fear of God : useful]]
-** Remember that something's content is not always elaboration.
-*** the idea
-    Remember this when deciding whether to follow a hyperlink.
-    The content targeted by the link
-    might veer offf in completely unexpected directions,
-    (even if you took the note!)
-    and often includes counterexamples, caveats, nuances.
-*** heralds would help
 * Maybe what I should mindmap most is my practical notes.
   remember to look up from each
 * The writer guides the reader.

@@ -9,9 +9,6 @@
   the following external files have higher priority,
   because [[id:1df9170f-7044-488f-bf66-5a2c38f309d3][I recently processed this file]].
 ** [[id:9e45ccd9-d6e0-4870-8f13-cc11135334d0][how to use a knowledge graph]]
-   :PROPERTIES:
-   :ID:       9cd06bec-49d2-49fa-8d2b-59ff0cffde46
-   :END:
 *** if another in the see-also contains this one, maybe can omit it
     or let it be seen through the containing link
 ** [[id:d5a5a3ff-977a-405b-8660-264fb4e974a3][Hode]]
@@ -133,6 +130,14 @@
     such that subscribed readers
     can see those annotations from their target.
 ** ?
+*** "Read the last branch last {it's the point, these are about it}."
+    The most natural way to structure this would be
+    the node saying that is talking about its children,
+    not its brothers.
+    That most ensures the reader reads it completely
+    before processing the others.
+    In this sense there might be nothing unnatural
+    about a (sub)tree of many singleton branches.
 *** formalize the translation from emacs to graph operations
     Haskellers might want to help.
 *** cyclic subscriptions
@@ -209,6 +214,7 @@
      show them, rather than showing the whole title as one link.
 *** [[id:4df374c9-658c-440b-b520-2298f316c176][recursion schemes can be done in Rust]]
 *** cool idea: [[id:2daed6f3-a2e8-4f95-905e-52ecb5e6e4ee][annotation server]]
+*** When A has branch B with branch C, A can be using B to explain why it has C. There might reasonably be multiple such paths A to C.
 ** pressing*
    * = org-roam transplant first needs
 *** [#B] easy
@@ -229,7 +235,7 @@
      but should not delete the node's contains relationship to anything that doesn't appear as an org-child.
      (The easiest implementation of this would be to ignore order. Anything that would become new content on saving can be placed at the end of the content list.)
 **** DONE [[id:d0faf3c9-0a96-46e9-b5c3-e5c29db88cb9][repeated nodes in a view \ skg]]
-**** [[id:28d61c54-d474-4828-8ef9-e83b25c12ae8][herald more properties \ skg]]
+**** AWAITS ? [[id:28d61c54-d474-4828-8ef9-e83b25c12ae8][herald more properties \ skg]]
 **** DONE org buffers with multiple roots
      :PROPERTIES:
      :ID:       ba8fbc06-bb9c-4d69-bb1c-34cd1f80fdf4
@@ -238,8 +244,19 @@
 ***** bigger fix: consider multiple roots
       Rather passing around only a single list of FileNodes,
       pair that with a list of root IDs.
+**** quiet the "ID exists" herald
+     omit when possible, which is usually
+**** override the ordinary save command
 *** [[id:6d031428-eea3-4019-8122-80bd5fa6f9d4][rebuild buffer in Rust with the same structure \ skg]]
-*** [[id:7b2499c4-4c93-44dc-83b1-0a4b9175d6a8][containerward view]]
+*** link-sourceward view
+    serial
+**** generalize the Rust backpath rendering function
+     Takes a lambda involving (probably)
+       path_to_end_cycle_and_or_branches,
+     and a starting level.
+     The lambda can drop the first member of the path, or not.
+**** then eliminate further redundancy, if any
+*** [[id:7b2499c4-4c93-44dc-83b1-0a4b9175d6a8][backward views]]
 *** [[id:bc8fd4c3-0566-400c-96a8-0f4632e7fd1c][merging graph nodes]]
 *** [[id:96b1ca65-3afd-4840-8d84-a0642b1a1b4e][diffs in skg]]
 *** [[id:4bf53fb8-abb2-4bd2-9b56-d2374fbb931d][skg // sharing & privacy]]
@@ -261,8 +278,14 @@
 *** gradations of publication
 **** A user should be able to share which of another's data they have referred to (inc. subscription) even if they unwilling to share any data beyond that.
 *** [[id:91025e2c-2a28-4627-a25b-609de0030752][Sound effects for events would be cool.]]
-** later
-   Have [[id:9395f417-7e64-461f-ac7e-f7a95ce8d683][patience, these are badass to sacrifice in the short term]].
+** not pressing
+    Have [[id:9395f417-7e64-461f-ac7e-f7a95ce8d683][patience, these are badass to sacrifice in the short term]].
+*** show binary relationship label with optional intermediating node
+    esp. nice if you can filter on those labels,
+    or on an ontology they belong to that groups them
+*** show when a link is bi-directional
+*** list which links are in a node's recursive content
+*** [[id:e6e855d9-f2e8-456e-87d7-e82379ead9f1][show co-targeters, co-ancestors]]
 *** [#B] technical, not difficult
 **** a link could have a personal and public title
      that is, not the target, which obviously can have lots of both,

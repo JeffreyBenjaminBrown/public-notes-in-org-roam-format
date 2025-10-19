@@ -22,25 +22,26 @@
    that the user saved some of this data differently elsewhere,
    after this data was rendered.
 * method
-** non-Content children
-*** are not dedup'd from content
+** children whose treatment is not Content
+*** are *not* dedup'd from content
     This means that they can't be used when saving
     to determine their parent's contents, either.
 *** are rendered before (above) content
 *** can be content nonetheless
     For instance one of the parent's container's might be its child,
-    with relToOrgParent=Container,
+    with treatment=Container,
     even though it is also Content.
-** some metadata fields
-*** DONE id : obvious
-*** DONE relToOrgParent : revised, casing on current relToOrgParent
-*** DONE cycle: computed anew considering the whole buffer
-*** DONE focused: bool, retained
-*** DONE folded: bool, retained
-*** DONE mightContainMore: retained
-*** DONE repeat: computed anew considering the whole buffer
-*** DONE toDelete: false for anything to be built
-** case on each reltoorgparent
+** metadata fields to retain unchanged
+*** id
+*** treatment
+*** folded
+*** mightContainMore
+** metadata fields to recompute
+*** repeat
+*** cycle: computed anew considering the whole buffer
+*** focused: might be passed up from an alias
+*** toDelete: false for anything to be built
+** case on each treatment
 *** for Content children
 **** replace/supplement Content by reading
      If the parent node is not mightcontainmore,
@@ -60,21 +61,15 @@
       change its relationship to None.
       (It will thus be rendered before the content,
       just like everything else that is not content.)
-*** for Container children
-    verify the containment relatinoship for each to its parent.
-    If it still exists, rebuild it in order.
-    Otherwise, leave it in place but change its heralds --
-    mark it None (no relation to parent).
 *** for an AliasCol
     In the output rebuild its children from scratch,
     and don't iterate in the input into the AliasCol's children.
-*** for a SearchResult
-    Change its name reltoorgparent to None.
-*** for a None
-* retain metadata when replacing (node & proper subset of buffer)
+    If the focus is in an alias, hand it up to the AliasCol.
+*** for a ParentIgnores
+    process it normally, just without affecting the parent
+* retain treatment (and any other metadata?) when replacing (node & proper subset of buffer)
   When a backview replaces text,
-  it should retain the origin headline's
-  relationship to its org-parent.
+  it should retain the origin headline's treatment.
 * retain focus, folding on save
 ** for folding, see elisp/skg-org-fold.rs
 ** `org_from_node_recursive` should use its `focus` argument.
