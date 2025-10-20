@@ -95,6 +95,45 @@
 *** Collect thoughts.
 *** Make at least three links to anything you hope to keep.
 *** Horizontal and vertical relationships need not be reciprocal.
+** shine-through at a link
+*** definition
+**** precise definition -- at least of a special case
+     :PROPERTIES:
+     :ID:       dfa3372a-3dea-4c26-8a12-31ffba86ab3c
+     :END:
+     when a tree has
+       a node S (for source)
+         that has (maybe among other links)
+         a link L to node T (for target)
+           (T maybe needing to be part of a different tree),
+     and S contains S'
+     and T contains T'
+       such that S' links to T'
+**** vague definition
+***** example: a link to [[id:538d409f-9808-40ac-ae3b-1c34f5613c01][fantasy]] under which something from fantasy shines through
+***** it is the "_ from _  visible from _ through _"
+*** motivation
+**** it's nice to write
+     If S is not a containment root,
+     the reason S links to T can often be clarified
+     by including a link recursively contained in S
+     to something recursively contained in T.
+     (There might be other reasons to do it, too.)
+**** it's hard to read from T or T'
+     and this would be really nice,
+     because S' is saying something about T or T'.
+**** it's hard to read from S', though perhaps not dire.
+     Currently nothing indicates the
+     [[id:dfa3372a-3dea-4c26-8a12-31ffba86ab3c][relationship between S and S']].
+*** to decide
+**** Can S or T have multiple links?
+**** Can there be more distance between S and S'?
+**** Can there be more distance between T and T'?
+*** TODO needs heralding
+    herald at [[id:dfa3372a-3dea-4c26-8a12-31ffba86ab3c][the linking node S']],
+    indicating the relationship between
+      (its immediate container? some containment predecessor?)
+      and its link target
 * motivation and soul-searching for skg
 ** [[id:320e5181-cf0d-48bf-b024-d0e6c4c309c2][Do I fear personal integration?]]
 ** Do I fear human superintelligence?
@@ -247,7 +286,6 @@
 **** quiet the "ID exists" herald
      omit when possible, which is usually
 **** override the ordinary save command
-*** [[id:6d031428-eea3-4019-8122-80bd5fa6f9d4][rebuild buffer in Rust with the same structure \ skg]]
 *** [[id:7b2499c4-4c93-44dc-83b1-0a4b9175d6a8][backward views]]
 *** [[id:bc8fd4c3-0566-400c-96a8-0f4632e7fd1c][merging graph nodes]]
 *** [[id:96b1ca65-3afd-4840-8d84-a0642b1a1b4e][diffs in skg]]
@@ -272,6 +310,7 @@
 *** [[id:91025e2c-2a28-4627-a25b-609de0030752][Sound effects for events would be cool.]]
 ** not pressing
     Have [[id:9395f417-7e64-461f-ac7e-f7a95ce8d683][patience, these are badass to sacrifice in the short term]].
+*** [[id:25bea258-98e5-4154-b787-98acf64e8ff6][retain focus, folding on save]]
 *** show binary relationship label with optional intermediating node
     esp. nice if you can filter on those labels,
     or on an ontology they belong to that groups them
@@ -385,42 +424,6 @@
 *** private lens onto your public notes ~ subscription
     They would work the same way.
     Could even be a private lens onto a public subscription.
-* shine-through at a link
-** definition
-*** precise definition -- at least of a special case
-    :PROPERTIES:
-    :ID:       dfa3372a-3dea-4c26-8a12-31ffba86ab3c
-    :END:
-    when a tree has
-      a node S (for source)
-        that has (maybe among other links)
-        a link L to node T (for target)
-          (T maybe needing to be part of a different tree),
-    and S contains S'
-    and T contains T'
-      such that S' links to T'
-*** vague definition
-**** example: a link to [[id:538d409f-9808-40ac-ae3b-1c34f5613c01][fantasy]] under which something from fantasy shines through
-**** it is the "_ from _  visible from _ through _"
-** motivation
-*** it's nice to write
-    If S is not a containment root,
-    the reason S links to T can often be clarified
-    by including a link recursively contained in S
-    to something recursively contained in T.
-    (There might be other reasons to do it, too.)
-*** it's hard to read
-    Currently nothing indicates the
-    [[id:dfa3372a-3dea-4c26-8a12-31ffba86ab3c][relationship between S and S']].
-** to decide
-*** Can S or T have multiple links?
-*** Can there be more distance between S and S'?
-*** Can there be more distance between T and T'?
-** TODO needs heralding
-   herald at [[id:dfa3372a-3dea-4c26-8a12-31ffba86ab3c][the linking node S']],
-   indicating the relationship between
-     (its immediate container? some containment predecessor?)
-     and its link target
 * [[id:b1c2091b-7441-4459-b49e-fac3fe1ed918][skg outreach]]
 ** explaining skg
    :PROPERTIES:
@@ -480,6 +483,7 @@
    the Rust driver is enormous.
 ** [[id:129f20c9-adf5-43dc-933a-3bc21babe152][Have Rust act on the s-exp from Emacs.]]
 * WORKED GREAT
+** mostly done - [[id:6d031428-eea3-4019-8122-80bd5fa6f9d4][rebuild buffer in Rust with the same structure \ skg]]
 ** Simplify the Emacs transmission.
    Just send the text with its properties. Let Rust figure out everything else. It will no longer be procedural, subjeect to cursor and other errors.
 ** [[id:170e4f79-4f5e-49a6-9ce1-8e42c0332100][the meaning of sharing in a knowledge graph]]

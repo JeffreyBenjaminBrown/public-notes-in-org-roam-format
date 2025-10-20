@@ -2,20 +2,89 @@
 :ID:       4bf53fb8-abb2-4bd2-9b56-d2374fbb931d
 :END:
 #+title: skg // sharing & privacy
-* extend clobber_none_fields_with_data_from_disk
+* terms
+** 'locally invisible' vs. 'locally visible'
+   All of one's own nodes are locally visible.
+   If one's node S overrides another's node T,
+   and T recursively contains T' but S' hides that from view,
+   then S' might be locally visible or locally invisible.
+   It is locally visible if, in the repos one sees
+     (not just the ones one can edit)
+     there exists node N, such that
+       N recursively contains S', and
+       N is not overridden.
+* TODO [#A] maybe 'overrides' is unnecessary
+  If a user has a node that subscribes to this one,
+  they probably want to see that one rather than this one.
+* TODO extend clobber_none_fields_with_data_from_disk
   to handle the sharing relations in schema.tql.
-* multi repo
-* a user config file
-** include for each repo
+* TODO multi repo
+** in config, include for each repo
    Path to repo.
    Author-repo shorthand.
    Owned by user (bool).
    Color.
    Privacy level (for filtering, later).
-* [[id:858cfdcd-1d7a-4707-a5dc-837c7c13e2d4][fetching a skg document (with sharing)]]
+* TODO orgnode metadata: include source repo
+  Used for display in Emacs,
+  but ignored by Rust when Emacs sends the buffer back,
+  instead computed anew.
+* TODO probably : index source repo
+** seems natural, but not actually necessary
+   if we're willing to have to try a few repos
+   each time we look for a file
+* TODO moving nodes across repos
+** a way to move nodes across repos
+   Make the node a child of a new kind of treatment=Repo node.
+   Saving moves the file and,
+   if node repo is indexed, updates the index(es).
+** a way to recognize when a .skg file was moved outside of skg
+*** search for the node in the repo it is indexed under
+*** if not found
+    then search all the other repos,
+    and update the index
+* TODO viewing the data
+** all of these should be optional
+** heralds
+*** indicate if N's container is locally invisible
+    Resembles being an orphan | a root.
+*** indicate if something overrides or subscribes
+    'shr' herald = 'there exists sharing data'
+*** indicate if there exists unincorporated content
+** trees
+*** toggle 'forward-sharing-view'
+    such a view shows 2 branches below the node it was made for
+**** what it subscribes to
+     divide the content of each subscribed-to node into
+***** unincorporated content
+      These are content of the subscribed-to node
+      that have not been incorporated into the user's view.
+      They are only visible to the user here
+      (or, if multiply contained,
+      from other nodes not belonging to the user).
+***** hidden content
+      divide the hidden content of each subscribed-to node int
+****** content visible elsewhere
+       The subscribing node does not contain it,
+       but some other node of the user's does.
+****** buried content
+       This content is still visible,
+       but only from the subscribed-to node.
+*** toggle 'backward-sharing-view'
+    Of these, subscriptions seems by far the most interesting,
+    but might as well show all three.
+**** what subscribes to it
+**** what overrides it
+**** what it has been hidden from
+* view
+  things to make visible
+** whether something overrides | is overridden
+   "ovr" and "ovn"
+** what something subscribes to
+** whether something has hidden content
 * saving (with sharing)
-  Emacs's s-exp for Rust should elicit
-  appropriate changes regarding foreign nodes.
+  Save only what is yours to control.
+  Have ways to manipulate hiding and overriding.
 * operations on nodes
 ** [[id:9301546a-f6d7-42ce-9034-8e3e0bc5536e][merging two nodes]]
 ** "ignore" a node
