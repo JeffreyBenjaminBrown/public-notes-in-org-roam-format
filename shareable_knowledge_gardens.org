@@ -482,6 +482,7 @@
    Would be honorable, but looks hard --
    the Rust driver is enormous.
 ** [[id:129f20c9-adf5-43dc-933a-3bc21babe152][Have Rust act on the s-exp from Emacs.]]
+** [[id:1f87487f-af4a-4a32-84eb-da742b0a3f2e][an org-branch can be read-only and foldable]]
 * WORKED GREAT
 ** mostly done - [[id:6d031428-eea3-4019-8122-80bd5fa6f9d4][rebuild buffer in Rust with the same structure \ skg]]
 ** Simplify the Emacs transmission.

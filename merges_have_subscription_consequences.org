@@ -1,9 +1,0 @@
-:PROPERTIES:
-:ID:       99ae154c-5dfc-4a95-9bdf-af09159c6da4
-:END:
-#+title: merges have subscription consequences
-* problem
-  What if N is subscribed to S, and S is merged with T?
-* two possible solutions
-** keep multiple IDs for the merged node
-** inform subscribers to the node whose ID has vanished

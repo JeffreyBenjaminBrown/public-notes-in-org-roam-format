@@ -1,4 +1,0 @@
-:PROPERTIES:
-:ID:       774a1e57-db8a-431b-808a-283204744200
-:END:
-#+title: Merges should be recorded via extra_id.

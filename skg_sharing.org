@@ -13,7 +13,7 @@
      there exists node N, such that
        N recursively contains S', and
        N is not overridden.
-* TODO [#A] maybe 'overrides' is unnecessary
+* TODO [#A] 'overrides' seems unnecessary
   If a user has a node that subscribes to this one,
   they probably want to see that one rather than this one.
 * TODO extend clobber_none_fields_with_data_from_disk
@@ -33,27 +33,49 @@
 ** seems natural, but not actually necessary
    if we're willing to have to try a few repos
    each time we look for a file
-* TODO moving nodes across repos
-** a way to move nodes across repos
-   Make the node a child of a new kind of treatment=Repo node.
-   Saving moves the file and,
-   if node repo is indexed, updates the index(es).
-** a way to recognize when a .skg file was moved outside of skg
-*** search for the node in the repo it is indexed under
-*** if not found
-    then search all the other repos,
-    and update the index
+* TODO editing
+** TODO editing a foreign node
+   The user can edit the content of a foreign node F.
+   When they save the buffer,
+   its title and content are scanned for modifications.
+   If there is any mismatch,
+   that node in the view is replaced with a new node L (for local).
+   L begins with a subscription to F,
+   a list of content (which probably mostly duplicates F's),
+   and a list of 'hidden' nodes,
+   which begin as any content in F not in L.
+** TODO editing a subscription
+   Suppose local node L subscribes to foreign node F.
+   In L, a new kind of edit is now possible,
+   involving the content of F.
+   Anything deleted from L, if it is content of F,
+   gains a "hidden from" relationship to L.
+   Anything in the list (set of branches)
+     L / subscriptions / subscribed to F / unincorporated content /
+   can be incorporated by moving it anywhere else,
+   or by simply deleting it from that list.
+   In either case it becomes hidden from L.
+** TODO moving nodes across repos
+*** a way to move nodes across repos
+    Make the node a child of a new kind of treatment=Repo node.
+    Saving moves the file and,
+    if node repo is indexed, updates the index(es).
+*** a way to recognize when a .skg file was moved outside of skg
+**** search for the node in the repo it is indexed under
+**** if not found
+     then search all the other repos,
+     and update the index
 * TODO viewing the data
 ** all of these should be optional
 ** heralds
-*** indicate if N's container is locally invisible
+*** TODO ? indicate if N's container is locally invisible
     Resembles being an orphan | a root.
-*** indicate if something overrides or subscribes
-    'shr' herald = 'there exists sharing data'
+*** indicate if something subscribes or is subscribed to
+    'subs' and 'subd'
 *** indicate if there exists unincorporated content
-** trees
-*** toggle 'forward-sharing-view'
-    such a view shows 2 branches below the node it was made for
+** trees : 'sharing branches view'
+   such a view shows 3 branches
+*** the 3 branches
 **** what it subscribes to
      divide the content of each subscribed-to node into
 ***** unincorporated content
@@ -70,54 +92,32 @@
 ****** buried content
        This content is still visible,
        but only from the subscribed-to node.
-*** toggle 'backward-sharing-view'
-    Of these, subscriptions seems by far the most interesting,
-    but might as well show all three.
 **** what subscribes to it
-**** what overrides it
-**** what it has been hidden from
-* view
-  things to make visible
-** whether something overrides | is overridden
-   "ovr" and "ovn"
-** what something subscribes to
-** whether something has hidden content
-* saving (with sharing)
-  Save only what is yours to control.
-  Have ways to manipulate hiding and overriding.
-* operations on nodes
-** [[id:9301546a-f6d7-42ce-9034-8e3e0bc5536e][merging two nodes]]
-** "ignore" a node
-*** what it means
-   If node N subscribes to node S,
-   any content-descendent of S can be ignored from N,
-   not just S's immediate (first generation of) content.
-   Or maybe just ignore globally.
-*** when it happens
-    When the user deletes from or moves from
-    foreign content.
-** "incorporate" a node
-*** what it means
-   This causes it to be ignored
-   from its initial subscriber,
-   but subscribed to somewhere else.
-*** when it happens
-    When foreign node F contains G,
-    and G is moved.
-** subscribe to a node
-*** when it happens
-    Invisibly, when someone modifies a foreign node.
-    Explicitly, when someone adds a subscription.
-* metadata, flatter buffer
-** elaboration
-   The title and, under it, metadata (author, ...)
-   should be a special first-level node,
-   first among its siblings.
-** [[id:1f87487f-af4a-4a32-84eb-da742b0a3f2e][an org-branch can be read-only and foldable]]
-* allow publishing online
-  Make a page for each node.
-  For each uncontained node, the page should be saved in text from a recursive traversal, with anchors to anything that needs it. (My org-roam publishing code makes github-style anchors.)
-  Generate for each node an initial "nodes linking here" branch, and a second "nodes subscribing here" branch. Private nodes should be excluded from this public view of the public notes. (They could be included in a private view of the public notes.)
-* [[id:5eba18fb-8524-4073-b23c-b6fe5aa153f1][interactions between links, subscriptions and comments]]
-* show foreign moves of incorporated=merged=subscribed-to nodes
-  If they moved something but you merged it with something of your own, maybe don't show the move, because you already placed it and you're already tracking it.
+     need not show their content
+**** what it is hidden from
+     Probabluy not very interesting.
+     Surely not something the user will often see.
+*** their treatment
+**** if any of them would be empty, it is not shown
+**** if 'what it subscribes to' is modified
+     then that is taken as fact.
+     But its content and hiddden lists is not changed --
+     so anything new it subscribes to is shown entirely as
+     'unincoroporated content',
+     and it still hides any content of
+     anything it no longer subscribes to
+     that it was hiding before.
+**** noops : 'what subscribes to it' and 'what it is hidden from'
+     These can be edited, to no effect.
+     The way to change those is to change,
+     respectively, the subscriber or the hider.
+* later
+** allow publishing online
+   Make a page for each node.
+   For each uncontained node, the page should be saved in text from a recursive traversal, with anchors to anything that needs it. (My org-roam publishing code makes github-style anchors.)
+   Generate for each node an initial "nodes linking here" branch, and a second "nodes subscribing here" branch. Private nodes should be excluded from this public view of the public notes. (They could be included in a private view of the public notes.)
+* seems unimportant
+** [[id:5eba18fb-8524-4073-b23c-b6fe5aa153f1][interactions between links, subscriptions and comments]]
+* DONE
+** don't worry about foreign moves of already incorporated nodes
+   If they moved something but you merged it with something of your own, maybe don't show the move, because you already placed it and you're already tracking it.

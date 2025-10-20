@@ -5,5 +5,19 @@
 * see also
 ** [[id:18047d85-01cc-4323-bcc0-27c24524dc98][graph merges, e.g. merges of whole repos of nodes]]
 * PITFALL: add_missing_info_to_trees replaces IDs with PIDs
-* [[id:99ae154c-5dfc-4a95-9bdf-af09159c6da4][merges have subscription consequences]]
-* [[id:774a1e57-db8a-431b-808a-283204744200][Merges should be recorded via extra_id.]]
+* merges have subscription consequences
+** problem
+   What if N is subscribed to S, and S is merged with T?
+** two possible solutions
+*** keep multiple IDs for the merged node
+*** inform subscribers to the node whose ID has vanished
+* Merges should be recorded via extra_id.
+* the idea
+The result has all the content of both nodes,
+and both IDs.
+Links to either node now go to the merged node.
+Merging is flat and simple -- reordering content,
+or merging content within the merged notes
+(potentially at different levels)
+can only be done manually.
+* Both nodes must be locally owned.
