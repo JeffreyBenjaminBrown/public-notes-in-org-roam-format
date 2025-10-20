@@ -2,9 +2,11 @@
 :ID:       f8ec8fd3-c9f2-4272-ab41-be9aa687d141
 :END:
 #+title: magnanimity
+* MERGE ? [[id:1767a293-ee6a-47b7-b9b8-e8b2f05dd87f][assertiveness]]
 * see also
-** [[id:1ba589c3-00f6-45a8-b5f3-e6c697e89030][light belligerence \ comedy]]
+** [[id:1ba589c3-00f6-45a8-b5f3-e6c697e89030][comedy / light belligerence]]
 ** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][daring]]
+** [[id:d2c78541-6092-49c0-9cb2-e3cefdc24b71][flirtation]]
 * Magnanimity is related to justice, like what you owe yourself.
   :PROPERTIES:
   :ID:       44ab3398-1386-4164-813a-d11462ccb427

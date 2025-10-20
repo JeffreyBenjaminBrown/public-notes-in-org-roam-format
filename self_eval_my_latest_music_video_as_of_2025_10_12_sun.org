@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       b3297b27-6fdf-4ad6-bdfa-6ddd76293ed8
+:END:
+#+title: self-eval : my latest music video as of <2025-10-12 Sun>
+Unshared so far (<2025-10-12 Sun>).
+Times correspond to the video,
+  not the (original, at least) Reaper MIDI recording.
+The notes were taken in serial.
+* [[id:d206b9f1-016e-4dd2-a083-dc12d98dd157][don't stand up]]
+** example in this video
+   :PROPERTIES:
+   :ID:       a1c7913a-ecf8-453f-aa6d-046ab77dc900
+   :END:
+   I stand up for a while at 5:30. Annoying.
+     It's long; cut that head off.
+* still too much harmony relative to rhythm
+* rhythmic motifs too fast
+* Has to be from the other side of the room.
+* ambient around 15:30
+  and great a minute or two thereafter
+  it's like I chilled out, got perspective
+* Maybe ask sometimes, what is the mood I am producing?
+* Maybe never let completely go of the last theme.
+  Or never seem to.
+  If I do, remember it, and bring it back transformed,
+  such that it was there the whole time.
+* I like how it getes at 29:50 again
+  or a bit before
+* long melodic passages
+* Individual bass notes can last longer.
+* Trade off which finger is on the bass note for legato wanderings.
+* There are many unexplored heights of speed, too.
+  not just magnitutde but ways to use speed

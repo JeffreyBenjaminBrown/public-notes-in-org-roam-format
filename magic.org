@@ -3,6 +3,7 @@
 :END:
 #+title: magic
 * [[id:55c4978f-fc00-460d-95d8-43185241d1cc][extreme $ otherness | difference]]
+* [[id:0df57048-a573-4a11-aa34-05ee94dd7536][forgetting | memory management]]
 * [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
 * [[id:b745d109-6d7f-4638-beab-97bd26c8a936][awe]]
 * [[id:7884d437-6065-4e05-bf06-e2a0771cf507][love + magic]]

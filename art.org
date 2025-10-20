@@ -22,6 +22,7 @@
    :ID:       538d409f-9808-40ac-ae3b-1c34f5613c01
    :END:
 *** [[id:ba15c32b-c09d-4943-8f0a-c853a67c81f3][philosophy v. patriarchy]]
+** [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]]
 * [[id:b449bd05-ac06-4548-8982-3a6eb05f5d91][how constraints help \ art]]
 * [[id:dccc0ff5-4152-45b8-811d-7b237d38dbba][abstract art]]
 * [[id:461ac824-69d6-4b73-bbe8-ee3e41bdc915][Art highlights extremes.]]

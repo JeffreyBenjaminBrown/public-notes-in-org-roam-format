@@ -9,6 +9,9 @@
   :END:
 ** caring v. doing
 ** [[id:d14881a6-61da-4513-9d3f-6d78a6882874][I still care, and _ (usually?) knows it.]]
+** [[id:b9f666f2-0035-42df-b674-86049697e9e0][defense | caution]]
+*** [[id:f88bacfa-67ba-4020-8a3e-87a02bded425][Safeguard the culture.]]
+* [[id:3fea916e-26ed-441c-883c-e642b205bf05][All that matters is how we make each other feel.]]
 * [[id:e65f32b5-ae35-4276-82b9-35700627788d][universal baseline love]]
 * ? humility -> generosity
   :PROPERTIES:

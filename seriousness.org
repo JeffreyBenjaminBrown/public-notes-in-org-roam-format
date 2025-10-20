@@ -4,7 +4,7 @@
 :END:
 #+title: seriousness, commitment, and their opposites
 = a form of inconsistency
-* merge : [[id:a55842c2-536e-4581-b04b-026715e646d1][duty]]
+* merge : [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]]
 * definitional
 ** sobriety
 ** constancy

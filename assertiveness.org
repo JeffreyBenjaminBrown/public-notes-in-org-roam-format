@@ -3,13 +3,16 @@
 :END:
 #+title: assertiveness
 * [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][confidence]]
-* The good kind is moved by circumstance, not sought.
-  :PROPERTIES:
-  :ID:       a51d5b7e-4fc5-47bc-a9ca-2524ba9acace
-  :END:
-  assertiveness being against other people, but
-  creativity with the environment is to be encouraged.
-* Lies on a spectrum between aggression and passivity.
+* [[id:9503e93c-e13f-4be2-ad59-66350feeb21f][privacy]]
+* [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]]
+* [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
+** Assertiveness lies on a spectrum between [[id:9548d89f-13c8-444d-b290-cfc25b86cea7][aggression]] and [[id:aaed11f4-a8c9-4743-9a8e-23e3ae162e89][passivity]].
+** The good kind is moved by circumstance, not sought.
+   :PROPERTIES:
+   :ID:       a51d5b7e-4fc5-47bc-a9ca-2524ba9acace
+   :END:
+   assertiveness being against other people, but
+   creativity with the environment is to be encouraged.
 * It is a method of critical thinking.
 * Outspokenness.
 * Identify claims lacking substance, details or evidence.

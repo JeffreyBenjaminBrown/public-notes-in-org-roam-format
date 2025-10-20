@@ -6,12 +6,14 @@
 * etymology
 ** Power implies choice; energy only possibility.
 * kinds
-** [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][God]]
-** [[id:21577208-ba52-4105-8884-355fa27f128f][public influence]]
-** [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]]
+** [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaning]]
+** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
+** [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]] , [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]] , [[id:001d7913-c431-461c-92ae-a6a39394856c][processing]]
 *** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
     Logic impels energy, and among logic, solutions especially.
 ** [[id:2aafd0d3-96d9-4be2-a2b5-a2dfe15017f7][labor]] and [[id:5357b637-c959-455f-b171-429390edbc04][conflict]]
+** [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][God]]
+** [[id:21577208-ba52-4105-8884-355fa27f128f][public influence]]
 ** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
 * [[id:c893937e-bca4-4a77-aa6c-ad481bf1d042][the limits of logic]]
 * [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][balance]]
