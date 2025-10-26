@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b56df75b-6166-43f4-bf12-1fc2981d2ef1
+:END:
+#+title: control orientation
+* definition
+** is a psychological term meaning the ability to focus on what you can control and not worry about the rest.
+   [[id:408c8a33-653e-4330-afcb-4ae3a62fcfac][according to John Amaechi]]
+* ? lack of curiosity
+* ? fatalism

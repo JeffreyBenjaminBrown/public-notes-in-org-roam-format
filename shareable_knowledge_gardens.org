@@ -275,6 +275,8 @@
      (The easiest implementation of this would be to ignore order. Anything that would become new content on saving can be placed at the end of the content list.)
 **** DONE [[id:d0faf3c9-0a96-46e9-b5c3-e5c29db88cb9][repeated nodes in a view \ skg]]
 **** AWAITS ? [[id:28d61c54-d474-4828-8ef9-e83b25c12ae8][herald more properties \ skg]]
+***** DONE quiet the "ID exists" herald
+      omit when possible, which is usually
 **** DONE org buffers with multiple roots
      :PROPERTIES:
      :ID:       ba8fbc06-bb9c-4d69-bb1c-34cd1f80fdf4
@@ -283,17 +285,18 @@
 ***** bigger fix: consider multiple roots
       Rather passing around only a single list of FileNodes,
       pair that with a list of root IDs.
-**** quiet the "ID exists" herald
-     omit when possible, which is usually
 **** override the ordinary save command
-*** [[id:7b2499c4-4c93-44dc-83b1-0a4b9175d6a8][backward views]]
 *** [[id:bc8fd4c3-0566-400c-96a8-0f4632e7fd1c][merging graph nodes]]
+*** [[id:7b2499c4-4c93-44dc-83b1-0a4b9175d6a8][backward views]]
 *** [[id:96b1ca65-3afd-4840-8d84-a0642b1a1b4e][diffs in skg]]
 *** [[id:4bf53fb8-abb2-4bd2-9b56-d2374fbb931d][skg // sharing & privacy]]
 *** transfer org-roam to skg
 **** [[id:c0465799-391d-446f-a957-28ff65d72e10][parsing initial super-indented org-children in org-roam data]]
 ** ? before I can responsibly release it
 *** document user obligation : [[id:83f4b23d-1f74-4dbb-9e22-2b121043362a][no two nodes with the same ID]]
+*** point out transactional fragility
+    Each save is to three "media": the filestore, TypeDB and Tnativy.
+    If any one of them fails, things could probably get confusing.
 ** the social experience
 *** the social experience of being hidden
 **** mitigation ? anonymize hiders
@@ -310,7 +313,15 @@
 *** [[id:91025e2c-2a28-4627-a25b-609de0030752][Sound effects for events would be cool.]]
 ** not pressing
     Have [[id:9395f417-7e64-461f-ac7e-f7a95ce8d683][patience, these are badass to sacrifice in the short term]].
-*** [[id:25bea258-98e5-4154-b787-98acf64e8ff6][retain focus, folding on save]]
+*** [[id:7dd8d9fd-8e7f-4719-a547-554eb182beb1][rescue smsn into org]]
+*** [[id:2cacb9e0-074a-4ae7-a889-b170a355923f]["It, this and these" make tree relationships easy.]]
+*** [[id:c84d8ff7-030f-4ff1-9bdd-380f5304b235][make org-mode indentation changes less noisy]]
+*** [[id:91025e2c-2a28-4627-a25b-609de0030752][sound effects for skg]]
+*** [[id:90546bfd-e191-4664-a88f-029d8ba710de][Auto-parse notes with punctuation grammar.]]
+*** [[id:18047d85-01cc-4323-bcc0-27c24524dc98][graph merges, e.g. merges of whole repos of nodes]]
+*** share a participatory website requiring no installation
+    The user can write in yours even without having installed anything on theirs. They can login with a pseudonym of their choosing, move stuff around, add things, label things. They get their view onto my data, and can show it to others. They can't delete things, and when they rename something its original title becomes an alias, but they can create name clashes to try to bury it.
+** even less pressing
 *** show binary relationship label with optional intermediating node
     esp. nice if you can filter on those labels,
     or on an ontology they belong to that groups them
@@ -342,13 +353,8 @@
 **** [[id:a67cad81-1bf5-442b-a149-4d819e050f00][Claude suggested, kind of]]
 *** Optimize for serendipity?
 **** [[id:c46df20a-8bd3-4d69-877e-229f8c487e94][Claude]]'s idea
-*** share a participatory website requiring no installation
-    The user can write in yours even without having installed anything on theirs. They can login with a pseudonym of their choosing, move stuff around, add things, label things. They get their view onto my data, and can show it to others. They can't delete things, and when they rename something its original title becomes an alias, but they can create name clashes to try to bury it.
 *** [[id:6ed5be66-787c-479c-8119-cb340a80d72a][ternary rather than binary containment relationship]]
-*** [[id:7dd8d9fd-8e7f-4719-a547-554eb182beb1][rescue smsn into org]]
-*** [[id:18047d85-01cc-4323-bcc0-27c24524dc98][graph merges, e.g. merges of whole repos of nodes]]
 *** later still
-**** [[id:2cacb9e0-074a-4ae7-a889-b170a355923f]["It, this and these" make tree relationships easy.]]
 **** put your own order on common categories: further definition, instances, ...
 **** ? comment files
 ***** why not
@@ -389,31 +395,6 @@
 *** what did I mean
 **** report where a new root matches earlier words
      and synonyms
-*** Sound effects for events would be cool.
-    :PROPERTIES:
-    :ID:       91025e2c-2a28-4627-a25b-609de0030752
-    :END:
-**** elaboration | definition
-     The user could "make their own game",
-     assign sound effects to different graph events.
-**** example events, all social
-***** someone did something* with your node
-****** referenced
-****** subscribed
-****** described
-****** asked about
-****** used as a realtionship
-***** The sound effect could also depend on how subscribed-to the place they did that is.
-      and recursively -- a calculation comparable to pagerank
-**** ? Could similar events be enjoyably defined for one's own notes?
-     Is there an algorithm for thinking in a graph?
-*** Auto-parse notes with punctuation grammar.
-    Between any two periods, where neither is part of a large punctuation block,
-    Divide first on the punctuation symbol with fewer repeats, where for instance // and ->-> have an equal number.
-    Divide recursively until at "no-punctuation atoms". If an atom doesn't exist, make it. If there were brackets around an atom, remove them. If the atom was part of a list in the brackets before outer punctuation, create similar relationships for each member. Then create the meta-relationships, the 2-meta-relationships, etc. until consuming the "no isolated periods" sentence.
-    Preserve the original text from which the relationships were made. The user can change the parse, e.g. that a period should have bound first rather than last, by adding brackets with a number between the first two, which are different in case they will need a precedence. () has precedence 1, (( )) precedence 2, ([ ]) also precedence 2, but (0( )) has precedence 0, and precedence can go negative.
-    Would I have a use for ([ )]?
-*** [[id:c84d8ff7-030f-4ff1-9bdd-380f5304b235][make org-mode indentation changes less noisy]]
 ** outreach / [[id:b06251ae-3ed5-4805-a5f4-d98557fa7754][explaining skg]]
 ** outreach / [[id:0ec06d86-92c1-4690-ab27-eaa1520aaf8e][non-obvious implied features]]
 ** dubious
@@ -484,8 +465,9 @@
 ** [[id:129f20c9-adf5-43dc-933a-3bc21babe152][Have Rust act on the s-exp from Emacs.]]
 ** [[id:1f87487f-af4a-4a32-84eb-da742b0a3f2e][an org-branch can be read-only and foldable]]
 * WORKED GREAT
-** mostly done - [[id:6d031428-eea3-4019-8122-80bd5fa6f9d4][rebuild buffer in Rust with the same structure \ skg]]
+** [[id:6d031428-eea3-4019-8122-80bd5fa6f9d4][rebuild buffer in Rust with the same structure \ skg]]
 ** Simplify the Emacs transmission.
    Just send the text with its properties. Let Rust figure out everything else. It will no longer be procedural, subjeect to cursor and other errors.
 ** [[id:170e4f79-4f5e-49a6-9ce1-8e42c0332100][the meaning of sharing in a knowledge graph]]
 ** [[id:b72d4277-eced-48b9-85da-b917d9a4aad4][aliases]]
+** [[id:25bea258-98e5-4154-b787-98acf64e8ff6][retain focus, folding on save]]

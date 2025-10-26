@@ -2,17 +2,34 @@
 :ID:       5d06a355-657f-44c4-84be-cae4ed93a28a
 :ROAM_ALIASES: rationality logic order
 :END:
-#+title: logic | order
-* see also [[id:001d7913-c431-461c-92ae-a6a39394856c][processing]]
+#+title: logic | order | rationality
+* MERGE ? [[id:001d7913-c431-461c-92ae-a6a39394856c][processing]]
+* see also
+** [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][nothingness]]
+* [[id:b56df75b-6166-43f4-bf12-1fc2981d2ef1][control orientation]]
 * reconception
+  :PROPERTIES:
+  :ID:       404db442-b90a-4eb6-8d33-f3ac329cf2ef
+  :END:
 ** objects to reconceive
+*** an algorithm
+    It is enjoyable, strangely,
+    the experience of reconceiving an algorithm,
+    starting from scratch.
 *** the self
+    :PROPERTIES:
+    :ID:       48264e3c-03d7-43b5-a92f-c5eb051bd44c
+    :END:
+    To recognize a problem in oneself.
+    To discover (another) (feasible) hope.
 *** one's relationship to another
-**** That should likely precede reconceiving of the other, if the latter ever.
-**** Generalizing, [[id:8647bcfc-d5ef-45c3-b6ad-fc7789f0fad2][forgiveness]] is a way to reconceive a relationship.
+**** [[id:8647bcfc-d5ef-45c3-b6ad-fc7789f0fad2][forgiveness]]
      :PROPERTIES:
      :ID:       f1ef6548-3323-4be1-b3c2-8cb38aec7b21
      :END:
+     Forgiveness is a way of
+     reconceiving one's relationship to another.
+*** [[id:786eebcb-c64d-4cf4-8448-76def28fd7e0][of another (person)]]
 *** a problem
 *** a joy
 * star-system and interstar-system
@@ -36,6 +53,11 @@
 *** [[id:63b8cda1-44f2-433d-8691-f27075d133cd][far out]]-ness
 ** [[id:18eb5d5a-d546-40f1-96f9-bb56bc11eea0][authenticity]]
 *** [[id:b7f1bb10-4fbf-4e10-8aac-b04923ad468e][honesty]]
+** the way the edge of knowing feels
+   :PROPERTIES:
+   :ID:       c4bb8436-7b27-4a4d-b357-c61476b207c2
+   :END:
+*** "[[id:e10fa73d-723f-4772-99d9-2ece218d4175][Beauty as the interface between the comprehensible and the incomprehensible]]"
 * [[id:195f4d81-c0ff-4e61-9218-8a1a633db798][emotional logic]]
 * [[id:a1487b9c-70d9-493a-b61e-e512def4a0d5][freedom | independence]]
 * [[id:594df21f-51c9-485c-85a1-cf943f325219][consistency | irrationality]]

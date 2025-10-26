@@ -32,11 +32,13 @@
 * patriarchy
 :PROPERTIES:
 :ID:       ba15c32b-c09d-4943-8f0a-c853a67c81f3
+:ROAM_ALIASES: tyranny
 :END:
 ** It is emotionally impoverished.
 *** Imagine the cloistered, bin-laden-in-a-cave ignorance of an immoral in power who refuses to see their immorality.
 *** People can love you deeply, if you are good.
 ** [[id:9e284bc3-8b7e-405e-ba71-b8f4311bd2c6][if philosophy battled the patriarchy , in everyone's mind]]
+** [[id:8dc03133-c2c7-46e2-8ec2-8441394dd2df][Those who resist tyranny through art might work toward a post-mortem payoff.]]
 * horrible [[id:e4a8cea1-c2ed-4948-87c1-a8a545a78fa5][lessons from getting banned from Microtonal Guitarist]]
 * [[id:3151d7aa-df49-4f99-834c-6edfffc31131][fantasies about strange kinds of power]]
 * packing

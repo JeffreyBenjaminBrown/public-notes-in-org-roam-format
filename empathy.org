@@ -5,6 +5,12 @@
 * = understanding people
 * ? Even if it cannot be addressed directly, comment on it artistically.
   comedy, drama, metaphor, mimicry
+* Investigate someone for better empathy.
+  :PROPERTIES:
+  :ID:       75e8bdbb-b62f-4456-849e-0e2ffd2154bf
+  :END:
+** Collect information to reduce the amount of conjecture required to take another's perspective.
+** TODO Try taking someone's perspective, and list what I wish I knew about what they know/believe/feel, esp. what I could ask about.
 * The best art for studying empathy, probably, are novels with a diverse. realistic set of characters.
   :PROPERTIES:
   :ID:       cd901214-ae81-4976-a44c-e9a528e133f7
@@ -46,3 +52,9 @@
 ** [[id:f5b7d005-e73e-4a3a-9d51-e4abc1ba8efb][(rap) battles with mimicry]]
 * [[id:ec12ed79-2c56-4053-b335-d47dd867e3cc][Unwanted attention is a neighbor of brutality.]]
 * [[id:0ac0126a-b8cc-44ac-8dd9-68c70c2a8c2a][Patience and gratitude => good listener.]]
+* Mindfulness helps empathy.
+  :PROPERTIES:
+  :ID:       61598ab8-c24b-4cc1-9db1-b5a9d320a76b
+  :END:
+** multi-channel concurrent perception
+*** Allow approach. Make eye contact, smile. If they are looking, say hello.

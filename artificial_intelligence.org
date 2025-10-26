@@ -3,6 +3,11 @@
 :ROAM_ALIASES: "machine learning" ML AI
 :END:
 #+title: artificial intelligence
+* sub-agents in CC
+** "The feature essentially lets you build a specialized "team" of AI assistants, each expert in different areas like testing, code review, security auditing, or backend architecture, all working within Claude Code's environment."
+** "like "Use the test-runner subagent to fix failing tests."
+* "If you really hit a wall, write up the problems and throw back to me. If you find a janky way to do something and don't have the budget of thought to do it a better way, just do it the janky way, but with comments explaining what's janky about it."
+* TODO try parallel agents
 * [[id:d1b504e5-c775-40ab-a8d0-05c9548bc81a][Writing the test first seems great for AI.]]
 * How to explain the goal?
 * [[id:28f244af-3876-4302-8aa6-4e2306024149][Hegelian synthesis is a powerful knowledge graph trick.]]

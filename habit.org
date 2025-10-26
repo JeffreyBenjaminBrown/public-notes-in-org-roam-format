@@ -23,6 +23,7 @@
 * [[id:be4b304a-f08c-46b0-8954-8618b68b3dc7][Trivial invitations are powerful.]]
 * [[id:74fedaae-4cb2-40f5-bfd0-ee7582f23098][mental waste]]
 * [[id:72405a71-167b-4cc8-af40-2df2a0d3e6e6][To know you waste time on something is (at least) two opportunities.]]
+* [[id:b56df75b-6166-43f4-bf12-1fc2981d2ef1][control orientation]]
 * habits I want
   :PROPERTIES:
   :ID:       1b6c328a-2c57-49c5-b5af-206fc0b0bb56

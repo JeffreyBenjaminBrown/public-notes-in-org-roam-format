@@ -3,6 +3,7 @@
 :END:
 #+title: emotional moderation
 * [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]]
+** [[id:4cb926ff-a1ff-4f80-8f9b-333fa519d672][patience & acceptance]]
 * pros and cons
   Not sure I want or need it.
   But being distracted from the present by bigger plans

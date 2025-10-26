@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       408c8a33-653e-4330-afcb-4ae3a62fcfac
+:END:
+#+title: The Promises of Giants, book by John Amaechi
+* a steady stream of congruent messaging
+  "is important to bring someone or keep someone on board"
+* See others' potential. Talk about it.
+  :PROPERTIES:
+  :ID:       906af542-96e8-435e-85a0-6be51b7fb4f4
+  :END:
+** I want to be more optimistic, more imaginative, more understanding of other people's potential.
+** "you would be great at" > "you should"
+   More motivating (and obviously more respectful).
+* Evaluate your interactions with others.
+  :PROPERTIES:
+  :ID:       d09a0bc7-f3e3-422a-88a9-71a4ee55115d
+  :END:
+** I need to grade my interactions, becauuse nobody else will.
+** TODO At the end of chapter 6 he talks about some accompanying PDF with a way to grade one's experiences?
+* "[[id:b56df75b-6166-43f4-bf12-1fc2981d2ef1][control orientation]]"
+* [[id:4df6a6ac-1f99-4903-a8e4-c738421e3b8c][vulnerability in leadership]]
+* patience & acceptance
+  :PROPERTIES:
+  :ID:       4cb926ff-a1ff-4f80-8f9b-333fa519d672
+  :END:
+** An important attitude is to be ready to accept the mundanity of what is required to achieve success.
+** "for most of us, our world is one eternal compromise "
+   :PROPERTIES:
+   :ID:       b695976b-b134-47e3-af12-fb60ec67bc12
+   :END:
+* There's what looks like a good writing exercise at the end of chapter one.
+* [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][confidence]]
+** When unsure whether you can do it, reflect on past successes.
+   :PROPERTIES:
+   :ID:       b31f0954-fa0c-40fc-ac05-e33525db68e2
+   :END:
+* feedback, social
+  :PROPERTIES:
+  :ID:       1ea108ff-126c-4104-b17d-9e243528f486
+  :END:
+** The farther you advance, the harder it is to find good external feedback.
+*** so you should [[id:d09a0bc7-f3e3-422a-88a9-71a4ee55115d][evaluate your interactions with others.]]
+** deliver embarrassing feedback alone
+*** => try to sequester someone before delivering it
+    e.g. for instance invite them to help in the kitchen just to say that they have something stuck in their teeth.

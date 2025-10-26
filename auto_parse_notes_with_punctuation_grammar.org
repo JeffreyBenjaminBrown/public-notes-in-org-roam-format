@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       90546bfd-e191-4664-a88f-029d8ba710de
+:END:
+#+title: Auto-parse notes with punctuation grammar. \ skg
+    Between any two periods, where neither is part of a large punctuation block,
+    Divide first on the punctuation symbol with fewer repeats, where for instance // and ->-> have an equal number.
+    Divide recursively until at "no-punctuation atoms". If an atom doesn't exist, make it. If there were brackets around an atom, remove them. If the atom was part of a list in the brackets before outer punctuation, create similar relationships for each member. Then create the meta-relationships, the 2-meta-relationships, etc. until consuming the "no isolated periods" sentence.
+    Preserve the original text from which the relationships were made. The user can change the parse, e.g. that a period should have bound first rather than last, by adding brackets with a number between the first two, which are different in case they will need a precedence. () has precedence 1, (( )) precedence 2, ([ ]) also precedence 2, but (0( )) has precedence 0, and precedence can go negative.
+    Would I have a use for ([ )]?

@@ -24,8 +24,10 @@
 ** Show appreciation.
 ** [[id:ea703938-f201-4f3b-ac07-e4c8b688e9de][Speeches at beginnings and ending are important.]]
 ** [[id:f8a1040d-ef6f-4819-9f96-421a06182502][etiquette, information processing optimization]]
+** [[id:75e8bdbb-b62f-4456-849e-0e2ffd2154bf][investigate for empathy]]
 * tensions
-** [[id:0de6a57e-7d2d-41f3-a776-e53ac67ba727][empathy v. communication]]
+*
+* [[id:0de6a57e-7d2d-41f3-a776-e53ac67ba727][empathy v. communication]]
 ** [[id:51cfa59e-4138-4d2d-8cae-5dbad26b78ad][sharing v. presence]]
 *** [[id:c6eb0f31-04b3-4552-b52d-6bbaae98f34d][perception]]
 ** [[id:35e62792-6cce-404a-807f-c0e74c8b41da][Does efficient conversation have (conscious) goals?]]
@@ -51,5 +53,7 @@
 *** [[id:2285e62f-1ae9-4b2b-b3b0-cf9d973c6534][organizing people]]
 * [[id:f7f3be5e-0901-4892-bd12-fb3821ed308a][Don't let the subject change so fast it confuses.]]
 * [[id:0ac0126a-b8cc-44ac-8dd9-68c70c2a8c2a][Patience and gratitude => good listener.]]
+* [[id:0ec39fd9-e3d4-470b-aded-ec3598421b0d][Blast love.]]
 * If it seems too far-out to share, [[id:ccc1c640-f36e-47de-b417-a12ea267f0a2][ground the claim]].
 * [[id:bef20c9d-ecd5-4ea5-ae9b-acf8a7fc0285][Declarative > imperative, in communication as in CS.]]
+* [[id:1ea108ff-126c-4104-b17d-9e243528f486][feedback, social]]

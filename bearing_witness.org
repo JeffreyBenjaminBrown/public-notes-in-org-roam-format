@@ -4,3 +4,15 @@
 :END:
 #+title: bearing witness
 * There are certain truths I attend to and understand especially well, and report on fully when asked, yet (never?) volunteer.
+* the sense of an objective witness
+  :PROPERTIES:
+  :ID:       4b1d1674-df2a-4e9e-9906-cc874a63257f
+  :END:
+  I and others are witnesses. Even AI might be conscious.
+  But an objective witness would be something else.
+  I don't believe in an anthropomorphic god,
+    but the universe as a whole might be conscious.
+    Indeed by containing consciousness one could argue that it is,
+    tautologically, conscious -- it sees itself, feels itself, etc.
+  But it is one thing to think those things,
+    quite another to feel them.

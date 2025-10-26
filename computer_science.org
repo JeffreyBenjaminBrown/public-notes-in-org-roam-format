@@ -7,6 +7,7 @@
 ** [[id:5b78b44a-f120-4c53-b8f7-c9638287563d][Thinking about who deserves what could be a bad smell.]]
 * > CS
   = applicable outside of, CS
+** [[id:c05702ea-69af-4972-8b15-f74455f2123c][development, cognitive]]
 ** [[id:35fc7de0-cbbf-466f-80ee-3f7d5eb3d806][sleep as processing]]
 ** forgetting | memory management
    :PROPERTIES:

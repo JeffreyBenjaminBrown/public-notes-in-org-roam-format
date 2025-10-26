@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "write, why to"
 :END:
 #+title: why write
+* [[id:a5ad5ac9-287e-4e0a-a564-64f82a72d5f5][Writing things somewhat satisfies the desire for objectivity.]]
 * Writing something you will read moves your life path.
 * Writing makes us immortal, in two ways.
 ** know where you are
@@ -15,3 +16,8 @@
   Recognize you are capable of learning more about deep, high things.
   Be imaginative about how different a long-term payoff in ideas is.
 * To write, to ask "what just happened" with open eyes, is to step outside of time, to at long last observe it, and to some extent determine what it is.
+* Writing is psychedelic.
+  :PROPERTIES:
+  :ID:       80faf0cd-804c-49e9-b799-57a2515d742d
+  :END:
+** [[id:890fc33b-1247-459a-980f-6b3163f9bc1d][To focus on feelings feels paychedelic.]]

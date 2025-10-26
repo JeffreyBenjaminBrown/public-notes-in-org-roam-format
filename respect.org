@@ -3,4 +3,9 @@
 :END:
 #+title: respect
 * authority
+* reverence
+** Ask Claude: look up synonyms, search for them in my graph, put those here.
+   :PROPERTIES:
+   :ID:       58d0f444-0d8b-4e24-ad13-1d4980323366
+   :END:
 * [[id:e2f20c35-7aa6-43ad-b579-075adc81c7d2][The more general takeaway from the transgender debate would seem to be not to try to change what someone wants.]]

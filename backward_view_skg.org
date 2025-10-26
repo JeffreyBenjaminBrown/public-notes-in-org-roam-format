@@ -3,22 +3,14 @@
 :ROAM_ALIASES: "skg / backward view" "containerward view \ skg"
 :END:
 #+title: skg / backward views
-* TODO serial
-** generalize the Rust backpath rendering function
-   Takes a lambda involving (probably)
-     path_to_end_cycle_and_or_branches,
-   and a starting level.
-   The lambda can drop the first member of the path, or not.
-** then eliminate further redundancy, if any
-** implement link-sourceward view
 * four kinds:
-** "these link to it"
+** DONE "these link to it"
    :PROPERTIES:
    :ID:       1778f2e9-e25f-43be-9362-abd43b0d4241
    :END:
-** "these contain it"
+** DONE "these contain it"
    maybe with a warning if multiple
-** "these containers link to it"
+** TODO "these nonempty containers link to it"
    :PROPERTIES:
    :ID:       59e54472-f770-437d-bc36-323928dd3352
    :END:
@@ -39,28 +31,6 @@
 **** When reading about N, I would like to see that there exists L which links to N yet contains branches from the title with the link.
      And then be able to request a view-branch containing all such L.
 ** "these subscribe to it"
-* containerward cyclic view
-  Draw org-descendents containerward until at the first repeat, or just before.
-  If at, draw that one with a "red repeats" herald, and the first (which gets repeated) with a green FIRST herald.
-  If just before, indicate with a herald the node hopping to which would have closed it.
-* UI
-** add a herald for the number of containers, omitted if 1
-   :PROPERTIES:
-   :ID:       ac671944-2cb9-41b0-abbc-43dfe8a5377b
-   :END:
-   A uniform language for
-     roots               (C0)
-     multi-parent things (Cn where n>2)
-** show link sources as org children
-    heralded L or some other linky symbol
-** show containers as org children
-    the containment relation heralded as }
-** show containerward path
-   Unfurls until the first node it would reach with
-   anything but one container.
-   If that first not-once-contained null has mutliple containers,
-   unfurls that last one's many containers as its org-children,
-   then stops (unfurling = recursing).
 * later
 ** generate intermediating relation headings
 *** e.g. "[it] needs [these]"

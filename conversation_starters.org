@@ -13,6 +13,7 @@
 * AI prompt for more instances
 I would like to have some questions that help me understand someone's brain fast -- their values, their beliefs, their emotional valence(s) in different situations, etc. Some favorites follow. Can you think of others?
 * instances
+** Would you risk immortality if you had a suicide option.
 ** their [far, near] [past, future]
 ** Smile.
    This alone can induce the other to start a conversation.

@@ -1,7 +1,8 @@
 :PROPERTIES:
 :ID:       6d031428-eea3-4019-8122-80bd5fa6f9d4
 :END:
-#+title: rebuild buffer in Rust with the same structure \ skg
+#+title: DONE & skg // rebuild buffer in Rust with the same structure
+* DONE
 * to know
 ** Most of the API can be left alone.
 *** where orgnodes are built
@@ -21,7 +22,7 @@
    This guards against the possibility
    that the user saved some of this data differently elsewhere,
    after this data was rendered.
-* DONE recompute some metadata
+* recompute some metadata
 ** metadata fields to retain unchanged
 *** id
 *** folded
@@ -34,7 +35,7 @@
 *** focused: might be passed up from an alias
 *** cycle: computed anew considering the whole buffer
 *** relationships
-* DONE method
+* method
 ** children whose treatment is not Content
 *** are *not* dedup'd from content
     This means that they can't be used when saving
@@ -70,7 +71,7 @@
     If the focus is in an alias, hand it up to the AliasCol.
 *** for a ParentIgnores
     process it normally, just without affecting the parent
-* TODO retain focus, folding on save
+* retain focus, folding on save
   :PROPERTIES:
   :ID:       25bea258-98e5-4154-b787-98acf64e8ff6
   :END:

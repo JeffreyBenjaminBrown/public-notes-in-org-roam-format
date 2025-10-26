@@ -46,3 +46,8 @@
 * Joy might be hereditary.
   source: "Biological Connection to the Feeling of Happiness". Journal of Clinical and Diagnostic Research. 1 October 2020.
 * [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaning]]
+* Fascination with common* joys is valid.
+  :PROPERTIES:
+  :ID:       eda119a2-0086-4d77-b5fd-59ae1c94f67b
+  :END:
+  (*) Ones that have been expressed by others, untold times.

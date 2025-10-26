@@ -15,6 +15,7 @@
 ** [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
 ** [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
 ** [[id:31b4c38c-5885-4895-ae33-85cb4fb93b86][immaturity]]
+* [[id:4cb926ff-a1ff-4f80-8f9b-333fa519d672][patience & acceptance]]
 * Know what is badass to sacrifice in the short term.
   :PROPERTIES:
   :ID:       9395f417-7e64-461f-ac7e-f7a95ce8d683
@@ -52,3 +53,5 @@
   :ID:       f26aa8fe-1dde-4024-82ec-20b247aab0f7
   :END:
 ** [[id:0180e344-0ac2-403c-8266-62cdd2e22068][reveal gradually]]
+* post-mortem payoff
+** [[id:8dc03133-c2c7-46e2-8ec2-8441394dd2df][Those who resist tyranny through art might be working toward one.]]

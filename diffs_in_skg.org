@@ -4,66 +4,92 @@
 :END:
 #+title: diffs in skg
 = git diff views, both personal and when viewing others' data
-* When deleted siblings went to a new common place,
-  the diff view should group those deletions under a midparent indicating the new common parent
-* "flat org diff" : for private lenses onto public [[id:08d6887d-8a86-4906-8ab3-6d93217de0fd][flat-org]] files
-  :PROPERTIES:
-  :ID:       38d2c92e-3ba0-46ca-bf32-756d59bea448
-  :END:
-  Each FOD file corresponds to an FO file.
-  Each line of an FOD can have an "elder brother" ID, its own ID, and hypertext content.
-  If the first line of an FOD has no elder brother ID, it is listed before all the FO's content in the merged FOD-FO view.
-  If any other line of an FOD has no elder brother ID, it is listed right after the preceding element of the FOD in the merged view.
-  Any FOD line with an FO elder brother is listed right after the elder brother in the merged view.
-* Switch your view of the graph to diff view.
-* It compares to the last git commit.
-* For every node you visit, you see and can visit
-** in green things added and in red things removed.
-** its backlinks are also (by default) shown, the same way
+* de novo <2025-10-19 Sun>
+** heralds
+*** two base diff herald dimensions
+**** green "{+" and red "{-" for content changes, just like git
+     augments each definitive content list,
+     by showing a green + next to each new node,
+     a red - next to each removed node,
+     exactly like git diff dow, and pulling that data from git.
+**** green "+" and red "-" for existence changes
+*** interactions
+**** +{+ could be abbreviated to +
+     Both would mean '
+     this node is new, just like its containment here'.
+     example:
+       * a
+       ** +{+ b
+     means the node 'b' is new,
+     and so is the fact that it is now a child of 'a'.
+**** +{- makes no sense
+     if a node is new, it can't have been removed from a container
+**** -{+ makes no sense
+     if a node no longer exists,
+     it can't be a new member of a container
+**** -{- could be abbreviated to -
+*** so there are only four heralds needed
+    '+'
+    '{+'
+    '-'
+    '{-'
+*** for roots, only two of those heralds are possible
+    '+' and '-'
+** diff view of an existing node
+*** 2 kinds of backward view from removed nodes that still exist
+**** along 'contains'
+     Lets the user show a backward view from any removed node,
+     to see where it might still exist.
+**** along 'hyperlinks_to'
+    If the removed node included links,
+    also lets the user see where else links to those targets apepar.
+*** janky magit integration
+    Lets the user jump to the view of that file in magit.
+**** for better magit integration
+     have magit display IDs as their titles
+** diff view of something deleted
+   contains these braches
+*** what it contained
+*** what contained it
+* ? diff-sharing interaction
+** ? diff : social v. personal
+   Is the diff problem for people the same as the diff problem across time?
+   a.k.a. "across-person diff ~? within-person across-time diff"
+   You'll want to see how someone's subscription(s) to your node differ(s) from your node.
+** when someone else's graph changes
+*** make aware of git diff
+**** track the last-read commit
+     When you read someone's note, you can tell your subscription "I am up to date on this", and it stores the commit that applied when you said that. The next time you look at it, if it has been updated, it uses the diff between the earlier version and the latest to show what's changed.
+**** be able to construct a whole document from either commit
+*** views to navigate a diff of someone's graph
+    at two different commits
+**** from the high level: a list of all involved nodes,
+     probably with statistics for each:
+     new, deleted, moved
+     change in in-link, out-link counts
+     change in content volume
+**** from the perspeective of a node that in both commits
+  it is every node that changed
+  {new, moved there, moved away, deleted}.
+  Deleted things can be seen the way they were.
+  Moved things can be seen in both ways.
+  New things just have an indicator that they are new.
+**** from the perspective of a new node
+     it should show which of its contents are new,
+     and which were brought in.
+**** from the perspective of a deleted node
+     we should see its former contents,
+     and have access to what became of them
+* later
+** backlinks could be shown the same way
    at least five colors
 *** red backlinks are collections that no longer exist
 *** green backlinks are new ones
 *** gray backlinks are unchanged
 *** *another* color for backlinks that were moved among siblings
 *** something to indicate that a removed backlink was replaced by a less direct path
-** even something deleted can be visited, to show
-*** what it was connected to last time
-*** what has happened to those things, if anything
-* smart diff traversal
-  treating nodes as first class entities,
-  able to jump easily from any [change involving a node] to any of its brethren in an equivalence class, where equivalence is modulo insertion or deletion, modulo link text and any other links present in the same node, and modulo appearance as base content, subscription or unsubscription.
-* smart diff view
-  Transclude to see all insertions and deletions in a context.
-* when someone else's graph changes
-** make aware of git diff
-*** track the last-read commit
-    When you read someone's note, you can tell your subscription "I am up to date on this", and it stores the commit that applied when you said that. The next time you look at it, if it has been updated, it uses the diff between the earlier version and the latest to show what's changed.
-*** be able to construct a whole document from either commit
-** views to navigate a diff of someone's graph
-   at two different commits
-*** from the high level: a list of all involved nodes,
-    probably with statistics for each:
-    new, deleted, moved
-    change in in-link, out-link counts
-    change in content volume
-*** from the perspeective of a node that in both commits
- it is every node that changed
- {new, moved there, moved away, deleted}.
- Deleted things can be seen the way they were.
- Moved things can be seen in both ways.
- New things just have an indicator that they are new.
-*** from the perspective of a new node
-    it should show which of its contents are new,
-    and which were brought in.
-*** from the perspective of a deleted node
-    we should see its former contents,
-    and have access to what became of them
-* diff query
-  :PROPERTIES:
-  :ID:       35cad3cc-5289-4940-bb78-c7491de66f04
-  :END:
-** I wish when I move a branch but none of its subbranches, when I see the missing data in the diff, I can immediately see from the same context what new parent(s) it has.
-* diff : social v. personal
-  Is the diff problem for people the same as the diff problem across time?
-  a.k.a. "across-person diff ~? within-person across-time diff"
-  You'll want to see how someone's subscription(s) to your node differ(s) from your node.
+** When deleted siblings went to a new common place,
+   the diff view should group those deletions under a midparent indicating the new common parent
+** smarter diff traversal
+   treating nodes as first class entities,
+   able to jump easily from any [change involving a node] to any of its brethren in an equivalence class, where equivalence is modulo insertion or deletion, modulo link text and any other links present in the same node, and modulo appearance as base content, subscription or unsubscription.

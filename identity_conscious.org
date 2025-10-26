@@ -8,10 +8,13 @@
 * u
 ** [[id:6b340387-efbd-4959-a785-5ac196310c62][Free will seems illusory, or redefine the self.]]
 ** [[id:2d6d5616-2f98-4b5f-8999-382b5371514a][One's sense of the absurd is personal.]]
+* Be yourself.
+** [[id:3804f96e-3cbd-4566-bd70-45ba27faaa26][Am I violent to my instinct to write someone just after seeing them?]]
 * Selfward is sometimes the least educational choice.
   :PROPERTIES:
   :ID:       a39b2ed1-188e-4d65-95f7-d1a4dacc6437
   :END:
+** At least some of the selfward choices available at any time can be.
 * entitlement
   :PROPERTIES:
   :ID:       8bfda5c9-c1d5-433d-ade1-7e2dad8a895d
@@ -35,3 +38,4 @@
 * [[id:ee0e7d70-20c9-4af2-8e01-c8e03255c8d8][self-abnegation]]
 ** [[id:ee0e7d70-20c9-4af2-8e01-c8e03255c8d8][self-abnegation | austerity | asceticism]]
 * self-construction
+* [[id:48264e3c-03d7-43b5-a92f-c5eb051bd44c][self-reconception]]

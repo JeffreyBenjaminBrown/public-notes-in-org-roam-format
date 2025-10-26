@@ -1,7 +1,10 @@
 :PROPERTIES:
 :ID:       63143900-40d2-42c5-8b76-4f5cb7713333
+:ROAM_ALIASES: "hiking Bogotá" "Bogotá hiking"
 :END:
 #+title: hikes around Bogotá
+* the meeting point for Aguadora hikes
+  can be found via "Guadalquivir" on Google Maps
 * Caminos Cerros Orientales
 ** filling the form
 *** For the city's (official?) ones, can give someone else's ID.

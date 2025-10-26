@@ -23,3 +23,4 @@
   :END:
   If I am never rejected, I am not reaching out enough.
   Rejection does not imply they dislike me; they're probably flattered and|or wish they could take the opportunity.
+* [[id:b31f0954-fa0c-40fc-ac05-e33525db68e2][When unsure whether you can do it, reflect on past successes.]]

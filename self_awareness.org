@@ -10,6 +10,7 @@
 ** [[id:8582cec9-74e2-4664-a6d7-946c2ba240e0][meditation]]
 ** [[id:6972d099-7ff6-47ba-ac67-1898ef5fd549][science]]
 ** I believe [[id:7524f42b-9db0-4531-a21d-57df5954a34e][knowledge graphs enhance self-awareness.]]
+* [[id:d09a0bc7-f3e3-422a-88a9-71a4ee55115d][Evaluate your interactions with others.]]
 * Is too much self-awareness bad?
   :PROPERTIES:
   :ID:       24d6df8e-d78e-46da-9261-1994c62e5061
@@ -48,6 +49,11 @@
   :ID:       beec07b6-b719-4141-90cf-4e1f1a7ed20f
   :END:
 ** [[id:e6d7cb3c-cd67-49f7-ac8e-09c4b6ca81e7][I forgoet emotional healing.]]
+* Self-awareness is graceful.
+  :PROPERTIES:
+  :ID:       ee1d755d-09bc-43b6-b59b-271f497227a8
+  :END:
+** and/or the best grace is self-aware.
 * personal
 ** [[id:6dcc3016-fb6b-4718-9098-f508fe0b1639][social anxieties]]
 ** [[id:d1f5961f-225c-4c6d-a4dc-2d0c93a8169d][My pain tolerance is dangerously high.]]

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       91025e2c-2a28-4627-a25b-609de0030752
+:END:
+#+title: sound effects for skg
+* elaboration | definition
+  The user could "make their own game",
+  assign sound effects to different graph events.
+* example events, all social
+** someone did something* with your node
+*** referenced
+*** subscribed
+*** described
+*** asked about
+*** used as a realtionship
+** The sound effect could also depend on how subscribed-to the place they did that is.
+   and recursively -- a calculation comparable to pagerank
+* ? Could similar events be enjoyably defined for one's own notes?
+  Is there an algorithm for thinking in a graph?

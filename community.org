@@ -2,9 +2,16 @@
 :ID:       4e748426-9ff0-4e7b-8192-b582a2ae7f95
 :END:
 #+title: community
+* Be with masters.
+  :PROPERTIES:
+  :ID:       8dcdbd8b-990f-4b64-b3c9-e9712fcf54be
+  :END:
+** [[id:7cc0b99e-d0a0-4a3f-bcd0-f529a67855e8][outreach]]
 * [[id:2e75b219-6f4c-427f-9f61-13f618fd0e80][safety]]
 * [[id:f514b748-c188-4b71-afcd-48206b62a67e][community-building]]
 * [[id:72cbafe2-fab2-413f-b78e-ff81f94c3599][embarrassing ambitions & community]]
 * [[id:692f7cf2-5d80-4bf2-bbd3-59db334b00c3][How radically different would we be?]]
 * [[id:c3d3f28c-5892-4deb-86dd-e8f490a24b1d][collective understanding]]
 * [[id:8932d308-fbc2-4315-ade1-f1f6e1ec5921][cooperation]]
+* goal : synergistic community
+** where the same person you would choose for one thing you choose for another

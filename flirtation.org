@@ -4,6 +4,10 @@
 :END:
 #+title: flirtation
 * see also [[id:dae618bd-8f97-44ef-b22b-f72adef57bc8][play]]
+* It combines invitation, boundary-testing, and often humor.
+  :PROPERTIES:
+  :ID:       b2553509-afb0-4be7-9fdc-99844af3b3dc
+  :END:
 * End a failed flirt with humor.
   :PROPERTIES:
   :ID:       f02bfeb8-c64b-4748-aed3-09cc837f7b78

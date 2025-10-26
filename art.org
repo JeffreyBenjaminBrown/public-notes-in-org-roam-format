@@ -9,6 +9,7 @@
   :END:
   It can help someone understand.
   It can help someone grieve.
+* Ideally?, [[id:bc33441c-e184-4040-b265-0fca45248871][art breaks down ossified perception]].
 * [[id:5ad13966-5348-4957-9d50-14f394b276ac][some private art]]
 * [[id:c7473ba8-d513-43f1-a25a-9dc05a1e0e44][things maybe only expressible through art]]
 * some kinds
@@ -40,3 +41,7 @@
 * An extreme form: [[id:32e92093-c0de-47e2-8a8d-30e9a2838896][intimate conflicts]].
 * [[id:cd901214-ae81-4976-a44c-e9a528e133f7][The best art for studying empathy, probably, are novels with a diverse. realistic set of characters.]]
 * {able,willing,free} to speak only through it
+* Those who resist tyranny through art work toward a payoff possibly after their time.
+  :PROPERTIES:
+  :ID:       8dc03133-c2c7-46e2-8ec2-8441394dd2df
+  :END:

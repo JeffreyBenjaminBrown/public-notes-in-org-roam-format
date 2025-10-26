@@ -6,16 +6,17 @@
 * = aliases
   redemption
 * neighbors
-** [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurdity]]
-** [[id:6fa4cc1e-d4a8-4127-bf28-9e43aab75df8][dissociation]]
+** [[id:404db442-b90a-4eb6-8d33-f3ac329cf2ef][reconception]]
 ** [[id:e8594ff4-8ca0-44ea-a349-f16163c376a7][irony]]
+** [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurdity]]
 ** [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][escape]]
 * transcending time
   :PROPERTIES:
   :ID:       f774613e-cc5c-4002-a85a-f91da8bff16f
   :END:
 ** stories as [[id:639f85af-f376-4901-a30a-05552d47a2eb][scaffolding for experiences that don't need them]]
-* [[id:c4f84e79-264a-4bf0-830e-6078fbc0c8e3][Comedy destroys drama. ~ Absurdity requires broad perspective.]]
+* narrative freedom
+** [[id:c4f84e79-264a-4bf0-830e-6078fbc0c8e3][Comedy destroys drama. ~~ Absurdity aids perspective.]]
 * Acceptance is worse than solution but better than [[id:227c3af6-14fc-42b2-a1ff-76313149a746][denial]].
 * [[id:f4d489d8-3687-4377-8394-4d1aa16d8782][See through bias.]]
 * [[id:f027def3-c2df-41bd-9841-bc1d9f437396][synthesis ( ala Hegel )]]

@@ -4,6 +4,12 @@
 :END:
 #+title: pride | ego | self-esteem
 * [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][fear of God]]
+* Love yourself.
+  :PROPERTIES:
+  :ID:       45b47bea-1387-4f6c-9621-bea3cd6e38ff
+  :END:
+** Be [[id:e86192e0-3c23-460d-85c3-fc4e66f5c553][fascinated]].
+** Be [[id:fdef41e8-3218-4964-be4b-12cb86c722a1][gentle]].
 * [[id:8bfda5c9-c1d5-433d-ade1-7e2dad8a895d][entitlement]]
 * pride => stupidity
   :PROPERTIES:
