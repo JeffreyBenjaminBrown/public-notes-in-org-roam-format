@@ -8,7 +8,9 @@
 ** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][funny]]
 ** [[id:004af7c1-02db-4545-8691-f00135b9ed48][grateful]]
 ** [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]]able
+** [[id:0d863b6d-1652-4ffb-897a-99e73198ce16][kind]]
 * learn
+** [[id:75e8bdbb-b62f-4456-849e-0e2ffd2154bf][Investigate someone for better empathy.]]
 ** [[id:5327d2ce-1764-4bef-8959-aa8b5c478575][I want to understand our cognitive differences.]]
 ** I want to know our [[id:21f5e38c-9389-419b-a278-7f01802227ea][cognitive overlap]].
 ** What (most) motivates someone?

@@ -6,6 +6,14 @@
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 ** [[id:f582adf8-17e3-429f-ad70-c1243694d0ea][poems]]
+* compressing a video
+This got a long video from my phone down from 5.2 GB to 99 MB,
+<2025-10-26 Sun>:
+
+ffmpeg -i 2025-10-08_casio-keys-improv.mp4               \
+  -c:v libx264 -crf 30 -preset veryslow -vf scale=640:-1 \
+  -c:a aac -b:a 96k                                      \
+  output.mp4
 * Mic tapping feet while playing keys. Multitrack. Strip foot track.
 * [[id:b3297b27-6fdf-4ad6-bdfa-6ddd76293ed8][self-eval : my latest music video as of <2025-10-12 Sun>]]
 * needs, interesting

@@ -134,6 +134,10 @@
     indicating the relationship between
       (its immediate container? some containment predecessor?)
       and its link target
+** to document
+*** If big documents take long to load, that's a useful signal.
+    A prompt to change some contains relationships to links.
+** shine-through ~ nonempty containers linking to it
 * motivation and soul-searching for skg
 ** [[id:320e5181-cf0d-48bf-b024-d0e6c4c309c2][Do I fear personal integration?]]
 ** Do I fear human superintelligence?

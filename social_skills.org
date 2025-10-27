@@ -3,6 +3,16 @@
 :END:
 #+title: social skills
 * Praise publicly.
+* introductions
+  :PROPERTIES:
+  :ID:       7bd7090c-5877-4828-9e83-3ca6c3b13b09
+  :END:
+** introducing oneself
+** introducing others
+*** Who do I want to meet who?
+    :PROPERTIES:
+    :ID:       0bfaba38-98b6-4425-9f8d-7f40fa3d3858
+    :END:
 * instances | components
 ** [[id:721b9b4d-63cc-473f-8ccb-bfc8d22240d9][ethics]]
 ** [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]]
@@ -16,10 +26,14 @@
     :ID:       f5b9fac1-c24a-44ca-b95d-0ca3c67eec54
     :END:
 **** It comes too much at the exclusion of friends.
-**** It is too revealing.
-**** It can make the world seem ugly or scary to her.
+**** ? It is too revealing.
+**** It can make the world seem ugly or scary to them.
 *** Don't reveal where I live, just invite somewhere.
 *** how to invite people [[id:36bab949-7b71-4761-953f-f9e8e8e16fe2][to campaign events]]
+*** Invite each individual in a group separately.
+    Even if they're married.
+    Otherwise, one (or more!)
+      might think I'm mostly talking to the other.
 ** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
 * problems | constraints
 ** [[id:9d3a6c74-b537-45c2-be1f-5810374851e8][mortality pressure]] -> exclusivity

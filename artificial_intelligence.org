@@ -3,6 +3,8 @@
 :ROAM_ALIASES: "machine learning" ML AI
 :END:
 #+title: artificial intelligence
+* ask Claude to collect synonyms in graph.
+** [[id:58d0f444-0d8b-4e24-ad13-1d4980323366][Ask Claude: look up synonyms, search for them in my graph, put those here.]]
 * sub-agents in CC
 ** "The feature essentially lets you build a specialized "team" of AI assistants, each expert in different areas like testing, code review, security auditing, or backend architecture, all working within Claude Code's environment."
 ** "like "Use the test-runner subagent to fix failing tests."

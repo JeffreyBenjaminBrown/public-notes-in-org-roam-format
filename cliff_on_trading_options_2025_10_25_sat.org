@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       baa236d8-c33a-41c4-bf87-027734cc88b8
+:END:
+#+title: Cliff on trading options <2025-10-25 Sat>
+* options w/ Cliff
+  "enter an order to sell an option" on something I have.
+  It is created when the transaction closes.
+  Easier to get those approved than naked options,
+  which are not owned. (Not cheaper.)
+  To do anything with options, need approval.
+* selling options on something you own seems smart
+  earn another 3-4% by selling a covered option every 6 months
+* Shorts are dangerous. Puts are better.
+* Has to be done to at least 100 shares.
