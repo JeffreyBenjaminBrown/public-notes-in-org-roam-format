@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       9c91defb-133f-41fc-b357-5ea97cb44a95
+:END:
+#+title: variations on nested series of numbers
+where (.) > (,)
+* variations on 4,2
+ 1,1,1,1 . 2, 2
+ . 4,2
+ . 1,2,3,4 . 1,2
+ . 1,2,3,4 . 3,2
+ . 1,2,3,4,1,2
+ . 6
+ . 1,1,1,1 . 1,1
+ . 1,1,1,1,1,1
+ . 1,2,3,4,5,6
+ . 1,2,3,4 . 6,5
+ . 4,3,2,1 . 5,6
+ . 4 . 4,4
+ . 2,2,2,2 . 2
+* tricks in it
+** ways for there to be one number
+*** ways for 4 to be 4
+    There are four things.
+    Things 1 through 4.
+    There's 4.
+*** similar for 2
+** ways for there to be M and N numbers
+   The sequence from 1 to M+N.
+   M+N numbers of any kind.
+   The number M+N.
+   One way to be N and another to be M.
+** cast doubt on the seed instruction
+   Can play with whether it is the sequence M,N,
+   or just the set, being rendered to time.
+   For instance, render the sequence M,N many times,
+   then swap them,
+   but a careful listener can discover
+   that the sequence plays out in order
+   in the history of those swaps.
+** ways for (a sequence of variations of S) to be S
+*** render M,N one way M times, then a different way N times
+** a pattern to be done to any pattern/sequence
+   pattern pattern pattern 3

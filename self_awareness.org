@@ -42,8 +42,8 @@
 * [[id:cc950648-3cf1-46f6-94dc-5703b818e6a3][Unawareness (esp. feigned) of self can be funny.]]
 * [[id:d7568934-fe2e-4606-b96d-be8d7f6b50c8][Restraint requires self-awareness.]]
 ** [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
-* [[id:49583939-99f0-462a-8152-3aed9b0de39a][If you're embarrassed to share your beliefs, something is wrong.]]
 * [[id:18eb5d5a-d546-40f1-96f9-bb56bc11eea0][authenticity]]
+** [[id:49583939-99f0-462a-8152-3aed9b0de39a][If you're embarrassed to share your beliefs, something is wrong.]]
 * Know what you forget.
   :PROPERTIES:
   :ID:       beec07b6-b719-4141-90cf-4e1f1a7ed20f

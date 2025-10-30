@@ -3,6 +3,7 @@
 :ROAM_ALIASES: "fast night fantasy" "living like there's no tomorrow" "There is only now." presence impermanence escape
 :END:
 #+title: presence | impermanence | escape
+* MERGE [[id:8df78d26-cbc1-4f00-abfc-d552a1cb9192][escapism]]
 * neighbors
 ** [[id:9ec55e32-f974-479e-8295-7d9e30156684][awareness]]
 ** [[id:80cfe814-fcc1-485b-955d-4a76fdef71e1][constraint]]

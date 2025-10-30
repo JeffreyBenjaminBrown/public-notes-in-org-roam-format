@@ -32,6 +32,9 @@
        but that only one does
 ** a|the origin of information
 * God in the brain
+  :PROPERTIES:
+  :ID:       a3ecffe2-4839-41e7-925d-95074ac164e9
+  :END:
 ** [[id:2ea1bfbb-d135-44bb-a8ab-36e59c33aed0][God as metaphor]]
 ** [[id:fe6020ff-3dfe-40ed-8724-e226eef4694a][fear of God : useful]]
 ** [[id:99295d00-8cfa-4c7f-98af-ad1a41b4abc9][conscience]]

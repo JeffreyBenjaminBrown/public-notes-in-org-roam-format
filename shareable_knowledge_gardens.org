@@ -173,6 +173,7 @@
     such that subscribed readers
     can see those annotations from their target.
 ** ?
+*** [[id:7430a056-f5cb-4257-ac78-9a2915566b35][It's a graph isomorphism.]]
 *** "Read the last branch last {it's the point, these are about it}."
     The most natural way to structure this would be
     the node saying that is talking about its children,
@@ -279,8 +280,6 @@
      (The easiest implementation of this would be to ignore order. Anything that would become new content on saving can be placed at the end of the content list.)
 **** DONE [[id:d0faf3c9-0a96-46e9-b5c3-e5c29db88cb9][repeated nodes in a view \ skg]]
 **** AWAITS ? [[id:28d61c54-d474-4828-8ef9-e83b25c12ae8][herald more properties \ skg]]
-***** DONE quiet the "ID exists" herald
-      omit when possible, which is usually
 **** DONE org buffers with multiple roots
      :PROPERTIES:
      :ID:       ba8fbc06-bb9c-4d69-bb1c-34cd1f80fdf4
@@ -291,11 +290,12 @@
       pair that with a list of root IDs.
 **** override the ordinary save command
 *** [[id:bc8fd4c3-0566-400c-96a8-0f4632e7fd1c][merging graph nodes]]
-*** [[id:7b2499c4-4c93-44dc-83b1-0a4b9175d6a8][backward views]]
 *** [[id:96b1ca65-3afd-4840-8d84-a0642b1a1b4e][diffs in skg]]
 *** [[id:4bf53fb8-abb2-4bd2-9b56-d2374fbb931d][skg // sharing & privacy]]
+*** safe saving
 *** transfer org-roam to skg
 **** [[id:c0465799-391d-446f-a957-28ff65d72e10][parsing initial super-indented org-children in org-roam data]]
+*** [[id:7b2499c4-4c93-44dc-83b1-0a4b9175d6a8][backward views]]
 ** ? before I can responsibly release it
 *** document user obligation : [[id:83f4b23d-1f74-4dbb-9e22-2b121043362a][no two nodes with the same ID]]
 *** point out transactional fragility

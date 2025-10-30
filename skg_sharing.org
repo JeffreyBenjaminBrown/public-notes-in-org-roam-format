@@ -111,6 +111,9 @@
      These can be edited, to no effect.
      The way to change those is to change,
      respectively, the subscriber or the hider.
+* TODO beware merges
+  mergeing should only be possible if the user owns both
+* TODO on save, check that edits are only to owned repos
 * later
 ** allow publishing online
    Make a page for each node.

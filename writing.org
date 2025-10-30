@@ -2,6 +2,11 @@
 :ID:       6c86647b-f326-4eba-947c-e0d76ac4fba9
 :END:
 #+title: write, how to
+* A memory algorithm is necessarily mysterious.
+  :PROPERTIES:
+  :ID:       6da1c5c3-d35e-4567-8d65-f1e92e565af4
+  :END:
+  NP complete
 * [[id:1c241da8-8364-4e3b-8933-ff10d32d708b][If algebra in academic papers had significant whitespace, equations could be easier to read.]]
 * good prompts for any topic
 ** What is {exciting, unknown, interesting} about <topic>?

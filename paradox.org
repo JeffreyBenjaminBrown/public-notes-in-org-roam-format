@@ -11,5 +11,5 @@
   :ID:       c091416d-a789-46d4-bb10-f64c2156a469
   :END:
 ** e.g. [[id:bb1e7ff9-7b57-4ab2-976c-a3ef4ad41ba1][flirting through dance while watching the stage]]
-* [[id:3fc56ebe-6405-476b-8270-7449ed75a413][Know and accept your contradictions, or change.]]
+* [[id:3fc56ebe-6405-476b-8270-7449ed75a413][Know and accept your contradictions ... or change.]]
 * [[id:9bfea9d6-eb20-47b4-b6f0-ea09b4524a12][moderation of optimization]]

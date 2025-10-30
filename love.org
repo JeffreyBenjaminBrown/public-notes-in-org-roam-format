@@ -17,8 +17,9 @@
 *** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
 *** [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][imagination]]
 *** [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]] & [[id:a55842c2-536e-4581-b04b-026715e646d1][duty]]
-* "You should have been more upset when I didn't call."
-  Something not meant as a test can be revealing, and feel like one.
+* tests of care
+** "You should have been more upset when I didn't call."
+   Something not meant as a test can be revealing, and feel like one.
 * relationships
 ** bonding
    :PROPERTIES:

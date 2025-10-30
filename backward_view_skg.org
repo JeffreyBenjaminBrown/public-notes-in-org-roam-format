@@ -3,7 +3,7 @@
 :ROAM_ALIASES: "skg / backward view" "containerward view \ skg"
 :END:
 #+title: skg / backward views
-* four kinds:
+* four kinds
 ** DONE "these link to it"
    :PROPERTIES:
    :ID:       1778f2e9-e25f-43be-9362-abd43b0d4241

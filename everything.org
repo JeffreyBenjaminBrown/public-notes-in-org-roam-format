@@ -71,6 +71,10 @@
 **** [[id:10f35302-f321-48ac-b3bb-cbc6647e7575][trust]]
 *** [[id:9ec03762-a2ef-4777-a9af-762c7a819c2c][leisure]]
 ** [[id:5fb0c3e5-a80d-46be-b5c6-26accde35bb3][ambiguous]] values
+   :PROPERTIES:
+   :ID:       5317889b-f4dc-4f90-8c45-63a58c73260f
+   :END:
+*** [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][escape]]
 *** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
 *** [[id:83c7d5bd-c7c1-487a-aaba-75c5a2a79507][loyalty]]
 *** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
@@ -89,10 +93,11 @@
 *** [[id:aa879d13-804f-4de3-b9fc-a3e7c774969e][evil]]
 *** [[id:748ef797-bf79-4211-b333-d99c448444d9][hate]]
 *** [[id:74a00d03-5790-4851-b52e-6d2108eabfef][irresponsibility]]
+**** but see [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][presence]]
 *** [[id:efd9d055-de2d-4604-9d0c-ec24361e3297][negativity]] , esp. negative feelings & experiences
 *** [[id:1d8be58f-a579-4e4c-a145-8c349db58514][peer pressure]]
-*** [[id:91b5b933-912d-4686-8cb3-bdf2255d2085][pride => stupidity]]
 *** [[id:312b1964-390a-4fbd-ac3b-ebe4797cd821][stupidity]]
+**** [[id:91b5b933-912d-4686-8cb3-bdf2255d2085][pride => stupidity]]
 *** [[id:27f9e7f9-f2d4-48f2-80f9-d3443080681f][nihilism]] | cynicism
 *** [[id:9548d89f-13c8-444d-b290-cfc25b86cea7][violence]]
 * [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope(s)]]
