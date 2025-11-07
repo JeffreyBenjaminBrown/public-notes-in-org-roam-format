@@ -3,6 +3,23 @@
 :ROAM_ALIASES: "machine learning" ML AI
 :END:
 #+title: artificial intelligence
+* AI & cognitive diversity
+  interesting, maybe wrong
+** It would be funny, kind of, if AI advisors with humanity's collective wisdom caused a collapse in cognitive diversity.
+   You could also argue the opposite:
+   That giving people solutions to known problems
+   frees up their time that
+   would have cognitively overlapped others' work,
+   permitting greater cognitive diversity.
+** Most people become the perfect zombie.
+*** 1
+    One good-enough strategizer at enough ground people have in common, and it becomes (at least in commerce) the overwhelmingly numerous personality.
+*** 2
+    Like a zombie horde, but the perfect strategist.
+    Except no -- a kludgy,
+    surprisingly {patchy, simple, incoherent, ..},
+    good-enough piece of software,
+    a bizarre approximation to humanity's collective wisdom.
 * ask Claude to collect synonyms in graph.
 ** [[id:58d0f444-0d8b-4e24-ad13-1d4980323366][Ask Claude: look up synonyms, search for them in my graph, put those here.]]
 * sub-agents in CC

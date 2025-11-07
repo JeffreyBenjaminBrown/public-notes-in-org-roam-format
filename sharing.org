@@ -17,3 +17,8 @@
   :ID:       51cfa59e-4138-4d2d-8cae-5dbad26b78ad
   :END:
 ** Moderate the felt need to respond against the desire to perceive the other.
+* Share news sources.
+  :PROPERTIES:
+  :ID:       fee33b0e-d692-4339-a184-003ddbede807
+  :END:
+** I want to consume the same news sources as (some) friends.

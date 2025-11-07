@@ -20,10 +20,12 @@
 ** [[id:ec35b479-a37e-498d-a81f-b898c4a51552][self-harm]]
 ** [[id:227c3af6-14fc-42b2-a1ff-76313149a746][denial]]
 ** [[id:04fc0958-39b6-450b-8880-a794f2d2bf63][rationalization]]
+* [[id:19f67792-2898-45d9-9cfe-4e6f516aa89f][boredom]]
 * futility | pessimism
-  :PROPERTIES:
-  :ID:       9dfe3d8a-f236-4390-9c37-2cedbe6e96c9
-  :END:
+:PROPERTIES:
+:ID:       9dfe3d8a-f236-4390-9c37-2cedbe6e96c9
+:ROAM_ALIASES: pessimism futility
+:END:
 * nihilism | cynicism
 :PROPERTIES:
 :ID:       27f9e7f9-f2d4-48f2-80f9-d3443080681f

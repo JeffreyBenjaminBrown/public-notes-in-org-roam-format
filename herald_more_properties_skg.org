@@ -8,6 +8,8 @@
 ** number of containers
 ** number of content
 ** number of links in
+* count links into a node's recursive contents
+** [[id:7cc9d769-b458-4899-81c5-e074a3263536][why look backward]]
 * maximum length of path to root
   An analog to 'depth' in org mode.
   This, plus number of content,

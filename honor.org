@@ -6,7 +6,7 @@
 :PROPERTIES:
 :ROAM_ALIASES: a55842c2-536e-4581-b04b-026715e646d1
 :END:
-* merge ? [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]] [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]] [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][discipline]]
+* merge ? [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]] [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][discipline]]
 * duties
 ** [[id:e8c7577d-224a-4c79-89fc-2939fd51fdfc][care]]
 *** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]
@@ -50,3 +50,4 @@
 ** [[id:80c58445-b82e-4023-99b7-ff44ee9096ea][betrayal]]
 * [[id:e0046043-26d0-4978-89c2-0a0643bb1249]["You only live once," has a strange logic.]]
 * [[id:12fda009-a653-4cb3-a201-544d69190de6][Hide]] and [[id:cbef2e05-df7f-4b7c-a1dc-5cb2166975d8][share]] the right things.
+* [[id:48cc5878-027d-42eb-9683-5dfa4ca89414][Avoid impropriety *and* its appearance.]]

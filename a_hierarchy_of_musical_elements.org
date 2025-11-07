@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       f6d53956-c257-419e-9394-7cabe9605bf7
+:END:
+#+title: a hierarchy of musical elements
+* notes
+** volume/accent
+** duration
+** frequency
+** timbre
+* note interactions
+** rhythm
+** melody
+** harmony
+* relationships between note interactions
+** [[id:d67f9687-f00d-4843-aef5-d2ca7f20b31b][harmony / rhythm ~~ now / short-term]]

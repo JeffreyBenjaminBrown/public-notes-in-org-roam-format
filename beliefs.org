@@ -1,7 +1,12 @@
 :PROPERTIES:
 :ID:       2549e02a-fb43-484c-9d92-27b094a5e67c
 :END:
-#+title: beliefs
+#+title: belief
+* faith
+  :PROPERTIES:
+  :ID:       15936e66-284c-4242-a465-96a82b5640ee
+  :END:
+* [[id:08890bf2-524d-4ca7-b1e0-5d40945dd399][Religious people experienced less boredom.]]
 * beliefs that matter
   :PROPERTIES:
   :ID:       7ab90926-6a0b-48e8-9e2c-7e9c9682d9a4

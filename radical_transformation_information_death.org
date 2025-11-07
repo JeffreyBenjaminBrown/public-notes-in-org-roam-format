@@ -7,4 +7,8 @@
 * [[id:07cb146d-a7cb-4118-8650-e0005f931aa4][Death as memory loss is beautiful.]]
 * [[id:e8db50df-3e19-4d1e-9808-6f7c0c56035e][Death as conceptual bankruptcy.]]
 * sharing referential slip
+:PROPERTIES:
+:ID:       d62e732b-a828-4b9d-9ad8-f3d8a7822e0e
+:ROAM_ALIASES: "referential sliip, sharing"
+:END:
 ** "Call this that", the (public) titles to your [notes, concepts].

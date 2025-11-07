@@ -3,3 +3,4 @@
 :END:
 #+title: loneliness
 * [[id:445aa1d0-cb65-4619-b38e-5e09a58d352c][Thinking about friends and love makes me feel like I'm missing something.]]
+* [[id:b8cb61bb-6b1b-47d2-b025-8872e747cf22]["In some Nguni languages such as Zulu, boredom and loneliness are represented by the same word (isizungu)."]]

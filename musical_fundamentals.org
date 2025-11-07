@@ -4,6 +4,10 @@
 :END:
 #+title: musical fundamentals
 * see also [[id:4606bf23-6261-4596-95bc-faf1e9d64b3d][musical exercises]]
+* How many things are there for two voices to do? In 7 notes? Modulo all time but past, present and future?
+  Consider all the start positions.
+  For each, consider the potential moves of either.
+  For each, consider the other's available responses.
 * TODO [[id:bbd1b9de-c855-41d9-8245-797d09790f87][splash improv]]
 * orthogonal sets of elements
 ** relationships

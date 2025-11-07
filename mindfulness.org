@@ -5,6 +5,7 @@
 #+title: mindfulness | awareness
 * neighbors
 ** [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][presence]]
+* [[id:c6b7467b-ef3b-4217-befa-69dd9dcab028][passion v. peace]]
 * [[id:437a5820-8a4e-4a96-ab45-c0936b390cd6][Plan tours?]]
 * [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
 * [[id:62693433-3e22-4624-b229-002f7d2d9332][dreaming]]

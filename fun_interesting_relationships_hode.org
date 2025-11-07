@@ -3,6 +3,12 @@
 :ROAM_ALIASES: "relationships for Hode" "Hode relationships"
 :END:
 #+title: relationships worth recording
+* glyphs for {correlations, isomorphicity}
+  :PROPERTIES:
+  :ID:       166827e3-d418-4827-b48d-270a00237b9f
+  :END:
+  upside down T for orthogonal|independent,
+  wavy one for loosely coupled
 * Use capital letters for the members, lowercase for the relationship template.
   The result is easy to automatically parse for relationships.
 * instances

@@ -11,3 +11,15 @@
   export PATH="$HOME/.npm-global/bin:$PATH"
   echo 'export PATH="$HOME/.npm-global/bin:$PATH"' >> ~/.bashrc  # or .zshrc
   npm install -g claude
+* cool-looking options
+** /clear
+** /compact
+** /context (visualizes it)
+** /cost
+** /memory (edit the files)
+** /permissions
+** /resume and /rewind (a conversation)
+** TODO /terminal-setup
+   Shift-Enter for newline
+** /todos
+** /vim

@@ -29,3 +29,4 @@
 * [[id:de98c3eb-27ba-4a51-9875-9af3c6e2c2dd][instances]]
 * [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]]
 * "[[id:e10fa73d-723f-4772-99d9-2ece218d4175][Beauty as the interface between the comprehensible and the incomprehensible]]"
+* [[id:d1fba1a6-848f-4ab7-8626-c192dc259c42][purity]]

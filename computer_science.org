@@ -3,6 +3,8 @@
 :ROAM_ALIASES: development programming processing "computer science"
 :END:
 #+title: processing | development
+* MERGE ? [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][truth]] [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]] [[id:001d7913-c431-461c-92ae-a6a39394856c][processing]]
+* [[id:28e2d047-98bc-409e-a311-a50b1a48823d][{learning, plans, dreams, drugs,..} v. execution]]
 * [[id:6da1c5c3-d35e-4567-8d65-f1e92e565af4][A memory algorithm is necessarily mysterious.]]
 * [[id:9503e93c-e13f-4be2-ad59-66350feeb21f][privacy]] & [[id:a7f710b4-8981-4dec-8567-28a646da19ba][influence]]
 ** [[id:5b78b44a-f120-4c53-b8f7-c9638287563d][Thinking about who deserves what could be a bad smell.]]

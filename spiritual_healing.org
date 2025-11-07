@@ -4,6 +4,8 @@
 :END:
 #+title: psychological healing
 * see [[id:bf73fa6f-cd1a-4237-8bdb-7a98025cf226][wholeness]]
+* using art for it
+** [[id:fe4939fe-8b94-4b78-914f-f2b83d7ff9f4][One can use art (for healing) orthogonal to pleasure.]]
 * recent, unmerged
 ** I want to be vegetarian.
 ** [[id:8142a014-8dba-4c24-bc51-8f8a2e24ce5e][humility => freedom]]

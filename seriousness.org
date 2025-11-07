@@ -21,12 +21,13 @@
   :PROPERTIES:
   :ID:       d5e61945-b23c-48b6-9eea-018a3da2d50a
   :END:
-** [[id:3fdb250d-fc7d-4b1f-becf-1d7996a9e480][laziness => evil]]
 ** heroic social laziness
    :PROPERTIES:
    :ID:       2f805f9c-26b0-49e8-8459-5f39752d6f7a
    :END:
    putting off homework, daring some degree of self-sacrifice to be with them when the moment calls for it
+** duh
+*** [[id:3fdb250d-fc7d-4b1f-becf-1d7996a9e480][laziness => evil]]
 * [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
 * [[id:a55842c2-536e-4581-b04b-026715e646d1][duty]]
 * How to distinguish between unseriousness, overcommitment and fluctuating beliefs?

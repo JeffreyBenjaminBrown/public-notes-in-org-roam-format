@@ -2,3 +2,5 @@
 :ID:       80cfe814-fcc1-485b-955d-4a76fdef71e1
 :END:
 #+title: constraint
+* see also [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
+* [[id:c893937e-bca4-4a77-aa6c-ad481bf1d042][the limits of logic]]

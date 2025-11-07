@@ -12,7 +12,7 @@
   :END:
 * [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety v. surprise]]
 * reasons to study it
-** [[id:b0edbce5-7036-4d32-8266-be8e061fb06c][Spiritual healing would require imagination.]]
+** [[id:b0edbce5-7036-4d32-8266-be8e061fb06c][Psychological healing would require imagination.]]
 ** [[id:344a5d25-70e4-487d-a802-24c64ace3637][Living for the moment seems to require creativity.]]
 * [[id:776b4780-a8b8-42af-ba5a-b3703a2fc248][Creating can take courage.]]
 * [[id:c48c126f-c92a-48ac-bff0-28933edf859f][creative efforts \ jbb]]
@@ -22,3 +22,4 @@
 * [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
 ** [[id:6669f82f-9408-4a1a-9162-863972be8150][AI and art]]
 * [[id:945b43e1-5df9-44a0-ad6c-0fedd11ab8ae][It can facilitate compromise.]]
+* [[id:2e3f891e-6848-48fc-b4bc-f8ce88f05900][God is funny as the highest art.]]

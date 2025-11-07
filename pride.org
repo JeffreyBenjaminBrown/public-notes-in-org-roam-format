@@ -3,7 +3,9 @@
 :ROAM_ALIASES: ego pride "self-esteem"
 :END:
 #+title: pride | ego | self-esteem
+* [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]] ?= the good side of pride
 * [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][fear of God]]
+* People are proud of their [[id:c893b584-5741-4987-876f-52bfa6c399b1][sacrifice]]s.
 * Love yourself.
   :PROPERTIES:
   :ID:       45b47bea-1387-4f6c-9621-bea3cd6e38ff
@@ -32,7 +34,6 @@
 * High self-esteem was considered bad in Biblical times, but low self-esteem, only recently.
 * [[id:92abdd76-cc43-45b1-b86f-03cc919c94c0][pride & drama]]
 * [[id:d7729777-c201-4244-a1a2-02372a6e6196][motivation & pride]]
-* [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]]
 * It is social.
 ** One can make another proud.
 ** One can be proud to be in a group.

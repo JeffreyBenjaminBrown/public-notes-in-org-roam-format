@@ -10,6 +10,13 @@
 * [[id:efead690-715e-4243-9dd9-9f6a53566263][aesthetics]]
 * [[id:1714269c-56fc-4c72-9faa-eebf49c6a07f][musical responsibility]]
 * [[id:ff5f634a-f8fa-482c-95a7-6be10e55e58d][comic responsibility]]
+* empathy for other {viewers, ..}
+** Feel what someone else would want to happen next.
+   :PROPERTIES:
+   :ID:       41ec1d8d-f77b-4805-afa4-78493f8c0a7d
+   :END:
+** [[id:b2906030-b897-4495-aae1-3bba39d40a84][Respect the space.]]
 * not clearly operationalizable
 ** [[id:9627caa5-b77e-40b5-a260-70d83c1b6926][A spirit has to get into the whispers.]]
 ** [[id:b8e13c7a-a5ad-4049-adc0-5325eb0f5116][Feel the multiverse.]]
+* [[id:0bff6b35-f8d4-4e1f-bf2f-be379b38791e][Learn to retreat to less complexity.]]

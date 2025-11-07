@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       f5305f69-51d9-40d1-8de4-94a5a406e7e7
+:END:
+#+title: Psilocybin may extend lifespan.
+* "Psilocybin helps extend life span in human cells by over 50%"
+  https://www.medicalnewstoday.com/articles/slowing-aging-psilocybin-helps-extend-life-span-human-cells-skin
+* "Psilocybin treatment extends cellular lifespan and improves survival of aged mice"
+  https://www.nature.com/articles/s41514-025-00244-x
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC12238350/pdf/41514_2025_Article_244.pdf

@@ -15,3 +15,8 @@
 * [[id:8932d308-fbc2-4315-ade1-f1f6e1ec5921][cooperation]]
 * goal : synergistic community
 ** where the same person you would choose for one thing you choose for another
+* Dance in crowds like boids.
+  :PROPERTIES:
+  :ID:       be3b9448-a751-4f82-8db7-ae0e551561bc
+  :END:
+** Can usually move along crowd's vector; occasionally smushed.

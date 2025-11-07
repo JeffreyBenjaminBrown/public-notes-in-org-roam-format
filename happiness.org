@@ -4,6 +4,7 @@
 :END:
 #+title: joy
 * TODO merge with [[id:186371b0-e1eb-4a62-9354-f76fb3f63bbd][pleasure]]
+* [[id:170d0326-31cc-457a-8dd5-36391025edc1][Too much gratitude seems a failure of self-moderation.]]
 * kinds & sources
 ** gratitude
    :PROPERTIES:

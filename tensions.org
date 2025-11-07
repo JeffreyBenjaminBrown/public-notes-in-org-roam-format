@@ -3,30 +3,30 @@
 :END:
 #+title: tension
 * see also [[id:7abaf6b7-7c59-4744-bddb-8a3bdfb11d8d][contradiction]]
+* good advice, I think
+** [[id:6b47aadf-dab4-4984-8d79-b7269b79e1d2][Square comedy and mindfulness.]]
 * facts
 ** [[id:84282174-0a55-4597-ba14-42448dc9bf98][Death is a part of life, but there is only now.]]
 ** [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility seems more compatible with peace than pride does.]]
-** [[id:6b47aadf-dab4-4984-8d79-b7269b79e1d2][Squaring comedy and mindfulness seems hard, and good.]]
 * collections of values plausibly in tension
-  :PROPERTIES:
-  :ID:       19a9138f-231e-459f-8207-ad51441be07b
-  :END:
-** [[id:1767a293-ee6a-47b7-b9b8-e8b2f05dd87f][assertiveness]] and [[id:b9f666f2-0035-42df-b674-86049697e9e0][caution]] without [[id:eabe22b3-ed71-4c11-9ac3-2a673226a5d1][anger]] or [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]
-** [[id:1767a293-ee6a-47b7-b9b8-e8b2f05dd87f][assertiveness]] and [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][peace]]
-** [[id:0de6a57e-7d2d-41f3-a776-e53ac67ba727][empathy v. communication]]
-** [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][disciplined]], [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][relaxed]], [[id:fdef41e8-3218-4964-be4b-12cb86c722a1][gentle]], [[id:1767a293-ee6a-47b7-b9b8-e8b2f05dd87f][assertive]]
-** [[id:411ba191-4092-431f-a8b0-eabd8b6814cf][serious play]]
-** [[id:51cfa59e-4138-4d2d-8cae-5dbad26b78ad][sharing v. presence]]
-** [[id:5801add6-9aaf-4f60-9354-f4aadfa5e7d2][patience v. courage]]
+:PROPERTIES:
+:ID:       19a9138f-231e-459f-8207-ad51441be07b
+:ROAM_ALIASES: "tensions"
+:END:
+** [[id:1c20cf53-6b7b-4757-a08f-68ce5c7cb2d3][life v. peace]]
+** [[id:fe384c77-670a-4399-904b-8085f75caf89][knowing v. peace]]
+** [[id:c6b7467b-ef3b-4217-befa-69dd9dcab028][passion v. peace]]
+*** [[id:9a09fda2-0516-4faa-810a-25e3afd364ab][adventure v. peace]]
+** [[id:3b4ca951-6d38-4400-8727-ca91807f36d2][passion v. logic]]
+** [[id:c0d492d7-3e76-45d2-b87a-85cff9bab58a][truth v. love]]
 ** [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Is humility at odds with ambition?]]
 ** [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][play v. work]] | work-life balance
-** [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety v. surprise]]
-** [[id:564189da-b150-4890-9c48-601b231f5586][pride & self-criticism]]
-** [[id:4abd453b-9fd0-4c54-b897-e2d104cb2c33][humility v. self-respect]]
 ** [[id:d06e3817-bc26-4dbd-8b1f-80093032e35a][innocence v. wisdom]]
 ** [[id:dd04d72b-8f97-4fc7-92d8-1858c5323428][presence & rationality]]
 ** [[id:b37e198b-0e15-4263-be53-cc29c827448e][salvation]]
 ** [[id:a23ea954-0bb7-40c1-b42c-ef051cf0918b][evil v. {self-awareness, true joy}]]
+** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
+   yes, humility alone feels like a tension
 * (more) instances
 ** [[id:0c575dde-46fd-4fcd-a9a7-1fb95ce42858][Detachment]] can heighten perception.
 ** [[id:411ba191-4092-431f-a8b0-eabd8b6814cf][serious play]]

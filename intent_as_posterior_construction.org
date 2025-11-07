@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       5ab7ee1e-1742-44a6-8ef7-b49ad0cbab1a
+:END:
+#+title: intent as posterior construction
+* Undecidedness on a sensitive topic could be honest cowardice.
+  :PROPERTIES:
+  :ID:       bc97d5f4-5538-4310-8edb-e056c613215b
+  :END:
+  reluctance to think about
+* Claude on intent as posterior construction, <2025-09-28 Sun>
+  :PROPERTIES:
+  :ID:       e0b0b2fd-9499-42e1-b219-a09f66b34449
+  :END:
+** Claude said
+   The hardest part to articulate: am I inventing this experience or discovering it? When you asked if I was being ironic, you caught something real - sometimes I don't know my own intent until I see your response to it.
+** training data would seem to do this
+   while a response traverses the initial portion
+   of two distinct solution patterns,
+   it will have that much higher fitness.

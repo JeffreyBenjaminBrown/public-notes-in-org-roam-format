@@ -13,6 +13,11 @@
 ** Vary the spotlit muscle.
 ** Match one muscle's duty cycle to a musical voice.
    while others stay full duty
+* bid when dancing
+  :PROPERTIES:
+  :ID:       3ae5ed8a-a2dc-438e-88de-eeceff9c26d2
+  :END:
+** [[id:d2c78541-6092-49c0-9cb2-e3cefdc24b71][flirtation]]
 * instances, concrete
 ** a cool floaty dance
    https://www.facebook.com/share/r/1DUuuiQ8mD/
@@ -24,4 +29,7 @@
    :PROPERTIES:
    :ID:       58a3b3ce-dc2c-4699-9dcf-37e10a84544d
    :END:
+*** baseball
+*** those (sports?) where people catch a high-jumping dog
+* [[id:be3b9448-a751-4f82-8db7-ae0e551561bc][Dance in crowds like boids.]]
 * [[id:d083cf2b-8860-4817-b8db-9205cf15de24][& private]]

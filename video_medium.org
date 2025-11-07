@@ -3,5 +3,29 @@
 :END:
 #+title: video (medium)
 * [[id:31427781-8735-4b8e-a185-a89f955c42ee][how to create an .mp4 from a .wav and a .png]]
+* how to film
+  :PROPERTIES:
+  :ID:       7c57ccdf-ff0e-4362-bc1d-4a2eaf7157f7
+  :END:
+** respect the space
+   :PROPERTIES:
+   :ID:       b2906030-b897-4495-aae1-3bba39d40a84
+   :END:
+*** [[id:e494eab2-9a1b-4a26-a49c-e236e469c12e][Swinging close to the camera is freaky.]]
+*** Don't stand up in the middle of a video.
+    :PROPERTIES:
+    :ID:       d206b9f1-016e-4dd2-a083-dc12d98dd157
+    :END:
+    At least not if it puts my head out of the frame.
+**** [[id:a1c7913a-ecf8-453f-aa6d-046ab77dc900][example from video]]
+** Camera should be from the lit side of the room.
+   :PROPERTIES:
+   :ID:       7f2060e4-05ad-4453-95d3-4ecd9d5e768a
+   :END:
+** ? disclose (art) gradually
+   :PROPERTIES:
+   :ID:       0f0efb2e-ec94-4206-86c9-a5de72c7db2c
+   :END:
+   Get feedback from friends before sharing widely.
 * video formats
 ** [[id:418ec86f-2f42-4e22-bae4-2677f9475ce3][mp4]]

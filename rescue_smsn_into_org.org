@@ -1,18 +1,92 @@
 :PROPERTIES:
 :ID:       7dd8d9fd-8e7f-4719-a547-554eb182beb1
 :END:
-#+title: rescue smsn into org
-* [[id:aae78160-aab9-4355-ab41-93a2108798e0][Will updating my SmSN notes be hard with Skg?]]
+#+title: rescue smsn into skg
+* requirements
+** max number of nodes in document creation
+   This obviates the need to massage the data
+   into a forest of reasonable-sized trees.
+** multiple sources
+* beware
+** Pushing changes back to smsn could be hard.
+* the copy of the SmSn data in Skg
+** where I copied it from
+   vcs.from-borg.2024-01-10.hp17
+** each repo's name
+*** private
+*** peresonal
+*** public
+*** universal
+** the branch and commit of each repo when copied to Skg
+*** command
+for f in $(cat list-of-repositories.txt); do
+  echo $f
+  cd $f
+  git branch
+  git log | head -n 3
+  echo ""
+done
+*** result
+    private
+    * collab
+    commit 0d7f51dcf61ef7affa046ba2330defb8f5c54d95
+    Author: JeffreyBenjaminBrown <jeffbrown.the@gmail.com>
+    Date:   Mon Mar 8 10:36:56 2021 -0500
+
+    personal
+    bash: cd: personal: No such file or directory
+    * collab
+    commit 0d7f51dcf61ef7affa046ba2330defb8f5c54d95
+    Author: JeffreyBenjaminBrown <jeffbrown.the@gmail.com>
+    Date:   Mon Mar 8 10:36:56 2021 -0500
+
+    public
+    bash: cd: public: No such file or directory
+    * collab
+    commit 0d7f51dcf61ef7affa046ba2330defb8f5c54d95
+    Author: JeffreyBenjaminBrown <jeffbrown.the@gmail.com>
+    Date:   Mon Mar 8 10:36:56 2021 -0500
+
+    universal
+    bash: cd: universal: No such file or directory
+    * collab
+    commit 0d7f51dcf61ef7affa046ba2330defb8f5c54d95
+    Author: JeffreyBenjaminBrown <jeffbrown.the@gmail.com>
+    Date:   Mon Mar 8 10:36:56 2021 -0500
+
+    observatorio
+    bash: cd: observatorio: No such file or directory
+    * collab
+    commit 0d7f51dcf61ef7affa046ba2330defb8f5c54d95
+    Author: JeffreyBenjaminBrown <jeffbrown.the@gmail.com>
+    Date:   Mon Mar 8 10:36:56 2021 -0500
 * TODO take data source into account when building docs
   All nodes in a doc must belong to the same repo.
+* [[id:aae78160-aab9-4355-ab41-93a2108798e0][Will updating my SmSN notes be hard with Skg?]]
 * understand SmSn data
-  in universal:
-  grep for each line that starts with @
-  keep only the first word (stop at whitespace)
-  uniquify
-* build org files
-  Build trees from every uncontained node.
-  Where they overlap, pick one ancestor
-  at random to be the context.
-  Once a context is fat (easiest measure: max # of nodes),
-  remove it from the pool of containers.
+** the keywords
+   found via
+     discoveries/smsn/find-keywwords.rs
+*** TODO @id
+*** TODO @text
+**** two formats
+     neither with leading space
+***** multi-line
+      @text ```
+      yadda yadda
+      yadda yadda
+      ```
+***** one-line
+      @text yadda yadda
+*** TODO @title
+*** TODO @alias : url
+    Turn it into an 'alias from smsn' branch.
+*** TODO @priority
+    Keep it as a field, do nothing with it.
+    (Parser needs to accept it.)
+*** TODO @weight
+    Keep it as a field, do nothing with it.
+    (Parser needs to accept it.)
+*** @created
+*** @shortcut
+** show a random file

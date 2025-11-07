@@ -57,3 +57,5 @@
 * If it seems too far-out to share, [[id:ccc1c640-f36e-47de-b417-a12ea267f0a2][ground the claim]].
 * [[id:bef20c9d-ecd5-4ea5-ae9b-acf8a7fc0285][Declarative > imperative, in communication as in CS.]]
 * [[id:1ea108ff-126c-4104-b17d-9e243528f486][feedback, social]]
+* ? [[id:3ae5ed8a-a2dc-438e-88de-eeceff9c26d2][bid when dancing]]
+* [[id:ee913669-bf21-4061-823c-e31a08111142][humility in channeling]]

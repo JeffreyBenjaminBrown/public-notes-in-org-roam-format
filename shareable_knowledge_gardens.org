@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       9c5619e5-81ad-4a67-9705-e4761bdd6839
-:ROAM_ALIASES: skg
+:ROAM_ALIASES: skg Skg
 :END:
 #+title: shareable knowledge gardens (skg)
 = an app in progress
@@ -19,7 +19,17 @@
     :PROPERTIES:
     :ID:       1df9170f-7044-488f-bf66-5a2c38f309d3
     :END:
+* [[id:5c051765-a400-487f-9e31-4fe75a6eeaec][how Skg works]]
+* reasons to rescue SmSn
+** It's easier to parse.
+** Build 1000 nodes BFS to whatever depth.
+   User can then request further content-unfolds at specific points.
+** [[id:e8ce9b54-c22e-42ef-a2b3-3f5694d4cb59][see "referential slip"]]
+** Would it not be ideal sample data?
+   I would not even need to write new things in it.
+* [[id:afff132a-e822-46cb-aed4-5725b7d1b0c5][PRESSING*]]
 * [[id:f3644edd-b358-4053-a906-b4306dd52244][maybe rush to integration]]
+* [[id:413cde77-22e9-45b7-aab4-3e16132adad9][friends who want to use skg]]
 * [[id:52d94126-fcee-4cf7-86f5-1c205b928d55][presenting data]]
 * Some nodes do not want to pollute what they link to
   by being in the backlinks view.
@@ -138,6 +148,7 @@
 *** If big documents take long to load, that's a useful signal.
     A prompt to change some contains relationships to links.
 ** shine-through ~ nonempty containers linking to it
+* [[id:90c32efc-92c8-490f-afb3-50342e6d616c][how to form a study ogroup]]
 * motivation and soul-searching for skg
 ** [[id:320e5181-cf0d-48bf-b024-d0e6c4c309c2][Do I fear personal integration?]]
 ** Do I fear human superintelligence?
@@ -173,7 +184,8 @@
     such that subscribed readers
     can see those annotations from their target.
 ** ?
-*** [[id:7430a056-f5cb-4257-ac78-9a2915566b35][It's a graph isomorphism.]]
+*** [[id:166827e3-d418-4827-b48d-270a00237b9f][glyphs for correlations]]
+*** [[id:7430a056-f5cb-4257-ac78-9a2915566b35][a graph isomorphism]]
 *** "Read the last branch last {it's the point, these are about it}."
     The most natural way to structure this would be
     the node saying that is talking about its children,
@@ -260,9 +272,13 @@
 *** cool idea: [[id:2daed6f3-a2e8-4f95-905e-52ecb5e6e4ee][annotation server]]
 *** When A has branch B with branch C, A can be using B to explain why it has C. There might reasonably be multiple such paths A to C.
 ** pressing*
+   :PROPERTIES:
+   :ID:       afff132a-e822-46cb-aed4-5725b7d1b0c5
+   :END:
    * = org-roam transplant first needs
 *** [#B] easy
-**** new empty buffer
+**** Count how many times a node has been unfolded.
+**** DONE new empty buffer
 **** DONE deletion \ skg
      :PROPERTIES:
      :ID:       fb72f38e-bef6-4de9-a29b-00f0e46afbbb
@@ -289,9 +305,8 @@
       Rather passing around only a single list of FileNodes,
       pair that with a list of root IDs.
 **** override the ordinary save command
-*** [[id:bc8fd4c3-0566-400c-96a8-0f4632e7fd1c][merging graph nodes]]
-*** [[id:96b1ca65-3afd-4840-8d84-a0642b1a1b4e][diffs in skg]]
 *** [[id:4bf53fb8-abb2-4bd2-9b56-d2374fbb931d][skg // sharing & privacy]]
+*** [[id:96b1ca65-3afd-4840-8d84-a0642b1a1b4e][diffs in skg]]
 *** safe saving
 *** transfer org-roam to skg
 **** [[id:c0465799-391d-446f-a957-28ff65d72e10][parsing initial super-indented org-children in org-roam data]]
@@ -317,6 +332,13 @@
 *** [[id:91025e2c-2a28-4627-a25b-609de0030752][Sound effects for events would be cool.]]
 ** not pressing
     Have [[id:9395f417-7e64-461f-ac7e-f7a95ce8d683][patience, these are badass to sacrifice in the short term]].
+*** [[id:cf1d7278-9341-4171-8fa4-c9ae74be12b4][TypeDB should report constraint violations to Skg.]]
+*** an overrides cycle
+    Could make sense if the nodes were from distinct authors.
+    Should be detected (avoiding a forever loop)
+    and offered to the user to adjudicate.
+*** swap places between an indefinitive and definitive
+    of the same id
 *** [[id:7dd8d9fd-8e7f-4719-a547-554eb182beb1][rescue smsn into org]]
 *** [[id:2cacb9e0-074a-4ae7-a889-b170a355923f]["It, this and these" make tree relationships easy.]]
 *** [[id:c84d8ff7-030f-4ff1-9bdd-380f5304b235][make org-mode indentation changes less noisy]]
@@ -475,3 +497,4 @@
 ** [[id:170e4f79-4f5e-49a6-9ce1-8e42c0332100][the meaning of sharing in a knowledge graph]]
 ** [[id:b72d4277-eced-48b9-85da-b917d9a4aad4][aliases]]
 ** [[id:25bea258-98e5-4154-b787-98acf64e8ff6][retain focus, folding on save]]
+** [[id:bc8fd4c3-0566-400c-96a8-0f4632e7fd1c][merging graph nodes]]

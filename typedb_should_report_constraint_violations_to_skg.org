@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       cf1d7278-9341-4171-8fa4-c9ae74be12b4
+:END:
+#+title: TypeDB should report constraint violations to Skg.
+* Report upon discovery during save-buffer, yet succeed.
+* good constraints
+** Each extra_id should be in at most one has_extra_id relationship.
+** Each id value should belong to only one entity.
+   where entity = node | extra_id
+* TypeDB is probably better for finding them.
+* Some states are invalid or redundant.
+** IDs should be unique.
+** Redundant state is possible.
+*** A node can 'hide from subscriptions' something it contains.
+    'contains' should imply 'hides from subscriptions'.
+    (That is, the server should not display
+    in one of a node's subscriptions
+    something already shown in the node's content.)

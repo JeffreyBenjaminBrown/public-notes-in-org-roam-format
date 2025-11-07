@@ -3,6 +3,8 @@
 :ROAM_ALIASES: love
 :END:
 #+title: love ,, brotherly & romantic & self-respect
+* [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
+* [[id:c0d492d7-3e76-45d2-b87a-85cff9bab58a][truth v. love]]
 * components $$of love $as skill
   = components of (love as skill)
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]

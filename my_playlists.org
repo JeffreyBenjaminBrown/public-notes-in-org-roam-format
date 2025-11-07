@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       74329979-8166-4617-aaad-0a0294b87b78
+:ROAM_ALIASES: "playlists, my"
+:END:
+#+title: my playlists
+* good advice, I think
+** Don't just ask whether is it, but whether to engrave it there
+*** To categorize (if at all), ask not just what a song is but what I want to keep from it.
+**** This resembles note-taking.
+     :PROPERTIES:
+     :ID:       934b7b55-f1d8-43f7-9649-f745d0d3b54c
+     :END:
+* Maybe each playlist captures a moment and one should not try to move it from there.
+* instances & maybe todo
+** gawk (<-)? metal, hype, hard techno
+** blues
+*** definition
+    any song in it can be any subset of
+**** blues (style)
+**** blues (mood)
+**** wistful
+*** Should it be mellow?
+** mellow
+** drama +? epic
+   includes lucha, daily struggle
+** ? deep
+   dubstep
+** spooky (<-)? circus

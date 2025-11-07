@@ -8,6 +8,8 @@
 ** [[id:a9730be0-42bc-49ab-8a0a-f7bfd55c729d][Entropy is not entirely negative.]]
 ** [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep]]
 ** [[id:b449bd05-ac06-4548-8982-3a6eb05f5d91][how constraints help \ art]]
+* [[id:28e2d047-98bc-409e-a311-a50b1a48823d][{learning,plans,dream,drugs,..} v. execution]]
+* [[id:e16053b4-1fe8-4847-8822-fdf3880687fe][death & fantasy]]
 * would be just
 ** Freedom from time, loss of self. (With ?rebuttal.)
    Because one's time defines oneself.
@@ -31,7 +33,6 @@
 * [[id:30952056-8521-470b-81bf-2e50f7d9d5e0][heaven]]
 * [[id:8f6e74cd-0a1a-48c6-8acf-d16f8efe54b2][death & irony]]
 * [[id:b3ec25ba-75fa-413d-ad2f-a3c738a2d339][We say we're ending it and can't.]]
-* [[id:44d3d9e4-0781-4476-9989-0e9f4a5b4d09][If life is change, then to not change (much) is to be (near) death.]]
 * near it
 ** [[id:b928ca41-2cf7-47bb-be26-2ee550574d94][subsistence]]
 ** [[id:1d2b7fa8-e4f3-4e96-9b20-24901b7be28a][immortality]]
@@ -40,5 +41,10 @@
 ** [[id:5e99170f-6c38-4705-bf3d-1b2cb9b95123][Escape yourself.]]
 * [[id:dd5b4336-de4b-4fc9-8119-0c9285240925][information death]]
 * [[id:0df57048-a573-4a11-aa34-05ee94dd7536][forgetting | memory management]]
-* u
+* [[id:36940816-670d-4097-b1e2-41adc1980e45][sidestep the abyss]]
+* spooky
+** spooky ~ slow-moving
+** [[id:44d3d9e4-0781-4476-9989-0e9f4a5b4d09][If life is change, then to not change (much) is to be (near) death.]]
 ** mobility problems
+* maybe
+** little death ~ ego death

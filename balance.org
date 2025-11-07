@@ -11,6 +11,20 @@
 ** [[id:d3da70ea-0752-403d-a8eb-ebda828b7b7d][desire]]
 ** [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][acceptance | realism]]
 ** [[id:ee3db6a1-1143-439c-8912-10fb2a4d3b8d][numbness]]
+* [[id:fe384c77-670a-4399-904b-8085f75caf89][knowing v. peace]]
+* passion v. peace
+:PROPERTIES:
+:ID:       c6b7467b-ef3b-4217-befa-69dd9dcab028
+:ROAM_ALIASES: "peace v. passion"
+:END:
+** adventure v. peace
+:PROPERTIES:
+:ID:       9a09fda2-0516-4faa-810a-25e3afd364ab
+:ROAM_ALIASES: "peace v. adventure"
+:END:
+*** [[id:19f67792-2898-45d9-9cfe-4e6f516aa89f][boredom]]
+*** [[id:79e4ff95-ba24-43c1-8298-e4a1372070e8][maturity & adventure]]
+* [[id:1c20cf53-6b7b-4757-a08f-68ce5c7cb2d3][life vs. peace]]
 * I regret not being sufficiently relaxed.
   :PROPERTIES:
   :ID:       36822452-1306-402a-b914-d91e605e78e5
@@ -33,10 +47,8 @@
   :PROPERTIES:
   :ID:       f4d489d8-3687-4377-8394-4d1aa16d8782
   :END:
-** Recognizing your own biases is freeing.
-** Recognizing others' biases is a step toward freedom from them.
-   toward preventing the other from,
-   whether intentional or not, harming you
+** Recognizing your own biases frees you.
+** Recognizing others' biases {frees, protects} you from them.
 * peace in oneself
 ** [[id:0c575dde-46fd-4fcd-a9a7-1fb95ce42858][detachment]]
 ** [[id:2f3c6dae-ded0-43f0-8b3d-0e9d095d8904][Could appreciating drama help one cope with stress?]]
@@ -52,12 +64,11 @@
    because {biological necessity, ..}
    forces one to work too much on other stuff
 ** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
+** [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]]
 ** [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][work-life balance]]
 * some balances
 ** [[id:e9ac21ef-aa15-4c6a-9157-f0a79f0851a1][courage v. humility]]
-** [[id:b236df4e-956c-49f7-b694-da598ccae237][peace with death]]
 ** [[id:5498fb6a-fcf2-49e4-a6d0-aa30a615301d][reading (one's own notes) v. editing]]
-** [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility seems more compatible with peace than pride does.]]
 ** [[id:0099068b-7ef0-4413-b3aa-18997353baa4][sharing]]
 * some forms of peace
 ** [[id:b288df19-c02e-42fa-a4b6-4cd3c0162e52][self-respect]]
@@ -69,8 +80,14 @@
 * [[id:5fb0c3e5-a80d-46be-b5c6-26accde35bb3][Accept emotional marbling.]]
 * [[id:08dc2cef-0fdd-418c-8bee-4a4594d188a0]["Do your own thinking" is a great response to the urge to surf (too excess) as an anonymous reader|listener|viewer.]]
 * [[id:e1d6664c-9b8d-434a-808d-18d06757d217][Nature has balance.]]
-* [[id:3987d04f-c539-4f73-916f-6a44bc0df7cd][Humility -> courage -> peace.]]
-* [[id:3601d1d0-a760-4220-81e1-e909d640b452][Humility is calming.]]
+* humility -> peace
+  :PROPERTIES:
+  :ID:       9d1166b9-dbcf-4cc7-a519-e726179445df
+  :END:
+** [[id:3987d04f-c539-4f73-916f-6a44bc0df7cd][Humility -> courage -> peace.]]
+** [[id:3601d1d0-a760-4220-81e1-e909d640b452][Humility is calming.]]
+** [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility feels more peaceful than pride does.]]
+** [[id:4616df20-0eeb-4014-8f0d-04c14dcef195][Humility -> confession -> peace.]]
 * [[id:b403942c-942b-4b79-9c39-b5d77142bf33][marijuana ! peace]]
 * peace & realism
   :PROPERTIES:
@@ -93,3 +110,9 @@
   :ID:       5ffd0819-1aae-4aac-9008-1acd99a12f25
   :END:
 * [[id:7122ba5b-76b3-44a0-bf03-700779bb32e4][double negative]]
+* Learn to retreat to less complexity.
+  :PROPERTIES:
+  :ID:       0bff6b35-f8d4-4e1f-bf2f-be379b38791e
+  :END:
+** work against the ratchet effect
+* [[id:36940816-670d-4097-b1e2-41adc1980e45][sidestep the abyss]]

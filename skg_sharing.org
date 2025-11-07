@@ -13,7 +13,9 @@
      there exists node N, such that
        N recursively contains S', and
        N is not overridden.
-* TODO [#A] 'overrides' seems unnecessary
+* TODO mk_skgnode is wrong
+  It sets a lot of SkgNode list fields to None.
+* TODO 'overrides' might be unnecessary
   If a user has a node that subscribes to this one,
   they probably want to see that one rather than this one.
 * TODO extend clobber_none_fields_with_data_from_disk

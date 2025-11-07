@@ -4,6 +4,7 @@
 :END:
 #+title: justice
 Remember, notes should be surprising.
+* Among values, justice seems unusually negative.
 * judgment
 ** Some refuse to hear it.
 * Thinking about who deserves what could be a bad smell.

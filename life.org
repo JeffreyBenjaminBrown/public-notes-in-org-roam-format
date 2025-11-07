@@ -3,5 +3,25 @@
 :END:
 #+title: life
 * transclude: [[id:c73ee824-eb2b-43f4-8ead-32d9d62ddc75][death]]
-* [[id:44d3d9e4-0781-4476-9989-0e9f4a5b4d09][If life is change, then to not change (much) is to be (near) death.]]
+* [[id:44d3d9e4-0781-4476-9989-0e9f4a5b4d09][If life is change, then to change little is to be near death.]]
+** Related ? [[id:f5305f69-51d9-40d1-8de4-94a5a406e7e7][Psilocybin may extend lifespan.]]
+   hallucinogens ~ extreme (neuroplastic) change
 * [[id:7d7ed8fa-a321-41f6-9699-c3eb0398841f][competition among games]]
+* competition between values (is lively)
+** e.g. [[id:1c20cf53-6b7b-4757-a08f-68ce5c7cb2d3][life vs. peace]]
+* life vs. peace
+  :PROPERTIES:
+  :ID:       1c20cf53-6b7b-4757-a08f-68ce5c7cb2d3
+  :END:
+** ? solutions
+*** [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]]
+** instances of the tension
+*** [[id:51cfa59e-4138-4d2d-8cae-5dbad26b78ad][sharing v. presence]]
+*** [[id:5801add6-9aaf-4f60-9354-f4aadfa5e7d2][patience v. courage]]
+*** [[id:1767a293-ee6a-47b7-b9b8-e8b2f05dd87f][assertiveness]] and [[id:b9f666f2-0035-42df-b674-86049697e9e0][caution]] without [[id:eabe22b3-ed71-4c11-9ac3-2a673226a5d1][anger]] or [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]
+*** [[id:0de6a57e-7d2d-41f3-a776-e53ac67ba727][empathy v. communication]]
+    empathy ~ peace vs.. communication ~ life
+*** [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][disciplined]], [[id:6e44fba3-c51d-430c-81ac-bd91e8db773b][relaxed]], [[id:fdef41e8-3218-4964-be4b-12cb86c722a1][gentle]], [[id:1767a293-ee6a-47b7-b9b8-e8b2f05dd87f][assertive]]
+*** [[id:411ba191-4092-431f-a8b0-eabd8b6814cf][serious play]]
+*** [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety v. surprise]]
+*** [[id:8b12f895-f36b-4ef7-a2ad-3b766a511743][self-modulation]]

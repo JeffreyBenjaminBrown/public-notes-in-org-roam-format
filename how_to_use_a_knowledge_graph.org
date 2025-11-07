@@ -3,6 +3,25 @@
 :ROAM_ALIASES: "how to use a knowledge graph" "how to knowledge graph"
 :END:
 #+title: using a knowledge graph
+* see also [[id:90c32efc-92c8-490f-afb3-50342e6d616c][how to form a study group]]
+* Feeling lost is a good time to look {backward, link-sourceward}.
+** why
+   :PROPERTIES:
+   :ID:       7cc9d769-b458-4899-81c5-e074a3263536
+   :END:
+   If each note is to advance some thesis|question|agenda,
+   and while reading you question why you're doing it,
+   finding what links to this note gives purpose to it,
+   because a link source advances some other thesis|question|agenda.
+** implication for app design
+   It would be nice to see a backward view,
+   not just of this node, but of all its contents.
+   (Most of them won't have backlinks.)
+* The path from root to leaves should not obscure the leaves.
+  :PROPERTIES:
+  :ID:       30c2a591-9ecc-49a5-b41e-6985aa005b49
+  :END:
+  They, not the categories, are the most delicious part.
 * good notes
 ** sufficient comprehensibility
 *** If it seems too far-out to share, [[id:ccc1c640-f36e-47de-b417-a12ea267f0a2][ground the claim]].

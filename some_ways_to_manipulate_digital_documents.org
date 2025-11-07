@@ -1,11 +1,19 @@
 :PROPERTIES:
 :ID:       082cfa49-50e3-4332-9072-282b65aad5eb
-:ROAM_ALIASES: "image manipulation" "digital image manipulation"
+:ROAM_ALIASES: "image and video manipulation" "digital image and video manipulation" "video and image manipulation"
 :END:
 #+title: some ways to manipulate digital documents
 * [[id:b5d11fbe-75dc-4c31-8d0d-c44689328ff1][some ways to manipulate digital images]]
 * [[id:f3e205be-1323-4ca1-89b9-fc99ab1d8956][some ways to (create and) manipulate PDFs]]
 * [[id:31427781-8735-4b8e-a185-a89f955c42ee][how to create an .mp4 from a .wav and a .png]]
+* compressing an .mp4 video
+This got a long video from my phone down from 5.2 GB to 99 MB,
+<2025-10-26 Sun>:
+
+ffmpeg -i 2025-10-08_casio-keys-improv.mp4               \
+  -c:v libx264 -crf 30 -preset veryslow -vf scale=640:-1 \
+  -c:a aac -b:a 96k                                      \
+  output.mp4
 * DONE install these
   pdftk, gs, gimp
   and maybe install imagemagick

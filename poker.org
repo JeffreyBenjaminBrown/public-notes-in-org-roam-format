@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       80f1275c-ebc4-4463-a260-c20e018b66c6
+:ROAM_ALIASES: poker
+:END:
+#+title: card games
+* [[id:3ae5ed8a-a2dc-438e-88de-eeceff9c26d2][bid when dancing]]

@@ -3,6 +3,31 @@
 :END:
 #+title: pleasure
 * see also [[id:2b15a3ec-086b-4c66-af57-a03e706e1d84][joy]]
+* independent of pleasure
+** Some good feelings are orthogonal to it.
+** [[id:fe4939fe-8b94-4b78-914f-f2b83d7ff9f4][One can use art (for healing) orthogonal to pleasure.]]
+* its plasticity
+** Pleasure is subjective.
+   e.g. not everyone enjoys roller coasters
+** Tastes can be acquired.
+   e.g. alcohol
+*** Not necessarily a worthwhile pursuite.
+** Enjoyment and desire are only loosely coupled.
+   We want some things that are not pleasurable,
+     (wait, what did I have in mind?)
+   and we enjoy some things that we do not want, or
+                            that we do not want to enjoy.
+** Pleasure's object need not be real.
+   "aesthetic or disinterested pleasure"
+   "A pleasure is disinterested if it is indifferent to the existence of the beautiful object ... For example, the joy of looking at a beautiful landscape would still be valuable if it turned out that this experience was an illusion"
+   -- Wikipedia on pleasure, <2025-07-10 Thu>
+     https://en.wikipedia.org/wiki/Pleasure
+* disorders
+  :PROPERTIES:
+  :ID:       6e37e3c8-2faf-473a-8dd6-fb87dcbe4649
+  :END:
+** anhedonia: being unable to feel it
+** hedonophobia: being averse to it
 * some media|avenues
 ** physical
 ** emotional
@@ -13,13 +38,15 @@
 ** social
 * some sources (and a few "anti-sources")
 ** instances
-*** [[id:b745d109-6d7f-4638-beab-97bd26c8a936][awe]]
+*** [[id:a4897164-eb28-4c26-8f26-c8ac98f2db16][love]]
+**** [[id:7c1233c5-02e7-451e-9265-fe35fe97855c][intimacy]]
+*** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
+**** [[id:b745d109-6d7f-4638-beab-97bd26c8a936][awe]]
+**** [[id:dd74aa97-289b-4fad-9540-6a7445e1484c][flow]]
 *** [[id:de98c3eb-27ba-4a51-9875-9af3c6e2c2dd][beauty]]
 *** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
-*** [[id:7c1233c5-02e7-451e-9265-fe35fe97855c][intimacy]]
 *** [[id:dae618bd-8f97-44ef-b22b-f72adef57bc8][fun]]
 *** [[id:8b0040c0-243b-43d4-8cc8-e9b3ffb35180][comfort]]
-*** [[id:dd74aa97-289b-4fad-9540-6a7445e1484c][flow]]
 *** [[id:8dae7021-8baa-4e26-bf2b-56056ab7f19a][trippy questions]]
 *** being [[id:3a009c94-db3a-4707-933b-e6c9ba4d4fee][social]]
 *** having [[id:255a4912-7dbf-47f4-bff3-3917432616ef][judgment | wisdom | taste]]
@@ -29,20 +56,7 @@
 ** things we like to avoid (sometimes)
 *** [[id:cd678fad-e062-4657-aea3-1023a438b951][constancy]] | monotony | repetition
 *** [[id:06e57867-5a5f-462b-b963-56ffa719c9b8][novelty | surprise]]
-* Pleasure is subjective.
-  e.g. not everyone enjoys roller coasters
-* Tastes can be acquired.
-  e.g. alcohol
-* Enjoyment and desire are only loosely coupled.
-  We want some things that are not pleasurable,
-    (wait, what did I have in mind?)
-  and we enjoy some things that we do not want, or
-                           that we do not want to enjoy.
-* Pleasure's object need not be real.
-  "aesthetic or disinterested pleasure"
-  "A pleasure is disinterested if it is indifferent to the existence of the beautiful object ... For example, the joy of looking at a beautiful landscape would still be valuable if it turned out that this experience was an illusion"
-  -- Wikipedia on pleasure, <2025-07-10 Thu>
-    https://en.wikipedia.org/wiki/Pleasure
+*** [[id:4ff751ef-1d5b-4df7-89ed-69adb2c46fd4][drama]] and (less often) [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]]
 * the "peak–end rule"
 ** definition
    "[O]ur overall impression of past events is determined for the most part not by the total pleasure and suffering it contained but by how it felt at its peaks and at its end."
@@ -52,12 +66,9 @@
    :PROPERTIES:
    :ID:       355c31fa-de37-4053-8a0a-c3cc97f9a3c2
    :END:
-* disorders
-** anhedonia: being unable to feel it
-** hedonophobia: being averse to it
-* Many have defined it only as the absence of suffering.
+* Many have defined it only as the absence of [[id:8b9a976f-2587-4c9f-95a9-eae483550d7b][suffering]].
   e.g. Schopenhauer, who considered suffering the default or baseline.
-* hedonism ~ fatalism
+* hedonism ~ fatalism :: evidence
   :PROPERTIES:
   :ID:       93d35586-c1ee-42b0-9bdd-2070b7cdbb3b
   :END:
@@ -65,3 +76,9 @@
   --Wikipedia on procrastination, <2025-07-14 Mon>,
     with the citation [33] corresponding to
     " Jackson, T.; Fritch, A.; Nagasaka, T.; Pope, L. (2003). "Procrastination and Perceptions of Past, Present, and Future". Individual Differences Research. 1: 17–28. Archived from the original on 2023-04-17. Retrieved 2013-12-05."
+* the pleasure of knowing
+  :PROPERTIES:
+  :ID:       6603bfdd-3209-4b88-82f1-81c7aa3a6a3a
+  :END:
+** [[id:30c2a591-9ecc-49a5-b41e-6985aa005b49][The path from root to leaves should not obscure the leaves.]]
+* [[id:0a10a882-43b6-4a11-8f7e-86c43c85fdb5][Respect simple pleasures.]]

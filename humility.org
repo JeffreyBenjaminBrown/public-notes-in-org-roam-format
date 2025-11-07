@@ -3,6 +3,20 @@
 :END:
 #+title: humility
 * see also [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
+* self-modulation (badly filed)
+  :PROPERTIES:
+  :ID:       8b12f895-f36b-4ef7-a2ad-3b766a511743
+  :END:
+  = modulating self-regard. Not controlling impulses,
+    so much as the balance of self v. world in one's awareness.
+** Too much gratitude seems a failure of self-moderation.
+   :PROPERTIES:
+   :ID:       170d0326-31cc-457a-8dd5-36391025edc1
+   :END:
+** [[id:4abd453b-9fd0-4c54-b897-e2d104cb2c33][humility v. self-respect]]
+** [[id:564189da-b150-4890-9c48-601b231f5586][pride & self-criticism]]
+** [[id:0a49a9a3-a7bf-4de3-b2f1-2607755019a1][Is humility at odds with ambition?]]
+* [[id:9d1166b9-dbcf-4cc7-a519-e726179445df][humility -> peace]] (various ways)
 * Humility does need a counterpoint like [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]].
 * definition & methods
 ** Humility liberates (oneself and others) from oneself.
@@ -43,8 +57,6 @@
 * [[id:e73d3fdc-9c61-4e4e-8e58-66efbbae67c4][Humility feeds good.]]
 * [[id:2997228e-82aa-4b95-a2eb-2eff33fb0702][hypothesis : Everything that requires courage requires humility.]]
 * [[id:c4b72622-b3ef-417e-9567-19ffe1ee87ea][& pride]] (big!)
-* humility & peace
-** [[id:f41e92ae-cf4b-4f4f-a804-f506c7dded03][Humility feels more peaceful than pride does.]]
 * [[id:2503d292-bce0-4352-94fb-545a8e079788][Humility and pride are both funny.]]
 * [[id:99f26fdf-e619-4680-a5e1-29624bbdc857][romantic compliments]]
 * humility & ambition
@@ -54,8 +66,6 @@
 ** [[id:c7dba9db-c335-45e0-ba71-198460a3a3da][self-sacrifice]]
 * [[id:16a6b4bc-5bd8-4089-b2cb-9d25cd04c670][fear of God]]
 * [[id:ac5de538-7ff8-4db1-834e-5d4cfd594b12][Giving up can require courage and humility.]]
-* [[id:3987d04f-c539-4f73-916f-6a44bc0df7cd][Humility -> courage -> peace.]]
-* [[id:4616df20-0eeb-4014-8f0d-04c14dcef195][Humility -> confession -> peace.]]
 * [[id:3319db7f-b283-41ef-a849-c2bace4599de][Betrayal can be an inaccurately self-centered frame.]]
 * [[id:635a5922-bdc6-4350-8e80-80d181fc8646][Inferiority can be funny.]]
 * [[id:74af98fa-20f2-44ae-9e93-8f73f666724a][Alone, we often forget ourselves.]]
@@ -99,3 +109,4 @@
     a better way to do something.
     Love the change it (suggests?).
 * [[id:628efefb-3691-4767-89e2-a5696221b3d9][insignificance]]
+* [[id:ee913669-bf21-4061-823c-e31a08111142][humility in channeling]]

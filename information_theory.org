@@ -1,12 +1,20 @@
 :PROPERTIES:
 :ID:       e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec
-:ROAM_ALIASES: information knowledge
+:ROAM_ALIASES: information knowledge truth
 :END:
-#+title: information | knowledge
+#+title: information | knowledge | truth
+* MERGE ? [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][truth]] [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]] [[id:001d7913-c431-461c-92ae-a6a39394856c][processing]]
+* [[id:c0d492d7-3e76-45d2-b87a-85cff9bab58a][truth v. love]]
+* [[id:6603bfdd-3209-4b88-82f1-81c7aa3a6a3a][the pleasure of knowing]]
 * [[id:880c2596-e4da-486d-863d-6daff64ca89c][identity , conscious]]
-* [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaning]]
-* [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]] | finding truth
+* knowing v. peace
+  :PROPERTIES:
+  :ID:       fe384c77-670a-4399-904b-8085f75caf89
+  :END:
+** [[id:b236df4e-956c-49f7-b694-da598ccae237][peace with death]]
 * some kinds
+** [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaning]]
+*** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 ** [[id:2549e02a-fb43-484c-9d92-27b094a5e67c][beliefs]]
 *** [[id:7ab90926-6a0b-48e8-9e2c-7e9c9682d9a4][beliefs that matter]]
 ** [[id:e31ef49a-1cc3-417f-b1db-3d9f5c258abd][empathy]]

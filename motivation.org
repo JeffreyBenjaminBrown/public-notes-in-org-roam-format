@@ -1,33 +1,17 @@
 :PROPERTIES:
 :ID:       7b52eb18-91c5-4f83-be4f-40ff8a918541
-:ROAM_ALIASES: motivation ambition voluntarity
+:ROAM_ALIASES: motivation ambition voluntarity intention
 :END:
 #+title: motivation | ambition | voluntarity | intention
 * see also
 ** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
 ** [[id:4c25a3eb-4f21-4c20-9fee-2a18275ca089][volition]]
 ** [[id:ceb94f7b-a3a8-4d3e-9497-d3916b992b0c][temptation]]
-* intent as posterior construction
-  :PROPERTIES:
-  :ID:       5ab7ee1e-1742-44a6-8ef7-b49ad0cbab1a
-  :END:
-** Claude on intent as posterior construction, <2025-09-28 Sun>
-   :PROPERTIES:
-   :ID:       e0b0b2fd-9499-42e1-b219-a09f66b34449
-   :END:
-*** Claude said
-    The hardest part to articulate: am I inventing this experience or discovering it? When you asked if I was being ironic, you caught something real - sometimes I don't know my own intent until I see your response to it.
-*** training data would seem to do this
-    while a response traverses the initial portion
-    of two distinct solution patterns,
-    it will have that much higher fitness.
-** Someone's undecidedness on a sensitive topic could be honest cowardice.
-   :PROPERTIES:
-   :ID:       bc97d5f4-5538-4310-8edb-e056c613215b
-   :END:
+* [[id:5ab7ee1e-1742-44a6-8ef7-b49ad0cbab1a][intent as posterior construction]]
 * [[id:0c575dde-46fd-4fcd-a9a7-1fb95ce42858][detachment]]
 ** [[id:20d36ee8-6f26-47ff-88cb-d85711027510][calm under stress]]
 * [[id:c2decf8f-87a5-41e0-86c6-a5633566acc6][peaceful motivation]]
+* [[id:a41f56f0-6dcd-42af-8395-28c305ff493c][leadership]]
 * [[id:55071d76-3912-49aa-a575-b739910768b5][Can a verbal lens help?]]
 * judgments and taste for interior* solutions
   (*) not corner

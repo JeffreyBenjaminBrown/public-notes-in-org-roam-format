@@ -1,0 +1,53 @@
+:PROPERTIES:
+:ID:       90c32efc-92c8-490f-afb3-50342e6d616c
+:END:
+#+title: how to form a study group
+* SOURCE : Largely asking ChatGPT
+  to sum up the research.
+* Self-selected groups (tend to)
+** enjoy the experience more.
+** underperform the alternative.
+   "Instructor-assigned or algorithmic groups (mixed skill, random, or balanced by GPA, gender, etc.)"
+   The best-performing groups were "thoughtfully balanced", rather than random, but even random outperformed self-selection.
+** early on, have more comfort, cohesion and communication.
+** lower initial coordination cost.
+** plateau earlier.
+** have less diverse ideas and skills.
+   It wasn't clear that they meant only "friends or familiar peers"
+   or whether that was just an illustration.
+** avoid conflict and role differentiation.
+* "Explicit discussion of roles early on improves outcomes regardless of formation method."
+* With time group cooperation improves.
+* overlapping interests
+* specialization
+** kinds
+*** in subject area
+*** in role
+    alias: some roles
+
+    editor
+    explainer
+    investigator
+    manager
+    note-taker
+    organizer
+    question-generator
+    reconciler
+    recorder-reporter
+    reviewer
+    social integrator
+    strategy evaluator
+    summarizer
+    timekeeper
+** Roles are better at least someowhat fluid.
+   Indeed formally rotating roles can work well.
+** It can emerge without being named.
+** Subject area expertise is more helpful if known.
+   If everyone knows you can ask X about T,
+     that makes T's specialization in X more useful.
+* problems
+** "diffusion of responsibility"
+** "coordination overhead"
+* Some tasks have more potential for specialization.
+  complementarity
+* Over-specialization feels narrow-minded.

@@ -1,0 +1,89 @@
+:PROPERTIES:
+:ID:       8b9a976f-2587-4c9f-95a9-eae483550d7b
+:ROAM_ALIASES: suffering
+:END:
+#+title: pain
+* motivation
+** [[id:71dc8ea7-cbd0-4fc5-8514-e0617b422569][Study your pains.]]
+** [[id:636d3275-7997-4503-9769-37cdb51722e2][I wish pain were more useful.]]
+* pains to study
+** [[id:99295d00-8cfa-4c7f-98af-ad1a41b4abc9][conscience]]
+** [[id:9140d17d-528b-45cd-aa6b-2876f3a15b00][loneliness]]
+** [[id:911e181e-7e6e-4cb2-9ee2-c7bf6071ad10][self-consciousness]]
+** boredom
+   :PROPERTIES:
+   :ID:       19f67792-2898-45d9-9cfe-4e6f516aa89f
+   :END:
+*** ~ [[id:9140d17d-528b-45cd-aa6b-2876f3a15b00][loneliness]]
+**** "In some Nguni languages such as Zulu, boredom and loneliness are represented by the same word (isizungu)."
+     :PROPERTIES:
+     :ID:       b8cb61bb-6b1b-47d2-b025-8872e747cf22
+     :END:
+*** some effects and associations
+**** It falls on both sides of [[id:e32322dd-0ae6-4c7c-a619-a32accac8763][leisure v. labor]].
+**** It is credited with some [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]].
+**** can cause absent-mindedness
+**** is associated with
+***** failures of attention
+      :PROPERTIES:
+      :ID:       d2ad8e39-3f64-4f9a-af5e-e0b248f9682b
+      :END:
+      "boredom proneness is is clearly and consistently associated associated with failures of attention"
+      -- Fisher, C.D. (1993). "Boredom at work: A neglected concept" (PDF). Human Relations. 46 (3): 395–417. doi:10.1177/001872679304600305. S2CID 204327241.
+  ***
+***** ADHD
+***** depression
+***** maybe lethargy
+*** some causes
+**** excesses and dearths of challenge
+***** powerlessness
+      The meaningful challenges are impossible.
+      Feeling [[id:dc735cdb-6166-4f57-b7aa-b537b1ecb98f][lost]] in class is an example.
+***** under-utilization
+      The feasible challenges are too easy.
+**** Religious people experienced less boredom.
+     :PROPERTIES:
+     :ID:       08890bf2-524d-4ca7-b1e0-5d40945dd399
+     :END:
+     -- van Tilburg, W. A. P., Igou, E. R., Maher, P. J., Moynihan, A. B., & Martin, D. G. (2019). Bored like Hell: Religiosity reduces boredom and tempers the quest for meaning. Emotion, 19(2), 255–269. https://doi.org/10.1037/emo0000439
+**** Some blame "alienated labor".
+     (a term Karl Marx invented)
+**** "can result from leisure and a lack of aesthetic interests"
+*** aspects, feelings
+**** apathy
+**** [[id:da59dd81-02a6-4bd6-a0d6-ea9973f46377][anxiety]]
+**** [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]]
+**** low information density
+***** monotony
+***** simplicity
+**** [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurdity]]
+*** strategies for it
+**** [[id:c89ef761-2f1b-4840-89c5-6725354cf356][Desire can be a treadmill.]]
+**** common escapes from it
+     :PROPERTIES:
+     :ID:       2e896d44-3b7c-4b6e-81aa-9d1e79b1199f
+     :END:
+***** [[id:2b9e933d-ed88-4792-b80a-a9ff0988a56a][sleep]]
+***** [[id:cc3843e9-5283-4a1e-b6ba-e58ec5026dbd][daydreaming]]
+***** [[id:31567641-6ef2-4ca5-9608-5adfe10e5b8e][skills]]
+****** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
+***** [[id:de3a3ea8-8cb9-41b0-b314-efff4b075638][consumerism]]
+****** [[id:dd2c33b3-21a1-45bd-ab86-c110c40a932f][drugs]]
+****** [[id:e7a68f0b-f932-4978-9636-88a4ecbe639c][art]]
+******* [[id:ea422ea0-52f8-4aa4-8741-5261140361f0][fiction]]
+*** technical
+**** At least one study seems to conflate cause and effect when purporting to find negative effects of boredom.
+***** the study
+      https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-4679(200001)56:1%3C149::AID-JCLP14%3E3.0.CO;2-Y
+***** my critique
+      They measured students with the Boredom Proneness Scale,
+      at least some of the questions of which measure outcomes
+      ("requently, when I am working, I find myself worrying
+        about other things.")
+      not predispositions.
+***** caveats
+      Some causality probably flows in both directions,
+      and there are probably other influences too.
+* As a child I wish my [tolerance for boredom in | willingness to complain about] class had been lower.
+  I would have whined and pleaded until they advanced me.
+* [[id:ca0dfafc-e630-48aa-80ec-884d49fc74c7][More time would solve all my problems.]]

@@ -12,6 +12,11 @@
 ** [[id:2ac7f271-eea5-4d23-852f-798322eff6e2][metaphor]]
 ** technology
 *** I believe [[id:7524f42b-9db0-4531-a21d-57df5954a34e][knowledge graphs enhance self-awareness.]]
+* opposites
+** feeling [[id:dc735cdb-6166-4f57-b7aa-b537b1ecb98f][lost]]
+** [[id:d1fba1a6-848f-4ab7-8626-c192dc259c42][innocence]]
+** [[id:3a21903e-c17b-491d-a093-b49b5a38794d][blindness]]
+* [[id:90c32efc-92c8-490f-afb3-50342e6d616c][how to form a study group]]
 * [[id:57988979-26d7-43d9-863f-14d1e21b5f2f][Contrast can be funny.]]
 * [[id:28f244af-3876-4302-8aa6-4e2306024149][Hegelian synthesis is a powerful knowledge graph trick.]]
 * [[id:40a2de02-6388-4795-8280-62f4888cf7b0][AI and understanding]]

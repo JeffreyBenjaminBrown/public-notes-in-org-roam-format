@@ -3,6 +3,18 @@
 :ROAM_ALIASES: passion lust desire
 :END:
 #+title: passion | lust | desire
+* passion v. logic
+  :PROPERTIES:
+  :ID:       3b4ca951-6d38-4400-8727-ca91807f36d2
+  :END:
+** [[id:411ba191-4092-431f-a8b0-eabd8b6814cf][serious play]]
+* [[id:c6b7467b-ef3b-4217-befa-69dd9dcab028][passion v. peace]]
+* passion & mindfulness
+** imagine [[id:20498902-7288-4d65-bc57-76f1d5d35138][mindfulness, awe, in romance]]
+* My art is too much logic.
+  :PROPERTIES:
+  :ID:       417e5a7f-7563-4321-8bcc-b90c231d8ae7
+  :END:
 * Desire can be a treadmill.
   :PROPERTIES:
   :ID:       c89ef761-2f1b-4840-89c5-6725354cf356

@@ -22,6 +22,7 @@
 * refs
 ** make a Google Drive repo for rclone
    https://rclone.org/drive/
+* [[id:0992283d-f9e6-41c3-b109-3660c0afb043][my rclone backup strategy]]
 * how I configured it
   `rclone config` from the command line.
 ** [[id:484c5954-afea-4560-9cfd-2d4e14658583][my rclone secrets]]

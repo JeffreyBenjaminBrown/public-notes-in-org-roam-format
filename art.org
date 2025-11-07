@@ -3,13 +3,28 @@
 :END:
 #+title: art
 * see also [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
-* TODO Art is not always for pleasure.
+* fiction
+  :PROPERTIES:
+  :ID:       ea422ea0-52f8-4aa4-8741-5261140361f0
+  :END:
+** [[id:6fa4cc1e-d4a8-4127-bf28-9e43aab75df8][dissociation]]
+* freedom through art
+  :PROPERTIES:
+  :ID:       1b7c3c82-edc0-41dd-a026-38e6661d8382
+  :END:
+** Art is a floor on freedom.
+   :PROPERTIES:
+   :ID:       4ab66dd2-71c7-4afe-a7ee-bd6b34b6fc8d
+   :END:
+*** not necessarily the least lower bound
+** [[id:d62e732b-a828-4b9d-9ad8-f3d8a7822e0e][sharing referential slip]]
+** Ideally?, [[id:bc33441c-e184-4040-b265-0fca45248871][art breaks down ossified perception]].
+* TODO non-pleasure purposes for art
   :PROPERTIES:
   :ID:       fe4939fe-8b94-4b78-914f-f2b83d7ff9f4
   :END:
   It can help someone understand.
   It can help someone grieve.
-* Ideally?, [[id:bc33441c-e184-4040-b265-0fca45248871][art breaks down ossified perception]].
 * [[id:5ad13966-5348-4957-9d50-14f394b276ac][some private art]]
 * [[id:c7473ba8-d513-43f1-a25a-9dc05a1e0e44][things maybe only expressible through art]]
 * some kinds
@@ -31,10 +46,6 @@
 * weird
 ** Empathizing with the future in one's choice of punctuation scheme.
 ** [[id:18aa053b-e4d9-44fd-952e-d105383c4b8f][Isaiah 64:8 ESV, "we are your clay"]]
-* Art is a floor on freedom.
-  :PROPERTIES:
-  :ID:       4ab66dd2-71c7-4afe-a7ee-bd6b34b6fc8d
-  :END:
 * [[id:6669f82f-9408-4a1a-9162-863972be8150][AI and art]]
 * [[id:757da17b-b577-4ae2-ae2e-f52e099e5f65][surreal]]
 * [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]

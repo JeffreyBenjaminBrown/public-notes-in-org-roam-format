@@ -101,7 +101,7 @@
 *** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
 *** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
 *** [[id:21577208-ba52-4105-8884-355fa27f128f][fame]]
-*** [[id:d1fba1a6-848f-4ab7-8626-c192dc259c42][sanctity | purity | innocence]]
+*** [[id:d1fba1a6-848f-4ab7-8626-c192dc259c42][sanctity | purity | innocence]] and [[id:e931bd89-52c9-4fb3-9d7a-53d0cfa1ba69][cleanliness]]
 *** [[id:5ffd0819-1aae-4aac-9008-1acd99a12f25][reciprocity]]
 *** [[id:d76a35dd-8f17-4afb-8287-526e2a2384c0][individualism]]
 *** [[id:d4040ce4-85fd-4c3e-a059-3cef7162cd3f][collectivism]]
@@ -142,7 +142,7 @@
 *** [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][seriousness]]
 *** [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
 *** [[id:d3da70ea-0752-403d-a8eb-ebda828b7b7d][passion]]
-** [#B] ugly ones
+** [#B] ugly (but useful!) ones
 *** [[id:9140d17d-528b-45cd-aa6b-2876f3a15b00][loneliness]]
 *** [[id:28181732-11ed-4a6a-a998-84d40d32affb][insecurity]]
 *** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]

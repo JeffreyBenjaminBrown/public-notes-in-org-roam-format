@@ -3,6 +3,7 @@
 :ROAM_ALIASES: moderation restraint temperance
 :END:
 #+title: moderation | restraint | temperance
+* see also [[id:80cfe814-fcc1-485b-955d-4a76fdef71e1][constraint]]
 * [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][discipline]]
 * When unsure whether to disclose, investigate instead.
   :PROPERTIES:

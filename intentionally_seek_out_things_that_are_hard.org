@@ -2,4 +2,5 @@
 :ID:       e0a738a1-6bcc-4995-9c58-472f85432140
 :END:
 #+title: Intentionally seek out things that are hard.
+* Remembering having chosen it can make a hard time nicer.
 * The internet makes it too easy not to.

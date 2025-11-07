@@ -3,6 +3,8 @@
 :END:
 #+title: drama
 * [[id:7439dc05-bd70-4cf8-9337-6fc31058f71b][comedy & drama]]
+* [[id:9afa2ad3-a0e0-46b0-93a4-00dc76ff25e1][adventure]]
+* [[id:a1487b9c-70d9-493a-b61e-e512def4a0d5][freedom]]
 * drama outside of art
 ** some safe kinds
 *** intense conversation
@@ -42,3 +44,4 @@
    :END:
    We the Jury, a passage in the grandmother's voice, paraphrased.
 * [[id:15a1c3ea-304a-4b6f-9095-f82a62bc35ab][phase transitions & timing]]
+* [[id:4ed65a52-00dd-44aa-a7fb-885df30a2878][Not abstinence, but be aware of what the genes are doing, the greater drama.]]

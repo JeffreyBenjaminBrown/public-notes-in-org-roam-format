@@ -5,6 +5,14 @@
 * via imagemagick (preferred)
 ** how
    magick x.pdf y.bmp z.png output.pdf
+** to specify individual pages
+   This picks just the first and fourth page:
+   magic 'x.pdf[0]' 'x.pdf[3]' output.pdf
+*** PITFALLs
+**** The single quotes matter.
+**** Counting backward *shuold* work with negative numbers, doesn't.
+     There's a known ghostscript bug preventing it
+     from working for me as of <2025-11-04 Tue>.
 ** more
    Once, it had memory and resolution problems.
    But the last time I tried it worked fine,

@@ -8,13 +8,14 @@
 * Freedom > independence.
   Independence is that your choices are not impinged by someone.
   Freedom is about the set of possible choices.
-  e.g. [[id:4ab66dd2-71c7-4afe-a7ee-bd6b34b6fc8d][in the worst case only art]].
+    e.g. [[id:4ab66dd2-71c7-4afe-a7ee-bd6b34b6fc8d][in maybe the the worst case only art]].
 * [[id:413c6cce-ae3d-42c2-b2c8-c0b71ddbd935][Recognize sunk costs.]]
 * [[id:4ab66dd2-71c7-4afe-a7ee-bd6b34b6fc8d][Art is a floor on freedom.]]
 * [[id:2e75b219-6f4c-427f-9f61-13f618fd0e80][safety]]
 * a few kinds
 ** from people
 ** [[id:86373005-c939-4627-b848-1610fccda8bd][neuroplasticity]]
+* [[id:1b7c3c82-edc0-41dd-a026-38e6661d8382][freedom through art]]
 * [[id:2e76a07c-c6b4-4d05-968e-0bdd20ee4230][freedom & commitment]]
 * methods
 ** [[id:f4d489d8-3687-4377-8394-4d1aa16d8782][Recognize bias.]]

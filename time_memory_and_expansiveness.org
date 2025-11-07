@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       63faddd7-cfc6-4de1-8c44-9aa07fee9cbc
+:END:
+#+title: time, memory and expansiveness \\ music
+* [[id:41ec1d8d-f77b-4805-afa4-78493f8c0a7d][Feel what someone else would want to happen next.]]
+* Musical elements to make longer.
+  notes, melodies,
+  chord, chord sequences
+  rhythms
+* Thinking         to make longer.
+  :PROPERTIES:
+  :ID:       71bd0233-1803-4a48-94d5-fc8d6b79fcff
+  :END:
+  {hear, remember music, remember feelings, plan} longer-term
+* harmony / rhythm ~~ now / short-term
+  :PROPERTIES:
+  :ID:       d67f9687-f00d-4843-aef5-d2ca7f20b31b
+  :END:
+  To favor harmony over rhythm is like focusing on timbre,
+  the most immediate now possible,
+  to the exclusion of even the short term (rhythm).
+* nested time scales

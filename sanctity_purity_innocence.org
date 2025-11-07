@@ -7,9 +7,24 @@
   :PROPERTIES:
   :ID:       60369835-80af-42f3-9de5-95736ce9b0ee
   :END:
+* [[id:a06497e3-d06c-45a1-811f-f1d8e7bd877b][How to distinguish between unseriousness, overcommitment and fluctuating beliefs?]]
 * qualities
 ** something one dares not criticize
 ** something one dares not put into words
+   :PROPERTIES:
+   :ID:       f2011ee7-fddb-4e47-b020-a31c481da07f
+   :END:
 ** something doomed, which one nonetheless struggles to preserve
 * [[id:ea992d45-a415-45e5-8d8a-0171f42b1e17][sex & holiness]]
 * [[id:f3b1cc7c-1799-4a88-827c-1b81d5786109][bearing witness]]
+* cleanliness
+  :PROPERTIES:
+  :ID:       e931bd89-52c9-4fb3-9d7a-53d0cfa1ba69
+  :END:
+** [[id:d4413b1b-dddd-4002-8fdb-99084bfea25b][cleaning house >{ fitness]]
+** Maybe keep this topic pure of [[id:d1fba1a6-848f-4ab7-8626-c192dc259c42][purity]].
+* impossible standard|ideal
+  :PROPERTIES:
+  :ID:       2b4ff431-9243-42c3-90aa-b115cb34a562
+  :END:
+** [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overwhelm]], not enough time in the day

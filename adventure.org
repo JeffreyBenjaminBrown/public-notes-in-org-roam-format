@@ -4,7 +4,10 @@
 #+title: adventure
 * instances
 ** [[id:d2faa803-4b32-4ada-b4ee-212d07b028a5][romance]]
+*** [[id:7c1233c5-02e7-451e-9265-fe35fe97855c][intimacy]]
 ** [[id:86373005-c939-4627-b848-1610fccda8bd][neuroplasticity]]
-** [[id:7c1233c5-02e7-451e-9265-fe35fe97855c][intimacy]]
-* tensions
+* [[id:9a09fda2-0516-4faa-810a-25e3afd364ab][adventure v. peace]]
 ** [[id:79e4ff95-ba24-43c1-8298-e4a1372070e8][maturity & adventure]]
+* aspects
+** [[id:3f4d6eb9-0de1-46a1-ba51-9673a2790821][challenge]]
+** [[id:d3da70ea-0752-403d-a8eb-ebda828b7b7d][passion]]

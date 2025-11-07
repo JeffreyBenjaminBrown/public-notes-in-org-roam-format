@@ -3,7 +3,7 @@
 :ROAM_ALIASES: rationality logic order
 :END:
 #+title: logic | order | rationality
-* MERGE ? [[id:001d7913-c431-461c-92ae-a6a39394856c][processing]]
+* MERGE ? [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][truth]] [[id:5d06a355-657f-44c4-84be-cae4ed93a28a][logic]] [[id:001d7913-c431-461c-92ae-a6a39394856c][processing]]
 * see also
 ** [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][nothingness]]
 * [[id:b56df75b-6166-43f4-bf12-1fc2981d2ef1][control orientation]]
@@ -71,6 +71,8 @@
 ** see also
 *** the [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurd]]
 *** [[id:aa364e41-1550-4f82-95ba-6f63368388e8][overload]]
+** [[id:d1fba1a6-848f-4ab7-8626-c192dc259c42][sanctity]]
+*** [[id:f2011ee7-fddb-4e47-b020-a31c481da07f][something one dares not put into words]]
 ** [[id:dd04d72b-8f97-4fc7-92d8-1858c5323428][presence v. rationality]]
 ** [[id:e5146f0b-4cf4-4684-aeb3-cd218fa5ac86][tacit social knowledge]]
 ** [[id:c7473ba8-d513-43f1-a25a-9dc05a1e0e44][things maybe only expressible through art]]

@@ -28,6 +28,7 @@
 * [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][self-control]]
 * [[id:cc3f38e2-b1cf-4a76-9abb-eb31daf514de][self-consciousness]]
 * [[id:a963e722-1f05-46e1-a9f5-d5f874b71f8f][self-criticism]]
+* [[id:8b12f895-f36b-4ef7-a2ad-3b766a511743][self-modulation]]
 * [[id:4b9ebd95-fda4-4b60-a8bd-497513ffccaf][self-criticism & jbb]]
 * [[id:ec35b479-a37e-498d-a81f-b898c4a51552][self-harm]]
 * [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]

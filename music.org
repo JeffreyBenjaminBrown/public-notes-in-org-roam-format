@@ -3,69 +3,62 @@
 :END:
 #+title: music
 * see also
+** [[id:255a4912-7dbf-47f4-bff3-3917432616ef][taste]]
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 ** [[id:f582adf8-17e3-429f-ad70-c1243694d0ea][poems]]
-* compressing a video
-This got a long video from my phone down from 5.2 GB to 99 MB,
-<2025-10-26 Sun>:
-
-ffmpeg -i 2025-10-08_casio-keys-improv.mp4               \
-  -c:v libx264 -crf 30 -preset veryslow -vf scale=640:-1 \
-  -c:a aac -b:a 96k                                      \
-  output.mp4
-* [[id:9c91defb-133f-41fc-b357-5ea97cb44a95][variations on nested series of numbers]]
-* Mic tapping feet while playing keys. Multitrack. Strip foot track.
-* [[id:b3297b27-6fdf-4ad6-bdfa-6ddd76293ed8][self-eval : my latest music video as of <2025-10-12 Sun>]]
-* needs, interesting
-** gradual disclosure
+* Can I make this [[id:f58a9d59-2192-4075-963c-6133bf39b538][music and lyric ideas inspired by Poor Things]]? It's really good.
+* [[id:63faddd7-cfc6-4de1-8c44-9aa07fee9cbc][time, memory and expansiveness]]
+* me
+** self-doubts
+*** [[id:417e5a7f-7563-4321-8bcc-b90c231d8ae7][Is my art too much logic.]]
+** my ambitions playing
+*** solid
+    Keep that lowest bass on the one.
+*** complex
+**** longer melodies
+**** longer rhythms
+**** more rhythm
+**** variation in duration
+     both sounding and silence
+     esp. in bass
+**** more complex velocity sequences
+***** longer
+***** more detail = higher resolution
+***** some changes fast and temporary, ... (2x2)
+      some fast and persistent,
+      some slow and persistent, etc.
+*** ? novel
+** [[id:b3297b27-6fdf-4ad6-bdfa-6ddd76293ed8][self-eval : my latest music video as of <2025-10-12 Sun>]]
+** [[id:67417da7-7dd4-4955-879b-a7699202758d][songs I was writing]]
+* [[id:9ec55e32-f974-479e-8295-7d9e30156684][awareness]] \\ music
+** MERGE : [[id:01104862-9949-4373-a7d3-5472596d0f99][music and consciousness]]
+** [[id:ddf22725-9353-4923-9787-16fac6c79467][Listen on multiple channels.]]
+** [[id:0bff6b35-f8d4-4e1f-bf2f-be379b38791e][Learn to retreat to less complexity.]]
+** humility in channeling
    :PROPERTIES:
-   :ID:       0f0efb2e-ec94-4206-86c9-a5de72c7db2c
+   :ID:       ee913669-bf21-4061-823c-e31a08111142
    :END:
-   Get feedback from friends before sharing widely.
-** relax.
-*** [[id:a9541ac5-4075-4bc3-838d-8ae5ad92e5ec][Relax. It's good. Don't rush.]]
-*** [[id:0bff6b35-f8d4-4e1f-bf2f-be379b38791e][Learn to retreat to less complexity.]]
-** awareness and appreciation
-*** [[id:a9541ac5-4075-4bc3-838d-8ae5ad92e5ec][Relax. It's good. Don't rush.]]
-*** [[id:8aa426c1-b31d-410f-84ae-9af528a05c2b][Listen creatively.]]
-*** [[id:452373e9-2d85-4803-b0f1-d07312ca4ed5][physical presence]]
-** empathy
-*** [[id:e494eab2-9a1b-4a26-a49c-e236e469c12e][Swinging close to the camera is freaky.]]
-*** Feel what someone else would want to happen next.
-    :PROPERTIES:
-    :ID:       41ec1d8d-f77b-4805-afa4-78493f8c0a7d
-    :END:
-*** [[id:d206b9f1-016e-4dd2-a083-dc12d98dd157][Don't stand up.]]
-* [[id:69742fd4-42e3-455a-9676-b22df32f814e][mimicry]]
-* expansiveness
-** [[id:41ec1d8d-f77b-4805-afa4-78493f8c0a7d][Feel what someone else would want to happen next.]]
-** Some musical elements can be made longer.
-   Longer notes, longer melodies,
-   longer chords, longer chord sequences,
-   longer rhythms,
-** Someof my thinking    can be made longer.
-   {hear, remember music, remember feelings, plan} longer-term
-** harmony / rhythm ~~ now / short-term
-   :PROPERTIES:
-   :ID:       d67f9687-f00d-4843-aef5-d2ca7f20b31b
-   :END:
-   To favor harmony over rhythm is like focusing on timbre,
-   the most immediate now possible,
-   to the exclusion of even the short term (rhythm).
-** nested time scales
-* elements
-** notes
-*** volume/accent
-*** duration
-*** frequency
-*** timbre
-** note interaction dimensions
-*** rhythm
-*** melody
-*** harmony
-** relationships between note interaction dimensions
-*** [[id:d67f9687-f00d-4843-aef5-d2ca7f20b31b][harmony / rhythm ~~ now / short-term]]
+   When {speaking, playing piano, ..},
+   rather than feel, "I am saying this, it must be good",
+   recognize, "I am discovering this along with my listener".
+** [[id:71bd0233-1803-4a48-94d5-fc8d6b79fcff][kinds of thoughts to make longer]]
+** [[id:a9541ac5-4075-4bc3-838d-8ae5ad92e5ec][Relax. It's good. Don't rush.]]
+** [[id:8aa426c1-b31d-410f-84ae-9af528a05c2b][Listen creatively.]]
+** [[id:452373e9-2d85-4803-b0f1-d07312ca4ed5][physical presence]]
+* [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
+  abstract & technical
+** [[id:214c90d7-c906-492d-9633-06488c33a215][the topological counterpoints]]
+** [[id:9c91defb-133f-41fc-b357-5ea97cb44a95][variations on nested series of numbers]]
+** [[id:f6d53956-c257-419e-9394-7cabe9605bf7][a hierarchy of musical elements]]
+* keybaord tricks
+** Switch which finger holds the same sustained note for legato wanderings.
+* instrument designs
+** Mic tapping feet while playing keys. Multitrack. Strip foot track.
+** two good directions for a drum : volume and duration
+*** plus buttons for (sustain -> (*3) and (/3) the decay rate)
+    where (->) = "or better yet"
+** [[id:e86385c5-1302-47f9-b657-307d3e1849b3][sample chords to keys]]
 * attitude
 ** Relax. It's good. Don't rush.
    :PROPERTIES:
@@ -89,35 +82,21 @@ ffmpeg -i 2025-10-08_casio-keys-improv.mp4               \
    :PROPERTIES:
    :ID:       e494eab2-9a1b-4a26-a49c-e236e469c12e
    :END:
-** don't stand up
-   :PROPERTIES:
-   :ID:       d206b9f1-016e-4dd2-a083-dc12d98dd157
-   :END:
-*** [[id:a1c7913a-ecf8-453f-aa6d-046ab77dc900][example from video]]
 * what to play
 ** [[id:8aa426c1-b31d-410f-84ae-9af528a05c2b][listen creatively]]
-** Keep that lowest bass on the one
-** Learn to retreat to less complexity.
-   :PROPERTIES:
-   :ID:       0bff6b35-f8d4-4e1f-bf2f-be379b38791e
-   :END:
-*** work against the ratchet effect
-* [[id:8932d308-fbc2-4315-ade1-f1f6e1ec5921][cooperation]]
-** (rap) battles with mimicry
-   :PROPERTIES:
-   :ID:       f5b7d005-e73e-4a3a-9d51-e4abc1ba8efb
-   :END:
-*** [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]]
+* [[id:8932d308-fbc2-4315-ade1-f1f6e1ec5921][cooperation]] in music
+** [[id:f8ec8fd3-c9f2-4272-ab41-be9aa687d141][magnanimity]]
+*** (rap) battles with mimicry
+    :PROPERTIES:
+    :ID:       f5b7d005-e73e-4a3a-9d51-e4abc1ba8efb
+    :END:
+** [[id:69742fd4-42e3-455a-9676-b22df32f814e][mimicry]]
 * ear training
 ** to learn two voice harmonies
    serial, simplest first
 *** Play two tones, then two different tones.
 **** In the first pair play one first, and call that zero.
 *** Once that's good, try three pair, or two threes, etc.
-* How many things are there for two voices to do? In 7 notes? Modulo all time but past, present and future?
-  Consider all the start positions.
-  For each, consider the potential moves of either.
-  For each, consider the other's available responses.
 * Greet loved ones early.
   :PROPERTIES:
   :ID:       3c53b1de-0ff9-471a-b390-10f1f7b92506
@@ -128,31 +107,9 @@ ffmpeg -i 2025-10-08_casio-keys-improv.mp4               \
   :END:
 ** A violin is a good model for the internal monologue because it can play without a pause for breath for a very long time.
 * [[id:5ffd0819-1aae-4aac-9008-1acd99a12f25][reciprocity]]
-* my playlists
-:PROPERTIES:
-:ID:       74329979-8166-4617-aaad-0a0294b87b78
-:ROAM_ALIASES: "playlists, my"
-:END:
-** blues
-   any song in it can be any subset of
-*** blues (style)
-*** blues (mood)
-*** wistful
-** drama includes lucha, daily struggle
-** ? rename spooky to include circus
-** Maybe each playlist captures a moment and one should not try to move it from there.
-** not just "is", but "want to retain"
-*** To categorize (if at all), ask not just what a song is but what I want to keep from it.
-**** This resembles note-taking.
-     :PROPERTIES:
-     :ID:       934b7b55-f1d8-43f7-9649-f745d0d3b54c
-     :END:
+* [[id:74329979-8166-4617-aaad-0a0294b87b78][my playlists]]
 * [[id:1714269c-56fc-4c72-9faa-eebf49c6a07f][music of social experience]]
 ** [[id:1714269c-56fc-4c72-9faa-eebf49c6a07f][musical responsibility]]
-* [[id:01104862-9949-4373-a7d3-5472596d0f99][music and consciousness]]
-* Can I make this [[id:f58a9d59-2192-4075-963c-6133bf39b538][music and lyric ideas inspired by Poor Things]]? It's really good.
-* schemes
-** [[id:e86385c5-1302-47f9-b657-307d3e1849b3][sample chords to keys]]
 * [[id:62e3c8b4-3b9c-477e-838e-dcb67a3ad2d4][multitracking with Bran <2025-02-09 Sun>]]
 * Does what I recorded with Vanessa sound good?
 * Felipe Ojeda plays violin!
@@ -186,9 +143,7 @@ ffmpeg -i 2025-10-08_casio-keys-improv.mp4               \
 * [[id:3122b24d-3a03-43e6-ae58-e2247d51a1b6][composition & improvisation]]
 * [[id:1b8a682a-db24-42f7-b79a-c615baac7fed][songs, bands and styles (to play)]]
 * [[id:a2c9fc96-2d00-47bf-88ee-98cc94a3bb58][improvised multitrack recording|composition (music)]]
-* [[id:67417da7-7dd4-4955-879b-a7699202758d][songs I'm writing]]
 * [[id:4606bf23-6261-4596-95bc-faf1e9d64b3d][exercises]]
-* [[id:361aa2f3-ae91-42c1-b943-0735eb0983af][musical fundamentals]]
 * [[id:0fb050fc-28b8-48a6-914b-6d5970490d46][microtonal guitar]]
 * /home/jeff/code/music/jam-quiz
 ** includes 24-edo language quiz

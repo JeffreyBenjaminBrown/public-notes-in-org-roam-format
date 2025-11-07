@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       214c90d7-c906-492d-9633-06488c33a215
+:END:
+#+title: the topological counterpoints
+* definition
+  topological = modulo distance
+  1 2 3 = 1 2 4, etc.
+* syntax
+  Each line is a separate voice.
+  Time moves rightward.
+* the 2 voice 2 moment counterpoints
+*** parallel
+**** following close
+     1 2
+     2 3
+**** following far
+     1 2
+     3 4
+**** jumping together
+     1 3
+     2 4
+*** toward each other
+**** about the instances
+***** for each of these, reversed = away from each other
+***** crossing can be indistinguishable from not crossing
+      if the timbres are indistinguishable
+**** instances
+***** not crossing
+      1 2
+      4 3
+***** crossing
+      1 3
+      4 2
+*** swapping
+    1 2
+    2 1
+    (maybe good with an octave between them)

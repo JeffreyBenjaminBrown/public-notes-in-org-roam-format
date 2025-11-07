@@ -6,7 +6,10 @@
 ** [[id:56f38282-0eb1-41b1-bcf3-ee09c4c10ed9][when to buy drugs at Colsubsidio]]
 ** [[id:f359aef3-0438-487f-b062-896937de6372][warfarin]]
 ** [[id:f8399762-9772-4257-8439-4e466f7b1ff2][Flonase (allergy medication)]]
+* [[id:f5305f69-51d9-40d1-8de4-94a5a406e7e7][Psilocybin may extend lifespan.]]
 * [[id:fb946f5d-2eeb-490a-bd86-61661343ed55][too far away]]
 ** [[id:dc735cdb-6166-4f57-b7aa-b537b1ecb98f][lost]]
-* Drugs as a sense of place is frustrating.
-** [[id:f03e7e08-129d-4269-ae9a-00cd3df52df3][Place presumes reality.]]
+* Drugs can feel like a false home.
+  The drugged state is like a place,
+  but [[id:f03e7e08-129d-4269-ae9a-00cd3df52df3][place presumes reality]],
+  whereas a drugged state cannot (right?) be revisited with fidelity.

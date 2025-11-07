@@ -63,3 +63,9 @@
     :PROPERTIES:
     :ID:       1367f49d-3473-4325-a9d0-ee840c4fe0c7
     :END:
+* sidestep the abyss
+  :PROPERTIES:
+  :ID:       36940816-670d-4097-b1e2-41adc1980e45
+  :END:
+  "oops that was dark, let's hope nobody mentions it"
+  retracting one's neck

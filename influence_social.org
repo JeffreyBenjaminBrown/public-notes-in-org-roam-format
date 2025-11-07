@@ -43,9 +43,10 @@
 *** Who do I think would feel safe hearing it?
 *** How do I feel safe revealing it to?
 ** throwing parties
-   :PROPERTIES:
-   :ID:       1602c421-8ee0-475b-81d4-6ff4e81a15c4
-   :END:
+:PROPERTIES:
+:ID:       1602c421-8ee0-475b-81d4-6ff4e81a15c4
+:ROAM_ALIASES: "parties, throwing"
+:END:
 *** Ask peoples' availability.
     Make a spreadsheet.
     Compute sums at each date, because they are useful summary stats,

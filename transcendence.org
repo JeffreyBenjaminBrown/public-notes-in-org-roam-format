@@ -14,7 +14,8 @@
   :PROPERTIES:
   :ID:       f774613e-cc5c-4002-a85a-f91da8bff16f
   :END:
-** stories as [[id:639f85af-f376-4901-a30a-05552d47a2eb][scaffolding for experiences that don't need them]]
+** stories as scaffolding for experiences that don't need them
+*** [[id:639f85af-f376-4901-a30a-05552d47a2eb][source]] (Claude)
 * narrative freedom
 ** [[id:c4f84e79-264a-4bf0-830e-6078fbc0c8e3][Comedy destroys drama. ~~ Absurdity aids perspective.]]
 * Acceptance is worse than solution but better than [[id:227c3af6-14fc-42b2-a1ff-76313149a746][denial]].

@@ -58,3 +58,5 @@
   :END:
 ** multi-channel concurrent perception
 *** Allow approach. Make eye contact, smile. If they are looking, say hello.
+* [[id:41ec1d8d-f77b-4805-afa4-78493f8c0a7d][Feel what someone else would want to happen next.]]
+** [[id:255a4912-7dbf-47f4-bff3-3917432616ef][taste]]

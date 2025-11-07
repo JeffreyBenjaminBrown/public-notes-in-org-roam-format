@@ -4,6 +4,7 @@
 :END:
 #+title: desperation | despair | depression
 * TODO ? merge [[id:f1a5c61e-6aa2-4a74-9113-2404c8d6f674][fatalism]]
+* [[id:18e90e1d-315b-4c58-984b-96531f47683a][pessimism v. urgency]] in dating
 * [[id:99d42cca-e03f-4d44-b383-4cf5107bfeff][hope & ambition]]
 * [[id:744d2b36-74fb-4781-a436-c1e05874424a][Absurdity is not necessarily unpleasant.]]
 * rational temporary depression

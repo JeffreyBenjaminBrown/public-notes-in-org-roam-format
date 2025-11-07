@@ -3,6 +3,7 @@
 :END:
 #+title: brokenness
 * [[id:902b3bbb-54eb-4a8c-916f-a2bcaa36225b][absurdity]]
+* [[id:2b4ff431-9243-42c3-90aa-b115cb34a562][impossible standard|ideal]]
 * [[id:594df21f-51c9-485c-85a1-cf943f325219][irratinoality , inconsistency]]
 ** [[id:cdf70c35-7f43-46f7-a2d1-2e90d67be278][ethical obligations to one's other selves]]
 * [[id:512f112a-218b-4a0e-9be1-9786661b1968][imminence]]

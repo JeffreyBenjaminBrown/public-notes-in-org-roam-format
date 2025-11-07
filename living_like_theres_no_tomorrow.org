@@ -3,10 +3,13 @@
 :ROAM_ALIASES: "fast night fantasy" "living like there's no tomorrow" "There is only now." presence impermanence escape
 :END:
 #+title: presence | impermanence | escape
-* MERGE [[id:8df78d26-cbc1-4f00-abfc-d552a1cb9192][escapism]]
 * neighbors
 ** [[id:9ec55e32-f974-479e-8295-7d9e30156684][awareness]]
 ** [[id:80cfe814-fcc1-485b-955d-4a76fdef71e1][constraint]]
+* [[id:2e896d44-3b7c-4b6e-81aa-9d1e79b1199f][common escapes]]
+* Suspend disbelief to immerse.
+  For the moment, for your attention,
+  {nothing, nobody} but _ matters.
 * Do you multitask, or pay attention to every channel through which another might be speaking?
   :PROPERTIES:
   :ID:       ddf22725-9353-4923-9787-16fac6c79467
@@ -29,6 +32,9 @@
    :ID:       98bdb71b-4362-40cf-b793-679cda4020fa
    :END:
 ** [[id:fe258286-aa99-4a38-8ddf-512a965e56c2][At any second able to think your way out.]]
+** The definition is blurry.
+   Reading the news can be escapism.
+   Some people escape from family into work, and some the reverse.
 * opposites
 ** [[id:e5ee5341-7ca0-4aaf-9a76-e8d5c5e352ec][proving yourself v. enjoying others]]
 * [[id:00afd42e-f682-4447-b034-2f863cb4ac69][presence & personal]]
@@ -100,3 +106,4 @@
 ** It can also lead to recklessness.
 * [[id:9e98f2e3-4e64-4dce-a8a7-c31cc9e58f92][all sentient beings already have a pure Buddha-essence within themselves]]
 * [[id:39eb81c5-a014-4f7e-9f66-317e501b1f6e][emotional moderation]]
+* ? [[id:fee33b0e-d692-4339-a184-003ddbede807][Share news sources.]]
