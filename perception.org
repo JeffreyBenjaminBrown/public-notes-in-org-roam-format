@@ -2,10 +2,18 @@
 :ID:       c6eb0f31-04b3-4552-b52d-6bbaae98f34d
 :END:
 #+title: perception
-* [[id:0c575dde-46fd-4fcd-a9a7-1fb95ce42858][Detachment]] can heighten perception.
+* Detachment can heighten perception.
   :PROPERTIES:
-  :ID:       464e3396-cacd-4773-850c-28c4d969c45b
+  :ID:       6ae7674a-d0bd-47fd-a192-0253f29cd662
   :END:
+** Caring but calm, because caring more about something else.
+** pleasure ~balance~ higher* purpose
+   :PROPERTIES:
+   :ID:       557a869b-02ba-4c59-a5d3-5fb469a12353
+   :END:
+   (*) higher than pleasure
+*** You *should* care about (simple) pleasure, and also care more about something else.
+* [[id:51cfa59e-4138-4d2d-8cae-5dbad26b78ad][sharing v. presence]]
 * [[id:f3b1cc7c-1799-4a88-827c-1b81d5786109][bearing witness]]
 * [[id:7b24e00d-6acb-4723-9267-6a9935dddacd][Truth is an assumed property of one universe.]]
 * [[id:f4d489d8-3687-4377-8394-4d1aa16d8782][Recognize bias.]]
@@ -26,3 +34,28 @@
    "We rarely look at the real world", according to game designer Raph Koster, "we instead recognize something we have chunked, and leave it at that. [...] One might argue that the essence of much of art is in forcing us to see things as they really are rather than as we assume them to be". --Wikipedia on fun, <2025-07-09 Wed>
    https://en.wikipedia.org/wiki/Fun
 * [[id:cb2a0e54-f486-494d-a961-0c461134378c][Taking something for granted impedes creativity.]]
+* [[id:5d7ed16d-7962-4cd1-b6ce-eb54088f506d][emptiness + acceptance => better attention]]
+* pseudo-senses
+** humor
+** drama
+** gravitas
+** purpose
+** balance, literal physical
+** balance, between values
+** price
+** timing
+** space
+** proportion
+** irony
+** taste
+** empathy
+* The gaze of others imposes a kind of discipline.
+  :PROPERTIES:
+  :ID:       6774f54b-4278-467f-a022-a32dba509804
+  :END:
+** requirements (examples)
+*** appear rational, ethical, safe
+*** speak with purpose
+*** self-awareness
+    recognizing what your physical presence communicates
+** [[id:32954414-2424-4e9c-8d90-7f0875848978][Inner peace is independent of circumstance.]]

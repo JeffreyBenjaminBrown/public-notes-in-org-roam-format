@@ -1,11 +1,12 @@
 :PROPERTIES:
 :ID:       b9775088-1bd9-490f-a062-c6cfd189b65d
-:ROAM_ALIASES: energy power force work
+:ROAM_ALIASES: energy power force work strength
 :END:
 #+title: energy
 * see also [[id:80cfe814-fcc1-485b-955d-4a76fdef71e1][constraint]]
 * etymology
 ** Power implies choice; energy, only possibility.
+* [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][seriousness]]
 * kinds
 ** [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaning]]
 ** [[id:7b52eb18-91c5-4f83-be4f-40ff8a918541][motivation]]
@@ -54,3 +55,6 @@
   :PROPERTIES:
   :ID:       6ff890e1-5267-4b4a-8e88-8ea92decaa34
   :END:
+* [[id:0de19d0e-e257-466a-8cf7-c1713fed6618][power ~ tension]]
+  or at least
+  strength ~ tension

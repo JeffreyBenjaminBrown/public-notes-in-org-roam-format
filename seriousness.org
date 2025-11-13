@@ -13,7 +13,7 @@
   :ID:       2c35520b-d5d2-4b23-8cfd-0843bb10103f
   :END:
   belief in the correctness of one's choices|projects
-* It causes feelings of [[id:2e75b219-6f4c-427f-9f61-13f618fd0e80][safety]], progress, [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaning]], [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]].
+* It causes feelings of [[id:2e75b219-6f4c-427f-9f61-13f618fd0e80][safety]], [[id:1e0eb0bc-1d40-4a78-9c81-dbcef73d005e][progress]], [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaning]], [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]].
   :PROPERTIES:
   :ID:       f39c559d-1283-43fb-a140-3bb26c3bc6a0
   :END:
@@ -25,10 +25,14 @@
    :PROPERTIES:
    :ID:       2f805f9c-26b0-49e8-8459-5f39752d6f7a
    :END:
-   putting off homework, daring some degree of self-sacrifice to be with them when the moment calls for it
-** duh
-*** [[id:3fdb250d-fc7d-4b1f-becf-1d7996a9e480][laziness => evil]]
+   putting off homework, daring some degree of self-sacrifice to be with them when the time is right
+** [[id:3fdb250d-fc7d-4b1f-becf-1d7996a9e480][laziness => evil]]
 * [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
+** respect ~~ fear
+   :PROPERTIES:
+   :ID:       0887424f-e05b-4da8-bfc2-5ba8225c7ef7
+   :END:
+   (~~) is like ~ but bound more loosely (farther).
 * [[id:a55842c2-536e-4581-b04b-026715e646d1][duty]]
 * How to distinguish between unseriousness, overcommitment and fluctuating beliefs?
   :PROPERTIES:
@@ -44,3 +48,7 @@
 * [[id:ea703938-f201-4f3b-ac07-e4c8b688e9de][Speeches at beginnings and ending are important.]]
 * [[id:a0c904be-fc80-4196-99f6-809f9ba4b44f][fliration v. commitment]]
 * [[id:c703a067-d25a-4792-911e-ae123fd75154][Do I not recognize the commitment a good relationship entails?]]
+* Seriousness can be relaxing.
+:PROPERTIES:
+:ID:       de0286ab-b0b2-4a8c-af45-4dbdd81c4942
+:END:

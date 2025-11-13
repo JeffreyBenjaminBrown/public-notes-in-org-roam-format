@@ -29,6 +29,7 @@
      If I invite X,
      and Y who knows X would feel bad about not being invited,
      consider inviting Y.
+**** [[id:105be2ef-aca6-425c-8fd1-8f764dee7dcb][choosing people]]
 *** Do not try to be alone with a romantic interest early.
     :PROPERTIES:
     :ID:       f5b9fac1-c24a-44ca-b95d-0ca3c67eec54

@@ -3,6 +3,4 @@
 :END:
 #+title: idealism ! fatalism
 * Does idealism always involve sacrifice?
-* idealistic sacrifices
-** pride
-** power
+* [[id:5eb59216-a8d9-4a18-8efe-c12892035efe][big idealistic sacrifices]]

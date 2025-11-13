@@ -4,6 +4,7 @@
 :END:
 #+title: balance | peace | equilibrium | harmony | relax | calm
 * see also
+** [[id:9ec55e32-f974-479e-8295-7d9e30156684][awareness]]
 ** [[id:bf73fa6f-cd1a-4237-8bdb-7a98025cf226][wholeness]]  [[id:24fcf76a-fafa-4cb2-8312-43719f7aa207][fission]]  [[id:1a8ddfa4-0522-4c92-948a-21a97a277bcf][fusion]]  [[id:337b7071-a7ce-4451-9f2e-4f57e0ccdc06][emptiness]]
 ** [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][presence]]
 ** [[id:158fbd89-4564-4cf2-a997-ff9fa1ce7987][tension]]
@@ -11,44 +12,43 @@
 ** [[id:d3da70ea-0752-403d-a8eb-ebda828b7b7d][desire]]
 ** [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][acceptance | realism]]
 ** [[id:ee3db6a1-1143-439c-8912-10fb2a4d3b8d][numbness]]
-* [[id:fe384c77-670a-4399-904b-8085f75caf89][knowing v. peace]]
-* passion v. peace
-:PROPERTIES:
-:ID:       c6b7467b-ef3b-4217-befa-69dd9dcab028
-:ROAM_ALIASES: "peace v. passion"
-:END:
-** adventure v. peace
-:PROPERTIES:
-:ID:       9a09fda2-0516-4faa-810a-25e3afd364ab
-:ROAM_ALIASES: "peace v. adventure"
-:END:
-*** [[id:19f67792-2898-45d9-9cfe-4e6f516aa89f][boredom]]
-*** [[id:79e4ff95-ba24-43c1-8298-e4a1372070e8][maturity & adventure]]
-* [[id:1c20cf53-6b7b-4757-a08f-68ce5c7cb2d3][life vs. peace]]
-* I regret not being sufficiently relaxed.
-  :PROPERTIES:
-  :ID:       36822452-1306-402a-b914-d91e605e78e5
-  :END:
-** My going to lunch would have mean a lot to [redacted].
+** [[id:34e03fd6-963b-451c-85c8-b8063518e597][restraint]]
+* surprising sources
+** [[id:de0286ab-b0b2-4a8c-af45-4dbdd81c4942][Seriousness can be relaxing.]]
+* _ v. peace
+** [[id:fe384c77-670a-4399-904b-8085f75caf89][knowing v. peace]]
+** passion v. peace
    :PROPERTIES:
-   :ID:       6f18380e-5fb5-44cd-8333-81fff7978442
+   :ID:       c6b7467b-ef3b-4217-befa-69dd9dcab028
+   :ROAM_ALIASES: "peace v. passion"
    :END:
-* [[id:34e03fd6-963b-451c-85c8-b8063518e597][moderation]]
-* Is peace compatible with (consciously) optimizing peace?
-* [[id:20d36ee8-6f26-47ff-88cb-d85711027510][calm under stress]]
-* [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]]
-** peaceful motivation
-   :PROPERTIES:
-   :ID:       c2decf8f-87a5-41e0-86c6-a5633566acc6
-   :END:
-*** [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
-*** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
-* Recognize [[id:27e8eac8-c5aa-464b-b34e-44589338931b][bias]], in yourself and others.
+*** adventure v. peace
+    :PROPERTIES:
+    :ID:       9a09fda2-0516-4faa-810a-25e3afd364ab
+    :ROAM_ALIASES: "peace v. adventure"
+    :END:
+**** [[id:19f67792-2898-45d9-9cfe-4e6f516aa89f][boredom]]
+**** [[id:79e4ff95-ba24-43c1-8298-e4a1372070e8][maturity & adventure]]
+** [[id:1c20cf53-6b7b-4757-a08f-68ce5c7cb2d3][life vs. peace]]
+* Peace helps _
+** Peace helps empathy.
+*** I regret not being sufficiently relaxed.
+    :PROPERTIES:
+    :ID:       36822452-1306-402a-b914-d91e605e78e5
+    :END:
+**** My going to lunch would have mean a lot to [redacted].
+     :PROPERTIES:
+     :ID:       6f18380e-5fb5-44cd-8333-81fff7978442
+     :END:
+** Peace helps [[id:20d36ee8-6f26-47ff-88cb-d85711027510][calm under stress]].
+** Peace helps [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]].
+* peaceful motivation
   :PROPERTIES:
-  :ID:       f4d489d8-3687-4377-8394-4d1aa16d8782
+  :ID:       c2decf8f-87a5-41e0-86c6-a5633566acc6
   :END:
-** Recognizing your own biases frees you.
-** Recognizing others' biases {frees, protects} you from them.
+** [[id:da0f5626-c114-4f06-a5d8-231ee749d56a][time as an illusion]]
+** [[id:004af7c1-02db-4545-8691-f00135b9ed48][gratitude]]
+** [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]]
 * peace in oneself
 ** [[id:0c575dde-46fd-4fcd-a9a7-1fb95ce42858][detachment]]
 ** [[id:2f3c6dae-ded0-43f0-8b3d-0e9d095d8904][Could appreciating drama help one cope with stress?]]
@@ -69,7 +69,7 @@
 * some balances
 ** [[id:e9ac21ef-aa15-4c6a-9157-f0a79f0851a1][courage v. humility]]
 ** [[id:5498fb6a-fcf2-49e4-a6d0-aa30a615301d][reading (one's own notes) v. editing]]
-** [[id:0099068b-7ef0-4413-b3aa-18997353baa4][sharing]]
+** [[id:51cfa59e-4138-4d2d-8cae-5dbad26b78ad][sharing v. presence]]
 * some forms of peace
 ** [[id:b288df19-c02e-42fa-a4b6-4cd3c0162e52][self-respect]]
 * aspects
@@ -95,6 +95,7 @@
   :END:
 ** [[id:e7fd04ae-edf7-46a9-944b-8e9c215415c4][Give up on dumb dreams.]]
 ** [[id:b0a80dfd-0fbf-4ba7-b9b7-6ec65d2619fa][Overoptimisation impedes mental peace.]]
+*** Consciously optimizing one's peace is funny.
 ** [[id:690c551b-43f9-4913-9a2d-9dfd51dd8ba5][prayer (as in special pleading) v. peace]]
 ** [[id:c393e966-36a8-498a-b44e-0667903191f8][workaholism]]
 * tensions

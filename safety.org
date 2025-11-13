@@ -7,3 +7,4 @@
 * [[id:7c1233c5-02e7-451e-9265-fe35fe97855c][intimacy]]
 * [[id:dbcb9dd5-9a00-4fe1-bd6f-f585ac8321d7][safety v. surprise]]
 * [[id:5c946bce-fb70-45f0-8efe-24b9077b0501][happy alone first]]
+* [[id:48f50557-baa8-4d0e-869f-99050d6137d1][Security is never a matter of certainty.]]

@@ -2,5 +2,10 @@
 :ID:       c0d492d7-3e76-45d2-b87a-85cff9bab58a
 :END:
 #+title: truth v. love
-"Before speaking, ask: Is it true? kind? necessary?"
-(But what's the harm in saying true, kind, unnecessary things?)
+* "Before speaking, ask: Is it true? kind? necessary?"
+  :PROPERTIES:
+  :ID:       a3ed4a13-de45-4613-be50-9506ba6d8dc5
+  :END:
+** What's the harm in saying true, kind, unnecessary things?
+*** Maybe leaving the (obvious love) true kind things mostly nonverbal speaks them louder.
+*** Maybe that wasn't the intent behind [[id:a3ed4a13-de45-4613-be50-9506ba6d8dc5][it]], rather there are only certain subsets of those things permitted.

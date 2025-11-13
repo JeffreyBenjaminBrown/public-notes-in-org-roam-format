@@ -44,3 +44,4 @@
   :PROPERTIES:
   :ID:       628efefb-3691-4767-89e2-a5696221b3d9
   :END:
+* [[id:5d7ed16d-7962-4cd1-b6ce-eb54088f506d][emptiness + acceptance => better attention]]

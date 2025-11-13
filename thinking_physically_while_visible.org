@@ -2,4 +2,16 @@
 :ID:       7941bede-9c76-4f7e-9a71-e2bbe119120a
 :END:
 #+title: thinking physically while visible
-I want to be unembarrassed while thinking alone, reacting {surprise, laughter, seriousness ..} to thoughts, with my windows open.
+* I would like
+  while thinking alone,
+  to react {surprise, laughter, seriousness ..} to thoughts,
+  with my curtains open.
+* I don't feel free to think,
+  because I fear it looks insane.
+* It's reasonable.
+  Perusing your own knowledge, whether on paper or in your head,
+  is like a conversation. It can surprise you,
+  make you laugh, make you furrow your brow.
+
+  Tht's because the data navigator
+  is aware of only a tiny fraction of that navigated.

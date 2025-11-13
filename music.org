@@ -7,6 +7,10 @@
 ** [[id:caefb984-a505-49ac-b6ce-c0307b38b3e4][communication]]
 ** [[id:23f44ea1-7b89-4cdf-954d-770ca1483264][creativity]]
 ** [[id:f582adf8-17e3-429f-ad70-c1243694d0ea][poems]]
+* serial durations
+  (3 3 2)xN (2 2 2 2)
+  x being repetition by
+  suddenly the 3s are gone
 * Can I make this [[id:f58a9d59-2192-4075-963c-6133bf39b538][music and lyric ideas inspired by Poor Things]]? It's really good.
 * [[id:63faddd7-cfc6-4de1-8c44-9aa07fee9cbc][time, memory and expansiveness]]
 * me

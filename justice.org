@@ -19,9 +19,12 @@ Remember, notes should be surprising.
 :PROPERTIES:
 :ID:       aa879d13-804f-4de3-b9fc-a3e7c774969e
 :END:
-** How do I avoid it so completely?
-   If I am unique in that, I fail to empathize,
-   to properly imagine someone else's experience.
+** Am I special?
+*** How do I avoid evil so nearly completely?
+    I did get pickpocketed.
+      OTOH an ethics in which that was just is easy to specify.
+    If I am unique in so avoiding it, I fail to empathize,
+    to properly imagine someone else's experience.
 ** evil v. {self-awareness, true joy}
    :PROPERTIES:
    :ID:       a23ea954-0bb7-40c1-b42c-ef051cf0918b
@@ -31,8 +34,14 @@ Remember, notes should be surprising.
    :ID:       ea8796f8-7f12-4cef-bba4-367f668ea978
    :END:
 *** [[id:d81efdd0-7665-42d6-a065-1f4992fcacae][robbing the poor]]
-** [[id:bc89fad0-c79c-4725-bb24-32d1cef10578][cowardice => evil]]
-** [[id:3fdb250d-fc7d-4b1f-becf-1d7996a9e480][laziness => evil]]
+** _ => evil
+   :PROPERTIES:
+   :ID:       367f36ed-e2af-4b71-8d0f-93acd881a39a
+   :END:
+*** [[id:bc89fad0-c79c-4725-bb24-32d1cef10578][cowardice => evil]]
+*** [[id:3fdb250d-fc7d-4b1f-becf-1d7996a9e480][laziness => evil]]
+*** not recognizing the beauty of heroism => evil
+    where heroism =? kindness, patience
 ** Is (entirely?) an inequitable utility function over others' utility functions.
    esp. of the in-group's v. the out-group's
 ** cruelty

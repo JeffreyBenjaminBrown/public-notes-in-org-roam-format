@@ -2,6 +2,8 @@
 :ID:       f6695616-b2cc-438f-bab7-bcfe45ecd888
 :END:
 #+title: Claude Code
+* to update
+  claude update
 * how to install it via npm globally, bypassing NixOS
   :PROPERTIES:
   :ID:       0c1ac91a-76eb-4e0c-9cc0-64dbc25418af

@@ -59,3 +59,4 @@
   :END:
 ** In code, "pitfall" could be more clearly expressed as "danger".
 * [[id:171d333c-3222-46a4-8e09-241c0b3062d3][to feel owed more adventures by {reality, oneself}]]
+* [[id:0887424f-e05b-4da8-bfc2-5ba8225c7ef7][respect ~ fear]]

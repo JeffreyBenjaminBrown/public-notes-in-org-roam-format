@@ -9,3 +9,28 @@
 * [[id:9607095a-d876-425f-b06a-25a02a9b83f2][animals and understanding]]
 * [[id:4bc52dda-fa45-4312-aa88-05071bf35289][cooperation across species]]
 * [[id:2d578607-2b0b-477f-b2e8-fa332964f9c7][cool things chimps do]]
+* animals crossing
+  :PROPERTIES:
+  :ID:       9cfc7c3d-f52a-4a38-805d-ab2475b7fef8
+  :END:
+* A balance of processing between creatures.
+  :PROPERTIES:
+  :ID:       ebaa2fda-4ebd-4a7c-bca2-a1b091ddbe02
+  :END:
+** Balanced mind states, familiar in sequence, becomes strange in parallel.
+   It's common to balance (consciously or not)
+     one's own processing across time of different states of mind
+     such as [[id:48ca133b-8986-483c-8d47-b8a64213b571][the examples]].
+   Differently,
+     an objective observer or simulator -- both godlike conceptions --
+     world would have to dedicate processing between such states in parallel.
+** process examples
+   :PROPERTIES:
+   :ID:       48ca133b-8986-483c-8d47-b8a64213b571
+   :END:
+   "I like the taste of crab."
+   "I can fly!"
+   "There is a past."
+   "I have made my family proud."
+   "I once understood more."
+   ...

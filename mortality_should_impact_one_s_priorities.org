@@ -2,6 +2,10 @@
 :ID:       9d3a6c74-b537-45c2-be1f-5810374851e8
 :END:
 #+title: mortality pressure
+* bittersweet
+  :PROPERTIES:
+  :ID:       b8f68a2a-6b80-4228-99f9-213047807c78
+  :END:
 * [[id:1b378386-ec8d-4eb7-9eda-41cefd39dc9a][scarcity of time -> exclusivity]]
 * [[id:b5c9ebb3-57c2-4516-8db2-53ddae6dc140][right to feel, act on, and forget]]
 * Doing the wrong thing should be uncomfortable.

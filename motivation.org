@@ -4,9 +4,11 @@
 :END:
 #+title: motivation | ambition | voluntarity | intention
 * see also
+** [[id:55a3533c-da70-445b-bd9a-0b950f52b85d][hope]]
 ** [[id:b7ff0805-4a7d-4f56-85ab-78dcdf88e8f8][solution]]
 ** [[id:4c25a3eb-4f21-4c20-9fee-2a18275ca089][volition]]
 ** [[id:ceb94f7b-a3a8-4d3e-9497-d3916b992b0c][temptation]]
+* [[id:cc387929-e03c-40fb-80b6-5f8f2dafa96d][meaning]]
 * [[id:5ab7ee1e-1742-44a6-8ef7-b49ad0cbab1a][intent as posterior construction]]
 * [[id:0c575dde-46fd-4fcd-a9a7-1fb95ce42858][detachment]]
 ** [[id:20d36ee8-6f26-47ff-88cb-d85711027510][calm under stress]]

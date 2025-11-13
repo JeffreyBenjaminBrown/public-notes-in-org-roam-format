@@ -2,3 +2,15 @@
 :ID:       7aef35f2-43a8-4376-b31a-379da833254e
 :END:
 #+title: stoicism
+* stoic detachment
+  :PROPERTIES:
+  :ID:       cea5234f-6109-447c-988d-469f0d56f9be
+  :END:
+** [[id:0c575dde-46fd-4fcd-a9a7-1fb95ce42858][detachment]]
+   To care about something greater than that which depends on chance.
+*** St. Ignatius on it (calling it God)
+    :PROPERTIES:
+    :ID:       c3804943-debf-4b7a-88fd-80a84d765d5a
+    :END:
+    "so that we do not necessarily want health rather than sickness, riches rather than poverty, honor rather than dishonor, a long rather than a short life, and so in all the rest, so that we ultimately desire and choose only what is most conducive for us to the end for which God created us
+* [[id:32954414-2424-4e9c-8d90-7f0875848978][Inner peace is independent of circumstance.]]

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       bc447e1c-3a71-49c2-95b6-57d9fd9bb188
+:END:
+#+title: heroism
+* [[id:262826ac-648b-40a6-b0b5-0644ef17a3a8][patience]]
+* [[id:20d36ee8-6f26-47ff-88cb-d85711027510][calm under stress]]
+* [[id:492bfe8d-77f0-4aa2-bb33-df9fa984f0ea][courage]]
+* [[id:2bf0c161-5014-4291-8db5-70801e8a8a65][honor]]
+* [[id:c893b584-5741-4987-876f-52bfa6c399b1][sacrifice]]
+* [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]

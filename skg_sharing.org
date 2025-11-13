@@ -13,6 +13,14 @@
      there exists node N, such that
        N recursively contains S', and
        N is not overridden.
+* ONGOING multi repo
+** in config, include for each repo
+   Path to repo.
+   Author-repo shorthand.
+   Owned by user (bool).
+*** later
+    Color.
+    Privacy level (for filtering, later).
 * TODO mk_skgnode is wrong
   It sets a lot of SkgNode list fields to None.
 * TODO 'overrides' might be unnecessary
@@ -20,18 +28,11 @@
   they probably want to see that one rather than this one.
 * TODO extend clobber_none_fields_with_data_from_disk
   to handle the sharing relations in schema.tql.
-* TODO multi repo
-** in config, include for each repo
-   Path to repo.
-   Author-repo shorthand.
-   Owned by user (bool).
-   Color.
-   Privacy level (for filtering, later).
-* TODO orgnode metadata: include source repo
+* DONE orgnode metadata: include source repo
   Used for display in Emacs,
   but ignored by Rust when Emacs sends the buffer back,
   instead computed anew.
-* TODO probably : index source repo
+* ONGOING probably : index source repo
 ** seems natural, but not actually necessary
    if we're willing to have to try a few repos
    each time we look for a file
@@ -113,9 +114,9 @@
      These can be edited, to no effect.
      The way to change those is to change,
      respectively, the subscriber or the hider.
-* TODO beware merges
+* DONE beware merges
   mergeing should only be possible if the user owns both
-* TODO on save, check that edits are only to owned repos
+* DONE on save, check that edits are only to owned repos
 * later
 ** allow publishing online
    Make a page for each node.

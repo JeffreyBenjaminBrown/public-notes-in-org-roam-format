@@ -104,7 +104,9 @@
 :END:
 ** [[id:5e99170f-6c38-4705-bf3d-1b2cb9b95123][Escape yourself.]]
 ** [[id:69231ffa-db6f-4df7-b663-9e6ef7582a05][It grew from itself, explaining as it handed time to the next generation, "There are glitches that let you see the future."]]
+** [[id:0559c22f-df67-4ab7-9b27-41dffe235cf7][the anthropic principle]]
 * [[id:a5b5621c-70f4-44e8-9420-b732c26e2e13][scientific agent loop]]
 * paradox
 ** The enlightened solution might resist further optimization.
    [[id:c6d7e8b1-9c49-4d58-b4ec-2d660de58169]["Meta-Peace" through strategic under-optimization]].
+* The apostolic impulse [[id:e9a264de-ee60-4269-a6d9-05437b00f81f][is funny where it abuts the ineffable]].

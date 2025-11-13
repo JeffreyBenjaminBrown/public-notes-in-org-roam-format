@@ -17,8 +17,19 @@
   :ID:       51cfa59e-4138-4d2d-8cae-5dbad26b78ad
   :END:
 ** Moderate the felt need to respond against the desire to perceive the other.
+** the apostolic impulse
+   :PROPERTIES:
+   :ID:       4b63fe6f-7ec5-4b36-98ef-be5c75c46cf4
+   :END:
+*** can cloud one's perception of the listener
+*** can impede one's study of the good news
+*** is funny where it abuts the ineffable
+    :PROPERTIES:
+    :ID:       e9a264de-ee60-4269-a6d9-05437b00f81f
+    :END:
 * Share news sources.
   :PROPERTIES:
   :ID:       fee33b0e-d692-4339-a184-003ddbede807
   :END:
 ** I want to consume the same news sources as (some) friends.
+* [[id:8efa7fab-df08-4a2f-8fbf-e36f21fa8ee4][Intelligence can feel like a shield.]]

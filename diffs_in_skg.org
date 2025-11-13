@@ -4,6 +4,29 @@
 :END:
 #+title: diffs in skg
 = git diff views, both personal and when viewing others' data
+* deleted content justifications for a diff
+** view definition
+*** Any node with deleted content shows a "deletion justifier collection".
+*** what the DJC says
+**** in a nutshell
+     "For every child d of my child D of nodes <d>eleted from my parent, d is <c>ontained in my child C."
+**** elaboration on the nutshell
+     That top node, a "deletion justifier collection" (DJC) node,
+       describes the diff of its parent,
+       the "node with deletions to justify" (NWDJ).
+     The DJC's children are "deletion justifiers" (DJs).
+     Each DJ has a "new container" child like C,
+       and a collection like D of nodes d that were deleted from the NWDJ,
+       such that each d is contained (whether newly or not) in C.
+     All the nodes deleted from the NWDJ would be shown,
+       not just among the NWDJ's contents with a "was deleted" glyph,
+       but also grouped under the DJs (whose contents can overlap).
+** maybe ordering matters
+   and it would help to order each group of deletions under a DJ
+   in the order in which they were deleted from its parent,
+   to eyeball sequences of contiguous branches that were moved.
+** Deleted branches now orphaned are specially signaled.
+** Deleted nodes now gone
 * de novo <2025-10-19 Sun>
 ** heralds
 *** two base diff herald dimensions

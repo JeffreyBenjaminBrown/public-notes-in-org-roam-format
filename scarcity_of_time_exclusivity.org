@@ -7,3 +7,8 @@
 ** [[id:9d3a6c74-b537-45c2-be1f-5810374851e8][mortality pressure]]
 ** [[id:001d7913-c431-461c-92ae-a6a39394856c][processing]] constraints
 ** [[id:a7f710b4-8981-4dec-8567-28a646da19ba][political capital]] constraints
+* Security is never a matter of certainty.
+  :PROPERTIES:
+  :ID:       48f50557-baa8-4d0e-869f-99050d6137d1
+  :END:
+  It's hard to feel safe enough without recognizing this.

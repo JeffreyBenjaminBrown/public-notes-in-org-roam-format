@@ -3,6 +3,17 @@
 :END:
 #+title: sacrifice
 * [[id:06425bc4-741c-42f8-b365-4a21ea1ccf08][idealism ! fatalism]]
+* big idealistic sacrifices
+  :PROPERTIES:
+  :ID:       5eb59216-a8d9-4a18-8efe-c12892035efe
+  :END:
+** [[id:880c2596-e4da-486d-863d-6daff64ca89c][self]]
+** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
+** ? [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
+** surprisingly not ? [[id:186371b0-e1eb-4a62-9354-f76fb3f63bbd][pleasure]]
+   One cannot sacrifice *all* pleasure,
+   because knowing you made a big sacrifice
+   is its own kind of pleasure.
 * [[id:390cee26-7766-4cbe-98ae-455f29c3254a][Sacrifice your ego to a higher cause.]]
 * [[id:d0999d21-8eb2-4d35-abf4-0812e6a4131a][Sacrifices are a way to evidence love.]]
 * [[id:4782ccbb-be03-4823-8dfb-29f80f31a548][afterlife fantasies]]

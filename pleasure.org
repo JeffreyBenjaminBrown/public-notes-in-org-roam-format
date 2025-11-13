@@ -1,11 +1,20 @@
 :PROPERTIES:
 :ID:       186371b0-e1eb-4a62-9354-f76fb3f63bbd
+:ROAM_ALIASES: hedonism
 :END:
 #+title: pleasure
 * see also [[id:2b15a3ec-086b-4c66-af57-a03e706e1d84][joy]]
+* [[id:557a869b-02ba-4c59-a5d3-5fb469a12353][pleasure ~balance~ higher* purpose]]
+* [[id:32954414-2424-4e9c-8d90-7f0875848978][Inner peace is independent of circumstance.]]
 * independent of pleasure
 ** Some good feelings are orthogonal to it.
 ** [[id:fe4939fe-8b94-4b78-914f-f2b83d7ff9f4][One can use art (for healing) orthogonal to pleasure.]]
+* Opposites can both be pleasurable.
+  :PROPERTIES:
+  :ID:       baced92f-7d58-4410-ab2e-94a3e41552b1
+  :END:
+** There is pleasure in both laughter and in seriousness.
+** There is pleasure in both energy   and in lethargy.
 * its plasticity
 ** Pleasure is subjective.
    e.g. not everyone enjoys roller coasters
@@ -82,3 +91,4 @@
   :END:
 ** [[id:30c2a591-9ecc-49a5-b41e-6985aa005b49][The path from root to leaves should not obscure the leaves.]]
 * [[id:0a10a882-43b6-4a11-8f7e-86c43c85fdb5][Respect simple pleasures.]]
+* [[id:8283cfd5-aa72-46b8-8749-f536770b2322][anthropic God hypothesis]]

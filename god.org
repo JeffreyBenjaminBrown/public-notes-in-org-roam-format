@@ -2,7 +2,15 @@
 :ID:       16a6b4bc-5bd8-4089-b2cb-9d25cd04c670
 :END:
 #+title: God
-* see also [[id:cd9ea78e-bc53-426e-9011-70a5d8d1ccde][fate]]
+* see also
+** [[id:021bc0fa-7ec5-4f31-8156-9bcf18a2f4af][endogeneity]]
+** [[id:cd9ea78e-bc53-426e-9011-70a5d8d1ccde][fate]]
+* God can be used for [[id:cea5234f-6109-447c-988d-469f0d56f9be][stoic detachment]].
+   First part of St. Ignatius's
+   "THE FIRST PRINCIPLE AND FOUNDATION
+   From the Spiritual Exercises [23] of Ignatius of Loyola"
+   https://www.bc.edu/content/dam/files/offices/ministry/pdf/First%20Principle%20and%20Foundation%20-March%202015%20%282%29.pdf
+** [[id:c3804943-debf-4b7a-88fd-80a84d765d5a][St. Ignatius on it (calling it God)]]
 * God is funny as the highest art.
   :PROPERTIES:
   :ID:       2e3f891e-6848-48fc-b4bc-f8ce88f05900
@@ -73,3 +81,19 @@
    :END:
 *** e.g. when the lord of winds is around, things get chaotic; when the lord of jokes, comedic ...
 ** [[id:183c76a6-24f3-4b5d-9ffb-8ddb7964993d][God as imaginary emotional support pet with real effects.]]
+* the mind of God
+** see also [[id:a5b74e88-c524-4f89-b29d-1bc324a77369][memory]]
+** [[id:d49f271f-e7c9-4f37-aa2a-79e9023c5747][death & the mind of God]]
+** [[id:ebaa2fda-4ebd-4a7c-bca2-a1b091ddbe02][A balance of processing between creatures.]]
+* [[id:0559c22f-df67-4ab7-9b27-41dffe235cf7][the anthropic principle]]
+* anthropic God hypothesis
+  :PROPERTIES:
+  :ID:       8283cfd5-aa72-46b8-8749-f536770b2322
+  :END:
+  We created God, who created us.
+  Its knowing is our reason for being,
+  and our (incomplete) knowing of it feels good.
+  We are one, arranged with a particular processing distribution,
+  such that as animals we can sense some of what
+  God knows/sees/wishes/wonders (and not chooses?),
+  and sense that the totality is a coherent knowing consciousness.

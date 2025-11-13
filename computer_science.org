@@ -70,3 +70,4 @@
 ** [[id:bd3b6d2b-6f8b-4dcc-bd52-fe288d3f0a11][pipe (computer science)]]
 * [[id:974cd67d-8c30-414d-aeb0-f832a21e08b4][calculations , some cool]] (if infeasible)
 * [[id:d64ec5df-18d1-4a91-bda2-05bed28fc5a9][danger & programming]]
+* [[id:ebaa2fda-4ebd-4a7c-bca2-a1b091ddbe02][A balance of processing between creatures.]]

@@ -8,6 +8,7 @@
 ** [[id:e2b7487d-7cdd-4a8d-b9ce-26f941ae05ec][information]]
 ** [[id:514fe55a-d22c-4e6a-9b0f-3a01a89742db][pressure: anticipate and handle]]
 * [[id:195adeee-dc48-4aa1-9e88-0c33a225b583][gambling]]
+* [[id:48f50557-baa8-4d0e-869f-99050d6137d1][Security is never a matter of certainty.]]
 * [[id:a91350ce-7a84-4be6-a4f3-6c174ae8abea][how to prioritize tasks]]
 * moderation of optimization
   :PROPERTIES:
@@ -30,6 +31,7 @@
     Music lets you move between intellectually demanding tasks and easy ones without interrupting the stream.
 *** [[id:4017c25d-ec4d-4f41-aaed-e3be02dba620][weird]]
     Channeling the podcasters by listening would also be an interesting flow state.
+** [[id:6ae7674a-d0bd-47fd-a192-0253f29cd662][Detachment can heighten perception.]]
 ** [[id:8111ad4a-2b92-4899-beca-3a66b6cb3ce9][Being present with someone is special.]]
 ** [[id:24d6df8e-d78e-46da-9261-1994c62e5061][Is too much self-awareness bad?]]
 * anti-neighbors

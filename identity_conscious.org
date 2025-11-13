@@ -10,6 +10,15 @@
 ** [[id:2d6d5616-2f98-4b5f-8999-382b5371514a][One's sense of the absurd is personal.]]
 * Be yourself.
 ** [[id:3804f96e-3cbd-4566-bd70-45ba27faaa26][Am I violent to my instinct to write someone just after seeing them?]]
+* Does self-talk {conjure, defend, obscure} the self?
+  :PROPERTIES:
+  :ID:       cf075eee-56aa-4861-a280-6b8fe648f4ce
+  :END:
+  Maybe the words in my head tie me to my sense of myself.
+  They certainly tie me to *a* sense of myself.
+  The self that remains when I quiet those words,
+    might be one I know less well, and
+    might be a {more general, bigger, more empathetic} one.
 * Selfward is sometimes the least educational choice.
   :PROPERTIES:
   :ID:       a39b2ed1-188e-4d65-95f7-d1a4dacc6437

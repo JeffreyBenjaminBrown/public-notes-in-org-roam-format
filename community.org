@@ -7,9 +7,12 @@
   :ID:       8dcdbd8b-990f-4b64-b3c9-e9712fcf54be
   :END:
 ** [[id:7cc0b99e-d0a0-4a3f-bcd0-f529a67855e8][outreach]]
+* ? [[id:dd1129d3-7d00-4e7b-bc9b-27c0d9d3b996][acceptance]]
+* [[id:e559b2cf-93af-4522-861c-82a2e9d6f670][commitment]]
 * [[id:2e75b219-6f4c-427f-9f61-13f618fd0e80][safety]]
 * [[id:f514b748-c188-4b71-afcd-48206b62a67e][community-building]]
 * [[id:72cbafe2-fab2-413f-b78e-ff81f94c3599][embarrassing ambitions & community]]
+* [[id:7a5de32a-80cc-4e27-b92d-8a336e04f516][Others provide meaning and focus, both consciously and less so.]]
 * [[id:692f7cf2-5d80-4bf2-bbd3-59db334b00c3][How radically different would we be?]]
 * [[id:c3d3f28c-5892-4deb-86dd-e8f490a24b1d][collective understanding]]
 * [[id:8932d308-fbc2-4315-ade1-f1f6e1ec5921][cooperation]]
@@ -20,3 +23,10 @@
   :ID:       be3b9448-a751-4f82-8db7-ae0e551561bc
   :END:
 ** Can usually move along crowd's vector; occasionally smushed.
+* choosing people
+  :PROPERTIES:
+  :ID:       105be2ef-aca6-425c-8fd1-8f764dee7dcb
+  :END:
+** [[id:4b18cc70-999c-4b51-b966-c2f4a1cdf82a][self-respect v. acquiring taste]]
+   in this case a taste for someone
+* [[id:6774f54b-4278-467f-a022-a32dba509804][The gaze of others imposes a kind of discipline.]]

@@ -11,6 +11,12 @@
   :PROPERTIES:
   :ID:       3459fbda-0e97-4c14-9f0a-9b507d1e759c
   :END:
+** ?
+*** [[id:7941bede-9c76-4f7e-9a71-e2bbe119120a][think physically while visible]]
+*** Come home.
+**** [[id:8b0040c0-243b-43d4-8cc8-e9b3ffb35180][comfort]]
+**** [[id:4af09a9a-af4b-4213-b570-bda5c17e7547][confidence]]
+*** [[id:4f312550-0ef7-4115-99ae-9072442aa01c][Speak on behalf of the trees.]]
 ** terminal ones
 *** [[id:a7404dc2-004e-43d5-b8c6-862601cd2c03][self-improvement]]
 **** [[id:91dc626c-36e2-4dc6-9c4f-fdea453c838e][humility]]
@@ -26,15 +32,19 @@
 *** [[id:0a6dcf44-6c2c-432a-90a7-babfbb3e0b7d][justice]]
 *** [[id:682c092d-0e94-4095-b03f-dae9aa245619][utopia , perfect experience]]
 *** [[id:18f5276c-8d23-4aea-be2b-ef364772d448][magic]]
-** terminal negative ones -- hopes for the removal of
-*** [[id:8b9a976f-2587-4c9f-95a9-eae483550d7b][pain]]
-*** [[id:9140d17d-528b-45cd-aa6b-2876f3a15b00][loneliness]]
-*** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
-** intermediate ones
+** ?intermediate ones
+   Hedonism could make any of these, and maybe anything at all,
+   into a terminal hope, an atomic pleasure.
 *** [[id:8cd7a9de-4652-4728-b57f-748e61cf94e7][health]]
+*** [[id:62693433-3e22-4624-b229-002f7d2d9332][Dream]] more consciously, usefully.
 *** [[id:b9775088-1bd9-490f-a062-c6cfd189b65d][power]]
 *** [[id:6cc406fa-3f78-48e3-8eea-2d18cc20b6bf][money]]
 *** [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
+*** [[id:ac9caea1-3d84-41eb-afc9-16018c542f16][sermons]]
+** imaginable, impractical
+*** Be [[id:29617650-2f29-402e-b198-9c423b32bd52][lords of kinds]].
+*** [[id:ed4c857b-d25e-442c-8c29-6e43f2b8454f][immortality through identity loss]]
+*** Be death and drugs. Everyone smokes you, glimpsing.
 * anti-values
 ** [[id:27f9e7f9-f2d4-48f2-80f9-d3443080681f][nihilism]]
 * [[id:f532dbb0-3a30-4692-b657-2213898787e8][courage vs. comfort]]

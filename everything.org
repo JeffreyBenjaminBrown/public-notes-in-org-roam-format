@@ -95,6 +95,7 @@
    :PROPERTIES:
    :ID:       5317889b-f4dc-4f90-8c45-63a58c73260f
    :END:
+*** [[id:b8f68a2a-6b80-4228-99f9-213047807c78][bittersweet]]
 *** [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][escape]]
 *** [[id:2208f9f5-43be-49d4-99c0-d803f8c3e44e][pride]]
 *** [[id:83c7d5bd-c7c1-487a-aaba-75c5a2a79507][loyalty]]
@@ -112,6 +113,9 @@
    :ID:       157ed249-caa2-4b5c-af8d-9aaa51c93a04
    :END:
 *** [[id:aa879d13-804f-4de3-b9fc-a3e7c774969e][evil]]
+*** [[id:8b9a976f-2587-4c9f-95a9-eae483550d7b][pain]]
+*** [[id:9140d17d-528b-45cd-aa6b-2876f3a15b00][loneliness]]
+*** [[id:97cfad8a-0d5e-4fca-915b-c6b13ac8b788][fear]]
 *** [[id:748ef797-bf79-4211-b333-d99c448444d9][hate]]
 *** [[id:74a00d03-5790-4851-b52e-6d2108eabfef][irresponsibility]]
 **** but see [[id:c0d17892-182e-45f8-b86d-a5a5b3bba61e][presence]]
@@ -160,6 +164,7 @@
 *** [[id:94ad699e-517a-4424-b3bf-7a0f0427f385][luck]]
 ** instances
 *** [[id:021bc0fa-7ec5-4f31-8156-9bcf18a2f4af][endogeneity]]
+*** [[id:bc447e1c-3a71-49c2-95b6-57d9fd9bb188][heroism]]
 *** [[id:ed75b1e5-4e6e-41a8-85cd-379161aa16e6][fate]]
 *** [[id:97565ea6-dddf-416c-a1fb-98bce5ec3c8c][Values are stories.]]
 *** [[id:92cb5b77-ce0e-4e11-8e9e-3be146688fcf][comedy]] | laughter
