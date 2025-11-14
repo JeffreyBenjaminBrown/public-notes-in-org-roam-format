@@ -23,9 +23,9 @@ https://github.com/magnetophon/nixosConfig/
   some top-level .nix files from which I have emulated
 https://github.com/musnix/musnix
   Not sure what it gets me.
-https://nixos.wiki/wiki/JACK
+https://wiki.nixos.org/wiki/JACK
   The first part is not obsolete, right?
-https://nixos.wiki/wiki/Audio
+https://wiki.nixos.org/wiki/Audio
   pretty weak -- ALSA section is out of date, doesn't link to JACK section
 ** TODO promising places I've spoken
 https://github.com/musnix/musnix/issues/100

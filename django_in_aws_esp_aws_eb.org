@@ -9,7 +9,7 @@
 * WART: sidestepping the Python, virtualenv, NixOS headache
   AWS suggests using a virtualenv to install Django from pip.
   Python and virtualenv are confusing on NixOS:
-    https://nixos.wiki/wiki/Python
+    https://wiki.nixos.org/wiki/Python
   So I'm just using Docker -- specifically tax.co.
 * once, run `django-admin startproject ebdjango`
   Like `stack new`, this writes a new project (filetree)
